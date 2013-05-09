@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<rss version="2.0">
+ <channel>
+  <title>Cognitive Dissonance: Posts tagged 'programming'</title>
+  <description>Cognitive Dissonance: Posts tagged 'programming'</description>
+  <link>http://rmm.meta.ph/tags/programming.html</link>
+  <lastBuildDate>Thu, 09 May 2013 12:43:11 PHT</lastBuildDate>
+  <pubDate>Thu, 09 May 2013 12:43:11 PHT</pubDate>
+  <ttl>1800</ttl>
+  <item>
+   <title>The Y Combinator in Six Easy Steps</title>
+   <link>http://rmm.meta.ph/2013/05/the-y-combinator-in-six-easy-steps.html?utm_source=programming&amp;utm_medium=RSS</link>
+   <guid>urn:http-rmm-meta-ph:-2013-05-the-y-combinator-in-six-easy-steps-html</guid>
+   <pubDate>Thu, 09 May 2013 12:43:11 PHT</pubDate>
+   <description>
+&lt;html&gt;&lt;img src="http://rmm.meta.ph/img/1x1.gif?utm_source=programming&amp;amp;utm_medium=RSS&amp;amp;utm_campaign=%2F2013%2F05%2Fthe-y-combinator-in-six-easy-steps.html" height="1" width="1"&gt;&lt;/img&gt;
+ &lt;p&gt;A lot of us have been taught that to be able to define a recursive procedure, the recursive invocation must "use" the name of the recursive procedure. The &lt;a href="http://en.wikipedia.org/wiki/Fixed-point_combinator#Y_combinator"&gt;Y combinator&lt;/a&gt;, however, lets us perform recursion, without referring to the named identifier.&lt;/p&gt;
+ &lt;p&gt;The Y combinator has been both a source of inspiration and frustration for many. It evokes a eureka-like sensation once you get past the wall, but it also renders us scratching our heads when it just doesn't make sense to traverse the labyrinth. This post aims to bring my own approach on how to derive the Y combinator. It may not be the most elegant way, but it may work for you.&lt;/p&gt;
+ &lt;p&gt;In the code examples in this post, the &lt;code&gt;&amp;gt;&lt;/code&gt; symbol denotes the prompt symbol for your Scheme implementation.&lt;/p&gt;
+ &lt;p&gt;Let's start by defining a procedure named &lt;code&gt;sum0&lt;/code&gt; that computes the &lt;a href="https://en.wikipedia.org/wiki/Summation"&gt;summation&lt;/a&gt; of a positive integer, down to zero. In the following snippet, the recursive call happens when &lt;code&gt;sum0&lt;/code&gt; is applied in the else part of the condition.&lt;/p&gt;
+ &lt;pre class="brush: scheme"&gt;&amp;gt; (define sum0
+    (lambda (n)
+      (if (zero? n)
+          0
+          (+ n (sum0 (- n 1))))))
+&amp;gt; (sum0 100)
+5050&lt;/pre&gt;
+ &lt;p&gt; You have have observed that I have defined &lt;code&gt;sum0&lt;/code&gt; using an explicit &lt;code&gt;lambda&lt;/code&gt;. You'll see shortly, why.&lt;/p&gt;
+ &lt;p&gt;Let's break that procedure futher, into more elementary components, and we'll apply it, using &lt;a href="https://en.wikipedia.org/wiki/Currying"&gt;currying&lt;/a&gt;.&lt;/p&gt;
+ &lt;pre class="brush: scheme"&gt;&amp;gt; (define sum0
+    (lambda (f)
+      (lambda (n)
+        (if (zero? n)
+            0
+            (+ n ((f f) (- n 1)))))))
+&amp;gt; ((sum0 sum0) 100)
+5050&lt;/pre&gt;
+ &lt;p&gt; The extra &lt;code&gt;lambda&lt;/code&gt; was needed because we needed to have a way to "anonymize" the recursive procedure. In this case, we used the identifier &lt;code&gt;f&lt;/code&gt; to bind to the recursive procedure, which is &lt;code&gt;sum0&lt;/code&gt;, itself. The weird-looking &lt;code&gt;((f f) ...&lt;/code&gt; is needed, because we have to perform the same procedure invocation method used initially: &lt;code&gt;((sum0
+sum0) 100)&lt;/code&gt;.&lt;/p&gt;
+ &lt;p&gt;We're now going to exploit that property, to use a "nameless" approach, that is, without using the &lt;code&gt;sum0&lt;/code&gt; name.&lt;/p&gt;
+ &lt;pre class="brush: scheme"&gt;&amp;gt; (((lambda (f)
+      (lambda (n)
+        (if (zero? n)
+            0
+            (+ n ((f f) (- n 1))))))
+    (lambda (f)
+      (lambda (n)
+        (if (zero? n)
+            0
+            (+ n ((f f) (- n 1)))))))
+   100)
+5050&lt;/pre&gt;
+ &lt;p&gt; Take note, that at this point, we're no longer using the &lt;code&gt;sum0&lt;/code&gt; name, to refer the the definition, except for later.&lt;/p&gt;
+ &lt;p&gt;Next, we need to move the &lt;code&gt;(f f)&lt;/code&gt; part outside, to isolate the general (Y combinator), from the specific (&lt;code&gt;sum0&lt;/code&gt;) code.&lt;/p&gt;
+ &lt;pre class="brush: scheme"&gt;&amp;gt; (((lambda (f)
+      ((lambda (p)
+         (lambda (n)
+           (if (zero? n)
+               0
+               (+ n (p (- n 1))))))
+       (lambda (v) ((f f) v))))
+    (lambda (f)
+      ((lambda (p)
+         (lambda (n)
+           (if (zero? n)
+               0
+               (+ n (p (- n 1))))))
+       (lambda (v) ((f f) v)))))
+   100)
+5050&lt;/pre&gt;
+ &lt;p&gt; During the procedure application, the identifier &lt;code&gt;p&lt;/code&gt; will be bound to &lt;code&gt;(lambda (v) ((f f) v))&lt;/code&gt;, and the identifier &lt;code&gt;v&lt;/code&gt; will be bound to &lt;code&gt;(-
+n 1)&lt;/code&gt;.&lt;/p&gt;
+ &lt;p&gt;Finally, we're going to isolate the Y combinator, from the &lt;code&gt;sum0&lt;/code&gt; procedure.&lt;/p&gt;
+ &lt;pre class="brush: scheme"&gt;&amp;gt; (((lambda (x)
+      ((lambda (f)
+         (x (lambda (v) ((f f) v))))
+       (lambda (f)
+         (x (lambda (v) ((f f) v))))))
+    (lambda (p)
+      (lambda (n)
+        (if (zero? n)
+            0
+            (+ n (p (- n 1)))))))
+   100)
+5050&lt;/pre&gt;
+ &lt;p&gt; We replace the &lt;code&gt;sum0&lt;/code&gt;-specific definition with &lt;code&gt;x&lt;/code&gt;. This requires us again, to create an enveloping &lt;code&gt;lambda&lt;/code&gt;. Since &lt;code&gt;x&lt;/code&gt; is bound to the computing procedure, we no longer need to repeat it.&lt;/p&gt;
+ &lt;p&gt;Optionally, we can explicitly create separate procedure definitions for the Y combinator itself, and the &lt;code&gt;sum0&lt;/code&gt; procedure.&lt;/p&gt;
+ &lt;pre class="brush: scheme"&gt;&amp;gt; (define y
+    (lambda (x)
+      ((lambda (f)
+         (x (lambda (v) ((f f) v))))
+       (lambda (f)
+         (x (lambda (v) ((f f) v)))))))
+&amp;gt; (define %sum0
+    (lambda (p)
+      (lambda (n)
+        (if (zero? n)
+            0
+            (+ n (p (- n 1)))))))
+&amp;gt; (define sum0 (y %sum0))
+&amp;gt; (sum0 100)
+5050&lt;/pre&gt;
+ &lt;p&gt; I hope this post has been useful in making you understand the Y combinator, currying, and procedure application. Please post your comments and suggestions, below. &amp;lt;-:&lt;/p&gt;&lt;/html&gt;</description></item></channel></rss>
