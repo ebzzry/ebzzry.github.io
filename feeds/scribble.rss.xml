@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<rss version="2.0">
+ <channel>
+  <title>Deceptively Simple: Posts tagged 'scribble'</title>
+  <description>Deceptively Simple: Posts tagged 'scribble'</description>
+  <link>http://rmm.meta.ph/tags/scribble.html</link>
+  <lastBuildDate>Fri, 17 May 2013 13:48:55 PHT</lastBuildDate>
+  <pubDate>Fri, 17 May 2013 13:48:55 PHT</pubDate>
+  <ttl>1800</ttl>
+  <item>
+   <title>A Scribble Tutorial</title>
+   <link>http://rmm.meta.ph/2013/05/a-scribble-tutorial.html?utm_source=scribble&amp;utm_medium=RSS</link>
+   <guid>urn:http-rmm-meta-ph:-2013-05-a-scribble-tutorial-html</guid>
+   <pubDate>Fri, 17 May 2013 13:48:55 PHT</pubDate>
+   <description>
+&lt;html&gt;&lt;img src="http://rmm.meta.ph/img/1x1.gif?utm_source=scribble&amp;amp;utm_medium=RSS&amp;amp;utm_campaign=%2F2013%2F05%2Fa-scribble-tutorial.html" height="1" width="1"&gt;&lt;/img&gt;
+ &lt;h1&gt;&lt;a name="introduction" class="anchor"&gt;&lt;/a&gt;Introduction&lt;/h1&gt;
+ &lt;h1&gt;&lt;a name="command-line-usage" class="anchor"&gt;&lt;/a&gt;Command line usage&lt;/h1&gt;
+ &lt;h1&gt;&lt;a name="basics" class="anchor"&gt;&lt;/a&gt;Basics&lt;/h1&gt;
+ &lt;p&gt;@title{} @section{} @subsection{} @smaller{} @larger{} @bold{} @italic{} @itemlist[], @item{}&lt;/p&gt;
+ &lt;p&gt;@tabular&lt;a href="list (list @bold{Animal} @bold{Food}"&gt;#:sep @hspace[1&lt;/a&gt; (list "mouse"       "cookie") (list "moose"       "muffin"))]&lt;/p&gt;
+ &lt;p&gt;# Output types&lt;/p&gt;&lt;/html&gt;</description></item></channel></rss>
