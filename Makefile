@@ -1,9 +1,20 @@
-.PHONY: gh meta all
+.PHONY: all upload build preview
 
-all: gh meta
+all: upload build preview
 
-gh:
+upload:
 	git push origin master
-
-meta:
 	rsync -avz --delete ./ meta.ph:public_html
+
+build:
+	raco frog -b
+
+serve:
+	raco frog -p
+
+buildserve:
+	raco frog -bp
+
+bs: buildserve
+
+
