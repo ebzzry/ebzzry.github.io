@@ -4,9 +4,17 @@
   <title>Deceptively Simple: Posts tagged 'scheme'</title>
   <description>Deceptively Simple: Posts tagged 'scheme'</description>
   <link>http://rmm.meta.ph/tags/scheme.html</link>
-  <lastBuildDate>Thu, 09 May 2013 12:43:11 PHT</lastBuildDate>
-  <pubDate>Thu, 09 May 2013 12:43:11 PHT</pubDate>
+  <lastBuildDate>Tue, 21 May 2013 19:18:33 PHT</lastBuildDate>
+  <pubDate>Tue, 21 May 2013 19:18:33 PHT</pubDate>
   <ttl>1800</ttl>
+  <item>
+   <title>Usync: Yet Another Data Synchronizer</title>
+   <link>http://rmm.meta.ph/2013/05/usync-yet-another-data-synchronizer.html?utm_source=scheme&amp;utm_medium=RSS</link>
+   <guid>urn:http-rmm-meta-ph:-2013-05-usync-yet-another-data-synchronizer-html</guid>
+   <pubDate>Tue, 21 May 2013 19:18:33 PHT</pubDate>
+   <description>
+&lt;html&gt;&lt;img src="http://rmm.meta.ph/img/1x1.gif?utm_source=scheme&amp;amp;utm_medium=RSS&amp;amp;utm_campaign=%2F2013%2F05%2Fusync-yet-another-data-synchronizer.html" height="1" width="1"&gt;&lt;/img&gt;
+ &lt;p&gt;I just released my trivial file synchronizer, uncreatively named &lt;strong&gt;Usync&lt;/strong&gt;, written in &lt;a href="http://www.scsh.net"&gt;Scsh&lt;/a&gt;. The online repository is located at &lt;a href="http://github.com/ebzzry/usync"&gt;http://github.com/ebzzry/usync&lt;/a&gt;.&lt;/p&gt;&lt;/html&gt;</description></item>
   <item>
    <title>The Y Combinator in Six Easy Steps</title>
    <link>http://rmm.meta.ph/2013/05/the-y-combinator-in-six-easy-steps.html?utm_source=scheme&amp;utm_medium=RSS</link>

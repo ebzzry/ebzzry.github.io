@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+ <title type="text">Deceptively Simple: Posts tagged 'networking'</title>
+ <link rel="self" href="http://rmm.meta.ph/feeds/networking.atom.xml"></link>
+ <link href="http://rmm.meta.ph/tags/networking.html"></link>
+ <id>urn:http-rmm-meta-ph:-tags-networking-html</id>
+ <updated>2013-05-21T19:18:33Z</updated>
+ <entry>
+  <title type="text">Usync: Yet Another Data Synchronizer</title>
+  <link rel="alternate" href="http://rmm.meta.ph/2013/05/usync-yet-another-data-synchronizer.html?utm_source=networking&amp;utm_medium=Atom"></link>
+  <id>urn:http-rmm-meta-ph:-2013-05-usync-yet-another-data-synchronizer-html</id>
+  <published>2013-05-21T19:18:33Z</published>
+  <updated>2013-05-21T19:18:33Z</updated>
+  <author>
+   <name>Rommel Martinez</name></author>
+  <content type="html">
+&lt;html&gt;&lt;img src="http://rmm.meta.ph/img/1x1.gif?utm_source=networking&amp;amp;utm_medium=Atom&amp;amp;utm_campaign=%2F2013%2F05%2Fusync-yet-another-data-synchronizer.html" height="1" width="1"&gt;&lt;/img&gt;
+ &lt;p&gt;I just released my trivial file synchronizer, uncreatively named &lt;strong&gt;Usync&lt;/strong&gt;, written in &lt;a href="http://www.scsh.net"&gt;Scsh&lt;/a&gt;. The online repository is located at &lt;a href="http://github.com/ebzzry/usync"&gt;http://github.com/ebzzry/usync&lt;/a&gt;.&lt;/p&gt;&lt;/html&gt;</content></entry></feed>
