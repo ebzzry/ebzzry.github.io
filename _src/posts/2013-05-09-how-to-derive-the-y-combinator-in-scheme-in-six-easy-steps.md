@@ -1,6 +1,6 @@
     Title: The Y Combinator in Six Easy Steps
     Date: 2013-05-09T12:43:11
-    Tags: scheme, racket, lisp, programming
+    Tags: scheme, racket, programming
 
 A lot of us have been taught that to be able to define a recursive
 procedure, the recursive invocation must "use" the name of the
