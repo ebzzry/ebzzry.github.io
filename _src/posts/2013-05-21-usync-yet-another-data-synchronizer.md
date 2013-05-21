@@ -5,4 +5,4 @@
 I just released my trivial file synchronizer, uncreatively named
 **Usync**, written in [Scsh](http://www.scsh.net). The online
 repository is located at
-[http://github.com/ebzzry/usync](http://github.com/ebzzry/usync).
+[GitHub](http://github.com/ebzzry/usync).

@@ -1,6 +1,6 @@
 .PHONY: all upload build preview
 
-all: upload build preview
+all: buildserve
 
 upload:
 	git push origin master
@@ -16,5 +16,3 @@ buildserve:
 	raco frog -bp
 
 bs: buildserve
-
-
