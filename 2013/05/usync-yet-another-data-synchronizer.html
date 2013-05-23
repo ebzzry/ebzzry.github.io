@@ -29,11 +29,38 @@
   <div class="container-fluid">
    <div class="row-fluid">
     <div id="left-sidebar" class="span2 bs-docs-sidebar">
+     <div>
+      <p>On this page:
+       <ol class="nav nav-list bs-docs-sidenav">
+        <li><a href="#introduction">Introduction</a></li>
+        <li><a href="#basic-usage">Basic Usage</a></li>
+        <li><a href="#semi-advanced-usage">Semi-advanced Usage</a></li>
+        <li><a href="#caveats">Caveats</a></li></ol></p></div>
      <p>&nbsp;</p></div>
     <div id="content" class="span8">
      <h1>Usync: Yet Another Data Synchronizer</h1>
      <p>2013-05-21 :: <a href="/tags/scheme.html">scheme</a>, <a href="/tags/programming.html">programming</a>, <a href="/tags/networking.html">networking</a></p>
      <p>I just released my trivial file synchronizer, uncreatively named <strong>Usync</strong>, written in <a href="http://www.scsh.net">Scsh</a>. The online repository is located at <a href="http://github.com/ebzzry/usync">GitHub</a>.</p>
+     <h3><a name="introduction" class="anchor"></a>Introduction</h3>
+     <p>Usync is a site-to-site synchronization program written in <a href="http://www.scsh.net">Scsh</a>. It makes use of <a href="http://www.cis.upenn.edu/~bcpierce/unison/">unison</a>, and <a href="https://rsync.samba.org/">rsync</a>, for bi- and uni-directional synchronizations, respectively.</p>
+     <h3><a name="basic-usage" class="anchor"></a>Basic Usage</h3>
+     <p>To perform two-way synchronization of the directory <code>/pub/yot/ninam</code>, between the current host, to the hosts <code>tarupam</code>, and <code>taubetmo</code>, while preserving the directory structure remotely (take note, that there must be no spaces between the hosts specification, due to the IFS environment variable, found in most shells):</p>
+     <pre>usync /pub/yot/ninam/ tarupam,taubetmo</pre>
+     <p> The command above will perform two-way synchronization of the diretory <code>ninam/</code> found under <code>/pub/yot/</code>, to <code>tarupam:/pub/yot/</code>, and <code>taubetmo:/pub/yot/</code>.</p>
+     <p>Using our example above, the two-way synchronization system basically tells that if the tree <code>tarupam:/pub/yot/ninam/</code> contains new and/or updated items, compared with <code>localhost:/pub/yot/ninam/</code>, and <code>localhost:/pub/yot/ninam/</code> also happens to have new and/or updated items, then, they will trade updates.</p>
+     <p>Ideally, the result is that <code>localhost:/pub/yot/ninam/</code>, <code>tarupam:/pub/yot/ninam/</code>, and <code>taubetmo:/pub/yot/ninam/</code>, are all equal.</p>
+     <h3><a name="semi-advanced-usage" class="anchor"></a>Semi-advanced Usage</h3>
+     <p>It is also possible to perform synchronization of multiple files, and directories, to remote hosts. To do so, run:</p>
+     <pre>usync /pub/yot/ninam/ ~/file.text ~reyn/*.blend tarupam,taubetmo</pre>
+     <p> The command above will perform two-way synchronization of the paths <code>/pub/yot/ninam/</code>, <code>~/file.text</code>, and <code>~reyn/*.blend</code> to the remote hosts <code>tarupam</code>, and <code>taubetmo</code>, using the same directory structuring system described above.</p>
+     <p>If you want to perform one-way synchronization, of the above, like <code>rsync</code>, run:</p>
+     <pre>usync --one-way --prefer-local /pub/yot/ninam/ ~/file.text ~reyn/draft.blend tarupam,taubetmo</pre>
+     <p> For more usage information, run:</p>
+     <pre>usync --help</pre>
+     <h3><a name="caveats" class="anchor"></a>Caveats</h3>
+     <ol>
+      <li>This program has been used on FreeBSD, hence making the shebang</li></ol>
+     <p>line contain <code>/usr/local/bin/scsh</code>. Please change it, accordingly.</p>
      <p>
       <quote>&nbsp;</quote></p>
      <p>
