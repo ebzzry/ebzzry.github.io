@@ -14,9 +14,9 @@
    <pubDate>Wed, 29 May 2013 15:10:34 PHT</pubDate>
    <description>
 &lt;html&gt;&lt;img src="http://rmm.meta.ph/img/1x1.gif?utm_source=blogging&amp;amp;utm_medium=RSS&amp;amp;utm_campaign=%2F2013%2F05%2Flivescribe-a-livejournal-utility.html" height="1" width="1"&gt;&lt;/img&gt;
- &lt;p&gt;I am pleased to announce the version 0.9 release of &lt;strong&gt;Livescribe&lt;/strong&gt;, a &lt;a href="http://racket-lang.org"&gt;Racket&lt;/a&gt; program, used to convert XML files created by &lt;a href="https://github.com/ghewgill/ljdump"&gt;ljdump&lt;/a&gt;, or &lt;a href="https://github.com/ceejbot/ljmigrate"&gt;ljmigrate&lt;/a&gt;, to &lt;a href="http://docs.racket-lang.org/scribble/"&gt;Scribble&lt;/a&gt;, and the output formats that Scribble supports.&lt;/p&gt;
+ &lt;p&gt;I am pleased to announce the version 0.9 release of &lt;strong&gt;Livescribe&lt;/strong&gt;, a &lt;a href="http://racket-lang.org"&gt;Racket&lt;/a&gt; program, used to convert the XML files created by &lt;a href="https://github.com/ghewgill/ljdump"&gt;ljdump&lt;/a&gt;, or &lt;a href="https://github.com/ceejbot/ljmigrate"&gt;ljmigrate&lt;/a&gt;, to &lt;a href="http://docs.racket-lang.org/scribble/"&gt;Scribble&lt;/a&gt;, and the output formats that Scribble supports.&lt;/p&gt;
  &lt;p&gt;The sources are located at the &lt;a href="http://github.com/ebzzry/livescribe"&gt;GitHub project page&lt;/a&gt;.&lt;/p&gt;
- &lt;h3&gt;&lt;a name="installation" class="anchor"&gt;&lt;/a&gt;Installation&lt;/h3&gt;
+ &lt;h3 id="Installation"&gt;Installation&lt;/h3&gt;
  &lt;p&gt;&lt;strong&gt;Livescribe&lt;/strong&gt; is available via Racket&amp;rsquo;s &lt;a href="http://pkg.racket-lang.org"&gt;Planet2&lt;/a&gt;.&lt;/p&gt;
  &lt;pre&gt;raco pkg install livescribe&lt;/pre&gt;
  &lt;p&gt; If that doesn&amp;rsquo;t work, install the dependencies, and &lt;strong&gt;Livescribe&lt;/strong&gt; itself, from the local disk.&lt;/p&gt;
@@ -24,7 +24,7 @@
 git clone http://github.com/ebzzry/livescribe.git
 raco pkg install sxml/ livescribe/&lt;/pre&gt;
  &lt;p&gt; The trailing slashes are important, to tell &lt;code&gt;raco&lt;/code&gt; that you are installing from local directories. Without it, it will try to fetch the sources from the internet.&lt;/p&gt;
- &lt;h3&gt;&lt;a name="usage" class="anchor"&gt;&lt;/a&gt;Usage&lt;/h3&gt;
+ &lt;h3 id="Usage"&gt;Usage&lt;/h3&gt;
  &lt;p&gt;To convert the file named &lt;code&gt;file.xml&lt;/code&gt; to &lt;code&gt;file.scrbl&lt;/code&gt;:&lt;/p&gt;
  &lt;pre&gt;raco livescribe file.xml&lt;/pre&gt;
  &lt;p&gt; Like above, but in addition to generating &lt;code&gt;file.scrbl&lt;/code&gt;, render it to &lt;code&gt;file.html&lt;/code&gt; as well, as if by running &lt;code&gt;scribble --html file.scrbl&lt;/code&gt;.&lt;/p&gt;
@@ -33,7 +33,7 @@ raco pkg install sxml/ livescribe/&lt;/pre&gt;
  &lt;pre&gt;raco livescribe --markdown file.xml&lt;/pre&gt;
  &lt;p&gt; To display the list of available command line options and switches.&lt;/p&gt;
  &lt;pre&gt;raco livescribe -h&lt;/pre&gt;
- &lt;h3&gt;&lt;a name="updating" class="anchor"&gt;&lt;/a&gt;Updating&lt;/h3&gt;
+ &lt;h3 id="Updating"&gt;Updating&lt;/h3&gt;
  &lt;p&gt;If you installed &lt;strong&gt;Livescribe&lt;/strong&gt; using the first method described in the section &lt;em&gt;Introduction&lt;/em&gt;, you can update it by running:&lt;/p&gt;
  &lt;pre&gt;raco pkg update livescribe&lt;/pre&gt;
  &lt;p&gt; However, if you used the latter method, you may update it by pulling the updates, uninstalling &lt;strong&gt;Livescribe&lt;/strong&gt;, then installing it again:&lt;/p&gt;
@@ -42,7 +42,7 @@ git pull origin master
 cd ..
 raco pkg remove livescribe
 raco pkg install livescribe/&lt;/pre&gt;
- &lt;h3&gt;&lt;a name="miscellany" class="anchor"&gt;&lt;/a&gt;Miscellany&lt;/h3&gt;
+ &lt;h3 id="Miscellany"&gt;Miscellany&lt;/h3&gt;
  &lt;p&gt;To reduce typing, you may optionally create an alias to &lt;code&gt;raco livescribe&lt;/code&gt; in your shell.&lt;/p&gt;
  &lt;p&gt;Sh-like shells:&lt;/p&gt;
  &lt;pre&gt;echo 'alias livescribe="raco livescribe"' &amp;gt;&amp;gt; ~/.bashrc&lt;/pre&gt;
