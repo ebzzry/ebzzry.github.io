@@ -1,13 +1,17 @@
-    Title: Usync: Yet Another Data Synchronizer
+    Title: Usync: A Data Synchronizer
     Date: 2013-05-21T19:18:33
     Tags: scheme, programming, networking
 
-I just released my trivial file synchronizer, uncreatively named
-**Usync**, written in [Scsh](http://www.scsh.net). The online
-repository is located at [GitHub](http://github.com/ebzzry/usync).
+I am pleased to announce the release of __Usync__, a site-to-site
+synchronization tool written in [Scsh](http://www.scsh.net). It makes
+use of [unison](http://www.cis.upenn.edu/~bcpierce/unison/), and
+[rsync](https://rsync.samba.org/), for bi- and uni-directional
+synchronizations, respectively.
+
+The sources are located at the
+[GitHub project page](http://github.com/ebzzry/usync).
 
 <!-- more -->
-
 
 ### Introduction
 

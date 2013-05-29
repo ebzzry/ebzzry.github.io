@@ -1,4 +1,5 @@
-http://rmm.meta.ph/2013/05/usync-yet-another-data-synchronizer.html
+http://rmm.meta.ph/2013/05/livescribe-a-livejournal-utility.html
+http://rmm.meta.ph/2013/05/usync-a-data-synchronizer.html
 http://rmm.meta.ph/2013/05/squandered-relentlessness.html
 http://rmm.meta.ph/2013/05/over-under-and-elsewhere.html
 http://rmm.meta.ph/2013/05/the-y-combinator-in-six-easy-steps.html

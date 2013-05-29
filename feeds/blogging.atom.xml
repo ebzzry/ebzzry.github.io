@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?> 
-<rss version="2.0">
- <channel>
-  <title>Deceptively Simple: Posts tagged 'scribble'</title>
-  <description>Deceptively Simple: Posts tagged 'scribble'</description>
-  <link>http://rmm.meta.ph/tags/scribble.html</link>
-  <lastBuildDate>Wed, 29 May 2013 15:10:34 PHT</lastBuildDate>
-  <pubDate>Wed, 29 May 2013 15:10:34 PHT</pubDate>
-  <ttl>1800</ttl>
-  <item>
-   <title>Livescribe: A LiveJournal Utility</title>
-   <link>http://rmm.meta.ph/2013/05/livescribe-a-livejournal-utility.html?utm_source=scribble&amp;utm_medium=RSS</link>
-   <guid>urn:http-rmm-meta-ph:-2013-05-livescribe-a-livejournal-utility-html</guid>
-   <pubDate>Wed, 29 May 2013 15:10:34 PHT</pubDate>
-   <description>
-&lt;html&gt;&lt;img src="http://rmm.meta.ph/img/1x1.gif?utm_source=scribble&amp;amp;utm_medium=RSS&amp;amp;utm_campaign=%2F2013%2F05%2Flivescribe-a-livejournal-utility.html" height="1" width="1"&gt;&lt;/img&gt;
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+ <title type="text">Deceptively Simple: Posts tagged 'blogging'</title>
+ <link rel="self" href="http://rmm.meta.ph/feeds/blogging.atom.xml"></link>
+ <link href="http://rmm.meta.ph/tags/blogging.html"></link>
+ <id>urn:http-rmm-meta-ph:-tags-blogging-html</id>
+ <updated>2013-05-29T15:10:34Z</updated>
+ <entry>
+  <title type="text">Livescribe: A LiveJournal Utility</title>
+  <link rel="alternate" href="http://rmm.meta.ph/2013/05/livescribe-a-livejournal-utility.html?utm_source=blogging&amp;utm_medium=Atom"></link>
+  <id>urn:http-rmm-meta-ph:-2013-05-livescribe-a-livejournal-utility-html</id>
+  <published>2013-05-29T15:10:34Z</published>
+  <updated>2013-05-29T15:10:34Z</updated>
+  <author>
+   <name>Rommel Martinez</name></author>
+  <content type="html">
+&lt;html&gt;&lt;img src="http://rmm.meta.ph/img/1x1.gif?utm_source=blogging&amp;amp;utm_medium=Atom&amp;amp;utm_campaign=%2F2013%2F05%2Flivescribe-a-livejournal-utility.html" height="1" width="1"&gt;&lt;/img&gt;
  &lt;p&gt;I am pleased to announce the version 0.9 release of &lt;strong&gt;Livescribe&lt;/strong&gt;, a &lt;a href="http://racket-lang.org"&gt;Racket&lt;/a&gt; program, used to convert XML files created by &lt;a href="https://github.com/ghewgill/ljdump"&gt;ljdump&lt;/a&gt;, or &lt;a href="https://github.com/ceejbot/ljmigrate"&gt;ljmigrate&lt;/a&gt;, to &lt;a href="http://docs.racket-lang.org/scribble/"&gt;Scribble&lt;/a&gt;, and the output formats that Scribble supports.&lt;/p&gt;
  &lt;p&gt;The sources are located at the &lt;a href="http://github.com/ebzzry/livescribe"&gt;GitHub project page&lt;/a&gt;.&lt;/p&gt;
  &lt;h3&gt;&lt;a name="installation" class="anchor"&gt;&lt;/a&gt;Installation&lt;/h3&gt;
@@ -48,4 +49,4 @@ raco pkg install livescribe/&lt;/pre&gt;
  &lt;pre&gt;echo 'alias livescribe="raco livescribe"' &amp;gt;&amp;gt; ~/.bashrc&lt;/pre&gt;
  &lt;p&gt; Csh-like shells:&lt;/p&gt;
  &lt;pre&gt;echo 'alias livescribe raco livescribe' &amp;gt;&amp;gt; ~/.cshrc&lt;/pre&gt;
- &lt;p&gt; Replace &lt;code&gt;.bashrc&lt;/code&gt;, and &lt;code&gt;.cshrc&lt;/code&gt;, with the appropriate init file for your shell.&lt;/p&gt;&lt;/html&gt;</description></item></channel></rss>
+ &lt;p&gt; Replace &lt;code&gt;.bashrc&lt;/code&gt;, and &lt;code&gt;.cshrc&lt;/code&gt;, with the appropriate init file for your shell.&lt;/p&gt;&lt;/html&gt;</content></entry></feed>
