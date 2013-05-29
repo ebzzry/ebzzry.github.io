@@ -8,13 +8,14 @@
   <pubDate>Tue, 21 May 2013 19:18:33 PHT</pubDate>
   <ttl>1800</ttl>
   <item>
-   <title>Usync: Yet Another Data Synchronizer</title>
-   <link>http://rmm.meta.ph/2013/05/usync-yet-another-data-synchronizer.html?utm_source=networking&amp;utm_medium=RSS</link>
-   <guid>urn:http-rmm-meta-ph:-2013-05-usync-yet-another-data-synchronizer-html</guid>
+   <title>Usync: A Data Synchronizer</title>
+   <link>http://rmm.meta.ph/2013/05/usync-a-data-synchronizer.html?utm_source=networking&amp;utm_medium=RSS</link>
+   <guid>urn:http-rmm-meta-ph:-2013-05-usync-a-data-synchronizer-html</guid>
    <pubDate>Tue, 21 May 2013 19:18:33 PHT</pubDate>
    <description>
-&lt;html&gt;&lt;img src="http://rmm.meta.ph/img/1x1.gif?utm_source=networking&amp;amp;utm_medium=RSS&amp;amp;utm_campaign=%2F2013%2F05%2Fusync-yet-another-data-synchronizer.html" height="1" width="1"&gt;&lt;/img&gt;
- &lt;p&gt;I just released my trivial file synchronizer, uncreatively named &lt;strong&gt;Usync&lt;/strong&gt;, written in &lt;a href="http://www.scsh.net"&gt;Scsh&lt;/a&gt;. The online repository is located at &lt;a href="http://github.com/ebzzry/usync"&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;html&gt;&lt;img src="http://rmm.meta.ph/img/1x1.gif?utm_source=networking&amp;amp;utm_medium=RSS&amp;amp;utm_campaign=%2F2013%2F05%2Fusync-a-data-synchronizer.html" height="1" width="1"&gt;&lt;/img&gt;
+ &lt;p&gt;I am pleased to announce the release of &lt;strong&gt;Usync&lt;/strong&gt;, a site-to-site synchronization tool written in &lt;a href="http://www.scsh.net"&gt;Scsh&lt;/a&gt;. It makes use of &lt;a href="http://www.cis.upenn.edu/~bcpierce/unison/"&gt;unison&lt;/a&gt;, and &lt;a href="https://rsync.samba.org/"&gt;rsync&lt;/a&gt;, for bi- and uni-directional synchronizations, respectively.&lt;/p&gt;
+ &lt;p&gt;The sources are located at the &lt;a href="http://github.com/ebzzry/usync"&gt;GitHub project page&lt;/a&gt;.&lt;/p&gt;
  &lt;h3&gt;&lt;a name="introduction" class="anchor"&gt;&lt;/a&gt;Introduction&lt;/h3&gt;
  &lt;p&gt;Usync is a site-to-site synchronization program written in &lt;a href="http://www.scsh.net"&gt;Scsh&lt;/a&gt;. It makes use of &lt;a href="http://www.cis.upenn.edu/~bcpierce/unison/"&gt;unison&lt;/a&gt;, and &lt;a href="https://rsync.samba.org/"&gt;rsync&lt;/a&gt;, for bi- and uni-directional synchronizations, respectively.&lt;/p&gt;
  &lt;h3&gt;&lt;a name="basic-usage" class="anchor"&gt;&lt;/a&gt;Basic Usage&lt;/h3&gt;
