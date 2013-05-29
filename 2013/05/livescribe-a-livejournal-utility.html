@@ -29,60 +29,57 @@
   <div class="container-fluid">
    <div class="row-fluid">
     <div id="left-sidebar" class="span2 bs-docs-sidebar">
-     <div>
-      <p>On this page:
-       <ol class="nav nav-list bs-docs-sidenav">
-        <li><a href="#installation">Installation</a></li>
-        <li><a href="#usage">Usage</a></li>
-        <li><a href="#updating">Updating</a></li>
-        <li><a href="#miscellany">Miscellany</a></li></ol></p></div>
      <p>&nbsp;</p></div>
     <div id="content" class="span8">
-     <h1>Livescribe: A LiveJournal Utility</h1>
-     <p>2013-05-29 :: <a href="/tags/racket.html">racket</a>, <a href="/tags/scribble.html">scribble</a>, <a href="/tags/programming.html">programming</a>, <a href="/tags/blogging.html">blogging</a></p>
-     <p>I am pleased to announce the version 0.9 release of <strong>Livescribe</strong>, a <a href="http://racket-lang.org">Racket</a> program, used to convert XML files created by <a href="https://github.com/ghewgill/ljdump">ljdump</a>, or <a href="https://github.com/ceejbot/ljmigrate">ljmigrate</a>, to <a href="http://docs.racket-lang.org/scribble/">Scribble</a>, and the output formats that Scribble supports.</p>
-     <p>The sources are located at the <a href="http://github.com/ebzzry/livescribe">GitHub project page</a>.</p>
-     <h3><a name="installation" class="anchor"></a>Installation</h3>
-     <p><strong>Livescribe</strong> is available via Racket&rsquo;s <a href="http://pkg.racket-lang.org">Planet2</a>.</p>
-     <pre>raco pkg install livescribe</pre>
-     <p> If that doesn&rsquo;t work, install the dependencies, and <strong>Livescribe</strong> itself, from the local disk.</p>
-     <pre>git clone http://github.com/jbclements/sxml.git
+     <article>
+      <header>
+       <h1>Livescribe: A LiveJournal Utility</h1>
+       <p class="date-and-tags">
+        <time datetime="2013-05-29" pubdate="true">2013-05-29</time> :: <a href="/tags/racket.html">racket</a>, <a href="/tags/scribble.html">scribble</a>, <a href="/tags/programming.html">programming</a>, <a href="/tags/blogging.html">blogging</a></p></header>
+      <p>I am pleased to announce the version 0.9 release of <strong>Livescribe</strong>, a <a href="http://racket-lang.org">Racket</a> program, used to convert XML files created by <a href="https://github.com/ghewgill/ljdump">ljdump</a>, or <a href="https://github.com/ceejbot/ljmigrate">ljmigrate</a>, to <a href="http://docs.racket-lang.org/scribble/">Scribble</a>, and the output formats that Scribble supports.</p>
+      <p>The sources are located at the <a href="http://github.com/ebzzry/livescribe">GitHub project page</a>.</p>
+      <h3><a name="installation" class="anchor"></a>Installation</h3>
+      <p><strong>Livescribe</strong> is available via Racket&rsquo;s <a href="http://pkg.racket-lang.org">Planet2</a>.</p>
+      <pre>raco pkg install livescribe</pre>
+      <p> If that doesn&rsquo;t work, install the dependencies, and <strong>Livescribe</strong> itself, from the local disk.</p>
+      <pre>git clone http://github.com/jbclements/sxml.git
 git clone http://github.com/ebzzry/livescribe.git
 raco pkg install sxml/ livescribe/</pre>
-     <p> The trailing slashes are important, to tell <code>raco</code> that you are installing from local directories. Without it, it will try to fetch the sources from the internet.</p>
-     <h3><a name="usage" class="anchor"></a>Usage</h3>
-     <p>To convert the file named <code>file.xml</code> to <code>file.scrbl</code>:</p>
-     <pre>raco livescribe file.xml</pre>
-     <p> Like above, but in addition to generating <code>file.scrbl</code>, render it to <code>file.html</code> as well, as if by running <code>scribble --html file.scrbl</code>.</p>
-     <pre>raco livescribe --html file.xml</pre>
-     <p> Again, like above, but in addition to generating <code>file.scrbl</code>, render it to <code>file.md</code> as well, as if by running <code>scribble --markdown file.scrbl</code>.</p>
-     <pre>raco livescribe --markdown file.xml</pre>
-     <p> To display the list of available command line options and switches.</p>
-     <pre>raco livescribe -h</pre>
-     <h3><a name="updating" class="anchor"></a>Updating</h3>
-     <p>If you installed <strong>Livescribe</strong> using the first method described in the section <em>Introduction</em>, you can update it by running:</p>
-     <pre>raco pkg update livescribe</pre>
-     <p> However, if you used the latter method, you may update it by pulling the updates, uninstalling <strong>Livescribe</strong>, then installing it again:</p>
-     <pre>cd livescribe
+      <p> The trailing slashes are important, to tell <code>raco</code> that you are installing from local directories. Without it, it will try to fetch the sources from the internet.</p>
+      <h3><a name="usage" class="anchor"></a>Usage</h3>
+      <p>To convert the file named <code>file.xml</code> to <code>file.scrbl</code>:</p>
+      <pre>raco livescribe file.xml</pre>
+      <p> Like above, but in addition to generating <code>file.scrbl</code>, render it to <code>file.html</code> as well, as if by running <code>scribble --html file.scrbl</code>.</p>
+      <pre>raco livescribe --html file.xml</pre>
+      <p> Again, like above, but in addition to generating <code>file.scrbl</code>, render it to <code>file.md</code> as well, as if by running <code>scribble --markdown file.scrbl</code>.</p>
+      <pre>raco livescribe --markdown file.xml</pre>
+      <p> To display the list of available command line options and switches.</p>
+      <pre>raco livescribe -h</pre>
+      <h3><a name="updating" class="anchor"></a>Updating</h3>
+      <p>If you installed <strong>Livescribe</strong> using the first method described in the section <em>Introduction</em>, you can update it by running:</p>
+      <pre>raco pkg update livescribe</pre>
+      <p> However, if you used the latter method, you may update it by pulling the updates, uninstalling <strong>Livescribe</strong>, then installing it again:</p>
+      <pre>cd livescribe
 git pull origin master
 cd ..
 raco pkg remove livescribe
 raco pkg install livescribe/</pre>
-     <h3><a name="miscellany" class="anchor"></a>Miscellany</h3>
-     <p>To reduce typing, you may optionally create an alias to <code>raco livescribe</code> in your shell.</p>
-     <p>Sh-like shells:</p>
-     <pre>echo 'alias livescribe="raco livescribe"' &gt;&gt; ~/.bashrc</pre>
-     <p> Csh-like shells:</p>
-     <pre>echo 'alias livescribe raco livescribe' &gt;&gt; ~/.cshrc</pre>
-     <p> Replace <code>.bashrc</code>, and <code>.cshrc</code>, with the appropriate init file for your shell.</p>
-     <p>
-      <quote>&nbsp;</quote></p>
-     <p>
-      <script type="text/javascript">!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+      <h3><a name="miscellany" class="anchor"></a>Miscellany</h3>
+      <p>To reduce typing, you may optionally create an alias to <code>raco livescribe</code> in your shell.</p>
+      <p>Sh-like shells:</p>
+      <pre>echo 'alias livescribe="raco livescribe"' &gt;&gt; ~/.bashrc</pre>
+      <p> Csh-like shells:</p>
+      <pre>echo 'alias livescribe raco livescribe' &gt;&gt; ~/.cshrc</pre>
+      <p> Replace <code>.bashrc</code>, and <code>.cshrc</code>, with the appropriate init file for your shell.</p>
+      <footer>
+       <p>
+        <quote>&nbsp;</quote></p>
+       <p>
+        <script type="text/javascript">!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
 </script><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://rmm.meta.ph/2013/05/livescribe-a-livejournal-utility.html" data-dnt="true">Tweet</a>
-      <script src="https://apis.google.com/js/plusone.js" type="text/javascript"></script>
-      <g:plusone size="medium" href="http://rmm.meta.ph/2013/05/livescribe-a-livejournal-utility.html"></g:plusone>
-      <script type="text/javascript">/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        <script src="https://apis.google.com/js/plusone.js" type="text/javascript"></script>
+        <g:plusone size="medium" href="http://rmm.meta.ph/2013/05/livescribe-a-livejournal-utility.html"></g:plusone>
+        <script type="text/javascript">/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
 var disqus_shortname = 'ebzzry'; // required: replace example with your
                              // forum shortname
 
@@ -93,13 +90,13 @@ var disqus_shortname = 'ebzzry'; // required: replace example with your
     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
 })();
 </script>
-      <div id="disqus_thread"></div></p>
-     <p>
-      <quote>&nbsp;</quote></p>
-     <ul class="pager">
-      <li class="previous disabled"><a href="#">
-        <quote>&larr;</quote>Newer</a></li>
-      <li class="next"><a href="/2013/05/usync-a-data-synchronizer.html"><em>Usync: A Data Synchronizer</em>&nbsp;Older&rarr;</a></li></ul></div>
+        <div id="disqus_thread"></div></p>
+       <p>
+        <quote>&nbsp;</quote></p>
+       <ul class="pager">
+        <li class="previous disabled"><a href="#">
+          <quote>&larr;</quote>Newer</a></li>
+        <li class="next"><a href="/2013/05/usync-a-data-synchronizer.html"><em>Usync: A Data Synchronizer</em>&nbsp;Older&rarr;</a></li></ul></footer></article></div>
     <div id="right-sidebar" class="span2">
      <p>Tags:
       <ul>
