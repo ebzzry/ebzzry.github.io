@@ -16,26 +16,25 @@
 &lt;html&gt;&lt;img src="http://rmm.meta.ph/img/1x1.gif?utm_source=scheme&amp;amp;utm_medium=RSS&amp;amp;utm_campaign=%2F2013%2F05%2Fusync-a-data-synchronizer.html" height="1" width="1"&gt;&lt;/img&gt;
  &lt;p&gt;I am pleased to announce the release of &lt;strong&gt;Usync&lt;/strong&gt;, a site-to-site synchronization tool written in &lt;a href="http://www.scsh.net"&gt;Scsh&lt;/a&gt;. It makes use of &lt;a href="http://www.cis.upenn.edu/~bcpierce/unison/"&gt;unison&lt;/a&gt;, and &lt;a href="https://rsync.samba.org/"&gt;rsync&lt;/a&gt;, for bi- and uni-directional synchronizations, respectively.&lt;/p&gt;
  &lt;p&gt;The sources are located at the &lt;a href="http://github.com/ebzzry/usync"&gt;GitHub project page&lt;/a&gt;.&lt;/p&gt;
- &lt;h3&gt;&lt;a name="introduction" class="anchor"&gt;&lt;/a&gt;Introduction&lt;/h3&gt;
+ &lt;h3 id="Introduction"&gt;Introduction&lt;/h3&gt;
  &lt;p&gt;Usync is a site-to-site synchronization program written in &lt;a href="http://www.scsh.net"&gt;Scsh&lt;/a&gt;. It makes use of &lt;a href="http://www.cis.upenn.edu/~bcpierce/unison/"&gt;unison&lt;/a&gt;, and &lt;a href="https://rsync.samba.org/"&gt;rsync&lt;/a&gt;, for bi- and uni-directional synchronizations, respectively.&lt;/p&gt;
- &lt;h3&gt;&lt;a name="basic-usage" class="anchor"&gt;&lt;/a&gt;Basic Usage&lt;/h3&gt;
+ &lt;h3 id="Basic Usage"&gt;Basic Usage&lt;/h3&gt;
  &lt;p&gt;To perform two-way synchronization of the directory &lt;code&gt;/pub/yot/ninam&lt;/code&gt;, between the current host, to the hosts &lt;code&gt;tarupam&lt;/code&gt;, and &lt;code&gt;taubetmo&lt;/code&gt;, while preserving the directory structure remotely (take note, that there must be no spaces between the hosts specification, due to the IFS environment variable, found in most shells):&lt;/p&gt;
  &lt;pre&gt;usync /pub/yot/ninam/ tarupam,taubetmo&lt;/pre&gt;
  &lt;p&gt; The command above will perform two-way synchronization of the diretory &lt;code&gt;ninam/&lt;/code&gt; found under &lt;code&gt;/pub/yot/&lt;/code&gt;, to &lt;code&gt;tarupam:/pub/yot/&lt;/code&gt;, and &lt;code&gt;taubetmo:/pub/yot/&lt;/code&gt;.&lt;/p&gt;
  &lt;p&gt;Using our example above, the two-way synchronization system basically tells that if the tree &lt;code&gt;tarupam:/pub/yot/ninam/&lt;/code&gt; contains new and/or updated items, compared with &lt;code&gt;localhost:/pub/yot/ninam/&lt;/code&gt;, and &lt;code&gt;localhost:/pub/yot/ninam/&lt;/code&gt; also happens to have new and/or updated items, then, they will trade updates.&lt;/p&gt;
  &lt;p&gt;Ideally, the result is that &lt;code&gt;localhost:/pub/yot/ninam/&lt;/code&gt;, &lt;code&gt;tarupam:/pub/yot/ninam/&lt;/code&gt;, and &lt;code&gt;taubetmo:/pub/yot/ninam/&lt;/code&gt;, are all equal.&lt;/p&gt;
- &lt;h3&gt;&lt;a name="semi-advanced-usage" class="anchor"&gt;&lt;/a&gt;Semi-advanced Usage&lt;/h3&gt;
+ &lt;h3 id="Semi-advanced Usage"&gt;Semi-advanced Usage&lt;/h3&gt;
  &lt;p&gt;It is also possible to perform synchronization of multiple files, and directories, to remote hosts. To do so, run:&lt;/p&gt;
  &lt;pre&gt;usync /pub/yot/ninam/ ~/file.text ~reyn/*.blend tarupam,taubetmo&lt;/pre&gt;
- &lt;p&gt; The command above will perform two-way synchronization of the paths &lt;code&gt;/pub/yot/ninam/&lt;/code&gt;, &lt;code&gt;~/file.text&lt;/code&gt;, and &lt;code&gt;~reyn/*.blend&lt;/code&gt; to the remote hosts &lt;code&gt;tarupam&lt;/code&gt;, and &lt;code&gt;taubetmo&lt;/code&gt;, using the same directory structuring system described above.&lt;/p&gt;
+ &lt;p&gt; The command above will perform two-way synchronization of the paths &lt;code&gt;/pub/yot/ninam/&lt;/code&gt;, &lt;code&gt;~/file.text&lt;/code&gt;, and &lt;code&gt;~reyn/*.blend&lt;/code&gt; to the remote hosts &lt;code&gt;tarupam&lt;/code&gt;, and &lt;code&gt;taubetmo&lt;/code&gt;, using the same directory structure that was described above.&lt;/p&gt;
  &lt;p&gt;If you want to perform one-way synchronization, of the above, like &lt;code&gt;rsync&lt;/code&gt;, run:&lt;/p&gt;
  &lt;pre&gt;usync --one-way --prefer-local /pub/yot/ninam/ ~/file.text ~reyn/draft.blend tarupam,taubetmo&lt;/pre&gt;
  &lt;p&gt; For more usage information, run:&lt;/p&gt;
  &lt;pre&gt;usync --help&lt;/pre&gt;
- &lt;h3&gt;&lt;a name="caveats" class="anchor"&gt;&lt;/a&gt;Caveats&lt;/h3&gt;
+ &lt;h3 id="Caveats"&gt;Caveats&lt;/h3&gt;
  &lt;ol&gt;
-  &lt;li&gt;This program has been used on FreeBSD, hence making the shebang&lt;/li&gt;&lt;/ol&gt;
- &lt;p&gt;line contain &lt;code&gt;/usr/local/bin/scsh&lt;/code&gt;. Please change it, accordingly.&lt;/p&gt;&lt;/html&gt;</description></item>
+  &lt;li&gt;This program has been used on FreeBSD, hence making the shebang line contain &lt;code&gt;/usr/local/bin/scsh&lt;/code&gt;. Please change it, accordingly.&lt;/li&gt;&lt;/ol&gt;&lt;/html&gt;</description></item>
   <item>
    <title>The Y Combinator in Six Easy Steps</title>
    <link>http://rmm.meta.ph/2013/05/the-y-combinator-in-six-easy-steps.html?utm_source=scheme&amp;utm_medium=RSS</link>

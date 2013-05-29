@@ -1,10 +1,10 @@
     Title: Livescribe: A LiveJournal Utility
     Date: 2013-05-29T15:10:34
-    Tags: racket, scribble, programming, blogging
+    Tags: racket, scribble, programming
 
 I am pleased to announce the version 0.9 release of __Livescribe__, a
-[Racket](http://racket-lang.org) program, used to convert XML files
-created by [ljdump](https://github.com/ghewgill/ljdump), or
+[Racket](http://racket-lang.org) program, used to convert the XML
+files created by [ljdump](https://github.com/ghewgill/ljdump), or
 [ljmigrate](https://github.com/ceejbot/ljmigrate), to
 [Scribble](http://docs.racket-lang.org/scribble/), and the output
 formats that Scribble supports.
