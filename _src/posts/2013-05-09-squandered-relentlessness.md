@@ -1,6 +1,6 @@
     Title: Squandered Relentlessness
     Date: 2013-05-09T16:11:03
-    Tags: essays, writings
+    Tags: rants
 
 There is a disturbing, and eerie sensation that I feel whenever the
 damping realization that I am no longer a young child, is observed in
