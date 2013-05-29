@@ -61,7 +61,7 @@ usync /pub/yot/ninam/ ~/file.text ~reyn/*.blend tarupam,taubetmo
 The command above will perform two-way synchronization of the paths
 `/pub/yot/ninam/`, `~/file.text`, and `~reyn/*.blend` to the
 remote hosts `tarupam`, and `taubetmo`, using the same directory
-structuring system described above.
+structure that was described above.
 
 If you want to perform one-way synchronization, of the above, like
 `rsync`, run:
@@ -79,5 +79,4 @@ usync --help
 
 ### Caveats
 
-0. This program has been used on FreeBSD, hence making the shebang
-   line contain `/usr/local/bin/scsh`. Please change it, accordingly.
+0. This program has been used on FreeBSD, hence making the shebang line contain `/usr/local/bin/scsh`. Please change it, accordingly.
