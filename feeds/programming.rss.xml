@@ -13,7 +13,7 @@
    <guid>urn:http-rmm-meta-ph:-2013-05-livescribe-a-livejournal-utility-html</guid>
    <pubDate>Wed, 29 May 2013 15:10:34 PHT</pubDate>
    <description>
-&lt;html&gt;&lt;img src="http://rmm.meta.ph/img/1x1.gif?utm_source=programming&amp;amp;utm_medium=RSS&amp;amp;utm_campaign=%2F2013%2F05%2Flivescribe-a-livejournal-utility.html" height="1" width="1"&gt;&lt;/img&gt;
+&lt;html&gt;&lt;img src="http://rmm.meta.ph/img/1x1.gif?utm_source=programming&amp;amp;utm_medium=RSS&amp;amp;utm_campaign=%2F2013%2F05%2Flivescribe-a-livejournal-utility.html" height="1" width="1" /&gt;
  &lt;p&gt;I am pleased to announce the version 0.9 release of &lt;strong&gt;Livescribe&lt;/strong&gt;, a &lt;a href="http://racket-lang.org"&gt;Racket&lt;/a&gt; program, used to convert the XML files created by &lt;a href="https://github.com/ghewgill/ljdump"&gt;ljdump&lt;/a&gt;, or &lt;a href="https://github.com/ceejbot/ljmigrate"&gt;ljmigrate&lt;/a&gt;, to &lt;a href="http://docs.racket-lang.org/scribble/"&gt;Scribble&lt;/a&gt;, and the output formats that Scribble supports.&lt;/p&gt;
  &lt;p&gt;The sources are located at the &lt;a href="http://github.com/ebzzry/livescribe"&gt;GitHub project page&lt;/a&gt;.&lt;/p&gt;
  &lt;h3 id="Installation"&gt;Installation&lt;/h3&gt;
@@ -55,7 +55,7 @@ raco pkg install livescribe/&lt;/pre&gt;
    <guid>urn:http-rmm-meta-ph:-2013-05-usync-a-data-synchronizer-html</guid>
    <pubDate>Tue, 21 May 2013 19:18:33 PHT</pubDate>
    <description>
-&lt;html&gt;&lt;img src="http://rmm.meta.ph/img/1x1.gif?utm_source=programming&amp;amp;utm_medium=RSS&amp;amp;utm_campaign=%2F2013%2F05%2Fusync-a-data-synchronizer.html" height="1" width="1"&gt;&lt;/img&gt;
+&lt;html&gt;&lt;img src="http://rmm.meta.ph/img/1x1.gif?utm_source=programming&amp;amp;utm_medium=RSS&amp;amp;utm_campaign=%2F2013%2F05%2Fusync-a-data-synchronizer.html" height="1" width="1" /&gt;
  &lt;p&gt;I am pleased to announce the release of &lt;strong&gt;Usync&lt;/strong&gt;, a site-to-site synchronization tool written in &lt;a href="http://www.scsh.net"&gt;Scsh&lt;/a&gt;. It makes use of &lt;a href="http://www.cis.upenn.edu/~bcpierce/unison/"&gt;unison&lt;/a&gt;, and &lt;a href="https://rsync.samba.org/"&gt;rsync&lt;/a&gt;, for bi- and uni-directional synchronizations, respectively.&lt;/p&gt;
  &lt;p&gt;The sources are located at the &lt;a href="http://github.com/ebzzry/usync"&gt;GitHub project page&lt;/a&gt;.&lt;/p&gt;
  &lt;h3 id="Introduction"&gt;Introduction&lt;/h3&gt;
@@ -83,7 +83,7 @@ raco pkg install livescribe/&lt;/pre&gt;
    <guid>urn:http-rmm-meta-ph:-2013-05-the-y-combinator-in-six-easy-steps-html</guid>
    <pubDate>Thu, 09 May 2013 12:43:11 PHT</pubDate>
    <description>
-&lt;html&gt;&lt;img src="http://rmm.meta.ph/img/1x1.gif?utm_source=programming&amp;amp;utm_medium=RSS&amp;amp;utm_campaign=%2F2013%2F05%2Fthe-y-combinator-in-six-easy-steps.html" height="1" width="1"&gt;&lt;/img&gt;
+&lt;html&gt;&lt;img src="http://rmm.meta.ph/img/1x1.gif?utm_source=programming&amp;amp;utm_medium=RSS&amp;amp;utm_campaign=%2F2013%2F05%2Fthe-y-combinator-in-six-easy-steps.html" height="1" width="1" /&gt;
  &lt;p&gt;A lot of us have been taught that to be able to define a recursive procedure, the recursive invocation must &amp;ldquo;use&amp;rdquo; the name of the recursive procedure. The &lt;a href="http://en.wikipedia.org/wiki/Fixed-point_combinator#Y_combinator"&gt;Y combinator&lt;/a&gt;, however, lets us perform recursion, without referring to the named identifier.&lt;/p&gt;
  &lt;p&gt;The Y combinator has been both a source of inspiration and frustration for many. It evokes a eureka-like sensation once you get past the wall, but it also renders us scratching our heads when it just doesn&amp;rsquo;t make sense to traverse the labyrinth. This post aims to bring my own approach on how to derive the Y combinator. It may not be the most elegant way, but it may work for you.&lt;/p&gt;
  &lt;p&gt;In the code examples in this post, the &lt;code&gt;&amp;gt;&lt;/code&gt; symbol denotes the prompt symbol for your Scheme implementation.&lt;/p&gt;
