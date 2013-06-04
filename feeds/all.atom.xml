@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?> 
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
  <title type="text">Deceptively Simple: All Posts</title>
- <link rel="self" href="http://rmm.meta.ph/feeds/all.atom.xml"></link>
- <link href="http://rmm.meta.ph/index.html"></link>
+ <link rel="self" href="http://rmm.meta.ph/feeds/all.atom.xml" />
+ <link href="http://rmm.meta.ph/index.html" />
  <id>urn:http-rmm-meta-ph:-index-html</id>
  <updated>2013-05-29T15:10:34Z</updated>
  <entry>
   <title type="text">Livescribe: A LiveJournal Utility</title>
-  <link rel="alternate" href="http://rmm.meta.ph/2013/05/livescribe-a-livejournal-utility.html?utm_source=all&amp;utm_medium=Atom"></link>
+  <link rel="alternate" href="http://rmm.meta.ph/2013/05/livescribe-a-livejournal-utility.html?utm_source=all&amp;utm_medium=Atom" />
   <id>urn:http-rmm-meta-ph:-2013-05-livescribe-a-livejournal-utility-html</id>
   <published>2013-05-29T15:10:34Z</published>
   <updated>2013-05-29T15:10:34Z</updated>
   <author>
    <name>Rommel Martinez</name></author>
   <content type="html">
-&lt;html&gt;&lt;img src="http://rmm.meta.ph/img/1x1.gif?utm_source=all&amp;amp;utm_medium=Atom&amp;amp;utm_campaign=%2F2013%2F05%2Flivescribe-a-livejournal-utility.html" height="1" width="1"&gt;&lt;/img&gt;
+&lt;html&gt;&lt;img src="http://rmm.meta.ph/img/1x1.gif?utm_source=all&amp;amp;utm_medium=Atom&amp;amp;utm_campaign=%2F2013%2F05%2Flivescribe-a-livejournal-utility.html" height="1" width="1" /&gt;
  &lt;p&gt;I am pleased to announce the version 0.9 release of &lt;strong&gt;Livescribe&lt;/strong&gt;, a &lt;a href="http://racket-lang.org"&gt;Racket&lt;/a&gt; program, used to convert the XML files created by &lt;a href="https://github.com/ghewgill/ljdump"&gt;ljdump&lt;/a&gt;, or &lt;a href="https://github.com/ceejbot/ljmigrate"&gt;ljmigrate&lt;/a&gt;, to &lt;a href="http://docs.racket-lang.org/scribble/"&gt;Scribble&lt;/a&gt;, and the output formats that Scribble supports.&lt;/p&gt;
  &lt;p&gt;The sources are located at the &lt;a href="http://github.com/ebzzry/livescribe"&gt;GitHub project page&lt;/a&gt;.&lt;/p&gt;
  &lt;h3 id="Installation"&gt;Installation&lt;/h3&gt;
@@ -52,14 +52,14 @@ raco pkg install livescribe/&lt;/pre&gt;
  &lt;p&gt; Replace &lt;code&gt;.bashrc&lt;/code&gt;, and &lt;code&gt;.cshrc&lt;/code&gt;, with the appropriate init file for your shell.&lt;/p&gt;&lt;/html&gt;</content></entry>
  <entry>
   <title type="text">Usync: A Data Synchronizer</title>
-  <link rel="alternate" href="http://rmm.meta.ph/2013/05/usync-a-data-synchronizer.html?utm_source=all&amp;utm_medium=Atom"></link>
+  <link rel="alternate" href="http://rmm.meta.ph/2013/05/usync-a-data-synchronizer.html?utm_source=all&amp;utm_medium=Atom" />
   <id>urn:http-rmm-meta-ph:-2013-05-usync-a-data-synchronizer-html</id>
   <published>2013-05-21T19:18:33Z</published>
   <updated>2013-05-21T19:18:33Z</updated>
   <author>
    <name>Rommel Martinez</name></author>
   <content type="html">
-&lt;html&gt;&lt;img src="http://rmm.meta.ph/img/1x1.gif?utm_source=all&amp;amp;utm_medium=Atom&amp;amp;utm_campaign=%2F2013%2F05%2Fusync-a-data-synchronizer.html" height="1" width="1"&gt;&lt;/img&gt;
+&lt;html&gt;&lt;img src="http://rmm.meta.ph/img/1x1.gif?utm_source=all&amp;amp;utm_medium=Atom&amp;amp;utm_campaign=%2F2013%2F05%2Fusync-a-data-synchronizer.html" height="1" width="1" /&gt;
  &lt;p&gt;I am pleased to announce the release of &lt;strong&gt;Usync&lt;/strong&gt;, a site-to-site synchronization tool written in &lt;a href="http://www.scsh.net"&gt;Scsh&lt;/a&gt;. It makes use of &lt;a href="http://www.cis.upenn.edu/~bcpierce/unison/"&gt;unison&lt;/a&gt;, and &lt;a href="https://rsync.samba.org/"&gt;rsync&lt;/a&gt;, for bi- and uni-directional synchronizations, respectively.&lt;/p&gt;
  &lt;p&gt;The sources are located at the &lt;a href="http://github.com/ebzzry/usync"&gt;GitHub project page&lt;/a&gt;.&lt;/p&gt;
  &lt;h3 id="Introduction"&gt;Introduction&lt;/h3&gt;
@@ -83,14 +83,14 @@ raco pkg install livescribe/&lt;/pre&gt;
   &lt;li&gt;This program has been used on FreeBSD, hence making the shebang line contain &lt;code&gt;/usr/local/bin/scsh&lt;/code&gt;. Please change it, accordingly.&lt;/li&gt;&lt;/ol&gt;&lt;/html&gt;</content></entry>
  <entry>
   <title type="text">Squandered Relentlessness</title>
-  <link rel="alternate" href="http://rmm.meta.ph/2013/05/squandered-relentlessness.html?utm_source=all&amp;utm_medium=Atom"></link>
+  <link rel="alternate" href="http://rmm.meta.ph/2013/05/squandered-relentlessness.html?utm_source=all&amp;utm_medium=Atom" />
   <id>urn:http-rmm-meta-ph:-2013-05-squandered-relentlessness-html</id>
   <published>2013-05-09T16:11:03Z</published>
   <updated>2013-05-09T16:11:03Z</updated>
   <author>
    <name>Rommel Martinez</name></author>
   <content type="html">
-&lt;html&gt;&lt;img src="http://rmm.meta.ph/img/1x1.gif?utm_source=all&amp;amp;utm_medium=Atom&amp;amp;utm_campaign=%2F2013%2F05%2Fsquandered-relentlessness.html" height="1" width="1"&gt;&lt;/img&gt;
+&lt;html&gt;&lt;img src="http://rmm.meta.ph/img/1x1.gif?utm_source=all&amp;amp;utm_medium=Atom&amp;amp;utm_campaign=%2F2013%2F05%2Fsquandered-relentlessness.html" height="1" width="1" /&gt;
  &lt;p&gt;There is a disturbing, and eerie sensation that I feel whenever the damping realization that I am no longer a young child, is observed in my consciousness. The uneasy struggle between learning to let go of my portentous past and my capricious future, grips me, with heavy clench. It is not about the inability to redo gratuitous expenditure of somewhat liberally-provided lax confinements of time, but it is about the unsettling observation that the mindset I previously took for granted, is now something that would require me Atlas strength to even begin to summon. I miss the unrelenting inquisitiveness that I once wielded with ease, to my daily scuffling scores with the hordes of raids of life.&lt;/p&gt;
  &lt;p&gt;When we move past our zones of comfort, we are filled with eagerness to return back to our own fortified bunkers. We see our own phantasmal doppelgangers, communicating and showing to us what impending atrocities may rise out of the ground, ready to devour us alive. The longer we stay outside, the higher the probability of death. We make ourselves believe our own convictions. We justify through our own uncalibrated scales of what choices to make. Whenever unfamiliar territory is explored, we almost instantly coil ourselves, back, into seemingly intractable forms. We do it because of fear. We do it because we do not like the unfamiliar. We do it because of our affinity and devotion to safety.&lt;/p&gt;
  &lt;p&gt;We complain of the stifling absence of bounty, and yet we voluntarily stop ourselves from making even an inch of movement of a limb towards making the advancement on a prey. We are so romantically in love, with fervor, on the seeking of rationale to our unjustifiable excuses, but we equally seek sound reason. It is even more appalling to see that some of us insidiously advertise illusions of grandeur, with claims of full reprising sensations of the bounty&amp;rsquo;s meat. Our personal biases towards reaching the reward, effectively stops us from actually reaching it. We succumb to the remorseless claims of others, on their failure, effectively rendering us ignorant of the unseen reality. When the number of persons that flock around us, is high enough, according to our personal metrics, we ignorantly instill to ourselves what they buzz to us, and then we impair ourselves and subsequently kill the essence of our individuality.&lt;/p&gt;
@@ -100,14 +100,14 @@ raco pkg install livescribe/&lt;/pre&gt;
  &lt;p&gt;When we voluntarily attach to our legs, heavy chains and balls of steel, we should not expect to be able to run around the colosseum with ease. When we dare to explore uncharted territories, without regrets, without dis-enchantments, without the necessity to have another ship propel us forward, we have triumphed.&lt;/p&gt;&lt;/html&gt;</content></entry>
  <entry>
   <title type="text">Over, Under, and Elsewhere</title>
-  <link rel="alternate" href="http://rmm.meta.ph/2013/05/over-under-and-elsewhere.html?utm_source=all&amp;utm_medium=Atom"></link>
+  <link rel="alternate" href="http://rmm.meta.ph/2013/05/over-under-and-elsewhere.html?utm_source=all&amp;utm_medium=Atom" />
   <id>urn:http-rmm-meta-ph:-2013-05-over-under-and-elsewhere-html</id>
   <published>2013-05-09T16:08:36Z</published>
   <updated>2013-05-09T16:08:36Z</updated>
   <author>
    <name>Rommel Martinez</name></author>
   <content type="html">
-&lt;html&gt;&lt;img src="http://rmm.meta.ph/img/1x1.gif?utm_source=all&amp;amp;utm_medium=Atom&amp;amp;utm_campaign=%2F2013%2F05%2Fover-under-and-elsewhere.html" height="1" width="1"&gt;&lt;/img&gt;
+&lt;html&gt;&lt;img src="http://rmm.meta.ph/img/1x1.gif?utm_source=all&amp;amp;utm_medium=Atom&amp;amp;utm_campaign=%2F2013%2F05%2Fover-under-and-elsewhere.html" height="1" width="1" /&gt;
  &lt;p&gt;Our cunning ability for oversight is deridingly high. Whether it may be solving a problem or just trying to be creative. Our impulse to over-engineer is unusually prevalent if our initial expectations are not met. We drag our consciousness to lengths almost unfathomable because we think that if we pour in a lot of thought, the outcome is positively and proportionately high according to our convictions. We complain about our lack of tools. We complain about our lack of resources. Yet, we are astonished and brought to shocking disbelief when someone does it with far less than what our hands have. We disenchant the probability that what we are precisely looking for, is right on our ear. Our ability to dismiss ideal options hulking right in front of us, is appalling. Why do we need to dig an underground tunnel to get in, when all that is needed is to knock?&lt;/p&gt;
  &lt;p&gt;It is very disturbing that we unjustifiably position ourselves to unfailingly accept words just because we have been told to assimilate them. We believe that they are truths without making the slightest advance towards ensuring that what you just heard is infallible. It is also disconcerting that for many, if not most, that they&amp;rsquo;d rather take what they have been told, as is, rather than be criticized for raising their hand to ask what could possibly be dubious claims. When we say yes, without giving the slightest amount of thought, we have effectively enveloped ourselves with a cloud-like cushion, that, while it makes everything immediately adjacent from your skin heavenly, we neglect to pursue the intellectual safety and we give ourselves self-approved parachutes.&lt;/p&gt;
  &lt;p&gt;On a higher note, I also find that a lot of people radically position themselves to absolute positions. We are very fond of inventing and assigning labels among ourselves. We think that by moving ourselves to thought-bunkers, we build assumptions that because of the security that our bunker provides, we have prevailed. From our DNA that provides us with the information that contains the code of what makes us tick, we turn to our brains to store yet more information. These various pieces of information and high in breadth, that our humble DNA can no longer even begin to contain. But alas, what we have in our individual brains is still not enough to house our ever-growing house of knowledge. We needed to find a way to record them outside our bodies, stored somewhere where data retrieval is one of its most critical operations&lt;span&gt; &amp;ndash; &lt;/span&gt;we wrote and created records. We began by writing on stones, walls, and anything that would hopefully persist to contain what it must, across generations of readers. We have built colossal libraries, with gargantuan collections of books. With it, we have stored an immense amount of records, far beyond what all the brains of all humans can contain. Then, the libraries became computer databases. We took yet another step in building tower houses of what our ancestors knew, and what we know today. But both by intrigue and disturbance, we see that not even our most advanced technology is able to carefully record, with predictability, our coordinates in space in time, for the past, present, and future. We are in a time wherein we can, with high certainty, tell whether a drinking glass has something in it or not.&lt;/p&gt;
@@ -115,14 +115,14 @@ raco pkg install livescribe/&lt;/pre&gt;
  &lt;p&gt;Oftentimes, we overlook that all the tools that we need are right with us.&lt;/p&gt;&lt;/html&gt;</content></entry>
  <entry>
   <title type="text">The Y Combinator in Six Easy Steps</title>
-  <link rel="alternate" href="http://rmm.meta.ph/2013/05/the-y-combinator-in-six-easy-steps.html?utm_source=all&amp;utm_medium=Atom"></link>
+  <link rel="alternate" href="http://rmm.meta.ph/2013/05/the-y-combinator-in-six-easy-steps.html?utm_source=all&amp;utm_medium=Atom" />
   <id>urn:http-rmm-meta-ph:-2013-05-the-y-combinator-in-six-easy-steps-html</id>
   <published>2013-05-09T12:43:11Z</published>
   <updated>2013-05-09T12:43:11Z</updated>
   <author>
    <name>Rommel Martinez</name></author>
   <content type="html">
-&lt;html&gt;&lt;img src="http://rmm.meta.ph/img/1x1.gif?utm_source=all&amp;amp;utm_medium=Atom&amp;amp;utm_campaign=%2F2013%2F05%2Fthe-y-combinator-in-six-easy-steps.html" height="1" width="1"&gt;&lt;/img&gt;
+&lt;html&gt;&lt;img src="http://rmm.meta.ph/img/1x1.gif?utm_source=all&amp;amp;utm_medium=Atom&amp;amp;utm_campaign=%2F2013%2F05%2Fthe-y-combinator-in-six-easy-steps.html" height="1" width="1" /&gt;
  &lt;p&gt;A lot of us have been taught that to be able to define a recursive procedure, the recursive invocation must &amp;ldquo;use&amp;rdquo; the name of the recursive procedure. The &lt;a href="http://en.wikipedia.org/wiki/Fixed-point_combinator#Y_combinator"&gt;Y combinator&lt;/a&gt;, however, lets us perform recursion, without referring to the named identifier.&lt;/p&gt;
  &lt;p&gt;The Y combinator has been both a source of inspiration and frustration for many. It evokes a eureka-like sensation once you get past the wall, but it also renders us scratching our heads when it just doesn&amp;rsquo;t make sense to traverse the labyrinth. This post aims to bring my own approach on how to derive the Y combinator. It may not be the most elegant way, but it may work for you.&lt;/p&gt;
  &lt;p&gt;In the code examples in this post, the &lt;code&gt;&amp;gt;&lt;/code&gt; symbol denotes the prompt symbol for your Scheme implementation.&lt;/p&gt;
