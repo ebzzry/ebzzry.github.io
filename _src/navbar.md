@@ -1,2 +1,0 @@
-- [Home] (/)
-- [About](/about.html)

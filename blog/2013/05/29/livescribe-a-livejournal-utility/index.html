@@ -6,13 +6,13 @@
          could also use in other parts of this template if you
          wish. -->
     <meta charset="utf-8" />
-    <title>Posts tagged 'scheme'</title>
-    <meta name="description" content="Posts tagged 'scheme'">
+    <title>Livescribe: A LiveJournal Utility</title>
+    <meta name="description" content="I am pleased to announce the version 0.9 release of **Livescribe**, a Racket program, used to convert the XML files created by ljdump, or ljmigrate, to Scribble, and the output formats that Scribble supports. The sources are located at the GitHub project page. ...">
     <meta name="author"      content="The Unknown Blogger">
-    <meta name="keywords"    content="scheme">
+    <meta name="keywords"    content="racket, scribble, programming">
     <meta name="viewport"    content="width=device-width, initial-scale=1.0">
     <link rel="icon"      href="/favicon.ico">
-    <link rel="canonical" href="http://rmm.meta.ph/tags/scheme.html">
+    <link rel="canonical" href="http://rmm.meta.ph/blog/2013/05/29/livescribe-a-livejournal-utility/">
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="/css/bootstrap-responsive.min.css">
@@ -21,9 +21,9 @@
     <link rel="stylesheet" type="text/css" href="/css/custom.css">
     <!-- Feeds -->
     <link ref="alternate" type="application/atom+xml"
-          href="/feeds/scheme.atom.xml" title="Atom Feed">
+          href="/feeds/all.atom.xml" title="Atom Feed">
     <link ref="alternate" type="application/rss+xml"
-          href="/feeds/scheme.rss.xml" title="RSS Feed">
+          href="/feeds/all.rss.xml" title="RSS Feed">
     <!-- JS -->
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
     <script type="text/javascript" src="/js/bootstrap.min.js"></script>
@@ -77,26 +77,157 @@
                `uri-path` being "/index.html" -->
 
           <!-- Index pages for posts have non-#f `tag` -->
-          <h1>Posts tagged <em>scheme</em></h1>
+
           <!-- The main page contents are in `contents` -->
 
-<article class="index-post">
- <header>
-  <h2><a href="/blog/2013/05/21/usync-a-data-synchronizer/">Usync: A Data Synchronizer</a></h2>
-  <p class="date-and-tags">
-   <time datetime="2013-05-21" pubdate="true">2013-05-21</time> :: <a href="/tags/scheme.html">scheme</a>, <a href="/tags/programming.html">programming</a>, <a href="/tags/networking.html">networking</a></p></header>
- <div class="entry-content">
-  <p>I am pleased to announce the release of <strong>Usync</strong>, a site-to-site synchronization tool written in <a href="http://www.scsh.net">Scsh</a>. It makes use of <a href="http://www.cis.upenn.edu/~bcpierce/unison/">unison</a>, and <a href="https://rsync.samba.org/">rsync</a>, for bi- and uni-directional synchronizations, respectively.</p>
-  <p>The sources are located at the <a href="http://github.com/ebzzry/usync">GitHub project page</a>.</p><a href="/blog/2013/05/21/usync-a-data-synchronizer/"><em>Continue reading ...</em></a></div></article>
+<article>
 
-<article class="index-post">
  <header>
-  <h2><a href="/blog/2013/05/09/the-y-combinator-in-six-easy-steps/">The Y Combinator in Six Easy Steps</a></h2>
+
+  <h1>Livescribe: A LiveJournal Utility</h1>
+
   <p class="date-and-tags">
-   <time datetime="2013-05-09" pubdate="true">2013-05-09</time> :: <a href="/tags/scheme.html">scheme</a>, <a href="/tags/racket.html">racket</a>, <a href="/tags/programming.html">programming</a></p></header>
- <div class="entry-content">
-  <p>A lot of us have been taught that to be able to define a recursive procedure, the recursive invocation must &ldquo;use&rdquo; the name of the recursive procedure. The <a href="http://en.wikipedia.org/wiki/Fixed-point_combinator#Y_combinator">Y combinator</a>, however, lets us perform recursion, without referring to the named identifier.</p>
-  <p>The Y combinator has been both a source of inspiration and frustration for many. It evokes a eureka-like sensation once you get past the wall, but it also renders us scratching our heads when it just doesn&rsquo;t make sense to traverse the labyrinth. This post aims to bring my own approach on how to derive the Y combinator. It may not be the most elegant way, but it may work for you.</p><a href="/blog/2013/05/09/the-y-combinator-in-six-easy-steps/"><em>Continue reading ...</em></a></div></article>
+   <time datetime="2013-05-29" pubdate="true">2013-05-29</time> :: <a href="/tags/racket.html">racket</a>, <a href="/tags/scribble.html">scribble</a>, <a href="/tags/programming.html">programming</a></p>
+  </header>
+
+
+ <p>I am pleased to announce the version 0.9 release of <strong>Livescribe</strong>, a <a href="http://racket-lang.org">Racket</a> program, used to convert the XML files created by <a href="https://github.com/ghewgill/ljdump">ljdump</a>, or <a href="https://github.com/ceejbot/ljmigrate">ljmigrate</a>, to <a href="http://docs.racket-lang.org/scribble/">Scribble</a>, and the output formats that Scribble supports.</p>
+
+
+ <p>The sources are located at the <a href="http://github.com/ebzzry/livescribe">GitHub project page</a>.</p>
+
+
+ <h3 id="Installation">Installation</h3>
+
+
+ <p><strong>Livescribe</strong> is available via Racket&rsquo;s <a href="http://pkg.racket-lang.org">Planet2</a>.</p>
+
+
+ <pre>raco pkg install livescribe</pre>
+
+
+ <p> If that doesn&rsquo;t work, install the dependencies, and <strong>Livescribe</strong> itself, from the local disk.</p>
+
+
+ <pre>git clone http://github.com/jbclements/sxml.git
+git clone http://github.com/ebzzry/livescribe.git
+raco pkg install sxml/ livescribe/</pre>
+
+
+ <p> The trailing slashes are important, to tell <code>raco</code> that you are installing from local directories. Without it, it will try to fetch the sources from the internet.</p>
+
+
+ <h3 id="Usage">Usage</h3>
+
+
+ <p>To convert the file named <code>file.xml</code> to <code>file.scrbl</code>:</p>
+
+
+ <pre>raco livescribe file.xml</pre>
+
+
+ <p> Like above, but in addition to generating <code>file.scrbl</code>, render it to <code>file.html</code> as well, as if by running <code>scribble --html file.scrbl</code>.</p>
+
+
+ <pre>raco livescribe --html file.xml</pre>
+
+
+ <p> Again, like above, but in addition to generating <code>file.scrbl</code>, render it to <code>file.md</code> as well, as if by running <code>scribble --markdown file.scrbl</code>.</p>
+
+
+ <pre>raco livescribe --markdown file.xml</pre>
+
+
+ <p> To display the list of available command line options and switches.</p>
+
+
+ <pre>raco livescribe -h</pre>
+
+
+ <h3 id="Updating">Updating</h3>
+
+
+ <p>If you installed <strong>Livescribe</strong> using the first method described in the section <em>Introduction</em>, you can update it by running:</p>
+
+
+ <pre>raco pkg update livescribe</pre>
+
+
+ <p> However, if you used the latter method, you may update it by pulling the updates, uninstalling <strong>Livescribe</strong>, then installing it again:</p>
+
+
+ <pre>cd livescribe
+git pull origin master
+cd ..
+raco pkg remove livescribe
+raco pkg install livescribe/</pre>
+
+
+ <h3 id="Miscellany">Miscellany</h3>
+
+
+ <p>To reduce typing, you may optionally create an alias to <code>raco livescribe</code> in your shell.</p>
+
+
+ <p>Sh-like shells:</p>
+
+
+ <pre>echo 'alias livescribe="raco livescribe"' &gt;&gt; ~/.bashrc</pre>
+
+
+ <p> Csh-like shells:</p>
+
+
+ <pre>echo 'alias livescribe raco livescribe' &gt;&gt; ~/.cshrc</pre>
+
+
+ <p> Replace <code>.bashrc</code>, and <code>.cshrc</code>, with the appropriate init file for your shell.</p>
+
+ <footer>
+
+  <script type="text/javascript">
+      !function(d,s,id){
+          var js,fjs=d.getElementsByTagName(s)[0];
+          if(!d.getElementById(id)){
+              js=d.createElement(s);
+              js.id=id;
+              js.src="//platform.twitter.com/widgets.js";
+              fjs.parentNode.insertBefore(js,fjs);
+          }
+      }(document,"script","twitter-wjs");
+    </script>
+    <a class="twitter-share-button" data-dnt="true" data-url="http://rmm.meta.ph/blog/2013/05/29/livescribe-a-livejournal-utility/" href="https://twitter.com/share">
+      "Tweet"</a>
+
+  <script src="https://apis.google.com/js/plusone.js" type="text/javascript"></script>
+
+  <g:plusone href="http://rmm.meta.ph/blog/2013/05/29/livescribe-a-livejournal-utility/" size="medium"></g:plusone>
+
+  <script type="text/javascript">
+      var disqus_shortname = 'shortname';
+      (function() {
+          var dsq = document.createElement('script');
+          dsq.type = 'text/javascript';
+          dsq.async = true;
+          dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+    </script>
+
+  <div id="disqus_thread"></div>
+
+  <ul class="pager">
+
+   <li class="previous">
+        <a href="/blog/2013/07/11/in-retrospect/">&larr; <em>In Retrospect</em></a>
+      </li>
+
+   <li class="next">
+        <a href="/blog/2013/05/21/usync-a-data-synchronizer/"><em>Usync: A Data Synchronizer</em> &rarr;</a>
+      </li>
+    </ul>
+  </footer>
+</article>
         </div>
         <!-- Right column -->
         <div id="right-sidebar" class="span3">
