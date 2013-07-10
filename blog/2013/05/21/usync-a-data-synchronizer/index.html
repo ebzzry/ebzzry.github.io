@@ -6,13 +6,13 @@
          could also use in other parts of this template if you
          wish. -->
     <meta charset="utf-8" />
-    <title>Posts tagged 'scheme'</title>
-    <meta name="description" content="Posts tagged 'scheme'">
+    <title>Usync: A Data Synchronizer</title>
+    <meta name="description" content="I am pleased to announce the release of **Usync**, a site-to-site synchronization tool written in Scsh. It makes use of unison, and rsync, for bi- and uni-directional synchronizations, respectively. The sources are located at the GitHub project page. ...">
     <meta name="author"      content="The Unknown Blogger">
-    <meta name="keywords"    content="scheme">
+    <meta name="keywords"    content="scheme, programming, networking">
     <meta name="viewport"    content="width=device-width, initial-scale=1.0">
     <link rel="icon"      href="/favicon.ico">
-    <link rel="canonical" href="http://rmm.meta.ph/tags/scheme.html">
+    <link rel="canonical" href="http://rmm.meta.ph/blog/2013/05/21/usync-a-data-synchronizer/">
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="/css/bootstrap-responsive.min.css">
@@ -21,9 +21,9 @@
     <link rel="stylesheet" type="text/css" href="/css/custom.css">
     <!-- Feeds -->
     <link ref="alternate" type="application/atom+xml"
-          href="/feeds/scheme.atom.xml" title="Atom Feed">
+          href="/feeds/all.atom.xml" title="Atom Feed">
     <link ref="alternate" type="application/rss+xml"
-          href="/feeds/scheme.rss.xml" title="RSS Feed">
+          href="/feeds/all.rss.xml" title="RSS Feed">
     <!-- JS -->
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
     <script type="text/javascript" src="/js/bootstrap.min.js"></script>
@@ -77,26 +77,126 @@
                `uri-path` being "/index.html" -->
 
           <!-- Index pages for posts have non-#f `tag` -->
-          <h1>Posts tagged <em>scheme</em></h1>
+
           <!-- The main page contents are in `contents` -->
 
-<article class="index-post">
- <header>
-  <h2><a href="/blog/2013/05/21/usync-a-data-synchronizer/">Usync: A Data Synchronizer</a></h2>
-  <p class="date-and-tags">
-   <time datetime="2013-05-21" pubdate="true">2013-05-21</time> :: <a href="/tags/scheme.html">scheme</a>, <a href="/tags/programming.html">programming</a>, <a href="/tags/networking.html">networking</a></p></header>
- <div class="entry-content">
-  <p>I am pleased to announce the release of <strong>Usync</strong>, a site-to-site synchronization tool written in <a href="http://www.scsh.net">Scsh</a>. It makes use of <a href="http://www.cis.upenn.edu/~bcpierce/unison/">unison</a>, and <a href="https://rsync.samba.org/">rsync</a>, for bi- and uni-directional synchronizations, respectively.</p>
-  <p>The sources are located at the <a href="http://github.com/ebzzry/usync">GitHub project page</a>.</p><a href="/blog/2013/05/21/usync-a-data-synchronizer/"><em>Continue reading ...</em></a></div></article>
+<article>
 
-<article class="index-post">
  <header>
-  <h2><a href="/blog/2013/05/09/the-y-combinator-in-six-easy-steps/">The Y Combinator in Six Easy Steps</a></h2>
+
+  <h1>Usync: A Data Synchronizer</h1>
+
   <p class="date-and-tags">
-   <time datetime="2013-05-09" pubdate="true">2013-05-09</time> :: <a href="/tags/scheme.html">scheme</a>, <a href="/tags/racket.html">racket</a>, <a href="/tags/programming.html">programming</a></p></header>
- <div class="entry-content">
-  <p>A lot of us have been taught that to be able to define a recursive procedure, the recursive invocation must &ldquo;use&rdquo; the name of the recursive procedure. The <a href="http://en.wikipedia.org/wiki/Fixed-point_combinator#Y_combinator">Y combinator</a>, however, lets us perform recursion, without referring to the named identifier.</p>
-  <p>The Y combinator has been both a source of inspiration and frustration for many. It evokes a eureka-like sensation once you get past the wall, but it also renders us scratching our heads when it just doesn&rsquo;t make sense to traverse the labyrinth. This post aims to bring my own approach on how to derive the Y combinator. It may not be the most elegant way, but it may work for you.</p><a href="/blog/2013/05/09/the-y-combinator-in-six-easy-steps/"><em>Continue reading ...</em></a></div></article>
+   <time datetime="2013-05-21" pubdate="true">2013-05-21</time> :: <a href="/tags/scheme.html">scheme</a>, <a href="/tags/programming.html">programming</a>, <a href="/tags/networking.html">networking</a></p>
+  </header>
+
+
+ <p>I am pleased to announce the release of <strong>Usync</strong>, a site-to-site synchronization tool written in <a href="http://www.scsh.net">Scsh</a>. It makes use of <a href="http://www.cis.upenn.edu/~bcpierce/unison/">unison</a>, and <a href="https://rsync.samba.org/">rsync</a>, for bi- and uni-directional synchronizations, respectively.</p>
+
+
+ <p>The sources are located at the <a href="http://github.com/ebzzry/usync">GitHub project page</a>.</p>
+
+
+ <h3 id="Introduction">Introduction</h3>
+
+
+ <p>Usync is a site-to-site synchronization program written in <a href="http://www.scsh.net">Scsh</a>. It makes use of <a href="http://www.cis.upenn.edu/~bcpierce/unison/">unison</a>, and <a href="https://rsync.samba.org/">rsync</a>, for bi- and uni-directional synchronizations, respectively.</p>
+
+
+ <h3 id="Basic Usage">Basic Usage</h3>
+
+
+ <p>To perform two-way synchronization of the directory <code>/pub/yot/ninam</code>, between the current host, to the hosts <code>tarupam</code>, and <code>taubetmo</code>, while preserving the directory structure remotely (take note, that there must be no spaces between the hosts specification, due to the IFS environment variable, found in most shells):</p>
+
+
+ <pre>usync /pub/yot/ninam/ tarupam,taubetmo</pre>
+
+
+ <p> The command above will perform two-way synchronization of the diretory <code>ninam/</code> found under <code>/pub/yot/</code>, to <code>tarupam:/pub/yot/</code>, and <code>taubetmo:/pub/yot/</code>.</p>
+
+
+ <p>Using our example above, the two-way synchronization system basically tells that if the tree <code>tarupam:/pub/yot/ninam/</code> contains new and/or updated items, compared with <code>localhost:/pub/yot/ninam/</code>, and <code>localhost:/pub/yot/ninam/</code> also happens to have new and/or updated items, then, they will trade updates.</p>
+
+
+ <p>Ideally, the result is that <code>localhost:/pub/yot/ninam/</code>, <code>tarupam:/pub/yot/ninam/</code>, and <code>taubetmo:/pub/yot/ninam/</code>, are all equal.</p>
+
+
+ <h3 id="Semi-advanced Usage">Semi-advanced Usage</h3>
+
+
+ <p>It is also possible to perform synchronization of multiple files, and directories, to remote hosts. To do so, run:</p>
+
+
+ <pre>usync /pub/yot/ninam/ ~/file.text ~reyn/*.blend tarupam,taubetmo</pre>
+
+
+ <p> The command above will perform two-way synchronization of the paths <code>/pub/yot/ninam/</code>, <code>~/file.text</code>, and <code>~reyn/*.blend</code> to the remote hosts <code>tarupam</code>, and <code>taubetmo</code>, using the same directory structure that was described above.</p>
+
+
+ <p>If you want to perform one-way synchronization, of the above, like <code>rsync</code>, run:</p>
+
+
+ <pre>usync --one-way --prefer-local /pub/yot/ninam/ ~/file.text ~reyn/draft.blend tarupam,taubetmo</pre>
+
+
+ <p> For more usage information, run:</p>
+
+
+ <pre>usync --help</pre>
+
+
+ <h3 id="Caveats">Caveats</h3>
+
+
+ <ol>
+
+  <li>This program has been used on FreeBSD, hence making the shebang line contain <code>/usr/local/bin/scsh</code>. Please change it, accordingly.</li></ol>
+
+ <footer>
+
+  <script type="text/javascript">
+      !function(d,s,id){
+          var js,fjs=d.getElementsByTagName(s)[0];
+          if(!d.getElementById(id)){
+              js=d.createElement(s);
+              js.id=id;
+              js.src="//platform.twitter.com/widgets.js";
+              fjs.parentNode.insertBefore(js,fjs);
+          }
+      }(document,"script","twitter-wjs");
+    </script>
+    <a class="twitter-share-button" data-dnt="true" data-url="http://rmm.meta.ph/blog/2013/05/21/usync-a-data-synchronizer/" href="https://twitter.com/share">
+      "Tweet"</a>
+
+  <script src="https://apis.google.com/js/plusone.js" type="text/javascript"></script>
+
+  <g:plusone href="http://rmm.meta.ph/blog/2013/05/21/usync-a-data-synchronizer/" size="medium"></g:plusone>
+
+  <script type="text/javascript">
+      var disqus_shortname = 'shortname';
+      (function() {
+          var dsq = document.createElement('script');
+          dsq.type = 'text/javascript';
+          dsq.async = true;
+          dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+    </script>
+
+  <div id="disqus_thread"></div>
+
+  <ul class="pager">
+
+   <li class="previous">
+        <a href="/blog/2013/05/29/livescribe-a-livejournal-utility/">&larr; <em>Livescribe: A LiveJournal Utility</em></a>
+      </li>
+
+   <li class="next">
+        <a href="/blog/2013/05/09/squandered-relentlessness/"><em>Squandered Relentlessness</em> &rarr;</a>
+      </li>
+    </ul>
+  </footer>
+</article>
         </div>
         <!-- Right column -->
         <div id="right-sidebar" class="span3">
