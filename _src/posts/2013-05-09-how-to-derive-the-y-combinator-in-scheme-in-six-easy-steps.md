@@ -26,7 +26,7 @@ Let's start by defining a procedure named `sum0` that computes the
 integer, down to zero. In the following snippet, the recursive call
 happens when `sum0` is applied in the else part of the condition.
 
-```scheme
+```racket
 > (define sum0
     (lambda (n)
       (if (zero? n)
@@ -43,7 +43,7 @@ Let's break that procedure futher, into more elementary components,
 and we'll apply it, using
 [currying](https://en.wikipedia.org/wiki/Currying).
 
-```scheme
+```racket
 > (define sum0
     (lambda (f)
       (lambda (n)
@@ -64,7 +64,7 @@ sum0) 100)`.
 We're now going to exploit that property, to use a "nameless"
 approach, that is, without using the `sum0` name.
 
-```scheme
+```racket
 > (((lambda (f)
       (lambda (n)
         (if (zero? n)
@@ -85,7 +85,7 @@ to refer the the definition, except for later.
 Next, we need to move the `(f f)` part outside, to isolate the general
 (Y combinator), from the specific (`sum0`) code.
 
-```scheme
+```racket
 > (((lambda (f)
       ((lambda (p)
          (lambda (n)
@@ -111,7 +111,7 @@ n 1)`.
 Finally, we're going to isolate the Y combinator, from the `sum0`
 procedure.
 
-```scheme
+```racket
 > (((lambda (x)
       ((lambda (f)
          (x (lambda (v) ((f f) v))))
@@ -133,7 +133,7 @@ computing procedure, we no longer need to repeat it.
 Optionally, we can explicitly create separate procedure definitions for
 the Y combinator itself, and the `sum0` procedure.
 
-```scheme
+```racket
 > (define y
     (lambda (x)
       ((lambda (f)
