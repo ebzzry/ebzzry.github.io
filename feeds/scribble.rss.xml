@@ -9,11 +9,11 @@
   <ttl>1800</ttl>
   <item>
    <title>Livescribe: A LiveJournal Utility</title>
-   <link>http://rmm.meta.ph/2013/05/livescribe-a-livejournal-utility.html?utm_source=scribble&amp;utm_medium=RSS</link>
-   <guid>urn:http-rmm-meta-ph:-2013-05-livescribe-a-livejournal-utility-html</guid>
+   <link>http://rmm.meta.ph/blog/2013/05/29/livescribe-a-livejournal-utility/?utm_source=scribble&amp;utm_medium=RSS</link>
+   <guid>urn:http-rmm-meta-ph:-blog-2013-05-29-livescribe-a-livejournal-utility</guid>
    <pubDate>Wed, 29 May 2013 15:10:34 PHT</pubDate>
    <description>
-&lt;html&gt;&lt;img src="http://rmm.meta.ph/img/1x1.gif?utm_source=scribble&amp;amp;utm_medium=RSS&amp;amp;utm_campaign=%2F2013%2F05%2Flivescribe-a-livejournal-utility.html" height="1" width="1" /&gt;
+&lt;html&gt;&lt;img src="http://rmm.meta.ph/img/1x1.gif?utm_source=scribble&amp;amp;utm_medium=RSS&amp;amp;utm_campaign=%2Fblog%2F2013%2F05%2F29%2Flivescribe-a-livejournal-utility%2F" height="1" width="1" /&gt;
  &lt;p&gt;I am pleased to announce the version 0.9 release of &lt;strong&gt;Livescribe&lt;/strong&gt;, a &lt;a href="http://racket-lang.org"&gt;Racket&lt;/a&gt; program, used to convert the XML files created by &lt;a href="https://github.com/ghewgill/ljdump"&gt;ljdump&lt;/a&gt;, or &lt;a href="https://github.com/ceejbot/ljmigrate"&gt;ljmigrate&lt;/a&gt;, to &lt;a href="http://docs.racket-lang.org/scribble/"&gt;Scribble&lt;/a&gt;, and the output formats that Scribble supports.&lt;/p&gt;
  &lt;p&gt;The sources are located at the &lt;a href="http://github.com/ebzzry/livescribe"&gt;GitHub project page&lt;/a&gt;.&lt;/p&gt;
  &lt;h3 id="Installation"&gt;Installation&lt;/h3&gt;

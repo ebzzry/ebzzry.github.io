@@ -7,14 +7,14 @@
  <updated>2013-05-21T19:18:33Z</updated>
  <entry>
   <title type="text">Usync: A Data Synchronizer</title>
-  <link rel="alternate" href="http://rmm.meta.ph/2013/05/usync-a-data-synchronizer.html?utm_source=networking&amp;utm_medium=Atom" />
-  <id>urn:http-rmm-meta-ph:-2013-05-usync-a-data-synchronizer-html</id>
+  <link rel="alternate" href="http://rmm.meta.ph/blog/2013/05/21/usync-a-data-synchronizer/?utm_source=networking&amp;utm_medium=Atom" />
+  <id>urn:http-rmm-meta-ph:-blog-2013-05-21-usync-a-data-synchronizer</id>
   <published>2013-05-21T19:18:33Z</published>
   <updated>2013-05-21T19:18:33Z</updated>
   <author>
    <name>Rommel Martinez</name></author>
   <content type="html">
-&lt;html&gt;&lt;img src="http://rmm.meta.ph/img/1x1.gif?utm_source=networking&amp;amp;utm_medium=Atom&amp;amp;utm_campaign=%2F2013%2F05%2Fusync-a-data-synchronizer.html" height="1" width="1" /&gt;
+&lt;html&gt;&lt;img src="http://rmm.meta.ph/img/1x1.gif?utm_source=networking&amp;amp;utm_medium=Atom&amp;amp;utm_campaign=%2Fblog%2F2013%2F05%2F21%2Fusync-a-data-synchronizer%2F" height="1" width="1" /&gt;
  &lt;p&gt;I am pleased to announce the release of &lt;strong&gt;Usync&lt;/strong&gt;, a site-to-site synchronization tool written in &lt;a href="http://www.scsh.net"&gt;Scsh&lt;/a&gt;. It makes use of &lt;a href="http://www.cis.upenn.edu/~bcpierce/unison/"&gt;unison&lt;/a&gt;, and &lt;a href="https://rsync.samba.org/"&gt;rsync&lt;/a&gt;, for bi- and uni-directional synchronizations, respectively.&lt;/p&gt;
  &lt;p&gt;The sources are located at the &lt;a href="http://github.com/ebzzry/usync"&gt;GitHub project page&lt;/a&gt;.&lt;/p&gt;
  &lt;h3 id="Introduction"&gt;Introduction&lt;/h3&gt;
