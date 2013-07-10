@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Most of the <head> section you can leave alone.  Notice some
+         template variables like `title`, `description` etc. which you
+         could also use in other parts of this template if you
+         wish. -->
+    <meta charset="utf-8" />
+    <title>@|title|</title>
+    <meta name="description" content="@|description|">
+    <meta name="author"      content="The Unknown Blogger">
+    <meta name="keywords"    content="@|keywords|">
+    <meta name="viewport"    content="width=device-width, initial-scale=1.0">
+    <link rel="icon"      href="/favicon.ico">
+    <link rel="canonical" href="@|full-uri|">
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap-responsive.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/pygments.css">
+    <link rel="stylesheet" type="text/css" href="/css/scribble.css">
+    <link rel="stylesheet" type="text/css" href="/css/custom.css">
+    <!-- Feeds -->
+    <link ref="alternate" type="application/atom+xml"
+          href="@|atom-feed-uri|" title="Atom Feed">
+    <link ref="alternate" type="application/rss+xml"
+          href="@|rss-feed-uri|" title="RSS Feed">
+    <!-- JS -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+    @google-analytics["UA-xxxxx" "example.com"]
+  </head>
+  <body>
+    <!-- A standard Twitter Bootstrap nav bar -->
+    <div class="navbar navbar-inverse">
+      <div class="navbar-inner">
+        <div class="container">
+          <ul class="nav">
+            <!-- Notice we can define Racket functions. Here's a
+                 helper to add class="active" to a nav bar item if it
+                 is for this page (as indiated by `uri-path`) -->
+            @(define (nav-item uri label [a-attribs ""])
+              @list{
+                <li@(when (string-ci=? uri uri-path) " class=\"active\"")>
+                  <a href="@|uri|"@|a-attribs|>@|label|</a>
+                </li> })
+            @nav-item["/index.html" "All Posts" " class=\"brand\""]
+            @nav-item["/About.html" "About"]
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- This div's class should be "container-fluid" if you're using
+         Bootstrap's responsive CSS, else "container". -->
+    <div class="container-fluid">
+      <!-- This div's class should be "row-fluid" if you're using
+           Bootstrap's responsive CSS, else "row". -->
+      <div class="row-fluid">
+        <!-- Remember that Twitter Bootstrap has a 12 cell model. The
+             spanN classes should add up to 12.  For instance 3
+             "span4" divs, or 2 "span6" divs. In this example the main
+             content is "span9", plsu a "span3" right sidebar. -->
+        <!-- Main column -->
+        <div id="content" class="span9">
+          <!-- To put something only on the home page, check for
+               `uri-path` being "/index.html" -->
+          @(when (string-ci=? uri-path "/index.html")
+            @list{
+              <h1>Deceptively Simple</h1>
+              <p>A blog about computer science, my unintelligible musings, and some random shit in between.</p> })
+          <!-- Index pages for posts have non-#f `tag` -->
+          @(when tag
+            @list{<h1>Posts tagged <em>@|tag|</em></h1>})
+          <!-- The main page contents are in `contents` -->
+          @|contents|
+        </div>
+        <!-- Right column -->
+        <div id="right-sidebar" class="span3">
+          <!-- `tags/feeds` is a list of tags and feeds -->
+          @|tags/feeds|
+          <!-- Example of a Twitter follow button -->
+          @twitter-follow-button["ebzzry" "Follow Rommel"]
+        </div>
+      </div>
+      <footer>
+        <hr />
+        <p>Site created
+        with <a href="http://www.gnu.org/software/emacs/">Emacs</a>, <a href="http://www.racket-lang.org">Racket</a>, <a href="http://github.com/greghendershott/frog">Frog</a>,
+        and <a href="http://twitter.github.io/bootstrap">Bootstrap</a></p>
+
+       <p>Copyright &copy; 2013 by <a href="http://rmm.meta.ph">Rommel M. Martinez</a></p>
+
+      </footer>
+    </div>
+  </body>
+</html>
