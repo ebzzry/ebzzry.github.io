@@ -1,6 +1,8 @@
-    Title: Over, Under, and Elsewhere
-    Date: 2013-05-09T16:08:36
-    Tags: rants
+#lang scribble/manual
+
+Title: Over, Under, and Elsewhere
+Date: 2013-05-09T16:08:36
+Tags: rants
 
 Our cunning ability for oversight is deridingly high. Whether it may
 be solving a problem or just trying to be creative. Our impulse to
