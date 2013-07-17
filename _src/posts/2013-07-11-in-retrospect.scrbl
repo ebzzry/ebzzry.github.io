@@ -1,6 +1,8 @@
-    Title: In Retrospect
-    Date: 2013-07-11T00:21:55
-    Tags: rants
+#lang scribble/manual
+
+Title: In Retrospect
+Date: 2013-07-11T00:21:55
+Tags: rants
 
 "What won't kill me will only make me stronger."
 
