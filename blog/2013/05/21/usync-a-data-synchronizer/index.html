@@ -7,7 +7,12 @@
          wish. -->
     <meta charset="utf-8" />
     <title>Usync: A Data Synchronizer</title>
-    <meta name="description" content="I am pleased to announce the release of **Usync**, a site-to-site synchronization tool written in Scsh. It makes use of unison, and rsync, for bi- and uni-directional synchronizations, respectively. The sources are located at the GitHub project page. ...">
+    <meta name="description" content="I am pleased to announce the release of Usync, a site-to-site
+synchronization tool written in Scsh. It
+makes use of Unison,
+and rsync, for bi- and uni-directional
+synchronizations, respectively. The sources are located at the
+GitHub project page. ...">
     <meta name="author"      content="The Unknown Blogger">
     <meta name="keywords"    content="scheme, programming, networking">
     <meta name="viewport"    content="width=device-width, initial-scale=1.0">
@@ -91,66 +96,134 @@
   </header>
 
 
- <p>I am pleased to announce the release of <strong>Usync</strong>, a site-to-site synchronization tool written in <a href="http://www.scsh.net">Scsh</a>. It makes use of <a href="http://www.cis.upenn.edu/~bcpierce/unison/">unison</a>, and <a href="https://rsync.samba.org/">rsync</a>, for bi- and uni-directional synchronizations, respectively.</p>
+ <p>I am pleased to announce the release of <span style="font-weight: bold">Usync</span>, a site-to-site
+synchronization tool written in <a href="http://www.scsh.net">Scsh</a>. It
+makes use of <a href="http://www.cis.upenn.edu/~bcpierce/unison/">Unison</a>,
+and <a href="http://rsync.samba.org/">rsync</a>, for bi- and uni-directional
+synchronizations, respectively.</p>
 
 
- <p>The sources are located at the <a href="http://github.com/ebzzry/usync">GitHub project page</a>.</p>
+ <p>The sources are located at the
+<a href="http://github.com/ebzzry/usync">GitHub project page</a>.</p>
 
 
- <h3 id="Introduction">Introduction</h3>
+ <h1>1
+
+  <tt>&nbsp;</tt><a name="(part._.Introduction)"></a>Introduction</h1>
 
 
- <p>Usync is a site-to-site synchronization program written in <a href="http://www.scsh.net">Scsh</a>. It makes use of <a href="http://www.cis.upenn.edu/~bcpierce/unison/">unison</a>, and <a href="https://rsync.samba.org/">rsync</a>, for bi- and uni-directional synchronizations, respectively.</p>
+ <p>Usync is a site-to-site synchronization program written in
+<a href="http://www.scsh.net">Scsh</a>. It makes use of
+<a href="http://www.cis.upenn.edu/~bcpierce/unison/">Unison</a>, and
+<a href="http://rsync.samba.org/">Rsync</a>, for bi- and uni-directional
+synchronizations, respectively.</p>
 
 
- <h3 id="Basic Usage">Basic Usage</h3>
+ <h1>2
+
+  <tt>&nbsp;</tt><a name="(part._.Basic_.Usage)"></a>Basic Usage</h1>
 
 
- <p>To perform two-way synchronization of the directory <code>/pub/yot/ninam</code>, between the current host, to the hosts <code>tarupam</code>, and <code>taubetmo</code>, while preserving the directory structure remotely (take note, that there must be no spaces between the hosts specification, due to the IFS environment variable, found in most shells):</p>
+ <p>To perform two-way synchronization of the directory <span class="RktSym">/pub/yot/ninam</span><span class="RktMeta"></span>,
+between the current host, to the hosts <span class="RktSym">tarupam</span><span class="RktMeta"></span>, and <span class="RktSym">taubetmo</span><span class="RktMeta"></span>,
+while preserving the directory structure remotely (take note, that
+there must be no spaces between the hosts specification, due to the
+IFS environment variable, found in most shells):</p>
 
 
- <pre>usync /pub/yot/ninam/ tarupam,taubetmo</pre>
+ <div class="SCodeFlow">
+
+  <table cellspacing="0" class="RktBlk">
+
+   <tbody>
+
+    <tr>
+
+     <td><span class="RktSym">usync</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">/pub/yot/ninam/</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">tarupam</span><span class="RktSym">,</span><span class="RktSym">taubetmo</span><span class="RktMeta"></span></td></tr></tbody></table></div>
 
 
- <p> The command above will perform two-way synchronization of the diretory <code>ninam/</code> found under <code>/pub/yot/</code>, to <code>tarupam:/pub/yot/</code>, and <code>taubetmo:/pub/yot/</code>.</p>
+ <p>The command above will perform two-way synchronization of the diretory
+<span class="RktSym">ninam/</span><span class="RktMeta"></span> found under <span class="RktSym">/pub/yot/</span><span class="RktMeta"></span>, to <span class="RktSym">tarupam:/pub/yot/</span><span class="RktMeta"></span>, and
+<span class="RktSym">taubetmo:/pub/yot/</span><span class="RktMeta"></span>.</p>
 
 
- <p>Using our example above, the two-way synchronization system basically tells that if the tree <code>tarupam:/pub/yot/ninam/</code> contains new and/or updated items, compared with <code>localhost:/pub/yot/ninam/</code>, and <code>localhost:/pub/yot/ninam/</code> also happens to have new and/or updated items, then, they will trade updates.</p>
+ <p>Using our example above, the two-way synchronization system basically
+tells that if the tree <span class="RktSym">tarupam:/pub/yot/ninam/</span><span class="RktMeta"></span> contains new and/or
+updated items, compared with <span class="RktSym">localhost:/pub/yot/ninam/</span><span class="RktMeta"></span>, and
+<span class="RktSym">localhost:/pub/yot/ninam/</span><span class="RktMeta"></span> also happens to have new and/or updated
+items, then, they will trade updates.</p>
 
 
- <p>Ideally, the result is that <code>localhost:/pub/yot/ninam/</code>, <code>tarupam:/pub/yot/ninam/</code>, and <code>taubetmo:/pub/yot/ninam/</code>, are all equal.</p>
+ <p>Ideally, the result is that <span class="RktSym">localhost:/pub/yot/ninam/</span><span class="RktMeta"></span>,
+<span class="RktSym">tarupam:/pub/yot/ninam/</span><span class="RktMeta"></span>, and <span class="RktSym">taubetmo:/pub/yot/ninam/</span><span class="RktMeta"></span>, are all
+equal.</p>
 
 
- <h3 id="Semi-advanced Usage">Semi-advanced Usage</h3>
+ <h1>3
+
+  <tt>&nbsp;</tt><a name="(part._.Semi-advanced_.Usage)"></a>Semi-advanced Usage</h1>
 
 
- <p>It is also possible to perform synchronization of multiple files, and directories, to remote hosts. To do so, run:</p>
+ <p>It is also possible to perform synchronization of multiple files, and
+directories, to remote hosts. To do so, run:</p>
 
 
- <pre>usync /pub/yot/ninam/ ~/file.text ~reyn/*.blend tarupam,taubetmo</pre>
+ <div class="SCodeFlow">
+
+  <table cellspacing="0" class="RktBlk">
+
+   <tbody>
+
+    <tr>
+
+     <td><span class="RktSym">usync</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">/pub/yot/ninam/</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">~/file.text</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">~reyn/*.blend</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">tarupam</span><span class="RktSym">,</span><span class="RktSym">taubetmo</span><span class="RktMeta"></span></td></tr></tbody></table></div>
 
 
- <p> The command above will perform two-way synchronization of the paths <code>/pub/yot/ninam/</code>, <code>~/file.text</code>, and <code>~reyn/*.blend</code> to the remote hosts <code>tarupam</code>, and <code>taubetmo</code>, using the same directory structure that was described above.</p>
+ <p>The command above will perform two-way synchronization of the paths
+<span class="RktSym">/pub/yot/ninam/</span><span class="RktMeta"></span>, <span class="RktSym">~/file.text</span><span class="RktMeta"></span>, and <span class="RktSym">~reyn/*.blend</span><span class="RktMeta"></span> to the
+remote hosts <span class="RktSym">tarupam</span><span class="RktMeta"></span>, and <span class="RktSym">taubetmo</span><span class="RktMeta"></span>, using the same directory
+structure that was described above.</p>
 
 
- <p>If you want to perform one-way synchronization, of the above, like <code>rsync</code>, run:</p>
+ <p>If you want to perform one-way synchronization, of the above, like
+<span class="RktSym">rsync</span><span class="RktMeta"></span>, run:</p>
 
 
- <pre>usync --one-way --prefer-local /pub/yot/ninam/ ~/file.text ~reyn/draft.blend tarupam,taubetmo</pre>
+ <div class="SCodeFlow">
+
+  <table cellspacing="0" class="RktBlk">
+
+   <tbody>
+
+    <tr>
+
+     <td><span class="RktSym">usync</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym"><span class="nobreak">--o</span>ne-way</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym"><span class="nobreak">--p</span>refer-local</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">/pub/yot/ninam/</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">~/file.text</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">~reyn/draft.blend</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">tarupam</span><span class="RktSym">,</span><span class="RktSym">taubetmo</span><span class="RktMeta"></span></td></tr></tbody></table></div>
 
 
- <p> For more usage information, run:</p>
+ <p>For more usage information, run:</p>
 
 
- <pre>usync --help</pre>
+ <div class="SCodeFlow">
+
+  <table cellspacing="0" class="RktBlk">
+
+   <tbody>
+
+    <tr>
+
+     <td><span class="RktSym">usync</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym"><span class="nobreak">--h</span>elp</span><span class="RktMeta"></span></td></tr></tbody></table></div>
 
 
- <h3 id="Caveats">Caveats</h3>
+ <h1>4
+
+  <tt>&nbsp;</tt><a name="(part._.Caveats)"></a>Caveats</h1>
 
 
- <ol>
+ <ul>
 
-  <li>This program has been used on FreeBSD, hence making the shebang line contain <code>/usr/local/bin/scsh</code>. Please change it, accordingly.</li></ol>
+  <li>
+
+   <p>This program has been used on FreeBSD, hence making the shebang line contain <span class="RktSym">/usr/local/bin/scsh</span><span class="RktMeta"></span>. Please change it, accordingly.</p></li></ul>
 
  <footer>
 

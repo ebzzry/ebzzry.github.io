@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?> 
-<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
- <title type="text">Deceptively Simple: Posts tagged 'blogging'</title>
- <link rel="self" href="http://rmm.meta.ph/feeds/blogging.atom.xml" />
- <link href="http://rmm.meta.ph/tags/blogging.html" />
- <id>urn:http-rmm-meta-ph:-tags-blogging-html</id>
- <updated>2013-06-19T00:00:00Z</updated>
- <entry>
-  <title type="text">A Scribble Post</title>
-  <link rel="alternate" href="http://rmm.meta.ph/blog/2013/06/19/a-scribble-post/?utm_source=blogging&amp;utm_medium=Atom" />
-  <id>urn:http-rmm-meta-ph:-blog-2013-06-19-a-scribble-post</id>
-  <published>2013-06-19T00:00:00Z</published>
-  <updated>2013-06-19T00:00:00Z</updated>
-  <author>
-   <name>Rommel Martinez</name></author>
-  <content type="html">
-&lt;html&gt;&lt;img src="http://rmm.meta.ph/img/1x1.gif?utm_source=blogging&amp;amp;utm_medium=Atom&amp;amp;utm_campaign=%2Fblog%2F2013%2F06%2F19%2Fa-scribble-post%2F" height="1" width="1" /&gt;
+<rss version="2.0">
+ <channel>
+  <title>Deceptively Simple: Posts tagged 'Racket'</title>
+  <description>Deceptively Simple: Posts tagged 'Racket'</description>
+  <link>http://rmm.meta.ph/tags/Racket.html</link>
+  <lastBuildDate>Wed, 19 Jun 2013 00:00:00 PHT</lastBuildDate>
+  <pubDate>Wed, 19 Jun 2013 00:00:00 PHT</pubDate>
+  <ttl>1800</ttl>
+  <item>
+   <title>A Scribble Post</title>
+   <link>http://rmm.meta.ph/blog/2013/06/19/a-scribble-post/?utm_source=Racket&amp;utm_medium=RSS</link>
+   <guid>urn:http-rmm-meta-ph:-blog-2013-06-19-a-scribble-post</guid>
+   <pubDate>Wed, 19 Jun 2013 00:00:00 PHT</pubDate>
+   <description>
+&lt;html&gt;&lt;img src="http://rmm.meta.ph/img/1x1.gif?utm_source=Racket&amp;amp;utm_medium=RSS&amp;amp;utm_campaign=%2Fblog%2F2013%2F06%2F19%2Fa-scribble-post%2F" height="1" width="1" /&gt;
  &lt;p&gt;The source of this post is Scribble format (not Markdown).&lt;/p&gt;
  &lt;p&gt;Here is some intro text, above "the jump".&lt;/p&gt;
  &lt;p&gt;Here&amp;rsquo;s some &lt;a href="http://bullshitipsum.com/?paragraphs=2"&gt;Bullshit Ipsum&lt;/a&gt;.&lt;/p&gt;
@@ -152,4 +151,4 @@ retain comments:&lt;/p&gt;
          &lt;td&gt;&lt;span class="RktPlain"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;standard-fish&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktVal"&gt;25&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktVal"&gt;20&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktPn"&gt;#:color&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktVal"&gt;"blue"&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktPn"&gt;#:direction&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktVal"&gt;'&lt;/span&gt;&lt;span class="RktVal"&gt;left&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;
     &lt;tr&gt;
      &lt;td&gt;
-      &lt;p&gt;&lt;img src="/img/posts/2013-06-19-a-scribble-post/pict_13.png" alt="image" height="80" width="100" /&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;/html&gt;</content></entry></feed>
+      &lt;p&gt;&lt;img src="/img/posts/2013-06-19-a-scribble-post/pict_13.png" alt="image" height="80" width="100" /&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;/html&gt;</description></item></channel></rss>

@@ -9,9 +9,11 @@ upload:
 build:
 	raco frog -b
 
-serve:
+preview:
 	raco frog -p
+
+buildpreview:
+	raco frog -bp
 
 watch:
 	raco frog -w
-
