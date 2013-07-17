@@ -7,7 +7,13 @@
          wish. -->
     <meta charset="utf-8" />
     <title>Livescribe: A LiveJournal Utility</title>
-    <meta name="description" content="I am pleased to announce the version 0.9 release of **Livescribe**, a Racket program, used to convert the XML files created by ljdump, or ljmigrate, to Scribble, and the output formats that Scribble supports. The sources are located at the GitHub project page. ...">
+    <meta name="description" content="I am pleased to announce the version 0.9 release of Livescribe, a
+Racket program, used to convert the XML
+files created by ljdump, or
+ljmigrate, to
+Scribble, and the output
+formats that Scribble supports. The sources are located at the
+GitHub project page. ...">
     <meta name="author"      content="The Unknown Blogger">
     <meta name="keywords"    content="racket, scribble, programming">
     <meta name="viewport"    content="width=device-width, initial-scale=1.0">
@@ -91,97 +97,219 @@
   </header>
 
 
- <p>I am pleased to announce the version 0.9 release of <strong>Livescribe</strong>, a <a href="http://racket-lang.org">Racket</a> program, used to convert the XML files created by <a href="https://github.com/ghewgill/ljdump">ljdump</a>, or <a href="https://github.com/ceejbot/ljmigrate">ljmigrate</a>, to <a href="http://docs.racket-lang.org/scribble/">Scribble</a>, and the output formats that Scribble supports.</p>
+ <p>I am pleased to announce the version 0.9 release of <span style="font-weight: bold">Livescribe</span>, a
+<a href="http://racket-lang.org">Racket</a> program, used to convert the XML
+files created by <a href="https://github.com/ghewgill/ljdump">ljdump</a>, or
+<a href="https://github.com/ceejbot/ljmigrate">ljmigrate</a>, to
+<a href="http://docs.racket-lang.org/scribble/">Scribble</a>, and the output
+formats that Scribble supports.</p>
 
 
- <p>The sources are located at the <a href="http://github.com/ebzzry/livescribe">GitHub project page</a>.</p>
+ <p>The sources are located at the
+<a href="http://github.com/ebzzry/livescribe">GitHub project page</a>.</p>
 
 
- <h3 id="Installation">Installation</h3>
+ <h1>1
+
+  <tt>&nbsp;</tt><a name="(part._.Installation)"></a>Installation</h1>
 
 
- <p><strong>Livescribe</strong> is available via Racket&rsquo;s <a href="http://pkg.racket-lang.org">Planet2</a>.</p>
+ <p><span style="font-weight: bold">Livescribe</span> is available via Racket&rsquo;s
+<a href="http://pkg.racket-lang.org">Planet2</a>.</p>
 
 
- <pre>raco pkg install livescribe</pre>
+ <div class="SCodeFlow">
+
+  <table cellspacing="0" class="RktBlk">
+
+   <tbody>
+
+    <tr>
+
+     <td><span class="RktSym">raco</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">pkg</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">install</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">livescribe</span><span class="RktMeta"></span></td></tr></tbody></table></div>
 
 
- <p> If that doesn&rsquo;t work, install the dependencies, and <strong>Livescribe</strong> itself, from the local disk.</p>
+ <p>If that doesn&rsquo;t work, install the dependencies, and <span style="font-weight: bold">Livescribe</span>
+itself, from the local disk.</p>
 
 
- <pre>git clone http://github.com/jbclements/sxml.git
-git clone http://github.com/ebzzry/livescribe.git
-raco pkg install sxml/ livescribe/</pre>
+ <div class="SCodeFlow">
+
+  <table cellspacing="0" class="RktBlk">
+
+   <tbody>
+
+    <tr>
+
+     <td><span class="RktSym">git</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">clone</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">http://github.com/jbclements/sxml.git</span><span class="RktMeta"></span></td></tr>
+
+    <tr>
+
+     <td><span class="RktMeta"></span><span class="RktSym">git</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">clone</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">http://github.com/ebzzry/livescribe.git</span><span class="RktMeta"></span></td></tr>
+
+    <tr>
+
+     <td><span class="RktMeta"></span><span class="RktSym">raco</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">pkg</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">install</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">sxml/</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">livescribe/</span><span class="RktMeta"></span></td></tr></tbody></table></div>
 
 
- <p> The trailing slashes are important, to tell <code>raco</code> that you are installing from local directories. Without it, it will try to fetch the sources from the internet.</p>
+ <p>The trailing slashes are important, to tell <span class="RktSym">raco</span><span class="RktMeta"></span> that you are
+installing from local directories. Without it, it will try to fetch
+the sources from the internet.</p>
 
 
- <h3 id="Usage">Usage</h3>
+ <h1>2
+
+  <tt>&nbsp;</tt><a name="(part._.Usage)"></a>Usage</h1>
 
 
- <p>To convert the file named <code>file.xml</code> to <code>file.scrbl</code>:</p>
+ <p>To convert the file named <span class="RktSym">file.xml</span><span class="RktMeta"></span> to <span class="RktSym">file.scrbl</span><span class="RktMeta"></span>:</p>
 
 
- <pre>raco livescribe file.xml</pre>
+ <div class="SCodeFlow">
+
+  <table cellspacing="0" class="RktBlk">
+
+   <tbody>
+
+    <tr>
+
+     <td><span class="RktSym">raco</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">livescribe</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">file.xml</span><span class="RktMeta"></span></td></tr></tbody></table></div>
 
 
- <p> Like above, but in addition to generating <code>file.scrbl</code>, render it to <code>file.html</code> as well, as if by running <code>scribble --html file.scrbl</code>.</p>
+ <p>Like above, but in addition to generating <span class="RktSym">file.scrbl</span><span class="RktMeta"></span>, render it to
+<span class="RktSym">file.html</span><span class="RktMeta"></span> as well, as if by running <span class="RktSym">scribble</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym"><span class="nobreak">--h</span>tml</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">file.scrbl</span><span class="RktMeta"></span>.</p>
 
 
- <pre>raco livescribe --html file.xml</pre>
+ <div class="SCodeFlow">
+
+  <table cellspacing="0" class="RktBlk">
+
+   <tbody>
+
+    <tr>
+
+     <td><span class="RktSym">raco</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">livescribe</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym"><span class="nobreak">--h</span>tml</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">file.xml</span><span class="RktMeta"></span></td></tr></tbody></table></div>
 
 
- <p> Again, like above, but in addition to generating <code>file.scrbl</code>, render it to <code>file.md</code> as well, as if by running <code>scribble --markdown file.scrbl</code>.</p>
+ <p>Again, like above, but in addition to generating <span class="RktSym">file.scrbl</span><span class="RktMeta"></span>, render
+it to <span class="RktSym">file.md</span><span class="RktMeta"></span> as well, as if by running <span class="RktSym">scribble</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym"><span class="nobreak">--m</span>arkdown</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">file.scrbl</span><span class="RktMeta"></span>.</p>
 
 
- <pre>raco livescribe --markdown file.xml</pre>
+ <div class="SCodeFlow">
+
+  <table cellspacing="0" class="RktBlk">
+
+   <tbody>
+
+    <tr>
+
+     <td><span class="RktSym">raco</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">livescribe</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym"><span class="nobreak">--m</span>arkdown</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">file.xml</span><span class="RktMeta"></span></td></tr></tbody></table></div>
 
 
- <p> To display the list of available command line options and switches.</p>
+ <p>To display the list of available command line options and switches.</p>
 
 
- <pre>raco livescribe -h</pre>
+ <div class="SCodeFlow">
+
+  <table cellspacing="0" class="RktBlk">
+
+   <tbody>
+
+    <tr>
+
+     <td><span class="RktSym">raco</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">livescribe</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym"><span class="nobreak">-h</span></span><span class="RktMeta"></span></td></tr></tbody></table></div>
 
 
- <h3 id="Updating">Updating</h3>
+ <h1>3
+
+  <tt>&nbsp;</tt><a name="(part._.Updating)"></a>Updating</h1>
 
 
- <p>If you installed <strong>Livescribe</strong> using the first method described in the section <em>Introduction</em>, you can update it by running:</p>
+ <p>If you installed <span style="font-weight: bold">Livescribe</span> using the first method described in the
+section <span style="font-style: italic">Introduction</span>, you can update it by running:</p>
 
 
- <pre>raco pkg update livescribe</pre>
+ <div class="SCodeFlow">
+
+  <table cellspacing="0" class="RktBlk">
+
+   <tbody>
+
+    <tr>
+
+     <td><span class="RktSym">raco</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">pkg</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">update</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">livescribe</span><span class="RktMeta"></span></td></tr></tbody></table></div>
 
 
- <p> However, if you used the latter method, you may update it by pulling the updates, uninstalling <strong>Livescribe</strong>, then installing it again:</p>
+ <p>However, if you used the latter method, you may update it by pulling
+the updates, uninstalling <span style="font-weight: bold">Livescribe</span>, then installing it
+again:</p>
 
 
- <pre>cd livescribe
-git pull origin master
-cd ..
-raco pkg remove livescribe
-raco pkg install livescribe/</pre>
+ <div class="SCodeFlow">
+
+  <table cellspacing="0" class="RktBlk">
+
+   <tbody>
+
+    <tr>
+
+     <td><span class="RktSym">cd</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">livescribe</span><span class="RktMeta"></span></td></tr>
+
+    <tr>
+
+     <td><span class="RktMeta"></span><span class="RktSym">git</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">pull</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">origin</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">master</span><span class="RktMeta"></span></td></tr>
+
+    <tr>
+
+     <td><span class="RktMeta"></span><span class="RktSym">cd</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">..</span><span class="RktMeta"></span></td></tr>
+
+    <tr>
+
+     <td><span class="RktMeta"></span><span class="RktSym">raco</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">pkg</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">remove</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">livescribe</span><span class="RktMeta"></span></td></tr>
+
+    <tr>
+
+     <td><span class="RktMeta"></span><span class="RktSym">raco</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">pkg</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">install</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">livescribe/</span><span class="RktMeta"></span></td></tr></tbody></table></div>
 
 
- <h3 id="Miscellany">Miscellany</h3>
+ <h1>4
+
+  <tt>&nbsp;</tt><a name="(part._.Miscellany)"></a>Miscellany</h1>
 
 
- <p>To reduce typing, you may optionally create an alias to <code>raco livescribe</code> in your shell.</p>
+ <p>To reduce typing, you may optionally create an alias to <span class="RktSym">raco</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">livescribe</span><span class="RktMeta"></span> in your shell.</p>
 
 
  <p>Sh-like shells:</p>
 
 
- <pre>echo 'alias livescribe="raco livescribe"' &gt;&gt; ~/.bashrc</pre>
+ <div class="SCodeFlow">
+
+  <table cellspacing="0" class="RktBlk">
+
+   <tbody>
+
+    <tr>
+
+     <td><span class="RktSym">echo</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">'</span><span class="RktSym">alias</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">livescribe=</span><span class="RktVal">"raco</span><span class="hspace">&nbsp;</span><span class="RktVal">livescribe"</span><span class="RktSym">'</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">&gt;&gt;</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">~/.bashrc</span><span class="RktMeta"></span></td></tr></tbody></table></div>
 
 
- <p> Csh-like shells:</p>
+ <p>Csh-like shells:</p>
 
 
- <pre>echo 'alias livescribe raco livescribe' &gt;&gt; ~/.cshrc</pre>
+ <div class="SCodeFlow">
+
+  <table cellspacing="0" class="RktBlk">
+
+   <tbody>
+
+    <tr>
+
+     <td><span class="RktSym">echo</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">'</span><span class="RktSym">alias</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">livescribe</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">raco</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">livescribe</span><span class="RktSym">'</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">&gt;&gt;</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">~/.cshrc</span><span class="RktMeta"></span></td></tr></tbody></table></div>
 
 
- <p> Replace <code>.bashrc</code>, and <code>.cshrc</code>, with the appropriate init file for your shell.</p>
+ <p>Replace <span class="RktSym">.bashrc</span><span class="RktMeta"></span>, and <span class="RktSym">.cshrc</span><span class="RktMeta"></span>, with the appropriate init file for
+your shell.</p>
 
  <footer>
 

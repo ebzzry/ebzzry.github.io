@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?> 
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
- <title type="text">Deceptively Simple: Posts tagged 'blogging'</title>
- <link rel="self" href="http://rmm.meta.ph/feeds/blogging.atom.xml" />
- <link href="http://rmm.meta.ph/tags/blogging.html" />
- <id>urn:http-rmm-meta-ph:-tags-blogging-html</id>
+ <title type="text">Deceptively Simple: Posts tagged 'Racket'</title>
+ <link rel="self" href="http://rmm.meta.ph/feeds/Racket.atom.xml" />
+ <link href="http://rmm.meta.ph/tags/Racket.html" />
+ <id>urn:http-rmm-meta-ph:-tags-Racket-html</id>
  <updated>2013-06-19T00:00:00Z</updated>
  <entry>
   <title type="text">A Scribble Post</title>
-  <link rel="alternate" href="http://rmm.meta.ph/blog/2013/06/19/a-scribble-post/?utm_source=blogging&amp;utm_medium=Atom" />
+  <link rel="alternate" href="http://rmm.meta.ph/blog/2013/06/19/a-scribble-post/?utm_source=Racket&amp;utm_medium=Atom" />
   <id>urn:http-rmm-meta-ph:-blog-2013-06-19-a-scribble-post</id>
   <published>2013-06-19T00:00:00Z</published>
   <updated>2013-06-19T00:00:00Z</updated>
   <author>
    <name>Rommel Martinez</name></author>
   <content type="html">
-&lt;html&gt;&lt;img src="http://rmm.meta.ph/img/1x1.gif?utm_source=blogging&amp;amp;utm_medium=Atom&amp;amp;utm_campaign=%2Fblog%2F2013%2F06%2F19%2Fa-scribble-post%2F" height="1" width="1" /&gt;
+&lt;html&gt;&lt;img src="http://rmm.meta.ph/img/1x1.gif?utm_source=Racket&amp;amp;utm_medium=Atom&amp;amp;utm_campaign=%2Fblog%2F2013%2F06%2F19%2Fa-scribble-post%2F" height="1" width="1" /&gt;
  &lt;p&gt;The source of this post is Scribble format (not Markdown).&lt;/p&gt;
  &lt;p&gt;Here is some intro text, above "the jump".&lt;/p&gt;
  &lt;p&gt;Here&amp;rsquo;s some &lt;a href="http://bullshitipsum.com/?paragraphs=2"&gt;Bullshit Ipsum&lt;/a&gt;.&lt;/p&gt;

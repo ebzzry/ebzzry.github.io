@@ -14,41 +14,107 @@
    <pubDate>Wed, 29 May 2013 15:10:34 PHT</pubDate>
    <description>
 &lt;html&gt;&lt;img src="http://rmm.meta.ph/img/1x1.gif?utm_source=programming&amp;amp;utm_medium=RSS&amp;amp;utm_campaign=%2Fblog%2F2013%2F05%2F29%2Flivescribe-a-livejournal-utility%2F" height="1" width="1" /&gt;
- &lt;p&gt;I am pleased to announce the version 0.9 release of &lt;strong&gt;Livescribe&lt;/strong&gt;, a &lt;a href="http://racket-lang.org"&gt;Racket&lt;/a&gt; program, used to convert the XML files created by &lt;a href="https://github.com/ghewgill/ljdump"&gt;ljdump&lt;/a&gt;, or &lt;a href="https://github.com/ceejbot/ljmigrate"&gt;ljmigrate&lt;/a&gt;, to &lt;a href="http://docs.racket-lang.org/scribble/"&gt;Scribble&lt;/a&gt;, and the output formats that Scribble supports.&lt;/p&gt;
- &lt;p&gt;The sources are located at the &lt;a href="http://github.com/ebzzry/livescribe"&gt;GitHub project page&lt;/a&gt;.&lt;/p&gt;
- &lt;h3 id="Installation"&gt;Installation&lt;/h3&gt;
- &lt;p&gt;&lt;strong&gt;Livescribe&lt;/strong&gt; is available via Racket&amp;rsquo;s &lt;a href="http://pkg.racket-lang.org"&gt;Planet2&lt;/a&gt;.&lt;/p&gt;
- &lt;pre&gt;raco pkg install livescribe&lt;/pre&gt;
- &lt;p&gt; If that doesn&amp;rsquo;t work, install the dependencies, and &lt;strong&gt;Livescribe&lt;/strong&gt; itself, from the local disk.&lt;/p&gt;
- &lt;pre&gt;git clone http://github.com/jbclements/sxml.git
-git clone http://github.com/ebzzry/livescribe.git
-raco pkg install sxml/ livescribe/&lt;/pre&gt;
- &lt;p&gt; The trailing slashes are important, to tell &lt;code&gt;raco&lt;/code&gt; that you are installing from local directories. Without it, it will try to fetch the sources from the internet.&lt;/p&gt;
- &lt;h3 id="Usage"&gt;Usage&lt;/h3&gt;
- &lt;p&gt;To convert the file named &lt;code&gt;file.xml&lt;/code&gt; to &lt;code&gt;file.scrbl&lt;/code&gt;:&lt;/p&gt;
- &lt;pre&gt;raco livescribe file.xml&lt;/pre&gt;
- &lt;p&gt; Like above, but in addition to generating &lt;code&gt;file.scrbl&lt;/code&gt;, render it to &lt;code&gt;file.html&lt;/code&gt; as well, as if by running &lt;code&gt;scribble --html file.scrbl&lt;/code&gt;.&lt;/p&gt;
- &lt;pre&gt;raco livescribe --html file.xml&lt;/pre&gt;
- &lt;p&gt; Again, like above, but in addition to generating &lt;code&gt;file.scrbl&lt;/code&gt;, render it to &lt;code&gt;file.md&lt;/code&gt; as well, as if by running &lt;code&gt;scribble --markdown file.scrbl&lt;/code&gt;.&lt;/p&gt;
- &lt;pre&gt;raco livescribe --markdown file.xml&lt;/pre&gt;
- &lt;p&gt; To display the list of available command line options and switches.&lt;/p&gt;
- &lt;pre&gt;raco livescribe -h&lt;/pre&gt;
- &lt;h3 id="Updating"&gt;Updating&lt;/h3&gt;
- &lt;p&gt;If you installed &lt;strong&gt;Livescribe&lt;/strong&gt; using the first method described in the section &lt;em&gt;Introduction&lt;/em&gt;, you can update it by running:&lt;/p&gt;
- &lt;pre&gt;raco pkg update livescribe&lt;/pre&gt;
- &lt;p&gt; However, if you used the latter method, you may update it by pulling the updates, uninstalling &lt;strong&gt;Livescribe&lt;/strong&gt;, then installing it again:&lt;/p&gt;
- &lt;pre&gt;cd livescribe
-git pull origin master
-cd ..
-raco pkg remove livescribe
-raco pkg install livescribe/&lt;/pre&gt;
- &lt;h3 id="Miscellany"&gt;Miscellany&lt;/h3&gt;
- &lt;p&gt;To reduce typing, you may optionally create an alias to &lt;code&gt;raco livescribe&lt;/code&gt; in your shell.&lt;/p&gt;
+ &lt;p&gt;I am pleased to announce the version 0.9 release of &lt;span style="font-weight: bold"&gt;Livescribe&lt;/span&gt;, a
+&lt;a href="http://racket-lang.org"&gt;Racket&lt;/a&gt; program, used to convert the XML
+files created by &lt;a href="https://github.com/ghewgill/ljdump"&gt;ljdump&lt;/a&gt;, or
+&lt;a href="https://github.com/ceejbot/ljmigrate"&gt;ljmigrate&lt;/a&gt;, to
+&lt;a href="http://docs.racket-lang.org/scribble/"&gt;Scribble&lt;/a&gt;, and the output
+formats that Scribble supports.&lt;/p&gt;
+ &lt;p&gt;The sources are located at the
+&lt;a href="http://github.com/ebzzry/livescribe"&gt;GitHub project page&lt;/a&gt;.&lt;/p&gt;
+ &lt;h1&gt;1
+  &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Installation)"&gt;&lt;/a&gt;Installation&lt;/h1&gt;
+ &lt;p&gt;&lt;span style="font-weight: bold"&gt;Livescribe&lt;/span&gt; is available via Racket&amp;rsquo;s
+&lt;a href="http://pkg.racket-lang.org"&gt;Planet2&lt;/a&gt;.&lt;/p&gt;
+ &lt;div class="SCodeFlow"&gt;
+  &lt;table cellspacing="0" class="RktBlk"&gt;
+   &lt;tbody&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktSym"&gt;raco&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;pkg&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;install&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;livescribe&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;
+ &lt;p&gt;If that doesn&amp;rsquo;t work, install the dependencies, and &lt;span style="font-weight: bold"&gt;Livescribe&lt;/span&gt;
+itself, from the local disk.&lt;/p&gt;
+ &lt;div class="SCodeFlow"&gt;
+  &lt;table cellspacing="0" class="RktBlk"&gt;
+   &lt;tbody&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktSym"&gt;git&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;clone&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;http://github.com/jbclements/sxml.git&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;git&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;clone&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;http://github.com/ebzzry/livescribe.git&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;raco&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;pkg&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;install&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;sxml/&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;livescribe/&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;
+ &lt;p&gt;The trailing slashes are important, to tell &lt;span class="RktSym"&gt;raco&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt; that you are
+installing from local directories. Without it, it will try to fetch
+the sources from the internet.&lt;/p&gt;
+ &lt;h1&gt;2
+  &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Usage)"&gt;&lt;/a&gt;Usage&lt;/h1&gt;
+ &lt;p&gt;To convert the file named &lt;span class="RktSym"&gt;file.xml&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt; to &lt;span class="RktSym"&gt;file.scrbl&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;:&lt;/p&gt;
+ &lt;div class="SCodeFlow"&gt;
+  &lt;table cellspacing="0" class="RktBlk"&gt;
+   &lt;tbody&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktSym"&gt;raco&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;livescribe&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;file.xml&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;
+ &lt;p&gt;Like above, but in addition to generating &lt;span class="RktSym"&gt;file.scrbl&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;, render it to
+&lt;span class="RktSym"&gt;file.html&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt; as well, as if by running &lt;span class="RktSym"&gt;scribble&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;&lt;span class="nobreak"&gt;--h&lt;/span&gt;tml&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;file.scrbl&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;.&lt;/p&gt;
+ &lt;div class="SCodeFlow"&gt;
+  &lt;table cellspacing="0" class="RktBlk"&gt;
+   &lt;tbody&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktSym"&gt;raco&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;livescribe&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;&lt;span class="nobreak"&gt;--h&lt;/span&gt;tml&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;file.xml&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;
+ &lt;p&gt;Again, like above, but in addition to generating &lt;span class="RktSym"&gt;file.scrbl&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;, render
+it to &lt;span class="RktSym"&gt;file.md&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt; as well, as if by running &lt;span class="RktSym"&gt;scribble&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;&lt;span class="nobreak"&gt;--m&lt;/span&gt;arkdown&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;file.scrbl&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;.&lt;/p&gt;
+ &lt;div class="SCodeFlow"&gt;
+  &lt;table cellspacing="0" class="RktBlk"&gt;
+   &lt;tbody&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktSym"&gt;raco&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;livescribe&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;&lt;span class="nobreak"&gt;--m&lt;/span&gt;arkdown&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;file.xml&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;
+ &lt;p&gt;To display the list of available command line options and switches.&lt;/p&gt;
+ &lt;div class="SCodeFlow"&gt;
+  &lt;table cellspacing="0" class="RktBlk"&gt;
+   &lt;tbody&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktSym"&gt;raco&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;livescribe&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;&lt;span class="nobreak"&gt;-h&lt;/span&gt;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;
+ &lt;h1&gt;3
+  &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Updating)"&gt;&lt;/a&gt;Updating&lt;/h1&gt;
+ &lt;p&gt;If you installed &lt;span style="font-weight: bold"&gt;Livescribe&lt;/span&gt; using the first method described in the
+section &lt;span style="font-style: italic"&gt;Introduction&lt;/span&gt;, you can update it by running:&lt;/p&gt;
+ &lt;div class="SCodeFlow"&gt;
+  &lt;table cellspacing="0" class="RktBlk"&gt;
+   &lt;tbody&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktSym"&gt;raco&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;pkg&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;update&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;livescribe&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;
+ &lt;p&gt;However, if you used the latter method, you may update it by pulling
+the updates, uninstalling &lt;span style="font-weight: bold"&gt;Livescribe&lt;/span&gt;, then installing it
+again:&lt;/p&gt;
+ &lt;div class="SCodeFlow"&gt;
+  &lt;table cellspacing="0" class="RktBlk"&gt;
+   &lt;tbody&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktSym"&gt;cd&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;livescribe&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;git&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;pull&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;origin&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;master&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;cd&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;..&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;raco&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;pkg&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;remove&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;livescribe&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;raco&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;pkg&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;install&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;livescribe/&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;
+ &lt;h1&gt;4
+  &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Miscellany)"&gt;&lt;/a&gt;Miscellany&lt;/h1&gt;
+ &lt;p&gt;To reduce typing, you may optionally create an alias to &lt;span class="RktSym"&gt;raco&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;livescribe&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt; in your shell.&lt;/p&gt;
  &lt;p&gt;Sh-like shells:&lt;/p&gt;
- &lt;pre&gt;echo 'alias livescribe="raco livescribe"' &amp;gt;&amp;gt; ~/.bashrc&lt;/pre&gt;
- &lt;p&gt; Csh-like shells:&lt;/p&gt;
- &lt;pre&gt;echo 'alias livescribe raco livescribe' &amp;gt;&amp;gt; ~/.cshrc&lt;/pre&gt;
- &lt;p&gt; Replace &lt;code&gt;.bashrc&lt;/code&gt;, and &lt;code&gt;.cshrc&lt;/code&gt;, with the appropriate init file for your shell.&lt;/p&gt;&lt;/html&gt;</description></item>
+ &lt;div class="SCodeFlow"&gt;
+  &lt;table cellspacing="0" class="RktBlk"&gt;
+   &lt;tbody&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktSym"&gt;echo&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;'&lt;/span&gt;&lt;span class="RktSym"&gt;alias&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;livescribe=&lt;/span&gt;&lt;span class="RktVal"&gt;"raco&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktVal"&gt;livescribe"&lt;/span&gt;&lt;span class="RktSym"&gt;'&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;&amp;gt;&amp;gt;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;~/.bashrc&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;
+ &lt;p&gt;Csh-like shells:&lt;/p&gt;
+ &lt;div class="SCodeFlow"&gt;
+  &lt;table cellspacing="0" class="RktBlk"&gt;
+   &lt;tbody&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktSym"&gt;echo&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;'&lt;/span&gt;&lt;span class="RktSym"&gt;alias&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;livescribe&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;raco&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;livescribe&lt;/span&gt;&lt;span class="RktSym"&gt;'&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;&amp;gt;&amp;gt;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;~/.cshrc&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;
+ &lt;p&gt;Replace &lt;span class="RktSym"&gt;.bashrc&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;, and &lt;span class="RktSym"&gt;.cshrc&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;, with the appropriate init file for
+your shell.&lt;/p&gt;&lt;/html&gt;</description></item>
   <item>
    <title>Usync: A Data Synchronizer</title>
    <link>http://rmm.meta.ph/blog/2013/05/21/usync-a-data-synchronizer/?utm_source=programming&amp;utm_medium=RSS</link>
@@ -56,27 +122,74 @@ raco pkg install livescribe/&lt;/pre&gt;
    <pubDate>Tue, 21 May 2013 19:18:33 PHT</pubDate>
    <description>
 &lt;html&gt;&lt;img src="http://rmm.meta.ph/img/1x1.gif?utm_source=programming&amp;amp;utm_medium=RSS&amp;amp;utm_campaign=%2Fblog%2F2013%2F05%2F21%2Fusync-a-data-synchronizer%2F" height="1" width="1" /&gt;
- &lt;p&gt;I am pleased to announce the release of &lt;strong&gt;Usync&lt;/strong&gt;, a site-to-site synchronization tool written in &lt;a href="http://www.scsh.net"&gt;Scsh&lt;/a&gt;. It makes use of &lt;a href="http://www.cis.upenn.edu/~bcpierce/unison/"&gt;unison&lt;/a&gt;, and &lt;a href="https://rsync.samba.org/"&gt;rsync&lt;/a&gt;, for bi- and uni-directional synchronizations, respectively.&lt;/p&gt;
- &lt;p&gt;The sources are located at the &lt;a href="http://github.com/ebzzry/usync"&gt;GitHub project page&lt;/a&gt;.&lt;/p&gt;
- &lt;h3 id="Introduction"&gt;Introduction&lt;/h3&gt;
- &lt;p&gt;Usync is a site-to-site synchronization program written in &lt;a href="http://www.scsh.net"&gt;Scsh&lt;/a&gt;. It makes use of &lt;a href="http://www.cis.upenn.edu/~bcpierce/unison/"&gt;unison&lt;/a&gt;, and &lt;a href="https://rsync.samba.org/"&gt;rsync&lt;/a&gt;, for bi- and uni-directional synchronizations, respectively.&lt;/p&gt;
- &lt;h3 id="Basic Usage"&gt;Basic Usage&lt;/h3&gt;
- &lt;p&gt;To perform two-way synchronization of the directory &lt;code&gt;/pub/yot/ninam&lt;/code&gt;, between the current host, to the hosts &lt;code&gt;tarupam&lt;/code&gt;, and &lt;code&gt;taubetmo&lt;/code&gt;, while preserving the directory structure remotely (take note, that there must be no spaces between the hosts specification, due to the IFS environment variable, found in most shells):&lt;/p&gt;
- &lt;pre&gt;usync /pub/yot/ninam/ tarupam,taubetmo&lt;/pre&gt;
- &lt;p&gt; The command above will perform two-way synchronization of the diretory &lt;code&gt;ninam/&lt;/code&gt; found under &lt;code&gt;/pub/yot/&lt;/code&gt;, to &lt;code&gt;tarupam:/pub/yot/&lt;/code&gt;, and &lt;code&gt;taubetmo:/pub/yot/&lt;/code&gt;.&lt;/p&gt;
- &lt;p&gt;Using our example above, the two-way synchronization system basically tells that if the tree &lt;code&gt;tarupam:/pub/yot/ninam/&lt;/code&gt; contains new and/or updated items, compared with &lt;code&gt;localhost:/pub/yot/ninam/&lt;/code&gt;, and &lt;code&gt;localhost:/pub/yot/ninam/&lt;/code&gt; also happens to have new and/or updated items, then, they will trade updates.&lt;/p&gt;
- &lt;p&gt;Ideally, the result is that &lt;code&gt;localhost:/pub/yot/ninam/&lt;/code&gt;, &lt;code&gt;tarupam:/pub/yot/ninam/&lt;/code&gt;, and &lt;code&gt;taubetmo:/pub/yot/ninam/&lt;/code&gt;, are all equal.&lt;/p&gt;
- &lt;h3 id="Semi-advanced Usage"&gt;Semi-advanced Usage&lt;/h3&gt;
- &lt;p&gt;It is also possible to perform synchronization of multiple files, and directories, to remote hosts. To do so, run:&lt;/p&gt;
- &lt;pre&gt;usync /pub/yot/ninam/ ~/file.text ~reyn/*.blend tarupam,taubetmo&lt;/pre&gt;
- &lt;p&gt; The command above will perform two-way synchronization of the paths &lt;code&gt;/pub/yot/ninam/&lt;/code&gt;, &lt;code&gt;~/file.text&lt;/code&gt;, and &lt;code&gt;~reyn/*.blend&lt;/code&gt; to the remote hosts &lt;code&gt;tarupam&lt;/code&gt;, and &lt;code&gt;taubetmo&lt;/code&gt;, using the same directory structure that was described above.&lt;/p&gt;
- &lt;p&gt;If you want to perform one-way synchronization, of the above, like &lt;code&gt;rsync&lt;/code&gt;, run:&lt;/p&gt;
- &lt;pre&gt;usync --one-way --prefer-local /pub/yot/ninam/ ~/file.text ~reyn/draft.blend tarupam,taubetmo&lt;/pre&gt;
- &lt;p&gt; For more usage information, run:&lt;/p&gt;
- &lt;pre&gt;usync --help&lt;/pre&gt;
- &lt;h3 id="Caveats"&gt;Caveats&lt;/h3&gt;
- &lt;ol&gt;
-  &lt;li&gt;This program has been used on FreeBSD, hence making the shebang line contain &lt;code&gt;/usr/local/bin/scsh&lt;/code&gt;. Please change it, accordingly.&lt;/li&gt;&lt;/ol&gt;&lt;/html&gt;</description></item>
+ &lt;p&gt;I am pleased to announce the release of &lt;span style="font-weight: bold"&gt;Usync&lt;/span&gt;, a site-to-site
+synchronization tool written in &lt;a href="http://www.scsh.net"&gt;Scsh&lt;/a&gt;. It
+makes use of &lt;a href="http://www.cis.upenn.edu/~bcpierce/unison/"&gt;Unison&lt;/a&gt;,
+and &lt;a href="http://rsync.samba.org/"&gt;rsync&lt;/a&gt;, for bi- and uni-directional
+synchronizations, respectively.&lt;/p&gt;
+ &lt;p&gt;The sources are located at the
+&lt;a href="http://github.com/ebzzry/usync"&gt;GitHub project page&lt;/a&gt;.&lt;/p&gt;
+ &lt;h1&gt;1
+  &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Introduction)"&gt;&lt;/a&gt;Introduction&lt;/h1&gt;
+ &lt;p&gt;Usync is a site-to-site synchronization program written in
+&lt;a href="http://www.scsh.net"&gt;Scsh&lt;/a&gt;. It makes use of
+&lt;a href="http://www.cis.upenn.edu/~bcpierce/unison/"&gt;Unison&lt;/a&gt;, and
+&lt;a href="http://rsync.samba.org/"&gt;Rsync&lt;/a&gt;, for bi- and uni-directional
+synchronizations, respectively.&lt;/p&gt;
+ &lt;h1&gt;2
+  &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Basic_.Usage)"&gt;&lt;/a&gt;Basic Usage&lt;/h1&gt;
+ &lt;p&gt;To perform two-way synchronization of the directory &lt;span class="RktSym"&gt;/pub/yot/ninam&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;,
+between the current host, to the hosts &lt;span class="RktSym"&gt;tarupam&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;, and &lt;span class="RktSym"&gt;taubetmo&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;,
+while preserving the directory structure remotely (take note, that
+there must be no spaces between the hosts specification, due to the
+IFS environment variable, found in most shells):&lt;/p&gt;
+ &lt;div class="SCodeFlow"&gt;
+  &lt;table cellspacing="0" class="RktBlk"&gt;
+   &lt;tbody&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktSym"&gt;usync&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;/pub/yot/ninam/&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;tarupam&lt;/span&gt;&lt;span class="RktSym"&gt;,&lt;/span&gt;&lt;span class="RktSym"&gt;taubetmo&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;
+ &lt;p&gt;The command above will perform two-way synchronization of the diretory
+&lt;span class="RktSym"&gt;ninam/&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt; found under &lt;span class="RktSym"&gt;/pub/yot/&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;, to &lt;span class="RktSym"&gt;tarupam:/pub/yot/&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;, and
+&lt;span class="RktSym"&gt;taubetmo:/pub/yot/&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;.&lt;/p&gt;
+ &lt;p&gt;Using our example above, the two-way synchronization system basically
+tells that if the tree &lt;span class="RktSym"&gt;tarupam:/pub/yot/ninam/&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt; contains new and/or
+updated items, compared with &lt;span class="RktSym"&gt;localhost:/pub/yot/ninam/&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;, and
+&lt;span class="RktSym"&gt;localhost:/pub/yot/ninam/&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt; also happens to have new and/or updated
+items, then, they will trade updates.&lt;/p&gt;
+ &lt;p&gt;Ideally, the result is that &lt;span class="RktSym"&gt;localhost:/pub/yot/ninam/&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;,
+&lt;span class="RktSym"&gt;tarupam:/pub/yot/ninam/&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;, and &lt;span class="RktSym"&gt;taubetmo:/pub/yot/ninam/&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;, are all
+equal.&lt;/p&gt;
+ &lt;h1&gt;3
+  &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Semi-advanced_.Usage)"&gt;&lt;/a&gt;Semi-advanced Usage&lt;/h1&gt;
+ &lt;p&gt;It is also possible to perform synchronization of multiple files, and
+directories, to remote hosts. To do so, run:&lt;/p&gt;
+ &lt;div class="SCodeFlow"&gt;
+  &lt;table cellspacing="0" class="RktBlk"&gt;
+   &lt;tbody&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktSym"&gt;usync&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;/pub/yot/ninam/&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;~/file.text&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;~reyn/*.blend&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;tarupam&lt;/span&gt;&lt;span class="RktSym"&gt;,&lt;/span&gt;&lt;span class="RktSym"&gt;taubetmo&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;
+ &lt;p&gt;The command above will perform two-way synchronization of the paths
+&lt;span class="RktSym"&gt;/pub/yot/ninam/&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;, &lt;span class="RktSym"&gt;~/file.text&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;, and &lt;span class="RktSym"&gt;~reyn/*.blend&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt; to the
+remote hosts &lt;span class="RktSym"&gt;tarupam&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;, and &lt;span class="RktSym"&gt;taubetmo&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;, using the same directory
+structure that was described above.&lt;/p&gt;
+ &lt;p&gt;If you want to perform one-way synchronization, of the above, like
+&lt;span class="RktSym"&gt;rsync&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;, run:&lt;/p&gt;
+ &lt;div class="SCodeFlow"&gt;
+  &lt;table cellspacing="0" class="RktBlk"&gt;
+   &lt;tbody&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktSym"&gt;usync&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;&lt;span class="nobreak"&gt;--o&lt;/span&gt;ne-way&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;&lt;span class="nobreak"&gt;--p&lt;/span&gt;refer-local&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;/pub/yot/ninam/&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;~/file.text&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;~reyn/draft.blend&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;tarupam&lt;/span&gt;&lt;span class="RktSym"&gt;,&lt;/span&gt;&lt;span class="RktSym"&gt;taubetmo&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;
+ &lt;p&gt;For more usage information, run:&lt;/p&gt;
+ &lt;div class="SCodeFlow"&gt;
+  &lt;table cellspacing="0" class="RktBlk"&gt;
+   &lt;tbody&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktSym"&gt;usync&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;&lt;span class="nobreak"&gt;--h&lt;/span&gt;elp&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;
+ &lt;h1&gt;4
+  &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Caveats)"&gt;&lt;/a&gt;Caveats&lt;/h1&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;p&gt;This program has been used on FreeBSD, hence making the shebang line contain &lt;span class="RktSym"&gt;/usr/local/bin/scsh&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;. Please change it, accordingly.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/html&gt;</description></item>
   <item>
    <title>The Y Combinator in Six Easy Steps</title>
    <link>http://rmm.meta.ph/blog/2013/05/09/the-y-combinator-in-six-easy-steps/?utm_source=programming&amp;utm_medium=RSS</link>
@@ -84,88 +197,205 @@ raco pkg install livescribe/&lt;/pre&gt;
    <pubDate>Thu, 09 May 2013 12:43:11 PHT</pubDate>
    <description>
 &lt;html&gt;&lt;img src="http://rmm.meta.ph/img/1x1.gif?utm_source=programming&amp;amp;utm_medium=RSS&amp;amp;utm_campaign=%2Fblog%2F2013%2F05%2F09%2Fthe-y-combinator-in-six-easy-steps%2F" height="1" width="1" /&gt;
- &lt;p&gt;A lot of us have been taught that to be able to define a recursive procedure, the recursive invocation must &amp;ldquo;use&amp;rdquo; the name of the recursive procedure. The &lt;a href="http://en.wikipedia.org/wiki/Fixed-point_combinator#Y_combinator"&gt;Y combinator&lt;/a&gt;, however, lets us perform recursion, without referring to the named identifier.&lt;/p&gt;
- &lt;p&gt;The Y combinator has been both a source of inspiration and frustration for many. It evokes a eureka-like sensation once you get past the wall, but it also renders us scratching our heads when it just doesn&amp;rsquo;t make sense to traverse the labyrinth. This post aims to bring my own approach on how to derive the Y combinator. It may not be the most elegant way, but it may work for you.&lt;/p&gt;
- &lt;p&gt;In the code examples in this post, the &lt;code&gt;&amp;gt;&lt;/code&gt; symbol denotes the prompt symbol for your Scheme implementation.&lt;/p&gt;
- &lt;p&gt;Let&amp;rsquo;s start by defining a procedure named &lt;code&gt;sum0&lt;/code&gt; that computes the &lt;a href="https://en.wikipedia.org/wiki/Summation"&gt;summation&lt;/a&gt; of a positive integer, down to zero. In the following snippet, the recursive call happens when &lt;code&gt;sum0&lt;/code&gt; is applied in the else part of the condition.&lt;/p&gt;
- &lt;pre class="brush: racket"&gt;&amp;gt; (define sum0
-    (lambda (n)
-      (if (zero? n)
-          0
-          (+ n (sum0 (- n 1))))))
-&amp;gt; (sum0 100)
-5050&lt;/pre&gt;
- &lt;p&gt; You have have observed that I have defined &lt;code&gt;sum0&lt;/code&gt; using an explicit &lt;code&gt;lambda&lt;/code&gt;. You&amp;rsquo;ll see shortly, why.&lt;/p&gt;
- &lt;p&gt;Let&amp;rsquo;s break that procedure futher, into more elementary components, and we&amp;rsquo;ll apply it, using &lt;a href="https://en.wikipedia.org/wiki/Currying"&gt;currying&lt;/a&gt;.&lt;/p&gt;
- &lt;pre class="brush: racket"&gt;&amp;gt; (define sum0
-    (lambda (f)
-      (lambda (n)
-        (if (zero? n)
-            0
-            (+ n ((f f) (- n 1)))))))
-&amp;gt; ((sum0 sum0) 100)
-5050&lt;/pre&gt;
- &lt;p&gt; The extra &lt;code&gt;lambda&lt;/code&gt; was needed because we needed to have a way to &amp;ldquo;anonymize&amp;rdquo; the recursive procedure. In this case, we used the identifier &lt;code&gt;f&lt;/code&gt; to bind to the recursive procedure, which is &lt;code&gt;sum0&lt;/code&gt;, itself. The weird-looking &lt;code&gt;((f f) ...&lt;/code&gt; is needed, because we have to perform the same procedure invocation method used initially: &lt;code&gt;((sum0 sum0) 100)&lt;/code&gt;.&lt;/p&gt;
- &lt;p&gt;We&amp;rsquo;re now going to exploit that property, to use a &amp;ldquo;nameless&amp;rdquo; approach, that is, without using the &lt;code&gt;sum0&lt;/code&gt; name.&lt;/p&gt;
- &lt;pre class="brush: racket"&gt;&amp;gt; (((lambda (f)
-      (lambda (n)
-        (if (zero? n)
-            0
-            (+ n ((f f) (- n 1))))))
-    (lambda (f)
-      (lambda (n)
-        (if (zero? n)
-            0
-            (+ n ((f f) (- n 1)))))))
-   100)
-5050&lt;/pre&gt;
- &lt;p&gt; Take note, that at this point, we&amp;rsquo;re no longer using the &lt;code&gt;sum0&lt;/code&gt; name, to refer the the definition, except for later.&lt;/p&gt;
- &lt;p&gt;Next, we need to move the &lt;code&gt;(f f)&lt;/code&gt; part outside, to isolate the general (Y combinator), from the specific (&lt;code&gt;sum0&lt;/code&gt;) code.&lt;/p&gt;
- &lt;pre class="brush: racket"&gt;&amp;gt; (((lambda (f)
-      ((lambda (p)
-         (lambda (n)
-           (if (zero? n)
-               0
-               (+ n (p (- n 1))))))
-       (lambda (v) ((f f) v))))
-    (lambda (f)
-      ((lambda (p)
-         (lambda (n)
-           (if (zero? n)
-               0
-               (+ n (p (- n 1))))))
-       (lambda (v) ((f f) v)))))
-   100)
-5050&lt;/pre&gt;
- &lt;p&gt; During the procedure application, the identifier &lt;code&gt;p&lt;/code&gt; will be bound to &lt;code&gt;(lambda (v) ((f f) v))&lt;/code&gt;, and the identifier &lt;code&gt;v&lt;/code&gt; will be bound to &lt;code&gt;(- n 1)&lt;/code&gt;.&lt;/p&gt;
- &lt;p&gt;Finally, we&amp;rsquo;re going to isolate the Y combinator, from the &lt;code&gt;sum0&lt;/code&gt; procedure.&lt;/p&gt;
- &lt;pre class="brush: racket"&gt;&amp;gt; (((lambda (x)
-      ((lambda (f)
-         (x (lambda (v) ((f f) v))))
-       (lambda (f)
-         (x (lambda (v) ((f f) v))))))
-    (lambda (p)
-      (lambda (n)
-        (if (zero? n)
-            0
-            (+ n (p (- n 1)))))))
-   100)
-5050&lt;/pre&gt;
- &lt;p&gt; We replace the &lt;code&gt;sum0&lt;/code&gt;-specific definition with &lt;code&gt;x&lt;/code&gt;. This requires us again, to create an enveloping &lt;code&gt;lambda&lt;/code&gt;. Since &lt;code&gt;x&lt;/code&gt; is bound to the computing procedure, we no longer need to repeat it.&lt;/p&gt;
- &lt;p&gt;Optionally, we can explicitly create separate procedure definitions for the Y combinator itself, and the &lt;code&gt;sum0&lt;/code&gt; procedure.&lt;/p&gt;
- &lt;pre class="brush: racket"&gt;&amp;gt; (define y
-    (lambda (x)
-      ((lambda (f)
-         (x (lambda (v) ((f f) v))))
-       (lambda (f)
-         (x (lambda (v) ((f f) v)))))))
-&amp;gt; (define %sum0
-    (lambda (p)
-      (lambda (n)
-        (if (zero? n)
-            0
-            (+ n (p (- n 1)))))))
-&amp;gt; (define sum0 (y %sum0))
-&amp;gt; (sum0 100)
-5050&lt;/pre&gt;
- &lt;p&gt; I hope this post has been useful in making you understand the Y combinator, currying, and procedure application. Please post your comments and suggestions, below. &amp;lt;-:&lt;/p&gt;&lt;/html&gt;</description></item></channel></rss>
+ &lt;p&gt;A lot of us have been taught that to be able to define a recursive procedure,
+the recursive invocation must "use" the name of the recursive procedure. The
+&lt;a href="http://en.wikipedia.org/wiki/Fixed-point_combinator#Y_combinator"&gt;Y combinator&lt;/a&gt;, however, lets us perform recursion, without referring to the
+named identifier.&lt;/p&gt;
+ &lt;p&gt;The Y combinator has been both a source of inspiration and frustration
+for many. It evokes a eureka-like sensation once you get past the
+wall, but it also renders us scratching our heads when it just doesn&amp;rsquo;t
+make sense to traverse the labyrinth. This post aims to bring my own
+approach on how to derive the Y combinator. It may not be the most
+elegant way, but it may work for you.&lt;/p&gt;
+ &lt;p&gt;In the code examples in this post, the &lt;span class="RktSym"&gt;&amp;gt;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt; symbol denotes the prompt
+symbol for your Scheme implementation.&lt;/p&gt;
+ &lt;p&gt;Let&amp;rsquo;s start by defining a procedure named &lt;span class="RktSym"&gt;sum0&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt; that computes the
+&lt;a href="http://en.wikipedia.org/wiki/Summation"&gt;summation&lt;/a&gt; of a positive
+integer, down to zero. In the following snippet, the recursive call happens
+when &lt;span class="RktSym"&gt;sum0&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt; is applied in the else part of the condition.&lt;/p&gt;
+ &lt;div class="SCodeFlow"&gt;
+  &lt;table cellspacing="0" class="RktBlk"&gt;
+   &lt;tbody&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktSym"&gt;&amp;gt;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;define&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;sum0&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;lambda&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;n&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;if&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;zero?&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;n&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktVal"&gt;0&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;+&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;n&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;sum0&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;&lt;span class="nobreak"&gt;-&lt;/span&gt;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;n&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktVal"&gt;1&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;&amp;gt;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;sum0&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktVal"&gt;100&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktVal"&gt;5050&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;
+ &lt;p&gt;You have have observed that I have defined &lt;span class="RktSym"&gt;sum0&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt; using an explicit
+&lt;span class="RktSym"&gt;lambda&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;. You&amp;rsquo;ll see shortly, why.&lt;/p&gt;
+ &lt;p&gt;Let&amp;rsquo;s break that procedure futher, into more elementary components,
+and we&amp;rsquo;ll apply it, using
+&lt;a href="https://en.wikipedia.org/wiki/Currying"&gt;currying&lt;/a&gt;.&lt;/p&gt;
+ &lt;div class="SCodeFlow"&gt;
+  &lt;table cellspacing="0" class="RktBlk"&gt;
+   &lt;tbody&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktSym"&gt;&amp;gt;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;define&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;sum0&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;lambda&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;f&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;lambda&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;n&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;if&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;zero?&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;n&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktVal"&gt;0&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;+&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;n&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;f&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;f&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;&lt;span class="nobreak"&gt;-&lt;/span&gt;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;n&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktVal"&gt;1&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;&amp;gt;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;sum0&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;sum0&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktVal"&gt;100&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktVal"&gt;5050&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;
+ &lt;p&gt;The extra &lt;span class="RktSym"&gt;lambda&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt; was needed because we needed to have a way to
+"anonymize" the recursive procedure. In this case, we used the
+identifier &lt;span class="RktSym"&gt;f&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt; to bind to the recursive procedure, which is &lt;span class="RktSym"&gt;sum0&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;,
+itself. The weird-looking &lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;f&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;f&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;...&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt; is needed, because we have to
+perform the same procedure invocation method used initially: &lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;sum0&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;sum0&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktVal"&gt;100&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;.&lt;/p&gt;
+ &lt;p&gt;We&amp;rsquo;re now going to exploit that property, to use a "nameless"
+approach, that is, without using the &lt;span class="RktSym"&gt;sum0&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt; name.&lt;/p&gt;
+ &lt;div class="SCodeFlow"&gt;
+  &lt;table cellspacing="0" class="RktBlk"&gt;
+   &lt;tbody&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktSym"&gt;&amp;gt;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;lambda&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;f&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;lambda&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;n&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;if&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;zero?&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;n&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktVal"&gt;0&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;+&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;n&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;f&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;f&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;&lt;span class="nobreak"&gt;-&lt;/span&gt;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;n&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktVal"&gt;1&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;lambda&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;f&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;lambda&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;n&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;if&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;zero?&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;n&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktVal"&gt;0&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;+&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;n&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;f&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;f&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;&lt;span class="nobreak"&gt;-&lt;/span&gt;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;n&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktVal"&gt;1&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktVal"&gt;100&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktVal"&gt;5050&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;
+ &lt;p&gt;Take note, that at this point, we&amp;rsquo;re no longer using the &lt;span class="RktSym"&gt;sum0&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt; name,
+to refer the the definition, except for later.&lt;/p&gt;
+ &lt;p&gt;Next, we need to move the &lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;f&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;f&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt; part outside, to isolate the general
+(Y combinator), from the specific (&lt;span class="RktSym"&gt;sum0&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;) code.&lt;/p&gt;
+ &lt;div class="SCodeFlow"&gt;
+  &lt;table cellspacing="0" class="RktBlk"&gt;
+   &lt;tbody&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktSym"&gt;&amp;gt;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;lambda&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;f&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;lambda&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;p&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;lambda&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;n&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;if&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;zero?&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;n&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktVal"&gt;0&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;+&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;n&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;p&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;&lt;span class="nobreak"&gt;-&lt;/span&gt;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;n&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktVal"&gt;1&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;lambda&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;v&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;f&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;f&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;v&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;lambda&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;f&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;lambda&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;p&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;lambda&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;n&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;if&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;zero?&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;n&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktVal"&gt;0&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;+&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;n&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;p&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;&lt;span class="nobreak"&gt;-&lt;/span&gt;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;n&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktVal"&gt;1&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;lambda&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;v&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;f&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;f&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;v&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktVal"&gt;100&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktVal"&gt;5050&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;
+ &lt;p&gt;During the procedure application, the identifier &lt;span class="RktSym"&gt;p&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt; will be bound to
+&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;lambda&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;v&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;f&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;f&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;v&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;, and the identifier &lt;span class="RktSym"&gt;v&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt; will be bound to &lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;&lt;span class="nobreak"&gt;-&lt;/span&gt;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;n&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktVal"&gt;1&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;.&lt;/p&gt;
+ &lt;p&gt;Finally, we&amp;rsquo;re going to isolate the Y combinator, from the &lt;span class="RktSym"&gt;sum0&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;
+procedure.&lt;/p&gt;
+ &lt;div class="SCodeFlow"&gt;
+  &lt;table cellspacing="0" class="RktBlk"&gt;
+   &lt;tbody&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktSym"&gt;&amp;gt;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;lambda&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;x&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;lambda&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;f&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;x&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;lambda&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;v&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;f&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;f&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;v&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;lambda&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;f&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;x&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;lambda&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;v&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;f&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;f&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;v&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;lambda&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;p&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;lambda&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;n&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;if&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;zero?&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;n&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktVal"&gt;0&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;+&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;n&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;p&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;&lt;span class="nobreak"&gt;-&lt;/span&gt;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;n&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktVal"&gt;1&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktVal"&gt;100&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktVal"&gt;5050&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;
+ &lt;p&gt;We replace the &lt;span class="RktSym"&gt;sum0&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;-specific definition with &lt;span class="RktSym"&gt;x&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;. This requires us
+again, to create an enveloping &lt;span class="RktSym"&gt;lambda&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;. Since &lt;span class="RktSym"&gt;x&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt; is bound to the
+computing procedure, we no longer need to repeat it.&lt;/p&gt;
+ &lt;p&gt;Optionally, we can explicitly create separate procedure definitions for
+the Y combinator itself, and the &lt;span class="RktSym"&gt;sum0&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt; procedure.&lt;/p&gt;
+ &lt;div class="SCodeFlow"&gt;
+  &lt;table cellspacing="0" class="RktBlk"&gt;
+   &lt;tbody&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktSym"&gt;&amp;gt;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;define&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;y&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;lambda&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;x&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;lambda&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;f&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;x&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;lambda&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;v&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;f&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;f&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;v&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;lambda&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;f&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;x&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;lambda&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;v&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;f&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;f&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;v&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;&amp;gt;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;define&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;%sum0&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;lambda&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;p&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;lambda&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;n&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;if&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;zero?&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;n&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktVal"&gt;0&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;+&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;n&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;p&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;&lt;span class="nobreak"&gt;-&lt;/span&gt;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;n&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktVal"&gt;1&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;&amp;gt;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;define&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;sum0&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;y&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;%sum0&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;&amp;gt;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;sum0&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktVal"&gt;100&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktVal"&gt;5050&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;
+ &lt;p&gt;I hope this post has been useful in making you understand the
+Y combinator, currying, and procedure application. Please post your
+comments and suggestions, below. &amp;lt;-:&lt;/p&gt;&lt;/html&gt;</description></item></channel></rss>
