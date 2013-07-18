@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+ <title type="text">Deceptively Simple: Posts tagged 'en'</title>
+ <link rel="self" href="http://rmm.meta.ph/feeds/en.atom.xml" />
+ <link href="http://rmm.meta.ph/tags/en.html" />
+ <id>urn:http-rmm-meta-ph:-tags-en-html</id>
+ <updated>2008-08-12T15:21:00Z</updated>
+ <entry>
+  <title type="text">No Boston Lisp Meeting for August - Next Meeting in September</title>
+  <link rel="alternate" href="http://rmm.meta.ph/blog/2008/08/12/no-boston-lisp-meeting-for-august-next-meeting-in-september/?utm_source=en&amp;utm_medium=Atom" />
+  <id>urn:http-rmm-meta-ph:-blog-2008-08-12-no-boston-lisp-meeting-for-august-next-meeting-in-september</id>
+  <published>2008-08-12T15:21:00Z</published>
+  <updated>2008-08-12T15:21:00Z</updated>
+  <author>
+   <name>Rommel Martinez</name></author>
+  <content type="html">
+&lt;html&gt;&lt;img src="http://rmm.meta.ph/img/1x1.gif?utm_source=en&amp;amp;utm_medium=Atom&amp;amp;utm_campaign=%2Fblog%2F2008%2F08%2F12%2Fno-boston-lisp-meeting-for-august-next-meeting-in-september%2F" height="1" width="1" /&gt;
+ &lt;p&gt;
+  &lt;p align="justify"&gt; Due to the organizer (me) doing too many other things this summer and lacking the foresight to delegate, no speaker was found for August. I don't feel like rushing things so late in the game, so unless a surprise speaker is found on short notice, there won't be a Boston Lisp Meeting this August. &lt;/p&gt; 
+  &lt;p align="justify"&gt; But lo and behold, we have speakers for September and October. On Monday September 29th 2008, 1800, Rich Hickey will give a long talk on &lt;a href="http://clojure.org/"&gt;Clojure&lt;/a&gt;, his new Lisp dialect for the JVM, at the usual venue MIT 34-401B. Official announcement will follow later this month. &lt;/p&gt; 
+  &lt;p align="justify"&gt; In October (Monday 27th?), Tim McNerney will hopefully talk about his past work on verification of correctness of a compiler transformation pass through abstract interpretation. &lt;/p&gt;&lt;/p&gt;&lt;/html&gt;</content></entry></feed>

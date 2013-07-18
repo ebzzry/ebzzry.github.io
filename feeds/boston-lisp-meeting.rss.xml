@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<rss version="2.0">
+ <channel>
+  <title>Deceptively Simple: Posts tagged 'boston-lisp-meeting'</title>
+  <description>Deceptively Simple: Posts tagged 'boston-lisp-meeting'</description>
+  <link>http://rmm.meta.ph/tags/boston-lisp-meeting.html</link>
+  <lastBuildDate>Tue, 12 Aug 2008 15:21:00 PHT</lastBuildDate>
+  <pubDate>Tue, 12 Aug 2008 15:21:00 PHT</pubDate>
+  <ttl>1800</ttl>
+  <item>
+   <title>No Boston Lisp Meeting for August - Next Meeting in September</title>
+   <link>http://rmm.meta.ph/blog/2008/08/12/no-boston-lisp-meeting-for-august-next-meeting-in-september/?utm_source=boston-lisp-meeting&amp;utm_medium=RSS</link>
+   <guid>urn:http-rmm-meta-ph:-blog-2008-08-12-no-boston-lisp-meeting-for-august-next-meeting-in-september</guid>
+   <pubDate>Tue, 12 Aug 2008 15:21:00 PHT</pubDate>
+   <description>
+&lt;html&gt;&lt;img src="http://rmm.meta.ph/img/1x1.gif?utm_source=boston-lisp-meeting&amp;amp;utm_medium=RSS&amp;amp;utm_campaign=%2Fblog%2F2008%2F08%2F12%2Fno-boston-lisp-meeting-for-august-next-meeting-in-september%2F" height="1" width="1" /&gt;
+ &lt;p&gt;
+  &lt;p align="justify"&gt; Due to the organizer (me) doing too many other things this summer and lacking the foresight to delegate, no speaker was found for August. I don't feel like rushing things so late in the game, so unless a surprise speaker is found on short notice, there won't be a Boston Lisp Meeting this August. &lt;/p&gt; 
+  &lt;p align="justify"&gt; But lo and behold, we have speakers for September and October. On Monday September 29th 2008, 1800, Rich Hickey will give a long talk on &lt;a href="http://clojure.org/"&gt;Clojure&lt;/a&gt;, his new Lisp dialect for the JVM, at the usual venue MIT 34-401B. Official announcement will follow later this month. &lt;/p&gt; 
+  &lt;p align="justify"&gt; In October (Monday 27th?), Tim McNerney will hopefully talk about his past work on verification of correctness of a compiler transformation pass through abstract interpretation. &lt;/p&gt;&lt;/p&gt;&lt;/html&gt;</description></item></channel></rss>
