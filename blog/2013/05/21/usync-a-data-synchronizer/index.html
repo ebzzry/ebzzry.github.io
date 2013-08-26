@@ -1,26 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Most of the <head> section you can leave alone.  Notice some
-         template variables like `title`, `description` etc. which you
-         could also use in other parts of this template if you
-         wish. -->
-    <meta charset="utf-8" />
+
+    <meta charset="utf-8">
     <title>Usync: A Data Synchronizer</title>
     <meta name="description" content="I am pleased to announce the release of Usync, a site-to-site
 synchronization tool written in Scsh. It
 makes use of Unison,
 and rsync, for bi- and uni-directional
-synchronizations, respectively. The sources are located at the
-GitHub project page. ...">
-    <meta name="author"      content="The Unknown Blogger">
-    <meta name="keywords"    content="scheme, programming, networking">
+synchronizations, respectively. The sources, along with additional information, are located at
+http://github.com/ebzzry/usync. ...">
+    <meta name="author"      content="Rommel Martinez">
+    <meta name="keywords"    content="scheme, programming">
     <meta name="viewport"    content="width=device-width, initial-scale=1.0">
     <link rel="icon"      href="/favicon.ico">
-    <link rel="canonical" href="http://rmm.meta.ph/blog/2013/05/21/usync-a-data-synchronizer/">
+    <link rel="canonical" href="http://www.example.com/blog/2013/05/21/usync-a-data-synchronizer/">
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="/css/bootstrap-responsive.min.css">
     <link rel="stylesheet" type="text/css" href="/css/pygments.css">
     <link rel="stylesheet" type="text/css" href="/css/scribble.css">
     <link rel="stylesheet" type="text/css" href="/css/custom.css">
@@ -30,8 +26,6 @@ GitHub project page. ...">
     <link ref="alternate" type="application/rss+xml"
           href="/feeds/all.rss.xml" title="RSS Feed">
     <!-- JS -->
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
-    <script type="text/javascript" src="/js/bootstrap.min.js"></script>
     <script type="text/javascript">
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-xxxxx']);
@@ -49,41 +43,60 @@ GitHub project page. ...">
   </head>
   <body>
     <!-- A standard Twitter Bootstrap nav bar -->
-    <div class="navbar navbar-inverse">
-      <div class="navbar-inner">
-        <div class="container">
-          <ul class="nav">
-            <!-- Notice we can define Racket functions. Here's a
-                 helper to add class="active" to a nav bar item if it
-                 is for this page (as indiated by `uri-path`) -->
-            <li>
-              <a href="/index.html" class="brand">All Posts</a>
-            </li> 
+    <header class="navbar navbar-default navbar-inverse"
+            role="banner">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button"
+                  class="navbar-toggle"
+                  data-toggle="collapse"
+                  data-target=".our-nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!-- <a href="/index.html" class="navbar-brand">Home</a> -->
+          <a href="/index.html" class="navbar-brand">#</a>
+        </div>
+        <div class="collapse navbar-collapse our-nav-collapse"
+             role="navigation">
+          <ul class="nav navbar-nav">
+
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                Tags <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="/index.html">All Posts</a></li>
+
+<li><a href="/tags/emacs.html">emacs</a></li>
+
+<li><a href="/tags/programming.html">programming</a></li>
+
+<li><a href="/tags/racket.html">racket</a></li>
+
+<li><a href="/tags/rants.html">rants</a></li>
+
+<li><a href="/tags/scheme.html">scheme</a></li>
+              </ul>
+            </li>
             <li>
               <a href="/About.html">About</a>
             </li> 
+            <li><a href="/feeds/all.atom.xml">Atom</a></li>
+            <li><a href="/feeds/all.rss.xml">RSS</a></li>
           </ul>
         </div>
-      </div>
-    </div>
-    <!-- This div's class should be "container-fluid" if you're using
-         Bootstrap's responsive CSS, else "container". -->
-    <div class="container-fluid">
-      <!-- This div's class should be "row-fluid" if you're using
-           Bootstrap's responsive CSS, else "row". -->
-      <div class="row-fluid">
-        <!-- Remember that Twitter Bootstrap has a 12 cell model. The
-             spanN classes should add up to 12.  For instance 3
-             "span4" divs, or 2 "span6" divs. In this example the main
-             content is "span9", plsu a "span3" right sidebar. -->
+    </header>
+    <div class="container">
+      <div class="row">
+
         <!-- Main column -->
-        <div id="content" class="span9">
-          <!-- To put something only on the home page, check for
-               `uri-path` being "/index.html" -->
+        <div id="content" class="col-md-12">
 
-          <!-- Index pages for posts have non-#f `tag` -->
 
-          <!-- The main page contents are in `contents` -->
+
+
+
 
 <article>
 
@@ -92,7 +105,7 @@ GitHub project page. ...">
   <h1>Usync: A Data Synchronizer</h1>
 
   <p class="date-and-tags">
-   <time datetime="2013-05-21" pubdate="true">2013-05-21</time> :: <a href="/tags/scheme.html">scheme</a>, <a href="/tags/programming.html">programming</a>, <a href="/tags/networking.html">networking</a></p>
+   <time datetime="2013-05-21" pubdate="true">2013-05-21</time> :: <a href="/tags/scheme.html">scheme</a>, <a href="/tags/programming.html">programming</a></p>
   </header>
 
 
@@ -103,127 +116,8 @@ and <a href="http://rsync.samba.org/">rsync</a>, for bi- and uni-directional
 synchronizations, respectively.</p>
 
 
- <p>The sources are located at the
-<a href="http://github.com/ebzzry/usync">GitHub project page</a>.</p>
-
-
- <h1>1
-
-  <tt>&nbsp;</tt><a name="(part._.Introduction)"></a>Introduction</h1>
-
-
- <p>Usync is a site-to-site synchronization program written in
-<a href="http://www.scsh.net">Scsh</a>. It makes use of
-<a href="http://www.cis.upenn.edu/~bcpierce/unison/">Unison</a>, and
-<a href="http://rsync.samba.org/">Rsync</a>, for bi- and uni-directional
-synchronizations, respectively.</p>
-
-
- <h1>2
-
-  <tt>&nbsp;</tt><a name="(part._.Basic_.Usage)"></a>Basic Usage</h1>
-
-
- <p>To perform two-way synchronization of the directory <span class="RktSym">/pub/yot/ninam</span><span class="RktMeta"></span>,
-between the current host, to the hosts <span class="RktSym">tarupam</span><span class="RktMeta"></span>, and <span class="RktSym">taubetmo</span><span class="RktMeta"></span>,
-while preserving the directory structure remotely (take note, that
-there must be no spaces between the hosts specification, due to the
-IFS environment variable, found in most shells):</p>
-
-
- <div class="SCodeFlow">
-
-  <table cellspacing="0" class="RktBlk">
-
-   <tbody>
-
-    <tr>
-
-     <td><span class="RktSym">usync</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">/pub/yot/ninam/</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">tarupam</span><span class="RktSym">,</span><span class="RktSym">taubetmo</span><span class="RktMeta"></span></td></tr></tbody></table></div>
-
-
- <p>The command above will perform two-way synchronization of the diretory
-<span class="RktSym">ninam/</span><span class="RktMeta"></span> found under <span class="RktSym">/pub/yot/</span><span class="RktMeta"></span>, to <span class="RktSym">tarupam:/pub/yot/</span><span class="RktMeta"></span>, and
-<span class="RktSym">taubetmo:/pub/yot/</span><span class="RktMeta"></span>.</p>
-
-
- <p>Using our example above, the two-way synchronization system basically
-tells that if the tree <span class="RktSym">tarupam:/pub/yot/ninam/</span><span class="RktMeta"></span> contains new and/or
-updated items, compared with <span class="RktSym">localhost:/pub/yot/ninam/</span><span class="RktMeta"></span>, and
-<span class="RktSym">localhost:/pub/yot/ninam/</span><span class="RktMeta"></span> also happens to have new and/or updated
-items, then, they will trade updates.</p>
-
-
- <p>Ideally, the result is that <span class="RktSym">localhost:/pub/yot/ninam/</span><span class="RktMeta"></span>,
-<span class="RktSym">tarupam:/pub/yot/ninam/</span><span class="RktMeta"></span>, and <span class="RktSym">taubetmo:/pub/yot/ninam/</span><span class="RktMeta"></span>, are all
-equal.</p>
-
-
- <h1>3
-
-  <tt>&nbsp;</tt><a name="(part._.Semi-advanced_.Usage)"></a>Semi-advanced Usage</h1>
-
-
- <p>It is also possible to perform synchronization of multiple files, and
-directories, to remote hosts. To do so, run:</p>
-
-
- <div class="SCodeFlow">
-
-  <table cellspacing="0" class="RktBlk">
-
-   <tbody>
-
-    <tr>
-
-     <td><span class="RktSym">usync</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">/pub/yot/ninam/</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">~/file.text</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">~reyn/*.blend</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">tarupam</span><span class="RktSym">,</span><span class="RktSym">taubetmo</span><span class="RktMeta"></span></td></tr></tbody></table></div>
-
-
- <p>The command above will perform two-way synchronization of the paths
-<span class="RktSym">/pub/yot/ninam/</span><span class="RktMeta"></span>, <span class="RktSym">~/file.text</span><span class="RktMeta"></span>, and <span class="RktSym">~reyn/*.blend</span><span class="RktMeta"></span> to the
-remote hosts <span class="RktSym">tarupam</span><span class="RktMeta"></span>, and <span class="RktSym">taubetmo</span><span class="RktMeta"></span>, using the same directory
-structure that was described above.</p>
-
-
- <p>If you want to perform one-way synchronization, of the above, like
-<span class="RktSym">rsync</span><span class="RktMeta"></span>, run:</p>
-
-
- <div class="SCodeFlow">
-
-  <table cellspacing="0" class="RktBlk">
-
-   <tbody>
-
-    <tr>
-
-     <td><span class="RktSym">usync</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym"><span class="nobreak">--o</span>ne-way</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym"><span class="nobreak">--p</span>refer-local</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">/pub/yot/ninam/</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">~/file.text</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">~reyn/draft.blend</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">tarupam</span><span class="RktSym">,</span><span class="RktSym">taubetmo</span><span class="RktMeta"></span></td></tr></tbody></table></div>
-
-
- <p>For more usage information, run:</p>
-
-
- <div class="SCodeFlow">
-
-  <table cellspacing="0" class="RktBlk">
-
-   <tbody>
-
-    <tr>
-
-     <td><span class="RktSym">usync</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym"><span class="nobreak">--h</span>elp</span><span class="RktMeta"></span></td></tr></tbody></table></div>
-
-
- <h1>4
-
-  <tt>&nbsp;</tt><a name="(part._.Caveats)"></a>Caveats</h1>
-
-
- <ul>
-
-  <li>
-
-   <p>This program has been used on FreeBSD, hence making the shebang line contain <span class="RktSym">/usr/local/bin/scsh</span><span class="RktMeta"></span>. Please change it, accordingly.</p></li></ul>
+ <p>The sources, along with additional information, are located at
+<a href="http://github.com/ebzzry/usync">http://github.com/ebzzry/usync</a>.</p>
 
  <footer>
 
@@ -238,12 +132,12 @@ structure that was described above.</p>
           }
       }(document,"script","twitter-wjs");
     </script>
-    <a class="twitter-share-button" data-dnt="true" data-url="http://rmm.meta.ph/blog/2013/05/21/usync-a-data-synchronizer/" href="https://twitter.com/share">
+    <a class="twitter-share-button" data-dnt="true" data-url="http://www.example.com/blog/2013/05/21/usync-a-data-synchronizer/" href="https://twitter.com/share">
       "Tweet"</a>
 
   <script src="https://apis.google.com/js/plusone.js" type="text/javascript"></script>
 
-  <g:plusone href="http://rmm.meta.ph/blog/2013/05/21/usync-a-data-synchronizer/" size="medium"></g:plusone>
+  <g:plusone href="http://www.example.com/blog/2013/05/21/usync-a-data-synchronizer/" size="medium"></g:plusone>
 
   <script type="text/javascript">
       var disqus_shortname = 'ebzzry';
@@ -261,58 +155,46 @@ structure that was described above.</p>
   <ul class="pager">
 
    <li class="previous">
-        <a href="/blog/2013/05/29/livescribe-a-livejournal-utility/">&larr; <em>Livescribe: A LiveJournal Utility</em></a>
-      </li>
+      <a href="/blog/2013/05/29/livefrog-a-livejournal-utility/">&larr; <em>Livefrog: A LiveJournal Utility</em></a>
+    </li>
 
    <li class="next">
-        <a href="/blog/2013/05/09/squandered-relentlessness/"><em>Squandered Relentlessness</em> &rarr;</a>
-      </li>
+      <a href="/blog/2013/05/09/squandered-relentlessness/"><em>Squandered Relentlessness</em> &rarr;</a>
+    </li>
     </ul>
   </footer>
 </article>
         </div>
-        <!-- Right column -->
-        <div id="right-sidebar" class="span3">
-          <!-- `tags/feeds` is a list of tags and feeds -->
-
-<p>Tags:
- <ul>
-  <li><a href="/tags/networking.html">networking</a>&nbsp;(1) <a href="/feeds/networking.atom.xml"><img src="/img/feed.png" /></a></li>
-  <li><a href="/tags/programming.html">programming</a>&nbsp;(3) <a href="/feeds/programming.atom.xml"><img src="/img/feed.png" /></a></li>
-  <li><a href="/tags/racket.html">racket</a>&nbsp;(2) <a href="/feeds/racket.atom.xml"><img src="/img/feed.png" /></a></li>
-  <li><a href="/tags/rants.html">rants</a>&nbsp;(3) <a href="/feeds/rants.atom.xml"><img src="/img/feed.png" /></a></li>
-  <li><a href="/tags/scheme.html">scheme</a>&nbsp;(2) <a href="/feeds/scheme.atom.xml"><img src="/img/feed.png" /></a></li>
-  <li><a href="/tags/scribble.html">scribble</a>&nbsp;(1) <a href="/feeds/scribble.atom.xml"><img src="/img/feed.png" /></a></li></ul>
- <p><a href="/index.html">All Posts</a> <a href="/feeds/all.atom.xml"><img src="/img/feed.png" /></a></p></p>
-          <!-- Example of a Twitter follow button -->
-          <a href="https://twitter.com/ebzzry"
-             class="twitter-follow-button"
-             data-show-count="false"
-             data-lang="en">
-            "Follow Rommel"
-          </a>
-          <script type="text/javascript">
-            !function(d,s,id){
-                var js,fjs=d.getElementsByTagName(s)[0];
-                if(!d.getElementById(id)){
-                    js=d.createElement(s);
-                    js.id=id;
-                    js.src="//platform.twitter.com/widgets.js";
-                    fjs.parentNode.insertBefore(js,fjs);
-                }
-            }(document,"script","twitter-wjs");
-          </script>
-        </div>
       </div>
       <footer>
         <hr />
-        <p>Site created
-        with <a href="http://www.gnu.org/software/emacs/">Emacs</a>, <a href="http://www.racket-lang.org">Racket</a>, <a href="http://github.com/greghendershott/frog">Frog</a>,
-        and <a href="http://twitter.github.io/bootstrap">Bootstrap</a></p>
-
-       <p>Copyright &copy; 2013 by <a href="http://rmm.meta.ph">Rommel M. Martinez</a></p>
-
+        <p><a href="https://twitter.com/ebzzry"
+              class="twitter-follow-button"
+              data-show-count="false"
+              data-lang="en">
+             "Follow Rommel"
+           </a>
+           <script type="text/javascript">
+             !function(d,s,id){
+                 var js,fjs=d.getElementsByTagName(s)[0];
+                 if(!d.getElementById(id)){
+                     js=d.createElement(s);
+                     js.id=id;
+                     js.src="//platform.twitter.com/widgets.js";
+                     fjs.parentNode.insertBefore(js,fjs);
+                 }
+             }(document,"script","twitter-wjs");
+           </script></p>
+        <p>Site created with
+          <a href="http://www.racket-lang.org">Racket</a>,
+          <a href="http://github.com/greghendershott/frog">Frog</a>,
+          <a href="http://www.gnu.org/software/emacs/">Emacs</a>, and
+          <a href="http://twitter.github.io/bootstrap">Bootstrap</a></p>
+        <p><em>Copyright &copy; 2013 by <a href="http://rmm.meta.ph">Rommel M. Martinez</a></em></p>
       </footer>
     </div>
+    <!-- </body> JS -->
+    <script type="text/javascript" src="//code.jquery.com/jquery.js"></script>
+    <script type="text/javascript" src="/js/bootstrap.min.js"></script>
   </body>
 </html>
