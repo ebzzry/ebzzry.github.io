@@ -1,7 +1,0 @@
-#RewriteEngine on
-#RewriteRule ^blog/?$ http://blog.meta.ph/rmm/index.php [L,R=301]
-
-#RewriteEngine on
-#RewriteBase /blog/
-#RewriteCond %{HTTP_HOST} ^rmm.meta.ph$
-#RewriteRule ^(.*) http://blog.meta.ph/rmm [L,R=301]

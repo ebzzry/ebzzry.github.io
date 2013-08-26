@@ -87,4 +87,6 @@ the tangible air of my breath.
 
 In closing, I'd leave the words of Charles Bukowski:
 
+@image{img/posts/2013-07-11-in-retrospect/charles-bukowski.jpg}
+
 @emph{"If you're going to try, go all the way. Otherwise, don't even start."}
