@@ -1,19 +1,17 @@
-.PHONY: all upload build preview
+.PHONY: all clean build preview upload
 
-all: watch
+all: preview
 
-upload:
-	git push origin master
-	rsync -avz --delete ./ meta.ph:public_html
+clean:
+	rm -rm *.html
+	rm -rf blog posts feeds
 
 build:
 	raco frog -b
 
 preview:
-	raco frog -p
-
-buildpreview:
 	raco frog -bp
 
-watch:
-	raco frog -w
+upload:
+	git push origin master
+	rsync -avz --delete ./ meta.ph:public_html
