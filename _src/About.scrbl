@@ -11,8 +11,8 @@ kettlebell, rings gymnastics, martial arts, and parkour.
 
 When I need to percolate, I take of places, people, and things, and put them to
 my @hyperlink["http://ebzzry.deviantart.com" "deviantART"] gallery. I love to
-play FPS, 2D fighting, and RPG games. My all-time favorites are Quake 3, Street
-Fighter series, and Chrono Trigger.
+play FPS, 2D fighting, and RPG games. My all-time favorites are Quake 3, the
+Street Fighter series, and Chrono Trigger.
 
 I am turtling my way into publishing my stuff to my
 @hyperlink["http://www.github.com" "GitHub"] account. I primarily use

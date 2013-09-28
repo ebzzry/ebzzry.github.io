@@ -261,11 +261,11 @@ make use of marks. The &lt;span style="font-weight: bold"&gt;w&lt;/span&gt; comm
  &lt;p&gt;&lt;span style="font-weight: bold"&gt;BUT&lt;/span&gt;, one of the coolest, and often-overlooked feature of dired is the
 &lt;span style="font-weight: bold"&gt;WDired&lt;/span&gt; mode. What it does is that it gives you a decent ability to edit
 the item names in a dired buffer, just as you would on a typical buffer. To
-enter wdired mode, press &lt;span class="RktSym"&gt;M-x&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;wdired-change-to-wdired-mode&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;. The major mode
-changes from &lt;span style="font-weight: bold"&gt;&lt;span style="font-style: italic"&gt;Dired&lt;/span&gt;&lt;/span&gt; to &lt;span style="font-weight: bold"&gt;&lt;span style="font-style: italic"&gt;Editable Dired&lt;/span&gt;&lt;/span&gt;. You can then rename the
-files, and directories, with ease. You can even use rectangle and replace
-functions on them, to make things easier. The changes you have made at this
-point are not yet saved. To save the changes, press &lt;span class="RktSym"&gt;C-c&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;C-c&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;.&lt;/p&gt;
+enter wdired mode, hit &lt;span class="RktSym"&gt;M-x&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;wdired-change-to-wdired-mode&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;. The major mode
+changes from &lt;span style="font-weight: bold"&gt;&lt;span style="font-style: italic"&gt;Dired&lt;/span&gt;&lt;/span&gt; to &lt;span style="font-weight: bold"&gt;&lt;span style="font-style: italic"&gt;Editable Dired&lt;/span&gt;&lt;/span&gt;. You can then
+rename the files, and directories, with ease. You can even use rectangle and
+replace functions on them, to make things easier. The changes you have made at
+this point are not yet saved. To save the changes, press &lt;span class="RktSym"&gt;C-c&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;C-c&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;.&lt;/p&gt;
  &lt;p&gt;Well, that is it for now. Ciao!&lt;/p&gt;&lt;/html&gt;</content></entry>
  <entry>
   <title type="text">Emacs Tips 0x01</title>
