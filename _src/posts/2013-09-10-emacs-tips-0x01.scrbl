@@ -1,6 +1,6 @@
 #lang scribble/manual
 
-Title: Emacs Tips 0x01
+Title: Emacs Tips: Hax
 Date: 2013-09-10T13:23:34
 Tags: emacs, programming
 
