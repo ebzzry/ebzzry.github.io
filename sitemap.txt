@@ -1,5 +1,6 @@
-http://www.example.com/blog/2013/09/26/emacs-tips-0x02/
-http://www.example.com/blog/2013/09/10/emacs-tips-0x01/
+http://www.example.com/blog/2013/09/29/emacs-tips-racket/
+http://www.example.com/blog/2013/09/26/emacs-tips-dired/
+http://www.example.com/blog/2013/09/10/emacs-tips-hax/
 http://www.example.com/blog/2013/07/11/in-retrospect/
 http://www.example.com/blog/2013/05/29/livefrog-a-livejournal-utility/
 http://www.example.com/blog/2013/05/21/usync-a-data-synchronizer/
