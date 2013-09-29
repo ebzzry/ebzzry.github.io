@@ -4,17 +4,282 @@
  <link rel="self" href="http://www.example.com/feeds/emacs.atom.xml" />
  <link href="http://www.example.com/tags/emacs.html" />
  <id>urn:http-www-example-com:-tags-emacs-html</id>
- <updated>2013-09-26T17:57:00Z</updated>
+ <updated>2013-09-29T22:21:19Z</updated>
  <entry>
-  <title type="text">Emacs Tips 0x02</title>
-  <link rel="alternate" href="http://www.example.com/blog/2013/09/26/emacs-tips-0x02/?utm_source=emacs&amp;utm_medium=Atom" />
-  <id>urn:http-www-example-com:-blog-2013-09-26-emacs-tips-0x02</id>
+  <title type="text">Emacs Tips: Racket</title>
+  <link rel="alternate" href="http://www.example.com/blog/2013/09/29/emacs-tips-racket/?utm_source=emacs&amp;utm_medium=Atom" />
+  <id>urn:http-www-example-com:-blog-2013-09-29-emacs-tips-racket</id>
+  <published>2013-09-29T22:21:19Z</published>
+  <updated>2013-09-29T22:21:19Z</updated>
+  <author>
+   <name>Rommel Martinez</name></author>
+  <content type="html">
+&lt;html&gt;&lt;img src="http://www.example.com/img/1x1.gif?utm_source=emacs&amp;amp;utm_medium=Atom&amp;amp;utm_campaign=%2Fblog%2F2013%2F09%2F29%2Femacs-tips-racket%2F" height="1" width="1" /&gt;
+ &lt;p&gt;In this post, I&amp;rsquo;ll discuss the easiest approach that I took to setup up a
+&lt;a href="http://racket-lang.org"&gt;Racket&lt;/a&gt; development environment on
+Emacs. Take note, that this is not the only approach available &amp;ndash; some did it
+in arguably better ways. In this article, I&amp;rsquo;ll try to explain the shortest
+route that I took.&lt;/p&gt;
+ &lt;h1&gt;1
+  &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Introduction)"&gt;&lt;/a&gt;Introduction&lt;/h1&gt;
+ &lt;p&gt;Editing Racket code with Emacs has traditionally been done by rudimentary modes
+that mostly lacked flexibility. They were able to evaluate current definitions,
+last definitions, and entire buffers, for the most part. Unfortunately, that
+didn&amp;rsquo;t suffice with the way Racket dealt with things. A more intelligent way of
+handling code, was needed.&lt;/p&gt;
+ &lt;p&gt;Fortunately, we have &lt;a href="http://www.nongnu.org/geiser/"&gt;Geiser&lt;/a&gt;. To
+quote the first paragraph on its homepage:&lt;/p&gt;
+ &lt;p&gt;&lt;span style="font-style: italic"&gt;Geiser is a collection of Emacs major and minor modes that conspire with
+one or more Scheme interpreters to keep the Lisp Machine Spirit alive. It draws
+inspiration (and a bit more) from environments such as Common Lisp&amp;#8217;s Slime,
+Factor&amp;#8217;s FUEL, Squeak or Emacs itself, and does its best to make Scheme hacking
+inside Emacs (even more) fun.&lt;/span&gt;.&lt;/p&gt;
+ &lt;p&gt;I saw several other major modes that tries to do what Geiser does, but I became
+most comfortable with what Geiser offered. Some similar libraries can co-exist
+with Geiser, too. I tried those, but it became too complex, for me. I wound up
+just using Geiser. Also, as a semi-related note, I&amp;rsquo;m using Emacs to edit Racket
+code because I don&amp;rsquo;t know of any other editor that does it so well. I don&amp;rsquo;t use
+DrRacket, except when I need to use its nice GUI debugger. &lt;/p&gt;
+ &lt;h1&gt;2
+  &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Installation)"&gt;&lt;/a&gt;Installation&lt;/h1&gt;
+ &lt;p&gt;My installation method is crude, but it works, at least for me. Other
+installation methods exist, but I couldn&amp;rsquo;t wrap my brain around them, so I
+opted instead for something that requires the minimal amount of chore. Also,
+I&amp;rsquo;m still not sure what are the hidden consequences of not doing it the
+"elegant" way, presuming there is one.&lt;/p&gt;
+ &lt;p&gt;Let&amp;rsquo;s say that you want to install your Geiser files in
+&lt;span class="RktSym"&gt;~/.emacs.d/elisp/&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;. We&amp;rsquo;ll issue the following commands to install Geiser
+to that location:&lt;/p&gt;
+ &lt;div class="SCodeFlow"&gt;
+  &lt;table cellspacing="0" class="RktBlk"&gt;
+   &lt;tbody&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktSym"&gt;mkdir&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;~/.emacs.d/elisp&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;cd&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;~/.emacs.d/elisp&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;git&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;clone&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;http://git.sv.gnu.org/r/geiser.git&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;
+ &lt;p&gt;After that, in &lt;span class="RktSym"&gt;~/.emacs.d/elisp/geiser/&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;, you&amp;rsquo;ll have something that
+looks like the following:&lt;/p&gt;
+ &lt;div class="SCodeFlow"&gt;
+  &lt;table cellspacing="0" class="RktBlk"&gt;
+   &lt;tbody&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktSym"&gt;AUTHORS&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;autogen.sh*&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;bin/&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;ChangeLog&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;configure.ac&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;COPYING&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;doc/&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;elisp/&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;.git/&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;.gitignore&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;INSTALL&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;Makefile.am&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;NEWS&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;README&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;README.elpa&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;scheme/&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;THANKS&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;
+ &lt;p&gt;Next, we want the directory &lt;span class="RktSym"&gt;~/.emacs.d/elisp/geiser/elisp/&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt; to be a
+member of the Emacs variable &lt;span class="RktSym"&gt;load-path&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt; so that &lt;span class="RktSym"&gt;require&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt; and
+friends will know where to find things. To do that, add the following to your
+Emacs init file &amp;ndash; either in &lt;span class="RktSym"&gt;~/.emacs.d/init.el&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;, or in &lt;span class="RktSym"&gt;~/.emacs&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;
+(deprecated):&lt;/p&gt;
+ &lt;div class="SCodeFlow"&gt;
+  &lt;table cellspacing="0" class="RktBlk"&gt;
+   &lt;tbody&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;add-to-list&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;'&lt;/span&gt;&lt;span class="RktSym"&gt;load-path&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktVal"&gt;"~/.emacs.d/elisp/geiser/elisp/"&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;
+ &lt;p&gt;Next, we&amp;rsquo;ll put in the actual code that invokes and configures Geiser:&lt;/p&gt;
+ &lt;div class="SCodeFlow"&gt;
+  &lt;table cellspacing="0" class="RktBlk"&gt;
+   &lt;tbody&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;require&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;'&lt;/span&gt;&lt;span class="RktSym"&gt;geiser&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&amp;#160;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;setq&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;geiser-active-implementations&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;'&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;racket&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&amp;#160;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;defun&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;geiser-save&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;interactive&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktPn"&gt;(&lt;/span&gt;&lt;span class="RktSym"&gt;geiser-repl--write-input-ring&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktPn"&gt;)&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;
+ &lt;p&gt;The first expression loads Geiser, itself. The second one specifies that it
+won&amp;rsquo;t prompt you for other implementations if it finds them. The last one is
+optional &amp;ndash; it enables you to execute &lt;span class="RktSym"&gt;M-x&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;geiser-save&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt; in the REPL buffer
+to force saving of the history to the disk file, which is
+&lt;span class="RktSym"&gt;~/.geiser_history.racket&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;, by default. It is useful if you want to save
+your REPL session, immediately (Nothing is more horrifying than losing
+&lt;span style="font-style: italic"&gt;THAT&lt;/span&gt; expression). For all the Emacs code above, to take effect, you can
+evaluate them now using members of the eval-* troupe (&lt;span class="RktSym"&gt;eval-defun&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;,
+&lt;span class="RktSym"&gt;eval-last-sexp&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;, &lt;span class="RktSym"&gt;eval-region&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;), or, you can still opt to respawn a
+new Emacs process.&lt;/p&gt;
+ &lt;h1&gt;3
+  &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Usage)"&gt;&lt;/a&gt;Usage&lt;/h1&gt;
+ &lt;p&gt;To reap what you sowed, create or open a &lt;span class="RktSym"&gt;.rkt&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt; file, with at least a
+proper module declaration. Then hit:&lt;/p&gt;
+ &lt;div class="SCodeFlow"&gt;
+  &lt;table cellspacing="0" class="RktBlk"&gt;
+   &lt;tbody&gt;
+    &lt;tr&gt;
+     &lt;td&gt;&lt;span class="RktSym"&gt;M-x&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;run-geiser&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;
+ &lt;p&gt;And, boomshakalaka! A new (Emacs) window opens, containing the &lt;span class="RktSym"&gt;*&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;Racket&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;REPL&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;*&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt; buffer. Whatever you can do with the REPL invoked with vanilla
+command-line &lt;span class="RktSym"&gt;racket&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;, you can also do with this, and more. This major
+mode is actually Comint mode, under the hood, with hooks to a a Racket
+process. For those of you who are unfamiliar with Comint mode, it is the same
+mode that handles &lt;span class="RktSym"&gt;M-x&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;shell&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;.&lt;/p&gt;
+ &lt;p&gt;So, what can we do with it? While editing &lt;span class="RktSym"&gt;.rkt&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt; file, here are some of
+the usual shortcuts that I use (The full list of keys are
+&lt;a href="http://www.nongnu.org/geiser/geiser_5.html#Cheat-sheet"&gt;available
+here&lt;/a&gt;). Take note, that the description of the keys that I used below, are for
+myself initially, to help me understand what they do. They may, or may not
+diverge from the official description, listed on the aforementioned link.&lt;/p&gt;
+ &lt;p&gt;&lt;span style="font-weight: bold"&gt;Racket buffer&lt;/span&gt;&lt;/p&gt;
+ &lt;p&gt;&lt;/p&gt;
+ &lt;table cellspacing="0" class="boxed"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td&gt;
+     &lt;p&gt;&lt;span style="font-weight: bold"&gt;Key&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+    &lt;td&gt;
+     &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+    &lt;td&gt;
+     &lt;p&gt;&lt;span style="font-weight: bold"&gt;What it does&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+   &lt;tr&gt;
+    &lt;td&gt;
+     &lt;p&gt;&lt;span style="font-weight: bold"&gt;C-c C-z&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+    &lt;td&gt;
+     &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+    &lt;td&gt;
+     &lt;p&gt;Switch to the REPL&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+   &lt;tr&gt;
+    &lt;td&gt;
+     &lt;p&gt;&lt;span style="font-weight: bold"&gt;C-c C-a&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+    &lt;td&gt;
+     &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+    &lt;td&gt;
+     &lt;p&gt;Evaluate buffer, then switch to the REPL&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+   &lt;tr&gt;
+    &lt;td&gt;
+     &lt;p&gt;&lt;span style="font-weight: bold"&gt;C-M-x&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+    &lt;td&gt;
+     &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+    &lt;td&gt;
+     &lt;p&gt;Evaluate current expression&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+   &lt;tr&gt;
+    &lt;td&gt;
+     &lt;p&gt;&lt;span style="font-weight: bold"&gt;C-x C-e&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+    &lt;td&gt;
+     &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+    &lt;td&gt;
+     &lt;p&gt;Evaluate last expression&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+   &lt;tr&gt;
+    &lt;td&gt;
+     &lt;p&gt;&lt;span style="font-weight: bold"&gt;C-c C-r&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+    &lt;td&gt;
+     &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+    &lt;td&gt;
+     &lt;p&gt;Evaluate region&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+   &lt;tr&gt;
+    &lt;td&gt;
+     &lt;p&gt;&lt;span style="font-weight: bold"&gt;C-c C-\&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+    &lt;td&gt;
+     &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+    &lt;td&gt;
+     &lt;p&gt;Insert a &amp;#955; symbol&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+ &lt;p&gt;&lt;span style="font-weight: bold"&gt;REPL&lt;/span&gt;&lt;/p&gt;
+ &lt;p&gt;&lt;/p&gt;
+ &lt;table cellspacing="0" class="boxed"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td&gt;
+     &lt;p&gt;&lt;span style="font-weight: bold"&gt;Key&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+    &lt;td&gt;
+     &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+    &lt;td&gt;
+     &lt;p&gt;&lt;span style="font-weight: bold"&gt;What it does&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+   &lt;tr&gt;
+    &lt;td&gt;
+     &lt;p&gt;&lt;span style="font-weight: bold"&gt;C-c C-z&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+    &lt;td&gt;
+     &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+    &lt;td&gt;
+     &lt;p&gt;Switch to the Racket buffer&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+   &lt;tr&gt;
+    &lt;td&gt;
+     &lt;p&gt;&lt;span style="font-weight: bold"&gt;M-p&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+    &lt;td&gt;
+     &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+    &lt;td&gt;
+     &lt;p&gt;Switch to previous history item&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+   &lt;tr&gt;
+    &lt;td&gt;
+     &lt;p&gt;&lt;span style="font-weight: bold"&gt;M-n&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+    &lt;td&gt;
+     &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+    &lt;td&gt;
+     &lt;p&gt;Switch to next history item&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+   &lt;tr&gt;
+    &lt;td&gt;
+     &lt;p&gt;&lt;span style="font-weight: bold"&gt;C-c M-p&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+    &lt;td&gt;
+     &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+    &lt;td&gt;
+     &lt;p&gt;Jump to previous prompt&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+   &lt;tr&gt;
+    &lt;td&gt;
+     &lt;p&gt;&lt;span style="font-weight: bold"&gt;C-c M-p&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+    &lt;td&gt;
+     &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+    &lt;td&gt;
+     &lt;p&gt;Jump to next prompt&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+   &lt;tr&gt;
+    &lt;td&gt;
+     &lt;p&gt;&lt;span style="font-weight: bold"&gt;C-c C-q&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+    &lt;td&gt;
+     &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+    &lt;td&gt;
+     &lt;p&gt;Quit the REPL&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+ &lt;h1&gt;4
+  &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Conclusion)"&gt;&lt;/a&gt;Conclusion&lt;/h1&gt;
+ &lt;p&gt;I have intentionally skipped many topics from the
+&lt;a href="http://www.nongnu.org/geiser/"&gt;official manual&lt;/a&gt; because it makes
+it unattractive to people who are averse to reading long blocks of text
+(ironically, this article may even qualify as one.). The methods described
+above are by in no way representative of community-advised ways of installing
+and using Racket with Emacs. Feel free to drop a comment below!  Ciao!&lt;/p&gt;&lt;/html&gt;</content></entry>
+ <entry>
+  <title type="text">Emacs Tips: Dired</title>
+  <link rel="alternate" href="http://www.example.com/blog/2013/09/26/emacs-tips-dired/?utm_source=emacs&amp;utm_medium=Atom" />
+  <id>urn:http-www-example-com:-blog-2013-09-26-emacs-tips-dired</id>
   <published>2013-09-26T17:57:00Z</published>
   <updated>2013-09-26T17:57:00Z</updated>
   <author>
    <name>Rommel Martinez</name></author>
   <content type="html">
-&lt;html&gt;&lt;img src="http://www.example.com/img/1x1.gif?utm_source=emacs&amp;amp;utm_medium=Atom&amp;amp;utm_campaign=%2Fblog%2F2013%2F09%2F26%2Femacs-tips-0x02%2F" height="1" width="1" /&gt;
+&lt;html&gt;&lt;img src="http://www.example.com/img/1x1.gif?utm_source=emacs&amp;amp;utm_medium=Atom&amp;amp;utm_campaign=%2Fblog%2F2013%2F09%2F26%2Femacs-tips-dired%2F" height="1" width="1" /&gt;
  &lt;p&gt;In this post, I&amp;rsquo;ll be focusing on one of the novel ways Emacs handles
 &lt;span style="font-style: italic"&gt;"directory editing"&lt;/span&gt;. The directory editor, or &lt;span style="font-weight: bold"&gt;dired&lt;/span&gt; (pronounced
 dir-ed, not die-rd), for short, is the Emacs equivalent of a file
@@ -268,15 +533,15 @@ replace functions on them, to make things easier. The changes you have made at
 this point are not yet saved. To save the changes, press &lt;span class="RktSym"&gt;C-c&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;C-c&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;.&lt;/p&gt;
  &lt;p&gt;Well, that is it for now. Ciao!&lt;/p&gt;&lt;/html&gt;</content></entry>
  <entry>
-  <title type="text">Emacs Tips 0x01</title>
-  <link rel="alternate" href="http://www.example.com/blog/2013/09/10/emacs-tips-0x01/?utm_source=emacs&amp;utm_medium=Atom" />
-  <id>urn:http-www-example-com:-blog-2013-09-10-emacs-tips-0x01</id>
+  <title type="text">Emacs Tips: Hax</title>
+  <link rel="alternate" href="http://www.example.com/blog/2013/09/10/emacs-tips-hax/?utm_source=emacs&amp;utm_medium=Atom" />
+  <id>urn:http-www-example-com:-blog-2013-09-10-emacs-tips-hax</id>
   <published>2013-09-10T13:23:34Z</published>
   <updated>2013-09-10T13:23:34Z</updated>
   <author>
    <name>Rommel Martinez</name></author>
   <content type="html">
-&lt;html&gt;&lt;img src="http://www.example.com/img/1x1.gif?utm_source=emacs&amp;amp;utm_medium=Atom&amp;amp;utm_campaign=%2Fblog%2F2013%2F09%2F10%2Femacs-tips-0x01%2F" height="1" width="1" /&gt;
+&lt;html&gt;&lt;img src="http://www.example.com/img/1x1.gif?utm_source=emacs&amp;amp;utm_medium=Atom&amp;amp;utm_campaign=%2Fblog%2F2013%2F09%2F10%2Femacs-tips-hax%2F" height="1" width="1" /&gt;
  &lt;p&gt;In this series of posts, I will be sharing my personal hacks on how
 I use Emacs for my day-to-day stuff. Most, if not all of the code
 contained in these posts are excerpts from the respective

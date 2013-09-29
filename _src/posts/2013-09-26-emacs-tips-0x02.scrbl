@@ -1,6 +1,6 @@
 #lang scribble/manual
 
-Title: Emacs Tips 0x02
+Title: Emacs Tips: Dired
 Date: 2013-09-26T17:57:00
 Tags: emacs, programming
 
