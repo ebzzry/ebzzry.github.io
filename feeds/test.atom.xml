@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+ <title type="text">Live. Die. Live Again.: Posts tagged 'test'</title>
+ <link rel="self" href="http://www.example.com/feeds/test.atom.xml" />
+ <link href="http://www.example.com/tags/test.html" />
+ <id>urn:http-www-example-com:-tags-test-html</id>
+ <updated>2013-09-30T11:33:00Z</updated>
+ <entry>
+  <title type="text">sometitle -- foo</title>
+  <link rel="alternate" href="http://www.example.com/blog/2013/09/30/sometitle-foo/?utm_source=test&amp;utm_medium=Atom" />
+  <id>urn:http-www-example-com:-blog-2013-09-30-sometitle-foo</id>
+  <published>2013-09-30T11:33:00Z</published>
+  <updated>2013-09-30T11:33:00Z</updated>
+  <author>
+   <name>Rommel Martinez</name></author>
+  <content type="html">
+&lt;html&gt;&lt;img src="http://www.example.com/img/1x1.gif?utm_source=test&amp;amp;utm_medium=Atom&amp;amp;utm_campaign=%2Fblog%2F2013%2F09%2F30%2Fsometitle-foo%2F" height="1" width="1" /&gt;
+ &lt;p&gt;&lt;em&gt;Replace this with your post text. Add one or more comma-separated Tags above. The special tag &lt;code&gt;DRAFT&lt;/code&gt; will prevent the post from being published.&lt;/em&gt;&lt;/p&gt;&lt;/html&gt;</content></entry></feed>
