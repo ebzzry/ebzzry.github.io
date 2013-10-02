@@ -146,7 +146,7 @@ diverge from the official description, listed on the aforementioned link.
     (list @bold{C-c C-\}       "Insert a λ symbol"))
 ]
 
-@bold{REPL}
+@bold{REPL buffer}
 
 @tabular[#:style 'boxed #:sep @hspace[1]
   (list
