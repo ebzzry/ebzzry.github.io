@@ -66,7 +66,7 @@ Then put in the following:
 [retriever]
 type = SimpleIMAPSSLRetriever
 server = imap.gmail.com
-@; mailboxes = ("[Gmail]/All Mail",)
+mailboxes = ("[Gmail]/All Mail"),
 @; mailboxes = ("[Gmail]/All Mail",)
 username = USERNAME@"@"gmail.com
 password = PASSWORD
