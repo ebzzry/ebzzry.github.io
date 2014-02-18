@@ -772,10 +772,9 @@ to get it down. The above is what I have, instead.&lt;/p&gt;
    <pubDate>Wed, 29 May 2013 15:10:34 PHT</pubDate>
    <description>
 &lt;html&gt;&lt;img src="http://www.example.com/img/1x1.gif?utm_source=programming&amp;amp;utm_medium=RSS&amp;amp;utm_campaign=%2Fblog%2F2013%2F05%2F29%2Flivefrog-a-livejournal-utility%2F" height="1" width="1" /&gt;
- &lt;p&gt;I am pleased to announce the version 0.9 release of &lt;span style="font-weight: bold"&gt;Livefrog&lt;/span&gt;, a
-&lt;a href="http://racket-lang.org"&gt;Racket&lt;/a&gt; program, used to convert the XML
-files created by &lt;a href="http://github.com/ghewgill/ljdump"&gt;ljdump&lt;/a&gt; for
-&lt;a href="http://github.com/greghendershott/frog"&gt;Frog&lt;/a&gt; usage.&lt;/p&gt;
+ &lt;p&gt;I am pleased to announce the release of &lt;span style="font-weight: bold"&gt;livefrog&lt;/span&gt;, a utility written in
+Racket, used to migrate LiveJournal posts and comments to the
+&lt;a href="http://github.com/greghendershott/frog"&gt;Frog&lt;/a&gt; blogging platform.&lt;/p&gt;
  &lt;p&gt;The sources, along with additional information, are located at
 &lt;a href="http://github.com/ebzzry/livefrog"&gt;http://github.com/ebzzry/livefrog&lt;/a&gt;.&lt;/p&gt;&lt;/html&gt;</description></item>
   <item>
