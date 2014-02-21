@@ -15,7 +15,7 @@
    <name>Rommel Martinez</name></author>
   <content type="html">
 &lt;html&gt;&lt;img src="http://www.example.com/img/1x1.gif?utm_source=racket&amp;amp;utm_medium=Atom&amp;amp;utm_campaign=%2Fblog%2F2014%2F02%2F19%2Fan-introduction-to-frog%2F" height="1" width="1" /&gt;
- &lt;p&gt;&lt;span style="font-style: italic"&gt;This is a draft.&lt;/span&gt;&lt;/p&gt;
+ &lt;p&gt;&lt;span style="font-style: italic"&gt;THIS IS A DRAFT.&lt;/span&gt;&lt;/p&gt;
  &lt;p&gt;When publishing blog content to the web, most would rely on pre-fabricated
 services, that do most of the heavy lifting. That is fine, and that is the
 choice that some choose. However, there are instances when we want to have more
