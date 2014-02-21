@@ -8,12 +8,12 @@
   <pubDate>Sun, 29 Sep 2013 22:21:19 PHT</pubDate>
   <ttl>1800</ttl>
   <item>
-   <title>Emacs: Racket</title>
-   <link>http://www.example.com/blog/2013/09/29/emacs-racket/?utm_source=programming&amp;utm_medium=RSS</link>
-   <guid>urn:http-www-example-com:-blog-2013-09-29-emacs-racket</guid>
+   <title>Emacs and Racket</title>
+   <link>http://www.example.com/blog/2013/09/29/emacs-and-racket/?utm_source=programming&amp;utm_medium=RSS</link>
+   <guid>urn:http-www-example-com:-blog-2013-09-29-emacs-and-racket</guid>
    <pubDate>Sun, 29 Sep 2013 22:21:19 PHT</pubDate>
    <description>
-&lt;html&gt;&lt;img src="http://www.example.com/img/1x1.gif?utm_source=programming&amp;amp;utm_medium=RSS&amp;amp;utm_campaign=%2Fblog%2F2013%2F09%2F29%2Femacs-racket%2F" height="1" width="1" /&gt;
+&lt;html&gt;&lt;img src="http://www.example.com/img/1x1.gif?utm_source=programming&amp;amp;utm_medium=RSS&amp;amp;utm_campaign=%2Fblog%2F2013%2F09%2F29%2Femacs-and-racket%2F" height="1" width="1" /&gt;
  &lt;p&gt;In this post, I&amp;rsquo;ll discuss the easiest approach that I took to setup up a
 &lt;a href="http://racket-lang.org"&gt;Racket&lt;/a&gt; development environment on
 Emacs. Take note, that this is not the only approach available &amp;ndash; some did it
@@ -270,12 +270,12 @@ it unattractive to people who are averse to reading long blocks of text
 above are by in no way representative of community-advised ways of installing
 and using Racket with Emacs. Feel free to drop a comment below!  Ciao!&lt;/p&gt;&lt;/html&gt;</description></item>
   <item>
-   <title>Emacs: Dired</title>
-   <link>http://www.example.com/blog/2013/09/26/emacs-dired/?utm_source=programming&amp;utm_medium=RSS</link>
-   <guid>urn:http-www-example-com:-blog-2013-09-26-emacs-dired</guid>
+   <title>Emacs and Dired</title>
+   <link>http://www.example.com/blog/2013/09/26/emacs-and-dired/?utm_source=programming&amp;utm_medium=RSS</link>
+   <guid>urn:http-www-example-com:-blog-2013-09-26-emacs-and-dired</guid>
    <pubDate>Thu, 26 Sep 2013 17:57:00 PHT</pubDate>
    <description>
-&lt;html&gt;&lt;img src="http://www.example.com/img/1x1.gif?utm_source=programming&amp;amp;utm_medium=RSS&amp;amp;utm_campaign=%2Fblog%2F2013%2F09%2F26%2Femacs-dired%2F" height="1" width="1" /&gt;
+&lt;html&gt;&lt;img src="http://www.example.com/img/1x1.gif?utm_source=programming&amp;amp;utm_medium=RSS&amp;amp;utm_campaign=%2Fblog%2F2013%2F09%2F26%2Femacs-and-dired%2F" height="1" width="1" /&gt;
  &lt;p&gt;In this post, I&amp;rsquo;ll be focusing on one of the novel ways Emacs handles
 &lt;span style="font-style: italic"&gt;"directory editing"&lt;/span&gt;. The directory editor, or &lt;span style="font-weight: bold"&gt;dired&lt;/span&gt; (pronounced
 dir-ed, not die-rd), for short, is the Emacs equivalent of a file
@@ -529,12 +529,12 @@ replace functions on them, to make things easier. The changes you have made at
 this point are not yet saved. To save the changes, press &lt;span class="RktSym"&gt;C-c&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;C-c&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;.&lt;/p&gt;
  &lt;p&gt;Well, that is it for now. Ciao!&lt;/p&gt;&lt;/html&gt;</description></item>
   <item>
-   <title>Emacs: Hax</title>
-   <link>http://www.example.com/blog/2013/09/10/emacs-hax/?utm_source=programming&amp;utm_medium=RSS</link>
-   <guid>urn:http-www-example-com:-blog-2013-09-10-emacs-hax</guid>
+   <title>Emacs and Hax</title>
+   <link>http://www.example.com/blog/2013/09/10/emacs-and-hax/?utm_source=programming&amp;utm_medium=RSS</link>
+   <guid>urn:http-www-example-com:-blog-2013-09-10-emacs-and-hax</guid>
    <pubDate>Tue, 10 Sep 2013 13:23:34 PHT</pubDate>
    <description>
-&lt;html&gt;&lt;img src="http://www.example.com/img/1x1.gif?utm_source=programming&amp;amp;utm_medium=RSS&amp;amp;utm_campaign=%2Fblog%2F2013%2F09%2F10%2Femacs-hax%2F" height="1" width="1" /&gt;
+&lt;html&gt;&lt;img src="http://www.example.com/img/1x1.gif?utm_source=programming&amp;amp;utm_medium=RSS&amp;amp;utm_campaign=%2Fblog%2F2013%2F09%2F10%2Femacs-and-hax%2F" height="1" width="1" /&gt;
  &lt;p&gt;In this series of posts, I will be sharing my personal hacks on how
 I use Emacs for my day-to-day stuff. Most, if not all of the code
 contained in these posts are excerpts from the respective
