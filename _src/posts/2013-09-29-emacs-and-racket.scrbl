@@ -1,6 +1,6 @@
 #lang scribble/manual
 
-Title: Emacs: Racket
+Title: Emacs and Racket
 Date: 2013-09-29T22:21:19
 Tags: emacs, programming, racket
 
