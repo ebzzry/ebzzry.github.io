@@ -11,3 +11,12 @@ pre {
     white-space: pre;
     width: inherit;
 }
+
+.stt {
+    color: blue;
+    font-size: 14px;
+}
+
+tr {
+    line-height: 14px;
+}
