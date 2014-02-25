@@ -155,30 +155,36 @@ manager. If you are using a
 system</a>, you can install it by running:</p>
 
 
- <div class="SCodeFlow">
+ <p></p>
 
-  <table cellspacing="0" class="RktBlk">
 
-   <tbody>
+ <table cellspacing="0">
 
-    <tr>
+  <tbody>
 
-     <td><span class="RktSym">$</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">sudo</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">apt-get</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">install</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">getmail4</span><span class="RktMeta"></span></td></tr></tbody></table></div>
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">$ sudo apt-get install getmail4</span></span></p></td></tr></tbody></table>
 
 
  <p>If you are using <a href="https://nixos.org/nixos/">NixOS</a>, you can
 install by running:</p>
 
 
- <div class="SCodeFlow">
+ <p></p>
 
-  <table cellspacing="0" class="RktBlk">
 
-   <tbody>
+ <table cellspacing="0">
 
-    <tr>
+  <tbody>
 
-     <td><span class="RktSym">$</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">nix-env</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktVal">-i</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">getmail</span><span class="RktMeta"></span></td></tr></tbody></table></div>
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">$ nix-env -i getmail</span></span></p></td></tr></tbody></table>
 
 
  <p>However, if your system doesn&rsquo;t provide an easy way for you to install getmail,
@@ -191,108 +197,148 @@ you can always head to its <a href="http://pyropus.ca/software/getmail/">homepag
 
 
  <p>Next, we need to conjure the incantation so that getmail knows how to get your
-stuff. Create the file <span class="RktSym">~/.getmail/getmailrc</span><span class="RktMeta"></span>. In addition to that, we
+stuff. Create the file <span class="stt">~/.getmail/getmailrc</span>. In addition to that, we
 need to create and specify where the messages will go:</p>
 
 
- <div class="SCodeFlow">
+ <p></p>
 
-  <table cellspacing="0" class="RktBlk">
 
-   <tbody>
+ <table cellspacing="0">
 
-    <tr>
+  <tbody>
 
-     <td><span class="RktSym">$</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">mkdir</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">~/Maildir</span><span class="RktMeta"></span></td></tr>
+   <tr>
 
-    <tr>
+    <td>
 
-     <td><span class="RktMeta"></span><span class="RktSym">$</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">mkdir</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">~/.getmail</span><span class="RktMeta"></span></td></tr>
+     <p><span class="stt"><span class="stt">$ mkdir ~/Maildir</span></span></p></td></tr>
 
-    <tr>
+   <tr>
 
-     <td><span class="RktMeta"></span><span class="RktSym">$</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">emacs</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">~/.getmail/getmailrc</span><span class="RktMeta"></span></td></tr></tbody></table></div>
+    <td>
+
+     <p><span class="stt"><span class="stt">$ mkdir ~/.getmail</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">$ emacs ~/.getmail/getmailrc</span></span></p></td></tr></tbody></table>
 
 
  <p>Then put in the following:</p>
 
 
- <div class="SCodeFlow">
+ <p></p>
 
-  <table cellspacing="0" class="RktBlk">
 
-   <tbody>
+ <table cellspacing="0">
 
-    <tr>
+  <tbody>
 
-     <td><span class="RktPn">[</span><span class="RktSym">retriever</span><span class="RktPn">]</span><span class="RktMeta"></span></td></tr>
+   <tr>
 
-    <tr>
+    <td>
 
-     <td><span class="RktMeta"></span><span class="RktSym">type</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">=</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">SimpleIMAPSSLRetriever</span><span class="RktMeta"></span></td></tr>
+     <p><span class="stt"><span class="stt">[retriever]</span></span></p></td></tr>
 
-    <tr>
+   <tr>
 
-     <td><span class="RktMeta"></span><span class="RktSym">server</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">=</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">imap.gmail.com</span><span class="RktMeta"></span></td></tr>
+    <td>
 
-    <tr>
+     <p><span class="stt"><span class="stt">type = SimpleIMAPSSLRetriever</span></span></p></td></tr>
 
-     <td><span class="RktMeta"></span><span class="RktSym">username</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">=</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">USERNAME@gmail.com</span><span class="RktMeta"></span></td></tr>
+   <tr>
 
-    <tr>
+    <td>
 
-     <td><span class="RktMeta"></span><span class="RktSym">password</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">=</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">PASSWORD</span><span class="RktMeta"></span></td></tr>
+     <p><span class="stt"><span class="stt">server = imap.gmail.com</span></span></p></td></tr>
 
-    <tr>
+   <tr>
 
-     <td><span class="RktMeta">&#160;</span></td></tr>
+    <td>
 
-    <tr>
+     <p><span class="stt"><span class="stt">username = USERNAME@gmail.com</span></span></p></td></tr>
 
-     <td><span class="RktMeta"></span><span class="RktPn">[</span><span class="RktSym">destination</span><span class="RktPn">]</span><span class="RktMeta"></span></td></tr>
+   <tr>
 
-    <tr>
+    <td>
 
-     <td><span class="RktMeta"></span><span class="RktSym">type</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">=</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">Maildir</span><span class="RktMeta"></span></td></tr>
+     <p><span class="stt"><span class="stt">password = PASSWORD</span></span></p></td></tr>
 
-    <tr>
+   <tr>
 
-     <td><span class="RktMeta"></span><span class="RktSym">path</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">=</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">~/Maildir/</span><span class="RktMeta"></span></td></tr>
+    <td>
 
-    <tr>
+     <p><span class="stt"><span class="stt"></span></span><span class="hspace">&nbsp;</span></p></td></tr>
 
-     <td><span class="RktMeta">&#160;</span></td></tr>
+   <tr>
 
-    <tr>
+    <td>
 
-     <td><span class="RktMeta"></span><span class="RktPn">[</span><span class="RktSym">options</span><span class="RktPn">]</span><span class="RktMeta"></span></td></tr>
+     <p><span class="stt"><span class="stt">[destination]</span></span></p></td></tr>
 
-    <tr>
+   <tr>
 
-     <td><span class="RktMeta"></span><span class="RktSym">verbose</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">=</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktVal">2</span><span class="RktMeta"></span></td></tr>
+    <td>
 
-    <tr>
+     <p><span class="stt"><span class="stt">type = Maildir</span></span></p></td></tr>
 
-     <td><span class="RktMeta"></span><span class="RktSym">message_log</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">=</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">~/.getmail/gmail.log</span><span class="RktMeta"></span></td></tr>
+   <tr>
 
-    <tr>
+    <td>
 
-     <td><span class="RktMeta"></span><span class="RktSym">read_all</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">=</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">false</span><span class="RktMeta"></span></td></tr>
+     <p><span class="stt"><span class="stt">path = ~/Maildir/</span></span></p></td></tr>
 
-    <tr>
+   <tr>
 
-     <td><span class="RktMeta"></span><span class="RktSym">delivered_to</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">=</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">false</span><span class="RktMeta"></span></td></tr>
+    <td>
 
-    <tr>
+     <p><span class="stt"><span class="stt"></span></span><span class="hspace">&nbsp;</span></p></td></tr>
 
-     <td><span class="RktMeta"></span><span class="RktSym">received</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">=</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">false</span><span class="RktMeta"></span></td></tr></tbody></table></div>
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">[options]</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">verbose = 2</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">message_log = ~/.getmail/gmail.log</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">read_all = false</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">delivered_to = false</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">received = false</span></span></p></td></tr></tbody></table>
 
 
  <p>Replace USERNAME with your Gmail username, then replace PASSWORD with your
 Gmail password. However, if you are using
 <a href="http://www.google.com/landing/2step/">2-step authentication</a>, use
 an <a href="https://accounts.google.com/IssuedAuthSubTokens">application-specific</a> password for the password field. Take note, that
-<span class="RktSym">~/Maildir</span><span class="RktMeta"></span> is the default directory that Mail Transfer Agents (MTA) which
+<span class="stt">~/Maildir</span> is the default directory that Mail Transfer Agents (MTA) which
 use the <a href="https://en.wikipedia.org/wiki/Maildir">maildir</a> format
 use, to store data.</p>
 
@@ -305,42 +351,54 @@ use, to store data.</p>
  <p>To verify that we can indeed fetch our messages, run getmail:</p>
 
 
- <div class="SCodeFlow">
+ <p></p>
 
-  <table cellspacing="0" class="RktBlk">
 
-   <tbody>
+ <table cellspacing="0">
 
-    <tr>
+  <tbody>
 
-     <td><span class="RktSym">$</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">getmail</span><span class="RktMeta"></span></td></tr></tbody></table></div>
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">$ getmail</span></span></p></td></tr></tbody></table>
 
 
  <p>If it doesn&rsquo;t choke, and displays something like the following, then you have
 configured getmail correctly.</p>
 
 
- <div class="SCodeFlow">
+ <p></p>
 
-  <table cellspacing="0" class="RktBlk">
 
-   <tbody>
+ <table cellspacing="0">
 
-    <tr>
+  <tbody>
 
-     <td><span class="RktSym">getmail</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">version</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">4.43.0</span><span class="RktMeta"></span></td></tr>
+   <tr>
 
-    <tr>
+    <td>
 
-     <td><span class="RktMeta"></span><span class="RktSym">Copyright</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktSym">C</span><span class="RktPn">)</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">1998-2012</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">Charles</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">Cazabon.</span><span class="RktMeta"></span><span class="hspace">&nbsp;&nbsp;</span><span class="RktMeta"></span><span class="RktSym">Licensed</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">under</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">the</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">GNU</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">GPL</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">version</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktVal">2.</span><span class="RktMeta"></span></td></tr>
+     <p><span class="stt"><span class="stt">getmail version 4.43.0</span></span></p></td></tr>
 
-    <tr>
+   <tr>
 
-     <td><span class="RktMeta"></span><span class="RktSym">SimpleIMAPSSLRetriever:foobar@gmail.com@imap.gmail.com:993:</span><span class="RktMeta"></span></td></tr>
+    <td>
 
-    <tr>
+     <p><span class="stt">Copyright (C) 1998-2012 Charles Cazabon.<span class="hspace">&nbsp;&nbsp;</span><span class="stt">Licensed under the GNU GPL version 2.</span></span></p></td></tr>
 
-     <td><span class="RktMeta"></span><span class="RktSym">...</span><span class="RktMeta"></span></td></tr></tbody></table></div>
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">SimpleIMAPSSLRetriever:foobar@gmail.com@imap.gmail.com:993:</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">...</span></span></p></td></tr></tbody></table>
 
 
  <h1>2
@@ -363,62 +421,75 @@ system&rsquo;s package manager. If you are using a
 system</a>, you can install it by running:</p>
 
 
- <div class="SCodeFlow">
+ <p></p>
 
-  <table cellspacing="0" class="RktBlk">
 
-   <tbody>
+ <table cellspacing="0">
 
-    <tr>
+  <tbody>
 
-     <td><span class="RktSym">$</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">sudo</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">apt-get</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">install</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">maildir-utils</span><span class="RktMeta"></span></td></tr></tbody></table></div>
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">$ sudo apt-get install maildir-utils</span></span></p></td></tr></tbody></table>
 
 
  <p>If you are using <a href="https://nixos.org/nixos/">NixOS</a>, you can
 install by running:</p>
 
 
- <div class="SCodeFlow">
+ <p></p>
 
-  <table cellspacing="0" class="RktBlk">
 
-   <tbody>
+ <table cellspacing="0">
 
-    <tr>
+  <tbody>
 
-     <td><span class="RktSym">$</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">nix-env</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktVal">-i</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">mu</span><span class="RktMeta"></span></td></tr></tbody></table></div>
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">$ nix-env -i mu</span></span></p></td></tr></tbody></table>
 
 
  <p>In addition to the above, we need to fetch mu4e. This comes with mu&rsquo;s source
 code. Download it by running:</p>
 
 
- <div class="SCodeFlow">
-
-  <table cellspacing="0" class="RktBlk">
-
-   <tbody>
-
-    <tr>
-
-     <td><span class="RktSym">$</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">mkdir</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">~/.emacs.d</span><span class="RktMeta"></span></td></tr>
-
-    <tr>
-
-     <td><span class="RktMeta"></span><span class="RktSym">$</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">cd</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">~/.emacs.d</span><span class="RktMeta"></span></td></tr>
-
-    <tr>
-
-     <td><span class="RktMeta"></span><span class="RktSym">$</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">git</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">clone</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">git@github.com:djcb/mu.git</span><span class="RktMeta"></span></td></tr></tbody></table></div>
+ <p></p>
 
 
- <p>This creates a <span class="RktSym">mu/</span><span class="RktMeta"></span> directory in the current directory, which happens to
+ <table cellspacing="0">
+
+  <tbody>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">$ mkdir ~/.emacs.d</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">$ cd ~/.emacs.d</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">$ git clone git@github.com:djcb/mu.git</span></span></p></td></tr></tbody></table>
+
+
+ <p>This creates a <span class="stt">mu/</span> directory in the current directory, which happens to
 be the default location from which emacs looks for init files. Take note, that
 the git command above actually fetches the source code of mu, and we can
 actually use it to install mu. But since, you have your package manager, we&rsquo;ll
-ignore that. Also the location from which the <span class="RktSym">mu/mu4e/</span><span class="RktMeta"></span> subdirectory exists
+ignore that. Also the location from which the <span class="stt">mu/mu4e/</span> subdirectory exists
 from the package manager&rsquo;s installation, varies between systems. So, for now,
-we&rsquo;re only interested with the <span class="RktSym">mu/mu4e/</span><span class="RktMeta"></span> subdirectory.</p>
+we&rsquo;re only interested with the <span class="stt">mu/mu4e/</span> subdirectory.</p>
 
 
  <h2>2.2
@@ -427,77 +498,97 @@ we&rsquo;re only interested with the <span class="RktSym">mu/mu4e/</span><span c
 
 
  <p>We now need to make that mu4e directory accessible to emacs. To do so, we need
-to edit either <span class="RktSym">~/.emacs.d/init.el</span><span class="RktMeta"></span> or <span class="RktSym">~/.emacs</span><span class="RktMeta"></span>:</p>
+to edit either <span class="stt">~/.emacs.d/init.el</span> or <span class="stt">~/.emacs</span>:</p>
 
 
- <div class="SCodeFlow">
+ <p></p>
 
-  <table cellspacing="0" class="RktBlk">
 
-   <tbody>
+ <table cellspacing="0">
 
-    <tr>
+  <tbody>
 
-     <td><span class="RktSym">$</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">emacs</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">~/.emacs.d/init.el</span><span class="RktMeta"></span></td></tr></tbody></table></div>
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">$ emacs ~/.emacs.d/init.el</span></span></p></td></tr></tbody></table>
 
 
  <p>Then add the following:</p>
 
 
- <div class="SCodeFlow">
+ <p></p>
 
-  <table cellspacing="0" class="RktBlk">
 
-   <tbody>
+ <table cellspacing="0">
 
-    <tr>
+  <tbody>
 
-     <td><span class="RktPn">(</span><span class="RktSym">setq</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">load-path</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktSym">append</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">load-path</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">'</span><span class="RktPn">(</span><span class="RktVal">"~/.emacs.d/mu/mu4e"</span><span class="RktPn">)</span><span class="RktPn">)</span><span class="RktPn">)</span><span class="RktMeta"></span></td></tr>
+   <tr>
 
-    <tr>
+    <td>
 
-     <td><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktSym">require</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">'</span><span class="RktSym">mu4e</span><span class="RktPn">)</span><span class="RktMeta"></span></td></tr></tbody></table></div>
+     <p><span class="stt"><span class="stt">(setq load-path (append load-path '("~/.emacs.d/mu/mu4e")))</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">(require 'mu4e)</span></span></p></td></tr></tbody></table>
 
 
  <p>Additionally we need to put in some information about us, so that emacs won&rsquo;t
 bother asking us about those details later on:</p>
 
 
- <div class="SCodeFlow">
+ <p></p>
 
-  <table cellspacing="0" class="RktBlk">
 
-   <tbody>
+ <table cellspacing="0">
 
-    <tr>
+  <tbody>
 
-     <td><span class="RktPn">(</span><span class="RktSym">setq</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">user-full-name</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktVal">"Foo</span><span class="hspace">&nbsp;</span><span class="RktVal">B.</span><span class="hspace">&nbsp;</span><span class="RktVal">Baz"</span><span class="RktMeta"></span></td></tr>
+   <tr>
 
-    <tr>
+    <td>
 
-     <td><span class="RktMeta"></span><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="RktMeta"></span><span class="RktSym">user-mail-address</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktVal">"foo@bar.baz"</span><span class="RktPn">)</span><span class="RktMeta"></span></td></tr></tbody></table></div>
+     <p><span class="stt"><span class="stt">(setq user-full-name "Foo B. Baz"</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="stt">user-mail-address "foo@bar.baz")</span></span></p></td></tr></tbody></table>
 
 
  <p>To make our life even easier, we&rsquo;ll set some variables:</p>
 
 
- <div class="SCodeFlow">
+ <p></p>
 
-  <table cellspacing="0" class="RktBlk">
 
-   <tbody>
+ <table cellspacing="0">
 
-    <tr>
+  <tbody>
 
-     <td><span class="RktPn">(</span><span class="RktSym">setq</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">mu4e-get-mail-command</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktVal">"getmail"</span><span class="RktMeta"></span></td></tr>
+   <tr>
 
-    <tr>
+    <td>
 
-     <td><span class="RktMeta"></span><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="RktMeta"></span><span class="RktSym">mu4e-update-interval</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktVal">300</span><span class="RktMeta"></span></td></tr>
+     <p><span class="stt"><span class="stt">(setq mu4e-get-mail-command "getmail"</span></span></p></td></tr>
 
-    <tr>
+   <tr>
 
-     <td><span class="RktMeta"></span><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="RktMeta"></span><span class="RktSym">mu4e-attachment-dir</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktVal">"~/Downloads"</span><span class="RktPn">)</span><span class="RktMeta"></span></td></tr></tbody></table></div>
+    <td>
+
+     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="stt">mu4e-update-interval 300</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="stt">mu4e-attachment-dir "~/Downloads")</span></span></p></td></tr></tbody></table>
 
 
  <h2>2.3
@@ -509,34 +600,40 @@ bother asking us about those details later on:</p>
 you can mark (C-space) those lines, then hit:</p>
 
 
- <div class="SCodeFlow">
+ <p></p>
 
-  <table cellspacing="0" class="RktBlk">
 
-   <tbody>
+ <table cellspacing="0">
 
-    <tr>
+  <tbody>
 
-     <td><span class="RktSym">M-x</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">eval-region</span><span class="RktMeta"></span></td></tr></tbody></table></div>
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">M-x eval-region</span></span></p></td></tr></tbody></table>
 
 
  <p>At this point, you can now use mu4e, by hitting:</p>
 
 
- <div class="SCodeFlow">
+ <p></p>
 
-  <table cellspacing="0" class="RktBlk">
 
-   <tbody>
+ <table cellspacing="0">
 
-    <tr>
+  <tbody>
 
-     <td><span class="RktSym">M-x</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">mu4e</span><span class="RktMeta"></span></td></tr></tbody></table></div>
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">M-x mu4e</span></span></p></td></tr></tbody></table>
 
 
  <p>You&rsquo;ll get a sexy menu, wherein you can hit shortcuts to get you to where you
-want. To compose a message, hit <span class="RktSym">C</span><span class="RktMeta"></span>, fill in the fields, then hit
-<span class="RktSym">C-c</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">C-c</span><span class="RktMeta"></span> to send the message. The rest of the commands should be
+want. To compose a message, hit <span class="stt">C</span>, fill in the fields, then hit
+<span class="stt">C-c C-c</span> to send the message. The rest of the commands should be
 self-explanatory, but if you want to learn more, you can read the nice
 <a href="http://www.djcbsoftware.nl/code/mu/mu4e/index.html">mu4e manual</a>.</p>
 
@@ -559,134 +656,173 @@ message, was still saved somewhere. Ahem.</p>
  <p>To make use of these cryptographic utilities, edit your emacs init:</p>
 
 
- <div class="SCodeFlow">
+ <p></p>
 
-  <table cellspacing="0" class="RktBlk">
 
-   <tbody>
+ <table cellspacing="0">
 
-    <tr>
+  <tbody>
 
-     <td><span class="RktSym">$</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">emacs</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">~/.emacs.d/init.el</span><span class="RktMeta"></span></td></tr></tbody></table></div>
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">$ emacs ~/.emacs.d/init.el</span></span></p></td></tr></tbody></table>
 
 
  <p>Then add the following:</p>
 
 
- <div class="SCodeFlow">
+ <p></p>
 
-  <table cellspacing="0" class="RktBlk">
 
-   <tbody>
+ <table cellspacing="0">
 
-    <tr>
+  <tbody>
 
-     <td><span class="RktPn">(</span><span class="RktSym">require</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">'</span><span class="RktSym">mml2015</span><span class="RktPn">)</span><span class="RktMeta"></span></td></tr>
+   <tr>
 
-    <tr>
+    <td>
 
-     <td><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktSym">require</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">'</span><span class="RktSym">epa-file</span><span class="RktPn">)</span><span class="RktMeta"></span></td></tr>
+     <p><span class="stt"><span class="stt">(require 'mml2015)</span></span></p></td></tr>
 
-    <tr>
+   <tr>
 
-     <td><span class="RktMeta">&#160;</span></td></tr>
+    <td>
 
-    <tr>
+     <p><span class="stt"><span class="stt">(require 'epa-file)</span></span></p></td></tr>
 
-     <td><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktSym">defun</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">encrypt-message</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktSym">&amp;optional</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">arg</span><span class="RktPn">)</span><span class="RktMeta"></span></td></tr>
+   <tr>
 
-    <tr>
+    <td>
 
-     <td><span class="RktMeta"></span><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktSym">interactive</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktVal">"p"</span><span class="RktPn">)</span><span class="RktMeta"></span></td></tr>
+     <p><span class="stt"><span class="stt"></span></span><span class="hspace">&nbsp;</span></p></td></tr>
 
-    <tr>
+   <tr>
 
-     <td><span class="RktMeta"></span><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktSym">mml-secure-message-encrypt-pgp</span><span class="RktPn">)</span><span class="RktPn">)</span><span class="RktMeta"></span></td></tr>
+    <td>
 
-    <tr>
+     <p><span class="stt"><span class="stt">(defun encrypt-message (&amp;optional arg)</span></span></p></td></tr>
 
-     <td><span class="RktMeta">&#160;</span></td></tr>
+   <tr>
 
-    <tr>
+    <td>
 
-     <td><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktSym">defun</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">decrypt-message</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktSym">&amp;optional</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">arg</span><span class="RktPn">)</span><span class="RktMeta"></span></td></tr>
+     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;</span><span class="stt">(interactive "p")</span></span></p></td></tr>
 
-    <tr>
+   <tr>
 
-     <td><span class="RktMeta"></span><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktSym">interactive</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktVal">"p"</span><span class="RktPn">)</span><span class="RktMeta"></span></td></tr>
+    <td>
 
-    <tr>
+     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;</span><span class="stt">(mml-secure-message-encrypt-pgp))</span></span></p></td></tr>
 
-     <td><span class="RktMeta"></span><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktSym">epa-decrypt-armor-in-region</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktSym">point-min</span><span class="RktPn">)</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktSym">point-max</span><span class="RktPn">)</span><span class="RktPn">)</span><span class="RktPn">)</span><span class="RktMeta"></span></td></tr>
+   <tr>
 
-    <tr>
+    <td>
 
-     <td><span class="RktMeta">&#160;</span></td></tr>
+     <p><span class="stt"><span class="stt"></span></span><span class="hspace">&nbsp;</span></p></td></tr>
 
-    <tr>
+   <tr>
 
-     <td><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktSym">defalias</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">'</span><span class="RktSym">ec</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">'</span><span class="RktSym">encrypt-message</span><span class="RktPn">)</span><span class="RktMeta"></span></td></tr>
+    <td>
 
-    <tr>
+     <p><span class="stt"><span class="stt">(defun decrypt-message (&amp;optional arg)</span></span></p></td></tr>
 
-     <td><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktSym">defalias</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">'</span><span class="RktSym">dc</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">'</span><span class="RktSym">decrypt-message</span><span class="RktPn">)</span><span class="RktMeta"></span></td></tr></tbody></table></div>
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;</span><span class="stt">(interactive "p")</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;</span><span class="stt">(epa-decrypt-armor-in-region (point-min) (point-max)))</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt"></span></span><span class="hspace">&nbsp;</span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">(defalias 'ec 'encrypt-message)</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">(defalias 'dc 'decrypt-message)</span></span></p></td></tr></tbody></table>
 
 
  <p>Mark those lines, then hit:</p>
 
 
- <div class="SCodeFlow">
+ <p></p>
 
-  <table cellspacing="0" class="RktBlk">
 
-   <tbody>
+ <table cellspacing="0">
 
-    <tr>
+  <tbody>
 
-     <td><span class="RktSym">M-x</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">eval-region</span><span class="RktMeta"></span></td></tr></tbody></table></div>
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">M-x eval-region</span></span></p></td></tr></tbody></table>
 
 
  <p>To make the settings take effect, immediately.</p>
 
 
- <p>To send an encrypt a message, hit <span class="RktSym">C</span><span class="RktMeta"></span> from the main menu of mu4e, fill in
-the usual fields like <span class="RktSym">To:</span><span class="RktMeta"></span>, and <span class="RktSym">Subject:</span><span class="RktMeta"></span>, then on the message
+ <p>To send an encrypt a message, hit <span class="stt">C</span> from the main menu of mu4e, fill in
+the usual fields like <span class="stt">To:</span>, and <span class="stt">Subject:</span>, then on the message
 body, hit:</p>
 
 
- <div class="SCodeFlow">
+ <p></p>
 
-  <table cellspacing="0" class="RktBlk">
 
-   <tbody>
+ <table cellspacing="0">
 
-    <tr>
+  <tbody>
 
-     <td><span class="RktSym">M-x</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">ec</span><span class="RktMeta"></span></td></tr></tbody></table></div>
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">M-x ec</span></span></p></td></tr></tbody></table>
 
 
  <p>This will tag your outgoing message to be signed and encrypted. To send the
-it, hit <span class="RktSym">C-c</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">C-c</span><span class="RktMeta"></span>. This will then prompt you to input your
+it, hit <span class="stt">C-c C-c</span>. This will then prompt you to input your
 passphrase. It will also ask you to fill in some information regarding your
 outgoing mail server (SMTP). The SMTP server for Gmail is
 <span style="font-style: italic">smtp.gmail.com</span>, then use USERNAME@gmail.com when prompted for the
 username. Use your regular password, when prompted, or input your
 application-specific password, as described earlier. These information will be
-saved to <span class="RktSym">~/.authinfo</span><span class="RktMeta"></span>, and will be used for later messages.</p>
+saved to <span class="stt">~/.authinfo</span>, and will be used for later messages.</p>
 
 
  <p>To decrypt a message, open the message, then hit:</p>
 
 
- <div class="SCodeFlow">
+ <p></p>
 
-  <table cellspacing="0" class="RktBlk">
 
-   <tbody>
+ <table cellspacing="0">
 
-    <tr>
+  <tbody>
 
-     <td><span class="RktSym">M-x</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">dc</span><span class="RktMeta"></span></td></tr></tbody></table></div>
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">M-x dc</span></span></p></td></tr></tbody></table>
 
 
  <p>This will prompt you to input your passphrase. After which, you&rsquo;ll be prompted

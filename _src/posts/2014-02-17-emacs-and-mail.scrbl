@@ -32,14 +32,14 @@ manager. If you are using a
 @hyperlink["https://www.debian.org/misc/children-distros" "Debian-based
 system"], you can install it by running:
 
-@codeblock{
+@verbatim{
 $ sudo apt-get install getmail4
 }
 
 If you are using @hyperlink["https://nixos.org/nixos/" "NixOS"], you can
 install by running:
 
-@codeblock{
+@verbatim{
 $ nix-env -i getmail
 }
 
@@ -51,10 +51,10 @@ you can always head to its @hyperlink["http://pyropus.ca/software/getmail/"
 @subsection{Configuration}
 
 Next, we need to conjure the incantation so that getmail knows how to get your
-stuff. Create the file @code{~/.getmail/getmailrc}. In addition to that, we
+stuff. Create the file @tt{~/.getmail/getmailrc}. In addition to that, we
 need to create and specify where the messages will go:
 
-@codeblock{
+@verbatim{
 $ mkdir ~/Maildir
 $ mkdir ~/.getmail
 $ emacs ~/.getmail/getmailrc
@@ -62,7 +62,7 @@ $ emacs ~/.getmail/getmailrc
 
 Then put in the following:
 
-@codeblock{
+@verbatim{
 [retriever]
 type = SimpleIMAPSSLRetriever
 server = imap.gmail.com
@@ -87,7 +87,7 @@ Gmail password. However, if you are using
 @hyperlink["http://www.google.com/landing/2step/" "2-step authentication"], use
 an @hyperlink["https://accounts.google.com/IssuedAuthSubTokens"
 "application-specific"] password for the password field. Take note, that
-@code{~/Maildir} is the default directory that Mail Transfer Agents (MTA) which
+@tt{~/Maildir} is the default directory that Mail Transfer Agents (MTA) which
 use the @hyperlink["https://en.wikipedia.org/wiki/Maildir" "maildir"] format
 use, to store data.
 
@@ -96,14 +96,14 @@ use, to store data.
 
 To verify that we can indeed fetch our messages, run getmail:
 
-@codeblock{
+@verbatim{
 $ getmail
 }
 
 If it doesn't choke, and displays something like the following, then you have
 configured getmail correctly.
 
-@codeblock{
+@verbatim{
 getmail version 4.43.0
 Copyright (C) 1998-2012 Charles Cazabon.  Licensed under the GNU GPL version 2.
 SimpleIMAPSSLRetriever:foobar@"@"gmail.com@"@"imap.gmail.com:993:
@@ -123,47 +123,47 @@ system's package manager. If you are using a
 @hyperlink["https://www.debian.org/misc/children-distros" "Debian-based
 system"], you can install it by running:
 
-@codeblock{
+@verbatim{
 $ sudo apt-get install maildir-utils
 }
 
 If you are using @hyperlink["https://nixos.org/nixos/" "NixOS"], you can
 install by running:
 
-@codeblock{
+@verbatim{
 $ nix-env -i mu
 }
 
 In addition to the above, we need to fetch mu4e. This comes with mu's source
 code. Download it by running:
 
-@codeblock{
+@verbatim{
 $ mkdir ~/.emacs.d
 $ cd ~/.emacs.d
 $ git clone git@"@"github.com:djcb/mu.git
 }
 
-This creates a @code{mu/} directory in the current directory, which happens to
+This creates a @tt{mu/} directory in the current directory, which happens to
 be the default location from which emacs looks for init files. Take note, that
 the git command above actually fetches the source code of mu, and we can
 actually use it to install mu. But since, you have your package manager, we'll
-ignore that. Also the location from which the @code{mu/mu4e/} subdirectory exists
+ignore that. Also the location from which the @tt{mu/mu4e/} subdirectory exists
 from the package manager's installation, varies between systems. So, for now,
-we're only interested with the @code{mu/mu4e/} subdirectory.
+we're only interested with the @tt{mu/mu4e/} subdirectory.
 
 
 @subsection{Configuration}
 
 We now need to make that mu4e directory accessible to emacs. To do so, we need
-to edit either @code{~/.emacs.d/init.el} or @code{~/.emacs}:
+to edit either @tt{~/.emacs.d/init.el} or @tt{~/.emacs}:
 
-@codeblock{
+@verbatim{
 $ emacs ~/.emacs.d/init.el
 }
 
 Then add the following:
 
-@codeblock{
+@verbatim{
 (setq load-path (append load-path '("~/.emacs.d/mu/mu4e")))
 (require 'mu4e)
 }
@@ -171,17 +171,17 @@ Then add the following:
 Additionally we need to put in some information about us, so that emacs won't
 bother asking us about those details later on:
 
-@codeblock{
+@verbatim{
 (setq user-full-name "Foo B. Baz"
-              user-mail-address "foo@"@"bar.baz")
+       user-mail-address "foo@"@"bar.baz")
 }
 
 To make our life even easier, we'll set some variables:
 
-@codeblock{
+@verbatim{
 (setq mu4e-get-mail-command "getmail"
-              mu4e-update-interval 300
-              mu4e-attachment-dir "~/Downloads")
+      mu4e-update-interval 300
+      mu4e-attachment-dir "~/Downloads")
 }
 
 @subsection{Execution}
@@ -189,19 +189,19 @@ To make our life even easier, we'll set some variables:
 You can restart emacs so that those settings can take effect, or alternatively,
 you can mark (C-space) those lines, then hit:
 
-@codeblock{
+@verbatim{
 M-x eval-region
 }
 
 At this point, you can now use mu4e, by hitting:
 
-@codeblock{
+@verbatim{
 M-x mu4e
 }
 
 You'll get a sexy menu, wherein you can hit shortcuts to get you to where you
-want. To compose a message, hit @code{C}, fill in the fields, then hit
-@code{C-c C-c} to send the message. The rest of the commands should be
+want. To compose a message, hit @tt{C}, fill in the fields, then hit
+@tt{C-c C-c} to send the message. The rest of the commands should be
 self-explanatory, but if you want to learn more, you can read the nice
 @hyperlink["http://www.djcbsoftware.nl/code/mu/mu4e/index.html" "mu4e manual"].
 
@@ -218,23 +218,23 @@ message, was still saved somewhere. Ahem.
 
 To make use of these cryptographic utilities, edit your emacs init:
 
-@codeblock{
+@verbatim{
 $ emacs ~/.emacs.d/init.el
 }
 
 Then add the following:
 
-@codeblock{
+@verbatim{
 (require 'mml2015)
 (require 'epa-file)
 
 (defun encrypt-message (&optional arg)
-    (interactive "p")
-    (mml-secure-message-encrypt-pgp))
+  (interactive "p")
+  (mml-secure-message-encrypt-pgp))
 
 (defun decrypt-message (&optional arg)
-    (interactive "p")
-    (epa-decrypt-armor-in-region (point-min) (point-max)))
+  (interactive "p")
+  (epa-decrypt-armor-in-region (point-min) (point-max)))
 
 (defalias 'ec 'encrypt-message)
 (defalias 'dc 'decrypt-message)
@@ -242,32 +242,32 @@ Then add the following:
 
 Mark those lines, then hit:
 
-@codeblock{
+@verbatim{
 M-x eval-region
 }
 
 To make the settings take effect, immediately.
 
-To send an encrypt a message, hit @code{C} from the main menu of mu4e, fill in
-the usual fields like @code{To:}, and @code{Subject:}, then on the message
+To send an encrypt a message, hit @tt{C} from the main menu of mu4e, fill in
+the usual fields like @tt{To:}, and @tt{Subject:}, then on the message
 body, hit:
 
-@codeblock{
+@verbatim{
 M-x ec
 }
 
 This will tag your outgoing message to be signed and encrypted. To send the
-it, hit @code{C-c C-c}. This will then prompt you to input your
+it, hit @tt{C-c C-c}. This will then prompt you to input your
 passphrase. It will also ask you to fill in some information regarding your
 outgoing mail server (SMTP). The SMTP server for Gmail is
 @emph{smtp.gmail.com}, then use USERNAME@"@"gmail.com when prompted for the
 username. Use your regular password, when prompted, or input your
 application-specific password, as described earlier. These information will be
-saved to @code{~/.authinfo}, and will be used for later messages.
+saved to @tt{~/.authinfo}, and will be used for later messages.
 
 To decrypt a message, open the message, then hit:
 
-@codeblock{
+@verbatim{
 M-x dc
 }
 

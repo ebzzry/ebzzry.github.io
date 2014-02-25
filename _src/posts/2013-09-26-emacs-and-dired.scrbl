@@ -16,23 +16,23 @@ dired buffers, to a certain extent.
 
 To run dired, run emacs on the command line, supplying a directory as its argument:
 
-@codeblock{
+@verbatim{
 emacs ~/Desktop/
 }
 
-Or, alternatively, you can press @code{C-x d} inside Emacs. If you are
+Or, alternatively, you can press @tt{C-x d} inside Emacs. If you are
 currently editing a file, the directory of that file will be presented as the
-default value in the minibuffer area. Either way, when you hit @code{Enter}, a
+default value in the minibuffer area. Either way, when you hit @tt{Enter}, a
 buffer of the directory will load, that looks like the output of
-@code{ls -l}:
+@tt{ls -l}:
 
-@codeblock|{
-/home/rmm/Desktop/foo:
+@verbatim|{
+/home/john/Desktop/foo:
 total used in directory 84 available 540767396
--rw-r--r-- 1 rmm users 5935 Sep 27 18:17 index.html
--rw-r--r-- 1 rmm users 5944 Sep 27 18:17 index2.html
-drwxr-xr-x 3 rmm users 4096 Sep 26 17:42 pics
-drwxr-xr-x 3 rmm users 4096 Sep 26 05:39 vids
+-rw-r--r-- 1 john users 5935 Sep 27 18:17 index.html
+-rw-r--r-- 1 john users 5944 Sep 27 18:17 index2.html
+drwxr-xr-x 3 john users 4096 Sep 26 17:42 pics
+drwxr-xr-x 3 john users 4096 Sep 26 05:39 vids
 }|
 
 Okay, now that we have it, what can we do with it? Well, here is a short list
@@ -105,10 +105,10 @@ make use of marks. The @bold{w} command, however, is an exception.
 @bold{BUT}, one of the coolest, and often-overlooked feature of dired is the
 @bold{WDired} mode. What it does is that it gives you a decent ability to edit
 the item names in a dired buffer, just as you would on a typical buffer. To
-enter wdired mode, hit @code{M-x wdired-change-to-wdired-mode}. The major mode
+enter wdired mode, hit @tt{M-x wdired-change-to-wdired-mode}. The major mode
 changes from @bold{@emph{Dired}} to @bold{@emph{Editable Dired}}. You can then
 rename the files, and directories, with ease. You can even use rectangle and
 replace functions on them, to make things easier. The changes you have made at
-this point are not yet saved. To save the changes, press @code{C-c C-c}.
+this point are not yet saved. To save the changes, press @tt{C-c C-c}.
 
 Well, that is it for now. Ciao!

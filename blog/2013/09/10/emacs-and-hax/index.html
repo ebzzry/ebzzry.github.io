@@ -124,78 +124,108 @@ configuration files that I use.</p>
 <a href="http://github.com/ebzzry/dotemacs">http://github.com/ebzzry/dotemacs</a>.</p>
 
 
- <div class="SCodeFlow">
+ <p></p>
 
-  <table cellspacing="0" class="RktBlk">
 
-   <tbody>
+ <table cellspacing="0">
 
-    <tr>
+  <tbody>
 
-     <td><span class="RktPn">(</span><span class="RktSym">defun</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">delete-forward-char-or-region</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktSym">&amp;optional</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">arg</span><span class="RktPn">)</span><span class="RktMeta"></span></td></tr>
+   <tr>
 
-    <tr>
+    <td>
 
-     <td><span class="RktMeta"></span><span class="hspace">&nbsp;&nbsp;&nbsp;</span><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktSym">interactive</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktVal">"p"</span><span class="RktPn">)</span><span class="RktMeta"></span></td></tr>
+     <p><span class="stt"><span class="stt">(defun delete-forward-char-or-region (&amp;optional arg)</span></span></p></td></tr>
 
-    <tr>
+   <tr>
 
-     <td><span class="RktMeta"></span><span class="hspace">&nbsp;&nbsp;&nbsp;</span><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktSym">if</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktSym">region-active-p</span><span class="RktPn">)</span><span class="RktMeta"></span></td></tr>
+    <td>
 
-    <tr>
+     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;</span><span class="stt">(interactive "p")</span></span></p></td></tr>
 
-     <td><span class="RktMeta"></span><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktSym">delete-region</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktSym">region-beginning</span><span class="RktPn">)</span><span class="RktMeta"></span></td></tr>
+   <tr>
 
-    <tr>
+    <td>
 
-     <td><span class="RktMeta"></span><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktSym">region-end</span><span class="RktPn">)</span><span class="RktPn">)</span><span class="RktMeta"></span></td></tr>
+     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;</span><span class="stt">(if (region-active-p)</span></span></p></td></tr>
 
-    <tr>
+   <tr>
 
-     <td><span class="RktMeta"></span><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktSym">delete-forward-char</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">arg</span><span class="RktPn">)</span><span class="RktPn">)</span><span class="RktPn">)</span><span class="RktMeta"></span></td></tr>
+    <td>
 
-    <tr>
+     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="stt">(delete-region (region-beginning)</span></span></p></td></tr>
 
-     <td><span class="RktMeta">&#160;</span></td></tr>
+   <tr>
 
-    <tr>
+    <td>
 
-     <td><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktSym">define-key</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">global-map</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktPn">[</span><span class="RktSym">deletechar</span><span class="RktPn">]</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">'</span><span class="RktSym">delete-forward-char-or-region</span><span class="RktPn">)</span><span class="RktMeta"></span></td></tr>
+     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="stt">(region-end))</span></span></p></td></tr>
 
-    <tr>
+   <tr>
 
-     <td><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktSym">define-key</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">global-map</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktPn">[</span><span class="RktSym">del</span><span class="RktPn">]</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">'</span><span class="RktSym">delete-forward-char-or-region</span><span class="RktPn">)</span><span class="RktMeta"></span></td></tr></tbody></table></div>
+    <td>
+
+     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="stt">(delete-forward-char arg)))</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt"></span></span><span class="hspace">&nbsp;</span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">(define-key global-map [deletechar] 'delete-forward-char-or-region)</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">(define-key global-map [del] 'delete-forward-char-or-region)</span></span></p></td></tr></tbody></table>
 
 
  <p>This command deletes a region if one is active, or deletes the
 character underneath the cursor. I have this bound to the DEL key.</p>
 
 
- <div class="SCodeFlow">
+ <p></p>
 
-  <table cellspacing="0" class="RktBlk">
 
-   <tbody>
+ <table cellspacing="0">
 
-    <tr>
+  <tbody>
 
-     <td><span class="RktPn">(</span><span class="RktSym">defun</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">compile-file</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktPn">)</span><span class="RktMeta"></span></td></tr>
+   <tr>
 
-    <tr>
+    <td>
 
-     <td><span class="RktMeta"></span><span class="hspace">&nbsp;&nbsp;&nbsp;</span><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktSym">interactive</span><span class="RktPn">)</span><span class="RktMeta"></span></td></tr>
+     <p><span class="stt"><span class="stt">(defun compile-file ()</span></span></p></td></tr>
 
-    <tr>
+   <tr>
 
-     <td><span class="RktMeta"></span><span class="hspace">&nbsp;&nbsp;&nbsp;</span><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktSym">compile</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktVal">"make</span><span class="hspace">&nbsp;</span><span class="RktVal">-k"</span><span class="RktPn">)</span><span class="RktPn">)</span><span class="RktMeta"></span></td></tr>
+    <td>
 
-    <tr>
+     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;</span><span class="stt">(interactive)</span></span></p></td></tr>
 
-     <td><span class="RktMeta">&#160;</span></td></tr>
+   <tr>
 
-    <tr>
+    <td>
 
-     <td><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktSym">define-key</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">global-map</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktPn">[</span><span class="RktPn">(</span><span class="RktSym">control</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">?x</span><span class="RktPn">)</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">?c</span><span class="RktPn">]</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">'</span><span class="RktSym">compile-file</span><span class="RktPn">)</span><span class="RktMeta"></span></td></tr></tbody></table></div>
+     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;</span><span class="stt">(compile "make -k"))</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt"></span></span><span class="hspace">&nbsp;</span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">(define-key global-map [(control ?x) ?c] 'compile-file)</span></span></p></td></tr></tbody></table>
 
 
  <p>I use this command frequently, and I use it from typesetting LaTeX
@@ -203,23 +233,30 @@ documents, compiling Scribble documents, compiling code, and just
 about anything that I can use Make with.</p>
 
 
- <div class="SCodeFlow">
+ <p></p>
 
-  <table cellspacing="0" class="RktBlk">
 
-   <tbody>
+ <table cellspacing="0">
 
-    <tr>
+  <tbody>
 
-     <td><span class="RktPn">(</span><span class="RktSym">defun</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">geiser-save</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktPn">)</span><span class="RktMeta"></span></td></tr>
+   <tr>
 
-    <tr>
+    <td>
 
-     <td><span class="RktMeta"></span><span class="hspace">&nbsp;&nbsp;&nbsp;</span><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktSym">interactive</span><span class="RktPn">)</span><span class="RktMeta"></span></td></tr>
+     <p><span class="stt"><span class="stt">(defun geiser-save ()</span></span></p></td></tr>
 
-    <tr>
+   <tr>
 
-     <td><span class="RktMeta"></span><span class="hspace">&nbsp;&nbsp;&nbsp;</span><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktSym">geiser-repl--write-input-ring</span><span class="RktPn">)</span><span class="RktPn">)</span><span class="RktMeta"></span></td></tr></tbody></table></div>
+    <td>
+
+     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;</span><span class="stt">(interactive)</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;</span><span class="stt">(geiser-repl--write-input-ring))</span></span></p></td></tr></tbody></table>
 
 
  <p>This comes in very handy for me, because sometimes I lose the REPL
@@ -227,88 +264,119 @@ buffer before the input ring has been saved. When I need to run I
 execute &lsquo;M-x geiser-save&lsquo;.</p>
 
 
- <div class="SCodeFlow">
+ <p></p>
 
-  <table cellspacing="0" class="RktBlk">
 
-   <tbody>
+ <table cellspacing="0">
 
-    <tr>
+  <tbody>
 
-     <td><span class="RktPn">(</span><span class="RktSym">defun</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">my-scheme-mode-hook</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktPn">)</span><span class="RktMeta"></span></td></tr>
+   <tr>
 
-    <tr>
+    <td>
 
-     <td><span class="RktMeta"></span><span class="hspace">&nbsp;&nbsp;&nbsp;</span><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktSym">put</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">'</span><span class="RktSym">&#955;</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">'</span><span class="RktSym">scheme-indent-function</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktVal">1</span><span class="RktPn">)</span><span class="RktMeta"></span></td></tr>
+     <p><span class="stt"><span class="stt">(defun my-scheme-mode-hook ()</span></span></p></td></tr>
 
-    <tr>
+   <tr>
 
-     <td><span class="RktMeta"></span><span class="hspace">&nbsp;&nbsp;&nbsp;</span><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktSym">define-key</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">scheme-mode-map</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktPn">[</span><span class="RktPn">(</span><span class="RktSym">control</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">?c</span><span class="RktPn">)</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">tab</span><span class="RktPn">]</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">'</span><span class="RktSym">completion-at-point</span><span class="RktPn">)</span><span class="RktPn">)</span><span class="RktMeta"></span></td></tr>
+    <td>
 
-    <tr>
+     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;</span><span class="stt">(put '&#955; 'scheme-indent-function 1)</span></span></p></td></tr>
 
-     <td><span class="RktMeta">&#160;</span></td></tr>
+   <tr>
 
-    <tr>
+    <td>
 
-     <td><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktSym">add-hook</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">'</span><span class="RktSym">scheme-mode-hook</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">'</span><span class="RktSym">my-scheme-mode-hook</span><span class="RktPn">)</span><span class="RktMeta"></span></td></tr></tbody></table></div>
+     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;</span><span class="stt">(define-key scheme-mode-map [(control ?c) tab] 'completion-at-point))</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt"></span></span><span class="hspace">&nbsp;</span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">(add-hook 'scheme-mode-hook 'my-scheme-mode-hook)</span></span></p></td></tr></tbody></table>
 
 
  <p>I also have the above, since I want to align the &lsquo;&#955;&lsquo; symbol nicely.</p>
 
 
- <div class="SCodeFlow">
+ <p></p>
 
-  <table cellspacing="0" class="RktBlk">
 
-   <tbody>
+ <table cellspacing="0">
 
-    <tr>
+  <tbody>
 
-     <td><span class="RktPn">(</span><span class="RktSym">require</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">'</span><span class="RktSym">tramp</span><span class="RktPn">)</span><span class="RktMeta"></span></td></tr>
+   <tr>
 
-    <tr>
+    <td>
 
-     <td><span class="RktMeta">&#160;</span></td></tr>
+     <p><span class="stt"><span class="stt">(require 'tramp)</span></span></p></td></tr>
 
-    <tr>
+   <tr>
 
-     <td><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktSym">add-to-list</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">'</span><span class="RktSym">tramp-remote-path</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktVal">"/var/run/current-system/sw/bin"</span><span class="RktPn">)</span><span class="RktMeta"></span></td></tr></tbody></table></div>
+    <td>
+
+     <p><span class="stt"><span class="stt"></span></span><span class="hspace">&nbsp;</span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">(add-to-list 'tramp-remote-path "/var/run/current-system/sw/bin")</span></span></p></td></tr></tbody></table>
 
 
  <p>The above snippet is applicable only to users of NixOS, since the
 filesystem tree is deviantly different from "regular" nixen.</p>
 
 
- <div class="SCodeFlow">
+ <p></p>
 
-  <table cellspacing="0" class="RktBlk">
 
-   <tbody>
+ <table cellspacing="0">
 
-    <tr>
+  <tbody>
 
-     <td><span class="RktPn">(</span><span class="RktSym">defun</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">other-window-1</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktSym">&amp;optional</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">arg</span><span class="RktPn">)</span><span class="RktMeta"></span></td></tr>
+   <tr>
 
-    <tr>
+    <td>
 
-     <td><span class="RktMeta"></span><span class="hspace">&nbsp;&nbsp;&nbsp;</span><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktSym">interactive</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktVal">"p"</span><span class="RktPn">)</span><span class="RktMeta"></span></td></tr>
+     <p><span class="stt"><span class="stt">(defun other-window-1 (&amp;optional arg)</span></span></p></td></tr>
 
-    <tr>
+   <tr>
 
-     <td><span class="RktMeta"></span><span class="hspace">&nbsp;&nbsp;&nbsp;</span><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktSym">other-window</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktSym"><span class="nobreak">-</span></span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">arg</span><span class="RktPn">)</span><span class="RktPn">)</span><span class="RktPn">)</span><span class="RktMeta"></span></td></tr>
+    <td>
 
-    <tr>
+     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;</span><span class="stt">(interactive "p")</span></span></p></td></tr>
 
-     <td><span class="RktMeta">&#160;</span></td></tr>
+   <tr>
 
-    <tr>
+    <td>
 
-     <td><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktSym">define-key</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">global-map</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktPn">[</span><span class="RktPn">(</span><span class="RktSym">control</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">left</span><span class="RktPn">)</span><span class="RktPn">]</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">'</span><span class="RktSym">other-window-1</span><span class="RktPn">)</span><span class="RktMeta"></span></td></tr>
+     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;</span><span class="stt">(other-window (- arg)))</span></span></p></td></tr>
 
-    <tr>
+   <tr>
 
-     <td><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktSym">define-key</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">global-map</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktPn">[</span><span class="RktPn">(</span><span class="RktSym">control</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">right</span><span class="RktPn">)</span><span class="RktPn">]</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">'</span><span class="RktSym">other-window</span><span class="RktPn">)</span><span class="RktMeta"></span></td></tr></tbody></table></div>
+    <td>
+
+     <p><span class="stt"><span class="stt"></span></span><span class="hspace">&nbsp;</span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">(define-key global-map [(control left)] 'other-window-1)</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">(define-key global-map [(control right)] 'other-window)</span></span></p></td></tr></tbody></table>
 
 
  <p>One of my favorites, and I may be biased because I&rsquo;m using a
@@ -316,134 +384,194 @@ filesystem tree is deviantly different from "regular" nixen.</p>
 wherein the arrow keys are very easy to reach, but nevertheless, YMMV.</p>
 
 
- <div class="SCodeFlow">
+ <p></p>
 
-  <table cellspacing="0" class="RktBlk">
 
-   <tbody>
+ <table cellspacing="0">
 
-    <tr>
+  <tbody>
 
-     <td><span class="RktPn">(</span><span class="RktSym">defun</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">find-two-files</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktSym">orientation</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">directory</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">file1</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">file2</span><span class="RktPn">)</span><span class="RktMeta"></span></td></tr>
+   <tr>
 
-    <tr>
+    <td>
 
-     <td><span class="RktMeta"></span><span class="hspace">&nbsp;&nbsp;&nbsp;</span><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktSym">let</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktPn">(</span><span class="RktSym">file-path1</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktSym">file-truename</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">file1</span><span class="RktPn">)</span><span class="RktPn">)</span><span class="RktMeta"></span></td></tr>
+     <p><span class="stt"><span class="stt">(defun find-two-files (orientation directory file1 file2)</span></span></p></td></tr>
 
-    <tr>
+   <tr>
 
-     <td><span class="RktMeta"></span><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktSym">file-path2</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktSym">file-truename</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">file2</span><span class="RktPn">)</span><span class="RktPn">)</span><span class="RktPn">)</span><span class="RktMeta"></span></td></tr>
+    <td>
 
-    <tr>
+     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;</span><span class="stt">(let ((file-path1 (file-truename file1))</span></span></p></td></tr>
 
-     <td><span class="RktMeta"></span><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktSym">delete-other-windows</span><span class="RktPn">)</span><span class="RktMeta"></span></td></tr>
+   <tr>
 
-    <tr>
+    <td>
 
-     <td><span class="RktMeta">&#160;</span></td></tr>
+     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="stt">(file-path2 (file-truename file2)))</span></span></p></td></tr>
 
-    <tr>
+   <tr>
 
-     <td><span class="RktMeta"></span><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktSym">case</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">orientation</span><span class="RktMeta"></span></td></tr>
+    <td>
 
-    <tr>
+     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="stt">(delete-other-windows)</span></span></p></td></tr>
 
-     <td><span class="RktMeta"></span><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktSym">vertical</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktSym">progn</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktSym">split-window-right</span><span class="RktPn">)</span><span class="RktMeta"></span></td></tr>
+   <tr>
 
-    <tr>
+    <td>
 
-     <td><span class="RktMeta"></span><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktSym">find-file</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">file-path1</span><span class="RktPn">)</span><span class="RktMeta"></span></td></tr>
+     <p><span class="stt"><span class="stt"></span></span><span class="hspace">&nbsp;</span></p></td></tr>
 
-    <tr>
+   <tr>
 
-     <td><span class="RktMeta"></span><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktSym">other-window</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktVal">1</span><span class="RktPn">)</span><span class="RktMeta"></span></td></tr>
+    <td>
 
-    <tr>
+     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="stt">(case orientation</span></span></p></td></tr>
 
-     <td><span class="RktMeta"></span><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktSym">find-file</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">file-path2</span><span class="RktPn">)</span><span class="RktPn">)</span><span class="RktPn">)</span><span class="RktMeta"></span></td></tr>
+   <tr>
 
-    <tr>
+    <td>
 
-     <td><span class="RktMeta"></span><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktSym">horizontal</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktSym">progn</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktSym">split-window</span><span class="RktPn">)</span><span class="RktMeta"></span></td></tr>
+     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="stt">(vertical (progn (split-window-right)</span></span></p></td></tr>
 
-    <tr>
+   <tr>
 
-     <td><span class="RktMeta"></span><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktSym">find-file</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">file-path1</span><span class="RktPn">)</span><span class="RktMeta"></span></td></tr>
+    <td>
 
-    <tr>
+     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="stt">(find-file file-path1)</span></span></p></td></tr>
 
-     <td><span class="RktMeta"></span><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktSym">other-window</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktVal">1</span><span class="RktPn">)</span><span class="RktMeta"></span></td></tr>
+   <tr>
 
-    <tr>
+    <td>
 
-     <td><span class="RktMeta"></span><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktSym">find-file</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">file-path2</span><span class="RktPn">)</span><span class="RktPn">)</span><span class="RktPn">)</span><span class="RktMeta"></span></td></tr>
+     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="stt">(other-window 1)</span></span></p></td></tr>
 
-    <tr>
+   <tr>
 
-     <td><span class="RktMeta">&#160;</span></td></tr>
+    <td>
 
-    <tr>
+     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="stt">(find-file file-path2)))</span></span></p></td></tr>
 
-     <td><span class="RktMeta"></span><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktSym">other-window</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktVal">1</span><span class="RktPn">)</span><span class="RktPn">)</span><span class="RktPn">)</span><span class="RktPn">)</span><span class="RktMeta"></span></td></tr>
+   <tr>
 
-    <tr>
+    <td>
 
-     <td><span class="RktMeta">&#160;</span></td></tr>
+     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="stt">(horizontal (progn (split-window)</span></span></p></td></tr>
 
-    <tr>
+   <tr>
 
-     <td><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktSym">defun</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">find-two-files-vertically</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktSym">directory</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">file1</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">file2</span><span class="RktPn">)</span><span class="RktMeta"></span></td></tr>
+    <td>
 
-    <tr>
+     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="stt">(find-file file-path1)</span></span></p></td></tr>
 
-     <td><span class="RktMeta"></span><span class="hspace">&nbsp;&nbsp;</span><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktSym">find-two-files</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">'</span><span class="RktSym">vertical</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">directory</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">file1</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">file2</span><span class="RktPn">)</span><span class="RktPn">)</span><span class="RktMeta"></span></td></tr>
+   <tr>
 
-    <tr>
+    <td>
 
-     <td><span class="RktMeta">&#160;</span></td></tr>
+     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="stt">(other-window 1)</span></span></p></td></tr>
 
-    <tr>
+   <tr>
 
-     <td><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktSym">defun</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">find-two-files-horizontally</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktSym">directory</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">file1</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">file2</span><span class="RktPn">)</span><span class="RktMeta"></span></td></tr>
+    <td>
 
-    <tr>
+     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="stt">(find-file file-path2)))</span></span></p></td></tr>
 
-     <td><span class="RktMeta"></span><span class="hspace">&nbsp;&nbsp;</span><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktSym">find-two-files</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">'</span><span class="RktSym">horizontal</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">directory</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">file1</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">file2</span><span class="RktPn">)</span><span class="RktPn">)</span><span class="RktMeta"></span></td></tr></tbody></table></div>
+   <tr>
 
+    <td>
 
- <div class="SCodeFlow">
+     <p><span class="stt"><span class="stt"></span></span><span class="hspace">&nbsp;</span></p></td></tr>
 
-  <table cellspacing="0" class="RktBlk">
+   <tr>
 
-   <tbody>
+    <td>
 
-    <tr>
+     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="stt">(other-window 1))))</span></span></p></td></tr>
 
-     <td><span class="RktSym">ev</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktPn">)</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktPn">{</span><span class="RktMeta"></span></td></tr>
+   <tr>
 
-    <tr>
+    <td>
 
-     <td><span class="RktMeta"></span><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="RktMeta"></span><span class="RktSym">emacsclient</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym"><span class="nobreak">-n</span>w</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym"><span class="nobreak">--e</span>val</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktVal">"(find-two-files-vertically</span><span class="hspace">&nbsp;</span><span class="RktVal">\"$(pwd)\"</span><span class="hspace">&nbsp;</span><span class="RktVal">\"$1\"</span><span class="hspace">&nbsp;</span><span class="RktVal">\"$2\")"</span><span class="RktMeta"></span></td></tr>
+     <p><span class="stt"><span class="stt"></span></span><span class="hspace">&nbsp;</span></p></td></tr>
 
-    <tr>
+   <tr>
 
-     <td><span class="RktMeta"></span><span class="RktPn">}</span><span class="RktMeta"></span></td></tr>
+    <td>
 
-    <tr>
+     <p><span class="stt"><span class="stt">(defun find-two-files-vertically (directory file1 file2)</span></span></p></td></tr>
 
-     <td><span class="RktMeta">&#160;</span></td></tr>
+   <tr>
 
-    <tr>
+    <td>
 
-     <td><span class="RktMeta"></span><span class="RktSym">eh</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktPn">)</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktPn">{</span><span class="RktMeta"></span></td></tr>
+     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;</span><span class="stt">(find-two-files 'vertical directory file1 file2))</span></span></p></td></tr>
 
-    <tr>
+   <tr>
 
-     <td><span class="RktMeta"></span><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="RktMeta"></span><span class="RktSym">emacsclient</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym"><span class="nobreak">-n</span>w</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym"><span class="nobreak">--e</span>val</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktVal">"(find-two-files-horizontally</span><span class="hspace">&nbsp;</span><span class="RktVal">\"$(pwd)\"</span><span class="hspace">&nbsp;</span><span class="RktVal">\"$1\"</span><span class="hspace">&nbsp;</span><span class="RktVal">\"$2\")"</span><span class="RktMeta"></span></td></tr>
+    <td>
 
-    <tr>
+     <p><span class="stt"><span class="stt"></span></span><span class="hspace">&nbsp;</span></p></td></tr>
 
-     <td><span class="RktMeta"></span><span class="RktPn">}</span><span class="RktMeta"></span></td></tr></tbody></table></div>
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">(defun find-two-files-horizontally (directory file1 file2)</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;</span><span class="stt">(find-two-files 'horizontal directory file1 file2))</span></span></p></td></tr></tbody></table>
+
+
+ <p></p>
+
+
+ <table cellspacing="0">
+
+  <tbody>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">ev () {</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="stt">emacsclient -nw --eval "(find-two-files-vertically \"$(pwd)\" \"$1\" \"$2\")"</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">}</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt"></span></span><span class="hspace">&nbsp;</span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">eh () {</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="stt">emacsclient -nw --eval "(find-two-files-horizontally \"$(pwd)\" \"$1\" \"$2\")"</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">}</span></span></p></td></tr></tbody></table>
 
 
  <p>The two snippets above, for Elisp and Zsh (or your shell),
@@ -455,123 +583,169 @@ horizontally, and vertically, respectively.</p>
 horizontally, run:</p>
 
 
- <div class="SCodeFlow">
-
-  <table cellspacing="0" class="RktBlk">
-
-   <tbody>
-
-    <tr>
-
-     <td><span class="RktSym">$</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">ev</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">~/test1.txt</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">~/test2.txt</span><span class="RktMeta"></span></td></tr></tbody></table></div>
+ <p></p>
 
 
- <div class="SCodeFlow">
+ <table cellspacing="0">
 
-  <table cellspacing="0" class="RktBlk">
+  <tbody>
 
-   <tbody>
+   <tr>
 
-    <tr>
+    <td>
 
-     <td><span class="RktPn">(</span><span class="RktSym">require</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">'</span><span class="RktSym">server</span><span class="RktPn">)</span><span class="RktMeta"></span></td></tr>
+     <p><span class="stt"><span class="stt">$ ev ~/test1.txt ~/test2.txt</span></span></p></td></tr></tbody></table>
 
-    <tr>
 
-     <td><span class="RktMeta">&#160;</span></td></tr>
+ <p></p>
 
-    <tr>
 
-     <td><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktSym">unless</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktSym">server-running-p</span><span class="RktPn">)</span><span class="RktMeta"></span></td></tr>
+ <table cellspacing="0">
 
-    <tr>
+  <tbody>
 
-     <td><span class="RktMeta"></span><span class="hspace">&nbsp;&nbsp;&nbsp;</span><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktSym">server-start</span><span class="RktPn">)</span><span class="RktPn">)</span><span class="RktMeta"></span></td></tr></tbody></table></div>
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">(require 'server)</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt"></span></span><span class="hspace">&nbsp;</span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">(unless (server-running-p)</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;</span><span class="stt">(server-start))</span></span></p></td></tr></tbody></table>
 
 
  <p>This snippet runs the server instance, when it is not
 running, yet:</p>
 
 
- <div class="SCodeFlow">
+ <p></p>
 
-  <table cellspacing="0" class="RktBlk">
 
-   <tbody>
+ <table cellspacing="0">
 
-    <tr>
+  <tbody>
 
-     <td><span class="RktPn">(</span><span class="RktSym">defun</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">kill-current-buffer</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktPn">)</span><span class="RktMeta"></span></td></tr>
+   <tr>
 
-    <tr>
+    <td>
 
-     <td><span class="RktMeta"></span><span class="hspace">&nbsp;&nbsp;&nbsp;</span><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktSym">interactive</span><span class="RktPn">)</span><span class="RktMeta"></span></td></tr>
+     <p><span class="stt"><span class="stt">(defun kill-current-buffer ()</span></span></p></td></tr>
 
-    <tr>
+   <tr>
 
-     <td><span class="RktMeta"></span><span class="hspace">&nbsp;&nbsp;&nbsp;</span><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktSym">kill-buffer</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktSym">current-buffer</span><span class="RktPn">)</span><span class="RktPn">)</span><span class="RktPn">)</span><span class="RktMeta"></span></td></tr>
+    <td>
 
-    <tr>
+     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;</span><span class="stt">(interactive)</span></span></p></td></tr>
 
-     <td><span class="RktMeta">&#160;</span></td></tr>
+   <tr>
 
-    <tr>
+    <td>
 
-     <td><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktSym">define-key</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">global-map</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktPn">[</span><span class="RktPn">(</span><span class="RktSym">control</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">?x</span><span class="RktPn">)</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktSym">control</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">?k</span><span class="RktPn">)</span><span class="RktPn">]</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">'</span><span class="RktSym">kill-current-buffer</span><span class="RktPn">)</span><span class="RktMeta"></span></td></tr></tbody></table></div>
+     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;</span><span class="stt">(kill-buffer (current-buffer)))</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt"></span></span><span class="hspace">&nbsp;</span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">(define-key global-map [(control ?x) (control ?k)] 'kill-current-buffer)</span></span></p></td></tr></tbody></table>
 
 
  <p>A lot of us have this, but this is my simple, unconvoluted version</p>
 
 
- <div class="SCodeFlow">
+ <p></p>
 
-  <table cellspacing="0" class="RktBlk">
 
-   <tbody>
+ <table cellspacing="0">
 
-    <tr>
+  <tbody>
 
-     <td><span class="RktPn">(</span><span class="RktSym">defun</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">mark-line</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktSym">&amp;optional</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">arg</span><span class="RktPn">)</span><span class="RktMeta"></span></td></tr>
+   <tr>
 
-    <tr>
+    <td>
 
-     <td><span class="RktMeta"></span><span class="hspace">&nbsp;&nbsp;&nbsp;</span><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktSym">interactive</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktVal">"p"</span><span class="RktPn">)</span><span class="RktMeta"></span></td></tr>
+     <p><span class="stt"><span class="stt">(defun mark-line (&amp;optional arg)</span></span></p></td></tr>
 
-    <tr>
+   <tr>
 
-     <td><span class="RktMeta"></span><span class="hspace">&nbsp;&nbsp;&nbsp;</span><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktSym">if</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktSym">not</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">mark-active</span><span class="RktPn">)</span><span class="RktMeta"></span></td></tr>
+    <td>
 
-    <tr>
+     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;</span><span class="stt">(interactive "p")</span></span></p></td></tr>
 
-     <td><span class="RktMeta"></span><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktSym">progn</span><span class="RktMeta"></span></td></tr>
+   <tr>
 
-    <tr>
+    <td>
 
-     <td><span class="RktMeta"></span><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktSym">beginning-of-line</span><span class="RktPn">)</span><span class="RktMeta"></span></td></tr>
+     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;</span><span class="stt">(if (not mark-active)</span></span></p></td></tr>
 
-    <tr>
+   <tr>
 
-     <td><span class="RktMeta"></span><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktSym">push-mark</span><span class="RktPn">)</span><span class="RktMeta"></span></td></tr>
+    <td>
 
-    <tr>
+     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="stt">(progn</span></span></p></td></tr>
 
-     <td><span class="RktMeta"></span><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktSym">setq</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">mark-active</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">t</span><span class="RktPn">)</span><span class="RktPn">)</span><span class="RktPn">)</span><span class="RktMeta"></span></td></tr>
+   <tr>
 
-    <tr>
+    <td>
 
-     <td><span class="RktMeta"></span><span class="hspace">&nbsp;&nbsp;&nbsp;</span><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktSym">forward-line</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">arg</span><span class="RktPn">)</span><span class="RktPn">)</span><span class="RktMeta"></span></td></tr>
+     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="stt">(beginning-of-line)</span></span></p></td></tr>
 
-    <tr>
+   <tr>
 
-     <td><span class="RktMeta">&#160;</span></td></tr>
+    <td>
 
-    <tr>
+     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="stt">(push-mark)</span></span></p></td></tr>
 
-     <td><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktSym">define-key</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">global-map</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktPn">[</span><span class="RktPn">(</span><span class="RktSym">shift</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">?</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktPn">)</span><span class="RktPn">]</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">'</span><span class="RktSym">mark-line</span><span class="RktPn">)</span><span class="RktMeta"></span></td></tr>
+   <tr>
 
-    <tr>
+    <td>
 
-     <td><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktSym">define-key</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">global-map</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktPn">[</span><span class="RktPn">(</span><span class="RktSym">control</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">?z</span><span class="RktPn">)</span><span class="RktPn">]</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">'</span><span class="RktSym">mark-line</span><span class="RktPn">)</span><span class="RktMeta"></span></td></tr></tbody></table></div>
+     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="stt">(setq mark-active t)))</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;</span><span class="stt">(forward-line arg))</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt"></span></span><span class="hspace">&nbsp;</span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">(define-key global-map [(shift ? )] 'mark-line)</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">(define-key global-map [(control ?z)] 'mark-line)</span></span></p></td></tr></tbody></table>
 
 
  <p>There have been plenty of times in the past when I needed this

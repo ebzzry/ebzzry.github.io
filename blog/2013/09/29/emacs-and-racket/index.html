@@ -169,102 +169,144 @@ I&rsquo;m still not sure what are the hidden consequences of not doing it the
 to that location:</p>
 
 
- <div class="SCodeFlow">
+ <p></p>
 
-  <table cellspacing="0" class="RktBlk">
 
-   <tbody>
+ <table cellspacing="0">
 
-    <tr>
+  <tbody>
 
-     <td><span class="RktSym">mkdir</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">~/.emacs.d/elisp</span><span class="RktMeta"></span></td></tr>
+   <tr>
 
-    <tr>
+    <td>
 
-     <td><span class="RktMeta"></span><span class="RktSym">cd</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">~/.emacs.d/elisp</span><span class="RktMeta"></span></td></tr>
+     <p><span class="stt"><span class="stt">$ mkdir ~/.emacs.d/elisp</span></span></p></td></tr>
 
-    <tr>
+   <tr>
 
-     <td><span class="RktMeta"></span><span class="RktSym">git</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">clone</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">http://git.sv.gnu.org/r/geiser.git</span><span class="RktMeta"></span></td></tr></tbody></table></div>
+    <td>
+
+     <p><span class="stt"><span class="stt">$ cd ~/.emacs.d/elisp</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">$ git clone http://git.sv.gnu.org/r/geiser.git</span></span></p></td></tr></tbody></table>
 
 
  <p>After that, in <span class="RktSym">~/.emacs.d/elisp/geiser/</span><span class="RktMeta"></span>, you&rsquo;ll have something that
 looks like the following:</p>
 
 
- <div class="SCodeFlow">
+ <p></p>
 
-  <table cellspacing="0" class="RktBlk">
 
-   <tbody>
+ <table cellspacing="0">
 
-    <tr>
+  <tbody>
 
-     <td><span class="RktSym">AUTHORS</span><span class="RktMeta"></span></td></tr>
+   <tr>
 
-    <tr>
+    <td>
 
-     <td><span class="RktMeta"></span><span class="RktSym">autogen.sh*</span><span class="RktMeta"></span></td></tr>
+     <p><span class="stt"><span class="stt">AUTHORS</span></span></p></td></tr>
 
-    <tr>
+   <tr>
 
-     <td><span class="RktMeta"></span><span class="RktSym">bin/</span><span class="RktMeta"></span></td></tr>
+    <td>
 
-    <tr>
+     <p><span class="stt"><span class="stt">autogen.sh*</span></span></p></td></tr>
 
-     <td><span class="RktMeta"></span><span class="RktSym">ChangeLog</span><span class="RktMeta"></span></td></tr>
+   <tr>
 
-    <tr>
+    <td>
 
-     <td><span class="RktMeta"></span><span class="RktSym">configure.ac</span><span class="RktMeta"></span></td></tr>
+     <p><span class="stt"><span class="stt">bin/</span></span></p></td></tr>
 
-    <tr>
+   <tr>
 
-     <td><span class="RktMeta"></span><span class="RktSym">COPYING</span><span class="RktMeta"></span></td></tr>
+    <td>
 
-    <tr>
+     <p><span class="stt"><span class="stt">ChangeLog</span></span></p></td></tr>
 
-     <td><span class="RktMeta"></span><span class="RktSym">doc/</span><span class="RktMeta"></span></td></tr>
+   <tr>
 
-    <tr>
+    <td>
 
-     <td><span class="RktMeta"></span><span class="RktSym">elisp/</span><span class="RktMeta"></span></td></tr>
+     <p><span class="stt"><span class="stt">configure.ac</span></span></p></td></tr>
 
-    <tr>
+   <tr>
 
-     <td><span class="RktMeta"></span><span class="RktSym">.git/</span><span class="RktMeta"></span></td></tr>
+    <td>
 
-    <tr>
+     <p><span class="stt"><span class="stt">COPYING</span></span></p></td></tr>
 
-     <td><span class="RktMeta"></span><span class="RktSym">.gitignore</span><span class="RktMeta"></span></td></tr>
+   <tr>
 
-    <tr>
+    <td>
 
-     <td><span class="RktMeta"></span><span class="RktSym">INSTALL</span><span class="RktMeta"></span></td></tr>
+     <p><span class="stt"><span class="stt">doc/</span></span></p></td></tr>
 
-    <tr>
+   <tr>
 
-     <td><span class="RktMeta"></span><span class="RktSym">Makefile.am</span><span class="RktMeta"></span></td></tr>
+    <td>
 
-    <tr>
+     <p><span class="stt"><span class="stt">elisp/</span></span></p></td></tr>
 
-     <td><span class="RktMeta"></span><span class="RktSym">NEWS</span><span class="RktMeta"></span></td></tr>
+   <tr>
 
-    <tr>
+    <td>
 
-     <td><span class="RktMeta"></span><span class="RktSym">README</span><span class="RktMeta"></span></td></tr>
+     <p><span class="stt"><span class="stt">.git/</span></span></p></td></tr>
 
-    <tr>
+   <tr>
 
-     <td><span class="RktMeta"></span><span class="RktSym">README.elpa</span><span class="RktMeta"></span></td></tr>
+    <td>
 
-    <tr>
+     <p><span class="stt"><span class="stt">.gitignore</span></span></p></td></tr>
 
-     <td><span class="RktMeta"></span><span class="RktSym">scheme/</span><span class="RktMeta"></span></td></tr>
+   <tr>
 
-    <tr>
+    <td>
 
-     <td><span class="RktMeta"></span><span class="RktSym">THANKS</span><span class="RktMeta"></span></td></tr></tbody></table></div>
+     <p><span class="stt"><span class="stt">INSTALL</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">Makefile.am</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">NEWS</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">README</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">README.elpa</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">scheme/</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">THANKS</span></span></p></td></tr></tbody></table>
 
 
  <p>Next, we want the directory <span class="RktSym">~/.emacs.d/elisp/geiser/elisp/</span><span class="RktMeta"></span> to be a
@@ -274,53 +316,71 @@ Emacs init file &ndash; either in <span class="RktSym">~/.emacs.d/init.el</span>
 (deprecated):</p>
 
 
- <div class="SCodeFlow">
+ <p></p>
 
-  <table cellspacing="0" class="RktBlk">
 
-   <tbody>
+ <table cellspacing="0">
 
-    <tr>
+  <tbody>
 
-     <td><span class="RktPn">(</span><span class="RktSym">add-to-list</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">'</span><span class="RktSym">load-path</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktVal">"~/.emacs.d/elisp/geiser/elisp/"</span><span class="RktPn">)</span><span class="RktMeta"></span></td></tr></tbody></table></div>
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">(add-to-list 'load-path "~/.emacs.d/elisp/geiser/elisp/")</span></span></p></td></tr></tbody></table>
 
 
  <p>Next, we&rsquo;ll put in the actual code that invokes and configures Geiser:</p>
 
 
- <div class="SCodeFlow">
+ <p></p>
 
-  <table cellspacing="0" class="RktBlk">
 
-   <tbody>
+ <table cellspacing="0">
 
-    <tr>
+  <tbody>
 
-     <td><span class="RktPn">(</span><span class="RktSym">require</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">'</span><span class="RktSym">geiser</span><span class="RktPn">)</span><span class="RktMeta"></span></td></tr>
+   <tr>
 
-    <tr>
+    <td>
 
-     <td><span class="RktMeta">&#160;</span></td></tr>
+     <p><span class="stt"><span class="stt">(require 'geiser)</span></span></p></td></tr>
 
-    <tr>
+   <tr>
 
-     <td><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktSym">setq</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">geiser-active-implementations</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">'</span><span class="RktPn">(</span><span class="RktSym">racket</span><span class="RktPn">)</span><span class="RktPn">)</span><span class="RktMeta"></span></td></tr>
+    <td>
 
-    <tr>
+     <p><span class="stt"><span class="stt"></span></span><span class="hspace">&nbsp;</span></p></td></tr>
 
-     <td><span class="RktMeta">&#160;</span></td></tr>
+   <tr>
 
-    <tr>
+    <td>
 
-     <td><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktSym">defun</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">geiser-save</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktPn">)</span><span class="RktMeta"></span></td></tr>
+     <p><span class="stt"><span class="stt">(setq geiser-active-implementations '(racket))</span></span></p></td></tr>
 
-    <tr>
+   <tr>
 
-     <td><span class="RktMeta"></span><span class="hspace">&nbsp;&nbsp;</span><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktSym">interactive</span><span class="RktPn">)</span><span class="RktMeta"></span></td></tr>
+    <td>
 
-    <tr>
+     <p><span class="stt"><span class="stt"></span></span><span class="hspace">&nbsp;</span></p></td></tr>
 
-     <td><span class="RktMeta"></span><span class="hspace">&nbsp;&nbsp;</span><span class="RktMeta"></span><span class="RktPn">(</span><span class="RktSym">geiser-repl--write-input-ring</span><span class="RktPn">)</span><span class="RktPn">)</span><span class="RktMeta"></span></td></tr></tbody></table></div>
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">(defun geiser-save ()</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;</span><span class="stt">(interactive)</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;</span><span class="stt">(geiser-repl--write-input-ring))</span></span></p></td></tr></tbody></table>
 
 
  <p>The first expression loads Geiser, itself. The second one specifies that it
@@ -344,15 +404,18 @@ new Emacs process.</p>
 proper module declaration. Then hit:</p>
 
 
- <div class="SCodeFlow">
+ <p></p>
 
-  <table cellspacing="0" class="RktBlk">
 
-   <tbody>
+ <table cellspacing="0">
 
-    <tr>
+  <tbody>
 
-     <td><span class="RktSym">M-x</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">run-geiser</span><span class="RktMeta"></span></td></tr></tbody></table></div>
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">M-x run-geiser</span></span></p></td></tr></tbody></table>
 
 
  <p>And, boomshakalaka! A new (Emacs) window opens, containing the <span class="RktSym">*</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">Racket</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">REPL</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">*</span><span class="RktMeta"></span> buffer. Whatever you can do with the REPL invoked with vanilla

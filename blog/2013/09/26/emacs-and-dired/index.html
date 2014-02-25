@@ -129,53 +129,69 @@ dired buffers, to a certain extent.</p>
  <p>To run dired, run emacs on the command line, supplying a directory as its argument:</p>
 
 
- <div class="SCodeFlow">
-
-  <table cellspacing="0" class="RktBlk">
-
-   <tbody>
-
-    <tr>
-
-     <td><span class="RktSym">emacs</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">~/Desktop/</span><span class="RktMeta"></span></td></tr></tbody></table></div>
+ <p></p>
 
 
- <p>Or, alternatively, you can press <span class="RktSym">C-x</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">d</span><span class="RktMeta"></span> inside Emacs. If you are
+ <table cellspacing="0">
+
+  <tbody>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">emacs ~/Desktop/</span></span></p></td></tr></tbody></table>
+
+
+ <p>Or, alternatively, you can press <span class="stt">C-x d</span> inside Emacs. If you are
 currently editing a file, the directory of that file will be presented as the
-default value in the minibuffer area. Either way, when you hit <span class="RktSym">Enter</span><span class="RktMeta"></span>, a
+default value in the minibuffer area. Either way, when you hit <span class="stt">Enter</span>, a
 buffer of the directory will load, that looks like the output of
-<span class="RktSym">ls</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym"><span class="nobreak">-l</span></span><span class="RktMeta"></span>:</p>
+<span class="stt">ls -l</span>:</p>
 
 
- <div class="SCodeFlow">
+ <p></p>
 
-  <table cellspacing="0" class="RktBlk">
 
-   <tbody>
+ <table cellspacing="0">
 
-    <tr>
+  <tbody>
 
-     <td><span class="RktSym">/home/rmm/Desktop/foo:</span><span class="RktMeta"></span></td></tr>
+   <tr>
 
-    <tr>
+    <td>
 
-     <td><span class="RktMeta"></span><span class="RktSym">total</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">used</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">in</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">directory</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktVal">84</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">available</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktVal">540767396</span><span class="RktMeta"></span></td></tr>
+     <p><span class="stt"><span class="stt">/home/john/Desktop/foo:</span></span></p></td></tr>
 
-    <tr>
+   <tr>
 
-     <td><span class="RktMeta"></span><span class="RktSym"><span class="nobreak">-r</span>w-r--r--</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktVal">1</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">rmm</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">users</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktVal">5935</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">Sep</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktVal">27</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">18:17</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">index.html</span><span class="RktMeta"></span></td></tr>
+    <td>
 
-    <tr>
+     <p><span class="stt"><span class="stt">total used in directory 84 available 540767396</span></span></p></td></tr>
 
-     <td><span class="RktMeta"></span><span class="RktSym"><span class="nobreak">-r</span>w-r--r--</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktVal">1</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">rmm</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">users</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktVal">5944</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">Sep</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktVal">27</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">18:17</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">index2.html</span><span class="RktMeta"></span></td></tr>
+   <tr>
 
-    <tr>
+    <td>
 
-     <td><span class="RktMeta"></span><span class="RktSym">drwxr-xr-x</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktVal">3</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">rmm</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">users</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktVal">4096</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">Sep</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktVal">26</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">17:42</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">pics</span><span class="RktMeta"></span></td></tr>
+     <p><span class="stt"><span class="stt">-rw-r--r-- 1 john users 5935 Sep 27 18:17 index.html</span></span></p></td></tr>
 
-    <tr>
+   <tr>
 
-     <td><span class="RktMeta"></span><span class="RktSym">drwxr-xr-x</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktVal">3</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">rmm</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">users</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktVal">4096</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">Sep</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktVal">26</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">05:39</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">vids</span><span class="RktMeta"></span></td></tr></tbody></table></div>
+    <td>
+
+     <p><span class="stt"><span class="stt">-rw-r--r-- 1 john users 5944 Sep 27 18:17 index2.html</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">drwxr-xr-x 3 john users 4096 Sep 26 17:42 pics</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">drwxr-xr-x 3 john users 4096 Sep 26 05:39 vids</span></span></p></td></tr></tbody></table>
 
 
  <p>Okay, now that we have it, what can we do with it? Well, here is a short list
@@ -608,11 +624,11 @@ make use of marks. The <span style="font-weight: bold">w</span> command, however
  <p><span style="font-weight: bold">BUT</span>, one of the coolest, and often-overlooked feature of dired is the
 <span style="font-weight: bold">WDired</span> mode. What it does is that it gives you a decent ability to edit
 the item names in a dired buffer, just as you would on a typical buffer. To
-enter wdired mode, hit <span class="RktSym">M-x</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">wdired-change-to-wdired-mode</span><span class="RktMeta"></span>. The major mode
+enter wdired mode, hit <span class="stt">M-x wdired-change-to-wdired-mode</span>. The major mode
 changes from <span style="font-weight: bold"><span style="font-style: italic">Dired</span></span> to <span style="font-weight: bold"><span style="font-style: italic">Editable Dired</span></span>. You can then
 rename the files, and directories, with ease. You can even use rectangle and
 replace functions on them, to make things easier. The changes you have made at
-this point are not yet saved. To save the changes, press <span class="RktSym">C-c</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">C-c</span><span class="RktMeta"></span>.</p>
+this point are not yet saved. To save the changes, press <span class="stt">C-c C-c</span>.</p>
 
 
  <p>Well, that is it for now. Ciao!</p>

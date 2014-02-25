@@ -4,15 +4,23 @@
  <link rel="self" href="http://www.example.com/feeds/test.atom.xml" />
  <link href="http://www.example.com/tags/test.html" />
  <id>urn:http-www-example-com:-tags-test-html</id>
- <updated>2013-09-30T11:33:00Z</updated>
+ <updated>2014-02-22T12:57:06Z</updated>
  <entry>
-  <title type="text">sometitle -- foo</title>
-  <link rel="alternate" href="http://www.example.com/blog/2013/09/30/sometitle-foo/?utm_source=test&amp;utm_medium=Atom" />
-  <id>urn:http-www-example-com:-blog-2013-09-30-sometitle-foo</id>
-  <published>2013-09-30T11:33:00Z</published>
-  <updated>2013-09-30T11:33:00Z</updated>
+  <title type="text">test post</title>
+  <link rel="alternate" href="http://www.example.com/blog/2014/02/22/test-post/?utm_source=test&amp;utm_medium=Atom" />
+  <id>urn:http-www-example-com:-blog-2014-02-22-test-post</id>
+  <published>2014-02-22T12:57:06Z</published>
+  <updated>2014-02-22T12:57:06Z</updated>
   <author>
    <name>Rommel Martinez</name></author>
   <content type="html">
-&lt;html&gt;&lt;img src="http://www.example.com/img/1x1.gif?utm_source=test&amp;amp;utm_medium=Atom&amp;amp;utm_campaign=%2Fblog%2F2013%2F09%2F30%2Fsometitle-foo%2F" height="1" width="1" /&gt;
- &lt;p&gt;&lt;em&gt;Replace this with your post text. Add one or more comma-separated Tags above. The special tag &lt;code&gt;DRAFT&lt;/code&gt; will prevent the post from being published.&lt;/em&gt;&lt;/p&gt;&lt;/html&gt;</content></entry></feed>
+&lt;html&gt;&lt;img src="http://www.example.com/img/1x1.gif?utm_source=test&amp;amp;utm_medium=Atom&amp;amp;utm_campaign=%2Fblog%2F2014%2F02%2F22%2Ftest-post%2F" height="1" width="1" /&gt;
+ &lt;pre&gt;&lt;code&gt;    Title: New Blog Post
+    Date: 2014-02-21T18:53:42
+    Tags: DRAFT
+
+_Replace this with your post text. Add one or more comma-separated
+Tags above. The special tag `DRAFT` will prevent the post from being
+published._
+
+&amp;lt;!-- more --&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/html&gt;</content></entry></feed>

@@ -4,14 +4,22 @@
   <title>Live. Die. Live Again.: Posts tagged 'test'</title>
   <description>Live. Die. Live Again.: Posts tagged 'test'</description>
   <link>http://www.example.com/tags/test.html</link>
-  <lastBuildDate>Mon, 30 Sep 2013 11:33:00 PHT</lastBuildDate>
-  <pubDate>Mon, 30 Sep 2013 11:33:00 PHT</pubDate>
+  <lastBuildDate>Sat, 22 Feb 2014 12:57:06 PHT</lastBuildDate>
+  <pubDate>Sat, 22 Feb 2014 12:57:06 PHT</pubDate>
   <ttl>1800</ttl>
   <item>
-   <title>sometitle -- foo</title>
-   <link>http://www.example.com/blog/2013/09/30/sometitle-foo/?utm_source=test&amp;utm_medium=RSS</link>
-   <guid>urn:http-www-example-com:-blog-2013-09-30-sometitle-foo</guid>
-   <pubDate>Mon, 30 Sep 2013 11:33:00 PHT</pubDate>
+   <title>test post</title>
+   <link>http://www.example.com/blog/2014/02/22/test-post/?utm_source=test&amp;utm_medium=RSS</link>
+   <guid>urn:http-www-example-com:-blog-2014-02-22-test-post</guid>
+   <pubDate>Sat, 22 Feb 2014 12:57:06 PHT</pubDate>
    <description>
-&lt;html&gt;&lt;img src="http://www.example.com/img/1x1.gif?utm_source=test&amp;amp;utm_medium=RSS&amp;amp;utm_campaign=%2Fblog%2F2013%2F09%2F30%2Fsometitle-foo%2F" height="1" width="1" /&gt;
- &lt;p&gt;&lt;em&gt;Replace this with your post text. Add one or more comma-separated Tags above. The special tag &lt;code&gt;DRAFT&lt;/code&gt; will prevent the post from being published.&lt;/em&gt;&lt;/p&gt;&lt;/html&gt;</description></item></channel></rss>
+&lt;html&gt;&lt;img src="http://www.example.com/img/1x1.gif?utm_source=test&amp;amp;utm_medium=RSS&amp;amp;utm_campaign=%2Fblog%2F2014%2F02%2F22%2Ftest-post%2F" height="1" width="1" /&gt;
+ &lt;pre&gt;&lt;code&gt;    Title: New Blog Post
+    Date: 2014-02-21T18:53:42
+    Tags: DRAFT
+
+_Replace this with your post text. Add one or more comma-separated
+Tags above. The special tag `DRAFT` will prevent the post from being
+published._
+
+&amp;lt;!-- more --&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/html&gt;</description></item></channel></rss>
