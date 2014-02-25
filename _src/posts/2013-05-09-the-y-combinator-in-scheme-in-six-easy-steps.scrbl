@@ -19,15 +19,15 @@ elegant way, but it may work for you.
 
 <!-- more -->
 
-In the code examples in this post, the @code{>} symbol denotes the prompt
+In the code examples in this post, the @tt{>} symbol denotes the prompt
 symbol for your Scheme implementation.
 
-Let's start by defining a procedure named @code{sum0} that computes the
+Let's start by defining a procedure named @tt{sum0} that computes the
 @hyperlink["http://en.wikipedia.org/wiki/Summation" "summation"] of a positive
 integer, down to zero. In the following snippet, the recursive call happens
-when @code{sum0} is applied in the else part of the condition.
+when @tt{sum0} is applied in the else part of the condition.
 
-@codeblock{
+@verbatim{
 > (define sum0
     (lambda (n)
       (if (zero? n)
@@ -37,14 +37,14 @@ when @code{sum0} is applied in the else part of the condition.
 5050
 }
 
-You have have observed that I have defined @code{sum0} using an explicit
-@code{lambda}. You'll see shortly, why.
+You have have observed that I have defined @tt{sum0} using an explicit
+@tt{lambda}. You'll see shortly, why.
 
 Let's break that procedure futher, into more elementary components,
 and we'll apply it, using
 @hyperlink["https://en.wikipedia.org/wiki/Currying" "currying"].
 
-@codeblock{
+@verbatim{
 > (define sum0
     (lambda (f)
       (lambda (n)
@@ -55,16 +55,16 @@ and we'll apply it, using
 5050
 }
 
-The extra @code{lambda} was needed because we needed to have a way to
+The extra @tt{lambda} was needed because we needed to have a way to
 "anonymize" the recursive procedure. In this case, we used the
-identifier @code{f} to bind to the recursive procedure, which is @code{sum0},
-itself. The weird-looking @code{((f f) ...)} is needed, because we have to
-perform the same procedure invocation method used initially: @code{((sum0 sum0) 100)}.
+identifier @tt{f} to bind to the recursive procedure, which is @tt{sum0},
+itself. The weird-looking @tt{((f f) ...)} is needed, because we have to
+perform the same procedure invocation method used initially: @tt{((sum0 sum0) 100)}.
 
 We're now going to exploit that property, to use a "nameless"
-approach, that is, without using the @code{sum0} name.
+approach, that is, without using the @tt{sum0} name.
 
-@codeblock{
+@verbatim{
 > (((lambda (f)
       (lambda (n)
         (if (zero? n)
@@ -79,13 +79,13 @@ approach, that is, without using the @code{sum0} name.
 5050
 }
 
-Take note, that at this point, we're no longer using the @code{sum0} name,
+Take note, that at this point, we're no longer using the @tt{sum0} name,
 to refer the the definition, except for later.
 
-Next, we need to move the @code{(f f)} part outside, to isolate the general
-(Y combinator), from the specific (@code{sum0}) code.
+Next, we need to move the @tt{(f f)} part outside, to isolate the general
+(Y combinator), from the specific (@tt{sum0}) code.
 
-@codeblock{
+@verbatim{
 > (((lambda (f)
       ((lambda (p)
          (lambda (n)
@@ -104,14 +104,14 @@ Next, we need to move the @code{(f f)} part outside, to isolate the general
 5050
 }
 
-During the procedure application, the identifier @code{p} will be bound to
-@code{(lambda (v) ((f f) v))}, and the identifier @code{v} will be bound to @code{(-
+During the procedure application, the identifier @tt{p} will be bound to
+@tt{(lambda (v) ((f f) v))}, and the identifier @tt{v} will be bound to @tt{(-
 n 1)}.
 
-Finally, we're going to isolate the Y combinator, from the @code{sum0}
+Finally, we're going to isolate the Y combinator, from the @tt{sum0}
 procedure.
 
-@codeblock{
+@verbatim{
 > (((lambda (x)
       ((lambda (f)
          (x (lambda (v) ((f f) v))))
@@ -126,14 +126,14 @@ procedure.
 5050
 }
 
-We replace the @code{sum0}-specific definition with @code{x}. This requires us
-again, to create an enveloping @code{lambda}. Since @code{x} is bound to the
+We replace the @tt{sum0}-specific definition with @tt{x}. This requires us
+again, to create an enveloping @tt{lambda}. Since @tt{x} is bound to the
 computing procedure, we no longer need to repeat it.
 
 Optionally, we can explicitly create separate procedure definitions for
-the Y combinator itself, and the @code{sum0} procedure.
+the Y combinator itself, and the @tt{sum0} procedure.
 
-@codeblock{
+@verbatim{
 > (define y
     (lambda (x)
       ((lambda (f)
