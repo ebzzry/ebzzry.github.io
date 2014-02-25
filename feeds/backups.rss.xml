@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<rss version="2.0">
+ <channel>
+  <title>Live. Die. Live Again.: Posts tagged 'backups'</title>
+  <description>Live. Die. Live Again.: Posts tagged 'backups'</description>
+  <link>http://www.example.com/tags/backups.html</link>
+  <lastBuildDate>Fri, 21 Feb 2014 12:07:18 PHT</lastBuildDate>
+  <pubDate>Fri, 21 Feb 2014 12:07:18 PHT</pubDate>
+  <ttl>1800</ttl>
+  <item>
+   <title>An Introduction to Ugarit</title>
+   <link>http://www.example.com/blog/2014/02/21/an-introduction-to-ugarit/?utm_source=backups&amp;utm_medium=RSS</link>
+   <guid>urn:http-www-example-com:-blog-2014-02-21-an-introduction-to-ugarit</guid>
+   <pubDate>Fri, 21 Feb 2014 12:07:18 PHT</pubDate>
+   <description>
+&lt;html&gt;&lt;img src="http://www.example.com/img/1x1.gif?utm_source=backups&amp;amp;utm_medium=RSS&amp;amp;utm_campaign=%2Fblog%2F2014%2F02%2F21%2Fan-introduction-to-ugarit%2F" height="1" width="1" /&gt;
+ &lt;p&gt;Replace this with your post text. Add one or more comma-separated
+Tags above. The special tag &amp;lsquo;DRAFT&amp;lsquo; will prevent the post from being
+published.&lt;/p&gt;
+ &lt;h1&gt;1
+  &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Introduction)"&gt;&lt;/a&gt;Introduction&lt;/h1&gt;
+ &lt;h1&gt;2
+  &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Installation)"&gt;&lt;/a&gt;Installation&lt;/h1&gt;
+ &lt;h1&gt;3
+  &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Configuration)"&gt;&lt;/a&gt;Configuration&lt;/h1&gt;
+ &lt;h1&gt;4
+  &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Basic_.Usage)"&gt;&lt;/a&gt;Basic Usage&lt;/h1&gt;
+ &lt;h1&gt;5
+  &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Advanced_.Usage)"&gt;&lt;/a&gt;Advanced Usage&lt;/h1&gt;
+ &lt;h1&gt;6
+  &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Tips)"&gt;&lt;/a&gt;Tips&lt;/h1&gt;
+ &lt;h1&gt;7
+  &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Notes)"&gt;&lt;/a&gt;Notes&lt;/h1&gt;&lt;/html&gt;</description></item></channel></rss>

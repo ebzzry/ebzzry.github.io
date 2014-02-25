@@ -4,15 +4,14 @@
 
     <meta charset="utf-8">
     <title>An Introduction To Frog</title>
-    <meta name="description" content="THIS IS A DRAFT. When publishing blog content to the web, most would rely on pre-fabricated
-services, that do most of the heavy lifting. That is fine, and that is the
-choice that some choose. However, there are instances when we want to have more
-control over our stuff. There are also reasons not to choose them. A good
-example of which are the constraints that providers enforce. Another is the
-presence of ads, or the use of freemium services, i.e., things can be done,
-only up to a certain visible limit. One may argue that all they need is a platform to blog with, and that they
-don't need the extra flexibility - a valid point. But some of us, including
-me, want to free from these shackles. I don't want ads on my site. I don't want
+    <meta name="description" content="When publishing blog content to the web, most would rely on pre-fabricated
+services, that do most of the heavy lifting. However, there are instances when
+we want to have more control over our stuff. A good example of which are the
+constraints that providers enforce. Another is the presence of ads, or the use
+of freemium services, i.e., things can be done, only up to a certain visible
+limit. One may argue that all they need is a platform to blog with, and that they
+don't need the extra flexibility. While that is fine, some of us, including me,
+want to free from these shackles. I don't want ads on my site. I don't want
 surprise censorship. I don't want to pay for services that I can get for
 free. I want freedom. Now, if you're like me, then read on. ...">
     <meta name="author"      content="Rommel Martinez">
@@ -120,21 +119,17 @@ free. I want freedom. Now, if you're like me, then read on. ...">
   </header>
 
 
- <p><span style="font-style: italic">THIS IS A DRAFT.</span></p>
-
-
  <p>When publishing blog content to the web, most would rely on pre-fabricated
-services, that do most of the heavy lifting. That is fine, and that is the
-choice that some choose. However, there are instances when we want to have more
-control over our stuff. There are also reasons not to choose them. A good
-example of which are the constraints that providers enforce. Another is the
-presence of ads, or the use of freemium services, i.e., things can be done,
-only up to a certain visible limit.</p>
+services, that do most of the heavy lifting. However, there are instances when
+we want to have more control over our stuff. A good example of which are the
+constraints that providers enforce. Another is the presence of ads, or the use
+of freemium services, i.e., things can be done, only up to a certain visible
+limit.</p>
 
 
  <p>One may argue that all they need is a platform to blog with, and that they
-don&rsquo;t need the extra flexibility &ndash; a valid point. But some of us, including
-me, want to free from these shackles. I don&rsquo;t want ads on my site. I don&rsquo;t want
+don&rsquo;t need the extra flexibility. While that is fine, some of us, including me,
+want to free from these shackles. I don&rsquo;t want ads on my site. I don&rsquo;t want
 surprise censorship. I don&rsquo;t want to pay for services that I can get for
 free. I want freedom. Now, if you&rsquo;re like me, then read on.</p>
 
@@ -148,34 +143,38 @@ free. I want freedom. Now, if you&rsquo;re like me, then read on.</p>
 most of the mainstream options. Some are the just too difficult to setup, while
 some are lacking in features. I became frustrated because each end of the
 spectrum forces me to use something that is extremely mediocre in at least one
-critical aspect. Fortunately, I found Frog, from a suggestion on #racket.</p>
+critical aspect. Fortunately, I found
+<a href="http://github.com/greghendershott/frog">Frog</a>, via a suggestion
+on #racket.</p>
 
 
- <p>Frog, in layman&rsquo;s terms, is a site creator, that is very easy to use, and
-configure. Its primary strengths are 1) ease of use, and 2)
-customizability. Frog does not make use cloud-based site-creator
-services. Whatever you write, will appear on your blog &ndash; you get what you
-expect. There are no weird terms of use, nor limits, nor coercion. It&rsquo;s
-control, at the tip of your fingertips.</p>
+ <p>Frog, in layman&rsquo;s terms, is a site creator, that is very easy to use,
+configure, and customize. Whatever you write, will appear on your blog &ndash; you
+get what you expect. There are no weird terms of use, nor arbitrary limits, nor
+coercion &ndash; it&rsquo;s very close to full control, at the tip of your fingertips.</p>
 
 
  <p>Frog operates somewhere in the middle. That is, it looks like this:</p>
 
 
- <div class="SCodeFlow">
-
-  <table cellspacing="0" class="RktBlk">
-
-   <tbody>
-
-    <tr>
-
-     <td><span class="RktSym">Content</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym"><span class="nobreak">-&gt;</span></span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">Frog</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym"><span class="nobreak">-&gt;</span></span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">HTML</span><span class="RktMeta"></span></td></tr></tbody></table></div>
+ <p></p>
 
 
- <p>Where content is either Markdown, or Scribble source files, or a combination of
-both. Frog takes in those input files, and it outputs nice HTML that you can
-upload to your web server. Easy? No, it&rsquo;s even easier that it sounds.</p>
+ <table cellspacing="0">
+
+  <tbody>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">Raw content -&gt; Frog -&gt; HTML</span></span></p></td></tr></tbody></table>
+
+
+ <p>Where raw content is either Markdown, Scribble, or HTML source files, or a
+combination of all. Frog takes in those input files, and it outputs nice HTML
+that you can upload to your web server. Easy? No, it&rsquo;s even easier that it
+sounds.</p>
 
 
  <h1>2
@@ -183,37 +182,65 @@ upload to your web server. Easy? No, it&rsquo;s even easier that it sounds.</p>
   <tt>&nbsp;</tt><a name="(part._.Installation)"></a>Installation</h1>
 
 
- <p>To install Frog, we need to install Racket first. Chances are, your package
-manager already has it:</p>
+ <p>In the succeeding sections, let&rsquo;s presume that your username is
+<span class="stt">john</span>, and your home directory is <span class="stt">/home/john/</span>.</p>
 
 
- <div class="SCodeFlow">
+ <p>To install Frog, we need to install Racket, first. Chances are, your package
+manager already has it. To install Racket on Debian, run:</p>
 
-  <table cellspacing="0" class="RktBlk">
 
-   <tbody>
+ <p></p>
 
-    <tr>
 
-     <td><span class="RktSym">$</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">sudo</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">apt-get</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">install</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">racket</span><span class="RktMeta"></span></td></tr></tbody></table></div>
+ <table cellspacing="0">
+
+  <tbody>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">$ sudo apt-get install racket</span></span></p></td></tr></tbody></table>
 
 
  <p>In the unlikely event that it can&rsquo;t be installed using your package manager, go
-to <a href="http://racket-lang.org/download/">http://racket-lang.org/download/</a>, then follow the instructions from there.</p>
+to <a href="http://racket-lang.org/download/">racket-lang.org/download/</a>, then follow the instructions from there.</p>
 
 
  <p>Next, we need to install Frog.</p>
 
 
- <div class="SCodeFlow">
+ <p></p>
 
-  <table cellspacing="0" class="RktBlk">
 
-   <tbody>
+ <table cellspacing="0">
 
-    <tr>
+  <tbody>
 
-     <td><span class="RktSym">$</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">raco</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">pkg</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">install</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">frog</span><span class="RktMeta"></span></td></tr></tbody></table></div>
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">$ raco pkg install frog</span></span></p></td></tr></tbody></table>
+
+
+ <p>After which, you&rsquo;ll get the <span class="stt">raco frog</span> command. Let&rsquo;s display its help
+options:</p>
+
+
+ <p></p>
+
+
+ <table cellspacing="0">
+
+  <tbody>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">$ raco frog -h</span></span></p></td></tr></tbody></table>
 
 
  <h1>3
@@ -222,61 +249,70 @@ to <a href="http://racket-lang.org/download/">http://racket-lang.org/download/</
 
 
  <p>Sweet. Now that we have Frog installed, let&rsquo;s get rolling. To create your first
-Frog-powered website, we&rsquo;ll create a project directory first, to keep things
-organized:</p>
+Frog-powered website, we&rsquo;ll create a project directory first:</p>
 
 
- <div class="SCodeFlow">
+ <p></p>
 
-  <table cellspacing="0" class="RktBlk">
 
-   <tbody>
+ <table cellspacing="0">
 
-    <tr>
+  <tbody>
 
-     <td><span class="RktSym">$</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">mkdir</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">blog</span><span class="RktMeta"></span></td></tr>
+   <tr>
 
-    <tr>
+    <td>
 
-     <td><span class="RktMeta"></span><span class="RktSym">$</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">cd</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">blog</span><span class="RktMeta"></span></td></tr></tbody></table></div>
+     <p><span class="stt"><span class="stt">$ mkdir blog</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">$ cd blog</span></span></p></td></tr></tbody></table>
 
 
  <p>We&rsquo;ll then fire the spark plug, to initialize the site repository:</p>
 
 
- <div class="SCodeFlow">
+ <p></p>
 
-  <table cellspacing="0" class="RktBlk">
 
-   <tbody>
+ <table cellspacing="0">
 
-    <tr>
+  <tbody>
 
-     <td><span class="RktSym">$</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">raco</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">frog</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym"><span class="nobreak">--i</span>nit</span><span class="RktMeta"></span></td></tr></tbody></table></div>
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">$ raco frog --init</span></span></p></td></tr></tbody></table>
 
 
  <p>You&rsquo;ll see a message saying that your website is ready. Let&rsquo;s follow the
-suggested command, while <span style="font-weight: bold">inside</span> the directory <span class="RktSym">blog/</span><span class="RktMeta"></span>:</p>
+suggested command:</p>
 
 
- <div class="SCodeFlow">
+ <p></p>
 
-  <table cellspacing="0" class="RktBlk">
 
-   <tbody>
+ <table cellspacing="0">
 
-    <tr>
+  <tbody>
 
-     <td><span class="RktSym">$</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">raco</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">frog</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym"><span class="nobreak">-b</span>p</span><span class="RktMeta"></span></td></tr></tbody></table></div>
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">$ raco frog -bp</span></span></p></td></tr></tbody></table>
 
 
  <p>What that command does is that it builds the HTML files from the sample source
-files created with <span class="RktSym"><span class="nobreak">--i</span>nit</span><span class="RktMeta"></span>, then it runs a local web server, serving by
-default, the location http://localhost:3000. Frog will then open a new browser
-tab, or window, pointing to that URL. The page that you&rsquo;ll see contains the
-default site layout. When you&rsquo;re OK with it, let&rsquo;s go back to the terminal, and
-kill that process by hitting
-<span class="RktSym">C-c</span><span class="RktMeta"></span>:</p>
+files created with the <span class="stt"></span><span class="stt">&ndash;</span><span class="stt">init</span> switch, then it runs a local web server,
+serving by default, the location http://localhost:3000. Frog will then open a
+new browser tab, or window, pointing to that URL. The page that you&rsquo;ll see
+contains the default site layout. When you&rsquo;re OK with it, let&rsquo;s go back to the
+terminal, and kill that process by hitting <span class="stt">C-c</span>.</p>
 
 
  <h1>4
@@ -287,206 +323,275 @@ kill that process by hitting
  <p>Creating a new article from scratch is another easy task:</p>
 
 
- <div class="SCodeFlow">
-
-  <table cellspacing="0" class="RktBlk">
-
-   <tbody>
-
-    <tr>
-
-     <td><span class="RktSym">$</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">raco</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">frog</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym"><span class="nobreak">-n</span></span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktVal">"New</span><span class="hspace">&nbsp;</span><span class="RktVal">Blog</span><span class="hspace">&nbsp;</span><span class="RktVal">Post."</span><span class="RktMeta"></span></td></tr></tbody></table></div>
+ <p></p>
 
 
- <p>What it does is that it creates a markdown file, relative to the current
-directory, with the format <span class="RktVar">src/posts/YYYY-MM-DD-post-title.md</span><span class="RktMeta"></span>. With the
+ <table cellspacing="0">
+
+  <tbody>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">$ raco frog -n "New Blog Post."</span></span></p></td></tr></tbody></table>
+
+
+ <p>What it does is that it creates a Markdown file, relative to the current
+directory, with the format <span class="stt">_src/posts/YYYY-MM-DD-post-title.md</span>. With the
 command above, the absolute path would be similar to:</p>
 
 
- <div class="SCodeFlow">
+ <p></p>
 
-  <table cellspacing="0" class="RktBlk">
 
-   <tbody>
+ <table cellspacing="0">
 
-    <tr>
+  <tbody>
 
-     <td><span class="RktSym">/home/john/blog/_src/posts/2014-02-21-new-blog-post.md</span><span class="RktMeta"></span></td></tr></tbody></table></div>
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">/home/john/blog/_src/posts/2014-02-21-new-blog-post.md</span></span></p></td></tr></tbody></table>
 
 
  <p>Let&rsquo;s edit that file, and see how it looks like:</p>
 
 
- <div class="SCodeFlow">
-
-  <table cellspacing="0" class="RktBlk">
-
-   <tbody>
-
-    <tr>
-
-     <td><span class="RktSym">emacs</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktVar">src/posts/2014-02-21-new-blog-post.md</span><span class="RktMeta"></span></td></tr></tbody></table></div>
+ <p></p>
 
 
- <div class="SCodeFlow">
+ <table cellspacing="0">
 
-  <table cellspacing="0" class="RktBlk">
+  <tbody>
 
-   <tbody>
+   <tr>
 
-    <tr>
+    <td>
 
-     <td><span class="RktMeta"></span><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="RktMeta"></span><span class="RktSym">Title:</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">New</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">Blog</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">Post</span><span class="RktMeta"></span></td></tr>
-
-    <tr>
-
-     <td><span class="RktMeta"></span><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="RktMeta"></span><span class="RktSym">Date:</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">2014-02-21T18:53:42</span><span class="RktMeta"></span></td></tr>
-
-    <tr>
-
-     <td><span class="RktMeta"></span><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="RktMeta"></span><span class="RktSym">Tags:</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">DRAFT</span><span class="RktMeta"></span></td></tr>
-
-    <tr>
-
-     <td><span class="RktMeta">&#160;</span></td></tr>
-
-    <tr>
-
-     <td><span class="RktMeta"></span><span class="RktVar">Replace</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">this</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">with</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">your</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">post</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">text.</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">Add</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">one</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">or</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">more</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">comma-separated</span><span class="RktMeta"></span></td></tr>
-
-    <tr>
-
-     <td><span class="RktMeta"></span><span class="RktSym">Tags</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">above.</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">The</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">special</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">tag</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">`</span><span class="RktSym">DRAFT</span><span class="RktSym">`</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">will</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">prevent</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">the</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">post</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">from</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">being</span><span class="RktMeta"></span></td></tr>
-
-    <tr>
-
-     <td><span class="RktMeta"></span><span class="RktSym">published._</span><span class="RktMeta"></span></td></tr>
-
-    <tr>
-
-     <td><span class="RktMeta">&#160;</span></td></tr>
-
-    <tr>
-
-     <td><span class="RktMeta"></span><span class="RktSym">&lt;!--</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">more</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym"><span class="nobreak">--&gt;</span></span><span class="RktMeta"></span></td></tr></tbody></table></div>
+     <p><span class="stt"><span class="stt">$ emacs _src/posts/2014-02-21-new-blog-post.md</span></span></p></td></tr></tbody></table>
 
 
- <p>Bear in mind that this file, was created for us, by the command <span class="RktSym">frog</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym"><span class="nobreak">-n</span></span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">...</span><span class="RktMeta"></span>. The first three lines contains metadata about our post. They&rsquo;re the post
-title, date of creation, and tags, respectively. The date was picked up from
-the the <span class="RktSym"><span class="nobreak">-n</span></span><span class="RktMeta"></span> command was issued. The <span style="font-style: italic">Tags</span> section, contains a
-comma-separated list of words, that would later identify the post with. When
-the tag <span style="font-style: italic">DRAFT</span> is used, no HTML files would be built, when the source
-files will be compiled to HTML, later.</p>
+ <p></p>
 
 
- <p>Four spaces <span style="font-weight: bold">MUST</span> be prefixed, prior, to those three lines, followed by
-an empty line. The rest will be the actual article content, in Markdown
-format. When a line by its own contain just the text <span class="RktSym">&lt;!--</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">more</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym"><span class="nobreak">--&gt;</span></span><span class="RktMeta"></span>, that
-line will be replaced by a hyperlink in the final HTML form, that will point to
-the rest of the article. That means, all text, <span style="font-weight: bold">after</span> <span class="RktSym">&lt;!--</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">more</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym"><span class="nobreak">--&gt;</span></span><span class="RktMeta"></span>, will not appear in the blog index, but will appear in the link for the
-whole post.</p>
+ <table cellspacing="0">
+
+  <tbody>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">#lang scribble/text</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="stt">Title: New Blog Post</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="stt">Date: 2014-02-21T18:53:42</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="stt">Tags: DRAFT</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt"></span></span><span class="hspace">&nbsp;</span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">_Replace this with your post text. Add one or more comma-separated</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">Tags above. The special tag `DRAFT` will prevent the post from being</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">published._</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt"></span></span><span class="hspace">&nbsp;</span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">&lt;!-- more --&gt;</span></span></p></td></tr></tbody></table>
+
+
+ <p>Bear in mind that this file, was created for us, by the command <span class="stt">raco frog
+-n ...</span>. The first three lines contains metadata about our post. They&rsquo;re the
+post title, date of creation, and tags, respectively. The date was picked up
+from the the <span class="stt">-n</span> switch that was issued, earlier. The <span style="font-style: italic">Tags</span> field,
+contains a comma-separated list of words, that Frog would later identify the
+post with. When the case-sensitive tag <span style="font-style: italic">DRAFT</span> is used, the file will be
+skipped during the build phase.</p>
+
+
+ <p>Four spaces must be prefixed, prior, to those three lines, followed by an empty
+line. The rest will be the actual article content, in Markdown format. When a
+line by its own contain just the text <span class="stt">&lt;!</span><span class="stt">&ndash;</span><span class="stt"> more </span><span class="stt">&ndash;</span><span class="stt">&gt;</span>, that line will be
+replaced by a hyperlink in the final HTML form, that will point to the rest of
+the article. That means, all text, after the <span class="stt">&lt;!</span><span class="stt">&ndash;</span><span class="stt"> more </span><span class="stt">&ndash;</span><span class="stt">&gt;</span> line will not
+appear in the blog index, but will appear in the link for the whole post.</p>
 
 
  <p>Let&rsquo;s say we change that file to look something like the following:</p>
 
 
- <div class="SCodeFlow">
-
-  <table cellspacing="0" class="RktBlk">
-
-   <tbody>
-
-    <tr>
-
-     <td><span class="RktMeta"></span><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="RktMeta"></span><span class="RktSym">Title:</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">New</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">Blog</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">Post</span><span class="RktMeta"></span></td></tr>
-
-    <tr>
-
-     <td><span class="RktMeta"></span><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="RktMeta"></span><span class="RktSym">Date:</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">2014-02-21T18:53:42</span><span class="RktMeta"></span></td></tr>
-
-    <tr>
-
-     <td><span class="RktMeta"></span><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="RktMeta"></span><span class="RktSym">Tags:</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">arts</span><span class="RktSym">,</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">history</span><span class="RktMeta"></span></td></tr>
-
-    <tr>
-
-     <td><span class="RktMeta">&#160;</span></td></tr>
-
-    <tr>
-
-     <td><span class="RktMeta"></span><span class="RktSym">Lorem</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">ipsum</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">dolor</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">sit</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">amet</span><span class="RktSym">,</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">consectetuer</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">adipiscing</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">elit.</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">Donec</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">odio.</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">Quisque</span><span class="RktMeta"></span></td></tr>
-
-    <tr>
-
-     <td><span class="RktMeta"></span><span class="RktSym">volutpat</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">mattis</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">eros.</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">Nullam</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">malesuada</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">erat</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">ut</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">turpis.</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">Suspendisse</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">urna</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">nibh</span><span class="RktSym">,</span><span class="RktMeta"></span></td></tr>
-
-    <tr>
-
-     <td><span class="RktMeta"></span><span class="RktSym">viverra</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">non</span><span class="RktSym">,</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">semper</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">suscipit</span><span class="RktSym">,</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">posuere</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">a</span><span class="RktSym">,</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">pede.</span><span class="RktMeta"></span></td></tr>
-
-    <tr>
-
-     <td><span class="RktMeta">&#160;</span></td></tr>
-
-    <tr>
-
-     <td><span class="RktMeta"></span><span class="RktSym">&lt;!--</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">more</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym"><span class="nobreak">--&gt;</span></span><span class="RktMeta"></span></td></tr>
-
-    <tr>
-
-     <td><span class="RktMeta">&#160;</span></td></tr>
-
-    <tr>
-
-     <td><span class="RktMeta"></span><span class="RktSym">Donec</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">nec</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">justo</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">eget</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">felis</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">facilisis</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">fermentum.</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">Aliquam</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">porttitor</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">mauris</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">sit</span><span class="RktMeta"></span></td></tr>
-
-    <tr>
-
-     <td><span class="RktMeta"></span><span class="RktSym">amet</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">orci.</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">Aenean</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">dignissim</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">pellentesque</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">felis.</span><span class="RktMeta"></span></td></tr>
-
-    <tr>
-
-     <td><span class="RktMeta">&#160;</span></td></tr>
-
-    <tr>
-
-     <td><span class="RktMeta"></span><span class="RktSym">Morbi</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">in</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">sem</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">quis</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">dui</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">placerat</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">ornare.</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">Pellentesque</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">odio</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">nisi</span><span class="RktSym">,</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">euismod</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">in</span><span class="RktSym">,</span><span class="RktMeta"></span></td></tr>
-
-    <tr>
-
-     <td><span class="RktMeta"></span><span class="RktSym">pharetra</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">a</span><span class="RktSym">,</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">ultricies</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">in</span><span class="RktSym">,</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">diam.</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">Sed</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">arcu.</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">Cras</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">consequat.</span><span class="RktMeta"></span></td></tr></tbody></table></div>
+ <p></p>
 
 
- <p>You may now remove the auto-generated initial post, that was created by the
-command <span class="RktSym">raco</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">frog</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym"><span class="nobreak">--i</span>nit</span><span class="RktMeta"></span> above:</p>
+ <table cellspacing="0">
 
+  <tbody>
 
- <div class="SCodeFlow">
+   <tr>
 
-  <table cellspacing="0" class="RktBlk">
+    <td>
 
-   <tbody>
+     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="stt">Title: New Blog Post</span></span></p></td></tr>
 
-    <tr>
+   <tr>
 
-     <td><span class="RktSym">$</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">rm</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym"><span class="nobreak">-f</span></span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktVar">src/posts/2012-01-01-a-2012-blog-post.md</span><span class="RktMeta"></span></td></tr></tbody></table></div>
+    <td>
+
+     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="stt">Date: 2014-02-21T18:53:42</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="stt">Tags: arts, history</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt"></span></span><span class="hspace">&nbsp;</span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh,</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">viverra non, semper suscipit, posuere a, pede.</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt"></span></span><span class="hspace">&nbsp;</span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">&lt;!-- more --&gt;</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt"></span></span><span class="hspace">&nbsp;</span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">amet orci. Aenean dignissim pellentesque felis.</span></span></p></td></tr></tbody></table>
 
 
  <p>Then, run the build command, again:</p>
 
 
- <div class="SCodeFlow">
-
-  <table cellspacing="0" class="RktBlk">
-
-   <tbody>
-
-    <tr>
-
-     <td><span class="RktSym">$</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">raco</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">frog</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym"><span class="nobreak">-b</span>p</span><span class="RktMeta"></span></td></tr></tbody></table></div>
+ <p></p>
 
 
- <p>Looks nice? Good. :-)</p>
+ <table cellspacing="0">
+
+  <tbody>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">$ raco frog -bp</span></span></p></td></tr></tbody></table>
+
+
+ <p>We now have two posts, as displayed in the index. To remove the auto-generated
+initial post, that was created by the command <span class="stt">raco frog </span><span class="stt">&ndash;</span><span class="stt">init</span>, earlier,
+run:</p>
+
+
+ <p></p>
+
+
+ <table cellspacing="0">
+
+  <tbody>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">$ rm -f _src/posts/2012-01-01-a-2012-blog-post.md</span></span></p></td></tr></tbody></table>
+
+
+ <p>Then, rebuild the files:</p>
+
+
+ <p></p>
+
+
+ <table cellspacing="0">
+
+  <tbody>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">$ raco frog -bp</span></span></p></td></tr></tbody></table>
 
 
  <h1>5
@@ -502,31 +607,30 @@ we&rsquo;re going to do in this section.</p>
 our initial changes:</p>
 
 
- <div class="SCodeFlow">
+ <ul>
 
-  <table cellspacing="0" class="RktBlk">
+  <li>
 
-   <tbody>
+   <p>.frogrc</p></li>
 
-    <tr>
+  <li>
 
-     <td><span class="RktSym">.frogrc</span><span class="RktMeta"></span></td></tr>
+   <p>_src/page-template.html</p></li>
 
-    <tr>
+  <li>
 
-     <td><span class="RktMeta"></span><span class="RktVar">src/page-template.html</span><span class="RktMeta"></span></td></tr>
+   <p>_src/post-template.html</p></li>
 
-    <tr>
+  <li>
 
-     <td><span class="RktMeta"></span><span class="RktVar">src/post-template.html</span><span class="RktMeta"></span></td></tr>
+   <p>css/bootstrap.css</p></li>
 
-    <tr>
+  <li>
 
-     <td><span class="RktMeta"></span><span class="RktSym">css/bootstrap.css</span><span class="RktMeta"></span></td></tr>
+   <p>css/bootstrap.min.css</p></li></ul>
 
-    <tr>
 
-     <td><span class="RktMeta"></span><span class="RktSym">css/bootstrap.min.css</span><span class="RktMeta"></span></td></tr></tbody></table></div>
+ <p>Let&rsquo;s examine each of the files in the list, closer.</p>
 
 
  <h2>5.1
@@ -534,18 +638,22 @@ our initial changes:</p>
   <tt>&nbsp;</tt><a name="(part.__frogrc)"></a>.frogrc</h2>
 
 
- <p>Open the file <span class="RktSym">.frogrc</span><span class="RktMeta"></span>, located in the current directory:</p>
+ <p>This file is where top-level customizations are made. Open the file
+<span class="stt">.frogrc</span>, located in the current directory:</p>
 
 
- <div class="SCodeFlow">
+ <p></p>
 
-  <table cellspacing="0" class="RktBlk">
 
-   <tbody>
+ <table cellspacing="0">
 
-    <tr>
+  <tbody>
 
-     <td><span class="RktSym">$</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">emacs</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">.frogrc</span><span class="RktMeta"></span></td></tr></tbody></table></div>
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">$ emacs .frogrc</span></span></p></td></tr></tbody></table>
 
 
  <p>You&rsquo;ll notice that there are more than a dozen parameters that can be
@@ -567,9 +675,9 @@ tweaked. But for now, we&rsquo;re only concerned about three parameters:</p>
    <p>author</p></li></ul>
 
 
- <p><span class="RktSym">scheme/host</span><span class="RktMeta"></span> should
+ <p><span class="stt">scheme/host</span> should
 contain the (sub)domain to which you&rsquo;ll be publishing your work
-later, <span class="RktSym">title</span><span class="RktMeta"></span> is the name of your blog, and <span class="RktSym">author</span><span class="RktMeta"></span> is your name.</p>
+later, <span class="stt">title</span> is the name of your blog, and <span class="stt">author</span> is your name.</p>
 
 
  <h2>5.2
@@ -577,18 +685,23 @@ later, <span class="RktSym">title</span><span class="RktMeta"></span> is the nam
   <tt>&nbsp;</tt><a name="(part._page-template_html)"></a>page-template.html</h2>
 
 
- <p>Open the file <span class="RktVar">src/page-template.html</span><span class="RktMeta"></span>, located in the current directory:</p>
+ <p>This file contains the common content, across all types of pages, whether they
+are blog or non-blog posts. Open the file <span class="stt">_src/page-template.html</span>, located
+in the current directory:</p>
 
 
- <div class="SCodeFlow">
+ <p></p>
 
-  <table cellspacing="0" class="RktBlk">
 
-   <tbody>
+ <table cellspacing="0">
 
-    <tr>
+  <tbody>
 
-     <td><span class="RktSym">$</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">emacs</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktVar">src/page-template.html</span><span class="RktMeta"></span></td></tr></tbody></table></div>
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">$ emacs _src/page-template.html</span></span></p></td></tr></tbody></table>
 
 
  <p>You&rsquo;ll see an even bigger file, compared to .frogrc. This is an special HTML
@@ -627,22 +740,26 @@ them with.</p>
   <tt>&nbsp;</tt><a name="(part._post-template_html)"></a>post-template.html</h2>
 
 
- <p>Perhaps the easiest file to modify is <span class="RktVar">src/post-template.html</span><span class="RktMeta"></span>. Let&rsquo;s
-open it:</p>
+ <p>Similar to <span class="stt">page-template.html</span>, but this file contains content that will
+only appear with blog posts. It is also Perhaps the easiest file to modify is
+<span class="stt">_src/post-template.html</span>. Let&rsquo;s open it:</p>
 
 
- <div class="SCodeFlow">
-
-  <table cellspacing="0" class="RktBlk">
-
-   <tbody>
-
-    <tr>
-
-     <td><span class="RktSym">$</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">emacs</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktVar">src/post-template.html</span><span class="RktMeta"></span></td></tr></tbody></table></div>
+ <p></p>
 
 
- <p>For now, you only need to modify the text <span class="RktSym">shortname</span><span class="RktMeta"></span>. It is the
+ <table cellspacing="0">
+
+  <tbody>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">$ emacs _src/post-template.html</span></span></p></td></tr></tbody></table>
+
+
+ <p>For now, you only need to modify the text <span class="stt">shortname</span>. It is the
 identifier that links the comments section of your blog posts, to the aforesaid
 Disqus account. More about this will be discussed in the section
 <span style="font-weight: bold">Comments</span>.</p>
@@ -655,22 +772,26 @@ Disqus account. More about this will be discussed in the section
 
  <p>These two files are responsible for what is commonly called as "theme" &ndash; it
 controls the look of the site. To change these files, let&rsquo;s head over to
-<a href="http://bootswatch.com/">bootswatch.com</a>. Then select a theme we
-like. Let&rsquo;s presume that we want to download the <span style="font-weight: bold">Cerulean</span> theme. Click
-the dropdown box arrow, next to the download link, for that theme. Select and
-download both <span class="RktSym">bootstrap.min.css</span><span class="RktMeta"></span> and <span class="RktSym">bootstrap.css</span><span class="RktMeta"></span>. After which,
-copy them over to the css subdirectory <span class="RktSym">css/</span><span class="RktMeta"></span>.</p>
+<a href="http://bootswatch.com/">bootswatch.com</a>, then let&rsquo;s select a
+theme we like. Let&rsquo;s presume that we want to download the <span style="font-style: italic">Cerulean</span>
+theme. Click the dropdown box arrow, next to the download link, for that
+theme. Select and download both <span class="stt">bootstrap.min.css</span> and
+<span class="stt">bootstrap.css</span>. After which, copy them over to the css subdirectory
+<span class="stt">css/</span>.</p>
 
 
- <div class="SCodeFlow">
+ <p></p>
 
-  <table cellspacing="0" class="RktBlk">
 
-   <tbody>
+ <table cellspacing="0">
 
-    <tr>
+  <tbody>
 
-     <td><span class="RktSym">$</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">cp</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">~/Downloads/bootstrap.*.css</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">css/</span><span class="RktMeta"></span></td></tr></tbody></table></div>
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">$ cp ~/Downloads/bootstrap.*.css css/</span></span></p></td></tr></tbody></table>
 
 
  <h1>6
@@ -681,15 +802,18 @@ copy them over to the css subdirectory <span class="RktSym">css/</span><span cla
  <p>When we created a new post earlier, we used the following command:</p>
 
 
- <div class="SCodeFlow">
+ <p></p>
 
-  <table cellspacing="0" class="RktBlk">
 
-   <tbody>
+ <table cellspacing="0">
 
-    <tr>
+  <tbody>
 
-     <td><span class="RktSym">raco</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">frog</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym"><span class="nobreak">-n</span></span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktVal">"New</span><span class="hspace">&nbsp;</span><span class="RktVal">Blog</span><span class="hspace">&nbsp;</span><span class="RktVal">Post"</span><span class="RktMeta"></span></td></tr></tbody></table></div>
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">raco frog -n "New Blog Post"</span></span></p></td></tr></tbody></table>
 
 
  <p>That command, creates a Markdown source file. Frog, however, has another mode
@@ -697,100 +821,132 @@ copy them over to the css subdirectory <span class="RktSym">css/</span><span cla
 one, we&rsquo;ll use the following command:</p>
 
 
- <div class="SCodeFlow">
+ <p></p>
 
-  <table cellspacing="0" class="RktBlk">
 
-   <tbody>
+ <table cellspacing="0">
 
-    <tr>
+  <tbody>
 
-     <td><span class="RktSym">raco</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">frog</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym"><span class="nobreak">-N</span></span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktVal">"New</span><span class="hspace">&nbsp;</span><span class="RktVal">Blog</span><span class="hspace">&nbsp;</span><span class="RktVal">Post"</span><span class="RktMeta"></span></td></tr></tbody></table></div>
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">raco frog -N "New Blog Post"</span></span></p></td></tr></tbody></table>
 
 
  <p>Had you used this command earlier, the file will have the format
-<span class="RktVar">src/posts/YYYY-MM-DD-post-title.md</span><span class="RktMeta"></span>. With the command above, the
+<span class="stt">_src/posts/YYYY-MM-DD-post-title.md</span>. With the command above, the
 absolute path would look like:</p>
 
 
- <div class="SCodeFlow">
+ <p></p>
 
-  <table cellspacing="0" class="RktBlk">
 
-   <tbody>
+ <table cellspacing="0">
 
-    <tr>
+  <tbody>
 
-     <td><span class="RktSym">/home/john/blog/_src/posts/2014-02-21-new-blog-post.scrbl</span><span class="RktMeta"></span></td></tr></tbody></table></div>
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">/home/john/blog/_src/posts/2014-02-21-new-blog-post.scrbl</span></span></p></td></tr></tbody></table>
 
 
  <p>Again, let&rsquo;s edit that file, and see how it looks like:</p>
 
 
- <div class="SCodeFlow">
-
-  <table cellspacing="0" class="RktBlk">
-
-   <tbody>
-
-    <tr>
-
-     <td><span class="RktSym">emacs</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktVar">src/posts/2014-02-21-new-blog-post.scrbl</span><span class="RktMeta"></span></td></tr></tbody></table></div>
+ <p></p>
 
 
- <div class="SCodeFlow">
+ <table cellspacing="0">
 
-  <table cellspacing="0" class="RktBlk">
+  <tbody>
 
-   <tbody>
+   <tr>
 
-    <tr>
+    <td>
 
-     <td><span class="RktMeta">#lang</span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><a class="RktModLink" data-pltdoc="x" href="http://docs.racket-lang.org/scribble/manual.html"><span class="RktSym">scribble/manual</span></a><span class="RktMeta"></span></td></tr>
+     <p><span class="stt"><span class="stt">emacs _src/posts/2014-02-21-new-blog-post.scrbl</span></span></p></td></tr></tbody></table>
 
-    <tr>
 
-     <td><span class="RktMeta"></span><span class="RktVal">&#160;</span><span class="RktMeta"></span></td></tr>
+ <p></p>
 
-    <tr>
 
-     <td><span class="RktMeta"></span><span class="RktVal">Title:</span><span class="hspace">&nbsp;</span><span class="RktVal">New</span><span class="hspace">&nbsp;</span><span class="RktVal">Blog</span><span class="hspace">&nbsp;</span><span class="RktVal">Post</span><span class="RktMeta"></span></td></tr>
+ <table cellspacing="0">
 
-    <tr>
+  <tbody>
 
-     <td><span class="RktMeta"></span><span class="RktVal">Date:</span><span class="hspace">&nbsp;</span><span class="RktVal">2014-02-21T18:53:42</span><span class="RktMeta"></span></td></tr>
+   <tr>
 
-    <tr>
+    <td>
 
-     <td><span class="RktMeta"></span><span class="RktVal">Tags:</span><span class="hspace">&nbsp;</span><span class="RktVal">DRAFT</span><span class="RktMeta"></span></td></tr>
+     <p><span class="stt"><span class="stt">#lang scribble/manual</span></span></p></td></tr>
 
-    <tr>
+   <tr>
 
-     <td><span class="RktMeta"></span><span class="RktVal">&#160;</span><span class="RktMeta"></span></td></tr>
+    <td>
 
-    <tr>
+     <p><span class="stt"><span class="stt"></span></span><span class="hspace">&nbsp;</span></p></td></tr>
 
-     <td><span class="RktMeta"></span><span class="RktVal">Replace</span><span class="hspace">&nbsp;</span><span class="RktVal">this</span><span class="hspace">&nbsp;</span><span class="RktVal">with</span><span class="hspace">&nbsp;</span><span class="RktVal">your</span><span class="hspace">&nbsp;</span><span class="RktVal">post</span><span class="hspace">&nbsp;</span><span class="RktVal">text.</span><span class="hspace">&nbsp;</span><span class="RktVal">Add</span><span class="hspace">&nbsp;</span><span class="RktVal">one</span><span class="hspace">&nbsp;</span><span class="RktVal">or</span><span class="hspace">&nbsp;</span><span class="RktVal">more</span><span class="hspace">&nbsp;</span><span class="RktVal">comma-separated</span><span class="RktMeta"></span></td></tr>
+   <tr>
 
-    <tr>
+    <td>
 
-     <td><span class="RktMeta"></span><span class="RktVal">Tags</span><span class="hspace">&nbsp;</span><span class="RktVal">above.</span><span class="hspace">&nbsp;</span><span class="RktVal">The</span><span class="hspace">&nbsp;</span><span class="RktVal">special</span><span class="hspace">&nbsp;</span><span class="RktVal">tag</span><span class="hspace">&nbsp;</span><span class="RktVal">`DRAFT`</span><span class="hspace">&nbsp;</span><span class="RktVal">will</span><span class="hspace">&nbsp;</span><span class="RktVal">prevent</span><span class="hspace">&nbsp;</span><span class="RktVal">the</span><span class="hspace">&nbsp;</span><span class="RktVal">post</span><span class="hspace">&nbsp;</span><span class="RktVal">from</span><span class="hspace">&nbsp;</span><span class="RktVal">being</span><span class="RktMeta"></span></td></tr>
+     <p><span class="stt"><span class="stt">Title: New Blog Post</span></span></p></td></tr>
 
-    <tr>
+   <tr>
 
-     <td><span class="RktMeta"></span><span class="RktVal">published.</span><span class="RktMeta"></span></td></tr>
+    <td>
 
-    <tr>
+     <p><span class="stt"><span class="stt">Date: 2014-02-21T18:53:42</span></span></p></td></tr>
 
-     <td><span class="RktMeta"></span><span class="RktVal">&#160;</span><span class="RktMeta"></span></td></tr>
+   <tr>
 
-    <tr>
+    <td>
 
-     <td><span class="RktMeta"></span><span class="RktVal">&lt;!--</span><span class="hspace">&nbsp;</span><span class="RktVal">more</span><span class="hspace">&nbsp;</span><span class="RktVal">--&gt;</span><span class="RktMeta"></span></td></tr></tbody></table></div>
+     <p><span class="stt"><span class="stt">Tags: DRAFT</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt"></span></span><span class="hspace">&nbsp;</span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">Replace this with your post text. Add one or more comma-separated</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">Tags above. The special tag `DRAFT` will prevent the post from being</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">published.</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt"></span></span><span class="hspace">&nbsp;</span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">&lt;!-- more --&gt;</span></span></p></td></tr></tbody></table>
 
 
  <p>They&rsquo;re mostly the same, except with the addition of the language specifier,
-<span class="RktMeta">#lang</span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><a class="RktModLink" data-pltdoc="x" href="http://docs.racket-lang.org/scribble/manual.html"><span class="RktSym">scribble/manual</span></a><span class="RktMeta"></span>, and the absence of the prefix spaces for the
+<span class="stt">#lang scribble/manual</span>, and the absence of the prefix spaces for the
 metadata fields.</p>
 
 
@@ -801,21 +957,21 @@ metadata fields.</p>
 
  <p>Frog makes use of <a href="http://disqus.com">Disqus</a> to handle its
 comments. To use it, create an account at
-<a href="https://disqus.com/profile/signup/?next=http%3A//disqus.com/">https://disqus.com/profile/signup/</a>.</p>
+<a href="https://disqus.com/profile/signup/?next=http%3A//disqus.com/">disqus.com/profile/signup/</a>.</p>
 
 
  <p>When you already have your account, go to
-<a href="http://disqus.com/admin/create/">http://disqus.com/admin/create/</a>
+<a href="http://disqus.com/admin/create/">disqus.com/admin/create/</a>
 to create a site, which will have an alias called a <span style="font-style: italic">shortname</span>. The
 <span style="font-style: italic">shorname</span> is what you&rsquo;ll register with Disqus to uniquely identify your
-website. So, if you chose, for example, <span class="RktSym">foobar</span><span class="RktMeta"></span>, as the shortname for the
-site, you can then access <a href="http://foobar.disqus.com">http://foobar.disqus.com</a> to manage the comments for that site. The shortname
-mentioned here, is what you&rsquo;ll use in the file <span class="RktVar">src/post-template.html</span><span class="RktMeta"></span>,
+website. So, if you chose, for example, <span class="stt">foobar</span>, as the shortname for the
+site, you may then access <a href="http://foobar.disqus.com">foobar.disqus.com</a> to manage the comments for that site. The shortname
+mentioned here, is what you&rsquo;ll use in the file <span class="stt">_src/post-template.html</span>,
 as discussed above.</p>
 
 
  <p>To import comments, from an existing blog, to Disqus, go to
-<a href="http://import.disqus.com">http://import.disqus.com</a>.</p>
+<a href="http://import.disqus.com">import.disqus.com</a>.</p>
 
 
  <h1>8
@@ -824,23 +980,26 @@ as discussed above.</p>
 
 
  <p>To publish your work, upload the contents of the directory that Frog
-manages; in this tutorial, it is the directory <span class="RktSym">/home/john/blog</span><span class="RktMeta"></span>, to your
-remote web server. If the current directory is <span class="RktSym">blog/</span><span class="RktMeta"></span>, and we want to
+manages; in this tutorial, it is the directory <span class="stt">/home/john/blog</span>, to your
+remote web server. If the current directory is <span class="stt">blog/</span>, and we want to
 send the files via rsync, the command would look like:</p>
 
 
- <div class="SCodeFlow">
-
-  <table cellspacing="0" class="RktBlk">
-
-   <tbody>
-
-    <tr>
-
-     <td><span class="RktSym">$</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">rsync</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym"><span class="nobreak">-a</span>vz</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">./</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">remotehost:public_html</span><span class="RktMeta"></span></td></tr></tbody></table></div>
+ <p></p>
 
 
- <p>The directory <span class="RktSym">public_html</span><span class="RktMeta"></span> could be something else, I just used it
+ <table cellspacing="0">
+
+  <tbody>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">$ rsync -avz ./ remotehost:public_html</span></span></p></td></tr></tbody></table>
+
+
+ <p>The directory <span class="stt">public_html</span> could be something else, I just used it
 because it is the default with Apache.</p>
 
 
@@ -849,41 +1008,47 @@ rsync, and you use <a href="http://git-scm.com">Git</a>, you can use the free
 hosting service of <a href="http://pages.github.com">GitHub Pages</a>. If you
 don&rsquo;t have a <a href="http://github.com">GitHub</a> account yet, you may go
 to <a href="http://github.com">github.com</a> to create one. To use, GitHub
-Pages, create a repository named <span class="RktSym">USERNAME.github.io</span><span class="RktMeta"></span>. So, if your
-username is <span class="RktSym">johndoe</span><span class="RktMeta"></span>, the repository that you need to create should be
-named <span class="RktSym">johndoe.github.io</span><span class="RktMeta"></span>.</p>
+Pages, create a repository named <span class="stt">USERNAME.github.io</span>. So, if your
+username is <span class="stt">johndoe</span>, the repository that you need to create should be
+named <span class="stt">johndoe.github.io</span>.</p>
 
 
  <p>To publish your work to GitHub Pages, we first need to add that remote
 repository:</p>
 
 
- <div class="SCodeFlow">
+ <p></p>
 
-  <table cellspacing="0" class="RktBlk">
 
-   <tbody>
+ <table cellspacing="0">
 
-    <tr>
+  <tbody>
 
-     <td><span class="RktSym">$</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">git</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">remote</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">add</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">origin</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">git@github.com:johndoe/johndoe.github.io.git</span><span class="RktMeta"></span></td></tr></tbody></table></div>
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">$ git remote add origin git@github.com:johndoe/johndoe.github.io.git</span></span></p></td></tr></tbody></table>
 
 
  <p>Then we push the commits:</p>
 
 
- <div class="SCodeFlow">
-
-  <table cellspacing="0" class="RktBlk">
-
-   <tbody>
-
-    <tr>
-
-     <td><span class="RktSym">$</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">git</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">push</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">origin</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">master</span><span class="RktMeta"></span></td></tr></tbody></table></div>
+ <p></p>
 
 
- <p>To view your website, go to <a href="http://johndoe.github.io">http://johndoe.github.io</a>.</p>
+ <table cellspacing="0">
+
+  <tbody>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">$ git push origin master</span></span></p></td></tr></tbody></table>
+
+
+ <p>To view your website, go to <a href="http://johndoe.github.io">johndoe.github.io</a>.</p>
 
 
  <h1>9
@@ -898,7 +1063,10 @@ open source. It gives control, back to the author.</p>
 
  <p>Frog was created by <a href="http://www.greghendershott.com/">Greg
 Hendershott</a>. You may also want to visit his GitHub page, at
-<a href="http://github.com/greghendershott.com">http://github.com/greghendershott.com</a>.</p>
+<a href="http://github.com/greghendershott.com">github.com/greghendershott.com</a>.</p>
+
+
+ <p><span style="font-style: italic">Ribbit!</span></p>
 
  <footer>
 

@@ -49,16 +49,16 @@ Let's say that you want to install your Geiser files in
 @code{~/.emacs.d/elisp/}. We'll issue the following commands to install Geiser
 to that location:
 
-@codeblock{
-mkdir ~/.emacs.d/elisp
-cd ~/.emacs.d/elisp
-git clone http://git.sv.gnu.org/r/geiser.git
+@verbatim{
+$ mkdir ~/.emacs.d/elisp
+$ cd ~/.emacs.d/elisp
+$ git clone http://git.sv.gnu.org/r/geiser.git
 }
 
 After that, in @code{~/.emacs.d/elisp/geiser/}, you'll have something that
 looks like the following:
 
-@codeblock{
+@verbatim{
 AUTHORS
 autogen.sh*
 bin/
@@ -84,13 +84,13 @@ friends will know where to find things. To do that, add the following to your
 Emacs init file -- either in @code{~/.emacs.d/init.el}, or in @code{~/.emacs}
 (deprecated):
 
-@codeblock{
+@verbatim{
 (add-to-list 'load-path "~/.emacs.d/elisp/geiser/elisp/")
 }
 
 Next, we'll put in the actual code that invokes and configures Geiser:
 
-@codeblock{
+@verbatim{
 (require 'geiser)
 
 (setq geiser-active-implementations '(racket))
@@ -117,7 +117,7 @@ new Emacs process.
 To reap what you sowed, create or open a @code{.rkt} file, with at least a
 proper module declaration. Then hit:
 
-@codeblock{M-x run-geiser}
+@verbatim{M-x run-geiser}
 
 And, boomshakalaka! A new (Emacs) window opens, containing the @code{* Racket
 REPL *} buffer. Whatever you can do with the REPL invoked with vanilla
