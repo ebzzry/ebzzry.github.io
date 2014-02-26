@@ -391,14 +391,16 @@ To view your website, go to @hyperlink["http://johndoe.github.io"
 "johndoe.github.io"].
 
 
-@section{Conclusion}
+@section{Notes}
 @hyperlink["https://github.com/greghendershott/frog" "Frog"] is a viable and
 usable site creator. It is easy-to-use, highly configurable, flexible, and yes,
 open source. It gives control, back to the author.
 
 Frog was created by @hyperlink["http://www.greghendershott.com/" "Greg
-Hendershott"]. You may also want to visit his GitHub page, at
-@hyperlink["http://github.com/greghendershott.com"
-"github.com/greghendershott.com"].
+Hendershott"]. If you want to learn more about it, head over to
+@hyperlink["http://github.com/greghendershott/frog"
+"github.com/greghendershott/frog"]. To report bugs, go to
+@hyperlink["https://github.com/greghendershott/frog/issues"
+"github.com/greghendershott/frog/issues"].
 
 @emph{Ribbit!}

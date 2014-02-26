@@ -220,7 +220,7 @@ To enable very verbose output, when creating snapshots:
 $ ugarit snapshot -:a256 /ugarit/ugarit.conf ...
 }
 
-@section{Notes}
+@section{Conclusion}
 When you are doubtful of the performance of the disk where you'll be storing
 the snapshots, disable the
 @hyperlink["http://linux.about.com/library/cmd/blcmdl1_updatedb.htm" "locate
@@ -231,7 +231,7 @@ An important caveat worth mentioning is that, due to the way Ugarit works,
 snapshot deletions do not exist. The storage mechanism works similarly to Git,
 only that there is no rebase option.
 
-Ugarit was written by @hyperlink["http://www.snell-pym.org.uk/alaric/" "Alaric
+Ugarit was created by @hyperlink["http://www.snell-pym.org.uk/alaric/" "Alaric
 Snell-Pym"]. If you want to learn more about it, head over to
 @hyperlink["http://www.kitten-technologies.co.uk/project/ugarit/doc/trunk/README.wiki"
 "kitten-technologies.co.uk/project/ugarit/"]. To report bugs, go to

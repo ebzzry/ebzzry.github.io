@@ -473,11 +473,12 @@ repository:&lt;/p&gt;
      &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ git push origin master&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
  &lt;p&gt;To view your website, go to &lt;a href="http://johndoe.github.io"&gt;johndoe.github.io&lt;/a&gt;.&lt;/p&gt;
  &lt;h1&gt;9
-  &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Conclusion)"&gt;&lt;/a&gt;Conclusion&lt;/h1&gt;
+  &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Notes)"&gt;&lt;/a&gt;Notes&lt;/h1&gt;
  &lt;p&gt;&lt;a href="https://github.com/greghendershott/frog"&gt;Frog&lt;/a&gt; is a viable and
 usable site creator. It is easy-to-use, highly configurable, flexible, and yes,
 open source. It gives control, back to the author.&lt;/p&gt;
  &lt;p&gt;Frog was created by &lt;a href="http://www.greghendershott.com/"&gt;Greg
-Hendershott&lt;/a&gt;. You may also want to visit his GitHub page, at
-&lt;a href="http://github.com/greghendershott.com"&gt;github.com/greghendershott.com&lt;/a&gt;.&lt;/p&gt;
+Hendershott&lt;/a&gt;. If you want to learn more about it, head over to
+&lt;a href="http://github.com/greghendershott/frog"&gt;github.com/greghendershott/frog&lt;/a&gt;. To report bugs, go to
+&lt;a href="https://github.com/greghendershott/frog/issues"&gt;github.com/greghendershott/frog/issues&lt;/a&gt;.&lt;/p&gt;
  &lt;p&gt;&lt;span style="font-style: italic"&gt;Ribbit!&lt;/span&gt;&lt;/p&gt;&lt;/html&gt;</content></entry></feed>

@@ -289,7 +289,7 @@ mounts:&lt;/p&gt;
     &lt;td&gt;
      &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ ugarit snapshot -:a256 /ugarit/ugarit.conf ...&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
  &lt;h1&gt;6
-  &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Notes)"&gt;&lt;/a&gt;Notes&lt;/h1&gt;
+  &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Conclusion)"&gt;&lt;/a&gt;Conclusion&lt;/h1&gt;
  &lt;p&gt;When you are doubtful of the performance of the disk where you&amp;rsquo;ll be storing
 the snapshots, disable the
 &lt;a href="http://linux.about.com/library/cmd/blcmdl1_updatedb.htm"&gt;locate
@@ -298,7 +298,7 @@ lot of load on the disk, and may over-stress it. Your mileage may vary.&lt;/p&gt
  &lt;p&gt;An important caveat worth mentioning is that, due to the way Ugarit works,
 snapshot deletions do not exist. The storage mechanism works similarly to Git,
 only that there is no rebase option.&lt;/p&gt;
- &lt;p&gt;Ugarit was written by &lt;a href="http://www.snell-pym.org.uk/alaric/"&gt;Alaric
+ &lt;p&gt;Ugarit was created by &lt;a href="http://www.snell-pym.org.uk/alaric/"&gt;Alaric
 Snell-Pym&lt;/a&gt;. If you want to learn more about it, head over to
 &lt;a href="http://www.kitten-technologies.co.uk/project/ugarit/doc/trunk/README.wiki"&gt;kitten-technologies.co.uk/project/ugarit/&lt;/a&gt;. To report bugs, go to
 &lt;a href="http://www.kitten-technologies.co.uk/project/ugarit/reportlist"&gt;kitten-technologies.co.uk/project/ugarit/reportlist&lt;/a&gt;.&lt;/p&gt;&lt;/html&gt;</description></item></channel></rss>
