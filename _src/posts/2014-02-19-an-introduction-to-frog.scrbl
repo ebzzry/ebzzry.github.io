@@ -2,7 +2,7 @@
 
 Title: An Introduction To Frog
 Date: 2014-02-19T14:07:11
-Tags: racket, frog, blogging
+Tags: racket, web
 
 When publishing blog content to the web, most would rely on pre-fabricated
 services, that do most of the heavy lifting. However, there are instances when

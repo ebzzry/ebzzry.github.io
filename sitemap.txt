@@ -1,3 +1,4 @@
+http://www.example.com/blog/2014/02/21/an-introduction-to-ugarit/
 http://www.example.com/blog/2014/02/19/an-introduction-to-frog/
 http://www.example.com/blog/2014/02/17/emacs-and-mail/
 http://www.example.com/blog/2013/09/29/emacs-and-racket/
