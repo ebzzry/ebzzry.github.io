@@ -3,16 +3,11 @@
 @title{About}
 
 Hi! My name is Rommel M. Martinez. I'm a software engineer, and a systems
-administrator. I currently live in San Juan, La Union, Philippines. My CV can
-be found @hyperlink["/cv/cv-en.pdf" "here"].
-
-I live an active lifestyle, with a workout program that includes bodyweight,
-kettlebell, rings gymnastics, martial arts, and parkour.
+administrator. My CV can be found @hyperlink["/cv/cv-en.pdf" "here"].
 
 When I need to percolate, I take of places, people, and things, and put them to
 my @hyperlink["http://ebzzry.deviantart.com" "deviantART"] gallery. I love to
-play FPS, 2D fighting, and RPG games. My all-time favorites are Quake 3, the
-Street Fighter series, and Chrono Trigger.
+play 2D Fighting (SSF4AE2012), FPS (Xonotic), and RPG (Chrono Trigger) games.
 
 I am turtling my way into publishing my stuff to my
 @hyperlink["http://www.github.com" "GitHub"] account. I primarily use
