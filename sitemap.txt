@@ -4,7 +4,6 @@ http://www.example.com/blog/2014/02/17/emacs-and-mail/
 http://www.example.com/blog/2013/09/29/emacs-and-racket/
 http://www.example.com/blog/2013/09/26/emacs-and-dired/
 http://www.example.com/blog/2013/09/10/emacs-and-hax/
-http://www.example.com/blog/2013/07/11/in-retrospect/
 http://www.example.com/blog/2013/05/29/livefrog-a-livejournal-utility/
 http://www.example.com/blog/2013/05/21/usync-a-data-synchronizer/
 http://www.example.com/blog/2013/05/09/squandered-relentlessness/
