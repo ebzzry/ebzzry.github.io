@@ -220,7 +220,7 @@ To enable very verbose output, when creating snapshots:
 $ ugarit snapshot -:a256 /ugarit/ugarit.conf ...
 }
 
-@section{Conclusion}
+@section{Notes}
 When you are doubtful of the performance of the disk where you'll be storing
 the snapshots, disable the
 @hyperlink["http://linux.about.com/library/cmd/blcmdl1_updatedb.htm" "locate

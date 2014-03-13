@@ -9,7 +9,7 @@ synchronization tool written in Scsh. It
 makes use of Unison,
 and rsync, for bi- and uni-directional
 synchronizations, respectively. The sources, along with additional information, are located at
-http://github.com/ebzzry/usync. ...">
+github.com/ebzzry/usync. ...">
     <meta name="author"      content="Rommel Martinez">
     <meta name="keywords"    content="scheme, programming">
     <meta name="viewport"    content="width=device-width, initial-scale=1.0">
@@ -110,7 +110,9 @@ http://github.com/ebzzry/usync. ...">
 
   <h1>Usync: A Data Synchronizer</h1>
 
+
   <p class="date-and-tags">
+
    <time datetime="2013-05-21" pubdate="true">2013-05-21</time> :: <span class="tags"><a href="/tags/scheme.html">scheme</a>, <a href="/tags/programming.html">programming</a></span></p>
   </header>
 
@@ -123,7 +125,140 @@ synchronizations, respectively.</p>
 
 
  <p>The sources, along with additional information, are located at
-<a href="http://github.com/ebzzry/usync">http://github.com/ebzzry/usync</a>.</p>
+<a href="http://github.com/ebzzry/usync">github.com/ebzzry/usync</a>.</p>
+
+
+ <h1>1
+
+  <tt>&nbsp;</tt><a name="(part._.Introduction)"></a>Introduction</h1>
+
+
+ <p>Site-to-site synchronizations are usually needed, when two locations, which are
+called sites, in this article, make file updates independently. Let&rsquo;s say the
+company <span style="font-style: italic">Foo</span> has two offices. In the first office, they have the
+accounting, and logistics departments. In the second office, they have the IT,
+and HR departments. Both have a common <span class="stt">/pub</span> tree, that has subdirectories
+assigned to each department. Without synchronization, when the first office
+needs information from the second office, they&rsquo;d have to pull the updates,
+manually. With synchronization, the first office can access the files from the
+second office, as if the IT and HR departments, were in the first office. Usync
+helps to achieve this.</p>
+
+
+ <h1>2
+
+  <tt>&nbsp;</tt><a name="(part._.Basic_.Usage)"></a>Basic Usage</h1>
+
+
+ <p>To perform two-way synchronization of the directory <span class="stt">/pub/yot/ninam</span>,
+between the current host, to the hosts <span class="stt">tarupam</span>, and <span class="stt">taubetmo</span>,
+while preserving the directory structure remotely (take note, that
+there must be no spaces between the hosts specification, due to the
+<span class="stt">IFS</span> environment variable, found in most shells):</p>
+
+
+ <p></p>
+
+
+ <table cellspacing="0">
+
+  <tbody>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">$ usync /pub/yot/ninam/ tarupam,taubetmo</span></span></p></td></tr></tbody></table>
+
+
+ <p>The command above will perform two-way synchronization of the diretory
+<span class="stt">ninam/</span> found under <span class="stt">/pub/yot/</span>, to <span class="stt">tarupam:/pub/yot/</span>, and
+<span class="stt">taubetmo:/pub/yot/</span>.</p>
+
+
+ <p>Using our example above, the two-way synchronization system basically
+tells that if the tree <span class="stt">tarupam:/pub/yot/ninam/</span> contains new and/or
+updated items, compared with <span class="stt">localhost:/pub/yot/ninam/</span>, and
+<span class="stt">localhost:/pub/yot/ninam/</span> also happens to have new and/or updated
+items, then, they will trade updates.</p>
+
+
+ <p>Ideally, the result is that <span class="stt">localhost:/pub/yot/ninam/</span>,
+<span class="stt">tarupam:/pub/yot/ninam/</span>, and <span class="stt">taubetmo:/pub/yot/ninam/</span>, are all
+equal.</p>
+
+
+ <h1>3
+
+  <tt>&nbsp;</tt><a name="(part._.Semi-advanced_.Usage)"></a>Semi-advanced Usage</h1>
+
+
+ <p>It is also possible to perform synchronization of multiple files, and
+directories, to remote hosts. To do so, run:</p>
+
+
+ <p></p>
+
+
+ <table cellspacing="0">
+
+  <tbody>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">$ usync /pub/yot/ninam/ ~/file.text ~reyn/*.blend tarupam,taubetmo</span></span></p></td></tr></tbody></table>
+
+
+ <p>The command above will perform two-way synchronization of the paths
+<span class="stt">/pub/yot/ninam/</span>, <span class="stt">~/file.text</span>, and <span class="stt">~reyn/*.blend</span> to the
+remote hosts <span class="stt">tarupam</span>, and <span class="stt">taubetmo</span>, using the same directory
+structuring system described above.</p>
+
+
+ <p>If you want to perform one-way synchronization, of the above, like
+<span class="stt">rsync</span>, run:</p>
+
+
+ <p></p>
+
+
+ <table cellspacing="0">
+
+  <tbody>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">$ usync --one-way --prefer-local /pub/yot/ninam/ ~/file.text ~reyn/draft.blend tarupam,taubetmo</span></span></p></td></tr></tbody></table>
+
+
+ <p>For more usage information, run:</p>
+
+
+ <p></p>
+
+
+ <table cellspacing="0">
+
+  <tbody>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">$ usync --help</span></span></p></td></tr></tbody></table>
+
+
+ <h1>4
+
+  <tt>&nbsp;</tt><a name="(part._.Caveats)"></a>Caveats</h1>
+
+
+ <p>This program has been used on FreeBSD, hence making the shebang
+line contain <span class="stt">/usr/local/bin/scsh</span>. Please change it, accordingly.</p>
 
  <footer>
 

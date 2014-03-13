@@ -4,10 +4,10 @@
 
     <meta charset="utf-8">
     <title>Livefrog: A LiveJournal Utility</title>
-    <meta name="description" content="I am pleased to announce the release of livefrog, a utility written in
-Racket, used to migrate LiveJournal posts and comments to the
-Frog blogging platform. The sources, along with additional information, are located at
-http://github.com/ebzzry/livefrog. ...">
+    <meta name="description" content="I am pleased to announce the release of livefrog, a utility I wrote to
+migrate LiveJournal articles to
+Frog. The sources, along with additional information, are located at
+github.com/ebzzry/livefrog. ...">
     <meta name="author"      content="Rommel Martinez">
     <meta name="keywords"    content="racket, programming">
     <meta name="viewport"    content="width=device-width, initial-scale=1.0">
@@ -108,18 +108,518 @@ http://github.com/ebzzry/livefrog. ...">
 
   <h1>Livefrog: A LiveJournal Utility</h1>
 
+
   <p class="date-and-tags">
+
    <time datetime="2013-05-29" pubdate="true">2013-05-29</time> :: <span class="tags"><a href="/tags/racket.html">racket</a>, <a href="/tags/programming.html">programming</a></span></p>
   </header>
 
 
- <p>I am pleased to announce the release of <span style="font-weight: bold">livefrog</span>, a utility written in
-Racket, used to migrate LiveJournal posts and comments to the
-<a href="http://github.com/greghendershott/frog">Frog</a> blogging platform.</p>
+ <p>I am pleased to announce the release of <span style="font-weight: bold">livefrog</span>, a utility I wrote to
+migrate LiveJournal articles to
+<a href="http://github.com/greghendershott/frog">Frog</a>.</p>
 
 
  <p>The sources, along with additional information, are located at
-<a href="http://github.com/ebzzry/livefrog">http://github.com/ebzzry/livefrog</a>.</p>
+<a href="http://github.com/ebzzry/livefrog">github.com/ebzzry/livefrog</a>.</p>
+
+
+ <h1>1
+
+  <tt>&nbsp;</tt><a name="(part._.Introduction)"></a>Introduction</h1>
+
+
+ <p><span style="font-weight: bold">livefrog</span> is a utility written in <a href="http://racket-lang.org">Racket</a>, used to migrate LiveJournal posts to
+<a href="https://github.com/greghendershott/frog/">Frog</a>, a blogging
+platform written in Racket, too. It uses the files dumped by either
+<a href="http://hewgill.com/ljdump/">ljdump</a>, or
+<a href="http://github.com/ceejbot/ljmigrate">ljmigrate</a>.</p>
+
+
+ <h1>2
+
+  <tt>&nbsp;</tt><a name="(part._.Installation)"></a>Installation</h1>
+
+
+ <p><span style="font-weight: bold">livefrog</span> is available via Racket&rsquo;s
+<a href="http://pkg.racket-lang.org">Planet2</a>:</p>
+
+
+ <p></p>
+
+
+ <table cellspacing="0">
+
+  <tbody>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">$ raco pkg install livefrog</span></span></p></td></tr></tbody></table>
+
+
+ <p>If that doesn&rsquo;t work, you can alternately install by fetching livefrog, and the
+dependencies, from github</p>
+
+
+ <p></p>
+
+
+ <table cellspacing="0">
+
+  <tbody>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">$ git clone https://github.com/jbclements/sxml.git</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">$ git clone https://github.com/greghendershott/frog.git</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">$ git clone https://github.com/ebzzry/livefrog.git</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">$ raco pkg install frog/ sxml/ livefrog/</span></span></p></td></tr></tbody></table>
+
+
+ <p>The trailing slashes are important, to tell <span class="stt">raco</span> that you are
+installing from local directories. Without it, it will try to fetch
+the sources from the internet.</p>
+
+
+ <h1>3
+
+  <tt>&nbsp;</tt><a name="(part._.Usage)"></a>Usage</h1>
+
+
+ <p>This sections contains instructions for creating files suitable for
+use with Frog.</p>
+
+
+ <h2>3.1
+
+  <tt>&nbsp;</tt><a name="(part._.Basics)"></a>Basics</h2>
+
+
+ <p>To create a Markdown file from the file entry.xml</p>
+
+
+ <p></p>
+
+
+ <table cellspacing="0">
+
+  <tbody>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">$ raco livefrog -m entry.xml</span></span></p></td></tr></tbody></table>
+
+
+ <p>That, however, becomes cumbersome if you&rsquo;re going to manage more than a hundred
+entries. To automatically "pick up" the files created by ljdump or ljmigrate,
+and convert them to Markdown.</p>
+
+
+ <p></p>
+
+
+ <table cellspacing="0">
+
+  <tbody>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">$ raco livefrog -am</span></span></p></td></tr></tbody></table>
+
+
+ <p>Bear in mind, though, that ljdump and ljmigrate differ on how the trees for the
+data are created. ljdump has the following tree format, where USERNAME is your
+LiveJournal account name:</p>
+
+
+ <p></p>
+
+
+ <table cellspacing="0">
+
+  <tbody>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">ljdump/</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;</span><span class="stt">build</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;</span><span class="stt">ChangeLog</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;</span><span class="stt">convertdump.py</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;</span><span class="stt">USERNAME/</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="stt">L-1</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="stt">L-2</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="stt">C-2</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="stt">L-3</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="stt">...</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;</span><span class="stt">ljdump.config</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;</span><span class="stt">ljdump.config.sample</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;</span><span class="stt">ljdump-gui.py</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;</span><span class="stt">ljdump.py*</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;</span><span class="stt">README.txt</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;</span><span class="stt">TODO</span></span></p></td></tr></tbody></table>
+
+
+ <p>ljmigrate, on the other hand, uses a different format:</p>
+
+
+ <p></p>
+
+
+ <table cellspacing="0">
+
+  <tbody>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">ljmigrate/</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;</span><span class="stt">LICENSE.text</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;</span><span class="stt">ljmigrate.cfg</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;</span><span class="stt">ljmigrate.cfg.sample</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;</span><span class="stt">ljmigrate.py*</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;</span><span class="stt">README.md</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;</span><span class="stt">README_windows.txt</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;</span><span class="stt">TODO</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;</span><span class="stt">www.livejournal.com/</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="stt">USERNAME/</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="stt">entry00001/</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="stt">entry.xml</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="stt">entry00002/</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="stt">entry.xml</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="stt">comment.xml</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="stt">html/</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="stt">metadata/</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="stt">userpics/</span></span></p></td></tr></tbody></table>
+
+
+ <p>After creating the Markdown Frog source files, you may now copy them
+to your Frog source directory, designated at <span class="stt">_src/posts/</span></p>
+
+
+ <h2>3.2
+
+  <tt>&nbsp;</tt><a name="(part._.Comments)"></a>Comments</h2>
+
+
+ <p>Frog, by default, uses <a href="http://disqus.com">Disqus</a> to handle the
+comments. To import comments to this platform, we need to generate an XML file
+that must adhere to Disqus&rsquo; comment import rules.</p>
+
+
+ <p>To create a file, named <span class="stt">comments.xml</span> that will be used for importing
+comments, to be used with <a href="http://import.disqus.com/">import.disqus.com</a>, using <span class="stt">foo.bar.com</span> as the root site:</p>
+
+
+ <p></p>
+
+
+ <table cellspacing="0">
+
+  <tbody>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">$ raco livefrog -s foo.bar.com -c comments.xml</span></span></p></td></tr></tbody></table>
+
+
+ <h1>4
+
+  <tt>&nbsp;</tt><a name="(part._.Updating)"></a>Updating</h1>
+
+
+ <p>If you installed livefrog using Planet2, you can update it by running:</p>
+
+
+ <p></p>
+
+
+ <table cellspacing="0">
+
+  <tbody>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">$ raco pkg update livefrog</span></span></p></td></tr></tbody></table>
+
+
+ <p>However, if you used the latter method, you may update it by pulling
+the updates, uninstalling livefrog, then installing it
+again:</p>
+
+
+ <p></p>
+
+
+ <table cellspacing="0">
+
+  <tbody>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">$ cd livefrog</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">$ git pull origin master</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">$ cd ..</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">$ raco pkg remove livefrog</span></span></p></td></tr>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">$ raco pkg install livefrog/</span></span></p></td></tr></tbody></table>
+
+
+ <h1>5
+
+  <tt>&nbsp;</tt><a name="(part._.Miscellany)"></a>Miscellany</h1>
+
+
+ <p>To reduce typing, you may optionally create an alias to <span class="stt">raco
+livefrog</span> in your shell.</p>
+
+
+ <p>Sh-like shells:</p>
+
+
+ <p></p>
+
+
+ <table cellspacing="0">
+
+  <tbody>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">$ echo 'alias livefrog="raco livefrog"' &gt;&gt; ~/.bashrc</span></span></p></td></tr></tbody></table>
+
+
+ <p>Csh-like shells:</p>
+
+
+ <p></p>
+
+
+ <table cellspacing="0">
+
+  <tbody>
+
+   <tr>
+
+    <td>
+
+     <p><span class="stt"><span class="stt">$ echo 'alias livefrog raco livefrog' &gt;&gt; ~/.cshrc</span></span></p></td></tr></tbody></table>
+
+
+ <p>Replace <span class="stt">.bashrc</span>, and <span class="stt">.cshrc</span>, with the appropriate init file for
+your shell.</p>
 
  <footer>
 

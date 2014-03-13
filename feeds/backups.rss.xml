@@ -13,7 +13,7 @@
    <guid>urn:http-www-example-com:-blog-2014-02-21-an-introduction-to-ugarit</guid>
    <pubDate>Fri, 21 Feb 2014 12:07:18 PHT</pubDate>
    <description>
-&lt;html&gt;&lt;img src="http://www.example.com/img/1x1.gif?utm_source=backups&amp;amp;utm_medium=RSS&amp;amp;utm_campaign=%2Fblog%2F2014%2F02%2F21%2Fan-introduction-to-ugarit%2F" height="1" width="1" /&gt;
+&lt;html&gt;&lt;img src="http://www.example.com/img/1x1.gif?utm_source=backups&amp;utm_medium=RSS&amp;utm_campaign=%2Fblog%2F2014%2F02%2F21%2Fan-introduction-to-ugarit%2F" height="1" width="1" /&gt;
  &lt;p&gt;how many times have we experienced hindsight, after a catastrophic event has
 happened? how many times have we told ourselves that had we created backups of
 our precious data, we wouldn&amp;rsquo;t be in that dire situation, pulling our hairs out
@@ -289,7 +289,7 @@ mounts:&lt;/p&gt;
     &lt;td&gt;
      &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ ugarit snapshot -:a256 /ugarit/ugarit.conf ...&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
  &lt;h1&gt;6
-  &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Conclusion)"&gt;&lt;/a&gt;Conclusion&lt;/h1&gt;
+  &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Notes)"&gt;&lt;/a&gt;Notes&lt;/h1&gt;
  &lt;p&gt;When you are doubtful of the performance of the disk where you&amp;rsquo;ll be storing
 the snapshots, disable the
 &lt;a href="http://linux.about.com/library/cmd/blcmdl1_updatedb.htm"&gt;locate
