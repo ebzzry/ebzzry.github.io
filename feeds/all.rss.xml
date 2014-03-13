@@ -13,7 +13,7 @@
    <guid>urn:http-www-example-com:-blog-2014-02-21-an-introduction-to-ugarit</guid>
    <pubDate>Fri, 21 Feb 2014 12:07:18 PHT</pubDate>
    <description>
-&lt;html&gt;&lt;img src="http://www.example.com/img/1x1.gif?utm_source=all&amp;amp;utm_medium=RSS&amp;amp;utm_campaign=%2Fblog%2F2014%2F02%2F21%2Fan-introduction-to-ugarit%2F" height="1" width="1" /&gt;
+&lt;html&gt;&lt;img src="http://www.example.com/img/1x1.gif?utm_source=all&amp;utm_medium=RSS&amp;utm_campaign=%2Fblog%2F2014%2F02%2F21%2Fan-introduction-to-ugarit%2F" height="1" width="1" /&gt;
  &lt;p&gt;how many times have we experienced hindsight, after a catastrophic event has
 happened? how many times have we told ourselves that had we created backups of
 our precious data, we wouldn&amp;rsquo;t be in that dire situation, pulling our hairs out
@@ -289,7 +289,7 @@ mounts:&lt;/p&gt;
     &lt;td&gt;
      &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ ugarit snapshot -:a256 /ugarit/ugarit.conf ...&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
  &lt;h1&gt;6
-  &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Conclusion)"&gt;&lt;/a&gt;Conclusion&lt;/h1&gt;
+  &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Notes)"&gt;&lt;/a&gt;Notes&lt;/h1&gt;
  &lt;p&gt;When you are doubtful of the performance of the disk where you&amp;rsquo;ll be storing
 the snapshots, disable the
 &lt;a href="http://linux.about.com/library/cmd/blcmdl1_updatedb.htm"&gt;locate
@@ -308,7 +308,7 @@ Snell-Pym&lt;/a&gt;. If you want to learn more about it, head over to
    <guid>urn:http-www-example-com:-blog-2014-02-19-an-introduction-to-frog</guid>
    <pubDate>Wed, 19 Feb 2014 14:07:11 PHT</pubDate>
    <description>
-&lt;html&gt;&lt;img src="http://www.example.com/img/1x1.gif?utm_source=all&amp;amp;utm_medium=RSS&amp;amp;utm_campaign=%2Fblog%2F2014%2F02%2F19%2Fan-introduction-to-frog%2F" height="1" width="1" /&gt;
+&lt;html&gt;&lt;img src="http://www.example.com/img/1x1.gif?utm_source=all&amp;utm_medium=RSS&amp;utm_campaign=%2Fblog%2F2014%2F02%2F19%2Fan-introduction-to-frog%2F" height="1" width="1" /&gt;
  &lt;p&gt;When publishing blog content to the web, most would rely on pre-fabricated
 services, that do most of the heavy lifting. However, there are instances when
 we want to have more control over our stuff. A good example of which are the
@@ -782,7 +782,7 @@ Hendershott&lt;/a&gt;. If you want to learn more about it, head over to
    <guid>urn:http-www-example-com:-blog-2014-02-17-emacs-and-mail</guid>
    <pubDate>Mon, 17 Feb 2014 16:02:38 PHT</pubDate>
    <description>
-&lt;html&gt;&lt;img src="http://www.example.com/img/1x1.gif?utm_source=all&amp;amp;utm_medium=RSS&amp;amp;utm_campaign=%2Fblog%2F2014%2F02%2F17%2Femacs-and-mail%2F" height="1" width="1" /&gt;
+&lt;html&gt;&lt;img src="http://www.example.com/img/1x1.gif?utm_source=all&amp;utm_medium=RSS&amp;utm_campaign=%2Fblog%2F2014%2F02%2F17%2Femacs-and-mail%2F" height="1" width="1" /&gt;
  &lt;p&gt;In this day and age, checking our mail means going to the website of our mail
 provider, or using a mobile app. However, there are some cases when we want to
 have more control over our messages, especially when the feature we want is not
@@ -1150,7 +1150,7 @@ documentation, to fill in missing gaps, that you may have.&lt;/p&gt;&lt;/html&gt
    <guid>urn:http-www-example-com:-blog-2013-09-29-emacs-and-racket</guid>
    <pubDate>Sun, 29 Sep 2013 22:21:19 PHT</pubDate>
    <description>
-&lt;html&gt;&lt;img src="http://www.example.com/img/1x1.gif?utm_source=all&amp;amp;utm_medium=RSS&amp;amp;utm_campaign=%2Fblog%2F2013%2F09%2F29%2Femacs-and-racket%2F" height="1" width="1" /&gt;
+&lt;html&gt;&lt;img src="http://www.example.com/img/1x1.gif?utm_source=all&amp;utm_medium=RSS&amp;utm_campaign=%2Fblog%2F2013%2F09%2F29%2Femacs-and-racket%2F" height="1" width="1" /&gt;
  &lt;p&gt;In this post, I&amp;rsquo;ll discuss the easiest approach that I took to setup up a
 &lt;a href="http://racket-lang.org"&gt;Racket&lt;/a&gt; development environment on
 Emacs. Take note, that this is not the only approach available &amp;ndash; some did it
@@ -1441,7 +1441,7 @@ and using Racket with Emacs. Feel free to drop a comment below!  Ciao!&lt;/p&gt;
    <guid>urn:http-www-example-com:-blog-2013-09-26-emacs-and-dired</guid>
    <pubDate>Thu, 26 Sep 2013 17:57:00 PHT</pubDate>
    <description>
-&lt;html&gt;&lt;img src="http://www.example.com/img/1x1.gif?utm_source=all&amp;amp;utm_medium=RSS&amp;amp;utm_campaign=%2Fblog%2F2013%2F09%2F26%2Femacs-and-dired%2F" height="1" width="1" /&gt;
+&lt;html&gt;&lt;img src="http://www.example.com/img/1x1.gif?utm_source=all&amp;utm_medium=RSS&amp;utm_campaign=%2Fblog%2F2013%2F09%2F26%2Femacs-and-dired%2F" height="1" width="1" /&gt;
  &lt;p&gt;In this post, I&amp;rsquo;ll be focusing on one of the novel ways Emacs handles
 &lt;span style="font-style: italic"&gt;"directory editing"&lt;/span&gt;. The directory editor, or &lt;span style="font-weight: bold"&gt;dired&lt;/span&gt; (pronounced
 dir-ed, not die-rd), for short, is the Emacs equivalent of a file
@@ -1707,7 +1707,7 @@ this point are not yet saved. To save the changes, press &lt;span class="stt"&gt
    <guid>urn:http-www-example-com:-blog-2013-09-10-emacs-and-hax</guid>
    <pubDate>Tue, 10 Sep 2013 13:23:34 PHT</pubDate>
    <description>
-&lt;html&gt;&lt;img src="http://www.example.com/img/1x1.gif?utm_source=all&amp;amp;utm_medium=RSS&amp;amp;utm_campaign=%2Fblog%2F2013%2F09%2F10%2Femacs-and-hax%2F" height="1" width="1" /&gt;
+&lt;html&gt;&lt;img src="http://www.example.com/img/1x1.gif?utm_source=all&amp;utm_medium=RSS&amp;utm_campaign=%2Fblog%2F2013%2F09%2F10%2Femacs-and-hax%2F" height="1" width="1" /&gt;
  &lt;p&gt;In this series of posts, I will be sharing my personal hacks on how
 I use Emacs for my day-to-day stuff. Most, if not all of the code
 contained in these posts are excerpts from the respective
@@ -2025,33 +2025,338 @@ to get it down. The above is what I have, instead.&lt;/p&gt;
    <guid>urn:http-www-example-com:-blog-2013-05-29-livefrog-a-livejournal-utility</guid>
    <pubDate>Wed, 29 May 2013 15:10:34 PHT</pubDate>
    <description>
-&lt;html&gt;&lt;img src="http://www.example.com/img/1x1.gif?utm_source=all&amp;amp;utm_medium=RSS&amp;amp;utm_campaign=%2Fblog%2F2013%2F05%2F29%2Flivefrog-a-livejournal-utility%2F" height="1" width="1" /&gt;
- &lt;p&gt;I am pleased to announce the release of &lt;span style="font-weight: bold"&gt;livefrog&lt;/span&gt;, a utility written in
-Racket, used to migrate LiveJournal posts and comments to the
-&lt;a href="http://github.com/greghendershott/frog"&gt;Frog&lt;/a&gt; blogging platform.&lt;/p&gt;
+&lt;html&gt;&lt;img src="http://www.example.com/img/1x1.gif?utm_source=all&amp;utm_medium=RSS&amp;utm_campaign=%2Fblog%2F2013%2F05%2F29%2Flivefrog-a-livejournal-utility%2F" height="1" width="1" /&gt;
+ &lt;p&gt;I am pleased to announce the release of &lt;span style="font-weight: bold"&gt;livefrog&lt;/span&gt;, a utility I wrote to
+migrate LiveJournal articles to
+&lt;a href="http://github.com/greghendershott/frog"&gt;Frog&lt;/a&gt;.&lt;/p&gt;
  &lt;p&gt;The sources, along with additional information, are located at
-&lt;a href="http://github.com/ebzzry/livefrog"&gt;http://github.com/ebzzry/livefrog&lt;/a&gt;.&lt;/p&gt;&lt;/html&gt;</description></item>
+&lt;a href="http://github.com/ebzzry/livefrog"&gt;github.com/ebzzry/livefrog&lt;/a&gt;.&lt;/p&gt;
+ &lt;h1&gt;1
+  &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Introduction)"&gt;&lt;/a&gt;Introduction&lt;/h1&gt;
+ &lt;p&gt;&lt;span style="font-weight: bold"&gt;livefrog&lt;/span&gt; is a utility written in &lt;a href="http://racket-lang.org"&gt;Racket&lt;/a&gt;, used to migrate LiveJournal posts to
+&lt;a href="https://github.com/greghendershott/frog/"&gt;Frog&lt;/a&gt;, a blogging
+platform written in Racket, too. It uses the files dumped by either
+&lt;a href="http://hewgill.com/ljdump/"&gt;ljdump&lt;/a&gt;, or
+&lt;a href="http://github.com/ceejbot/ljmigrate"&gt;ljmigrate&lt;/a&gt;.&lt;/p&gt;
+ &lt;h1&gt;2
+  &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Installation)"&gt;&lt;/a&gt;Installation&lt;/h1&gt;
+ &lt;p&gt;&lt;span style="font-weight: bold"&gt;livefrog&lt;/span&gt; is available via Racket&amp;rsquo;s
+&lt;a href="http://pkg.racket-lang.org"&gt;Planet2&lt;/a&gt;:&lt;/p&gt;
+ &lt;p&gt;&lt;/p&gt;
+ &lt;table cellspacing="0"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td&gt;
+     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ raco pkg install livefrog&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+ &lt;p&gt;If that doesn&amp;rsquo;t work, you can alternately install by fetching livefrog, and the
+dependencies, from github&lt;/p&gt;
+ &lt;p&gt;&lt;/p&gt;
+ &lt;table cellspacing="0"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td&gt;
+     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ git clone https://github.com/jbclements/sxml.git&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+   &lt;tr&gt;
+    &lt;td&gt;
+     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ git clone https://github.com/greghendershott/frog.git&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+   &lt;tr&gt;
+    &lt;td&gt;
+     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ git clone https://github.com/ebzzry/livefrog.git&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+   &lt;tr&gt;
+    &lt;td&gt;
+     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ raco pkg install frog/ sxml/ livefrog/&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+ &lt;p&gt;The trailing slashes are important, to tell &lt;span class="stt"&gt;raco&lt;/span&gt; that you are
+installing from local directories. Without it, it will try to fetch
+the sources from the internet.&lt;/p&gt;
+ &lt;h1&gt;3
+  &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Usage)"&gt;&lt;/a&gt;Usage&lt;/h1&gt;
+ &lt;p&gt;This sections contains instructions for creating files suitable for
+use with Frog.&lt;/p&gt;
+ &lt;h2&gt;3.1
+  &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Basics)"&gt;&lt;/a&gt;Basics&lt;/h2&gt;
+ &lt;p&gt;To create a Markdown file from the file entry.xml&lt;/p&gt;
+ &lt;p&gt;&lt;/p&gt;
+ &lt;table cellspacing="0"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td&gt;
+     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ raco livefrog -m entry.xml&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+ &lt;p&gt;That, however, becomes cumbersome if you&amp;rsquo;re going to manage more than a hundred
+entries. To automatically "pick up" the files created by ljdump or ljmigrate,
+and convert them to Markdown.&lt;/p&gt;
+ &lt;p&gt;&lt;/p&gt;
+ &lt;table cellspacing="0"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td&gt;
+     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ raco livefrog -am&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+ &lt;p&gt;Bear in mind, though, that ljdump and ljmigrate differ on how the trees for the
+data are created. ljdump has the following tree format, where USERNAME is your
+LiveJournal account name:&lt;/p&gt;
+ &lt;p&gt;&lt;/p&gt;
+ &lt;table cellspacing="0"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td&gt;
+     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;ljdump/&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+   &lt;tr&gt;
+    &lt;td&gt;
+     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;build&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+   &lt;tr&gt;
+    &lt;td&gt;
+     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;ChangeLog&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+   &lt;tr&gt;
+    &lt;td&gt;
+     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;convertdump.py&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+   &lt;tr&gt;
+    &lt;td&gt;
+     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;USERNAME/&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+   &lt;tr&gt;
+    &lt;td&gt;
+     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;L-1&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+   &lt;tr&gt;
+    &lt;td&gt;
+     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;L-2&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+   &lt;tr&gt;
+    &lt;td&gt;
+     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;C-2&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+   &lt;tr&gt;
+    &lt;td&gt;
+     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;L-3&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+   &lt;tr&gt;
+    &lt;td&gt;
+     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;...&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+   &lt;tr&gt;
+    &lt;td&gt;
+     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;ljdump.config&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+   &lt;tr&gt;
+    &lt;td&gt;
+     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;ljdump.config.sample&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+   &lt;tr&gt;
+    &lt;td&gt;
+     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;ljdump-gui.py&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+   &lt;tr&gt;
+    &lt;td&gt;
+     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;ljdump.py*&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+   &lt;tr&gt;
+    &lt;td&gt;
+     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;README.txt&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+   &lt;tr&gt;
+    &lt;td&gt;
+     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;TODO&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+ &lt;p&gt;ljmigrate, on the other hand, uses a different format:&lt;/p&gt;
+ &lt;p&gt;&lt;/p&gt;
+ &lt;table cellspacing="0"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td&gt;
+     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;ljmigrate/&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+   &lt;tr&gt;
+    &lt;td&gt;
+     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;LICENSE.text&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+   &lt;tr&gt;
+    &lt;td&gt;
+     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;ljmigrate.cfg&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+   &lt;tr&gt;
+    &lt;td&gt;
+     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;ljmigrate.cfg.sample&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+   &lt;tr&gt;
+    &lt;td&gt;
+     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;ljmigrate.py*&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+   &lt;tr&gt;
+    &lt;td&gt;
+     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;README.md&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+   &lt;tr&gt;
+    &lt;td&gt;
+     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;README_windows.txt&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+   &lt;tr&gt;
+    &lt;td&gt;
+     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;TODO&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+   &lt;tr&gt;
+    &lt;td&gt;
+     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;www.livejournal.com/&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+   &lt;tr&gt;
+    &lt;td&gt;
+     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;USERNAME/&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+   &lt;tr&gt;
+    &lt;td&gt;
+     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;entry00001/&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+   &lt;tr&gt;
+    &lt;td&gt;
+     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;entry.xml&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+   &lt;tr&gt;
+    &lt;td&gt;
+     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;entry00002/&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+   &lt;tr&gt;
+    &lt;td&gt;
+     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;entry.xml&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+   &lt;tr&gt;
+    &lt;td&gt;
+     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;comment.xml&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+   &lt;tr&gt;
+    &lt;td&gt;
+     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;html/&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+   &lt;tr&gt;
+    &lt;td&gt;
+     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;metadata/&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+   &lt;tr&gt;
+    &lt;td&gt;
+     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;userpics/&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+ &lt;p&gt;After creating the Markdown Frog source files, you may now copy them
+to your Frog source directory, designated at &lt;span class="stt"&gt;_src/posts/&lt;/span&gt;&lt;/p&gt;
+ &lt;h2&gt;3.2
+  &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Comments)"&gt;&lt;/a&gt;Comments&lt;/h2&gt;
+ &lt;p&gt;Frog, by default, uses &lt;a href="http://disqus.com"&gt;Disqus&lt;/a&gt; to handle the
+comments. To import comments to this platform, we need to generate an XML file
+that must adhere to Disqus&amp;rsquo; comment import rules.&lt;/p&gt;
+ &lt;p&gt;To create a file, named &lt;span class="stt"&gt;comments.xml&lt;/span&gt; that will be used for importing
+comments, to be used with &lt;a href="http://import.disqus.com/"&gt;import.disqus.com&lt;/a&gt;, using &lt;span class="stt"&gt;foo.bar.com&lt;/span&gt; as the root site:&lt;/p&gt;
+ &lt;p&gt;&lt;/p&gt;
+ &lt;table cellspacing="0"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td&gt;
+     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ raco livefrog -s foo.bar.com -c comments.xml&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+ &lt;h1&gt;4
+  &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Updating)"&gt;&lt;/a&gt;Updating&lt;/h1&gt;
+ &lt;p&gt;If you installed livefrog using Planet2, you can update it by running:&lt;/p&gt;
+ &lt;p&gt;&lt;/p&gt;
+ &lt;table cellspacing="0"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td&gt;
+     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ raco pkg update livefrog&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+ &lt;p&gt;However, if you used the latter method, you may update it by pulling
+the updates, uninstalling livefrog, then installing it
+again:&lt;/p&gt;
+ &lt;p&gt;&lt;/p&gt;
+ &lt;table cellspacing="0"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td&gt;
+     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ cd livefrog&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+   &lt;tr&gt;
+    &lt;td&gt;
+     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ git pull origin master&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+   &lt;tr&gt;
+    &lt;td&gt;
+     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ cd ..&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+   &lt;tr&gt;
+    &lt;td&gt;
+     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ raco pkg remove livefrog&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+   &lt;tr&gt;
+    &lt;td&gt;
+     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ raco pkg install livefrog/&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+ &lt;h1&gt;5
+  &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Miscellany)"&gt;&lt;/a&gt;Miscellany&lt;/h1&gt;
+ &lt;p&gt;To reduce typing, you may optionally create an alias to &lt;span class="stt"&gt;raco
+livefrog&lt;/span&gt; in your shell.&lt;/p&gt;
+ &lt;p&gt;Sh-like shells:&lt;/p&gt;
+ &lt;p&gt;&lt;/p&gt;
+ &lt;table cellspacing="0"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td&gt;
+     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ echo 'alias livefrog="raco livefrog"' &amp;gt;&amp;gt; ~/.bashrc&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+ &lt;p&gt;Csh-like shells:&lt;/p&gt;
+ &lt;p&gt;&lt;/p&gt;
+ &lt;table cellspacing="0"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td&gt;
+     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ echo 'alias livefrog raco livefrog' &amp;gt;&amp;gt; ~/.cshrc&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+ &lt;p&gt;Replace &lt;span class="stt"&gt;.bashrc&lt;/span&gt;, and &lt;span class="stt"&gt;.cshrc&lt;/span&gt;, with the appropriate init file for
+your shell.&lt;/p&gt;&lt;/html&gt;</description></item>
   <item>
    <title>Usync: A Data Synchronizer</title>
    <link>http://www.example.com/blog/2013/05/21/usync-a-data-synchronizer/?utm_source=all&amp;utm_medium=RSS</link>
    <guid>urn:http-www-example-com:-blog-2013-05-21-usync-a-data-synchronizer</guid>
    <pubDate>Tue, 21 May 2013 19:18:33 PHT</pubDate>
    <description>
-&lt;html&gt;&lt;img src="http://www.example.com/img/1x1.gif?utm_source=all&amp;amp;utm_medium=RSS&amp;amp;utm_campaign=%2Fblog%2F2013%2F05%2F21%2Fusync-a-data-synchronizer%2F" height="1" width="1" /&gt;
+&lt;html&gt;&lt;img src="http://www.example.com/img/1x1.gif?utm_source=all&amp;utm_medium=RSS&amp;utm_campaign=%2Fblog%2F2013%2F05%2F21%2Fusync-a-data-synchronizer%2F" height="1" width="1" /&gt;
  &lt;p&gt;I am pleased to announce the release of &lt;span style="font-weight: bold"&gt;Usync&lt;/span&gt;, a site-to-site
 synchronization tool written in &lt;a href="http://www.scsh.net"&gt;Scsh&lt;/a&gt;. It
 makes use of &lt;a href="http://www.cis.upenn.edu/~bcpierce/unison/"&gt;Unison&lt;/a&gt;,
 and &lt;a href="http://rsync.samba.org/"&gt;rsync&lt;/a&gt;, for bi- and uni-directional
 synchronizations, respectively.&lt;/p&gt;
  &lt;p&gt;The sources, along with additional information, are located at
-&lt;a href="http://github.com/ebzzry/usync"&gt;http://github.com/ebzzry/usync&lt;/a&gt;.&lt;/p&gt;&lt;/html&gt;</description></item>
+&lt;a href="http://github.com/ebzzry/usync"&gt;github.com/ebzzry/usync&lt;/a&gt;.&lt;/p&gt;
+ &lt;h1&gt;1
+  &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Introduction)"&gt;&lt;/a&gt;Introduction&lt;/h1&gt;
+ &lt;p&gt;Site-to-site synchronizations are usually needed, when two locations, which are
+called sites, in this article, make file updates independently. Let&amp;rsquo;s say the
+company &lt;span style="font-style: italic"&gt;Foo&lt;/span&gt; has two offices. In the first office, they have the
+accounting, and logistics departments. In the second office, they have the IT,
+and HR departments. Both have a common &lt;span class="stt"&gt;/pub&lt;/span&gt; tree, that has subdirectories
+assigned to each department. Without synchronization, when the first office
+needs information from the second office, they&amp;rsquo;d have to pull the updates,
+manually. With synchronization, the first office can access the files from the
+second office, as if the IT and HR departments, were in the first office. Usync
+helps to achieve this.&lt;/p&gt;
+ &lt;h1&gt;2
+  &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Basic_.Usage)"&gt;&lt;/a&gt;Basic Usage&lt;/h1&gt;
+ &lt;p&gt;To perform two-way synchronization of the directory &lt;span class="stt"&gt;/pub/yot/ninam&lt;/span&gt;,
+between the current host, to the hosts &lt;span class="stt"&gt;tarupam&lt;/span&gt;, and &lt;span class="stt"&gt;taubetmo&lt;/span&gt;,
+while preserving the directory structure remotely (take note, that
+there must be no spaces between the hosts specification, due to the
+&lt;span class="stt"&gt;IFS&lt;/span&gt; environment variable, found in most shells):&lt;/p&gt;
+ &lt;p&gt;&lt;/p&gt;
+ &lt;table cellspacing="0"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td&gt;
+     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ usync /pub/yot/ninam/ tarupam,taubetmo&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+ &lt;p&gt;The command above will perform two-way synchronization of the diretory
+&lt;span class="stt"&gt;ninam/&lt;/span&gt; found under &lt;span class="stt"&gt;/pub/yot/&lt;/span&gt;, to &lt;span class="stt"&gt;tarupam:/pub/yot/&lt;/span&gt;, and
+&lt;span class="stt"&gt;taubetmo:/pub/yot/&lt;/span&gt;.&lt;/p&gt;
+ &lt;p&gt;Using our example above, the two-way synchronization system basically
+tells that if the tree &lt;span class="stt"&gt;tarupam:/pub/yot/ninam/&lt;/span&gt; contains new and/or
+updated items, compared with &lt;span class="stt"&gt;localhost:/pub/yot/ninam/&lt;/span&gt;, and
+&lt;span class="stt"&gt;localhost:/pub/yot/ninam/&lt;/span&gt; also happens to have new and/or updated
+items, then, they will trade updates.&lt;/p&gt;
+ &lt;p&gt;Ideally, the result is that &lt;span class="stt"&gt;localhost:/pub/yot/ninam/&lt;/span&gt;,
+&lt;span class="stt"&gt;tarupam:/pub/yot/ninam/&lt;/span&gt;, and &lt;span class="stt"&gt;taubetmo:/pub/yot/ninam/&lt;/span&gt;, are all
+equal.&lt;/p&gt;
+ &lt;h1&gt;3
+  &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Semi-advanced_.Usage)"&gt;&lt;/a&gt;Semi-advanced Usage&lt;/h1&gt;
+ &lt;p&gt;It is also possible to perform synchronization of multiple files, and
+directories, to remote hosts. To do so, run:&lt;/p&gt;
+ &lt;p&gt;&lt;/p&gt;
+ &lt;table cellspacing="0"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td&gt;
+     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ usync /pub/yot/ninam/ ~/file.text ~reyn/*.blend tarupam,taubetmo&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+ &lt;p&gt;The command above will perform two-way synchronization of the paths
+&lt;span class="stt"&gt;/pub/yot/ninam/&lt;/span&gt;, &lt;span class="stt"&gt;~/file.text&lt;/span&gt;, and &lt;span class="stt"&gt;~reyn/*.blend&lt;/span&gt; to the
+remote hosts &lt;span class="stt"&gt;tarupam&lt;/span&gt;, and &lt;span class="stt"&gt;taubetmo&lt;/span&gt;, using the same directory
+structuring system described above.&lt;/p&gt;
+ &lt;p&gt;If you want to perform one-way synchronization, of the above, like
+&lt;span class="stt"&gt;rsync&lt;/span&gt;, run:&lt;/p&gt;
+ &lt;p&gt;&lt;/p&gt;
+ &lt;table cellspacing="0"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td&gt;
+     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ usync --one-way --prefer-local /pub/yot/ninam/ ~/file.text ~reyn/draft.blend tarupam,taubetmo&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+ &lt;p&gt;For more usage information, run:&lt;/p&gt;
+ &lt;p&gt;&lt;/p&gt;
+ &lt;table cellspacing="0"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td&gt;
+     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ usync --help&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+ &lt;h1&gt;4
+  &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Caveats)"&gt;&lt;/a&gt;Caveats&lt;/h1&gt;
+ &lt;p&gt;This program has been used on FreeBSD, hence making the shebang
+line contain &lt;span class="stt"&gt;/usr/local/bin/scsh&lt;/span&gt;. Please change it, accordingly.&lt;/p&gt;&lt;/html&gt;</description></item>
   <item>
    <title>Squandered Relentlessness</title>
    <link>http://www.example.com/blog/2013/05/09/squandered-relentlessness/?utm_source=all&amp;utm_medium=RSS</link>
    <guid>urn:http-www-example-com:-blog-2013-05-09-squandered-relentlessness</guid>
    <pubDate>Thu, 09 May 2013 16:11:03 PHT</pubDate>
    <description>
-&lt;html&gt;&lt;img src="http://www.example.com/img/1x1.gif?utm_source=all&amp;amp;utm_medium=RSS&amp;amp;utm_campaign=%2Fblog%2F2013%2F05%2F09%2Fsquandered-relentlessness%2F" height="1" width="1" /&gt;
+&lt;html&gt;&lt;img src="http://www.example.com/img/1x1.gif?utm_source=all&amp;utm_medium=RSS&amp;utm_campaign=%2Fblog%2F2013%2F05%2F09%2Fsquandered-relentlessness%2F" height="1" width="1" /&gt;
  &lt;p&gt;There is a disturbing, and eerie sensation that I feel whenever the
 damping realization that I am no longer a young child, is observed in
 my consciousness. The uneasy struggle between learning to let go of my
@@ -2151,7 +2456,7 @@ another ship propel us forward, we have triumphed.&lt;/p&gt;&lt;/html&gt;</descr
    <guid>urn:http-www-example-com:-blog-2013-05-09-over-under-and-elsewhere</guid>
    <pubDate>Thu, 09 May 2013 16:08:36 PHT</pubDate>
    <description>
-&lt;html&gt;&lt;img src="http://www.example.com/img/1x1.gif?utm_source=all&amp;amp;utm_medium=RSS&amp;amp;utm_campaign=%2Fblog%2F2013%2F05%2F09%2Fover-under-and-elsewhere%2F" height="1" width="1" /&gt;
+&lt;html&gt;&lt;img src="http://www.example.com/img/1x1.gif?utm_source=all&amp;utm_medium=RSS&amp;utm_campaign=%2Fblog%2F2013%2F05%2F09%2Fover-under-and-elsewhere%2F" height="1" width="1" /&gt;
  &lt;p&gt;Our cunning ability for oversight is deridingly high. Whether it may
 be solving a problem or just trying to be creative. Our impulse to
 over-engineer is unusually prevalent if our initial expectations are
@@ -2220,7 +2525,7 @@ us.&lt;/p&gt;&lt;/html&gt;</description></item>
    <guid>urn:http-www-example-com:-blog-2013-05-09-the-y-combinator-in-six-easy-steps</guid>
    <pubDate>Thu, 09 May 2013 12:43:11 PHT</pubDate>
    <description>
-&lt;html&gt;&lt;img src="http://www.example.com/img/1x1.gif?utm_source=all&amp;amp;utm_medium=RSS&amp;amp;utm_campaign=%2Fblog%2F2013%2F05%2F09%2Fthe-y-combinator-in-six-easy-steps%2F" height="1" width="1" /&gt;
+&lt;html&gt;&lt;img src="http://www.example.com/img/1x1.gif?utm_source=all&amp;utm_medium=RSS&amp;utm_campaign=%2Fblog%2F2013%2F05%2F09%2Fthe-y-combinator-in-six-easy-steps%2F" height="1" width="1" /&gt;
  &lt;p&gt;A lot of us have been taught that to be able to define a recursive procedure,
 the recursive invocation must "use" the name of the recursive procedure. The
 &lt;a href="http://en.wikipedia.org/wiki/Fixed-point_combinator#Y_combinator"&gt;Y combinator&lt;/a&gt;, however, lets us perform recursion, without referring to the

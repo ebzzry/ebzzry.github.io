@@ -7,14 +7,14 @@
  <updated>2014-02-17T16:02:38Z</updated>
  <entry>
   <title type="text">Emacs and Mail</title>
-  <link rel="alternate" href="http://www.example.com/blog/2014/02/17/emacs-and-mail/?utm_source=emacs&amp;utm_medium=Atom" />
+  <link rel="alternate" href="http://www.example.com/blog/2014/02/17/emacs-and-mail/?utm_source=emacs&utm_medium=Atom" />
   <id>urn:http-www-example-com:-blog-2014-02-17-emacs-and-mail</id>
   <published>2014-02-17T16:02:38Z</published>
   <updated>2014-02-17T16:02:38Z</updated>
   <author>
    <name>Rommel Martinez</name></author>
   <content type="html">
-&lt;html&gt;&lt;img src="http://www.example.com/img/1x1.gif?utm_source=emacs&amp;amp;utm_medium=Atom&amp;amp;utm_campaign=%2Fblog%2F2014%2F02%2F17%2Femacs-and-mail%2F" height="1" width="1" /&gt;
+&lt;html&gt;&lt;img src="http://www.example.com/img/1x1.gif?utm_source=emacs&amp;utm_medium=Atom&amp;utm_campaign=%2Fblog%2F2014%2F02%2F17%2Femacs-and-mail%2F" height="1" width="1" /&gt;
  &lt;p&gt;In this day and age, checking our mail means going to the website of our mail
 provider, or using a mobile app. However, there are some cases when we want to
 have more control over our messages, especially when the feature we want is not
@@ -378,14 +378,14 @@ and &lt;a href="http://www.djcbsoftware.nl/code/mu/mu4e/index.html"&gt;mu4e&lt;/
 documentation, to fill in missing gaps, that you may have.&lt;/p&gt;&lt;/html&gt;</content></entry>
  <entry>
   <title type="text">Emacs and Racket</title>
-  <link rel="alternate" href="http://www.example.com/blog/2013/09/29/emacs-and-racket/?utm_source=emacs&amp;utm_medium=Atom" />
+  <link rel="alternate" href="http://www.example.com/blog/2013/09/29/emacs-and-racket/?utm_source=emacs&utm_medium=Atom" />
   <id>urn:http-www-example-com:-blog-2013-09-29-emacs-and-racket</id>
   <published>2013-09-29T22:21:19Z</published>
   <updated>2013-09-29T22:21:19Z</updated>
   <author>
    <name>Rommel Martinez</name></author>
   <content type="html">
-&lt;html&gt;&lt;img src="http://www.example.com/img/1x1.gif?utm_source=emacs&amp;amp;utm_medium=Atom&amp;amp;utm_campaign=%2Fblog%2F2013%2F09%2F29%2Femacs-and-racket%2F" height="1" width="1" /&gt;
+&lt;html&gt;&lt;img src="http://www.example.com/img/1x1.gif?utm_source=emacs&amp;utm_medium=Atom&amp;utm_campaign=%2Fblog%2F2013%2F09%2F29%2Femacs-and-racket%2F" height="1" width="1" /&gt;
  &lt;p&gt;In this post, I&amp;rsquo;ll discuss the easiest approach that I took to setup up a
 &lt;a href="http://racket-lang.org"&gt;Racket&lt;/a&gt; development environment on
 Emacs. Take note, that this is not the only approach available &amp;ndash; some did it
@@ -672,14 +672,14 @@ above are by in no way representative of community-advised ways of installing
 and using Racket with Emacs. Feel free to drop a comment below!  Ciao!&lt;/p&gt;&lt;/html&gt;</content></entry>
  <entry>
   <title type="text">Emacs and Dired</title>
-  <link rel="alternate" href="http://www.example.com/blog/2013/09/26/emacs-and-dired/?utm_source=emacs&amp;utm_medium=Atom" />
+  <link rel="alternate" href="http://www.example.com/blog/2013/09/26/emacs-and-dired/?utm_source=emacs&utm_medium=Atom" />
   <id>urn:http-www-example-com:-blog-2013-09-26-emacs-and-dired</id>
   <published>2013-09-26T17:57:00Z</published>
   <updated>2013-09-26T17:57:00Z</updated>
   <author>
    <name>Rommel Martinez</name></author>
   <content type="html">
-&lt;html&gt;&lt;img src="http://www.example.com/img/1x1.gif?utm_source=emacs&amp;amp;utm_medium=Atom&amp;amp;utm_campaign=%2Fblog%2F2013%2F09%2F26%2Femacs-and-dired%2F" height="1" width="1" /&gt;
+&lt;html&gt;&lt;img src="http://www.example.com/img/1x1.gif?utm_source=emacs&amp;utm_medium=Atom&amp;utm_campaign=%2Fblog%2F2013%2F09%2F26%2Femacs-and-dired%2F" height="1" width="1" /&gt;
  &lt;p&gt;In this post, I&amp;rsquo;ll be focusing on one of the novel ways Emacs handles
 &lt;span style="font-style: italic"&gt;"directory editing"&lt;/span&gt;. The directory editor, or &lt;span style="font-weight: bold"&gt;dired&lt;/span&gt; (pronounced
 dir-ed, not die-rd), for short, is the Emacs equivalent of a file
@@ -941,14 +941,14 @@ this point are not yet saved. To save the changes, press &lt;span class="stt"&gt
  &lt;p&gt;Well, that is it for now. Ciao!&lt;/p&gt;&lt;/html&gt;</content></entry>
  <entry>
   <title type="text">Emacs and Hax</title>
-  <link rel="alternate" href="http://www.example.com/blog/2013/09/10/emacs-and-hax/?utm_source=emacs&amp;utm_medium=Atom" />
+  <link rel="alternate" href="http://www.example.com/blog/2013/09/10/emacs-and-hax/?utm_source=emacs&utm_medium=Atom" />
   <id>urn:http-www-example-com:-blog-2013-09-10-emacs-and-hax</id>
   <published>2013-09-10T13:23:34Z</published>
   <updated>2013-09-10T13:23:34Z</updated>
   <author>
    <name>Rommel Martinez</name></author>
   <content type="html">
-&lt;html&gt;&lt;img src="http://www.example.com/img/1x1.gif?utm_source=emacs&amp;amp;utm_medium=Atom&amp;amp;utm_campaign=%2Fblog%2F2013%2F09%2F10%2Femacs-and-hax%2F" height="1" width="1" /&gt;
+&lt;html&gt;&lt;img src="http://www.example.com/img/1x1.gif?utm_source=emacs&amp;utm_medium=Atom&amp;utm_campaign=%2Fblog%2F2013%2F09%2F10%2Femacs-and-hax%2F" height="1" width="1" /&gt;
  &lt;p&gt;In this series of posts, I will be sharing my personal hacks on how
 I use Emacs for my day-to-day stuff. Most, if not all of the code
 contained in these posts are excerpts from the respective
