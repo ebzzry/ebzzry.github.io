@@ -7,14 +7,14 @@
  <updated>2013-09-29T22:21:19Z</updated>
  <entry>
   <title type="text">Emacs and Racket</title>
-  <link rel="alternate" href="http://www.example.com/blog/2013/09/29/emacs-and-racket/?utm_source=programming&utm_medium=Atom" />
+  <link rel="alternate" href="http://www.example.com/blog/2013/09/29/emacs-and-racket/?utm_source=programming&amp;utm_medium=Atom" />
   <id>urn:http-www-example-com:-blog-2013-09-29-emacs-and-racket</id>
   <published>2013-09-29T22:21:19Z</published>
   <updated>2013-09-29T22:21:19Z</updated>
   <author>
    <name>Rommel Martinez</name></author>
   <content type="html">
-&lt;html&gt;&lt;img src="http://www.example.com/img/1x1.gif?utm_source=programming&amp;utm_medium=Atom&amp;utm_campaign=%2Fblog%2F2013%2F09%2F29%2Femacs-and-racket%2F" height="1" width="1" /&gt;
+&lt;html&gt;&lt;img src="http://www.example.com/img/1x1.gif?utm_source=programming&amp;amp;utm_medium=Atom&amp;amp;utm_campaign=%2Fblog%2F2013%2F09%2F29%2Femacs-and-racket%2F" height="1" width="1" /&gt;
  &lt;p&gt;In this post, I&amp;rsquo;ll discuss the easiest approach that I took to setup up a
 &lt;a href="http://racket-lang.org"&gt;Racket&lt;/a&gt; development environment on
 Emacs. Take note, that this is not the only approach available &amp;ndash; some did it
@@ -301,14 +301,14 @@ above are by in no way representative of community-advised ways of installing
 and using Racket with Emacs. Feel free to drop a comment below!  Ciao!&lt;/p&gt;&lt;/html&gt;</content></entry>
  <entry>
   <title type="text">Emacs and Dired</title>
-  <link rel="alternate" href="http://www.example.com/blog/2013/09/26/emacs-and-dired/?utm_source=programming&utm_medium=Atom" />
+  <link rel="alternate" href="http://www.example.com/blog/2013/09/26/emacs-and-dired/?utm_source=programming&amp;utm_medium=Atom" />
   <id>urn:http-www-example-com:-blog-2013-09-26-emacs-and-dired</id>
   <published>2013-09-26T17:57:00Z</published>
   <updated>2013-09-26T17:57:00Z</updated>
   <author>
    <name>Rommel Martinez</name></author>
   <content type="html">
-&lt;html&gt;&lt;img src="http://www.example.com/img/1x1.gif?utm_source=programming&amp;utm_medium=Atom&amp;utm_campaign=%2Fblog%2F2013%2F09%2F26%2Femacs-and-dired%2F" height="1" width="1" /&gt;
+&lt;html&gt;&lt;img src="http://www.example.com/img/1x1.gif?utm_source=programming&amp;amp;utm_medium=Atom&amp;amp;utm_campaign=%2Fblog%2F2013%2F09%2F26%2Femacs-and-dired%2F" height="1" width="1" /&gt;
  &lt;p&gt;In this post, I&amp;rsquo;ll be focusing on one of the novel ways Emacs handles
 &lt;span style="font-style: italic"&gt;"directory editing"&lt;/span&gt;. The directory editor, or &lt;span style="font-weight: bold"&gt;dired&lt;/span&gt; (pronounced
 dir-ed, not die-rd), for short, is the Emacs equivalent of a file
@@ -570,20 +570,20 @@ this point are not yet saved. To save the changes, press &lt;span class="stt"&gt
  &lt;p&gt;Well, that is it for now. Ciao!&lt;/p&gt;&lt;/html&gt;</content></entry>
  <entry>
   <title type="text">Emacs and Hax</title>
-  <link rel="alternate" href="http://www.example.com/blog/2013/09/10/emacs-and-hax/?utm_source=programming&utm_medium=Atom" />
+  <link rel="alternate" href="http://www.example.com/blog/2013/09/10/emacs-and-hax/?utm_source=programming&amp;utm_medium=Atom" />
   <id>urn:http-www-example-com:-blog-2013-09-10-emacs-and-hax</id>
   <published>2013-09-10T13:23:34Z</published>
   <updated>2013-09-10T13:23:34Z</updated>
   <author>
    <name>Rommel Martinez</name></author>
   <content type="html">
-&lt;html&gt;&lt;img src="http://www.example.com/img/1x1.gif?utm_source=programming&amp;utm_medium=Atom&amp;utm_campaign=%2Fblog%2F2013%2F09%2F10%2Femacs-and-hax%2F" height="1" width="1" /&gt;
+&lt;html&gt;&lt;img src="http://www.example.com/img/1x1.gif?utm_source=programming&amp;amp;utm_medium=Atom&amp;amp;utm_campaign=%2Fblog%2F2013%2F09%2F10%2Femacs-and-hax%2F" height="1" width="1" /&gt;
  &lt;p&gt;In this series of posts, I will be sharing my personal hacks on how
 I use Emacs for my day-to-day stuff. Most, if not all of the code
 contained in these posts are excerpts from the respective
 configuration files that I use.&lt;/p&gt;
  &lt;p&gt;The rest of the configuration can be found at
-&lt;a href="http://github.com/ebzzry/dotemacs"&gt;http://github.com/ebzzry/dotemacs&lt;/a&gt;.&lt;/p&gt;
+&lt;a href="http://github.com/ebzzry/dotemacs"&gt;github.com/ebzzry/dotemacs&lt;/a&gt;.&lt;/p&gt;
  &lt;p&gt;&lt;/p&gt;
  &lt;table cellspacing="0"&gt;
   &lt;tbody&gt;
@@ -891,14 +891,14 @@ to get it down. The above is what I have, instead.&lt;/p&gt;
  &lt;p&gt;Well, that is it for now. Ciao!&lt;/p&gt;&lt;/html&gt;</content></entry>
  <entry>
   <title type="text">Livefrog: A LiveJournal Utility</title>
-  <link rel="alternate" href="http://www.example.com/blog/2013/05/29/livefrog-a-livejournal-utility/?utm_source=programming&utm_medium=Atom" />
+  <link rel="alternate" href="http://www.example.com/blog/2013/05/29/livefrog-a-livejournal-utility/?utm_source=programming&amp;utm_medium=Atom" />
   <id>urn:http-www-example-com:-blog-2013-05-29-livefrog-a-livejournal-utility</id>
   <published>2013-05-29T15:10:34Z</published>
   <updated>2013-05-29T15:10:34Z</updated>
   <author>
    <name>Rommel Martinez</name></author>
   <content type="html">
-&lt;html&gt;&lt;img src="http://www.example.com/img/1x1.gif?utm_source=programming&amp;utm_medium=Atom&amp;utm_campaign=%2Fblog%2F2013%2F05%2F29%2Flivefrog-a-livejournal-utility%2F" height="1" width="1" /&gt;
+&lt;html&gt;&lt;img src="http://www.example.com/img/1x1.gif?utm_source=programming&amp;amp;utm_medium=Atom&amp;amp;utm_campaign=%2Fblog%2F2013%2F05%2F29%2Flivefrog-a-livejournal-utility%2F" height="1" width="1" /&gt;
  &lt;p&gt;I am pleased to announce the release of &lt;span style="font-weight: bold"&gt;livefrog&lt;/span&gt;, a utility I wrote to
 migrate LiveJournal articles to
 &lt;a href="http://github.com/greghendershott/frog"&gt;Frog&lt;/a&gt;.&lt;/p&gt;
@@ -1142,14 +1142,14 @@ livefrog&lt;/span&gt; in your shell.&lt;/p&gt;
 your shell.&lt;/p&gt;&lt;/html&gt;</content></entry>
  <entry>
   <title type="text">Usync: A Data Synchronizer</title>
-  <link rel="alternate" href="http://www.example.com/blog/2013/05/21/usync-a-data-synchronizer/?utm_source=programming&utm_medium=Atom" />
+  <link rel="alternate" href="http://www.example.com/blog/2013/05/21/usync-a-data-synchronizer/?utm_source=programming&amp;utm_medium=Atom" />
   <id>urn:http-www-example-com:-blog-2013-05-21-usync-a-data-synchronizer</id>
   <published>2013-05-21T19:18:33Z</published>
   <updated>2013-05-21T19:18:33Z</updated>
   <author>
    <name>Rommel Martinez</name></author>
   <content type="html">
-&lt;html&gt;&lt;img src="http://www.example.com/img/1x1.gif?utm_source=programming&amp;utm_medium=Atom&amp;utm_campaign=%2Fblog%2F2013%2F05%2F21%2Fusync-a-data-synchronizer%2F" height="1" width="1" /&gt;
+&lt;html&gt;&lt;img src="http://www.example.com/img/1x1.gif?utm_source=programming&amp;amp;utm_medium=Atom&amp;amp;utm_campaign=%2Fblog%2F2013%2F05%2F21%2Fusync-a-data-synchronizer%2F" height="1" width="1" /&gt;
  &lt;p&gt;I am pleased to announce the release of &lt;span style="font-weight: bold"&gt;Usync&lt;/span&gt;, a site-to-site
 synchronization tool written in &lt;a href="http://www.scsh.net"&gt;Scsh&lt;/a&gt;. It
 makes use of &lt;a href="http://www.cis.upenn.edu/~bcpierce/unison/"&gt;Unison&lt;/a&gt;,
@@ -1228,14 +1228,14 @@ structuring system described above.&lt;/p&gt;
 line contain &lt;span class="stt"&gt;/usr/local/bin/scsh&lt;/span&gt;. Please change it, accordingly.&lt;/p&gt;&lt;/html&gt;</content></entry>
  <entry>
   <title type="text">The Y Combinator in Six Easy Steps</title>
-  <link rel="alternate" href="http://www.example.com/blog/2013/05/09/the-y-combinator-in-six-easy-steps/?utm_source=programming&utm_medium=Atom" />
+  <link rel="alternate" href="http://www.example.com/blog/2013/05/09/the-y-combinator-in-six-easy-steps/?utm_source=programming&amp;utm_medium=Atom" />
   <id>urn:http-www-example-com:-blog-2013-05-09-the-y-combinator-in-six-easy-steps</id>
   <published>2013-05-09T12:43:11Z</published>
   <updated>2013-05-09T12:43:11Z</updated>
   <author>
    <name>Rommel Martinez</name></author>
   <content type="html">
-&lt;html&gt;&lt;img src="http://www.example.com/img/1x1.gif?utm_source=programming&amp;utm_medium=Atom&amp;utm_campaign=%2Fblog%2F2013%2F05%2F09%2Fthe-y-combinator-in-six-easy-steps%2F" height="1" width="1" /&gt;
+&lt;html&gt;&lt;img src="http://www.example.com/img/1x1.gif?utm_source=programming&amp;amp;utm_medium=Atom&amp;amp;utm_campaign=%2Fblog%2F2013%2F05%2F09%2Fthe-y-combinator-in-six-easy-steps%2F" height="1" width="1" /&gt;
  &lt;p&gt;A lot of us have been taught that to be able to define a recursive procedure,
 the recursive invocation must "use" the name of the recursive procedure. The
 &lt;a href="http://en.wikipedia.org/wiki/Fixed-point_combinator#Y_combinator"&gt;Y combinator&lt;/a&gt;, however, lets us perform recursion, without referring to the

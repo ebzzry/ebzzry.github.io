@@ -13,7 +13,7 @@
    <guid>urn:http-www-example-com:-blog-2014-02-21-an-introduction-to-ugarit</guid>
    <pubDate>Fri, 21 Feb 2014 12:07:18 PHT</pubDate>
    <description>
-&lt;html&gt;&lt;img src="http://www.example.com/img/1x1.gif?utm_source=backups&amp;utm_medium=RSS&amp;utm_campaign=%2Fblog%2F2014%2F02%2F21%2Fan-introduction-to-ugarit%2F" height="1" width="1" /&gt;
+&lt;html&gt;&lt;img src="http://www.example.com/img/1x1.gif?utm_source=backups&amp;amp;utm_medium=RSS&amp;amp;utm_campaign=%2Fblog%2F2014%2F02%2F21%2Fan-introduction-to-ugarit%2F" height="1" width="1" /&gt;
  &lt;p&gt;how many times have we experienced hindsight, after a catastrophic event has
 happened? how many times have we told ourselves that had we created backups of
 our precious data, we wouldn&amp;rsquo;t be in that dire situation, pulling our hairs out
