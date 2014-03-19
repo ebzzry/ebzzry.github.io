@@ -7,14 +7,14 @@
  <updated>2014-02-19T14:07:11Z</updated>
  <entry>
   <title type="text">An Introduction To Frog</title>
-  <link rel="alternate" href="http://www.example.com/blog/2014/02/19/an-introduction-to-frog/?utm_source=web&utm_medium=Atom" />
+  <link rel="alternate" href="http://www.example.com/blog/2014/02/19/an-introduction-to-frog/?utm_source=web&amp;utm_medium=Atom" />
   <id>urn:http-www-example-com:-blog-2014-02-19-an-introduction-to-frog</id>
   <published>2014-02-19T14:07:11Z</published>
   <updated>2014-02-19T14:07:11Z</updated>
   <author>
    <name>Rommel Martinez</name></author>
   <content type="html">
-&lt;html&gt;&lt;img src="http://www.example.com/img/1x1.gif?utm_source=web&amp;utm_medium=Atom&amp;utm_campaign=%2Fblog%2F2014%2F02%2F19%2Fan-introduction-to-frog%2F" height="1" width="1" /&gt;
+&lt;html&gt;&lt;img src="http://www.example.com/img/1x1.gif?utm_source=web&amp;amp;utm_medium=Atom&amp;amp;utm_campaign=%2Fblog%2F2014%2F02%2F19%2Fan-introduction-to-frog%2F" height="1" width="1" /&gt;
  &lt;p&gt;When publishing blog content to the web, most would rely on pre-fabricated
 services, that do most of the heavy lifting. However, there are instances when
 we want to have more control over our stuff. A good example of which are the

@@ -11,7 +11,7 @@ configuration files that I use.
 
 The rest of the configuration can be found at
 @hyperlink["http://github.com/ebzzry/dotemacs"
-"http://github.com/ebzzry/dotemacs"].
+"github.com/ebzzry/dotemacs"].
 
 <!-- more -->
 
