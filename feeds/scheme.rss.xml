@@ -13,7 +13,7 @@
    <guid>urn:http-www-example-com:-blog-2013-05-21-usync-a-data-synchronizer</guid>
    <pubDate>Tue, 21 May 2013 19:18:33 PHT</pubDate>
    <description>
-&lt;html&gt;&lt;img src="http://www.example.com/img/1x1.gif?utm_source=scheme&amp;utm_medium=RSS&amp;utm_campaign=%2Fblog%2F2013%2F05%2F21%2Fusync-a-data-synchronizer%2F" height="1" width="1" /&gt;
+&lt;html&gt;&lt;img src="http://www.example.com/img/1x1.gif?utm_source=scheme&amp;amp;utm_medium=RSS&amp;amp;utm_campaign=%2Fblog%2F2013%2F05%2F21%2Fusync-a-data-synchronizer%2F" height="1" width="1" /&gt;
  &lt;p&gt;I am pleased to announce the release of &lt;span style="font-weight: bold"&gt;Usync&lt;/span&gt;, a site-to-site
 synchronization tool written in &lt;a href="http://www.scsh.net"&gt;Scsh&lt;/a&gt;. It
 makes use of &lt;a href="http://www.cis.upenn.edu/~bcpierce/unison/"&gt;Unison&lt;/a&gt;,

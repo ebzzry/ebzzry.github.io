@@ -7,14 +7,14 @@
  <updated>2014-02-19T14:07:11Z</updated>
  <entry>
   <title type="text">An Introduction To Frog</title>
-  <link rel="alternate" href="http://www.example.com/blog/2014/02/19/an-introduction-to-frog/?utm_source=racket&utm_medium=Atom" />
+  <link rel="alternate" href="http://www.example.com/blog/2014/02/19/an-introduction-to-frog/?utm_source=racket&amp;utm_medium=Atom" />
   <id>urn:http-www-example-com:-blog-2014-02-19-an-introduction-to-frog</id>
   <published>2014-02-19T14:07:11Z</published>
   <updated>2014-02-19T14:07:11Z</updated>
   <author>
    <name>Rommel Martinez</name></author>
   <content type="html">
-&lt;html&gt;&lt;img src="http://www.example.com/img/1x1.gif?utm_source=racket&amp;utm_medium=Atom&amp;utm_campaign=%2Fblog%2F2014%2F02%2F19%2Fan-introduction-to-frog%2F" height="1" width="1" /&gt;
+&lt;html&gt;&lt;img src="http://www.example.com/img/1x1.gif?utm_source=racket&amp;amp;utm_medium=Atom&amp;amp;utm_campaign=%2Fblog%2F2014%2F02%2F19%2Fan-introduction-to-frog%2F" height="1" width="1" /&gt;
  &lt;p&gt;When publishing blog content to the web, most would rely on pre-fabricated
 services, that do most of the heavy lifting. However, there are instances when
 we want to have more control over our stuff. A good example of which are the
@@ -484,14 +484,14 @@ Hendershott&lt;/a&gt;. If you want to learn more about it, head over to
  &lt;p&gt;&lt;span style="font-style: italic"&gt;Ribbit!&lt;/span&gt;&lt;/p&gt;&lt;/html&gt;</content></entry>
  <entry>
   <title type="text">Emacs and Racket</title>
-  <link rel="alternate" href="http://www.example.com/blog/2013/09/29/emacs-and-racket/?utm_source=racket&utm_medium=Atom" />
+  <link rel="alternate" href="http://www.example.com/blog/2013/09/29/emacs-and-racket/?utm_source=racket&amp;utm_medium=Atom" />
   <id>urn:http-www-example-com:-blog-2013-09-29-emacs-and-racket</id>
   <published>2013-09-29T22:21:19Z</published>
   <updated>2013-09-29T22:21:19Z</updated>
   <author>
    <name>Rommel Martinez</name></author>
   <content type="html">
-&lt;html&gt;&lt;img src="http://www.example.com/img/1x1.gif?utm_source=racket&amp;utm_medium=Atom&amp;utm_campaign=%2Fblog%2F2013%2F09%2F29%2Femacs-and-racket%2F" height="1" width="1" /&gt;
+&lt;html&gt;&lt;img src="http://www.example.com/img/1x1.gif?utm_source=racket&amp;amp;utm_medium=Atom&amp;amp;utm_campaign=%2Fblog%2F2013%2F09%2F29%2Femacs-and-racket%2F" height="1" width="1" /&gt;
  &lt;p&gt;In this post, I&amp;rsquo;ll discuss the easiest approach that I took to setup up a
 &lt;a href="http://racket-lang.org"&gt;Racket&lt;/a&gt; development environment on
 Emacs. Take note, that this is not the only approach available &amp;ndash; some did it
@@ -778,14 +778,14 @@ above are by in no way representative of community-advised ways of installing
 and using Racket with Emacs. Feel free to drop a comment below!  Ciao!&lt;/p&gt;&lt;/html&gt;</content></entry>
  <entry>
   <title type="text">Livefrog: A LiveJournal Utility</title>
-  <link rel="alternate" href="http://www.example.com/blog/2013/05/29/livefrog-a-livejournal-utility/?utm_source=racket&utm_medium=Atom" />
+  <link rel="alternate" href="http://www.example.com/blog/2013/05/29/livefrog-a-livejournal-utility/?utm_source=racket&amp;utm_medium=Atom" />
   <id>urn:http-www-example-com:-blog-2013-05-29-livefrog-a-livejournal-utility</id>
   <published>2013-05-29T15:10:34Z</published>
   <updated>2013-05-29T15:10:34Z</updated>
   <author>
    <name>Rommel Martinez</name></author>
   <content type="html">
-&lt;html&gt;&lt;img src="http://www.example.com/img/1x1.gif?utm_source=racket&amp;utm_medium=Atom&amp;utm_campaign=%2Fblog%2F2013%2F05%2F29%2Flivefrog-a-livejournal-utility%2F" height="1" width="1" /&gt;
+&lt;html&gt;&lt;img src="http://www.example.com/img/1x1.gif?utm_source=racket&amp;amp;utm_medium=Atom&amp;amp;utm_campaign=%2Fblog%2F2013%2F05%2F29%2Flivefrog-a-livejournal-utility%2F" height="1" width="1" /&gt;
  &lt;p&gt;I am pleased to announce the release of &lt;span style="font-weight: bold"&gt;livefrog&lt;/span&gt;, a utility I wrote to
 migrate LiveJournal articles to
 &lt;a href="http://github.com/greghendershott/frog"&gt;Frog&lt;/a&gt;.&lt;/p&gt;
@@ -1029,14 +1029,14 @@ livefrog&lt;/span&gt; in your shell.&lt;/p&gt;
 your shell.&lt;/p&gt;&lt;/html&gt;</content></entry>
  <entry>
   <title type="text">The Y Combinator in Six Easy Steps</title>
-  <link rel="alternate" href="http://www.example.com/blog/2013/05/09/the-y-combinator-in-six-easy-steps/?utm_source=racket&utm_medium=Atom" />
+  <link rel="alternate" href="http://www.example.com/blog/2013/05/09/the-y-combinator-in-six-easy-steps/?utm_source=racket&amp;utm_medium=Atom" />
   <id>urn:http-www-example-com:-blog-2013-05-09-the-y-combinator-in-six-easy-steps</id>
   <published>2013-05-09T12:43:11Z</published>
   <updated>2013-05-09T12:43:11Z</updated>
   <author>
    <name>Rommel Martinez</name></author>
   <content type="html">
-&lt;html&gt;&lt;img src="http://www.example.com/img/1x1.gif?utm_source=racket&amp;utm_medium=Atom&amp;utm_campaign=%2Fblog%2F2013%2F05%2F09%2Fthe-y-combinator-in-six-easy-steps%2F" height="1" width="1" /&gt;
+&lt;html&gt;&lt;img src="http://www.example.com/img/1x1.gif?utm_source=racket&amp;amp;utm_medium=Atom&amp;amp;utm_campaign=%2Fblog%2F2013%2F05%2F09%2Fthe-y-combinator-in-six-easy-steps%2F" height="1" width="1" /&gt;
  &lt;p&gt;A lot of us have been taught that to be able to define a recursive procedure,
 the recursive invocation must "use" the name of the recursive procedure. The
 &lt;a href="http://en.wikipedia.org/wiki/Fixed-point_combinator#Y_combinator"&gt;Y combinator&lt;/a&gt;, however, lets us perform recursion, without referring to the

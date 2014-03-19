@@ -7,14 +7,14 @@
  <updated>2014-02-17T16:02:38Z</updated>
  <entry>
   <title type="text">Emacs and Mail</title>
-  <link rel="alternate" href="http://www.example.com/blog/2014/02/17/emacs-and-mail/?utm_source=mail&utm_medium=Atom" />
+  <link rel="alternate" href="http://www.example.com/blog/2014/02/17/emacs-and-mail/?utm_source=mail&amp;utm_medium=Atom" />
   <id>urn:http-www-example-com:-blog-2014-02-17-emacs-and-mail</id>
   <published>2014-02-17T16:02:38Z</published>
   <updated>2014-02-17T16:02:38Z</updated>
   <author>
    <name>Rommel Martinez</name></author>
   <content type="html">
-&lt;html&gt;&lt;img src="http://www.example.com/img/1x1.gif?utm_source=mail&amp;utm_medium=Atom&amp;utm_campaign=%2Fblog%2F2014%2F02%2F17%2Femacs-and-mail%2F" height="1" width="1" /&gt;
+&lt;html&gt;&lt;img src="http://www.example.com/img/1x1.gif?utm_source=mail&amp;amp;utm_medium=Atom&amp;amp;utm_campaign=%2Fblog%2F2014%2F02%2F17%2Femacs-and-mail%2F" height="1" width="1" /&gt;
  &lt;p&gt;In this day and age, checking our mail means going to the website of our mail
 provider, or using a mobile app. However, there are some cases when we want to
 have more control over our messages, especially when the feature we want is not
