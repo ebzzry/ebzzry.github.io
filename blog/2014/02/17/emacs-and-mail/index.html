@@ -4,16 +4,7 @@
 
     <meta charset="utf-8">
     <title>Emacs and Mail</title>
-    <meta name="description" content="In this day and age, checking our mail means going to the website of our mail
-provider, or using a mobile app. However, there are some cases when we want to
-have more control over our messages, especially when the feature we want is not
-present with the mainstream options. Emacs provides a plethora (gnus, wanderlust, vm, etc.) of ways of sending and
-receiving mail. In this post, we're going to talk
-getmail,
-mu, and
-mu4e, and how to
-set them up quickly. In this tutorial We'll assume that we're going to get our
-messages from Gmail via its IMAP interface. ...">
+    <meta name="description" content="In this day and age, checking our mail means going to the website of our mail provider, or using a mobile app. However, there are some cases when we want to have more control over our messages, especially when the feature we want is not present with the m...">
     <meta name="author"      content="Rommel Martinez">
     <meta name="keywords"    content="emacs, mail">
     <meta name="viewport"    content="width=device-width, initial-scale=1.0">
@@ -107,27 +98,20 @@ messages from Gmail via its IMAP interface. ...">
 
 
 
+          <article>
+  <header>
+    <h1>Emacs and Mail</h1>
 
-<article>
-
- <header>
-
-  <h1>Emacs and Mail</h1>
-
-
-  <p class="date-and-tags">
-
-   <time datetime="2014-02-17" pubdate="true">2014-02-17</time> :: <span class="tags"><a href="/tags/emacs.html">emacs</a>, <a href="/tags/mail.html">mail</a></span></p>
+<p class="date-and-tags">
+ <time datetime="2014-02-17" pubdate="true">2014-02-17</time> :: <span class="tags"><a href="/tags/emacs.html">emacs</a>, <a href="/tags/mail.html">mail</a></span></p>
   </header>
 
-
- <p>In this day and age, checking our mail means going to the website of our mail
+<p>In this day and age, checking our mail means going to the website of our mail
 provider, or using a mobile app. However, there are some cases when we want to
 have more control over our messages, especially when the feature we want is not
 present with the mainstream options.</p>
 
-
- <p>Emacs provides a plethora (gnus, wanderlust, vm, etc.) of ways of sending and
+<p>Emacs provides a plethora (gnus, wanderlust, vm, etc.) of ways of sending and
 receiving mail. In this post, we&rsquo;re going to talk
 <a href="http://pyropus.ca/software/getmail/">getmail</a>,
 <a href="http://www.djcbsoftware.nl/code/mu/">mu</a>, and
@@ -135,208 +119,122 @@ receiving mail. In this post, we&rsquo;re going to talk
 set them up quickly. In this tutorial We&rsquo;ll assume that we&rsquo;re going to get our
 messages from <a href="http://gmail.com">Gmail</a> via its IMAP interface.</p>
 
+<p>&lt;!&ndash; more &ndash;&gt;</p>
 
- <h1>1
+<h1>1
+ <tt>&nbsp;</tt><a name="(part._.Fetching_.Messages)"></a>Fetching Messages</h1>
 
-  <tt>&nbsp;</tt><a name="(part._.Fetching_.Messages)"></a>Fetching Messages</h1>
-
-
- <p>We first need to have a way to download our mails, off our mail server. A
+<p>We first need to have a way to download our mails, off our mail server. A
 easy-to-use application that will do that for us is
 <a href="http://pyropus.ca/software/getmail/">getmail</a>.</p>
 
+<h2>1.1
+ <tt>&nbsp;</tt><a name="(part._.Installation)"></a>Installation</h2>
 
- <h2>1.1
-
-  <tt>&nbsp;</tt><a name="(part._.Installation)"></a>Installation</h2>
-
-
- <p>Most of the time, getmail can be readily installed via your system&rsquo;s package
+<p>Most of the time, getmail can be readily installed via your system&rsquo;s package
 manager. If you are using a
 <a href="https://www.debian.org/misc/children-distros">Debian-based
 system</a>, you can install it by running:</p>
 
+<p></p>
 
- <p></p>
+<table cellspacing="0">
+ <tbody>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">$ sudo apt-get install getmail4</span></span></p></td></tr></tbody></table>
 
-
- <table cellspacing="0">
-
-  <tbody>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">$ sudo apt-get install getmail4</span></span></p></td></tr></tbody></table>
-
-
- <p>If you are using <a href="https://nixos.org/nixos/">NixOS</a>, you can
+<p>If you are using <a href="https://nixos.org/nixos/">NixOS</a>, you can
 install by running:</p>
 
+<p></p>
 
- <p></p>
+<table cellspacing="0">
+ <tbody>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">$ nix-env -i getmail</span></span></p></td></tr></tbody></table>
 
-
- <table cellspacing="0">
-
-  <tbody>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">$ nix-env -i getmail</span></span></p></td></tr></tbody></table>
-
-
- <p>However, if your system doesn&rsquo;t provide an easy way for you to install getmail,
+<p>However, if your system doesn&rsquo;t provide an easy way for you to install getmail,
 you can always head to its <a href="http://pyropus.ca/software/getmail/">homepage</a>, then download the tarball.</p>
 
+<h2>1.2
+ <tt>&nbsp;</tt><a name="(part._.Configuration)"></a>Configuration</h2>
 
- <h2>1.2
-
-  <tt>&nbsp;</tt><a name="(part._.Configuration)"></a>Configuration</h2>
-
-
- <p>Next, we need to conjure the incantation so that getmail knows how to get your
+<p>Next, we need to conjure the incantation so that getmail knows how to get your
 stuff. Create the file <span class="stt">~/.getmail/getmailrc</span>. In addition to that, we
 need to create and specify where the messages will go:</p>
 
-
- <p></p>
-
-
- <table cellspacing="0">
-
-  <tbody>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">$ mkdir ~/Maildir</span></span></p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">$ mkdir ~/.getmail</span></span></p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">$ emacs ~/.getmail/getmailrc</span></span></p></td></tr></tbody></table>
-
-
- <p>Then put in the following:</p>
-
-
- <p></p>
-
-
- <table cellspacing="0">
-
-  <tbody>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">[retriever]</span></span></p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">type = SimpleIMAPSSLRetriever</span></span></p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">server = imap.gmail.com</span></span></p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">username = USERNAME@gmail.com</span></span></p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">password = PASSWORD</span></span></p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt"></span></span><span class="hspace">&nbsp;</span></p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">[destination]</span></span></p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">type = Maildir</span></span></p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">path = ~/Maildir/</span></span></p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt"></span></span><span class="hspace">&nbsp;</span></p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">[options]</span></span></p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">verbose = 2</span></span></p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">message_log = ~/.getmail/gmail.log</span></span></p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">read_all = false</span></span></p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">delivered_to = false</span></span></p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">received = false</span></span></p></td></tr></tbody></table>
-
-
- <p>Replace USERNAME with your Gmail username, then replace PASSWORD with your
+<p></p>
+
+<table cellspacing="0">
+ <tbody>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">$ mkdir ~/Maildir</span></span></p></td></tr>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">$ mkdir ~/.getmail</span></span></p></td></tr>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">$ emacs ~/.getmail/getmailrc</span></span></p></td></tr></tbody></table>
+
+<p>Then put in the following:</p>
+
+<p></p>
+
+<table cellspacing="0">
+ <tbody>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">[retriever]</span></span></p></td></tr>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">type = SimpleIMAPSSLRetriever</span></span></p></td></tr>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">server = imap.gmail.com</span></span></p></td></tr>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">username = USERNAME@gmail.com</span></span></p></td></tr>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">password = PASSWORD</span></span></p></td></tr>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt"></span></span><span class="hspace">&nbsp;</span></p></td></tr>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">[destination]</span></span></p></td></tr>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">type = Maildir</span></span></p></td></tr>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">path = ~/Maildir/</span></span></p></td></tr>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt"></span></span><span class="hspace">&nbsp;</span></p></td></tr>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">[options]</span></span></p></td></tr>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">verbose = 2</span></span></p></td></tr>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">message_log = ~/.getmail/gmail.log</span></span></p></td></tr>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">read_all = false</span></span></p></td></tr>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">delivered_to = false</span></span></p></td></tr>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">received = false</span></span></p></td></tr></tbody></table>
+
+<p>Replace USERNAME with your Gmail username, then replace PASSWORD with your
 Gmail password. However, if you are using
 <a href="http://www.google.com/landing/2step/">2-step authentication</a>, use
 an <a href="https://accounts.google.com/IssuedAuthSubTokens">application-specific</a> password for the password field. Take note, that
@@ -344,148 +242,90 @@ an <a href="https://accounts.google.com/IssuedAuthSubTokens">application-specifi
 use the <a href="https://en.wikipedia.org/wiki/Maildir">maildir</a> format
 use, to store data.</p>
 
+<h2>1.3
+ <tt>&nbsp;</tt><a name="(part._.Execution)"></a>Execution</h2>
 
- <h2>1.3
+<p>To verify that we can indeed fetch our messages, run getmail:</p>
 
-  <tt>&nbsp;</tt><a name="(part._.Execution)"></a>Execution</h2>
+<p></p>
 
+<table cellspacing="0">
+ <tbody>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">$ getmail</span></span></p></td></tr></tbody></table>
 
- <p>To verify that we can indeed fetch our messages, run getmail:</p>
-
-
- <p></p>
-
-
- <table cellspacing="0">
-
-  <tbody>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">$ getmail</span></span></p></td></tr></tbody></table>
-
-
- <p>If it doesn&rsquo;t choke, and displays something like the following, then you have
+<p>If it doesn&rsquo;t choke, and displays something like the following, then you have
 configured getmail correctly.</p>
 
+<p></p>
 
- <p></p>
+<table cellspacing="0">
+ <tbody>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">getmail version 4.43.0</span></span></p></td></tr>
+  <tr>
+   <td>
+    <p><span class="stt">Copyright (C) 1998-2012 Charles Cazabon.<span class="hspace">&nbsp;&nbsp;</span><span class="stt">Licensed under the GNU GPL version 2.</span></span></p></td></tr>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">SimpleIMAPSSLRetriever:foobar@gmail.com@imap.gmail.com:993:</span></span></p></td></tr>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">...</span></span></p></td></tr></tbody></table>
 
+<h1>2
+ <tt>&nbsp;</tt><a name="(part._.Reading_.Messages)"></a>Reading Messages</h1>
 
- <table cellspacing="0">
-
-  <tbody>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">getmail version 4.43.0</span></span></p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt">Copyright (C) 1998-2012 Charles Cazabon.<span class="hspace">&nbsp;&nbsp;</span><span class="stt">Licensed under the GNU GPL version 2.</span></span></p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">SimpleIMAPSSLRetriever:foobar@gmail.com@imap.gmail.com:993:</span></span></p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">...</span></span></p></td></tr></tbody></table>
-
-
- <h1>2
-
-  <tt>&nbsp;</tt><a name="(part._.Reading_.Messages)"></a>Reading Messages</h1>
-
-
- <p>Now that we can download our messages, we need to have a way to read them. This
+<p>Now that we can download our messages, we need to have a way to read them. This
 is where mu and the accompanying emacs-based client, mu, comes in.</p>
 
+<h2>2.1
+ <tt>&nbsp;</tt><a name="(part._.Installation)"></a>Installation</h2>
 
- <h2>2.1
-
-  <tt>&nbsp;</tt><a name="(part._.Installation)"></a>Installation</h2>
-
-
- <p>Just like with getmail above, chances are, mu can be installed via your
+<p>Just like with getmail above, chances are, mu can be installed via your
 system&rsquo;s package manager. If you are using a
 <a href="https://www.debian.org/misc/children-distros">Debian-based
 system</a>, you can install it by running:</p>
 
+<p></p>
 
- <p></p>
+<table cellspacing="0">
+ <tbody>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">$ sudo apt-get install maildir-utils</span></span></p></td></tr></tbody></table>
 
-
- <table cellspacing="0">
-
-  <tbody>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">$ sudo apt-get install maildir-utils</span></span></p></td></tr></tbody></table>
-
-
- <p>If you are using <a href="https://nixos.org/nixos/">NixOS</a>, you can
+<p>If you are using <a href="https://nixos.org/nixos/">NixOS</a>, you can
 install by running:</p>
 
+<p></p>
 
- <p></p>
+<table cellspacing="0">
+ <tbody>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">$ nix-env -i mu</span></span></p></td></tr></tbody></table>
 
-
- <table cellspacing="0">
-
-  <tbody>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">$ nix-env -i mu</span></span></p></td></tr></tbody></table>
-
-
- <p>In addition to the above, we need to fetch mu4e. This comes with mu&rsquo;s source
+<p>In addition to the above, we need to fetch mu4e. This comes with mu&rsquo;s source
 code. Download it by running:</p>
 
+<p></p>
 
- <p></p>
+<table cellspacing="0">
+ <tbody>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">$ mkdir ~/.emacs.d</span></span></p></td></tr>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">$ cd ~/.emacs.d</span></span></p></td></tr>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">$ git clone git@github.com:djcb/mu.git</span></span></p></td></tr></tbody></table>
 
-
- <table cellspacing="0">
-
-  <tbody>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">$ mkdir ~/.emacs.d</span></span></p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">$ cd ~/.emacs.d</span></span></p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">$ git clone git@github.com:djcb/mu.git</span></span></p></td></tr></tbody></table>
-
-
- <p>This creates a <span class="stt">mu/</span> directory in the current directory, which happens to
+<p>This creates a <span class="stt">mu/</span> directory in the current directory, which happens to
 be the default location from which emacs looks for init files. Take note, that
 the git command above actually fetches the source code of mu, and we can
 actually use it to install mu. But since, you have your package manager, we&rsquo;ll
@@ -493,159 +333,97 @@ ignore that. Also the location from which the <span class="stt">mu/mu4e/</span> 
 from the package manager&rsquo;s installation, varies between systems. So, for now,
 we&rsquo;re only interested with the <span class="stt">mu/mu4e/</span> subdirectory.</p>
 
+<h2>2.2
+ <tt>&nbsp;</tt><a name="(part._.Configuration)"></a>Configuration</h2>
 
- <h2>2.2
-
-  <tt>&nbsp;</tt><a name="(part._.Configuration)"></a>Configuration</h2>
-
-
- <p>We now need to make that mu4e directory accessible to emacs. To do so, we need
+<p>We now need to make that mu4e directory accessible to emacs. To do so, we need
 to edit either <span class="stt">~/.emacs.d/init.el</span> or <span class="stt">~/.emacs</span>:</p>
 
+<p></p>
 
- <p></p>
+<table cellspacing="0">
+ <tbody>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">$ emacs ~/.emacs.d/init.el</span></span></p></td></tr></tbody></table>
 
+<p>Then add the following:</p>
 
- <table cellspacing="0">
+<p></p>
 
-  <tbody>
+<table cellspacing="0">
+ <tbody>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">(setq load-path (append load-path '("~/.emacs.d/mu/mu4e")))</span></span></p></td></tr>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">(require 'mu4e)</span></span></p></td></tr></tbody></table>
 
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">$ emacs ~/.emacs.d/init.el</span></span></p></td></tr></tbody></table>
-
-
- <p>Then add the following:</p>
-
-
- <p></p>
-
-
- <table cellspacing="0">
-
-  <tbody>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">(setq load-path (append load-path '("~/.emacs.d/mu/mu4e")))</span></span></p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">(require 'mu4e)</span></span></p></td></tr></tbody></table>
-
-
- <p>Additionally we need to put in some information about us, so that emacs won&rsquo;t
+<p>Additionally we need to put in some information about us, so that emacs won&rsquo;t
 bother asking us about those details later on:</p>
 
+<p></p>
 
- <p></p>
+<table cellspacing="0">
+ <tbody>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">(setq user-full-name "Foo B. Baz"</span></span></p></td></tr>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="stt">user-mail-address "foo@bar.baz")</span></span></p></td></tr></tbody></table>
 
+<p>To make our life even easier, we&rsquo;ll set some variables:</p>
 
- <table cellspacing="0">
+<p></p>
 
-  <tbody>
+<table cellspacing="0">
+ <tbody>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">(setq mu4e-get-mail-command "getmail"</span></span></p></td></tr>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="stt">mu4e-update-interval 300</span></span></p></td></tr>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="stt">mu4e-attachment-dir "~/Downloads")</span></span></p></td></tr></tbody></table>
 
-   <tr>
+<h2>2.3
+ <tt>&nbsp;</tt><a name="(part._.Execution)"></a>Execution</h2>
 
-    <td>
-
-     <p><span class="stt"><span class="stt">(setq user-full-name "Foo B. Baz"</span></span></p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="stt">user-mail-address "foo@bar.baz")</span></span></p></td></tr></tbody></table>
-
-
- <p>To make our life even easier, we&rsquo;ll set some variables:</p>
-
-
- <p></p>
-
-
- <table cellspacing="0">
-
-  <tbody>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">(setq mu4e-get-mail-command "getmail"</span></span></p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="stt">mu4e-update-interval 300</span></span></p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="stt">mu4e-attachment-dir "~/Downloads")</span></span></p></td></tr></tbody></table>
-
-
- <h2>2.3
-
-  <tt>&nbsp;</tt><a name="(part._.Execution)"></a>Execution</h2>
-
-
- <p>You can restart emacs so that those settings can take effect, or alternatively,
+<p>You can restart emacs so that those settings can take effect, or alternatively,
 you can mark (C-space) those lines, then hit:</p>
 
+<p></p>
 
- <p></p>
+<table cellspacing="0">
+ <tbody>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">M-x eval-region</span></span></p></td></tr></tbody></table>
 
+<p>At this point, you can now use mu4e, by hitting:</p>
 
- <table cellspacing="0">
+<p></p>
 
-  <tbody>
+<table cellspacing="0">
+ <tbody>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">M-x mu4e</span></span></p></td></tr></tbody></table>
 
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">M-x eval-region</span></span></p></td></tr></tbody></table>
-
-
- <p>At this point, you can now use mu4e, by hitting:</p>
-
-
- <p></p>
-
-
- <table cellspacing="0">
-
-  <tbody>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">M-x mu4e</span></span></p></td></tr></tbody></table>
-
-
- <p>You&rsquo;ll get a sexy menu, wherein you can hit shortcuts to get you to where you
+<p>You&rsquo;ll get a sexy menu, wherein you can hit shortcuts to get you to where you
 want. To compose a message, hit <span class="stt">C</span>, fill in the fields, then hit
 <span class="stt">C-c C-c</span> to send the message. The rest of the commands should be
 self-explanatory, but if you want to learn more, you can read the nice
 <a href="http://www.djcbsoftware.nl/code/mu/mu4e/index.html">mu4e manual</a>.</p>
 
+<h2>2.4
+ <tt>&nbsp;</tt><a name="(part._.Encryption)"></a>Encryption</h2>
 
- <h2>2.4
-
-  <tt>&nbsp;</tt><a name="(part._.Encryption)"></a>Encryption</h2>
-
-
- <p>Optionally, you may want to add some tweaks so that encryption and
+<p>Optionally, you may want to add some tweaks so that encryption and
 decryption of messages, will be easier. This is actually one of my primary
 reasons why I&rsquo;m using mu4e &ndash; it has been pointed out to me that despite using
 browser extensions like <a href="http://getfiregpg.org/s/home">FireGPG</a>, and
@@ -654,153 +432,87 @@ All Text!</a>, the supposedly private message that you composed got auto-saved b
 default to the <span style="font-style: italic">Drafts</span> folder. This implies, that your unencrypted
 message, was still saved somewhere. Ahem.</p>
 
-
- <p>To make use of these cryptographic utilities, edit your emacs init:</p>
-
-
- <p></p>
-
-
- <table cellspacing="0">
-
-  <tbody>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">$ emacs ~/.emacs.d/init.el</span></span></p></td></tr></tbody></table>
-
-
- <p>Then add the following:</p>
-
-
- <p></p>
-
-
- <table cellspacing="0">
-
-  <tbody>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">(require 'mml2015)</span></span></p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">(require 'epa-file)</span></span></p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt"></span></span><span class="hspace">&nbsp;</span></p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">(defun encrypt-message (&amp;optional arg)</span></span></p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;</span><span class="stt">(interactive "p")</span></span></p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;</span><span class="stt">(mml-secure-message-encrypt-pgp))</span></span></p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt"></span></span><span class="hspace">&nbsp;</span></p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">(defun decrypt-message (&amp;optional arg)</span></span></p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;</span><span class="stt">(interactive "p")</span></span></p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;</span><span class="stt">(epa-decrypt-armor-in-region (point-min) (point-max)))</span></span></p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt"></span></span><span class="hspace">&nbsp;</span></p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">(defalias 'ec 'encrypt-message)</span></span></p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">(defalias 'dc 'decrypt-message)</span></span></p></td></tr></tbody></table>
-
-
- <p>Mark those lines, then hit:</p>
-
-
- <p></p>
-
-
- <table cellspacing="0">
-
-  <tbody>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">M-x eval-region</span></span></p></td></tr></tbody></table>
-
-
- <p>To make the settings take effect, immediately.</p>
-
-
- <p>To send an encrypt a message, hit <span class="stt">C</span> from the main menu of mu4e, fill in
+<p>To make use of these cryptographic utilities, edit your emacs init:</p>
+
+<p></p>
+
+<table cellspacing="0">
+ <tbody>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">$ emacs ~/.emacs.d/init.el</span></span></p></td></tr></tbody></table>
+
+<p>Then add the following:</p>
+
+<p></p>
+
+<table cellspacing="0">
+ <tbody>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">(require 'mml2015)</span></span></p></td></tr>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">(require 'epa-file)</span></span></p></td></tr>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt"></span></span><span class="hspace">&nbsp;</span></p></td></tr>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">(defun encrypt-message (&amp;optional arg)</span></span></p></td></tr>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="hspace">&nbsp;&nbsp;</span><span class="stt">(interactive "p")</span></span></p></td></tr>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="hspace">&nbsp;&nbsp;</span><span class="stt">(mml-secure-message-encrypt-pgp))</span></span></p></td></tr>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt"></span></span><span class="hspace">&nbsp;</span></p></td></tr>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">(defun decrypt-message (&amp;optional arg)</span></span></p></td></tr>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="hspace">&nbsp;&nbsp;</span><span class="stt">(interactive "p")</span></span></p></td></tr>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="hspace">&nbsp;&nbsp;</span><span class="stt">(epa-decrypt-armor-in-region (point-min) (point-max)))</span></span></p></td></tr>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt"></span></span><span class="hspace">&nbsp;</span></p></td></tr>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">(defalias 'ec 'encrypt-message)</span></span></p></td></tr>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">(defalias 'dc 'decrypt-message)</span></span></p></td></tr></tbody></table>
+
+<p>Mark those lines, then hit:</p>
+
+<p></p>
+
+<table cellspacing="0">
+ <tbody>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">M-x eval-region</span></span></p></td></tr></tbody></table>
+
+<p>To make the settings take effect, immediately.</p>
+
+<p>To send an encrypt a message, hit <span class="stt">C</span> from the main menu of mu4e, fill in
 the usual fields like <span class="stt">To:</span>, and <span class="stt">Subject:</span>, then on the message
 body, hit:</p>
 
+<p></p>
 
- <p></p>
+<table cellspacing="0">
+ <tbody>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">M-x ec</span></span></p></td></tr></tbody></table>
 
-
- <table cellspacing="0">
-
-  <tbody>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">M-x ec</span></span></p></td></tr></tbody></table>
-
-
- <p>This will tag your outgoing message to be signed and encrypted. To send the
+<p>This will tag your outgoing message to be signed and encrypted. To send the
 it, hit <span class="stt">C-c C-c</span>. This will then prompt you to input your
 passphrase. It will also ask you to fill in some information regarding your
 outgoing mail server (SMTP). The SMTP server for Gmail is
@@ -809,29 +521,20 @@ username. Use your regular password, when prompted, or input your
 application-specific password, as described earlier. These information will be
 saved to <span class="stt">~/.authinfo</span>, and will be used for later messages.</p>
 
+<p>To decrypt a message, open the message, then hit:</p>
 
- <p>To decrypt a message, open the message, then hit:</p>
+<p></p>
 
+<table cellspacing="0">
+ <tbody>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">M-x dc</span></span></p></td></tr></tbody></table>
 
- <p></p>
-
-
- <table cellspacing="0">
-
-  <tbody>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">M-x dc</span></span></p></td></tr></tbody></table>
-
-
- <p>This will prompt you to input your passphrase. After which, you&rsquo;ll be prompted
+<p>This will prompt you to input your passphrase. After which, you&rsquo;ll be prompted
 if you&rsquo;ll want to replace the contents of the buffer, say yes to this.</p>
 
-
- <p>These approaches are not fool-proof, because there&rsquo;s at least two gaping holes
+<p>These approaches are not fool-proof, because there&rsquo;s at least two gaping holes
 that you have to be aware of &ndash; emacs backups, and mu4e drafts. With the
 former, when you are using emacs&rsquo; backup facility, or a package like
 <a href="http://www.emacswiki.org/emacs/BackupDirectory">backup-dir</a>,
@@ -840,22 +543,17 @@ unencrypted copy to the local disk. With the latter, the same principle
 applies. So be wary of these situations, and tweak your configuration, as
 necessary.</p>
 
+<h1>3
+ <tt>&nbsp;</tt><a name="(part._.Conclusion)"></a>Conclusion</h1>
 
- <h1>3
-
-  <tt>&nbsp;</tt><a name="(part._.Conclusion)"></a>Conclusion</h1>
-
-
- <p>Bear in mind that I purposely avoided fleshing out many details, as it would
+<p>Bear in mind that I purposely avoided fleshing out many details, as it would
 conflate the attempt of this article to make things simple. However, if you
 want to learn more, you can always go to the
 <a href="http://pyropus.ca/software/getmail/documentation.html">getmail</a>
 and <a href="http://www.djcbsoftware.nl/code/mu/mu4e/index.html">mu4e</a>
 documentation, to fill in missing gaps, that you may have.</p>
-
- <footer>
-
-  <script type="text/javascript">
+  <footer>
+    <script type="text/javascript">
       !function(d,s,id){
           var js,fjs=d.getElementsByTagName(s)[0];
           if(!d.getElementById(id)){
@@ -866,14 +564,14 @@ documentation, to fill in missing gaps, that you may have.</p>
           }
       }(document,"script","twitter-wjs");
     </script>
-    <a class="twitter-share-button" data-dnt="true" data-url="http://www.example.com/blog/2014/02/17/emacs-and-mail/" href="https://twitter.com/share">
+    <a href="https://twitter.com/share"
+       class="twitter-share-button"
+       data-url="http://www.example.com/blog/2014/02/17/emacs-and-mail/"
+       data-dnt="true">
       "Tweet"</a>
-
-  <script src="https://apis.google.com/js/plusone.js" type="text/javascript"></script>
-
-  <g:plusone href="http://www.example.com/blog/2014/02/17/emacs-and-mail/" size="medium"></g:plusone>
-
-  <script type="text/javascript">
+    <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+    <g:plusone size="medium" href="http://www.example.com/blog/2014/02/17/emacs-and-mail/"></g:plusone>
+    <script type="text/javascript">
       var disqus_shortname = 'ebzzry';
       (function() {
           var dsq = document.createElement('script');
@@ -883,16 +581,12 @@ documentation, to fill in missing gaps, that you may have.</p>
           (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
       })();
     </script>
-
-  <div id="disqus_thread"></div>
-
-  <ul class="pager">
-
-   <li class="previous">
+    <div id="disqus_thread"></div>
+    <ul class="pager">
+    <li class="previous">
       <a href="/blog/2014/02/19/an-introduction-to-frog/">&larr; <em>An Introduction To Frog</em></a>
     </li>
-
-   <li class="next">
+    <li class="next">
       <a href="/blog/2013/09/29/emacs-and-racket/"><em>Emacs and Racket</em> &rarr;</a>
     </li>
     </ul>

@@ -4,7 +4,7 @@ Title: An Introduction to Ugarit
 Date: 2014-02-21T12:07:18
 Tags: backups
 
-how many times have we experienced hindsight, after a catastrophic event has
+How many times have we experienced hindsight, after a catastrophic event has
 happened? how many times have we told ourselves that had we created backups of
 our precious data, we wouldn't be in that dire situation, pulling our hairs out
 like a maniac?
