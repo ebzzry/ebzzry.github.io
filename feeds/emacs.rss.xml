@@ -12,262 +12,325 @@
    <link>http://www.example.com/blog/2014/02/17/emacs-and-mail/?utm_source=emacs&amp;utm_medium=RSS</link>
    <guid>urn:http-www-example-com:-blog-2014-02-17-emacs-and-mail</guid>
    <pubDate>Mon, 17 Feb 2014 16:02:38 PHT</pubDate>
-   <description>
-&lt;html&gt;&lt;img src="http://www.example.com/img/1x1.gif?utm_source=emacs&amp;amp;utm_medium=RSS&amp;amp;utm_campaign=%2Fblog%2F2014%2F02%2F17%2Femacs-and-mail%2F" height="1" width="1" /&gt;
- &lt;p&gt;In this day and age, checking our mail means going to the website of our mail
+   <description>&lt;html&gt;
+&lt;p&gt;In this day and age, checking our mail means going to the website of our mail
 provider, or using a mobile app. However, there are some cases when we want to
 have more control over our messages, especially when the feature we want is not
 present with the mainstream options.&lt;/p&gt;
- &lt;p&gt;Emacs provides a plethora (gnus, wanderlust, vm, etc.) of ways of sending and
+
+&lt;p&gt;Emacs provides a plethora (gnus, wanderlust, vm, etc.) of ways of sending and
 receiving mail. In this post, we&amp;rsquo;re going to talk
 &lt;a href="http://pyropus.ca/software/getmail/"&gt;getmail&lt;/a&gt;,
 &lt;a href="http://www.djcbsoftware.nl/code/mu/"&gt;mu&lt;/a&gt;, and
 &lt;a href="http://www.djcbsoftware.nl/code/mu/mu4e.html"&gt;mu4e&lt;/a&gt;, and how to
 set them up quickly. In this tutorial We&amp;rsquo;ll assume that we&amp;rsquo;re going to get our
 messages from &lt;a href="http://gmail.com"&gt;Gmail&lt;/a&gt; via its IMAP interface.&lt;/p&gt;
- &lt;h1&gt;1
-  &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Fetching_.Messages)"&gt;&lt;/a&gt;Fetching Messages&lt;/h1&gt;
- &lt;p&gt;We first need to have a way to download our mails, off our mail server. A
+
+&lt;p&gt;&amp;lt;!&amp;ndash; more &amp;ndash;&amp;gt;&lt;/p&gt;
+
+&lt;h1&gt;1
+ &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Fetching_.Messages)"&gt;&lt;/a&gt;Fetching Messages&lt;/h1&gt;
+
+&lt;p&gt;We first need to have a way to download our mails, off our mail server. A
 easy-to-use application that will do that for us is
 &lt;a href="http://pyropus.ca/software/getmail/"&gt;getmail&lt;/a&gt;.&lt;/p&gt;
- &lt;h2&gt;1.1
-  &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Installation)"&gt;&lt;/a&gt;Installation&lt;/h2&gt;
- &lt;p&gt;Most of the time, getmail can be readily installed via your system&amp;rsquo;s package
+
+&lt;h2&gt;1.1
+ &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Installation)"&gt;&lt;/a&gt;Installation&lt;/h2&gt;
+
+&lt;p&gt;Most of the time, getmail can be readily installed via your system&amp;rsquo;s package
 manager. If you are using a
 &lt;a href="https://www.debian.org/misc/children-distros"&gt;Debian-based
 system&lt;/a&gt;, you can install it by running:&lt;/p&gt;
- &lt;p&gt;&lt;/p&gt;
- &lt;table cellspacing="0"&gt;
-  &lt;tbody&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ sudo apt-get install getmail4&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
- &lt;p&gt;If you are using &lt;a href="https://nixos.org/nixos/"&gt;NixOS&lt;/a&gt;, you can
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;table cellspacing="0"&gt;
+ &lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ sudo apt-get install getmail4&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;p&gt;If you are using &lt;a href="https://nixos.org/nixos/"&gt;NixOS&lt;/a&gt;, you can
 install by running:&lt;/p&gt;
- &lt;p&gt;&lt;/p&gt;
- &lt;table cellspacing="0"&gt;
-  &lt;tbody&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ nix-env -i getmail&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
- &lt;p&gt;However, if your system doesn&amp;rsquo;t provide an easy way for you to install getmail,
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;table cellspacing="0"&gt;
+ &lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ nix-env -i getmail&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;p&gt;However, if your system doesn&amp;rsquo;t provide an easy way for you to install getmail,
 you can always head to its &lt;a href="http://pyropus.ca/software/getmail/"&gt;homepage&lt;/a&gt;, then download the tarball.&lt;/p&gt;
- &lt;h2&gt;1.2
-  &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Configuration)"&gt;&lt;/a&gt;Configuration&lt;/h2&gt;
- &lt;p&gt;Next, we need to conjure the incantation so that getmail knows how to get your
+
+&lt;h2&gt;1.2
+ &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Configuration)"&gt;&lt;/a&gt;Configuration&lt;/h2&gt;
+
+&lt;p&gt;Next, we need to conjure the incantation so that getmail knows how to get your
 stuff. Create the file &lt;span class="stt"&gt;~/.getmail/getmailrc&lt;/span&gt;. In addition to that, we
 need to create and specify where the messages will go:&lt;/p&gt;
- &lt;p&gt;&lt;/p&gt;
- &lt;table cellspacing="0"&gt;
-  &lt;tbody&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ mkdir ~/Maildir&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ mkdir ~/.getmail&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ emacs ~/.getmail/getmailrc&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
- &lt;p&gt;Then put in the following:&lt;/p&gt;
- &lt;p&gt;&lt;/p&gt;
- &lt;table cellspacing="0"&gt;
-  &lt;tbody&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;[retriever]&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;type = SimpleIMAPSSLRetriever&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;server = imap.gmail.com&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;username = USERNAME@gmail.com&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;password = PASSWORD&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;[destination]&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;type = Maildir&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;path = ~/Maildir/&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;[options]&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;verbose = 2&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;message_log = ~/.getmail/gmail.log&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;read_all = false&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;delivered_to = false&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;received = false&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
- &lt;p&gt;Replace USERNAME with your Gmail username, then replace PASSWORD with your
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;table cellspacing="0"&gt;
+ &lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ mkdir ~/Maildir&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ mkdir ~/.getmail&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ emacs ~/.getmail/getmailrc&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;p&gt;Then put in the following:&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;table cellspacing="0"&gt;
+ &lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;[retriever]&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;type = SimpleIMAPSSLRetriever&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;server = imap.gmail.com&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;username = USERNAME@gmail.com&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;password = PASSWORD&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;[destination]&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;type = Maildir&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;path = ~/Maildir/&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;[options]&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;verbose = 2&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;message_log = ~/.getmail/gmail.log&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;read_all = false&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;delivered_to = false&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;received = false&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;p&gt;Replace USERNAME with your Gmail username, then replace PASSWORD with your
 Gmail password. However, if you are using
 &lt;a href="http://www.google.com/landing/2step/"&gt;2-step authentication&lt;/a&gt;, use
 an &lt;a href="https://accounts.google.com/IssuedAuthSubTokens"&gt;application-specific&lt;/a&gt; password for the password field. Take note, that
 &lt;span class="stt"&gt;~/Maildir&lt;/span&gt; is the default directory that Mail Transfer Agents (MTA) which
 use the &lt;a href="https://en.wikipedia.org/wiki/Maildir"&gt;maildir&lt;/a&gt; format
 use, to store data.&lt;/p&gt;
- &lt;h2&gt;1.3
-  &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Execution)"&gt;&lt;/a&gt;Execution&lt;/h2&gt;
- &lt;p&gt;To verify that we can indeed fetch our messages, run getmail:&lt;/p&gt;
- &lt;p&gt;&lt;/p&gt;
- &lt;table cellspacing="0"&gt;
-  &lt;tbody&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ getmail&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
- &lt;p&gt;If it doesn&amp;rsquo;t choke, and displays something like the following, then you have
+
+&lt;h2&gt;1.3
+ &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Execution)"&gt;&lt;/a&gt;Execution&lt;/h2&gt;
+
+&lt;p&gt;To verify that we can indeed fetch our messages, run getmail:&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;table cellspacing="0"&gt;
+ &lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ getmail&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;p&gt;If it doesn&amp;rsquo;t choke, and displays something like the following, then you have
 configured getmail correctly.&lt;/p&gt;
- &lt;p&gt;&lt;/p&gt;
- &lt;table cellspacing="0"&gt;
-  &lt;tbody&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;getmail version 4.43.0&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;Copyright (C) 1998-2012 Charles Cazabon.&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;Licensed under the GNU GPL version 2.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;SimpleIMAPSSLRetriever:foobar@gmail.com@imap.gmail.com:993:&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;...&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
- &lt;h1&gt;2
-  &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Reading_.Messages)"&gt;&lt;/a&gt;Reading Messages&lt;/h1&gt;
- &lt;p&gt;Now that we can download our messages, we need to have a way to read them. This
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;table cellspacing="0"&gt;
+ &lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;getmail version 4.43.0&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;Copyright (C) 1998-2012 Charles Cazabon.&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;Licensed under the GNU GPL version 2.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;SimpleIMAPSSLRetriever:foobar@gmail.com@imap.gmail.com:993:&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;...&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;h1&gt;2
+ &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Reading_.Messages)"&gt;&lt;/a&gt;Reading Messages&lt;/h1&gt;
+
+&lt;p&gt;Now that we can download our messages, we need to have a way to read them. This
 is where mu and the accompanying emacs-based client, mu, comes in.&lt;/p&gt;
- &lt;h2&gt;2.1
-  &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Installation)"&gt;&lt;/a&gt;Installation&lt;/h2&gt;
- &lt;p&gt;Just like with getmail above, chances are, mu can be installed via your
+
+&lt;h2&gt;2.1
+ &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Installation)"&gt;&lt;/a&gt;Installation&lt;/h2&gt;
+
+&lt;p&gt;Just like with getmail above, chances are, mu can be installed via your
 system&amp;rsquo;s package manager. If you are using a
 &lt;a href="https://www.debian.org/misc/children-distros"&gt;Debian-based
 system&lt;/a&gt;, you can install it by running:&lt;/p&gt;
- &lt;p&gt;&lt;/p&gt;
- &lt;table cellspacing="0"&gt;
-  &lt;tbody&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ sudo apt-get install maildir-utils&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
- &lt;p&gt;If you are using &lt;a href="https://nixos.org/nixos/"&gt;NixOS&lt;/a&gt;, you can
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;table cellspacing="0"&gt;
+ &lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ sudo apt-get install maildir-utils&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;p&gt;If you are using &lt;a href="https://nixos.org/nixos/"&gt;NixOS&lt;/a&gt;, you can
 install by running:&lt;/p&gt;
- &lt;p&gt;&lt;/p&gt;
- &lt;table cellspacing="0"&gt;
-  &lt;tbody&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ nix-env -i mu&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
- &lt;p&gt;In addition to the above, we need to fetch mu4e. This comes with mu&amp;rsquo;s source
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;table cellspacing="0"&gt;
+ &lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ nix-env -i mu&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;p&gt;In addition to the above, we need to fetch mu4e. This comes with mu&amp;rsquo;s source
 code. Download it by running:&lt;/p&gt;
- &lt;p&gt;&lt;/p&gt;
- &lt;table cellspacing="0"&gt;
-  &lt;tbody&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ mkdir ~/.emacs.d&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ cd ~/.emacs.d&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ git clone git@github.com:djcb/mu.git&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
- &lt;p&gt;This creates a &lt;span class="stt"&gt;mu/&lt;/span&gt; directory in the current directory, which happens to
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;table cellspacing="0"&gt;
+ &lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ mkdir ~/.emacs.d&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ cd ~/.emacs.d&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ git clone git@github.com:djcb/mu.git&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;p&gt;This creates a &lt;span class="stt"&gt;mu/&lt;/span&gt; directory in the current directory, which happens to
 be the default location from which emacs looks for init files. Take note, that
 the git command above actually fetches the source code of mu, and we can
 actually use it to install mu. But since, you have your package manager, we&amp;rsquo;ll
 ignore that. Also the location from which the &lt;span class="stt"&gt;mu/mu4e/&lt;/span&gt; subdirectory exists
 from the package manager&amp;rsquo;s installation, varies between systems. So, for now,
 we&amp;rsquo;re only interested with the &lt;span class="stt"&gt;mu/mu4e/&lt;/span&gt; subdirectory.&lt;/p&gt;
- &lt;h2&gt;2.2
-  &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Configuration)"&gt;&lt;/a&gt;Configuration&lt;/h2&gt;
- &lt;p&gt;We now need to make that mu4e directory accessible to emacs. To do so, we need
+
+&lt;h2&gt;2.2
+ &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Configuration)"&gt;&lt;/a&gt;Configuration&lt;/h2&gt;
+
+&lt;p&gt;We now need to make that mu4e directory accessible to emacs. To do so, we need
 to edit either &lt;span class="stt"&gt;~/.emacs.d/init.el&lt;/span&gt; or &lt;span class="stt"&gt;~/.emacs&lt;/span&gt;:&lt;/p&gt;
- &lt;p&gt;&lt;/p&gt;
- &lt;table cellspacing="0"&gt;
-  &lt;tbody&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ emacs ~/.emacs.d/init.el&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
- &lt;p&gt;Then add the following:&lt;/p&gt;
- &lt;p&gt;&lt;/p&gt;
- &lt;table cellspacing="0"&gt;
-  &lt;tbody&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;(setq load-path (append load-path '("~/.emacs.d/mu/mu4e")))&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;(require 'mu4e)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
- &lt;p&gt;Additionally we need to put in some information about us, so that emacs won&amp;rsquo;t
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;table cellspacing="0"&gt;
+ &lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ emacs ~/.emacs.d/init.el&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;p&gt;Then add the following:&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;table cellspacing="0"&gt;
+ &lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;(setq load-path (append load-path '("~/.emacs.d/mu/mu4e")))&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;(require 'mu4e)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;p&gt;Additionally we need to put in some information about us, so that emacs won&amp;rsquo;t
 bother asking us about those details later on:&lt;/p&gt;
- &lt;p&gt;&lt;/p&gt;
- &lt;table cellspacing="0"&gt;
-  &lt;tbody&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;(setq user-full-name "Foo B. Baz"&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;user-mail-address "foo@bar.baz")&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
- &lt;p&gt;To make our life even easier, we&amp;rsquo;ll set some variables:&lt;/p&gt;
- &lt;p&gt;&lt;/p&gt;
- &lt;table cellspacing="0"&gt;
-  &lt;tbody&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;(setq mu4e-get-mail-command "getmail"&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;mu4e-update-interval 300&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;mu4e-attachment-dir "~/Downloads")&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
- &lt;h2&gt;2.3
-  &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Execution)"&gt;&lt;/a&gt;Execution&lt;/h2&gt;
- &lt;p&gt;You can restart emacs so that those settings can take effect, or alternatively,
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;table cellspacing="0"&gt;
+ &lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;(setq user-full-name "Foo B. Baz"&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;user-mail-address "foo@bar.baz")&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;p&gt;To make our life even easier, we&amp;rsquo;ll set some variables:&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;table cellspacing="0"&gt;
+ &lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;(setq mu4e-get-mail-command "getmail"&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;mu4e-update-interval 300&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;mu4e-attachment-dir "~/Downloads")&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;h2&gt;2.3
+ &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Execution)"&gt;&lt;/a&gt;Execution&lt;/h2&gt;
+
+&lt;p&gt;You can restart emacs so that those settings can take effect, or alternatively,
 you can mark (C-space) those lines, then hit:&lt;/p&gt;
- &lt;p&gt;&lt;/p&gt;
- &lt;table cellspacing="0"&gt;
-  &lt;tbody&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;M-x eval-region&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
- &lt;p&gt;At this point, you can now use mu4e, by hitting:&lt;/p&gt;
- &lt;p&gt;&lt;/p&gt;
- &lt;table cellspacing="0"&gt;
-  &lt;tbody&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;M-x mu4e&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
- &lt;p&gt;You&amp;rsquo;ll get a sexy menu, wherein you can hit shortcuts to get you to where you
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;table cellspacing="0"&gt;
+ &lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;M-x eval-region&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;p&gt;At this point, you can now use mu4e, by hitting:&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;table cellspacing="0"&gt;
+ &lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;M-x mu4e&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;p&gt;You&amp;rsquo;ll get a sexy menu, wherein you can hit shortcuts to get you to where you
 want. To compose a message, hit &lt;span class="stt"&gt;C&lt;/span&gt;, fill in the fields, then hit
 &lt;span class="stt"&gt;C-c C-c&lt;/span&gt; to send the message. The rest of the commands should be
 self-explanatory, but if you want to learn more, you can read the nice
 &lt;a href="http://www.djcbsoftware.nl/code/mu/mu4e/index.html"&gt;mu4e manual&lt;/a&gt;.&lt;/p&gt;
- &lt;h2&gt;2.4
-  &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Encryption)"&gt;&lt;/a&gt;Encryption&lt;/h2&gt;
- &lt;p&gt;Optionally, you may want to add some tweaks so that encryption and
+
+&lt;h2&gt;2.4
+ &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Encryption)"&gt;&lt;/a&gt;Encryption&lt;/h2&gt;
+
+&lt;p&gt;Optionally, you may want to add some tweaks so that encryption and
 decryption of messages, will be easier. This is actually one of my primary
 reasons why I&amp;rsquo;m using mu4e &amp;ndash; it has been pointed out to me that despite using
 browser extensions like &lt;a href="http://getfiregpg.org/s/home"&gt;FireGPG&lt;/a&gt;, and
@@ -275,74 +338,88 @@ browser extensions like &lt;a href="http://getfiregpg.org/s/home"&gt;FireGPG&lt;
 All Text!&lt;/a&gt;, the supposedly private message that you composed got auto-saved by
 default to the &lt;span style="font-style: italic"&gt;Drafts&lt;/span&gt; folder. This implies, that your unencrypted
 message, was still saved somewhere. Ahem.&lt;/p&gt;
- &lt;p&gt;To make use of these cryptographic utilities, edit your emacs init:&lt;/p&gt;
- &lt;p&gt;&lt;/p&gt;
- &lt;table cellspacing="0"&gt;
-  &lt;tbody&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ emacs ~/.emacs.d/init.el&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
- &lt;p&gt;Then add the following:&lt;/p&gt;
- &lt;p&gt;&lt;/p&gt;
- &lt;table cellspacing="0"&gt;
-  &lt;tbody&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;(require 'mml2015)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;(require 'epa-file)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;(defun encrypt-message (&amp;amp;optional arg)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;(interactive "p")&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;(mml-secure-message-encrypt-pgp))&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;(defun decrypt-message (&amp;amp;optional arg)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;(interactive "p")&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;(epa-decrypt-armor-in-region (point-min) (point-max)))&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;(defalias 'ec 'encrypt-message)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;(defalias 'dc 'decrypt-message)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
- &lt;p&gt;Mark those lines, then hit:&lt;/p&gt;
- &lt;p&gt;&lt;/p&gt;
- &lt;table cellspacing="0"&gt;
-  &lt;tbody&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;M-x eval-region&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
- &lt;p&gt;To make the settings take effect, immediately.&lt;/p&gt;
- &lt;p&gt;To send an encrypt a message, hit &lt;span class="stt"&gt;C&lt;/span&gt; from the main menu of mu4e, fill in
+
+&lt;p&gt;To make use of these cryptographic utilities, edit your emacs init:&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;table cellspacing="0"&gt;
+ &lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ emacs ~/.emacs.d/init.el&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;p&gt;Then add the following:&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;table cellspacing="0"&gt;
+ &lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;(require 'mml2015)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;(require 'epa-file)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;(defun encrypt-message (&amp;amp;optional arg)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;(interactive "p")&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;(mml-secure-message-encrypt-pgp))&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;(defun decrypt-message (&amp;amp;optional arg)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;(interactive "p")&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;(epa-decrypt-armor-in-region (point-min) (point-max)))&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;(defalias 'ec 'encrypt-message)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;(defalias 'dc 'decrypt-message)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;p&gt;Mark those lines, then hit:&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;table cellspacing="0"&gt;
+ &lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;M-x eval-region&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;p&gt;To make the settings take effect, immediately.&lt;/p&gt;
+
+&lt;p&gt;To send an encrypt a message, hit &lt;span class="stt"&gt;C&lt;/span&gt; from the main menu of mu4e, fill in
 the usual fields like &lt;span class="stt"&gt;To:&lt;/span&gt;, and &lt;span class="stt"&gt;Subject:&lt;/span&gt;, then on the message
 body, hit:&lt;/p&gt;
- &lt;p&gt;&lt;/p&gt;
- &lt;table cellspacing="0"&gt;
-  &lt;tbody&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;M-x ec&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
- &lt;p&gt;This will tag your outgoing message to be signed and encrypted. To send the
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;table cellspacing="0"&gt;
+ &lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;M-x ec&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;p&gt;This will tag your outgoing message to be signed and encrypted. To send the
 it, hit &lt;span class="stt"&gt;C-c C-c&lt;/span&gt;. This will then prompt you to input your
 passphrase. It will also ask you to fill in some information regarding your
 outgoing mail server (SMTP). The SMTP server for Gmail is
@@ -350,16 +427,21 @@ outgoing mail server (SMTP). The SMTP server for Gmail is
 username. Use your regular password, when prompted, or input your
 application-specific password, as described earlier. These information will be
 saved to &lt;span class="stt"&gt;~/.authinfo&lt;/span&gt;, and will be used for later messages.&lt;/p&gt;
- &lt;p&gt;To decrypt a message, open the message, then hit:&lt;/p&gt;
- &lt;p&gt;&lt;/p&gt;
- &lt;table cellspacing="0"&gt;
-  &lt;tbody&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;M-x dc&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
- &lt;p&gt;This will prompt you to input your passphrase. After which, you&amp;rsquo;ll be prompted
+
+&lt;p&gt;To decrypt a message, open the message, then hit:&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;table cellspacing="0"&gt;
+ &lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;M-x dc&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;p&gt;This will prompt you to input your passphrase. After which, you&amp;rsquo;ll be prompted
 if you&amp;rsquo;ll want to replace the contents of the buffer, say yes to this.&lt;/p&gt;
- &lt;p&gt;These approaches are not fool-proof, because there&amp;rsquo;s at least two gaping holes
+
+&lt;p&gt;These approaches are not fool-proof, because there&amp;rsquo;s at least two gaping holes
 that you have to be aware of &amp;ndash; emacs backups, and mu4e drafts. With the
 former, when you are using emacs&amp;rsquo; backup facility, or a package like
 &lt;a href="http://www.emacswiki.org/emacs/BackupDirectory"&gt;backup-dir&lt;/a&gt;,
@@ -367,9 +449,11 @@ messages that you compose, presumably before you encrypt it, will have an
 unencrypted copy to the local disk. With the latter, the same principle
 applies. So be wary of these situations, and tweak your configuration, as
 necessary.&lt;/p&gt;
- &lt;h1&gt;3
-  &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Conclusion)"&gt;&lt;/a&gt;Conclusion&lt;/h1&gt;
- &lt;p&gt;Bear in mind that I purposely avoided fleshing out many details, as it would
+
+&lt;h1&gt;3
+ &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Conclusion)"&gt;&lt;/a&gt;Conclusion&lt;/h1&gt;
+
+&lt;p&gt;Bear in mind that I purposely avoided fleshing out many details, as it would
 conflate the attempt of this article to make things simple. However, if you
 want to learn more, you can always go to the
 &lt;a href="http://pyropus.ca/software/getmail/documentation.html"&gt;getmail&lt;/a&gt;
@@ -380,148 +464,169 @@ documentation, to fill in missing gaps, that you may have.&lt;/p&gt;&lt;/html&gt
    <link>http://www.example.com/blog/2013/09/29/emacs-and-racket/?utm_source=emacs&amp;utm_medium=RSS</link>
    <guid>urn:http-www-example-com:-blog-2013-09-29-emacs-and-racket</guid>
    <pubDate>Sun, 29 Sep 2013 22:21:19 PHT</pubDate>
-   <description>
-&lt;html&gt;&lt;img src="http://www.example.com/img/1x1.gif?utm_source=emacs&amp;amp;utm_medium=RSS&amp;amp;utm_campaign=%2Fblog%2F2013%2F09%2F29%2Femacs-and-racket%2F" height="1" width="1" /&gt;
- &lt;p&gt;In this post, I&amp;rsquo;ll discuss the easiest approach that I took to setup up a
+   <description>&lt;html&gt;
+&lt;p&gt;In this post, I&amp;rsquo;ll discuss the easiest approach that I took to setup up a
 &lt;a href="http://racket-lang.org"&gt;Racket&lt;/a&gt; development environment on
 Emacs. Take note, that this is not the only approach available &amp;ndash; some did it
 in arguably better ways. In this article, I&amp;rsquo;ll try to explain the shortest
 route that I took.&lt;/p&gt;
- &lt;h1&gt;1
-  &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Introduction)"&gt;&lt;/a&gt;Introduction&lt;/h1&gt;
- &lt;p&gt;Editing Racket code with Emacs has traditionally been done by rudimentary modes
+
+&lt;p&gt;&amp;lt;!&amp;ndash; more &amp;ndash;&amp;gt;&lt;/p&gt;
+
+&lt;h1&gt;1
+ &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Introduction)"&gt;&lt;/a&gt;Introduction&lt;/h1&gt;
+
+&lt;p&gt;Editing Racket code with Emacs has traditionally been done by rudimentary modes
 that mostly lacked flexibility. They were able to evaluate current definitions,
 last definitions, and entire buffers, for the most part. Unfortunately, that
 didn&amp;rsquo;t suffice with the way Racket dealt with things. A more intelligent way of
 handling code, was needed.&lt;/p&gt;
- &lt;p&gt;Fortunately, we have &lt;a href="http://www.nongnu.org/geiser/"&gt;Geiser&lt;/a&gt;. To
+
+&lt;p&gt;Fortunately, we have &lt;a href="http://www.nongnu.org/geiser/"&gt;Geiser&lt;/a&gt;. To
 quote the first paragraph on its homepage:&lt;/p&gt;
- &lt;p&gt;&lt;span style="font-style: italic"&gt;Geiser is a collection of Emacs major and minor modes that conspire with
+
+&lt;p&gt;&lt;span style="font-style: italic"&gt;Geiser is a collection of Emacs major and minor modes that conspire with
 one or more Scheme interpreters to keep the Lisp Machine Spirit alive. It draws
 inspiration (and a bit more) from environments such as Common Lisp&amp;#8217;s Slime,
 Factor&amp;#8217;s FUEL, Squeak or Emacs itself, and does its best to make Scheme hacking
 inside Emacs (even more) fun.&lt;/span&gt;.&lt;/p&gt;
- &lt;p&gt;I saw several other major modes that tries to do what Geiser does, but I became
+
+&lt;p&gt;I saw several other major modes that tries to do what Geiser does, but I became
 most comfortable with what Geiser offered. Some similar libraries can co-exist
 with Geiser, too. I tried those, but it became too complex, for me. I wound up
 just using Geiser. Also, as a semi-related note, I&amp;rsquo;m using Emacs to edit Racket
 code because I don&amp;rsquo;t know of any other editor that does it so well. I don&amp;rsquo;t use
 DrRacket, except when I need to use its nice GUI debugger. &lt;/p&gt;
- &lt;h1&gt;2
-  &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Installation)"&gt;&lt;/a&gt;Installation&lt;/h1&gt;
- &lt;p&gt;My installation method is crude, but it works, at least for me. Other
+
+&lt;h1&gt;2
+ &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Installation)"&gt;&lt;/a&gt;Installation&lt;/h1&gt;
+
+&lt;p&gt;My installation method is crude, but it works, at least for me. Other
 installation methods exist, but I couldn&amp;rsquo;t wrap my brain around them, so I
 opted instead for something that requires the minimal amount of chore. Also,
 I&amp;rsquo;m still not sure what are the hidden consequences of not doing it the
 "elegant" way, presuming there is one.&lt;/p&gt;
- &lt;p&gt;Let&amp;rsquo;s say that you want to install your Geiser files in
+
+&lt;p&gt;Let&amp;rsquo;s say that you want to install your Geiser files in
 &lt;span class="RktSym"&gt;~/.emacs.d/elisp/&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;. We&amp;rsquo;ll issue the following commands to install Geiser
 to that location:&lt;/p&gt;
- &lt;p&gt;&lt;/p&gt;
- &lt;table cellspacing="0"&gt;
-  &lt;tbody&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ mkdir ~/.emacs.d/elisp&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ cd ~/.emacs.d/elisp&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ git clone http://git.sv.gnu.org/r/geiser.git&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
- &lt;p&gt;After that, in &lt;span class="RktSym"&gt;~/.emacs.d/elisp/geiser/&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;, you&amp;rsquo;ll have something that
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;table cellspacing="0"&gt;
+ &lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ mkdir ~/.emacs.d/elisp&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ cd ~/.emacs.d/elisp&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ git clone http://git.sv.gnu.org/r/geiser.git&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;p&gt;After that, in &lt;span class="RktSym"&gt;~/.emacs.d/elisp/geiser/&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;, you&amp;rsquo;ll have something that
 looks like the following:&lt;/p&gt;
- &lt;p&gt;&lt;/p&gt;
- &lt;table cellspacing="0"&gt;
-  &lt;tbody&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;AUTHORS&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;autogen.sh*&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;bin/&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;ChangeLog&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;configure.ac&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;COPYING&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;doc/&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;elisp/&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;.git/&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;.gitignore&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;INSTALL&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;Makefile.am&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;NEWS&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;README&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;README.elpa&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;scheme/&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;THANKS&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
- &lt;p&gt;Next, we want the directory &lt;span class="RktSym"&gt;~/.emacs.d/elisp/geiser/elisp/&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt; to be a
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;table cellspacing="0"&gt;
+ &lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;AUTHORS&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;autogen.sh*&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;bin/&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;ChangeLog&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;configure.ac&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;COPYING&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;doc/&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;elisp/&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;.git/&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;.gitignore&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;INSTALL&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;Makefile.am&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;NEWS&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;README&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;README.elpa&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;scheme/&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;THANKS&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;p&gt;Next, we want the directory &lt;span class="RktSym"&gt;~/.emacs.d/elisp/geiser/elisp/&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt; to be a
 member of the Emacs variable &lt;span class="RktSym"&gt;load-path&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt; so that &lt;span class="RktSym"&gt;require&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt; and
 friends will know where to find things. To do that, add the following to your
 Emacs init file &amp;ndash; either in &lt;span class="RktSym"&gt;~/.emacs.d/init.el&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;, or in &lt;span class="RktSym"&gt;~/.emacs&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;
 (deprecated):&lt;/p&gt;
- &lt;p&gt;&lt;/p&gt;
- &lt;table cellspacing="0"&gt;
-  &lt;tbody&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;(add-to-list 'load-path "~/.emacs.d/elisp/geiser/elisp/")&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
- &lt;p&gt;Next, we&amp;rsquo;ll put in the actual code that invokes and configures Geiser:&lt;/p&gt;
- &lt;p&gt;&lt;/p&gt;
- &lt;table cellspacing="0"&gt;
-  &lt;tbody&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;(require 'geiser)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;(setq geiser-active-implementations '(racket))&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;(defun geiser-save ()&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;(interactive)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;(geiser-repl--write-input-ring))&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
- &lt;p&gt;The first expression loads Geiser, itself. The second one specifies that it
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;table cellspacing="0"&gt;
+ &lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;(add-to-list 'load-path "~/.emacs.d/elisp/geiser/elisp/")&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;p&gt;Next, we&amp;rsquo;ll put in the actual code that invokes and configures Geiser:&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;table cellspacing="0"&gt;
+ &lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;(require 'geiser)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;(setq geiser-active-implementations '(racket))&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;(defun geiser-save ()&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;(interactive)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;(geiser-repl--write-input-ring))&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;p&gt;The first expression loads Geiser, itself. The second one specifies that it
 won&amp;rsquo;t prompt you for other implementations if it finds them. The last one is
 optional &amp;ndash; it enables you to execute &lt;span class="RktSym"&gt;M-x&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;geiser-save&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt; in the REPL buffer
 to force saving of the history to the disk file, which is
@@ -531,136 +636,150 @@ your REPL session, immediately (Nothing is more horrifying than losing
 evaluate them now using members of the eval-* troupe (&lt;span class="RktSym"&gt;eval-defun&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;,
 &lt;span class="RktSym"&gt;eval-last-sexp&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;, &lt;span class="RktSym"&gt;eval-region&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;), or, you can still opt to respawn a
 new Emacs process.&lt;/p&gt;
- &lt;h1&gt;3
-  &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Usage)"&gt;&lt;/a&gt;Usage&lt;/h1&gt;
- &lt;p&gt;To reap what you sowed, create or open a &lt;span class="RktSym"&gt;.rkt&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt; file, with at least a
+
+&lt;h1&gt;3
+ &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Usage)"&gt;&lt;/a&gt;Usage&lt;/h1&gt;
+
+&lt;p&gt;To reap what you sowed, create or open a &lt;span class="RktSym"&gt;.rkt&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt; file, with at least a
 proper module declaration. Then hit:&lt;/p&gt;
- &lt;p&gt;&lt;/p&gt;
- &lt;table cellspacing="0"&gt;
-  &lt;tbody&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;M-x run-geiser&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
- &lt;p&gt;And, boomshakalaka! A new (Emacs) window opens, containing the &lt;span class="RktSym"&gt;*&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;Racket&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;REPL&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;*&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt; buffer. Whatever you can do with the REPL invoked with vanilla
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;table cellspacing="0"&gt;
+ &lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;M-x run-geiser&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;p&gt;And, boomshakalaka! A new (Emacs) window opens, containing the &lt;span class="RktSym"&gt;*&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;Racket&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;REPL&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;*&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt; buffer. Whatever you can do with the REPL invoked with vanilla
 command-line &lt;span class="RktSym"&gt;racket&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;, you can also do with this, and more. This major
 mode is actually Comint mode, under the hood, with hooks to a a Racket
 process. For those of you who are unfamiliar with Comint mode, it is the same
 mode that handles &lt;span class="RktSym"&gt;M-x&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;&lt;span class="RktSym"&gt;shell&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt;.&lt;/p&gt;
- &lt;p&gt;So, what can we do with it? While editing &lt;span class="RktSym"&gt;.rkt&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt; file, here are some of
+
+&lt;p&gt;So, what can we do with it? While editing &lt;span class="RktSym"&gt;.rkt&lt;/span&gt;&lt;span class="RktMeta"&gt;&lt;/span&gt; file, here are some of
 the usual shortcuts that I use (The full list of keys are
 &lt;a href="http://www.nongnu.org/geiser/geiser_5.html#Cheat-sheet"&gt;available
 here&lt;/a&gt;). Take note, that the description of the keys that I used below, are for
 myself initially, to help me understand what they do. They may, or may not
 diverge from the official description, listed on the aforementioned link.&lt;/p&gt;
- &lt;p&gt;&lt;span style="font-weight: bold"&gt;Racket buffer&lt;/span&gt;&lt;/p&gt;
- &lt;p&gt;&lt;/p&gt;
- &lt;table cellspacing="0" class="boxed"&gt;
-  &lt;tbody&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span style="font-weight: bold"&gt;Key&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span style="font-weight: bold"&gt;What it does&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span style="font-weight: bold"&gt;C-c C-z&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
-    &lt;td&gt;
-     &lt;p&gt;Switch to the REPL&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span style="font-weight: bold"&gt;C-c C-a&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
-    &lt;td&gt;
-     &lt;p&gt;Evaluate buffer, then switch to the REPL&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span style="font-weight: bold"&gt;C-M-x&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
-    &lt;td&gt;
-     &lt;p&gt;Evaluate current expression&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span style="font-weight: bold"&gt;C-x C-e&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
-    &lt;td&gt;
-     &lt;p&gt;Evaluate last expression&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span style="font-weight: bold"&gt;C-c C-r&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
-    &lt;td&gt;
-     &lt;p&gt;Evaluate region&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span style="font-weight: bold"&gt;C-c C-\&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
-    &lt;td&gt;
-     &lt;p&gt;Insert a &amp;#955; symbol&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
- &lt;p&gt;&lt;span style="font-weight: bold"&gt;REPL buffer&lt;/span&gt;&lt;/p&gt;
- &lt;p&gt;&lt;/p&gt;
- &lt;table cellspacing="0" class="boxed"&gt;
-  &lt;tbody&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span style="font-weight: bold"&gt;Key&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span style="font-weight: bold"&gt;What it does&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span style="font-weight: bold"&gt;C-c C-z&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
-    &lt;td&gt;
-     &lt;p&gt;Switch to the Racket buffer&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span style="font-weight: bold"&gt;M-p&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
-    &lt;td&gt;
-     &lt;p&gt;Switch to previous history item&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span style="font-weight: bold"&gt;M-n&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
-    &lt;td&gt;
-     &lt;p&gt;Switch to next history item&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span style="font-weight: bold"&gt;C-c M-p&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
-    &lt;td&gt;
-     &lt;p&gt;Jump to previous prompt&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span style="font-weight: bold"&gt;C-c M-p&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
-    &lt;td&gt;
-     &lt;p&gt;Jump to next prompt&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span style="font-weight: bold"&gt;C-c C-q&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
-    &lt;td&gt;
-     &lt;p&gt;Quit the REPL&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
- &lt;h1&gt;4
-  &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Conclusion)"&gt;&lt;/a&gt;Conclusion&lt;/h1&gt;
- &lt;p&gt;I have intentionally skipped many topics from the
+
+&lt;p&gt;&lt;span style="font-weight: bold"&gt;Racket buffer&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;table cellspacing="0" class="boxed"&gt;
+ &lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span style="font-weight: bold"&gt;Key&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span style="font-weight: bold"&gt;What it does&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span style="font-weight: bold"&gt;C-c C-z&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;Switch to the REPL&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span style="font-weight: bold"&gt;C-c C-a&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;Evaluate buffer, then switch to the REPL&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span style="font-weight: bold"&gt;C-M-x&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;Evaluate current expression&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span style="font-weight: bold"&gt;C-x C-e&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;Evaluate last expression&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span style="font-weight: bold"&gt;C-c C-r&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;Evaluate region&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span style="font-weight: bold"&gt;C-c C-\&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;Insert a &amp;#955; symbol&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;p&gt;&lt;span style="font-weight: bold"&gt;REPL buffer&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;table cellspacing="0" class="boxed"&gt;
+ &lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span style="font-weight: bold"&gt;Key&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span style="font-weight: bold"&gt;What it does&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span style="font-weight: bold"&gt;C-c C-z&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;Switch to the Racket buffer&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span style="font-weight: bold"&gt;M-p&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;Switch to previous history item&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span style="font-weight: bold"&gt;M-n&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;Switch to next history item&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span style="font-weight: bold"&gt;C-c M-p&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;Jump to previous prompt&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span style="font-weight: bold"&gt;C-c M-p&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;Jump to next prompt&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span style="font-weight: bold"&gt;C-c C-q&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;Quit the REPL&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;h1&gt;4
+ &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Conclusion)"&gt;&lt;/a&gt;Conclusion&lt;/h1&gt;
+
+&lt;p&gt;I have intentionally skipped many topics from the
 &lt;a href="http://www.nongnu.org/geiser/"&gt;official manual&lt;/a&gt; because it makes
 it unattractive to people who are averse to reading long blocks of text
 (ironically, this article may even qualify as one.). The methods described
@@ -671,259 +790,282 @@ and using Racket with Emacs. Feel free to drop a comment below!  Ciao!&lt;/p&gt;
    <link>http://www.example.com/blog/2013/09/26/emacs-and-dired/?utm_source=emacs&amp;utm_medium=RSS</link>
    <guid>urn:http-www-example-com:-blog-2013-09-26-emacs-and-dired</guid>
    <pubDate>Thu, 26 Sep 2013 17:57:00 PHT</pubDate>
-   <description>
-&lt;html&gt;&lt;img src="http://www.example.com/img/1x1.gif?utm_source=emacs&amp;amp;utm_medium=RSS&amp;amp;utm_campaign=%2Fblog%2F2013%2F09%2F26%2Femacs-and-dired%2F" height="1" width="1" /&gt;
- &lt;p&gt;In this post, I&amp;rsquo;ll be focusing on one of the novel ways Emacs handles
+   <description>&lt;html&gt;
+&lt;p&gt;In this post, I&amp;rsquo;ll be focusing on one of the novel ways Emacs handles
 &lt;span style="font-style: italic"&gt;"directory editing"&lt;/span&gt;. The directory editor, or &lt;span style="font-weight: bold"&gt;dired&lt;/span&gt; (pronounced
 dir-ed, not die-rd), for short, is the Emacs equivalent of a file
 manager. Whatever you can do with regular file buffers, you can also do it with
 dired buffers, to a certain extent.&lt;/p&gt;
- &lt;h1&gt;1
-  &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Introduction)"&gt;&lt;/a&gt;Introduction&lt;/h1&gt;
- &lt;p&gt;To run dired, run emacs on the command line, supplying a directory as its argument:&lt;/p&gt;
- &lt;p&gt;&lt;/p&gt;
- &lt;table cellspacing="0"&gt;
-  &lt;tbody&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;emacs ~/Desktop/&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
- &lt;p&gt;Or, alternatively, you can press &lt;span class="stt"&gt;C-x d&lt;/span&gt; inside Emacs. If you are
+
+&lt;p&gt;&amp;lt;!&amp;ndash; more &amp;ndash;&amp;gt;&lt;/p&gt;
+
+&lt;h1&gt;1
+ &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Introduction)"&gt;&lt;/a&gt;Introduction&lt;/h1&gt;
+
+&lt;p&gt;To run dired, run emacs on the command line, supplying a directory as its argument:&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;table cellspacing="0"&gt;
+ &lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;emacs ~/Desktop/&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;p&gt;Or, alternatively, you can press &lt;span class="stt"&gt;C-x d&lt;/span&gt; inside Emacs. If you are
 currently editing a file, the directory of that file will be presented as the
 default value in the minibuffer area. Either way, when you hit &lt;span class="stt"&gt;Enter&lt;/span&gt;, a
 buffer of the directory will load, that looks like the output of
 &lt;span class="stt"&gt;ls -l&lt;/span&gt;:&lt;/p&gt;
- &lt;p&gt;&lt;/p&gt;
- &lt;table cellspacing="0"&gt;
-  &lt;tbody&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;/home/john/Desktop/foo:&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;total used in directory 84 available 540767396&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;-rw-r--r-- 1 john users 5935 Sep 27 18:17 index.html&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;-rw-r--r-- 1 john users 5944 Sep 27 18:17 index2.html&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;drwxr-xr-x 3 john users 4096 Sep 26 17:42 pics&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;drwxr-xr-x 3 john users 4096 Sep 26 05:39 vids&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
- &lt;p&gt;Okay, now that we have it, what can we do with it? Well, here is a short list
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;table cellspacing="0"&gt;
+ &lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;/home/john/Desktop/foo:&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;total used in directory 84 available 540767396&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;-rw-r--r-- 1 john users 5935 Sep 27 18:17 index.html&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;-rw-r--r-- 1 john users 5944 Sep 27 18:17 index2.html&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;drwxr-xr-x 3 john users 4096 Sep 26 17:42 pics&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;drwxr-xr-x 3 john users 4096 Sep 26 05:39 vids&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;p&gt;Okay, now that we have it, what can we do with it? Well, here is a short list
 of what, we can do with it. Take note, that the keyboard shortcuts in this
 article are case-sensitive, unless explicitly stated otherwise.&lt;/p&gt;
- &lt;h1&gt;2
-  &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Common_commands)"&gt;&lt;/a&gt;Common commands&lt;/h1&gt;
- &lt;p&gt;These are the usual commands that you would use, in a dired buffer. In addition
+
+&lt;h1&gt;2
+ &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Common_commands)"&gt;&lt;/a&gt;Common commands&lt;/h1&gt;
+
+&lt;p&gt;These are the usual commands that you would use, in a dired buffer. In addition
 to that, they can operate on single, or multiple items. Using them for multiple
 items will be explained, next.&lt;/p&gt;
- &lt;p&gt;&lt;/p&gt;
- &lt;table cellspacing="0" class="boxed"&gt;
-  &lt;tbody&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span style="font-weight: bold"&gt;Key&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span style="font-weight: bold"&gt;What it does&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span style="font-weight: bold"&gt;R&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
-    &lt;td&gt;
-     &lt;p&gt;Rename item(s)&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span style="font-weight: bold"&gt;C&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
-    &lt;td&gt;
-     &lt;p&gt;Copy item(s)&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span style="font-weight: bold"&gt;D&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
-    &lt;td&gt;
-     &lt;p&gt;Delete item(s)&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span style="font-weight: bold"&gt;O&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
-    &lt;td&gt;
-     &lt;p&gt;Change item(s) owner&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span style="font-weight: bold"&gt;G&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
-    &lt;td&gt;
-     &lt;p&gt;Change item(s) group&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span style="font-weight: bold"&gt;M&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
-    &lt;td&gt;
-     &lt;p&gt;Change item(s) permission&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span style="font-weight: bold"&gt;S&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
-    &lt;td&gt;
-     &lt;p&gt;Create symlink&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span style="font-weight: bold"&gt;T&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
-    &lt;td&gt;
-     &lt;p&gt;Touch item(s), like "touch"&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span style="font-weight: bold"&gt;X&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
-    &lt;td&gt;
-     &lt;p&gt;Execute a shell command on item(s)&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
- &lt;h1&gt;3
-  &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Mark_commands)"&gt;&lt;/a&gt;Mark commands&lt;/h1&gt;
- &lt;p&gt;These commands perform mark-related operations on items. Creating marks simply
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;table cellspacing="0" class="boxed"&gt;
+ &lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span style="font-weight: bold"&gt;Key&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span style="font-weight: bold"&gt;What it does&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span style="font-weight: bold"&gt;R&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;Rename item(s)&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span style="font-weight: bold"&gt;C&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;Copy item(s)&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span style="font-weight: bold"&gt;D&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;Delete item(s)&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span style="font-weight: bold"&gt;O&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;Change item(s) owner&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span style="font-weight: bold"&gt;G&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;Change item(s) group&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span style="font-weight: bold"&gt;M&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;Change item(s) permission&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span style="font-weight: bold"&gt;S&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;Create symlink&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span style="font-weight: bold"&gt;T&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;Touch item(s), like "touch"&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span style="font-weight: bold"&gt;X&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;Execute a shell command on item(s)&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;h1&gt;3
+ &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Mark_commands)"&gt;&lt;/a&gt;Mark commands&lt;/h1&gt;
+
+&lt;p&gt;These commands perform mark-related operations on items. Creating marks simply
 means putting a tag on items, so that you can perform the operations in the
 previous section, on them.&lt;/p&gt;
- &lt;p&gt;&lt;/p&gt;
- &lt;table cellspacing="0" class="boxed"&gt;
-  &lt;tbody&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span style="font-weight: bold"&gt;Key&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span style="font-weight: bold"&gt;What it does&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span style="font-weight: bold"&gt;m&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
-    &lt;td&gt;
-     &lt;p&gt;Mark an item, for the above-listed commands&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span style="font-weight: bold"&gt;u&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
-    &lt;td&gt;
-     &lt;p&gt;Unmark a single item&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span style="font-weight: bold"&gt;U&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
-    &lt;td&gt;
-     &lt;p&gt;Unmark all items&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span style="font-weight: bold"&gt;t&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
-    &lt;td&gt;
-     &lt;p&gt;Toggle marks between marked and unmarked items&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
- &lt;h1&gt;4
-  &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Other_commands)"&gt;&lt;/a&gt;Other commands&lt;/h1&gt;
- &lt;p&gt;These commands act on their own. They operate on single items, and they don&amp;rsquo;t
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;table cellspacing="0" class="boxed"&gt;
+ &lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span style="font-weight: bold"&gt;Key&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span style="font-weight: bold"&gt;What it does&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span style="font-weight: bold"&gt;m&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;Mark an item, for the above-listed commands&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span style="font-weight: bold"&gt;u&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;Unmark a single item&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span style="font-weight: bold"&gt;U&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;Unmark all items&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span style="font-weight: bold"&gt;t&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;Toggle marks between marked and unmarked items&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;h1&gt;4
+ &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Other_commands)"&gt;&lt;/a&gt;Other commands&lt;/h1&gt;
+
+&lt;p&gt;These commands act on their own. They operate on single items, and they don&amp;rsquo;t
 make use of marks. The &lt;span style="font-weight: bold"&gt;w&lt;/span&gt; command, however, is an exception.&lt;/p&gt;
- &lt;p&gt;&lt;/p&gt;
- &lt;table cellspacing="0" class="boxed"&gt;
-  &lt;tbody&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span style="font-weight: bold"&gt;Key&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span style="font-weight: bold"&gt;What it does&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span style="font-weight: bold"&gt;+&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
-    &lt;td&gt;
-     &lt;p&gt;Create directory&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span style="font-weight: bold"&gt;^&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
-    &lt;td&gt;
-     &lt;p&gt;Go up, one level, like "cd .."&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span style="font-weight: bold"&gt;e&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
-    &lt;td&gt;
-     &lt;p&gt;Edit an item&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span style="font-weight: bold"&gt;f&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
-    &lt;td&gt;
-     &lt;p&gt;Edit an item&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span style="font-weight: bold"&gt;v&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
-    &lt;td&gt;
-     &lt;p&gt;View an item, like "less" or "more"&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span style="font-weight: bold"&gt;g&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
-    &lt;td&gt;
-     &lt;p&gt;Reload the current directory&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span style="font-weight: bold"&gt;j&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
-    &lt;td&gt;
-     &lt;p&gt;Jump to an item&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span style="font-weight: bold"&gt;s&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
-    &lt;td&gt;
-     &lt;p&gt;Change sort order&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span style="font-weight: bold"&gt;y&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
-    &lt;td&gt;
-     &lt;p&gt;Show file type of item, like "file"&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span style="font-weight: bold"&gt;w&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
-    &lt;td&gt;
-     &lt;p&gt;Copy item name(s) to the clipboard&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
- &lt;h1&gt;5
-  &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.W.Dired_mode)"&gt;&lt;/a&gt;WDired mode&lt;/h1&gt;
- &lt;p&gt;&lt;span style="font-weight: bold"&gt;BUT&lt;/span&gt;, one of the coolest, and often-overlooked feature of dired is the
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;table cellspacing="0" class="boxed"&gt;
+ &lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span style="font-weight: bold"&gt;Key&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span style="font-weight: bold"&gt;What it does&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span style="font-weight: bold"&gt;+&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;Create directory&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span style="font-weight: bold"&gt;^&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;Go up, one level, like "cd .."&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span style="font-weight: bold"&gt;e&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;Edit an item&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span style="font-weight: bold"&gt;f&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;Edit an item&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span style="font-weight: bold"&gt;v&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;View an item, like "less" or "more"&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span style="font-weight: bold"&gt;g&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;Reload the current directory&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span style="font-weight: bold"&gt;j&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;Jump to an item&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span style="font-weight: bold"&gt;s&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;Change sort order&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span style="font-weight: bold"&gt;y&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;Show file type of item, like "file"&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span style="font-weight: bold"&gt;w&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;Copy item name(s) to the clipboard&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;h1&gt;5
+ &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.W.Dired_mode)"&gt;&lt;/a&gt;WDired mode&lt;/h1&gt;
+
+&lt;p&gt;&lt;span style="font-weight: bold"&gt;BUT&lt;/span&gt;, one of the coolest, and often-overlooked feature of dired is the
 &lt;span style="font-weight: bold"&gt;WDired&lt;/span&gt; mode. What it does is that it gives you a decent ability to edit
 the item names in a dired buffer, just as you would on a typical buffer. To
 enter wdired mode, hit &lt;span class="stt"&gt;M-x wdired-change-to-wdired-mode&lt;/span&gt;. The major mode
@@ -931,322 +1073,361 @@ changes from &lt;span style="font-weight: bold"&gt;&lt;span style="font-style: i
 rename the files, and directories, with ease. You can even use rectangle and
 replace functions on them, to make things easier. The changes you have made at
 this point are not yet saved. To save the changes, press &lt;span class="stt"&gt;C-c C-c&lt;/span&gt;.&lt;/p&gt;
- &lt;p&gt;Well, that is it for now. Ciao!&lt;/p&gt;&lt;/html&gt;</description></item>
+
+&lt;p&gt;Well, that is it for now. Ciao!&lt;/p&gt;&lt;/html&gt;</description></item>
   <item>
    <title>Emacs and Hax</title>
    <link>http://www.example.com/blog/2013/09/10/emacs-and-hax/?utm_source=emacs&amp;utm_medium=RSS</link>
    <guid>urn:http-www-example-com:-blog-2013-09-10-emacs-and-hax</guid>
    <pubDate>Tue, 10 Sep 2013 13:23:34 PHT</pubDate>
-   <description>
-&lt;html&gt;&lt;img src="http://www.example.com/img/1x1.gif?utm_source=emacs&amp;amp;utm_medium=RSS&amp;amp;utm_campaign=%2Fblog%2F2013%2F09%2F10%2Femacs-and-hax%2F" height="1" width="1" /&gt;
- &lt;p&gt;In this series of posts, I will be sharing my personal hacks on how
+   <description>&lt;html&gt;
+&lt;p&gt;In this series of posts, I will be sharing my personal hacks on how
 I use Emacs for my day-to-day stuff. Most, if not all of the code
 contained in these posts are excerpts from the respective
 configuration files that I use.&lt;/p&gt;
- &lt;p&gt;The rest of the configuration can be found at
+
+&lt;p&gt;The rest of the configuration can be found at
 &lt;a href="http://github.com/ebzzry/dotemacs"&gt;github.com/ebzzry/dotemacs&lt;/a&gt;.&lt;/p&gt;
- &lt;p&gt;&lt;/p&gt;
- &lt;table cellspacing="0"&gt;
-  &lt;tbody&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;(defun delete-forward-char-or-region (&amp;amp;optional arg)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;(interactive "p")&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;(if (region-active-p)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;(delete-region (region-beginning)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;(region-end))&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;(delete-forward-char arg)))&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;(define-key global-map [deletechar] 'delete-forward-char-or-region)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;(define-key global-map [del] 'delete-forward-char-or-region)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
- &lt;p&gt;This command deletes a region if one is active, or deletes the
+
+&lt;p&gt;&amp;lt;!&amp;ndash; more &amp;ndash;&amp;gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;table cellspacing="0"&gt;
+ &lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;(defun delete-forward-char-or-region (&amp;amp;optional arg)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;(interactive "p")&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;(if (region-active-p)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;(delete-region (region-beginning)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;(region-end))&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;(delete-forward-char arg)))&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;(define-key global-map [deletechar] 'delete-forward-char-or-region)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;(define-key global-map [del] 'delete-forward-char-or-region)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;p&gt;This command deletes a region if one is active, or deletes the
 character underneath the cursor. I have this bound to the DEL key.&lt;/p&gt;
- &lt;p&gt;&lt;/p&gt;
- &lt;table cellspacing="0"&gt;
-  &lt;tbody&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;(defun compile-file ()&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;(interactive)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;(compile "make -k"))&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;(define-key global-map [(control ?x) ?c] 'compile-file)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
- &lt;p&gt;I use this command frequently, and I use it from typesetting LaTeX
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;table cellspacing="0"&gt;
+ &lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;(defun compile-file ()&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;(interactive)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;(compile "make -k"))&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;(define-key global-map [(control ?x) ?c] 'compile-file)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;p&gt;I use this command frequently, and I use it from typesetting LaTeX
 documents, compiling Scribble documents, compiling code, and just
 about anything that I can use Make with.&lt;/p&gt;
- &lt;p&gt;&lt;/p&gt;
- &lt;table cellspacing="0"&gt;
-  &lt;tbody&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;(defun geiser-save ()&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;(interactive)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;(geiser-repl--write-input-ring))&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
- &lt;p&gt;This comes in very handy for me, because sometimes I lose the REPL
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;table cellspacing="0"&gt;
+ &lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;(defun geiser-save ()&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;(interactive)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;(geiser-repl--write-input-ring))&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;p&gt;This comes in very handy for me, because sometimes I lose the REPL
 buffer before the input ring has been saved. When I need to run I
 execute &amp;lsquo;M-x geiser-save&amp;lsquo;.&lt;/p&gt;
- &lt;p&gt;&lt;/p&gt;
- &lt;table cellspacing="0"&gt;
-  &lt;tbody&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;(defun my-scheme-mode-hook ()&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;(put '&amp;#955; 'scheme-indent-function 1)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;(define-key scheme-mode-map [(control ?c) tab] 'completion-at-point))&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;(add-hook 'scheme-mode-hook 'my-scheme-mode-hook)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
- &lt;p&gt;I also have the above, since I want to align the &amp;lsquo;&amp;#955;&amp;lsquo; symbol nicely.&lt;/p&gt;
- &lt;p&gt;&lt;/p&gt;
- &lt;table cellspacing="0"&gt;
-  &lt;tbody&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;(require 'tramp)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;(add-to-list 'tramp-remote-path "/var/run/current-system/sw/bin")&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
- &lt;p&gt;The above snippet is applicable only to users of NixOS, since the
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;table cellspacing="0"&gt;
+ &lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;(defun my-scheme-mode-hook ()&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;(put '&amp;#955; 'scheme-indent-function 1)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;(define-key scheme-mode-map [(control ?c) tab] 'completion-at-point))&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;(add-hook 'scheme-mode-hook 'my-scheme-mode-hook)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;p&gt;I also have the above, since I want to align the &amp;lsquo;&amp;#955;&amp;lsquo; symbol nicely.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;table cellspacing="0"&gt;
+ &lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;(require 'tramp)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;(add-to-list 'tramp-remote-path "/var/run/current-system/sw/bin")&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;p&gt;The above snippet is applicable only to users of NixOS, since the
 filesystem tree is deviantly different from "regular" nixen.&lt;/p&gt;
- &lt;p&gt;&lt;/p&gt;
- &lt;table cellspacing="0"&gt;
-  &lt;tbody&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;(defun other-window-1 (&amp;amp;optional arg)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;(interactive "p")&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;(other-window (- arg)))&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;(define-key global-map [(control left)] 'other-window-1)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;(define-key global-map [(control right)] 'other-window)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
- &lt;p&gt;One of my favorites, and I may be biased because I&amp;rsquo;m using a
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;table cellspacing="0"&gt;
+ &lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;(defun other-window-1 (&amp;amp;optional arg)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;(interactive "p")&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;(other-window (- arg)))&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;(define-key global-map [(control left)] 'other-window-1)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;(define-key global-map [(control right)] 'other-window)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;p&gt;One of my favorites, and I may be biased because I&amp;rsquo;m using a
 [Kinesis Advantage keyboard](http://www.kinesis-ergo.com/advantage.htm),
 wherein the arrow keys are very easy to reach, but nevertheless, YMMV.&lt;/p&gt;
- &lt;p&gt;&lt;/p&gt;
- &lt;table cellspacing="0"&gt;
-  &lt;tbody&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;(defun find-two-files (orientation directory file1 file2)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;(let ((file-path1 (file-truename file1))&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;(file-path2 (file-truename file2)))&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;(delete-other-windows)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;(case orientation&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;(vertical (progn (split-window-right)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;(find-file file-path1)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;(other-window 1)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;(find-file file-path2)))&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;(horizontal (progn (split-window)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;(find-file file-path1)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;(other-window 1)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;(find-file file-path2)))&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;(other-window 1))))&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;(defun find-two-files-vertically (directory file1 file2)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;(find-two-files 'vertical directory file1 file2))&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;(defun find-two-files-horizontally (directory file1 file2)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;(find-two-files 'horizontal directory file1 file2))&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
- &lt;p&gt;&lt;/p&gt;
- &lt;table cellspacing="0"&gt;
-  &lt;tbody&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;ev () {&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;emacsclient -nw --eval "(find-two-files-vertically \"$(pwd)\" \"$1\" \"$2\")"&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;eh () {&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;emacsclient -nw --eval "(find-two-files-horizontally \"$(pwd)\" \"$1\" \"$2\")"&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
- &lt;p&gt;The two snippets above, for Elisp and Zsh (or your shell),
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;table cellspacing="0"&gt;
+ &lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;(defun find-two-files (orientation directory file1 file2)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;(let ((file-path1 (file-truename file1))&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;(file-path2 (file-truename file2)))&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;(delete-other-windows)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;(case orientation&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;(vertical (progn (split-window-right)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;(find-file file-path1)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;(other-window 1)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;(find-file file-path2)))&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;(horizontal (progn (split-window)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;(find-file file-path1)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;(other-window 1)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;(find-file file-path2)))&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;(other-window 1))))&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;(defun find-two-files-vertically (directory file1 file2)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;(find-two-files 'vertical directory file1 file2))&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;(defun find-two-files-horizontally (directory file1 file2)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;(find-two-files 'horizontal directory file1 file2))&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;table cellspacing="0"&gt;
+ &lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;ev () {&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;emacsclient -nw --eval "(find-two-files-vertically \"$(pwd)\" \"$1\" \"$2\")"&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;eh () {&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;emacsclient -nw --eval "(find-two-files-horizontally \"$(pwd)\" \"$1\" \"$2\")"&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;p&gt;The two snippets above, for Elisp and Zsh (or your shell),
 respectively, load two files into an Emacs buffer, oriented
 horizontally, and vertically, respectively.&lt;/p&gt;
- &lt;p&gt;So, to load &amp;lsquo;~/test1.txt&amp;lsquo; and &amp;lsquo;~/test2.txt&amp;lsquo; in Emacs, split windows,
+
+&lt;p&gt;So, to load &amp;lsquo;~/test1.txt&amp;lsquo; and &amp;lsquo;~/test2.txt&amp;lsquo; in Emacs, split windows,
 horizontally, run:&lt;/p&gt;
- &lt;p&gt;&lt;/p&gt;
- &lt;table cellspacing="0"&gt;
-  &lt;tbody&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ ev ~/test1.txt ~/test2.txt&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
- &lt;p&gt;&lt;/p&gt;
- &lt;table cellspacing="0"&gt;
-  &lt;tbody&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;(require 'server)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;(unless (server-running-p)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;(server-start))&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
- &lt;p&gt;This snippet runs the server instance, when it is not
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;table cellspacing="0"&gt;
+ &lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ ev ~/test1.txt ~/test2.txt&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;table cellspacing="0"&gt;
+ &lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;(require 'server)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;(unless (server-running-p)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;(server-start))&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;p&gt;This snippet runs the server instance, when it is not
 running, yet:&lt;/p&gt;
- &lt;p&gt;&lt;/p&gt;
- &lt;table cellspacing="0"&gt;
-  &lt;tbody&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;(defun kill-current-buffer ()&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;(interactive)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;(kill-buffer (current-buffer)))&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;(define-key global-map [(control ?x) (control ?k)] 'kill-current-buffer)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
- &lt;p&gt;A lot of us have this, but this is my simple, unconvoluted version&lt;/p&gt;
- &lt;p&gt;&lt;/p&gt;
- &lt;table cellspacing="0"&gt;
-  &lt;tbody&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;(defun mark-line (&amp;amp;optional arg)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;(interactive "p")&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;(if (not mark-active)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;(progn&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;(beginning-of-line)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;(push-mark)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;(setq mark-active t)))&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;(forward-line arg))&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;(define-key global-map [(shift ? )] 'mark-line)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;(define-key global-map [(control ?z)] 'mark-line)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
- &lt;p&gt;There have been plenty of times in the past when I needed this
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;table cellspacing="0"&gt;
+ &lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;(defun kill-current-buffer ()&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;(interactive)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;(kill-buffer (current-buffer)))&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;(define-key global-map [(control ?x) (control ?k)] 'kill-current-buffer)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;p&gt;A lot of us have this, but this is my simple, unconvoluted version&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;table cellspacing="0"&gt;
+ &lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;(defun mark-line (&amp;amp;optional arg)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;(interactive "p")&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;(if (not mark-active)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;(progn&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;(beginning-of-line)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;(push-mark)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;(setq mark-active t)))&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;(forward-line arg))&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;(define-key global-map [(shift ? )] 'mark-line)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;(define-key global-map [(control ?z)] 'mark-line)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;p&gt;There have been plenty of times in the past when I needed this
 function, and I would have to press a long series of keystrokes just
 to get it down. The above is what I have, instead.&lt;/p&gt;
- &lt;p&gt;Well, that is it for now. Ciao!&lt;/p&gt;&lt;/html&gt;</description></item></channel></rss>
+
+&lt;p&gt;Well, that is it for now. Ciao!&lt;/p&gt;&lt;/html&gt;</description></item></channel></rss>
