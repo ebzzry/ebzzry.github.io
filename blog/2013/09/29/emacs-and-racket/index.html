@@ -4,11 +4,7 @@
 
     <meta charset="utf-8">
     <title>Emacs and Racket</title>
-    <meta name="description" content="In this post, I'll discuss the easiest approach that I took to setup up a
-Racket development environment on
-Emacs. Take note, that this is not the only approach available - some did it
-in arguably better ways. In this article, I'll try to explain the shortest
-route that I took. ...">
+    <meta name="description" content="In this post, I'll discuss the easiest approach that I took to setup up a Racket development environment on Emacs. Take note, that this is not the only approach available - some did it in arguably better ways. In this article, I'll try to explain the shor...">
     <meta name="author"      content="Rommel Martinez">
     <meta name="keywords"    content="emacs, programming, racket">
     <meta name="viewport"    content="width=device-width, initial-scale=1.0">
@@ -102,290 +98,176 @@ route that I took. ...">
 
 
 
+          <article>
+  <header>
+    <h1>Emacs and Racket</h1>
 
-<article>
-
- <header>
-
-  <h1>Emacs and Racket</h1>
-
-
-  <p class="date-and-tags">
-
-   <time datetime="2013-09-29" pubdate="true">2013-09-29</time> :: <span class="tags"><a href="/tags/emacs.html">emacs</a>, <a href="/tags/programming.html">programming</a>, <a href="/tags/racket.html">racket</a></span></p>
+<p class="date-and-tags">
+ <time datetime="2013-09-29" pubdate="true">2013-09-29</time> :: <span class="tags"><a href="/tags/emacs.html">emacs</a>, <a href="/tags/programming.html">programming</a>, <a href="/tags/racket.html">racket</a></span></p>
   </header>
 
-
- <p>In this post, I&rsquo;ll discuss the easiest approach that I took to setup up a
+<p>In this post, I&rsquo;ll discuss the easiest approach that I took to setup up a
 <a href="http://racket-lang.org">Racket</a> development environment on
 Emacs. Take note, that this is not the only approach available &ndash; some did it
 in arguably better ways. In this article, I&rsquo;ll try to explain the shortest
 route that I took.</p>
 
+<p>&lt;!&ndash; more &ndash;&gt;</p>
 
- <h1>1
+<h1>1
+ <tt>&nbsp;</tt><a name="(part._.Introduction)"></a>Introduction</h1>
 
-  <tt>&nbsp;</tt><a name="(part._.Introduction)"></a>Introduction</h1>
-
-
- <p>Editing Racket code with Emacs has traditionally been done by rudimentary modes
+<p>Editing Racket code with Emacs has traditionally been done by rudimentary modes
 that mostly lacked flexibility. They were able to evaluate current definitions,
 last definitions, and entire buffers, for the most part. Unfortunately, that
 didn&rsquo;t suffice with the way Racket dealt with things. A more intelligent way of
 handling code, was needed.</p>
 
-
- <p>Fortunately, we have <a href="http://www.nongnu.org/geiser/">Geiser</a>. To
+<p>Fortunately, we have <a href="http://www.nongnu.org/geiser/">Geiser</a>. To
 quote the first paragraph on its homepage:</p>
 
-
- <p><span style="font-style: italic">Geiser is a collection of Emacs major and minor modes that conspire with
+<p><span style="font-style: italic">Geiser is a collection of Emacs major and minor modes that conspire with
 one or more Scheme interpreters to keep the Lisp Machine Spirit alive. It draws
 inspiration (and a bit more) from environments such as Common Lisp&#8217;s Slime,
 Factor&#8217;s FUEL, Squeak or Emacs itself, and does its best to make Scheme hacking
 inside Emacs (even more) fun.</span>.</p>
 
-
- <p>I saw several other major modes that tries to do what Geiser does, but I became
+<p>I saw several other major modes that tries to do what Geiser does, but I became
 most comfortable with what Geiser offered. Some similar libraries can co-exist
 with Geiser, too. I tried those, but it became too complex, for me. I wound up
 just using Geiser. Also, as a semi-related note, I&rsquo;m using Emacs to edit Racket
 code because I don&rsquo;t know of any other editor that does it so well. I don&rsquo;t use
 DrRacket, except when I need to use its nice GUI debugger. </p>
 
+<h1>2
+ <tt>&nbsp;</tt><a name="(part._.Installation)"></a>Installation</h1>
 
- <h1>2
-
-  <tt>&nbsp;</tt><a name="(part._.Installation)"></a>Installation</h1>
-
-
- <p>My installation method is crude, but it works, at least for me. Other
+<p>My installation method is crude, but it works, at least for me. Other
 installation methods exist, but I couldn&rsquo;t wrap my brain around them, so I
 opted instead for something that requires the minimal amount of chore. Also,
 I&rsquo;m still not sure what are the hidden consequences of not doing it the
 "elegant" way, presuming there is one.</p>
 
-
- <p>Let&rsquo;s say that you want to install your Geiser files in
+<p>Let&rsquo;s say that you want to install your Geiser files in
 <span class="RktSym">~/.emacs.d/elisp/</span><span class="RktMeta"></span>. We&rsquo;ll issue the following commands to install Geiser
 to that location:</p>
 
+<p></p>
 
- <p></p>
+<table cellspacing="0">
+ <tbody>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">$ mkdir ~/.emacs.d/elisp</span></span></p></td></tr>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">$ cd ~/.emacs.d/elisp</span></span></p></td></tr>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">$ git clone http://git.sv.gnu.org/r/geiser.git</span></span></p></td></tr></tbody></table>
 
-
- <table cellspacing="0">
-
-  <tbody>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">$ mkdir ~/.emacs.d/elisp</span></span></p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">$ cd ~/.emacs.d/elisp</span></span></p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">$ git clone http://git.sv.gnu.org/r/geiser.git</span></span></p></td></tr></tbody></table>
-
-
- <p>After that, in <span class="RktSym">~/.emacs.d/elisp/geiser/</span><span class="RktMeta"></span>, you&rsquo;ll have something that
+<p>After that, in <span class="RktSym">~/.emacs.d/elisp/geiser/</span><span class="RktMeta"></span>, you&rsquo;ll have something that
 looks like the following:</p>
 
+<p></p>
 
- <p></p>
+<table cellspacing="0">
+ <tbody>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">AUTHORS</span></span></p></td></tr>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">autogen.sh*</span></span></p></td></tr>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">bin/</span></span></p></td></tr>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">ChangeLog</span></span></p></td></tr>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">configure.ac</span></span></p></td></tr>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">COPYING</span></span></p></td></tr>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">doc/</span></span></p></td></tr>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">elisp/</span></span></p></td></tr>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">.git/</span></span></p></td></tr>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">.gitignore</span></span></p></td></tr>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">INSTALL</span></span></p></td></tr>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">Makefile.am</span></span></p></td></tr>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">NEWS</span></span></p></td></tr>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">README</span></span></p></td></tr>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">README.elpa</span></span></p></td></tr>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">scheme/</span></span></p></td></tr>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">THANKS</span></span></p></td></tr></tbody></table>
 
-
- <table cellspacing="0">
-
-  <tbody>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">AUTHORS</span></span></p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">autogen.sh*</span></span></p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">bin/</span></span></p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">ChangeLog</span></span></p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">configure.ac</span></span></p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">COPYING</span></span></p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">doc/</span></span></p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">elisp/</span></span></p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">.git/</span></span></p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">.gitignore</span></span></p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">INSTALL</span></span></p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">Makefile.am</span></span></p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">NEWS</span></span></p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">README</span></span></p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">README.elpa</span></span></p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">scheme/</span></span></p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">THANKS</span></span></p></td></tr></tbody></table>
-
-
- <p>Next, we want the directory <span class="RktSym">~/.emacs.d/elisp/geiser/elisp/</span><span class="RktMeta"></span> to be a
+<p>Next, we want the directory <span class="RktSym">~/.emacs.d/elisp/geiser/elisp/</span><span class="RktMeta"></span> to be a
 member of the Emacs variable <span class="RktSym">load-path</span><span class="RktMeta"></span> so that <span class="RktSym">require</span><span class="RktMeta"></span> and
 friends will know where to find things. To do that, add the following to your
 Emacs init file &ndash; either in <span class="RktSym">~/.emacs.d/init.el</span><span class="RktMeta"></span>, or in <span class="RktSym">~/.emacs</span><span class="RktMeta"></span>
 (deprecated):</p>
 
+<p></p>
 
- <p></p>
+<table cellspacing="0">
+ <tbody>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">(add-to-list 'load-path "~/.emacs.d/elisp/geiser/elisp/")</span></span></p></td></tr></tbody></table>
 
+<p>Next, we&rsquo;ll put in the actual code that invokes and configures Geiser:</p>
 
- <table cellspacing="0">
+<p></p>
 
-  <tbody>
+<table cellspacing="0">
+ <tbody>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">(require 'geiser)</span></span></p></td></tr>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt"></span></span><span class="hspace">&nbsp;</span></p></td></tr>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">(setq geiser-active-implementations '(racket))</span></span></p></td></tr>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt"></span></span><span class="hspace">&nbsp;</span></p></td></tr>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">(defun geiser-save ()</span></span></p></td></tr>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="hspace">&nbsp;&nbsp;</span><span class="stt">(interactive)</span></span></p></td></tr>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="hspace">&nbsp;&nbsp;</span><span class="stt">(geiser-repl--write-input-ring))</span></span></p></td></tr></tbody></table>
 
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">(add-to-list 'load-path "~/.emacs.d/elisp/geiser/elisp/")</span></span></p></td></tr></tbody></table>
-
-
- <p>Next, we&rsquo;ll put in the actual code that invokes and configures Geiser:</p>
-
-
- <p></p>
-
-
- <table cellspacing="0">
-
-  <tbody>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">(require 'geiser)</span></span></p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt"></span></span><span class="hspace">&nbsp;</span></p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">(setq geiser-active-implementations '(racket))</span></span></p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt"></span></span><span class="hspace">&nbsp;</span></p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">(defun geiser-save ()</span></span></p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;</span><span class="stt">(interactive)</span></span></p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="hspace">&nbsp;&nbsp;</span><span class="stt">(geiser-repl--write-input-ring))</span></span></p></td></tr></tbody></table>
-
-
- <p>The first expression loads Geiser, itself. The second one specifies that it
+<p>The first expression loads Geiser, itself. The second one specifies that it
 won&rsquo;t prompt you for other implementations if it finds them. The last one is
 optional &ndash; it enables you to execute <span class="RktSym">M-x</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">geiser-save</span><span class="RktMeta"></span> in the REPL buffer
 to force saving of the history to the disk file, which is
@@ -396,278 +278,156 @@ evaluate them now using members of the eval-* troupe (<span class="RktSym">eval-
 <span class="RktSym">eval-last-sexp</span><span class="RktMeta"></span>, <span class="RktSym">eval-region</span><span class="RktMeta"></span>), or, you can still opt to respawn a
 new Emacs process.</p>
 
+<h1>3
+ <tt>&nbsp;</tt><a name="(part._.Usage)"></a>Usage</h1>
 
- <h1>3
-
-  <tt>&nbsp;</tt><a name="(part._.Usage)"></a>Usage</h1>
-
-
- <p>To reap what you sowed, create or open a <span class="RktSym">.rkt</span><span class="RktMeta"></span> file, with at least a
+<p>To reap what you sowed, create or open a <span class="RktSym">.rkt</span><span class="RktMeta"></span> file, with at least a
 proper module declaration. Then hit:</p>
 
+<p></p>
 
- <p></p>
+<table cellspacing="0">
+ <tbody>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">M-x run-geiser</span></span></p></td></tr></tbody></table>
 
-
- <table cellspacing="0">
-
-  <tbody>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">M-x run-geiser</span></span></p></td></tr></tbody></table>
-
-
- <p>And, boomshakalaka! A new (Emacs) window opens, containing the <span class="RktSym">*</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">Racket</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">REPL</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">*</span><span class="RktMeta"></span> buffer. Whatever you can do with the REPL invoked with vanilla
+<p>And, boomshakalaka! A new (Emacs) window opens, containing the <span class="RktSym">*</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">Racket</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">REPL</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">*</span><span class="RktMeta"></span> buffer. Whatever you can do with the REPL invoked with vanilla
 command-line <span class="RktSym">racket</span><span class="RktMeta"></span>, you can also do with this, and more. This major
 mode is actually Comint mode, under the hood, with hooks to a a Racket
 process. For those of you who are unfamiliar with Comint mode, it is the same
 mode that handles <span class="RktSym">M-x</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">shell</span><span class="RktMeta"></span>.</p>
 
-
- <p>So, what can we do with it? While editing <span class="RktSym">.rkt</span><span class="RktMeta"></span> file, here are some of
+<p>So, what can we do with it? While editing <span class="RktSym">.rkt</span><span class="RktMeta"></span> file, here are some of
 the usual shortcuts that I use (The full list of keys are
 <a href="http://www.nongnu.org/geiser/geiser_5.html#Cheat-sheet">available
 here</a>). Take note, that the description of the keys that I used below, are for
 myself initially, to help me understand what they do. They may, or may not
 diverge from the official description, listed on the aforementioned link.</p>
 
-
- <p><span style="font-weight: bold">Racket buffer</span></p>
-
-
- <p></p>
-
-
- <table cellspacing="0" class="boxed">
-
-  <tbody>
-
-   <tr>
-
-    <td>
-
-     <p><span style="font-weight: bold">Key</span></p></td>
-
-    <td>
-
-     <p><span class="hspace">&nbsp;</span></p></td>
-
-    <td>
-
-     <p><span style="font-weight: bold">What it does</span></p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span style="font-weight: bold">C-c C-z</span></p></td>
-
-    <td>
-
-     <p><span class="hspace">&nbsp;</span></p></td>
-
-    <td>
-
-     <p>Switch to the REPL</p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span style="font-weight: bold">C-c C-a</span></p></td>
-
-    <td>
-
-     <p><span class="hspace">&nbsp;</span></p></td>
-
-    <td>
-
-     <p>Evaluate buffer, then switch to the REPL</p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span style="font-weight: bold">C-M-x</span></p></td>
-
-    <td>
-
-     <p><span class="hspace">&nbsp;</span></p></td>
-
-    <td>
-
-     <p>Evaluate current expression</p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span style="font-weight: bold">C-x C-e</span></p></td>
-
-    <td>
-
-     <p><span class="hspace">&nbsp;</span></p></td>
-
-    <td>
-
-     <p>Evaluate last expression</p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span style="font-weight: bold">C-c C-r</span></p></td>
-
-    <td>
-
-     <p><span class="hspace">&nbsp;</span></p></td>
-
-    <td>
-
-     <p>Evaluate region</p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span style="font-weight: bold">C-c C-\</span></p></td>
-
-    <td>
-
-     <p><span class="hspace">&nbsp;</span></p></td>
-
-    <td>
-
-     <p>Insert a &#955; symbol</p></td></tr></tbody></table>
-
-
- <p><span style="font-weight: bold">REPL buffer</span></p>
-
-
- <p></p>
-
-
- <table cellspacing="0" class="boxed">
-
-  <tbody>
-
-   <tr>
-
-    <td>
-
-     <p><span style="font-weight: bold">Key</span></p></td>
-
-    <td>
-
-     <p><span class="hspace">&nbsp;</span></p></td>
-
-    <td>
-
-     <p><span style="font-weight: bold">What it does</span></p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span style="font-weight: bold">C-c C-z</span></p></td>
-
-    <td>
-
-     <p><span class="hspace">&nbsp;</span></p></td>
-
-    <td>
-
-     <p>Switch to the Racket buffer</p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span style="font-weight: bold">M-p</span></p></td>
-
-    <td>
-
-     <p><span class="hspace">&nbsp;</span></p></td>
-
-    <td>
-
-     <p>Switch to previous history item</p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span style="font-weight: bold">M-n</span></p></td>
-
-    <td>
-
-     <p><span class="hspace">&nbsp;</span></p></td>
-
-    <td>
-
-     <p>Switch to next history item</p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span style="font-weight: bold">C-c M-p</span></p></td>
-
-    <td>
-
-     <p><span class="hspace">&nbsp;</span></p></td>
-
-    <td>
-
-     <p>Jump to previous prompt</p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span style="font-weight: bold">C-c M-p</span></p></td>
-
-    <td>
-
-     <p><span class="hspace">&nbsp;</span></p></td>
-
-    <td>
-
-     <p>Jump to next prompt</p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span style="font-weight: bold">C-c C-q</span></p></td>
-
-    <td>
-
-     <p><span class="hspace">&nbsp;</span></p></td>
-
-    <td>
-
-     <p>Quit the REPL</p></td></tr></tbody></table>
-
-
- <h1>4
-
-  <tt>&nbsp;</tt><a name="(part._.Conclusion)"></a>Conclusion</h1>
-
-
- <p>I have intentionally skipped many topics from the
+<p><span style="font-weight: bold">Racket buffer</span></p>
+
+<p></p>
+
+<table cellspacing="0" class="boxed">
+ <tbody>
+  <tr>
+   <td>
+    <p><span style="font-weight: bold">Key</span></p></td>
+   <td>
+    <p><span class="hspace">&nbsp;</span></p></td>
+   <td>
+    <p><span style="font-weight: bold">What it does</span></p></td></tr>
+  <tr>
+   <td>
+    <p><span style="font-weight: bold">C-c C-z</span></p></td>
+   <td>
+    <p><span class="hspace">&nbsp;</span></p></td>
+   <td>
+    <p>Switch to the REPL</p></td></tr>
+  <tr>
+   <td>
+    <p><span style="font-weight: bold">C-c C-a</span></p></td>
+   <td>
+    <p><span class="hspace">&nbsp;</span></p></td>
+   <td>
+    <p>Evaluate buffer, then switch to the REPL</p></td></tr>
+  <tr>
+   <td>
+    <p><span style="font-weight: bold">C-M-x</span></p></td>
+   <td>
+    <p><span class="hspace">&nbsp;</span></p></td>
+   <td>
+    <p>Evaluate current expression</p></td></tr>
+  <tr>
+   <td>
+    <p><span style="font-weight: bold">C-x C-e</span></p></td>
+   <td>
+    <p><span class="hspace">&nbsp;</span></p></td>
+   <td>
+    <p>Evaluate last expression</p></td></tr>
+  <tr>
+   <td>
+    <p><span style="font-weight: bold">C-c C-r</span></p></td>
+   <td>
+    <p><span class="hspace">&nbsp;</span></p></td>
+   <td>
+    <p>Evaluate region</p></td></tr>
+  <tr>
+   <td>
+    <p><span style="font-weight: bold">C-c C-\</span></p></td>
+   <td>
+    <p><span class="hspace">&nbsp;</span></p></td>
+   <td>
+    <p>Insert a &#955; symbol</p></td></tr></tbody></table>
+
+<p><span style="font-weight: bold">REPL buffer</span></p>
+
+<p></p>
+
+<table cellspacing="0" class="boxed">
+ <tbody>
+  <tr>
+   <td>
+    <p><span style="font-weight: bold">Key</span></p></td>
+   <td>
+    <p><span class="hspace">&nbsp;</span></p></td>
+   <td>
+    <p><span style="font-weight: bold">What it does</span></p></td></tr>
+  <tr>
+   <td>
+    <p><span style="font-weight: bold">C-c C-z</span></p></td>
+   <td>
+    <p><span class="hspace">&nbsp;</span></p></td>
+   <td>
+    <p>Switch to the Racket buffer</p></td></tr>
+  <tr>
+   <td>
+    <p><span style="font-weight: bold">M-p</span></p></td>
+   <td>
+    <p><span class="hspace">&nbsp;</span></p></td>
+   <td>
+    <p>Switch to previous history item</p></td></tr>
+  <tr>
+   <td>
+    <p><span style="font-weight: bold">M-n</span></p></td>
+   <td>
+    <p><span class="hspace">&nbsp;</span></p></td>
+   <td>
+    <p>Switch to next history item</p></td></tr>
+  <tr>
+   <td>
+    <p><span style="font-weight: bold">C-c M-p</span></p></td>
+   <td>
+    <p><span class="hspace">&nbsp;</span></p></td>
+   <td>
+    <p>Jump to previous prompt</p></td></tr>
+  <tr>
+   <td>
+    <p><span style="font-weight: bold">C-c M-p</span></p></td>
+   <td>
+    <p><span class="hspace">&nbsp;</span></p></td>
+   <td>
+    <p>Jump to next prompt</p></td></tr>
+  <tr>
+   <td>
+    <p><span style="font-weight: bold">C-c C-q</span></p></td>
+   <td>
+    <p><span class="hspace">&nbsp;</span></p></td>
+   <td>
+    <p>Quit the REPL</p></td></tr></tbody></table>
+
+<h1>4
+ <tt>&nbsp;</tt><a name="(part._.Conclusion)"></a>Conclusion</h1>
+
+<p>I have intentionally skipped many topics from the
 <a href="http://www.nongnu.org/geiser/">official manual</a> because it makes
 it unattractive to people who are averse to reading long blocks of text
 (ironically, this article may even qualify as one.). The methods described
 above are by in no way representative of community-advised ways of installing
 and using Racket with Emacs. Feel free to drop a comment below!  Ciao!</p>
-
- <footer>
-
-  <script type="text/javascript">
+  <footer>
+    <script type="text/javascript">
       !function(d,s,id){
           var js,fjs=d.getElementsByTagName(s)[0];
           if(!d.getElementById(id)){
@@ -678,14 +438,14 @@ and using Racket with Emacs. Feel free to drop a comment below!  Ciao!</p>
           }
       }(document,"script","twitter-wjs");
     </script>
-    <a class="twitter-share-button" data-dnt="true" data-url="http://www.example.com/blog/2013/09/29/emacs-and-racket/" href="https://twitter.com/share">
+    <a href="https://twitter.com/share"
+       class="twitter-share-button"
+       data-url="http://www.example.com/blog/2013/09/29/emacs-and-racket/"
+       data-dnt="true">
       "Tweet"</a>
-
-  <script src="https://apis.google.com/js/plusone.js" type="text/javascript"></script>
-
-  <g:plusone href="http://www.example.com/blog/2013/09/29/emacs-and-racket/" size="medium"></g:plusone>
-
-  <script type="text/javascript">
+    <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+    <g:plusone size="medium" href="http://www.example.com/blog/2013/09/29/emacs-and-racket/"></g:plusone>
+    <script type="text/javascript">
       var disqus_shortname = 'ebzzry';
       (function() {
           var dsq = document.createElement('script');
@@ -695,16 +455,12 @@ and using Racket with Emacs. Feel free to drop a comment below!  Ciao!</p>
           (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
       })();
     </script>
-
-  <div id="disqus_thread"></div>
-
-  <ul class="pager">
-
-   <li class="previous">
+    <div id="disqus_thread"></div>
+    <ul class="pager">
+    <li class="previous">
       <a href="/blog/2014/02/17/emacs-and-mail/">&larr; <em>Emacs and Mail</em></a>
     </li>
-
-   <li class="next">
+    <li class="next">
       <a href="/blog/2013/09/26/emacs-and-dired/"><em>Emacs and Dired</em> &rarr;</a>
     </li>
     </ul>
