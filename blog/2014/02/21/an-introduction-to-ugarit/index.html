@@ -4,16 +4,7 @@
 
     <meta charset="utf-8">
     <title>An Introduction to Ugarit</title>
-    <meta name="description" content="how many times have we experienced hindsight, after a catastrophic event has
-happened? how many times have we told ourselves that had we created backups of
-our precious data, we wouldn't be in that dire situation, pulling our hairs out
-like a maniac? Most of us have been there - we lost our precious files due inadvertent
-causes. We lost them because of disk crash, data corruption, security breach,
-and other reasons. But had we created a fallback, a big, safe foam that we can
-land on, it wouldn't have been a lot of trouble, and heart ache. On the flip
-side, creating and managing backups can be daunting, and equally dangerous. In this post, we'll talk about
-Ugarit, a nice piece of technology, that combines ease-of-use, and security,
-in a single tool. ...">
+    <meta name="description" content="How many times have we experienced hindsight, after a catastrophic event has happened? how many times have we told ourselves that had we created backups of our precious data, we wouldn't be in that dire situation, pulling our hairs out like a maniac?  Mos...">
     <meta name="author"      content="Rommel Martinez">
     <meta name="keywords"    content="backups">
     <meta name="viewport"    content="width=device-width, initial-scale=1.0">
@@ -107,163 +98,110 @@ in a single tool. ...">
 
 
 
+          <article>
+  <header>
+    <h1>An Introduction to Ugarit</h1>
 
-<article>
-
- <header>
-
-  <h1>An Introduction to Ugarit</h1>
-
-
-  <p class="date-and-tags">
-
-   <time datetime="2014-02-21" pubdate="true">2014-02-21</time> :: <span class="tags"><a href="/tags/backups.html">backups</a></span></p>
+<p class="date-and-tags">
+ <time datetime="2014-02-21" pubdate="true">2014-02-21</time> :: <span class="tags"><a href="/tags/backups.html">backups</a></span></p>
   </header>
 
-
- <p>how many times have we experienced hindsight, after a catastrophic event has
+<p>How many times have we experienced hindsight, after a catastrophic event has
 happened? how many times have we told ourselves that had we created backups of
 our precious data, we wouldn&rsquo;t be in that dire situation, pulling our hairs out
 like a maniac?</p>
 
-
- <p>Most of us have been there &ndash; we lost our precious files due inadvertent
+<p>Most of us have been there &ndash; we lost our precious files due inadvertent
 causes. We lost them because of disk crash, data corruption, security breach,
 and other reasons. But had we created a fallback, a big, safe foam that we can
 land on, it wouldn&rsquo;t have been a lot of trouble, and heart ache. On the flip
 side, creating and managing backups can be daunting, and equally dangerous.</p>
 
-
- <p>In this post, we&rsquo;ll talk about
+<p>In this post, we&rsquo;ll talk about
 <a href="http://www.kitten-technologies.co.uk/project/ugarit/doc/trunk/README.wiki">Ugarit</a>, a nice piece of technology, that combines ease-of-use, and security,
 in a single tool.</p>
 
+<p>&lt;!&ndash; more &ndash;&gt;</p>
 
- <h1>1
+<h1>1
+ <tt>&nbsp;</tt><a name="(part._.Introduction)"></a>Introduction</h1>
 
-  <tt>&nbsp;</tt><a name="(part._.Introduction)"></a>Introduction</h1>
-
-
- <p>Ugarit is a classic example of a tool, that requires minimal setup and
+<p>Ugarit is a classic example of a tool, that requires minimal setup and
 configuration, but is used many times. That once the initial tinkering is done,
 all we need to do is reuse the tool. But that isn&rsquo;t Ugarit&rsquo;s main strength &ndash;
 it is the almost unholy marriage of convenience and security.</p>
 
-
- <p>Most, if not all the time, convenience is inversely proportional to
+<p>Most, if not all the time, convenience is inversely proportional to
 security. That is, the more convenient something is, the less secure it
 is. With Ugarit, creating and managing backups is as easy as typing a short
 command.</p>
 
+<h1>2
+ <tt>&nbsp;</tt><a name="(part._.Installation)"></a>Installation</h1>
 
- <h1>2
-
-  <tt>&nbsp;</tt><a name="(part._.Installation)"></a>Installation</h1>
-
-
- <p>First, we need to install <a href="http://www.call-cc.org/">Chicken</a>. Most
+<p>First, we need to install <a href="http://www.call-cc.org/">Chicken</a>. Most
 likely, it can be installed via your package manager:</p>
 
+<p></p>
 
- <p></p>
+<table cellspacing="0">
+ <tbody>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">$ sudo apt-get install chicken-bin</span></span></p></td></tr></tbody></table>
 
-
- <table cellspacing="0">
-
-  <tbody>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">$ sudo apt-get install chicken-bin</span></span></p></td></tr></tbody></table>
-
-
- <p>If it isn&rsquo;t available on your system, you may download it from
+<p>If it isn&rsquo;t available on your system, you may download it from
 <a href="http://code.call-cc.org/">code.call-cc.org</a>.</p>
 
+<p>After Chicken is installed, let&rsquo;s install Ugarit itself, and some dependencies:</p>
 
- <p>After Chicken is installed, let&rsquo;s install Ugarit itself, and some dependencies:</p>
+<p></p>
 
+<table cellspacing="0">
+ <tbody>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">$ chicken-install -s ugarit tiger-hash aes</span></span></p></td></tr></tbody></table>
 
- <p></p>
-
-
- <table cellspacing="0">
-
-  <tbody>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">$ chicken-install -s ugarit tiger-hash aes</span></span></p></td></tr></tbody></table>
-
-
- <p>After this command completes, the command <span class="stt">ugarit</span> will become
+<p>After this command completes, the command <span class="stt">ugarit</span> will become
 available. To display command-line help:</p>
 
+<p></p>
 
- <p></p>
+<table cellspacing="0">
+ <tbody>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">$ ugarit -h</span></span></p></td></tr></tbody></table>
 
+<h1>3
+ <tt>&nbsp;</tt><a name="(part._.Configuration)"></a>Configuration</h1>
 
- <table cellspacing="0">
-
-  <tbody>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">$ ugarit -h</span></span></p></td></tr></tbody></table>
-
-
- <h1>3
-
-  <tt>&nbsp;</tt><a name="(part._.Configuration)"></a>Configuration</h1>
-
-
- <p>Ugarit at this point isn&rsquo;t usable yet &ndash; we need to specify where will it store
+<p>Ugarit at this point isn&rsquo;t usable yet &ndash; we need to specify where will it store
 the snapshots. When creating a snapshot of a directory several terabytes big, it is
 ideal to store the data on a fast, reliable, stress-tolerant disk. It is not
 uncommon for the command <span class="stt">ls</span> to experience a noticeable lag when ran inside
 the data directory. Let&rsquo;s presume that <span class="stt">/dev/sdb1</span> is a large filesystem and
 we want to mount it to <span class="stt">/ugarit/</span>.</p>
 
+<p></p>
 
- <p></p>
+<table cellspacing="0">
+ <tbody>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">$ sudo mkdir /ugarit</span></span></p></td></tr>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">$ sudo mount /dev/sdb1 /ugarit</span></span></p></td></tr>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">$ sudo mkdir /ugarit/vault</span></span></p></td></tr>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">$ sudo chown -R $USER /ugarit</span></span></p></td></tr></tbody></table>
 
-
- <table cellspacing="0">
-
-  <tbody>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">$ sudo mkdir /ugarit</span></span></p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">$ sudo mount /dev/sdb1 /ugarit</span></span></p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">$ sudo mkdir /ugarit/vault</span></span></p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">$ sudo chown -R $USER /ugarit</span></span></p></td></tr></tbody></table>
-
-
- <p>Another, equally important requirement that we need to have is its config file,
+<p>Another, equally important requirement that we need to have is its config file,
 usually named <span class="stt">ugarit.conf</span>. It is supplied as part of the required command
 line arguments. It is important to note, that this file does not reside in a
 fixed location, in contrast with some programs that look for a config file at
@@ -271,462 +209,275 @@ start-up, from $tt{~/}. But before we actually create that file, we need to run
 some commands. Save the outputs of these commands, because we&rsquo;ll be needing them
 later:</p>
 
+<p>Create a salt, for the hash function:</p>
 
- <p>Create a salt, for the hash function:</p>
+<p></p>
 
+<table cellspacing="0">
+ <tbody>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">$ dd if=/dev/random bs=1 count=64 2&gt;/dev/null | base64 -w 0 | tail -1</span></span></p></td></tr></tbody></table>
 
- <p></p>
+<p>Create the key, for the vault:</p>
 
+<p></p>
 
- <table cellspacing="0">
+<table cellspacing="0">
+ <tbody>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">$ dd if=/dev/random bs=32 count=1 2&gt;/dev/null | od -An -tx1 | tr -d ' \t\n'</span></span></p></td></tr></tbody></table>
 
-  <tbody>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">$ dd if=/dev/random bs=1 count=64 2&gt;/dev/null | base64 -w 0 | tail -1</span></span></p></td></tr></tbody></table>
-
-
- <p>Create the key, for the vault:</p>
-
-
- <p></p>
-
-
- <table cellspacing="0">
-
-  <tbody>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">$ dd if=/dev/random bs=32 count=1 2&gt;/dev/null | od -An -tx1 | tr -d ' \t\n'</span></span></p></td></tr></tbody></table>
-
-
- <p>After we run those commands, we&rsquo;ll create the config file, <span class="stt">ugarit.conf</span>. To
+<p>After we run those commands, we&rsquo;ll create the config file, <span class="stt">ugarit.conf</span>. To
 make it consistent with the example above, we&rsquo;ll store it inside <span class="stt">/ugarit</span>:</p>
 
+<p></p>
 
- <p></p>
+<table cellspacing="0">
+ <tbody>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">$ emacs /ugarit/ugarit.conf</span></span></p></td></tr></tbody></table>
 
+<p>Then input the following:</p>
 
- <table cellspacing="0">
+<p></p>
 
-  <tbody>
+<table cellspacing="0">
+ <tbody>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">(storage "backend-fs fs /ugarit/vault")</span></span></p></td></tr>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">(file-cache "/ugarit/cache")</span></span></p></td></tr>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">(hash tiger "SALT")</span></span></p></td></tr>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">(encryption aes "KEY")</span></span></p></td></tr></tbody></table>
 
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">$ emacs /ugarit/ugarit.conf</span></span></p></td></tr></tbody></table>
-
-
- <p>Then input the following:</p>
-
-
- <p></p>
-
-
- <table cellspacing="0">
-
-  <tbody>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">(storage "backend-fs fs /ugarit/vault")</span></span></p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">(file-cache "/ugarit/cache")</span></span></p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">(hash tiger "SALT")</span></span></p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">(encryption aes "KEY")</span></span></p></td></tr></tbody></table>
-
-
- <p>Replace SALT, and KEY, with the salt and key strings that we generated
+<p>Replace SALT, and KEY, with the salt and key strings that we generated
 above. Save the file, then secure it.</p>
 
+<p></p>
 
- <p></p>
+<table cellspacing="0">
+ <tbody>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">$ chmod 600 /ugarit/ugarit.conf</span></span></p></td></tr></tbody></table>
 
+<h1>4
+ <tt>&nbsp;</tt><a name="(part._.Basic_.Usage)"></a>Basic Usage</h1>
 
- <table cellspacing="0">
+<h2>4.1
+ <tt>&nbsp;</tt><a name="(part._.Creating_.Snapshots)"></a>Creating Snapshots</h2>
 
-  <tbody>
+<p>To create a snapshot, run:</p>
 
-   <tr>
+<p></p>
 
-    <td>
+<table cellspacing="0">
+ <tbody>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">$ ugarit snapshot /ugarit/ugarit.conf TAG DIRECTORY</span></span></p></td></tr></tbody></table>
 
-     <p><span class="stt"><span class="stt">$ chmod 600 /ugarit/ugarit.conf</span></span></p></td></tr></tbody></table>
-
-
- <h1>4
-
-  <tt>&nbsp;</tt><a name="(part._.Basic_.Usage)"></a>Basic Usage</h1>
-
-
- <h2>4.1
-
-  <tt>&nbsp;</tt><a name="(part._.Creating_.Snapshots)"></a>Creating Snapshots</h2>
-
-
- <p>To create a snapshot, run:</p>
-
-
- <p></p>
-
-
- <table cellspacing="0">
-
-  <tbody>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">$ ugarit snapshot /ugarit/ugarit.conf TAG DIRECTORY</span></span></p></td></tr></tbody></table>
-
-
- <p><span style="font-weight: bold">TAG</span> is a name that you will identify the snapshot with later, while
+<p><span style="font-weight: bold">TAG</span> is a name that you will identify the snapshot with later, while
 <span style="font-weight: bold">DIRECTORY</span> is the filesystem tree that you will create a snapshot of. To
 create, for example, a snapshot of the directory <span class="stt">pictures/</span>, with the tag
 <span class="stt">pix</span>, run Ugarit like this:</p>
 
+<p></p>
 
- <p></p>
+<table cellspacing="0">
+ <tbody>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">$ ugarit snapshot /ugarit/ugarit.conf pix pictures</span></span></p></td></tr></tbody></table>
 
+<p>After the snapshot, you&rsquo;ll see similar to the following:</p>
 
- <table cellspacing="0">
+<p></p>
 
-  <tbody>
+<table cellspacing="0">
+ <tbody>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">Archiving pictures to tag pix...</span></span></p></td></tr>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">Root hash: ddc888c86db6d7c468a27cc4af9b2907d219936df82e0971</span></span></p></td></tr>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">Successfully snapshotted pictures to tag pix</span></span></p></td></tr>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">Snapshot hash: ab290399f31fff1e3158c0ede8f90f59b2b41387af48f597</span></span></p></td></tr>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">Written 910460 bytes to the vault in 4 blocks, and reused 0 bytes in 0 blocks</span></span></p></td></tr>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">(before compression)</span></span></p></td></tr>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">File cache has saved us 1 file hashings / 638104 bytes (before compression)</span></span></p></td></tr></tbody></table>
 
-   <tr>
+<h2>4.2
+ <tt>&nbsp;</tt><a name="(part._.Exploring_.Snapshots)"></a>Exploring Snapshots</h2>
 
-    <td>
+<p>To interactively manage the contents of the vault, run:</p>
 
-     <p><span class="stt"><span class="stt">$ ugarit snapshot /ugarit/ugarit.conf pix pictures</span></span></p></td></tr></tbody></table>
+<p></p>
 
+<table cellspacing="0">
+ <tbody>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">$ ugarit explore /ugarit/ugarit.conf</span></span></p></td></tr></tbody></table>
 
- <p>After the snapshot, you&rsquo;ll see similar to the following:</p>
+<p>To list the available commands:</p>
 
+<p></p>
 
- <p></p>
+<table cellspacing="0">
+ <tbody>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">&gt; help</span></span></p></td></tr></tbody></table>
 
-
- <table cellspacing="0">
-
-  <tbody>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">Archiving pictures to tag pix...</span></span></p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">Root hash: ddc888c86db6d7c468a27cc4af9b2907d219936df82e0971</span></span></p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">Successfully snapshotted pictures to tag pix</span></span></p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">Snapshot hash: ab290399f31fff1e3158c0ede8f90f59b2b41387af48f597</span></span></p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">Written 910460 bytes to the vault in 4 blocks, and reused 0 bytes in 0 blocks</span></span></p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">(before compression)</span></span></p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">File cache has saved us 1 file hashings / 638104 bytes (before compression)</span></span></p></td></tr></tbody></table>
-
-
- <h2>4.2
-
-  <tt>&nbsp;</tt><a name="(part._.Exploring_.Snapshots)"></a>Exploring Snapshots</h2>
-
-
- <p>To interactively manage the contents of the vault, run:</p>
-
-
- <p></p>
-
-
- <table cellspacing="0">
-
-  <tbody>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">$ ugarit explore /ugarit/ugarit.conf</span></span></p></td></tr></tbody></table>
-
-
- <p>To list the available commands:</p>
-
-
- <p></p>
-
-
- <table cellspacing="0">
-
-  <tbody>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">&gt; help</span></span></p></td></tr></tbody></table>
-
-
- <p>Taking hints from the help usage, we&rsquo;ll extract a directory, that was part of
+<p>Taking hints from the help usage, we&rsquo;ll extract a directory, that was part of
 the snapshot earlier. Let&rsquo;s say that the original path of that directory was
 <span class="stt">pictures/holiday</span>. So, to extract the directory <span class="stt">holiday/</span> to the
 current directory, run:</p>
 
+<p></p>
 
- <p></p>
+<table cellspacing="0">
+ <tbody>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">&gt; cd pix</span></span></p></td></tr>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">/pix&gt; cd current</span></span></p></td></tr>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">/pix/current&gt; cd contents</span></span></p></td></tr>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">/pix/current/contents&gt; get holiday</span></span></p></td></tr>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">Extracted holiday</span></span></p></td></tr>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">/pix/current/contents&gt; exit</span></span></p></td></tr></tbody></table>
 
+<h2>4.3
+ <tt>&nbsp;</tt><a name="(part._.Extracting_.Snapshots_.Directly)"></a>Extracting Snapshots Directly</h2>
 
- <table cellspacing="0">
-
-  <tbody>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">&gt; cd pix</span></span></p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">/pix&gt; cd current</span></span></p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">/pix/current&gt; cd contents</span></span></p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">/pix/current/contents&gt; get holiday</span></span></p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">Extracted holiday</span></span></p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">/pix/current/contents&gt; exit</span></span></p></td></tr></tbody></table>
-
-
- <h2>4.3
-
-  <tt>&nbsp;</tt><a name="(part._.Extracting_.Snapshots_.Directly)"></a>Extracting Snapshots Directly</h2>
-
-
- <p>If, however, you know the exact path to a file or directory that you want to
+<p>If, however, you know the exact path to a file or directory that you want to
 extract, you can instead run Ugarit with the extract mode. To extract the
 directory <span class="stt">holiday/</span> from above, directly, run:</p>
 
+<p></p>
 
- <p></p>
+<table cellspacing="0">
+ <tbody>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">$ ugarit extract /ugarit/ugarit.conf /pix/current/contents/holiday</span></span></p></td></tr></tbody></table>
 
+<h1>5
+ <tt>&nbsp;</tt><a name="(part._.Tips)"></a>Tips</h1>
 
- <table cellspacing="0">
+<h2>5.1
+ <tt>&nbsp;</tt><a name="(part._.Remote_.Filesystems)"></a>Remote Filesystems</h2>
 
-  <tbody>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">$ ugarit extract /ugarit/ugarit.conf /pix/current/contents/holiday</span></span></p></td></tr></tbody></table>
-
-
- <h1>5
-
-  <tt>&nbsp;</tt><a name="(part._.Tips)"></a>Tips</h1>
-
-
- <h2>5.1
-
-  <tt>&nbsp;</tt><a name="(part._.Remote_.Filesystems)"></a>Remote Filesystems</h2>
-
-
- <p>Ugarit is not limited to creating snapshots of a local filesystem. It can also
+<p>Ugarit is not limited to creating snapshots of a local filesystem. It can also
 be used to create snapshots of trees, from a remote host, mounted locally. If
 you have an <a href="http://fuse.sourceforge.net/sshfs.html">SSHFS</a> mount,
 for example, you can still create a snapshot of it, just like any other local
 filesystem:</p>
 
+<p></p>
 
- <p></p>
+<table cellspacing="0">
+ <tbody>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">$ sshfs remotehost:/ ~/mnt/sshfs/remotehost</span></span></p></td></tr>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">$ cd ~/mnt/sshfs</span></span></p></td></tr>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">$ ugarit snapshot /ugarit/ugarit.conf remotehost</span></span></p></td></tr></tbody></table>
 
-
- <table cellspacing="0">
-
-  <tbody>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">$ sshfs remotehost:/ ~/mnt/sshfs/remotehost</span></span></p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">$ cd ~/mnt/sshfs</span></span></p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">$ ugarit snapshot /ugarit/ugarit.conf remotehost</span></span></p></td></tr></tbody></table>
-
-
- <p>The same applies to <a href="http://www.samba.org/samba/smbfs/">SMBFS</a>
+<p>The same applies to <a href="http://www.samba.org/samba/smbfs/">SMBFS</a>
 mounts:</p>
 
+<p></p>
 
- <p></p>
+<table cellspacing="0">
+ <tbody>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">$ sudo mount -t cifs -o user=$USER,uid=$USER //winhost/c ~/mnt/smbfs/winhost/c</span></span></p></td></tr>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">$ cd ~/mnt/smbfs</span></span></p></td></tr>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">$ ugarit snapshot /ugarit/ugarit.conf winhost</span></span></p></td></tr></tbody></table>
 
+<h2>5.2
+ <tt>&nbsp;</tt><a name="(part._.Miscellany)"></a>Miscellany</h2>
 
- <table cellspacing="0">
+<p>To disable output, when creating snapshots:</p>
 
-  <tbody>
+<p></p>
 
-   <tr>
+<table cellspacing="0">
+ <tbody>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">$ ugarit snapshot /ugarit/ugarit.conf -q ...</span></span></p></td></tr></tbody></table>
 
-    <td>
+<p>To enable very verbose output, when creating snapshots:</p>
 
-     <p><span class="stt"><span class="stt">$ sudo mount -t cifs -o user=$USER,uid=$USER //winhost/c ~/mnt/smbfs/winhost/c</span></span></p></td></tr>
+<p></p>
 
-   <tr>
+<table cellspacing="0">
+ <tbody>
+  <tr>
+   <td>
+    <p><span class="stt"><span class="stt">$ ugarit snapshot -:a256 /ugarit/ugarit.conf ...</span></span></p></td></tr></tbody></table>
 
-    <td>
+<h1>6
+ <tt>&nbsp;</tt><a name="(part._.Notes)"></a>Notes</h1>
 
-     <p><span class="stt"><span class="stt">$ cd ~/mnt/smbfs</span></span></p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">$ ugarit snapshot /ugarit/ugarit.conf winhost</span></span></p></td></tr></tbody></table>
-
-
- <h2>5.2
-
-  <tt>&nbsp;</tt><a name="(part._.Miscellany)"></a>Miscellany</h2>
-
-
- <p>To disable output, when creating snapshots:</p>
-
-
- <p></p>
-
-
- <table cellspacing="0">
-
-  <tbody>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">$ ugarit snapshot /ugarit/ugarit.conf -q ...</span></span></p></td></tr></tbody></table>
-
-
- <p>To enable very verbose output, when creating snapshots:</p>
-
-
- <p></p>
-
-
- <table cellspacing="0">
-
-  <tbody>
-
-   <tr>
-
-    <td>
-
-     <p><span class="stt"><span class="stt">$ ugarit snapshot -:a256 /ugarit/ugarit.conf ...</span></span></p></td></tr></tbody></table>
-
-
- <h1>6
-
-  <tt>&nbsp;</tt><a name="(part._.Notes)"></a>Notes</h1>
-
-
- <p>When you are doubtful of the performance of the disk where you&rsquo;ll be storing
+<p>When you are doubtful of the performance of the disk where you&rsquo;ll be storing
 the snapshots, disable the
 <a href="http://linux.about.com/library/cmd/blcmdl1_updatedb.htm">locate
 and updatedb</a> service. It is usually run periodically via cron. It places a
 lot of load on the disk, and may over-stress it. Your mileage may vary.</p>
 
-
- <p>An important caveat worth mentioning is that, due to the way Ugarit works,
+<p>An important caveat worth mentioning is that, due to the way Ugarit works,
 snapshot deletions do not exist. The storage mechanism works similarly to Git,
 only that there is no rebase option.</p>
 
-
- <p>Ugarit was created by <a href="http://www.snell-pym.org.uk/alaric/">Alaric
+<p>Ugarit was created by <a href="http://www.snell-pym.org.uk/alaric/">Alaric
 Snell-Pym</a>. If you want to learn more about it, head over to
 <a href="http://www.kitten-technologies.co.uk/project/ugarit/doc/trunk/README.wiki">kitten-technologies.co.uk/project/ugarit/</a>. To report bugs, go to
 <a href="http://www.kitten-technologies.co.uk/project/ugarit/reportlist">kitten-technologies.co.uk/project/ugarit/reportlist</a>.</p>
-
- <footer>
-
-  <script type="text/javascript">
+  <footer>
+    <script type="text/javascript">
       !function(d,s,id){
           var js,fjs=d.getElementsByTagName(s)[0];
           if(!d.getElementById(id)){
@@ -737,14 +488,14 @@ Snell-Pym</a>. If you want to learn more about it, head over to
           }
       }(document,"script","twitter-wjs");
     </script>
-    <a class="twitter-share-button" data-dnt="true" data-url="http://www.example.com/blog/2014/02/21/an-introduction-to-ugarit/" href="https://twitter.com/share">
+    <a href="https://twitter.com/share"
+       class="twitter-share-button"
+       data-url="http://www.example.com/blog/2014/02/21/an-introduction-to-ugarit/"
+       data-dnt="true">
       "Tweet"</a>
-
-  <script src="https://apis.google.com/js/plusone.js" type="text/javascript"></script>
-
-  <g:plusone href="http://www.example.com/blog/2014/02/21/an-introduction-to-ugarit/" size="medium"></g:plusone>
-
-  <script type="text/javascript">
+    <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+    <g:plusone size="medium" href="http://www.example.com/blog/2014/02/21/an-introduction-to-ugarit/"></g:plusone>
+    <script type="text/javascript">
       var disqus_shortname = 'ebzzry';
       (function() {
           var dsq = document.createElement('script');
@@ -754,13 +505,10 @@ Snell-Pym</a>. If you want to learn more about it, head over to
           (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
       })();
     </script>
+    <div id="disqus_thread"></div>
+    <ul class="pager">
 
-  <div id="disqus_thread"></div>
-
-  <ul class="pager">
-
-
-   <li class="next">
+    <li class="next">
       <a href="/blog/2014/02/19/an-introduction-to-frog/"><em>An Introduction To Frog</em> &rarr;</a>
     </li>
     </ul>
