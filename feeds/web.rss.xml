@@ -12,326 +12,410 @@
    <link>http://www.example.com/blog/2014/02/19/an-introduction-to-frog/?utm_source=web&amp;utm_medium=RSS</link>
    <guid>urn:http-www-example-com:-blog-2014-02-19-an-introduction-to-frog</guid>
    <pubDate>Wed, 19 Feb 2014 14:07:11 PHT</pubDate>
-   <description>
-&lt;html&gt;&lt;img src="http://www.example.com/img/1x1.gif?utm_source=web&amp;amp;utm_medium=RSS&amp;amp;utm_campaign=%2Fblog%2F2014%2F02%2F19%2Fan-introduction-to-frog%2F" height="1" width="1" /&gt;
- &lt;p&gt;When publishing blog content to the web, most would rely on pre-fabricated
+   <description>&lt;html&gt;
+&lt;p&gt;When publishing blog content to the web, most would rely on pre-fabricated
 services, that do most of the heavy lifting. However, there are instances when
 we want to have more control over our stuff. A good example of which are the
 constraints that providers enforce. Another is the presence of ads, or the use
 of freemium services, i.e., things can be done, only up to a certain visible
 limit.&lt;/p&gt;
- &lt;p&gt;One may argue that all they need is a platform to blog with, and that they
+
+&lt;p&gt;One may argue that all they need is a platform to blog with, and that they
 don&amp;rsquo;t need the extra flexibility. While that is fine, some of us, including me,
 want to free from these shackles. I don&amp;rsquo;t want ads on my site. I don&amp;rsquo;t want
 surprise censorship. I don&amp;rsquo;t want to pay for services that I can get for
 free. I want freedom. Now, if you&amp;rsquo;re like me, then read on.&lt;/p&gt;
- &lt;h1&gt;1
-  &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Introduction)"&gt;&lt;/a&gt;Introduction&lt;/h1&gt;
- &lt;p&gt;When I was looking for tools to create this blog, I became dissatisfied with
+
+&lt;p&gt;&amp;lt;!&amp;ndash; more &amp;ndash;&amp;gt;&lt;/p&gt;
+
+&lt;h1&gt;1
+ &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Introduction)"&gt;&lt;/a&gt;Introduction&lt;/h1&gt;
+
+&lt;p&gt;When I was looking for tools to create this blog, I became dissatisfied with
 most of the mainstream options. Some are the just too difficult to setup, while
 some are lacking in features. I became frustrated because each end of the
 spectrum forces me to use something that is extremely mediocre in at least one
 critical aspect. Fortunately, I found
 &lt;a href="http://github.com/greghendershott/frog"&gt;Frog&lt;/a&gt;, via a suggestion
 on #racket.&lt;/p&gt;
- &lt;p&gt;Frog, in layman&amp;rsquo;s terms, is a site creator, that is very easy to use,
+
+&lt;p&gt;Frog, in layman&amp;rsquo;s terms, is a site creator, that is very easy to use,
 configure, and customize. Whatever you write, will appear on your blog &amp;ndash; you
 get what you expect. There are no weird terms of use, nor arbitrary limits, nor
 coercion &amp;ndash; it&amp;rsquo;s very close to full control, at the tip of your fingertips.&lt;/p&gt;
- &lt;p&gt;Frog operates somewhere in the middle. That is, it looks like this:&lt;/p&gt;
- &lt;p&gt;&lt;/p&gt;
- &lt;table cellspacing="0"&gt;
-  &lt;tbody&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;Raw content -&amp;gt; Frog -&amp;gt; HTML&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
- &lt;p&gt;Where raw content is either Markdown, Scribble, or HTML source files, or a
+
+&lt;p&gt;Frog operates somewhere in the middle. That is, it looks like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;table cellspacing="0"&gt;
+ &lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;Raw content -&amp;gt; Frog -&amp;gt; HTML&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;p&gt;Where raw content is either Markdown, Scribble, or HTML source files, or a
 combination of all. Frog takes in those input files, and it outputs nice HTML
 that you can upload to your web server. Easy? No, it&amp;rsquo;s even easier that it
 sounds.&lt;/p&gt;
- &lt;h1&gt;2
-  &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Installation)"&gt;&lt;/a&gt;Installation&lt;/h1&gt;
- &lt;p&gt;In the succeeding sections, let&amp;rsquo;s presume that your username is
+
+&lt;h1&gt;2
+ &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Installation)"&gt;&lt;/a&gt;Installation&lt;/h1&gt;
+
+&lt;p&gt;In the succeeding sections, let&amp;rsquo;s presume that your username is
 &lt;span class="stt"&gt;john&lt;/span&gt;, and your home directory is &lt;span class="stt"&gt;/home/john/&lt;/span&gt;.&lt;/p&gt;
- &lt;p&gt;To install Frog, we need to install Racket, first. Chances are, your package
+
+&lt;p&gt;To install Frog, we need to install Racket, first. Chances are, your package
 manager already has it. To install Racket on Debian, run:&lt;/p&gt;
- &lt;p&gt;&lt;/p&gt;
- &lt;table cellspacing="0"&gt;
-  &lt;tbody&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ sudo apt-get install racket&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
- &lt;p&gt;In the unlikely event that it can&amp;rsquo;t be installed using your package manager, go
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;table cellspacing="0"&gt;
+ &lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ sudo apt-get install racket&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;p&gt;In the unlikely event that it can&amp;rsquo;t be installed using your package manager, go
 to &lt;a href="http://racket-lang.org/download/"&gt;racket-lang.org/download/&lt;/a&gt;, then follow the instructions from there.&lt;/p&gt;
- &lt;p&gt;Next, we need to install Frog.&lt;/p&gt;
- &lt;p&gt;&lt;/p&gt;
- &lt;table cellspacing="0"&gt;
-  &lt;tbody&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ raco pkg install frog&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
- &lt;p&gt;After which, you&amp;rsquo;ll get the &lt;span class="stt"&gt;raco frog&lt;/span&gt; command. Let&amp;rsquo;s display its help
+
+&lt;p&gt;Next, we need to install Frog.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;table cellspacing="0"&gt;
+ &lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ raco pkg install frog&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;p&gt;After which, you&amp;rsquo;ll get the &lt;span class="stt"&gt;raco frog&lt;/span&gt; command. Let&amp;rsquo;s display its help
 options:&lt;/p&gt;
- &lt;p&gt;&lt;/p&gt;
- &lt;table cellspacing="0"&gt;
-  &lt;tbody&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ raco frog -h&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
- &lt;h1&gt;3
-  &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.First_.Use)"&gt;&lt;/a&gt;First Use&lt;/h1&gt;
- &lt;p&gt;Sweet. Now that we have Frog installed, let&amp;rsquo;s get rolling. To create your first
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;table cellspacing="0"&gt;
+ &lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ raco frog -h&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;h1&gt;3
+ &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.First_.Use)"&gt;&lt;/a&gt;First Use&lt;/h1&gt;
+
+&lt;p&gt;Sweet. Now that we have Frog installed, let&amp;rsquo;s get rolling. To create your first
 Frog-powered website, we&amp;rsquo;ll create a project directory first:&lt;/p&gt;
- &lt;p&gt;&lt;/p&gt;
- &lt;table cellspacing="0"&gt;
-  &lt;tbody&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ mkdir blog&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ cd blog&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
- &lt;p&gt;We&amp;rsquo;ll then fire the spark plug, to initialize the site repository:&lt;/p&gt;
- &lt;p&gt;&lt;/p&gt;
- &lt;table cellspacing="0"&gt;
-  &lt;tbody&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ raco frog --init&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
- &lt;p&gt;You&amp;rsquo;ll see a message saying that your website is ready. Let&amp;rsquo;s follow the
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;table cellspacing="0"&gt;
+ &lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ mkdir blog&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ cd blog&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;p&gt;We&amp;rsquo;ll then fire the spark plug, to initialize the site repository:&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;table cellspacing="0"&gt;
+ &lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ raco frog --init&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;p&gt;You&amp;rsquo;ll see a message saying that your website is ready. Let&amp;rsquo;s follow the
 suggested command:&lt;/p&gt;
- &lt;p&gt;&lt;/p&gt;
- &lt;table cellspacing="0"&gt;
-  &lt;tbody&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ raco frog -bp&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
- &lt;p&gt;What that command does is that it builds the HTML files from the sample source
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;table cellspacing="0"&gt;
+ &lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ raco frog -bp&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;p&gt;What that command does is that it builds the HTML files from the sample source
 files created with the &lt;span class="stt"&gt;&lt;/span&gt;&lt;span class="stt"&gt;&amp;ndash;&lt;/span&gt;&lt;span class="stt"&gt;init&lt;/span&gt; switch, then it runs a local web server,
 serving by default, the location http://localhost:3000. Frog will then open a
 new browser tab, or window, pointing to that URL. The page that you&amp;rsquo;ll see
 contains the default site layout. When you&amp;rsquo;re OK with it, let&amp;rsquo;s go back to the
 terminal, and kill that process by hitting &lt;span class="stt"&gt;C-c&lt;/span&gt;.&lt;/p&gt;
- &lt;h1&gt;4
-  &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Creating_.New_.Posts)"&gt;&lt;/a&gt;Creating New Posts&lt;/h1&gt;
- &lt;p&gt;Creating a new article from scratch is another easy task:&lt;/p&gt;
- &lt;p&gt;&lt;/p&gt;
- &lt;table cellspacing="0"&gt;
-  &lt;tbody&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ raco frog -n "New Blog Post."&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
- &lt;p&gt;What it does is that it creates a Markdown file, relative to the current
+
+&lt;h1&gt;4
+ &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Creating_.New_.Posts)"&gt;&lt;/a&gt;Creating New Posts&lt;/h1&gt;
+
+&lt;p&gt;Creating a new article from scratch is another easy task:&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;table cellspacing="0"&gt;
+ &lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ raco frog -n "New Blog Post."&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;p&gt;What it does is that it creates a Markdown file, relative to the current
 directory, with the format &lt;span class="stt"&gt;_src/posts/YYYY-MM-DD-post-title.md&lt;/span&gt;. With the
 command above, the absolute path would be similar to:&lt;/p&gt;
- &lt;p&gt;&lt;/p&gt;
- &lt;table cellspacing="0"&gt;
-  &lt;tbody&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;/home/john/blog/_src/posts/2014-02-21-new-blog-post.md&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
- &lt;p&gt;Let&amp;rsquo;s edit that file, and see how it looks like:&lt;/p&gt;
- &lt;p&gt;&lt;/p&gt;
- &lt;table cellspacing="0"&gt;
-  &lt;tbody&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ emacs _src/posts/2014-02-21-new-blog-post.md&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
- &lt;p&gt;&lt;/p&gt;
- &lt;table cellspacing="0"&gt;
-  &lt;tbody&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;#lang scribble/text&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;Title: New Blog Post&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;Date: 2014-02-21T18:53:42&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;Tags: DRAFT&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;_Replace this with your post text. Add one or more comma-separated&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;Tags above. The special tag `DRAFT` will prevent the post from being&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;published._&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;&amp;lt;!-- more --&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
- &lt;p&gt;Bear in mind that this file, was created for us, by the command &lt;span class="stt"&gt;raco frog
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;table cellspacing="0"&gt;
+ &lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;/home/john/blog/_src/posts/2014-02-21-new-blog-post.md&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;p&gt;Let&amp;rsquo;s edit that file, and see how it looks like:&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;table cellspacing="0"&gt;
+ &lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ emacs _src/posts/2014-02-21-new-blog-post.md&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;table cellspacing="0"&gt;
+ &lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;#lang scribble/text&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;Title: New Blog Post&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;Date: 2014-02-21T18:53:42&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;Tags: DRAFT&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;_Replace this with your post text. Add one or more comma-separated&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;Tags above. The special tag `DRAFT` will prevent the post from being&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;published._&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;&amp;lt;!-- more --&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;p&gt;Bear in mind that this file, was created for us, by the command &lt;span class="stt"&gt;raco frog
 -n ...&lt;/span&gt;. The first three lines contains metadata about our post. They&amp;rsquo;re the
 post title, date of creation, and tags, respectively. The date was picked up
 from the the &lt;span class="stt"&gt;-n&lt;/span&gt; switch that was issued, earlier. The &lt;span style="font-style: italic"&gt;Tags&lt;/span&gt; field,
 contains a comma-separated list of words, that Frog would later identify the
 post with. When the case-sensitive tag &lt;span style="font-style: italic"&gt;DRAFT&lt;/span&gt; is used, the file will be
 skipped during the build phase.&lt;/p&gt;
- &lt;p&gt;Four spaces must be prefixed, prior, to those three lines, followed by an empty
+
+&lt;p&gt;Four spaces must be prefixed, prior, to those three lines, followed by an empty
 line. The rest will be the actual article content, in Markdown format. When a
 line by its own contain just the text &lt;span class="stt"&gt;&amp;lt;!&lt;/span&gt;&lt;span class="stt"&gt;&amp;ndash;&lt;/span&gt;&lt;span class="stt"&gt; more &lt;/span&gt;&lt;span class="stt"&gt;&amp;ndash;&lt;/span&gt;&lt;span class="stt"&gt;&amp;gt;&lt;/span&gt;, that line will be
 replaced by a hyperlink in the final HTML form, that will point to the rest of
 the article. That means, all text, after the &lt;span class="stt"&gt;&amp;lt;!&lt;/span&gt;&lt;span class="stt"&gt;&amp;ndash;&lt;/span&gt;&lt;span class="stt"&gt; more &lt;/span&gt;&lt;span class="stt"&gt;&amp;ndash;&lt;/span&gt;&lt;span class="stt"&gt;&amp;gt;&lt;/span&gt; line will not
 appear in the blog index, but will appear in the link for the whole post.&lt;/p&gt;
- &lt;p&gt;Let&amp;rsquo;s say we change that file to look something like the following:&lt;/p&gt;
- &lt;p&gt;&lt;/p&gt;
- &lt;table cellspacing="0"&gt;
-  &lt;tbody&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;Title: New Blog Post&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;Date: 2014-02-21T18:53:42&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;Tags: arts, history&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh,&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;viverra non, semper suscipit, posuere a, pede.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;&amp;lt;!-- more --&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;amet orci. Aenean dignissim pellentesque felis.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
- &lt;p&gt;Then, run the build command, again:&lt;/p&gt;
- &lt;p&gt;&lt;/p&gt;
- &lt;table cellspacing="0"&gt;
-  &lt;tbody&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ raco frog -bp&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
- &lt;p&gt;We now have two posts, as displayed in the index. To remove the auto-generated
+
+&lt;p&gt;Let&amp;rsquo;s say we change that file to look something like the following:&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;table cellspacing="0"&gt;
+ &lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;Title: New Blog Post&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;Date: 2014-02-21T18:53:42&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="hspace"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="stt"&gt;Tags: arts, history&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh,&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;viverra non, semper suscipit, posuere a, pede.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;&amp;lt;!-- more --&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;amet orci. Aenean dignissim pellentesque felis.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;p&gt;Then, run the build command, again:&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;table cellspacing="0"&gt;
+ &lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ raco frog -bp&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;p&gt;We now have two posts, as displayed in the index. To remove the auto-generated
 initial post, that was created by the command &lt;span class="stt"&gt;raco frog &lt;/span&gt;&lt;span class="stt"&gt;&amp;ndash;&lt;/span&gt;&lt;span class="stt"&gt;init&lt;/span&gt;, earlier,
 run:&lt;/p&gt;
- &lt;p&gt;&lt;/p&gt;
- &lt;table cellspacing="0"&gt;
-  &lt;tbody&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ rm -f _src/posts/2012-01-01-a-2012-blog-post.md&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
- &lt;p&gt;Then, rebuild the files:&lt;/p&gt;
- &lt;p&gt;&lt;/p&gt;
- &lt;table cellspacing="0"&gt;
-  &lt;tbody&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ raco frog -bp&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
- &lt;h1&gt;5
-  &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Customizations)"&gt;&lt;/a&gt;Customizations&lt;/h1&gt;
- &lt;p&gt;By this time, you&amp;rsquo;re really itching to customize the site. Yep, that&amp;rsquo;s what
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;table cellspacing="0"&gt;
+ &lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ rm -f _src/posts/2012-01-01-a-2012-blog-post.md&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;p&gt;Then, rebuild the files:&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;table cellspacing="0"&gt;
+ &lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ raco frog -bp&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;h1&gt;5
+ &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Customizations)"&gt;&lt;/a&gt;Customizations&lt;/h1&gt;
+
+&lt;p&gt;By this time, you&amp;rsquo;re really itching to customize the site. Yep, that&amp;rsquo;s what
 we&amp;rsquo;re going to do in this section.&lt;/p&gt;
- &lt;p&gt;At the basic level, there are three files that we are going to modify, to make
+
+&lt;p&gt;At the basic level, there are three files that we are going to modify, to make
 our initial changes:&lt;/p&gt;
- &lt;ul&gt;
-  &lt;li&gt;
-   &lt;p&gt;.frogrc&lt;/p&gt;&lt;/li&gt;
-  &lt;li&gt;
-   &lt;p&gt;_src/page-template.html&lt;/p&gt;&lt;/li&gt;
-  &lt;li&gt;
-   &lt;p&gt;_src/post-template.html&lt;/p&gt;&lt;/li&gt;
-  &lt;li&gt;
-   &lt;p&gt;css/bootstrap.css&lt;/p&gt;&lt;/li&gt;
-  &lt;li&gt;
-   &lt;p&gt;css/bootstrap.min.css&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;
- &lt;p&gt;Let&amp;rsquo;s examine each of the files in the list, closer.&lt;/p&gt;
- &lt;h2&gt;5.1
-  &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part.__frogrc)"&gt;&lt;/a&gt;.frogrc&lt;/h2&gt;
- &lt;p&gt;This file is where top-level customizations are made. Open the file
+
+&lt;ul&gt;
+ &lt;li&gt;
+  &lt;p&gt;.frogrc&lt;/p&gt;&lt;/li&gt;
+ &lt;li&gt;
+  &lt;p&gt;_src/page-template.html&lt;/p&gt;&lt;/li&gt;
+ &lt;li&gt;
+  &lt;p&gt;_src/post-template.html&lt;/p&gt;&lt;/li&gt;
+ &lt;li&gt;
+  &lt;p&gt;css/bootstrap.css&lt;/p&gt;&lt;/li&gt;
+ &lt;li&gt;
+  &lt;p&gt;css/bootstrap.min.css&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;
+
+&lt;p&gt;Let&amp;rsquo;s examine each of the files in the list, closer.&lt;/p&gt;
+
+&lt;h2&gt;5.1
+ &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part.__frogrc)"&gt;&lt;/a&gt;.frogrc&lt;/h2&gt;
+
+&lt;p&gt;This file is where top-level customizations are made. Open the file
 &lt;span class="stt"&gt;.frogrc&lt;/span&gt;, located in the current directory:&lt;/p&gt;
- &lt;p&gt;&lt;/p&gt;
- &lt;table cellspacing="0"&gt;
-  &lt;tbody&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ emacs .frogrc&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
- &lt;p&gt;You&amp;rsquo;ll notice that there are more than a dozen parameters that can be
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;table cellspacing="0"&gt;
+ &lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ emacs .frogrc&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;p&gt;You&amp;rsquo;ll notice that there are more than a dozen parameters that can be
 tweaked. But for now, we&amp;rsquo;re only concerned about three parameters:&lt;/p&gt;
- &lt;ul&gt;
-  &lt;li&gt;
-   &lt;p&gt;scheme/host&lt;/p&gt;&lt;/li&gt;
-  &lt;li&gt;
-   &lt;p&gt;title&lt;/p&gt;&lt;/li&gt;
-  &lt;li&gt;
-   &lt;p&gt;author&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;
- &lt;p&gt;&lt;span class="stt"&gt;scheme/host&lt;/span&gt; should
+
+&lt;ul&gt;
+ &lt;li&gt;
+  &lt;p&gt;scheme/host&lt;/p&gt;&lt;/li&gt;
+ &lt;li&gt;
+  &lt;p&gt;title&lt;/p&gt;&lt;/li&gt;
+ &lt;li&gt;
+  &lt;p&gt;author&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;
+
+&lt;p&gt;&lt;span class="stt"&gt;scheme/host&lt;/span&gt; should
 contain the (sub)domain to which you&amp;rsquo;ll be publishing your work
 later, &lt;span class="stt"&gt;title&lt;/span&gt; is the name of your blog, and &lt;span class="stt"&gt;author&lt;/span&gt; is your name.&lt;/p&gt;
- &lt;h2&gt;5.2
-  &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._page-template_html)"&gt;&lt;/a&gt;page-template.html&lt;/h2&gt;
- &lt;p&gt;This file contains the common content, across all types of pages, whether they
+
+&lt;h2&gt;5.2
+ &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._page-template_html)"&gt;&lt;/a&gt;page-template.html&lt;/h2&gt;
+
+&lt;p&gt;This file contains the common content, across all types of pages, whether they
 are blog or non-blog posts. Open the file &lt;span class="stt"&gt;_src/page-template.html&lt;/span&gt;, located
 in the current directory:&lt;/p&gt;
- &lt;p&gt;&lt;/p&gt;
- &lt;table cellspacing="0"&gt;
-  &lt;tbody&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ emacs _src/page-template.html&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
- &lt;p&gt;You&amp;rsquo;ll see an even bigger file, compared to .frogrc. This is an special HTML
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;table cellspacing="0"&gt;
+ &lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ emacs _src/page-template.html&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;p&gt;You&amp;rsquo;ll see an even bigger file, compared to .frogrc. This is an special HTML
 file, that contains Racket, and Frog-specific code. It will be used as a basis
 for all pages that you&amp;rsquo;ll create with Frog. There are plenty of parameters
 here, but we&amp;rsquo;ll just tweak some that are most usable to us, at the
 moment. To make it easier, I&amp;rsquo;ll just list down the items to search and
 replace for:&lt;/p&gt;
- &lt;ul&gt;
-  &lt;li&gt;
-   &lt;p&gt;The Unknown Blogger&lt;/p&gt;&lt;/li&gt;
-  &lt;li&gt;
-   &lt;p&gt;My Blog Brand&lt;/p&gt;&lt;/li&gt;
-  &lt;li&gt;
-   &lt;p&gt;Welcome&lt;/p&gt;&lt;/li&gt;
-  &lt;li&gt;
-   &lt;p&gt;Your legal notice here&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;
- &lt;p&gt;When you get to those respective sections, it should evident what to replace
+
+&lt;ul&gt;
+ &lt;li&gt;
+  &lt;p&gt;The Unknown Blogger&lt;/p&gt;&lt;/li&gt;
+ &lt;li&gt;
+  &lt;p&gt;My Blog Brand&lt;/p&gt;&lt;/li&gt;
+ &lt;li&gt;
+  &lt;p&gt;Welcome&lt;/p&gt;&lt;/li&gt;
+ &lt;li&gt;
+  &lt;p&gt;Your legal notice here&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;
+
+&lt;p&gt;When you get to those respective sections, it should evident what to replace
 them with.&lt;/p&gt;
- &lt;h2&gt;5.3
-  &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._post-template_html)"&gt;&lt;/a&gt;post-template.html&lt;/h2&gt;
- &lt;p&gt;Similar to &lt;span class="stt"&gt;page-template.html&lt;/span&gt;, but this file contains content that will
+
+&lt;h2&gt;5.3
+ &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._post-template_html)"&gt;&lt;/a&gt;post-template.html&lt;/h2&gt;
+
+&lt;p&gt;Similar to &lt;span class="stt"&gt;page-template.html&lt;/span&gt;, but this file contains content that will
 only appear with blog posts. It is also Perhaps the easiest file to modify is
 &lt;span class="stt"&gt;_src/post-template.html&lt;/span&gt;. Let&amp;rsquo;s open it:&lt;/p&gt;
- &lt;p&gt;&lt;/p&gt;
- &lt;table cellspacing="0"&gt;
-  &lt;tbody&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ emacs _src/post-template.html&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
- &lt;p&gt;For now, you only need to modify the text &lt;span class="stt"&gt;shortname&lt;/span&gt;. It is the
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;table cellspacing="0"&gt;
+ &lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ emacs _src/post-template.html&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;p&gt;For now, you only need to modify the text &lt;span class="stt"&gt;shortname&lt;/span&gt;. It is the
 identifier that links the comments section of your blog posts, to the aforesaid
 Disqus account. More about this will be discussed in the section
 &lt;span style="font-weight: bold"&gt;Comments&lt;/span&gt;.&lt;/p&gt;
- &lt;h2&gt;5.4
-  &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._bootstrap_css_and_bootstrap_min_css)"&gt;&lt;/a&gt;bootstrap.css and bootstrap.min.css&lt;/h2&gt;
- &lt;p&gt;These two files are responsible for what is commonly called as "theme" &amp;ndash; it
+
+&lt;h2&gt;5.4
+ &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._bootstrap_css_and_bootstrap_min_css)"&gt;&lt;/a&gt;bootstrap.css and bootstrap.min.css&lt;/h2&gt;
+
+&lt;p&gt;These two files are responsible for what is commonly called as "theme" &amp;ndash; it
 controls the look of the site. To change these files, let&amp;rsquo;s head over to
 &lt;a href="http://bootswatch.com/"&gt;bootswatch.com&lt;/a&gt;, then let&amp;rsquo;s select a
 theme we like. Let&amp;rsquo;s presume that we want to download the &lt;span style="font-style: italic"&gt;Cerulean&lt;/span&gt;
@@ -339,91 +423,112 @@ theme. Click the dropdown box arrow, next to the download link, for that
 theme. Select and download both &lt;span class="stt"&gt;bootstrap.min.css&lt;/span&gt; and
 &lt;span class="stt"&gt;bootstrap.css&lt;/span&gt;. After which, copy them over to the css subdirectory
 &lt;span class="stt"&gt;css/&lt;/span&gt;.&lt;/p&gt;
- &lt;p&gt;&lt;/p&gt;
- &lt;table cellspacing="0"&gt;
-  &lt;tbody&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ cp ~/Downloads/bootstrap.*.css css/&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
- &lt;h1&gt;6
-  &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Miscellany)"&gt;&lt;/a&gt;Miscellany&lt;/h1&gt;
- &lt;p&gt;When we created a new post earlier, we used the following command:&lt;/p&gt;
- &lt;p&gt;&lt;/p&gt;
- &lt;table cellspacing="0"&gt;
-  &lt;tbody&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;raco frog -n "New Blog Post"&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
- &lt;p&gt;That command, creates a Markdown source file. Frog, however, has another mode
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;table cellspacing="0"&gt;
+ &lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ cp ~/Downloads/bootstrap.*.css css/&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;h1&gt;6
+ &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Miscellany)"&gt;&lt;/a&gt;Miscellany&lt;/h1&gt;
+
+&lt;p&gt;When we created a new post earlier, we used the following command:&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;table cellspacing="0"&gt;
+ &lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;raco frog -n "New Blog Post"&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;p&gt;That command, creates a Markdown source file. Frog, however, has another mode
 &amp;ndash; Scribble. This mode lets you use a Scribble source file, instead. To create
 one, we&amp;rsquo;ll use the following command:&lt;/p&gt;
- &lt;p&gt;&lt;/p&gt;
- &lt;table cellspacing="0"&gt;
-  &lt;tbody&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;raco frog -N "New Blog Post"&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
- &lt;p&gt;Had you used this command earlier, the file will have the format
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;table cellspacing="0"&gt;
+ &lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;raco frog -N "New Blog Post"&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;p&gt;Had you used this command earlier, the file will have the format
 &lt;span class="stt"&gt;_src/posts/YYYY-MM-DD-post-title.md&lt;/span&gt;. With the command above, the
 absolute path would look like:&lt;/p&gt;
- &lt;p&gt;&lt;/p&gt;
- &lt;table cellspacing="0"&gt;
-  &lt;tbody&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;/home/john/blog/_src/posts/2014-02-21-new-blog-post.scrbl&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
- &lt;p&gt;Again, let&amp;rsquo;s edit that file, and see how it looks like:&lt;/p&gt;
- &lt;p&gt;&lt;/p&gt;
- &lt;table cellspacing="0"&gt;
-  &lt;tbody&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;emacs _src/posts/2014-02-21-new-blog-post.scrbl&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
- &lt;p&gt;&lt;/p&gt;
- &lt;table cellspacing="0"&gt;
-  &lt;tbody&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;#lang scribble/manual&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;Title: New Blog Post&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;Date: 2014-02-21T18:53:42&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;Tags: DRAFT&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;Replace this with your post text. Add one or more comma-separated&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;Tags above. The special tag `DRAFT` will prevent the post from being&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;published.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;&amp;lt;!-- more --&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
- &lt;p&gt;They&amp;rsquo;re mostly the same, except with the addition of the language specifier,
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;table cellspacing="0"&gt;
+ &lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;/home/john/blog/_src/posts/2014-02-21-new-blog-post.scrbl&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;p&gt;Again, let&amp;rsquo;s edit that file, and see how it looks like:&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;table cellspacing="0"&gt;
+ &lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;emacs _src/posts/2014-02-21-new-blog-post.scrbl&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;table cellspacing="0"&gt;
+ &lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;#lang scribble/manual&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;Title: New Blog Post&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;Date: 2014-02-21T18:53:42&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;Tags: DRAFT&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;Replace this with your post text. Add one or more comma-separated&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;Tags above. The special tag `DRAFT` will prevent the post from being&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;published.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;&amp;lt;!-- more --&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;p&gt;They&amp;rsquo;re mostly the same, except with the addition of the language specifier,
 &lt;span class="stt"&gt;#lang scribble/manual&lt;/span&gt;, and the absence of the prefix spaces for the
 metadata fields.&lt;/p&gt;
- &lt;h1&gt;7
-  &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Comments)"&gt;&lt;/a&gt;Comments&lt;/h1&gt;
- &lt;p&gt;Frog makes use of &lt;a href="http://disqus.com"&gt;Disqus&lt;/a&gt; to handle its
+
+&lt;h1&gt;7
+ &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Comments)"&gt;&lt;/a&gt;Comments&lt;/h1&gt;
+
+&lt;p&gt;Frog makes use of &lt;a href="http://disqus.com"&gt;Disqus&lt;/a&gt; to handle its
 comments. To use it, create an account at
 &lt;a href="https://disqus.com/profile/signup/?next=http%3A//disqus.com/"&gt;disqus.com/profile/signup/&lt;/a&gt;.&lt;/p&gt;
- &lt;p&gt;When you already have your account, go to
+
+&lt;p&gt;When you already have your account, go to
 &lt;a href="http://disqus.com/admin/create/"&gt;disqus.com/admin/create/&lt;/a&gt;
 to create a site, which will have an alias called a &lt;span style="font-style: italic"&gt;shortname&lt;/span&gt;. The
 &lt;span style="font-style: italic"&gt;shorname&lt;/span&gt; is what you&amp;rsquo;ll register with Disqus to uniquely identify your
@@ -431,23 +536,30 @@ website. So, if you chose, for example, &lt;span class="stt"&gt;foobar&lt;/span&
 site, you may then access &lt;a href="http://foobar.disqus.com"&gt;foobar.disqus.com&lt;/a&gt; to manage the comments for that site. The shortname
 mentioned here, is what you&amp;rsquo;ll use in the file &lt;span class="stt"&gt;_src/post-template.html&lt;/span&gt;,
 as discussed above.&lt;/p&gt;
- &lt;p&gt;To import comments, from an existing blog, to Disqus, go to
+
+&lt;p&gt;To import comments, from an existing blog, to Disqus, go to
 &lt;a href="http://import.disqus.com"&gt;import.disqus.com&lt;/a&gt;.&lt;/p&gt;
- &lt;h1&gt;8
-  &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Show_.Time)"&gt;&lt;/a&gt;Show Time&lt;/h1&gt;
- &lt;p&gt;To publish your work, upload the contents of the directory that Frog
+
+&lt;h1&gt;8
+ &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Show_.Time)"&gt;&lt;/a&gt;Show Time&lt;/h1&gt;
+
+&lt;p&gt;To publish your work, upload the contents of the directory that Frog
 manages; in this tutorial, it is the directory &lt;span class="stt"&gt;/home/john/blog&lt;/span&gt;, to your
 remote web server. If the current directory is &lt;span class="stt"&gt;blog/&lt;/span&gt;, and we want to
 send the files via rsync, the command would look like:&lt;/p&gt;
- &lt;p&gt;&lt;/p&gt;
- &lt;table cellspacing="0"&gt;
-  &lt;tbody&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ rsync -avz ./ remotehost:public_html&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
- &lt;p&gt;The directory &lt;span class="stt"&gt;public_html&lt;/span&gt; could be something else, I just used it
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;table cellspacing="0"&gt;
+ &lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ rsync -avz ./ remotehost:public_html&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;p&gt;The directory &lt;span class="stt"&gt;public_html&lt;/span&gt; could be something else, I just used it
 because it is the default with Apache.&lt;/p&gt;
- &lt;p&gt;However, if you don&amp;rsquo;t have a remote host that you can upload your work to, via
+
+&lt;p&gt;However, if you don&amp;rsquo;t have a remote host that you can upload your work to, via
 rsync, and you use &lt;a href="http://git-scm.com"&gt;Git&lt;/a&gt;, you can use the free
 hosting service of &lt;a href="http://pages.github.com"&gt;GitHub Pages&lt;/a&gt;. If you
 don&amp;rsquo;t have a &lt;a href="http://github.com"&gt;GitHub&lt;/a&gt; account yet, you may go
@@ -455,29 +567,40 @@ to &lt;a href="http://github.com"&gt;github.com&lt;/a&gt; to create one. To use,
 Pages, create a repository named &lt;span class="stt"&gt;USERNAME.github.io&lt;/span&gt;. So, if your
 username is &lt;span class="stt"&gt;johndoe&lt;/span&gt;, the repository that you need to create should be
 named &lt;span class="stt"&gt;johndoe.github.io&lt;/span&gt;.&lt;/p&gt;
- &lt;p&gt;To publish your work to GitHub Pages, we first need to add that remote
+
+&lt;p&gt;To publish your work to GitHub Pages, we first need to add that remote
 repository:&lt;/p&gt;
- &lt;p&gt;&lt;/p&gt;
- &lt;table cellspacing="0"&gt;
-  &lt;tbody&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ git remote add origin git@github.com:johndoe/johndoe.github.io.git&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
- &lt;p&gt;Then we push the commits:&lt;/p&gt;
- &lt;p&gt;&lt;/p&gt;
- &lt;table cellspacing="0"&gt;
-  &lt;tbody&gt;
-   &lt;tr&gt;
-    &lt;td&gt;
-     &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ git push origin master&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
- &lt;p&gt;To view your website, go to &lt;a href="http://johndoe.github.io"&gt;johndoe.github.io&lt;/a&gt;.&lt;/p&gt;
- &lt;h1&gt;9
-  &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Notes)"&gt;&lt;/a&gt;Notes&lt;/h1&gt;
- &lt;p&gt;&lt;a href="https://github.com/greghendershott/frog"&gt;Frog&lt;/a&gt; is a viable and
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;table cellspacing="0"&gt;
+ &lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ git remote add origin git@github.com:johndoe/johndoe.github.io.git&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;p&gt;Then we push the commits:&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;table cellspacing="0"&gt;
+ &lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ git push origin master&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;p&gt;To view your website, go to &lt;a href="http://johndoe.github.io"&gt;johndoe.github.io&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1&gt;9
+ &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Notes)"&gt;&lt;/a&gt;Notes&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/greghendershott/frog"&gt;Frog&lt;/a&gt; is a viable and
 usable site creator. It is easy-to-use, highly configurable, flexible, and yes,
 open source. It gives control, back to the author.&lt;/p&gt;
- &lt;p&gt;Frog was created by &lt;a href="http://www.greghendershott.com/"&gt;Greg
+
+&lt;p&gt;Frog was created by &lt;a href="http://www.greghendershott.com/"&gt;Greg
 Hendershott&lt;/a&gt;. If you want to learn more about it, head over to
 &lt;a href="http://github.com/greghendershott/frog"&gt;github.com/greghendershott/frog&lt;/a&gt;. To report bugs, go to
 &lt;a href="https://github.com/greghendershott/frog/issues"&gt;github.com/greghendershott/frog/issues&lt;/a&gt;.&lt;/p&gt;
- &lt;p&gt;&lt;span style="font-style: italic"&gt;Ribbit!&lt;/span&gt;&lt;/p&gt;&lt;/html&gt;</description></item></channel></rss>
+
+&lt;p&gt;&lt;span style="font-style: italic"&gt;Ribbit!&lt;/span&gt;&lt;/p&gt;&lt;/html&gt;</description></item></channel></rss>
