@@ -106,354 +106,120 @@
  <time datetime="2013-09-10" pubdate="true">2013-09-10</time> :: <span class="tags"><a href="/tags/emacs.html">emacs</a>, <a href="/tags/programming.html">programming</a></span></p>
   </header>
 
-<p>In this series of posts, I will be sharing my personal hacks on how
-I use Emacs for my day-to-day stuff. Most, if not all of the code
-contained in these posts are excerpts from the respective
-configuration files that I use.</p>
+<p>In this series of posts, I will be sharing my personal hacks on how I use Emacs for my day-to-day stuff. Most, if not all of the code contained in these posts are excerpts from the respective configuration files that I use.</p>
 
-<p>The rest of the configuration can be found at
-<a href="http://github.com/ebzzry/dotemacs">github.com/ebzzry/dotemacs</a>.</p>
+<p>The rest of the configuration can be found at <a href="http://github.com/ebzzry/dotemacs">github.com/ebzzry/dotemacs</a>.</p>
+<!-- more-->
 
-<p>&lt;!&ndash; more &ndash;&gt;</p>
+<pre><code>(defun delete-forward-char-or-region (&amp;optional arg)
+  (interactive "p")
+  (if (region-active-p)
+      (delete-region (region-beginning)
+                     (region-end))
+      (delete-forward-char arg)))
 
-<p></p>
+(define-key global-map [deletechar] 'delete-forward-char-or-region)
+(define-key global-map [del] 'delete-forward-char-or-region)</code></pre>
 
-<table cellspacing="0">
- <tbody>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt">(defun delete-forward-char-or-region (&amp;optional arg)</span></span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="hspace">&nbsp;&nbsp;</span><span class="stt">(interactive "p")</span></span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="hspace">&nbsp;&nbsp;</span><span class="stt">(if (region-active-p)</span></span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="stt">(delete-region (region-beginning)</span></span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="stt">(region-end))</span></span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="stt">(delete-forward-char arg)))</span></span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt"></span></span><span class="hspace">&nbsp;</span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt">(define-key global-map [deletechar] 'delete-forward-char-or-region)</span></span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt">(define-key global-map [del] 'delete-forward-char-or-region)</span></span></p></td></tr></tbody></table>
+<p>This command deletes a region if one is active, or deletes the character underneath the cursor. I have this bound to the DEL key.</p>
 
-<p>This command deletes a region if one is active, or deletes the
-character underneath the cursor. I have this bound to the DEL key.</p>
+<pre><code>(defun compile-file ()
+  (interactive)
+  (compile "make -k"))
 
-<p></p>
+(define-key global-map [(control ?x) ?c] 'compile-file)</code></pre>
 
-<table cellspacing="0">
- <tbody>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt">(defun compile-file ()</span></span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="hspace">&nbsp;&nbsp;</span><span class="stt">(interactive)</span></span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="hspace">&nbsp;&nbsp;</span><span class="stt">(compile "make -k"))</span></span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt"></span></span><span class="hspace">&nbsp;</span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt">(define-key global-map [(control ?x) ?c] 'compile-file)</span></span></p></td></tr></tbody></table>
+<p>I use this command frequently, and I use it from typesetting LaTeX documents, compiling Scribble documents, compiling code, and just about anything that I can use Make with.</p>
 
-<p>I use this command frequently, and I use it from typesetting LaTeX
-documents, compiling Scribble documents, compiling code, and just
-about anything that I can use Make with.</p>
+<pre><code>(defun geiser-save ()
+  (interactive)
+  (geiser-repl--write-input-ring))</code></pre>
 
-<p></p>
+<p>This comes in very handy for me, because sometimes I lose the REPL buffer before the input ring has been saved. When I need to run I execute <code>M-x geiser-save</code>.</p>
 
-<table cellspacing="0">
- <tbody>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt">(defun geiser-save ()</span></span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="hspace">&nbsp;&nbsp;</span><span class="stt">(interactive)</span></span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="hspace">&nbsp;&nbsp;</span><span class="stt">(geiser-repl--write-input-ring))</span></span></p></td></tr></tbody></table>
+<pre><code>(defun my-scheme-mode-hook ()
+  (put 'λ 'scheme-indent-function 1)
+  (define-key scheme-mode-map [(control ?c) tab] 'completion-at-point))
 
-<p>This comes in very handy for me, because sometimes I lose the REPL
-buffer before the input ring has been saved. When I need to run I
-execute &lsquo;M-x geiser-save&lsquo;.</p>
+(add-hook 'scheme-mode-hook 'my-scheme-mode-hook)</code></pre>
 
-<p></p>
+<p>I also have the above, since I want to align the <code>λ</code> symbol nicely.</p>
 
-<table cellspacing="0">
- <tbody>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt">(defun my-scheme-mode-hook ()</span></span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="hspace">&nbsp;&nbsp;</span><span class="stt">(put '&#955; 'scheme-indent-function 1)</span></span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="hspace">&nbsp;&nbsp;</span><span class="stt">(define-key scheme-mode-map [(control ?c) tab] 'completion-at-point))</span></span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt"></span></span><span class="hspace">&nbsp;</span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt">(add-hook 'scheme-mode-hook 'my-scheme-mode-hook)</span></span></p></td></tr></tbody></table>
+<pre><code>(require 'tramp)
 
-<p>I also have the above, since I want to align the &lsquo;&#955;&lsquo; symbol nicely.</p>
+(add-to-list 'tramp-remote-path "/var/run/current-system/sw/bin")</code></pre>
 
-<p></p>
+<p>The above snippet is applicable only to users of NixOS, since the filesystem tree is deviantly different from &ldquo;regular&rdquo; nixen.</p>
 
-<table cellspacing="0">
- <tbody>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt">(require 'tramp)</span></span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt"></span></span><span class="hspace">&nbsp;</span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt">(add-to-list 'tramp-remote-path "/var/run/current-system/sw/bin")</span></span></p></td></tr></tbody></table>
+<pre><code>(defun other-window-1 (&amp;optional arg)
+  (interactive "p")
+  (other-window (- arg)))
 
-<p>The above snippet is applicable only to users of NixOS, since the
-filesystem tree is deviantly different from "regular" nixen.</p>
+(define-key global-map [(control left)] 'other-window-1)
+(define-key global-map [(control right)] 'other-window)</code></pre>
 
-<p></p>
+<p>One of my favorites, and I may be biased because I&rsquo;m using a <a href="http://www.kinesis-ergo.com/advantage.htm">Kinesis Advantage keyboard</a>, wherein the arrow keys are very easy to reach, but nevertheless, YMMV.</p>
 
-<table cellspacing="0">
- <tbody>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt">(defun other-window-1 (&amp;optional arg)</span></span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="hspace">&nbsp;&nbsp;</span><span class="stt">(interactive "p")</span></span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="hspace">&nbsp;&nbsp;</span><span class="stt">(other-window (- arg)))</span></span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt"></span></span><span class="hspace">&nbsp;</span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt">(define-key global-map [(control left)] 'other-window-1)</span></span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt">(define-key global-map [(control right)] 'other-window)</span></span></p></td></tr></tbody></table>
+<pre><code>(defun find-two-files (orientation directory file1 file2)
+  (let ((file-path1 (file-truename file1))
+        (file-path2 (file-truename file2)))
+    (delete-other-windows)
 
-<p>One of my favorites, and I may be biased because I&rsquo;m using a
-[Kinesis Advantage keyboard](http://www.kinesis-ergo.com/advantage.htm),
-wherein the arrow keys are very easy to reach, but nevertheless, YMMV.</p>
+    (case orientation
+      (vertical (progn (split-window-right)
+                       (find-file file-path1)
+                       (other-window 1)
+                       (find-file file-path2)))
+      (horizontal (progn (split-window)
+                         (find-file file-path1)
+                         (other-window 1)
+                         (find-file file-path2)))
 
-<p></p>
+      (other-window 1))))
 
-<table cellspacing="0">
- <tbody>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt">(defun find-two-files (orientation directory file1 file2)</span></span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="hspace">&nbsp;&nbsp;</span><span class="stt">(let ((file-path1 (file-truename file1))</span></span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="stt">(file-path2 (file-truename file2)))</span></span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="stt">(delete-other-windows)</span></span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt"></span></span><span class="hspace">&nbsp;</span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="stt">(case orientation</span></span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="stt">(vertical (progn (split-window-right)</span></span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="stt">(find-file file-path1)</span></span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="stt">(other-window 1)</span></span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="stt">(find-file file-path2)))</span></span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="stt">(horizontal (progn (split-window)</span></span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="stt">(find-file file-path1)</span></span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="stt">(other-window 1)</span></span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="stt">(find-file file-path2)))</span></span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt"></span></span><span class="hspace">&nbsp;</span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="stt">(other-window 1))))</span></span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt"></span></span><span class="hspace">&nbsp;</span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt">(defun find-two-files-vertically (directory file1 file2)</span></span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="hspace">&nbsp;&nbsp;</span><span class="stt">(find-two-files 'vertical directory file1 file2))</span></span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt"></span></span><span class="hspace">&nbsp;</span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt">(defun find-two-files-horizontally (directory file1 file2)</span></span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="hspace">&nbsp;&nbsp;</span><span class="stt">(find-two-files 'horizontal directory file1 file2))</span></span></p></td></tr></tbody></table>
+(defun find-two-files-vertically (directory file1 file2)
+  (find-two-files 'vertical directory file1 file2))
 
-<p></p>
+(defun find-two-files-horizontally (directory file1 file2)
+  (find-two-files 'horizontal directory file1 file2))</code></pre>
 
-<table cellspacing="0">
- <tbody>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt">ev () {</span></span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="stt">emacsclient -nw --eval "(find-two-files-vertically \"$(pwd)\" \"$1\" \"$2\")"</span></span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt">}</span></span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt"></span></span><span class="hspace">&nbsp;</span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt">eh () {</span></span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="stt">emacsclient -nw --eval "(find-two-files-horizontally \"$(pwd)\" \"$1\" \"$2\")"</span></span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt">}</span></span></p></td></tr></tbody></table>
+<pre><code>ev () { emacsclient -nw --eval "(find-two-files-vertically \"$(pwd)\" \"$1\" \"$2\")" }
+eh () { emacsclient -nw --eval "(find-two-files-horizontally \"$(pwd)\" \"$1\" \"$2\")" }</code></pre>
 
-<p>The two snippets above, for Elisp and Zsh (or your shell),
-respectively, load two files into an Emacs buffer, oriented
-horizontally, and vertically, respectively.</p>
+<p>The two snippets above, for Elisp and Zsh (or your shell), respectively, load two files into an Emacs buffer, oriented horizontally, and vertically, respectively.</p>
 
-<p>So, to load &lsquo;~/test1.txt&lsquo; and &lsquo;~/test2.txt&lsquo; in Emacs, split windows,
-horizontally, run:</p>
+<p>So, to load <code>~/test1.txt</code> and <code>~/test2.txt</code> in Emacs, split windows, horizontally, run:</p>
 
-<p></p>
+<pre><code>$ ev ~/test1.txt ~/test2.txt</code></pre>
 
-<table cellspacing="0">
- <tbody>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt">$ ev ~/test1.txt ~/test2.txt</span></span></p></td></tr></tbody></table>
+<pre><code>(require 'server)
 
-<p></p>
+(unless (server-running-p)
+  (server-start))</code></pre>
 
-<table cellspacing="0">
- <tbody>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt">(require 'server)</span></span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt"></span></span><span class="hspace">&nbsp;</span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt">(unless (server-running-p)</span></span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="hspace">&nbsp;&nbsp;</span><span class="stt">(server-start))</span></span></p></td></tr></tbody></table>
+<p>This snippet runs the server instance, when it is not running, yet:</p>
 
-<p>This snippet runs the server instance, when it is not
-running, yet:</p>
+<pre><code>(defun kill-current-buffer ()
+  (interactive)
+  (kill-buffer (current-buffer)))
 
-<p></p>
-
-<table cellspacing="0">
- <tbody>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt">(defun kill-current-buffer ()</span></span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="hspace">&nbsp;&nbsp;</span><span class="stt">(interactive)</span></span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="hspace">&nbsp;&nbsp;</span><span class="stt">(kill-buffer (current-buffer)))</span></span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt"></span></span><span class="hspace">&nbsp;</span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt">(define-key global-map [(control ?x) (control ?k)] 'kill-current-buffer)</span></span></p></td></tr></tbody></table>
+(define-key global-map [(control ?x) (control ?k)] 'kill-current-buffer)</code></pre>
 
 <p>A lot of us have this, but this is my simple, unconvoluted version</p>
 
-<p></p>
+<pre><code>(defun mark-line (&amp;optional arg)
+  (interactive "p")
+  (if (not mark-active)
+      (progn
+        (beginning-of-line)
+        (push-mark)
+        (setq mark-active t)))
+  (forward-line arg))
 
-<table cellspacing="0">
- <tbody>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt">(defun mark-line (&amp;optional arg)</span></span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="hspace">&nbsp;&nbsp;</span><span class="stt">(interactive "p")</span></span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="hspace">&nbsp;&nbsp;</span><span class="stt">(if (not mark-active)</span></span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="stt">(progn</span></span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="stt">(beginning-of-line)</span></span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="stt">(push-mark)</span></span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="stt">(setq mark-active t)))</span></span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="hspace">&nbsp;&nbsp;</span><span class="stt">(forward-line arg))</span></span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt"></span></span><span class="hspace">&nbsp;</span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt">(define-key global-map [(shift ? )] 'mark-line)</span></span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt">(define-key global-map [(control ?z)] 'mark-line)</span></span></p></td></tr></tbody></table>
+(define-key global-map [(shift ? )] 'mark-line)
+(define-key global-map [(control ?z)] 'mark-line)</code></pre>
 
-<p>There have been plenty of times in the past when I needed this
-function, and I would have to press a long series of keystrokes just
-to get it down. The above is what I have, instead.</p>
+<p>There have been plenty of times in the past when I needed this function, and I would have to press a long series of keystrokes just to get it down. The above is what I have, instead.</p>
 
 <p>Well, that is it for now. Ciao!</p>
   <footer>
