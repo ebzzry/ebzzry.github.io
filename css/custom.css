@@ -17,6 +17,22 @@ pre {
     font-size: 14px;
 }
 
-tr {
-    line-height: 14px;
+/* tr { */
+/*     line-height: 14px; */
+/* } */
+
+table tr td:empty {
+    width: 50px;
+}
+
+table tr td,th {
+    /* padding-top: 10px; */
+    /* padding-bottom: 10px; */
+    /* padding-left: 10px; */
+    padding-right: 10px;
+}
+
+table caption {
+    font-weight: bold;
+    text-align: left;
 }
