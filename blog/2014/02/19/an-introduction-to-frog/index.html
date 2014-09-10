@@ -106,597 +106,241 @@
  <time datetime="2014-02-19" pubdate="true">2014-02-19</time> :: <span class="tags"><a href="/tags/racket.html">racket</a>, <a href="/tags/web.html">web</a></span></p>
   </header>
 
-<p>When publishing blog content to the web, most would rely on pre-fabricated
-services, that do most of the heavy lifting. However, there are instances when
-we want to have more control over our stuff. A good example of which are the
-constraints that providers enforce. Another is the presence of ads, or the use
-of freemium services, i.e., things can be done, only up to a certain visible
-limit.</p>
+<p>When publishing blog content to the web, most would rely on pre-fabricated services, that do most of the heavy lifting. However, there are instances when we want to have more control over our stuff. A good example of which are the constraints that providers enforce. Another is the presence of ads, or the use of freemium services, i.e., things can be done, only up to a certain visible limit.</p>
 
-<p>One may argue that all they need is a platform to blog with, and that they
-don&rsquo;t need the extra flexibility. While that is fine, some of us, including me,
-want to free from these shackles. I don&rsquo;t want ads on my site. I don&rsquo;t want
-surprise censorship. I don&rsquo;t want to pay for services that I can get for
-free. I want freedom. Now, if you&rsquo;re like me, then read on.</p>
+<p>One may argue that all they need is a platform to blog with, and that they don&rsquo;t need the extra flexibility. While that is fine, some of us, including me, want to free from these shackles. I don&rsquo;t want ads on my site. I don&rsquo;t want surprise censorship. I don&rsquo;t want to pay for services that I can get for free. I want freedom. Now, if you&rsquo;re like me, then read on.</p>
+<!-- more-->
 
-<p>&lt;!&ndash; more &ndash;&gt;</p>
+<h1 id="introduction">Introduction</h1>
 
-<h1>1
- <tt>&nbsp;</tt><a name="(part._.Introduction)"></a>Introduction</h1>
+<p>When I was looking for tools to create this blog, I became dissatisfied with most of the mainstream options. Some are the just too difficult to setup, while some are lacking in features. I became frustrated because each end of the spectrum forces me to use something that is extremely mediocre in at least one critical aspect. Fortunately, I found <a href="http://github.com/greghendershott/frog">Frog</a>, via a suggestion on #racket.</p>
 
-<p>When I was looking for tools to create this blog, I became dissatisfied with
-most of the mainstream options. Some are the just too difficult to setup, while
-some are lacking in features. I became frustrated because each end of the
-spectrum forces me to use something that is extremely mediocre in at least one
-critical aspect. Fortunately, I found
-<a href="http://github.com/greghendershott/frog">Frog</a>, via a suggestion
-on #racket.</p>
-
-<p>Frog, in layman&rsquo;s terms, is a site creator, that is very easy to use,
-configure, and customize. Whatever you write, will appear on your blog &ndash; you
-get what you expect. There are no weird terms of use, nor arbitrary limits, nor
-coercion &ndash; it&rsquo;s very close to full control, at the tip of your fingertips.</p>
+<p>Frog, in layman&rsquo;s terms, is a site creator, that is very easy to use, configure, and customize. Whatever you write, will appear on your blog &mdash; you get what you expect. There are no weird terms of use, nor arbitrary limits, nor coercion &mdash; it&rsquo;s very close to full control, at the tip of your fingertips.</p>
 
 <p>Frog operates somewhere in the middle. That is, it looks like this:</p>
 
-<p></p>
+<pre><code>Raw content -&gt; Frog -&gt; HTML</code></pre>
 
-<table cellspacing="0">
- <tbody>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt">Raw content -&gt; Frog -&gt; HTML</span></span></p></td></tr></tbody></table>
+<p>Where raw content is either Markdown, Scribble, or HTML source files, or a combination of all. Frog takes in those input files, and it outputs nice HTML that you can upload to your web server. Easy? No, it&rsquo;s even easier that it sounds.</p>
 
-<p>Where raw content is either Markdown, Scribble, or HTML source files, or a
-combination of all. Frog takes in those input files, and it outputs nice HTML
-that you can upload to your web server. Easy? No, it&rsquo;s even easier that it
-sounds.</p>
+<h1 id="installation">Installation</h1>
 
-<h1>2
- <tt>&nbsp;</tt><a name="(part._.Installation)"></a>Installation</h1>
+<p>In the succeeding sections, let&rsquo;s presume that your username is <code>john</code>, and your home directory is <code>/home/john/</code>.</p>
 
-<p>In the succeeding sections, let&rsquo;s presume that your username is
-<span class="stt">john</span>, and your home directory is <span class="stt">/home/john/</span>.</p>
+<p>To install Frog, we need to install Racket, first. Chances are, your package manager already has it. To install Racket on Debian, run:</p>
 
-<p>To install Frog, we need to install Racket, first. Chances are, your package
-manager already has it. To install Racket on Debian, run:</p>
+<pre><code>$ sudo apt-get install racket</code></pre>
 
-<p></p>
-
-<table cellspacing="0">
- <tbody>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt">$ sudo apt-get install racket</span></span></p></td></tr></tbody></table>
-
-<p>In the unlikely event that it can&rsquo;t be installed using your package manager, go
-to <a href="http://racket-lang.org/download/">racket-lang.org/download/</a>, then follow the instructions from there.</p>
+<p>In the unlikely event that it can&rsquo;t be installed using your package manager, go to <a href="http://racket-lang.org/download/">racket-lang.org/download/</a> , then follow the instructions from there.</p>
 
 <p>Next, we need to install Frog.</p>
 
-<p></p>
+<pre><code>$ raco pkg install frog</code></pre>
 
-<table cellspacing="0">
- <tbody>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt">$ raco pkg install frog</span></span></p></td></tr></tbody></table>
+<p>After which, you&rsquo;ll get the <code>raco frog</code> command. Let&rsquo;s display its help options:</p>
 
-<p>After which, you&rsquo;ll get the <span class="stt">raco frog</span> command. Let&rsquo;s display its help
-options:</p>
+<pre><code>$ raco frog -h</code></pre>
 
-<p></p>
+<h1 id="first-use">First Use</h1>
 
-<table cellspacing="0">
- <tbody>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt">$ raco frog -h</span></span></p></td></tr></tbody></table>
+<p>Sweet. Now that we have Frog installed, let&rsquo;s get rolling. To create your first Frog-powered website, we&rsquo;ll create a project directory first:</p>
 
-<h1>3
- <tt>&nbsp;</tt><a name="(part._.First_.Use)"></a>First Use</h1>
-
-<p>Sweet. Now that we have Frog installed, let&rsquo;s get rolling. To create your first
-Frog-powered website, we&rsquo;ll create a project directory first:</p>
-
-<p></p>
-
-<table cellspacing="0">
- <tbody>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt">$ mkdir blog</span></span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt">$ cd blog</span></span></p></td></tr></tbody></table>
+<pre><code>$ mkdir blog
+$ cd blog</code></pre>
 
 <p>We&rsquo;ll then fire the spark plug, to initialize the site repository:</p>
 
-<p></p>
+<pre><code>$ raco frog --init</code></pre>
 
-<table cellspacing="0">
- <tbody>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt">$ raco frog --init</span></span></p></td></tr></tbody></table>
+<p>You&rsquo;ll see a message saying that your website is ready. Let&rsquo;s follow the suggested command:</p>
 
-<p>You&rsquo;ll see a message saying that your website is ready. Let&rsquo;s follow the
-suggested command:</p>
+<pre><code>$ raco frog -bp</code></pre>
 
-<p></p>
+<p>What that command does is that it builds the HTML files from the sample source files created with the <code>--init</code> switch, then it runs a local web server, serving by default, the location <a href="http://localhost:3000">http://localhost:3000</a>. Frog will then open a new browser tab, or window, pointing to that URL. The page that you&rsquo;ll see contains the default site layout. When you&rsquo;re OK with it, let&rsquo;s go back to the terminal, and kill that process by hitting <code>C-c</code>.</p>
 
-<table cellspacing="0">
- <tbody>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt">$ raco frog -bp</span></span></p></td></tr></tbody></table>
-
-<p>What that command does is that it builds the HTML files from the sample source
-files created with the <span class="stt"></span><span class="stt">&ndash;</span><span class="stt">init</span> switch, then it runs a local web server,
-serving by default, the location http://localhost:3000. Frog will then open a
-new browser tab, or window, pointing to that URL. The page that you&rsquo;ll see
-contains the default site layout. When you&rsquo;re OK with it, let&rsquo;s go back to the
-terminal, and kill that process by hitting <span class="stt">C-c</span>.</p>
-
-<h1>4
- <tt>&nbsp;</tt><a name="(part._.Creating_.New_.Posts)"></a>Creating New Posts</h1>
+<h1 id="creating-new-posts">Creating New Posts</h1>
 
 <p>Creating a new article from scratch is another easy task:</p>
 
-<p></p>
+<pre><code>$ raco frog -n "New Blog Post."</code></pre>
 
-<table cellspacing="0">
- <tbody>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt">$ raco frog -n "New Blog Post."</span></span></p></td></tr></tbody></table>
+<p>What it does is that it creates a Markdown file, relative to the current directory, with the format <code>_src/posts/YYYY-MM-DD-post-title.md</code>. With the command above, the absolute path would be similar to:</p>
 
-<p>What it does is that it creates a Markdown file, relative to the current
-directory, with the format <span class="stt">_src/posts/YYYY-MM-DD-post-title.md</span>. With the
-command above, the absolute path would be similar to:</p>
-
-<p></p>
-
-<table cellspacing="0">
- <tbody>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt">/home/john/blog/_src/posts/2014-02-21-new-blog-post.md</span></span></p></td></tr></tbody></table>
+<pre><code>/home/john/blog/_src/posts/2014-02-21-new-blog-post.md</code></pre>
 
 <p>Let&rsquo;s edit that file, and see how it looks like:</p>
 
-<p></p>
+<pre><code>$ emacs _src/posts/2014-02-21-new-blog-post.md</code></pre>
 
-<table cellspacing="0">
- <tbody>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt">$ emacs _src/posts/2014-02-21-new-blog-post.md</span></span></p></td></tr></tbody></table>
+<pre><code>    Title: New Blog Post
+    Date: 2014-02-21T18:53:42
+    Tags: DRAFT
 
-<p></p>
+_Replace this with your post text. Add one or more comma-separated
+Tags above. The special tag `DRAFT` will prevent the post from being
+published._
 
-<table cellspacing="0">
- <tbody>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt">#lang scribble/text</span></span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="stt">Title: New Blog Post</span></span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="stt">Date: 2014-02-21T18:53:42</span></span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="stt">Tags: DRAFT</span></span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt"></span></span><span class="hspace">&nbsp;</span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt">_Replace this with your post text. Add one or more comma-separated</span></span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt">Tags above. The special tag `DRAFT` will prevent the post from being</span></span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt">published._</span></span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt"></span></span><span class="hspace">&nbsp;</span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt">&lt;!-- more --&gt;</span></span></p></td></tr></tbody></table>
+&lt;!-- more --&gt;</code></pre>
 
-<p>Bear in mind that this file, was created for us, by the command <span class="stt">raco frog
--n ...</span>. The first three lines contains metadata about our post. They&rsquo;re the
-post title, date of creation, and tags, respectively. The date was picked up
-from the the <span class="stt">-n</span> switch that was issued, earlier. The <span style="font-style: italic">Tags</span> field,
-contains a comma-separated list of words, that Frog would later identify the
-post with. When the case-sensitive tag <span style="font-style: italic">DRAFT</span> is used, the file will be
-skipped during the build phase.</p>
+<p>Bear in mind that this file, was created for us, by the command <code>raco frog
+-n ...</code>. The first three lines contains metadata about our post. They&rsquo;re the post title, date of creation, and tags, respectively. The date was picked up from the the <code>-n</code> switch that was issued, earlier. The <code>Tags</code> field, contains a comma-separated list of words, that Frog would later identify the post with. When the case-sensitive tag <code>DRAFT</code> is used, the file will be skipped during the build phase.</p>
 
-<p>Four spaces must be prefixed, prior, to those three lines, followed by an empty
-line. The rest will be the actual article content, in Markdown format. When a
-line by its own contain just the text <span class="stt">&lt;!</span><span class="stt">&ndash;</span><span class="stt"> more </span><span class="stt">&ndash;</span><span class="stt">&gt;</span>, that line will be
-replaced by a hyperlink in the final HTML form, that will point to the rest of
-the article. That means, all text, after the <span class="stt">&lt;!</span><span class="stt">&ndash;</span><span class="stt"> more </span><span class="stt">&ndash;</span><span class="stt">&gt;</span> line will not
-appear in the blog index, but will appear in the link for the whole post.</p>
+<p>Four spaces must be prefixed, prior, to those three lines, followed by an empty line. The rest will be the actual article content, in Markdown format. When a line by its own contain just the text <code>&lt;!-- more --&gt;</code>, that line will be replaced by a hyperlink in the final HTML form, that will point to the rest of the article. That means, all text, after the <code>&lt;!-- more --&gt;</code> line will not appear in the blog index, but will appear in the link for the whole post.</p>
 
 <p>Let&rsquo;s say we change that file to look something like the following:</p>
 
-<p></p>
+<pre><code>    Title: New Blog Post
+    Date: 2014-02-21T18:53:42
+    Tags: arts, history
 
-<table cellspacing="0">
- <tbody>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="stt">Title: New Blog Post</span></span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="stt">Date: 2014-02-21T18:53:42</span></span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="hspace">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="stt">Tags: arts, history</span></span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt"></span></span><span class="hspace">&nbsp;</span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque</span></span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt">volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh,</span></span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt">viverra non, semper suscipit, posuere a, pede.</span></span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt"></span></span><span class="hspace">&nbsp;</span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt">&lt;!-- more --&gt;</span></span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt"></span></span><span class="hspace">&nbsp;</span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt">Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit</span></span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt">amet orci. Aenean dignissim pellentesque felis.</span></span></p></td></tr></tbody></table>
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque
+volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh,
+viverra non, semper suscipit, posuere a, pede.
+
+&lt;!-- more --&gt;
+
+Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit
+amet orci. Aenean dignissim pellentesque felis.</code></pre>
 
 <p>Then, run the build command, again:</p>
 
-<p></p>
+<pre><code>$ raco frog -bp</code></pre>
 
-<table cellspacing="0">
- <tbody>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt">$ raco frog -bp</span></span></p></td></tr></tbody></table>
+<p>We now have two posts, as displayed in the index. To remove the auto-generated initial post, that was created by the command <code>raco frog --init</code>, earlier, run:</p>
 
-<p>We now have two posts, as displayed in the index. To remove the auto-generated
-initial post, that was created by the command <span class="stt">raco frog </span><span class="stt">&ndash;</span><span class="stt">init</span>, earlier,
-run:</p>
-
-<p></p>
-
-<table cellspacing="0">
- <tbody>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt">$ rm -f _src/posts/2012-01-01-a-2012-blog-post.md</span></span></p></td></tr></tbody></table>
+<pre><code>$ rm -f _src/posts/2012-01-01-a-2012-blog-post.md</code></pre>
 
 <p>Then, rebuild the files:</p>
 
-<p></p>
+<pre><code>$ raco frog -bp</code></pre>
 
-<table cellspacing="0">
- <tbody>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt">$ raco frog -bp</span></span></p></td></tr></tbody></table>
+<h1 id="customizations">Customizations</h1>
 
-<h1>5
- <tt>&nbsp;</tt><a name="(part._.Customizations)"></a>Customizations</h1>
+<p>By this time, you&rsquo;re really itching to customize the site. Yep, that&rsquo;s what we&rsquo;re going to do in this section.</p>
 
-<p>By this time, you&rsquo;re really itching to customize the site. Yep, that&rsquo;s what
-we&rsquo;re going to do in this section.</p>
-
-<p>At the basic level, there are three files that we are going to modify, to make
-our initial changes:</p>
+<p>At the basic level, there are three files that we are going to modify, to make our initial changes:</p>
 
 <ul>
- <li>
-  <p>.frogrc</p></li>
- <li>
-  <p>_src/page-template.html</p></li>
- <li>
-  <p>_src/post-template.html</p></li>
- <li>
-  <p>css/bootstrap.css</p></li>
- <li>
-  <p>css/bootstrap.min.css</p></li></ul>
+ <li>.frogrc</li>
+ <li>_src/page-template.html</li>
+ <li>_src/post-template.html</li>
+ <li>css/bootstrap.css</li>
+ <li>css/bootstrap.min.css</li></ul>
 
 <p>Let&rsquo;s examine each of the files in the list, closer.</p>
 
-<h2>5.1
- <tt>&nbsp;</tt><a name="(part.__frogrc)"></a>.frogrc</h2>
+<h2 id="frogrc">.frogrc</h2>
 
-<p>This file is where top-level customizations are made. Open the file
-<span class="stt">.frogrc</span>, located in the current directory:</p>
+<p>This file is where top-level customizations are made. Open the file <code>.frogrc</code>, located in the current directory:</p>
 
-<p></p>
+<pre><code>$ emacs .frogrc</code></pre>
 
-<table cellspacing="0">
- <tbody>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt">$ emacs .frogrc</span></span></p></td></tr></tbody></table>
-
-<p>You&rsquo;ll notice that there are more than a dozen parameters that can be
-tweaked. But for now, we&rsquo;re only concerned about three parameters:</p>
+<p>You&rsquo;ll notice that there are more than a dozen parameters that can be tweaked. But for now, we&rsquo;re only concerned about three parameters:</p>
 
 <ul>
- <li>
-  <p>scheme/host</p></li>
- <li>
-  <p>title</p></li>
- <li>
-  <p>author</p></li></ul>
+ <li>scheme/host</li>
+ <li>title</li>
+ <li>author</li></ul>
 
-<p><span class="stt">scheme/host</span> should
-contain the (sub)domain to which you&rsquo;ll be publishing your work
-later, <span class="stt">title</span> is the name of your blog, and <span class="stt">author</span> is your name.</p>
+<p><code>scheme/host</code> should contain the (sub)domain to which you&rsquo;ll be publishing your work later, <code>title</code> is the name of your blog, and <code>author</code> is your name.</p>
 
-<h2>5.2
- <tt>&nbsp;</tt><a name="(part._page-template_html)"></a>page-template.html</h2>
+<h2 id="page-templatehtml">page-template.html</h2>
 
-<p>This file contains the common content, across all types of pages, whether they
-are blog or non-blog posts. Open the file <span class="stt">_src/page-template.html</span>, located
-in the current directory:</p>
+<p>This file contains the common content, across all types of pages, whether they are blog or non-blog posts. Open the file <code>_src/page-template.html</code>, located in the current directory:</p>
 
-<p></p>
+<pre><code>$ emacs _src/page-template.html</code></pre>
 
-<table cellspacing="0">
- <tbody>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt">$ emacs _src/page-template.html</span></span></p></td></tr></tbody></table>
-
-<p>You&rsquo;ll see an even bigger file, compared to .frogrc. This is an special HTML
-file, that contains Racket, and Frog-specific code. It will be used as a basis
-for all pages that you&rsquo;ll create with Frog. There are plenty of parameters
-here, but we&rsquo;ll just tweak some that are most usable to us, at the
-moment. To make it easier, I&rsquo;ll just list down the items to search and
-replace for:</p>
+<p>You&rsquo;ll see an even bigger file, compared to .frogrc. This is an special HTML file, that contains Racket, and Frog-specific code. It will be used as a basis for all pages that you&rsquo;ll create with Frog. There are plenty of parameters here, but we&rsquo;ll just tweak some that are most usable to us, at the moment. To make it easier, I&rsquo;ll just list down the items to search and replace for:</p>
 
 <ul>
- <li>
-  <p>The Unknown Blogger</p></li>
- <li>
-  <p>My Blog Brand</p></li>
- <li>
-  <p>Welcome</p></li>
- <li>
-  <p>Your legal notice here</p></li></ul>
+ <li>The Unknown Blogger</li>
+ <li>My Blog Brand</li>
+ <li>Welcome</li>
+ <li>Your legal notice here</li></ul>
 
-<p>When you get to those respective sections, it should evident what to replace
-them with.</p>
+<p>When you get to those respective sections, it should evident what to replace them with.</p>
 
-<h2>5.3
- <tt>&nbsp;</tt><a name="(part._post-template_html)"></a>post-template.html</h2>
+<h2 id="post-templatehtml">post-template.html</h2>
 
-<p>Similar to <span class="stt">page-template.html</span>, but this file contains content that will
-only appear with blog posts. It is also Perhaps the easiest file to modify is
-<span class="stt">_src/post-template.html</span>. Let&rsquo;s open it:</p>
+<p>Similar to <code>page-template.html</code>, but this file contains content that will only appear with blog posts. It is also Perhaps the easiest file to modify is <code>_src/post-template.html</code>. Let&rsquo;s open it:</p>
 
-<p></p>
+<pre><code>$ emacs _src/post-template.html</code></pre>
 
-<table cellspacing="0">
- <tbody>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt">$ emacs _src/post-template.html</span></span></p></td></tr></tbody></table>
+<p>For now, you only need to modify the text <code>shortname</code>. It is the identifier that links the comments section of your blog posts, to the aforesaid Disqus account. More about this will be discussed in the section <strong>Comments</strong>.</p>
 
-<p>For now, you only need to modify the text <span class="stt">shortname</span>. It is the
-identifier that links the comments section of your blog posts, to the aforesaid
-Disqus account. More about this will be discussed in the section
-<span style="font-weight: bold">Comments</span>.</p>
+<h2 id="bootstrapcss-and-bootstrapmincss">bootstrap.css and bootstrap.min.css</h2>
 
-<h2>5.4
- <tt>&nbsp;</tt><a name="(part._bootstrap_css_and_bootstrap_min_css)"></a>bootstrap.css and bootstrap.min.css</h2>
+<p>These two files are responsible for what is commonly called as &ldquo;theme&rdquo; &mdash; it controls the look of the site. To change these files, let&rsquo;s head over to <a href="http://bootswatch.com/">bootswatch.com</a>, then let&rsquo;s select a theme we like. Let&rsquo;s presume that we want to download the <em>Cerulean</em> theme. Click the dropdown box arrow, next to the download link, for that theme. Select and download both <code>bootstrap.min.css</code> and <code>bootstrap.css</code>. After which, copy them over to the css subdirectory <code>css/</code>.</p>
 
-<p>These two files are responsible for what is commonly called as "theme" &ndash; it
-controls the look of the site. To change these files, let&rsquo;s head over to
-<a href="http://bootswatch.com/">bootswatch.com</a>, then let&rsquo;s select a
-theme we like. Let&rsquo;s presume that we want to download the <span style="font-style: italic">Cerulean</span>
-theme. Click the dropdown box arrow, next to the download link, for that
-theme. Select and download both <span class="stt">bootstrap.min.css</span> and
-<span class="stt">bootstrap.css</span>. After which, copy them over to the css subdirectory
-<span class="stt">css/</span>.</p>
+<pre><code>$ cp ~/Downloads/bootstrap.*.css css/</code></pre>
 
-<p></p>
-
-<table cellspacing="0">
- <tbody>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt">$ cp ~/Downloads/bootstrap.*.css css/</span></span></p></td></tr></tbody></table>
-
-<h1>6
- <tt>&nbsp;</tt><a name="(part._.Miscellany)"></a>Miscellany</h1>
+<h1 id="miscellany">Miscellany</h1>
 
 <p>When we created a new post earlier, we used the following command:</p>
 
-<p></p>
+<pre><code>raco frog -n "New Blog Post"</code></pre>
 
-<table cellspacing="0">
- <tbody>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt">raco frog -n "New Blog Post"</span></span></p></td></tr></tbody></table>
+<p>That command, creates a Markdown source file. Frog, however, has another mode &mdash; Scribble. This mode lets you use a Scribble source file, instead. To create one, we&rsquo;ll use the following command:</p>
 
-<p>That command, creates a Markdown source file. Frog, however, has another mode
-&ndash; Scribble. This mode lets you use a Scribble source file, instead. To create
-one, we&rsquo;ll use the following command:</p>
+<pre><code>raco frog -N "New Blog Post"</code></pre>
 
-<p></p>
+<p>Had you used this command earlier, the file will have the format <code>_src/posts/YYYY-MM-DD-post-title.md</code>. With the command above, the absolute path would look like:</p>
 
-<table cellspacing="0">
- <tbody>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt">raco frog -N "New Blog Post"</span></span></p></td></tr></tbody></table>
-
-<p>Had you used this command earlier, the file will have the format
-<span class="stt">_src/posts/YYYY-MM-DD-post-title.md</span>. With the command above, the
-absolute path would look like:</p>
-
-<p></p>
-
-<table cellspacing="0">
- <tbody>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt">/home/john/blog/_src/posts/2014-02-21-new-blog-post.scrbl</span></span></p></td></tr></tbody></table>
+<pre><code>/home/john/blog/_src/posts/2014-02-21-new-blog-post.scrbl</code></pre>
 
 <p>Again, let&rsquo;s edit that file, and see how it looks like:</p>
 
-<p></p>
+<pre><code>emacs _src/posts/2014-02-21-new-blog-post.scrbl</code></pre>
 
-<table cellspacing="0">
- <tbody>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt">emacs _src/posts/2014-02-21-new-blog-post.scrbl</span></span></p></td></tr></tbody></table>
+<pre><code>#lang scribble/manual
 
-<p></p>
+Title: New Blog Post
+Date: 2014-02-21T18:53:42
+Tags: DRAFT
 
-<table cellspacing="0">
- <tbody>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt">#lang scribble/manual</span></span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt"></span></span><span class="hspace">&nbsp;</span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt">Title: New Blog Post</span></span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt">Date: 2014-02-21T18:53:42</span></span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt">Tags: DRAFT</span></span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt"></span></span><span class="hspace">&nbsp;</span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt">Replace this with your post text. Add one or more comma-separated</span></span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt">Tags above. The special tag `DRAFT` will prevent the post from being</span></span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt">published.</span></span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt"></span></span><span class="hspace">&nbsp;</span></p></td></tr>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt">&lt;!-- more --&gt;</span></span></p></td></tr></tbody></table>
+Replace this with your post text. Add one or more comma-separated
+Tags above. The special tag `DRAFT` will prevent the post from being
+published.
 
-<p>They&rsquo;re mostly the same, except with the addition of the language specifier,
-<span class="stt">#lang scribble/manual</span>, and the absence of the prefix spaces for the
-metadata fields.</p>
+&lt;!-- more --&gt;</code></pre>
 
-<h1>7
- <tt>&nbsp;</tt><a name="(part._.Comments)"></a>Comments</h1>
+<p>They&rsquo;re mostly the same, except with the addition of the language specifier, <code>#lang scribble/manual</code>, and the absence of the prefix spaces for the metadata fields.</p>
 
-<p>Frog makes use of <a href="http://disqus.com">Disqus</a> to handle its
-comments. To use it, create an account at
-<a href="https://disqus.com/profile/signup/?next=http%3A//disqus.com/">disqus.com/profile/signup/</a>.</p>
+<h1 id="comments">Comments</h1>
 
-<p>When you already have your account, go to
-<a href="http://disqus.com/admin/create/">disqus.com/admin/create/</a>
-to create a site, which will have an alias called a <span style="font-style: italic">shortname</span>. The
-<span style="font-style: italic">shorname</span> is what you&rsquo;ll register with Disqus to uniquely identify your
-website. So, if you chose, for example, <span class="stt">foobar</span>, as the shortname for the
-site, you may then access <a href="http://foobar.disqus.com">foobar.disqus.com</a> to manage the comments for that site. The shortname
-mentioned here, is what you&rsquo;ll use in the file <span class="stt">_src/post-template.html</span>,
-as discussed above.</p>
+<p>Frog makes use of <a href="http://disqus.com">Disqus</a> to handle its comments. To use it, create an account at <a href="https://disqus.com/profile/signup/?next=http%3A//disqus.com/">disqus.com/profile/signup/</a>.</p>
 
-<p>To import comments, from an existing blog, to Disqus, go to
-<a href="http://import.disqus.com">import.disqus.com</a>.</p>
+<p>When you already have your account, go to <a href="http://disqus.com/admin/create/">disqus.com/admin/create/</a> to create a site, which will have an alias called a <em>shortname</em>. The <em>shorname</em> is what you&rsquo;ll register with Disqus to uniquely identify your website. So, if you chose, for example, <code>foobar</code>, as the shortname for the site, you may then access <a href="http://foobar.disqus.com">foobar.disqus.com</a> to manage the comments for that site. The shortname mentioned here, is what you&rsquo;ll use in the file <code>_src/post-template.html</code>, as discussed above.</p>
 
-<h1>8
- <tt>&nbsp;</tt><a name="(part._.Show_.Time)"></a>Show Time</h1>
+<p>To import comments, from an existing blog, to Disqus, go to <a href="http://import.disqus.com">import.disqus.com</a>.</p>
 
-<p>To publish your work, upload the contents of the directory that Frog
-manages; in this tutorial, it is the directory <span class="stt">/home/john/blog</span>, to your
-remote web server. If the current directory is <span class="stt">blog/</span>, and we want to
-send the files via rsync, the command would look like:</p>
+<h1 id="show-time">Show Time</h1>
 
-<p></p>
+<p>To publish your work, upload the contents of the directory that Frog manages; in this tutorial, it is the directory <code>/home/john/blog</code>, to your remote web server. If the current directory is <code>blog/</code>, and we want to send the files via rsync, the command would look like:</p>
 
-<table cellspacing="0">
- <tbody>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt">$ rsync -avz ./ remotehost:public_html</span></span></p></td></tr></tbody></table>
+<pre><code>$ rsync -avz ./ remotehost:public_html</code></pre>
 
-<p>The directory <span class="stt">public_html</span> could be something else, I just used it
-because it is the default with Apache.</p>
+<p>The directory <code>public_html</code> could be something else, I just used it because it is the default with Apache.</p>
 
-<p>However, if you don&rsquo;t have a remote host that you can upload your work to, via
-rsync, and you use <a href="http://git-scm.com">Git</a>, you can use the free
-hosting service of <a href="http://pages.github.com">GitHub Pages</a>. If you
-don&rsquo;t have a <a href="http://github.com">GitHub</a> account yet, you may go
-to <a href="http://github.com">github.com</a> to create one. To use, GitHub
-Pages, create a repository named <span class="stt">USERNAME.github.io</span>. So, if your
-username is <span class="stt">johndoe</span>, the repository that you need to create should be
-named <span class="stt">johndoe.github.io</span>.</p>
+<p>However, if you don&rsquo;t have a remote host that you can upload your work to, via rsync, and you use <a href="http://git-scm.com">Git</a>, you can use the free hosting service of <a href="http://pages.github.com">GitHub Pages</a>. If you don&rsquo;t have a GitHub account yet, you may go to <a href="http://github.com">GitHub</a> to create one. To use, GitHub Pages, create a repository named <code>USERNAME.github.io</code>. So, if your username is <code>johndoe</code>, the repository that you need to create should be named <code>johndoe.github.io</code>.</p>
 
-<p>To publish your work to GitHub Pages, we first need to add that remote
-repository:</p>
+<p>To publish your work to GitHub Pages, we first need to add that remote repository:</p>
 
-<p></p>
-
-<table cellspacing="0">
- <tbody>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt">$ git remote add origin git@github.com:johndoe/johndoe.github.io.git</span></span></p></td></tr></tbody></table>
+<pre><code>$ git remote add origin git@github.com:johndoe/johndoe.github.io.git</code></pre>
 
 <p>Then we push the commits:</p>
 
-<p></p>
-
-<table cellspacing="0">
- <tbody>
-  <tr>
-   <td>
-    <p><span class="stt"><span class="stt">$ git push origin master</span></span></p></td></tr></tbody></table>
+<pre><code>$ git push origin master</code></pre>
 
 <p>To view your website, go to <a href="http://johndoe.github.io">johndoe.github.io</a>.</p>
 
-<h1>9
- <tt>&nbsp;</tt><a name="(part._.Notes)"></a>Notes</h1>
+<h1 id="notes">Notes</h1>
 
-<p><a href="https://github.com/greghendershott/frog">Frog</a> is a viable and
-usable site creator. It is easy-to-use, highly configurable, flexible, and yes,
-open source. It gives control, back to the author.</p>
+<p><a href="https://github.com/greghendershott/frog">Frog</a> is a viable and usable site creator. It is easy-to-use, highly configurable, flexible, and yes, open source. It gives control, back to the author.</p>
 
-<p>Frog was created by <a href="http://www.greghendershott.com/">Greg
-Hendershott</a>. If you want to learn more about it, head over to
-<a href="http://github.com/greghendershott/frog">github.com/greghendershott/frog</a>. To report bugs, go to
-<a href="https://github.com/greghendershott/frog/issues">github.com/greghendershott/frog/issues</a>.</p>
+<p>Frog was created by <a href="http://www.greghendershott.com/">Greg Hendershott</a>. If you want to learn more about it, head over to <a href="http://github.com/greghendershott/frog">github.com/greghendershott/frog</a>. To report bugs, go to <a href="https://github.com/greghendershott/frog/issues">github.com/greghendershott/frog/issues</a>.</p>
 
-<p><span style="font-style: italic">Ribbit!</span></p>
+<p><strong>Ribbit!</strong></p>
   <footer>
     <script type="text/javascript">
       !function(d,s,id){
