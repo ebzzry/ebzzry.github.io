@@ -14,373 +14,146 @@
   <author>
    <name>Rommel Martinez</name></author>
   <content type="html">&lt;html&gt;
-&lt;p&gt;How many times have we experienced hindsight, after a catastrophic event has
-happened? how many times have we told ourselves that had we created backups of
-our precious data, we wouldn&amp;rsquo;t be in that dire situation, pulling our hairs out
-like a maniac?&lt;/p&gt;
+&lt;p&gt;How many times have we experienced hindsight, after a catastrophic event has happened? how many times have we told ourselves that had we created backups of our precious data, we wouldn&amp;rsquo;t be in that dire situation, pulling our hairs out like a maniac?&lt;/p&gt;
 
-&lt;p&gt;Most of us have been there &amp;ndash; we lost our precious files due inadvertent
-causes. We lost them because of disk crash, data corruption, security breach,
-and other reasons. But had we created a fallback, a big, safe foam that we can
-land on, it wouldn&amp;rsquo;t have been a lot of trouble, and heart ache. On the flip
-side, creating and managing backups can be daunting, and equally dangerous.&lt;/p&gt;
+&lt;p&gt;Most of us have been there &amp;mdash; we lost our precious files due inadvertent causes. We lost them because of disk crash, data corruption, security breach, and other reasons. But had we created a fallback, a big, safe foam that we can land on, it wouldn&amp;rsquo;t have been a lot of trouble, and heart ache. On the flip side, creating and managing backups can be daunting, and equally dangerous.&lt;/p&gt;
 
-&lt;p&gt;In this post, we&amp;rsquo;ll talk about
-&lt;a href="http://www.kitten-technologies.co.uk/project/ugarit/doc/trunk/README.wiki"&gt;Ugarit&lt;/a&gt;, a nice piece of technology, that combines ease-of-use, and security,
-in a single tool.&lt;/p&gt;
+&lt;p&gt;In this post, we&amp;rsquo;ll talk about &lt;a href="http://www.kitten-technologies.co.uk/project/ugarit/doc/trunk/README.wiki"&gt;Ugarit&lt;/a&gt; , a nice piece of technology, that combines ease-of-use, and security, in a single tool.&lt;/p&gt;
+&lt;!-- more--&gt;
 
-&lt;p&gt;&amp;lt;!&amp;ndash; more &amp;ndash;&amp;gt;&lt;/p&gt;
+&lt;h1 id="introduction"&gt;Introduction&lt;/h1&gt;
 
-&lt;h1&gt;1
- &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Introduction)"&gt;&lt;/a&gt;Introduction&lt;/h1&gt;
+&lt;p&gt;Ugarit is a classic example of a tool, that requires minimal setup and configuration, but is used many times. That once the initial tinkering is done, all we need to do is reuse the tool. But that isn&amp;rsquo;t Ugarit&amp;rsquo;s main strength &amp;mdash; it is the almost unholy marriage of convenience and security.&lt;/p&gt;
 
-&lt;p&gt;Ugarit is a classic example of a tool, that requires minimal setup and
-configuration, but is used many times. That once the initial tinkering is done,
-all we need to do is reuse the tool. But that isn&amp;rsquo;t Ugarit&amp;rsquo;s main strength &amp;ndash;
-it is the almost unholy marriage of convenience and security.&lt;/p&gt;
+&lt;p&gt;Most, if not all the time, convenience is inversely proportional to security. That is, the more convenient something is, the less secure it is. With Ugarit, creating and managing backups is as easy as typing a short command.&lt;/p&gt;
 
-&lt;p&gt;Most, if not all the time, convenience is inversely proportional to
-security. That is, the more convenient something is, the less secure it
-is. With Ugarit, creating and managing backups is as easy as typing a short
-command.&lt;/p&gt;
+&lt;h1 id="installation"&gt;Installation&lt;/h1&gt;
 
-&lt;h1&gt;2
- &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Installation)"&gt;&lt;/a&gt;Installation&lt;/h1&gt;
+&lt;p&gt;First, we need to install &lt;a href="http://www.call-cc.org/"&gt;Chicken&lt;/a&gt;. Most likely, it can be installed via your package manager:&lt;/p&gt;
 
-&lt;p&gt;First, we need to install &lt;a href="http://www.call-cc.org/"&gt;Chicken&lt;/a&gt;. Most
-likely, it can be installed via your package manager:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ sudo apt-get install chicken-bin&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;/p&gt;
-
-&lt;table cellspacing="0"&gt;
- &lt;tbody&gt;
-  &lt;tr&gt;
-   &lt;td&gt;
-    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ sudo apt-get install chicken-bin&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-
-&lt;p&gt;If it isn&amp;rsquo;t available on your system, you may download it from
-&lt;a href="http://code.call-cc.org/"&gt;code.call-cc.org&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;If it isn&amp;rsquo;t available on your system, you may download it from &lt;a href="http://code.call-cc.org/"&gt;code.call-cc.org&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;After Chicken is installed, let&amp;rsquo;s install Ugarit itself, and some dependencies:&lt;/p&gt;
 
-&lt;p&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ chicken-install -s ugarit tiger-hash aes&lt;/code&gt;&lt;/pre&gt;
 
-&lt;table cellspacing="0"&gt;
- &lt;tbody&gt;
-  &lt;tr&gt;
-   &lt;td&gt;
-    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ chicken-install -s ugarit tiger-hash aes&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;p&gt;After this command completes, the command &lt;code&gt;ugarit&lt;/code&gt; will become available. To display command-line help:&lt;/p&gt;
 
-&lt;p&gt;After this command completes, the command &lt;span class="stt"&gt;ugarit&lt;/span&gt; will become
-available. To display command-line help:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ ugarit -h&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;/p&gt;
+&lt;h1 id="configuration"&gt;Configuration&lt;/h1&gt;
 
-&lt;table cellspacing="0"&gt;
- &lt;tbody&gt;
-  &lt;tr&gt;
-   &lt;td&gt;
-    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ ugarit -h&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;p&gt;Ugarit at this point isn&amp;rsquo;t usable yet &amp;mdash; we need to specify where will it store the snapshots. When creating a snapshot of a directory several terabytes big, it is ideal to store the data on a fast, reliable, stress-tolerant disk. It is not uncommon for the command &lt;code&gt;ls&lt;/code&gt; to experience a noticeable lag when ran inside the data directory. Let&amp;rsquo;s presume that &lt;code&gt;/dev/sdb1&lt;/code&gt; is a large filesystem and we want to mount it to &lt;code&gt;/ugarit/&lt;/code&gt;.&lt;/p&gt;
 
-&lt;h1&gt;3
- &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Configuration)"&gt;&lt;/a&gt;Configuration&lt;/h1&gt;
+&lt;pre&gt;&lt;code&gt;$ sudo mkdir /ugarit
+$ sudo mount /dev/sdb1 /ugarit
+$ sudo mkdir /ugarit/vault
+$ sudo chown -R $USER /ugarit&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;Ugarit at this point isn&amp;rsquo;t usable yet &amp;ndash; we need to specify where will it store
-the snapshots. When creating a snapshot of a directory several terabytes big, it is
-ideal to store the data on a fast, reliable, stress-tolerant disk. It is not
-uncommon for the command &lt;span class="stt"&gt;ls&lt;/span&gt; to experience a noticeable lag when ran inside
-the data directory. Let&amp;rsquo;s presume that &lt;span class="stt"&gt;/dev/sdb1&lt;/span&gt; is a large filesystem and
-we want to mount it to &lt;span class="stt"&gt;/ugarit/&lt;/span&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;table cellspacing="0"&gt;
- &lt;tbody&gt;
-  &lt;tr&gt;
-   &lt;td&gt;
-    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ sudo mkdir /ugarit&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-  &lt;tr&gt;
-   &lt;td&gt;
-    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ sudo mount /dev/sdb1 /ugarit&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-  &lt;tr&gt;
-   &lt;td&gt;
-    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ sudo mkdir /ugarit/vault&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-  &lt;tr&gt;
-   &lt;td&gt;
-    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ sudo chown -R $USER /ugarit&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-
-&lt;p&gt;Another, equally important requirement that we need to have is its config file,
-usually named &lt;span class="stt"&gt;ugarit.conf&lt;/span&gt;. It is supplied as part of the required command
-line arguments. It is important to note, that this file does not reside in a
-fixed location, in contrast with some programs that look for a config file at
-start-up, from $tt{~/}. But before we actually create that file, we need to run
-some commands. Save the outputs of these commands, because we&amp;rsquo;ll be needing them
-later:&lt;/p&gt;
+&lt;p&gt;Another, equally important requirement that we need to have is its config file, usually named &lt;code&gt;ugarit.conf&lt;/code&gt;. It is supplied as part of the required command line arguments. It is important to note, that this file does not reside in a fixed location, in contrast with some programs that look for a config file at start-up, from &lt;code&gt;~/&lt;/code&gt;. But before we actually create that file, we need to run some commands. Save the outputs of these commands, because we&amp;rsquo;ll be needing them later:&lt;/p&gt;
 
 &lt;p&gt;Create a salt, for the hash function:&lt;/p&gt;
 
-&lt;p&gt;&lt;/p&gt;
-
-&lt;table cellspacing="0"&gt;
- &lt;tbody&gt;
-  &lt;tr&gt;
-   &lt;td&gt;
-    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ dd if=/dev/random bs=1 count=64 2&amp;gt;/dev/null | base64 -w 0 | tail -1&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;pre&gt;&lt;code&gt;$ dd if=/dev/random bs=1 count=64 2&amp;gt;/dev/null | base64 -w 0 | tail -1&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Create the key, for the vault:&lt;/p&gt;
 
-&lt;p&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ dd if=/dev/random bs=32 count=1 2&amp;gt;/dev/null | od -An -tx1 | tr -d ' \t\n'&lt;/code&gt;&lt;/pre&gt;
 
-&lt;table cellspacing="0"&gt;
- &lt;tbody&gt;
-  &lt;tr&gt;
-   &lt;td&gt;
-    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ dd if=/dev/random bs=32 count=1 2&amp;gt;/dev/null | od -An -tx1 | tr -d ' \t\n'&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;p&gt;After we run those commands, we&amp;rsquo;ll create the config file, &lt;code&gt;ugarit.conf&lt;/code&gt;. To make it consistent with the example above, we&amp;rsquo;ll store it inside &lt;code&gt;/ugarit&lt;/code&gt;:&lt;/p&gt;
 
-&lt;p&gt;After we run those commands, we&amp;rsquo;ll create the config file, &lt;span class="stt"&gt;ugarit.conf&lt;/span&gt;. To
-make it consistent with the example above, we&amp;rsquo;ll store it inside &lt;span class="stt"&gt;/ugarit&lt;/span&gt;:&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;table cellspacing="0"&gt;
- &lt;tbody&gt;
-  &lt;tr&gt;
-   &lt;td&gt;
-    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ emacs /ugarit/ugarit.conf&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;pre&gt;&lt;code&gt;$ emacs /ugarit/ugarit.conf&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Then input the following:&lt;/p&gt;
 
-&lt;p&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;(storage "backend-fs fs /ugarit/vault")
+(file-cache "/ugarit/cache")
+(hash tiger "SALT")
+(encryption aes "KEY")&lt;/code&gt;&lt;/pre&gt;
 
-&lt;table cellspacing="0"&gt;
- &lt;tbody&gt;
-  &lt;tr&gt;
-   &lt;td&gt;
-    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;(storage "backend-fs fs /ugarit/vault")&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-  &lt;tr&gt;
-   &lt;td&gt;
-    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;(file-cache "/ugarit/cache")&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-  &lt;tr&gt;
-   &lt;td&gt;
-    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;(hash tiger "SALT")&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-  &lt;tr&gt;
-   &lt;td&gt;
-    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;(encryption aes "KEY")&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;p&gt;Replace SALT, and KEY, with the salt and key strings that we generated above. Save the file, then secure it.&lt;/p&gt;
 
-&lt;p&gt;Replace SALT, and KEY, with the salt and key strings that we generated
-above. Save the file, then secure it.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ chmod 600 /ugarit/ugarit.conf&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;/p&gt;
+&lt;h1 id="basic-usage"&gt;Basic Usage&lt;/h1&gt;
 
-&lt;table cellspacing="0"&gt;
- &lt;tbody&gt;
-  &lt;tr&gt;
-   &lt;td&gt;
-    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ chmod 600 /ugarit/ugarit.conf&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-
-&lt;h1&gt;4
- &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Basic_.Usage)"&gt;&lt;/a&gt;Basic Usage&lt;/h1&gt;
-
-&lt;h2&gt;4.1
- &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Creating_.Snapshots)"&gt;&lt;/a&gt;Creating Snapshots&lt;/h2&gt;
+&lt;h2 id="creating-snapshots"&gt;Creating Snapshots&lt;/h2&gt;
 
 &lt;p&gt;To create a snapshot, run:&lt;/p&gt;
 
-&lt;p&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ ugarit snapshot /ugarit/ugarit.conf TAG DIRECTORY&lt;/code&gt;&lt;/pre&gt;
 
-&lt;table cellspacing="0"&gt;
- &lt;tbody&gt;
-  &lt;tr&gt;
-   &lt;td&gt;
-    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ ugarit snapshot /ugarit/ugarit.conf TAG DIRECTORY&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;TAG&lt;/strong&gt; is a name that you will identify the snapshot with later, while &lt;strong&gt;DIRECTORY&lt;/strong&gt; is the filesystem tree that you will create a snapshot of. To create, for example, a snapshot of the directory &lt;code&gt;pictures/&lt;/code&gt;, with the tag &lt;code&gt;pix&lt;/code&gt;, run Ugarit like this:&lt;/p&gt;
 
-&lt;p&gt;&lt;span style="font-weight: bold"&gt;TAG&lt;/span&gt; is a name that you will identify the snapshot with later, while
-&lt;span style="font-weight: bold"&gt;DIRECTORY&lt;/span&gt; is the filesystem tree that you will create a snapshot of. To
-create, for example, a snapshot of the directory &lt;span class="stt"&gt;pictures/&lt;/span&gt;, with the tag
-&lt;span class="stt"&gt;pix&lt;/span&gt;, run Ugarit like this:&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;table cellspacing="0"&gt;
- &lt;tbody&gt;
-  &lt;tr&gt;
-   &lt;td&gt;
-    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ ugarit snapshot /ugarit/ugarit.conf pix pictures&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;pre&gt;&lt;code&gt;$ ugarit snapshot /ugarit/ugarit.conf pix pictures&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;After the snapshot, you&amp;rsquo;ll see similar to the following:&lt;/p&gt;
 
-&lt;p&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Archiving pictures to tag pix...
+Root hash: ddc888c86db6d7c468a27cc4af9b2907d219936df82e0971
+Successfully snapshotted pictures to tag pix
+Snapshot hash: ab290399f31fff1e3158c0ede8f90f59b2b41387af48f597
+Written 910460 bytes to the vault in 4 blocks, and reused 0 bytes in 0 blocks
+(before compression)
+File cache has saved us 1 file hashings / 638104 bytes (before compression)&lt;/code&gt;&lt;/pre&gt;
 
-&lt;table cellspacing="0"&gt;
- &lt;tbody&gt;
-  &lt;tr&gt;
-   &lt;td&gt;
-    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;Archiving pictures to tag pix...&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-  &lt;tr&gt;
-   &lt;td&gt;
-    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;Root hash: ddc888c86db6d7c468a27cc4af9b2907d219936df82e0971&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-  &lt;tr&gt;
-   &lt;td&gt;
-    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;Successfully snapshotted pictures to tag pix&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-  &lt;tr&gt;
-   &lt;td&gt;
-    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;Snapshot hash: ab290399f31fff1e3158c0ede8f90f59b2b41387af48f597&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-  &lt;tr&gt;
-   &lt;td&gt;
-    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;Written 910460 bytes to the vault in 4 blocks, and reused 0 bytes in 0 blocks&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-  &lt;tr&gt;
-   &lt;td&gt;
-    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;(before compression)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-  &lt;tr&gt;
-   &lt;td&gt;
-    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;File cache has saved us 1 file hashings / 638104 bytes (before compression)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-
-&lt;h2&gt;4.2
- &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Exploring_.Snapshots)"&gt;&lt;/a&gt;Exploring Snapshots&lt;/h2&gt;
+&lt;h2 id="exploring-snapshots"&gt;Exploring Snapshots&lt;/h2&gt;
 
 &lt;p&gt;To interactively manage the contents of the vault, run:&lt;/p&gt;
 
-&lt;p&gt;&lt;/p&gt;
-
-&lt;table cellspacing="0"&gt;
- &lt;tbody&gt;
-  &lt;tr&gt;
-   &lt;td&gt;
-    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ ugarit explore /ugarit/ugarit.conf&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;pre&gt;&lt;code&gt;$ ugarit explore /ugarit/ugarit.conf&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;To list the available commands:&lt;/p&gt;
 
-&lt;p&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;gt; help&lt;/code&gt;&lt;/pre&gt;
 
-&lt;table cellspacing="0"&gt;
- &lt;tbody&gt;
-  &lt;tr&gt;
-   &lt;td&gt;
-    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;&amp;gt; help&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;p&gt;Taking hints from the help usage, we&amp;rsquo;ll extract a directory, that was part of the snapshot earlier. Let&amp;rsquo;s say that the original path of that directory was &lt;code&gt;pictures/holiday&lt;/code&gt;. So, to extract the directory &lt;code&gt;holiday/&lt;/code&gt; to the current directory, run:&lt;/p&gt;
 
-&lt;p&gt;Taking hints from the help usage, we&amp;rsquo;ll extract a directory, that was part of
-the snapshot earlier. Let&amp;rsquo;s say that the original path of that directory was
-&lt;span class="stt"&gt;pictures/holiday&lt;/span&gt;. So, to extract the directory &lt;span class="stt"&gt;holiday/&lt;/span&gt; to the
-current directory, run:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;gt; cd pix
+/pix&amp;gt; cd current
+/pix/current&amp;gt; cd contents
+/pix/current/contents&amp;gt; get holiday
+Extracted holiday
+/pix/current/contents&amp;gt; exit&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;/p&gt;
+&lt;h2 id="extracting-snapshots-directly"&gt;Extracting Snapshots Directly&lt;/h2&gt;
 
-&lt;table cellspacing="0"&gt;
- &lt;tbody&gt;
-  &lt;tr&gt;
-   &lt;td&gt;
-    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;&amp;gt; cd pix&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-  &lt;tr&gt;
-   &lt;td&gt;
-    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;/pix&amp;gt; cd current&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-  &lt;tr&gt;
-   &lt;td&gt;
-    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;/pix/current&amp;gt; cd contents&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-  &lt;tr&gt;
-   &lt;td&gt;
-    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;/pix/current/contents&amp;gt; get holiday&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-  &lt;tr&gt;
-   &lt;td&gt;
-    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;Extracted holiday&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-  &lt;tr&gt;
-   &lt;td&gt;
-    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;/pix/current/contents&amp;gt; exit&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;p&gt;If, however, you know the exact path to a file or directory that you want to extract, you can instead run Ugarit with the extract mode. To extract the directory &lt;code&gt;holiday/&lt;/code&gt; from above, directly, run:&lt;/p&gt;
 
-&lt;h2&gt;4.3
- &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Extracting_.Snapshots_.Directly)"&gt;&lt;/a&gt;Extracting Snapshots Directly&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;$ ugarit extract /ugarit/ugarit.conf /pix/current/contents/holiday&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;If, however, you know the exact path to a file or directory that you want to
-extract, you can instead run Ugarit with the extract mode. To extract the
-directory &lt;span class="stt"&gt;holiday/&lt;/span&gt; from above, directly, run:&lt;/p&gt;
+&lt;h1 id="tips"&gt;Tips&lt;/h1&gt;
 
-&lt;p&gt;&lt;/p&gt;
+&lt;h2 id="remote-filesystems"&gt;Remote Filesystems&lt;/h2&gt;
 
-&lt;table cellspacing="0"&gt;
- &lt;tbody&gt;
-  &lt;tr&gt;
-   &lt;td&gt;
-    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ ugarit extract /ugarit/ugarit.conf /pix/current/contents/holiday&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;p&gt;Ugarit is not limited to creating snapshots of a local filesystem. It can also be used to create snapshots of trees, from a remote host, mounted locally. If you have an &lt;a href="http://fuse.sourceforge.net/sshfs.html"&gt;SSHFS&lt;/a&gt; mount, for example, you can still create a snapshot of it, just like any other local filesystem:&lt;/p&gt;
 
-&lt;h1&gt;5
- &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Tips)"&gt;&lt;/a&gt;Tips&lt;/h1&gt;
+&lt;pre&gt;&lt;code&gt;$ sshfs remotehost:/ ~/mnt/sshfs/remotehost
+$ cd ~/mnt/sshfs
+$ ugarit snapshot /ugarit/ugarit.conf remotehost&lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2&gt;5.1
- &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Remote_.Filesystems)"&gt;&lt;/a&gt;Remote Filesystems&lt;/h2&gt;
+&lt;p&gt;The same applies to &lt;a href="http://www.samba.org/samba/smbfs/"&gt;SMBFS&lt;/a&gt; mounts:&lt;/p&gt;
 
-&lt;p&gt;Ugarit is not limited to creating snapshots of a local filesystem. It can also
-be used to create snapshots of trees, from a remote host, mounted locally. If
-you have an &lt;a href="http://fuse.sourceforge.net/sshfs.html"&gt;SSHFS&lt;/a&gt; mount,
-for example, you can still create a snapshot of it, just like any other local
-filesystem:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ sudo mount -t cifs -o user=$USER,uid=$USER //winhost/c ~/mnt/smbfs/winhost/c
+$ cd ~/mnt/smbfs
+$ ugarit snapshot /ugarit/ugarit.conf winhost&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;/p&gt;
-
-&lt;table cellspacing="0"&gt;
- &lt;tbody&gt;
-  &lt;tr&gt;
-   &lt;td&gt;
-    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ sshfs remotehost:/ ~/mnt/sshfs/remotehost&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-  &lt;tr&gt;
-   &lt;td&gt;
-    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ cd ~/mnt/sshfs&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-  &lt;tr&gt;
-   &lt;td&gt;
-    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ ugarit snapshot /ugarit/ugarit.conf remotehost&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-
-&lt;p&gt;The same applies to &lt;a href="http://www.samba.org/samba/smbfs/"&gt;SMBFS&lt;/a&gt;
-mounts:&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;table cellspacing="0"&gt;
- &lt;tbody&gt;
-  &lt;tr&gt;
-   &lt;td&gt;
-    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ sudo mount -t cifs -o user=$USER,uid=$USER //winhost/c ~/mnt/smbfs/winhost/c&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-  &lt;tr&gt;
-   &lt;td&gt;
-    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ cd ~/mnt/smbfs&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
-  &lt;tr&gt;
-   &lt;td&gt;
-    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ ugarit snapshot /ugarit/ugarit.conf winhost&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-
-&lt;h2&gt;5.2
- &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Miscellany)"&gt;&lt;/a&gt;Miscellany&lt;/h2&gt;
+&lt;h2 id="miscellany"&gt;Miscellany&lt;/h2&gt;
 
 &lt;p&gt;To disable output, when creating snapshots:&lt;/p&gt;
 
-&lt;p&gt;&lt;/p&gt;
-
-&lt;table cellspacing="0"&gt;
- &lt;tbody&gt;
-  &lt;tr&gt;
-   &lt;td&gt;
-    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ ugarit snapshot /ugarit/ugarit.conf -q ...&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;pre&gt;&lt;code&gt;$ ugarit snapshot /ugarit/ugarit.conf -q ...&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;To enable very verbose output, when creating snapshots:&lt;/p&gt;
 
-&lt;p&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ ugarit snapshot -:a256 /ugarit/ugarit.conf ...&lt;/code&gt;&lt;/pre&gt;
 
-&lt;table cellspacing="0"&gt;
- &lt;tbody&gt;
-  &lt;tr&gt;
-   &lt;td&gt;
-    &lt;p&gt;&lt;span class="stt"&gt;&lt;span class="stt"&gt;$ ugarit snapshot -:a256 /ugarit/ugarit.conf ...&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;h1 id="notes"&gt;Notes&lt;/h1&gt;
 
-&lt;h1&gt;6
- &lt;tt&gt;&amp;nbsp;&lt;/tt&gt;&lt;a name="(part._.Notes)"&gt;&lt;/a&gt;Notes&lt;/h1&gt;
+&lt;p&gt;When you are doubtful of the performance of the disk where you&amp;rsquo;ll be storing the snapshots, disable the &lt;a href="http://linux.about.com/library/cmd/blcmdl1_updatedb.htm"&gt;locate and updatedb&lt;/a&gt; service. It is usually run periodically via cron. It places a lot of load on the disk, and may over-stress it. Your mileage may vary.&lt;/p&gt;
 
-&lt;p&gt;When you are doubtful of the performance of the disk where you&amp;rsquo;ll be storing
-the snapshots, disable the
-&lt;a href="http://linux.about.com/library/cmd/blcmdl1_updatedb.htm"&gt;locate
-and updatedb&lt;/a&gt; service. It is usually run periodically via cron. It places a
-lot of load on the disk, and may over-stress it. Your mileage may vary.&lt;/p&gt;
+&lt;p&gt;An important caveat worth mentioning is that, due to the way Ugarit works, snapshot deletions do not exist. The storage mechanism works similarly to Git, only that there is no rebase option.&lt;/p&gt;
 
-&lt;p&gt;An important caveat worth mentioning is that, due to the way Ugarit works,
-snapshot deletions do not exist. The storage mechanism works similarly to Git,
-only that there is no rebase option.&lt;/p&gt;
-
-&lt;p&gt;Ugarit was created by &lt;a href="http://www.snell-pym.org.uk/alaric/"&gt;Alaric
-Snell-Pym&lt;/a&gt;. If you want to learn more about it, head over to
-&lt;a href="http://www.kitten-technologies.co.uk/project/ugarit/doc/trunk/README.wiki"&gt;kitten-technologies.co.uk/project/ugarit/&lt;/a&gt;. To report bugs, go to
-&lt;a href="http://www.kitten-technologies.co.uk/project/ugarit/reportlist"&gt;kitten-technologies.co.uk/project/ugarit/reportlist&lt;/a&gt;.&lt;/p&gt;&lt;/html&gt;</content></entry></feed>
+&lt;p&gt;Ugarit was created by &lt;a href="http://www.snell-pym.org.uk/alaric/"&gt;Alaric Snell-Pym&lt;/a&gt;. If you want to learn more about it, head over to &lt;a href="http://www.kitten-technologies.co.uk/project/ugarit/doc/trunk/README.wiki"&gt;kitten-technologies.co.uk/project/ugarit/&lt;/a&gt;. To report bugs, go to &lt;a href="http://www.kitten-technologies.co.uk/project/ugarit/reportlist"&gt;kitten-technologies.co.uk/project/ugarit/reportlist&lt;/a&gt; .&lt;/p&gt;&lt;/html&gt;</content></entry></feed>
