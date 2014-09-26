@@ -8,9 +8,9 @@
   <pubDate>Wed, 17 Sep 2014 19:53:15 PHT</pubDate>
   <ttl>1800</ttl>
   <item>
-   <title>How to Setup GPG (and SSH) in KDE</title>
-   <link>http://www.example.com/blog/2014/09/17/how-to-setup-gpg-and-ssh-in-kde/?utm_source=sysadmin&amp;utm_medium=RSS</link>
-   <guid>urn:http-www-example-com:-blog-2014-09-17-how-to-setup-gpg-and-ssh-in-kde</guid>
+   <title>How to Setup GPG+SSH in KDE</title>
+   <link>http://www.example.com/blog/2014/09/17/how-to-setup-gpg-ssh-in-kde/?utm_source=sysadmin&amp;utm_medium=RSS</link>
+   <guid>urn:http-www-example-com:-blog-2014-09-17-how-to-setup-gpg-ssh-in-kde</guid>
    <pubDate>Wed, 17 Sep 2014 19:53:15 PHT</pubDate>
    <description>&lt;html&gt;
 &lt;p&gt;When both GPG and SSH are integrated with KDE, it makes inter-operating with those systems very easy. It will make the difference between a loose-fitting glove, and one that fits snugly.&lt;/p&gt;
