@@ -9,4 +9,5 @@ http://www.example.com/blog/2013/05/29/livefrog-a-livejournal-utility/
 http://www.example.com/blog/2014/02/21/an-introduction-to-ugarit/
 http://www.example.com/blog/2013/09/29/emacs-and-racket/
 http://www.example.com/blog/2013/09/10/emacs-and-hax/
+http://www.example.com/blog/2014/09/17/how-to-setup-gpg-and-ssh-in-kde/
 http://www.example.com/About.html
