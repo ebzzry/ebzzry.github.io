@@ -1,4 +1,4 @@
-    Title: How to Setup GPG (and SSH) in KDE
+    Title: How to Setup GPG+SSH in KDE
     Date: 2014-09-17T19:53:15
     Tags: sysadmin, ssh, kde
 

@@ -6,9 +6,9 @@
  <id>urn:http-www-example-com:-tags-ssh-html</id>
  <updated>2014-09-17T19:53:15Z</updated>
  <entry>
-  <title type="text">How to Setup GPG (and SSH) in KDE</title>
-  <link rel="alternate" href="http://www.example.com/blog/2014/09/17/how-to-setup-gpg-and-ssh-in-kde/?utm_source=ssh&amp;utm_medium=Atom" />
-  <id>urn:http-www-example-com:-blog-2014-09-17-how-to-setup-gpg-and-ssh-in-kde</id>
+  <title type="text">How to Setup GPG+SSH in KDE</title>
+  <link rel="alternate" href="http://www.example.com/blog/2014/09/17/how-to-setup-gpg-ssh-in-kde/?utm_source=ssh&amp;utm_medium=Atom" />
+  <id>urn:http-www-example-com:-blog-2014-09-17-how-to-setup-gpg-ssh-in-kde</id>
   <published>2014-09-17T19:53:15Z</published>
   <updated>2014-09-17T19:53:15Z</updated>
   <author>
