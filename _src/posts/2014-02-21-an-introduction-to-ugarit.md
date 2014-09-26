@@ -1,6 +1,6 @@
     Title: An Introduction to Ugarit
     Date: 2014-02-21T12:07:18
-    Tags: backups
+    Tags: backups, sysadmin
 
 How many times have we experienced hindsight, after a catastrophic event has
 happened? how many times have we told ourselves that had we created backups of
