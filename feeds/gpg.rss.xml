@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?> 
 <rss version="2.0">
  <channel>
-  <title>Live. Die. Live Again.: Posts tagged 'kde'</title>
-  <description>Live. Die. Live Again.: Posts tagged 'kde'</description>
-  <link>http://www.example.com/tags/kde.html</link>
+  <title>Live. Die. Live Again.: Posts tagged 'gpg'</title>
+  <description>Live. Die. Live Again.: Posts tagged 'gpg'</description>
+  <link>http://www.example.com/tags/gpg.html</link>
   <lastBuildDate>Wed, 17 Sep 2014 19:53:15 PHT</lastBuildDate>
   <pubDate>Wed, 17 Sep 2014 19:53:15 PHT</pubDate>
   <ttl>1800</ttl>
   <item>
    <title>How to Setup GPG+SSH in KDE</title>
-   <link>http://www.example.com/blog/2014/09/17/how-to-setup-gpg-ssh-in-kde/?utm_source=kde&amp;utm_medium=RSS</link>
+   <link>http://www.example.com/blog/2014/09/17/how-to-setup-gpg-ssh-in-kde/?utm_source=gpg&amp;utm_medium=RSS</link>
    <guid>urn:http-www-example-com:-blog-2014-09-17-how-to-setup-gpg-ssh-in-kde</guid>
    <pubDate>Wed, 17 Sep 2014 19:53:15 PHT</pubDate>
    <description>&lt;html&gt;
