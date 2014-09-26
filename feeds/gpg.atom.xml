@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?> 
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
- <title type="text">Live. Die. Live Again.: Posts tagged 'kde'</title>
- <link rel="self" href="http://www.example.com/feeds/kde.atom.xml" />
- <link href="http://www.example.com/tags/kde.html" />
- <id>urn:http-www-example-com:-tags-kde-html</id>
+ <title type="text">Live. Die. Live Again.: Posts tagged 'gpg'</title>
+ <link rel="self" href="http://www.example.com/feeds/gpg.atom.xml" />
+ <link href="http://www.example.com/tags/gpg.html" />
+ <id>urn:http-www-example-com:-tags-gpg-html</id>
  <updated>2014-09-17T19:53:15Z</updated>
  <entry>
   <title type="text">How to Setup GPG+SSH in KDE</title>
-  <link rel="alternate" href="http://www.example.com/blog/2014/09/17/how-to-setup-gpg-ssh-in-kde/?utm_source=kde&amp;utm_medium=Atom" />
+  <link rel="alternate" href="http://www.example.com/blog/2014/09/17/how-to-setup-gpg-ssh-in-kde/?utm_source=gpg&amp;utm_medium=Atom" />
   <id>urn:http-www-example-com:-blog-2014-09-17-how-to-setup-gpg-ssh-in-kde</id>
   <published>2014-09-17T19:53:15Z</published>
   <updated>2014-09-17T19:53:15Z</updated>
