@@ -1,6 +1,6 @@
     Title: How to Setup GPG+SSH in KDE
     Date: 2014-09-17T19:53:15
-    Tags: sysadmin, ssh, kde
+    Tags: gpg, ssh, sysadmin
 
 When both GPG and SSH are integrated with KDE, it makes inter-operating
 with those systems very easy. It will make the difference between a
