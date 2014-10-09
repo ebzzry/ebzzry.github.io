@@ -1,5 +1,20 @@
 /* custom.css */
 
+/* * { */
+/*    margin:0; */
+/*    padding:0; */
+/* } */
+
+/* body { */
+/*    text-align: center; /\*For IE6 Shenanigans*\/ */
+/* } */
+
+/* #wrapper { */
+/*    width: 960px; */
+/*    margin: 0 auto; */
+/*    text-align: left; */
+/* } */
+
 code {
     color: black;
 }
