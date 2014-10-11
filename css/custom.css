@@ -1,19 +1,25 @@
 /* custom.css */
 
-/* * { */
-/*    margin:0; */
-/*    padding:0; */
-/* } */
+/* Center the page nicely */
 
-/* body { */
-/*    text-align: center; /\*For IE6 Shenanigans*\/ */
-/* } */
+* {
+   margin:0;
+   padding:0;
+}
 
-/* #wrapper { */
-/*    width: 960px; */
-/*    margin: 0 auto; */
-/*    text-align: left; */
-/* } */
+body {
+   text-align: center; /*for ie6 shenanigans*/
+}
+
+#wrapper {
+   width: 50em;
+   margin: 0 auto;
+   text-align: left;
+}
+
+.row #content {
+    max-width: 50em;
+}
 
 code {
     color: black;
@@ -27,27 +33,3 @@ pre {
     width: inherit;
 }
 
-.stt {
-    color: black;
-    font-size: 14px;
-}
-
-/* tr { */
-/*     line-height: 14px; */
-/* } */
-
-table tr td:empty {
-    width: 50px;
-}
-
-table tr td,th {
-    /* padding-top: 10px; */
-    /* padding-bottom: 10px; */
-    /* padding-left: 10px; */
-    padding-right: 10px;
-}
-
-table caption {
-    font-weight: bold;
-    text-align: left;
-}
