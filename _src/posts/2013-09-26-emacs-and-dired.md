@@ -15,7 +15,7 @@ dired buffers, to a certain extent.
 To run dired, run emacs on the command line, supplying a directory as its argument:
 
 ```
-emacs ~/Desktop/
+$ emacs ~/Desktop/
 ```
 
 Or, alternatively, you can press `C-x d` inside Emacs. If you are
