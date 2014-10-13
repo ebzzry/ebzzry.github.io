@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?> 
 <rss version="2.0">
  <channel>
-  <title>Live. Die. Live Again.: Posts tagged 'web'</title>
-  <description>Live. Die. Live Again.: Posts tagged 'web'</description>
-  <link>http://www.example.com/tags/web.html</link>
+  <title>Live. Die. Repeat.: Posts tagged 'web'</title>
+  <description>Live. Die. Repeat.: Posts tagged 'web'</description>
+  <link>http://rmm.meta.ph/tags/web.html</link>
   <lastBuildDate>Wed, 19 Feb 2014 14:07:11 PHT</lastBuildDate>
   <pubDate>Wed, 19 Feb 2014 14:07:11 PHT</pubDate>
   <ttl>1800</ttl>
   <item>
    <title>An Introduction To Frog</title>
-   <link>http://www.example.com/blog/2014/02/19/an-introduction-to-frog/?utm_source=web&amp;utm_medium=RSS</link>
-   <guid>urn:http-www-example-com:-blog-2014-02-19-an-introduction-to-frog</guid>
+   <link>http://rmm.meta.ph/blog/2014/02/19/an-introduction-to-frog/?utm_source=web&amp;utm_medium=RSS</link>
+   <guid>urn:http-rmm-meta-ph:-blog-2014-02-19-an-introduction-to-frog</guid>
    <pubDate>Wed, 19 Feb 2014 14:07:11 PHT</pubDate>
    <description>&lt;html&gt;
 &lt;p&gt;When publishing blog content to the web, most would rely on pre-fabricated services, that do most of the heavy lifting. However, there are instances when we want to have more control over our stuff. A good example of which are the constraints that providers enforce. Another is the presence of ads, or the use of freemium services, i.e., things can be done, only up to a certain visible limit.&lt;/p&gt;

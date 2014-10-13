@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?> 
 <rss version="2.0">
  <channel>
-  <title>Live. Die. Live Again.: Posts tagged 'racket'</title>
-  <description>Live. Die. Live Again.: Posts tagged 'racket'</description>
-  <link>http://www.example.com/tags/racket.html</link>
+  <title>Live. Die. Repeat.: Posts tagged 'racket'</title>
+  <description>Live. Die. Repeat.: Posts tagged 'racket'</description>
+  <link>http://rmm.meta.ph/tags/racket.html</link>
   <lastBuildDate>Wed, 19 Feb 2014 14:07:11 PHT</lastBuildDate>
   <pubDate>Wed, 19 Feb 2014 14:07:11 PHT</pubDate>
   <ttl>1800</ttl>
   <item>
    <title>An Introduction To Frog</title>
-   <link>http://www.example.com/blog/2014/02/19/an-introduction-to-frog/?utm_source=racket&amp;utm_medium=RSS</link>
-   <guid>urn:http-www-example-com:-blog-2014-02-19-an-introduction-to-frog</guid>
+   <link>http://rmm.meta.ph/blog/2014/02/19/an-introduction-to-frog/?utm_source=racket&amp;utm_medium=RSS</link>
+   <guid>urn:http-rmm-meta-ph:-blog-2014-02-19-an-introduction-to-frog</guid>
    <pubDate>Wed, 19 Feb 2014 14:07:11 PHT</pubDate>
    <description>&lt;html&gt;
 &lt;p&gt;When publishing blog content to the web, most would rely on pre-fabricated services, that do most of the heavy lifting. However, there are instances when we want to have more control over our stuff. A good example of which are the constraints that providers enforce. Another is the presence of ads, or the use of freemium services, i.e., things can be done, only up to a certain visible limit.&lt;/p&gt;
@@ -249,9 +249,9 @@ published.
 
 &lt;p&gt;&lt;strong&gt;Ribbit!&lt;/strong&gt;&lt;/p&gt;&lt;/html&gt;</description></item>
   <item>
-   <title>Emacs and Racket</title>
-   <link>http://www.example.com/blog/2013/09/29/emacs-and-racket/?utm_source=racket&amp;utm_medium=RSS</link>
-   <guid>urn:http-www-example-com:-blog-2013-09-29-emacs-and-racket</guid>
+   <title>Emacs: Racket</title>
+   <link>http://rmm.meta.ph/blog/2013/09/29/emacs-racket/?utm_source=racket&amp;utm_medium=RSS</link>
+   <guid>urn:http-rmm-meta-ph:-blog-2013-09-29-emacs-racket</guid>
    <pubDate>Sun, 29 Sep 2013 22:21:19 PHT</pubDate>
    <description>&lt;html&gt;
 &lt;p&gt;In this post, I&amp;rsquo;ll discuss the easiest approach that I took to setup up a &lt;a href="http://racket-lang.org"&gt;Racket&lt;/a&gt; development environment on Emacs. Take note, that this is not the only approach available &amp;mdash; some did it in arguably better ways. In this article, I&amp;rsquo;ll try to explain the shortest route that I took.&lt;/p&gt;
@@ -379,9 +379,9 @@ REPL *&lt;/code&gt; buffer. Whatever you can do with the REPL invoked with vanil
 
 &lt;p&gt;I have intentionally skipped many topics from the &lt;a href="http://www.nongnu.org/geiser/"&gt;official document&lt;/a&gt; because it makes it unattractive to people who are averse to reading long blocks of text (ironically, this article may even qualify as one.). The methods described above are by in no way representative of community-advised ways of installing and using Racket with Emacs. Feel free to drop a comment below! Ciao!&lt;/p&gt;&lt;/html&gt;</description></item>
   <item>
-   <title>Livefrog: A LiveJournal Utility</title>
-   <link>http://www.example.com/blog/2013/05/29/livefrog-a-livejournal-utility/?utm_source=racket&amp;utm_medium=RSS</link>
-   <guid>urn:http-www-example-com:-blog-2013-05-29-livefrog-a-livejournal-utility</guid>
+   <title>An Introduction to Livefrog</title>
+   <link>http://rmm.meta.ph/blog/2013/05/29/an-introduction-to-livefrog/?utm_source=racket&amp;utm_medium=RSS</link>
+   <guid>urn:http-rmm-meta-ph:-blog-2013-05-29-an-introduction-to-livefrog</guid>
    <pubDate>Wed, 29 May 2013 15:10:34 PHT</pubDate>
    <description>&lt;html&gt;
 &lt;p&gt;I am pleased to announce the release of &lt;strong&gt;livefrog&lt;/strong&gt;, a utility I wrote to migrate LiveJournal articles to &lt;a href="http://github.com/greghendershott/frog"&gt;Frog&lt;/a&gt;.&lt;/p&gt;
@@ -502,8 +502,8 @@ livefrog&lt;/code&gt; in your shell.&lt;/p&gt;
 &lt;p&gt;Replace &lt;code&gt;.bashrc&lt;/code&gt;, and &lt;code&gt;.cshrc&lt;/code&gt;, with the appropriate init file for your shell.&lt;/p&gt;&lt;/html&gt;</description></item>
   <item>
    <title>The Y Combinator in Six Easy Steps</title>
-   <link>http://www.example.com/blog/2013/05/09/the-y-combinator-in-six-easy-steps/?utm_source=racket&amp;utm_medium=RSS</link>
-   <guid>urn:http-www-example-com:-blog-2013-05-09-the-y-combinator-in-six-easy-steps</guid>
+   <link>http://rmm.meta.ph/blog/2013/05/09/the-y-combinator-in-six-easy-steps/?utm_source=racket&amp;utm_medium=RSS</link>
+   <guid>urn:http-rmm-meta-ph:-blog-2013-05-09-the-y-combinator-in-six-easy-steps</guid>
    <pubDate>Thu, 09 May 2013 12:43:11 PHT</pubDate>
    <description>&lt;html&gt;
 &lt;p&gt;A lot of us have been taught that to be able to define a recursive procedure, the recursive invocation must &amp;ldquo;use&amp;rdquo; the name of the recursive procedure. The &lt;a href="http://en.wikipedia.org/wiki/Fixed-point_combinator#Y_combinator"&gt;Y combinator&lt;/a&gt; , however, lets us perform recursion, without referring to the named identifier.&lt;/p&gt;

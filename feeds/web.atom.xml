@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?> 
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
- <title type="text">Live. Die. Live Again.: Posts tagged 'web'</title>
- <link rel="self" href="http://www.example.com/feeds/web.atom.xml" />
- <link href="http://www.example.com/tags/web.html" />
- <id>urn:http-www-example-com:-tags-web-html</id>
+ <title type="text">Live. Die. Repeat.: Posts tagged 'web'</title>
+ <link rel="self" href="http://rmm.meta.ph/feeds/web.atom.xml" />
+ <link href="http://rmm.meta.ph/tags/web.html" />
+ <id>urn:http-rmm-meta-ph:-tags-web-html</id>
  <updated>2014-02-19T14:07:11Z</updated>
  <entry>
   <title type="text">An Introduction To Frog</title>
-  <link rel="alternate" href="http://www.example.com/blog/2014/02/19/an-introduction-to-frog/?utm_source=web&amp;utm_medium=Atom" />
-  <id>urn:http-www-example-com:-blog-2014-02-19-an-introduction-to-frog</id>
+  <link rel="alternate" href="http://rmm.meta.ph/blog/2014/02/19/an-introduction-to-frog/?utm_source=web&amp;utm_medium=Atom" />
+  <id>urn:http-rmm-meta-ph:-blog-2014-02-19-an-introduction-to-frog</id>
   <published>2014-02-19T14:07:11Z</published>
   <updated>2014-02-19T14:07:11Z</updated>
   <author>

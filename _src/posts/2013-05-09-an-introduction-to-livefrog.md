@@ -1,4 +1,4 @@
-    Title: Livefrog: A LiveJournal Utility
+    Title: An Introduction to Livefrog
     Date: 2013-05-29T15:10:34
     Tags: racket, programming
 
