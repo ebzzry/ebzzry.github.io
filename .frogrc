@@ -1,7 +1,7 @@
 # Required: Should NOT end in trailing slash.
-scheme/host = http://www.example.com
+scheme/host = http://rmm.meta.ph
 
-title = Live. Die. Live Again.
+title = Live. Die. Repeat.
 author = Rommel Martinez
 
 # Whether to show the count of posts next to each tag in sidebar

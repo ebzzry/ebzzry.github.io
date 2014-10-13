@@ -1,4 +1,4 @@
-    Title: Emacs and Racket
+    Title: Emacs: Racket
     Date: 2013-09-29T22:21:19
     Tags: emacs, programming, racket
 
