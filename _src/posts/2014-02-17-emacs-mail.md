@@ -1,4 +1,4 @@
-    Title: Emacs and Mail
+    Title: Emacs: Mail
     Date: 2014-02-17T16:02:38
     Tags: emacs, mail
 

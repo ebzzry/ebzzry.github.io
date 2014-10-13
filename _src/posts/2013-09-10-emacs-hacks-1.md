@@ -1,4 +1,4 @@
-    Title: Emacs and Hax
+    Title: Emacs: Hacks 1
     Date: 2013-09-10T13:23:34
     Tags: emacs, programming
 

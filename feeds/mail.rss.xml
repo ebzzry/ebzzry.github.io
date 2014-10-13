@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?> 
 <rss version="2.0">
  <channel>
-  <title>Live. Die. Live Again.: Posts tagged 'mail'</title>
-  <description>Live. Die. Live Again.: Posts tagged 'mail'</description>
-  <link>http://www.example.com/tags/mail.html</link>
+  <title>Live. Die. Repeat.: Posts tagged 'mail'</title>
+  <description>Live. Die. Repeat.: Posts tagged 'mail'</description>
+  <link>http://rmm.meta.ph/tags/mail.html</link>
   <lastBuildDate>Mon, 17 Feb 2014 16:02:38 PHT</lastBuildDate>
   <pubDate>Mon, 17 Feb 2014 16:02:38 PHT</pubDate>
   <ttl>1800</ttl>
   <item>
-   <title>Emacs and Mail</title>
-   <link>http://www.example.com/blog/2014/02/17/emacs-and-mail/?utm_source=mail&amp;utm_medium=RSS</link>
-   <guid>urn:http-www-example-com:-blog-2014-02-17-emacs-and-mail</guid>
+   <title>Emacs: Mail</title>
+   <link>http://rmm.meta.ph/blog/2014/02/17/emacs-mail/?utm_source=mail&amp;utm_medium=RSS</link>
+   <guid>urn:http-rmm-meta-ph:-blog-2014-02-17-emacs-mail</guid>
    <pubDate>Mon, 17 Feb 2014 16:02:38 PHT</pubDate>
    <description>&lt;html&gt;
 &lt;p&gt;in this day and age, checking our mail means going to the website of our mail provider, or using a mobile app. however, there are some cases when we want to have more control over our messages, especially when the feature we want is not present with the mainstream options.&lt;/p&gt;

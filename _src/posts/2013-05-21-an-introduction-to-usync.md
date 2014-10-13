@@ -1,4 +1,4 @@
-    Title: Usync: A Data Synchronizer
+    Title: An Introduction to Usync
     Date: 2013-05-21T19:18:33
     Tags: scheme, programming
 

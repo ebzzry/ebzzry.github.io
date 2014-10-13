@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?> 
 <rss version="2.0">
  <channel>
-  <title>Live. Die. Live Again.: Live. Die. Live Again.</title>
-  <description>Live. Die. Live Again.: Live. Die. Live Again.</description>
-  <link>http://www.example.com/index.html</link>
+  <title>Live. Die. Repeat.: Live. Die. Repeat.</title>
+  <description>Live. Die. Repeat.: Live. Die. Repeat.</description>
+  <link>http://rmm.meta.ph/index.html</link>
   <lastBuildDate>Wed, 17 Sep 2014 19:53:15 PHT</lastBuildDate>
   <pubDate>Wed, 17 Sep 2014 19:53:15 PHT</pubDate>
   <ttl>1800</ttl>
   <item>
-   <title>How to Setup GPG+SSH in KDE</title>
-   <link>http://www.example.com/blog/2014/09/17/how-to-setup-gpg-ssh-in-kde/?utm_source=all&amp;utm_medium=RSS</link>
-   <guid>urn:http-www-example-com:-blog-2014-09-17-how-to-setup-gpg-ssh-in-kde</guid>
+   <title>How to Setup GPG and SSH in KDE</title>
+   <link>http://rmm.meta.ph/blog/2014/09/17/how-to-setup-gpg-and-ssh-in-kde/?utm_source=all&amp;utm_medium=RSS</link>
+   <guid>urn:http-rmm-meta-ph:-blog-2014-09-17-how-to-setup-gpg-and-ssh-in-kde</guid>
    <pubDate>Wed, 17 Sep 2014 19:53:15 PHT</pubDate>
    <description>&lt;html&gt;
 &lt;p&gt;When both GPG and SSH are integrated with KDE, it makes inter-operating with those systems very easy. It will make the difference between a loose-fitting glove, and one that fits snugly.&lt;/p&gt;
@@ -22,11 +22,11 @@
 
 &lt;p&gt;Chances are, you already have both GPG and SSH installed on your system. But if you don&amp;rsquo;t have them, you can install them with:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;sudo apt-get install gnupg2 ssh&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;$ sudo apt-get install gnupg2 ssh&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Another important software that we need to install is pinentry:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;sudo apt-get install pinentry-qt4&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;$ sudo apt-get install pinentry-qt4&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;It&amp;rsquo;s the component that prompts the user for passphrases.&lt;/p&gt;
 
@@ -34,7 +34,7 @@
 
 &lt;p&gt;Now that we have the parts in front of us, it&amp;rsquo;s time to assemble them. The first thing that we need to do (although in reality the files that we are going to open in this section can be done in any order that you wish), is create your SSH keys:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;ssh-keygen -t rsa&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;$ ssh-keygen -t rsa&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;&lt;strong&gt;DO NOT&lt;/strong&gt; leave the passphrase empty. Shoot yourself first in the  head, if you really want to.&lt;/p&gt;
 
@@ -45,25 +45,25 @@
 
 &lt;p&gt;At this point, copy your SSH keys to the servers that you manage:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;ssh-copy-id user@host&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;$ ssh-copy-id user@host&lt;/code&gt;&lt;/pre&gt;
 
 &lt;h1 id="configure-gpg"&gt;Configure GPG&lt;/h1&gt;
 
 &lt;p&gt;In case you forgot how to your keys, the command is:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;gpg2 --gen-key&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;$ gpg2 --gen-key&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;I should have this earlier, that if you want to create strong passphrases, use the &lt;a href="http://world.std.com/~reinhold/diceware.html"&gt;Diceware method&lt;/a&gt;. An &lt;a href="https://xkcd.com/936/"&gt;XKCD comic&lt;/a&gt; was written in case you&amp;rsquo;re wondering what it is, without reading the earlier link.&lt;/p&gt;
 
 &lt;p&gt;Next thing to do is edit the main GPG config file:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;emacs ~/.gnupg/gpg.conf&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;$ emacs ~/.gnupg/gpg.conf&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Find the line that contains &lt;code&gt;use-agent&lt;/code&gt; and uncomment it, if it is commented. If that line does not exist just put &lt;code&gt;use agent&lt;/code&gt; at the end.&lt;/p&gt;
 
 &lt;p&gt;We need to edit the agent file next:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;emacs ~/.gnupg/gpg-agent.conf&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;$ emacs ~/.gnupg/gpg-agent.conf&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Then put the following lines:&lt;/p&gt;
 
@@ -74,14 +74,14 @@ pinentry-program /usr/bin/pinentry-qt4&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Those are &lt;em&gt;my&lt;/em&gt; preferred values. If you want to change them, look at the manpage first:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;man gpg-agent&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;$ man gpg-agent&lt;/code&gt;&lt;/pre&gt;
 
 &lt;h1 id="configure-kde"&gt;Configure KDE&lt;/h1&gt;
 
 &lt;p&gt;We now need to link the GPG agent with KDE. We&amp;rsquo;re going to create a &lt;em&gt;startup&lt;/em&gt; script for KDE that will invoke the GPG agent at startup. We&amp;rsquo;ll also tell the GPG agent to enable SSH support (in the old days, the SSH agent has to be ran separately from GPG).&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;mkdir ~/.kde/env
-emacs ~/.kde/env/01_gpg-agent.sh&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;$ mkdir ~/.kde/env
+$ emacs ~/.kde/env/01_gpg-agent.sh&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Then put in the following lines:&lt;/p&gt;
 
@@ -92,12 +92,12 @@ eval `gpg-agent --enable-ssh-support --daemon`&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Make it executable:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;chmod +x ~/.kde/env/01_gpg-agent.sh&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;$ chmod +x ~/.kde/env/01_gpg-agent.sh&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Finally, we&amp;rsquo;ll create the &lt;em&gt;shutdown&lt;/em&gt; script for the GPG agent:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;mkdir ~/.kde/shutdown
-emacs ~/.kde/shutdown/01_gpg-agent.sh&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;$ mkdir ~/.kde/shutdown
+$ emacs ~/.kde/shutdown/01_gpg-agent.sh&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Then put in the following lines:&lt;/p&gt;
 
@@ -107,7 +107,7 @@ killall gpg-agent&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Also make it executable:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;chmod +x ~/.kde/shutdown/01_gpg-agent.sh&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;$ chmod +x ~/.kde/shutdown/01_gpg-agent.sh&lt;/code&gt;&lt;/pre&gt;
 
 &lt;h1 id="verification"&gt;Verification&lt;/h1&gt;
 
@@ -117,21 +117,21 @@ killall gpg-agent&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Open a Konsole window, then connect to your favorite SSH server:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;ssh user@remotehost&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;$ ssh user@remotehost&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;A pinentry dialog box should appear prompting you for your passphrase. This passphrase will be cached according to your settings in &lt;code&gt;~/.gnupg/gpg-agent.conf&lt;/code&gt;. Subsequent SSH connection attempts will not prompt you for the passphrase within this timeout period.&lt;/p&gt;
 
 &lt;p&gt;A similar behavior will happen if you encrypt a file with GPG:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;gpg2 -s -e -a -r john@remotehost file.dat&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;$ gpg2 -s -e -a -r john@remotehost file.dat&lt;/code&gt;&lt;/pre&gt;
 
 &lt;h1 id="conclusion"&gt;Conclusion&lt;/h1&gt;
 
 &lt;p&gt;The steps outline above are meant to be succinct without going through the gory details. I avoided reiterating what was already said before so as not to bore you to death. If you found this useful, feel free to comment below.&lt;/p&gt;&lt;/html&gt;</description></item>
   <item>
    <title>An Introduction to Ugarit</title>
-   <link>http://www.example.com/blog/2014/02/21/an-introduction-to-ugarit/?utm_source=all&amp;utm_medium=RSS</link>
-   <guid>urn:http-www-example-com:-blog-2014-02-21-an-introduction-to-ugarit</guid>
+   <link>http://rmm.meta.ph/blog/2014/02/21/an-introduction-to-ugarit/?utm_source=all&amp;utm_medium=RSS</link>
+   <guid>urn:http-rmm-meta-ph:-blog-2014-02-21-an-introduction-to-ugarit</guid>
    <pubDate>Fri, 21 Feb 2014 12:07:18 PHT</pubDate>
    <description>&lt;html&gt;
 &lt;p&gt;How many times have we experienced hindsight, after a catastrophic event has happened? how many times have we told ourselves that had we created backups of our precious data, we wouldn&amp;rsquo;t be in that dire situation, pulling our hairs out like a maniac?&lt;/p&gt;
@@ -279,8 +279,8 @@ $ ugarit snapshot /ugarit/ugarit.conf winhost&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Ugarit was created by &lt;a href="http://www.snell-pym.org.uk/alaric/"&gt;Alaric Snell-Pym&lt;/a&gt;. If you want to learn more about it, head over to &lt;a href="http://www.kitten-technologies.co.uk/project/ugarit/doc/trunk/README.wiki"&gt;kitten-technologies.co.uk/project/ugarit/&lt;/a&gt;. To report bugs, go to &lt;a href="http://www.kitten-technologies.co.uk/project/ugarit/reportlist"&gt;kitten-technologies.co.uk/project/ugarit/reportlist&lt;/a&gt; .&lt;/p&gt;&lt;/html&gt;</description></item>
   <item>
    <title>An Introduction To Frog</title>
-   <link>http://www.example.com/blog/2014/02/19/an-introduction-to-frog/?utm_source=all&amp;utm_medium=RSS</link>
-   <guid>urn:http-www-example-com:-blog-2014-02-19-an-introduction-to-frog</guid>
+   <link>http://rmm.meta.ph/blog/2014/02/19/an-introduction-to-frog/?utm_source=all&amp;utm_medium=RSS</link>
+   <guid>urn:http-rmm-meta-ph:-blog-2014-02-19-an-introduction-to-frog</guid>
    <pubDate>Wed, 19 Feb 2014 14:07:11 PHT</pubDate>
    <description>&lt;html&gt;
 &lt;p&gt;When publishing blog content to the web, most would rely on pre-fabricated services, that do most of the heavy lifting. However, there are instances when we want to have more control over our stuff. A good example of which are the constraints that providers enforce. Another is the presence of ads, or the use of freemium services, i.e., things can be done, only up to a certain visible limit.&lt;/p&gt;
@@ -519,9 +519,9 @@ published.
 
 &lt;p&gt;&lt;strong&gt;Ribbit!&lt;/strong&gt;&lt;/p&gt;&lt;/html&gt;</description></item>
   <item>
-   <title>Emacs and Mail</title>
-   <link>http://www.example.com/blog/2014/02/17/emacs-and-mail/?utm_source=all&amp;utm_medium=RSS</link>
-   <guid>urn:http-www-example-com:-blog-2014-02-17-emacs-and-mail</guid>
+   <title>Emacs: Mail</title>
+   <link>http://rmm.meta.ph/blog/2014/02/17/emacs-mail/?utm_source=all&amp;utm_medium=RSS</link>
+   <guid>urn:http-rmm-meta-ph:-blog-2014-02-17-emacs-mail</guid>
    <pubDate>Mon, 17 Feb 2014 16:02:38 PHT</pubDate>
    <description>&lt;html&gt;
 &lt;p&gt;in this day and age, checking our mail means going to the website of our mail provider, or using a mobile app. however, there are some cases when we want to have more control over our messages, especially when the feature we want is not present with the mainstream options.&lt;/p&gt;
@@ -691,9 +691,9 @@ $ git clone git@github.com:djcb/mu.git&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Bear in mind that I purposely avoided fleshing out many details, as it would conflate the attempt of this article to make things simple. However, if you want to learn more, you can always go to the &lt;a href="http://pyropus.ca/software/getmail/documentation.html"&gt;getmail&lt;/a&gt; and &lt;a href="http://www.djcbsoftware.nl/code/mu/mu4e/index.html"&gt;mu4e&lt;/a&gt; documentation, to fill in missing gaps, that you may have.&lt;/p&gt;&lt;/html&gt;</description></item>
   <item>
-   <title>Emacs and Racket</title>
-   <link>http://www.example.com/blog/2013/09/29/emacs-and-racket/?utm_source=all&amp;utm_medium=RSS</link>
-   <guid>urn:http-www-example-com:-blog-2013-09-29-emacs-and-racket</guid>
+   <title>Emacs: Racket</title>
+   <link>http://rmm.meta.ph/blog/2013/09/29/emacs-racket/?utm_source=all&amp;utm_medium=RSS</link>
+   <guid>urn:http-rmm-meta-ph:-blog-2013-09-29-emacs-racket</guid>
    <pubDate>Sun, 29 Sep 2013 22:21:19 PHT</pubDate>
    <description>&lt;html&gt;
 &lt;p&gt;In this post, I&amp;rsquo;ll discuss the easiest approach that I took to setup up a &lt;a href="http://racket-lang.org"&gt;Racket&lt;/a&gt; development environment on Emacs. Take note, that this is not the only approach available &amp;mdash; some did it in arguably better ways. In this article, I&amp;rsquo;ll try to explain the shortest route that I took.&lt;/p&gt;
@@ -821,9 +821,9 @@ REPL *&lt;/code&gt; buffer. Whatever you can do with the REPL invoked with vanil
 
 &lt;p&gt;I have intentionally skipped many topics from the &lt;a href="http://www.nongnu.org/geiser/"&gt;official document&lt;/a&gt; because it makes it unattractive to people who are averse to reading long blocks of text (ironically, this article may even qualify as one.). The methods described above are by in no way representative of community-advised ways of installing and using Racket with Emacs. Feel free to drop a comment below! Ciao!&lt;/p&gt;&lt;/html&gt;</description></item>
   <item>
-   <title>Emacs and Dired</title>
-   <link>http://www.example.com/blog/2013/09/26/emacs-and-dired/?utm_source=all&amp;utm_medium=RSS</link>
-   <guid>urn:http-www-example-com:-blog-2013-09-26-emacs-and-dired</guid>
+   <title>Emacs: Dired</title>
+   <link>http://rmm.meta.ph/blog/2013/09/26/emacs-dired/?utm_source=all&amp;utm_medium=RSS</link>
+   <guid>urn:http-rmm-meta-ph:-blog-2013-09-26-emacs-dired</guid>
    <pubDate>Thu, 26 Sep 2013 17:57:00 PHT</pubDate>
    <description>&lt;html&gt;
 &lt;p&gt;In this post, I&amp;rsquo;ll be focusing on one of the novel ways Emacs handles &lt;em&gt;directory editing&lt;/em&gt;. The directory editor, or &lt;strong&gt;dired&lt;/strong&gt; (pronounced dir-ed, not die-rd), for short, is the Emacs equivalent of a file manager. Whatever you can do with regular file buffers, you can also do it with dired buffers, to a certain extent.&lt;/p&gt;
@@ -833,7 +833,7 @@ REPL *&lt;/code&gt; buffer. Whatever you can do with the REPL invoked with vanil
 
 &lt;p&gt;To run dired, run emacs on the command line, supplying a directory as its argument:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;emacs ~/Desktop/&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;$ emacs ~/Desktop/&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Or, alternatively, you can press &lt;code&gt;C-x d&lt;/code&gt; inside Emacs. If you are currently editing a file, the directory of that file will be presented as the default value in the minibuffer area. Either way, when you hit &lt;code&gt;Enter&lt;/code&gt;, a buffer of the directory will load, that looks like the output of &lt;code&gt;ls -l&lt;/code&gt;:&lt;/p&gt;
 
@@ -954,9 +954,9 @@ drwxr-xr-x 3 john users 4096 Sep 26 05:39 vids&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Well, that is it for now. Ciao!&lt;/p&gt;&lt;/html&gt;</description></item>
   <item>
-   <title>Emacs and Hax</title>
-   <link>http://www.example.com/blog/2013/09/10/emacs-and-hax/?utm_source=all&amp;utm_medium=RSS</link>
-   <guid>urn:http-www-example-com:-blog-2013-09-10-emacs-and-hax</guid>
+   <title>Emacs: Hacks 1</title>
+   <link>http://rmm.meta.ph/blog/2013/09/10/emacs-hacks-1/?utm_source=all&amp;utm_medium=RSS</link>
+   <guid>urn:http-rmm-meta-ph:-blog-2013-09-10-emacs-hacks-1</guid>
    <pubDate>Tue, 10 Sep 2013 13:23:34 PHT</pubDate>
    <description>&lt;html&gt;
 &lt;p&gt;In this series of posts, I will be sharing my personal hacks on how I use Emacs for my day-to-day stuff. Most, if not all of the code contained in these posts are excerpts from the respective configuration files that I use.&lt;/p&gt;
@@ -1076,9 +1076,9 @@ eh () { emacsclient -nw --eval "(find-two-files-horizontally \"$(pwd)\" \"$1\" \
 
 &lt;p&gt;Well, that is it for now. Ciao!&lt;/p&gt;&lt;/html&gt;</description></item>
   <item>
-   <title>Livefrog: A LiveJournal Utility</title>
-   <link>http://www.example.com/blog/2013/05/29/livefrog-a-livejournal-utility/?utm_source=all&amp;utm_medium=RSS</link>
-   <guid>urn:http-www-example-com:-blog-2013-05-29-livefrog-a-livejournal-utility</guid>
+   <title>An Introduction to Livefrog</title>
+   <link>http://rmm.meta.ph/blog/2013/05/29/an-introduction-to-livefrog/?utm_source=all&amp;utm_medium=RSS</link>
+   <guid>urn:http-rmm-meta-ph:-blog-2013-05-29-an-introduction-to-livefrog</guid>
    <pubDate>Wed, 29 May 2013 15:10:34 PHT</pubDate>
    <description>&lt;html&gt;
 &lt;p&gt;I am pleased to announce the release of &lt;strong&gt;livefrog&lt;/strong&gt;, a utility I wrote to migrate LiveJournal articles to &lt;a href="http://github.com/greghendershott/frog"&gt;Frog&lt;/a&gt;.&lt;/p&gt;
@@ -1198,9 +1198,9 @@ livefrog&lt;/code&gt; in your shell.&lt;/p&gt;
 
 &lt;p&gt;Replace &lt;code&gt;.bashrc&lt;/code&gt;, and &lt;code&gt;.cshrc&lt;/code&gt;, with the appropriate init file for your shell.&lt;/p&gt;&lt;/html&gt;</description></item>
   <item>
-   <title>Usync: A Data Synchronizer</title>
-   <link>http://www.example.com/blog/2013/05/21/usync-a-data-synchronizer/?utm_source=all&amp;utm_medium=RSS</link>
-   <guid>urn:http-www-example-com:-blog-2013-05-21-usync-a-data-synchronizer</guid>
+   <title>An Introduction to Usync</title>
+   <link>http://rmm.meta.ph/blog/2013/05/21/an-introduction-to-usync/?utm_source=all&amp;utm_medium=RSS</link>
+   <guid>urn:http-rmm-meta-ph:-blog-2013-05-21-an-introduction-to-usync</guid>
    <pubDate>Tue, 21 May 2013 19:18:33 PHT</pubDate>
    <description>&lt;html&gt;
 &lt;p&gt;Usync is a a site-to-site synchronization tool written in &lt;a href="http://www.scsh.net"&gt;Scsh&lt;/a&gt;. It makes use of &lt;a href="http://www.cis.upenn.edu/~bcpierce/unison/"&gt;Unison&lt;/a&gt;, and &lt;a href="http://rsync.samba.org/"&gt;rsync&lt;/a&gt;, for bi- and uni-directional synchronizations, respectively.&lt;/p&gt;
@@ -1245,8 +1245,8 @@ livefrog&lt;/code&gt; in your shell.&lt;/p&gt;
 &lt;p&gt;This program has been used on FreeBSD, hence making the shebang line contain &lt;code&gt;/usr/local/bin/scsh&lt;/code&gt;. Please change it, accordingly.&lt;/p&gt;&lt;/html&gt;</description></item>
   <item>
    <title>Squandered Relentlessness</title>
-   <link>http://www.example.com/blog/2013/05/09/squandered-relentlessness/?utm_source=all&amp;utm_medium=RSS</link>
-   <guid>urn:http-www-example-com:-blog-2013-05-09-squandered-relentlessness</guid>
+   <link>http://rmm.meta.ph/blog/2013/05/09/squandered-relentlessness/?utm_source=all&amp;utm_medium=RSS</link>
+   <guid>urn:http-rmm-meta-ph:-blog-2013-05-09-squandered-relentlessness</guid>
    <pubDate>Thu, 09 May 2013 16:11:03 PHT</pubDate>
    <description>&lt;html&gt;
 &lt;p&gt;There is a disturbing, and eerie sensation that I feel whenever the damping realization that I am no longer a young child, is observed in my consciousness. The uneasy struggle between learning to let go of my portentous past and my capricious future, grips me, with heavy clench. It is not about the inability to redo gratuitous expenditure of somewhat liberally-provided lax confinements of time, but it is about the unsettling observation that the mindset I previously took for granted, is now something that would require me Atlas strength to even begin to summon. I miss the unrelenting inquisitiveness that I once wielded with ease, to my daily scuffling scores with the hordes of raids of life.&lt;/p&gt;
@@ -1265,8 +1265,8 @@ livefrog&lt;/code&gt; in your shell.&lt;/p&gt;
 &lt;p&gt;When we voluntarily attach to our legs, heavy chains and balls of steel, we should not expect to be able to run around the colosseum with ease. When we dare to explore uncharted territories, without regrets, without dis-enchantments, without the necessity to have another ship propel us forward, we have triumphed.&lt;/p&gt;&lt;/html&gt;</description></item>
   <item>
    <title>Over, Under, and Elsewhere</title>
-   <link>http://www.example.com/blog/2013/05/09/over-under-and-elsewhere/?utm_source=all&amp;utm_medium=RSS</link>
-   <guid>urn:http-www-example-com:-blog-2013-05-09-over-under-and-elsewhere</guid>
+   <link>http://rmm.meta.ph/blog/2013/05/09/over-under-and-elsewhere/?utm_source=all&amp;utm_medium=RSS</link>
+   <guid>urn:http-rmm-meta-ph:-blog-2013-05-09-over-under-and-elsewhere</guid>
    <pubDate>Thu, 09 May 2013 16:08:36 PHT</pubDate>
    <description>&lt;html&gt;
 &lt;p&gt;Our cunning ability for oversight is deridingly high. Whether it may be solving a problem or just trying to be creative. Our impulse to over-engineer is unusually prevalent if our initial expectations are not met. We drag our consciousness to lengths almost unfathomable because we think that if we pour in a lot of thought, the outcome is positively and proportionately high according to our convictions. We complain about our lack of tools. We complain about our lack of resources. Yet, we are astonished and brought to shocking disbelief when someone does it with far less than what our hands have. We disenchant the probability that what we are precisely looking for, is right on our ear. Our ability to dismiss ideal options hulking right in front of us, is appalling. Why do we need to dig an underground tunnel to get in, when all that is needed is to knock?&lt;/p&gt;
@@ -1281,8 +1281,8 @@ livefrog&lt;/code&gt; in your shell.&lt;/p&gt;
 &lt;p&gt;Oftentimes, we overlook that all the tools that we need are right with us.&lt;/p&gt;&lt;/html&gt;</description></item>
   <item>
    <title>The Y Combinator in Six Easy Steps</title>
-   <link>http://www.example.com/blog/2013/05/09/the-y-combinator-in-six-easy-steps/?utm_source=all&amp;utm_medium=RSS</link>
-   <guid>urn:http-www-example-com:-blog-2013-05-09-the-y-combinator-in-six-easy-steps</guid>
+   <link>http://rmm.meta.ph/blog/2013/05/09/the-y-combinator-in-six-easy-steps/?utm_source=all&amp;utm_medium=RSS</link>
+   <guid>urn:http-rmm-meta-ph:-blog-2013-05-09-the-y-combinator-in-six-easy-steps</guid>
    <pubDate>Thu, 09 May 2013 12:43:11 PHT</pubDate>
    <description>&lt;html&gt;
 &lt;p&gt;A lot of us have been taught that to be able to define a recursive procedure, the recursive invocation must &amp;ldquo;use&amp;rdquo; the name of the recursive procedure. The &lt;a href="http://en.wikipedia.org/wiki/Fixed-point_combinator#Y_combinator"&gt;Y combinator&lt;/a&gt; , however, lets us perform recursion, without referring to the named identifier.&lt;/p&gt;

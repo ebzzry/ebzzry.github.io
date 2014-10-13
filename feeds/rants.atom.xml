@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?> 
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
- <title type="text">Live. Die. Live Again.: Posts tagged 'rants'</title>
- <link rel="self" href="http://www.example.com/feeds/rants.atom.xml" />
- <link href="http://www.example.com/tags/rants.html" />
- <id>urn:http-www-example-com:-tags-rants-html</id>
+ <title type="text">Live. Die. Repeat.: Posts tagged 'rants'</title>
+ <link rel="self" href="http://rmm.meta.ph/feeds/rants.atom.xml" />
+ <link href="http://rmm.meta.ph/tags/rants.html" />
+ <id>urn:http-rmm-meta-ph:-tags-rants-html</id>
  <updated>2013-05-09T16:11:03Z</updated>
  <entry>
   <title type="text">Squandered Relentlessness</title>
-  <link rel="alternate" href="http://www.example.com/blog/2013/05/09/squandered-relentlessness/?utm_source=rants&amp;utm_medium=Atom" />
-  <id>urn:http-www-example-com:-blog-2013-05-09-squandered-relentlessness</id>
+  <link rel="alternate" href="http://rmm.meta.ph/blog/2013/05/09/squandered-relentlessness/?utm_source=rants&amp;utm_medium=Atom" />
+  <id>urn:http-rmm-meta-ph:-blog-2013-05-09-squandered-relentlessness</id>
   <published>2013-05-09T16:11:03Z</published>
   <updated>2013-05-09T16:11:03Z</updated>
   <author>
@@ -30,8 +30,8 @@
 &lt;p&gt;When we voluntarily attach to our legs, heavy chains and balls of steel, we should not expect to be able to run around the colosseum with ease. When we dare to explore uncharted territories, without regrets, without dis-enchantments, without the necessity to have another ship propel us forward, we have triumphed.&lt;/p&gt;&lt;/html&gt;</content></entry>
  <entry>
   <title type="text">Over, Under, and Elsewhere</title>
-  <link rel="alternate" href="http://www.example.com/blog/2013/05/09/over-under-and-elsewhere/?utm_source=rants&amp;utm_medium=Atom" />
-  <id>urn:http-www-example-com:-blog-2013-05-09-over-under-and-elsewhere</id>
+  <link rel="alternate" href="http://rmm.meta.ph/blog/2013/05/09/over-under-and-elsewhere/?utm_source=rants&amp;utm_medium=Atom" />
+  <id>urn:http-rmm-meta-ph:-blog-2013-05-09-over-under-and-elsewhere</id>
   <published>2013-05-09T16:08:36Z</published>
   <updated>2013-05-09T16:08:36Z</updated>
   <author>

@@ -3,15 +3,15 @@
   <head>
 
     <meta charset="utf-8">
-    <title>Livefrog: A LiveJournal Utility</title>
-    <meta name="description" content="I am pleased to announce the release of **livefrog**, a utility I wrote to migrate LiveJournal articles to Frog.  The sources, along with additional information, are located at github.com/ebzzry/livefrog....">
+    <title>Emacs: Hacks 1</title>
+    <meta name="description" content="In this series of posts, I will be sharing my personal hacks on how I use Emacs for my day-to-day stuff. Most, if not all of the code contained in these posts are excerpts from the respective configuration files that I use.  The rest of the configuration ...">
     <meta name="author"      content="Rommel Martinez">
-    <meta name="keywords"    content="racket, programming">
+    <meta name="keywords"    content="emacs, programming">
     <meta name="viewport"    content="width=device-width, initial-scale=1.0">
     <link rel="icon"      href="/favicon.ico">
-    <link rel="canonical" href="http://www.example.com/blog/2013/05/29/livefrog-a-livejournal-utility/">
+    <link rel="canonical" href="http://rmm.meta.ph/blog/2013/09/10/emacs-hacks-1/">
     <!-- CSS -->
-    <link rel="stylesheet" type="text/css" href="/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="/css/pygments.css">
     <link rel="stylesheet" type="text/css" href="/css/scribble.css">
     <link rel="stylesheet" type="text/css" href="/css/custom.css">
@@ -87,7 +87,7 @@
               </ul>
             </li>
             <li>
-              <a href="/About.html">About</a>
+              <a href="/about.html">About</a>
             </li> 
             <li><a href="/feeds/all.atom.xml">Atom</a></li>
             <li><a href="/feeds/all.rss.xml">RSS</a></li>
@@ -106,128 +106,128 @@
 
           <article>
   <header>
-    <h1>Livefrog: A LiveJournal Utility</h1>
+    <h1>Emacs: Hacks 1</h1>
 
 <p class="date-and-tags">
- <time datetime="2013-05-29" pubdate="true">2013-05-29</time> :: <span class="tags"><a href="/tags/racket.html">racket</a>, <a href="/tags/programming.html">programming</a></span></p>
+ <time datetime="2013-09-10" pubdate="true">2013-09-10</time> :: <span class="tags"><a href="/tags/emacs.html">emacs</a>, <a href="/tags/programming.html">programming</a></span></p>
   </header>
 
-<p>I am pleased to announce the release of <strong>livefrog</strong>, a utility I wrote to migrate LiveJournal articles to <a href="http://github.com/greghendershott/frog">Frog</a>.</p>
+<p>In this series of posts, I will be sharing my personal hacks on how I use Emacs for my day-to-day stuff. Most, if not all of the code contained in these posts are excerpts from the respective configuration files that I use.</p>
 
-<p>The sources, along with additional information, are located at <a href="http://github.com/ebzzry/livefrog">github.com/ebzzry/livefrog</a>.</p>
+<p>The rest of the configuration can be found at <a href="http://github.com/ebzzry/dotemacs">github.com/ebzzry/dotemacs</a>.</p>
 <!-- more-->
 
-<h1 id="introduction">Introduction</h1>
+<pre><code>(defun delete-forward-char-or-region (&amp;optional arg)
+  (interactive "p")
+  (if (region-active-p)
+      (delete-region (region-beginning)
+                     (region-end))
+      (delete-forward-char arg)))
 
-<p>livefrog is a utility written in <a href="http://racket-lang.org">Racket</a>, used to migrate LiveJournal posts to <a href="https://github.com/greghendershott/frog/">Frog</a>, a blogging platform written in Racket, too. It uses the files dumped by either <a href="http://hewgill.com/ljdump/">ljdump</a>, or <a href="http://github.com/ceejbot/ljmigrate">ljmigrate</a>.</p>
+(define-key global-map [deletechar] 'delete-forward-char-or-region)
+(define-key global-map [del] 'delete-forward-char-or-region)</code></pre>
 
-<h1 id="installation">Installation</h1>
+<p>This command deletes a region if one is active, or deletes the character underneath the cursor. I have this bound to the DEL key.</p>
 
-<p>livefrog is available via Racket&rsquo;s <a href="http://pkg.racket-lang.org">Planet2</a>:</p>
+<pre><code>(defun compile-file ()
+  (interactive)
+  (compile "make -k"))
 
-<pre><code>$ raco pkg install livefrog</code></pre>
+(define-key global-map [(control ?x) ?c] 'compile-file)</code></pre>
 
-<p>If that doesn&rsquo;t work, you can alternately install by fetching livefrog, and the dependencies, from github</p>
+<p>I use this command frequently, and I use it from typesetting LaTeX documents, compiling Scribble documents, compiling code, and just about anything that I can use Make with.</p>
 
-<pre><code>$ git clone https://github.com/jbclements/sxml.git
-$ git clone https://github.com/greghendershott/frog.git
-$ git clone https://github.com/ebzzry/livefrog.git
-$ raco pkg install frog/ sxml/ livefrog/</code></pre>
+<pre><code>(defun geiser-save ()
+  (interactive)
+  (geiser-repl--write-input-ring))</code></pre>
 
-<p>The trailing slashes are important, to tell <code>raco</code> that you are installing from local directories. Without it, it will try to fetch the sources from the internet.</p>
+<p>This comes in very handy for me, because sometimes I lose the REPL buffer before the input ring has been saved. When I need to run I execute <code>M-x geiser-save</code>.</p>
 
-<h1 id="usage">Usage</h1>
+<pre><code>(defun my-scheme-mode-hook ()
+  (put 'λ 'scheme-indent-function 1)
+  (define-key scheme-mode-map [(control ?c) tab] 'completion-at-point))
 
-<p>This sections contains instructions for creating files suitable for use with Frog.</p>
+(add-hook 'scheme-mode-hook 'my-scheme-mode-hook)</code></pre>
 
-<h2 id="basics">Basics</h2>
+<p>I also have the above, since I want to align the <code>λ</code> symbol nicely.</p>
 
-<p>To create a Markdown file from the file entry.xml</p>
+<pre><code>(require 'tramp)
 
-<pre><code>$ raco livefrog -m entry.xml</code></pre>
+(add-to-list 'tramp-remote-path "/var/run/current-system/sw/bin")</code></pre>
 
-<p>That, however, becomes cumbersome if you&rsquo;re going to manage more than a hundred entries. To automatically &ldquo;pick up&rdquo; the files created by ljdump or ljmigrate, and convert them to Markdown.</p>
+<p>The above snippet is applicable only to users of NixOS, since the filesystem tree is deviantly different from &ldquo;regular&rdquo; nixen.</p>
 
-<pre><code>$ raco livefrog -am</code></pre>
+<pre><code>(defun other-window-1 (&amp;optional arg)
+  (interactive "p")
+  (other-window (- arg)))
 
-<p>Bear in mind, though, that ljdump and ljmigrate differ on how the trees for the data are created. ljdump has the following tree format, where USERNAME is your LiveJournal account name:</p>
+(define-key global-map [(control left)] 'other-window-1)
+(define-key global-map [(control right)] 'other-window)</code></pre>
 
-<pre><code>ljdump/
-  build
-  ChangeLog
-  convertdump.py
-  USERNAME/
-    L-1
-    L-2
-    C-2
-    L-3
-    ...
-  ljdump.config
-  ljdump.config.sample
-  ljdump-gui.py
-  ljdump.py*
-  README.txt
-  TODO</code></pre>
+<p>One of my favorites, and I may be biased because I&rsquo;m using a <a href="http://www.kinesis-ergo.com/advantage.htm">Kinesis Advantage keyboard</a>, wherein the arrow keys are very easy to reach, but nevertheless, YMMV.</p>
 
-<p>ljmigrate, on the other hand, uses a different format:</p>
+<pre><code>(defun find-two-files (orientation directory file1 file2)
+  (let ((file-path1 (file-truename file1))
+        (file-path2 (file-truename file2)))
+    (delete-other-windows)
 
-<pre><code>ljmigrate/
-  LICENSE.text
-  ljmigrate.cfg
-  ljmigrate.cfg.sample
-  ljmigrate.py*
-  README.md
-  README_windows.txt
-  TODO
-  www.livejournal.com/
-    USERNAME/
-      entry00001/
-        entry.xml
-      entry00002/
-        entry.xml
-        comment.xml
-      html/
-      metadata/
-      userpics/</code></pre>
+    (case orientation
+      (vertical (progn (split-window-right)
+                       (find-file file-path1)
+                       (other-window 1)
+                       (find-file file-path2)))
+      (horizontal (progn (split-window)
+                         (find-file file-path1)
+                         (other-window 1)
+                         (find-file file-path2)))
 
-<p>After creating the Markdown Frog source files, you may now copy them to your Frog source directory, designated at <code>_src/posts/</code></p>
+      (other-window 1))))
 
-<h2 id="comments">Comments</h2>
+(defun find-two-files-vertically (directory file1 file2)
+  (find-two-files 'vertical directory file1 file2))
 
-<p>Frog, by default, uses <a href="http://disqus.com">Disqus</a> to handle the comments. To import comments to this platform, we need to generate an XML file that must adhere to Disqus&rsquo; comment import rules.</p>
+(defun find-two-files-horizontally (directory file1 file2)
+  (find-two-files 'horizontal directory file1 file2))</code></pre>
 
-<p>To create a file, named <code>comments.xml</code> that will be used for importing comments, to be used with <a href="http://import.disqus.com/">import.disqus.com</a>, using <code>foo.bar.com</code> as the root site:</p>
+<pre><code>ev () { emacsclient -nw --eval "(find-two-files-vertically \"$(pwd)\" \"$1\" \"$2\")" }
+eh () { emacsclient -nw --eval "(find-two-files-horizontally \"$(pwd)\" \"$1\" \"$2\")" }</code></pre>
 
-<pre><code>$ raco livefrog -s foo.bar.com -c comments.xml</code></pre>
+<p>The two snippets above, for Elisp and Zsh (or your shell), respectively, load two files into an Emacs buffer, oriented horizontally, and vertically, respectively.</p>
 
-<h1 id="updating">Updating</h1>
+<p>So, to load <code>~/test1.txt</code> and <code>~/test2.txt</code> in Emacs, split windows, horizontally, run:</p>
 
-<p>If you installed livefrog using Planet2, you can update it by running:</p>
+<pre><code>$ ev ~/test1.txt ~/test2.txt</code></pre>
 
-<pre><code>$ raco pkg update livefrog</code></pre>
+<pre><code>(require 'server)
 
-<p>However, if you used the latter method, you may update it by pulling the updates, uninstalling livefrog, then installing it again:</p>
+(unless (server-running-p)
+  (server-start))</code></pre>
 
-<pre><code>$ cd livefrog
-$ git pull origin master
-$ cd ..
-$ raco pkg remove livefrog
-$ raco pkg install livefrog/</code></pre>
+<p>This snippet runs the server instance, when it is not running, yet:</p>
 
-<h1 id="miscellany">Miscellany</h1>
+<pre><code>(defun kill-current-buffer ()
+  (interactive)
+  (kill-buffer (current-buffer)))
 
-<p>To reduce typing, you may optionally create an alias to <code>raco
-livefrog</code> in your shell.</p>
+(define-key global-map [(control ?x) (control ?k)] 'kill-current-buffer)</code></pre>
 
-<p>Sh-like shells:</p>
+<p>A lot of us have this, but this is my simple, unconvoluted version</p>
 
-<pre><code>$ echo 'alias livefrog="raco livefrog"' &gt;&gt; ~/.bashrc</code></pre>
+<pre><code>(defun mark-line (&amp;optional arg)
+  (interactive "p")
+  (if (not mark-active)
+      (progn
+        (beginning-of-line)
+        (push-mark)
+        (setq mark-active t)))
+  (forward-line arg))
 
-<p>Csh-like shells:</p>
+(define-key global-map [(shift ? )] 'mark-line)
+(define-key global-map [(control ?z)] 'mark-line)</code></pre>
 
-<pre><code>$ echo 'alias livefrog raco livefrog' &gt;&gt; ~/.cshrc</code></pre>
+<p>There have been plenty of times in the past when I needed this function, and I would have to press a long series of keystrokes just to get it down. The above is what I have, instead.</p>
 
-<p>Replace <code>.bashrc</code>, and <code>.cshrc</code>, with the appropriate init file for your shell.</p>
+<p>Well, that is it for now. Ciao!</p>
   <footer>
     <script type="text/javascript">
       !function(d,s,id){
@@ -242,11 +242,11 @@ livefrog</code> in your shell.</p>
     </script>
     <a href="https://twitter.com/share"
        class="twitter-share-button"
-       data-url="http://www.example.com/blog/2013/05/29/livefrog-a-livejournal-utility/"
+       data-url="http://rmm.meta.ph/blog/2013/09/10/emacs-hacks-1/"
        data-dnt="true">
       "Tweet"</a>
     <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
-    <g:plusone size="medium" href="http://www.example.com/blog/2013/05/29/livefrog-a-livejournal-utility/"></g:plusone>
+    <g:plusone size="medium" href="http://rmm.meta.ph/blog/2013/09/10/emacs-hacks-1/"></g:plusone>
     <script type="text/javascript">
       var disqus_shortname = 'ebzzry';
       (function() {
@@ -260,10 +260,10 @@ livefrog</code> in your shell.</p>
     <div id="disqus_thread"></div>
     <ul class="pager">
     <li class="previous">
-      <a href="/blog/2013/09/10/emacs-and-hax/">&larr; <em>Emacs and Hax</em></a>
+      <a href="/blog/2013/09/26/emacs-dired/">&larr; <em>Emacs: Dired</em></a>
     </li>
     <li class="next">
-      <a href="/blog/2013/05/21/usync-a-data-synchronizer/"><em>Usync: A Data Synchronizer</em> &rarr;</a>
+      <a href="/blog/2013/05/29/an-introduction-to-livefrog/"><em>An Introduction to Livefrog</em> &rarr;</a>
     </li>
     </ul>
   </footer>

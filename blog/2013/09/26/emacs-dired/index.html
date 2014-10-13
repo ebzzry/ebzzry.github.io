@@ -4,16 +4,12 @@
 
     <meta charset="utf-8">
     <title>Emacs: Dired</title>
-    <meta name="description" content="In this post, I'll be focusing on one of the novel ways Emacs handles
-&quot;directory editing&quot;. The directory editor, or dired (pronounced
-dir-ed, not die-rd), for short, is the Emacs equivalent of a file
-manager. Whatever you can do with regular file buffers, you can also do it with
-dired buffers, to a certain extent. ...">
+    <meta name="description" content="In this post, I'll be focusing on one of the novel ways Emacs handles _directory editing_. The directory editor, or **dired** (pronounced dir-ed, not die-rd), for short, is the Emacs equivalent of a file manager. Whatever you can do with regular file buff...">
     <meta name="author"      content="Rommel Martinez">
     <meta name="keywords"    content="emacs, programming">
     <meta name="viewport"    content="width=device-width, initial-scale=1.0">
     <link rel="icon"      href="/favicon.ico">
-    <link rel="canonical" href="http://www.example.com/blog/2013/09/26/emacs-dired/">
+    <link rel="canonical" href="http://rmm.meta.ph/blog/2013/09/26/emacs-dired/">
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="/css/pygments.css">
@@ -40,7 +36,7 @@ dired buffers, to a certain extent. ...">
       })();
     </script>
   </head>
-  <body>
+  <body id="wrapper">
     <!-- A standard Twitter Bootstrap nav bar -->
     <header class="navbar navbar-default navbar-inverse"
             role="banner">
@@ -55,7 +51,7 @@ dired buffers, to a certain extent. ...">
             <span class="icon-bar"></span>
           </button>
           <!-- <a href="/index.html" class="navbar-brand">Home</a> -->
-          <a href="/index.html" class="navbar-brand">#</a>
+          <a href="/index.html" class="navbar-brand">Home</a>
         </div>
         <div class="collapse navbar-collapse our-nav-collapse"
              role="navigation">
@@ -67,7 +63,11 @@ dired buffers, to a certain extent. ...">
               <ul class="dropdown-menu">
                 <li><a href="/index.html">All Posts</a></li>
 
+<li><a href="/tags/backups.html">backups</a></li>
+
 <li><a href="/tags/emacs.html">emacs</a></li>
+
+<li><a href="/tags/gpg.html">gpg</a></li>
 
 <li><a href="/tags/mail.html">mail</a></li>
 
@@ -78,10 +78,16 @@ dired buffers, to a certain extent. ...">
 <li><a href="/tags/rants.html">rants</a></li>
 
 <li><a href="/tags/scheme.html">scheme</a></li>
+
+<li><a href="/tags/ssh.html">ssh</a></li>
+
+<li><a href="/tags/sysadmin.html">sysadmin</a></li>
+
+<li><a href="/tags/web.html">web</a></li>
               </ul>
             </li>
             <li>
-              <a href="/About.html">About</a>
+              <a href="/about.html">About</a>
             </li> 
             <li><a href="/feeds/all.atom.xml">Atom</a></li>
             <li><a href="/feeds/all.rss.xml">RSS</a></li>
@@ -98,524 +104,143 @@ dired buffers, to a certain extent. ...">
 
 
 
+          <article>
+  <header>
+    <h1>Emacs: Dired</h1>
 
-<article>
-
- <header>
-
-  <h1>Emacs: Dired</h1>
-
-  <p class="date-and-tags">
-   <time datetime="2013-09-26" pubdate="true">2013-09-26</time> :: <span class="tags"><a href="/tags/emacs.html">emacs</a>, <a href="/tags/programming.html">programming</a></span></p>
+<p class="date-and-tags">
+ <time datetime="2013-09-26" pubdate="true">2013-09-26</time> :: <span class="tags"><a href="/tags/emacs.html">emacs</a>, <a href="/tags/programming.html">programming</a></span></p>
   </header>
 
-
- <p>In this post, I&rsquo;ll be focusing on one of the novel ways Emacs handles
-<span style="font-style: italic">"directory editing"</span>. The directory editor, or <span style="font-weight: bold">dired</span> (pronounced
-dir-ed, not die-rd), for short, is the Emacs equivalent of a file
-manager. Whatever you can do with regular file buffers, you can also do it with
-dired buffers, to a certain extent.</p>
-
-
- <h1>1
-
-  <tt>&nbsp;</tt><a name="(part._.Introduction)"></a>Introduction</h1>
-
-
- <p>To run dired, run emacs on the command line, supplying a directory as its argument:</p>
-
-
- <div class="SCodeFlow">
-
-  <table cellspacing="0" class="RktBlk">
-
-   <tbody>
-
-    <tr>
-
-     <td><span class="RktSym">emacs</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">~/Desktop/</span><span class="RktMeta"></span></td></tr></tbody></table></div>
-
-
- <p>Or, alternatively, you can press <span class="RktSym">C-x</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">d</span><span class="RktMeta"></span> inside Emacs. If you are
-currently editing a file, the directory of that file will be presented as the
-default value in the minibuffer area. Either way, when you hit <span class="RktSym">Enter</span><span class="RktMeta"></span>, a
-buffer of the directory will load, that looks like the output of
-<span class="RktSym">ls</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym"><span class="nobreak">-l</span></span><span class="RktMeta"></span>:</p>
-
-
- <div class="SCodeFlow">
-
-  <table cellspacing="0" class="RktBlk">
-
-   <tbody>
-
-    <tr>
-
-     <td><span class="RktSym">/home/rmm/Desktop/foo:</span><span class="RktMeta"></span></td></tr>
-
-    <tr>
-
-     <td><span class="RktMeta"></span><span class="RktSym">total</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">used</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">in</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">directory</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktVal">84</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">available</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktVal">540767396</span><span class="RktMeta"></span></td></tr>
-
-    <tr>
-
-     <td><span class="RktMeta"></span><span class="RktSym"><span class="nobreak">-r</span>w-r--r--</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktVal">1</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">rmm</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">users</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktVal">5935</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">Sep</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktVal">27</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">18:17</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">index.html</span><span class="RktMeta"></span></td></tr>
-
-    <tr>
-
-     <td><span class="RktMeta"></span><span class="RktSym"><span class="nobreak">-r</span>w-r--r--</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktVal">1</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">rmm</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">users</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktVal">5944</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">Sep</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktVal">27</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">18:17</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">index2.html</span><span class="RktMeta"></span></td></tr>
-
-    <tr>
-
-     <td><span class="RktMeta"></span><span class="RktSym">drwxr-xr-x</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktVal">3</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">rmm</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">users</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktVal">4096</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">Sep</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktVal">26</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">17:42</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">pics</span><span class="RktMeta"></span></td></tr>
-
-    <tr>
-
-     <td><span class="RktMeta"></span><span class="RktSym">drwxr-xr-x</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktVal">3</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">rmm</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">users</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktVal">4096</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">Sep</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktVal">26</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">05:39</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">vids</span><span class="RktMeta"></span></td></tr></tbody></table></div>
-
-
- <p>Okay, now that we have it, what can we do with it? Well, here is a short list
-of what, we can do with it. Take note, that the keyboard shortcuts in this
-article are case-sensitive, unless explicitly stated otherwise.</p>
-
-
- <h1>2
-
-  <tt>&nbsp;</tt><a name="(part._.Common_commands)"></a>Common commands</h1>
-
-
- <p>These are the usual commands that you would use, in a dired buffer. In addition
-to that, they can operate on single, or multiple items. Using them for multiple
-items will be explained, next.</p>
-
-
- <p></p>
-
-
- <table cellspacing="0" class="boxed">
-
-  <tbody>
-
-   <tr>
-
-    <td>
-
-     <p><span style="font-weight: bold">Key</span></p></td>
-
-    <td>
-
-     <p><span class="hspace">&nbsp;</span></p></td>
-
-    <td>
-
-     <p><span style="font-weight: bold">What it does</span></p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span style="font-weight: bold">R</span></p></td>
-
-    <td>
-
-     <p><span class="hspace">&nbsp;</span></p></td>
-
-    <td>
-
-     <p>Rename item(s)</p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span style="font-weight: bold">C</span></p></td>
-
-    <td>
-
-     <p><span class="hspace">&nbsp;</span></p></td>
-
-    <td>
-
-     <p>Copy item(s)</p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span style="font-weight: bold">D</span></p></td>
-
-    <td>
-
-     <p><span class="hspace">&nbsp;</span></p></td>
-
-    <td>
-
-     <p>Delete item(s)</p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span style="font-weight: bold">O</span></p></td>
-
-    <td>
-
-     <p><span class="hspace">&nbsp;</span></p></td>
-
-    <td>
-
-     <p>Change item(s) owner</p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span style="font-weight: bold">G</span></p></td>
-
-    <td>
-
-     <p><span class="hspace">&nbsp;</span></p></td>
-
-    <td>
-
-     <p>Change item(s) group</p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span style="font-weight: bold">M</span></p></td>
-
-    <td>
-
-     <p><span class="hspace">&nbsp;</span></p></td>
-
-    <td>
-
-     <p>Change item(s) permission</p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span style="font-weight: bold">S</span></p></td>
-
-    <td>
-
-     <p><span class="hspace">&nbsp;</span></p></td>
-
-    <td>
-
-     <p>Create symlink</p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span style="font-weight: bold">T</span></p></td>
-
-    <td>
-
-     <p><span class="hspace">&nbsp;</span></p></td>
-
-    <td>
-
-     <p>Touch item(s), like "touch"</p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span style="font-weight: bold">X</span></p></td>
-
-    <td>
-
-     <p><span class="hspace">&nbsp;</span></p></td>
-
-    <td>
-
-     <p>Execute a shell command on item(s)</p></td></tr></tbody></table>
-
-
- <h1>3
-
-  <tt>&nbsp;</tt><a name="(part._.Mark_commands)"></a>Mark commands</h1>
-
-
- <p>These commands perform mark-related operations on items. Creating marks simply
-means putting a tag on items, so that you can perform the operations in the
-previous section, on them.</p>
-
-
- <p></p>
-
-
- <table cellspacing="0" class="boxed">
-
-  <tbody>
-
-   <tr>
-
-    <td>
-
-     <p><span style="font-weight: bold">Key</span></p></td>
-
-    <td>
-
-     <p><span class="hspace">&nbsp;</span></p></td>
-
-    <td>
-
-     <p><span style="font-weight: bold">What it does</span></p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span style="font-weight: bold">m</span></p></td>
-
-    <td>
-
-     <p><span class="hspace">&nbsp;</span></p></td>
-
-    <td>
-
-     <p>Mark an item, for the above-listed commands</p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span style="font-weight: bold">u</span></p></td>
-
-    <td>
-
-     <p><span class="hspace">&nbsp;</span></p></td>
-
-    <td>
-
-     <p>Unmark a single item</p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span style="font-weight: bold">U</span></p></td>
-
-    <td>
-
-     <p><span class="hspace">&nbsp;</span></p></td>
-
-    <td>
-
-     <p>Unmark all items</p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span style="font-weight: bold">t</span></p></td>
-
-    <td>
-
-     <p><span class="hspace">&nbsp;</span></p></td>
-
-    <td>
-
-     <p>Toggle marks between marked and unmarked items</p></td></tr></tbody></table>
-
-
- <h1>4
-
-  <tt>&nbsp;</tt><a name="(part._.Other_commands)"></a>Other commands</h1>
-
-
- <p>These commands act on their own. They operate on single items, and they don&rsquo;t
-make use of marks. The <span style="font-weight: bold">w</span> command, however, is an exception.</p>
-
-
- <p></p>
-
-
- <table cellspacing="0" class="boxed">
-
-  <tbody>
-
-   <tr>
-
-    <td>
-
-     <p><span style="font-weight: bold">Key</span></p></td>
-
-    <td>
-
-     <p><span class="hspace">&nbsp;</span></p></td>
-
-    <td>
-
-     <p><span style="font-weight: bold">What it does</span></p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span style="font-weight: bold">+</span></p></td>
-
-    <td>
-
-     <p><span class="hspace">&nbsp;</span></p></td>
-
-    <td>
-
-     <p>Create directory</p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span style="font-weight: bold">^</span></p></td>
-
-    <td>
-
-     <p><span class="hspace">&nbsp;</span></p></td>
-
-    <td>
-
-     <p>Go up, one level, like "cd .."</p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span style="font-weight: bold">e</span></p></td>
-
-    <td>
-
-     <p><span class="hspace">&nbsp;</span></p></td>
-
-    <td>
-
-     <p>Edit an item</p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span style="font-weight: bold">f</span></p></td>
-
-    <td>
-
-     <p><span class="hspace">&nbsp;</span></p></td>
-
-    <td>
-
-     <p>Edit an item</p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span style="font-weight: bold">v</span></p></td>
-
-    <td>
-
-     <p><span class="hspace">&nbsp;</span></p></td>
-
-    <td>
-
-     <p>View an item, like "less" or "more"</p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span style="font-weight: bold">g</span></p></td>
-
-    <td>
-
-     <p><span class="hspace">&nbsp;</span></p></td>
-
-    <td>
-
-     <p>Reload the current directory</p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span style="font-weight: bold">j</span></p></td>
-
-    <td>
-
-     <p><span class="hspace">&nbsp;</span></p></td>
-
-    <td>
-
-     <p>Jump to an item</p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span style="font-weight: bold">s</span></p></td>
-
-    <td>
-
-     <p><span class="hspace">&nbsp;</span></p></td>
-
-    <td>
-
-     <p>Change sort order</p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span style="font-weight: bold">y</span></p></td>
-
-    <td>
-
-     <p><span class="hspace">&nbsp;</span></p></td>
-
-    <td>
-
-     <p>Show file type of item, like "file"</p></td></tr>
-
-   <tr>
-
-    <td>
-
-     <p><span style="font-weight: bold">w</span></p></td>
-
-    <td>
-
-     <p><span class="hspace">&nbsp;</span></p></td>
-
-    <td>
-
-     <p>Copy item name(s) to the clipboard</p></td></tr></tbody></table>
-
-
- <h1>5
-
-  <tt>&nbsp;</tt><a name="(part._.W.Dired_mode)"></a>WDired mode</h1>
-
-
- <p><span style="font-weight: bold">BUT</span>, one of the coolest, and often-overlooked feature of dired is the
-<span style="font-weight: bold">WDired</span> mode. What it does is that it gives you a decent ability to edit
-the item names in a dired buffer, just as you would on a typical buffer. To
-enter wdired mode, hit <span class="RktSym">M-x</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">wdired-change-to-wdired-mode</span><span class="RktMeta"></span>. The major mode
-changes from <span style="font-weight: bold"><span style="font-style: italic">Dired</span></span> to <span style="font-weight: bold"><span style="font-style: italic">Editable Dired</span></span>. You can then
-rename the files, and directories, with ease. You can even use rectangle and
-replace functions on them, to make things easier. The changes you have made at
-this point are not yet saved. To save the changes, press <span class="RktSym">C-c</span><span class="RktMeta"></span><span class="hspace">&nbsp;</span><span class="RktMeta"></span><span class="RktSym">C-c</span><span class="RktMeta"></span>.</p>
-
-
- <p>Well, that is it for now. Ciao!</p>
-
- <footer>
-
-  <script type="text/javascript">
+<p>In this post, I&rsquo;ll be focusing on one of the novel ways Emacs handles <em>directory editing</em>. The directory editor, or <strong>dired</strong> (pronounced dir-ed, not die-rd), for short, is the Emacs equivalent of a file manager. Whatever you can do with regular file buffers, you can also do it with dired buffers, to a certain extent.</p>
+<!-- more-->
+
+<h1 id="introduction">Introduction</h1>
+
+<p>To run dired, run emacs on the command line, supplying a directory as its argument:</p>
+
+<pre><code>$ emacs ~/Desktop/</code></pre>
+
+<p>Or, alternatively, you can press <code>C-x d</code> inside Emacs. If you are currently editing a file, the directory of that file will be presented as the default value in the minibuffer area. Either way, when you hit <code>Enter</code>, a buffer of the directory will load, that looks like the output of <code>ls -l</code>:</p>
+
+<pre><code>/home/john/Desktop/foo:
+total used in directory 84 available 540767396
+-rw-r--r-- 1 john users 5935 Sep 27 18:17 index.html
+-rw-r--r-- 1 john users 5944 Sep 27 18:17 index2.html
+drwxr-xr-x 3 john users 4096 Sep 26 17:42 pics
+drwxr-xr-x 3 john users 4096 Sep 26 05:39 vids</code></pre>
+
+<p>Okay, now that we have it, what can we do with it? Well, here is a short list of what, we can do with it. Take note, that the keyboard shortcuts in this article are case-sensitive, unless explicitly stated otherwise.</p>
+
+<h1 id="common-commands">Common commands</h1>
+
+<p>These are the usual commands that you would use, in a dired buffer. In addition to that, they can operate on single, or multiple items. Using them for multiple items will be explained, next.</p>
+
+<table>
+ <tr>
+  <th>Key</th>
+  <th>What it does</th></tr>
+ <tr>
+  <td>R</td>
+  <td>Rename item(s)</td></tr>
+ <tr>
+  <td>C</td>
+  <td>Copy item(s)</td></tr>
+ <tr>
+  <td>D</td>
+  <td>Delete item(s)</td></tr>
+ <tr>
+  <td>O</td>
+  <td>Change item(s) owner</td></tr>
+ <tr>
+  <td>G</td>
+  <td>Change item(s) group</td></tr>
+ <tr>
+  <td>M</td>
+  <td>Change item(s) permission</td></tr>
+ <tr>
+  <td>S</td>
+  <td>Create symlink</td></tr>
+ <tr>
+  <td>T</td>
+  <td>Touch item(s), a la `touch`</td></tr>
+ <tr>
+  <td>X</td>
+  <td>Execute a shell command on item(s)</td></tr></table>
+
+<h1 id="mark-commands">Mark commands</h1>
+
+<p>These commands perform mark-related operations on items. Creating marks simply means putting a tag on items, so that you can perform the operations in the previous section, on them.</p>
+
+<table>
+ <tr>
+  <th>Key</th>
+  <th>What it does</th></tr>
+ <tr>
+  <td>m</td>
+  <td>Mark an item, for the above-listed commands</td></tr>
+ <tr>
+  <td>d</td>
+  <td>Mark an item for deletion operations</td></tr>
+ <tr>
+  <td>x</td>
+  <td>Perform actual deletion</td></tr>
+ <tr>
+  <td>u</td>
+  <td>Unmark a single item</td></tr>
+ <tr>
+  <td>U</td>
+  <td>Unmark all items</td></tr>
+ <tr>
+  <td>t</td>
+  <td>Toggle marks between marked and unmarked items</td></tr></table>
+
+<h1 id="other-commands">Other commands</h1>
+
+<p>These commands act on their own. They operate on single items, and they don&rsquo;t make use of marks. The <strong>w</strong> command, however, is an exception.</p>
+
+<table>
+ <tr>
+  <th>Key</th>
+  <th>What it does</th></tr>
+ <tr>
+  <td>+</td>
+  <td>Create directory</td></tr>
+ <tr>
+  <td>^</td>
+  <td>Go up, one level, like `cd ..`</td></tr>
+ <tr>
+  <td>e</td>
+  <td>Edit an item</td></tr>
+ <tr>
+  <td>f</td>
+  <td>Edit an item</td></tr>
+ <tr>
+  <td>v</td>
+  <td>View an item, like `less` or `more`</td></tr>
+ <tr>
+  <td>g</td>
+  <td>Reload the current directory</td></tr>
+ <tr>
+  <td>j</td>
+  <td>Jump to an item</td></tr>
+ <tr>
+  <td>s</td>
+  <td>Change sort order</td></tr>
+ <tr>
+  <td>y</td>
+  <td>Show file type of item, like `file`</td></tr>
+ <tr>
+  <td>w</td>
+  <td>Copy item name(s) to the clipboard</td></tr></table>
+
+<h1 id="wdired-mode">WDired mode</h1>
+
+<p><em>BUT</em>, one of the coolest, and often-overlooked feature of dired is the <strong>WDired</strong> mode. What it does is that it gives you a decent ability to edit the item names in a dired buffer, just as you would on a typical buffer. To enter wdired mode, hit <code>M-x wdired-change-to-wdired-mode</code>. The major mode changes from <code>Dired</code> to <code>Editable Dired</code>. You can then rename the files, and directories, with ease. You can even use rectangle and replace functions on them, to make things easier. The changes you have made at this point are not yet saved. To save the changes, press <code>C-c C-c</code>.</p>
+
+<p>Well, that is it for now. Ciao!</p>
+  <footer>
+    <script type="text/javascript">
       !function(d,s,id){
           var js,fjs=d.getElementsByTagName(s)[0];
           if(!d.getElementById(id)){
@@ -626,14 +251,14 @@ this point are not yet saved. To save the changes, press <span class="RktSym">C-
           }
       }(document,"script","twitter-wjs");
     </script>
-    <a class="twitter-share-button" data-dnt="true" data-url="http://www.example.com/blog/2013/09/26/emacs-dired/" href="https://twitter.com/share">
+    <a href="https://twitter.com/share"
+       class="twitter-share-button"
+       data-url="http://rmm.meta.ph/blog/2013/09/26/emacs-dired/"
+       data-dnt="true">
       "Tweet"</a>
-
-  <script src="https://apis.google.com/js/plusone.js" type="text/javascript"></script>
-
-  <g:plusone href="http://www.example.com/blog/2013/09/26/emacs-dired/" size="medium"></g:plusone>
-
-  <script type="text/javascript">
+    <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+    <g:plusone size="medium" href="http://rmm.meta.ph/blog/2013/09/26/emacs-dired/"></g:plusone>
+    <script type="text/javascript">
       var disqus_shortname = 'ebzzry';
       (function() {
           var dsq = document.createElement('script');
@@ -643,17 +268,13 @@ this point are not yet saved. To save the changes, press <span class="RktSym">C-
           (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
       })();
     </script>
-
-  <div id="disqus_thread"></div>
-
-  <ul class="pager">
-
-   <li class="previous">
+    <div id="disqus_thread"></div>
+    <ul class="pager">
+    <li class="previous">
       <a href="/blog/2013/09/29/emacs-racket/">&larr; <em>Emacs: Racket</em></a>
     </li>
-
-   <li class="next">
-      <a href="/blog/2013/09/10/emacs-hax/"><em>Emacs: Hax</em> &rarr;</a>
+    <li class="next">
+      <a href="/blog/2013/09/10/emacs-hacks-1/"><em>Emacs: Hacks 1</em> &rarr;</a>
     </li>
     </ul>
   </footer>
@@ -684,7 +305,7 @@ this point are not yet saved. To save the changes, press <span class="RktSym">C-
           <a href="http://github.com/greghendershott/frog">Frog</a>,
           <a href="http://www.gnu.org/software/emacs/">Emacs</a>, and
           <a href="http://twitter.github.io/bootstrap">Bootstrap</a></p>
-        <p><em>Copyright &copy; 2013 by <a href="http://rmm.meta.ph">Rommel M. Martinez</a></em></p>
+        <p><em>Copyright &copy; by <a href="http://rmm.meta.ph">Rommel M. Martinez</a></em></p>
       </footer>
     </div>
     <!-- </body> JS -->

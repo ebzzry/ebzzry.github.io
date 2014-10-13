@@ -1,6 +1,4 @@
-.PHONY: all clean build preview upload
-
-all: preview
+all: build
 
 clean:
 	rm -rm *.html
@@ -8,9 +6,6 @@ clean:
 
 build:
 	raco frog -b
-
-preview:
-	raco frog -bp
 
 upload:
 	git push origin master

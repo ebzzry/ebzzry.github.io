@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?> 
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
- <title type="text">Live. Die. Live Again.: Posts tagged 'mail'</title>
- <link rel="self" href="http://www.example.com/feeds/mail.atom.xml" />
- <link href="http://www.example.com/tags/mail.html" />
- <id>urn:http-www-example-com:-tags-mail-html</id>
+ <title type="text">Live. Die. Repeat.: Posts tagged 'mail'</title>
+ <link rel="self" href="http://rmm.meta.ph/feeds/mail.atom.xml" />
+ <link href="http://rmm.meta.ph/tags/mail.html" />
+ <id>urn:http-rmm-meta-ph:-tags-mail-html</id>
  <updated>2014-02-17T16:02:38Z</updated>
  <entry>
-  <title type="text">Emacs and Mail</title>
-  <link rel="alternate" href="http://www.example.com/blog/2014/02/17/emacs-and-mail/?utm_source=mail&amp;utm_medium=Atom" />
-  <id>urn:http-www-example-com:-blog-2014-02-17-emacs-and-mail</id>
+  <title type="text">Emacs: Mail</title>
+  <link rel="alternate" href="http://rmm.meta.ph/blog/2014/02/17/emacs-mail/?utm_source=mail&amp;utm_medium=Atom" />
+  <id>urn:http-rmm-meta-ph:-blog-2014-02-17-emacs-mail</id>
   <published>2014-02-17T16:02:38Z</published>
   <updated>2014-02-17T16:02:38Z</updated>
   <author>
