@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?> 
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
- <title type="text">Live. Die. Live Again.: Posts tagged 'racket'</title>
- <link rel="self" href="http://www.example.com/feeds/racket.atom.xml" />
- <link href="http://www.example.com/tags/racket.html" />
- <id>urn:http-www-example-com:-tags-racket-html</id>
+ <title type="text">Live. Die. Repeat.: Posts tagged 'racket'</title>
+ <link rel="self" href="http://rmm.meta.ph/feeds/racket.atom.xml" />
+ <link href="http://rmm.meta.ph/tags/racket.html" />
+ <id>urn:http-rmm-meta-ph:-tags-racket-html</id>
  <updated>2014-02-19T14:07:11Z</updated>
  <entry>
   <title type="text">An Introduction To Frog</title>
-  <link rel="alternate" href="http://www.example.com/blog/2014/02/19/an-introduction-to-frog/?utm_source=racket&amp;utm_medium=Atom" />
-  <id>urn:http-www-example-com:-blog-2014-02-19-an-introduction-to-frog</id>
+  <link rel="alternate" href="http://rmm.meta.ph/blog/2014/02/19/an-introduction-to-frog/?utm_source=racket&amp;utm_medium=Atom" />
+  <id>urn:http-rmm-meta-ph:-blog-2014-02-19-an-introduction-to-frog</id>
   <published>2014-02-19T14:07:11Z</published>
   <updated>2014-02-19T14:07:11Z</updated>
   <author>
@@ -250,9 +250,9 @@ published.
 
 &lt;p&gt;&lt;strong&gt;Ribbit!&lt;/strong&gt;&lt;/p&gt;&lt;/html&gt;</content></entry>
  <entry>
-  <title type="text">Emacs and Racket</title>
-  <link rel="alternate" href="http://www.example.com/blog/2013/09/29/emacs-and-racket/?utm_source=racket&amp;utm_medium=Atom" />
-  <id>urn:http-www-example-com:-blog-2013-09-29-emacs-and-racket</id>
+  <title type="text">Emacs: Racket</title>
+  <link rel="alternate" href="http://rmm.meta.ph/blog/2013/09/29/emacs-racket/?utm_source=racket&amp;utm_medium=Atom" />
+  <id>urn:http-rmm-meta-ph:-blog-2013-09-29-emacs-racket</id>
   <published>2013-09-29T22:21:19Z</published>
   <updated>2013-09-29T22:21:19Z</updated>
   <author>
@@ -383,9 +383,9 @@ REPL *&lt;/code&gt; buffer. Whatever you can do with the REPL invoked with vanil
 
 &lt;p&gt;I have intentionally skipped many topics from the &lt;a href="http://www.nongnu.org/geiser/"&gt;official document&lt;/a&gt; because it makes it unattractive to people who are averse to reading long blocks of text (ironically, this article may even qualify as one.). The methods described above are by in no way representative of community-advised ways of installing and using Racket with Emacs. Feel free to drop a comment below! Ciao!&lt;/p&gt;&lt;/html&gt;</content></entry>
  <entry>
-  <title type="text">Livefrog: A LiveJournal Utility</title>
-  <link rel="alternate" href="http://www.example.com/blog/2013/05/29/livefrog-a-livejournal-utility/?utm_source=racket&amp;utm_medium=Atom" />
-  <id>urn:http-www-example-com:-blog-2013-05-29-livefrog-a-livejournal-utility</id>
+  <title type="text">An Introduction to Livefrog</title>
+  <link rel="alternate" href="http://rmm.meta.ph/blog/2013/05/29/an-introduction-to-livefrog/?utm_source=racket&amp;utm_medium=Atom" />
+  <id>urn:http-rmm-meta-ph:-blog-2013-05-29-an-introduction-to-livefrog</id>
   <published>2013-05-29T15:10:34Z</published>
   <updated>2013-05-29T15:10:34Z</updated>
   <author>
@@ -509,8 +509,8 @@ livefrog&lt;/code&gt; in your shell.&lt;/p&gt;
 &lt;p&gt;Replace &lt;code&gt;.bashrc&lt;/code&gt;, and &lt;code&gt;.cshrc&lt;/code&gt;, with the appropriate init file for your shell.&lt;/p&gt;&lt;/html&gt;</content></entry>
  <entry>
   <title type="text">The Y Combinator in Six Easy Steps</title>
-  <link rel="alternate" href="http://www.example.com/blog/2013/05/09/the-y-combinator-in-six-easy-steps/?utm_source=racket&amp;utm_medium=Atom" />
-  <id>urn:http-www-example-com:-blog-2013-05-09-the-y-combinator-in-six-easy-steps</id>
+  <link rel="alternate" href="http://rmm.meta.ph/blog/2013/05/09/the-y-combinator-in-six-easy-steps/?utm_source=racket&amp;utm_medium=Atom" />
+  <id>urn:http-rmm-meta-ph:-blog-2013-05-09-the-y-combinator-in-six-easy-steps</id>
   <published>2013-05-09T12:43:11Z</published>
   <updated>2013-05-09T12:43:11Z</updated>
   <author>

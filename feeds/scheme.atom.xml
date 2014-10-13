@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?> 
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
- <title type="text">Live. Die. Live Again.: Posts tagged 'scheme'</title>
- <link rel="self" href="http://www.example.com/feeds/scheme.atom.xml" />
- <link href="http://www.example.com/tags/scheme.html" />
- <id>urn:http-www-example-com:-tags-scheme-html</id>
+ <title type="text">Live. Die. Repeat.: Posts tagged 'scheme'</title>
+ <link rel="self" href="http://rmm.meta.ph/feeds/scheme.atom.xml" />
+ <link href="http://rmm.meta.ph/tags/scheme.html" />
+ <id>urn:http-rmm-meta-ph:-tags-scheme-html</id>
  <updated>2013-05-21T19:18:33Z</updated>
  <entry>
-  <title type="text">Usync: A Data Synchronizer</title>
-  <link rel="alternate" href="http://www.example.com/blog/2013/05/21/usync-a-data-synchronizer/?utm_source=scheme&amp;utm_medium=Atom" />
-  <id>urn:http-www-example-com:-blog-2013-05-21-usync-a-data-synchronizer</id>
+  <title type="text">An Introduction to Usync</title>
+  <link rel="alternate" href="http://rmm.meta.ph/blog/2013/05/21/an-introduction-to-usync/?utm_source=scheme&amp;utm_medium=Atom" />
+  <id>urn:http-rmm-meta-ph:-blog-2013-05-21-an-introduction-to-usync</id>
   <published>2013-05-21T19:18:33Z</published>
   <updated>2013-05-21T19:18:33Z</updated>
   <author>
