@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?> 
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
- <title type="text">Live. Die. Live Again.: Posts tagged 'backups'</title>
- <link rel="self" href="http://www.example.com/feeds/backups.atom.xml" />
- <link href="http://www.example.com/tags/backups.html" />
- <id>urn:http-www-example-com:-tags-backups-html</id>
+ <title type="text">Live. Die. Repeat.: Posts tagged 'backups'</title>
+ <link rel="self" href="http://rmm.meta.ph/feeds/backups.atom.xml" />
+ <link href="http://rmm.meta.ph/tags/backups.html" />
+ <id>urn:http-rmm-meta-ph:-tags-backups-html</id>
  <updated>2014-02-21T12:07:18Z</updated>
  <entry>
   <title type="text">An Introduction to Ugarit</title>
-  <link rel="alternate" href="http://www.example.com/blog/2014/02/21/an-introduction-to-ugarit/?utm_source=backups&amp;utm_medium=Atom" />
-  <id>urn:http-www-example-com:-blog-2014-02-21-an-introduction-to-ugarit</id>
+  <link rel="alternate" href="http://rmm.meta.ph/blog/2014/02/21/an-introduction-to-ugarit/?utm_source=backups&amp;utm_medium=Atom" />
+  <id>urn:http-rmm-meta-ph:-blog-2014-02-21-an-introduction-to-ugarit</id>
   <published>2014-02-21T12:07:18Z</published>
   <updated>2014-02-21T12:07:18Z</updated>
   <author>

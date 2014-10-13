@@ -1,46 +1,64 @@
 # Links
 
+## Programming
+
+[Project Euler](https://projecteuler.net/problems)
+
+
 ## Science
 
-[youtube.com/user/Kurzgesagt/videos](https://www.youtube.com/user/Kurzgesagt/videos)
+[Kurzgesagt](https://www.youtube.com/user/Kurzgesagt/videos)
 
-[youtube.com/user/Vsauce/videos](https://www.youtube.com/user/Vsauce/videos)
+[Vsauce](https://www.youtube.com/user/Vsauce/videos)
 
-[youtube.com/user/AsapSCIENCE/videos](https://www.youtube.com/user/AsapSCIENCE/videos)
+[Asap Science](https://www.youtube.com/user/AsapSCIENCE/videos)
 
-[youtube.com/user/MentalFlossVideo/videos](https://www.youtube.com/user/MentalFlossVideo/videos)
+[Mental Floss](https://www.youtube.com/user/MentalFlossVideo/videos)
 
-[youtube.com/user/minuteearth/videos](https://www.youtube.com/user/minuteearth/videos)
+[Minute Earth](https://www.youtube.com/user/minuteearth/videos)
 
-[youtube.com/user/minutephysics/videos](https://www.youtube.com/user/minutephysics/videos)
+[Minute Physics](https://www.youtube.com/user/minutephysics/videos)
 
-[youtube.com/user/scishow/videos](https://www.youtube.com/user/scishow/videos)
+[Scishow](https://www.youtube.com/user/scishow/videos)
 
-[http://makemegenius.com/](http://makemegenius.com/)
+[Earth Unplugged](https://www.youtube.com/user/EarthUnpluggedTV/videos)
 
-[youtube.com/user/TEDtalksDirector/videos](https://www.youtube.com/user/TEDtalksDirector/videos)
+[BBC Earth](https://www.youtube.com/user/BBCEarth/videos)
 
-[youtube.com/user/TEDxTalks/videos](https://www.youtube.com/user/TEDxTalks/videos)
+[Head Squeeze](https://www.youtube.com/user/HeadsqueezeTV/videos)
 
-[youtube.com/user/TEDEducation/videos](https://www.youtube.com/user/TEDEducation/videos)
+[CGP Grey](https://www.youtube.com/user/CGPGrey/videos)
+
+[TED](https://www.youtube.com/user/TEDtalksDirector/videos)
+
+[TED X](https://www.youtube.com/user/TEDxTalks/videos)
+
+[TED Education](https://www.youtube.com/user/TEDEducation/videos)
+
+[NPTEL](https://www.youtube.com/user/nptelhrd/playlists)
 
 
 ## Math
 
-[aplusmath.com/flashcards/](http://www.aplusmath.com/flashcards/)
+[Tecmath](https://www.youtube.com/user/tecmath/videos)
 
-[multiplication.com/games/play](http://www.multiplication.com/games/play)
+[Flashcards](http://www.aplusmath.com/flashcards/)
 
-[youtube.com/user/tecmath/videos](https://www.youtube.com/user/tecmath/videos)
+[Multiplication.com](http://www.multiplication.com/games/play)
 
-[digitalbookindex.org/_search/search010matht-19thca.asp](http://www.digitalbookindex.org/_search/search010matht-19thca.asp)
+[Digital Books Index](http://www.digitalbookindex.org/_search/search010matht-19thca.asp)
 
 
 ## Language
 
-[softschools.com/quizzes/](http://www.softschools.com/quizzes/)
+[Soft Schools](http://www.softschools.com/quizzes/)
 
 
 ## General
 
-[cdn.preterhuman.net/texts/](http://cdn.preterhuman.net/texts/)
+[Preter Human](http://cdn.preterhuman.net/texts/)
+
+
+## Speech
+
+[Text to Speech Synthesizer](http://codewelt.com/proj/speak)

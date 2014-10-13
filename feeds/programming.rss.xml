@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?> 
 <rss version="2.0">
  <channel>
-  <title>Live. Die. Live Again.: Posts tagged 'programming'</title>
-  <description>Live. Die. Live Again.: Posts tagged 'programming'</description>
-  <link>http://www.example.com/tags/programming.html</link>
+  <title>Live. Die. Repeat.: Posts tagged 'programming'</title>
+  <description>Live. Die. Repeat.: Posts tagged 'programming'</description>
+  <link>http://rmm.meta.ph/tags/programming.html</link>
   <lastBuildDate>Sun, 29 Sep 2013 22:21:19 PHT</lastBuildDate>
   <pubDate>Sun, 29 Sep 2013 22:21:19 PHT</pubDate>
   <ttl>1800</ttl>
   <item>
-   <title>Emacs and Racket</title>
-   <link>http://www.example.com/blog/2013/09/29/emacs-and-racket/?utm_source=programming&amp;utm_medium=RSS</link>
-   <guid>urn:http-www-example-com:-blog-2013-09-29-emacs-and-racket</guid>
+   <title>Emacs: Racket</title>
+   <link>http://rmm.meta.ph/blog/2013/09/29/emacs-racket/?utm_source=programming&amp;utm_medium=RSS</link>
+   <guid>urn:http-rmm-meta-ph:-blog-2013-09-29-emacs-racket</guid>
    <pubDate>Sun, 29 Sep 2013 22:21:19 PHT</pubDate>
    <description>&lt;html&gt;
 &lt;p&gt;In this post, I&amp;rsquo;ll discuss the easiest approach that I took to setup up a &lt;a href="http://racket-lang.org"&gt;Racket&lt;/a&gt; development environment on Emacs. Take note, that this is not the only approach available &amp;mdash; some did it in arguably better ways. In this article, I&amp;rsquo;ll try to explain the shortest route that I took.&lt;/p&gt;
@@ -138,9 +138,9 @@ REPL *&lt;/code&gt; buffer. Whatever you can do with the REPL invoked with vanil
 
 &lt;p&gt;I have intentionally skipped many topics from the &lt;a href="http://www.nongnu.org/geiser/"&gt;official document&lt;/a&gt; because it makes it unattractive to people who are averse to reading long blocks of text (ironically, this article may even qualify as one.). The methods described above are by in no way representative of community-advised ways of installing and using Racket with Emacs. Feel free to drop a comment below! Ciao!&lt;/p&gt;&lt;/html&gt;</description></item>
   <item>
-   <title>Emacs and Dired</title>
-   <link>http://www.example.com/blog/2013/09/26/emacs-and-dired/?utm_source=programming&amp;utm_medium=RSS</link>
-   <guid>urn:http-www-example-com:-blog-2013-09-26-emacs-and-dired</guid>
+   <title>Emacs: Dired</title>
+   <link>http://rmm.meta.ph/blog/2013/09/26/emacs-dired/?utm_source=programming&amp;utm_medium=RSS</link>
+   <guid>urn:http-rmm-meta-ph:-blog-2013-09-26-emacs-dired</guid>
    <pubDate>Thu, 26 Sep 2013 17:57:00 PHT</pubDate>
    <description>&lt;html&gt;
 &lt;p&gt;In this post, I&amp;rsquo;ll be focusing on one of the novel ways Emacs handles &lt;em&gt;directory editing&lt;/em&gt;. The directory editor, or &lt;strong&gt;dired&lt;/strong&gt; (pronounced dir-ed, not die-rd), for short, is the Emacs equivalent of a file manager. Whatever you can do with regular file buffers, you can also do it with dired buffers, to a certain extent.&lt;/p&gt;
@@ -150,7 +150,7 @@ REPL *&lt;/code&gt; buffer. Whatever you can do with the REPL invoked with vanil
 
 &lt;p&gt;To run dired, run emacs on the command line, supplying a directory as its argument:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;emacs ~/Desktop/&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;$ emacs ~/Desktop/&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Or, alternatively, you can press &lt;code&gt;C-x d&lt;/code&gt; inside Emacs. If you are currently editing a file, the directory of that file will be presented as the default value in the minibuffer area. Either way, when you hit &lt;code&gt;Enter&lt;/code&gt;, a buffer of the directory will load, that looks like the output of &lt;code&gt;ls -l&lt;/code&gt;:&lt;/p&gt;
 
@@ -271,9 +271,9 @@ drwxr-xr-x 3 john users 4096 Sep 26 05:39 vids&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Well, that is it for now. Ciao!&lt;/p&gt;&lt;/html&gt;</description></item>
   <item>
-   <title>Emacs and Hax</title>
-   <link>http://www.example.com/blog/2013/09/10/emacs-and-hax/?utm_source=programming&amp;utm_medium=RSS</link>
-   <guid>urn:http-www-example-com:-blog-2013-09-10-emacs-and-hax</guid>
+   <title>Emacs: Hacks 1</title>
+   <link>http://rmm.meta.ph/blog/2013/09/10/emacs-hacks-1/?utm_source=programming&amp;utm_medium=RSS</link>
+   <guid>urn:http-rmm-meta-ph:-blog-2013-09-10-emacs-hacks-1</guid>
    <pubDate>Tue, 10 Sep 2013 13:23:34 PHT</pubDate>
    <description>&lt;html&gt;
 &lt;p&gt;In this series of posts, I will be sharing my personal hacks on how I use Emacs for my day-to-day stuff. Most, if not all of the code contained in these posts are excerpts from the respective configuration files that I use.&lt;/p&gt;
@@ -393,9 +393,9 @@ eh () { emacsclient -nw --eval "(find-two-files-horizontally \"$(pwd)\" \"$1\" \
 
 &lt;p&gt;Well, that is it for now. Ciao!&lt;/p&gt;&lt;/html&gt;</description></item>
   <item>
-   <title>Livefrog: A LiveJournal Utility</title>
-   <link>http://www.example.com/blog/2013/05/29/livefrog-a-livejournal-utility/?utm_source=programming&amp;utm_medium=RSS</link>
-   <guid>urn:http-www-example-com:-blog-2013-05-29-livefrog-a-livejournal-utility</guid>
+   <title>An Introduction to Livefrog</title>
+   <link>http://rmm.meta.ph/blog/2013/05/29/an-introduction-to-livefrog/?utm_source=programming&amp;utm_medium=RSS</link>
+   <guid>urn:http-rmm-meta-ph:-blog-2013-05-29-an-introduction-to-livefrog</guid>
    <pubDate>Wed, 29 May 2013 15:10:34 PHT</pubDate>
    <description>&lt;html&gt;
 &lt;p&gt;I am pleased to announce the release of &lt;strong&gt;livefrog&lt;/strong&gt;, a utility I wrote to migrate LiveJournal articles to &lt;a href="http://github.com/greghendershott/frog"&gt;Frog&lt;/a&gt;.&lt;/p&gt;
@@ -515,9 +515,9 @@ livefrog&lt;/code&gt; in your shell.&lt;/p&gt;
 
 &lt;p&gt;Replace &lt;code&gt;.bashrc&lt;/code&gt;, and &lt;code&gt;.cshrc&lt;/code&gt;, with the appropriate init file for your shell.&lt;/p&gt;&lt;/html&gt;</description></item>
   <item>
-   <title>Usync: A Data Synchronizer</title>
-   <link>http://www.example.com/blog/2013/05/21/usync-a-data-synchronizer/?utm_source=programming&amp;utm_medium=RSS</link>
-   <guid>urn:http-www-example-com:-blog-2013-05-21-usync-a-data-synchronizer</guid>
+   <title>An Introduction to Usync</title>
+   <link>http://rmm.meta.ph/blog/2013/05/21/an-introduction-to-usync/?utm_source=programming&amp;utm_medium=RSS</link>
+   <guid>urn:http-rmm-meta-ph:-blog-2013-05-21-an-introduction-to-usync</guid>
    <pubDate>Tue, 21 May 2013 19:18:33 PHT</pubDate>
    <description>&lt;html&gt;
 &lt;p&gt;Usync is a a site-to-site synchronization tool written in &lt;a href="http://www.scsh.net"&gt;Scsh&lt;/a&gt;. It makes use of &lt;a href="http://www.cis.upenn.edu/~bcpierce/unison/"&gt;Unison&lt;/a&gt;, and &lt;a href="http://rsync.samba.org/"&gt;rsync&lt;/a&gt;, for bi- and uni-directional synchronizations, respectively.&lt;/p&gt;
@@ -562,8 +562,8 @@ livefrog&lt;/code&gt; in your shell.&lt;/p&gt;
 &lt;p&gt;This program has been used on FreeBSD, hence making the shebang line contain &lt;code&gt;/usr/local/bin/scsh&lt;/code&gt;. Please change it, accordingly.&lt;/p&gt;&lt;/html&gt;</description></item>
   <item>
    <title>The Y Combinator in Six Easy Steps</title>
-   <link>http://www.example.com/blog/2013/05/09/the-y-combinator-in-six-easy-steps/?utm_source=programming&amp;utm_medium=RSS</link>
-   <guid>urn:http-www-example-com:-blog-2013-05-09-the-y-combinator-in-six-easy-steps</guid>
+   <link>http://rmm.meta.ph/blog/2013/05/09/the-y-combinator-in-six-easy-steps/?utm_source=programming&amp;utm_medium=RSS</link>
+   <guid>urn:http-rmm-meta-ph:-blog-2013-05-09-the-y-combinator-in-six-easy-steps</guid>
    <pubDate>Thu, 09 May 2013 12:43:11 PHT</pubDate>
    <description>&lt;html&gt;
 &lt;p&gt;A lot of us have been taught that to be able to define a recursive procedure, the recursive invocation must &amp;ldquo;use&amp;rdquo; the name of the recursive procedure. The &lt;a href="http://en.wikipedia.org/wiki/Fixed-point_combinator#Y_combinator"&gt;Y combinator&lt;/a&gt; , however, lets us perform recursion, without referring to the named identifier.&lt;/p&gt;

@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?> 
 <rss version="2.0">
  <channel>
-  <title>Live. Die. Live Again.: Posts tagged 'sysadmin'</title>
-  <description>Live. Die. Live Again.: Posts tagged 'sysadmin'</description>
-  <link>http://www.example.com/tags/sysadmin.html</link>
+  <title>Live. Die. Repeat.: Posts tagged 'sysadmin'</title>
+  <description>Live. Die. Repeat.: Posts tagged 'sysadmin'</description>
+  <link>http://rmm.meta.ph/tags/sysadmin.html</link>
   <lastBuildDate>Wed, 17 Sep 2014 19:53:15 PHT</lastBuildDate>
   <pubDate>Wed, 17 Sep 2014 19:53:15 PHT</pubDate>
   <ttl>1800</ttl>
   <item>
-   <title>How to Setup GPG+SSH in KDE</title>
-   <link>http://www.example.com/blog/2014/09/17/how-to-setup-gpg-ssh-in-kde/?utm_source=sysadmin&amp;utm_medium=RSS</link>
-   <guid>urn:http-www-example-com:-blog-2014-09-17-how-to-setup-gpg-ssh-in-kde</guid>
+   <title>How to Setup GPG and SSH in KDE</title>
+   <link>http://rmm.meta.ph/blog/2014/09/17/how-to-setup-gpg-and-ssh-in-kde/?utm_source=sysadmin&amp;utm_medium=RSS</link>
+   <guid>urn:http-rmm-meta-ph:-blog-2014-09-17-how-to-setup-gpg-and-ssh-in-kde</guid>
    <pubDate>Wed, 17 Sep 2014 19:53:15 PHT</pubDate>
    <description>&lt;html&gt;
 &lt;p&gt;When both GPG and SSH are integrated with KDE, it makes inter-operating with those systems very easy. It will make the difference between a loose-fitting glove, and one that fits snugly.&lt;/p&gt;
@@ -22,11 +22,11 @@
 
 &lt;p&gt;Chances are, you already have both GPG and SSH installed on your system. But if you don&amp;rsquo;t have them, you can install them with:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;sudo apt-get install gnupg2 ssh&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;$ sudo apt-get install gnupg2 ssh&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Another important software that we need to install is pinentry:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;sudo apt-get install pinentry-qt4&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;$ sudo apt-get install pinentry-qt4&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;It&amp;rsquo;s the component that prompts the user for passphrases.&lt;/p&gt;
 
@@ -34,7 +34,7 @@
 
 &lt;p&gt;Now that we have the parts in front of us, it&amp;rsquo;s time to assemble them. The first thing that we need to do (although in reality the files that we are going to open in this section can be done in any order that you wish), is create your SSH keys:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;ssh-keygen -t rsa&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;$ ssh-keygen -t rsa&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;&lt;strong&gt;DO NOT&lt;/strong&gt; leave the passphrase empty. Shoot yourself first in the  head, if you really want to.&lt;/p&gt;
 
@@ -45,25 +45,25 @@
 
 &lt;p&gt;At this point, copy your SSH keys to the servers that you manage:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;ssh-copy-id user@host&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;$ ssh-copy-id user@host&lt;/code&gt;&lt;/pre&gt;
 
 &lt;h1 id="configure-gpg"&gt;Configure GPG&lt;/h1&gt;
 
 &lt;p&gt;In case you forgot how to your keys, the command is:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;gpg2 --gen-key&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;$ gpg2 --gen-key&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;I should have this earlier, that if you want to create strong passphrases, use the &lt;a href="http://world.std.com/~reinhold/diceware.html"&gt;Diceware method&lt;/a&gt;. An &lt;a href="https://xkcd.com/936/"&gt;XKCD comic&lt;/a&gt; was written in case you&amp;rsquo;re wondering what it is, without reading the earlier link.&lt;/p&gt;
 
 &lt;p&gt;Next thing to do is edit the main GPG config file:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;emacs ~/.gnupg/gpg.conf&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;$ emacs ~/.gnupg/gpg.conf&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Find the line that contains &lt;code&gt;use-agent&lt;/code&gt; and uncomment it, if it is commented. If that line does not exist just put &lt;code&gt;use agent&lt;/code&gt; at the end.&lt;/p&gt;
 
 &lt;p&gt;We need to edit the agent file next:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;emacs ~/.gnupg/gpg-agent.conf&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;$ emacs ~/.gnupg/gpg-agent.conf&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Then put the following lines:&lt;/p&gt;
 
@@ -74,14 +74,14 @@ pinentry-program /usr/bin/pinentry-qt4&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Those are &lt;em&gt;my&lt;/em&gt; preferred values. If you want to change them, look at the manpage first:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;man gpg-agent&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;$ man gpg-agent&lt;/code&gt;&lt;/pre&gt;
 
 &lt;h1 id="configure-kde"&gt;Configure KDE&lt;/h1&gt;
 
 &lt;p&gt;We now need to link the GPG agent with KDE. We&amp;rsquo;re going to create a &lt;em&gt;startup&lt;/em&gt; script for KDE that will invoke the GPG agent at startup. We&amp;rsquo;ll also tell the GPG agent to enable SSH support (in the old days, the SSH agent has to be ran separately from GPG).&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;mkdir ~/.kde/env
-emacs ~/.kde/env/01_gpg-agent.sh&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;$ mkdir ~/.kde/env
+$ emacs ~/.kde/env/01_gpg-agent.sh&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Then put in the following lines:&lt;/p&gt;
 
@@ -92,12 +92,12 @@ eval `gpg-agent --enable-ssh-support --daemon`&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Make it executable:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;chmod +x ~/.kde/env/01_gpg-agent.sh&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;$ chmod +x ~/.kde/env/01_gpg-agent.sh&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Finally, we&amp;rsquo;ll create the &lt;em&gt;shutdown&lt;/em&gt; script for the GPG agent:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;mkdir ~/.kde/shutdown
-emacs ~/.kde/shutdown/01_gpg-agent.sh&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;$ mkdir ~/.kde/shutdown
+$ emacs ~/.kde/shutdown/01_gpg-agent.sh&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Then put in the following lines:&lt;/p&gt;
 
@@ -107,7 +107,7 @@ killall gpg-agent&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Also make it executable:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;chmod +x ~/.kde/shutdown/01_gpg-agent.sh&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;$ chmod +x ~/.kde/shutdown/01_gpg-agent.sh&lt;/code&gt;&lt;/pre&gt;
 
 &lt;h1 id="verification"&gt;Verification&lt;/h1&gt;
 
@@ -117,21 +117,21 @@ killall gpg-agent&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Open a Konsole window, then connect to your favorite SSH server:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;ssh user@remotehost&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;$ ssh user@remotehost&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;A pinentry dialog box should appear prompting you for your passphrase. This passphrase will be cached according to your settings in &lt;code&gt;~/.gnupg/gpg-agent.conf&lt;/code&gt;. Subsequent SSH connection attempts will not prompt you for the passphrase within this timeout period.&lt;/p&gt;
 
 &lt;p&gt;A similar behavior will happen if you encrypt a file with GPG:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;gpg2 -s -e -a -r john@remotehost file.dat&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;$ gpg2 -s -e -a -r john@remotehost file.dat&lt;/code&gt;&lt;/pre&gt;
 
 &lt;h1 id="conclusion"&gt;Conclusion&lt;/h1&gt;
 
 &lt;p&gt;The steps outline above are meant to be succinct without going through the gory details. I avoided reiterating what was already said before so as not to bore you to death. If you found this useful, feel free to comment below.&lt;/p&gt;&lt;/html&gt;</description></item>
   <item>
    <title>An Introduction to Ugarit</title>
-   <link>http://www.example.com/blog/2014/02/21/an-introduction-to-ugarit/?utm_source=sysadmin&amp;utm_medium=RSS</link>
-   <guid>urn:http-www-example-com:-blog-2014-02-21-an-introduction-to-ugarit</guid>
+   <link>http://rmm.meta.ph/blog/2014/02/21/an-introduction-to-ugarit/?utm_source=sysadmin&amp;utm_medium=RSS</link>
+   <guid>urn:http-rmm-meta-ph:-blog-2014-02-21-an-introduction-to-ugarit</guid>
    <pubDate>Fri, 21 Feb 2014 12:07:18 PHT</pubDate>
    <description>&lt;html&gt;
 &lt;p&gt;How many times have we experienced hindsight, after a catastrophic event has happened? how many times have we told ourselves that had we created backups of our precious data, we wouldn&amp;rsquo;t be in that dire situation, pulling our hairs out like a maniac?&lt;/p&gt;

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?> 
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
- <title type="text">Live. Die. Live Again.: Posts tagged 'programming'</title>
- <link rel="self" href="http://www.example.com/feeds/programming.atom.xml" />
- <link href="http://www.example.com/tags/programming.html" />
- <id>urn:http-www-example-com:-tags-programming-html</id>
+ <title type="text">Live. Die. Repeat.: Posts tagged 'programming'</title>
+ <link rel="self" href="http://rmm.meta.ph/feeds/programming.atom.xml" />
+ <link href="http://rmm.meta.ph/tags/programming.html" />
+ <id>urn:http-rmm-meta-ph:-tags-programming-html</id>
  <updated>2013-09-29T22:21:19Z</updated>
  <entry>
-  <title type="text">Emacs and Racket</title>
-  <link rel="alternate" href="http://www.example.com/blog/2013/09/29/emacs-and-racket/?utm_source=programming&amp;utm_medium=Atom" />
-  <id>urn:http-www-example-com:-blog-2013-09-29-emacs-and-racket</id>
+  <title type="text">Emacs: Racket</title>
+  <link rel="alternate" href="http://rmm.meta.ph/blog/2013/09/29/emacs-racket/?utm_source=programming&amp;utm_medium=Atom" />
+  <id>urn:http-rmm-meta-ph:-blog-2013-09-29-emacs-racket</id>
   <published>2013-09-29T22:21:19Z</published>
   <updated>2013-09-29T22:21:19Z</updated>
   <author>
@@ -139,9 +139,9 @@ REPL *&lt;/code&gt; buffer. Whatever you can do with the REPL invoked with vanil
 
 &lt;p&gt;I have intentionally skipped many topics from the &lt;a href="http://www.nongnu.org/geiser/"&gt;official document&lt;/a&gt; because it makes it unattractive to people who are averse to reading long blocks of text (ironically, this article may even qualify as one.). The methods described above are by in no way representative of community-advised ways of installing and using Racket with Emacs. Feel free to drop a comment below! Ciao!&lt;/p&gt;&lt;/html&gt;</content></entry>
  <entry>
-  <title type="text">Emacs and Dired</title>
-  <link rel="alternate" href="http://www.example.com/blog/2013/09/26/emacs-and-dired/?utm_source=programming&amp;utm_medium=Atom" />
-  <id>urn:http-www-example-com:-blog-2013-09-26-emacs-and-dired</id>
+  <title type="text">Emacs: Dired</title>
+  <link rel="alternate" href="http://rmm.meta.ph/blog/2013/09/26/emacs-dired/?utm_source=programming&amp;utm_medium=Atom" />
+  <id>urn:http-rmm-meta-ph:-blog-2013-09-26-emacs-dired</id>
   <published>2013-09-26T17:57:00Z</published>
   <updated>2013-09-26T17:57:00Z</updated>
   <author>
@@ -154,7 +154,7 @@ REPL *&lt;/code&gt; buffer. Whatever you can do with the REPL invoked with vanil
 
 &lt;p&gt;To run dired, run emacs on the command line, supplying a directory as its argument:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;emacs ~/Desktop/&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;$ emacs ~/Desktop/&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Or, alternatively, you can press &lt;code&gt;C-x d&lt;/code&gt; inside Emacs. If you are currently editing a file, the directory of that file will be presented as the default value in the minibuffer area. Either way, when you hit &lt;code&gt;Enter&lt;/code&gt;, a buffer of the directory will load, that looks like the output of &lt;code&gt;ls -l&lt;/code&gt;:&lt;/p&gt;
 
@@ -275,9 +275,9 @@ drwxr-xr-x 3 john users 4096 Sep 26 05:39 vids&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Well, that is it for now. Ciao!&lt;/p&gt;&lt;/html&gt;</content></entry>
  <entry>
-  <title type="text">Emacs and Hax</title>
-  <link rel="alternate" href="http://www.example.com/blog/2013/09/10/emacs-and-hax/?utm_source=programming&amp;utm_medium=Atom" />
-  <id>urn:http-www-example-com:-blog-2013-09-10-emacs-and-hax</id>
+  <title type="text">Emacs: Hacks 1</title>
+  <link rel="alternate" href="http://rmm.meta.ph/blog/2013/09/10/emacs-hacks-1/?utm_source=programming&amp;utm_medium=Atom" />
+  <id>urn:http-rmm-meta-ph:-blog-2013-09-10-emacs-hacks-1</id>
   <published>2013-09-10T13:23:34Z</published>
   <updated>2013-09-10T13:23:34Z</updated>
   <author>
@@ -400,9 +400,9 @@ eh () { emacsclient -nw --eval "(find-two-files-horizontally \"$(pwd)\" \"$1\" \
 
 &lt;p&gt;Well, that is it for now. Ciao!&lt;/p&gt;&lt;/html&gt;</content></entry>
  <entry>
-  <title type="text">Livefrog: A LiveJournal Utility</title>
-  <link rel="alternate" href="http://www.example.com/blog/2013/05/29/livefrog-a-livejournal-utility/?utm_source=programming&amp;utm_medium=Atom" />
-  <id>urn:http-www-example-com:-blog-2013-05-29-livefrog-a-livejournal-utility</id>
+  <title type="text">An Introduction to Livefrog</title>
+  <link rel="alternate" href="http://rmm.meta.ph/blog/2013/05/29/an-introduction-to-livefrog/?utm_source=programming&amp;utm_medium=Atom" />
+  <id>urn:http-rmm-meta-ph:-blog-2013-05-29-an-introduction-to-livefrog</id>
   <published>2013-05-29T15:10:34Z</published>
   <updated>2013-05-29T15:10:34Z</updated>
   <author>
@@ -525,9 +525,9 @@ livefrog&lt;/code&gt; in your shell.&lt;/p&gt;
 
 &lt;p&gt;Replace &lt;code&gt;.bashrc&lt;/code&gt;, and &lt;code&gt;.cshrc&lt;/code&gt;, with the appropriate init file for your shell.&lt;/p&gt;&lt;/html&gt;</content></entry>
  <entry>
-  <title type="text">Usync: A Data Synchronizer</title>
-  <link rel="alternate" href="http://www.example.com/blog/2013/05/21/usync-a-data-synchronizer/?utm_source=programming&amp;utm_medium=Atom" />
-  <id>urn:http-www-example-com:-blog-2013-05-21-usync-a-data-synchronizer</id>
+  <title type="text">An Introduction to Usync</title>
+  <link rel="alternate" href="http://rmm.meta.ph/blog/2013/05/21/an-introduction-to-usync/?utm_source=programming&amp;utm_medium=Atom" />
+  <id>urn:http-rmm-meta-ph:-blog-2013-05-21-an-introduction-to-usync</id>
   <published>2013-05-21T19:18:33Z</published>
   <updated>2013-05-21T19:18:33Z</updated>
   <author>
@@ -575,8 +575,8 @@ livefrog&lt;/code&gt; in your shell.&lt;/p&gt;
 &lt;p&gt;This program has been used on FreeBSD, hence making the shebang line contain &lt;code&gt;/usr/local/bin/scsh&lt;/code&gt;. Please change it, accordingly.&lt;/p&gt;&lt;/html&gt;</content></entry>
  <entry>
   <title type="text">The Y Combinator in Six Easy Steps</title>
-  <link rel="alternate" href="http://www.example.com/blog/2013/05/09/the-y-combinator-in-six-easy-steps/?utm_source=programming&amp;utm_medium=Atom" />
-  <id>urn:http-www-example-com:-blog-2013-05-09-the-y-combinator-in-six-easy-steps</id>
+  <link rel="alternate" href="http://rmm.meta.ph/blog/2013/05/09/the-y-combinator-in-six-easy-steps/?utm_source=programming&amp;utm_medium=Atom" />
+  <id>urn:http-rmm-meta-ph:-blog-2013-05-09-the-y-combinator-in-six-easy-steps</id>
   <published>2013-05-09T12:43:11Z</published>
   <updated>2013-05-09T12:43:11Z</updated>
   <author>
