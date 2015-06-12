@@ -308,27 +308,57 @@
 
 &lt;p&gt;A sample would look like the following:&lt;/p&gt;
 
-&lt;p&gt;&lt;code&gt;elisp
-(bind-keys
- :map global-map
- ("C-;" . eval-expression)
- ("C-j" . delete-indentation)
- ("M-j" . delete-indentation-1)
- ("C-z" . mark-line)
- ("C-r" . isearch-backward)
- ("C-s" . isearch-forward)
- ("C-M-r" . isearch-backward-regexp)
- ("C-M-s" . isearch-forward-regexp))
+&lt;div class="brush: elisp"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt; 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;bind-keys&lt;/span&gt;
+ &lt;span class="ss"&gt;:map&lt;/span&gt; &lt;span class="nv"&gt;global-map&lt;/span&gt;
+ &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"C-;"&lt;/span&gt; &lt;span class="o"&gt;.&lt;/span&gt; &lt;span class="nv"&gt;eval-expression&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+ &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"C-j"&lt;/span&gt; &lt;span class="o"&gt;.&lt;/span&gt; &lt;span class="nv"&gt;delete-indentation&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+ &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"M-j"&lt;/span&gt; &lt;span class="o"&gt;.&lt;/span&gt; &lt;span class="nv"&gt;delete-indentation-1&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+ &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"C-z"&lt;/span&gt; &lt;span class="o"&gt;.&lt;/span&gt; &lt;span class="nv"&gt;mark-line&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+ &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"C-r"&lt;/span&gt; &lt;span class="o"&gt;.&lt;/span&gt; &lt;span class="nv"&gt;isearch-backward&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+ &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"C-s"&lt;/span&gt; &lt;span class="o"&gt;.&lt;/span&gt; &lt;span class="nv"&gt;isearch-forward&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+ &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"C-M-r"&lt;/span&gt; &lt;span class="o"&gt;.&lt;/span&gt; &lt;span class="nv"&gt;isearch-backward-regexp&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+ &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"C-M-s"&lt;/span&gt; &lt;span class="o"&gt;.&lt;/span&gt; &lt;span class="nv"&gt;isearch-forward-regexp&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
 
-(bind-keys
- :map emacs-lisp-mode-map
- ("M-." . find-function)
- ("C-x C-r" . eval-region)
- (";" . sp-comment))
+&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;bind-keys&lt;/span&gt;
+ &lt;span class="ss"&gt;:map&lt;/span&gt; &lt;span class="nv"&gt;emacs-lisp-mode-map&lt;/span&gt;
+ &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"M-."&lt;/span&gt; &lt;span class="o"&gt;.&lt;/span&gt; &lt;span class="nv"&gt;find-function&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+ &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"C-x C-r"&lt;/span&gt; &lt;span class="o"&gt;.&lt;/span&gt; &lt;span class="nv"&gt;eval-region&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+ &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;";"&lt;/span&gt; &lt;span class="o"&gt;.&lt;/span&gt; &lt;span class="nv"&gt;sp-comment&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
 
-(bind-keys
- :map dired-mode-map
- ("C-x w" . wdired-change-to-wdired-mode))&lt;/code&gt;&lt;/p&gt;
+&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;bind-keys&lt;/span&gt;
+ &lt;span class="ss"&gt;:map&lt;/span&gt; &lt;span class="nv"&gt;dired-mode-map&lt;/span&gt;
+ &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"C-x w"&lt;/span&gt; &lt;span class="o"&gt;.&lt;/span&gt; &lt;span class="nv"&gt;wdired-change-to-wdired-mode&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;h1 id="conclusion"&gt;Conclusion&lt;/h1&gt;
 
