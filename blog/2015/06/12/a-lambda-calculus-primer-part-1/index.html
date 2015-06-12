@@ -872,6 +872,54 @@
 
 <p>Yup, <strong>0</strong> is indeed the predecessor of <strong>1</strong>.</p>
 
+<h2 id="subtraction">Subtraction</h2>
+
+<p>Now that we have the predecessor function, we can build our subtraction function.</p>
+
+<div class="brush: scheme">
+ <table class="sourcetable">
+  <tbody>
+   <tr>
+    <td class="linenos">
+     <div class="linenodiv">
+      <pre>1</pre></div></td>
+    <td class="code">
+     <div class="source">
+      <pre><span class="nv">B</span> <span class="err">≡</span> <span class="p">(</span><span class="err">λ</span><span class="nv">xy</span><span class="o">.</span><span class="nv">yPx</span><span class="p">)</span>
+</pre></div>
+</td></tr></tbody></table>
+</div>
+
+<p>Let&rsquo;s test that out:</p>
+
+<div class="brush: scheme">
+ <table class="sourcetable">
+  <tbody>
+   <tr>
+    <td class="linenos">
+     <div class="linenodiv">
+      <pre>1
+2
+3
+4
+5
+6
+7
+8</pre></div></td>
+    <td class="code">
+     <div class="source">
+      <pre><span class="nv">B11</span>
+<span class="err">≡</span> <span class="p">(</span><span class="err">λ</span><span class="nv">xy</span><span class="o">.</span><span class="nv">yPx</span><span class="p">)</span> <span class="p">(</span><span class="err">λ</span><span class="nv">sz</span><span class="o">.</span><span class="nv">s</span><span class="p">(</span><span class="nf">z</span><span class="p">))</span> <span class="p">(</span><span class="err">λ</span><span class="nv">sz</span><span class="o">.</span><span class="nv">s</span><span class="p">(</span><span class="nf">z</span><span class="p">))</span>
+<span class="nv">=</span> <span class="p">(</span><span class="err">λ</span><span class="nv">sz</span><span class="o">.</span><span class="nv">s</span><span class="p">(</span><span class="nf">z</span><span class="p">))</span> <span class="p">(</span><span class="nf">P</span><span class="p">(</span><span class="err">λ</span><span class="nv">sz</span><span class="o">.</span><span class="nv">s</span><span class="p">(</span><span class="nf">z</span><span class="p">)))</span>
+<span class="nv">=</span> <span class="p">(</span><span class="err">λ</span><span class="nv">sz</span><span class="o">.</span><span class="nv">s</span><span class="p">(</span><span class="nf">z</span><span class="p">))</span> <span class="p">(</span><span class="err">λ</span><span class="nv">sz</span><span class="o">.</span><span class="nv">z</span><span class="p">)</span>
+<span class="nv">=</span> <span class="p">(</span><span class="err">λ</span><span class="nv">z</span><span class="o">.</span><span class="p">(</span><span class="err">λ</span><span class="nv">sz</span><span class="o">.</span><span class="nv">z</span><span class="p">)</span><span class="nv">z</span><span class="p">)</span>
+<span class="nv">=</span> <span class="p">(</span><span class="err">λ</span><span class="nv">z</span><span class="o">.</span><span class="p">(</span><span class="err">λ</span><span class="nv">z</span><span class="o">.</span><span class="nv">z</span><span class="p">))</span>
+<span class="err">≡</span> <span class="p">(</span><span class="err">λ</span><span class="nv">sz</span><span class="o">.</span><span class="nv">z</span><span class="p">)</span>
+<span class="err">≡</span> <span class="mi">0</span>
+</pre></div>
+</td></tr></tbody></table>
+</div>
+
 <h1 id="conclusion">Conclusion</h1>
 
 <p>We&rsquo;ve just scratched the surface of lambda calculus, but we have just witnessed its immense expressive power, considering how minimal the system is defined. In our next article, we&rsquo;ll demystify even more lambda calculus magic. Stay tuned!</p>
