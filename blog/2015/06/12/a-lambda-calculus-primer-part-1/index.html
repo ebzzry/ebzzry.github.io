@@ -255,9 +255,10 @@
 
 <p>Let&rsquo;s break it down:</p>
 
-<ol>
- <li>Apply <strong>(λx.x)</strong> to <strong>y</strong>:</li>
- <li>Consume the arguments, then substitute all instances <strong>x</strong> in the  body, with <strong>y</strong>.</li></ol>
+<blockquote>
+ <ol>
+  <li>Apply <strong>(λx.x)</strong> to <strong>y</strong>:</li>
+  <li>Consume the arguments, then substitute all instances <strong>x</strong> in the body, with <strong>y</strong>.</li></ol></blockquote>
 
 <p>&ldquo;Wait, it merely returned the argument y.&rdquo; you may say. That is true. The function <strong>(λx.x)</strong> is the identity function &mdash; it is a single-parameter function that returns whatever is was applied to.</p>
 
@@ -475,14 +476,15 @@
 </td></tr></tbody></table>
 </div>
 
-<p>Let&rsquo;s break that down:</p>
+<p>Let&rsquo;s break it down:</p>
 
-<ol>
- <li>Determine the successor (S) of zero (0).</li>
- <li>Spell out the equivalent functional notation.</li>
- <li>Apply <strong>(λsz.z)</strong> to <strong>y</strong> substituting the bound variable <strong>s</strong> to  <strong>y</strong>.</li>
- <li>Apply <strong>(λz.z)</strong> to <strong>z</strong> substituting the bound variable <strong>z</strong> to  <strong>z</strong>.</li>
- <li>Evaluation stops, and <strong>(λyz.y(z))</strong> is returned, which is the  number 1.</li></ol>
+<blockquote>
+ <ol>
+  <li>Determine the successor (S) of zero (0).</li>
+  <li>Spell out the equivalent functional notation.</li>
+  <li>Apply <strong>(λsz.z)</strong> to <strong>y</strong> substituting the bound variable <strong>s</strong> to  <strong>y</strong>.</li>
+  <li>Apply <strong>(λz.z)</strong> to <strong>z</strong> substituting the bound variable <strong>z</strong> to  <strong>z</strong>.</li>
+  <li>Evaluation stops, and <strong>(λyz.y(z))</strong> is returned, which is the  number 1.</li></ol></blockquote>
 
 <h2 id="addition">Addition</h2>
 
@@ -534,17 +536,18 @@
 </td></tr></tbody></table>
 </div>
 
-<p>Let&rsquo;s break that down:</p>
+<p>Let&rsquo;s break it down:</p>
 
-<ol>
- <li>Spell out the equivalent functional notations for <strong>2</strong>, <strong>S</strong>, and <strong>3</strong>.</li>
- <li>Reducing it gives us <strong>SS3</strong></li>
- <li>The full version of <strong>SS3</strong>, which corresponds with <strong>2S3</strong> or two <strong>S</strong> and a <strong>3</strong>.</li>
- <li>Reduce it further.</li>
- <li>Reduce even further.</li>
- <li>It is now reduced to <strong>S4</strong>.</li>
- <li>Apply <strong>S</strong> to <strong>4</strong>.</li>
- <li>We now arrive at <strong>5</strong>.</li></ol>
+<blockquote>
+ <ol>
+  <li>Spell out the equivalent functional notations for <strong>2</strong>, <strong>S</strong>,  and <strong>3</strong>.</li>
+  <li>Reducing it gives us <strong>SS3</strong></li>
+  <li>The full version of <strong>SS3</strong>, which corresponds with <strong>2S3</strong> or  two <strong>S</strong> and a <strong>3</strong>.</li>
+  <li>Reduce it further.</li>
+  <li>Reduce even further.</li>
+  <li>It is now reduced to <strong>S4</strong>.</li>
+  <li>Apply <strong>S</strong> to <strong>4</strong>.</li>
+  <li>We now arrive at <strong>5</strong>.</li></ol></blockquote>
 
 <h2 id="multiplication">Multiplication</h2>
 
@@ -869,8 +872,6 @@
 </pre></div>
 </td></tr></tbody></table>
 </div>
-
-<p>Yup, <strong>0</strong> is indeed the predecessor of <strong>1</strong>.</p>
 
 <h2 id="subtraction">Subtraction</h2>
 
