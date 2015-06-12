@@ -260,15 +260,21 @@ Let's break it down:
 ## Addition
 What if we wanted to perform **2+3**? Fortunately, the
 successor function will do that for us. We express that as **2S3**,
-where we replace **+** as the infix operator.
+where we replace **+** as the infix operator. The addition function is
+defined as:
 
 ```scheme
-2+3 ≡ 2S3
+Name: A
+Profile: S ≡ (λxyz.y(xyz))
+Inputs: x, y
+Outputs: c
+Usage: xAy
 ```
 
-Stepping through it, yields:
+Let's test it out:
 
 ```scheme
+2+3 ≡ 2A3
 ≡ (λsz.s(sz))(λxyz.y(xyz))(λuv.u(u(uv)))
 = SS3
 ≡ (λxyz.y(xyz))((λxyz.y(xyz))(λuv.u(u(uv))))
@@ -282,6 +288,7 @@ Stepping through it, yields:
 
 Let's break it down:
 
+> 0. State the problem.
 > 1. Spell out the equivalent functional notations for **2**, **S**,
 >    and **3**.
 > 2. Reducing it gives us **SS3**
@@ -295,10 +302,14 @@ Let's break it down:
 
 ## Multiplication
 
-The magic incantation to multiply two numbers is:
+The multiplication function is defined as:
 
 ```scheme
-M ≡ (λxyz.x(yz))
+Name: M
+Profile: (λxyz.x(yz))
+Inputs: a, b
+Outputs: c
+Usage: Mab
 ```
 
 Unlike with addition which uses infix syntax, multiplying two numbers
@@ -379,10 +390,15 @@ the predecessor. Visually:
 ```scheme
 (z+1, z) = (z, z-1)
 ```
-As
-[Joscha Bach](http://palmstroem.blogspot.com/2012/05/lambda-calculus-for-absolute-dummies.html)
-has stated: x = P(y) ↔ y = S(x), i.e. **x** is the predecessor of
-**y**, if and only if, **y** is the successor of **x**.
+
+Therefore,
+
+```scheme
+x = Py iff y = Sx
+```
+
+That is, **x** is the predecessor of **y**, if and
+only if, **y** is the successor of **x**.
 
 So, to determine the predecessor of a number **x**, we create a pair like
 above, then select the second element.
@@ -412,9 +428,10 @@ the first element is the successor of the second element.
 
 ```scheme
 Name: Q
-Input: (a, b)
-Output: (S(a), b)
 Profile: (λpz.z(S(pT))(pT))
+Inputs: (a, b)
+Outputs: (S(a), b)
+Usage: Q(a,b)
 ```
 
 Let's test that out:
@@ -431,9 +448,10 @@ Looks correct. We can now build our predecessor function:
 
 ```scheme
 Name: P
-Input: N, where N is a natural number
-Output: N-1
 Profile: (λn.nQ(λz.z00))F
+Inputs: N, where N is a natural number
+Outputs: N-1
+Usage: PN
 ```
 
 Let's test that out:
