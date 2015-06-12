@@ -409,27 +409,57 @@
 
 <p>A sample would look like the following:</p>
 
-<p><code>elisp
-(bind-keys
- :map global-map
- ("C-;" . eval-expression)
- ("C-j" . delete-indentation)
- ("M-j" . delete-indentation-1)
- ("C-z" . mark-line)
- ("C-r" . isearch-backward)
- ("C-s" . isearch-forward)
- ("C-M-r" . isearch-backward-regexp)
- ("C-M-s" . isearch-forward-regexp))
+<div class="brush: elisp">
+ <table class="sourcetable">
+  <tbody>
+   <tr>
+    <td class="linenos">
+     <div class="linenodiv">
+      <pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20</pre></div></td>
+    <td class="code">
+     <div class="source">
+      <pre><span class="p">(</span><span class="nv">bind-keys</span>
+ <span class="ss">:map</span> <span class="nv">global-map</span>
+ <span class="p">(</span><span class="s">"C-;"</span> <span class="o">.</span> <span class="nv">eval-expression</span><span class="p">)</span>
+ <span class="p">(</span><span class="s">"C-j"</span> <span class="o">.</span> <span class="nv">delete-indentation</span><span class="p">)</span>
+ <span class="p">(</span><span class="s">"M-j"</span> <span class="o">.</span> <span class="nv">delete-indentation-1</span><span class="p">)</span>
+ <span class="p">(</span><span class="s">"C-z"</span> <span class="o">.</span> <span class="nv">mark-line</span><span class="p">)</span>
+ <span class="p">(</span><span class="s">"C-r"</span> <span class="o">.</span> <span class="nv">isearch-backward</span><span class="p">)</span>
+ <span class="p">(</span><span class="s">"C-s"</span> <span class="o">.</span> <span class="nv">isearch-forward</span><span class="p">)</span>
+ <span class="p">(</span><span class="s">"C-M-r"</span> <span class="o">.</span> <span class="nv">isearch-backward-regexp</span><span class="p">)</span>
+ <span class="p">(</span><span class="s">"C-M-s"</span> <span class="o">.</span> <span class="nv">isearch-forward-regexp</span><span class="p">))</span>
 
-(bind-keys
- :map emacs-lisp-mode-map
- ("M-." . find-function)
- ("C-x C-r" . eval-region)
- (";" . sp-comment))
+<span class="p">(</span><span class="nv">bind-keys</span>
+ <span class="ss">:map</span> <span class="nv">emacs-lisp-mode-map</span>
+ <span class="p">(</span><span class="s">"M-."</span> <span class="o">.</span> <span class="nv">find-function</span><span class="p">)</span>
+ <span class="p">(</span><span class="s">"C-x C-r"</span> <span class="o">.</span> <span class="nv">eval-region</span><span class="p">)</span>
+ <span class="p">(</span><span class="s">";"</span> <span class="o">.</span> <span class="nv">sp-comment</span><span class="p">))</span>
 
-(bind-keys
- :map dired-mode-map
- ("C-x w" . wdired-change-to-wdired-mode))</code></p>
+<span class="p">(</span><span class="nv">bind-keys</span>
+ <span class="ss">:map</span> <span class="nv">dired-mode-map</span>
+ <span class="p">(</span><span class="s">"C-x w"</span> <span class="o">.</span> <span class="nv">wdired-change-to-wdired-mode</span><span class="p">))</span>
+</pre></div>
+</td></tr></tbody></table>
+</div>
 
 <h1 id="conclusion">Conclusion</h1>
 
