@@ -458,6 +458,26 @@ P1
 
 Yup, **0** is indeed the predecessor of **1**.
 
+## Subtraction
+Now that we have the predecessor function, we can build our
+subtraction function.
+
+```scheme
+B ≡ (λxy.yPx)
+```
+
+Let's test that out:
+
+```scheme
+B11
+≡ (λxy.yPx) (λsz.s(z)) (λsz.s(z))
+= (λsz.s(z)) (P(λsz.s(z)))
+= (λsz.s(z)) (λsz.z)
+= (λz.(λsz.z)z)
+= (λz.(λz.z))
+≡ (λsz.z)
+≡ 0
+```
 
 # Conclusion
 
