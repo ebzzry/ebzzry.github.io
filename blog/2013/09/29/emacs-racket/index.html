@@ -3,13 +3,13 @@
   <head>
 
     <meta charset="utf-8">
-    <title>Emacs: Racket</title>
+    <title>Emacs & Racket</title>
     <meta name="description" content="In this post, I'll discuss the easiest approach that I took to setup up a Racket development environment on Emacs. Take note, that this is not the only approach available -- some did it in arguably better ways. In this article, I'll try to explain the sho...">
     <meta name="author"      content="Rommel Martinez">
     <meta name="keywords"    content="emacs, programming, racket">
     <meta name="viewport"    content="width=device-width, initial-scale=1.0">
     <link rel="icon"      href="/favicon.ico">
-    <link rel="canonical" href="http://rmm.meta.ph/blog/2013/09/29/emacs-racket/">
+    <link rel="canonical" href="http://ebzzry.github.io/blog/2013/09/29/emacs-racket/">
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="/css/pygments.css">
@@ -65,6 +65,8 @@
 
 <li><a href="/tags/backups.html">backups</a></li>
 
+<li><a href="/tags/compsci.html">compsci</a></li>
+
 <li><a href="/tags/emacs.html">emacs</a></li>
 
 <li><a href="/tags/gpg.html">gpg</a></li>
@@ -106,7 +108,7 @@
 
           <article>
   <header>
-    <h1>Emacs: Racket</h1>
+    <h1>Emacs &amp; Racket</h1>
 
 <p class="date-and-tags">
  <time datetime="2013-09-29" pubdate="true">2013-09-29</time> :: <span class="tags"><a href="/tags/emacs.html">emacs</a>, <a href="/tags/programming.html">programming</a>, <a href="/tags/racket.html">racket</a></span></p>
@@ -132,9 +134,23 @@
 
 <p>Let&rsquo;s say that you want to install your Geiser files in <code>~/.emacs.d/elisp/</code>. We&rsquo;ll issue the following commands to install Geiser to that location:</p>
 
-<pre><code>$ mkdir ~/.emacs.d/elisp
-$ cd ~/.emacs.d/elisp
-$ git clone http://git.sv.gnu.org/r/geiser.git</code></pre>
+<div class="brush: console">
+ <table class="sourcetable">
+  <tbody>
+   <tr>
+    <td class="linenos">
+     <div class="linenodiv">
+      <pre>1
+2
+3</pre></div></td>
+    <td class="code">
+     <div class="source">
+      <pre><span class="gp">$</span> mkdir ~/.emacs.d/elisp
+<span class="gp">$</span> <span class="nb">cd</span> ~/.emacs.d/elisp
+<span class="gp">$</span> git clone http://git.sv.gnu.org/r/geiser.git
+</pre></div>
+</td></tr></tbody></table>
+</div>
 
 <p>After that, in <code>~/.emacs.d/elisp/geiser/</code>, you&rsquo;ll have something that looks like the following:</p>
 
@@ -158,17 +174,47 @@ THANKS</code></pre>
 
 <p>Next, we want the directory <code>~/.emacs.d/elisp/geiser/elisp/</code> to be a member of the Emacs variable <code>load-path</code> so that <code>require</code> and friends will know where to find things. To do that, add the following to your Emacs init file &mdash; either in <code>~/.emacs.d/init.el</code>, or in <code>~/.emacs</code> (deprecated):</p>
 
-<pre><code>(add-to-list 'load-path "~/.emacs.d/elisp/geiser/elisp/")</code></pre>
+<div class="brush: elisp">
+ <table class="sourcetable">
+  <tbody>
+   <tr>
+    <td class="linenos">
+     <div class="linenodiv">
+      <pre>1</pre></div></td>
+    <td class="code">
+     <div class="source">
+      <pre><span class="p">(</span><span class="nv">add-to-list</span> <span class="ss">&#39;load-path</span> <span class="s">"~/.emacs.d/elisp/geiser/elisp/"</span><span class="p">)</span>
+</pre></div>
+</td></tr></tbody></table>
+</div>
 
 <p>Next, we&rsquo;ll put in the actual code that invokes and configures Geiser:</p>
 
-<pre><code>(require 'geiser)
+<div class="brush: elisp">
+ <table class="sourcetable">
+  <tbody>
+   <tr>
+    <td class="linenos">
+     <div class="linenodiv">
+      <pre>1
+2
+3
+4
+5
+6
+7</pre></div></td>
+    <td class="code">
+     <div class="source">
+      <pre><span class="p">(</span><span class="nb">require</span> <span class="ss">&#39;geiser</span><span class="p">)</span>
 
-(setq geiser-active-implementations '(racket))
+<span class="p">(</span><span class="k">setq</span> <span class="nv">geiser-active-implementations</span> <span class="o">&#39;</span><span class="p">(</span><span class="nv">racket</span><span class="p">))</span>
 
-(defun geiser-save ()
-  (interactive)
-  (geiser-repl--write-input-ring))</code></pre>
+<span class="p">(</span><span class="nb">defun</span> <span class="nv">geiser-save</span> <span class="p">()</span>
+  <span class="p">(</span><span class="nv">interactive</span><span class="p">)</span>
+  <span class="p">(</span><span class="nv">geiser-repl--write-input-ring</span><span class="p">))</span>
+</pre></div>
+</td></tr></tbody></table>
+</div>
 
 <p>The first expression loads Geiser, itself. The second one specifies that it won&rsquo;t prompt you for other implementations if it finds them. The last one is optional &mdash; it enables you to execute <code>M-x geiser-save</code> in the REPL buffer to force saving of the history to the disk file, which is <code>~/.geiser_history.racket</code>, by default. It is useful if you want to save your REPL session, immediately (Nothing is more horrifying than losing <strong>THAT</strong> expression). For all the Emacs code above, to take effect, you can evaluate them now using members of the eval-* troupe (<code>eval-defun</code>, <code>eval-last-sexp</code>, <code>eval-region</code>), or, you can still opt to respawn a new Emacs process.</p>
 
@@ -250,13 +296,13 @@ REPL *</code> buffer. Whatever you can do with the REPL invoked with vanilla com
     </script>
     <a href="https://twitter.com/share"
        class="twitter-share-button"
-       data-url="http://rmm.meta.ph/blog/2013/09/29/emacs-racket/"
+       data-url="http://ebzzry.github.io/blog/2013/09/29/emacs-racket/"
        data-dnt="true">
       "Tweet"</a>
     <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
-    <g:plusone size="medium" href="http://rmm.meta.ph/blog/2013/09/29/emacs-racket/"></g:plusone>
+    <g:plusone size="medium" href="http://ebzzry.github.io/blog/2013/09/29/emacs-racket/"></g:plusone>
     <script type="text/javascript">
-      var disqus_shortname = 'ebzzry';
+      var disqus_shortname = 'ebzzrygithubio';
       (function() {
           var dsq = document.createElement('script');
           dsq.type = 'text/javascript';
@@ -268,10 +314,10 @@ REPL *</code> buffer. Whatever you can do with the REPL invoked with vanilla com
     <div id="disqus_thread"></div>
     <ul class="pager">
     <li class="previous">
-      <a href="/blog/2014/02/17/emacs-mail/">&larr; <em>Emacs: Mail</em></a>
+      <a href="/blog/2014/02/17/emacs-mail/">&larr; <em>Emacs &amp; Mail</em></a>
     </li>
     <li class="next">
-      <a href="/blog/2013/09/26/emacs-dired/"><em>Emacs: Dired</em> &rarr;</a>
+      <a href="/blog/2013/09/26/emacs-dired/"><em>Emacs &amp; Dired</em> &rarr;</a>
     </li>
     </ul>
   </footer>
