@@ -1,4 +1,4 @@
-    Title: Emacs: Racket
+    Title: Emacs & Racket
     Date: 2013-09-29T22:21:19
     Tags: emacs, programming, racket
 
@@ -47,7 +47,7 @@ Let's say that you want to install your Geiser files in
 `~/.emacs.d/elisp/`. We'll issue the following commands to install Geiser
 to that location:
 
-```
+```console
 $ mkdir ~/.emacs.d/elisp
 $ cd ~/.emacs.d/elisp
 $ git clone http://git.sv.gnu.org/r/geiser.git
@@ -82,13 +82,13 @@ friends will know where to find things. To do that, add the following to your
 Emacs init file -- either in `~/.emacs.d/init.el`, or in `~/.emacs`
 (deprecated):
 
-```
+```elisp
 (add-to-list 'load-path "~/.emacs.d/elisp/geiser/elisp/")
 ```
 
 Next, we'll put in the actual code that invokes and configures Geiser:
 
-```
+```elisp
 (require 'geiser)
 
 (setq geiser-active-implementations '(racket))

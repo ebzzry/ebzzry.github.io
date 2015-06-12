@@ -3,13 +3,13 @@
   <head>
 
     <meta charset="utf-8">
-    <title>Emacs: Mail</title>
-    <meta name="description" content="in this day and age, checking our mail means going to the website of our mail provider, or using a mobile app. however, there are some cases when we want to have more control over our messages, especially when the feature we want is not present with the m...">
+    <title>Emacs & Mail</title>
+    <meta name="description" content="In this day and age, checking our mail means going to the website of our mail provider, or using a mobile app. however, there are some cases when we want to have more control over our messages, especially when the feature we want is not present with the m...">
     <meta name="author"      content="Rommel Martinez">
     <meta name="keywords"    content="emacs, mail">
     <meta name="viewport"    content="width=device-width, initial-scale=1.0">
     <link rel="icon"      href="/favicon.ico">
-    <link rel="canonical" href="http://rmm.meta.ph/blog/2014/02/17/emacs-mail/">
+    <link rel="canonical" href="http://ebzzry.github.io/blog/2014/02/17/emacs-mail/">
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="/css/pygments.css">
@@ -65,6 +65,8 @@
 
 <li><a href="/tags/backups.html">backups</a></li>
 
+<li><a href="/tags/compsci.html">compsci</a></li>
+
 <li><a href="/tags/emacs.html">emacs</a></li>
 
 <li><a href="/tags/gpg.html">gpg</a></li>
@@ -106,13 +108,13 @@
 
           <article>
   <header>
-    <h1>Emacs: Mail</h1>
+    <h1>Emacs &amp; Mail</h1>
 
 <p class="date-and-tags">
  <time datetime="2014-02-17" pubdate="true">2014-02-17</time> :: <span class="tags"><a href="/tags/emacs.html">emacs</a>, <a href="/tags/mail.html">mail</a></span></p>
   </header>
 
-<p>in this day and age, checking our mail means going to the website of our mail provider, or using a mobile app. however, there are some cases when we want to have more control over our messages, especially when the feature we want is not present with the mainstream options.</p>
+<p>In this day and age, checking our mail means going to the website of our mail provider, or using a mobile app. however, there are some cases when we want to have more control over our messages, especially when the feature we want is not present with the mainstream options.</p>
 
 <p>emacs provides a plethora (gnus, wanderlust, vm, etc.) of ways of sending and receiving mail. in this post, we&rsquo;re going to talk <a href="http://pyropus.ca/software/getmail/">getmail</a>, <a href="http://www.djcbsoftware.nl/code/mu/">mu</a>, and <a href="http://www.djcbsoftware.nl/code/mu/mu4e.html">mu4e</a>, and how to set them up quickly. In this tutorial We&rsquo;ll assume that we&rsquo;re going to get our messages from <a href="http://gmail.com">Gmail</a> via its IMAP interface.</p>
 <!-- more-->
@@ -125,11 +127,35 @@
 
 <p>Most of the time, getmail can be readily installed via your system&rsquo;s package manager. If you are using a <a href="https://www.debian.org/misc/children-distros">Debian-based system</a> , you can install it by running:</p>
 
-<pre><code>$ sudo apt-get install getmail4</code></pre>
+<div class="brush: console">
+ <table class="sourcetable">
+  <tbody>
+   <tr>
+    <td class="linenos">
+     <div class="linenodiv">
+      <pre>1</pre></div></td>
+    <td class="code">
+     <div class="source">
+      <pre><span class="gp">$</span> sudo apt-get install getmail4
+</pre></div>
+</td></tr></tbody></table>
+</div>
 
 <p>If you are using <a href="https://nixos.org/nixos/">NixOS</a>, you can install by running:</p>
 
-<pre><code>$ nix-env -i getmail</code></pre>
+<div class="brush: console">
+ <table class="sourcetable">
+  <tbody>
+   <tr>
+    <td class="linenos">
+     <div class="linenodiv">
+      <pre>1</pre></div></td>
+    <td class="code">
+     <div class="source">
+      <pre><span class="gp">$</span> nix-env -i getmail
+</pre></div>
+</td></tr></tbody></table>
+</div>
 
 <p>However, if your system doesn&rsquo;t provide an easy way for you to install getmail, you can always head to its <a href="http://pyropus.ca/software/getmail/">homepage</a> , then download the tarball.</p>
 
@@ -137,9 +163,23 @@
 
 <p>Next, we need to conjure the incantation so that getmail knows how to get your stuff. Create the file <code>~/.getmail/getmailrc</code>. In addition to that, we need to create and specify where the messages will go:</p>
 
-<pre><code>$ mkdir ~/Maildir
-$ mkdir ~/.getmail
-$ emacs ~/.getmail/getmailrc</code></pre>
+<div class="brush: console">
+ <table class="sourcetable">
+  <tbody>
+   <tr>
+    <td class="linenos">
+     <div class="linenodiv">
+      <pre>1
+2
+3</pre></div></td>
+    <td class="code">
+     <div class="source">
+      <pre><span class="gp">$</span> mkdir ~/Maildir
+<span class="gp">$</span> mkdir ~/.getmail
+<span class="gp">$</span> emacs ~/.getmail/getmailrc
+</pre></div>
+</td></tr></tbody></table>
+</div>
 
 <p>Then put in the following:</p>
 
@@ -166,14 +206,41 @@ received = false</code></pre>
 
 <p>To verify that we can indeed fetch our messages, run getmail:</p>
 
-<pre><code>$ getmail</code></pre>
+<div class="brush: console">
+ <table class="sourcetable">
+  <tbody>
+   <tr>
+    <td class="linenos">
+     <div class="linenodiv">
+      <pre>1</pre></div></td>
+    <td class="code">
+     <div class="source">
+      <pre><span class="gp">$</span> getmail
+</pre></div>
+</td></tr></tbody></table>
+</div>
 
 <p>If it doesn&rsquo;t choke, and displays something like the following, then you have configured getmail correctly.</p>
 
-<pre><code>getmail version 4.43.0
-Copyright (C) 1998-2012 Charles Cazabon.  Licensed under the GNU GPL version 2.
-SimpleIMAPSSLRetriever:foobar@gmail.com@imap.gmail.com:993:
-...</code></pre>
+<div class="brush: console">
+ <table class="sourcetable">
+  <tbody>
+   <tr>
+    <td class="linenos">
+     <div class="linenodiv">
+      <pre>1
+2
+3
+4</pre></div></td>
+    <td class="code">
+     <div class="source">
+      <pre><span class="go">getmail version 4.43.0</span>
+<span class="go">Copyright (C) 1998-2012 Charles Cazabon.  Licensed under the GNU GPL version 2.</span>
+<span class="go">SimpleIMAPSSLRetriever:foobar@gmail.com@imap.gmail.com:993:</span>
+<span class="go">...</span>
+</pre></div>
+</td></tr></tbody></table>
+</div>
 
 <h1 id="reading-messages">Reading Messages</h1>
 
@@ -183,17 +250,55 @@ SimpleIMAPSSLRetriever:foobar@gmail.com@imap.gmail.com:993:
 
 <p>Just like with getmail above, chances are, mu can be installed via your system&rsquo;s package manager. If you are using a <a href="https://www.debian.org/misc/children-distros">Debian-based system</a>, you can install it by running:</p>
 
-<pre><code>$ sudo apt-get install maildir-utils</code></pre>
+<div class="brush: console">
+ <table class="sourcetable">
+  <tbody>
+   <tr>
+    <td class="linenos">
+     <div class="linenodiv">
+      <pre>1</pre></div></td>
+    <td class="code">
+     <div class="source">
+      <pre><span class="gp">$</span> sudo apt-get install maildir-utils
+</pre></div>
+</td></tr></tbody></table>
+</div>
 
 <p>If you are using <a href="https://nixos.org/nixos/">NixOS</a>, you can install by running:</p>
 
-<pre><code>$ nix-env -i mu</code></pre>
+<div class="brush: console">
+ <table class="sourcetable">
+  <tbody>
+   <tr>
+    <td class="linenos">
+     <div class="linenodiv">
+      <pre>1</pre></div></td>
+    <td class="code">
+     <div class="source">
+      <pre><span class="gp">$</span> nix-env -i mu
+</pre></div>
+</td></tr></tbody></table>
+</div>
 
 <p>In addition to the above, we need to fetch mu4e. This comes with mu&rsquo;s source code. Download it by running:</p>
 
-<pre><code>$ mkdir ~/.emacs.d
-$ cd ~/.emacs.d
-$ git clone git@github.com:djcb/mu.git</code></pre>
+<div class="brush: console">
+ <table class="sourcetable">
+  <tbody>
+   <tr>
+    <td class="linenos">
+     <div class="linenodiv">
+      <pre>1
+2
+3</pre></div></td>
+    <td class="code">
+     <div class="source">
+      <pre><span class="gp">$</span> mkdir ~/.emacs.d
+<span class="gp">$</span> <span class="nb">cd</span> ~/.emacs.d
+<span class="gp">$</span> git clone git@github.com:djcb/mu.git
+</pre></div>
+</td></tr></tbody></table>
+</div>
 
 <p>This creates a <code>mu/</code> directory in the current directory, which happens to be the default location from which emacs looks for init files. Take note, that the git command above actually fetches the source code of mu, and we can actually use it to install mu. But since, you have your package manager, we&rsquo;ll ignore that. Also the location from which the <code>mu/mu4e/</code> subdirectory exists from the package manager&rsquo;s installation, varies between systems. So, for now, we&rsquo;re only interested with the <code>mu/mu4e/</code> subdirectory.</p>
 
@@ -201,33 +306,109 @@ $ git clone git@github.com:djcb/mu.git</code></pre>
 
 <p>We now need to make that mu4e directory accessible to emacs. To do so, we need to edit either <code>~/.emacs.d/init.el</code> or <code>~/.emacs</code>:</p>
 
-<pre><code>$ emacs ~/.emacs.d/init.el</code></pre>
+<div class="brush: console">
+ <table class="sourcetable">
+  <tbody>
+   <tr>
+    <td class="linenos">
+     <div class="linenodiv">
+      <pre>1</pre></div></td>
+    <td class="code">
+     <div class="source">
+      <pre><span class="gp">$</span> emacs ~/.emacs.d/init.el
+</pre></div>
+</td></tr></tbody></table>
+</div>
 
 <p>Then add the following:</p>
 
-<pre><code>(setq load-path (append load-path '("~/.emacs.d/mu/mu4e")))
-(require 'mu4e)</code></pre>
+<div class="brush: elisp">
+ <table class="sourcetable">
+  <tbody>
+   <tr>
+    <td class="linenos">
+     <div class="linenodiv">
+      <pre>1
+2</pre></div></td>
+    <td class="code">
+     <div class="source">
+      <pre><span class="p">(</span><span class="k">setq</span> <span class="nv">load-path</span> <span class="p">(</span><span class="nb">append</span> <span class="nv">load-path</span> <span class="o">&#39;</span><span class="p">(</span><span class="s">"~/.emacs.d/mu/mu4e"</span><span class="p">)))</span>
+<span class="p">(</span><span class="nb">require</span> <span class="ss">&#39;mu4e</span><span class="p">)</span>
+</pre></div>
+</td></tr></tbody></table>
+</div>
 
 <p>Additionally we need to put in some information about us, so that emacs won&rsquo;t bother asking us about those details later on:</p>
 
-<pre><code>(setq user-full-name "Foo B. Baz"
-       user-mail-address "foo@bar.baz")</code></pre>
+<div class="brush: elisp">
+ <table class="sourcetable">
+  <tbody>
+   <tr>
+    <td class="linenos">
+     <div class="linenodiv">
+      <pre>1
+2</pre></div></td>
+    <td class="code">
+     <div class="source">
+      <pre><span class="p">(</span><span class="k">setq</span> <span class="nv">user-full-name</span> <span class="s">"Foo B. Baz"</span>
+       <span class="nv">user-mail-address</span> <span class="s">"foo@bar.baz"</span><span class="p">)</span>
+</pre></div>
+</td></tr></tbody></table>
+</div>
 
 <p>To make our life even easier, we&rsquo;ll set some variables:</p>
 
-<pre><code>(setq mu4e-get-mail-command "getmail"
-      mu4e-update-interval 300
-      mu4e-attachment-dir "~/Downloads")</code></pre>
+<div class="brush: elisp">
+ <table class="sourcetable">
+  <tbody>
+   <tr>
+    <td class="linenos">
+     <div class="linenodiv">
+      <pre>1
+2
+3</pre></div></td>
+    <td class="code">
+     <div class="source">
+      <pre><span class="p">(</span><span class="k">setq</span> <span class="nv">mu4e-get-mail-command</span> <span class="s">"getmail"</span>
+      <span class="nv">mu4e-update-interval</span> <span class="mi">300</span>
+      <span class="nv">mu4e-attachment-dir</span> <span class="s">"~/Downloads"</span><span class="p">)</span>
+</pre></div>
+</td></tr></tbody></table>
+</div>
 
 <h2 id="execution">Execution</h2>
 
 <p>You can restart emacs so that those settings can take effect, or alternatively, you can mark (C-space) those lines, then hit:</p>
 
-<pre><code>M-x eval-region</code></pre>
+<div class="brush: elisp">
+ <table class="sourcetable">
+  <tbody>
+   <tr>
+    <td class="linenos">
+     <div class="linenodiv">
+      <pre>1</pre></div></td>
+    <td class="code">
+     <div class="source">
+      <pre><span class="nv">M-x</span> <span class="nv">eval-region</span>
+</pre></div>
+</td></tr></tbody></table>
+</div>
 
 <p>At this point, you can now use mu4e, by hitting:</p>
 
-<pre><code>M-x mu4e</code></pre>
+<div class="brush: elisp">
+ <table class="sourcetable">
+  <tbody>
+   <tr>
+    <td class="linenos">
+     <div class="linenodiv">
+      <pre>1</pre></div></td>
+    <td class="code">
+     <div class="source">
+      <pre><span class="nv">M-x</span> <span class="nv">mu4e</span>
+</pre></div>
+</td></tr></tbody></table>
+</div>
 
 <p>You&rsquo;ll get a sexy menu, wherein you can hit shortcuts to get you to where you want. To compose a message, hit <code>C</code>, fill in the fields, then hit <code>C-c C-c</code> to send the message. The rest of the commands should be self-explanatory, but if you want to learn more, you can read the nice <a href="http://www.djcbsoftware.nl/code/mu/mu4e/index.html">mu4e manual</a>.</p>
 
@@ -237,39 +418,111 @@ $ git clone git@github.com:djcb/mu.git</code></pre>
 
 <p>To make use of these cryptographic utilities, edit your emacs init:</p>
 
-<pre><code>$ emacs ~/.emacs.d/init.el</code></pre>
+<div class="brush: console">
+ <table class="sourcetable">
+  <tbody>
+   <tr>
+    <td class="linenos">
+     <div class="linenodiv">
+      <pre>1</pre></div></td>
+    <td class="code">
+     <div class="source">
+      <pre><span class="gp">$</span> emacs ~/.emacs.d/init.el
+</pre></div>
+</td></tr></tbody></table>
+</div>
 
 <p>Then add the following:</p>
 
-<pre><code>(require 'mml2015)
-(require 'epa-file)
+<div class="brush: elisp">
+ <table class="sourcetable">
+  <tbody>
+   <tr>
+    <td class="linenos">
+     <div class="linenodiv">
+      <pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13</pre></div></td>
+    <td class="code">
+     <div class="source">
+      <pre><span class="p">(</span><span class="nb">require</span> <span class="ss">&#39;mml2015</span><span class="p">)</span>
+<span class="p">(</span><span class="nb">require</span> <span class="ss">&#39;epa-file</span><span class="p">)</span>
 
-(defun encrypt-message (&amp;optional arg)
-  (interactive "p")
-  (mml-secure-message-encrypt-pgp))
+<span class="p">(</span><span class="nb">defun</span> <span class="nv">encrypt-message</span> <span class="p">(</span><span class="k">&amp;optional</span> <span class="nv">arg</span><span class="p">)</span>
+  <span class="p">(</span><span class="nv">interactive</span> <span class="s">"p"</span><span class="p">)</span>
+  <span class="p">(</span><span class="nv">mml-secure-message-encrypt-pgp</span><span class="p">))</span>
 
-(defun decrypt-message (&amp;optional arg)
-  (interactive "p")
-  (epa-decrypt-armor-in-region (point-min) (point-max)))
+<span class="p">(</span><span class="nb">defun</span> <span class="nv">decrypt-message</span> <span class="p">(</span><span class="k">&amp;optional</span> <span class="nv">arg</span><span class="p">)</span>
+  <span class="p">(</span><span class="nv">interactive</span> <span class="s">"p"</span><span class="p">)</span>
+  <span class="p">(</span><span class="nv">epa-decrypt-armor-in-region</span> <span class="p">(</span><span class="nv">point-min</span><span class="p">)</span> <span class="p">(</span><span class="nv">point-max</span><span class="p">)))</span>
 
-(defalias 'ec 'encrypt-message)
-(defalias 'dc 'decrypt-message)</code></pre>
+<span class="p">(</span><span class="nv">defalias</span> <span class="ss">&#39;ec</span> <span class="ss">&#39;encrypt-message</span><span class="p">)</span>
+<span class="p">(</span><span class="nv">defalias</span> <span class="ss">&#39;dc</span> <span class="ss">&#39;decrypt-message</span><span class="p">)</span>
+</pre></div>
+</td></tr></tbody></table>
+</div>
 
 <p>Mark those lines, then hit:</p>
 
-<pre><code>M-x eval-region</code></pre>
+<div class="brush: elisp">
+ <table class="sourcetable">
+  <tbody>
+   <tr>
+    <td class="linenos">
+     <div class="linenodiv">
+      <pre>1</pre></div></td>
+    <td class="code">
+     <div class="source">
+      <pre><span class="nv">M-x</span> <span class="nv">eval-region</span>
+</pre></div>
+</td></tr></tbody></table>
+</div>
 
 <p>To make the settings take effect, immediately.</p>
 
 <p>To send an encrypt a message, hit <code>C</code> from the main menu of mu4e, fill in the usual fields like <code>To:</code>, and <code>Subject:</code>, then on the message body, hit:</p>
 
-<pre><code>M-x ec</code></pre>
+<div class="brush: elisp">
+ <table class="sourcetable">
+  <tbody>
+   <tr>
+    <td class="linenos">
+     <div class="linenodiv">
+      <pre>1</pre></div></td>
+    <td class="code">
+     <div class="source">
+      <pre><span class="nv">M-x</span> <span class="nv">ec</span>
+</pre></div>
+</td></tr></tbody></table>
+</div>
 
 <p>This will tag your outgoing message to be signed and encrypted. To send the it, hit <code>C-c C-c</code>. This will then prompt you to input your passphrase. It will also ask you to fill in some information regarding your outgoing mail server (SMTP). The SMTP server for Gmail is <em>smtp.gmail.com</em>, then use <code>USERNAME@gmail</code>.com when prompted for the username. Use your regular password, when prompted, or input your application-specific password, as described earlier. These information will be saved to <code>~/.authinfo</code>, and will be used for later messages.</p>
 
 <p>To decrypt a message, open the message, then hit:</p>
 
-<pre><code>M-x dc</code></pre>
+<div class="brush: elisp">
+ <table class="sourcetable">
+  <tbody>
+   <tr>
+    <td class="linenos">
+     <div class="linenodiv">
+      <pre>1</pre></div></td>
+    <td class="code">
+     <div class="source">
+      <pre><span class="nv">M-x</span> <span class="nv">dc</span>
+</pre></div>
+</td></tr></tbody></table>
+</div>
 
 <p>This will prompt you to input your passphrase. After which, you&rsquo;ll be prompted if you&rsquo;ll want to replace the contents of the buffer, say yes to this.</p>
 
@@ -292,13 +545,13 @@ $ git clone git@github.com:djcb/mu.git</code></pre>
     </script>
     <a href="https://twitter.com/share"
        class="twitter-share-button"
-       data-url="http://rmm.meta.ph/blog/2014/02/17/emacs-mail/"
+       data-url="http://ebzzry.github.io/blog/2014/02/17/emacs-mail/"
        data-dnt="true">
       "Tweet"</a>
     <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
-    <g:plusone size="medium" href="http://rmm.meta.ph/blog/2014/02/17/emacs-mail/"></g:plusone>
+    <g:plusone size="medium" href="http://ebzzry.github.io/blog/2014/02/17/emacs-mail/"></g:plusone>
     <script type="text/javascript">
-      var disqus_shortname = 'ebzzry';
+      var disqus_shortname = 'ebzzrygithubio';
       (function() {
           var dsq = document.createElement('script');
           dsq.type = 'text/javascript';
@@ -313,7 +566,7 @@ $ git clone git@github.com:djcb/mu.git</code></pre>
       <a href="/blog/2014/02/19/an-introduction-to-frog/">&larr; <em>An Introduction To Frog</em></a>
     </li>
     <li class="next">
-      <a href="/blog/2013/09/29/emacs-racket/"><em>Emacs: Racket</em> &rarr;</a>
+      <a href="/blog/2013/09/29/emacs-racket/"><em>Emacs &amp; Racket</em> &rarr;</a>
     </li>
     </ul>
   </footer>

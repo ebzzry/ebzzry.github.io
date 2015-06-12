@@ -9,7 +9,7 @@
     <meta name="keywords"    content="racket, programming">
     <meta name="viewport"    content="width=device-width, initial-scale=1.0">
     <link rel="icon"      href="/favicon.ico">
-    <link rel="canonical" href="http://rmm.meta.ph/blog/2013/05/09/the-y-combinator-in-six-easy-steps/">
+    <link rel="canonical" href="http://ebzzry.github.io/blog/2013/05/09/the-y-combinator-in-six-easy-steps/">
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="/css/pygments.css">
@@ -64,6 +64,8 @@
                 <li><a href="/index.html">All Posts</a></li>
 
 <li><a href="/tags/backups.html">backups</a></li>
+
+<li><a href="/tags/compsci.html">compsci</a></li>
 
 <li><a href="/tags/emacs.html">emacs</a></li>
 
@@ -121,101 +123,237 @@
 
 <p>Let&rsquo;s start by defining a procedure named <code>sum0</code> that computes the <a href="http://en.wikipedia.org/wiki/Summation">summation</a> of a positive integer, down to zero. In the following snippet, the recursive call happens when <code>sum0</code> is applied in the else part of the condition.</p>
 
-<pre><code>&gt; (define sum0
-    (lambda (n)
-      (if (zero? n)
-          0
-          (+ n (sum0 (- n 1))))))
-&gt; (sum0 100)
-5050</code></pre>
+<div class="brush: scheme">
+ <table class="sourcetable">
+  <tbody>
+   <tr>
+    <td class="linenos">
+     <div class="linenodiv">
+      <pre>1
+2
+3
+4
+5
+6
+7</pre></div></td>
+    <td class="code">
+     <div class="source">
+      <pre><span class="nv">&gt;</span> <span class="p">(</span><span class="k">define </span><span class="nv">sum0</span>
+    <span class="p">(</span><span class="k">lambda </span><span class="p">(</span><span class="nf">n</span><span class="p">)</span>
+      <span class="p">(</span><span class="k">if </span><span class="p">(</span><span class="nb">zero? </span><span class="nv">n</span><span class="p">)</span>
+          <span class="mi">0</span>
+          <span class="p">(</span><span class="nb">+ </span><span class="nv">n</span> <span class="p">(</span><span class="nf">sum0</span> <span class="p">(</span><span class="nb">- </span><span class="nv">n</span> <span class="mi">1</span><span class="p">))))))</span>
+<span class="nv">&gt;</span> <span class="p">(</span><span class="nf">sum0</span> <span class="mi">100</span><span class="p">)</span>
+<span class="mi">5050</span>
+</pre></div>
+</td></tr></tbody></table>
+</div>
 
 <p>You have have observed that I have defined <code>sum0</code> using an explicit <code>lambda</code>. You&rsquo;ll see shortly, why.</p>
 
 <p>Let&rsquo;s break that procedure futher, into more elementary components, and we&rsquo;ll apply it, using <a href="https://en.wikipedia.org/wiki/Currying">currying</a>.</p>
 
-<pre><code>&gt; (define sum0
-    (lambda (f)
-      (lambda (n)
-        (if (zero? n)
-            0
-            (+ n ((f f) (- n 1)))))))
-&gt; ((sum0 sum0) 100)
-5050</code></pre>
+<div class="brush: scheme">
+ <table class="sourcetable">
+  <tbody>
+   <tr>
+    <td class="linenos">
+     <div class="linenodiv">
+      <pre>1
+2
+3
+4
+5
+6
+7
+8</pre></div></td>
+    <td class="code">
+     <div class="source">
+      <pre><span class="nv">&gt;</span> <span class="p">(</span><span class="k">define </span><span class="nv">sum0</span>
+    <span class="p">(</span><span class="k">lambda </span><span class="p">(</span><span class="nf">f</span><span class="p">)</span>
+      <span class="p">(</span><span class="k">lambda </span><span class="p">(</span><span class="nf">n</span><span class="p">)</span>
+        <span class="p">(</span><span class="k">if </span><span class="p">(</span><span class="nb">zero? </span><span class="nv">n</span><span class="p">)</span>
+            <span class="mi">0</span>
+            <span class="p">(</span><span class="nb">+ </span><span class="nv">n</span> <span class="p">((</span><span class="nf">f</span> <span class="nv">f</span><span class="p">)</span> <span class="p">(</span><span class="nb">- </span><span class="nv">n</span> <span class="mi">1</span><span class="p">)))))))</span>
+<span class="nv">&gt;</span> <span class="p">((</span><span class="nf">sum0</span> <span class="nv">sum0</span><span class="p">)</span> <span class="mi">100</span><span class="p">)</span>
+<span class="mi">5050</span>
+</pre></div>
+</td></tr></tbody></table>
+</div>
 
 <p>The extra <code>lambda</code> was needed because we needed to have a way to &ldquo;anonymize&rdquo; the recursive procedure. In this case, we used the identifier <code>f</code> to bind to the recursive procedure, which is <code>sum0</code>, itself. The weird-looking <code>((f f) ...)</code> is needed, because we have to perform the same procedure invocation method used initially: <code>((sum0 sum0) 100)</code>.</p>
 
 <p>We&rsquo;re now going to exploit that property, to use a &ldquo;nameless&rdquo; approach, that is, without using the <code>sum0</code> name.</p>
 
-<pre><code>&gt; (((lambda (f)
-      (lambda (n)
-        (if (zero? n)
-            0
-            (+ n ((f f) (- n 1))))))
-    (lambda (f)
-      (lambda (n)
-        (if (zero? n)
-            0
-            (+ n ((f f) (- n 1)))))))
-   100)
-5050</code></pre>
+<div class="brush: scheme">
+ <table class="sourcetable">
+  <tbody>
+   <tr>
+    <td class="linenos">
+     <div class="linenodiv">
+      <pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12</pre></div></td>
+    <td class="code">
+     <div class="source">
+      <pre><span class="nv">&gt;</span> <span class="p">(((</span><span class="k">lambda </span><span class="p">(</span><span class="nf">f</span><span class="p">)</span>
+      <span class="p">(</span><span class="k">lambda </span><span class="p">(</span><span class="nf">n</span><span class="p">)</span>
+        <span class="p">(</span><span class="k">if </span><span class="p">(</span><span class="nb">zero? </span><span class="nv">n</span><span class="p">)</span>
+            <span class="mi">0</span>
+            <span class="p">(</span><span class="nb">+ </span><span class="nv">n</span> <span class="p">((</span><span class="nf">f</span> <span class="nv">f</span><span class="p">)</span> <span class="p">(</span><span class="nb">- </span><span class="nv">n</span> <span class="mi">1</span><span class="p">))))))</span>
+    <span class="p">(</span><span class="k">lambda </span><span class="p">(</span><span class="nf">f</span><span class="p">)</span>
+      <span class="p">(</span><span class="k">lambda </span><span class="p">(</span><span class="nf">n</span><span class="p">)</span>
+        <span class="p">(</span><span class="k">if </span><span class="p">(</span><span class="nb">zero? </span><span class="nv">n</span><span class="p">)</span>
+            <span class="mi">0</span>
+            <span class="p">(</span><span class="nb">+ </span><span class="nv">n</span> <span class="p">((</span><span class="nf">f</span> <span class="nv">f</span><span class="p">)</span> <span class="p">(</span><span class="nb">- </span><span class="nv">n</span> <span class="mi">1</span><span class="p">)))))))</span>
+   <span class="mi">100</span><span class="p">)</span>
+<span class="mi">5050</span>
+</pre></div>
+</td></tr></tbody></table>
+</div>
 
 <p>Take note, that at this point, we&rsquo;re no longer using the <code>sum0</code> name, to refer the the definition, except for later.</p>
 
 <p>Next, we need to move the <code>(f f)</code> part outside, to isolate the general (Y combinator), from the specific (<code>sum0</code>) code.</p>
 
-<pre><code>&gt; (((lambda (f)
-      ((lambda (p)
-         (lambda (n)
-           (if (zero? n)
-               0
-               (+ n (p (- n 1))))))
-       (lambda (v) ((f f) v))))
-    (lambda (f)
-      ((lambda (p)
-         (lambda (n)
-           (if (zero? n)
-               0
-               (+ n (p (- n 1))))))
-       (lambda (v) ((f f) v)))))
-   100)
-5050</code></pre>
+<div class="brush: scheme">
+ <table class="sourcetable">
+  <tbody>
+   <tr>
+    <td class="linenos">
+     <div class="linenodiv">
+      <pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16</pre></div></td>
+    <td class="code">
+     <div class="source">
+      <pre><span class="nv">&gt;</span> <span class="p">(((</span><span class="k">lambda </span><span class="p">(</span><span class="nf">f</span><span class="p">)</span>
+      <span class="p">((</span><span class="k">lambda </span><span class="p">(</span><span class="nf">p</span><span class="p">)</span>
+         <span class="p">(</span><span class="k">lambda </span><span class="p">(</span><span class="nf">n</span><span class="p">)</span>
+           <span class="p">(</span><span class="k">if </span><span class="p">(</span><span class="nb">zero? </span><span class="nv">n</span><span class="p">)</span>
+               <span class="mi">0</span>
+               <span class="p">(</span><span class="nb">+ </span><span class="nv">n</span> <span class="p">(</span><span class="nf">p</span> <span class="p">(</span><span class="nb">- </span><span class="nv">n</span> <span class="mi">1</span><span class="p">))))))</span>
+       <span class="p">(</span><span class="k">lambda </span><span class="p">(</span><span class="nf">v</span><span class="p">)</span> <span class="p">((</span><span class="nf">f</span> <span class="nv">f</span><span class="p">)</span> <span class="nv">v</span><span class="p">))))</span>
+    <span class="p">(</span><span class="k">lambda </span><span class="p">(</span><span class="nf">f</span><span class="p">)</span>
+      <span class="p">((</span><span class="k">lambda </span><span class="p">(</span><span class="nf">p</span><span class="p">)</span>
+         <span class="p">(</span><span class="k">lambda </span><span class="p">(</span><span class="nf">n</span><span class="p">)</span>
+           <span class="p">(</span><span class="k">if </span><span class="p">(</span><span class="nb">zero? </span><span class="nv">n</span><span class="p">)</span>
+               <span class="mi">0</span>
+               <span class="p">(</span><span class="nb">+ </span><span class="nv">n</span> <span class="p">(</span><span class="nf">p</span> <span class="p">(</span><span class="nb">- </span><span class="nv">n</span> <span class="mi">1</span><span class="p">))))))</span>
+       <span class="p">(</span><span class="k">lambda </span><span class="p">(</span><span class="nf">v</span><span class="p">)</span> <span class="p">((</span><span class="nf">f</span> <span class="nv">f</span><span class="p">)</span> <span class="nv">v</span><span class="p">)))))</span>
+   <span class="mi">100</span><span class="p">)</span>
+<span class="mi">5050</span>
+</pre></div>
+</td></tr></tbody></table>
+</div>
 
 <p>During the procedure application, the identifier <code>p</code> will be bound to <code>(lambda (v) ((f f) v))</code>, and the identifier <code>v</code> will be bound to <code>(- n 1)</code>.</p>
 
 <p>Finally, we&rsquo;re going to isolate the Y combinator, from the <code>sum0</code> procedure.</p>
 
-<pre><code>&gt; (((lambda (x)
-      ((lambda (f)
-         (x (lambda (v) ((f f) v))))
-       (lambda (f)
-         (x (lambda (v) ((f f) v))))))
-    (lambda (p)
-      (lambda (n)
-        (if (zero? n)
-            0
-            (+ n (p (- n 1)))))))
-   100)
-5050</code></pre>
+<div class="brush: scheme">
+ <table class="sourcetable">
+  <tbody>
+   <tr>
+    <td class="linenos">
+     <div class="linenodiv">
+      <pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12</pre></div></td>
+    <td class="code">
+     <div class="source">
+      <pre><span class="nv">&gt;</span> <span class="p">(((</span><span class="k">lambda </span><span class="p">(</span><span class="nf">x</span><span class="p">)</span>
+      <span class="p">((</span><span class="k">lambda </span><span class="p">(</span><span class="nf">f</span><span class="p">)</span>
+         <span class="p">(</span><span class="nf">x</span> <span class="p">(</span><span class="k">lambda </span><span class="p">(</span><span class="nf">v</span><span class="p">)</span> <span class="p">((</span><span class="nf">f</span> <span class="nv">f</span><span class="p">)</span> <span class="nv">v</span><span class="p">))))</span>
+       <span class="p">(</span><span class="k">lambda </span><span class="p">(</span><span class="nf">f</span><span class="p">)</span>
+         <span class="p">(</span><span class="nf">x</span> <span class="p">(</span><span class="k">lambda </span><span class="p">(</span><span class="nf">v</span><span class="p">)</span> <span class="p">((</span><span class="nf">f</span> <span class="nv">f</span><span class="p">)</span> <span class="nv">v</span><span class="p">))))))</span>
+    <span class="p">(</span><span class="k">lambda </span><span class="p">(</span><span class="nf">p</span><span class="p">)</span>
+      <span class="p">(</span><span class="k">lambda </span><span class="p">(</span><span class="nf">n</span><span class="p">)</span>
+        <span class="p">(</span><span class="k">if </span><span class="p">(</span><span class="nb">zero? </span><span class="nv">n</span><span class="p">)</span>
+            <span class="mi">0</span>
+            <span class="p">(</span><span class="nb">+ </span><span class="nv">n</span> <span class="p">(</span><span class="nf">p</span> <span class="p">(</span><span class="nb">- </span><span class="nv">n</span> <span class="mi">1</span><span class="p">)))))))</span>
+   <span class="mi">100</span><span class="p">)</span>
+<span class="mi">5050</span>
+</pre></div>
+</td></tr></tbody></table>
+</div>
 
 <p>We replace the <code>sum0</code>-specific definition with <code>x</code>. This requires us again, to create an enveloping <code>lambda</code>. Since <code>x</code> is bound to the computing procedure, we no longer need to repeat it.</p>
 
 <p>Optionally, we can explicitly create separate procedure definitions for the Y combinator itself, and the <code>sum0</code> procedure.</p>
 
-<pre><code>&gt; (define y
-    (lambda (x)
-      ((lambda (f)
-         (x (lambda (v) ((f f) v))))
-       (lambda (f)
-         (x (lambda (v) ((f f) v)))))))
-&gt; (define %sum0
-    (lambda (p)
-      (lambda (n)
-        (if (zero? n)
-            0
-            (+ n (p (- n 1)))))))
-&gt; (define sum0 (y %sum0))
-&gt; (sum0 100)
-5050</code></pre>
+<div class="brush: scheme">
+ <table class="sourcetable">
+  <tbody>
+   <tr>
+    <td class="linenos">
+     <div class="linenodiv">
+      <pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15</pre></div></td>
+    <td class="code">
+     <div class="source">
+      <pre><span class="nv">&gt;</span> <span class="p">(</span><span class="k">define </span><span class="nv">y</span>
+    <span class="p">(</span><span class="k">lambda </span><span class="p">(</span><span class="nf">x</span><span class="p">)</span>
+      <span class="p">((</span><span class="k">lambda </span><span class="p">(</span><span class="nf">f</span><span class="p">)</span>
+         <span class="p">(</span><span class="nf">x</span> <span class="p">(</span><span class="k">lambda </span><span class="p">(</span><span class="nf">v</span><span class="p">)</span> <span class="p">((</span><span class="nf">f</span> <span class="nv">f</span><span class="p">)</span> <span class="nv">v</span><span class="p">))))</span>
+       <span class="p">(</span><span class="k">lambda </span><span class="p">(</span><span class="nf">f</span><span class="p">)</span>
+         <span class="p">(</span><span class="nf">x</span> <span class="p">(</span><span class="k">lambda </span><span class="p">(</span><span class="nf">v</span><span class="p">)</span> <span class="p">((</span><span class="nf">f</span> <span class="nv">f</span><span class="p">)</span> <span class="nv">v</span><span class="p">)))))))</span>
+<span class="nv">&gt;</span> <span class="p">(</span><span class="k">define </span><span class="nv">%sum0</span>
+    <span class="p">(</span><span class="k">lambda </span><span class="p">(</span><span class="nf">p</span><span class="p">)</span>
+      <span class="p">(</span><span class="k">lambda </span><span class="p">(</span><span class="nf">n</span><span class="p">)</span>
+        <span class="p">(</span><span class="k">if </span><span class="p">(</span><span class="nb">zero? </span><span class="nv">n</span><span class="p">)</span>
+            <span class="mi">0</span>
+            <span class="p">(</span><span class="nb">+ </span><span class="nv">n</span> <span class="p">(</span><span class="nf">p</span> <span class="p">(</span><span class="nb">- </span><span class="nv">n</span> <span class="mi">1</span><span class="p">)))))))</span>
+<span class="nv">&gt;</span> <span class="p">(</span><span class="k">define </span><span class="nv">sum0</span> <span class="p">(</span><span class="nf">y</span> <span class="nv">%sum0</span><span class="p">))</span>
+<span class="nv">&gt;</span> <span class="p">(</span><span class="nf">sum0</span> <span class="mi">100</span><span class="p">)</span>
+<span class="mi">5050</span>
+</pre></div>
+</td></tr></tbody></table>
+</div>
 
 <p>I hope this post has been useful in making you understand the Y combinator, currying, and procedure application. Please post your comments and suggestions, below. &lt;-:</p>
   <footer>
@@ -232,13 +370,13 @@
     </script>
     <a href="https://twitter.com/share"
        class="twitter-share-button"
-       data-url="http://rmm.meta.ph/blog/2013/05/09/the-y-combinator-in-six-easy-steps/"
+       data-url="http://ebzzry.github.io/blog/2013/05/09/the-y-combinator-in-six-easy-steps/"
        data-dnt="true">
       "Tweet"</a>
     <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
-    <g:plusone size="medium" href="http://rmm.meta.ph/blog/2013/05/09/the-y-combinator-in-six-easy-steps/"></g:plusone>
+    <g:plusone size="medium" href="http://ebzzry.github.io/blog/2013/05/09/the-y-combinator-in-six-easy-steps/"></g:plusone>
     <script type="text/javascript">
-      var disqus_shortname = 'ebzzry';
+      var disqus_shortname = 'ebzzrygithubio';
       (function() {
           var dsq = document.createElement('script');
           dsq.type = 'text/javascript';
