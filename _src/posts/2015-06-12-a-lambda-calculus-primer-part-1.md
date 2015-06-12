@@ -202,7 +202,7 @@ is equivalent to:
 
 ## Start
 Since (almost) everything in lambda calculus is expressed as
-functions, it's take on numbers is unique. Arguably, the most
+functions, its take on numbers is unique. Arguably, the most
 important number in lambda calculus is zero (0), which is expressed
 as:
 

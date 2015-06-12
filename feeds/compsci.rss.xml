@@ -279,7 +279,7 @@
 
 &lt;h2 id="start"&gt;Start&lt;/h2&gt;
 
-&lt;p&gt;Since (almost) everything in lambda calculus is expressed as functions, it&amp;rsquo;s take on numbers is unique. Arguably, the most important number in lambda calculus is zero (0), which is expressed as:&lt;/p&gt;
+&lt;p&gt;Since (almost) everything in lambda calculus is expressed as functions, its take on numbers is unique. Arguably, the most important number in lambda calculus is zero (0), which is expressed as:&lt;/p&gt;
 
 &lt;div class="brush: scheme"&gt;
  &lt;table class="sourcetable"&gt;
