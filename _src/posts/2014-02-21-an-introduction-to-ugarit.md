@@ -7,6 +7,8 @@ happened? how many times have we told ourselves that had we created backups of
 our precious data, we wouldn't be in that dire situation, pulling our hairs out
 like a maniac?
 
+<!-- more -->
+
 Most of us have been there -- we lost our precious files due inadvertent
 causes. We lost them because of disk crash, data corruption, security breach,
 and other reasons. But had we created a fallback, a big, safe foam that we can
@@ -18,7 +20,6 @@ In this post, we'll talk about
 , a nice piece of technology, that combines ease-of-use, and
 security, in a single tool.
 
-<!-- more -->
 
 # Introduction
 
@@ -37,7 +38,7 @@ command.
 First, we need to install [Chicken](http://www.call-cc.org/). Most
 likely, it can be installed via your package manager:
 
-```
+```console
 $ sudo apt-get install chicken-bin
 ```
 
@@ -46,14 +47,14 @@ If it isn't available on your system, you may download it from
 
 After Chicken is installed, let's install Ugarit itself, and some dependencies:
 
-```
+```console
 $ chicken-install -s ugarit tiger-hash aes
 ```
 
 After this command completes, the command `ugarit` will become
 available. To display command-line help:
 
-```
+```console
 $ ugarit -h
 ```
 
@@ -66,7 +67,7 @@ uncommon for the command `ls` to experience a noticeable lag when ran inside
 the data directory. Let's presume that `/dev/sdb1` is a large filesystem and
 we want to mount it to `/ugarit/`.
 
-```
+```console
 $ sudo mkdir /ugarit
 $ sudo mount /dev/sdb1 /ugarit
 $ sudo mkdir /ugarit/vault
@@ -83,26 +84,26 @@ later:
 
 Create a salt, for the hash function:
 
-```
+```console
 $ dd if=/dev/random bs=1 count=64 2>/dev/null | base64 -w 0 | tail -1
 ```
 
 Create the key, for the vault:
 
-```
+```console
 $ dd if=/dev/random bs=32 count=1 2>/dev/null | od -An -tx1 | tr -d ' \t\n'
 ```
 
 After we run those commands, we'll create the config file, `ugarit.conf`. To
 make it consistent with the example above, we'll store it inside `/ugarit`:
 
-```
+```console
 $ emacs /ugarit/ugarit.conf
 ```
 
 Then input the following:
 
-```
+```scheme
 (storage "backend-fs fs /ugarit/vault")
 (file-cache "/ugarit/cache")
 (hash tiger "SALT")
@@ -112,7 +113,7 @@ Then input the following:
 Replace SALT, and KEY, with the salt and key strings that we generated
 above. Save the file, then secure it.
 
-```
+```console
 $ chmod 600 /ugarit/ugarit.conf
 ```
 
@@ -123,7 +124,7 @@ $ chmod 600 /ugarit/ugarit.conf
 
 To create a snapshot, run:
 
-```
+```console
 $ ugarit snapshot /ugarit/ugarit.conf TAG DIRECTORY
 ```
 
@@ -132,13 +133,13 @@ $ ugarit snapshot /ugarit/ugarit.conf TAG DIRECTORY
 create, for example, a snapshot of the directory `pictures/`, with the tag
 `pix`, run Ugarit like this:
 
-```
+```console
 $ ugarit snapshot /ugarit/ugarit.conf pix pictures
 ```
 
 After the snapshot, you'll see similar to the following:
 
-```
+```console
 Archiving pictures to tag pix...
 Root hash: ddc888c86db6d7c468a27cc4af9b2907d219936df82e0971
 Successfully snapshotted pictures to tag pix
@@ -151,13 +152,13 @@ File cache has saved us 1 file hashings / 638104 bytes (before compression)
 ## Exploring Snapshots
 To interactively manage the contents of the vault, run:
 
-```
+```console
 $ ugarit explore /ugarit/ugarit.conf
 ```
 
 To list the available commands:
 
-```
+```console
 > help
 ```
 
@@ -166,7 +167,7 @@ the snapshot earlier. Let's say that the original path of that directory was
 `pictures/holiday`. So, to extract the directory `holiday/` to the
 current directory, run:
 
-```
+```console
 > cd pix
 /pix> cd current
 /pix/current> cd contents
@@ -180,7 +181,7 @@ If, however, you know the exact path to a file or directory that you want to
 extract, you can instead run Ugarit with the extract mode. To extract the
 directory `holiday/` from above, directly, run:
 
-```
+```console
 $ ugarit extract /ugarit/ugarit.conf /pix/current/contents/holiday
 ```
 
@@ -194,7 +195,7 @@ you have an [SSHFS](http://fuse.sourceforge.net/sshfs.html) mount,
 for example, you can still create a snapshot of it, just like any other local
 filesystem:
 
-```
+```console
 $ sshfs remotehost:/ ~/mnt/sshfs/remotehost
 $ cd ~/mnt/sshfs
 $ ugarit snapshot /ugarit/ugarit.conf remotehost
@@ -203,7 +204,7 @@ $ ugarit snapshot /ugarit/ugarit.conf remotehost
 The same applies to [SMBFS](http://www.samba.org/samba/smbfs/)
 mounts:
 
-```
+```console
 $ sudo mount -t cifs -o user=$USER,uid=$USER //winhost/c ~/mnt/smbfs/winhost/c
 $ cd ~/mnt/smbfs
 $ ugarit snapshot /ugarit/ugarit.conf winhost
@@ -212,13 +213,13 @@ $ ugarit snapshot /ugarit/ugarit.conf winhost
 ## Miscellany
 To disable output, when creating snapshots:
 
-```
+```console
 $ ugarit snapshot /ugarit/ugarit.conf -q ...
 ```
 
 To enable very verbose output, when creating snapshots:
 
-```
+```console
 $ ugarit snapshot -:a256 /ugarit/ugarit.conf ...
 ```
 

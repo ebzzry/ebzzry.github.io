@@ -9,7 +9,7 @@
     <meta name="keywords"    content="racket, programming">
     <meta name="viewport"    content="width=device-width, initial-scale=1.0">
     <link rel="icon"      href="/favicon.ico">
-    <link rel="canonical" href="http://rmm.meta.ph/blog/2013/05/29/an-introduction-to-livefrog/">
+    <link rel="canonical" href="http://ebzzry.github.io/blog/2013/05/29/an-introduction-to-livefrog/">
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="/css/pygments.css">
@@ -64,6 +64,8 @@
                 <li><a href="/index.html">All Posts</a></li>
 
 <li><a href="/tags/backups.html">backups</a></li>
+
+<li><a href="/tags/compsci.html">compsci</a></li>
 
 <li><a href="/tags/emacs.html">emacs</a></li>
 
@@ -125,14 +127,41 @@
 
 <p>livefrog is available via Racket&rsquo;s <a href="http://pkg.racket-lang.org">Planet2</a>:</p>
 
-<pre><code>$ raco pkg install livefrog</code></pre>
+<div class="brush: console">
+ <table class="sourcetable">
+  <tbody>
+   <tr>
+    <td class="linenos">
+     <div class="linenodiv">
+      <pre>1</pre></div></td>
+    <td class="code">
+     <div class="source">
+      <pre><span class="gp">$</span> raco pkg install livefrog
+</pre></div>
+</td></tr></tbody></table>
+</div>
 
 <p>If that doesn&rsquo;t work, you can alternately install by fetching livefrog, and the dependencies, from github</p>
 
-<pre><code>$ git clone https://github.com/jbclements/sxml.git
-$ git clone https://github.com/greghendershott/frog.git
-$ git clone https://github.com/ebzzry/livefrog.git
-$ raco pkg install frog/ sxml/ livefrog/</code></pre>
+<div class="brush: console">
+ <table class="sourcetable">
+  <tbody>
+   <tr>
+    <td class="linenos">
+     <div class="linenodiv">
+      <pre>1
+2
+3
+4</pre></div></td>
+    <td class="code">
+     <div class="source">
+      <pre><span class="gp">$</span> git clone https://github.com/jbclements/sxml.git
+<span class="gp">$</span> git clone https://github.com/greghendershott/frog.git
+<span class="gp">$</span> git clone https://github.com/ebzzry/livefrog.git
+<span class="gp">$</span> raco pkg install frog/ sxml/ livefrog/
+</pre></div>
+</td></tr></tbody></table>
+</div>
 
 <p>The trailing slashes are important, to tell <code>raco</code> that you are installing from local directories. Without it, it will try to fetch the sources from the internet.</p>
 
@@ -144,11 +173,35 @@ $ raco pkg install frog/ sxml/ livefrog/</code></pre>
 
 <p>To create a Markdown file from the file entry.xml</p>
 
-<pre><code>$ raco livefrog -m entry.xml</code></pre>
+<div class="brush: console">
+ <table class="sourcetable">
+  <tbody>
+   <tr>
+    <td class="linenos">
+     <div class="linenodiv">
+      <pre>1</pre></div></td>
+    <td class="code">
+     <div class="source">
+      <pre><span class="gp">$</span> raco livefrog -m entry.xml
+</pre></div>
+</td></tr></tbody></table>
+</div>
 
 <p>That, however, becomes cumbersome if you&rsquo;re going to manage more than a hundred entries. To automatically &ldquo;pick up&rdquo; the files created by ljdump or ljmigrate, and convert them to Markdown.</p>
 
-<pre><code>$ raco livefrog -am</code></pre>
+<div class="brush: console">
+ <table class="sourcetable">
+  <tbody>
+   <tr>
+    <td class="linenos">
+     <div class="linenodiv">
+      <pre>1</pre></div></td>
+    <td class="code">
+     <div class="source">
+      <pre><span class="gp">$</span> raco livefrog -am
+</pre></div>
+</td></tr></tbody></table>
+</div>
 
 <p>Bear in mind, though, that ljdump and ljmigrate differ on how the trees for the data are created. ljdump has the following tree format, where USERNAME is your LiveJournal account name:</p>
 
@@ -198,21 +251,61 @@ $ raco pkg install frog/ sxml/ livefrog/</code></pre>
 
 <p>To create a file, named <code>comments.xml</code> that will be used for importing comments, to be used with <a href="http://import.disqus.com/">import.disqus.com</a>, using <code>foo.bar.com</code> as the root site:</p>
 
-<pre><code>$ raco livefrog -s foo.bar.com -c comments.xml</code></pre>
+<div class="brush: console">
+ <table class="sourcetable">
+  <tbody>
+   <tr>
+    <td class="linenos">
+     <div class="linenodiv">
+      <pre>1</pre></div></td>
+    <td class="code">
+     <div class="source">
+      <pre><span class="gp">$</span> raco livefrog -s foo.bar.com -c comments.xml
+</pre></div>
+</td></tr></tbody></table>
+</div>
 
 <h1 id="updating">Updating</h1>
 
 <p>If you installed livefrog using Planet2, you can update it by running:</p>
 
-<pre><code>$ raco pkg update livefrog</code></pre>
+<div class="brush: console">
+ <table class="sourcetable">
+  <tbody>
+   <tr>
+    <td class="linenos">
+     <div class="linenodiv">
+      <pre>1</pre></div></td>
+    <td class="code">
+     <div class="source">
+      <pre><span class="gp">$</span> raco pkg update livefrog
+</pre></div>
+</td></tr></tbody></table>
+</div>
 
 <p>However, if you used the latter method, you may update it by pulling the updates, uninstalling livefrog, then installing it again:</p>
 
-<pre><code>$ cd livefrog
-$ git pull origin master
-$ cd ..
-$ raco pkg remove livefrog
-$ raco pkg install livefrog/</code></pre>
+<div class="brush: console">
+ <table class="sourcetable">
+  <tbody>
+   <tr>
+    <td class="linenos">
+     <div class="linenodiv">
+      <pre>1
+2
+3
+4
+5</pre></div></td>
+    <td class="code">
+     <div class="source">
+      <pre><span class="gp">$</span> <span class="nb">cd </span>livefrog
+<span class="gp">$</span> git pull origin master
+<span class="gp">$</span> <span class="nb">cd</span> ..
+<span class="gp">$</span> raco pkg remove livefrog
+<span class="gp">$</span> raco pkg install livefrog/
+</pre></div>
+</td></tr></tbody></table>
+</div>
 
 <h1 id="miscellany">Miscellany</h1>
 
@@ -221,11 +314,35 @@ livefrog</code> in your shell.</p>
 
 <p>Sh-like shells:</p>
 
-<pre><code>$ echo 'alias livefrog="raco livefrog"' &gt;&gt; ~/.bashrc</code></pre>
+<div class="brush: console">
+ <table class="sourcetable">
+  <tbody>
+   <tr>
+    <td class="linenos">
+     <div class="linenodiv">
+      <pre>1</pre></div></td>
+    <td class="code">
+     <div class="source">
+      <pre><span class="gp">$</span> <span class="nb">echo</span> <span class="s1">&#39;alias livefrog="raco livefrog"&#39;</span> &gt;&gt; ~/.bashrc
+</pre></div>
+</td></tr></tbody></table>
+</div>
 
 <p>Csh-like shells:</p>
 
-<pre><code>$ echo 'alias livefrog raco livefrog' &gt;&gt; ~/.cshrc</code></pre>
+<div class="brush: console">
+ <table class="sourcetable">
+  <tbody>
+   <tr>
+    <td class="linenos">
+     <div class="linenodiv">
+      <pre>1</pre></div></td>
+    <td class="code">
+     <div class="source">
+      <pre><span class="gp">$</span> <span class="nb">echo</span> <span class="s1">&#39;alias livefrog raco livefrog&#39;</span> &gt;&gt; ~/.cshrc
+</pre></div>
+</td></tr></tbody></table>
+</div>
 
 <p>Replace <code>.bashrc</code>, and <code>.cshrc</code>, with the appropriate init file for your shell.</p>
   <footer>
@@ -242,13 +359,13 @@ livefrog</code> in your shell.</p>
     </script>
     <a href="https://twitter.com/share"
        class="twitter-share-button"
-       data-url="http://rmm.meta.ph/blog/2013/05/29/an-introduction-to-livefrog/"
+       data-url="http://ebzzry.github.io/blog/2013/05/29/an-introduction-to-livefrog/"
        data-dnt="true">
       "Tweet"</a>
     <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
-    <g:plusone size="medium" href="http://rmm.meta.ph/blog/2013/05/29/an-introduction-to-livefrog/"></g:plusone>
+    <g:plusone size="medium" href="http://ebzzry.github.io/blog/2013/05/29/an-introduction-to-livefrog/"></g:plusone>
     <script type="text/javascript">
-      var disqus_shortname = 'ebzzry';
+      var disqus_shortname = 'ebzzrygithubio';
       (function() {
           var dsq = document.createElement('script');
           dsq.type = 'text/javascript';
@@ -260,7 +377,7 @@ livefrog</code> in your shell.</p>
     <div id="disqus_thread"></div>
     <ul class="pager">
     <li class="previous">
-      <a href="/blog/2013/09/10/emacs-hacks-1/">&larr; <em>Emacs: Hacks 1</em></a>
+      <a href="/blog/2013/09/10/emacs-hacks-part-1/">&larr; <em>Emacs &amp; Hacks (part 1)</em></a>
     </li>
     <li class="next">
       <a href="/blog/2013/05/21/an-introduction-to-usync/"><em>An Introduction to Usync</em> &rarr;</a>

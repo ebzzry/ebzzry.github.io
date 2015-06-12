@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <title>Emacs & Hacks (part 1)</title>
+    <meta name="description" content="In this series of posts, I will be sharing my personal hacks on how I use Emacs for my day-to-day stuff. Most, if not all of the code contained in these posts are excerpts from the respective configuration files that I use.  The rest of the configuration ...">
+    <meta name="author"      content="Rommel Martinez">
+    <meta name="keywords"    content="emacs, programming">
+    <meta name="viewport"    content="width=device-width, initial-scale=1.0">
+    <link rel="icon"      href="/favicon.ico">
+    <link rel="canonical" href="http://ebzzry.github.io/blog/2013/09/10/emacs-hacks-part-1/">
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/pygments.css">
+    <link rel="stylesheet" type="text/css" href="/css/scribble.css">
+    <link rel="stylesheet" type="text/css" href="/css/custom.css">
+    <!-- Feeds -->
+    <link ref="alternate" type="application/atom+xml"
+          href="/feeds/all.atom.xml" title="Atom Feed">
+    <link ref="alternate" type="application/rss+xml"
+          href="/feeds/all.rss.xml" title="RSS Feed">
+    <!-- JS -->
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-xxxxx']);
+      _gaq.push(['_setDomainName', 'example.com']);
+      _gaq.push(['_trackPageview']);
+      setTimeout(function(){_gaq.push(['_trackEvent', '30_seconds', 'read'])}, 30000); // http://drawingablank.me/blog/fix-your-bounce-rate.html
+      (function() {
+          var ga = document.createElement('script');
+          ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0];
+          s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+  </head>
+  <body id="wrapper">
+    <!-- A standard Twitter Bootstrap nav bar -->
+    <header class="navbar navbar-default navbar-inverse"
+            role="banner">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button"
+                  class="navbar-toggle"
+                  data-toggle="collapse"
+                  data-target=".our-nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!-- <a href="/index.html" class="navbar-brand">Home</a> -->
+          <a href="/index.html" class="navbar-brand">Home</a>
+        </div>
+        <div class="collapse navbar-collapse our-nav-collapse"
+             role="navigation">
+          <ul class="nav navbar-nav">
+
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                Tags <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="/index.html">All Posts</a></li>
+
+<li><a href="/tags/backups.html">backups</a></li>
+
+<li><a href="/tags/compsci.html">compsci</a></li>
+
+<li><a href="/tags/emacs.html">emacs</a></li>
+
+<li><a href="/tags/gpg.html">gpg</a></li>
+
+<li><a href="/tags/mail.html">mail</a></li>
+
+<li><a href="/tags/programming.html">programming</a></li>
+
+<li><a href="/tags/racket.html">racket</a></li>
+
+<li><a href="/tags/rants.html">rants</a></li>
+
+<li><a href="/tags/scheme.html">scheme</a></li>
+
+<li><a href="/tags/ssh.html">ssh</a></li>
+
+<li><a href="/tags/sysadmin.html">sysadmin</a></li>
+
+<li><a href="/tags/web.html">web</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="/about.html">About</a>
+            </li> 
+            <li><a href="/feeds/all.atom.xml">Atom</a></li>
+            <li><a href="/feeds/all.rss.xml">RSS</a></li>
+          </ul>
+        </div>
+    </header>
+    <div class="container">
+      <div class="row">
+
+        <!-- Main column -->
+        <div id="content" class="col-md-12">
+
+
+
+
+
+          <article>
+  <header>
+    <h1>Emacs &amp; Hacks (part 1)</h1>
+
+<p class="date-and-tags">
+ <time datetime="2013-09-10" pubdate="true">2013-09-10</time> :: <span class="tags"><a href="/tags/emacs.html">emacs</a>, <a href="/tags/programming.html">programming</a></span></p>
+  </header>
+
+<p>In this series of posts, I will be sharing my personal hacks on how I use Emacs for my day-to-day stuff. Most, if not all of the code contained in these posts are excerpts from the respective configuration files that I use.</p>
+
+<p>The rest of the configuration can be found at <a href="http://github.com/ebzzry/dotemacs">github.com/ebzzry/dotemacs</a>.</p>
+<!-- more-->
+
+<div class="brush: elisp">
+ <table class="sourcetable">
+  <tbody>
+   <tr>
+    <td class="linenos">
+     <div class="linenodiv">
+      <pre>1
+2
+3
+4
+5
+6
+7
+8
+9</pre></div></td>
+    <td class="code">
+     <div class="source">
+      <pre><span class="p">(</span><span class="nb">defun</span> <span class="nv">delete-forward-char-or-region</span> <span class="p">(</span><span class="k">&amp;optional</span> <span class="nv">arg</span><span class="p">)</span>
+  <span class="p">(</span><span class="nv">interactive</span> <span class="s">"p"</span><span class="p">)</span>
+  <span class="p">(</span><span class="k">if</span> <span class="p">(</span><span class="nv">region-active-p</span><span class="p">)</span>
+      <span class="p">(</span><span class="nv">delete-region</span> <span class="p">(</span><span class="nv">region-beginning</span><span class="p">)</span>
+                     <span class="p">(</span><span class="nv">region-end</span><span class="p">))</span>
+      <span class="p">(</span><span class="nv">delete-forward-char</span> <span class="nv">arg</span><span class="p">)))</span>
+
+<span class="p">(</span><span class="nv">define-key</span> <span class="nv">global-map</span> <span class="nv">[deletechar]</span> <span class="ss">&#39;delete-forward-char-or-region</span><span class="p">)</span>
+<span class="p">(</span><span class="nv">define-key</span> <span class="nv">global-map</span> <span class="nv">[del]</span> <span class="ss">&#39;delete-forward-char-or-region</span><span class="p">)</span>
+</pre></div>
+</td></tr></tbody></table>
+</div>
+
+<p>This command deletes a region if one is active, or deletes the character underneath the cursor. I have this bound to the DEL key.</p>
+
+<div class="brush: elisp">
+ <table class="sourcetable">
+  <tbody>
+   <tr>
+    <td class="linenos">
+     <div class="linenodiv">
+      <pre>1
+2
+3
+4
+5</pre></div></td>
+    <td class="code">
+     <div class="source">
+      <pre><span class="p">(</span><span class="nb">defun</span> <span class="nb">compile-file</span> <span class="p">()</span>
+  <span class="p">(</span><span class="nv">interactive</span><span class="p">)</span>
+  <span class="p">(</span><span class="nb">compile</span> <span class="s">"make -k"</span><span class="p">))</span>
+
+<span class="p">(</span><span class="nv">define-key</span> <span class="nv">global-map</span> <span class="nv">[</span><span class="p">(</span><span class="nv">control</span> <span class="nv">?x</span><span class="p">)</span> <span class="nv">?c]</span> <span class="ss">&#39;compile-file</span><span class="p">)</span>
+</pre></div>
+</td></tr></tbody></table>
+</div>
+
+<p>I use this command frequently, and I use it from typesetting LaTeX documents, compiling Scribble documents, compiling code, and just about anything that I can use Make with.</p>
+
+<div class="brush: elisp">
+ <table class="sourcetable">
+  <tbody>
+   <tr>
+    <td class="linenos">
+     <div class="linenodiv">
+      <pre>1
+2
+3</pre></div></td>
+    <td class="code">
+     <div class="source">
+      <pre><span class="p">(</span><span class="nb">defun</span> <span class="nv">geiser-save</span> <span class="p">()</span>
+  <span class="p">(</span><span class="nv">interactive</span><span class="p">)</span>
+  <span class="p">(</span><span class="nv">geiser-repl--write-input-ring</span><span class="p">))</span>
+</pre></div>
+</td></tr></tbody></table>
+</div>
+
+<p>This comes in very handy for me, because sometimes I lose the REPL buffer before the input ring has been saved. When I need to run I execute <code>M-x geiser-save</code>.</p>
+
+<div class="brush: elisp">
+ <table class="sourcetable">
+  <tbody>
+   <tr>
+    <td class="linenos">
+     <div class="linenodiv">
+      <pre>1
+2
+3
+4
+5</pre></div></td>
+    <td class="code">
+     <div class="source">
+      <pre><span class="p">(</span><span class="nb">defun</span> <span class="nv">my-scheme-mode-hook</span> <span class="p">()</span>
+  <span class="p">(</span><span class="nv">put</span> <span class="o">&#39;</span><span class="err">λ</span> <span class="ss">&#39;scheme-indent-function</span> <span class="mi">1</span><span class="p">)</span>
+  <span class="p">(</span><span class="nv">define-key</span> <span class="nv">scheme-mode-map</span> <span class="nv">[</span><span class="p">(</span><span class="nv">control</span> <span class="nv">?c</span><span class="p">)</span> <span class="nv">tab]</span> <span class="ss">&#39;completion-at-point</span><span class="p">))</span>
+
+<span class="p">(</span><span class="nv">add-hook</span> <span class="ss">&#39;scheme-mode-hook</span> <span class="ss">&#39;my-scheme-mode-hook</span><span class="p">)</span>
+</pre></div>
+</td></tr></tbody></table>
+</div>
+
+<p>I also have the above, since I want to align the <code>λ</code> symbol nicely.</p>
+
+<div class="brush: elisp">
+ <table class="sourcetable">
+  <tbody>
+   <tr>
+    <td class="linenos">
+     <div class="linenodiv">
+      <pre>1
+2</pre></div></td>
+    <td class="code">
+     <div class="source">
+      <pre><span class="p">(</span><span class="nb">require</span> <span class="ss">&#39;tramp</span><span class="p">)</span>
+<span class="p">(</span><span class="nv">add-to-list</span> <span class="ss">&#39;tramp-remote-path</span> <span class="s">"/var/run/current-system/sw/bin"</span><span class="p">)</span>
+</pre></div>
+</td></tr></tbody></table>
+</div>
+
+<p>The above snippet is applicable only to users of NixOS, since the filesystem tree is deviantly different from &ldquo;regular&rdquo; nixen.</p>
+
+<div class="brush: elisp">
+ <table class="sourcetable">
+  <tbody>
+   <tr>
+    <td class="linenos">
+     <div class="linenodiv">
+      <pre>1
+2
+3
+4
+5
+6</pre></div></td>
+    <td class="code">
+     <div class="source">
+      <pre><span class="p">(</span><span class="nb">defun</span> <span class="nv">other-window-1</span> <span class="p">(</span><span class="k">&amp;optional</span> <span class="nv">arg</span><span class="p">)</span>
+  <span class="p">(</span><span class="nv">interactive</span> <span class="s">"p"</span><span class="p">)</span>
+  <span class="p">(</span><span class="nv">other-window</span> <span class="p">(</span><span class="nb">-</span> <span class="nv">arg</span><span class="p">)))</span>
+
+<span class="p">(</span><span class="nv">define-key</span> <span class="nv">global-map</span> <span class="nv">[</span><span class="p">(</span><span class="nv">control</span> <span class="nv">left</span><span class="p">)</span><span class="nv">]</span> <span class="ss">&#39;other-window-1</span><span class="p">)</span>
+<span class="p">(</span><span class="nv">define-key</span> <span class="nv">global-map</span> <span class="nv">[</span><span class="p">(</span><span class="nv">control</span> <span class="nv">right</span><span class="p">)</span><span class="nv">]</span> <span class="ss">&#39;other-window</span><span class="p">)</span>
+</pre></div>
+</td></tr></tbody></table>
+</div>
+
+<p>One of my favorites, and I may be biased because I&rsquo;m using a <a href="http://www.kinesis-ergo.com/advantage.htm">Kinesis Advantage keyboard</a>, wherein the arrow keys are very easy to reach, but nevertheless, YMMV.</p>
+
+<div class="brush: elisp">
+ <table class="sourcetable">
+  <tbody>
+   <tr>
+    <td class="linenos">
+     <div class="linenodiv">
+      <pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22</pre></div></td>
+    <td class="code">
+     <div class="source">
+      <pre><span class="p">(</span><span class="nb">defun</span> <span class="nv">find-two-files</span> <span class="p">(</span><span class="nv">orientation</span> <span class="nb">directory</span> <span class="nv">file1</span> <span class="nv">file2</span><span class="p">)</span>
+  <span class="p">(</span><span class="k">let</span> <span class="p">((</span><span class="nv">file-path1</span> <span class="p">(</span><span class="nv">file-truename</span> <span class="nv">file1</span><span class="p">))</span>
+        <span class="p">(</span><span class="nv">file-path2</span> <span class="p">(</span><span class="nv">file-truename</span> <span class="nv">file2</span><span class="p">)))</span>
+    <span class="p">(</span><span class="nv">delete-other-windows</span><span class="p">)</span>
+
+    <span class="p">(</span><span class="nb">case</span> <span class="nv">orientation</span>
+      <span class="p">(</span><span class="nv">vertical</span> <span class="p">(</span><span class="k">progn</span> <span class="p">(</span><span class="nv">split-window-right</span><span class="p">)</span>
+                       <span class="p">(</span><span class="nv">find-file</span> <span class="nv">file-path1</span><span class="p">)</span>
+                       <span class="p">(</span><span class="nv">other-window</span> <span class="mi">1</span><span class="p">)</span>
+                       <span class="p">(</span><span class="nv">find-file</span> <span class="nv">file-path2</span><span class="p">)))</span>
+      <span class="p">(</span><span class="nv">horizontal</span> <span class="p">(</span><span class="k">progn</span> <span class="p">(</span><span class="nv">split-window</span><span class="p">)</span>
+                         <span class="p">(</span><span class="nv">find-file</span> <span class="nv">file-path1</span><span class="p">)</span>
+                         <span class="p">(</span><span class="nv">other-window</span> <span class="mi">1</span><span class="p">)</span>
+                         <span class="p">(</span><span class="nv">find-file</span> <span class="nv">file-path2</span><span class="p">)))</span>
+
+      <span class="p">(</span><span class="nv">other-window</span> <span class="mi">1</span><span class="p">))))</span>
+
+<span class="p">(</span><span class="nb">defun</span> <span class="nv">find-two-files-vertically</span> <span class="p">(</span><span class="nb">directory</span> <span class="nv">file1</span> <span class="nv">file2</span><span class="p">)</span>
+  <span class="p">(</span><span class="nv">find-two-files</span> <span class="ss">&#39;vertical</span> <span class="nb">directory</span> <span class="nv">file1</span> <span class="nv">file2</span><span class="p">))</span>
+
+<span class="p">(</span><span class="nb">defun</span> <span class="nv">find-two-files-horizontally</span> <span class="p">(</span><span class="nb">directory</span> <span class="nv">file1</span> <span class="nv">file2</span><span class="p">)</span>
+  <span class="p">(</span><span class="nv">find-two-files</span> <span class="ss">&#39;horizontal</span> <span class="nb">directory</span> <span class="nv">file1</span> <span class="nv">file2</span><span class="p">))</span>
+</pre></div>
+</td></tr></tbody></table>
+</div>
+
+<div class="brush: shell">
+ <table class="sourcetable">
+  <tbody>
+   <tr>
+    <td class="linenos">
+     <div class="linenodiv">
+      <pre>1
+2</pre></div></td>
+    <td class="code">
+     <div class="source">
+      <pre>ev <span class="o">()</span> <span class="o">{</span> emacsclient -nw --eval <span class="s2">"(find-two-files-vertically \"</span><span class="k">$(</span><span class="nb">pwd</span><span class="k">)</span><span class="s2">\" \"</span><span class="nv">$1</span><span class="s2">\" \"</span><span class="nv">$2</span><span class="s2">\")"</span> <span class="o">}</span>
+eh <span class="o">()</span> <span class="o">{</span> emacsclient -nw --eval <span class="s2">"(find-two-files-horizontally \"</span><span class="k">$(</span><span class="nb">pwd</span><span class="k">)</span><span class="s2">\" \"</span><span class="nv">$1</span><span class="s2">\" \"</span><span class="nv">$2</span><span class="s2">\")"</span> <span class="o">}</span>
+</pre></div>
+</td></tr></tbody></table>
+</div>
+
+<p>The two snippets above, for Elisp and Zsh (or your shell), respectively, load two files into an Emacs buffer, oriented horizontally, and vertically, respectively.</p>
+
+<p>So, to load <code>~/test1.txt</code> and <code>~/test2.txt</code> in Emacs, split windows, horizontally, run:</p>
+
+<pre><code>$ ev ~/test1.txt ~/test2.txt</code></pre>
+
+<div class="brush: elisp">
+ <table class="sourcetable">
+  <tbody>
+   <tr>
+    <td class="linenos">
+     <div class="linenodiv">
+      <pre>1
+2
+3
+4</pre></div></td>
+    <td class="code">
+     <div class="source">
+      <pre><span class="p">(</span><span class="nb">require</span> <span class="ss">&#39;server</span><span class="p">)</span>
+
+<span class="p">(</span><span class="nb">unless</span> <span class="p">(</span><span class="nv">server-running-p</span><span class="p">)</span>
+  <span class="p">(</span><span class="nv">server-start</span><span class="p">))</span>
+</pre></div>
+</td></tr></tbody></table>
+</div>
+
+<p>This snippet runs the server instance, when it is not running, yet:</p>
+
+<div class="brush: elisp">
+ <table class="sourcetable">
+  <tbody>
+   <tr>
+    <td class="linenos">
+     <div class="linenodiv">
+      <pre>1
+2
+3
+4
+5</pre></div></td>
+    <td class="code">
+     <div class="source">
+      <pre><span class="p">(</span><span class="nb">defun</span> <span class="nv">kill-current-buffer</span> <span class="p">()</span>
+  <span class="p">(</span><span class="nv">interactive</span><span class="p">)</span>
+  <span class="p">(</span><span class="nv">kill-buffer</span> <span class="p">(</span><span class="nv">current-buffer</span><span class="p">)))</span>
+
+<span class="p">(</span><span class="nv">define-key</span> <span class="nv">global-map</span> <span class="nv">[</span><span class="p">(</span><span class="nv">control</span> <span class="nv">?x</span><span class="p">)</span> <span class="p">(</span><span class="nv">control</span> <span class="nv">?k</span><span class="p">)</span><span class="nv">]</span> <span class="ss">&#39;kill-current-buffer</span><span class="p">)</span>
+</pre></div>
+</td></tr></tbody></table>
+</div>
+
+<p>A lot of us have this, but this is my simple, unconvoluted version</p>
+
+<div class="brush: elisp">
+ <table class="sourcetable">
+  <tbody>
+   <tr>
+    <td class="linenos">
+     <div class="linenodiv">
+      <pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11</pre></div></td>
+    <td class="code">
+     <div class="source">
+      <pre><span class="p">(</span><span class="nb">defun</span> <span class="nv">mark-line</span> <span class="p">(</span><span class="k">&amp;optional</span> <span class="nv">arg</span><span class="p">)</span>
+  <span class="p">(</span><span class="nv">interactive</span> <span class="s">"p"</span><span class="p">)</span>
+  <span class="p">(</span><span class="k">if</span> <span class="p">(</span><span class="nb">not</span> <span class="nv">mark-active</span><span class="p">)</span>
+      <span class="p">(</span><span class="k">progn</span>
+        <span class="p">(</span><span class="nv">beginning-of-line</span><span class="p">)</span>
+        <span class="p">(</span><span class="nv">push-mark</span><span class="p">)</span>
+        <span class="p">(</span><span class="k">setq</span> <span class="nv">mark-active</span> <span class="no">t</span><span class="p">)))</span>
+  <span class="p">(</span><span class="nv">forward-line</span> <span class="nv">arg</span><span class="p">))</span>
+
+<span class="p">(</span><span class="nv">define-key</span> <span class="nv">global-map</span> <span class="nv">[</span><span class="p">(</span><span class="nv">shift</span> <span class="nv">?</span> <span class="p">)</span><span class="nv">]</span> <span class="ss">&#39;mark-line</span><span class="p">)</span>
+<span class="p">(</span><span class="nv">define-key</span> <span class="nv">global-map</span> <span class="nv">[</span><span class="p">(</span><span class="nv">control</span> <span class="nv">?z</span><span class="p">)</span><span class="nv">]</span> <span class="ss">&#39;mark-line</span><span class="p">)</span>
+</pre></div>
+</td></tr></tbody></table>
+</div>
+
+<p>There have been plenty of times in the past when I needed this function, and I would have to press a long series of keystrokes just to get it down. The above is what I have, instead.</p>
+
+<p>Well, that is it for now. Ciao!</p>
+  <footer>
+    <script type="text/javascript">
+      !function(d,s,id){
+          var js,fjs=d.getElementsByTagName(s)[0];
+          if(!d.getElementById(id)){
+              js=d.createElement(s);
+              js.id=id;
+              js.src="//platform.twitter.com/widgets.js";
+              fjs.parentNode.insertBefore(js,fjs);
+          }
+      }(document,"script","twitter-wjs");
+    </script>
+    <a href="https://twitter.com/share"
+       class="twitter-share-button"
+       data-url="http://ebzzry.github.io/blog/2013/09/10/emacs-hacks-part-1/"
+       data-dnt="true">
+      "Tweet"</a>
+    <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+    <g:plusone size="medium" href="http://ebzzry.github.io/blog/2013/09/10/emacs-hacks-part-1/"></g:plusone>
+    <script type="text/javascript">
+      var disqus_shortname = 'ebzzrygithubio';
+      (function() {
+          var dsq = document.createElement('script');
+          dsq.type = 'text/javascript';
+          dsq.async = true;
+          dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+    </script>
+    <div id="disqus_thread"></div>
+    <ul class="pager">
+    <li class="previous">
+      <a href="/blog/2013/09/26/emacs-dired/">&larr; <em>Emacs &amp; Dired</em></a>
+    </li>
+    <li class="next">
+      <a href="/blog/2013/05/29/an-introduction-to-livefrog/"><em>An Introduction to Livefrog</em> &rarr;</a>
+    </li>
+    </ul>
+  </footer>
+</article>
+        </div>
+      </div>
+      <footer>
+        <hr />
+        <p><a href="https://twitter.com/ebzzry"
+              class="twitter-follow-button"
+              data-show-count="false"
+              data-lang="en">
+             "Follow Rommel"
+           </a>
+           <script type="text/javascript">
+             !function(d,s,id){
+                 var js,fjs=d.getElementsByTagName(s)[0];
+                 if(!d.getElementById(id)){
+                     js=d.createElement(s);
+                     js.id=id;
+                     js.src="//platform.twitter.com/widgets.js";
+                     fjs.parentNode.insertBefore(js,fjs);
+                 }
+             }(document,"script","twitter-wjs");
+           </script></p>
+        <p>Site created with
+          <a href="http://www.racket-lang.org">Racket</a>,
+          <a href="http://github.com/greghendershott/frog">Frog</a>,
+          <a href="http://www.gnu.org/software/emacs/">Emacs</a>, and
+          <a href="http://twitter.github.io/bootstrap">Bootstrap</a></p>
+        <p><em>Copyright &copy; by <a href="http://rmm.meta.ph">Rommel M. Martinez</a></em></p>
+      </footer>
+    </div>
+    <!-- </body> JS -->
+    <script type="text/javascript" src="//code.jquery.com/jquery.js"></script>
+    <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+  </body>
+</html>

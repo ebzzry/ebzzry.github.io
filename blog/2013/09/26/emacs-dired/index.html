@@ -3,13 +3,13 @@
   <head>
 
     <meta charset="utf-8">
-    <title>Emacs: Dired</title>
+    <title>Emacs & Dired</title>
     <meta name="description" content="In this post, I'll be focusing on one of the novel ways Emacs handles _directory editing_. The directory editor, or **dired** (pronounced dir-ed, not die-rd), for short, is the Emacs equivalent of a file manager. Whatever you can do with regular file buff...">
     <meta name="author"      content="Rommel Martinez">
     <meta name="keywords"    content="emacs, programming">
     <meta name="viewport"    content="width=device-width, initial-scale=1.0">
     <link rel="icon"      href="/favicon.ico">
-    <link rel="canonical" href="http://rmm.meta.ph/blog/2013/09/26/emacs-dired/">
+    <link rel="canonical" href="http://ebzzry.github.io/blog/2013/09/26/emacs-dired/">
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="/css/pygments.css">
@@ -65,6 +65,8 @@
 
 <li><a href="/tags/backups.html">backups</a></li>
 
+<li><a href="/tags/compsci.html">compsci</a></li>
+
 <li><a href="/tags/emacs.html">emacs</a></li>
 
 <li><a href="/tags/gpg.html">gpg</a></li>
@@ -106,7 +108,7 @@
 
           <article>
   <header>
-    <h1>Emacs: Dired</h1>
+    <h1>Emacs &amp; Dired</h1>
 
 <p class="date-and-tags">
  <time datetime="2013-09-26" pubdate="true">2013-09-26</time> :: <span class="tags"><a href="/tags/emacs.html">emacs</a>, <a href="/tags/programming.html">programming</a></span></p>
@@ -119,7 +121,19 @@
 
 <p>To run dired, run emacs on the command line, supplying a directory as its argument:</p>
 
-<pre><code>$ emacs ~/Desktop/</code></pre>
+<div class="brush: console">
+ <table class="sourcetable">
+  <tbody>
+   <tr>
+    <td class="linenos">
+     <div class="linenodiv">
+      <pre>1</pre></div></td>
+    <td class="code">
+     <div class="source">
+      <pre><span class="gp">$</span> emacs ~/Desktop/
+</pre></div>
+</td></tr></tbody></table>
+</div>
 
 <p>Or, alternatively, you can press <code>C-x d</code> inside Emacs. If you are currently editing a file, the directory of that file will be presented as the default value in the minibuffer area. Either way, when you hit <code>Enter</code>, a buffer of the directory will load, that looks like the output of <code>ls -l</code>:</p>
 
@@ -253,13 +267,13 @@ drwxr-xr-x 3 john users 4096 Sep 26 05:39 vids</code></pre>
     </script>
     <a href="https://twitter.com/share"
        class="twitter-share-button"
-       data-url="http://rmm.meta.ph/blog/2013/09/26/emacs-dired/"
+       data-url="http://ebzzry.github.io/blog/2013/09/26/emacs-dired/"
        data-dnt="true">
       "Tweet"</a>
     <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
-    <g:plusone size="medium" href="http://rmm.meta.ph/blog/2013/09/26/emacs-dired/"></g:plusone>
+    <g:plusone size="medium" href="http://ebzzry.github.io/blog/2013/09/26/emacs-dired/"></g:plusone>
     <script type="text/javascript">
-      var disqus_shortname = 'ebzzry';
+      var disqus_shortname = 'ebzzrygithubio';
       (function() {
           var dsq = document.createElement('script');
           dsq.type = 'text/javascript';
@@ -271,10 +285,10 @@ drwxr-xr-x 3 john users 4096 Sep 26 05:39 vids</code></pre>
     <div id="disqus_thread"></div>
     <ul class="pager">
     <li class="previous">
-      <a href="/blog/2013/09/29/emacs-racket/">&larr; <em>Emacs: Racket</em></a>
+      <a href="/blog/2013/09/29/emacs-racket/">&larr; <em>Emacs &amp; Racket</em></a>
     </li>
     <li class="next">
-      <a href="/blog/2013/09/10/emacs-hacks-1/"><em>Emacs: Hacks 1</em> &rarr;</a>
+      <a href="/blog/2013/09/10/emacs-hacks-part-1/"><em>Emacs &amp; Hacks (part 1)</em> &rarr;</a>
     </li>
     </ul>
   </footer>

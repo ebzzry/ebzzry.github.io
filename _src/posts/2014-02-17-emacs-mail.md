@@ -1,8 +1,8 @@
-    Title: Emacs: Mail
+    Title: Emacs & Mail
     Date: 2014-02-17T16:02:38
     Tags: emacs, mail
 
-in this day and age, checking our mail means going to the website of our mail
+In this day and age, checking our mail means going to the website of our mail
 provider, or using a mobile app. however, there are some cases when we want to
 have more control over our messages, especially when the feature we want is not
 present with the mainstream options.
@@ -30,14 +30,14 @@ package manager. If you are using a
 [Debian-based system](https://www.debian.org/misc/children-distros) ,
 you can install it by running:
 
-```
+```console
 $ sudo apt-get install getmail4
 ```
 
 If you are using [NixOS](https://nixos.org/nixos/), you can
 install by running:
 
-```
+```console
 $ nix-env -i getmail
 ```
 
@@ -53,7 +53,7 @@ Next, we need to conjure the incantation so that getmail knows how to get your
 stuff. Create the file `~/.getmail/getmailrc`. In addition to that, we
 need to create and specify where the messages will go:
 
-```
+```console
 $ mkdir ~/Maildir
 $ mkdir ~/.getmail
 $ emacs ~/.getmail/getmailrc
@@ -94,14 +94,14 @@ use, to store data.
 
 To verify that we can indeed fetch our messages, run getmail:
 
-```
+```console
 $ getmail
 ```
 
 If it doesn't choke, and displays something like the following, then you have
 configured getmail correctly.
 
-```
+```console
 getmail version 4.43.0
 Copyright (C) 1998-2012 Charles Cazabon.  Licensed under the GNU GPL version 2.
 SimpleIMAPSSLRetriever:foobar@gmail.com@imap.gmail.com:993:
@@ -121,21 +121,21 @@ your system's package manager. If you are using a
 [Debian-based system](https://www.debian.org/misc/children-distros),
 you can install it by running:
 
-```
+```console
 $ sudo apt-get install maildir-utils
 ```
 
 If you are using [NixOS](https://nixos.org/nixos/), you can install by
 running:
 
-```
+```console
 $ nix-env -i mu
 ```
 
 In addition to the above, we need to fetch mu4e. This comes with mu's source
 code. Download it by running:
 
-```
+```console
 $ mkdir ~/.emacs.d
 $ cd ~/.emacs.d
 $ git clone git@github.com:djcb/mu.git
@@ -155,13 +155,13 @@ we're only interested with the `mu/mu4e/` subdirectory.
 We now need to make that mu4e directory accessible to emacs. To do so, we need
 to edit either `~/.emacs.d/init.el` or `~/.emacs`:
 
-```
+```console
 $ emacs ~/.emacs.d/init.el
 ```
 
 Then add the following:
 
-```
+```elisp
 (setq load-path (append load-path '("~/.emacs.d/mu/mu4e")))
 (require 'mu4e)
 ```
@@ -169,14 +169,14 @@ Then add the following:
 Additionally we need to put in some information about us, so that emacs won't
 bother asking us about those details later on:
 
-```
+```elisp
 (setq user-full-name "Foo B. Baz"
        user-mail-address "foo@bar.baz")
 ```
 
 To make our life even easier, we'll set some variables:
 
-```
+```elisp
 (setq mu4e-get-mail-command "getmail"
       mu4e-update-interval 300
       mu4e-attachment-dir "~/Downloads")
@@ -187,13 +187,13 @@ To make our life even easier, we'll set some variables:
 You can restart emacs so that those settings can take effect, or alternatively,
 you can mark (C-space) those lines, then hit:
 
-```
+```elisp
 M-x eval-region
 ```
 
 At this point, you can now use mu4e, by hitting:
 
-```
+```elisp
 M-x mu4e
 ```
 
@@ -217,13 +217,13 @@ unencrypted message, was still saved somewhere. Ahem.
 
 To make use of these cryptographic utilities, edit your emacs init:
 
-```
+```console
 $ emacs ~/.emacs.d/init.el
 ```
 
 Then add the following:
 
-```
+```elisp
 (require 'mml2015)
 (require 'epa-file)
 
@@ -241,7 +241,7 @@ Then add the following:
 
 Mark those lines, then hit:
 
-```
+```elisp
 M-x eval-region
 ```
 
@@ -251,7 +251,7 @@ To send an encrypt a message, hit `C` from the main menu of mu4e, fill in
 the usual fields like `To:`, and `Subject:`, then on the message
 body, hit:
 
-```
+```elisp
 M-x ec
 ```
 
@@ -266,7 +266,7 @@ saved to `~/.authinfo`, and will be used for later messages.
 
 To decrypt a message, open the message, then hit:
 
-```
+```elisp
 M-x dc
 ```
 

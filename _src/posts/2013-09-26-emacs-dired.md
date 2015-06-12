@@ -1,4 +1,4 @@
-    Title: Emacs: Dired
+    Title: Emacs & Dired
     Date: 2013-09-26T17:57:00
     Tags: emacs, programming
 
@@ -14,7 +14,7 @@ dired buffers, to a certain extent.
 
 To run dired, run emacs on the command line, supplying a directory as its argument:
 
-```
+```console
 $ emacs ~/Desktop/
 ```
 

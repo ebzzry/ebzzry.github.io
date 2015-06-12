@@ -3,15 +3,15 @@
  <channel>
   <title>Live. Die. Repeat.: Posts tagged 'scheme'</title>
   <description>Live. Die. Repeat.: Posts tagged 'scheme'</description>
-  <link>http://rmm.meta.ph/tags/scheme.html</link>
-  <lastBuildDate>Tue, 21 May 2013 19:18:33 PHT</lastBuildDate>
-  <pubDate>Tue, 21 May 2013 19:18:33 PHT</pubDate>
+  <link>http://ebzzry.github.io/tags/scheme.html</link>
+  <lastBuildDate>Tue, 21 May 2013 11:18:33 UT</lastBuildDate>
+  <pubDate>Tue, 21 May 2013 11:18:33 UT</pubDate>
   <ttl>1800</ttl>
   <item>
    <title>An Introduction to Usync</title>
-   <link>http://rmm.meta.ph/blog/2013/05/21/an-introduction-to-usync/?utm_source=scheme&amp;utm_medium=RSS</link>
-   <guid>urn:http-rmm-meta-ph:-blog-2013-05-21-an-introduction-to-usync</guid>
-   <pubDate>Tue, 21 May 2013 19:18:33 PHT</pubDate>
+   <link>http://ebzzry.github.io/blog/2013/05/21/an-introduction-to-usync/?utm_source=scheme&amp;utm_medium=RSS</link>
+   <guid>urn:http-ebzzry-github-io:-blog-2013-05-21-an-introduction-to-usync</guid>
+   <pubDate>Tue, 21 May 2013 11:18:33 UT</pubDate>
    <description>&lt;html&gt;
 &lt;p&gt;Usync is a a site-to-site synchronization tool written in &lt;a href="http://www.scsh.net"&gt;Scsh&lt;/a&gt;. It makes use of &lt;a href="http://www.cis.upenn.edu/~bcpierce/unison/"&gt;Unison&lt;/a&gt;, and &lt;a href="http://rsync.samba.org/"&gt;rsync&lt;/a&gt;, for bi- and uni-directional synchronizations, respectively.&lt;/p&gt;
 
@@ -26,7 +26,19 @@
 
 &lt;p&gt;To perform two-way synchronization of the directory &lt;code&gt;/pub/yot/ninam&lt;/code&gt;, between the current host, to the hosts &lt;code&gt;tarupam&lt;/code&gt;, and &lt;code&gt;taubetmo&lt;/code&gt;, while preserving the directory structure remotely (take note, that there must be no spaces between the hosts specification, due to the &lt;code&gt;IFS&lt;/code&gt; environment variable, found in most shells):&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;$ usync /pub/yot/ninam/ tarupam,taubetmo&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="brush: console"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; usync /pub/yot/ninam/ tarupam,taubetmo
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;p&gt;The command above will perform two-way synchronization of the diretory &lt;code&gt;ninam/&lt;/code&gt; found under &lt;code&gt;/pub/yot/&lt;/code&gt;, to &lt;code&gt;tarupam:/pub/yot/&lt;/code&gt;, and &lt;code&gt;taubetmo:/pub/yot/&lt;/code&gt;.&lt;/p&gt;
 
@@ -38,17 +50,53 @@
 
 &lt;p&gt;It is also possible to perform synchronization of multiple files, and directories, to remote hosts. To do so, run:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;$ usync /pub/yot/ninam/ ~/file.text ~reyn/*.blend tarupam,taubetmo&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="brush: console"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; usync /pub/yot/ninam/ ~/file.text ~reyn/*.blend tarupam,taubetmo
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;p&gt;The command above will perform two-way synchronization of the paths &lt;code&gt;/pub/yot/ninam/&lt;/code&gt;, &lt;code&gt;~/file.text&lt;/code&gt;, and &lt;code&gt;~reyn/*.blend&lt;/code&gt; to the remote hosts &lt;code&gt;tarupam&lt;/code&gt;, and &lt;code&gt;taubetmo&lt;/code&gt;, using the same directory structuring system described above.&lt;/p&gt;
 
 &lt;p&gt;If you want to perform one-way synchronization, of the above, like &lt;code&gt;rsync&lt;/code&gt;, run:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;$ usync --one-way --prefer-local /pub/yot/ninam/ ~/file.text ~reyn/draft.blend tarupam,taubetmo&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="brush: console"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; usync --one-way --prefer-local /pub/yot/ninam/ ~/file.text ~reyn/draft.blend tarupam,taubetmo
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;p&gt;For more usage information, run:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;$ usync --help&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="brush: console"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; usync --help
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;h1 id="caveats"&gt;Caveats&lt;/h1&gt;
 

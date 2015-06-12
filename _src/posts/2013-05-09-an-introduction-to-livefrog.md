@@ -25,14 +25,14 @@ platform written in Racket, too. It uses the files dumped by either
 livefrog is available via Racket's
 [Planet2](http://pkg.racket-lang.org):
 
-```
+```console
 $ raco pkg install livefrog
 ```
 
 If that doesn't work, you can alternately install by fetching livefrog, and the
 dependencies, from github
 
-```
+```console
 $ git clone https://github.com/jbclements/sxml.git
 $ git clone https://github.com/greghendershott/frog.git
 $ git clone https://github.com/ebzzry/livefrog.git
@@ -53,7 +53,7 @@ use with Frog.
 
 To create a Markdown file from the file entry.xml
 
-```
+```console
 $ raco livefrog -m entry.xml
 ```
 
@@ -61,7 +61,7 @@ That, however, becomes cumbersome if you're going to manage more than a hundred
 entries. To automatically "pick up" the files created by ljdump or ljmigrate,
 and convert them to Markdown.
 
-```
+```console
 $ raco livefrog -am
 ```
 
@@ -123,7 +123,7 @@ that must adhere to Disqus' comment import rules.
 To create a file, named `comments.xml` that will be used for importing
 comments, to be used with [import.disqus.com](http://import.disqus.com/), using `foo.bar.com` as the root site:
 
-```
+```console
 $ raco livefrog -s foo.bar.com -c comments.xml
 ```
 
@@ -132,7 +132,7 @@ $ raco livefrog -s foo.bar.com -c comments.xml
 
 If you installed livefrog using Planet2, you can update it by running:
 
-```
+```console
 $ raco pkg update livefrog
 ```
 
@@ -140,7 +140,7 @@ However, if you used the latter method, you may update it by pulling
 the updates, uninstalling livefrog, then installing it
 again:
 
-```
+```console
 $ cd livefrog
 $ git pull origin master
 $ cd ..
@@ -156,13 +156,13 @@ livefrog` in your shell.
 
 Sh-like shells:
 
-```
+```console
 $ echo 'alias livefrog="raco livefrog"' >> ~/.bashrc
 ```
 
 Csh-like shells:
 
-```
+```console
 $ echo 'alias livefrog raco livefrog' >> ~/.cshrc
 ```
 

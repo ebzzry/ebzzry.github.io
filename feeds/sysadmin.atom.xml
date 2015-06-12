@@ -1,33 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?> 
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
  <title type="text">Live. Die. Repeat.: Posts tagged 'sysadmin'</title>
- <link rel="self" href="http://rmm.meta.ph/feeds/sysadmin.atom.xml" />
- <link href="http://rmm.meta.ph/tags/sysadmin.html" />
- <id>urn:http-rmm-meta-ph:-tags-sysadmin-html</id>
- <updated>2014-09-17T19:53:15Z</updated>
+ <link rel="self" href="http://ebzzry.github.io/feeds/sysadmin.atom.xml" />
+ <link href="http://ebzzry.github.io/tags/sysadmin.html" />
+ <id>urn:http-ebzzry-github-io:-tags-sysadmin-html</id>
+ <updated>2014-09-17T11:53:15Z</updated>
  <entry>
-  <title type="text">How to Setup GPG and SSH in KDE</title>
-  <link rel="alternate" href="http://rmm.meta.ph/blog/2014/09/17/how-to-setup-gpg-and-ssh-in-kde/?utm_source=sysadmin&amp;utm_medium=Atom" />
-  <id>urn:http-rmm-meta-ph:-blog-2014-09-17-how-to-setup-gpg-and-ssh-in-kde</id>
-  <published>2014-09-17T19:53:15Z</published>
-  <updated>2014-09-17T19:53:15Z</updated>
+  <title type="text">Setting up GPG and SSH in KDE</title>
+  <link rel="alternate" href="http://ebzzry.github.io/blog/2014/09/17/setting-up-gpg-and-ssh-in-kde/?utm_source=sysadmin&amp;utm_medium=Atom" />
+  <id>urn:http-ebzzry-github-io:-blog-2014-09-17-setting-up-gpg-and-ssh-in-kde</id>
+  <published>2014-09-17T11:53:15Z</published>
+  <updated>2014-09-17T11:53:15Z</updated>
   <author>
    <name>Rommel Martinez</name></author>
   <content type="html">&lt;html&gt;
 &lt;p&gt;When both GPG and SSH are integrated with KDE, it makes inter-operating with those systems very easy. It will make the difference between a loose-fitting glove, and one that fits snugly.&lt;/p&gt;
+&lt;!-- more--&gt;
 
 &lt;p&gt;This quick tutorial will go over the steps on how to go about it. To accommodate everyone, I&amp;rsquo;ll still go about how to install and configure all the necessary components.&lt;/p&gt;
-&lt;!-- more--&gt;
 
 &lt;h1 id="prerequisites"&gt;Prerequisites&lt;/h1&gt;
 
 &lt;p&gt;Chances are, you already have both GPG and SSH installed on your system. But if you don&amp;rsquo;t have them, you can install them with:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;$ sudo apt-get install gnupg2 ssh&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="brush: console"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; sudo apt-get install gnupg2 ssh
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;p&gt;Another important software that we need to install is pinentry:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;$ sudo apt-get install pinentry-qt4&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="brush: console"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; sudo apt-get install pinentry-qt4
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;p&gt;It&amp;rsquo;s the component that prompts the user for passphrases.&lt;/p&gt;
 
@@ -35,7 +59,19 @@
 
 &lt;p&gt;Now that we have the parts in front of us, it&amp;rsquo;s time to assemble them. The first thing that we need to do (although in reality the files that we are going to open in this section can be done in any order that you wish), is create your SSH keys:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;$ ssh-keygen -t rsa&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="brush: console"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; ssh-keygen -t rsa
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;p&gt;&lt;strong&gt;DO NOT&lt;/strong&gt; leave the passphrase empty. Shoot yourself first in the  head, if you really want to.&lt;/p&gt;
 
@@ -46,25 +82,73 @@
 
 &lt;p&gt;At this point, copy your SSH keys to the servers that you manage:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;$ ssh-copy-id user@host&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="brush: console"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; ssh-copy-id user@host
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;h1 id="configure-gpg"&gt;Configure GPG&lt;/h1&gt;
 
 &lt;p&gt;In case you forgot how to your keys, the command is:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;$ gpg2 --gen-key&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="brush: console"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; gpg2 --gen-key
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;p&gt;I should have this earlier, that if you want to create strong passphrases, use the &lt;a href="http://world.std.com/~reinhold/diceware.html"&gt;Diceware method&lt;/a&gt;. An &lt;a href="https://xkcd.com/936/"&gt;XKCD comic&lt;/a&gt; was written in case you&amp;rsquo;re wondering what it is, without reading the earlier link.&lt;/p&gt;
 
 &lt;p&gt;Next thing to do is edit the main GPG config file:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;$ emacs ~/.gnupg/gpg.conf&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="brush: console"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; emacs ~/.gnupg/gpg.conf
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;p&gt;Find the line that contains &lt;code&gt;use-agent&lt;/code&gt; and uncomment it, if it is commented. If that line does not exist just put &lt;code&gt;use agent&lt;/code&gt; at the end.&lt;/p&gt;
 
 &lt;p&gt;We need to edit the agent file next:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;$ emacs ~/.gnupg/gpg-agent.conf&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="brush: console"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; emacs ~/.gnupg/gpg-agent.conf
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;p&gt;Then put the following lines:&lt;/p&gt;
 
@@ -75,40 +159,131 @@ pinentry-program /usr/bin/pinentry-qt4&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Those are &lt;em&gt;my&lt;/em&gt; preferred values. If you want to change them, look at the manpage first:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;$ man gpg-agent&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="brush: console"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; man gpg-agent
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;h1 id="configure-kde"&gt;Configure KDE&lt;/h1&gt;
 
 &lt;p&gt;We now need to link the GPG agent with KDE. We&amp;rsquo;re going to create a &lt;em&gt;startup&lt;/em&gt; script for KDE that will invoke the GPG agent at startup. We&amp;rsquo;ll also tell the GPG agent to enable SSH support (in the old days, the SSH agent has to be ran separately from GPG).&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;$ mkdir ~/.kde/env
-$ emacs ~/.kde/env/01_gpg-agent.sh&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="brush: console"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1
+2&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; mkdir ~/.kde/env
+&lt;span class="gp"&gt;$&lt;/span&gt; emacs ~/.kde/env/01_gpg-agent.sh
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;p&gt;Then put in the following lines:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;#!/bin/sh
+&lt;div class="brush: sh"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1
+2
+3
+4&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="c"&gt;#!/bin/sh&lt;/span&gt;
 
 killall gpg-agent
-eval `gpg-agent --enable-ssh-support --daemon`&lt;/code&gt;&lt;/pre&gt;
+&lt;span class="nb"&gt;eval&lt;/span&gt; &lt;span class="sb"&gt;`&lt;/span&gt;gpg-agent --enable-ssh-support --daemon&lt;span class="sb"&gt;`&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;p&gt;Make it executable:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;$ chmod +x ~/.kde/env/01_gpg-agent.sh&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="brush: console"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; chmod +x ~/.kde/env/01_gpg-agent.sh
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;p&gt;Finally, we&amp;rsquo;ll create the &lt;em&gt;shutdown&lt;/em&gt; script for the GPG agent:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;$ mkdir ~/.kde/shutdown
-$ emacs ~/.kde/shutdown/01_gpg-agent.sh&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="brush: console"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1
+2&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; mkdir ~/.kde/shutdown
+&lt;span class="gp"&gt;$&lt;/span&gt; emacs ~/.kde/shutdown/01_gpg-agent.sh
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;p&gt;Then put in the following lines:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;#!/bin/sh
+&lt;div class="brush: sh"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1
+2
+3&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="c"&gt;#!/bin/sh&lt;/span&gt;
 
-killall gpg-agent&lt;/code&gt;&lt;/pre&gt;
+killall gpg-agent
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;p&gt;Also make it executable:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;$ chmod +x ~/.kde/shutdown/01_gpg-agent.sh&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="brush: console"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; chmod +x ~/.kde/shutdown/01_gpg-agent.sh
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;h1 id="verification"&gt;Verification&lt;/h1&gt;
 
@@ -118,32 +293,56 @@ killall gpg-agent&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Open a Konsole window, then connect to your favorite SSH server:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;$ ssh user@remotehost&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="brush: console"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; ssh user@remotehost
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;p&gt;A pinentry dialog box should appear prompting you for your passphrase. This passphrase will be cached according to your settings in &lt;code&gt;~/.gnupg/gpg-agent.conf&lt;/code&gt;. Subsequent SSH connection attempts will not prompt you for the passphrase within this timeout period.&lt;/p&gt;
 
 &lt;p&gt;A similar behavior will happen if you encrypt a file with GPG:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;$ gpg2 -s -e -a -r john@remotehost file.dat&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="brush: console"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; gpg2 -s -e -a -r john@remotehost file.dat
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;h1 id="conclusion"&gt;Conclusion&lt;/h1&gt;
 
 &lt;p&gt;The steps outline above are meant to be succinct without going through the gory details. I avoided reiterating what was already said before so as not to bore you to death. If you found this useful, feel free to comment below.&lt;/p&gt;&lt;/html&gt;</content></entry>
  <entry>
   <title type="text">An Introduction to Ugarit</title>
-  <link rel="alternate" href="http://rmm.meta.ph/blog/2014/02/21/an-introduction-to-ugarit/?utm_source=sysadmin&amp;utm_medium=Atom" />
-  <id>urn:http-rmm-meta-ph:-blog-2014-02-21-an-introduction-to-ugarit</id>
-  <published>2014-02-21T12:07:18Z</published>
-  <updated>2014-02-21T12:07:18Z</updated>
+  <link rel="alternate" href="http://ebzzry.github.io/blog/2014/02/21/an-introduction-to-ugarit/?utm_source=sysadmin&amp;utm_medium=Atom" />
+  <id>urn:http-ebzzry-github-io:-blog-2014-02-21-an-introduction-to-ugarit</id>
+  <published>2014-02-21T04:07:18Z</published>
+  <updated>2014-02-21T04:07:18Z</updated>
   <author>
    <name>Rommel Martinez</name></author>
   <content type="html">&lt;html&gt;
 &lt;p&gt;How many times have we experienced hindsight, after a catastrophic event has happened? how many times have we told ourselves that had we created backups of our precious data, we wouldn&amp;rsquo;t be in that dire situation, pulling our hairs out like a maniac?&lt;/p&gt;
+&lt;!-- more--&gt;
 
 &lt;p&gt;Most of us have been there &amp;mdash; we lost our precious files due inadvertent causes. We lost them because of disk crash, data corruption, security breach, and other reasons. But had we created a fallback, a big, safe foam that we can land on, it wouldn&amp;rsquo;t have been a lot of trouble, and heart ache. On the flip side, creating and managing backups can be daunting, and equally dangerous.&lt;/p&gt;
 
 &lt;p&gt;In this post, we&amp;rsquo;ll talk about &lt;a href="http://www.kitten-technologies.co.uk/project/ugarit/doc/trunk/README.wiki"&gt;Ugarit&lt;/a&gt; , a nice piece of technology, that combines ease-of-use, and security, in a single tool.&lt;/p&gt;
-&lt;!-- more--&gt;
 
 &lt;h1 id="introduction"&gt;Introduction&lt;/h1&gt;
 
@@ -155,51 +354,165 @@ killall gpg-agent&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;First, we need to install &lt;a href="http://www.call-cc.org/"&gt;Chicken&lt;/a&gt;. Most likely, it can be installed via your package manager:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;$ sudo apt-get install chicken-bin&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="brush: console"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; sudo apt-get install chicken-bin
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;p&gt;If it isn&amp;rsquo;t available on your system, you may download it from &lt;a href="http://code.call-cc.org/"&gt;code.call-cc.org&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;After Chicken is installed, let&amp;rsquo;s install Ugarit itself, and some dependencies:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;$ chicken-install -s ugarit tiger-hash aes&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="brush: console"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; chicken-install -s ugarit tiger-hash aes
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;p&gt;After this command completes, the command &lt;code&gt;ugarit&lt;/code&gt; will become available. To display command-line help:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;$ ugarit -h&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="brush: console"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; ugarit -h
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;h1 id="configuration"&gt;Configuration&lt;/h1&gt;
 
 &lt;p&gt;Ugarit at this point isn&amp;rsquo;t usable yet &amp;mdash; we need to specify where will it store the snapshots. When creating a snapshot of a directory several terabytes big, it is ideal to store the data on a fast, reliable, stress-tolerant disk. It is not uncommon for the command &lt;code&gt;ls&lt;/code&gt; to experience a noticeable lag when ran inside the data directory. Let&amp;rsquo;s presume that &lt;code&gt;/dev/sdb1&lt;/code&gt; is a large filesystem and we want to mount it to &lt;code&gt;/ugarit/&lt;/code&gt;.&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;$ sudo mkdir /ugarit
-$ sudo mount /dev/sdb1 /ugarit
-$ sudo mkdir /ugarit/vault
-$ sudo chown -R $USER /ugarit&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="brush: console"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1
+2
+3
+4&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; sudo mkdir /ugarit
+&lt;span class="gp"&gt;$&lt;/span&gt; sudo mount /dev/sdb1 /ugarit
+&lt;span class="gp"&gt;$&lt;/span&gt; sudo mkdir /ugarit/vault
+&lt;span class="gp"&gt;$&lt;/span&gt; sudo chown -R &lt;span class="nv"&gt;$USER&lt;/span&gt; /ugarit
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;p&gt;Another, equally important requirement that we need to have is its config file, usually named &lt;code&gt;ugarit.conf&lt;/code&gt;. It is supplied as part of the required command line arguments. It is important to note, that this file does not reside in a fixed location, in contrast with some programs that look for a config file at start-up, from &lt;code&gt;~/&lt;/code&gt;. But before we actually create that file, we need to run some commands. Save the outputs of these commands, because we&amp;rsquo;ll be needing them later:&lt;/p&gt;
 
 &lt;p&gt;Create a salt, for the hash function:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;$ dd if=/dev/random bs=1 count=64 2&amp;gt;/dev/null | base64 -w 0 | tail -1&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="brush: console"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; dd &lt;span class="k"&gt;if&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;/dev/random &lt;span class="nv"&gt;bs&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt; &lt;span class="nv"&gt;count&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="m"&gt;64&lt;/span&gt; 2&amp;gt;/dev/null &lt;span class="p"&gt;|&lt;/span&gt; base64 -w &lt;span class="m"&gt;0&lt;/span&gt; &lt;span class="p"&gt;|&lt;/span&gt; tail -1
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;p&gt;Create the key, for the vault:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;$ dd if=/dev/random bs=32 count=1 2&amp;gt;/dev/null | od -An -tx1 | tr -d ' \t\n'&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="brush: console"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; dd &lt;span class="k"&gt;if&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;/dev/random &lt;span class="nv"&gt;bs&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="m"&gt;32&lt;/span&gt; &lt;span class="nv"&gt;count&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt; 2&amp;gt;/dev/null &lt;span class="p"&gt;|&lt;/span&gt; od -An -tx1 &lt;span class="p"&gt;|&lt;/span&gt; tr -d &lt;span class="s1"&gt;&amp;#39; \t\n&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;p&gt;After we run those commands, we&amp;rsquo;ll create the config file, &lt;code&gt;ugarit.conf&lt;/code&gt;. To make it consistent with the example above, we&amp;rsquo;ll store it inside &lt;code&gt;/ugarit&lt;/code&gt;:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;$ emacs /ugarit/ugarit.conf&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="brush: console"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; emacs /ugarit/ugarit.conf
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;p&gt;Then input the following:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;(storage "backend-fs fs /ugarit/vault")
-(file-cache "/ugarit/cache")
-(hash tiger "SALT")
-(encryption aes "KEY")&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="brush: scheme"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1
+2
+3
+4&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;storage&lt;/span&gt; &lt;span class="s"&gt;"backend-fs fs /ugarit/vault"&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;file-cache&lt;/span&gt; &lt;span class="s"&gt;"/ugarit/cache"&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;hash&lt;/span&gt; &lt;span class="nv"&gt;tiger&lt;/span&gt; &lt;span class="s"&gt;"SALT"&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;encryption&lt;/span&gt; &lt;span class="nv"&gt;aes&lt;/span&gt; &lt;span class="s"&gt;"KEY"&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;p&gt;Replace SALT, and KEY, with the salt and key strings that we generated above. Save the file, then secure it.&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;$ chmod 600 /ugarit/ugarit.conf&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="brush: console"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; chmod &lt;span class="m"&gt;600&lt;/span&gt; /ugarit/ugarit.conf
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;h1 id="basic-usage"&gt;Basic Usage&lt;/h1&gt;
 
@@ -207,46 +520,141 @@ $ sudo chown -R $USER /ugarit&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;To create a snapshot, run:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;$ ugarit snapshot /ugarit/ugarit.conf TAG DIRECTORY&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="brush: console"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; ugarit snapshot /ugarit/ugarit.conf TAG DIRECTORY
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;p&gt;&lt;strong&gt;TAG&lt;/strong&gt; is a name that you will identify the snapshot with later, while &lt;strong&gt;DIRECTORY&lt;/strong&gt; is the filesystem tree that you will create a snapshot of. To create, for example, a snapshot of the directory &lt;code&gt;pictures/&lt;/code&gt;, with the tag &lt;code&gt;pix&lt;/code&gt;, run Ugarit like this:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;$ ugarit snapshot /ugarit/ugarit.conf pix pictures&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="brush: console"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; ugarit snapshot /ugarit/ugarit.conf pix pictures
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;p&gt;After the snapshot, you&amp;rsquo;ll see similar to the following:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;Archiving pictures to tag pix...
-Root hash: ddc888c86db6d7c468a27cc4af9b2907d219936df82e0971
-Successfully snapshotted pictures to tag pix
-Snapshot hash: ab290399f31fff1e3158c0ede8f90f59b2b41387af48f597
-Written 910460 bytes to the vault in 4 blocks, and reused 0 bytes in 0 blocks
-(before compression)
-File cache has saved us 1 file hashings / 638104 bytes (before compression)&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="brush: console"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1
+2
+3
+4
+5
+6
+7&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="go"&gt;Archiving pictures to tag pix...&lt;/span&gt;
+&lt;span class="go"&gt;Root hash: ddc888c86db6d7c468a27cc4af9b2907d219936df82e0971&lt;/span&gt;
+&lt;span class="go"&gt;Successfully snapshotted pictures to tag pix&lt;/span&gt;
+&lt;span class="go"&gt;Snapshot hash: ab290399f31fff1e3158c0ede8f90f59b2b41387af48f597&lt;/span&gt;
+&lt;span class="go"&gt;Written 910460 bytes to the vault in 4 blocks, and reused 0 bytes in 0 blocks&lt;/span&gt;
+&lt;span class="go"&gt;(before compression)&lt;/span&gt;
+&lt;span class="go"&gt;File cache has saved us 1 file hashings / 638104 bytes (before compression)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;h2 id="exploring-snapshots"&gt;Exploring Snapshots&lt;/h2&gt;
 
 &lt;p&gt;To interactively manage the contents of the vault, run:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;$ ugarit explore /ugarit/ugarit.conf&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="brush: console"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; ugarit explore /ugarit/ugarit.conf
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;p&gt;To list the available commands:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;&amp;gt; help&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="brush: console"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="gp"&gt;&amp;gt;&lt;/span&gt; &lt;span class="nb"&gt;help&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;p&gt;Taking hints from the help usage, we&amp;rsquo;ll extract a directory, that was part of the snapshot earlier. Let&amp;rsquo;s say that the original path of that directory was &lt;code&gt;pictures/holiday&lt;/code&gt;. So, to extract the directory &lt;code&gt;holiday/&lt;/code&gt; to the current directory, run:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;&amp;gt; cd pix
-/pix&amp;gt; cd current
-/pix/current&amp;gt; cd contents
-/pix/current/contents&amp;gt; get holiday
-Extracted holiday
-/pix/current/contents&amp;gt; exit&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="brush: console"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1
+2
+3
+4
+5
+6&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="gp"&gt;&amp;gt;&lt;/span&gt; &lt;span class="nb"&gt;cd &lt;/span&gt;pix
+&lt;span class="go"&gt;/pix&amp;gt; cd current&lt;/span&gt;
+&lt;span class="go"&gt;/pix/current&amp;gt; cd contents&lt;/span&gt;
+&lt;span class="go"&gt;/pix/current/contents&amp;gt; get holiday&lt;/span&gt;
+&lt;span class="go"&gt;Extracted holiday&lt;/span&gt;
+&lt;span class="go"&gt;/pix/current/contents&amp;gt; exit&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;h2 id="extracting-snapshots-directly"&gt;Extracting Snapshots Directly&lt;/h2&gt;
 
 &lt;p&gt;If, however, you know the exact path to a file or directory that you want to extract, you can instead run Ugarit with the extract mode. To extract the directory &lt;code&gt;holiday/&lt;/code&gt; from above, directly, run:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;$ ugarit extract /ugarit/ugarit.conf /pix/current/contents/holiday&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="brush: console"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; ugarit extract /ugarit/ugarit.conf /pix/current/contents/holiday
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;h1 id="tips"&gt;Tips&lt;/h1&gt;
 
@@ -254,25 +662,77 @@ Extracted holiday
 
 &lt;p&gt;Ugarit is not limited to creating snapshots of a local filesystem. It can also be used to create snapshots of trees, from a remote host, mounted locally. If you have an &lt;a href="http://fuse.sourceforge.net/sshfs.html"&gt;SSHFS&lt;/a&gt; mount, for example, you can still create a snapshot of it, just like any other local filesystem:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;$ sshfs remotehost:/ ~/mnt/sshfs/remotehost
-$ cd ~/mnt/sshfs
-$ ugarit snapshot /ugarit/ugarit.conf remotehost&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="brush: console"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1
+2
+3&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; sshfs remotehost:/ ~/mnt/sshfs/remotehost
+&lt;span class="gp"&gt;$&lt;/span&gt; &lt;span class="nb"&gt;cd&lt;/span&gt; ~/mnt/sshfs
+&lt;span class="gp"&gt;$&lt;/span&gt; ugarit snapshot /ugarit/ugarit.conf remotehost
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;p&gt;The same applies to &lt;a href="http://www.samba.org/samba/smbfs/"&gt;SMBFS&lt;/a&gt; mounts:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;$ sudo mount -t cifs -o user=$USER,uid=$USER //winhost/c ~/mnt/smbfs/winhost/c
-$ cd ~/mnt/smbfs
-$ ugarit snapshot /ugarit/ugarit.conf winhost&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="brush: console"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1
+2
+3&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; sudo mount -t cifs -o &lt;span class="nv"&gt;user&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="nv"&gt;$USER&lt;/span&gt;,uid&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="nv"&gt;$USER&lt;/span&gt; //winhost/c ~/mnt/smbfs/winhost/c
+&lt;span class="gp"&gt;$&lt;/span&gt; &lt;span class="nb"&gt;cd&lt;/span&gt; ~/mnt/smbfs
+&lt;span class="gp"&gt;$&lt;/span&gt; ugarit snapshot /ugarit/ugarit.conf winhost
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;h2 id="miscellany"&gt;Miscellany&lt;/h2&gt;
 
 &lt;p&gt;To disable output, when creating snapshots:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;$ ugarit snapshot /ugarit/ugarit.conf -q ...&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="brush: console"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; ugarit snapshot /ugarit/ugarit.conf -q ...
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;p&gt;To enable very verbose output, when creating snapshots:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;$ ugarit snapshot -:a256 /ugarit/ugarit.conf ...&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="brush: console"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; ugarit snapshot -:a256 /ugarit/ugarit.conf ...
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;h1 id="notes"&gt;Notes&lt;/h1&gt;
 

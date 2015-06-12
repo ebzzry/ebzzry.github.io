@@ -3,15 +3,15 @@
  <channel>
   <title>Live. Die. Repeat.: Posts tagged 'racket'</title>
   <description>Live. Die. Repeat.: Posts tagged 'racket'</description>
-  <link>http://rmm.meta.ph/tags/racket.html</link>
-  <lastBuildDate>Wed, 19 Feb 2014 14:07:11 PHT</lastBuildDate>
-  <pubDate>Wed, 19 Feb 2014 14:07:11 PHT</pubDate>
+  <link>http://ebzzry.github.io/tags/racket.html</link>
+  <lastBuildDate>Wed, 19 Feb 2014 06:07:11 UT</lastBuildDate>
+  <pubDate>Wed, 19 Feb 2014 06:07:11 UT</pubDate>
   <ttl>1800</ttl>
   <item>
    <title>An Introduction To Frog</title>
-   <link>http://rmm.meta.ph/blog/2014/02/19/an-introduction-to-frog/?utm_source=racket&amp;utm_medium=RSS</link>
-   <guid>urn:http-rmm-meta-ph:-blog-2014-02-19-an-introduction-to-frog</guid>
-   <pubDate>Wed, 19 Feb 2014 14:07:11 PHT</pubDate>
+   <link>http://ebzzry.github.io/blog/2014/02/19/an-introduction-to-frog/?utm_source=racket&amp;utm_medium=RSS</link>
+   <guid>urn:http-ebzzry-github-io:-blog-2014-02-19-an-introduction-to-frog</guid>
+   <pubDate>Wed, 19 Feb 2014 06:07:11 UT</pubDate>
    <description>&lt;html&gt;
 &lt;p&gt;When publishing blog content to the web, most would rely on pre-fabricated services, that do most of the heavy lifting. However, there are instances when we want to have more control over our stuff. A good example of which are the constraints that providers enforce. Another is the presence of ads, or the use of freemium services, i.e., things can be done, only up to a certain visible limit.&lt;/p&gt;
 
@@ -36,32 +36,105 @@
 
 &lt;p&gt;To install Frog, we need to install Racket, first. Chances are, your package manager already has it. To install Racket on Debian, run:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;$ sudo apt-get install racket&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="brush: console"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; sudo apt-get install racket
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;p&gt;In the unlikely event that it can&amp;rsquo;t be installed using your package manager, go to &lt;a href="http://racket-lang.org/download/"&gt;racket-lang.org/download/&lt;/a&gt; , then follow the instructions from there.&lt;/p&gt;
 
 &lt;p&gt;Next, we need to install Frog.&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;$ raco pkg install frog&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="brush: console"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; raco pkg install frog
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;p&gt;After which, you&amp;rsquo;ll get the &lt;code&gt;raco frog&lt;/code&gt; command. Let&amp;rsquo;s display its help options:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;$ raco frog -h&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="brush: console"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; raco frog -h
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;h1 id="first-use"&gt;First Use&lt;/h1&gt;
 
 &lt;p&gt;Sweet. Now that we have Frog installed, let&amp;rsquo;s get rolling. To create your first Frog-powered website, we&amp;rsquo;ll create a project directory first:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;$ mkdir blog
-$ cd blog&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="brush: console"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1
+2&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; mkdir blog
+&lt;span class="gp"&gt;$&lt;/span&gt; &lt;span class="nb"&gt;cd &lt;/span&gt;blog
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;p&gt;We&amp;rsquo;ll then fire the spark plug, to initialize the site repository:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;$ raco frog --init&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="brush: console"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; raco frog --init
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;p&gt;You&amp;rsquo;ll see a message saying that your website is ready. Let&amp;rsquo;s follow the suggested command:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;$ raco frog -bp&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="brush: console"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; raco frog -bp
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;p&gt;What that command does is that it builds the HTML files from the sample source files created with the &lt;code&gt;--init&lt;/code&gt; switch, then it runs a local web server, serving by default, the location &lt;a href="http://localhost:3000"&gt;http://localhost:3000&lt;/a&gt;. Frog will then open a new browser tab, or window, pointing to that URL. The page that you&amp;rsquo;ll see contains the default site layout. When you&amp;rsquo;re OK with it, let&amp;rsquo;s go back to the terminal, and kill that process by hitting &lt;code&gt;C-c&lt;/code&gt;.&lt;/p&gt;
 
@@ -69,7 +142,19 @@ $ cd blog&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Creating a new article from scratch is another easy task:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;$ raco frog -n "New Blog Post."&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="brush: console"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; raco frog -n &lt;span class="s2"&gt;"New Blog Post."&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;p&gt;What it does is that it creates a Markdown file, relative to the current directory, with the format &lt;code&gt;_src/posts/YYYY-MM-DD-post-title.md&lt;/code&gt;. With the command above, the absolute path would be similar to:&lt;/p&gt;
 
@@ -77,7 +162,19 @@ $ cd blog&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Let&amp;rsquo;s edit that file, and see how it looks like:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;$ emacs _src/posts/2014-02-21-new-blog-post.md&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="brush: console"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; emacs _src/posts/2014-02-21-new-blog-post.md
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;pre&gt;&lt;code&gt;    Title: New Blog Post
     Date: 2014-02-21T18:53:42
@@ -111,15 +208,51 @@ amet orci. Aenean dignissim pellentesque felis.&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Then, run the build command, again:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;$ raco frog -bp&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="brush: console"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; raco frog -bp
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;p&gt;We now have two posts, as displayed in the index. To remove the auto-generated initial post, that was created by the command &lt;code&gt;raco frog --init&lt;/code&gt;, earlier, run:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;$ rm -f _src/posts/2012-01-01-a-2012-blog-post.md&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="brush: console"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; rm -f _src/posts/2012-01-01-a-2012-blog-post.md
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;p&gt;Then, rebuild the files:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;$ raco frog -bp&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="brush: console"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; raco frog -bp
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;h1 id="customizations"&gt;Customizations&lt;/h1&gt;
 
@@ -140,7 +273,19 @@ amet orci. Aenean dignissim pellentesque felis.&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;This file is where top-level customizations are made. Open the file &lt;code&gt;.frogrc&lt;/code&gt;, located in the current directory:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;$ emacs .frogrc&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="brush: console"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; emacs .frogrc
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;p&gt;You&amp;rsquo;ll notice that there are more than a dozen parameters that can be tweaked. But for now, we&amp;rsquo;re only concerned about three parameters:&lt;/p&gt;
 
@@ -155,7 +300,19 @@ amet orci. Aenean dignissim pellentesque felis.&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;This file contains the common content, across all types of pages, whether they are blog or non-blog posts. Open the file &lt;code&gt;_src/page-template.html&lt;/code&gt;, located in the current directory:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;$ emacs _src/page-template.html&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="brush: console"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; emacs _src/page-template.html
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;p&gt;You&amp;rsquo;ll see an even bigger file, compared to .frogrc. This is an special HTML file, that contains Racket, and Frog-specific code. It will be used as a basis for all pages that you&amp;rsquo;ll create with Frog. There are plenty of parameters here, but we&amp;rsquo;ll just tweak some that are most usable to us, at the moment. To make it easier, I&amp;rsquo;ll just list down the items to search and replace for:&lt;/p&gt;
 
@@ -171,7 +328,19 @@ amet orci. Aenean dignissim pellentesque felis.&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Similar to &lt;code&gt;page-template.html&lt;/code&gt;, but this file contains content that will only appear with blog posts. It is also Perhaps the easiest file to modify is &lt;code&gt;_src/post-template.html&lt;/code&gt;. Let&amp;rsquo;s open it:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;$ emacs _src/post-template.html&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="brush: console"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; emacs _src/post-template.html
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;p&gt;For now, you only need to modify the text &lt;code&gt;shortname&lt;/code&gt;. It is the identifier that links the comments section of your blog posts, to the aforesaid Disqus account. More about this will be discussed in the section &lt;strong&gt;Comments&lt;/strong&gt;.&lt;/p&gt;
 
@@ -179,17 +348,53 @@ amet orci. Aenean dignissim pellentesque felis.&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;These two files are responsible for what is commonly called as &amp;ldquo;theme&amp;rdquo; &amp;mdash; it controls the look of the site. To change these files, let&amp;rsquo;s head over to &lt;a href="http://bootswatch.com/"&gt;bootswatch.com&lt;/a&gt;, then let&amp;rsquo;s select a theme we like. Let&amp;rsquo;s presume that we want to download the &lt;em&gt;Cerulean&lt;/em&gt; theme. Click the dropdown box arrow, next to the download link, for that theme. Select and download both &lt;code&gt;bootstrap.min.css&lt;/code&gt; and &lt;code&gt;bootstrap.css&lt;/code&gt;. After which, copy them over to the css subdirectory &lt;code&gt;css/&lt;/code&gt;.&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;$ cp ~/Downloads/bootstrap.*.css css/&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="brush: console"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; cp ~/Downloads/bootstrap.*.css css/
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;h1 id="miscellany"&gt;Miscellany&lt;/h1&gt;
 
 &lt;p&gt;When we created a new post earlier, we used the following command:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;raco frog -n "New Blog Post"&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="brush: console"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="go"&gt;raco frog -n "New Blog Post"&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;p&gt;That command, creates a Markdown source file. Frog, however, has another mode &amp;mdash; Scribble. This mode lets you use a Scribble source file, instead. To create one, we&amp;rsquo;ll use the following command:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;raco frog -N "New Blog Post"&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="brush: console"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="go"&gt;raco frog -N "New Blog Post"&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;p&gt;Had you used this command earlier, the file will have the format &lt;code&gt;_src/posts/YYYY-MM-DD-post-title.md&lt;/code&gt;. With the command above, the absolute path would look like:&lt;/p&gt;
 
@@ -197,7 +402,19 @@ amet orci. Aenean dignissim pellentesque felis.&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Again, let&amp;rsquo;s edit that file, and see how it looks like:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;emacs _src/posts/2014-02-21-new-blog-post.scrbl&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="brush: console"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; emacs _src/posts/2014-02-21-new-blog-post.scrbl
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;pre&gt;&lt;code&gt;#lang scribble/manual
 
@@ -225,7 +442,19 @@ published.
 
 &lt;p&gt;To publish your work, upload the contents of the directory that Frog manages; in this tutorial, it is the directory &lt;code&gt;/home/john/blog&lt;/code&gt;, to your remote web server. If the current directory is &lt;code&gt;blog/&lt;/code&gt;, and we want to send the files via rsync, the command would look like:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;$ rsync -avz ./ remotehost:public_html&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="brush: console"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; rsync -avz ./ remotehost:public_html
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;p&gt;The directory &lt;code&gt;public_html&lt;/code&gt; could be something else, I just used it because it is the default with Apache.&lt;/p&gt;
 
@@ -233,11 +462,35 @@ published.
 
 &lt;p&gt;To publish your work to GitHub Pages, we first need to add that remote repository:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;$ git remote add origin git@github.com:johndoe/johndoe.github.io.git&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="brush: console"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; git remote add origin git@github.com:johndoe/johndoe.github.io.git
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;p&gt;Then we push the commits:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;$ git push origin master&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="brush: console"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; git push origin master
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;p&gt;To view your website, go to &lt;a href="http://johndoe.github.io"&gt;johndoe.github.io&lt;/a&gt;.&lt;/p&gt;
 
@@ -249,10 +502,10 @@ published.
 
 &lt;p&gt;&lt;strong&gt;Ribbit!&lt;/strong&gt;&lt;/p&gt;&lt;/html&gt;</description></item>
   <item>
-   <title>Emacs: Racket</title>
-   <link>http://rmm.meta.ph/blog/2013/09/29/emacs-racket/?utm_source=racket&amp;utm_medium=RSS</link>
-   <guid>urn:http-rmm-meta-ph:-blog-2013-09-29-emacs-racket</guid>
-   <pubDate>Sun, 29 Sep 2013 22:21:19 PHT</pubDate>
+   <title>Emacs &amp; Racket</title>
+   <link>http://ebzzry.github.io/blog/2013/09/29/emacs-racket/?utm_source=racket&amp;utm_medium=RSS</link>
+   <guid>urn:http-ebzzry-github-io:-blog-2013-09-29-emacs-racket</guid>
+   <pubDate>Sun, 29 Sep 2013 14:21:19 UT</pubDate>
    <description>&lt;html&gt;
 &lt;p&gt;In this post, I&amp;rsquo;ll discuss the easiest approach that I took to setup up a &lt;a href="http://racket-lang.org"&gt;Racket&lt;/a&gt; development environment on Emacs. Take note, that this is not the only approach available &amp;mdash; some did it in arguably better ways. In this article, I&amp;rsquo;ll try to explain the shortest route that I took.&lt;/p&gt;
 &lt;!-- more--&gt;
@@ -274,9 +527,23 @@ published.
 
 &lt;p&gt;Let&amp;rsquo;s say that you want to install your Geiser files in &lt;code&gt;~/.emacs.d/elisp/&lt;/code&gt;. We&amp;rsquo;ll issue the following commands to install Geiser to that location:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;$ mkdir ~/.emacs.d/elisp
-$ cd ~/.emacs.d/elisp
-$ git clone http://git.sv.gnu.org/r/geiser.git&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="brush: console"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1
+2
+3&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; mkdir ~/.emacs.d/elisp
+&lt;span class="gp"&gt;$&lt;/span&gt; &lt;span class="nb"&gt;cd&lt;/span&gt; ~/.emacs.d/elisp
+&lt;span class="gp"&gt;$&lt;/span&gt; git clone http://git.sv.gnu.org/r/geiser.git
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;p&gt;After that, in &lt;code&gt;~/.emacs.d/elisp/geiser/&lt;/code&gt;, you&amp;rsquo;ll have something that looks like the following:&lt;/p&gt;
 
@@ -300,17 +567,47 @@ THANKS&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Next, we want the directory &lt;code&gt;~/.emacs.d/elisp/geiser/elisp/&lt;/code&gt; to be a member of the Emacs variable &lt;code&gt;load-path&lt;/code&gt; so that &lt;code&gt;require&lt;/code&gt; and friends will know where to find things. To do that, add the following to your Emacs init file &amp;mdash; either in &lt;code&gt;~/.emacs.d/init.el&lt;/code&gt;, or in &lt;code&gt;~/.emacs&lt;/code&gt; (deprecated):&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;(add-to-list 'load-path "~/.emacs.d/elisp/geiser/elisp/")&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="brush: elisp"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;add-to-list&lt;/span&gt; &lt;span class="ss"&gt;&amp;#39;load-path&lt;/span&gt; &lt;span class="s"&gt;"~/.emacs.d/elisp/geiser/elisp/"&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;p&gt;Next, we&amp;rsquo;ll put in the actual code that invokes and configures Geiser:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;(require 'geiser)
+&lt;div class="brush: elisp"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1
+2
+3
+4
+5
+6
+7&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;require&lt;/span&gt; &lt;span class="ss"&gt;&amp;#39;geiser&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 
-(setq geiser-active-implementations '(racket))
+&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;setq&lt;/span&gt; &lt;span class="nv"&gt;geiser-active-implementations&lt;/span&gt; &lt;span class="o"&gt;&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;racket&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
 
-(defun geiser-save ()
-  (interactive)
-  (geiser-repl--write-input-ring))&lt;/code&gt;&lt;/pre&gt;
+&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;defun&lt;/span&gt; &lt;span class="nv"&gt;geiser-save&lt;/span&gt; &lt;span class="p"&gt;()&lt;/span&gt;
+  &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;interactive&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+  &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;geiser-repl--write-input-ring&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;p&gt;The first expression loads Geiser, itself. The second one specifies that it won&amp;rsquo;t prompt you for other implementations if it finds them. The last one is optional &amp;mdash; it enables you to execute &lt;code&gt;M-x geiser-save&lt;/code&gt; in the REPL buffer to force saving of the history to the disk file, which is &lt;code&gt;~/.geiser_history.racket&lt;/code&gt;, by default. It is useful if you want to save your REPL session, immediately (Nothing is more horrifying than losing &lt;strong&gt;THAT&lt;/strong&gt; expression). For all the Emacs code above, to take effect, you can evaluate them now using members of the eval-* troupe (&lt;code&gt;eval-defun&lt;/code&gt;, &lt;code&gt;eval-last-sexp&lt;/code&gt;, &lt;code&gt;eval-region&lt;/code&gt;), or, you can still opt to respawn a new Emacs process.&lt;/p&gt;
 
@@ -380,9 +677,9 @@ REPL *&lt;/code&gt; buffer. Whatever you can do with the REPL invoked with vanil
 &lt;p&gt;I have intentionally skipped many topics from the &lt;a href="http://www.nongnu.org/geiser/"&gt;official document&lt;/a&gt; because it makes it unattractive to people who are averse to reading long blocks of text (ironically, this article may even qualify as one.). The methods described above are by in no way representative of community-advised ways of installing and using Racket with Emacs. Feel free to drop a comment below! Ciao!&lt;/p&gt;&lt;/html&gt;</description></item>
   <item>
    <title>An Introduction to Livefrog</title>
-   <link>http://rmm.meta.ph/blog/2013/05/29/an-introduction-to-livefrog/?utm_source=racket&amp;utm_medium=RSS</link>
-   <guid>urn:http-rmm-meta-ph:-blog-2013-05-29-an-introduction-to-livefrog</guid>
-   <pubDate>Wed, 29 May 2013 15:10:34 PHT</pubDate>
+   <link>http://ebzzry.github.io/blog/2013/05/29/an-introduction-to-livefrog/?utm_source=racket&amp;utm_medium=RSS</link>
+   <guid>urn:http-ebzzry-github-io:-blog-2013-05-29-an-introduction-to-livefrog</guid>
+   <pubDate>Wed, 29 May 2013 07:10:34 UT</pubDate>
    <description>&lt;html&gt;
 &lt;p&gt;I am pleased to announce the release of &lt;strong&gt;livefrog&lt;/strong&gt;, a utility I wrote to migrate LiveJournal articles to &lt;a href="http://github.com/greghendershott/frog"&gt;Frog&lt;/a&gt;.&lt;/p&gt;
 
@@ -397,14 +694,41 @@ REPL *&lt;/code&gt; buffer. Whatever you can do with the REPL invoked with vanil
 
 &lt;p&gt;livefrog is available via Racket&amp;rsquo;s &lt;a href="http://pkg.racket-lang.org"&gt;Planet2&lt;/a&gt;:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;$ raco pkg install livefrog&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="brush: console"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; raco pkg install livefrog
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;p&gt;If that doesn&amp;rsquo;t work, you can alternately install by fetching livefrog, and the dependencies, from github&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;$ git clone https://github.com/jbclements/sxml.git
-$ git clone https://github.com/greghendershott/frog.git
-$ git clone https://github.com/ebzzry/livefrog.git
-$ raco pkg install frog/ sxml/ livefrog/&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="brush: console"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1
+2
+3
+4&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; git clone https://github.com/jbclements/sxml.git
+&lt;span class="gp"&gt;$&lt;/span&gt; git clone https://github.com/greghendershott/frog.git
+&lt;span class="gp"&gt;$&lt;/span&gt; git clone https://github.com/ebzzry/livefrog.git
+&lt;span class="gp"&gt;$&lt;/span&gt; raco pkg install frog/ sxml/ livefrog/
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;p&gt;The trailing slashes are important, to tell &lt;code&gt;raco&lt;/code&gt; that you are installing from local directories. Without it, it will try to fetch the sources from the internet.&lt;/p&gt;
 
@@ -416,11 +740,35 @@ $ raco pkg install frog/ sxml/ livefrog/&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;To create a Markdown file from the file entry.xml&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;$ raco livefrog -m entry.xml&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="brush: console"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; raco livefrog -m entry.xml
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;p&gt;That, however, becomes cumbersome if you&amp;rsquo;re going to manage more than a hundred entries. To automatically &amp;ldquo;pick up&amp;rdquo; the files created by ljdump or ljmigrate, and convert them to Markdown.&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;$ raco livefrog -am&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="brush: console"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; raco livefrog -am
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;p&gt;Bear in mind, though, that ljdump and ljmigrate differ on how the trees for the data are created. ljdump has the following tree format, where USERNAME is your LiveJournal account name:&lt;/p&gt;
 
@@ -470,21 +818,61 @@ $ raco pkg install frog/ sxml/ livefrog/&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;To create a file, named &lt;code&gt;comments.xml&lt;/code&gt; that will be used for importing comments, to be used with &lt;a href="http://import.disqus.com/"&gt;import.disqus.com&lt;/a&gt;, using &lt;code&gt;foo.bar.com&lt;/code&gt; as the root site:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;$ raco livefrog -s foo.bar.com -c comments.xml&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="brush: console"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; raco livefrog -s foo.bar.com -c comments.xml
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;h1 id="updating"&gt;Updating&lt;/h1&gt;
 
 &lt;p&gt;If you installed livefrog using Planet2, you can update it by running:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;$ raco pkg update livefrog&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="brush: console"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; raco pkg update livefrog
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;p&gt;However, if you used the latter method, you may update it by pulling the updates, uninstalling livefrog, then installing it again:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;$ cd livefrog
-$ git pull origin master
-$ cd ..
-$ raco pkg remove livefrog
-$ raco pkg install livefrog/&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="brush: console"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1
+2
+3
+4
+5&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; &lt;span class="nb"&gt;cd &lt;/span&gt;livefrog
+&lt;span class="gp"&gt;$&lt;/span&gt; git pull origin master
+&lt;span class="gp"&gt;$&lt;/span&gt; &lt;span class="nb"&gt;cd&lt;/span&gt; ..
+&lt;span class="gp"&gt;$&lt;/span&gt; raco pkg remove livefrog
+&lt;span class="gp"&gt;$&lt;/span&gt; raco pkg install livefrog/
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;h1 id="miscellany"&gt;Miscellany&lt;/h1&gt;
 
@@ -493,18 +881,42 @@ livefrog&lt;/code&gt; in your shell.&lt;/p&gt;
 
 &lt;p&gt;Sh-like shells:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;$ echo 'alias livefrog="raco livefrog"' &amp;gt;&amp;gt; ~/.bashrc&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="brush: console"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; &lt;span class="nb"&gt;echo&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;alias livefrog="raco livefrog"&amp;#39;&lt;/span&gt; &amp;gt;&amp;gt; ~/.bashrc
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;p&gt;Csh-like shells:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;$ echo 'alias livefrog raco livefrog' &amp;gt;&amp;gt; ~/.cshrc&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="brush: console"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; &lt;span class="nb"&gt;echo&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;alias livefrog raco livefrog&amp;#39;&lt;/span&gt; &amp;gt;&amp;gt; ~/.cshrc
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;p&gt;Replace &lt;code&gt;.bashrc&lt;/code&gt;, and &lt;code&gt;.cshrc&lt;/code&gt;, with the appropriate init file for your shell.&lt;/p&gt;&lt;/html&gt;</description></item>
   <item>
    <title>The Y Combinator in Six Easy Steps</title>
-   <link>http://rmm.meta.ph/blog/2013/05/09/the-y-combinator-in-six-easy-steps/?utm_source=racket&amp;utm_medium=RSS</link>
-   <guid>urn:http-rmm-meta-ph:-blog-2013-05-09-the-y-combinator-in-six-easy-steps</guid>
-   <pubDate>Thu, 09 May 2013 12:43:11 PHT</pubDate>
+   <link>http://ebzzry.github.io/blog/2013/05/09/the-y-combinator-in-six-easy-steps/?utm_source=racket&amp;utm_medium=RSS</link>
+   <guid>urn:http-ebzzry-github-io:-blog-2013-05-09-the-y-combinator-in-six-easy-steps</guid>
+   <pubDate>Thu, 09 May 2013 04:43:11 UT</pubDate>
    <description>&lt;html&gt;
 &lt;p&gt;A lot of us have been taught that to be able to define a recursive procedure, the recursive invocation must &amp;ldquo;use&amp;rdquo; the name of the recursive procedure. The &lt;a href="http://en.wikipedia.org/wiki/Fixed-point_combinator#Y_combinator"&gt;Y combinator&lt;/a&gt; , however, lets us perform recursion, without referring to the named identifier.&lt;/p&gt;
 
@@ -515,100 +927,236 @@ livefrog&lt;/code&gt; in your shell.&lt;/p&gt;
 
 &lt;p&gt;Let&amp;rsquo;s start by defining a procedure named &lt;code&gt;sum0&lt;/code&gt; that computes the &lt;a href="http://en.wikipedia.org/wiki/Summation"&gt;summation&lt;/a&gt; of a positive integer, down to zero. In the following snippet, the recursive call happens when &lt;code&gt;sum0&lt;/code&gt; is applied in the else part of the condition.&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;&amp;gt; (define sum0
-    (lambda (n)
-      (if (zero? n)
-          0
-          (+ n (sum0 (- n 1))))))
-&amp;gt; (sum0 100)
-5050&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="brush: scheme"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1
+2
+3
+4
+5
+6
+7&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="nv"&gt;&amp;gt;&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;define &lt;/span&gt;&lt;span class="nv"&gt;sum0&lt;/span&gt;
+    &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;lambda &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;n&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+      &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;if &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;zero? &lt;/span&gt;&lt;span class="nv"&gt;n&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+          &lt;span class="mi"&gt;0&lt;/span&gt;
+          &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;+ &lt;/span&gt;&lt;span class="nv"&gt;n&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;sum0&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;- &lt;/span&gt;&lt;span class="nv"&gt;n&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;))))))&lt;/span&gt;
+&lt;span class="nv"&gt;&amp;gt;&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;sum0&lt;/span&gt; &lt;span class="mi"&gt;100&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="mi"&gt;5050&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;p&gt;You have have observed that I have defined &lt;code&gt;sum0&lt;/code&gt; using an explicit &lt;code&gt;lambda&lt;/code&gt;. You&amp;rsquo;ll see shortly, why.&lt;/p&gt;
 
 &lt;p&gt;Let&amp;rsquo;s break that procedure futher, into more elementary components, and we&amp;rsquo;ll apply it, using &lt;a href="https://en.wikipedia.org/wiki/Currying"&gt;currying&lt;/a&gt;.&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;&amp;gt; (define sum0
-    (lambda (f)
-      (lambda (n)
-        (if (zero? n)
-            0
-            (+ n ((f f) (- n 1)))))))
-&amp;gt; ((sum0 sum0) 100)
-5050&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="brush: scheme"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1
+2
+3
+4
+5
+6
+7
+8&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="nv"&gt;&amp;gt;&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;define &lt;/span&gt;&lt;span class="nv"&gt;sum0&lt;/span&gt;
+    &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;lambda &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;f&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+      &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;lambda &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;n&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+        &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;if &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;zero? &lt;/span&gt;&lt;span class="nv"&gt;n&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+            &lt;span class="mi"&gt;0&lt;/span&gt;
+            &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;+ &lt;/span&gt;&lt;span class="nv"&gt;n&lt;/span&gt; &lt;span class="p"&gt;((&lt;/span&gt;&lt;span class="nf"&gt;f&lt;/span&gt; &lt;span class="nv"&gt;f&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;- &lt;/span&gt;&lt;span class="nv"&gt;n&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;)))))))&lt;/span&gt;
+&lt;span class="nv"&gt;&amp;gt;&lt;/span&gt; &lt;span class="p"&gt;((&lt;/span&gt;&lt;span class="nf"&gt;sum0&lt;/span&gt; &lt;span class="nv"&gt;sum0&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="mi"&gt;100&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="mi"&gt;5050&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;p&gt;The extra &lt;code&gt;lambda&lt;/code&gt; was needed because we needed to have a way to &amp;ldquo;anonymize&amp;rdquo; the recursive procedure. In this case, we used the identifier &lt;code&gt;f&lt;/code&gt; to bind to the recursive procedure, which is &lt;code&gt;sum0&lt;/code&gt;, itself. The weird-looking &lt;code&gt;((f f) ...)&lt;/code&gt; is needed, because we have to perform the same procedure invocation method used initially: &lt;code&gt;((sum0 sum0) 100)&lt;/code&gt;.&lt;/p&gt;
 
 &lt;p&gt;We&amp;rsquo;re now going to exploit that property, to use a &amp;ldquo;nameless&amp;rdquo; approach, that is, without using the &lt;code&gt;sum0&lt;/code&gt; name.&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;&amp;gt; (((lambda (f)
-      (lambda (n)
-        (if (zero? n)
-            0
-            (+ n ((f f) (- n 1))))))
-    (lambda (f)
-      (lambda (n)
-        (if (zero? n)
-            0
-            (+ n ((f f) (- n 1)))))))
-   100)
-5050&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="brush: scheme"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt; 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="nv"&gt;&amp;gt;&lt;/span&gt; &lt;span class="p"&gt;(((&lt;/span&gt;&lt;span class="k"&gt;lambda &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;f&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+      &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;lambda &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;n&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+        &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;if &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;zero? &lt;/span&gt;&lt;span class="nv"&gt;n&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+            &lt;span class="mi"&gt;0&lt;/span&gt;
+            &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;+ &lt;/span&gt;&lt;span class="nv"&gt;n&lt;/span&gt; &lt;span class="p"&gt;((&lt;/span&gt;&lt;span class="nf"&gt;f&lt;/span&gt; &lt;span class="nv"&gt;f&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;- &lt;/span&gt;&lt;span class="nv"&gt;n&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;))))))&lt;/span&gt;
+    &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;lambda &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;f&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+      &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;lambda &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;n&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+        &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;if &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;zero? &lt;/span&gt;&lt;span class="nv"&gt;n&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+            &lt;span class="mi"&gt;0&lt;/span&gt;
+            &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;+ &lt;/span&gt;&lt;span class="nv"&gt;n&lt;/span&gt; &lt;span class="p"&gt;((&lt;/span&gt;&lt;span class="nf"&gt;f&lt;/span&gt; &lt;span class="nv"&gt;f&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;- &lt;/span&gt;&lt;span class="nv"&gt;n&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;)))))))&lt;/span&gt;
+   &lt;span class="mi"&gt;100&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="mi"&gt;5050&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;p&gt;Take note, that at this point, we&amp;rsquo;re no longer using the &lt;code&gt;sum0&lt;/code&gt; name, to refer the the definition, except for later.&lt;/p&gt;
 
 &lt;p&gt;Next, we need to move the &lt;code&gt;(f f)&lt;/code&gt; part outside, to isolate the general (Y combinator), from the specific (&lt;code&gt;sum0&lt;/code&gt;) code.&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;&amp;gt; (((lambda (f)
-      ((lambda (p)
-         (lambda (n)
-           (if (zero? n)
-               0
-               (+ n (p (- n 1))))))
-       (lambda (v) ((f f) v))))
-    (lambda (f)
-      ((lambda (p)
-         (lambda (n)
-           (if (zero? n)
-               0
-               (+ n (p (- n 1))))))
-       (lambda (v) ((f f) v)))))
-   100)
-5050&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="brush: scheme"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt; 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="nv"&gt;&amp;gt;&lt;/span&gt; &lt;span class="p"&gt;(((&lt;/span&gt;&lt;span class="k"&gt;lambda &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;f&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+      &lt;span class="p"&gt;((&lt;/span&gt;&lt;span class="k"&gt;lambda &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;p&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+         &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;lambda &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;n&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+           &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;if &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;zero? &lt;/span&gt;&lt;span class="nv"&gt;n&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+               &lt;span class="mi"&gt;0&lt;/span&gt;
+               &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;+ &lt;/span&gt;&lt;span class="nv"&gt;n&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;p&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;- &lt;/span&gt;&lt;span class="nv"&gt;n&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;))))))&lt;/span&gt;
+       &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;lambda &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;v&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;((&lt;/span&gt;&lt;span class="nf"&gt;f&lt;/span&gt; &lt;span class="nv"&gt;f&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="nv"&gt;v&lt;/span&gt;&lt;span class="p"&gt;))))&lt;/span&gt;
+    &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;lambda &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;f&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+      &lt;span class="p"&gt;((&lt;/span&gt;&lt;span class="k"&gt;lambda &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;p&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+         &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;lambda &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;n&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+           &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;if &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;zero? &lt;/span&gt;&lt;span class="nv"&gt;n&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+               &lt;span class="mi"&gt;0&lt;/span&gt;
+               &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;+ &lt;/span&gt;&lt;span class="nv"&gt;n&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;p&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;- &lt;/span&gt;&lt;span class="nv"&gt;n&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;))))))&lt;/span&gt;
+       &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;lambda &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;v&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;((&lt;/span&gt;&lt;span class="nf"&gt;f&lt;/span&gt; &lt;span class="nv"&gt;f&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="nv"&gt;v&lt;/span&gt;&lt;span class="p"&gt;)))))&lt;/span&gt;
+   &lt;span class="mi"&gt;100&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="mi"&gt;5050&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;p&gt;During the procedure application, the identifier &lt;code&gt;p&lt;/code&gt; will be bound to &lt;code&gt;(lambda (v) ((f f) v))&lt;/code&gt;, and the identifier &lt;code&gt;v&lt;/code&gt; will be bound to &lt;code&gt;(- n 1)&lt;/code&gt;.&lt;/p&gt;
 
 &lt;p&gt;Finally, we&amp;rsquo;re going to isolate the Y combinator, from the &lt;code&gt;sum0&lt;/code&gt; procedure.&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;&amp;gt; (((lambda (x)
-      ((lambda (f)
-         (x (lambda (v) ((f f) v))))
-       (lambda (f)
-         (x (lambda (v) ((f f) v))))))
-    (lambda (p)
-      (lambda (n)
-        (if (zero? n)
-            0
-            (+ n (p (- n 1)))))))
-   100)
-5050&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="brush: scheme"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt; 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="nv"&gt;&amp;gt;&lt;/span&gt; &lt;span class="p"&gt;(((&lt;/span&gt;&lt;span class="k"&gt;lambda &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;x&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+      &lt;span class="p"&gt;((&lt;/span&gt;&lt;span class="k"&gt;lambda &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;f&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+         &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;x&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;lambda &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;v&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;((&lt;/span&gt;&lt;span class="nf"&gt;f&lt;/span&gt; &lt;span class="nv"&gt;f&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="nv"&gt;v&lt;/span&gt;&lt;span class="p"&gt;))))&lt;/span&gt;
+       &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;lambda &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;f&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+         &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;x&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;lambda &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;v&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;((&lt;/span&gt;&lt;span class="nf"&gt;f&lt;/span&gt; &lt;span class="nv"&gt;f&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="nv"&gt;v&lt;/span&gt;&lt;span class="p"&gt;))))))&lt;/span&gt;
+    &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;lambda &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;p&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+      &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;lambda &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;n&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+        &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;if &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;zero? &lt;/span&gt;&lt;span class="nv"&gt;n&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+            &lt;span class="mi"&gt;0&lt;/span&gt;
+            &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;+ &lt;/span&gt;&lt;span class="nv"&gt;n&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;p&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;- &lt;/span&gt;&lt;span class="nv"&gt;n&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;)))))))&lt;/span&gt;
+   &lt;span class="mi"&gt;100&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="mi"&gt;5050&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;p&gt;We replace the &lt;code&gt;sum0&lt;/code&gt;-specific definition with &lt;code&gt;x&lt;/code&gt;. This requires us again, to create an enveloping &lt;code&gt;lambda&lt;/code&gt;. Since &lt;code&gt;x&lt;/code&gt; is bound to the computing procedure, we no longer need to repeat it.&lt;/p&gt;
 
 &lt;p&gt;Optionally, we can explicitly create separate procedure definitions for the Y combinator itself, and the &lt;code&gt;sum0&lt;/code&gt; procedure.&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;&amp;gt; (define y
-    (lambda (x)
-      ((lambda (f)
-         (x (lambda (v) ((f f) v))))
-       (lambda (f)
-         (x (lambda (v) ((f f) v)))))))
-&amp;gt; (define %sum0
-    (lambda (p)
-      (lambda (n)
-        (if (zero? n)
-            0
-            (+ n (p (- n 1)))))))
-&amp;gt; (define sum0 (y %sum0))
-&amp;gt; (sum0 100)
-5050&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="brush: scheme"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt; 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="nv"&gt;&amp;gt;&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;define &lt;/span&gt;&lt;span class="nv"&gt;y&lt;/span&gt;
+    &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;lambda &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;x&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+      &lt;span class="p"&gt;((&lt;/span&gt;&lt;span class="k"&gt;lambda &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;f&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+         &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;x&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;lambda &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;v&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;((&lt;/span&gt;&lt;span class="nf"&gt;f&lt;/span&gt; &lt;span class="nv"&gt;f&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="nv"&gt;v&lt;/span&gt;&lt;span class="p"&gt;))))&lt;/span&gt;
+       &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;lambda &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;f&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+         &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;x&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;lambda &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;v&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;((&lt;/span&gt;&lt;span class="nf"&gt;f&lt;/span&gt; &lt;span class="nv"&gt;f&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="nv"&gt;v&lt;/span&gt;&lt;span class="p"&gt;)))))))&lt;/span&gt;
+&lt;span class="nv"&gt;&amp;gt;&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;define &lt;/span&gt;&lt;span class="nv"&gt;%sum0&lt;/span&gt;
+    &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;lambda &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;p&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+      &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;lambda &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;n&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+        &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;if &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;zero? &lt;/span&gt;&lt;span class="nv"&gt;n&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+            &lt;span class="mi"&gt;0&lt;/span&gt;
+            &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;+ &lt;/span&gt;&lt;span class="nv"&gt;n&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;p&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;- &lt;/span&gt;&lt;span class="nv"&gt;n&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;)))))))&lt;/span&gt;
+&lt;span class="nv"&gt;&amp;gt;&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;define &lt;/span&gt;&lt;span class="nv"&gt;sum0&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;y&lt;/span&gt; &lt;span class="nv"&gt;%sum0&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+&lt;span class="nv"&gt;&amp;gt;&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;sum0&lt;/span&gt; &lt;span class="mi"&gt;100&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="mi"&gt;5050&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;p&gt;I hope this post has been useful in making you understand the Y combinator, currying, and procedure application. Please post your comments and suggestions, below. &amp;lt;-:&lt;/p&gt;&lt;/html&gt;</description></item></channel></rss>

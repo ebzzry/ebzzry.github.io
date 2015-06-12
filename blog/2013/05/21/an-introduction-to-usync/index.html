@@ -9,7 +9,7 @@
     <meta name="keywords"    content="scheme, programming">
     <meta name="viewport"    content="width=device-width, initial-scale=1.0">
     <link rel="icon"      href="/favicon.ico">
-    <link rel="canonical" href="http://rmm.meta.ph/blog/2013/05/21/an-introduction-to-usync/">
+    <link rel="canonical" href="http://ebzzry.github.io/blog/2013/05/21/an-introduction-to-usync/">
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="/css/pygments.css">
@@ -64,6 +64,8 @@
                 <li><a href="/index.html">All Posts</a></li>
 
 <li><a href="/tags/backups.html">backups</a></li>
+
+<li><a href="/tags/compsci.html">compsci</a></li>
 
 <li><a href="/tags/emacs.html">emacs</a></li>
 
@@ -125,7 +127,19 @@
 
 <p>To perform two-way synchronization of the directory <code>/pub/yot/ninam</code>, between the current host, to the hosts <code>tarupam</code>, and <code>taubetmo</code>, while preserving the directory structure remotely (take note, that there must be no spaces between the hosts specification, due to the <code>IFS</code> environment variable, found in most shells):</p>
 
-<pre><code>$ usync /pub/yot/ninam/ tarupam,taubetmo</code></pre>
+<div class="brush: console">
+ <table class="sourcetable">
+  <tbody>
+   <tr>
+    <td class="linenos">
+     <div class="linenodiv">
+      <pre>1</pre></div></td>
+    <td class="code">
+     <div class="source">
+      <pre><span class="gp">$</span> usync /pub/yot/ninam/ tarupam,taubetmo
+</pre></div>
+</td></tr></tbody></table>
+</div>
 
 <p>The command above will perform two-way synchronization of the diretory <code>ninam/</code> found under <code>/pub/yot/</code>, to <code>tarupam:/pub/yot/</code>, and <code>taubetmo:/pub/yot/</code>.</p>
 
@@ -137,17 +151,53 @@
 
 <p>It is also possible to perform synchronization of multiple files, and directories, to remote hosts. To do so, run:</p>
 
-<pre><code>$ usync /pub/yot/ninam/ ~/file.text ~reyn/*.blend tarupam,taubetmo</code></pre>
+<div class="brush: console">
+ <table class="sourcetable">
+  <tbody>
+   <tr>
+    <td class="linenos">
+     <div class="linenodiv">
+      <pre>1</pre></div></td>
+    <td class="code">
+     <div class="source">
+      <pre><span class="gp">$</span> usync /pub/yot/ninam/ ~/file.text ~reyn/*.blend tarupam,taubetmo
+</pre></div>
+</td></tr></tbody></table>
+</div>
 
 <p>The command above will perform two-way synchronization of the paths <code>/pub/yot/ninam/</code>, <code>~/file.text</code>, and <code>~reyn/*.blend</code> to the remote hosts <code>tarupam</code>, and <code>taubetmo</code>, using the same directory structuring system described above.</p>
 
 <p>If you want to perform one-way synchronization, of the above, like <code>rsync</code>, run:</p>
 
-<pre><code>$ usync --one-way --prefer-local /pub/yot/ninam/ ~/file.text ~reyn/draft.blend tarupam,taubetmo</code></pre>
+<div class="brush: console">
+ <table class="sourcetable">
+  <tbody>
+   <tr>
+    <td class="linenos">
+     <div class="linenodiv">
+      <pre>1</pre></div></td>
+    <td class="code">
+     <div class="source">
+      <pre><span class="gp">$</span> usync --one-way --prefer-local /pub/yot/ninam/ ~/file.text ~reyn/draft.blend tarupam,taubetmo
+</pre></div>
+</td></tr></tbody></table>
+</div>
 
 <p>For more usage information, run:</p>
 
-<pre><code>$ usync --help</code></pre>
+<div class="brush: console">
+ <table class="sourcetable">
+  <tbody>
+   <tr>
+    <td class="linenos">
+     <div class="linenodiv">
+      <pre>1</pre></div></td>
+    <td class="code">
+     <div class="source">
+      <pre><span class="gp">$</span> usync --help
+</pre></div>
+</td></tr></tbody></table>
+</div>
 
 <h1 id="caveats">Caveats</h1>
 
@@ -166,13 +216,13 @@
     </script>
     <a href="https://twitter.com/share"
        class="twitter-share-button"
-       data-url="http://rmm.meta.ph/blog/2013/05/21/an-introduction-to-usync/"
+       data-url="http://ebzzry.github.io/blog/2013/05/21/an-introduction-to-usync/"
        data-dnt="true">
       "Tweet"</a>
     <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
-    <g:plusone size="medium" href="http://rmm.meta.ph/blog/2013/05/21/an-introduction-to-usync/"></g:plusone>
+    <g:plusone size="medium" href="http://ebzzry.github.io/blog/2013/05/21/an-introduction-to-usync/"></g:plusone>
     <script type="text/javascript">
-      var disqus_shortname = 'ebzzry';
+      var disqus_shortname = 'ebzzrygithubio';
       (function() {
           var dsq = document.createElement('script');
           dsq.type = 'text/javascript';

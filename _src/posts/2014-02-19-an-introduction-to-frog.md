@@ -53,7 +53,7 @@ In the succeeding sections, let's presume that your username is
 To install Frog, we need to install Racket, first. Chances are, your package
 manager already has it. To install Racket on Debian, run:
 
-```
+```console
 $ sudo apt-get install racket
 ```
 
@@ -64,14 +64,14 @@ follow the instructions from there.
 
 Next, we need to install Frog.
 
-```
+```console
 $ raco pkg install frog
 ```
 
 After which, you'll get the `raco frog` command. Let's display its help
 options:
 
-```
+```console
 $ raco frog -h
 ```
 
@@ -80,21 +80,21 @@ $ raco frog -h
 Sweet. Now that we have Frog installed, let's get rolling. To create your first
 Frog-powered website, we'll create a project directory first:
 
-```
+```console
 $ mkdir blog
 $ cd blog
 ```
 
 We'll then fire the spark plug, to initialize the site repository:
 
-```
+```console
 $ raco frog --init
 ```
 
 You'll see a message saying that your website is ready. Let's follow the
 suggested command:
 
-```
+```console
 $ raco frog -bp
 ```
 
@@ -110,7 +110,7 @@ back to the terminal, and kill that process by hitting `C-c`.
 # Creating New Posts
 Creating a new article from scratch is another easy task:
 
-```
+```console
 $ raco frog -n "New Blog Post."
 ```
 
@@ -124,7 +124,7 @@ command above, the absolute path would be similar to:
 
 Let's edit that file, and see how it looks like:
 
-```
+```console
 $ emacs _src/posts/2014-02-21-new-blog-post.md
 ```
 
@@ -174,7 +174,7 @@ amet orci. Aenean dignissim pellentesque felis.
 
 Then, run the build command, again:
 
-```
+```console
 $ raco frog -bp
 ```
 
@@ -182,13 +182,13 @@ We now have two posts, as displayed in the index. To remove the auto-generated
 initial post, that was created by the command `raco frog --init`, earlier,
 run:
 
-```
+```console
 $ rm -f _src/posts/2012-01-01-a-2012-blog-post.md
 ```
 
 Then, rebuild the files:
 
-```
+```console
 $ raco frog -bp
 ```
 
@@ -215,7 +215,7 @@ Let's examine each of the files in the list, closer.
 This file is where top-level customizations are made. Open the file
 `.frogrc`, located in the current directory:
 
-```
+```console
 $ emacs .frogrc
 ```
 
@@ -236,7 +236,7 @@ This file contains the common content, across all types of pages, whether they
 are blog or non-blog posts. Open the file `_src/page-template.html`, located
 in the current directory:
 
-```
+```console
 $ emacs _src/page-template.html
 ```
 
@@ -260,7 +260,7 @@ Similar to `page-template.html`, but this file contains content that will
 only appear with blog posts. It is also Perhaps the easiest file to modify is
 `_src/post-template.html`. Let's open it:
 
-```
+```console
 $ emacs _src/post-template.html
 ```
 
@@ -279,7 +279,7 @@ theme. Select and download both `bootstrap.min.css` and
 `bootstrap.css`. After which, copy them over to the css subdirectory
 `css/`.
 
-```
+```console
 $ cp ~/Downloads/bootstrap.*.css css/
 ```
 
@@ -287,7 +287,7 @@ $ cp ~/Downloads/bootstrap.*.css css/
 # Miscellany
 When we created a new post earlier, we used the following command:
 
-```
+```console
 raco frog -n "New Blog Post"
 ```
 
@@ -295,7 +295,7 @@ That command, creates a Markdown source file. Frog, however, has another mode
 -- Scribble. This mode lets you use a Scribble source file, instead. To create
 one, we'll use the following command:
 
-```
+```console
 raco frog -N "New Blog Post"
 ```
 
@@ -309,8 +309,8 @@ absolute path would look like:
 
 Again, let's edit that file, and see how it looks like:
 
-```
-emacs _src/posts/2014-02-21-new-blog-post.scrbl
+```console
+$ emacs _src/posts/2014-02-21-new-blog-post.scrbl
 ```
 
 ```
@@ -357,7 +357,7 @@ manages; in this tutorial, it is the directory `/home/john/blog`, to your
 remote web server. If the current directory is `blog/`, and we want to
 send the files via rsync, the command would look like:
 
-```
+```console
 $ rsync -avz ./ remotehost:public_html
 ```
 
@@ -376,13 +376,13 @@ named `johndoe.github.io`.
 To publish your work to GitHub Pages, we first need to add that remote
 repository:
 
-```
+```console
 $ git remote add origin git@github.com:johndoe/johndoe.github.io.git
 ```
 
 Then we push the commits:
 
-```
+```console
 $ git push origin master
 ```
 
