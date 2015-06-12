@@ -387,23 +387,7 @@
 
 &lt;h2 id="addition"&gt;Addition&lt;/h2&gt;
 
-&lt;p&gt;What if we wanted to perform &lt;strong&gt;2+3&lt;/strong&gt;? Fortunately, the successor function will do that for us. We express that as &lt;strong&gt;2S3&lt;/strong&gt;, where we replace &lt;strong&gt;+&lt;/strong&gt; as the infix operator.&lt;/p&gt;
-
-&lt;div class="brush: scheme"&gt;
- &lt;table class="sourcetable"&gt;
-  &lt;tbody&gt;
-   &lt;tr&gt;
-    &lt;td class="linenos"&gt;
-     &lt;div class="linenodiv"&gt;
-      &lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
-    &lt;td class="code"&gt;
-     &lt;div class="source"&gt;
-      &lt;pre&gt;&lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="nv"&gt;+3&lt;/span&gt; &lt;span class="err"&gt;≡&lt;/span&gt; &lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="nv"&gt;S3&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Stepping through it, yields:&lt;/p&gt;
+&lt;p&gt;What if we wanted to perform &lt;strong&gt;2+3&lt;/strong&gt;? Fortunately, the successor function will do that for us. We express that as &lt;strong&gt;2S3&lt;/strong&gt;, where we replace &lt;strong&gt;+&lt;/strong&gt; as the infix operator. The addition function is defined as:&lt;/p&gt;
 
 &lt;div class="brush: scheme"&gt;
  &lt;table class="sourcetable"&gt;
@@ -415,14 +399,40 @@
 2
 3
 4
-5
-6
-7
-8
-9&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+5&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
     &lt;td class="code"&gt;
      &lt;div class="source"&gt;
-      &lt;pre&gt;&lt;span class="err"&gt;≡&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="err"&gt;λ&lt;/span&gt;&lt;span class="nv"&gt;sz&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="nv"&gt;s&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;sz&lt;/span&gt;&lt;span class="p"&gt;))(&lt;/span&gt;&lt;span class="err"&gt;λ&lt;/span&gt;&lt;span class="nv"&gt;xyz&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="nv"&gt;y&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;xyz&lt;/span&gt;&lt;span class="p"&gt;))(&lt;/span&gt;&lt;span class="err"&gt;λ&lt;/span&gt;&lt;span class="nv"&gt;uv&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="nv"&gt;u&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;u&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;uv&lt;/span&gt;&lt;span class="p"&gt;)))&lt;/span&gt;
+      &lt;pre&gt;&lt;span class="nv"&gt;Name:&lt;/span&gt; &lt;span class="nv"&gt;A&lt;/span&gt;
+&lt;span class="nv"&gt;Profile:&lt;/span&gt; &lt;span class="nv"&gt;S&lt;/span&gt; &lt;span class="err"&gt;≡&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="err"&gt;λ&lt;/span&gt;&lt;span class="nv"&gt;xyz&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="nv"&gt;y&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;xyz&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+&lt;span class="nv"&gt;Inputs:&lt;/span&gt; &lt;span class="nv"&gt;x,&lt;/span&gt; &lt;span class="nv"&gt;y&lt;/span&gt;
+&lt;span class="nv"&gt;Outputs:&lt;/span&gt; &lt;span class="nv"&gt;c&lt;/span&gt;
+&lt;span class="nv"&gt;Usage:&lt;/span&gt; &lt;span class="nv"&gt;xAy&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Let&amp;rsquo;s test it out:&lt;/p&gt;
+
+&lt;div class="brush: scheme"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt; 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="nv"&gt;+3&lt;/span&gt; &lt;span class="err"&gt;≡&lt;/span&gt; &lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="nv"&gt;A3&lt;/span&gt;
+&lt;span class="err"&gt;≡&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="err"&gt;λ&lt;/span&gt;&lt;span class="nv"&gt;sz&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="nv"&gt;s&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;sz&lt;/span&gt;&lt;span class="p"&gt;))(&lt;/span&gt;&lt;span class="err"&gt;λ&lt;/span&gt;&lt;span class="nv"&gt;xyz&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="nv"&gt;y&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;xyz&lt;/span&gt;&lt;span class="p"&gt;))(&lt;/span&gt;&lt;span class="err"&gt;λ&lt;/span&gt;&lt;span class="nv"&gt;uv&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="nv"&gt;u&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;u&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;uv&lt;/span&gt;&lt;span class="p"&gt;)))&lt;/span&gt;
 &lt;span class="nv"&gt;=&lt;/span&gt; &lt;span class="nv"&gt;SS3&lt;/span&gt;
 &lt;span class="err"&gt;≡&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="err"&gt;λ&lt;/span&gt;&lt;span class="nv"&gt;xyz&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="nv"&gt;y&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;xyz&lt;/span&gt;&lt;span class="p"&gt;))((&lt;/span&gt;&lt;span class="err"&gt;λ&lt;/span&gt;&lt;span class="nv"&gt;xyz&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="nv"&gt;y&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;xyz&lt;/span&gt;&lt;span class="p"&gt;))(&lt;/span&gt;&lt;span class="err"&gt;λ&lt;/span&gt;&lt;span class="nv"&gt;uv&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="nv"&gt;u&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;u&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;uv&lt;/span&gt;&lt;span class="p"&gt;))))&lt;/span&gt;
 &lt;span class="nv"&gt;=&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="err"&gt;λ&lt;/span&gt;&lt;span class="nv"&gt;xyz&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="nv"&gt;y&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;xyz&lt;/span&gt;&lt;span class="p"&gt;))(&lt;/span&gt;&lt;span class="err"&gt;λ&lt;/span&gt;&lt;span class="nv"&gt;yz&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="nv"&gt;y&lt;/span&gt;&lt;span class="p"&gt;((&lt;/span&gt;&lt;span class="err"&gt;λ&lt;/span&gt;&lt;span class="nv"&gt;uv&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="nv"&gt;u&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;u&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;uv&lt;/span&gt;&lt;span class="p"&gt;)))&lt;/span&gt;&lt;span class="nv"&gt;yz&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
@@ -439,6 +449,7 @@
 
 &lt;blockquote&gt;
  &lt;ol&gt;
+  &lt;li&gt;State the problem.&lt;/li&gt;
   &lt;li&gt;Spell out the equivalent functional notations for &lt;strong&gt;2&lt;/strong&gt;, &lt;strong&gt;S&lt;/strong&gt;,  and &lt;strong&gt;3&lt;/strong&gt;.&lt;/li&gt;
   &lt;li&gt;Reducing it gives us &lt;strong&gt;SS3&lt;/strong&gt;&lt;/li&gt;
   &lt;li&gt;The full version of &lt;strong&gt;SS3&lt;/strong&gt;, which corresponds with &lt;strong&gt;2S3&lt;/strong&gt; or  two &lt;strong&gt;S&lt;/strong&gt; and a &lt;strong&gt;3&lt;/strong&gt;.&lt;/li&gt;
@@ -450,7 +461,7 @@
 
 &lt;h2 id="multiplication"&gt;Multiplication&lt;/h2&gt;
 
-&lt;p&gt;The magic incantation to multiply two numbers is:&lt;/p&gt;
+&lt;p&gt;The multiplication function is defined as:&lt;/p&gt;
 
 &lt;div class="brush: scheme"&gt;
  &lt;table class="sourcetable"&gt;
@@ -458,10 +469,18 @@
    &lt;tr&gt;
     &lt;td class="linenos"&gt;
      &lt;div class="linenodiv"&gt;
-      &lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+      &lt;pre&gt;1
+2
+3
+4
+5&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
     &lt;td class="code"&gt;
      &lt;div class="source"&gt;
-      &lt;pre&gt;&lt;span class="nv"&gt;M&lt;/span&gt; &lt;span class="err"&gt;≡&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="err"&gt;λ&lt;/span&gt;&lt;span class="nv"&gt;xyz&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="nv"&gt;x&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;yz&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+      &lt;pre&gt;&lt;span class="nv"&gt;Name:&lt;/span&gt; &lt;span class="nv"&gt;M&lt;/span&gt;
+&lt;span class="nv"&gt;Profile:&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="err"&gt;λ&lt;/span&gt;&lt;span class="nv"&gt;xyz&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="nv"&gt;x&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;yz&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+&lt;span class="nv"&gt;Inputs:&lt;/span&gt; &lt;span class="nv"&gt;a,&lt;/span&gt; &lt;span class="nv"&gt;b&lt;/span&gt;
+&lt;span class="nv"&gt;Outputs:&lt;/span&gt; &lt;span class="nv"&gt;c&lt;/span&gt;
+&lt;span class="nv"&gt;Usage:&lt;/span&gt; &lt;span class="nv"&gt;Mab&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
 &lt;/div&gt;
@@ -608,7 +627,23 @@
 &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
 &lt;/div&gt;
 
-&lt;p&gt;As &lt;a href="http://palmstroem.blogspot.com/2012/05/lambda-calculus-for-absolute-dummies.html"&gt;Joscha Bach&lt;/a&gt; has stated: x = P(y) ↔ y = S(x), i.e. &lt;strong&gt;x&lt;/strong&gt; is the predecessor of &lt;strong&gt;y&lt;/strong&gt;, if and only if, &lt;strong&gt;y&lt;/strong&gt; is the successor of &lt;strong&gt;x&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Therefore,&lt;/p&gt;
+
+&lt;div class="brush: scheme"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="nv"&gt;x&lt;/span&gt; &lt;span class="nv"&gt;=&lt;/span&gt; &lt;span class="nv"&gt;Py&lt;/span&gt; &lt;span class="nv"&gt;iff&lt;/span&gt; &lt;span class="nv"&gt;y&lt;/span&gt; &lt;span class="nv"&gt;=&lt;/span&gt; &lt;span class="nv"&gt;Sx&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;That is, &lt;strong&gt;x&lt;/strong&gt; is the predecessor of &lt;strong&gt;y&lt;/strong&gt;, if and only if, &lt;strong&gt;y&lt;/strong&gt; is the successor of &lt;strong&gt;x&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;So, to determine the predecessor of a number &lt;strong&gt;x&lt;/strong&gt;, we create a pair like above, then select the second element.&lt;/p&gt;
 
@@ -673,13 +708,15 @@
       &lt;pre&gt;1
 2
 3
-4&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+4
+5&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
     &lt;td class="code"&gt;
      &lt;div class="source"&gt;
       &lt;pre&gt;&lt;span class="nv"&gt;Name:&lt;/span&gt; &lt;span class="nv"&gt;Q&lt;/span&gt;
-&lt;span class="nv"&gt;Input:&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;a,&lt;/span&gt; &lt;span class="nv"&gt;b&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-&lt;span class="nv"&gt;Output:&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;S&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;a&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="nv"&gt;b&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;span class="nv"&gt;Profile:&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="err"&gt;λ&lt;/span&gt;&lt;span class="nv"&gt;pz&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="nv"&gt;z&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;S&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;pT&lt;/span&gt;&lt;span class="p"&gt;))(&lt;/span&gt;&lt;span class="nf"&gt;pT&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+&lt;span class="nv"&gt;Inputs:&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;a,&lt;/span&gt; &lt;span class="nv"&gt;b&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="nv"&gt;Outputs:&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;S&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;a&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="nv"&gt;b&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="nv"&gt;Usage:&lt;/span&gt; &lt;span class="nv"&gt;Q&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;a,b&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
 &lt;/div&gt;
@@ -719,13 +756,15 @@
       &lt;pre&gt;1
 2
 3
-4&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+4
+5&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
     &lt;td class="code"&gt;
      &lt;div class="source"&gt;
       &lt;pre&gt;&lt;span class="nv"&gt;Name:&lt;/span&gt; &lt;span class="nv"&gt;P&lt;/span&gt;
-&lt;span class="nv"&gt;Input:&lt;/span&gt; &lt;span class="nv"&gt;N,&lt;/span&gt; &lt;span class="nv"&gt;where&lt;/span&gt; &lt;span class="nv"&gt;N&lt;/span&gt; &lt;span class="nv"&gt;is&lt;/span&gt; &lt;span class="nv"&gt;a&lt;/span&gt; &lt;span class="nv"&gt;natural&lt;/span&gt; &lt;span class="nv"&gt;number&lt;/span&gt;
-&lt;span class="nv"&gt;Output:&lt;/span&gt; &lt;span class="nv"&gt;N-1&lt;/span&gt;
 &lt;span class="nv"&gt;Profile:&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="err"&gt;λ&lt;/span&gt;&lt;span class="nv"&gt;n&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="nv"&gt;nQ&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="err"&gt;λ&lt;/span&gt;&lt;span class="nv"&gt;z&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="nv"&gt;z00&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;&lt;span class="nv"&gt;F&lt;/span&gt;
+&lt;span class="nv"&gt;Inputs:&lt;/span&gt; &lt;span class="nv"&gt;N,&lt;/span&gt; &lt;span class="nv"&gt;where&lt;/span&gt; &lt;span class="nv"&gt;N&lt;/span&gt; &lt;span class="nv"&gt;is&lt;/span&gt; &lt;span class="nv"&gt;a&lt;/span&gt; &lt;span class="nv"&gt;natural&lt;/span&gt; &lt;span class="nv"&gt;number&lt;/span&gt;
+&lt;span class="nv"&gt;Outputs:&lt;/span&gt; &lt;span class="nv"&gt;N-1&lt;/span&gt;
+&lt;span class="nv"&gt;Usage:&lt;/span&gt; &lt;span class="nv"&gt;PN&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
 &lt;/div&gt;
