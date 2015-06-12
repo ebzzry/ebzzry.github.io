@@ -15,14 +15,14 @@
    <description>&lt;html&gt;
 &lt;p&gt;&amp;ldquo;You do not really understand something unless you can explain it to your grandmother.&amp;rdquo; &amp;mdash; Albert Einstein&lt;/p&gt;
 
-&lt;p&gt;This post is my attempt to do just that, only that the grandmother here is myself. I have been wanting to write this post for a long time, but alas, no can do. I also firmly believe that unless I try to explain something, will I really understand it. This post takes a laid-back approach, and avoids very technical topics, unless warranted.&lt;/p&gt;
+&lt;p&gt;This post is my attempt to do just that, only that the grandmother here is myself. I firmly believe that unless I try to explain something, will I really understand it. This post takes a very laid-back approach, and avoids very technical topics, unless warranted.&lt;/p&gt;
 &lt;!-- more--&gt;
 
 &lt;h1 id="introduction"&gt;Introduction&lt;/h1&gt;
 
-&lt;h2 id="what-the-eff-is-it"&gt;What the eff is it?&lt;/h2&gt;
+&lt;h2 id="what-is-it"&gt;What is it?&lt;/h2&gt;
 
-&lt;p&gt;Lambda calculus is a minimal system for expressing computation that conforms to universal models of computation, hence making it a universal model of computation. In other words, it can be labeled as one of simplest programming languages, only that it looks and behaves differently from the ones we contemporarily know. Lambda calculus also forms as the basis for the popular functional programming languages in current use now.&lt;/p&gt;
+&lt;p&gt;Lambda calculus is a minimal system for expressing computation that conforms to universal models of computation, hence making it a universal model of computation. In other words, it can be called as one of simplest programming languages, only that it looks and behaves differently from the ones we contemporarily know. Lambda calculus also forms as the basis for the popular functional programming languages in current use now.&lt;/p&gt;
 
 &lt;h2 id="do-i-need-to-learn-it"&gt;Do I need to learn it?&lt;/h2&gt;
 
@@ -134,9 +134,7 @@
 
 &lt;p&gt;To use a function, we must apply it to something. The bound variables are substituted with what they&amp;rsquo;re applied to &amp;mdash; a process called β-reduction.&lt;/p&gt;
 
-&lt;p&gt;Let&amp;rsquo;s look at a step-by-step process in applying a function.&lt;/p&gt;
-
-&lt;p&gt;1- Apply &lt;strong&gt;(λx.x)&lt;/strong&gt; to &lt;strong&gt;y&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;For example:&lt;/p&gt;
 
 &lt;div class="brush: scheme"&gt;
  &lt;table class="sourcetable"&gt;
@@ -144,31 +142,23 @@
    &lt;tr&gt;
     &lt;td class="linenos"&gt;
      &lt;div class="linenodiv"&gt;
-      &lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+      &lt;pre&gt;1
+2&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
     &lt;td class="code"&gt;
      &lt;div class="source"&gt;
       &lt;pre&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="err"&gt;λ&lt;/span&gt;&lt;span class="nv"&gt;x&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="nv"&gt;x&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="nv"&gt;y&lt;/span&gt;
+&lt;span class="nv"&gt;y&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
 &lt;/div&gt;
 
-&lt;p&gt;2- Consume the arguments, then substitute all instances &lt;strong&gt;x&lt;/strong&gt; in the body:&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s break it down:&lt;/p&gt;
 
-&lt;div class="brush: scheme"&gt;
- &lt;table class="sourcetable"&gt;
-  &lt;tbody&gt;
-   &lt;tr&gt;
-    &lt;td class="linenos"&gt;
-     &lt;div class="linenodiv"&gt;
-      &lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
-    &lt;td class="code"&gt;
-     &lt;div class="source"&gt;
-      &lt;pre&gt;&lt;span class="nv"&gt;y&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
+&lt;ol&gt;
+ &lt;li&gt;Apply &lt;strong&gt;(λx.x)&lt;/strong&gt; to &lt;strong&gt;y&lt;/strong&gt;:&lt;/li&gt;
+ &lt;li&gt;Consume the arguments, then substitute all instances &lt;strong&gt;x&lt;/strong&gt; in the  body, with &lt;strong&gt;y&lt;/strong&gt;.&lt;/li&gt;&lt;/ol&gt;
 
-&lt;p&gt;&amp;ldquo;Wait, it merely returned the argument y, you may say.&amp;rdquo; That is true. The function &lt;strong&gt;(λx.x)&lt;/strong&gt; is the identity function &amp;mdash; it is a single-parameter function that returns whatever is was applied to.&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;Wait, it merely returned the argument y.&amp;rdquo; you may say. That is true. The function &lt;strong&gt;(λx.x)&lt;/strong&gt; is the identity function &amp;mdash; it is a single-parameter function that returns whatever is was applied to.&lt;/p&gt;
 
 &lt;p&gt;Functions are not limited to be applied to symbols. They can also be applied to other functions:&lt;/p&gt;
 
@@ -473,7 +463,9 @@
 &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
 &lt;/div&gt;
 
-&lt;p&gt;Unlike with addition which uses infix syntax, multiplying two numbers follow a prefix syntax. So, to multiply &lt;strong&gt;2&lt;/strong&gt; and &lt;strong&gt;3&lt;/strong&gt;, we say &lt;strong&gt;M23&lt;/strong&gt;. Let&amp;rsquo;s test that out:&lt;/p&gt;
+&lt;p&gt;Unlike with addition which uses infix syntax, multiplying two numbers follow a prefix syntax. So, to multiply &lt;strong&gt;2&lt;/strong&gt; and &lt;strong&gt;3&lt;/strong&gt;, we say &lt;strong&gt;M23&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Let&amp;rsquo;s test that out:&lt;/p&gt;
 
 &lt;div class="brush: scheme"&gt;
  &lt;table class="sourcetable"&gt;
@@ -649,7 +641,7 @@
 &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
 &lt;/div&gt;
 
-&lt;p&gt;To select the first and second elements of a pair, we use &lt;strong&gt;T&lt;/strong&gt; and &lt;strong&gt;F&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;To select the first and second elements of a pair, we use &lt;strong&gt;T&lt;/strong&gt; and* &lt;em&gt;F&lt;/em&gt;*:&lt;/p&gt;
 
 &lt;div class="brush: scheme"&gt;
  &lt;table class="sourcetable"&gt;
@@ -661,8 +653,8 @@
 2&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
     &lt;td class="code"&gt;
      &lt;div class="source"&gt;
-      &lt;pre&gt;&lt;span class="nv"&gt;First&lt;/span&gt; &lt;span class="err"&gt;≡&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="err"&gt;λ&lt;/span&gt;&lt;span class="nv"&gt;z&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="nv"&gt;zab&lt;/span&gt;&lt;span class="p"&gt;)(&lt;/span&gt;&lt;span class="err"&gt;λ&lt;/span&gt;&lt;span class="nv"&gt;xy&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="nv"&gt;x&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="err"&gt;≡&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="err"&gt;λ&lt;/span&gt;&lt;span class="nv"&gt;z&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="nv"&gt;zab&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="nv"&gt;T&lt;/span&gt; &lt;span class="nv"&gt;=&lt;/span&gt; &lt;span class="nv"&gt;Tab&lt;/span&gt; &lt;span class="nv"&gt;=&lt;/span&gt; &lt;span class="nv"&gt;a&lt;/span&gt;
-&lt;span class="nv"&gt;Second&lt;/span&gt; &lt;span class="err"&gt;≡&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="err"&gt;λ&lt;/span&gt;&lt;span class="nv"&gt;z&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="nv"&gt;zab&lt;/span&gt;&lt;span class="p"&gt;)(&lt;/span&gt;&lt;span class="err"&gt;λ&lt;/span&gt;&lt;span class="nv"&gt;xy&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="nv"&gt;y&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="err"&gt;≡&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="err"&gt;λ&lt;/span&gt;&lt;span class="nv"&gt;z&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="nv"&gt;zab&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="nv"&gt;F&lt;/span&gt; &lt;span class="nv"&gt;=&lt;/span&gt; &lt;span class="nv"&gt;Fab&lt;/span&gt; &lt;span class="nv"&gt;=&lt;/span&gt; &lt;span class="nv"&gt;b&lt;/span&gt;
+      &lt;pre&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="err"&gt;λ&lt;/span&gt;&lt;span class="nv"&gt;z&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="nv"&gt;zab&lt;/span&gt;&lt;span class="p"&gt;)(&lt;/span&gt;&lt;span class="err"&gt;λ&lt;/span&gt;&lt;span class="nv"&gt;xy&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="nv"&gt;x&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="err"&gt;≡&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="err"&gt;λ&lt;/span&gt;&lt;span class="nv"&gt;z&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="nv"&gt;zab&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="nv"&gt;T&lt;/span&gt; &lt;span class="nv"&gt;=&lt;/span&gt; &lt;span class="nv"&gt;Tab&lt;/span&gt; &lt;span class="nv"&gt;=&lt;/span&gt; &lt;span class="nv"&gt;a&lt;/span&gt;
+&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="err"&gt;λ&lt;/span&gt;&lt;span class="nv"&gt;z&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="nv"&gt;zab&lt;/span&gt;&lt;span class="p"&gt;)(&lt;/span&gt;&lt;span class="err"&gt;λ&lt;/span&gt;&lt;span class="nv"&gt;xy&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="nv"&gt;y&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="err"&gt;≡&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="err"&gt;λ&lt;/span&gt;&lt;span class="nv"&gt;z&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="nv"&gt;zab&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="nv"&gt;F&lt;/span&gt; &lt;span class="nv"&gt;=&lt;/span&gt; &lt;span class="nv"&gt;Fab&lt;/span&gt; &lt;span class="nv"&gt;=&lt;/span&gt; &lt;span class="nv"&gt;b&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
 &lt;/div&gt;
@@ -681,7 +673,7 @@
 4&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
     &lt;td class="code"&gt;
      &lt;div class="source"&gt;
-      &lt;pre&gt;&lt;span class="nv"&gt;Name:&lt;/span&gt; &lt;span class="nv"&gt;Q&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;forgive&lt;/span&gt; &lt;span class="nv"&gt;me&lt;/span&gt; &lt;span class="nv"&gt;for&lt;/span&gt; &lt;span class="nv"&gt;my&lt;/span&gt; &lt;span class="nv"&gt;lack&lt;/span&gt; &lt;span class="nv"&gt;of&lt;/span&gt; &lt;span class="nv"&gt;imagination&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+      &lt;pre&gt;&lt;span class="nv"&gt;Name:&lt;/span&gt; &lt;span class="nv"&gt;Q&lt;/span&gt;
 &lt;span class="nv"&gt;Input:&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;a,&lt;/span&gt; &lt;span class="nv"&gt;b&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;span class="nv"&gt;Output:&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;S&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;a&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="nv"&gt;b&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;span class="nv"&gt;Profile:&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="err"&gt;λ&lt;/span&gt;&lt;span class="nv"&gt;pz&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="nv"&gt;z&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;S&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;pT&lt;/span&gt;&lt;span class="p"&gt;))(&lt;/span&gt;&lt;span class="nf"&gt;pT&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
