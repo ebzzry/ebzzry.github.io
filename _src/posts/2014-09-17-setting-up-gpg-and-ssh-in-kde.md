@@ -1,4 +1,4 @@
-    Title: How to Setup GPG and SSH in KDE
+    Title: Setting up GPG and SSH in KDE
     Date: 2014-09-17T19:53:15
     Tags: gpg, ssh, sysadmin
 
@@ -6,24 +6,24 @@ When both GPG and SSH are integrated with KDE, it makes inter-operating
 with those systems very easy. It will make the difference between a
 loose-fitting glove, and one that fits snugly.
 
+<!-- more -->
+
 This quick tutorial will go over the steps on how to go about it. To
 accommodate everyone, I'll still go about how to install and configure
 all the necessary components.
-
-<!-- more -->
 
 # Prerequisites
 
 Chances are, you already have both GPG and SSH installed on your
 system. But if you don't have them, you can install them with:
 
-```
+```console
 $ sudo apt-get install gnupg2 ssh
 ```
 
 Another important software that we need to install is pinentry:
 
-```
+```console
 $ sudo apt-get install pinentry-qt4
 ```
 
@@ -37,7 +37,7 @@ them. The first thing that we need to do (although in reality the
 files that we are going to open in this section can be done in any
 order that you wish), is create your SSH keys:
 
-```
+```console
 $ ssh-keygen -t rsa
 ```
 
@@ -55,7 +55,7 @@ what they are already. Am I right?
 
 At this point, copy your SSH keys to the servers that you manage:
 
-```
+```console
 $ ssh-copy-id user@host
 ```
 
@@ -64,7 +64,7 @@ $ ssh-copy-id user@host
 
 In case you forgot how to your keys, the command is:
 
-```
+```console
 $ gpg2 --gen-key
 ```
 
@@ -76,7 +76,7 @@ wondering what it is, without reading the earlier link.
 
 Next thing to do is edit the main GPG config file:
 
-```
+```console
 $ emacs ~/.gnupg/gpg.conf
 ```
 
@@ -86,7 +86,7 @@ end.
 
 We need to edit the agent file next:
 
-```
+```console
 $ emacs ~/.gnupg/gpg-agent.conf
 ```
 
@@ -102,7 +102,7 @@ pinentry-program /usr/bin/pinentry-qt4
 Those are *my* preferred values. If you want to change them, look at
 the manpage first:
 
-```
+```console
 $ man gpg-agent
 ```
 
@@ -114,14 +114,14 @@ We now need to link the GPG agent with KDE. We're going to create a
 startup. We'll also tell the GPG agent to enable SSH support (in the
 old days, the SSH agent has to be ran separately from GPG).
 
-```
+```console
 $ mkdir ~/.kde/env
 $ emacs ~/.kde/env/01_gpg-agent.sh
 ```
 
 Then put in the following lines:
 
-```
+```sh
 #!/bin/sh
 
 killall gpg-agent
@@ -130,20 +130,20 @@ eval `gpg-agent --enable-ssh-support --daemon`
 
 Make it executable:
 
-```
+```console
 $ chmod +x ~/.kde/env/01_gpg-agent.sh
 ```
 
 Finally, we'll create the *shutdown* script for the GPG agent:
 
-```
+```console
 $ mkdir ~/.kde/shutdown
 $ emacs ~/.kde/shutdown/01_gpg-agent.sh
 ```
 
 Then put in the following lines:
 
-```
+```sh
 #!/bin/sh
 
 killall gpg-agent
@@ -151,7 +151,7 @@ killall gpg-agent
 
 Also make it executable:
 
-```
+```console
 $ chmod +x ~/.kde/shutdown/01_gpg-agent.sh
 ```
 
@@ -166,7 +166,7 @@ Press `Ctrl+Alt+Del` to logout, then login with your account.
 
 Open a Konsole window, then connect to your favorite SSH server:
 
-```
+```console
 $ ssh user@remotehost
 ```
 
@@ -177,7 +177,7 @@ not prompt you for the passphrase within this timeout period.
 
 A similar behavior will happen if you encrypt a file with GPG:
 
-```
+```console
 $ gpg2 -s -e -a -r john@remotehost file.dat
 ```
 

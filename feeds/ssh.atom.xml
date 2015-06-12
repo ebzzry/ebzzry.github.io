@@ -1,33 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?> 
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
  <title type="text">Live. Die. Repeat.: Posts tagged 'ssh'</title>
- <link rel="self" href="http://rmm.meta.ph/feeds/ssh.atom.xml" />
- <link href="http://rmm.meta.ph/tags/ssh.html" />
- <id>urn:http-rmm-meta-ph:-tags-ssh-html</id>
- <updated>2014-09-17T19:53:15Z</updated>
+ <link rel="self" href="http://ebzzry.github.io/feeds/ssh.atom.xml" />
+ <link href="http://ebzzry.github.io/tags/ssh.html" />
+ <id>urn:http-ebzzry-github-io:-tags-ssh-html</id>
+ <updated>2014-09-17T11:53:15Z</updated>
  <entry>
-  <title type="text">How to Setup GPG and SSH in KDE</title>
-  <link rel="alternate" href="http://rmm.meta.ph/blog/2014/09/17/how-to-setup-gpg-and-ssh-in-kde/?utm_source=ssh&amp;utm_medium=Atom" />
-  <id>urn:http-rmm-meta-ph:-blog-2014-09-17-how-to-setup-gpg-and-ssh-in-kde</id>
-  <published>2014-09-17T19:53:15Z</published>
-  <updated>2014-09-17T19:53:15Z</updated>
+  <title type="text">Setting up GPG and SSH in KDE</title>
+  <link rel="alternate" href="http://ebzzry.github.io/blog/2014/09/17/setting-up-gpg-and-ssh-in-kde/?utm_source=ssh&amp;utm_medium=Atom" />
+  <id>urn:http-ebzzry-github-io:-blog-2014-09-17-setting-up-gpg-and-ssh-in-kde</id>
+  <published>2014-09-17T11:53:15Z</published>
+  <updated>2014-09-17T11:53:15Z</updated>
   <author>
    <name>Rommel Martinez</name></author>
   <content type="html">&lt;html&gt;
 &lt;p&gt;When both GPG and SSH are integrated with KDE, it makes inter-operating with those systems very easy. It will make the difference between a loose-fitting glove, and one that fits snugly.&lt;/p&gt;
+&lt;!-- more--&gt;
 
 &lt;p&gt;This quick tutorial will go over the steps on how to go about it. To accommodate everyone, I&amp;rsquo;ll still go about how to install and configure all the necessary components.&lt;/p&gt;
-&lt;!-- more--&gt;
 
 &lt;h1 id="prerequisites"&gt;Prerequisites&lt;/h1&gt;
 
 &lt;p&gt;Chances are, you already have both GPG and SSH installed on your system. But if you don&amp;rsquo;t have them, you can install them with:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;$ sudo apt-get install gnupg2 ssh&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="brush: console"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; sudo apt-get install gnupg2 ssh
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;p&gt;Another important software that we need to install is pinentry:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;$ sudo apt-get install pinentry-qt4&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="brush: console"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; sudo apt-get install pinentry-qt4
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;p&gt;It&amp;rsquo;s the component that prompts the user for passphrases.&lt;/p&gt;
 
@@ -35,7 +59,19 @@
 
 &lt;p&gt;Now that we have the parts in front of us, it&amp;rsquo;s time to assemble them. The first thing that we need to do (although in reality the files that we are going to open in this section can be done in any order that you wish), is create your SSH keys:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;$ ssh-keygen -t rsa&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="brush: console"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; ssh-keygen -t rsa
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;p&gt;&lt;strong&gt;DO NOT&lt;/strong&gt; leave the passphrase empty. Shoot yourself first in the  head, if you really want to.&lt;/p&gt;
 
@@ -46,25 +82,73 @@
 
 &lt;p&gt;At this point, copy your SSH keys to the servers that you manage:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;$ ssh-copy-id user@host&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="brush: console"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; ssh-copy-id user@host
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;h1 id="configure-gpg"&gt;Configure GPG&lt;/h1&gt;
 
 &lt;p&gt;In case you forgot how to your keys, the command is:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;$ gpg2 --gen-key&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="brush: console"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; gpg2 --gen-key
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;p&gt;I should have this earlier, that if you want to create strong passphrases, use the &lt;a href="http://world.std.com/~reinhold/diceware.html"&gt;Diceware method&lt;/a&gt;. An &lt;a href="https://xkcd.com/936/"&gt;XKCD comic&lt;/a&gt; was written in case you&amp;rsquo;re wondering what it is, without reading the earlier link.&lt;/p&gt;
 
 &lt;p&gt;Next thing to do is edit the main GPG config file:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;$ emacs ~/.gnupg/gpg.conf&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="brush: console"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; emacs ~/.gnupg/gpg.conf
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;p&gt;Find the line that contains &lt;code&gt;use-agent&lt;/code&gt; and uncomment it, if it is commented. If that line does not exist just put &lt;code&gt;use agent&lt;/code&gt; at the end.&lt;/p&gt;
 
 &lt;p&gt;We need to edit the agent file next:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;$ emacs ~/.gnupg/gpg-agent.conf&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="brush: console"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; emacs ~/.gnupg/gpg-agent.conf
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;p&gt;Then put the following lines:&lt;/p&gt;
 
@@ -75,40 +159,131 @@ pinentry-program /usr/bin/pinentry-qt4&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Those are &lt;em&gt;my&lt;/em&gt; preferred values. If you want to change them, look at the manpage first:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;$ man gpg-agent&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="brush: console"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; man gpg-agent
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;h1 id="configure-kde"&gt;Configure KDE&lt;/h1&gt;
 
 &lt;p&gt;We now need to link the GPG agent with KDE. We&amp;rsquo;re going to create a &lt;em&gt;startup&lt;/em&gt; script for KDE that will invoke the GPG agent at startup. We&amp;rsquo;ll also tell the GPG agent to enable SSH support (in the old days, the SSH agent has to be ran separately from GPG).&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;$ mkdir ~/.kde/env
-$ emacs ~/.kde/env/01_gpg-agent.sh&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="brush: console"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1
+2&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; mkdir ~/.kde/env
+&lt;span class="gp"&gt;$&lt;/span&gt; emacs ~/.kde/env/01_gpg-agent.sh
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;p&gt;Then put in the following lines:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;#!/bin/sh
+&lt;div class="brush: sh"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1
+2
+3
+4&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="c"&gt;#!/bin/sh&lt;/span&gt;
 
 killall gpg-agent
-eval `gpg-agent --enable-ssh-support --daemon`&lt;/code&gt;&lt;/pre&gt;
+&lt;span class="nb"&gt;eval&lt;/span&gt; &lt;span class="sb"&gt;`&lt;/span&gt;gpg-agent --enable-ssh-support --daemon&lt;span class="sb"&gt;`&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;p&gt;Make it executable:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;$ chmod +x ~/.kde/env/01_gpg-agent.sh&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="brush: console"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; chmod +x ~/.kde/env/01_gpg-agent.sh
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;p&gt;Finally, we&amp;rsquo;ll create the &lt;em&gt;shutdown&lt;/em&gt; script for the GPG agent:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;$ mkdir ~/.kde/shutdown
-$ emacs ~/.kde/shutdown/01_gpg-agent.sh&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="brush: console"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1
+2&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; mkdir ~/.kde/shutdown
+&lt;span class="gp"&gt;$&lt;/span&gt; emacs ~/.kde/shutdown/01_gpg-agent.sh
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;p&gt;Then put in the following lines:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;#!/bin/sh
+&lt;div class="brush: sh"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1
+2
+3&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="c"&gt;#!/bin/sh&lt;/span&gt;
 
-killall gpg-agent&lt;/code&gt;&lt;/pre&gt;
+killall gpg-agent
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;p&gt;Also make it executable:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;$ chmod +x ~/.kde/shutdown/01_gpg-agent.sh&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="brush: console"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; chmod +x ~/.kde/shutdown/01_gpg-agent.sh
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;h1 id="verification"&gt;Verification&lt;/h1&gt;
 
@@ -118,13 +293,37 @@ killall gpg-agent&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Open a Konsole window, then connect to your favorite SSH server:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;$ ssh user@remotehost&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="brush: console"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; ssh user@remotehost
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;p&gt;A pinentry dialog box should appear prompting you for your passphrase. This passphrase will be cached according to your settings in &lt;code&gt;~/.gnupg/gpg-agent.conf&lt;/code&gt;. Subsequent SSH connection attempts will not prompt you for the passphrase within this timeout period.&lt;/p&gt;
 
 &lt;p&gt;A similar behavior will happen if you encrypt a file with GPG:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;$ gpg2 -s -e -a -r john@remotehost file.dat&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="brush: console"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; gpg2 -s -e -a -r john@remotehost file.dat
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;h1 id="conclusion"&gt;Conclusion&lt;/h1&gt;
 

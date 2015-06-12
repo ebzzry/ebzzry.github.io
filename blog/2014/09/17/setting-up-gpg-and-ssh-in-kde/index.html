@@ -3,13 +3,13 @@
   <head>
 
     <meta charset="utf-8">
-    <title>How to Setup GPG and SSH in KDE</title>
-    <meta name="description" content="When both GPG and SSH are integrated with KDE, it makes inter-operating with those systems very easy. It will make the difference between a loose-fitting glove, and one that fits snugly.  This quick tutorial will go over the steps on how to go about it. T...">
+    <title>Setting up GPG and SSH in KDE</title>
+    <meta name="description" content="When both GPG and SSH are integrated with KDE, it makes inter-operating with those systems very easy. It will make the difference between a loose-fitting glove, and one that fits snugly....">
     <meta name="author"      content="Rommel Martinez">
     <meta name="keywords"    content="gpg, ssh, sysadmin">
     <meta name="viewport"    content="width=device-width, initial-scale=1.0">
     <link rel="icon"      href="/favicon.ico">
-    <link rel="canonical" href="http://rmm.meta.ph/blog/2014/09/17/how-to-setup-gpg-and-ssh-in-kde/">
+    <link rel="canonical" href="http://ebzzry.github.io/blog/2014/09/17/setting-up-gpg-and-ssh-in-kde/">
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="/css/pygments.css">
@@ -65,6 +65,8 @@
 
 <li><a href="/tags/backups.html">backups</a></li>
 
+<li><a href="/tags/compsci.html">compsci</a></li>
+
 <li><a href="/tags/emacs.html">emacs</a></li>
 
 <li><a href="/tags/gpg.html">gpg</a></li>
@@ -106,26 +108,50 @@
 
           <article>
   <header>
-    <h1>How to Setup GPG and SSH in KDE</h1>
+    <h1>Setting up GPG and SSH in KDE</h1>
 
 <p class="date-and-tags">
  <time datetime="2014-09-17" pubdate="true">2014-09-17</time> :: <span class="tags"><a href="/tags/gpg.html">gpg</a>, <a href="/tags/ssh.html">ssh</a>, <a href="/tags/sysadmin.html">sysadmin</a></span></p>
   </header>
 
 <p>When both GPG and SSH are integrated with KDE, it makes inter-operating with those systems very easy. It will make the difference between a loose-fitting glove, and one that fits snugly.</p>
+<!-- more-->
 
 <p>This quick tutorial will go over the steps on how to go about it. To accommodate everyone, I&rsquo;ll still go about how to install and configure all the necessary components.</p>
-<!-- more-->
 
 <h1 id="prerequisites">Prerequisites</h1>
 
 <p>Chances are, you already have both GPG and SSH installed on your system. But if you don&rsquo;t have them, you can install them with:</p>
 
-<pre><code>$ sudo apt-get install gnupg2 ssh</code></pre>
+<div class="brush: console">
+ <table class="sourcetable">
+  <tbody>
+   <tr>
+    <td class="linenos">
+     <div class="linenodiv">
+      <pre>1</pre></div></td>
+    <td class="code">
+     <div class="source">
+      <pre><span class="gp">$</span> sudo apt-get install gnupg2 ssh
+</pre></div>
+</td></tr></tbody></table>
+</div>
 
 <p>Another important software that we need to install is pinentry:</p>
 
-<pre><code>$ sudo apt-get install pinentry-qt4</code></pre>
+<div class="brush: console">
+ <table class="sourcetable">
+  <tbody>
+   <tr>
+    <td class="linenos">
+     <div class="linenodiv">
+      <pre>1</pre></div></td>
+    <td class="code">
+     <div class="source">
+      <pre><span class="gp">$</span> sudo apt-get install pinentry-qt4
+</pre></div>
+</td></tr></tbody></table>
+</div>
 
 <p>It&rsquo;s the component that prompts the user for passphrases.</p>
 
@@ -133,7 +159,19 @@
 
 <p>Now that we have the parts in front of us, it&rsquo;s time to assemble them. The first thing that we need to do (although in reality the files that we are going to open in this section can be done in any order that you wish), is create your SSH keys:</p>
 
-<pre><code>$ ssh-keygen -t rsa</code></pre>
+<div class="brush: console">
+ <table class="sourcetable">
+  <tbody>
+   <tr>
+    <td class="linenos">
+     <div class="linenodiv">
+      <pre>1</pre></div></td>
+    <td class="code">
+     <div class="source">
+      <pre><span class="gp">$</span> ssh-keygen -t rsa
+</pre></div>
+</td></tr></tbody></table>
+</div>
 
 <p><strong>DO NOT</strong> leave the passphrase empty. Shoot yourself first in the  head, if you really want to.</p>
 
@@ -144,25 +182,73 @@
 
 <p>At this point, copy your SSH keys to the servers that you manage:</p>
 
-<pre><code>$ ssh-copy-id user@host</code></pre>
+<div class="brush: console">
+ <table class="sourcetable">
+  <tbody>
+   <tr>
+    <td class="linenos">
+     <div class="linenodiv">
+      <pre>1</pre></div></td>
+    <td class="code">
+     <div class="source">
+      <pre><span class="gp">$</span> ssh-copy-id user@host
+</pre></div>
+</td></tr></tbody></table>
+</div>
 
 <h1 id="configure-gpg">Configure GPG</h1>
 
 <p>In case you forgot how to your keys, the command is:</p>
 
-<pre><code>$ gpg2 --gen-key</code></pre>
+<div class="brush: console">
+ <table class="sourcetable">
+  <tbody>
+   <tr>
+    <td class="linenos">
+     <div class="linenodiv">
+      <pre>1</pre></div></td>
+    <td class="code">
+     <div class="source">
+      <pre><span class="gp">$</span> gpg2 --gen-key
+</pre></div>
+</td></tr></tbody></table>
+</div>
 
 <p>I should have this earlier, that if you want to create strong passphrases, use the <a href="http://world.std.com/~reinhold/diceware.html">Diceware method</a>. An <a href="https://xkcd.com/936/">XKCD comic</a> was written in case you&rsquo;re wondering what it is, without reading the earlier link.</p>
 
 <p>Next thing to do is edit the main GPG config file:</p>
 
-<pre><code>$ emacs ~/.gnupg/gpg.conf</code></pre>
+<div class="brush: console">
+ <table class="sourcetable">
+  <tbody>
+   <tr>
+    <td class="linenos">
+     <div class="linenodiv">
+      <pre>1</pre></div></td>
+    <td class="code">
+     <div class="source">
+      <pre><span class="gp">$</span> emacs ~/.gnupg/gpg.conf
+</pre></div>
+</td></tr></tbody></table>
+</div>
 
 <p>Find the line that contains <code>use-agent</code> and uncomment it, if it is commented. If that line does not exist just put <code>use agent</code> at the end.</p>
 
 <p>We need to edit the agent file next:</p>
 
-<pre><code>$ emacs ~/.gnupg/gpg-agent.conf</code></pre>
+<div class="brush: console">
+ <table class="sourcetable">
+  <tbody>
+   <tr>
+    <td class="linenos">
+     <div class="linenodiv">
+      <pre>1</pre></div></td>
+    <td class="code">
+     <div class="source">
+      <pre><span class="gp">$</span> emacs ~/.gnupg/gpg-agent.conf
+</pre></div>
+</td></tr></tbody></table>
+</div>
 
 <p>Then put the following lines:</p>
 
@@ -173,40 +259,131 @@ pinentry-program /usr/bin/pinentry-qt4</code></pre>
 
 <p>Those are <em>my</em> preferred values. If you want to change them, look at the manpage first:</p>
 
-<pre><code>$ man gpg-agent</code></pre>
+<div class="brush: console">
+ <table class="sourcetable">
+  <tbody>
+   <tr>
+    <td class="linenos">
+     <div class="linenodiv">
+      <pre>1</pre></div></td>
+    <td class="code">
+     <div class="source">
+      <pre><span class="gp">$</span> man gpg-agent
+</pre></div>
+</td></tr></tbody></table>
+</div>
 
 <h1 id="configure-kde">Configure KDE</h1>
 
 <p>We now need to link the GPG agent with KDE. We&rsquo;re going to create a <em>startup</em> script for KDE that will invoke the GPG agent at startup. We&rsquo;ll also tell the GPG agent to enable SSH support (in the old days, the SSH agent has to be ran separately from GPG).</p>
 
-<pre><code>$ mkdir ~/.kde/env
-$ emacs ~/.kde/env/01_gpg-agent.sh</code></pre>
+<div class="brush: console">
+ <table class="sourcetable">
+  <tbody>
+   <tr>
+    <td class="linenos">
+     <div class="linenodiv">
+      <pre>1
+2</pre></div></td>
+    <td class="code">
+     <div class="source">
+      <pre><span class="gp">$</span> mkdir ~/.kde/env
+<span class="gp">$</span> emacs ~/.kde/env/01_gpg-agent.sh
+</pre></div>
+</td></tr></tbody></table>
+</div>
 
 <p>Then put in the following lines:</p>
 
-<pre><code>#!/bin/sh
+<div class="brush: sh">
+ <table class="sourcetable">
+  <tbody>
+   <tr>
+    <td class="linenos">
+     <div class="linenodiv">
+      <pre>1
+2
+3
+4</pre></div></td>
+    <td class="code">
+     <div class="source">
+      <pre><span class="c">#!/bin/sh</span>
 
 killall gpg-agent
-eval `gpg-agent --enable-ssh-support --daemon`</code></pre>
+<span class="nb">eval</span> <span class="sb">`</span>gpg-agent --enable-ssh-support --daemon<span class="sb">`</span>
+</pre></div>
+</td></tr></tbody></table>
+</div>
 
 <p>Make it executable:</p>
 
-<pre><code>$ chmod +x ~/.kde/env/01_gpg-agent.sh</code></pre>
+<div class="brush: console">
+ <table class="sourcetable">
+  <tbody>
+   <tr>
+    <td class="linenos">
+     <div class="linenodiv">
+      <pre>1</pre></div></td>
+    <td class="code">
+     <div class="source">
+      <pre><span class="gp">$</span> chmod +x ~/.kde/env/01_gpg-agent.sh
+</pre></div>
+</td></tr></tbody></table>
+</div>
 
 <p>Finally, we&rsquo;ll create the <em>shutdown</em> script for the GPG agent:</p>
 
-<pre><code>$ mkdir ~/.kde/shutdown
-$ emacs ~/.kde/shutdown/01_gpg-agent.sh</code></pre>
+<div class="brush: console">
+ <table class="sourcetable">
+  <tbody>
+   <tr>
+    <td class="linenos">
+     <div class="linenodiv">
+      <pre>1
+2</pre></div></td>
+    <td class="code">
+     <div class="source">
+      <pre><span class="gp">$</span> mkdir ~/.kde/shutdown
+<span class="gp">$</span> emacs ~/.kde/shutdown/01_gpg-agent.sh
+</pre></div>
+</td></tr></tbody></table>
+</div>
 
 <p>Then put in the following lines:</p>
 
-<pre><code>#!/bin/sh
+<div class="brush: sh">
+ <table class="sourcetable">
+  <tbody>
+   <tr>
+    <td class="linenos">
+     <div class="linenodiv">
+      <pre>1
+2
+3</pre></div></td>
+    <td class="code">
+     <div class="source">
+      <pre><span class="c">#!/bin/sh</span>
 
-killall gpg-agent</code></pre>
+killall gpg-agent
+</pre></div>
+</td></tr></tbody></table>
+</div>
 
 <p>Also make it executable:</p>
 
-<pre><code>$ chmod +x ~/.kde/shutdown/01_gpg-agent.sh</code></pre>
+<div class="brush: console">
+ <table class="sourcetable">
+  <tbody>
+   <tr>
+    <td class="linenos">
+     <div class="linenodiv">
+      <pre>1</pre></div></td>
+    <td class="code">
+     <div class="source">
+      <pre><span class="gp">$</span> chmod +x ~/.kde/shutdown/01_gpg-agent.sh
+</pre></div>
+</td></tr></tbody></table>
+</div>
 
 <h1 id="verification">Verification</h1>
 
@@ -216,13 +393,37 @@ killall gpg-agent</code></pre>
 
 <p>Open a Konsole window, then connect to your favorite SSH server:</p>
 
-<pre><code>$ ssh user@remotehost</code></pre>
+<div class="brush: console">
+ <table class="sourcetable">
+  <tbody>
+   <tr>
+    <td class="linenos">
+     <div class="linenodiv">
+      <pre>1</pre></div></td>
+    <td class="code">
+     <div class="source">
+      <pre><span class="gp">$</span> ssh user@remotehost
+</pre></div>
+</td></tr></tbody></table>
+</div>
 
 <p>A pinentry dialog box should appear prompting you for your passphrase. This passphrase will be cached according to your settings in <code>~/.gnupg/gpg-agent.conf</code>. Subsequent SSH connection attempts will not prompt you for the passphrase within this timeout period.</p>
 
 <p>A similar behavior will happen if you encrypt a file with GPG:</p>
 
-<pre><code>$ gpg2 -s -e -a -r john@remotehost file.dat</code></pre>
+<div class="brush: console">
+ <table class="sourcetable">
+  <tbody>
+   <tr>
+    <td class="linenos">
+     <div class="linenodiv">
+      <pre>1</pre></div></td>
+    <td class="code">
+     <div class="source">
+      <pre><span class="gp">$</span> gpg2 -s -e -a -r john@remotehost file.dat
+</pre></div>
+</td></tr></tbody></table>
+</div>
 
 <h1 id="conclusion">Conclusion</h1>
 
@@ -241,13 +442,13 @@ killall gpg-agent</code></pre>
     </script>
     <a href="https://twitter.com/share"
        class="twitter-share-button"
-       data-url="http://rmm.meta.ph/blog/2014/09/17/how-to-setup-gpg-and-ssh-in-kde/"
+       data-url="http://ebzzry.github.io/blog/2014/09/17/setting-up-gpg-and-ssh-in-kde/"
        data-dnt="true">
       "Tweet"</a>
     <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
-    <g:plusone size="medium" href="http://rmm.meta.ph/blog/2014/09/17/how-to-setup-gpg-and-ssh-in-kde/"></g:plusone>
+    <g:plusone size="medium" href="http://ebzzry.github.io/blog/2014/09/17/setting-up-gpg-and-ssh-in-kde/"></g:plusone>
     <script type="text/javascript">
-      var disqus_shortname = 'ebzzry';
+      var disqus_shortname = 'ebzzrygithubio';
       (function() {
           var dsq = document.createElement('script');
           dsq.type = 'text/javascript';
@@ -258,7 +459,9 @@ killall gpg-agent</code></pre>
     </script>
     <div id="disqus_thread"></div>
     <ul class="pager">
-
+    <li class="previous">
+      <a href="/blog/2015/06/12/a-lambda-calculus-primer-part-1/">&larr; <em>A Lambda Calculus Primer (part 1)</em></a>
+    </li>
     <li class="next">
       <a href="/blog/2014/02/21/an-introduction-to-ugarit/"><em>An Introduction to Ugarit</em> &rarr;</a>
     </li>
