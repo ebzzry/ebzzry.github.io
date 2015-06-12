@@ -9,6 +9,7 @@ http://ebzzry.github.io/blog/2015/06/12/a-lambda-calculus-primer-part-1/
 http://ebzzry.github.io/blog/2013/05/29/an-introduction-to-livefrog/
 http://ebzzry.github.io/blog/2014/02/21/an-introduction-to-ugarit/
 http://ebzzry.github.io/blog/2014/02/19/an-introduction-to-frog/
+http://ebzzry.github.io/blog/2014/10/14/emacs-hacks-part-2/
 http://ebzzry.github.io/blog/2013/05/09/the-y-combinator-in-six-easy-steps/
 http://ebzzry.github.io/blog/2014/02/17/emacs-mail/
 http://ebzzry.github.io/links.html
