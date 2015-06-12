@@ -6,9 +6,8 @@
 your grandmother." -- Albert Einstein
 
 This post is my attempt to do just that, only that the grandmother
-here is myself. I have been wanting to write this post for a long
-time, but alas, no can do. I also firmly believe that unless I try to
-explain something, will I really understand it. This post takes a
+here is myself. I firmly believe that unless I try to explain
+something, will I really understand it. This post takes a very
 laid-back approach, and avoids very technical topics, unless
 warranted.
 
@@ -16,10 +15,10 @@ warranted.
 
 # Introduction
 
-## What the eff is it?
+## What is it?
 Lambda calculus is a minimal system for expressing computation that
 conforms to universal models of computation, hence making it a
-universal model of computation. In other words, it can be labeled as
+universal model of computation. In other words, it can be called as
 one of simplest programming languages, only that it looks and behaves
 differently from the ones we contemporarily know. Lambda calculus also
 forms as the basis for the popular functional programming languages in
@@ -126,21 +125,20 @@ To use a function, we must apply it to something. The bound variables
 are substituted with what they're applied to -- a process called
 β-reduction.
 
-Let's look at a step-by-step process in applying a function.
-
-1- Apply **(λx.x)** to **y**:
+For example:
 
 ```scheme
 (λx.x)y
-```
-
-2- Consume the arguments, then substitute all instances **x** in the body:
-
-```scheme
 y
 ```
 
-"Wait, it merely returned the argument y, you may say." That is
+Let's break it down:
+
+1. Apply **(λx.x)** to **y**:
+2. Consume the arguments, then substitute all instances **x** in the
+   body, with **y**.
+
+"Wait, it merely returned the argument y." you may say. That is
 true. The function **(λx.x)** is the identity function -- it is a
 single-parameter function that returns whatever is was applied to.
 
@@ -306,7 +304,9 @@ M ≡ (λxyz.x(yz))
 
 Unlike with addition which uses infix syntax, multiplying two numbers
 follow a prefix syntax. So, to multiply **2** and **3**, we say
-**M23**. Let's test that out:
+**M23**.
+
+Let's test that out:
 
 ```scheme
 2*3 ≡ M23
@@ -372,10 +372,10 @@ the predecessor function is being done separately is that it isn't
 intuitively easy to determine at first, and that knowledge about other
 functions is important in understanding it.
 
-Let's say we have a pair, something like (y, x), wherein the first element is
-one step above, or the successor the second element. Since the first
-element is the successor, that means the second element is the
-predecessor. Visually:
+Let's say we have a pair, something like (y, x), wherein the first
+element is one step above, or the successor the second element. Since
+the first element is the successor, that means the second element is
+the predecessor. Visually:
 
 ```scheme
 (z+1, z) = (z, z-1)
@@ -400,19 +400,19 @@ And the smallest unit of pair is:
 (λz.z00) ≡ (λz.z(λsz.z)(λsz.z))
 ```
 
-To select the first and second elements of a pair, we use **T** and
-**F**:
+To select the first and second elements of a pair, we use **T** and*
+*F**:
 
 ```scheme
-First ≡ (λz.zab)(λxy.x) ≡ (λz.zab)T = Tab = a
-Second ≡ (λz.zab)(λxy.y) ≡ (λz.zab)F = Fab = b
+(λz.zab)(λxy.x) ≡ (λz.zab)T = Tab = a
+(λz.zab)(λxy.y) ≡ (λz.zab)F = Fab = b
 ```
 
 We need a function that takes a pair, then creates a new pair, wherein
 the first element is the successor of the second element.
 
 ```scheme
-Name: Q (forgive me for my lack of imagination)
+Name: Q
 Input: (a, b)
 Output: (S(a), b)
 Profile: (λpz.z(S(pT))(pT))
