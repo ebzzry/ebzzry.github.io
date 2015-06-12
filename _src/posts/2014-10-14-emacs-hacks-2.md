@@ -191,7 +191,7 @@ A sample would look like the following:
 (bind-keys
  :map dired-mode-map
  ("C-x w" . wdired-change-to-wdired-mode))
- ```
+```
 
 # Conclusion
 
