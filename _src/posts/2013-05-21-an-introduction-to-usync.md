@@ -35,7 +35,7 @@ while preserving the directory structure remotely (take note, that
 there must be no spaces between the hosts specification, due to the
 `IFS` environment variable, found in most shells):
 
-```
+```console
 $ usync /pub/yot/ninam/ tarupam,taubetmo
 ```
 
@@ -59,7 +59,7 @@ equal.
 It is also possible to perform synchronization of multiple files, and
 directories, to remote hosts. To do so, run:
 
-```
+```console
 $ usync /pub/yot/ninam/ ~/file.text ~reyn/*.blend tarupam,taubetmo
 ```
 
@@ -71,13 +71,13 @@ structuring system described above.
 If you want to perform one-way synchronization, of the above, like
 `rsync`, run:
 
-```
+```console
 $ usync --one-way --prefer-local /pub/yot/ninam/ ~/file.text ~reyn/draft.blend tarupam,taubetmo
 ```
 
 For more usage information, run:
 
-```
+```console
 $ usync --help
 ```
 
