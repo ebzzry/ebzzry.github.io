@@ -134,9 +134,8 @@ y
 
 Let's break it down:
 
-1. Apply **(λx.x)** to **y**:
-2. Consume the arguments, then substitute all instances **x** in the
-   body, with **y**.
+> 1. Apply **(λx.x)** to **y**:
+> 2. Consume the arguments, then substitute all instances **x** in the body, with **y**.
 
 "Wait, it merely returned the argument y." you may say. That is
 true. The function **(λx.x)** is the identity function -- it is a
@@ -247,16 +246,16 @@ S0
 ≡ 1
 ```
 
-Let's break that down:
+Let's break it down:
 
-1. Determine the successor (S) of zero (0).
-2. Spell out the equivalent functional notation.
-3. Apply **(λsz.z)** to **y** substituting the bound variable **s** to
-   **y**.
-4. Apply **(λz.z)** to **z** substituting the bound variable **z** to
-   **z**.
-5. Evaluation stops, and **(λyz.y(z))** is returned, which is the
-   number 1.
+> 1. Determine the successor (S) of zero (0).
+> 2. Spell out the equivalent functional notation.
+> 3. Apply **(λsz.z)** to **y** substituting the bound variable **s** to
+>    **y**.
+> 4. Apply **(λz.z)** to **z** substituting the bound variable **z** to
+>    **z**.
+> 5. Evaluation stops, and **(λyz.y(z))** is returned, which is the
+>    number 1.
 
 ## Addition
 What if we wanted to perform **2+3**? Fortunately, the
@@ -281,18 +280,18 @@ Stepping through it, yields:
 ≡ 5
 ```
 
-Let's break that down:
+Let's break it down:
 
-1. Spell out the equivalent functional notations for **2**, **S**, and
-**3**.
-2. Reducing it gives us **SS3**
-3. The full version of **SS3**, which corresponds with **2S3** or two **S**
-and a **3**.
-4. Reduce it further.
-5. Reduce even further.
-6. It is now reduced to **S4**.
-7. Apply **S** to **4**.
-8. We now arrive at **5**.
+> 1. Spell out the equivalent functional notations for **2**, **S**,
+>    and **3**.
+> 2. Reducing it gives us **SS3**
+> 3. The full version of **SS3**, which corresponds with **2S3** or
+>    two **S** and a **3**.
+> 4. Reduce it further.
+> 5. Reduce even further.
+> 6. It is now reduced to **S4**.
+> 7. Apply **S** to **4**.
+> 8. We now arrive at **5**.
 
 ## Multiplication
 
@@ -455,8 +454,6 @@ P1
 = (λsz.z)
 ≡ 0
 ```
-
-Yup, **0** is indeed the predecessor of **1**.
 
 ## Subtraction
 Now that we have the predecessor function, we can build our

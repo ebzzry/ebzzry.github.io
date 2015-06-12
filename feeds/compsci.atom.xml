@@ -155,9 +155,10 @@
 
 &lt;p&gt;Let&amp;rsquo;s break it down:&lt;/p&gt;
 
-&lt;ol&gt;
- &lt;li&gt;Apply &lt;strong&gt;(λx.x)&lt;/strong&gt; to &lt;strong&gt;y&lt;/strong&gt;:&lt;/li&gt;
- &lt;li&gt;Consume the arguments, then substitute all instances &lt;strong&gt;x&lt;/strong&gt; in the  body, with &lt;strong&gt;y&lt;/strong&gt;.&lt;/li&gt;&lt;/ol&gt;
+&lt;blockquote&gt;
+ &lt;ol&gt;
+  &lt;li&gt;Apply &lt;strong&gt;(λx.x)&lt;/strong&gt; to &lt;strong&gt;y&lt;/strong&gt;:&lt;/li&gt;
+  &lt;li&gt;Consume the arguments, then substitute all instances &lt;strong&gt;x&lt;/strong&gt; in the body, with &lt;strong&gt;y&lt;/strong&gt;.&lt;/li&gt;&lt;/ol&gt;&lt;/blockquote&gt;
 
 &lt;p&gt;&amp;ldquo;Wait, it merely returned the argument y.&amp;rdquo; you may say. That is true. The function &lt;strong&gt;(λx.x)&lt;/strong&gt; is the identity function &amp;mdash; it is a single-parameter function that returns whatever is was applied to.&lt;/p&gt;
 
@@ -375,14 +376,15 @@
 &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
 &lt;/div&gt;
 
-&lt;p&gt;Let&amp;rsquo;s break that down:&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s break it down:&lt;/p&gt;
 
-&lt;ol&gt;
- &lt;li&gt;Determine the successor (S) of zero (0).&lt;/li&gt;
- &lt;li&gt;Spell out the equivalent functional notation.&lt;/li&gt;
- &lt;li&gt;Apply &lt;strong&gt;(λsz.z)&lt;/strong&gt; to &lt;strong&gt;y&lt;/strong&gt; substituting the bound variable &lt;strong&gt;s&lt;/strong&gt; to  &lt;strong&gt;y&lt;/strong&gt;.&lt;/li&gt;
- &lt;li&gt;Apply &lt;strong&gt;(λz.z)&lt;/strong&gt; to &lt;strong&gt;z&lt;/strong&gt; substituting the bound variable &lt;strong&gt;z&lt;/strong&gt; to  &lt;strong&gt;z&lt;/strong&gt;.&lt;/li&gt;
- &lt;li&gt;Evaluation stops, and &lt;strong&gt;(λyz.y(z))&lt;/strong&gt; is returned, which is the  number 1.&lt;/li&gt;&lt;/ol&gt;
+&lt;blockquote&gt;
+ &lt;ol&gt;
+  &lt;li&gt;Determine the successor (S) of zero (0).&lt;/li&gt;
+  &lt;li&gt;Spell out the equivalent functional notation.&lt;/li&gt;
+  &lt;li&gt;Apply &lt;strong&gt;(λsz.z)&lt;/strong&gt; to &lt;strong&gt;y&lt;/strong&gt; substituting the bound variable &lt;strong&gt;s&lt;/strong&gt; to  &lt;strong&gt;y&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;Apply &lt;strong&gt;(λz.z)&lt;/strong&gt; to &lt;strong&gt;z&lt;/strong&gt; substituting the bound variable &lt;strong&gt;z&lt;/strong&gt; to  &lt;strong&gt;z&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;Evaluation stops, and &lt;strong&gt;(λyz.y(z))&lt;/strong&gt; is returned, which is the  number 1.&lt;/li&gt;&lt;/ol&gt;&lt;/blockquote&gt;
 
 &lt;h2 id="addition"&gt;Addition&lt;/h2&gt;
 
@@ -434,17 +436,18 @@
 &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
 &lt;/div&gt;
 
-&lt;p&gt;Let&amp;rsquo;s break that down:&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s break it down:&lt;/p&gt;
 
-&lt;ol&gt;
- &lt;li&gt;Spell out the equivalent functional notations for &lt;strong&gt;2&lt;/strong&gt;, &lt;strong&gt;S&lt;/strong&gt;, and &lt;strong&gt;3&lt;/strong&gt;.&lt;/li&gt;
- &lt;li&gt;Reducing it gives us &lt;strong&gt;SS3&lt;/strong&gt;&lt;/li&gt;
- &lt;li&gt;The full version of &lt;strong&gt;SS3&lt;/strong&gt;, which corresponds with &lt;strong&gt;2S3&lt;/strong&gt; or two &lt;strong&gt;S&lt;/strong&gt; and a &lt;strong&gt;3&lt;/strong&gt;.&lt;/li&gt;
- &lt;li&gt;Reduce it further.&lt;/li&gt;
- &lt;li&gt;Reduce even further.&lt;/li&gt;
- &lt;li&gt;It is now reduced to &lt;strong&gt;S4&lt;/strong&gt;.&lt;/li&gt;
- &lt;li&gt;Apply &lt;strong&gt;S&lt;/strong&gt; to &lt;strong&gt;4&lt;/strong&gt;.&lt;/li&gt;
- &lt;li&gt;We now arrive at &lt;strong&gt;5&lt;/strong&gt;.&lt;/li&gt;&lt;/ol&gt;
+&lt;blockquote&gt;
+ &lt;ol&gt;
+  &lt;li&gt;Spell out the equivalent functional notations for &lt;strong&gt;2&lt;/strong&gt;, &lt;strong&gt;S&lt;/strong&gt;,  and &lt;strong&gt;3&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;Reducing it gives us &lt;strong&gt;SS3&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;The full version of &lt;strong&gt;SS3&lt;/strong&gt;, which corresponds with &lt;strong&gt;2S3&lt;/strong&gt; or  two &lt;strong&gt;S&lt;/strong&gt; and a &lt;strong&gt;3&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;Reduce it further.&lt;/li&gt;
+  &lt;li&gt;Reduce even further.&lt;/li&gt;
+  &lt;li&gt;It is now reduced to &lt;strong&gt;S4&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;Apply &lt;strong&gt;S&lt;/strong&gt; to &lt;strong&gt;4&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;We now arrive at &lt;strong&gt;5&lt;/strong&gt;.&lt;/li&gt;&lt;/ol&gt;&lt;/blockquote&gt;
 
 &lt;h2 id="multiplication"&gt;Multiplication&lt;/h2&gt;
 
@@ -769,8 +772,6 @@
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
 &lt;/div&gt;
-
-&lt;p&gt;Yup, &lt;strong&gt;0&lt;/strong&gt; is indeed the predecessor of &lt;strong&gt;1&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;h2 id="subtraction"&gt;Subtraction&lt;/h2&gt;
 

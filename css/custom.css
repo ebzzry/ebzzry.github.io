@@ -33,3 +33,6 @@ pre {
     width: inherit;
 }
 
+blockquote {
+    font-size: 100%;
+}
