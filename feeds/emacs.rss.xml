@@ -4,9 +4,335 @@
   <title>Live. Die. Repeat.: Posts tagged 'emacs'</title>
   <description>Live. Die. Repeat.: Posts tagged 'emacs'</description>
   <link>http://ebzzry.github.io/tags/emacs.html</link>
-  <lastBuildDate>Mon, 17 Feb 2014 08:02:38 UT</lastBuildDate>
-  <pubDate>Mon, 17 Feb 2014 08:02:38 UT</pubDate>
+  <lastBuildDate>Tue, 14 Oct 2014 09:41:20 UT</lastBuildDate>
+  <pubDate>Tue, 14 Oct 2014 09:41:20 UT</pubDate>
   <ttl>1800</ttl>
+  <item>
+   <title>Emacs &amp; Hacks (part 2)</title>
+   <link>http://ebzzry.github.io/blog/2014/10/14/emacs-hacks-part-2/?utm_source=emacs&amp;utm_medium=RSS</link>
+   <guid>urn:http-ebzzry-github-io:-blog-2014-10-14-emacs-hacks-part-2</guid>
+   <pubDate>Tue, 14 Oct 2014 09:41:20 UT</pubDate>
+   <description>&lt;html&gt;
+&lt;p&gt;This is part 2 of my Emacs tips series. The contents of this post are written in no particular order. Like last time, the rest of the configuration can be found at &lt;a href="http://github.com/ebzzry/dotemacs"&gt;github.com/ebzzry/dotemacs&lt;/a&gt;.&lt;/p&gt;
+&lt;!-- more--&gt;
+
+&lt;h1 id="session-management"&gt;Session Management&lt;/h1&gt;
+
+&lt;h2 id="desktop"&gt;Desktop&lt;/h2&gt;
+
+&lt;p&gt;An indispensable tool that I use now is desktop. It saves the state of my Emacs session, so that in the event of crash, power outage, or anything that will make me lose my session, I can back to it. Desktop comes built-in with the recent versions of GNU Emacs. Here&amp;rsquo;s my snippet:&lt;/p&gt;
+
+&lt;div class="brush: elisp"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt; 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;require&lt;/span&gt; &lt;span class="ss"&gt;&amp;#39;desktop&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;desktop-save-mode&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;setq&lt;/span&gt; &lt;span class="nv"&gt;desktop-dirname&lt;/span&gt; &lt;span class="s"&gt;"~/.emacs.d"&lt;/span&gt;
+      &lt;span class="nv"&gt;desktop-base-file-name&lt;/span&gt; &lt;span class="s"&gt;"desktop"&lt;/span&gt;
+      &lt;span class="nv"&gt;desktop-base-lock-name&lt;/span&gt; &lt;span class="s"&gt;"desktop.lock"&lt;/span&gt;
+      &lt;span class="nv"&gt;desktop-restore-frames&lt;/span&gt; &lt;span class="no"&gt;t&lt;/span&gt;
+      &lt;span class="nv"&gt;desktop-restore-reuses-frames&lt;/span&gt; &lt;span class="no"&gt;t&lt;/span&gt;
+      &lt;span class="nv"&gt;desktop-restore-in-current-display&lt;/span&gt; &lt;span class="no"&gt;t&lt;/span&gt;
+      &lt;span class="nv"&gt;desktop-restore-forces-onscreen&lt;/span&gt; &lt;span class="no"&gt;t&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;defun&lt;/span&gt; &lt;span class="nv"&gt;my-desktop-save&lt;/span&gt; &lt;span class="p"&gt;()&lt;/span&gt;
+  &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;interactive&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+  &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;eq&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;desktop-owner&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;emacs-pid&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+      &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;desktop-save&lt;/span&gt; &lt;span class="nv"&gt;desktop-dirname&lt;/span&gt;&lt;span class="p"&gt;)))&lt;/span&gt;
+&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;add-hook&lt;/span&gt; &lt;span class="ss"&gt;&amp;#39;auto-save-hook&lt;/span&gt; &lt;span class="ss"&gt;&amp;#39;my-desktop-save&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;h2 id="savehist"&gt;Savehist&lt;/h2&gt;
+
+&lt;p&gt;Another important functionality that I use is savehist. It saves the minibuffer history. It&amp;rsquo;s roughly similar to saving the command line history. Here&amp;rsquo;s my snippet&lt;/p&gt;
+
+&lt;div class="brush: elisp"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1
+2&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;savehist-mode&lt;/span&gt; &lt;span class="no"&gt;t&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;setq&lt;/span&gt; &lt;span class="nv"&gt;savehist-file&lt;/span&gt; &lt;span class="s"&gt;"~/.emacs.d/savehist"&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;h2 id="consolidation"&gt;Consolidation&lt;/h2&gt;
+
+&lt;p&gt;No, that is not the name of the library. There are a lot of times, when I want to manually save the state of as much session information that I could save. I&amp;rsquo;d want to save the buffers, minibuffer history, bookmarks, and comint mode histories. To do that, I have the following:&lt;/p&gt;
+
+&lt;div class="brush: elisp"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt; 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;defun&lt;/span&gt; &lt;span class="nv"&gt;save-defaults&lt;/span&gt; &lt;span class="p"&gt;()&lt;/span&gt;
+  &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;desktop-save&lt;/span&gt; &lt;span class="nv"&gt;desktop-dirname&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+  &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;savehist-save&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+  &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;bookmark-save&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+
+&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;defun&lt;/span&gt; &lt;span class="nv"&gt;save-histories&lt;/span&gt; &lt;span class="p"&gt;()&lt;/span&gt;
+  &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;let&lt;/span&gt; &lt;span class="p"&gt;((&lt;/span&gt;&lt;span class="nv"&gt;buf&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;current-buffer&lt;/span&gt;&lt;span class="p"&gt;)))&lt;/span&gt;
+    &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;save-excursion&lt;/span&gt;
+      &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;dolist&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;b&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;buffer-list&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+        &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;switch-to-buffer&lt;/span&gt; &lt;span class="nv"&gt;b&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+        &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;save-history&lt;/span&gt;&lt;span class="p"&gt;)))&lt;/span&gt;
+    &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;switch-to-buffer&lt;/span&gt; &lt;span class="nv"&gt;buf&lt;/span&gt;&lt;span class="p"&gt;)))&lt;/span&gt;
+
+&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;defun&lt;/span&gt; &lt;span class="nv"&gt;save&lt;/span&gt; &lt;span class="p"&gt;()&lt;/span&gt;
+  &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;interactive&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+  &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;save-defaults&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+  &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;save-histories&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;h1 id="packages"&gt;Packages&lt;/h1&gt;
+
+&lt;h2 id="elpa"&gt;ELPA&lt;/h2&gt;
+
+&lt;p&gt;If you aren&amp;rsquo;t using the package system yet, use it now. All you need to get started is the following:&lt;/p&gt;
+
+&lt;div class="brush: elisp"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1
+2
+3
+4
+5
+6
+7
+8
+9&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;require&lt;/span&gt; &lt;span class="ss"&gt;&amp;#39;package&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;setq&lt;/span&gt; &lt;span class="nv"&gt;package-archives&lt;/span&gt;
+      &lt;span class="o"&gt;&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;((&lt;/span&gt;&lt;span class="s"&gt;"gnu"&lt;/span&gt; &lt;span class="o"&gt;.&lt;/span&gt; &lt;span class="s"&gt;"http://elpa.gnu.org/packages/"&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+        &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"marmalade"&lt;/span&gt; &lt;span class="o"&gt;.&lt;/span&gt; &lt;span class="s"&gt;"http://marmalade-repo.org/packages/"&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+        &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"melpa"&lt;/span&gt; &lt;span class="o"&gt;.&lt;/span&gt; &lt;span class="s"&gt;"http://melpa.milkbox.net/packages/"&lt;/span&gt;&lt;span class="p"&gt;)))&lt;/span&gt;
+&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;package-initialize&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;defalias&lt;/span&gt; &lt;span class="ss"&gt;&amp;#39;pi&lt;/span&gt; &lt;span class="ss"&gt;&amp;#39;package-install&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;defalias&lt;/span&gt; &lt;span class="ss"&gt;&amp;#39;pl&lt;/span&gt; &lt;span class="ss"&gt;&amp;#39;package-list-packages&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;To list all the available packages, just hit &lt;code&gt;M-x pl&lt;/code&gt;. If you know the name of package, hit &lt;code&gt;M-x pi RET package RET&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h2 id="use-package"&gt;use-package&lt;/h2&gt;
+
+&lt;p&gt;This one is a real gem. It&amp;rsquo;s like &lt;code&gt;require&lt;/code&gt;, but on steroids. When &amp;ldquo;requiring&amp;rdquo; a package, you have the option to specify to install that package, if it does not exist, yet. It also enables you to configure that package, in a unified expression. But unlike &lt;code&gt;require&lt;/code&gt;, &lt;code&gt;use-package&lt;/code&gt; does not come built-in with Emacs. We need to install it via &lt;code&gt;package-install&lt;/code&gt;:&lt;/p&gt;
+
+&lt;div class="brush: elisp"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="nv"&gt;M-x&lt;/span&gt; &lt;span class="nv"&gt;package-install&lt;/span&gt; &lt;span class="nv"&gt;RET&lt;/span&gt; &lt;span class="nb"&gt;use-package&lt;/span&gt; &lt;span class="nv"&gt;RET&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;We can then require it, on subsequent uses:&lt;/p&gt;
+
+&lt;div class="brush: elisp"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;require&lt;/span&gt; &lt;span class="ss"&gt;&amp;#39;use-package&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;To install &lt;code&gt;markdown-mode&lt;/code&gt;, even if it doesn&amp;rsquo;t exist yet, and configure its related options, after loading it, have:&lt;/p&gt;
+
+&lt;div class="brush: elisp"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1
+2
+3
+4
+5
+6
+7&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;use-package&lt;/span&gt; &lt;span class="nv"&gt;markdown-mode&lt;/span&gt;
+    &lt;span class="ss"&gt;:ensure&lt;/span&gt; &lt;span class="no"&gt;t&lt;/span&gt;
+    &lt;span class="ss"&gt;:config&lt;/span&gt;
+    &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;progn&lt;/span&gt;
+      &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;push&lt;/span&gt; &lt;span class="o"&gt;&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"\\.text\\&amp;#39;"&lt;/span&gt; &lt;span class="o"&gt;.&lt;/span&gt; &lt;span class="nv"&gt;markdown-mode&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="nv"&gt;auto-mode-alist&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+      &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;push&lt;/span&gt; &lt;span class="o"&gt;&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"\\.markdown\\&amp;#39;"&lt;/span&gt; &lt;span class="o"&gt;.&lt;/span&gt; &lt;span class="nv"&gt;markdown-mode&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="nv"&gt;auto-mode-alist&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+      &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;push&lt;/span&gt; &lt;span class="o"&gt;&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"\\.md\\&amp;#39;"&lt;/span&gt; &lt;span class="o"&gt;.&lt;/span&gt; &lt;span class="nv"&gt;markdown-mode&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="nv"&gt;auto-mode-alist&lt;/span&gt;&lt;span class="p"&gt;)))&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;h1 id="general"&gt;General&lt;/h1&gt;
+
+&lt;h2 id="line-numbers"&gt;Line Numbers&lt;/h2&gt;
+
+&lt;p&gt;I really like to have the line numbers displayed at the left margin. It gives me a rough idea how big the file is, and where am I currently. Turn on &lt;code&gt;linum-mode&lt;/code&gt; achieves this:&lt;/p&gt;
+
+&lt;div class="brush: elisp"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1
+2
+3
+4&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;setq&lt;/span&gt; &lt;span class="nv"&gt;linum-format&lt;/span&gt; &lt;span class="s"&gt;"%4d"&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;defun&lt;/span&gt; &lt;span class="nv"&gt;my-linum-mode-hook&lt;/span&gt; &lt;span class="p"&gt;()&lt;/span&gt;
+  &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;linum-mode&lt;/span&gt; &lt;span class="no"&gt;t&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;add-hook&lt;/span&gt; &lt;span class="ss"&gt;&amp;#39;find-file-hook&lt;/span&gt; &lt;span class="ss"&gt;&amp;#39;my-linum-mode-hook&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;h2 id="timestamps"&gt;Timestamps&lt;/h2&gt;
+
+&lt;p&gt;I frequently find the need to insert timestamps, especially when I&amp;rsquo;m editing my daily log file. Here are some snippets to help with it:&lt;/p&gt;
+
+&lt;div class="brush: elisp"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt; 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;defun&lt;/span&gt; &lt;span class="nv"&gt;insert-date&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;format&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+  &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;let&lt;/span&gt; &lt;span class="p"&gt;((&lt;/span&gt;&lt;span class="nv"&gt;system-time-locale&lt;/span&gt; &lt;span class="s"&gt;"en_US.UTF-8"&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+    &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;insert&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;format-time-string&lt;/span&gt; &lt;span class="nb"&gt;format&lt;/span&gt;&lt;span class="p"&gt;))))&lt;/span&gt;
+
+&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;defun&lt;/span&gt; &lt;span class="nv"&gt;insert-date/long&lt;/span&gt; &lt;span class="p"&gt;()&lt;/span&gt;
+  &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;interactive&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+  &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;insert-date&lt;/span&gt; &lt;span class="s"&gt;"%A, %B %d %Y"&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+
+&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;defun&lt;/span&gt; &lt;span class="nv"&gt;insert-date/short&lt;/span&gt; &lt;span class="p"&gt;()&lt;/span&gt;
+  &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;interactive&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+  &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;insert-date&lt;/span&gt; &lt;span class="s"&gt;"%Y-%m-%d"&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Set the correct value for &lt;code&gt;system-time-locale&lt;/code&gt;, and bind keys for &lt;code&gt;insert-date/long&lt;/code&gt; and &lt;code&gt;insert-date/short&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h2 id="keys"&gt;Keys&lt;/h2&gt;
+
+&lt;p&gt;The last, but definitely not the least, is key bindings management. When your key bindings are not organized, it&amp;rsquo;s not easy to find what key did you bind to what. Fortunately, we have &lt;code&gt;bind-key&lt;/code&gt;, which comes as part of &lt;code&gt;use-package&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;A sample would look like the following:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;elisp
+(bind-keys
+ :map global-map
+ ("C-;" . eval-expression)
+ ("C-j" . delete-indentation)
+ ("M-j" . delete-indentation-1)
+ ("C-z" . mark-line)
+ ("C-r" . isearch-backward)
+ ("C-s" . isearch-forward)
+ ("C-M-r" . isearch-backward-regexp)
+ ("C-M-s" . isearch-forward-regexp))
+
+(bind-keys
+ :map emacs-lisp-mode-map
+ ("M-." . find-function)
+ ("C-x C-r" . eval-region)
+ (";" . sp-comment))
+
+(bind-keys
+ :map dired-mode-map
+ ("C-x w" . wdired-change-to-wdired-mode))&lt;/code&gt;&lt;/p&gt;
+
+&lt;h1 id="conclusion"&gt;Conclusion&lt;/h1&gt;
+
+&lt;p&gt;That&amp;rsquo;s it for now. Ciao!&lt;/p&gt;&lt;/html&gt;</description></item>
   <item>
    <title>Emacs &amp; Mail</title>
    <link>http://ebzzry.github.io/blog/2014/02/17/emacs-mail/?utm_source=emacs&amp;utm_medium=RSS</link>
