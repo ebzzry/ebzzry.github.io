@@ -31,7 +31,8 @@
 
     <link rel="canonical" href="http://ebzzry.github.io/about.html">
     <!-- CSS -->
-    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="/css/pygments.css">
     <link rel="stylesheet" type="text/css" href="/css/scribble.css">
     <link rel="stylesheet" type="text/css" href="/css/custom.css">
@@ -71,12 +72,19 @@
             <span class="icon-bar"></span>
           </button>
           <!-- <a href="/index.html" class="navbar-brand">Home</a> -->
-          <a href="/index.html" class="navbar-brand">Home</a>
+          <!-- <a href="/index.html">Home</a> -->
         </div>
-        <div class="collapse navbar-collapse our-nav-collapse"
-             role="navigation">
+        <div class="collapse navbar-collapse our-nav-collapse" role="navigation">
           <ul class="nav navbar-nav">
 
+            <li>
+              <a href="/index.html">Home</a>
+            </li> 
+            <li class="active">
+              <a href="/about.html">About</a>
+            </li> 
+            <!-- <li><a href="/feeds/all.atom.xml">Atom</a></li> -->
+            <li><a href="/feeds/all.rss.xml">RSS</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                 Tags <b class="caret"></b></a>
@@ -108,11 +116,6 @@
 <li><a href="/tags/web.html">web</a></li>
               </ul>
             </li>
-            <li class="active">
-              <a href="/about.html">About</a>
-            </li> 
-            <li><a href="/feeds/all.atom.xml">Atom</a></li>
-            <li><a href="/feeds/all.rss.xml">RSS</a></li>
           </ul>
         </div>
     </header>
