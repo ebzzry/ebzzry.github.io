@@ -36,3 +36,7 @@ pre {
 blockquote {
     font-size: 100%;
 }
+
+.navbar-collapse {
+  padding-left: 0px;
+}
