@@ -33,7 +33,8 @@
 
     <link rel="canonical" href="@|full-uri|">
     <!-- CSS -->
-    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="/css/pygments.css">
     <link rel="stylesheet" type="text/css" href="/css/scribble.css">
     <link rel="stylesheet" type="text/css" href="/css/custom.css">
@@ -60,10 +61,9 @@
             <span class="icon-bar"></span>
           </button>
           <!-- <a href="/index.html" class="navbar-brand">Home</a> -->
-          <a href="/index.html" class="navbar-brand">Home</a>
+          <!-- <a href="/index.html">Home</a> -->
         </div>
-        <div class="collapse navbar-collapse our-nav-collapse"
-             role="navigation">
+        <div class="collapse navbar-collapse our-nav-collapse" role="navigation">
           <ul class="nav navbar-nav">
             @;{ We can define Racket functions to "DRY". Here's one to
                 emit HMTL for a nav item, adding class="active" iff
@@ -73,6 +73,10 @@
                 <li@(when (string-ci=? uri uri-path) " class=\"active\"")>
                   <a href="@|uri|"@|a-attribs|>@|label|</a>
                 </li> })
+            @ni["/index.html" "Home"]
+            @ni["/about.html" "About"]
+            <!-- <li><a href="@|atom-feed-uri|">Atom</a></li> -->
+            <li><a href="@|rss-feed-uri|">RSS</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                 Tags <b class="caret"></b></a>
@@ -81,9 +85,6 @@
                 @|tags-list-items|
               </ul>
             </li>
-            @ni["/about.html" "About"]
-            <li><a href="@|atom-feed-uri|">Atom</a></li>
-            <li><a href="@|rss-feed-uri|">RSS</a></li>
           </ul>
         </div>
     </header>
