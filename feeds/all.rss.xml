@@ -4,14 +4,14 @@
   <title>Live. Die. Repeat.: Live. Die. Repeat.</title>
   <description>Live. Die. Repeat.: Live. Die. Repeat.</description>
   <link>http://ebzzry.github.io/index.html</link>
-  <lastBuildDate>Thu, 11 Jun 2015 22:30:03 UT</lastBuildDate>
-  <pubDate>Thu, 11 Jun 2015 22:30:03 UT</pubDate>
+  <lastBuildDate>Thu, 11 Jun 2015 23:30:03 UT</lastBuildDate>
+  <pubDate>Thu, 11 Jun 2015 23:30:03 UT</pubDate>
   <ttl>1800</ttl>
   <item>
-   <title>A Lambda Calculus Primer (part 1)</title>
-   <link>http://ebzzry.github.io/blog/2015/06/12/a-lambda-calculus-primer-part-1/?utm_source=all&amp;utm_medium=RSS</link>
-   <guid>urn:http-ebzzry-github-io:-blog-2015-06-12-a-lambda-calculus-primer-part-1</guid>
-   <pubDate>Thu, 11 Jun 2015 22:30:03 UT</pubDate>
+   <title>A Lambda Calculus Primer</title>
+   <link>http://ebzzry.github.io/blog/2015/06/12/a-lambda-calculus-primer/?utm_source=all&amp;utm_medium=RSS</link>
+   <guid>urn:http-ebzzry-github-io:-blog-2015-06-12-a-lambda-calculus-primer</guid>
+   <pubDate>Thu, 11 Jun 2015 23:30:03 UT</pubDate>
    <description>&lt;html&gt;
 &lt;p&gt;&amp;ldquo;You do not really understand something unless you can explain it to your grandmother.&amp;rdquo; &amp;mdash; Albert Einstein&lt;/p&gt;
 
@@ -874,9 +874,9 @@
 &lt;p&gt;&lt;a href="http://www.users.waitrose.com/~hindley/SomePapers_PDFs/2006CarHin,HistlamRp.pdf"&gt;http://www.users.waitrose.com/~hindley/SomePapers_PDFs/2006CarHin,HistlamRp.pdf&lt;/a&gt;&lt;/p&gt;&lt;/html&gt;</description></item>
   <item>
    <title>Emacs &amp; Hacks (part 2)</title>
-   <link>http://ebzzry.github.io/blog/2014/10/14/emacs-hacks-part-2/?utm_source=all&amp;utm_medium=RSS</link>
-   <guid>urn:http-ebzzry-github-io:-blog-2014-10-14-emacs-hacks-part-2</guid>
-   <pubDate>Tue, 14 Oct 2014 09:41:20 UT</pubDate>
+   <link>http://ebzzry.github.io/blog/2015/06/12/emacs-hacks-part-2/?utm_source=all&amp;utm_medium=RSS</link>
+   <guid>urn:http-ebzzry-github-io:-blog-2015-06-12-emacs-hacks-part-2</guid>
+   <pubDate>Thu, 11 Jun 2015 22:30:00 UT</pubDate>
    <description>&lt;html&gt;
 &lt;p&gt;This is part 2 of my Emacs tips series. The contents of this post are written in no particular order. Like last time, the rest of the configuration can be found at &lt;a href="http://github.com/ebzzry/dotemacs"&gt;github.com/ebzzry/dotemacs&lt;/a&gt;.&lt;/p&gt;
 &lt;!-- more--&gt;
