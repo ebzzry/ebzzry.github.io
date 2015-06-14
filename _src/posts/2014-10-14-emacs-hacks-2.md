@@ -1,5 +1,5 @@
     Title: Emacs & Hacks (part 2)
-    Date: 2014-10-14T17:41:20
+    Date: 2015-06-12T06:30:00
     Tags: emacs, programming
 
 This is part 2 of my Emacs tips series. The contents of this post are

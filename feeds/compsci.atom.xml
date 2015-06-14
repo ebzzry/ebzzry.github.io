@@ -4,13 +4,13 @@
  <link rel="self" href="http://ebzzry.github.io/feeds/compsci.atom.xml" />
  <link href="http://ebzzry.github.io/tags/compsci.html" />
  <id>urn:http-ebzzry-github-io:-tags-compsci-html</id>
- <updated>2015-06-11T22:30:03Z</updated>
+ <updated>2015-06-11T23:30:03Z</updated>
  <entry>
-  <title type="text">A Lambda Calculus Primer (part 1)</title>
-  <link rel="alternate" href="http://ebzzry.github.io/blog/2015/06/12/a-lambda-calculus-primer-part-1/?utm_source=compsci&amp;utm_medium=Atom" />
-  <id>urn:http-ebzzry-github-io:-blog-2015-06-12-a-lambda-calculus-primer-part-1</id>
-  <published>2015-06-11T22:30:03Z</published>
-  <updated>2015-06-11T22:30:03Z</updated>
+  <title type="text">A Lambda Calculus Primer</title>
+  <link rel="alternate" href="http://ebzzry.github.io/blog/2015/06/12/a-lambda-calculus-primer/?utm_source=compsci&amp;utm_medium=Atom" />
+  <id>urn:http-ebzzry-github-io:-blog-2015-06-12-a-lambda-calculus-primer</id>
+  <published>2015-06-11T23:30:03Z</published>
+  <updated>2015-06-11T23:30:03Z</updated>
   <author>
    <name>Rommel Martinez</name></author>
   <content type="html">&lt;html&gt;
