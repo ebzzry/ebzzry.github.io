@@ -1,5 +1,6 @@
 http://ebzzry.github.io/blog/2013/09/29/emacs-racket/
 http://ebzzry.github.io/blog/2013/05/21/an-introduction-to-usync/
+http://ebzzry.github.io/blog/2015/06/15/fast-virtualization-with-qemu/
 http://ebzzry.github.io/blog/2013/09/10/emacs-hacks-part-1/
 http://ebzzry.github.io/blog/2013/09/26/emacs-dired/
 http://ebzzry.github.io/blog/2013/05/09/squandered-relentlessness/
