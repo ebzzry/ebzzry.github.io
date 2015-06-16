@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?> 
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
- <title type="text">Cognizant Delusions: Posts tagged 'compsci'</title>
+ <title type="text">Illusions of Cognizance: Posts tagged 'compsci'</title>
  <link rel="self" href="http://ebzzry.github.io/feeds/compsci.atom.xml" />
  <link href="http://ebzzry.github.io/tags/compsci.html" />
  <id>urn:http-ebzzry-github-io:-tags-compsci-html</id>
@@ -14,7 +14,7 @@
   <author>
    <name>Rommel Martinez</name></author>
   <content type="html">&lt;html&gt;
-&lt;p&gt;&amp;ldquo;You do not really understand something unless you can explain it to your grandmother.&amp;rdquo; &amp;mdash; Albert Einstein&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&amp;ldquo;You do not really understand something unless you can explain it to your grandmother.&amp;rdquo; &amp;mdash; Albert Einstein&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;This post is my attempt to do just that, only that the grandmother here is myself. I firmly believe that unless I try to explain something, will I really understand it. This post takes a very laid-back approach, and avoids very technical topics, unless warranted.&lt;/p&gt;
 &lt;!-- more--&gt;

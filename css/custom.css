@@ -15,6 +15,7 @@ body {
    width: 50em;
    margin: 0 auto;
    text-align: left;
+   /* background: #000; */
 }
 
 .row #content {
