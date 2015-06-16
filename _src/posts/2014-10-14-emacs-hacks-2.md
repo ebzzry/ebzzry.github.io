@@ -194,5 +194,5 @@ A sample would look like the following:
 ```
 
 # Conclusion
-
-That's it for now. Ciao!
+If you an Emacs hack to share, let me know in the comments
+below. Ciao!
