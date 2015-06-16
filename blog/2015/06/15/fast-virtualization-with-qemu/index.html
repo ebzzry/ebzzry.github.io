@@ -6,7 +6,7 @@
     <title>Fast Virtualization with QEMU</title>
     <meta name="description" content="Most of you are familiar with Full Virtualization solutions before like VMware Workstation, VirtualBox, and Parallels. In this post, I'll re-introduce you to another, arguably faster, way of doing things....">
     <meta name="author"      content="Rommel Martinez">
-    <meta name="keywords"    content="sysadmin, virtualization">
+    <meta name="keywords"    content="virtualization, sysadmin">
     <meta name="viewport"    content="width=device-width, initial-scale=1.0">
 
     <!-- <link rel="icon"      href="/favicon.ico"> -->
@@ -99,8 +99,6 @@
 
 <li><a href="/tags/essays.html">essays</a></li>
 
-<li><a href="/tags/gpg.html">gpg</a></li>
-
 <li><a href="/tags/mail.html">mail</a></li>
 
 <li><a href="/tags/programming.html">programming</a></li>
@@ -109,7 +107,7 @@
 
 <li><a href="/tags/scheme.html">scheme</a></li>
 
-<li><a href="/tags/ssh.html">ssh</a></li>
+<li><a href="/tags/security.html">security</a></li>
 
 <li><a href="/tags/sysadmin.html">sysadmin</a></li>
 
@@ -136,7 +134,7 @@
     <h1>Fast Virtualization with QEMU</h1>
 
 <p class="date-and-tags">
- <time datetime="2015-06-15" pubdate="true">2015-06-15</time> :: <span class="tags"><a href="/tags/sysadmin.html">sysadmin</a>, <a href="/tags/virtualization.html">virtualization</a></span></p>
+ <time datetime="2015-06-15" pubdate="true">2015-06-15</time> :: <span class="tags"><a href="/tags/virtualization.html">virtualization</a>, <a href="/tags/sysadmin.html">sysadmin</a></span></p>
   </header>
 
 <p>Most of you are familiar with <a href="https://en.wikipedia.org/wiki/Full_virtualization">Full Virtualization</a> solutions before like VMware Workstation, VirtualBox, and Parallels. In this post, I&rsquo;ll re-introduce you to another, arguably faster, way of doing things.</p>
@@ -182,7 +180,7 @@
 </td></tr></tbody></table>
 </div>
 
-<p>This will install the <a href="http://wiki.qemu.org/">QEMU</a> hypervisor, <a href="http://vde.sourceforge.net/">VDE</a> tools, and <a href="http://www.spice-space.org/">SPICE</a> support. QEMU, at least during its early days had the <em>meh</em> impression &mdash; it is OK, but not stellar. Since version 0.10.1, QEMU started supporting <a href="http://www.linux-kvm.org/">KVM</a>, a virtualization subsystem for Linux, that provides near-native virtualization performance using hardware-assisted virtualization. It even rivals the performance of the virtualization solutions mentioned above.</p>
+<p>This will install the <a href="http://wiki.qemu.org/">QEMU</a> (pronounced as kee-moo) hypervisor, <a href="http://vde.sourceforge.net/">VDE</a> tools, and <a href="http://www.spice-space.org/">SPICE</a> support. QEMU, at least during its early days had the <em>meh</em> impression &mdash; it is OK, but not stellar. Since version 0.10.1, QEMU started supporting <a href="http://www.linux-kvm.org/">KVM</a>, a virtualization subsystem for Linux, that provides near-native virtualization performance using hardware-assisted virtualization. It even rivals the performance of the virtualization solutions mentioned above.</p>
 
 <p>Other suites offer the option of connecting to the guest machine&rsquo;s display via VNC. The problem is that, it&rsquo;s slow and clunky. The response time is just horrible. Using the <a href="http://www.spice-space.org/">SPICE</a> protocol, not only does it makes things faster, but it makes other things possible. Take note that SPICE is not a replacement for <a href="https://en.wikipedia.org/wiki/Virtual_Network_Computing">VNC</a>, but rather, it a different way of meeting our goals.</p>
 
@@ -476,7 +474,7 @@
               class="twitter-follow-button"
               data-show-count="false"
               data-lang="en">
-             "Follow Rommel"
+             "Follow ebzzry"
            </a>
            <script type="text/javascript">
              !function(d,s,id){

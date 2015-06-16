@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?> 
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
- <title type="text">Live. Die. Repeat.: Live. Die. Repeat.</title>
+ <title type="text">Cognizant Delusions: Cognizant Delusions</title>
  <link rel="self" href="http://ebzzry.github.io/feeds/all.atom.xml" />
  <link href="http://ebzzry.github.io/index.html" />
  <id>urn:http-ebzzry-github-io:-index-html</id>
@@ -57,7 +57,7 @@
 &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
 &lt;/div&gt;
 
-&lt;p&gt;This will install the &lt;a href="http://wiki.qemu.org/"&gt;QEMU&lt;/a&gt; hypervisor, &lt;a href="http://vde.sourceforge.net/"&gt;VDE&lt;/a&gt; tools, and &lt;a href="http://www.spice-space.org/"&gt;SPICE&lt;/a&gt; support. QEMU, at least during its early days had the &lt;em&gt;meh&lt;/em&gt; impression &amp;mdash; it is OK, but not stellar. Since version 0.10.1, QEMU started supporting &lt;a href="http://www.linux-kvm.org/"&gt;KVM&lt;/a&gt;, a virtualization subsystem for Linux, that provides near-native virtualization performance using hardware-assisted virtualization. It even rivals the performance of the virtualization solutions mentioned above.&lt;/p&gt;
+&lt;p&gt;This will install the &lt;a href="http://wiki.qemu.org/"&gt;QEMU&lt;/a&gt; (pronounced as kee-moo) hypervisor, &lt;a href="http://vde.sourceforge.net/"&gt;VDE&lt;/a&gt; tools, and &lt;a href="http://www.spice-space.org/"&gt;SPICE&lt;/a&gt; support. QEMU, at least during its early days had the &lt;em&gt;meh&lt;/em&gt; impression &amp;mdash; it is OK, but not stellar. Since version 0.10.1, QEMU started supporting &lt;a href="http://www.linux-kvm.org/"&gt;KVM&lt;/a&gt;, a virtualization subsystem for Linux, that provides near-native virtualization performance using hardware-assisted virtualization. It even rivals the performance of the virtualization solutions mentioned above.&lt;/p&gt;
 
 &lt;p&gt;Other suites offer the option of connecting to the guest machine&amp;rsquo;s display via VNC. The problem is that, it&amp;rsquo;s slow and clunky. The response time is just horrible. Using the &lt;a href="http://www.spice-space.org/"&gt;SPICE&lt;/a&gt; protocol, not only does it makes things faster, but it makes other things possible. Take note that SPICE is not a replacement for &lt;a href="https://en.wikipedia.org/wiki/Virtual_Network_Computing"&gt;VNC&lt;/a&gt;, but rather, it a different way of meeting our goals.&lt;/p&gt;
 
@@ -1531,9 +1531,9 @@
 
 &lt;h1 id="conclusion"&gt;Conclusion&lt;/h1&gt;
 
-&lt;p&gt;That&amp;rsquo;s it for now. Ciao!&lt;/p&gt;&lt;/html&gt;</content></entry>
+&lt;p&gt;If you an Emacs hack to share, let me know in the comments below. Ciao!&lt;/p&gt;&lt;/html&gt;</content></entry>
  <entry>
-  <title type="text">Setting up GPG and SSH in KDE</title>
+  <title type="text">Setting Up GPG and SSH in KDE</title>
   <link rel="alternate" href="http://ebzzry.github.io/blog/2014/09/17/setting-up-gpg-and-ssh-in-kde/?utm_source=all&amp;utm_medium=Atom" />
   <id>urn:http-ebzzry-github-io:-blog-2014-09-17-setting-up-gpg-and-ssh-in-kde</id>
   <published>2014-09-17T11:53:15Z</published>
