@@ -4,7 +4,307 @@
  <link rel="self" href="http://ebzzry.github.io/feeds/sysadmin.atom.xml" />
  <link href="http://ebzzry.github.io/tags/sysadmin.html" />
  <id>urn:http-ebzzry-github-io:-tags-sysadmin-html</id>
- <updated>2014-09-17T11:53:15Z</updated>
+ <updated>2015-06-14T19:50:50Z</updated>
+ <entry>
+  <title type="text">Fast Virtualization with QEMU</title>
+  <link rel="alternate" href="http://ebzzry.github.io/blog/2015/06/15/fast-virtualization-with-qemu/?utm_source=sysadmin&amp;utm_medium=Atom" />
+  <id>urn:http-ebzzry-github-io:-blog-2015-06-15-fast-virtualization-with-qemu</id>
+  <published>2015-06-14T19:50:50Z</published>
+  <updated>2015-06-14T19:50:50Z</updated>
+  <author>
+   <name>Rommel Martinez</name></author>
+  <content type="html">&lt;html&gt;
+&lt;p&gt;Most of you are familiar with &lt;a href="https://en.wikipedia.org/wiki/Full_virtualization"&gt;Full Virtualization&lt;/a&gt; solutions before like VMware Workstation, VirtualBox, and Parallels. In this post, I&amp;rsquo;ll re-introduce you to another, arguably faster, way of doing things.&lt;/p&gt;
+&lt;!-- more--&gt;
+
+&lt;h1 id="preparation"&gt;Preparation&lt;/h1&gt;
+
+&lt;h2 id="hardware"&gt;Hardware&lt;/h2&gt;
+
+&lt;p&gt;One of the first things that we need to do is to enable &lt;a href="https://en.wikipedia.org/wiki/Hardware-assisted_virtualization"&gt;Hardware-assisted virtualization&lt;/a&gt;, also called accelerated virtualization, in your hardware. If your CPU was made before 2006, chances are, this feature won&amp;rsquo;t be present on your chip. Also, take note that this step is not compulsory to make use of the virtualization solution described in this post, but it will &lt;strong&gt;significantly&lt;/strong&gt; speed things up. To enable accelerated virtualization, go into BIOS/UEFI, and look for the knob that enables this feature. The name into which it goes is different from manufacturer to manufacturer. You can verify on the command line if your system indeed recognizes it.&lt;/p&gt;
+
+&lt;div class="brush: console"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; egrep &lt;span class="s1"&gt;&amp;#39;(vmx|svm)&amp;#39;&lt;/span&gt; /proc/cpuinfo
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;If it returns some text, then we&amp;rsquo;re good.&lt;/p&gt;
+
+&lt;h2 id="software"&gt;Software&lt;/h2&gt;
+
+&lt;p&gt;Next, we need to install the essential applications. The commands below are for NixOS, so change it accordingly for your system.&lt;/p&gt;
+
+&lt;div class="brush: console"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; nix-env -i qemu vde2 spice
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;This will install the &lt;a href="http://wiki.qemu.org/"&gt;QEMU&lt;/a&gt; hypervisor, &lt;a href="http://vde.sourceforge.net/"&gt;VDE&lt;/a&gt; tools, and &lt;a href="http://www.spice-space.org/"&gt;SPICE&lt;/a&gt; support. QEMU, at least during its early days had the &lt;em&gt;meh&lt;/em&gt; impression &amp;mdash; it is OK, but not stellar. Since version 0.10.1, QEMU started supporting &lt;a href="http://www.linux-kvm.org/"&gt;KVM&lt;/a&gt;, a virtualization subsystem for Linux, that provides near-native virtualization performance using hardware-assisted virtualization. It even rivals the performance of the virtualization solutions mentioned above.&lt;/p&gt;
+
+&lt;p&gt;Other suites offer the option of connecting to the guest machine&amp;rsquo;s display via VNC. The problem is that, it&amp;rsquo;s slow and clunky. The response time is just horrible. Using the &lt;a href="http://www.spice-space.org/"&gt;SPICE&lt;/a&gt; protocol, not only does it makes things faster, but it makes other things possible. Take note that SPICE is not a replacement for &lt;a href="https://en.wikipedia.org/wiki/Virtual_Network_Computing"&gt;VNC&lt;/a&gt;, but rather, it a different way of meeting our goals.&lt;/p&gt;
+
+&lt;h1 id="configuration"&gt;Configuration&lt;/h1&gt;
+
+&lt;h2 id="images"&gt;Images&lt;/h2&gt;
+
+&lt;p&gt;QEMU supports an array of image types, however the &lt;a href="https://en.wikipedia.org/wiki/Qcow"&gt;QCOW2&lt;/a&gt; format is the most flexible, and feature-rich, for QEMU use.&lt;/p&gt;
+
+&lt;p&gt;If you have an existing VirtualBox file (VDI), you can convert it to QCOW2 with:&lt;/p&gt;
+
+&lt;div class="brush: console"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; qemu-img convert -f vdi -O qcow2 vm.vdi vm.qcow2
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;However, if you don&amp;rsquo;t have an image, yet, you can create one with:&lt;/p&gt;
+
+&lt;div class="brush: console"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; qemu-img create -f qcow2 vm.qcow2 20G
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The last step creates a 20GB image, that is named &lt;strong&gt;vm.qcow2&lt;/strong&gt;. Take note that the extension name doesn&amp;rsquo;t really matter &amp;mdash; you can name your image as &lt;strong&gt;index.html&lt;/strong&gt;, but that wouldn&amp;rsquo;t make a lot of sense, right? :)&lt;/p&gt;
+
+&lt;h2 id="networking"&gt;Networking&lt;/h2&gt;
+
+&lt;p&gt;QEMU &lt;a href="http://wiki.qemu.org/Documentation/Networking"&gt;supports&lt;/a&gt; several ways of setting up networking for its guest, but for this post we&amp;rsquo;re going to use VDE.&lt;/p&gt;
+
+&lt;p&gt;We need to run several commands to prep the networking environment. Ideally, you&amp;rsquo;d want to save these in a shell function, or a shell script:&lt;/p&gt;
+
+&lt;div class="brush: console"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1
+2
+3
+4
+5&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; sudo vde_switch -tap tap0 -mod &lt;span class="m"&gt;660&lt;/span&gt; -group kvm -daemon
+&lt;span class="gp"&gt;$&lt;/span&gt; sudo ip addr add 10.0.2.1/24 dev tap0
+&lt;span class="gp"&gt;$&lt;/span&gt; sudo ip link &lt;span class="nb"&gt;set &lt;/span&gt;dev tap0 up
+&lt;span class="gp"&gt;$&lt;/span&gt; sudo sysctl -w net.ipv4.ip_forward&lt;span class="o"&gt;=&lt;/span&gt;1
+&lt;span class="gp"&gt;$&lt;/span&gt; sudo iptables -t nat -A POSTROUTING -s 10.0.2.0/24 -j MASQUERADE
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The above commands will:&lt;/p&gt;
+
+&lt;blockquote&gt;
+ &lt;ol&gt;
+  &lt;li&gt;Create a VDE device&lt;/li&gt;
+  &lt;li&gt;Configure the TCP/IP options for that device.&lt;/li&gt;
+  &lt;li&gt;Enable the VDE device.&lt;/li&gt;
+  &lt;li&gt;Enable packet forwarding on the host OS.&lt;/li&gt;
+  &lt;li&gt;Setup the routing configuration.&lt;/li&gt;&lt;/ol&gt;&lt;/blockquote&gt;
+
+&lt;h1 id="execution"&gt;Execution&lt;/h1&gt;
+
+&lt;h2 id="load-the-image"&gt;Load the image&lt;/h2&gt;
+
+&lt;p&gt;We now need to invoke &lt;strong&gt;qemu-kvm&lt;/strong&gt;, the command that will launch everything up. The name of the command may differ with the one installed on your system.&lt;/p&gt;
+
+&lt;p&gt;If you&amp;rsquo;re installing an OS from a bootable image, usually an ISO file, run:&lt;/p&gt;
+
+&lt;div class="brush: console"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1
+2
+3
+4
+5&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; qemu-kvm -cpu host -m 2G -net nic,model&lt;span class="o"&gt;=&lt;/span&gt;virtio -net vde &lt;span class="se"&gt;\&lt;/span&gt;
+&lt;span class="go"&gt;-device AC97,addr=0x18 -vga qxl \&lt;/span&gt;
+&lt;span class="go"&gt;-spice port=9999,addr=127.0.0.1,password=mysecretkey \&lt;/span&gt;
+&lt;span class="go"&gt;-boot once=d -cdrom installer.iso \&lt;/span&gt;
+&lt;span class="go"&gt;vm.qcow2&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;On subsequent uses:&lt;/p&gt;
+
+&lt;div class="brush: console"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1
+2
+3
+4&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; qemu-kvm -cpu host -m 2G -net nic,model&lt;span class="o"&gt;=&lt;/span&gt;virtio -net vde &lt;span class="se"&gt;\&lt;/span&gt;
+&lt;span class="go"&gt;-device AC97,addr=0x18 -vga qxl \&lt;/span&gt;
+&lt;span class="go"&gt;-spice port=9999,addr=127.0.0.1,password=mysecretkey \&lt;/span&gt;
+&lt;span class="go"&gt;vm.qcow2&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Let&amp;rsquo;s break that down:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;-cpu host&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Use the KVM processor with all the supported features&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;-m 2G&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Allocate 2GB of host memory for the guest. Adjust as necessary.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;-net nic,model=virtio -net vde&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Create a virtual NIC, and enable VDE networking&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;-device AC97,addr=0x18&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Specify the audio adapter to emulate. &lt;a href="https://en.wikipedia.org/wiki/AC%2797"&gt;AC97&lt;/a&gt; works reasonably well for most configurations.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;-vga qxl&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Specify the video adapter to emulate. Use QXL when using SPICE&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;-spice addr=127.0.0.1,port=9999,password=mysecretkey&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Specify the options for SPICE, separated by commas. &lt;strong&gt;addr&lt;/strong&gt; and &lt;strong&gt;port&lt;/strong&gt; are the IP address and TCP port that SPICE will listen on. Ideally, access to that port must be properly configured, and secured. &lt;strong&gt;password&lt;/strong&gt; is key that will be used by the SPICE client, &lt;code&gt;spicec&lt;/code&gt;, to connect to the guest display later.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;-boot once=d -cdrom installer.iso&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Boot initially from &lt;code&gt;installer.iso&lt;/code&gt;, then on subsequent boots, boot in the normal order.&lt;/p&gt;
+
+&lt;p&gt;Running the &lt;strong&gt;qemu-kvm&lt;/strong&gt; command above will load the image, but we won&amp;rsquo;t be able to view the display, yet.&lt;/p&gt;
+
+&lt;h2 id="connect-to-the-spice-display"&gt;Connect to the SPICE display&lt;/h2&gt;
+
+&lt;p&gt;To be able to use the guest machine&amp;rsquo;s display, we need to connect to the SPICE server, using the SPICE client &lt;strong&gt;spicec&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;div class="brush: console"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; spicec -h 127.0.0.1 -p &lt;span class="m"&gt;5901&lt;/span&gt; -w mysecretkey
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Take note that closing the spicec window will not kill the QEMU session. If the guest OS captures the mouse input, press &lt;strong&gt;Shift+F12&lt;/strong&gt;, to get out of it.&lt;/p&gt;
+
+&lt;h2 id="configure-guest-networking"&gt;Configure guest networking&lt;/h2&gt;
+
+&lt;p&gt;Next, we need to properly configure the network configuration of the guest OS so that it can connect to the rest of the local network, and to the internet if the host machine has access to it.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# IP address (any value from 10.0.2.2 to 10.0.2.254)
+10.0.2.2
+
+# Gateway (the host machines' address, from the guest machine's view.)
+10.0.2.1
+
+# DNS (Google's DNS service)
+8.8.8.8
+8.8.4.4&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id="closing-the-curtains"&gt;Closing the Curtains&lt;/h1&gt;
+
+&lt;h2 id="restore-networking"&gt;Restore networking&lt;/h2&gt;
+
+&lt;p&gt;If you want to explicitly revert the network configuration, do the following.&lt;/p&gt;
+
+&lt;div class="brush: console"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1
+2
+3
+4
+5
+6&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; sudo iptables -t nat -D POSTROUTING -s 10.0.2.0/24 -j MASQUERADE
+&lt;span class="gp"&gt;$&lt;/span&gt; sudo sysctl -w net.ipv4.ip_forward&lt;span class="o"&gt;=&lt;/span&gt;0
+&lt;span class="gp"&gt;$&lt;/span&gt; sudo ip link &lt;span class="nb"&gt;set &lt;/span&gt;dev tap0 down
+&lt;span class="gp"&gt;$&lt;/span&gt; sudo ip link delete tap0
+&lt;span class="gp"&gt;$&lt;/span&gt; sudo pkill -9 vde_switch
+&lt;span class="gp"&gt;$&lt;/span&gt; sudo rm -f /run/vde.ctl/ctl
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The above commands will:&lt;/p&gt;
+
+&lt;blockquote&gt;
+ &lt;ol&gt;
+  &lt;li&gt;Revert the routing configuration.&lt;/li&gt;
+  &lt;li&gt;Disable packet forwarding.&lt;/li&gt;
+  &lt;li&gt;Disable the VDE device.&lt;/li&gt;
+  &lt;li&gt;Delete the VDE device.&lt;/li&gt;
+  &lt;li&gt;Kill the VDE process.&lt;/li&gt;
+  &lt;li&gt;Remove control files.&lt;/li&gt;&lt;/ol&gt;&lt;/blockquote&gt;
+
+&lt;h1 id="conclusion"&gt;Conclusion&lt;/h1&gt;
+
+&lt;p&gt;QEMU supports a myriad of cool options that were not even discussed here, including saving and loading states (snapshots), creating screen and audio grabs, and a whole lot more. To learn more about them, click &lt;a href="http://wiki.qemu-project.org/Main_Page"&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;QEMU with KVM is a powerful, fast, and flexible solution for doing &lt;a href="https://en.wikipedia.org/wiki/Full_virtualization"&gt;Full Virtualization&lt;/a&gt;. At least in my case, it out-performs the well-known options in the market. If you want to contribute to this project, head over to their &lt;a href="https://github.com/qemu/qemu"&gt;GitHub page&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I hope this post helped you, in one way or another, learn more about QEMU and what it has to offer. Ciao!&lt;/p&gt;&lt;/html&gt;</content></entry>
  <entry>
   <title type="text">Setting up GPG and SSH in KDE</title>
   <link rel="alternate" href="http://ebzzry.github.io/blog/2014/09/17/setting-up-gpg-and-ssh-in-kde/?utm_source=sysadmin&amp;utm_medium=Atom" />
