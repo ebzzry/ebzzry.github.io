@@ -2,8 +2,8 @@
     Date: 2015-06-12T07:30:03
     Tags: compsci
 
-"You do not really understand something unless you can explain it to
-your grandmother." -- Albert Einstein
+_"You do not really understand something unless you can explain it to
+your grandmother." -- Albert Einstein_
 
 This post is my attempt to do just that, only that the grandmother
 here is myself. I firmly believe that unless I try to explain
