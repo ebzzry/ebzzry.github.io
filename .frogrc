@@ -1,7 +1,7 @@
 # Required: Should NOT end in trailing slash.
 scheme/host = http://ebzzry.github.io
 
-title = Cognizant Delusions
+title = Illusions of Cognizance
 author = Rommel Martinez
 
 # Whether to show the count of posts next to each tag in sidebar
@@ -45,7 +45,7 @@ feed-image-bugs? = true
 #
 # <https://twitter.com/racketlang/status/332176422003163138>
 #
-auto-embed-tweets? = true
+auto-embed-tweets? = false
 
 # Try to automatically link symbols in Markdown ```racket fenced code
 # blocks, to Racket documentation?
