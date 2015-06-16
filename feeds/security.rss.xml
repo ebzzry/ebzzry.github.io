@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?> 
-<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
- <title type="text">Live. Die. Repeat.: Posts tagged 'gpg'</title>
- <link rel="self" href="http://ebzzry.github.io/feeds/gpg.atom.xml" />
- <link href="http://ebzzry.github.io/tags/gpg.html" />
- <id>urn:http-ebzzry-github-io:-tags-gpg-html</id>
- <updated>2014-09-17T11:53:15Z</updated>
- <entry>
-  <title type="text">Setting up GPG and SSH in KDE</title>
-  <link rel="alternate" href="http://ebzzry.github.io/blog/2014/09/17/setting-up-gpg-and-ssh-in-kde/?utm_source=gpg&amp;utm_medium=Atom" />
-  <id>urn:http-ebzzry-github-io:-blog-2014-09-17-setting-up-gpg-and-ssh-in-kde</id>
-  <published>2014-09-17T11:53:15Z</published>
-  <updated>2014-09-17T11:53:15Z</updated>
-  <author>
-   <name>Rommel Martinez</name></author>
-  <content type="html">&lt;html&gt;
+<rss version="2.0">
+ <channel>
+  <title>Cognizant Delusions: Posts tagged 'security'</title>
+  <description>Cognizant Delusions: Posts tagged 'security'</description>
+  <link>http://ebzzry.github.io/tags/security.html</link>
+  <lastBuildDate>Wed, 17 Sep 2014 11:53:15 UT</lastBuildDate>
+  <pubDate>Wed, 17 Sep 2014 11:53:15 UT</pubDate>
+  <ttl>1800</ttl>
+  <item>
+   <title>Setting Up GPG and SSH in KDE</title>
+   <link>http://ebzzry.github.io/blog/2014/09/17/setting-up-gpg-and-ssh-in-kde/?utm_source=security&amp;utm_medium=RSS</link>
+   <guid>urn:http-ebzzry-github-io:-blog-2014-09-17-setting-up-gpg-and-ssh-in-kde</guid>
+   <pubDate>Wed, 17 Sep 2014 11:53:15 UT</pubDate>
+   <description>&lt;html&gt;
 &lt;p&gt;When both GPG and SSH are integrated with KDE, it makes inter-operating with those systems very easy. It will make the difference between a loose-fitting glove, and one that fits snugly.&lt;/p&gt;
 &lt;!-- more--&gt;
 
@@ -327,4 +326,4 @@ killall gpg-agent
 
 &lt;h1 id="conclusion"&gt;Conclusion&lt;/h1&gt;
 
-&lt;p&gt;The steps outline above are meant to be succinct without going through the gory details. I avoided reiterating what was already said before so as not to bore you to death. If you found this useful, feel free to comment below.&lt;/p&gt;&lt;/html&gt;</content></entry></feed>
+&lt;p&gt;The steps outline above are meant to be succinct without going through the gory details. I avoided reiterating what was already said before so as not to bore you to death. If you found this useful, feel free to comment below.&lt;/p&gt;&lt;/html&gt;</description></item></channel></rss>

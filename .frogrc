@@ -1,7 +1,7 @@
 # Required: Should NOT end in trailing slash.
 scheme/host = http://ebzzry.github.io
 
-title = Live. Die. Repeat.
+title = Cognizant Delusions
 author = Rommel Martinez
 
 # Whether to show the count of posts next to each tag in sidebar

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?> 
 <rss version="2.0">
  <channel>
-  <title>Live. Die. Repeat.: Posts tagged 'emacs'</title>
-  <description>Live. Die. Repeat.: Posts tagged 'emacs'</description>
+  <title>Cognizant Delusions: Posts tagged 'emacs'</title>
+  <description>Cognizant Delusions: Posts tagged 'emacs'</description>
   <link>http://ebzzry.github.io/tags/emacs.html</link>
   <lastBuildDate>Thu, 11 Jun 2015 22:30:00 UT</lastBuildDate>
   <pubDate>Thu, 11 Jun 2015 22:30:00 UT</pubDate>
@@ -362,7 +362,7 @@
 
 &lt;h1 id="conclusion"&gt;Conclusion&lt;/h1&gt;
 
-&lt;p&gt;That&amp;rsquo;s it for now. Ciao!&lt;/p&gt;&lt;/html&gt;</description></item>
+&lt;p&gt;If you an Emacs hack to share, let me know in the comments below. Ciao!&lt;/p&gt;&lt;/html&gt;</description></item>
   <item>
    <title>Emacs &amp; Mail</title>
    <link>http://ebzzry.github.io/blog/2014/02/17/emacs-mail/?utm_source=emacs&amp;utm_medium=RSS</link>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?> 
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
- <title type="text">Live. Die. Repeat.: Posts tagged 'emacs'</title>
+ <title type="text">Cognizant Delusions: Posts tagged 'emacs'</title>
  <link rel="self" href="http://ebzzry.github.io/feeds/emacs.atom.xml" />
  <link href="http://ebzzry.github.io/tags/emacs.html" />
  <id>urn:http-ebzzry-github-io:-tags-emacs-html</id>
@@ -363,7 +363,7 @@
 
 &lt;h1 id="conclusion"&gt;Conclusion&lt;/h1&gt;
 
-&lt;p&gt;That&amp;rsquo;s it for now. Ciao!&lt;/p&gt;&lt;/html&gt;</content></entry>
+&lt;p&gt;If you an Emacs hack to share, let me know in the comments below. Ciao!&lt;/p&gt;&lt;/html&gt;</content></entry>
  <entry>
   <title type="text">Emacs &amp; Mail</title>
   <link rel="alternate" href="http://ebzzry.github.io/blog/2014/02/17/emacs-mail/?utm_source=emacs&amp;utm_medium=Atom" />

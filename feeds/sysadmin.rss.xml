@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?> 
 <rss version="2.0">
  <channel>
-  <title>Live. Die. Repeat.: Posts tagged 'sysadmin'</title>
-  <description>Live. Die. Repeat.: Posts tagged 'sysadmin'</description>
+  <title>Cognizant Delusions: Posts tagged 'sysadmin'</title>
+  <description>Cognizant Delusions: Posts tagged 'sysadmin'</description>
   <link>http://ebzzry.github.io/tags/sysadmin.html</link>
   <lastBuildDate>Sun, 14 Jun 2015 19:50:50 UT</lastBuildDate>
   <pubDate>Sun, 14 Jun 2015 19:50:50 UT</pubDate>
@@ -56,7 +56,7 @@
 &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
 &lt;/div&gt;
 
-&lt;p&gt;This will install the &lt;a href="http://wiki.qemu.org/"&gt;QEMU&lt;/a&gt; hypervisor, &lt;a href="http://vde.sourceforge.net/"&gt;VDE&lt;/a&gt; tools, and &lt;a href="http://www.spice-space.org/"&gt;SPICE&lt;/a&gt; support. QEMU, at least during its early days had the &lt;em&gt;meh&lt;/em&gt; impression &amp;mdash; it is OK, but not stellar. Since version 0.10.1, QEMU started supporting &lt;a href="http://www.linux-kvm.org/"&gt;KVM&lt;/a&gt;, a virtualization subsystem for Linux, that provides near-native virtualization performance using hardware-assisted virtualization. It even rivals the performance of the virtualization solutions mentioned above.&lt;/p&gt;
+&lt;p&gt;This will install the &lt;a href="http://wiki.qemu.org/"&gt;QEMU&lt;/a&gt; (pronounced as kee-moo) hypervisor, &lt;a href="http://vde.sourceforge.net/"&gt;VDE&lt;/a&gt; tools, and &lt;a href="http://www.spice-space.org/"&gt;SPICE&lt;/a&gt; support. QEMU, at least during its early days had the &lt;em&gt;meh&lt;/em&gt; impression &amp;mdash; it is OK, but not stellar. Since version 0.10.1, QEMU started supporting &lt;a href="http://www.linux-kvm.org/"&gt;KVM&lt;/a&gt;, a virtualization subsystem for Linux, that provides near-native virtualization performance using hardware-assisted virtualization. It even rivals the performance of the virtualization solutions mentioned above.&lt;/p&gt;
 
 &lt;p&gt;Other suites offer the option of connecting to the guest machine&amp;rsquo;s display via VNC. The problem is that, it&amp;rsquo;s slow and clunky. The response time is just horrible. Using the &lt;a href="http://www.spice-space.org/"&gt;SPICE&lt;/a&gt; protocol, not only does it makes things faster, but it makes other things possible. Take note that SPICE is not a replacement for &lt;a href="https://en.wikipedia.org/wiki/Virtual_Network_Computing"&gt;VNC&lt;/a&gt;, but rather, it a different way of meeting our goals.&lt;/p&gt;
 
@@ -305,7 +305,7 @@
 
 &lt;p&gt;I hope this post helped you, in one way or another, learn more about QEMU and what it has to offer. Ciao!&lt;/p&gt;&lt;/html&gt;</description></item>
   <item>
-   <title>Setting up GPG and SSH in KDE</title>
+   <title>Setting Up GPG and SSH in KDE</title>
    <link>http://ebzzry.github.io/blog/2014/09/17/setting-up-gpg-and-ssh-in-kde/?utm_source=sysadmin&amp;utm_medium=RSS</link>
    <guid>urn:http-ebzzry-github-io:-blog-2014-09-17-setting-up-gpg-and-ssh-in-kde</guid>
    <pubDate>Wed, 17 Sep 2014 11:53:15 UT</pubDate>

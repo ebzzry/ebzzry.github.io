@@ -1,8 +1,8 @@
 # About
 
-Hi! My name is Rommel M. Martinez. I'm mostly software a engineer, and
+My name is Rommel M. Martinez. I'm mostly software a engineer, and
 a systems administrator. My interests are compiler design, automation,
-algorithms, programming languages, and psychology.
+algorithms, programming languages, philosophy, and psychology.
 
 I use [NixOS](http://nixos.org) as my main system. I write most of my
 programs in [Racket](http://racket-lang.org), and
