@@ -10,8 +10,4 @@ programs in [Racket](http://racket-lang.org), and
 [Clojure](http://clojure.org). I have a
 [GitHub](http://github.com/ebzzry) account.
 
-I take pictures of places, people, and things, and put them to my
-[gallery](http://ebzzry.deviantart.com). I also happen to love
-fighting, and FPS games.
-
-You may contact me at `ebzzry@gmail.com`.
+You may contact me at `(rot13 (reverse "lemmor"))@gmail.com`.
