@@ -1,6 +1,6 @@
 # About
 
-My name is Rommel M. Martinez. I'm mostly software a engineer, and
+My name is Rommel M. Martinez. I am a software a engineer, and
 a systems administrator. My interests are compiler design, automation,
 algorithms, programming languages, philosophy, and psychology.
 
