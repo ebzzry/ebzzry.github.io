@@ -8,9 +8,6 @@ Usync is a a site-to-site synchronization tool written in
 [rsync](http://rsync.samba.org/), for bi- and uni-directional
 synchronizations, respectively.
 
-The sources, along with additional information, are located at
-[github.com/ebzzry/usync](http://github.com/ebzzry/usync).
-
 <!-- more -->
 
 # Introduction
@@ -82,6 +79,9 @@ $ usync --help
 ```
 
 # Caveats
+
+The sources, along with additional information, are located at
+[github.com/ebzzry/usync](http://github.com/ebzzry/usync).
 
 This program has been used on FreeBSD, hence making the shebang
 line contain `/usr/local/bin/scsh`. Please change it, accordingly.

@@ -15,8 +15,6 @@
    <name>Rommel Martinez</name></author>
   <content type="html">&lt;html&gt;
 &lt;p&gt;Usync is a a site-to-site synchronization tool written in &lt;a href="http://www.scsh.net"&gt;Scsh&lt;/a&gt;. It makes use of &lt;a href="http://www.cis.upenn.edu/~bcpierce/unison/"&gt;Unison&lt;/a&gt;, and &lt;a href="http://rsync.samba.org/"&gt;rsync&lt;/a&gt;, for bi- and uni-directional synchronizations, respectively.&lt;/p&gt;
-
-&lt;p&gt;The sources, along with additional information, are located at &lt;a href="http://github.com/ebzzry/usync"&gt;github.com/ebzzry/usync&lt;/a&gt;.&lt;/p&gt;
 &lt;!-- more--&gt;
 
 &lt;h1 id="introduction"&gt;Introduction&lt;/h1&gt;
@@ -100,5 +98,7 @@
 &lt;/div&gt;
 
 &lt;h1 id="caveats"&gt;Caveats&lt;/h1&gt;
+
+&lt;p&gt;The sources, along with additional information, are located at &lt;a href="http://github.com/ebzzry/usync"&gt;github.com/ebzzry/usync&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;This program has been used on FreeBSD, hence making the shebang line contain &lt;code&gt;/usr/local/bin/scsh&lt;/code&gt;. Please change it, accordingly.&lt;/p&gt;&lt;/html&gt;</content></entry></feed>

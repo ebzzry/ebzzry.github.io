@@ -6,9 +6,9 @@
  <id>urn:http-ebzzry-github-io:-tags-virtualization-html</id>
  <updated>2015-06-14T19:50:50Z</updated>
  <entry>
-  <title type="text">Fast Virtualization with QEMU</title>
-  <link rel="alternate" href="http://ebzzry.github.io/blog/2015/06/15/fast-virtualization-with-qemu/?utm_source=virtualization&amp;utm_medium=Atom" />
-  <id>urn:http-ebzzry-github-io:-blog-2015-06-15-fast-virtualization-with-qemu</id>
+  <title type="text">Virtualizing with QEMU</title>
+  <link rel="alternate" href="http://ebzzry.github.io/blog/2015/06/15/virtualizing-with-qemu/?utm_source=virtualization&amp;utm_medium=Atom" />
+  <id>urn:http-ebzzry-github-io:-blog-2015-06-15-virtualizing-with-qemu</id>
   <published>2015-06-14T19:50:50Z</published>
   <updated>2015-06-14T19:50:50Z</updated>
   <author>

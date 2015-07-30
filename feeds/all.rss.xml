@@ -8,9 +8,9 @@
   <pubDate>Sun, 14 Jun 2015 19:50:50 UT</pubDate>
   <ttl>1800</ttl>
   <item>
-   <title>Fast Virtualization with QEMU</title>
-   <link>http://ebzzry.github.io/blog/2015/06/15/fast-virtualization-with-qemu/?utm_source=all&amp;utm_medium=RSS</link>
-   <guid>urn:http-ebzzry-github-io:-blog-2015-06-15-fast-virtualization-with-qemu</guid>
+   <title>Virtualizing with QEMU</title>
+   <link>http://ebzzry.github.io/blog/2015/06/15/virtualizing-with-qemu/?utm_source=all&amp;utm_medium=RSS</link>
+   <guid>urn:http-ebzzry-github-io:-blog-2015-06-15-virtualizing-with-qemu</guid>
    <pubDate>Sun, 14 Jun 2015 19:50:50 UT</pubDate>
    <description>&lt;html&gt;
 &lt;p&gt;Most of you are familiar with &lt;a href="https://en.wikipedia.org/wiki/Full_virtualization"&gt;Full Virtualization&lt;/a&gt; solutions before like VMware Workstation, VirtualBox, and Parallels. In this post, I&amp;rsquo;ll re-introduce you to another, arguably faster, way of doing things.&lt;/p&gt;
@@ -310,7 +310,9 @@
    <guid>urn:http-ebzzry-github-io:-blog-2015-06-12-a-lambda-calculus-primer</guid>
    <pubDate>Thu, 11 Jun 2015 23:30:03 UT</pubDate>
    <description>&lt;html&gt;
-&lt;p&gt;&lt;em&gt;&amp;ldquo;You do not really understand something unless you can explain it to your grandmother.&amp;rdquo; &amp;mdash; Albert Einstein&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&amp;ldquo;You do not really understand something unless you can explain it to your grandmother.&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;— Albert Einstein&lt;/p&gt;
 
 &lt;p&gt;This post is my attempt to do just that, only that the grandmother here is myself. I firmly believe that unless I try to explain something, will I really understand it. This post takes a very laid-back approach, and avoids very technical topics, unless warranted.&lt;/p&gt;
 &lt;!-- more--&gt;
@@ -1175,7 +1177,7 @@
    <guid>urn:http-ebzzry-github-io:-blog-2015-06-12-emacs-hacks-part-2</guid>
    <pubDate>Thu, 11 Jun 2015 22:30:00 UT</pubDate>
    <description>&lt;html&gt;
-&lt;p&gt;This is part 2 of my Emacs tips series. The contents of this post are written in no particular order. Like last time, the rest of the configuration can be found at &lt;a href="http://github.com/ebzzry/dotemacs"&gt;github.com/ebzzry/dotemacs&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This is second part of my Emacs tips series. The contents of this post are written in no particular order. It explores session management, packages, and other neat things.&lt;/p&gt;
 &lt;!-- more--&gt;
 
 &lt;h1 id="session-management"&gt;Session Management&lt;/h1&gt;
@@ -1523,6 +1525,8 @@
 &lt;/div&gt;
 
 &lt;h1 id="conclusion"&gt;Conclusion&lt;/h1&gt;
+
+&lt;p&gt;Like last time, the rest of the configuration can be found at &lt;a href="http://github.com/ebzzry/dotemacs"&gt;github.com/ebzzry/dotemacs&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;If you an Emacs hack to share, let me know in the comments below. Ciao!&lt;/p&gt;&lt;/html&gt;</description></item>
   <item>
@@ -2262,9 +2266,9 @@ killall gpg-agent
    <pubDate>Wed, 19 Feb 2014 06:07:11 UT</pubDate>
    <description>&lt;html&gt;
 &lt;p&gt;When publishing blog content to the web, most would rely on pre-fabricated services, that do most of the heavy lifting. However, there are instances when we want to have more control over our stuff. A good example of which are the constraints that providers enforce. Another is the presence of ads, or the use of freemium services, i.e., things can be done, only up to a certain visible limit.&lt;/p&gt;
+&lt;!-- more--&gt;
 
 &lt;p&gt;One may argue that all they need is a platform to blog with, and that they don&amp;rsquo;t need the extra flexibility. While that is fine, some of us, including me, want to free from these shackles. I don&amp;rsquo;t want ads on my site. I don&amp;rsquo;t want surprise censorship. I don&amp;rsquo;t want to pay for services that I can get for free. I want freedom. Now, if you&amp;rsquo;re like me, then read on.&lt;/p&gt;
-&lt;!-- more--&gt;
 
 &lt;h1 id="introduction"&gt;Introduction&lt;/h1&gt;
 
@@ -2756,9 +2760,9 @@ published.
    <pubDate>Mon, 17 Feb 2014 08:02:38 UT</pubDate>
    <description>&lt;html&gt;
 &lt;p&gt;In this day and age, checking our mail means going to the website of our mail provider, or using a mobile app. however, there are some cases when we want to have more control over our messages, especially when the feature we want is not present with the mainstream options.&lt;/p&gt;
+&lt;!-- more--&gt;
 
 &lt;p&gt;emacs provides a plethora (gnus, wanderlust, vm, etc.) of ways of sending and receiving mail. in this post, we&amp;rsquo;re going to talk &lt;a href="http://pyropus.ca/software/getmail/"&gt;getmail&lt;/a&gt;, &lt;a href="http://www.djcbsoftware.nl/code/mu/"&gt;mu&lt;/a&gt;, and &lt;a href="http://www.djcbsoftware.nl/code/mu/mu4e.html"&gt;mu4e&lt;/a&gt;, and how to set them up quickly. In this tutorial We&amp;rsquo;ll assume that we&amp;rsquo;re going to get our messages from &lt;a href="http://gmail.com"&gt;Gmail&lt;/a&gt; via its IMAP interface.&lt;/p&gt;
-&lt;!-- more--&gt;
 
 &lt;h1 id="fetching-messages"&gt;Fetching Messages&lt;/h1&gt;
 
@@ -3498,8 +3502,6 @@ drwxr-xr-x 3 john users 4096 Sep 26 05:39 vids&lt;/code&gt;&lt;/pre&gt;
    <pubDate>Tue, 10 Sep 2013 05:23:34 UT</pubDate>
    <description>&lt;html&gt;
 &lt;p&gt;In this series of posts, I will be sharing my personal hacks on how I use Emacs for my day-to-day stuff. Most, if not all of the code contained in these posts are excerpts from the respective configuration files that I use.&lt;/p&gt;
-
-&lt;p&gt;The rest of the configuration can be found at &lt;a href="http://github.com/ebzzry/dotemacs"&gt;github.com/ebzzry/dotemacs&lt;/a&gt;.&lt;/p&gt;
 &lt;!-- more--&gt;
 
 &lt;div class="brush: elisp"&gt;
@@ -3806,6 +3808,10 @@ eh &lt;span class="o"&gt;()&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt; em
 
 &lt;p&gt;There have been plenty of times in the past when I needed this function, and I would have to press a long series of keystrokes just to get it down. The above is what I have, instead.&lt;/p&gt;
 
+&lt;h1 id="conclusion"&gt;Conclusion&lt;/h1&gt;
+
+&lt;p&gt;The rest of the configuration can be found at &lt;a href="http://github.com/ebzzry/dotemacs"&gt;github.com/ebzzry/dotemacs&lt;/a&gt;.&lt;/p&gt;
+
 &lt;p&gt;Well, that is it for now. Ciao!&lt;/p&gt;&lt;/html&gt;</description></item>
   <item>
    <title>In Retrospect</title>
@@ -3813,11 +3819,11 @@ eh &lt;span class="o"&gt;()&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt; em
    <guid>urn:http-ebzzry-github-io:-blog-2013-07-11-in-retrospect</guid>
    <pubDate>Wed, 10 Jul 2013 16:21:55 UT</pubDate>
    <description>&lt;html&gt;
-&lt;p&gt;&lt;em&gt;&amp;ldquo;What won&amp;rsquo;t kill me will only make me stronger.&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&amp;ldquo;From life&amp;rsquo;s school of war: what does not kill me makes me stronger.&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;I haven&amp;rsquo;t fully appreciated what those words meant, prior to now.&lt;/p&gt;
+&lt;p&gt;— Friedrich Nietzche&lt;/p&gt;
 
-&lt;p&gt;I have learned that aside from experience, there is another important aspect, that life teaches us &amp;mdash; survival. When we are at the brink of collapse, breakdown, or even death, the most important things in our life flashes before our eyes.&lt;/p&gt;
+&lt;p&gt;I haven&amp;rsquo;t fully appreciated what those words meant, prior to now. I have learned that aside from experience, there is another important aspect, that life teaches us &amp;mdash; survival. When we are at the brink of collapse, breakdown, or even death, the most important things in our life flashes before our eyes.&lt;/p&gt;
 &lt;!-- more--&gt;
 
 &lt;p&gt;When we take a lot of pain, and survive it, we will live to tell the tale. We will live to share the story for generations to come. When we endure, and embrace the necessary agony, we are forced to think in retrospect. We are then forced to perform analysis. We are then put into a position, wherein, we can no longer procrastinate about the next ideal thing to do. I realized, that when we survive the ordeal, something magical begins to happen. And as for me, it came in the form of a rude awakening.&lt;/p&gt;
@@ -3845,9 +3851,7 @@ eh &lt;span class="o"&gt;()&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt; em
    <guid>urn:http-ebzzry-github-io:-blog-2013-05-29-an-introduction-to-livefrog</guid>
    <pubDate>Wed, 29 May 2013 07:10:34 UT</pubDate>
    <description>&lt;html&gt;
-&lt;p&gt;I am pleased to announce the release of &lt;strong&gt;livefrog&lt;/strong&gt;, a utility I wrote to migrate LiveJournal articles to &lt;a href="http://github.com/greghendershott/frog"&gt;Frog&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;The sources, along with additional information, are located at &lt;a href="http://github.com/ebzzry/livefrog"&gt;github.com/ebzzry/livefrog&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I have specific cases wherein we needed to convert LiveJournal articles to another format. There are tools that do this, however, I found none, so far, that translates to &lt;em&gt;Frog&lt;/em&gt; files. This is my feeble attempt to achive that.&lt;/p&gt;
 &lt;!-- more--&gt;
 
 &lt;h1 id="introduction"&gt;Introduction&lt;/h1&gt;
@@ -4075,7 +4079,9 @@ livefrog&lt;/code&gt; in your shell.&lt;/p&gt;
 &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
 &lt;/div&gt;
 
-&lt;p&gt;Replace &lt;code&gt;.bashrc&lt;/code&gt;, and &lt;code&gt;.cshrc&lt;/code&gt;, with the appropriate init file for your shell.&lt;/p&gt;&lt;/html&gt;</description></item>
+&lt;p&gt;Replace &lt;code&gt;.bashrc&lt;/code&gt;, and &lt;code&gt;.cshrc&lt;/code&gt;, with the appropriate init file for your shell.&lt;/p&gt;
+
+&lt;p&gt;The sources, along with additional information, are located at &lt;a href="http://github.com/ebzzry/livefrog"&gt;github.com/ebzzry/livefrog&lt;/a&gt;.&lt;/p&gt;&lt;/html&gt;</description></item>
   <item>
    <title>An Introduction to Usync</title>
    <link>http://ebzzry.github.io/blog/2013/05/21/an-introduction-to-usync/?utm_source=all&amp;utm_medium=RSS</link>
@@ -4083,8 +4089,6 @@ livefrog&lt;/code&gt; in your shell.&lt;/p&gt;
    <pubDate>Tue, 21 May 2013 11:18:33 UT</pubDate>
    <description>&lt;html&gt;
 &lt;p&gt;Usync is a a site-to-site synchronization tool written in &lt;a href="http://www.scsh.net"&gt;Scsh&lt;/a&gt;. It makes use of &lt;a href="http://www.cis.upenn.edu/~bcpierce/unison/"&gt;Unison&lt;/a&gt;, and &lt;a href="http://rsync.samba.org/"&gt;rsync&lt;/a&gt;, for bi- and uni-directional synchronizations, respectively.&lt;/p&gt;
-
-&lt;p&gt;The sources, along with additional information, are located at &lt;a href="http://github.com/ebzzry/usync"&gt;github.com/ebzzry/usync&lt;/a&gt;.&lt;/p&gt;
 &lt;!-- more--&gt;
 
 &lt;h1 id="introduction"&gt;Introduction&lt;/h1&gt;
@@ -4169,6 +4173,8 @@ livefrog&lt;/code&gt; in your shell.&lt;/p&gt;
 
 &lt;h1 id="caveats"&gt;Caveats&lt;/h1&gt;
 
+&lt;p&gt;The sources, along with additional information, are located at &lt;a href="http://github.com/ebzzry/usync"&gt;github.com/ebzzry/usync&lt;/a&gt;.&lt;/p&gt;
+
 &lt;p&gt;This program has been used on FreeBSD, hence making the shebang line contain &lt;code&gt;/usr/local/bin/scsh&lt;/code&gt;. Please change it, accordingly.&lt;/p&gt;&lt;/html&gt;</description></item>
   <item>
    <title>Squandered Relentlessness</title>
@@ -4176,8 +4182,10 @@ livefrog&lt;/code&gt; in your shell.&lt;/p&gt;
    <guid>urn:http-ebzzry-github-io:-blog-2013-05-09-squandered-relentlessness</guid>
    <pubDate>Thu, 09 May 2013 08:11:03 UT</pubDate>
    <description>&lt;html&gt;
-&lt;p&gt;There is a disturbing, and eerie sensation that I feel whenever the damping realization that I am no longer a young child, is observed in my consciousness. The uneasy struggle between learning to let go of my portentous past and my capricious future, grips me, with heavy clench. It is not about the inability to redo gratuitous expenditure of somewhat liberally-provided lax confinements of time, but it is about the unsettling observation that the mindset I previously took for granted, is now something that would require me Atlas strength to even begin to summon. I miss the unrelenting inquisitiveness that I once wielded with ease, to my daily scuffling scores with the hordes of raids of life.&lt;/p&gt;
+&lt;p&gt;There is a disturbing, and eerie sensation that I feel whenever the damping realization that I am no longer a young child, is observed in my consciousness. The uneasy struggle between learning to let go of my portentous past and my capricious future, grips me, with heavy clench.&lt;/p&gt;
 &lt;!-- more--&gt;
+
+&lt;p&gt;It is not about the inability to redo gratuitous expenditure of somewhat liberally-provided lax confinements of time, but it is about the unsettling observation that the mindset I previously took for granted, is now something that would require me Atlas strength to even begin to summon. I miss the unrelenting inquisitiveness that I once wielded with ease, to my daily scuffling scores with the hordes of raids of life.&lt;/p&gt;
 
 &lt;p&gt;When we move past our zones of comfort, we are filled with eagerness to return back to our own fortified bunkers. We see our own phantasmal doppelgangers, communicating and showing to us what impending atrocities may rise out of the ground, ready to devour us alive. The longer we stay outside, the higher the probability of death. We make ourselves believe our own convictions. We justify through our own uncalibrated scales of what choices to make. Whenever unfamiliar territory is explored, we almost instantly coil ourselves, back, into seemingly intractable forms. We do it because of fear. We do it because we do not like the unfamiliar. We do it because of our affinity and devotion to safety.&lt;/p&gt;
 
@@ -4196,8 +4204,10 @@ livefrog&lt;/code&gt; in your shell.&lt;/p&gt;
    <guid>urn:http-ebzzry-github-io:-blog-2013-05-09-over-under-and-elsewhere</guid>
    <pubDate>Thu, 09 May 2013 08:08:36 UT</pubDate>
    <description>&lt;html&gt;
-&lt;p&gt;Our cunning ability for oversight is deridingly high. Whether it may be solving a problem or just trying to be creative. Our impulse to over-engineer is unusually prevalent if our initial expectations are not met. We drag our consciousness to lengths almost unfathomable because we think that if we pour in a lot of thought, the outcome is positively and proportionately high according to our convictions. We complain about our lack of tools. We complain about our lack of resources. Yet, we are astonished and brought to shocking disbelief when someone does it with far less than what our hands have. We disenchant the probability that what we are precisely looking for, is right on our ear. Our ability to dismiss ideal options hulking right in front of us, is appalling. Why do we need to dig an underground tunnel to get in, when all that is needed is to knock?&lt;/p&gt;
+&lt;p&gt;Our cunning ability for oversight is deridingly high. Whether it may be solving a problem or just trying to be creative. Our impulse to over-engineer is unusually prevalent if our initial expectations are not met. We drag our consciousness to lengths almost unfathomable because we think that if we pour in a lot of thought, the outcome is positively and proportionately high according to our convictions.&lt;/p&gt;
 &lt;!-- more--&gt;
+
+&lt;p&gt;We complain about our lack of tools. We complain about our lack of resources. Yet, we are astonished and brought to shocking disbelief when someone does it with far less than what our hands have. We disenchant the probability that what we are precisely looking for, is right on our ear. Our ability to dismiss ideal options hulking right in front of us, is appalling. Why do we need to dig an underground tunnel to get in, when all that is needed is to knock?&lt;/p&gt;
 
 &lt;p&gt;It is very disturbing that we unjustifiably position ourselves to unfailingly accept words just because we have been told to assimilate them. We believe that they are truths without making the slightest advance towards ensuring that what you just heard is infallible. It is also disconcerting that for many, if not most, that they&amp;rsquo;d rather take what they have been told, as is, rather than be criticized for raising their hand to ask what could possibly be dubious claims. When we say yes, without giving the slightest amount of thought, we have effectively enveloped ourselves with a cloud-like cushion, that, while it makes everything immediately adjacent from your skin heavenly, we neglect to pursue the intellectual safety and we give ourselves self-approved parachutes.&lt;/p&gt;
 
@@ -4212,10 +4222,10 @@ livefrog&lt;/code&gt; in your shell.&lt;/p&gt;
    <guid>urn:http-ebzzry-github-io:-blog-2013-05-09-the-y-combinator-in-six-easy-steps</guid>
    <pubDate>Thu, 09 May 2013 04:43:11 UT</pubDate>
    <description>&lt;html&gt;
-&lt;p&gt;A lot of us have been taught that to be able to define a recursive procedure, the recursive invocation must &amp;ldquo;use&amp;rdquo; the name of the recursive procedure. The &lt;a href="http://en.wikipedia.org/wiki/Fixed-point_combinator#Y_combinator"&gt;Y combinator&lt;/a&gt; , however, lets us perform recursion, without referring to the named identifier.&lt;/p&gt;
+&lt;p&gt;A lot of us have been taught that to be able to define a recursive procedure, the recursive invocation must &amp;ldquo;use&amp;rdquo; the name of the recursive procedure. The &lt;a href="http://en.wikipedia.org/wiki/Fixed-point_combinator#Y_combinator"&gt;Y combinator&lt;/a&gt; , however, lets us perform recursion, without referring to the named identifier.&lt;/p&gt;
+&lt;!-- more--&gt;
 
 &lt;p&gt;The Y combinator has been both a source of inspiration and frustration for many. It evokes a eureka-like sensation once you get past the wall, but it also renders us scratching our heads when it just doesn&amp;rsquo;t make sense to traverse the labyrinth. This post aims to bring my own approach on how to derive the Y combinator. It may not be the most elegant way, but it may work for you.&lt;/p&gt;
-&lt;!-- more--&gt;
 
 &lt;p&gt;In the code examples in this post, the &lt;code&gt;&amp;gt;&lt;/code&gt; symbol denotes the prompt symbol for your Scheme implementation.&lt;/p&gt;
 

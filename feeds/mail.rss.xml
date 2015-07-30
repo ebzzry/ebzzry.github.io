@@ -14,9 +14,9 @@
    <pubDate>Mon, 17 Feb 2014 08:02:38 UT</pubDate>
    <description>&lt;html&gt;
 &lt;p&gt;In this day and age, checking our mail means going to the website of our mail provider, or using a mobile app. however, there are some cases when we want to have more control over our messages, especially when the feature we want is not present with the mainstream options.&lt;/p&gt;
+&lt;!-- more--&gt;
 
 &lt;p&gt;emacs provides a plethora (gnus, wanderlust, vm, etc.) of ways of sending and receiving mail. in this post, we&amp;rsquo;re going to talk &lt;a href="http://pyropus.ca/software/getmail/"&gt;getmail&lt;/a&gt;, &lt;a href="http://www.djcbsoftware.nl/code/mu/"&gt;mu&lt;/a&gt;, and &lt;a href="http://www.djcbsoftware.nl/code/mu/mu4e.html"&gt;mu4e&lt;/a&gt;, and how to set them up quickly. In this tutorial We&amp;rsquo;ll assume that we&amp;rsquo;re going to get our messages from &lt;a href="http://gmail.com"&gt;Gmail&lt;/a&gt; via its IMAP interface.&lt;/p&gt;
-&lt;!-- more--&gt;
 
 &lt;h1 id="fetching-messages"&gt;Fetching Messages&lt;/h1&gt;
 

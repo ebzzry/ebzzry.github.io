@@ -5,16 +5,17 @@
 There is a disturbing, and eerie sensation that I feel whenever the
 damping realization that I am no longer a young child, is observed in
 my consciousness. The uneasy struggle between learning to let go of my
-portentous past and my capricious future, grips me, with heavy
-clench. It is not about the inability to redo gratuitous expenditure
-of somewhat liberally-provided lax confinements of time, but it is
-about the unsettling observation that the mindset I previously took
-for granted, is now something that would require me Atlas strength to
-even begin to summon. I miss the unrelenting inquisitiveness that I
-once wielded with ease, to my daily scuffling scores with the hordes
-of raids of life.
+portentous past and my capricious future, grips me, with heavy clench.
 
 <!-- more -->
+
+It is not about the inability to redo gratuitous expenditure of
+somewhat liberally-provided lax confinements of time, but it is about
+the unsettling observation that the mindset I previously took for
+granted, is now something that would require me Atlas strength to even
+begin to summon. I miss the unrelenting inquisitiveness that I once
+wielded with ease, to my daily scuffling scores with the hordes of
+raids of life.
 
 When we move past our zones of comfort, we are filled with eagerness
 to return back to our own fortified bunkers. We see our own phantasmal

@@ -1,4 +1,4 @@
-    Title: Fast Virtualization with QEMU
+    Title: Virtualizing with QEMU
     Date: 2015-06-15T03:50:50
     Tags: virtualization, sysadmin
 

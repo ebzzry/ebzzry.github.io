@@ -13,7 +13,7 @@
    <guid>urn:http-ebzzry-github-io:-blog-2015-06-12-emacs-hacks-part-2</guid>
    <pubDate>Thu, 11 Jun 2015 22:30:00 UT</pubDate>
    <description>&lt;html&gt;
-&lt;p&gt;This is part 2 of my Emacs tips series. The contents of this post are written in no particular order. Like last time, the rest of the configuration can be found at &lt;a href="http://github.com/ebzzry/dotemacs"&gt;github.com/ebzzry/dotemacs&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This is second part of my Emacs tips series. The contents of this post are written in no particular order. It explores session management, packages, and other neat things.&lt;/p&gt;
 &lt;!-- more--&gt;
 
 &lt;h1 id="session-management"&gt;Session Management&lt;/h1&gt;
@@ -362,6 +362,8 @@
 
 &lt;h1 id="conclusion"&gt;Conclusion&lt;/h1&gt;
 
+&lt;p&gt;Like last time, the rest of the configuration can be found at &lt;a href="http://github.com/ebzzry/dotemacs"&gt;github.com/ebzzry/dotemacs&lt;/a&gt;.&lt;/p&gt;
+
 &lt;p&gt;If you an Emacs hack to share, let me know in the comments below. Ciao!&lt;/p&gt;&lt;/html&gt;</description></item>
   <item>
    <title>Emacs &amp; Racket</title>
@@ -689,8 +691,6 @@ drwxr-xr-x 3 john users 4096 Sep 26 05:39 vids&lt;/code&gt;&lt;/pre&gt;
    <pubDate>Tue, 10 Sep 2013 05:23:34 UT</pubDate>
    <description>&lt;html&gt;
 &lt;p&gt;In this series of posts, I will be sharing my personal hacks on how I use Emacs for my day-to-day stuff. Most, if not all of the code contained in these posts are excerpts from the respective configuration files that I use.&lt;/p&gt;
-
-&lt;p&gt;The rest of the configuration can be found at &lt;a href="http://github.com/ebzzry/dotemacs"&gt;github.com/ebzzry/dotemacs&lt;/a&gt;.&lt;/p&gt;
 &lt;!-- more--&gt;
 
 &lt;div class="brush: elisp"&gt;
@@ -997,6 +997,10 @@ eh &lt;span class="o"&gt;()&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt; em
 
 &lt;p&gt;There have been plenty of times in the past when I needed this function, and I would have to press a long series of keystrokes just to get it down. The above is what I have, instead.&lt;/p&gt;
 
+&lt;h1 id="conclusion"&gt;Conclusion&lt;/h1&gt;
+
+&lt;p&gt;The rest of the configuration can be found at &lt;a href="http://github.com/ebzzry/dotemacs"&gt;github.com/ebzzry/dotemacs&lt;/a&gt;.&lt;/p&gt;
+
 &lt;p&gt;Well, that is it for now. Ciao!&lt;/p&gt;&lt;/html&gt;</description></item>
   <item>
    <title>An Introduction to Livefrog</title>
@@ -1004,9 +1008,7 @@ eh &lt;span class="o"&gt;()&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt; em
    <guid>urn:http-ebzzry-github-io:-blog-2013-05-29-an-introduction-to-livefrog</guid>
    <pubDate>Wed, 29 May 2013 07:10:34 UT</pubDate>
    <description>&lt;html&gt;
-&lt;p&gt;I am pleased to announce the release of &lt;strong&gt;livefrog&lt;/strong&gt;, a utility I wrote to migrate LiveJournal articles to &lt;a href="http://github.com/greghendershott/frog"&gt;Frog&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;The sources, along with additional information, are located at &lt;a href="http://github.com/ebzzry/livefrog"&gt;github.com/ebzzry/livefrog&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I have specific cases wherein we needed to convert LiveJournal articles to another format. There are tools that do this, however, I found none, so far, that translates to &lt;em&gt;Frog&lt;/em&gt; files. This is my feeble attempt to achive that.&lt;/p&gt;
 &lt;!-- more--&gt;
 
 &lt;h1 id="introduction"&gt;Introduction&lt;/h1&gt;
@@ -1234,7 +1236,9 @@ livefrog&lt;/code&gt; in your shell.&lt;/p&gt;
 &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
 &lt;/div&gt;
 
-&lt;p&gt;Replace &lt;code&gt;.bashrc&lt;/code&gt;, and &lt;code&gt;.cshrc&lt;/code&gt;, with the appropriate init file for your shell.&lt;/p&gt;&lt;/html&gt;</description></item>
+&lt;p&gt;Replace &lt;code&gt;.bashrc&lt;/code&gt;, and &lt;code&gt;.cshrc&lt;/code&gt;, with the appropriate init file for your shell.&lt;/p&gt;
+
+&lt;p&gt;The sources, along with additional information, are located at &lt;a href="http://github.com/ebzzry/livefrog"&gt;github.com/ebzzry/livefrog&lt;/a&gt;.&lt;/p&gt;&lt;/html&gt;</description></item>
   <item>
    <title>An Introduction to Usync</title>
    <link>http://ebzzry.github.io/blog/2013/05/21/an-introduction-to-usync/?utm_source=programming&amp;utm_medium=RSS</link>
@@ -1242,8 +1246,6 @@ livefrog&lt;/code&gt; in your shell.&lt;/p&gt;
    <pubDate>Tue, 21 May 2013 11:18:33 UT</pubDate>
    <description>&lt;html&gt;
 &lt;p&gt;Usync is a a site-to-site synchronization tool written in &lt;a href="http://www.scsh.net"&gt;Scsh&lt;/a&gt;. It makes use of &lt;a href="http://www.cis.upenn.edu/~bcpierce/unison/"&gt;Unison&lt;/a&gt;, and &lt;a href="http://rsync.samba.org/"&gt;rsync&lt;/a&gt;, for bi- and uni-directional synchronizations, respectively.&lt;/p&gt;
-
-&lt;p&gt;The sources, along with additional information, are located at &lt;a href="http://github.com/ebzzry/usync"&gt;github.com/ebzzry/usync&lt;/a&gt;.&lt;/p&gt;
 &lt;!-- more--&gt;
 
 &lt;h1 id="introduction"&gt;Introduction&lt;/h1&gt;
@@ -1328,6 +1330,8 @@ livefrog&lt;/code&gt; in your shell.&lt;/p&gt;
 
 &lt;h1 id="caveats"&gt;Caveats&lt;/h1&gt;
 
+&lt;p&gt;The sources, along with additional information, are located at &lt;a href="http://github.com/ebzzry/usync"&gt;github.com/ebzzry/usync&lt;/a&gt;.&lt;/p&gt;
+
 &lt;p&gt;This program has been used on FreeBSD, hence making the shebang line contain &lt;code&gt;/usr/local/bin/scsh&lt;/code&gt;. Please change it, accordingly.&lt;/p&gt;&lt;/html&gt;</description></item>
   <item>
    <title>The Y Combinator in Six Easy Steps</title>
@@ -1335,10 +1339,10 @@ livefrog&lt;/code&gt; in your shell.&lt;/p&gt;
    <guid>urn:http-ebzzry-github-io:-blog-2013-05-09-the-y-combinator-in-six-easy-steps</guid>
    <pubDate>Thu, 09 May 2013 04:43:11 UT</pubDate>
    <description>&lt;html&gt;
-&lt;p&gt;A lot of us have been taught that to be able to define a recursive procedure, the recursive invocation must &amp;ldquo;use&amp;rdquo; the name of the recursive procedure. The &lt;a href="http://en.wikipedia.org/wiki/Fixed-point_combinator#Y_combinator"&gt;Y combinator&lt;/a&gt; , however, lets us perform recursion, without referring to the named identifier.&lt;/p&gt;
+&lt;p&gt;A lot of us have been taught that to be able to define a recursive procedure, the recursive invocation must &amp;ldquo;use&amp;rdquo; the name of the recursive procedure. The &lt;a href="http://en.wikipedia.org/wiki/Fixed-point_combinator#Y_combinator"&gt;Y combinator&lt;/a&gt; , however, lets us perform recursion, without referring to the named identifier.&lt;/p&gt;
+&lt;!-- more--&gt;
 
 &lt;p&gt;The Y combinator has been both a source of inspiration and frustration for many. It evokes a eureka-like sensation once you get past the wall, but it also renders us scratching our heads when it just doesn&amp;rsquo;t make sense to traverse the labyrinth. This post aims to bring my own approach on how to derive the Y combinator. It may not be the most elegant way, but it may work for you.&lt;/p&gt;
-&lt;!-- more--&gt;
 
 &lt;p&gt;In the code examples in this post, the &lt;code&gt;&amp;gt;&lt;/code&gt; symbol denotes the prompt symbol for your Scheme implementation.&lt;/p&gt;
 

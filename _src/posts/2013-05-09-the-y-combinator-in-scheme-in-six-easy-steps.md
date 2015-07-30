@@ -4,10 +4,12 @@
 
 A lot of us have been taught that to be able to define a recursive
 procedure, the recursive invocation must "use" the name of the
-recursive procedure. The
+recursive procedure. The
 [Y combinator](http://en.wikipedia.org/wiki/Fixed-point_combinator#Y_combinator)
 , however, lets us perform recursion, without referring to the named
 identifier.
+
+<!-- more -->
 
 The Y combinator has been both a source of inspiration and frustration
 for many. It evokes a eureka-like sensation once you get past the
@@ -15,8 +17,6 @@ wall, but it also renders us scratching our heads when it just doesn't
 make sense to traverse the labyrinth. This post aims to bring my own
 approach on how to derive the Y combinator. It may not be the most
 elegant way, but it may work for you.
-
-<!-- more -->
 
 In the code examples in this post, the `>` symbol denotes the prompt
 symbol for your Scheme implementation.

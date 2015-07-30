@@ -7,9 +7,6 @@ I use Emacs for my day-to-day stuff. Most, if not all of the code
 contained in these posts are excerpts from the respective
 configuration files that I use.
 
-The rest of the configuration can be found at
-[github.com/ebzzry/dotemacs](http://github.com/ebzzry/dotemacs).
-
 <!-- more -->
 
 ```elisp
@@ -158,5 +155,10 @@ A lot of us have this, but this is my simple, unconvoluted version
 There have been plenty of times in the past when I needed this
 function, and I would have to press a long series of keystrokes just
 to get it down. The above is what I have, instead.
+
+# Conclusion
+
+The rest of the configuration can be found at
+[github.com/ebzzry/dotemacs](http://github.com/ebzzry/dotemacs).
 
 Well, that is it for now. Ciao!

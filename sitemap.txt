@@ -13,6 +13,6 @@ http://ebzzry.github.io/blog/2014/02/19/an-introduction-to-frog/
 http://ebzzry.github.io/blog/2015/06/12/emacs-hacks-part-2/
 http://ebzzry.github.io/blog/2013/05/09/the-y-combinator-in-six-easy-steps/
 http://ebzzry.github.io/blog/2014/02/17/emacs-mail/
-http://ebzzry.github.io/blog/2015/06/15/fast-virtualization-with-qemu/
+http://ebzzry.github.io/blog/2015/06/15/virtualizing-with-qemu/
 http://ebzzry.github.io/links.html
 http://ebzzry.github.io/about.html
