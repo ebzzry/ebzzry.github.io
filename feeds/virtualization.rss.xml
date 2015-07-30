@@ -8,9 +8,9 @@
   <pubDate>Sun, 14 Jun 2015 19:50:50 UT</pubDate>
   <ttl>1800</ttl>
   <item>
-   <title>Fast Virtualization with QEMU</title>
-   <link>http://ebzzry.github.io/blog/2015/06/15/fast-virtualization-with-qemu/?utm_source=virtualization&amp;utm_medium=RSS</link>
-   <guid>urn:http-ebzzry-github-io:-blog-2015-06-15-fast-virtualization-with-qemu</guid>
+   <title>Virtualizing with QEMU</title>
+   <link>http://ebzzry.github.io/blog/2015/06/15/virtualizing-with-qemu/?utm_source=virtualization&amp;utm_medium=RSS</link>
+   <guid>urn:http-ebzzry-github-io:-blog-2015-06-15-virtualizing-with-qemu</guid>
    <pubDate>Sun, 14 Jun 2015 19:50:50 UT</pubDate>
    <description>&lt;html&gt;
 &lt;p&gt;Most of you are familiar with &lt;a href="https://en.wikipedia.org/wiki/Full_virtualization"&gt;Full Virtualization&lt;/a&gt; solutions before like VMware Workstation, VirtualBox, and Parallels. In this post, I&amp;rsquo;ll re-introduce you to another, arguably faster, way of doing things.&lt;/p&gt;

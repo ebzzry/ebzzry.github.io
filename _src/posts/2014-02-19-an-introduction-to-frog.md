@@ -2,20 +2,22 @@
     Date: 2014-02-19T14:07:11
     Tags: racket, web
 
-When publishing blog content to the web, most would rely on pre-fabricated
-services, that do most of the heavy lifting. However, there are instances when
-we want to have more control over our stuff. A good example of which are the
-constraints that providers enforce. Another is the presence of ads, or the use
-of freemium services, i.e., things can be done, only up to a certain visible
+When publishing blog content to the web, most would rely on
+pre-fabricated services, that do most of the heavy lifting. However,
+there are instances when we want to have more control over our
+stuff. A good example of which are the constraints that providers
+enforce. Another is the presence of ads, or the use of freemium
+services, i.e., things can be done, only up to a certain visible
 limit.
 
-One may argue that all they need is a platform to blog with, and that they
-don't need the extra flexibility. While that is fine, some of us, including me,
-want to free from these shackles. I don't want ads on my site. I don't want
-surprise censorship. I don't want to pay for services that I can get for
-free. I want freedom. Now, if you're like me, then read on.
-
 <!-- more -->
+
+One may argue that all they need is a platform to blog with, and that
+they don't need the extra flexibility. While that is fine, some of us,
+including me, want to free from these shackles. I don't want ads on my
+site. I don't want surprise censorship. I don't want to pay for
+services that I can get for free. I want freedom. Now, if you're like
+me, then read on.
 
 # Introduction
 

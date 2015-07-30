@@ -2,20 +2,20 @@
     Date: 2014-02-17T16:02:38
     Tags: emacs, mail
 
-In this day and age, checking our mail means going to the website of our mail
-provider, or using a mobile app. however, there are some cases when we want to
-have more control over our messages, especially when the feature we want is not
-present with the mainstream options.
-
-emacs provides a plethora (gnus, wanderlust, vm, etc.) of ways of sending and
-receiving mail. in this post, we're going to talk
-[getmail](http://pyropus.ca/software/getmail/),
-[mu](http://www.djcbsoftware.nl/code/mu/), and
-[mu4e](http://www.djcbsoftware.nl/code/mu/mu4e.html), and how to
-set them up quickly. In this tutorial We'll assume that we're going to get our
-messages from [Gmail](http://gmail.com) via its IMAP interface.
+In this day and age, checking our mail means going to the website of
+our mail provider, or using a mobile app. however, there are some
+cases when we want to have more control over our messages, especially
+when the feature we want is not present with the mainstream options.
 
 <!-- more -->
+
+emacs provides a plethora (gnus, wanderlust, vm, etc.) of ways of
+sending and receiving mail. in this post, we're going to talk
+[getmail](http://pyropus.ca/software/getmail/),
+[mu](http://www.djcbsoftware.nl/code/mu/), and
+[mu4e](http://www.djcbsoftware.nl/code/mu/mu4e.html), and how to set
+them up quickly. In this tutorial We'll assume that we're going to get
+our messages from [Gmail](http://gmail.com) via its IMAP interface.
 
 # Fetching Messages
 
