@@ -13,7 +13,9 @@
    <guid>urn:http-ebzzry-github-io:-blog-2015-06-12-a-lambda-calculus-primer</guid>
    <pubDate>Thu, 11 Jun 2015 23:30:03 UT</pubDate>
    <description>&lt;html&gt;
-&lt;p&gt;&lt;em&gt;&amp;ldquo;You do not really understand something unless you can explain it to your grandmother.&amp;rdquo; &amp;mdash; Albert Einstein&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&amp;ldquo;You do not really understand something unless you can explain it to your grandmother.&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;— Albert Einstein&lt;/p&gt;
 
 &lt;p&gt;This post is my attempt to do just that, only that the grandmother here is myself. I firmly believe that unless I try to explain something, will I really understand it. This post takes a very laid-back approach, and avoids very technical topics, unless warranted.&lt;/p&gt;
 &lt;!-- more--&gt;

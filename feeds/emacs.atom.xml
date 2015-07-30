@@ -14,7 +14,7 @@
   <author>
    <name>Rommel Martinez</name></author>
   <content type="html">&lt;html&gt;
-&lt;p&gt;This is part 2 of my Emacs tips series. The contents of this post are written in no particular order. Like last time, the rest of the configuration can be found at &lt;a href="http://github.com/ebzzry/dotemacs"&gt;github.com/ebzzry/dotemacs&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This is second part of my Emacs tips series. The contents of this post are written in no particular order. It explores session management, packages, and other neat things.&lt;/p&gt;
 &lt;!-- more--&gt;
 
 &lt;h1 id="session-management"&gt;Session Management&lt;/h1&gt;
@@ -363,6 +363,8 @@
 
 &lt;h1 id="conclusion"&gt;Conclusion&lt;/h1&gt;
 
+&lt;p&gt;Like last time, the rest of the configuration can be found at &lt;a href="http://github.com/ebzzry/dotemacs"&gt;github.com/ebzzry/dotemacs&lt;/a&gt;.&lt;/p&gt;
+
 &lt;p&gt;If you an Emacs hack to share, let me know in the comments below. Ciao!&lt;/p&gt;&lt;/html&gt;</content></entry>
  <entry>
   <title type="text">Emacs &amp; Mail</title>
@@ -374,9 +376,9 @@
    <name>Rommel Martinez</name></author>
   <content type="html">&lt;html&gt;
 &lt;p&gt;In this day and age, checking our mail means going to the website of our mail provider, or using a mobile app. however, there are some cases when we want to have more control over our messages, especially when the feature we want is not present with the mainstream options.&lt;/p&gt;
+&lt;!-- more--&gt;
 
 &lt;p&gt;emacs provides a plethora (gnus, wanderlust, vm, etc.) of ways of sending and receiving mail. in this post, we&amp;rsquo;re going to talk &lt;a href="http://pyropus.ca/software/getmail/"&gt;getmail&lt;/a&gt;, &lt;a href="http://www.djcbsoftware.nl/code/mu/"&gt;mu&lt;/a&gt;, and &lt;a href="http://www.djcbsoftware.nl/code/mu/mu4e.html"&gt;mu4e&lt;/a&gt;, and how to set them up quickly. In this tutorial We&amp;rsquo;ll assume that we&amp;rsquo;re going to get our messages from &lt;a href="http://gmail.com"&gt;Gmail&lt;/a&gt; via its IMAP interface.&lt;/p&gt;
-&lt;!-- more--&gt;
 
 &lt;h1 id="fetching-messages"&gt;Fetching Messages&lt;/h1&gt;
 
@@ -1125,8 +1127,6 @@ drwxr-xr-x 3 john users 4096 Sep 26 05:39 vids&lt;/code&gt;&lt;/pre&gt;
    <name>Rommel Martinez</name></author>
   <content type="html">&lt;html&gt;
 &lt;p&gt;In this series of posts, I will be sharing my personal hacks on how I use Emacs for my day-to-day stuff. Most, if not all of the code contained in these posts are excerpts from the respective configuration files that I use.&lt;/p&gt;
-
-&lt;p&gt;The rest of the configuration can be found at &lt;a href="http://github.com/ebzzry/dotemacs"&gt;github.com/ebzzry/dotemacs&lt;/a&gt;.&lt;/p&gt;
 &lt;!-- more--&gt;
 
 &lt;div class="brush: elisp"&gt;
@@ -1432,5 +1432,9 @@ eh &lt;span class="o"&gt;()&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt; em
 &lt;/div&gt;
 
 &lt;p&gt;There have been plenty of times in the past when I needed this function, and I would have to press a long series of keystrokes just to get it down. The above is what I have, instead.&lt;/p&gt;
+
+&lt;h1 id="conclusion"&gt;Conclusion&lt;/h1&gt;
+
+&lt;p&gt;The rest of the configuration can be found at &lt;a href="http://github.com/ebzzry/dotemacs"&gt;github.com/ebzzry/dotemacs&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Well, that is it for now. Ciao!&lt;/p&gt;&lt;/html&gt;</content></entry></feed>
