@@ -2,20 +2,19 @@
     Date: 2013-05-29T15:10:34
     Tags: racket, programming
 
-I am pleased to announce the release of **livefrog**, a utility I
-wrote to migrate LiveJournal articles to
-[Frog](http://github.com/greghendershott/frog).
-
-The sources, along with additional information, are located at
-[github.com/ebzzry/livefrog](http://github.com/ebzzry/livefrog).
+I have specific cases wherein we needed to convert LiveJournal
+articles to another format. There are tools that do this, however, I
+found none, so far, that translates to _Frog_ files. This is my feeble
+attempt to achive that.
 
 <!-- more -->
 
 # Introduction
 
-livefrog is a utility written in [Racket](http://racket-lang.org), used to migrate LiveJournal posts to
-[Frog](https://github.com/greghendershott/frog/), a blogging
-platform written in Racket, too. It uses the files dumped by either
+livefrog is a utility written in [Racket](http://racket-lang.org),
+used to migrate LiveJournal posts to
+[Frog](https://github.com/greghendershott/frog/), a blogging platform
+written in Racket, too. It uses the files dumped by either
 [ljdump](http://hewgill.com/ljdump/), or
 [ljmigrate](http://github.com/ceejbot/ljmigrate).
 
@@ -168,3 +167,6 @@ $ echo 'alias livefrog raco livefrog' >> ~/.cshrc
 
 Replace `.bashrc`, and `.cshrc`, with the appropriate init file for
 your shell.
+
+The sources, along with additional information, are located at
+[github.com/ebzzry/livefrog](http://github.com/ebzzry/livefrog).

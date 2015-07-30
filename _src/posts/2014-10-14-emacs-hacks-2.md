@@ -2,10 +2,9 @@
     Date: 2015-06-12T06:30:00
     Tags: emacs, programming
 
-This is part 2 of my Emacs tips series. The contents of this post are
-written in no particular order. Like last time, the rest of the
-configuration can be found at
-[github.com/ebzzry/dotemacs](http://github.com/ebzzry/dotemacs).
+This is second part of my Emacs tips series. The contents of this post
+are written in no particular order. It explores session management,
+packages, and other neat things.
 
 <!-- more -->
 
@@ -194,5 +193,9 @@ A sample would look like the following:
 ```
 
 # Conclusion
+
+Like last time, the rest of the configuration can be found at
+[github.com/ebzzry/dotemacs](http://github.com/ebzzry/dotemacs).
+
 If you an Emacs hack to share, let me know in the comments
 below. Ciao!
