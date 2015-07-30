@@ -7,16 +7,17 @@ be solving a problem or just trying to be creative. Our impulse to
 over-engineer is unusually prevalent if our initial expectations are
 not met. We drag our consciousness to lengths almost unfathomable
 because we think that if we pour in a lot of thought, the outcome is
-positively and proportionately high according to our convictions. We
-complain about our lack of tools. We complain about our lack of
+positively and proportionately high according to our convictions.
+
+<!-- more -->
+
+We complain about our lack of tools. We complain about our lack of
 resources. Yet, we are astonished and brought to shocking disbelief
 when someone does it with far less than what our hands have. We
 disenchant the probability that what we are precisely looking for, is
 right on our ear. Our ability to dismiss ideal options hulking right
 in front of us, is appalling. Why do we need to dig an underground
 tunnel to get in, when all that is needed is to knock?
-
-<!-- more -->
 
 It is very disturbing that we unjustifiably position ourselves to
 unfailingly accept words just because we have been told to assimilate
