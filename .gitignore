@@ -1,5 +1,5 @@
 /static
 *.html
 Makefile
-
+build.zsh
 
