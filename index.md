@@ -3,6 +3,7 @@ Illusions of Cognizance
 
 A random blog about computing, philosophy, and pseudorandom stuff.
 
+* [Conkeror's Bookmarks](conkeror-bookmarks.html)
 * [Emacs and Hacks (Part III)](emacs-hacks-3.html)
 * [Virtualizing with KVM](kvm.html)
 * [A Lambda Calculus Primer](lambda-calculus.html)
@@ -24,6 +25,6 @@ A random blog about computing, philosophy, and pseudorandom stuff.
 
 ***
 <center>
-<small>Site created with [emem](https://github.com/ebzzry/emem), and [emacs](https://gnu.org/software/emacs).</small><br />
+<small>Site created with [emem](https://github.com/ebzzry/emem)</small><br />
   <small>Copyright © Rommel M. Martinez</small>
 </center
