@@ -5,7 +5,7 @@ Emacs and Racket
 
 In this post, I'll discuss the easiest approach that I took to setup
 up a [Racket](https://racket-lang.org) development environment on
-Emacs. Take note, that this is not the only approach available -- some
+Emacs. Take note, that this is not the only approach available — some
 did it in arguably better ways. In this article, I'll try to explain
 the shortest route that I took.
 
@@ -80,7 +80,7 @@ THANKS
 Next, we want the directory `~/.emacs.d/elisp/geiser/elisp/` to be a
 member of the Emacs variable `load-path` so that `require` and friends
 will know where to find things. To do that, add the following to your
-Emacs init file -- either in `~/.emacs.d/init.el`, or in `~/.emacs`
+Emacs init file — either in `~/.emacs.d/init.el`, or in `~/.emacs`
 (deprecated):
 
 ```lisp
@@ -101,7 +101,7 @@ Next, we'll put in the actual code that invokes and configures Geiser:
 
 The first expression loads Geiser, itself. The second one specifies
 that it won't prompt you for other implementations if it finds
-them. The last one is optional -- it enables you to execute `M-x
+them. The last one is optional — it enables you to execute `M-x
 geiser-save RET` in the REPL buffer to force saving of the history to
 the disk file, which is `~/.geiser_history.racket`, by default. It is
 useful if you want to save your REPL session, immediately (Nothing is

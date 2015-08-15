@@ -64,18 +64,6 @@ buffer before the input ring has been saved.
 I also have the above, since I want to align the `λ` symbol nicely.
 
 
-## TRAMP
-
-```lisp
-(require 'tramp)
-
-(add-to-list 'tramp-remote-path "/var/run/current-system/sw/bin")
-```
-
-The above snippet is mostly applicable only to users of NixOS, since
-the filesystem tree is defiantly different from "regular" nixen.
-
-
 ## Server
 
 ```lisp

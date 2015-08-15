@@ -210,7 +210,7 @@ more, you can read the nice
 
 Optionally, you may want to add some tweaks so that encryption and
 decryption of messages, will be easier. This is actually one of my
-primary reasons why I'm using mu4e -- it has been pointed out to me
+primary reasons why I'm using mu4e — it has been pointed out to me
 that despite using browser extensions like
 [FireGPG](http://getfiregpg.org/s/home), and
 [It's All Text!](https://addons.mozilla.org/en-US/firefox/addon/its-all-text/),
@@ -278,7 +278,7 @@ prompted if you'll want to replace the contents of the buffer, say yes
 to this.
 
 These approaches are not fool-proof, because there's at least two
-gaping holes that you have to be aware of -- emacs backups, and mu4e
+gaping holes that you have to be aware of — emacs backups, and mu4e
 drafts. With the former, when you are using emacs' backup facility, or
 a package like
 [backup-dir](http://www.emacswiki.org/emacs/BackupDirectory), messages

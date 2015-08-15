@@ -10,9 +10,9 @@ characters like parentheses, braces, brackets, and just about anything
 that has pairs.
 
 
-## Forced Newlines
+## Newline Sans Indent
 
-```
+```lisp
 (defun newline-and-no-indent (&optional arg)
   (interactive "p")
   (open-line arg)
@@ -25,7 +25,7 @@ simulates a behavior wherein the new line doesn't indent.
 
 ## Fills
 
-```
+```lisp
 (defun fill-region-or-paragraph ()
   (interactive)
   (if (region-active-p)
@@ -35,35 +35,35 @@ simulates a behavior wherein the new line doesn't indent.
 
 The snippet above works great when working when working with plain
 text. It indent a paragraph, or the current paragraph context. If
-there is a mark, the region becomes indented.
+there is a mark, the region becomes filled.
 
 
 ## Pasting
 
-```
-(defun yank-primary (&optional arg)
-  (interactive "p")
+```lisp
+(defun yank-primary ()
+  (interactive)
   (insert-for-yank (x-get-selection 'PRIMARY)))
 ```
 
 Emacs, by default pastes (yanks) from the secondary, or clipboard
-selection. The command above yanks from the primary selection -- mouse
+selection. The command above yanks from the primary selection — mouse
 highlights.
 
 
 ## Cursor Movement
 
-```
-(defun move-to-window-line-top (&optional arg)
-  (interactive "p")
+```lisp
+(defun move-to-window-line-top ()
+  (interactive)
   (move-to-window-line 0))
 
-(defun move-to-window-line-center (&optional arg)
-  (interactive "p")
+(defun move-to-window-line-center ()
+  (interactive)
   (move-to-window-line nil))
 
-(defun move-to-window-line-bottom (&optional arg)
-  (interactive "p")
+(defun move-to-window-line-bottom ()
+  (interactive)
   (move-to-window-line -1))
 ```
 
@@ -77,7 +77,7 @@ center, and bottom window positions, respectively.
 
 ## Git Status in Dired
 
-```
+```lisp
 (use-package dired-k
     :ensure t
     :config
@@ -94,7 +94,7 @@ buffer, and updates the status.
 
 ## Pairs
 
-```
+```lisp
 (use-package smartparens-config
     :ensure smartparens
     :config
@@ -116,18 +116,19 @@ partially, but it still misses some key points.
 In Smartparens, just like with Paredit, when you input a pair-able
 character, the matching pair gets inserted too, and the point is
 positioned inside the pair. Also, when you mark an expression, for
-example, by pressing <kbd>C-M-Space</kbd> (`mark-sexp`), and you press
-`[`, the whole region becomes surrounded by matching `[` and `]`. It
-is also very frequent that we inadvertently delete any of the pair --
-this results in an unbalanced expression. Smartparens prevents us from
-doing that, saving us a lot of trouble.
+example, by pressing <kbd>C-M-Space</kbd> followed by
+<kbd>[</kbd>, the whole region becomes surrounded by matching `[` and `]`.
+
+It is also very frequent that we inadvertently delete any of the pair
+characters — this results in an unbalanced expression. Smartparens
+prevents us from doing that, saving us a lot of trouble.
 
 
 ## Keys
 
 The relevant key bindings for the commands above, are listed below:
 
-```
+```lisp
 (bind-keys
  :map global-map
  ("S-<return>" . newline-and-no-indent)

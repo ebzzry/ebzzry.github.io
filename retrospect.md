@@ -4,11 +4,12 @@ In Retrospect
 <center>2013-07-11 00:21:55</center>
 
 >_"From life's school of war: what does not kill me makes me stronger."_
+>
 >— Friedrich Nietzche
 
 I haven't fully appreciated what those words meant, prior to now. I
 have learned that aside from experience, there is another important
-aspect, that life teaches us -- survival. When we are at the brink of
+aspect, that life teaches us — survival. When we are at the brink of
 collapse, breakdown, or even death, the most important things in our
 life flashes before our eyes.
 
@@ -52,7 +53,7 @@ soul, gave his two cents, advising me that that was the wrong question
 to ask. That I should seek for the correct answer, myself, as if
 trying to find my own way back home.
 
-At one point, someone knocked on my door -- it was regret. Despite his
+At one point, someone knocked on my door — it was regret. Despite his
 seemingly pitiful state, I declined to let him in, no matter how
 persistent he was. I knew that the moment I let him in, he'd feel
 immediately welcome for himself, and feel comfortable around the

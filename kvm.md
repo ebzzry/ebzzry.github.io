@@ -43,7 +43,7 @@ $ nix-env -i qemu vde2 spice
 This will install the [QEMU](http://wiki.qemu.org/) (pronounced as
 kee-moo) hypervisor, [VDE](http://vde.sourceforge.net/) tools, and
 [SPICE](http://www.spice-space.org/) support. QEMU, at least during
-its early days had the _meh_ impression -- it is OK, but not
+its early days had the _meh_ impression — it is OK, but not
 stellar. Since version 0.10.1, QEMU started supporting
 [KVM](http://www.linux-kvm.org/), a virtualization subsystem for
 Linux, that provides near-native virtualization performance using
@@ -82,7 +82,7 @@ $ qemu-img create -f qcow2 vm.qcow2 20G
 ```
 
 The last step creates a 20GB image, that is named `vm.qcow2`. Take
-note that the extension name doesn't really matter -- you can name
+note that the extension name doesn't really matter — you can name
 your image as `index.html`, but that wouldn't make a lot of sense,
 right? :)
 
@@ -124,7 +124,7 @@ If you're installing an OS from a bootable image, usually an ISO file,
 run:
 
 ```bash
-$ qemu-kvm -cpu host -m 2G -net nic,model=virtio -net vde \
+$ sudo qemu-kvm -cpu host -m 2G -net nic,model=virtio -net vde \
 -device AC97,addr=0x18 -vga qxl \
 -spice port=9999,addr=127.0.0.1,password=mysecretkey \
 -boot once=d -cdrom installer.iso \
@@ -134,7 +134,7 @@ vm.qcow2
 On subsequent uses:
 
 ```bash
-$ qemu-kvm -cpu host -m 2G -net nic,model=virtio -net vde \
+$ sudo qemu-kvm -cpu host -m 2G -net nic,model=virtio -net vde \
 -device AC97,addr=0x18 -vga qxl \
 -spice port=9999,addr=127.0.0.1,password=mysecretkey \
 vm.qcow2

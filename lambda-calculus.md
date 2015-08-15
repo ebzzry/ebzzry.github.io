@@ -3,8 +3,8 @@ A Lambda Calculus Primer
 
 <center>2015-06-12 07:30:03</center>
 
->_"You do not really understand something unless you can explain it to_
->_your grandmother."_
+>_"You do not really understand something unless you can explain it to your grandmother."_
+>
 >— Albert Einstein
 
 This post is my attempt to do just that, only that the grandmother
@@ -53,7 +53,7 @@ to deviate from the established meaning of the word, for example, we
 randomly create a new definition of the word because of whim, chances
 are it won't be accepted. We need to believe in the defined
 connotative and denotative meanings of the word, for it to have
-meaning to us. The same holds true for lambda calculus -- we either
+meaning to us. The same holds true for lambda calculus — we either
 accept these axioms and operate in its domain, or we live in
 Neverland.
 
@@ -64,7 +64,7 @@ Neverland.
 
 A central player in lambda calculus is the notion of function. Most of
 us are familiar with functions in our high-level languages, but
-functions in lambda calculus are slightly different -- they need to
+functions in lambda calculus are slightly different — they need to
 have at the minimum a single parameter. In most production languages
 in use now, we can invoke a function that doesn't take an
 argument. They're usually used for side-effects. In lambda calculus,
@@ -91,7 +91,7 @@ ambiguity when applying functions. The function above is equivalent to:
 ```
 
 The Greek letter `λ` denotes that the surrounding context is a
-function -- or something that can be applied or used. The `λ` symbol
+function — or something that can be applied or used. The `λ` symbol
 is used instead of another symbol because of a typesetting issue that
 is discussed
 [here](http://www.users.waitrose.com/~hindley/SomePapers_PDFs/2006CarHin,HistlamRp.pdf). So,
@@ -128,7 +128,7 @@ does not live between `λ` and `.`.
 ### Function Application
 
 To use a function, we must apply it to something. The bound variables
-are substituted with what they're applied to -- a process called
+are substituted with what they're applied to — a process called
 β-reduction.
 
 For example:
@@ -145,7 +145,7 @@ Let's break it down:
    body, with `y`.
 
 "Wait, it merely returned the argument y." you may say. That is
-true. The function `(λx.x)` is the identity function -- it is a
+true. The function `(λx.x)` is the identity function — it is a
 single-parameter function that returns whatever is was applied to.
 
 Functions are not limited to be applied to symbols. They can also be
