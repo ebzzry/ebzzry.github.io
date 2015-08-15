@@ -18,6 +18,7 @@ my snippet:
 
 ```lisp
 (require 'desktop)
+
 (desktop-save-mode)
 
 (setq desktop-dirname "~/.emacs.d"
@@ -32,6 +33,7 @@ my snippet:
   (interactive)
   (if (eq (desktop-owner) (emacs-pid))
       (desktop-save desktop-dirname)))
+
 (add-hook 'auto-save-hook 'my-desktop-save)
 ```
 
@@ -43,6 +45,7 @@ history. Here's my snippet
 
 ```lisp
 (savehist-mode t)
+
 (setq savehist-file "~/.emacs.d/savehist")
 ```
 
@@ -83,10 +86,12 @@ to get started is the following:
 
 ```lisp
 (require 'package)
+
 (setq package-archives
       '(("gnu" . "http://elpa.gnu.org/packages/")
         ("marmalade" . "http://marmalade-repo.org/packages/")
         ("melpa" . "http://melpa.milkbox.net/packages/")))
+
 (package-initialize)
 
 (defalias 'pi 'package-install)
@@ -147,8 +152,10 @@ currently. Turn on `linum-mode` achieves this:
 
 ```lisp
 (setq linum-format "%4d")
+
 (defun my-linum-mode-hook ()
   (linum-mode t))
+
 (add-hook 'find-file-hook 'my-linum-mode-hook)
 ```
 
@@ -158,18 +165,17 @@ I frequently find the need to insert timestamps, especially when I'm
 editing my daily log file. Here are some snippets to help with it:
 
 ```lisp
-(defun insert-date (format)
+(defun format-date (format)
   (let ((system-time-locale "en_US.UTF-8"))
     (insert (format-time-string format))))
 
-(defun insert-date/long ()
+(defun insert-date ()
   (interactive)
-  (insert-date "%A, %B %d %Y"))
+  (format-date "%A, %B %d %Y"))
 
-(defun insert-date/short ()
+(defun insert-date-and-time ()
   (interactive)
-  (insert-date "%Y-%m-%d"))
-
+  (format-date "%Y-%m-%d %H:%M:%S"))
 ```
 
 Set the correct value for `system-time-locale`, and bind keys for
@@ -189,8 +195,10 @@ A sample would look like the following:
  :map global-map
  ("C-;" . eval-expression)
  ("C-j" . delete-indentation)
- ("M-j" . delete-indentation-1)
- ("C-z" . mark-line)
+
+ ("C-z" . kill-whole-line)
+ ("M-z" . mark-line)
+
  ("C-r" . isearch-backward)
  ("C-s" . isearch-forward)
  ("C-M-r" . isearch-backward-regexp)
@@ -210,7 +218,5 @@ A sample would look like the following:
 ## Conclusion
 
 Like last time, the rest of the configuration can be found at
-<https://github.com/ebzzry/dotemacs>.
-
-If you an Emacs hack to share, let me know in the comments
-below. Ciao!
+<https://github.com/ebzzry/dotemacs>. If you an Emacs hack to share,
+let me know in the comments below. Ciao!

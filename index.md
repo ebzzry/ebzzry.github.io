@@ -3,6 +3,7 @@ Illusions of Cognizance
 
 A random blog about computing, philosophy, and pseudorandom stuff.
 
+* [Emacs and Hacks (Part III)](emacs-hacks-3.html)
 * [Virtualizing with KVM](kvm.html)
 * [A Lambda Calculus Primer](lambda-calculus.html)
 * [Emacs and Hacks (Part II)](emacs-hacks-2.html)
@@ -12,7 +13,7 @@ A random blog about computing, philosophy, and pseudorandom stuff.
 * [Emacs and Mail](emacs-mail.html)
 * [Emacs and Racket](emacs-racket.html)
 * [Emacs and Dired](emacs-dired.html)
-* [Emacs & Hacks (Part I)](emacs-hacks-1.html)
+* [Emacs and Hacks (Part I)](emacs-hacks-1.html)
 * [In Retrospect](retrospect.html)
 * [An Introduction to Livefrog](livefrog.html)
 * [An Introduction to Usync](usync.html)
