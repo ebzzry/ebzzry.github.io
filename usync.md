@@ -51,7 +51,7 @@ Ideally, the result is that `localhost:/pub/yot/ninam/`,
 equal.
 
 
-## Semi-advanced Usage
+## Advanced Usage
 
 It is also possible to perform synchronization of multiple files, and
 directories, to remote hosts. To do so, run:

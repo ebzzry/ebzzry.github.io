@@ -32,7 +32,7 @@ aspect. Fortunately, I found
 Frog, in layman's terms, is a site creator, that is very easy to use,
 configure, and customize. Whatever you write, will appear on your blog
 -- you get what you expect. There are no weird terms of use, nor
-arbitrary limits, nor coercion -- it's very close to full control, at
+arbitrary limits, nor coercion — it's very close to full control, at
 the tip of your fingertips.
 
 Frog operates somewhere in the middle. That is, it looks like this:
@@ -305,7 +305,7 @@ raco frog -n "New Blog Post"
 ```
 
 That command, creates a Markdown source file. Frog, however, has
-another mode -- Scribble. This mode lets you use a Scribble source
+another mode — Scribble. This mode lets you use a Scribble source
 file, instead. To create one, we'll use the following command:
 
 ```bash
