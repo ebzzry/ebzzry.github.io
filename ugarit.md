@@ -8,7 +8,7 @@ event has happened? how many times have we told ourselves that had we
 created backups of our precious data, we wouldn't be in that dire
 situation, pulling our hairs out like a maniac?
 
-Most of us have been there -- we lost our precious files due
+Most of us have been there — we lost our precious files due
 inadvertent causes. We lost them because of disk crash, data
 corruption, security breach, and other reasons. But had we created a
 fallback, a big, safe foam that we can land on, it wouldn't have been
@@ -26,7 +26,7 @@ in a single tool.
 Ugarit is a classic example of a tool, that requires minimal setup and
 configuration, but is used many times. That once the initial tinkering
 is done, all we need to do is reuse the tool. But that isn't Ugarit's
-main strength -- it is the almost unholy marriage of convenience and
+main strength — it is the almost unholy marriage of convenience and
 security.
 
 Most, if not all the time, convenience is inversely proportional to
@@ -64,7 +64,7 @@ $ ugarit -h
 
 ## Configuration
 
-Ugarit at this point isn't usable yet -- we need to specify where will
+Ugarit at this point isn't usable yet — we need to specify where will
 it store the snapshots. When creating a snapshot of a directory
 several terabytes big, it is ideal to store the data on a fast,
 reliable, stress-tolerant disk. It is not uncommon for the command
@@ -215,7 +215,8 @@ The same applies to [SMBFS](http://www.samba.org/samba/smbfs/)
 mounts:
 
 ```bash
-$ sudo mount -t cifs -o user=$USER,uid=$USER //winhost/c ~/mnt/smbfs/winhost/c
+$ sudo mount -t cifs -o user=$USER,uid=$USER //winhost/c \
+~/mnt/smbfs/winhost/c
 $ cd ~/mnt/smbfs
 $ ugarit snapshot /ugarit/ugarit.conf winhost
 ```
