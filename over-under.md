@@ -43,7 +43,7 @@ can no longer even begin to contain. But alas, what we have in our
 individual brains is still not enough to house our ever-growing house
 of knowledge. We needed to find a way to record them outside our
 bodies, stored somewhere where data retrieval is one of its most
-critical operations -- we wrote and created records. We began by
+critical operations — we wrote and created records. We began by
 writing on stones, walls, and anything that would hopefully persist to
 contain what it must, across generations of readers. We have built
 colossal libraries, with gargantuan collections of books. With it, we
