@@ -327,10 +327,8 @@ Alternatively, define wrapping functions:
 (def-pairs ((paren        . "(")
             (bracket      . "[")
             (brace        . "{")
-            (angle        . "<")
             (single-quote . "'")
             (double-quote . "\"")
-            (underscore   . "_")
             (back-quote   . "`")))
 ```
 
