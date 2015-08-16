@@ -13,7 +13,7 @@ faster, way of doing things.
 
 ### Hardware
 
-One of the first things that we need to do is to enable
+One of the first things that you need to do is to enable
 [Hardware-assisted virtualization](https://en.wikipedia.org/wiki/Hardware-assisted_virtualization),
 also called accelerated virtualization, in your hardware. If your CPU
 was made before 2006, chances are, this feature won't be present on
@@ -29,15 +29,28 @@ recognizes it.
 $ egrep '(vmx|svm)' /proc/cpuinfo
 ```
 
-If it returns some text, then we're good.
+If it returns some text, then you're good.
 
 ### Software
 
-Next, we need to install the essential applications. The commands
-below are for NixOS, so change it accordingly for your system.
+Next, you need to install the essential applications.
+
+If you're using Nix:
 
 ```bash
 $ nix-env -i qemu vde2 spice
+```
+
+If you're using APT:
+
+```bash
+$ sudo apt-get install qemu-kvm vde2 spice-client
+```
+
+If you're using Yum:
+
+```bash
+$ sudo yum install ...
 ```
 
 This will install the [QEMU](http://wiki.qemu.org/) (pronounced as
@@ -57,7 +70,7 @@ response time is just horrible. Using the
 things faster, but it makes other things possible. Take note that
 SPICE is not a replacement for
 [VNC](https://en.wikipedia.org/wiki/Virtual_Network_Computing), but
-rather, it a different way of meeting our goals.
+rather, it a different way of meeting your goals.
 
 
 ## Configuration
@@ -89,10 +102,10 @@ right? :)
 ### Networking
 
 QEMU [supports](http://wiki.qemu.org/Documentation/Networking) several
-ways of setting up networking for its guest, but for this post we're
+ways of setting up networking for its guest, but for this post you're
 going to use VDE.
 
-We need to run several commands to prep the networking
+You need to run several commands to prep the networking
 environment. Ideally, you'd want to save these in a shell function, or
 a shell script:
 
@@ -116,7 +129,7 @@ The above commands will:
 
 ### Load the image
 
-We now need to invoke `qemu-kvm`, the command that will launch
+You now need to invoke `qemu-kvm`, the command that will launch
 everything up. The name of the command may differ with the one
 installed on your system.
 
@@ -186,12 +199,12 @@ secured. _password_ is key that will be used by the SPICE client,
 Boot initially from `installer.iso`, then on subsequent boots, boot in
 the normal order.
 
-Running the _qemu-kvm_ command above will load the image, but we
+Running the _qemu-kvm_ command above will load the image, but you
 won't be able to view the display, yet.
 
 ### Connect to the SPICE display
 
-To be able to use the guest machine's display, we need to connect to
+To be able to use the guest machine's display, you need to connect to
 the SPICE server, using the SPICE client `spicec`:
 
 ```bash
@@ -204,7 +217,7 @@ session. If the guest OS captures the mouse input, press
 
 ### Configure guest networking
 
-Next, we need to properly configure the network configuration of the
+Next, you need to properly configure the network configuration of the
 guest OS so that it can connect to the rest of the local network, and
 to the internet if the host machine has access to it.
 
@@ -287,7 +300,7 @@ kvm () {
 }
 ```
 
-Initially, load the VDE networking:
+Initially, setup the VDE network:
 
 ```bash
 $ vde up
@@ -301,7 +314,7 @@ $ kvm vm.qcow32
 
 ## Conclusion
 
-QEMU supports a myriad of cool options that were not even discussed
+QEMU supports a myriad of cool options that we've not even discussed
 here, including saving and loading states (snapshots), creating screen
 and audio grabs, and a whole lot more. To learn more about them, click
 [here](http://wiki.qemu-project.org/Main_Page).
@@ -313,4 +326,4 @@ market. If you want to contribute to this project, head over to their
 [GitHub page](https://github.com/qemu/qemu).
 
 I hope this post helped you, in one way or another, learn more about
-QEMU and what it has to offer. Ciao!
+QEMU and KVM and what it has to offer. Ciao!

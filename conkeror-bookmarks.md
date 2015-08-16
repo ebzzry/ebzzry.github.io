@@ -10,7 +10,7 @@ the wiki are not suitable for me. So, I rolled my own.
 
 ## Prerequisites
 
-One of the most important tool that we need to have is the _sqlite3_
+One of the most important tool that you need to have is the _sqlite3_
 command. Chances are, your system provides a way to install it. To
 check if you have it, or to verify the installation, run:
 
@@ -19,9 +19,9 @@ $ sqlite3 --version
 ```
 
 If it displays a version string, with a build date and hash, then
-we're set.
+you're set.
 
-We also need to have a Java Runtime Environment (JRE) installed. To
+You also need to have a Java Runtime Environment (JRE) installed. To
 determine if you have it, run:
 
 ```bash
@@ -32,7 +32,7 @@ If it reports a version number and other details, then you have Java
 installed. Otherwise, consult your distro's package system on how to
 install it.
 
-Lastly, we need to have _emem_ properly installed. Follow the
+Lastly, you need to have _emem_ properly installed. Follow the
 instructions at <https://github.com/ebzzry/emem>. To verify that you
 have installed it properly, run:
 
@@ -40,12 +40,12 @@ have installed it properly, run:
 $ emem --version
 ```
 
-If it reports at least `emem-0.2.1`, then we're good to go.
+If it reports at least `emem-0.2.1`, then you're good to go.
 
 
 ## Extract the Data
 
-We need to have a way first to extract the data from a sqlite3
+You need to have a way first to extract the data from a sqlite3
 database, which Conkeror uses to store the bookmarks, among other
 things. Open your `~/.bashrc`, or whatever your shell uses, then
 append the following text. Replacing `profile.default` with the
@@ -66,8 +66,8 @@ The command above selects the `title` and `url` columns from the
 
 ## Generate the Bookmarks
 
-Next, we need to have a way to generate the HTML file that
-we're going to view later in Conkeror:
+Next, you need to have a way to generate the HTML file that
+you're going to view later in Conkeror:
 
 ```bash
 bmg () {
@@ -76,7 +76,7 @@ bmg () {
   [[ ! -d $base ]] && mkdir -p `dirname $file`
 
   cob | perl -pe 's/^(.*?)\|(.*)/* [\1](\2)/' \
-      | emem -T Bookmarks -R -o ${file}.tmp
+      | emem -T Bookmarks -o ${file}.tmp
 
   [[ -f ${file}.tmp ]] && mv -f ${file}.tmp $file
 }
@@ -88,7 +88,7 @@ uses to generate the HTML file.
 
 ## Create a CLI Viewer
 
-Now that we can build the HTML file, we need to have a command that
+Now that you can build the HTML file, you need to have a command that
 will load the bookmarks in Conkeror:
 
 ```bash

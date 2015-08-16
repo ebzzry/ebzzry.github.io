@@ -3,8 +3,8 @@ Illusions of Cognizance
 
 A random blog about computing, philosophy, and pseudorandom stuff.
 
+* [Emacs and Pairs](emacs-pairs.html)
 * [Conkeror's Bookmarks](conkeror-bookmarks.html)
-* [Emacs and Hacks (Part III)](emacs-hacks-3.html)
 * [Virtualizing with KVM](kvm.html)
 * [A Lambda Calculus Primer](lambda-calculus.html)
 * [Emacs and Hacks (Part II)](emacs-hacks-2.html)
@@ -22,9 +22,3 @@ A random blog about computing, philosophy, and pseudorandom stuff.
 * [Over, Under, and Elsewhere](over-under.html)
 * [The Y Combinator in Six Easy Steps](y.html)
 * [About](about.html)
-
-***
-<center>
-<small>Site created with [emem](https://github.com/ebzzry/emem)</small><br />
-  <small>Copyright © Rommel M. Martinez</small>
-</center

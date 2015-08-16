@@ -1,5 +1,4 @@
 /static
+/stage
+/drafts
 *.html
-Makefile
-build.zsh
-

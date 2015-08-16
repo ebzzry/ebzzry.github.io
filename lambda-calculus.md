@@ -3,7 +3,8 @@ A Lambda Calculus Primer
 
 <center>2015-06-12 07:30:03</center>
 
->_"You do not really understand something unless you can explain it to your grandmother."_
+>"You do not really understand something unless you can explain it to
+>your grandmother."
 >
 >— Albert Einstein
 
@@ -25,6 +26,7 @@ differently from the ones we contemporarily know. Lambda calculus also
 forms as the basis for the popular functional programming languages in
 current use now.
 
+
 ### Do I need to learn it?
 
 Yes, and no. If you want to understand the underlying mechanisms of
@@ -32,6 +34,7 @@ how software works, or if you want to build the next great language,
 or if you just want to appreciate the elegance of its art, then
 yes. However, if you just want to fly a plane without knowing how it
 ticks, then no. Seriously though, learn it.
+
 
 ### What do we do?
 
@@ -66,7 +69,7 @@ A central player in lambda calculus is the notion of function. Most of
 us are familiar with functions in our high-level languages, but
 functions in lambda calculus are slightly different — they need to
 have at the minimum a single parameter. In most production languages
-in use now, we can invoke a function that doesn't take an
+in use now, you can invoke a function that doesn't take an
 argument. They're usually used for side-effects. In lambda calculus,
 however, a bare minimum of one argument is enforced. Here's what a
 minimal function in lambda calculus looks like:
@@ -109,7 +112,7 @@ the symbol `x`.
 ### Variables
 
 In lambda calculus, the symbols that are used inside a function are
-called variables. Going back to the function we defined above,
+called variables. Going back to the function you defined above,
 
 ```
 (λx.x)
@@ -127,7 +130,7 @@ does not live between `λ` and `.`.
 
 ### Function Application
 
-To use a function, we must apply it to something. The bound variables
+To use a function, you must apply it to something. The bound variables
 are substituted with what they're applied to — a process called
 β-reduction.
 
@@ -267,9 +270,9 @@ Let's break it down:
 
 ### Addition
 
-What if we wanted to perform `2+3`? Fortunately, the
-successor function will do that for us. We express that as `2S3`,
-where we replace `+` as the infix operator. The addition function is
+What if you wanted to perform `2+3`? Fortunately, the
+successor function will do that for you. You express that as `2S3`,
+where you replace `+` as the infix operator. The addition function is
 defined as:
 
 ```
@@ -300,14 +303,14 @@ Let's break it down:
 0. State the problem.
 1. Spell out the equivalent functional notations for `2`, `S`,
    and `3`.
-2. Reducing it gives us `SS3`
+2. Reducing it gives you `SS3`
 3. The full version of `SS3`, which corresponds with `2S3` or
    two `S` and a `3`.
 4. Reduce it further.
 5. Reduce even further.
 6. It is now reduced to `S4`.
 7. Apply `S` to `4`.
-8. We now arrive at `5`.
+8. You now arrive at `5`.
 
 ### Multiplication
 
@@ -322,7 +325,7 @@ Usage: Mab
 ```
 
 Unlike with addition which uses infix syntax, multiplying two numbers
-follow a prefix syntax. So, to multiply `2` and `3`, we say
+follow a prefix syntax. So, to multiply `2` and `3`, you say
 `M23`.
 
 Let's test that out:
@@ -338,7 +341,7 @@ Let's test that out:
 ```
 
 Multiplying numbers in lambda calculus is pretty simple and
-straightforward. But, before we continue to more arithmetic functions,
+straightforward. But, before you continue to more arithmetic functions,
 let's tackle first truth values and conditionals, which is a
 prerequisite in learning the other functions.
 
@@ -394,7 +397,7 @@ the predecessor function is being done separately is that it isn't
 intuitively easy to determine at first, and that knowledge about other
 functions is important in understanding it.
 
-Let's say we have a pair, something like (y, x), wherein the first
+Let's say you have a pair, something like (y, x), wherein the first
 element is one step above, or the successor the second element. Since
 the first element is the successor, that means the second element is
 the predecessor. Visually:
@@ -412,7 +415,7 @@ x = Py iff y = Sx
 That is, `x` is the predecessor of `y`, if and only if, `y` is
 the successor of `x`.
 
-So, to determine the predecessor of a number `x`, we create a pair
+So, to determine the predecessor of a number `x`, you create a pair
 like above, then select the second element.
 
 Let's define some basic units. A pair looks like:
@@ -427,7 +430,7 @@ And the smallest unit of pair is:
 (λz.z00) ≡ (λz.z(λsz.z)(λsz.z))
 ```
 
-To select the first and second elements of a pair, we use `T` and
+To select the first and second elements of a pair, you use `T` and
 `F`:
 
 ```
@@ -435,7 +438,7 @@ To select the first and second elements of a pair, we use `T` and
 (λz.zab)(λxy.y) ≡ (λz.zab)F = Fab = b
 ```
 
-We need a function that takes a pair, then creates a new pair, wherein
+You need a function that takes a pair, then creates a new pair, wherein
 the first element is the successor of the second element.
 
 ```
@@ -456,7 +459,7 @@ Q(λz.z00)
 ≡ (λz.z10)
 ```
 
-Looks correct. We can now build our predecessor function:
+Looks correct. You can now build your predecessor function:
 
 ```
 Name: P
@@ -487,7 +490,7 @@ P1
 
 ### Subtraction
 
-Now that we have the predecessor function, we can build our
+Now that you have the predecessor function, you can build your
 subtraction function.
 
 ```
@@ -509,9 +512,9 @@ B11
 
 ## Conclusion
 
-We've just scratched the surface of lambda calculus, but we have just
-witnessed its immense expressive power, considering how minimal the
-system is defined. In our next article, we'll demystify even more
+You've just scratched the surface of lambda calculus, but you have
+just witnessed its immense expressive power, considering how minimal
+the system is defined. In our next article, we'll demystify even more
 lambda calculus magic. Stay tuned!
 
 ## References

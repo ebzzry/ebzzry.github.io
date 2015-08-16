@@ -3,7 +3,7 @@ An Introduction to Livefrog
 
 <center>2013-05-29 15:10:34</center>
 
-I have specific cases wherein we needed to convert LiveJournal
+I have specific cases wherein you needed to convert LiveJournal
 articles to another format. There are tools that do this, however, I
 found none, so far, that translates to _Frog_ files. This is my feeble
 attempt to achive that.
@@ -68,7 +68,7 @@ Bear in mind, though, that ljdump and ljmigrate differ on how the
 trees for the data are created. ljdump has the following tree format,
 where USERNAME is your LiveJournal account name:
 
-```
+```bash
 ljdump/
   build
   ChangeLog
@@ -89,7 +89,7 @@ ljdump/
 
 ljmigrate, on the other hand, uses a different format:
 
-```
+```bash
 ljmigrate/
   LICENSE.text
   ljmigrate.cfg
@@ -116,7 +116,7 @@ to your Frog source directory, designated at `_src/posts/`
 ### Comments
 
 Frog, by default, uses [Disqus](http://disqus.com) to handle the
-comments. To import comments to this platform, we need to generate an
+comments. To import comments to this platform, you need to generate an
 XML file that must adhere to Disqus' comment import rules.
 
 To create a file, named `comments.xml` that will be used for importing

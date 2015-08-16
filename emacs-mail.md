@@ -3,41 +3,41 @@ Emacs and Mail
 
 <center>2014-02-17 16:02:38</center>
 
-In this day and age, checking our mail means going to the website of
+In this day and age, checking your mail means going to the website of
 our mail provider, or using a mobile app. however, there are some
-cases when we want to have more control over our messages, especially
-when the feature we want is not present with the mainstream options.
+cases when you want to have more control over your messages, especially
+when the feature you want is not present with the mainstream options.
 
 Emacs provides a plethora (Gnus, Wanderlust, VM, etc.) of ways of
-sending and receiving mail. in this post, we're going to talk about
+sending and receiving mail. in this post, you're going to talk about
 [getmail](http://pyropus.ca/software/getmail/),
 [mu](http://www.djcbsoftware.nl/code/mu/), and
 [mu4e](http://www.djcbsoftware.nl/code/mu/mu4e.html), and how to set
-them up quickly. In this tutorial We'll assume that we're going to get
-our messages from [Gmail](http://gmail.com) via its IMAP interface.
+them up quickly. In this tutorial you'll assume that you're going to
+get your messages from [Gmail](http://gmail.com) via its IMAP
+interface.
 
 ## Fetching Messages
 
-We first need to have a way to download our mails, off our mail server. A
-easy-to-use application that will do that for us is
+You first need to have a way to download your mails, off your mail
+server. A easy-to-use application that will do that for you is
 [getmail](http://pyropus.ca/software/getmail/).
 
 ## Installation
 
 Most of the time, getmail can be readily installed via your system's
-package manager. If you are using a
-[Debian-based system](https://www.debian.org/misc/children-distros) ,
-you can install it by running:
+package manager.
 
-```bash
-$ sudo apt-get install getmail4
-```
-
-If you are using [NixOS](https://nixos.org/nixos/), you can
-install by running:
+If you're using Nix:
 
 ```bash
 $ nix-env -i getmail
+```
+
+If you're using APT:
+
+```bash
+$ sudo apt-get install getmail4
 ```
 
 However, if your system doesn't provide an easy way for you to install
@@ -48,9 +48,9 @@ tarball.
 
 ## Configuration
 
-Next, we need to conjure the incantation so that getmail knows how to get your
-stuff. Create the file `~/.getmail/getmailrc`. In addition to that, we
-need to create and specify where the messages will go:
+Next, you need to conjure the incantation so that getmail knows how to
+get your stuff. Create the file `~/.getmail/getmailrc`. In addition to
+that, you need to create and specify where the messages will go:
 
 ```bash
 $ mkdir ~/Maildir
@@ -91,7 +91,7 @@ data.
 
 ## Execution
 
-To verify that we can indeed fetch our messages, run getmail:
+To verify that you can indeed fetch your messages, run getmail:
 
 ```bash
 $ getmail
@@ -110,29 +110,28 @@ SimpleIMAPSSLRetriever:foobar@gmail.com@imap.gmail.com:993:
 
 ## Reading Messages
 
-Now that we can download our messages, we need to have a way to read
+Now that you can download your messages, you need to have a way to read
 them. This is where mu and the accompanying emacs-based client, _mu_,
 comes in.
 
 ## Installation
 
 Just like with getmail above, chances are, mu can be installed via
-your system's package manager. If you are using a
-[Debian-based system](https://www.debian.org/misc/children-distros),
-you can install it by running:
+your system's package manager.
 
-```bash
-$ sudo apt-get install maildir-utils
-```
-
-If you are using [NixOS](https://nixos.org/nixos/), you can install it
-by running:
+If you're using Nix:
 
 ```bash
 $ nix-env -i mu
 ```
 
-In addition to the above, we need to fetch mu4e. This comes with mu's
+If you're using APT:
+
+```bash
+$ sudo apt-get install maildir-utils
+```
+
+In addition to the above, you need to fetch mu4e. This comes with mu's
 source code. Download it by running:
 
 ```bash
@@ -144,17 +143,17 @@ $ git clone git@github.com:djcb/mu.git
 This creates a `mu/` directory in the current directory, which happens
 to be the default location from which emacs looks for init files. Take
 note, that the git command above actually fetches the source code of
-mu, and we can actually use it to install mu. But since, you have your
-package manager, we'll ignore that. Also the location from which the
+mu, and you can actually use it to install mu. But since, you have your
+package manager, you'll ignore that. Also the location from which the
 `mu/mu4e/` subdirectory exists from the package manager's
-installation, varies between systems. So, for now, we're only
+installation, varies between systems. So, for now, you're only
 interested with the `mu/mu4e/` subdirectory.
 
 
 ## Configuration
 
-We now need to make that mu4e directory accessible to emacs. To do so,
-we need to edit either `~/.emacs.d/init.el` or `~/.emacs`:
+You now need to make that mu4e directory accessible to emacs. To do so,
+you need to edit either `~/.emacs.d/init.el` or `~/.emacs`:
 
 ```bash
 $ emacs ~/.emacs.d/init.el
@@ -167,15 +166,15 @@ Then add the following:
 (require 'mu4e)
 ```
 
-Additionally we need to put in some information about us, so that
-emacs won't bother asking us about those details later on:
+Additionally you need to put in some information about you, so that
+emacs won't bother asking you about those details later on:
 
 ```lisp
 (setq user-full-name "Foo B. Baz"
-       user-mail-address "foo@bar.baz")
+      user-mail-address "foo@bar.baz")
 ```
 
-To make our life even easier, we'll set some variables:
+To make your life even easier, you'll set some variables:
 
 ```lisp
 (setq mu4e-get-mail-command "getmail"

@@ -3,7 +3,7 @@ In Retrospect
 
 <center>2013-07-11 00:21:55</center>
 
->_"From life's school of war: what does not kill me makes me stronger."_
+>"From life's school of war: what does not kill me makes me stronger."
 >
 >— Friedrich Nietzche
 
