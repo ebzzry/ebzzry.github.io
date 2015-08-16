@@ -3,16 +3,23 @@ Emacs and Pairs
 
 <center>2015-08-15 21:48:41</center>
 
-In this post, I'll exclusively talk about Smartparens. If there are
-packages that significantly improves, and changes how one uses Emacs,
-this is one of them. Take note though, that the name is a misnomer, as
-it not only handles parentheses. It handles just about anything that
-pairs, and it performs those functions stellarly.
+In this post, I'll exclusively talk about _smartparens_ — a package
+that you wish you should have used, earlier, presuming you don't use
+it yet. If you're new to it, read along; if not, this may be a good
+refresher.
+
+_smartparens_ is one of those packages that drastically improves, and
+changes how one uses Emacs. It's like having cybernetic limbs — it
+makes you jump higher, and punch harder.
+
+Take note, though, that the name is a misnomer, as it not only handles
+parentheses. It handles just about anything that pairs, and it
+performs those functions stellarly.
 
 
 ## Installation
 
-Installing Smartparens is straightforward:
+Installing smartparens is straightforward:
 
 ```
 M-x package-install RET smartparens RET
@@ -21,7 +28,7 @@ M-x package-install RET smartparens RET
 
 ## Configuration
 
-Let's enable Smartparens on startup, and hook it with some major
+Let's enable smartparens on startup, and hook it with some major
 hooks:
 
 ```lisp
@@ -39,13 +46,13 @@ hooks:
 
 Managing paired characters like parentheses, braces, brackets,
 quotation marks, angle brackets, and other conceivable pair-able
-characters has always been a pain. Paredit, solves that problem
-partially, but it still misses some key points. In the code samples
-below, the `^` symbol represents point:
+characters has always been a pain. Other packages solve that problem
+partially. However, they it still miss several points. In the code
+snippets below, the `^` symbol will be used to represent point:
 
 ### Basics
 
-In Smartparens, when you input a pair-able character:
+In smartparens, when you input a pair-able character:
 
 ```clojure
 
@@ -302,8 +309,52 @@ whole region becomes surrounded by matching `[`, and `]`.
 It also applies to keys like `(`, `{`, `"`, `'`, `*`, `_`, etc,
 depending on the mode that you're using.
 
+Alternatively, define wrapping functions:
+
+```lisp
+(defmacro def-pairs (pairs)
+  `(progn
+     ,@(loop for (key . val) in pairs
+          collect
+            `(defun ,(read (concat
+                            "wrap-with-"
+                            (prin1-to-string key)
+                            "s"))
+                 (&optional arg)
+               (interactive "p")
+               (sp-wrap-with-pair ,val)))))
+
+(def-pairs ((paren        . "(")
+            (bracket      . "[")
+            (brace        . "{")
+            (angle        . "<")
+            (single-quote . "'")
+            (double-quote . "\"")
+            (underscore   . "_")
+            (back-quote   . "`")))
+```
+
+I bound the first three functions to <kbd>C-c (</kbd>, <kbd>C-c [</kbd>,
+and <kbd>C-c {</kbd>, respectively. So, if you have the expression:
+
+```clojure
+
+(defn foo args (let [x 0] (inc x)))
+          ^
+```
+
+and you want to surround `args` with `[` and `]`:
+
+```clojure
+
+(defn foo [args] (let [x 0] (inc x)))
+           ^
+```
+
+Press <kbd>C-c [</kbd>.
+
 Sometimes, we inadvertently delete one of the pair characters — this
-results in an unbalanced expression. Smartparens prevents us from
+results in an unbalanced expression. smartparens prevents us from
 doing that. If you hit <kbd>Backspace</kbd> in this expression:
 
 ```javascript
@@ -312,7 +363,7 @@ var mods = ["vars"];
             ^
 ```
 
-Nothing will happen. Smartparens saves us a lot of trouble, here.
+Nothing will happen. smartparens saves us a lot of trouble, here.
 
 If you have the expression:
 
@@ -511,14 +562,23 @@ The following snippet summarizes the key bindings used in this article.
 
  ("C-x C-t" . sp-transpose-hybrid-sexp)
 
- ("C-(" . wrap-with-parens)
- ("M-(" . wrap-with-brackets)
- ("C-{" . wrap-with-braces))
+ ("C-c ("  . wrap-with-parens)
+ ("C-c ["  . wrap-with-brackets)
+ ("C-c {"  . wrap-with-braces)
+ ("C-c '"  . wrap-with-single-quotes)
+ ("C-c \"" . wrap-with-double-quotes)
+ ("C-c _"  . wrap-with-underscores)
+ ("C-c `"  . wrap-with-back-quotes))
 ```
 
 ## Conclusion
 
-The plethora of commands in Smartparens may be daunting at first, but
+The plethora of commands in smartparens may be daunting at first, but
 the investement in time in learning them, will be minimal compared to
-benefits that you will reap. For more information on Smartparens, you
-go to <http://foo.bar>.
+benefits that you will reap.
+
+smartparens was written, and being maintained by
+[Matus Goljer](matus.goljer@gmail.com). For more information on
+smartparens, go to <https://github.com/Fuco1/smartparens>. If you
+like this project, you can donate
+[here](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CEYP5YVHDRX8C).
