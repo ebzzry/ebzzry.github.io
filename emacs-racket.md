@@ -18,7 +18,7 @@ for the most part. Unfortunately, that didn't suffice with the way
 Racket dealt with things. A more intelligent way of handling code, was
 needed.
 
-Fortunately, we have [Geiser](http://www.nongnu.org/geiser/). To quote
+Fortunately, you have [Geiser](http://www.nongnu.org/geiser/). To quote
 the first paragraph on its homepage:
 
 >Geiser is a collection of Emacs major and minor modes that conspire
@@ -45,7 +45,7 @@ chore. Also, I'm still not sure what are the hidden consequences of
 not doing it the "elegant" way, presuming there is one.
 
 Let's say that you want to install your Geiser files in
-`~/.emacs.d/elisp/`. We'll issue the following commands to install
+`~/.emacs.d/elisp/`. You'll issue the following commands to install
 Geiser to that location:
 
 ```bash
@@ -77,7 +77,7 @@ scheme/
 THANKS
 ```
 
-Next, we want the directory `~/.emacs.d/elisp/geiser/elisp/` to be a
+Next, you want the directory `~/.emacs.d/elisp/geiser/elisp/` to be a
 member of the Emacs variable `load-path` so that `require` and friends
 will know where to find things. To do that, add the following to your
 Emacs init file — either in `~/.emacs.d/init.el`, or in `~/.emacs`
@@ -87,7 +87,7 @@ Emacs init file — either in `~/.emacs.d/init.el`, or in `~/.emacs`
 (add-to-list 'load-path "~/.emacs.d/elisp/geiser/elisp/")
 ```
 
-Next, we'll put in the actual code that invokes and configures Geiser:
+Next, you'll put in the actual code that invokes and configures Geiser:
 
 ```lisp
 (require 'geiser)
@@ -127,7 +127,7 @@ more. This major mode is actually Comint mode, under the hood, with
 hooks to a a Racket process. For those of you who are unfamiliar with
 Comint mode, it is the same mode that handles `M-x shell RET`.
 
-So, what can we do with it? While editing `.rkt` file, here are some
+So, what can you do with it? While editing `.rkt` file, here are some
 of the usual shortcuts that I use (The full list of keys are
 [available here](http://www.nongnu.org/geiser/geiser_5.html#Cheat-sheet)). Take
 note, that the description of the keys that I used below, are for
