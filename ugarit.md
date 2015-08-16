@@ -3,10 +3,10 @@ An Introduction to Ugarit
 
 <center>2014-02-21 12:07:18</center>
 
-How many times have we experienced hindsight, after a catastrophic
-event has happened? how many times have we told ourselves that had we
-created backups of our precious data, we wouldn't be in that dire
-situation, pulling our hairs out like a maniac?
+How many times have you experienced hindsight, after a catastrophic
+event has happened? how many times have you told yourself that had you
+created backups of your precious data, you wouldn't be in that dire
+situation, pulling your hair out, like a rabid maniac?
 
 Most of us have been there — we lost our precious files due
 inadvertent causes. We lost them because of disk crash, data
@@ -15,7 +15,7 @@ fallback, a big, safe foam that we can land on, it wouldn't have been
 a lot of trouble, and heart ache. On the flip side, creating and
 managing backups can be daunting, and equally dangerous.
 
-In this post, we'll talk about
+In this post, I'll talk about
 [Ugarit](http://www.kitten-technologies.co.uk/project/ugarit/doc/trunk/README.wiki)
 , a nice piece of technology, that combines ease-of-use, and security,
 in a single tool.
@@ -24,10 +24,10 @@ in a single tool.
 ## Introduction
 
 Ugarit is a classic example of a tool, that requires minimal setup and
-configuration, but is used many times. That once the initial tinkering
-is done, all we need to do is reuse the tool. But that isn't Ugarit's
-main strength — it is the almost unholy marriage of convenience and
-security.
+configuration, but is used many times. That, once the initial
+tinkering is done, all you need to do is reuse the tool. But that
+isn't Ugarit's main strength — it is the almost unholy marriage, of
+convenience and security.
 
 Most, if not all the time, convenience is inversely proportional to
 security. That is, the more convenient something is, the less secure
@@ -37,7 +37,7 @@ a short command.
 
 ## Installation
 
-First, we need to install [Chicken](http://www.call-cc.org/). Most
+First, you need to install [Chicken](http://www.call-cc.org/). Most
 likely, it can be installed via your package manager:
 
 ```bash
@@ -47,7 +47,7 @@ $ sudo apt-get install chicken-bin
 If it isn't available on your system, you may download it from
 [code.call-cc.org](http://code.call-cc.org/)
 
-After Chicken is installed, let's install Ugarit itself, and some
+After Chicken is installed, let's install Ugarit itself, and its
 dependencies:
 
 ```bash
@@ -55,7 +55,7 @@ $ chicken-install -s ugarit tiger-hash aes
 ```
 
 After this command completes, the command `ugarit` will become
-available. To display command-line help:
+available. To display usage:
 
 ```bash
 $ ugarit -h
@@ -64,13 +64,13 @@ $ ugarit -h
 
 ## Configuration
 
-Ugarit at this point isn't usable yet — we need to specify where will
-it store the snapshots. When creating a snapshot of a directory
+Ugarit at this point isn't usable yet — you need to specify where
+should it store the snapshots. When creating a snapshot of a directory
 several terabytes big, it is ideal to store the data on a fast,
 reliable, stress-tolerant disk. It is not uncommon for the command
 `ls` to experience a noticeable lag when ran inside the data
-directory. Let's presume that `/dev/sdb1` is a large filesystem and we
-want to mount it to `/ugarit/`.
+directory. Let's presume that `/dev/sdb1` is a large filesystem and
+you want to mount it to `/ugarit/`.
 
 ```bash
 $ sudo mkdir /ugarit
@@ -79,13 +79,13 @@ $ sudo mkdir /ugarit/vault
 $ sudo chown -R $USER /ugarit
 ```
 
-Another, equally important requirement that we need to have is its
+Another, equally important requirement that you need to have is its
 config file, usually named `ugarit.conf`. It is supplied as part of
 the required command line arguments. It is important to note, that
 this file does not reside in a fixed location, in contrast with some
 programs that look for a config file at start-up, from `~/`. But
-before we actually create that file, we need to run some
-commands. Save the outputs of these commands, because we'll be needing
+before you actually create that file, you need to run some
+commands. Save the outputs of these commands, because you'll be needing
 them later:
 
 Create a salt, for the hash function:
@@ -100,15 +100,15 @@ Create the key, for the vault:
 $ dd if=/dev/random bs=32 count=1 2>/dev/null | od -An -tx1 | tr -d ' \t\n'
 ```
 
-After we run those commands, we'll create the config file,
-`ugarit.conf`. To make it consistent with the example above, we'll
+After you run those commands, you'll create the config file,
+`ugarit.conf`. To make it consistent with the example above, you'll
 store it inside `/ugarit`:
 
 ```bash
 $ emacs /ugarit/ugarit.conf
 ```
 
-Then input the following:
+Put the following:
 
 ```scheme
 (storage "backend-fs fs /ugarit/vault")
@@ -117,7 +117,7 @@ Then input the following:
 (encryption aes "KEY")
 ```
 
-Replace SALT, and KEY, with the salt and key strings that we generated
+Replace SALT, and KEY, with the salt and key strings that you generated
 above. Save the file, then secure it.
 
 ```bash
@@ -144,7 +144,7 @@ snapshot of. To create, for example, a snapshot of the directory
 $ ugarit snapshot /ugarit/ugarit.conf pix pictures
 ```
 
-After the snapshot, you'll see similar to the following:
+After the snapshot, you'll see something similar to the following:
 
 ```bash
 Archiving pictures to tag pix...
@@ -170,7 +170,7 @@ To list the available commands:
 > help
 ```
 
-Taking hints from the help usage, we'll extract a directory, that was
+Taking hints from the help usage, you'll extract a directory, that was
 part of the snapshot earlier. Let's say that the original path of that
 directory was `pictures/holiday`. So, to extract the directory
 `holiday/` to the current directory, run:
@@ -229,7 +229,7 @@ To disable output, when creating snapshots:
 $ ugarit snapshot /ugarit/ugarit.conf -q ...
 ```
 
-To enable very verbose output, when creating snapshots:
+To enable very verbose output:
 
 ```bash
 $ ugarit snapshot -:a256 /ugarit/ugarit.conf ...
@@ -241,7 +241,9 @@ When you are doubtful of the performance of the disk where you'll be
 storing the snapshots, disable the
 [locate and updatedb](http://linux.about.com/library/cmd/blcmdl1_updatedb.htm)
 service. It is usually run periodically via cron. It places a lot of
-load on the disk, and may over-stress it. Your mileage may vary.
+load on the disk, and may over-stress it. Your mileage may vary. If,
+however, you need that service, create an exclusion for the file
+system where you store the snapshots.
 
 An important caveat worth mentioning is that, due to the way Ugarit
 works, snapshot deletions do not exist. The storage mechanism works

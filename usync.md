@@ -40,7 +40,7 @@ The command above will perform two-way synchronization of the diretory
 `ninam/` found under `/pub/yot/`, to `tarupam:/pub/yot/`, and
 `taubetmo:/pub/yot/`.
 
-Using our example above, the two-way synchronization system basically
+Using your example above, the two-way synchronization system basically
 tells that if the tree `tarupam:/pub/yot/ninam/` contains new and/or
 updated items, compared with `localhost:/pub/yot/ninam/`, and
 `localhost:/pub/yot/ninam/` also happens to have new and/or updated
