@@ -1,7 +1,7 @@
 Illusions of Cognizance
 ======================================================================
 
-A random blog about computing, philosophy, and pseudorandom stuff.
+A blog about computing, philosophy, and pseudorandom stuff.
 
 * [Emacs and Pairs](emacs-pairs.html)
 * [Conkeror's Bookmarks](conkeror-bookmarks.html)
