@@ -4,18 +4,19 @@ Emacs and Dired
 <center>2013-09-26 17:57:00</center>
 
 In this post, I'll be focusing on one of the novel ways Emacs handles
-*directory editing*. The directory editor, or _Dired_ (pronounced
+"directory editing". The directory editor, or _Dired_ (pronounced
 dir-ed, not die-rd), for short, is the Emacs equivalent of a file
 manager. Whatever you can do with regular file buffers, you can also
 do it with dired buffers, to a certain extent.
 
+
 ## Introduction
 
-To run dired, run Emacs on the command line, supplying a directory as
+To run Dired, run Emacs on the command line, supplying a directory as
 its argument:
 
 ```bash
-$ emacs ~/Desktop/
+$ emacs ~/Desktop
 ```
 
 Or, alternatively, you can press <kbd>C-x d</kbd> inside Emacs. If you
@@ -28,13 +29,12 @@ that looks like the output of `ls -l`:
 /home/john/Desktop/foo:
 total used in directory 84 available 540767396
 -rw-r--r-- 1 john users 5935 Sep 27 18:17 index.html
--rw-r--r-- 1 john users 5944 Sep 27 18:17 index2.html
 drwxr-xr-x 3 john users 4096 Sep 26 17:42 pics
 drwxr-xr-x 3 john users 4096 Sep 26 05:39 vids
 ```
 
-Okay, now that we have it, what can we do with it? Well, here is a
-short list of what, we can do with it. Take note, that the keyboard
+Okay, now that you have it, what can you do with it? Well, here is a
+short list of what, you can do with it. Take note, that the keyboard
 shortcuts in this article are case-sensitive, unless explicitly stated
 otherwise.
 
@@ -49,23 +49,23 @@ them for multiple items will be explained, next.
 ┌─────┬──────────────────────────────────────────────────┐
 │ Key │ What it does                                     │
 ├─────┼──────────────────────────────────────────────────┤
-│  R  │ Rename items(s)                                  │
+│  R  │ Rename items                                     │
 ├─────┼──────────────────────────────────────────────────┤
-│  C  │ Copy item(s)                                     │
+│  C  │ Copy item                                        │
 ├─────┼──────────────────────────────────────────────────┤
-│  D  │ Delete item(s)                                   │
+│  D  │ Delete item                                      │
 ├─────┼──────────────────────────────────────────────────┤
-│  O  │ Change item(s) owner                             │
+│  O  │ Change owner                                     │
 ├─────┼──────────────────────────────────────────────────┤
-│  G  │ Change item(s) group                             │
+│  G  │ Change group                                     │
 ├─────┼──────────────────────────────────────────────────┤
-│  M  │ Change item(s) permissions                       │
+│  M  │ Change permissions                               │
 ├─────┼──────────────────────────────────────────────────┤
 │  S  │ Create symlink                                   │
 ├─────┼──────────────────────────────────────────────────┤
 │  T  │ Touch item                                       │
 ├─────┼──────────────────────────────────────────────────┤
-│  X  │ Execute a shell command on item                  │
+│  X  │ Execute a command on item                        │
 └─────┴──────────────────────────────────────────────────┘
 ```
 

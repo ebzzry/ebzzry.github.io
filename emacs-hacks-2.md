@@ -5,11 +5,11 @@ Emacs and Hacks (Part II)
 
 This is second part of my Emacs tips series. The contents of this post
 are written in no particular order. It explores session management,
-packages, and other neat things.
+packages, managing indents, and other things.
 
-## Session Management
 
-### Desktop
+## Desktop
+
 An indispensable tool that I use now is desktop. It saves the state of
 my Emacs session, so that in the event of crash, power outage, or
 anything that will make me lose my session, I can back to it.
@@ -37,7 +37,8 @@ my snippet:
 (add-hook 'auto-save-hook 'my-desktop-save)
 ```
 
-### Savehist
+
+## Savehist
 
 Another important functionality that I use is savehist. It saves the
 minibuffer history. It's roughly similar to saving the command line
@@ -49,7 +50,8 @@ history. Here's my snippet
 (setq savehist-file "~/.emacs.d/savehist")
 ```
 
-### Consolidation
+
+## Consolidation
 
 No, that is not the name of the library. There are a lot of times,
 when I want to manually save the state of as much session information
@@ -75,6 +77,12 @@ following:
   (interactive)
   (save-defaults)
   (save-histories))
+```
+
+This gives you a nice:
+
+```
+M-x save RET
 ```
 
 ## Packages
@@ -110,20 +118,21 @@ If you know the name of package, hit:
 M-x pi RET package RET
 ```
 
+
 ### use-package
 
 This one is a real gem. It's like `require`, but on steroids. When
 "requiring" a package, you have the option to specify to install that
 package, if it does not exist, yet. It also enables you to configure
 that package, in a unified expression. But unlike `require`,
-`use-package` does not come built-in with Emacs. We need to install it
+`use-package` does not come built-in with Emacs. You need to install it
 via `package-install`:
 
 ```
-M-x package-install RET use-package RET
+M-x pi RET use-package RET
 ```
 
-We can then require it, on subsequent uses:
+You can then require it, on subsequent uses:
 
 ```lisp
 (require 'use-package)
@@ -142,13 +151,12 @@ and configure its related options, after loading it, have:
       (push '("\\.md\\'" . markdown-mode) auto-mode-alist)))
 ```
 
-## General
 
-### Line Numbers
+## Line Numbers
 
 I really like to have the line numbers displayed at the left
 margin. It gives me a rough idea how big the file is, and where am I
-currently. Turn on `linum-mode` achieves this:
+currently. Turning on `linum-mode` achieves it:
 
 ```lisp
 (setq linum-format "%4d")
@@ -159,10 +167,11 @@ currently. Turn on `linum-mode` achieves this:
 (add-hook 'find-file-hook 'my-linum-mode-hook)
 ```
 
-### Timestamps
+
+## Timestamps
 
 I frequently find the need to insert timestamps, especially when I'm
-editing my daily log file. Here are some snippets to help with it:
+editing my daily log file. Here are some snippets to help you with it:
 
 ```lisp
 (defun format-date (format)
@@ -178,45 +187,138 @@ editing my daily log file. Here are some snippets to help with it:
   (format-date "%Y-%m-%d %H:%M:%S"))
 ```
 
-Set the correct value for `system-time-locale`, and bind keys for
-`insert-date/long` and `insert-date/short`.
+The code above sets the correct value for `system-time-locale`, and
+binds keys for `insert-date/long` and `insert-date/short`.
 
-### Keys
 
-The last, but definitely not the least, is key bindings
-management. When your key bindings are not organized, it's not easy to
-find what key did you bind to what. Fortunately, we have `bind-key`,
+## Keys
+
+When your key bindings are not organized, it's not easy to
+find what key did you bind to what. Fortunately, you have `bind-key`,
 which comes as part of `use-package`.
 
-A sample would look like the following:
+An example would look like:
 
 ```lisp
 (bind-keys
  :map global-map
  ("C-;" . eval-expression)
- ("C-j" . delete-indentation)
+ ("C-j" . delete-indentation))
+```
 
- ("C-z" . kill-whole-line)
- ("M-z" . mark-line)
+## Newline Sans Indent
 
- ("C-r" . isearch-backward)
- ("C-s" . isearch-forward)
- ("C-M-r" . isearch-backward-regexp)
- ("C-M-s" . isearch-forward-regexp))
+This command creates a newline, then moves the cursor. It
+simulates a behavior wherein the new line doesn't indent.
 
+```lisp
+(defun newline-and-no-indent (&optional arg)
+  (interactive "p")
+  (open-line arg)
+  (next-line arg))
+```
+
+
+## Fills
+
+This snippet works great when working when working with plain
+text. It indent a paragraph, or the current paragraph context. If
+there is a mark, the region becomes filled.
+
+```lisp
+(defun fill-region-or-paragraph ()
+  (interactive)
+  (if (region-active-p)
+      (fill-region)
+      (fill-paragraph)))
+```
+
+
+## Pasting
+
+Emacs, by default, pastes (yanks) from the secondary, or clipboard
+selection. This command yanks from the primary selection — mouse
+highlights.
+
+```lisp
+(defun yank-primary ()
+  (interactive)
+  (insert-for-yank (x-get-selection 'PRIMARY)))
+```
+
+
+## Cursor Movement
+
+The command `move-to-window-line-top-bottom`, bound by default to
+<kbd>M-r</kbd> is great when you want to move the cursor from the
+center, top, and bottom position, relative to the window, similar to
+Vim's <kbd>H</kbd>, <kbd>M</kbd>, and <kbd>L</kbd> commands. However,
+it's not very efficient when specifically targetting areas of the
+screen. The commands below position point, specifically to the top,
+center, and bottom window positions, respectively.
+
+```lisp
+(defun move-to-window-line-top ()
+  (interactive)
+  (move-to-window-line 0))
+
+(defun move-to-window-line-center ()
+  (interactive)
+  (move-to-window-line nil))
+
+(defun move-to-window-line-bottom ()
+  (interactive)
+  (move-to-window-line -1))
+```
+
+
+## Git Status in Dired
+
+This small snippet gives visual indications of the status of
+git-managed files in a Dired buffer. Pressing <kbd>g</kbd> reloads the
+buffer, then updates the status.
+
+```lisp
+(use-package dired-k
+    :ensure t
+    :config
+  (progn
+    (add-hook 'dired-initial-position-hook 'dired-k)))
+```
+
+
+## Key Bindings
+
+The key bindings for the commands above, are listed below:
+
+```lisp
 (bind-keys
- :map emacs-lisp-mode-map
- ("M-." . find-function)
- ("C-x C-r" . eval-region)
- (";" . sp-comment))
+ :map global-map
+ ("C-c d"   . insert-date)
+ ("C-c C-d" . insert-date-and-time)
+ 
+ ("S-<return>" . newline-and-no-indent)
+
+ ("M-q" . fill-region-or-paragraph)
+
+ ("C-M-y" . yank-primary)
+
+ ("M-1" . move-to-window-line-top)
+ ("M-2" . move-to-window-line-center)
+ ("M-3" . move-to-window-line-bottom))
 
 (bind-keys
  :map dired-mode-map
- ("C-x w" . wdired-change-to-wdired-mode))
+ ("K" . dired-k)
+ ("g" . dired-k))
 ```
+
 
 ## Conclusion
 
-Like last time, the rest of the configuration can be found at
+In this post, it was demonstrated that small tweaks can generate huge
+benefits.
+
+The rest of the configuration can be found at
 <https://github.com/ebzzry/dotemacs>. If you an Emacs hack to share,
 let me know in the comments below. Ciao!
