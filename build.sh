@@ -2,14 +2,41 @@
 
 PATH=$PATH:$HOME/bin
 
-mkdir stage > /dev/null 2>&1
+stage_dir () {
+  [[ ! -d stage ]] && mkdir stage > /dev/null 2>&1
+}
 
-for i in `ls *.md | egrep -v '(FOOTER|README|TODO)'`; do
-  cat $i FOOTER.md > stage/$i
-done
+clean_up () {
+  [[ -d stage ]] && rm -rf stage > /dev/null 2>&1
+}
 
-for i in stage/*.md; do
-  emem -Ro $(basename $i .md).html $i
-done
+stage_files () {
+  for i in `ls *.md | egrep -v '(FOOTER|README|TODO)'`; do
+    cat $i FOOTER.md > stage/$i
+  done
+}
 
-rm -rf stage > /dev/null 2>&1
+copy_resources () {
+  emem -r
+}
+
+build_files () {
+  for i in stage/*.md; do
+    emem -Ro $(basename $i .md).html $i
+  done
+}
+
+main () {
+  case $1 in
+    -r)
+      copy_resources
+      ;;
+    *)
+      stage_dir
+      stage_files
+      build_files
+      clean_up
+  esac
+}
+
+main $@
