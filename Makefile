@@ -1,3 +1,3 @@
 all:
-	zsh --globcomplete --extendedglob build.zsh
+	sh build.sh
 
