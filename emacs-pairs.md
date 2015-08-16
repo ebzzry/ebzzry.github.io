@@ -575,8 +575,8 @@ The plethora of commands in smartparens may be daunting at first, but
 the investement in time in learning them, will be minimal compared to
 benefits that you will reap.
 
-smartparens was written, and being maintained by
-[Matus Goljer](matus.goljer@gmail.com). For more information on
-smartparens, go to <https://github.com/Fuco1/smartparens>. If you
-like this project, you can donate
+smartparens is the brainchild of [Matus Goljer](matus.goljer@gmail.com). For
+more information on smartparens, go to
+<https://github.com/Fuco1/smartparens>. If you like this project, you
+can donate
 [here](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CEYP5YVHDRX8C).
