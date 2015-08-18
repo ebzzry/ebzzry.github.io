@@ -29,12 +29,10 @@ my snippet:
       desktop-restore-in-current-display t
       desktop-restore-forces-onscreen t)
 
-(defun my-desktop-save ()
+(defun desktop-save ()
   (interactive)
   (if (eq (desktop-owner) (emacs-pid))
       (desktop-save desktop-dirname)))
-
-(add-hook 'auto-save-hook 'my-desktop-save)
 ```
 
 
@@ -75,6 +73,7 @@ following:
 
 (defun save ()
   (interactive)
+  (save-desktop)
   (save-defaults)
   (save-histories))
 ```

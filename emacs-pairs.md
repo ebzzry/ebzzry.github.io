@@ -72,6 +72,8 @@ the pair:
 
 ### Navigation
 
+#### Starts and Ends
+
 If you have the expression:
 
 ```clojure
@@ -98,7 +100,9 @@ Conversely, to move point to the end of the expression:
                              ^
 ```
 
-Execute `sp-end-of-sexp`. I bound it to <kbd>C-M-e</kbd>:
+Execute `sp-end-of-sexp`. I bound it to <kbd>C-M-e</kbd>.
+
+#### Traversing Lists
 
 If you have the expression:
 
@@ -121,6 +125,7 @@ and you want to move point to `insert`:
 ```
 
 Execute `sp-down-sexp`. I bound it to <kbd>C-down</kbd>.
+
 
 If you have the expression:
 
@@ -182,6 +187,9 @@ and you want to move point to `(format`:
 
 Execute `sp-backward-up-sexp`. I bound it to <kbd>M-up</kbd>.
 
+
+#### Block Movements
+
 If you have the expression:
 
 ```clojure
@@ -209,6 +217,9 @@ Conversely, to move it just before `[`:
 ```
 
 Execute `sp-backward-sexp`. I bound it to <kbd>C-M-b</kbd>.
+
+
+#### Top-level-ish Traversal
 
 If you have the expression:
 
@@ -245,6 +256,9 @@ Conversely, to move it back:
 
 ```
 Execute `sp-previous-sexp`. I bound it to <kbd>C-M-p</kbd>.
+
+
+#### Free-form Movements
 
 If you have the expression:
 
@@ -287,6 +301,8 @@ delimiters, like parens, brackets, and braces do not exist.
 
 
 ### Manipulation
+
+#### Wrapping
 
 If you have the expression:
 
@@ -363,6 +379,42 @@ var mods = ["vars"];
 
 Nothing will happen. smartparens saves us a lot of trouble, here.
 
+
+#### Unwrapping
+
+If you have the expression:
+
+```clojure
+
+(foo (bar x y z))
+     ^
+```
+
+and you want to unwrap the `bar` expression, removing the parentheses
+around `foo`:
+
+```clojure
+
+foo (bar x y z)
+    ^
+```
+
+Execute `sp-backward-unwrap-sexp`. I bound it to <kbd>M-[</kbd>
+
+Conversely, if you want to unwrap the `bar` expression, removing the
+parentheses around `bar`:
+
+```clojure
+
+(foo bar x y z)
+     ^
+```
+
+Execute `sp-unwrap-sexp`. I bound it to <kbd>M-]</kbd>.
+
+
+#### Slurp and Barf
+
 If you have the expression:
 
 ```clojure
@@ -419,6 +471,9 @@ blah [foo bar]
 
 Execute `sp-backward-barf-sexp`. I bound it to <kbd>M-left</kbd>.
 
+
+#### Swapping
+
 If you have the expression:
 
 ```clojure
@@ -453,6 +508,9 @@ and you want to kill just `"y yy yyy"`:
                ^
 ```
 
+
+#### Killing
+
 Execute `sp-kill-sexp`. I bound it to <kbd>C-M-k</kbd>.
 
 If you want to kill `"y yy yyy" z 0`:
@@ -483,35 +541,6 @@ and you want to kill `[clojure.string :as s]`:
 
 Execute `sp-backward-kill-sexp`. I bound it to <kbd>M-k</kbd>
 
-If you have the expression:
-
-```clojure
-
-(foo (bar x y z))
-     ^
-```
-
-and you want to unwrap the `bar` expression, removing the parentheses
-around `foo`:
-
-```clojure
-
-foo (bar x y z)
-    ^
-```
-
-Execute `sp-backward-unwrap-sexp`. I bound it to <kbd>M-[</kbd>
-
-Conversely, if you want to unwrap the `bar` expression, removing the
-parentheses around `bar`:
-
-```clojure
-
-(foo bar x y z)
-     ^
-```
-
-Execute `sp-unwrap-sexp`. I bound it to <kbd>M-]</kbd>.
 
 
 ## Keys
