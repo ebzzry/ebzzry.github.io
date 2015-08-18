@@ -20,9 +20,10 @@ was made before 2006, chances are, this feature won't be present on
 your chip. Also, take note that this step is not compulsory to make
 use of the virtualization solution described in this post, but it will
 _significantly_ speed things up. To enable accelerated virtualization,
-go into BIOS/UEFI, and look for the knob that enables this
-feature. The name into which it goes is different from manufacturer to
-manufacturer. You can verify on the command line if your system indeed
+go into your BIOS/UEFI settings, and look for the knob that enables
+this feature. The name into which it goes is different from
+manufacturer to manufacturer. Save the settings, then boot your
+system. You can verify on the command line if your system indeed
 recognizes it.
 
 ```bash
