@@ -36,22 +36,16 @@ If it returns some text, then you're good.
 
 Next, you need to install the essential applications.
 
-If you're using Nix:
+Nix:
 
 ```bash
 $ nix-env -i qemu vde2 spice
 ```
 
-If you're using APT:
+APT:
 
 ```bash
 $ sudo apt-get install qemu-kvm vde2 spice-client
-```
-
-If you're using Yum:
-
-```bash
-$ sudo yum install ...
 ```
 
 This will install the [QEMU](http://wiki.qemu.org/) (pronounced as

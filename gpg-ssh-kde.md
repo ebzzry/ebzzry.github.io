@@ -15,16 +15,22 @@ all the necessary components.
 
 For this tutorial you need to have GPG, SSH, and Pinentry.
 
-If you're using Nix:
+Nix:
 
 ```bash
 $ nix-env -i gnupg openssh pinentry
 ```
 
-If you're using APT:
+APT:
 
 ```bash
 $ sudo apt-get install gnupg2 ssh pinentry-qt4
+```
+
+DNF:
+
+```bash
+$ sudo dnf install gnupg openssh pinentry
 ```
 
 ## Configure SSH

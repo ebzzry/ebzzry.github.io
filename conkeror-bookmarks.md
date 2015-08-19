@@ -40,7 +40,7 @@ have installed it properly, run:
 $ emem --version
 ```
 
-If it reports at least `emem-0.2.1`, then you're good to go.
+If it reports at least `emem-0.2.3`, then you're good to go.
 
 
 ## Extract the Data
@@ -76,7 +76,7 @@ bmg () {
   [[ ! -d $base ]] && mkdir -p `dirname $file`
 
   cob | perl -pe 's/^(.*?)\|(.*)/* [\1](\2)/' \
-      | emem -T Bookmarks -o ${file}.tmp
+      | emem -t Bookmarks -o ${file}.tmp
 
   [[ -f ${file}.tmp ]] && mv -f ${file}.tmp $file
 }
