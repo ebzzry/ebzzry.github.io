@@ -1,0 +1,61 @@
+<html><head><title>Emacs and Racket</title><meta content="text/html;charset=utf-8" http-equiv="Content-Type" /><link href="static/ico/favicon.ico" rel="shortcut icon" type="image/x-icon" /><link href="static/css/main.css" media="all" rel="stylesheet" /><link href="static/css/tomorrow-night.css" media="all" rel="stylesheet" /><script src="static/js/highlight.pack.js"></script><script>hljs.initHighlightingOnLoad();</script></head><body><h1>Emacs and Racket</h1><p><center>2013-09-29 22:21:19</center></p><p>In this post, I'll discuss the easiest approach that I took to setup up a <a href='https://racket-lang.org'>Racket</a> development environment on Emacs. Take note, that this is not the only approach available — some did it in arguably better ways. In this article, I'll try to explain the shortest route that I took.</p><h2>Introduction</h2><p>Editing Racket code with Emacs has traditionally been done by rudimentary modes that mostly lacked flexibility. They were able to evaluate current definitions, last definitions, and entire buffers, for the most part. Unfortunately, that didn't suffice with the way Racket dealt with things. A more intelligent way of handling code, was needed.</p><p>Fortunately, you have <a href='http://www.nongnu.org/geiser/'>Geiser</a>. To quote the first paragraph on its homepage:</p><blockquote><p>Geiser is a collection of Emacs major and minor modes that conspire with one or more Scheme interpreters to keep the Lisp Machine Spirit alive. It draws inspiration (and a bit more) from environments such as Common Lisp’s Slime, Factor’s FUEL, Squeak or Emacs itself, and does its best to make Scheme hacking inside Emacs (even more) fun. </p></blockquote><p>I saw several other major modes that tries to do what Geiser does, but I became most comfortable with what Geiser offered. Some similar libraries can co-exist with Geiser, too. I tried those, but it became too complex, for me. I wound up just using Geiser. Also, as a semi-related note, I'm using Emacs to edit Racket code because I don't know of any other editor that does it so well. I don't use DrRacket, except when I need to use its nice GUI debugger.</p><h2>Installation</h2><p>My installation method is crude, but it works, at least for me. Other installation methods exist, but I couldn't wrap my brain around them, so I opted instead for something that requires the minimal amount of chore. Also, I'm still not sure what are the hidden consequences of not doing it the "elegant" way, presuming there is one.</p><p>Let's say that you want to install your Geiser files in <code>&#126;/.emacs.d/elisp/</code>. You'll issue the following commands to install Geiser to that location:</p><pre><code class="bash">$ mkdir &#126;/.emacs.d/elisp
+$ cd &#126;/.emacs.d/elisp
+$ git clone http://git.sv.gnu.org/r/geiser.git
+</code></pre><p>After that, in <code>&#126;/.emacs.d/elisp/geiser/</code>, you'll have something that looks like the following:</p><pre><code>AUTHORS
+autogen.sh&#42;
+bin/
+ChangeLog
+configure.ac
+COPYING
+doc/
+elisp/
+.git/
+.gitignore
+INSTALL
+Makefile.am
+NEWS
+README
+README.elpa
+scheme/
+THANKS
+</code></pre><p>Next, you want the directory <code>&#126;/.emacs.d/elisp/geiser/elisp/</code> to be a member of the Emacs variable <code>load-path</code> so that <code>require</code> and friends will know where to find things. To do that, add the following to your Emacs init file — either in <code>&#126;/.emacs.d/init.el</code>, or in <code>&#126;/.emacs</code> (deprecated):</p><pre><code class="lisp">&#40;add-to-list 'load-path &quot;&#126;/.emacs.d/elisp/geiser/elisp/&quot;&#41;
+</code></pre><p>Next, you'll put in the actual code that invokes and configures Geiser:</p><pre><code class="lisp">&#40;require 'geiser&#41;
+
+&#40;setq geiser-active-implementations '&#40;racket&#41;&#41;
+
+&#40;defun geiser-save &#40;&#41;
+  &#40;interactive&#41;
+  &#40;geiser-repl--write-input-ring&#41;&#41;
+</code></pre><p>The first expression loads Geiser, itself. The second one specifies that it won't prompt you for other implementations if it finds them. The last one is optional — it enables you to execute `M-x geiser-save RET` in the REPL buffer to force saving of the history to the disk file, which is <code>&#126;/.geiser&#95;history.racket</code>, by default. It is useful if you want to save your REPL session, immediately (Nothing is more horrifying than losing <strong>THAT</strong> expression). For all the Emacs code above, to take effect, you can evaluate them now using members of the eval-* troupe (<code>eval-defun</code>, <code>eval-last-sexp</code>, <code>eval-region</code>), or, you can still opt to respawn a new Emacs process.</p><h2>Usage</h2><p>To reap what you sowed, create or open a <code>.rkt</code> file, with at least a proper module declaration. Then hit:</p><pre><code>M-x run-geiser RET
+</code></pre><p>And, boomshakalaka! A new (Emacs) window opens, containing the `* Racket REPL *` buffer. Whatever you can do with the REPL invoked with vanilla command-line <code>racket</code>, you can also do with this, and more. This major mode is actually Comint mode, under the hood, with hooks to a a Racket process. For those of you who are unfamiliar with Comint mode, it is the same mode that handles <code>M-x shell RET</code>.</p><p>So, what can you do with it? While editing <code>.rkt</code> file, here are some of the usual shortcuts that I use (The full list of keys are <a href='http://www.nongnu.org/geiser/geiser&#95;5.html#Cheat-sheet'>available here</a>). Take note, that the description of the keys that I used below, are for myself initially, to help me understand what they do. They may, or may not diverge from the official description, listed on the aforementioned link.</p><h3>Racket Buffer</h3><pre><code>┌─────────┬──────────────────────────────────────────────┐
+│ Key     │ What it does                                 │
+├─────────┼──────────────────────────────────────────────┤
+│ C-c C-z │ Switch to the REPL buffer                    │
+├─────────┼──────────────────────────────────────────────┤
+│ C-c C-a │ Evaluate current buffer, then switch to      │
+│         │ the REPL buffer                              │
+├─────────┼──────────────────────────────────────────────┤
+│ C-M-x   │ Evaluate current expression                  │
+├─────────┼──────────────────────────────────────────────┤
+│ C-x C-e │ Evaluate last expression                     │
+├─────────┼──────────────────────────────────────────────┤
+│ C-c C-r │ Evaluate region                              │
+├─────────┼──────────────────────────────────────────────┤
+│ C-c C-\ │ Insert a λ symbol                            │
+└─────────┴──────────────────────────────────────────────┘
+</code></pre><h3>REPL Buffer</h3><pre><code>┌─────────┬──────────────────────────────────────────────┐
+│ Key     │ What it does                                 │
+├─────────┼──────────────────────────────────────────────┤
+│ C-c C-z │ Switch to the Racket buffer                  │
+├─────────┼──────────────────────────────────────────────┤
+│ M-p     │ Switch to the previous history item          │
+├─────────┼──────────────────────────────────────────────┤
+│ M-n     │ Switch to the next history item              │
+├─────────┼──────────────────────────────────────────────┤
+│ C-c M-p │ Jump to previous prompt                      │
+├─────────┼──────────────────────────────────────────────┤
+│ C-c M-n │ Jump to next prompt                          │
+├─────────┼──────────────────────────────────────────────┤
+│ C-c C-q │ Quit the REPL                                │
+└─────────┴──────────────────────────────────────────────┘
+</code></pre><h2>Conclusion</h2><p>I have intentionally skipped many topics from the <a href='http://www.nongnu.org/geiser/'>official document</a> because it makes it unattractive to people who are averse to reading long blocks of text (ironically, this article may even qualify as one.). The methods described above are by in no way representative of community-advised ways of installing and using Racket with Emacs. Feel free to drop a comment below! Ciao!</p><hr/><center>  <small>Site created with <a href='https://github.com/ebzzry/emem'>emem</a>, &amp; <a href='https://gnu.org/software/emacs'>emacs</a></small><br/>  <small>Copyright © Rommel M. Martinez</small></center</body></html>

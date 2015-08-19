@@ -1,0 +1,67 @@
+<html><head><title>Emacs and Dired</title><meta content="text/html;charset=utf-8" http-equiv="Content-Type" /><link href="static/ico/favicon.ico" rel="shortcut icon" type="image/x-icon" /><link href="static/css/main.css" media="all" rel="stylesheet" /><link href="static/css/tomorrow-night.css" media="all" rel="stylesheet" /><script src="static/js/highlight.pack.js"></script><script>hljs.initHighlightingOnLoad();</script></head><body><h1>Emacs and Dired</h1><p><center>2013-09-26 17:57:00</center></p><p>In this post, I'll be focusing on one of the novel ways Emacs handles "directory editing". The directory editor, or <i>Dired</i> (pronounced dir-ed, not die-rd), for short, is the Emacs equivalent of a file manager. Whatever you can do with regular file buffers, you can also do it with dired buffers, to a certain extent.</p><h2>Introduction</h2><p>To run Dired, run Emacs on the command line, supplying a directory as its argument:</p><pre><code class="bash">$ emacs &#126;/Desktop
+</code></pre><p>Or, alternatively, you can press <kbd>C-x d</kbd> inside Emacs. If you are currently editing a file, the directory of that file will be presented as the default value in the minibuffer area. Either way, when you hit <kbd>Enter</kbd>, a buffer of the directory will load, that looks like the output of <code>ls -l</code>:</p><pre><code>/home/john/Desktop/foo:
+total used in directory 84 available 540767396
+-rw-r--r-- 1 john users 5935 Sep 27 18:17 index.html
+drwxr-xr-x 3 john users 4096 Sep 26 17:42 pics
+drwxr-xr-x 3 john users 4096 Sep 26 05:39 vids
+</code></pre><p>Okay, now that you have it, what can you do with it? Well, here is a short list of what, you can do with it. Take note, that the keyboard shortcuts in this article are case-sensitive, unless explicitly stated otherwise.</p><h2>Common commands</h2><p>These are the usual commands that you would use, in a dired buffer. In addition to that, they can operate on single, or multiple items. Using them for multiple items will be explained, next.</p><pre><code>┌─────┬──────────────────────────────────────────────────┐
+│ Key │ What it does                                     │
+├─────┼──────────────────────────────────────────────────┤
+│  R  │ Rename items                                     │
+├─────┼──────────────────────────────────────────────────┤
+│  C  │ Copy item                                        │
+├─────┼──────────────────────────────────────────────────┤
+│  D  │ Delete item                                      │
+├─────┼──────────────────────────────────────────────────┤
+│  O  │ Change owner                                     │
+├─────┼──────────────────────────────────────────────────┤
+│  G  │ Change group                                     │
+├─────┼──────────────────────────────────────────────────┤
+│  M  │ Change permissions                               │
+├─────┼──────────────────────────────────────────────────┤
+│  S  │ Create symlink                                   │
+├─────┼──────────────────────────────────────────────────┤
+│  T  │ Touch item                                       │
+├─────┼──────────────────────────────────────────────────┤
+│  X  │ Execute a command on item                        │
+└─────┴──────────────────────────────────────────────────┘
+</code></pre><h2>Mark commands</h2><p>These commands perform mark-related operations on items. Creating marks simply means putting a tag on items, so that you can perform the operations in the previous section, on them.</p><pre><code>┌─────┬──────────────────────────────────────────────────┐
+│ Key │ What it does                                     │
+├─────┼──────────────────────────────────────────────────┤
+│  m  │ Mark an item, for the above-listed commands      │
+├─────┼──────────────────────────────────────────────────┤
+│  d  │ Mark an item for deletion operations             │
+├─────┼──────────────────────────────────────────────────┤
+│  x  │ Perform actual deletion                          │
+├─────┼──────────────────────────────────────────────────┤
+│  u  │ Unmark a single item                             │
+├─────┼──────────────────────────────────────────────────┤
+│  U  │ Unmark all items                                 │
+├─────┼──────────────────────────────────────────────────┤
+│  t  │ Toggle marks between marked and unmarked items   │
+└─────┴──────────────────────────────────────────────────┘
+</code></pre><h2>Other commands</h2><p>These commands act on their own. They operate on single items, and they don't make use of marks. The <kbd>w</kbd> command, however, is an exception.</p><pre><code>┌─────┬──────────────────────────────────────────────────┐
+│ Key │ What it does                                     │
+├─────┼──────────────────────────────────────────────────┤
+│  +  │ Create directory                                 │
+├─────┼──────────────────────────────────────────────────┤
+│  &#94;  │ Go up, one level, like `cd ..`                   │
+├─────┼──────────────────────────────────────────────────┤
+│  e  │ Edit an item                                     │
+├─────┼──────────────────────────────────────────────────┤
+│  f  │ Edit an item                                     │
+├─────┼──────────────────────────────────────────────────┤
+│  v  │ View an item, like `less` or `more`              │
+├─────┼──────────────────────────────────────────────────┤
+│  g  │ Reload the current directory                     │
+├─────┼──────────────────────────────────────────────────┤
+│  j  │ Jump to an item                                  │
+├─────┼──────────────────────────────────────────────────┤
+│  s  │ Change sort order                                │
+├─────┼──────────────────────────────────────────────────┤
+│  y  │ Show file type of item, like `file`              │
+├─────┼──────────────────────────────────────────────────┤
+│  w  │ Copy item name&#40;s&#41; to the clipboard               │
+└─────┴──────────────────────────────────────────────────┘
+</code></pre><h2>WDired mode</h2><p><em>BUT</em>, one of the coolest, and often-overlooked feature of dired is the <i>WDired</i> mode. What it does is that it gives you a decent ability to edit the item names in a dired buffer, just as you would on a typical buffer. To enter wdired mode, hit:</p><pre><code>M-x wdired-change-to-wdired-mode RET
+</code></pre><p>The major mode changes from <code>Dired</code> to <code>Editable Dired</code>. You can then rename the files, and directories, with ease. You can even use rectangle and replace functions on them, to make things easier. The changes you have made at this point are not yet saved. To save the changes, press <kbd>C-c C-c</kbd>.</p><p>Well, that is it for now. Ciao!</p><hr/><center>  <small>Site created with <a href='https://github.com/ebzzry/emem'>emem</a>, &amp; <a href='https://gnu.org/software/emacs'>emacs</a></small><br/>  <small>Copyright © Rommel M. Martinez</small></center</body></html>
