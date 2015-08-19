@@ -31,11 +31,6 @@ pre code {
     font-family: monospace;
     line-height: 1.3em;
     overflow: auto;
-    border-left: 8px solid gray;
-    border-right: 8px solid gray;
-    -moz-border-radius: 6px;
-    -webkit-border-radius: 6px;
-    border-radius: 6px;
 }
 
 kbd {
