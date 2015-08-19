@@ -28,16 +28,22 @@ server. A easy-to-use application that will do that for you is
 Most of the time, getmail can be readily installed via your system's
 package manager.
 
-If you're using Nix:
+Nix:
 
 ```bash
 $ nix-env -i getmail
 ```
 
-If you're using APT:
+APT:
 
 ```bash
 $ sudo apt-get install getmail4
+```
+
+DNF:
+
+```bash
+$ sudo dnf install getmail
 ```
 
 However, if your system doesn't provide an easy way for you to install

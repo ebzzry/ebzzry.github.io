@@ -16,7 +16,7 @@ stage_files () {
   done
 }
 
-copy_resources () {
+install_resources () {
   emem -r
 }
 
@@ -28,7 +28,7 @@ build_files () {
 main () {
   case $1 in
     *)
-      copy_resources
+      install_resources
       stage_dir
       stage_files
       build_files
