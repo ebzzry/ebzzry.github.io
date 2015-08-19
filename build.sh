@@ -17,7 +17,7 @@ stage_files () {
 }
 
 install_resources () {
-  emem -r
+  emem -i
 }
 
 build_files () {

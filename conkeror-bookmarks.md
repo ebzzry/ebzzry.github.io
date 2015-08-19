@@ -40,20 +40,22 @@ have installed it properly, run:
 $ emem --version
 ```
 
-If it reports at least `emem-0.2.3`, then you're good to go.
+If it reports at least `emem-0.2.1`, then you're good to go.
 
 
 ## Extract the Data
 
 You need to have a way first to extract the data from a sqlite3
 database, which Conkeror uses to store the bookmarks, among other
-things. Open your `~/.bashrc`, or whatever your shell uses, then
-append the following text. Replacing `profile.default` with the
-correct profile name:
+things.
+
+Open your `~/.bashrc`, or whatever init file your shell uses, then
+append the following text. Replace `profile.default` with the correct
+profile name:
 
 ```bash
 cob () {
-  sqlite3 \
+  sqlite3 -separator ' <> ' \
   $HOME/.conkeror.mozdev.org/conkeror/profile.default/places.sqlite \
   'SELECT p.title, p.url FROM moz_bookmarks b INNER JOIN moz_places p \
   ON b.fk = p.id ORDER BY b.id DESC;' | uniq
@@ -66,30 +68,34 @@ The command above selects the `title` and `url` columns from the
 
 ## Generate the Bookmarks
 
-Next, you need to have a way to generate the HTML file that
-you're going to view later in Conkeror:
+Next, you need to have a way to generate the HTML file that you're
+going to view later in Conkeror. Add the following to your
+`~/.bashrc`.
 
 ```bash
 bmg () {
-  local file=$HOME/bookmarks/bookmarks.html
+  local base=$HOME/bookmarks
+  local file=$base/bookmarks.html
   trap "rm -f ${file}.tmp" HUP INT TERM ABRT
+
   [[ ! -d $base ]] && mkdir -p `dirname $file`
 
-  cob | perl -pe 's/^(.*?)\|(.*)/* [\1](\2)/' \
+  cob | perl -pe 's/^(.*?)\ \<\>\ (.*)/* [\1](\2)/' \
       | emem -t Bookmarks -o ${file}.tmp
 
   [[ -f ${file}.tmp ]] && mv -f ${file}.tmp $file
 }
 ```
 
-What it does is that it filters the output of `cob`, which `emem` then
+What it does is that it filters the output of `cob`, which _emem_ then
 uses to generate the HTML file.
 
 
 ## Create a CLI Viewer
 
 Now that you can build the HTML file, you need to have a command that
-will load the bookmarks in Conkeror:
+will load the bookmarks in Conkeror. Add the following to your
+`~/.bashrc`.
 
 ```bash
 bm () {
@@ -100,7 +106,8 @@ bm () {
 ## Conkeror Commands
 
 Let's now create interactive commands for Conkeror, for generating and
-viewing the bookmarks:
+viewing the bookmarks. Open your `~/.conkerorrc` file, then put the
+following:
 
 ```javascript
 interactive(
@@ -172,4 +179,5 @@ There are caveats to this method, and one of them is that this is
 strictly a viewer. If you want to edit your bookmarks, you may copy
 the `places.sqlite` file to a Firefox profile, and use its built-in
 Bookmarks Manager to edit it. You may also edit the file directly with
-_sqlite3_, or _sqlitebrowser_ .
+[sqlite3](https://www.sqlite.org/cli.html), or
+[sqlitebrowser](https://github.com/sqlitebrowser/sqlitebrowser).
