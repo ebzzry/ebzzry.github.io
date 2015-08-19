@@ -16,14 +16,6 @@ To build the HTML files, you need the following:
 
 ## Building
 
-Install the resource files:
-
-```bash
-$ make resources
-```
-
-Build the HTML files:
-
 ```bash
 $ make
 ```
