@@ -1,7 +1,6 @@
 /static
 /stage
 /drafts
-*.html
 *.test
 TODO.md
 
