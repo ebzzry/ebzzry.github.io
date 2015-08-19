@@ -21,15 +21,14 @@ copy_resources () {
 }
 
 build_files () {
-  emem stage
+  emem -n stage
+  mv -f stage/*.html .
 }
 
 main () {
   case $1 in
-    -r)
-      copy_resources
-      ;;
     *)
+      copy_resources
       stage_dir
       stage_files
       build_files
