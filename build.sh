@@ -21,9 +21,7 @@ copy_resources () {
 }
 
 build_files () {
-  for i in stage/*.md; do
-    emem -Ro $(basename $i .md).html $i
-  done
+  emem stage
 }
 
 main () {
