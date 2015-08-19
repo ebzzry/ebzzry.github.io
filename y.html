@@ -1,0 +1,71 @@
+<html><head><title>The Y Combinator in Six Easy Steps</title><meta content="text/html;charset=utf-8" http-equiv="Content-Type" /><link href="static/ico/favicon.ico" rel="shortcut icon" type="image/x-icon" /><link href="static/css/main.css" media="all" rel="stylesheet" /><link href="static/css/tomorrow-night.css" media="all" rel="stylesheet" /><script src="static/js/highlight.pack.js"></script><script>hljs.initHighlightingOnLoad();</script></head><body><h1>The Y Combinator in Six Easy Steps</h1><p><center>2013-05-09 12:43:11</center></p><p>A lot of us have been taught that to be able to define a recursive procedure, the recursive invocation must "use" the name of the recursive procedure. The <a href='http://en.wikipedia.org/wiki/Fixed-point&#95;combinator#Y&#95;combinator'>Y combinator</a> , however, lets you perform recursion, without referring to the named identifier.</p><p>The Y combinator has been both a source of inspiration and frustration for many. It evokes a eureka-like sensation once you get past the wall, but it also renders us scratching your heads when it just doesn't make sense to traverse the labyrinth. This post aims to bring my own approach on how to derive the Y combinator. It may not be the most elegant way, but it may work for you.</p><p>In the code examples in this post, the <code>&gt;</code> symbol denotes the prompt symbol for your Scheme implementation.</p><h2>Step 1</h2><p>Let's start by defining a procedure named <code>sum0</code> that computes the <a href='http://en.wikipedia.org/wiki/Summation'>summation</a> of a positive integer, down to zero. In the following snippet, the recursive call happens when <code>sum0</code> is applied in the else part of the condition.</p><pre><code class="scheme">&gt; &#40;define sum0
+    &#40;lambda &#40;n&#41;
+      &#40;if &#40;zero? n&#41;
+          0
+          &#40;+ n &#40;sum0 &#40;- n 1&#41;&#41;&#41;&#41;&#41;&#41;
+&gt; &#40;sum0 100&#41;
+5050
+</code></pre><p>You have have observed that I have defined <code>sum0</code> using an explicit <code>lambda</code>. You'll see shortly, why.</p><h2>Step 2</h2><p>Let's break that procedure further, into more elementary components, and you'll apply it, using <a href='https://en.wikipedia.org/wiki/Currying'>currying</a>.</p><pre><code class="scheme">&gt; &#40;define sum0
+    &#40;lambda &#40;f&#41;
+      &#40;lambda &#40;n&#41;
+        &#40;if &#40;zero? n&#41;
+            0
+            &#40;+ n &#40;&#40;f f&#41; &#40;- n 1&#41;&#41;&#41;&#41;&#41;&#41;&#41;
+&gt; &#40;&#40;sum0 sum0&#41; 100&#41;
+5050
+</code></pre><p>The extra <code>lambda</code> was needed because you needed to have a way to "anonymize" the recursive procedure. In this case, you used the identifier <code>f</code> to bind to the recursive procedure, which is <code>sum0</code>, itself. The weird-looking <code>&#40;&#40;f f&#41; ...&#41;</code> is needed, because you have to perform the same procedure invocation method used initially: <code>&#40;&#40;sum0 sum0&#41; 100&#41;</code>.</p><h2>Step 3</h2><p>You're now going to exploit that property, to use a "nameless" approach, that is, without using the <code>sum0</code> name.</p><pre><code class="scheme">&gt; &#40;&#40;&#40;lambda &#40;f&#41;
+      &#40;lambda &#40;n&#41;
+        &#40;if &#40;zero? n&#41;
+            0
+            &#40;+ n &#40;&#40;f f&#41; &#40;- n 1&#41;&#41;&#41;&#41;&#41;&#41;
+    &#40;lambda &#40;f&#41;
+      &#40;lambda &#40;n&#41;
+        &#40;if &#40;zero? n&#41;
+            0
+            &#40;+ n &#40;&#40;f f&#41; &#40;- n 1&#41;&#41;&#41;&#41;&#41;&#41;&#41;
+   100&#41;
+5050
+</code></pre><p>Take note, that at this point, you're no longer using the <code>sum0</code> name, to refer the the definition, except for later.</p><h2>Step 4</h2><p>Next, you need to move the <code>&#40;f f&#41;</code> part outside, to isolate the general (Y combinator), from the specific (<code>sum0</code>) code.</p><pre><code class="scheme">&gt; &#40;&#40;&#40;lambda &#40;f&#41;
+      &#40;&#40;lambda &#40;p&#41;
+         &#40;lambda &#40;n&#41;
+           &#40;if &#40;zero? n&#41;
+               0
+               &#40;+ n &#40;p &#40;- n 1&#41;&#41;&#41;&#41;&#41;&#41;
+       &#40;lambda &#40;v&#41; &#40;&#40;f f&#41; v&#41;&#41;&#41;&#41;
+    &#40;lambda &#40;f&#41;
+      &#40;&#40;lambda &#40;p&#41;
+         &#40;lambda &#40;n&#41;
+           &#40;if &#40;zero? n&#41;
+               0
+               &#40;+ n &#40;p &#40;- n 1&#41;&#41;&#41;&#41;&#41;&#41;
+       &#40;lambda &#40;v&#41; &#40;&#40;f f&#41; v&#41;&#41;&#41;&#41;&#41;
+   100&#41;
+5050
+</code></pre><p>During the procedure application, the identifier <code>p</code> will be bound to <code>&#40;lambda &#40;v&#41; &#40;&#40;f f&#41; v&#41;&#41;</code>, and the identifier <code>v</code> will be bound to <code>&#40;- n 1&#41;</code>.</p><h2>Step 5</h2><p>Next, you're going to isolate the Y combinator, from the <code>sum0</code> procedure.</p><pre><code class="scheme">&gt; &#40;&#40;&#40;lambda &#40;x&#41;
+      &#40;&#40;lambda &#40;f&#41;
+         &#40;x &#40;lambda &#40;v&#41; &#40;&#40;f f&#41; v&#41;&#41;&#41;&#41;
+       &#40;lambda &#40;f&#41;
+         &#40;x &#40;lambda &#40;v&#41; &#40;&#40;f f&#41; v&#41;&#41;&#41;&#41;&#41;&#41;
+    &#40;lambda &#40;p&#41;
+      &#40;lambda &#40;n&#41;
+        &#40;if &#40;zero? n&#41;
+            0
+            &#40;+ n &#40;p &#40;- n 1&#41;&#41;&#41;&#41;&#41;&#41;&#41;
+   100&#41;
+5050
+</code></pre><p>You replace the <code>sum0</code>-specific definition with <code>x</code>. This requires you again, to create an enveloping <code>lambda</code>. Since <code>x</code> is bound to the computing procedure, you no longer need to repeat it.</p><h2>Step 6</h2><p>Finally, you will explicitly create a separate procedure definitions for the Y combinator itself, and the <code>sum0</code> procedure.</p><pre><code class="scheme">&gt; &#40;define y
+    &#40;lambda &#40;x&#41;
+      &#40;&#40;lambda &#40;f&#41;
+         &#40;x &#40;lambda &#40;v&#41; &#40;&#40;f f&#41; v&#41;&#41;&#41;&#41;
+       &#40;lambda &#40;f&#41;
+         &#40;x &#40;lambda &#40;v&#41; &#40;&#40;f f&#41; v&#41;&#41;&#41;&#41;&#41;&#41;&#41;
+&gt; &#40;define %sum0
+    &#40;lambda &#40;p&#41;
+      &#40;lambda &#40;n&#41;
+        &#40;if &#40;zero? n&#41;
+            0
+            &#40;+ n &#40;p &#40;- n 1&#41;&#41;&#41;&#41;&#41;&#41;&#41;
+&gt; &#40;define sum0 &#40;y %sum0&#41;&#41;
+&gt; &#40;sum0 100&#41;
+5050
+</code></pre><p>I hope this post has been useful in making you understand the Y combinator, currying, and procedure application. Please post your comments and suggestions, below. <code>&lt;-:</code></p><hr/><center>  <small>Site created with <a href='https://github.com/ebzzry/emem'>emem</a>, &amp; <a href='https://gnu.org/software/emacs'>emacs</a></small><br/>  <small>Copyright © Rommel M. Martinez</small></center</body></html>
