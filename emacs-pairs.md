@@ -492,6 +492,9 @@ and you want `"foo"` and `"bar"` to switch places:
 
 Execute `sp-transpose-sexp`. I bound it to <kbd>C-M-t</kbd>.
 
+
+#### Killing
+
 If you have the expression:
 
 ```clojure
@@ -507,9 +510,6 @@ and you want to kill just `"y yy yyy"`:
 (let [x "xxx" y z 0])
                ^
 ```
-
-
-#### Killing
 
 Execute `sp-kill-sexp`. I bound it to <kbd>C-M-k</kbd>.
 

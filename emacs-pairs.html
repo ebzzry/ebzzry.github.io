@@ -161,13 +161,13 @@ blah &#91;foo bar&#93;
 </code></pre><p>and you want <code>&quot;foo&quot;</code> and <code>&quot;bar&quot;</code> to switch places:</p><pre><code class="clojure">
 &quot;bar&quot; &quot;foo&quot;
       &#94;
-</code></pre><p>Execute <code>sp-transpose-sexp</code>. I bound it to <kbd>C-M-t</kbd>.</p><p>If you have the expression:</p><pre><code class="clojure">
+</code></pre><p>Execute <code>sp-transpose-sexp</code>. I bound it to <kbd>C-M-t</kbd>.</p><h4>Killing</h4><p>If you have the expression:</p><pre><code class="clojure">
 &#40;let &#91;x &quot;xxx&quot; y &quot;y yy yyy&quot; z 0&#93;&#41;
                &#94;
 </code></pre><p>and you want to kill just <code>&quot;y yy yyy&quot;</code>:</p><pre><code class="clojure">
 &#40;let &#91;x &quot;xxx&quot; y z 0&#93;&#41;
                &#94;
-</code></pre><h4>Killing</h4><p>Execute <code>sp-kill-sexp</code>. I bound it to <kbd>C-M-k</kbd>.</p><p>If you want to kill <code>&quot;y yy yyy&quot; z 0</code>:</p><pre><code class="clojure">
+</code></pre><p>Execute <code>sp-kill-sexp</code>. I bound it to <kbd>C-M-k</kbd>.</p><p>If you want to kill <code>&quot;y yy yyy&quot; z 0</code>:</p><pre><code class="clojure">
 &#40;let &#91;x &quot;xxx&quot; y&#93;&#41;
                &#94;
 </code></pre><p>Execute <code>sp-kill-hybrid-sexp</code>. I bound it to <kbd>C-k</kbd>.</p><p>If you have the expression:</p><pre><code class="clojure">
