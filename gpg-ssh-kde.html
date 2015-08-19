@@ -1,0 +1,30 @@
+<html><head><title>Setting Up GPG and SSH in KDE</title><meta content="text/html;charset=utf-8" http-equiv="Content-Type" /><link href="static/ico/favicon.ico" rel="shortcut icon" type="image/x-icon" /><link href="static/css/main.css" media="all" rel="stylesheet" /><link href="static/css/tomorrow-night.css" media="all" rel="stylesheet" /><script src="static/js/highlight.pack.js"></script><script>hljs.initHighlightingOnLoad();</script></head><body><h1>Setting Up GPG and SSH in KDE</h1><p><center>2014-09-17 19:53:15</center></p><p>When both GPG and SSH are integrated with KDE, it makes inter-operating with those systems very easy. It will make the difference between a loose-fitting glove, and one that fits snugly.</p><p>This quick tutorial will go over the steps on how to go about it. To accommodate everyone, I'll still go about how to install and configure all the necessary components.</p><h2>Prerequisites</h2><p>For this tutorial you need to have GPG, SSH, and Pinentry.</p><p>If you're using Nix:</p><pre><code class="bash">$ nix-env -i gnupg openssh pinentry
+</code></pre><p>If you're using APT:</p><pre><code class="bash">$ sudo apt-get install gnupg2 ssh pinentry-qt4
+</code></pre><h2>Configure SSH</h2><p>Now that you have the parts in front of you, it's time to assemble them. The first thing that you need to do (although in reality the files that you are going to open in this section can be done in any order that you wish), is create your SSH keys:</p><pre><code class="bash">$ ssh-keygen -t rsa
+</code></pre><p><strong>DO NOT</strong> leave the passphrase empty. If you really insist, then shoot yourself, in the head.</p><p>The above command will create two files:</p><pre><code>&#126;/.ssh/id&#95;rsa.pub
+&#126;/.ssh/id&#95;rsa
+</code></pre><p>Next, authorize yourself on the remote server, so that password-less logins will be avaible later:</p><pre><code class="bash">$ ssh-copy-id user@host
+</code></pre><h2>Configure GPG</h2><p>You need to create next your GPG keys. Follow the prompts that follow, making sure that you select the strongest options:</p><pre><code class="bash">$ gpg2 --gen-key
+</code></pre><p>If you want to generate "better" passwords, use the <a href='http://world.std.com/&#126;reinhold/diceware.html'>Diceware method</a>. An <a href='https://xkcd.com/936/'>XKCD comic</a> was drawn in case you're wondering what it is.</p><p>The next thing to do is edit the main GPG config file:</p><pre><code class="bash">$ emacs &#126;/.gnupg/gpg.conf
+</code></pre><p>Find the line that contains <code>use-agent</code> and uncomment it, if it is commented. If that line does not exist just put <code>use agent</code> at the end of that file:</p><p>You need to edit the agent file, next:</p><pre><code class="bash">$ emacs &#126;/.gnupg/gpg-agent.conf
+</code></pre><p>Then put the following lines:</p><pre><code>no-grab
+default-cache-ttl 10800
+default-cache-ttl-ssh 10800
+pinentry-program /usr/bin/pinentry-qt4
+</code></pre><p>Those are <i>my</i> preferred values. If you want to change them, look at the manpage:</p><pre><code class="bash">$ man gpg-agent
+</code></pre><h2>Configure KDE</h2><p>You now need to link the GPG agent with KDE. You need to create a <i>startup</i> script for KDE that will invoke the GPG agent at startup. You also need to tell the GPG agent to enable SSH support (in the old days, the SSH agent has to be ran separately from GPG).</p><pre><code class="bash">$ mkdir &#126;/.kde/env
+$ emacs &#126;/.kde/env/01&#95;gpg-agent.sh
+</code></pre><p>Then put in the following lines:</p><pre><code class="bash">#!/bin/sh
+
+killall gpg-agent
+eval `gpg-agent --enable-ssh-support --daemon`
+</code></pre><p>Make it executable:</p><pre><code class="bash">$ chmod +x &#126;/.kde/env/01&#95;gpg-agent.sh
+</code></pre><p>Finally, create the <i>shutdown</i> script for the GPG agent:</p><pre><code class="bash">$ mkdir &#126;/.kde/shutdown
+$ emacs &#126;/.kde/shutdown/01&#95;gpg-agent.sh
+</code></pre><p>Then put in the following lines:</p><pre><code class="bash">#!/bin/sh
+
+killall gpg-agent
+</code></pre><p>Make it executable, too:</p><pre><code class="bash">$ chmod +x &#126;/.kde/shutdown/01&#95;gpg-agent.sh
+</code></pre><h2>Verification</h2><p>Unfortunately, you have to restart your KDE session for these settings to take effect. If you know a method that doesn't require restarting the session, please let me know.</p><p>Press <kbd>Ctrl+Alt+Del</kbd> to logout, then login with your account.</p><p>Open a Konsole window, then connect to your favorite SSH server:</p><pre><code class="bash">$ ssh user@remotehost
+</code></pre><p>A pinentry dialog box should appear prompting you for your passphrase. This passphrase will be cached according to your settings in <code>&#126;/.gnupg/gpg-agent.conf</code>. Subsequent SSH connection attempts will not prompt you for the passphrase within this timeout period.</p><p>A similar behavior will happen if you encrypt a file with GPG:</p><pre><code class="bash">$ gpg2 -sea -r john@remotehost file.dat
+</code></pre><h2>Conclusion</h2><p>The steps outline above are meant to be succinct without going through the gory details. I avoided reiterating what was already said before so as not to bore you to death. If you found this useful, feel free to comment below.</p><hr/><center>  <small>Site created with <a href='https://github.com/ebzzry/emem'>emem</a>, &amp; <a href='https://gnu.org/software/emacs'>emacs</a></small><br/>  <small>Copyright © Rommel M. Martinez</small></center</body></html>
