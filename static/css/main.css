@@ -1,0 +1,104 @@
+html {
+    font-size: 100%;
+    font-family: Georgia, Cambria, Baskerville, "Times New Roman", Times, serif;
+    line-height: 1.5;
+    text-align: left:
+    width: 100%;
+    max-width: 40em;
+    margin: 0 auto 0 auto;
+    padding: 0;
+}
+
+body {
+    border: 1px dashed lightgray;
+    border-top: hidden;
+    border-bottom: hidden;
+    padding: 0 1.5em 1em 1.5em;
+    margin: 0;
+}
+
+code {
+    font-size: 1em;
+    font-family: "Courier New", Courier, monospace;
+    padding: 1px 0.15em 1px 0.15em;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+
+pre code {
+    font-size: 1em;
+    font-family: monospace;
+    line-height: 1.3em;
+    overflow: auto;
+    border-left: 8px solid gray;
+    border-right: 8px solid gray;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+}
+
+kbd {
+    padding: 0.1em 0.6em;
+    border: 1px solid #ccc;
+    font-size: 11px;
+    font-family: monospace;
+    background-color: #f7f7f7;
+    color: #333;
+    -moz-box-shadow: 0 1px 0px rgba(0, 0, 0, 0.2),0 0 0 2px #ffffff inset;
+    -webkit-box-shadow: 0 1px 0px rgba(0, 0, 0, 0.2),0 0 0 2px #ffffff inset;
+    box-shadow: 0 1px 0px rgba(0, 0, 0, 0.2),0 0 0 2px #ffffff inset;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    display: inline-block;
+    margin: 0 0.1em;
+    text-shadow: 0 1px 0 #fff;
+    white-space: nowrap;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+    font-size: 2.5em;
+    text-align: center;
+    border-bottom: 6px solid black;
+}
+
+h2 {
+    font-size: 2.0em;
+    text-align: left;
+    border-bottom: 2px solid black;
+}
+
+h3 {
+    font-size: 1.6em;
+    text-align: left;
+    border-bottom: 1px solid lightgrey;
+}
+
+h4 {
+    font-size: 1.5em;
+    text-align: left;
+}
+
+h5 {
+    font-size: 1.3em;
+    text-align: left;
+}
+
+ul, ol {
+    padding-left: 2em;
+}
+
+p, para, i, b, emph {
+    font-size: 1em;
+}
+
+blockquote {
+    font-size: 1.2em;
+    font-style: italic;
+    margin-left: 0;
+}
