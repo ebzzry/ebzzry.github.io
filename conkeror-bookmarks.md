@@ -58,7 +58,7 @@ cob () {
   sqlite3 -separator ' <> ' \
   $HOME/.conkeror.mozdev.org/conkeror/profile.default/places.sqlite \
   'SELECT p.title, p.url FROM moz_bookmarks b INNER JOIN moz_places p \
-  ON b.fk = p.id ORDER BY b.id DESC;' | uniq
+  ON b.fk = p.id ORDER BY b.id DESC;' | uniq | perl -pe 's/\[//;s/\]//'
 }
 ```
 
@@ -111,7 +111,7 @@ following:
 
 ```javascript
 interactive(
-    "bmg",
+    "b",
     "Generate the bookmarks file.",
     function (I) {
         var cwd = I.local.cwd;
@@ -136,7 +136,7 @@ M-x reinit RET
 Finally, generate the bookmarks then view it:
 
 ```
-M-x bmg RET
+M-x b RET
 ```
 
 ```
@@ -170,14 +170,52 @@ Invoke it with:
 M-x bm RET
 ```
 
+## Managing the Boomarks
+
+An easy way to manage the bookmarks is to use the
+[SQLite Manager](https://github.com/lazierthanthou/sqlite-manager)
+extension. This extensions lets you manage SQLite database inside the
+browser. By default it lets you open the `.sqlite` files in your
+profile directory.
+
+To install it, download the .xpi file from
+<https://github.com/lazierthanthou/sqlite-manager/releases>, then
+follow the installation instructions at
+<http://conkeror.org/Extensions>.
+
+Next, open your `~/.conkerorrc`, then add the following:
+
+```
+interactive(
+    "sqlite", "Open the SQLite Manager",
+    function (I) {
+        load_url_in_new_buffer("chrome://sqlitemanager/content/sqlitemanager.xul");
+    });
+    ```
+
+Then, re-load your settings:
+
+```
+M-x reinit
+```
+
+To run _SQLite Manager_, hit:
+
+```
+M-x sqlite
+```
+
+In the drop-down box that says `(Select Profile Database)`, select
+`places.sqlite`, then hit `Go`.
+
+
 ## Conclusion
 
-The bookmarks displayed will be sorted by time of creation, in a
-descending order.
+The bookmarks displayed in `M-x bm`, will be sorted by time of
+creation, in a descending order. The bookmarks listed are also not
+categorized by "folders", in the manner of the Firefox's Bookmarks
+Manager.
 
-There are caveats to this method, and one of them is that this is
-strictly a viewer. If you want to edit your bookmarks, you may copy
-the `places.sqlite` file to a Firefox profile, and use its built-in
-Bookmarks Manager to edit it. You may also edit the file directly with
+Another, you may also edit the `places.sqlite` file with
 [sqlite3](https://www.sqlite.org/cli.html), or
 [sqlitebrowser](https://github.com/sqlitebrowser/sqlitebrowser).
