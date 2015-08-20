@@ -12,4 +12,4 @@ chroot as my main system. I write most of my programs in
 <https://github.com/ebzzry>. From time to time, I post pictures on
 <https://ebzzry.deviantart.com>.
 
-You may contact me at <ebzzry@gmail.com>.
+You may contact me at ebzzry at gmail dot com.
