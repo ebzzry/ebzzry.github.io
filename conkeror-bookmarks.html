@@ -5,7 +5,7 @@
   sqlite3 -separator ' &lt;&gt; ' \
   $HOME/.conkeror.mozdev.org/conkeror/profile.default/places.sqlite \
   'SELECT p.title, p.url FROM moz&#95;bookmarks b INNER JOIN moz&#95;places p \
-  ON b.fk = p.id ORDER BY b.id DESC;' | uniq
+  ON b.fk = p.id ORDER BY b.id DESC;' | uniq | perl -pe 's/\&#91;//;s/\&#93;//'
 }
 </code></pre><p>The command above selects the <code>title</code> and <code>url</code> columns from the <code>moz&#95;bookmarks</code> table, then sorts them by creation date.</p><h2>Generate the Bookmarks</h2><p>Next, you need to have a way to generate the HTML file that you're going to view later in Conkeror. Add the following to your <code>&#126;/.bashrc</code>.</p><pre><code class="bash">bmg &#40;&#41; {
   local base=$HOME/bookmarks
@@ -23,7 +23,7 @@
   conkeror $HOME/bookmarks/bookmarks.html
 }
 </code></pre><h2>Conkeror Commands</h2><p>Let's now create interactive commands for Conkeror, for generating and viewing the bookmarks. Open your <code>&#126;/.conkerorrc</code> file, then put the following:</p><pre><code class="javascript">interactive&#40;
-    &quot;bmg&quot;,
+    &quot;b&quot;,
     &quot;Generate the bookmarks file.&quot;,
     function &#40;I&#41; {
         var cwd = I.local.cwd;
@@ -38,7 +38,7 @@ interactive&#40;
         yield shell&#95;command&#40;&quot;bm&quot;, $cwd = cwd&#41;;
     }&#41;;
 </code></pre><p>Re-read your rc:</p><pre><code>M-x reinit RET
-</code></pre><p>Finally, generate the bookmarks then view it:</p><pre><code>M-x bmg RET
+</code></pre><p>Finally, generate the bookmarks then view it:</p><pre><code>M-x b RET
 </code></pre><pre><code>M-x bm RET
 </code></pre><h2>Alternatives</h2><p>I separated the procedure of generating the bookmarks, from viewing it, because I want to be able to view the bookmarks file quickly, without waiting for the bookmarks to be generated.</p><p>You may, however, want to combine the building and viewing of the bookmarks into one. If that is you want, put the following in your rc:</p><pre><code>interactive&#40;
     &quot;bm&quot;,
@@ -48,4 +48,11 @@ interactive&#40;
         yield shell&#95;command&#40;&quot;bmg; bm&quot;, $cwd = cwd&#41;;
     }&#41;;
 </code></pre><p>Invoke it with:</p><pre><code>M-x bm RET
-</code></pre><h2>Conclusion</h2><p>The bookmarks displayed will be sorted by time of creation, in a descending order.</p><p>There are caveats to this method, and one of them is that this is strictly a viewer. If you want to edit your bookmarks, you may copy the <code>places.sqlite</code> file to a Firefox profile, and use its built-in Bookmarks Manager to edit it. You may also edit the file directly with <a href='https://www.sqlite.org/cli.html'>sqlite3</a>, or <a href='https://github.com/sqlitebrowser/sqlitebrowser'>sqlitebrowser</a>.</p><hr/><center>  <small>Site created with <a href='https://github.com/ebzzry/emem'>emem</a>, &amp; <a href='https://gnu.org/software/emacs'>emacs</a></small><br/>  <small>Copyright © Rommel M. Martinez</small></center</body></html>
+</code></pre><h2>Managing the Boomarks</h2><p>An easy way to manage the bookmarks is to use the <a href='https://github.com/lazierthanthou/sqlite-manager'>SQLite Manager</a> extension. This extensions lets you manage SQLite database inside the browser. By default it lets you open the <code>.sqlite</code> files in your profile directory.</p><p>To install it, download the .xpi file from <a href="https://github.com/lazierthanthou/sqlite-manager/releases">https://github.com/lazierthanthou/sqlite-manager/releases</a>, then follow the installation instructions at <a href="http://conkeror.org/Extensions">http://conkeror.org/Extensions</a>.</p><p>Next, open your <code>&#126;/.conkerorrc</code>, then add the following:</p><pre><code>interactive&#40;
+    &quot;sqlite&quot;, &quot;Open the SQLite Manager&quot;,
+    function &#40;I&#41; {
+        load&#95;url&#95;in&#95;new&#95;buffer&#40;&quot;chrome://sqlitemanager/content/sqlitemanager.xul&quot;&#41;;
+    }&#41;;
+</code></pre><p>Then, re-load your settings:</p><pre><code>M-x reinit
+</code></pre><p>To run <i>SQLite Manager</i>, hit:</p><pre><code>M-x sqlite
+</code></pre><p>In the drop-down box that says <code>&#40;Select Profile Database&#41;</code>, select <code>places.sqlite</code>, then hit <code>Go</code>.</p><h2>Conclusion</h2><p>The bookmarks displayed in <code>M-x bm</code>, will be sorted by time of creation, in a descending order. The bookmarks listed are also not categorized by "folders", in the manner of the Firefox's Bookmarks Manager.</p><p>Another, you may also edit the <code>places.sqlite</code> file with <a href='https://www.sqlite.org/cli.html'>sqlite3</a>, or <a href='https://github.com/sqlitebrowser/sqlitebrowser'>sqlitebrowser</a>.</p><hr/><center>  <small>Site created with <a href='https://github.com/ebzzry/emem'>emem</a>, &amp; <a href='https://gnu.org/software/emacs'>emacs</a></small><br/>  <small>Copyright © Rommel M. Martinez</small></center</body></html>
