@@ -26,14 +26,11 @@ build_files () {
 }
 
 main () {
-  case $1 in
-    *)
-      install_resources
-      stage_dir
-      stage_files
-      build_files
-      clean_up
-  esac
+  install_resources
+  stage_dir
+  stage_files
+  build_files
+  clean_up
 }
 
 main $@
