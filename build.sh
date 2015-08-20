@@ -21,7 +21,7 @@ install_resources () {
 }
 
 build_files () {
-  emem -n -D ebzzrygithubio stage
+  emem -n stage
   mv -f stage/*.html .
 }
 

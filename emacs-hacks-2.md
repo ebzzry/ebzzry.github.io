@@ -320,4 +320,4 @@ benefits.
 
 The rest of the configuration can be found at
 <https://github.com/ebzzry/dotemacs>. If you an Emacs hack to share,
-let me know in the comments below. Ciao!
+send a pull request.
