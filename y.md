@@ -167,5 +167,4 @@ for the Y combinator itself, and the `sum0` procedure.
 ```
 
 I hope this post has been useful in making you understand the Y
-combinator, currying, and procedure application. Please post your
-comments and suggestions, below. `<-:`
+combinator, currying, and procedure application.
