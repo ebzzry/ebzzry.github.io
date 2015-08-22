@@ -17,6 +17,12 @@ body {
     margin: 0;
 }
 
+#content {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+}
+
 code {
     font-size: 1em;
     font-family: "Courier New", Courier, monospace;
