@@ -208,6 +208,11 @@ M-x sqlite
 In the drop-down box that says `(Select Profile Database)`, select
 `places.sqlite`, then hit `Go`.
 
+Do not, however, make modifications to any of the SQLite files in your
+profile, while Conkeror is running. Doing so may make your browser
+unable to start, after you exit it, unless you restore from "clean"
+SQLite files, while Conkeror is not running.
+
 
 ## Conclusion
 
