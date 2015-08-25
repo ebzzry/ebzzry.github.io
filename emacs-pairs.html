@@ -176,7 +176,7 @@ blah &#91;foo bar&#93;
 </code></pre><p>and you want to kill <code>&#91;clojure.string :as s&#93;</code>:</p><pre><code class="clojure">
 &#40;:require &#41;
           &#94;
-</code></pre><p>Execute <code>sp-backward-kill-sexp</code>. I bound it to <kbd>M-k</kbd></p><h2>Keys</h2><p>The following snippet summarizes the key bindings used in this article.</p><pre><code class="lisp">&#40;bind-keys
+</code></pre><p>Execute <code>sp-backward-kill-sexp</code>. I bound it to <kbd>M-k</kbd></p><h2>Keys</h2><p>The following snippet summarizes the key bindings used in this article. I use <code>bind-keys</code> to conveniently map my keys. I discussed about it, in an <a href='emacs-hacks-2.html'>earlier</a> article.</p><pre><code class="lisp">&#40;bind-keys
  :map smartparens-mode-map
  &#40;&quot;C-M-a&quot; . sp-beginning-of-sexp&#41;
  &#40;&quot;C-M-e&quot; . sp-end-of-sexp&#41;

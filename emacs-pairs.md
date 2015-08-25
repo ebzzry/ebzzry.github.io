@@ -545,7 +545,9 @@ Execute `sp-backward-kill-sexp`. I bound it to <kbd>M-k</kbd>
 
 ## Keys
 
-The following snippet summarizes the key bindings used in this article.
+The following snippet summarizes the key bindings used in this
+article. I use `bind-keys` to conveniently map my keys. I discussed
+about it, in an [earlier](emacs-hacks-2.html) article.
 
 ```lisp
 (bind-keys
