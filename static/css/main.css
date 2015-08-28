@@ -1,5 +1,5 @@
 html {
-    font-size: 100%;
+    font-size: 1em;
     font-family: Georgia, Cambria, Baskerville, "Times New Roman", Times, serif;
     line-height: 1.5;
     text-align: left:
@@ -24,9 +24,13 @@ body {
 }
 
 code {
-    font-size: 1em;
-    font-family: "Courier New", Courier, monospace;
-    padding: 1px 0.15em 1px 0.15em;
+    font-size: 0.9em;
+    font-family: "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Lucida Console", "Courier New", Courier, monospace;
+    background-color: lightyellow;
+    color: black;
+    padding: 0 4px 0 4px;
+    border: 1px dotted black;
+    display: inline-block;
 }
 
 pre code {
@@ -37,9 +41,9 @@ pre code {
 }
 
 kbd {
+    font-size: 1.1em;
     padding: 0.1em 0.6em;
     border: 1px solid #ccc;
-    font-size: 11px;
     font-family: monospace;
     background-color: #f7f7f7;
     color: #333;
@@ -99,4 +103,14 @@ blockquote {
     font-size: 1.2em;
     font-style: italic;
     margin-left: 0;
+}
+
+strong {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+em, i {
+    font-size: 1em;
+    font-style: italic;
 }

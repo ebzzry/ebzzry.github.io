@@ -5,7 +5,7 @@ $ git clone https://github.com/ebzzry/livefrog.git
 $ raco pkg install frog/ sxml/ livefrog/
 </code></pre><p>The trailing slashes are important, to tell <code>raco</code> that you are installing from local directories. Without it, it will try to fetch the sources from the internet.</p><h2>Usage</h2><p>This sections contains instructions for creating files suitable for use with Frog.</p><h3>Basics</h3><p>To create a Markdown file from the file entry.xml</p><pre><code class="bash">$ raco livefrog -m entry.xml
 </code></pre><p>That, however, becomes cumbersome if you're going to manage more than a hundred entries. To automatically "pick up" the files created by ljdump or ljmigrate, and convert them to Markdown.</p><pre><code class="bash">$ raco livefrog -am
-</code></pre><p>Bear in mind, though, that ljdump and ljmigrate differ on how the trees for the data are created. ljdump has the following tree format, where USERNAME is your LiveJournal account name:</p><pre><code class="bash">ljdump/
+</code></pre><p>Bear in mind, though, that ljdump and ljmigrate differ on how the trees for the data are created. ljdump has the following tree format, where <strong>USERNAME</strong> is your LiveJournal account name:</p><pre><code class="bash">ljdump/
   build
   ChangeLog
   convertdump.py
@@ -39,13 +39,13 @@ $ raco pkg install frog/ sxml/ livefrog/
       html/
       metadata/
       userpics/
-</code></pre><p>After creating the Markdown Frog source files, you may now copy them to your Frog source directory, designated at <code>&#95;src/posts/</code></p><h3>Comments</h3><p>Frog, by default, uses <a href='http://disqus.com'>Disqus</a> to handle the comments. To import comments to this platform, you need to generate an XML file that must adhere to Disqus' comment import rules.</p><p>To create a file, named <code>comments.xml</code> that will be used for importing comments, to be used with <a href='http://import.disqus.com/'>import.disqus.com</a>, using <code>foo.bar.com</code> as the root site:</p><pre><code class="bash">$ raco livefrog -s foo.bar.com -c comments.xml
+</code></pre><p>After creating the Markdown Frog source files, you may now copy them to your Frog source directory, designated at <code>&#95;src/posts/</code></p><h3>Comments</h3><p>Frog, by default, uses <a href='http://disqus.com'>Disqus</a> to handle the comments. To import comments to this platform, you need to generate an XML file that must adhere to Disqus' comment import rules.</p><p>To create a file, named <code>comments.xml</code> that will be used for importing comments, to be used with <a href="http://import.disqus.com">http://import.disqus.com</a>, using <code>foo.bar.com</code> as the root site:</p><pre><code class="bash">$ raco livefrog -s foo.bar.com -c comments.xml
 </code></pre><h2>Updating</h2><p>If you installed livefrog using Planet2, you can update it by running:</p><pre><code class="bash">$ raco pkg update livefrog
 </code></pre><p>However, if you used the latter method, you may update it by pulling the updates, uninstalling livefrog, then installing it again:</p><pre><code class="bash">$ cd livefrog
 $ git pull origin master
 $ cd ..
 $ raco pkg remove livefrog
 $ raco pkg install livefrog/
-</code></pre><h2>Miscellany</h2><p>To reduce typing, you may optionally create an alias to `raco livefrog` in your shell.</p><p>Sh-like shells:</p><pre><code class="bash">$ echo 'alias livefrog=&quot;raco livefrog&quot;' &gt;&gt; &#126;/.bashrc
+</code></pre><h2>Miscellany</h2><p>To reduce typing, you may optionally create an alias to <code>raco livefrog</code> in your shell.</p><p>Sh-like shells:</p><pre><code class="bash">$ echo 'alias livefrog=&quot;raco livefrog&quot;' &gt;&gt; &#126;/.bashrc
 </code></pre><p>Csh-like shells:</p><pre><code class="bash">$ echo 'alias livefrog raco livefrog' &gt;&gt; &#126;/.cshrc
 </code></pre><p>Replace <code>.bashrc</code>, and <code>.cshrc</code>, with the appropriate init file for your shell.</p><p>The sources, along with additional information, are located at <a href="https://github.com/ebzzry/livefrog">https://github.com/ebzzry/livefrog</a>.</p><hr/><center>  <small>Site created with <a href='https://github.com/ebzzry/emem'>emem</a>, &amp; <a href='https://gnu.org/software/emacs'>emacs</a></small><br/>  <small>Copyright © Rommel M. Martinez</small></center</div></body></html>

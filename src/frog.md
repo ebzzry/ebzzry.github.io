@@ -137,9 +137,9 @@ $ emacs _src/posts/2014-02-21-new-blog-post.md
     Date: 2014-02-21T18:53:42
     Tags: DRAFT
 
-_Replace this with your post text. Add one or more comma-separated
-Tags above. The special tag `DRAFT` will prevent the post from being
-published._
+_Replace this with your post text. Add one or more
+comma-separated Tags above. The special tag `DRAFT`
+will prevent the post from being published._
 
 <!-- more -->
 ```
@@ -170,13 +170,14 @@ Let's say you change that file to look something like the following:
 
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec
 odio. Quisque volutpat mattis eros. Nullam malesuada erat ut
-turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere
-a, pede.
+turpis. Suspendisse urna nibh, viverra non, semper suscipit,
+posuere a, pede.
 
 <!-- more -->
 
-Donec nec justo eget felis facilisis fermentum. Aliquam porttitor
-mauris sit amet orci. Aenean dignissim pellentesque felis.
+Donec nec justo eget felis facilisis fermentum. Aliquam
+porttitor mauris sit amet orci. Aenean dignissim pellentesque
+felis.
 ```
 
 Then, run the build command, again:
@@ -332,9 +333,9 @@ Title: New Blog Post
 Date: 2014-02-21T18:53:42
 Tags: DRAFT
 
-Replace this with your post text. Add one or more comma-separated
-Tags above. The special tag `DRAFT` will prevent the post from being
-published.
+Replace this with your post text. Add one or more
+comma-separated Tags above. The special tag `DRAFT`
+will prevent the post from being published.
 
 <!-- more -->
 ```
@@ -390,7 +391,8 @@ To publish your work to GitHub Pages, you first need to add that remote
 repository:
 
 ```bash
-$ git remote add origin git@github.com:johndoe/johndoe.github.io.git
+$ git remote add origin \
+git@github.com:johndoe/johndoe.github.io.git
 ```
 
 Then you push the commits:

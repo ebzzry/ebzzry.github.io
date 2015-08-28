@@ -1,10 +1,13 @@
-A Brief Git & GitHub Walkthrough
+A Brief Git & GitHub Tour
 ======================================================================
 
-This short tutorial shows how to use git with a GitHub workflow. A
-quick Google of "git workflows" shows many, diverse results. This
-article describes just one of the ways of using git with a
-git-hosting service like GitHub.
+<center>2015-08-29 16:03:39</center>
+
+This short tutorial shows how to use [git](https://git-scm.com/) with
+a [GitHub](https://github.com) workflow. A quick Google of
+["git workflows"](https://google.com/search?q=git+workflows) shows
+plenty of diverse results. This article describes just one of the ways
+of using git with a git-hosting service like GitHub.
 
 In this document, the `$` symbol, represents the prompt. The editor
 used in this tutorial is [vi](https://en.wikipedia.org/wiki/Vi). A
@@ -16,21 +19,21 @@ short introduction to _vi_ is located at
 ### Initial Use
 
 To make things easier later on, you'll need to create a `.gitignore`
-file. The `.gitignore` file specifiles files that will be excluded
+file. The .gitignore file specifiles files that will be excluded
 from the repository. Some of these are binary files, and error
 messages that are generated during compilation.
 
 _.gitignore_ files are specific to a project type. A good place to
-start in determining what a `.gitignore` file should contain is
+start in determining what a .gitignore file should contain is
 <http://gitignore.io>. Specify the type of project in the field, then
-click Generate, then copy the output to your clipboard.
+click **Generate**, then copy the output to your clipboard.
 
 Create a directory for the project, then cd into it:
 
     $ mkdir foobar
     $ cd foobar
 
-Edit the .gitignore file in the current directory:
+Edit the `.gitignore` file in the current directory:
 
     $ vi .gitignore
 
@@ -116,7 +119,7 @@ output:
 
     $ cat ~/.ssh/id_rsa.pub
 
-Go to <https://github.com/settings/ssh>, then click _Add SSH key_
+Go to <https://github.com/settings/ssh>, then click **Add SSH key**
 
 ![Add SSH key](images/add-ssh-key.png)
 
@@ -125,8 +128,8 @@ Paste the key, then follow through.
 
 ### Creating a Repository
 
-In your repositories page, create a new repository by clicking on
-_New_
+In your repositories page, create a new repository by clicking
+**New**:
 
 ![New](images/new-repository.png)
 
@@ -157,14 +160,14 @@ If you want to contribute to a project, you'll need to work on a copy
 of that repository, then push changes to your own fork.
 
 First, fork the project. Go to the project that you want to fork, then
-click the _Fork_ button
+click **Fork**:
 
 ![Fork](images/fork.png)
 
 This will create a copy of a repository in your own GitHub account.
 
 Next, you need to clone that forked project, to your local disk. Copy
-the URL located in the _SSH clone URL_ field:
+the URL located in the **SSH clone URL** field:
 
 ![SSH clone URL](images/ssh-clone-url.png)
 
@@ -190,27 +193,29 @@ committed your changes, push the changes to your fork:
     $ git push origin new-options
 
 If you want the source repository to merge your changes, create a
-_Pull Request_ by going to the source repository's page, then click on _Pull Requests_.
+_Pull Request_ by going to the source repository's page, then click
+**Pull requests**:
 
 ![Pull Requests](images/pull-requests.png)
 
-On the next page, click on _New Pull Request_:
+On the next page, click **New pull request**:
 
 ![New Pull Request](images/new-pull-request.png)
 
-Select _compare across forks_:
+Select **compare across forks**:
 
 ![Compare Across Forks](images/compare-across-forks.png)
 
-In the left side, under the `base fork` field, select
-`shoryuken/foobar`, and in the `base` field, select `master`. In the
-right side, under `head fork` field, select `hadoken/foobar`, and in
-the `compare` select `new-options`, or whatever name you used
-above. Click _Create pull request_
+In the left side, under the **base fork** field, select
+**shoryuken/foobar**, and in the **base** field, select **master**.
+
+In the right side, under the **head fork** field, select **hadoken/foobar**,
+and in the **compare** select **new-options**, or whatever name you used
+above. Click **Create pull request**:
 
 ![Create pull request](images/create-pull-request.png)
 
-then follow through.
+then, follow through.
 
 
 ### Synchronizing with Upstream
@@ -228,11 +233,12 @@ Then push to your own repository:
 ## Pulling Changes
 
 If you are the owner of the source repository, and you want to pull in
-changes from contributors, click _Pull requests_
+changes from contributors, click **Pull requests** from the repository
+page:
 
 ![Pull requests](images/pull-requests.png)
 
-from the repository page, then follow through.
+then, follow through.
 
 
 ## Merging with Upstream

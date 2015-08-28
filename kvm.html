@@ -7,14 +7,15 @@
 $ sudo ip addr add 10.0.2.1/24 dev tap0
 $ sudo ip link set dev tap0 up
 $ sudo sysctl -w net.ipv4.ip&#95;forward=1
-$ sudo iptables -t nat -A POSTROUTING -s 10.0.2.0/24 -j MASQUERADE
-</code></pre><p>The above commands will:</p><ol><li>Create a VDE device</li><li>Configure the TCP/IP options for that device.</li><li>Enable the VDE device.</li><li>Enable packet forwarding on the host OS.</li><li>Setup the routing configuration.</li></ol><h2>Execution</h2><h3>Load the image</h3><p>You now need to invoke <code>qemu-kvm</code>, the command that will launch everything up. The name of the command may differ with the one installed on your system.</p><p>If you're installing an OS from a bootable image, usually an ISO file, run:</p><pre><code class="bash">$ sudo qemu-kvm -cpu host -m 2G -net nic,model=virtio -net vde \
--device AC97,addr=0x18 -vga qxl \
+$ sudo iptables -t nat -A POSTROUTING \
+-s 10.0.2.0/24 -j MASQUERADE
+</code></pre><p>The above commands will:</p><ol><li>Create a VDE device</li><li>Configure the TCP/IP options for that device.</li><li>Enable the VDE device.</li><li>Enable packet forwarding on the host OS.</li><li>Setup the routing configuration.</li></ol><h2>Execution</h2><h3>Load the image</h3><p>You now need to invoke <code>qemu-kvm</code>, the command that will launch everything up. The name of the command may differ with the one installed on your system.</p><p>If you're installing an OS from a bootable image, usually an ISO file, run:</p><pre><code class="bash">$ sudo qemu-kvm -cpu host -m 2G -net nic,model=virtio \
+-net vde -device AC97,addr=0x18 -vga qxl \
 -spice port=9999,addr=127.0.0.1,password=mysecretkey \
 -boot once=d -cdrom installer.iso \
 vm.qcow2
-</code></pre><p>On subsequent uses:</p><pre><code class="bash">$ sudo qemu-kvm -cpu host -m 2G -net nic,model=virtio -net vde \
--device AC97,addr=0x18 -vga qxl \
+</code></pre><p>On subsequent uses:</p><pre><code class="bash">$ sudo qemu-kvm -cpu host -m 2G -net nic,model=virtio \
+-net vde -device AC97,addr=0x18 -vga qxl \
 -spice port=9999,addr=127.0.0.1,password=mysecretkey \
 vm.qcow2
 </code></pre><p>Let's break that down:</p><pre><code>-cpu host
@@ -29,7 +30,8 @@ vm.qcow2
 </code></pre><p><i>Gateway</i></p><pre><code>10.0.2.1
 </code></pre><p><i>DNS</i></p><pre><code>8.8.8.8
 8.8.4.4
-</code></pre><h2>Closing the Curtains</h2><h3>Restore networking</h3><p>If you want to explicitly revert the network configuration, do the following.</p><pre><code class="bash">$ sudo iptables -t nat -D POSTROUTING -s 10.0.2.0/24 -j MASQUERADE
+</code></pre><h2>Closing the Curtains</h2><h3>Restore networking</h3><p>If you want to explicitly revert the network configuration, do the following.</p><pre><code class="bash">$ sudo iptables -t nat -D POSTROUTING -s 10.0.2.0/24 \
+-j MASQUERADE
 $ sudo sysctl -w net.ipv4.ip&#95;forward=0
 $ sudo ip link set dev tap0 down
 $ sudo ip link delete tap0
@@ -38,7 +40,8 @@ $ sudo rm -f /run/vde.ctl/ctl
 </code></pre><p>The above commands will:</p><ol><li>Revert the routing configuration.</li><li>Disable packet forwarding.</li><li>Disable the VDE device.</li><li>Delete the VDE device.</li><li>Kill the VDE process.</li><li>Remove control files.</li></ol><h2>Putting it All</h2><p>Here's all of the code above, compiled functions, that can be run from the command-line:</p><pre><code>vde &#40;&#41; {
   case $1 in
     down|0&#41;
-      sudo iptables -t nat -D POSTROUTING -s 10.0.2.0/24 -j MASQUERADE
+      sudo iptables -t nat -D POSTROUTING -s 10.0.2.0/24 \
+        -j MASQUERADE
       sudo sysctl -w net.ipv4.ip&#95;forward=0
       sudo ip link set dev tap0 down
       sudo ip link delete tap0
@@ -50,14 +53,15 @@ $ sudo rm -f /run/vde.ctl/ctl
       sudo ip addr add 10.0.2.1/24 dev tap0
       sudo ip link set dev tap0 up
       sudo sysctl -w net.ipv4.ip&#95;forward=1
-      sudo iptables -t nat -A POSTROUTING -s 10.0.2.0/24 -j MASQUERADE
+      sudo iptables -t nat -A POSTROUTING -s 10.0.2.0/24 \
+        -j MASQUERADE
       ;;
   esac
 }
 
 kvm &#40;&#41; {
-  sudo qemu-kvm -cpu host -m 2G -net nic,model=virtio -net vde \
-    -device AC97,addr=0x18 -vga qxl \
+  sudo qemu-kvm -cpu host -m 2G -net nic,model=virtio \
+    -net vde -device AC97,addr=0x18 -vga qxl \
     -spice port=5900,addr=127.0.0.1,disable-ticketing \
     -daemonize $@
   spicec -p 5900 -h 127.0.0.1 &amp;

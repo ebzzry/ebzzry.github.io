@@ -27,7 +27,7 @@
   &#40;let &#40;&#40;system-time-locale &quot;en&#95;US.UTF-8&quot;&#41;&#41;
     &#40;insert &#40;format-time-string format&#41;&#41;&#41;&#41; &#94;
 
-</code></pre><p>and you want to move point to <code>insert</code>:</p><pre><code class="lisp">
+</code></pre><p>and you want to move point to <strong>insert</strong>:</p><pre><code class="lisp">
 &#40;defun format-date &#40;format&#41;
   &#40;let &#40;&#40;system-time-locale &quot;en&#95;US.UTF-8&quot;&#41;&#41;
     &#40;insert &#40;format-time-string format&#41;&#41;&#41;&#41;
@@ -35,7 +35,7 @@
 </code></pre><p>Execute <code>sp-down-sexp</code>. I bound it to <kbd>C-down</kbd>.</p><p>If you have the expression:</p><pre><code class="clojure">
 &#40;str &quot;foo&quot; &quot;bar baz qux&quot;&#41;
     &#94;
-</code></pre><p>and you want to move point just past <code>&#41;</code>:</p><pre><code class="clojure">
+</code></pre><p>and you want to move point just past <strong>)</strong>:</p><pre><code class="clojure">
 &#40;str &quot;foo&quot; &quot;bar baz qux&quot;&#41;
                          &#94;
 </code></pre><p>Execute <code>sp-up-sexp</code>. I bound it to <kbd>C-up</kbd>.</p><p>If you have the expression:</p><pre><code class="clojure">
@@ -53,16 +53,16 @@
 </code></pre><p>Execute <code>sp-backward-down-sexp</code>. I bound it to <kbd>M-down</kbd>.</p><p>If you have the expression:</p><pre><code class="lisp">
 &#40;insert &#40;format-time-string format&#41;&#41;
                            &#94;
-</code></pre><p>and you want to move point to <code>&#40;format</code>:</p><pre><code class="lisp">
+</code></pre><p>and you want to move point to <strong>(format</strong>:</p><pre><code class="lisp">
 &#40;insert &#40;format-time-string format&#41;&#41;
         &#94;
 </code></pre><p>Execute <code>sp-backward-up-sexp</code>. I bound it to <kbd>M-up</kbd>.</p><h4>Block Movements</h4><p>If you have the expression:</p><pre><code class="clojure">
 &#40;:require &#91;clojure.string :as s&#93;&#41;
           &#94;
-</code></pre><p>and you want to move just past <code>&#93;</code>:</p><pre><code class="clojure">
+</code></pre><p>and you want to move just past <strong>]</strong>:</p><pre><code class="clojure">
 &#40;:require &#91;clojure.string :as s&#93;&#41;
                                 &#94;
-</code></pre><p>Execute <code>sp-forward-sexp</code>. I bound it to <kbd>C-M-f</kbd></p><p>Conversely, to move it just before <code>&#91;</code>:</p><pre><code class="clojure">
+</code></pre><p>Execute <code>sp-forward-sexp</code>. I bound it to <kbd>C-M-f</kbd></p><p>Conversely, to move it just before <strong>[</strong>:</p><pre><code class="clojure">
 &#40;:require &#91;clojure.string :as s&#93;&#41;
           &#94;
 </code></pre><p>Execute <code>sp-backward-sexp</code>. I bound it to <kbd>C-M-b</kbd>.</p><h4>Top-level-ish Traversal</h4><p>If you have the expression:</p><pre><code class="clojure">
@@ -71,7 +71,7 @@
   &#91;foo&#93;                 &#94;
   &#41;
 
-</code></pre><p>and you want to move point to <code>&#91;foo&#93;</code>:</p><pre><code class="clojure">
+</code></pre><p>and you want to move point to <strong>[foo]</strong>:</p><pre><code class="clojure">
 &#40;defn blah
   &quot;Returns blah of foo.&quot;
   &#91;foo&#93;
@@ -86,22 +86,22 @@
 </code></pre>Execute <code>sp-previous-sexp</code>. I bound it to <kbd>C-M-p</kbd>.<h4>Free-form Movements</h4><p>If you have the expression:</p><pre><code class="clojure">
 &#40;defn blah &#91;&#93; &#40;let &#91;x 0 y 1&#93; &#40;+ x 1&#41;&#41;&#41;
                &#94;
-</code></pre><p>and you want to move point to <code>blah</code>:</p><pre><code class="clojure">
+</code></pre><p>and you want to move point to <strong>blah</strong>:</p><pre><code class="clojure">
 &#40;defn blah &#91;&#93; &#40;let &#91;x 0 y 1&#93; &#40;+ x 1&#41;&#41;&#41;
       &#94;
 </code></pre><p>Execute, <code>sp-backward-symbol</code>. I bound it to <kbd>C-S-b</kbd>.</p><p>Conversely, if you have the expression:</p><pre><code class="clojure">
 &#40;defn blah &#91;&#93; &#40;let &#91;x 0 y 1&#93; &#40;+ x 1&#41;&#41;&#41;
             &#94;
-</code></pre><p>and you want to move point just after <code>&#40;let</code>:</p><pre><code class="clojure">
+</code></pre><p>and you want to move point just after <strong>(let</strong>:</p><pre><code class="clojure">
 &#40;defn blah &#91;&#93; &#40;let &#91;x 0 y 1&#93; &#40;+ x 1&#41;&#41;&#41;
                   &#94;
 </code></pre><p>Execute <code>sp-forward-symbol</code>. I bound it to <kbd>C-S-f</kbd>.</p><p>What they do is that they navigate around expressions as if delimiters, like parens, brackets, and braces do not exist.</p><h3>Manipulation</h3><h4>Wrapping</h4><p>If you have the expression:</p><pre><code class="javascript">
 var mods = &quot;vars&quot;;
            &#94;
-</code></pre><p>and you want <code>&quot;vars&quot;</code> to be surrounded by <code>&#91;</code>, and <code>&#93;</code>:</p><pre><code class="javascript">
+</code></pre><p>and you want <strong>"vars"</strong> to be surrounded by <strong>[</strong>, and <strong>]</strong>:</p><pre><code class="javascript">
 var mods = &#91;&quot;vars&quot;&#93;;
             &#94;
-</code></pre><p>Press <kbd>C-M-Space</kbd> followed by <kbd>[</kbd>, the whole region becomes surrounded by matching <code>&#91;</code>, and <code>&#93;</code>. It also applies to keys like <code>&#40;</code>, <code>{</code>, <code>&quot;</code>, <code>'</code>, <code>&#42;</code>, <code>&#95;</code>, etc, depending on the mode that you're using.</p><p>Alternatively, define wrapping functions:</p><pre><code class="lisp">&#40;defmacro def-pairs &#40;pairs&#41;
+</code></pre><p>Press <kbd>C-M-Space</kbd> followed by <kbd>[</kbd>, the whole region becomes surrounded by matching <strong>[</strong>, and <strong>]</strong>. It also applies to keys like <code>&#40;</code>, <code>{</code>, <code>&quot;</code>, <code>'</code>, <code>&#42;</code>, <code>&#95;</code>, etc, depending on the mode that you're using.</p><p>Alternatively, define wrapping functions:</p><pre><code class="lisp">&#40;defmacro def-pairs &#40;pairs&#41;
   `&#40;progn
      ,@&#40;loop for &#40;key . val&#41; in pairs
           collect
@@ -122,7 +122,7 @@ var mods = &#91;&quot;vars&quot;&#93;;
 </code></pre><p>I bound the first three functions to <kbd>C-c (</kbd>, <kbd>C-c [</kbd>, and <kbd>C-c {</kbd>, respectively. So, if you have the expression:</p><pre><code class="clojure">
 &#40;defn foo args &#40;let &#91;x 0&#93; &#40;inc x&#41;&#41;&#41;
           &#94;
-</code></pre><p>and you want to surround <code>args</code> with <code>&#91;</code> and <code>&#93;</code>:</p><pre><code class="clojure">
+</code></pre><p>and you want to surround <strong>args</strong> with <strong>[<strong> and </strong>]</strong>:</p><pre><code class="clojure">
 &#40;defn foo &#91;args&#93; &#40;let &#91;x 0&#93; &#40;inc x&#41;&#41;&#41;
            &#94;
 </code></pre><p>Press <kbd>C-c [</kbd>.</p><p>Sometimes, we inadvertently delete one of the pair characters — this results in an unbalanced expression. smartparens prevents us from doing that. If you hit <kbd>Backspace</kbd> in this expression:</p><pre><code class="javascript">
@@ -131,52 +131,52 @@ var mods = &#91;&quot;vars&quot;&#93;;
 </code></pre><p>Nothing will happen. smartparens saves us a lot of trouble, here.</p><h4>Unwrapping</h4><p>If you have the expression:</p><pre><code class="clojure">
 &#40;foo &#40;bar x y z&#41;&#41;
      &#94;
-</code></pre><p>and you want to unwrap the <code>bar</code> expression, removing the parentheses around <code>foo</code>:</p><pre><code class="clojure">
+</code></pre><p>and you want to unwrap the <strong>bar</strong> expression, removing the parentheses around <strong>foo</strong>:</p><pre><code class="clojure">
 foo &#40;bar x y z&#41;
     &#94;
-</code></pre><p>Execute <code>sp-backward-unwrap-sexp</code>. I bound it to <kbd>M-[</kbd></p><p>Conversely, if you want to unwrap the <code>bar</code> expression, removing the parentheses around <code>bar</code>:</p><pre><code class="clojure">
+</code></pre><p>Execute <code>sp-backward-unwrap-sexp</code>. I bound it to <kbd>M-[</kbd></p><p>Conversely, if you want to unwrap the <strong>bar</strong> expression, removing the parentheses around <strong>bar</strong>:</p><pre><code class="clojure">
 &#40;foo bar x y z&#41;
      &#94;
 </code></pre><p>Execute <code>sp-unwrap-sexp</code>. I bound it to <kbd>M-]</kbd>.</p><h4>Slurp and Barf</h4><p>If you have the expression:</p><pre><code class="clojure">
 &#91;foo bar&#93; baz
         &#94;
-</code></pre><p>and you want <code>baz</code> to be part of <code>foo</code> and <code>bar</code>:</p><pre><code class="clojure">
+</code></pre><p>and you want <strong>baz</strong> to be part of <strong>foo</strong> and <strong>bar</strong>:</p><pre><code class="clojure">
 &#91;foo bar baz&#93;
         &#94;
-</code></pre><p>Execute <code>sp-forward-slurp-sexp</code>. I bound it to <kbd>C-right</kbd>.</p><p>Conversely, if you want to remove <code>baz</code>:</p><pre><code class="clojure">
+</code></pre><p>Execute <code>sp-forward-slurp-sexp</code>. I bound it to <kbd>C-right</kbd>.</p><p>Conversely, if you want to remove <strong>baz</strong>:</p><pre><code class="clojure">
 &#91;foo bar&#93; baz
         &#94;
 </code></pre><p>Execute <code>sp-forward-barf-sexp</code>. I bound it to <kbd>M-right</kbd>.</p><p>If you have the expression:</p><pre><code class="clojure">
 blah &#91;foo bar&#93;
              &#94;
-</code></pre><p>and you want <code>blah</code> to be part of <code>foo</code> and <code>bar</code>:</p><pre><code class="clojure">
+</code></pre><p>and you want <strong>blah</strong> to be part of <strong>foo</strong> and <strong>bar</strong>:</p><pre><code class="clojure">
 &#91;blah foo bar&#93;
              &#94;
-</code></pre><p>Execute <code>sp-backward-slurp-sexp</code>. I bound it to <kbd>C-left</kbd>.</p><p>Conversely, if you want to remove <code>blah</code>:</p><pre><code class="clojure">
+</code></pre><p>Execute <code>sp-backward-slurp-sexp</code>. I bound it to <kbd>C-left</kbd>.</p><p>Conversely, if you want to remove <strong>blah</strong>:</p><pre><code class="clojure">
 blah &#91;foo bar&#93;
              &#94;
 </code></pre><p>Execute <code>sp-backward-barf-sexp</code>. I bound it to <kbd>M-left</kbd>.</p><h4>Swapping</h4><p>If you have the expression:</p><pre><code class="clojure">
 &quot;foo&quot; &quot;bar&quot;
       &#94;
-</code></pre><p>and you want <code>&quot;foo&quot;</code> and <code>&quot;bar&quot;</code> to switch places:</p><pre><code class="clojure">
+</code></pre><p>and you want <strong>"foo"</strong> and <strong>"bar"</strong> to switch places:</p><pre><code class="clojure">
 &quot;bar&quot; &quot;foo&quot;
       &#94;
 </code></pre><p>Execute <code>sp-transpose-sexp</code>. I bound it to <kbd>C-M-t</kbd>.</p><h4>Killing</h4><p>If you have the expression:</p><pre><code class="clojure">
 &#40;let &#91;x &quot;xxx&quot; y &quot;y yy yyy&quot; z 0&#93;&#41;
                &#94;
-</code></pre><p>and you want to kill just <code>&quot;y yy yyy&quot;</code>:</p><pre><code class="clojure">
+</code></pre><p>and you want to kill just <strong>"y yy yyy"</strong>:</p><pre><code class="clojure">
 &#40;let &#91;x &quot;xxx&quot; y z 0&#93;&#41;
                &#94;
-</code></pre><p>Execute <code>sp-kill-sexp</code>. I bound it to <kbd>C-M-k</kbd>.</p><p>If you want to kill <code>&quot;y yy yyy&quot; z 0</code>:</p><pre><code class="clojure">
+</code></pre><p>Execute <code>sp-kill-sexp</code>. I bound it to <kbd>C-M-k</kbd>.</p><p>If you want to kill <strong>"y yy yyy" z 0</strong>:</p><pre><code class="clojure">
 &#40;let &#91;x &quot;xxx&quot; y&#93;&#41;
                &#94;
 </code></pre><p>Execute <code>sp-kill-hybrid-sexp</code>. I bound it to <kbd>C-k</kbd>.</p><p>If you have the expression:</p><pre><code class="clojure">
 &#40;:require &#91;clojure.string :as s&#93;&#41;
                                 &#94;
-</code></pre><p>and you want to kill <code>&#91;clojure.string :as s&#93;</code>:</p><pre><code class="clojure">
+</code></pre><p>and you want to kill <strong>[clojure.string :as s]</strong>:</p><pre><code class="clojure">
 &#40;:require &#41;
           &#94;
-</code></pre><p>Execute <code>sp-backward-kill-sexp</code>. I bound it to <kbd>M-k</kbd></p><h2>Keys</h2><p>The following snippet summarizes the key bindings used in this article. I use <code>bind-keys</code> to conveniently map my keys. I discussed about it, in an <a href='emacs-hacks-2.html'>earlier</a> article.</p><pre><code class="lisp">&#40;bind-keys
+</code></pre><p>Execute <code>sp-backward-kill-sexp</code>. I bound it to <kbd>M-k</kbd></p><h2>Keys</h2><p>The following snippet summarizes the key bindings used in this article. I use <strong>bind-keys</strong> to conveniently map my keys. I discussed about it, in an <a href='emacs-hacks-2.html'>earlier</a> article.</p><pre><code class="lisp">&#40;bind-keys
  :map smartparens-mode-map
  &#40;&quot;C-M-a&quot; . sp-beginning-of-sexp&#41;
  &#40;&quot;C-M-e&quot; . sp-end-of-sexp&#41;

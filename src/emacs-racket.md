@@ -101,14 +101,15 @@ Next, you'll put in the actual code that invokes and configures Geiser:
 
 The first expression loads Geiser, itself. The second one specifies
 that it won't prompt you for other implementations if it finds
-them. The last one is optional — it enables you to execute `M-x
-geiser-save RET` in the REPL buffer to force saving of the history to
-the disk file, which is `~/.geiser_history.racket`, by default. It is
-useful if you want to save your REPL session, immediately (Nothing is
-more horrifying than losing **THAT** expression). For all the Emacs
-code above, to take effect, you can evaluate them now using members of
-the eval-* troupe (`eval-defun`, `eval-last-sexp`, `eval-region`), or,
-you can still opt to respawn a new Emacs process.
+them. The last one is optional — it enables you to execute
+`M-x geiser-save RET` in the REPL buffer to force saving of the
+history to the disk file, which is `~/.geiser_history.racket`, by
+default. It is useful if you want to save your REPL session,
+immediately (Nothing is more horrifying than losing **THAT**
+expression). For all the Emacs code above, to take effect, you can
+evaluate them now using members of the eval-* troupe (`eval-defun`,
+`eval-last-sexp`, `eval-region`), or, you can still opt to respawn a
+new Emacs process.
 
 
 ## Usage
@@ -120,12 +121,12 @@ proper module declaration. Then hit:
 M-x run-geiser RET
 ```
 
-And, boomshakalaka! A new (Emacs) window opens, containing the `*
-Racket REPL *` buffer. Whatever you can do with the REPL invoked with
-vanilla command-line `racket`, you can also do with this, and
-more. This major mode is actually Comint mode, under the hood, with
-hooks to a a Racket process. For those of you who are unfamiliar with
-Comint mode, it is the same mode that handles `M-x shell RET`.
+And, boomshakalaka! A new (Emacs) window opens, containing the
+`* Racket REPL *` buffer. Whatever you can do with the REPL
+invoked with vanilla command-line `racket`, you can also do with this,
+and more. This major mode is actually Comint mode, under the hood,
+with hooks to a a Racket process. For those of you who are unfamiliar
+with Comint mode, it is the same mode that handles `M-x shell RET`.
 
 So, what can you do with it? While editing `.rkt` file, here are some
 of the usual shortcuts that I use (The full list of keys are
