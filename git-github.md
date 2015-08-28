@@ -126,7 +126,7 @@ Paste the key, then follow through.
 ### Creating a Repository
 
 In your repositories page, create a new repository by clicking on
-_New repository_
+_New_
 
 ![New](images/new-repository.png)
 
@@ -198,7 +198,7 @@ On the next page, click on _New Pull Request_:
 
 ![New Pull Request](images/new-pull-request.png)
 
-Select _Compare Across Forks_:
+Select _compare across forks_:
 
 ![Compare Across Forks](images/compare-across-forks.png)
 
