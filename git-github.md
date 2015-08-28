@@ -1,10 +1,15 @@
 A Brief Git & GitHub Walkthrough
 ======================================================================
 
-This short tutorial shows how to use Git with a GitHub workflow. The
-`$` symbol, represents the prompt. The editor used in this tutorial is
-[vi](https://en.wikipedia.org/wiki/Vi). A short introduction to _vi_
-is located at <http://www.nuxified.org/vi_survival_guide>.
+This short tutorial shows how to use git with a GitHub workflow. A
+quick Google of "git workflows" shows many, diverse results. This
+article describes just one of the ways of using git with a
+git-hosting service like GitHub.
+
+In this document, the `$` symbol, represents the prompt. The editor
+used in this tutorial is [vi](https://en.wikipedia.org/wiki/Vi). A
+short introduction to _vi_ is located at
+[http://www.nuxified.org/vi_survival_guide](http://www.nuxified.org/vi_survival_guide).
 
 ## Basics
 
@@ -125,10 +130,10 @@ _New repository_
 
 ![New](images/new-repository.png)
 
-Follow through the prompts. When you have filled in the
-required fields, you'll get a string of commands. Replace `foobar`
-with the name of the repository that you have created. Run these
-commands.
+Follow through the prompts. When you have filled in the required
+fields, you'll get a string of commands. Replace `shoryuken` and
+`foobar` with your GitHub username, and the name of the repository
+that you have created, respectively:
 
     $ git remote add origin git@github.com:shoryuken/foobar.git
     $ git push -u origin master
@@ -163,7 +168,7 @@ the URL located in the _SSH clone URL_ field:
 
 ![SSH clone URL](images/ssh-clone-url.png)
 
-then run the following command, where _hadoken_ is your username:
+then run the following command, where `hadoken` is your username:
 
     $ git clone git@github.com:hadoken/foobar.git
 
@@ -172,16 +177,17 @@ repository.
 
     $ git remote add upstream git@github.com:shoryuken/foobar.git
 
-When you want to make changes to the code, create a separate branch,
-where `new-feature` is a descriptive name of the changes that you want
-to make. This name can be changed later.
+When you want to make changes to the code, create a separate branch.
+Use a branch name that is descriptive of the changes that you want to
+make. This name can be changed later. In this example, we'll create a
+branch named `baz`:
 
-    $ git checkout -b new-feature
+    $ git checkout -b new-options
 
 You may now make changes to the files in this branch. When you've
 committed your changes, push the changes to your fork:
 
-    $ git push origin new-feature
+    $ git push origin new-options
 
 If you want the source repository to merge your changes, create a
 _Pull Request_ by going to the source repository's page, then click on _Pull Requests_.
@@ -199,7 +205,7 @@ Select _Compare Across Forks_:
 In the left side, under the `base fork` field, select
 `shoryuken/foobar`, and in the `base` field, select `master`. In the
 right side, under `head fork` field, select `hadoken/foobar`, and in
-the `compare` select `new-feature`, or whatever name you used
+the `compare` select `new-options`, or whatever name you used
 above. Click _Create pull request_
 
 ![Create pull request](images/create-pull-request.png)
@@ -236,10 +242,10 @@ source repository, synchronize your upstream branch:
 
     $ git pull upstream master
 
-At this point, you may delete the `new-feature` branch you have
+At this point, you may delete the `new-options` branch you have
 created earlier:
 
-    $ git branch -d new-feature
+    $ git branch -d new-options
 
 
 ## Closing Remarks
