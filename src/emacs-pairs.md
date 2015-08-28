@@ -114,7 +114,7 @@ If you have the expression:
 
 ```
 
-and you want to move point to `insert`:
+and you want to move point to **insert**:
 
 ```lisp
 
@@ -135,7 +135,7 @@ If you have the expression:
     ^
 ```
 
-and you want to move point just past `)`:
+and you want to move point just past **)**:
 
 ```clojure
 
@@ -177,7 +177,7 @@ If you have the expression:
                            ^
 ```
 
-and you want to move point to `(format`:
+and you want to move point to **(format**:
 
 ```lisp
 
@@ -198,7 +198,7 @@ If you have the expression:
           ^
 ```
 
-and you want to move just past `]`:
+and you want to move just past **]**:
 
 ```clojure
 
@@ -208,7 +208,7 @@ and you want to move just past `]`:
 
 Execute `sp-forward-sexp`. I bound it to <kbd>C-M-f</kbd>
 
-Conversely, to move it just before `[`:
+Conversely, to move it just before **[**:
 
 ```clojure
 
@@ -232,7 +232,7 @@ If you have the expression:
 
 ```
 
-and you want to move point to `[foo]`:
+and you want to move point to **[foo]**:
 
 ```clojure
 
@@ -268,7 +268,7 @@ If you have the expression:
                ^
 ```
 
-and you want to move point to `blah`:
+and you want to move point to **blah**:
 
 ```clojure
 
@@ -286,7 +286,7 @@ Conversely, if you have the expression:
             ^
 ```
 
-and you want to move point just after `(let`:
+and you want to move point just after **(let**:
 
 ```clojure
 
@@ -312,7 +312,9 @@ var mods = "vars";
            ^
 ```
 
-and you want `"vars"` to be surrounded by `[`, and `]`:
+and you want **"vars"** to be surrounded by **[**,
+and
+**]**:
 
 ```javascript
 
@@ -321,7 +323,9 @@ var mods = ["vars"];
 ```
 
 Press <kbd>C-M-Space</kbd> followed by <kbd>[</kbd>, the
-whole region becomes surrounded by matching `[`, and `]`.
+whole region becomes surrounded by matching **[**,
+and
+**]**.
 It also applies to keys like `(`, `{`, `"`, `'`, `*`, `_`, etc,
 depending on the mode that you're using.
 
@@ -357,7 +361,7 @@ and <kbd>C-c {</kbd>, respectively. So, if you have the expression:
           ^
 ```
 
-and you want to surround `args` with `[` and `]`:
+and you want to surround **args** with **[** and **]**:
 
 ```clojure
 
@@ -390,8 +394,8 @@ If you have the expression:
      ^
 ```
 
-and you want to unwrap the `bar` expression, removing the parentheses
-around `foo`:
+and you want to unwrap the **bar** expression, removing the parentheses
+around **foo**:
 
 ```clojure
 
@@ -401,8 +405,8 @@ foo (bar x y z)
 
 Execute `sp-backward-unwrap-sexp`. I bound it to <kbd>M-[</kbd>
 
-Conversely, if you want to unwrap the `bar` expression, removing the
-parentheses around `bar`:
+Conversely, if you want to unwrap the **bar** expression, removing the
+parentheses around **bar**:
 
 ```clojure
 
@@ -423,7 +427,7 @@ If you have the expression:
         ^
 ```
 
-and you want `baz` to be part of `foo` and `bar`:
+and you want **baz** to be part of **foo** and **bar**:
 
 ```clojure
 
@@ -433,7 +437,7 @@ and you want `baz` to be part of `foo` and `bar`:
 
 Execute `sp-forward-slurp-sexp`. I bound it to <kbd>C-right</kbd>.
 
-Conversely, if you want to remove `baz`:
+Conversely, if you want to remove **baz**:
 
 ```clojure
 
@@ -451,7 +455,7 @@ blah [foo bar]
              ^
 ```
 
-and you want `blah` to be part of `foo` and `bar`:
+and you want **blah** to be part of **foo** and **bar**:
 
 ```clojure
 
@@ -461,7 +465,7 @@ and you want `blah` to be part of `foo` and `bar`:
 
 Execute `sp-backward-slurp-sexp`. I bound it to <kbd>C-left</kbd>.
 
-Conversely, if you want to remove `blah`:
+Conversely, if you want to remove **blah**:
 
 ```clojure
 
@@ -482,7 +486,7 @@ If you have the expression:
       ^
 ```
 
-and you want `"foo"` and `"bar"` to switch places:
+and you want **"foo"** and **"bar"** to switch places:
 
 ```clojure
 
@@ -503,7 +507,7 @@ If you have the expression:
                ^
 ```
 
-and you want to kill just `"y yy yyy"`:
+and you want to kill just **"y yy yyy"**:
 
 ```clojure
 
@@ -513,7 +517,7 @@ and you want to kill just `"y yy yyy"`:
 
 Execute `sp-kill-sexp`. I bound it to <kbd>C-M-k</kbd>.
 
-If you want to kill `"y yy yyy" z 0`:
+If you want to kill **"y yy yyy" z 0**:
 
 ```clojure
 
@@ -531,7 +535,7 @@ If you have the expression:
                                 ^
 ```
 
-and you want to kill `[clojure.string :as s]`:
+and you want to kill **[clojure.string :as s]**:
 
 ```clojure
 
@@ -546,7 +550,7 @@ Execute `sp-backward-kill-sexp`. I bound it to <kbd>M-k</kbd>
 ## Keys
 
 The following snippet summarizes the key bindings used in this
-article. I use `bind-keys` to conveniently map my keys. I discussed
+article. I use **bind-keys** to conveniently map my keys. I discussed
 about it, in an [earlier](emacs-hacks-2.html) article.
 
 ```lisp

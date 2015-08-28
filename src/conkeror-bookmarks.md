@@ -40,7 +40,7 @@ have installed it properly, run:
 $ emem --version
 ```
 
-If it reports at least `emem-0.2.1`, then you're good to go.
+If it reports at least **emem-0.2.1**, then you're good to go.
 
 
 ## Extract the Data
@@ -50,7 +50,7 @@ database, which Conkeror uses to store the bookmarks, among other
 things.
 
 Open your `~/.bashrc`, or whatever init file your shell uses, then
-append the following text. Replace `profile.default` with the correct
+append the following text. Replace **profile.default** with the correct
 profile name:
 
 ```bash
@@ -62,8 +62,8 @@ cob () {
 }
 ```
 
-The command above selects the `title` and `url` columns from the
-`moz_bookmarks` table, then sorts them by creation date.
+The command above selects the **title** and **url** columns from the
+**moz_bookmarks** table, then sorts them by creation date.
 
 
 ## Generate the Bookmarks
@@ -87,7 +87,7 @@ bmg () {
 }
 ```
 
-What it does is that it filters the output of `cob`, which _emem_ then
+What it does is that it filters the output of **cob**, which _emem_ then
 uses to generate the HTML file.
 
 
@@ -175,7 +175,7 @@ M-x bm RET
 An easy way to manage the bookmarks is to use the
 [SQLite Manager](https://github.com/lazierthanthou/sqlite-manager)
 extension. This extensions lets you manage SQLite database inside the
-browser. By default it lets you open the `.sqlite` files in your
+browser. By default it lets you open the **.sqlite** files in your
 profile directory.
 
 To install it, download the .xpi file from
@@ -205,8 +205,8 @@ To run _SQLite Manager_, hit:
 M-x sqlite
 ```
 
-In the drop-down box that says `(Select Profile Database)`, select
-`places.sqlite`, then hit `Go`.
+In the drop-down box that says **(Select Profile Database)**, select
+**places.sqlite**, then hit **Go**.
 
 Do not, however, make modifications to any of the SQLite files in your
 profile, while Conkeror is running. Doing so may make your browser
