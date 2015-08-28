@@ -11,8 +11,8 @@ clean_up () {
 }
 
 stage_files () {
-  for i in `ls *.md | egrep -v '(FOOTER|README|TODO)'`; do
-    cat $i FOOTER.md > stage/$i
+  for i in `ls src/*.md | egrep -v '(FOOTER)'`; do
+    cat $i src/FOOTER.md > stage/$(basename $i)
   done
 }
 

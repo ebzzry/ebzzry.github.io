@@ -40,12 +40,6 @@ APT:
 $ sudo apt-get install getmail4
 ```
 
-DNF:
-
-```bash
-$ sudo dnf install getmail
-```
-
 However, if your system doesn't provide an easy way for you to install
 getmail, you can always head to its
 [homepage](http://pyropus.ca/software/getmail/) , then download the
@@ -125,17 +119,18 @@ comes in.
 Just like with getmail above, chances are, mu can be installed via
 your system's package manager.
 
-If you're using Nix:
+Nix:
 
 ```bash
 $ nix-env -i mu
 ```
 
-If you're using APT:
+APT:
 
 ```bash
 $ sudo apt-get install maildir-utils
 ```
+
 
 In addition to the above, you need to fetch mu4e. This comes with mu's
 source code. Download it by running:

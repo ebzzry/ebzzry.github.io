@@ -109,7 +109,8 @@ $ sudo vde_switch -tap tap0 -mod 660 -group kvm -daemon
 $ sudo ip addr add 10.0.2.1/24 dev tap0
 $ sudo ip link set dev tap0 up
 $ sudo sysctl -w net.ipv4.ip_forward=1
-$ sudo iptables -t nat -A POSTROUTING -s 10.0.2.0/24 -j MASQUERADE
+$ sudo iptables -t nat -A POSTROUTING \
+-s 10.0.2.0/24 -j MASQUERADE
 ```
 
 The above commands will:
@@ -132,8 +133,8 @@ If you're installing an OS from a bootable image, usually an ISO file,
 run:
 
 ```bash
-$ sudo qemu-kvm -cpu host -m 2G -net nic,model=virtio -net vde \
--device AC97,addr=0x18 -vga qxl \
+$ sudo qemu-kvm -cpu host -m 2G -net nic,model=virtio \
+-net vde -device AC97,addr=0x18 -vga qxl \
 -spice port=9999,addr=127.0.0.1,password=mysecretkey \
 -boot once=d -cdrom installer.iso \
 vm.qcow2
@@ -142,8 +143,8 @@ vm.qcow2
 On subsequent uses:
 
 ```bash
-$ sudo qemu-kvm -cpu host -m 2G -net nic,model=virtio -net vde \
--device AC97,addr=0x18 -vga qxl \
+$ sudo qemu-kvm -cpu host -m 2G -net nic,model=virtio \
+-net vde -device AC97,addr=0x18 -vga qxl \
 -spice port=9999,addr=127.0.0.1,password=mysecretkey \
 vm.qcow2
 ```
@@ -243,7 +244,8 @@ If you want to explicitly revert the network configuration, do the
 following.
 
 ```bash
-$ sudo iptables -t nat -D POSTROUTING -s 10.0.2.0/24 -j MASQUERADE
+$ sudo iptables -t nat -D POSTROUTING -s 10.0.2.0/24 \
+-j MASQUERADE
 $ sudo sysctl -w net.ipv4.ip_forward=0
 $ sudo ip link set dev tap0 down
 $ sudo ip link delete tap0
@@ -269,7 +271,8 @@ the command-line:
 vde () {
   case $1 in
     down|0)
-      sudo iptables -t nat -D POSTROUTING -s 10.0.2.0/24 -j MASQUERADE
+      sudo iptables -t nat -D POSTROUTING -s 10.0.2.0/24 \
+        -j MASQUERADE
       sudo sysctl -w net.ipv4.ip_forward=0
       sudo ip link set dev tap0 down
       sudo ip link delete tap0
@@ -281,14 +284,15 @@ vde () {
       sudo ip addr add 10.0.2.1/24 dev tap0
       sudo ip link set dev tap0 up
       sudo sysctl -w net.ipv4.ip_forward=1
-      sudo iptables -t nat -A POSTROUTING -s 10.0.2.0/24 -j MASQUERADE
+      sudo iptables -t nat -A POSTROUTING -s 10.0.2.0/24 \
+        -j MASQUERADE
       ;;
   esac
 }
 
 kvm () {
-  sudo qemu-kvm -cpu host -m 2G -net nic,model=virtio -net vde \
-    -device AC97,addr=0x18 -vga qxl \
+  sudo qemu-kvm -cpu host -m 2G -net nic,model=virtio \
+    -net vde -device AC97,addr=0x18 -vga qxl \
     -spice port=5900,addr=127.0.0.1,disable-ticketing \
     -daemonize $@
   spicec -p 5900 -h 127.0.0.1 &
