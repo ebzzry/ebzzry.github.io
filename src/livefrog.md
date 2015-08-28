@@ -66,7 +66,7 @@ $ raco livefrog -am
 
 Bear in mind, though, that ljdump and ljmigrate differ on how the
 trees for the data are created. ljdump has the following tree format,
-where USERNAME is your LiveJournal account name:
+where **USERNAME** is your LiveJournal account name:
 
 ```bash
 ljdump/
@@ -120,9 +120,8 @@ comments. To import comments to this platform, you need to generate an
 XML file that must adhere to Disqus' comment import rules.
 
 To create a file, named `comments.xml` that will be used for importing
-comments, to be used with
-[import.disqus.com](http://import.disqus.com/), using `foo.bar.com` as
-the root site:
+comments, to be used with <http://import.disqus.com>, using
+`foo.bar.com` as the root site:
 
 ```bash
 $ raco livefrog -s foo.bar.com -c comments.xml
@@ -151,8 +150,8 @@ $ raco pkg install livefrog/
 
 ## Miscellany
 
-To reduce typing, you may optionally create an alias to `raco
-livefrog` in your shell.
+To reduce typing, you may optionally create an alias to
+`raco livefrog` in your shell.
 
 Sh-like shells:
 
