@@ -1,7 +1,7 @@
 A Brief Git & GitHub Walkthrough
 ======================================================================
 
-This presents a succinct Git tutorial, using the GitHub workflow. The
+This short tutorial shows how to use Git with a GitHub workflow. The
 `$` symbol, represents the prompt. The editor used in this tutorial is
 [vi](https://en.wikipedia.org/wiki/Vi). A short introduction to _vi_
 is located at <http://www.nuxified.org/vi_survival_guide>.
