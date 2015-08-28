@@ -3,6 +3,7 @@ Illusions of Cognizance
 
 A blog about computing, philosophy, and pseudorandom stuff.
 
+* [A Brief Git & GitHub Walkthrough](git-github.html)
 * [Emacs and Pairs](emacs-pairs.html)
 * [Conkeror's Bookmarks](conkeror-bookmarks.html)
 * [Virtualizing with KVM](kvm.html)
