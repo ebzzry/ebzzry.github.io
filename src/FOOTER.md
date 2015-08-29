@@ -1,6 +1,7 @@
 
 ***
-<center>
-  <small>Site created with [emem](https://github.com/ebzzry/emem), &amp; [emacs](https://gnu.org/software/emacs)</small><br/>
-  <small>Copyright © Rommel M. Martinez</small>
-</center
+<p style='text-align: center; font-size: small'>
+[Home](index.html) · [About](about.html) · [Quotes](quotes.html) · [Source](https://github.com/ebzzry/ebzzry.github.io) <br />
+  Site created with [emem](https://github.com/ebzzry/emem)<br />
+  Copyright © Rommel M. Martinez
+</p>
