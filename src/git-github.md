@@ -49,7 +49,7 @@ Initially, add all the files in the current directory:
 
 Then, commit the changes:
 
-    $ git commit -m "Short description of your changes."
+    $ git commit -m "Initial commit."
 
 
 ### Subsequent Uses
@@ -183,7 +183,7 @@ repository.
 When you want to make changes to the code, create a separate branch.
 Use a branch name that is descriptive of the changes that you want to
 make. This name can be changed later. In this example, we'll create a
-branch named `baz`:
+branch named `new-options`:
 
     $ git checkout -b new-options
 
