@@ -3,7 +3,7 @@ Illusions of Cognizance
 
 <img src="images/banner.jpg" style="width: 100%;" alt="A strong contrast of mid-day sunlight against a banana leaf." title="A strong contrast of mid-day sunlight against a banana leaf." align="center" />
 
-A blog about computing, philosophy, and pseudorandom stuff.
+A blog about computing, predilections, and pseudorandom stuff.
 
 * [A Brief Git & GitHub Tour](git-github.html)
 * [Emacs and Pairs](emacs-pairs.html)
@@ -24,4 +24,3 @@ A blog about computing, philosophy, and pseudorandom stuff.
 * [Squandered Relentlessness](squandered.html)
 * [Over, Under, and Elsewhere](over-under.html)
 * [The Y Combinator in Six Easy Steps](y.html)
-* [About](about.html)
