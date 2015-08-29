@@ -95,7 +95,11 @@ ul, ol {
     padding-left: 2em;
 }
 
-p, para, i, b, emph {
+li {
+    list-style-type: square;
+}
+
+p, para, b, strong, i, em, emph {
     font-size: 1em;
 }
 
@@ -105,12 +109,10 @@ blockquote {
     margin-left: 0;
 }
 
-strong {
-    font-size: 1em;
+b, strong {
     font-weight: bold;
 }
 
-em, i {
-    font-size: 1em;
+i, em, emph {
     font-style: italic;
 }
