@@ -3,7 +3,7 @@ Division by Zero
 
 <img src="images/banner.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="banner" title="banner"/>
 
-<div style="text-align: center">A blog about computing, predilections, and pseudorandom stuff.</div>
+<div style="text-align: right">A blog about computing, predilections, and pseudorandom stuff.</div>
 
 * [A Brief Git & GitHub Tour](git-github.html)
 * [Emacs and Pairs](emacs-pairs.html)
