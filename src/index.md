@@ -1,9 +1,9 @@
-Illusions of Cognizance
+Division by Zero
 ======================================================================
 
-<img src="images/banner.jpg" style="width: 100%;" alt="A strong contrast of mid-day sunlight against a banana leaf." title="A strong contrast of mid-day sunlight against a banana leaf." align="center" />
+<img src="images/banner.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="banner" title="banner"/>
 
-A blog about computing, predilections, and pseudorandom stuff.
+<div style="text-align: center">A blog about computing, predilections, and pseudorandom stuff.</div>
 
 * [A Brief Git & GitHub Tour](git-github.html)
 * [Emacs and Pairs](emacs-pairs.html)

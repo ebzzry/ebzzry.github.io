@@ -1,7 +1,7 @@
 About
 ======================================================================
 
-<img style="border: 1px dotted black; margin-right: 0.5em; margin-bottom: 0.5em;" src="images/me.jpg" alt="me" title="me" align="left" />
+<img style="margin-right: 0.5em; margin-bottom: 0.5em;" src="images/me.jpg" alt="me" title="me" align="left" />
 
 My name is Rommel M. Martinez. I am a software engineer, and systems
 administrator. I currently live in Philippines. My interests are
