@@ -1,11 +1,16 @@
 
 ***
-<div style="text-align: center">
-<p style="font-size: small">
+<div style="text-align: right; float: right; max-width: 16em;">
+
+<div style="font-size: small">
 [Home](index.html) · [About](about.html) · [Quotes](quotes.html) · [Source](https://github.com/ebzzry/ebzzry.github.io)
-</p>
-<p style="font-size: x-small">
-Site created with [emem](https://github.com/ebzzry/emem)<br />
-Copyright © Rommel M. Martinez
-</p>
+</div>
+<div style="font-size: x-small">
+Site created with [emem](https://github.com/ebzzry/emem)
+</div>
+
+<div style="font-size: x-small">
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work by <a xmlns:cc="http://creativecommons.org/ns#" href="https://ebzzry.github.io" property="cc:attributionName" rel="cc:attributionURL">Rommel M. Martinez</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+</div>
+
 </div>
