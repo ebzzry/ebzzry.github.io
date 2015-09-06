@@ -13,7 +13,7 @@ Division by Zero
 * [Emacs and Hacks (Part 2)](emacs-hacks-2.html)
 * [Setting Up GPG and SSH in KDE](gpg-ssh-kde.html)
 * [An Introduction to Ugarit](ugarit.html)
-* [An Introduction To Frog](frog.html)
+* [An Introduction to Frog](frog.html)
 * [Emacs and Mail](emacs-mail.html)
 * [Emacs and Racket](emacs-racket.html)
 * [Emacs and Dired](emacs-dired.html)
