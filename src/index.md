@@ -5,6 +5,7 @@ Division by Zero
 
 <div style="text-align: right">A blog about computing, predilections, and pseudorandom stuff.</div>
 
+* [A Better Kinesis Advantage Layout](advantage.html)
 * [A Brief Git & GitHub Tour](git-github.html)
 * [Emacs and Pairs](emacs-pairs.html)
 * [Conkeror's Bookmarks](conkeror-bookmarks.html)
