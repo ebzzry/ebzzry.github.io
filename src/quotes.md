@@ -515,3 +515,6 @@ Quotes
 
 * "You're capable of righteous violence because you are compassionate."
   --Bedelia Du Maurier
+
+* "Never, ever give up."
+  --Diana Nyad
