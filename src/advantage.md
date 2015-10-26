@@ -3,6 +3,8 @@ A Better Kinesis Advantage Layout
 
 <center>Monday, October 26 2015</center>
 
+<img src="images/advantage.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="Advantage" title="Advantage"/>
+
 One of the best investments a programmer can have is a good
 keyboard. What constitutes a good keyboard, however, can sometimes be
 a subject of debates. A common item that persists most lists is that
