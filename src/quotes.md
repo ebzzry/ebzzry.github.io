@@ -455,3 +455,7 @@ Quotes
 
 * "They that can give up essential liberty to obtain a little temporary safety deserve neither liberty nor safety."
   -- Benjamin Franklin
+
+
+* "Go to the edge of the cliff and jump off. Build your wings on the way down."
+  -- Ray Bradbury
