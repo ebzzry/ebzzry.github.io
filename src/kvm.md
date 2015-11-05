@@ -134,7 +134,7 @@ run:
 
 ```bash
 $ sudo qemu-kvm -cpu host -m 2G -net nic,model=virtio \
--net vde -device AC97,addr=0x18 -vga qxl \
+-net vde -soundhw all -vga qxl \
 -spice port=9999,addr=127.0.0.1,password=mysecretkey \
 -boot once=d -cdrom installer.iso \
 vm.qcow2
@@ -144,7 +144,7 @@ On subsequent uses:
 
 ```bash
 $ sudo qemu-kvm -cpu host -m 2G -net nic,model=virtio \
--net vde -device AC97,addr=0x18 -vga qxl \
+-net vde -soundhw all -vga qxl \
 -spice port=9999,addr=127.0.0.1,password=mysecretkey \
 vm.qcow2
 ```
@@ -167,11 +167,9 @@ Allocate 2GB of host memory for the guest. Adjust as necessary.
 Create a virtual NIC, and enable VDE networking
 
 ```
--device AC97,addr=0x18
+-soundhw all
 ```
-Specify the audio adapter to
-emulate. [AC97](https://en.wikipedia.org/wiki/AC%2797) works
-reasonably well for most configurations.
+Enable all audio drivers
 
 ```
 -vga qxl
