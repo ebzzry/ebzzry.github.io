@@ -11,19 +11,19 @@ $ sudo sysctl -w net.ipv4.ip&#95;forward=1
 $ sudo iptables -t nat -A POSTROUTING \
 -s 10.0.2.0/24 -j MASQUERADE
 </code></pre><p>The above commands will:</p><ol><li>Create a VDE device</li><li>Configure the TCP/IP options for that device.</li><li>Enable the VDE device.</li><li>Enable packet forwarding on the host OS.</li><li>Setup the routing configuration.</li></ol><h2>Execution</h2><h3>Load the image</h3><p>You now need to invoke <code>qemu-kvm</code>, the command that will launch everything up. The name of the command may differ with the one installed on your system.</p><p>If you're installing an OS from a bootable image, usually an ISO file, run:</p><pre><code class="bash">$ sudo qemu-kvm -cpu host -m 2G -net nic,model=virtio \
--net vde -device AC97,addr=0x18 -vga qxl \
+-net vde -soundhw all -vga qxl \
 -spice port=9999,addr=127.0.0.1,password=mysecretkey \
 -boot once=d -cdrom installer.iso \
 vm.qcow2
 </code></pre><p>On subsequent uses:</p><pre><code class="bash">$ sudo qemu-kvm -cpu host -m 2G -net nic,model=virtio \
--net vde -device AC97,addr=0x18 -vga qxl \
+-net vde -soundhw all -vga qxl \
 -spice port=9999,addr=127.0.0.1,password=mysecretkey \
 vm.qcow2
 </code></pre><p>Let's break that down:</p><pre><code>-cpu host
 </code></pre>Use the KVM processor with all the supported features<pre><code>-m 2G
 </code></pre>Allocate 2GB of host memory for the guest. Adjust as necessary.<pre><code>-net nic,model=virtio -net vde
-</code></pre>Create a virtual NIC, and enable VDE networking<pre><code>-device AC97,addr=0x18
-</code></pre>Specify the audio adapter toemulate. <a href='https://en.wikipedia.org/wiki/AC%2797'>AC97</a> worksreasonably well for most configurations.<pre><code>-vga qxl
+</code></pre>Create a virtual NIC, and enable VDE networking<pre><code>-soundhw all
+</code></pre>Enable all audio drivers<pre><code>-vga qxl
 </code></pre>Specify the video adapter to emulate. Use QXL when using SPICE<pre><code>-spice addr=127.0.0.1,port=9999,password=mysecretkey
 </code></pre><p>Specify the options for SPICE, separated by commas. <i>addr</i> and <i>port</i> are the IP address and TCP port that SPICE will listen on. Ideally, access to that port must be properly configured, and secured. <i>password</i> is key that will be used by the SPICE client, <code>spicec</code>, to connect to the guest display later.</p><pre><code>-boot once=d -cdrom installer.iso
 </code></pre><p>Boot initially from <code>installer.iso</code>, then on subsequent boots, boot in the normal order.</p><p>Running the <i>qemu-kvm</i> command above will load the image, but you won't be able to view the display, yet.</p><h3>Connect to the SPICE display</h3><p>To be able to use the guest machine's display, you need to connect to the SPICE server, using the SPICE client <code>spicec</code>:</p><pre><code class="bash">$ spicec -h 127.0.0.1 -p 5901 -w mysecretkey
