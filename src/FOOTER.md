@@ -3,7 +3,7 @@
 <div style="text-align: right; float: right; max-width: 16em;">
 
 <div style="font-size: small">
-[Home](index.html) · [About](about.html) · [Quotes](quotes.html) · [Source](https://github.com/ebzzry/ebzzry.github.io)
+[Home](index.html) · [About](about.html) · [Quotes](quotes.html) · [Words](words.html) · [Source](https://github.com/ebzzry/ebzzry.github.io)
 </div>
 <div style="font-size: x-small">
 Site created with [emem](https://github.com/ebzzry/emem)
