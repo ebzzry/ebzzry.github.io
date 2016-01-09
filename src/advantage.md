@@ -2,6 +2,7 @@ A Better Kinesis Advantage Layout
 ======================================================================
 
 <center>Monday, October 26 2015</center>
+<center>Updated: Sunday, January 10 2016</center>
 
 <img src="images/advantage.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="Advantage" title="Advantage"/>
 
@@ -21,19 +22,9 @@ default layout of the keys, however, turns me off. The <kbd>Ctrl</kbd>
 and <kbd>Alt</kbd> keys are too far to reach. This is important for
 users of software like Emacs, and shells like Zsh and Bash.
 
-By default, the Advantage is set to QWERTY (US). I use Dvorak, so I
-would have something like
+In this post, we'll use the following legend:
 
 ```
-setxkbmap dvorak
-```
-
-somewhere in my config. After that, the layout would look like the
-following:
-
-```
-Legend
-
 ES Escape
 TA Tab
 CL Caps Lock
@@ -49,6 +40,8 @@ PD Page Down
 EN Enter
 SP Space
 ```
+
+When using Dvorak emulation, the following is how the keys are mapped:
 
 ```
 Original Software Dvorak
@@ -78,11 +71,11 @@ Remapped Software Dvorak
 IN
 `~ 1! 2@ 3# 4$ 5%   6^ 7& 8* 9( 0) \|
 TA '" ,< .> pP yY   fF gG cC rR lL /?
-CL aA oO eE uU iI   dD hH tT nN sS -_
+ES aA oO eE uU iI   dD hH tT nN sS -_
 SH ;: qQ jJ kK xX   bB mM wW vV zZ SH
    CT AL UP DN         LE RI AL CT
 
-            [{ ES   =+ ]}
+            [{ CL   =+ ]}
          BS DE PU   HO EN SP
                PD   ED
 ```
@@ -107,5 +100,41 @@ right hand with the mouse wheel. The sample applies with <kbd>Page
 Up</kbd> and <kbd>Page Down</kbd>.
 
 One of my favorites is the new location of the
-<kbd>[</kbd> and <kbd>]</kbd> keys. They are used, a lot, in the major
-languages used today.
+<kbd>[</kbd> and <kbd>]</kbd> keys. I also like the new location of the <kbd>Escape</kbd> <kbd>Caps Lock</kbd> keys -- this allows me to easily hit the Escape key when using vi, or closing dialog boxes.
+
+The full mapping sequence follows. The `l` and `r` prefixes below signifies the left and right versions of the keys, respectively.
+
+```
+Progrm + Shift + F10
+Progrm + \
+Progrm + -
+Progrm + F12
+
+ES -> CL
+CL -> lAL
+LE -> UP
+RI -> DN
+UP -> LE
+DN -> RI
+
+HO -> PU
+ED -> PD
+PU -> HO
+PD -> ED
+
+lCT -> `~
+lAL -> \|
+rCT -> ]}
+rAL -> [{
+
+-_ -> lCT
+ES -> lAL
+=+ -> rCT
+]} -> rAL
+
+`~  -> =+
+r\| -> -_
+[{  -> l\|
+
+Keypad, Insert, Keypad, ES
+```
