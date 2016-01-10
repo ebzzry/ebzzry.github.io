@@ -60,7 +60,7 @@ SH ;: qQ jJ kK xX   bB mM wW vV zZ SH
 
 Horrible.
 
-Using that layout on Emacs, or shell, is painful to the hands, especially on prolonged periods. To press <kbd>M-x</kbd>, one would have to press the <kbd>Alt</kbd> key with the right thumb, then the <kbd>x</kbd> key with the left index finger. Reaching out for the <kbd>Escape</kbd> keys isn't a lot of fun, either, because the current model of the Advantage have that squishy rubber button in place, which sometimes registers as a double press.
+Using that layout on Emacs, or shell, is painful to the hands, especially on prolonged periods. To press <kbd>M-x</kbd>, one would have to press the <kbd>Alt</kbd> key with the right thumb, then the <kbd>x</kbd> key with the left index finger. Reaching out for the <kbd>Esc</kbd> keys isn't a lot of fun, either, because the current model of the Advantage have that squishy rubber button in place, which sometimes registers as a double press.
 
 I remapped some of the keys, to fit my workflow. The new layout is as follows. The mapping is initiated by pressing <kbd>Progrm + F12</kbd>. Please check with the manual for other remapping-related information.
 
@@ -80,29 +80,30 @@ SH ;: qQ jJ kK xX   bB mM wW vV zZ SH
                PD   ED
 ```
 
-I used <kbd>Insert</kbd> in lieu of <kbd>Escape</kbd>, so that I can
+I used <kbd>Insert</kbd> in lieu of <kbd>Esc</kbd>, so that I can
 easily access the `XA_PRIMARY` selection using <kbd>Shift +
 Insert</kbd>. The `XA_PRIMARY` selection is where your mouse
 highlights go. It also makes it easy to enter Emacs'
 `overwrite-mode`. The <kbd>Insert</kbd> key, however, is buried in the
-key physically marked with `|`, on the left side. To access it inside
-remapping mode, press:
-
-```
-Keypad, Insert, Keypad, Esc
-```
+key physically marked with `|`, on the left side. The sequence to
+access it is listed at end of this post.
 
 The new location of <kbd>Ctrl</kbd> and <kbd>Alt</kbd> makes it easy
 for the fingers to reach them. I swapped the location of <kbd>Up</kbd>
 and <kbd>Down</kbd> with <kbd>Left</kbd> and <kbd>Right</kbd>. I
 wanted to be able to scroll through a webpage without having to use my
-right hand with the mouse wheel. The sample applies with <kbd>Page
+right hand with the mouse wheel. The same applies with <kbd>Page
 Up</kbd> and <kbd>Page Down</kbd>.
 
 One of my favorites is the new location of the
-<kbd>[</kbd> and <kbd>]</kbd> keys. I also like the new location of the <kbd>Escape</kbd> <kbd>Caps Lock</kbd> keys -- this allows me to easily hit the Escape key when using vi, or closing dialog boxes.
+<kbd>[</kbd> and <kbd>]</kbd> keys. I also like the new location of
+the <kbd>Esc</kbd> and <kbd>Caps Lock</kbd> keys -- this allows me to
+easily hit the Esc key when using vi, or closing dialog boxes.
 
-The full mapping sequence follows. The `l` and `r` prefixes below signifies the left and right versions of the keys, respectively.
+The full mapping sequence follows. The `l` and `r` prefixes below
+signifies the left and right versions of the keys, respectively. The
+`->` is read as "to". For example, `PU -> HO` is read as "Assign
+PageUp to Home".
 
 ```
 Progrm + Shift + F10
