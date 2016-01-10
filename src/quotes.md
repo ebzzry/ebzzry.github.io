@@ -1,6 +1,9 @@
 Quotes
 ======================================================================
 
+This page contains a list of curated quotations, aphorisms, and
+proverbs that I have collected over the years.
+
 * "The aspects you are willing to ignore are more important than the
   aspects you are willing to accept."<br>
   -- Erik Naggum
