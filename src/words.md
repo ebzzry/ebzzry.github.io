@@ -1,6 +1,10 @@
 Words
 ======================================================================
 
+This page contains a list of phrases and lines that I have used
+to inspire myself, and others.
+
+
 * While the intrepid ones are braving the storms with courage and
   triumph, the cowards are basking in the shores of submission and
   conformity.<br>
@@ -10,8 +14,7 @@ Words
 
 
 * Golden opportunities are often missed because they are cloaked with
-  dirty garment, rather than with glitter and gold. Lethargy is as
-  nefarious as haste.<br>
+  dirty garment, rather than with glitter and gold.<br>
 
 
 * When you don't give your best, and unfavorable results come out,
@@ -25,8 +28,6 @@ Words
   only those who are willing to embark on these treacherous journeys
   will have the fortune to apprise the tales.<br>
 
-
-* Live. Die. Live again.<br>
 
 
 * One of the most atrocious crimes a sensibility can ever commit to
@@ -64,9 +65,6 @@ Words
 
 * If your ship doesn't come to you, swim to it; if you can't swim,
   have the ship towed to you.<br>
-
-
-* The less you worry, the happier you'll be.<br>
 
 
 * Smile, even in the face of adversary, for that will also be the time
