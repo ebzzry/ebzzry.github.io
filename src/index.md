@@ -1,4 +1,4 @@
-Division by Zero
+The Cognizant Self
 ======================================================================
 
 <img src="images/banner.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="banner" title="banner"/>
