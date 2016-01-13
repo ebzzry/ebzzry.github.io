@@ -92,4 +92,3 @@ to inspire myself, and others.
 
 
 * Don't find an excuse not to do it. Instead, find an excuse to do it.<br>
-

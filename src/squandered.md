@@ -84,7 +84,7 @@ It is aggreging to our shoulders, to see that generations after
 generations, we squander and believe that discoveries should always be
 made for us, peeled off then fed to our mouths. What have we become as
 sailors of the stars? Have we given up the drive to motivate ourselves
-to see what is on the other side of the rainbow? Have we tame
+to see what is on the other side of the rainbow? Have we tamed
 ourselves too much, that we became willing to be incarcerated in zoos,
 for the pleasure of others?  Or did we just flush out our sense of
 power, to make ourselves stand out less, and mix more with the crowd,

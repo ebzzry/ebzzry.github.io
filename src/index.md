@@ -1,7 +1,7 @@
 Division by Zero
 ======================================================================
 
-<img src="images/banner.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="banner" title="banner"/>
+<a href="http://ebzzry.deviantart.com/art/Uniform-Conformity-295655581"><img src="images/banner.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="banner" title="banner"/></a>
 
 <div style="text-align: right">A blog about computing, predilections, and pseudorandom stuff.</div>
 
