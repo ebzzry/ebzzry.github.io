@@ -91,4 +91,8 @@ to inspire myself, and others.
 * Defer to use what you will use to defer.<br>
 
 
-* Don't find an excuse not to do it. Instead, find an excuse to do it.<br>
+* If you're going to find excuses, don't find an excuse not to do
+  it. Instead, find an excuse to do it.<br>
+
+
+* Work your way through things, not around it.<br>
