@@ -1,7 +1,7 @@
 An Introduction to Usync
 ======================================================================
 
-<center>2013-05-21 19:18:33</center>
+<center>May 21, 2013</center>
 
 Usync is a a site-to-site synchronization tool written in
 [Scsh](http://www.scsh.net). It makes use of

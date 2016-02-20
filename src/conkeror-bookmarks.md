@@ -1,7 +1,7 @@
 Conkeror's Bookmarks
 ======================================================================
 
-<center>2015-08-16 01:14:09</center>
+<center>August 16, 2015</center>
 
 I wanted a simple, and easy way to view my bookmarks in
 [Conkeror](http://conkeror.org). However, the proposed solutions on

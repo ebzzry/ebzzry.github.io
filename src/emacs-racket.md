@@ -1,7 +1,7 @@
 Emacs and Racket
 ======================================================================
 
-<center>2013-09-29 22:21:19</center>
+<center>September 29, 2013</center>
 
 In this post, I'll discuss the easiest approach that I took to setup
 up a [Racket](https://racket-lang.org) development environment on

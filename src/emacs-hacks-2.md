@@ -1,7 +1,7 @@
 Emacs and Hacks (Part 2)
 ======================================================================
 
-<center>2015-06-12 06:30:00</center>
+<center>June 12, 2015</center>
 
 This is second part of my Emacs tips series. The contents of this post
 are written in no particular order. It explores session management,

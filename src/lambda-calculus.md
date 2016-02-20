@@ -1,7 +1,7 @@
 A Lambda Calculus Primer
 ======================================================================
 
-<center>2015-06-12 07:30:03</center>
+<center>June 12, 2015</center>
 
 >"You do not really understand something unless you can explain it to
 >your grandmother."

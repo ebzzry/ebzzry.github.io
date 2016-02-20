@@ -1,8 +1,8 @@
 An Introduction to Ugarit
 ======================================================================
 
-<center>2014-02-21 12:07:18</center>
-<center>Updated: 2016-02-20 09:30:41</center>
+<center>February 21, 2014</center>
+<center>Updated: February 21, 2016</center>
 
 How many times have you experienced hindsight, after a catastrophic
 event has happened? how many times have you told yourself that had you
@@ -104,6 +104,12 @@ Create a salt, for the hash function:
 $ dd if=/dev/random bs=1 count=64 2>/dev/null | base64 -w 0 | tail -1
 ```
 
+Create a key, for the vault:
+
+```bash
+$ dd if=/dev/random bs=32 count=1 2>/dev/null | od -An -tx1 | tr -d ' \t\n'
+```
+
 After you run those commands, you'll create the config file,
 `ugarit.conf`. To make it consistent with the example above, you'll
 store it inside `/ugarit`:
@@ -112,14 +118,14 @@ store it inside `/ugarit`:
 $ emacs /ugarit/ugarit.conf
 ```
 
-Put the following, replacing SALT with the output of the `dd` command
-above:
+Put the following, replacing SALT, and KEY, with the salt and key
+strings that you generated above. Save the file, then secure it.
 
 ```scheme
 (storage "backend-fs splitlog /ugarit /ugarit/metadata")
 (file-cache "/ugarit/cache")
 (hash tiger "SALT")
-(encryption aes (32 prompt))
+(encryption aes "KEY")
 (compression deflate)
 ```
 

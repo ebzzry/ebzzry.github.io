@@ -1,7 +1,7 @@
 Emacs and Pairs
 ======================================================================
 
-<center>2015-08-15 21:48:41</center>
+<center>August 15, 2015</center>
 
 In this post, I'll exclusively talk about _smartparens_ — a package
 that you wish you should have used, earlier, presuming you don't use

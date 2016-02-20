@@ -1,7 +1,7 @@
 Emacs and Hacks (Part 1)
 ======================================================================
 
-<center>2013-09-10 13:23:34</center>
+<center>September 9, 2013</center>
 
 In this series of posts, I will be sharing my personal hacks on how
 I use Emacs for my day-to-day stuff.
