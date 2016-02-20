@@ -1,7 +1,7 @@
 Emacs and Mail
 ======================================================================
 
-<center>2014-02-17 16:02:38</center>
+<center>February 2, 2014</center>
 
 In this day and age, checking your mail means going to the website of
 our mail provider, or using a mobile app. however, there are some

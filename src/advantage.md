@@ -1,8 +1,8 @@
 A Better Kinesis Advantage Layout
-======================================================================
+=================================
 
-<center>Monday, October 26 2015</center>
-<center>Updated: Sunday, January 10 2016</center>
+<center>October, 26 2015</center>
+<center>February 21, 2016</center>
 
 <img src="images/advantage.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="Advantage" title="Advantage"/>
 
@@ -27,7 +27,8 @@ In this post, we'll use the following legend:
 ```
 ES Escape
 TA Tab
-CL Caps Lock
+CL Caps lock
+SL Scroll lock
 SH Shift
 CT Ctrl
 AL Alt
@@ -46,7 +47,7 @@ When using Dvorak emulation, the following is how the keys are mapped:
 ```
 Original Software Dvorak
 
-ES
+ES F1 F2 F3 F4 F5 F6 F7 F8 F9 F10 F11 F12 PS SL PB
 ]} 1! 2@ 3# 4$ 5%   6^ 7& 8* 9( 0) [{
 TA '" ,< .> pP yY   fF gG cC rR lL \|
 CL aA oO eE uU iI   dD hH tT nN sS -_
@@ -68,14 +69,14 @@ I remapped some of the keys, to fit my workflow. The new layout is as follows. T
 ```
 Remapped Software Dvorak
 
-IN
+IN F1 F2 F3 F4 F5 F6 F7 F8 F9 F10 F11 F12 KE CL PB
 `~ 1! 2@ 3# 4$ 5%   6^ 7& 8* 9( 0) \|
 TA '" ,< .> pP yY   fF gG cC rR lL /?
 ES aA oO eE uU iI   dD hH tT nN sS -_
 SH ;: qQ jJ kK xX   bB mM wW vV zZ SH
    CT AL UP DN         LE RI AL CT
 
-            [{ CL   =+ ]}
+            [{ PS   =+ ]}
          BS DE PU   HO EN SP
                PD   ED
 ```
@@ -97,8 +98,8 @@ Up</kbd> and <kbd>Page Down</kbd>.
 
 One of my favorites is the new location of the
 <kbd>[</kbd> and <kbd>]</kbd> keys. I also like the new location of
-the <kbd>Esc</kbd> and <kbd>Caps Lock</kbd> keys -- this allows me to
-easily hit the Esc key when using vi, or closing dialog boxes.
+the <kbd>Esc</kbd> key -- this allows me to easily hit the Esc key
+when using vi, or closing dialog boxes.
 
 The full mapping sequence follows. The `l` and `r` prefixes below
 signifies the left and right versions of the keys, respectively. The
@@ -112,7 +113,8 @@ Progrm + -
 Progrm + F12
 
 ES -> CL
-CL -> lAL
+CL -> SL
+
 LE -> UP
 RI -> DN
 UP -> LE
@@ -138,4 +140,14 @@ r\| -> -_
 [{  -> l\|
 
 Keypad, Insert, Keypad, ES
+Keypad, KP_Enter, Keypad, lAL
+```
+
+The `KP_Enter` (KE) key was moved to `Left Alt` (lAL) so that I can
+easily use it as a Compose (Multi) key in X. My `~/.Xmodmap` contains
+the following:
+
+```
+!! KP_Enter
+keycode 104 = Multi_key
 ```

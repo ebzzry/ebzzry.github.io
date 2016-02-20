@@ -1,7 +1,7 @@
 Virtualizing with KVM
 ======================================================================
 
-<center>2015-06-15 03:50:50</center>
+<center>June 15, 2015</center>
 
 Most of you are familiar with
 [full virtualization](https://en.wikipedia.org/wiki/Full_virtualization)
