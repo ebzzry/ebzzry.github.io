@@ -1,7 +1,7 @@
 An Introduction to Livefrog
 ======================================================================
 
-<center>2013-05-29 15:10:34</center>
+<center>May 29, 2013</center>
 
 I have specific cases wherein you needed to convert LiveJournal
 articles to another format. There are tools that do this, however, I
