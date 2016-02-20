@@ -1,7 +1,7 @@
 An Introduction To Frog
 ======================================================================
 
-<center>2014-02-19 14:07:11</center>
+<center>February 19, 2014</center>
 
 When publishing blog content to the web, most would rely on
 pre-fabricated services, that do most of the heavy lifting. However,

@@ -1,7 +1,7 @@
 In Retrospect
 ======================================================================
 
-<center>2013-07-11 00:21:55</center>
+<center>July 11, 2013</center>
 
 >"From life's school of war: what does not kill me makes me stronger."
 >
