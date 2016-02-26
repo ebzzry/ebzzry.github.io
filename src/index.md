@@ -1,14 +1,17 @@
 Division by Zero
-======================================================================
+================
 
-<a href="http://ebzzry.deviantart.com/art/Uniform-Conformity-295655581"><img src="images/banner.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="banner" title="banner"/></a>
+<a href="https://www.spacetelescope.org/images/heic1509a/"><img
+src="images/banner.jpg" style="display: block; width: 100%;
+margin-left: auto; margin-right: auto;" alt="Westerlund 2"
+title="Westerlund 2"/></a>
 
 <div style="text-align: right">A blog about computing, predilections, and pseudorandom stuff.</div>
 
-* [A Better Kinesis Advantage Layout](advantage.html)
-* [A Brief Git & GitHub Tour](git-github.html)
+* [A Better Advantage Layout](advantage.html)
+* [A Brief Git and GitHub Tour](git-github.html)
 * [Emacs and Pairs](emacs-pairs.html)
-* [Conkeror's Bookmarks](conkeror-bookmarks.html)
+* [Conkeror’s Bookmarks](conkeror-bookmarks.html)
 * [Virtualizing with KVM](kvm.html)
 * [A Lambda Calculus Primer](lambda-calculus.html)
 * [Emacs and Hacks (Part 2)](emacs-hacks-2.html)

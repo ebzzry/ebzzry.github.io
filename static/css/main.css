@@ -2,7 +2,7 @@ html {
     color: #333;
     font-size: 1em;
     font-family: Georgia, Cambria, Baskerville, "Times New Roman", Times, serif;
-    line-height: 1.5;
+    line-height: 1.45;
     text-align: left:
     width: 100%;
     max-width: 40em;
@@ -27,11 +27,9 @@ body {
 code {
     font-size: 0.9em;
     font-family: "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Lucida Console", "Courier New", Courier, monospace;
-    background-color: lightyellow;
     color: black;
-    padding: 0 4px 0 4px;
-    border: 1px dotted black;
     display: inline-block;
+    font-weight: bold;
 }
 
 pre code {
@@ -39,6 +37,7 @@ pre code {
     font-family: monospace;
     line-height: 1.3em;
     overflow: auto;
+    font-weight: normal;
 }
 
 kbd {
@@ -62,6 +61,7 @@ kbd {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-bottom: 0;
 }
 
 h1 {
@@ -107,7 +107,7 @@ p, para, b, strong, i, em, emph {
 blockquote {
     font-size: 1.2em;
     font-style: italic;
-    margin-left: 0;
+    margin-left: 2em;
 }
 
 b, strong {

@@ -1,12 +1,10 @@
 A Lambda Calculus Primer
-======================================================================
+========================
 
 <center>June 12, 2015</center>
 
->"You do not really understand something unless you can explain it to
->your grandmother."
->
->— Albert Einstein
+>You do not really understand something unless you can explain it to
+>your grandmother. ―Albert Einstein
 
 This post is my attempt to do just that, only that the grandmother
 here is myself. I firmly believe that unless I try to explain
@@ -48,30 +46,30 @@ not question what is that he is holding, and what is its purpose. He
 simply believes in his faith of intuition, to determine the meaning of
 the hose at the time he grabbed it.
 
-In English, the word "high" has specific meanings. But for all the
+In English, the word “high” has specific meanings. But for all the
 defined meanings of the word, there is no intrinsic knowledge of the
 value of the word. We take the meaning as is. We have to agree to use
 the word in the narrowed context of the users of the word. If we try
 to deviate from the established meaning of the word, for example, we
 randomly create a new definition of the word because of whim, chances
-are it won't be accepted. We need to believe in the defined
+are it won’t be accepted. We need to believe in the defined
 connotative and denotative meanings of the word, for it to have
-meaning to us. The same holds true for lambda calculus — we either
+meaning to us. The same holds true for lambda calculus — we either
 accept these axioms and operate in its domain, or we live in
 Neverland.
 
 
-## Baby Steps
+## Baby steps
 
 ### Functions
 
 A central player in lambda calculus is the notion of function. Most of
 us are familiar with functions in our high-level languages, but
-functions in lambda calculus are slightly different — they need to
+functions in lambda calculus are slightly different — they need to
 have at the minimum a single parameter. In most production languages
-in use now, you can invoke a function that doesn't take an
-argument. They're usually used for side-effects. In lambda calculus,
-however, a bare minimum of one argument is enforced. Here's what a
+in use now, you can invoke a function that doesn’t take an
+argument. They’re usually used for side-effects. In lambda calculus,
+however, a bare minimum of one argument is enforced. Here’s what a
 minimal function in lambda calculus looks like:
 
 ```
@@ -86,7 +84,7 @@ Which is equivalent to:
 ```
 
 This equivalence is called the α-conversion. The names do not matter, as
-long as they're used consistently. Parentheses may be used to remove
+long as they’re used consistently. Parentheses may be used to remove
 ambiguity when applying functions. The function above is equivalent to:
 
 ```
@@ -94,11 +92,11 @@ ambiguity when applying functions. The function above is equivalent to:
 ```
 
 The Greek letter `λ` denotes that the surrounding context is a
-function — or something that can be applied or used. The `λ` symbol
+function — or something that can be applied or used. The `λ` symbol
 is used instead of another symbol because of a typesetting issue that
 is discussed
 [here](http://www.users.waitrose.com/~hindley/SomePapers_PDFs/2006CarHin,HistlamRp.pdf). So,
-don't fret too much about, just use it.
+don’t fret too much about, just use it.
 
 What comes next after the `λ` symbol, before the `.`, is the
 parameter. Technically, it can be any symbol. It simply means the name
@@ -128,10 +126,10 @@ sandwiched between `λ` and `.`. However, in the function:
 The parameter `y` is a variable that is said to be free, because it
 does not live between `λ` and `.`.
 
-### Function Application
+### Function application
 
 To use a function, you must apply it to something. The bound variables
-are substituted with what they're applied to — a process called
+are substituted with what they’re applied to — a process called
 β-reduction.
 
 For example:
@@ -141,14 +139,14 @@ For example:
 y
 ```
 
-Let's break it down:
+Let’s break it down:
 
 1. Apply `(λx.x)` to `y`:
 2. Consume the arguments, then substitute all instances `x` in the
    body, with `y`.
 
-"Wait, it merely returned the argument y." you may say. That is
-true. The function `(λx.x)` is the identity function — it is a
+“Wait, it merely returned the argument y.” you may say. That is
+true. The function `(λx.x)` is the identity function — it is a
 single-parameter function that returns whatever is was applied to.
 
 Functions are not limited to be applied to symbols. They can also be
@@ -162,7 +160,7 @@ applied to other functions:
 In the example above, the identify function is applied to an identity
 function, returning an identity function.
 
-Here's another application involving free variables:
+Here’s another application involving free variables:
 
 ```
 (λa.ab)(λy.y)
@@ -208,7 +206,7 @@ is equivalent to:
 ```
 
 
-## Let's Count!
+## Let’s count!
 
 ### Start
 
@@ -220,14 +218,14 @@ number in lambda calculus is zero (0), which is expressed as:
 (λsz.z)
 ```
 
-For convenience purposes, let's label that expression as `0`, with the
-`≡` symbol read as "is identical to".
+For convenience purposes, let’s label that expression as `0`, with the
+`≡` symbol read as “is identical to”.
 
 ```
 0 ≡ (λsz.z)
 ```
 
-Building from `0`, let's enumerate the first three counting numbers:
+Building from `0`, let’s enumerate the first three counting numbers:
 
 ```
 1 ≡ (λsz.s(z))
@@ -245,8 +243,8 @@ successor function is:
 S ≡ (λxyz.y(xyz))
 ```
 
-Let's try that to `0` (in the examples below, the `=` symbol is read
-as "is reduced to"):
+Let’s try that to `0` (in the examples below, the `=` symbol is read
+as “is reduced to”):
 
 ```
 S0
@@ -257,7 +255,7 @@ S0
 ≡ 1
 ```
 
-Let's break it down:
+Let’s break it down:
 
 1. Determine the successor (S) of zero (0).
 2. Spell out the equivalent functional notation.
@@ -283,7 +281,7 @@ Outputs: c
 Usage: xAy
 ```
 
-Let's test it out:
+Let’s test it out:
 
 ```
 2+3 ≡ 2A3
@@ -298,7 +296,7 @@ Let's test it out:
 ≡ 5
 ```
 
-Let's break it down:
+Let’s break it down:
 
 0. State the problem.
 1. Spell out the equivalent functional notations for `2`, `S`,
@@ -328,7 +326,7 @@ Unlike with addition which uses infix syntax, multiplying two numbers
 follow a prefix syntax. So, to multiply `2` and `3`, you say
 `M23`.
 
-Let's test that out:
+Let’s test that out:
 
 ```
 2*3 ≡ M23
@@ -342,11 +340,11 @@ Let's test that out:
 
 Multiplying numbers in lambda calculus is pretty simple and
 straightforward. But, before you continue to more arithmetic functions,
-let's tackle first truth values and conditionals, which is a
+let’s tackle first truth values and conditionals, which is a
 prerequisite in learning the other functions.
 
 
-## Truth, Falsity, and Friends
+## Truth, falsity, and friends
 
 ### Booleans
 
@@ -365,7 +363,7 @@ Tab ≡ (λxy.x)ab = a
 Fab ≡ (λxy.y)ab = b
 ```
 
-### Logical Operations
+### Logical operations
 
 The three basic operators, And, Or, and Not:
 
@@ -375,7 +373,7 @@ The three basic operators, And, Or, and Not:
 ¬ ≡ λx.x(λuv.v)(λab.a) ≡ λx.xFT
 ```
 
-Let's see if `¬T` is indeed `F`:
+Let’s see if `¬T` is indeed `F`:
 
 ```
 ¬T
@@ -387,17 +385,17 @@ Let's see if `¬T` is indeed `F`:
 ```
 
 
-## Let's Count, Backwards!
+## Let’s count, backwards!
 
 ### Predecessor
 
 The predecessor of a number is defined as the preceding number
 determined when counting backwards. The reason why the discussion on
-the predecessor function is being done separately is that it isn't
+the predecessor function is being done separately is that it isn’t
 intuitively easy to determine at first, and that knowledge about other
 functions is important in understanding it.
 
-Let's say you have a pair, something like (y, x), wherein the first
+Let’s say you have a pair, something like (y, x), wherein the first
 element is one step above, or the successor the second element. Since
 the first element is the successor, that means the second element is
 the predecessor. Visually:
@@ -418,7 +416,7 @@ the successor of `x`.
 So, to determine the predecessor of a number `x`, you create a pair
 like above, then select the second element.
 
-Let's define some basic units. A pair looks like:
+Let’s define some basic units. A pair looks like:
 
 ```
 (λz.zab)
@@ -449,7 +447,7 @@ Outputs: (S(a), b)
 Usage: Q(a,b)
 ```
 
-Let's test that out:
+Let’s test that out:
 
 ```
 Q(λz.z00)
@@ -469,7 +467,7 @@ Outputs: N-1
 Usage: PN
 ```
 
-Let's test that out:
+Let’s test that out:
 
 ```
 P1
@@ -497,7 +495,7 @@ subtraction function.
 B ≡ (λxy.yPx)
 ```
 
-Let's test that out:
+Let’s test that out:
 
 ```
 B11
@@ -512,9 +510,9 @@ B11
 
 ## Conclusion
 
-You've just scratched the surface of lambda calculus, but you have
+You’ve just scratched the surface of lambda calculus, but you have
 just witnessed its immense expressive power, considering how minimal
-the system is defined. In our next article, we'll demystify even more
+the system is defined. In our next article, we’ll demystify even more
 lambda calculus magic. Stay tuned!
 
 ## References
