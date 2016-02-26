@@ -1,10 +1,10 @@
 The Y Combinator in Six Easy Steps
-======================================================================
+==================================
 
 <center>May 9, 2013</center>
 
 A lot of us have been taught that to be able to define a recursive
-procedure, the recursive invocation must "use" the name of the
+procedure, the recursive invocation must “use” the name of the
 recursive procedure. The
 [Y combinator](http://en.wikipedia.org/wiki/Fixed-point_combinator#Y_combinator)
 , however, lets you perform recursion, without referring to the named
@@ -13,7 +13,7 @@ identifier.
 The Y combinator has been both a source of inspiration and frustration
 for many. It evokes a eureka-like sensation once you get past the
 wall, but it also renders us scratching your heads when it just
-doesn't make sense to traverse the labyrinth. This post aims to bring
+doesn’t make sense to traverse the labyrinth. This post aims to bring
 my own approach on how to derive the Y combinator. It may not be the
 most elegant way, but it may work for you.
 
@@ -23,7 +23,7 @@ symbol for your Scheme implementation.
 
 ## Step 1
 
-Let's start by defining a procedure named `sum0` that computes the
+Let’s start by defining a procedure named `sum0` that computes the
 [summation](http://en.wikipedia.org/wiki/Summation) of a positive
 integer, down to zero. In the following snippet, the recursive call
 happens when `sum0` is applied in the else part of the condition.
@@ -39,13 +39,13 @@ happens when `sum0` is applied in the else part of the condition.
 ```
 
 You have have observed that I have defined `sum0` using an explicit
-`lambda`. You'll see shortly, why.
+`lambda`. You’ll see shortly, why.
 
 
 ## Step 2
 
-Let's break that procedure further, into more elementary components,
-and you'll apply it, using
+Let’s break that procedure further, into more elementary components,
+and you’ll apply it, using
 [currying](https://en.wikipedia.org/wiki/Currying).
 
 ```scheme
@@ -60,7 +60,7 @@ and you'll apply it, using
 ```
 
 The extra `lambda` was needed because you needed to have a way to
-"anonymize" the recursive procedure. In this case, you used the
+“anonymize” the recursive procedure. In this case, you used the
 identifier `f` to bind to the recursive procedure, which is `sum0`,
 itself. The weird-looking `((f f) ...)` is needed, because you have to
 perform the same procedure invocation method used initially: `((sum0 sum0) 100)`.
@@ -68,7 +68,7 @@ perform the same procedure invocation method used initially: `((sum0 sum0) 100)`
 
 ## Step 3
 
-You're now going to exploit that property, to use a "nameless"
+You’re now going to exploit that property, to use a “nameless”
 approach, that is, without using the `sum0` name.
 
 ```scheme
@@ -86,7 +86,7 @@ approach, that is, without using the `sum0` name.
 5050
 ```
 
-Take note, that at this point, you're no longer using the `sum0` name,
+Take note, that at this point, you’re no longer using the `sum0` name,
 to refer the the definition, except for later.
 
 
@@ -120,7 +120,7 @@ During the procedure application, the identifier `p` will be bound to
 
 ## Step 5
 
-Next, you're going to isolate the Y combinator, from the `sum0`
+Next, you’re going to isolate the Y combinator, from the `sum0`
 procedure.
 
 ```scheme

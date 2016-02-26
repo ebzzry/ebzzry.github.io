@@ -1,5 +1,5 @@
 Emacs and Hacks (Part 2)
-======================================================================
+========================
 
 <center>June 12, 2015</center>
 
@@ -39,8 +39,8 @@ my snippet:
 ## Savehist
 
 Another important functionality that I use is savehist. It saves the
-minibuffer history. It's roughly similar to saving the command line
-history. Here's my snippet
+minibuffer history. It’s roughly similar to saving the command line
+history. Here’s my snippet
 
 ```lisp
 (savehist-mode t)
@@ -53,7 +53,7 @@ history. Here's my snippet
 
 No, that is not the name of the library. There are a lot of times,
 when I want to manually save the state of as much session information
-that I could save. I'd want to save the buffers, minibuffer history,
+that I could save. I’d want to save the buffers, minibuffer history,
 bookmarks, and comint mode histories. To do that, I have the
 following:
 
@@ -88,7 +88,7 @@ M-x save RET
 
 ### ELPA
 
-If you aren't using the package system yet, use it now. All you need
+If you aren’t using the package system yet, use it now. All you need
 to get started is the following:
 
 ```lisp
@@ -120,7 +120,7 @@ M-x pi RET package RET
 
 ### use-package
 
-This one is a real gem. It's like `require`, but on steroids. When
+This one is a real gem. It’s like `require`, but on steroids. When
 "requiring" a package, you have the option to specify to install that
 package, if it does not exist, yet. It also enables you to configure
 that package, in a unified expression. But unlike `require`,
@@ -137,7 +137,7 @@ You can then require it, on subsequent uses:
 (require 'use-package)
 ```
 
-To install `markdown-mode`, even if it doesn't exist yet,
+To install `markdown-mode`, even if it doesn’t exist yet,
 and configure its related options, after loading it, have:
 
 ```lisp
@@ -151,7 +151,7 @@ and configure its related options, after loading it, have:
 ```
 
 
-## Line Numbers
+## Line numbers
 
 I really like to have the line numbers displayed at the left
 margin. It gives me a rough idea how big the file is, and where am I
@@ -192,7 +192,7 @@ binds keys for `insert-date/long` and `insert-date/short`.
 
 ## Keys
 
-When your key bindings are not organized, it's not easy to
+When your key bindings are not organized, it’s not easy to
 find what key did you bind to what. Fortunately, you have `bind-key`,
 which comes as part of `use-package`.
 
@@ -205,10 +205,10 @@ An example would look like:
  ("C-j" . delete-indentation))
 ```
 
-## Newline Sans Indent
+## Newline sans indent
 
 This command creates a newline, then moves the cursor. It
-simulates a behavior wherein the new line doesn't indent.
+simulates a behavior wherein the new line doesn’t indent.
 
 ```lisp
 (defun newline-and-no-indent (&optional arg)
@@ -236,7 +236,7 @@ there is a mark, the region becomes filled.
 ## Pasting
 
 Emacs, by default, pastes (yanks) from the secondary, or clipboard
-selection. This command yanks from the primary selection — mouse
+selection. This command yanks from the primary selection — mouse
 highlights.
 
 ```lisp
@@ -246,13 +246,13 @@ highlights.
 ```
 
 
-## Cursor Movement
+## Cursor movement
 
 The command `move-to-window-line-top-bottom`, bound by default to
 <kbd>M-r</kbd> is great when you want to move the cursor from the
 center, top, and bottom position, relative to the window, similar to
-Vim's <kbd>H</kbd>, <kbd>M</kbd>, and <kbd>L</kbd> commands. However,
-it's not very efficient when specifically targetting areas of the
+Vim’s <kbd>H</kbd>, <kbd>M</kbd>, and <kbd>L</kbd> commands. However,
+it’s not very efficient when specifically targetting areas of the
 screen. The commands below position point, specifically to the top,
 center, and bottom window positions, respectively.
 
@@ -271,7 +271,7 @@ center, and bottom window positions, respectively.
 ```
 
 
-## Git Status in Dired
+## Git status in dired
 
 This small snippet gives visual indications of the status of
 git-managed files in a Dired buffer. Pressing <kbd>g</kbd> reloads the
@@ -286,7 +286,7 @@ buffer, then updates the status.
 ```
 
 
-## Key Bindings
+## Key bindings
 
 The key bindings for the commands above, are listed below:
 
