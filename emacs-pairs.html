@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html><head><title>Emacs and Pairs</title><meta charset="utf-8" /><meta content="width=device-width, initial-scale=1.0, user-scalable=yes" name="viewport" /><link href="static/ico/apple-touch-icon-57x57.png" rel="apple-touch-icon" sizes="57x57" /><link href="static/ico/apple-touch-icon-60x60.png" rel="apple-touch-icon" sizes="60x60" /><link href="static/ico/apple-touch-icon-72x72.png" rel="apple-touch-icon" sizes="72x72" /><link href="static/ico/apple-touch-icon-76x76.png" rel="apple-touch-icon" sizes="76x76" /><link href="static/ico/apple-touch-icon-114x114.png" rel="apple-touch-icon" sizes="114x114" /><link href="static/ico/apple-touch-icon-120x120.png" rel="apple-touch-icon" sizes="120x120" /><link href="static/ico/apple-touch-icon-144x144.png" rel="apple-touch-icon" sizes="144x144" /><link href="static/ico/apple-touch-icon-152x152.png" rel="apple-touch-icon" sizes="152x152" /><link href="static/ico/apple-touch-icon-180x180.png" rel="apple-touch-icon" sizes="180x180" /><link href="static/ico/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png" /><link href="static/ico/favicon-194x194.png" rel="icon" sizes="194x194" type="image/png" /><link href="static/ico/favicon-96x96.png" rel="icon" sizes="96x96" type="image/png" /><link href="static/ico/android-chrome-192x192.png" rel="icon" sizes="192x192" type="image/png" /><link href="static/ico/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png" /><link href="static/ico/manifest.json" rel="manifest" /><link href="static/ico/favicon.ico" rel="shortcut icon" /><meta content="#da532c" name="msapplication-TileColor" /><meta content="static/ico/mstile-144x144.png" name="msapplication-TileImage" /><meta content="static/ico/browserconfig.xml" name="msapplication-config" /><meta content="#ffffff" name="theme-color" /><link href="static/ico/glider.ico" rel="icon" type="image/x-icon" /><link href="static/css/main.css" media="all" rel="stylesheet" /><link href="static/css/ewan.css" media="all" rel="stylesheet" /><script src="static/js/highlight.pack.js"></script><script>hljs.initHighlightingOnLoad();</script></head><body><div id="content"><h1>Emacs and Pairs</h1><p><center>August 15, 2015</center></p><p>In this post, I'll exclusively talk about <i>smartparens</i> — a package that you wish you should have used, earlier, presuming you don't use it yet. If you're new to it, read along; if not, this may be a good refresher.</p><p><i>smartparens</i> is one of those packages that drastically improves, and changes how one uses Emacs. It's like having cybernetic limbs — it makes you jump higher, and punch harder.</p><p>Take note, though, that the name is a misnomer, as it not only handles parentheses. It handles just about anything that pairs, and it performs those functions stellarly.</p><h2>Installation</h2><p>Installing smartparens is straightforward:</p><pre><code>M-x package-install RET smartparens RET
-</code></pre><h2>Configuration</h2><p>Let's enable smartparens on startup, and hook it with some major hooks:</p><pre><code class="lisp">&#40;use-package smartparens-config
+<html><head><title>Emacs and Pairs</title><meta charset="utf-8" /><meta content="width=device-width, initial-scale=1.0, user-scalable=yes" name="viewport" /><link href="static/ico/apple-touch-icon-57x57.png" rel="apple-touch-icon" sizes="57x57" /><link href="static/ico/apple-touch-icon-60x60.png" rel="apple-touch-icon" sizes="60x60" /><link href="static/ico/apple-touch-icon-72x72.png" rel="apple-touch-icon" sizes="72x72" /><link href="static/ico/apple-touch-icon-76x76.png" rel="apple-touch-icon" sizes="76x76" /><link href="static/ico/apple-touch-icon-114x114.png" rel="apple-touch-icon" sizes="114x114" /><link href="static/ico/apple-touch-icon-120x120.png" rel="apple-touch-icon" sizes="120x120" /><link href="static/ico/apple-touch-icon-144x144.png" rel="apple-touch-icon" sizes="144x144" /><link href="static/ico/apple-touch-icon-152x152.png" rel="apple-touch-icon" sizes="152x152" /><link href="static/ico/apple-touch-icon-180x180.png" rel="apple-touch-icon" sizes="180x180" /><link href="static/ico/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png" /><link href="static/ico/favicon-194x194.png" rel="icon" sizes="194x194" type="image/png" /><link href="static/ico/favicon-96x96.png" rel="icon" sizes="96x96" type="image/png" /><link href="static/ico/android-chrome-192x192.png" rel="icon" sizes="192x192" type="image/png" /><link href="static/ico/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png" /><link href="static/ico/manifest.json" rel="manifest" /><link href="static/ico/favicon.ico" rel="shortcut icon" /><meta content="#da532c" name="msapplication-TileColor" /><meta content="static/ico/mstile-144x144.png" name="msapplication-TileImage" /><meta content="static/ico/browserconfig.xml" name="msapplication-config" /><meta content="#ffffff" name="theme-color" /><link href="static/ico/glider.ico" rel="icon" type="image/x-icon" /><link href="static/css/main.css" media="all" rel="stylesheet" /><link href="static/css/ewan.css" media="all" rel="stylesheet" /><script src="static/js/highlight.pack.js"></script><script>hljs.initHighlightingOnLoad();</script></head><body><div id="content"><h1>Emacs and Pairs</h1><p><center>August 15, 2015</center></p><p>In this post, I’ll exclusively talk about <i>smartparens</i> — a package that you wish you should have used, earlier, presuming you don’t use it yet. If you’re new to it, read along; if not, this may be a good refresher.</p><p><i>smartparens</i> is one of those packages that drastically improves, and changes how one uses Emacs. It’s like having cybernetic limbs — it makes you jump higher, and punch harder.</p><p>Take note, though, that the name is a misnomer, as it not only handles parentheses. It handles just about anything that pairs, and it performs those functions stellarly.</p><h2>Installation</h2><p>Installing smartparens is straightforward:</p><pre><code>M-x package-install RET smartparens RET
+</code></pre><h2>Configuration</h2><p>Let’s enable smartparens on startup, and hook it with some major hooks:</p><pre><code class="lisp">&#40;use-package smartparens-config
     :ensure smartparens
     :config
     &#40;progn
@@ -14,7 +14,7 @@
 </code></pre><p>the matching pair gets inserted, too, and point is positioned inside the pair:</p><pre><code class="clojure">
 &#40;defn foo &#91;&#93;&#41;
            ̅
-</code></pre><h3>Navigation</h3><h4>Starts and Ends</h4><p>If you have the expression:</p><pre><code class="clojure">
+</code></pre><h3>Navigation</h3><h4>Starts and ends</h4><p>If you have the expression:</p><pre><code class="clojure">
 &#40;let &#91;x &quot;foo bar baz ... blah&quot;&#93;&#41;
                          ̅
 </code></pre><p>and you want to move point to the start of the string:</p><pre><code class="clojure">
@@ -23,7 +23,7 @@
 </code></pre><p>Execute <code>sp-beginning-of-sexp</code>. I bound it to <kbd>C-M-a</kbd>.</p><p>Conversely, to move point to the end of the expression:</p><pre><code class="clojure">
 &#40;let &#91;x &quot;foo bar baz ... blah&quot;&#93;&#41;
                              ̅
-</code></pre><p>Execute <code>sp-end-of-sexp</code>. I bound it to <kbd>C-M-e</kbd>.</p><h4>Traversing Lists</h4><p>If you have the expression:</p><pre><code class="lisp">
+</code></pre><p>Execute <code>sp-end-of-sexp</code>. I bound it to <kbd>C-M-e</kbd>.</p><h4>Traversing lists</h4><p>If you have the expression:</p><pre><code class="lisp">
 &#40;defun format-date &#40;format&#41;
   &#40;let &#40;&#40;system-time-locale &quot;en&#95;US.UTF-8&quot;&#41;&#41;
     &#40;insert &#40;format-time-string format&#41;&#41;&#41;&#41; ̅
@@ -51,7 +51,7 @@
 </code></pre><p>and you want to move point to <strong>(format</strong>:</p><pre><code class="lisp">
 &#40;insert &#40;format-time-string format&#41;&#41;
         ̅
-</code></pre><p>Execute <code>sp-backward-up-sexp</code>. I bound it to <kbd>M-up</kbd>.</p><h4>Block Movements</h4><p>If you have the expression:</p><pre><code class="clojure">
+</code></pre><p>Execute <code>sp-backward-up-sexp</code>. I bound it to <kbd>M-up</kbd>.</p><h4>Block movements</h4><p>If you have the expression:</p><pre><code class="clojure">
 &#40;:require &#91;clojure.string :as s&#93;&#41;
           ̅
 </code></pre><p>and you want to move point after <strong>]</strong>:</p><pre><code class="clojure">
@@ -60,7 +60,7 @@
 </code></pre><p>Execute <code>sp-forward-sexp</code>. I bound it to <kbd>C-M-f</kbd></p><p>Conversely, to move it to <strong>[</strong>:</p><pre><code class="clojure">
 &#40;:require &#91;clojure.string :as s&#93;&#41;
           ̅
-</code></pre><p>Execute <code>sp-backward-sexp</code>. I bound it to <kbd>C-M-b</kbd>.</p><h4>Top-level-ish Traversal</h4><p>If you have the expression:</p><pre><code class="clojure">
+</code></pre><p>Execute <code>sp-backward-sexp</code>. I bound it to <kbd>C-M-b</kbd>.</p><h4>Top-level-ish traversal</h4><p>If you have the expression:</p><pre><code class="clojure">
 &#40;defn blah
   &quot;Returns blah of foo.&quot;
   &#91;foo&#93;                 ̅
@@ -78,7 +78,7 @@
   &#91;foo&#93;                 ̅
   &#41;
 
-</code></pre>Execute <code>sp-previous-sexp</code>. I bound it to <kbd>C-M-p</kbd>.<h4>Free-form Movements</h4><p>If you have the expression:</p><pre><code class="clojure">
+</code></pre>Execute <code>sp-previous-sexp</code>. I bound it to <kbd>C-M-p</kbd>.<h4>Free-form movements</h4><p>If you have the expression:</p><pre><code class="clojure">
 &#40;defn blah &#91;&#93; &#40;let &#91;x 0 y 1&#93; &#40;+ x 1&#41;&#41;&#41;
                ̅
 </code></pre><p>and you want to move point to <strong>blah</strong>:</p><pre><code class="clojure">
@@ -96,7 +96,7 @@ var mods = &quot;vars&quot;;
 </code></pre><p>and you want <strong>"vars"</strong> to be surrounded by <strong>[</strong>, and <strong>]</strong>:</p><pre><code class="javascript">
 var mods = &#91;&quot;vars&quot;&#93;;
             ̅
-</code></pre><p>Press <kbd>C-M-Space</kbd> followed by <kbd>[</kbd>, the whole region becomes surrounded by matching <strong>[</strong>, and <strong>]</strong>. It also applies to keys like <code>&#40;</code>, <code>{</code>, <code>&quot;</code>, <code>'</code>, <code>&#42;</code>, <code>&#95;</code>, etc, depending on the mode that you're using.</p><p>Alternatively, define wrapping functions:</p><pre><code class="lisp">&#40;defmacro def-pairs &#40;pairs&#41;
+</code></pre><p>Press <kbd>C-M-Space</kbd> followed by <kbd>[</kbd>, the whole region becomes surrounded by matching <strong>[</strong>, and <strong>]</strong>. It also applies to keys like <code>&#40;</code>, <code>{</code>, <code>&quot;</code>, <code>'</code>, <code>&#42;</code>, <code>&#95;</code>, etc, depending on the mode that you’re using.</p><p>Alternatively, define wrapping functions:</p><pre><code class="lisp">&#40;defmacro def-pairs &#40;pairs&#41;
   `&#40;progn
      ,@&#40;loop for &#40;key . val&#41; in pairs
           collect
@@ -120,7 +120,7 @@ var mods = &#91;&quot;vars&quot;&#93;;
 </code></pre><p>and you want to surround <strong>args</strong> with <strong>[<strong> and </strong>]</strong>:</p><pre><code class="clojure">
 &#40;defn foo &#91;args&#93; &#40;let &#91;x 0&#93; &#40;inc x&#41;&#41;&#41;
            ̅
-</code></pre><p>Press <kbd>C-c [</kbd>.</p><p>Sometimes, we inadvertently delete one of the pair characters — this results in an unbalanced expression. smartparens prevents us from doing that. If you hit <kbd>Backspace</kbd> in this expression:</p><pre><code class="javascript">
+</code></pre><p>Press <kbd>C-c [</kbd>.</p><p>Sometimes, we inadvertently delete one of the pair characters — this results in an unbalanced expression. smartparens prevents us from doing that. If you hit <kbd>Backspace</kbd> in this expression:</p><pre><code class="javascript">
 var mods = &#91;&quot;vars&quot;&#93;;
             ̅
 </code></pre><p>Nothing will happen. smartparens saves us a lot of trouble, here.</p><h4>Unwrapping</h4><p>If you have the expression:</p><pre><code class="clojure">
@@ -132,7 +132,7 @@ foo &#40;bar x y z&#41;
 </code></pre><p>Execute <code>sp-backward-unwrap-sexp</code>. I bound it to <kbd>M-[</kbd></p><p>Conversely, if you want to unwrap the <strong>bar</strong> expression, removing the parentheses around <strong>bar</strong>:</p><pre><code class="clojure">
 &#40;foo bar x y z&#41;
      ̅
-</code></pre><p>Execute <code>sp-unwrap-sexp</code>. I bound it to <kbd>M-]</kbd>.</p><h4>Slurp and Barf</h4><p>If you have the expression:</p><pre><code class="clojure">
+</code></pre><p>Execute <code>sp-unwrap-sexp</code>. I bound it to <kbd>M-]</kbd>.</p><h4>Slurp and barf</h4><p>If you have the expression:</p><pre><code class="clojure">
 &#91;foo bar&#93; baz
         ̅
 </code></pre><p>and you want <strong>baz</strong> to be part of <strong>foo</strong> and <strong>bar</strong>:</p><pre><code class="clojure">

@@ -1,15 +1,15 @@
 Emacs and Pairs
-======================================================================
+===============
 
 <center>August 15, 2015</center>
 
-In this post, I'll exclusively talk about _smartparens_ — a package
-that you wish you should have used, earlier, presuming you don't use
-it yet. If you're new to it, read along; if not, this may be a good
+In this post, I’ll exclusively talk about _smartparens_ — a package
+that you wish you should have used, earlier, presuming you don’t use
+it yet. If you’re new to it, read along; if not, this may be a good
 refresher.
 
 _smartparens_ is one of those packages that drastically improves, and
-changes how one uses Emacs. It's like having cybernetic limbs — it
+changes how one uses Emacs. It’s like having cybernetic limbs — it
 makes you jump higher, and punch harder.
 
 Take note, though, that the name is a misnomer, as it not only handles
@@ -28,7 +28,7 @@ M-x package-install RET smartparens RET
 
 ## Configuration
 
-Let's enable smartparens on startup, and hook it with some major
+Let’s enable smartparens on startup, and hook it with some major
 hooks:
 
 ```lisp
@@ -72,7 +72,7 @@ the pair:
 
 ### Navigation
 
-#### Starts and Ends
+#### Starts and ends
 
 If you have the expression:
 
@@ -102,7 +102,7 @@ Conversely, to move point to the end of the expression:
 
 Execute `sp-end-of-sexp`. I bound it to <kbd>C-M-e</kbd>.
 
-#### Traversing Lists
+#### Traversing lists
 
 If you have the expression:
 
@@ -182,7 +182,7 @@ and you want to move point to **(format**:
 Execute `sp-backward-up-sexp`. I bound it to <kbd>M-up</kbd>.
 
 
-#### Block Movements
+#### Block movements
 
 If you have the expression:
 
@@ -213,7 +213,7 @@ Conversely, to move it to **[**:
 Execute `sp-backward-sexp`. I bound it to <kbd>C-M-b</kbd>.
 
 
-#### Top-level-ish Traversal
+#### Top-level-ish traversal
 
 If you have the expression:
 
@@ -252,7 +252,7 @@ Conversely, to move it back:
 Execute `sp-previous-sexp`. I bound it to <kbd>C-M-p</kbd>.
 
 
-#### Free-form Movements
+#### Free-form movements
 
 If you have the expression:
 
@@ -321,7 +321,7 @@ whole region becomes surrounded by matching **[**,
 and
 **]**.
 It also applies to keys like `(`, `{`, `"`, `'`, `*`, `_`, etc,
-depending on the mode that you're using.
+depending on the mode that you’re using.
 
 Alternatively, define wrapping functions:
 
@@ -365,7 +365,7 @@ and you want to surround **args** with **[** and **]**:
 
 Press <kbd>C-c [</kbd>.
 
-Sometimes, we inadvertently delete one of the pair characters — this
+Sometimes, we inadvertently delete one of the pair characters — this
 results in an unbalanced expression. smartparens prevents us from
 doing that. If you hit <kbd>Backspace</kbd> in this expression:
 
@@ -411,7 +411,7 @@ parentheses around **bar**:
 Execute `sp-unwrap-sexp`. I bound it to <kbd>M-]</kbd>.
 
 
-#### Slurp and Barf
+#### Slurp and barf
 
 If you have the expression:
 

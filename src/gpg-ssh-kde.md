@@ -1,5 +1,5 @@
 Setting Up GPG and SSH in KDE
-======================================================================
+=============================
 
 <center>September 17, 2014</center>
 
@@ -8,7 +8,7 @@ inter-operating with those systems very easy. It will make the
 difference between a loose-fitting glove, and one that fits snugly.
 
 This quick tutorial will go over the steps on how to go about it. To
-accommodate everyone, I'll still go about how to install and configure
+accommodate everyone, I’ll still go about how to install and configure
 all the necessary components.
 
 ## Prerequisites
@@ -35,7 +35,7 @@ $ sudo dnf install gnupg openssh pinentry
 
 ## Configure SSH
 
-Now that you have the parts in front of you, it's time to assemble
+Now that you have the parts in front of you, it’s time to assemble
 them. The first thing that you need to do (although in reality the
 files that you are going to open in this section can be done in any
 order that you wish), is create your SSH keys:
@@ -73,7 +73,7 @@ $ gpg2 --gen-key
 
 If you want to generate "better" passwords, use the
 [Diceware method](http://world.std.com/~reinhold/diceware.html). An
-[XKCD comic](https://xkcd.com/936/) was drawn in case you're
+[XKCD comic](https://xkcd.com/936/) was drawn in case you’re
 wondering what it is.
 
 The next thing to do is edit the main GPG config file:
@@ -161,7 +161,7 @@ $ chmod +x ~/.kde/shutdown/01_gpg-agent.sh
 ## Verification
 
 Unfortunately, you have to restart your KDE session for these settings
-to take effect. If you know a method that doesn't require restarting the session, please let me know.
+to take effect. If you know a method that doesn’t require restarting the session, please let me know.
 
 Press <kbd>Ctrl+Alt+Del</kbd> to logout, then login with your account.
 
