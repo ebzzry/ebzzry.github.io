@@ -15,10 +15,10 @@
   &#40;interactive&#41;
   &#40;if &#40;eq &#40;desktop-owner&#41; &#40;emacs-pid&#41;&#41;
       &#40;desktop-save desktop-dirname&#41;&#41;&#41;
-</code></pre><h2>Savehist</h2><p>Another important functionality that I use is savehist. It saves the minibuffer history. It's roughly similar to saving the command line history. Here's my snippet</p><pre><code class="lisp">&#40;savehist-mode t&#41;
+</code></pre><h2>Savehist</h2><p>Another important functionality that I use is savehist. It saves the minibuffer history. It’s roughly similar to saving the command line history. Here’s my snippet</p><pre><code class="lisp">&#40;savehist-mode t&#41;
 
 &#40;setq savehist-file &quot;&#126;/.emacs.d/savehist&quot;&#41;
-</code></pre><h2>Consolidation</h2><p>No, that is not the name of the library. There are a lot of times, when I want to manually save the state of as much session information that I could save. I'd want to save the buffers, minibuffer history, bookmarks, and comint mode histories. To do that, I have the following:</p><pre><code class="lisp">&#40;defun save-defaults &#40;&#41;
+</code></pre><h2>Consolidation</h2><p>No, that is not the name of the library. There are a lot of times, when I want to manually save the state of as much session information that I could save. I’d want to save the buffers, minibuffer history, bookmarks, and comint mode histories. To do that, I have the following:</p><pre><code class="lisp">&#40;defun save-defaults &#40;&#41;
   &#40;desktop-save desktop-dirname&#41;
   &#40;savehist-save&#41;
   &#40;bookmark-save&#41;&#41;
@@ -37,7 +37,7 @@
   &#40;save-defaults&#41;
   &#40;save-histories&#41;&#41;
 </code></pre><p>This gives you a nice:</p><pre><code>M-x save RET
-</code></pre><h2>Packages</h2><h3>ELPA</h3><p>If you aren't using the package system yet, use it now. All you need to get started is the following:</p><pre><code class="lisp">&#40;require 'package&#41;
+</code></pre><h2>Packages</h2><h3>ELPA</h3><p>If you aren’t using the package system yet, use it now. All you need to get started is the following:</p><pre><code class="lisp">&#40;require 'package&#41;
 
 &#40;setq package-archives
       '&#40;&#40;&quot;gnu&quot; . &quot;http://elpa.gnu.org/packages/&quot;&#41;
@@ -50,16 +50,16 @@
 &#40;defalias 'pl 'package-list-packages&#41;
 </code></pre><p>To list all the available packages, hit:</p><pre><code>M-x pl RET
 </code></pre><p>If you know the name of package, hit:</p><pre><code>M-x pi RET package RET
-</code></pre><h3>use-package</h3><p>This one is a real gem. It's like <code>require</code>, but on steroids. When "requiring" a package, you have the option to specify to install that package, if it does not exist, yet. It also enables you to configure that package, in a unified expression. But unlike <code>require</code>, <code>use-package</code> does not come built-in with Emacs. You need to install it via <code>package-install</code>:</p><pre><code>M-x pi RET use-package RET
+</code></pre><h3>use-package</h3><p>This one is a real gem. It’s like <code>require</code>, but on steroids. When "requiring" a package, you have the option to specify to install that package, if it does not exist, yet. It also enables you to configure that package, in a unified expression. But unlike <code>require</code>, <code>use-package</code> does not come built-in with Emacs. You need to install it via <code>package-install</code>:</p><pre><code>M-x pi RET use-package RET
 </code></pre><p>You can then require it, on subsequent uses:</p><pre><code class="lisp">&#40;require 'use-package&#41;
-</code></pre><p>To install <code>markdown-mode</code>, even if it doesn't exist yet, and configure its related options, after loading it, have:</p><pre><code class="lisp">&#40;use-package markdown-mode
+</code></pre><p>To install <code>markdown-mode</code>, even if it doesn’t exist yet, and configure its related options, after loading it, have:</p><pre><code class="lisp">&#40;use-package markdown-mode
     :ensure t
     :config
     &#40;progn
       &#40;push '&#40;&quot;\\.text\\'&quot; . markdown-mode&#41; auto-mode-alist&#41;
       &#40;push '&#40;&quot;\\.markdown\\'&quot; . markdown-mode&#41; auto-mode-alist&#41;
       &#40;push '&#40;&quot;\\.md\\'&quot; . markdown-mode&#41; auto-mode-alist&#41;&#41;&#41;
-</code></pre><h2>Line Numbers</h2><p>I really like to have the line numbers displayed at the left margin. It gives me a rough idea how big the file is, and where am I currently. Turning on <code>linum-mode</code> achieves it:</p><pre><code class="lisp">&#40;setq linum-format &quot;%4d&quot;&#41;
+</code></pre><h2>Line numbers</h2><p>I really like to have the line numbers displayed at the left margin. It gives me a rough idea how big the file is, and where am I currently. Turning on <code>linum-mode</code> achieves it:</p><pre><code class="lisp">&#40;setq linum-format &quot;%4d&quot;&#41;
 
 &#40;defun my-linum-mode-hook &#40;&#41;
   &#40;linum-mode t&#41;&#41;
@@ -76,11 +76,11 @@
 &#40;defun insert-date-and-time &#40;&#41;
   &#40;interactive&#41;
   &#40;format-date &quot;%Y-%m-%d %H:%M:%S&quot;&#41;&#41;
-</code></pre><p>The code above sets the correct value for <code>system-time-locale</code>, and binds keys for <code>insert-date/long</code> and <code>insert-date/short</code>.</p><h2>Keys</h2><p>When your key bindings are not organized, it's not easy to find what key did you bind to what. Fortunately, you have <code>bind-key</code>, which comes as part of <code>use-package</code>.</p><p>An example would look like:</p><pre><code class="lisp">&#40;bind-keys
+</code></pre><p>The code above sets the correct value for <code>system-time-locale</code>, and binds keys for <code>insert-date/long</code> and <code>insert-date/short</code>.</p><h2>Keys</h2><p>When your key bindings are not organized, it’s not easy to find what key did you bind to what. Fortunately, you have <code>bind-key</code>, which comes as part of <code>use-package</code>.</p><p>An example would look like:</p><pre><code class="lisp">&#40;bind-keys
  :map global-map
  &#40;&quot;C-;&quot; . eval-expression&#41;
  &#40;&quot;C-j&quot; . delete-indentation&#41;&#41;
-</code></pre><h2>Newline Sans Indent</h2><p>This command creates a newline, then moves the cursor. It simulates a behavior wherein the new line doesn't indent.</p><pre><code class="lisp">&#40;defun newline-and-no-indent &#40;&amp;optional arg&#41;
+</code></pre><h2>Newline sans indent</h2><p>This command creates a newline, then moves the cursor. It simulates a behavior wherein the new line doesn’t indent.</p><pre><code class="lisp">&#40;defun newline-and-no-indent &#40;&amp;optional arg&#41;
   &#40;interactive &quot;p&quot;&#41;
   &#40;open-line arg&#41;
   &#40;next-line arg&#41;&#41;
@@ -89,10 +89,10 @@
   &#40;if &#40;region-active-p&#41;
       &#40;fill-region&#41;
       &#40;fill-paragraph&#41;&#41;&#41;
-</code></pre><h2>Pasting</h2><p>Emacs, by default, pastes (yanks) from the secondary, or clipboard selection. This command yanks from the primary selection — mouse highlights.</p><pre><code class="lisp">&#40;defun yank-primary &#40;&#41;
+</code></pre><h2>Pasting</h2><p>Emacs, by default, pastes (yanks) from the secondary, or clipboard selection. This command yanks from the primary selection — mouse highlights.</p><pre><code class="lisp">&#40;defun yank-primary &#40;&#41;
   &#40;interactive&#41;
   &#40;insert-for-yank &#40;x-get-selection 'PRIMARY&#41;&#41;&#41;
-</code></pre><h2>Cursor Movement</h2><p>The command <code>move-to-window-line-top-bottom</code>, bound by default to <kbd>M-r</kbd> is great when you want to move the cursor from the center, top, and bottom position, relative to the window, similar to Vim's <kbd>H</kbd>, <kbd>M</kbd>, and <kbd>L</kbd> commands. However, it's not very efficient when specifically targetting areas of the screen. The commands below position point, specifically to the top, center, and bottom window positions, respectively.</p><pre><code class="lisp">&#40;defun move-to-window-line-top &#40;&#41;
+</code></pre><h2>Cursor movement</h2><p>The command <code>move-to-window-line-top-bottom</code>, bound by default to <kbd>M-r</kbd> is great when you want to move the cursor from the center, top, and bottom position, relative to the window, similar to Vim’s <kbd>H</kbd>, <kbd>M</kbd>, and <kbd>L</kbd> commands. However, it’s not very efficient when specifically targetting areas of the screen. The commands below position point, specifically to the top, center, and bottom window positions, respectively.</p><pre><code class="lisp">&#40;defun move-to-window-line-top &#40;&#41;
   &#40;interactive&#41;
   &#40;move-to-window-line 0&#41;&#41;
 
@@ -103,12 +103,12 @@
 &#40;defun move-to-window-line-bottom &#40;&#41;
   &#40;interactive&#41;
   &#40;move-to-window-line -1&#41;&#41;
-</code></pre><h2>Git Status in Dired</h2><p>This small snippet gives visual indications of the status of git-managed files in a Dired buffer. Pressing <kbd>g</kbd> reloads the buffer, then updates the status.</p><pre><code class="lisp">&#40;use-package dired-k
+</code></pre><h2>Git status in dired</h2><p>This small snippet gives visual indications of the status of git-managed files in a Dired buffer. Pressing <kbd>g</kbd> reloads the buffer, then updates the status.</p><pre><code class="lisp">&#40;use-package dired-k
     :ensure t
     :config
   &#40;progn
     &#40;add-hook 'dired-initial-position-hook 'dired-k&#41;&#41;&#41;
-</code></pre><h2>Key Bindings</h2><p>The key bindings for the commands above, are listed below:</p><pre><code class="lisp">&#40;bind-keys
+</code></pre><h2>Key bindings</h2><p>The key bindings for the commands above, are listed below:</p><pre><code class="lisp">&#40;bind-keys
  :map global-map
  &#40;&quot;C-c d&quot;   . insert-date&#41;
  &#40;&quot;C-c C-d&quot; . insert-date-and-time&#41;

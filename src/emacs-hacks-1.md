@@ -1,5 +1,5 @@
 Emacs and Hacks (Part 1)
-======================================================================
+========================
 
 <center>September 9, 2013</center>
 
@@ -107,7 +107,7 @@ times, marks multiple lines.
   (forward-line arg))
 ```
 
-## Key Bindings
+## Key bindings
 
 The key bindings for the commands above, are listed below:
 
@@ -126,5 +126,5 @@ The key bindings for the commands above, are listed below:
 
 ## Conclusion
 
-I hope you'll be able to find use of any of them. The rest of the
+I hope you’ll be able to find use of any of them. The rest of the
 configuration can be found at <https://github.com/ebzzry/dotemacs>.

@@ -1,12 +1,12 @@
 Virtualizing with KVM
-======================================================================
+=====================
 
 <center>June 15, 2015</center>
 
 Most of you are familiar with
 [full virtualization](https://en.wikipedia.org/wiki/Full_virtualization)
 solutions before like VMware Workstation, VirtualBox, and
-Parallels. In this post, I'll re-introduce you to another, arguably
+Parallels. In this post, I’ll re-introduce you to another, arguably
 faster, way of doing things.
 
 ## Preparation
@@ -16,7 +16,7 @@ faster, way of doing things.
 One of the first things that you need to do is to enable
 [Hardware-assisted virtualization](https://en.wikipedia.org/wiki/Hardware-assisted_virtualization),
 also called accelerated virtualization, in your hardware. If your CPU
-was made before 2006, chances are, this feature won't be present on
+was made before 2006, chances are, this feature won’t be present on
 your chip. Also, take note that this step is not compulsory to make
 use of the virtualization solution described in this post, but it will
 _significantly_ speed things up. To enable accelerated virtualization,
@@ -30,7 +30,7 @@ recognizes it.
 $ egrep '(vmx|svm)' /proc/cpuinfo
 ```
 
-If it returns some text, then you're good.
+If it returns some text, then you’re good.
 
 ### Software
 
@@ -51,15 +51,15 @@ $ sudo apt-get install qemu-kvm vde2 spice-client
 This will install the [QEMU](http://wiki.qemu.org/) (pronounced as
 kee-moo) hypervisor, [VDE](http://vde.sourceforge.net/) tools, and
 [SPICE](http://www.spice-space.org/) support. QEMU, at least during
-its early days had the _meh_ impression — it is OK, but not
+its early days had the _meh_ impression — it is OK, but not
 stellar. Since version 0.10.1, QEMU started supporting
 [KVM](http://www.linux-kvm.org/), a virtualization subsystem for
 Linux, that provides near-native virtualization performance using
 hardware-assisted virtualization. It even rivals the performance of
 the virtualization solutions mentioned above.
 
-Other suites offer the option of connecting to the guest machine's
-display via VNC. The problem is that, it's slow and clunky. The
+Other suites offer the option of connecting to the guest machine’s
+display via VNC. The problem is that, it’s slow and clunky. The
 response time is just horrible. Using the
 [SPICE](http://www.spice-space.org/) protocol, not only does it makes
 things faster, but it makes other things possible. Take note that
@@ -83,25 +83,25 @@ QCOW2 with:
 $ qemu-img convert -f vdi -O qcow2 vm.vdi vm.qcow2
 ```
 
-However, if you don't have an image, yet, you can create one with:
+However, if you don’t have an image, yet, you can create one with:
 
 ```bash
 $ qemu-img create -f qcow2 vm.qcow2 20G
 ```
 
 The last step creates a 20GB image, that is named `vm.qcow2`. Take
-note that the extension name doesn't really matter — you can name
-your image as `index.html`, but that wouldn't make a lot of sense,
+note that the extension name doesn’t really matter — you can name
+your image as `index.html`, but that wouldn’t make a lot of sense,
 right? :)
 
 ### Networking
 
 QEMU [supports](http://wiki.qemu.org/Documentation/Networking) several
-ways of setting up networking for its guest, but for this post you're
+ways of setting up networking for its guest, but for this post you’re
 going to use VDE.
 
 You need to run several commands to prep the networking
-environment. Ideally, you'd want to save these in a shell function, or
+environment. Ideally, you’d want to save these in a shell function, or
 a shell script:
 
 ```bash
@@ -129,7 +129,7 @@ You now need to invoke `qemu-kvm`, the command that will launch
 everything up. The name of the command may differ with the one
 installed on your system.
 
-If you're installing an OS from a bootable image, usually an ISO file,
+If you’re installing an OS from a bootable image, usually an ISO file,
 run:
 
 ```bash
@@ -149,7 +149,7 @@ $ sudo qemu-kvm -cpu host -m 2G -net nic,model=virtio \
 vm.qcow2
 ```
 
-Let's break that down:
+Let’s break that down:
 
 ```
 -cpu host
@@ -194,11 +194,11 @@ Boot initially from `installer.iso`, then on subsequent boots, boot in
 the normal order.
 
 Running the _qemu-kvm_ command above will load the image, but you
-won't be able to view the display, yet.
+won’t be able to view the display, yet.
 
 ### Connect to the SPICE display
 
-To be able to use the guest machine's display, you need to connect to
+To be able to use the guest machine’s display, you need to connect to
 the SPICE server, using the SPICE client `spicec`:
 
 ```bash
@@ -234,7 +234,7 @@ _DNS_
 8.8.4.4
 ```
 
-## Closing the Curtains
+## Closing the curtains
 
 ### Restore networking
 
@@ -260,9 +260,9 @@ The above commands will:
 5. Kill the VDE process.
 6. Remove control files.
 
-## Putting it All
+## Putting it all
 
-Here's all of the code above, compiled functions, that can be run from
+Here’s all of the code above, compiled functions, that can be run from
 the command-line:
 
 ```
@@ -311,7 +311,7 @@ $ kvm vm.qcow32
 
 ## Conclusion
 
-QEMU supports a myriad of cool options that we've not even discussed
+QEMU supports a myriad of cool options that we’ve not even discussed
 here, including saving and loading states (snapshots), creating screen
 and audio grabs, and a whole lot more. To learn more about them, click
 [here](http://wiki.qemu-project.org/Main_Page).

@@ -1,5 +1,5 @@
 Over, Under, and Elsewhere
-======================================================================
+==========================
 
 <center>May 9, 2013</center>
 
@@ -22,7 +22,7 @@ It is very disturbing that we unjustifiably position ourselves to
 unfailingly accept words just because we have been told to assimilate
 them. We believe that they are truths without making the slightest
 advance towards ensuring that what you just heard is infallible. It is
-also disconcerting that for many, if not most, that they'd rather take
+also disconcerting that for many, if not most, that they’d rather take
 what they have been told, as is, rather than be criticized for raising
 their hand to ask what could possibly be dubious claims. When we say
 yes, without giving the slightest amount of thought, we have
@@ -43,7 +43,7 @@ can no longer even begin to contain. But alas, what we have in our
 individual brains is still not enough to house our ever-growing house
 of knowledge. We needed to find a way to record them outside our
 bodies, stored somewhere where data retrieval is one of its most
-critical operations — we wrote and created records. We began by
+critical operations — we wrote and created records. We began by
 writing on stones, walls, and anything that would hopefully persist to
 contain what it must, across generations of readers. We have built
 colossal libraries, with gargantuan collections of books. With it, we

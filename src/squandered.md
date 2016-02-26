@@ -1,5 +1,5 @@
 Squandered Relentlessness
-======================================================================
+=========================
 
 <center>May 9, 2013</center>
 
@@ -34,7 +34,7 @@ making the advancement on a prey. We are so romantically in love, with
 fervor, on the seeking of rationale to our unjustifiable excuses, but
 we equally seek sound reason. It is even more appalling to see that
 some of us insidiously advertise illusions of grandeur, with claims of
-full reprising sensations of the bounty's meat. Our personal biases
+full reprising sensations of the bounty’s meat. Our personal biases
 towards reaching the reward, effectively stops us from actually
 reaching it. We succumb to the remorseless claims of others, on their
 failure, effectively rendering us ignorant of the unseen reality. When
@@ -55,7 +55,7 @@ things previously untaught to us. We have the willful disregard for
 danger and authority. We do not care how about the scratches and
 bruises that we get, as long as we satisfy our wild and insatiable
 taste for discovery. When fueled by curiosity, we discover yet another
-realm of possibilities -- we find ourselves immersed in dimensions
+realm of possibilities — we find ourselves immersed in dimensions
 never before heard or seen, and no matter how much dirt and mud we
 lather up to our bodies, we did not care. All that mattered to us was
 to have fun in walking the unending journey of discovery. And yet, we
@@ -64,10 +64,10 @@ learned.
 It is ironic that just when we think we are already old enough to
 venture the world unaided by our training wheels, we smother ourselves
 with mediocre goals of pseudo-discovery. When the curtain is unveiled,
-we are confronted by an unsettling sight -- we have lost the drive
+we are confronted by an unsettling sight — we have lost the drive
 that once propelled us to have insights. We grew afraid to exercise
 the same techniques and principles we had once as children. We stopped
-ourselves from making curious inquisitions about what's out there. We
+ourselves from making curious inquisitions about what’s out there. We
 have made ourselves feel comfortable with what is served on the
 institutionalized plates, without the slightest attempt to bolster up
 to devise questions. The society, which we are all part of, is part of

@@ -1,5 +1,5 @@
-A Brief Git & GitHub Tour
-======================================================================
+A Brief Git and GitHub Tour
+===========================
 
 <center>August 29, 2015</center>
 
@@ -16,9 +16,9 @@ short introduction to _vi_ is located at
 
 ## Basics
 
-### Initial Use
+### Initial use
 
-To make things easier later on, you'll need to create a `.gitignore`
+To make things easier later on, you’ll need to create a `.gitignore`
 file. The .gitignore file specifiles files that will be excluded
 from the repository. Some of these are binary files, and error
 messages that are generated during compilation.
@@ -52,9 +52,9 @@ Then, commit the changes:
     $ git commit -m "Initial commit."
 
 
-### Subsequent Uses
+### Subsequent uses
 
-This section describes the basic commands that you're going to use,
+This section describes the basic commands that you’re going to use,
 when you already have a repository.
 
 Create a branch that will hold your changes:
@@ -85,7 +85,7 @@ To display the list of commit messages, with the diffs:
 
     $ git log -p
 
-When you've tested your changes to be stable, switch to the `master`
+When you’ve tested your changes to be stable, switch to the `master`
 branch:
 
     $ git checkout master
@@ -99,9 +99,9 @@ After that, you may delete the experimental branch:
     $ git branch -d experimental
 
 
-## Working Online
+## Working online
 
-This section describes how to work with other developers. You're going
+This section describes how to work with other developers. You’re going
 to use [GitHub](https://github.com) in this discussion.
 
 ### Generate your SSH keys
@@ -126,7 +126,7 @@ Go to <https://github.com/settings/ssh>, then click **Add SSH key**
 Paste the key, then follow through.
 
 
-### Creating a Repository
+### Creating a repository
 
 In your repositories page, create a new repository by clicking
 **New**:
@@ -134,19 +134,19 @@ In your repositories page, create a new repository by clicking
 ![New](images/new-repository.png)
 
 Follow through the prompts. When you have filled in the required
-fields, you'll get a string of commands. Replace `shoryuken` and
+fields, you’ll get a string of commands. Replace `shoryuken` and
 `foobar` with your GitHub username, and the name of the repository
 that you have created, respectively:
 
     $ git remote add origin git@github.com:shoryuken/foobar.git
     $ git push -u origin master
 
-You'll be prompted to supply the passphrase you have entered
+You’ll be prompted to supply the passphrase you have entered
 above. The `git push` command uploads the contents of your repository
 to the remote repository.
 
 
-### Updating your Repository
+### Updating your repository
 
 When you have made further changes to the repository, you may push
 your changes with the command:
@@ -156,7 +156,7 @@ your changes with the command:
 
 ### Participation
 
-If you want to contribute to a project, you'll need to work on a copy
+If you want to contribute to a project, you’ll need to work on a copy
 of that repository, then push changes to your own fork.
 
 First, fork the project. Go to the project that you want to fork, then
@@ -182,18 +182,18 @@ repository.
 
 When you want to make changes to the code, create a separate branch.
 Use a branch name that is descriptive of the changes that you want to
-make. This name can be changed later. In this example, we'll create a
+make. This name can be changed later. In this example, we’ll create a
 branch named `new-options`:
 
     $ git checkout -b new-options
 
-You may now make changes to the files in this branch. When you've
+You may now make changes to the files in this branch. When you’ve
 committed your changes, push the changes to your fork:
 
     $ git push origin new-options
 
 If you want the source repository to merge your changes, create a
-_Pull Request_ by going to the source repository's page, then click
+_Pull Request_ by going to the source repository’s page, then click
 **Pull requests**:
 
 ![Pull Requests](images/pull-requests.png)
@@ -218,7 +218,7 @@ above. Click **Create pull request**:
 then, follow through.
 
 
-### Synchronizing with Upstream
+### Synchronizing with upstream
 
 To synchronize the upstream branch with the source repository, pull
 changes from the upstream remote:
@@ -230,7 +230,7 @@ Then push to your own repository:
     $ git push origin master
 
 
-## Pulling Changes
+## Pulling changes
 
 If you are the owner of the source repository, and you want to pull in
 changes from contributors, click **Pull requests** from the repository
@@ -241,7 +241,7 @@ page:
 then, follow through.
 
 
-## Merging with Upstream
+## Merging with upstream
 
 If you are a contributor, and your changes have been pulled in the
 source repository, synchronize your upstream branch:
@@ -254,7 +254,7 @@ created earlier:
     $ git branch -d new-options
 
 
-## Closing Remarks
+## Closing remarks
 
 The workflow described in this document is only one of the many usable
 workflows that one can use. This document serves as an introduction

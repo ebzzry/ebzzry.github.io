@@ -1,22 +1,22 @@
 An Introduction to Ugarit
-======================================================================
+=========================
 
 <center>February 21, 2014</center>
 <center>Updated: February 21, 2016</center>
 
 How many times have you experienced hindsight, after a catastrophic
 event has happened? how many times have you told yourself that had you
-created backups of your precious data, you wouldn't be in that dire
+created backups of your precious data, you wouldn’t be in that dire
 situation, pulling your hair out, like a rabid maniac?
 
-Most of us have been there — we lost our precious files due
+Most of us have been there — we lost our precious files due
 inadvertent causes. We lost them because of disk crash, data
 corruption, security breach, and other reasons. But had we created a
-fallback, a big, safe foam that we can land on, it wouldn't have been
+fallback, a big, safe foam that we can land on, it wouldn’t have been
 a lot of trouble, and heart ache. On the flip side, creating and
 managing backups can be daunting, and equally dangerous.
 
-In this post, I'll talk about
+In this post, I’ll talk about
 [Ugarit](http://www.kitten-technologies.co.uk/project/ugarit/doc/trunk/README.wiki)
 , a nice piece of technology, that combines ease-of-use, and security,
 in a single tool.
@@ -27,7 +27,7 @@ in a single tool.
 Ugarit is a classic example of a tool, that requires minimal setup and
 configuration, but is used many times. That, once the initial
 tinkering is done, all you need to do is reuse the tool. But that
-isn't Ugarit's main strength — it is the almost unholy marriage, of
+isn’t Ugarit’s main strength — it is the almost unholy marriage, of
 convenience and security.
 
 Most, if not all the time, convenience is inversely proportional to
@@ -47,10 +47,10 @@ likely, it can be installed via your package manager:
 $ sudo apt-get install chicken-bin
 ```
 
-If it isn't available on your system, you may download it from
+If it isn’t available on your system, you may download it from
 [code.call-cc.org](http://code.call-cc.org/)
 
-After Chicken is installed, let's install Ugarit itself, and its
+After Chicken is installed, let’s install Ugarit itself, and its
 dependencies:
 
 ```bash
@@ -66,7 +66,7 @@ $ ugarit -h
 
 ### Nix
 
-If you're using Nix, just run the following command:
+If you’re using Nix, just run the following command:
 
 ```
 $ nix-env -iA ugarit
@@ -75,12 +75,12 @@ $ nix-env -iA ugarit
 
 ## Configuration
 
-Ugarit at this point isn't usable yet — you need to specify where
+Ugarit at this point isn’t usable yet — you need to specify where
 should it store the snapshots. When creating a snapshot of a directory
 several terabytes big, it is ideal to store the data on a fast,
 reliable, stress-tolerant disk. It is not uncommon for the command
 `ls` to experience a noticeable lag when ran inside the data
-directory. Let's presume that `/dev/sdb1` is a large filesystem and
+directory. Let’s presume that `/dev/sdb1` is a large filesystem and
 you want to mount it to `/ugarit/`.
 
 ```bash
@@ -95,7 +95,7 @@ the required command line arguments. It is important to note, that
 this file does not reside in a fixed location, in contrast with some
 programs that look for a config file at start-up, from `~/`. But
 before you actually create that file, you need to run some
-commands. Save the outputs of these commands, because you'll be needing
+commands. Save the outputs of these commands, because you’ll be needing
 them later:
 
 Create a salt, for the hash function:
@@ -110,8 +110,8 @@ Create a key, for the vault:
 $ dd if=/dev/random bs=32 count=1 2>/dev/null | od -An -tx1 | tr -d ' \t\n'
 ```
 
-After you run those commands, you'll create the config file,
-`ugarit.conf`. To make it consistent with the example above, you'll
+After you run those commands, you’ll create the config file,
+`ugarit.conf`. To make it consistent with the example above, you’ll
 store it inside `/ugarit`:
 
 ```bash
@@ -136,9 +136,9 @@ $ chmod 600 /ugarit/ugarit.conf
 ```
 
 
-## Basic Usage
+## Basic usage
 
-### Creating Snapshots
+### Creating snapshots
 
 To create a snapshot, run:
 
@@ -155,7 +155,7 @@ snapshot of. To create, for example, a snapshot of the directory
 $ ugarit snapshot /ugarit/ugarit.conf pix pictures
 ```
 
-After the snapshot, you'll see something similar to the following:
+After the snapshot, you’ll see something similar to the following:
 
 ```bash
 Archiving pictures to tag pix...
@@ -181,8 +181,8 @@ To list the available commands:
 > help
 ```
 
-Taking hints from the help usage, you'll extract a directory, that was
-part of the snapshot earlier. Let's say that the original path of that
+Taking hints from the help usage, you’ll extract a directory, that was
+part of the snapshot earlier. Let’s say that the original path of that
 directory was `pictures/holiday`. So, to extract the directory
 `holiday/` to the current directory, run:
 
@@ -207,7 +207,7 @@ $ ugarit extract /ugarit/ugarit.conf /pix/current/contents/holiday
 
 ## Tips
 
-### Remote Filesystems
+### Remote filesystems
 
 Ugarit is not limited to creating snapshots of a local filesystem. It
 can also be used to create snapshots of trees, from a remote host,
@@ -248,7 +248,7 @@ $ ugarit snapshot -:a256 /ugarit/ugarit.conf ...
 
 ## Notes
 
-When you are doubtful of the performance of the disk where you'll be
+When you are doubtful of the performance of the disk where you’ll be
 storing the snapshots, disable the
 [locate and updatedb](http://linux.about.com/library/cmd/blcmdl1_updatedb.htm)
 service. It is usually run periodically via cron. It places a lot of

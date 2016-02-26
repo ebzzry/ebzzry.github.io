@@ -17,8 +17,8 @@ to inspire myself, and others.
   dirty garment, rather than with glitter and gold.<br>
 
 
-* When you don't give your best, and unfavorable results come out,
-  you'll wonder what would have happened had you done your finest. If,
+* When you don’t give your best, and unfavorable results come out,
+  you’ll wonder what would have happened had you done your finest. If,
   however, you gave your ace, then serene tranquility will fill the
   void, and not a single sliver of doubt will permeate your soul.<br>
 
@@ -54,7 +54,7 @@ to inspire myself, and others.
   very soul of these livid disenchantments.<br>
 
 
-* It doesn't really matter if we keep failing; what matters is that we
+* It doesn’t really matter if we keep failing; what matters is that we
   keep trying.<br>
 
 
@@ -63,12 +63,12 @@ to inspire myself, and others.
   to stay, then we should have the strength and courage to tame them.<br>
 
 
-* If your ship doesn't come to you, swim to it; if you can't swim,
+* If your ship doesn’t come to you, swim to it; if you can’t swim,
   have the ship towed to you.<br>
 
 
 * Smile, even in the face of adversary, for that will also be the time
-  that you'll embrace victory.<br>
+  that you’ll embrace victory.<br>
 
 
 * If we want to create the future, focus on the moment rather than the
@@ -91,7 +91,7 @@ to inspire myself, and others.
 * Defer to use what you will use to defer.<br>
 
 
-* If you're going to find excuses, don't find an excuse not to do
+* If you’re going to find excuses, don’t find an excuse not to do
   it. Instead, find an excuse to do it.<br>
 
 
