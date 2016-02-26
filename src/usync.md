@@ -1,5 +1,5 @@
 An Introduction to Usync
-======================================================================
+========================
 
 <center>May 21, 2013</center>
 
@@ -13,18 +13,18 @@ synchronizations, respectively.
 
 Site-to-site synchronizations are usually needed, when two locations,
 which are called sites, in this article, make file updates
-independently. Let's say the company _Foo_ has two offices. In the
+independently. Let’s say the company _Foo_ has two offices. In the
 first office, they have the accounting, and logistics departments. In
 the second office, they have the IT, and HR departments. Both have a
 common `/pub` tree, that has subdirectories assigned to each
 department. Without synchronization, when the first office needs
-information from the second office, they'd have to pull the updates,
+information from the second office, they’d have to pull the updates,
 manually. With synchronization, the first office can access the files
 from the second office, as if the IT and HR departments, were in the
 first office. Usync helps to achieve this.
 
 
-## Basic Usage
+## Basic usage
 
 To perform two-way synchronization of the directory `/pub/yot/ninam`,
 between the current host, to the hosts `tarupam`, and `taubetmo`,
@@ -51,7 +51,7 @@ Ideally, the result is that `localhost:/pub/yot/ninam/`,
 equal.
 
 
-## Advanced Usage
+## Advanced usage
 
 It is also possible to perform synchronization of multiple files, and
 directories, to remote hosts. To do so, run:

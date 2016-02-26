@@ -1,5 +1,5 @@
 An Introduction to Livefrog
-======================================================================
+===========================
 
 <center>May 29, 2013</center>
 
@@ -21,14 +21,14 @@ written in Racket, too. It uses the files dumped by either
 
 ## Installation
 
-livefrog is available via Racket's
+livefrog is available via Racket’s
 [Planet2](http://pkg.racket-lang.org):
 
 ```bash
 $ raco pkg install livefrog
 ```
 
-If that doesn't work, you can alternately install by fetching livefrog, and the
+If that doesn’t work, you can alternately install by fetching livefrog, and the
 dependencies, from github
 
 ```bash
@@ -56,8 +56,8 @@ To create a Markdown file from the file entry.xml
 $ raco livefrog -m entry.xml
 ```
 
-That, however, becomes cumbersome if you're going to manage more than
-a hundred entries. To automatically "pick up" the files created by
+That, however, becomes cumbersome if you’re going to manage more than
+a hundred entries. To automatically “pick up” the files created by
 ljdump or ljmigrate, and convert them to Markdown.
 
 ```bash
@@ -117,7 +117,7 @@ to your Frog source directory, designated at `_src/posts/`
 
 Frog, by default, uses [Disqus](http://disqus.com) to handle the
 comments. To import comments to this platform, you need to generate an
-XML file that must adhere to Disqus' comment import rules.
+XML file that must adhere to Disqus’s comment import rules.
 
 To create a file, named `comments.xml` that will be used for importing
 comments, to be used with <http://import.disqus.com>, using

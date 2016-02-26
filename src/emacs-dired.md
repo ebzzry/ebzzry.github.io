@@ -1,9 +1,9 @@
 Emacs and Dired
-======================================================================
+===============
 
 <center>September 26, 2013</center>
 
-In this post, I'll be focusing on one of the novel ways Emacs handles
+In this post, I’ll be focusing on one of the novel ways Emacs handles
 "directory editing". The directory editor, or _Dired_ (pronounced
 dir-ed, not die-rd), for short, is the Emacs equivalent of a file
 manager. Whatever you can do with regular file buffers, you can also
@@ -97,7 +97,7 @@ operations in the previous section, on them.
 ## Other commands
 
 These commands act on their own. They operate on single items, and
-they don't make use of marks. The <kbd>w</kbd> command, however, is an
+they don’t make use of marks. The <kbd>w</kbd> command, however, is an
 exception.
 
 ```
