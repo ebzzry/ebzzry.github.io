@@ -16,6 +16,7 @@ EN Enter
 SP Space
 PS PrintScr
 KE KP&#95;Enter
+KP Keypad
 </code></pre><h2>Before</h2><p>When using Dvorak emulation, the following is how the keys are mapped:</p><pre><code>Original Software Dvorak
 
 ES F1 F2 F3 F4 F5 F6 F7 F8 F9 F10 F11 F12 PS SL PB
@@ -62,18 +63,14 @@ lCT -&gt; `&#126;
 lAL -&gt; \|
 rCT -&gt; &#93;}
 rAL -&gt; &#91;{
-
--&#95; -&gt; lCT
-ES -&gt; lAL
-=+ -&gt; rCT
-&#93;} -&gt; rAL
-
+-&#95;  -&gt; lCT
+=+  -&gt; rCT
+&#93;}  -&gt; rAL
 `&#126;  -&gt; =+
 r\| -&gt; -&#95;
 &#91;{  -&gt; l\|
 
-Keypad, Insert, Keypad, ES
-Keypad, KP&#95;Enter, Keypad, lAL
-</code></pre><p>The <code>KP&#95;Enter</code> (KE) key was moved to <code>Left Alt</code> (lAL) so that I can easily use it as a Compose (Multi) key in X. My <code>&#126;/.Xmodmap</code> contains the following:</p><pre><code>!! KP&#95;Enter
-keycode 104 = Multi&#95;key
+KP, Insert, KP   -&gt;  ES
+KP, KP&#95;Enter, KP -&gt; lAL
+</code></pre><p>The <code>KP&#95;Enter</code> (KE) key was moved to <code>Left Alt</code> (lAL) so that I can easily use it as a Compose (Multi) key in X. My <code>&#126;/.Xmodmap</code> contains the following:</p><pre><code>keycode 104 = Multi&#95;key
 </code></pre><hr/><div style="text-align: right; float: right; max-width: 16em;"><p><div style="font-size: small"> <a href='index.html'>Home</a> · <a href='about.html'>About</a> · <a href='quotes.html'>Quotes</a> · <a href='words.html'>Words</a> · <a href='https://github.com/ebzzry/ebzzry.github.io'>Source</a> </div> <div style="font-size: x-small"> Site created with <a href='https://github.com/ebzzry/emem'>emem</a> </div></p><p><div style="font-size: x-small"> <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work by <a xmlns:cc="http://creativecommons.org/ns#" href="https://ebzzry.github.io" property="cc:attributionName" rel="cc:attributionURL">Rommel M. Martinez</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>. </div></p><p></div></p></div></body></html>
