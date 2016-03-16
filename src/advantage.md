@@ -45,6 +45,7 @@ EN Enter
 SP Space
 PS PrintScr
 KE KP_Enter
+KP Keypad
 ```
 
 
@@ -143,18 +144,15 @@ lCT -> `~
 lAL -> \|
 rCT -> ]}
 rAL -> [{
-
--_ -> lCT
-ES -> lAL
-=+ -> rCT
-]} -> rAL
-
+-_  -> lCT
+=+  -> rCT
+]}  -> rAL
 `~  -> =+
 r\| -> -_
 [{  -> l\|
 
-Keypad, Insert, Keypad, ES
-Keypad, KP_Enter, Keypad, lAL
+KP, Insert, KP   ->  ES
+KP, KP_Enter, KP -> lAL
 ```
 
 The `KP_Enter` (KE) key was moved to `Left Alt` (lAL) so that I can
@@ -162,6 +160,5 @@ easily use it as a Compose (Multi) key in X. My `~/.Xmodmap` contains
 the following:
 
 ```
-!! KP_Enter
 keycode 104 = Multi_key
 ```
