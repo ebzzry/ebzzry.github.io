@@ -8,6 +8,7 @@ title="Westerlund 2"/></a>
 
 <div style="text-align: right">A blog about computing, predilections, and pseudorandom stuff.</div>
 
+* [Verb Tenses in English](verb-tenses.html) [(concise version)](verb-tenses-concise.html)
 * [A Better Advantage Layout](advantage.html)
 * [A Brief Git and GitHub Tour](git-github.html)
 * [Emacs and Pairs](emacs-pairs.html)

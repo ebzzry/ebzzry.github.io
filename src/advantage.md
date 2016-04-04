@@ -89,8 +89,8 @@ SH ;: qQ jJ kK xX   bB mM wW vV zZ SH
    CT AL UP DN         LE RI AL CT
 
             [{ KE   =+ ]}
-         BS DE PU   HO EN SP
-               PD   ED
+         BS DE PU   PD EN SP
+               HO   ED
 ```
 
 I used <kbd>Insert</kbd> in lieu of <kbd>Esc</kbd>, so that I can
@@ -135,10 +135,10 @@ RI -> DN
 UP -> LE
 DN -> RI
 
-HO -> PU
+HO -> ED
 ED -> PD
 PU -> HO
-PD -> ED
+PD -> PU
 
 lCT -> `~
 lAL -> \|
@@ -151,7 +151,7 @@ rAL -> [{
 r\| -> -_
 [{  -> l\|
 
-KP, Insert, KP   ->  ES
+KP, Insert, KP ->  ES
 KP, KP_Enter, KP -> lAL
 ```
 

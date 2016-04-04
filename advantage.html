@@ -39,8 +39,8 @@ SH ;: qQ jJ kK xX   bB mM wW vV zZ SH
    CT AL UP DN         LE RI AL CT
 
             &#91;{ KE   =+ &#93;}
-         BS DE PU   HO EN SP
-               PD   ED
+         BS DE PU   PD EN SP
+               HO   ED
 </code></pre><p>I used <kbd>Insert</kbd> in lieu of <kbd>Esc</kbd>, so that I can easily access the <code>XA&#95;PRIMARY</code> selection using <kbd>Shift + Insert</kbd>. The <code>XA&#95;PRIMARY</code> selection is where your mouse highlights go. It also makes it easy to enter Emacs’s <code>overwrite-mode</code>. The <kbd>Insert</kbd> key, however, is buried in the key physically marked with <code>|</code>, on the left side. The sequence to access it is listed at end of this post.</p><p>The new location of <kbd>Ctrl</kbd> and <kbd>Alt</kbd> makes it easy for the fingers to reach them. I swapped the location of <kbd>Up</kbd> and <kbd>Down</kbd> with <kbd>Left</kbd> and <kbd>Right</kbd>. I wanted to be able to scroll through a webpage without having to use my right hand with the mouse wheel. The same applies with <kbd>Page Up</kbd> and <kbd>Page Down</kbd>.</p><p>One of my favorites is the new location of the <kbd>[</kbd> and <kbd>]</kbd> keys. I also like the new location of the <kbd>Esc</kbd> key — this allows me to easily hit the Esc key when using vi, or closing dialog boxes.</p><h2>Setup</h2><p>The full mapping sequence follows. The <code>l</code> and <code>r</code> prefixes below signifies the left and right versions of the keys, respectively. The <code>-&gt;</code> is read as “to”. For example, <code>PU -&gt; HO</code> is read as “Assign PageUp to Home”.</p><pre><code>Progrm + Shift + F10
 Progrm + \
 Progrm + -
@@ -54,10 +54,10 @@ RI -&gt; DN
 UP -&gt; LE
 DN -&gt; RI
 
-HO -&gt; PU
+HO -&gt; ED
 ED -&gt; PD
 PU -&gt; HO
-PD -&gt; ED
+PD -&gt; PU
 
 lCT -&gt; `&#126;
 lAL -&gt; \|
@@ -70,7 +70,7 @@ rAL -&gt; &#91;{
 r\| -&gt; -&#95;
 &#91;{  -&gt; l\|
 
-KP, Insert, KP   -&gt;  ES
+KP, Insert, KP -&gt;  ES
 KP, KP&#95;Enter, KP -&gt; lAL
 </code></pre><p>The <code>KP&#95;Enter</code> (KE) key was moved to <code>Left Alt</code> (lAL) so that I can easily use it as a Compose (Multi) key in X. My <code>&#126;/.Xmodmap</code> contains the following:</p><pre><code>keycode 104 = Multi&#95;key
 </code></pre><hr/><div style="text-align: right; float: right; max-width: 16em;"><p><div style="font-size: small"> <a href='index.html'>Home</a> · <a href='about.html'>About</a> · <a href='quotes.html'>Quotes</a> · <a href='words.html'>Words</a> · <a href='https://github.com/ebzzry/ebzzry.github.io'>Source</a> </div> <div style="font-size: x-small"> Site created with <a href='https://github.com/ebzzry/emem'>emem</a> </div></p><p><div style="font-size: x-small"> <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work by <a xmlns:cc="http://creativecommons.org/ns#" href="https://ebzzry.github.io" property="cc:attributionName" rel="cc:attributionURL">Rommel M. Martinez</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>. </div></p><p></div></p></div></body></html>
