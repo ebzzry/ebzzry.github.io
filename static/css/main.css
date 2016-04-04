@@ -1,7 +1,7 @@
 html {
     color: #333;
     font-size: 1em;
-    font-family: Georgia, Cambria, Baskerville, "Times New Roman", Times, serif;
+    font-family: Georgia, Cambria, Palatino, "Palatino Linotype", "Times New Roman", Times, serif;
     line-height: 1.45;
     text-align: left:
     width: 100%;
@@ -60,7 +60,7 @@ kbd {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans", Tahoma, Geneva, Helvetica, Arial, sans-serif;
     margin-bottom: 0;
 }
 
