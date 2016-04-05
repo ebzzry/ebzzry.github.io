@@ -2,7 +2,7 @@ A Better Advantage Layout
 =========================
 
 <center>October, 26 2015</center>
-<center>February 21, 2016</center>
+<center>Updated: April 5, 2016</center>
 
 <img src="images/advantage.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="Advantage" title="Advantage"/>
 
@@ -28,45 +28,25 @@ users of software like Emacs, and shells like Zsh and Bash.
 In this post, we’ll use the following legend:
 
 ```
-ES Escape
-TA Tab
-CL Caps lock
-SL Scroll lock
-SH Shift
-CT Ctrl
-AL Alt
-BS Backspace
-DE Delete
-HO Home
-ED End
-PU PageUp
-PD PageDown
-EN Enter
-SP Space
-PS PrintScr
-KE KP_Enter
-KP Keypad
+ES    Escape                       HO    Home
+TA    Tab                          ED    End
+CL    Caps Lock                    PU    Page Up
+SL    Scroll Lock                  PD    Page Down
+SH    Shift                        EN    Enter
+lCT   Left Ctrl                    SP    Space
+rCT   Right Ctrl                   DE    Delete
+lAL   Left Alt                     PS    PrintScr
+rAL   Right Alt                    KE    Keypad Enter
+BS    Backspace                    KP    Keypad
 ```
-
 
 ## Before
 
 When using Dvorak emulation, the following is how the keys are mapped:
 
-```
-Original Software Dvorak
+### Original Software Dvorak
 
-ES F1 F2 F3 F4 F5 F6 F7 F8 F9 F10 F11 F12 PS SL PB
-]} 1! 2@ 3# 4$ 5%   6^ 7& 8* 9( 0) [{
-TA '" ,< .> pP yY   fF gG cC rR lL \|
-CL aA oO eE uU iI   dD hH tT nN sS -_
-SH ;: qQ jJ kK xX   bB mM wW vV zZ SH
-   `~ <> LE RI         UP DO /? =+
-
-            CT AL   AL CT
-         BS DE HO   PU EN SP
-               ED   PD
-```
+<a href="images/advantage-dvorak-1.png"><img src="images/advantage-dvorak-1.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="Original Software Dvorak" title="Original Software Dvorak"/></a>
 
 Horrible.
 
@@ -77,21 +57,9 @@ Using that layout on Emacs, or shell, is painful to the hands, especially on pro
 
 I remapped some of the keys, to fit my workflow. The new layout is as follows. The mapping is initiated by pressing <kbd>Progrm + F12</kbd>. Please check with the manual for other remapping-related information.
 
+### Remapped Software Dvorak
 
-```
-Remapped Software Dvorak
-
-IN F1 F2 F3 F4 F5 F6 F7 F8 F9 F10 F11 F12 PS CL PB
-`~ 1! 2@ 3# 4$ 5%   6^ 7& 8* 9( 0) \|
-TA '" ,< .> pP yY   fF gG cC rR lL /?
-ES aA oO eE uU iI   dD hH tT nN sS -_
-SH ;: qQ jJ kK xX   bB mM wW vV zZ SH
-   CT AL UP DN         LE RI AL CT
-
-            [{ KE   =+ ]}
-         BS DE PU   PD EN SP
-               HO   ED
-```
+<a href="images/advantage-dvorak-2.png"><img src="images/advantage-dvorak-2.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="Remapped Software Dvorak" title="Remapped Software Dvorak"/></a>
 
 I used <kbd>Insert</kbd> in lieu of <kbd>Esc</kbd>, so that I can
 easily access the `XA_PRIMARY` selection using <kbd>Shift +
