@@ -1,6 +1,8 @@
 Verb Tenses
 ===========
 
+*Click [here](verb-tenses-concise.html) for the concise version.*
+
 To read, write, and speak better English, learning the qualities and
 peculiarities between the different verb tenses is important. Knowing
 how and when to use them will enable you have a better appreciation of

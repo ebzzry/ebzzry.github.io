@@ -1,5 +1,5 @@
-A Better Advantage Layout
-=========================
+An Alternative Advantage Layout
+===============================
 
 <center>October, 26 2015</center>
 <center>Updated: April 5, 2016</center>
