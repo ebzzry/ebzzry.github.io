@@ -5,8 +5,8 @@ Verb Tenses
 
 To read, write, and speak better English, learning the qualities and
 peculiarities between the different verb tenses is important. Knowing
-how and when to use them will enable you have a better appreciation of
-not only English, but also linguistics in general.
+how to and when to use them will enable you have a better appreciation
+of not only English, but also linguistics in general.
 
 
 Simple
@@ -58,9 +58,9 @@ The present perfect tense shows action that happened in the past, or
 that began in the past and still continues to the present. This tense
 is like a combination of past and present tenses.
 
-> Maria __have created__ many beautiful paintings.
+> Maria __has created__ many beautiful paintings.
 
-*Maria created painting paintings, and she has already stopped, or she still paints to this day.*
+*Maria created paintings, and she has already stopped, or she still paints to this day.*
 
 ### Future
 
