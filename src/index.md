@@ -6,7 +6,7 @@ src="images/banner.jpg" style="display: block; width: 100%;
 margin-left: auto; margin-right: auto;" alt="Westerlund 2"
 title="Westerlund 2"/></a>
 
-<div style="text-align: right">A blog about computing, predilections, and pseudorandom stuff.</div>
+<div style="text-align: right">A journal about computing, predilections, and pseudorandom stuff.</div>
 <div style="text-align: right; font-size: small">Items that are marked with star (✱) contain recent updates.</div>
 
 * [Verb Tenses in English](verb-tenses.html)
