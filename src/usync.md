@@ -32,7 +32,7 @@ while preserving the directory structure remotely (take note, that
 there must be no spaces between the hosts specification, due to the
 `IFS` environment variable, found in most shells):
 
-```bash
+```
 $ usync /pub/yot/ninam/ tarupam,taubetmo
 ```
 
@@ -56,7 +56,7 @@ equal.
 It is also possible to perform synchronization of multiple files, and
 directories, to remote hosts. To do so, run:
 
-```bash
+```
 $ usync /pub/yot/ninam/ ~/file.text ~reyn/*.blend tarupam,taubetmo
 ```
 
@@ -68,21 +68,13 @@ structuring system described above.
 If you want to perform one-way synchronization, of the above, like
 _rsync_, run:
 
-```bash
+```
 $ usync --one-way --prefer-local /pub/yot/ninam/ \
 ~/file.text ~reyn/draft.blend tarupam,taubetmo
 ```
 
 For more usage information, run:
 
-```bash
+```
 $ usync --help
 ```
-
-## Caveats
-
-The sources, along with additional information, are located at
-<https://github.com/ebzzry/usync>.
-
-This program has been used on FreeBSD, hence making the shebang
-line contain `/usr/local/bin/scsh`. Please adjust it, accordingly.
