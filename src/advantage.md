@@ -24,8 +24,7 @@ default layout of the keys, however, turns me off. The <kbd>Ctrl</kbd>
 and <kbd>Alt</kbd> keys are too far to reach. This is important for
 users of software like Emacs, and shells like Zsh and Bash.
 
-
-In this post, we’ll use the following legend:
+Throughout this post, we will be using the following legend:
 
 ```
 ES    Escape                       HO    Home
@@ -38,6 +37,7 @@ rCT   Right Ctrl                   DE    Delete
 lAL   Left Alt                     PS    PrintScr
 rAL   Right Alt                    KE    Keypad Enter
 BS    Backspace                    KP    Keypad
+IN    Insert                       PR    Progrm
 ```
 
 ## Before
@@ -48,14 +48,21 @@ When using Dvorak emulation, the following is how the keys are mapped:
 
 <a href="images/advantage-dvorak-1.png"><img src="images/advantage-dvorak-1.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="Original Software Dvorak" title="Original Software Dvorak"/></a>
 
-Horrible.
-
-Using that layout on Emacs, or shell, is painful to the hands, especially on prolonged periods. To press <kbd>M-x</kbd>, one would have to press the <kbd>Alt</kbd> key with the right thumb, then the <kbd>x</kbd> key with the left index finger. Reaching out for the <kbd>Esc</kbd> keys isn’t a lot of fun, either, because the current model of the Advantage have that squishy rubber button in place, which sometimes registers as a double press.
+Yuck. Using this layout on Emacs, or shell, is painful to the hands,
+especially on prolonged periods. To press <kbd>M-x</kbd>, one would
+have to press the <kbd>Alt</kbd> key with the right thumb, then the
+<kbd>x</kbd> key with the left index finger. Reaching out for the
+<kbd>Esc</kbd> keys isn’t a lot of fun, either, because the current
+model of the Advantage have that squishy rubber button in place, which
+sometimes registers as a double press.
 
 
 ## After
 
-I remapped some of the keys, to fit my workflow. The new layout is as follows. The mapping is initiated by pressing <kbd>Progrm + F12</kbd>. Please check with the manual for other remapping-related information.
+I remapped some of the keys, to fit my workflow. The new layout is as
+follows. The mapping is initiated by pressing <kbd>PR +F12</kbd>.
+Please check with the manual for other remapping-related
+information.
 
 ### Remapped Software Dvorak
 
@@ -73,54 +80,55 @@ The new location of <kbd>Ctrl</kbd> and <kbd>Alt</kbd> makes it easy
 for the fingers to reach them. I swapped the location of <kbd>Up</kbd>
 and <kbd>Down</kbd> with <kbd>Left</kbd> and <kbd>Right</kbd>. I
 wanted to be able to scroll through a webpage without having to use my
-right hand with the mouse wheel. The same applies with <kbd>Page
-Up</kbd> and <kbd>Page Down</kbd>.
+right hand with the mouse wheel. <kbd>Page Up</kbd> and <kbd>Page
+Down</kbd> were also moved to enable equal load distribution for two
+hands.
 
 One of my favorites is the new location of the
 <kbd>[</kbd> and <kbd>]</kbd> keys. I also like the new location of
-the <kbd>Esc</kbd> key — this allows me to easily hit the Esc key
-when using vi, or closing dialog boxes.
+the <kbd>Esc</kbd> key—this allows me to easily hit the Esc key when
+using vi, or to close dialog boxes.
 
 
 ## Setup
 
-The full mapping sequence follows. The `l` and `r` prefixes below
-signifies the left and right versions of the keys, respectively. The
-`->` is read as “to”. For example, `PU -> HO` is read as “Assign
-PageUp to Home”.
+The `+` indicates pressing and holding a key, while pressing
+another. The `➔` is read as “to”, for example, `PU ➔ HO` is read as
+“Map PageUp to Home”. The `,` indicates a sequence of keys pressed and
+released, in order.
 
 ```
-Progrm + Shift + F10
-Progrm + \
-Progrm + -
-Progrm + F12
+PR + Shift + F10
+PR + \
+PR + -
+PR + F12
 
-ES -> CL
-CL -> SL
+ES ➔ CL
+CL ➔ SL
 
-LE -> UP
-RI -> DN
-UP -> LE
-DN -> RI
+LE ➔ UP
+RI ➔ DN
+UP ➔ LE
+DN ➔ RI
 
-HO -> ED
-ED -> PD
-PU -> HO
-PD -> PU
+HO ➔ ED
+ED ➔ PD
+PU ➔ HO
+PD ➔ PU
 
-lCT -> `~
-lAL -> \|
-rCT -> ]}
-rAL -> [{
--_  -> lCT
-=+  -> rCT
-]}  -> rAL
-`~  -> =+
-r\| -> -_
-[{  -> l\|
+lCT ➔ `~
+lAL ➔ \|
+rCT ➔ ]}
+rAL ➔ [{
+-_  ➔ lCT
+=+  ➔ rCT
+]}  ➔ rAL
+`~  ➔ =+
+r\| ➔ -_
+[{  ➔ l\|
 
-KP, Insert, KP ->  ES
-KP, KP_Enter, KP -> lAL
+KP, IN, KP ➔ ES
+KP, KE, KP ➔ lAL
 ```
 
 The `KP_Enter` (KE) key was moved to `Left Alt` (lAL) so that I can
