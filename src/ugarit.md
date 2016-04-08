@@ -107,7 +107,8 @@ $ dd if=/dev/random bs=1 count=64 2>/dev/null | base64 -w 0 | tail -1
 Create a key, for the vault:
 
 ```bash
-$ dd if=/dev/random bs=32 count=1 2>/dev/null | od -An -tx1 | tr -d ' \t\n'
+$ dd if=/dev/random bs=32 count=1 2>/dev/null | od -An -tx1 \
+| tr -d ' \t\n'
 ```
 
 After you run those commands, you’ll create the config file,
