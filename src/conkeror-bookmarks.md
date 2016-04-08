@@ -210,7 +210,7 @@ In the drop-down box that says **(Select Profile Database)**, select
 
 Do not, however, make modifications to any of the SQLite files in your
 profile, while Conkeror is running. Doing so may make your browser
-unable to start, after you exit it, unless you restore from "clean"
+unable to start, after you exit it, unless you restore from “clean”
 SQLite files, while Conkeror is not running.
 
 
@@ -218,7 +218,7 @@ SQLite files, while Conkeror is not running.
 
 The bookmarks displayed in `M-x bm`, will be sorted by time of
 creation, in a descending order. The bookmarks listed are also not
-categorized by "folders", in the manner of the Firefox’s Bookmarks
+categorized by “folders”, in the manner of the Firefox’s Bookmarks
 Manager.
 
 Another, you may also edit the `places.sqlite` file with
