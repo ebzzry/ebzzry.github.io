@@ -282,9 +282,9 @@ section _Comments_.
 
 ### bootstrap.css and bootstrap.min.css
 
-These two files are responsible for what is commonly called as "theme"
--- it controls the look of the site. To change these files, let’s head
-over to <http://bootswatch.com/>, then let’s select a theme you
+These two files are responsible for what is commonly called as
+“theme”—it controls the look of the site. To change these files, let’s
+head over to <http://bootswatch.com/>, then let’s select a theme you
 like. Let’s presume that you want to download the *Cerulean*
 theme. Click the dropdown box arrow, next to the download link, for
 that theme. Select and download both `bootstrap.min.css` and
