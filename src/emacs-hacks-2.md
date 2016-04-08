@@ -121,7 +121,7 @@ M-x pi RET package RET
 ### use-package
 
 This one is a real gem. It’s like `require`, but on steroids. When
-"requiring" a package, you have the option to specify to install that
+“requiring” a package, you have the option to specify to install that
 package, if it does not exist, yet. It also enables you to configure
 that package, in a unified expression. But unlike `require`,
 `use-package` does not come built-in with Emacs. You need to install it
@@ -295,7 +295,7 @@ The key bindings for the commands above, are listed below:
  :map global-map
  ("C-c d"   . insert-date)
  ("C-c C-d" . insert-date-and-time)
- 
+
  ("S-<return>" . newline-and-no-indent)
 
  ("M-q" . fill-region-or-paragraph)
