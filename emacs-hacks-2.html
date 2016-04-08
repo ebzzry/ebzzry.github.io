@@ -50,7 +50,7 @@
 &#40;defalias 'pl 'package-list-packages&#41;
 </code></pre><p>To list all the available packages, hit:</p><pre><code>M-x pl RET
 </code></pre><p>If you know the name of package, hit:</p><pre><code>M-x pi RET package RET
-</code></pre><h3>use-package</h3><p>This one is a real gem. It’s like <code>require</code>, but on steroids. When "requiring" a package, you have the option to specify to install that package, if it does not exist, yet. It also enables you to configure that package, in a unified expression. But unlike <code>require</code>, <code>use-package</code> does not come built-in with Emacs. You need to install it via <code>package-install</code>:</p><pre><code>M-x pi RET use-package RET
+</code></pre><h3>use-package</h3><p>This one is a real gem. It’s like <code>require</code>, but on steroids. When “requiring” a package, you have the option to specify to install that package, if it does not exist, yet. It also enables you to configure that package, in a unified expression. But unlike <code>require</code>, <code>use-package</code> does not come built-in with Emacs. You need to install it via <code>package-install</code>:</p><pre><code>M-x pi RET use-package RET
 </code></pre><p>You can then require it, on subsequent uses:</p><pre><code class="lisp">&#40;require 'use-package&#41;
 </code></pre><p>To install <code>markdown-mode</code>, even if it doesn’t exist yet, and configure its related options, after loading it, have:</p><pre><code class="lisp">&#40;use-package markdown-mode
     :ensure t
@@ -112,7 +112,7 @@
  :map global-map
  &#40;&quot;C-c d&quot;   . insert-date&#41;
  &#40;&quot;C-c C-d&quot; . insert-date-and-time&#41;
- 
+
  &#40;&quot;S-&lt;return&gt;&quot; . newline-and-no-indent&#41;
 
  &#40;&quot;M-q&quot; . fill-region-or-paragraph&#41;

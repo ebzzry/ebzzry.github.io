@@ -7,7 +7,8 @@
 $ sudo mount /dev/sdb1 /ugarit
 $ sudo chown -R $USER /ugarit
 </code></pre><p>Another, equally important requirement that you need to have is its config file, usually named <code>ugarit.conf</code>. It is supplied as part of the required command line arguments. It is important to note, that this file does not reside in a fixed location, in contrast with some programs that look for a config file at start-up, from <code>&#126;/</code>. But before you actually create that file, you need to run some commands. Save the outputs of these commands, because you’ll be needing them later:</p><p>Create a salt, for the hash function:</p><pre><code class="bash">$ dd if=/dev/random bs=1 count=64 2&gt;/dev/null | base64 -w 0 | tail -1
-</code></pre><p>Create a key, for the vault:</p><pre><code class="bash">$ dd if=/dev/random bs=32 count=1 2&gt;/dev/null | od -An -tx1 | tr -d ' \t\n'
+</code></pre><p>Create a key, for the vault:</p><pre><code class="bash">$ dd if=/dev/random bs=32 count=1 2&gt;/dev/null | od -An -tx1 \
+| tr -d ' \t\n'
 </code></pre><p>After you run those commands, you’ll create the config file, <code>ugarit.conf</code>. To make it consistent with the example above, you’ll store it inside <code>/ugarit</code>:</p><pre><code class="bash">$ emacs /ugarit/ugarit.conf
 </code></pre><p>Put the following, replacing SALT, and KEY, with the salt and key strings that you generated above. Save the file, then secure it.</p><pre><code class="scheme">&#40;storage &quot;backend-fs splitlog /ugarit /ugarit/metadata&quot;&#41;
 &#40;file-cache &quot;/ugarit/cache&quot;&#41;
