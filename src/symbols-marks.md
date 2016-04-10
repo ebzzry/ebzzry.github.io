@@ -111,6 +111,16 @@ It is also used when writing quotes (attributions):
 
 * “Supposing is good, but finding out is better.” ―Samuel Clemens
 
+Another popular application of double quotes is when they’re used as
+scare quotes–used to indicate irony, and non-standard meanings:
+
+* The “secure” disk can be read directly.
+
+Lastly, it is used to mention a part of a whole:
+
+* “Return of the Jedi” is a film in the Star Wars saga, filled with
+  cute teddy bears.
+
 
 Left and right single quotes (‘) (’)
 ------------------------------------
