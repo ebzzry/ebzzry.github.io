@@ -1,7 +1,7 @@
 
 ***
 <div style="text-align: right; float: right; max-width: 18em;">
-[![Home](images/icon_home_01.png "Home")](index.html) [![GitHub](images/icon_about_01.png "About")](about.html) [![DeviantArt](images/icon_quotes_01.png "Quotes")](quotes.html) [![GPG](images/icon_words_01.png "Words")](words.html) [![SSH](images/icon_source_01.png "Source")](https://github.com/ebzzry/ebzzry.github.io)
+[![Home](images/icon_home_01_32x32.png "Home")](index.html) [![GitHub](images/icon_about_01_32x32.png "About")](about.html) [![DeviantArt](images/icon_quotes_01_32x32.png "Quotes")](quotes.html) [![GPG](images/icon_words_01_32x32.png "Words")](words.html) [![SSH](images/icon_source_01_32x32.png "Source")](https://github.com/ebzzry/ebzzry.github.io)
 <div style="font-size: x-small">
 Site created with [emem](https://github.com/ebzzry/emem)
 </div>
