@@ -9,6 +9,7 @@ title="Westerlund 2"/></a>
 <div style="text-align: right">A journal about computing, predilections, and pseudorandom stuff.</div>
 <div style="text-align: right; font-size: small">Items that are marked with star (✱) contain recent updates.</div>
 
+* [Esperanto Characters in Linux](eolinux.html)
 * [Symbols and Marks](symbols-marks.html)
 * [Verb Tenses in English](verb-tenses.html)
 * [An Alternative Advantage Layout](advantage.html) ✱
