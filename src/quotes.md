@@ -15,7 +15,7 @@ proverbs that I have collected over the years.
 
 
 * “Furious activity is no substitute for understanding.”<br>
-  ―H. H. Williams
+  ―H.H. Williams
 
 
 * “Diplomacy is the art of saying ‘Nice doggie’ until you can find a
@@ -86,11 +86,6 @@ proverbs that I have collected over the years.
   ―Dali Lama
 
 
-* “If you can’t afford the time to do it right, how are you going to
-  find the time to fix it up?”<br>
-  ―John Wooden
-
-
 * “All the good ideas never lie under one hat.”<br>
   ―Dale Turner
 
@@ -112,7 +107,7 @@ proverbs that I have collected over the years.
 
 
 * “Furious activity is no substitute for understanding.”<br>
-  ―H. H. Williams
+  ―H.H. Williams
 
 
 * “Ron’s first law: All extreme positions are wrong.”<br>
@@ -124,7 +119,7 @@ proverbs that I have collected over the years.
 
 
 * “With or without religion, good people can behave well and bad
-  people can do evil; but for good people to do evil — that takes
+  people can do evil; but for good people to do evil—that takes
   religion.”<br>
   ―Steven Weinberg
 
@@ -134,13 +129,17 @@ proverbs that I have collected over the years.
   ―Upton Sinclair
 
 
+* “If you want to pass, cheat. If you want to learn, research.”<br>
+  ―Raganwald
+
+
 * “In order to make an apple pie from scratch, you must first create
   the universe.”<br>
   ―Carl Sagan
 
 
-* “If you want to pass, cheat. If you want to learn, research.”<br>
-  ―Raganwald
+* “I don’t know where I’m going, but I’m on my way.”<br>
+  ―Carl Sagan
 
 
 * “What I cannot create, I do not understand.”<br>
@@ -149,19 +148,6 @@ proverbs that I have collected over the years.
 
 * “Know how to solve every problem that has been solved.”<br>
   ―Richard P. Feynman
-
-
-* “If you can’t beat them, arrange to have them beaten”<br>
-  ―George Carlin
-
-
-* “Fighting for peace is like screwing for virginity.”<br>
-  ―George Carlin
-
-
-* “The main reason Santa is so jolly is because he knows where all the
-  bad girls live”<br>
-  ―George Carlin
 
 
 * “The intellectual level needed for system design is in general
@@ -177,7 +163,7 @@ proverbs that I have collected over the years.
 
 
 * “There is no reason to assume that the universe has the slightest
-  interest in intelligence — or even in both. Life may be random
+  interest in intelligence—or even in both. Life may be random
   accidental by-products of its operations like the beautiful patterns
   on a butterfly’s wings. The insect would fly just as well without
   them.”<br>
@@ -205,42 +191,20 @@ proverbs that I have collected over the years.
   ―Dean Kamen
 
 
-* “Those who would give up essential Liberty, to purchase a little
-  temporary Safety, deserve neither Liberty nor Safety.”<br>
-  ―Benjamin Franklin
-
-
-* “You win some, you lose some.”<br>
-  ―Gayle Forman
-
-
-* “A witty saying proves nothing.”<br>
-  ―Voltaire
-
-
 * “You wanna make an omelette, you gotta break some eggs.”<br>
-  ―Tyler Durden
-
-
-* “Son, never be afraid to ask a girl out; the right ones say yes.”<br>
-  ―Anonymous
+  ―Tyler Durden, Fight Club
 
 
 * “If you want to achieve greatness, stop asking for permission.”<br>
   ―Eddie Colla
 
 
-* “Worry is like a rocking chair — it gives you something to do
+* “Worry is like a rocking chair—it gives you something to do
   but doesn’t get you anywhere.”<br>
   ―Erma Bombeck
 
 
 * “If you live for money, that is all you will get out of it.”<br>
-  ―Anonymous
-
-
-* “Sometimes, you have to do the things you hate, to be able to do the
-  things that you love.”<br>
   ―Anonymous
 
 
@@ -333,7 +297,7 @@ proverbs that I have collected over the years.
   ―Nikola Tesla
 
 
-* “Don’t rely on someone else for your self-worth; only you can be be
+* “Don’t rely on someone else for your self-worth; only you can be
   responsible for that.”<br>
   ―Stacey Charter
 
@@ -391,10 +355,6 @@ proverbs that I have collected over the years.
   ―Alex Elle
 
 
-* “I don’t know where I’m going, but I’m on my way.”<br>
-  ―Carl Sagan
-
-
 * “It is in your moments of decision that your destiny is shaped.”<br>
   ―Anthony Robbins
 
@@ -428,10 +388,6 @@ proverbs that I have collected over the years.
 
 * “Do what you can, where you are, with what you have.”<br>
   ―Theodore Roosevelt
-
-
-* “If there is no struggle, there is no progress.”<br>
-  ―Fredecik Douglass
 
 
 * “What we fear doing most is usually what we most need to do.”<br>
@@ -521,8 +477,8 @@ proverbs that I have collected over the years.
   ―Diana Nyad
 
 
-* “They that can give up essential liberty to obtain a little
-  temporary safety deserve neither liberty nor safety.”<br>
+* “Those who would give up essential Liberty, to purchase a little
+  temporary safety, deserve neither liberty nor safety.”<br>
   ―Benjamin Franklin
 
 
@@ -539,17 +495,17 @@ proverbs that I have collected over the years.
 * “When something impossible happens, there are two
   possibilities: either your assumptions are wrong, or you have gone
   crazy.”<br>
-  ―Kogami Shinya, Psycho-Pass Season 1
+  ―Kogami Shinya, Psycho-Pass
 
 
 * “I think the only time people really have value is when they act
   according to their own will.”<br>
-  ―Makishima Shougo, Psycho-Pass Season 1
+  ―Makishima Shougo, Psycho-Pass
 
 
 * “It is not society that determines people’s futures. It is people
   who determine society’s future.”<br>
-  ―Akane Tsunemori, Psycho-Pass Season 1
+  ―Akane Tsunemori, Psycho-Pass
 
 
 * “Do not forget that you will surely die someday, and as such, that
