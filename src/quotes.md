@@ -74,7 +74,7 @@ proverbs that I have collected over the years.
 
 * “One person with passion is better than forty people merely
   interested.”<br>
-  ―E. M. Forster
+  ―E.M. Forster
 
 
 * “Just because it isn’t done doesn’t mean it can’t be done. Just
@@ -246,11 +246,6 @@ proverbs that I have collected over the years.
 
 * “The ability to speak does not make you intelligent.”<br>
   ―Qui-gon Jinn
-
-
-* “If you do what you’ve always done, you’ll get what you’ve always
-  gotten.”<br>
-  ―Anthony Robbins
 
 
 * “Watch your thoughts; they become words. Watch your words; they
@@ -432,6 +427,11 @@ proverbs that I have collected over the years.
   ―Anonymous
 
 
+* “If you do what you’ve always done, you’ll get what you’ve always
+  gotten.”<br>
+  ―Anthony Robbins
+
+
 * “If you want something you’ve never had, you must be willing to do
   something you’ve never done.”<br>
   ―Thomas Jefferson
@@ -477,7 +477,7 @@ proverbs that I have collected over the years.
   ―Diana Nyad
 
 
-* “Those who would give up essential Liberty, to purchase a little
+* “Those who would give up essential liberty, to purchase a little
   temporary safety, deserve neither liberty nor safety.”<br>
   ―Benjamin Franklin
 
@@ -515,7 +515,3 @@ proverbs that I have collected over the years.
 
 * “If not me, who? And if not now, when?”<br>
   ―Mikhail Gorbachev
-
-
-* “Do what you can, with that you have, where you are.”<br>
-  ―Theodore Roosevelt
