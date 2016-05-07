@@ -5,10 +5,11 @@ A Fallacies Primer
 
 Fallacies are errors in reasoning, made in the construction of
 arguments. Some are committed intentionally to manipulate and deceive,
-while some are committed unintentionally due to ignorance. Fallacies
-are divided into two kinds—formal and informal. Formal fallacies, also
-called logical fallacies, are expressed in a system like propositional
-logic. Informal fallacies are errors in the content of the premises.
+while some are committed unintentionally due to ignorance and
+recklessness. Fallacies are divided into two kinds—formal and
+informal. Formal fallacies, also called logical fallacies, are
+expressed in a system like propositional logic. Informal fallacies are
+errors in the content of the premises.
 
 In this post I’ll briefly go through some of the common fallacies
 encountered in our daily lives. Some are hidden in plain sight while
@@ -122,7 +123,7 @@ This is committed when it is assumed that a part composes the
 whole. It is made when a conclusion is drawn from a sample that is
 not large enough.
 
-> “I was molested in childhood by a homosexual. Thus, all homosexuals
+> “I was molested in childhood by a homosexual. Thus, homosexuals
 > are vile creatures, and they must be punished!”
 
 The speaker assumed that just because he experienced one such incident
@@ -393,7 +394,7 @@ may have multiple ambiguous interpretations.
 
 It is unclear what kind of balance does the speaker speak of. When
 asked, he fails to explain why such is necessary. He further argues
-that since wars and terrorism is inevitable, then it must exist to
+that since wars and terrorism are inevitable, then they must exist to
 create balance. This is faulty reasoning—just because you can’t
 eliminate the undesirable, means its existence is necessary.
 
@@ -483,10 +484,11 @@ something that is inobservable, and draws conclusions based on false
 comparisons.
 
 
-## Having your cake
+## Diminished claim
 
 This is committed when a speaker asserts something, but retracts it
-later by providing contradictory statements.
+later by providing contradictory statements. This is called “Having
+your cake.”
 
 > “Look son, I don’t believe in ghosts. Last night, however, I heard
 > tapping sounds on the night stand. I’m sure nothing could have
@@ -526,7 +528,7 @@ attack the new, shifted post.
 > preserve their marriage.”
 
 The speaker initially expressed disgust and objection to the actions
-committed by a person. When the situation has changed, the speaker
+committed by Juana. When the situation has changed, the speaker
 changed her position, too.
 
 
