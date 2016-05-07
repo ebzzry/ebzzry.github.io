@@ -75,9 +75,6 @@ inspire myself, and others.
   the outcome.”<br>
 
 
-* “To obtain a direction, you must first aim.”<br>
-
-
 * “Answers, no matter how confident you are with them, are incorrect,
   if they were for the wrong questions.”<br>
 
@@ -89,10 +86,6 @@ inspire myself, and others.
 
 
 * “Defer to use what you will use to defer.”<br>
-
-
-* “If you’re going to make excuses, don’t make an excuse not to do
-  it. Instead, make an excuse to do it.”<br>
 
 
 * “Work your way through things, not around it.”<br>

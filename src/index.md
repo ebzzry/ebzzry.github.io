@@ -7,9 +7,9 @@ margin-left: auto; margin-right: auto;" alt="Westerlund 2"
 title="Westerlund 2"/></a>
 
 <div style="text-align: right">A journal about computing, predilections, and pseudorandom stuff.</div>
-<div style="text-align: right; font-size: small">Items that are marked with star (✱) contain recent updates.</div>
+<div style="text-align: right; font-size: small">Items marked with a star (✱) contain updates since initial publication.</div>
 
-* [A Fallacies Primer](fallacies.html)
+* [A Fallacies Primer](fallacies.html) ✱
 * [Esperanto Characters in Linux](eolinux.html)
 * [Symbols and Marks](symbols-marks.html)
 * [Verb Tenses in English](verb-tenses.html)
@@ -27,7 +27,7 @@ title="Westerlund 2"/></a>
 * [Emacs and Racket](emacs-racket.html)
 * [Emacs and Dired](emacs-dired.html)
 * [Emacs and Hacks I](emacs-hacks-1.html)
-* [In Retrospect](retrospect.html)
+* [In Retrospect](retrospect.html) ✱
 * [An Introduction to Livefrog](livefrog.html)
 * [An Introduction to Usync](usync.html)
 * [Squandered Relentlessness](squandered.html)
