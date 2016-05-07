@@ -97,11 +97,12 @@ This is committed when a person is forced to choose a position, or
 answer a question, with coerced limits. This is also called the
 black-and-white, or the either-or fallacy.
 
-> “Either you’re a theist or an atheist.”
+> “Either you’re with me or you’re against me.”
 
 This is fallacious because it presents extreme positions, even if
 there are other positions aside from those presented. In this case,
-the person being asked may be an agnostic.
+the person being asked may be indifferent to the positions of the
+speaker.
 
 
 ## False compromise
@@ -266,7 +267,7 @@ This fails because of the failure to specify who these so-called
 This is committed when an appeal to authority is made, but the
 authority in question is outside the scope of his expertise.
 
-> “Pedro extensively studied and reviewed the efficacy of Liverdead
+> “Pedro extensively studied and reviewed the efficacy of Liverpaid
 > capsules, and asserted that they indeed improve liver health.”
 
 Pedro, however, is not qualified professional to study and review
@@ -348,9 +349,9 @@ argued that it should be done on the grounds that it is traditional.
 
 ## Appeal to origins
 
-This is committed when it is assumed that an argument, or a speaker,
-of a particular origin has more bearing or significance. This is
-usually observed in social classes, biological lineage, and cultures.
+This is committed when it is assumed that an argument or a speaker, of
+a particular origin has more bearing or significance. This is usually
+observed in social classes, biological lineage, and cultures.
 
 > “Given that Pancho comes from a poor family, when he gets elected as
 > the president, I’m sure he’ll be able to help the poor like us.”
@@ -488,8 +489,8 @@ comparisons.
 ## Diminished claim
 
 This is committed when a speaker asserts something, but retracts it
-later by providing contradictory statements. This is called “Having
-your cake.”
+later by providing contradictory statements. This is also called
+“Having your cake.”
 
 > “Look son, I don’t believe in ghosts. Last night, however, I heard
 > tapping sounds on the night stand. I’m sure nothing could have
@@ -517,31 +518,32 @@ discovered that a tube was connected, via a conduit, and cow blood was
 pumped through it.
 
 
-## Raising the bar
+## Moving the goalpost
 
 This is committed when person B changes his position after person A
 successfully attacks the initial position of person B. The goal is to
 move the goalpost so that it will then be difficult for person A to
 attack the new, shifted post.
 
-> “We know that Juana is a cheater, but now that she and Pedro have
-> reconciled, I think it’s just right they are together again to
-> preserve their marriage.”
+> Pedro claims that it is due to his daily intake of Liverpaid
+> capsules that makes his liver healthy. When he was diagnosed with
+> cirrhosis, he stated that it could have been worse, had it not been
+> for his Liverpaid capsules.
 
-The speaker initially expressed disgust and objection to the actions
-committed by Juana. When the situation has changed, the speaker
-changed her position, too.
+The speaker adjusted his position when his initial claims were
+jeopardized. When the situation has changed, the speaker changed his
+position, too.
 
 
 ## Poisoning the well
 
 This is committed when person B objects that one or all of the sources
-of person A uses is invalid and unusable, thus rendering the argument
-of person A unacceptable.
+of person A is invalid and unusable, thus rendering the argument of
+person A unacceptable.
 
 > “One of the sources of your paper is a report made by a well-known
 > plagiarist. This renders your proposals invalid and we’re not going
-> to acknowledge it.”
+> to accept it.”
 
 Presuming that the source information is indeed invalid, it doesn’t
 render the argument that person A is presenting to be invalid,
