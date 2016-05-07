@@ -1,5 +1,5 @@
-Emacs and Hacks (Part 2)
-========================
+Emacs and Hacks II
+==================
 
 <center>June 12, 2015</center>
 

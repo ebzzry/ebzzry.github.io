@@ -1,5 +1,5 @@
 Quotes
-======================================================================
+======
 
 This page contains a list of curated quotations, aphorisms, and
 proverbs that I have collected over the years.
