@@ -1,75 +1,76 @@
-The Y Combinator in Six Easy Steps
-==================================
+The Y Combinator in Six Steps
+=============================
 
 <center>May 9, 2013</center>
+<center>Updated: May 7, 2016</center>
 
 A lot of us have been taught that to be able to define a recursive
 procedure, the recursive invocation must “use” the name of the
 recursive procedure. The
-[Y combinator](http://en.wikipedia.org/wiki/Fixed-point_combinator#Y_combinator)
+[Y combinator](http://en.wikipedia.org/wiki/Fixed-point_combinator#Y_combinator)
 , however, lets you perform recursion, without referring to the named
 identifier.
 
-The Y combinator has been both a source of inspiration and frustration
+The Y combinator has been both a source of inspiration and frustration
 for many. It evokes a eureka-like sensation once you get past the
 wall, but it also renders us scratching your heads when it just
 doesn’t make sense to traverse the labyrinth. This post aims to bring
-my own approach on how to derive the Y combinator. It may not be the
+my own approach on how to derive the Y combinator. It may not be the
 most elegant way, but it may work for you.
 
 In the code examples in this post, the `>` symbol denotes the prompt
 symbol for your Scheme implementation.
 
 
-## Step 1
+## Step 1—Define base procedure
 
-Let’s start by defining a procedure named `sum0` that computes the
+Let’s start by defining a procedure named `foo` that computes the
 [summation](http://en.wikipedia.org/wiki/Summation) of a positive
 integer, down to zero. In the following snippet, the recursive call
-happens when `sum0` is applied in the else part of the condition.
+happens when `foo` is applied in the else part of the condition.
 
 ```scheme
-> (define sum0
+> (define foo
     (lambda (n)
       (if (zero? n)
           0
-          (+ n (sum0 (- n 1))))))
-> (sum0 100)
+          (+ n (foo (- n 1))))))
+> (foo 100)
 5050
 ```
 
-You have have observed that I have defined `sum0` using an explicit
+You have have observed that I have defined `foo` using an explicit
 `lambda`. You’ll see shortly, why.
 
 
-## Step 2
+## Step 2—Curry the recursive call
 
 Let’s break that procedure further, into more elementary components,
-and you’ll apply it, using
-[currying](https://en.wikipedia.org/wiki/Currying).
+and you’ll apply it, using [currying](https://en.wikipedia.org/wiki/Currying).
 
 ```scheme
-> (define sum0
+> (define foo
     (lambda (f)
       (lambda (n)
         (if (zero? n)
             0
             (+ n ((f f) (- n 1)))))))
-> ((sum0 sum0) 100)
+> ((foo foo) 100)
 5050
 ```
 
 The extra `lambda` was needed because you needed to have a way to
-“anonymize” the recursive procedure. In this case, you used the
-identifier `f` to bind to the recursive procedure, which is `sum0`,
-itself. The weird-looking `((f f) ...)` is needed, because you have to
-perform the same procedure invocation method used initially: `((sum0 sum0) 100)`.
+abstract the recursive procedure. In this case, you used the
+identifier `f` to bind to the recursive procedure, which is `foo`,
+itself. The weird-looking `((f f) …)` is needed, because you have to
+perform the same procedure invocation method used initially:
+`((foo foo) 100)`.
 
 
-## Step 3
+## Step 3—Apply procedure to itself
 
 You’re now going to exploit that property, to use a “nameless”
-approach, that is, without using the `sum0` name.
+approach, that is, without using the `foo` name.
 
 ```scheme
 > (((lambda (f)
@@ -86,14 +87,14 @@ approach, that is, without using the `sum0` name.
 5050
 ```
 
-Take note, that at this point, you’re no longer using the `sum0` name,
+Take note, that at this point, you’re no longer using the `foo` name,
 to refer the the definition, except for later.
 
 
-## Step 4
+## Step 4—Abstract inner recursive call
 
 Next, you need to move the `(f f)` part outside, to isolate the general
-(Y combinator), from the specific (`sum0`) code.
+(Y combinator), from the specific (`foo`) code.
 
 ```scheme
 > (((lambda (f)
@@ -118,9 +119,9 @@ During the procedure application, the identifier `p` will be bound to
 `(lambda (v) ((f f) v))`, and the identifier `v` will be bound to `(- n 1)`.
 
 
-## Step 5
+## Step 5—Isolate the combinator
 
-Next, you’re going to isolate the Y combinator, from the `sum0`
+Next, you’re going to isolate the Y combinator, from the `foo`
 procedure.
 
 ```scheme
@@ -138,15 +139,15 @@ procedure.
 5050
 ```
 
-You replace the `sum0`-specific definition with `x`. This requires you
+You replace the `foo`-specific definition with `x`. This requires you
 again, to create an enveloping `lambda`. Since `x` is bound to the
 computing procedure, you no longer need to repeat it.
 
 
-## Step 6
+## Step 6—Define the combinator
 
 Finally, you will explicitly create a separate procedure definitions
-for the Y combinator itself, and the `sum0` procedure.
+for the Y combinator itself, and the `foo` procedure.
 
 ```scheme
 > (define y
@@ -155,16 +156,16 @@ for the Y combinator itself, and the `sum0` procedure.
          (x (lambda (v) ((f f) v))))
        (lambda (f)
          (x (lambda (v) ((f f) v)))))))
-> (define %sum0
+> (define bar
     (lambda (p)
       (lambda (n)
         (if (zero? n)
             0
             (+ n (p (- n 1)))))))
-> (define sum0 (y %sum0))
-> (sum0 100)
+> (define foo (y bar))
+> (foo 100)
 5050
 ```
 
-I hope this post has been useful in making you understand the Y
-combinator, currying, and procedure application.
+I hope this post has been useful in making you understand the
+Y combinator, currying, and procedure application.

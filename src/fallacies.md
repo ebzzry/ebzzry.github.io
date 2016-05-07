@@ -2,6 +2,7 @@ A Fallacies Primer
 ==================
 
 <center>May 1, 2016</center>
+<center>Updated: May 7, 2016</center>
 
 Fallacies are errors in reasoning, made in the construction of
 arguments. Some are committed intentionally to manipulate and deceive,
@@ -479,7 +480,7 @@ other characteristics.
 > the celestial bodies around the Sun spin fast enough, something new
 > must be created.”
 
-The speaker confuses something that is directly observable, to
+The speaker convolutes something that is directly observable, to
 something that is inobservable, and draws conclusions based on false
 comparisons.
 
