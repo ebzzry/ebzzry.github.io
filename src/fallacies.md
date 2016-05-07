@@ -57,7 +57,7 @@ he holds.
 
 Maria’s personal status doesn’t not have any bearing on the validity
 her claims. Juan’s statements are irrelevant. What should be attacked
-are Maria’s argument, and not her personal standings.
+is Maria’s argument, and not her personal standings.
 
 
 ## Tu quoque
@@ -70,21 +70,23 @@ also known as the “You, too” fallacy.
 > Patient: “You, yourself smoke, so I can’t follow your advice.”
 
 The patient rendered Maria’s statement to be invalid, because Maria
-smokes. If the patient presented an objection that smoking is *not*
-harmful to the health, then it would have been a better position.
+smokes, too. If the patient presented an objection that smoking is
+*not* harmful to the health, then it would have been a better
+position.
 
 
 ## Loaded question
 
 This happens when a presumption is made beforehand, and that an answer
-is forced from constrained choices, like a “yes” or a “no”.
+is forced from constrained choices, like “yes” or “no”.
 
 > “Juan, have you stopped cheating on your wife?”
 
 This is fallacious because the speaker assumes that Juan has cheated,
-at least once on his wife. If Juan answers “Yes”, then he has cheated
+at least once on his wife. If Juan answers “Yes.”, then he has cheated
 on his wife before, and that he has already stopped. If Juan answers
-“No”, then he has cheated before, and still continues to cheat on her.
+“No.”, then he has cheated before, and still continues to cheat on
+her.
 
 
 ## False dichotomy
@@ -100,6 +102,20 @@ there are other positions aside from those presented. In this case,
 the person being asked may be an agnostic.
 
 
+## False compromise
+
+This is committed when a gray area is forced, even if there are clear
+choices. This is usually observed in journalism to provide an “equal”
+and “unbiased” coverage.
+
+> “Everyone in this table is bound to their individual
+> opinions. Nobody is necessarily right or wrong.”
+
+The speaker avoids the discussion and the determination of the
+plausibility that one or more arguments may be the solution to the
+problem. This is done to commit “fence sitting” and to “play it safe.”
+
+
 ## Hasty generalization
 
 This is committed when it is assumed that a part composes the
@@ -110,8 +126,8 @@ not large enough.
 > are vile creatures, and they must be punished!”
 
 The speaker assumed that just because he experienced one such incident
-in his life before, he concluded that all homosexuals molest children,
-and that must be treated with contempt and disgust.
+in his life before, he concluded that all homosexuals are despicable,
+and that they must be treated with contempt and disgust.
 
 
 ## Sweeping generalization
@@ -134,9 +150,9 @@ This is committed when the responsibility to provide proof does not
 lie with person A, the one making claims, but with person B, to
 disprove the claims of person A.
 
-> “Since you can’t prove the inexistence of a large cockroach that
-> defecates stars, that lives exactly 100,000 light-years away from
-> where I’m facing right now, then it must exist.”
+> “Since you can’t prove the nonexistence of a large cockroach that
+> defecates stars and lives exactly 100,000 light-years away from
+> where I’m facing right now, it must exist.”
 
 Instead of providing evidence to his own claims, person A shifts the
 burden of providing proof to person B. Since there are no physical
@@ -328,6 +344,60 @@ This fails to state why one should join the said event. Instead it is
 argued that it should be done on the grounds that it is traditional.
 
 
+## Appeal to origins
+
+This is committed when it is assumed that an argument, or a speaker,
+of a particular origin has more bearing or significance. This is
+usually observed in social classes, biological lineage, and cultures.
+
+> “Given that Pancho comes from a poor family, when he gets elected as
+> the president, I’m sure he’ll be able to help the poor like us.”
+
+This presumes that since Pancho originates from less fortunate social
+standings, he will favor the ones who are also poor, just like he was
+before.
+
+
+## Appeal to the future
+
+This is committed when a person uses the uncertainty of the future, to
+support his argument. He asserts that in the future, his claims will
+eventually become true.
+
+> “Nobody does it yet, but I’m sure in the future, everyone will.”
+
+There are no known ways at the moment, to verify his claims, since it
+is impossible to see or experience the future.
+
+
+## Appeal to complexity
+
+This is committed when a person will assert that just because he
+doesn’t understand something, then it means that most people doesn’t,
+too.
+
+> “I still can’t understand lambda calculus after all these
+> years. Heh. Chances are, nobody really can.”
+
+The speaker applies his personal limitations to everyone, since he
+himself can’t do it. This is similar to hasty generalizations.
+
+
+## Appeal to balance
+
+This is committed when the idea of balance is used when it is not
+appropriate. The word “balance” in these contexts is ill-defined, and
+may have multiple ambiguous interpretations.
+
+> “There must be chaos and discord to create balance in the universe.”
+
+It is unclear what kind of balance does the speaker speak of. When
+asked, he fails to explain why such is necessary. He further argues
+that since wars and terrorism is inevitable, then it must exist to
+create balance. This is faulty reasoning—just because you can’t
+eliminate the undesirable, means its existence is necessary.
+
+
 ## Begging the question
 
 This fallacy is committed when the thing to be proved is used as one
@@ -360,10 +430,116 @@ because Juana only posts what she wants people to see and believe.
 This is committed when an argument is made by asserting that a
 behavior is only acceptable within the confines of certain standards.
 
-> “Why don’t you eat with your bare hands? A true Dodoman should eat with
-> his bare hands!”
+> “Why don’t you eat with your bare hands? A true Kilikilimo should
+> eat with his bare hands!”
 
-This is a form of false purity. It asserts that there is one
-acceptable way for a Dodoman to eat. This is similar to appeal to
+This is a form of false purity. It asserts that there is only one
+acceptable way for a Kilikilimo to eat. This is similar to appeal to
 tradition.
 
+
+## Not invented here
+
+This is committed when something that is foreign or local, is deemed
+worse or better. This is observed in social classes, cultures,
+traditions, race, and gender.
+
+> “What does Juan know about feminism? He’s a man!”
+
+This argues that just because Juan is a man, means that he doesn’t
+know how to support the ideologies of feminism. This is also
+frequently observed with imported products, claiming that they’re
+superior over the local ones just because they’re “imported.”
+
+
+## Dismissal
+
+This is committed when an idea is rejected but it is not explained
+why. This is usually done when a person doesn’t like an idea, and he
+will resort to forceful dismissal of an argument.
+
+> “Since you openly object to democracy, you better leave the
+> country and find one that fits your tastes!”
+
+The speaker doesn’t state and explain his objections, and uses a
+shallow verse for giving such a statement. He is uncomfortable with
+the objections, and a way for him to get around this discomfort is to
+remove the originator of such objections.
+
+
+## Bad analogy
+
+This is committed when the speaker argues that since two things are
+similar in some characteristics, then it follows that they must share
+other characteristics.
+
+> “When you mix coffee, sugar, and milk with a spoon, it spins, and it
+> creates something new—a tasty drink. The solar system spins, too. If
+> the celestial bodies around the Sun spin fast enough, something new
+> must be created.”
+
+The speaker confuses something that is directly observable, to
+something that is inobservable, and draws conclusions based on false
+comparisons.
+
+
+## Having your cake
+
+This is committed when a speaker asserts something, but retracts it
+later by providing contradictory statements.
+
+> “Look son, I don’t believe in ghosts. Last night, however, I heard
+> tapping sounds on the night stand. I’m sure nothing could have
+> caused it. It must be these unseen astral forces.”
+
+The speaker makes a bold statement about not believing in the
+paranormal existence of ghosts, but he backs out later and claims that
+some “astral” forces could be the source of the tapping. He claims X
+but states the anti-X, later.
+
+
+## Least plausible hypothesis
+
+This is committed when a person blatantly ignores compelling and sound
+evidence, in favor of a convoluted one that raises even more
+questions.
+
+> “The statue of virgin Mary in the hills of Idyay cried tears of
+> blood. She must be weeping because of all the sins that mankind is
+> creating.”
+
+The spectators were very willing to accept the idea that that statue
+was indeed weeping what they thought was “divine” blood. It was later
+discovered that a tube was connected, via a conduit, and cow blood was
+pumped through it.
+
+
+## Raising the bar
+
+This is committed when person B changes his position after person A
+successfully attacks the initial position of person B. The goal is to
+move the goalpost so that it will then be difficult for person A to
+attack the new, shifted post.
+
+> “We know that Juana is a cheater, but now that she and Pedro have
+> reconciled, I think it’s just right they are together again to
+> preserve their marriage.”
+
+The speaker initially expressed disgust and objection to the actions
+committed by a person. When the situation has changed, the speaker
+changed her position, too.
+
+
+## Poisoning the well
+
+This is committed when person B objects that one or all of the sources
+of person A uses is invalid and unusable, thus rendering the argument
+of person A unacceptable.
+
+> “One of the sources of your paper is a report made by a well-known
+> plagiarist. This renders your proposals invalid and we’re not going
+> to acknowledge it.”
+
+Presuming that the source information is indeed invalid, it doesn’t
+render the argument that person A is presenting to be invalid,
+too. This is related to argument by origins.
