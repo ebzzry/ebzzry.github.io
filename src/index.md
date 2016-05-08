@@ -1,13 +1,9 @@
-Division by Zero
-================
+Beep. Boop. Meow.
+=================
 
-<a href="https://www.spacetelescope.org/images/heic1509a/"><img
-src="images/banner.jpg" style="display: block; width: 100%;
-margin-left: auto; margin-right: auto;" alt="Westerlund 2"
-title="Westerlund 2"/></a>
-
-<div style="text-align: right">A journal about computing, predilections, and pseudorandom stuff.</div>
-<div style="text-align: right; font-size: small">Items marked with a star (✱) contain updates since initial publication.</div>
+<a href="https://www.spacetelescope.org/images/heic1509a/"><img src="images/banner.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="Westerlund 2" title="Westerlund 2"/></a>
+<div style="text-align: right">A journal about computing, predilections, and random krakaboom.</div>
+<div style="text-align: right; font-size: small">Items marked with a star (✱) contain updates since their initial publication.</div>
 
 * [A Fallacies Primer](fallacies.html) ✱
 * [Esperanto Characters in Linux](eolinux.html)
@@ -32,4 +28,4 @@ title="Westerlund 2"/></a>
 * [An Introduction to Usync](usync.html)
 * [Squandered Relentlessness](squandered.html)
 * [Over, Under, and Elsewhere](over-under.html)
-* [The Y Combinator in Six Easy Steps](y.html)
+* [The Y Combinator in Six Steps](y.html) ✱
