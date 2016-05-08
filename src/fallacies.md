@@ -2,7 +2,7 @@ A Fallacies Primer
 ==================
 
 <center>May 1, 2016</center>
-<center>Updated: May 7, 2016</center>
+<center>Updated: May 8, 2016</center>
 
 Fallacies are errors in reasoning, made in the construction of
 arguments. Some are committed intentionally to manipulate and deceive,
@@ -153,7 +153,7 @@ This is committed when the responsibility to provide proof does not
 lie with person A, the one making claims, but with person B, to
 disprove the claims of person A.
 
-> “Since you can’t prove the nonexistence of a large cockroach that
+> “Since you can’t prove the inexistence of a large cockroach that
 > defecates stars and lives exactly 100,000 light-years away from
 > where I’m facing right now, it must exist.”
 
@@ -245,8 +245,7 @@ person.
 
 Just because someone is a scientist, doesn’t mean that he supports the
 [theory of evolution](http://notjustatheory.com/). It is likely that
-even if he is a scientist, he doesn’t understand the theory of
-evolution.
+even if he is a scientist, he doesn’t understand the said theory.
 
 
 ## Appeal to anonymous authority
@@ -255,11 +254,12 @@ This is committed when an appeal to authority is made, but the
 authority is not named. This makes it very difficult to verify the
 validity of the claims.
 
-> “Experts agree that drinking a glass of Super Juice everyday will
+> “Experts agree that drinking a glass of Meh Juice everyday will
 > make you healthier.”
 
 This fails because of the failure to specify who these so-called
-“experts” are.
+“experts” are. When asked to specify who these experts are, he will
+resort to tactics to elude the question.
 
 
 ## Appeal to false authority
@@ -267,8 +267,8 @@ This fails because of the failure to specify who these so-called
 This is committed when an appeal to authority is made, but the
 authority in question is outside the scope of his expertise.
 
-> “Pedro extensively studied and reviewed the efficacy of Liverpaid
-> capsules, and asserted that they indeed improve liver health.”
+> “Pedro extensively studied and reviewed the efficacy of Kidneyaid
+> capsules, and asserted that they indeed improve kidney health.”
 
 Pedro, however, is not qualified professional to study and review
 health products, nor does he have any substantial experience prior to
@@ -294,14 +294,14 @@ merits, but due to prejudices.
 ## Appeal to nature
 
 This fallacy is committed when it is argued that just because
-something is “natural” means it is good.
+something is “natural” means it is ideal or good.
 
 > “Juana claims that if a product is not labeled ‘organic’ or
 > ‘natural’, then it is not ideal for consumption.”
 
-[Cultivated tobacco](https://en.wikipedia.org/wiki/Nicotiana_tabacum)
-(*Nicotiana tabacum*) is a plant that is responsible for more than
-five million deaths per year, around the world.
+Cultivated tobacco (*Nicotiana tabacum*) is a naturally-occuring plant
+that is responsible for more than five million deaths per year, around
+the world.
 
 
 ## Appeal to emotion
@@ -421,7 +421,7 @@ This is committed when a conclusion is made from narrow and limited
 views. This is also called the cherry picking fallacy. Mass and social
 media is notorious of this.
 
-> “Juana is living a happy and satisfying life because I frequently
+> “Juana is living a blissful and satisfying life because I frequently
 > see her posts on Facebook that she is happy.”
 
 The observer ignores the possibility that what he sees may not be true
@@ -492,13 +492,13 @@ This is committed when a speaker asserts something, but retracts it
 later by providing contradictory statements. This is also called
 “Having your cake.”
 
-> “Look son, I don’t believe in ghosts. Last night, however, I heard
-> tapping sounds on the night stand. I’m sure nothing could have
-> caused it. It must be these unseen astral forces.”
+> “Look son, I don’t believe in ghosts. Last night, however, when I
+> was alone in my room, I heard tapping sounds on the night stand. I’m
+> sure it wasn’t me. It must be those unseen astral beings.”
 
 The speaker makes a bold statement about not believing in the
 paranormal existence of ghosts, but he backs out later and claims that
-some “astral” forces could be the source of the tapping. He claims X
+some “astral” beings must be the source of the tapping. He claims X
 but states the anti-X, later.
 
 
@@ -525,10 +525,10 @@ successfully attacks the initial position of person B. The goal is to
 move the goalpost so that it will then be difficult for person A to
 attack the new, shifted post.
 
-> Pedro claims that it is due to his daily intake of Liverpaid
-> capsules that makes his liver healthy. When he was diagnosed with
-> cirrhosis, he stated that it could have been worse, had it not been
-> for his Liverpaid capsules.
+> Pedro claims that it is due to his daily intake of Kidneyaid
+> capsules that makes his kidney healthy. When he was diagnosed with
+> kidney stones, he stated that it could have been worse, had it not
+> been for his Kidneyaid capsules.
 
 The speaker adjusted his position when his initial claims were
 jeopardized. When the situation has changed, the speaker changed his
@@ -547,4 +547,4 @@ person A unacceptable.
 
 Presuming that the source information is indeed invalid, it doesn’t
 render the argument that person A is presenting to be invalid,
-too. This is related to argument by origins.
+too. This is related to appeal to origins.
