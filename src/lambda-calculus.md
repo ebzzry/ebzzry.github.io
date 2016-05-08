@@ -3,8 +3,9 @@ A Lambda Calculus Primer
 
 <center>June 12, 2015</center>
 
->You do not really understand something unless you can explain it to
->your grandmother. ―Albert Einstein
+>“You do not really understand something unless you can explain it to
+>your grandmother.”<br>
+>―Albert Einstein
 
 This post is my attempt to do just that, only that the grandmother
 here is myself. I firmly believe that unless I try to explain
@@ -508,12 +509,14 @@ B11
 ≡ 0
 ```
 
+
 ## Conclusion
 
 You’ve just scratched the surface of lambda calculus, but you have
 just witnessed its immense expressive power, considering how minimal
 the system is defined. In our next article, we’ll demystify even more
 lambda calculus magic. Stay tuned!
+
 
 ## References
 
