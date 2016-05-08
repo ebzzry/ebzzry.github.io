@@ -1,7 +1,7 @@
 About
 =====
 
-<img style="margin-right: 0.5em; margin-bottom: 0.5em;" src="images/me.jpg" alt="me" title="me" align="left" />
+<img style="margin-right: 0.5em; margin-bottom: 0.5em;" src="images/author.jpg" alt="Beep. Boop. Meow." title="Beep. Boop. Meow." align="left" />
 
 Rommel M. Martinez is a space pirate of unknown descent. He is
 currently in human form. He was last spotted interacting with
