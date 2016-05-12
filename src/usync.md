@@ -2,6 +2,7 @@ An Introduction to Usync
 ========================
 
 <center>May 21, 2013</center>
+<center>Updated: May 13, 2016</center>
 
 Usync is a a site-to-site synchronization tool written in
 [Scsh](http://www.scsh.net). It makes use of
@@ -9,7 +10,15 @@ Usync is a a site-to-site synchronization tool written in
 [rsync](http://rsync.samba.org/), for bi- and uni-directional
 synchronizations, respectively.
 
-## Introduction
+
+## Table of contents
+
+* [Introduction](#introduction)
+* [Basic usage](#basicusage)
+* [Advanced usage](#advancedusage)
+
+
+## Introduction <a name="introduction"></a>
 
 Site-to-site synchronizations are usually needed, when two locations,
 which are called sites, in this article, make file updates
@@ -24,7 +33,7 @@ from the second office, as if the IT and HR departments, were in the
 first office. Usync helps to achieve this.
 
 
-## Basic usage
+## Basic usage <a name="basicusage"></a>
 
 To perform two-way synchronization of the directory `/pub/yot/ninam`,
 between the current host, to the hosts `tarupam`, and `taubetmo`,
@@ -51,7 +60,7 @@ Ideally, the result is that `localhost:/pub/yot/ninam/`,
 equal.
 
 
-## Advanced usage
+## Advanced usage <a name="advancedusage"></a>
 
 It is also possible to perform synchronization of multiple files, and
 directories, to remote hosts. To do so, run:

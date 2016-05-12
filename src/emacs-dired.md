@@ -2,6 +2,7 @@ Emacs and Dired
 ===============
 
 <center>September 26, 2013</center>
+<center>Updated: May 13, 2016</center>
 
 In this post, I’ll be focusing on one of the novel ways Emacs handles
 “directory editing”. The directory editor, or _Dired_ (pronounced
@@ -10,7 +11,16 @@ manager. Whatever you can do with regular file buffers, you can also
 do it with dired buffers, to a certain extent.
 
 
-## Introduction
+## Table of contents
+
+* [Introduction](#introduction)
+* [Common commands](#commoncommands)
+* [Mark commands](#markcommands)
+* [Other commands](#othercommands)
+* [WDired mode](#wdired)
+
+
+## Introduction <a name="introduction"></a>
 
 To run Dired, run Emacs on the command line, supplying a directory as
 its argument:
@@ -39,7 +49,7 @@ shortcuts in this article are case-sensitive, unless explicitly stated
 otherwise.
 
 
-## Common commands
+## Common commands <a name="commoncommands"></a>
 
 These are the usual commands that you would use, in a dired buffer. In
 addition to that, they can operate on single, or multiple items. Using
@@ -69,7 +79,7 @@ them for multiple items will be explained, next.
 └─────┴──────────────────────────────────────────────────┘
 ```
 
-## Mark commands
+## Mark commands <a name="markcommands"></a>
 
 These commands perform mark-related operations on items. Creating
 marks simply means putting a tag on items, so that you can perform the
@@ -94,7 +104,7 @@ operations in the previous section, on them.
 ```
 
 
-## Other commands
+## Other commands <a name="othercommands"></a>
 
 These commands act on their own. They operate on single items, and
 they don’t make use of marks. The <kbd>w</kbd> command, however, is an
@@ -126,7 +136,7 @@ exception.
 └─────┴──────────────────────────────────────────────────┘
 ```
 
-## WDired mode
+## WDired mode <a name="wdired"></a>
 
 *BUT*, one of the coolest, and often-overlooked feature of dired is
 the _WDired_ mode. What it does is that it gives you a decent ability
