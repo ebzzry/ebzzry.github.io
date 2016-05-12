@@ -2,19 +2,38 @@ Verb Tenses
 ===========
 
 <center>April 6, 2016</center>
+<center>Updated: May 13, 2016</center>
 
 *Click [here](verb-tenses-concise.html) for the concise version.*
 
 To read, write, and speak better English, learning the qualities and
 peculiarities between the different verb tenses is important. Knowing
 how to and when to use them will enable you have a better appreciation
-of not only English, but also linguistics in general.
+of not only English, but also languages in general.
+
+## Table of contents
+
+* [Simple](#simple)
+  - [Simple past](#simplepast)
+  - [Simple present](#simplepresent)
+  - [Simple future](#simplefuture)
+* [Perfect](#perf)
+  - [Perfect past](#perfpast)
+  - [Perfect present](#perfpresent)
+  - [Perfect future](#perffuture)
+* [Progressive](#prog)
+  - [Progressive past](#progpast)
+  - [Progressive present](#progpresent)
+  - [Progressive future](#progfuture)
+* [Perfect progressive](#perfprog)
+  - [Perfect progressive past](#perfprogpast)
+  - [Perfect progressive present](#perfprogpresent)
+  - [Perfect progressive future](#perfprogfuture)
 
 
-Simple
-------
+## Simple <a name="simple"></a>
 
-### Past
+### Past <a name="simplepast"></a>
 
 The simple past tense shows an action that has started and finished in
 the past.
@@ -23,7 +42,7 @@ the past.
 
 *Maria created a painting in the past, and she has also finished it in the past.*
 
-### Present
+### Present <a name="simplepresent"></a>
 
 The simple present tense shows an action that is repeating, or
 unchanging.
@@ -32,7 +51,7 @@ unchanging.
 
 *Maria creates paintings, and she still continues to do so.*
 
-### Future
+### Future <a name="simplefuture"></a>
 
 The simple future tense shows an action that will happen in the future.
 
@@ -41,10 +60,9 @@ The simple future tense shows an action that will happen in the future.
 *Maria is going to create a beautiful painting in the future.*
 
 
-Perfect
--------
+## Perfect <a name="perf"></a>
 
-### Past
+### Past <a name="perfpast"></a>
 
 The past perfect tense shows action that happened in the past, before
 another past action. The hint here is the presence of two actions that
@@ -54,7 +72,7 @@ happened in the past.
 
 *Before Juan arrived, Maria had created a painting.*
 
-### Present
+### Present <a name="perfpresent"></a>
 
 The present perfect tense shows action that happened in the past, or
 that began in the past and still continues to the present. This tense
@@ -64,7 +82,7 @@ is like a combination of past and present tenses.
 
 *Maria created paintings, and she has already stopped, or she still paints to this day.*
 
-### Future
+### Future <a name="perffuture"></a>
 
 The future perfect tense shows action that will happen in the future,
 before another action. This is like the inverse of past perfect tense.
@@ -74,10 +92,9 @@ before another action. This is like the inverse of past perfect tense.
 *Before Juan arrives, Maria will have created a painting.*
 
 
-Progressive
------------
+## Progressive <a name="prog"></a>
 
-### Past
+### Past <a name="progpast"></a>
 
 The past progressive tense shows an action that was happening in the
 past, when another action happened. The hint here is that an action
@@ -87,7 +104,7 @@ was occuring, together with another action.
 
 *Maria was already creating a painting, when Juan arrived from school.*
 
-### Present
+### Present <a name="progpresent"></a>
 
 The present progressive tense shows action that is happening at the
 same time the statement is spoken or written. This tense is relative
@@ -97,7 +114,7 @@ to the time the speaker or writer, spoke or wrote.
 
 *Maria is creating a painting, at the time the speaker said this statement.*
 
-### Future
+### Future <a name="progfuture"></a>
 
 The future progressive tense shows a continuous action that will
 happen in the future.
@@ -107,10 +124,9 @@ happen in the future.
 *Next week, Maria is going to create paintings.*
 
 
-Perfect Progressive
--------------------
+## Perfect Progressive <a name="perfprog"></a>
 
-### Past
+### Past <a name="perfprogpast"></a>
 
 The past perfect progressive tense shows an ongoing action that was
 finished, before another past action.
@@ -119,7 +135,7 @@ finished, before another past action.
 
 *Before Juan arrived, Maria was already creating paintings.*
 
-### Present
+### Present <a name="perfprogpresent"></a>
 
 The present perfect progressive tense shows an action that started in
 the past, continues in the present, and may continue in the future.
@@ -128,7 +144,7 @@ the past, continues in the present, and may continue in the future.
 
 *Maria created paintings in the past, still creates paints, and may create more paintings in the future.*
 
-### Future
+### Future <a name="perfprogfuture"></a>
 
 The future perfect progressive tense shows an action in the future
 that is ongoing, before a specific future time.

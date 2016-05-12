@@ -2,6 +2,7 @@ Symbols and Marks
 =================
 
 <center>April 8, 2016</center>
+<center>Updated: May 13, 2016</center>
 
 *Click [here](symbols-marks-table.html) for the tabular version.*
 
@@ -24,8 +25,17 @@ set in your .Xmodmap file, or in your Desktop Environment (DE)
 configuration.
 
 
-Hyphens (-)
------------
+## Table of contents
+
+* [Hyphens](#hyphens)
+* [En dashes](#endashes)
+* [Em dashes](#emdashes)
+* [Double quotes](#doublequotes)
+* [Single quotes](#singlequotes)
+* [Prime symbols](#prime)
+
+
+## Hyphens (-) <a name="hyphens"></a>
 
 * Windows: -
 * Mac: -
@@ -43,8 +53,7 @@ To speak of a snake that eats birds, we say:
 * A snake eating bird.
 
 
-En dashes (–)
--------------
+## En dashes (–) <a name="endashes"></a>
 
 * Windows: Alt + 0150
 * Mac: Option + -
@@ -62,8 +71,7 @@ between words:
 * San Juan–San Fernando leg
 
 
-Em dashes (—)
--------------
+## Em dashes (—) <a name="emdashes"></a>
 
 * Windows: Alt + 0151
 * Mac: Option + Shift + -
@@ -90,8 +98,7 @@ To denote interruption of the speaker:
 * “I think I will go and—hell, no.”
 
 
-Left and right double quotes (“) (”)
-------------------------------------
+## Left and right double quotes (“) (”) <a name="doublequotes"></a>
 
 Left double quote (“)
 * Windows: Alt + 0147
@@ -122,8 +129,7 @@ Lastly, it is used to mention a part of a whole:
   cute teddy bears.
 
 
-Left and right single quotes (‘) (’)
-------------------------------------
+## Left and right single quotes (‘) (’) <a name="singlequotes"></a>
 
 Left single quote (‘)
 * Windows: Alt + 0145
@@ -146,8 +152,7 @@ contractions, and abbreviations:
 * Dance like ’tis ’60.
 
 
-Prime and double prime (′) (″)
-------------------------------
+## Prime and double prime (′) (″) <a name="prime"></a>
 
 Prime (′)
 * Windows: Alt + 8242

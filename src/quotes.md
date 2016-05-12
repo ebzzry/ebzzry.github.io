@@ -173,7 +173,7 @@ proverbs that I have collected over the years.
 * “The greatest tragedy in mankind’s entire history may be the
   hijacking of morality by religion.”<br>
   ―Arthur C. Clarke, “Credo,” Greetings, Carbon-Based Bipeds!
-  Collected Essays, 1934-1998, 1999
+  Collected Essays, 1934–1998, 1999
 
 
 * “The only way of finding the limits of the possible is by going
@@ -181,7 +181,7 @@ proverbs that I have collected over the years.
   ―Arthur C. Clarke, The Lost Worlds of 2001, 1972
 
 
-* “The secret to creativity is knowing how to cite your sources.”<br>
+* “The secret to creativity is knowing how to hide your sources.”<br>
   ―Albert Einstein
 
 
@@ -297,15 +297,6 @@ proverbs that I have collected over the years.
   ―Stacey Charter
 
 
-* “Sometimes the healing is in the aching.”<br>
-  ―Anonymous
-
-
-* “Remember that sometimes not getting what you want is a wonderful
-  stroke of luck.”<br>
-  ―Dalai Lama XIV
-
-
 * “The first step towards getting somewhere is to decide that you are
   not going to stay where you are.”<br>
   ―J.P. Morgan
@@ -319,16 +310,6 @@ proverbs that I have collected over the years.
 * “You can never cross the ocean, unless you have the courage to lose
   sight of the shore.”<br>
   ―Columbus
-
-
-* “Love is never lost. If not reciprocated, it will flow back and
-  soften and purify the heart.”<br>
-  ―Washington Living
-
-
-* “Sometimes good things fall apart so better things can fall
-  together.”<br>
-  ―Marilyn Monroe
 
 
 * “One day they’ll realize they lost a diamond while playing with
@@ -492,9 +473,8 @@ proverbs that I have collected over the years.
   ―Lacus Clyne, Gundam SEED Destiny
 
 
-* “When something impossible happens, there are two
-  possibilities: either your assumptions are wrong, or you have gone
-  crazy.”<br>
+* “When something impossible happens, there are two possibilities:
+  either your assumptions are wrong, or you have gone crazy.”<br>
   ―Kogami Shinya, Psycho-Pass
 
 
@@ -515,3 +495,13 @@ proverbs that I have collected over the years.
 
 * “If not me, who? And if not now, when?”<br>
   ―Mikhail Gorbachev
+
+
+* “A common man marvels at uncommon things; a wise man marvels at the
+  commonplace.”<br>
+  ―Confucius
+
+
+* “You can discover what your enemy fears most by observing the means
+  he uses to frighten you.”<br>
+  ―Eric Hoffer”

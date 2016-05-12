@@ -2,6 +2,7 @@ Emacs and Pairs
 ===============
 
 <center>August 15, 2015</center>
+<center>Updated: May 13, 2016</center>
 
 In this post, I’ll exclusively talk about _smartparens_ — a package
 that you wish you should have used, earlier, presuming you don’t use
@@ -17,7 +18,29 @@ parentheses. It handles just about anything that pairs, and it
 performs those functions stellarly.
 
 
-## Installation
+## Table of contents
+
+* [Installation](#installation)
+* [Configuration](#configuration)
+* [Usage](#usage)
+  - [Basics](#basics)
+  - [Navigation](#navigation)
+    - [Starts and ends](#startsandends)
+    - [Traversing lists](#traversinglists)
+    - [Block movements](#blockmovements)
+    - [Top-level-ish traversal](#toplevel)
+    - [Free-form movements](#freeform)
+  - [Manipulation](#manipulation)
+    - [Wrapping](#wrapping)
+    - [Unwrapping](#unwrapping)
+    - [Slurp and barf](#slurpandbarf)
+    - [Swapping](#swapping)
+    - [Killing](#killing)
+* [Keys](#keys)
+* [Closing remarks](#closing)
+
+
+## Installation <a name="installation"></a>
 
 Installing smartparens is straightforward:
 
@@ -26,7 +49,7 @@ M-x package-install RET smartparens RET
 ```
 
 
-## Configuration
+## Configuration <a name="configuration"></a>
 
 Let’s enable smartparens on startup, and hook it with some major
 hooks:
@@ -42,7 +65,7 @@ hooks:
 (add-hook 'markdown-mode-hook 'turn-on-smartparens-strict-mode)
 ```
 
-## Usage
+## Usage <a name="usage"></a>
 
 Managing paired characters like parentheses, braces, brackets,
 quotation marks, angle brackets, and other conceivable pair-able
@@ -50,7 +73,7 @@ characters has always been a pain. Other packages solve that problem
 partially. However, they it still miss several points. In the code
 snippets below, the `_` symbol will be used to represent point:
 
-### Basics
+### Basics <a name="basics"></a>
 
 In smartparens, when you input a pair-able character:
 
@@ -70,9 +93,9 @@ the pair:
 ```
 
 
-### Navigation
+### Navigation <a name="navigation"></a>
 
-#### Starts and ends
+#### Starts and ends <a name="startsandends"></a>
 
 If you have the expression:
 
@@ -102,7 +125,7 @@ Conversely, to move point to the end of the expression:
 
 Execute `sp-end-of-sexp`. I bound it to <kbd>C-M-e</kbd>.
 
-#### Traversing lists
+#### Traversing lists <a name="traversinglists"></a>
 
 If you have the expression:
 
@@ -182,7 +205,7 @@ and you want to move point to **(format**:
 Execute `sp-backward-up-sexp`. I bound it to <kbd>M-up</kbd>.
 
 
-#### Block movements
+#### Block movements <a name="blockmovements"></a>
 
 If you have the expression:
 
@@ -213,7 +236,7 @@ Conversely, to move it to **[**:
 Execute `sp-backward-sexp`. I bound it to <kbd>C-M-b</kbd>.
 
 
-#### Top-level-ish traversal
+#### Top-level-ish traversal <a name="toplevel"></a>
 
 If you have the expression:
 
@@ -252,7 +275,7 @@ Conversely, to move it back:
 Execute `sp-previous-sexp`. I bound it to <kbd>C-M-p</kbd>.
 
 
-#### Free-form movements
+#### Free-form movements <a name="freeform"></a>
 
 If you have the expression:
 
@@ -294,9 +317,9 @@ What they do is that they navigate around expressions as if
 delimiters, like parens, brackets, and braces do not exist.
 
 
-### Manipulation
+### Manipulation <a name="manipulation"></a>
 
-#### Wrapping
+#### Wrapping <a name="wrapping"></a>
 
 If you have the expression:
 
@@ -378,7 +401,7 @@ var mods = ["vars"];
 Nothing will happen. smartparens saves us a lot of trouble, here.
 
 
-#### Unwrapping
+#### Unwrapping <a name="unwrapping"></a>
 
 If you have the expression:
 
@@ -411,7 +434,7 @@ parentheses around **bar**:
 Execute `sp-unwrap-sexp`. I bound it to <kbd>M-]</kbd>.
 
 
-#### Slurp and barf
+#### Slurp and barf <a name="slurpandbarf"></a>
 
 If you have the expression:
 
@@ -470,7 +493,7 @@ blah [foo bar]
 Execute `sp-backward-barf-sexp`. I bound it to <kbd>M-left</kbd>.
 
 
-#### Swapping
+#### Swapping <a name="swapping"></a>
 
 If you have the expression:
 
@@ -491,7 +514,7 @@ and you want **"foo"** and **"bar"** to switch places:
 Execute `sp-transpose-sexp`. I bound it to <kbd>C-M-t</kbd>.
 
 
-#### Killing
+#### Killing <a name="killing"></a>
 
 If you have the expression:
 
@@ -541,7 +564,7 @@ Execute `sp-backward-kill-sexp`. I bound it to <kbd>M-k</kbd>
 
 
 
-## Keys
+## Keys <a name="keys"></a>
 
 The following snippet summarizes the key bindings used in this
 article. I use **bind-keys** to conveniently map my keys. I discussed
@@ -598,7 +621,7 @@ about it, in an [earlier](emacs-hacks-2.html) article.
  ("C-c `"  . wrap-with-back-quotes))
 ```
 
-## Conclusion
+## Closing remarks <a name="closing"></a>
 
 The plethora of commands in smartparens may be daunting at first, but
 the investement in time in learning them, will be minimal compared to

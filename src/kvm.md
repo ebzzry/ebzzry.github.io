@@ -2,6 +2,7 @@ Virtualizing with KVM in Linux
 ==============================
 
 <center>June 15, 2015</center>
+<center>Updated: May 13, 2016</center>
 
 Most of you are familiar with
 [full virtualization](https://en.wikipedia.org/wiki/Full_virtualization)
@@ -9,9 +10,16 @@ solutions before like VMware Workstation, VirtualBox, and
 Parallels. In this post, I’ll re-introduce you to another, arguably
 faster, way of doing things.
 
-## Preparation
 
-### Hardware
+## Table of contents
+
+* [Preparation](#preparation)
+  - [Hardware](#hardware)
+  - [Software](#software)
+
+## Preparation <a name="preparation"></a>
+
+### Hardware <a name="hardware"></a>
 
 One of the first things that you need to do is to enable
 [Hardware-assisted virtualization](https://en.wikipedia.org/wiki/Hardware-assisted_virtualization),
