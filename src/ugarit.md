@@ -2,7 +2,7 @@ An Introduction to Ugarit
 =========================
 
 <center>February 21, 2014</center>
-<center>Updated: February 21, 2016</center>
+<center>Updated: May 13, 2016</center>
 
 How many times have you experienced hindsight, after a catastrophic
 event has happened? how many times have you told yourself that had you
@@ -22,7 +22,24 @@ In this post, I’ll talk about
 in a single tool.
 
 
-## Introduction
+## Table of contents
+
+* [Introduction](#introduction)
+* [Installation](#installation)
+  - [APT](#apt)
+  - [Nix](#nix)
+* [Configuration](#configuration)
+* [Basic usage](#basic)
+  - [Creating snapshots](#create)
+  - [Exploring snapshots](#explore)
+  - [Extracting snapshots directly](#extract)
+* [Tips](#tips)
+  - [Remote filesystem](#remote)
+  - [Miscellany](#miscellany)
+* [Notes](#notes)
+
+
+## Introduction <a name="introduction"></a>
 
 Ugarit is a classic example of a tool, that requires minimal setup and
 configuration, but is used many times. That, once the initial
@@ -36,9 +53,9 @@ it is. With Ugarit, creating and managing backups is as easy as typing
 a short command.
 
 
-## Installation
+## Installation <a name="installation"></a>
 
-### APT
+### APT <a name="apt"></a>
 
 First, you need to install [Chicken](http://www.call-cc.org/). Most
 likely, it can be installed via your package manager:
@@ -64,7 +81,7 @@ available. To display usage:
 $ ugarit -h
 ```
 
-### Nix
+### Nix <a name="nix"></a>
 
 If you’re using Nix, just run the following command:
 
@@ -73,7 +90,7 @@ $ nix-env -iA ugarit
 ```
 
 
-## Configuration
+## Configuration <a name="configuration"></a>
 
 Ugarit at this point isn’t usable yet — you need to specify where
 should it store the snapshots. When creating a snapshot of a directory
@@ -137,9 +154,9 @@ $ chmod 600 /ugarit/ugarit.conf
 ```
 
 
-## Basic usage
+## Basic usage <a name="basic"></a>
 
-### Creating snapshots
+### Creating snapshots <a name="create"></a>
 
 To create a snapshot, run:
 
@@ -168,7 +185,7 @@ Written 910460 bytes to the vault in 4 blocks, and reused 0 bytes in 0 blocks
 File cache has saved us 1 file hashings / 638104 bytes (before compression)
 ```
 
-### Exploring Snapshots
+### Exploring Snapshots <a name="explore"></a>
 
 To interactively manage the contents of the vault, run:
 
@@ -196,7 +213,7 @@ Extracted holiday
 /pix/current/contents> exit
 ```
 
-### Extracting Snapshots Directly
+### Extracting Snapshots Directly <a name="extract"></a>
 
 If, however, you know the exact path to a file or directory that you
 want to extract, you can instead run Ugarit with the extract mode. To
@@ -206,9 +223,9 @@ extract the directory `holiday/` from above, directly, run:
 $ ugarit extract /ugarit/ugarit.conf /pix/current/contents/holiday
 ```
 
-## Tips
+## Tips <a name="tips"></a>
 
-### Remote filesystems
+### Remote filesystems <a name="remote"></a>
 
 Ugarit is not limited to creating snapshots of a local filesystem. It
 can also be used to create snapshots of trees, from a remote host,
@@ -233,7 +250,7 @@ $ cd ~/mnt/smbfs
 $ ugarit snapshot /ugarit/ugarit.conf winhost
 ```
 
-### Miscellany
+### Miscellany <a name="miscellany"></a>
 
 To disable output, when creating snapshots:
 
@@ -247,7 +264,7 @@ To enable very verbose output:
 $ ugarit snapshot -:a256 /ugarit/ugarit.conf ...
 ```
 
-## Notes
+## Notes <a name="notes"></a>
 
 When you are doubtful of the performance of the disk where you’ll be
 storing the snapshots, disable the
