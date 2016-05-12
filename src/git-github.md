@@ -2,6 +2,7 @@ A Brief Git and GitHub Tour
 ===========================
 
 <center>August 29, 2015</center>
+<center>Updated: May 13, 2016</center>
 
 This short tutorial shows how to use [git](https://git-scm.com/) with
 a [GitHub](https://github.com) workflow. A quick Google of
@@ -14,9 +15,26 @@ used in this tutorial is [vi](https://en.wikipedia.org/wiki/Vi). A
 short introduction to _vi_ is located at
 [http://www.nuxified.org/vi_survival_guide](http://www.nuxified.org/vi_survival_guide).
 
-## Basics
 
-### Initial use
+## Table of contents
+
+* [Basics](#basics)
+  - [Initial use](#initial)
+  - [Subsequent uses](#subsequent)
+* [Working online](#online)
+  - [Generate your SSH keys](#sshkeys)
+  - [Creating a repository](#createrepo)
+  - [Updating your repository](#updaterepo)
+  - [Participation](#participation)
+  - [Synchronizing with upstream](#syncupstream)
+* [Pulling changes](#pulling)
+* [Merging with upstream](#mergeupstream)
+* [Closing remarks](#closing)
+
+
+## Basics <a name="basics"></a>
+
+### Initial use <a name="initial"></a>
 
 To make things easier later on, you’ll need to create a `.gitignore`
 file. The .gitignore file specifiles files that will be excluded
@@ -52,7 +70,7 @@ Then, commit the changes:
     $ git commit -m "Initial commit."
 
 
-### Subsequent uses
+### Subsequent uses <a name="subsequent"></a>
 
 This section describes the basic commands that you’re going to use,
 when you already have a repository.
@@ -99,12 +117,12 @@ After that, you may delete the experimental branch:
     $ git branch -d experimental
 
 
-## Working online
+## Working online <a name="online"></a>
 
 This section describes how to work with other developers. You’re going
 to use [GitHub](https://github.com) in this discussion.
 
-### Generate your SSH keys
+### Generate your SSH keys <a name="sshkeys"></a>
 
 You need to be able to authenticate yourself to your GitHub account,
 before you can push changes. To do that, you need to create your SSH
@@ -126,7 +144,7 @@ Go to <https://github.com/settings/ssh>, then click **Add SSH key**
 Paste the key, then follow through.
 
 
-### Creating a repository
+### Creating a repository <a name="createrepo"></a>
 
 In your repositories page, create a new repository by clicking
 **New**:
@@ -146,7 +164,7 @@ above. The `git push` command uploads the contents of your repository
 to the remote repository.
 
 
-### Updating your repository
+### Updating your repository <a name="updaterepo"></a>
 
 When you have made further changes to the repository, you may push
 your changes with the command:
@@ -154,7 +172,7 @@ your changes with the command:
     $ git push origin master
 
 
-### Participation
+### Participation <a name="participation"></a>
 
 If you want to contribute to a project, you’ll need to work on a copy
 of that repository, then push changes to your own fork.
@@ -218,7 +236,7 @@ above. Click **Create pull request**:
 then, follow through.
 
 
-### Synchronizing with upstream
+### Synchronizing with upstream <a name="syncupstream"></a>
 
 To synchronize the upstream branch with the source repository, pull
 changes from the upstream remote:
@@ -230,7 +248,7 @@ Then push to your own repository:
     $ git push origin master
 
 
-## Pulling changes
+## Pulling changes <a name="pulling"></a>
 
 If you are the owner of the source repository, and you want to pull in
 changes from contributors, click **Pull requests** from the repository
@@ -241,7 +259,7 @@ page:
 then, follow through.
 
 
-## Merging with upstream
+## Merging with upstream <a name="mergeupstream"></a>
 
 If you are a contributor, and your changes have been pulled in the
 source repository, synchronize your upstream branch:
@@ -254,7 +272,7 @@ created earlier:
     $ git branch -d new-options
 
 
-## Closing remarks
+## Closing remarks <a name="closing"></a>
 
 The workflow described in this document is only one of the many usable
 workflows that one can use. This document serves as an introduction

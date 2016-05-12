@@ -2,13 +2,26 @@ Conkeror’s Bookmarks
 ====================
 
 <center>August 16, 2015</center>
+<center>Updated: May 13, 2016</center>
 
 I wanted a simple, and easy way to view my bookmarks in
 [Conkeror](http://conkeror.org). However, the proposed solutions on
 the wiki are not suitable for me. So, I rolled my own.
 
 
-## Prerequisites
+## Table of contents
+
+* [Prerequisites](#prereq)
+* [Extract the data](#extract)
+* [Generate the bookmarks](#generate)
+* [Create a command-line viewer](#cli)
+* [Define conkeror commands](#commands)
+* [Alternatives](#alternatives)
+* [Managing the bookmarks](#managing)
+* [Closing remarks](#closing)
+
+
+## Prerequisites <a name="prereq"></a>
 
 One of the most important tool that you need to have is the _sqlite3_
 command. Chances are, your system provides a way to install it. To
@@ -43,7 +56,7 @@ $ emem --version
 If it reports at least **emem-0.2.1**, then you’re good to go.
 
 
-## Extract the data
+## Extract the data <a name="extract"></a>
 
 You need to have a way first to extract the data from a sqlite3
 database, which Conkeror uses to store the bookmarks, among other
@@ -66,7 +79,7 @@ The command above selects the **title** and **url** columns from the
 **moz_bookmarks** table, then sorts them by creation date.
 
 
-## Generate the bookmarks
+## Generate the bookmarks <a name="generate"></a>
 
 Next, you need to have a way to generate the HTML file that you’re
 going to view later in Conkeror. Add the following to your
@@ -91,7 +104,7 @@ What it does is that it filters the output of **cob**, which _emem_ then
 uses to generate the HTML file.
 
 
-## Create a CLI viewer
+## Create a command-line viewer <a name="cli"></a>
 
 Now that you can build the HTML file, you need to have a command that
 will load the bookmarks in Conkeror. Add the following to your
@@ -103,7 +116,7 @@ bm () {
 }
 ```
 
-## Conkeror commands
+## Define conkeror commands <a name="commands"></a>
 
 Let’s now create interactive commands for Conkeror, for generating and
 viewing the bookmarks. Open your `~/.conkerorrc` file, then put the
@@ -144,7 +157,7 @@ M-x bm RET
 ```
 
 
-## Alternatives
+## Alternatives <a name="alternatives"></a>
 
 I separated the procedure of generating the bookmarks, from viewing
 it, because I want to be able to view the bookmarks file quickly,
@@ -170,7 +183,7 @@ Invoke it with:
 M-x bm RET
 ```
 
-## Managing the boomarks
+## Managing the boomarks <a name="managing"></a>
 
 An easy way to manage the bookmarks is to use the
 [SQLite Manager](https://github.com/lazierthanthou/sqlite-manager)
@@ -214,7 +227,7 @@ unable to start, after you exit it, unless you restore from “clean”
 SQLite files, while Conkeror is not running.
 
 
-## Conclusion
+## Closing remarks <a name="closing"></a>
 
 The bookmarks displayed in `M-x bm`, will be sorted by time of
 creation, in a descending order. The bookmarks listed are also not

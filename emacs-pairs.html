@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html><head><title>Emacs and Pairs</title><meta charset="utf-8" /><meta content="width=device-width, initial-scale=1.0, user-scalable=yes" name="viewport" /><link href="static/ico/apple-touch-icon-57x57.png" rel="apple-touch-icon" sizes="57x57" /><link href="static/ico/apple-touch-icon-60x60.png" rel="apple-touch-icon" sizes="60x60" /><link href="static/ico/apple-touch-icon-72x72.png" rel="apple-touch-icon" sizes="72x72" /><link href="static/ico/apple-touch-icon-76x76.png" rel="apple-touch-icon" sizes="76x76" /><link href="static/ico/apple-touch-icon-114x114.png" rel="apple-touch-icon" sizes="114x114" /><link href="static/ico/apple-touch-icon-120x120.png" rel="apple-touch-icon" sizes="120x120" /><link href="static/ico/apple-touch-icon-144x144.png" rel="apple-touch-icon" sizes="144x144" /><link href="static/ico/apple-touch-icon-152x152.png" rel="apple-touch-icon" sizes="152x152" /><link href="static/ico/apple-touch-icon-180x180.png" rel="apple-touch-icon" sizes="180x180" /><link href="static/ico/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png" /><link href="static/ico/favicon-194x194.png" rel="icon" sizes="194x194" type="image/png" /><link href="static/ico/favicon-96x96.png" rel="icon" sizes="96x96" type="image/png" /><link href="static/ico/android-chrome-192x192.png" rel="icon" sizes="192x192" type="image/png" /><link href="static/ico/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png" /><link href="static/ico/manifest.json" rel="manifest" /><link href="static/ico/favicon.ico" rel="shortcut icon" /><meta content="#da532c" name="msapplication-TileColor" /><meta content="static/ico/mstile-144x144.png" name="msapplication-TileImage" /><meta content="static/ico/browserconfig.xml" name="msapplication-config" /><meta content="#ffffff" name="theme-color" /><link href="static/ico/glider.ico" rel="icon" type="image/x-icon" /><link href="static/css/main.css" media="all" rel="stylesheet" /><link href="static/css/ewan.css" media="all" rel="stylesheet" /><script src="static/js/highlight.pack.js"></script><script>hljs.initHighlightingOnLoad();</script></head><body><div id="content"><h1>Emacs and Pairs</h1><p><center>August 15, 2015</center></p><p>In this post, I’ll exclusively talk about <i>smartparens</i> — a package that you wish you should have used, earlier, presuming you don’t use it yet. If you’re new to it, read along; if not, this may be a good refresher.</p><p><i>smartparens</i> is one of those packages that drastically improves, and changes how one uses Emacs. It’s like having cybernetic limbs — it makes you jump higher, and punch harder.</p><p>Take note, though, that the name is a misnomer, as it not only handles parentheses. It handles just about anything that pairs, and it performs those functions stellarly.</p><h2>Installation</h2><p>Installing smartparens is straightforward:</p><pre><code>M-x package-install RET smartparens RET
-</code></pre><h2>Configuration</h2><p>Let’s enable smartparens on startup, and hook it with some major hooks:</p><pre><code class="lisp">&#40;use-package smartparens-config
+<html><head><title>Emacs and Pairs</title><meta charset="utf-8" /><meta content="width=device-width, initial-scale=1.0, user-scalable=yes" name="viewport" /><link href="static/ico/apple-touch-icon-57x57.png" rel="apple-touch-icon" sizes="57x57" /><link href="static/ico/apple-touch-icon-60x60.png" rel="apple-touch-icon" sizes="60x60" /><link href="static/ico/apple-touch-icon-72x72.png" rel="apple-touch-icon" sizes="72x72" /><link href="static/ico/apple-touch-icon-76x76.png" rel="apple-touch-icon" sizes="76x76" /><link href="static/ico/apple-touch-icon-114x114.png" rel="apple-touch-icon" sizes="114x114" /><link href="static/ico/apple-touch-icon-120x120.png" rel="apple-touch-icon" sizes="120x120" /><link href="static/ico/apple-touch-icon-144x144.png" rel="apple-touch-icon" sizes="144x144" /><link href="static/ico/apple-touch-icon-152x152.png" rel="apple-touch-icon" sizes="152x152" /><link href="static/ico/apple-touch-icon-180x180.png" rel="apple-touch-icon" sizes="180x180" /><link href="static/ico/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png" /><link href="static/ico/favicon-194x194.png" rel="icon" sizes="194x194" type="image/png" /><link href="static/ico/favicon-96x96.png" rel="icon" sizes="96x96" type="image/png" /><link href="static/ico/android-chrome-192x192.png" rel="icon" sizes="192x192" type="image/png" /><link href="static/ico/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png" /><link href="static/ico/manifest.json" rel="manifest" /><link href="static/ico/favicon.ico" rel="shortcut icon" /><meta content="#da532c" name="msapplication-TileColor" /><meta content="static/ico/mstile-144x144.png" name="msapplication-TileImage" /><meta content="static/ico/browserconfig.xml" name="msapplication-config" /><meta content="#ffffff" name="theme-color" /><link href="static/ico/glider.ico" rel="icon" type="image/x-icon" /><link href="static/css/main.css" media="all" rel="stylesheet" /><link href="static/css/ewan.css" media="all" rel="stylesheet" /><script src="static/js/highlight.pack.js"></script><script>hljs.initHighlightingOnLoad();</script></head><body><div id="content"><h1>Emacs and Pairs</h1><p><center>August 15, 2015</center> <center>Updated: May 13, 2016</center></p><p>In this post, I’ll exclusively talk about <i>smartparens</i> — a package that you wish you should have used, earlier, presuming you don’t use it yet. If you’re new to it, read along; if not, this may be a good refresher.</p><p><i>smartparens</i> is one of those packages that drastically improves, and changes how one uses Emacs. It’s like having cybernetic limbs — it makes you jump higher, and punch harder.</p><p>Take note, though, that the name is a misnomer, as it not only handles parentheses. It handles just about anything that pairs, and it performs those functions stellarly.</p><h2>Table of contents</h2><ul><li><a href='#installation'>Installation</a></li><li><a href='#configuration'>Configuration</a></li><li><a href='#usage'>Usage</a><ul><li><a href='#basics'>Basics</a></li><li><a href='#navigation'>Navigation</a><ul><li><a href='#startsandends'>Starts and ends</a></li><li><a href='#traversinglists'>Traversing lists</a></li><li><a href='#blockmovements'>Block movements</a></li><li><a href='#toplevel'>Top-level-ish traversal</a></li><li><a href='#freeform'>Free-form movements</a></li></ul></li><li><a href='#manipulation'>Manipulation</a><ul><li><a href='#wrapping'>Wrapping</a></li><li><a href='#unwrapping'>Unwrapping</a></li><li><a href='#slurpandbarf'>Slurp and barf</a></li><li><a href='#swapping'>Swapping</a></li><li><a href='#killing'>Killing</a></li></ul></li></ul></li><li><a href='#keys'>Keys</a></li><li><a href='#closing'>Closing remarks</a></li></ul><h2>Installation <a name="installation"></a></h2><p>Installing smartparens is straightforward:</p><pre><code>M-x package-install RET smartparens RET
+</code></pre><h2>Configuration <a name="configuration"></a></h2><p>Let’s enable smartparens on startup, and hook it with some major hooks:</p><pre><code class="lisp">&#40;use-package smartparens-config
     :ensure smartparens
     :config
     &#40;progn
@@ -8,13 +8,13 @@
 
 &#40;add-hook 'prog-mode-hook 'turn-on-smartparens-strict-mode&#41;
 &#40;add-hook 'markdown-mode-hook 'turn-on-smartparens-strict-mode&#41;
-</code></pre><h2>Usage</h2><p>Managing paired characters like parentheses, braces, brackets, quotation marks, angle brackets, and other conceivable pair-able characters has always been a pain. Other packages solve that problem partially. However, they it still miss several points. In the code snippets below, the <code>&#95;</code> symbol will be used to represent point:</p><h3>Basics</h3><p>In smartparens, when you input a pair-able character:</p><pre><code class="clojure">
+</code></pre><h2>Usage <a name="usage"></a></h2><p>Managing paired characters like parentheses, braces, brackets, quotation marks, angle brackets, and other conceivable pair-able characters has always been a pain. Other packages solve that problem partially. However, they it still miss several points. In the code snippets below, the <code>&#95;</code> symbol will be used to represent point:</p><h3>Basics <a name="basics"></a></h3><p>In smartparens, when you input a pair-able character:</p><pre><code class="clojure">
 &#40;defn foo &#41;
           ̅
 </code></pre><p>the matching pair gets inserted, too, and point is positioned inside the pair:</p><pre><code class="clojure">
 &#40;defn foo &#91;&#93;&#41;
            ̅
-</code></pre><h3>Navigation</h3><h4>Starts and ends</h4><p>If you have the expression:</p><pre><code class="clojure">
+</code></pre><h3>Navigation <a name="navigation"></a></h3><h4>Starts and ends <a name="startsandends"></a></h4><p>If you have the expression:</p><pre><code class="clojure">
 &#40;let &#91;x &quot;foo bar baz ... blah&quot;&#93;&#41;
                          ̅
 </code></pre><p>and you want to move point to the start of the string:</p><pre><code class="clojure">
@@ -23,7 +23,7 @@
 </code></pre><p>Execute <code>sp-beginning-of-sexp</code>. I bound it to <kbd>C-M-a</kbd>.</p><p>Conversely, to move point to the end of the expression:</p><pre><code class="clojure">
 &#40;let &#91;x &quot;foo bar baz ... blah&quot;&#93;&#41;
                              ̅
-</code></pre><p>Execute <code>sp-end-of-sexp</code>. I bound it to <kbd>C-M-e</kbd>.</p><h4>Traversing lists</h4><p>If you have the expression:</p><pre><code class="lisp">
+</code></pre><p>Execute <code>sp-end-of-sexp</code>. I bound it to <kbd>C-M-e</kbd>.</p><h4>Traversing lists <a name="traversinglists"></a></h4><p>If you have the expression:</p><pre><code class="lisp">
 &#40;defun format-date &#40;format&#41;
   &#40;let &#40;&#40;system-time-locale &quot;en&#95;US.UTF-8&quot;&#41;&#41;
     &#40;insert &#40;format-time-string format&#41;&#41;&#41;&#41; ̅
@@ -51,7 +51,7 @@
 </code></pre><p>and you want to move point to <strong>(format</strong>:</p><pre><code class="lisp">
 &#40;insert &#40;format-time-string format&#41;&#41;
         ̅
-</code></pre><p>Execute <code>sp-backward-up-sexp</code>. I bound it to <kbd>M-up</kbd>.</p><h4>Block movements</h4><p>If you have the expression:</p><pre><code class="clojure">
+</code></pre><p>Execute <code>sp-backward-up-sexp</code>. I bound it to <kbd>M-up</kbd>.</p><h4>Block movements <a name="blockmovements"></a></h4><p>If you have the expression:</p><pre><code class="clojure">
 &#40;:require &#91;clojure.string :as s&#93;&#41;
           ̅
 </code></pre><p>and you want to move point after <strong>]</strong>:</p><pre><code class="clojure">
@@ -60,7 +60,7 @@
 </code></pre><p>Execute <code>sp-forward-sexp</code>. I bound it to <kbd>C-M-f</kbd></p><p>Conversely, to move it to <strong>[</strong>:</p><pre><code class="clojure">
 &#40;:require &#91;clojure.string :as s&#93;&#41;
           ̅
-</code></pre><p>Execute <code>sp-backward-sexp</code>. I bound it to <kbd>C-M-b</kbd>.</p><h4>Top-level-ish traversal</h4><p>If you have the expression:</p><pre><code class="clojure">
+</code></pre><p>Execute <code>sp-backward-sexp</code>. I bound it to <kbd>C-M-b</kbd>.</p><h4>Top-level-ish traversal <a name="toplevel"></a></h4><p>If you have the expression:</p><pre><code class="clojure">
 &#40;defn blah
   &quot;Returns blah of foo.&quot;
   &#91;foo&#93;                 ̅
@@ -78,7 +78,7 @@
   &#91;foo&#93;                 ̅
   &#41;
 
-</code></pre>Execute <code>sp-previous-sexp</code>. I bound it to <kbd>C-M-p</kbd>.<h4>Free-form movements</h4><p>If you have the expression:</p><pre><code class="clojure">
+</code></pre>Execute <code>sp-previous-sexp</code>. I bound it to <kbd>C-M-p</kbd>.<h4>Free-form movements <a name="freeform"></a></h4><p>If you have the expression:</p><pre><code class="clojure">
 &#40;defn blah &#91;&#93; &#40;let &#91;x 0 y 1&#93; &#40;+ x 1&#41;&#41;&#41;
                ̅
 </code></pre><p>and you want to move point to <strong>blah</strong>:</p><pre><code class="clojure">
@@ -90,7 +90,7 @@
 </code></pre><p>and you want to move point just after <strong>(let</strong>:</p><pre><code class="clojure">
 &#40;defn blah &#91;&#93; &#40;let &#91;x 0 y 1&#93; &#40;+ x 1&#41;&#41;&#41;
                   ̅
-</code></pre><p>Execute <code>sp-forward-symbol</code>. I bound it to <kbd>C-S-f</kbd>.</p><p>What they do is that they navigate around expressions as if delimiters, like parens, brackets, and braces do not exist.</p><h3>Manipulation</h3><h4>Wrapping</h4><p>If you have the expression:</p><pre><code class="javascript">
+</code></pre><p>Execute <code>sp-forward-symbol</code>. I bound it to <kbd>C-S-f</kbd>.</p><p>What they do is that they navigate around expressions as if delimiters, like parens, brackets, and braces do not exist.</p><h3>Manipulation <a name="manipulation"></a></h3><h4>Wrapping <a name="wrapping"></a></h4><p>If you have the expression:</p><pre><code class="javascript">
 var mods = &quot;vars&quot;;
            ̅
 </code></pre><p>and you want <strong>"vars"</strong> to be surrounded by <strong>[</strong>, and <strong>]</strong>:</p><pre><code class="javascript">
@@ -123,7 +123,7 @@ var mods = &#91;&quot;vars&quot;&#93;;
 </code></pre><p>Press <kbd>C-c [</kbd>.</p><p>Sometimes, we inadvertently delete one of the pair characters — this results in an unbalanced expression. smartparens prevents us from doing that. If you hit <kbd>Backspace</kbd> in this expression:</p><pre><code class="javascript">
 var mods = &#91;&quot;vars&quot;&#93;;
             ̅
-</code></pre><p>Nothing will happen. smartparens saves us a lot of trouble, here.</p><h4>Unwrapping</h4><p>If you have the expression:</p><pre><code class="clojure">
+</code></pre><p>Nothing will happen. smartparens saves us a lot of trouble, here.</p><h4>Unwrapping <a name="unwrapping"></a></h4><p>If you have the expression:</p><pre><code class="clojure">
 &#40;foo &#40;bar x y z&#41;&#41;
      ̅
 </code></pre><p>and you want to unwrap the <strong>bar</strong> expression, removing the parentheses around <strong>foo</strong>:</p><pre><code class="clojure">
@@ -132,7 +132,7 @@ foo &#40;bar x y z&#41;
 </code></pre><p>Execute <code>sp-backward-unwrap-sexp</code>. I bound it to <kbd>M-[</kbd></p><p>Conversely, if you want to unwrap the <strong>bar</strong> expression, removing the parentheses around <strong>bar</strong>:</p><pre><code class="clojure">
 &#40;foo bar x y z&#41;
      ̅
-</code></pre><p>Execute <code>sp-unwrap-sexp</code>. I bound it to <kbd>M-]</kbd>.</p><h4>Slurp and barf</h4><p>If you have the expression:</p><pre><code class="clojure">
+</code></pre><p>Execute <code>sp-unwrap-sexp</code>. I bound it to <kbd>M-]</kbd>.</p><h4>Slurp and barf <a name="slurpandbarf"></a></h4><p>If you have the expression:</p><pre><code class="clojure">
 &#91;foo bar&#93; baz
         ̅
 </code></pre><p>and you want <strong>baz</strong> to be part of <strong>foo</strong> and <strong>bar</strong>:</p><pre><code class="clojure">
@@ -150,13 +150,13 @@ blah &#91;foo bar&#93;
 </code></pre><p>Execute <code>sp-backward-slurp-sexp</code>. I bound it to <kbd>C-left</kbd>.</p><p>Conversely, if you want to remove <strong>blah</strong>:</p><pre><code class="clojure">
 blah &#91;foo bar&#93;
              ̅
-</code></pre><p>Execute <code>sp-backward-barf-sexp</code>. I bound it to <kbd>M-left</kbd>.</p><h4>Swapping</h4><p>If you have the expression:</p><pre><code class="clojure">
+</code></pre><p>Execute <code>sp-backward-barf-sexp</code>. I bound it to <kbd>M-left</kbd>.</p><h4>Swapping <a name="swapping"></a></h4><p>If you have the expression:</p><pre><code class="clojure">
 &quot;foo&quot; &quot;bar&quot;
       ̅
 </code></pre><p>and you want <strong>"foo"</strong> and <strong>"bar"</strong> to switch places:</p><pre><code class="clojure">
 &quot;bar&quot; &quot;foo&quot;
       ̅
-</code></pre><p>Execute <code>sp-transpose-sexp</code>. I bound it to <kbd>C-M-t</kbd>.</p><h4>Killing</h4><p>If you have the expression:</p><pre><code class="clojure">
+</code></pre><p>Execute <code>sp-transpose-sexp</code>. I bound it to <kbd>C-M-t</kbd>.</p><h4>Killing <a name="killing"></a></h4><p>If you have the expression:</p><pre><code class="clojure">
 &#40;let &#91;x &quot;xxx&quot; y &quot;y yy yyy&quot; z 0&#93;&#41;
                ̅
 </code></pre><p>and you want to kill just <strong>"y yy yyy"</strong>:</p><pre><code class="clojure">
@@ -171,7 +171,7 @@ blah &#91;foo bar&#93;
 </code></pre><p>and you want to kill <strong>[clojure.string :as s]</strong>:</p><pre><code class="clojure">
 &#40;:require &#41;
           ̅
-</code></pre><p>Execute <code>sp-backward-kill-sexp</code>. I bound it to <kbd>M-k</kbd></p><h2>Keys</h2><p>The following snippet summarizes the key bindings used in this article. I use <strong>bind-keys</strong> to conveniently map my keys. I discussed about it, in an <a href='emacs-hacks-2.html'>earlier</a> article.</p><pre><code class="lisp">&#40;bind-keys
+</code></pre><p>Execute <code>sp-backward-kill-sexp</code>. I bound it to <kbd>M-k</kbd></p><h2>Keys <a name="keys"></a></h2><p>The following snippet summarizes the key bindings used in this article. I use <strong>bind-keys</strong> to conveniently map my keys. I discussed about it, in an <a href='emacs-hacks-2.html'>earlier</a> article.</p><pre><code class="lisp">&#40;bind-keys
  :map smartparens-mode-map
  &#40;&quot;C-M-a&quot; . sp-beginning-of-sexp&#41;
  &#40;&quot;C-M-e&quot; . sp-end-of-sexp&#41;
@@ -219,4 +219,4 @@ blah &#91;foo bar&#93;
  &#40;&quot;C-c \&quot;&quot; . wrap-with-double-quotes&#41;
  &#40;&quot;C-c &#95;&quot;  . wrap-with-underscores&#41;
  &#40;&quot;C-c `&quot;  . wrap-with-back-quotes&#41;&#41;
-</code></pre><h2>Conclusion</h2><p>The plethora of commands in smartparens may be daunting at first, but the investement in time in learning them, will be minimal compared to benefits that you will reap.</p><p>smartparens is the brainchild of <a href='matus.goljer@gmail.com'>Matus Goljer</a>. For more information on smartparens, go to <a href="https://github.com/Fuco1/smartparens">https://github.com/Fuco1/smartparens</a>. If you like this project, you can donate <a href='https://www.paypal.com/cgi-bin/webscr?cmd=&#95;s-xclick&hosted&#95;button&#95;id=CEYP5YVHDRX8C'>here</a>.</p><hr/><div style="text-align: right; float: right; max-width: 18em;"><div style="font-size: small;"><a href='index.html'>Home</a>  <a href='about.html'>About</a>  <a href='quotes.html'>Quotes</a>  <a href='words.html'>Words</a>  <a href='https://github.com/ebzzry/ebzzry.github.io'>Source</a></div><div style="font-size: x-small">Site created with <a href='https://github.com/ebzzry/emem'>emem</a></div><p><div style="font-size: x-small"> <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work by <a xmlns:cc="http://creativecommons.org/ns#" href="https://ebzzry.github.io" property="cc:attributionName" rel="cc:attributionURL">Rommel M. Martinez</a> is licensed under a<br><a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>. </div></p><p></div></p></div></body></html>
+</code></pre><h2>Closing remarks <a name="closing"></a></h2><p>The plethora of commands in smartparens may be daunting at first, but the investement in time in learning them, will be minimal compared to benefits that you will reap.</p><p>smartparens is the brainchild of <a href='matus.goljer@gmail.com'>Matus Goljer</a>. For more information on smartparens, go to <a href="https://github.com/Fuco1/smartparens">https://github.com/Fuco1/smartparens</a>. If you like this project, you can donate <a href='https://www.paypal.com/cgi-bin/webscr?cmd=&#95;s-xclick&hosted&#95;button&#95;id=CEYP5YVHDRX8C'>here</a>.</p><hr/><div style="text-align: right; float: right; max-width: 18em;"><div style="font-size: small;"><a href='index.html'>Home</a>  <a href='about.html'>About</a>  <a href='quotes.html'>Quotes</a>  <a href='words.html'>Words</a>  <a href='https://github.com/ebzzry/ebzzry.github.io'>Source</a></div><div style="font-size: x-small">Site created with <a href='https://github.com/ebzzry/emem'>emem</a></div><p><div style="font-size: x-small"> <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="images/cc4-88x31.png" /></a><br />This work by <a xmlns:cc="http://creativecommons.org/ns#" href="https://ebzzry.github.io" property="cc:attributionName" rel="cc:attributionURL">Rommel M. Martinez</a> is licensed under a<br><a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>. </div></p><p></div></p></div></body></html>

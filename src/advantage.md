@@ -2,11 +2,20 @@ An Alternative Advantage Layout
 ===============================
 
 <center>October, 26 2015</center>
-<center>Updated: April 5, 2016</center>
+<center>Updated: May 13, 2016</center>
 
 <img src="images/advantage.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="Advantage" title="Advantage"/>
 
-## The case
+
+## Table of contents
+
+* [Why](#why)
+* [Before](#before)
+* [After](#after)
+* [Setup](#setup)
+
+
+## The case <a name="thecase"></a>
 
 One of the best investments a programmer can have is a good
 keyboard. What constitutes a good keyboard, however, can sometimes be
@@ -40,7 +49,7 @@ BS    Backspace                    KP    Keypad
 IN    Insert                       PR    Progrm
 ```
 
-## Before
+## Before <a name="before"></a>
 
 When using Dvorak emulation, the following is how the keys are mapped:
 
@@ -57,7 +66,7 @@ model of the Advantage have that squishy rubber button in place, which
 sometimes registers as a double press.
 
 
-## After
+## After <a name="after"></a>
 
 I remapped some of the keys, to fit my workflow. The new layout is as
 follows. The mapping is initiated by pressing <kbd>PR +F12</kbd>.
@@ -90,7 +99,7 @@ the <kbd>Esc</kbd> key—this allows me to easily hit the Esc key when
 using vi, or to close dialog boxes.
 
 
-## Setup
+## Setup <a name="setup"></a>
 
 The `+` indicates pressing and holding a key, while pressing
 another. The `➔` is read as “to”, for example, `PU ➔ HO` is read as
