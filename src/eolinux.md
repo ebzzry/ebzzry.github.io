@@ -2,6 +2,7 @@ Esperanto Characters in Linux
 =============================
 
 <center>April 18, 2016</center>
+<center>Updated: May 13, 2016</center>
 
 Prior to the invention of the methods discussed in this post, the way
 to input Esperanto characters on Linux is to use the the
@@ -21,7 +22,15 @@ legacy display systems. Currently, there are two ways to input
 Esperanto characters on Linux systems—the multi key and mode switch.
 
 
-## Multi key
+## Table of contents
+
+* [Multi key](#multikey)
+* [Mode switch](#modeswitch)
+* [Additional notes](#additional)
+* [Closing remarks](#closing)
+
+
+## Multi key <a name="multikey"></a>
 
 The *multi key*, also called a compose key, is a specially-assigned
 key, that must be pressed and released, along with other keys, to
@@ -95,7 +104,7 @@ The following table lists the combinations:
 ```
 
 
-## Mode switch
+## Mode switch <a name="modeswitch"></a>
 
 A faster and easier way to input Esperanto characters is through the
 use of the *mode switch* key. Just like with the *multi key*, you
@@ -146,7 +155,7 @@ hold <kbd>![Windows](images/icon_windows_02_22x22.png "Windows key")</kbd>, then
 hold <kbd>![Windows](images/icon_windows_02_22x22.png "Windows key")</kbd>, press and hold <kbd>Shift</kbd>, then press <kbd>u</kbd>.
 
 
-## Additional notes
+## Additional notes <a name="additional"></a>
 
 Both methods outlined above do far more than emitting Esperanto
 characters. The multi key system can emit more sophisticated symbols
@@ -168,7 +177,7 @@ also a bit comprehensive. To see the list of character names
 available, click [here](http://wiki.linuxquestions.org/wiki/List_of_Keysyms_Recognised_by_Xmodmap).
 
 
-## Closing remarks
+## Closing remarks <a name="closing"></a>
 
 There’s no best way to do this—use whatever system that fits your
 style. If you’re already using the <kbd>![Windows](images/icon_windows_02_22x22.png "Windows key")</kbd> keys for something else,
