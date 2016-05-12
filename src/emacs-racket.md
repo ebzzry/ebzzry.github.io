@@ -2,6 +2,7 @@ Emacs and Racket
 ================
 
 <center>September 29, 2013</center>
+<center>Updated: May 13, 2016</center>
 
 In this post, I’ll discuss the easiest approach that I took to setup
 up a [Racket](https://racket-lang.org) development environment on
@@ -9,7 +10,18 @@ Emacs. Take note, that this is not the only approach available — some
 did it in arguably better ways. In this article, I’ll try to explain
 the shortest route that I took.
 
-## Introduction
+
+## Table of contents
+
+* [Introduction](#introduction)
+* [Installation](#installation)
+* [Usage](#usage)
+  - [Racket buffer](#racketbuffer)
+  - [REPL buffer](#replbuffer)
+* [Closing remarks](#closing)
+
+
+## Introduction <a name="introduction"></a>
 
 Editing Racket code with Emacs has traditionally been done by
 rudimentary modes that mostly lacked flexibility. They were able to
@@ -18,25 +30,17 @@ for the most part. Unfortunately, that didn’t suffice with the way
 Racket dealt with things. A more intelligent way of handling code, was
 needed.
 
-Fortunately, you have [Geiser](http://www.nongnu.org/geiser/). To quote
-the first paragraph on its homepage:
-
->Geiser is a collection of Emacs major and minor modes that conspire
->with one or more Scheme interpreters to keep the Lisp Machine Spirit
->alive. It draws inspiration (and a bit more) from environments such
->as Common Lisp’s Slime, Factor’s FUEL, Squeak or Emacs itself, and
->does its best to make Scheme hacking inside Emacs (even more) fun.
-
-I saw several other major modes that tries to do what Geiser does, but
-I became most comfortable with what Geiser offered. Some similar
-libraries can co-exist with Geiser, too. I tried those, but it became
-too complex, for me. I wound up just using Geiser. Also, as a
-semi-related note, I’m using Emacs to edit Racket code because I don’t
-know of any other editor that does it so well. I don’t use DrRacket,
-except when I need to use its nice GUI debugger.
+Fortunately, you have [Geiser](http://www.nongnu.org/geiser/).  There
+are other major modes that try to do what Geiser does, but I became
+most comfortable with what Geiser offered. Some similar libraries can
+co-exist with Geiser, too. I tried those, but it became too complex,
+for me. I wound up just using Geiser. Also, as a semi-related note,
+I’m using Emacs to edit Racket code because I don’t know of any other
+editor that does it so well. I don’t use DrRacket, except when I need
+to use its nice GUI debugger.
 
 
-## Installation
+## Installation <a name="installation"></a>
 
 My installation method is crude, but it works, at least for me. Other
 installation methods exist, but I couldn’t wrap my brain around them,
@@ -112,7 +116,7 @@ evaluate them now using members of the eval-* troupe (`eval-defun`,
 new Emacs process.
 
 
-## Usage
+## Usage <a name="usage"></a>
 
 To reap what you sowed, create or open a `.rkt` file, with at least a
 proper module declaration. Then hit:
@@ -136,7 +140,7 @@ myself initially, to help me understand what they do. They may, or may
 not diverge from the official description, listed on the
 aforementioned link.
 
-### Racket Buffer
+### Racket buffer <a name="racketbuffer"></a>
 
 ```
 ┌─────────┬──────────────────────────────────────────────┐
@@ -157,7 +161,7 @@ aforementioned link.
 └─────────┴──────────────────────────────────────────────┘
 ```
 
-### REPL buffer
+### REPL buffer <a name="replbuffer"></a>
 
 ```
 ┌─────────┬──────────────────────────────────────────────┐
@@ -177,7 +181,7 @@ aforementioned link.
 └─────────┴──────────────────────────────────────────────┘
 ```
 
-## Conclusion
+## Closing remarks <a name="closing"></a>
 
 I have intentionally skipped many topics from the
 [official document](http://www.nongnu.org/geiser/) because it makes it
