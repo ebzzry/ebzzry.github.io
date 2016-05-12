@@ -98,7 +98,7 @@ To denote interruption of the speaker:
 * “I think I will go and—hell, no.”
 
 
-## Left and right double quotes (“) (”) <a name="doublequotes"></a>
+## Double quotes (“) (”) <a name="doublequotes"></a>
 
 Left double quote (“)
 * Windows: Alt + 0147
@@ -129,7 +129,7 @@ Lastly, it is used to mention a part of a whole:
   cute teddy bears.
 
 
-## Left and right single quotes (‘) (’) <a name="singlequotes"></a>
+## Single quotes (‘) (’) <a name="singlequotes"></a>
 
 Left single quote (‘)
 * Windows: Alt + 0145
@@ -152,7 +152,7 @@ contractions, and abbreviations:
 * Dance like ’tis ’60.
 
 
-## Prime and double prime (′) (″) <a name="prime"></a>
+## Prime symbols (′) (″) <a name="prime"></a>
 
 Prime (′)
 * Windows: Alt + 8242

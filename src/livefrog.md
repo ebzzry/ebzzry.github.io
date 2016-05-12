@@ -2,6 +2,7 @@ An Introduction to Livefrog
 ===========================
 
 <center>May 29, 2013</center>
+<center>Updated: May 13, 2016</center>
 
 I have specific cases wherein you needed to convert LiveJournal
 articles to another format. There are tools that do this, however, I
@@ -9,7 +10,18 @@ found none, so far, that translates to _Frog_ files. This is my feeble
 attempt to achive that.
 
 
-## Introduction
+## Table of contents
+
+* [Introduction](#introduction)
+* [Installation](#installation)
+* [Usage](#usage)
+  - [Basics](#basics)
+  - [Comments](#comments)
+* [Updating](#updating)
+* [Miscellany](#miscellany)
+
+
+## Introduction <a name="introduction"></a>
 
 livefrog is a utility written in [Racket](http://racket-lang.org),
 used to migrate LiveJournal posts to
@@ -19,7 +31,7 @@ written in Racket, too. It uses the files dumped by either
 [ljmigrate](http://github.com/ceejbot/ljmigrate).
 
 
-## Installation
+## Installation <a name="installation"></a>
 
 livefrog is available via Racket’s
 [Planet2](http://pkg.racket-lang.org):
@@ -43,12 +55,12 @@ installing from local directories. Without it, it will try to fetch
 the sources from the internet.
 
 
-## Usage
+## Usage  <a name="usage"></a>
 
 This sections contains instructions for creating files suitable for
 use with Frog.
 
-### Basics
+### Basics <a name="basics"></a>
 
 To create a Markdown file from the file entry.xml
 
@@ -113,7 +125,7 @@ ljmigrate/
 After creating the Markdown Frog source files, you may now copy them
 to your Frog source directory, designated at `_src/posts/`
 
-### Comments
+### Comments <a name="comments"></a>
 
 Frog, by default, uses [Disqus](http://disqus.com) to handle the
 comments. To import comments to this platform, you need to generate an
@@ -128,7 +140,7 @@ $ raco livefrog -s foo.bar.com -c comments.xml
 ```
 
 
-## Updating
+## Updating <a name="updating"></a>
 
 If you installed livefrog using Planet2, you can update it by running:
 
@@ -148,7 +160,7 @@ $ raco pkg install livefrog/
 ```
 
 
-## Miscellany
+## Miscellany <a name="miscellany"></a>
 
 To reduce typing, you may optionally create an alias to
 `raco livefrog` in your shell.

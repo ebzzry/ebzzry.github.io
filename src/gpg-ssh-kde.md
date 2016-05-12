@@ -2,6 +2,7 @@ GPG and SSH in KDE
 ==================
 
 <center>September 17, 2014</center>
+<center>Updated: May 13, 2016</center>
 
 When both GPG and SSH are integrated with KDE, it makes
 inter-operating with those systems very easy. It will make the
@@ -11,7 +12,18 @@ This quick tutorial will go over the steps on how to go about it. To
 accommodate everyone, I’ll still go about how to install and configure
 all the necessary components.
 
-## Prerequisites
+
+## Table of contents
+
+* [Prerequisites](#prerequisites)
+* [Configure SSH](#ssh)
+* [Configure GPG](#gpg)
+* [Configure KDE](#kde)
+* [Verification](#verification)
+* [Closing remarks](#closing)
+
+
+## Prerequisites <a name="prerequisites"></a>
 
 For this tutorial you need to have GPG, SSH, and Pinentry.
 
@@ -33,7 +45,7 @@ DNF:
 $ sudo dnf install gnupg openssh pinentry
 ```
 
-## Configure SSH
+## Configure SSH <a name="ssh"></a>
 
 Now that you have the parts in front of you, it’s time to assemble
 them. The first thing that you need to do (although in reality the
@@ -62,7 +74,7 @@ $ ssh-copy-id user@host
 ```
 
 
-## Configure GPG
+## Configure GPG <a name="gpg"></a>
 
 You need to create next your GPG keys. Follow the prompts that follow,
 making sure that you select the strongest options:
@@ -109,7 +121,7 @@ $ man gpg-agent
 ```
 
 
-## Configure KDE
+## Configure KDE <a name="kde"></a>
 
 You now need to link the GPG agent with KDE. You need to create a
 _startup_ script for KDE that will invoke the GPG agent at
@@ -158,7 +170,7 @@ $ chmod +x ~/.kde/shutdown/01_gpg-agent.sh
 ```
 
 
-## Verification
+## Verification <a name="verification"></a>
 
 Unfortunately, you have to restart your KDE session for these settings
 to take effect. If you know a method that doesn’t require restarting the session, please let me know.
@@ -182,7 +194,7 @@ A similar behavior will happen if you encrypt a file with GPG:
 $ gpg2 -sea -r john@remotehost file.dat
 ```
 
-## Conclusion
+## Closing remarks <a name="closing"></a>
 
 The steps outline above are meant to be succinct without going through
 the gory details. I avoided reiterating what was already said before

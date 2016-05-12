@@ -13,11 +13,22 @@ faster, way of doing things.
 
 ## Table of contents
 
-* [Preparation](#preparation)
+* [Setup](#setup)
   - [Hardware](#hardware)
   - [Software](#software)
+* [Configuration](#configuration)
+  - [Images](#images)
+  - [Networking](#networking)
+* [Execution](#execution)
+  - [Load the image](#loadimage)
+  - [Connect to the SPICE display](#display)
+  - [Configure guest networking](#guestnetworking)
+* [Closing the curtains](#closingcurtains)
+  - [Restore networking](#restorenetworking)
+* [Putting it all](#all)
+* [Closing remarks](#closing)
 
-## Preparation <a name="preparation"></a>
+## Setup <a name="setup"></a>
 
 ### Hardware <a name="hardware"></a>
 
@@ -40,7 +51,7 @@ $ egrep '(vmx|svm)' /proc/cpuinfo
 
 If it returns some text, then you’re good.
 
-### Software
+### Software <a name="software"></a>
 
 Next, you need to install the essential applications.
 
@@ -76,9 +87,9 @@ SPICE is not a replacement for
 rather, it a different way of meeting your goals.
 
 
-## Configuration
+## Configuration <a name="configuration"></a>
 
-### Images
+### Images <a name="images"></a>
 
 QEMU supports an array of image types, however the
 [QCOW2](https://en.wikipedia.org/wiki/Qcow) format is the most
@@ -102,7 +113,7 @@ note that the extension name doesn’t really matter — you can name
 your image as `index.html`, but that wouldn’t make a lot of sense,
 right? :)
 
-### Networking
+### Networking <a name="networking"></a>
 
 QEMU [supports](http://wiki.qemu.org/Documentation/Networking) several
 ways of setting up networking for its guest, but for this post you’re
@@ -129,9 +140,10 @@ The above commands will:
 4. Enable packet forwarding on the host OS.
 5. Setup the routing configuration.
 
-## Execution
 
-### Load the image
+## Execution <a name="execution"></a>
+
+### Load the image <a name="loadimage"></a>
 
 You now need to invoke `qemu-kvm`, the command that will launch
 everything up. The name of the command may differ with the one
@@ -204,7 +216,7 @@ the normal order.
 Running the _qemu-kvm_ command above will load the image, but you
 won’t be able to view the display, yet.
 
-### Connect to the SPICE display
+### Connect to the SPICE display <a name="display"></a>
 
 To be able to use the guest machine’s display, you need to connect to
 the SPICE server, using the SPICE client `spicec`:
@@ -217,7 +229,7 @@ Take note that closing the spicec window will not kill the QEMU
 session. If the guest OS captures the mouse input, press
 <kbd>Shift+F12</kbd>, to get out of it.
 
-### Configure guest networking
+### Configure guest networking <a name="guestnetworking"></a>
 
 Next, you need to properly configure the network configuration of the
 guest OS so that it can connect to the rest of the local network, and
@@ -242,9 +254,9 @@ _DNS_
 8.8.4.4
 ```
 
-## Closing the curtains
+## Closing the curtains <a name="closingcurtains"></a>
 
-### Restore networking
+### Restore networking <a name="restorenetworking"></a>
 
 If you want to explicitly revert the network configuration, do the
 following.
@@ -268,7 +280,7 @@ The above commands will:
 5. Kill the VDE process.
 6. Remove control files.
 
-## Putting it all
+## Putting it all <a name="all"></a>
 
 Here’s all of the code above, compiled functions, that can be run from
 the command-line:
@@ -317,7 +329,7 @@ Then, load the image:
 $ kvm vm.qcow32
 ```
 
-## Conclusion
+## Closing remarks <a name="closing"></a>
 
 QEMU supports a myriad of cool options that we’ve not even discussed
 here, including saving and loading states (snapshots), creating screen

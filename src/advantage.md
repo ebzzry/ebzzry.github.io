@@ -15,7 +15,7 @@ An Alternative Advantage Layout
 * [Setup](#setup)
 
 
-## The case <a name="thecase"></a>
+## Why <a name="why"></a>
 
 One of the best investments a programmer can have is a good
 keyboard. What constitutes a good keyboard, however, can sometimes be

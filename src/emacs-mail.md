@@ -2,28 +2,45 @@ Emacs and Mail
 ==============
 
 <center>February 2, 2014</center>
+<center>Updated: May 13, 2016</center>
 
 In this day and age, checking your mail means going to the website of
-our mail provider, or using a mobile app. however, there are some
-cases when you want to have more control over your messages, especially
-when the feature you want is not present with the mainstream options.
+your mail provider, or using a mobile app. However, there are some
+cases when you want to have more control over your messages,
+especially when the feature you want is not present with the
+mainstream options.
 
 Emacs provides a plethora (Gnus, Wanderlust, VM, etc.) of ways of
-sending and receiving mail. in this post, you’re going to talk about
+sending and receiving mail. in this post, I’m going to talk about
 [getmail](http://pyropus.ca/software/getmail/),
 [mu](http://www.djcbsoftware.nl/code/mu/), and
 [mu4e](http://www.djcbsoftware.nl/code/mu/mu4e.html), and how to set
-them up quickly. In this tutorial you’ll assume that you’re going to
+them up quickly. In this tutorial I’ll assume that you’re going to
 get your messages from [Gmail](http://gmail.com) via its IMAP
 interface.
 
-## Fetching messages
+
+## Table of contents
+
+* [Fetching messages](#fetching)
+  - [Installation](#installation)
+  - [Configuration](#configuration)
+  - [Execution](#execution)
+* [Reading messages](#reading)
+  - [Installation](#installation)
+  - [Configuration](#configuration)
+  - [Execution](#execution)
+* [Encryption](#encryption)
+* [Closing remarks](#closing)
+
+
+## Fetching messages <a name="fetching"></a>
 
 You first need to have a way to download your mails, off your mail
 server. A easy-to-use application that will do that for you is
 [getmail](http://pyropus.ca/software/getmail/).
 
-## Installation
+### Installation <a name="installation"></a>
 
 Most of the time, getmail can be readily installed via your system’s
 package manager.
@@ -46,7 +63,7 @@ getmail, you can always head to its
 tarball.
 
 
-## Configuration
+### Configuration <a name="configuration"></a>
 
 Next, you need to conjure the incantation so that getmail knows how to
 get your stuff. Create the file `~/.getmail/getmailrc`. In addition to
@@ -89,7 +106,7 @@ default directory that Mail Transfer Agents (MTA) which use the
 data.
 
 
-## Execution
+### Execution <a name="execution"></a>
 
 To verify that you can indeed fetch your messages, run getmail:
 
@@ -108,13 +125,13 @@ SimpleIMAPSSLRetriever:foobar@gmail.com@imap.gmail.com:993:
 ```
 
 
-## Reading messages
+## Reading messages <a name="reading"></a>
 
 Now that you can download your messages, you need to have a way to read
 them. This is where mu and the accompanying emacs-based client, _mu_,
 comes in.
 
-## Installation
+### Installation <a name="installation"></a>
 
 Just like with getmail above, chances are, mu can be installed via
 your system’s package manager.
@@ -151,7 +168,7 @@ installation, varies between systems. So, for now, you’re only
 interested with the `mu/mu4e/` subdirectory.
 
 
-## Configuration
+### Configuration <a name="configuration"></a>
 
 You now need to make that mu4e directory accessible to emacs. To do so,
 you need to edit either `~/.emacs.d/init.el` or `~/.emacs`:
@@ -183,7 +200,7 @@ To make your life even easier, you’ll set some variables:
       mu4e-attachment-dir "~/Downloads")
 ```
 
-## Execution
+### Execution <a name="execution"></a>
 
 You can restart emacs so that those settings can take effect, or
 alternatively, you can mark those lines with <kbd>C-Space</kbd>, then
@@ -206,7 +223,7 @@ the commands should be self-explanatory, but if you want to learn
 more, you can read the nice
 [mu4e manual](http://www.djcbsoftware.nl/code/mu/mu4e/index.html).
 
-## Encryption
+## Encryption <a name="encryption"></a>
 
 Optionally, you may want to add some tweaks so that encryption and
 decryption of messages, will be easier. This is actually one of my
@@ -288,7 +305,7 @@ principle applies. So be wary of these situations, and tweak your
 configuration, as necessary.
 
 
-## Conclusion
+## Closing remarks <a name="closing"></a>
 
 Bear in mind that I purposely avoided fleshing out many details, as it would
 conflate the attempt of this article to make things simple. However, if you
