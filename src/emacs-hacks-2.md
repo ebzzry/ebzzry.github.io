@@ -2,13 +2,34 @@ Emacs and Hacks II
 ==================
 
 <center>June 12, 2015</center>
+<center>Updated: May 13, 2016</center>
 
 This is second part of my Emacs tips series. The contents of this post
 are written in no particular order. It explores session management,
 packages, managing indents, and other things.
 
 
-## Desktop
+## Table of contents
+
+* [Desktop](#desktop)
+* [Savehist](#savehist)
+* [Consolidation](#consolidation)
+* [Packages](#packages)
+  - [ELPA](#elpa)
+  - [use-package](#use-package)
+* [Line numbers](#linenumbers)
+* [Timestamps](#timestamps)
+* [Keys](#keys)
+* [Newline sans indent](#newline)
+* [Filling](#filling)
+* [Yanking](#yanking)
+* [Cursor movement](#cursormovement)
+* [Git status in dired](#gitdired)
+* [Key bindings](#keybindings)
+* [Closing remarks](#closing)
+
+
+## Desktop <a name="desktop"></a>
 
 An indispensable tool that I use now is desktop. It saves the state of
 my Emacs session, so that in the event of crash, power outage, or
@@ -36,7 +57,7 @@ my snippet:
 ```
 
 
-## Savehist
+## Savehist <a name="savehist"></a>
 
 Another important functionality that I use is savehist. It saves the
 minibuffer history. It’s roughly similar to saving the command line
@@ -49,9 +70,9 @@ history. Here’s my snippet
 ```
 
 
-## Consolidation
+## Consolidation <a name="consolidation"></a>
 
-No, that is not the name of the library. There are a lot of times,
+No, that is not the name of a library. There are a lot of times,
 when I want to manually save the state of as much session information
 that I could save. I’d want to save the buffers, minibuffer history,
 bookmarks, and comint mode histories. To do that, I have the
@@ -84,9 +105,9 @@ This gives you a nice:
 M-x save RET
 ```
 
-## Packages
+## Packages <a name="packages"></a>
 
-### ELPA
+### ELPA <a name="elpa"></a>
 
 If you aren’t using the package system yet, use it now. All you need
 to get started is the following:
@@ -118,7 +139,7 @@ M-x pi RET package RET
 ```
 
 
-### use-package
+### use-package <a name="use-package"></a>
 
 This one is a real gem. It’s like `require`, but on steroids. When
 “requiring” a package, you have the option to specify to install that
@@ -151,7 +172,7 @@ and configure its related options, after loading it, have:
 ```
 
 
-## Line numbers
+## Line numbers <a name="linenumbers"></a>
 
 I really like to have the line numbers displayed at the left
 margin. It gives me a rough idea how big the file is, and where am I
@@ -167,7 +188,7 @@ currently. Turning on `linum-mode` achieves it:
 ```
 
 
-## Timestamps
+## Timestamps <a name="timestamps"></a>
 
 I frequently find the need to insert timestamps, especially when I'm
 editing my daily log file. Here are some snippets to help you with it:
@@ -190,7 +211,7 @@ The code above sets the correct value for `system-time-locale`, and
 binds keys for `insert-date/long` and `insert-date/short`.
 
 
-## Keys
+## Keys <a name="keys"></a>
 
 When your key bindings are not organized, it’s not easy to
 find what key did you bind to what. Fortunately, you have `bind-key`,
@@ -205,7 +226,7 @@ An example would look like:
  ("C-j" . delete-indentation))
 ```
 
-## Newline sans indent
+## Newline sans indent <a name="newline"></a>
 
 This command creates a newline, then moves the cursor. It
 simulates a behavior wherein the new line doesn’t indent.
@@ -218,7 +239,7 @@ simulates a behavior wherein the new line doesn’t indent.
 ```
 
 
-## Fills
+## Filling <a name="filling"></a>
 
 This snippet works great when working when working with plain
 text. It indent a paragraph, or the current paragraph context. If
@@ -233,7 +254,7 @@ there is a mark, the region becomes filled.
 ```
 
 
-## Pasting
+## Yanking <a name="yanking"></a>
 
 Emacs, by default, pastes (yanks) from the secondary, or clipboard
 selection. This command yanks from the primary selection — mouse
@@ -246,7 +267,7 @@ highlights.
 ```
 
 
-## Cursor movement
+## Cursor movement <a name="cursormovement"></a>
 
 The command `move-to-window-line-top-bottom`, bound by default to
 <kbd>M-r</kbd> is great when you want to move the cursor from the
@@ -271,7 +292,7 @@ center, and bottom window positions, respectively.
 ```
 
 
-## Git status in dired
+## Git status in dired <a name="gitdired"></a>
 
 This small snippet gives visual indications of the status of
 git-managed files in a Dired buffer. Pressing <kbd>g</kbd> reloads the
@@ -286,7 +307,7 @@ buffer, then updates the status.
 ```
 
 
-## Key bindings
+## Key bindings <a name="keybindings"></a>
 
 The key bindings for the commands above, are listed below:
 
@@ -313,7 +334,7 @@ The key bindings for the commands above, are listed below:
 ```
 
 
-## Conclusion
+## Closing remarks  <a name="closing"></a>
 
 In this post, it was demonstrated that small tweaks can generate huge
 benefits.
