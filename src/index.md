@@ -2,7 +2,7 @@ Beep. Boop. Meow.
 =================
 
 <a href="https://www.spacetelescope.org/images/heic1509a/"><img src="images/banner.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="Westerlund 2" title="Westerlund 2"/></a>
-<div style="text-align: right">A journal about computing, cognizance, and random krakaboom.</div>
+<div style="text-align: right">A journal about computing, human predilections, and random krakaboom.</div>
 <div style="text-align: right; font-size: small">Items marked with a ring (∘) contain recent updates.</div>
 
 * [A Fallacies Primer](fallacies.html) ∘
@@ -15,14 +15,14 @@ Beep. Boop. Meow.
 * [Conkeror’s Bookmarks](conkeror-bookmarks.html) ∘
 * [Virtualizing with KVM in Linux](kvm.html) ∘
 * [A Lambda Calculus Primer](lambda-calculus.html) ∘
-* [Emacs and Hacks II](emacs-hacks-2.html)
+* [Emacs and Hacks II](emacs-hacks-2.html) ∘
 * [GPG and SSH in KDE](gpg-ssh-kde.html) ∘
 * [An Introduction to Ugarit](ugarit.html) ∘
 * [An Introduction to Frog](frog.html) ∘
 * [Emacs and Mail](emacs-mail.html) ∘
 * [Emacs and Racket](emacs-racket.html) ∘
 * [Emacs and Dired](emacs-dired.html) ∘
-* [Emacs and Hacks I](emacs-hacks-1.html)
+* [Emacs and Hacks I](emacs-hacks-1.html) ∘
 * [In Retrospect](retrospect.html) ∘
 * [An Introduction to Livefrog](livefrog.html) ∘
 * [An Introduction to Usync](usync.html) ∘
