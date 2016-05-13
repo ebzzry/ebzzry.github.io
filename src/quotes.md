@@ -504,4 +504,25 @@ proverbs that I have collected over the years.
 
 * “You can discover what your enemy fears most by observing the means
   he uses to frighten you.”<br>
-  ―Eric Hoffer”
+  ―Eric Hoffer
+
+
+* “The answers you seek you will never find until you stop looking
+  outside and start looking for them within yourself.”<br>
+  ―Memory gatekeeper, Ergo Proxy
+
+
+* “A universe without perception is much like an enormous stack of
+  rotting books—forever unopened and unread.”<br>
+  —Ergo Proxy, Ergo Proxy
+
+
+* “The white noise that beats within the white darkness is the rhythm
+  of life; it is that pulse which never truly left the stage.”<br>
+  ―Ergo Proxy, Ergo Proxy
+
+
+* “In my desperate attempts to become a fellow citizen, I’ve
+  constantly supressed myself and tried to be the person I thought
+  they wanted.”<br>
+  ―Vincent Law, Ergo Proxy
