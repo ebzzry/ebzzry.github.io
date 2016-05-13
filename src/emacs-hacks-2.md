@@ -340,5 +340,5 @@ In this post, it was demonstrated that small tweaks can generate huge
 benefits.
 
 The rest of the configuration can be found at
-<https://github.com/ebzzry/dotemacs>. If you an Emacs hack to share,
+<https://github.com/ebzzry/dotfiles/tree/master/emacs>. If you an Emacs hack to share,
 send a pull request.
