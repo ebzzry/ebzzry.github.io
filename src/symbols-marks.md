@@ -41,10 +41,10 @@ configuration.
 * Mac: -
 * Linux: -
 
-First, the hyphen on your keyboard is not part of the dash family. It
-looks like one, but it isn’t one. It is used to join words, and to
-separate syllables of a single word. For example, to speak of a bird
-that eats snakes, we type:
+The <kbd>-</kbd> key on your keyboard is not part of the dash
+family. It looks like one, but it isn’t one. Hyphens are used to join
+words, and to separate syllables of a single word. For example, to
+speak of a bird that eats snakes, we type:
 
 * A snake-eating bird.
 
