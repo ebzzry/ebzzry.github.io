@@ -5,7 +5,7 @@ In Retrospect
 <center>Updated: May 7, 2016</center>
 
 >“From life’s school of war: what does not kill me makes me stronger.”<br>
->―Friedrich Nietzche
+>―Friedrich Nietzsche
 
 I haven’t fully appreciated what those words meant, prior to now. I
 have learned that aside from experience, there is another important
