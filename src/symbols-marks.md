@@ -59,8 +59,8 @@ To speak of a snake that eats birds, we say:
 * Mac: Option + -
 * Linux: Compose - - space
 
-The en dash is used to denote a range of values. To express the date
-range from 1960 to 2016, we type:
+The en dash is used to denote a range of values. Don’t put spaces
+around it. To express the date range from 1960 to 2016, we type:
 
 * 1960–2016
 
@@ -77,8 +77,8 @@ between words:
 * Mac: Option + Shift + -
 * Linux: Compose - - -
 
-The em dash can be used in a multitude of ways. To use it like a
-colon:
+The em dash can be used in a multitude of ways. Like em dashes, don’t
+put spaces around it. To use it like a colon:
 
 * Two men are dead: Juan and Pedro.
 * Two men are dead—Juan and Pedro.
