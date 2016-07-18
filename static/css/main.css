@@ -100,6 +100,14 @@ li {
     list-style-type: square;
 }
 
+li li {
+    list-style-type: disc;
+}
+
+li li li {
+    list-style-type: circle;
+}
+
 p, para, b, strong, i, em, emph {
     font-size: 1em;
 }
