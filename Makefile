@@ -1,5 +1,6 @@
 all:
-	@sh build.sh
+	@sh build
 
 clean:
-	@rm -rf *.html static
+	@rm -f *.html
+	@rm -rf static
