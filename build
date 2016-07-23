@@ -5,12 +5,12 @@ shopt -s extglob
 PATH=$PATH:$HOME/bin
 
 install_resources () {
-  emem -i
+  emem -r
 }
 
 build_files () {
   for file in $(ls src/!(footer.md)); do
-    emem -n -m -o "$(basename $file .md).html" $file src/footer.md
+    emem -R -m -o "$(basename $file .md).html" $file src/footer.md
   done
 }
 
