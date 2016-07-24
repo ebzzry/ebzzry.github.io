@@ -526,3 +526,7 @@ proverbs that I have collected over the years.
   constantly supressed myself and tried to be the person I thought
   they wanted.”<br>
   ―Vincent Law, Ergo Proxy
+
+
+* “Admiration is happy self-surrender; envy is unhappy self-assertion.”
+  ―Søren Kierkegaard
