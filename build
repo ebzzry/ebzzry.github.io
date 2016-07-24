@@ -10,6 +10,7 @@ install_resources () {
 
 build_files () {
   for file in $(ls src/!(footer.md)); do
+    echo $file
     emem -R -m -o "$(basename $file .md).html" $file src/footer.md
   done
 }
