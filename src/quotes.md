@@ -528,5 +528,27 @@ proverbs that I have collected over the years.
   ―Vincent Law, Ergo Proxy
 
 
-* “Admiration is happy self-surrender; envy is unhappy self-assertion.”
+* “Admiration is happy self-surrender; envy is unhappy self-assertion.”<br>
   ―Søren Kierkegaard
+
+
+* “The greatest danger occurs at the moment of victory.”<br>
+  ―Napoleon Bonaparte
+
+
+* “Upon this, one has to remark that men ought either to be well
+  treated or crushed, because they can avenge themselves of lighter
+  injuries, of more serious ones they cannot; therefore the injury
+  that is to be done to a man ought to be of such a kind that one does
+  not stand in fear of revenge.”<br>
+  ―Niccolò Machiavelli
+
+
+* “The laws that govern circumstances are abolished by new circumstances.”<br>
+  ―Napoleon Bonaparte
+
+
+* “A military force has no constant formation, water has no constant
+  shape: The ability to gain victory by changing and adapting
+  according to the opponent is called genius.”<br>
+  ―Sun-tzu
