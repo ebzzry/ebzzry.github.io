@@ -92,3 +92,12 @@ inspire myself, and others.
 
 
 * “Irrationality is a choice.”<br>
+
+
+* “Stand out, then blend in.”<br>
+
+
+* “Even stars die.”<br>
+
+
+* “Impatience is the twin brother of impulsiveness.”<br>

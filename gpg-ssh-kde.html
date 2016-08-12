@@ -7,7 +7,7 @@
 &#126;/.ssh/id&#95;rsa
 </code></pre><p>Next, authorize yourself on the remote server, so that password-less logins will be avaible later:</p><pre><code class="bash">$ ssh-copy-id user@host
 </code></pre><h2>Configure GPG <a name="gpg"></a></h2><p>You need to create next your GPG keys. Follow the prompts that follow, making sure that you select the strongest options:</p><pre><code class="bash">$ gpg2 --gen-key
-</code></pre><p>If you want to generate "better" passwords, use the <a href='http://world.std.com/&#126;reinhold/diceware.html'>Diceware method</a>. An <a href='https://xkcd.com/936/'>XKCD comic</a> was drawn in case you’re wondering what it is.</p><p>The next thing to do is edit the main GPG config file:</p><pre><code class="bash">$ emacs &#126;/.gnupg/gpg.conf
+</code></pre><p>If you want to generate "better" passwords, use the <a href='http://world.std.com/~reinhold/diceware.html'>Diceware method</a>. An <a href='https://xkcd.com/936/'>XKCD comic</a> was drawn in case you’re wondering what it is.</p><p>The next thing to do is edit the main GPG config file:</p><pre><code class="bash">$ emacs &#126;/.gnupg/gpg.conf
 </code></pre><p>Find the line that contains <code>use-agent</code> and uncomment it, if it is commented. If that line does not exist just put <code>use agent</code> at the end of that file:</p><p>You need to edit the agent file, next:</p><pre><code class="bash">$ emacs &#126;/.gnupg/gpg-agent.conf
 </code></pre><p>Then put the following lines:</p><pre><code>no-grab
 default-cache-ttl 10800
