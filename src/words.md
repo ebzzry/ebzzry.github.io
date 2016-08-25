@@ -101,3 +101,6 @@ inspire myself, and others.
 
 
 * “Impatience is the twin brother of impulsiveness.”<br>
+
+
+* “You are not weak; you are not strong, either.”
