@@ -85,23 +85,21 @@ be easy. Presuming you’re <kbd>Pause</kbd> as the multi key, to input
 
 The following table lists the combinations:
 
-```
-# lowercase
-ĉ: Multi_key ^ c
-ĝ: Multi_key ^ g
-ĥ: Multi_key ^ h
-ĵ: Multi_key ^ j
-ŝ: Multi_key ^ s
-ŭ: Multi_key u u
 
-# uppercase
-Ĉ: Multi_key ^ C
-Ĝ: Multi_key ^ G
-Ĥ: Multi_key ^ H
-Ĵ: Multi_key ^ J
-Ŝ: Multi_key ^ S
-Ŭ: Multi_key u U
-```
+| Character | Sequence       |
+| :-------- | :------------- |
+| ĉ         | Multi_key ^ c  |
+| Ĉ         | Multi_key ^ C  |
+| ĝ         | Multi_key ^ g  |
+| Ĝ         | Multi_key ^ G  |
+| ĥ         | Multi_key ^ h  |
+| Ĥ         | Multi_key ^ H  |
+| ĵ         | Multi_key ^ j  |
+| Ĵ         | Multi_key ^ J  |
+| ŝ         | Multi_key ^ s  |
+| Ŝ         | Multi_key ^ S  |
+| ŭ         | Multi_key u u  |
+| Ŭ         | Multi_key U U  |
 
 
 ## Mode switch <a name="modeswitch"></a>
@@ -116,7 +114,10 @@ If you want to assign the <kbd>![Windows](images/icon_windows_02_22x22.png "Wind
 the file `~/.Xmodmap`, then add the following:
 
 ```
+!! Left Window
 keycode 133 = Mode_switch
+
+!! Right Window
 keycode 134 = Mode_switch
 ```
 
@@ -152,7 +153,15 @@ $ xmodmap ~/.Xmodmap
 
 Using the <kbd>![Windows](images/icon_windows_02_22x22.png "Windows key")</kbd> keys as mode switch keys, to input **ĉ**, press and
 hold <kbd>![Windows](images/icon_windows_02_22x22.png "Windows key")</kbd>, then press <kbd>c</kbd>. To input **Ŭ**, press and
-hold <kbd>![Windows](images/icon_windows_02_22x22.png "Windows key")</kbd>, press and hold <kbd>Shift</kbd>, then press <kbd>u</kbd>.
+hold <kbd>![Windows](images/icon_windows_02_22x22.png "Windows key")</kbd>, press and hold <kbd>Shift</kbd>, then press <kbd>u</kbd>. This setup effectively allows you to touch type. On some keyboards, only one <kbd>![Windows](images/icon_windows_02_22x22.png "Windows key")</kbd> is present—usually located on the left side, while the one on the right can be <kbd>PrtSc</kbd>. A lot of times, they’re sandwiched between <kbd>Ctrl</kbd> and <kbd>Alt</kbd>. To use that key, run `xev` like above, to get the keycode, and update your `~/.Xmodmap`, accordingly. On my ThinkPad, my `~/.Xmodmap` has this:
+
+```
+!! Left Window
+keycode 133 = Mode_switch
+
+!! PrtSc
+keycode 107 = Mode_switch
+```
 
 
 ## Additional notes <a name="additional"></a>
@@ -166,7 +175,7 @@ following command if you’re on mainstream Linux systems:
 $ less /usr/share/X11/locale/en_US.UTF-8/Compose
 ```
 
-If you’re using NixOS, run:
+If you’re using Nix, run:
 
 ```
 $ less ~/.nix-profile/share/X11/locale/en_US.UTF-8/Compose
