@@ -552,3 +552,7 @@ proverbs that I have collected over the years.
   shape: The ability to gain victory by changing and adapting
   according to the opponent is called genius.”<br>
   ―Sun-tzu
+
+
+* “… the man who says it can’t be done is generally interrupted by someone doing it.”<br>
+  ―Elbert Hubbard
