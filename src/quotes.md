@@ -556,3 +556,7 @@ proverbs that I have collected over the years.
 
 * “… the man who says it can’t be done is generally interrupted by someone doing it.”<br>
   ―Elbert Hubbard
+
+
+* “The Universe is under no obligation to make sense to you.”<br>
+  ―Neil deGrasse Tyson
