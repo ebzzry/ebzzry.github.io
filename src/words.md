@@ -103,4 +103,7 @@ inspire myself, and others.
 * “Impatience is the twin brother of impulsiveness.”<br>
 
 
-* “You are not weak; you are not strong, either.”
+* “You are not weak; you are not strong, either.”<br>
+
+
+* “Altruism, or more commonly known as selflessness, is voluntary sacrifice without any desire or motivation to benefit from actions stemming from applications of such quality.”<br>
