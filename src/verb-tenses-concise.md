@@ -1,5 +1,5 @@
-Verb Tenses
-===========
+Verb Tenses in English
+======================
 
 Simple
 ------
