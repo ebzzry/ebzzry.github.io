@@ -14,8 +14,8 @@ symbols.
 Each section begins with an input sequence for Windows, Mac, and Linux
 (X) systems, respectively. The `+` symbol signifies that you press the
 key to its left, before you press the key to its right. That is, to
-input `Option + Shift + -`, you must press and hold <kbd>Option</kbd>,
-then press and hold <kbd>Shift</kbd>, then press <kbd>-</kbd>. For the
+input `⌥ + ⇧ + -`, you must press and hold <kbd>⌥</kbd>,
+then press and hold <kbd>⇧</kbd>, then press <kbd>-</kbd>. For the
 Linux input sequences, the keys should be pressed and released. That
 is, to input `Compose - - -`, you must press and release
 <kbd>Compose</kbd>, press and release <kbd>-</kbd>, press and release
@@ -56,7 +56,7 @@ To speak of a snake that eats birds, we say:
 ## En dashes (–) <a name="endashes"></a>
 
 * Windows: Alt + 0150
-* Mac: Option + -
+* Mac: ⌥ + -
 * Linux: Compose - - space
 
 The en dash is used to denote a range of values. Don’t put spaces
@@ -74,7 +74,7 @@ between words:
 ## Em dashes (—) <a name="emdashes"></a>
 
 * Windows: Alt + 0151
-* Mac: Option + Shift + -
+* Mac: ⌥ + ⇧ + -
 * Linux: Compose - - -
 
 The em dash can be used in a multitude of ways. Like em dashes, don’t
@@ -102,12 +102,12 @@ To denote interruption of the speaker:
 
 Left double quote (“)
 * Windows: Alt + 0147
-* Mac: Option + [
+* Mac: ⌥ + [
 * Linux: Compose 6 "
 
 Right double quote (”)
 * Windows: Alt + 0148
-* Mac: Option + Shift + [
+* Mac: ⌥ + ⇧ + [
 * Linux: Compose 9 "
 
 Double quotes are used to denote words that were spoken by a speaker.
@@ -133,12 +133,12 @@ Lastly, it is used to mention a part of a whole:
 
 Left single quote (‘)
 * Windows: Alt + 0145
-* Mac: Option + ]
+* Mac: ⌥ + ]
 * Linux: Compose 6 '
 
 Right single quote (’)
-* Alt + 0146
-* Mac: Option + Shift + ]
+* Windows: Alt + 0146
+* Mac: ⌥ + ⇧ + ]
 * Linux: Compose 9 '
 
 Single quotes are used when a speech is embedded within another speech:
@@ -156,12 +156,12 @@ contractions, and abbreviations:
 
 Prime (′)
 * Windows: Alt + 8242
-* Mac: Option + 2032
+* Mac: ⌥ + 2032
 * Linux: Compose * . '
 
 Double prime (″)
 * Windows: Alt + 8243
-* Mac: Option + 2033
+* Mac: ⌥ + 2033
 * Linux: Compose * . "
 
 The quotation symbols on your keyboard (') and (") look like prime symbols but they aren’t—they’re sloppy vestiges from typewriters. The correct glyphs are (′) and (″). The prime symbol (′) is used to denote feet, minutes, and arcminutes, while the double prime symbol (″) is used to denote inches, seconds, and arcseconds. To express a height of six feet and two inches, we type:

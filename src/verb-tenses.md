@@ -1,5 +1,5 @@
-Verb Tenses
-===========
+Verb Tenses in English
+======================
 
 <center>April 6, 2016</center>
 <center>Updated: May 13, 2016</center>
