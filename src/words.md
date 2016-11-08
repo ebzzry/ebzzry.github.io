@@ -106,4 +106,4 @@ inspire myself, and others.
 * “You are not weak; you are not strong, either.”<br>
 
 
-* “Altruism, or more commonly known as selflessness, is voluntary sacrifice without any desire or motivation to benefit from actions stemming from applications of such quality.”<br>
+* “Altruism, or more commonly known as selflessness, is voluntary sacrifice without any desire or motivation to benefit from actions stemming from applications of such a quality.”<br>
