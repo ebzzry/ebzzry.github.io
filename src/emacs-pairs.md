@@ -627,7 +627,7 @@ The plethora of commands in smartparens may be daunting at first, but
 the investement in time in learning them, will be minimal compared to
 benefits that you will reap.
 
-smartparens is the brainchild of [Matus Goljer](matus.goljer@gmail.com). For
+smartparens is the brainchild of [Matus Goljer](mailto:matus.goljer@gmail.com). For
 more information on smartparens, go to
 <https://github.com/Fuco1/smartparens>. If you like this project, you
 can donate
