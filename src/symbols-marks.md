@@ -128,6 +128,11 @@ Lastly, it is used to mention a part of a whole:
 * “Return of the Jedi” is a film in the Star Wars saga, filled with
   cute teddy bears.
 
+To make it easier to remember how they look like, think of them as
+floating pairs of sixes and nines:
+
+* ⁶⁶Quoted Text⁹⁹
+
 
 ## Single quotes (‘) (’) <a name="singlequotes"></a>
 
@@ -150,6 +155,19 @@ contractions, and abbreviations:
 
 * These are Juan’s scalpels.
 * Dance like ’tis ’60.
+
+A common mistake made with single quotes is committed when denoting year ranges:
+
+* Wrong: 90’s music.
+
+This is incorrect because it implies that “90” is an entity signifying ownership over something. There is no such thing as a 90. To fix it, the right single quote must be used *before* the year range:
+
+* Correct: ’90s music.
+
+This is correct because the right single quote signifies and substitutes “19.” It is also correct to write it as “1990s.” Next, is the presence of “s.” This creates an array; 90s here would mean: 90, 91, 92, 93, 94, 95, 96, 97, 98, and 99—a series.
+
+With this in mind, ’90s means the years 1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, and 1999.
+
 
 
 ## Prime symbols (′) (″) <a name="prime"></a>
@@ -180,3 +198,4 @@ example:
 * Red herons, cranes, and mantises.
 * Pink ″           ″            ″       ″
 
+Optimus′?
