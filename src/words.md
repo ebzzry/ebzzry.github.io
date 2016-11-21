@@ -107,3 +107,6 @@ inspire myself, and others.
 
 
 * “Altruism, or more commonly known as selflessness, is voluntary sacrifice without any desire or motivation to benefit from actions stemming from applications of such a quality.”<br>
+
+
+* “Opinions are biases.”<br>
