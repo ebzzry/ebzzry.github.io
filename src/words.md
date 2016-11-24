@@ -110,3 +110,6 @@ inspire myself, and others.
 
 
 * “Opinions are biases.”<br>
+
+
+* “A nation is only as strong as its weakest peoples.”<br>
