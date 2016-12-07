@@ -113,3 +113,6 @@ inspire myself, and others.
 
 
 * A nation is only as strong as its weakest peoples.<br>
+
+
+* Happiness cannot be shared. However, one can inspire others to become happy.<br>
