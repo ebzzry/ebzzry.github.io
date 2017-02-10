@@ -252,7 +252,7 @@ proverbs that I have collected over the years.
   become actions. Watch your actions; they become habit. Watch your
   habits; they become character. Watch your character; it becomes your
   destiny.”<br>
-  ―Lao Tzu (sixth century B.C.)
+  ―Lao Tzu sixth century B.C.
 
 
 * “If you eliminate the impossible, whatever remains, however
@@ -560,3 +560,7 @@ proverbs that I have collected over the years.
 
 * “The Universe is under no obligation to make sense to you.”<br>
   ―Neil deGrasse Tyson
+
+
+* “The faster you become strong, the easier you’ll get injured.”<br>
+  ―Ahmad Taufiq Muhammad
