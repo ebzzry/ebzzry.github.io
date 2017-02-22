@@ -361,12 +361,12 @@ Alternatively, define wrapping functions:
                (interactive "p")
                (sp-wrap-with-pair ,val)))))
 
-(def-pairs ((paren        . "(")
-            (bracket      . "[")
-            (brace        . "{")
+(def-pairs ((paren . "(")
+            (bracket . "[")
+            (brace . "{")
             (single-quote . "'")
             (double-quote . "\"")
-            (back-quote   . "`")))
+            (back-quote . "`")))
 ```
 
 I bound the first three functions to <kbd>C-c (</kbd>, <kbd>C-c [</kbd>,
