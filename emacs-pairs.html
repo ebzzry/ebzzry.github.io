@@ -108,12 +108,12 @@ var mods = &#91;&quot;vars&quot;&#93;;
                &#40;interactive &quot;p&quot;&#41;
                &#40;sp-wrap-with-pair ,val&#41;&#41;&#41;&#41;&#41;
 
-&#40;def-pairs &#40;&#40;paren        . &quot;&#40;&quot;&#41;
-            &#40;bracket      . &quot;&#91;&quot;&#41;
-            &#40;brace        . &quot;{&quot;&#41;
+&#40;def-pairs &#40;&#40;paren . &quot;&#40;&quot;&#41;
+            &#40;bracket . &quot;&#91;&quot;&#41;
+            &#40;brace . &quot;{&quot;&#41;
             &#40;single-quote . &quot;'&quot;&#41;
             &#40;double-quote . &quot;\&quot;&quot;&#41;
-            &#40;back-quote   . &quot;`&quot;&#41;&#41;&#41;
+            &#40;back-quote . &quot;`&quot;&#41;&#41;&#41;
 </code></pre><p>I bound the first three functions to <kbd>C-c (</kbd>, <kbd>C-c [</kbd>, and <kbd>C-c {</kbd>, respectively. So, if you have the expression:</p><pre><code class="clojure">
 &#40;defn foo args &#40;let &#91;x 0&#93; &#40;inc x&#41;&#41;&#41;
           ̅
