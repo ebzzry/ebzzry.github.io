@@ -55,29 +55,17 @@ These are the usual commands that you would use, in a dired buffer. In
 addition to that, they can operate on single, or multiple items. Using
 them for multiple items will be explained, next.
 
-```
-┌─────┬──────────────────────────────────────────────────┐
-│ Key │ What it does                                     │
-├─────┼──────────────────────────────────────────────────┤
-│  R  │ Rename items                                     │
-├─────┼──────────────────────────────────────────────────┤
-│  C  │ Copy item                                        │
-├─────┼──────────────────────────────────────────────────┤
-│  D  │ Delete item                                      │
-├─────┼──────────────────────────────────────────────────┤
-│  O  │ Change owner                                     │
-├─────┼──────────────────────────────────────────────────┤
-│  G  │ Change group                                     │
-├─────┼──────────────────────────────────────────────────┤
-│  M  │ Change permissions                               │
-├─────┼──────────────────────────────────────────────────┤
-│  S  │ Create symlink                                   │
-├─────┼──────────────────────────────────────────────────┤
-│  T  │ Touch item                                       │
-├─────┼──────────────────────────────────────────────────┤
-│  X  │ Execute a command on item                        │
-└─────┴──────────────────────────────────────────────────┘
-```
+| Key     | What it does              |
+| :------ | :------------------------ |
+| R       | Rename item               |
+| C       | Copy item                 |
+| D       | Delete item               |
+| O       | Change owner              |
+| G       | Change group              |
+| M       | Change permissions        |
+| S       | Create symlink            |
+| T       | Touch item                |
+| ! or X  | Run shell command on item |
 
 ## Mark commands <a name="markcommands"></a>
 
@@ -85,23 +73,14 @@ These commands perform mark-related operations on items. Creating
 marks simply means putting a tag on items, so that you can perform the
 operations in the previous section, on them.
 
-```
-┌─────┬──────────────────────────────────────────────────┐
-│ Key │ What it does                                     │
-├─────┼──────────────────────────────────────────────────┤
-│  m  │ Mark an item, for the above-listed commands      │
-├─────┼──────────────────────────────────────────────────┤
-│  d  │ Mark an item for deletion operations             │
-├─────┼──────────────────────────────────────────────────┤
-│  x  │ Perform actual deletion                          │
-├─────┼──────────────────────────────────────────────────┤
-│  u  │ Unmark a single item                             │
-├─────┼──────────────────────────────────────────────────┤
-│  U  │ Unmark all items                                 │
-├─────┼──────────────────────────────────────────────────┤
-│  t  │ Toggle marks between marked and unmarked items   │
-└─────┴──────────────────────────────────────────────────┘
-```
+| Key | What it does                                     |
+| :-- | :----------------------------------------------- |
+| m   | Mark an item                                     |
+| d   | Mark an item for deletion                        |
+| x   | Execute operation                                |
+| u   | Unmark a single item                             |
+| U   | Unmark all items                                 |
+| t   | Toggle marks between marked and unmarked items   |
 
 
 ## Other commands <a name="othercommands"></a>
@@ -110,31 +89,17 @@ These commands act on their own. They operate on single items, and
 they don’t make use of marks. The <kbd>w</kbd> command, however, is an
 exception.
 
-```
-┌─────┬──────────────────────────────────────────────────┐
-│ Key │ What it does                                     │
-├─────┼──────────────────────────────────────────────────┤
-│  +  │ Create directory                                 │
-├─────┼──────────────────────────────────────────────────┤
-│  ^  │ Go up, one level, like `cd ..`                   │
-├─────┼──────────────────────────────────────────────────┤
-│  e  │ Edit an item                                     │
-├─────┼──────────────────────────────────────────────────┤
-│  f  │ Edit an item                                     │
-├─────┼──────────────────────────────────────────────────┤
-│  v  │ View an item, like `less` or `more`              │
-├─────┼──────────────────────────────────────────────────┤
-│  g  │ Reload the current directory                     │
-├─────┼──────────────────────────────────────────────────┤
-│  j  │ Jump to an item                                  │
-├─────┼──────────────────────────────────────────────────┤
-│  s  │ Change sort order                                │
-├─────┼──────────────────────────────────────────────────┤
-│  y  │ Show file type of item, like `file`              │
-├─────┼──────────────────────────────────────────────────┤
-│  w  │ Copy item name(s) to the clipboard               │
-└─────┴──────────────────────────────────────────────────┘
-```
+| Key     | What it does                            |
+| :------ | :-------------------------------------- |
+| +       | Create directory                        |
+| ^       | Go up one level, like `cd ..`           |
+| e or f  | Edit an item                            |
+| v       | View an item, like `less`               |
+| g       | Reload the current directory            |
+| j       | Jump to an item                         |
+| s       | Change sort order                       |
+| y       | Show file type fo item, like `file`     |
+| w       | Copy item name to clipboard             |
 
 ## WDired mode <a name="wdired"></a>
 
