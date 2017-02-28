@@ -1,13 +1,14 @@
 .PHONY: all clean
 
-SRC_FILES = $(filter-out src/footer.md, $(wildcard src/*.md))
+FILES=$(filter-out src/footer.md, $(wildcard src/*.md))
+BUILDER=emem
 
 %.html: src/%.md
-	emem -Rmo "$$(basename $< .md).html" $< src/footer.md
+	$(BUILDER) -Rmo "$$(basename $< .md).html" $< src/footer.md
 
 all:
-	emem -r
-	parallel --will-cite 'emem -Rmo {/.}.html {} src/footer.md' ::: $(SRC_FILES)
+	$(BUILDER) -r
+	parallel --will-cite 'emem -Rmo {/.}.html {} src/footer.md' ::: $(FILES)
 
 clean:
 	rm -f *.html
