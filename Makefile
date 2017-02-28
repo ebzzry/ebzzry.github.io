@@ -8,7 +8,7 @@ BUILDER=emem
 
 all:
 	$(BUILDER) -r
-	parallel --will-cite 'emem -sRmo {/.}.html {} src/footer.md' ::: $(FILES)
+	parallel --will-cite "$(BUILDER) -sRmo {/.}.html {} src/footer.md" ::: $(FILES)
 
 clean:
 	rm -f *.html
