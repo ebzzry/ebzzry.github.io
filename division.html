@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html><head><title>Division in Haskell</title><meta charset="utf-8" /><meta contents="max-age=86400" http-equiv="Cache-control" /><meta content="width=device-width,initial-scale=1.0,user-scalable=yes" name="viewport" /><link href="static/ico/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180" /><link href="static/ico/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png" /><link href="static/ico/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png" /><link href="static/ico/manifest.json" rel="manifest" /><link color="#5bbad5" href="static/ico/safari-pinned-tab.svg" rel="mask-icon" /><meta content="#ffffff" name="theme-color" /><link href="static/css/main.css" media="all" rel="stylesheet" /><link href="static/css/ewan.css" media="all" rel="stylesheet" /></head><body><div id="content"><h1>Division in Haskell</h1><p>While learning division in Haskell, I realized that it is not as trivial as I initially wanted it to be. There are subtle differences between the functions that can easily trip someone who’s not aware of them. <code>quot</code> performs integer division that rounds towards zero. <code>div</code> is like <code>quot</code>, but it rounds below zero—negative infinity. <code>rem</code> returns the remainder of a division. <code>mod</code>, on the other hand, performs modular arithmetic.</p><p>In the GHCi interaction below, <code>quotRem</code> returns a tuple of the application of <code>quot</code> and <code>rem</code> to its arguments, while <code>divMod</code> returns a tuple of the application <code>div</code> and <code>mod</code> to its arguments.</p><pre><code>Prelude&gt; quotRem 13 5
+&#40;2,3&#41;
+Prelude&gt; quotRem &#40;-13&#41; 5
+&#40;-2,-3&#41;
+Prelude&gt; quotRem 13 &#40;-5&#41;
+&#40;-2,3&#41;
+Prelude&gt; quotRem 5 13
+&#40;0,5&#41;
+Prelude&gt; quotRem &#40;-5&#41; 13
+&#40;0,-5&#41;
+Prelude&gt; quotRem 5 &#40;-13&#41;
+&#40;0,5&#41;
+Prelude&gt; divMod 13 5
+&#40;2,3&#41;
+Prelude&gt; divMod &#40;-13&#41; 5
+&#40;-3,2&#41;
+Prelude&gt; divMod 13 &#40;-5&#41;
+&#40;-3,-2&#41;
+Prelude&gt; divMod 5 13
+&#40;0,5&#41;
+Prelude&gt; divMod &#40;-5&#41; 13
+&#40;-1,8&#41;
+Prelude&gt; divMod 5 &#40;-13&#41;
+&#40;-1,-8&#41;
+</code></pre><p>Giving special attention to negative numbers, here are some observations about it:</p><ul><li>The behavior of <code>quotRem</code> and <code>divMod</code> are the same, if all the arguments are positive.</li><li><code>quot</code> returns 0, if the dividend is less than the divisor</li><li><code>rem</code> follows the sign of the dividend</li><li><code>rem</code> returns the dividend, if the dividend is less than the divisor.</li><li><code>div</code> rounds off the divisor to the negative infinity, if either the dividend or divisor is  negative</li><li><code>mod</code> follows the sign of the divisor</li><li><code>div</code> returns 0, if the dividend is less than the divisor, and both arguments are positive</li><li><code>mod</code> returns the dividend, if the dividend is less than the divisor, and both arguments are  positive</li><li><code>div</code> returns -1 if the dividend is negative, and its absolute value is less than the divisor</li><li><code>quot</code> and <code>div</code> returns 0 if the dividend is 0, and the divisor is not zero</li><li><code>mod</code> returns the difference of the absolute values of the divisor and the dividend, following the  sign of the divisor, if either the divisor or the dividend is negative</li></ul><hr/><div style="text-align: right; float: right; max-width: 18em;"><div style="font-size: small;"><a href='index.html'>Home</a>  <a href='about.html'>About</a>  <a href='quotes.html'>Quotes</a>  <a href='words.html'>Words</a>  <a href='https://github.com/ebzzry/ebzzry.github.io'>Source</a></div><div style="font-size: x-small">Site created with <a href='https://github.com/ebzzry/emem'>emem</a></div><p><div style="font-size: x-small"> <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="images/cc4-88x31.png" /></a><br> This work by <a xmlns:cc="http://creativecommons.org/ns#" href="https://ebzzry.github.io" property="cc:attributionName" rel="cc:attributionURL">Rommel M. Martinez</a> is licensed under a<br> <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Common Attribution 4.0 International License</a>. </div></p><p></div></p></div><script src="static/js/highlight.pack.js"></script><script>hljs.initHighlightingOnLoad();</script></body></html>
