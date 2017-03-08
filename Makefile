@@ -10,6 +10,12 @@ all:
 	$(BUILDER) -r
 	parallel --will-cite "$(BUILDER) -Rmo {/.}.html {} src/footer.md" ::: $(FILES)
 
+upload:
+	git push origin master
+
+force-upload:
+	git push --force origin master
+
 clean:
 	rm -f *.html
 	rm -rf static
