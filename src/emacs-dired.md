@@ -81,7 +81,7 @@ operations in the previous section, on them.
 | u   | Unmark a single item                             |
 | U   | Unmark all items                                 |
 | t   | Toggle marks between marked and unmarked items   |
-
+| c   | Compress items                                   |
 
 ## Other commands <a name="othercommands"></a>
 
