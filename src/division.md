@@ -1,6 +1,8 @@
 Division in Haskell
 ===================
 
+<center>March 8, 2017</center>
+
 While learning about division in Haskell, I realized that the concept is not as trivial as I
 initially wanted it to be. There are subtle differences between the functions that can easily trip
 someone who’s not aware of them. `quot` performs integer division that rounds towards zero. `div` is
