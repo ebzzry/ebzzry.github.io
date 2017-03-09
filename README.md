@@ -17,7 +17,7 @@ Then, run:
 $ make
 ```
 
-If you have Nix installed, you may just run:
+If you have Nix installed, you may instead run:
 
 ```bash
 $ nix-shell --pure --run make
