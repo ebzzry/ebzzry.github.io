@@ -143,7 +143,7 @@ instead.
 
 ### Adapt to every person
 
-Do not take a one-size-fits-all approach—just like a T-shirt. Just because your usual method works
+Do not take a one-size-fits-all approach—like a T-shirt. Just because your usual method works
 with another person, doesn’t mean it is right for him. Or, just because you are so used with the
 communication methods that you use on a daily basis with people that you interact with daily,
 doesn’t mean that you should use them everywhere. Don’t use your wood saw with iron
@@ -157,8 +157,8 @@ us. Otherwise, why engage in a communication at all, if we are so busy with our 
 want our voices to be heard? Control the urge to interrupt. Don’t hijack the conversation. The more
 willing you show that you want to listen, the more people will want to talk to you.
 
-### Smile 😄
+### Smile
 
 The payload of a smile is not at the instant that the smile was received; it is during our moments
 of reflection. Smiles create a lasting impact, and they are so potent that it is able to alter an
-ill perception. A smile conveys lightheartedness, engagement, and happiness. Wear it. Own it.
+ill perception. A smile conveys lightheartedness, engagement, and happiness. Wear it. Own it. 😄
