@@ -1,7 +1,7 @@
-README
-======
+ebzzry.github.io
+================
 
-This repository contains the source for <https://ebzzry.github.io>.
+This repository contains the source for <https://ebzzry.io>.
 
 
 ## Building
