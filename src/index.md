@@ -3,6 +3,7 @@ Division by Zero
 
 <a href="https://www.spacetelescope.org/images/heic1509a/"><img src="images/banner.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="Westerlund 2" title="Westerlund 2"/></a>
 <div style="text-align: right">A journal about computing, human predilections, and random krakaboom.</div>
+<div style="text-align: right">Entries are sorted in reverse chronological order.</div>
 
 - [Division in Haskell](division.html)
 - [How to Communicate Like a Human](human.html)
