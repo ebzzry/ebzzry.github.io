@@ -1,5 +1,5 @@
-Emacs and Hacks I
-=================
+Emacs Hacks I
+=============
 
 <center>September 9, 2013</center>
 <center>Updated: May 13, 2016</center>
