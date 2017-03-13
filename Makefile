@@ -8,7 +8,7 @@ BUILDER=emem
 
 all:
 	$(BUILDER) -r
-	parallel --will-cite "$(BUILDER) -FRiamo {/.}.html {} src/footer.md" ::: $(FILES)
+	time parallel --will-cite "$(BUILDER) -FRiamo {/.}.html {} src/footer.md" ::: $(FILES)
 
 upload:
 	git push origin master
