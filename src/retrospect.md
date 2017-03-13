@@ -2,7 +2,7 @@ In Retrospect
 =============
 
 <center>July 11, 2013</center>
-<center>Updated: May 7, 2016</center>
+<center>Updated: March 17, 2017</center>
 
 >“From life’s school of war: what does not kill me makes me stronger.”<br>
 >―Friedrich Nietzsche
@@ -93,7 +93,7 @@ fight. I will hit hard, harder than than my last strike, as long blood
 courses through my body, and as long as I feel the tangible air of my
 breath.
 
-In closing, I’d leave to leave these words:
+In closing, I’d like to leave these words:
 
 >“If you’re going to try, go all the way. Otherwise, don’t even start.”<br>
 >―Charles Bukowski
