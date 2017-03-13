@@ -142,44 +142,27 @@ aforementioned link.
 
 ### Racket buffer <a name="racketbuffer"></a>
 
-```
-┌─────────┬──────────────────────────────────────────────┐
-│ Key     │ What it does                                 │
-├─────────┼──────────────────────────────────────────────┤
-│ C-c C-z │ Switch to the REPL buffer                    │
-├─────────┼──────────────────────────────────────────────┤
-│ C-c C-a │ Evaluate current buffer, then switch to      │
-│         │ the REPL buffer                              │
-├─────────┼──────────────────────────────────────────────┤
-│ C-M-x   │ Evaluate current expression                  │
-├─────────┼──────────────────────────────────────────────┤
-│ C-x C-e │ Evaluate last expression                     │
-├─────────┼──────────────────────────────────────────────┤
-│ C-c C-r │ Evaluate region                              │
-├─────────┼──────────────────────────────────────────────┤
-│ C-c C-\ │ Insert a λ symbol                            │
-└─────────┴──────────────────────────────────────────────┘
-```
+| Key     | What it does                                            |
+| :------ | :------------------------------------------------------ |
+| C-c C-z | Switch to the REPL buffer                               |
+| C-c C-a | Evaluate current buffer, then switch to the REPL buffer |
+| C-M-x   | Evaluate current expression                             |
+| C-x C-e | Evaluate last expression                                |
+| C-c C-r | Evaluate region                                         |
+| C-c C-\ | Insert a lambda (λ) symbol                              |
+
 
 ### REPL buffer <a name="replbuffer"></a>
 
-```
-┌─────────┬──────────────────────────────────────────────┐
-│ Key     │ What it does                                 │
-├─────────┼──────────────────────────────────────────────┤
-│ C-c C-z │ Switch to the Racket buffer                  │
-├─────────┼──────────────────────────────────────────────┤
-│ M-p     │ Switch to the previous history item          │
-├─────────┼──────────────────────────────────────────────┤
-│ M-n     │ Switch to the next history item              │
-├─────────┼──────────────────────────────────────────────┤
-│ C-c M-p │ Jump to previous prompt                      │
-├─────────┼──────────────────────────────────────────────┤
-│ C-c M-n │ Jump to next prompt                          │
-├─────────┼──────────────────────────────────────────────┤
-│ C-c C-q │ Quit the REPL                                │
-└─────────┴──────────────────────────────────────────────┘
-```
+| Key     | What it does                        |
+| :------ | :---------------------------------- |
+| C-c C-z | Switch to the Racket buffer         |
+| M-p     | Switch to the previous history item |
+| M-n     | Switch to the next history item     |
+| C-c M-p | Jump to previous prompt             |
+| C-c M-n | Jump to next prompt                 |
+| C-c C-q | Quit the REPL                       |
+
 
 ## Closing remarks <a name="closing"></a>
 
