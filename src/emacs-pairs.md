@@ -2,7 +2,7 @@ Emacs and Pairs
 ===============
 
 <center>August 15, 2015</center>
-<center>Updated: May 13, 2016</center>
+<center>Updated: March 13, 2017</center>
 
 In this post, I’ll exclusively talk about _smartparens_ — a package
 that you wish you should have used, earlier, presuming you don’t use
@@ -369,8 +369,9 @@ Alternatively, define wrapping functions:
             (back-quote . "`")))
 ```
 
-I bound the first three functions to <kbd>C-c (</kbd>, <kbd>C-c [</kbd>,
-and <kbd>C-c {</kbd>, respectively. So, if you have the expression:
+These have the advantage of not requiring a region to operate on. I bound the first three functions to
+<kbd>C-c (</kbd>, <kbd>C-c [</kbd>, and <kbd>C-c {</kbd>, respectively. So, if you have the
+expression:
 
 ```clojure
 
@@ -600,7 +601,6 @@ about it, in an [earlier](emacs-hacks-2.html) article.
  ("C-k"   . sp-kill-hybrid-sexp)
  ("M-k"   . sp-backward-kill-sexp)
  ("C-M-w" . sp-copy-sexp)
-
  ("C-M-d" . delete-sexp)
 
  ("M-<backspace>" . backward-kill-word)
