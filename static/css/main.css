@@ -142,3 +142,32 @@ th, td {
     padding-left: 0.45em;
     padding-right: 0.45em;
 }
+
+.text-right {
+    text-align: right;
+}
+
+.text-small {
+    font-size: small;
+}
+
+.text-x-small {
+    font-size: x-small;
+}
+
+.banner {
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer {
+    text-align: right;
+    float: right;
+    max-width: 18em;
+}
+
+.cc {
+    border-width: 0
+}
