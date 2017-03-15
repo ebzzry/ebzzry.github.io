@@ -23,13 +23,13 @@ interface.
 ## Table of contents
 
 * [Fetching messages](#fetching)
-  - [Installation](#installation)
-  - [Configuration](#configuration)
-  - [Execution](#execution)
+  - [Installation](#fetchinstallation)
+  - [Configuration](#fetchconfiguration)
+  - [Execution](#fetchexecution)
 * [Reading messages](#reading)
-  - [Installation](#installation)
-  - [Configuration](#configuration)
-  - [Execution](#execution)
+  - [Installation](#readinstallation)
+  - [Configuration](#readconfiguration)
+  - [Execution](#readexecution)
 * [Encryption](#encryption)
 * [Closing remarks](#closing)
 
@@ -40,7 +40,7 @@ You first need to have a way to download your mails, off your mail
 server. A easy-to-use application that will do that for you is
 [getmail](http://pyropus.ca/software/getmail/).
 
-### Installation <a name="installation"></a>
+### Installation <a name="fetchinstallation"></a>
 
 Most of the time, getmail can be readily installed via your system’s
 package manager.
@@ -63,7 +63,7 @@ getmail, you can always head to its
 tarball.
 
 
-### Configuration <a name="configuration"></a>
+### Configuration <a name="fetchconfiguration"></a>
 
 Next, you need to conjure the incantation so that getmail knows how to
 get your stuff. Create the file `~/.getmail/getmailrc`. In addition to
@@ -106,7 +106,7 @@ default directory that Mail Transfer Agents (MTA) which use the
 data.
 
 
-### Execution <a name="execution"></a>
+### Execution <a name="fetchexecution"></a>
 
 To verify that you can indeed fetch your messages, run getmail:
 
@@ -131,7 +131,7 @@ Now that you can download your messages, you need to have a way to read
 them. This is where mu and the accompanying emacs-based client, _mu_,
 comes in.
 
-### Installation <a name="installation"></a>
+### Installation <a name="readinstallation"></a>
 
 Just like with getmail above, chances are, mu can be installed via
 your system’s package manager.
@@ -168,7 +168,7 @@ installation, varies between systems. So, for now, you’re only
 interested with the `mu/mu4e/` subdirectory.
 
 
-### Configuration <a name="configuration"></a>
+### Configuration <a name="readconfiguration"></a>
 
 You now need to make that mu4e directory accessible to emacs. To do so,
 you need to edit either `~/.emacs.d/init.el` or `~/.emacs`:
@@ -200,7 +200,7 @@ To make your life even easier, you’ll set some variables:
       mu4e-attachment-dir "~/Downloads")
 ```
 
-### Execution <a name="execution"></a>
+### Execution <a name="readexecution"></a>
 
 You can restart emacs so that those settings can take effect, or
 alternatively, you can mark those lines with <kbd>C-Space</kbd>, then
