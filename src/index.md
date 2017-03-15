@@ -1,7 +1,7 @@
 Division by Zero
 ================
 
-<a href="https://www.spacetelescope.org/images/heic1509a/"><img src="images/banner.jpg" class="banner" alt="Westerlund 2" title="Westerlund 2"/></a>
+<a href="https://www.spacetelescope.org/images/heic1509a/"><img src="images/banner.jpg" class="banner" alt="Westerlund 2" /></a>
 <div class="text-right">A journal about computing, human predilections, and random krakaboom.</div>
 <div class="text-right">Entries are sorted in reverse chronological order.</div>
 
