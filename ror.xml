@@ -4,6 +4,270 @@
   <title>ROR Sitemap for http://ebzzry.io/</title>
   <link>http://ebzzry.io/</link>
 
+<item>
+     <link>http://ebzzry.io/</link>
+     <title>Division by Zero</title>
+     <description>Division by Zero</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://ebzzry.io/division.html</link>
+     <title>Division in Haskell</title>
+     <description>Division in Haskell</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://ebzzry.io/human.html</link>
+     <title>How to Communicate Like a Human</title>
+     <description>How to Communicate Like a Human</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://ebzzry.io/fallacies.html</link>
+     <title>A Fallacies Primer</title>
+     <description>A Fallacies Primer</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://ebzzry.io/eolinux.html</link>
+     <title>Esperanto Characters in Linux</title>
+     <description>Esperanto Characters in Linux</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://ebzzry.io/symbols-marks.html</link>
+     <title>Symbols and Marks</title>
+     <description>Symbols and Marks</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://ebzzry.io/verb-tenses.html</link>
+     <title>Verb Tenses in English</title>
+     <description>Verb Tenses in English</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://ebzzry.io/advantage.html</link>
+     <title>An Alternative Advantage Layout</title>
+     <description>An Alternative Advantage Layout</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://ebzzry.io/git-github.html</link>
+     <title>A Brief Git and GitHub Tour</title>
+     <description>A Brief Git and GitHub Tour</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://ebzzry.io/emacs-pairs.html</link>
+     <title>Emacs and Pairs</title>
+     <description>Emacs and Pairs</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://ebzzry.io/conkeror-bookmarks.html</link>
+     <title>Conkeror’s Bookmarks</title>
+     <description>Conkeror’s Bookmarks</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://ebzzry.io/kvm.html</link>
+     <title>Virtualizing with KVM in Linux</title>
+     <description>Virtualizing with KVM in Linux</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://ebzzry.io/lambda-calculus.html</link>
+     <title>A Lambda Calculus Primer</title>
+     <description>A Lambda Calculus Primer</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://ebzzry.io/emacs-hacks-2.html</link>
+     <title>Emacs Hacks II</title>
+     <description>Emacs Hacks II</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://ebzzry.io/gpg-ssh-kde.html</link>
+     <title>GPG and SSH in KDE</title>
+     <description>GPG and SSH in KDE</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://ebzzry.io/ugarit.html</link>
+     <title>An Introduction to Ugarit</title>
+     <description>An Introduction to Ugarit</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://ebzzry.io/frog.html</link>
+     <title>An Introduction To Frog</title>
+     <description>An Introduction To Frog</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://ebzzry.io/emacs-mail.html</link>
+     <title>Emacs and Mail</title>
+     <description>Emacs and Mail</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://ebzzry.io/emacs-racket.html</link>
+     <title>Emacs and Racket</title>
+     <description>Emacs and Racket</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://ebzzry.io/emacs-dired.html</link>
+     <title>Emacs and Dired</title>
+     <description>Emacs and Dired</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://ebzzry.io/emacs-hacks-1.html</link>
+     <title>Emacs Hacks I</title>
+     <description>Emacs Hacks I</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://ebzzry.io/retrospect.html</link>
+     <title>In Retrospect</title>
+     <description>In Retrospect</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://ebzzry.io/livefrog.html</link>
+     <title>An Introduction to Livefrog</title>
+     <description>An Introduction to Livefrog</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://ebzzry.io/usync.html</link>
+     <title>An Introduction to Usync</title>
+     <description>An Introduction to Usync</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://ebzzry.io/squandered.html</link>
+     <title>Squandered Relentlessness</title>
+     <description>Squandered Relentlessness</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://ebzzry.io/over-under.html</link>
+     <title>Over, Under, and Elsewhere</title>
+     <description>Over, Under, and Elsewhere</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://ebzzry.io/y.html</link>
+     <title>The Y Combinator in Six Steps</title>
+     <description>The Y Combinator in Six Steps</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://ebzzry.io/index.html</link>
+     <title>Division by Zero</title>
+     <description>Division by Zero</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://ebzzry.io/about.html</link>
+     <title>About</title>
+     <description>About</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://ebzzry.io/quotes.html</link>
+     <title>Quotes</title>
+     <description>Quotes</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://ebzzry.io/words.html</link>
+     <title>Words</title>
+     <description>Words</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://ebzzry.io/symbols-marks-table.html</link>
+     <title>Symbols and Marks</title>
+     <description>Symbols and Marks</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://ebzzry.io/verb-tenses-concise.html</link>
+     <title>Verb Tenses in English</title>
+     <description>Verb Tenses in English</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
 </channel>
 </rss>
   
