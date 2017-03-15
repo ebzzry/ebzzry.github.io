@@ -11,7 +11,7 @@ The table below is the condensed form of [Symbols and Marks](symbols-marks.html)
 | -     | hyphen              | -               | -               | -                 |
 | –     | en dash             | Alt + 0150      | ⌥ + -           | Compose - - space |
 | —     | em dash             | Alt + 0151      | ⌥ + ⇧ + -       | Compose - - -     |
-| “     | left double quote   | Alt + 0147      | ⌥ + ]           | Compose 6 "       |
+| “     | left double quote   | Alt + 0147      | ⌥ + [           | Compose 6 "       |
 | ”     | right double quote  | Alt + 0148      | ⌥ + ⇧ + [       | Compose 9 "       |
 | ‘     | left single quote   | Alt + 0145      | ⌥ + ]           | Compose 6 '       |
 | ’     | right single quote  | Alt + 0146      | ⌥ + ⇧ + ]       | Compose 9 '       |
