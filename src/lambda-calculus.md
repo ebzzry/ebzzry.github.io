@@ -134,7 +134,7 @@ The `.` symbol here, is the separator between the parameter list,
 and the function body. In the function `(λx.x)`, the body is simply
 the symbol `x`.
 
-### Variables
+### Variables <a name="variables"></a>
 
 In lambda calculus, the symbols that are used inside a function are
 called variables. Going back to the function you defined above,
