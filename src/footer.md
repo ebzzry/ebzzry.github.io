@@ -24,5 +24,3 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 ga('create', 'UA-93746003-1', 'auto');
 ga('send', 'pageview');
 </script>
-
-<script type="text/javascript" src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-58c88ea186912bd5"></script>
