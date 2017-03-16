@@ -1,8 +1,8 @@
-An Introduction To Frog
-=======================
+Blogging with Frog
+==================
 
 <center>February 19, 2014</center>
-<center>Updated: May 13, 2016</center>
+<center>Updated: March 16, 2017</center>
 
 When publishing blog content to the web, most would rely on
 pre-fabricated services, that do most of the heavy lifting. However,
@@ -33,7 +33,7 @@ me, then read on.
   - [bootstrap.css](#bootstrap)
 * [Miscellany](#miscellany)
 * [Comments](#comments)
-* [It’s show time!](#showtime)
+* [Show time!](#showtime)
 * [Notes](#notes)
 
 
@@ -384,7 +384,7 @@ To import comments, from an existing blog, to Disqus, go to
 <http://import.disqus.com>.
 
 
-## It’s show time! <a name="showtime"></a>
+## Show time! <a name="showtime"></a>
 
 To publish your work, upload the contents of the directory that Frog
 manages; in this tutorial, it is the directory `/home/john/blog`, to your
