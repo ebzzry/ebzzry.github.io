@@ -82,7 +82,7 @@ $ ugarit -h
 If you’re using Nix, just run the following command:
 
 ```
-$ nix-env -iA ugarit
+$ nix-env -i ugarit
 ```
 
 
