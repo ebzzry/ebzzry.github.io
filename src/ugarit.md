@@ -1,5 +1,5 @@
-An Introduction to Ugarit
-=========================
+Creating Backups with Ugarit
+============================
 
 <center>February 21, 2014</center>
 <center>Updated: May 13, 2016</center>
