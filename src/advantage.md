@@ -1,8 +1,8 @@
-An Alternative Advantage Layout
-===============================
+My Kinesis Advantage Layout
+===========================
 
 <center>October, 26 2015</center>
-<center>Updated: May 13, 2016</center>
+<center>Updated: March 16, 2017</center>
 
 <img src="images/advantage.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="Advantage" title="Advantage"/>
 
