@@ -11,7 +11,7 @@ Division by Zero
 - [Esperanto Characters in Linux](eolinux.html)
 - [Symbols and Marks](symbols-marks.html)
 - [Verb Tenses in English](verb-tenses.html)
-- [An Alternative Advantage Layout](advantage.html)
+- [My Kinesis Advantage Layout](advantage.html)
 - [A Brief Git and GitHub Tour](git-github.html)
 - [Emacs and Pairs](emacs-pairs.html)
 - [Conkeror’s Bookmarks](conkeror-bookmarks.html)
