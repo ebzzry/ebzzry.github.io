@@ -20,7 +20,7 @@ Division by Zero
 - [Emacs Hacks II](emacs-hacks-2.html)
 - [GPG and SSH in KDE](gpg-ssh-kde.html)
 - [Creating Backups with Ugarit](ugarit.html)
-- [An Introduction to Frog](frog.html)
+- [Blogging with Frog](frog.html)
 - [Emacs and Mail](emacs-mail.html)
 - [Emacs and Racket](emacs-racket.html)
 - [Emacs and Dired](emacs-dired.html)
