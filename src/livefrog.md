@@ -1,5 +1,5 @@
-An Introduction to Livefrog
-===========================
+Converting LiveJournal to Frog
+==============================
 
 <center>May 29, 2013</center>
 <center>Updated: May 13, 2016</center>
