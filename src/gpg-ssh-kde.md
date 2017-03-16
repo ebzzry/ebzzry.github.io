@@ -2,7 +2,7 @@ GPG and SSH in KDE
 ==================
 
 <center>September 17, 2014</center>
-<center>Updated: May 13, 2016</center>
+<center>Updated: March 16, 2017</center>
 
 When both GPG and SSH are integrated with KDE, it makes
 inter-operating with those systems very easy. It will make the
@@ -198,5 +198,4 @@ $ gpg2 -sea -r john@remotehost file.dat
 
 The steps outline above are meant to be succinct without going through
 the gory details. I avoided reiterating what was already said before
-so as not to bore you to death. If you found this useful, feel free to
-comment below.
+so as not to bore you to death. I hope you found this useful!
