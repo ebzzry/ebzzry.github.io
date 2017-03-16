@@ -1,5 +1,5 @@
-GPG and SSH in KDE
-==================
+Setting Up GPG and SSH in KDE
+=============================
 
 <center>September 17, 2014</center>
 <center>Updated: March 16, 2017</center>
