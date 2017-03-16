@@ -28,7 +28,7 @@ Division by Zero
 - [Emacs Hacks I](emacs-hacks-1.html)
 - [In Retrospect](retrospect.html)
 - [Converting LiveJournal to Frog with livefrog](livefrog.html)
-- [Synchronizing Hosts with Usync](usync.html)
+- [Synchronizing Sites with Usync](usync.html)
 - [Squandered Relentlessness](squandered.html)
 - [Over, Under, and Elsewhere](over-under.html)
 - [The Y Combinator in Six Steps](y.html)
