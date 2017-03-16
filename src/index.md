@@ -5,7 +5,7 @@ Division by Zero
 <div class="text-right">A journal about computing, human predilections, and random krakaboom.</div>
 <div class="text-right">Entries are sorted in reverse chronological order.</div>
 
-- [Markdown to HTML with emem](emem.html)
+- [Converting Markdown to HTML with emem](emem.html)
 - [Division in Haskell](division.html)
 - [How to Communicate Like a Human](human.html)
 - [A Fallacies Primer](fallacies.html)
@@ -19,7 +19,7 @@ Division by Zero
 - [Virtualizing with KVM in Linux](kvm.html)
 - [A Lambda Calculus Primer](lambda-calculus.html)
 - [Emacs Hacks II](emacs-hacks-2.html)
-- [GPG and SSH in KDE](gpg-ssh-kde.html)
+- [Setting Up GPG and SSH in KDE](gpg-ssh-kde.html)
 - [Creating Backups with Ugarit](ugarit.html)
 - [Blogging with Frog](frog.html)
 - [Emacs and Mail](emacs-mail.html)
@@ -27,8 +27,8 @@ Division by Zero
 - [Emacs and Dired](emacs-dired.html)
 - [Emacs Hacks I](emacs-hacks-1.html)
 - [In Retrospect](retrospect.html)
-- [LiveJournal to Frog with Livefrog](livefrog.html)
-- [An Introduction to Usync](usync.html)
+- [Converting LiveJournal to Frog with Livefrog](livefrog.html)
+- [Synchronizing Hosts with Usync](usync.html)
 - [Squandered Relentlessness](squandered.html)
 - [Over, Under, and Elsewhere](over-under.html)
 - [The Y Combinator in Six Steps](y.html)
