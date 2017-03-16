@@ -2,24 +2,20 @@ Creating Backups with Ugarit
 ============================
 
 <center>February 21, 2014</center>
-<center>Updated: May 13, 2016</center>
+<center>Updated: March 16, 2017</center>
 
-How many times have you experienced hindsight, after a catastrophic
-event has happened? how many times have you told yourself that had you
-created backups of your precious data, you wouldn’t be in that dire
-situation, pulling your hair out, like a rabid maniac?
+How many times have you experienced hindsight, after a catastrophic event has happened? How many
+times have you told yourself that had you created backups of your precious data, you wouldn’t be in
+that dire situation, pulling your hair out, like a rabid maniac?
 
-Most of us have been there — we lost our precious files due
-inadvertent causes. We lost them because of disk crash, data
-corruption, security breach, and other reasons. But had we created a
-fallback, a big, safe foam that we can land on, it wouldn’t have been
-a lot of trouble, and heart ache. On the flip side, creating and
-managing backups can be daunting, and equally dangerous.
+Most of us have been there—we lost our precious files due inadvertent causes. We lost them because
+of disk crash, data corruption, security breach, and other reasons. But had we created a fallback, a
+big, safe foam that we can land on, it wouldn’t have been a lot of trouble, and heart ache. On the
+flip side, creating and managing backups can be daunting, and equally dangerous.
 
 In this post, I’ll talk about
 [Ugarit](http://www.kitten-technologies.co.uk/project/ugarit/doc/trunk/README.wiki)
-, a nice piece of technology, that combines ease-of-use, and security,
-in a single tool.
+, a nice piece of technology, that combines ease-of-use and security, in a single tool.
 
 
 ## Table of contents
@@ -280,7 +276,5 @@ similarly to Git, only that there is no rebase option.
 
 Ugarit was created by
 [Alaric Snell-Pym](http://www.snell-pym.org.uk/alaric/). If you want
-to learn more about it, head over to
-<http://www.kitten-technologies.co.uk/project/ugarit/doc/trunk/README.wiki>. To
-report bugs, go to
-<http://www.kitten-technologies.co.uk/project/ugarit/reportlist>.
+to learn more about it, head over to [kitten-technologies.co.uk/project/ugarit/doc/trunk/README.wiki](http://www.kitten-technologies.co.uk/project/ugarit/doc/trunk/README.wiki). To
+report bugs, go to [kitten-technologies.co.uk/project/ugarit/reportlist](http://www.kitten-technologies.co.uk/project/ugarit/reportlist).
