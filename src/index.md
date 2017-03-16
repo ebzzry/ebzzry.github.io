@@ -5,7 +5,7 @@ Division by Zero
 <div class="text-right">A journal about computing, human predilections, and random krakaboom.</div>
 <div class="text-right">Entries are sorted in reverse chronological order.</div>
 
-- [Converting Markdown to HTML](emem.html)
+- [Markdown to HTML with emem](emem.html)
 - [Division in Haskell](division.html)
 - [How to Communicate Like a Human](human.html)
 - [A Fallacies Primer](fallacies.html)
@@ -27,7 +27,7 @@ Division by Zero
 - [Emacs and Dired](emacs-dired.html)
 - [Emacs Hacks I](emacs-hacks-1.html)
 - [In Retrospect](retrospect.html)
-- [Converting LiveJournal to Frog](livefrog.html)
+- [LiveJournal to Frog with Livefrog](livefrog.html)
 - [An Introduction to Usync](usync.html)
 - [Squandered Relentlessness](squandered.html)
 - [Over, Under, and Elsewhere](over-under.html)
