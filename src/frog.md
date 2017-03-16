@@ -34,7 +34,7 @@ me, then read on.
 * [Miscellany](#miscellany)
 * [Comments](#comments)
 * [Show time!](#showtime)
-* [Notes](#notes)
+* [Closing remarks](#closing)
 
 
 
@@ -424,11 +424,11 @@ $ git push origin master
 To view your website, go to [johndoe.github.io](http://johndoe.github.io).
 
 
-## Notes <a name="notes"></a>
+## Closing remarks <a name="closing"></a>
 
-[Frog](https://github.com/greghendershott/frog) is a viable and usable
-site creator. It is easy-to-use, highly configurable, flexible, and
-yes, open source. It gives control, back to the author.
+[Frog](https://github.com/greghendershott/frog) is a viable and usable site creator. It is
+easy-to-use, highly configurable, flexible, and yes, open source. It gives control, back to the
+author. A good example of a Frog-powered blog can be found [here](https://ngnghm.github.io/).
 
 Frog was created by
 [Greg Hendershott](http://www.greghendershott.com/). If you want to
