@@ -1,4 +1,4 @@
-Converting LiveJournal to Frog with Livefrog
+Converting LiveJournal to Frog with livefrog
 ============================================
 
 <center>May 29, 2013</center>
