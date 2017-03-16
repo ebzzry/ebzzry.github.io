@@ -1,4 +1,4 @@
-.PHONY: all clean
+.PHONY: all upload force-upload clean
 
 FILES=$(filter-out src/footer.md, $(wildcard src/*.md))
 BUILDER=emem
