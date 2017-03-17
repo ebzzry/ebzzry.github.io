@@ -2,9 +2,9 @@ My Kinesis Advantage Layout
 ===========================
 
 <center>October, 26 2015</center>
-<center>Updated: March 16, 2017</center>
+<center>Updated: March 17, 2017</center>
 
-<img src="images/advantage.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="Advantage" title="Advantage"/>
+<img src="images/advantage.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="Advantage" />
 
 
 ## Table of contents
@@ -61,9 +61,7 @@ Yuck. Using this layout on Emacs, or shell, is painful to the hands,
 especially on prolonged periods. To press <kbd>M-x</kbd>, one would
 have to press the <kbd>Alt</kbd> key with the right thumb, then the
 <kbd>x</kbd> key with the left index finger. Reaching out for the
-<kbd>Esc</kbd> keys isn’t a lot of fun, either, because the current
-model of the Advantage have that squishy rubber button in place, which
-sometimes registers as a double press.
+<kbd>Esc</kbd> keys isn’t a lot of fun, either, because it’s too far.
 
 
 ## After <a name="after"></a>
