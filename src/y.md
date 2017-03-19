@@ -2,7 +2,7 @@ The Y Combinator in Six Steps
 =============================
 
 <center>May 9, 2013</center>
-<center>Updated: March 14, 2017</center>
+<center>Updated: March 18, 2017</center>
 
 A lot of us have been taught that to be able to define a recursive
 procedure, the recursive invocation must “use” the name of the
@@ -28,7 +28,7 @@ identifier.
 
 The Y combinator has been both a source of inspiration and frustration
 for many. It evokes a eureka-like sensation once you get past the
-wall, but it also renders us scratching your heads when it just
+wall, but it also renders us scratching our heads when it just
 doesn’t make sense to traverse the labyrinth. This post aims to bring
 my own approach on how to derive the Y combinator. It may not be the
 most elegant way, but it may work for you.
@@ -161,7 +161,7 @@ computing procedure, you no longer need to repeat it.
 
 ## Step 6: Define the combinator <a name="define"></a>
 
-Finally, you will explicitly create a separate procedure definitions
+Finally, you will explicitly create a separate procedure definition
 for the Y combinator itself, and the `foo` procedure.
 
 ```scheme
