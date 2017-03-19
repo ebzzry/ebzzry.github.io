@@ -43,7 +43,7 @@ When you’re done installing it, you may check the version number with:
 $ emem --version
 ```
 
-The latest version is 0.2.42.
+The latest version is 0.2.43.
 
 
 Usage <a name="usage"></a>
