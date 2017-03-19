@@ -7,7 +7,7 @@ KEYWORDS='ebzzry, rommel, martinez, rommel martinez, journal, blog, krakaboom, y
 HEAD="<meta property=\"og:title\" content=\"$$(head -1 $<)\" /><meta property=\"og:type\" content=\"article\" /><meta property=\"og:url\" content=\"http://ebzzry.io/$$(basename $< .md).html\" /><meta property=\"og:image\" content=\"http://ebzzry.io/static/ico/android-chrome-512x512.png\" />"
 
 %.html: src/%.md
-	$(BUILDER) -D $(DESCRIPTION) -K $(KEYWORDS) --head $(HEAD) -FRiamo "$$(basename $< .md).html" $< src/footer.md
+	$(BUILDER) -D $(DESCRIPTION) -K $(KEYWORDS) --head $(HEAD) -RFiamo "$$(basename $< .md).html" $< src/footer.md
 
 all:
 	$(BUILDER) -r
