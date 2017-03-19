@@ -71,7 +71,7 @@ Managing paired characters like parentheses, braces, brackets,
 quotation marks, angle brackets, and other conceivable pair-able
 characters has always been a pain. Other packages solve that problem
 partially. However, they it still miss several points. In the code
-snippets below, the `_` symbol will be used to represent point:
+snippets below, the `^` symbol will be used to represent point:
 
 ### Basics <a name="basics"></a>
 
@@ -80,7 +80,7 @@ In smartparens, when you input a pair-able character:
 ```clojure
 
 (defn foo )
-          ̅
+          ^
 ```
 
 the matching pair gets inserted, too, and point is positioned inside
@@ -89,7 +89,7 @@ the pair:
 ```clojure
 
 (defn foo [])
-           ̅
+           ^
 ```
 
 
@@ -102,7 +102,7 @@ If you have the expression:
 ```clojure
 
 (let [x "foo bar baz ... blah"])
-                         ̅
+                         ^
 ```
 
 and you want to move point to the start of the string:
@@ -110,7 +110,7 @@ and you want to move point to the start of the string:
 ```clojure
 
 (let [x "foo bar baz ... blah"])
-         ̅
+         ^
 ```
 
 Execute `sp-beginning-of-sexp`. I bound it to <kbd>C-M-a</kbd>.
@@ -120,7 +120,7 @@ Conversely, to move point to the end of the expression:
 ```clojure
 
 (let [x "foo bar baz ... blah"])
-                             ̅
+                             ^
 ```
 
 Execute `sp-end-of-sexp`. I bound it to <kbd>C-M-e</kbd>.
@@ -133,7 +133,7 @@ If you have the expression:
 
 (defun format-date (format)
   (let ((system-time-locale "en_US.UTF-8"))
-    (insert (format-time-string format)))) ̅
+    (insert (format-time-string format))))^
 
 ```
 
@@ -144,7 +144,7 @@ and you want to move point to **insert**:
 (defun format-date (format)
   (let ((system-time-locale "en_US.UTF-8"))
     (insert (format-time-string format))))
-     ̅
+     ^
 ```
 
 Execute `sp-down-sexp`. I bound it to <kbd>C-down</kbd>.
@@ -155,7 +155,7 @@ If you have the expression:
 ```clojure
 
 (str "foo" "bar baz qux")
-    ̅
+    ^
 ```
 
 and you want to move point after **)**:
@@ -163,7 +163,7 @@ and you want to move point after **)**:
 ```clojure
 
 (str "foo" "bar baz qux")
-                         ̅
+                         ^
 ```
 
 Execute `sp-up-sexp`. I bound it to <kbd>C-up</kbd>.
@@ -173,7 +173,7 @@ If you have the expression:
 ```clojure
 
 (defn foo [bar] (let [x 0] x))
-                ̅
+                ^
 ```
 
 and you want to move point to **]**:
@@ -181,7 +181,7 @@ and you want to move point to **]**:
 ```clojure
 
 (defn foo [bar] (let [x 0] x))
-              ̅
+              ^
 ```
 
 Execute `sp-backward-down-sexp`. I bound it to <kbd>M-down</kbd>.
@@ -191,7 +191,7 @@ If you have the expression:
 ```lisp
 
 (insert (format-time-string format))
-                           ̅
+                           ^
 ```
 
 and you want to move point to **(format**:
@@ -199,7 +199,7 @@ and you want to move point to **(format**:
 ```lisp
 
 (insert (format-time-string format))
-        ̅
+        ^
 ```
 
 Execute `sp-backward-up-sexp`. I bound it to <kbd>M-up</kbd>.
@@ -212,7 +212,7 @@ If you have the expression:
 ```clojure
 
 (:require [clojure.string :as s])
-          ̅
+          ^
 ```
 
 and you want to move point after **]**:
@@ -220,7 +220,7 @@ and you want to move point after **]**:
 ```clojure
 
 (:require [clojure.string :as s])
-                                ̅
+                                ^
 ```
 
 Execute `sp-forward-sexp`. I bound it to <kbd>C-M-f</kbd>
@@ -230,7 +230,7 @@ Conversely, to move it to **[**:
 ```clojure
 
 (:require [clojure.string :as s])
-          ̅
+          ^
 ```
 
 Execute `sp-backward-sexp`. I bound it to <kbd>C-M-b</kbd>.
@@ -244,7 +244,7 @@ If you have the expression:
 
 (defn blah
   "Returns blah of foo."
-  [foo]                 ̅
+  [foo]                 ^
   )
 
 ```
@@ -256,7 +256,7 @@ and you want to move point to **[**:
 (defn blah
   "Returns blah of foo."
   [foo]
-  ̅)
+  ^)
 
 ```
 
@@ -268,7 +268,7 @@ Conversely, to move it back:
 
 (defn blah
   "Returns blah of foo."
-  [foo]                 ̅
+  [foo]                 ^
   )
 
 ```
@@ -282,7 +282,7 @@ If you have the expression:
 ```clojure
 
 (defn blah [] (let [x 0 y 1] (+ x 1)))
-               ̅
+               ^
 ```
 
 and you want to move point to **blah**:
@@ -290,7 +290,7 @@ and you want to move point to **blah**:
 ```clojure
 
 (defn blah [] (let [x 0 y 1] (+ x 1)))
-      ̅
+      ^
 ```
 
 Execute, `sp-backward-symbol`. I bound it to <kbd>C-S-b</kbd>.
@@ -300,7 +300,7 @@ Conversely, if you have the expression:
 ```clojure
 
 (defn blah [] (let [x 0 y 1] (+ x 1)))
-            ̅
+            ^
 ```
 
 and you want to move point just after **(let**:
@@ -308,7 +308,7 @@ and you want to move point just after **(let**:
 ```clojure
 
 (defn blah [] (let [x 0 y 1] (+ x 1)))
-                  ̅
+                  ^
 ```
 
 Execute `sp-forward-symbol`. I bound it to <kbd>C-S-f</kbd>.
@@ -326,7 +326,7 @@ If you have the expression:
 ```javascript
 
 var mods = "vars";
-           ̅
+           ^
 ```
 
 and you want **"vars"** to be surrounded by **[**,
@@ -336,7 +336,7 @@ and
 ```javascript
 
 var mods = ["vars"];
-            ̅
+            ^
 ```
 
 Press <kbd>C-M-Space</kbd> followed by <kbd>[</kbd>, the
@@ -376,7 +376,7 @@ expression:
 ```clojure
 
 (defn foo args (let [x 0] (inc x)))
-          ̅
+          ^
 ```
 
 and you want to surround **args** with **[** and **]**:
@@ -384,7 +384,7 @@ and you want to surround **args** with **[** and **]**:
 ```clojure
 
 (defn foo [args] (let [x 0] (inc x)))
-           ̅
+           ^
 ```
 
 Press <kbd>C-c [</kbd>.
@@ -396,7 +396,7 @@ doing that. If you hit <kbd>Backspace</kbd> in this expression:
 ```javascript
 
 var mods = ["vars"];
-            ̅
+            ^
 ```
 
 Nothing will happen. smartparens saves us a lot of trouble, here.
@@ -409,7 +409,7 @@ If you have the expression:
 ```clojure
 
 (foo (bar x y z))
-     ̅
+     ^
 ```
 
 and you want to unwrap the **bar** expression, removing the parentheses
@@ -418,7 +418,7 @@ around **foo**:
 ```clojure
 
 foo (bar x y z)
-    ̅
+    ^
 ```
 
 Execute `sp-backward-unwrap-sexp`. I bound it to <kbd>M-[</kbd>
@@ -429,7 +429,7 @@ parentheses around **bar**:
 ```clojure
 
 (foo bar x y z)
-     ̅
+     ^
 ```
 
 Execute `sp-unwrap-sexp`. I bound it to <kbd>M-]</kbd>.
@@ -442,7 +442,7 @@ If you have the expression:
 ```clojure
 
 [foo bar] baz
-        ̅
+        ^
 ```
 
 and you want **baz** to be part of **foo** and **bar**:
@@ -450,7 +450,7 @@ and you want **baz** to be part of **foo** and **bar**:
 ```clojure
 
 [foo bar baz]
-        ̅
+        ^
 ```
 
 Execute `sp-forward-slurp-sexp`. I bound it to <kbd>C-right</kbd>.
@@ -460,7 +460,7 @@ Conversely, if you want to remove **baz**:
 ```clojure
 
 [foo bar] baz
-        ̅
+        ^
 ```
 
 Execute `sp-forward-barf-sexp`. I bound it to <kbd>M-right</kbd>.
@@ -470,7 +470,7 @@ If you have the expression:
 ```clojure
 
 blah [foo bar]
-             ̅
+             ^
 ```
 
 and you want **blah** to be part of **foo** and **bar**:
@@ -478,7 +478,7 @@ and you want **blah** to be part of **foo** and **bar**:
 ```clojure
 
 [blah foo bar]
-             ̅
+             ^
 ```
 
 Execute `sp-backward-slurp-sexp`. I bound it to <kbd>C-left</kbd>.
@@ -488,7 +488,7 @@ Conversely, if you want to remove **blah**:
 ```clojure
 
 blah [foo bar]
-             ̅
+             ^
 ```
 
 Execute `sp-backward-barf-sexp`. I bound it to <kbd>M-left</kbd>.
@@ -501,7 +501,7 @@ If you have the expression:
 ```clojure
 
 "foo" "bar"
-      ̅
+      ^
 ```
 
 and you want **"foo"** and **"bar"** to switch places:
@@ -509,7 +509,7 @@ and you want **"foo"** and **"bar"** to switch places:
 ```clojure
 
 "bar" "foo"
-      ̅
+      ^
 ```
 
 Execute `sp-transpose-sexp`. I bound it to <kbd>C-M-t</kbd>.
@@ -522,7 +522,7 @@ If you have the expression:
 ```clojure
 
 (let [x "xxx" y "y yy yyy" z 0])
-               ̅
+               ^
 ```
 
 and you want to kill just **"y yy yyy"**:
@@ -530,7 +530,7 @@ and you want to kill just **"y yy yyy"**:
 ```clojure
 
 (let [x "xxx" y z 0])
-               ̅
+               ^
 ```
 
 Execute `sp-kill-sexp`. I bound it to <kbd>C-M-k</kbd>.
@@ -540,7 +540,7 @@ If you want to kill **"y yy yyy" z 0**:
 ```clojure
 
 (let [x "xxx" y])
-               ̅
+               ^
 ```
 
 Execute `sp-kill-hybrid-sexp`. I bound it to <kbd>C-k</kbd>.
@@ -550,7 +550,7 @@ If you have the expression:
 ```clojure
 
 (:require [clojure.string :as s])
-                                ̅
+                                ^
 ```
 
 and you want to kill **[clojure.string :as s]**:
@@ -558,7 +558,7 @@ and you want to kill **[clojure.string :as s]**:
 ```clojure
 
 (:require )
-          ̅
+          ^
 ```
 
 Execute `sp-backward-kill-sexp`. I bound it to <kbd>M-k</kbd>
