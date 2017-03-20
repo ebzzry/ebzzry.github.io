@@ -4,7 +4,7 @@ Symbols and Marks
 <center>April 8, 2016</center>
 <center>Updated: May 13, 2016</center>
 
-*Click [here](symbols-marks-table.html) for the tabular version.*
+*Click [here](symbols-marks-condensed.html) for the condensed version.*
 
 This short guide gives you a tour on how to use the hidden symbols on
 your keyboard, that are better suited to perform symbol duties than

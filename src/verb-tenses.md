@@ -4,7 +4,7 @@ Verb Tenses in English
 <center>April 6, 2016</center>
 <center>Updated: May 13, 2016</center>
 
-*Click [here](verb-tenses-concise.html) for the concise version.*
+*Click [here](verb-tenses-condensed.html) for the condensed version.*
 
 To read, write, and speak better English, learning the qualities and
 peculiarities between the different verb tenses is important. Knowing
