@@ -145,15 +145,25 @@ respectively:
 
 ```bash
 $ emem -D 'A diary about lobsters and crabs' \
--K 'lobsters, crabs, blog, journal, sea foods, monsters'
+-K 'lobsters, crabs, blog, journal, sea foods, monsters' README.md
 ```
 
 It is also possible to insert arbitrary content in the head tag with the `-H` option. For example,
 to specify [OGP](http://ogp.me/) values:
 
+To use [Open Graph Protocol](http://ogp.me/) values:
+
 ```bash
-$ emem -D 'Meh' -K 'foo, bar, baz' \
--H '<meta property="og:title" content="Meh"/><meta property="og:type" content="article"/>'
+$ emem -D Meh -K 'foo, bar, baz' \
+--og-title "Crabs and Lobsters" --og-type article \
+--og-url "https://some.site/foo.html" --og-image "https://some.site/image.png" \
+README.md
+```
+
+If you want to use Google Analytics, specify your 9-digit code, including the hyphen::
+
+```bash
+$ emem -D Foo -K 'qux, quux' -A 12345678-9 README.md
 ```
 
 If the contents of the site is predominantly not in English, it is good to specify what language it
@@ -161,7 +171,7 @@ is, to help search engines index your site properly; it also helps software, lik
 determine what language to use for the speech. For this, use the `-l` option:
 
 ```bash
-$ emem -D 'Kie estas ĝin' -K 'kukurboj, hundegoj, afiŝoj' -l eo
+$ emem -D 'Kie estas ĝin' -K 'kukurboj, hundegoj, afiŝoj' -l eo README.md
 ```
 
 A complete list of the supported languages of modern browsers can be
