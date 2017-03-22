@@ -119,3 +119,9 @@ inspire myself, and others.
 
 
 - We think of that we know.<br>
+
+
+- When the rules change, adapt.<br>
+
+
+- Diplomacy as a result of non-choice is no diplomacy at all.<br>
