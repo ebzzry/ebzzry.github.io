@@ -1,8 +1,8 @@
 Emacs and Pairs
 ===============
 
-<center>August 15, 2015</center>
-<center>Updated: March 13, 2017</center>
+<div class="center">August 15, 2015</div>
+<div class="center">Updated: March 13, 2017</div>
 
 In this post, I’ll exclusively talk about _smartparens_ — a package
 that you wish you should have used, earlier, presuming you don’t use
