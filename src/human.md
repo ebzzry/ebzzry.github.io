@@ -1,8 +1,8 @@
 How to Communicate Like a Human
 ===============================
 
-<center>February 28, 2017</center>
-<center>Updated: March 5, 2017</center>
+<div class="center">February 28, 2017</div>
+<div class="center">Updated: March 5, 2017</div>
 
 >“The ability to speak does not make you intelligent.”<br>
 >―Qui-Gon Jinn

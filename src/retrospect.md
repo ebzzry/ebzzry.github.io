@@ -1,8 +1,8 @@
 In Retrospect
 =============
 
-<center>July 11, 2013</center>
-<center>Updated: March 17, 2017</center>
+<div class="center">July 11, 2013</div>
+<div class="center">Updated: March 17, 2017</div>
 
 >“From life’s school of war: what does not kill me makes me stronger.”<br>
 >―Friedrich Nietzsche

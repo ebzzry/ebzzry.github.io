@@ -1,8 +1,8 @@
 Emacs and Dired
 ===============
 
-<center>September 26, 2013</center>
-<center>Updated: May 13, 2016</center>
+<div class="center">September 26, 2013</div>
+<div class="center">Updated: May 13, 2016</div>
 
 In this post, I’ll be focusing on one of the novel ways Emacs handles
 “directory editing”. The directory editor, or _Dired_ (pronounced

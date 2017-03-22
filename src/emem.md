@@ -1,8 +1,8 @@
 Converting Markdown to HTML with emem
 =====================================
 
-<center>March 12, 2017</center>
-<center>Updated: March 16, 2017</center>
+<div class="center">March 12, 2017</div>
+<div class="center">Updated: March 16, 2017</div>
 
 I have always wanted a way to create HTML documents from my Markdown files. Initially, I simply
 wanted to have HTML files from my text files so that I can view them nicely on my phone. Later, I

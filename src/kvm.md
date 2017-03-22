@@ -1,8 +1,8 @@
 Virtualizing with KVM in Linux
 ==============================
 
-<center>June 15, 2015</center>
-<center>Updated: May 13, 2016</center>
+<div class="center">June 15, 2015</div>
+<div class="center">Updated: May 13, 2016</div>
 
 Most of you are familiar with
 [full virtualization](https://en.wikipedia.org/wiki/Full_virtualization)

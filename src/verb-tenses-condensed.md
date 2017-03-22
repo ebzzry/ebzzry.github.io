@@ -1,8 +1,8 @@
 Verb Tenses in English
 ======================
 
-<center>April 6, 2016</center>
-<center>Updated: March 20, 2017</center>
+<div class="center">April 6, 2016</div>
+<div class="center">Updated: March 20, 2017</div>
 
 This article is the condensed form of [Verb Tenses in English](verb-tenses.html).
 

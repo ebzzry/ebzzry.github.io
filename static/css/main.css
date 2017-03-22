@@ -171,3 +171,7 @@ th, td {
 .cc {
     border-width: 0
 }
+
+.center {
+    text-align: center;
+}

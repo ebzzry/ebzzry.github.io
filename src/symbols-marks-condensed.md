@@ -1,8 +1,8 @@
 Symbols and Marks
 =================
 
-<center>April 8, 2016</center>
-<center>Updated: October 22, 2016</center>
+<div class="center">April 8, 2016</div>
+<div class="center">Updated: October 22, 2016</div>
 
 The table below is the condensed form of [Symbols and Marks](symbols-marks.html).
 

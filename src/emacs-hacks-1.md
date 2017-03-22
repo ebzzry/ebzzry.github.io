@@ -1,8 +1,8 @@
 Emacs Hacks I
 =============
 
-<center>September 9, 2013</center>
-<center>Updated: May 13, 2016</center>
+<div class="center">September 9, 2013</div>
+<div class="center">Updated: May 13, 2016</div>
 
 In this series of posts, I will be sharing my personal hacks on how
 I use Emacs for my day-to-day stuff.

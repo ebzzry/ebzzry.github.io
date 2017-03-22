@@ -1,8 +1,8 @@
 The Y Combinator in Six Steps
 =============================
 
-<center>May 9, 2013</center>
-<center>Updated: March 18, 2017</center>
+<div class="center">May 9, 2013</div>
+<div class="center">Updated: March 18, 2017</div>
 
 A lot of us have been taught that to be able to define a recursive
 procedure, the recursive invocation must “use” the name of the

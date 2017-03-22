@@ -1,8 +1,8 @@
 A Brief Git and GitHub Tour
 ===========================
 
-<center>August 29, 2015</center>
-<center>Updated: May 13, 2016</center>
+<div class="center">August 29, 2015</div>
+<div class="center">Updated: May 13, 2016</div>
 
 This short tutorial shows how to use [git](https://git-scm.com/) with
 a [GitHub](https://github.com) workflow. A quick Google of

@@ -1,7 +1,7 @@
 Squandered Relentlessness
 =========================
 
-<center>May 9, 2013</center>
+<div class="center">May 9, 2013</div>
 
 There is a disturbing, and eerie sensation that I feel whenever the
 damping realization that I am no longer a young child, is observed in
