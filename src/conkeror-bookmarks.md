@@ -1,8 +1,8 @@
 Conkeror’s Bookmarks
 ====================
 
-<center>August 16, 2015</center>
-<center>Updated: May 13, 2016</center>
+<div class="center">August 16, 2015</div>
+<div class="center">Updated: May 13, 2016</div>
 
 I wanted a simple, and easy way to view my bookmarks in
 [Conkeror](http://conkeror.org). However, the proposed solutions on

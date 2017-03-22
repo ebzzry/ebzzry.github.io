@@ -1,8 +1,8 @@
 Synchronizing Sites with Usync
 ==============================
 
-<center>May 21, 2013</center>
-<center>Updated: March 16, 2017</center>
+<div class="center">May 21, 2013</div>
+<div class="center">Updated: March 16, 2017</div>
 
 Site-to-site synchronizations are usually needed, when two locations, which are called sites, in
 this article, make file updates independently. Let’s say the company _Foo_ has two offices. In the
