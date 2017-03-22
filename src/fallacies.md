@@ -1,8 +1,8 @@
 A Fallacies Primer
 ==================
 
-<center>May 1, 2016</center>
-<center>Updated: May 13, 2016</center>
+<div class="center">May 1, 2016</div>
+<div class="center">Updated: May 13, 2016</div>
 
 Fallacies are errors in reasoning, made in the construction of
 arguments. Some are committed intentionally to manipulate and deceive,

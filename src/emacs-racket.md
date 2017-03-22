@@ -1,8 +1,8 @@
 Emacs and Racket
 ================
 
-<center>September 29, 2013</center>
-<center>Updated: May 13, 2016</center>
+<div class="center">September 29, 2013</div>
+<div class="center">Updated: May 13, 2016</div>
 
 In this post, I’ll discuss the easiest approach that I took to setup
 up a [Racket](https://racket-lang.org) development environment on

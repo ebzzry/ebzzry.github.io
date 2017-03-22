@@ -1,8 +1,8 @@
 Blogging with Frog
 ==================
 
-<center>February 19, 2014</center>
-<center>Updated: March 16, 2017</center>
+<div class="center">February 19, 2014</div>
+<div class="center">Updated: March 16, 2017</div>
 
 When publishing blog content to the web, most would rely on
 pre-fabricated services, that do most of the heavy lifting. However,

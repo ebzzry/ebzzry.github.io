@@ -1,8 +1,8 @@
 A Lambda Calculus Primer
 ========================
 
-<center>June 12, 2015</center>
-<center>Updated: May 13, 2016</center>
+<div class="center">June 12, 2015</div>
+<div class="center">Updated: May 13, 2016</div>
 
 >“You do not really understand something unless you can explain it to
 >your grandmother.”<br>

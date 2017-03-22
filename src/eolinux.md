@@ -1,8 +1,8 @@
 Esperanto Characters in Linux
 =============================
 
-<center>April 18, 2016</center>
-<center>Updated: May 13, 2016</center>
+<div class="center">April 18, 2016</div>
+<div class="center">Updated: May 13, 2016</div>
 
 Prior to the invention of the methods discussed in this post, the way
 to input Esperanto characters on Linux is to use the the

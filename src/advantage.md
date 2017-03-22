@@ -1,8 +1,8 @@
 My Kinesis Advantage Layout
 ===========================
 
-<center>October, 26 2015</center>
-<center>Updated: March 17, 2017</center>
+<div class="center">October, 26 2015</div>
+<div class="center">Updated: March 17, 2017</div>
 
 <img src="images/advantage.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="Advantage" />
 
