@@ -1,8 +1,8 @@
 Converting LiveJournal to Frog with livefrog
 ============================================
 
-<center>May 29, 2013</center>
-<center>Updated: May 13, 2016</center>
+<div class="center">May 29, 2013</div>
+<div class="center">Updated: May 13, 2016</div>
 
 I have specific cases wherein you needed to convert LiveJournal
 articles to another format. There are tools that do this, however, I

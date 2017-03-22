@@ -1,8 +1,8 @@
 Creating Backups with Ugarit
 ============================
 
-<center>February 21, 2014</center>
-<center>Updated: March 16, 2017</center>
+<div class="center">February 21, 2014</div>
+<div class="center">Updated: March 16, 2017</div>
 
 How many times have you experienced hindsight, after a catastrophic event has happened? How many
 times have you told yourself that had you created backups of your precious data, you wouldn’t be in

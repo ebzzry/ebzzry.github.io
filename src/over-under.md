@@ -1,7 +1,7 @@
 Over, Under, and Elsewhere
 ==========================
 
-<center>May 9, 2013</center>
+<div class="center">May 9, 2013</div>
 
 Our cunning ability for oversight is deridingly high. Whether it may
 be solving a problem or just trying to be creative. Our impulse to
