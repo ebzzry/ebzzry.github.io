@@ -7,7 +7,7 @@ KEYWORDS='ebzzry, rommel, martinez, rommel martinez, journal, blog, krakaboom, y
 
 all:
 	$(BUILDER) -r
-	time parallel --will-cite "make {/.}.html" ::: $(FILES)
+	time parallel --will-cite "$(MAKE) {/.}.html" ::: $(FILES)
 
 %.html: src/%.md
 	$(BUILDER) -D $(DESCRIPTION) -K $(KEYWORDS) --og-title "$$(head -1 $<)" --og-type "article" --og-url "http://ebzzry.io/$$(basename $< .md).html" --og-image "http://ebzzry.io/static/ico/android-chrome-512x512.png" -A "93746003-1" -RFiamo "$$(basename $< .md).html" $< src/footer.md
