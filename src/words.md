@@ -118,10 +118,10 @@ inspire myself, and others.
 - Happiness cannot be shared. However, one can inspire others to become happy.<br>
 
 
-- We think of that we know.<br>
+- We think that we know.<br>
 
 
-- When the rules change, adapt.<br>
+- When the rules change, adapt. If you can’t nor want to adapt, change the rules.<br>
 
 
 - Diplomacy as a result of non-choice is no diplomacy at all.<br>
