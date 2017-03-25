@@ -1,13 +1,14 @@
-Converting LiveJournal to Frog with livefrog
-============================================
+Moving from LiveJournal to Frog with livefrog
+=============================================
 
 <div class="center">May 29, 2013</div>
-<div class="center">Updated: May 13, 2016</div>
+<div class="center">Updated: March 25, 2017</div>
 
-I have specific cases wherein you needed to convert LiveJournal
-articles to another format. There are tools that do this, however, I
-found none, so far, that translates to _Frog_ files. This is my feeble
-attempt to achive that.
+There are times when you want more control over your content. There are also times when you don’t
+want another platform to dictatet what goes in or out. Issues like censorship and politics, can
+easily creep up on a blogging platform. I found specific cases wherein I needed to convert
+LiveJournal articles to another platform. There are tools that does this, however, I found none, so
+far, that translates to _Frog_ files. This is my feeble attempt to achive that.
 
 
 ## Table of contents
