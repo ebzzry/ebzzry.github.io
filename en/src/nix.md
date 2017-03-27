@@ -571,9 +571,54 @@ nix-repl> "foo"
 "foo"
 ```
 
+Arithmetic:
 
+```bash
+nix-repl> 6+2
+8
 
+nix-repl> 6-2
+4
 
+nix-repl> 6*2
+12
+
+nix-repl> 6/2
+/home/user/6/2
+```
+
+Oops, that wasn’t what we expected. Since Nix was designed with files and directories in mind, it
+made a special case that when a `/` character is surrounded by non-space characters, it interprets
+it as a directory path, resulting in an absolute path. To actually perform division, add at least
+one space before and after the `/` character:
+
+```bash
+nix-repl> 6 / 2
+```
+
+There are no floating point numbers in Nix. So, if you try to evaluate one, you’ll get:
+
+```bash
+nix-repl> 1.0
+error: syntax error, unexpected INT, expecting ID or OR_KW or DOLLAR_CURLY or '"', at (string):1:3
+'"'
+```
+
+Boolean values:
+
+```bash
+nix-repl> 1 < 2
+true
+
+nix-repl> 1 > 2
+false
+
+nix-repl> 1 == 1
+true
+
+nix-repl> "foo" == "foo"
+true
+```
 
 
 ### environmonts
