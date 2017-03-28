@@ -118,3 +118,6 @@ awareness, shed light on things, and inspire.
 
 
 - If you can’t join them, beat them.<br>
+
+
+- If you can’t beat them, arrange to have them beaten.<br>
