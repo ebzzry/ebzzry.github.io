@@ -1,4 +1,4 @@
-.PHONY: all clean
+.PHONY: all clean rebuild
 
 FILES=$(wildcard src/*.md)
 BUILDER=emem
@@ -26,6 +26,10 @@ all:
 	time parallel --will-cite "$(MAKE) {/.}.html" ::: $(FILES)
 
 clean:
-	rm -vf *.html
+	find . -maxdepth 1 -name '*.html' ! -name 'sitemap.html' ! -name 'index.html' -exec rm -vf {} \;
 	rm -rvf static
 	$(MAKE) -C en $@
+
+rebuild:
+	$(MAKE) clean
+	$(MAKE)
