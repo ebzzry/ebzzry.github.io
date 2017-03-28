@@ -1,6 +1,6 @@
 .PHONY: all clean
 
-FILES=$(filter-out src/footer.md,src/index.md $(wildcard src/*.md))
+FILES=$(filter-out src/footer.md src/index.md, $(wildcard src/*.md))
 BUILDER=emem
 
 DESCRIPTION="$$(cat ../DESCRIPTION)"
@@ -31,4 +31,4 @@ all:
 
 clean:
 	rm -vf *.html
-	rm -rvf static
+	find . -maxdepth 1 -type d ! -path . ! -iname src -exec rm -rf {} \;
