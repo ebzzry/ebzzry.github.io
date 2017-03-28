@@ -38,17 +38,6 @@ awareness, shed light on things, and inspire.
   that choice, that will liberate, and free us.<br>
 
 
-- With the relentless promise of my facetious preoccupations, lest mindful capture, I compel myself
-  to the unphased subjugations over the thin vinyl of the aqueous walls which coat my presumptions,
-  and vindictive beliefs. For the horses of death shall thump, and shake the ground, as they tremble
-  the very earth that clamps this peaceful chaos together. I have, and will always, wield my own
-  slice of eternity, for I shall banish, and disintegrate, but permeate the very soul of these livid
-  disenchantments.<br>
-
-
-- It doesn’t really matter if we keep failing; what matters is that we keep trying.<br>
-
-
 - Unless we will have the boldness and audacity to drive them away, our greatest fears will not
   leave us.  If, however, they are there to stay, then we should have the strength and courage to
   tame them.<br>
