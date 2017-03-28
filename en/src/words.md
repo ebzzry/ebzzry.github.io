@@ -2,7 +2,7 @@ Words
 =====
 
 This page contains a list of phrases and lines that I communicated with my fellow men, to raise
-awareness, shed light on things, and inspire.
+awareness, to shed light on things, and to inspire.
 
 
 - While the intrepid ones are braving the storms with courage and triumph, the cowards are basking
