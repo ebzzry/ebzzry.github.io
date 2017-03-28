@@ -4,18 +4,15 @@ Emacs and Pairs
 <div class="center">August 15, 2015</div>
 <div class="center">Updated: March 13, 2017</div>
 
-In this post, I’ll exclusively talk about _smartparens_ — a package
-that you wish you should have used, earlier, presuming you don’t use
-it yet. If you’re new to it, read along; if not, this may be a good
-refresher.
+In this article, I’ll exclusively talk about _smartparens_ — a package that you wish you should have
+used, earlier, presuming you don’t use it yet. If you’re new to it, read along; if not, this may be
+a good refresher.
 
-_smartparens_ is one of those packages that drastically improves, and
-changes how one uses Emacs. It’s like having cybernetic limbs — it
-makes you jump higher, and punch harder.
+_smartparens_ is one of those packages that drastically improves, and changes how one uses
+Emacs. It’s like having cybernetic limbs — it makes you jump higher, and punch harder.
 
-Take note, though, that the name is a misnomer, as it not only handles
-parentheses. It handles just about anything that pairs, and it
-performs those functions stellarly.
+Take note, though, that the name is a misnomer, as it not only handles parentheses. It handles just
+about anything that pairs, and it performs those functions stellarly.
 
 
 ## Table of contents
@@ -569,7 +566,7 @@ Execute `sp-backward-kill-sexp`. I bound it to <kbd>M-k</kbd>
 
 The following snippet summarizes the key bindings used in this
 article. I use **bind-keys** to conveniently map my keys. I discussed
-about it, in an [earlier](emacs-hacks-2.html) article.
+about it, in an [earlier](emacs-hacks-2) article.
 
 ```lisp
 (bind-keys
