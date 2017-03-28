@@ -1,4 +1,4 @@
-.PHONY: all upload force-upload clean
+.PHONY: all clean
 
 FILES=$(filter-out src/footer.md,src/index.md $(wildcard src/*.md))
 BUILDER=emem
@@ -29,12 +29,6 @@ all:
           -RFiamuo "$$(basename $< .md)/index.html" \
           $< src/footer.md
 
-upload:
-	git push origin master
-
-force-upload:
-	git push --force origin master
-
 clean:
-	rm -f *.html
-	rm -rf static
+	rm -vf *.html
+	rm -rvf static
