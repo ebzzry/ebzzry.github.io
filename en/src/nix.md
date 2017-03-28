@@ -411,7 +411,7 @@ then points to a symlink to a file in `/nix/store/` that will lead to the actual
 
 ### Installation <a name="nixpkgsinstallation"></a>
 Skip this step if you are using NixOS because Nixpkgs already comes with it. To install Nixpkgs on
-GNU/Linux or macOS systems, run:
+GNU/Linux or macOS, run:
 
 ```bash
 $ curl https://nixos.org/nix/install | bash
@@ -445,7 +445,7 @@ $ git clone https://github.com/nixos/nixpkgs ~/nixpkgs
 
 This command creates a `nixpkgs/` directory under your home. If your username is `ogag`, the
 clone of the repository is available at `/home/ogag/nixpkgs/` or `/Users/ogag/nixpkgs`, if you’re
-using a GNU/Linux or macOS system, respectively.
+using a GNU/Linux or macOS, respectively.
 
 To install a package, say emem—a Markdown to HTML converter, using the git checkout, run:
 
@@ -537,7 +537,7 @@ If at any point during the installation of a package, the process is interrupted
 installed will not be in a half-baked state. The very last step of installing a package is
 atomic. The secret to it is that it the operation that makes it available to a user creates a
 symlink from `/nix/store`, where the actual program data is, to your profile, which is located at
-`~/.nix-profile/`. Symbolic link creation in GNU/Linux and macOS systems are either successful or
+`~/.nix-profile/`. Symbolic link creation in GNU/Linux and macOS are either successful or
 not.
 
 On NixOS, the channel used by the root user is important because it is the one used when rebuilding
@@ -1110,22 +1110,24 @@ $ nix-env -iA nixos.zsh
 
 Zsh only becomes explicity avaible for the user invoking it. If the username who ran that command is
 `john`, then the Zsh binary will be available as `/home/john/.nix-profile/bin/zsh`. If the user
-`mary` hasn’t installed Zsh to her profile, then it is unavailable to her. If `mary` has the same
-channel as `john`, and she run that nix-env command, then Nix  will no longer need to fetch
-the Zsh program data, from scratch. Instead, Nix makes the Zsh program data, created by the nix-env
-processes that `john` used earlier, to make Zsh available to `mary`. However, if `mary` uses the git
-checkout, or a different version of channels than the one used by `john`, and the versions of Zsh
-differ from the version of `john`, then the invocation of `nix-env` by `mary` will fetch a newer
+`mary` hasn’t installed Zsh to her profile, then it is unavailable to her. If Mary has the same
+channel as John, and she run that nix-env command, then Nix will no longer need to fetch the Zsh
+program data, from scratch. Instead, Nix makes the Zsh program data, created by the nix-env
+processes that John used earlier, to make Zsh available to Mary. However, if Mary uses the git
+checkout, or a different version of channels than the one used by John, and the versions of Zsh
+differ from the version of John, then the invocation of `nix-env` by Mary will fetch a newer
 instance of Zsh.
 
 The third enviroment, user development enviroments, are created with the use of
-`nix-shell`. `nix-shell` allows the user to create sandboxed environments. The enviroment created is
+*nix-shell*. `nix-shell` allows the user to create sandboxed environments. The enviroment created is
 isolated from the system and regular user environments. The enviroment created will still use
-`/nix/store`, but neither `/run/current-system/sw/` nor `~/.nix-profile/` will be accessed. What
+`/nix/store`, but neither `/run/current-system/sw/` nor `~/.nix-profile/` will be modified. What
 *nix-shell* provides is an environment that is separated from the rest of the system, allowing the
 user to create ad-hoc deployments, without worries of altering system state. With this, a user gains
 the ability, for example, to use an environment to test out different deployments of an application,
 or to compare features prior to delivery.
+
+On macOS, the system enviroment is not used.
 
 
 ### User commands
@@ -1155,7 +1157,7 @@ underlying systems may not exhibit reproducibility. Hence, treating them as expe
 
 Building Declarative Deterministic Systems with Nix
 
-flatpak
+flatpak; no resource sharing
 
 Special mention goes to [Francois-Rene Rideau](https://fare.livejournal.com) who introduced me to
 NixOS several years ago.
