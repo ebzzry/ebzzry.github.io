@@ -1,8 +1,8 @@
 Nix and Why it Matters
 ======================
 
-<div class="center">March 22, 2017 (Wed)</div>
-<div class="center">Updated: March 26, 2017 (Wed)</div>
+<div class="center">March 22, 2017</div>
+<div class="center">Updated: March 28, 2017</div>
 
 Ideas that change the way we do computing come rarely. A lot of the technology that we are using now
 are just re-hashes of old ones. Layers upon layers of cosmetics envelop old concepts. Entire product
@@ -27,8 +27,31 @@ to the use of sudo.
 Table of contents
 -----------------
 - [NixOS](#nixos)
+  + [Installation](#nixosinstallation)
+    * [Boot machine](#nixosboot)
+    * [Setup networking](#nixosnetworking)
+    * [Preare disks](#nixosdisks)
+    * [Install to disk](#nixosinstall)
+  + [Configuratino](#nixosconfiguration)
 - [Nixpkgs](#nixpkgs)
+  + [Installation](#nixpkgsinstallation)
+  + [Usage](#nixpkgsusage)
+    * [Git checkout](#nixpkgsgit)
+    * [Channels](#nixpkgschannels)
+    * [Other commands](#nixpkgsother)
+  + [Notes](#nixpkgsnotes)
 - [Nix](#nix)
+  + [Strings](#nixstrings)
+  + [Numbers](#numbers)
+  + [Booleans](#nixbooleans)
+  + [Lists](#nixlists)
+  + [Sets](#nixsets)
+  + [Paths](#nixpaths)
+  + [Functions](#nixfunctions)
+  + [Let](#nixlet)
+  + [With](#nixwith)
+  + [Conditionals](#nixconditionals)
+  + [File imports](#niximports)
 - [Closing remarks](#closing)
 
 
@@ -64,7 +87,7 @@ User-installed programs, on the other hand, are available at their respective
 must be used to write to these trees.
 
 
-### Installation
+### Installation <a name="nixosinstallation"></a>
 
 Installation of NixOS is straightforward. For bare metal systems, download an installer
 from [nixos.org/nixos/download.html](https://nixos.org/nixos/download.html). VM images are also
@@ -77,12 +100,12 @@ available from that page. For my last installation, I installed with the followi
 - [LUKS](https://en.wikipedia.org/wiki/Linux_Unified_Key_Setup) over [LVM](https://en.wikipedia.org/wiki/Logical_volume_management)
 
 
-#### Booting
+#### Boot machine <a name="nixosboot"></a>
 
 Boot from the USB drive in UEFI mode. In the login prompt, login as `root`.
 
 
-#### Setup networking
+#### Setup networking <a name="nixosnetworking"></a>
 
 Scan for available networks
 
@@ -96,7 +119,7 @@ Then, connect to the router of choice
 # nmcli d wifi con Foobarbaz name Foo password supersecretkey
 ```
 
-#### Prepare the disk
+#### Prepare disks < name"disks"></a>
 
 Create the partitions:
 
@@ -165,7 +188,7 @@ Enable swap
 ```
 
 
-#### Install NixOS to disk
+#### Install to disk <a name="nixosinstall"></a>
 
 Create the base config
 
@@ -288,7 +311,7 @@ You may save this with:
 # curl -sSLo /mnt/etc/nixos/configuration.nix https://goo.gl/ZTQcGs
 ```
 
-A longer version is available with:
+A longer version is available at:
 
 ```bash
 # curl -sSLo /mnt/etc/nixos/configuration.nix https://goo.gl/K4P7l5
@@ -325,7 +348,7 @@ When the installation completes, reboot your system:
 ```
 
 
-### Configuration
+### Configuration <a name="nixosconfiguration"></a>
 
 After installation, updating your existing configuration is trivial. All you have to do is edit the
 configuration file then rebuild the system:
@@ -386,11 +409,9 @@ then points to a symlink to a file in `/nix/store/` that will lead to the actual
 `/nix/store/w4cr4j13lqzry2b8830819vdz3sdypfa-vim-8.0.0329/bin/vim`.
 
 
-### Installation
-
-Although Nixpkgs nicely complements NixOS, it is not limited to that platform. Nixpkgs can also be
-installed on other GNU/Linux systems and recent versions of macOS. To install Nixpkgs for your
-platform, run:
+### Installation <a name="nixpkgsinstallation"></a>
+Skip this step if you are using NixOS because Nixpkgs already comes with it. To install Nixpkgs on
+GNU/Linux or macOS systems, run:
 
 ```bash
 $ curl https://nixos.org/nix/install | bash
@@ -402,7 +423,7 @@ to your shell initialization file. When you spawn a new shell instance, the Nix-
 will become available for use.
 
 
-### Usage
+### Usage <a name="nixpkgsusage"></a>
 
 There are two ways to install packages with Nixpkgs: the git checkout, which is the bleeding edge,
 up-to-the-minute updated version, or by using
@@ -412,7 +433,7 @@ out. [Channels](https://nixos.org/channels/) on the other hand, are essentially 
 repository at an earlier version.
 
 
-#### Git checkout
+#### Git checkout <a name="nixpkgsgit"></a>
 
 Updates to the git repository happen frequently—aAs you are reading this article, new commits are
 made to the main tree. To use the git checkout, clone
@@ -449,7 +470,7 @@ $ cd ~/nixpkgs && git pull origin master
 ```
 
 
-#### Channels
+#### Channels <a name="nixpkgschannels"></a>
 
 Installing packages via channels is nicer, because the commands to install packages with it are more
 convenient. The trade-off is that the packages will be out-of-date by a few weeks. If you’re fine
@@ -484,7 +505,7 @@ $ nix-channel --update
 ```
 
 
-### Other commands
+#### Other commands <a name="nixpkgsother"></a>
 
 To uninstall a package, run:
 
@@ -511,8 +532,7 @@ $ command-not-found emem
 ```
 
 
-### Notes
-
+### Notes <a name="nixpkgsnotes"></a>
 If at any point during the installation of a package, the process is interrupted, the package being
 installed will not be in a half-baked state. The very last step of installing a package is
 atomic. The secret to it is that it the operation that makes it available to a user creates a
@@ -564,14 +584,58 @@ nix-repl>
 
 Let’s try out some basic expressions.
 
-Strings evaluate to themselves:
+
+### Strings <a name="nixstrings"></a>
+Just like in other languages, strings evaluate to themselves:
 
 ```bash
 nix-repl> "foo"
 "foo"
 ```
 
-Arithmetic:
+To concatenate strings, use the `+` operator:
+
+```bash
+nix-repl> "foo" + "bar"
+"foobar"
+```
+
+Another way to declare strings is to use two pairs of single quotes. Do not mistake it with the
+double quotes:
+
+```bash
+nix-repl> ''foo bar''
+"foo bar"
+```
+
+The advantage of using `''` over the `"` is that allows `"` inside it:
+
+```bash
+nix-repl> ''"foo" "bar"''
+"\"foo\" \"bar\"\"
+```
+
+The value that it then returns will be properly quoted. This is useful later when we’re going to
+build complex expressions.
+
+To deference strings inside strings, use the `${name}` form:
+
+```bash
+nix-repl> x = "foo"
+
+nix-repl> y = "bar"
+
+nix-repl> "${x} ${y}"
+"foo bar"
+
+nix-repl> ''${x} ${y}''
+"foo bar"
+```
+
+
+### Numbers <a name="nixnumbers"></a>
+
+asic arithmetic operations in Nix are included with a small twist:
 
 ```bash
 nix-repl> 6+2
@@ -604,7 +668,45 @@ error: syntax error, unexpected INT, expecting ID or OR_KW or DOLLAR_CURLY or '"
 '"'
 ```
 
-Boolean values:
+The function `builtins.div` does essentially the same as `/`:
+
+```bash
+nix-repl> builtins.div 6 3
+2
+```
+
+The difference, however, is that `builtins.dev` can be applied partially:
+
+```bash
+nix-repl> (builtins.div 6)
+«primop-app»
+```
+
+This expressions returns a closure of a partially applied function. We need another value to fully
+apply it:
+
+```bash
+nix-repl> (builtins.div 6) 3
+2
+```
+
+We can even store the value of that partial application:
+
+```bash
+nix-repl> d = builtins.div 6
+```
+
+The `=` operator in Nix is used to bind values. In this example, it is used to define a partial
+application. To use that function:
+
+```bash
+nix-repl> d 3
+2
+```
+
+
+### Booleans <a name="nixboolean"></a>
+Truth and falsehood are represented with *true* and *false*:
 
 ```bash
 nix-repl> 1 < 2
@@ -618,44 +720,447 @@ true
 
 nix-repl> "foo" == "foo"
 true
+
+nix-repl> "foo" < "bar"
+false
+
+nix-repl> false || true
+true
+
+nix-repl> false && true
+false
 ```
 
 
-### environmonts
+### Lists <a name="nixlists"></a>
+Lists are heterogenous types for containing serial values, wherein elements are separated
+with spaces:
 
-- environments
+```bash
+nix-repl> [ 1 "foo" true ]
+[ 1 "foo" true ]
+```
+
+To concatenate lists:
+
+```bash
+nix-repl> [ 1 "foo" true ] ++ [ false (6 / 2) ]
+[ 1 "foo" true false ]
+```
+
+To extract the head:
+
+```bash
+nix-repl> builtins.head ([ 1 "foo" true (6 / 2) ] ++ [ false (6 / 2) ])
+1
+```
+
+To extract the tail:
+
+```bash
+nix-repl> builtins.tail ([ 1 "foo" true (6 / 2) ] ++ [ false (6 / 2) ])
+[ "foo" true 3 false 3 ]
+```
+
+Lists are indexed starting
+at [0](https://www.cs.utexas.edu/users/EWD/transcriptions/EWD08xx/EWD831.html). To get the *1th*
+element, use the *builtins.elemAt* operator:
+
+```bash
+nix-repl> builtins.elemAt [ 1 "foo" true ] 1
+"foo"
+```
 
 
-### user commands
+### Sets <a name="nixsets"></a>
+An important data structure in Nix are sets. They keyword-value pairs separated with semi-colons:
+
+```bash
+nix-repl> { a = 0; b = "bar"; c = true; d = (6 / 2); }
+```
+
+What makes sets different from lists is that extracting values from them are done by making name
+references. To extract the value of `b`, use the `.` operator:
+
+```bash
+nix-repl> { a = 0; b = "bar"; c = true; d = (6 / 2); }.b
+"bar"
+```
+
+To dereference a member from the same set, use the `rec` keyword:
+
+```bash
+nix-repl> rec { a = 0; b = "bar"; c = true; d = (6 / 2); e = b; }.e
+"bar"
+```
+
+
+### Paths <a name="nixpaths"></a>
+In Nix all paths are translated to absolute ones. If you make a reference to a file in the current
+directory:
+
+```bash
+nix-repl> ./foo
+/home/user/foo
+```
+
+It gets translated to an absolute path. This is a Good Thing™.
+
+Similarly, if you make a reference to a relative path inside an absolute path, it still gets
+translated to an absolute one:
+
+```bash
+nix-repl> /./foo
+/foo
+```
+
+Note, however, that Nix doesn’t like paths that stand alone:
+
+```bash
+nix-repl> /
+error: syntax error, unexpected '/', at (string):1:1
+
+nix-repl> ./
+error: syntax error, unexpected '.', at (string):1:1
+```
+
+
+### Functions <a name="nixfunctions"></a>
+What fun would it be if there’ll be no verbs to use with these nouns? Functions in Nix share
+similarities with other languages while having its own unique traits.
+
+The most basic form of a function follows:
+
+```bash
+nix-repl> x: x
+«lambda»
+```
+
+This expression creates an anonymous function that returns its argument—the identity function. The
+colon after the first *x* indicates that it is a parameter to the function, just like
+in [lambda calculus](http://ebzzry.io/en/lambda-calculus/#functions). Also,the names do not matter
+due to [alpha equivalence](https://en.wikipedia.org/wiki/Lambda_calculus#Alpha_equivalence):
+
+```bash
+nix-repl> foo-bar-baz: foo-bar-baz
+«lambda»
+```
+
+These functions are not of much use because they are not captured for application. If we want to use
+it, for example the value `"foo"`, we need to surround it with parentheses:
+
+```bash
+nix-repl> (x: x) "foo"
+"foo"
+```
+
+To add more fun, let’s name that function:
+
+```bash
+nix-repl> identity = x: x
+```
+
+Sweet! Now, let’s apply it:
+
+```bash
+nix-repl> identity "foo"
+"foo"
+```
+
+Let’s create a function that appends `" ugh"` to its input, then let’s apply it:
+
+```bash
+nix-repl> ugh = s: s + " ugh"
+
+nix-repl> ugh "me"
+"me ugh"
+```
+
+To define a function that takes another argument, let’s use the following form:
+
+```bash
+nix-repl> ugh = s: t: s + " ugh " + t
+
+nix-repl> ugh "me" "you"
+"me ugh you"
+```
+
+The pattern is that to add an additional parameter, use the `name: ` form.
+
+Sets, when used with functions enable more powerful abstractions. We can pass a set as an argument
+to a function, which will then use the data inside that set:
+
+```bash
+nix-repl> poof = { a, b }: x: a + " " + b + x
+```
+
+This function has two parameters: `{ a, b }`—a parameter specification for a set with two elements,
+and `x`—a regular parameter. Take note, too that the parameter specifaciton is not a real set, but
+merely a way to match arguments; it uses a comma, as value separator. Inside this function we
+combine the inputs with the `+` operator. To use this function, we’d do it like:
+
+```bash
+nix-repl> poof { a = "ugh"; b = "me"; } " poof"
+"ugh me poof"
+```
+
+When a function declares a set as its parameter, you need to specify the keywords when invoking the
+function that uses them. In this case the keyword names are `a` and `b`.
+
+The definition of `poof` above is actually a syntactic sugar for:
+
+```bash
+nix-repl> poof = meh: x: meh.a + " " + meh.b + x
+```
+
+We used a regular, non-set parameter here so that it can refer to the set as a value. Observe this:
+
+```bash
+nix-repl> meh = { a = "foo"; b = "bar"; }
+
+nix-repl> meh.a
+"foo"
+```
+
+It is also possible to specify default values. When a parameter with default value is not used, the
+default value is used. They are declared similarly in Common Lisp:
+`(defun foop (a &optional (b "O.o")) (concatenate 'string a b'))`
+
+```bash
+nix-repl> foop = { a, b ? "O.o" }: a + b
+
+nix-repl> foop { a = "goo"; }
+"gooO.o"
+
+nix-repl> foop { a = "goo"; b = "oog"; }
+"goooog"
+
+```
+
+To add even more flexibility, Nix supports the use of pseudo-‘rest’ arguments. Let’s modify the
+function from above:
+
+```bash
+nix-repl> foop = { a, b, ...}: a + b
+```
+
+Let’s use it:
+
+```bash
+nix-repl> foop { a = "meh"; b = "foo"; }
+"mehfoo"
+```
+
+The same. So how can we make use of that flexibility, then? We’ll create a label for the attribute
+set, so that we can refer to the ‘extra’ values:
+
+```bash
+nix-repl> foop = attrs@{ a, b, ...}: a + b + attrs.blah
+```
+
+We use it just like before, but with the use of the label:
+
+```bash
+nix-repl> foop { a = "goo"; b = "oog"; c = "hhh"; }
+"gooooghhh"
+```
+
+I said ‘pseudo’ because the value for `c` was still required.
+
+The use of default values of variable arity, can be combined together:
+
+```bash
+nix-repl> foop = attrs@{ a, b, c ? "C", ... }: a + b + c + attrs.d
+
+nix-repl> foop { a = "A"; b = "B"; d = "D"; }
+"ABCD"
+
+nix-repl> foop { a = "A"; b = "B"; c = "X"; d = "D"; }
+"ABXD"
+
+```
+
+
+### Let <a name="nixlet"></a>
+The keyword `let` lets (pun not intended) us define variables in a local scope. For example, the
+names `x` and `y` are only visible in that scope:
+
+```bash
+nix-repl> let x = "foo"; y = "bar"; in x + poof { a = "huh"; b = "really"; } "hmm" + y
+"foohuh reallyhmmbar"
+```
+
+Take note of the last `;` before the '`in` keyword that goes with `let`—it marks the start of the
+`let` body. The let contruct behaves in similar ways to the `let` keyword found in languages like
+Lisp and Haskell.
+
+
+### With <a name="with"></a>
+The keyword `with` lets (no pun not intended, this time) you ‘drop’ set values in a scope:
+
+```bash
+nix-repl> with { x = "foo"; y = "bar"; }; poof { a = y; b = x; } " xyz"
+"bar foo xyz"
+```
+
+What happened here is that the values inside that set were ‘unveiled’ to make them available in the
+`with` body.
+
+
+### Conditionals <a name="conditionals"></a>
+Conditional expressions are done with the `if` keyword. It has a similar form with mainstream
+languages:
+
+```bash
+nix-repl> if true then "true" else "false"
+"true"
+```
+
+It can also be nested:
+
+```bash
+nix-repl> if false then "true" else if false then "true" else if false then "true" else "false"
+"false"
+```
+
+### File imports <a name="imports"></a>
+The idea of importing files into a Nix expression is subtly different from most methods. Imports in
+Nix are closed tied with sets. Presuming we have the file `meh.nix` that contains the following:
+
+```
+let
+  meh = x: x + "meh";
+in {
+  meh = meh;
+}
+```
+
+The let expression binds the name *meh* to a function that takes one argument. In the body of let,
+it returns a set which contains one member with the name *meh*, the one on the left side of the
+`=`. The value of this member is the function that was just defined. The important concept to
+remember here is that this let expression returns an attribute set.
+
+Let’s go back to the REPL to use this file:
+
+```bash
+nix-repl> import ./meh.nix
+{ meh = «lambda»; }
+```
+
+We see again the familiar lambda term. The *meh* name here, as it shows, is a function. Now, how can
+we dereference this value? With the use of the `.` operator!
+
+```bash
+nix-repl> (import ./meh.nix).meh "foo"
+"foomeh"
+```
+
+We had to use parentheses because there is no such file as `meh.nix.meh` in the current
+directory. If we’re going to step through it, it would like the following:
+
+```bash
+nix-repl> { meh = «lambda»; }.meh "foo"
+```
+
+then
+
+```bash
+nix-repl> { meh = (x: x + "meh"); }.meh "foo"
+"foomeh"
+```
+
+This pretty sums up the introductory concepts about the Nix language. The rest of the hairy details
+are available in the [manual](https://nixos.org/nix/manual/#ch-expression-language).
+
+
+Miscellany
+----------
+This section contains concepts and information that are shared across the entire Nix ecosystem.
+
+
+### Environments
+An environment is a way of Nix of providing component isolations between system and users. In NixOS,
+there are three enviroments: system enviroment, user environment, and user development environment.
+
+The system enviroment is modified only by the root user who declares its value in
+`/etc/nixos/configuration.nix`. It is a list which contains the packages that will be made available
+to all users of the system. An excerpt of `/etc/nixos/configuration.nix` that uses the system
+environment is:
+
+```
+{ config, lib, pkgs, ... }:
+
+{
+  ...
+  environment.systemPackages = with pkgs; [ zsh vim ];
+  ...
+}
+```
+
+This declares that the packages named zsh and vim will be available for all users of the
+system. The binaries will be available as `/run/current-system/sw/bin/zsh` and
+`/run/current-system/sw/bin/vim`, for Zsh and Vim, respectively.
+
+The user enviroment is the one that is used whenever the command `nix-env` is used. For example,
+when installing Zsh using nix-env:
+
+```bash
+$ nix-env -iA nixos.zsh
+```
+
+Zsh only becomes explicity avaible for the user invoking it. If the username who ran that command is
+`john`, then the Zsh binary will be available as `/home/john/.nix-profile/bin/zsh`. If the user
+`mary` hasn’t installed Zsh to her profile, then it is unavailable to her. If `mary` has the same
+channel as `john`, and she run that nix-env command, then Nix  will no longer need to fetch
+the Zsh program data, from scratch. Instead, Nix makes the Zsh program data, created by the nix-env
+processes that `john` used earlier, to make Zsh available to `mary`. However, if `mary` uses the git
+checkout, or a different version of channels than the one used by `john`, and the versions of Zsh
+differ from the version of `john`, then the invocation of `nix-env` by `mary` will fetch a newer
+instance of Zsh.
+
+The third enviroment, user development enviroments, are created with the use of
+`nix-shell`. `nix-shell` allows the user to create sandboxed environments. The enviroment created is
+isolated from the system and regular user environments. The enviroment created will still use
+`/nix/store`, but neither `/run/current-system/sw/` nor `~/.nix-profile/` will be accessed. What
+*nix-shell* provides is an environment that is separated from the rest of the system, allowing the
+user to create ad-hoc deployments, without worries of altering system state. With this, a user gains
+the ability, for example, to use an environment to test out different deployments of an application,
+or to compare features prior to delivery.
+
+
+### User commands
 - nix-instantiate
 - nix-store
 - nix-build
 
 
 ### nix-shell
+- nix-shell -p vim emacs
 
 
-### configuration
+### Configuration
 - `~/.nixpkgs/config.nix`
-
-### same package
-
-
-### nix-repl
 
 
 Closing remarks <a name="closing"></a>
 --------------------------------------
 
-??? Docker, along with Kubernetes and OpenShift solves a different class of problems.
-??? Docker is good at what it does, and it does it well. However, the key philosophy with Docker is that
-it assumes that the underlying systems may not exhibit reproducibility. Hence, treating them as
-expendables.
+Docker, along with Kubernetes and OpenShift solves a different class of Docker is good at what it
+does, and it does it well. However, the key philosophy with Docker is that it assumes that the
+underlying systems may not exhibit reproducibility. Hence, treating them as expendables.
 
 - purely functional
 - stateless
 - declarative
 
-- Building Declarative Deterministic Systems with Nix
+Building Declarative Deterministic Systems with Nix
 
 flatpak
+
+Special mention goes to [Francois-Rene Rideau](https://fare.livejournal.com) who introduced me to
+NixOS several years ago.
+
+emacs nix mode
+
+https://medium.com/@MrJamesFisher/nix-by-example-a0063a1a4c55
+https://lethalman.blogspot.com/2014/07/nix-pill-1-why-you-should-give-it-try.html
