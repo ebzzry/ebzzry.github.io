@@ -4,7 +4,7 @@ Verb Tenses in English (Condensed)
 <div class="center">April 6, 2016</div>
 <div class="center">Updated: March 28, 2017</div>
 
-This article is the condensed form of [Verb Tenses in English](verb-tenses).
+This article is the condensed form of [Verb Tenses in English](/en/verb-tenses).
 
 Simple
 ------
