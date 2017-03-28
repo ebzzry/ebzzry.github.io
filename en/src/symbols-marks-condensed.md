@@ -1,10 +1,10 @@
-Symbols and Marks
-=================
+Symbols and Marks (Condensed)
+=============================
 
 <div class="center">April 8, 2016</div>
 <div class="center">Updated: October 22, 2016</div>
 
-The table below is the condensed form of [Symbols and Marks](symbols-marks.html).
+The table below is the condensed form of [Symbols and Marks](symbols-marks).
 
 | Glyph | Name                | Windows         | Mac             | Linux             |
 | :---- | :------------------ | :-------------- | :-------------- | :---------------- |

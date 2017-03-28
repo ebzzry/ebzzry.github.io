@@ -1,18 +1,15 @@
-Emacs and Dired
-===============
+Setting Up Directory Management in Emacs
+========================================
 
 <div class="center">September 26, 2013</div>
-<div class="center">Updated: May 13, 2016</div>
+<div class="center">Updated: March 28, 2017</div>
 
-In this post, I’ll be focusing on one of the novel ways Emacs handles
-“directory editing”. The directory editor, or _Dired_ (pronounced
-dir-ed, not die-rd), for short, is the Emacs equivalent of a file
-manager. Whatever you can do with regular file buffers, you can also
-do it with dired buffers, to a certain extent.
+In this post, I’ll be focusing on one of the novel ways Emacs handles management. The directory
+editor, or _dired_ (pronounced dir-ed, not dye-rd), for short, is the Emacs equivalent of a file
+manager. Whatever you can do with regular buffers, you can also do it with dired ones.
 
 
 ## Table of contents
-
 * [Introduction](#introduction)
 * [Common commands](#commoncommands)
 * [Mark commands](#markcommands)
@@ -67,6 +64,7 @@ them for multiple items will be explained, next.
 | T       | Touch item                |
 | ! or X  | Run shell command on item |
 
+
 ## Mark commands <a name="markcommands"></a>
 
 These commands perform mark-related operations on items. Creating
@@ -82,6 +80,7 @@ operations in the previous section, on them.
 | U   | Unmark all items                                 |
 | t   | Toggle marks between marked and unmarked items   |
 | c   | Compress items                                   |
+
 
 ## Other commands <a name="othercommands"></a>
 
@@ -101,21 +100,20 @@ exception.
 | y       | Show file type fo item, like `file`     |
 | w       | Copy item name to clipboard             |
 
+
 ## WDired mode <a name="wdired"></a>
 
-*BUT*, one of the coolest, and often-overlooked feature of dired is
-the _WDired_ mode. What it does is that it gives you a decent ability
-to edit the item names in a dired buffer, just as you would on a
-typical buffer. To enter wdired mode, hit:
+*BUT*, one of the coolest, and often-overlooked feature of dired is the _WDired_ mode. What it does
+is that it gives you a powerful ability to edit the item names in a dired buffer, just as you would
+on a typical buffer. To enter wdired mode, hit:
 
 ```
 M-x wdired-change-to-wdired-mode RET
 ```
 
-The major mode changes from `Dired` to `Editable Dired`. You can then
-rename the files, and directories, with ease. You can even use
-rectangle and replace functions on them, to make things easier. The
-changes you have made at this point are not yet saved. To save the
-changes, press <kbd>C-c C-c</kbd>.
+The major mode changes from `Dired` to `Editable Dired`. You can then rename the files, and
+directories, with ease. You can even use rectangle and replace functions on them, to make things
+easier. The changes you have made at this point are not yet saved. To save the changes, press
+<kbd>C-c C-c</kbd>.
 
 Well, that is it for now. Ciao!

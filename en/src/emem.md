@@ -2,7 +2,7 @@ Converting Markdown to HTML with emem
 =====================================
 
 <div class="center">March 12, 2017</div>
-<div class="center">Updated: March 16, 2017</div>
+<div class="center">Updated: March 28, 2017</div>
 
 I have always wanted a way to create HTML documents from my Markdown files. Initially, I simply
 wanted to have HTML files from my text files so that I can view them nicely on my phone. Later, I
@@ -16,15 +16,16 @@ that takes in Markdown input either from stdin or disk file, then it produces a 
 decent enough, at least, for regular viewing.
 
 
-## Table of contents <a name="toc"></a>
-
+Table of contents <a name="toc"></a>
+------------------------------------
 - [Installation](#installation)
 - [Usage](#usage)
 - [Closing remarks](#closing)
 
-## Installation <a name="installation"></a>
 
-Emem is available via [Nix](https://nixos.org/nix/). If you don’t have Nix yet, you may install it
+Installation <a name="installation"></a>
+----------------------------------------
+emem is available via [Nix](https://nixos.org/nix/). If you don’t have Nix yet, you may install it
 with:
 
 ```bash
@@ -37,6 +38,18 @@ You may then install emem with:
 $ nix-env -i emem
 ```
 
+If you’re unable to install Nix and you have Java installed, you may instead create ad-hoc script:
+
+```bash
+$ mkdir ~/bin
+$ curl -sSLo ~/bin/emem.jar https://github.com/ebzzry/emem/releases/download/v0.2.48/emem.jar
+$ cat > ~/bin/emem << EOF
+#!/usr/bin/env bash
+java -jar \$HOME/bin/emem.jar \$@
+EOF
+$ chmod +x ~/bin/emem
+```
+
 When you’re done installing it, you may check the version number with:
 
 ```bash
@@ -47,7 +60,7 @@ The latest version is 0.2.43.
 
 
 Usage <a name="usage"></a>
------
+--------------------------
 
 At the most basic level, simply running emem against a Markdown file produces a basic, yet complete
 HTML file with all the necessary resources for correct page display. Applying emem on a file named
@@ -192,7 +205,7 @@ in continuous mode:
 $ emem -Rpc README.md
 ```
 
-Emem checks for changes to `README.md` every 200 ms. If a change was detected, it will rebuild
+emem checks for changes to `README.md` every 200 ms. If a change was detected, it will rebuild
 `README.html`. The timeout between checks can be changed with the `-t` option. To specify
 a 1 min timeout:
 
@@ -207,8 +220,8 @@ $ emem --help
 ```
 
 
-## Closing remarks <a name="closing"></a>
-
+Closing remarks <a name="closing"></a>
+--------------------------------------
 For this whole [journal](http://ebzzry.io), I’m able to get a 90+ score
 from [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/), a
 Mobile-Friendly rating

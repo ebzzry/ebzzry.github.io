@@ -1,12 +1,11 @@
-Conkeror’s Bookmarks
-====================
+Creating Conkeror Bookmarks with emem
+=====================================
 
 <div class="center">August 16, 2015</div>
-<div class="center">Updated: May 13, 2016</div>
+<div class="center">Updated: March 28, 2017</div>
 
-I wanted a simple, and easy way to view my bookmarks in
-[Conkeror](http://conkeror.org). However, the proposed solutions on
-the wiki are not suitable for me. So, I rolled my own.
+I wanted a simple, and easy way to view my bookmarks in [Conkeror](http://conkeror.org). However,
+the proposed solutions on the wiki are not suitable for me. So, I rolled my own.
 
 
 ## Table of contents
@@ -93,8 +92,7 @@ bmg () {
 
   [[ ! -d $base ]] && mkdir -p `dirname $file`
 
-  cob | perl -pe 's/^(.*?)\ \<\>\ (.*)/* [\1](\2)/' \
-      | emem -t Bookmarks -o ${file}.tmp
+  cob | perl -pe 's/^(.*?)\ \<\>\ (.*)/* [\1](\2)/' | emem -T Bookmarks -o ${file}.tmp
 
   [[ -f ${file}.tmp ]] && mv -f ${file}.tmp $file
 }

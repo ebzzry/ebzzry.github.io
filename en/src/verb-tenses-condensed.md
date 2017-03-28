@@ -1,10 +1,10 @@
-Verb Tenses in English
-======================
+Verb Tenses in English (Condensed)
+==================================
 
 <div class="center">April 6, 2016</div>
-<div class="center">Updated: March 20, 2017</div>
+<div class="center">Updated: March 28, 2017</div>
 
-This article is the condensed form of [Verb Tenses in English](verb-tenses.html).
+This article is the condensed form of [Verb Tenses in English](verb-tenses).
 
 Simple
 ------

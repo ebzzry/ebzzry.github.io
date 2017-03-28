@@ -4,13 +4,11 @@ Setting Up GPG and SSH in KDE
 <div class="center">September 17, 2014</div>
 <div class="center">Updated: March 16, 2017</div>
 
-When both GPG and SSH are integrated with KDE, it makes
-inter-operating with those systems very easy. It will make the
-difference between a loose-fitting glove, and one that fits snugly.
+When both GPG and SSH are integrated with KDE, it makes inter-operating with those systems very
+easy. It will make the difference between a loose-fitting glove, and one that fits snugly.
 
-This quick tutorial will go over the steps on how to go about it. To
-accommodate everyone, I’ll still go about how to install and configure
-all the necessary components.
+This quick tutorial will go over the steps on how to go about it. To accommodate everyone, I’ll
+still go about how to install and configure all the necessary components.
 
 
 ## Table of contents
