@@ -11,7 +11,7 @@ OG_IMAGE="http://ebzzry.io/static/ico/android-chrome-512x512.png"
 ANALYTICS="93746003-1"
 
 all:
-	time parallel --will-cite "$(MAKE) {/.}.html" ::: $(FILES)
+	parallel --will-cite "$(MAKE) {/.}.html" ::: $(FILES)
 	$(BUILDER) -D $(DESCRIPTION) -K $(KEYWORDS) \
           --og-title "Division by Zero" --og-type $(OG_TYPE) \
           --og-url "http://ebzzry.io/en/" \
