@@ -1,4 +1,4 @@
-.PHONY: all
+.PHONY: all clean
 
 FILES=$(wildcard src/*.md)
 BUILDER=emem
@@ -24,3 +24,8 @@ all:
 	$(BUILDER) -r
 	$(MAKE) $(MFLAGS) -C en
 	time parallel --will-cite "$(MAKE) {/.}.html" ::: $(FILES)
+
+clean:
+	rm -vf *.html
+	rm -rvf static
+	$(MAKE) -C en $@
