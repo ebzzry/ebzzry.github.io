@@ -8,130 +8,142 @@
 
 <url>
   <loc>http://ebzzry.io/</loc>
-  <lastmod>2017-03-27T03:41:58+00:00</lastmod>
+  <lastmod>2017-03-29T09:16:56+00:00</lastmod>
 </url>
 <url>
   <loc>http://ebzzry.io/en/</loc>
-  <lastmod>2017-03-27T03:41:58+00:00</lastmod>
+  <lastmod>2017-03-29T09:16:56+00:00</lastmod>
+</url>
+<url>
+  <loc>http://ebzzry.io/en/nix/</loc>
+  <lastmod>2017-03-29T09:16:56+00:00</lastmod>
 </url>
 <url>
   <loc>http://ebzzry.io/en/emem/</loc>
-  <lastmod>2017-03-27T03:41:58+00:00</lastmod>
+  <lastmod>2017-03-29T09:16:56+00:00</lastmod>
 </url>
 <url>
   <loc>http://ebzzry.io/en/division/</loc>
-  <lastmod>2017-03-27T03:41:58+00:00</lastmod>
+  <lastmod>2017-03-29T09:16:56+00:00</lastmod>
 </url>
 <url>
   <loc>http://ebzzry.io/en/human/</loc>
-  <lastmod>2017-03-27T03:41:58+00:00</lastmod>
+  <lastmod>2017-03-29T09:16:56+00:00</lastmod>
 </url>
 <url>
   <loc>http://ebzzry.io/en/fallacies/</loc>
-  <lastmod>2017-03-27T03:41:58+00:00</lastmod>
+  <lastmod>2017-03-29T09:16:56+00:00</lastmod>
 </url>
 <url>
   <loc>http://ebzzry.io/en/eolinux/</loc>
-  <lastmod>2017-03-27T03:41:58+00:00</lastmod>
+  <lastmod>2017-03-29T09:16:56+00:00</lastmod>
 </url>
 <url>
   <loc>http://ebzzry.io/en/symbols-marks/</loc>
-  <lastmod>2017-03-27T03:41:58+00:00</lastmod>
+  <lastmod>2017-03-29T09:16:56+00:00</lastmod>
+</url>
+<url>
+  <loc>http://ebzzry.io/en/symbols-marks-condensed/</loc>
+  <lastmod>2017-03-29T09:16:56+00:00</lastmod>
 </url>
 <url>
   <loc>http://ebzzry.io/en/verb-tenses/</loc>
-  <lastmod>2017-03-27T03:41:58+00:00</lastmod>
+  <lastmod>2017-03-29T09:16:56+00:00</lastmod>
+</url>
+<url>
+  <loc>http://ebzzry.io/en/verb-tenses-condensed/</loc>
+  <lastmod>2017-03-29T09:16:56+00:00</lastmod>
 </url>
 <url>
   <loc>http://ebzzry.io/en/advantage/</loc>
-  <lastmod>2017-03-27T03:41:58+00:00</lastmod>
+  <lastmod>2017-03-29T09:16:56+00:00</lastmod>
 </url>
 <url>
   <loc>http://ebzzry.io/en/git-github/</loc>
-  <lastmod>2017-03-27T03:41:58+00:00</lastmod>
+  <lastmod>2017-03-29T09:16:56+00:00</lastmod>
 </url>
 <url>
   <loc>http://ebzzry.io/en/emacs-pairs/</loc>
-  <lastmod>2017-03-27T03:41:58+00:00</lastmod>
+  <lastmod>2017-03-29T09:16:56+00:00</lastmod>
 </url>
 <url>
   <loc>http://ebzzry.io/en/conkeror-bookmarks/</loc>
-  <lastmod>2017-03-27T03:41:58+00:00</lastmod>
+  <lastmod>2017-03-29T09:16:56+00:00</lastmod>
 </url>
 <url>
   <loc>http://ebzzry.io/en/kvm/</loc>
-  <lastmod>2017-03-27T03:41:58+00:00</lastmod>
+  <lastmod>2017-03-29T09:16:56+00:00</lastmod>
 </url>
 <url>
   <loc>http://ebzzry.io/en/lambda-calculus/</loc>
-  <lastmod>2017-03-27T03:41:58+00:00</lastmod>
+  <lastmod>2017-03-29T09:16:56+00:00</lastmod>
 </url>
 <url>
   <loc>http://ebzzry.io/en/emacs-hacks-2/</loc>
-  <lastmod>2017-03-27T03:41:58+00:00</lastmod>
+  <lastmod>2017-03-29T09:16:56+00:00</lastmod>
 </url>
 <url>
   <loc>http://ebzzry.io/en/gpg-ssh-kde/</loc>
-  <lastmod>2017-03-27T03:41:58+00:00</lastmod>
+  <lastmod>2017-03-29T09:16:56+00:00</lastmod>
 </url>
 <url>
   <loc>http://ebzzry.io/en/ugarit/</loc>
-  <lastmod>2017-03-27T03:41:58+00:00</lastmod>
+  <lastmod>2017-03-29T09:16:56+00:00</lastmod>
 </url>
 <url>
   <loc>http://ebzzry.io/en/frog/</loc>
-  <lastmod>2017-03-27T03:41:58+00:00</lastmod>
+  <lastmod>2017-03-29T09:16:56+00:00</lastmod>
 </url>
 <url>
   <loc>http://ebzzry.io/en/emacs-mail/</loc>
-  <lastmod>2017-03-27T03:41:58+00:00</lastmod>
+  <lastmod>2017-03-29T09:16:56+00:00</lastmod>
 </url>
 <url>
   <loc>http://ebzzry.io/en/emacs-racket/</loc>
-  <lastmod>2017-03-27T03:41:58+00:00</lastmod>
+  <lastmod>2017-03-29T09:16:56+00:00</lastmod>
 </url>
 <url>
   <loc>http://ebzzry.io/en/emacs-dired/</loc>
-  <lastmod>2017-03-27T03:41:58+00:00</lastmod>
+  <lastmod>2017-03-29T09:16:56+00:00</lastmod>
 </url>
 <url>
   <loc>http://ebzzry.io/en/emacs-hacks-1/</loc>
-  <lastmod>2017-03-27T03:41:58+00:00</lastmod>
+  <lastmod>2017-03-29T09:16:56+00:00</lastmod>
 </url>
 <url>
   <loc>http://ebzzry.io/en/retrospect/</loc>
-  <lastmod>2017-03-27T03:41:58+00:00</lastmod>
+  <lastmod>2017-03-29T09:16:56+00:00</lastmod>
 </url>
 <url>
   <loc>http://ebzzry.io/en/livefrog/</loc>
-  <lastmod>2017-03-27T03:41:58+00:00</lastmod>
+  <lastmod>2017-03-29T09:16:56+00:00</lastmod>
 </url>
 <url>
   <loc>http://ebzzry.io/en/usync/</loc>
-  <lastmod>2017-03-27T03:41:58+00:00</lastmod>
+  <lastmod>2017-03-29T09:16:56+00:00</lastmod>
 </url>
 <url>
   <loc>http://ebzzry.io/en/squandered/</loc>
-  <lastmod>2017-03-27T03:41:58+00:00</lastmod>
+  <lastmod>2017-03-29T09:16:56+00:00</lastmod>
 </url>
 <url>
   <loc>http://ebzzry.io/en/over-under/</loc>
-  <lastmod>2017-03-27T03:41:58+00:00</lastmod>
+  <lastmod>2017-03-29T09:16:56+00:00</lastmod>
 </url>
 <url>
   <loc>http://ebzzry.io/en/y/</loc>
-  <lastmod>2017-03-27T03:41:58+00:00</lastmod>
+  <lastmod>2017-03-29T09:16:56+00:00</lastmod>
 </url>
 <url>
   <loc>http://ebzzry.io/en/about/</loc>
-  <lastmod>2017-03-27T03:41:58+00:00</lastmod>
+  <lastmod>2017-03-29T09:16:56+00:00</lastmod>
 </url>
 <url>
   <loc>http://ebzzry.io/en/quotes/</loc>
-  <lastmod>2017-03-27T03:41:58+00:00</lastmod>
+  <lastmod>2017-03-29T09:16:56+00:00</lastmod>
 </url>
 <url>
   <loc>http://ebzzry.io/en/words/</loc>
-  <lastmod>2017-03-27T03:41:58+00:00</lastmod>
+  <lastmod>2017-03-29T09:16:56+00:00</lastmod>
 </url>
 </urlset>
