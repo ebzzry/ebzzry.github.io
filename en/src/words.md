@@ -1,6 +1,9 @@
 Words
 =====
 
+<center>November 24, 2015</center>
+<center>Updated: March 28, 2017</center>
+
 This page contains a list of phrases and lines that I communicated with my fellow men, to raise
 awareness, to shed light on things, and to inspire.
 
