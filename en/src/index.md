@@ -5,6 +5,7 @@ Division by Zero
 <div class="text-right">A journal about computing, human predilections, and random krakaboom.</div>
 <div class="text-right">Entries are sorted in reverse chronological order.</div>
 
+- [A Gentle Introduction to the Nix Family](nix)
 - [Converting Markdown to HTML with emem](emem)
 - [Division in Haskell](division)
 - [How to Communicate Like a Human](human)

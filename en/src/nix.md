@@ -1,5 +1,5 @@
-Building Reproducible Deterministic Systems with Nix
-====================================================
+A Gentle Introduction to the Nix Family
+=======================================
 
 <div class="center">March 22, 2017</div>
 <div class="center">Updated: March 29, 2017</div>
