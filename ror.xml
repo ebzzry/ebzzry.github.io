@@ -21,6 +21,14 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
+     <link>http://ebzzry.io/en/nix/</link>
+     <title>A Gentle Introduction to the Nix Family</title>
+     <description>A Gentle Introduction to the Nix Family</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
      <link>http://ebzzry.io/en/emem/</link>
      <title>Converting Markdown to HTML with emem</title>
      <description>Converting Markdown to HTML with emem</description>
@@ -69,9 +77,25 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
+     <link>http://ebzzry.io/en/symbols-marks-condensed/</link>
+     <title>Symbols and Marks (Condensed)</title>
+     <description>Symbols and Marks (Condensed)</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
      <link>http://ebzzry.io/en/verb-tenses/</link>
      <title>Verb Tenses in English</title>
      <description>Verb Tenses in English</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://ebzzry.io/en/verb-tenses-condensed/</link>
+     <title>Verb Tenses in English (Condensed)</title>
+     <description>Verb Tenses in English (Condensed)</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>2</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
@@ -102,8 +126,8 @@
 </item>
 <item>
      <link>http://ebzzry.io/en/conkeror-bookmarks/</link>
-     <title>Conkeror’s Bookmarks</title>
-     <description>Conkeror’s Bookmarks</description>
+     <title>Creating Conkeror Bookmarks with emem</title>
+     <description>Creating Conkeror Bookmarks with emem</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>2</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
@@ -158,24 +182,24 @@
 </item>
 <item>
      <link>http://ebzzry.io/en/emacs-mail/</link>
-     <title>Emacs and Mail</title>
-     <description>Emacs and Mail</description>
+     <title>Setting Up Mail in Emacs</title>
+     <description>Setting Up Mail in Emacs</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>2</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
      <link>http://ebzzry.io/en/emacs-racket/</link>
-     <title>Emacs and Racket</title>
-     <description>Emacs and Racket</description>
+     <title>Setting Up Racket Development in Emacs</title>
+     <description>Setting Up Racket Development in Emacs</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>2</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
      <link>http://ebzzry.io/en/emacs-dired/</link>
-     <title>Emacs and Dired</title>
-     <description>Emacs and Dired</description>
+     <title>Setting Up Directory Management in Emacs</title>
+     <description>Setting Up Directory Management in Emacs</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>2</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>

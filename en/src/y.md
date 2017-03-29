@@ -2,7 +2,7 @@ The Y Combinator in Six Steps
 =============================
 
 <div class="center">May 9, 2013</div>
-<div class="center">Updated: March 18, 2017</div>
+<div class="center">Updated: March 29, 2017</div>
 
 A lot of us have been taught that to be able to define a recursive
 procedure, the recursive invocation must “use” the name of the
@@ -171,14 +171,14 @@ for the Y combinator itself, and the `foo` procedure.
          (x (lambda (v) ((f f) v))))
        (lambda (f)
          (x (lambda (v) ((f f) v)))))))
-> (define bar
+> (define b
     (lambda (p)
       (lambda (n)
         (if (zero? n)
             0
             (+ n (p (- n 1)))))))
-> (define foo (y bar))
-> (foo 100)
+> (define f (y b))
+> (f 100)
 5050
 ```
 

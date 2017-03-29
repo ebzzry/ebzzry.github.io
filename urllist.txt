@@ -1,12 +1,15 @@
 http://ebzzry.io/
 http://ebzzry.io/en/
+http://ebzzry.io/en/nix/
 http://ebzzry.io/en/emem/
 http://ebzzry.io/en/division/
 http://ebzzry.io/en/human/
 http://ebzzry.io/en/fallacies/
 http://ebzzry.io/en/eolinux/
 http://ebzzry.io/en/symbols-marks/
+http://ebzzry.io/en/symbols-marks-condensed/
 http://ebzzry.io/en/verb-tenses/
+http://ebzzry.io/en/verb-tenses-condensed/
 http://ebzzry.io/en/advantage/
 http://ebzzry.io/en/git-github/
 http://ebzzry.io/en/emacs-pairs/

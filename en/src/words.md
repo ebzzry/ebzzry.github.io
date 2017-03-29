@@ -109,7 +109,4 @@ awareness, to shed light on things, and to inspire.
 - Diplomacy as a result of non-choice is no diplomacy at all.<br>
 
 
-- If you can’t join them, beat them.<br>
-
-
-- If you can’t beat them, arrange to have them beaten.<br>
+- If you can’t join them, beat them. If you can’t beat them, arrange to have them beaten.<br>

@@ -66,6 +66,7 @@ Table of contents
   + [User environment](#userenvironment)
   + [Development environment](#developmentenvironment)
 - [Closing remarks](#closing)
+- [Bonus](#bonus)
 
 
 NixOS <a name="nixos"></a>
@@ -1615,13 +1616,14 @@ and distribution models. If I had to list down the most important features of th
 I like, they are:
 
 - deterministic
+- reproducible
 - stateless
-- purely functional
 - declarative
-- reproducibility
-- portability
-- reliability
-- non-collisions
+- consistent
+- portable
+- reliable
+- purely functional
+- has transactional updates
 
 Another important member of the Nix family is [NixOps](https://nixos.org/nixops); it enables one to
 deploy NixOS on bare metal machines, virtual machines, or cloud using the declarative approach that
@@ -1633,19 +1635,18 @@ In-depth details about instantiations, derivations, realisations were elided on 
 article. They may become a topic on their own, or I may update this article to add those topics. I
 may also write a new section about NixOps.
 
-A nix-mode is [available](https://melpa.org/#/nix-mode) for Emacs users. You may install it with:
+An Emacs major mode is [available](https://github.com/NixOS/nix/blob/master/misc/emacs/nix-mode.el)
+from the main repository. It is also [available](https://melpa.org/#/nix-mode) via MELPA. You may
+install it with:
 
 ```
 M-x package-install RET nix-mode RET
 ```
 
 There are other package management systems that are trying to solve this problem domain, too. The
-ones that I’m aware of
-are
-[AppImage](http://appimage.org/), [Zero Install](http://0install.net/),
-[Snapcraft](https://snapcraft.io/),
-and
-[Flatpak](http://flatpak.org/).
+ones that I’m aware of are
+[AppImage](http://appimage.org/), [Zero Install](http://0install.net/), [Snapcraft](https://snapcraft.io/),
+and [Flatpak](http://flatpak.org/).
 
 The [Guix System Distribution (GuixSD)](https://www.gnu.org/software/guix/) is a Linux distribution
 that is based on Nix. It uses Guile Scheme as its API language. The key differences between
@@ -1653,7 +1654,7 @@ GuixSD and NixOS is that the former uses [GNU Shepherd](https://www.gnu.org/soft
 instead of systemd; it doesn’t allow non-free packages; and it
 uses [Linux-libre](https://www.fsfla.org/ikiwiki/selibre/linux-libre/), a stripped down version of
 the mainstream kernel with all the proprietary blobs removed. More information about their
-differences can be found [here](https://sandervanderburg.blogspot.de/2012/11/on-nix-and-gnu-guix.html)
+differences can be found [here](https://sandervanderburg.blogspot.de/2012/11/on-nix-and-gnu-guix.html).
 
 Aside from GuixSD, there are also other projects that Nix has inspired. There
 is [Habitat](http://habitat.sh) an application automation framework,
@@ -1672,3 +1673,27 @@ to Nix several years ago.
 The NixOS Foundation is a registered non-profit organization;
 your [donations](https://nixos.org/nixos/foundation.html) will significantly help in the development
 of Nix. Join the [community](https://nixos.org/nixos/community.html) and help make it grow!
+
+
+Bonus <a name="bonus"></a>
+--------------------------
+
+Here’s the [Y combinator](/en/y) in Nix, applied to the factorial function:
+
+```bash
+nix-repl> y = x: ((f: (x (v: ((f f) v)))) (f: (x (v: ((f f) v)))))
+
+nix-repl> b = p: (n: if n == 0 then 1 else (n * (p (n - 1))))
+
+nix-repl> f = y b
+
+nix-repl> f 10
+3628800
+```
+
+Or, in one expression, using let:
+
+```bash
+nix-repl> let y = x: ((f: (x (v: ((f f) v)))) (f: (x (v: ((f f) v))))); b = p: (n: if n == 0 then 1 else (n * (p (n - 1)))); f = y b; in f 10
+3628800
+```
