@@ -1,8 +1,11 @@
 Quotes
 ======
 
-This page contains a list of curated quotations, aphorisms, and
-proverbs that I have collected over the years.
+<center>August 29, 2015</center>
+<center>Updated: March 28, 2017</center>
+
+This page contains a list of curated quotations, aphorisms, and proverbs that I have collected over
+the years.
 
 - “The aspects you are willing to ignore are more important than the aspects you are willing to
   accept.”<br>
