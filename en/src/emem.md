@@ -25,6 +25,7 @@ Table of contents <a name="toc"></a>
 
 Installation <a name="installation"></a>
 ----------------------------------------
+
 emem is available via [Nix](https://nixos.org/nix/). If you don’t have Nix yet, you may install it
 with:
 
