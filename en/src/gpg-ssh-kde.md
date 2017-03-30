@@ -11,17 +11,19 @@ This quick tutorial will go over the steps on how to go about it. To accommodate
 still go about how to install and configure all the necessary components.
 
 
-## Table of contents
+Table of contents
+-----------------
 
-* [Prerequisites](#prerequisites)
-* [Configure SSH](#ssh)
-* [Configure GPG](#gpg)
-* [Configure KDE](#kde)
-* [Verification](#verification)
-* [Closing remarks](#closing)
+- [Prerequisites](#prerequisites)
+- [Configure SSH](#ssh)
+- [Configure GPG](#gpg)
+- [Configure KDE](#kde)
+- [Verification](#verification)
+- [Closing remarks](#closing)
 
 
-## Prerequisites <a name="prerequisites"></a>
+Prerequisites <a name="prerequisites"></a>
+------------------------------------------
 
 For this tutorial you need to have GPG, SSH, and Pinentry.
 
@@ -43,19 +45,19 @@ DNF:
 $ sudo dnf install gnupg openssh pinentry
 ```
 
-## Configure SSH <a name="ssh"></a>
 
-Now that you have the parts in front of you, it’s time to assemble
-them. The first thing that you need to do (although in reality the
-files that you are going to open in this section can be done in any
-order that you wish), is create your SSH keys:
+Configure SSH <a name="ssh"></a>
+--------------------------------
+
+Now that you have the parts in front of you, it’s time to assemble them. The first thing that you
+need to do (although in reality the files that you are going to open in this section can be done in
+any order that you wish), is create your SSH keys:
 
 ```bash
 $ ssh-keygen -t rsa
 ```
 
-**DO NOT** leave the passphrase empty. If you really insist, then
-shoot yourself, in the head.
+**DO NOT** leave the passphrase empty. If you really insist, then shoot yourself in the head.
 
 The above command will create two files:
 
@@ -64,27 +66,27 @@ The above command will create two files:
 ~/.ssh/id_rsa
 ```
 
-Next, authorize yourself on the remote server, so that password-less
-logins will be avaible later:
+Next, authorize yourself on the remote server, so that password-less logins will be avaible later:
 
 ```bash
 $ ssh-copy-id user@host
 ```
 
 
-## Configure GPG <a name="gpg"></a>
+Configure GPG <a name="gpg"></a>
+--------------------------------
 
-You need to create next your GPG keys. Follow the prompts that follow,
-making sure that you select the strongest options:
+You need to create next your GPG keys. Follow the prompts that follow, making sure that you select
+the strongest options:
 
 ```bash
 $ gpg2 --gen-key
 ```
 
-If you want to generate "better" passwords, use the
+If you want to generate *better* passwords, use
+the
 [Diceware method](http://world.std.com/~reinhold/diceware.html). An
-[XKCD comic](https://xkcd.com/936/) was drawn in case you’re
-wondering what it is.
+[XKCD comic](https://xkcd.com/936/) was drawn in case you’re wondering what it is.
 
 The next thing to do is edit the main GPG config file:
 
@@ -92,9 +94,8 @@ The next thing to do is edit the main GPG config file:
 $ emacs ~/.gnupg/gpg.conf
 ```
 
-Find the line that contains `use-agent` and uncomment it, if it is
-commented. If that line does not exist just put `use agent` at the
-end of that file:
+Find the line that contains `use-agent` and uncomment it, if it is commented. If that line does not
+exist just put `use agent` at the end of that file:
 
 You need to edit the agent file, next:
 
@@ -111,20 +112,19 @@ default-cache-ttl-ssh 10800
 pinentry-program /usr/bin/pinentry-qt4
 ```
 
-Those are _my_ preferred values. If you want to change them, look at
-the manpage:
+Those are _my_ preferred values. If you want to change them, look at the manpage:
 
 ```bash
 $ man gpg-agent
 ```
 
 
-## Configure KDE <a name="kde"></a>
+Configure KDE <a name="kde"></a>
+--------------------------------
 
-You now need to link the GPG agent with KDE. You need to create a
-_startup_ script for KDE that will invoke the GPG agent at
-startup. You also need to tell the GPG agent to enable SSH support (in
-the old days, the SSH agent has to be ran separately from GPG).
+You now need to link the GPG agent with KDE. You need to create a _startup_ script for KDE that will
+invoke the GPG agent at startup. You also need to tell the GPG agent to enable SSH support (in the
+old days, the SSH agent has to be ran separately from GPG).
 
 ```bash
 $ mkdir ~/.kde/env
@@ -168,10 +168,11 @@ $ chmod +x ~/.kde/shutdown/01_gpg-agent.sh
 ```
 
 
-## Verification <a name="verification"></a>
+Verification <a name="verification"></a>
+----------------------------------------
 
-Unfortunately, you have to restart your KDE session for these settings
-to take effect. If you know a method that doesn’t require restarting the session, please let me know.
+Unfortunately, you have to restart your KDE session for these settings to take effect. If you know a
+method that doesn’t require restarting the session, please let me know.
 
 Press <kbd>Ctrl+Alt+Del</kbd> to logout, then login with your account.
 
@@ -181,10 +182,9 @@ Open a Konsole window, then connect to your favorite SSH server:
 $ ssh user@remotehost
 ```
 
-A pinentry dialog box should appear prompting you for your
-passphrase. This passphrase will be cached according to your settings
-in `~/.gnupg/gpg-agent.conf`. Subsequent SSH connection attempts will
-not prompt you for the passphrase within this timeout period.
+A pinentry dialog box should appear prompting you for your passphrase. This passphrase will be
+cached according to your settings in `~/.gnupg/gpg-agent.conf`. Subsequent SSH connection attempts
+will not prompt you for the passphrase within this timeout period.
 
 A similar behavior will happen if you encrypt a file with GPG:
 
@@ -192,8 +192,10 @@ A similar behavior will happen if you encrypt a file with GPG:
 $ gpg2 -sea -r john@remotehost file.dat
 ```
 
-## Closing remarks <a name="closing"></a>
 
-The steps outline above are meant to be succinct without going through
-the gory details. I avoided reiterating what was already said before
-so as not to bore you to death. I hope you found this useful!
+Closing remarks <a name="closing"></a>
+--------------------------------------
+
+The steps outline above are meant to be succinct without going through the gory details. I avoided
+reiterating what was already said before so as not to bore you to death. I hope you found this
+useful!
