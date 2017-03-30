@@ -567,7 +567,7 @@ Keys <a name="keys"></a>
 ------------------------
 
 The following snippet summarizes the key bindings used in this article. I use **bind-keys** to
-conveniently map my keys. I discussed about it, in an [earlier](emacs-hacks-2) article.
+conveniently map my keys. I discussed about it, in an [earlier](/en/emacs-hacks-2) article.
 
 ```lisp
 (bind-keys
