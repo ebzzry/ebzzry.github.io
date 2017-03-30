@@ -2,14 +2,14 @@ Emacs Hacks II
 ==============
 
 <div class="center">June 12, 2015</div>
-<div class="center">Updated: May 13, 2016</div>
+<div class="center">Updated: March 30, 2017</div>
 
-This is second part of my Emacs tips series. The contents of this post
-are written in no particular order. It explores session management,
-packages, managing indents, and other things.
+This is second part of my Emacs tips series. The contents of this post are written in no particular
+order. It explores session management, packages, managing indents, and other things.
 
 
-## Table of contents
+Table of contents
+-----------------
 
 * [Desktop](#desktop)
 * [Savehist](#savehist)
@@ -29,13 +29,12 @@ packages, managing indents, and other things.
 * [Closing remarks](#closing)
 
 
-## Desktop <a name="desktop"></a>
+Desktop <a name="desktop"></a>
+------------------------------
 
-An indispensable tool that I use now is desktop. It saves the state of
-my Emacs session, so that in the event of crash, power outage, or
-anything that will make me lose my session, I can back to it.
-Desktop comes built-in with the recent versions of GNU Emacs. Here's
-my snippet:
+An indispensable tool that I use now is desktop. It saves the state of my Emacs session, so that in
+the event of crash, power outage, or anything that will make me lose my session, I can back to it.
+Desktop comes built-in with the recent versions of GNU Emacs. Here's my snippet:
 
 ```lisp
 (require 'desktop)
@@ -57,11 +56,11 @@ my snippet:
 ```
 
 
-## Savehist <a name="savehist"></a>
+Savehist <a name="savehist"></a>
+--------------------------------
 
-Another important functionality that I use is savehist. It saves the
-minibuffer history. It’s roughly similar to saving the command line
-history. Here’s my snippet
+Another important functionality that I use is savehist. It saves the minibuffer history. It’s
+roughly similar to saving the command line history. Here’s my snippet
 
 ```lisp
 (savehist-mode t)
@@ -70,13 +69,12 @@ history. Here’s my snippet
 ```
 
 
-## Consolidation <a name="consolidation"></a>
+Consolidation <a name="consolidation"></a>
+------------------------------------------
 
-No, that is not the name of a library. There are a lot of times,
-when I want to manually save the state of as much session information
-that I could save. I’d want to save the buffers, minibuffer history,
-bookmarks, and comint mode histories. To do that, I have the
-following:
+No, that is not the name of a library. However, there were a lot of times, when I want to manually
+save the state of as much session information that I could save. I’d want to save the buffers,
+minibuffer history, bookmarks, and comint mode histories. To do that, I have the following:
 
 ```lisp
 (defun save-defaults ()
@@ -105,12 +103,14 @@ This gives you a nice:
 M-x save RET
 ```
 
-## Packages <a name="packages"></a>
+
+Packages <a name="packages"></a>
+--------------------------------
 
 ### ELPA <a name="elpa"></a>
 
-If you aren’t using the package system yet, use it now. All you need
-to get started is the following:
+If you aren’t using the package system yet, use it now. All you need to get started is the
+following:
 
 ```lisp
 (require 'package)
@@ -141,12 +141,10 @@ M-x pi RET package RET
 
 ### use-package <a name="use-package"></a>
 
-This one is a real gem. It’s like `require`, but on steroids. When
-“requiring” a package, you have the option to specify to install that
-package, if it does not exist, yet. It also enables you to configure
-that package, in a unified expression. But unlike `require`,
-`use-package` does not come built-in with Emacs. You need to install it
-via `package-install`:
+This one is a real gem. It’s like `require`, but on steroids. When “requiring” a package, you have
+the option to specify to install that package, if it does not exist, yet. It also enables you to
+configure that package, in a unified expression. But unlike `require`, `use-package` does not come
+built-in with Emacs. You need to install it via `package-install`:
 
 ```
 M-x pi RET use-package RET
@@ -158,8 +156,8 @@ You can then require it, on subsequent uses:
 (require 'use-package)
 ```
 
-To install `markdown-mode`, even if it doesn’t exist yet,
-and configure its related options, after loading it, have:
+To install `markdown-mode`, even if it doesn’t exist yet, and configure its related options, after
+loading it, have:
 
 ```lisp
 (use-package markdown-mode
@@ -172,11 +170,11 @@ and configure its related options, after loading it, have:
 ```
 
 
-## Line numbers <a name="linenumbers"></a>
+Line numbers <a name="linenumbers"></a>
+---------------------------------------
 
-I really like to have the line numbers displayed at the left
-margin. It gives me a rough idea how big the file is, and where am I
-currently. Turning on `linum-mode` achieves it:
+I really like to have the line numbers displayed at the left margin. It gives me a rough idea how
+big the file is, and where am I currently. Turning on `linum-mode` achieves it:
 
 ```lisp
 (setq linum-format "%4d")
@@ -188,10 +186,11 @@ currently. Turning on `linum-mode` achieves it:
 ```
 
 
-## Timestamps <a name="timestamps"></a>
+Timestamps <a name="timestamps"></a>
+------------------------------------
 
-I frequently find the need to insert timestamps, especially when I'm
-editing my daily log file. Here are some snippets to help you with it:
+I frequently find the need to insert timestamps, especially when I'm editing my daily log file. Here
+are some snippets to help you with it:
 
 ```lisp
 (defun format-date (format)
@@ -207,15 +206,15 @@ editing my daily log file. Here are some snippets to help you with it:
   (format-date "%Y-%m-%d %H:%M:%S"))
 ```
 
-The code above sets the correct value for `system-time-locale`, and
-binds keys for `insert-date/long` and `insert-date/short`.
+The code above sets the correct value for `system-time-locale`, and binds keys for
+`insert-date/long` and `insert-date/short`.
 
 
-## Keys <a name="keys"></a>
+Keys <a name="keys"></a>
+------------------------
 
-When your key bindings are not organized, it’s not easy to
-find what key did you bind to what. Fortunately, you have `bind-key`,
-which comes as part of `use-package`.
+When your key bindings are not organized, it’s not easy to find what key did you bind to
+what. Fortunately, you have `bind-key`, which comes as part of `use-package`.
 
 An example would look like:
 
@@ -226,10 +225,12 @@ An example would look like:
  ("C-j" . delete-indentation))
 ```
 
-## Newline sans indent <a name="newline"></a>
 
-This command creates a newline, then moves the cursor. It
-simulates a behavior wherein the new line doesn’t indent.
+Newline sans indent <a name="newline"></a>
+------------------------------------------
+
+This command creates a newline, then moves the cursor. It simulates a behavior wherein the new line
+doesn’t indent.
 
 ```lisp
 (defun newline-and-no-indent (&optional arg)
@@ -239,11 +240,11 @@ simulates a behavior wherein the new line doesn’t indent.
 ```
 
 
-## Filling <a name="filling"></a>
+Filling <a name="filling"></a>
+------------------------------
 
-This snippet works great when working when working with plain
-text. It indent a paragraph, or the current paragraph context. If
-there is a mark, the region becomes filled.
+This snippet works great when working when working with plain text. It indent a paragraph, or the
+current paragraph context. If there is a mark, the region becomes filled.
 
 ```lisp
 (defun fill-region-or-paragraph ()
@@ -254,11 +255,11 @@ there is a mark, the region becomes filled.
 ```
 
 
-## Yanking <a name="yanking"></a>
+Yanking <a name="yanking"></a>
+------------------------------
 
-Emacs, by default, pastes (yanks) from the secondary, or clipboard
-selection. This command yanks from the primary selection — mouse
-highlights.
+Emacs, by default, pastes (yanks) from the secondary, or clipboard selection. This command yanks
+from the primary selection — mouse highlights.
 
 ```lisp
 (defun yank-primary ()
@@ -267,15 +268,14 @@ highlights.
 ```
 
 
-## Cursor movement <a name="cursormovement"></a>
+Cursor movement <a name="cursormovement"></a>
+---------------------------------------------
 
-The command `move-to-window-line-top-bottom`, bound by default to
-<kbd>M-r</kbd> is great when you want to move the cursor from the
-center, top, and bottom position, relative to the window, similar to
-Vim’s <kbd>H</kbd>, <kbd>M</kbd>, and <kbd>L</kbd> commands. However,
-it’s not very efficient when specifically targetting areas of the
-screen. The commands below position point, specifically to the top,
-center, and bottom window positions, respectively.
+The command `move-to-window-line-top-bottom`, bound by default to <kbd>M-r</kbd> is great when you
+want to move the cursor from the center, top, and bottom position, relative to the window, similar
+to Vim’s <kbd>H</kbd>, <kbd>M</kbd>, and <kbd>L</kbd> commands. However, it’s not very efficient
+when specifically targetting areas of the screen. The commands below position point, specifically to
+the top, center, and bottom window positions, respectively.
 
 ```lisp
 (defun move-to-window-line-top ()
@@ -292,11 +292,11 @@ center, and bottom window positions, respectively.
 ```
 
 
-## Git status in dired <a name="gitdired"></a>
+Git status in dired <a name="gitdired"></a>
+-------------------------------------------
 
-This small snippet gives visual indications of the status of
-git-managed files in a Dired buffer. Pressing <kbd>g</kbd> reloads the
-buffer, then updates the status.
+This small snippet gives visual indications of the status of git-managed files in a Dired
+buffer. Pressing <kbd>g</kbd> reloads the buffer, then updates the status.
 
 ```lisp
 (use-package dired-k
@@ -307,7 +307,8 @@ buffer, then updates the status.
 ```
 
 
-## Key bindings <a name="keybindings"></a>
+Key bindings <a name="keybindings"></a>
+---------------------------------------
 
 The key bindings for the commands above, are listed below:
 
@@ -334,11 +335,9 @@ The key bindings for the commands above, are listed below:
 ```
 
 
-## Closing remarks  <a name="closing"></a>
+Closing remarks  <a name="closing"></a>
+---------------------------------------
 
-In this post, it was demonstrated that small tweaks can generate huge
-benefits.
-
-The rest of the configuration can be found at
-<https://github.com/ebzzry/dotfiles/tree/master/emacs>. If you an Emacs hack to share,
-send a pull request.
+In this post, I demonstrated that small tweaks can generate huge benefits. The rest of the
+configuration can be found at <https://github.com/ebzzry/dotfiles/tree/master/emacs>. If you have an
+Emacs hack to share, send a pull request!

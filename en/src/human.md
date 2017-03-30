@@ -34,6 +34,7 @@ primordial verbal communication is. This comes at a price, though: it is both ea
 misuse. When someone gives you a compliment, that impression lasts for a long time. When someone
 says hurtful words, we carry it for the rest of our lives.
 
+
 ### Humans, not machines
 
 When we communicate with machines—whether they are in software or hardware form—we must make
@@ -50,6 +51,7 @@ to the communicatee? Were we able accurately transfer our mental image of the id
 Is he able to construct my thought processes as accurately as I want it to be? If just one of those
 questions is answered by a no, then we need to reassess how are we communicating.
 
+
 ### Accept limitations
 
 When one needs to communicate messages to someone that do not possess the same mental faculties as
@@ -57,6 +59,7 @@ the communicator, adjustments have to be made. Every one of us process things di
 Grandmaster should bear in mind that when he is teaching a beginner, the student can only understand
 so much. He can’t go ham and make him understand advanced topics. There is an impregnable wall; that
 wall only becomes thin with time.
+
 
 ### Be tolerant
 
@@ -75,12 +78,14 @@ content to computer-driven ones. However, even with all the conveniences of writ
 susceptible to not being able to clearly send our messages to our recipients. Written, unlike
 spoken, language is a different beast altogether.
 
+
 ### Be courteous
 
 What’s the difference between “Read the documents.” and “Please, read the documents.”? When the
 proper words are used, we positively visualize. We imagine in our heads how would the communication take place
 had it been done on a face-to-face basis. Conversely, when we use words in excess, it creates a
 strain on the message, completely altering the content. Compare “Go.” with “Go. WTF.”
+
 
 ### Use emojis, sparingly
 
@@ -89,6 +94,7 @@ want to show. There are occasions when no matter how good the words are, it is s
 attach our warmth and sincerity to the message. An emoji conveys a message that is uniform across
 cultures. The image of a happy face conveys the message of a person who exhibits happiness. Humans
 are able to identify with that image, with ease. But, just like with perfumes, too much is bad.
+
 
 ### Use a `!` instead of `.`
 
@@ -107,6 +113,7 @@ imbalance occurs. This creates confusion, and sometimes, frustration. If our spe
 that comes out of our mouths, our bodies are our shell. Without a stable shell, our messages get
 lost.
 
+
 ### Lean forward
 
 Consider this: as you are communicating with someone, he moves his body away from you. What message
@@ -117,6 +124,7 @@ on air, this distance is negligible. However, it means a lot to the one who is s
 signal to him that you are committed to receiving his messages. You show that you are actively
 participating in the conversation.
 
+
 ### Display open palms
 
 When we display our palms to the listener, we invoke a sense of participation, one that shows that
@@ -124,6 +132,7 @@ the one with open palms makes himself vulnerable. This is due in part to our ana
 fleshly and sensitive. If the inside of our hands are wounded, our ability to hold and grip things
 are greatly compromised. When we display our palms, we display openness, we display willingness to
 learn, we display trust.
+
 
 ### Look at the eyes, but do not stare
 
@@ -141,6 +150,7 @@ Miscellany
 There are some things that don’t fit in the categories above, and I’ve collected them here
 instead.
 
+
 ### Adapt to every person
 
 Do not take a one-size-fits-all approach—like a T-shirt. Just because your usual method works
@@ -150,12 +160,14 @@ doesn’t mean that you should use them everywhere. Don’t use your wood saw wi
 shackles. Understand what makes a person tick. Know their interests. Do not underestimate the power
 of small talk.
 
+
 ### Listen more
 
 No matter how good we think we are, we need to listen to whoever is communicating with
 us. Otherwise, why engage in a communication at all, if we are so busy with our hubris that we only
 want our voices to be heard? Control the urge to interrupt. Don’t hijack the conversation. The more
 willing you show that you want to listen, the more people will want to talk to you.
+
 
 ### Smile
 
