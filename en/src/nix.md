@@ -116,106 +116,78 @@ also available from that page. For my last installation, I installed with the fo
 
 #### Boot machine <a name="nixosboot"></a>
 
-Boot from the USB drive in UEFI mode. In the login prompt, login as `root`.
+Boot from the USB drive in UEFI mode. On the login prompt, login as `root`.
 
 
 #### Setup networking <a name="nixosnetworking"></a>
 
 Scan for available networks
 
-```bash
-# nmcli d wifi list
-```
+    # nmcli d wifi list
 
 Then, connect to the router of choice
 
-```bash
-# nmcli d wifi con Foobarbaz name Foo password supersecretkey
-```
+    # nmcli d wifi con Foobarbaz name Foo password supersecretkey
 
 
 #### Prepare disks <a name"nixosdisks"></a>
 
 Create the partitions
 
-```bash
-# gdisk /dev/sda
-sda1: EF00 (EFI system), 512 MiB
-sda2: 8E00 (Linux LVM), rest
-```
+    # gdisk /dev/sda
+    sda1: EF00 (EFI system), 512 MiB
+    sda2: 8E00 (Linux LVM), rest
 
 Format `/dev/sda1`
 
-```bash
-# mkfs.vfat -F32 /dev/sda1
-```
+    # mkfs.vfat -F32 /dev/sda1
 
 Create the physical volume
 
-```bash
-# pvcreate /dev/sda2
-```
+    # pvcreate /dev/sda2
 
 Create the volume group
 
-```bash
-vgcreate vg /dev/sda2
-```
+    vgcreate vg /dev/sda2
 
 Create the logical volumes
 
-```bash
-# lvcreate -L 20G -n swap vg
-# lvcreate -l 100%FREE -n root vg
-```
+    # lvcreate -L 20G -n swap vg
+    # lvcreate -l 100%FREE -n root vg
 
 Encrypt root
 
-```bash
-# cryptsetup luksFormat /dev/vg/root
-# cryptsetup luksOpen /dev/vg/root root
-```
+    # cryptsetup luksFormat /dev/vg/root
+    # cryptsetup luksOpen /dev/vg/root root
 
 Format root
 
-```bash
-# mkfs.ext4 -j -L root /dev/mapper/root
-```
+    # mkfs.ext4 -j -L root /dev/mapper/root
 
 Format swap
 
-```bash
-# mkswap -L /dev/vg/swap
-```
+    # mkswap -L /dev/vg/swap
 
 Mount the filesystems
 
-```bash
-# mount /dev/mapper/root /mnt
-# mkdir /mnt/boot
-# mount /dev/sda1 /mnt/boot
-```
+    # mount /dev/mapper/root /mnt
+    # mkdir /mnt/boot
+    # mount /dev/sda1 /mnt/boot
 
 Enable swap
 
-```bash
-# swapon /dev/vg/swap
-```
+    # swapon /dev/vg/swap
 
 
 #### Install to disk <a name="nixosinstall"></a>
 
 Create the base config
 
-```bash
-# nixos-generate-config --root /mnt
-```
+    # nixos-generate-config --root /mnt
 
 Edit the config file
 
-```bash
-nano /mnt/etc/nixos/configuration.nix
-```
+    nano /mnt/etc/nixos/configuration.nix
 
 A trimmed-down version
 of [my configuration](https://github.com/ebzzry/dotfiles/blob/master/nixos/configuration.nix)
@@ -323,22 +295,16 @@ available [here](https://nixos.org/nixos/options.html).
 
 You may save this with:
 
-```bash
-# curl -sSLo /mnt/etc/nixos/configuration.nix https://goo.gl/ZTQcGs
-```
+    # curl -sSLo /mnt/etc/nixos/configuration.nix https://goo.gl/ZTQcGs
 
 A longer version is available at:
 
-```bash
-# curl -sSLo /mnt/etc/nixos/configuration.nix https://goo.gl/K4P7l5
-```
+    # curl -sSLo /mnt/etc/nixos/configuration.nix https://goo.gl/K4P7l5
 
 Replace the UUID of the disk with the one that you have. Use the command `blkid` to get the
 UUIDs. For `networking.hostID`, use the following command:
 
-```bash
-# cksum /etc/machine-id | while read c rest; do printf "%x" $c; done
-```
+    # cksum /etc/machine-id | while read c rest; do printf "%x" $c; done
 
 The above configuration specifies the following, among other things:
 
@@ -349,9 +315,7 @@ The above configuration specifies the following, among other things:
 
 Install NixOS to the disk:
 
-```bash
-# nixos-install
-```
+    # nixos-install
 
 This will parse `/etc/nixos/configuration.nix`, making sure that there are no errors. This command
 will download all the necessary packages to match the specification, making sure that no stones are
@@ -359,9 +323,7 @@ left unturned.
 
 When the installation completes, reboot your system:
 
-```bash
-# reboot
-```
+    # reboot
 
 
 ### Configuration <a name="nixosconfiguration"></a>
@@ -369,18 +331,14 @@ When the installation completes, reboot your system:
 After installation, updating your existing configuration is trivial. All you have to do is edit the
 configuration file then rebuild the system:
 
-```bash
-# nano /etc/nixos/configuration.nix
-# nixos-rebuild switch
-```
+    # nano /etc/nixos/configuration.nix
+    # nixos-rebuild switch
 
 If you make a mistake, the system will notify you of it, instead of proceeding with an incorrect
 configuration. After the system has completed booting, switch to the console <kbd>Ctrl+Alt+F1</kbd>,
 then login as `root`, then set a password for the user that we specified in `configuration.nix`:
 
-```bash
-# passwd ogag
-```
+    # passwd ogag
 
 Exit the shell, switch to the graphical interface <kbd>Alt+F7</kbd>, then login as `ogag`.
 
@@ -393,9 +351,7 @@ language. It is a declarative language designed in mind to handle packages.
 
 To make it easier to understand the language, let’s install the Nix REPL:
 
-```bash
-$ nix-env -iA $(nix-channel --list | awk '{print $1}').nix-repl
-```
+    $ nix-env -iA $(nix-channel --list | awk '{print $1}').nix-repl
 
 Next, let’s run it. You’ll be greeted with the version number, and the nix-repl prompt. At the time
 of writing, the latest version is 1.11.8:
@@ -963,9 +919,7 @@ then points to a symlink to a file in `/nix/store/` that will lead to the actual
 Skip this step if you are using NixOS because Nixpkgs already comes with it. To install Nixpkgs on
 GNU/Linux or macOS, run:
 
-```bash
-$ curl https://nixos.org/nix/install | bash
-```
+    $ curl https://nixos.org/nix/install | bash
 
 You’ll be prompted to enter credentials for root access via sudo because it will install the
 resources to `/nix/`. After the installation, you may also be requested to append a line of command
@@ -991,9 +945,7 @@ article,
 made to the main tree. To use the git checkout, clone
 the [repository](https://github.com/nixos/nixpkgs):
 
-```bash
-$ git clone https://github.com/nixos/nixpkgs ~/nixpkgs
-```
+    $ git clone https://github.com/nixos/nixpkgs ~/nixpkgs
 
 This command creates a `nixpkgs/` directory under your home. If your username is `ogag`, the
 clone of the repository is available at `/home/ogag/nixpkgs/` or `/Users/ogag/nixpkgs`, if you’re
@@ -1001,25 +953,19 @@ using a GNU/Linux or macOS, respectively.
 
 To install a package, say emem—a Markdown to HTML converter—using the git checkout, run:
 
-```bash
-$ nix-env -f ~/nixpkgs/default.nix -iA emem
-```
+    $ nix-env -f ~/nixpkgs/default.nix -iA emem
 
 This will download emem along with all its dependencies, and then it will make the program available
 to you. To make sure that emem has successfully installed, run:
 
-```bash
-$ emem --version
-```
+    $ emem --version
 
 If your doesn’t barf and complain that you’re looking for something that does not exist, and instead
 you see a version number, it means that you have successfully installed emem.
 
 To get the most recent changes from the git repo, run:
 
-```bash
-$ cd ~/nixpkgs && git pull origin master
-```
+    $ cd ~/nixpkgs && git pull origin master
 
 
 #### Channels <a name="nixpkgschannels"></a>
@@ -1032,9 +978,7 @@ Channels are labeled **stable**, **unstable**, or with a specific version number
 **16.09**. For this article, let’s use the unstable channel—it’s not as dated as stable, nor as
 recent as the git checkout. To subscribe to the unstable channel, run:
 
-```bash
-$ nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
-```
+    $ nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
 
 This fetches the channel labeled `nixpkgs-unstable` from nixos.org, then installs it to your user
 profile.
@@ -1042,53 +986,37 @@ profile.
 Using the example above, to install emem, run the following commands for NixOS and other systems,
 respectively:
 
-```bash
-$ nix-env -iA nixos.emem
-```
+    $ nix-env -iA nixos.emem
 
-```bash
-$ nix-env -iA nixpkgs.emem
-```
+    $ nix-env -iA nixpkgs.emem
 
 To update your channels, run:
 
-```bash
-$ nix-channel --update
-```
+    $ nix-channel --update
 
 Over time, trees in `/nix/store/` accumulate and there may be paths that are no longer referenced by
 any package. To clean it up, run:
 
-```bash
-$ nix-collect-garbage
-```
+    $ nix-collect-garbage
 
 
 ### Other commands <a name="nixpkgsother"></a>
 
 To uninstall a package, run:
 
-```bash
-$ nix-env -e emem
-```
+    $ nix-env -e emem
 
 To list all your installed packages, run:
 
-```bash
-$ nix-env -q --installed
-```
+    $ nix-env -q --installed
 
 To list all available packages, run:
 
-```bash
-$ nix-env -q --available
-```
+    $ nix-env -q --available
 
 If you know the binary name of a program, and you want to know which package does it belong to, run:
 
-```bash
-$ command-not-found emem
-```
+    $ command-not-found emem
 
 
 ### Configuration <a name="nixpkgsconfiguration"></a>
@@ -1143,9 +1071,7 @@ account, make changes into a new branch, then create a pull request.
 
 After you have forked the repository, clone your version of the repository.
 
-```bash
-$ git clone git@github.com:ogag/nixpkgs.git ~/nixpkgs
-```
+    $ git clone git@github.com:ogag/nixpkgs.git ~/nixpkgs
 
 This will create a copy of your fork in the root of your home directory. Head over to that
 directory, then let’s examine its contents:
@@ -1173,20 +1099,16 @@ README.md
 
 Next, let’s find where the package lives, for example Hello.
 
-```bash
-$ grep hello pkgs/top-level/all-packages.nix
-  hello = callPackage ../applications/misc/hello { };
-```
+    $ grep hello pkgs/top-level/all-packages.nix
+      hello = callPackage ../applications/misc/hello { };
 
 It says here that the package Hello is available under `../applications/misc/hello`. Relative to the
 file `all-packages.nix`, the path is at `pkgs/applications/misc/hello` or
 `~/nixpkgs/pkgs/applications/misc/hello`. Let’s go there:
 
-```bash
-$ cd pkgs/applications/misc/hello
-$ ls
-default.nix
-```
+    $ cd pkgs/applications/misc/hello
+    $ ls
+    default.nix
 
 Open the file `default.nix`:
 
@@ -1252,45 +1174,33 @@ don’t want to build a package on macOS that only runs on GNU/Linux.
 If a newer version of Hello comes out, say version 2.11, modify the appropriate attributes. But
 first, let’s create a separate branch for it:
 
-```bash
-$ git checkout -b hello-2.11
-```
+    $ git checkout -b hello-2.11
 
 In `default.nix`, change the name to `hello-2.11` and update the `sha256` attribute,
 too. Additionally, if you’re on NixOS, add the following values to `/etc/nixos/configuration.nix`:
 
-```
-nix.useSandbox = true;
-```
+    nix.useSandbox = true;
 
 If you’re using another GNU/Linux system, or macOS, add the following to `/etc/nix/nix.conf`:
 
-```
-build-use-sandbox = relaxed
-```
+    build-use-sandbox = relaxed
 
 Next, build the package:
 
-```bash
-$ cd ~/nixpkgs
-$ nix-build -A hello
-```
+    $ cd ~/nixpkgs
+    $ nix-build -A hello
 
 If the build went successful, a symlink named `result`, in the current directory will be
 created. This symlink points to a path in `/nix/store/`. Let’s run the program:
 
-```bash
-$ ./result/bin/hello
-Hello, world!
-```
+    $ ./result/bin/hello
+    Hello, world!
 
 Good. Commit the changes.
 
-```bash
-$ git add -u
-$ git commit -m 'hello: 2.10 -> 2.11'
-$ git push origin hello-2.11
-```
+    $ git add -u
+    $ git commit -m 'hello: 2.10 -> 2.11'
+    $ git push origin hello-2.11
 
 Finally, go to the GitHub repo [page](https://github.com/nixos/nixpkgs), then create a pull request
 (PR) between `nixos/nixpkgs:master` and `ogag/nixpkgs:hello-2.11`.
@@ -1368,19 +1278,15 @@ tthsum = callPackage ../applications/misc/tthsum { };
 
 Next, build the package as described above:
 
-```bash
-$ cd ~/nixpkgs
-$ nix-build -A tthsum
-```
+    $ cd ~/nixpkgs
+    $ nix-build -A tthsum
 
 If everything goes well, commit the changes:
 
-```bash
-$ git add pkgs/applications/misc/tthsum
-$ git add pkgs/top-level/all-packages.nix
-$ git commit -m "tthsum: init at 1.3.2"
-$ git push origin tthsum-1.3.2
-```
+    $ git add pkgs/applications/misc/tthsum
+    $ git add pkgs/top-level/all-packages.nix
+    $ git commit -m "tthsum: init at 1.3.2"
+    $ git push origin tthsum-1.3.2
 
 Finally, go to the GitHub repo [page](https://github.com/nixos/nixpkgs), then create a pull request
 (PR) between `nixos/nixpkgs:master` and `ogag/nixpkgs:tthsum-1.3.2`.
@@ -1399,15 +1305,11 @@ On NixOS, the channel used by the root user is important because it is the one u
 the system with `nixos-rebuild switch` after changes to `/etc/nixos/configuration.nix` are made. To
 make sure that you using the right channel, list it with:
 
-```bash
-$ sudo nix-channel --list
-```
+    $ sudo nix-channel --list
 
 To change the root channel similar to the one used above:
 
-```bash
-$ sudo nix-channel --add https://nixos.org/channels/nixos-unstable nixos
-```
+    $ sudo nix-channel --add https://nixos.org/channels/nixos-unstable nixos
 
 
 Environments <a name="environments"></a>
@@ -1444,9 +1346,7 @@ system. The binaries will be available as `/run/current-system/sw/bin/zsh` and
 The user environment is the one that is used whenever the command `nix-env` is used. For example,
 when installing Zsh using nix-env:
 
-```bash
-$ nix-env -iA nixos.zsh
-```
+    $ nix-env -iA nixos.zsh
 
 Zsh only becomes explicitly available for the user invoking it. If the username who ran that command is
 `john`, then the Zsh binary will be available as `/home/john/.nix-profile/bin/zsh`. If the user
@@ -1480,31 +1380,25 @@ advantage of the determinism and resource management of Nix itself.
 To illustrate, let’s check that we don’t have [GNU Hello](https://www.gnu.org/software/hello/)
 installed, yet:
 
-```bash
-$ which hello
-hello not found
-```
+    $ which hello
+    hello not found
 
 If that is the case, good. Otherwise, remove the Hello package first.
 
 Now, to demonstrate `nix-shell`, let’s run GNU Hello in the nix-shell, then it will return back to
 the user shell:
 
-```bash
-$ nix-shell --packages hello --pure --run hello
-Hello, world!
-$ which hello
-hello not found
-```
+    $ nix-shell --packages hello --pure --run hello
+    Hello, world!
+    $ which hello
+    hello not found
 
 What this does is that fetches the binary package for Hello, creates an clean shell environment,
 then proceeds to run the `hello` binary, which will display to the screen the familiar greeting. If
 the run option was omitted, we will be dropped in a shell:
 
-```bash
-$ nix-shell --packages hello --pure
-[nix-shell:~]$
-```
+    $ nix-shell --packages hello --pure
+    [nix-shell:~]$
 
 This shell instance is special because it only contains sufficient information just to make Hello,
 available. We can even inspect the value of `$PATH`, here:
@@ -1550,18 +1444,14 @@ A *.nix* file is a Nix expression. In this example, it’s a function that takes
 value. The odd-looking `<nixpkgs>` refers to the value of the `nixpkgs` attribute declared in the
 `NIX_PATH` environment variable. On NixOS, it looks like this:
 
-```bash
-$ echo $NIX_PATH
-nixpkgs=/nix/var/nix/profiles/per-user/root/channels/nixos/nixpkgs:nixos-config=/etc/nixos/configuration.nix:/nix/var/nix/profiles/per-user/root/channels
-```
+    $ echo $NIX_PATH
+    nixpkgs=/nix/var/nix/profiles/per-user/root/channels/nixos/nixpkgs:nixos-config=/etc/nixos/configuration.nix:/nix/var/nix/profiles/per-user/root/channels
 
 In the directory being pointed by the nixpkgs attribute, there’s a `.git-revision` file. Let’s view
 its contents:
 
-```bash
-$ cat /nix/var/nix/profiles/per-user/root/channels/nixos/nixpkgs/.git-revision
-1e8c01784a6a121fc94d111f4af7cc88dd932186
-```
+    $ cat /nix/var/nix/profiles/per-user/root/channels/nixos/nixpkgs/.git-revision
+    1e8c01784a6a121fc94d111f4af7cc88dd932186
 
 This tells us the version of Nixpkgs using channels on this profile.
 
@@ -1598,10 +1488,8 @@ stdenv.mkDerivation {
 
 To feed this expression to nix-shell, making use of both *hello* and *emem*, run:
 
-```bash
-$ nix-shell --pure --run "hello | emem -w"
-<p>Hello, world!</p>
-```
+    $ nix-shell --pure --run "hello | emem -w"
+    <p>Hello, world!</p>
 
 nix-shell gives us strong abstraction mechanisms that are deemed very difficult to do in other
 approaches. It banks on the deterministic properties of Nix, creating a very strong leverage.
@@ -1661,10 +1549,9 @@ is [Habitat](http://habitat.sh) an application automation framework,
 and [ied](https://github.com/alexanderGugel/ied), an alternative package manager for Node.
 
 The articles
-of [Luca Bruno](https://lethalman.blogspot.com/2014/07/nix-pill-1-why-you-should-give-it-try.html)
-and
+of [Luca Bruno](https://lethalman.blogspot.com/2014/07/nix-pill-1-why-you-should-give-it-try.html),
 [James Fisher](https://lethalman.blogspot.com/2014/07/nix-pill-1-why-you-should-give-it-try.html),
-together with
+and [Oliver Charles](https://ocharles.org.uk/blog/posts/2014-02-04-how-i-develop-with-nixos.html), together with
 the [NixOS](https://nixos.org/nixos/manual), [Nixpkgs](https://nixos.org/nixpkgs/manual),
 and [Nix](https://nixos.org/nix/manual) manuals, significantly helped me in understanding
 Nix. Special thanks goes to [François-René Rideau](https://fare.livejournal.com) for introducing me
@@ -1687,13 +1574,28 @@ nix-repl> b = p: (n: if n == 0 then 1 else (n * (p (n - 1))))
 
 nix-repl> f = y b
 
-nix-repl> f 10
-3628800
+nix-repl> f 20
+2432902008176640000
 ```
 
 Or, in one expression, using let:
 
 ```bash
-nix-repl> let y = x: ((f: (x (v: ((f f) v)))) (f: (x (v: ((f f) v))))); b = p: (n: if n == 0 then 1 else (n * (p (n - 1)))); f = y b; in f 10
-3628800
+nix-repl> let y = x: ((f: (x (v: ((f f) v)))) (f: (x (v: ((f f) v)))));
+              b = p: (n: if n == 0 then 1 else (n * (p (n - 1))));
+              f = y b;
+          in f 20
+2432902008176640000
+```
+
+You may also pipe stdout to nix-repl:
+
+```bash
+$ echo 'let y = x: ((f: (x (v: ((f f) v)))) (f: (x (v: ((f f) v))))); b = p: (n: if n == 0 then 1 else (n * (p (n - 1)))); f = y b; in f 20' | nix-repl
+Welcome to Nix version 1.11.8. Type :? for help.
+
+nix-repl> let y = x: ((f: (x (v: ((f f) v)))) (f: (x (v: ((f f) v))))); b = p: (n: if n == 0 then 1 else (n * (p (n - 1)))); f = y b; in f 20
+2432902008176640000
+
+nix-repl>
 ```
