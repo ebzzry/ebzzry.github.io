@@ -3,11 +3,11 @@
 </code></pre><p>APT:</p><pre><code class="bash">$ sudo apt-get install gnupg2 ssh pinentry-qt4
 </code></pre><p>DNF:</p><pre><code class="bash">$ sudo dnf install gnupg openssh pinentry
 </code></pre><h2>Configure SSH <a name="ssh"></a></h2><p>Now that you have the parts in front of you, it’s time to assemble them. The first thing that you need to do (although in reality the files that you are going to open in this section can be done in any order that you wish), is create your SSH keys:</p><pre><code class="bash">$ ssh-keygen -t rsa
-</code></pre><p><strong>DO NOT</strong> leave the passphrase empty. If you really insist, then shoot yourself, in the head.</p><p>The above command will create two files:</p><pre><code>&#126;/.ssh/id&#95;rsa.pub
+</code></pre><p><strong>DO NOT</strong> leave the passphrase empty. If you really insist, then shoot yourself in the head.</p><p>The above command will create two files:</p><pre><code>&#126;/.ssh/id&#95;rsa.pub
 &#126;/.ssh/id&#95;rsa
 </code></pre><p>Next, authorize yourself on the remote server, so that password-less logins will be avaible later:</p><pre><code class="bash">$ ssh-copy-id user@host
 </code></pre><h2>Configure GPG <a name="gpg"></a></h2><p>You need to create next your GPG keys. Follow the prompts that follow, making sure that you select the strongest options:</p><pre><code class="bash">$ gpg2 --gen-key
-</code></pre><p>If you want to generate "better" passwords, use the <a href='http://world.std.com/~reinhold/diceware.html'>Diceware method</a>. An <a href='https://xkcd.com/936/'>XKCD comic</a> was drawn in case you’re wondering what it is.</p><p>The next thing to do is edit the main GPG config file:</p><pre><code class="bash">$ emacs &#126;/.gnupg/gpg.conf
+</code></pre><p>If you want to generate <em>better</em> passwords, use the <a href='http://world.std.com/~reinhold/diceware.html'>Diceware method</a>. An <a href='https://xkcd.com/936/'>XKCD comic</a> was drawn in case you’re wondering what it is.</p><p>The next thing to do is edit the main GPG config file:</p><pre><code class="bash">$ emacs &#126;/.gnupg/gpg.conf
 </code></pre><p>Find the line that contains <code>use-agent</code> and uncomment it, if it is commented. If that line does not exist just put <code>use agent</code> at the end of that file:</p><p>You need to edit the agent file, next:</p><pre><code class="bash">$ emacs &#126;/.gnupg/gpg-agent.conf
 </code></pre><p>Then put the following lines:</p><pre><code>no-grab
 default-cache-ttl 10800
