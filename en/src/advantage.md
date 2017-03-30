@@ -69,8 +69,13 @@ hand with the mouse wheel. <kbd>Page Up</kbd> and <kbd>Page Down</kbd> were also
 equal load distribution for two hands.
 
 One of my favorites is the new location of the <kbd>[</kbd> and <kbd>]</kbd> keys. I also like the
-new location of the <kbd>Esc</kbd> key—this allows me to easily hit the Esc key when using vi, or to
-close dialog boxes.
+new location of the <kbd>Esc</kbd> key—this allows me to easily hit the Esc key when using vi, or
+closing application prompts.
+
+I bound what used to be the <kbd>Ctrl</kbd> keys to <kbd>KP Home</kbd> and <kbd>KP End</kbd> so that
+in my [~/.Xmodmap](https://github.com/ebzzry/dotfiles/blob/master/xmodmap/.Xmodmap.kadv.dvorak) I
+can map it to <kbd>Mode Switch</kbd>. See the [notes](#notes) below why I added another level of
+indirection.
 
 
 Setup <a name="setup"></a>
