@@ -4,19 +4,22 @@ My Kinesis Advantage Layout
 <div class="center">October 26, 2015</div>
 <div class="center">Updated: March 25, 2017</div>
 
-<img src="/images/advantage.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="Advantage" />
+<img src="/images/advantage.jpg" style="display: block; width: 100%; margin-left: auto;
+margin-right: auto;" alt="Kinesis Advantage" title="Kinesis Advantage"/>
 
 
-## Table of contents
+Table of contents
+-----------------
 
-* [Why](#why)
-* [Before](#before)
-* [After](#after)
-* [Setup](#setup)
-* [Closing remarks](#closing)
+- [Overview](#overview)
+- [Before](#before)
+- [After](#after)
+- [Setup](#setup)
+- [Closing remarks](#closing)
 
 
-## Why <a name="why"></a>
+Overview <a name="overview"></a>
+--------------------------------
 
 One of the best investments a programmer can have is a good keyboard. What constitutes a good
 keyboard, however, can sometimes be a subject of debates. A common item that persists most lists is
@@ -30,11 +33,13 @@ layout of the keys, however, turns me off. The <kbd>Ctrl</kbd> and <kbd>Alt</kbd
 to reach. This is important for users of software like Emacs and Zsh.
 
 
-## Before <a name="before"></a>
+Before <a name="before"></a>
+----------------------------
+
 When using Dvorak emulation, the following layout is how the keys are mapped:
 
+Original Software Dvorak:
 
-### Original Software Dvorak
 <a href="/images/kadv-dvorak-0.png"><img src="/images/kadv-dvorak-0.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="Original Software Dvorak" title="Original Software Dvorak"/></a>
 
 Yuck. Using this layout on Emacs or Zsh, is hell: to press <kbd>M-x</kbd>, one would have to press
@@ -42,11 +47,13 @@ the <kbd>Alt</kbd> key with the right thumb, then the <kbd>x</kbd> key with the 
 finger. Reaching out for the <kbd>Esc</kbd> keys isn’t a lot of fun, either, because it’s too far.
 
 
-## After <a name="after"></a>
+After <a name="after"></a>
+--------------------------
+
 I remapped some of the keys, to fit my workflow. The new layout is as follows.
 
+Remapped Software Dvorak:
 
-### Remapped Software Dvorak
 <a href="/images/kadv-dvorak-1.png"><img src="/images/kadv-dvorak-1.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="Remapped Software Dvorak" title="Remapped Software Dvorak"/></a>
 
 I used <kbd>Insert</kbd> in lieu of <kbd>Esc</kbd>, so that I can easily access the `XA_PRIMARY`
@@ -66,7 +73,9 @@ new location of the <kbd>Esc</kbd> key—this allows me to easily hit the Esc ke
 close dialog boxes.
 
 
-## Setup <a name="setup"></a>
+Setup <a name="setup"></a>
+--------------------------
+
 The `+` indicates pressing and holding a key, while pressing another. The `,` indicates a sequence
 of keys pressed and released, in order.
 
@@ -106,7 +115,7 @@ the source; the next key will be the destination.
 | Keypad, u, Keypad (KP Home) | Left Control    |
 | Keypad, m, Keypad (KP End)  | Right Control   |
 
-Then, press `Progrm + F12` again, to exit remapping mode.  The `KP Return` key was moved to `Left Alt` so that I can easily use it as a Compose (Multi) key in
+Then, press <kbd>Progrm</kbd> + <kbd>F12</kbd> again, to exit remapping mode.  The <kbd>KP Return</kbd> key was moved to <kbd>Left Alt</kbd> so that I can easily use it as a Compose (Multi) key in
 X. My [~/.Xmodmap](https://github.com/ebzzry/dotfiles/blob/master/xmodmap/.Xmodmap.kadv.dvorak)
 contains the following:
 
@@ -115,7 +124,9 @@ keycode 104 = Multi_key
 ```
 
 
-## Notes <a name="notes"></a>
+Notes <a name="notes"></a>
+--------------------------
+
 If the right <kbd>Ctrl</kbd> key has keycode 21—while mapped via xmodmap to
 <kbd>Mode_switch</kbd>—is simultaneously pressed with <kbd>c</kbd> in software Qwerty, or <kbd>j</kbd> in software Dvorak, it
 generates the following text for QWERTY and Dvorak, respectively:
@@ -133,7 +144,9 @@ Jrlfpcidy (j) 1998[2003 LvCv >bicb..pcbiw Cbjv
 At the time of writing, I still don’t know what causes this, nor do I think it makes sense.
 
 
-## Closing remarks <a name="closing"></a>
+Closing remarks <a name="closing"></a>
+--------------------------------------
+
 The programmability of the Kinesis Advantage is a strong feature; it lets users tailor the keyboard
 to their specific needs. That, along with its crazy-ass durability and the award winning ergonomics
 makes the Advantage a worthwhile investment. You may check

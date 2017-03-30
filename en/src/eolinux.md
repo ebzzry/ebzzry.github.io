@@ -2,43 +2,40 @@ Esperanto Characters in Linux
 =============================
 
 <div class="center">April 18, 2016</div>
-<div class="center">Updated: May 13, 2016</div>
+<div class="center">Updated: March 30, 2017</div>
 
-Prior to the invention of the methods discussed in this post, the way
-to input Esperanto characters on Linux is to use the the
-[h-](https://en.wikipedia.org/wiki/Esperanto_orthography#H-system) or
-[x-systems](https://en.wikipedia.org/wiki/Esperanto_orthography#X-system).
-To input the character **ĉ**, you would have to write “ch” or
-“cx”. The latter was more preferred because the character **x** isn’t
-part of the Esperanto alphabet. Another, more tedious way of inputting
-characters was with the use of a character map—a GUI application that
-displays Unicode characters, that you can copy characters from. A
-popular character map application for Linux systems is
-[gucharmap](https://wiki.gnome.org/Apps/Gucharmap).
+Prior to the invention of the methods discussed in this post, the way to input Esperanto characters
+on Linux is to use the the [h-](https://en.wikipedia.org/wiki/Esperanto_orthography#H-system)
+or [x-systems](https://en.wikipedia.org/wiki/Esperanto_orthography#X-system).  To input the
+character **ĉ**, you would have to write “ch” or “cx”. The latter was more preferred because the
+character **x** isn’t part of the Esperanto alphabet. Another, more tedious way of inputting
+characters was with the use of a character map—a GUI application that displays Unicode characters,
+that you can copy characters from. A popular character map application for Linux systems
+is [gucharmap](https://wiki.gnome.org/Apps/Gucharmap).
 
-The aforementioned systems are inaccurate, and tedious. There’s no
-need to continue using these input methods, aside from supporting
-legacy display systems. Currently, there are two ways to input
+The aforementioned systems are inaccurate, and tedious. There’s no need to continue using these
+input methods, aside from supporting legacy display systems. Currently, there are two ways to input
 Esperanto characters on Linux systems—the multi key and mode switch.
 
 
-## Table of contents
+Table of contents
+-----------------
 
-* [Multi key](#multikey)
-* [Mode switch](#modeswitch)
-* [Additional notes](#additional)
-* [Closing remarks](#closing)
+- [Multi key](#multikey)
+- [Mode switch](#modeswitch)
+- [Notes](#notes)
+- [Closing remarks](#closing)
 
 
-## Multi key <a name="multikey"></a>
+Multi key <a name="multikey"></a>
+---------------------------------
 
-The *multi key*, also called a compose key, is a specially-assigned
-key, that must be pressed and released, along with other keys, to
-input a character, or series of characters. Unlike <kbd>Shift</kbd> or
-<kbd>Ctrl</kbd>, it must be released, and not held down.
+The *multi key*, also called a compose key, is a specially-assigned key, that must be pressed and
+released, along with other keys, to input a character, or series of characters. Unlike
+<kbd>Shift</kbd> or <kbd>Ctrl</kbd>, it must be released, and not held down.
 
-To use the <kbd>Pause</kbd> key as the multi key, edit the file
-`~/.Xmodmap`, then add the following:
+To use the <kbd>Pause</kbd> key as the multi key, edit the file `~/.Xmodmap`, then add the
+following:
 
 ```
 keycode 127 = Multi_key
@@ -56,9 +53,8 @@ If you do not want to use <kbd>Pause</kbd> as the multi key, run xev:
 $ xev
 ```
 
-A small window appears with a white background. Move your mouse inside
-the window, then press a key on your keyboard. On your terminal, you
-will see the keycode of the key that you pressed.
+A small window appears with a white background. Move your mouse inside the window, then press a key
+on your keyboard. On your terminal, you will see the keycode of the key that you pressed.
 
 ```
 …
@@ -78,10 +74,9 @@ keycode 107 = Multi_key
 
 Then re-read the `~/.Xmodmap` file as described above.
 
-Now that you have access to the multi key, composing characters will
-be easy. Presuming you’re <kbd>Pause</kbd> as the multi key, to input
-**ĉ**, you must press and release <kbd>Pause</kbd>, press and release
-<kbd>&#94;</kbd> (shift 6), then finally, press and release <kbd>c</kbd>.
+Now that you have access to the multi key, composing characters will be easy. Presuming you’re
+<kbd>Pause</kbd> as the multi key, to input **ĉ**, you must press and release <kbd>Pause</kbd>,
+press and release <kbd>&#94;</kbd> (shift 6), then finally, press and release <kbd>c</kbd>.
 
 The following table lists the combinations:
 
@@ -102,13 +97,13 @@ The following table lists the combinations:
 | Ŭ         | Multi_key U U  |
 
 
-## Mode switch <a name="modeswitch"></a>
+Mode switch <a name="modeswitch"></a>
+-------------------------------------
 
-A faster and easier way to input Esperanto characters is through the
-use of the *mode switch* key. Just like with the *multi key*, you
-assign a key to it. I like to bind two keys to it, so I can type with
-both hands. Unlike the multi key, you have to hold it down like the
-<kbd>Shift</kbd> or <kbd>Ctrl</kbd> keys.
+A faster and easier way to input Esperanto characters is through the use of the *mode switch*
+key. Just like with the *multi key*, you assign a key to it. I like to bind two keys to it, so I can
+type with both hands. Unlike the multi key, you have to hold it down like the <kbd>Shift</kbd> or
+<kbd>Ctrl</kbd> keys.
 
 If you want to assign the <kbd>![Windows](images/icon_windows_02_22x22.png "Windows key")</kbd> keys as the mode switch keys, edit
 the file `~/.Xmodmap`, then add the following:
@@ -121,9 +116,8 @@ keycode 133 = Mode_switch
 keycode 134 = Mode_switch
 ```
 
-Next, you need to add the appropriate names for the corresponding
-Esperanto characters. If you’re using QWERTY, add the following to
-your `~/.Xmodmap`.
+Next, you need to add the appropriate names for the corresponding Esperanto characters. If you’re
+using QWERTY, add the following to your `~/.Xmodmap`.
 
 ```
 keycode 54 = c C ccircumflex Ccircumflex
@@ -164,11 +158,11 @@ keycode 107 = Mode_switch
 ```
 
 
-## Additional notes <a name="additional"></a>
+Notes <a name="notes"></a>
+--------------------------
 
-Both methods outlined above do far more than emitting Esperanto
-characters. The multi key system can emit more sophisticated symbols
-and characters. To see the complete list of characters, run the
+Both methods outlined above do far more than emitting Esperanto characters. The multi key system can
+emit more sophisticated symbols and characters. To see the complete list of characters, run the
 following command if you’re on mainstream Linux systems:
 
 ```
@@ -186,13 +180,13 @@ also a bit comprehensive. To see the list of character names
 available, click [here](http://wiki.linuxquestions.org/wiki/List_of_Keysyms_Recognised_by_Xmodmap).
 
 
-## Closing remarks <a name="closing"></a>
+Closing remarks <a name="closing"></a>
+--------------------------------------
 
-There’s no best way to do this—use whatever system that fits your
-style. If you’re already using the <kbd>![Windows](images/icon_windows_02_22x22.png "Windows key")</kbd> keys for something else,
-and you can only use one “spare” key on your keyboard, then use the
-multi key method. If you want ease of use, use the mode switch
-method. It is important to note, too, that you can use both methods
+There’s no best way to do this—use whatever system that fits your style. If you’re already using the
+<kbd>![Windows](images/icon_windows_02_22x22.png "Windows key")</kbd> keys for something else, and
+you can only use one “spare” key on your keyboard, then use the multi key method. If you want ease
+of use, use the mode switch method. It is important to note, too, that you can use both methods
 simultaneously.
 
 Ĝis la revido! `(/^▽^)/`

@@ -4,47 +4,45 @@ A Brief Git and GitHub Tour
 <div class="center">August 29, 2015</div>
 <div class="center">Updated: May 13, 2016</div>
 
-This short tutorial shows how to use [git](https://git-scm.com/) with
-a [GitHub](https://github.com) workflow. A quick Google of
-["git workflows"](https://google.com/search?q=git+workflows) shows
-plenty of diverse results. This article describes just one of the ways
-of using git with a git-hosting service like GitHub.
+This short tutorial shows how to use [git](https://git-scm.com/) with a [GitHub](https://github.com)
+workflow. A quick Google of ["git workflows"](https://google.com/search?q=git+workflows) shows
+plenty of diverse results. This article describes just one of the ways of using git with a
+git-hosting service like GitHub.
 
-In this document, the `$` symbol, represents the prompt. The editor
-used in this tutorial is [vi](https://en.wikipedia.org/wiki/Vi). A
-short introduction to _vi_ is located at
-[http://www.nuxified.org/vi_survival_guide](http://www.nuxified.org/vi_survival_guide).
+In this document, the `$` symbol, represents the prompt. The editor used in this tutorial
+is [vi](https://en.wikipedia.org/wiki/Vi). A short introduction to _vi_ is located
+at [http://www.nuxified.org/vi_survival_guide](http://www.nuxified.org/vi_survival_guide).
 
 
-## Table of contents
+Table of contents
+-----------------
 
-* [Basics](#basics)
-  - [Initial use](#initial)
-  - [Subsequent uses](#subsequent)
-* [Working online](#online)
-  - [Generate your SSH keys](#sshkeys)
-  - [Creating a repository](#createrepo)
-  - [Updating your repository](#updaterepo)
-  - [Participation](#participation)
-  - [Synchronizing with upstream](#syncupstream)
-* [Pulling changes](#pulling)
-* [Merging with upstream](#mergeupstream)
-* [Closing remarks](#closing)
+- [Basics](#basics)
+  + [Initial use](#initial)
+  + [Subsequent uses](#subsequent)
+- [Working online](#online)
+  + [Generate your SSH keys](#sshkeys)
+  + [Creating a repository](#createrepo)
+  + [Updating your repository](#updaterepo)
+  + [Participation](#participation)
+  + [Synchronizing with upstream](#syncupstream)
+- [Pulling changes](#pulling)
+- [Merging with upstream](#mergeupstream)
+- [Closing remarks](#closing)
 
 
-## Basics <a name="basics"></a>
+Basics <a name="basics"></a>
+----------------------------
 
 ### Initial use <a name="initial"></a>
 
-To make things easier later on, you’ll need to create a `.gitignore`
-file. The .gitignore file specifiles files that will be excluded
-from the repository. Some of these are binary files, and error
-messages that are generated during compilation.
+To make things easier later on, you’ll need to create a `.gitignore` file. The .gitignore file
+specifiles files that will be excluded from the repository. Some of these are binary files, and
+error messages that are generated during compilation.
 
-_.gitignore_ files are specific to a project type. A good place to
-start in determining what a .gitignore file should contain is
-<http://gitignore.io>. Specify the type of project in the field, then
-click **Generate**, then copy the output to your clipboard.
+_.gitignore_ files are specific to a project type. A good place to start in determining what a
+.gitignore file should contain is <http://gitignore.io>. Specify the type of project in the field,
+then click **Generate**, then copy the output to your clipboard.
 
 Create a directory for the project, then cd into it:
 
@@ -72,8 +70,8 @@ Then, commit the changes:
 
 ### Subsequent uses <a name="subsequent"></a>
 
-This section describes the basic commands that you’re going to use,
-when you already have a repository.
+This section describes the basic commands that you’re going to use, when you already have a
+repository.
 
 Create a branch that will hold your changes:
 
@@ -103,8 +101,7 @@ To display the list of commit messages, with the diffs:
 
     $ git log -p
 
-When you’ve tested your changes to be stable, switch to the `master`
-branch:
+When you’ve tested your changes to be stable, switch to the `master` branch:
 
     $ git checkout master
 
@@ -117,23 +114,23 @@ After that, you may delete the experimental branch:
     $ git branch -d experimental
 
 
-## Working online <a name="online"></a>
+Working online <a name="online"></a>
+------------------------------------
 
-This section describes how to work with other developers. You’re going
-to use [GitHub](https://github.com) in this discussion.
+This section describes how to work with other developers. You’re going to
+use [GitHub](https://github.com) in this discussion.
+
 
 ### Generate your SSH keys <a name="sshkeys"></a>
 
-You need to be able to authenticate yourself to your GitHub account,
-before you can push changes. To do that, you need to create your SSH
-keys. To do that, run the following command. Make sure that you supply
-a passphrase, when prompted:
+You need to be able to authenticate yourself to your GitHub account, before you can push changes. To
+do that, you need to create your SSH keys. To do that, run the following command. Make sure that you
+supply a passphrase, when prompted:
 
     $ ssh-keygen -t rsa
 
-After you have created your keys, you need to add that key to your
-GitHub account. To do that, run the following command then copy the
-output:
+After you have created your keys, you need to add that key to your GitHub account. To do that, run
+the following command then copy the output:
 
     $ cat ~/.ssh/id_rsa.pub
 
@@ -146,46 +143,40 @@ Paste the key, then follow through.
 
 ### Creating a repository <a name="createrepo"></a>
 
-In your repositories page, create a new repository by clicking
-**New**:
+In your repositories page, create a new repository by clicking **New**:
 
 ![New](images/new-repository.png)
 
-Follow through the prompts. When you have filled in the required
-fields, you’ll get a string of commands. Replace `shoryuken` and
-`foobar` with your GitHub username, and the name of the repository
+Follow through the prompts. When you have filled in the required fields, you’ll get a string of
+commands. Replace `shoryuken` and `foobar` with your GitHub username, and the name of the repository
 that you have created, respectively:
 
     $ git remote add origin git@github.com:shoryuken/foobar.git
     $ git push -u origin master
 
-You’ll be prompted to supply the passphrase you have entered
-above. The `git push` command uploads the contents of your repository
-to the remote repository.
+You’ll be prompted to supply the passphrase you have entered above. The `git push` command uploads
+the contents of your repository to the remote repository.
 
 
 ### Updating your repository <a name="updaterepo"></a>
 
-When you have made further changes to the repository, you may push
-your changes with the command:
+When you have made further changes to the repository, you may push your changes with the command:
 
     $ git push origin master
 
 
 ### Participation <a name="participation"></a>
 
-If you want to contribute to a project, you’ll need to work on a copy
-of that repository, then push changes to your own fork.
+If you want to contribute to a project, you’ll need to work on a copy of that repository, then push
+changes to your own fork.
 
-First, fork the project. Go to the project that you want to fork, then
-click **Fork**:
+First, fork the project. Go to the project that you want to fork, then click **Fork**:
 
 ![Fork](images/fork.png)
 
 This will create a copy of a repository in your own GitHub account.
 
-Next, you need to clone that forked project, to your local disk. Copy
-the URL located in the **SSH clone URL** field:
+Next, you need to clone that forked project, to your local disk. Copy the URL located in the **SSH clone URL** field:
 
 ![SSH clone URL](images/ssh-clone-url.png)
 
@@ -193,26 +184,23 @@ then run the following command, where `hadoken` is your username:
 
     $ git clone git@github.com:hadoken/foobar.git
 
-Next, create a _remote_ that will track changes from the source
-repository.
+Next, create a _remote_ that will track changes from the source repository.
 
     $ git remote add upstream git@github.com:shoryuken/foobar.git
 
-When you want to make changes to the code, create a separate branch.
-Use a branch name that is descriptive of the changes that you want to
-make. This name can be changed later. In this example, we’ll create a
-branch named `new-options`:
+When you want to make changes to the code, create a separate branch.  Use a branch name that is
+descriptive of the changes that you want to make. This name can be changed later. In this example,
+we’ll create a branch named `new-options`:
 
     $ git checkout -b new-options
 
-You may now make changes to the files in this branch. When you’ve
-committed your changes, push the changes to your fork:
+You may now make changes to the files in this branch. When you’ve committed your changes, push the
+changes to your fork:
 
     $ git push origin new-options
 
-If you want the source repository to merge your changes, create a
-_Pull Request_ by going to the source repository’s page, then click
-**Pull requests**:
+If you want the source repository to merge your changes, create a _Pull Request_ by going to the
+source repository’s page, then click **Pull requests**:
 
 ![Pull Requests](images/pull-requests.png)
 
@@ -224,12 +212,11 @@ Select **compare across forks**:
 
 ![Compare Across Forks](images/compare-across-forks.png)
 
-In the left side, under the **base fork** field, select
-**shoryuken/foobar**, and in the **base** field, select **master**.
+In the left side, under the **base fork** field, select **shoryuken/foobar**, and in the **base**
+field, select **master**.
 
-In the right side, under the **head fork** field, select **hadoken/foobar**,
-and in the **compare** select **new-options**, or whatever name you used
-above. Click **Create pull request**:
+In the right side, under the **head fork** field, select **hadoken/foobar**, and in the **compare**
+select **new-options**, or whatever name you used above. Click **Create pull request**:
 
 ![Create pull request](images/create-pull-request.png)
 
@@ -238,8 +225,8 @@ then, follow through.
 
 ### Synchronizing with upstream <a name="syncupstream"></a>
 
-To synchronize the upstream branch with the source repository, pull
-changes from the upstream remote:
+To synchronize the upstream branch with the source repository, pull changes from the upstream
+remote:
 
     $ git pull upstream master
 
@@ -248,32 +235,32 @@ Then push to your own repository:
     $ git push origin master
 
 
-## Pulling changes <a name="pulling"></a>
+Pulling changes <a name="pulling"></a>
+--------------------------------------
 
-If you are the owner of the source repository, and you want to pull in
-changes from contributors, click **Pull requests** from the repository
-page:
+If you are the owner of the source repository, and you want to pull in changes from contributors,
+click **Pull requests** from the repository page:
 
 ![Pull requests](images/pull-requests.png)
 
 then, follow through.
 
 
-## Merging with upstream <a name="mergeupstream"></a>
+Merging with upstream <a name="mergeupstream"></a>
+--------------------------------------------------
 
-If you are a contributor, and your changes have been pulled in the
-source repository, synchronize your upstream branch:
+If you are a contributor, and your changes have been pulled in the source repository, synchronize
+your upstream branch:
 
     $ git pull upstream master
 
-At this point, you may delete the `new-options` branch you have
-created earlier:
+At this point, you may delete the `new-options` branch you have created earlier:
 
     $ git branch -d new-options
 
 
-## Closing remarks <a name="closing"></a>
+Closing remarks <a name="closing"></a>
+--------------------------------------
 
-The workflow described in this document is only one of the many usable
-workflows that one can use. This document serves as an introduction
-for people who are new to Git and GitHub.
+The workflow described in this document is only one of the many usable workflows that one can
+use. This document serves as an introduction for people who are new to Git and GitHub.

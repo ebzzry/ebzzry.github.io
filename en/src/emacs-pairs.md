@@ -4,40 +4,42 @@ Emacs and Pairs
 <div class="center">August 15, 2015</div>
 <div class="center">Updated: March 13, 2017</div>
 
-In this article, I’ll exclusively talk about _smartparens_ — a package that you wish you should have
+In this article, I’ll exclusively talk about _smartparens_ —a package that you wish you should have
 used, earlier, presuming you don’t use it yet. If you’re new to it, read along; if not, this may be
 a good refresher.
 
 _smartparens_ is one of those packages that drastically improves, and changes how one uses
-Emacs. It’s like having cybernetic limbs — it makes you jump higher, and punch harder.
+Emacs. It’s like having cybernetic limbs—it makes you jump higher, and punch harder.
 
 Take note, though, that the name is a misnomer, as it not only handles parentheses. It handles just
 about anything that pairs, and it performs those functions stellarly.
 
 
-## Table of contents
+Table of contents
+-----------------
 
-* [Installation](#installation)
-* [Configuration](#configuration)
-* [Usage](#usage)
-  - [Basics](#basics)
-  - [Navigation](#navigation)
-    - [Starts and ends](#startsandends)
-    - [Traversing lists](#traversinglists)
-    - [Block movements](#blockmovements)
-    - [Top-level-ish traversal](#toplevel)
-    - [Free-form movements](#freeform)
-  - [Manipulation](#manipulation)
-    - [Wrapping](#wrapping)
-    - [Unwrapping](#unwrapping)
-    - [Slurp and barf](#slurpandbarf)
-    - [Swapping](#swapping)
-    - [Killing](#killing)
-* [Keys](#keys)
-* [Closing remarks](#closing)
+- [Installation](#installation)
+- [Configuration](#configuration)
+- [Usage](#usage)
+  + [Basics](#basics)
+  + [Navigation](#navigation)
+    * [Starts and ends](#startsandends)
+    * [Traversing lists](#traversinglists)
+    * [Block movements](#blockmovements)
+    * [Top-level-ish traversal](#toplevel)
+    * [Free-form movements](#freeform)
+  + [Manipulation](#manipulation)
+    * [Wrapping](#wrapping)
+    * [Unwrapping](#unwrapping)
+    * [Slurp and barf](#slurpandbarf)
+    * [Swapping](#swapping)
+    * [Killing](#killing)
+- [Keys](#keys)
+- [Closing remarks](#closing)
 
 
-## Installation <a name="installation"></a>
+Installation <a name="installation"></a>
+----------------------------------------
 
 Installing smartparens is straightforward:
 
@@ -46,10 +48,10 @@ M-x package-install RET smartparens RET
 ```
 
 
-## Configuration <a name="configuration"></a>
+Configuration <a name="configuration"></a>
+------------------------------------------
 
-Let’s enable smartparens on startup, and hook it with some major
-hooks:
+Let’s enable smartparens on startup, and hook it with some major hooks:
 
 ```lisp
 (use-package smartparens-config
@@ -62,13 +64,15 @@ hooks:
 (add-hook 'markdown-mode-hook 'turn-on-smartparens-strict-mode)
 ```
 
-## Usage <a name="usage"></a>
 
-Managing paired characters like parentheses, braces, brackets,
-quotation marks, angle brackets, and other conceivable pair-able
-characters has always been a pain. Other packages solve that problem
-partially. However, they it still miss several points. In the code
-snippets below, the `^` symbol will be used to represent point:
+Usage <a name="usage"></a>
+--------------------------
+
+Managing paired characters like parentheses, braces, brackets, quotation marks, angle brackets, and
+other conceivable pair-able characters has always been a pain. Other packages solve that problem
+partially. However, they it still miss several points. In the code snippets below, the `^` symbol
+will be used to represent point:
+
 
 ### Basics <a name="basics"></a>
 
@@ -91,6 +95,7 @@ the pair:
 
 
 ### Navigation <a name="navigation"></a>
+
 
 #### Starts and ends <a name="startsandends"></a>
 
@@ -122,6 +127,7 @@ Conversely, to move point to the end of the expression:
 
 Execute `sp-end-of-sexp`. I bound it to <kbd>C-M-e</kbd>.
 
+
 #### Traversing lists <a name="traversinglists"></a>
 
 If you have the expression:
@@ -145,7 +151,6 @@ and you want to move point to **insert**:
 ```
 
 Execute `sp-down-sexp`. I bound it to <kbd>C-down</kbd>.
-
 
 If you have the expression:
 
@@ -310,8 +315,8 @@ and you want to move point just after **(let**:
 
 Execute `sp-forward-symbol`. I bound it to <kbd>C-S-f</kbd>.
 
-What they do is that they navigate around expressions as if
-delimiters, like parens, brackets, and braces do not exist.
+What they do is that they navigate around expressions as if delimiters, like parens, brackets, and
+braces do not exist.
 
 
 ### Manipulation <a name="manipulation"></a>
@@ -336,12 +341,9 @@ var mods = ["vars"];
             ^
 ```
 
-Press <kbd>C-M-Space</kbd> followed by <kbd>[</kbd>, the
-whole region becomes surrounded by matching **[**,
-and
-**]**.
-It also applies to keys like `(`, `{`, `"`, `'`, `*`, `_`, etc,
-depending on the mode that you’re using.
+Press <kbd>C-M-Space</kbd> followed by <kbd>[</kbd>, the whole region becomes surrounded by matching
+**[**, and **]**.  It also applies to keys like `(`, `{`, `"`, `'`, `*`, `_`, etc, depending on the
+mode that you’re using.
 
 Alternatively, define wrapping functions:
 
@@ -386,9 +388,9 @@ and you want to surround **args** with **[** and **]**:
 
 Press <kbd>C-c [</kbd>.
 
-Sometimes, we inadvertently delete one of the pair characters — this
-results in an unbalanced expression. smartparens prevents us from
-doing that. If you hit <kbd>Backspace</kbd> in this expression:
+Sometimes, we inadvertently delete one of the pair characters — this results in an unbalanced
+expression. smartparens prevents us from doing that. If you hit <kbd>Backspace</kbd> in this
+expression:
 
 ```javascript
 
@@ -561,12 +563,11 @@ and you want to kill **[clojure.string :as s]**:
 Execute `sp-backward-kill-sexp`. I bound it to <kbd>M-k</kbd>
 
 
+Keys <a name="keys"></a>
+------------------------
 
-## Keys <a name="keys"></a>
-
-The following snippet summarizes the key bindings used in this
-article. I use **bind-keys** to conveniently map my keys. I discussed
-about it, in an [earlier](emacs-hacks-2) article.
+The following snippet summarizes the key bindings used in this article. I use **bind-keys** to
+conveniently map my keys. I discussed about it, in an [earlier](emacs-hacks-2) article.
 
 ```lisp
 (bind-keys
@@ -618,14 +619,13 @@ about it, in an [earlier](emacs-hacks-2) article.
  ("C-c `"  . wrap-with-back-quotes))
 ```
 
-## Closing remarks <a name="closing"></a>
 
-The plethora of commands in smartparens may be daunting at first, but
-the investement in time in learning them, will be minimal compared to
-benefits that you will reap.
+Closing remarks <a name="closing"></a>
+--------------------------------------
 
-smartparens is the brainchild of [Matus Goljer](mailto:matus.goljer@gmail.com). For
-more information on smartparens, go to
-<https://github.com/Fuco1/smartparens>. If you like this project, you
-can donate
-[here](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CEYP5YVHDRX8C).
+The plethora of commands in smartparens may be daunting at first, but the investement in time in
+learning them, will be minimal compared to benefits that you will reap.
+
+smartparens is the brainchild of [Matus Goljer](mailto:matus.goljer@gmail.com). For more information
+on smartparens, go to <https://github.com/Fuco1/smartparens>. If you like this project, you can
+donate [here](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CEYP5YVHDRX8C).

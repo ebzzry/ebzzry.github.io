@@ -16,14 +16,16 @@ makes use of [Unison](http://www.cis.upenn.edu/~bcpierce/unison/),
 and [rsync](http://rsync.samba.org/), for bi- and uni-directional synchronizations, respectively.
 
 
-## Table of contents
+Table of contents
+-----------------
 
 - [Basic usage](#basicusage)
 - [Advanced usage](#advancedusage)
 - [Closing remarks](#closing)
 
 
-## Basic usage <a name="basicusage"></a>
+Basic usage <a name="basicusage"></a>
+-------------------------------------
 
 To perform two-way synchronization of the directory `/pub/yot/ninam`, between the current host, to
 the hosts `tarupam`, and `taubetmo`, while preserving the directory structure remotely (take note,
@@ -46,7 +48,8 @@ Ideally, the result is that `localhost:/pub/yot/ninam/`, `tarupam:/pub/yot/ninam
 `taubetmo:/pub/yot/ninam/`, are all equal.
 
 
-## Advanced usage <a name="advancedusage"></a>
+Advanced usage <a name="advancedusage"></a>
+-------------------------------------------
 
 It is also possible to perform synchronization of multiple files, and directories, to remote
 hosts. To do so, run:
@@ -73,7 +76,8 @@ $ usync --help
 ```
 
 
-## Closing remarks <a name="closing"></a>
+Closing remarks <a name="closing"></a>
+--------------------------------------
 
 Some files and regexes are baked in as exclusions. They make or make not make sense. If you think
 they should be changed, feel free to send a pull request. The sources are

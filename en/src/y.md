@@ -2,46 +2,44 @@ The Y Combinator in Six Steps
 =============================
 
 <div class="center">May 9, 2013</div>
-<div class="center">Updated: March 29, 2017</div>
+<div class="center">Updated: March 30, 2017</div>
 
-A lot of us have been taught that to be able to define a recursive
-procedure, the recursive invocation must “use” the name of the
-recursive procedure. The
-[Y combinator](http://en.wikipedia.org/wiki/Fixed-point_combinator#Y_combinator)
-, however, lets you perform recursion, without referring to the named
-identifier.
+A lot of us have been taught that to be able to define a recursive procedure, the recursive
+invocation must “use” the name of the recursive
+procedure. The [Y combinator](http://en.wikipedia.org/wiki/Fixed-point_combinator#Y_combinator) ,
+however, lets you perform recursion, without referring to the named identifier.
 
 
-## Table of contents
+Table of contents
+-----------------
 
-* [Why?](#why)
-* [Step 1: Define the base procedure](#base)
-* [Step 2: Curry the recursive call](#curry)
-* [Step 3: Apply procedure to itself](#self)
-* [Step 4: Abstract inner recursive call](#abstractinner)
-* [Step 5: Isolate the combinator](#isolate)
-* [Step 6: Define the combinator](#define)
-* [Closing remarks](#closing)
-
-
-## Why? <a name="why"></a>
-
-The Y combinator has been both a source of inspiration and frustration
-for many. It evokes a eureka-like sensation once you get past the
-wall, but it also renders us scratching our heads when it just
-doesn’t make sense to traverse the labyrinth. This post aims to bring
-my own approach on how to derive the Y combinator. It may not be the
-most elegant way, but it may work for you.
-
-In the code examples in this post, the `>` symbol denotes the prompt
-symbol for your Scheme implementation.
+- [Why?](#why)
+- [Step 1: Define the base procedure](#base)
+- [Step 2: Curry the recursive call](#curry)
+- [Step 3: Apply procedure to itself](#self)
+- [Step 4: Abstract inner recursive call](#abstractinner)
+- [Step 5: Isolate the combinator](#isolate)
+- [Step 6: Define the combinator](#define)
+- [Closing remarks](#closing)
 
 
-## Step 1: Define the base procedure <a name="base"></a>
+Why? <a name="why"></a>
+-----------------------
 
-Let’s start by defining a procedure named `foo` that computes the
-summation of a positive integer, down to zero. In the following
-snippet, the recursive call happens when `foo` is applied in the else
+The Y combinator has been both a source of inspiration and frustration for many. It evokes a
+eureka-like sensation once you get past the wall, but it also renders us scratching our heads when
+it just doesn’t make sense to traverse the labyrinth. This post aims to bring my own approach on how
+to derive the Y combinator. It may not be the most elegant way, but it may work for you.
+
+In the code examples in this post, the `>` symbol denotes the prompt symbol for your Scheme
+implementation.
+
+
+Step 1: Define the base procedure <a name="base"></a>
+-----------------------------------------------------
+
+Let’s start by defining a procedure named `foo` that computes the summation of a positive integer,
+down to zero. In the following snippet, the recursive call happens when `foo` is applied in the else
 part of the condition.
 
 ```scheme
@@ -54,14 +52,16 @@ part of the condition.
 5050
 ```
 
-You have have observed that I have defined `foo` using an explicit
-`lambda`. You’ll see shortly, why.
+You have have observed that I have defined `foo` using an explicit `lambda`. You’ll see shortly,
+why.
 
 
-## Step 2: Curry the recursive call <a name="curry"></a>
 
-Let’s break that procedure further, into more elementary components,
-and you’ll apply it, using [currying](https://en.wikipedia.org/wiki/Currying).
+Step 2: Curry the recursive call <a name="curry"></a>
+-----------------------------------------------------
+
+Let’s break that procedure further, into more elementary components, and you’ll apply it,
+using [currying](https://en.wikipedia.org/wiki/Currying).
 
 ```scheme
 > (define foo
@@ -74,18 +74,17 @@ and you’ll apply it, using [currying](https://en.wikipedia.org/wiki/Currying).
 5050
 ```
 
-The extra `lambda` was needed because you needed to have a way to
-abstract the recursive procedure. In this case, you used the
-identifier `f` to bind to the recursive procedure, which is `foo`,
-itself. The weird-looking `((f f) …)` is needed, because you have to
-perform the same procedure invocation method used initially:
-`((foo foo) 100)`.
+The extra `lambda` was needed because you needed to have a way to abstract the recursive
+procedure. In this case, you used the identifier `f` to bind to the recursive procedure, which is
+`foo`, itself. The weird-looking `((f f) …)` is needed, because you have to perform the same
+procedure invocation method used initially: `((foo foo) 100)`.
 
 
-## Step 3: Apply procedure to itself <a name="self"></a>
+Step 3: Apply procedure to itself <a name="self"></a>
+-----------------------------------------------------
 
-You’re now going to exploit that property, to use a “nameless”
-approach—not using the `foo` identifier.
+You’re now going to exploit that property, to use a “nameless” approach—not using the `foo`
+identifier.
 
 ```scheme
 > (((lambda (f)
@@ -106,10 +105,11 @@ Take note, that at this point, you’re no longer using the `foo` name,
 to refer the the definition, except for later.
 
 
-## Step 4: Abstract inner recursive call <a name="abstractinner"></a>
+Step 4: Abstract inner recursive call <a name="abstractinner"></a>
+------------------------------------------------------------------
 
-Next, you need to move the `(f f)` part outside, to isolate the general
-(Y combinator), from the specific (`foo`) code.
+Next, you need to move the `(f f)` part outside, to isolate the general (Y combinator), from the
+specific (`foo`) code.
 
 ```scheme
 > (((lambda (f)
@@ -130,14 +130,14 @@ Next, you need to move the `(f f)` part outside, to isolate the general
 5050
 ```
 
-During the procedure application, the identifier `p` will be bound to
-`(lambda (v) ((f f) v))`, and the identifier `v` will be bound to `(- n 1)`.
+During the procedure application, the identifier `p` will be bound to `(lambda (v) ((f f) v))`, and
+the identifier `v` will be bound to `(- n 1)`.
 
 
-## Step 5: Isolate the combinator <a name="isolate"></a>
+Step 5: Isolate the combinator <a name="isolate"></a>
+-----------------------------------------------------
 
-Next, you’re going to isolate the Y combinator, from the `foo`
-procedure.
+Next, you’re going to isolate the Y combinator, from the `foo` procedure.
 
 ```scheme
 > (((lambda (x)
@@ -154,15 +154,15 @@ procedure.
 5050
 ```
 
-You replace the `foo`-specific definition with `x`. This requires you
-again, to create an enveloping `lambda`. Since `x` is bound to the
-computing procedure, you no longer need to repeat it.
+You replace the `foo`-specific definition with `x`. This requires you again, to create an enveloping
+`lambda`. Since `x` is bound to the computing procedure, you no longer need to repeat it.
 
 
-## Step 6: Define the combinator <a name="define"></a>
+Step 6: Define the combinator <a name="define"></a>
+---------------------------------------------------
 
-Finally, you will explicitly create a separate procedure definition
-for the Y combinator itself, and the `foo` procedure.
+Finally, you will explicitly create a separate procedure definition for the Y combinator itself, and
+the `foo` procedure.
 
 ```scheme
 > (define y
@@ -183,8 +183,9 @@ for the Y combinator itself, and the `foo` procedure.
 ```
 
 
-## Closing remarks <a name="closing"></a>
+Closing remarks <a name="closing"></a>
+--------------------------------------
 
-When the key concepts are understood, it becomes easy to grasp the
-seemingly daunting ideas. I hope this post has been useful in making
-you understand the Y combinator, currying, and procedure application.
+When the key concepts are understood, it becomes easy to grasp the seemingly daunting ideas. I hope
+this post has been useful in making you understand the Y combinator, currying, and procedure
+application.

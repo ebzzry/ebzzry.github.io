@@ -12,6 +12,7 @@ explain the shortest route that I took.
 
 Table of contents
 -----------------
+
 - [Introduction](#introduction)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -22,6 +23,7 @@ Table of contents
 
 Introduction <a name="introduction"></a>
 ----------------------------------------
+
 Editing Racket code with Emacs has traditionally been done by rudimentary modes that mostly lacked
 flexibility. They were able to evaluate current definitions, last definitions, and entire buffers,
 for the most part. Unfortunately, that didn’t suffice with the way Racket dealt with things. A more
@@ -37,6 +39,7 @@ its nice GUI debugger.
 
 Installation <a name="installation"></a>
 ----------------------------------------
+
 My installation method is crude, but it works, at least for me. Other installation methods exist,
 but I couldn’t wrap my brain around them, so I opted instead for something that requires the minimal
 amount of chore. Also, I’m still not sure what are the hidden consequences of not doing it the
@@ -104,6 +107,7 @@ above, to take effect, you can evaluate them now using members of the eval-* tro
 
 Usage <a name="usage"></a>
 --------------------------
+
 To reap what you sowed, create or open a `.rkt` file, with at least a proper module
 declaration. Then hit:
 
@@ -125,6 +129,7 @@ do. They may, or may not diverge from the official description, listed on the af
 
 Racket buffer <a name="racketbuffer"></a>
 -----------------------------------------
+
 | Key     | What it does                                            |
 | :------ | :------------------------------------------------------ |
 | C-c C-z | Switch to the REPL buffer                               |
@@ -136,6 +141,7 @@ Racket buffer <a name="racketbuffer"></a>
 
 
 REPL buffer <a name="replbuffer"></a>
+
 -------------------------------------
 | Key     | What it does                        |
 | :------ | :---------------------------------- |
@@ -149,6 +155,7 @@ REPL buffer <a name="replbuffer"></a>
 
 Closing remarks <a name="closing"></a>
 --------------------------------------
+
 I have intentionally skipped many topics from the [official document](http://www.nongnu.org/geiser/)
 because it makes it unattractive to people who are averse to reading long blocks of text
 (ironically, this article may even qualify as one.). The methods described above are by in no way

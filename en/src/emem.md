@@ -18,6 +18,7 @@ decent enough, at least, for regular viewing.
 
 Table of contents <a name="toc"></a>
 ------------------------------------
+
 - [Installation](#installation)
 - [Usage](#usage)
 - [Closing remarks](#closing)
@@ -223,6 +224,7 @@ $ emem --help
 
 Closing remarks <a name="closing"></a>
 --------------------------------------
+
 For this whole [journal](http://ebzzry.io), I’m able to get a 90+ score
 from [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/), a
 Mobile-Friendly rating

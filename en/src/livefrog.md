@@ -11,38 +11,38 @@ LiveJournal articles to another platform. There are tools that does this, howeve
 far, that translates to _Frog_ files. This is my feeble attempt to achive that.
 
 
-## Table of contents
+Table of contents
+-----------------
 
-* [Introduction](#introduction)
-* [Installation](#installation)
-* [Usage](#usage)
-  - [Basics](#basics)
-  - [Comments](#comments)
-* [Updating](#updating)
-* [Miscellany](#miscellany)
-
-
-## Introduction <a name="introduction"></a>
-
-livefrog is a utility written in [Racket](http://racket-lang.org),
-used to migrate LiveJournal posts to
-[Frog](https://github.com/greghendershott/frog/), a blogging platform
-written in Racket, too. It uses the files dumped by either
-[ljdump](http://hewgill.com/ljdump/), or
-[ljmigrate](http://github.com/ceejbot/ljmigrate).
+- [Overview](#overview)
+- [Installation](#installation)
+- [Usage](#usage)
+  + [Basics](#basics)
+  + [Comments](#comments)
+- [Updating](#updating)
+- [Miscellany](#miscellany)
 
 
-## Installation <a name="installation"></a>
+Overview <a name="overview"></a>
+----------------------------------------
 
-livefrog is available via Racket’s
-[Planet2](http://pkg.racket-lang.org):
+livefrog is a utility written in [Racket](http://racket-lang.org), used to migrate LiveJournal posts
+to [Frog](https://github.com/greghendershott/frog/), a blogging platform written in Racket, too. It
+uses the files dumped by either [ljdump](http://hewgill.com/ljdump/),
+or [ljmigrate](http://github.com/ceejbot/ljmigrate).
+
+
+Installation <a name="installation"></a>
+----------------------------------------
+
+livefrog is available via Racket’s [Planet2](http://pkg.racket-lang.org):
 
 ```bash
 $ raco pkg install livefrog
 ```
 
-If that doesn’t work, you can alternately install by fetching livefrog, and the
-dependencies, from github
+If that doesn’t work, you can alternately install by fetching livefrog, and the dependencies, from
+github
 
 ```bash
 $ git clone https://github.com/jbclements/sxml.git
@@ -51,15 +51,15 @@ $ git clone https://github.com/ebzzry/livefrog.git
 $ raco pkg install frog/ sxml/ livefrog/
 ```
 
-The trailing slashes are important, to tell `raco` that you are
-installing from local directories. Without it, it will try to fetch
-the sources from the internet.
+The trailing slashes are important, to tell `raco` that you are installing from local
+directories. Without it, it will try to fetch the sources from the internet.
 
 
-## Usage  <a name="usage"></a>
+Usage  <a name="usage"></a>
+---------------------------
 
-This sections contains instructions for creating files suitable for
-use with Frog.
+This sections contains instructions for creating files suitable for use with Frog.
+
 
 ### Basics <a name="basics"></a>
 
@@ -69,17 +69,15 @@ To create a Markdown file from the file entry.xml
 $ raco livefrog -m entry.xml
 ```
 
-That, however, becomes cumbersome if you’re going to manage more than
-a hundred entries. To automatically “pick up” the files created by
-ljdump or ljmigrate, and convert them to Markdown.
+That, however, becomes cumbersome if you’re going to manage more than a hundred entries. To
+automatically “pick up” the files created by ljdump or ljmigrate, and convert them to Markdown.
 
 ```bash
 $ raco livefrog -am
 ```
 
-Bear in mind, though, that ljdump and ljmigrate differ on how the
-trees for the data are created. ljdump has the following tree format,
-where **USERNAME** is your LiveJournal account name:
+Bear in mind, though, that ljdump and ljmigrate differ on how the trees for the data are
+created. ljdump has the following tree format, where **USERNAME** is your LiveJournal account name:
 
 ```bash
 ljdump/
@@ -123,25 +121,25 @@ ljmigrate/
       userpics/
 ```
 
-After creating the Markdown Frog source files, you may now copy them
-to your Frog source directory, designated at `_src/posts/`
+After creating the Markdown Frog source files, you may now copy them to your Frog source directory,
+designated at `_src/posts/`
+
 
 ### Comments <a name="comments"></a>
 
-Frog, by default, uses [Disqus](http://disqus.com) to handle the
-comments. To import comments to this platform, you need to generate an
-XML file that must adhere to Disqus’s comment import rules.
+Frog, by default, uses [Disqus](http://disqus.com) to handle the comments. To import comments to
+this platform, you need to generate an XML file that must adhere to Disqus’s comment import rules.
 
-To create a file, named `comments.xml` that will be used for importing
-comments, to be used with <http://import.disqus.com>, using
-`foo.bar.com` as the root site:
+To create a file, named `comments.xml` that will be used for importing comments, to be used
+with <http://import.disqus.com>, using `foo.bar.com` as the root site:
 
 ```bash
 $ raco livefrog -s foo.bar.com -c comments.xml
 ```
 
 
-## Updating <a name="updating"></a>
+Updating <a name="updating"></a>
+--------------------------------
 
 If you installed livefrog using Planet2, you can update it by running:
 
@@ -149,8 +147,8 @@ If you installed livefrog using Planet2, you can update it by running:
 $ raco pkg update livefrog
 ```
 
-However, if you used the latter method, you may update it by pulling
-the updates, uninstalling livefrog, then installing it again:
+However, if you used the latter method, you may update it by pulling the updates, uninstalling
+livefrog, then installing it again:
 
 ```bash
 $ cd livefrog
@@ -161,10 +159,10 @@ $ raco pkg install livefrog/
 ```
 
 
-## Miscellany <a name="miscellany"></a>
+Miscellany <a name="miscellany"></a>
+------------------------------------
 
-To reduce typing, you may optionally create an alias to
-`raco livefrog` in your shell.
+To reduce typing, you may optionally create an alias to `raco livefrog` in your shell.
 
 Sh-like shells:
 
@@ -178,8 +176,6 @@ Csh-like shells:
 $ echo 'alias livefrog raco livefrog' >> ~/.cshrc
 ```
 
-Replace `.bashrc`, and `.cshrc`, with the appropriate init file for
-your shell.
+Replace `.bashrc`, and `.cshrc`, with the appropriate init file for your shell.
 
-The sources, along with additional information, are located at
-<https://github.com/ebzzry/livefrog>.
+The sources, along with additional information, are located at <https://github.com/ebzzry/livefrog>.

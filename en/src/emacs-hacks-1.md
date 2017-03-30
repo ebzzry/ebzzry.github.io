@@ -2,28 +2,29 @@ Emacs Hacks I
 =============
 
 <div class="center">September 9, 2013</div>
-<div class="center">Updated: May 13, 2016</div>
+<div class="center">Updated: March 30, 2017</div>
 
-In this series of posts, I will be sharing my personal hacks on how
-I use Emacs for my day-to-day stuff.
-
-
-## Table of contents
-
-* [Regions](#regions)
-* [Compilation](#compilation)
-* [Scheme](#scheme)
-* [Server](#server)
-* [Buffers](#buffers)
-* [Marks](#marks)
-* [Key bindings](#keybindings)
-* [Closing remarks](#closing)
+In this series of posts, I will be sharing my personal hacks on how I use Emacs for my day-to-day
+stuff.
 
 
-## Regions <a name="regions"></a>
+Table of contents
+-----------------
 
-This command deletes a region if one is active, or deletes the
-character underneath the cursor.
+- [Regions](#regions)
+- [Compilation](#compilation)
+- [Scheme](#scheme)
+- [Server](#server)
+- [Buffers](#buffers)
+- [Marks](#marks)
+- [Key bindings](#keybindings)
+- [Closing remarks](#closing)
+
+
+Regions <a name="regions"></a>
+------------------------------
+
+This command deletes a region if one is active, or deletes the character underneath the cursor.
 
 ```lisp
 (defun delete-char-or-region (&optional arg)
@@ -37,11 +38,11 @@ character underneath the cursor.
 ```
 
 
-## Compilation <a name="compilation"></a>
+Compilation <a name="compilation"></a>
+--------------------------------------
 
-I use this command frequently, and I use it from typesetting LaTeX
-documents, compiling Scribble documents, compiling code, and just
-about anything that I can use make with.
+I use this command frequently, and I use it from typesetting LaTeX documents, compiling Scribble
+documents, compiling code, and just about anything that I can use make with.
 
 ```lisp
 (defun compile-file ()
@@ -50,7 +51,8 @@ about anything that I can use make with.
 ```
 
 
-### Scheme <a name="scheme"></a>
+Scheme <a name="scheme"></a>
+----------------------------
 
 I want to have a command that explicitly saves the input ring of Geiser:
 
@@ -70,7 +72,8 @@ I also have the following, because I want to align the `λ` symbol nicely.
 ```
 
 
-## Server <a name="server"></a>
+Server <a name="server"></a>
+----------------------------
 
 This snippet ensures that the Emacs server, the one that `emacsclient`
 connects to:
@@ -89,7 +92,8 @@ $ emacs --daemon
 ```
 
 
-## Buffers <a name="buffers"></a>
+Buffers <a name="buffers"></a>
+------------------------------
 
 I want a way to kill the current buffer, without being asked what
 buffer to kill. I will only get prompted if the current has been
@@ -103,7 +107,8 @@ modified.
 ```
 
 
-## Marks <a name="marks"></a>
+Marks <a name="marks"></a>
+--------------------------
 
 There have been plenty of times in the past when I needed a function
 that just marks a line. What I have is below. Executing it multiple
@@ -120,7 +125,9 @@ times, marks multiple lines.
   (forward-line arg))
 ```
 
-## Key bindings <a name="keybindings"></a>
+
+Key bindings <a name="keybindings"></a>
+---------------------------------------
 
 The key bindings for the commands above, are listed below:
 
@@ -137,7 +144,9 @@ The key bindings for the commands above, are listed below:
  ("C-c <tab>" . completion-at-point))
 ```
 
-## Closing remarks <a name="closing"></a>
+
+Closing remarks <a name="closing"></a>
+--------------------------------------
 
 I hope you’ll be able to find use of any of them. The rest of the
 configuration can be found at <https://github.com/ebzzry/dotfiles/tree/master/emacs>.
