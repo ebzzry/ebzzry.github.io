@@ -2,7 +2,7 @@ Moving from LiveJournal to Frog with livefrog
 =============================================
 
 <div class="center">May 29, 2013</div>
-<div class="center">Updated: March 25, 2017</div>
+<div class="center">Updated: March 30, 2017</div>
 
 There are times when you want more control over your content. There are also times when you don’t
 want another platform to dictatet what goes in or out. Issues like censorship and politics, can
@@ -29,13 +29,13 @@ Overview <a name="overview"></a>
 livefrog is a utility written in [Racket](http://racket-lang.org), used to migrate LiveJournal posts
 to [Frog](https://github.com/greghendershott/frog/), a blogging platform written in Racket, too. It
 uses the files dumped by either [ljdump](http://hewgill.com/ljdump/),
-or [ljmigrate](http://github.com/ceejbot/ljmigrate).
+or [ljmigrate](https://github.com/ceejbot/ljmigrate).
 
 
 Installation <a name="installation"></a>
 ----------------------------------------
 
-livefrog is available via Racket’s [Planet2](http://pkg.racket-lang.org):
+livefrog is available via Racket’s [Planet2](https://pkg.racket-lang.org):
 
 ```bash
 $ raco pkg install livefrog
@@ -127,11 +127,11 @@ designated at `_src/posts/`
 
 ### Comments <a name="comments"></a>
 
-Frog, by default, uses [Disqus](http://disqus.com) to handle the comments. To import comments to
+Frog, by default, uses [Disqus](https://disqus.com) to handle the comments. To import comments to
 this platform, you need to generate an XML file that must adhere to Disqus’s comment import rules.
 
 To create a file, named `comments.xml` that will be used for importing comments, to be used
-with <http://import.disqus.com>, using `foo.bar.com` as the root site:
+with <https://import.disqus.com>, using `foo.bar.com` as the root site:
 
 ```bash
 $ raco livefrog -s foo.bar.com -c comments.xml

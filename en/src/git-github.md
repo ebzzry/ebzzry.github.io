@@ -2,12 +2,11 @@ A Brief Git and GitHub Tour
 ===========================
 
 <div class="center">August 29, 2015</div>
-<div class="center">Updated: May 13, 2016</div>
+<div class="center">Updated: March 31, 2017</div>
 
 This short tutorial shows how to use [git](https://git-scm.com/) with a [GitHub](https://github.com)
-workflow. A quick Google of ["git workflows"](https://google.com/search?q=git+workflows) shows
-plenty of diverse results. This article describes just one of the ways of using git with a
-git-hosting service like GitHub.
+workflow. A quick Google of *git workflows* shows plenty of diverse results. This article describes
+just one of the ways of using git with a git-hosting service like GitHub.
 
 In this document, the `$` symbol, represents the prompt. The editor used in this tutorial
 is [vi](https://en.wikipedia.org/wiki/Vi). A short introduction to _vi_ is located
@@ -41,7 +40,7 @@ specifiles files that will be excluded from the repository. Some of these are bi
 error messages that are generated during compilation.
 
 _.gitignore_ files are specific to a project type. A good place to start in determining what a
-.gitignore file should contain is <http://gitignore.io>. Specify the type of project in the field,
+.gitignore file should contain is <https://gitignore.io>. Specify the type of project in the field,
 then click **Generate**, then copy the output to your clipboard.
 
 Create a directory for the project, then cd into it:
