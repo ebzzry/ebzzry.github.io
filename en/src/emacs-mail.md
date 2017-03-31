@@ -2,7 +2,7 @@ Setting Up Mail in Emacs
 ========================
 
 <div class="center">February 2, 2014</div>
-<div class="center">Updated: March 30, 2017</div>
+<div class="center">Updated: March 31, 2017</div>
 
 In this day and age, checking your mail means going to the website of your mail provider, or using a
 mobile app. However, there are some cases when you want to have more control over your messages,
@@ -12,7 +12,7 @@ Emacs provides a plethora (Gnus, Wanderlust, VM, etc.) of ways of sending and re
 this post, I’m going to talk
 about [getmail](http://pyropus.ca/software/getmail/), [mu](http://www.djcbsoftware.nl/code/mu/),
 and [mu4e](http://www.djcbsoftware.nl/code/mu/mu4e.html), and how to set them up quickly. In this
-tutorial I’ll assume that you’re going to get your messages from [Gmail](http://gmail.com) via its
+tutorial I’ll assume that you’re going to get your messages from [Gmail](https://gmail.com) via its
 IMAP interface.
 
 
@@ -92,7 +92,7 @@ received = false
 ```
 
 Replace _USERNAME_ with your Gmail username, then replace _PASSWORD_ with your Gmail
-password. However, if you are using [2-step authentication](http://www.google.com/landing/2step/),
+password. However, if you are using [2-step authentication](https://www.google.com/landing/2step/),
 use an [application-specific](https://accounts.google.com/IssuedAuthSubTokens) password for the
 password field. Take note, that `~/Maildir` is the default directory that Mail Transfer Agents (MTA)
 which use the [maildir](https://en.wikipedia.org/wiki/Maildir) format use, to store data.
@@ -279,7 +279,7 @@ replace the contents of the buffer, say yes to this.
 
 These approaches are not fool-proof, because there’s at least two gaping holes that you have to be
 aware of—Emacs backups, and mu4e drafts. With the former, when you are using Emacs’s backup
-facility, or a package like [backup-dir](http://www.emacswiki.org/emacs/BackupDirectory), messages
+facility, or a package like [backup-dir](https://www.emacswiki.org/emacs/BackupDirectory), messages
 that you compose, presumably before you encrypt it, will have an unencrypted copy to the local
 disk. With the latter, the same principle applies. So be wary of these situations, and tweak your
 configuration, as necessary.

@@ -2,7 +2,7 @@ Blogging with Frog
 ==================
 
 <div class="center">February 19, 2014</div>
-<div class="center">Updated: March 30, 2017</div>
+<div class="center">Updated: March 31, 2017</div>
 
 When publishing blog content to the web, most would rely on pre-fabricated services, that do most of
 the heavy lifting. However, there are instances when you want to have more control over your
@@ -41,7 +41,7 @@ Introduction <a name="introduction"></a>
 When I was looking for tools to create this blog, I became dissatisfied with most of the mainstream
 options. Some are the just too difficult to setup, while some are lacking in features. I became
 frustrated because each end of the spectrum forces me to use something that is extremely mediocre in
-at least one critical aspect. Fortunately, I found [Frog](http://github.com/greghendershott/frog),
+at least one critical aspect. Fortunately, I found [Frog](https://github.com/greghendershott/frog),
 via a suggestion on `#racket`.
 
 Frog, in layman’s terms, is a site creator, that is very easy to use, configure, and
@@ -345,10 +345,10 @@ scribble/manual`, and the absence of the prefix spaces for the metadata fields.
 Comments <a name="comments"></a>
 --------------------------------
 
-Frog makes use of [Disqus](http://disqus.com) to handle its comments. To use it, create an account
+Frog makes use of [Disqus](https://disqus.com) to handle its comments. To use it, create an account
 at [disqus.com/profile/signup/](https://disqus.com/profile/signup/?next=http%3A//disqus.com/).
 
-When you already have your account, go to <http://disqus.com/admin/create/> to create a site, which
+When you already have your account, go to <https://disqus.com/admin/create/> to create a site, which
 will have an alias called a *shortname*. The *shorname* is what you’ll register with Disqus to
 uniquely identify your website. So, if you chose, for example, `foobar`, as the shortname for the
 site, you may then access <http://foobar.disqus.com> to manage the comments for that site. The
@@ -356,7 +356,7 @@ shortname mentioned here, is what you’ll use in the file `_src/post-template.h
 above.
 
 To import comments, from an existing blog, to Disqus, go to
-<http://import.disqus.com>.
+<https://import.disqus.com>.
 
 
 Show time! <a name="showtime"></a>
@@ -374,17 +374,17 @@ The directory `public_html` could be something else, I just used it because it i
 Apache.
 
 However, if you don’t have a remote host that you can upload your work to, via rsync, and you
-use [Git](http://git-scm.com), you can use the free hosting service
+use [Git](https://git-scm.com), you can use the free hosting service
 of [GitHub Pages](http://pages.github.com). If you don’t have a GitHub account yet, you may go
 to [GitHub](http://github.com) to create one. To use, GitHub Pages, create a repository named
-`USERNAME.github.io`. So, if your username is `johndoe`, the repository that you need to create
-should be named `johndoe.github.io`.
+`USERNAME.github.io`. So, if your username is `ogag`, the repository that you need to create
+should be named `ogag.github.io`.
 
 To publish your work to GitHub Pages, you first need to add that remote repository:
 
 ```bash
 $ git remote add origin \
-git@github.com:johndoe/johndoe.github.io.git
+git@github.com:ogag/ogag.github.io.git
 ```
 
 Then you push the commits:
@@ -393,7 +393,7 @@ Then you push the commits:
 $ git push origin master
 ```
 
-To view your website, go to [johndoe.github.io](http://johndoe.github.io).
+To view your website, go to [ogag.github.io](http://ogag.github.io).
 
 
 Closing remarks <a name="closing"></a>

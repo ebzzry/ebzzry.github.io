@@ -2,7 +2,7 @@ A Gentle Introduction to the Nix Family
 =======================================
 
 <div class="center">March 22, 2017</div>
-<div class="center">Updated: March 30, 2017</div>
+<div class="center">Updated: March 31, 2017</div>
 
 >“Don’t worry about what anybody else is going to do. The best way to predict the future is to invent it.”<br>
 >―Alan Kay
@@ -18,14 +18,14 @@ sense of assurance of improvements.
 Several years ago [Eelco Dolstra](https://nixos.org/~eelco/) wrote the
 seminal [papers](https://nixos.org/docs/papers.html) that described radical ways to deploy
 software. These papers effectively formed the cornerstones of [Nix](https://nixos.org/nix/), a
-purely functional package manager language that solves the disease that plagued computing for a long
-time—poor package management. In this article I’ll talk about Nix and friends, and how to use them
-to your advantage.
+purely functional package manager language that solved the disease that plagued computing for a long
+time—poor package management. In this article I’ll talk about the Nix family, and how to use them to
+your advantage.
 
 The `$` symbol will be used to indicate the shell prompt for a regular user, while the `#` symbol
 will denote the shell for the root user. There are cases when
-the [effective user id (EUID)](https://en.wikipedia.org/wiki/User_identifier#Effective_user_ID) of a
-command will be zero (0) due to the use of sudo.
+the [EUID](https://en.wikipedia.org/wiki/User_identifier#Effective_user_ID) of a command will be
+zero (0) due to the use of sudo.
 
 
 Table of contents
@@ -79,26 +79,24 @@ up repairing your system and just decided to re-install your system from scratch
 files are easy; restoring system configuration from the last working state, however, is a one-way
 ticket to hell.
 
-[NixOS](https://nixos.org) is a Linux distribution that solves those problems by leveraging on the
+[NixOS](https://nixos.org) is a Linux distribution that solves these problems by leveraging on the
 determinism of [Nix](https://nixos.org/nix) and by using a single declarative configuration file
-that contains all settings in knobs in one place—`/etc/nixos/configuration.nix`. This file may
-contain information about your filesystems, users, services, network configuration, input devices,
-kernel parameters, and more. This means that you can take a `configuration.nix` of someone, and have
-his exact system configuration! In NixOS you don’t have to fiddle around with the whole system
-manually for configuration that want. You don’t have to use ad-hoc solutions to specify a desired
+that contains all settings and knobs in one place—`/etc/nixos/configuration.nix`. This file conntain
+information about your filesystems, users, services, network configuration, input devices, kernel
+parameters, and more. This means that you can take a `configuration.nix` of someone, and have his
+exact system configuration! In NixOS you don’t have to fiddle around with the whole system manually
+for configuration that want. You don’t have to use ad-hoc solutions to specify a desired
 configuration state. You don’t need to install additional software to manage system configuration.
 
-NixOS does not follow
-the
-[Filesystem Hierarchy Standard (FHS)](https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard),
+NixOS does not follow the [FHS](https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard),
 effectively preventing additional brain damage.  This gives room for a lot of flexibility and
 ingenuity. It does not have `/usr/` and `/opt/`. It does have `/bin/`, which contains only `sh` and
 `/usr/bin/` which contains only `env`—both of which are actually symlinks to the real programs
 somewhere in `/nix/store/`. The top-level location for system binaries—the ones installed explicitly
-by the administrator—are located in `/run/current-system/sw/bin/` and `/run/current-system/sw/sbin/`.
-User-installed programs, on the other hand, are available at their respective
-`~/.nix-profile/bin/`. These locations cannot be modified through normal means; dedicated programs
-must be used to write to these trees.
+by the administrator—are located in `/run/current-system/sw/bin/` and
+`/run/current-system/sw/sbin/`.  User-installed programs, on the other hand, are available at their
+respective `~/.nix-profile/bin/`. These locations cannot be modified through normal means; dedicated
+programs must be used to write to these trees.
 
 
 ### Installation <a name="nixosinstallation"></a>
@@ -130,7 +128,7 @@ Then, connect to the router of choice
     # nmcli d wifi con Foobarbaz name Foo password supersecretkey
 
 
-#### Prepare disks <a name"nixosdisks"></a>
+#### Prepare disks <a name="nixosdisks"></a>
 
 Create the partitions
 
@@ -189,7 +187,7 @@ Edit the config file
 
     nano /mnt/etc/nixos/configuration.nix
 
-A trimmed-down version
+To give you a headstart, you may use a trimmed-down version
 of [my configuration](https://github.com/ebzzry/dotfiles/blob/master/nixos/configuration.nix)
 follows. Replace the values as it suits you. All available configuration knobs are
 available [here](https://nixos.org/nixos/options.html).
@@ -293,7 +291,7 @@ available [here](https://nixos.org/nixos/options.html).
 }
 ```
 
-You may save this with:
+Save this with:
 
     # curl -sSLo /mnt/etc/nixos/configuration.nix https://goo.gl/ZTQcGs
 
@@ -313,7 +311,7 @@ The above configuration specifies the following, among other things:
 - It enables SSH
 - It specifies the LUKS parameters
 
-Install NixOS to the disk:
+Install NixOS to the disk
 
     # nixos-install
 
@@ -1326,7 +1324,7 @@ The system environment is modified only by the root user who declares its value 
 to all users of the system. An excerpt of `/etc/nixos/configuration.nix` that uses the system
 environment is:
 
-```
+```nix
 { config, lib, pkgs, ... }:
 
 {
@@ -1430,7 +1428,7 @@ is called the *stdenv*.
 nix-shell looks for the files `shell.nix` or `default.nix`, in that order, in the current directory
 during startup, to load definitions from. Let’s create one, saving it as `default.nix`:
 
-```
+```nix
 { pkgs ? import <nixpkgs> {} }:
 
 with pkgs;
@@ -1468,7 +1466,7 @@ For our trivial example, the value of `name` can be anything. The value of `buil
 is important. Here, they’re declared to be `hello` and `emem`. These are references to values inside
 the `nixpkgs` marker that we saw earlier. Had we not used `with pkgs`, the expression would be:
 
-```
+```nix
 { pkgs ? import <nixpkgs> {} }:
 
 pkgs.stdenv.mkDerivation {
@@ -1478,7 +1476,7 @@ pkgs.stdenv.mkDerivation {
 
 Alternatively, it can be:
 
-```
+```nix
 { pkgs ? import <nixpkgs> {} }:
 
 stdenv.mkDerivation {
@@ -1545,7 +1543,7 @@ the mainstream kernel with all the proprietary blobs removed. More information a
 differences can be found [here](https://sandervanderburg.blogspot.de/2012/11/on-nix-and-gnu-guix.html).
 
 Aside from GuixSD, there are also other projects that Nix has inspired. There
-is [Habitat](http://habitat.sh) an application automation framework,
+is [Habitat](https://habitat.sh) an application automation framework,
 and [ied](https://github.com/alexanderGugel/ied), an alternative package manager for Node.
 
 The articles
@@ -1567,7 +1565,7 @@ Bonus <a name="bonus"></a>
 
 Here’s the [Y combinator](/en/y) in Nix, applied to the factorial function:
 
-```bash
+```nix
 nix-repl> y = x: ((f: (x (v: ((f f) v)))) (f: (x (v: ((f f) v)))))
 
 nix-repl> b = p: (n: if n == 0 then 1 else (n * (p (n - 1))))
@@ -1580,7 +1578,7 @@ nix-repl> f 20
 
 Or, in one expression, using let:
 
-```bash
+```nix
 nix-repl> let y = x: ((f: (x (v: ((f f) v)))) (f: (x (v: ((f f) v)))));
               b = p: (n: if n == 0 then 1 else (n * (p (n - 1))));
               f = y b;
@@ -1590,7 +1588,7 @@ nix-repl> let y = x: ((f: (x (v: ((f f) v)))) (f: (x (v: ((f f) v)))));
 
 You may also pipe stdout to nix-repl:
 
-```bash
+```nix
 $ echo 'let y = x: ((f: (x (v: ((f f) v)))) (f: (x (v: ((f f) v))))); b = p: (n: if n == 0 then 1 else (n * (p (n - 1)))); f = y b; in f 20' | nix-repl
 Welcome to Nix version 1.11.8. Type :? for help.
 
