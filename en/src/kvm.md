@@ -2,7 +2,7 @@ Virtualizing with KVM in Linux
 ==============================
 
 <div class="center">June 15, 2015</div>
-<div class="center">Updated: March 30, 2017</div>
+<div class="center">Updated: March 31, 2017</div>
 
 Most of you are familiar
 with [full virtualization](https://en.wikipedia.org/wiki/Full_virtualization) solutions before like
@@ -69,7 +69,7 @@ APT:
 $ sudo apt-get install qemu-kvm vde2 spice-client
 ```
 
-This will install the [QEMU](http://wiki.qemu.org/) (pronounced as kee-moo)
+This will install the [QEMU](http://wiki.qemu-project.org/Main_Page) (pronounced as kee-moo)
 hypervisor, [VDE](http://vde.sourceforge.net/) tools, and [SPICE](http://www.spice-space.org/)
 support. QEMU, at least during its early days had the _meh_ impression — it is OK, but not
 stellar. Since version 0.10.1, QEMU started supporting [KVM](http://www.linux-kvm.org/), a
@@ -113,7 +113,7 @@ sense, right? :)
 
 ### Networking <a name="networking"></a>
 
-QEMU [supports](http://wiki.qemu.org/Documentation/Networking) several ways of setting up networking
+QEMU [supports](http://wiki.qemu-project.org/Documentation/Networking) several ways of setting up networking
 for its guest, but for this post you’re going to use VDE.
 
 You need to run several commands to prep the networking environment. Ideally, you’d want to save

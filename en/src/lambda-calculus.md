@@ -2,7 +2,7 @@ A Lambda Calculus Primer
 ========================
 
 <div class="center">June 12, 2015</div>
-<div class="center">Updated: May 13, 2016</div>
+<div class="center">Updated: March 31, 2017</div>
 
 >“You do not really understand something unless you can explain it to
 >your grandmother.”<br>
@@ -114,7 +114,7 @@ The Greek letter `λ` denotes that the surrounding context is a function—or so
 applied or used. The `λ` symbol is used instead of another symbol because of a typesetting issue
 that is
 discussed
-[here](http://www.users.waitrose.com/~hindley/SomePapers_PDFs/2006CarHin,HistlamRp.pdf). So, don’t
+[here](https://goo.gl/vxMkW4). So, don’t
 fret too much about, just use it.
 
 What comes next after the `λ` symbol, before the `.`, is the parameter. Technically, it can be any

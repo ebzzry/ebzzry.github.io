@@ -2,7 +2,7 @@ My Kinesis Advantage Layout
 ===========================
 
 <div class="center">October 26, 2015</div>
-<div class="center">Updated: March 25, 2017</div>
+<div class="center">Updated: March 31, 2017</div>
 
 <img src="/images/advantage.jpg" style="display: block; width: 100%; margin-left: auto;
 margin-right: auto;" alt="Kinesis Advantage" title="Kinesis Advantage"/>
@@ -26,7 +26,7 @@ keyboard, however, can sometimes be a subject of debates. A common item that per
 that it has be ergonomic. I add to that list an important quality: speed. No matter how ergonomic a
 keyboard is, if it falls on the speed category. It has to be comfortable, and speedy.
 
-The [Kinesis Advantage](http://www.kinesis-ergo.com/shop/advantage-for-pc-mac/) is the epitome of
+The [Kinesis Advantage](https://www.kinesis-ergo.com/shop/advantage-for-pc-mac/) is the epitome of
 such a criteria. It is ergonomic, and it is fast. If you are already proficient typist, you’ll find
 that after the small adjustment period, you’ll type even faster with the Advantage. The default
 layout of the keys, however, turns me off. The <kbd>Ctrl</kbd> and <kbd>Alt</kbd> keys are too far
@@ -120,7 +120,7 @@ the source; the next key will be the destination.
 | Keypad, u, Keypad (KP Home) | Left Control    |
 | Keypad, m, Keypad (KP End)  | Right Control   |
 
-Then, press <kbd>Progrm</kbd> + <kbd>F12</kbd> again, to exit remapping mode.  The <kbd>KP Return</kbd> key was moved to <kbd>Left Alt</kbd> so that I can easily use it as a Compose (Multi) key in
+Then, press <kbd>Progrm + F12</kbd> again, to exit remapping mode.  The <kbd>KP Return</kbd> key was moved to <kbd>Left Alt</kbd> so that I can easily use it as a Compose (Multi) key in
 X. My [~/.Xmodmap](https://github.com/ebzzry/dotfiles/blob/master/xmodmap/.Xmodmap.kadv.dvorak)
 contains the following:
 

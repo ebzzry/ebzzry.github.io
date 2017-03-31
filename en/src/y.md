@@ -2,11 +2,11 @@ The Y Combinator in Six Steps
 =============================
 
 <div class="center">May 9, 2013</div>
-<div class="center">Updated: March 30, 2017</div>
+<div class="center">Updated: March 31, 2017</div>
 
 A lot of us have been taught that to be able to define a recursive procedure, the recursive
 invocation must “use” the name of the recursive
-procedure. The [Y combinator](http://en.wikipedia.org/wiki/Fixed-point_combinator#Y_combinator) ,
+procedure. The [Y combinator](https://en.wikipedia.org/wiki/Fixed-point_combinator#Y_combinator) ,
 however, lets you perform recursion, without referring to the named identifier.
 
 
