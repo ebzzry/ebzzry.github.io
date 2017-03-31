@@ -2,7 +2,7 @@ Converting Markdown to HTML with emem
 =====================================
 
 <div class="center">March 12, 2017</div>
-<div class="center">Updated: March 28, 2017</div>
+<div class="center">Updated: March 31, 2017</div>
 
 I have always wanted a way to create HTML documents from my Markdown files. Initially, I simply
 wanted to have HTML files from my text files so that I can view them nicely on my phone. Later, I
@@ -231,7 +231,7 @@ Mobile-Friendly rating
 from [Google Mobile-Friendly Test](https://search.google.com/search-console/mobile-friendly), and a
 performance grade of B from [Pingdom](https://tools.pingdom.com/). If you can control the web server
 parameters, you may even get a performance grade of A, when you leverage browser caching, and
-specify the `Vary: Accept-Encoding` header. I’m using [GitHub Pages](https://pages.github.io), so
+specify the `Vary: Accept-Encoding` header. I’m using [GitHub Pages](https://pages.github.com), so
 it’s a different story for me.
 
 I’m quite happy with the output that emem produces. It’s fast enough and I can extend it easily. I

@@ -2,7 +2,7 @@ Creating Backups with Ugarit
 ============================
 
 <div class="center">February 21, 2014</div>
-<div class="center">Updated: March 30, 2017</div>
+<div class="center">Updated: March 31, 2017</div>
 
 How many times have you experienced hindsight, after a catastrophic event has happened? How many
 times have you told yourself that had you created backups of your precious data, you wouldn’t be in
@@ -14,7 +14,7 @@ big, safe foam that we can land on, it wouldn’t have been a lot of trouble, an
 flip side, creating and managing backups can be daunting, and equally dangerous.
 
 In this post, I’ll talk about
-[Ugarit](http://www.kitten-technologies.co.uk/project/ugarit/doc/trunk/README.wiki)
+[Ugarit](https://www.kitten-technologies.co.uk/project/ugarit/doc/trunk/README.wiki)
 , a nice piece of technology, that combines ease-of-use and security, in a single tool.
 
 
@@ -53,7 +53,7 @@ Installation <a name="installation"></a>
 
 ### APT <a name="apt"></a>
 
-First, you need to install [Chicken](http://www.call-cc.org/). Most likely, it can be installed via
+First, you need to install [Chicken](https://www.call-cc.org/). Most likely, it can be installed via
 your package manager:
 
 ```bash
@@ -61,7 +61,7 @@ $ sudo apt-get install chicken-bin
 ```
 
 If it isn’t available on your system, you may download it
-from [code.call-cc.org](http://code.call-cc.org/)
+from [code.call-cc.org](https://code.call-cc.org/)
 
 After Chicken is installed, let’s install Ugarit itself, and its dependencies:
 
@@ -222,7 +222,7 @@ Tips <a name="tips"></a>
 
 Ugarit is not limited to creating snapshots of a local filesystem. It can also be used to create
 snapshots of trees, from a remote host, mounted locally. If you have
-an [SSHFS](http://fuse.sourceforge.net/sshfs.html) mount, for example, you can still create a
+an [SSHFS](https://fuse.sourceforge.net/sshfs.html) mount, for example, you can still create a
 snapshot of it, just like any other local filesystem:
 
 ```bash
@@ -231,7 +231,7 @@ $ cd ~/mnt/sshfs
 $ ugarit snapshot /ugarit/ugarit.conf remotehost
 ```
 
-The same applies to [SMBFS](http://www.samba.org/samba/smbfs/) mounts:
+The same applies to [SMBFS](https://www.samba.org/samba/smbfs/) mounts:
 
 ```bash
 $ sudo mount -t cifs -o user=$USER,uid=$USER //winhost/c \
@@ -260,7 +260,7 @@ Notes <a name="notes"></a>
 --------------------------
 
 When you are doubtful of the performance of the disk where you’ll be storing the snapshots, disable
-the [locate and updatedb](http://linux.about.com/library/cmd/blcmdl1_updatedb.htm) service. It is
+the [locate and updatedb](http://linux.about.com/od/commands/fl/updatedb-Linux-Command-Unix-Command.htm) service. It is
 usually run periodically via cron. It places a lot of load on the disk, and may over-stress it. Your
 mileage may vary. If, however, you need that service, create an exclusion for the file system where
 you store the snapshots.
@@ -271,7 +271,7 @@ exist. The storage mechanism works similarly to Git, only that there is no rebas
 Ugarit was created by [Alaric Snell-Pym](http://www.snell-pym.org.uk/alaric/). If you want to learn
 more about it, head over
 to
-[kitten-technologies.co.uk/project/ugarit/doc/trunk/README.wiki](http://www.kitten-technologies.co.uk/project/ugarit/doc/trunk/README.wiki). To
+[kitten-technologies.co.uk/project/ugarit/doc/trunk/README.wiki](https://www.kitten-technologies.co.uk/project/ugarit/doc/trunk/README.wiki). To
 report bugs, go
 to
-[kitten-technologies.co.uk/project/ugarit/reportlist](http://www.kitten-technologies.co.uk/project/ugarit/reportlist).
+[kitten-technologies.co.uk/project/ugarit/reportlist](https://www.kitten-technologies.co.uk/project/ugarit/reportlist).
