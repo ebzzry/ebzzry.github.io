@@ -2,11 +2,14 @@ Setting Up Racket Development in Emacs
 ======================================
 
 <div class="center">September 29, 2013</div>
-<div class="center">Updated: March 28, 2017</div>
+<div class="center">Updated: March 31, 2017</div>
 
-In this post, I’ll discuss the easiest approach that I took to setup up
-a [Racket](https://racket-lang.org) development environment on Emacs. Take note, that this is not
-the only approach available — some did it in arguably better ways. In this article, I’ll try to
+>“All the good ideas never lie under one hat.”<br>
+>―Dale Turner
+
+In this article, I’ll discuss the easiest approach that I took to setup up
+a [Racket](https://racket-lang.org) development environment in Emacs. Take note, that this is not
+the only approach available—some did it in arguably better ways. In this article, I’ll try to
 explain the shortest route that I took.
 
 
@@ -24,12 +27,12 @@ Table of contents
 Introduction <a name="introduction"></a>
 ----------------------------------------
 
-Editing Racket code with Emacs has traditionally been done by rudimentary modes that mostly lacked
+Editing Racket code with Emacs has traditionally been done by rudimentary modes that lacked
 flexibility. They were able to evaluate current definitions, last definitions, and entire buffers,
 for the most part. Unfortunately, that didn’t suffice with the way Racket dealt with things. A more
 intelligent way of handling code, was needed.
 
-Fortunately, you have [Geiser](http://www.nongnu.org/geiser/).  There are other major modes that try
+Fortunately, you have [Geiser](http://www.nongnu.org/geiser/). There are other major modes that try
 to do what Geiser does, but I became most comfortable with what Geiser offered. Some similar
 libraries can co-exist with Geiser, too. I tried those, but it became too complex, for me. I wound
 up just using Geiser. Also, as a semi-related note, I’m using Emacs to edit Racket code because I
@@ -48,11 +51,9 @@ amount of chore. Also, I’m still not sure what are the hidden consequences of 
 Let’s say that you want to install your Geiser files in `~/.emacs.d/elisp/`. You’ll issue the
 following commands to install Geiser to that location:
 
-```bash
-$ mkdir ~/.emacs.d/elisp
-$ cd ~/.emacs.d/elisp
-$ git clone http://git.sv.gnu.org/r/geiser.git
-```
+    $ mkdir ~/.emacs.d/elisp
+    $ cd ~/.emacs.d/elisp
+    $ git clone http://git.sv.gnu.org/r/geiser.git
 
 After that, in `~/.emacs.d/elisp/geiser/`, you’ll have something that looks like the following:
 
@@ -111,9 +112,7 @@ Usage <a name="usage"></a>
 To reap what you sowed, create or open a `.rkt` file, with at least a proper module
 declaration. Then hit:
 
-```
-M-x run-geiser RET
-```
+    M-x run-geiser RET
 
 And, boomshakalaka! A new (Emacs) window opens, containing the `* Racket REPL *` buffer. Whatever
 you can do with the REPL invoked with vanilla command-line `racket`, you can also do with this, and

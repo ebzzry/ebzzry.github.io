@@ -415,7 +415,7 @@ nix-repl> ''${x} ${y}''
 
 ### Numbers <a name="nixnumbers"></a>
 
-Basic arithmetic operations in Nix are included with a small twist:
+Basic arithmetic operations in Nix are included, with a small twist:
 
 ```bash
 nix-repl> 6+2
@@ -630,7 +630,7 @@ nix-repl> x: x
 This expression creates an anonymous function that returns its
 argument—the [identity function](https://en.wikipedia.org/wiki/Identity_function). The colon after
 the first *x* indicates that it is a parameter to the function, just like
-in [lambda calculus](http://ebzzry.io/en/lambda-calculus/#functions). Also,the names do not matter
+in [lambda calculus](http://ebzzry.io/en/lambda-calculus/#functions). Also, the names do not matter
 due to [alpha equivalence](https://en.wikipedia.org/wiki/Lambda_calculus#Alpha_equivalence):
 
 ```bash
@@ -639,7 +639,7 @@ nix-repl> foo-bar-baz: foo-bar-baz
 ```
 
 These functions are not of much use because they are not captured for application. If we want to use
-it, for example the value `"foo"`, we need to surround it with parentheses:
+it, for example with the argument `"foo"`, we need to surround it with parentheses:
 
 ```bash
 nix-repl> (x: x) "foo"
@@ -679,7 +679,7 @@ nix-repl> ugh "me" "you"
 
 The pattern is that to add an additional parameter, use the `name: ` form.
 
-Sets, when used with functions enable more powerful abstractions. We can pass a set as an argument
+Sets, when used with functions, enable more powerful abstractions. We can pass a set as an argument
 to a function, which will then use the data inside that set:
 
 ```bash
@@ -687,7 +687,7 @@ nix-repl> poof = { a, b }: x: a + " " + b + x
 ```
 
 This function has two parameters: `{ a, b }`—a parameter specification for a set with two elements,
-and `x`—a regular parameter. Take note, too, that the parameter specification is not a real set, but
+and `x`—a regular parameter. Take note, that the parameter specification is not a real set, but
 merely a way to match arguments; it uses a comma, as value separator. Inside this function we
 combine the inputs with the `+` operator. To use this function, we’d do it like:
 
@@ -730,10 +730,9 @@ nix-repl> foop { a = "goo"; }
 
 nix-repl> foop { a = "goo"; b = "oog"; }
 "goooog"
-
 ```
 
-To add even more flexibility, Nix supports the use of pseudo-‘rest’ arguments. Let’s modify the
+To add even more flexibility, Nix supports the use of pseudorest arguments. Let’s modify the
 function from above:
 
 ```bash
@@ -787,7 +786,7 @@ nix-repl> let x = "foo"; y = "bar"; in x + poof { a = "huh"; b = "really"; } "hm
 "foohuh reallyhmmbar"
 ```
 
-Take note of the last `;` before the '`in` keyword that goes with `let`—it marks the start of the
+Take note of the last `;` before the `in` keyword that goes with `let`—it marks the start of the
 `let` body. The let construct behaves in similar ways to the `let` keyword found in languages like
 Lisp and Haskell.
 
@@ -880,8 +879,8 @@ Nixpkgs <a name="nixpkgs"></a>
 Nixpkgs is a collection of thousands of packages curated and maintained by users worldwide. Since
 the source code is in [GitHub](https://github.com/nixos/nixpkgs), it is able to take advantage of
 the powerful collaboration models that that platform offers. At the time of writing, there are
-almost 6500 packages in the collection. It contains a wide array of packages ranging from
-productivity applications to theorem provers.
+almost 6500 packages in [the collection](https://nixos.org/nixos/packages.html). It contains a wide
+array of packages ranging from productivity applications to theorem provers.
 
 Most of the popular operating systems handle packages well, until, they don’t. As long as you are
 moving in a straight line, alone, you’ll be fine. Things change, when you introduce other people in
@@ -922,7 +921,7 @@ GNU/Linux or macOS, run:
 You’ll be prompted to enter credentials for root access via sudo because it will install the
 resources to `/nix/`. After the installation, you may also be requested to append a line of command
 to your shell initialization file. When you spawn a new shell instance, the Nix-specific commands
-will become available for use.
+will be available for use.
 
 
 ### Usage <a name="nixpkgsusage"></a>
@@ -958,7 +957,7 @@ to you. To make sure that emem has successfully installed, run:
 
     $ emem --version
 
-If your doesn’t barf and complain that you’re looking for something that does not exist, and instead
+If your shell doesn’t barf and complain that you’re looking for something that does not exist, and instead
 you see a version number, it means that you have successfully installed emem.
 
 To get the most recent changes from the git repo, run:
@@ -980,6 +979,8 @@ recent as the git checkout. To subscribe to the unstable channel, run:
 
 This fetches the channel labeled `nixpkgs-unstable` from nixos.org, then installs it to your user
 profile.
+
+To browse the list of channels, go [here](https://nixos.org/channels/).
 
 Using the example above, to install emem, run the following commands for NixOS and other systems,
 respectively:
@@ -1030,10 +1031,6 @@ Let’s take a look at a trimmed-down version of my `config.nix`:
 
 {
   packageOverrides = pkgs: {
-    keepass = pkgs.keepass.override {
-      plugins = [ pkgs.keepass-keefox ];
-    };
-
     emacs = pkgs.emacs.override {
       withGTK2 = false;
       withGTK3 = false;
@@ -1051,9 +1048,8 @@ Let’s take a look at a trimmed-down version of my `config.nix`:
 ```
 
 This is a function, that takes an attribute as parameter, then yields another attribute set as
-return value. My config.nix says that for Keepass, I am enabling the keepass-keefox plugin; for
-Emacs, I disabled the use of GTK. For Firefox, which are not package overrides, I specified that I
-want to use JRE and the Google Talk plugin. Lastly, I am specifying that I want to be able to
+return value. My _config.nix_ says that I don’t want GTK for Emacs. For Firefox, I specified that I
+want to use the JRE and the Google Talk plugin. Lastly, I am specifying that I want to be able to
 install software which doesn’t have open source licenses, or software that doesn’t follow the free
 software model.
 
@@ -1160,7 +1156,7 @@ It matched the SHA256 specification above.
 The `doCheck` attribute instructs Nix to run the tests for this package.
 
 The value for the `meta` attribute is another attribute set specification for other details
-regarding the package. The values specified here will help Nix programs classify, the package, among
+regarding the package. The values specified here will help Nix programs classify the package, among
 other things. The `description` attribute is a short string describing the purpose of the
 package. The `longDescription` attribute is a longer, possibly multi-line string describe the
 package in more details. The `homepage` attribute is a URL to the WWW home of the package. You don’t
@@ -1334,7 +1330,7 @@ environment is:
 }
 ```
 
-This declares that the packages named zsh and vim will be available for all users of the
+This declares that the packages named *zsh* and *vim* will be available for all users of the
 system. The binaries will be available as `/run/current-system/sw/bin/zsh` and
 `/run/current-system/sw/bin/vim`, for Zsh and Vim, respectively.
 
@@ -1346,12 +1342,12 @@ when installing Zsh using nix-env:
 
     $ nix-env -iA nixos.zsh
 
-Zsh only becomes explicitly available for the user invoking it. If the username who ran that command is
-`john`, then the Zsh binary will be available as `/home/john/.nix-profile/bin/zsh`. If the user
-`mary` hasn’t installed Zsh to her profile, then it is unavailable to her. If Mary has the same
-channel as John, and she run that nix-env command, then Nix will no longer need to fetch the Zsh
-program data, from scratch. Instead, Nix makes the Zsh program data, created by the nix-env
-processes that John used earlier, to make Zsh available to Mary. However, if Mary uses the git
+Zsh only becomes explicitly available for the user invoking it. If `john` is the username who ran
+that command, then the Zsh binary will be available as `/home/john/.nix-profile/bin/zsh`. If the
+user `mary` hasn’t installed Zsh to her profile, then it is unavailable to her. If Mary has the same
+channel as John, and she runs the same nix-env command, then Nix will no longer need to fetch the
+Zsh program data, from scratch. Instead, Nix makes the Zsh program data, created by the nix-env
+process that John used earlier, to make Zsh available to Mary. However, if Mary uses the git
 checkout, or a different version of channels than the one used by John, and the versions of Zsh
 differ from the version of John, then the invocation of `nix-env` by Mary will fetch a newer
 instance of Zsh.
@@ -1396,7 +1392,8 @@ then proceeds to run the `hello` binary, which will display to the screen the fa
 the run option was omitted, we will be dropped in a shell:
 
     $ nix-shell --packages hello --pure
-    [nix-shell:~]$
+    [nix-shell:~]$ hello
+    Hello, world!
 
 This shell instance is special because it only contains sufficient information just to make Hello,
 available. We can even inspect the value of `$PATH`, here:
@@ -1474,16 +1471,6 @@ pkgs.stdenv.mkDerivation {
   buildInputs = [ pkgs.hello pkgs.emem ];
 ```
 
-Alternatively, it can be:
-
-```nix
-{ pkgs ? import <nixpkgs> {} }:
-
-stdenv.mkDerivation {
-  name = "shell";
-  buildInputs = with pkgs; [ hello emem ];
-```
-
 To feed this expression to nix-shell, making use of both *hello* and *emem*, run:
 
     $ nix-shell --pure --run "hello | emem -w"
@@ -1496,10 +1483,9 @@ approaches. It banks on the deterministic properties of Nix, creating a very str
 Closing remarks <a name="closing"></a>
 --------------------------------------
 
-Nix and company, provide powerful tools to make managing systems and deployments, and development
-configurations, significantly easier. It has flexible facilities for creating efficient workflows
-and distribution models. If I had to list down the most important features of the Nix ecosystem that
-I like, they are:
+Nix provides powerful tools to make managing systems and development configurations, significantly
+easier. It has flexible facilities for creating efficient workflows and distribution models. If I
+had to list down the most important features of the Nix ecosystem that I like, they are:
 
 - deterministic
 - reproducible

@@ -7,6 +7,8 @@ Words
 This page contains a list of phrases and lines that I communicated with my fellow men, to raise
 awareness, to shed light on things, and to inspire.
 
+Entries are sorted in chronological order.
+
 
 - While the intrepid ones are braving the storms with courage and triumph, the cowards are basking
   in the shores of submission and conformity.<br>

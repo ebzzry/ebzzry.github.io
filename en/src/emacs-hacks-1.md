@@ -2,10 +2,9 @@ Emacs Hacks I
 =============
 
 <div class="center">September 9, 2013</div>
-<div class="center">Updated: March 30, 2017</div>
+<div class="center">Updated: March 31, 2017</div>
 
-In this series of posts, I will be sharing my personal hacks on how I use Emacs for my day-to-day
-stuff.
+In this post I will be sharing my personal hacks on how I use Emacs for my day-to-day stuff.
 
 
 Table of contents
@@ -75,8 +74,7 @@ I also have the following, because I want to align the `λ` symbol nicely.
 Server <a name="server"></a>
 ----------------------------
 
-This snippet ensures that the Emacs server, the one that `emacsclient`
-connects to:
+This snippet ensures that the Emacs server, the one that `emacsclient` connects to:
 
 ```lisp
 (require 'server)
@@ -95,9 +93,8 @@ $ emacs --daemon
 Buffers <a name="buffers"></a>
 ------------------------------
 
-I want a way to kill the current buffer, without being asked what
-buffer to kill. I will only get prompted if the current has been
-modified.
+I want a way to kill the current buffer, without being asked what buffer to kill. I will only get
+prompted if the current has been modified.
 
 
 ```lisp
@@ -110,9 +107,8 @@ modified.
 Marks <a name="marks"></a>
 --------------------------
 
-There have been plenty of times in the past when I needed a function
-that just marks a line. What I have is below. Executing it multiple
-times, marks multiple lines.
+There have been plenty of times in the past when I needed a function that just marks a line. What I
+have is below. Executing it multiple times, marks multiple lines.
 
 ```lisp
 (defun mark-line (&optional arg)
@@ -148,5 +144,5 @@ The key bindings for the commands above, are listed below:
 Closing remarks <a name="closing"></a>
 --------------------------------------
 
-I hope you’ll be able to find use of any of them. The rest of the
-configuration can be found at <https://github.com/ebzzry/dotfiles/tree/master/emacs>.
+I hope you’ll be able to find use of any of them. The rest of the configuration can be
+found [here](https://github.com/ebzzry/dotfiles/tree/master/emacs).

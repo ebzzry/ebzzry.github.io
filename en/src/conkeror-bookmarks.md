@@ -2,7 +2,10 @@ Creating Conkeror Bookmarks with emem
 =====================================
 
 <div class="center">August 16, 2015</div>
-<div class="center">Updated: March 28, 2017</div>
+<div class="center">Updated: March 31, 2017</div>
+
+>“Diplomacy is the art of saying ‘Nice doggie’ until you can find a rock.”<br>
+>―Will Rogers
 
 I wanted a simple, and easy way to view my bookmarks in [Conkeror](http://conkeror.org). However,
 the proposed solutions on the wiki are not suitable for me. So, I rolled my own.
@@ -24,14 +27,14 @@ Table of contents
 Prerequisites <a name="prerequisites"></a>
 ------------------------------------------
 
-One of the most important tool that you need to have is _sqlite3_. Chances are, your system provides
-a way to install it. To check if you have it, or to verify the installation, run:
+One of the most important tool that you need to have is _sqlite3_. Chances are, your system already
+provides a way to install it. To check if you have it, or to verify the installation, run:
 
 ```bash
 $ sqlite3 --version
 ```
 
-If it displays a version string, with a build date and hash, then you’re set.
+If it displays a version string, with a build date and hash, then you may continue.
 
 You also need to have a Java Runtime Environment (JRE) installed. To determine if you have it, run:
 
@@ -55,18 +58,18 @@ If it reports at least **emem-0.2.1**, then you’re good to go.
 Extract the data <a name="extract"></a>
 ---------------------------------------
 
-You need to have a way first to extract the data from a sqlite3 database, which Conkeror uses to
-store the bookmarks, among other things.
+You need to have a way first to extract the data from the sqlite3 database, which Conkeror uses to
+store the bookmarks.
 
-Open your `~/.bashrc`, or whatever init file your shell uses, then append the following
-text. Replace **profile.default** with the correct profile name:
+Open your `~/.bashrc`, or whatever init file your shell uses, then append the snippet. Replace
+**profile.default** with the correct profile name:
 
 ```bash
 cob () {
   sqlite3 -separator ' <> ' \
-  $HOME/.conkeror.mozdev.org/conkeror/profile.default/places.sqlite \
-  'SELECT p.title, p.url FROM moz_bookmarks b INNER JOIN moz_places p \
-  ON b.fk = p.id ORDER BY b.id DESC;' | uniq | perl -pe 's/\[//;s/\]//'
+    $HOME/.conkeror.mozdev.org/conkeror/profile.default/places.sqlite \
+    'SELECT p.title, p.url FROM moz_bookmarks b INNER JOIN moz_places p \
+    ON b.fk = p.id ORDER BY b.id DESC;' | uniq | perl -pe 's/\[//;s/\]//'
 }
 ```
 
@@ -114,38 +117,38 @@ bm () {
 Define conkeror commands <a name="commands"></a>
 ------------------------------------------------
 
-Let’s now create interactive commands for Conkeror, for generating and viewing the bookmarks. Open
-your `~/.conkerorrc` file, then put the following:
+Let’s now create the interactive commands for Conkeror, for generating and viewing the
+bookmarks. Open your `~/.conkerorrc` file, then put the following:
 
 ```javascript
 interactive(
-    "b",
-    "Generate the bookmarks file.",
+    "b", "Generate the bookmarks file.",
     function (I) {
         var cwd = I.local.cwd;
         yield shell_command("bmg", $cwd = cwd);
     });
 
 interactive(
-    "bm",
-    "Open the bookmarks in a new buffer.",
+    "bm", "Open the bookmarks in a new buffer.",
     function (I) {
         var cwd = I.local.cwd;
         yield shell_command("bm", $cwd = cwd);
     });
 ```
 
-Re-read your rc:
+Then, re-read your rc:
 
 ```
 M-x reinit RET
 ```
 
-Finally, generate the bookmarks then view it:
+Generate the bookmarks themselves:
 
 ```
 M-x b RET
 ```
+
+Finally, view them:
 
 ```
 M-x bm RET
@@ -186,11 +189,12 @@ the [SQLite Manager](https://github.com/lazierthanthou/sqlite-manager) extension
 lets you manage SQLite database inside the browser. By default it lets you open the **.sqlite**
 files in your profile directory.
 
-To install it, download the .xpi file
-from <https://github.com/lazierthanthou/sqlite-manager/releases>, then follow the installation
-instructions at <http://conkeror.org/Extensions>.
+To install it, download the .xpi
+file [here](https://github.com/lazierthanthou/sqlite-manager/releases), then follow the installation
+instructions [here](http://conkeror.org/Extensions).
 
-Next, open your `~/.conkerorrc`, then add the following:
+Let’s create a Conkeror command that will load the extension. Open your `~/.conkerorrc`, then add
+the following:
 
 ```
 interactive(
@@ -200,13 +204,13 @@ interactive(
     });
     ```
 
-Then, re-load your settings:
+Next, re-load your settings:
 
 ```
 M-x reinit
 ```
 
-To run _SQLite Manager_, hit:
+Then, execute the following to load SQLite Manager:
 
 ```
 M-x sqlite
@@ -227,5 +231,6 @@ The bookmarks displayed in `M-x bm`, will be sorted by time of creation, in a de
 bookmarks listed are also not categorized by “folders”, in the manner of the Firefox’s Bookmarks
 Manager.
 
-Another, you may also edit the `places.sqlite` file with [sqlite3](https://www.sqlite.org/cli.html),
+In addition to SQLite Manager, you may also edit the `places.sqlite` file
+with [sqlite3](https://www.sqlite.org/cli.html),
 or [sqlitebrowser](https://github.com/sqlitebrowser/sqlitebrowser).

@@ -2,7 +2,11 @@ Esperanto Characters in Linux
 =============================
 
 <div class="center">April 18, 2016</div>
-<div class="center">Updated: March 30, 2017</div>
+<div class="center">Updated: March 31, 2017</div>
+
+>“If you want something you’ve never had, you must be willing to do something you’ve never
+>done.”<br>
+>―Thomas Jefferson
 
 Prior to the invention of the methods discussed in this post, the way to input Esperanto characters
 on Linux is to use the the [h-](https://en.wikipedia.org/wiki/Esperanto_orthography#H-system)
@@ -13,9 +17,9 @@ characters was with the use of a character map—a GUI application that displays
 that you can copy characters from. A popular character map application for Linux systems
 is [gucharmap](https://wiki.gnome.org/Apps/Gucharmap).
 
-The aforementioned systems are inaccurate, and tedious. There’s no need to continue using these
-input methods, aside from supporting legacy display systems. Currently, there are two ways to input
-Esperanto characters on Linux systems—the multi key and mode switch.
+The aforementioned systems are inaccurate, and tedious. But, there’s no need to continue using these
+archaic methods—aside of course from supporting legacy display systems. Currently, there are two
+ways to input Esperanto characters on Linux systems—using the multi and mode switch keys.
 
 
 Table of contents
@@ -23,14 +27,13 @@ Table of contents
 
 - [Multi key](#multikey)
 - [Mode switch](#modeswitch)
-- [Notes](#notes)
 - [Closing remarks](#closing)
 
 
 Multi key <a name="multikey"></a>
 ---------------------------------
 
-The *multi key*, also called a compose key, is a specially-assigned key, that must be pressed and
+The *multi key*, also called the compose key, is a specially-assigned key, that must be pressed and
 released, along with other keys, to input a character, or series of characters. Unlike
 <kbd>Shift</kbd> or <kbd>Ctrl</kbd>, it must be released, and not held down.
 
@@ -74,11 +77,11 @@ keycode 107 = Multi_key
 
 Then re-read the `~/.Xmodmap` file as described above.
 
-Now that you have access to the multi key, composing characters will be easy. Presuming you’re
+Now that you have access to the multi key, composing characters will be easy. Presuming you’re using
 <kbd>Pause</kbd> as the multi key, to input **ĉ**, you must press and release <kbd>Pause</kbd>,
 press and release <kbd>&#94;</kbd> (shift 6), then finally, press and release <kbd>c</kbd>.
 
-The following table lists the combinations:
+The following table lists the combinations for the Esperanto characters:
 
 
 | Character | Sequence       |
@@ -145,9 +148,18 @@ Then, re-read `~/.Xmodmap`:
 $ xmodmap ~/.Xmodmap
 ```
 
-Using the <kbd>![Windows](/images/icon_windows_02_22x22.png "Windows key")</kbd> keys as mode switch keys, to input **ĉ**, press and
-hold <kbd>![Windows](/images/icon_windows_02_22x22.png "Windows key")</kbd>, then press <kbd>c</kbd>. To input **Ŭ**, press and
-hold <kbd>![Windows](/images/icon_windows_02_22x22.png "Windows key")</kbd>, press and hold <kbd>Shift</kbd>, then press <kbd>u</kbd>. This setup effectively allows you to touch type. On some keyboards, only one <kbd>![Windows](/images/icon_windows_02_22x22.png "Windows key")</kbd> is present—usually located on the left side, while the one on the right can be <kbd>PrtSc</kbd>. A lot of times, they’re sandwiched between <kbd>Ctrl</kbd> and <kbd>Alt</kbd>. To use that key, run `xev` like above, to get the keycode, and update your `~/.Xmodmap`, accordingly. On my ThinkPad, my `~/.Xmodmap` has this:
+Using the <kbd>![Windows](/images/icon_windows_02_22x22.png "Windows key")</kbd> keys as mode switch
+keys, to input **ĉ**, press and hold
+<kbd>![Windows](/images/icon_windows_02_22x22.png "Windows key")</kbd>, then press <kbd>c</kbd>. To
+input **Ŭ**, press and hold <kbd>![Windows](/images/icon_windows_02_22x22.png "Windows key")</kbd>,
+press and hold <kbd>Shift</kbd>, then press and release <kbd>u</kbd>. This setup effectively allows
+you to touch type.
+
+On some keyboards, only one <kbd>![Windows](/images/icon_windows_02_22x22.png "Windows key")</kbd>
+is present—usually located on the left side, while the one on the right can be <kbd>PrtSc</kbd>. A
+lot of times, they’re sandwiched between the <kbd>Ctrl</kbd> and <kbd>Alt</kbd> keys. To use that
+key, run `xev` like above, to get the keycode, and update your `~/.Xmodmap`, accordingly. On my
+ThinkPad, my `~/.Xmodmap` has this:
 
 ```
 !! Left Window
@@ -158,8 +170,8 @@ keycode 107 = Mode_switch
 ```
 
 
-Notes <a name="notes"></a>
---------------------------
+Closing remarks <a name="closing"></a>
+--------------------------------------
 
 Both methods outlined above do far more than emitting Esperanto characters. The multi key system can
 emit more sophisticated symbols and characters. To see the complete list of characters, run the
@@ -175,13 +187,8 @@ If you’re using Nix, run:
 $ less ~/.nix-profile/share/X11/locale/en_US.UTF-8/Compose
 ```
 
-The mode switch system, albeit, not as extensive as the former, is
-also a bit comprehensive. To see the list of character names
-available, click [here](http://wiki.linuxquestions.org/wiki/List_of_Keysyms_Recognised_by_Xmodmap).
-
-
-Closing remarks <a name="closing"></a>
---------------------------------------
+The advantage of the mode switch method is speed. To see the list of character names available,
+click [here](http://wiki.linuxquestions.org/wiki/List_of_Keysyms_Recognised_by_Xmodmap).
 
 There’s no best way to do this—use whatever system that fits your style. If you’re already using the
 <kbd>![Windows](/images/icon_windows_02_22x22.png "Windows key")</kbd> keys for something else, and

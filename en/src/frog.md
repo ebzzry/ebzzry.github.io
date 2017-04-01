@@ -4,6 +4,9 @@ Blogging with Frog
 <div class="center">February 19, 2014</div>
 <div class="center">Updated: March 31, 2017</div>
 
+>“One person with passion is better than forty people merely interested.”<br>
+>―E.M. Forster
+
 When publishing blog content to the web, most would rely on pre-fabricated services, that do most of
 the heavy lifting. However, there are instances when you want to have more control over your
 stuff. A good example of which are the constraints that providers enforce. Another is the presence
@@ -45,13 +48,13 @@ at least one critical aspect. Fortunately, I found [Frog](https://github.com/gre
 via a suggestion on `#racket`.
 
 Frog, in layman’s terms, is a site creator, that is very easy to use, configure, and
-customize. Whatever you write, will appear on your blog — you get what you expect. There are no
-weird terms of use, nor arbitrary limits, nor coercion — it’s very close to full control, at the tip
+customize. Whatever you write, will appear on your blog—you get what you expect. There are no
+weird terms of use, nor arbitrary limits, nor coercion—it’s very close to full control, at the tip
 of your fingertips.
 
-Frog operates somewhere in the middle. That is, it looks like this:
+Frog operates somewhere in the middle of the spectrum:
 
->Raw Content -> _Frog_ -> HTML
+    Raw Content -> Frog -> HTML
 
 Where raw content is either Markdown, Scribble, or HTML source files, or a combination of all. Frog
 takes in those input files, and it outputs nice HTML that you can upload to your web server. Easy?
@@ -61,16 +64,14 @@ No, it’s even easier that it sounds.
 Installation <a name="installation"></a>
 ----------------------------------------
 
-In the succeeding sections, let’s presume that your username is `john`, and your home directory is
-`/home/john/`.
+In the succeeding sections, let’s presume that your username is `ogag`, and your home directory is
+`/home/ogag/`.
 
 
 To install Frog, you need to install Racket, first. Chances are, your package manager already has
 it. To install Racket on Debian, run:
 
-```bash
-$ sudo apt-get install racket
-```
+    $ sudo apt-get install racket
 
 In the unlikely event that it can’t be installed using your package manager, go
 to [racket-lang.org/download/](http://racket-lang.org/download/) , then follow the instructions from
@@ -78,15 +79,11 @@ there.
 
 Next, you need to install Frog.
 
-```bash
-$ raco pkg install frog
-```
+    $ raco pkg install frog
 
 After which, you’ll get the `raco frog` command. Let’s display its help options:
 
-```bash
-$ raco frog -h
-```
+    $ raco frog -h
 
 
 First use <a name="firstuse"></a>
@@ -95,22 +92,16 @@ First use <a name="firstuse"></a>
 Sweet. Now that you have Frog installed, let’s get rolling. To create your first Frog-powered
 website, you’ll create a project directory first:
 
-```bash
-$ mkdir blog
-$ cd blog
-```
+    $ mkdir blog
+    $ cd blog
 
 You’ll then fire the spark plug, to initialize the site repository:
 
-```bash
-$ raco frog --init
-```
+    $ raco frog --init
 
 You’ll see a message saying that your website is ready. Let’s follow the suggested command:
 
-```bash
-$ raco frog -bp
-```
+    $ raco frog -bp
 
 What that command does is that it builds the HTML files from the sample source files created with
 the `--init` switch, then it runs a local web server, serving by default, the
@@ -124,23 +115,17 @@ Creating new posts <a name="createnew"></a>
 
 Creating a new article from scratch is another easy task:
 
-```bash
-$ raco frog -n "New Blog Post."
-```
+    $ raco frog -n "New Blog Post."
 
 What it does is that it creates a Markdown file, relative to the current directory, with the format
 `_src/posts/YYYY-MM-DD-post-title.md`. With the command above, the absolute path would be similar
 to:
 
-```
-/home/john/blog/_src/posts/2014-02-21-new-blog-post.md
-```
+    /home/ogag/blog/_src/posts/2014-02-21-new-blog-post.md
 
 Let’s edit that file, and see how it looks like:
 
-```bash
-$ emacs _src/posts/2014-02-21-new-blog-post.md
-```
+    $ emacs _src/posts/2014-02-21-new-blog-post.md
 
 ```
     Title: New Blog Post
@@ -187,22 +172,16 @@ felis.
 
 Then, run the build command, again:
 
-```bash
-$ raco frog -bp
-```
+    $ raco frog -bp
 
 You now have two posts, as displayed in the index. To remove the auto-generated initial post, that
 was created by the command `raco frog --init`, earlier, run:
 
-```bash
-$ rm -f _src/posts/2012-01-01-a-2012-blog-post.md
-```
+    $ rm -f _src/posts/2012-01-01-a-2012-blog-post.md
 
 Then, rebuild the files:
 
-```bash
-$ raco frog -bp
-```
+    $ raco frog -bp
 
 
 Customizations <a name="customizations"></a>
@@ -230,9 +209,7 @@ Let’s examine each of the files in the list, closer.
 This file is where top-level customizations are made. Open the file `.frogrc`, located in the
 current directory:
 
-```bash
-$ emacs .frogrc
-```
+    $ emacs .frogrc
 
 You’ll notice that there are more than a dozen parameters that can be tweaked. But for now, you’re
 only concerned about three parameters:
@@ -251,9 +228,7 @@ is the name of your blog, and `author` is your name.
 This file contains the common content, across all types of pages, whether they are blog or non-blog
 posts. Open the file `_src/page-template.html`, located in the current directory:
 
-```bash
-$ emacs _src/page-template.html
-```
+    $ emacs _src/page-template.html
 
 You’ll see an even bigger file, compared to .frogrc. This is an special HTML file, that contains
 Racket, and Frog-specific code. It will be used as a basis for all pages that you’ll create with
@@ -273,9 +248,7 @@ When you get to those respective sections, it should evident what to replace the
 Similar to `page-template.html`, but this file contains content that will only appear with blog
 posts. It is also Perhaps the easiest file to modify is `_src/post-template.html`. Let’s open it:
 
-```bash
-$ emacs _src/post-template.html
-```
+    $ emacs _src/post-template.html
 
 For now, you only need to modify the text `shortname`. It is the identifier that links the comments
 section of your blog posts, to the aforesaid Disqus account. More about this will be discussed in
@@ -290,9 +263,7 @@ you like. Let’s presume that you want to download the *Cerulean* theme. Click 
 arrow, next to the download link, for that theme. Select and download both `bootstrap.min.css` and
 `bootstrap.css`. After which, copy them over to the css subdirectory `css/`.
 
-```bash
-$ cp ~/Downloads/bootstrap.*.css css/
-```
+    $ cp ~/Downloads/bootstrap.*.css css/
 
 
 Miscellany <a name="miscellany"></a>
@@ -300,29 +271,21 @@ Miscellany <a name="miscellany"></a>
 
 When you created a new post earlier, you used the following command:
 
-```bash
-raco frog -n "New Blog Post"
-```
+    raco frog -n "New Blog Post"
 
 That command, creates a Markdown source file. Frog, however, has another mode — Scribble. This mode
 lets you use a Scribble source file, instead. To create one, you’ll use the following command:
 
-```bash
-raco frog -N "New Blog Post"
-```
+    raco frog -N "New Blog Post"
 
 Had you used this command earlier, the file will have the format
 `_src/posts/YYYY-MM-DD-post-title.md`. With the command above, the absolute path would look like:
 
-```
-/home/john/blog/_src/posts/2014-02-21-new-blog-post.scrbl
-```
+    /home/ogag/blog/_src/posts/2014-02-21-new-blog-post.scrbl
 
 Again, let’s edit that file, and see how it looks like:
 
-```bash
-$ emacs _src/posts/2014-02-21-new-blog-post.scrbl
-```
+    $ emacs _src/posts/2014-02-21-new-blog-post.scrbl
 
 ```
 ##lang scribble/manual
@@ -363,12 +326,10 @@ Show time! <a name="showtime"></a>
 ----------------------------------
 
 To publish your work, upload the contents of the directory that Frog manages; in this tutorial, it
-is the directory `/home/john/blog`, to your remote web server. If the current directory is `blog/`,
+is the directory `/home/ogag/blog`, to your remote web server. If the current directory is `blog/`,
 and you want to send the files via rsync, the command would look like:
 
-```bash
-$ rsync -avz ./ remotehost:public_html
-```
+    $ rsync -avz ./ remotehost:public_html
 
 The directory `public_html` could be something else, I just used it because it is the default with
 Apache.
@@ -382,16 +343,11 @@ should be named `ogag.github.io`.
 
 To publish your work to GitHub Pages, you first need to add that remote repository:
 
-```bash
-$ git remote add origin \
-git@github.com:ogag/ogag.github.io.git
-```
+    $ git remote add origin git@github.com:ogag/ogag.github.io.git
 
 Then you push the commits:
 
-```bash
-$ git push origin master
-```
+    $ git push origin master
 
 To view your website, go to [ogag.github.io](http://ogag.github.io).
 
@@ -404,7 +360,7 @@ easy-to-use, highly configurable, flexible, and yes, open source. It gives contr
 author. A good example of a Frog-powered blog can be found [here](https://ngnghm.github.io/).
 
 Frog was created by [Greg Hendershott](http://www.greghendershott.com/). If you want to learn more
-about it, head over to <http://github.com/greghendershott/frog>. To report bugs, go
-to <https://github.com/greghendershott/frog/issues>.
+about it, go [here](http://github.com/greghendershott/frog). To report bugs,
+go [here](https://github.com/greghendershott/frog/issues).
 
-_Ribbit!_
+🐸 _Ribbit!_

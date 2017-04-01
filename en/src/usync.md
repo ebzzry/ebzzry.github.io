@@ -2,7 +2,10 @@ Synchronizing Sites with Usync
 ==============================
 
 <div class="center">May 21, 2013</div>
-<div class="center">Updated: March 16, 2017</div>
+<div class="center">Updated: March 31, 2017</div>
+
+>“What I cannot create, I do not understand.”<br>
+>―Richard P. Feynman
 
 Site-to-site synchronizations are usually needed, when two locations, which are called sites, in
 this article, make file updates independently. Let’s say the company _Foo_ has two offices. In the
@@ -32,9 +35,7 @@ the hosts `tarupam`, and `taubetmo`, while preserving the directory structure re
 that there must be no spaces between the hosts specification, due to the `IFS` environment variable,
 found in most shells):
 
-```bash
-$ usync /pub/yot/ninam/ tarupam,taubetmo
-```
+    $ usync /pub/yot/ninam/ tarupam,taubetmo
 
 The command above will perform two-way synchronization of the directory `ninam/` found under
 `/pub/yot/`, to `tarupam:/pub/yot/`, and `taubetmo:/pub/yot/`.
@@ -54,9 +55,7 @@ Advanced usage <a name="advancedusage"></a>
 It is also possible to perform synchronization of multiple files, and directories, to remote
 hosts. To do so, run:
 
-```bash
-$ usync /pub/yot/ninam/ ~/file.text ~reyn/*.blend tarupam,taubetmo
-```
+    $ usync /pub/yot/ninam/ ~/file.text ~reyn/*.blend tarupam,taubetmo
 
 The command above will perform two-way synchronization of the paths `/pub/yot/ninam/`,
 `~/file.text`, and `~reyn/*.blend` to the remote hosts `tarupam`, and `taubetmo`, using the same
@@ -64,16 +63,12 @@ directory structuring system described above.
 
 If you want to perform one-way synchronization, of the above, like _rsync_, run:
 
-```bash
-$ usync --one-way --prefer-local /pub/yot/ninam/ \
-~/file.text ~reyn/draft.blend tarupam,taubetmo
-```
+    $ usync --one-way --prefer-local /pub/yot/ninam/ \
+    ~/file.text ~reyn/draft.blend tarupam,taubetmo
 
 For more usage information, run:
 
-```bash
-$ usync --help
-```
+    $ usync --help
 
 
 Closing remarks <a name="closing"></a>
