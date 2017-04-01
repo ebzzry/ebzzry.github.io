@@ -44,7 +44,7 @@ Overview <a name="overview"></a>
 
 Ugarit is a classic example of a tool, that requires minimal setup and configuration, but is used
 many times. That, once the initial tinkering is done, all you need to do is reuse the tool. But that
-isn’t Ugarit’s main strength — it is the almost unholy marriage, of convenience and security.
+isn’t Ugarit’s main strength—it is the almost unholy marriage, of convenience and security.
 
 Most, if not all the time, convenience is inversely proportional to security. That is, the more
 convenient something is, the less secure it is. With Ugarit, creating and managing backups is as

@@ -8,7 +8,7 @@ Emacs and Pairs
 >never truly left the stage.”<br>
 >―Ergo Proxy, Ergo Proxy
 
-In this article, I’ll exclusively talk about _smartparens_ —a package that you wish you should have
+In this article, I’ll exclusively talk about _smartparens_—a package that you wish you should have
 used, earlier, presuming you don’t use it yet. If you’re new to it, read along; if not, this may be
 a good refresher.
 
@@ -391,7 +391,7 @@ and you want to surround `args` with `[` and `]`:
 
 Press <kbd>C-c [</kbd>.
 
-Sometimes, we inadvertently delete one of the pair characters — this results in an unbalanced
+Sometimes, we inadvertently delete one of the pair characters—this results in an unbalanced
 expression. smartparens prevents us from doing that. If you hit <kbd>Backspace</kbd> in this
 expression:
 
