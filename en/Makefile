@@ -17,7 +17,8 @@ all:
           --og-url "http://ebzzry.io/en/" \
           --og-image $(OG_IMAGE) \
           --analytics $(ANALYTICS) \
-          -RFiamuo index.html src/index.md src/footer.md
+          -RFiamuo index.html \
+          src/index.md src/footer.md
 
 %.html: src/%.md
 	if [[ ! -d "$$(basename $< .md)" ]]; then mkdir "$$(basename $< .md)"; fi

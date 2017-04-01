@@ -273,7 +273,7 @@ When you created a new post earlier, you used the following command:
 
     raco frog -n "New Blog Post"
 
-That command, creates a Markdown source file. Frog, however, has another mode — Scribble. This mode
+That command, creates a Markdown source file. Frog, however, has another mode—Scribble. This mode
 lets you use a Scribble source file, instead. To create one, you’ll use the following command:
 
     raco frog -N "New Blog Post"

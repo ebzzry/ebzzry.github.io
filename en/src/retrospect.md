@@ -2,15 +2,15 @@ In Retrospect
 =============
 
 <div class="center">July 11, 2013</div>
-<div class="center">Updated: March 17, 2017</div>
+<div class="center">Updated: April 1, 2017</div>
 
 >“From life’s school of war: what does not kill me makes me stronger.”<br>
 >―Friedrich Nietzsche
 
 I haven’t fully appreciated what those words meant, prior to now. I have learned that aside from
 experience, there is another important aspect, that life teaches us—survival. When we are at the
-brink of collapse, breakdown, or even death, the most important things in our life flashes before
-our eyes.
+brink of collapse, breakdown, or even death, the most important things in our life flash before our
+eyes.
 
 When we take a lot of pain, and survive it, we will live to tell the tale. We will live to share the
 story for generations to come. When we endure, and embrace the necessary agony, we are forced to
@@ -35,8 +35,8 @@ also even been tempted, many times, to create promises to myself, promises that 
 creating my own chaos and peril. I forgot to love my own self.
 
 I have also asked myself, another important question. A question that ultimately yielded sleepless
-nights, anxiety, and the inability to fully grasp the immediate time and space, around me. I asked
-myself, _“Was it worth doing it?”_ It seemed to me that time, that whenever I think about it, I open
+nights, anxiety, and the inability to fully grasp the immediate time and space, around me.
+_“Was it worth doing it?”_ It seemed to me that time, that whenever I think about it, I open
 Pandora’s box. And somehow, I always convinced myself to open it, to see it for myself. I was very
 curious to know, what was in it, despite admonitions to my own self. Another curious soul, gave his
 two cents, advising me that that was the wrong question to ask. That I should seek for the correct
@@ -45,11 +45,11 @@ answer, myself, as if trying to find my own way back home.
 At one point, someone knocked on my door—it was regret. Despite his seemingly pitiful state, I
 declined to let him in, no matter how persistent he was. I knew that the moment I let him in, he’d
 feel immediately welcome for himself, and feel comfortable around the place, as if it was his, in
-the first place. Every time he knocked on my door, he asked if he was welcome. I boldly say no,
-every single time. Setting the figures aside, I would have told myself that had I not done it, I
-would have not experienced the pain. This is wrong in many ways, because had I not done it, I
-wouldn’t be there in the first place, to ask that question. The ability to ask that question was a
-testimony to the experience. Hindsight is 20/20.
+the first place. Every time he knocked on my door, he asked if he was welcome. I boldly said
+_“No.”_, every single time. I would have told myself that had I not done it, I would have not
+experienced the pain. This is wrong in many ways, because had I not done it, I wouldn’t be there in
+the first place, to ask that question. The ability to ask that question was a testimony to the
+experience. Hindsight is 20/20.
 
 I have frequently heard the phrase _“You shouldn’t have given your everything.”_ That may have
 worked for them. That may have worked for their methods, but definitely not for me. Why? Because you
@@ -72,8 +72,3 @@ demons to come right at me, for I will make them experience a thousand deaths. E
 knocked down, I will get back up again to continue the fight. I will hit hard, harder than than my
 last strike, as long blood courses through my body, and as long as I feel the tangible air of my
 breath.
-
-In closing, I’d like to leave these words:
-
->“If you’re going to try, go all the way. Otherwise, don’t even start.”<br>
->―Charles Bukowski

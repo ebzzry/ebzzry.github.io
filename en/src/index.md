@@ -1,10 +1,11 @@
-Division by Zero
-================
+M-x ebzzry RET
+==============
 
 <a href="https://www.spacetelescope.org/images/heic1509a/"><img src="/images/banner.jpg" class="banner" alt="Westerlund 2" /></a>
 <div class="text-right">A journal about computing, human predilections, and random krakaboom.</div>
 <div class="text-right">Entries are sorted in reverse chronological order.</div>
 
+- [Emacs Tips 3](emacs-tips-3)
 - [A Gentle Introduction to the Nix Family](nix)
 - [Converting Markdown to HTML with emem](emem)
 - [Division in Haskell](division)
@@ -21,14 +22,14 @@ Division by Zero
 - [Creating Conkeror Bookmarks with emem](conkeror-bookmarks)
 - [Virtualizing with KVM in Linux](kvm)
 - [A Lambda Calculus Primer](lambda-calculus)
-- [Emacs Hacks II](emacs-hacks-2)
+- [Emacs Tips 2](emacs-tips-2)
 - [Setting Up GPG and SSH in KDE](gpg-ssh-kde)
 - [Creating Backups with Ugarit](ugarit)
 - [Blogging with Frog](frog)
 - [Setting Up Mail in Emacs](emacs-mail)
 - [Setting Up Racket Development in Emacs](emacs-racket)
 - [Setting Up Directory Management in Emacs](emacs-dired)
-- [Emacs Hacks I](emacs-hacks-1)
+- [Emacs Tips 1](emacs-tips-1)
 - [In Retrospect](retrospect)
 - [Moving from LiveJournal to Frog with livefrog](livefrog)
 - [Synchronizing Sites with Usync](usync)

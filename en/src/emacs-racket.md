@@ -79,7 +79,7 @@ THANKS
 
 Next, you want the directory `~/.emacs.d/elisp/geiser/elisp/` to be a member of the Emacs variable
 `load-path` so that `require` and friends will know where to find things. To do that, add the
-following to your Emacs init file — either in `~/.emacs.d/init.el`, or in `~/.emacs` (deprecated):
+following to your Emacs init file—either in `~/.emacs.d/init.el`, or in `~/.emacs` (deprecated):
 
 ```lisp
 (add-to-list 'load-path "~/.emacs.d/elisp/geiser/elisp/")
@@ -98,7 +98,7 @@ Next, you’ll put in the actual code that invokes and configures Geiser:
 ```
 
 The first expression loads Geiser, itself. The second one specifies that it won’t prompt you for
-other implementations if it finds them. The last one is optional — it enables you to execute `M-x
+other implementations if it finds them. The last one is optional—it enables you to execute `M-x
 geiser-save RET` in the REPL buffer to force saving of the history to the disk file, which is
 `~/.geiser_history.racket`, by default. It is useful if you want to save your REPL session,
 immediately (Nothing is more horrifying than losing **THAT** expression). For all the Emacs code

@@ -10,7 +10,7 @@ Setting Up GPG and SSH in KDE
 >―Andrew Hunt and David Thomas
 
 When both GPG and SSH are integrated with KDE, it makes inter-operating with those systems very
-easy. It will make the difference between a loose-fitting glove, and one that fits snugly.
+easy. It will make the difference between a loose-fitting glove and one that fits snugly.
 
 This short tutorial will go over the steps on how to go about it. To accommodate everyone, I’ll
 still go about how to install and configure all the necessary components. We’ll use nano for this
@@ -50,8 +50,8 @@ Configure SSH <a name="ssh"></a>
 --------------------------------
 
 Now that you have the parts in front of you, it’s time to assemble them. The first thing that you
-need to do (although in reality the files that you are going to open in this section can be done in
-any order that you wish), is create your SSH keys:
+need to do—although in reality the files that you are going to open in this section can be done in
+any order that you wish—is create your SSH keys:
 
     $ ssh-keygen -t ed25519
 
@@ -62,7 +62,7 @@ The above command will create two files:
     ~/.ssh/id_ed25519.pub
     ~/.ssh/id_ed25519
 
-Next, authorize yourself on the remote server, so that password-less logins will be avaible later:
+Next, authorize yourself on the remote server, so that password-less logins will be available later:
 
     $ ssh-copy-id user@remotehost
 
@@ -91,14 +91,14 @@ You need to edit the agent file, next:
 
     $ nano ~/.gnupg/gpg-agent.conf
 
-Then put in the following lines:
+Then put in the following:
 
     no-grab
     default-cache-ttl 10800
     default-cache-ttl-ssh 10800
     pinentry-program /usr/bin/pinentry-qt4
 
-Those are _my_ preferred values. If you want to change them, look at the manpage:
+Those are my preferred values. If you want to change them, look at the manpage:
 
     $ man gpg-agent
 
@@ -106,14 +106,14 @@ Those are _my_ preferred values. If you want to change them, look at the manpage
 Configure KDE <a name="kde"></a>
 --------------------------------
 
-You now need to link the GPG agent with KDE. You need to create a _startup_ script for KDE that will
+You now need to link the GPG agent with KDE. You need to create a startup script for KDE that will
 invoke the GPG agent at startup. You also need to tell the GPG agent to enable SSH support (in the
 old days, the SSH agent has to be ran separately from GPG).
 
     $ mkdir ~/.kde/env
     $ nano ~/.kde/env/01_gpg-agent.sh
 
-Then put in the following lines:
+Then put in the following:
 
 ```bash
 #!/usr/bin/env bash
@@ -126,12 +126,12 @@ Make it executable:
 
     $ chmod +x ~/.kde/env/01_gpg-agent.sh
 
-Finally, create the _shutdown_ script for the GPG agent:
+Finally, create the shutdown script for the GPG agent:
 
     $ mkdir ~/.kde/shutdown
     $ nano ~/.kde/shutdown/01_gpg-agent.sh
 
-Then put in the following lines:
+Then put in the following:
 
 ```bash
 #!/bin/sh

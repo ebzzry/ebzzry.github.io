@@ -75,7 +75,7 @@ agree to use the word in the narrowed context of the users of the word. If we tr
 the established meaning of the word, for example, we randomly create a new definition of the word
 because of whim, chances are it won’t be accepted. We need to believe in the defined connotative and
 denotative meanings of the word, for it to have meaning to us. The same holds true for lambda
-calculus — we either accept these axioms and operate in its domain, or we live in Neverland.
+calculus—we either accept these axioms and operate in its domain, or we live in Neverland.
 
 
 Baby steps <a name="babysteps"></a>
@@ -85,7 +85,7 @@ Baby steps <a name="babysteps"></a>
 
 A central player in lambda calculus is the notion of function. Most of us are familiar with
 functions in our high-level languages, but functions in lambda calculus are slightly
-different — they need to have at the minimum a single parameter. In most production languages in use
+different—they need to have at the minimum a single parameter. In most production languages in use
 now, you can invoke a function that doesn’t take an argument. They’re usually used for
 side-effects. In lambda calculus, however, a bare minimum of one argument is enforced. Here’s what a
 minimal function in lambda calculus looks like:
@@ -147,7 +147,7 @@ The parameter `y` is a variable that is said to be free, because it does not liv
 ### Function application <a name="application"></a>
 
 To use a function, you must apply it to something. The bound variables are substituted with what
-they’re applied to — a process called β-reduction.
+they’re applied to—a process called β-reduction.
 
 For example:
 
