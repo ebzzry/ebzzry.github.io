@@ -1,5 +1,5 @@
-Emacs Hacks I
-=============
+Emacs Tips 1
+============
 
 <div class="center">September 9, 2013</div>
 <div class="center">Updated: March 31, 2017</div>

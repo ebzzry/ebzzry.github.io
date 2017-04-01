@@ -75,7 +75,7 @@ APT:
 
 This will install the [QEMU](http://wiki.qemu-project.org/Main_Page) /kee-MOO/
 hypervisor, [VDE](http://vde.sourceforge.net/) tools, and [SPICE](http://www.spice-space.org/)
-support. QEMU, at least during its early days had the _meh_ impression — it is OK, but not
+support. QEMU, at least during its early days had the _meh_ impression—it is OK, but not
 stellar. Since version 0.10.1, QEMU started supporting [KVM](http://www.linux-kvm.org/), a
 virtualization subsystem for Linux, that provides near-native virtualization performance using
 hardware-assisted virtualization. It even rivals the performance of the virtualization solutions
@@ -107,7 +107,7 @@ However, if you don’t have an image, yet, you can create one with:
     $ qemu-img create -f qcow2 vm.qcow2 20G
 
 The last step creates a 20GB image, that is named `vm.qcow2`. Take note that the extension name
-doesn’t really matter — you can name your image as `index.html`, but that wouldn’t make a lot of
+doesn’t really matter—you can name your image as `index.html`, but that wouldn’t make a lot of
 sense, right? 😄
 
 

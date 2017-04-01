@@ -472,7 +472,7 @@ the years.
 
 - “A universe without perception is much like an enormous stack of rotting books—forever unopened
   and unread.”<br>
-  —Ergo Proxy, Ergo Proxy
+  ―Ergo Proxy, Ergo Proxy
 
 
 - “The white noise that beats within the white darkness is the rhythm of life; it is that pulse
@@ -519,3 +519,7 @@ the years.
 
 - “The faster you become strong, the easier you’ll get injured.”<br>
   ―Ahmad Taufiq Muhammad
+
+
+- “If you’re going to try, go all the way. Otherwise, don’t even start.”<br>
+  ―Charles Bukowski

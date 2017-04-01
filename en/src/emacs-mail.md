@@ -200,7 +200,7 @@ Encryption <a name="encryption"></a>
 ------------------------------------
 
 Optionally, you may want to add some tweaks so that encryption and decryption of messages, will be
-easier. This is actually one of my primary reasons why I’m using mu4e — it has been pointed out to
+easier. This is actually one of my primary reasons why I’m using mu4e—it has been pointed out to
 me that despite using browser extensions like [FireGPG](http://getfiregpg.org/s/home),
 and [It’s All Text!](https://addons.mozilla.org/en-US/firefox/addon/its-all-text/), the supposedly
 private message that you composed got auto-saved by default to the _Drafts_ folder. This implies,

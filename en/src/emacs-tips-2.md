@@ -1,8 +1,8 @@
-Emacs Hacks II
-==============
+Emacs Tips 2
+============
 
 <div class="center">June 12, 2015</div>
-<div class="center">Updated: March 31, 2017</div>
+<div class="center">Updated: April 1, 2017</div>
 
 This is second part of my Emacs tips series. The contents of this post are written in no particular
 order. It explores session management, packages, managing indents, and other things.
@@ -22,7 +22,6 @@ Table of contents
 - [Keys](#keys)
 - [Newline sans indent](#newline)
 - [Filling](#filling)
-- [Yanking](#yanking)
 - [Cursor movement](#cursormovement)
 - [Git status in dired](#gitdired)
 - [Key bindings](#keybindings)
@@ -252,19 +251,6 @@ current paragraph context. If there is a mark, the region becomes filled.
   (if (region-active-p)
       (fill-region)
       (fill-paragraph)))
-```
-
-
-Yanking <a name="yanking"></a>
-------------------------------
-
-Emacs, by default, pastes (yanks) from the secondary, or clipboard selection. This command yanks
-from the primary selection — mouse highlights.
-
-```lisp
-(defun yank-primary ()
-  (interactive)
-  (insert-for-yank (x-get-selection 'PRIMARY)))
 ```
 
 
