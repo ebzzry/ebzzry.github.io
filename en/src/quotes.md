@@ -238,7 +238,7 @@ the years.
 - “Watch your thoughts; they become words. Watch your words; they become actions. Watch your
   actions; they become habit. Watch your habits; they become character. Watch your character; it
   becomes your destiny.”<br>
-  ―Lao Tzu sixth century B.C.
+  ―Lao Tzu
 
 
 - “If you eliminate the impossible, whatever remains, however improbable, must be the truth.”<br>

@@ -4,6 +4,9 @@ The Y Combinator in Six Steps
 <div class="center">May 9, 2013</div>
 <div class="center">Updated: March 31, 2017</div>
 
+>“First, decide. And then do it. It’s the only way to achieve anything.”<br>
+>―Lacus Clyne, Gundam SEED Destiny
+
 A lot of us have been taught that to be able to define a recursive procedure, the recursive
 invocation must “use” the name of the recursive
 procedure. The [Y combinator](https://en.wikipedia.org/wiki/Fixed-point_combinator#Y_combinator) ,
@@ -13,7 +16,7 @@ however, lets you perform recursion, without referring to the named identifier.
 Table of contents
 -----------------
 
-- [Why?](#why)
+- [Y?](#y)
 - [Step 1: Define the base procedure](#base)
 - [Step 2: Curry the recursive call](#curry)
 - [Step 3: Apply procedure to itself](#self)
@@ -23,7 +26,7 @@ Table of contents
 - [Closing remarks](#closing)
 
 
-Why? <a name="why"></a>
+Y? <a name="y"></a>
 -----------------------
 
 The Y combinator has been both a source of inspiration and frustration for many. It evokes a
@@ -154,7 +157,7 @@ Next, you’re going to isolate the Y combinator, from the `foo` procedure.
 5050
 ```
 
-You replace the `foo`-specific definition with `x`. This requires you again, to create an enveloping
+You replace the `foo`-specific definition with `x`. This requires you, again, to create an enveloping
 `lambda`. Since `x` is bound to the computing procedure, you no longer need to repeat it.
 
 
