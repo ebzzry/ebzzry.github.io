@@ -174,13 +174,13 @@ the `foo` procedure.
          (x (lambda (v) ((f f) v))))
        (lambda (f)
          (x (lambda (v) ((f f) v)))))))
-> (define b
+> (define foo
     (lambda (p)
       (lambda (n)
         (if (zero? n)
             0
             (+ n (p (- n 1)))))))
-> (define f (y b))
+> (define f (y foo))
 > (f 100)
 5050
 ```

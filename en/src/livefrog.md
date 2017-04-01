@@ -43,7 +43,7 @@ livefrog is available via Racket’s [Planet2](https://pkg.racket-lang.org):
     $ raco pkg install livefrog
 
 If that doesn’t work, you can alternatively install it by fetching livefrog, and the dependencies, from
-github
+GitHub.
 
     $ git clone https://github.com/jbclements/sxml.git
     $ git clone https://github.com/greghendershott/frog.git
