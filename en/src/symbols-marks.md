@@ -2,7 +2,10 @@ Symbols and Marks
 =================
 
 <div class="center">April 8, 2016</div>
-<div class="center">Updated: March 30, 2017</div>
+<div class="center">Updated: March 31, 2017</div>
+
+>“If you want to achieve greatness, stop asking for permission.”<br>
+>―Eddie Colla
 
 *Click [here](/en/symbols-marks-condensed) for the condensed version.*
 
