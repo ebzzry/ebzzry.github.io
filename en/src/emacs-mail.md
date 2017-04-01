@@ -4,12 +4,16 @@ Setting Up Mail in Emacs
 <div class="center">February 2, 2014</div>
 <div class="center">Updated: March 31, 2017</div>
 
+>“Just because it isn’t done doesn’t mean it can’t be done. Just because it can be done doesn’t mean
+>it should be.”<br>
+>―Barry Glasford
+
 In this day and age, checking your mail means going to the website of your mail provider, or using a
 mobile app. However, there are some cases when you want to have more control over your messages,
 especially when the feature you want is not present with the mainstream options.
 
 Emacs provides a plethora (Gnus, Wanderlust, VM, etc.) of ways of sending and receiving mail. in
-this post, I’m going to talk
+this post, I’ll talk
 about [getmail](http://pyropus.ca/software/getmail/), [mu](http://www.djcbsoftware.nl/code/mu/),
 and [mu4e](http://www.djcbsoftware.nl/code/mu/mu4e.html), and how to set them up quickly. In this
 tutorial I’ll assume that you’re going to get your messages from [Gmail](https://gmail.com) via its
@@ -44,15 +48,11 @@ Most of the time, getmail can be readily installed via your system’s package m
 
 Nix:
 
-```bash
-$ nix-env -i getmail
-```
+    $ nix-env -i getmail
 
 APT:
 
-```bash
-$ sudo apt-get install getmail4
-```
+    $ sudo apt-get install getmail4
 
 However, if your system doesn’t provide an easy way for you to install getmail, you can always head
 to its [homepage](http://pyropus.ca/software/getmail/) , then download the tarball.
@@ -64,11 +64,9 @@ Next, you need to conjure the incantation so that getmail knows how to get your 
 file `~/.getmail/getmailrc`. In addition to that, you need to create and specify where the messages
 will go:
 
-```bash
-$ mkdir ~/Maildir
-$ mkdir ~/.getmail
-$ emacs ~/.getmail/getmailrc
-```
+    $ mkdir ~/Maildir
+    $ mkdir ~/.getmail
+    $ emacs ~/.getmail/getmailrc
 
 Then put in the following:
 
@@ -102,9 +100,7 @@ which use the [maildir](https://en.wikipedia.org/wiki/Maildir) format use, to st
 
 To verify that you can indeed fetch your messages, run getmail:
 
-```bash
-$ getmail
-```
+    $ getmail
 
 If it doesn’t choke, and displays something like the following, then
 you have configured getmail correctly.
@@ -130,25 +126,19 @@ Just like with getmail above, chances are, mu can be installed via your system�
 
 Nix:
 
-```bash
-$ nix-env -i mu
-```
+    $ nix-env -i mu
 
 APT:
 
-```bash
-$ sudo apt-get install maildir-utils
-```
+    $ sudo apt-get install maildir-utils
 
 
 In addition to the above, you need to fetch mu4e. This comes with mu’s source code. Download it by
 running:
 
-```bash
-$ mkdir ~/.emacs.d
-$ cd ~/.emacs.d
-$ git clone git@github.com:djcb/mu.git
-```
+    $ mkdir ~/.emacs.d
+    $ cd ~/.emacs.d
+    $ git clone git@github.com:djcb/mu.git
 
 This creates a `mu/` directory in the current directory, which happens to be the default location
 from which emacs looks for init files. Take note, that the git command above actually fetches the
@@ -163,9 +153,7 @@ the `mu/mu4e/` subdirectory.
 You now need to make that mu4e directory accessible to emacs. To do so, you need to edit either
 `~/.emacs.d/init.el` or `~/.emacs`:
 
-```bash
-$ emacs ~/.emacs.d/init.el
-```
+    $ emacs ~/.emacs.d/init.el
 
 Then add the following:
 
@@ -196,15 +184,11 @@ To make your life even easier, you’ll set some variables:
 You can restart emacs so that those settings can take effect, or alternatively, you can mark those
 lines with <kbd>C-Space</kbd>, then hit:
 
-```
-M-x eval-region RET
-```
+    M-x eval-region RET
 
 At this point, you can now use mu4e, by hitting:
 
-```
-M-x mu4e RET
-```
+    M-x mu4e RET
 
 You’ll get a sexy menu, wherein you can hit shortcuts to get you to where you want. To compose a
 message, hit <kbd>C</kbd>, fill in the fields, then hit <kbd>C-c C-c</kbd> to send the message. The
@@ -224,9 +208,7 @@ that your unencrypted message, was still saved somewhere. Ahem.
 
 To make use of these cryptographic utilities, edit your emacs init:
 
-```bash
-$ emacs ~/.emacs.d/init.el
-```
+    $ emacs ~/.emacs.d/init.el
 
 Then add the following:
 
@@ -248,18 +230,14 @@ Then add the following:
 
 Mark those lines, then hit:
 
-```
-M-x eval-region RET
-```
+    M-x eval-region RET
 
 To make the settings take effect, immediately.
 
 To send an encrypt a message, hit <kbd>C</kbd> from the main menu of mu4e, fill in the usual fields
 like `To:`, and `Subject:`, then on the message body, hit:
 
-```
-M-x ec RET
-```
+    M-x ec RET
 
 This will tag your outgoing message to be signed and encrypted. To send the it, hit <kbd>C-c C-c</kbd>. This
 will then prompt you to input your passphrase. It will also ask you to fill in some information
@@ -270,9 +248,7 @@ input your application-specific password, as described earlier. These informatio
 
 To decrypt a message, open the message, then hit:
 
-```lisp
-M-x dc RET
-```
+    M-x dc RET
 
 This will prompt you to input your passphrase. After which, you’ll be prompted if you’ll want to
 replace the contents of the buffer, say yes to this.

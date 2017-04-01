@@ -2,7 +2,10 @@ Setting Up Directory Management in Emacs
 ========================================
 
 <div class="center">September 26, 2013</div>
-<div class="center">Updated: March 28, 2017</div>
+<div class="center">Updated: March 31, 2017</div>
+
+>“Supposing is good, but finding out is better.”<br>
+>―Samuel Clemens
 
 In this post, I’ll be focusing on one of the novel ways Emacs handles management. The directory
 editor, or _dired_ (pronounced dir-ed, not dye-rd), for short, is the Emacs equivalent of a file
@@ -24,9 +27,7 @@ Overview <a name="overview"></a>
 
 To run Dired, run Emacs on the command line, supplying a directory as its argument:
 
-```bash
-$ emacs ~/Desktop
-```
+    $ emacs ~/Desktop
 
 Or, alternatively, you can press <kbd>C-x d</kbd> inside Emacs. If you are currently editing a file,
 the directory of that file will be presented as the default value in the minibuffer area. Either
@@ -110,9 +111,7 @@ WDired mode <a name="wdired"></a>
 is that it gives you a powerful ability to edit the item names in a dired buffer, just as you would
 on a typical buffer. To enter wdired mode, hit:
 
-```
-M-x wdired-change-to-wdired-mode RET
-```
+    M-x wdired-change-to-wdired-mode RET
 
 The major mode changes from `Dired` to `Editable Dired`. You can then rename the files, and
 directories, with ease. You can even use rectangle and replace functions on them, to make things

@@ -2,13 +2,16 @@ Verb Tenses in English
 ======================
 
 <div class="center">April 6, 2016</div>
-<div class="center">Updated: May 13, 2016</div>
+<div class="center">Updated: March 31, 2017</div>
+
+>“The difference between ordinary and extraordinary is that little extra.”<br>
+>―Jimmy Johnson
 
 *Click [here](/en/verb-tenses-condensed) for the condensed version.*
 
 To read, write, and speak better English, learning the qualities and peculiarities between the
 different verb tenses is important. Knowing how to and when to use them will enable you have a
-better appreciation of not only English, but also languages in general.
+better appreciation of not only English, but also of languages in general.
 
 
 Table of contents
@@ -30,6 +33,7 @@ Table of contents
   + [Perfect progressive past](#perfprogpast)
   + [Perfect progressive present](#perfprogpresent)
   + [Perfect progressive future](#perfprogfuture)
+- [Closing remarks](#closing)
 
 
 Simple <a name="simple"></a>
@@ -159,3 +163,10 @@ specific future time.
 > Before her 16th birthday, Maria __will have been creating__ painting masterpieces.
 
 *Before Maria’s 16th birthday, she will be  creating paintings.*
+
+
+## Closing remarks <a name="closing"></a>
+
+In order to communicate with the least amount of ambiguities, we have to be accurate. When we use
+the right constructs, we creater lesser room for misunderstanding. It’s the small changes in the
+things that we do that make a lot of difference.

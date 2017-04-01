@@ -4,9 +4,8 @@ A Lambda Calculus Primer
 <div class="center">June 12, 2015</div>
 <div class="center">Updated: March 31, 2017</div>
 
->“You do not really understand something unless you can explain it to
->your grandmother.”<br>
->―Albert Einstein
+>“You do not really understand something unless you can explain it to your grandmother.”<br>
+>>―Albert Einstein
 
 This post is my attempt to do just that, only that the grandmother here is myself. I firmly believe
 that unless I try to explain something, will I really understand it. This post takes a very
@@ -91,13 +90,13 @@ now, you can invoke a function that doesn’t take an argument. They’re usuall
 side-effects. In lambda calculus, however, a bare minimum of one argument is enforced. Here’s what a
 minimal function in lambda calculus looks like:
 
-```
+```scheme
 λx.x
 ```
 
 Which is equivalent to:
 
-```
+```scheme
 (λz.z)
 (λc.c)
 ```
@@ -106,7 +105,7 @@ This equivalence is called the α-conversion. The names do not matter, as long a
 consistently. Parentheses may be used to remove ambiguity when applying functions. The function
 above is equivalent to:
 
-```
+```scheme
 (λx.x)
 ```
 
@@ -130,14 +129,14 @@ function `(λx.x)`, the body is simply the symbol `x`.
 In lambda calculus, the symbols that are used inside a function are called variables. Going back to
 the function you defined above,
 
-```
+```scheme
 (λx.x)
 ```
 
 The parameter `x` is a variable that is said to be bound, because it sandwiched between `λ` and
 `.`. However, in the function:
 
-```
+```scheme
 (λx.xy)
 ```
 
@@ -152,7 +151,7 @@ they’re applied to — a process called β-reduction.
 
 For example:
 
-```
+```scheme
 (λx.x)y
 y
 ```
@@ -167,7 +166,7 @@ identity function—it is a single-parameter function that returns whatever is w
 
 Functions are not limited to be applied to symbols. They can also be applied to other functions:
 
-```
+```scheme
 (λx.x)(λy.y)
 (λy.y)
 ```
@@ -177,7 +176,7 @@ identity function.
 
 Here’s another application involving free variables:
 
-```
+```scheme
 (λa.ab)(λy.y)
 (λy.y)b
 b
@@ -188,7 +187,7 @@ The bound variable `a` was substituted with `(λy.y)`, which is then applied to 
 
 Take note that this function application:
 
-```
+```scheme
 (λx.(λy.y))ab
 (λy.y)b
 b
@@ -196,7 +195,7 @@ b
 
 is equivalent to:
 
-```
+```scheme
 (λxy.y)ab
 b
 ```
@@ -208,13 +207,13 @@ Inside the body of a function, when two symbols are adjacent to one another, the
 presumed to be a function being applied to the second symbol, minus the parentheses. For example,
 the following code:
 
-```
+```scheme
 (λxy.xy)
 ```
 
 is equivalent to:
 
-```
+```scheme
 (λxy.x(y))
 ```
 
@@ -228,20 +227,20 @@ Let’s count! <a name="count"></a>
 Since (almost) everything in lambda calculus is expressed as functions, its take on numbers is
 unique. Arguably, the most important number in lambda calculus is zero (0), which is expressed as:
 
-```
+```scheme
 (λsz.z)
 ```
 
 For convenience purposes, let’s label that expression as `0`, with the `≡` symbol read as “is
 identical to”.
 
-```
+```scheme
 0 ≡ (λsz.z)
 ```
 
 Building from `0`, let’s enumerate the first three counting numbers:
 
-```
+```scheme
 1 ≡ (λsz.s(z))
 2 ≡ (λsz.s(s(z)))
 3 ≡ (λsz.s(s(s(z))))
@@ -253,13 +252,13 @@ Building from `0`, let’s enumerate the first three counting numbers:
 The successor of a whole number is defined as the next whole number, counting up, so the successor
 of `0` is `1`. The definition of the successor function is:
 
-```
+```scheme
 S ≡ (λxyz.y(xyz))
 ```
 
 Let’s try that to `0` (in the examples below, the `=` symbol is read as “is reduced to”):
 
-```
+```scheme
 S0
 ≡ (λxyz.y(xyz))(λsz.z)
 = (λyz.y((λsz.z)yz))
@@ -283,7 +282,7 @@ What if you wanted to perform `2+3`? Fortunately, the successor function will do
 express that as `2S3`, where you replace `+` as the infix operator. The addition function is defined
 as:
 
-```
+```scheme
 Name: A
 Profile: S ≡ (λxyz.y(xyz))
 Inputs: x, y
@@ -293,7 +292,7 @@ Usage: xAy
 
 Let’s test it out:
 
-```
+```scheme
 2+3 ≡ 2A3
 ≡ (λsz.s(sz))(λxyz.y(xyz))(λuv.u(u(uv)))
 = SS3
@@ -323,7 +322,7 @@ Let’s break it down:
 
 The multiplication function is defined as:
 
-```
+```scheme
 Name: M
 Profile: (λxyz.x(yz))
 Inputs: a, b
@@ -336,7 +335,7 @@ multiply `2` and `3`, you say `M23`.
 
 Let’s test that out:
 
-```
+```scheme
 2*3 ≡ M23
 ≡ (λabc.a(bc))(λsz.s(sz))(λxy.x(x(xy)))
 = (λc.(λsz.s(sz))((λxy.x(x(xy)))c)
@@ -359,14 +358,14 @@ Truth, falsity, and friends <a name="tff"></a>
 
 The representations of true and false in lambda calculus, are succinct and elegant:
 
-```
+```scheme
 T ≡ (λxy.x)
 F ≡ (λxy.y)
 ```
 
 In action:
 
-```
+```scheme
 Tab ≡ (λxy.x)ab = a
 Fab ≡ (λxy.y)ab = b
 ```
@@ -376,7 +375,7 @@ Fab ≡ (λxy.y)ab = b
 
 The three basic operators, And, Or, and Not:
 
-```
+```scheme
 ∧ ≡ λxy.xy(λuv.v) ≡ λxy.xyF
 ∨ ≡ λxy.x(λuv.u)y ≡ λxy.xTy
 ¬ ≡ λx.x(λuv.v)(λab.a) ≡ λx.xFT
@@ -384,7 +383,7 @@ The three basic operators, And, Or, and Not:
 
 Let’s see if `¬T` is indeed `F`:
 
-```
+```scheme
 ¬T
 ≡ λx.x(λuv.v)(λab.a)(λcd.c)
 ≡ TFT
@@ -409,13 +408,13 @@ Let’s say you have a pair, something like (y, x), wherein the first element is
 the successor the second element. Since the first element is the successor, that means the second
 element is the predecessor. Visually:
 
-```
+```scheme
 (z+1, z) = (z, z-1)
 ```
 
 Therefore,
 
-```
+```scheme
 x = Py iff y = Sx
 ```
 
@@ -426,20 +425,20 @@ second element.
 
 Let’s define some basic units. A pair looks like:
 
-```
+```scheme
 (λz.zab)
 ```
 
 And the smallest unit of pair is:
 
-```
+```scheme
 (λz.z00) ≡ (λz.z(λsz.z)(λsz.z))
 ```
 
 To select the first and second elements of a pair, you use `T` and
 `F`:
 
-```
+```scheme
 (λz.zab)(λxy.x) ≡ (λz.zab)T = Tab = a
 (λz.zab)(λxy.y) ≡ (λz.zab)F = Fab = b
 ```
@@ -447,7 +446,7 @@ To select the first and second elements of a pair, you use `T` and
 You need a function that takes a pair, then creates a new pair, wherein the first element is the
 successor of the second element.
 
-```
+```scheme
 Name: Q
 Profile: (λpz.z(S(pT))(pT))
 Inputs: (a, b)
@@ -457,7 +456,7 @@ Usage: Q(a,b)
 
 Let’s test that out:
 
-```
+```scheme
 Q(λz.z00)
 ≡ (λpz.z(S(pT))(pT))(λz.z00)
 = (λpz.z(S(pT))(pT))(λz.z(λsz.z)(λsz.z))
@@ -467,7 +466,7 @@ Q(λz.z00)
 
 Looks correct. You can now build your predecessor function:
 
-```
+```scheme
 Name: P
 Profile: (λn.nQ(λz.z00))F
 Inputs: N, where N is a natural number
@@ -477,7 +476,7 @@ Usage: PN
 
 Let’s test that out:
 
-```
+```scheme
 P1
 ≡ ((λn.nQ(λz.z00))F)1
 ≡ ((λn.nQ(λz.z00))F)(λsz.s(z))
@@ -499,13 +498,13 @@ P1
 
 Now that you have the predecessor function, you can build your subtraction function.
 
-```
+```scheme
 B ≡ (λxy.yPx)
 ```
 
 Let’s test that out:
 
-```
+```scheme
 B11
 ≡ (λxy.yPx) (λsz.s(z)) (λsz.s(z))
 = (λsz.s(z)) (P(λsz.s(z)))
@@ -528,7 +527,7 @@ demystify even more lambda calculus magic. Stay tuned!
 References <a name="references"></a>
 ------------------------------------
 
-* <http://www.inf.fu-berlin.de/lehre/WS03/alpi/lambda.pdf>
-* <http://www.cse.chalmers.se/research/group/logic/TypesSS05/Extra/geuvers.pdf>
-* <http://palmstroem.blogspot.com/2012/05/lambda-calculus-for-absolute-dummies.html>
-* <http://www.users.waitrose.com/~hindley/SomePapers_PDFs/2006CarHin,HistlamRp.pdf>
+- <http://www.inf.fu-berlin.de/lehre/WS03/alpi/lambda.pdf>
+- <http://www.cse.chalmers.se/research/group/logic/TypesSS05/Extra/geuvers.pdf>
+- <http://palmstroem.blogspot.com/2012/05/lambda-calculus-for-absolute-dummies.html>
+- <http://www.users.waitrose.com/~hindley/SomePapers_PDFs/2006CarHin,HistlamRp.pdf>

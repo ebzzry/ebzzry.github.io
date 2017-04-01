@@ -2,14 +2,18 @@ Emacs and Pairs
 ===============
 
 <div class="center">August 15, 2015</div>
-<div class="center">Updated: March 13, 2017</div>
+<div class="center">Updated: March 31, 2017</div>
+
+>“The white noise that beats within the white darkness is the rhythm of life; it is that pulse which
+>never truly left the stage.”<br>
+>―Ergo Proxy, Ergo Proxy
 
 In this article, I’ll exclusively talk about _smartparens_ —a package that you wish you should have
 used, earlier, presuming you don’t use it yet. If you’re new to it, read along; if not, this may be
 a good refresher.
 
 _smartparens_ is one of those packages that drastically improves, and changes how one uses
-Emacs. It’s like having cybernetic limbs—it makes you jump higher, and punch harder.
+Emacs. It’s like having cybernetic limbs—it makes you jump higher and punch harder.
 
 Take note, though, that the name is a misnomer, as it not only handles parentheses. It handles just
 about anything that pairs, and it performs those functions stellarly.
@@ -70,8 +74,9 @@ Usage <a name="usage"></a>
 
 Managing paired characters like parentheses, braces, brackets, quotation marks, angle brackets, and
 other conceivable pair-able characters has always been a pain. Other packages solve that problem
-partially. However, they it still miss several points. In the code snippets below, the `^` symbol
-will be used to represent point:
+partially. However, they it still miss several points.
+
+In the code snippets below, the `^` symbol will be used to represent point:
 
 
 ### Basics <a name="basics"></a>
@@ -136,11 +141,11 @@ If you have the expression:
 
 (defun format-date (format)
   (let ((system-time-locale "en_US.UTF-8"))
-    (insert (format-time-string format))))^
+    (insert (format-time-string format)))) ^
 
 ```
 
-and you want to move point to **insert**:
+and you want to move point to `insert`:
 
 ```lisp
 
@@ -160,7 +165,7 @@ If you have the expression:
     ^
 ```
 
-and you want to move point after **)**:
+and you want to move point after `)`:
 
 ```clojure
 
@@ -178,7 +183,7 @@ If you have the expression:
                 ^
 ```
 
-and you want to move point to **]**:
+and you want to move point to the preceeding `]`:
 
 ```clojure
 
@@ -196,7 +201,7 @@ If you have the expression:
                            ^
 ```
 
-and you want to move point to **(format**:
+and you want to move point to `(format`:
 
 ```lisp
 
@@ -217,7 +222,7 @@ If you have the expression:
           ^
 ```
 
-and you want to move point after **]**:
+and you want to move point after `]`:
 
 ```clojure
 
@@ -227,7 +232,7 @@ and you want to move point after **]**:
 
 Execute `sp-forward-sexp`. I bound it to <kbd>C-M-f</kbd>
 
-Conversely, to move it to **[**:
+Conversely, to move it back to `[`:
 
 ```clojure
 
@@ -251,7 +256,7 @@ If you have the expression:
 
 ```
 
-and you want to move point to **[**:
+and you want to move point to `[`:
 
 ```clojure
 
@@ -287,7 +292,7 @@ If you have the expression:
                ^
 ```
 
-and you want to move point to **blah**:
+and you want to move point to `blah`:
 
 ```clojure
 
@@ -305,7 +310,7 @@ Conversely, if you have the expression:
             ^
 ```
 
-and you want to move point just after **(let**:
+and you want to move point just after `(let`:
 
 ```clojure
 
@@ -331,9 +336,7 @@ var mods = "vars";
            ^
 ```
 
-and you want **"vars"** to be surrounded by **[**,
-and
-**]**:
+and you want `"vars"` to be surrounded by `[` and `]`:
 
 ```javascript
 
@@ -341,11 +344,11 @@ var mods = ["vars"];
             ^
 ```
 
-Press <kbd>C-M-Space</kbd> followed by <kbd>[</kbd>, the whole region becomes surrounded by matching
-**[**, and **]**.  It also applies to keys like `(`, `{`, `"`, `'`, `*`, `_`, etc, depending on the
-mode that you’re using.
+Pressing <kbd>C-M-Space</kbd> or <kbd>ESC C-Space</kbd> followed by <kbd>[</kbd> will make the
+whole region become surrounded by matching `[` and `]`.  It also applies to keys like `(`,
+`{`, `"`, `'`, `*`, `_`, etc, depending on the mode that you’re using.
 
-Alternatively, define wrapping functions:
+Alternatively, you may define wrapping functions:
 
 ```lisp
 (defmacro def-pairs (pairs)
@@ -378,7 +381,7 @@ expression:
           ^
 ```
 
-and you want to surround **args** with **[** and **]**:
+and you want to surround `args` with `[` and `]`:
 
 ```clojure
 
@@ -411,8 +414,7 @@ If you have the expression:
      ^
 ```
 
-and you want to unwrap the **bar** expression, removing the parentheses
-around **foo**:
+and you want to unwrap the `bar` expression, removing the parentheses around `foo`:
 
 ```clojure
 
@@ -422,8 +424,7 @@ foo (bar x y z)
 
 Execute `sp-backward-unwrap-sexp`. I bound it to <kbd>M-[</kbd>
 
-Conversely, if you want to unwrap the **bar** expression, removing the
-parentheses around **bar**:
+Conversely, if you want to unwrap the `bar` expression, removing the parentheses around `bar`:
 
 ```clojure
 
@@ -444,7 +445,7 @@ If you have the expression:
         ^
 ```
 
-and you want **baz** to be part of **foo** and **bar**:
+and you want `baz` to become part of `foo` and `bar`:
 
 ```clojure
 
@@ -454,7 +455,7 @@ and you want **baz** to be part of **foo** and **bar**:
 
 Execute `sp-forward-slurp-sexp`. I bound it to <kbd>C-right</kbd>.
 
-Conversely, if you want to remove **baz**:
+Conversely, if you want to remove `baz`:
 
 ```clojure
 
@@ -472,7 +473,7 @@ blah [foo bar]
              ^
 ```
 
-and you want **blah** to be part of **foo** and **bar**:
+and you want `blah` to become part of `foo` and `bar`:
 
 ```clojure
 
@@ -482,7 +483,7 @@ and you want **blah** to be part of **foo** and **bar**:
 
 Execute `sp-backward-slurp-sexp`. I bound it to <kbd>C-left</kbd>.
 
-Conversely, if you want to remove **blah**:
+Conversely, if you want to remove `blah`:
 
 ```clojure
 
@@ -503,7 +504,7 @@ If you have the expression:
       ^
 ```
 
-and you want **"foo"** and **"bar"** to switch places:
+and you want `"foo"` and `"bar"` to trade places:
 
 ```clojure
 
@@ -524,7 +525,7 @@ If you have the expression:
                ^
 ```
 
-and you want to kill just **"y yy yyy"**:
+and you want to kill just `"y yy yyy"`:
 
 ```clojure
 
@@ -534,7 +535,7 @@ and you want to kill just **"y yy yyy"**:
 
 Execute `sp-kill-sexp`. I bound it to <kbd>C-M-k</kbd>.
 
-If you want to kill **"y yy yyy" z 0**:
+If you want to kill `"y yy yyy" z 0`:
 
 ```clojure
 
@@ -552,7 +553,7 @@ If you have the expression:
                                 ^
 ```
 
-and you want to kill **[clojure.string :as s]**:
+and you want to kill `[clojure.string :as s]`:
 
 ```clojure
 
@@ -566,7 +567,7 @@ Execute `sp-backward-kill-sexp`. I bound it to <kbd>M-k</kbd>
 Keys <a name="keys"></a>
 ------------------------
 
-The following snippet summarizes the key bindings used in this article. I use **bind-keys** to
+The following snippet summarizes the key bindings used in this article. I use `bind-keys` to
 conveniently map my keys. I discussed about it, in an [earlier](/en/emacs-hacks-2) article.
 
 ```lisp
@@ -627,5 +628,6 @@ The plethora of commands in smartparens may be daunting at first, but the invest
 learning them, will be minimal compared to benefits that you will reap.
 
 smartparens is the brainchild of [Matus Goljer](mailto:matus.goljer@gmail.com). For more information
-on smartparens, go to <https://github.com/Fuco1/smartparens>. If you like this project, you can
+on smartparens, go to [here](https://github.com/Fuco1/smartparens). If you like this project, you
+may
 donate [here](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CEYP5YVHDRX8C).
