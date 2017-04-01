@@ -17,8 +17,8 @@ ANALYTICS="93746003-1"
           --og-url "http://ebzzry.io/$$(basename $< .md).html" \
           --og-image $(OG_IMAGE) \
           --analytics $(ANALYTICS) \
-          -RFiauo "$$(basename $< .md).html" \
-          $<
+          -RFiamuo "$$(basename $< .md).html" \
+          $< en/src/footer.md
 
 all:
 	$(BUILDER) -r
