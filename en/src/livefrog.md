@@ -11,7 +11,8 @@ There are times when you want more control over your content. There are also tim
 want another platform to dictate what goes in or out. Issues like censorship and politics, can
 easily creep up on a blogging platform. I had specific cases wherein I needed to convert LiveJournal
 articles to another platform. There are tools that does this, however, I found none, so far, that
-translate to Frog files. This is my feeble attempt to achieve that goal.
+translate to [Frog](https://github.com/greghendershott/frog/) files. This is my feeble attempt to
+achieve that goal.
 
 
 Table of contents
@@ -30,23 +31,37 @@ Overview <a name="overview"></a>
 ----------------------------------------
 
 livefrog is a utility written in [Racket](http://racket-lang.org), used to migrate LiveJournal posts
-to [Frog](https://github.com/greghendershott/frog/), a blogging platform written in Racket, too. It
-uses the files dumped by either [ljdump](http://hewgill.com/ljdump/)
-or [ljmigrate](https://github.com/ceejbot/ljmigrate).
+to Frog, a blogging platform written in Racket, too. It uses the files dumped by
+either [ljdump](http://hewgill.com/ljdump/) or [ljmigrate](https://github.com/ceejbot/ljmigrate).
 
 
 Installation <a name="installation"></a>
 ----------------------------------------
 
-livefrog is available via Racket’s [Planet2](https://pkg.racket-lang.org):
+To be able to execute the runtimes, we need to install Racket, first:
+
+Nix:
+
+    nix-env -i racket
+
+APT:
+
+    sudo apt-get install -y racket
+
+After installation, verify that you have Racket:
+
+    racket --version
+
+If you see a version string, good. Next, let’s install livefrog. It is available via
+Racket’s [Planet2](https://pkg.racket-lang.org), Racket’s package repository:
 
     $ raco pkg install livefrog
 
-If that doesn’t work, you can alternatively install it by fetching livefrog, and the dependencies, from
-GitHub.
+If that doesn’t work, you can alternatively install livefrog by fetching its dependencies directly
+from GitHub:
 
-    $ git clone https://github.com/jbclements/sxml.git
     $ git clone https://github.com/greghendershott/frog.git
+    $ git clone https://github.com/jbclements/sxml.git
     $ git clone https://github.com/ebzzry/livefrog.git
     $ raco pkg install frog/ sxml/ livefrog/
 
