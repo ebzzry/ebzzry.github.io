@@ -33,10 +33,10 @@ positions. We are very fond of inventing and assigning labels among ourselves. W
 moving ourselves to thought-bunkers, we build assumptions that because of the security that our
 bunker provides, we have prevailed. From our DNA that provides us with the information that contains
 the code of what makes us tick, we turn to our brains to store yet more information. These various
-pieces of information and high in breadth, that our humble DNA can no longer even begin to
+pieces of information and high in breadth, that our humble code can no longer even begin to
 contain. But alas, what we have in our individual brains is still not enough to house our
 ever-growing house of knowledge. We needed to find a way to record them outside our bodies, stored
-somewhere where data retrieval is one of its most critical operations — we wrote and created
+somewhere where data retrieval is one of its most critical operations—we wrote and created
 records. We began by writing on stones, walls, and anything that would hopefully persist to contain
 what it must, across generations of readers. We have built colossal libraries, with gargantuan
 collections of books. With it, we have stored an immense amount of records, far beyond what all the
@@ -51,7 +51,7 @@ Some of us persist in delusions that claim to know what they have never ventured
 observed. It is very disheartening that instead of taking a step back and gaze at the sky for a
 moment, people instead immerse themselves in wonderland. This very intoxicating habit, harms not an
 individual, but the whole mankind. When someone tells you that answers to his questions can only be
-exclusively be answered always by a yes or no, leave him and that he no longer deserve to have your
+exclusively answered always by a yes or no, leave him and that he no longer deserves to have your
 attention again. If you do not know the answer, you should say that you do not know the answer,
 instead of doing trapeze jumps without anyone to catch your hands.
 
