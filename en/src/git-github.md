@@ -4,13 +4,15 @@ A Brief Git and GitHub Tour
 <div class="center">August 29, 2015</div>
 <div class="center">Updated: March 31, 2017</div>
 
+>“Know how to solve every problem that has been solved.”<br>
+>―Richard P. Feynman
+
 This short tutorial shows how to use [git](https://git-scm.com/) with a [GitHub](https://github.com)
 workflow. A quick Google of *git workflows* shows plenty of diverse results. This article describes
 just one of the ways of using git with a git-hosting service like GitHub.
 
-In this document, the `$` symbol, represents the prompt. The editor used in this tutorial
-is [vi](https://en.wikipedia.org/wiki/Vi). A short introduction to _vi_ is located
-at [http://www.nuxified.org/vi_survival_guide](http://www.nuxified.org/vi_survival_guide).
+In this article, the `$` symbol represents the prompt. For demonstration purposes, we’ll use nano as
+the text editor. However, you’re free to use whatever editor you want to use.
 
 
 Table of contents
@@ -50,7 +52,7 @@ Create a directory for the project, then cd into it:
 
 Edit the `.gitignore` file in the current directory:
 
-    $ vi .gitignore
+    $ nano .gitignore
 
 Then, paste the contents that you have copied earlier.
 

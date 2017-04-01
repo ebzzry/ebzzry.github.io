@@ -4,6 +4,10 @@ Converting Markdown to HTML with emem
 <div class="center">March 12, 2017</div>
 <div class="center">Updated: March 31, 2017</div>
 
+>“The answers you seek you will never find until you stop looking outside and start looking for them
+>within yourself.”<br>
+>―Memory gatekeeper, Ergo Proxy
+
 I have always wanted a way to create HTML documents from my Markdown files. Initially, I simply
 wanted to have HTML files from my text files so that I can view them nicely on my phone. Later, I
 also wanted a way to create these files so that I can upload them on the internet and view them on
@@ -124,8 +128,8 @@ bells and whistles, use the plain mode:
 $ emem -Rp README.md
 ```
 
-The `-R` option instructs emem not to build the resource files, while the `-p`
-disables CSS and JavaScript.
+The `-R` option instructs emem not to build the resource files, while the `-p` removes CSS and
+JavaScript.
 
 If you want to change the name of the output file, use `-o`:
 
@@ -225,7 +229,7 @@ $ emem --help
 Closing remarks <a name="closing"></a>
 --------------------------------------
 
-For this whole [journal](http://ebzzry.io), I’m able to get a 90+ score
+For this whole [journal](http://ebzzry.io), I was able to get a 90+ score
 from [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/), a
 Mobile-Friendly rating
 from [Google Mobile-Friendly Test](https://search.google.com/search-console/mobile-friendly), and a
