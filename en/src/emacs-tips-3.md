@@ -237,8 +237,8 @@ Here’s the relevant snippet for all the commands discussed in this article. If
  ("C-c ^" . delete-to-bol)
  ("C-c $" . delete-to-eol)
 
- ("C-c C-a" . mark-to-bol)
- ("C-c C-e" . mark-to-eol)
+ ("C-c ," . mark-to-bol)
+ ("C-c ." . mark-to-eol)
 
  ("C-x y" . yank-clipboard)
  ("C-x C-y" . yank-primary))
