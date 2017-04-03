@@ -2,18 +2,19 @@ A Gentle Introduction to the Nix Family
 =======================================
 
 <div class="center">March 22, 2017</div>
-<div class="center">Updated: March 31, 2017</div>
+<div class="center">Updated: April 3, 2017</div>
 
->“Don’t worry about what anybody else is going to do. The best way to predict the future is to invent it.”<br>
+>“Don’t worry about what anybody else is going to do. The best way to predict the future is to
+>invent it.”<br>
 >―Alan Kay
 
 Ideas that change the way we do computing come rarely. A lot of the technology that we are using now
-are just re-hashes of old ones—layers upon layers of cosmetics enveloping old concepts. Entire product
-lines are based upon this lack of creativity and ingenuity. Old problems are not solved. Instead,
-these so-called innovative solutions merely pass around the problem while painting it with new shades,
-claiming that at least, they made it more colorful. This mentality harms progress in innumerable
-ways. This gives the false impression that solutions are actually being done. This creates a false
-sense of assurance of improvements.
+are just re-hashes of old ones—layers upon layers of cosmetics enveloping old concepts. Entire
+product lines are based upon this lack of creativity and ingenuity. Old problems are not
+solved. Instead, these so-called innovative solutions merely pass around the problem while painting
+it with new shades, claiming that at least, they made it more colorful. This mentality harms
+progress in innumerable ways. This gives the false impression that solutions are actually being
+done. This creates a false sense of assurance of improvements.
 
 Several years ago [Eelco Dolstra](https://nixos.org/~eelco/) wrote the
 seminal [papers](https://nixos.org/docs/papers.html) that described radical ways to deploy
@@ -193,7 +194,7 @@ follows. Replace the values as it suits you. All available configuration knobs a
 available [here](https://nixos.org/nixos/options.html).
 
 
-```
+```nix
 { config, lib, pkgs, ... }:
 
 {
@@ -352,9 +353,9 @@ To make it easier to understand the language, let’s install the Nix REPL:
     $ nix-env -iA $(nix-channel --list | awk '{print $1}').nix-repl
 
 Next, let’s run it. You’ll be greeted with the version number, and the nix-repl prompt. At the time
-of writing, the latest version is 1.11.8:
+of writing, the latest stable version is 1.11.8:
 
-```bash
+```nix
 $ nix-repl
 Welcome to Nix version 1.11.8. Type :? for help.
 
@@ -368,14 +369,14 @@ Let’s try out some basic expressions.
 
 Just like in other languages, strings evaluate to themselves:
 
-```bash
+```nix
 nix-repl> "foo"
 "foo"
 ```
 
 To concatenate strings, use the `+` operator:
 
-```bash
+```nix
 nix-repl> "foo" + "bar"
 "foobar"
 ```
@@ -383,14 +384,14 @@ nix-repl> "foo" + "bar"
 Another way to declare strings is to use two pairs of single quotes. Do not mistake it with the
 double quotes:
 
-```bash
+```nix
 nix-repl> ''foo bar''
 "foo bar"
 ```
 
 The advantage of using `''` over `"` is that allows the presence of `"` inside it:
 
-```bash
+```nix
 nix-repl> ''"foo" "bar"''
 "\"foo\" \"bar\"\"
 ```
@@ -400,7 +401,7 @@ build complex expressions.
 
 To deference strings inside strings, use the `${name}` form:
 
-```bash
+```nix
 nix-repl> x = "foo"
 
 nix-repl> y = "bar"
@@ -417,7 +418,7 @@ nix-repl> ''${x} ${y}''
 
 Basic arithmetic operations in Nix are included, with a small twist:
 
-```bash
+```nix
 nix-repl> 6+2
 8
 
@@ -436,13 +437,13 @@ made a special case that when a `/` character is surrounded by non-space charact
 it as a directory path, resulting in an absolute path. To actually perform division, add at least
 one space before and after the `/` character:
 
-```bash
+```nix
 nix-repl> 6 / 2
 ```
 
 There are no floating point numbers in Nix. So, if you try to evaluate one, you’ll get:
 
-```bash
+```nix
 nix-repl> 1.0
 error: syntax error, unexpected INT, expecting ID or OR_KW or DOLLAR_CURLY or '"', at (string):1:3
 '"'
@@ -450,14 +451,14 @@ error: syntax error, unexpected INT, expecting ID or OR_KW or DOLLAR_CURLY or '"
 
 The function `builtins.div` does essentially the same as `/`:
 
-```bash
+```nix
 nix-repl> builtins.div 6 3
 2
 ```
 
 The difference, however, is that `builtins.div` can be applied partially:
 
-```bash
+```nix
 nix-repl> (builtins.div 6)
 «primop-app»
 ```
@@ -465,21 +466,21 @@ nix-repl> (builtins.div 6)
 This expressions returns a closure of a partially applied function. We need another value to fully
 apply it:
 
-```bash
+```nix
 nix-repl> (builtins.div 6) 3
 2
 ```
 
 We can even store the value of that partial application:
 
-```bash
+```nix
 nix-repl> d = builtins.div 6
 ```
 
 The `=` operator in Nix is used to bind values. In this example, it is used to define a partial
 application. To use that function:
 
-```bash
+```nix
 nix-repl> d 3
 2
 ```
@@ -489,7 +490,7 @@ nix-repl> d 3
 
 Truth- and falsehood are represented with `true` and `false`:
 
-```bash
+```nix
 nix-repl> 1 < 2
 true
 
@@ -517,28 +518,28 @@ false
 
 Lists are heterogeneous types for containing serial values. Elements are separated by spaces:
 
-```bash
+```nix
 nix-repl> [ 1 "foo" true ]
 [ 1 "foo" true ]
 ```
 
 To concatenate lists:
 
-```bash
+```nix
 nix-repl> [ 1 "foo" true ] ++ [ false (6 / 2) ]
 [ 1 "foo" true false ]
 ```
 
 To extract the head:
 
-```bash
+```nix
 nix-repl> builtins.head ([ 1 "foo" true (6 / 2) ] ++ [ false (6 / 2) ])
 1
 ```
 
 To extract the tail:
 
-```bash
+```nix
 nix-repl> builtins.tail ([ 1 "foo" true (6 / 2) ] ++ [ false (6 / 2) ])
 [ "foo" true 3 false 3 ]
 ```
@@ -547,7 +548,7 @@ Lists are indexed starting
 at [0](https://www.cs.utexas.edu/users/EWD/transcriptions/EWD08xx/EWD831.html). To get the *1th*
 element, use the `builtins.elemAt` operator:
 
-```bash
+```nix
 nix-repl> builtins.elemAt [ 1 "foo" true ] 1
 "foo"
 ```
@@ -557,28 +558,28 @@ nix-repl> builtins.elemAt [ 1 "foo" true ] 1
 
 An important data structure in Nix are sets. They are keyword-value pairs separated by semi-colons:
 
-```bash
+```nix
 nix-repl> { a = 0; b = "bar"; c = true; d = (6 / 2); }
 ```
 
 What makes sets different from lists is that extracting values from them are done by making name
 references. To extract the value of `b`, use the `.` operator:
 
-```bash
+```nix
 nix-repl> { a = 0; b = "bar"; c = true; d = (6 / 2); }.b
 "bar"
 ```
 
 which is equivalent to:
 
-```bash
+```nix
 nix-repl> { a = 0; b = "bar"; c = true; d = (6 / 2); }."b"
 "bar"
 ```
 
 To dereference a member from the same set, use the `rec` keyword:
 
-```bash
+```nix
 nix-repl> rec { a = 0; b = "bar"; c = true; d = (6 / 2); e = b; }.e
 "bar"
 ```
@@ -589,7 +590,7 @@ nix-repl> rec { a = 0; b = "bar"; c = true; d = (6 / 2); e = b; }.e
 In Nix all paths are translated to absolute ones. If you make a reference to a file in the current
 directory:
 
-```bash
+```nix
 nix-repl> ./foo
 /home/ogag/foo
 ```
@@ -599,14 +600,14 @@ It gets translated to an absolute path. This is a Good Thing™.
 Similarly, if you make a reference to a relative path inside an absolute path, it still gets
 translated to an absolute one:
 
-```bash
+```nix
 nix-repl> /./foo
 /foo
 ```
 
 Note, however, that Nix doesn’t like paths that stand alone:
 
-```bash
+```nix
 nix-repl> /
 error: syntax error, unexpected '/', at (string):1:1
 
@@ -622,7 +623,7 @@ similarities with other languages while having its own unique traits.
 
 The most basic form of a function follows:
 
-```bash
+```nix
 nix-repl> x: x
 «lambda»
 ```
@@ -633,7 +634,7 @@ the first *x* indicates that it is a parameter to the function, just like
 in [lambda calculus](http://ebzzry.io/en/lambda-calculus/#functions). Also, the names do not matter
 due to [alpha equivalence](https://en.wikipedia.org/wiki/Lambda_calculus#Alpha_equivalence):
 
-```bash
+```nix
 nix-repl> foo-bar-baz: foo-bar-baz
 «lambda»
 ```
@@ -641,27 +642,27 @@ nix-repl> foo-bar-baz: foo-bar-baz
 These functions are not of much use because they are not captured for application. If we want to use
 it, for example with the argument `"foo"`, we need to surround it with parentheses:
 
-```bash
+```nix
 nix-repl> (x: x) "foo"
 "foo"
 ```
 
 To add more fun, let’s name that function:
 
-```bash
+```nix
 nix-repl> identity = x: x
 ```
 
 Sweet! Now, let’s apply it:
 
-```bash
+```nix
 nix-repl> identity "foo"
 "foo"
 ```
 
 Let’s create a function that appends `" ugh"` to its input, then let’s apply it:
 
-```bash
+```nix
 nix-repl> ugh = s: s + " ugh"
 
 nix-repl> ugh "me"
@@ -670,7 +671,7 @@ nix-repl> ugh "me"
 
 To define a function that takes another argument, let’s use the following form:
 
-```bash
+```nix
 nix-repl> ugh = s: t: s + " ugh " + t
 
 nix-repl> ugh "me" "you"
@@ -682,7 +683,7 @@ The pattern is that to add an additional parameter, use the `name: ` form.
 Sets, when used with functions, enable more powerful abstractions. We can pass a set as an argument
 to a function, which will then use the data inside that set:
 
-```bash
+```nix
 nix-repl> poof = { a, b }: x: a + " " + b + x
 ```
 
@@ -691,7 +692,7 @@ and `x`—a regular parameter. Take note, that the parameter specification is no
 merely a way to match arguments; it uses a comma, as value separator. Inside this function we
 combine the inputs with the `+` operator. To use this function, we’d do it like:
 
-```bash
+```nix
 nix-repl> poof { a = "ugh"; b = "me"; } " poof"
 "ugh me poof"
 ```
@@ -701,13 +702,13 @@ function that uses them. In this case the keyword names are `a` and `b`.
 
 The definition of `poof` above is semantically similar to:
 
-```bash
+```nix
 nix-repl> poof = meh: x: meh.a + " " + meh.b + x
 ```
 
 We used a regular, non-set parameter here so that it can refer to the set as a value. Observe this:
 
-```bash
+```nix
 nix-repl> meh = { a = "foo"; b = "bar"; }
 
 nix-repl> meh.a
@@ -722,7 +723,7 @@ default value is used. They are declared similarly in Common Lisp:
   (concatenate 'string a b'))
 ```
 
-```bash
+```nix
 nix-repl> foop = { a, b ? "O.o" }: a + b
 
 nix-repl> foop { a = "goo"; }
@@ -735,13 +736,13 @@ nix-repl> foop { a = "goo"; b = "oog"; }
 To add even more flexibility, Nix supports the use of pseudorest arguments. Let’s modify the
 function from above:
 
-```bash
+```nix
 nix-repl> foop = { a, b, ...}: a + b
 ```
 
 Let’s use it:
 
-```bash
+```nix
 nix-repl> foop { a = "meh"; b = "foo"; }
 "mehfoo"
 ```
@@ -749,13 +750,13 @@ nix-repl> foop { a = "meh"; b = "foo"; }
 The same. So how can we make use of that flexibility, then? We’ll create a label for the attribute
 set, so that we can refer to the ‘extra’ values:
 
-```bash
+```nix
 nix-repl> foop = attrs@{ a, b, ...}: a + b + attrs.blah
 ```
 
 We use it just like before, but with the use of the label:
 
-```bash
+```nix
 nix-repl> foop { a = "goo"; b = "oog"; c = "hhh"; }
 "gooooghhh"
 ```
@@ -764,7 +765,7 @@ I said ‘pseudo’ because the value for `c` was still required.
 
 Default values and variable arity can be combined together:
 
-```bash
+```nix
 nix-repl> foop = attrs@{ a, b, c ? "C", ... }: a + b + c + attrs.d
 
 nix-repl> foop { a = "A"; b = "B"; d = "D"; }
@@ -781,7 +782,7 @@ nix-repl> foop { a = "A"; b = "B"; c = "X"; d = "D"; }
 The keyword `let` lets (pun not intended) us define variables in a local scope. For example, to make
 the identifiers `x` and `y` visible only in a local scope:
 
-```bash
+```nix
 nix-repl> let x = "foo"; y = "bar"; in x + poof { a = "huh"; b = "really"; } "hmm" + y
 "foohuh reallyhmmbar"
 ```
@@ -795,7 +796,7 @@ Lisp and Haskell.
 
 The keyword `with` lets you ‘drop’ set values in a scope:
 
-```bash
+```nix
 nix-repl> with { x = "foo"; y = "bar"; }; poof { a = y; b = x; } " xyz"
 "bar foo xyz"
 ```
@@ -809,14 +810,14 @@ What happened here is that the values inside that set were ‘unveiled’ to mak
 Conditional expressions are done with the `if` keyword. It has a similar form with mainstream
 languages:
 
-```bash
+```nix
 nix-repl> if true then "true" else "false"
 "true"
 ```
 
 It can also be nested:
 
-```bash
+```nix
 nix-repl> if false then "true" else if false then "true" else if false then "true" else "false"
 "false"
 ```
@@ -827,7 +828,7 @@ nix-repl> if false then "true" else if false then "true" else if false then "tru
 The idea of importing files into a Nix expression is subtly different from other languages. Imports
 in Nix are closely tied with sets. Presuming we have the file `meh.nix` that contains the following:
 
-```
+```nix
 let
   meh = x: x + "meh";
 in {
@@ -842,7 +843,7 @@ remember here is that this let expression returns an attribute set.
 
 Let’s go back to the REPL to use this file:
 
-```bash
+```nix
 nix-repl> import ./meh.nix
 { meh = «lambda»; }
 ```
@@ -850,7 +851,7 @@ nix-repl> import ./meh.nix
 We see again the familiar lambda term. The *meh* name here, as it shows, is a function. Now, how can
 we dereference this value? With the use of the `.` operator!
 
-```bash
+```nix
 nix-repl> (import ./meh.nix).meh "foo"
 "foomeh"
 ```
@@ -858,13 +859,13 @@ nix-repl> (import ./meh.nix).meh "foo"
 We had to use parentheses because there is no such file as `meh.nix.meh` in the current
 directory. If we’re going to step through it, it would like the following:
 
-```bash
+```nix
 nix-repl> { meh = «lambda»; }.meh "foo"
 ```
 
 becoming:
 
-```bash
+```nix
 nix-repl> { meh = (x: x + "meh"); }.meh "foo"
 "foomeh"
 ```
@@ -971,8 +972,8 @@ Installing packages via channels is nicer, because the commands to install packa
 convenient. The trade-off is that the packages will be out-of-date by a few weeks. If you’re fine
 with it, then use channels instead of the git checkout.
 
-Channels are labeled **stable**, **unstable**, or with a specific version number, e.g.,
-**16.09**. For this article, let’s use the unstable channel—it’s not as dated as stable, nor as
+Channels are labeled **stable**, **unstable**, or with a specific version number, e.g., **16.09** or
+**17.03**. For this article, let’s use the unstable channel—it’s not as dated as stable, nor as
 recent as the git checkout. To subscribe to the unstable channel, run:
 
     $ nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
@@ -1106,7 +1107,7 @@ file `all-packages.nix`, the path is at `pkgs/applications/misc/hello` or
 
 Open the file `default.nix`:
 
-```bash
+```nix
 { stdenv, fetchurl }:
 
 stdenv.mkDerivation rec {
@@ -1207,21 +1208,17 @@ except for a few things.
 
 At the start, create a new branch for your package:
 
-```bash
-$ cd ~/nixpkgs
-$ git checkout -b tthsum-1.3.2
-```
+    $ cd ~/nixpkgs
+    $ git checkout -b tthsum-1.3.2
 
 Then, decide what category should it belong to:
 
-```bash
-$ cd pkgs/applications/misc
-$ mkdir tthsum
-```
+    $ cd pkgs/applications/misc
+    $ mkdir tthsum
 
 Create the `default.nix` file:
 
-```
+```nix
 { stdenv, fetchurl }:
 
 stdenv.mkDerivation rec {
@@ -1266,7 +1263,7 @@ environment, it will be available as `/run/current-system/sw/bin/tthsum`.
 At this point, Nix is still not aware of tthsum. We have to declare it at the top level. To do so,
 edit the file `pkgs/top-level/all-packages.nix`, and add the following in the correct category:
 
-```
+```nix
 tthsum = callPackage ../applications/misc/tthsum { };
 ```
 
