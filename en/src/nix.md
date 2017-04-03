@@ -631,7 +631,7 @@ nix-repl> x: x
 This expression creates an anonymous function that returns its
 argument—the [identity function](https://en.wikipedia.org/wiki/Identity_function). The colon after
 the first *x* indicates that it is a parameter to the function, just like
-in [lambda calculus](http://ebzzry.io/en/lambda-calculus/#functions). Also, the names do not matter
+in [lambda calculus](/en/lambda-calculus/#functions). Also, the names do not matter
 due to [alpha equivalence](https://en.wikipedia.org/wiki/Lambda_calculus#Alpha_equivalence):
 
 ```nix
