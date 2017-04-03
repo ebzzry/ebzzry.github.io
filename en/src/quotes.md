@@ -103,10 +103,6 @@ the years.
   ―Dwight D. Eisenhower
 
 
-- “Furious activity is no substitute for understanding.”<br>
-  ―H.H. Williams
-
-
 - “Ron’s first law: All extreme positions are wrong.”<br>
   ―Ron Garret
 
