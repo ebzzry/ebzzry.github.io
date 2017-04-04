@@ -2,7 +2,7 @@ Virtualizing with KVM in Linux
 ==============================
 
 <div class="center">June 15, 2015</div>
-<div class="center">Updated: March 31, 2017</div>
+<div class="center">Updated: April 4, 2017</div>
 
 >“If you do what you’ve always done, you’ll get what you’ve always gotten.”<br>
 >―Anthony Robbins
@@ -109,6 +109,18 @@ However, if you don’t have an image, yet, you can create one with:
 The last step creates a 20GB image, that is named `vm.qcow2`. Take note that the extension name
 doesn’t really matter—you can name your image as `index.html`, but that wouldn’t make a lot of
 sense, right? 😄
+
+
+### KVM group <a name="kvmgroup"></a>
+
+The commands below require that a group named `kvm` exists and that you are a member of that
+group. To take those into effect, run:
+
+    $ sudo groupadd kvm
+    $ sudo usermod -G $(groups | sed 's/ /,/g'),kvm $USER
+    $ newgrp kvm
+
+The last command enrolls you to the kvm group without logging out of your session.
 
 
 ### Networking <a name="networking"></a>
@@ -267,6 +279,13 @@ command line:
 ```
 function kvm-net () {
   case $1 in
+    up|1)
+      sudo vde_switch -tap tap0 -mod 660 -group kvm -daemon
+      sudo ip addr add 10.0.2.1/24 dev tap0
+      sudo ip link set dev tap0 up
+      sudo sysctl -w net.ipv4.ip_forward=1
+      sudo iptables -t nat -A POSTROUTING -s 10.0.2.0/24 -j MASQUERADE
+      ;;
     down|0)
       sudo iptables -t nat -D POSTROUTING -s 10.0.2.0/24 -j MASQUERADE
       sudo sysctl -w net.ipv4.ip_forward=0
@@ -275,14 +294,15 @@ function kvm-net () {
       sudo pkill -9 vde_switch
       sudo rm -f /run/vde.ctl/ctl
       ;;
-    up|1)
-      sudo vde_switch -tap tap0 -mod 660 -group kvm -daemon
-      sudo ip addr add 10.0.2.1/24 dev tap0
-      sudo ip link set dev tap0 up
-      sudo sysctl -w net.ipv4.ip_forward=1
-      sudo iptables -t nat -A POSTROUTING -s 10.0.2.0/24 -j MASQUERADE
-      ;;
   esac
+}
+
+function kvm-up () {
+  kvm-net up
+}
+
+function kvm-down () {
+  kvm-net down
 }
 
 function kvm-load () {
@@ -298,7 +318,7 @@ I’ll walk you through.
 
 Initially, setup the netoworking:
 
-    $ kvm-net up
+    $ kvm-up
 
 Then, load the image:
 
@@ -307,6 +327,10 @@ Then, load the image:
 Finally, connect to the display:
 
     $ kvm-display
+
+When you’re done with the VM, close the Spice display then shutdown the KVM networking:
+
+    $ kvm-down
 
 
 Closing remarks <a name="closing"></a>
