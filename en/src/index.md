@@ -5,6 +5,7 @@ M-x ebzzry RET
 <div class="text-right">A journal about computing, human predilections, and random krakaboom.</div>
 <div class="text-right">Entries are sorted in reverse chronological order.</div>
 
+- [My Markdown Style Guide](markdown)
 - [Emacs Tips 3](emacs-tips-3)
 - [A Gentle Introduction to the Nix Family](nix)
 - [Converting Markdown to HTML with emem](emem)
