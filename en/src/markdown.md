@@ -231,6 +231,9 @@ Meh meh meh mehmeh meh mehmeh meh mehmeh meh mehmeh meh mehmeh meh mehmeh meh me
 mehmeh meh mehmeh meh mehmeh meh meh
 ```
 
+This guideline, however, may not apply if you are using the editors of services like GitHub or
+GitLab, wherein it is usually more convenient to let the UI wrap the text.
+
 
 Extras <a name="extras"></a>
 ----------------------------
