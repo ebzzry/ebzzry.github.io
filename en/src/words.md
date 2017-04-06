@@ -62,6 +62,8 @@ Entries are sorted in chronological order.
   questions.<br>
 
 
+- If you can’t beat them, arrange to have them beaten.<br>
+
 - Fear births doubt.<br>
 
 
@@ -111,4 +113,7 @@ Entries are sorted in chronological order.
 - Diplomacy as a result of non-choice is no diplomacy at all.<br>
 
 
-- If you can’t join them, beat them. If you can’t beat them, arrange to have them beaten.<br>
+- If you can’t join them, beat them.<br>
+
+
+- Impatience is a virtue.<br>
