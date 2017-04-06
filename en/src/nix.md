@@ -2,7 +2,7 @@ A Gentle Introduction to the Nix Family
 =======================================
 
 <div class="center">March 22, 2017</div>
-<div class="center">Updated: April 3, 2017</div>
+<div class="center">Updated: April 6, 2017</div>
 
 >“Don’t worry about what anybody else is going to do. The best way to predict the future is to
 >invent it.”<br>
@@ -1073,23 +1073,26 @@ directory, then let’s examine its contents:
 
 ```bash
 $ cd ~/nixpkgs
-$ ls
-COPYING
-default.nix
-doc/
-.editorconfig
-.git/
-.github/
-.gitignore
-lib/
-maintainers/
-.mention-bot
-nixos/
-pkgs/
-README.md
-.travis.yml
-.version
-.version-suffix
+$ tree -aFL 1
+.
+├── COPYING
+├── default.nix
+├── doc/
+├── .editorconfig
+├── .git/
+├── .github/
+├── .gitignore
+├── lib/
+├── maintainers/
+├── .mention-bot
+├── nixos/
+├── pkgs/
+├── README.md
+├── .travis.yml
+├── .version
+└── .version-suffix
+
+7 directories, 9 files
 ```
 
 Next, let’s find where the package lives, for example Hello.
