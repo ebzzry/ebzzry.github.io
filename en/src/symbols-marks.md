@@ -113,13 +113,13 @@ To denote interruption of the speaker:
 Double quotes (“) (”) <a name="doublequotes"></a>
 -------------------------------------------------
 
-Left double quote (“)
+Left double quotes (“)
 
 - Windows: <kbd>Alt</kbd> + <kbd>0</kbd> <kbd>1</kbd> <kbd>4</kbd> <kbd>7</kbd>
 - Mac: <kbd>⌥</kbd> + <kbd>[</kbd>
 - Linux: <kbd>Compose</kbd> <kbd>6</kbd> <kbd>"</kbd>
 
-Right double quote (”)
+Right double quotes (”)
 
 - Windows: <kbd>Alt</kbd> + <kbd>0</kbd> <kbd>1</kbd> <kbd>4</kbd> <kbd>8</kbd>
 - Mac: <kbd>⌥</kbd> + <kbd>⇧</kbd> + <kbd>[</kbd>
