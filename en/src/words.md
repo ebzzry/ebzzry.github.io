@@ -116,4 +116,6 @@ Entries are sorted in chronological order.
 - If you can’t join them, beat them.<br>
 
 
+- With great power comes great irresponsibility.<br>
+
 - Impatience is a virtue.<br>
