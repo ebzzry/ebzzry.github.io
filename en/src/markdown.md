@@ -156,7 +156,7 @@ When the code or command block occupies one to two lines, indent it with four sp
 If there are three or more lines, use a pair of three backticks (```) to delimit the start and end
 of a code block:
 
-    ˋˋˋ
+    ˋˋˋbash
     $ mkdir foo
     $ echo foo > foo/foo
     $ rm -rf foo
