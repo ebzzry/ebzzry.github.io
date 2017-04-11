@@ -118,4 +118,5 @@ Entries are sorted in chronological order.
 
 - With great power comes great irresponsibility.<br>
 
+
 - Impatience is a virtue.<br>
