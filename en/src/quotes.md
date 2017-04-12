@@ -519,3 +519,7 @@ the years.
 
 - “If you’re going to try, go all the way. Otherwise, don’t even start.”<br>
   ―Charles Bukowski
+
+
+- “Never send a rabbit to kill a fox.”<br>
+  ―Chief Daisuke Aramaki, Ghost in the Shell
