@@ -527,7 +527,7 @@ To concatenate lists:
 
 ```nix
 nix-repl> [ 1 "foo" true ] ++ [ false (6 / 2) ]
-[ 1 "foo" true false ]
+[ 1 "foo" true false 3 ]
 ```
 
 To extract the head:
