@@ -169,7 +169,7 @@ false
 </code></pre><h3>Lists <a name="nixlists"></a></h3><p>Lists are heterogeneous types for containing serial values. Elements are separated by spaces:</p><pre><code class="nix">nix-repl&gt; &#91; 1 &quot;foo&quot; true &#93;
 &#91; 1 &quot;foo&quot; true &#93;
 </code></pre><p>To concatenate lists:</p><pre><code class="nix">nix-repl&gt; &#91; 1 &quot;foo&quot; true &#93; ++ &#91; false &#40;6 / 2&#41; &#93;
-&#91; 1 &quot;foo&quot; true false &#93;
+&#91; 1 &quot;foo&quot; true false 3 &#93;
 </code></pre><p>To extract the head:</p><pre><code class="nix">nix-repl&gt; builtins.head &#40;&#91; 1 &quot;foo&quot; true &#40;6 / 2&#41; &#93; ++ &#91; false &#40;6 / 2&#41; &#93;&#41;
 1
 </code></pre><p>To extract the tail:</p><pre><code class="nix">nix-repl&gt; builtins.tail &#40;&#91; 1 &quot;foo&quot; true &#40;6 / 2&#41; &#93; ++ &#91; false &#40;6 / 2&#41; &#93;&#41;
