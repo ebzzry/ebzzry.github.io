@@ -120,3 +120,6 @@ Entries are sorted in chronological order.
 
 
 - Impatience is a virtue.<br>
+
+
+- Never attribute to malice what incompetence will explain. Never attribute to incompetence what nature will explain. <br>
