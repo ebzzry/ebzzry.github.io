@@ -47,9 +47,9 @@ to modern computing systems that we have now. When we communicate messages that 
 take into account several factors including the variability of interpretation. Just because we
 clearly understand what we are saying does not mean that the other side of the communication
 understands it as well as we do. Were we able to sufficiently provide enough background and context
-to the communicatee? Were we able accurately transfer our mental image of the ideas to the listener?
-Is he able to construct my thought processes as accurately as I want it to be? If just one of those
-questions is answered by a no, then we need to reassess how are we communicating.
+to the communicatee? Were we able to accurately transfer our mental image of the ideas to the
+listener? Is he able to construct my thought processes as accurately as I want it to be? If just
+one of those questions is answered by a no, then we need to reassess how are we communicating.
 
 
 ### Accept limitations
