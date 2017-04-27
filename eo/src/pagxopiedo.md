@@ -10,9 +10,9 @@ TTT-ejo kreita per [emem](https://github.com/ebzzry/emem)
 </div>
 
 <div class="text-x-small">
-<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" class="cc" src="/images/cc4-88x31.png" /></a><br>
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Krea Komunaĵo Permisilo" class="cc" src="/images/cc4-88x31.png" /></a><br>
 Ĉi tie laboro de <a xmlns:cc="http://creativecommons.org/ns#" href="http://ebzzry.io" property="cc:attributionName" rel="cc:attributionURL">Rommel Martinez</a> estas permesilita sub <br>
-<a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Common Attribution 4.0 International License</a>.
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Krea Komunaĵo Atribuado 4.0 Internacia Permesilo</a>
 </div>
 
 </div>
