@@ -23,12 +23,14 @@ ANALYTICS="93746003-1"
 all:
 	$(BUILDER) -r
 	$(MAKE) $(MFLAGS) -C en
+	$(MAKE) $(MFLAGS) -C eo
 	parallel --will-cite "$(MAKE) {/.}.html" ::: $(FILES)
 
 clean:
 	find . -maxdepth 1 -name '*.html' ! -name 'sitemap.html' ! -name 'index.html' -exec rm -vf {} \;
 	rm -rvf static
 	$(MAKE) -C en $@
+	$(MAKE) -C eo $@
 
 rebuild:
 	$(MAKE) clean

@@ -1,6 +1,6 @@
 .PHONY: all clean
 
-FILES=$(filter-out src/footer.md src/index.md, $(wildcard src/*.md))
+FILES=$(filter-out src/pagxopiedo.md src/index.md, $(wildcard src/*.md))
 BUILDER=emem
 
 DESCRIPTION="$$(cat ../DESCRIPTION)"
@@ -14,21 +14,21 @@ all:
 	parallel --will-cite "$(MAKE) {/.}.html" ::: $(FILES)
 	$(BUILDER) -D $(DESCRIPTION) -K $(KEYWORDS) \
           --og-title "M-x ebzzry RET" --og-type $(OG_TYPE) \
-          --og-url "http://ebzzry.io/en/" \
+          --og-url "http://ebzzry.io/eo/" \
           --og-image $(OG_IMAGE) \
           --analytics $(ANALYTICS) \
           -RFiamuo index.html \
-          src/index.md src/footer.md
+          src/index.md src/pagxopiedo.md
 
 %.html: src/%.md
 	if [[ ! -d "$$(basename $< .md)" ]]; then mkdir "$$(basename $< .md)"; fi
 	$(BUILDER) -D $(DESCRIPTION) -K $(KEYWORDS) \
           --og-title $(OG_TITLE) --og-type $(OG_TYPE) \
-          --og-url "http://ebzzry.io/en/$$(basename $< .md)/" \
+          --og-url "http://ebzzry.io/eo/$$(basename $< .md)/" \
           --og-image $(OG_IMAGE) \
           --analytics $(ANALYTICS) \
           -RFiamuo "$$(basename $< .md)/index.html" \
-          $< src/footer.md
+          $< src/pagxopiedo.md
 
 clean:
 	rm -vf *.html
