@@ -126,3 +126,6 @@ Entries are sorted in chronological order.
 
 
 - Choices are illusions; there are only circumstances.<br>
+
+
+- Reality is relative.<br>
