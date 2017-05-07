@@ -523,3 +523,7 @@ the years.
 
 - “Never send a rabbit to kill a fox.”<br>
   ―Chief Daisuke Aramaki, Ghost in the Shell
+
+
+- “It is the destiny of stars to collapse.”<br>
+  ―Neil deGrasse Tyson
