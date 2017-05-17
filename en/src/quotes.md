@@ -527,3 +527,7 @@ the years.
 
 - “It is the destiny of stars to collapse.”<br>
   ―Neil deGrasse Tyson
+
+
+- “For me, it is far better to grasp the Universe as it really is than to persist in delusion, however satisfying and reassuring.”<br>
+  ―Carl Sagan
