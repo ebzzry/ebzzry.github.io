@@ -74,7 +74,7 @@ it. To install Racket on Debian, run:
     $ sudo apt-get install racket
 
 In the unlikely event that it can’t be installed using your package manager, go
-to [racket-lang.org/download/](http://racket-lang.org/download/) , then follow the instructions from
+to [racket-lang.org/download/](https://racket-lang.org/download/) , then follow the instructions from
 there.
 
 Next, you need to install Frog.
@@ -258,7 +258,7 @@ the section _Comments_.
 ### bootstrap.css and bootstrap.min.css <a name="bootstrap"></a>
 
 These two files are responsible for what is commonly called as “theme”—it controls the look of the
-site. To change these files, let’s head over to <http://bootswatch.com/>, then let’s select a theme
+site. To change these files, let’s head over to <https://bootswatch.com/>, then let’s select a theme
 you like. Let’s presume that you want to download the *Cerulean* theme. Click the dropdown box
 arrow, next to the download link, for that theme. Select and download both `bootstrap.min.css` and
 `bootstrap.css`. After which, copy them over to the css subdirectory `css/`.
@@ -336,8 +336,8 @@ Apache.
 
 However, if you don’t have a remote host that you can upload your work to, via rsync, and you
 use [Git](https://git-scm.com), you can use the free hosting service
-of [GitHub Pages](http://pages.github.com). If you don’t have a GitHub account yet, you may go
-to [GitHub](http://github.com) to create one. To use, GitHub Pages, create a repository named
+of [GitHub Pages](https://pages.github.com). If you don’t have a GitHub account yet, you may go
+to [GitHub](https://github.com) to create one. To use, GitHub Pages, create a repository named
 `USERNAME.github.io`. So, if your username is `ogag`, the repository that you need to create
 should be named `ogag.github.io`.
 
