@@ -35,7 +35,7 @@ emem is available via [Nix](https://nixos.org/nix/). If you don’t have Nix yet
 with:
 
 ```bash
-$ curl http://nixos.org/nix/install | bash
+$ curl https://nixos.org/nix/install | bash
 ```
 
 You may then install emem with:
@@ -229,7 +229,7 @@ $ emem --help
 Closing remarks <a name="closing"></a>
 --------------------------------------
 
-For this whole [journal](http://ebzzry.io), I was able to get a 90+ score
+For this whole [journal](https://ebzzry.io), I was able to get a 90+ score
 from [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/), a
 Mobile-Friendly rating
 from [Google Mobile-Friendly Test](https://search.google.com/search-console/mobile-friendly), and a
@@ -243,4 +243,4 @@ even use it for my personal and work documentation. I also use it with Emacs to 
 previews of Markdown buffers using [shell-command](https://www.gnu.org/software/emacs/manual/html_node/elisp/Synchronous-Processes.html) and w3m. To see emem in actual usage, go [here](https://github.com/ebzzry/ebzzry.github.io/blob/master/Makefile).
 
 
-If you know a bit of Clojure, [fork it](http://github.com/ebzzry/emem/) and hack away!
+If you know a bit of Clojure, [fork it](https://github.com/ebzzry/emem/) and hack away!
