@@ -531,3 +531,7 @@ the years.
 
 - “For me, it is far better to grasp the Universe as it really is than to persist in delusion, however satisfying and reassuring.”<br>
   ―Carl Sagan
+
+
+- “One physical test is worth a thousand expert opinions.”<br>
+  ―Rick Seifarth
