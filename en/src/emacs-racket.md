@@ -2,7 +2,7 @@ Setting Up Racket Development in Emacs
 ======================================
 
 <div class="center">September 29, 2013</div>
-<div class="center">Updated: March 31, 2017</div>
+<div class="center">Updated: June 15, 2017</div>
 
 >“All the good ideas never lie under one hat.”<br>
 >―Dale Turner
@@ -140,8 +140,8 @@ Racket buffer <a name="racketbuffer"></a>
 
 
 REPL buffer <a name="replbuffer"></a>
-
 -------------------------------------
+
 | Key     | What it does                        |
 | :------ | :---------------------------------- |
 | C-c C-z | Switch to the Racket buffer         |
@@ -158,5 +158,4 @@ Closing remarks <a name="closing"></a>
 I have intentionally skipped many topics from the [official document](http://www.nongnu.org/geiser/)
 because it makes it unattractive to people who are averse to reading long blocks of text
 (ironically, this article may even qualify as one.). The methods described above are by in no way
-representative of community-advised ways of installing and using Racket with Emacs. Feel free to
-drop a comment below! Ciao!
+representative of community-advised ways of installing and using Racket with Emacs. Ciao!
