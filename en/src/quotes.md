@@ -535,3 +535,7 @@ the years.
 
 - “One physical test is worth a thousand expert opinions.”<br>
   ―Rick Seifarth
+
+
+- “Life’s very existence requires destruction.”<br>
+  ―Hugh Derry, Life (2017)
