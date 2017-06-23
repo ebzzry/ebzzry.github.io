@@ -126,7 +126,7 @@ Deletion <a name="deletion"></a>
 I want convenient functions to delete from point to start and end:
 
 ```lisp
-(defun delete-to-bol &optional arg
+(defun delete-to-bol (&optional arg)
   "Delete to beginning of line"
   (interactive "p")
   (delete-region (point) (save-excursion (beginning-of-line) (point))))
