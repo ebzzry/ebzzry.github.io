@@ -236,7 +236,7 @@ Here’s the relevant snippet for all the commands discussed in this article. If
  ("C-x y" . yank-clipboard)
  ("C-x C-y" . yank-primary)
 
- ("M-g " . go-to-column)
+ ("M-g SPC" . go-to-column)
  ("M-g `" . insert-backticks)
  ("M-g =" . insert-equals)
  ("M-g -" . insert-hyphens))
