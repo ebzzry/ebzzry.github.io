@@ -45,7 +45,7 @@ Section I
 Section I
 ---------
         &#94;
-</code></pre><h2>Deletion <a name="deletion"></a></h2><p>I want convenient functions to delete from point to start and end:</p><pre><code class="lisp">&#40;defun delete-to-bol &amp;optional arg
+</code></pre><h2>Deletion <a name="deletion"></a></h2><p>I want convenient functions to delete from point to start and end:</p><pre><code class="lisp">&#40;defun delete-to-bol &#40;&amp;optional arg&#41;
   &quot;Delete to beginning of line&quot;
   &#40;interactive &quot;p&quot;&#41;
   &#40;delete-region &#40;point&#41; &#40;save-excursion &#40;beginning-of-line&#41; &#40;point&#41;&#41;&#41;&#41;
