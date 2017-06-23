@@ -226,13 +226,6 @@ Here’s the relevant snippet for all the commands discussed in this article. If
 
 ```
 (bind-keys
- :map markdown-mode-map
- ("M-g " . go-to-column)
- ("M-g `" . insert-backticks)
- ("M-g =" . insert-equals)
- ("M-g -" . insert-hyphens))
-
-(bind-keys
  :global-map
  ("C-c ^" . delete-to-bol)
  ("C-c $" . delete-to-eol)
@@ -241,7 +234,12 @@ Here’s the relevant snippet for all the commands discussed in this article. If
  ("C-c ." . mark-to-eol)
 
  ("C-x y" . yank-clipboard)
- ("C-x C-y" . yank-primary))
+ ("C-x C-y" . yank-primary)
+
+ ("M-g " . go-to-column)
+ ("M-g `" . insert-backticks)
+ ("M-g =" . insert-equals)
+ ("M-g -" . insert-hyphens))
  ```
 
 
