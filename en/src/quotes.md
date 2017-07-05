@@ -539,3 +539,7 @@ the years.
 
 - “Life’s very existence requires destruction.”<br>
   ―Hugh Derry, Life (2017)
+
+
+- “Failure is only the opportunity more intelligently to begin again. There is no disgrace in honest failure; there is disgrace in fearing to fail.”<br>
+  ―Henry Ford
