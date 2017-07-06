@@ -39,7 +39,7 @@ Table of contents
 - [Notes](#notes)
 
 
-Overview <a name="overview"></a>
+<a name="overview"></a> Overview
 --------------------------------
 
 Ugarit is a classic example of a tool, that requires minimal setup and configuration, but is used
@@ -51,10 +51,10 @@ convenient something is, the less secure it is. With Ugarit, creating and managi
 easy as typing a short command.
 
 
-Installation <a name="installation"></a>
+<a name="installation"></a> Installation
 ----------------------------------------
 
-### APT <a name="apt"></a>
+<a name="apt"></a> ### APT
 
 First, you need to install [Chicken](https://www.call-cc.org/). Most likely, it can be installed via
 your package manager:
@@ -73,14 +73,14 @@ After this command completes, the command `ugarit` will become available. To dis
     $ ugarit -h
 
 
-### Nix <a name="nix"></a>
+<a name="nix"></a> ### Nix
 
 If you’re using Nix, just run the following command:
 
     $ nix-env -i ugarit
 
 
-Configuration <a name="configuration"></a>
+<a name="configuration"></a> Configuration
 ------------------------------------------
 
 Ugarit at this point isn’t usable, yet—you need to specify where should it store the
@@ -129,10 +129,10 @@ Save the file, then secure it.
     $ chmod 600 /ugarit/ugarit.conf
 
 
-Basic usage <a name="basic"></a>
+<a name="basic"></a> Basic usage
 --------------------------------
 
-### Creating snapshots <a name="create"></a>
+<a name="create"></a> ### Creating snapshots
 
 To create a snapshot, run:
 
@@ -157,7 +157,7 @@ File cache has saved us 1 file hashings / 638104 bytes (before compression)
 ```
 
 
-### Exploring Snapshots <a name="explore"></a>
+<a name="explore"></a> ### Exploring Snapshots
 
 To interactively manage the contents of the vault, run:
 
@@ -181,7 +181,7 @@ Extracted holiday
 ```
 
 
-### Extracting Snapshots Directly <a name="extract"></a>
+<a name="extract"></a> ### Extracting Snapshots Directly
 
 If, however, you know the exact path to a file or directory that you
 want to extract, you can instead run Ugarit with the extract mode. To
@@ -190,10 +190,10 @@ extract the directory `holiday/` from above, directly, run:
     $ ugarit extract /ugarit/ugarit.conf /pix/current/contents/holiday
 
 
-Tips <a name="tips"></a>
+<a name="tips"></a> Tips
 ------------------------
 
-### Remote filesystems <a name="remote"></a>
+<a name="remote"></a> ### Remote filesystems
 
 Ugarit is not limited to creating snapshots of a local filesystem. It can also be used to create
 snapshots of trees, from a remote host, mounted locally. If you have
@@ -212,7 +212,7 @@ The same applies to [SMBFS](https://www.samba.org/samba/smbfs/) mounts:
     $ ugarit snapshot /ugarit/ugarit.conf winhost
 
 
-### Miscellany <a name="miscellany"></a>
+<a name="miscellany"></a> ### Miscellany
 
 To disable output, when creating snapshots:
 
@@ -223,7 +223,7 @@ To enable very verbose output:
     $ ugarit snapshot -:a256 /ugarit/ugarit.conf ...
 
 
-Notes <a name="notes"></a>
+<a name="notes"></a> Notes
 --------------------------
 
 When you are doubtful of the performance of the disk where you’ll be storing the snapshots, disable

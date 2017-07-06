@@ -21,7 +21,7 @@ Table of contents
 - [Closing remarks](#closing)
 
 
-Overview <a name="overview"></a>
+<a name="overview"></a> Overview
 --------------------------------
 
 One of the best investments a programmer can have is a good keyboard. What constitutes a good
@@ -36,7 +36,7 @@ layout of the keys, however, turns me off. The <kbd>Ctrl</kbd> and <kbd>Alt</kbd
 to reach. This is important for users of software like Emacs and Zsh.
 
 
-Before <a name="before"></a>
+<a name="before"></a> Before
 ----------------------------
 
 When using Dvorak emulation, the following layout is how the keys are mapped:
@@ -50,7 +50,7 @@ the <kbd>Alt</kbd> key with the right thumb, then the <kbd>x</kbd> key with the 
 finger. Reaching out for the <kbd>Esc</kbd> keys isn’t a lot of fun, either, because it’s too far.
 
 
-After <a name="after"></a>
+<a name="after"></a> After
 --------------------------
 
 I remapped some of the keys, to fit my workflow. The new layout is as follows.
@@ -81,7 +81,7 @@ can map it to <kbd>Mode Switch</kbd>. See the [notes](#notes) below why I added 
 indirection.
 
 
-Setup <a name="setup"></a>
+<a name="setup"></a> Setup
 --------------------------
 
 The `+` indicates pressing and holding a key, while pressing another. The `,` indicates a sequence
@@ -132,7 +132,7 @@ keycode 104 = Multi_key
 ```
 
 
-Notes <a name="notes"></a>
+<a name="notes"></a> Notes
 --------------------------
 
 If the right <kbd>Ctrl</kbd> key has keycode 21—while mapped via xmodmap to
@@ -152,7 +152,7 @@ Jrlfpcidy (j) 1998[2003 LvCv >bicb..pcbiw Cbjv
 At the time of writing, I still don’t know what causes this, nor do I think it makes sense.
 
 
-Closing remarks <a name="closing"></a>
+<a name="closing"></a> Closing remarks
 --------------------------------------
 
 The programmability of the Kinesis Advantage is a strong feature; it lets users tailor the keyboard

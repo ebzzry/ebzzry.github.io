@@ -30,7 +30,7 @@ Table of contents
 - [Closing remarks](#closing)
 
 
-Multi key <a name="multikey"></a>
+<a name="multikey"></a> Multi key
 ---------------------------------
 
 The *multi key*, also called the compose key, is a specially-assigned key, that must be pressed and
@@ -100,7 +100,7 @@ The following table lists the combinations for the Esperanto characters:
 | Ŭ         | Multi_key U U  |
 
 
-Mode switch <a name="modeswitch"></a>
+<a name="modeswitch"></a> Mode switch
 -------------------------------------
 
 A faster and easier way to input Esperanto characters is through the use of the *mode switch*
@@ -170,7 +170,7 @@ keycode 107 = Mode_switch
 ```
 
 
-Closing remarks <a name="closing"></a>
+<a name="closing"></a> Closing remarks
 --------------------------------------
 
 Both methods outlined above do far more than emitting Esperanto characters. The multi key system can
