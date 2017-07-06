@@ -24,7 +24,7 @@ Table of contents
 - [Closing remarks](#closing)
 
 
-Introduction <a name="introduction"></a>
+<a name="introduction"></a> Introduction
 ----------------------------------------
 
 Editing Racket code with Emacs has traditionally been done by rudimentary modes that lacked
@@ -40,7 +40,7 @@ don’t know of any other editor that does it so well. I don’t use DrRacket, e
 its nice GUI debugger.
 
 
-Installation <a name="installation"></a>
+<a name="installation"></a> Installation
 ----------------------------------------
 
 My installation method is crude, but it works, at least for me. Other installation methods exist,
@@ -106,7 +106,7 @@ above, to take effect, you can evaluate them now using members of the eval-* tro
 `eval-last-sexp`, `eval-region`), or, you can still opt to respawn a new Emacs process.
 
 
-Usage <a name="usage"></a>
+<a name="usage"></a> Usage
 --------------------------
 
 To reap what you sowed, create or open a `.rkt` file, with at least a proper module
@@ -126,7 +126,7 @@ description of the keys that I used below, are for myself initially, to help me 
 do. They may, or may not diverge from the official description, listed on the aforementioned link.
 
 
-Racket buffer <a name="racketbuffer"></a>
+<a name="racketbuffer"></a> Racket buffer
 -----------------------------------------
 
 | Key     | What it does                                            |
@@ -139,7 +139,7 @@ Racket buffer <a name="racketbuffer"></a>
 | C-c C-\ | Insert a lambda (λ) symbol                              |
 
 
-REPL buffer <a name="replbuffer"></a>
+<a name="replbuffer"></a> REPL buffer
 -------------------------------------
 
 | Key     | What it does                        |
@@ -152,7 +152,7 @@ REPL buffer <a name="replbuffer"></a>
 | C-c C-q | Quit the REPL                       |
 
 
-Closing remarks <a name="closing"></a>
+<a name="closing"></a> Closing remarks
 --------------------------------------
 
 I have intentionally skipped many topics from the [official document](http://www.nongnu.org/geiser/)
