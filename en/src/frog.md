@@ -38,7 +38,7 @@ Table of contents
 
 
 
-Introduction <a name="introduction"></a>
+<a name="introduction"></a> Introduction
 ----------------------------------------
 
 When I was looking for tools to create this blog, I became dissatisfied with most of the mainstream
@@ -61,7 +61,7 @@ takes in those input files, and it outputs nice HTML that you can upload to your
 No, it’s even easier that it sounds.
 
 
-Installation <a name="installation"></a>
+<a name="installation"></a> Installation
 ----------------------------------------
 
 In the succeeding sections, let’s presume that your username is `ogag`, and your home directory is
@@ -86,7 +86,7 @@ After which, you’ll get the `raco frog` command. Let’s display its help opti
     $ raco frog -h
 
 
-First use <a name="firstuse"></a>
+<a name="firstuse"></a> First use
 ---------------------------------
 
 Sweet. Now that you have Frog installed, let’s get rolling. To create your first Frog-powered
@@ -110,7 +110,7 @@ window, pointing to that URL. The page that you’ll see contains the default si
 OK with it, let’s go back to the terminal, and kill that process by hitting <kbd>C-c</kbd>.
 
 
-Creating new posts <a name="createnew"></a>
+<a name="createnew"></a> Creating new posts
 -------------------------------------------
 
 Creating a new article from scratch is another easy task:
@@ -184,7 +184,7 @@ Then, rebuild the files:
     $ raco frog -bp
 
 
-Customizations <a name="customizations"></a>
+<a name="customizations"></a> Customizations
 --------------------------------------------
 
 By this time, you’re really itching to customize the site. Yep, that’s what you’re going to do in
@@ -204,7 +204,7 @@ changes:
 Let’s examine each of the files in the list, closer.
 
 
-### .frogrc <a name=".frogrc"></a>
+<a name=".frogrc"></a> ### .frogrc
 
 This file is where top-level customizations are made. Open the file `.frogrc`, located in the
 current directory:
@@ -223,7 +223,7 @@ only concerned about three parameters:
 is the name of your blog, and `author` is your name.
 
 
-### page-template.html <a name="page-template.html"></a>
+<a name="page-template.html"></a> ### page-template.html
 
 This file contains the common content, across all types of pages, whether they are blog or non-blog
 posts. Open the file `_src/page-template.html`, located in the current directory:
@@ -243,7 +243,7 @@ at the moment. To make it easier, I’ll just list down the items to search and 
 When you get to those respective sections, it should evident what to replace them with.
 
 
-### post-template.html <a name="post-template.html"></a>
+<a name="post-template.html"></a> ### post-template.html
 
 Similar to `page-template.html`, but this file contains content that will only appear with blog
 posts. It is also Perhaps the easiest file to modify is `_src/post-template.html`. Let’s open it:
@@ -255,7 +255,7 @@ section of your blog posts, to the aforesaid Disqus account. More about this wil
 the section _Comments_.
 
 
-### bootstrap.css and bootstrap.min.css <a name="bootstrap"></a>
+<a name="bootstrap"></a> ### bootstrap.css and bootstrap.min.css
 
 These two files are responsible for what is commonly called as “theme”—it controls the look of the
 site. To change these files, let’s head over to <https://bootswatch.com/>, then let’s select a theme
@@ -266,7 +266,7 @@ arrow, next to the download link, for that theme. Select and download both `boot
     $ cp ~/Downloads/bootstrap.*.css css/
 
 
-Miscellany <a name="miscellany"></a>
+<a name="miscellany"></a> Miscellany
 ------------------------------------
 
 When you created a new post earlier, you used the following command:
@@ -305,7 +305,7 @@ They’re mostly the same, except with the addition of the language specifier, `
 scribble/manual`, and the absence of the prefix spaces for the metadata fields.
 
 
-Comments <a name="comments"></a>
+<a name="comments"></a> Comments
 --------------------------------
 
 Frog makes use of [Disqus](https://disqus.com) to handle its comments. To use it, create an account
@@ -322,7 +322,7 @@ To import comments, from an existing blog, to Disqus, go to
 <https://import.disqus.com>.
 
 
-Show time! <a name="showtime"></a>
+<a name="showtime"></a> Show time!
 ----------------------------------
 
 To publish your work, upload the contents of the directory that Frog manages; in this tutorial, it
@@ -352,7 +352,7 @@ Then you push the commits:
 To view your website, go to [ogag.github.io](http://ogag.github.io).
 
 
-Closing remarks <a name="closing"></a>
+<a name="closing"></a> Closing remarks
 --------------------------------------
 
 [Frog](https://github.com/greghendershott/frog) is a viable and usable site creator. It is

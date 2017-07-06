@@ -20,7 +20,7 @@ Table of contents
 - [Closing remarks](#closing)
 
 
-Regions <a name="regions"></a>
+<a name="regions"></a> Regions
 ------------------------------
 
 This command deletes a region if one is active, or deletes the character underneath the cursor.
@@ -37,7 +37,7 @@ This command deletes a region if one is active, or deletes the character underne
 ```
 
 
-Compilation <a name="compilation"></a>
+<a name="compilation"></a> Compilation
 --------------------------------------
 
 I use this command frequently, and I use it from typesetting LaTeX documents, compiling Scribble
@@ -50,7 +50,7 @@ documents, compiling code, and just about anything that I can use make with.
 ```
 
 
-Scheme <a name="scheme"></a>
+<a name="scheme"></a> Scheme
 ----------------------------
 
 I want to have a command that explicitly saves the input ring of Geiser:
@@ -71,7 +71,7 @@ I also have the following, because I want to align the `λ` symbol nicely.
 ```
 
 
-Server <a name="server"></a>
+<a name="server"></a> Server
 ----------------------------
 
 This snippet ensures that the Emacs server, the one that `emacsclient` connects to:
@@ -90,7 +90,7 @@ $ emacs --daemon
 ```
 
 
-Buffers <a name="buffers"></a>
+<a name="buffers"></a> Buffers
 ------------------------------
 
 I want a way to kill the current buffer, without being asked what buffer to kill. I will only get
@@ -104,7 +104,7 @@ prompted if the current has been modified.
 ```
 
 
-Marks <a name="marks"></a>
+<a name="marks"></a> Marks
 --------------------------
 
 There have been plenty of times in the past when I needed a function that just marks a line. What I
@@ -122,7 +122,7 @@ have is below. Executing it multiple times, marks multiple lines.
 ```
 
 
-Key bindings <a name="keybindings"></a>
+<a name="keybindings"></a> Key bindings
 ---------------------------------------
 
 The key bindings for the commands above, are listed below:
@@ -141,7 +141,7 @@ The key bindings for the commands above, are listed below:
 ```
 
 
-Closing remarks <a name="closing"></a>
+<a name="closing"></a> Closing remarks
 --------------------------------------
 
 I hope you’ll be able to find use of any of them. The rest of the configuration can be

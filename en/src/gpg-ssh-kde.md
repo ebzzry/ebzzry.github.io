@@ -28,7 +28,7 @@ Table of contents
 - [Closing remarks](#closing)
 
 
-Prerequisites <a name="prerequisites"></a>
+<a name="prerequisites"></a> Prerequisites
 ------------------------------------------
 
 For this tutorial you need to have GPG, SSH, and Pinentry.
@@ -46,7 +46,7 @@ DNF:
     $ sudo dnf install gnupg openssh pinentry
 
 
-Configure SSH <a name="ssh"></a>
+<a name="ssh"></a> Configure SSH
 --------------------------------
 
 Now that you have the parts in front of you, it’s time to assemble them. The first thing that you
@@ -67,7 +67,7 @@ Next, authorize yourself on the remote server, so that password-less logins will
     $ ssh-copy-id user@remotehost
 
 
-Configure GPG <a name="gpg"></a>
+<a name="gpg"></a> Configure GPG
 --------------------------------
 
 You need to create next your GPG keys. Follow the prompts that follow, making sure that you select
@@ -103,7 +103,7 @@ Those are my preferred values. If you want to change them, look at the manpage:
     $ man gpg-agent
 
 
-Configure KDE <a name="kde"></a>
+<a name="kde"></a> Configure KDE
 --------------------------------
 
 You now need to link the GPG agent with KDE. You need to create a startup script for KDE that will
@@ -144,7 +144,7 @@ Don’t forget to make it executable:
     $ chmod +x ~/.kde/shutdown/01_gpg-agent.sh
 
 
-Verification <a name="verification"></a>
+<a name="verification"></a> Verification
 ----------------------------------------
 
 Unfortunately, you have to restart your KDE session for these settings to take effect. If you know a
@@ -165,7 +165,7 @@ A similar behavior will happen if you encrypt a file with GPG:
     $ gpg2 -sea -r john@foo.bar file.dat
 
 
-Closing remarks <a name="closing"></a>
+<a name="closing"></a> Closing remarks
 --------------------------------------
 
 The steps outlined above were meant to be succinct without going through the gory details. I avoided

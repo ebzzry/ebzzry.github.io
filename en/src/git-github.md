@@ -32,10 +32,10 @@ Table of contents
 - [Closing remarks](#closing)
 
 
-Basics <a name="basics"></a>
+<a name="basics"></a> Basics
 ----------------------------
 
-### Initial use <a name="initial"></a>
+<a name="initial"></a> ### Initial use
 
 To make things easier later on, you’ll need to create a `.gitignore` file. The .gitignore file
 specifiles files that will be excluded from the repository. Some of these are binary files, and
@@ -69,7 +69,7 @@ Then, commit the changes:
     $ git commit -m "Initial commit."
 
 
-### Subsequent uses <a name="subsequent"></a>
+<a name="subsequent"></a> ### Subsequent uses
 
 This section describes the basic commands that you’re going to use, when you already have a
 repository.
@@ -115,14 +115,14 @@ After that, you may delete the experimental branch:
     $ git branch -d experimental
 
 
-Working online <a name="online"></a>
+<a name="online"></a> Working online
 ------------------------------------
 
 This section describes how to work with other developers. You’re going to
 use [GitHub](https://github.com) in this discussion.
 
 
-### Generate your SSH keys <a name="sshkeys"></a>
+<a name="sshkeys"></a> ### Generate your SSH keys
 
 You need to be able to authenticate yourself to your GitHub account, before you can push changes. To
 do that, you need to create your SSH keys. To do that, run the following command. Make sure that you
@@ -142,7 +142,7 @@ Go to <https://github.com/settings/ssh>, then click **Add SSH key**
 Paste the key, then follow through.
 
 
-### Creating a repository <a name="createrepo"></a>
+<a name="createrepo"></a> ### Creating a repository
 
 In your repositories page, create a new repository by clicking **New**:
 
@@ -159,14 +159,14 @@ You’ll be prompted to supply the passphrase you have entered above. The `git p
 the contents of your repository to the remote repository.
 
 
-### Updating your repository <a name="updaterepo"></a>
+<a name="updaterepo"></a> ### Updating your repository
 
 When you have made further changes to the repository, you may push your changes with the command:
 
     $ git push origin master
 
 
-### Participation <a name="participation"></a>
+<a name="participation"></a> ### Participation
 
 If you want to contribute to a project, you’ll need to work on a copy of that repository, then push
 changes to your own fork.
@@ -224,7 +224,7 @@ select **new-options**, or whatever name you used above. Click **Create pull req
 then, follow through.
 
 
-### Synchronizing with upstream <a name="syncupstream"></a>
+<a name="syncupstream"></a> ### Synchronizing with upstream
 
 To synchronize the upstream branch with the source repository, pull changes from the upstream
 remote:
@@ -236,7 +236,7 @@ Then push to your own repository:
     $ git push origin master
 
 
-Pulling changes <a name="pulling"></a>
+<a name="pulling"></a> Pulling changes
 --------------------------------------
 
 If you are the owner of the source repository, and you want to pull in changes from contributors,
@@ -247,7 +247,7 @@ click **Pull requests** from the repository page:
 then, follow through.
 
 
-Merging with upstream <a name="mergeupstream"></a>
+<a name="mergeupstream"></a> Merging with upstream
 --------------------------------------------------
 
 If you are a contributor, and your changes have been pulled in the source repository, synchronize
@@ -260,7 +260,7 @@ At this point, you may delete the `new-options` branch you have created earlier:
     $ git branch -d new-options
 
 
-Closing remarks <a name="closing"></a>
+<a name="closing"></a> Closing remarks
 --------------------------------------
 
 The workflow described in this document is only one of the many usable workflows that one can
