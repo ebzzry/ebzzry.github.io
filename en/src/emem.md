@@ -20,15 +20,15 @@ that takes in Markdown input either from stdin or disk file, then it produces a 
 decent enough, at least, for regular viewing.
 
 
-Table of contents <a name="toc"></a>
-------------------------------------
+Table of contents
+-----------------
 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Closing remarks](#closing)
 
 
-Installation <a name="installation"></a>
+<a name="installation"></a> Installation
 ----------------------------------------
 
 emem is available via [Nix](https://nixos.org/nix/). If you don’t have Nix yet, you may install it
@@ -65,7 +65,7 @@ $ emem --version
 The latest version is 0.2.43.
 
 
-Usage <a name="usage"></a>
+<a name="usage"></a> Usage
 --------------------------
 
 At the most basic level, simply running emem against a Markdown file produces a basic, yet complete
@@ -226,7 +226,7 @@ $ emem --help
 ```
 
 
-Closing remarks <a name="closing"></a>
+<a name="closing"></a> Closing remarks
 --------------------------------------
 
 For this whole [journal](https://ebzzry.io), I was able to get a 90+ score

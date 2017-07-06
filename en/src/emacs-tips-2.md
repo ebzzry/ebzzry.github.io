@@ -28,7 +28,7 @@ Table of contents
 - [Closing remarks](#closing)
 
 
-Desktop <a name="desktop"></a>
+<a name="desktop"></a> Desktop
 ------------------------------
 
 An indispensable tool that I use now is desktop. It saves the state of my Emacs session, so that in
@@ -55,7 +55,7 @@ Desktop comes built-in with the recent versions of GNU Emacs. Here's my snippet:
 ```
 
 
-Savehist <a name="savehist"></a>
+<a name="savehist"></a> Savehist
 --------------------------------
 
 Another important functionality that I use is savehist. It saves the minibuffer history. It’s
@@ -68,7 +68,7 @@ roughly similar to saving the command line history. Here’s my snippet
 ```
 
 
-Consolidation <a name="consolidation"></a>
+<a name="consolidation"></a> Consolidation
 ------------------------------------------
 
 No, that is not the name of a library. However, there were a lot of times, when I want to manually
@@ -103,10 +103,10 @@ M-x save RET
 ```
 
 
-Packages <a name="packages"></a>
+<a name="packages"></a> Packages
 --------------------------------
 
-### ELPA <a name="elpa"></a>
+<a name="elpa"></a> ### ELPA
 
 If you aren’t using the package system yet, use it now. All you need to get started is the
 following:
@@ -138,7 +138,7 @@ M-x pi RET package RET
 ```
 
 
-### use-package <a name="use-package"></a>
+<a name="use-package"></a> ### use-package
 
 This one is a real gem. It’s like `require`, but on steroids. When “requiring” a package, you have
 the option to specify to install that package, if it does not exist, yet. It also enables you to
@@ -169,7 +169,7 @@ loading it, have:
 ```
 
 
-Line numbers <a name="linenumbers"></a>
+<a name="linenumbers"></a> Line numbers
 ---------------------------------------
 
 I really like to have the line numbers displayed at the left margin. It gives me a rough idea how
@@ -185,7 +185,7 @@ big the file is, and where am I currently. Turning on `linum-mode` achieves it:
 ```
 
 
-Timestamps <a name="timestamps"></a>
+<a name="timestamps"></a> Timestamps
 ------------------------------------
 
 I frequently find the need to insert timestamps, especially when I'm editing my daily log file. Here
@@ -209,7 +209,7 @@ The code above sets the correct value for `system-time-locale`, and binds keys f
 `insert-date/long` and `insert-date/short`.
 
 
-Keys <a name="keys"></a>
+<a name="keys"></a> Keys
 ------------------------
 
 When your key bindings are not organized, it’s not easy to find what key did you bind to
@@ -225,7 +225,7 @@ An example would look like:
 ```
 
 
-Newline sans indent <a name="newline"></a>
+<a name="newline"></a> Newline sans indent
 ------------------------------------------
 
 This command creates a newline, then moves the cursor. It simulates a behavior wherein the new line
@@ -239,7 +239,7 @@ doesn’t indent.
 ```
 
 
-Filling <a name="filling"></a>
+<a name="filling"></a> Filling
 ------------------------------
 
 This snippet works great when working when working with plain text. It indent a paragraph, or the
@@ -254,7 +254,7 @@ current paragraph context. If there is a mark, the region becomes filled.
 ```
 
 
-Cursor movement <a name="cursormovement"></a>
+<a name="cursormovement"></a> Cursor movement
 ---------------------------------------------
 
 The command `move-to-window-line-top-bottom`, bound by default to <kbd>M-r</kbd> is great when you
@@ -278,7 +278,7 @@ the top, center, and bottom window positions, respectively.
 ```
 
 
-Git status in dired <a name="gitdired"></a>
+<a name="gitdired"></a> Git status in dired
 -------------------------------------------
 
 This small snippet gives visual indications of the status of git-managed files in a Dired
@@ -293,7 +293,7 @@ buffer. Pressing <kbd>g</kbd> reloads the buffer, then updates the status.
 ```
 
 
-Key bindings <a name="keybindings"></a>
+<a name="keybindings"></a> Key bindings
 ---------------------------------------
 
 The key bindings for the commands above, are listed below:
@@ -321,7 +321,7 @@ The key bindings for the commands above, are listed below:
 ```
 
 
-Closing remarks  <a name="closing"></a>
+<a name="closing"></a> Closing remarks 
 ---------------------------------------
 
 In this post, I demonstrated that small tweaks can generate huge benefits. The rest of the

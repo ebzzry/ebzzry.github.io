@@ -42,7 +42,7 @@ Table of contents
 - [Closing remarks](#closing)
 
 
-Installation <a name="installation"></a>
+<a name="installation"></a> Installation
 ----------------------------------------
 
 Installing smartparens is straightforward:
@@ -52,7 +52,7 @@ M-x package-install RET smartparens RET
 ```
 
 
-Configuration <a name="configuration"></a>
+<a name="configuration"></a> Configuration
 ------------------------------------------
 
 Let’s enable smartparens on startup, and hook it with some major hooks:
@@ -69,7 +69,7 @@ Let’s enable smartparens on startup, and hook it with some major hooks:
 ```
 
 
-Usage <a name="usage"></a>
+<a name="usage"></a> Usage
 --------------------------
 
 Managing paired characters like parentheses, braces, brackets, quotation marks, angle brackets, and
@@ -79,7 +79,7 @@ partially. However, they it still miss several points.
 In the code snippets below, the `^` symbol will be used to represent point:
 
 
-### Basics <a name="basics"></a>
+<a name="basics"></a> ### Basics
 
 In smartparens, when you input a pair-able character:
 
@@ -99,10 +99,10 @@ the pair:
 ```
 
 
-### Navigation <a name="navigation"></a>
+<a name="navigation"></a> ### Navigation
 
 
-#### Starts and ends <a name="startsandends"></a>
+<a name="startsandends"></a> #### Starts and ends
 
 If you have the expression:
 
@@ -133,7 +133,7 @@ Conversely, to move point to the end of the expression:
 Execute `sp-end-of-sexp`. I bound it to <kbd>C-M-e</kbd>.
 
 
-#### Traversing lists <a name="traversinglists"></a>
+<a name="traversinglists"></a> #### Traversing lists
 
 If you have the expression:
 
@@ -212,7 +212,7 @@ and you want to move point to `(format`:
 Execute `sp-backward-up-sexp`. I bound it to <kbd>M-up</kbd>.
 
 
-#### Block movements <a name="blockmovements"></a>
+<a name="blockmovements"></a> #### Block movements
 
 If you have the expression:
 
@@ -243,7 +243,7 @@ Conversely, to move it back to `[`:
 Execute `sp-backward-sexp`. I bound it to <kbd>C-M-b</kbd>.
 
 
-#### Top-level-ish traversal <a name="toplevel"></a>
+<a name="toplevel"></a> #### Top-level-ish traversal
 
 If you have the expression:
 
@@ -282,7 +282,7 @@ Conversely, to move it back:
 Execute `sp-previous-sexp`. I bound it to <kbd>C-M-p</kbd>.
 
 
-#### Free-form movements <a name="freeform"></a>
+<a name="freeform"></a> #### Free-form movements
 
 If you have the expression:
 
@@ -324,9 +324,9 @@ What they do is that they navigate around expressions as if delimiters, like par
 braces do not exist.
 
 
-### Manipulation <a name="manipulation"></a>
+<a name="manipulation"></a> ### Manipulation
 
-#### Wrapping <a name="wrapping"></a>
+<a name="wrapping"></a> #### Wrapping
 
 If you have the expression:
 
@@ -404,7 +404,7 @@ var mods = ["vars"];
 Nothing will happen. smartparens saves us a lot of trouble, here.
 
 
-#### Unwrapping <a name="unwrapping"></a>
+<a name="unwrapping"></a> #### Unwrapping
 
 If you have the expression:
 
@@ -435,7 +435,7 @@ Conversely, if you want to unwrap the `bar` expression, removing the parentheses
 Execute `sp-unwrap-sexp`. I bound it to <kbd>M-]</kbd>.
 
 
-#### Slurp and barf <a name="slurpandbarf"></a>
+<a name="slurpandbarf"></a> #### Slurp and barf
 
 If you have the expression:
 
@@ -494,7 +494,7 @@ blah [foo bar]
 Execute `sp-backward-barf-sexp`. I bound it to <kbd>M-left</kbd>.
 
 
-#### Swapping <a name="swapping"></a>
+<a name="swapping"></a> #### Swapping
 
 If you have the expression:
 
@@ -515,7 +515,7 @@ and you want `"foo"` and `"bar"` to trade places:
 Execute `sp-transpose-sexp`. I bound it to <kbd>C-M-t</kbd>.
 
 
-#### Killing <a name="killing"></a>
+<a name="killing"></a> #### Killing
 
 If you have the expression:
 
@@ -564,7 +564,7 @@ and you want to kill `[clojure.string :as s]`:
 Execute `sp-backward-kill-sexp`. I bound it to <kbd>M-k</kbd>
 
 
-Keys <a name="keys"></a>
+<a name="keys"></a> Keys
 ------------------------
 
 The following snippet summarizes the key bindings used in this article. I use `bind-keys` to
@@ -621,7 +621,7 @@ conveniently map my keys. I discussed about it, in an [earlier](/en/emacs-tips-2
 ```
 
 
-Closing remarks <a name="closing"></a>
+<a name="closing"></a> Closing remarks
 --------------------------------------
 
 The plethora of commands in smartparens may be daunting at first, but the investement in time in
