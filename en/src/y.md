@@ -26,7 +26,7 @@ Table of contents
 - [Closing remarks](#closing)
 
 
-Y? <a name="y"></a>
+<a name="y"></a> Y?
 -----------------------
 
 The Y combinator has been both a source of inspiration and frustration for many. It evokes a
@@ -38,7 +38,7 @@ In the code examples in this post, the `>` symbol denotes the prompt symbol for 
 implementation.
 
 
-Step 1: Define the base procedure <a name="base"></a>
+<a name="base"></a> Step 1: Define the base procedure
 -----------------------------------------------------
 
 Let’s start by defining a procedure named `foo` that computes the summation of a positive integer,
@@ -60,7 +60,7 @@ why.
 
 
 
-Step 2: Curry the recursive call <a name="curry"></a>
+<a name="curry"></a> Step 2: Curry the recursive call
 -----------------------------------------------------
 
 Let’s break that procedure further, into more elementary components, and you’ll apply it,
@@ -83,7 +83,7 @@ procedure. In this case, you used the identifier `f` to bind to the recursive pr
 procedure invocation method used initially: `((foo foo) 100)`.
 
 
-Step 3: Apply procedure to itself <a name="self"></a>
+<a name="self"></a> Step 3: Apply procedure to itself
 -----------------------------------------------------
 
 You’re now going to exploit that property, to use a “nameless” approach—not using the `foo`
@@ -108,7 +108,7 @@ Take note, that at this point, you’re no longer using the `foo` name,
 to refer the the definition, except for later.
 
 
-Step 4: Abstract inner recursive call <a name="abstractinner"></a>
+<a name="abstractinner"></a> Step 4: Abstract inner recursive call
 ------------------------------------------------------------------
 
 Next, you need to move the `(f f)` part outside, to isolate the general (Y combinator), from the
@@ -137,7 +137,7 @@ During the procedure application, the identifier `p` will be bound to `(lambda (
 the identifier `v` will be bound to `(- n 1)`.
 
 
-Step 5: Isolate the combinator <a name="isolate"></a>
+<a name="isolate"></a> Step 5: Isolate the combinator
 -----------------------------------------------------
 
 Next, you’re going to isolate the Y combinator, from the `foo` procedure.
@@ -161,7 +161,7 @@ You replace the `foo`-specific definition with `x`. This requires you, again, to
 `lambda`. Since `x` is bound to the computing procedure, you no longer need to repeat it.
 
 
-Step 6: Define the combinator <a name="define"></a>
+<a name="define"></a> Step 6: Define the combinator
 ---------------------------------------------------
 
 Finally, you will explicitly create a separate procedure definition for the Y combinator itself, and
@@ -186,7 +186,7 @@ the `foo` procedure.
 ```
 
 
-Closing remarks <a name="closing"></a>
+<a name="closing"></a> Closing remarks
 --------------------------------------
 
 When the key concepts are understood, it becomes easy to grasp the seemingly daunting ideas. I hope

@@ -22,7 +22,7 @@ Table of contents
 - [WDired mode](#wdired)
 
 
-Overview <a name="overview"></a>
+<a name="overview"></a> Overview
 --------------------------------
 
 To run Dired, run Emacs on the command line, supplying a directory as its argument:
@@ -47,7 +47,7 @@ with it. Take note, that the keyboard shortcuts in this article are case-sensiti
 explicitly stated otherwise.
 
 
-Common commands <a name="commoncommands"></a>
+<a name="commoncommands"></a> Common commands
 ---------------------------------------------
 
 These are the usual commands that you would use, in a dired buffer. In addition to that, they can
@@ -66,7 +66,7 @@ operate on single, or multiple items. Using them for multiple items will be expl
 | ! or X  | Run shell command on item |
 
 
-Mark commands <a name="markcommands"></a>
+<a name="markcommands"></a> Mark commands
 -----------------------------------------
 
 These commands perform mark-related operations on items. Creating
@@ -84,7 +84,7 @@ operations in the previous section, on them.
 | c   | Compress items                                   |
 
 
-Other commands <a name="othercommands"></a>
+<a name="othercommands"></a> Other commands
 -------------------------------------------
 
 These commands act on their own. They operate on single items, and
@@ -104,7 +104,7 @@ exception.
 | w       | Copy item name to clipboard             |
 
 
-WDired mode <a name="wdired"></a>
+<a name="wdired"></a> WDired mode
 ---------------------------------
 
 *BUT*, one of the coolest, and often-overlooked feature of dired is the _WDired_ mode. What it does

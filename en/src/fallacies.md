@@ -60,7 +60,7 @@ Table of contents
 - [Poisoning the well](#poisoning)
 
 
-Post hoc ergo propter hoc <a name="posthoc"></a>
+<a name="posthoc"></a> Post hoc ergo propter hoc
 ------------------------------------------------
 
 After X, Y happened. Therefore, X caused Y. When an event happened after another event, it is
@@ -73,7 +73,7 @@ This is fallacious because she ignores the possibility that it may have been the
 to her father, that made him well.
 
 
-Cum hoc ergo propter hoc <a name="cumhoc"></a>
+<a name="cumhoc"></a> Cum hoc ergo propter hoc
 ----------------------------------------------
 
 During X, Y happened. Therefore, X is related Y. When an event happened together with another event,
@@ -86,7 +86,7 @@ This is fallacious because she doesn’t consider other factors like Pedro movin
 of his own volition, and not due to magic.
 
 
-Ad hominem <a name="adhominem"></a>
+<a name="adhominem"></a> Ad hominem
 -----------------------------------
 
 This happens when instead of presenting a case against an argument, person A is instead attacked
@@ -101,7 +101,7 @@ Maria’s personal status doesn’t not have any bearing on the validity her cla
 are irrelevant. What should be attacked is Maria’s argument, and not her personal standings.
 
 
-Tu quoque <a name="tuquoque"></a>
+<a name="tuquoque"></a> Tu quoque
 ---------------------------------
 
 This is committed when a person’s argument are claimed to be false because that person is
@@ -115,7 +115,7 @@ presented an objection that smoking is *not* harmful to the health, then it woul
 position.
 
 
-Loaded question <a name="loaded"></a>
+<a name="loaded"></a> Loaded question
 -------------------------------------
 
 This happens when a presumption is made beforehand, and that an answer is forced from constrained
@@ -128,7 +128,7 @@ Juan answers “Yes.”, then he has cheated on his wife before, and that he has
 Juan answers “No.”, then he has cheated before, and still continues to cheat on her.
 
 
-False dichotomy <a name="falsedichotomy"></a>
+<a name="falsedichotomy"></a> False dichotomy
 ---------------------------------------------
 
 This is committed when a person is forced to choose a position, or answer a question, with coerced
@@ -141,7 +141,7 @@ from those presented. In this case, the person being asked may be indifferent to
 the speaker.
 
 
-False compromise <a name="falsecompromise"></a>
+<a name="falsecompromise"></a> False compromise
 -----------------------------------------------
 
 This is committed when a gray area is forced, even if there are clear choices. This is usually
@@ -155,7 +155,7 @@ arguments may be the solution to the problem. This is done to commit “fence si
 safe.”
 
 
-Hasty generalization <a name="hasty"></a>
+<a name="hasty"></a> Hasty generalization
 -----------------------------------------
 
 This is committed when it is assumed that a part composes the whole. It is made when a conclusion is
@@ -169,7 +169,7 @@ concluded that all homosexuals are despicable, and that they must be treated wit
 disgust.
 
 
-Sweeping generalization <a name="sweeping"></a>
+<a name="sweeping"></a> Sweeping generalization
 -----------------------------------------------
 
 This is committed when a majority is assumed to compose the whole. It is made when a significant
@@ -182,7 +182,7 @@ The speaker has given up the possibility that such a pen may exist, in one or mo
 that he hasn’t visited, yet.
 
 
-Burden of proof <a name="burden"></a>
+<a name="burden"></a> Burden of proof
 -------------------------------------
 
 This is committed when the responsibility to provide proof does not lie with person A, the one
@@ -196,7 +196,7 @@ person B. Since there are no physical ways for person B to prove that the claims
 invalid, person A presumes that his claims must be true.
 
 
-Slippery slope <a name="slippery"></a>
+<a name="slippery"></a> Slippery slope
 --------------------------------------
 
 This is committed when something is presumed to happen next, due to another factor. That, if you
@@ -209,7 +209,7 @@ This fails to consider that majority of gun-related accidents happen in the home
 owners. This also assumes that civilians who own guns are responsible enough to wield such weapons.
 
 
-Red herring <a name="redherring"></a>
+<a name="redherring"></a> Red herring
 -------------------------------------
 
 This is committed when an irrelevant topic is introduced to divert attention from the original
@@ -223,7 +223,7 @@ The goal is to abandon the original topic, to distract the listener. This is fre
 political interviews and discussions.
 
 
-Straw man <a name="strawman"></a>
+<a name="strawman"></a> Straw man
 ---------------------------------
 
 This is committed when person B presents a distorted, weaker version of the argument that person A
@@ -237,7 +237,7 @@ Pedro misrepresents the position of Juan as: “People should give up drinking a
 what Juan said.
 
 
-Appeal to age <a name="age"></a>
+<a name="age"></a> Appeal to age
 --------------------------------
 
 This is committed when it is argued that very old or very young arguments are superior. This is
@@ -250,7 +250,7 @@ This fails to address why their products are superior to the
 others. Just because something is old or new, doesn’t make it better.
 
 
-Appeal to seniority <a name="seniority"></a>
+<a name="seniority"></a> Appeal to seniority
 --------------------------------------------
 
 This is committed when a person’s age is used to support the validity of his claims. This is usually
@@ -262,7 +262,7 @@ It is assumed here, that just because someone is younger than him, makes him les
 things that are being discussed.
 
 
-Appeal to authority <a name="authority"></a>
+<a name="authority"></a> Appeal to authority
 --------------------------------------------
 
 This is committed when the actions, choices, and words of a person of authority, or expertise, is
@@ -276,7 +276,7 @@ the [theory of evolution](http://notjustatheory.com/). It is likely that even if
 he doesn’t understand the said theory.
 
 
-Appeal to anonymous authority <a name="anonauthority"></a>
+<a name="anonauthority"></a> Appeal to anonymous authority
 ----------------------------------------------------------
 
 This is committed when an appeal to authority is made, but the authority is not named. This makes it
@@ -288,7 +288,7 @@ This fails because of the failure to specify who these so-called *experts* are. 
 specify who these experts are, he will resort to tactics to elude the question.
 
 
-Appeal to false authority <a name="falseauthority"></a>
+<a name="falseauthority"></a> Appeal to false authority
 -------------------------------------------------------
 
 This is committed when an appeal to authority is made, but the authority in question is outside the
@@ -301,7 +301,7 @@ Pedro, however, is not qualified professional to study and review health product
 any substantial experience prior to conducting such a study.
 
 
-Appeal to popularity <a name="popularity"></a>
+<a name="popularity"></a> Appeal to popularity
 ----------------------------------------------
 
 This fallacy states that if most people—relative to the speaker—chooses a specific position, then
@@ -315,7 +315,7 @@ This happens when a person believes a claim on superficial bases. This usually h
 biases. A choice is made not due to technical merits, but due to prejudices.
 
 
-Appeal to nature <a name="nature"></a>
+<a name="nature"></a> Appeal to nature
 --------------------------------------
 
 This fallacy is committed when it is argued that just because something is “natural” means it is
@@ -328,7 +328,7 @@ Cultivated tobacco (*Nicotiana tabacum*) is a naturally-occuring plant that is r
 than five million deaths per year, around the world.
 
 
-Appeal to emotion <a name="emotion"></a>
+<a name="emotion"></a> Appeal to emotion
 ----------------------------------------
 
 This fallacy is committed when emotions are used to elicit a fallacious response from the
@@ -342,7 +342,7 @@ Pedrito’s parent wants to make him eat the broccoli, by using emotional ploy, 
 substantial reasons for Pedrito to eat the broccoli.
 
 
-Appeal to force <a name="force"></a>
+<a name="force"></a> Appeal to force
 ------------------------------------
 
 This fallacy is committed when the threat of force or violence is used to coerce a person to accept
@@ -354,7 +354,7 @@ Instead of providing a reason why someone should listen to Jibbers Crabst, threa
 instead used to force someone to follow blindly.
 
 
-Appeal to tradition <a name="tradition"></a>
+<a name="tradition"></a> Appeal to tradition
 --------------------------------------------
 
 This fallacy is committed when it is argued that just because something is traditional, or the norm,
@@ -366,7 +366,7 @@ This fails to state why one should join the said event. Instead it is argued tha
 on the grounds that it is traditional.
 
 
-Appeal to origins <a name="origins"></a>
+<a name="origins"></a> Appeal to origins
 ----------------------------------------
 
 This is committed when it is assumed that an argument or a speaker, of a particular origin has more
@@ -380,7 +380,7 @@ This presumes that since Pancho originates from less fortunate social standings,
 ones who are also poor, just like he was before.
 
 
-Appeal to the future <a name="future"></a>
+<a name="future"></a> Appeal to the future
 ------------------------------------------
 
 This is committed when a person uses the uncertainty of the future, to support his argument. He
@@ -392,7 +392,7 @@ There are no known ways at the moment, to verify his claims, since it is impossi
 experience the future.
 
 
-Appeal to complexity <a name="complexity"></a>
+<a name="complexity"></a> Appeal to complexity
 ----------------------------------------------
 
 This is committed when a person will assert that just because he doesn’t understand something, then
@@ -405,7 +405,7 @@ The speaker applies his personal limitations to everyone, since he himself can�
 similar to hasty generalizations.
 
 
-Appeal to balance <a name="balance"></a>
+<a name="balance"></a> Appeal to balance
 ----------------------------------------
 
 This is committed when the idea of balance is used when it is not appropriate. The word “balance” in
@@ -419,7 +419,7 @@ exist to create balance. This is faulty reasoning—just because you can’t eli
 means its existence is necessary.
 
 
-Begging the question <a name="begging"></a>
+<a name="begging"></a> Begging the question
 -------------------------------------------
 
 This fallacy is committed when the thing to be proved is used as one of the premises. It is an
@@ -432,7 +432,7 @@ This blatantly assumes the validity of the existence of such an entity, and to p
 assume that that entity exists, first. X because X.
 
 
-Selective observation <a name="selective"></a>
+<a name="selective"></a> Selective observation
 ----------------------------------------------
 
 This is committed when a conclusion is made from narrow and limited views. This is also called the
@@ -445,7 +445,7 @@ The observer ignores the possibility that what he sees may not be true because J
 she wants people to see and believe.
 
 
-No true Scotsman <a name="scotsman"></a>
+<a name="scotsman"></a> No true Scotsman
 ----------------------------------------
 
 This is committed when an argument is made by asserting that a behavior is only acceptable within
@@ -457,7 +457,7 @@ This is a form of false purity. It asserts that there is only one acceptable way
 eat. This is similar to appeal to tradition.
 
 
-Not invented here <a name="nih"></a>
+<a name="nih"></a> Not invented here
 ------------------------------------
 
 This is committed when something that is foreign or local, is deemed worse or better. This is
@@ -470,7 +470,7 @@ ideologies of feminism. This is also frequently observed with imported products,
 they’re superior over the local ones just because they’re “imported.”
 
 
-Dismissal <a name="dismissal"></a>
+<a name="dismissal"></a> Dismissal
 ----------------------------------
 
 This is committed when an idea is rejected but it is not explained why. This is usually done when a
@@ -484,7 +484,7 @@ statement. He is uncomfortable with the objections, and a way for him to get aro
 is to remove the originator of such objections.
 
 
-Bad analogy <a name="badanalogy"></a>
+<a name="badanalogy"></a> Bad analogy
 -------------------------------------
 
 This is committed when the speaker argues that since two things are similar in some characteristics,
@@ -498,7 +498,7 @@ The speaker convolutes something that is directly observable, to something that 
 draws conclusions based on false comparisons.
 
 
-Diminished claim <a name="diminished"></a>
+<a name="diminished"></a> Diminished claim
 ------------------------------------------
 
 This is committed when a speaker asserts something, but retracts it later by providing contradictory
@@ -512,7 +512,7 @@ backs out later and claims that some “astral” beings must be the source of t
 but states the anti-X, later.
 
 
-Least plausible hypothesis <a name="least"></a>
+<a name="least"></a> Least plausible hypothesis
 -----------------------------------------------
 
 This is committed when a person blatantly ignores compelling and sound evidence, in favor of a
@@ -526,7 +526,7 @@ thought was “divine” blood. It was later discovered that a tube was connecte
 cow blood was pumped through it.
 
 
-Moving the goalpost <a name="moving"></a>
+<a name="moving"></a> Moving the goalpost
 -----------------------------------------
 
 This is committed when person B changes his position after person A successfully attacks the initial
@@ -541,7 +541,7 @@ The speaker adjusted his position when his initial claims were jeopardized. When
 changed, the speaker changed his position, too.
 
 
-Poisoning the well <a name="poisoning"></a>
+<a name="poisoning"></a> Poisoning the well
 -------------------------------------------
 
 This is committed when person B objects that one or all of the sources of person A is invalid and

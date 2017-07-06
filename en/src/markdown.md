@@ -26,11 +26,11 @@ Table of contents
 - [Closing remarks](#closing)
 
 
-Headings <a name="headings"></a>
+<a name="headings"></a> Headings
 --------------------------------
 
 
-### Level 1 <a name="level1"></a>
+<a name="level1"></a> ### Level 1
 
 Level 1 headings are ideal when used as Document titles. They should be used only once in and they
 must be in the first line of a file. It should describe what the file or document is all about. I
@@ -50,7 +50,7 @@ instead of
 ```
 
 
-### Level 2 <a name="level2"></a>
+<a name="level2"></a> ### Level 2
 
 Level 2 headings indicate the top-level sections of a document. They are the primary dividers in a
 file. Similar to the level 1 heading, I use the `-` (hyphen) symbol to mark the heading. I use it
@@ -68,7 +68,7 @@ instead of
 ```
 
 
-### Lower levels <a name="lowerlevels"></a>
+<a name="lowerlevels"></a> ### Lower levels
 
 For level 3 and lower headings, I use the `#` with the appropriate number of repetitions to indicate
 the level.
@@ -89,7 +89,7 @@ And, so on.
 
 
 
-Spacing <a name="spacing"></a>
+<a name="spacing"></a> Spacing
 ------------------------------
 
 The space between document elements should be consistent to facilitate readability. After a heading,
@@ -143,7 +143,7 @@ mehmeh meh mehmeh meh mehmeh meh meh
 ```
 
 
-Code blocks <a name="codeblocks"></a>
+<a name="codeblocks"></a> Code blocks
 -------------------------------------
 
 When the code or command block occupies one to two lines, indent it with four spaces:
@@ -163,7 +163,7 @@ of a code block:
     $ date
     ˋˋˋ 
 
-Bullets <a name="bullets"></a>
+<a name="bullets"></a> Bullets
 ------------------------------
 
 When making lists, I like to use the `-` hyphen charactr to indicate the first level. I use the `+`
@@ -188,14 +188,14 @@ For example:
 ```
 
 
-Anchors <a name="anchors"></a>
+<a name="anchors"></a> Anchors
 ------------------------------
 
 When the target document format of your Markdown files is HTML, it is a good habit to label your
 sections properly. For example, this section is written as:
 
 ```markdown
-Anchors <a name="anchors"></a>
+<a name="anchors"></a> Anchors
 ------------------------------
 
 ```
@@ -210,7 +210,7 @@ Table of contents
 ```
 
 
-Line width <a name="linewidth"></a>
+<a name="linewidth"></a> Line width
 -----------------------------------
 
 In the old days, it’s good to wrap your lines at the 70 character line width. Nowadays, a higher
@@ -235,7 +235,7 @@ This guideline, however, may not apply if you are using the editors of services 
 GitLab, wherein it is usually more convenient to let the UI wrap the text.
 
 
-Extras <a name="extras"></a>
+<a name="extras"></a> Extras
 ----------------------------
 
 When using GNU Emacs, I use [these](https://gist.github.com/0c8fb40ac8db1463a933cfc19f219431)
@@ -274,7 +274,7 @@ Monsters and angels
 ```
 
 
-Closing remarks <a name="closing"></a>
+<a name="closing"></a> Closing remarks
 --------------------------------------
 
 By following these simple guidelines, I create consistency among my Markdown source files. These

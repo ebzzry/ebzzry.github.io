@@ -37,7 +37,7 @@ Table of contents
 - [Horizontal ellipsis](#horizontalellipsis)
 
 
-Hyphens (-) <a name="hyphens"></a>
+<a name="hyphens"></a> Hyphens (-)
 ----------------------------------
 
 - Windows: <kbd>-</kbd>
@@ -55,7 +55,7 @@ To speak of a snake that eats birds, we say:
 - A snake eating bird.
 
 
-En dashes (–) <a name="endashes"></a>
+<a name="endashes"></a> En dashes (–)
 -------------------------------------
 
 - Windows: <kbd>Alt</kbd> + <kbd>0</kbd> <kbd>1</kbd> <kbd>5</kbd> <kbd>0</kbd>
@@ -82,7 +82,7 @@ When the month is the same, used the unspaced en dash:
 - March 14–15, 1900
 
 
-Em dashes (—) <a name="emdashes"></a>
+<a name="emdashes"></a> Em dashes (—)
 -------------------------------------
 
 - Windows: <kbd>Alt</kbd> + <kbd>0</kbd> <kbd>1</kbd> <kbd>5</kbd> <kbd>1</kbd>
@@ -110,7 +110,7 @@ To denote interruption of the speaker:
 - “I think I will go and—hell, no.”
 
 
-Double quotes (“) (”) <a name="doublequotes"></a>
+<a name="doublequotes"></a> Double quotes (“) (”)
 -------------------------------------------------
 
 Left double quotes (“)
@@ -148,7 +148,7 @@ nines:
 - ⁶⁶Quoted Text⁹⁹
 
 
-Single quotes (‘) (’) <a name="singlequotes"></a>
+<a name="singlequotes"></a> Single quotes (‘) (’)
 -------------------------------------------------
 
 Left single quote (‘)
@@ -189,7 +189,7 @@ write it as “1990s.” Next, is the presence of “s.” This creates an array
 With this in mind, ’90s means the years 1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, and 1999.
 
 
-Prime symbols (′) (″) <a name="prime"></a>
+<a name="prime"></a> Prime symbols (′) (″)
 ------------------------------------------
 
 Prime (′)
@@ -224,7 +224,7 @@ words above it are to be repeated. For example:
 Optimus′?
 
 
-Horizontal ellipsis (…) <a name="horizontalellipsis"></a>
+<a name="horizontalellipsis"></a> Horizontal ellipsis (…)
 ---------------------------------------------------------
 
 - Windows: <kbd>Alt</kbd> + <kbd>0</kbd> <kbd>1</kbd> <kbd>3</kbd> <kbd>3</kbd>
@@ -250,7 +250,7 @@ When used at the end of a block, put a space before it; when used at the start, 
 it; when used in the middle, put spaces around it.
 
 
-Closing remarks <a name="closing"></a>
+<a name="closing"></a> Closing remarks
 --------------------------------------
 
 Using the correct punctuation marks and symbols draws the line between class and crass. When you use

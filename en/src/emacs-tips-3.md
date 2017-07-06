@@ -19,7 +19,7 @@ Table of contents
 - [Closing remarks](#closing)
 
 
-Insertion <a name="insertion"></a>
+<a name="insertion"></a> Insertion
 ----------------------------------
 
 I work with a lot of Markdown files and I want a way to easily insert characters and strings.
@@ -120,7 +120,7 @@ Section I
 ```
 
 
-Deletion <a name="deletion"></a>
+<a name="deletion"></a> Deletion
 --------------------------------
 
 I want convenient functions to delete from point to start and end:
@@ -161,7 +161,7 @@ A journal about computing,
 ```
 
 
-Marking <a name="marking"></a>
+<a name="marking"></a> Marking
 ------------------------------
 
 There are many times when I want to make a region from point to start and end. For that, I have the
@@ -182,7 +182,7 @@ following:
 I bound it <kbd>C-c C-a</kbd> and <kbd>C-c C-e</kbd>, respectively.
 
 
-Yanking <a name="yanking"></a>
+<a name="yanking"></a> Yanking
 ------------------------------
 
 I want to be able to yank from the clipboard to Emacs, especially when I’m on the terminal.
@@ -216,7 +216,7 @@ selection is the one used when you invoke the _Copy_ command from an application
 <kbd>Ctrl+c</kbd> is pressed.
 
 
-Keys <a name="keys"></a>
+<a name="keys"></a> Keys
 ------------------------
 
 Here’s the relevant snippet for all the commands discussed in this article. If you don’t have
@@ -243,8 +243,8 @@ Here’s the relevant snippet for all the commands discussed in this article. If
  ```
 
 
-Closing remarks  <a name="closing"></a>
----------------------------------------
+<a name="closing"></a> Closing remarks
+--------------------------------------
 
 These functions and key bindings make it significantly convenient for me when working with
 emacsclient on the terminal, due to the fact that some keyboard control codes are not received by

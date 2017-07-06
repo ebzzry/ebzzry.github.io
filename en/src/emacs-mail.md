@@ -35,14 +35,14 @@ Table of contents
 - [Closing remarks](#closing)
 
 
-Fetching messages <a name="fetching"></a>
+<a name="fetching"></a> Fetching messages
 -----------------------------------------
 
 You first need to have a way to download your mails, off your mail server. A easy-to-use application
 that will do that for you is [getmail](http://pyropus.ca/software/getmail/).
 
 
-### Installation <a name="fetchinstallation"></a>
+<a name="fetchinstallation"></a> ### Installation
 
 Most of the time, getmail can be readily installed via your system’s package manager.
 
@@ -58,7 +58,7 @@ However, if your system doesn’t provide an easy way for you to install getmail
 to its [homepage](http://pyropus.ca/software/getmail/) , then download the tarball.
 
 
-### Configuration <a name="fetchconfiguration"></a>
+<a name="fetchconfiguration"></a> ### Configuration
 
 Next, you need to conjure the incantation so that getmail knows how to get your stuff. Create the
 file `~/.getmail/getmailrc`. In addition to that, you need to create and specify where the messages
@@ -96,7 +96,7 @@ password field. Take note, that `~/Maildir` is the default directory that Mail T
 which use the [maildir](https://en.wikipedia.org/wiki/Maildir) format use, to store data.
 
 
-### Execution <a name="fetchexecution"></a>
+<a name="fetchexecution"></a> ### Execution
 
 To verify that you can indeed fetch your messages, run getmail:
 
@@ -113,14 +113,14 @@ SimpleIMAPSSLRetriever:foobar@gmail.com@imap.gmail.com:993:
 ```
 
 
-Reading messages <a name="reading"></a>
+<a name="reading"></a> Reading messages
 ---------------------------------------
 
 Now that you can download your messages, you need to have a way to read them. This is where mu and
 the accompanying emacs-based client, _mu_, comes in.
 
 
-### Installation <a name="readinstallation"></a>
+<a name="readinstallation"></a> ### Installation
 
 Just like with getmail above, chances are, mu can be installed via your system’s package manager.
 
@@ -148,7 +148,7 @@ the package manager’s installation, varies between systems. So, for now, you�
 the `mu/mu4e/` subdirectory.
 
 
-### Configuration <a name="readconfiguration"></a>
+<a name="readconfiguration"></a> ### Configuration
 
 You now need to make that mu4e directory accessible to emacs. To do so, you need to edit either
 `~/.emacs.d/init.el` or `~/.emacs`:
@@ -179,7 +179,7 @@ To make your life even easier, you’ll set some variables:
 ```
 
 
-### Execution <a name="readexecution"></a>
+<a name="readexecution"></a> ### Execution
 
 You can restart emacs so that those settings can take effect, or alternatively, you can mark those
 lines with <kbd>C-Space</kbd>, then hit:
@@ -196,7 +196,7 @@ rest of the commands should be self-explanatory, but if you want to learn more, 
 nice [mu4e manual](http://www.djcbsoftware.nl/code/mu/mu4e/index.html).
 
 
-Encryption <a name="encryption"></a>
+<a name="encryption"></a> Encryption
 ------------------------------------
 
 Optionally, you may want to add some tweaks so that encryption and decryption of messages, will be
@@ -261,7 +261,7 @@ disk. With the latter, the same principle applies. So be wary of these situation
 configuration, as necessary.
 
 
-Closing remarks <a name="closing"></a>
+<a name="closing"></a> Closing remarks
 --------------------------------------
 
 Bear in mind that I purposely avoided fleshing out many details, as it would conflate the attempt of

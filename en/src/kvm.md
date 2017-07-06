@@ -37,11 +37,11 @@ Table of contents
 - [Closing remarks](#closing)
 
 
-Setup <a name="setup"></a>
+<a name="setup"></a> Setup
 --------------------------
 
 
-### Hardware <a name="hardware"></a>
+<a name="hardware"></a> ### Hardware
 
 One of the first things that you need to do is to
 enable
@@ -61,7 +61,7 @@ system indeed recognizes it.
 If it returns some text, then you’re good.
 
 
-### Software <a name="software"></a>
+<a name="software"></a> ### Software
 
 Next, you need to install the essential applications.
 
@@ -89,11 +89,11 @@ for [VNC](https://en.wikipedia.org/wiki/Virtual_Network_Computing), but rather, 
 of meeting your goals.
 
 
-Configuration <a name="configuration"></a>
+<a name="configuration"></a> Configuration
 ------------------------------------------
 
 
-### Images <a name="images"></a>
+<a name="images"></a> ### Images
 
 QEMU supports an array of image types, however the [QCOW2](https://en.wikipedia.org/wiki/Qcow)
 format is the most flexible, and feature-rich, for QEMU use.
@@ -111,7 +111,7 @@ doesn’t really matter—you can name your image as `index.html`, but that woul
 sense, right? 😄
 
 
-### KVM group <a name="kvmgroup"></a>
+<a name="kvmgroup"></a> ### KVM group
 
 The commands below require that a group named `kvm` exists and that you are a member of that
 group. To take those into effect, run:
@@ -123,7 +123,7 @@ group. To take those into effect, run:
 The last command enrolls you to the kvm group without logging out of your session.
 
 
-### Networking <a name="networking"></a>
+<a name="networking"></a> ### Networking
 
 QEMU supports [many ways](http://wiki.qemu-project.org/Documentation/Networking) of setting up
 networking for its guests, but for this post we’ll use VDE.
@@ -148,10 +148,10 @@ The above commands will:
 5. Setup the routing configuration
 
 
-Execution <a name="execution"></a>
+<a name="execution"></a> Execution
 ----------------------------------
 
-### Load the image <a name="loadimage"></a>
+<a name="loadimage"></a> ### Load the image
 
 You now need to invoke `qemu-kvm`, the command that will launch everything up. The name of the
 command may differ with the one installed on your system.
@@ -212,7 +212,7 @@ Running the _qemu-kvm_ command above will load the image, but you won’t be abl
 yet.
 
 
-### Connect to the SPICE display <a name="display"></a>
+<a name="display"></a> ### Connect to the SPICE display
 
 To be able to use the guest machine’s display, you need to connect to
 the SPICE server, using the SPICE client `spicec`:
@@ -223,7 +223,7 @@ Take note that closing the spicec window will not kill the QEMU session. If the 
 the mouse input, press <kbd>Shift+F12</kbd>, to get out of it.
 
 
-### Configure guest networking <a name="guestnetworking"></a>
+<a name="guestnetworking"></a> ### Configure guest networking
 
 Next, you need to properly configure the network configuration of the guest OS so that it can
 connect to the rest of the local network, and to the internet if the host machine has access to it.
@@ -242,11 +242,11 @@ DNS servers:
     8.8.4.4
 
 
-Closing the curtains <a name="closingcurtains"></a>
+<a name="closingcurtains"></a> Closing the curtains
 ---------------------------------------------------
 
 
-### Restore networking <a name="restorenetworking"></a>
+<a name="restorenetworking"></a> ### Restore networking
 
 If you want to explicitly revert the network configuration, do the following.
 
@@ -270,7 +270,7 @@ The above commands will:
 6. Remove control files
 
 
-Putting it all <a name="all"></a>
+<a name="all"></a> Putting it all
 ---------------------------------
 
 Here are all the commands from above, compiled into functions, so that they can be ran from the
@@ -333,7 +333,7 @@ When you’re done with the VM, close the Spice display then shutdown the KVM ne
     $ kvm-down
 
 
-Closing remarks <a name="closing"></a>
+<a name="closing"></a> Closing remarks
 --------------------------------------
 
 QEMU supports a myriad of cool options that we’ve not even discussed here, including saving and

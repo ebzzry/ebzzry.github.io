@@ -27,7 +27,7 @@ Table of contents
 - [Closing remarks](#closing)
 
 
-Basic usage <a name="basicusage"></a>
+<a name="basicusage"></a> Basic usage
 -------------------------------------
 
 To perform two-way synchronization of the directory `/pub/yot/ninam`, between the current host, to
@@ -49,7 +49,7 @@ Ideally, the result is that `localhost:/pub/yot/ninam/`, `tarupam:/pub/yot/ninam
 `taubetmo:/pub/yot/ninam/`, are all equal.
 
 
-Advanced usage <a name="advancedusage"></a>
+<a name="advancedusage"></a> Advanced usage
 -------------------------------------------
 
 It is also possible to perform synchronization of multiple files, and directories, to remote
@@ -71,7 +71,7 @@ For more usage information, run:
     $ usync --help
 
 
-Closing remarks <a name="closing"></a>
+<a name="closing"></a> Closing remarks
 --------------------------------------
 
 Some files and regexes are baked in as exclusions. They make or make not make sense. If you think

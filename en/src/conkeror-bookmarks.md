@@ -24,7 +24,7 @@ Table of contents
 - [Closing remarks](#closing)
 
 
-Prerequisites <a name="prerequisites"></a>
+<a name="prerequisites"></a> Prerequisites
 ------------------------------------------
 
 One of the most important tool that you need to have is _sqlite3_. Chances are, your system already
@@ -55,7 +55,7 @@ $ emem --version
 If it reports at least **emem-0.2.1**, then you’re good to go.
 
 
-Extract the data <a name="extract"></a>
+<a name="extract"></a> Extract the data
 ---------------------------------------
 
 You need to have a way first to extract the data from the sqlite3 database, which Conkeror uses to
@@ -77,7 +77,7 @@ The command above selects the **title** and **url** columns from the **moz_bookm
 sorts them by creation date.
 
 
-Generate the bookmarks <a name="generate"></a>
+<a name="generate"></a> Generate the bookmarks
 ----------------------------------------------
 
 Next, you need to have a way to generate the HTML file that you’re going to view later in
@@ -101,7 +101,7 @@ What it does is that it filters the output of **cob**, which _emem_ then uses to
 file.
 
 
-Create a command-line viewer <a name="cli"></a>
+<a name="cli"></a> Create a command-line viewer
 -----------------------------------------------
 
 Now that you can build the HTML file, you need to have a command that will load the bookmarks in
@@ -114,7 +114,7 @@ bm () {
 ```
 
 
-Define conkeror commands <a name="commands"></a>
+<a name="commands"></a> Define conkeror commands
 ------------------------------------------------
 
 Let’s now create the interactive commands for Conkeror, for generating and viewing the
@@ -155,7 +155,7 @@ M-x bm RET
 ```
 
 
-Alternatives <a name="alternatives"></a>
+<a name="alternatives"></a> Alternatives
 ----------------------------------------
 
 I separated the procedure of generating the bookmarks, from viewing it, because I want to be able to
@@ -181,7 +181,7 @@ M-x bm RET
 ```
 
 
-Managing the boomarks <a name="managing"></a>
+<a name="managing"></a> Managing the boomarks
 ---------------------------------------------
 
 An easy way to manage the bookmarks is to use
@@ -224,7 +224,7 @@ running. Doing so may make your browser unable to start, after you exit it, unle
 “clean” SQLite files, while Conkeror is not running.
 
 
-Closing remarks <a name="closing"></a>
+<a name="closing"></a> Closing remarks
 --------------------------------------
 
 The bookmarks displayed in `M-x bm`, will be sorted by time of creation, in a descending order. The
