@@ -79,7 +79,7 @@ partially. However, they it still miss several points.
 In the code snippets below, the `^` symbol will be used to represent point:
 
 
-<a name="basics"></a> ### Basics
+### <a name="basics"></a> Basics
 
 In smartparens, when you input a pair-able character:
 
@@ -99,10 +99,10 @@ the pair:
 ```
 
 
-<a name="navigation"></a> ### Navigation
+### <a name="navigation"></a> Navigation
 
 
-<a name="startsandends"></a> #### Starts and ends
+#### <a name="startsandends"></a> Starts and ends
 
 If you have the expression:
 
@@ -133,7 +133,7 @@ Conversely, to move point to the end of the expression:
 Execute `sp-end-of-sexp`. I bound it to <kbd>C-M-e</kbd>.
 
 
-<a name="traversinglists"></a> #### Traversing lists
+#### <a name="traversinglists"></a> Traversing lists
 
 If you have the expression:
 
@@ -212,7 +212,7 @@ and you want to move point to `(format`:
 Execute `sp-backward-up-sexp`. I bound it to <kbd>M-up</kbd>.
 
 
-<a name="blockmovements"></a> #### Block movements
+#### <a name="blockmovements"></a> Block movements
 
 If you have the expression:
 
@@ -243,7 +243,7 @@ Conversely, to move it back to `[`:
 Execute `sp-backward-sexp`. I bound it to <kbd>C-M-b</kbd>.
 
 
-<a name="toplevel"></a> #### Top-level-ish traversal
+#### <a name="toplevel"></a> Top-level-ish traversal
 
 If you have the expression:
 
@@ -282,7 +282,7 @@ Conversely, to move it back:
 Execute `sp-previous-sexp`. I bound it to <kbd>C-M-p</kbd>.
 
 
-<a name="freeform"></a> #### Free-form movements
+#### <a name="freeform"></a> Free-form movements
 
 If you have the expression:
 
@@ -324,9 +324,9 @@ What they do is that they navigate around expressions as if delimiters, like par
 braces do not exist.
 
 
-<a name="manipulation"></a> ### Manipulation
+### <a name="manipulation"></a> Manipulation
 
-<a name="wrapping"></a> #### Wrapping
+#### <a name="wrapping"></a> Wrapping
 
 If you have the expression:
 
@@ -404,7 +404,7 @@ var mods = ["vars"];
 Nothing will happen. smartparens saves us a lot of trouble, here.
 
 
-<a name="unwrapping"></a> #### Unwrapping
+#### <a name="unwrapping"></a> Unwrapping
 
 If you have the expression:
 
@@ -435,7 +435,7 @@ Conversely, if you want to unwrap the `bar` expression, removing the parentheses
 Execute `sp-unwrap-sexp`. I bound it to <kbd>M-]</kbd>.
 
 
-<a name="slurpandbarf"></a> #### Slurp and barf
+#### <a name="slurpandbarf"></a> Slurp and barf
 
 If you have the expression:
 
@@ -494,7 +494,7 @@ blah [foo bar]
 Execute `sp-backward-barf-sexp`. I bound it to <kbd>M-left</kbd>.
 
 
-<a name="swapping"></a> #### Swapping
+#### <a name="swapping"></a> Swapping
 
 If you have the expression:
 
@@ -515,7 +515,7 @@ and you want `"foo"` and `"bar"` to trade places:
 Execute `sp-transpose-sexp`. I bound it to <kbd>C-M-t</kbd>.
 
 
-<a name="killing"></a> #### Killing
+#### <a name="killing"></a> Killing
 
 If you have the expression:
 
