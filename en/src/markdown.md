@@ -30,7 +30,7 @@ Table of contents
 --------------------------------
 
 
-<a name="level1"></a> ### Level 1
+### <a name="level1"></a> Level 1
 
 Level 1 headings are ideal when used as Document titles. They should be used only once in and they
 must be in the first line of a file. It should describe what the file or document is all about. I
@@ -50,7 +50,7 @@ instead of
 ```
 
 
-<a name="level2"></a> ### Level 2
+### <a name="level2"></a> Level 2
 
 Level 2 headings indicate the top-level sections of a document. They are the primary dividers in a
 file. Similar to the level 1 heading, I use the `-` (hyphen) symbol to mark the heading. I use it
@@ -68,7 +68,7 @@ instead of
 ```
 
 
-<a name="lowerlevels"></a> ### Lower levels
+### <a name="lowerlevels"></a> Lower levels
 
 For level 3 and lower headings, I use the `#` with the appropriate number of repetitions to indicate
 the level.

@@ -75,7 +75,7 @@ directories. Without it, it will try to fetch the sources from the internet.
 This sections contains instructions for creating files suitable for use with Frog.
 
 
-<a name="basics"></a> ### Basics
+### <a name="basics"></a> Basics
 
 To create a Markdown file from the file entry.xml
 
@@ -135,7 +135,7 @@ After creating the Markdown Frog source files, you may now copy them to your Fro
 designated at `_src/posts/`
 
 
-<a name="comments"></a> ### Comments
+### <a name="comments"></a> Comments
 
 Frog, by default, uses [Disqus](https://disqus.com) to handle the comments. To import comments to
 this platform, you need to generate an XML file that must adhere to Disqus’s comment import rules.

@@ -42,7 +42,7 @@ Table of contents
 ----------------------------------------
 
 
-<a name="what"></a> ### What is it?
+### <a name="what"></a> What is it?
 
 Lambda calculus is a minimal system for expressing computation that conforms to universal models of
 computation, hence making it a universal model of computation. In other words, it can be called as
@@ -51,7 +51,7 @@ contemporarily know. Lambda calculus also forms as the basis for the popular fun
 languages in current use now.
 
 
-<a name="learn"></a> ### Do I need to learn it?
+### <a name="learn"></a> Do I need to learn it?
 
 Yes, and no. If you want to understand the underlying mechanisms of how software works, or if you
 want to build the next great language, or if you just want to appreciate the elegance of its art,
@@ -59,7 +59,7 @@ then yes. However, if you just want to fly a plane without knowing how it ticks,
 though, learn it.
 
 
-<a name="do"></a> ### What do we do?
+### <a name="do"></a> What do we do?
 
 When discussing new concepts, it is very important to layout the axioms or the initial
 ruleset. Think of it as defining new terms in play, and giving them meaning. The context in which
@@ -81,7 +81,7 @@ calculus—we either accept these axioms and operate in its domain, or we live i
 <a name="babysteps"></a> Baby steps
 -----------------------------------
 
-<a name="functions"></a> ### Functions
+### <a name="functions"></a> Functions
 
 A central player in lambda calculus is the notion of function. Most of us are familiar with
 functions in our high-level languages, but functions in lambda calculus are slightly
@@ -124,7 +124,7 @@ The `.` symbol here, is the separator between the parameter list, and the functi
 function `(λx.x)`, the body is simply the symbol `x`.
 
 
-<a name="variables"></a> ### Variables
+### <a name="variables"></a> Variables
 
 In lambda calculus, the symbols that are used inside a function are called variables. Going back to
 the function you defined above,
@@ -144,7 +144,7 @@ The parameter `y` is a variable that is said to be free, because it does not liv
 `.`.
 
 
-<a name="application"></a> ### Function application
+### <a name="application"></a> Function application
 
 To use a function, you must apply it to something. The bound variables are substituted with what
 they’re applied to—a process called β-reduction.
@@ -222,7 +222,7 @@ is equivalent to:
 ---------------------------------
 
 
-<a name="start"></a> ### Start
+### <a name="start"></a> Start
 
 Since (almost) everything in lambda calculus is expressed as functions, its take on numbers is
 unique. Arguably, the most important number in lambda calculus is zero (0), which is expressed as:
@@ -247,7 +247,7 @@ Building from `0`, let’s enumerate the first three counting numbers:
 ```
 
 
-<a name="successor"></a> ### Successor
+### <a name="successor"></a> Successor
 
 The successor of a whole number is defined as the next whole number, counting up, so the successor
 of `0` is `1`. The definition of the successor function is:
@@ -276,7 +276,7 @@ Let’s break it down:
 5. Evaluation stops, and `(λyz.y(z))` is returned, which is the number 1.
 
 
-<a name="addition"></a> ### Addition
+### <a name="addition"></a> Addition
 
 What if you wanted to perform `2+3`? Fortunately, the successor function will do that for you. You
 express that as `2S3`, where you replace `+` as the infix operator. The addition function is defined
@@ -318,7 +318,7 @@ Let’s break it down:
 8. You now arrive at `5`.
 
 
-<a name="multiplication"></a> ### Multiplication
+### <a name="multiplication"></a> Multiplication
 
 The multiplication function is defined as:
 
@@ -354,7 +354,7 @@ prerequisite in learning the other functions.
 ----------------------------------------------
 
 
-<a name="booleans"></a> ### Booleans
+### <a name="booleans"></a> Booleans
 
 The representations of true and false in lambda calculus, are succinct and elegant:
 
@@ -371,7 +371,7 @@ Fab ≡ (λxy.y)ab = b
 ```
 
 
-<a name="logicalops"></a> ### Logical operations
+### <a name="logicalops"></a> Logical operations
 
 The three basic operators, And, Or, and Not:
 
@@ -397,7 +397,7 @@ Let’s see if `¬T` is indeed `F`:
 -----------------------------------------------------
 
 
-<a name="pred"></a> ### Predecessor
+### <a name="pred"></a> Predecessor
 
 The predecessor of a number is defined as the preceding number determined when counting
 backwards. The reason why the discussion on the predecessor function is being done separately is
@@ -494,7 +494,7 @@ P1
 ```
 
 
-<a name="subtraction"></a> ### Subtraction
+### <a name="subtraction"></a> Subtraction
 
 Now that you have the predecessor function, you can build your subtraction function.
 

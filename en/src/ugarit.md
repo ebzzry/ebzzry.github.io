@@ -54,7 +54,7 @@ easy as typing a short command.
 <a name="installation"></a> Installation
 ----------------------------------------
 
-<a name="apt"></a> ### APT
+### <a name="apt"></a> APT
 
 First, you need to install [Chicken](https://www.call-cc.org/). Most likely, it can be installed via
 your package manager:
@@ -73,7 +73,7 @@ After this command completes, the command `ugarit` will become available. To dis
     $ ugarit -h
 
 
-<a name="nix"></a> ### Nix
+### <a name="nix"></a> Nix
 
 If you’re using Nix, just run the following command:
 
@@ -132,7 +132,7 @@ Save the file, then secure it.
 <a name="basic"></a> Basic usage
 --------------------------------
 
-<a name="create"></a> ### Creating snapshots
+### <a name="create"></a> Creating snapshots
 
 To create a snapshot, run:
 
@@ -157,7 +157,7 @@ File cache has saved us 1 file hashings / 638104 bytes (before compression)
 ```
 
 
-<a name="explore"></a> ### Exploring Snapshots
+### <a name="explore"></a> Exploring Snapshots
 
 To interactively manage the contents of the vault, run:
 
@@ -181,7 +181,7 @@ Extracted holiday
 ```
 
 
-<a name="extract"></a> ### Extracting Snapshots Directly
+### <a name="extract"></a> Extracting Snapshots Directly
 
 If, however, you know the exact path to a file or directory that you
 want to extract, you can instead run Ugarit with the extract mode. To
@@ -193,7 +193,7 @@ extract the directory `holiday/` from above, directly, run:
 <a name="tips"></a> Tips
 ------------------------
 
-<a name="remote"></a> ### Remote filesystems
+### <a name="remote"></a> Remote filesystems
 
 Ugarit is not limited to creating snapshots of a local filesystem. It can also be used to create
 snapshots of trees, from a remote host, mounted locally. If you have
@@ -212,7 +212,7 @@ The same applies to [SMBFS](https://www.samba.org/samba/smbfs/) mounts:
     $ ugarit snapshot /ugarit/ugarit.conf winhost
 
 
-<a name="miscellany"></a> ### Miscellany
+### <a name="miscellany"></a> Miscellany
 
 To disable output, when creating snapshots:
 
