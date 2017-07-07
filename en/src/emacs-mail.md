@@ -42,7 +42,7 @@ You first need to have a way to download your mails, off your mail server. A eas
 that will do that for you is [getmail](http://pyropus.ca/software/getmail/).
 
 
-<a name="fetchinstallation"></a> ### Installation
+### <a name="fetchinstallation"></a> Installation
 
 Most of the time, getmail can be readily installed via your system’s package manager.
 
@@ -58,7 +58,7 @@ However, if your system doesn’t provide an easy way for you to install getmail
 to its [homepage](http://pyropus.ca/software/getmail/) , then download the tarball.
 
 
-<a name="fetchconfiguration"></a> ### Configuration
+### <a name="fetchconfiguration"></a> Configuration
 
 Next, you need to conjure the incantation so that getmail knows how to get your stuff. Create the
 file `~/.getmail/getmailrc`. In addition to that, you need to create and specify where the messages
@@ -96,7 +96,7 @@ password field. Take note, that `~/Maildir` is the default directory that Mail T
 which use the [maildir](https://en.wikipedia.org/wiki/Maildir) format use, to store data.
 
 
-<a name="fetchexecution"></a> ### Execution
+### <a name="fetchexecution"></a> Execution
 
 To verify that you can indeed fetch your messages, run getmail:
 
@@ -120,7 +120,7 @@ Now that you can download your messages, you need to have a way to read them. Th
 the accompanying emacs-based client, _mu_, comes in.
 
 
-<a name="readinstallation"></a> ### Installation
+### <a name="readinstallation"></a> Installation
 
 Just like with getmail above, chances are, mu can be installed via your system’s package manager.
 
@@ -148,7 +148,7 @@ the package manager’s installation, varies between systems. So, for now, you�
 the `mu/mu4e/` subdirectory.
 
 
-<a name="readconfiguration"></a> ### Configuration
+### <a name="readconfiguration"></a> Configuration
 
 You now need to make that mu4e directory accessible to emacs. To do so, you need to edit either
 `~/.emacs.d/init.el` or `~/.emacs`:
@@ -179,7 +179,7 @@ To make your life even easier, you’ll set some variables:
 ```
 
 
-<a name="readexecution"></a> ### Execution
+### <a name="readexecution"></a> Execution
 
 You can restart emacs so that those settings can take effect, or alternatively, you can mark those
 lines with <kbd>C-Space</kbd>, then hit:
