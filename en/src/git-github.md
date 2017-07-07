@@ -35,7 +35,7 @@ Table of contents
 <a name="basics"></a> Basics
 ----------------------------
 
-<a name="initial"></a> ### Initial use
+### <a name="initial"></a> Initial use
 
 To make things easier later on, you’ll need to create a `.gitignore` file. The .gitignore file
 specifiles files that will be excluded from the repository. Some of these are binary files, and
@@ -69,7 +69,7 @@ Then, commit the changes:
     $ git commit -m "Initial commit."
 
 
-<a name="subsequent"></a> ### Subsequent uses
+### <a name="subsequent"></a> Subsequent uses
 
 This section describes the basic commands that you’re going to use, when you already have a
 repository.
@@ -122,7 +122,7 @@ This section describes how to work with other developers. You’re going to
 use [GitHub](https://github.com) in this discussion.
 
 
-<a name="sshkeys"></a> ### Generate your SSH keys
+### <a name="sshkeys"></a> Generate your SSH keys
 
 You need to be able to authenticate yourself to your GitHub account, before you can push changes. To
 do that, you need to create your SSH keys. To do that, run the following command. Make sure that you
@@ -142,7 +142,7 @@ Go to <https://github.com/settings/ssh>, then click **Add SSH key**
 Paste the key, then follow through.
 
 
-<a name="createrepo"></a> ### Creating a repository
+### <a name="createrepo"></a> Creating a repository
 
 In your repositories page, create a new repository by clicking **New**:
 
@@ -159,14 +159,14 @@ You’ll be prompted to supply the passphrase you have entered above. The `git p
 the contents of your repository to the remote repository.
 
 
-<a name="updaterepo"></a> ### Updating your repository
+### <a name="updaterepo"></a> Updating your repository
 
 When you have made further changes to the repository, you may push your changes with the command:
 
     $ git push origin master
 
 
-<a name="participation"></a> ### Participation
+### <a name="participation"></a> Participation
 
 If you want to contribute to a project, you’ll need to work on a copy of that repository, then push
 changes to your own fork.
@@ -224,7 +224,7 @@ select **new-options**, or whatever name you used above. Click **Create pull req
 then, follow through.
 
 
-<a name="syncupstream"></a> ### Synchronizing with upstream
+### <a name="syncupstream"></a> Synchronizing with upstream
 
 To synchronize the upstream branch with the source repository, pull changes from the upstream
 remote:

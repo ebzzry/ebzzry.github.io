@@ -106,7 +106,7 @@ M-x save RET
 <a name="packages"></a> Packages
 --------------------------------
 
-<a name="elpa"></a> ### ELPA
+### <a name="elpa"></a> ELPA
 
 If you aren’t using the package system yet, use it now. All you need to get started is the
 following:
@@ -138,7 +138,7 @@ M-x pi RET package RET
 ```
 
 
-<a name="use-package"></a> ### use-package
+### <a name="use-package"></a> use-package
 
 This one is a real gem. It’s like `require`, but on steroids. When “requiring” a package, you have
 the option to specify to install that package, if it does not exist, yet. It also enables you to
