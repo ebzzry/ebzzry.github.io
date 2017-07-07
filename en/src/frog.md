@@ -204,7 +204,7 @@ changes:
 Let’s examine each of the files in the list, closer.
 
 
-<a name=".frogrc"></a> ### .frogrc
+### <a name=".frogrc"></a> .frogrc
 
 This file is where top-level customizations are made. Open the file `.frogrc`, located in the
 current directory:
@@ -223,7 +223,7 @@ only concerned about three parameters:
 is the name of your blog, and `author` is your name.
 
 
-<a name="page-template.html"></a> ### page-template.html
+### <a name="page-template.html"></a> page-template.html
 
 This file contains the common content, across all types of pages, whether they are blog or non-blog
 posts. Open the file `_src/page-template.html`, located in the current directory:
@@ -243,7 +243,7 @@ at the moment. To make it easier, I’ll just list down the items to search and 
 When you get to those respective sections, it should evident what to replace them with.
 
 
-<a name="post-template.html"></a> ### post-template.html
+### <a name="post-template.html"></a> post-template.html
 
 Similar to `page-template.html`, but this file contains content that will only appear with blog
 posts. It is also Perhaps the easiest file to modify is `_src/post-template.html`. Let’s open it:
@@ -255,7 +255,7 @@ section of your blog posts, to the aforesaid Disqus account. More about this wil
 the section _Comments_.
 
 
-<a name="bootstrap"></a> ### bootstrap.css and bootstrap.min.css
+### <a name="bootstrap"></a> bootstrap.css and bootstrap.min.css
 
 These two files are responsible for what is commonly called as “theme”—it controls the look of the
 site. To change these files, let’s head over to <https://bootswatch.com/>, then let’s select a theme
