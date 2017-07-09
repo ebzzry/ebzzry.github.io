@@ -543,3 +543,35 @@ the years.
 
 - “Failure is only the opportunity more intelligently to begin again. There is no disgrace in honest failure; there is disgrace in fearing to fail.”<br>
   ―Henry Ford
+
+
+- “The only man who makes no mistakes is the man who never does anything.”<br>
+  ―Theodore Roosevelt
+
+
+- “You mustn’t be afraid to dream a little bigger, darling.”<br>
+  ―Eames, Inception (2010)
+
+
+- “An idea is like a virus. Resilient. Highly contagious. And the smallest seed of an idea can grow. It can grow to define or destroy you”<br>
+  ―Dominick Cobb, Inception (2010)
+
+
+- “Whilst ironically, those who aren’t willing to break will break first.”<br>
+  ―MindSmash
+
+
+- “This is what I did in order to preserve my life. I am a different species from you, but we are in a partnership which demands mutual respect. On that premise, the common purpose that binds us is survival.”<br>
+  ―Migi, Parasyte -the maxim- (2014)
+
+
+- “You all underestimate humans. Individually, they may appear weak, but that is not the case. What we need to recognize is that humans are a single lifeform comprised of millions of individuals. Besides their individual brains, humans possess a different ‘brain’ of enormous magnitude. The moment we act in opposition to that brain, we will lose.”<br>
+  ―Reiko Tamura, Parasyte -the maxim- (2014)
+
+
+- “In comparison, humans are the true parasitic vermin infesting this planet.”
+  ―Takeshi Hirokawa, Parasyte -the maxim- (2014)
+
+
+- “So in the end, it’s hypocritical for us to love Earth without loving ourselves.”
+  ―Shinichi Izumi, Parasyte -the maxim- (2014)
