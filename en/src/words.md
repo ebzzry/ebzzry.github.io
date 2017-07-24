@@ -135,3 +135,6 @@ Entries are sorted in chronological order.
 
 
 - In the grand scale of the universe, human lives are insignificant. We are selfish with our lives because they are own. However, we should remind ourselves, that for life to be flourish, there must also be death.<br>
+
+
+- Tell me what you care about, and I’ll tell you who you are.<br>
