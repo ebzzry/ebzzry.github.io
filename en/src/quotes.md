@@ -569,9 +569,13 @@ the years.
   ―Reiko Tamura, Parasyte -the maxim- (2014)
 
 
-- “In comparison, humans are the true parasitic vermin infesting this planet.”
+- “In comparison, humans are the true parasitic vermin infesting this planet.”<br>
   ―Takeshi Hirokawa, Parasyte -the maxim- (2014)
 
 
-- “So in the end, it’s hypocritical for us to love Earth without loving ourselves.”
+- “So in the end, it’s hypocritical for us to love Earth without loving ourselves.”<br>
   ―Shinichi Izumi, Parasyte -the maxim- (2014)
+
+
+- “Which would be worse, to live as a monster or to die as a good man?”<br>
+  ―Andrew  Laeddis, Shutter Island (2010)
