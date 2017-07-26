@@ -579,3 +579,7 @@ the years.
 
 - “Which would be worse, to live as a monster or to die as a good man?”<br>
   ―Andrew  Laeddis, Shutter Island (2010)
+
+
+- “The light that burns twice as bright burns half as long.”<br>
+  ―Dr. Eldon Tyrell, Blade Runner (1982)
