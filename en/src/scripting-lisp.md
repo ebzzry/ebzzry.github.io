@@ -7,7 +7,7 @@ Scripting in Common Lisp
 
 Full-fledged systems and libraries have always been a comfortable zone for Common Lisp
 users. However, for a long time, there has not been a definitive solution in using CL as a scripting
-language. In this specific context, scripting language, means something that is similar in spirit to
+language. A scripting language, in this context, means something that is similar in spirit to
 Bash. That is, one that is used to issue and manipulate system commands. In this article, I will
 give a short introduction on how to use CL in the scripting domain.
 
@@ -26,33 +26,28 @@ give a short introduction on how to use CL in the scripting domain.
 --------------------------------
 
 One of the most common questions I get when I mention that I want to do scripting in CL, is that why
-would I want to do it? One would be tempted to just say “Why not?” and “Because I want to.”  In my
-case the answer is I want more power and expressivity. A script is only as powerful as the language
-and tools would allow you. Bash, for example, is great for expressing ideas as if you are typing
-them on the command line itself. It emulates that behavior inside a script. You can define functions
-to do subroutines, but they’re just that. Functions in Bash are nowhere near functions in languages
-like CL.
+would I want to do so and is it possible. The answer is simple: I want more power and
+expressivity. I want a mature and unencumbered. I want a language that is able to express my ideas,
+in least amount of friction.
 
-Other solutions exist in other languages. Haskell, Python, Scheme, and Ruby has it. However, there’s
-a neat future of CL scripting that I like, that is difficult to implement or non-existent in other
-approaches: multi-call binary. A multi-call binary is a single executable file that can be
-dereferenced with different names. Each name corresponds to a specific subroutine inside that single
-binary. The beauty of this is that instead of managing many different programs, you only manage one,
-and it will dispatch the correct subprogram that a user wants. This is similar to what Busybox is
-doing.
+A script is only as powerful as the language and tools would allow. Bash and friends, for example,
+are great for expressing ideas, as if you are typing them on the command line itself. It emulates
+that behavior inside a script. You can define functions to do subroutines, but they’re just
+that. Functions in Bash are nowhere near functions in languages like CL. As an interactive user
+shell, it works fine; other than that, no.
 
-Other solutions exist in other languages. Haskell, Python, Scheme, and Ruby has it. However, there’s
-a neat future of CL scripting that I like, that is difficult to implement or non-existent in other
-approaches is that since the scripts themselves are valid CL programs, I can load the programs in
-the REPL and do nice things with it. Nothing comes close to the flexibility that CL provides in
+Other scripting solutions exist in other languages. Haskell, Python, Scheme, and Ruby, to name a
+few, has it. However, there’s a neat future of CL, that is difficult to implement or non-existent in
+other approaches: since the scripts themselves are valid CL programs, I can load the programs
+in the REPL and do nice things with it. Nothing comes close to the flexibility that CL provides when
 inteacting with live, running programs.
 
-In this short tutorial, I will lightly gloss about one nice thing with CL scripting: multi-call
+In this short tutorial, I will also lightly gloss about one nice thing with CL scripting: multi-call
 binaries. A multi-call binary is a single executable file that can be dereferenced with many
 names. Each name corresponds to a specific subroutine inside that single binary. The beauty of this
-is that instead of managing many different programs, you only manage one, and it will dispatch the
-correct subprogram that a user wants. This is similar to what Busybox is doing. In CL, this is
-mostly handled by [cl-launch](https://github.com/fare/cl-launch).
+approach is that instead of managing many different programs, you only manage one, and it will
+dispatch the correct subprogram that a user wants. This is similar to what Busybox is doing. In CL,
+this is handled by [cl-launch](https://github.com/fare/cl-launch).
 
 
 <a name="prerequisites"></a>Prerequisites
@@ -63,13 +58,13 @@ absctractions to interact with the system and
 environment. The
 [Utilities for Implementation- and OS- Portability (UIOP)](https://gitlab.common-lisp.net/asdf/asdf/tree/master/uiop) is
 a set of abstractions that lets us use and write portable CL code. It does the heavy lifting of
-making sure that we are going to write portable Lisp code. UIOP is part of ASDF—which is part of
+making sure that we are going to write portable Lisp code. UIOP is part of ASDF3—which is part of
 most modern CL implementations—so there is no need to manualy install
-it.[inferior-shell](https://github.com/fare/inferior-shell) helps us with managing
+it. [inferior-shell](https://github.com/fare/inferior-shell) helps us with managing
 processes. [cl-scripting](https://github.com/fare/cl-scripting) helps us with more process control.
 
-The program `cl-launch` must also be installed in your system. This will be responsible in creating
-the multi-call binary, itself. To install on systems that use APT:
+The program `cl-launch` must also be installed in your system. It will be responsible in creating
+the multi-call binary, itself. To install `cl-launch` on systems that use APT:
 
 ```bash
 sudo apt-get install -y cl-launch
@@ -88,12 +83,15 @@ nix-env -i cl-launch
 ### Paths
 
 To get started, let’s create a new project directory. We will build our project in
-`$HOME/common-lisp`. This directory is one of the standard paths that ASDf will crawl for `.asd`
-files. It doesn’t matter if that is a regular directory or a symlink to one.
+`$HOME/common-lisp`.
 
 ```bash
 mkdir -p ~/common-lisp/my-scripts
 ```
+
+This directory is one of the standard paths that ASDf will crawl, for `.asd` files. It is worth
+nothing that it doesn’t matter if `$HOME/common-lisp` is a regular directory or a symlink to one.
+
 
 ### Definitions
 
@@ -106,7 +104,7 @@ Then, let’s create `my-scripts.asd` in that directory. To start, it will conta
   :version "0.0.1"
   :description "CL scripts"
   :license "MIT"
-  :author "Rommel Martinez"
+  :author "Lolu Ogag"
   :class :package-inferred-system
   :depends-on ((:version "cl-scripting" "0.1")
                (:version "inferior-shell" "2.0.3.3")
@@ -158,11 +156,11 @@ libraries. In the body of this file, you can see `exporting-definitions`. This m
 marks the boundaries of what will be created as an executable, or not. It will be used by
 `register-commands`, later.
 
-Here, we define several functions. `symlink` is responsible for creating the symlinks for the
-multi-call binary, `help` displays some basic usage information, and `main` is the entrypoint of our
-script. To make it convenient to build the script and the symlinks, we’re going to put the
-instructions in Makefile. Create the file `Makefile` in the current directory, then put in the
-following:
+Here, we define several functions: `symlink` is responsible for creating the symlinks for the
+multi-call binary; `help` displays some basic usage information; and `main` is the
+entrypoint of our script. The multi-call binary will be available in `$HOME/bin/`. To make it
+convenient to build the script and the symlinks, we’re going to put the build instructions in a
+Makefile. Create the file `Makefile` in the current directory, then put in the following:
 
 ```Makefile
 NAME=my-scripts
@@ -183,19 +181,17 @@ install: $(NAME)
 
 clean:
 	@rm -f $(NAME)
-
 ```
 
-In the `$(NAME)` target, we call `cl-launch` with options to build the script. Of particular
-attention is the `--dispatch-system $(NAME)/main` line. It specifies that the entrypoint of the
-script is the `main` function—the one that we defined in `main.lisp`. In the `install` target, we
-invoke the script with the options `symlink $(NAME)`, to build the symlinks for the multi-call
-binary. Since we only defined three functions within the body of `exporting-definitions`, it is only
-going to build three symlinks to `my-scripts`. The `--output $(NAME)` option specifies the output
-file. The `--dump !` means to create an image, to enable a faster startup. The `--lisp sbcl`
-specifies the CL implementation to use; the option `--quicklisp` specifies that we
-load [Quicklisp](https://www.quicklisp.org) with the image. The `--system $(NAME)` loads the system
-the we are building. The `--dispatch-system $(NAME)/main` species the entrypoint of our program.
+In the `$(NAME)` target, we call `cl-launch` with options to build the script. In the `install`
+target, we invoke the script with the options `symlink $(NAME)`, to build the symlinks for the
+multi-call binary. Since we only defined three functions within the body of `exporting-definitions`,
+it is only going to build three symlinks to `my-scripts`. The `--output $(NAME)` option specifies
+the output file. The `--dump !` means to create an image, to enable a faster startup. The `--lisp
+sbcl` specifies that we want to use SBCL, for this script; the option `--quicklisp` specifies that
+we load [Quicklisp](https://www.quicklisp.org) with the image. The `--system $(NAME)` loads the
+system the we are building. The `--dispatch-system $(NAME)/main` species the entrypoint of our
+program.
 
 
 ### Building
@@ -206,19 +202,19 @@ We are now ready to build the script and the symlinks. To do that, run:
 $ make install
 ```
 
-This will build the multi-call binary and the corresponding symbolic links. The directory tree of
+This will build the multi-call binary—`./my-scripts` and the corresponding symbolic links. The directory tree of
 `~/bin` should look like the following:
 
 ```bash
 $ tree ~/bin
-/home/ebzzry/bin
+/home/ogag/bin
 ├── getuid -> my-scripts
 ├── help -> my-scripts
 ├── main -> my-scripts
-├── my-scripts -> /home/ebzzry/common-lisp/my-scripts/my-scripts
+├── my-scripts -> /home/ogag/common-lisp/my-scripts/my-scripts
 └── symlink -> my-scripts
 
-0 directories, 4 files
+0 directories, 5 files
 ```
 
 To test that it indeed works, run:
@@ -227,7 +223,7 @@ To test that it indeed works, run:
 $ getuid
 ```
 
-It should display the UID of the user who ran the command.
+If it displays your UID, we’re good to go.
 
 
 <a name="more"></a>More
@@ -243,7 +239,7 @@ with several functions. Let’s modify `my-script.asd` to contain the additional
   :version "0.0.1"
   :description "CL scripts"
   :license "MIT"
-  :author "Rommel Martinez"
+  :author "Lolu Ogag"
   :class :package-inferred-system
   :depends-on ((:version "cl-scripting" "0.1")
                (:version "inferior-shell" "2.0.3.3")
@@ -252,7 +248,7 @@ with several functions. Let’s modify `my-script.asd` to contain the additional
                "my-scripts/general"))
 ```
 
-Then let’s populate the file `general.lisp` with the following contents:
+Then, let’s populate the file `general.lisp` with the following contents:
 
 ```lisp
 (uiop:define-package
@@ -338,7 +334,7 @@ Launching and managing user applications is esay. Let’s start by adding a depe
   :version "0.0.1"
   :description "CL scripts"
   :license "MIT"
-  :author "Rommel Martinez"
+  :author "Lolu Ogag"
   :class :package-inferred-system
   :depends-on ((:version "cl-scripting" "0.1")
                (:version "inferior-shell" "2.0.3.3")
@@ -407,13 +403,6 @@ conflicting parties, to agree to how things should be done. There are different 
 CL, and each implementation strives to achieve goals that may not necessarily be compatible with
 other implementations. That’s OK, because it gives room for implementors and designers, on how to
 work on the base specifications. As long as they conform to the standard, things are green.
-
-[Utilities for Implementation- and OS- Portability (UIOP)](https://gitlab.common-lisp.net/asdf/asdf/tree/master/uiop) solves
-many of the problems caused by the differences among the different implementations. It provides
-standard layers of abstraction so that there is a common way of invoking differing routines in a
-uniform way. With UIOP, scripting in CL becomes significantly easier. Fortunately, UIOP is part of
-ASDF3, so any modern, [not inactive](https://www.gnu.org/software/gcl/) implementation should have
-it.
 
 [Faré Rideau (Fare)](http://fare.tunes.org), is the man responsible for making scripting in CL
 possible and acceptable. You may send your donations to him via [PayPal](https://paypal.me/fahree)
