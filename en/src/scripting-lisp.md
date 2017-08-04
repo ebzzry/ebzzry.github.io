@@ -4,12 +4,14 @@ Scripting in Common Lisp
 <div class="center">July 5, 2017</div>
 <div class="center">Updated: August 4, 2017</div>
 
+>“The light that burns twice as bright burns half as long.”<br>
+>―Dr. Eldon Tyrell, Blade Runner (1982)
 
 Full-fledged systems and libraries have always been a comfortable zone for Common Lisp
 users. However, for a long time, there has not been a definitive solution in using CL as a scripting
 language. A scripting language, in this context, means something that is similar in spirit to
-Bash. That is, one that is used to issue and manipulate system commands. In this article, I will
-give a short introduction on how to use CL in the scripting domain.
+Bash. That is, one that is used to issue, control, and manage system commands on the application
+level. In this article, I will give a short introduction on how to use CL in the scripting domain.
 
 
 <a name="toc"></a>Table of contents
@@ -40,7 +42,7 @@ Other scripting solutions exist in other languages. Haskell, Python, Scheme, and
 few, has it. However, there’s a neat future of CL, that is difficult to implement or non-existent in
 other approaches: since the scripts themselves are valid CL programs, I can load the programs
 in the REPL and do nice things with it. Nothing comes close to the flexibility that CL provides when
-inteacting with live, running programs.
+interacting with live, running programs.
 
 In this short tutorial, I will also lightly gloss about one nice thing with CL scripting: multi-call
 binaries. A multi-call binary is a single executable file that can be dereferenced with many
@@ -54,12 +56,12 @@ this is handled by [cl-launch](https://github.com/fare/cl-launch).
 ------------------------------------------
 
 Scripting in CL works on top of the language, that is, in the form of libraries that provide the
-absctractions to interact with the system and
+abstractions to interact with the system and
 environment. The
 [Utilities for Implementation- and OS- Portability (UIOP)](https://gitlab.common-lisp.net/asdf/asdf/tree/master/uiop) is
 a set of abstractions that lets us use and write portable CL code. It does the heavy lifting of
 making sure that we are going to write portable Lisp code. UIOP is part of ASDF3—which is part of
-most modern CL implementations—so there is no need to manualy install
+most modern CL implementations—so there is no need to manually install
 it. [inferior-shell](https://github.com/fare/inferior-shell) helps us with managing
 processes. [cl-scripting](https://github.com/fare/cl-scripting) helps us with more process control.
 
@@ -324,7 +326,7 @@ $ sudo apt-get install -y scrot xclip
 $ nix-env -i scrot xclip
 ```
 
-Launching and managing user applications is esay. Let’s start by adding a dependency in
+Launching and managing user applications is easy. Let’s start by adding a dependency in
 `my-scripts.asd`:
 
 ```lisp
@@ -396,7 +398,7 @@ Looks good to me. 😄
 
 It has been said many times that CL has already faded into obscurity; that no one longer uses it;
 that it is no longer useful. No, that is not true. Just because it is not being discussed in
-mainstream news, means it is dead or fallen out of favor. CL is a standardized language, and a
+mainstream news, means it is dead or have fallen out of favor. CL is a standardized language, and a
 program that conforms to the standard has the guarantee—to an extent—that it can still run in the
 feature. To create a language standard is a monumental task—it requires that different, possibly
 conflicting parties, to agree to how things should be done. There are different implementations of
@@ -404,9 +406,10 @@ CL, and each implementation strives to achieve goals that may not necessarily be
 other implementations. That’s OK, because it gives room for implementors and designers, on how to
 work on the base specifications. As long as they conform to the standard, things are green.
 
-[Faré Rideau (Fare)](http://fare.tunes.org), is the man responsible for making scripting in CL
-possible and acceptable. You may send your donations to him via [PayPal](https://paypal.me/fahree)
-or [Bitcoin](bitcoin:1fareF6wCNYYiLPGmyQjrd3AQdHBb1CJ6).
-
-The source code for this article can be found [here](https://github.com/ebzzry/my-scripts). The
+The human responsible for making scripting in CL possible and acceptable,
+is [Faré Rideau (Fare)](http://fare.tunes.org). It
+was [this blog entry](http://fare.livejournal.com/184127.html) of his that motivated me to see the
+viability of CL as a scripting language. You may send your donations to him
+via [PayPal](https://paypal.me/fahree) or [Bitcoin](bitcoin:1fareF6wCNYYiLPGmyQjrd3AQdHBb1CJ6). The
+source code for this article can be found [here](https://github.com/ebzzry/my-scripts), while the
 scripts that I use for personal use can be found [here](https://github.com/ebzzry/scripts).
