@@ -5,6 +5,7 @@ M-x ebzzry RET
 <div class="text-right">A journal about computing, human predilections, and random krakaboom.</div>
 <div class="text-right">Entries are sorted in reverse chronological order.</div>
 
+- [Scripting in Common Lisp](scripting-lisp)
 - [My Markdown Style Guide](markdown)
 - [Emacs Tips 3](emacs-tips-3)
 - [A Gentle Introduction to the Nix Family](nix)
