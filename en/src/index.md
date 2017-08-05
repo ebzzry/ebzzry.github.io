@@ -1,7 +1,7 @@
 M-x ebzzry RET
 ==============
 
-<a href="https://www.spacetelescope.org/images/heic1509a/"><img src="/images/banner.png" class="banner" alt="Westerlund 2" /></a>
+<img src="/images/banner.png" class="banner" alt="taso kaj butono" />
 <div class="text-right">A journal about computing, human predilections, and random krakaboom.</div>
 <div class="text-right">Entries are sorted in reverse chronological order.</div>
 
