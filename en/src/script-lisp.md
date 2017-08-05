@@ -7,11 +7,15 @@ Scripting in Common Lisp
 >“The light that burns twice as bright burns half as long.”<br>
 >―Dr. Eldon Tyrell, Blade Runner (1982)
 
+<img src="/images/lisp-logo.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="common-lisp.net logo" title="common-lisp.net logo"/>
+
 Full-fledged systems and libraries have always been a comfortable zone for Common Lisp
 users. However, for a long time, there has not been a definitive solution in using CL as a scripting
 language. A scripting language, in this context, means something that is similar in spirit to
-Bash. That is, one that is used to issue, control, and manage system commands on the application
-level. In this article, I will give a short introduction on how to use CL in the scripting domain.
+command line shells—that is, one that is used to issue, control, and manage system commands on the
+application level. The meaning also extends to the automation of the execution of tasks that are
+otherwise done one-by-one. In this article, I will give a short introduction on how to use CL in the
+scripting domain.
 
 
 <a name="toc"></a>Table of contents
@@ -188,11 +192,11 @@ clean:
 In the `$(NAME)` target, we call `cl-launch` with options to build the script. In the `install`
 target, we invoke the script with the options `symlink $(NAME)`, to build the symlinks for the
 multi-call binary. Since we only defined three functions within the body of `exporting-definitions`,
-it is only going to build three symlinks to `my-scripts`. The `--output $(NAME)` option specifies
-the output file. The `--dump !` means to create an image, to enable a faster startup. The `--lisp
-sbcl` specifies that we want to use SBCL, for this script; the option `--quicklisp` specifies that
-we load [Quicklisp](https://www.quicklisp.org) with the image. The `--system $(NAME)` loads the
-system the we are building. The `--dispatch-system $(NAME)/main` species the entrypoint of our
+it is only going to build three symlinks to `my-scripts`. The `‑‑output $(NAME)` option specifies
+the output file. The `‑‑dump !` means to create an image, to enable a faster startup. The `‑‑lisp sbcl`
+specifies that we want to use SBCL, for this script; the option `‑‑quicklisp` specifies that
+we load [Quicklisp](https://www.quicklisp.org) with the image. The `‑‑system $(NAME)` loads the
+system the we are building. The `‑‑dispatch-system $(NAME)/main` species the entrypoint of our
 program.
 
 
@@ -390,7 +394,7 @@ $ make install
 my-scripts available commands: battery chrome continue-chrome help kill-chrome main screenshot stop-chrome symlink
 ```
 
-Looks good to me. 😄
+Yay! 😄
 
 
 <a name="closing"></a>Closing Remarks
@@ -413,3 +417,5 @@ viability of CL as a scripting language. You may send your donations to him
 via [PayPal](https://paypal.me/fahree) or [Bitcoin](bitcoin:1fareF6wCNYYiLPGmyQjrd3AQdHBb1CJ6). The
 source code for this article can be found [here](https://github.com/ebzzry/my-scripts), while the
 scripts that I use for personal use can be found [here](https://github.com/ebzzry/scripts).
+
+The banner image used at the top is from [common-lisp.net](https://common-lisp.net/).

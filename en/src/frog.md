@@ -104,7 +104,7 @@ You’ll see a message saying that your website is ready. Let’s follow the sug
     $ raco frog -bp
 
 What that command does is that it builds the HTML files from the sample source files created with
-the `--init` switch, then it runs a local web server, serving by default, the
+the `‑‑init` switch, then it runs a local web server, serving by default, the
 location [http://localhost:3000](http://localhost:3000). Frog will then open a new browser tab, or
 window, pointing to that URL. The page that you’ll see contains the default site layout. When you’re
 OK with it, let’s go back to the terminal, and kill that process by hitting <kbd>C-c</kbd>.
