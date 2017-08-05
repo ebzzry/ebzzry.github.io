@@ -1,11 +1,11 @@
 M-x ebzzry RET
 ==============
 
-<a href="https://www.spacetelescope.org/images/heic1509a/"><img src="/images/banner.jpg" class="banner" alt="Westerlund 2" /></a>
+<a href="https://www.spacetelescope.org/images/heic1509a/"><img src="/images/banner.png" class="banner" alt="Westerlund 2" /></a>
 <div class="text-right">A journal about computing, human predilections, and random krakaboom.</div>
 <div class="text-right">Entries are sorted in reverse chronological order.</div>
 
-- [Scripting in Common Lisp](scripting-lisp)
+- [Scripting in Common Lisp](script-lisp)
 - [My Markdown Style Guide](markdown)
 - [Emacs Tips 3](emacs-tips-3)
 - [A Gentle Introduction to the Nix Family](nix)
