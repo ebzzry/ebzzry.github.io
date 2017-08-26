@@ -1,7 +1,7 @@
 About
 =====
 
-<img style="margin-right: 0.5em; margin-bottom: 0.5em;" src="/images/author.jpg" alt="Beep. Boop. Meow." title="Beep. Boop. Meow." align="left" />
+<img style="margin-right: 0.5em; margin-bottom: 0.5em;" src="/images/author.jpg" alt="Ve!" title="Ve!" align="left" />
 Rommel Martinez is a space pirate of unknown descent. He is currently in human form and was last
 spotted interacting with Earthlings in the Milky Way galaxy.
 
