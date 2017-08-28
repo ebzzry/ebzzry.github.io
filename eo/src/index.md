@@ -1,4 +1,4 @@
 M-x ebzzry RET
 ==============
 
-Baldaŭ, ĉi tie estos la esperanta versia de mia TTT-ejo.
+Baldaŭ, ĉi tie estos la esperanta versio de mia retejo.
