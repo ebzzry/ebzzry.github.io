@@ -5,7 +5,7 @@ A Lambda Calculus Primer
 <div class="center">Updated: March 31, 2017</div>
 
 >“You do not really understand something unless you can explain it to your grandmother.”<br>
->>―Albert Einstein
+>―Albert Einstein
 
 This post is my attempt to do just that, only that the grandmother here is myself. I firmly believe
 that unless I try to explain something, will I really understand it. This post takes a very
