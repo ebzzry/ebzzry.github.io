@@ -144,3 +144,6 @@ Entries are sorted in chronological order.
 
 
 - Power without control is nil; likewise, control without power is nil.<br>
+
+
+- A true master knows that he’ll never become one.<br>
