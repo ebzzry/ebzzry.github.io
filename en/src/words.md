@@ -141,3 +141,6 @@ Entries are sorted in chronological order.
 
 
 - The form of a question determines the form of the answer.<br>
+
+
+- Power without control is nil; likewise, control without power is nil.<br>
