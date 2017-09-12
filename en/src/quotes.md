@@ -583,3 +583,7 @@ the years.
 
 - “The light that burns twice as bright burns half as long.”<br>
   ―Dr. Eldon Tyrell, Blade Runner (1982)
+
+
+- “Why would you take fitness advice from someone who isn’t fit? It’s like taking movie reviews from a blind guy.”<br>
+  ―Nicole Arbour
