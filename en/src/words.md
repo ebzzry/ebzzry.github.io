@@ -138,3 +138,6 @@ Entries are sorted in chronological order.
 
 
 - Tell me what you care about, and I’ll tell you who you are.<br>
+
+
+- The form of a question determines the form of the answer.<br>
