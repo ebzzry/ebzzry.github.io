@@ -1520,7 +1520,7 @@ ones that I’m aware of are
 [AppImage](http://appimage.org/), [Zero Install](http://0install.net/), [Snapcraft](https://snapcraft.io/),
 and [Flatpak](http://flatpak.org/).
 
-The [Guix System Distribution (GuixSD)](https://www.gnu.org/software/guix/) is a Linux distribution
+The [Guix System Distribution (GuixSD)](https://www.gnu.org/software/guix/) is a GNU/Linux distribution
 that is based on Nix. It uses Guile Scheme as its API language. The key differences between
 GuixSD and NixOS is that the former uses [GNU Shepherd](https://www.gnu.org/software/shepherd/)
 instead of systemd; it doesn’t allow non-free packages; and it
