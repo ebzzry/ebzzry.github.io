@@ -147,3 +147,7 @@ Entries are sorted in chronological order.
 
 
 - A true master knows that he’ll never become one.<br>
+
+
+- One of the most satisfying yet most difficult thing to learn, is how to unlearn.<br>
+
