@@ -151,3 +151,5 @@ Entries are sorted in chronological order.
 
 - One of the most satisfying yet most difficult thing to learn, is how to unlearn.<br>
 
+
+- People gossip about other people because their own lives are too uninteresting.<br>
