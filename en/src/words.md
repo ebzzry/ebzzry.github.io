@@ -64,6 +64,7 @@ Entries are sorted in chronological order.
 
 - If you can’t beat them, arrange to have them beaten.<br>
 
+
 - Fear births doubt.<br>
 
 
