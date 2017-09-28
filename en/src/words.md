@@ -2,7 +2,7 @@ Words
 =====
 
 <center>November 24, 2015</center>
-<center>Updated: May 20, 2017</center>
+<center>Updated: September 28, 2017</center>
 
 This page contains a list of phrases and lines that I communicated with my fellow men, to raise
 awareness, to shed light on things, and to inspire.
@@ -135,7 +135,7 @@ Entries are sorted in chronological order.
 - Take care of your shell; it’s the only one that you have.<br>
 
 
-- In the grand scale of the universe, human lives are insignificant. We are selfish with our lives because they are own. However, we should remind ourselves, that for life to be flourish, there must also be death.<br>
+- In the grand scale of the universe, human lives are insignificant. We are selfish with our lives because they are our own. However, we should remind ourselves, that for life to be flourish, there must also be death.<br>
 
 
 - Tell me what you care about, and I’ll tell you who you are.<br>
