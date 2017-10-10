@@ -2,7 +2,7 @@ Quotes
 ======
 
 <center>August 29, 2015</center>
-<center>Updated: March 28, 2017</center>
+<center>Updated: October 10, 2017</center>
 
 This page contains a list of curated quotations, aphorisms, and proverbs that I have collected over
 the years.
@@ -587,3 +587,7 @@ the years.
 
 - “Why would you take fitness advice from someone who isn’t fit? It’s like taking movie reviews from a blind guy.”<br>
   ―Nicole Arbour
+
+
+- “If you see fraud and do not say fraud, you are a fraud.”<br>
+  ―Nassim Nicholas Taleb
