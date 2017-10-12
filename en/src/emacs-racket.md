@@ -2,7 +2,7 @@ Setting Up Racket Development in Emacs
 ======================================
 
 <div class="center">September 29, 2013</div>
-<div class="center">Updated: June 15, 2017</div>
+<div class="center">Updated: October 12, 2017</div>
 
 >“All the good ideas never lie under one hat.”<br>
 >―Dale Turner
@@ -43,49 +43,12 @@ its nice GUI debugger.
 <a name="installation"></a> Installation
 ----------------------------------------
 
-My installation method is crude, but it works, at least for me. Other installation methods exist,
-but I couldn’t wrap my brain around them, so I opted instead for something that requires the minimal
-amount of chore. Also, I’m still not sure what are the hidden consequences of not doing it the
-“elegant” way, presuming there is one.
+With [ELPA](/en/emacs-tips-2/#elpa), installing Geiser is a breeze. Simply execute the following
 
-Let’s say that you want to install your Geiser files in `~/.emacs.d/elisp/`. You’ll issue the
-following commands to install Geiser to that location:
+    M-x package-install RET geiser RET
 
-    $ mkdir ~/.emacs.d/elisp
-    $ cd ~/.emacs.d/elisp
-    $ git clone http://git.sv.gnu.org/r/geiser.git
-
-After that, in `~/.emacs.d/elisp/geiser/`, you’ll have something that looks like the following:
-
-```
-AUTHORS
-autogen.sh*
-bin/
-ChangeLog
-configure.ac
-COPYING
-doc/
-elisp/
-.git/
-.gitignore
-INSTALL
-Makefile.am
-NEWS
-README
-README.elpa
-scheme/
-THANKS
-```
-
-Next, you want the directory `~/.emacs.d/elisp/geiser/elisp/` to be a member of the Emacs variable
-`load-path` so that `require` and friends will know where to find things. To do that, add the
-following to your Emacs init file—either in `~/.emacs.d/init.el`, or in `~/.emacs` (deprecated):
-
-```lisp
-(add-to-list 'load-path "~/.emacs.d/elisp/geiser/elisp/")
-```
-
-Next, you’ll put in the actual code that invokes and configures Geiser:
+And in a few seconds, you’ll have Geiser installed in your Emacs profile. Next, you’ll put in the
+actual code that invokes and configures Geiser:
 
 ```lisp
 (require 'geiser)
@@ -98,8 +61,8 @@ Next, you’ll put in the actual code that invokes and configures Geiser:
 ```
 
 The first expression loads Geiser, itself. The second one specifies that it won’t prompt you for
-other implementations if it finds them. The last one is optional—it enables you to execute `M-x
-geiser-save RET` in the REPL buffer to force saving of the history to the disk file, which is
+other implementations if it finds them. The last one is optional—it enables you to execute
+`M-x geiser-save RET` in the REPL buffer to force saving of the history to the disk file, which is
 `~/.geiser_history.racket`, by default. It is useful if you want to save your REPL session,
 immediately (Nothing is more horrifying than losing **THAT** expression). For all the Emacs code
 above, to take effect, you can evaluate them now using members of the eval-* troupe (`eval-defun`,
