@@ -154,3 +154,6 @@ Entries are sorted in chronological order.
 
 
 - People gossip about other people because their own lives are too uninteresting.<br>
+
+
+- Everytime you use set!, a fairy dies.<br>
