@@ -157,3 +157,6 @@ Entries are sorted in chronological order.
 
 
 - Everytime you use set!, a fairy dies.<br>
+
+
+- However less you use Facebook, use lesser.<br>
