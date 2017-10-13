@@ -2,7 +2,7 @@ Quotes
 ======
 
 <center>August 29, 2015</center>
-<center>Updated: October 10, 2017</center>
+<center>Updated: October 13, 2017</center>
 
 This page contains a list of curated quotations, aphorisms, and proverbs that I have collected over
 the years.
@@ -591,3 +591,7 @@ the years.
 
 - “If you see fraud and do not say fraud, you are a fraud.”<br>
   ―Nassim Nicholas Taleb
+
+
+- “Content is king.”<br>
+  ―Bill Gates
