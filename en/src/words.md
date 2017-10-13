@@ -2,7 +2,7 @@ Words
 =====
 
 <center>November 24, 2015</center>
-<center>Updated: September 28, 2017</center>
+<center>Updated: October 12, 2017</center>
 
 This page contains a list of phrases and lines that I communicated with my fellow men, to raise
 awareness, to shed light on things, and to inspire.
@@ -22,8 +22,7 @@ Entries are sorted in chronological order.
 
 
 - When you don’t give your best, and unfavorable results come out, you’ll wonder what would have
-  happened had you done your finest. If, however, you gave your ace, then serene tranquility will
-  fill the void, and not a single sliver of doubt will permeate your soul.<br>
+  happened had you done your finest.<br>
 
 
 - The most wonderful sensations in the life of our cognizant consciousnesses are wrought with traps,
