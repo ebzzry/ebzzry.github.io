@@ -89,8 +89,7 @@ description of the keys that I used below, are for myself initially, to help me 
 do. They may, or may not diverge from the official description, listed on the aforementioned link.
 
 
-<a name="racketbuffer"></a> Racket buffer
------------------------------------------
+### <a name="racketbuffer"></a> Racket buffer
 
 | Key     | What it does                                            |
 | :------ | :------------------------------------------------------ |
@@ -102,8 +101,7 @@ do. They may, or may not diverge from the official description, listed on the af
 | C-c C-\ | Insert a lambda (λ) symbol                              |
 
 
-<a name="replbuffer"></a> REPL buffer
--------------------------------------
+### <a name="replbuffer"></a> REPL buffer
 
 | Key     | What it does                        |
 | :------ | :---------------------------------- |
