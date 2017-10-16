@@ -2,7 +2,7 @@ Scripting in Common Lisp
 ========================
 
 <div class="center">July 5, 2017</div>
-<div class="center">Updated: August 4, 2017</div>
+<div class="center">Updated: October 16, 2017</div>
 
 >“The light that burns twice as bright burns half as long.”<br>
 >―Dr. Eldon Tyrell, Blade Runner (1982)
@@ -409,6 +409,9 @@ conflicting parties, to agree to how things should be done. There are different 
 CL, and each implementation strives to achieve goals that may not necessarily be compatible with
 other implementations. That’s OK, because it gives room for implementors and designers, on how to
 work on the base specifications. As long as they conform to the standard, things are green.
+
+A working example of how I use CL scripting is with my Nixpkgs and NixOS helper,
+[nix](https://github.com/ebzzry/nix-lisp).
 
 The human responsible for making scripting in CL possible and acceptable,
 is [Faré Rideau (Fare)](http://fare.tunes.org). It
