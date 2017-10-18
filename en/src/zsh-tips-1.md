@@ -8,17 +8,28 @@ Zsh Tips and Tricks 1: Aliases and Functions
 >―Confucius
 
 One of the joys of working exclusively on the terminal is makes it so easy to work with commands,
-files, and directories. Being able to go from idea to results happens in a very short span of time
-do to the flexibility that it provides. For interactive shell use, I use Zsh almost exclusively.
+files, and directories. Being able to go from idea to results happens in a very short span of
+time. For interactive shell use, I use Zsh almost exclusively. In this article, I’ll talk about some
+things to improve your interactive interaction with the shell.
 
 
 <a name="toc">Table of contents</a>
 -----------------------------------
 
+- [Overview](#overview)
 - [Aliases](#aliases)
 - [Functions](#functions)
 - [Mixing them](#mixingthem)
 - [Closing remarks](#closingremarks)
+
+
+<a name="overview">Overview</a>
+-------------------------------
+
+There are at least three kinds of commands in Zsh: binaries, aliases, and functions. Binaries are
+the ones that are found in your `$PATH`; they are the programs that you installed using your package
+manager. Aliases and functions, or other other hand do not live as files on the filesystem. They are
+defined as part of your configuration file, or inlined in your session.
 
 
 <a name="aliases">Aliases</a>
@@ -91,15 +102,15 @@ As much as possible, use functions.
 
 To display all your functions, run:
 
-    functions
+    % functions
 
 
 <a name="mixingthem">Mixing them</a>
 ------------------------------------
 
 Littering your config file with complete function definitions for every little command that you want
-is dumb, at best. Instead, we’ll use a better way to define global aliases and small functions. Open
-your `~/.zshenv` file using your favorite editor.
+is dumb. Instead, we’ll use a better way to define global aliases and small functions. Open your
+`~/.zshenv` file using your favorite editor.
 
 First let’s define the functions that will define the others.
 
@@ -185,7 +196,6 @@ funs=(
   cp "command cp -i"
   mv "command mv -i"
   c "cat"
-  '_' "popd;"
 
   l "ls -GFAtr --color"
   la "ls -AF --color"

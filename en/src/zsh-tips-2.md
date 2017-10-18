@@ -24,7 +24,7 @@ experience. In this article, I will talk about a simple way to save and restore 
 -------------------------------
 
 Every time I change directory through `cd`, I use `pushd` to save that directory on that directory
-stack. This enables me to go back to the previous directory, before I called `pushd`, with the use
+stack. This enables me to go back to the previous directory, before I call `pushd`, with the use
 of `popd`. The command `dirs`, displays the current value of the directory stack.
 
 First, let’s define our helpers:
@@ -63,7 +63,7 @@ I will get the following
 <a name="saving">Saving</a>
 ---------------------------
 
-Directory stacks allows us to move through the trees that we are working now. Pushing to the
+Directory stacks allows us to move through the trees that we are working on currently. Pushing to the
 directory stack permits us to *visit* a directory, wherein we will perform actions there, then go
 back to the last one through popping, with ease.
 
@@ -110,7 +110,7 @@ function z@ () {
 }
 ```
 
-To restore the saved directory stack, on a new session via `exec sh`, or a new separate instance,
+To restore the saved directory stack, on a new session via `exec zsh`, or a new separate instance,
 run:
 
     % z@
@@ -126,6 +126,6 @@ run:
 --------------------------------------------
 
 I use directory stacks as a way to save the directories that I interact with so that it will be
-easier to restore to a previous working state. Having those two helper commands makes it even more
+easier to restore to a previous working state. Having these two helper commands makes it even more
 enjoyable to work in the command line. For the rest of the definitions, visit my Zsh dotfiles repo
 [here](https://github.com/ebzzry/dotfiles/tree/master/zsh).
