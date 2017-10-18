@@ -1,11 +1,11 @@
-Emacs Tips 3
-============
+Emacs Tips and Tricks: Insertion and Deletion
+=============================================
 
 <div class="center">April 1, 2017</div>
-<div class="center">Updated: April 1, 2017</div>
+<div class="center">Updated: October 18, 2017</div>
 
-This is the third part of my Emacs tips series. In this article I’ll talk about string insertion,
-and line deletion, marking, and yanking.
+This is the continuation of my series on Emacs tips and tricks. In this article, we explore string
+insertion, and line deletion, marking, and yanking.
 
 
 Table of contents
