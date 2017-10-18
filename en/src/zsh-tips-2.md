@@ -1,4 +1,4 @@
-Zsh Tips and Tricks 2: Save and Restore
+Zsh Tips and Tricks 2: Directory Stacks
 =======================================
 
 <div class="center">October 18, 2017</div>
