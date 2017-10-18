@@ -1,11 +1,11 @@
-Emacs Tips 2
-============
+Emacs Tips and Tricks 2: Sessions and Packages
+==============================================
 
 <div class="center">June 12, 2015</div>
-<div class="center">Updated: April 1, 2017</div>
+<div class="center">Updated: October 18, 2017</div>
 
-This is second part of my Emacs tips series. The contents of this post are written in no particular
-order. It explores session management, packages, managing indents, and other things.
+This is the continuation of my series on Emacs tips and tricks. In this article, we explore session
+management, packages, managing indents, and other nice little things.
 
 
 Table of contents
