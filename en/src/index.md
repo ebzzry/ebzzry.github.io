@@ -5,7 +5,7 @@ M-x ebzzry RET
 <div class="text-right">A journal about computing, human predilections, and random krakaboom.</div>
 <div class="text-right">Entries are sorted in reverse chronological order.</div>
 
-- [Zsh Tips and Tricks 2: Save and Restore](zsh-tips-2)
+- [Zsh Tips and Tricks 2: Directory Stacks](zsh-tips-2)
 - [Zsh Tips and Tricks 1: Aliases and Functions](zsh-tips-1)
 - [Scripting in Common Lisp](script-lisp)
 - [My Markdown Style Guide](markdown)
