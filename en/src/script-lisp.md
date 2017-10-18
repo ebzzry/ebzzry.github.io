@@ -2,7 +2,7 @@ Scripting in Common Lisp
 ========================
 
 <div class="center">July 5, 2017</div>
-<div class="center">Updated: October 16, 2017</div>
+<div class="center">Updated: October 18, 2017</div>
 
 >“The light that burns twice as bright burns half as long.”<br>
 >―Dr. Eldon Tyrell, Blade Runner (1982)
@@ -410,15 +410,15 @@ CL, and each implementation strives to achieve goals that may not necessarily be
 other implementations. That’s OK, because it gives room for implementors and designers, on how to
 work on the base specifications. As long as they conform to the standard, things are green.
 
-A working example of how I use CL scripting is with my Nixpkgs and NixOS helper,
-[nix](https://github.com/ebzzry/nix-lisp).
+I wrote a simple [Nixpkgs/NixOS helper](https://github.com/ebzzry/nix-lisp) as a working example of
+how I use CL scripting.
 
 The human responsible for making scripting in CL possible and acceptable,
-is [Faré Rideau (Fare)](http://fare.tunes.org). It
-was [this blog entry](http://fare.livejournal.com/184127.html) of his that motivated me to see the
-viability of CL as a scripting language. You may send your donations to him
-via [PayPal](https://paypal.me/fahree) or [Bitcoin](bitcoin:1fareF6wCNYYiLPGmyQjrd3AQdHBb1CJ6). The
-source code for this article can be found [here](https://github.com/ebzzry/my-scripts), while the
-scripts that I use for personal use can be found [here](https://github.com/ebzzry/scripts).
+is [Faré Rideau (Fare)](http://fare.tunes.org). It was [this blog
+entry](http://fare.livejournal.com/184127.html) of his that motivated me to see the viability of CL
+as a scripting language. You may send your donations to him via [PayPal](https://paypal.me/fahree)
+or [Bitcoin](bitcoin:1fareF6wCNYYiLPGmyQjrd3AQdHBb1CJ6). The source code for this article can be
+found [here](https://github.com/ebzzry/my-scripts), while the scripts that I use for personal use
+can be found [here](https://github.com/ebzzry/scripts).
 
 The banner image used at the top is from [common-lisp.net](https://common-lisp.net/).
