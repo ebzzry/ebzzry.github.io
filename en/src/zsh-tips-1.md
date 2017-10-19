@@ -1,8 +1,8 @@
 Zsh Tips 1: Aliases and Functions
-============================================
+=================================
 
 <div class="center">October 18, 2017</div>
-<div class="center">Updated: October 18, 2017</div>
+<div class="center">Updated: October 19, 2017</div>
 
 >“A common man marvels at uncommon things; a wise man marvels at the commonplace.”<br>
 >―Confucius

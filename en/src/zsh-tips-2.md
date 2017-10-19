@@ -1,8 +1,8 @@
 Zsh Tips 2: Directory Stacks
-=======================================
+============================
 
 <div class="center">October 18, 2017</div>
-<div class="center">Updated: October 18, 2017</div>
+<div class="center">Updated: October 19, 2017</div>
 
 >“What we do for ourselves dies with us. What we do for others remains forever.”<br>
 >―Albert Pike
