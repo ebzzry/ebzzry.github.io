@@ -2,7 +2,7 @@ Converting Markdown to HTML with emem
 =====================================
 
 <div class="center">March 12, 2017</div>
-<div class="center">Updated: March 31, 2017</div>
+<div class="center">Updated: October 18, 2017</div>
 
 >“The answers you seek you will never find until you stop looking outside and start looking for them
 >within yourself.”<br>
@@ -62,7 +62,7 @@ When you’re done installing it, you may check the version number with:
 $ emem --version
 ```
 
-The latest version is 0.2.43.
+The latest version is `0.2.48`.
 
 
 <a name="usage"></a> Usage
