@@ -5,8 +5,9 @@ M-x ebzzry RET
 <div class="text-right">A journal about computing, human predilections, and random krakaboom.</div>
 <div class="text-right">Entries are sorted in reverse chronological order.</div>
 
-- [Zsh Tips and Tricks 2: Directory Stacks](zsh-tips-2)
-- [Zsh Tips and Tricks 1: Aliases and Functions](zsh-tips-1)
+- [How I Roll with Tmux](tmux)
+- [Zsh Tips 2: Directory Stacks](zsh-tips-2)
+- [Zsh Tips 1: Aliases and Functions](zsh-tips-1)
 - [Scripting in Common Lisp](script-lisp)
 - [My Markdown Style Guide](markdown)
 - [Emacs Tips and Tricks: Insertion and Deletion](emacs-tips-3)
@@ -26,14 +27,14 @@ M-x ebzzry RET
 - [Creating Conkeror Bookmarks with emem](conkeror-bookmarks)
 - [Virtualizing with KVM in Linux](kvm)
 - [A Lambda Calculus Primer](lambda-calculus)
-- [Emacs Tips and Tricks 2: Sessions and Packages](emacs-tips-2)
+- [Emacs Tips 2: Sessions and Packages](emacs-tips-2)
 - [Setting Up GPG and SSH in KDE](gpg-ssh-kde)
 - [Creating Backups with Ugarit](ugarit)
 - [Blogging with Frog](frog)
 - [Setting Up Mail in Emacs](emacs-mail)
 - [Setting Up Racket Development in Emacs](emacs-racket)
 - [Setting Up Directory Management in Emacs](emacs-dired)
-- [Emacs Tips and Tricks 1: Regions and Marks](emacs-tips-1)
+- [Emacs Tips 1: Regions and Marks](emacs-tips-1)
 - [In Retrospect](retrospect)
 - [Moving from LiveJournal to Frog with livefrog](livefrog)
 - [Synchronizing Sites with Usync](usync)

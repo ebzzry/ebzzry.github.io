@@ -1,4 +1,4 @@
-Zsh Tips and Tricks 2: Directory Stacks
+Zsh Tips 2: Directory Stacks
 =======================================
 
 <div class="center">October 18, 2017</div>
@@ -127,5 +127,6 @@ run:
 
 I use directory stacks as a way to save the directories that I interact with so that it will be
 easier to restore to a previous working state. Having these two helper commands makes it even more
-enjoyable to work in the command line. For the rest of the definitions, visit my Zsh dotfiles repo
+enjoyable to work in the command line. For the rest of the definitions, visit the repo
 [here](https://github.com/ebzzry/dotfiles/tree/master/zsh).
+

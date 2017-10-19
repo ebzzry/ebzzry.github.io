@@ -1,4 +1,4 @@
-Zsh Tips and Tricks 1: Aliases and Functions
+Zsh Tips 1: Aliases and Functions
 ============================================
 
 <div class="center">October 18, 2017</div>
@@ -227,4 +227,4 @@ funs=(
 
 Grouping commands this way makes it significantly easier to add and remove new items. Bring them all
 in one consolidated places also makes your config file arguably cleaner. For the rest of the
-definitions, visit my Zsh dotfiles repo [here](https://github.com/ebzzry/dotfiles/tree/master/zsh).
+definitions, visit the repo [here](https://github.com/ebzzry/dotfiles/tree/master/zsh).
