@@ -1,8 +1,8 @@
-Moving from LiveJournal to Frog with livefrog
-=============================================
+Migrating from LiveJournal to Frog
+==================================
 
 <div class="center">May 29, 2013</div>
-<div class="center">Updated: March 31, 2017</div>
+<div class="center">Updated: October 19, 2017</div>
 
 >“I don’t know where I’m going, but I’m on my way.”<br>
 >―Carl Sagan
@@ -42,15 +42,15 @@ To be able to execute the runtimes, we need to install Racket, first:
 
 Nix:
 
-    nix-env -i racket
+    $ nix-env -i racket
 
 APT:
 
-    sudo apt-get install -y racket
+    $ sudo apt-get install -y racket
 
 After installation, verify that you have Racket:
 
-    racket --version
+    $ racket --version
 
 If you see a version string, good. Next, let’s install livefrog. It is available via
 Racket’s [Planet2](https://pkg.racket-lang.org), Racket’s package repository:
