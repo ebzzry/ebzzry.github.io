@@ -276,4 +276,4 @@ With tmux, I no longer have to use the (mouse) pointer to manipulate my selectio
 Tmux is one of the tools that one must be using when working with the terminal and command line. It
 enables workflow that would otherwise be difficult to do with other multiplexers, or very difficult
 to do with regular non-managed sessions. For the rest of the definitions, visit the repo
-[here](https://github.com/ebzzry/dotfiles/tree/master/tmux).
+[here](https://github.com/ebzzry/dotfiles/tree/master/tmux/.tmux.conf).
