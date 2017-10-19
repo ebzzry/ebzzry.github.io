@@ -30,6 +30,7 @@ most important pieces of software that changed the way I do computing.
 - [Status bar](#statusbar)
 - [Plugins](#plugins)
 - [Selections](#selections)
+- [Trying it out](#try)
 - [Closing remarks](#closingremarks)
 
 
@@ -268,6 +269,29 @@ with <kbd>C-Space</kbd> and the movement keys, then copy the contents using <kbd
 extract the contents by pressing <kbd>C-z ]</kbd>.
 
 With tmux, I no longer have to use the (mouse) pointer to manipulate my selections.
+
+
+<a name="try">Trying it out</a>
+-------------------------------
+
+If you want to play with these settings, you may download the config file to your system. But first,
+let’s backup your existing configuration:
+
+    $ mv ~/.tmux.conf ~/.tmux.conf.backup
+
+Then, kill tmux:
+
+    $ killall tmux
+
+Then, let’s then install the config file:
+
+    $ curl -SL -o ~/.tmux.conf https://raw.githubusercontent.com/ebzzry/dotfiles/master/tmux/.tmux.conf
+
+Finally, restart tmux
+
+    $ tmux
+
+If tmux complains that you are missing some plugins, press <kbd>C-z I</kbd>.
 
 
 <a name="closingremarks">Closing remarks</a>
