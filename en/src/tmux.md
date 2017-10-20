@@ -277,7 +277,7 @@ With tmux, I no longer have to use the (mouse) pointer to manipulate my selectio
 If you want to play with these settings, you may download the config file to your system. But first,
 let’s backup your existing configuration:
 
-    $ mv ~/.tmux.conf ~/.tmux.conf.backup
+    $ mv ~/.tmux.conf{,.backup}
 
 Then, kill tmux:
 
@@ -285,7 +285,7 @@ Then, kill tmux:
 
 Then, let’s then install the config file:
 
-    $ curl -SL -o ~/.tmux.conf https://raw.githubusercontent.com/ebzzry/dotfiles/master/tmux/.tmux.conf
+    $ curl -SLo ~/.tmux.conf https://raw.githubusercontent.com/ebzzry/dotfiles/master/tmux/.tmux.conf
 
 Finally, restart tmux
 

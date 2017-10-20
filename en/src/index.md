@@ -1,7 +1,21 @@
 M-x ebzzry RET
 ==============
 
-<img src="/images/sl_590x147.png" class="banner" alt="Choo!" />
+```
+                     (  ) (@@) ( )  (@)  ()    @@    O     @
+                (@@@)
+            (    )
+         (@@@@)
+
+       (   )
+       ++      +------ ____                 ____________________
+       ||      |+-+ |  |   \@@@@@@@@@@@     |  ___ ___ ___ ___ |
+     /---------|| | |  |    \@@@@@@@@@@@@@_ |  |_| |_| |_| |_| |
+    + ========  +-+ |  |                  | |__________________|
+   _|--/~\------/~\-+  |__________________| |__________________|
+  //// \_O========O       (O)       (O)        (O)        (O)
+```
+
 <div class="text-right">A journal about computing, human predilections, and random krakaboom.</div>
 <div class="text-right">Entries are sorted in reverse chronological order.</div>
 
