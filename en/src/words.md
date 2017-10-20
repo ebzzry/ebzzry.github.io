@@ -134,7 +134,7 @@ Entries are sorted in chronological order.
 - Take care of your shell; it’s the only one that you have.<br>
 
 
-- In the grand scale of the universe, human lives are insignificant. We are selfish with our lives because they are our own. However, we should remind ourselves, that for life to be flourish, there must also be death.<br>
+- In the grand scale of the universe, human lives are insignificant. We are selfish with our lives because they are our own. However, we should remind ourselves, that for life to flourish, there must also be death.<br>
 
 
 - Tell me what you care about, and I’ll tell you who you are.<br>
