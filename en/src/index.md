@@ -1,7 +1,7 @@
 M-x ebzzry RET
 ==============
 
-<img src="/images/banner.png" class="banner" alt="taso kaj butono" />
+<img src="/images/sl_590x147.png" class="banner" alt="Choo!" />
 <div class="text-right">A journal about computing, human predilections, and random krakaboom.</div>
 <div class="text-right">Entries are sorted in reverse chronological order.</div>
 
