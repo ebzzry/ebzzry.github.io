@@ -2,7 +2,7 @@ How I Roll with Tmux
 ====================
 
 <div class="center">October 18, 2017</div>
-<div class="center">Updated: October 18, 2017</div>
+<div class="center">Updated: October 19, 2017</div>
 
 >“Furious activity is no substitute for understanding.”<br>
 >―H.H. Williams
