@@ -7,9 +7,9 @@ My Markdown Style Guide
 >“The laws that govern circumstances are abolished by new circumstances.”<br>
 >―Napoleon Bonaparte
 
-I like writing in Markdown—it’s readable, lightweight, and portable. It’s plain text so you won’t
-need special applications to read or write with it. In this article, I’ll post my guidelines on how
-I write Markdown files. I follow a certain set of rules so that my files look consistent with one
+I like writing in Markdown—it’s readable, lightweight, and portable. It’s plain text so you don’t
+need special applications to read or write with it. In this article, I post my guidelines on how I
+write Markdown files. I follow a certain set of rules so that my files look consistent with one
 another, and so that GNU Emacs will be able to format it nicely.
 
 

@@ -1,25 +1,23 @@
-M-x ebzzry RET
-==============
+Musings of a Pedantic Pirate
+============================
 
 ```
-                     (  ) (@@) ( )  (@)  ()    @@    O     @
-                (@@@)
-            (    )
-         (@@@@)
-
-       (   )
-       ++      +------ ____                 ____________________
-       ||      |+-+ |  |   \@@@@@@@@@@@     |  ___ ___ ___ ___ |
-     /---------|| | |  |    \@@@@@@@@@@@@@_ |  |_| |_| |_| |_| |
-    + ========  +-+ |  |                  | |__________________|
-   _|--/~\------/~\-+  |__________________| |__________________|
-  //// \_O========O       (O)       (O)        (O)        (O)
+                      ,---------------.
+       ,-'""`-.      |                 |
+      ;        :     |     Oh, no!     |
+     :          :    |                 |
+     :          ;    //`--------------'
+     : (_)  (_) :   //
+     ::   '`   :;  /
+      !:      :!
+      `:`++++';'
+        `....'
 ```
 
 <div class="text-right">A journal about computing, human predilections, and random krakaboom.</div>
 <div class="text-right">Entries are sorted in reverse chronological order.</div>
 
-- [Zsh Tips 3: Lightweight Environments](zsh-tips-3)
+- [Zsh Tips 3: Chroot Helpers](zsh-tips-3)
 - [How I Roll with Tmux](tmux)
 - [Zsh Tips 2: Directory Stacks](zsh-tips-2)
 - [Zsh Tips 1: Aliases and Functions](zsh-tips-1)
