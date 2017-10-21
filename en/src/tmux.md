@@ -132,7 +132,8 @@ We bound <kbd>C-PageUp</kbd> and <kbd>C-PageDown</kbd>, to switch windows, backw
 respectively. We also bound <kbd>S-Left</kbd> and <kbd>S-Right</kbd>, to swap windows to the left
 and to the right, respectively.
 
-To quickly switch to specific windows, we bound several keys to <kbd>Meta</kbd> or <kbd>Alt</kbd> key.
+To quickly switch to specific windows, we bound several keys to the <kbd>Alt</kbd> key, otherwise
+known as <kbd>Meta</kbd>.
 
 
 ### <a name="windowscontrol">Control</a>
