@@ -2,7 +2,7 @@ My Markdown Style Guide
 =======================
 
 <center>April 3, 2017</center>
-<center>Updated: April 5, 2017</center>
+<center>Updated: October 21, 2017</center>
 
 >“The laws that govern circumstances are abolished by new circumstances.”<br>
 >―Napoleon Bonaparte
@@ -32,11 +32,10 @@ Table of contents
 
 ### <a name="level1"></a> Level 1
 
-Level 1 headings are ideal when used as Document titles. They should be used only once in and they
-must be in the first line of a file. It should describe what the file or document is all about. I
-use the `=` (equals) symbol to indicate the level 1 heading, instead of the `#` symbol. Using the
-`=` symbol makes it easy to spot the heading, and it distinguishes it from the other markers. I use
-it this way:
+Level 1 headings are ideal when used as document titles. They should be used only once and they must
+be in the first line of a file. It should describe what the file or document is all about. I use the
+`=` (equals) symbol to indicate the level 1 heading, instead of the `#` (hash) symbol. Using `=`
+makes it easy to spot the heading, and it distinguishes it from the other markers. I use it as:
 
 ```markdown
 How to Fly Like a Lobster
@@ -54,7 +53,7 @@ instead of
 
 Level 2 headings indicate the top-level sections of a document. They are the primary dividers in a
 file. Similar to the level 1 heading, I use the `-` (hyphen) symbol to mark the heading. I use it
-this way:
+as:
 
 ```markdown
 Preparing Your Pincers
@@ -70,7 +69,7 @@ instead of
 
 ### <a name="lowerlevels"></a> Lower levels
 
-For level 3 and lower headings, I use the `#` with the appropriate number of repetitions to indicate
+For level 3 and lower headings, I use `#` with the appropriate number of repetitions to indicate
 the level.
 
 Level 3:
@@ -118,7 +117,7 @@ Meh
 ```
 
 Another good reason for having a blank space after every heading is to make it easy for text editors
-like GNU Emacs to to format the text. The keyboard shortcut <kbd>M-q</kbd> bound by default to
+like GNU Emacs to to format the text. The keyboard shortcut <kbd>M-q</kbd>, bound by default to
 `fill-paragraph`, reformats a text block so that the maximum line width is filled correctly. The
 command `fill-paragraph` uses the `fill-column` variable–bound by default to 70—to reformat a text
 body.
@@ -132,7 +131,7 @@ Preparing Your Pincers
 Meh meh meh mehmeh meh mehmeh meh mehmeh meh mehmeh meh mehmeh meh mehmeh meh mehmeh meh mehmeh meh mehmeh meh mehmeh meh mehmeh meh meh
 ```
 
-And you press <kbd>M-q</kbd> while point (cursor) is somewhere in the last line, it becomes:
+and you press <kbd>M-q</kbd> while point (cursor) is somewhere in the last line, it becomes:
 
 ```markdown
 Preparing Your Pincers
@@ -166,12 +165,13 @@ of a code block:
 <a name="bullets"></a> Bullets
 ------------------------------
 
-When making lists, I like to use the `-` hyphen charactr to indicate the first level. I use the `+`
-(plus) character to indicate the second level. Then for level 3 and lower, I use `*` (asterisk).
+When making lists, I like to use the `-` (hyphen) charactr to indicate the first level. Then, I use
+the `+` (plus) character to indicate the second level. Finally, for level 3 and lower, I use `*`
+(asterisk) character.
 
-The `-` symbol is easier to type on a keyboard than `*`. Also, unlike `+` it doesn’t require to
-press <kbd>Shift</kbd> on standard keyboards. Compared to `*`, the hyphen has a more consistent
-glyph across different typefaces.
+`-` is easier to type on a keyboard than `*`; it doesn’t require you to press <kbd>Shift</kbd> on
+standard keyboards. Additionally, compared to `*`, the hyphen has a more consistent glyph across
+different typefaces.
 
 For example:
 
@@ -240,8 +240,7 @@ GitLab, wherein it is usually more convenient to let the UI wrap the text.
 
 When using GNU Emacs, I use [these](https://gist.github.com/0c8fb40ac8db1463a933cfc19f219431)
 commands, bound to <kbd>M-g =</kbd>, <kbd>M-g -</kbd>, and <kbd>M-g `</kbd>, respectively, to make
-it easy for me to insert the delimiters. For example, if I have the following text, where ^ is point
-(cursor):
+it easy for me to insert the delimiters. For example, if I have the following text, where ^ is point:
 
 ```markdown
 What is it Like Out There?
@@ -249,7 +248,7 @@ What is it Like Out There?
 ^
 ```
 
-then, I press <kbd>M-g =</kbd>, it will become:
+then, when I press <kbd>M-g =</kbd>, it will become:
 
 ```markdown
 What is it Like Out There?
@@ -265,7 +264,7 @@ Monsters and angels
 ^
 ```
 
-then, I press <kbd>M-g -</kbd>, it will become:
+then, when I press <kbd>M-g -</kbd>, it will become:
 
 ```markdown
 Monsters and angels
