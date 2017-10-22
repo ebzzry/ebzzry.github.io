@@ -2,7 +2,7 @@ Quotes
 ======
 
 <center>August 29, 2015</center>
-<center>Updated: October 13, 2017</center>
+<center>Updated: October 22, 2017</center>
 
 This page contains a list of curated quotations, aphorisms, and proverbs that I have collected over
 the years.
@@ -595,3 +595,7 @@ the years.
 
 - “Content is king.”<br>
   ―Bill Gates
+
+
+- “Be polite, be professional, but have a plan to kill everybody you meet.”<br>
+  ―James Mattis
