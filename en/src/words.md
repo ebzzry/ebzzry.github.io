@@ -2,7 +2,7 @@ Words
 =====
 
 <center>November 24, 2015</center>
-<center>Updated: October 12, 2017</center>
+<center>Updated: October 22, 2017</center>
 
 This page contains a list of phrases and lines that I communicated with my fellow men, to raise
 awareness, to shed light on things, and to inspire.
@@ -122,7 +122,8 @@ Entries are sorted in chronological order.
 - Impatience is a virtue.<br>
 
 
-- Never attribute to malice what incompetence will explain. Never attribute to incompetence what nature will explain.<br>
+- Never attribute to malice what incompetence will explain. Never attribute to incompetence what
+  nature will explain.<br>
 
 
 - Choices are illusions; there are only circumstances.<br>
@@ -155,7 +156,35 @@ Entries are sorted in chronological order.
 - People gossip about other people because their own lives are too uninteresting.<br>
 
 
-- Everytime you use set!, a fairy dies.<br>
+- Every time you use `set!`, a fairy dies.<br>
 
 
 - However less you use Facebook, use lesser.<br>
+
+
+- The most difficult lies to detect are the ones that are mixed with the truths.<br>
+
+
+- Humans have the amazing ability to resist invention, progress, and innovation. They frequently
+  advertise their ability to mold and change themselves. The truth, however, is that those are mere
+  projections of what they want to achieve, not what they have.<br>
+
+
+- We get so hung up in goals, when the only the real tangible goal in life, is death.<br>
+
+
+- If you were told that you are eventually going to die, will you still want to live? If you choose
+  life, you’ll experience pains and joys. If you choose death, there is void.<br>
+
+
+- Relationships, unlike wars, are not battles. We give back, we take in, we fall in love, we get
+  hurt, we love again. Nothing is definite. We don’t know what happens next. But nothing will
+  happen, if we do nothing.<br>
+
+
+- We were not told about death before we were conceived to life. We didn’t have the option whether
+  to board the ship or not. We just find ourselves, in the middle of the journey, after the ship has
+  already left the port.<br>
+
+
+- Chaos does not imply noise.<br>
