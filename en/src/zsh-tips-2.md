@@ -78,10 +78,11 @@ the directory stack of the current session:
 ```bash
 function z! () {
   dirs -lv | awk -F '\t' '{print $2}' | tac >! $HOME/.z
+  exec zsh
 }
 ```
 
-Running `z!` will save the contents of the current stack:
+Running `z!` will save the contents of the current stack, and restart the shell
 
     % pwd
     /home/ebzzry
@@ -110,8 +111,7 @@ function z@ () {
 }
 ```
 
-To restore the saved directory stack, on a new session via `exec zsh`, or a new separate instance,
-run:
+To restore the saved directory stack, on the current session, or a new separate instance, run:
 
     % z@
     % ds -v
