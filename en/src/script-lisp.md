@@ -2,7 +2,7 @@ Scripting in Common Lisp
 ========================
 
 <div class="center">July 5, 2017</div>
-<div class="center">Updated: October 18, 2017</div>
+<div class="center">Updated: October 24, 2017</div>
 
 >“The light that burns twice as bright burns half as long.”<br>
 >―Dr. Eldon Tyrell, Blade Runner (1982)
@@ -25,6 +25,7 @@ scripting domain.
 - [Prerequisites](#prerequisites)
 - [Basics](#basics)
 - [More](#more)
+- [Caveats](#caveats)
 - [Closing remarks](#closing)
 
 
@@ -133,8 +134,7 @@ Next, let’s create the file `main.lisp`, in the same directory. It will contai
           :fare-utils
           :cl-launch/dispatch)
   (:export #:symlink
-           #:help
-           #:main))
+           #:help))
 
 (in-package :my-scripts/main)
 
@@ -184,6 +184,7 @@ $(NAME):
 install: $(NAME)
 	@ln -sf $(SCRIPT) $(BINARY)
 	@$(SCRIPT) symlink $(NAME)
+    $HOME/bin/symlink
 
 clean:
 	@rm -f $(NAME)
@@ -216,7 +217,6 @@ $ tree ~/bin
 /home/ogag/bin
 ├── getuid -> my-scripts
 ├── help -> my-scripts
-├── main -> my-scripts
 ├── my-scripts -> /home/ogag/common-lisp/my-scripts/my-scripts
 └── symlink -> my-scripts
 
@@ -394,10 +394,26 @@ $ make install
 my-scripts available commands: battery chrome continue-chrome help kill-chrome main screenshot stop-chrome symlink
 ```
 
-Yay! 😄
+Yay!
 
 
-<a name="closing"></a>Closing Remarks
+<a name="caveats">Caveats</a>
+-----------------------------
+
+An important thing to note is that in the definitions, you can’t use a CL keywoard as the name of
+the command. So inside exporting definitions, you can’t have something like this:
+
+```lisp
+(exporting-definitions
+  (defun t (&rest args)
+    (run/i `(terminator ,@args)`)))
+```
+
+If you do, and try to compile the file, your CL implementation will complain about a name that is
+already in use.
+
+
+<a name="closing">Closing Remarks</a>
 --------------------------------------
 
 It has been said many times that CL has already faded into obscurity; that no one longer uses it;
