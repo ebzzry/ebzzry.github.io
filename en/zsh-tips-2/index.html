@@ -16,8 +16,9 @@ function ds &#40;&#41; { dirs -l $@ }
 0       /etc/nixos
 1       /home/ebzzry/Downloads</code></pre><h2><a name="saving">Saving</a></h2><p>Directory stacks allows us to move through the trees that we are working on currently. Pushing to the directory stack permits us to <em>visit</em> a directory, wherein we will perform actions there, then go back to the last one through popping, with ease.</p><p>However, when I create a new shell, that stack is lost. I use <code>exec</code> to reload my Zsh session, to ensure that my config files are read from scratch.</p><pre><code>exec zsh</code></pre><p>But doing so, removes the stack that I have built. To work this around, I have a function that saves the directory stack of the current session:</p><pre><code class="bash">function z! &#40;&#41; {
   dirs -lv | awk -F '\t' '{print $2}' | tac &gt;! $HOME/.z
+  exec zsh
 }
-</code></pre><p>Running <code>z!</code> will save the contents of the current stack:</p><pre><code>% pwd
+</code></pre><p>Running <code>z!</code> will save the contents of the current stack, and restart the shell</p><pre><code>% pwd
 /home/ebzzry
 % d /etc/nixos
 % d &#126;/Downloads
@@ -33,7 +34,7 @@ function ds &#40;&#41; { dirs -l $@ }
       pushd $pwd
   fi
 }
-</code></pre><p>To restore the saved directory stack, on a new session via <code>exec zsh</code>, or a new separate instance, run:</p><pre><code>% z@
+</code></pre><p>To restore the saved directory stack, on the current session, or a new separate instance, run:</p><pre><code>% z@
 % ds -v
 0       /var/lib
 1       /home/ebzzry/Downloads
