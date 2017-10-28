@@ -48,40 +48,47 @@ function def&#95;funs &#40;&#41; {
 global&#95;aliases=&#40;
   :: ':&gt;!'
 
-  B &quot;git rev-parse --abbrev-ref HEAD&quot;
+  B '`git rev-parse --abbrev-ref HEAD`'
+
   V &quot;|&amp; less&quot;
   G &quot;|&amp; egrep --color&quot;
   S &quot;|&amp; sort&quot;
   R &quot;|&amp; sort -rn&quot;
-  H &quot;|&amp; head&quot;
-  T &quot;|&amp; tail&quot;
-  H1 &quot;|&amp; head -n 1&quot;
-  T1 &quot;|&amp; tail -n 1&quot;
   L &quot;|&amp; wc -l | sed 's/&#94;\ &#42;//'&quot;
+
+  H  &quot;|&amp; head&quot;
+  T  &quot;|&amp; tail&quot;
+  H1 &quot;H -n 1&quot;
+  T1 &quot;T -n 1&quot;
 
   ZF '&#42;&#40;.L0&#41;'     # zero-length regular files
   ZD '&#42;&#40;/L0&#41;'     # zero-length directories
+
   AE '{,.}&#42;'      # all files, including dot files
   AF '&#42;&#42;/&#42;&#40;.&#41;'    # all regular files
   AD '&#42;&#42;/&#42;&#40;/&#41;'    # all directories
   AS '&#42;&#42;/&#42;&#40;@&#41;'    # all symlinks
+
   OF '&#42;&#40;.om&#91;-1&#93;&#41;' # oldest regular file
   OD '&#42;&#40;/om&#91;-1&#93;&#41;' # oldest directory
   OS '&#42;&#40;@om&#91;-1&#93;&#41;' # oldest symlink
+
   NF '&#42;&#40;.om&#91;1&#93;&#41;'  # newest regular file
   ND '&#42;&#40;/om&#91;1&#93;&#41;'  # newest directory
   NS '&#42;&#40;@om&#91;1&#93;&#41;'  # newest symlink
+
 &#41;; def&#95;global&#95;aliases
 
 funs=&#40;
   z &quot;exec zsh&quot;
   s &quot;sudo&quot;
+
   d &quot;pushd&quot;
   \- &quot;popd&quot;
   ds &quot;dirs -l&quot;
+
   cp &quot;command cp -i&quot;
   mv &quot;command mv -i&quot;
-  c &quot;cat&quot;
 
   l &quot;ls -GFAtr --color&quot;
   la &quot;ls -AF --color&quot;
