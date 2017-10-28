@@ -162,40 +162,47 @@ real_aliases=(
 global_aliases=(
   :: ':>!'
 
-  B "git rev-parse --abbrev-ref HEAD"
+  B '`git rev-parse --abbrev-ref HEAD`'
+
   V "|& less"
   G "|& egrep --color"
   S "|& sort"
   R "|& sort -rn"
-  H "|& head"
-  T "|& tail"
-  H1 "|& head -n 1"
-  T1 "|& tail -n 1"
   L "|& wc -l | sed 's/^\ *//'"
+
+  H  "|& head"
+  T  "|& tail"
+  H1 "H -n 1"
+  T1 "T -n 1"
 
   ZF '*(.L0)'     # zero-length regular files
   ZD '*(/L0)'     # zero-length directories
+
   AE '{,.}*'      # all files, including dot files
   AF '**/*(.)'    # all regular files
   AD '**/*(/)'    # all directories
   AS '**/*(@)'    # all symlinks
+
   OF '*(.om[-1])' # oldest regular file
   OD '*(/om[-1])' # oldest directory
   OS '*(@om[-1])' # oldest symlink
+
   NF '*(.om[1])'  # newest regular file
   ND '*(/om[1])'  # newest directory
   NS '*(@om[1])'  # newest symlink
+
 ); def_global_aliases
 
 funs=(
   z "exec zsh"
   s "sudo"
+
   d "pushd"
   \- "popd"
   ds "dirs -l"
+
   cp "command cp -i"
   mv "command mv -i"
-  c "cat"
 
   l "ls -GFAtr --color"
   la "ls -AF --color"
