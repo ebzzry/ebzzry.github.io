@@ -599,3 +599,7 @@ the years.
 
 - “Be polite, be professional, but have a plan to kill everybody you meet.”<br>
   ―James Mattis
+
+
+- “Everything changes with time.”<br>
+  ―Tamina, Prince of Persia: The Sands of Time
