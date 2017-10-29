@@ -12,6 +12,14 @@
      <ror:sortOrder>0</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
+<item>
+     <link>https://ebzzry.io/en/</link>
+     <title>Musings of a Pedantic Pirate</title>
+     <description>Musings of a Pedantic Pirate</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
 </channel>
 </rss>
   
