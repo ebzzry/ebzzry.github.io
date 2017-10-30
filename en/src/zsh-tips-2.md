@@ -98,7 +98,7 @@ Running `z!` will save the contents of the current stack, and restart the shell
 To accompany `z!`, I have a function that restores the saved directory stack:
 
 ```bash
-function z@ () {
+function z+ () {
   if [[ -f $HOME/.z ]]; then
       local pwd=$PWD
 
@@ -113,7 +113,7 @@ function z@ () {
 
 To restore the saved directory stack, on the current session, or a new separate instance, run:
 
-    % z@
+    % z+
     % ds -v
     0       /var/lib
     1       /home/ebzzry/Downloads
