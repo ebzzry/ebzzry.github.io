@@ -23,7 +23,7 @@ function ds &#40;&#41; { dirs -l $@ }
 % d /etc/nixos
 % d &#126;/Downloads
 % d /var/lib
-% z!</code></pre><h2><a name="restoring">Restoring</a></h2><p>To accompany <code>z!</code>, I have a function that restores the saved directory stack:</p><pre><code class="bash">function z@ &#40;&#41; {
+% z!</code></pre><h2><a name="restoring">Restoring</a></h2><p>To accompany <code>z!</code>, I have a function that restores the saved directory stack:</p><pre><code class="bash">function z+ &#40;&#41; {
   if &#91;&#91; -f $HOME/.z &#93;&#93;; then
       local pwd=$PWD
 
@@ -34,7 +34,7 @@ function ds &#40;&#41; { dirs -l $@ }
       pushd $pwd
   fi
 }
-</code></pre><p>To restore the saved directory stack, on the current session, or a new separate instance, run:</p><pre><code>% z@
+</code></pre><p>To restore the saved directory stack, on the current session, or a new separate instance, run:</p><pre><code>% z+
 % ds -v
 0       /var/lib
 1       /home/ebzzry/Downloads
