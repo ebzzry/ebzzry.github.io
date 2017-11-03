@@ -144,7 +144,7 @@ Entries are sorted in chronological order.
 - The form of a question determines the form of the answer.<br>
 
 
-- Power without control is nil; likewise, control without power is nil.<br>
+- Power without control is nil; control without power is nil.<br>
 
 
 - A true master knows that he’ll never become one.<br>
@@ -188,3 +188,6 @@ Entries are sorted in chronological order.
 
 
 - The only thing that binds us to our loved ones are memories.<br>
+
+
+- Reality is not fixed.<br>
