@@ -2,7 +2,7 @@ Virtualizing with KVM in Linux
 ==============================
 
 <div class="center">June 15, 2015</div>
-<div class="center">Updated: April 4, 2017</div>
+<div class="center">Updated: November 7, 2017</div>
 
 >“If you do what you’ve always done, you’ll get what you’ve always gotten.”<br>
 >―Anthony Robbins
@@ -67,11 +67,11 @@ Next, you need to install the essential applications.
 
 Nix:
 
-    $ nix-env -i qemu vde2 spice
+    $ nix-env -i qemu vde2 spice_gtk
 
 APT:
 
-    $ sudo apt-get install qemu-kvm vde2 spice-client
+    $ sudo apt-get install qemu-kvm vde2 spice-client-gtk
 
 This will install the [QEMU](http://wiki.qemu-project.org/Main_Page) /kee-MOO/
 hypervisor, [VDE](http://vde.sourceforge.net/) tools, and [SPICE](http://www.spice-space.org/)
@@ -215,11 +215,11 @@ yet.
 ### <a name="display"></a> Connect to the SPICE display
 
 To be able to use the guest machine’s display, you need to connect to
-the SPICE server, using the SPICE client `spicec`:
+the SPICE server, using the SPICE client `spicey`:
 
-    $ spicec -h 127.0.0.1 -p 5901 -w supersecretkey
+    $ spicey -h 127.0.0.1 -p 5901 -w supersecretkey
 
-Take note that closing the spicec window will not kill the QEMU session. If the guest OS captures
+Take note that closing the spicey window will not kill the QEMU session. If the guest OS captures
 the mouse input, press <kbd>Shift+F12</kbd>, to get out of it.
 
 
@@ -310,7 +310,7 @@ function kvm-load () {
 }
 
 function kvm-display () {
-    spicec -p 5900 -h 127.0.0.1
+    spicey -p 5900 -h 127.0.0.1
 }
 ```
 
@@ -322,7 +322,7 @@ Initially, setup the netoworking:
 
 Then, load the image:
 
-    $ kvm-load vm.qcow32
+    $ kvm-load vm.qcow2
 
 Finally, connect to the display:
 

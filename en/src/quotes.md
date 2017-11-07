@@ -603,3 +603,7 @@ the years.
 
 - “Everything changes with time.”<br>
   ―Tamina, Prince of Persia: The Sands of Time
+
+
+- “A change in perspective is worth 80 IQ points.”<br>
+  ―Alan Kay
