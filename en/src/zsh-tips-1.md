@@ -2,7 +2,7 @@ Zsh Tips 1: Aliases and Functions
 =================================
 
 <div class="center">October 18, 2017</div>
-<div class="center">Updated: October 19, 2017</div>
+<div class="center">Updated: November 9, 2017</div>
 
 >“A common man marvels at uncommon things; a wise man marvels at the commonplace.”<br>
 >―Confucius
@@ -19,8 +19,8 @@ things to improve your interactive interaction with the shell.
 - [Overview](#overview)
 - [Aliases](#aliases)
 - [Functions](#functions)
-- [Mixing them](#mixingthem)
-- [Closing remarks](#closingremarks)
+- [Putting them all together](#all)
+- [Closing remarks](#closing)
 
 
 <a name="overview">Overview</a>
@@ -105,8 +105,8 @@ To display all your functions, run:
     % functions
 
 
-<a name="mixingthem">Mixing them</a>
-------------------------------------
+<a name="all">Putting them all together</a>
+-------------------------------------------
 
 Littering your config file with complete function definitions for every little command that you want
 is dumb. Instead, we’ll use a better way to define global aliases and small functions. Open your
@@ -229,8 +229,8 @@ funs=(
 ```
 
 
-<a name="closingremarks">Closing remarks</a>
---------------------------------------------
+<a name="closing">Closing remarks</a>
+-------------------------------------
 
 Grouping commands this way makes it significantly easier to add and remove new items. Bring them all
 in one consolidated places also makes your config file arguably cleaner. For the rest of the
