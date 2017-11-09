@@ -32,8 +32,8 @@ helpful keybindings to speed up typing.
   + [copy-prev-shell-word](#copyprevshellword)
   + [Substitutions](#substitutions)
   + [Quotes](#quotes)
-- [Putting it all together](#all)
-- [Closing remarks](#closingremarks)
+- [Putting them all together](#all)
+- [Closing remarks](#closing)
 
 
 <a name="functions">Functions</a>
@@ -414,7 +414,7 @@ Instead of pressing three keys on my keyboard, I only get to press two, plus it 
 pair of quotes.
 
 
-<a name="all">Putting it all together</a>
+<a name="all">Putting them all together</a>
 -----------------------------------------
 
 Here are all the definitions, along with some more helpers, all in one place:
