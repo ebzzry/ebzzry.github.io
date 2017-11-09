@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en"><head><title>Zsh Tips 4: General Helpers</title><meta charset="utf-8" /><meta content="width=device-width,initial-scale=1.0,user-scalable=yes" name="viewport" /><meta content="noodp,noydir" name="robots" /><meta content="A journal about computing, human predilections, and random krakaboom." name="description" /><meta content="ebzzry, rommel, martinez, rommel martinez, journal, blog, krakaboom, y, y combinator, lambda, lambda calculus, lisp, common lisp, scripting, scheme, racket, clojure, haskell, nixos, nixpkgs, nix, fallacies, symbols, marks, symbols and marks, emacs, emacs hacks, emacs tutorial, emacs tutorials, emacs commands, emacs basics, emacs tips, emacs tricks, emacs tips and tricks, dired, retrospect, livefrog, usync, essays, english, esperanto, esperanta, esperante, verb tenses, git, github, primer, introduction, linux, macos, kvm, frog, ugarit, gpg, ssh, division by zero, communicate, human, communicate like a human, human predilections, predilections, computing, inspiration, quotes, famous quotes, words, emem, tutorials, guides, zsh, zsh hacks, zsh tutorial, zsh tutorials, zsh commands, zsh basics, zsh tips, zsh tricks, zsh tips and tricks, tmux, tmux basics, tmux tips, tmux tricks, tmux tutorial, tmux tutorials, tmux roll, M-x ebzzry RET, pedantic pirate, musings" name="keywords" /><meta content="Zsh Tips 4: General Helpers" property="og:title" /><meta content="article" property="og:type" /><meta content="https://ebzzry.io/en/zsh-tips-4/" property="og:url" /><meta content="https://ebzzry.io/static/ico/android-chrome-512x512.png" property="og:image" /><link href="/static/ico/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180" /><link href="/static/ico/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png" /><link href="/static/ico/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png" /><link href="/static/ico/manifest.json" rel="manifest" /><link color="#5bbad5" href="/static/ico/safari-pinned-tab.svg" rel="mask-icon" /><meta content="#ffffff" name="theme-color" /><style media="all" type="text/css">html {    color: #333;    font-size: 1em;    font-family: Georgia, Cambria, Palatino, "Palatino Linotype", "Times New Roman", Times, serif;    line-height: 1.45;    text-align: left:    width: 100%;    max-width: 40em;    margin: 0 auto 0 auto;    padding: 0;}body {    border-top: hidden;    border-bottom: hidden;    padding: 0 1.5em 1em 1.5em;    margin: 0;}#content {    -webkit-column-count: 1;    -moz-column-count: 1;    column-count: 1;}code {    font-size: 0.9em;    font-family: "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Lucida Console", "Courier New", Courier, monospace;    color: black;    display: inline-block;    font-weight: bold;}pre code {    font-size: 1em;    font-family: monospace;    line-height: 1.3em;    overflow: auto;    font-weight: normal;}kbd {    font-size: 1.1em;    padding: 0.1em 0.6em;    border: 1px solid #ccc;    font-family: monospace;    background-color: #f7f7f7;    color: #333;    -moz-box-shadow: 0 1px 0px rgba(0, 0, 0, 0.2),0 0 0 2px #ffffff inset;    -webkit-box-shadow: 0 1px 0px rgba(0, 0, 0, 0.2),0 0 0 2px #ffffff inset;    box-shadow: 0 1px 0px rgba(0, 0, 0, 0.2),0 0 0 2px #ffffff inset;    -moz-border-radius: 3px;    -webkit-border-radius: 3px;    border-radius: 3px;    display: inline-block;    margin: 0 0.1em;    text-shadow: 0 1px 0 #fff;    white-space: nowrap;}h1, h2, h3, h4, h5, h6 {    font-family: Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans", Tahoma, Geneva, Helvetica, Arial, sans-serif;    margin-bottom: 0;}h1 {    font-size: 2.5em;    text-align: center;    border-bottom: 6px solid black;}h2 {    font-size: 2.0em;    text-align: left;    border-bottom: 2px solid black;}h3 {    font-size: 1.6em;    text-align: left;    border-bottom: 1px solid lightgrey;}h4 {    font-size: 1.5em;    text-align: left;}h5 {    font-size: 1.3em;    text-align: left;}ul, ol {    padding-left: 2em;}ul li {    list-style-type: square;}ul li li {    list-style-type: disc;}ul li li li {    list-style-type: circle;}ol li {    list-style-type: decimal;}p, para, b, strong, i, em, emph {    font-size: 1em;}blockquote {    font-size: 1.2em;    font-style: italic;    margin-left: 2em;}b, strong {    font-weight: bold;}i, em, emph {    font-style: italic;}table {    margin: 0.5em;    border-spacing: 0;    border-collapse: collapse;}th, td {    border: 1px solid lightgray;    padding-top: 0;    padding-bottom: 0;    padding-left: 0.45em;    padding-right: 0.45em;}.text-right {    text-align: right;}.text-small {    font-size: small;}.text-x-small {    font-size: x-small;}.banner {    display: block;    width: 100%;    margin-left: auto;    margin-right: auto;}.footer {    text-align: right;    float: right;    max-width: 18em;}.cc {    border-width: 0}.center {    text-align: center;}</style><style media="all" type="text/css">/* Ewan Themes -- based 99.99% from Tomorrow Night Theme *//* http://jmblog.github.com/color-themes-for-google-code-highlightjs *//* Original theme - https://github.com/chriskempson/tomorrow-theme *//* http://jmblog.github.com/color-themes-for-google-code-highlightjs *//* Tomorrow Comment */.hljs-comment {  color: #969896;}/* Tomorrow Red */.hljs-variable,.hljs-attribute,.hljs-tag,.hljs-regexp,.ruby .hljs-constant,.xml .hljs-tag .hljs-title,.xml .hljs-pi,.xml .hljs-doctype,.html .hljs-doctype,.css .hljs-id,.css .hljs-class,.css .hljs-pseudo {  color: #cc6666;}/* Tomorrow Orange */.hljs-number,.hljs-preprocessor,.hljs-pragma,.hljs-built_in,.hljs-literal,.hljs-params,.hljs-constant {  color: #de935f;}/* Tomorrow Yellow */.ruby .hljs-class .hljs-title,.css .hljs-rule .hljs-attribute {  color: #f0c674;}/* Tomorrow Green */.hljs-string,.hljs-value,.hljs-inheritance,.hljs-header,.hljs-name,.ruby .hljs-symbol,.xml .hljs-cdata {  color: #b5bd68;}/* Tomorrow Aqua */.hljs-title,.css .hljs-hexcolor {  color: #8abeb7;}/* Tomorrow Blue */.hljs-function,.python .hljs-decorator,.python .hljs-title,.ruby .hljs-function .hljs-title,.ruby .hljs-title .hljs-keyword,.perl .hljs-sub,.javascript .hljs-title,.coffeescript .hljs-title {  color: #81a2be;}/* Tomorrow Purple */.hljs-keyword,.javascript .hljs-function {  color: #b294bb;}.hljs {  display: block;  overflow-x: auto;  background: #1d1f21;  color: #c5c8c6;  padding: 0.5em;  -webkit-text-size-adjust: none;}.coffeescript .javascript,.javascript .xml,.tex .hljs-formula,.xml .javascript,.xml .vbscript,.xml .css,.xml .hljs-cdata {  opacity: 0.5;}pre code {    font-size: 1.1em;    font-family: monospace;    line-height: 1.3em;    overflow: auto;}</style></head><body><div id="content"><h1>Zsh Tips 4: General Helpers</h1><p><div class="center">October 30, 2017</div> <div class="center">Updated: November 9, 2017</div></p><blockquote><p>“A change in perspective is worth 80 IQ points.”<br> ―Alan Kay </p></blockquote><p>Last time, I talked about helper functions to assist in managing chroot environments. In this article, I’ll talk about general helpers for working with the command line. I will also talk about helpful keybindings to speed up typing.</p><h2><a name="toc">Table of contents</a></h2><ul><li><a href='#functions'>Functions</a><ul><li><a href='#map'>map</a></li><li><a href='#rmap'>rmap</a></li><li><a href='#fp'>fp</a></li><li><a href='#d'>d</a></li><li><a href='#d_bang'>d!</a></li><li><a href='#rm_bang'>rm!</a></li><li><a href='#rm_plus'>rm+</a></li><li><a href='#rm_at'>rm@</a></li><li><a href='#defmk'>def_mk</a></li><li><a href='#cp_bang'>cp!</a></li><li><a href='#mv_bang'>mv!</a></li></ul></li><li><a href='#keybindings'>Keybindings</a><ul><li><a href='#insertlastword'>insert-last-word</a></li><li><a href='#copyprevshellword'>copy-prev-shell-word</a></li><li><a href='#substitutions'>Substitutions</a></li><li><a href='#quotes'>Quotes</a></li></ul></li><li><a href='#all'>Putting it all together</a></li><li><a href='#closingremarks'>Closing remarks</a></li></ul><h2><a name="functions">Functions</a></h2><p>A beautiful thing about functions is that they’re so easy to create and use. Here are some functions that I use all the time.</p><h3><a name="map">map</a></h3><p>When you have a command that takes only a single argument, you can simulate multiple usage of that command through this function. It is defined as:</p><pre><code class="bash">function map &#40;&#41; {
+  for i &#40;${argv&#91;2,-1&#93;}&#41; { ${&#40;ps: :&#41;${1}} $i }
+}
+</code></pre><p>For example, you can use <code>map</code> to fetch multiple git repositories, serially:</p><pre><code>% map 'git clone' git@github.com:nixos/nixpkgs.git git@github.com:tmux/tmux.git</code></pre><h3><a name="rmap">rmap</a></h3><p>As the name implies, <code>rmap</code> operates as the reverse of map—the rest of the arguments are applied as commands to the first argument: It is defined as:</p><pre><code class="bash">function rmap &#40;&#41; {
+  for i &#40;${argv&#91;2,-1&#93;}&#41; { ${&#40;ps: :&#41;${i}} $1 }
+}
+</code></pre><p>You may use it, for example, to check disk usage, view file information, and view the open file descriptors of a file or directory:</p><pre><code>% rmap somedir 'du -h' stat 'sudo lsof'</code></pre><h3><a name="fp">fp</a></h3><p>I want a quick way to quickly determine the real and absolute path of a given file or directory. This helps me a lot in scripting. I have <code>fp</code> which is defined as:</p><pre><code class="bash">function fp &#40;&#41; {
+  echo &quot;${1:A}&quot;
+}
+</code></pre><p>If I am in a symlinked directory, and I want do determine the real path of <code>.</code>, I can run:</p><pre><code>% fp .</code></pre><p>This function will be of important use in the next sections.</p><h3><a name="d">d</a></h3><p>Most of the time, when I change to a directory, I need to perform a series of commands. I want to save time typing, so instead of running two commands, I can run only one. I also want a way to quickly switch through the directory stack created by <code>pushd</code>. I have it defined as:</p><pre><code class="bash">function d &#40;&#41; {
+  if &#40;&#40; ! $#@ &#41;&#41;; then
+      builtin cd
+  elif &#91;&#91; -d $argv&#91;1&#93; &#93;&#93;; then
+      builtin cd &quot;$&#40;fp $argv&#91;1&#93;&#41;&quot;
+      $argv&#91;2,-1&#93;
+  elif &#91;&#91; &quot;$1&quot; = -&lt;-&gt; &#93;&#93;; then
+      builtin cd $1 &gt; /dev/null 2&gt;&amp;1
+      $argv&#91;2,-1&#93;
+  else
+    echo &quot;$0: no such file or directory: $1&quot;
+  fi
+}
+</code></pre><p>When I run <code>d</code> alone:</p><pre><code>% d</code></pre><p>I go back to my home directory, just like a standalone <code>cd</code> would do:</p><p>When I run <code>d</code> with a directory and a command:</p><pre><code>% d &#126;/Downloads ls -l</code></pre><p>I change directory to <code>&#126;/Downloads</code> then I run display the directory listing of that directory.</p><p>If the output of <code>dirs -v</code> is:</p><pre><code>0       /usr/local
+1       /tmp
+</code></pre><p>Then, when I run <code>d</code> with the second entry as its argument plus a command:</p><pre><code>% d -1 date</code></pre><p>I change directory to <code>/tmp</code>, then I execute the <code>date</code> command.</p><h3><a name="d_bang">d!</a></h3><p>As the name implies, <code>d!</code> is like its cousin, only that, when the directory does not exist, it creates it for you, switches to it, then behaves as <code>d</code>. It is defined as:</p><pre><code class="bash">function d! &#40;&#41; {
+  mkdir -p $argv&#91;1&#93;
+  d &quot;$@&quot;
+}
+</code></pre><p>For example, I can use <code>d!</code> to stage a directory before downloading an ISO:</p><pre><code>% d! &#126;/Downloads/isos  https://www.foo.bar/baz/meh/meh.iso</code></pre><h3><a name="rm_bang">rm!</a></h3><p>When I am certain that I want to delete a file or directory, I don’t want to be bothered by prompts, while at the same time I want to make an exception not to accidentally delete my home directory. I defined it as:</p><pre><code class="bash">function rm! &#40;&#41; {
+  if &#91;&#91; &quot;$1&quot; == &quot;$HOME&quot; || &quot;$1&quot; == &quot;$HOME/&quot; || &quot;$1&quot; == &quot;&#126;&quot; || &quot;$1&quot; == &quot;&#126;/&quot; &#93;&#93;; then
+      return 1
+  else
+    command rm -rf $@
+  fi
+}
+</code></pre><p>The command <code>command</code> ensures that I am calling the system binary <code>rm</code> instead of any shell alias or function.</p><h3><a name="rm_plus">rm+</a></h3><p>When I want to quickly remove a tree containing a lot of files and directories, I use the <code>parallel</code> command to run the deletions in parallel, instead of serially. I have a helper function defined as:</p><pre><code class="bash">function rm+ &#40;&#41; {
+  parallel --will-cite 'rm -rf {}' ::: $@
+}
+</code></pre><p>Consult your package management system on how to install <code>parallel</code>.</p><h3><a name="rm_at">rm@</a></h3><p>From time to time, I need to delete a file or directory without the chances of recovery. For that I use the <code>shred</code> command. I have a helper function defined as:</p><pre><code class="bash">function rm@ &#40;&#41; {
+  if &#91;&#91; -d $1 &#93;&#93;; then
+      find $1 -type f -exec shred -vfzun 10 {} \;
+      command rm -rf $1
+  else
+    shred -vfzun 10 $1
+  fi
+}
+</code></pre><p>Consult your package management system on how to install <code>shred</code>.</p><h3><a name="defmk">def_mk</a></h3><p>This helper generates helpers. It allows us to create functions that create a staging directory before the actual command is executed. It is defined as:</p><pre><code class="bash">function def&#95;mk &#40;&#41; {
+  eval &quot;function ${argv&#91;1&#93;} &#40;&#41; {
+            if &#91;&#91; \$# -ge 2 &#93;&#93;; then
+                if &#91;&#91; ! -e \${@: -1} &#93;&#93;; then
+                     mkdir -p \${@: -1}
+                fi
+
+                command ${argv&#91;2,-1&#93;} \$@
+            fi
+        }&quot;
+}
+</code></pre><p>To use it, supply the name of the name of the function that will be used as a command, and the expansion itself. These invocations should ideally be in your config file.</p><h3><a name="cp_bang">cp!</a></h3><p>To use <code>def&#95;mk</code> with <code>cp</code> invoke it as:</p><pre><code>def&#95;mk cp! cp -rf</code></pre><p>which expands to:</p><pre><code>function cp! &#40;&#41; {
+  if &#91;&#91; $# -ge 2 &#93;&#93;; then
+    if &#91;&#91; ! -e ${@: -1} &#93;&#93;; then
+      mkdir -p ${@: -1}
+    fi
+    command cp -rf $@
+  fi
+}
+</code></pre><p>The <code>cp!</code> command will allow us to copy files to a directory, creating that directory as necessary:</p><pre><code class="bash">%  tree
+.
+├── bar.txt
+└── foo.txt
+
+0 directories, 2 files
+
+%  cp! &#42; a
+
+%  tree
+.
+├── a
+│   ├── bar.txt
+│   └── foo.txt
+├── bar.txt
+└── foo.txt
+
+1 directory, 4 files
+</code></pre><h3><a name="mv_bang">mv!</a></h3><p>To use <code>def&#95;mk</code> with <code>mv</code> invoke it as:</p><pre><code>def&#95;mk mv! mv -f</code></pre><p>which expands to:</p><pre><code>function mv! &#40;&#41; {
+  if &#91;&#91; $# -ge 2 &#93;&#93;; then
+    if &#91;&#91; ! -e ${@: -1} &#93;&#93;; then
+      mkdir -p ${@: -1}
+    fi
+    command mv -f $@
+  fi
+}
+</code></pre><p>The <code>mv!</code> command will allow us to move files to a directory, creating that directory as necessary:</p><pre><code class="bash">%  tree
+.
+├── bar.txt
+└── foo.txt
+
+0 directories, 2 files
+
+%  mv! &#42; b
+
+%  tree
+.
+└── b
+    ├── bar.txt
+    └── foo.txt
+
+1 directory, 2 files
+</code></pre><h2><a name="keybindings">Keybindings</a></h2><p>Aside from commands that are typed, one can also invoke keyboard shortcuts to perform arbitrary commands. Here are some that I use, a lot:</p><h3><a name="insertlastword">insert-last-word</a></h3><p>When I want to insert the last word of the last command, I call <code>insert-last-word</code>. For example, if you have the following:</p><pre><code>% dig foo12345.bar.baz.com
+% mtr
+      &#94;</code></pre><p>When I execute <code>M-x insert-last-word RET</code>, Zsh inserts the last word of the last command, turning it to:</p><pre><code>% dig foo12345.bar.baz.com
+% mtr foo12345.bar.baz.com</code></pre><p>This ensures that that arguments gets copied accurately.</p><p>This key is bound by default to <kbd>M-.</kbd>. If you want to make sure that you have it, put the following in your config:</p><pre><code>bindkey &quot;\e.&quot; insert-last-word</code></pre><h3><a name="copyprevshellword">copy-prev-shell-word</a></h3><p>When I want to repeat the last word in the current command line, I call <code>copy-prev-shell-word</code>. For example, if you have the following:</p><pre><code>% cp this.is.a.file.with.a.very.long.name
+                                          &#94;</code></pre><p>When I execute <code>M-x copy-prev-shell-word RET</code>, Zsh inserts the last word, turning it to:</p><pre><code>% cp this.is.a.file.with.a.very.long.name this.is.a.file.with.a.very.long.name</code></pre><p>I bound it to <kbd>M-=</kbd>. To bind it in your config file:</p><pre><code>bindkey &quot;\e=&quot; copy-prev-shell-word</code></pre><h3><a name="substitutions">Substitutions</a></h3><p>In addition to executing <code>M-x</code> commands, Zsh also permits us to define keybindings that insert arbitrary text to the command line, including control characters.</p><p>I frequently have the need to process the output of a command. Usually one would do the following:</p><pre><code>% foo `some command`</code></pre><p>or</p><pre><code>% foo $&#40;some command&#41;</code></pre><p>The former is easier to type but it can’t be nested; the latter is too cumbersome to type. For that, I bound the key <kbd>M-`</kbd> as:</p><pre><code>% bindkey -s '\e`' '$&#40;&#41;\C-b'</code></pre><p>So, when I have the following:</p><pre><code>% foo
+      &#94;</code></pre><p>When I hit <kbd>M-`</kbd>, I get:</p><pre><code>% foo $&#40;&#41;
+        &#94;</code></pre><h3><a name="quotes">Quotes</a></h3><p>I frequently have the need to quote the argument of a command, especially if it has metacharacters. A frequent case is with YouTube URLs, which contain the <code>?</code> character.</p><p>For that I bound <kbd>M-'</kbd> as:</p><pre><code>% bindkey -s &quot;\e'&quot; &quot;''\C-b&quot;</code></pre><p>So, when I have the following:</p><pre><code>% youtube-dl
+             &#94;</code></pre><p>When I hit <kbd>M-'</kbd>, I get:</p><pre><code>% youtube-dl ''
+              &#94;</code></pre><p>Instead of pressing three keys on my keyboard, I only get to press two, plus it ensures that I get a pair of quotes.</p><h2><a name="all">Putting it all together</a></h2><p>Here are all the definitions, along with some more helpers, all in one place:</p><pre><code class="bash">function map &#40;&#41; {
+  for i &#40;${argv&#91;2,-1&#93;}&#41; { ${&#40;ps: :&#41;${1}} $i }
+}
+
+function rmap &#40;&#41; {
+  for i &#40;${argv&#91;2,-1&#93;}&#41; { ${&#40;ps: :&#41;${i}} $1 }
+}
+
+function fp &#40;&#41; {
+  echo &quot;${1:A}&quot;
+}
+
+function d &#40;&#41; {
+  if &#40;&#40; ! $#@ &#41;&#41;; then
+      builtin cd
+  elif &#91;&#91; -d $argv&#91;1&#93; &#93;&#93;; then
+      builtin cd &quot;$&#40;fp $argv&#91;1&#93;&#41;&quot;
+      $argv&#91;2,-1&#93;
+  elif &#91;&#91; &quot;$1&quot; = -&lt;-&gt; &#93;&#93;; then
+      builtin cd $1 &gt; /dev/null 2&gt;&amp;1
+      $argv&#91;2,-1&#93;
+  else
+    echo &quot;$0: no such file or directory: $1&quot;
+  fi
+}
+
+function d! &#40;&#41; {
+  mkdir -p $argv&#91;1&#93;
+  d &quot;$@&quot;
+}
+
+function rm! &#40;&#41; {
+  if &#91;&#91; &quot;$1&quot; == &quot;$HOME&quot; || &quot;$1&quot; == &quot;$HOME/&quot; || &quot;$1&quot; == &quot;&#126;&quot; || &quot;$1&quot; == &quot;&#126;/&quot; &#93;&#93;; then
+      return 1
+  else
+    command rm -rf $@
+  fi
+}
+
+function rm+ &#40;&#41; {
+  parallel --will-cite 'rm -rf {}' ::: $@
+}
+
+function rm@ &#40;&#41; {
+  if &#91;&#91; -d $1 &#93;&#93;; then
+      find $1 -type f -exec shred -vfzun 10 {} \;
+      command rm -rf $1
+  else
+    shred -vfzun 10 $1
+  fi
+}
+
+function def&#95;mk &#40;&#41; {
+  eval &quot;function ${argv&#91;1&#93;} &#40;&#41; {
+            if &#91;&#91; \$# -ge 2 &#93;&#93;; then
+                if &#91;&#91; ! -e \${@: -1} &#93;&#93;; then
+                     mkdir -p \${@: -1}
+                fi
+
+                command ${argv&#91;2,-1&#93;} \$@
+            fi
+        }&quot;
+}
+
+def&#95;mk cp! cp -rf
+def&#95;mk mv! mv -f
+
+function def&#95;key &#40;&#41; {
+  while &#91;&#91; $# -ge 2 &#93;&#93;; do
+    bindkey &quot;$1&quot; &quot;$2&quot;
+    shift 2
+  done
+}
+
+function def&#95;keys &#40;&#41; {
+  def&#95;key $keys
+  unset keys
+}
+
+function def&#95;out&#95;key &#40;&#41; {
+  while &#91;&#91; $# -ge 2 &#93;&#93;; do
+    bindkey -s &quot;$1&quot; &quot;$2&quot;
+    shift 2
+  done
+}
+
+function def&#95;out&#95;keys &#40;&#41; {
+  def&#95;out&#95;key $out&#95;keys
+  unset out&#95;keys
+}
+
+keys=&#40;
+  '\e.' insert-last-word
+  &quot;\e=&quot; copy-prev-shell-word
+&#41;; def&#95;keys
+
+out&#95;keys=&#40;
+  '\e`' '$&#40;&#41;\C-b'
+  &quot;\e'&quot; &quot;''\C-b&quot;
+&#41;; def&#95;out&#95;keys
+</code></pre><h2><a name="closing">Closing remarks</a></h2><p>When using the command line, especially with a shell as powerful as Zsh, it becomes mandatory to be aware what your shell can do. Do not blindly use packages that customize your shell, without understanding what they do.</p><p>Happy Zsh’ng!</p><hr/><div class="footer"><p><div class="text-small"> <a href='/en'>Home</a>  <a href='/en/about'>About</a>  <a href='/en/quotes'>Quotes</a>  <a href='/en/words'>Words</a>  <a href='https://github.com/ebzzry/ebzzry.github.io'>Source</a> </div> <div class="text-x-small"> Site created with <a href='https://github.com/ebzzry/emem'>emem</a> </div></p><p><div class="text-x-small"> <a rel="license" href="https://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" class="cc" src="/images/cc4-88x31.png" /></a><br> This work by <a xmlns:cc="https://creativecommons.org/ns#" href="https://ebzzry.io" property="cc:attributionName" rel="cc:attributionURL">Rommel Martinez</a> is licensed under a<br> <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">Creative Common Attribution 4.0 International License</a>. </div></p><p></div></p></div><script src="/static/js/highlight.pack.js"></script><script>hljs.initHighlightingOnLoad();</script><script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');ga('create', 'UA-93746003-1', 'auto');ga('send', 'pageview');</script></body></html>

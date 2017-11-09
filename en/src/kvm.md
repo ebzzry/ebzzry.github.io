@@ -215,11 +215,11 @@ yet.
 ### <a name="display"></a> Connect to the SPICE display
 
 To be able to use the guest machine’s display, you need to connect to
-the SPICE server, using the SPICE client `spicey`:
+the SPICE server, using the SPICE client `spicy`:
 
-    $ spicey -h 127.0.0.1 -p 5901 -w supersecretkey
+    $ spicy -h 127.0.0.1 -p 5901 -w supersecretkey
 
-Take note that closing the spicey window will not kill the QEMU session. If the guest OS captures
+Take note that closing the spicy window will not kill the QEMU session. If the guest OS captures
 the mouse input, press <kbd>Shift+F12</kbd>, to get out of it.
 
 
@@ -279,14 +279,14 @@ command line:
 ```
 function kvm-net () {
   case $1 in
-    up|1)
+    up)
       sudo vde_switch -tap tap0 -mod 660 -group kvm -daemon
       sudo ip addr add 10.0.2.1/24 dev tap0
       sudo ip link set dev tap0 up
       sudo sysctl -w net.ipv4.ip_forward=1
       sudo iptables -t nat -A POSTROUTING -s 10.0.2.0/24 -j MASQUERADE
       ;;
-    down|0)
+    down)
       sudo iptables -t nat -D POSTROUTING -s 10.0.2.0/24 -j MASQUERADE
       sudo sysctl -w net.ipv4.ip_forward=0
       sudo ip link set dev tap0 down
@@ -297,20 +297,19 @@ function kvm-net () {
   esac
 }
 
-function kvm-up () {
-  kvm-net up
+function kvm-boot () {
+    sudo qemu-kvm -cpu host -m 2G -net nic,model=virtio -net vde \
+    -soundhw all -vga qxl \
+    -spice port=6900,addr=127.0.0.1,disable-ticketing \
+    $@
 }
 
-function kvm-down () {
-  kvm-net down
-}
-
-function kvm-load () {
-  sudo qemu-kvm -cpu host -m 2G -net nic,model=virtio -net vde -device AC97,addr=0x18 -vga qxl -spice port=5900,addr=127.0.0.1,disable-ticketing -daemonize $@
+function kvm-iso () {
+    kvm-boot -boot once=d -cdrom $1 ${argv[2,-1]}
 }
 
 function kvm-display () {
-    spicey -p 5900 -h 127.0.0.1
+    spicy -p 6900 -h 127.0.0.1
 }
 ```
 
@@ -318,11 +317,11 @@ I’ll walk you through.
 
 Initially, setup the netoworking:
 
-    $ kvm-up
+    $ kvm-net up
 
 Then, load the image:
 
-    $ kvm-load vm.qcow2
+    $ kvm-boot vm.qcow2
 
 Finally, connect to the display:
 
@@ -330,7 +329,7 @@ Finally, connect to the display:
 
 When you’re done with the VM, close the Spice display then shutdown the KVM networking:
 
-    $ kvm-down
+    $ kvm-net down
 
 
 <a name="closing"></a> Closing remarks
