@@ -28,7 +28,7 @@ are exclusive to Zsh—or otherwise difficult in other shells—I went with that
 - [Configuration](#configuration)
 - [Define the commands](#commands)
 - [Trying it out](#trying)
-- [Closing remarks](#closingremarks)
+- [Closing remarks](#closing)
 
 
 <a name="overview">Overview</a>
@@ -214,8 +214,8 @@ If you want to explicitly turn the chroot environment off, run:
     % cru
 
 
-<a name="closingremarks">Closing remarks</a>
---------------------------------------------
+<a name="closing">Closing remarks</a>
+-------------------------------------
 
 Having an environment to test software and run programs exclusive to that platform, in a lighter
 environment, certainly is a helpful addition.

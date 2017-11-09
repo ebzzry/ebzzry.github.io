@@ -17,7 +17,7 @@ experience. In this article, I will talk about a simple way to save and restore 
 - [Overview](#overview)
 - [Saving](#saving)
 - [Restoring](#restoring)
-- [Closing remarks](#closingremarks)
+- [Closing remarks](#closing)
 
 
 <a name="overview">Overview</a>
@@ -122,8 +122,8 @@ To restore the saved directory stack, on the current session, or a new separate 
 
 
 
-<a name="closingremarks">Closing remarks</a>
---------------------------------------------
+<a name="closing">Closing remarks</a>
+-------------------------------------
 
 I use directory stacks as a way to save the directories that I interact with so that it will be
 easier to restore to a previous working state. Having these two helper commands makes it even more
