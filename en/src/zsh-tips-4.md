@@ -512,7 +512,7 @@ function def_out_keys () {
 }
 
 keys=(
-  '\e.' insert-last-word
+  "\e." insert-last-word
   "\e=" copy-prev-shell-word
 ); def_keys
 
