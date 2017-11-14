@@ -2,7 +2,7 @@ Words
 =====
 
 <center>November 24, 2015</center>
-<center>Updated: November 3, 2017</center>
+<center>Updated: November 12, 2017</center>
 
 This page contains a list of phrases and lines that I communicated with my fellow men, to raise
 awareness, to shed light on things, and to inspire.
@@ -25,21 +25,7 @@ Entries are sorted in chronological order.
   happened had you done your finest.<br>
 
 
-- The most wonderful sensations in the life of our cognizant consciousnesses are wrought with traps,
-  perils, and pitfalls. But only those who are willing to embark on these treacherous journeys will
-  have the fortune to apprise the tales.<br>
-
-
-- One of the most atrocious crimes a sensibility can ever commit to its host is compulsion of
-  negligence to fulfill the functions of meeting its bliss.<br>
-
-
 - Challenge. Persist. Conquer.<br>
-
-
-- The aggregate heft of the comprehensions on a choice that we have made, does not lie within the
-  boundaries of what it is; it is the firm grasp of the elucidating vindications why we have made
-  that choice, that will liberate, and free us.<br>
 
 
 - Unless we will have the boldness and audacity to drive them away, our greatest fears will not
@@ -91,17 +77,10 @@ Entries are sorted in chronological order.
 - You are not weak; you are not strong, either.<br>
 
 
-- Altruism, or more commonly known as selflessness, is voluntary sacrifice without any desire or
-  motivation to benefit from actions stemming from applications of such a quality.<br>
-
-
 - Opinions are biases.<br>
 
 
 - A nation is only as strong as its weakest peoples.<br>
-
-
-- Happiness cannot be shared. However, one can inspire others to become happy.<br>
 
 
 - We think that we know.<br>
@@ -135,7 +114,9 @@ Entries are sorted in chronological order.
 - Take care of your shell; it’s the only one that you have.<br>
 
 
-- In the grand scale of the universe, human lives are insignificant. We are selfish with our lives because they are our own. However, we should remind ourselves, that for life to flourish, there must also be death.<br>
+- In the grand scale of the universe, human lives are insignificant. We are selfish with our lives
+  because they are our own. However, we should remind ourselves, that for life to flourish, there
+  must also be death.<br>
 
 
 - Tell me what you care about, and I’ll tell you who you are.<br>
@@ -170,8 +151,7 @@ Entries are sorted in chronological order.
 - We get so hung up in goals, when the only the real tangible goal in life, is death.<br>
 
 
-- If you were told that you are eventually going to die, will you still want to live? If you choose
-  life, you’ll experience pains and joys. If you choose death, there is void.<br>
+- If you were told that you are eventually going to die, will you still want to live?<br>
 
 
 - Relationships, unlike wars, are not battles. We give back, we take in, we fall in love, we get
@@ -179,9 +159,8 @@ Entries are sorted in chronological order.
   happen, if we do nothing.<br>
 
 
-- We were not told about death before we were conceived to life. We didn’t have the option whether
-  to board the ship or not. We just find ourselves, in the middle of the journey, after the ship has
-  already left the port.<br>
+- We didn’t have the option whether to board the ship or not. We just find ourselves, in the middle
+  of the journey, after the ship has already left the port.<br>
 
 
 - Chaos does not imply noise.<br>
