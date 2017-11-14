@@ -3,10 +3,10 @@
 <div class="footer">
 
 <div class="text-small">
-[Hejmo](/eo)  [Pri](/eo/pri)  [Citaĵoj](/eo/citajxoj)  [Vortoj](/o/vortoj)  [Fonto](https://github.com/ebzzry/ebzzry.github.io)
+[Hejmo](/eo)  [Pri](/eo/pri)  [Citaĵoj](/eo/citajxoj)  [Vortoj](/eo/vortoj)  [Fonto](https://github.com/ebzzry/ebzzry.github.io)
 </div>
 <div class="text-x-small">
-TTT-ejo kreita per [emem](https://github.com/ebzzry/emem)
+Ĉi tiu retejo estas kreita per [emem](https://github.com/ebzzry/emem)
 </div>
 
 <div class="text-x-small">
