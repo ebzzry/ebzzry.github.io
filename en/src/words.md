@@ -1,11 +1,17 @@
 Words
 =====
 
+<center>
+<div class="text-small">
+[Esperanto](/eo/vortoj)  [English](/en/words)
+</div>
+</center>
+
 <center>November 24, 2015</center>
 <center>Updated: November 12, 2017</center>
 
 This page contains a list of phrases and lines that I communicated with my fellow men, to raise
-awareness, to shed light on things, and to inspire.
+awareness, to shed light on things, and to inspire my fellow human beings.
 
 Entries are sorted in chronological order.
 
@@ -43,7 +49,7 @@ Entries are sorted in chronological order.
 - If you want to create the future, focus on the moment rather than the outcome.<br>
 
 
-- Answers, no matter how confident you are with them, are incorrect, if they were for the wrong
+- You answers, no matter how confident you are with them, are incorrect, if they were for the wrong
   questions.<br>
 
 
@@ -71,7 +77,7 @@ Entries are sorted in chronological order.
 - Even stars die.<br>
 
 
-- Impatience is the twin brother of impulsiveness.<br>
+- Impatience is the twin of impulsiveness.<br>
 
 
 - You are not weak; you are not strong, either.<br>
@@ -98,9 +104,6 @@ Entries are sorted in chronological order.
 - With great power comes great irresponsibility.<br>
 
 
-- Impatience is a virtue.<br>
-
-
 - Never attribute to malice what incompetence will explain. Never attribute to incompetence what
   nature will explain.<br>
 
@@ -111,7 +114,7 @@ Entries are sorted in chronological order.
 - Reality is relative.<br>
 
 
-- Take care of your shell; it’s the only one that you have.<br>
+- Take care of your shell, because it’s the only one that you have.<br>
 
 
 - In the grand scale of the universe, human lives are insignificant. We are selfish with our lives
@@ -166,7 +169,7 @@ Entries are sorted in chronological order.
 - Chaos does not imply noise.<br>
 
 
-- The only thing that binds us to our loved ones are memories.<br>
+- The only thing that binds us to our loved ones are our memories.<br>
 
 
 - Reality is not fixed.<br>
