@@ -16,7 +16,7 @@ Musings of a Pedantic Pirate
 
 <center>
 <div class="text-small">
-[Esperanto](/eo/)  [English](/en/)
+[Esperanto](/eo/)  [English](/en/)  [Ilocano](/ilo/)
 </div>
 </center>
 
