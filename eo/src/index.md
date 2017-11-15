@@ -16,9 +16,11 @@ Pensoj de Pedanta Marrabisto
 
 <center>
 <div class="text-small">
-[Esperanto](/eo/)  [Angla](/en/)
+[Esperanto](/eo/)  [Angla](/en/)  [Iloka](/en/)
 </div>
 </center>
 
 <div class="text-right">Retejo pri komputado, homaj inklinoj, kaj harazadaj umoj.</div>
 <div class="text-right">Enskriboj estas ordigitaj laŭ inversa kronologia ordo.</div>
+
+Baldaŭ mia samideano. Baldaŭ.
