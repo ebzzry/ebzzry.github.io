@@ -13,8 +13,8 @@ ANALYTICS="93746003-1"
 all:
 	parallel --will-cite "$(MAKE) {/.}.html" ::: $(FILES)
 	$(BUILDER) -D $(DESCRIPTION) -K $(KEYWORDS) \
-          --og-title "Musings of a Pedantic Pirate" --og-type $(OG_TYPE) \
-          --og-url "https://ebzzry.io/eo/" \
+          --og-title "Panunot iti Naalwad nga Pirata" --og-type $(OG_TYPE) \
+          --og-url "https://ebzzry.io/ilo/" \
           --og-image $(OG_IMAGE) \
           --analytics $(ANALYTICS) \
           -RFiamuo index.html \
@@ -24,7 +24,7 @@ all:
 	if [[ ! -d "$$(basename $< .md)" ]]; then mkdir "$$(basename $< .md)"; fi
 	$(BUILDER) -D $(DESCRIPTION) -K $(KEYWORDS) \
           --og-title $(OG_TITLE) --og-type $(OG_TYPE) \
-          --og-url "https://ebzzry.io/eo/$$(basename $< .md)/" \
+          --og-url "https://ebzzry.io/ilo/$$(basename $< .md)/" \
           --og-image $(OG_IMAGE) \
           --analytics $(ANALYTICS) \
           -RFiamuo "$$(basename $< .md)/index.html" \
