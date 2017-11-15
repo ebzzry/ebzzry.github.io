@@ -1,7 +1,7 @@
 Pensoj de Pedanta Pirato
 ========================
 
-<div class="footer">
+<div class="text-right">
 [Esperante](/eo/)  [Angle](/en/)
 </div>
 

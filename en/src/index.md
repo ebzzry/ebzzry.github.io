@@ -1,7 +1,7 @@
 Musings of a Pedantic Pirate
 ============================
 
-<div class="footer">
+<div class="text-right">
 [Esperanto](/eo/)  [English](/en/)
 </div>
 
