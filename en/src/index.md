@@ -14,6 +14,12 @@ Musings of a Pedantic Pirate
         `....'
 ```
 
+<center>
+<div class="text-small">
+[Esperanto](/eo/)  [English](/en/)
+</div>
+</center>
+
 <div class="text-right">A journal about computing, human predilections, and random krakaboom.</div>
 <div class="text-right">Entries are sorted in reverse chronological order.</div>
 
