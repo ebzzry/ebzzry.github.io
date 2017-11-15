@@ -1,9 +1,7 @@
 Musings of a Pedantic Pirate
 ============================
 
-<center>
-[Esperanto](/eo/)  [English](/en/)
-</center>
+<center>[Esperanto](/eo/)  [English](/en/)</center>
 
 ```
                       ,---------------.
