@@ -24,17 +24,17 @@ Enskriboj estas ordigitaj laŭ kronologia ordo.
 
 
 - Oraj ŝancoj estas ofte preterlasitaj tial ke ili estas manteliĝis kun malpuraj vestoj, anstataŭ kun
-  trompilo kaj oro.<br>
+  brilo kaj oro.<br>
 
 
-- Kiam vi ne donas vian plej bonan tiam malfavoraj sekvoj aperas, vi scivolos kion okazos se vi agis
+- Kiam vi ne donas vian plej bonan, tiam malfavoraj sekvoj aperas, vi scivolos kion okazos se vi donis
   vian plej bonan.<br>
 
 
 - Kontraŭstaru. Daŭru. Venku.<br>
 
 
-- Krom se ni havos la aŭdacon kaj kuraĝon por forpali ilin, niaj plej grandaj timoj ne forlasos
+- Krom se ni havos la aŭdacon kaj kuraĝon por forpeli ilin, niaj plej grandaj timoj ne forlasos
   nin. Tamen, ili estas ĉi tie por ripozi, tiam ni devus havi la forton kaj kuraĝon por dresi
   ilin.<br>
 
@@ -45,7 +45,7 @@ Enskriboj estas ordigitaj laŭ kronologia ordo.
 - Ridetu eĉ en la vizaĝo de malamiko, ĉar tio ankaŭ estos la fojo kiam vi brakumos la venkon.<br>
 
 
-- Se vi volas krei la estontecon, fokusu je la estantencan momenton anstataŭ la elvenon.<br>
+- Se vi volas krei la estontecon, fokusu je la estantecan momenton anstataŭ la elvenon.<br>
 
 
 - Viaj respondoj, kiel ajn vi fidemas pri ili, estas neĝustaj, se ili estis por la malpravaj
