@@ -1,7 +1,7 @@
 Pri
 ===
 
-<div class="text-right">
+<div class="center">
 [Esperante](/eo/pri)  [Angle](/en/about)
 </div>
 

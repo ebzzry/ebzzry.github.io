@@ -1,7 +1,7 @@
 About
 =====
 
-<div class="text-right">
+<div class="center">
 [Esperanto](/eo/pri)  [English](/en/about)
 </div>
 
