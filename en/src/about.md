@@ -1,7 +1,7 @@
 About
 =====
 
-<div class="footer">
+<div class="text-right">
 [Esperanto](/eo/pri)  [English](/en/about)
 </div>
 
