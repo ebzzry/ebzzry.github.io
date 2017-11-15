@@ -1,5 +1,5 @@
-Pensoj de Pedanta Marrabisto
-============================
+Pensoj de Pedanta Pirato
+========================
 
 ```
                       ,---------------.
