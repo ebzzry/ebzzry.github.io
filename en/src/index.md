@@ -2,6 +2,8 @@ Musings of a Pedantic Pirate
 ============================
 
 <center>[Esperanto](/eo/)  [English](/en/)</center>
+<center>August 15, 2017</center>
+<center>Updated: November 16, 2017</center>
 
 ```
                       ,---------------.

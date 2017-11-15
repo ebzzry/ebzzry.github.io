@@ -2,6 +2,8 @@ About
 =====
 
 <center>[Esperanto](/eo/pri)  [English](/en/about)</center>
+<center>March 27, 2017</center>
+<center>Updated: November 16, 2017</center>
 
 <img style="margin-right: 0.5em; margin-bottom: 0.5em;" src="/images/author.jpg" alt="Ve!" title="Ve!" align="left" />
 Rommel Martinez is a space pirate of unknown descent. He is currently in human form and was last
