@@ -23,4 +23,4 @@ Pensoj de Pedanta Marrabisto
 <div class="text-right">Retejo pri komputado, homaj inklinoj, kaj harazadaj umoj.</div>
 <div class="text-right">Enskriboj estas ordigitaj laŭ inversa kronologia ordo.</div>
 
-Baldaŭ mia samideano. Baldaŭ.
+Baldaŭ miaj samideanoj.

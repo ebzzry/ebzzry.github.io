@@ -13,7 +13,7 @@ ANALYTICS="93746003-1"
 all:
 	parallel --will-cite "$(MAKE) {/.}.html" ::: $(FILES)
 	$(BUILDER) -D $(DESCRIPTION) -K $(KEYWORDS) \
-          --og-title "Musings of a Pedantic Pirate" --og-type $(OG_TYPE) \
+          --og-title "Pensoj de Pedanta Marrabisto" --og-type $(OG_TYPE) \
           --og-url "https://ebzzry.io/eo/" \
           --og-image $(OG_IMAGE) \
           --analytics $(ANALYTICS) \
