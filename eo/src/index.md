@@ -1,6 +1,10 @@
 Pensoj de Pedanta Pirato
 ========================
 
+<div class="footer">
+[Esperante](/eo/)  [Angle](/en/)
+</div>
+
 ```
                       ,---------------.
        ,-'""`-.      |                 |
@@ -13,12 +17,6 @@ Pensoj de Pedanta Pirato
       `:`++++';'
         `....'
 ```
-
-<center>
-<div class="text-small">
-[Esperante](/eo/)  [Angle](/en/)
-</div>
-</center>
 
 <div class="text-right">Retejo pri komputado, homaj inklinoj, kaj harazadaj umoj.</div>
 <div class="text-right">Enskriboj estas ordigitaj laŭ inversa kronologia ordo.</div>

@@ -1,11 +1,9 @@
 Vortoj
 ======
 
-<center>
-<div class="text-small">
+<div class="footer">
 [Esperante](/eo/vortoj)  [Angle](/en/words)
 </div>
-</center>
 
 <center>3a de Novembro, 2017</center>
 <center>Laste ŝanĝita: 14a de Novembro, 2017</center>
