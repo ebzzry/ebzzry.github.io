@@ -1,7 +1,7 @@
 Words
 =====
 
-<div class="text-right">
+<div class="center">
 [Esperanto](/eo/vortoj)  [English](/en/words)
 </div>
 
