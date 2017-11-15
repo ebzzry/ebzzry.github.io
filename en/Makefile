@@ -3,8 +3,8 @@
 FILES=$(filter-out src/footer.md src/index.md, $(wildcard src/*.md))
 BUILDER=emem
 
-DESCRIPTION="$$(cat ../DESCRIPTION)"
-KEYWORDS="$$(cat ../KEYWORDS)"
+DESCRIPTION="$$(cat ./DESCRIPTION)"
+KEYWORDS="$$(cat ./KEYWORDS)"
 OG_TITLE="$$(head -1 $<)"
 OG_TYPE="article"
 OG_IMAGE="https://ebzzry.io/static/ico/android-chrome-512x512.png"
