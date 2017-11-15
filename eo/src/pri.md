@@ -3,7 +3,7 @@ Pri
 
 <center>
 <div class="text-small">
-[Esperanto](/eo/pri)  [Angla](/en/about)
+[Esperante](/eo/pri)  [Angle](/en/about)
 </div>
 </center>
 
