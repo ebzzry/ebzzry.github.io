@@ -1,9 +1,9 @@
 Words
 =====
 
-<div class="center">
+<center>
 [Esperanto](/eo/vortoj)  [English](/en/words)
-</div>
+</center>
 
 <center>November 24, 2015</center>
 <center>Updated: November 12, 2017</center>
