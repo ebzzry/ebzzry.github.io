@@ -2,8 +2,8 @@ Panunot iti Naalwad nga Pirata
 ==============================
 
 <center>[Esperanto](/eo/)  [Ingles](/en/)  [Ilokano](/ilo/)</center>
-<center>August 15, 2015</center>
-<center>Updated: November 16, 2017</center>
+<center>15 iti Noviembre, 2017</center>
+<center>Napabaro: 16 iti Noviembre, 2017</center>
 
 
 ```
