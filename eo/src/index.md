@@ -16,7 +16,7 @@ Pensoj de Pedanta Pirato
 
 <center>
 <div class="text-small">
-[Esperanto](/eo/)  [Angla](/en/)
+[Esperante](/eo/)  [Angle](/en/)
 </div>
 </center>
 
