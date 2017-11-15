@@ -3,7 +3,7 @@ Vortoj
 
 <center>
 <div class="text-small">
-[Esperanto](/eo/vortoj)  [Angla](/en/words)
+[Esperante](/eo/vortoj)  [Angle](/en/words)
 </div>
 </center>
 
@@ -168,4 +168,4 @@ Enskriboj estas ordigitaj laŭ kronologia ordo.
 - La sola afero kiu kunligas nin al sin amatojn estas memoroj.<br>
 
 
-- Realaĵo ne fiksitas.<br>
+- Realaĵo ne estas fiksita.<br>
