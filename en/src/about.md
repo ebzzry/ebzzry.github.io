@@ -1,6 +1,12 @@
 About
 =====
 
+<center>
+<div class="text-small">
+[Esperanto](/eo/pri)  [English](/en/about)  [Ilocano](/ilo/maipapan)
+</div>
+</center>
+
 <img style="margin-right: 0.5em; margin-bottom: 0.5em;" src="/images/author.jpg" alt="Ve!" title="Ve!" align="left" />
 Rommel Martinez is a space pirate of unknown descent. He is currently in human form and was last
 spotted interacting with Earthlings in the Milky Way galaxy.
