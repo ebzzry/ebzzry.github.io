@@ -2,6 +2,8 @@ Pri
 ===
 
 <center>[Esperante](/eo/pri)  [Angle](/en/about)</center>
+<center>27a de Aprilo, 2017</center>
+<center>Laste ŝanĝita: 16a de Novembro, 2017</center>
 
 <img style="margin-right: 0.5em; margin-bottom: 0.5em;" src="/images/author.jpg" alt="Ve!" title="Ve!" align="left" />
 Rommel Martinez estas kosma pirato de nekonata deveno. Li estas nune en homa formo kaj estis

@@ -2,7 +2,6 @@ Vortoj
 ======
 
 <center>[Esperante](/eo/vortoj)  [Angle](/en/words)</center>
-
 <center>3a de Novembro, 2017</center>
 <center>Laste ŝanĝita: 14a de Novembro, 2017</center>
 
@@ -16,14 +15,14 @@ Enskriboj estas ordigitaj laŭ kronologia ordo.
   marbordoj de malprotesto kaj konformeco.<br>
 
 
-- Scivolemo estas la malamiko de nescio, timo, necerteco, kaj dubo.<br>
+- Scivolemo estas la malamiko de la nescio, la timo, la necerteco, kaj la dubo.<br>
 
 
 - Oraj ŝancoj estas ofte preterlasitaj tial ke ili estas manteliĝis kun malpuraj vestoj, anstataŭ kun
   brilo kaj oro.<br>
 
 
-- Kiam vi ne donas vian plej bonan, tiam malfavoraj sekvoj aperas, vi scivolos kion okazos se vi donis
+- Kiam vi ne donas vian plej bonan, tiam malfavoraj sekvoj aperas, vi scivolos kio okazos se vi donis
   vian plej bonan.<br>
 
 
@@ -31,7 +30,7 @@ Enskriboj estas ordigitaj laŭ kronologia ordo.
 
 
 - Krom se ni havos la aŭdacon kaj kuraĝon por forpeli ilin, niaj plej grandaj timoj ne forlasos
-  nin. Tamen, ili estas ĉi tie por ripozi, tiam ni devus havi la forton kaj kuraĝon por dresi
+  nin. Tamen, se ili estas ĉi tie por ripozi, tiam ni devus havi la forton kaj kuraĝon por dresi
   ilin.<br>
 
 
@@ -51,7 +50,7 @@ Enskriboj estas ordigitaj laŭ kronologia ordo.
 - Se vi ne povas venki ilin, okazu aranĝi ilin batitaj.<br>
 
 
-- Timo naskigas dubon.<br>
+- La timo naskigas la dubon.<br>
 
 
 - Prokrastu prokrastadon.<br>
@@ -69,10 +68,10 @@ Enskriboj estas ordigitaj laŭ kronologia ordo.
 - Kontrastiĝu tiam miksiĝu.<br>
 
 
-- Eĉ steloj mortas.<br>
+- Eĉ steloj mortu.<br>
 
 
-- Senpacienco estas la ĝemelo de impulsimeco.<br>
+- La senpacienco estas la ĝemelo de impulsimeco.<br>
 
 
 - Vi ne malfortas; vi ne ankaŭ fortas.<br>
@@ -87,7 +86,7 @@ Enskriboj estas ordigitaj laŭ kronologia ordo.
 - Ni pensas kion ni scias.<br>
 
 
-- Kiam la reguloj ŝanĝiĝas, ŝanĝiĝu. Se vi nek povas nek volas alfari, ŝanĝu la regulojn.<br>
+- Kiam la reglamentoj ŝanĝiĝas, ŝanĝiĝu. Se vi nek povas nek volas alfari, ŝanĝu la reglamentojn.<br>
 
 
 - Diplomatio kiel sekvo de manko de elekto estas tute ne diplomatio.<br>
@@ -96,7 +95,7 @@ Enskriboj estas ordigitaj laŭ kronologia ordo.
 - Se vi ne povas aligi ilin, venku ilin.<br>
 
 
-- El granda potenco devenas granda malrespondecon.<br>
+- El granda potenco devenas grandan malrespondecon.<br>
 
 
 - Neniam atribuu al malbonintenco kion nekompetenteco klarigos. Neniam atribuu al nekompetenteco
@@ -106,14 +105,14 @@ Enskriboj estas ordigitaj laŭ kronologia ordo.
 - Elektoj estas iluzioj; jen nur cirkonstancoj.<br>
 
 
-- Realaĵo relativas.<br>
+- Realaĵo estas relativa.<br>
 
 
 - Vartu vian ŝelon, tial ke ĝi nur estas kion vi havas.<br>
 
 
 - En la grandioza skalo de la kosmo, la homaj vivoj sensignifas. Ni malsindonas pri niaj vivoj tial
-  ke ili estas la niaj. Tamen, ni devas memori mem, ke la vivo por vigli, ankaŭ ekzistas
+  ke ili estas la niaj. Tamen, ni devas memori mem, por ke la vivo por vigli, ankaŭ ekzistas
   morteco.<br>
 
 
@@ -143,14 +142,14 @@ Enskriboj estas ordigitaj laŭ kronologia ordo.
   projekciaĵoj de kion ili volas atingi, ne kion ili havas.<br>
 
 
-- Ni estas tiel frenezaj pri niaj celoj, kiam la vera palpebla celo en la vivo estas mortceo.<br>
+- Ni estas tiel frenezaj pri niaj celoj, kiam la vera palpebla celo en la vivo estas morteco.<br>
 
 
-- Se vi estis dirita ke vi estos iutempe mortos, ĉu vi ankoraŭ deziras vivi?<br>
+- Se vi estis dirita ke vi iutempe mortos, ĉu vi ankoraŭ deziras vivi?<br>
 
 
 - Koramikecoj male al militoj, ne estas bataloj. Ni redonas, ne ricevas, ni enamiĝas, ni doloriĝas,
-  ni reamas. Nenio estas difinitiva. Ni ne scios kion sekve okazos. Sed, okazos nenion se ni faras
+  ni reamas. Nenio estas difinitiva. Ni ne scias, kio okazos poste. Sed, okazos nenion se ni faras
   nenion.<br>
 
 
@@ -161,7 +160,7 @@ Enskriboj estas ordigitaj laŭ kronologia ordo.
 - Ĥaozo ne subkomprenigas bruon.<br>
 
 
-- La sola afero kiu kunligas nin al sin amatojn estas memoroj.<br>
+- La sola afero kiu kunligas nin al siaj amatoj estas memoroj.<br>
 
 
 - Realaĵo ne estas fiksita.<br>
