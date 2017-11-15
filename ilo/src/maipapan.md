@@ -1,11 +1,9 @@
 Maipapan
 ========
 
-<center>
-<div class="text-small">
-[Esperanto](/eo/pri)  [Ingles](/en/about)  [Ilokano](/ilo/maipapan)
-</div>
-</center>
+<center>[Esperanto](/eo/pri)  [Ingles](/en/about)  [Ilokano](/ilo/maipapan)</center>
+<center>15 iti Noviembre, 2017</center>
+<center>Napabaro: 16 iti Noviembre, 2017</center>
 
 <img style="margin-right: 0.5em; margin-bottom: 0.5em;" src="/images/author.jpg" alt="Yot!" title="Yot!" align="left" />
 Ni Rommel Martinez ket law-ang nga pirata iti haan maamwan nga naggapuan na. Iti langa na tatta ket tao ken naudi isuna nga nakita nga kakadwa na ket taga daga idyay galaksi iti Milky Way.
