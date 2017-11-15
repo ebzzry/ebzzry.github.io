@@ -1,7 +1,7 @@
 Musings of a Pedantic Pirate
 ============================
 
-<div class="text-right">
+<div class="center">
 [Esperanto](/eo/)  [English](/en/)
 </div>
 
