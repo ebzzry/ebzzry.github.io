@@ -1,11 +1,9 @@
 About
 =====
 
-<center>
-<div class="text-small">
+<div class="footer">
 [Esperanto](/eo/pri)  [English](/en/about)
 </div>
-</center>
 
 <img style="margin-right: 0.5em; margin-bottom: 0.5em;" src="/images/author.jpg" alt="Ve!" title="Ve!" align="left" />
 Rommel Martinez is a space pirate of unknown descent. He is currently in human form and was last
