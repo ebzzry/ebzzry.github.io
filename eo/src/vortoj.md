@@ -1,7 +1,7 @@
 Vortoj
 ======
 
-<div class="footer">
+<div class="text-right">
 [Esperante](/eo/vortoj)  [Angle](/en/words)
 </div>
 
