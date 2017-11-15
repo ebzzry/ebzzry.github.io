@@ -3,7 +3,7 @@ About
 
 <center>
 <div class="text-small">
-[Esperanto](/eo/pri)  [English](/en/about)  [Ilocano](/ilo/maipapan)
+[Esperanto](/eo/pri)  [English](/en/about)
 </div>
 </center>
 

@@ -16,7 +16,7 @@ Pensoj de Pedanta Marrabisto
 
 <center>
 <div class="text-small">
-[Esperanto](/eo/)  [Angla](/en/)  [Iloka](/en/)
+[Esperanto](/eo/)  [Angla](/en/)
 </div>
 </center>
 

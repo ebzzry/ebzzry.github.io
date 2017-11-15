@@ -3,7 +3,7 @@ Pri
 
 <center>
 <div class="text-small">
-[Esperanto](/eo/pri)  [Angla](/en/about)  [Iloka](/ilo/maipapan)
+[Esperanto](/eo/pri)  [Angla](/en/about)
 </div>
 </center>
 

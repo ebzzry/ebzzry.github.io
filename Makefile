@@ -20,13 +20,17 @@ ANALYTICS="93746003-1"
 
 all:
 	$(BUILDER) -r
-	for lang in eo en ilo; do $(MAKE) $(MFLAGS) -C $$lang; done
+	$(MAKE) $(MFLAGS) -C eo
+	$(MAKE) $(MFLAGS) -C en
+	#$(MAKE) $(MFLAGS) -C ilo
 	parallel --will-cite "$(MAKE) {/.}.html" ::: $(FILES)
 
 clean:
 	find . -maxdepth 1 -name '*.html' ! -name 'sitemap.html' ! -name 'index.html' -exec rm -vf {} \;
 	rm -rvf static
-	for lang in eo en ilo; do $(MAKE) -C $$lang $@; done
+	$(MAKE) -C eo $@
+	$(MAKE) -C en $@
+	#$(MAKE) -C ilo $@
 
 rebuild:
 	$(MAKE) clean
