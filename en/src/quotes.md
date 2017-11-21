@@ -116,11 +116,6 @@ the years.
   ―Steven Weinberg
 
 
-- “It is difficult to get a man to understand something when his salary depends on his not
-  understanding it.”<br>
-  ―Upton Sinclair
-
-
 - “If you want to pass, cheat. If you want to learn, research.”<br>
   ―Raganwald
 
@@ -161,7 +156,6 @@ the years.
 - “The greatest tragedy in mankind’s entire history may be the hijacking of morality by
   religion.”<br>
   ―Arthur C. Clarke, “Credo,” Greetings, Carbon-Based Bipeds!
-  Collected Essays, 1934–1998, 1999
 
 
 - “The only way of finding the limits of the possible is by going beyond them into the
@@ -250,12 +244,6 @@ the years.
   ―Wayne Dyer
 
 
-- “If you love a flower, don’t pick it up. Because if you pick it up, it dies and ceases to be what
-  you love. So if you love a flower, let it be. Love is not about possession. Love is about
-  appreciation.”<br>
-  ―Osho
-
-
 - “Forgive others not because they deserve forgiveness, but because you deserve peace.”<br>
   ―Jonathan Lockwood Huie
 
@@ -265,7 +253,7 @@ the years.
 
 
 - “There is no thrill like that felt by the inventor as he sees his creation unfolding to
-  success. Such emotions make a man forget, food, sleep, friends, love, everything.”<br>
+  success. Such emotions make a man forget food, sleep, friends, love, everything.”<br>
   ―Nikola Tesla
 
 
@@ -489,13 +477,6 @@ the years.
   ―Napoleon Bonaparte
 
 
-- “Upon this, one has to remark that men ought either to be well treated or crushed, because they
-  can avenge themselves of lighter injuries, of more serious ones they cannot; therefore the injury
-  that is to be done to a man ought to be of such a kind that one does not stand in fear of
-  revenge.”<br>
-  ―Niccolò Machiavelli
-
-
 - “The laws that govern circumstances are abolished by new circumstances.”<br>
   ―Napoleon Bonaparte
 
@@ -558,7 +539,7 @@ the years.
 
 
 - “Whilst ironically, those who aren’t willing to break will break first.”<br>
-  ―MindSmash
+  ―MindSmash, YouTube
 
 
 - “This is what I did in order to preserve my life. I am a different species from you, but we are in a partnership which demands mutual respect. On that premise, the common purpose that binds us is survival.”<br>
@@ -569,24 +550,12 @@ the years.
   ―Reiko Tamura, Parasyte -the maxim- (2014)
 
 
-- “In comparison, humans are the true parasitic vermin infesting this planet.”<br>
-  ―Takeshi Hirokawa, Parasyte -the maxim- (2014)
-
-
-- “So in the end, it’s hypocritical for us to love Earth without loving ourselves.”<br>
-  ―Shinichi Izumi, Parasyte -the maxim- (2014)
-
-
 - “Which would be worse, to live as a monster or to die as a good man?”<br>
   ―Andrew  Laeddis, Shutter Island (2010)
 
 
 - “The light that burns twice as bright burns half as long.”<br>
   ―Dr. Eldon Tyrell, Blade Runner (1982)
-
-
-- “Why would you take fitness advice from someone who isn’t fit? It’s like taking movie reviews from a blind guy.”<br>
-  ―Nicole Arbour
 
 
 - “If you see fraud and do not say fraud, you are a fraud.”<br>
