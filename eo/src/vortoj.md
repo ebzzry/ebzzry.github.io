@@ -164,3 +164,6 @@ Enskriboj estas ordigataj laŭ kronologia ordo.
 
 
 - Realaĵo ne estas fiksita.<br>
+
+
+- Ju pli mi eraras, des pli mi pravas.<br>
