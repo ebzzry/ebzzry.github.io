@@ -168,3 +168,7 @@ Entries are sorted in chronological order.
 
 
 - Reality is not fixed.<br>
+
+
+- The more I err, the more I become right.<br>
+
