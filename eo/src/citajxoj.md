@@ -3,7 +3,7 @@ Citaĵoj
 
 <center>[Esperante](/eo/citajxoj)  [Angle](/en/quotes)</center>
 <center>15a de Novembro 2017</center>
-<center>Laste ŝanĝita: 21a de Novembro 2017</center>
+<center>Laste ŝanĝita: 22a de Novembro 2017</center>
 
 Ĉi tiu paĝo enhavas liston de atenteme elektitaj citaĵoj, aforismoj, kaj sentencoj kiujn mi kolektis
 tra la jaroj.
@@ -41,7 +41,7 @@ tra la jaroj.
   ―Alan KAY
 
 
-- La senscio pli ofte naskigas fidon ol scio faras: Tiuj, kiujn scias malmulte, ne tiuj, kiujn
+- La senscio pli ofte naskigas fidon ol scio faras: Tiuj, kiun scias malmulte, ne tiuj, kiuj
   scias multe, kiuj pozitive certigas ke ĉi tio aŭ tio problemo estos neniam solvita per scienco.<br>
   ―Karlo DARVINO
 
@@ -72,7 +72,7 @@ tra la jaroj.
   ―E.M. FORSTER
 
 
-- Nur tial ke ne estis fariĝis, ne signifas ke ne povas farite. Nur tial ke ne povis farite, ne
+- Nur tial ke ne fariĝis, ne signifas ke ne povas farite. Nur tial ke ne povis farite, ne
   signifas ke devus farate.<br>
   ―Barry GLASFORD
 
@@ -85,7 +85,7 @@ tra la jaroj.
   ―Dale TURNER
 
 
-- Ne malkonstruu barilon ĝis vi scias kial ĝi estis konstruis.<br>
+- Ne malkonstruu barilon ĝis vi scias kial ĝi estis konstruita.<br>
   ―G.K. CHESTERTON
 
 
@@ -101,11 +101,11 @@ tra la jaroj.
   ―Dwight D. EISENHOWER
 
 
-- La unua regulo de Ron: Ĉiuj treegaj pozicioj estas malgustaj.<br>
+- La unua regulo de Ron: Ĉiuj treegaj pozicioj estas malĝustaj.<br>
   ―Ron GARRET
 
 
-- Ni ridas tiujn, kiujn ni ne povas toleri por alfronti.<br>
+- Ni ridas tion, kion ni ne povas toleri por alfronti.<br>
   ―Aristotelo
 
 
@@ -118,11 +118,11 @@ tra la jaroj.
   ―Raganwald
 
 
-- Por ke krei pomon el nenio, vi unue devas krei la kosmon.<br>
+- Por ke krei pomon el nenio, oni unue devas krei la kosmon.<br>
   ―Carl SAGAN
 
 
-- Mi ne scias kien mi iras, sed mi estas sur mia vojo.<br.
+- Mi ne scias kien mi iras, sed mi estas sur mia vojo.<br>
   ―Carl SAGAN
 
 
@@ -145,12 +145,12 @@ tra la jaroj.
 
 
 - Ne ekzistas kialo por supozi ke la kosmo havas la plej iometan interezon pri inteligenteco—aŭ eĉ
-  pri ambaŭ. Eble la vivo estas hazarda kromprodukto de ĝiaj operacoj kiel la belaj regulaĝoj sur la
+  pri ambaŭ. Eble la vivo estas hazarda kromprodukto de siaj operacoj kiel la belaj regulaĝoj sur la
   flugiloj de papilio. La insekto flugus tiel bone sen ili.<br>
   ―Arthur C. CLARKE
 
 
-- La plej granda tragedio en la tuta historio de homaro estas eble la kaperado de la moralecon per religio.<br>
+- La plej granda tragedio en la tuta historio de homaro estas eble la kaperado de la moraleco per religio.<br>
   ―Arthur C. CLARKE
 
 
@@ -167,7 +167,7 @@ tra la jaroj.
   ―Dean KAMEN
 
 
-- Vi volas farigi omleton, vi bezonas rompi ovojn.<br>
+- Se vi volas farigi omleton, vi bezonas rompi ovojn.<br>
   ―Tyler DURDEN, Fight Club
 
 
@@ -183,11 +183,11 @@ tra la jaroj.
   ―Sennoma
 
 
-- La Ŝanco favoras la pretan menson.<br>
+- La ŝanco favoras la pretan menson.<br>
   ―Louis PASTEUR
 
 
-- Obsedata estas vorto la mallorema uzas preskribi la dediĉata.<br>
+- Obsedata estas vorto la malloremaj uzas preskribi la dediĉatajn.<br>
   ―Russell WARREN
 
 
@@ -195,7 +195,7 @@ tra la jaroj.
   ―Erik Christopher ZEEMAN
 
 
-- Vi ne povas fari rapide, kion vi ne povas fari kun rego.<br>
+- Oni ne povas fari rapide, kion oni ne povas fari kun rego.<br>
   ―Kino MACGREGOR
 
 
@@ -207,11 +207,11 @@ tra la jaroj.
   ―Bruce LEE
 
 
-- Kiam vi eraregas, kaj neniu ne plu diras ion al vi, tio signifas ke ili rezignis.<br>
+- Kiam oni eraregas, kaj neniu ne plu diras ion al oni, tio signifas ke ili rezignis.<br>
   ―Randy PAUSCH
 
 
-- Sperto estas kion vi akiras kiam vi ne akiris tiun, kiun vi volis.<br>
+- Sperto estas kion oni akiras kiam oni ne akiris tiun, kiun oni volis akiri.<br>
   ―Randy PAUSCH
 
 
@@ -225,11 +225,11 @@ tra la jaroj.
   ―Laŭzio
 
 
-- Se vi forigos la maleblajn, kio ajn restas, kiel ajn neverŝajna, devas esti la vero.<br>
+- Se vi forigos la maleblajn, kio ajn restas, kiel ajn neverŝajnaj, devas esti la vero.<br>
   ―Spock
 
 
-- La solaj limoj kiuj vi havas, estas la limoj kiuj vi kredas.<br>
+- La solaj limoj kiujn vi havas, estas la limoj kiuj vi kredas.<br>
   ―Wayne DYER
 
 
@@ -250,11 +250,11 @@ tra la jaroj.
   ―Nikola TESLA
 
 
-- Ne konfidu al iu alia por via memdigno; nur vi povas priresponda por tio.<br>
+- Ne konfidu al iu alia por via memdigno; nur vi povas esti priresponda pri tio.<br>
   ―Stacey CHARTER
 
 
-- La livo estas kiel rajdanta biciklon. Por pluigi vian egalpezon, vi devas daŭri por movi.<br>
+- La vivo estas kiel rajdante biciklon—pluigi vian egalpezon, vi devas daŭri por movi.<br>
   ―J.P. MORGAN
 
 
@@ -262,15 +262,15 @@ tra la jaroj.
   ―Kristoforo KOLUMBO
 
 
-- Unu tagon, ili ekscios ke ili perdis brilaton dum ludanta kun senvaloraj ŝtonoj.<br>
+- Unu tagon, ili ekscios ke ili perdis brilanton dum ludante kun senvaloraj ŝtonoj.<br>
   ―Turcois OMINEK
 
 
-- Doloro estas neevitebla. Suferado estas malnepra.<br>
+- La doloro estas neevitebla. La suferado estas malnepra.<br>
   ―M. Kathleen CASEY
 
 
-- Ni devas esti pretaj por lasi la vivon ni planita, do por havi la vivon kiu atendas por ni.<br>
+  Ni devas esti pretaj por lasi la vivon ni planita por havi la vivon kiu atendas nin.<br>
   ―Joseph CAMPBELL
 
 
@@ -282,7 +282,7 @@ tra la jaroj.
   ―Anthony ROBBINS
 
 
-- Vi devas esti la ŝanĝo kiu vi volas vidi en la mondo.<br>
+- Vi devas esti la ŝanĝo kiun vi volas vidi en la mondo.<br>
   ―Mahatmo GANDHIO
 
 
@@ -294,11 +294,11 @@ tra la jaroj.
   ―Charles KETTERING
 
 
-- La kontrasto inter ordinara kaj eksterordinara estas tiu malmulte pliaĵo.<br>
+- La kontrasto inter ordinara kaj eksterordinara estas tiu eta pliaĵo.<br>
   ―Jimmy JOHNSON
 
 
-- Kiam vi falegis antaŭe kaj vi postvivis, jen tre malmultaj aferoj en la vivo kiuj povas timi
+- Kiam vi faleĝis antaŭe kaj vi postvivis, jen tre malmultaj aferoj en la vivo kiuj povas timi
   vin.<br>
   ―Sennomo
 
@@ -307,7 +307,7 @@ tra la jaroj.
   ―Albert PIKE
 
 
-- Faru kion vi povas, kie vi estas, per kiuj vi havas.<br>
+- Faru kion vi povas, kie vi estas, per kiujn vi havas.<br>
   ―Theodore ROOSEVELT
 
 
@@ -319,7 +319,7 @@ tra la jaroj.
   ―Joe NAMATH
 
 
-- Vi maltrafas 100% da pafoj vi ne trafas.<br>
+- Vi maltrafas 100% da pafojn vi ne trafas.<br>
   ―Wayne GRETZKY
 
 
@@ -327,12 +327,12 @@ tra la jaroj.
   ―Vince LOMBARDI
 
 
-- Kiam unu pordo fermas alia pordo malfermas; sed ni tiel ofte vidi tre longe kaj tiel bedaŭre, sur
-  la fermita pordo, do ni ne vidas la unujn kiuj malfermas por ni.<br>
+- Kiam unu pordo fermiĝas, alia pordo malfermiĝs; sed ni tiel ofte vidi tre longe kaj tiel bedaŭre, sur
+  la fermita pordo, do ni ne vidas la aliajn kiuj malfermiĝs por ni.<br>
   ―Alexander Graham BELL
 
 
-- Se vi iras tra inferno, daŭru iranta.<br>
+- Se vi iras tra inferno, daŭru iri.<br>
   ―Windows CHURCHILL
 
 
@@ -344,11 +344,11 @@ tra la jaroj.
   ―Sennomo
 
 
-- La popoloj kiu riskas estas ofte la unuj kiuj finiĝas estante la plej feliĉaj.<br>
+- La popoloj kiuj riskas estas ofte la tiuj, kiuj finiĝas esti la plej feliĉaj.<br>
   ―Sennomo
 
 
-- Se vi faras kion vi ĉiam faras, vi akiros kion vi ĉiam akiras.<br>
+- Se vi faras tion, kion vi ĉiom faras; vi akiros tion, kion vi ĉiam akiras.<br>
   ―Anthony ROBBINS
 
 
@@ -356,7 +356,7 @@ tra la jaroj.
   ―Thomas JEFFERSON
 
 
-- Le plej bona maniero por trovi se vi povas kredi iun, estas por kredi ilin.<br>
+- Le plej bona maniero por trovi se vi povas kredi iun, estas kredi ilin.<br>
   ―Ernest HEMMINGWAY
 
 
@@ -364,7 +364,7 @@ tra la jaroj.
   ―Charles KETTERING
 
 
-- Kaptu fiŝon unufoje kaj se ĝi eskapas, estas pli malfacila por kati ĝin la dua fojo.<br>
+- Katpu fiŝon unufoje. Se ĝi eskapas, estas pli malfacila por kapti ĝin la duan fojon.<br>
   ―Will GRAHAM, Hannibal (televida programo)
 
 
@@ -380,7 +380,7 @@ tra la jaroj.
   ―Bedelia DU MAURIER, Hannibal (televida programo)
 
 
-- Treegaj agoj de krueleco postulas altan nivelon de empatio, La sekvan fojon vi havas instinkton
+- Treegaj agoj de krueleco postulas altan nivelon de empatio. La sekvan fojon vi havas instinkton
   por helpi iun, vi devus pripensi por pisti ilin anstataŭe. Konservos vin multe da ĝeno.<br>
   ―Bedelia DU MAURIER, Hannibal (televida programo)
 
@@ -389,12 +389,12 @@ tra la jaroj.
   ―Diana NYAD
 
 
-- Ili kiuj estus rezigni vivgravan libereco, por aĉeti malmultan nedaŭran sekurecon, meritas nek la
+- Ili kiuj estus rezigni vivgravan libereco, por aĉeti malmultan nedaŭran sekurecon, meritas nek
   liberecon nek sekurecon.<br>
   ―Benjameno FRANKLENO
 
 
-- Iru al la eĝo kaj farsaltu. Farigu viajn flugilojn survoje malsupren.<br>
+- Iru al la eĝo kaj forsaltu. Konstruu viajn flugilojn survoje malsupren.<br>
   ―Ray BRADBURY
 
 
@@ -406,7 +406,7 @@ tra la jaroj.
   ―Kogami SHINYA, Psycho-Pass
 
 
-- Mi pensas ke la unu fojo kiam homoj vere havas valoron estas kiam ili agas laŭ ili propravolo.<br>
+- Mi pensas ke la unu fojo kiam homoj vere havas valoron estas kiam ili agas laŭ iliaj libervoloj.<br>
   ―Makishima SHOUGO, Psycho-Pass
 
 
@@ -415,7 +415,7 @@ tra la jaroj.
   ―Akane TSUNEMORI, Psycho-Pass
 
 
-- Ne forgesu ke vi certe mortos iutage, kaj tiel tia, tio estas la pli racio por vivi nun.<br>
+- Ne forgesu ke vi certe mortos iutage, kaj tiel tia, estas la pli racio por vivi nun.<br>
   ―Decim, Death Parade
 
 
@@ -435,7 +435,7 @@ tra la jaroj.
   ―Memory GATEKEEPER, Ergo Proxy
 
 
-- Kosmo sen sciiĝo estas multe kiel stakego de putrataj libroj—porĉiame fermita kaj nelegita.<br>
+- Kosmo sen sciiĝo estas multe kiel stakego de putrataj libroj—porĉiame fermata kaj nelegata.<br>
   ―Ergo PROXY, Ergo Proxy
 
 
@@ -444,7 +444,7 @@ tra la jaroj.
   ―Ergo Proxy, Ergo Proxy
 
 
-- En miaj senesperaj provoj por iĝi civitanulo, Mi daŭre ĉesas mi men kaj provis esti la persono mi
+- En miaj senesperaj provoj por iĝi civitanulo, mi daŭre ĉesas mi men kaj provis esti la persono mi
   pensis ili volis.<br>
   ―Vincent LAW, Ergo Proxy
 
@@ -457,20 +457,20 @@ tra la jaroj.
   ―Napoleon BONAPARTE
 
 
-- La reglamentoj kiuj governas cirkonstancojn nuligis per novaj cirkonstancoj.<br>
+- La reglamentoj kiuj governas cirkonstancojn nuliĝis per novaj cirkonstancoj.<br>
   ―Napoleon BONAPARTE
 
 
-- Milita forto ne havas daŭran formon, la akvo ne havas daŭran formon. La povo por gajni venkon per
-  ŝanĝante kaj alfarante laŭ la malamiko estas nomata genio.<br>
+- Milita forto ne hevas daŭran formon. La akvo ne havas daŭran formon. La kapablo por gajni venkon
+  per ŝanĝante kaj alfarante laŭ la malamiko estas nomata genio.<br>
   ―SUN Tzu
 
 
-- La viro kiu diras ke tio ne povas farata estas ĝenerale interrompita per iu faranta tion.<br>
+- La viro kiu diras ke tio ne povas farata estas ĝenerale interrompata per iu faranta tion.<br>
   ―Elbert HUBBARD
 
 
-- La kosmo ne havas devos por signifi al vi.<br>
+- La kosmo ne havas devon por signifi al vi.<br>
   ―Neil deGrasse TYSON
 
 
@@ -508,7 +508,7 @@ tra la jaroj.
   ―Henry FORD
 
 
-- La nur virno kiu ne faras erarojn estas la viro kiu ne faras nenion.<br>
+- La nur viro kiu ne faras erarojn estas la viro kiu ne faras nenion.<br>
   ―Theodore ROOSEVELT
 
 
@@ -516,12 +516,12 @@ tra la jaroj.
   ―Eames, Inception (2010)
 
 
-- Ideo estas kiel viruso. Fortika. Tre infekta. Kaj la plej malgranda semo de ideo povas
+- Ideo estas kiel viruso. Fortike. Tre infekte. Kaj la plej malgranda semo de ideo povas
   kreski. Povas kreski por defini aŭ por detrui vin.<br>
   ―Dominick Cobb, Inception (2010)
 
 
-- Dum ironie, ili kiuj ne estas servopreta por rompi, unue rompos.<br>
+- Ironie, ili kiuj ne estas servopreta por rompi, unue rompos.<br>
   ―MindSmash, Jutubo
 
 
@@ -532,7 +532,7 @@ tra la jaroj.
 
 
 - Vi ĉiuj subtaksas homojn. Unuope, ili aspektas malfortaj, sed tio ne estas la afero. Kion ni
-  bezonas rekoni la homojn estas ke homoj estas sola vivaĵo konsistata de milionoj de unuopaj. Krome
+  bezonas rekoni, estas ke homoj estas sola vivaĵo konsistata de milionoj de unuopaj. Krome
   iliaj unuopaj cerboj, homoj apartas alian cerbon de ega grandeco. La momento ni agas per pozocio
   al tiu cerbo, ni malvenkos.<br>
   ―Reiko TAMURA, Parasyte -the maxim- (2014)
@@ -542,7 +542,7 @@ tra la jaroj.
   ―Andrew LAEDDIS, Shutter Island (2010)
 
 
-- La lumo kiu brulas duoble brila, brulas duone longe.<br>
+- La lumo kiu brulas duoble brila, brulas duone longa.<br>
   ―D-ro. Eldon TYRELL, Blade Runner (1982)
 
 
@@ -550,7 +550,7 @@ tra la jaroj.
   ―Nassim Nicholas Taleb
 
 
-- Enhavo estas reĝo.
+- La enhavo estas la reĝo.<br>
   ―Bill GATES
 
 
