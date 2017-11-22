@@ -10,9 +10,8 @@
 </div>
 
 <div class="text-x-small">
-<a rel="license" href="https://creativecommons.org/licenses/by/4.0/"><img alt="Krea Komunaĵo Permisilo" class="cc" src="/images/cc4-88x31.png" /></a><br>
-Ĉi tiu verko de <a xmlns:cc="https://creativecommons.org/ns#" href="https://ebzzry.io" property="cc:attributionName" rel="cc:attributionURL">Rommel Martinez</a> estas permesilita sub <br>
-<a rel="license" href="https://creativecommons.org/licenses/by/4.0/">Krea Komunaĵo Atribuado 4.0 Internacia Permesilo</a>
+<a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.eo"><img alt="Krea Komunaĵo Atribuite-Samkondiĉe 4.0 Tutmonda Permesilo" class="cc" src="/images/cc4-sa-88x31.png" /></a><br>
+Ĉi tiu verko estas permesilata sub <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.eo">KK PER-AS 4.0 Permesilo.</a><br>
 </div>
 
 </div>
