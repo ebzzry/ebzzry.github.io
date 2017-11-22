@@ -151,17 +151,17 @@ the years.
 - “There is no reason to assume that the universe has the slightest interest in intelligence—or even
   in both. Life may be random accidental by-products of its operations like the beautiful patterns
   on a butterfly’s wings. The insect would fly just as well without them.”<br>
-  ―Arthur C. Clarke, The Lost Worlds of 2001, 1972
+  ―Arthur C. Clarke
 
 
 - “The greatest tragedy in mankind’s entire history may be the hijacking of morality by
   religion.”<br>
-  ―Arthur C. Clarke, “Credo,” Greetings, Carbon-Based Bipeds!
+  ―Arthur C. Clarke
 
 
 - “The only way of finding the limits of the possible is by going beyond them into the
   impossible.”<br>
-  ―Arthur C. Clarke, The Lost Worlds of 2001, 1972
+  ―Arthur C. Clarke
 
 
 - “The secret to creativity is knowing how to hide your sources.”<br>

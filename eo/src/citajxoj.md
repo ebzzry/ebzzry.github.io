@@ -41,13 +41,13 @@ tra la jaroj.
   ―Alan KAY
 
 
-- La senscio pli ofte naskigas fidon ol scio faras: La tiuj, kiujn scias malmulte, ne tiuj, kiujn
+- La senscio pli ofte naskigas fidon ol scio faras: Tiuj, kiujn scias malmulte, ne tiuj, kiujn
   scias multe, kiuj pozitive certigas ke ĉi tio aŭ tio problemo estos neniam solvita per scienco.<br>
   ―Karlo DARVINO
 
 
 - Evitu la homojn kiuj provas etigi viajn aspirojn. Etaj homoj ĉiam faru tion, sed la vere egaj
-  farigos vin por senti ke vi ankaŭ, povas fariĝi bonega.<br>
+  farigos vin por senti ke ankaŭ vi, povas fariĝi bonega.<br>
   ―Mark TWAIN
 
 
@@ -56,11 +56,11 @@ tra la jaroj.
 
 
 - Ne tute estas grava por prave akiri tion en la unua fojo. Estas vitale grava por akiri tion en la
-  lasta tempo.<br.
+  lasta tempo.<br>
   ―Andrew HUNT kaj David THOMAS
 
 
-- Lernado ne estas necesa. Nek estas travivado.<br>
+- Lerni ne estas necesa. Nek estas travivi.<br>
   ―W. Edwards DEMING
 
 
@@ -72,8 +72,8 @@ tra la jaroj.
   ―E.M. FORSTER
 
 
-- Nur tial ke ne estis fariĝis, ne signifas ke ne povas farite. Nur tial ke ne povis farite
-  ne signifas ke devus.<br>
+- Nur tial ke ne estis fariĝis, ne signifas ke ne povas farite. Nur tial ke ne povis farite, ne
+  signifas ke devus farate.<br>
   ―Barry GLASFORD
 
 
@@ -126,7 +126,7 @@ tra la jaroj.
   ―Carl SAGAN
 
 
-- Kion mi ne kreas, mi ne komprenas.<br>
+- Kion mi ne povas krei, mi ne komprenas.<br>
   ―Richard P. FEYNMAN
 
 
@@ -136,7 +136,7 @@ tra la jaroj.
 
 - La intelekta nivelo bezonata por sistema desegno estas ĝenerale subtaksiĝata. Mi konvikiĝis pli ol
   iam ajn, ke ĉi tiu laboro estas tre malfacila kaj ĉiu peno por fari ĝin kun alia ol la plej bonaj
-  homoj estas kondamnata por aŭ malsukceso aŭ modera sukceso per grandeg kosto.<br>
+  homoj estas kondamnata por aŭ malsukceso aŭ modera sukceso per grandega kosto.<br>
   ―Edsger DIJKSTRA
 
 
@@ -151,14 +151,14 @@ tra la jaroj.
 
 
 - La plej granda tragedio en la tuta historio de homaro estas eble la kaperado de la moralecon per religio.<br>
-  ―Arthur C. CLARKE, “Credo,” Greetings, Carbon-Based Bipeds!
+  ―Arthur C. CLARKE
 
 
 - La nur maniero de trovante la limoj de la eblo estas per farante ekster ilin en la maleblan.<br>
-  ―Arthur C. CLARKE, The Lost Worlds of 2001, 1972
+  ―Arthur C. CLARKE
 
 
-- La sekreto de kreemo estas sciante kiel por kaŝi viajn fontojn.<br>
+- La sekreto de kreemo estas sciante kiel kaŝi viajn fontojn.<br>
   ―Alberto EJNŜTEJNO
 
 
