@@ -172,3 +172,9 @@ Entries are sorted in chronological order.
 
 - The more I err, the more I become right.<br>
 
+
+- What I do not understand, I rewrite.<br>
+
+
+- Whatever you do, never be afraid.<br>
+

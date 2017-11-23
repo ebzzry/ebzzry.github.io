@@ -167,3 +167,10 @@ Enskriboj estas ordigataj laŭ kronologia ordo.
 
 
 - Ju pli mi eraras, des pli mi pravas.<br>
+
+
+- Kion mi ne komprenas, mi reskribos.<br>
+
+
+- Kio ajn vi faros, neniam estu timema.<br>
+
