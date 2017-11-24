@@ -36,7 +36,7 @@ tra la jaroj.
   ―Pablo PIKASO
 
 
-- Ne prizorgu kion alia iu farigos. La plej bona maniero por antaŭdiri la estonton estas por enpensi
+- Ne maltrankviliĝu kion alia iu farigos. La plej bona maniero por antaŭdiri la estonton estas por enpensi
   tion.<br>
   ―Alan KAY
 
