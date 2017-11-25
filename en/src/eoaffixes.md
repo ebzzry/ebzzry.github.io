@@ -150,7 +150,7 @@ Here is a short listing of the different affixes that Esperanto uses.
 - **_-aspekt-_**: having the appearance of
   - **reĝaspekta**: kingly; **hundaspekta**: looking like a dog
 - **_-ĉj-_**: male affectionate suffix
-  - **paĉjo**: dad; **fraĉjo**: little brother; **roĉjo**: roberto (bob)
+  - **paĉjo**: dad; **fraĉjo**: bro; **roĉjo**: roberto (bob)
 - **_-ebl-_**: possibility, -able, -ible
   - **aŭdebla**: audible; **videbla**: visible
   - **portebla**: portable; **legebla**: legible
@@ -251,7 +251,7 @@ Here is a short listing of the different affixes that Esperanto uses.
   - **malvarmumo**: a cold; **manumo**: cuff
   - **krucumi**: to crucifiy; **plenumi**: to fulfill; **okulumi**: to ogle
 - **_-nj-_**: female affectionate suffix
-  - **panjo**: mom; **franjo**: little sister; **marĉjo**: maryjane (jane)
+  - **panjo**: mom; **franjo**: sis; **marĉjo**: maryjane (jane)
 - **_-oid-_**: like a, with the form of
   - **homoida**: humanoid; **ursoida**: ursoid
 - **_-oz-_**: full of, rich in
