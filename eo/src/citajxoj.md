@@ -28,21 +28,21 @@ tra la jaroj.
   ―Alberto EJNŜTEJNO
 
 
-- Vojo de mil mejloj komencas kun unuobla paŝo.<br>
+- Vojo de mil mejloj komencas per unuobla paŝo.<br>
   ―Laŭzio
 
 
-- Oni ne scias kion li faros. Oni komencas pentri pentraĵon kaj ĝi fariĝos io tute malsama.<br>
+- Oni ne scias kion li faros. Oni komencas pentri pentraĵon kaj ĝi fariĝos io tute nesama.<br>
   ―Pablo PIKASO
 
 
-- Ne maltrankviliĝu kion alia iu farigos. La plej bona maniero por antaŭdiri la estonton estas por enpensi
-  tion.<br>
+- Ne maltrankviliĝu pri kion alia iu farigos. La plej bona maniero por antaŭdiri la estonton estas
+  por enpensi tion.<br>
   ―Alan KAY
 
 
-- La senscio pli ofte naskigas fidon ol scio faras: Tiuj, kiun scias malmulte, ne tiuj, kiuj
-  scias multe, kiuj pozitive certigas ke ĉi tio aŭ tio problemo estos neniam solvita per scienco.<br>
+- La senscio pli ofte naskigas fidon ol scio faras: Tiuj, kiuj scias malmulte, ne tiuj, kiuj
+  scias multe, certigegas ke ĉi tio aŭ tio problemo estos neniam solvita per scienco.<br>
   ―Karlo DARVINO
 
 
