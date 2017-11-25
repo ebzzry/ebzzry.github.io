@@ -3,7 +3,7 @@ Citaĵoj
 
 <center>[Esperante](/eo/citajxoj)  [Angle](/en/quotes)</center>
 <center>15a de Novembro 2017</center>
-<center>Laste ŝanĝita: 22a de Novembro 2017</center>
+<center>Laste ŝanĝita: 25a de Novembro 2017</center>
 
 Ĉi tiu paĝo enhavas liston de atenteme elektitaj citaĵoj, aforismoj, kaj sentencoj kiujn mi kolektis
 tra la jaroj.
