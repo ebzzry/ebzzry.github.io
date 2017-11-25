@@ -72,8 +72,8 @@ tra la jaroj.
   ―E.M. FORSTER
 
 
-- Nur tial ke ne fariĝis, ne signifas ke ne povas farite. Nur tial ke ne povis farite, ne
-  signifas ke devus farate.<br>
+- Nur tial ke ne fariĝis, ne signifas, ke ne estas farebla. Nur tial ke estas farebla, ne
+  signifas, ke devus.<br>
   ―Barry GLASFORD
 
 
@@ -97,7 +97,7 @@ tra la jaroj.
   ―Samuel CLEMENS
 
 
-- Planante estas vivgrave, sed planoj estas senutilaj.<br>
+- Plani estas vivgrava, sed planoj estas senutilaj.<br>
   ―Dwight D. EISENHOWER
 
 
@@ -105,12 +105,12 @@ tra la jaroj.
   ―Ron GARRET
 
 
-- Ni ridas tion, kion ni ne povas toleri por alfronti.<br>
+- Ni ridas pri tio, kion ni ne povas toleri por alfronti.<br>
   ―Aristotelo
 
 
-- Kun aŭ sen religio, bonaj homoj povas bone konduti kaj malbonaj homoj povas fari malbone; tamen,
-  por ke bonaj homoj por fari malbone—tio bezonas religion.<br>
+- Kun aŭ sen religio, bonaj homoj povas bone konduti kaj malbonaj homoj povas malbone fari; tamen,
+  por ke bonaj homoj por malbone fari—tio bezonas religion.<br>
   ―Steven WEINBERG
 
 
@@ -154,7 +154,7 @@ tra la jaroj.
   ―Arthur C. CLARKE
 
 
-- La nur maniero de trovante la limoj de la eblo estas per farante ekster ilin en la maleblan.<br>
+- La nur maniero por trovi la limojn de la eblo estas per farante ekster ilin en la maleblan.<br>
   ―Arthur C. CLARKE
 
 
@@ -171,11 +171,11 @@ tra la jaroj.
   ―Tyler DURDEN, Fight Club
 
 
-- Se vi volas atingi grandecon, ĉesu demandante por konsento.<br>
+- Se vi volas atingi grandecon, ĉesu peti konsentojn.<br>
   ―Eddie COLLA
 
 
-- Zorgo estas kiel balancoŝego—ĝi donas al vi ion por fari, sed ĝi ne portas vin ie ajn.<br>
+- La zorgo estas kiel balancoŝego—ĝi donas al vi ion por fari, sed ĝi ne portas vin ie ajn.<br>
   ―Erma BOMBECK
 
 
@@ -195,11 +195,11 @@ tra la jaroj.
   ―Erik Christopher ZEEMAN
 
 
-- Oni ne povas fari rapide, kion oni ne povas fari kun rego.<br>
+- Oni ne povas rapide fari, kion oni ne povas fari kun rego.<br>
   ―Kino MACGREGOR
 
 
-- Ĉesu senti pardonon por vi mem kaj vi estos feliĉa.<br>
+- Ĉesu bedaŭri por vi mem kaj vi estos feliĉa.<br>
   ―Stephen FRY
 
 
@@ -211,7 +211,7 @@ tra la jaroj.
   ―Randy PAUSCH
 
 
-- Sperto estas kion oni akiras kiam oni ne akiris tiun, kiun oni volis akiri.<br>
+- La sperto estas kion oni akiras kiam oni ne akiris tiun, kiun oni volis akiri.<br>
   ―Randy PAUSCH
 
 
@@ -241,7 +241,7 @@ tra la jaroj.
   ―Jonathan Lockwood HUIE
 
 
-- Malfiero ne estas pensante malpli de vi mem, sed pensante de vi mem, malpli.<br>
+- La malfiero ne estas pensante malpli de vi mem, sed pensante de vi mem, malpli.<br>
   ―C.S. LEWIS
 
 
@@ -270,7 +270,7 @@ tra la jaroj.
   ―M. Kathleen CASEY
 
 
-  Ni devas esti pretaj por lasi la vivon ni planita por havi la vivon kiu atendas nin.<br>
+- Ni devas esti pretaj por lasi la vivon kiun ni planinta por havi la vivon kiu atendas nin.<br>
   ―Joseph CAMPBELL
 
 
@@ -278,7 +278,7 @@ tra la jaroj.
   ―Alex ELLE
 
 
-- Estas en viaj momentoj de decido kiam via fato estas formata.<br>
+- Estas en oniaj momentoj de decido kiam onia fato estas formata.<br>
   ―Anthony ROBBINS
 
 
@@ -303,7 +303,7 @@ tra la jaroj.
   ―Sennomo
 
 
-- Kion ni faris por niaj, mortas kun ni. Kion ni faris por iliaj, restas por ĉiam.<br>
+- Kion ni faras por ni, mortas kun ni. Kion ni faras por ili, restas por ĉiam.<br>
   ―Albert PIKE
 
 
@@ -327,7 +327,7 @@ tra la jaroj.
   ―Vince LOMBARDI
 
 
-- Kiam unu pordo fermiĝas, alia pordo malfermiĝs; sed ni tiel ofte vidi tre longe kaj tiel bedaŭre, sur
+- Kiam unu pordo fermiĝas, alia pordo malfermiĝas; sed ni tiel ofte vidi tre longe kaj tiel bedaŭre, je
   la fermita pordo, do ni ne vidas la aliajn kiuj malfermiĝs por ni.<br>
   ―Alexander Graham BELL
 
@@ -336,27 +336,27 @@ tra la jaroj.
   ―Windows CHURCHILL
 
 
-- Estas pli bone esti sola anstataŭ enstante kun iu, kiu faras vin senti, ke vi estas sola.<br>
+- Estas pli bone esti sola anstataŭ estante kun iu, kiu faras vin senti, ke vi estas sola.<br>
   ―Ivan JUNIUS
 
 
-- Via povo por atingi ion dependegas sur kiom vi kredas vi povas atingi ion.<br>
-  ―Sennomo
+- Via povo por atingi ion dependegas per kiom vi kredas vi povas atingi ion.<br>
+  ―Sennoma
 
 
-- La popoloj kiuj riskas estas ofte la tiuj, kiuj finiĝas esti la plej feliĉaj.<br>
-  ―Sennomo
+- La popoloj kiuj riskas, estas ofte la tiuj, kiuj finiĝas esti la plej feliĉaj.<br>
+  ―Sennoma
 
 
 - Se vi faras tion, kion vi ĉiom faras; vi akiros tion, kion vi ĉiam akiras.<br>
   ―Anthony ROBBINS
 
 
-- Se vi volas tion, kion vi neniam havis, vi devas servopreta por fari ion vi neniam faris.<br>
+- Se vi volas ion, kion vi neniam havis, vi devas esti servopreta por fari ion, kiun vi neniam faris.<br>
   ―Thomas JEFFERSON
 
 
-- Le plej bona maniero por trovi se vi povas kredi iun, estas kredi ilin.<br>
+- Le plej bona maniero por trovi se oni povas kredi iun, estas kredi ilin.<br>
   ―Ernest HEMMINGWAY
 
 
@@ -364,7 +364,7 @@ tra la jaroj.
   ―Charles KETTERING
 
 
-- Katpu fiŝon unufoje. Se ĝi eskapas, estas pli malfacila por kapti ĝin la duan fojon.<br>
+- Katpu fiŝon unufoje. Se ĝi eskapas, estas pli malfacile por kapti ĝin la duan fojon.<br>
   ―Will GRAHAM, Hannibal (televida programo)
 
 
@@ -372,7 +372,7 @@ tra la jaroj.
   ―Hannibal LECTER, Hannibal (televida programo)
 
 
-- Nenio farigas nin pli vundebla ol la malfeliĉo, krom la kaptemo.<br>
+- Nenio farigas onin pli vundebla ol la malfeliĉo, krom la kaptemo.<br>
   ―Bedelia DU MAURIER, Hannibal (televida programo)
 
 
@@ -389,7 +389,7 @@ tra la jaroj.
   ―Diana NYAD
 
 
-- Ili kiuj estus rezigni vivgravan libereco, por aĉeti malmultan nedaŭran sekurecon, meritas nek
+- Ili kiuj estus rezigni vivgravan liberecon, por aĉeti malmultan nedaŭran sekurecon, meritas nek
   liberecon nek sekurecon.<br>
   ―Benjameno FRANKLENO
 
@@ -427,7 +427,7 @@ tra la jaroj.
   ―Konfuceo
 
 
-- Vi povas eltrovi kion viaj malamikoj plej timas per rimarkas la manierojn kiuj li uzas timi vin.<br>
+- Vi povas eltrovi kion plej timas viajn malamikojn, per rimarkas la manierojn kiuj li uzas timi vin.<br>
   ―Eric HOFFER
 
 
@@ -444,12 +444,12 @@ tra la jaroj.
   ―Ergo Proxy, Ergo Proxy
 
 
-- En miaj senesperaj provoj por iĝi civitanulo, mi daŭre ĉesas mi men kaj provis esti la persono mi
+- En miaj senesperaj provoj por civitanuliĝi, mi daŭre ĉesas mi kaj provis esti la persono mi
   pensis ili volis.<br>
   ―Vincent LAW, Ergo Proxy
 
 
-- Admirado estas feliĉa memrezigno; envio estas malfeliĉa memaserto.<br>
+- La admirado estas feliĉa memrezigno; la envio estas malfeliĉa memaserto.<br>
   ―Søren KIERKEGAARD
 
 
@@ -466,7 +466,7 @@ tra la jaroj.
   ―SUN Tzu
 
 
-- La viro kiu diras ke tio ne povas farata estas ĝenerale interrompata per iu faranta tion.<br>
+- La viro kiu diras ke tio ne povas farata estas ĝenerale interrompata per iu, kiu faras tion.<br>
   ―Elbert HUBBARD
 
 
@@ -490,7 +490,7 @@ tra la jaroj.
   ―Neil deGrasse TYSON
 
 
-- Por ni, estas pli bone por kapti la kosmon kiel ĝi vere estas ol por daŭri en ensorĉo, kiom ajn
+- Por mi, estas pli bone por kapti la kosmon kiel ĝi vere estas ol por daŭri en ensorĉo, kiom ajn
   kontentigema kaj trankviligema.<br>
   ―Carl SAGAN
 
@@ -503,7 +503,7 @@ tra la jaroj.
   ―Hugh Derry, Life (2017)
 
 
-- Malsukceso nur estas la okazaĵo por denove komenci pli inteligente. Jen ne hontigo en honesta
+- La malsukceso nur estas la okazaĵo por denove komenci pli inteligente. Jen ne hontigo en honesta
   malsukceso; jen hontigo en timante por malsukcesi.<br>
   ―Henry FORD
 
@@ -531,9 +531,9 @@ tra la jaroj.
   ―Migi, Parasyte -the maxim- (2014)
 
 
-- Vi ĉiuj subtaksas homojn. Unuope, ili aspektas malfortaj, sed tio ne estas la afero. Kion ni
+- Vi ĉiuj subtaksas homojn. Unuope, ili aspektas malfortaj, sed tio ne estas la efektivaĵo. Kion ni
   bezonas rekoni, estas ke homoj estas sola vivaĵo konsistata de milionoj de unuopaj. Krome
-  iliaj unuopaj cerboj, homoj apartas alian cerbon de ega grandeco. La momento ni agas per pozocio
+  iliaj unuopaj cerboj, homoj apartas alian cerbon de ega grandeco. La momento ni agas per opozicio
   al tiu cerbo, ni malvenkos.<br>
   ―Reiko TAMURA, Parasyte -the maxim- (2014)
 
@@ -562,5 +562,5 @@ tra la jaroj.
   ―Tamina, Prince of Persia: The Sands of Time
 
 
-- Ŝanĝo de perspektivo meritas 80 poentoj de inteligentecaj kvocientoj.<br>
+- Ŝanĝo de perspektivo meritas 80 poentojn de inteligentecaj kvocientoj.<br>
   ―Alan KAY
