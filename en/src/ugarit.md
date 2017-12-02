@@ -4,7 +4,7 @@ Creating Backups with Ugarit
 <div class="center">February 21, 2014</div>
 <div class="center">Updated: March 31, 2017</div>
 
->“Good judgement comes from experience, and experience comes from bad judgement.”<br>
+>Good judgement comes from experience, and experience comes from bad judgement.<br>
 >―Fred Brooks
 
 How many times have you experienced hindsight, after a catastrophic event has happened? How many

@@ -4,8 +4,8 @@ Squandered Relentlessness
 <div class="center">May 9, 2013</div>
 <div class="center">Updated: April 1, 2017</div>
 
->“The first step towards getting somewhere is to decide that you are not going to stay where you
->are.”<br>
+>The first step towards getting somewhere is to decide that you are not going to stay where you
+>are.<br>
 >―J.P. Morgan
 
 There is a disturbing and eerie sensation that I feel whenever the damping realization that I am no

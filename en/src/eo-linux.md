@@ -4,8 +4,8 @@ Esperanto Characters in Linux
 <div class="center">April 18, 2016</div>
 <div class="center">Updated: March 31, 2017</div>
 
->“If you want something you’ve never had, you must be willing to do something you’ve never
->done.”<br>
+>If you want something you’ve never had, you must be willing to do something you’ve never
+>done.<br>
 >―Thomas Jefferson
 
 Prior to the invention of the methods discussed in this post, the way to input Esperanto characters
