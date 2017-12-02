@@ -19,6 +19,6 @@ Pensoj de Pedanta Pirato
 ```
 
 <div class="text-right">Retejo pri komputado, homaj inklinoj, kaj harazadaj umoj.</div>
-<div class="text-right">Enskriboj estas ordigitaj laŭ inversa kronologia ordo.</div>
+<div class="text-right">Enskriboj estas ordigataj laŭ inversa kronologia ordo.</div>
 
 - [La Ipsilona Kombinatoro En Ses Paŝoj](ipsilono)
