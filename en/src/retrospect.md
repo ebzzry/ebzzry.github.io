@@ -4,7 +4,7 @@ In Retrospect
 <div class="center">July 11, 2013</div>
 <div class="center">Updated: April 1, 2017</div>
 
->“From life’s school of war: what does not kill me makes me stronger.”<br>
+>From life’s school of war: what does not kill me makes me stronger.<br>
 >―Friedrich Nietzsche
 
 I haven’t fully appreciated what those words meant, prior to now. I have learned that aside from
