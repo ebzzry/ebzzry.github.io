@@ -4,7 +4,7 @@ How I Roll with Tmux
 <div class="center">October 18, 2017</div>
 <div class="center">Updated: October 19, 2017</div>
 
->“Furious activity is no substitute for understanding.”<br>
+>Furious activity is no substitute for understanding.<br>
 >―H.H. Williams
 
 Just like with a text editor, a terminal multiplexer is one of the few tools that yields a lot of

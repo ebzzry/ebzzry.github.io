@@ -4,7 +4,7 @@ Setting Up Directory Management in Emacs
 <div class="center">September 26, 2013</div>
 <div class="center">Updated: March 31, 2017</div>
 
->“Supposing is good, but finding out is better.”<br>
+>Supposing is good, but finding out is better.<br>
 >―Samuel Clemens
 
 In this post, I’ll be focusing on one of the novel ways Emacs handles management. The directory

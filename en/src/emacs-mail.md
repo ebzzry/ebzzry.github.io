@@ -4,8 +4,8 @@ Setting Up Mail in Emacs
 <div class="center">February 2, 2014</div>
 <div class="center">Updated: March 31, 2017</div>
 
->“Just because it isn’t done doesn’t mean it can’t be done. Just because it can be done doesn’t mean
->it should be.”<br>
+>Just because it isn’t done doesn’t mean it can’t be done. Just because it can be done doesn’t mean
+>it should be.<br>
 >―Barry Glasford
 
 In this day and age, checking your mail means going to the website of your mail provider, or using a

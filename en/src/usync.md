@@ -4,7 +4,7 @@ Synchronizing Sites with Usync
 <div class="center">May 21, 2013</div>
 <div class="center">Updated: March 31, 2017</div>
 
->“What I cannot create, I do not understand.”<br>
+>What I cannot create, I do not understand.<br>
 >―Richard P. Feynman
 
 Site-to-site synchronizations are usually needed, when two locations, which are called sites, in

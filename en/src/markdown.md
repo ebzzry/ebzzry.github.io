@@ -4,7 +4,7 @@ My Markdown Style Guide
 <center>April 3, 2017</center>
 <center>Updated: October 21, 2017</center>
 
->“The laws that govern circumstances are abolished by new circumstances.”<br>
+>The laws that govern circumstances are abolished by new circumstances.<br>
 >―Napoleon Bonaparte
 
 I like writing in Markdown—it’s readable, lightweight, and portable. It’s plain text so you don’t

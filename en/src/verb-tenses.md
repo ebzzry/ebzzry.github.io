@@ -4,7 +4,7 @@ Verb Tenses in English
 <div class="center">April 6, 2016</div>
 <div class="center">Updated: March 31, 2017</div>
 
->“The difference between ordinary and extraordinary is that little extra.”<br>
+>The difference between ordinary and extraordinary is that little extra.<br>
 >―Jimmy Johnson
 
 *Click [here](/en/verb-tenses-condensed) for the condensed version.*

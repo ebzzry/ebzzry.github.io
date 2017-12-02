@@ -4,7 +4,7 @@ Migrating from LiveJournal to Frog
 <div class="center">May 29, 2013</div>
 <div class="center">Updated: October 19, 2017</div>
 
->“I don’t know where I’m going, but I’m on my way.”<br>
+>I don’t know where I’m going, but I’m on my way.<br>
 >―Carl Sagan
 
 There are times when you want more control over your content. There are also times when you don’t

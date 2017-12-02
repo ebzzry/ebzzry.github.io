@@ -4,8 +4,8 @@ A Gentle Introduction to the Nix Family
 <div class="center">March 22, 2017</div>
 <div class="center">Updated: April 6, 2017</div>
 
->“Don’t worry about what anybody else is going to do. The best way to predict the future is to
->invent it.”<br>
+>Don’t worry about what anybody else is going to do. The best way to predict the future is to
+>invent it.<br>
 >―Alan Kay
 
 Ideas that change the way we do computing come rarely. A lot of the technology that we are using now

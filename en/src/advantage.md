@@ -4,7 +4,7 @@ My Kinesis Advantage Layout
 <div class="center">October 26, 2015</div>
 <div class="center">Updated: April 3, 2017</div>
 
->“Pain is inevitable. Suffering is optional.”<br>
+>Pain is inevitable. Suffering is optional.<br>
 >―M. Kathleen Casey
 
 <img src="/images/advantage.jpg" style="display: block; width: 100%; margin-left: auto;

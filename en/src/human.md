@@ -4,7 +4,7 @@ How to Communicate Like a Human
 <div class="center">February 28, 2017</div>
 <div class="center">Updated: March 5, 2017</div>
 
->“The ability to speak does not make you intelligent.”<br>
+>The ability to speak does not make you intelligent.<br>
 >―Qui-Gon Jinn
 
 We take communication for granted. Just because you can speak does not mean that you can

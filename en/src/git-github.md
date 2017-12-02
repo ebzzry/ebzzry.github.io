@@ -4,7 +4,7 @@ A Brief Git and GitHub Tour
 <div class="center">August 29, 2015</div>
 <div class="center">Updated: March 31, 2017</div>
 
->“Know how to solve every problem that has been solved.”<br>
+>Know how to solve every problem that has been solved.<br>
 >―Richard P. Feynman
 
 This short tutorial shows how to use [git](https://git-scm.com/) with a [GitHub](https://github.com)

@@ -4,7 +4,7 @@ Zsh Tips 1: Aliases and Functions
 <div class="center">October 18, 2017</div>
 <div class="center">Updated: November 9, 2017</div>
 
->“A common man marvels at uncommon things; a wise man marvels at the commonplace.”<br>
+>A common man marvels at uncommon things; a wise man marvels at the commonplace.<br>
 >―Confucius
 
 One of the joys of working exclusively on the terminal is makes it so easy to work with commands,

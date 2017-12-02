@@ -4,7 +4,7 @@ Blogging with Frog
 <div class="center">February 19, 2014</div>
 <div class="center">Updated: March 31, 2017</div>
 
->“One person with passion is better than forty people merely interested.”<br>
+>One person with passion is better than forty people merely interested.<br>
 >―E.M. Forster
 
 When publishing blog content to the web, most would rely on pre-fabricated services, that do most of

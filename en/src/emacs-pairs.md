@@ -4,8 +4,8 @@ Emacs and Pairs
 <div class="center">August 15, 2015</div>
 <div class="center">Updated: March 31, 2017</div>
 
->“The white noise that beats within the white darkness is the rhythm of life; it is that pulse which
->never truly left the stage.”<br>
+>The white noise that beats within the white darkness is the rhythm of life; it is that pulse which
+>never truly left the stage.<br>
 >―Ergo Proxy, Ergo Proxy
 
 In this article, I’ll exclusively talk about _smartparens_—a package that you wish you should have
