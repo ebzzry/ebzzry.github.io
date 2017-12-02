@@ -4,7 +4,7 @@ Zsh Tips 4: General Helpers
 <div class="center">October 30, 2017</div>
 <div class="center">Updated: November 9, 2017</div>
 
->“A change in perspective is worth 80 IQ points.”<br>
+>A change in perspective is worth 80 IQ points.<br>
 >―Alan Kay
 
 Last time, I talked about helper functions to assist in managing chroot environments. In this
