@@ -4,7 +4,7 @@ Setting Up Racket Development in Emacs
 <div class="center">September 29, 2013</div>
 <div class="center">Updated: October 12, 2017</div>
 
->“All the good ideas never lie under one hat.”<br>
+>All the good ideas never lie under one hat.<br>
 >―Dale Turner
 
 In this article, I’ll discuss the easiest approach that I took to setup up

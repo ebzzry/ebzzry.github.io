@@ -1,10 +1,11 @@
 The Y Combinator in Six Steps
 =============================
 
+<center>[Esperanto](/eo/ipsilono)  [English](/en/y)</center>
 <div class="center">May 9, 2013</div>
-<div class="center">Updated: March 31, 2017</div>
+<div class="center">Updated: December 1, 2017</div>
 
->“First, decide. And then do it. It’s the only way to achieve anything.”<br>
+>First, decide. And then do it. It’s the only way to achieve anything.<br>
 >―Lacus Clyne, Gundam SEED Destiny
 
 A lot of us have been taught that to be able to define a recursive procedure, the recursive
@@ -55,7 +56,7 @@ part of the condition.
 5050
 ```
 
-You have have observed that I have defined `foo` using an explicit `lambda`. You’ll see shortly,
+You have observed that I have defined `foo` using an explicit `lambda`. You’ll see shortly,
 why.
 
 
@@ -105,7 +106,7 @@ identifier.
 ```
 
 Take note, that at this point, you’re no longer using the `foo` name,
-to refer the the definition, except for later.
+to refer the definition, except for later.
 
 
 <a name="abstractinner"></a> Step 4: Abstract inner recursive call

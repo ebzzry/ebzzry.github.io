@@ -21,7 +21,7 @@ Musings of a Pedantic Pirate
 <div class="text-right">A journal about computing, human predilections, and random krakaboom.</div>
 <div class="text-right">Entries are sorted in reverse chronological order.</div>
 
-- [Esperanto Affixes](eoaffixes)
+- [Esperanto Affixes](eo-affixes)
 - [Zsh Tips 4: General Helpers](zsh-tips-4)
 - [Zsh Tips 3: Chroot Helpers](zsh-tips-3)
 - [How I Roll with Tmux](tmux)
@@ -35,7 +35,7 @@ Musings of a Pedantic Pirate
 - [Division in Haskell](division)
 - [How to Communicate Like a Human](human)
 - [A Fallacies Primer](fallacies)
-- [Esperanto Characters in Linux](eolinux)
+- [Esperanto Characters in Linux](eo-linux)
 - [Symbols and Marks (Condensed)](symbols-marks-condensed)
 - [Symbols and Marks](symbols-marks)
 - [Verb Tenses in English (Condensed)](verb-tenses-condensed)

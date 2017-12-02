@@ -4,7 +4,7 @@ Conkeror Bookmarks with emem
 <div class="center">August 16, 2015</div>
 <div class="center">Updated: March 31, 2017</div>
 
->“Diplomacy is the art of saying ‘Nice doggie’ until you can find a rock.”<br>
+>Diplomacy is the art of saying ‘Nice doggie’ until you can find a rock.<br>
 >―Will Rogers
 
 I wanted a simple, and easy way to view my bookmarks in [Conkeror](http://conkeror.org). However,

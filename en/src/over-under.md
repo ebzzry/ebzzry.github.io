@@ -4,7 +4,7 @@ Over, Under, and Elsewhere
 <div class="center">May 9, 2013</div>
 <div class="center">Updated: March 30, 2017</div>
 
->“The only limits you have are the limits you believe.”<br>
+>The only limits you have are the limits you believe.<br>
 >―Wayne Dyer
 
 Our cunning ability for oversight is deridingly high. Whether it may be solving a problem or just
