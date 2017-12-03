@@ -229,7 +229,7 @@ tra la jaroj.
   ―Spock
 
 
-- La solaj limoj kiujn vi havas, estas la limoj kiuj vi kredas.<br>
+- La solaj limoj kiujn oni havas, estas la limoj kiujn oni kredas.<br>
   ―Wayne DYER
 
 
