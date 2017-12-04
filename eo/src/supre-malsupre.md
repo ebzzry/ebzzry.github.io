@@ -8,7 +8,7 @@ Supre, Malsupre, kaj Aliloke
 >La nuraj limoj kiujn oni havas, estas la limoj kiujn oni kredas.<br>
 >―Wayne DYER
 
-Nia ruza kapablo por preterlaso estas ridinde alta, ĉu solvi problemon aŭ simple provas esti
+Nia ruza kapablo pri preterlaso estas ridinde alta, ĉu solvi problemon aŭ simple provas esti
 krea. Niaj impetoj por troe realigi estas malkutime rega se niaj komencaj atendoj ne satiĝis. Ni
 tiras niajn konsciojn al longaĵoj preskaŭ nesondeble ĉar ni pensas, ke se ni enverŝi multa da
 pensaĵo, la elveno estas pozitive kaj proporcie alta laŭ niaj konvinkoj.
@@ -17,17 +17,18 @@ Ni plendas pri niaj mankoj de iloj. Ni plendas pri niaj mankoj de rimedoj. Jam, 
 kaj alportiĝas al ŝoka nekredemo kiam iu faras ĝin kun multe malpli ol niaj manoj havas. Ni
 elrevigas la probablon ke kiun ni trovas, estas ja sur nia orelo. Nia kapablo por eksigi idealajn
 opciojn kiu staras antaŭ ni, estas ŝoke. Kial ni bezonas fosi subteran subtervojon por enigi, kiam
-ĉio kiu ni bezonas estas frapi ĉe la pordo?
+ĉio kiu ni bezonas, estas frapi ĉe la pordo?
 
-Estas tre kornaŭza ke ni nepravigeble pozicias niajn mem por neproteste akcepti vortojn, nur tial ke
-ni estis dirita por asimiligi ilin. Ni kredas ilin kiel veroj sen fari la plej iometa avancon por
-asukeri, ke kion vi ĵus aŭdis seneraras. Ankaŭ estas maltrankviliga, ke por la multaj, se ne
-plejparto, ili ja kredas tion, kion ili estis dirata, kiel estas, anstataŭ esti kritikata por alti
-iliajn manojn por demandi pri la eble dubemaj pretendoj. Kiam ni diras jes, sen doni la plej iometan
-kioman de penso, ni efektive kovris niajn mem kun kuseno kiel nubo, kiu, dum faras ĉion tuj apuda el
-via ĉiela haŭto, ni malatentas ĉasi la intelektan sekurecon kaj ni donas al ni mem-aprobitaj paraŝutoj.
+Estas tre kornaŭze ke ni nepravigeble pozicias niajn mem por neproteste akcepti vortojn, nur tial ke
+ni estis dirita por asimiligi ilin. Ni kredas ilin kiel veroj sen fari la plej minimuman progreson
+supozi, ke tio, kion vi ĵus aŭdis, estas senerara. Ankaŭ estas maltrankviliga, ke por la multaj, se
+ne plejparto, ili ja kredas tion, kion ili estis dirata, kiel estas, anstataŭ esti kritikata per
+alti iliajn manojn por demandi pri la eble dubemaj pretendoj. Kiam ni diras jes, sen doni la plej
+iometan kioman de penso, ni efektive kovris niajn mem per kuseno kiel nubo, kiu, dum faras ĉion tuj
+apuda el via ĉiela haŭto, ni malatentas ĉasi la intelektan sekurecon kaj ni donas al ni
+mem-aprobitaj paraŝutoj.
 
-Sur pli alta tono, mi ankaŭ trovas, ke multe da homoj radikale pozicias ili mem al senlimaj
+Sur pli alta tono, mi ankaŭ trovas, ke multe da homoj radikale pozicias sin mem al senlimaj
 pozicioj. Ni estas tre ama por elpensi kaj nomizi etikedojn inter ni mem. Ni pensas, ke per movi
 niajn al bunkroj de pensoj, ne konstruas supozojn, kiu, tial ke la sekureco kiun nia bunkro
 disponigas, ni superis. El niaj desoksiribonukleaj acidoj, kiu provizas nin kun la informo kiu
