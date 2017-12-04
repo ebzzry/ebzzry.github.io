@@ -17,6 +17,7 @@ all:
           --og-url "https://ebzzry.io/eo/" \
           --og-image $(OG_IMAGE) \
           --analytics $(ANALYTICS) \
+          --lang "eo" \
           -RFiamuo index.html \
           src/index.md src/pagxopiedo.md
 
@@ -27,6 +28,7 @@ all:
           --og-url "https://ebzzry.io/eo/$$(basename $< .md)/" \
           --og-image $(OG_IMAGE) \
           --analytics $(ANALYTICS) \
+          --lang "eo" \
           -RFiamuo "$$(basename $< .md)/index.html" \
           $< src/pagxopiedo.md
 
