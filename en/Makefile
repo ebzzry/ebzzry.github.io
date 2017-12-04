@@ -17,6 +17,7 @@ all:
           --og-url "https://ebzzry.io/en/" \
           --og-image $(OG_IMAGE) \
           --analytics $(ANALYTICS) \
+          --lang "en" \
           -RFiamuo index.html \
           src/index.md src/footer.md
 
@@ -27,6 +28,7 @@ all:
           --og-url "https://ebzzry.io/en/$$(basename $< .md)/" \
           --og-image $(OG_IMAGE) \
           --analytics $(ANALYTICS) \
+          --lang "en" \
           -RFiamuo "$$(basename $< .md)/index.html" \
           $< src/footer.md
 
