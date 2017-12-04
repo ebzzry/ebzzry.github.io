@@ -5,7 +5,7 @@ Supre, Malsupre, kaj Aliloke
 <center>2a de Decembro 2017</center>
 <center>Laste ŝanĝita: 3a de Decembro 2017</center>
 
->La solaj limoj kiujn oni havas, estas la limoj kiujn oni kredas.<br>
+>La nuraj limoj kiujn oni havas, estas la limoj kiujn oni kredas.<br>
 >―Wayne DYER
 
 Nia ruza kapablo por preterlaso estas ridinde alta, ĉu solvi problemon aŭ simple provas esti
