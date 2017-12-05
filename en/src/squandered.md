@@ -9,8 +9,8 @@ Squandered Relentlessness
 >―J.P. Morgan
 
 There is a disturbing and eerie sensation that I feel whenever the damping realization that I am no
-longer a young child, is observed in my consciousness. The uneasy struggle between learning to let
-go of my portentous past and my capricious future, grips me, with heavy clench.
+longer a young child. The uneasy struggle between learning to let go of my portentous past and my
+capricious future, grips me, with heavy clench.
 
 It is not about the inability to redo gratuitous expenditure of somewhat liberally-provided lax
 confinements of time, but it is about the unsettling observation that the mindset I previously took
