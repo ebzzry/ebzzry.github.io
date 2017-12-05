@@ -254,8 +254,12 @@ tra la jaroj.
   ―Stacey CHARTER
 
 
-- La vivo estas kiel rajdante biciklon—pluigi vian egalpezon, vi devas daŭri por movi.<br>
+- La unua paŝo al iri ien, estas decidi, ke vi ne restos kie vi estas.<br>
   ―J.P. MORGAN
+
+
+- La vivo estas kiel rajdante biciklon—pluigi vian egalpezon, vi devas daŭri por movi.<br>
+  ―Alberto EJNŜTEJNO
 
 
 - Oni neniam povas transiri la oceanon, krom se oni havas la kuraĝon por perdi la vidon de la marbordo.<br>
