@@ -19,7 +19,7 @@ elrevigas la probablon ke kiun ni trovas, estas ja sur nia orelo. Nia kapablo po
 opciojn kiu staras antaŭ ni, estas ŝoke. Kial ni bezonas fosi subteran subtervojon por enigi, kiam
 ĉio kiu ni bezonas, estas frapi ĉe la pordo?
 
-Estas tre kornaŭze ke ni nepravigeble pozicias niajn mem por neproteste akcepti konceptojn, nur tial
+Estas tre zorgige ke ni nepravigeble pozicias niajn mem por neproteste akcepti konceptojn, nur tial
 ke ni estis dirita por asimiligi ilin. Ni kredas ilin kiel veroj sen fari la plej minimuman
 progreson supozi, ke tio, kion vi ĵus aŭdis, estas senerara. Ankaŭ estas maltrankviliga, ke por la
 multaj, se ne plejparto, ili ja kredas tion, kion ili estis dirata, kiel estas, anstataŭ esti
