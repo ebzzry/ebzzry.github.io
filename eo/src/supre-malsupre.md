@@ -3,7 +3,7 @@ Supre, Malsupre, kaj Aliloke
 
 <center>[Esperante](#)  [Angle](/en/over-under)</center>
 <center>2a de Decembro 2017</center>
-<center>Laste ŝanĝita: 3a de Decembro 2017</center>
+<center>Laste ŝanĝita: 6a de Decembro 2017</center>
 
 >La nuraj limoj kiujn oni havas, estas la limoj kiujn oni kredas.<br>
 >―Wayne DYER
@@ -29,28 +29,28 @@ faras ĉion tuj apuda el via ĉiela haŭto, ni malatentas ĉasi la intelektan se
 ni mem-aprobitajn paraŝutojn.
 
 Sur pli alta tono, mi ankaŭ trovas, ke multe da homoj radikale pozicias sin mem al senlimaj
-pozicioj. Ni estas tre ama por elpensi kaj nomizi etikedojn inter ni mem. Ni pensas, ke per movi
-niajn al bunkroj de pensoj, ni konstruas supozojn, kiu, tial ke la sekureco kiun nia bunkro
-disponigas, ni superis. El niaj desoksiribonukleaj acidoj, kiu provizas nin kun la informo kiu
-enhavas la kodon de kio faras nin por funkcii, ni devias niajn cerbojn por deponi jam pli da
+pozicioj. Ni estas tre ama por elpensi kaj nomizi etikedojn inter ni mem. Ni pensas, ke per movi nin
+mem al bunkroj de pensoj, ni konstruas supozojn, kiu, tial ke la sekureco kiun nia bunkro
+disponigas, ni superis. El niaj desoksiribonuklea acido, kiu provizas nin kun la informo kiu enhavas
+la kodon de tio, kio faras nin por funkcii; ni devias al niaj cerboj por deponi jam pli da
 informo. Ĉi tiuj diversaj lokoj de informo kiu estas alta en larĝeco, kiu nia humila kodo ne longe
 eĉ komenci por enhavi.
 
-Bedaŭrinde, kion ni hevas en niaj individuaj cerboj ne estas sufiĉa por loĝigi niajn ĉiam
+Bedaŭrinde, ni havas tion, kio en niaj individuaj cerboj ne estas sufiĉa por loĝigi niajn ĉiam
 kreskantajn dormon de scio. Ni bezonis trovi manieron por registri ilin ekster niaj korpoj,
 konservata ie, en kiu ektrakti la datumon estas unu el la plej kritikaj operacioj—ni skribis kaj
 kreis la enskribojn. Ni komencis skribi sur ŝtonoj, muroj, kaj iu ajn ke estus espereble daŭras
 enhavi kion ĝi devas, tra generacioj de legantoj. Ni ja konstruis kolosajn librejojn, kun gigantaj
-aroj de libroj. Kun ĝi, ni konservis vastegan kvanton de rekordoj, preterprezega kion ĉiom da cerboj
-de homoj povas enhavi. Tiam, la librejoj iĝis komputilaj datumbazoj. Ni faras jam alian paŝon en
-krei turajn dormojn de kion niaj prauloj sciis, kaj kion ni scias hodiaŭ en la nuna mondo. Tamen
-ambaŭ per intrigo kaj perturbo, ni vidas ke ne eĉ niaj plej modernaj teĥnikoj estas kapabla por
-zorge registri, kun antaŭvidebleco, niaj koordinatoj en spaco kaj tempo, en la estinteco, estanteco,
-kaj estonteco. Ni estas en tempo, en kiu, kun alta certaĵo, diras ĉu glaso de trinkado havas ion ene
-aŭ ne.
+aroj de libroj. Per tio, ni konservis vastegan kvanton de rekordoj, kiu estas preterprezega kion
+ĉiom da cerboj de homoj povas enhavi. Tiam, la librejoj iĝis komputilaj datumbazoj. Ni faras jam
+alian paŝon en krei turajn dormojn de kion niaj prauloj sciis, kaj kion ni scias hodiaŭ en la nuna
+mondo. Tamen ambaŭ per intrigo kaj perturbo, ni vidas ke ne eĉ niaj plej modernaj teĥnikoj estas
+kapabla por zorge registri, kun antaŭvidebleco, niaj koordinatoj en spaco kaj tempo, en la
+estinteco, estanteco, kaj estonteco. Ni estas en tempo, en kiu, kun alta certaĵo, diras ĉu glaso de
+trinkado havas ion ene aŭ ne.
 
-Iuj da ni daŭri en iluzioj ke pretendas scii tion, kion ili neniam hazardis, aŭ almenaŭ,
-rimarkas. Estas tre senkuraĝige ke anstataŭ fari paŝon malantaŭen kaj fiksrigardi al la ĉielo por
+Iuj da ni daŭri en iluzioj ke pretendas scii tion, kion ili neniam hazardis, aŭ almenaŭ
+rimarkis. Estas tre senkuraĝige ke anstataŭ fari paŝon malantaŭen kaj fiksrigardi al la ĉielo por
 momento, homoj anstataŭ enakviĝas ili mem en mirlando. Ĉi tiu ebriiga kutimo, malbonfaras ne
 unuopulon, sed la tutan homaron. Kiam iu diras al vi ke respondoj al siaj demandoj povas esti
 ekzluzive respondata ĉiam per jes aŭ ne, forlasi lin kaj li ne plu meritas vian atenton denove. Se
