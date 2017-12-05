@@ -1,7 +1,7 @@
 Pri
 ===
 
-<center>[Esperante](/eo/pri)  [Angle](/en/about)</center>
+<center>[Esperante](#)  [Angle](/en/about)</center>
 <center>27a de Aprilo, 2017</center>
 <center>Laste ŝanĝita: 16a de Novembro, 2017</center>
 

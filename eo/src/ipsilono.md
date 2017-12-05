@@ -1,7 +1,7 @@
 La Ipsilona Kombinatoro En Ses Paŝoj
 ====================================
 
-<center>[Esperante](/eo/ipsilono)  [Angle](/en/y)</center>
+<center>[Esperante](#)  [Angle](/en/y)</center>
 <center>25a de Novembro 2017</center>
 <center>Laste ŝanĝita: 1a de Decembro 2017</center>
 

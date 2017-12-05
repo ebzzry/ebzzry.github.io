@@ -1,7 +1,7 @@
 About
 =====
 
-<center>[Esperanto](/eo/pri)  [English](/en/about)</center>
+<center>[Esperanto](/eo/pri)  [English](#)</center>
 <center>March 27, 2017</center>
 <center>Updated: November 16, 2017</center>
 
