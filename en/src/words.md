@@ -178,3 +178,5 @@ Entries are sorted in chronological order.
 
 - Whatever you do, never be afraid.<br>
 
+
+- Tell me what are your temptations and I will tell you what you are.<br>

@@ -577,3 +577,7 @@ the years.
 
 - A change in perspective is worth 80 IQ points.<br>
   ―Alan Kay
+
+
+- For me it’s not a question of whether we will become an interstellar species, but only a question of when.<br>
+  ―Stephen Hawking
