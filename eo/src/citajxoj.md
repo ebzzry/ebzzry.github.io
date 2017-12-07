@@ -568,3 +568,7 @@ tra la jaroj.
 
 - Ŝanĝo de perspektivo meritas 80 poentojn de inteligentecaj kvocientoj.<br>
   ―Alan KAY
+
+
+- Por mi ne estas demando ĉu ni fariĝos interstelaj specioj, sed nur demando de kiam.<br>
+  ―Stephen HAWKING

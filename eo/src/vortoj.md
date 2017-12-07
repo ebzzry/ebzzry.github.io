@@ -174,3 +174,5 @@ Enskriboj estas ordigataj laŭ kronologia ordo.
 
 - Kio ajn vi faros, neniam estu timema.<br>
 
+
+- Diru al mi kio tentas vin, kaj mi diros al vi kio vi estas.<br>
