@@ -176,3 +176,12 @@ Enskriboj estas ordigataj laŭ kronologia ordo.
 
 
 - Diru al mi kio tentas vin, kaj mi diros al vi kio vi estas.<br>
+
+
+- Lasi por iri estas unu el la plej malfacilan aferon, kiun ni devas fari.<br>
+
+
+- Ni ne timu doloron, tial ke, senti doloro estas la plej bona maniero por plifortiĝi.<br>
+
+
+- En la vizaĝo de la kosmo, ni porĉiame estas infanoj.<br>
