@@ -1,7 +1,7 @@
 Squandered Relentlessness
 =========================
 
-<center>[Esperanto](/eo/malsxparitaj-malcedemoj)  [Angle](#)</center>
+<center>[Esperanto](/eo/malsxparitaj)  [English](#)</center>
 <div class="center">May 9, 2013</div>
 <div class="center">Updated: December 8, 2017</div>
 
@@ -10,7 +10,7 @@ Squandered Relentlessness
 >―J.P. Morgan
 
 There is a disturbing and eerie sensation that I feel whenever the damping realization that I am no
-longer a young child. The uneasy struggle between learning to let go of my portentous past and my
+longer a young child comes. The uneasy struggle between learning to let go of my portentous past and my
 capricious future, grips me, with heavy clench.
 
 It is not about the inability to redo gratuitous expenditure of somewhat liberally-provided lax
@@ -53,12 +53,12 @@ bruises that we get, as long as we satisfy our wild and insatiable taste for dis
 by curiosity, we discover yet another realm of possibilities—we find ourselves immersed in
 dimensions never before heard or seen, and no matter how much dirt and mud we lather up to our
 bodies, we did not care. All that mattered to us was to have fun in walking the unending journey of
-discovery. And yet, we learned.
+discovery. Yet, we learned.
 
 It is ironic that just when we think we are already old enough to venture the world unaided by our
 training wheels, we smother ourselves with mediocre goals of pseudo-discovery. When the curtain is
-unveiled, we are confronted by an unsettling sight—we have lost the drive that once propelled us
-to have insights. We grew afraid to exercise the same techniques and principles we had once as
+unveiled, we are confronted by an unsettling sight—we have lost the drive that once propelled us to
+have insights. We grew afraid to exercise the same techniques and principles we had once as
 children. We stopped ourselves from making curious inquisitions about what’s out there. We have made
 ourselves feel comfortable with what is served on the institutionalized plates, without the
 slightest attempt to bolster up to devise questions.
@@ -88,4 +88,4 @@ without any forethought.
 When we voluntarily attach to our legs, heavy chains and balls of steel, we should not expect to be
 able to run around the coliseum with ease. When we dare to explore uncharted territories, without
 regrets, without dis-enchantments, without the necessity to have another ship to propel us forward, we
-will triumph.
+will eventually triumph.
