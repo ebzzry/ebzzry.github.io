@@ -1,8 +1,9 @@
 Squandered Relentlessness
 =========================
 
+<center>[Esperanto](/eo/malsxparitaj-malcedemoj)  [Angle](#)</center>
 <div class="center">May 9, 2013</div>
-<div class="center">Updated: April 1, 2017</div>
+<div class="center">Updated: December 8, 2017</div>
 
 >The first step towards getting somewhere is to decide that you are not going to stay where you
 >are.<br>
@@ -32,15 +33,15 @@ We complain of the stifling absence of bounty, and yet we voluntarily stop ourse
 even an inch of movement of a limb towards making the advancement on a prey. We are so romantically
 in love, with fervor, on the seeking of rationale to our unjustifiable excuses, but we equally seek
 sound reason. It is even more appalling to see that some of us insidiously advertise illusions of
-grandeur, with claims of full reprising sensations of the bounty’s meat.
+grandeur, with claims of fully reprising sensations.
 
-Our personal biases towards reaching the reward, effectively stoping us from actually reaching it,
+Our personal biases towards reaching the reward, effectively stops us from actually reaching it,
 succumbing to the remorseless claims of others, on their failure, rendering us ignorant of the
 unseen reality. When the number of persons that flock around us, is high enough, according to our
 personal metrics, we ignorantly instill to ourselves what they buzz to us, and then we impair
 ourselves and subsequently kill the essence of our individuality.
 
-As adults, we are taught to restrain ourselves inside cages that we ourselves have built. and it is
+As adults, we are taught to restrain ourselves inside cages that we ourselves have built and it is
 unnerving to see this monstrous act unfold before my short field of view, everyday. We drag
 ourselves towards solitary confinements of our own barbed rooms. We make ourselves fond of preaching
 doubt to our fellowmen. And if our own kind does the same, we see feelings of accomplishment. That
@@ -86,5 +87,5 @@ without any forethought.
 
 When we voluntarily attach to our legs, heavy chains and balls of steel, we should not expect to be
 able to run around the coliseum with ease. When we dare to explore uncharted territories, without
-regrets, without dis-enchantments, without the necessity to have another ship propel us forward, we
+regrets, without dis-enchantments, without the necessity to have another ship to propel us forward, we
 will triumph.
