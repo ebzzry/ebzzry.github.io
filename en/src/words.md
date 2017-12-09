@@ -189,3 +189,7 @@ Entries are sorted in chronological order.
 
 
 - In the face of the cosmos, we are children, forever.<br>
+
+
+- Fraudulent news spread because fraudulent humans exist.<br>
+
