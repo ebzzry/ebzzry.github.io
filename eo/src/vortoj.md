@@ -185,3 +185,7 @@ Enskriboj estas ordigataj laŭ kronologia ordo.
 
 
 - En la vizaĝo de la kosmo, ni porĉiame estas infanoj.<br>
+
+
+- Trompaj novaĵoj disvastiĝas ĉar trompaj homoj ekzistas.<br>
+
