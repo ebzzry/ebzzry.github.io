@@ -398,7 +398,7 @@ tra la jaroj.
   ―Benjameno FRANKLENO
 
 
-- Iru al la eĝo kaj forsaltu. Konstruu viajn flugilojn survoje malsupren.<br>
+- Iru al la klifo kaj forsaltu. Konstruu viajn flugilojn survoje malsupren.<br>
   ―Ray BRADBURY
 
 
