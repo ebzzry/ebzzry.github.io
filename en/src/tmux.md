@@ -2,7 +2,7 @@ How I Roll with Tmux
 ====================
 
 <div class="center">October 18, 2017</div>
-<div class="center">Updated: October 19, 2017</div>
+<div class="center">Updated: December 13, 2017</div>
 
 >Furious activity is no substitute for understanding.<br>
 >―H.H. Williams
@@ -94,13 +94,16 @@ useful when troubleshooting remote connections simultaneously.
 ```
 bind-key . source-file ~/.tmux.conf
 bind-key r move-window -r \; setw automatic-rename
-bind-key x kill-pane
+bind-key x kill-pane \; move-window -r \; setw automatic-rename
 bind-key & kill-window \; move-window -r \; setw automatic-rename
 ```
 
-When one kills a window between the first and the last windows, the numbering goes out of order. The
-<kbd>C-z r</kbd> fixes that. I also rebound <kbd>C-z x</kbd> and <kbd>C-z &</kbd> to kill panes and
-windows, respectively, without user prompts.
+Here, I rebound <kbd>C-z x</kbd> and <kbd>C-z &</kbd>, so that when windows are removed the
+numberings are automatically updated. Manual override by means of <kbd>C-z r</kbd> is also
+available.
+
+The <kbd>C-z r</kbd> fixes that. I also rebound <kbd>C-z x</kbd> and <kbd>C-z &</kbd> to kill
+panes and windows, respectively, without user prompts.
 
 
 <a name="windows">Windows</a>
