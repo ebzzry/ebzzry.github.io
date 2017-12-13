@@ -2,7 +2,7 @@ Emacs Tips and Tricks: Insert and Delete
 ========================================
 
 <div class="center">April 1, 2017</div>
-<div class="center">Updated: October 19, 2017</div>
+<div class="center">Updated: December 13, 2017</div>
 
 This is the continuation of my series on Emacs tips and tricks. In this article, we explore string
 insertion, and line deletion, marking, and yanking.
@@ -52,10 +52,13 @@ To insert a string until the last column of the previous line:
 ```lisp
 (defun insert-until-last (string)
   "Insert string until column"
-  (let ((count (save-excursion
+  (let* ((end (save-excursion
                  (previous-line)
                  (end-of-line)
-                 (current-column))))
+                 (current-column)))
+         (count (if (not (zerop (current-column)))
+                    (- end (current-column))
+                  end)))
     (dotimes (c count)
       (insert string))))
 ```
