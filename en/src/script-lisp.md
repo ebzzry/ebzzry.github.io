@@ -426,7 +426,7 @@ CL, and each implementation strives to achieve goals that may not necessarily be
 other implementations. That’s OK, because it gives room for implementors and designers, on how to
 work on the base specifications. As long as they conform to the standard, things are green.
 
-I wrote a simple [Nixpkgs/NixOS helper](https://github.com/ebzzry/nix-lisp) as a working example of
+I wrote a simple [Nixpkgs/NixOS helper](https://github.com/ebzzry/baf) as a working example of
 how I use CL scripting.
 
 The human responsible for making scripting in CL possible and acceptable,
