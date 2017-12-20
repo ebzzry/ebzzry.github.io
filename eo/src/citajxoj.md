@@ -572,3 +572,7 @@ tra la jaroj.
 
 - Por mi ne estas demando ĉu ni fariĝos interstelaj specioj, sed nur demando de kiam.<br>
   ―Stephen HAWKING
+
+
+- Unu formiko ne estas formiko.<br>
+  ―E. O. WILSON
