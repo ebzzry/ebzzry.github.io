@@ -2,8 +2,8 @@ Vortoj
 ======
 
 <center>[Esperante](#)  [Angle](/en/words)</center>
-<center>3a de Novembro, 2017</center>
-<center>Laste ŝanĝita: 14a de Novembro, 2017</center>
+<center>la 3-an de Novembro 2017</center>
+<center>Laste ŝanĝita: la 14-an de Novembro 2017</center>
 
 Ĉi tiu paĝo enhavas liston de frazetoj kiujn mi komunikis al miaj kompanoj, por pligrandigi
 konscion, por verŝi lumon, kaj por inspiri miajn kunhomojn.

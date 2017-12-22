@@ -2,8 +2,8 @@ Supre, Malsupre, kaj Aliloke
 ============================
 
 <center>[Esperante](#)  [Angle](/en/over-under)</center>
-<center>2a de Decembro 2017</center>
-<center>Laste ŝanĝita: 6a de Decembro 2017</center>
+<center>la 2-an de Decembro 2017</center>
+<center>Laste ŝanĝita: la 6-an de Decembro 2017</center>
 
 >La nuraj limoj kiujn oni havas, estas la limoj kiujn oni kredas.<br>
 >―Wayne DYER
