@@ -2,8 +2,8 @@ Malŝparitaj Malcedemoj
 ======================
 
 <center>[Esperante](#)  [Angle](/en/squandered)</center>
-<center>5a de Decembro 2017</center>
-<center>Laste ŝanĝita: 8a de Decembro 2017</center>
+<center>la 5-an de Decembro 2017</center>
+<center>Laste ŝanĝita: la 8-an de Decembro 2017</center>
 
 >La unua paŝo al iri ien, estas decidi, ke vi ne restos kie vi estas.<br>
 >―J.P. MORGAN
