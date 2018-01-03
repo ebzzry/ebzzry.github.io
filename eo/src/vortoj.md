@@ -47,7 +47,7 @@ Enskriboj estas ordigataj laŭ kronologia ordo.
   demandoj.<br>
 
 
-- Se vi ne povas venki ilin, okazu aranĝi ilin batitaj.<br>
+- Se vi ne povas venki ilin, okazu aranĝon por bati ilin.<br>
 
 
 - La timo naskigas la dubon.<br>
@@ -189,3 +189,5 @@ Enskriboj estas ordigataj laŭ kronologia ordo.
 
 - Trompaj novaĵoj disvastiĝas ĉar trompaj homoj ekzistas.<br>
 
+
+- Mi dankas al ĉiuj kiuj doloris min; se ne pro vi ĉiuj mi ne plifortiĝas.<br>

@@ -193,3 +193,5 @@ Entries are sorted in chronological order.
 
 - Fraudulent news spread because fraudulent humans exist.<br>
 
+
+- I thank all of you who caused me pain; because without you I will not become stronger.<br>

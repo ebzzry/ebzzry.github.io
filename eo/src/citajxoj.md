@@ -36,7 +36,7 @@ tra la jaroj.
   ―Pablo PIKASO
 
 
-- Ne maltrankviliĝu pri kion alia iu farigos. La plej bona maniero por antaŭdiri la estonton estas
+- Ne maltrankviliĝu pri kion alia iu farigos. La plej bona maniero por antaŭdiri la estontecon estas
   por enpensi tion.<br>
   ―Alan KAY
 
@@ -55,7 +55,7 @@ tra la jaroj.
   ―David MCCULLOUGH
 
 
-- Ne tute estas grava por prave akiri tion en la unua fojo. Estas vitale grava por akiri tion en la
+- Ne tute estas grave por prave akiri tion en la unua fojo. Estas vitale grava por akiri tion en la
   lasta tempo.<br>
   ―Andrew HUNT kaj David THOMAS
 
@@ -68,7 +68,7 @@ tra la jaroj.
   ―Fred BROOKS
 
 
-- Unu persono kun ardo estas pli bona ol kvardek personoj nur interesata.<br>
+- Unu persono kun ardo estas pli bona ol kvardek personoj nure interesata.<br>
   ―E.M. FORSTER
 
 
@@ -93,7 +93,7 @@ tra la jaroj.
   ―Robert J. HANLON
 
 
-- Supozante estas bone, sed eltrovante estas pli bone.<br>
+- Supozi estas bone, sed eltrovi estas pli bone.<br>
   ―Samuel CLEMENS
 
 
@@ -130,7 +130,7 @@ tra la jaroj.
   ―Richard P. FEYNMAN
 
 
-- Sciu solvi ĉiun problemon kiun estis solvita.<br>
+- Sciu kiel solvi ĉiun problemon kiun estis solvita.<br>
   ―Richard P. FEYNMAN
 
 
@@ -144,7 +144,7 @@ tra la jaroj.
   ―James J. LING
 
 
-- Ne ekzistas kialo por supozi ke la kosmo havas la plej iometan interezon pri inteligenteco—aŭ eĉ
+- Ne ekzistas kialo por supozi ke la kosmo havas la plej malgrandan interezon pri inteligenteco—aŭ eĉ
   pri ambaŭ. Eble la vivo estas hazarda kromprodukto de siaj operacoj kiel la belaj regulaĝoj sur la
   flugiloj de papilio. La insekto flugus tiel bone sen ili.<br>
   ―Arthur C. CLARKE
@@ -154,20 +154,20 @@ tra la jaroj.
   ―Arthur C. CLARKE
 
 
-- La nur maniero por trovi la limojn de la eblo estas per farante ekster ilin en la maleblan.<br>
+- La nur maniero por trovi la limojn de la ebleco estas per iri ekster ilin en la maleblecon.<br>
   ―Arthur C. CLARKE
 
 
-- La sekreto de kreemo estas sciante kiel kaŝi viajn fontojn.<br>
+- La sekreto de kreemo estas scii kiel kaŝi viajn fontojn.<br>
   ―Alberto EJNŜTEJNO
 
 
-- Vi havas dekkelkjarulojn kiuj pensas ke ili kreos fari milionojn kiel NBA-ludantoj, kiam tio ne
-  estas realisma por eĉ unu elcento de ili. Fariĝante kiel scientisto aŭ inĝeniero estas.<br>
+- Ekzistas dekkelkjarulojn kiuj pensas ke ili kreos fari milionojn kiel NBA-ludantoj, kiam tio ne
+  estas realisma por eĉ unu elcento de ili. Fari scientisto aŭ inĝeniero estas.<br>
   ―Dean KAMEN
 
 
-- Se vi volas farigi omleton, vi bezonas rompi ovojn.<br>
+- Se vi volas krei omleton, vi bezonas rompi ovojn.<br>
   ―Tyler DURDEN, Fight Club
 
 
@@ -179,7 +179,7 @@ tra la jaroj.
   ―Erma BOMBECK
 
 
-- Se vi vivas por mono, tiu estas ĉio vi elakiros.<br>
+- Se vi vivas per mono, estas ĉio vi elakiros.<br>
   ―Sennoma
 
 
@@ -207,11 +207,11 @@ tra la jaroj.
   ―Bruce LEE
 
 
-- Kiam oni eraregas, kaj neniu ne plu diras ion al oni, tio signifas ke ili rezignis.<br>
+- Kiam oni eraregas, kaj neniu ne plu diras ion al oni, signifas ke ili rezignis.<br>
   ―Randy PAUSCH
 
 
-- La sperto estas kion oni akiras kiam oni ne akiris tiun, kiun oni volis akiri.<br>
+- La sperto estas kion oni akiras kiam oni ne akiris tion, kion oni volis akiri.<br>
   ―Randy PAUSCH
 
 
@@ -241,7 +241,7 @@ tra la jaroj.
   ―Jonathan Lockwood HUIE
 
 
-- La malfiero ne estas pensante malpli de vi mem, sed pensante de vi mem, malpli.<br>
+- La malfiero ne pensi malpli de vi mem, sed pensi de vi mem, malpli.<br>
   ―C.S. LEWIS
 
 
@@ -258,7 +258,7 @@ tra la jaroj.
   ―J.P. MORGAN
 
 
-- La vivo estas kiel rajdante biciklon—pluigi vian egalpezon, vi devas daŭri por movi.<br>
+- La vivo estas kiel rajdi biciklon. Por pluigi vian egalpezon, vi devas daŭri por movi.<br>
   ―Alberto EJNŜTEJNO
 
 
@@ -266,7 +266,7 @@ tra la jaroj.
   ―Kristoforo KOLUMBO
 
 
-- Unu tagon, ili ekscios ke ili perdis brilanton dum ludante kun senvaloraj ŝtonoj.<br>
+- Unu tagon, ili ekscios ke ili perdis brilanton dum ludi kun senvaloraj ŝtonoj.<br>
   ―Turcois OMINEK
 
 
@@ -274,7 +274,7 @@ tra la jaroj.
   ―M. Kathleen CASEY
 
 
-- Ni devas esti pretaj por lasi la vivon kiun ni planinta por havi la vivon kiu atendas nin.<br>
+- Ni devas esti pretaj por lasi la vivon kiun ni planita por havi la vivon kiu atendas nin.<br>
   ―Joseph CAMPBELL
 
 
@@ -302,12 +302,12 @@ tra la jaroj.
   ―Jimmy JOHNSON
 
 
-- Kiam vi faleĝis antaŭe kaj vi postvivis, jen tre malmultaj aferoj en la vivo kiuj povas timi
+- Kiam vi petrsube falis antaŭe kaj vi postvivis, jen tre malmultaj aferoj en la vivo kiuj povas timi
   vin.<br>
   ―Sennomo
 
 
-- Kion ni faras por ni, mortas kun ni. Kion ni faras por ili, restas por ĉiam.<br>
+- Kion ni faras por ni, mortas kun ni. Kion ni faras por ili, porĉiame restas.<br>
   ―Albert PIKE
 
 
@@ -327,7 +327,7 @@ tra la jaroj.
   ―Wayne GRETZKY
 
 
-- Ne estas ĉu vi estus frapita, estas ĉu vi povas stariĝi.<br>
+- Ne pri ĉu vi estus frapita, estas ĉu vi povas stariĝi.<br>
   ―Vince LOMBARDI
 
 
@@ -340,7 +340,7 @@ tra la jaroj.
   ―Windows CHURCHILL
 
 
-- Estas pli bone esti sola anstataŭ estante kun iu, kiu faras vin senti, ke vi estas sola.<br>
+- Estas pli bone esti sola anstataŭ kune kun iu, kiu faras vin senti, ke vi estas sola.<br>
   ―Ivan JUNIUS
 
 
@@ -352,7 +352,7 @@ tra la jaroj.
   ―Sennoma
 
 
-- Se vi faras tion, kion vi ĉiom faras; vi akiros tion, kion vi ĉiam akiras.<br>
+- Se vi faras tion, kion vi ĉiam faras; vi akiros tion, kion vi ĉiam akiras.<br>
   ―Anthony ROBBINS
 
 
@@ -368,7 +368,7 @@ tra la jaroj.
   ―Charles KETTERING
 
 
-- Katpu fiŝon unufoje. Se ĝi eskapas, estas pli malfacile por kapti ĝin la duan fojon.<br>
+- Kaptu fiŝon unufoje. Se ĝi eskapas, estas pli malfacile por kapti ĝin la duan fojon.<br>
   ―Will GRAHAM, Hannibal (televida programo)
 
 
@@ -435,11 +435,11 @@ tra la jaroj.
   ―Eric HOFFER
 
 
-- La respondoj kiujn vi serĉas, vi ne trovos ĝis vi haltas serĉi ekster kaj komenciĝas por serĉi ilin el vi mem.<br>
+- Vi ne trovos la respondojn kiujn vi serĉas ĝis vi haltas serĉi ekster kaj komenciĝas por serĉi ilin el vi mem.<br>
   ―Memory GATEKEEPER, Ergo Proxy
 
 
-- Kosmo sen sciiĝo estas multe kiel stakego de putrataj libroj—porĉiame fermata kaj nelegata.<br>
+- Kosmo sen sciiĝo estas multe kiel stakego de putrataj libroj—porĉiame fermataj kaj nelegataj.<br>
   ―Ergo PROXY, Ergo Proxy
 
 
@@ -448,7 +448,7 @@ tra la jaroj.
   ―Ergo Proxy, Ergo Proxy
 
 
-- En miaj senesperaj provoj por civitanuliĝi, mi daŭre ĉesas mi kaj provis esti la persono mi
+- En miaj senesperaj provoj por civitanuliĝi, mi daŭre ĉesas min kaj provis esti la persono mi
   pensis ili volis.<br>
   ―Vincent LAW, Ergo Proxy
 
@@ -467,10 +467,10 @@ tra la jaroj.
 
 - Milita forto ne hevas daŭran formon. La akvo ne havas daŭran formon. La kapablo por gajni venkon
   per ŝanĝante kaj alfarante laŭ la malamiko estas nomata genio.<br>
-  ―SUN Tzu
+  ―Tzu SUN
 
 
-- La viro kiu diras ke tio ne povas farata estas ĝenerale interrompata per iu, kiu faras tion.<br>
+- La viro kiu diras ke ĝi ne fareblas, estas ĝenerale interrompata per iu, kiu faras ĝin.<br>
   ―Elbert HUBBARD
 
 
@@ -486,8 +486,8 @@ tra la jaroj.
   ―Charles BUKOWSKI
 
 
-- Neniam sendu kuniklon por morti vulpon.<br>
-  ―DAISUKE Aramaki, Ghost in the Shell (2017)
+- Neniam sendu kuniklon por mortigi vulpon.<br>
+  ―Aramaki DAISUKE, Ghost in the Shell (2017)
 
 
 - Estas la fato de steloj por disfali.<br>
@@ -507,8 +507,8 @@ tra la jaroj.
   ―Hugh Derry, Life (2017)
 
 
-- La malsukceso nur estas la okazaĵo por denove komenci pli inteligente. Jen ne hontigo en honesta
-  malsukceso; jen hontigo en timante por malsukcesi.<br>
+- La malsukceso nur estas la okazaĵo por denove komenci pli inteligente. Ne ekzistas hontigo en honesta
+  malsukceso; ekzistas hontigo en timi por malsukcesi.<br>
   ―Henry FORD
 
 
@@ -521,23 +521,23 @@ tra la jaroj.
 
 
 - Ideo estas kiel viruso. Fortike. Tre infekte. Kaj la plej malgranda semo de ideo povas
-  kreski. Povas kreski por defini aŭ por detrui vin.<br>
+  kreski. Povas kreski por difini aŭ por detrui vin.<br>
   ―Dominick Cobb, Inception (2010)
 
 
-- Ironie, ili kiuj ne estas servopreta por rompi, unue rompos.<br>
+- Ironie, ili kiuj ne servopretas rompi, unue rompos.<br>
   ―MindSmash, Jutubo
 
 
-- Ĉi tio estas kion mi faris por ke postvivi mian vivon. Mi ne estas malsama de vi, tamen ni estas
+- Ĉi tio estas kion mi faris por ke postvivi mian vivon. Mi ne malsamas al vi, tamen ni estas
   en partnereco kiu postulas reciprokan respekton. Per tio premiso, la komuna celo kiu ligas nin
   estas postvivado.<br>
   ―Migi, Parasyte -the maxim- (2014)
 
 
 - Vi ĉiuj subtaksas homojn. Unuope, ili aspektas malfortaj, sed tio ne estas la efektivaĵo. Kion ni
-  bezonas rekoni, estas ke homoj estas sola vivaĵo konsistata de milionoj de unuopaj. Krome
-  iliaj unuopaj cerboj, homoj apartas alian cerbon de ega grandeco. La momento ni agas per opozicio
+  bezonas rekoni estas, ke homoj estas sola vivaĵo konsistata de milionoj de unuopaj. Krome
+  iliaj unuopaj cerboj, homoj apartas alian cerbon de ega grandeco. La momenton ni agas per opozicio
   al tiu cerbo, ni malvenkos.<br>
   ―Reiko TAMURA, Parasyte -the maxim- (2014)
 
@@ -558,15 +558,15 @@ tra la jaroj.
   ―Bill GATES
 
 
-- Estu bonmaniera, estu profesia, sed havu planon por morti ĉiujn ke vi renkontas.<br>
+- Estu bonmaniera, estu profesia, sed havu planon por mortigi ĉiujn vi renkontas.<br>
   ―James MATTIS
 
 
-- Ĉiom ŝanĝas per tempo.<br>
+- Ĉio ŝanĝas per tempo.<br>
   ―Tamina, Prince of Persia: The Sands of Time
 
 
-- Ŝanĝo de perspektivo meritas 80 poentojn de inteligentecaj kvocientoj.<br>
+- Ŝanĝo de perspektivo meritas okdek poentojn de inteligentecaj kvocientoj.<br>
   ―Alan KAY
 
 
