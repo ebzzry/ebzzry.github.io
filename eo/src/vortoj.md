@@ -5,14 +5,14 @@ Vortoj
 <center>la 3-an de Novembro 2017</center>
 <center>Laste ŝanĝita: la 14-an de Novembro 2017</center>
 
-Ĉi tiu paĝo enhavas liston de frazetoj kiujn mi komunikis al miaj kompanoj, por pligrandigi
-konscion, por verŝi lumon, kaj por inspiri miajn kunhomojn.
+Ĉi tiu paĝo enhavas liston de frazoj, frazetoj, kaj linioj kiujn mi komunikis al miaj kompanoj, por
+pligrandigi konscion, por verŝi lumon, kaj por inspiri miajn kunhomojn.
 
 Enskriboj estas ordigataj laŭ kronologia ordo.
 
 
 - Dum la kuraĝuloj kuraĝas la ŝtormojn per kuraĝo kaj triumfo, la malkuraĝuloj ripozas sur la
-  marbordoj de malprotesto kaj konformeco.<br>
+  marbordoj de la malprotesto kaj la konformeco.<br>
 
 
 - Scivolemo estas la malamiko de la nescio, la timo, la necerteco, kaj la dubo.<br>
@@ -95,7 +95,7 @@ Enskriboj estas ordigataj laŭ kronologia ordo.
 - Se vi ne povas aligi ilin, venku ilin.<br>
 
 
-- El granda potenco devenas grandan malrespondecon.<br>
+- De granda potenco devenas grandan malrespondecon.<br>
 
 
 - Neniam atribuu al malbonintenco kion nekompetenteco klarigos. Neniam atribuu al nekompetenteco
@@ -131,7 +131,7 @@ Enskriboj estas ordigataj laŭ kronologia ordo.
 - Unu de la plej kontentemaj tamen la plej malfacilaj aferoj por lerni, estas kiel mallerni.<br>
 
 
-- Homoj klaĉas pri aliaj homoj tial ke ili propraj vivoj estas tre seninteresaj.<br>
+- Homoj klaĉas pri aliaj homoj tial ke iliaj propraj vivoj estas tre seninteresaj.<br>
 
 
 - Kiom ajn vi uzas fejsbukon, uzu malpli.<br>
@@ -153,7 +153,7 @@ Enskriboj estas ordigataj laŭ kronologia ordo.
   nenion.<br>
 
 
-- Ni ne havis la opcion ĉu ni enboatiĝos aŭ ne. Ni nur trovas nin en la mezo de la vojaĝo, post la
+- Ni ne havis la opcion ĉu ni enboatiĝos aŭ ne. Ni nur trovas nin mem en la mezo de la vojaĝo, post la
   ŝipo jam foriris la havenon.<br>
 
 
@@ -163,7 +163,7 @@ Enskriboj estas ordigataj laŭ kronologia ordo.
 - La sola afero kiu kunligas nin al niaj amatoj estas la memoroj.<br>
 
 
-- Realaĵo ne estas fiksita.<br>
+- Ne fiksitas realaĵo.<br>
 
 
 - Ju pli mi eraras, des pli mi pravas.<br>
