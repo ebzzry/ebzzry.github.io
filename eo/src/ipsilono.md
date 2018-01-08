@@ -1,7 +1,7 @@
 La Ipsilona Kombinatoro En Ses Paŝoj
 ====================================
 
-<center>[Esperante](#)  [Angle](/en/y)</center>
+<center>[Esperante](#)  [English](/en/y)</center>
 <center>la 25-an de Novembro 2017</center>
 <center>Laste ŝanĝita: la 1-an de Decembro 2017</center>
 
