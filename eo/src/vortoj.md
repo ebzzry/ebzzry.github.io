@@ -1,7 +1,7 @@
 Vortoj
 ======
 
-<center>[Esperante](#)  [Angle](/en/words)</center>
+<center>[Esperante](#)  [English](/en/words)</center>
 <center>la 3-an de Novembro 2017</center>
 <center>Laste ŝanĝita: la 14-an de Novembro 2017</center>
 

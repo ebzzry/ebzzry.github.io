@@ -1,7 +1,7 @@
 Citaĵoj
 =======
 
-<center>[Esperante](#)  [Angle](/en/quotes)</center>
+<center>[Esperante](#)  [English](/en/quotes)</center>
 <center>la 15-an de Novembro 2017</center>
 <center>Laste ŝanĝita: la 25-an de Novembro 2017</center>
 
