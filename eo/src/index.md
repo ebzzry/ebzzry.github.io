@@ -1,7 +1,7 @@
 Pensoj de Pedanta Pirato
 ========================
 
-<center>[Esperante](#)  [Angle](/en/)</center>
+<center>[Esperante](#)  [English](/en/)</center>
 <center>la 27-an de Aprilo 2017</center>
 <center>Laste ŝanĝita: la 8-an de Decembro 2017</center>
 

@@ -1,7 +1,7 @@
 Malŝparitaj Malcedemoj
 ======================
 
-<center>[Esperante](#)  [Angle](/en/squandered)</center>
+<center>[Esperante](#)  [English](/en/squandered)</center>
 <center>la 5-an de Decembro 2017</center>
 <center>Laste ŝanĝita: la 8-an de Decembro 2017</center>
 
