@@ -2,7 +2,7 @@ How I Roll with Tmux
 ====================
 
 <div class="center">October 18, 2017</div>
-<div class="center">Updated: December 13, 2017</div>
+<div class="center">Updated: January 12, 2018</div>
 
 >Furious activity is no substitute for understanding.<br>
 >―H.H. Williams
@@ -59,15 +59,15 @@ on to the more specific ones. This section will look at some of those settings.
 ### <a name="indexes">Indexes</a>
 
 ```
-set-option -g default-shell $SHELL
+set -g default-shell $SHELL
 
 set -g base-index 1
 setw -g pane-base-index 1
 set -g history-limit 100000
 
 unbind C-b
-bind-key C-z send-prefix
-set-option -g prefix C-z
+bind C-z send-prefix
+set -g prefix C-z
 ```
 
 This sets the the initial window number to start at 1, instead of 0; it makes it easier to switch
@@ -78,10 +78,10 @@ to a specific window, later. This also sets the history limit and the prefix key
 ### <a name="clients">Clients</a>
 
 ```
-bind-key D detach-client
-bind-key b choose-tree
-bind-key n new-session -c "#{pane_current_path}"
-bind-key @ setw synchronize-panes
+bind D detach-client
+bind b choose-tree
+bind n new-session -c "#{pane_current_path}"
+bind @ setw synchronize-panes
 ```
 
 This binds several keys to detach the current session, select a session from a tree chooser. The
@@ -92,10 +92,10 @@ useful when troubleshooting remote connections simultaneously.
 ### <a name="sourcing">Sourcing</a>
 
 ```
-bind-key . source-file ~/.tmux.conf
-bind-key r move-window -r \; setw automatic-rename
-bind-key x kill-pane \; move-window -r \; setw automatic-rename
-bind-key & kill-window \; move-window -r \; setw automatic-rename
+bind . source-file ~/.tmux.conf
+bind r move-window -r \; setw automatic-rename
+bind x kill-pane \; move-window -r \; setw automatic-rename
+bind & kill-window \; move-window -r \; setw automatic-rename
 ```
 
 Here, I rebound <kbd>C-z x</kbd> and <kbd>C-z &</kbd>, so that when windows are removed the
@@ -115,20 +115,20 @@ Windows are the equivalent of browser tabs in tmux. It organizes sessions into s
 ### <a name="windowsmovement">Movement</a>
 
 ```
-bind-key -n C-PPage previous-window
-bind-key -n C-NPage next-window
-bind-key -n S-left swap-window -t -1
-bind-key -n S-right swap-window -t +1
+bind -n C-PPage previous-window
+bind -n C-NPage next-window
+bind -n S-left swap-window -t -1
+bind -n S-right swap-window -t +1
 
-bind-key -n M-1 select-window -t 1
-bind-key -n M-2 select-window -t 2
-bind-key -n M-3 select-window -t 3
-bind-key -n M-4 select-window -t 4
-bind-key -n M-5 select-window -t 5
-bind-key -n M-6 select-window -t 6
-bind-key -n M-7 select-window -t 7
-bind-key -n M-8 select-window -t 8
-bind-key -n M-9 select-window -t 9
+bind -n M-1 select-window -t 1
+bind -n M-2 select-window -t 2
+bind -n M-3 select-window -t 3
+bind -n M-4 select-window -t 4
+bind -n M-5 select-window -t 5
+bind -n M-6 select-window -t 6
+bind -n M-7 select-window -t 7
+bind -n M-8 select-window -t 8
+bind -n M-9 select-window -t 9
 ```
 
 We bound <kbd>C-PageUp</kbd> and <kbd>C-PageDown</kbd>, to switch windows, backwards and forwards,
@@ -142,11 +142,11 @@ known as <kbd>Meta</kbd>.
 ### <a name="windowscontrol">Control</a>
 
 ```bash
-bind-key c new-window -c "#{pane_current_path}"
-bind-key C new-window -c ~
+bind c new-window -c "#{pane_current_path}"
+bind C new-window -c ~
 
-bind-key '"' split-window -v -c "#{pane_current_path}"
-bind-key % split-window -h -c "#{pane_current_path}"
+bind '"' split-window -v -c "#{pane_current_path}"
+bind % split-window -h -c "#{pane_current_path}"
 ```
 
 This binds keys to start a new session from the current working directory or from the home
@@ -163,21 +163,21 @@ Panes are the subdivisions of windows. They are similar to page frames in the co
 ### <a name="panesmovement">Movement</a>
 
 ```
-bind-key -n C-Left select-pane -t :.-
-bind-key -n C-Right select-pane -t :.+
-bind-key -n C-Up swap-pane -U
-bind-key -n C-Down swap-pane -D
+bind -n C-Left select-pane -t :.-
+bind -n C-Right select-pane -t :.+
+bind -n C-Up swap-pane -U
+bind -n C-Down swap-pane -D
 
-bind-key 0 select-pane -t 0
-bind-key 1 select-pane -t 1
-bind-key 2 select-pane -t 2
-bind-key 3 select-pane -t 3
-bind-key 4 select-pane -t 4
-bind-key 5 select-pane -t 5
-bind-key 6 select-pane -t 6
-bind-key 7 select-pane -t 7
-bind-key 8 select-pane -t 8
-bind-key 9 select-pane -t 9
+bind 0 select-pane -t 0
+bind 1 select-pane -t 1
+bind 2 select-pane -t 2
+bind 3 select-pane -t 3
+bind 4 select-pane -t 4
+bind 5 select-pane -t 5
+bind 6 select-pane -t 6
+bind 7 select-pane -t 7
+bind 8 select-pane -t 8
+bind 9 select-pane -t 9
 ```
 
 We bound <kbd>C-Left</kbd> and <kbd>C-Right</kbd> to select panes, backwards and forwards,
@@ -190,9 +190,9 @@ The other keys allow us to switch to specific panes.
 ### <a name="panesmerging">Merging</a>
 
 ```
-bind-key m command-prompt -p "Merge pane to:"  "join-pane -t '%%'"
-bind-key M command-prompt -p "Merge pane from:"  "join-pane -s '%%'"
-bind-key h select-pane -m
+bind m command-prompt -p "Merge pane to:"  "join-pane -t '%%'"
+bind M command-prompt -p "Merge pane from:"  "join-pane -s '%%'"
+bind h select-pane -m
 ```
 
 This binds <kbd>C-z m</kbd> and <kbd>C-z M</kbd> to merge panes to and from, a specific window,
@@ -205,7 +205,7 @@ respectively. We also bound <kbd>C-z h</kbd> to highlight the borders of the cur
 The status bar provides a lot of feedback, and we can also customize it. I set up mine as such:
 
 ```
-set-option -g status-position bottom
+set -g status-position bottom
 set -g status-bg black
 set -g status-fg white
 set -g window-status-current-bg black
