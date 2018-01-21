@@ -585,3 +585,8 @@ the years.
 
 - One ant is no ant.<br>
   ―E. O. Wilson
+
+
+- SQL, Lisp, and Haskell are the only programming languages that I’ve seen where one spends more
+  time thinking than typing.<br>
+  ―Philip Greenspun
