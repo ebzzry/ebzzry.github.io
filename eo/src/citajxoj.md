@@ -576,3 +576,8 @@ tra la jaroj.
 
 - Unu formiko ne estas formiko.<br>
   ―E. O. WILSON
+
+
+- SQL, Lispo, kaj Haskelo estas nur la programlingvoj kiujn mi vidis, en kiu oni pasigis pli tempon
+  pensi ol maŝinskribi.<br>
+  ―Philip GREENSPUN
