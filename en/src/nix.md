@@ -2,7 +2,7 @@ A Gentle Introduction to the Nix Family
 =======================================
 
 <div class="center">March 22, 2017</div>
-<div class="center">Updated: April 6, 2017</div>
+<div class="center">Updated: January 23, 2018</div>
 
 >Don’t worry about what anybody else is going to do. The best way to predict the future is to
 >invent it.<br>
@@ -165,7 +165,7 @@ Format root
 
 Format swap
 
-    # mkswap -L /dev/vg/swap
+    # mkswap -L swap /dev/vg/swap
 
 Mount the filesystems
 
@@ -189,8 +189,8 @@ Edit the config file
     nano /mnt/etc/nixos/configuration.nix
 
 To give you a headstart, you may use a trimmed-down version
-of [my configuration](https://github.com/ebzzry/dotfiles/blob/master/nixos/configuration.nix)
-follows. Replace the values as it suits you. All available configuration knobs are
+of [my configuration](https://github.com/ebzzry/dotfiles/blob/master/nixos/configuration.nix),
+as follows. Replace the values as it suits you. All available configuration knobs are
 available [here](https://nixos.org/nixos/options.html).
 
 
@@ -292,11 +292,15 @@ available [here](https://nixos.org/nixos/options.html).
 }
 ```
 
-Save this with:
+If you skipped the `nixos-generate-config` step above, create the staging directory manually:
+
+    # mkdir -p /mnt/etc/nixos
+
+You mave save the file above with:
 
     # curl -sSLo /mnt/etc/nixos/configuration.nix https://goo.gl/ZTQcGs
 
-A longer version is available at:
+A longer version is available with:
 
     # curl -sSLo /mnt/etc/nixos/configuration.nix https://goo.gl/K4P7l5
 
