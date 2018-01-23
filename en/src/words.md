@@ -195,3 +195,6 @@ Entries are sorted in chronological order.
 
 
 - I thank all of you who caused me pain; because without you I will not become stronger.<br>
+
+
+- Know the work that pays your bills and know the work that defines your future.<br>
