@@ -191,3 +191,6 @@ Enskriboj estas ordigataj laŭ kronologia ordo.
 
 
 - Mi dankas al ĉiuj kiuj doloris min; se ne pro vi ĉiuj mi ne plifortiĝas.<br>
+
+
+- Sciu la laboron kiu pagas viajn fakturojn kaj sciu la laboron kiu difinas vian estontecon.<br>
