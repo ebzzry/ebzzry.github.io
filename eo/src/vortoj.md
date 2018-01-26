@@ -194,3 +194,6 @@ Enskriboj estas ordigataj laŭ kronologia ordo.
 
 
 - Sciu la laboron kiu pagas viajn fakturojn kaj sciu la laboron kiu difinas vian estontecon.<br>
+
+
+- Gravas ĉio kaj nenio.<br>
