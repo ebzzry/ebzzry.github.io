@@ -198,3 +198,6 @@ Entries are sorted in chronological order.
 
 
 - Know the work that pays your bills and know the work that defines your future.<br>
+
+
+- Everything and nothing matters.<br>
