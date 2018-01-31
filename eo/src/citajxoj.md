@@ -566,7 +566,7 @@ tra la jaroj.
   ―Tamina, Prince of Persia: The Sands of Time
 
 
-- Ŝanĝo de perspektivo meritas okdek poentojn de inteligentecaj kvocientoj.<br>
+- Vidpunkto meritas okdek poentojn de inteligentecaj kvocientoj.<br>
   ―Alan KAY
 
 
@@ -581,3 +581,24 @@ tra la jaroj.
 - SQL, Lispo, kaj Haskelo estas nur la programlingvoj kiujn mi vidis, en kiu oni pasigis pli tempon
   pensi ol maŝinskribi.<br>
   ―Philip GREENSPUN
+
+
+- Ne maltrankviliĝu pri nun. La estanteco estas la malplej interesa tempo por envivi.<br>
+  ―Alan KAY
+
+
+- Ekzistas du specoj de homoj en la mondo: homoj kiuj pensas, ke ekzistas du specoj de homoj en la
+  mondo, kaj homoj kiuj ne pensas tion.<br>
+  ―Nekonata
+
+
+- Oni ne povas eltrovi la estontecon per uzi komercaĵojn.<br>
+  ―Alan KAY
+
+
+- Provu kaj pensu la tiujn, kie la mondo fariĝas tre malsama se vi faris malsamajn supozojn.<br>
+  ―Alan KAY
+
+
+- Ĉiuj komprenoj komencas per ni ne konsenti la mondon kiel ĝi aperas.<br>
+  ―Susan SONTAG

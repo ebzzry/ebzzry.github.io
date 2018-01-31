@@ -575,7 +575,7 @@ the years.
   ―Tamina, Prince of Persia: The Sands of Time
 
 
-- A change in perspective is worth 80 IQ points.<br>
+- A point of view is worth 80 IQ points.<br>
   ―Alan Kay
 
 
@@ -590,3 +590,24 @@ the years.
 - SQL, Lisp, and Haskell are the only programming languages that I’ve seen where one spends more
   time thinking than typing.<br>
   ―Philip Greenspun
+
+
+- Don’t worry about now. The present is the least interesting time to live in.<br>
+  ―Alan Kay
+
+
+- There are two kinds of people in the world: people who think there are two kinds of people in the
+  world, and people who don’t.<br>
+  ―Unknown
+
+
+- You can’t invent the future by using vendor stuff.<br>
+  ―Alan Kay
+
+
+- Try and think of which ones where the world will be very different if you made different assumptions.<br>
+  ―Alan Kay
+
+
+- All understanding begins with our not accepting the world as it appears.<br>
+  ―Susan Sontag
