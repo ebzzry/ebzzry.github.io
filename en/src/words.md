@@ -201,3 +201,9 @@ Entries are sorted in chronological order.
 
 
 - Everything and nothing matters.<br>
+
+
+- The key of discovering the future is not about solving more problems; it is discovering more problems.<br>
+
+
+- We can’t solve those which we think are not wrong.<br>
