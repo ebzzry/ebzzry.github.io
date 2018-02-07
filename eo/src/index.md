@@ -3,7 +3,7 @@ Pensoj de Pedanta Pirato
 
 <center>[Esperante](#)  [English](/en/)</center>
 <center>la 27-an de Aprilo 2017</center>
-<center>Laste ŝanĝita: la 8-an de Decembro 2017</center>
+<center>Laste ŝanĝita: la 7-an de Februaro 2018</center>
 
 ```
                       ,---------------.
@@ -21,6 +21,7 @@ Pensoj de Pedanta Pirato
 <div class="text-right">Retejo pri komputado, homaj inklinoj, kaj harazadaj umoj.</div>
 <div class="text-right">Enskriboj estas ordigataj laŭ inversa kronologia ordo.</div>
 
+- [Sinkronigi Lokojn per Usync](usync)
 - [Malŝparitaj Malcedemoj](malsxparitaj)
 - [Supre, Malsupre, kaj Aliloke](supre-malsupre)
 - [La Ipsilona Kombinatoro En Ses Paŝoj](ipsilono)
