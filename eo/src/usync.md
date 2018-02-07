@@ -1,5 +1,5 @@
-Sinkronigi Lokojn per Usync
-===========================
+Sinkronigi Retnodojn per Usync
+==============================
 
 <center>[Esperante](#)  [English](/en/usync)</center>
 <center>la 7-an de Februaro 2018</center>
