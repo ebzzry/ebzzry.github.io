@@ -3,12 +3,12 @@ Migri de LiveJournal al Frog
 
 <center>[Esperante](#)  [English](/en/frog)</center>
 <center>la 7-an de Februaro 2018</center>
-<center>Laste ŝanĝita: la 7-an de Februaro 2018</center>
+<center>Laste ŝanĝita: la 8-an de Februaro 2018</center>
 
 >Mi ne scias kien mi iras, sed mi estas sur mia vojo.<br>
 >―Carl SAGAN
 
-Estas tempoj kiam oni volas havi pli da reĝo sur via enhavo. Estas ankaŭ tempoj kiam vi ne volas
+Estas tempoj kiam oni volas havi pli da rego sur via enhavo. Estas ankaŭ tempoj kiam oni ne volas
 alian platformon por dikti kion eniras aŭ eliras. Aferoj kiel cenzurado kaj politikoj, povas facile
 rampi al blogan platformon. Mi spertis specificajn kazojn, en kiu, mi bezonis konverti
 LiveJournal-ajn afiŝojn al alia platformo. Ekzistas iloj kiuj faras ĉi tion, tamen, mi trovis
@@ -31,13 +31,13 @@ Enhavotabelo
 ---------------------------------------
 
 livefrog estas utilaĵo, verkita per [Rakido](http://racket-lang.org), kiu estas uzata por migri
-LiveJournal-ajn afiŝojn al Frog, blogada platformo ankaŭ vertia per Rakido. Uzas la dosierojn, kreitaj de aŭ [ljdump](http://hewgill.com/ljdump/) aŭ [ljmigrate](https://github.com/ceejbot/ljmigrate).
+LiveJournal-ajn afiŝojn al Frog, blogada platformo ankaŭ verkita per Rakido. Uzas la dosierojn, kreitaj de aŭ [ljdump](http://hewgill.com/ljdump/) aŭ [ljmigrate](https://github.com/ceejbot/ljmigrate).
 
 
 <a name="instalado"></a>Instalado
 ---------------------------------
 
-Esti kapable por kuri la rultempojn, oni unue devas instali Rakidon:
+Esti kapable por kuri la programojn, oni unue devas instali Rakidon:
 
 Per Nix:
 
@@ -47,12 +47,7 @@ Per APT:
 
     $ sudo apt-get install -y racket
 
-Post la instalado, certigu ke vi jam havas Rakidon:
-
-    $ racket --version
-
-Se vi vidas versian ĉenon, bone. Sekve, ni instalu livefrog-on. Haveblas per
-[Planet2](https://pkg.racket-lang.org), la paka deponejo de Rakido:
+Sekve, ni instalu livefrog-on—haveblas per [Planet2](https://pkg.racket-lang.org).
 
     $ raco pkg install livefrog
 
@@ -64,7 +59,7 @@ GitHub:
     $ git clone https://github.com/ebzzry/livefrog.git
     $ raco pkg install frog/ sxml/ livefrog/
 
-La vosta suprenstreko gravas, por diri `raco`, ke vi instalas de lokaj dosierujoj. Sen tiu, elŝutas
+La vostaj suprenstrekoj gravas, por diri al `raco`, ke vi instalas de lokaj dosierujoj. Sen tiu, elŝutas
 la fontojn de la interreto.
 
 
@@ -164,16 +159,15 @@ livefrog, kaj denove instali ĝin:
 <a name="miksaĵo"></a>Miksaĵo
 -----------------------------
 
-Por redukti tajpadon, vi povas krei alinomon al `raco livefrog` en via ŝelo.
+Por redukti tajpadon, vi povas krei alinomon de `raco livefrog` en via ŝelo.
 
-Per Sh-ecaj ŝeloj:
+Per Sh-ecaj ŝeloj—Bash, Zsh, Ash, Ksh, Sh:
 
     $ echo 'alias livefrog="raco livefrog"' >> ~/.bashrc
 
-Per Csh-ecaj ŝeloj:
+Per Csh-ecaj ŝeloj—Csh, Tcsh:
 
     $ echo 'alias livefrog raco livefrog' >> ~/.cshrc
-
 
 Anstataŭigu `.bashrc` kaj `.cshrc`, per la taŭga pravaloriza dosiero por via ŝelo.
 

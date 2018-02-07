@@ -3,7 +3,7 @@ Migrating from LiveJournal to Frog
 
 <center>[Esperante](/eo/frog)  [English](#)</center>
 <div class="center">May 29, 2013</div>
-<div class="center">Updated: February 7, 2018</div>
+<div class="center">Updated: February 8, 2018</div>
 
 >I don’t know where I’m going, but I’m on my way.<br>
 >―Carl Sagan
@@ -49,12 +49,7 @@ APT:
 
     $ sudo apt-get install -y racket
 
-After installation, verify that you have Racket:
-
-    $ racket --version
-
-If you see a version string, good. Next, let’s install livefrog. It is available via
-Racket’s [Planet2](https://pkg.racket-lang.org), Racket’s package repository:
+Next, let’s install livefrog. It is available via Racket’s [Planet2](https://pkg.racket-lang.org):
 
     $ raco pkg install livefrog
 
@@ -170,11 +165,11 @@ livefrog, then installing it again:
 
 To reduce typing, you may create an alias to `raco livefrog` in your shell.
 
-Sh-like shells:
+Sh-like shells—Sh, Bash, Zsh, Ash, Ksh:
 
     $ echo 'alias livefrog="raco livefrog"' >> ~/.bashrc
 
-Csh-like shells:
+Csh-like shells—Csh, Tcsh:
 
     $ echo 'alias livefrog raco livefrog' >> ~/.cshrc
 
