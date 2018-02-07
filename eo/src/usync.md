@@ -8,6 +8,16 @@ Sinkronigi Retnodojn per Usync
 >Kion mi ne povas krei, mi ne komprenas.<br>
 >―Richard P. FEYNMAN
 
+Lok-al-loka sinkrorigo estas kutime bezonata, kiam du lokoj, kreas dosierajn ĝisdatigojn
+sendepende. Ni diru, ke la firmao _Foo_ havas du oficejojn. En la unua oficejo, ili havas la
+librotenada kaj loĝistika fakoj. En la dua oficejo, ili havas la komputika kaj homfaktora
+fakoj. Ambaŭ havas komunan `/pub` arbon, kiu havas atribuitajn subdosierujojn al ĉiu fako. Sen
+sinkronigo, kiam la unua oficejo bezonas la informon de la dua oficejo, ili bezonas tiri la
+ĝisdatigojn mane. Per sinkronigo, la unua oficejo povas aliri la dosierojn el la dua oficejo, kvazaŭ
+la komputika kaj homfaktora fakoj, estis en la unua oficejo. Usync helpas por atingi tion. Estas
+kreita per [Scsh](https://www.scsh.net). Uzas [Unison](http://www.cis.upenn.edu/~bcpierce/unison/)
+kaj [rsync](http://rsync.samba.org/), por ambaŭ- kaj unudirekta sinkronigoj, respektive.
+
 
 Enhavotabelo
 ------------
@@ -21,19 +31,19 @@ Enhavotabelo
 ---------------------------------
 
 Por fari ambaŭdirektan sinkronigon de la dosierujo `/pub/yot/ninam`, inter la nuna retnodo al la
-retnodoj `tarupam`, kaj `taubetmo`, kun konservi la dosierujan strukturon loke, kuru la jenan
+retnodoj `tarupam`, kaj `taubetmo`, dum konservi la dosierujan strukturon loke, kuru la jenan
 komandon. Notu, ke ne devas ekzisti spacetoj inter la retnodaj precizigo, pro la `IFS` media
-variablo, troveblas en plejparto da ŝeloj:
+variablo, troveblas en plimulto de ŝeloj:
 
     $ usync /pub/yot/ninam/ tarupam,taubetmo
 
 La komando supre faros ambaŭdirektan sinkronigon de la dosierujo `ninam/` troveblas sub `/pub/yot`,
 al `tarupam:/pub/yot/`, kaj `taubetmo:/pub/yot/`.
 
-Per la ekzemplo supre, la amdaŭriekta sinkronigo simple diras, ke se la arbo `tarupam:/pub/yot/ninam/`
-enhavas novan kaj/aŭ ĝisdatigatajn erojn, kontraŭas `localhost:/pub/yot/ninam/`, kaj
-`localhost:/pub/yot/ninam/` ankaŭ novajn kaj/aŭ ĝisdatigatajn erojn, tiam, ili intersanĝigas
-ĝisdatojn.
+Per la ekzemplo supre, la ambaŭdirekto sinkronigo simple diras, ke se la arbo
+`tarupam:/pub/yot/ninam/` enhavas novajn kaj/aŭ ĝisdatigatajn erojn, kontraŭas
+`localhost:/pub/yot/ninam/`, kaj `localhost:/pub/yot/ninam/` ankaŭ havas novajn kaj/aŭ ĝisdatigatajn
+erojn, tiam, ili intersanĝigas ĝisdatigojn.
 
 
 <a name="altniveluzado"></a>Altnivela uzado
@@ -62,4 +72,6 @@ Por vidi pli da informo, kuru:
 <a name="finaj"></a>Finaj rimarkoj
 ----------------------------------
 
-Kelkaj dosieroj kaj regulesprimoj estas enkonstruitaj kiel eksigoj. Ili eble sencas aŭ ne. Se vi opinias, ke ili devas ŝanĝita, liberiĝu por sendi tirpeton. La fontoj estas haveblaj [ĉi tie](https://github.com/ebzzry/usync).
+Kelkaj dosieroj kaj regulesprimoj estas enkonstruitaj kiel eksigoj. Ili eble faras sencon aŭ ne. Se
+vi opinias, ke ili devas ŝanĝitaj, liberiĝu por sendi tirpeton. La fontoj estas haveblaj
+[ĉi tie](https://github.com/ebzzry/usync).
