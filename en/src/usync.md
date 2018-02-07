@@ -3,21 +3,21 @@ Synchronizing Sites with Usync
 
 <center>[Esperante](/eo/usync)  [English](#)</center>
 <div class="center">May 21, 2013</div>
-<div class="center">Updated: March 31, 2017</div>
+<div class="center">Updated: February 7, 2018</div>
 
 >What I cannot create, I do not understand.<br>
 >―Richard P. Feynman
 
-Site-to-site synchronizations are usually needed, when two locations, which are called sites, in
-this article, make file updates independently. Let’s say the company _Foo_ has two offices. In the
-first office, they have the accounting, and logistics departments. In the second office, they have
-the IT, and HR departments. Both have a common `/pub` tree, that has subdirectories assigned to each
+Site-to-site synchronizations are usually needed, when two locations, make file updates
+independently. Let’s say the company _Foo_ has two offices. In the first office, they have the
+accounting, and logistics departments. In the second office, they have the IT, and HR
+departments. Both have a common `/pub` tree, that has subdirectories assigned to each
 department. Without synchronization, when the first office needs information from the second office,
 they’d have to pull the updates, manually. With synchronization, the first office can access the
 files from the second office, as if the IT and HR departments, were in the first office. Usync helps
-to achieve this. Is a a site-to-site synchronization tool written in [Scsh](https://www.scsh.net). It
-makes use of [Unison](http://www.cis.upenn.edu/~bcpierce/unison/),
-and [rsync](http://rsync.samba.org/), for bi- and uni-directional synchronizations, respectively.
+to achieve this. Is a written in [Scsh](https://www.scsh.net). It makes use of
+[Unison](http://www.cis.upenn.edu/~bcpierce/unison/), and [rsync](http://rsync.samba.org/), for bi-
+and uni-directional synchronizations, respectively.
 
 
 Table of contents
