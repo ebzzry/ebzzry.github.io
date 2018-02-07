@@ -1,6 +1,7 @@
 Synchronizing Sites with Usync
 ==============================
 
+<center>[Esperante](/eo/usync)  [English](#)</center>
 <div class="center">May 21, 2013</div>
 <div class="center">Updated: March 31, 2017</div>
 
@@ -31,9 +32,9 @@ Table of contents
 -------------------------------------
 
 To perform two-way synchronization of the directory `/pub/yot/ninam`, between the current host, to
-the hosts `tarupam`, and `taubetmo`, while preserving the directory structure remotely (take note,
-that there must be no spaces between the hosts specification, due to the `IFS` environment variable,
-found in most shells):
+the hosts `tarupam`, and `taubetmo`, while preserving the directory structure remotely, run the
+following command. Take note, that there must be no spaces between the hosts specification, due to
+the `IFS` environment variable, found in most shells:
 
     $ usync /pub/yot/ninam/ tarupam,taubetmo
 
