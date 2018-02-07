@@ -1,8 +1,9 @@
 Migrating from LiveJournal to Frog
 ==================================
 
+<center>[Esperante](/eo/frog)  [English](#)</center>
 <div class="center">May 29, 2013</div>
-<div class="center">Updated: October 19, 2017</div>
+<div class="center">Updated: February 7, 2018</div>
 
 >I don’t know where I’m going, but I’m on my way.<br>
 >―Carl Sagan
@@ -28,7 +29,7 @@ Table of contents
 
 
 <a name="overview"></a> Overview
-----------------------------------------
+--------------------------------
 
 livefrog is a utility written in [Racket](http://racket-lang.org), used to migrate LiveJournal posts
 to Frog, a blogging platform written in Racket, too. It uses the files dumped by
@@ -69,20 +70,20 @@ The trailing slashes are important, to tell `raco` that you are installing from 
 directories. Without it, it will try to fetch the sources from the internet.
 
 
-<a name="usage"></a> Usage 
----------------------------
+<a name="usage"></a> Usage
+--------------------------
 
 This sections contains instructions for creating files suitable for use with Frog.
 
 
-### <a name="basics"></a> Basics
+### <a name="basics"></a>Basics
 
-To create a Markdown file from the file entry.xml
+To create a Markdown file from the file `entry.xml`
 
     $ raco livefrog -m entry.xml
 
 That, however, becomes cumbersome if you’re going to manage more than a hundred entries. To
-automatically “pick up” the files created by ljdump or ljmigrate, and convert them to Markdown.
+automatically “pick up” the files created by ljdump or ljmigrate, and convert them to Markdown
 
     $ raco livefrog -am
 
@@ -180,4 +181,4 @@ Csh-like shells:
 Replace `.bashrc` and `.cshrc`, with the appropriate init file for your shell.
 
 The sources, along with additional information, are
-located [here](https://github.com/ebzzry/livefrog). If you know a bit of Racket, fork it!
+located [here](https://github.com/ebzzry/livefrog). If you know Racket, fork it!

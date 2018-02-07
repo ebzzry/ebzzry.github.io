@@ -21,7 +21,8 @@ Pensoj de Pedanta Pirato
 <div class="text-right">Retejo pri komputado, homaj inklinoj, kaj harazadaj umoj.</div>
 <div class="text-right">Enskriboj estas ordigataj laŭ inversa kronologia ordo.</div>
 
-- [Sinkronigi Lokojn per Usync](usync)
+- [Migri de LiveJournal al Frog](livefrog)
+- [Sinkronigi Retnodojn per Usync](usync)
 - [Malŝparitaj Malcedemoj](malsxparitaj)
 - [Supre, Malsupre, kaj Aliloke](supre-malsupre)
 - [La Ipsilona Kombinatoro En Ses Paŝoj](ipsilono)
