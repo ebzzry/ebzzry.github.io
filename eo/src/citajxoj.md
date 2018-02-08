@@ -602,3 +602,7 @@ tra la jaroj.
 
 - Ĉiuj komprenoj komencas per ni ne konsenti la mondon kiel ĝi aperas.<br>
   ―Susan SONTAG
+
+
+- El la militolernejo de la vivo: Kion ne detruas min, faras min pli forta.<br>
+  ―Friedrich NIETZSCHE

@@ -1,10 +1,11 @@
 In Retrospect
 =============
 
+<center>[Esperante](/eo/retrospekte)  [English](#)</center>
 <div class="center">July 11, 2013</div>
 <div class="center">Updated: April 1, 2017</div>
 
->From life’s school of war: what does not kill me makes me stronger.<br>
+>Out of life's school of war: What does not destroy me, makes me stronger.<br>
 >―Friedrich Nietzsche
 
 I haven’t fully appreciated what those words meant, prior to now. I have learned that aside from
@@ -70,5 +71,5 @@ Armed with more knowledge, I am now more eager, to face any challenge, even if i
 storm. I will cross my old boundaries, even if it means getting wounded, again. I will dare the
 demons to come right at me, for I will make them experience a thousand deaths. Every time I will get
 knocked down, I will get back up again to continue the fight. I will hit hard, harder than than my
-last strike, as long blood courses through my body, and as long as I feel the tangible air of my
+last strike, as long as blood courses through my body, and as long as I feel the tangible air of my
 breath.
