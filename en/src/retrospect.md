@@ -3,7 +3,7 @@ In Retrospect
 
 <center>[Esperante](/eo/retrospekte)  [English](#)</center>
 <div class="center">July 11, 2013</div>
-<div class="center">Updated: April 1, 2017</div>
+<div class="center">Updated: Februray 8, 2018</div>
 
 >Out of life's school of war: What does not destroy me, makes me stronger.<br>
 >―Friedrich Nietzsche
@@ -15,10 +15,9 @@ eyes.
 
 When we take a lot of pain, and survive it, we will live to tell the tale. We will live to share the
 story for generations to come. When we endure, and embrace the necessary agony, we are forced to
-think in retrospect. We are then forced to perform analysis. We are then put into a position,
-wherein, we can no longer procrastinate about the next ideal thing to do. I realized, that when we
-survive the ordeal, something magical begins to happen. And as for me, it came in the form of a rude
-awakening.
+think in retrospect. We are then forced to analize. We are then put into a position, wherein, we can
+no longer procrastinate about the next ideal thing to do. I realized, that when we survive the
+ordeal, something magical begins to happen. And as for me, it came in the form of a rude awakening.
 
 Little did I know, that something critical was about to unfold. By not denying my state, I was able
 to embrace the reward. It dawned on me, that when I was able to gasp back for air, I have unlocked
@@ -45,12 +44,11 @@ answer, myself, as if trying to find my own way back home.
 
 At one point, someone knocked on my door—it was regret. Despite his seemingly pitiful state, I
 declined to let him in, no matter how persistent he was. I knew that the moment I let him in, he’d
-feel immediately welcome for himself, and feel comfortable around the place, as if it was his, in
-the first place. Every time he knocked on my door, he asked if he was welcome. I boldly said
-_“No.”_, every single time. I would have told myself that had I not done it, I would have not
-experienced the pain. This is wrong in many ways, because had I not done it, I wouldn’t be there in
-the first place, to ask that question. The ability to ask that question was a testimony to the
-experience. Hindsight is 20/20.
+feel immediately welcome for himself, and feel comfortable around the place, as if it was his. Every
+time he knocked on my door, he asked if he was welcome. I boldly said _“No.”_, every single time. I
+would have told myself that had I not done it, I would have not experienced the pain. This is wrong
+in many ways, because had I not done it, I wouldn’t be there in the first place, to ask that
+question. The ability to ask that question was a testimony to the experience. Hindsight is 20/20.
 
 I have frequently heard the phrase _“You shouldn’t have given your everything.”_ That may have
 worked for them. That may have worked for their methods, but definitely not for me. Why? Because you

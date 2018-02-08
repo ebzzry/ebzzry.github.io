@@ -426,12 +426,12 @@ CL, and each implementation strives to achieve goals that may not necessarily be
 other implementations. That’s OK, because it gives room for implementors and designers, on how to
 work on the base specifications. As long as they conform to the standard, things are green.
 
-I wrote a simple [Nixpkgs/NixOS helper](https://github.com/ebzzry/baf) as a working example of
+I wrote a simple [Nix](https://github.com/ebzzry/baf) as a working example of
 how I use CL scripting.
 
 The human responsible for making scripting in CL possible and acceptable,
-is [Faré Rideau (Fare)](http://fare.tunes.org). It was [this blog
-entry](http://fare.livejournal.com/184127.html) of his that motivated me to see the viability of CL
+is [Faré Rideau (Fare)](http://fare.tunes.org). It was 
+[this blog entry](http://fare.livejournal.com/184127.html) of him that motivated me to see the viability of CL
 as a scripting language. You may send your donations to him via [PayPal](https://paypal.me/fahree)
 or [Bitcoin](bitcoin:1fareF6wCNYYiLPGmyQjrd3AQdHBb1CJ6). The source code for this article can be
 found [here](https://github.com/ebzzry/my-scripts), while the scripts that I use for personal use

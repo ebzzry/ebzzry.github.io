@@ -7,8 +7,8 @@ Pensoj de Pedanta Pirato
 
 <img src="/images/kafofaboj.jpg" class="banner" alt="kafofaboj" />
 
-<div class="text-right">Retejo pri komputado, homaj inklinoj, kaj hazardaj umoj.</div>
-<div class="text-right">Enskriboj estas ordigataj laŭ inversa kronologia ordo.</div>
+<div class="text-right">Retejo pri komputiko, homaj inklinoj, kaj hazardaj umoj.</div>
+<div class="text-right">Enskriboj ordigatas laŭ inversa kronologia ordo.</div>
 
 - [Retrospekte](retrospekte)
 - [Migri de LiveJournal al Frog](livefrog)
