@@ -611,3 +611,7 @@ the years.
 
 - All understanding begins with our not accepting the world as it appears.<br>
   ―Susan Sontag
+
+
+- Out of life's school of war: What does not destroy me, makes me stronger.<br>
+  ―Friedrich Nietzsche
