@@ -137,7 +137,7 @@ the following command then copy the output:
 
 Go to <https://github.com/settings/ssh>, then click **Add SSH key**
 
-![Add SSH key](/images/add-ssh-key.png)
+![Add SSH key](/bildoj/add-ssh-key.png)
 
 Paste the key, then follow through.
 
@@ -146,7 +146,7 @@ Paste the key, then follow through.
 
 In your repositories page, create a new repository by clicking **New**:
 
-![New](/images/new-repository.png)
+![New](/bildoj/new-repository.png)
 
 Follow through the prompts. When you have filled in the required fields, you’ll get a string of
 commands. Replace `shoryuken` and `foobar` with your GitHub username, and the name of the repository
@@ -173,13 +173,13 @@ changes to your own fork.
 
 First, fork the project. Go to the project that you want to fork, then click **Fork**:
 
-![Fork](/images/fork.png)
+![Fork](/bildoj/fork.png)
 
 This will create a copy of a repository in your own GitHub account.
 
 Next, you need to clone that forked project, to your local disk. Copy the URL located in the **SSH clone URL** field:
 
-![SSH clone URL](/images/ssh-clone-url.png)
+![SSH clone URL](/bildoj/ssh-clone-url.png)
 
 then run the following command, where `hadoken` is your username:
 
@@ -203,15 +203,15 @@ changes to your fork:
 If you want the source repository to merge your changes, create a _Pull Request_ by going to the
 source repository’s page, then click **Pull requests**:
 
-![Pull Requests](/images/pull-requests.png)
+![Pull Requests](/bildoj/pull-requests.png)
 
 On the next page, click **New pull request**:
 
-![New Pull Request](/images/new-pull-request.png)
+![New Pull Request](/bildoj/new-pull-request.png)
 
 Select **compare across forks**:
 
-![Compare Across Forks](/images/compare-across-forks.png)
+![Compare Across Forks](/bildoj/compare-across-forks.png)
 
 In the left side, under the **base fork** field, select **shoryuken/foobar**, and in the **base**
 field, select **master**.
@@ -219,7 +219,7 @@ field, select **master**.
 In the right side, under the **head fork** field, select **hadoken/foobar**, and in the **compare**
 select **new-options**, or whatever name you used above. Click **Create pull request**:
 
-![Create pull request](/images/create-pull-request.png)
+![Create pull request](/bildoj/create-pull-request.png)
 
 then, follow through.
 
@@ -242,7 +242,7 @@ Then push to your own repository:
 If you are the owner of the source repository, and you want to pull in changes from contributors,
 click **Pull requests** from the repository page:
 
-![Pull requests](/images/pull-requests.png)
+![Pull requests](/bildoj/pull-requests.png)
 
 then, follow through.
 

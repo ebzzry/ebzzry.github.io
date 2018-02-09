@@ -7,7 +7,7 @@ My Kinesis Advantage Layout
 >Pain is inevitable. Suffering is optional.<br>
 >―M. Kathleen Casey
 
-<img src="/images/advantage.jpg" style="display: block; width: 100%; margin-left: auto;
+<img src="/bildoj/advantage.jpg" style="display: block; width: 100%; margin-left: auto;
 margin-right: auto;" alt="Kinesis Advantage" title="Kinesis Advantage"/>
 
 
@@ -43,7 +43,7 @@ When using Dvorak emulation, the following layout is how the keys are mapped:
 
 Original Software Dvorak:
 
-<a href="/images/kadv-dvorak-0.png"><img src="/images/kadv-dvorak-0.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="Original Software Dvorak" title="Original Software Dvorak"/></a>
+<a href="/bildoj/kadv-dvorak-0.png"><img src="/bildoj/kadv-dvorak-0.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="Original Software Dvorak" title="Original Software Dvorak"/></a>
 
 Yuck. Using this layout on Emacs or Zsh, is hell: to press <kbd>M-x</kbd>, one would have to press
 the <kbd>Alt</kbd> key with the right thumb, then the <kbd>x</kbd> key with the left index
@@ -57,7 +57,7 @@ I remapped some of the keys, to fit my workflow. The new layout is as follows.
 
 Remapped Software Dvorak:
 
-<a href="/images/kadv-dvorak-1.png"><img src="/images/kadv-dvorak-1.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="Remapped Software Dvorak" title="Remapped Software Dvorak"/></a>
+<a href="/bildoj/kadv-dvorak-1.png"><img src="/bildoj/kadv-dvorak-1.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="Remapped Software Dvorak" title="Remapped Software Dvorak"/></a>
 
 I used <kbd>Insert</kbd> in lieu of <kbd>Esc</kbd>, so that I can easily access the `XA_PRIMARY`
 selection using <kbd>Shift + Insert</kbd>. The `XA_PRIMARY` selection is where your mouse highlights
