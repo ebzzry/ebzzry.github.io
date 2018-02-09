@@ -1,6 +1,6 @@
 .PHONY: all clean
 
-FILES=$(filter-out src/pagxopiedo.md src/index.md, $(wildcard src/*.md))
+FILES=$(filter-out fkd/pagxopiedo.md fkd/index.md, $(wildcard fkd/*.md))
 BUILDER=emem
 
 DESCRIPTION="$$(cat ./PRIPAROLO)"
@@ -12,26 +12,29 @@ ANALYTICS="93746003-1"
 
 all:
 	parallel --will-cite "$(MAKE) {/.}.html" ::: $(FILES)
-	$(BUILDER) -D $(DESCRIPTION) -K $(KEYWORDS) \
+	$(BUILDER) \
+          -D "Retejo pri komputiko, homaj inklinoj, kaj hazardaj umoj." \
+          -K "ebzzry, rommel, martinez, pedanta pirato" \
           --og-title "Pensoj de Pedanta Pirato" --og-type $(OG_TYPE) \
           --og-url "https://ebzzry.io/eo/" \
           --og-image $(OG_IMAGE) \
           --analytics $(ANALYTICS) \
           --lang "eo" \
           -RFiamuo index.html \
-          src/index.md src/pagxopiedo.md
+          fkd/index.md fkd/pagxopiedo.md
 
-%.html: src/%.md
+%.html: fkd/%.md
 	if [[ ! -d "$$(basename $< .md)" ]]; then mkdir "$$(basename $< .md)"; fi
-	$(BUILDER) -D $(DESCRIPTION) -K $(KEYWORDS) \
+	$(BUILDER) \
+          -D $(DESCRIPTION) -K $(KEYWORDS) \
           --og-title $(OG_TITLE) --og-type $(OG_TYPE) \
           --og-url "https://ebzzry.io/eo/$$(basename $< .md)/" \
           --og-image $(OG_IMAGE) \
           --analytics $(ANALYTICS) \
           --lang "eo" \
           -RFiamuo "$$(basename $< .md)/index.html" \
-          $< src/pagxopiedo.md
+          $< fkd/pagxopiedo.md
 
 clean:
 	rm -vf *.html
-	find . -maxdepth 1 -type d ! -path . ! -iname src -exec rm -rf {} \;
+	find . -maxdepth 1 -type d ! -path . ! -iname fkd -exec rm -rf {} \;

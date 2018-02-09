@@ -1,6 +1,6 @@
 .PHONY: all clean rebuild
 
-FILES=$(wildcard src/*.md)
+FILES=$(wildcard fkd/*.md)
 BUILDER=emem
 
 OG_TITLE="$$(head -1 $<)"
@@ -9,7 +9,7 @@ OG_IMAGE="https://ebzzry.io/static/ico/android-chrome-512x512.png"
 ANALYTICS="93746003-1"
 
 
-%.html: src/%.md
+%.html: fkd/%.md
 	$(BUILDER) \
           --og-title $(OG_TITLE) --og-type $(OG_TYPE) \
           --og-url "https://ebzzry.io/$$(basename $< .md).html" \
@@ -22,7 +22,6 @@ all:
 	$(BUILDER) -r
 	$(MAKE) $(MFLAGS) -C eo
 	$(MAKE) $(MFLAGS) -C en
-	#$(MAKE) $(MFLAGS) -C ilo
 	parallel --will-cite "$(MAKE) {/.}.html" ::: $(FILES)
 
 clean:
@@ -30,7 +29,6 @@ clean:
 	rm -rvf static
 	$(MAKE) -C eo $@
 	$(MAKE) -C en $@
-	#$(MAKE) -C ilo $@
 
 rebuild:
 	$(MAKE) clean

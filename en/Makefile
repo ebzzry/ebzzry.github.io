@@ -1,6 +1,6 @@
 .PHONY: all clean
 
-FILES=$(filter-out src/footer.md src/index.md, $(wildcard src/*.md))
+FILES=$(filter-out fkd/footer.md fkd/index.md, $(wildcard fkd/*.md))
 BUILDER=emem
 
 DESCRIPTION="$$(cat ./DESCRIPTION)"
@@ -19,9 +19,9 @@ all:
           --analytics $(ANALYTICS) \
           --lang "en" \
           -RFiamuo index.html \
-          src/index.md src/footer.md
+          fkd/index.md fkd/footer.md
 
-%.html: src/%.md
+%.html: fkd/%.md
 	if [[ ! -d "$$(basename $< .md)" ]]; then mkdir "$$(basename $< .md)"; fi
 	$(BUILDER) -D $(DESCRIPTION) -K $(KEYWORDS) \
           --og-title $(OG_TITLE) --og-type $(OG_TYPE) \
@@ -30,8 +30,8 @@ all:
           --analytics $(ANALYTICS) \
           --lang "en" \
           -RFiamuo "$$(basename $< .md)/index.html" \
-          $< src/footer.md
+          $< fkd/footer.md
 
 clean:
 	rm -vf *.html
-	find . -maxdepth 1 -type d ! -path . ! -iname src -exec rm -rf {} \;
+	find . -maxdepth 1 -type d ! -path . ! -iname fkd -exec rm -rf {} \;
