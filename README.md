@@ -2,25 +2,23 @@ ebzzry.io
 =========
 
 
-This repository contains the sources for [https://ebzzry.io](ebzzry.io).
+Ĉi tiu deponejo enhavas la fontojn de [https://ebzzry.io](ebzzry.io).
 
 
-Building
---------
-
-To build the HTML files, you need the following:
+Dependencoj
+-----------
 
 * [JRE](http://java.com/download)
 * [emem](https://github.com/ebzzry/emem)
 
-Then, run:
 
-```bash
-$ make
-```
+Munti
+-----
 
-If you have Nix installed, you may instead run:
+Por munti la HTML-ajn dosierojn, kuru la jenan:
 
-```bash
-$ nix-shell --pure --run make
-```
+    $ make
+
+Se vi havas ja Nix instalita, vi anstataŭe eblas kuru:
+
+    $ nix-shell --pure --run make
