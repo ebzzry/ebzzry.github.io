@@ -3,9 +3,9 @@ About
 
 <center>[Esperanto](/eo/pri)  [English](#)</center>
 <center>March 27, 2017</center>
-<center>Updated: November 16, 2017</center>
+<center>Updated: February 9, 2018</center>
 
-<img style="margin-right: 0.5em; margin-bottom: 0.5em;" src="/bildoj/author.jpg" alt="Ve!" title="Ve!" align="left" />
+<img style="margin-right: 0.5em; margin-bottom: 0.5em;" src="/bildoj/ebzzry.jpg" alt="Ve!" title="Ve!" align="left" />
 Rommel Martinez is a space pirate of unknown descent. He is currently in human form and was last
 spotted interacting with Earthlings in the Milky Way galaxy.
 
