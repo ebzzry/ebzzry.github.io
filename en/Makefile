@@ -1,33 +1,37 @@
 .PHONY: all clean
 
-FILES=$(filter-out fkd/footer.md fkd/index.md, $(wildcard fkd/*.md))
-BUILDER=emem
+DOSIEROJ=$(filter-out fkd/footer.md fkd/index.md, $(wildcard fkd/*.md))
+KONSTRUILO=emem
 
-DESCRIPTION="$$(cat ./DESCRIPTION)"
-KEYWORDS="$$(cat ./KEYWORDS)"
 OG_TITLE="$$(head -1 $<)"
 OG_TYPE="article"
 OG_IMAGE="https://ebzzry.io/static/ico/android-chrome-512x512.png"
-ANALYTICS="93746003-1"
+ANALITIKOJ="93746003-1"
 
 all:
-	parallel --will-cite "$(MAKE) {/.}.html" ::: $(FILES)
-	$(BUILDER) -D $(DESCRIPTION) -K $(KEYWORDS) \
-          --og-title "Musings of a Pedantic Pirate" --og-type $(OG_TYPE) \
+	parallel --will-cite "$(MAKE) {/.}.html" ::: $(DOSIEROJ)
+	$(KONSTRUILO) \
+          -D "A journal about computing, human predilections, and random krakaboom." \
+          -K "ebzzry, rommel, martinez, rommel martinez, padantic pirate" \
+          --og-title "Musings of a Pedantic Pirate" \
+          --og-type $(OG_TYPE) \
           --og-url "https://ebzzry.io/en/" \
           --og-image $(OG_IMAGE) \
-          --analytics $(ANALYTICS) \
+          --analytics $(ANALITIKOJ) \
           --lang "en" \
           -RFiamuo index.html \
           fkd/index.md fkd/footer.md
 
 %.html: fkd/%.md
 	if [[ ! -d "$$(basename $< .md)" ]]; then mkdir "$$(basename $< .md)"; fi
-	$(BUILDER) -D $(DESCRIPTION) -K $(KEYWORDS) \
-          --og-title $(OG_TITLE) --og-type $(OG_TYPE) \
+	$(KONSTRUILO) \
+          -D $(OG_TITLE) \
+          -K "$$(cat $<.dat)" \
+          --og-title $(OG_TITLE) \
+          --og-type $(OG_TYPE) \
           --og-url "https://ebzzry.io/en/$$(basename $< .md)/" \
           --og-image $(OG_IMAGE) \
-          --analytics $(ANALYTICS) \
+          --analytics $(ANALITIKOJ) \
           --lang "en" \
           -RFiamuo "$$(basename $< .md)/index.html" \
           $< fkd/footer.md
