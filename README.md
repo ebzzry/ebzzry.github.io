@@ -1,10 +1,12 @@
-ebzzry.github.io
-================
-
-This repository contains the source for [https://ebzzry.io](ebzzry.io).
+ebzzry.io
+=========
 
 
-## Building
+This repository contains the sources for [https://ebzzry.io](ebzzry.io).
+
+
+Building
+--------
 
 To build the HTML files, you need the following:
 
