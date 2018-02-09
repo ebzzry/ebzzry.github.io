@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+		}
 <rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
 <channel>
   <title>ROR Sitemap for https://ebzzry.io/</title>
@@ -13,11 +14,19 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
+     <link>https://ebzzry.io/eo/</link>
+     <title>Pensoj de Pedanta Pirato</title>
+     <description>Pensoj de Pedanta Pirato</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
      <link>https://ebzzry.io/en/</link>
      <title>Musings of a Pedantic Pirate</title>
      <description>Musings of a Pedantic Pirate</description>
      <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>1</ror:sortOrder>
+     <ror:sortOrder>2</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 </channel>
