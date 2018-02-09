@@ -1,28 +1,30 @@
 .PHONY: all clean rebuild
 
-FILES=$(wildcard fkd/*.md)
-BUILDER=emem
+DOSIEROJ=$(wildcard fkd/*.md)
+KONSTRUILO=emem
 
 OG_TITLE="$$(head -1 $<)"
 OG_TYPE="article"
 OG_IMAGE="https://ebzzry.io/static/ico/android-chrome-512x512.png"
-ANALYTICS="93746003-1"
+ANALITIKOJ="93746003-1"
 
 
 %.html: fkd/%.md
-	$(BUILDER) \
+	$(KONSTRUILO) \
           --og-title $(OG_TITLE) --og-type $(OG_TYPE) \
+          -D $(OG_TITLE) \
+          -K "ebzzry, rommel, martinez, rommel martinez" \
           --og-url "https://ebzzry.io/$$(basename $< .md).html" \
           --og-image $(OG_IMAGE) \
-          --analytics $(ANALYTICS) \
+          --analytics $(ANALITIKOJ) \
           -RFiamuo "$$(basename $< .md).html" \
           $<
 
 all:
-	$(BUILDER) -r
+	$(KONSTRUILO) -r
 	$(MAKE) $(MFLAGS) -C eo
 	$(MAKE) $(MFLAGS) -C en
-	parallel --will-cite "$(MAKE) {/.}.html" ::: $(FILES)
+	parallel --will-cite "$(MAKE) {/.}.html" ::: $(DOSIEROJ)
 
 clean:
 	find . -maxdepth 1 -name '*.html' ! -name 'sitemap.html' ! -name 'index.html' -exec rm -vf {} \;
