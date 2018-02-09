@@ -7,7 +7,7 @@ Scripting in Common Lisp
 >The light that burns twice as bright burns half as long.<br>
 >―Dr. Eldon Tyrell, Blade Runner (1982)
 
-<img src="/images/lisp-logo.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="common-lisp.net logo" title="common-lisp.net logo"/>
+<img src="/bildoj/lisp-logo.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="common-lisp.net logo" title="common-lisp.net logo"/>
 
 Full-fledged systems and libraries have always been a comfortable zone for Common Lisp
 users. However, for a long time, there has not been a definitive solution in using CL as a scripting

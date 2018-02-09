@@ -108,7 +108,7 @@ key. Just like with the *multi key*, you assign a key to it. I like to bind two 
 type with both hands. Unlike the multi key, you have to hold it down like the <kbd>Shift</kbd> or
 <kbd>Ctrl</kbd> keys.
 
-If you want to assign the <kbd>![Windows](/images/icon_windows_02_22x22.png "Windows key")</kbd> keys as the mode switch keys, edit
+If you want to assign the <kbd>![Windows](/bildoj/icon_windows_02_22x22.png "Windows key")</kbd> keys as the mode switch keys, edit
 the file `~/.Xmodmap`, then add the following:
 
 ```
@@ -148,14 +148,14 @@ Then, re-read `~/.Xmodmap`:
 $ xmodmap ~/.Xmodmap
 ```
 
-Using the <kbd>![Windows](/images/icon_windows_02_22x22.png "Windows key")</kbd> keys as mode switch
+Using the <kbd>![Windows](/bildoj/icon_windows_02_22x22.png "Windows key")</kbd> keys as mode switch
 keys, to input **ĉ**, press and hold
-<kbd>![Windows](/images/icon_windows_02_22x22.png "Windows key")</kbd>, then press <kbd>c</kbd>. To
-input **Ŭ**, press and hold <kbd>![Windows](/images/icon_windows_02_22x22.png "Windows key")</kbd>,
+<kbd>![Windows](/bildoj/icon_windows_02_22x22.png "Windows key")</kbd>, then press <kbd>c</kbd>. To
+input **Ŭ**, press and hold <kbd>![Windows](/bildoj/icon_windows_02_22x22.png "Windows key")</kbd>,
 press and hold <kbd>Shift</kbd>, then press and release <kbd>u</kbd>. This setup effectively allows
 you to touch type.
 
-On some keyboards, only one <kbd>![Windows](/images/icon_windows_02_22x22.png "Windows key")</kbd>
+On some keyboards, only one <kbd>![Windows](/bildoj/icon_windows_02_22x22.png "Windows key")</kbd>
 is present—usually located on the left side, while the one on the right can be <kbd>PrtSc</kbd>. A
 lot of times, they’re sandwiched between the <kbd>Ctrl</kbd> and <kbd>Alt</kbd> keys. To use that
 key, run `xev` like above, to get the keycode, and update your `~/.Xmodmap`, accordingly. On my
@@ -191,7 +191,7 @@ The advantage of the mode switch method is speed. To see the list of character n
 click [here](http://wiki.linuxquestions.org/wiki/List_of_Keysyms_Recognised_by_Xmodmap).
 
 There’s no best way to do this—use whatever system that fits your style. If you’re already using the
-<kbd>![Windows](/images/icon_windows_02_22x22.png "Windows key")</kbd> keys for something else, and
+<kbd>![Windows](/bildoj/icon_windows_02_22x22.png "Windows key")</kbd> keys for something else, and
 you can only use one “spare” key on your keyboard, then use the multi key method. If you want ease
 of use, use the mode switch method. It is important to note, too, that you can use both methods
 simultaneously.
