@@ -10,7 +10,7 @@
 </div>
 
 <div class="text-x-small">
-<a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.eo"><img alt="Krea Komunaĵo Atribuite-Samkondiĉe 4.0 Tutmonda Permesilo" class="cc" src="/images/cc4-sa-88x31.png" /></a><br>
+<a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.eo"><img alt="Krea Komunaĵo Atribuite-Samkondiĉe 4.0 Tutmonda Permesilo" class="cc" src="/bildoj/cc4-sa-88x31.png" /></a><br>
 Ĉi tiu verko permesilatas sub <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.eo">KK PER-AS 4.0 Permesilo.</a><br>
 </div>
 
