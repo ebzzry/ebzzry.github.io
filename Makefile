@@ -8,7 +8,6 @@ OG_TYPE="article"
 OG_IMAGE="https://ebzzry.io/static/ico/android-chrome-512x512.png"
 ANALITIKOJ="93746003-1"
 
-
 %.html: fkd/%.md
 	$(KONSTRUILO) \
           --og-title $(OG_TITLE) --og-type $(OG_TYPE) \

@@ -3,13 +3,13 @@ Synchronizing Sites with Usync
 
 <center>[Esperante](/eo/usync)  [English](#)</center>
 <div class="center">May 21, 2013</div>
-<div class="center">Updated: February 7, 2018</div>
+<div class="center">Updated: February 11, 2018</div>
 
 >What I cannot create, I do not understand.<br>
 >―Richard P. Feynman
 
 Site-to-site synchronizations are usually needed, when two locations, make file updates
-independently. Let’s say the company _Foo_ has two offices. In the first office, they have the
+independently. Let’s say the company _Okininam_ has two offices. In the first office, they have the
 accounting, and logistics departments. In the second office, they have the IT, and HR
 departments. Both have a common `/pub` tree, that has subdirectories assigned to each
 department. Without synchronization, when the first office needs information from the second office,
@@ -32,9 +32,9 @@ Table of contents
 -------------------------------------
 
 To perform two-way synchronization of the directory `/pub/yot/ninam`, between the current host, to
-the hosts `tarupam`, and `taubetmo`, while preserving the directory structure remotely, run the
+the hosts `tarupam` and `taubetmo`, while preserving the directory structure remotely, run the
 following command. Take note, that there must be no spaces between the hosts specification, due to
-the `IFS` environment variable, found in most shells:
+the `IFS` environment variable:
 
     $ usync /pub/yot/ninam/ tarupam,taubetmo
 
