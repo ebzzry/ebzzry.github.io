@@ -3,7 +3,7 @@ La Ipsilona Kombinatoro En Ses Paŝoj
 
 <center>[Esperante](#)  [English](/en/y)</center>
 <center>la 25-an de Novembro 2017</center>
-<center>Laste ŝanĝita: la 1-an de Decembro 2017</center>
+<center>Laste ŝanĝita: la 12-an de Februaro 2018</center>
 
 >Unue, decidu. Kaj faru ĝin. Estas la nur maniero por atingi ion.<br>
 >―Lacus CLYNE, Gundam SEED Destiny
@@ -64,7 +64,7 @@ Oni rimarkis, ke mi difinis `foo` per eksplicita `lambda`. Oni vidos postnelonge
 ------------------------------------------------------------------------
 
 Ni dismembrigu tiun proceduron pli detale, per pli rudimentaj eroj, kaj oni aplikos ĝin, per
-funkcivokarigi (angle __currying_).
+funkcivokarigi (angle [currying](https://en.wikipedia.org/wiki/Currying)).
 
 ```scheme
 > (define foo
@@ -86,7 +86,7 @@ metodon uzata interne: `((foo foo) 100)`.
 <a name="mem">Paŝo 3-a: Apliku la proceduron al si mem</a>
 ----------------------------------------------------------
 
-Oni nun estas troprofitonta ĉi tiun kvaliton, por uzi sennomatan aliro—ne per la `foo` identigilo.
+Oni nun eluzas ĉi tiun kvaliton, por uzi sennomatan aliron—ne per la `foo` identigilo.
 
 ```scheme
 > (((lambda (f)
@@ -103,7 +103,7 @@ Oni nun estas troprofitonta ĉi tiun kvaliton, por uzi sennomatan aliro—ne per
 5050
 ```
 
-Konstatu, ke nun, oni ne plu uzos la `foo` nomon por referenci la difinon, krom poste.
+Konstatiĝu, ke nun, oni ne plu uzos la `foo` nomon por referenci la difinon, krom poste.
 
 
 <a name="enan">Paŝo 4-a: Abstraktu la enan alvokon</a>
@@ -189,6 +189,6 @@ proceduro.
 <a name="finaj">Finaj rimarkoj</a>
 ----------------------------------
 
-Kiam la kurtaj konceptoj estas komprenata, estos facila por kapti la ŝajne malfacilegajn ideojn. Mi
+Kiam la kernaj konceptoj estas komprenataj, estos facile por kapti la ŝajne malfacilegajn ideojn. Mi
 esperas, ke ĉi tiu artikolo estas utila por fari onin kompreni la ipsilonan kombinatoron,
-funkcivokarigi, kaj proceduran aplikon.
+funkcivokarigon, kaj proceduran aplikon.
