@@ -73,5 +73,5 @@ Por vidi pli da informo, kuru:
 ----------------------------------
 
 Kelkaj dosieroj kaj regulesprimoj enkonstruitas kiel eksigoj. Ili eble faras sencon aŭ ne. Se
-vi opinias, ke ili devas ŝanĝitajn, liberiĝu por sendi tirpeton. La fontoj estas haveblaj
+vi opinias, ke ili devas esti ŝanĝitaj, liberiĝu por sendi tirpeton. La fontoj haveblas
 [ĉi tie](https://github.com/ebzzry/usync).

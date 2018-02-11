@@ -30,7 +30,7 @@ Enhavotabelo
 <a name="superrigardo"></a>Superrigardo
 ---------------------------------------
 
-Livefrog estas utilaĵo, verkita per [Rakido](http://racket-lang.org), kiu uzatas por migri
+Livefrog estas utilaĵo, verkita per [Rakido](http://racket-lang.org), kiu uzatas migri
 LiveJournal-ajn afiŝojn al Frog, blogada platformo ankaŭ verkita per Rakido. Uzas la dosierojn,
 kreitaj de aŭ [ljdump](http://hewgill.com/ljdump/) aŭ
 [ljmigrate](https://github.com/ceejbot/ljmigrate).
@@ -61,7 +61,7 @@ GitHub:
     $ git clone https://github.com/ebzzry/livefrog.git
     $ raco pkg install frog/ sxml/ livefrog/
 
-La vostaj suprenstrekoj gravas, por diri al `raco`, ke oni instalas el lokaj dosierujoj. Elŝutos
+La vostaj suprenstrekoj gravas por diri al `raco`, ke oni instalas el lokaj dosierujoj. Elŝutos
 la fontojn de la interreto sen tio.
 
 
