@@ -18,7 +18,7 @@ premisis, nun estas io ke volus postuli atlazajn fortojn de mi por eĉ komenci v
 nemalpliiĝantajn esploremecojn, kiujn mi unufoje facile manprenis, por miaj ĉiutagaj interpuŝiĝoj
 pri la svarmoj de razioj de la vivo.
 
-Kiam ni translokas preter niaj zonoj de konsolo, ni estas plenigitaj per avideco por reveni al niaj
+Kiam ni translokas preter niaj zonoj de konsolo, ni plenigitas per avideco por reveni al niaj
 propraj fortikaj bunkroj. Ni vidas niajn proprajn fantomemajn similulojn, komunikantaj kaj
 montrantaj al ni kion minacantaj abomenaĵoj eble altiĝas el la tero, pretaj por vive vori nin. Ju
 pli ni restas ekster, des pli alta la probablo de morto.

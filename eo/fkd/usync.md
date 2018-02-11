@@ -38,11 +38,11 @@ variablo:
     $ usync /pub/yot/ninam/ tarupam,taubetmo
 
 La antaŭ komando faros ambaŭdirektan sinkronigon de la dosierujo `ninam/` troveblas sub `/pub/yot`,
-al `tarupam:/pub/yot/`, kaj `taubetmo:/pub/yot/`.
+al `tarupam:/pub/yot/` kaj `taubetmo:/pub/yot/`.
 
 Per la antaŭ ekzemplo, la ambaŭdirekto sinkronigo simple diras, ke se la arbo
 `tarupam:/pub/yot/ninam/` enhavas novajn aŭ ĝisdatigatajn erojn, kontraŭas
-`localhost:/pub/yot/ninam/`, kaj `localhost:/pub/yot/ninam/` ankaŭ havas novajn aŭ ĝisdatigatajn
+`localhost:/pub/yot/ninam/` kaj `localhost:/pub/yot/ninam/` ankaŭ havas novajn aŭ ĝisdatigatajn
 erojn, tiam, ili intersanĝigas ĝisdatigojn.
 
 
@@ -55,7 +55,7 @@ fari tiel, kuru:
     $ usync /pub/yot/ninam/ ~/file.text ~reyn/*.blend tarupam,taubetmo
 
 La antaŭ komando faros ambaŭdirektan sinkronigon de la dosierindikoj `/pub/yot/ninam/`,
-`~/file.text`, kaj `~reyn/*.blend` al la mallokaj retnodoj `tarupam`, kaj `taubetmo`, per la sama
+`~/file.text`, kaj `~reyn/*.blend` al la mallokaj retnodoj `tarupam` kaj `taubetmo`, laŭ la sama
 dosieruja struktura sistemo kiu estas priskribita supre.
 
 Se vi volas fari unudirektan sinkronigon de la supraj, kiel _rsync_, kuru:
