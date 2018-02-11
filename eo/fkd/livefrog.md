@@ -176,7 +176,7 @@ Per Csh-ecaj ŝeloj—Csh, Tcsh:
 
     $ echo 'alias livefrog raco livefrog' >> ~/.cshrc
 
-Anstataŭigu `.bashrc` kaj `.cshrc`, per la taŭgaj pravalorizaj dosieroj por via ŝelo.
+Anstataŭigu `.bashrc` kaj `.cshrc`, laŭ la taŭgaj pravalorizaj dosieroj por via ŝelo.
 
 La fontoj, kun la aldonaj informoj, troveblas [ĉi tie](https://github.com/ebzzry/livefrog). Se vi
 konas Rakidon, forku ĝin!
