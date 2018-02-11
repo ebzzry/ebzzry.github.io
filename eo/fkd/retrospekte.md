@@ -3,7 +3,7 @@ Retrospekte
 
 <center>[Esperante](#)  [English](/en/retrospect)</center>
 <center>la 8-an de Februaro 2018</center>
-<center>Laste ŝanĝita: la 8-an de Februaro 2018</center>
+<center>Laste ŝanĝita: la 11-an de Februaro 2018</center>
 
 >El la militolernejo de la vivo: Kion ne detruas min, faras min pli forte.<br>
 >―Friedrich NIETZSCHE
@@ -27,7 +27,7 @@ multaj latentaj partoj de mi, simple restadas esti vekitaj.
 Ĉe la pinto de mia agonio, mi katapultiĝis al memdetruo. Per kolerego, mi fingromontris al mi, sen
 antaŭzorgo. Mi malestime kriegis al mi, meti ĉion de kulpo sur miaj ŝultroj. La plej malbona parto
 de tio, estis, mi haste faris ilin. Mi neprudentis eĉ al mia memo. Mi ne konsciis, ke mi jam bredis
-tutan kolonion de sola specio de vermo, kiu do ankoraŭ manĝas min de la ene kaj manuzis min per ilia
+tutan kolonion de sola specio de vermo, kiu do ankoraŭ manĝas min de la ene kaj manuzis min lau ilia
 volo. Mi ankaŭ tentitis multfoje por krei promesojn al mi; promesoj kiuj iutempe neesprimitas,
 krei mian propran ĥaoson kaj danĝeron. Mi forgesis ami mian propran memon.
 
