@@ -10,7 +10,8 @@ Pensoj de Pedanta Pirato
 <div class="text-right">Retejo pri komputiko, homaj inklinoj, kaj hazardaj umoj.</div>
 <div class="text-right">Enskriboj ordigatas laŭ inversa kronologia ordo.</div>
 
-- [Emaksaj Konsiletoj kaj Ruzetoj: Areoj kaj Indikiloj](emakskonsiletoj-1)
+- [Agordi Dosierujan Administradon en Emakso](emakso-dired)
+- [Emaksaj Konsiletoj kaj Ruzetoj: Regionoj kaj Indikiloj](emakskonsiletoj-1)
 - [Retrospekte](retrospekte)
 - [Migri de LiveJournal al Frog](livefrog)
 - [Sinkronigi Retnodojn per Usync](usync)
