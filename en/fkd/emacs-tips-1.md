@@ -5,10 +5,10 @@ Emacs Tips and Tricks 1: Regions and Marks
 <div class="center">September 9, 2013</div>
 <div class="center">Updated: February 12, 2018</div>
 
-I still have to find a better text editor than Emacs. What really makes Emacs shine is its
-configuration language—Emacs Lisp. Emacs uses it to the point that most of the functionality of
-Emacs itself, is implemented in Emacs Lisp. In this series, I will talk about the things that I
-discovered to make the use of Emacs even more enjoyable.
+I still have to find a better text editor than [Emacs](https://www.gnu.org/software/emacs/). What
+really makes Emacs shine is its configuration language—Emacs Lisp. Emacs uses it to the point that
+most of the functionality of Emacs itself, is implemented in Emacs Lisp. In this series, I will talk
+about the things that I discovered to make the use of Emacs even more enjoyable.
 
 
 Table of contents
