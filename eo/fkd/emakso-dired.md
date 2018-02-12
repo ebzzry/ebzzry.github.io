@@ -10,7 +10,7 @@ Mastrumi Dosierujojn Emakse
 
 En ĉi tiu enskribo, mi fokusas sur unu el la plej lertaj manieroj, kiel Emakso traktas dosierujan
 administradon. La dosieruja rekdatilo, aŭ _Dired_ (angle elparolas kiel dir-ed), estas la emaksa
-egalvaloro de dosieradministrilo. Kio ajn vi povas fari al regulaj bufroj, vi ankaŭ povas fari ĝin
+egalvaloro de dosieradministrilo. Kio ajn oni povas fari al regulaj bufroj, oni ankaŭ povas fari ĝin
 al Dired-aj bufroj.
 
 
@@ -21,7 +21,7 @@ Enhavotabelo
 - [Komunaj komandoj](#komunaj)
 - [Markaj komandoj](#markaj)
 - [Aliaj komandoj](#aliaj)
-- [wDired-a reĝimo](#wdired)
+- [WDired-a reĝimo](#wdired)
 - [Finaj rimarkoj](#finaj)
 
 
@@ -32,28 +32,28 @@ Por kuri Dired-on, kuru Emakson sur la komandlinio, provizi dosierujon, kiel la 
 
     $ emacs ~/Desktop
 
-Aŭ alternative, vi povas premi <kbd>C-x d</kbd> ene Emakso. Se vi nune redaktilas dosieron, la
+Aŭ alternative, oni povas premi <kbd>C-x d</kbd> ene Emakso. Se oni nune redaktilas dosieron, la
 dosierujo de tiu dosiero estos prezentita kiel la defaŭlta valoro en la etbufra areo. Ambaŭmaniere,
-kiam vi premas <kbd>Enter</kbd>, bufro de la dosierujo aperos, kiu aspektas kiel la eligo de
+kiam oni premas <kbd>Enter</kbd>, bufro de la dosierujo aperos, kiu aspektas kiel la eligo de
 `ls -l`:
 
 ```
-/home/john/Desktop/foo:
+/home/ogag/Desktop/foo:
 total used in directory 84 available 540767396
--rw-r--r-- 1 john users 5935 Sep 27 18:17 index.html
-drwxr-xr-x 3 john users 4096 Sep 26 17:42 pics
-drwxr-xr-x 3 john users 4096 Sep 26 05:39 vids
+-rw-r--r-- 1 ogag users 5935 Sep 27 18:17 index.html
+drwxr-xr-x 3 ogag users 4096 Sep 26 17:42 pics
+drwxr-xr-x 3 ogag users 4096 Sep 26 05:39 vids
 ```
 
-Bone, nun, ke vi havas ĝin, kion vi povas fari per ĝi? Nu, la jena estas mallonga listo de tiuj,
-kiujn vi bezonas fari per gi. Notu, ke la fulmoklavoj en ĉi tiu artikolo usklecodistingas, krom le
+Bone, nun, ke oni havas ĝin, kion si povas fari per ĝi? Nu, la jena estas mallonga listo de tiuj,
+kiujn oni bezonas fari per gi. Notu, ke la fulmoklavoj en ĉi tiu artikolo usklecodistingas, krom le
 eksplicite esprimis alie.
 
 
 <a name="komunaj"></a>Komunaj komandoj
 --------------------------------------
 
-Jen la kutimaj komandoj kiujn vi uzus, en Dired-a bufro. Krome, ili povas funkcii sur unuobla aŭ
+Jen la kutimaj komandoj kiujn oni uzus, en Dired-a bufro. Krome, ili povas funkcii sur unuobla aŭ
 pluraj eroj. Uzi ilin por pluraj eroj estos klarigitaj sekve.
 
 | Klavo   | Kion ĝi faras               |
@@ -73,7 +73,7 @@ pluraj eroj. Uzi ilin por pluraj eroj estos klarigitaj sekve.
 ------------------------------------
 
 La jenaj komandoj faras operaciojn kiuj rilatas al markoj. Krei markojn simple signifas, meti etikodon
-sur eroj, por ke vi povas presti la operaciojn en la antaŭa sekcio, sur ili:
+sur eroj, por ke oni povas presti la operaciojn en la antaŭa sekcio, sur ili:
 
 | Klavo | Kion ĝi faras                                        |
 | :---- | :--------------------------------------------------- |
@@ -105,12 +105,12 @@ La jenaj komandoj agas laŭ si mem. Ili operacias sur solaj eroj kaj ili ne uzas
 | w       | Kopiu eron al tondejo                     |
 
 
-<a name="wdired"></a>wDired-a reĝimo
+<a name="wdired"></a>WDired-a reĝimo
 ------------------------------------
 
 Tamen, ulu el la plej mojosa, kaj ofte malatentita funkcio de Dired-o estas la _WDired-a_
-reĝimo. Kion ĝi faras, estas, ĝi donas al vi potenca kapablo por redakti la nomojn de eroj ene
-Dired-a bufro, similas al kion vi faras al kutima bufro. Por eniri la wdired-a reĝimo, premu:
+reĝimo. Kion ĝi faras, estas, ĝi donas al oni potenca kapablo por redakti la nomojn de eroj ene
+Dired-a bufro, similas al kion oni faras al kutima bufro. Por eniri la WDired-a reĝimo, premu:
 
     M-x wdired-change-to-wdired-mode REV
 
