@@ -5,9 +5,10 @@ Emaksaj Konsiletoj 1-a: Regionoj kaj Markoj
 <center>la 12-an de Februaro 2018</center>
 <center>Laste ŝanĝita: la 12-an de Februaro 2018</center>
 
-Mi ankoraŭ bezonas trovi pli bonan redaktilon ol Emakso. Kion faras Emakson antaŭiĝi estas sia
-agorda lingvo—Emaksa Lispo. Emakso uzas ĝin al punkto, en kiu, plejmulto de la funkciado de si mem,
-estas realigitaj per Emakslispo.
+Mi ankoraŭ bezonas trovi pli bonan redaktilon ol [Emakso](https://www.gnu.org/software/emacs/). Kio
+faras Emakson elstari, estas sia agorda lingvo—Emaksa Lispo. Emakso uzas ĝin al punkto, en kiu,
+plejmulto de la funkciado de si mem, realigitas per Emakslispo. En ĉi tiuj serioj, mi priparolos
+la aferojn, kiujn mi malkovris por fari la uzadon de Emakso pli agrabla.
 
 
 Enhavotabelo
