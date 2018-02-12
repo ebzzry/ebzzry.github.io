@@ -1,5 +1,5 @@
-Setting Up Directory Management in Emacs
-========================================
+Managing Directories with Emacs
+===============================
 
 <center>[Esperante](/eo/emakso-dired)  [English](#)</center>
 <center>September 26, 2013</center>
