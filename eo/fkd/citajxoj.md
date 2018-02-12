@@ -3,24 +3,24 @@ Citaĵoj
 
 <center>[Esperante](#)  [English](/en/quotes)</center>
 <center>la 15-an de Novembro 2017</center>
-<center>Laste ŝanĝita: la 25-an de Novembro 2017</center>
+<center>Laste ŝanĝita: la 2-an de Februaro 2018</center>
 
 Ĉi tiu paĝo enhavas liston de atenteme elektitaj citaĵoj, aforismoj, kaj sentencoj kiujn mi kolektis
-tra la jaroj.
+tra la jarojn.
 
 - La aferoj kiujn oni volas malakcepti estas pli grava ol la aferoj kiujn oni volas akcepti.<br>
   ―Erik NAGGUM
 
 
-- La momento kiam oni pensas ke li scias ĉion, estas la momento kiam li ĉesas lerni.<br>
+- La momento kiam oni pensas ke si scias ĉion, estas la momento kiam si ĉesas lerni.<br>
   ―Yeontabal, Jumong (2006)
 
 
-- Furioza agado ne estas anstataŭaĵo por komprenado.<br>
+- Furioza agado ne estas anstataŭaĵo por kompreni.<br>
   ―H.H. WILLIAMS
 
 
-- Diplomatio estas la arto de dirante ‘bonan hundon’ ĝis oni povas trovi ŝtonon.<br>
+- Diplomatio estas la arto de diri ‘bonan hundon’ ĝis oni povas trovi ŝtonon.<br>
   ―Will ROGERS
 
 
@@ -37,7 +37,7 @@ tra la jaroj.
 
 
 - Ne maltrankviliĝu pri kion alia iu farigos. La plej bona maniero por antaŭdiri la estontecon estas
-  por enpensi tion.<br>
+  per eltrovi tion.<br>
   ―Alan KAY
 
 
@@ -55,7 +55,7 @@ tra la jaroj.
   ―David MCCULLOUGH
 
 
-- Ne tute estas grave por prave akiri tion en la unua fojo. Estas vitale grava por akiri tion en la
+- Ne tute estas grave por prave atingi tion en la unua fojo. Estas vitale grava por atingi tion en la
   lasta tempo.<br>
   ―Andrew HUNT kaj David THOMAS
 
@@ -68,7 +68,7 @@ tra la jaroj.
   ―Fred BROOKS
 
 
-- Unu persono kun ardo estas pli bona ol kvardek personoj nure interesata.<br>
+- Unu persono kun ardo estas pli bona ol kvardek personoj nure interesataj.<br>
   ―E.M. FORSTER
 
 
@@ -93,7 +93,7 @@ tra la jaroj.
   ―Robert J. HANLON
 
 
-- Supozi estas bone, sed eltrovi estas pli bone.<br>
+- Supozi estas bona, sed eltrovi estas pli bona.<br>
   ―Samuel CLEMENS
 
 
@@ -187,11 +187,11 @@ tra la jaroj.
   ―Louis PASTEUR
 
 
-- Obsedata estas vorto la malloremaj uzas preskribi la dediĉatajn.<br>
+- Obsedata estas vorto la mallaboremaj uzas preskribi la dediĉatajn.<br>
   ―Russell WARREN
 
 
-- Teĥnika kapablo estas la ellerneco de la komplekso, dum la kreemo estas la ellerneco de la simpleco.<br>
+- Teĥnika kapablo estas la ellerneco de la komplekso, tamen la kreemo estas la ellerneco de la simpleco.<br>
   ―Erik Christopher ZEEMAN
 
 
@@ -207,11 +207,11 @@ tra la jaroj.
   ―Bruce LEE
 
 
-- Kiam oni eraregas, kaj neniu ne plu diras ion al oni, signifas ke ili rezignis.<br>
+- Kiam oni eraregas, kaj neniu ne plu diras ion al oni, signifas ke ili rezigniĝis.<br>
   ―Randy PAUSCH
 
 
-- La sperto estas kion oni akiras kiam oni ne akiris tion, kion oni volis akiri.<br>
+- La sperto estas tio, kion oni akiras kiam oni ne akiris tion, kion oni volis akiri.<br>
   ―Randy PAUSCH
 
 
@@ -220,8 +220,8 @@ tra la jaroj.
 
 
 - Prizorgu viajn pensojn; ili fariĝos vortoj. Prizorgu viajn vortojn; ili fariĝos agoj. Prizorgu
-  viajn agojn; ili fariĝos kutimo. Prizorgu viajn kutimojn; ili fariĝos naturo. Prizorgu viajn
-  naturojn; ili fariĝos via sorto.<br>
+  viajn agojn; ili fariĝos kutimoj. Prizorgu viajn kutimojn; ili fariĝos naturoj. Prizorgu viajn
+  naturojn; ili fariĝos viaj sortoj.<br>
   ―Laŭzio
 
 
@@ -258,7 +258,7 @@ tra la jaroj.
   ―J.P. MORGAN
 
 
-- La vivo estas kiel rajdi biciklon. Por pluigi vian egalpezon, vi devas daŭri por movi.<br>
+- La vivo similas al rajdi biciklon. Por pluigi vian egalpezon, vi devas daŭri por movi.<br>
   ―Alberto EJNŜTEJNO
 
 
@@ -266,23 +266,23 @@ tra la jaroj.
   ―Kristoforo KOLUMBO
 
 
-- Unu tagon, ili ekscios ke ili perdis brilanton dum ludi kun senvaloraj ŝtonoj.<br>
+- Unu tagon, ili ekscios ke ili perdis brilanton dum ludi senvalorajn ŝtonojn.<br>
   ―Turcois OMINEK
 
 
-- La doloro estas neevitebla. La suferado estas malnepra.<br>
+- La doloro neeviteblas. La suferado malnepras.<br>
   ―M. Kathleen CASEY
 
 
-- Ni devas esti pretaj por lasi la vivon kiun ni planita por havi la vivon kiu atendas nin.<br>
+- Ni devas esti pretaj por lasi la vivon kiujn ni planitaj por havi la vivojn kiuj atendas nin.<br>
   ―Joseph CAMPBELL
 
 
-- Mi dankemas por mia barakto ĉar sen tio mi ne estus renkonti mian forton.<br>
+- Mi dankemas miajn baraktojn, tial ke, sen tio mi ne estus renkonti mian forton.<br>
   ―Alex ELLE
 
 
-- Estas en oniaj momentoj de decido kiam onia fato estas formata.<br>
+- Estas en oniaj momentoj de decido kiam sia fato formatas.<br>
   ―Anthony ROBBINS
 
 
@@ -302,7 +302,7 @@ tra la jaroj.
   ―Jimmy JOHNSON
 
 
-- Kiam vi petrsube falis antaŭe kaj vi postvivis, jen tre malmultaj aferoj en la vivo kiuj povas timi
+- Kiam vi falegis antaŭe kaj vi postviviĝis, jen tre malmultaj aferoj en la vivo kiuj povas timi
   vin.<br>
   ―Sennomo
 
@@ -311,7 +311,7 @@ tra la jaroj.
   ―Albert PIKE
 
 
-- Faru kion vi povas, kie vi estas, per kiujn vi havas.<br>
+- Faru kion vi povas, kie vi estas, per kion vi havas.<br>
   ―Theodore ROOSEVELT
 
 
@@ -319,11 +319,11 @@ tra la jaroj.
   ―Tim FERRISS
 
 
-- Se vi ne tute iras, kial iru?<br>
+- Se vi ne tute trairas, kial iru?<br>
   ―Joe NAMATH
 
 
-- Vi maltrafas 100% da pafojn vi ne trafas.<br>
+- Vi maltrafas 100% da pafojn, kiujn vi ne trafas.<br>
   ―Wayne GRETZKY
 
 
@@ -331,8 +331,8 @@ tra la jaroj.
   ―Vince LOMBARDI
 
 
-- Kiam unu pordo fermiĝas, alia pordo malfermiĝas; sed ni tiel ofte vidi tre longe kaj tiel bedaŭre, je
-  la fermita pordo, do ni ne vidas la aliajn kiuj malfermiĝs por ni.<br>
+- Kiam unu pordo fermiĝas, alia pordo malfermiĝas; sed ni tiel ofte vidas tre longe kaj tiel bedaŭre, je
+  la fermita pordo, do ni ne vidas la aliajn, kiuj malfermiĝs por ni.<br>
   ―Alexander Graham BELL
 
 
@@ -340,7 +340,7 @@ tra la jaroj.
   ―Windows CHURCHILL
 
 
-- Estas pli bone esti sola anstataŭ kune kun iu, kiu faras vin senti, ke vi estas sola.<br>
+- Estas pli bone esti sole anstataŭ kune kun iu, kiu faras vin senti, ke vi estas sola.<br>
   ―Ivan JUNIUS
 
 
@@ -348,7 +348,7 @@ tra la jaroj.
   ―Sennoma
 
 
-- La popoloj kiuj riskas, estas ofte la tiuj, kiuj finiĝas esti la plej feliĉaj.<br>
+- La popoloj kiuj riskiĝas, estas ofte la tiuj, kiuj finiĝas esti la plej feliĉaj.<br>
   ―Sennoma
 
 
@@ -389,11 +389,11 @@ tra la jaroj.
   ―Bedelia DU MAURIER, Hannibal (televida programo)
 
 
-- Neniam, iam rezignu.<br>
+- Neniam, iam ceŝu.<br>
   ―Diana NYAD
 
 
-- Ili kiuj estus rezigni vivgravan liberecon, por aĉeti malmultan nedaŭran sekurecon, meritas nek
+- Tiuj, kiuj rezignus vivgravan liberecon, por aĉeti malmultan nedaŭran sekurecon, meritas nek
   liberecon nek sekurecon.<br>
   ―Benjameno FRANKLENO
 
@@ -406,7 +406,7 @@ tra la jaroj.
   ―Lacus CLYNE, Gundam SEED Destiny
 
 
-- Kiam io malebla okazas, jen du ebloj: aŭ viaj supozoj estas malĝusta aŭ vi freneziĝis.<br>
+- Kiam io malebla okazas, jen du ebloj: aŭ viaj supozoj malĝustas aŭ vi freneziĝis.<br>
   ―Kogami SHINYA, Psycho-Pass
 
 
@@ -414,12 +414,12 @@ tra la jaroj.
   ―Makishima SHOUGO, Psycho-Pass
 
 
-- Ne estas la socio kiu determinas la estonton de homoj. Estas la homoj kiuj determinas la estonton
+- Ne estas la socio kiu determinas la estontecon de homoj. Estas la homoj, kiuj determinas la estontecon
   de la socio.<br>
   ―Akane TSUNEMORI, Psycho-Pass
 
 
-- Ne forgesu ke vi certe mortos iutage, kaj tiel tia, estas la pli racio por vivi nun.<br>
+- Ne forgesu ke vi certe mortos iutage, kaj tiel, estas la pli racio por vivi nun.<br>
   ―Decim, Death Parade
 
 
@@ -431,7 +431,7 @@ tra la jaroj.
   ―Konfuceo
 
 
-- Vi povas eltrovi kion plej timas viajn malamikojn, per rimarkas la manierojn kiuj li uzas timi vin.<br>
+- Vi povas eltrovi tion, kion plej timas viajn malamikojn, per rimarki la manierojn kiuj li uzas timi vin.<br>
   ―Eric HOFFER
 
 
@@ -448,8 +448,8 @@ tra la jaroj.
   ―Ergo Proxy, Ergo Proxy
 
 
-- En miaj senesperaj provoj por civitanuliĝi, mi daŭre ĉesas min kaj provis esti la persono mi
-  pensis ili volis.<br>
+- En miaj senesperaj provoj por civitanuliĝi, mi daŭre ĉesigas min kaj provis esti la persono mi
+  pensis, ili volis.<br>
   ―Vincent LAW, Ergo Proxy
 
 
@@ -457,7 +457,7 @@ tra la jaroj.
   ―Søren KIERKEGAARD
 
 
-- La plej granda danĝero okazas je la momento de venko.<br>
+- La plej granda danĝero okazas je la momenton de venko.<br>
   ―Napoleon BONAPARTE
 
 
@@ -466,11 +466,11 @@ tra la jaroj.
 
 
 - Milita forto ne hevas daŭran formon. La akvo ne havas daŭran formon. La kapablo por gajni venkon
-  per ŝanĝante kaj alfarante laŭ la malamiko estas nomata genio.<br>
+  per ŝanĝi kaj alfari laŭ la malamiko estas nomata genio.<br>
   ―Tzu SUN
 
 
-- La viro kiu diras ke ĝi ne fareblas, estas ĝenerale interrompata per iu, kiu faras ĝin.<br>
+- La viro kiu diras ke, ne fareblas, estas ĝenerale interrompata per iu, kiu faras ĝin.<br>
   ―Elbert HUBBARD
 
 
@@ -512,7 +512,7 @@ tra la jaroj.
   ―Henry FORD
 
 
-- La nur viro kiu ne faras erarojn estas la viro kiu ne faras nenion.<br>
+- La nur viro kiu ne faras erarojn estas la viro kiu ne ĉiam faras ion.<br>
   ―Theodore ROOSEVELT
 
 
@@ -525,7 +525,7 @@ tra la jaroj.
   ―Dominick Cobb, Inception (2010)
 
 
-- Ironie, ili kiuj ne servopretas rompi, unue rompos.<br>
+- Ironie, ili kiuj ne servopretas por rompi, unue rompos.<br>
   ―MindSmash, Jutubo
 
 
@@ -538,7 +538,7 @@ tra la jaroj.
 - Vi ĉiuj subtaksas homojn. Unuope, ili aspektas malfortaj, sed tio ne estas la efektivaĵo. Kion ni
   bezonas rekoni estas, ke homoj estas sola vivaĵo konsistata de milionoj de unuopaj. Krome
   iliaj unuopaj cerboj, homoj apartas alian cerbon de ega grandeco. La momenton ni agas per opozicio
-  al tiu cerbo, ni malvenkos.<br>
+  al tiu cerbo, ni malvenkiĝos.<br>
   ―Reiko TAMURA, Parasyte -the maxim- (2014)
 
 
@@ -562,7 +562,7 @@ tra la jaroj.
   ―James MATTIS
 
 
-- Ĉio ŝanĝas per tempo.<br>
+- Ĉio ŝanĝiĝas per tempo.<br>
   ―Tamina, Prince of Persia: The Sands of Time
 
 
@@ -596,7 +596,7 @@ tra la jaroj.
   ―Alan KAY
 
 
-- Provu kaj pensu la tiujn, kie la mondo fariĝas tre malsama se vi faris malsamajn supozojn.<br>
+- Provu tiun kaj pensu, kie la mondo fariĝas tre malsama se vi faris malsamajn supozojn.<br>
   ―Alan KAY
 
 
