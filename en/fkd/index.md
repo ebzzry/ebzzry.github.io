@@ -41,7 +41,7 @@ Musings of a Pedantic Pirate
 - [Blogging with Frog](frog)
 - [Setting Up Mail in Emacs](emacs-mail)
 - [Setting Up Racket Development in Emacs](emacs-racket)
-- [Setting Up Directory Management in Emacs](emacs-dired)
+- [Managing Directories in Emacs](emacs-dired)
 - [Emacs Tips 1: Regions and Marks](emacs-tips-1)
 - [In Retrospect](retrospect)
 - [Migrating from LiveJournal to Frog](livefrog)
