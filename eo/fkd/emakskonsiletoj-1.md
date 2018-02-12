@@ -1,5 +1,5 @@
-Emaksaj Konsiletoj kaj Ruzetoj: Regionoj kaj Indikiloj
-======================================================
+Emaksaj Konsiletoj 1: Regionoj kaj Markoj
+=========================================
 
 <center>[Esperante](#)  [English](/en/emacs-tips-1)</center>
 <center>la 12-an de Februaro 2018</center>
@@ -18,7 +18,7 @@ Enhavotabelo
 - [Skimo](#skimo)
 - [Servilo](#servilo)
 - [Bufroj](#bufroj)
-- [Indikiloj](#indikiloj)
+- [Markoj](#markoj)
 - [Klavkombinoj](#klavkombinoj)
 - [Finaj rimarkoj](#finaj)
 
@@ -106,8 +106,8 @@ nur invitiĝos se la nuna bufro ŝanĝitis.
 ```
 
 
-<a name="indikiloj"></a>Indikiloj
----------------------------------
+<a name="markoj"></a>Markoj
+---------------------------
 
 Estis multe da fojo en la estinteco kiam mi bezonis funkcion kiu nur markas linion. Kiun mi havas
 estas la jena. Ruli ĝin multfoje markas plurajn liniojn.
