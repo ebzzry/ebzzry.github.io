@@ -1,15 +1,16 @@
 Setting Up Directory Management in Emacs
 ========================================
 
-<div class="center">September 26, 2013</div>
-<div class="center">Updated: March 31, 2017</div>
+<center>[Esperante](/eo/emakso-dired)  [English](#)</center>
+<center>September 26, 2013</center>
+<center>Updated: February 12, 2018</center>
 
 >Supposing is good, but finding out is better.<br>
 >―Samuel Clemens
 
-In this post, I’ll be focusing on one of the novel ways Emacs handles management. The directory
-editor, or _dired_ (pronounced dir-ed, not dye-rd), for short, is the Emacs equivalent of a file
-manager. Whatever you can do with regular buffers, you can also do it with dired ones.
+In this post, I’ll be focusing on one of the smart ways Emacs handles directory management. The
+directory editor, or _Dired_ (pronounced dir-ed, not dye-rd), is the Emacs equivalent of
+a file manager. Whatever you can do with regular buffers, you can also do it with dired ones.
 
 
 Table of contents
@@ -20,6 +21,7 @@ Table of contents
 - [Mark commands](#markcommands)
 - [Other commands](#othercommands)
 - [WDired mode](#wdired)
+- [Closing remarks](#closing)
 
 
 <a name="overview"></a> Overview
@@ -69,9 +71,8 @@ operate on single, or multiple items. Using them for multiple items will be expl
 <a name="markcommands"></a> Mark commands
 -----------------------------------------
 
-These commands perform mark-related operations on items. Creating
-marks simply means putting a tag on items, so that you can perform the
-operations in the previous section, on them.
+These commands perform mark-related operations on items. Creating marks simply means putting a tag
+on items, so that you can perform the operations in the previous section, on them.
 
 | Key | What it does                                     |
 | :-- | :----------------------------------------------- |
@@ -87,9 +88,8 @@ operations in the previous section, on them.
 <a name="othercommands"></a> Other commands
 -------------------------------------------
 
-These commands act on their own. They operate on single items, and
-they don’t make use of marks. The <kbd>w</kbd> command, however, is an
-exception.
+These commands act on their own. They operate on single items, and they don’t make use of marks. The
+<kbd>w</kbd> command, however, is an exception.
 
 | Key     | What it does                            |
 | :------ | :-------------------------------------- |
@@ -100,14 +100,14 @@ exception.
 | g       | Reload the current directory            |
 | j       | Jump to an item                         |
 | s       | Change sort order                       |
-| y       | Show file type fo item, like `file`     |
+| y       | Show file type of item, like `file`     |
 | w       | Copy item name to clipboard             |
 
 
 <a name="wdired"></a> WDired mode
 ---------------------------------
 
-*BUT*, one of the coolest, and often-overlooked feature of dired is the _WDired_ mode. What it does
+But, one of the coolest, and often-overlooked feature of dired is the _WDired_ mode. What it does
 is that it gives you a powerful ability to edit the item names in a dired buffer, just as you would
 on a typical buffer. To enter wdired mode, hit:
 
@@ -119,8 +119,8 @@ easier. The changes you have made at this point are not yet saved. To save the c
 <kbd>C-c C-c</kbd>.
 
 
-Closing remarks
----------------
+<a name="closing"></a> Closing remarks
+--------------------------------------
 
-We have only touched the tip of the iceberg; feel free to experiment. For more information visit the
-Dired [manual](https://www.gnu.org/software/emacs/manual/html_node/emacs/Dired.html).
+We have only touched the tip of the iceberg. Feel free to explore. For more information visit the
+Dired manual [here](https://www.gnu.org/software/emacs/manual/html_node/emacs/Dired.html).
