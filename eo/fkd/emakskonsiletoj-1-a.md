@@ -1,5 +1,5 @@
-Emaksaj Konsiletoj 1: Regionoj kaj Markoj
-=========================================
+Emaksaj Konsiletoj 1-a: Regionoj kaj Markoj
+===========================================
 
 <center>[Esperante](#)  [English](/en/emacs-tips-1)</center>
 <center>la 12-an de Februaro 2018</center>

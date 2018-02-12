@@ -5,7 +5,7 @@ Musings of a Pedantic Pirate
 <center>August 15, 2015</center>
 <center>Updated: November 16, 2017</center>
 
-<img src="/bildoj/kafofaboj.jpg" class="banner" alt="kafofaboj" />
+<img src="/bildoj/kafofaboj.jpg" class="banner" alt="kafofaboj ☕" />
 
 <div class="text-right">A journal about computing, human predilections, and random krakaboom.</div>
 <div class="text-right">Entries are sorted in reverse chronological order.</div>
