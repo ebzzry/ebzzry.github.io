@@ -21,11 +21,10 @@ Table of contents
 
 - [Overview](#overview)
 - [Installation](#installation)
-- [Usage](#usage)
-  + [Basics](#basics)
-  + [Comments](#comments)
+- [Basics](#basics)
+- [Comments](#comments)
 - [Updating](#updating)
-- [Miscellany](#miscellany)
+- [Closing remarks](#closing)
 
 
 <a name="overview"></a> Overview
@@ -65,13 +64,8 @@ The trailing slashes are important, to tell `raco` that you are installing from 
 directories. Without it, it will try to fetch the sources from the internet.
 
 
-<a name="usage"></a> Usage
---------------------------
-
-This sections contains instructions for creating files suitable for use with Frog.
-
-
-### <a name="basics"></a>Basics
+<a name="basics"></a>Basics
+---------------------------
 
 To create a Markdown file from the file `entry.xml`
 
@@ -131,7 +125,8 @@ After creating the Markdown Frog source files, you may now copy them to your Fro
 designated at `_src/posts/`
 
 
-### <a name="comments"></a> Comments
+<a name="comments"></a> Comments
+--------------------------------
 
 Frog, by default, uses [Disqus](https://disqus.com) to handle the comments. To import comments to
 this platform, you need to generate an XML file that must adhere to Disqus’s comment import rules.
@@ -160,8 +155,8 @@ livefrog, then installing it again:
     $ raco pkg install livefrog/
 
 
-<a name="miscellany"></a> Miscellany
-------------------------------------
+<a name="closing"></a> Closing remarks
+--------------------------------------
 
 To reduce typing, you may create an alias to `raco livefrog` in your shell.
 
