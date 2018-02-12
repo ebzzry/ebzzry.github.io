@@ -1,8 +1,9 @@
 Emacs Tips and Tricks 1: Regions and Marks
 ==========================================
 
+<center>[Esperante](/eo/emakskonsiletoj-1)  [English](#)</center>
 <div class="center">September 9, 2013</div>
-<div class="center">Updated: October 18, 2017</div>
+<div class="center">Updated: February 12, 2018</div>
 
 I still have to find a better text editor than Emacs. What really makes Emacs shine is its
 configuration language—Emacs Lisp. Emacs uses it to the point that most of the functionality of
@@ -34,8 +35,8 @@ This command deletes a region if one is active, or deletes the character underne
   (if (region-active-p)
       (delete-region (region-beginning)
                      (region-end))
-      (if (fboundp 'sp-delete-char)
-          (sp-delete-char arg)
+      (if (fboundp 'delete-char)
+          (delete-char arg)
           (delete-forward-char arg))))
 ```
 
@@ -77,7 +78,7 @@ I also have the following, because I want to align the `λ` symbol nicely.
 <a name="server"></a> Server
 ----------------------------
 
-This snippet ensures that the Emacs server, the one that `emacsclient` connects to:
+This snippet ensures that the Emacs server, the one that `emacsclient` connects to, runs:
 
 ```lisp
 (require 'server)
@@ -98,7 +99,6 @@ $ emacs --daemon
 
 I want a way to kill the current buffer, without being asked what buffer to kill. I will only get
 prompted if the current has been modified.
-
 
 ```lisp
 (defun kill-current-buffer ()

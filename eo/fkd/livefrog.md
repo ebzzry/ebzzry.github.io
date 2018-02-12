@@ -20,11 +20,10 @@ Enhavotabelo
 
 - [Superrigardo](#superrigardo)
 - [Instalado](#instalado)
-- [Uzado](#uzado)
-  + [Bazaj](#bazaj)
-  + [Komentoj](#komentoj)
-- [Ĝisdatigado](#ĝisdatigado)
-- [Miksaĵo](#miksaĵo)
+- [Baza uzado](#bazaj)
+- [Komentoj](#komentoj)
+- [Ĝisdatigo](#ĝisdatigo)
+- [Finaj rimarkoj](#finaj)
 
 
 <a name="superrigardo"></a>Superrigardo
@@ -65,13 +64,8 @@ La vostaj suprenstrekoj gravas por diri al `raco`, ke oni instalas el lokaj dosi
 la fontojn de la interreto sen tio.
 
 
-<a name="uzado"></a>Uzado
+<a name="bazaj"></a>Bazaj
 -------------------------
-
-Ĉi tiu sekcio enhavas instrukciojn por krei konvenajn dosierojn por la uzado per Frog.
-
-
-### <a name="bazaj"></a>Bazaj
 
 Por krei Markdown-an dosieron de la dosiero `entry.xml`
 
@@ -133,7 +127,8 @@ Post krei la Markdown-ajn Frog-ajn fontajn dosierojn, oni nun povas kopii ilin a
 dosierujo, indikata ĉe `_src/posts/`.
 
 
-### <a name="komentoj"></a>Komentoj
+<a name="komentoj"></a>Komentoj
+-------------------------------
 
 Frog, defaŭlte, uzas [Disqus](https://disqus.com) por trakti la komentojn. Por importi komentojn al
 ĉi tiu platformo, oni devas generi XML-an dosieron, kiu devas konformiĝi al la reglamentoj de Disqus
@@ -146,8 +141,8 @@ Por krei tiel dosieron, nomata kiel `comments.xml`, kun `foo.bar.com` kiel la ra
 Ĉi tiu uzatos per <https://import.disqus.com>.
 
 
-<a name="ĝisdatigado"></a>Ĝisdatigado
--------------------------------------
+<a name="ĝisdatigo"></a>Ĝisdatigo
+---------------------------------
 
 Se oni instalis livefrog-on per Planet2, oni povas ĝisdatigi ĝin per kuri:
 
