@@ -8,7 +8,7 @@ Mastrumi Dosierujojn Emakse
 >Supozi estas bona, sed eltrovi estas pli bona.<br>
 >―Samuel CLEMENS
 
-En ĉi tiu enskribo, mi fokusas sur unu el la plej lertaj manieroj, kiel Emakso traktas dosierujan
+En ĉi tiu afiŝo, mi fokusas sur unu el la plej lertaj manieroj, kiel Emakso traktas dosierujan
 administradon. La dosieruja rekdatilo, aŭ _Dired_ (angle elparolas kiel dir-ed), estas la emaksa
 egalvaloro de dosieradministrilo. Kio ajn oni povas fari al regulaj bufroj, oni ankaŭ povas fari ĝin
 al Dired-aj bufroj.
