@@ -1,5 +1,5 @@
-Mastrumi Dosierujojn per Emakso
-===============================
+Mastrumi Dosierujojn Emakse
+===========================
 
 <center>[Esperante](#)  [English](/en/emacs-dired)</center>
 <center>la 12-an de Februaro 2018</center>
@@ -112,7 +112,7 @@ Tamen, ulu el la plej mojosa, kaj ofte malatentita funkcio de Dired-o estas la _
 reĝimo. Kion ĝi faras, estas, ĝi donas al vi potenca kapablo por redakti la nomojn de eroj ene
 Dired-a bufro, similas al kion vi faras al kutima bufro. Por eniri la wdired-a reĝimo, premu:
 
-  M-x wdired-change-to-wdired-mode REV
+    M-x wdired-change-to-wdired-mode REV
 
 La ĉefreĝimo ŝanĝiĝas de `Dired` al `Editable Dired`. Oni nun povas renoni la dosierojn kaj
 dosierujon facile. Oni eĉ povas uzi ortangulajn kaj anstataŭigajn funkciojn sur ili, por fari
