@@ -202,4 +202,4 @@ Enskriboj estas ordigataj laŭ kronologia ordo.
 - La kerno de malkovri la estontecon ne estas kiel solvi pli da problemojn; estas kiel malkovri pli da problemojn.<br>
 
 
-- Ni ne povas solvi tiujn, kiujn ni opinias seneraraj.<br>
+- Ni ne povas solvi tiujn, kiujn ni opinias, ne bezonas solvi.<br>
