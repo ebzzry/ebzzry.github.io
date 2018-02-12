@@ -203,3 +203,6 @@ Enskriboj estas ordigataj laŭ kronologia ordo.
 
 
 - Ni ne povas solvi tiujn, kiujn ni opinias, ne bezonas solvi.<br>
+
+
+- Socia reto estas besto, kiun oni ne devas dresi.<br>
