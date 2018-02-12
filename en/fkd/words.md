@@ -207,3 +207,6 @@ Entries are sorted in chronological order.
 
 
 - We can’t solve those which we think does not need solving.<br>
+
+
+- Social networking is an animal that you must not tame.<br>
