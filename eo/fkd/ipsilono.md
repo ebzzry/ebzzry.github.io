@@ -33,7 +33,7 @@ Enhavotabelo
 La ipsilona kombinatoro estas la fonto de kaj inspiro kaj frustro de multaj homoj. Elvokas sensacion
 kiel eŭreka tuj oni pasis la muron, sed ankaŭ faras nin por skrapi niajn kapojn kiam ne faras sencon
 por trairi la labirinton. Ĉi tiu artikolo celas porti miajn proprajn metodojn kiel derivi la ipsilonan
-kombinatoron. Eble ne estas la plej eleganta maniero, tamen eblas fari  por oni.
+kombinatoron. Eble ne estas la plej eleganta maniero, tamen eblas funkcii por oni.
 
 En la kodaj ekzemploj en ĉi tiu artikolo, la `>` simbolo montras la invitan simbolon de via skima
 realigo.
@@ -139,7 +139,7 @@ identigilo `v` estos kunligata al `(- n 1)`.
 <a name="izoli">Paŝo 5-a: Izolu la kombinatoron</a>
 ---------------------------------------------------
 
-Sekve, oni izolos la ipsilonan kombinatoro, el la `foo` proceduro.
+Sekve, oni izolos la ipsilonan kombinatoron, el la `foo` proceduro.
 
 ```scheme
 > (((lambda (x)
