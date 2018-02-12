@@ -1,5 +1,5 @@
-Emaksaj Konsiletoj kaj Ruzetoj: Areoj kaj Indikiloj
-===================================================
+Emaksaj Konsiletoj kaj Ruzetoj: Regionoj kaj Indikiloj
+======================================================
 
 <center>[Esperante](#)  [English](/en/emacs-tips-1)</center>
 <center>la 12-an de Februaro 2018</center>
@@ -13,7 +13,7 @@ estas realigitaj per Emakslispo.
 Enhavotabelo
 ------------
 
-- [Areoj](#areoj)
+- [Regionoj](#regionoj)
 - [Kompilado](#kompilado)
 - [Skimo](#skimo)
 - [Servilo](#servilo)
@@ -23,10 +23,10 @@ Enhavotabelo
 - [Finaj rimarkoj](#finaj)
 
 
-<a name="areoj"></a>Areoj
--------------------------
+<a name="regionoj"></a>Regionoj
+-------------------------------
 
-La jena komando forviŝas areon se unu aktivas aŭ forviŝas la signon sub la tajpmontrilo.
+La jena komando forviŝas regionon se unu aktivas aŭ forviŝas la signon sub la tajpmontrilo.
 
 ```lisp
 (defun delete-char-or-region (&optional arg)
