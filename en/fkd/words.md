@@ -206,4 +206,4 @@ Entries are sorted in chronological order.
 - The key of discovering the future is not about solving more problems; it is discovering more problems.<br>
 
 
-- We can’t solve those which we think are not wrong.<br>
+- We can’t solve those which we think does not need solving.<br>
