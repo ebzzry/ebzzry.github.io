@@ -1,5 +1,5 @@
-Agordi Rakidan Programadon Emakse
-=================================
+Agordi Rakidprogramadon Emakse
+==============================
 
 <center>[Esperante](#)  [English](/en/emacs-racket)</center>
 <center>la 13-an de Februaro 2018</center>
