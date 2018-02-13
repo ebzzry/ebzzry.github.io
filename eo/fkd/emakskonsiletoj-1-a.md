@@ -21,7 +21,7 @@ Enhavotabelo
 - [Bufroj](#bufroj)
 - [Markoj](#markoj)
 - [Klavkombinoj](#klavkombinoj)
-- [Finaj rimarkoj](#finaj)
+- [Finrimarkoj](#finrimarkoj)
 
 
 <a name="regionoj"></a>Regionoj
@@ -144,8 +144,8 @@ La klavkombinoj por la supraj komandoj, estas la jenaj:
 ```
 
 
-<a name="finaj"></a>Finaj rimarkoj
-----------------------------------
+<a name="finrimarkoj"></a>Finrimarkoj
+-------------------------------------
 
 Mi esperas, ke vi povos esti kapabla por trovi uzojn de kelkaj de ili. La ceteraj agordoj troveblas
 [ĉi tie](https://github.com/ebzzry/dotfiles/tree/master/emacs).

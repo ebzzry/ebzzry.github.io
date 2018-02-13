@@ -24,7 +24,7 @@ Enhavotabelo
 - [Paŝo 4-a: Abstraktu la enan alvokon](#enan)
 - [Paŝo 5-a: Izolu la kombinatoron](#izoli)
 - [Paŝo 6-a: Difinu la kombinatoron](#difini)
-- [Finaj rimarkoj](#finaj)
+- [Finrimarkoj](#finrimarkoj)
 
 
 <a name="kio">Kio?</a>
@@ -186,8 +186,8 @@ proceduro.
 ```
 
 
-<a name="finaj">Finaj rimarkoj</a>
-----------------------------------
+<a name="finrimarkoj">Finrimarkoj</a>
+-------------------------------------
 
 Kiam la kernaj konceptoj estas komprenataj, estos facile por kapti la ŝajne malfacilegajn ideojn. Mi
 esperas, ke ĉi tiu artikolo estas utila por fari onin kompreni la ipsilonan kombinatoron,

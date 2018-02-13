@@ -83,12 +83,12 @@ declaration. Then hit:
 
 And, boomshakalaka! A new (Emacs) window opens, containing the `* Racket REPL *` buffer. Whatever
 you can do with the REPL invoked with vanilla command-line `racket`, you can also do with this, and
-more. This major mode is actually Comint mode, under the hood, with hooks to a a Racket process. For
+more. This major mode is actually Comint mode, under the hood, with hooks to a Racket process. For
 those of you who are unfamiliar with Comint mode, it is the same mode that handles `M-x shell RET`.
 
 So, what can you do with it? While editing `.rkt` file, here are some of the usual shortcuts that I
 use. The full list of keys are [available here](http://www.nongnu.org/geiser/geiser_5.html#Cheat-sheet).
-Take note, that the description of the keys that I used below, are for myself initially, to help me
+Take note, that the description of the keys that I use below, are for myself initially, to help me
 understand what they do. They may, or may not diverge from the official description, listed on the
 aforementioned link.
 
