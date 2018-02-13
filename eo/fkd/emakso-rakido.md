@@ -99,7 +99,7 @@ la antaŭmenciita ligilo.
 ### <a name="rakidbufro"></a>Rakida bufro
 
 | Klavo   | Kion ĝi faras                                   |
-| :------ | :-----------------------------------------------|
+| :------ | :---------------------------------------------- |
 | C-c C-z | Iru al la LTPI-a bufro                          |
 | C-c C-a | Taksu la nunbufron, tiam iru al la LTPI-a bufro |
 | C-M-x   | Taksu la nunesprimon                            |
@@ -111,7 +111,7 @@ la antaŭmenciita ligilo.
 ### <a name="ltpibufro"></a>LTPI-a bufro
 
 | Klavo   | Kion ĝi faras                  |
-| :------ | :------------------------------|
+| :------ | :----------------------------- |
 | C-c C-z | Iru al la Rakida bufro         |
 | M-p     | Montru la antaŭan historieron  |
 | M-n     | Montru la sekvan historieron   |
