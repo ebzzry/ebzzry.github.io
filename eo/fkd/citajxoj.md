@@ -93,7 +93,7 @@ tra la jarojn.
   ―Robert J. HANLON
 
 
-- Supozi estas bona, sed eltrovi estas pli bona.<br>
+- Supozi estas bona, tamen eltrovi estas pli bona.<br>
   ―Samuel CLEMENS
 
 
@@ -558,7 +558,7 @@ tra la jarojn.
   ―Bill GATES
 
 
-- Estu bonmaniera, estu profesia, sed havu planon por mortigi ĉiujn vi renkontas.<br>
+- Estu bonmaniere, estu profesie, sed havu planon por mortigi ĉiujn vi renkontas.<br>
   ―James MATTIS
 
 
