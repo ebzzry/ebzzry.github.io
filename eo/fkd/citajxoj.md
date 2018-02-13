@@ -3,12 +3,12 @@ Citaĵoj
 
 <center>[Esperante](#)  [English](/en/quotes)</center>
 <center>la 15-an de Novembro 2017</center>
-<center>Laste ŝanĝita: la 2-an de Februaro 2018</center>
+<center>Laste ŝanĝita: la 12-an de Februaro 2018</center>
 
 Ĉi tiu paĝo enhavas liston de atenteme elektitaj citaĵoj, aforismoj, kaj sentencoj kiujn mi kolektis
 tra la jarojn.
 
-- La aferoj kiujn oni volas malakcepti estas pli grava ol la aferoj kiujn oni volas akcepti.<br>
+- La aferoj kiujn oni volas malakcepti estas pli gravaj ol la aferoj kiujn oni volas akcepti.<br>
   ―Erik NAGGUM
 
 
