@@ -1,4 +1,4 @@
-La Ipsilona Kombinatoro En Ses Paŝoj
+La Ipsilona Kombinatoro en Ses Paŝoj
 ====================================
 
 <center>[Esperante](#)  [English](/en/y)</center>

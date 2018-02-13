@@ -46,7 +46,7 @@ drwxr-xr-x 3 ogag users 4096 Sep 26 05:39 vids
 ```
 
 Bone, nun, ke oni havas ĝin, kion si povas fari per ĝi? Nu, la jena estas mallonga listo de tiuj,
-kiujn oni bezonas fari per gi. Notu, ke la fulmoklavoj en ĉi tiu artikolo usklecodistingas, krom se
+kiujn oni bezonas fari per gi. Notu tion, ke la fulmoklavoj en ĉi tiu artikolo usklecodistingas, krom se
 eksplicite esprimis alie.
 
 

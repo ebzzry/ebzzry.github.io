@@ -1,8 +1,9 @@
 Setting Up Racket Development in Emacs
 ======================================
 
+<center>[Esperante](/eo/emakso-rakido)  [English](#)</center>
 <div class="center">September 29, 2013</div>
-<div class="center">Updated: October 12, 2017</div>
+<div class="center">Updated: February 13, 2018</div>
 
 >All the good ideas never lie under one hat.<br>
 >―Dale Turner
@@ -16,7 +17,7 @@ explain the shortest route that I took.
 Table of contents
 -----------------
 
-- [Introduction](#introduction)
+- [Overview](#overview)
 - [Installation](#installation)
 - [Usage](#usage)
   + [Racket buffer](#racketbuffer)
@@ -24,15 +25,15 @@ Table of contents
 - [Closing remarks](#closing)
 
 
-<a name="introduction"></a> Introduction
-----------------------------------------
+<a name="overview"></a>Overview
+-------------------------------
 
 Editing Racket code with Emacs has traditionally been done by rudimentary modes that lacked
 flexibility. They were able to evaluate current definitions, last definitions, and entire buffers,
 for the most part. Unfortunately, that didn’t suffice with the way Racket dealt with things. A more
 intelligent way of handling code, was needed.
 
-Fortunately, you have [Geiser](http://www.nongnu.org/geiser/). There are other major modes that try
+Fortunately, there is [Geiser](http://www.nongnu.org/geiser/). There are other major modes that try
 to do what Geiser does, but I became most comfortable with what Geiser offered. Some similar
 libraries can co-exist with Geiser, too. I tried those, but it became too complex, for me. I wound
 up just using Geiser. Also, as a semi-related note, I’m using Emacs to edit Racket code because I
@@ -40,8 +41,8 @@ don’t know of any other editor that does it so well. I don’t use DrRacket, e
 its nice GUI debugger.
 
 
-<a name="installation"></a> Installation
-----------------------------------------
+<a name="installation"></a>Installation
+---------------------------------------
 
 With [ELPA](/en/emacs-tips-2/#elpa), installing Geiser is a breeze. Simply execute the following
 
@@ -62,11 +63,14 @@ actual code that invokes and configures Geiser:
 
 The first expression loads Geiser, itself. The second one specifies that it won’t prompt you for
 other implementations if it finds them. The last one is optional—it enables you to execute
-`M-x geiser-save RET` in the REPL buffer to force saving of the history to the disk file, which is
+
+    M-x geiser-save RET
+
+in the REPL buffer to force saving of the history to the disk file, which is found in
 `~/.geiser_history.racket`, by default. It is useful if you want to save your REPL session,
-immediately (Nothing is more horrifying than losing **THAT** expression). For all the Emacs code
-above, to take effect, you can evaluate them now using members of the eval-* troupe (`eval-defun`,
-`eval-last-sexp`, `eval-region`), or, you can still opt to respawn a new Emacs process.
+immediately. Nothing is more horrifying than losing **THAT** expression. For all the Emacs code
+above, to take effect, you can evaluate them now using members of the EVAL troupe—`eval-defun`,
+`eval-last-sexp`, `eval-region`—or, you can still opt to respawn a new Emacs process.
 
 
 <a name="usage"></a> Usage
@@ -83,10 +87,10 @@ more. This major mode is actually Comint mode, under the hood, with hooks to a a
 those of you who are unfamiliar with Comint mode, it is the same mode that handles `M-x shell RET`.
 
 So, what can you do with it? While editing `.rkt` file, here are some of the usual shortcuts that I
-use (The full list of keys
-are [available here](http://www.nongnu.org/geiser/geiser_5.html#Cheat-sheet)). Take note, that the
-description of the keys that I used below, are for myself initially, to help me understand what they
-do. They may, or may not diverge from the official description, listed on the aforementioned link.
+use. The full list of keys are [available here](http://www.nongnu.org/geiser/geiser_5.html#Cheat-sheet).
+Take note, that the description of the keys that I used below, are for myself initially, to help me
+understand what they do. They may, or may not diverge from the official description, listed on the
+aforementioned link.
 
 
 ### <a name="racketbuffer"></a> Racket buffer
@@ -118,5 +122,5 @@ do. They may, or may not diverge from the official description, listed on the af
 
 I have intentionally skipped many topics from the [official document](http://www.nongnu.org/geiser/)
 because it makes it unattractive to people who are averse to reading long blocks of text
-(ironically, this article may even qualify as one.). The methods described above are by in no way
+Ironically, this article may even qualify as one. The methods described above are by in no way
 representative of community-advised ways of installing and using Racket with Emacs. Ciao!
