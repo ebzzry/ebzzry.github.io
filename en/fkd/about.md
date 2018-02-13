@@ -1,7 +1,7 @@
 About
 =====
 
-<center>[Esperanto](/eo/pri)  [English](#)</center>
+<center>[Esperante](/eo/pri)  [English](#)</center>
 <center>March 27, 2017</center>
 <center>Updated: February 13, 2018</center>
 
