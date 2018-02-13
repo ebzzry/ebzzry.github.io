@@ -32,7 +32,7 @@ Enhavotabelo
 
 Por fari ambaŭdirektan sinkronigon de la dosierujo `/pub/yot/ninam`, inter la nuna retnodo al la
 retnodoj `tarupam` kaj `taubetmo`, dum konservi la dosierujan strukturon loke, kuru la jenan
-komandon. Notu, ke ne devas ekzisti spacetoj inter la retnodaj precizigo, pro la `IFS` media
+komandon. Notu tion, ke ne devas ekzisti spacetoj inter la retnodaj precizigo, pro la `IFS` media
 variablo:
 
     $ usync /pub/yot/ninam/ tarupam,taubetmo
