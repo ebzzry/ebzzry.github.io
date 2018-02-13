@@ -24,7 +24,7 @@ Enhavotabelo
 
 - [Baza uzado](#bazuzado)
 - [Altnivela uzado](#altniveluzado)
-- [Finaj rimarkoj](#finaj)
+- [Finrimarkoj](#finrimarkoj)
 
 
 <a name="bazuzado"></a>Baza uzado
@@ -69,8 +69,8 @@ Por vidi pli da informo, kuru:
     $ usync --help
 
 
-<a name="finaj"></a>Finaj rimarkoj
-----------------------------------
+<a name="finrimarkoj"></a>Finrimarkoj
+-------------------------------------
 
 Kelkaj dosieroj kaj regulesprimoj enkonstruitas kiel eksigoj. Ili eble faras sencon aŭ ne. Se
 vi opinias, ke ili devas esti ŝanĝitaj, liberiĝu por sendi tirpeton. La fontoj haveblas
