@@ -1,5 +1,5 @@
-La Ipsilona Kombinatoro en Ses Paŝoj
-====================================
+La Ipsilonkombinatoro en Ses Paŝoj
+==================================
 
 <center>[Esperante](#)  [English](/en/y)</center>
 <center>la 25-an de Novembro 2017</center>
@@ -10,7 +10,7 @@ La Ipsilona Kombinatoro en Ses Paŝoj
 
 Multe da ni estis instruitaj ke, por difini rikuran proceduron, la rikura alvoko devas uzi la
 nomon de la rikuran proceduron. La
-[ipsilona kombinatoro (angle)](https://en.wikipedia.org/wiki/Fixed-point_combinator#Y_combinator), tamen,
+[ipsilonkombinatoro (angle)](https://en.wikipedia.org/wiki/Fixed-point_combinator#Y_combinator), tamen,
 permesas onin por presti rikuron, sen referenci la nomatan identigilon.
 
 
@@ -30,7 +30,7 @@ Enhavotabelo
 <a name="kio">Kio?</a>
 ----------------------
 
-La ipsilona kombinatoro estas la fonto de kaj inspiro kaj frustro de multaj homoj. Elvokas sensacion
+La ipsilonkombinatoro estas la fonto de kaj inspiro kaj frustro de multaj homoj. Elvokas sensacion
 kiel eŭreka tuj oni pasis la muron, sed ankaŭ faras nin por skrapi niajn kapojn kiam ne faras sencon
 por trairi la labirinton. Ĉi tiu artikolo celas porti miajn proprajn metodojn kiel derivi la ipsilonan
 kombinatoron. Eble ne estas la plej eleganta maniero, tamen eblas funkcii por oni.
@@ -109,7 +109,7 @@ Konstatiĝu, ke nun, oni ne plu uzos la `foo` nomon por referenci la difinon, kr
 <a name="enan">Paŝo 4-a: Abstraktu la enan alvokon</a>
 ------------------------------------------------------
 
-Sekve, oni bezonas movi la `(f f)` parton ekster, por izoli la ĝeneralan (ipsilona kombinatoro), el la
+Sekve, oni bezonas movi la `(f f)` parton ekster, por izoli la ĝeneralan (ipsilonkombinatoro), el la
 specifa (`foo`) kodo.
 
 ```scheme
@@ -164,7 +164,7 @@ Oni anstataŭigu la difinon specifa al `foo`, per `x`. Ĉi tio bezonas onin, den
 <a name="difini">Paŝo 6-a: Difinu la kombinatoron</a>
 -----------------------------------------------------
 
-Fine, oni eksplicite kreos apartan proceduran difinon por la ipsilona kombinatoro mem, kaj la `foo`
+Fine, oni eksplicite kreos apartan proceduran difinon por la ipsilonkombinatoro mem, kaj la `foo`
 proceduro.
 
 ```scheme
