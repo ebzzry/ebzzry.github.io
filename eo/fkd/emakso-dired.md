@@ -9,7 +9,7 @@ Mastrumi Dosierujojn Emakse
 >―Samuel CLEMENS
 
 En ĉi tiu afiŝo, mi fokusas sur unu el la plej lertaj manieroj, kiel Emakso traktas dosierujan
-administradon. La dosieruja rekdatilo, aŭ _Dired_ (angle elparolas kiel dir-ed), estas la emaksa
+administradon. La dosierujrekdatilo, aŭ _Dired_ (angle elparolas kiel dir-ed), estas la Emaksa
 egalvaloro de dosieradministrilo. Kio ajn oni povas fari al regulaj bufroj, oni ankaŭ povas fari ĝin
 al Dired-aj bufroj.
 
@@ -22,7 +22,7 @@ Enhavotabelo
 - [Markaj komandoj](#markaj)
 - [Aliaj komandoj](#aliaj)
 - [WDired-a reĝimo](#wdired)
-- [Finaj rimarkoj](#finaj)
+- [Finrimarkoj](#finrimarkoj)
 
 
 <a name="superrigardo"></a>Superrigardo
@@ -41,8 +41,8 @@ kiam oni premas <kbd>Enter</kbd>, bufro de la dosierujo aperos, kiu aspektas kie
 /home/ogag/Desktop/foo:
 total used in directory 84 available 540767396
 -rw-r--r-- 1 ogag users 5935 Sep 27 18:17 index.html
-drwxr-xr-x 3 ogag users 4096 Sep 26 17:42 pics
-drwxr-xr-x 3 ogag users 4096 Sep 26 05:39 vids
+drwxr-xr-x 3 ogag users 4096 Sep 26 17:42 bildoj
+drwxr-xr-x 3 ogag users 4096 Sep 26 05:39 filmoj
 ```
 
 Bone, nun, ke oni havas ĝin, kion si povas fari per ĝi? Nu, la jena estas mallonga listo de tiuj,
@@ -80,7 +80,7 @@ sur eroj, por ke oni povas presti la operaciojn en la antaŭa sekcio, sur ili:
 | m     | Marku eron                                           |
 | d     | Marku eron por forviŝi                               |
 | x     | Plenumu operacion                                    |
-| u     | Malmarku solan eron                                  |
+| u     | Malmarku soleron                                     |
 | U     | Malmarku ĉiujn erojn                                 |
 | t     | Baskuligu markojn inter markitaj kaj nemarkitaj eroj |
 | c     | Densigu erojn                                        |
@@ -120,8 +120,8 @@ aferojn pli facile. La ŝanĝoj, kiujn oni faris, en ĉi tiu punkto ne ankoraŭ 
 konservi la ŝanĝojn, premu <kbd>C-c C-c</kbd>.
 
 
-<a name="finaj"></a>Finaj rimarkoj
-----------------------------------
+<a name="finrimarkoj"></a>Finrimarkoj
+-------------------------------------
 
 Ni nur tuŝis la pinton de la glacimonto. Liberiĝu por esplori. Por vidi pli da informo, vizitu la
 Dired-an manlibron [ĉi tie](https://www.gnu.org/software/emacs/manual/html_node/emacs/Dired.html).

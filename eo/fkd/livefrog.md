@@ -23,7 +23,7 @@ Enhavotabelo
 - [Baza uzado](#bazaj)
 - [Komentoj](#komentoj)
 - [Ĝisdatigo](#ĝisdatigo)
-- [Finaj rimarkoj](#finaj)
+- [Finrimarkoj](#finrimarkoj)
 
 
 <a name="superrigardo"></a>Superrigardo
@@ -158,8 +158,8 @@ livefrog-on, kaj denove instali ĝin:
     $ raco pkg install livefrog/
 
 
-<a name="miksaĵo"></a>Miksaĵo
------------------------------
+<a name="finrimarkoj"></a>Finrimarkoj
+-------------------------------------
 
 Por redukti tajpadon, oni povas krei alinomon de `raco livefrog` en via ŝelo.
 
