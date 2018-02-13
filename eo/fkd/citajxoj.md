@@ -81,7 +81,7 @@ tra la jarojn.
   ―Dalai-lamao
 
 
-- Ĉiom da bonaj ideoj ne kuŝas sur unu ĉapelo.<br>
+- Ĉiom da bonaj ideoj ne kuŝas sub unu ĉapelo.<br>
   ―Dale TURNER
 
 
