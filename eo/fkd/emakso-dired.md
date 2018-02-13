@@ -32,7 +32,7 @@ Por kuri Dired-on, kuru Emakson sur la komandlinio, provizi dosierujon, kiel la 
 
     $ emacs ~/Desktop
 
-Aŭ alternative, oni povas premi <kbd>C-x d</kbd> ene Emakso. Se oni nune redaktilas dosieron, la
+Aŭ alternative, oni povas premi <kbd>C-x d</kbd> ene Emakso. Se oni nune redaktas dosieron, la
 dosierujo de tiu dosiero estos prezentita kiel la defaŭlta valoro en la etbufra areo. Ambaŭmaniere,
 kiam oni premas <kbd>Enter</kbd>, bufro de la dosierujo aperos, kiu aspektas kiel la eligo de
 `ls -l`:
@@ -46,7 +46,7 @@ drwxr-xr-x 3 ogag users 4096 Sep 26 05:39 vids
 ```
 
 Bone, nun, ke oni havas ĝin, kion si povas fari per ĝi? Nu, la jena estas mallonga listo de tiuj,
-kiujn oni bezonas fari per gi. Notu, ke la fulmoklavoj en ĉi tiu artikolo usklecodistingas, krom le
+kiujn oni bezonas fari per gi. Notu, ke la fulmoklavoj en ĉi tiu artikolo usklecodistingas, krom se
 eksplicite esprimis alie.
 
 
@@ -81,7 +81,7 @@ sur eroj, por ke oni povas presti la operaciojn en la antaŭa sekcio, sur ili:
 | d     | Marku eron por forviŝi                               |
 | x     | Plenumu operacion                                    |
 | u     | Malmarku solan eron                                  |
-| U     | Malmalku ĉiujn erojn                                 |
+| U     | Malmarku ĉiujn erojn                                 |
 | t     | Baskuligu markojn inter markitaj kaj nemarkitaj eroj |
 | c     | Densigu erojn                                        |
 
@@ -92,7 +92,7 @@ sur eroj, por ke oni povas presti la operaciojn en la antaŭa sekcio, sur ili:
 La jenaj komandoj agas laŭ si mem. Ili operacias sur solaj eroj kaj ili ne uzas markojn. La
 <kbd>w</kbd> komando, tamen, estas escepto.
 
-| Klavo   | Kion gi faras                             |
+| Klavo   | Kion ĝi faras                             |
 | :------ | :---------------------------------------- |
 | +       | Kreu dosierujon                           |
 | ^       | Iru supren, per unu nivelo, kiel `cd ..`  |
@@ -108,9 +108,9 @@ La jenaj komandoj agas laŭ si mem. Ili operacias sur solaj eroj kaj ili ne uzas
 <a name="wdired"></a>WDired-a reĝimo
 ------------------------------------
 
-Tamen, ulu el la plej mojosa, kaj ofte malatentita funkcio de Dired-o estas la _WDired-a_
+Tamen, unu el la plej mojosa, kaj ofte malatentita funkcio de Dired-o estas la _WDired-a_
 reĝimo. Kion ĝi faras, estas, ĝi donas al oni potenca kapablo por redakti la nomojn de eroj ene
-Dired-a bufro, similas al kion oni faras al kutima bufro. Por eniri la WDired-a reĝimo, premu:
+Dired-a bufro, similas al tio, kion oni faras al kutima bufro. Por eniri la WDired-a reĝimo, premu:
 
     M-x wdired-change-to-wdired-mode REV
 
