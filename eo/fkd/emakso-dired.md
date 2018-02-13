@@ -5,7 +5,7 @@ Mastrumi Dosierujojn Emakse
 <center>la 12-an de Februaro 2018</center>
 <center>Laste ŝanĝita: la 12-an de Februaro 2018</center>
 
->Supozi estas bona, sed eltrovi estas pli bona.<br>
+>Supozi estas bona, tamen eltrovi estas pli bona.<br>
 >―Samuel CLEMENS
 
 En ĉi tiu afiŝo, mi fokusas sur unu el la plej lertaj manieroj, kiel Emakso traktas dosierujan
