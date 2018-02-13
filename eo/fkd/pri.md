@@ -8,4 +8,4 @@ Pri
 <img style="margin-right: 0.5em; margin-bottom: 0.5em;" src="/bildoj/ebzzry.jpg" alt="Ve!" title="Ve!" align="left" />
 Rommel Martinez estas kosma pirato de nekonata deveno. Nune li estas en homa formo kaj laste viditis interrilati kun teranoj en la Lakta Vojo.
 
-[![ebzzry@ebzzry.io](/bildoj/icon_mail_01_48x48.png "ebzzry@ebzzry.io")](mailto:ebzzry@ebzzry.io) [![github.com/ebzzry](/bildoj/icon_github_01_48x48.png "GitHub")](https://github.com/ebzzry)  [![GPG](/bildoj/icon_gnupg_01_48x48.png "GPG")](/sxlosiloj/ebzzry-gnupg.pub) 
+[![ebzzry@ebzzry.io](/bildoj/icon_mail_01_48x48.png "ebzzry@ebzzry.io")](mailto:ebzzry@ebzzry.io) [![github.com/ebzzry](/bildoj/icon_github_01_48x48.png "github.com/ebzzry")](https://github.com/ebzzry)  [![GPG](/bildoj/icon_gnupg_01_48x48.png "GPG")](/sxlosiloj/ebzzry-gnupg.pub) 
