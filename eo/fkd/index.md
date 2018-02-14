@@ -1,5 +1,5 @@
-Pensoj de Pedanta Pirato
-========================
+Pensoj de Pedanta Primato
+=========================
 
 <center>[Esperante](#)  [English](/en/)</center>
 <center>la 27-an de Aprilo 2017</center>
@@ -10,6 +10,7 @@ Pensoj de Pedanta Pirato
 <div class="text-right">Retejo pri komputiko, homaj inklinoj, kaj hazardaj umoj.</div>
 <div class="text-right">Enskriboj ordigatas laŭ inversa kronologia ordo.</div>
 
+- [Agordi Retpoŝton Emakse](emakso-retposxto)
 - [Agordi Rakidprogramadon Emakse](emakso-rakido)
 - [Mastrumi Dosierujojn Emakse](emakso-dired)
 - [Emakskonsiletoj 1-a: Regionoj kaj Markoj](emakskonsiletoj-1-a)

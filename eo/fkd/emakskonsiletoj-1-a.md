@@ -15,7 +15,7 @@ Enhavotabelo
 ------------
 
 - [Regionoj](#regionoj)
-- [Kompilado](#kompilado)
+- [Kompilo](#kompilo)
 - [Skimo](#skimo)
 - [Servilo](#servilo)
 - [Bufroj](#bufroj)
@@ -41,8 +41,8 @@ La jena komando forviŝas regionon se unu aktivas aŭ forviŝas la signon sub la
 ```
 
 
-<a name="kompilado"></a>Kompilado
----------------------------------
+<a name="kompilo"></a>Kompilo
+-----------------------------
 
 Mi ofte uzas la jenan komandon kaj mi uzas ĝin de komposti LaTeX-ajn dokumentojn, kompili
 Scribble-ajn dokumentojn, kompili kodon, kaj por preskaŭ io ajn, kiun mi povas uzi ĝin.
