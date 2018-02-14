@@ -53,7 +53,7 @@ rimarkis. Estas tre senkuraĝige ke anstataŭ fari paŝon malantaŭen kaj fiksri
 momento, homoj anstataŭ enakviĝas ili mem en mirlando. Ĉi tiu ebriiga kutimo, malbonfaras ne
 unuopulon, sed la tutan homaron. Kiam iu diras al vi ke respondoj al siaj demandoj povas esti
 ekzluzive respondata ĉiam per jes aŭ ne, forlasi lin kaj li ne plu meritas vian atenton denove. Se
-ni ve scias la respondon, vi devas diri ke vi ne scias la respondon, anstataŭ fari trapezajn
+vi ne scias la respondon, vi devas diri ke vi ne scias la respondon, anstataŭ fari trapezajn
 manovrojn sen iu por kapti viajn manojn.
 
 Ofte, ni malatentas ke ĉiom da iloj kion ni bezonas, estas ĉeestantaj kun ni.
