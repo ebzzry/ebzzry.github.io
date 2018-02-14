@@ -72,7 +72,7 @@ tra la jarojn.
   ―E.M. FORSTER
 
 
-- Nur tial ke ne fariĝis, ne signifas, ke ne estas farebla. Nur tial ke estas farebla, ne
+- Nur tial ke ne fariĝis, ne signifas, ke ne fareblas. Nur tial ke fareblas, ne
   signifas, ke devus.<br>
   ―Barry GLASFORD
 

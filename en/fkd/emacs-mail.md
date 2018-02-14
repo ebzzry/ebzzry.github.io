@@ -1,8 +1,9 @@
 Setting Up Mail in Emacs
 ========================
 
+<center>[Esperante](/eo/emakso-retposxto)  [English](#)</center>
 <div class="center">February 2, 2014</div>
-<div class="center">Updated: March 31, 2017</div>
+<div class="center">Updated: February 14, 2018</div>
 
 >Just because it isn’t done doesn’t mean it can’t be done. Just because it can be done doesn’t mean
 >it should be.<br>
@@ -12,7 +13,7 @@ In this day and age, checking your mail means going to the website of your mail 
 mobile app. However, there are some cases when you want to have more control over your messages,
 especially when the feature you want is not present with the mainstream options.
 
-Emacs provides a plethora (Gnus, Wanderlust, VM, etc.) of ways of sending and receiving mail. in
+Emacs provides a plethora of ways (Gnus, Wanderlust, VM, etc.) of sending and receiving mail. in
 this post, I’ll talk
 about [getmail](http://pyropus.ca/software/getmail/), [mu](http://www.djcbsoftware.nl/code/mu/),
 and [mu4e](http://www.djcbsoftware.nl/code/mu/mu4e.html), and how to set them up quickly. In this
@@ -52,7 +53,7 @@ Nix:
 
 APT:
 
-    $ sudo apt-get install getmail4
+    $ sudo apt-get install getmail4m
 
 However, if your system doesn’t provide an easy way for you to install getmail, you can always head
 to its [homepage](http://pyropus.ca/software/getmail/) , then download the tarball.
@@ -93,7 +94,7 @@ Replace _USERNAME_ with your Gmail username, then replace _PASSWORD_ with your G
 password. However, if you are using [2-step authentication](https://www.google.com/landing/2step/),
 use an [application-specific](https://accounts.google.com/IssuedAuthSubTokens) password for the
 password field. Take note, that `~/Maildir` is the default directory that Mail Transfer Agents (MTA)
-which use the [maildir](https://en.wikipedia.org/wiki/Maildir) format use, to store data.
+will use to store data.
 
 
 ### <a name="fetchexecution"></a> Execution
@@ -102,8 +103,8 @@ To verify that you can indeed fetch your messages, run getmail:
 
     $ getmail
 
-If it doesn’t choke, and displays something like the following, then
-you have configured getmail correctly.
+If it doesn’t choke, and displays something like the following, then you have configured getmail
+correctly.
 
 ```bash
 getmail version 4.43.0
@@ -111,7 +112,6 @@ Copyright (C) 1998-2012 Charles Cazabon.  Licensed under the GNU GPL version 2.
 SimpleIMAPSSLRetriever:foobar@gmail.com@imap.gmail.com:993:
 ...
 ```
-
 
 <a name="reading"></a> Reading messages
 ---------------------------------------
@@ -131,7 +131,6 @@ Nix:
 APT:
 
     $ sudo apt-get install maildir-utils
-
 
 In addition to the above, you need to fetch mu4e. This comes with mu’s source code. Download it by
 running:
@@ -241,7 +240,7 @@ like `To:`, and `Subject:`, then on the message body, hit:
 
 This will tag your outgoing message to be signed and encrypted. To send the it, hit <kbd>C-c C-c</kbd>. This
 will then prompt you to input your passphrase. It will also ask you to fill in some information
-regarding your outgoing mail server (SMTP). The SMTP server for Gmail is *smtp.gmail.com*, then use
+regarding your outgoing mail server (SMTP). The SMTP server for Gmail is `smtp.gmail.com`, then use
 `USERNAME@gmail`.com when prompted for the username. Use your regular password, when prompted, or
 input your application-specific password, as described earlier. These information will be saved to
 `~/.authinfo`, and will be used for later messages.
@@ -251,14 +250,18 @@ To decrypt a message, open the message, then hit:
     M-x dc RET
 
 This will prompt you to input your passphrase. After which, you’ll be prompted if you’ll want to
-replace the contents of the buffer, say yes to this.
+replace the contents of the buffer. Say yes to this.
 
 These approaches are not fool-proof, because there’s at least two gaping holes that you have to be
-aware of—Emacs backups, and mu4e drafts. With the former, when you are using Emacs’s backup
-facility, or a package like [backup-dir](https://www.emacswiki.org/emacs/BackupDirectory), messages
-that you compose, presumably before you encrypt it, will have an unencrypted copy to the local
-disk. With the latter, the same principle applies. So be wary of these situations, and tweak your
-configuration, as necessary.
+aware of:
+
+1. Emacs backups, and
+2. mu4e drafts
+
+With the former, when you are using Emacs’s backup facility, or a package like
+[backup-dir](https://www.emacswiki.org/emacs/BackupDirectory), messages that you compose, presumably
+before you encrypt it, will have an unencrypted copy to the local disk. With the latter, the same
+principle applies. So be wary of these situations, and tweak your configuration, as necessary.
 
 
 <a name="closing"></a> Closing remarks
@@ -268,4 +271,4 @@ Bear in mind that I purposely avoided fleshing out many details, as it would con
 this article to make things simple. However, if you want to learn more, you can always go to
 the [getmail](http://pyropus.ca/software/getmail/documentation.html)
 and [mu4e](http://www.djcbsoftware.nl/code/mu/mu4e/index.html) documentation, to fill in missing
-gaps, that you may have.
+information, that you may have.

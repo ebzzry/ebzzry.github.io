@@ -1,5 +1,5 @@
-Musings of a Pedantic Pirate
-============================
+Musings of a Pedantic Primate
+=============================
 
 <center>[Esperanto](/eo/)  [English](#)</center>
 <center>August 15, 2015</center>

@@ -12,8 +12,8 @@ all:
 	parallel --will-cite "$(MAKE) {/.}.html" ::: $(DOSIEROJ)
 	$(KONSTRUILO) \
           -D "Retejo pri komputiko, homaj inklinoj, kaj hazardaj umoj." \
-          -K "ebzzry, rommel, martinez, rommel martinez, pedanta pirato" \
-          --og-title "Pensoj de Pedanta Pirato" \
+          -K "ebzzry, rommel, martinez, rommel martinez, pedanta primato" \
+          --og-title "Pensoj de Pedanta Primato" \
           --og-type $(OG_TYPE) \
           --og-url "https://ebzzry.io/eo/" \
           --og-image $(OG_IMAGE) \

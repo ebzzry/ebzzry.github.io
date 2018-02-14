@@ -19,8 +19,8 @@ Enhavotabelo
 ------------
 
 - [Superrigardo](#superrigardo)
-- [Instalado](#instalado)
-- [Baza uzado](#bazaj)
+- [Instalo](#instalo)
+- [Bazaj aferoj](#bazaj)
 - [Komentoj](#komentoj)
 - [Ĝisdatigo](#ĝisdatigo)
 - [Finrimarkoj](#finrimarkoj)
@@ -35,8 +35,8 @@ kreitaj de aŭ [ljdump](http://hewgill.com/ljdump/) aŭ
 [ljmigrate](https://github.com/ceejbot/ljmigrate).
 
 
-<a name="instalado"></a>Instalado
----------------------------------
+<a name="instalo"></a>Instalo
+-----------------------------
 
 Esti kapable por kuri la programojn, oni unue devas instali Rakidon:
 
@@ -64,8 +64,8 @@ La vostaj suprenstrekoj gravas por diri al `raco`, ke oni instalas el lokaj dosi
 la fontojn de la interreto sen tio.
 
 
-<a name="bazaj"></a>Bazaj
--------------------------
+<a name="bazaj"></a>Bazaj aferoj
+--------------------------------
 
 Por krei Markdown-an dosieron de la dosiero `entry.xml`
 
