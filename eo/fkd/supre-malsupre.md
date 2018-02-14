@@ -14,7 +14,7 @@ tiras niajn konsciojn al longaĵoj preskaŭ nesondeble ĉar ni pensas, ke se ni 
 pensaĵo, la elveno estas pozitive kaj proporcie alta laŭ niaj konvinkoj.
 
 Ni plendas pri niaj mankoj de iloj. Ni plendas pri niaj mankoj de rimedoj. Tamen, ni miregas kaj
-alportiĝas al ŝoka nekredemo kiam iu faras io per multe malpli ol niaj manoj havas. Ni elrevigas la
+alportiĝas al ŝoka nekredemo kiam iu faras ion per multe malpli ol niaj manoj havas. Ni elrevigas la
 probablon ke kiun ni trovas, estas ja sur nia orelo. Nia kapablo por eksigi idealajn opciojn kiuj
 staras antaŭ ni, estas ŝoke. Kial ni bezonas fosi subteran subtervojon por enigi, kiam ĉio kiun ni
 bezonas, estas frapi ĉe la pordo?
