@@ -46,7 +46,7 @@ drwxr-xr-x 3 ogag users 4096 Sep 26 05:39 filmoj
 ```
 
 Bone, nun, ke oni havas ĝin, kion si povas fari per ĝi? Nu, la jena estas mallonga listo de tiuj,
-kiujn oni bezonas fari per gi. Notu tion, ke la fulmoklavoj en ĉi tiu artikolo usklecodistingas, krom se
+kiujn oni bezonas fari per gi. Notu, ke la fulmoklavoj en ĉi tiu artikolo usklecodistingas, krom se
 eksplicite esprimis alie.
 
 
@@ -63,7 +63,7 @@ pluraj eroj. Uzi ilin por pluraj eroj estos klarigitaj sekve.
 | D       | Forviŝu eron                |
 | O       | Ŝanĝu proprulon             |
 | G       | Ŝanĝu grupon                |
-| M       | Ŝanĝu permosjn              |
+| M       | Ŝanĝu permesosjn            |
 | S       | Kreu simbolligilon          |
 | T       | Tuŝu eron                   |
 | ! or X  | Kuru ŝelan komandon al ero  |
@@ -114,7 +114,7 @@ Dired-a bufro, similas al tio, kion oni faras al kutima bufro. Por eniri la WDir
 
     M-x wdired-change-to-wdired-mode REV
 
-La ĉefreĝimo ŝanĝiĝas de `Dired` al `Editable Dired`. Oni nun povas renoni la dosierojn kaj
+La ĉefreĝimo ŝanĝiĝas de `Dired` al `Editable Dired`. Oni nun povas renomi la dosierojn kaj
 dosierujon facile. Oni eĉ povas uzi ortangulajn kaj anstataŭigajn funkciojn sur ili, por fari
 aferojn pli facile. La ŝanĝoj, kiujn oni faris, en ĉi tiu punkto ne ankoraŭ konservitas. Por
 konservi la ŝanĝojn, premu <kbd>C-c C-c</kbd>.

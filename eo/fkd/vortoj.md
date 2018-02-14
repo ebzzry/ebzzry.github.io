@@ -134,7 +134,7 @@ Enskriboj estas ordigataj laŭ kronologia ordo.
 - Homoj klaĉas pri aliaj homoj tial ke iliaj propraj vivoj estas tre seninteresaj.<br>
 
 
-- Kiom ajn vi uzas fejsbukon, uzu malpli.<br>
+- Kiel malofte vi uzas fejsbukon, uzu ĝin pli malofte.<br>
 
 
 - La homoj havas mirindajn povojn por rezisti la eltrovon, la progreson, kaj la novigadon. Ili ofte

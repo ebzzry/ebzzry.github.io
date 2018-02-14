@@ -9,7 +9,7 @@ Agordi Rakidprogramadon Emakse
 >―Dale TURNER
 
 En ĉi tiu afiŝo, mi priparolos la plej facilan alproksimiĝon, kiun mi uzis por agordi
-[Rakidan](https://racket-lang.org) programadan medion Emakse. Notu tion, ke ĉi tiu ne estas la sola
+[Rakidan](https://racket-lang.org) programadan medion Emakse. Notu, ke ĉi tiu ne estas la sola
 aliro—iuj traktis ĝin en aserteble pli bonaj manieroj. En ĉi tiu afiŝo, mi provos klarigi la malpli
 longan vojon, kiun mi vojaĝis.
 
@@ -18,7 +18,7 @@ Enhavotabelo
 ------------
 
 - [Superrigardo](#superrigardo)
-- [Instalado](#instalado)
+- [Instalo](#instalo)
 - [Uzado](#uzado)
   + [Rakida bufro](#rakidbufro)
   + [LTPI-a bufro](#ltpibufro)
@@ -41,8 +41,8 @@ por redakti Rakidkodon, tial ke, mi ne konas ian ajn redaktilon, kiu tiel bonfar
 DrRacket-on krom mi bezonas uzi ĝian agrablan grafikfasadan sencimigilon.
 
 
-<a name="instalado"></a>Instalado
----------------------------------
+<a name="instalo"></a>Instalo
+-----------------------------
 
 Per [ELPA](https://www.emacswiki.org/emacs/ELPA), instali Geiser-on facilas. Simple plenumi la jenan
 komandon
@@ -91,7 +91,7 @@ traktas `M-x shell REV`.
 
 Do, kion oni povas fari per tio? Dum redakti `.rkt`-an dosieron, jen estas kelke de kutimaj
 fulmoklavoj, kiujn mi uzas. La plena listo haveblas [ĉi tie](http://www.nongnu.org/geiser/geiser_5.html#Cheat-sheet).
-Notu tion, ke la priskribo de la klavoj, kiujn mi uzas malsupre, estas por mi mem komence, por
+Notu, ke la priskribo de la klavoj, kiujn mi uzas malsupre, estas por mi mem komence, por
 helpi min komprenas tion, kion ĝi faras. Eble ili malsimilas al la oficiala priskribo, listigita sur
 la antaŭmenciita ligilo.
 
