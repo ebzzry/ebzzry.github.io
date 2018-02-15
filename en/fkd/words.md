@@ -135,7 +135,7 @@ Entries are sorted in chronological order.
 - People gossip about other people because their own lives are too uninteresting.<br>
 
 
-- However less you use Facebook, use lesser.<br>
+- However less you use social networking, use lesser.<br>
 
 
 - The most difficult lies to detect are the ones that are mixed with the truths.<br>
