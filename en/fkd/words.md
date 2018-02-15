@@ -210,3 +210,6 @@ Entries are sorted in chronological order.
 
 
 - Social networking is an animal that you must not tame.<br>
+
+
+- Never underestimate physical forces.<br>

@@ -206,3 +206,6 @@ Enskriboj estas ordigataj laŭ kronologia ordo.
 
 
 - Socia reto estas besto, kiun oni ne devas dresi.<br>
+
+
+- Neniam malestimu fizikajn fortojn.<br>
