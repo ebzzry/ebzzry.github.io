@@ -2,7 +2,7 @@ Creating Backups with Ugarit
 ============================
 
 <div class="center">February 21, 2014</div>
-<div class="center">Updated: March 31, 2017</div>
+<div class="center">Updated: Februaro 18, 2018</div>
 
 >Good judgement comes from experience, and experience comes from bad judgement.<br>
 >―Fred Brooks
@@ -17,8 +17,7 @@ fallback, a big, safe foam that we can land on, it wouldn’t have been a lot of
 ache. On the flip side, creating and managing backups can be daunting, and equally dangerous.
 
 In this post, I’ll talk about
-[Ugarit](https://www.kitten-technologies.co.uk/project/ugarit/doc/trunk/README.wiki)
-, a nice piece of technology, that combines ease-of-use and security, in a single tool.
+[Ugarit](https://www.kitten-technologies.co.uk/project/ugarit/doc/trunk/README.wiki), a nice piece of technology, that combines ease-of-use and security, in a single tool.
 
 
 Table of contents
@@ -101,11 +100,14 @@ some commands. Save the outputs of these commands, because you’ll be needing t
 
 Create a salt, for the hash function:
 
-    $ dd if=/dev/random bs=1 count=64 2>/dev/null | base64 -w 0 | tail -1
+    $ dd if=/dev/random bs=1 count=64 2>/dev/null \
+    | base64 -w 0 \
+    | tail -1
 
 Create a key, for the vault:
 
-    $ dd if=/dev/random bs=32 count=1 2>/dev/null | od -An -tx1 \
+    $ dd if=/dev/random bs=32 count=1 2>/dev/null \
+    | od -An -tx1 \
     | tr -d ' \t\n'
 
 After you run those commands, you’ll create the config file, `ugarit.conf`. To make it consistent
@@ -235,7 +237,7 @@ you store the snapshots.
 To disable locate on NixOS, add the following to `/etc/nixos/configuration.nix`:
 
 ```nix
-services.locate.enable = true;
+services.locate.enable = false;
 ```
 
 An important caveat worth mentioning is that, due to the way Ugarit works, snapshot deletions do not
