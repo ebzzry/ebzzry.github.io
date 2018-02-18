@@ -3,7 +3,7 @@ Citaĵoj
 
 <center>[Esperante](#)  [English](/en/quotes)</center>
 <center>la 15-an de Novembro 2017</center>
-<center>Laste ŝanĝita: la 12-an de Februaro 2018</center>
+<center>Laste ŝanĝita: la 18-an de Februaro 2018</center>
 
 Ĉi tiu paĝo enhavas liston de atenteme elektitaj citaĵoj, aforismoj, kaj sentencoj kiujn mi kolektis
 tra la jarojn.
@@ -606,3 +606,9 @@ tra la jarojn.
 
 - El la militolernejo de la vivo: Kion ne detruas min, faras min pli forta.<br>
   ―Friedrich NIETZSCHE
+
+
+- La tri plej gravaj tagoj en via vivo estas via naskiĝtago, la tago kiam vi eltrovas kial vi
+  naskiĝis, kaj la tago kiam vi malkovras kiel kontribui la donacojn kiun vi naskita por doni.<br>
+  ―Taylor HARTMAN
+
