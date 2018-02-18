@@ -3,7 +3,7 @@ Quotes
 
 <center>[Esperanto](/eo/citajxoj)  [English](#)</center>
 <center>August 29, 2015</center>
-<center>Updated: October 22, 2017</center>
+<center>Updated: February 18, 2018</center>
 
 This page contains a list of curated quotations, aphorisms, and proverbs that I have collected over
 the years.
@@ -615,3 +615,8 @@ the years.
 
 - Out of life's school of war: What does not destroy me, makes me stronger.<br>
   ―Friedrich Nietzsche
+
+
+- The three most important days of your live are the day you were born, the day you find out why you
+  were born, and the day you discover how to contribute the gift that you were born to give.<br>
+  ―Taylor Hartman
