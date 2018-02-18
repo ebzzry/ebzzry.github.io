@@ -43,7 +43,7 @@ mortas la esencon de nia individueco.
 Kiel prenkreskuloj, ni instruatas por bridi nin mem ene kaĝoj, kiujn ni mem konstruis, kaj estas
 senkuraĝigaj por vidi ĉi tiun monstran agon disfaldiĝi antaŭ niaj mallongaj vidkampoj ĉiutage. Ni
 tiras nin mem al solaj konfinadoj ne niaj propraj dornaj dormoj. Ni fariĝas ama de prediki dubon al
-niaj uloj. Kaj se nia propra speco faras la saman, ni vidas sentojn de atingo. Tio ne nur estas
+niaj uloj. Kaj se nia propra speco faras la samon, ni vidas sentojn de atingo. Tio ne nur estas
 horore tamen ankaŭ antaŭvideble stulte. Kiam ni estis ankoraŭ maljunaj, ni atingas ekster al
 malplena spaco kaj kreas niajn proprajn eltrovojn. Ni eltrovas la aferojn, kiuj ne antaŭ instruitaj
 al ni.
