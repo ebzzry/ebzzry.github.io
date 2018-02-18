@@ -5,7 +5,7 @@ About
 <center>March 27, 2017</center>
 <center>Updated: February 13, 2018</center>
 
-<img style="margin-right: 0.5em; margin-bottom: 0.5em;" src="/bildoj/ebzzry.jpg" alt="Ve!" title="Ve!" align="left" />
+<img style="margin-right: 0.5em; margin-bottom: 0.5em;" src="/bildoj/identicon.png" alt="Ve!" title="Ve!" align="left" />
 Rommel Martinez is a space primate of unknown descent. He is currently in human form and was last
 spotted interacting with Earthlings in the Milky Way galaxy.
 
