@@ -620,3 +620,11 @@ the years.
 - The three most important days of your live are the day you were born, the day you find out why you
   were born, and the day you discover how to contribute the gift that you were born to give.<br>
   ―Taylor Hartman
+
+
+- Progress, not perfection.<br>
+  ―Robert McCall
+
+
+- When you pray for rain, you gotta deal with the mud, too.<br>
+  ―Robert McCall

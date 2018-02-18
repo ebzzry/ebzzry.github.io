@@ -609,6 +609,13 @@ tra la jarojn.
 
 
 - La tri plej gravaj tagoj en via vivo estas via naskiĝtago, la tago kiam vi eltrovas kial vi
-  naskiĝis, kaj la tago kiam vi malkovras kiel kontribui la donacojn kiun vi naskita por doni.<br>
+  naskiĝis, kaj la tago kiam vi malkovras kiel kontribui la donacojn kiun vi naskitaj por doni.<br>
   ―Taylor HARTMAN
 
+
+- Pliboniĝo, ne perfekteco.<br>
+  ―Robert MCCALL
+
+
+- Kiam oni preĝas por pluvo, si ankaŭ bezonas trakti la koton.<br>
+  ―Robert MCCALL
