@@ -40,11 +40,11 @@ kreitaj de aŭ [ljdump](http://hewgill.com/ljdump/) aŭ
 
 Esti kapable por kuri la programojn, oni unue devas instali Rakidon:
 
-Per Nix:
+Per Nix-o:
 
     $ nix-env -i racket
 
-Per APT:
+Per APT-o:
 
     $ sudo apt-get install -y racket
 

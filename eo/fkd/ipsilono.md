@@ -192,3 +192,5 @@ proceduro.
 Kiam la kernaj konceptoj estas komprenataj, estos facile por kapti la ŝajne malfacilegajn ideojn. Mi
 esperas, ke ĉi tiu artikolo estas utila por fari onin kompreni la ipsilonan kombinatoron,
 funkcivokarigon, kaj proceduran aplikon.
+
+_Dankon al Raymund Martinez pro la provlegado._
