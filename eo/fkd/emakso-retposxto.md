@@ -46,11 +46,11 @@ programo, kiu faras tion al si, estas [getmail-o](http://pyropus.ca/software/get
 
 Plejofte, getmail-o jam haveblas sur la sistemo per la pako-administrilo:
 
-Per Nix:
+Per Nix-o:
 
     $ nix-env -i getmail
 
-Per APT:
+Per APT-o:
 
     $ sudo apt-get install getmail4
 

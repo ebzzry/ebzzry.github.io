@@ -10,10 +10,11 @@ Pensoj de Pedanta Primato
 <div class="text-right">Retejo pri komputiko, homaj inklinoj, kaj hazardaj umoj.</div>
 <div class="text-right">Enskriboj ordigatas laŭ inversa kronologia ordo.</div>
 
+- [Krei Sekurkopiojn Ugarit-e](ugarit-o)
 - [Blogi Frog-e](frog-o)
 - [Agordi Retpoŝton Emakse](emakso-retposxto)
 - [Agordi Rakidprogramadon Emakse](emakso-rakido)
-- [Mastrumi Dosierujojn Emakse](emakso-dired)
+- [Mastrumi Dosierujojn Emakse](emakso-dired-o)
 - [Emakskonsiletoj 1-a: Regionoj kaj Markoj](emakskonsiletoj-1-a)
 - [Retrospekte](retrospekte)
 - [Migri de LiveJournal al Frog](livefrog)

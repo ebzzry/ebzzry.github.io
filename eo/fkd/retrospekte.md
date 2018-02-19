@@ -66,3 +66,5 @@ Armiĝis per pli da scio, mi nun pli avidas alfronti ian defion, eĉ signifas ko
 iri rekte al mi, ĉar mi faros ilin sperti mil mortojn. Ĉiufoje mi falas, mi stariĝos denove por
 daŭri la batalon. Mi ege frapos pli ol la lasta frapo, tiel longe kiel sango kuras tra mia korpo,
 tiel longe kiel mi sentas la palpeblan aeron de mia spiro.
+
+_Dankon al Raymund Martinez pro la provlegado._
