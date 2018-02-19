@@ -1,8 +1,9 @@
 Creating Backups with Ugarit
 ============================
 
-<div class="center">February 21, 2014</div>
-<div class="center">Updated: Februaro 18, 2018</div>
+<center>[Esperante](#/eo/ugarit-o)  [English](#)</center>
+<center>February 21, 2014</center>
+<center>Updated: Februaro 19, 2018</center>
 
 >Good judgement comes from experience, and experience comes from bad judgement.<br>
 >―Fred Brooks
@@ -13,8 +14,8 @@ that dire situation, pulling your hair out, like a rabid maniac?
 
 Most of us have been there—we lost our precious files due to inadvertent causes. We lost them
 because of disk crash, data corruption, security breach, and other reasons. But had we created a
-fallback, a big, safe foam that we can land on, it wouldn’t have been a lot of trouble, and heart
-ache. On the flip side, creating and managing backups can be daunting, and equally dangerous.
+fallback—a big, safe foam that we can land on—it wouldn’t have been a lot of trouble and heart
+ache. On the flip side, creating and managing backups can be daunting and equally dangerous.
 
 In this post, I’ll talk about
 [Ugarit](https://www.kitten-technologies.co.uk/project/ugarit/doc/trunk/README.wiki), a nice piece of technology, that combines ease-of-use and security, in a single tool.
@@ -41,9 +42,9 @@ Table of contents
 <a name="overview"></a> Overview
 --------------------------------
 
-Ugarit is a classic example of a tool, that requires minimal setup and configuration, but is used
-many times. That, once the initial tinkering is done, all you need to do is reuse the tool. But that
-isn’t Ugarit’s main strength—it is the almost unholy marriage, of convenience and security.
+Ugarit is a classic example of a tool, that requires minimal setup and configuration. That, once the
+initial tinkering is done, all you need to do is reuse the tool. But that isn’t Ugarit’s main
+strength—it is the almost unholy marriage of convenience and security.
 
 Most, if not all the time, convenience is inversely proportional to security. That is, the more
 convenient something is, the less secure it is. With Ugarit, creating and managing backups is as
@@ -60,8 +61,8 @@ your package manager:
 
     $ sudo apt-get install chicken-bin
 
-If it isn’t available on your system, you may download it
-from [code.call-cc.org](https://code.call-cc.org/)
+If it isn’t available on your system, you may download it from
+[code.call-cc.org](https://code.call-cc.org/).
 
 After Chicken is installed, let’s install Ugarit itself, and its dependencies:
 
@@ -95,8 +96,8 @@ large filesystem and you want to mount it to `/ugarit/`.
 Another, equally important requirement that you need to have is its config file, usually named
 `ugarit.conf`. It is supplied as part of the required command line arguments. It is important to
 note, that this file does not reside in a fixed location, in contrast with some programs that look
-for a config file at start-up, from `~/`. But before you actually create that file, you need to run
-some commands. Save the outputs of these commands, because you’ll be needing them later:
+for a config file at start-up. But before you actually create that file, you need to run some
+commands. Save the outputs of these commands, because you’ll be needing them later:
 
 Create a salt, for the hash function:
 
@@ -115,8 +116,8 @@ with the example above, you’ll store it inside `/ugarit`:
 
     $ emacs /ugarit/ugarit.conf
 
-Put the following, replacing SALT, and KEY, with the salt and key strings that you generated
-above. Save the file, then secure it.
+Put the following, replacing SALT and KEY, with the salt and key strings that you generated
+above.
 
 ```scheme
 (storage "backend-fs splitlog /ugarit /ugarit/metadata")
@@ -169,8 +170,8 @@ To list the available commands:
 
     > help
 
-Taking hints from the help usage, you’ll extract a directory, that was part of the snapshot
-earlier. Let’s say that the original path of that directory was `pictures/holiday`. So, to extract
+Taking hints from the help usage, you’ll extract a directory that was part of the snapshot
+earlier. Let’s say that the original path of that directory was `pictures/holiday/`. So, to extract
 the directory `holiday/` to the current directory, run:
 
 ```
@@ -185,9 +186,9 @@ Extracted holiday
 
 ### <a name="extract"></a> Extracting Snapshots Directly
 
-If, however, you know the exact path to a file or directory that you
-want to extract, you can instead run Ugarit with the extract mode. To
-extract the directory `holiday/` from above, directly, run:
+If, however, you know the exact path to a file or directory that you want to extract, you can
+instead run Ugarit with the extract mode. To extract the directory `holiday/` from above, directly,
+run:
 
     $ ugarit extract /ugarit/ugarit.conf /pix/current/contents/holiday
 
@@ -198,7 +199,7 @@ extract the directory `holiday/` from above, directly, run:
 ### <a name="remote"></a> Remote filesystems
 
 Ugarit is not limited to creating snapshots of a local filesystem. It can also be used to create
-snapshots of trees, from a remote host, mounted locally. If you have
+snapshots of trees from a remote host mounted locally. If you have
 an [SSHFS](https://fuse.sourceforge.net/sshfs.html) mount, for example, you can still create a
 snapshot of it, just like any other local filesystem:
 
@@ -231,8 +232,7 @@ To enable very verbose output:
 When you are doubtful of the performance of the disk where you’ll be storing the snapshots, disable
 the [locate and updatedb](http://linux.about.com/od/commands/fl/updatedb-Linux-Command-Unix-Command.htm) service. It is
 usually run periodically via cron. It places a lot of load on the disk, and may over-stress it. Your
-mileage may vary. If, however, you need that service, create an exclusion for the file system where
-you store the snapshots.
+mileage may vary.
 
 To disable locate on NixOS, add the following to `/etc/nixos/configuration.nix`:
 
@@ -244,6 +244,6 @@ An important caveat worth mentioning is that, due to the way Ugarit works, snaps
 exist. The storage mechanism works similarly to Git, only that there are no rebase options.
 
 Ugarit was created by [Alaric Snell-Pym](http://www.snell-pym.org.uk/alaric/). If you want to learn
-more about it,
+more about the project,
 go [here](https://www.kitten-technologies.co.uk/project/ugarit/doc/trunk/README.wiki). To report
 bugs, go [here](https://www.kitten-technologies.co.uk/project/ugarit/reportlist).

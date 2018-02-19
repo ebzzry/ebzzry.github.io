@@ -70,11 +70,11 @@ Por instali Frog-on, oni bezonas instali Rakidon unue. Plej verŝajne, la pako-a
 havas ĝin.
 
 
-Per Nix:
+Per Nix-o:
 
     $ nix-env -i racket
 
-Per APT:
+Per APT-o:
 
     $ sudo apt-get install -y racket
 

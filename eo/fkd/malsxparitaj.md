@@ -88,3 +88,5 @@ Kiam ni propravole alligi al niaj kruroj la pezajn ĉenojn kaj ŝtalpilkojn, ni 
 esti kapabla kuri ĉirkaŭ la stadiono facile. Kiam ni kuraĝas esplori nekartografitajn teritoriojn,
 sen bedaŭroj, sen disreviĝoj, sen la neceseco por havi alian ŝipon por irigi nin antaŭe, ni iutempe
 venkos.
+
+_Dankon al Raymund Martinez pro la provlegado._

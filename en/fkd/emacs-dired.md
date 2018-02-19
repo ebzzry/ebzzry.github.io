@@ -1,7 +1,7 @@
 Managing Directories with Emacs
 ===============================
 
-<center>[Esperante](/eo/emakso-dired)  [English](#)</center>
+<center>[Esperante](/eo/emakso-dired-o)  [English](#)</center>
 <center>September 26, 2013</center>
 <center>Updated: February 12, 2018</center>
 
