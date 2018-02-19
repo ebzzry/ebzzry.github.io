@@ -9,7 +9,7 @@ Mastrumi Dosierujojn Emakse
 >―Samuel CLEMENS
 
 En ĉi tiu afiŝo, mi fokusas sur unu el la plej lertaj manieroj, kiel Emakso traktas dosierujan
-administradon. La dosierujrekdatilo, aŭ _Dired_ (angle elparolas kiel dir-ed), estas la Emaksa
+administradon. La dosierujrekdatilo _Dired_ (angle elparolas kiel dir-ed), estas la Emaksa
 egalvaloro de dosieradministrilo. Kio ajn oni povas fari al regulaj bufroj, oni ankaŭ povas fari ĝin
 al Dired-aj bufroj.
 
@@ -125,3 +125,5 @@ konservi la ŝanĝojn, premu <kbd>C-c C-c</kbd>.
 
 Ni nur tuŝis la pinton de la glacimonto. Liberiĝu por esplori. Por vidi pli da informo, vizitu la
 Dired-an manlibron [ĉi tie](https://www.gnu.org/software/emacs/manual/html_node/emacs/Dired.html).
+
+_Dankon al Raymund Martinez pro la provlegado._
