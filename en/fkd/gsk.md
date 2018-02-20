@@ -1,9 +1,9 @@
 Setting Up GPG and SSH in KDE
 =============================
 
-<div class="center">September 17, 2014</div>
-<div class="center">Updated: March 31, 2017</div>
-
+<center>[Esperante](/eo/gsk)  [English](#)</center>
+<center>September 17, 2014</center>
+<center>Updated: February 20, 2018</center>
 
 >It’s not at all important to get it right the first time. It’s vitally important to get it right
 >the last time.<br>
@@ -20,7 +20,7 @@ session but you are free to use any editor that you want.
 Table of contents
 -----------------
 
-- [Prerequisites](#prerequisites)
+- [Requirements](#requirements)
 - [Configure SSH](#ssh)
 - [Configure GPG](#gpg)
 - [Configure KDE](#kde)
@@ -28,8 +28,8 @@ Table of contents
 - [Closing remarks](#closing)
 
 
-<a name="prerequisites"></a> Prerequisites
-------------------------------------------
+<a name="requirements"></a> Requirements
+----------------------------------------
 
 For this tutorial you need to have GPG, SSH, and Pinentry.
 
@@ -50,7 +50,7 @@ DNF:
 --------------------------------
 
 Now that you have the parts in front of you, it’s time to assemble them. The first thing that you
-need to do—although in reality the files that you are going to open in this section can be done in
+need to do—although in reality the files that you are going to open in this tutorial can be done in
 any order that you wish—is create your SSH keys:
 
     $ ssh-keygen -t ed25519
@@ -75,7 +75,7 @@ the strongest options:
 
     $ gpg2 --gen-key
 
-If you want to generate *better* passwords, use
+If you want to use better passwords, use
 the
 [Diceware method](http://world.std.com/~reinhold/diceware.html). An
 [XKCD comic](https://xkcd.com/936/) was drawn in case you’re wondering what it is.
@@ -98,17 +98,17 @@ Then put in the following:
     default-cache-ttl-ssh 10800
     pinentry-program /usr/bin/pinentry-qt4
 
-Those are my preferred values. If you want to change them, look at the manpage:
+Replace the value for `pinentry-program` for the actual location of pinentry on your system. To
+determine the location of pinentry, run:
 
-    $ man gpg-agent
+    $ which pinentry-qt4
 
 
 <a name="kde"></a> Configure KDE
 --------------------------------
 
 You now need to link the GPG agent with KDE. You need to create a startup script for KDE that will
-invoke the GPG agent at startup. You also need to tell the GPG agent to enable SSH support (in the
-old days, the SSH agent has to be ran separately from GPG).
+invoke the GPG agent at startup. You also need to tell the GPG agent to enable SSH support.
 
     $ mkdir ~/.kde/env
     $ nano ~/.kde/env/01_gpg-agent.sh
@@ -168,6 +168,5 @@ A similar behavior will happen if you encrypt a file with GPG:
 <a name="closing"></a> Closing remarks
 --------------------------------------
 
-The steps outlined above were meant to be succinct without going through the gory details. I avoided
-reiterating what was already said before so as not to bore you to death. I hope you found this
-useful!
+The steps outlined above were meant to be succinct without going through the gory details. I hope
+you found this useful!
