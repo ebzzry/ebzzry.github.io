@@ -213,3 +213,7 @@ Entries are sorted in chronological order.
 
 
 - Never underestimate physical forces.<br>
+
+
+- The universe does not have an obligation to mean anything to us. Since the beginning of time, it
+  was always us, who wanted to give meaning to everything.<br>

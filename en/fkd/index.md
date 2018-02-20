@@ -36,7 +36,7 @@ Musings of a Pedantic Primate
 - [Virtualizing with KVM in Linux](kvm)
 - [A Lambda Calculus Primer](lambda-calculus)
 - [Emacs Tips 2: Sessions and Packages](emacs-tips-2)
-- [Setting Up GPG and SSH in KDE](gpg-ssh-kde)
+- [Setting Up GPG and SSH in KDE](gsk)
 - [Creating Backups with Ugarit](ugarit)
 - [Blogging with Frog](frog)
 - [Setting Up Mail in Emacs](emacs-mail)

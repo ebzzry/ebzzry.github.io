@@ -44,7 +44,7 @@ Enhavotabelo
 Kiam mi trovadis ilojn por krei ĉi tiun blogon, mi malkontentiĝis pri la plejmulto de la famaj
 opcioj. Iuj estas tro malfacilaj por agordi; iuj malhavas kapablojn. Mi frustriĝis pro ĉiu fino
 de la spektro devigas min por uzi ion, kiu estas tro mezkvalita en almenaŭ unu kritika
-aspekto. Bonŝance, mi trovis [Frog-on](https://github.com/greghendershott/frog) pro propono en
+aspekto. Bonŝance, mi trovis je [Frog](https://github.com/greghendershott/frog) pro propono en
 [#racket](https://kiwiirc.com/client/irc.freenode.net/#racket).
 
 Frog-o en laikoterminoj, estas retejokreilo, kiu estas tiel facila por uzi, agordi, kaj tajlori. Kio
@@ -66,7 +66,7 @@ sia TTT-servilo. Ĉu estas facila? Ne, estas pli facila ol sonas.
 En la jenaj sekcioj, ni supozas, ke la uzantnomo estas `ogag`, kaj la hejmdosiero estas
 `/home/ogag/`.
 
-Por instali Frog-on, oni bezonas instali Rakidon unue. Plej verŝajne, la pako-administrilo jam
+Por instali je Frog, oni bezonas instali Rakidon unue. Plej verŝajne, la pako-administrilo jam
 havas ĝin.
 
 
@@ -81,7 +81,7 @@ Per APT-o:
 En la malbonŝanca okazo ke ne instaleblas per la pako-administrilo, iru al
 [racket-lang.org/download/](https://racket-lang.org/download/), tiam faru la instrukciojn el tie:
 
-Tiam, oni bezonas instali Frog-on:
+Tiam, oni bezonas instali je Frog:
 
     $ raco pkg install frog
 
@@ -93,7 +93,7 @@ Poste, oni akiros la `raco frog`-an komandon. Ni montru ĝiajn helpajn opciojn:
 <a name="unua"></a>Unua uzo
 ---------------------------
 
-Dolĉe. Nu, nun oni havas Frog-on instalita, ni daŭru ruli. Por krei la unuan Frog-an provizitan
+Dolĉe. Nu, nun oni havas je Frog instalita, ni daŭru ruli. Por krei la unuan Frog-an provizitan
 retejon, oni kreos la projektan dosierujon unue:
 
     $ mkdir blog
@@ -311,7 +311,7 @@ metadatumaj kampoj.
 <a name="komentoj"></a>Komentoj
 -------------------------------
 
-Frog-o uzas [Disqus-on](https://disqus.com) por trakti siajn komentojn. Por uzi ĝin, kreu konton ĉe
+Frog-o uzas je [Disqus](https://disqus.com) por trakti siajn komentojn. Por uzi ĝin, kreu konton ĉe
 [https://disqus.com/profile/signup/](https://disqus.com/profile/signup/?next=http%3A//disqus.com/).
 
 Kiam oni jam havas sian konton, iru al <https://disqus.com/admin/create/>  por krei retejon, kiu
@@ -336,7 +336,7 @@ servilo. En ĉi tiu gvidilo, estas la dosierujo `/home/ogag/blog`. Se la nuna do
 
 Anstataŭigu `public_html` per la ĝusta defora dosierujo.
 
-Tamen, se oni ne havas deforan gastigkomputilo kaj vi uzas [Git-on](https://git-scm.com), oni povas
+Tamen, se oni ne havas deforan gastigkomputilo kaj vi uzas je [Git](https://git-scm.com), oni povas
 uzi la liberan gastigservon de [GitHub Pages](https://pages.github.com). Se oni ne havas GitHub-an
 konton, si povas iri al [GitHub](https://github.com) por krei tiun. Por uzi je GitHub Pages, kreu
 deponejon nomiĝas `UZANTNOMO.github.io`. Se la uzantnomo estas `ogag`, la deponejo kiun oni

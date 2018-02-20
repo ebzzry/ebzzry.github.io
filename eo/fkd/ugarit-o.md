@@ -57,7 +57,7 @@ tiel maŝinskribi mallongan komandon.
 
 ### <a name="apt-o"></a>Per APT-o
 
-Unue, oni devas instali [Chicken-on](https://www.call-cc.org/). Plej verŝajne, povas esti instalita
+Unue, oni devas instali je [Chicken](https://www.call-cc.org/). Plej verŝajne, povas esti instalita
 per la pako-administrilo:
 
     $ sudo apt-get install chicken-bin
@@ -200,7 +200,7 @@ rekte, kuru:
 ### <a name="defora"></a>Defora dosiersistemo
 
 Ugarit-o ne limigitas por krei dosierkopiojn de loka dosiersistemo. Ankaŭ povas uzita por krei
-dosierkopiojn de arboj de defora gastigo muntita loke. Se oni ekzemple havas
+dosierkopiojn de arboj de defora gastiganto muntita loke. Se oni ekzemple havas
 [SSHFS-an](https://fuse.sourceforge.net/sshfs.html) surmeton, si ankoraŭ povas krei dosierkopion de
 tiu, same kiel ia alia loka dosiersistemo.
 

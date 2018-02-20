@@ -3,13 +3,14 @@ Pensoj de Pedanta Primato
 
 <center>[Esperante](#)  [English](/en/)</center>
 <center>la 27-an de Aprilo 2017</center>
-<center>Laste ŝanĝita: la 18-an de Februaro 2018</center>
+<center>Laste ŝanĝita: la 20-an de Februaro 2018</center>
 
 <img src="/bildoj/kafofaboj.jpg" class="banner" alt="kafofaboj" />
 
 <div class="text-right">Retejo pri komputiko, homaj inklinoj, kaj hazardaj umoj.</div>
 <div class="text-right">Enskriboj ordigatas laŭ inversa kronologia ordo.</div>
 
+- [Agordi je GPG kaj je SSH en KDE-o](gsk)
 - [Krei Sekurkopiojn Ugarit-e](ugarit-o)
 - [Blogi Frog-e](frog-o)
 - [Agordi Retpoŝton Emakse](emakso-retposxto)
