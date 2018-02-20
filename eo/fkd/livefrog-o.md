@@ -1,5 +1,5 @@
-Migri de LiveJournal al Frog
-============================
+Migri de LiveJournal al Frog-o
+==============================
 
 <center>[Esperante](#)  [English](/en/frog)</center>
 <center>la 7-an de Februaro 2018</center>
