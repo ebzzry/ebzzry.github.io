@@ -209,3 +209,7 @@ Enskriboj estas ordigataj laŭ kronologia ordo.
 
 
 - Neniam malestimu fizikajn fortojn.<br>
+
+
+- La kosmo ne havas devon por signifi ion al ni. Ekde la komenco de la tempo, estis ĉiam ni, kiuj
+  volis doni signifon al ĉio.<br>
