@@ -3,12 +3,12 @@ Vortoj
 
 <center>[Esperante](#)  [English](/en/words)</center>
 <center>la 3-an de Novembro 2017</center>
-<center>Laste ŝanĝita: la 14-an de Novembro 2017</center>
+<center>Laste ŝanĝita: la 20-an de Februaro 2018</center>
 
-Ĉi tiu paĝo enhavas liston de frazoj, frazetoj, kaj linioj kiujn mi komunikis al miaj kompanoj, por
+Ĉi tiu paĝo enhavas liston de frazoj, frazeroj, kaj linioj kiujn mi komunikis al miaj kompanoj, por
 pligrandigi konscion, por verŝi lumon, kaj por inspiri miajn kunhomojn.
 
-Enskriboj estas ordigataj laŭ kronologia ordo.
+Enskriboj ordigatas laŭ kronologiordo.
 
 
 - Dum la kuraĝuloj kuraĝas la ŝtormojn per kuraĝo kaj triumfo, la malkuraĝuloj ripozas sur la

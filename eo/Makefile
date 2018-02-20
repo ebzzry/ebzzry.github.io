@@ -11,8 +11,8 @@ ANALITIKOJ="93746003-1"
 all:
 	parallel --will-cite "$(MAKE) {/.}.html" ::: $(DOSIEROJ)
 	$(KONSTRUILO) \
-          -D "Retejo pri komputiko, homaj inklinoj, kaj hazardaj umoj." \
-          -K "ebzzry, rommel, martinez, rommel martinez, pedanta primato" \
+          -D "Retejo pri komputiko, hominklinoj, kaj hazardaĵoj." \
+          -K "ebzzry, rommel, martinez, rommel martinez, pensoj de pedanta primato, pensoj de pedantprimato" \
           --og-title "Pensoj de Pedanta Primato" \
           --og-type $(OG_TYPE) \
           --og-url "https://ebzzry.io/eo/" \
