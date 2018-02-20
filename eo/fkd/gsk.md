@@ -10,11 +10,11 @@ Agordi je GPG kaj je SSH en KDE-o
 >―Andrew HUNT kaj David THOMAS
 
 Kiam kaj GPG-o kaj SSH-o bone enkonstruitas kun KDE-o, estas facile por kunoperacii tiujn
-sistemoj. Ekzistos kontrasto inter malfirme adaptita ganto kaj tiu, kiu tre bone adaptiĝas.
+sistemojn. Ekzistas kontrasto inter malfirme adaptita ganto kaj tiu, kiu tre bone adaptiĝas.
 
 Ĉi tiu mallonga gvidilo traktos la paŝojn kiel fari tion. Por gastigi ĉiujn, mi ankoraŭ diskutos
 kiel instali kaj agordi la bezonatajn komponantojn. Ni uzos je [nano](https://www.nano-editor.org/)
-por ĉi tiu seanco, tamen oni liberas por uzi ian redaktilon kiun si volas.
+por ĉi tiu seanco, tamen oni liberas por uzi ian redaktilon.
 
 
 Enhavotabelo
@@ -49,8 +49,8 @@ Per DNF-o:
 <a name="ssh"></a>Agordi je SSH
 -------------------------------
 
-Nu, nun oni havas la partojn antaŭ si, estas tempo por munti ilin. La unua afero kiun oni bezonas
-fari—kvankam vere la dosieroj kiun oni bezonas malfermi povas esti farita en ia ordo kiun si
+Nu, nun oni havas la partojn antaŭ si, estas tempo por munti la komponantojn. La unua afero kiun oni
+bezonas fari—kvankam vere la dosieroj kiun oni bezonas malfermi povas esti farita en ia ordo kiun si
 volas—estas krei siajn sekurŝelajn ŝlosilojn:
 
     $ ssh-keygen -t ed25519
@@ -75,9 +75,8 @@ elektas la plej fortajn opciojn:
 
     $ gpg2 --gen-key
 
-Se oni volas uzi pli bonajn pasfrazojn, uzu la metodon
-[dajsvaron](http://world.std.com/~reinhold/diceware.html). XKCD-a bildstrio kreitas pro tio, se
-oni scivolas.
+Se oni volas uzi pli bonajn pasfrazojn, uzu
+[dajsvaron](http://world.std.com/~reinhold/diceware.html). XKCD-a bildstrio kreitas pro tio.
 
 La sekva afero por fari estas por redakti la ĉefan GPG-an agorddosieron:
 
@@ -157,7 +156,7 @@ Malfermu Konsole-an fenestron, tiam konektu al la plej ŝatata SSH-a servilo:
     $ ssh uzanto@deforgastiganto
 
 Aperas pinentry-a dialogujo demandi onin por sia pasfrazo. Ĉi tiu pasfrazo estos kaŝmemorigita laŭ
-siaj agordoj en `~/.gnupg/gpg-agent.conf`. Sekvaj SSH-aj konektaj klopodoj ne plu demandos la
+la agordoj en `~/.gnupg/gpg-agent.conf`. Sekvaj SSH-aj konektaj klopodoj ne plu demandos la
 uzanton por la pasfrazon ene la tempolima periodo:
 
 Okazos samspeca agamaniero se oni ĉifras dosieron GPG-e:

@@ -14,7 +14,7 @@ easy. It will make the difference between a loose-fitting glove and one that fit
 
 This short tutorial will go over the steps on how to go about it. To accommodate everyone, I’ll
 still go about how to install and configure all the necessary components. We’ll use nano for this
-session but you are free to use any editor that you want.
+session but you are free to use any editor.
 
 
 Table of contents
@@ -78,7 +78,7 @@ the strongest options:
 If you want to use better passwords, use
 the
 [Diceware method](http://world.std.com/~reinhold/diceware.html). An
-[XKCD comic](https://xkcd.com/936/) was drawn in case you’re wondering what it is.
+[XKCD comic](https://xkcd.com/936/) was drawn about it.
 
 The next thing to do is edit the main GPG config file:
 
