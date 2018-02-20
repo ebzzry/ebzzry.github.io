@@ -7,8 +7,8 @@ Pensoj de Pedanta Primato
 
 <img src="/bildoj/kafofaboj.jpg" class="banner" alt="kafofaboj" />
 
-<div class="text-right">Retejo pri komputiko, homaj inklinoj, kaj hazardaj umoj.</div>
-<div class="text-right">Enskriboj ordigatas laŭ inversa kronologia ordo.</div>
+<div class="text-right">Retejo pri komputiko, hominklinaĵoj, kaj hazardaĵoj.</div>
+<div class="text-right">Enskriboj ordigatas laŭ inversa kronologiordo.</div>
 
 - [Agordi je GPG kaj je SSH en KDE-o](gsk)
 - [Krei Sekurkopiojn Ugarit-e](ugarit-o)
