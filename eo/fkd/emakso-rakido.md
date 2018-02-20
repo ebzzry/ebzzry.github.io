@@ -33,7 +33,7 @@ flekseblecon. Ili estis kapablaj por taksi nunajn difinojn, lastajn difinojn, ka
 ĉefparte. Bedaŭrinde, tio ne sufiĉis pri la maniero, en kiu Rakido traktadis la aferojn. Pli
 inteligenta maniero de trakti kodon, estis bezonita.
 
-Bonŝance, ekzistas [Geiser-on](http://www.nongnu.org/geiser/). Ekzistis aliaj reĝimoj, kiuj provis
+Bonŝance, ekzistas [Geiser](http://www.nongnu.org/geiser/). Ekzistis aliaj reĝimoj, kiuj provis
 fari, kiujn Geiser-o faras, tamen mi fariĝas pli bonfarta al tiuj, kiujn Geiser ofertis. Kelkaj
 similaj bibliotekoj ankaŭ povas kunekzisti kun Geiser-o. Mi ankaŭ provis tiujn, bedaŭrinde, fariĝis
 tro malsimplaj, por mi. Mi finvenis uzi nur Geiser-on. Kaj kiel parte rilata noto, mi uzas Emakson
