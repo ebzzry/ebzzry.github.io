@@ -1,8 +1,9 @@
 Emacs Tips and Tricks 2: Sessions and Packages
 ==============================================
 
-<div class="center">June 12, 2015</div>
-<div class="center">Updated: October 18, 2017</div>
+<center>[Esperante](/eo/emakskonsiletoj-2-a)  [English](#)</center>
+<center>June 12, 2015</center>
+<center>Updated: February 20, 2018</centerp>
 
 This is the continuation of my series on Emacs tips and tricks. In this article, we explore session
 management, packages, managing indents, and other nice little things.
