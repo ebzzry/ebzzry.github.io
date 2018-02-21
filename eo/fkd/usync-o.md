@@ -8,7 +8,7 @@ Sinkronigi Retnodojn Usync-e
 >Kion mi ne povas krei, mi ne komprenas.<br>
 >―Richard P. FEYNMAN
 
-Lok-al-loka sinkrorigo kutime bezonatas, kiam du lokoj, sendepende kreas dosierajn ĝisdatigojn. Ni
+Lok-al-loka sinkronigo kutime bezonatas, kiam du lokoj, sendepende kreas dosierajn ĝisdatigojn. Ni
 diru, ke la firmao _Okininam_ havas du oficejojn. En la unua oficejo, ili havas la librotenadan kaj
 loĝistikan fakojn. En la dua oficejo, ili havas la komputikan kaj homfaktoran fakojn. Ambaŭ havas
 komunan `/pub` arbon, kiu havas atribuitajn subdosierujojn al ĉiu fako. Sen sinkronigo, kiam la unua
@@ -31,8 +31,8 @@ Enhavotabelo
 ---------------------------------
 
 Por fari ambaŭdirektan sinkronigon de la dosierujo `/pub/yot/ninam`, inter la nuna retnodo al la
-retnodoj `tarupam` kaj `taubetmo`, dum konservi la dosierujan strukturon loke, kuru la jenan
-komandon. Notu, ke ne devas ekzisti spacetoj inter la retnodaj precizigo, pro la `IFS` media
+retnodoj `tarupam` kaj `taubetmo`, dum konservi la dosierujan strukturon defore, kuru la jenan
+komandon. Notu, ke ne devas ekzisti spacetoj inter la retnodaj precizigoj, pro la `IFS` media
 variablo:
 
     $ usync /pub/yot/ninam/ tarupam,taubetmo
@@ -44,6 +44,9 @@ Per la antaŭ ekzemplo, la ambaŭdirekto sinkronigo simple diras, ke se la arbo
 `tarupam:/pub/yot/ninam/` enhavas novajn aŭ ĝisdatigatajn erojn, kontraŭas
 `localhost:/pub/yot/ninam/` kaj `localhost:/pub/yot/ninam/` ankaŭ havas novajn aŭ ĝisdatigatajn
 erojn, tiam, ili intersanĝigas ĝisdatigojn.
+
+Ideale, la rezulto estas `localhost:/pub/yot/ninam/`, `tarupam:/pub/yot/ninam/`, kaj
+`taubetmo:/pub/yot/ninam/`, estas ĉiuj egalaj.
 
 
 <a name="altniveluzado"></a>Altnivela uzado
@@ -75,3 +78,5 @@ Por vidi pli da informo, kuru:
 Kelkaj dosieroj kaj regulesprimoj enkonstruitas kiel eksigoj. Ili eble faras sencon aŭ ne. Se
 vi opinias, ke ili devas esti ŝanĝitaj, liberiĝu por sendi tirpeton. La fontoj haveblas
 [ĉi tie](https://github.com/ebzzry/usync).
+
+_Dankon al Raymund Martinez pro la provlegado._

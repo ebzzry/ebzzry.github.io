@@ -15,7 +15,7 @@ departments. Both have a common `/pub` tree, that has subdirectories assigned to
 department. Without synchronization, when the first office needs information from the second office,
 they’d have to pull the updates, manually. With synchronization, the first office can access the
 files from the second office, as if the IT and HR departments, were in the first office. Usync helps
-to achieve this. Is a written in [Scsh](https://www.scsh.net). It makes use of
+to achieve this. It is written in [Scsh](https://www.scsh.net). It makes use of
 [Unison](http://www.cis.upenn.edu/~bcpierce/unison/), and [rsync](http://rsync.samba.org/), for bi-
 and uni-directional synchronizations, respectively.
 
@@ -78,3 +78,5 @@ For more usage information, run:
 Some files and regexes are baked in as exclusions. They make or make not make sense. If you think
 they should be changed, feel free to send a pull request. The sources are
 available [here](https://github.com/ebzzry/usync).
+
+_Dankon al Raymund Martinez pro la provlegado._
