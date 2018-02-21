@@ -212,3 +212,7 @@ Enskriboj ordigatas laŭ kronologiordo.
 
 - La kosmo ne havas devon por signifi ion al ni. Ekde la komenco de la tempo, estis ĉiam ni, kiuj
   volis doni signifon al ĉio.<br>
+
+
+- La plej gravaj aferoj kiujn oni devas pripensi, kiam krei kosmon el nulo, estas la komencaj
+  kondiĉoj. Ĉio dependas dependas de tio.<br>

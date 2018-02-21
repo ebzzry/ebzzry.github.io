@@ -216,3 +216,7 @@ Entries are sorted in chronological order.
 
 - The universe does not have an obligation to mean anything to us. Since the beginning of time, it
   was always us, who wanted to give meaning to everything.<br>
+
+
+- The most important things to consider when creating a universe from nothing are the initial
+  conditions. Everything depends on it.<br>
