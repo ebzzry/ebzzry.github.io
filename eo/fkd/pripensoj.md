@@ -1,12 +1,11 @@
-Vortoj
-======
+Pripensoj
+=========
 
-<center>[Esperante](#)  [English](/en/words)</center>
+<center>[Esperante](#)  [English](/en/reflections)</center>
 <center>la 3-an de Novembro 2017</center>
-<center>Laste ŝanĝita: la 20-an de Februaro 2018</center>
+<center>Laste ŝanĝita: la 21-an de Februaro 2018</center>
 
-Ĉi tiu paĝo enhavas liston de frazoj, frazeroj, kaj linioj kiujn mi komunikis al miaj kompanoj, por
-pligrandigi konscion, por verŝi lumon, kaj por inspiri miajn kunhomojn.
+Ĉi tiu paĝo enhavas kelke da miaj propraj pensoj.
 
 Enskriboj ordigatas laŭ kronologiordo.
 

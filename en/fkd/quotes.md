@@ -3,7 +3,7 @@ Quotes
 
 <center>[Esperanto](/eo/citajxoj)  [English](#)</center>
 <center>August 29, 2015</center>
-<center>Updated: February 18, 2018</center>
+<center>Updated: February 21, 2018</center>
 
 This page contains a list of curated quotations, aphorisms, and proverbs that I have collected over
 the years.
@@ -628,3 +628,21 @@ the years.
 
 - When you pray for rain, you gotta deal with the mud, too.<br>
   ―Robert McCall
+
+
+- I can’t tell you a story that does not exist.<br>
+  ―The Doll, Serial Experiments Lain
+
+
+- It is reasonable to see the Wired as an upper layer of the real world. In other words, physical
+  reality is nothing but a hologram of the information that flows through the Wired.<br>
+  ―Miho Iwakura, Serial Experiments Lain
+
+
+- This is because the body, the activity of the human brain, is merely a physical phenomenon caused
+  by synapses delivering electrical impulses.<br>
+  ―Miho Iwakura, Serial Experiments Lain
+
+
+- The body exists only to verify one’s existence.<br>
+  ―Miho Iwakura, Serial Experiments Lain

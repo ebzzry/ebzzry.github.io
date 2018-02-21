@@ -3,7 +3,7 @@ Citaĵoj
 
 <center>[Esperante](#)  [English](/en/quotes)</center>
 <center>la 15-an de Novembro 2017</center>
-<center>Laste ŝanĝita: la 18-an de Februaro 2018</center>
+<center>Laste ŝanĝita: la 21-an de Februaro 2018</center>
 
 Ĉi tiu paĝo enhavas liston de atenteme elektitaj citaĵoj, aforismoj, kaj sentencoj kiujn mi kolektis
 tra la jarojn.
@@ -24,7 +24,7 @@ tra la jarojn.
   ―Will ROGERS
 
 
-- Oni ne vere komprenas ion krom se li povas klarigi tion al sia avino.<br>
+- Oni ne vere komprenas ion krom se oni povas klarigi tion al sia avino.<br>
   ―Alberto EJNŜTEJNO
 
 
@@ -32,7 +32,7 @@ tra la jarojn.
   ―Laŭzio
 
 
-- Oni ne scias kion li faros. Oni komencas pentri pentraĵon kaj ĝi fariĝos io tute nesama.<br>
+- Oni ne scias kion si faros. Oni komencas pentri pentraĵon kaj ĝi fariĝos io tute nesama.<br>
   ―Pablo PIKASO
 
 
@@ -245,7 +245,7 @@ tra la jarojn.
   ―C.S. LEWIS
 
 
-- Ne ekzistas aventuro kiel tio sentis de la inventisto kiel li vidas siajn kreaĵojn disfaldas por
+- Ne ekzistas aventuro kiel tio sentis de la inventisto kiel oni vidas siajn kreaĵojn disfaldas por
   sukceso. Tiaj kortuŝoj farigas viron por forgesi manĝon, dormon, amikojn, amon, ĉion.<br>
   ―Nikola TESLA
 
@@ -431,7 +431,7 @@ tra la jarojn.
   ―Konfuceo
 
 
-- Vi povas eltrovi tion, kion plej timas viajn malamikojn, per rimarki la manierojn kiuj li uzas timi vin.<br>
+- Oni povas eltrovi tion, kion plej timas siajn malamikojn, per rimarki la manierojn kiuj ili uzas por timigi sin.<br>
   ―Eric HOFFER
 
 
@@ -542,7 +542,7 @@ tra la jarojn.
   ―Reiko TAMURA, Parasyte -the maxim- (2014)
 
 
-- Kiu estas la pli malbona, por vivi kiel monstro aŭ por morti kiel bona viro.<br>
+- Kiu estas la pli malbona, por vivi kiel monstro aŭ por mortiĝi kiel bona homo.<br>
   ―Andrew LAEDDIS, Shutter Island (2010)
 
 
@@ -550,7 +550,7 @@ tra la jarojn.
   ―D-ro. Eldon TYRELL, Blade Runner (1982)
 
 
-- Se vi vidas trompon kaj ne diras trompon, vi estas trompo.<br>
+- Se oni vidas trompon kaj ne diras trompon, oni estas trompo.<br>
   ―Nassim Nicholas Taleb
 
 
@@ -558,7 +558,7 @@ tra la jarojn.
   ―Bill GATES
 
 
-- Estu bonmaniere, estu profesie, sed havu planon por mortigi ĉiujn vi renkontas.<br>
+- Estu bonmaniere, estu profesie, sed havu planon por mortigi ĉiujn oni renkontas.<br>
   ―James MATTIS
 
 
@@ -566,7 +566,7 @@ tra la jarojn.
   ―Tamina, Prince of Persia: The Sands of Time
 
 
-- Vidpunkto meritas okdek poentojn de inteligentecaj kvocientoj.<br>
+- Vidpunkto meritas okdek poentojn da inteligentecaj kvocientoj.<br>
   ―Alan KAY
 
 
@@ -619,3 +619,21 @@ tra la jarojn.
 
 - Kiam oni preĝas por pluvo, si ankaŭ bezonas trakti la koton.<br>
   ―Robert MCCALL
+
+
+- Mi ne povas rakonti rakonton, kiu ne ekzistas.<br>
+  ―la pupo, Serial Experiments Lain
+
+
+- Racias por vidi je Wired kiel plisupra nivelo de la vera mondo. Alidire, fizika efektivaĵo estas
+  nenio, sed holografiaĵo de la informo, kiu fluas tra la Wired.<br>
+  ―Miho IWAKURA, Serial Experiments Lain
+
+
+- Tial ke la korpo, la agado de la homcerbo, estas nure fizika fenomeno kaŭzita de sinapsoj liveri
+  elektrajn impulsojn.<br>
+  ―Miho IWAKURA, Serial Experiments Lain
+
+
+- Nur ekzistas la korpo por verigi la ekziston de oni.<br>
+  ―Miho IWAKURA, Serial Experiments Lain
