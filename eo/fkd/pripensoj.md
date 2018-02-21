@@ -216,3 +216,6 @@ Enskriboj ordigatas laŭ kronologiordo.
 
 - La plej gravaj aferoj kiujn oni devas pripensi, kiam krei kosmon el nulo, estas la komencaj
   kondiĉoj. Ĉio dependas dependas de tio.<br>
+
+
+- Imagas estontecon mi, en kiu, niaj opaj konscioj vivos en blokĉeno aŭ sampeca io.<br>
