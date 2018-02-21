@@ -70,7 +70,7 @@ Tiam, permesu la mem sur la defora servilo, por ke la senpasvortaj ensalutoj fun
 <a name="gpg"></a>Agordi je GPG
 -------------------------------
 
-Sekve, oni bezonas krei siajn GPG-ajn ŝlosilojn. Observu la intivojn, kiuj aperas, certigi ke oni
+Sekve, oni bezonas krei siajn GPG-ajn ŝlosilojn. Observu la invitojn, kiuj aperas, certigi ke oni
 elektas la plej fortajn opciojn:
 
     $ gpg2 --gen-key
@@ -169,3 +169,5 @@ Okazos samspeca agamaniero se oni ĉifras dosieron GPG-e:
 
 La paŝoj parolis supre estis intenciitaj por esti mallongaj sen paroli pri la malsimplajn
 detalojn. Mi esperas ke oni trovis ĉi tiun utila.
+
+_Dankon al Raymund Martinez pro la provlegado._
