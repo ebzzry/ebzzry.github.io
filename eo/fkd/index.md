@@ -3,7 +3,7 @@ Pensoj de Pedanta Primato
 
 <center>[Esperante](#)  [English](/en/)</center>
 <center>la 27-an de Aprilo 2017</center>
-<center>Laste ŝanĝita: la 20-an de Februaro 2018</center>
+<center>Laste ŝanĝita: la 21-an de Februaro 2018</center>
 
 <img src="/bildoj/kafofaboj.jpg" class="banner" alt="kafofaboj" />
 
