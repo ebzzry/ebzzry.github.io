@@ -3,7 +3,7 @@
 <div class="footer">
 
 <div class="text-small">
-[Home](/en)  [About](/en/about)  [Quotes](/en/quotes)  [Words](/en/words)  [Source](https://github.com/ebzzry/ebzzry.github.io)
+[Home](/en)  [About](/en/about)  [Quotes](/en/quotes)  [Reflections](/en/reflections)  [Source](https://github.com/ebzzry/ebzzry.github.io)
 </div>
 <div class="text-x-small">
 Site created with [emem](https://github.com/ebzzry/emem)

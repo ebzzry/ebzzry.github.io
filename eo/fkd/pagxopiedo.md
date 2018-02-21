@@ -3,7 +3,7 @@
 <div class="footer">
 
 <div class="text-small">
-[Hejmo](/eo)  [Pri](/eo/pri)  [Citaĵoj](/eo/citajxoj)  [Vortoj](/eo/vortoj)  [Fonto](https://github.com/ebzzry/ebzzry.github.io)
+[Hejmo](/eo)  [Pri](/eo/pri)  [Citaĵoj](/eo/citajxoj)  [Pripensoj](/eo/pripensoj)  [Fonto](https://github.com/ebzzry/ebzzry.github.io)
 </div>
 <div class="text-x-small">
 Ĉi tiu retejo kreitas per [emem](https://github.com/ebzzry/emem)
