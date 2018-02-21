@@ -10,6 +10,7 @@ Pensoj de Pedanta Primato
 <div class="text-right">Retejo pri komputiko, hominklinaĵoj, kaj hazardaĵoj.</div>
 <div class="text-right">Enskriboj ordigatas laŭ inversa kronologiordo.</div>
 
+- [Emakskonsiletoj 2-a: Seancoj kaj Pakoj](emakskonsiletoj-2-a)
 - [Agordi je GPG kaj je SSH en KDE-o](gsk)
 - [Krei Sekurkopiojn Ugarit-e](ugarit-o)
 - [Blogi Frog-e](frog-o)

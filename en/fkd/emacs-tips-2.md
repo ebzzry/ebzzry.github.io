@@ -3,9 +3,9 @@ Emacs Tips and Tricks 2: Sessions and Packages
 
 <center>[Esperante](/eo/emakskonsiletoj-2-a)  [English](#)</center>
 <center>June 12, 2015</center>
-<center>Updated: February 20, 2018</centerp>
+<center>Updated: February 21, 2018</center>
 
-This is the continuation of my series on Emacs tips and tricks. In this article, we explore session
+This is the continuation of the series on Emacs tips and tricks. In this article, we explore session
 management, packages, managing indents, and other nice little things.
 
 
@@ -72,9 +72,9 @@ roughly similar to saving the command line history. Here’s my snippet
 <a name="consolidation"></a> Consolidation
 ------------------------------------------
 
-No, that is not the name of a library. However, there were a lot of times, when I want to manually
-save the state of as much session information that I could save. I’d want to save the buffers,
-minibuffer history, bookmarks, and comint mode histories. To do that, I have the following:
+There were a lot of times, when I want to manually save the state of as much session information
+that I could save. I’d want to save the buffers, minibuffer history, bookmarks, and comint mode
+histories. To do that, I have the following:
 
 ```lisp
 (defun save-defaults ()
@@ -99,9 +99,7 @@ minibuffer history, bookmarks, and comint mode histories. To do that, I have the
 
 This gives you a nice:
 
-```
-M-x save RET
-```
+    M-x save RET
 
 
 <a name="packages"></a> Packages
@@ -109,8 +107,8 @@ M-x save RET
 
 ### <a name="elpa"></a> ELPA
 
-If you aren’t using the package system yet, use it now. All you need to get started is the
-following:
+ELPA is the package management system of Emacs. If you aren’t using the package system yet, use it
+now. All you need to get started is the following:
 
 ```lisp
 (require 'package)
@@ -124,31 +122,30 @@ following:
 
 (defalias 'pi 'package-install)
 (defalias 'pl 'package-list-packages)
+(defalias 'pr 'package-refresh-contents)
 ```
 
 To list all the available packages, hit:
 
-```
-M-x pl RET
-```
+    M-x pl REV
 
 If you know the name of package, hit:
 
-```
-M-x pi RET package RET
-```
+    M-x pi RET package RET
+
+To update your local database, hit:
+
+    M-x pr RET
 
 
 ### <a name="use-package"></a> use-package
 
-This one is a real gem. It’s like `require`, but on steroids. When “requiring” a package, you have
+This one is a real gem. It’s like `require`, but on steroids. When *require*-ing a package, you have
 the option to specify to install that package, if it does not exist, yet. It also enables you to
 configure that package, in a unified expression. But unlike `require`, `use-package` does not come
 built-in with Emacs. You need to install it via `package-install`:
 
-```
-M-x pi RET use-package RET
-```
+    M-x pi RET use-package RET
 
 You can then require it, on subsequent uses:
 
@@ -156,7 +153,7 @@ You can then require it, on subsequent uses:
 (require 'use-package)
 ```
 
-To install `markdown-mode`, even if it doesn’t exist yet, and configure its related options, after
+To install `markdown-mode`, for example, even if it doesn’t exist yet, and configure its related options, after
 loading it, have:
 
 ```lisp
@@ -177,7 +174,7 @@ I really like to have the line numbers displayed at the left margin. It gives me
 big the file is, and where am I currently. Turning on `linum-mode` achieves it:
 
 ```lisp
-(setq linum-format "%4d")
+(setq linum-format "%5d │ ")
 
 (defun my-linum-mode-hook ()
   (linum-mode t))
@@ -206,8 +203,7 @@ are some snippets to help you with it:
   (format-date "%Y-%m-%d %H:%M:%S"))
 ```
 
-The code above sets the correct value for `system-time-locale`, and binds keys for
-`insert-date/long` and `insert-date/short`.
+Change the value of `system-time-locale` as appropriate.
 
 
 <a name="keys"></a> Keys
@@ -216,7 +212,7 @@ The code above sets the correct value for `system-time-locale`, and binds keys f
 When your key bindings are not organized, it’s not easy to find what key did you bind to
 what. Fortunately, you have `bind-key`, which comes as part of `use-package`.
 
-An example would look like:
+An example usage of `bind-key` would look like:
 
 ```lisp
 (bind-keys
@@ -243,8 +239,8 @@ doesn’t indent.
 <a name="filling"></a> Filling
 ------------------------------
 
-This snippet works great when working when working with plain text. It indent a paragraph, or the
-current paragraph context. If there is a mark, the region becomes filled.
+This snippet works great when working with plain text. It indent a paragraph or the current
+paragraph context. If there is a mark, the region becomes filled.
 
 ```lisp
 (defun fill-region-or-paragraph ()
@@ -259,10 +255,11 @@ current paragraph context. If there is a mark, the region becomes filled.
 ---------------------------------------------
 
 The command `move-to-window-line-top-bottom`, bound by default to <kbd>M-r</kbd> is great when you
-want to move the cursor from the center, top, and bottom position, relative to the window, similar
-to Vim’s <kbd>H</kbd>, <kbd>M</kbd>, and <kbd>L</kbd> commands. However, it’s not very efficient
-when specifically targetting areas of the screen. The commands below position point, specifically to
-the top, center, and bottom window positions, respectively.
+want to move the cursor to the center, top, and bottom positions, relative to the window, similar
+to Vim’s <kbd>H</kbd>, <kbd>M</kbd>, and <kbd>L</kbd> commands.
+
+However, it’s not very efficient when specifically targetting areas of the screen. The commands
+below position point, specifically to the top, center, and bottom window positions, respectively.
 
 ```lisp
 (defun move-to-window-line-top ()
