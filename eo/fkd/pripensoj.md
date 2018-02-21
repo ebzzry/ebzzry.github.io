@@ -165,7 +165,7 @@ Enskriboj ordigatas laŭ kronologiordo.
 - Ne fiksitas realaĵo.<br>
 
 
-- Ju pli mi eraras, des pli mi pravas.<br>
+- Ju pli mi eraras, des pli mi praviĝas.<br>
 
 
 - Kion mi ne komprenas, mi reskribos.<br>
