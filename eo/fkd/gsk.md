@@ -159,7 +159,7 @@ Aperas pinentry-a dialogujo demandi onin por sia pasfrazo. Ĉi tiu pasfrazo esto
 la agordoj en `~/.gnupg/gpg-agent.conf`. Sekvaj SSH-aj konektaj klopodoj ne plu demandos la
 uzanton por la pasfrazon ene la tempolima periodo:
 
-Okazos samspeca agamaniero se oni ĉifras dosieron GPG-e:
+Okazos samspeca agmaniero se oni ĉifras dosieron GPG-e:
 
     $ gpg2 -sea -r john@foo.bar file.dat
 
@@ -167,7 +167,7 @@ Okazos samspeca agamaniero se oni ĉifras dosieron GPG-e:
 <a name="finrimarkoj"></a>Finrimarkoj
 -------------------------------------
 
-La paŝoj parolis supre estis intenciitaj por esti mallongaj sen paroli pri la malsimplajn
+La paŝoj parolis supre estis intencitaj por esti mallongaj sen priparoli la malsimplajn
 detalojn. Mi esperas ke oni trovis ĉi tiun utila.
 
-_Dankon al Raymund Martinez pro la provlegado._
+_Dankon al [Raymund Martinez](https://github.com/zhaqenl) pro la korektoj._
