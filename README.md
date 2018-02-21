@@ -1,5 +1,5 @@
-ebzzry.io
-=========
+ebzzry.io ⛲
+===========
 
 
 Ĉi tiu deponejo enhavas la fontojn de [https://ebzzry.io](ebzzry.io).
