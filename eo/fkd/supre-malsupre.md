@@ -58,4 +58,4 @@ manovrojn sen iu por kapti viajn manojn.
 
 Ofte, ni malatentas ke ĉiom da iloj kion ni bezonas, estas ĉeestantaj kun ni.
 
-_Dankon al Raymund Martinez pro la provlegado._
+_Dankon al [Raymund Martinez](https://github.com/zhaqenl) pro la korektoj._

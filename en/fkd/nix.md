@@ -2,7 +2,7 @@ A Gentle Introduction to the Nix Family
 =======================================
 
 <div class="center">March 22, 2017</div>
-<div class="center">Updated: January 23, 2018</div>
+<div class="center">Updated: February 21, 2018</div>
 
 >Don’t worry about what anybody else is going to do. The best way to predict the future is to
 >invent it.<br>
@@ -1587,3 +1587,5 @@ nix-repl> let y = x: ((f: (x (v: ((f f) v)))) (f: (x (v: ((f f) v))))); b = p: (
 
 nix-repl>
 ```
+
+_Thanks to [Dave Loyall](https://github.com/daveloyall) for the corrections._
