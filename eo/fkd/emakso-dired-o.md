@@ -126,4 +126,4 @@ konservi la ŝanĝojn, premu <kbd>C-c C-c</kbd>.
 Ni nur tuŝis la pinton de la glacimonto. Liberiĝu por esplori. Por vidi pli da informo, vizitu la
 Dired-an manlibron [ĉi tie](https://www.gnu.org/software/emacs/manual/html_node/emacs/Dired.html).
 
-_Dankon al Raymund Martinez pro la provlegado._
+_Dankon al [Raymund Martinez](https://github.com/zhaqenl) pro la korektoj._
