@@ -1,12 +1,11 @@
-Words
-=====
+Reflections
+===========
 
-<center>[Esperanto](/eo/vortoj)  [English](#)</center>
+<center>[Esperanto](/eo/pripensoj)  [English](#)</center>
 <center>November 24, 2015</center>
-<center>Updated: November 12, 2017</center>
+<center>Updated: February 21, 2018</center>
 
-This page contains a list of phrases and lines that I communicated with my fellow men, to raise
-awareness, to shed light on things, and to inspire my fellow human beings.
+This page contains contains some of my personal reflections.
 
 Entries are sorted in chronological order.
 

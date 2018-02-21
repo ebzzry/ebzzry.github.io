@@ -1,6 +1,7 @@
 A Lambda Calculus Primer
 ========================
 
+<center>[Esperante](/eo/lambdokalkulo)  [English](#)</center>
 <div class="center">June 12, 2015</div>
 <div class="center">Updated: March 31, 2017</div>
 
