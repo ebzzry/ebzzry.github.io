@@ -220,3 +220,6 @@ Entries are sorted in chronological order.
 
 - The most important things to consider when creating a universe from nothing are the initial
   conditions. Everything depends on it.<br>
+
+
+- I imagine a future wherein our collective consciousness will live in a blockchain or something similar.<br>
