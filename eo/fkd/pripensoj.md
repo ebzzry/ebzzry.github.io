@@ -5,7 +5,7 @@ Pripensoj
 <center>la 3-an de Novembro 2017</center>
 <center>Laste ŝanĝita: la 21-an de Februaro 2018</center>
 
-Ĉi tiu paĝo enhavas kelke da miaj propraj pensoj.
+Ĉi tiu paĝo enhavas kelke da miaj propraj pripensoj.
 
 Enskriboj ordigatas laŭ kronologiordo.
 
