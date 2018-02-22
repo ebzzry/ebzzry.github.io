@@ -637,3 +637,7 @@ tra la jarojn.
 
 - Nur ekzistas la korpo por verigi la ekziston de oni.<br>
   ―Miho IWAKURA, Serial Experiments Lain
+
+
+- La efektiva mondo ne estas efektiva finfine.<br>
+  ―Lain IWAKURA, Serial Experiments Lain
