@@ -646,3 +646,7 @@ the years.
 
 - The body exists only to verify one’s existence.<br>
   ―Miho Iwakura, Serial Experiments Lain
+
+
+- The real world isn’t real after all.<br>
+  ―Lain Iwakura, Serial Experiments Lain
