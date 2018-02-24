@@ -641,3 +641,7 @@ tra la jarojn.
 
 - La efektiva mondo ne estas efektiva finfine.<br>
   ―Lain IWAKURA, Serial Experiments Lain
+
+
+- Ne plu estas pri ‘Ĉu mi povas fari tion’, estas nun pri ‘Ĉu mi devas fari tion’?<br>
+  ―Raymund MARTINEZ

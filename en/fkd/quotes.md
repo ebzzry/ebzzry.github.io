@@ -650,3 +650,7 @@ the years.
 
 - The real world isn’t real after all.<br>
   ―Lain Iwakura, Serial Experiments Lain
+
+
+- It is no longer about ‘Can I do that?’ It is now about ‘Should I do that?’<br>
+  ―Raymund Martinez
