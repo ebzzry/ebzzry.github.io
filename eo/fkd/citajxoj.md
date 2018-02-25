@@ -645,3 +645,7 @@ tra la jarojn.
 
 - Ne plu estas pri ‘Ĉu mi povas fari tion’, estas nun pri ‘Ĉu mi devas fari tion’?<br>
   ―Raymund MARTINEZ
+
+
+- Nur havas substancon homoj ene la memoroj de aliaj.<br>
+  ―Lain IWAKURA, Serial Experiments Lain

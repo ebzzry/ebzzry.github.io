@@ -219,3 +219,7 @@ Enskriboj ordigatas laŭ kronologiordo.
 
 
 - Imagas estontecon mi, en kiu, niaj opaj konscioj vivos en blokĉeno aŭ sampeca io.<br>
+
+
+- Malklaras la difino de vivo—nigra truo estas kiel viva tiel bakterio. La atributoj de vivo kiujn ni
+  donintaj al ĝi ege dependas al nia rilato al la vivaĵojn kiujn ni konas.<br>

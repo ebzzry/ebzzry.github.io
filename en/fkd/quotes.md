@@ -654,3 +654,7 @@ the years.
 
 - It is no longer about ‘Can I do that?’ It is now about ‘Should I do that?’<br>
   ―Raymund Martinez
+
+
+- People only have substance within the memory of others.<br>
+  ―Lain Iwakura, Serial Experiments Lain
