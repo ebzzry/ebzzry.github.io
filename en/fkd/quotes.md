@@ -658,3 +658,11 @@ the years.
 
 - People only have substance within the memory of others.<br>
   ―Lain Iwakura, Serial Experiments Lain
+
+
+- If you don’t remember something, it never happened.<br>
+  ―Arisu Mizuki
+
+
+- Information functions by being always in motion.<br>
+  ―Lain Iwakura, Serial Experiments Lain
