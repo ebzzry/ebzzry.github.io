@@ -222,9 +222,6 @@ Entries are sorted in chronological order.
   conditions. Everything depends on it.<br>
 
 
-- I imagine a future wherein our collective consciousness will live in a blockchain or something similar.<br>
-
-
 - The definition of life is blurry—a black hole is as alive as a bacteria. The attributes of live
   which we have given to it, strongly depends on our relationship to the life forms that we are
   acquainted with.<br>
