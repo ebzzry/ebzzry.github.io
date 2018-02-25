@@ -649,3 +649,11 @@ tra la jarojn.
 
 - Nur havas substancon homoj ene la memoroj de aliaj.<br>
   ―Lain IWAKURA, Serial Experiments Lain
+
+
+- Se oni ne memoras ion, ne ekzistis. Se oni ne memoritis, ne ekzistis oni.<br>
+  ―Arisu MIZUKI
+
+
+- Funkcias informo per esti ĉiam moviĝas.<br>
+  ―Lain IWAKURA, Serial Experiments Lain
