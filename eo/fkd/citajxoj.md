@@ -340,7 +340,7 @@ tra la jarojn.
   ―Windows CHURCHILL
 
 
-- Estas pli bone esti sole anstataŭ kune kun iu, kiu faras vin senti, ke vi estas sola.<br>
+- Estas pli bone esti sole anstataŭ kune kun iu, kiu igas vin senti, ke vi estas sola.<br>
   ―Ivan JUNIUS
 
 
@@ -604,7 +604,7 @@ tra la jarojn.
   ―Susan SONTAG
 
 
-- El la militolernejo de la vivo: Kion ne detruas min, faras min pli forta.<br>
+- El la militolernejo de la vivo: Kion ne detruas min, igas min pli forta.<br>
   ―Friedrich NIETZSCHE
 
 
