@@ -31,7 +31,7 @@ Enhavotabelo
 ----------------------
 
 La ipsilonkombinatoro estas la fonto de kaj inspiro kaj frustro de multaj homoj. Elvokas sensacion
-kiel eŭreka tuj oni pasis la muron, sed ankaŭ faras nin por skrapi niajn kapojn kiam ne faras sencon
+kiel eŭreka tuj oni pasis la muron, sed ankaŭ igas nin skrapi niajn kapojn kiam ne faras sencon
 por trairi la labirinton. Ĉi tiu artikolo celas porti miajn proprajn metodojn kiel derivi la ipsilonan
 kombinatoron. Eble ne estas la plej eleganta maniero, tamen eblas funkcii por oni.
 
