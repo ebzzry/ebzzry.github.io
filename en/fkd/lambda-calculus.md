@@ -1,15 +1,16 @@
 A Lambda Calculus Primer
 ========================
 
-<div class="center">June 12, 2015</div>
-<div class="center">Updated: March 31, 2017</div>
+<center>[Esperante](/eo/lambdokalkulo)  [English](#)</center>
+<center>June 12, 2015</center>
+<center>Updated: March 3, 2018</center>
 
 >You do not really understand something unless you can explain it to your grandmother.<br>
 >―Albert Einstein
 
 This post is my attempt to do just that, only that the grandmother here is myself. I firmly believe
-that unless I try to explain something, will I really understand it. This post takes a very
-laid-back approach, and avoids very technical topics, unless warranted.
+that I won’t really understand something, unless I can explain it. This post takes a very laid-back
+approach to do that, and avoids very technical topics, unless warranted.
 
 
 Table of contents
@@ -64,12 +65,12 @@ though, learn it.
 When discussing new concepts, it is very important to layout the axioms or the initial
 ruleset. Think of it as defining new terms in play, and giving them meaning. The context in which
 these meanings live are important. For example, for the gardener the hose is used to water the
-plans, while for the fireman, the hose is used to put out the fire. When the gardener, or the
+plants, while for the fireman, the hose is used to put out the fire. When the gardener, or the
 fireman grabs the hose, he will not question what is that he is holding, and what is its purpose. He
 simply believes in his faith of intuition, to determine the meaning of the hose at the time he
 grabbed it.
 
-In English, the word “high” has specific meanings. But for all the defined meanings of the word,
+In English, the word __“high”__ has several meanings. But for all the defined meanings of the word,
 there is no intrinsic knowledge of the value of the word. We take the meaning as is. We have to
 agree to use the word in the narrowed context of the users of the word. If we try to deviate from
 the established meaning of the word, for example, we randomly create a new definition of the word
@@ -127,7 +128,7 @@ function `(λx.x)`, the body is simply the symbol `x`.
 ### <a name="variables"></a> Variables
 
 In lambda calculus, the symbols that are used inside a function are called variables. Going back to
-the function you defined above,
+the function you defined above:
 
 ```scheme
 (λx.x)
@@ -159,10 +160,10 @@ y
 Let’s break it down:
 
 1. Apply `(λx.x)` to `y`:
-2. Consume the arguments, then substitute all instances `x` in the body, with `y`.
+2. Consume the arguments, then substitute all instances of `x` in the body, with `y`.
 
-“Wait, it merely returned the argument y.” you may say. That is true. The function `(λx.x)` is the
-identity function—it is a single-parameter function that returns whatever is was applied to.
+__“Wait, it merely returned the argument y.”__ you may say. That is true. The function `(λx.x)` is the
+identity function—it is a single-parameter function that returns whatever it was applied to.
 
 Functions are not limited to be applied to symbols. They can also be applied to other functions:
 
@@ -224,15 +225,15 @@ is equivalent to:
 
 ### <a name="start"></a> Start
 
-Since (almost) everything in lambda calculus is expressed as functions, its take on numbers is
+Since almost everything in lambda calculus is expressed as functions, its take on numbers is
 unique. Arguably, the most important number in lambda calculus is zero (0), which is expressed as:
 
 ```scheme
 (λsz.z)
 ```
 
-For convenience purposes, let’s label that expression as `0`, with the `≡` symbol read as “is
-identical to”.
+For convenience purposes, let’s label that expression as `0`, with the `≡` symbol read as
+__“is identical to”__.
 
 ```scheme
 0 ≡ (λsz.z)
@@ -249,14 +250,14 @@ Building from `0`, let’s enumerate the first three counting numbers:
 
 ### <a name="successor"></a> Successor
 
-The successor of a whole number is defined as the next whole number, counting up, so the successor
+The successor of a whole number is defined as the next whole number, counting up. So, the successor
 of `0` is `1`. The definition of the successor function is:
 
 ```scheme
 S ≡ (λxyz.y(xyz))
 ```
 
-Let’s try that to `0` (in the examples below, the `=` symbol is read as “is reduced to”):
+Let’s try that to `0`. In the examples below, the `=` symbol is read as __“is reduced to”__:
 
 ```scheme
 S0
@@ -273,12 +274,12 @@ Let’s break it down:
 2. Spell out the equivalent functional notation.
 3. Apply `(λsz.z)` to `y` substituting the bound variable `s` to `y`.
 4. Apply `(λz.z)` to `z` substituting the bound variable `z` to `z`.
-5. Evaluation stops, and `(λyz.y(z))` is returned, which is the number 1.
+5. Evaluation stops and `(λyz.y(z))` is returned, which is the number 1.
 
 
 ### <a name="addition"></a> Addition
 
-What if you wanted to perform `2+3`? Fortunately, the successor function will do that for you. You
+What if you wanted to perform `2+3`? Fortunately, the successor function can do that for you. You
 express that as `2S3`, where you replace `+` as the infix operator. The addition function is defined
 as:
 
@@ -373,7 +374,7 @@ Fab ≡ (λxy.y)ab = b
 
 ### <a name="logicalops"></a> Logical operations
 
-The three basic operators, And, Or, and Not:
+The three basic operators: AND, OR, and NOT:
 
 ```scheme
 ∧ ≡ λxy.xy(λuv.v) ≡ λxy.xyF
@@ -418,10 +419,9 @@ Therefore,
 x = Py iff y = Sx
 ```
 
-That is, `x` is the predecessor of `y`, if and only if, `y` is the successor of `x`.
-
-So, to determine the predecessor of a number `x`, you create a pair like above, then select the
-second element.
+That is, `x` is the predecessor of `y`, if and only if, `y` is the successor of `x`. So, to
+determine the predecessor of a number `x`, you create a pair like above, then select the second
+element.
 
 Let’s define some basic units. A pair looks like:
 
@@ -520,8 +520,7 @@ B11
 --------------------------------------
 
 You’ve just scratched the surface of lambda calculus, but you have just witnessed its immense
-expressive power, considering how minimal the system is defined. In our next article, we’ll
-demystify even more lambda calculus magic. Stay tuned!
+expressive power, considering how minimal the system is defined.
 
 
 <a name="references"></a> References
