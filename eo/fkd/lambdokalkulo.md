@@ -47,15 +47,16 @@ Enhavotabelo
 La lambdokalkulo estas minimuma sistemo por esprimi komputadon kiu konformas al la universalaj
 modeloj de komputado, de tie, fari ĝin universala modelo de komputado. Alidire ĝi povas esti nomita
 kiel unu el la plej simplaj programlingvoj, tamen aspektas kaj alie kondutas el la unuj ni kutime
-konas. La lambdokalkulo ankaŭ formiĝas kiel la bazo por la popolaj funkciaj programlingvoj uzataj nune.
+konas. La lambdokalkulo ankaŭ formiĝas kiel la bazo por la popolaj funkciaj programlingvoj kiuj nune
+uzatas.
 
 
 ### <a name="lerni"></a>Ĉu oni devas lerni ĝin?
 
-Jes kaj ne. Se oni volas kompreni la profundan meĥanismon kiel programaro funkcias, aŭ se oni volas
-konstrui la sekvan bonegan programlingvon, aŭ oni simple volas aprezi la elegantecon de ĝia arto, do
-jes. Tamen, se oni simple volas flugi aviadilon sen scii kiel ĝi funkcias, do ne. Serioze, lernu
-ĝin.
+Jes kaj ne. Se ĉu oni volas kompreni la profundan meĥanismon kiel programaro funkcias, aŭ se oni
+volas konstrui la sekvan bonegan programlingvon, aŭ oni simple volas aprezi la elegantecon de ĝia
+arto, do jes. Tamen, se oni simple volas flugi aviadilon sen scii kiel ĝi funkcias, do ne. Serioze,
+lernu ĝin.
 
 
 ### <a name="fari"></a>Kion oni devas fari?
