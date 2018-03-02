@@ -259,7 +259,7 @@ en la sekcio _Komentoj_.
 ### <a name="bootstrap.css"></a>bootstrap.css kaj bootstrap.min.css
 
 Ĉi tiuj du dosieroj respondecas por tiu, kiu estas komuna nomita, haŭtoj—regas la aspekton de
-la retejo. Por ŝanĝi ĉi tiujn dosierojn, ni iru al <https://bootswatch.com/>, tiam elektu haŭton,
+l’ retejo. Por ŝanĝi ĉi tiujn dosierojn, ni iru al <https://bootswatch.com/>, tiam elektu haŭton,
 kiun oni ŝatas.
 
 Ni supozu, ke oni elŝutis la *Cerulean* haŭton. Klaku la falmenuon por tiu haŭto. Elektu kaj elŝutu
@@ -304,7 +304,7 @@ will prevent the post from being published.
 ```
 
 Ni povas vidi, ke la Markdown-aj kaj Scribble-aj dosieroj estas plejparte similaj, krom la aldono de
-la lingva precizigilo, `#lang scribble/manual`, kaj la manko de l’ prefiksaj spacetoj por la
+l’ lingva precizigilo, `#lang scribble/manual`, kaj la manko de l’ prefiksaj spacetoj por la
 metadatumaj kampoj.
 
 
