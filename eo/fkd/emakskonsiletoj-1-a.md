@@ -7,7 +7,7 @@ Emakskonsiletoj 1-a: Regionoj kaj Markoj
 
 Mi ankoraŭ bezonas trovi pli bonan redaktilon ol [Emakso](https://www.gnu.org/software/emacs/). Kio
 faras Emakson elstari, estas sia agorda lingvo—Emaksa Lispo. Emakso uzas ĝin al punkto, en kiu,
-plejmulto de la funkciado de si mem, realigitas per Emakslispo. En ĉi tiuj serioj, mi priparolos
+plejmulto de l’ funkciado de si mem, realigitas per Emakslispo. En ĉi tiuj serioj, mi priparolos
 la aferojn, kiujn mi malkovris por fari la uzadon de Emakso pli agrabla.
 
 
@@ -150,4 +150,4 @@ La klavkombinoj por la supraj komandoj, estas la jenaj:
 Mi esperas, ke vi povos esti kapabla por trovi uzojn de kelkaj de ili. La ceteraj agordoj troveblas
 [ĉi tie](https://github.com/ebzzry/dotfiles/tree/master/emacs).
 
-_Dankon al [Raymund Martinez](https://github.com/zhaqenl) pro la korektoj._
+_Dank’ al [Raymund Martinez](https://github.com/zhaqenl) pro l’ korektoj._

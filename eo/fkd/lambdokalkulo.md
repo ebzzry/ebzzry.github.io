@@ -1,4 +1,4 @@
-Aboco de la Lambdokalkulo
+Aboco de l’ Lambdokalkulo
 =========================
 
 <center>[Esperante](#)  [English](/en/lambda-calculus)</center>
@@ -65,14 +65,14 @@ Kiam diskuti novajn konceptojn, tre gravas por aranĝi la aksiomojn aŭ la komen
 sencoj vivas, tre gravas. Ekzemple, por la ĝardenisto la akvokondukilo uzatas por akvi la plantojn,
 dum por la fajrobrigadisto, la akvokondukilo uzatas por mortigi la fajron. Kiam la ĝardenisto aŭ la
 fajrobrigadisto tenas la akvokondukilon, ili ne dubas kion ili tenas aŭ kio estas la celumo. Ili simple
-kredas en la fato de intuo, por precizigi la signifon de la akvokondukilo en la tempo ili tenis ĝin.
+kredas en la fato de intuo, por precizigi la signifon de l’ akvokondukilo en la tempo ili tenis ĝin.
 
-Esperante, la vorto **alta** havas kelkajn signiifojn. Tamen, en ĉiuj de la difinitiajn signifojn de
-la vorto, ne ekzistas apriora scio de la valoro de la vorto. Ni akceptas la difino tiel estas. Ni
-devas konsenti al la uzado de la vorto en la limigita konteksto de la uzantoj de la vorto. Se ni
-provas devii el la establiĝita signifo de la vorto, ekzemple, se ni hazarde krei novan difinon de la
+Esperante, la vorto __alta__ havas kelkajn signiifojn. Tamen, en ĉiuj de l’ difinitiajn signifojn de
+la vorto, ne ekzistas apriora scio de l’ valoro de l’ vorto. Ni akceptas la difino tiel estas. Ni
+devas konsenti al la uzado de l’ vorto en la limigita konteksto de l’ uzantoj de l’ vorto. Se ni
+provas devii el la establiĝita signifo de l’ vorto, ekzemple, se ni hazarde krei novan difinon de l’
 vorto pro kaprico, plej verŝajne ĝi ne estos akceptita. Ni bezonas kredi la difinitajn indikitajn
-kaj montritajn signifojn de la vorto, por ke ĝi havas sencon al ni. La samo veras pri la
+kaj montritajn signifojn de l’ vorto, por ke ĝi havas sencon al ni. La samo veras pri l’
 lambdokalkulo—ni aŭ akcepti ĉi tiujn aksiomojn kaj operacii en sia domajno, aŭ ni vivu en
 Neverland-o.
 
@@ -108,7 +108,7 @@ funkcio ĉi-supre ekvivalentas al:
 ```
 
 La Greka litero `λ` montras, ke la ĉirkaŭa konteksto estas funkcio—aŭ iuk, kiu povas esti
-aplikata. The `λ` simbolo uzatas anstataŭ alia simbolo pro la kompostada atentindaĵo kiu estas
+aplikata. The `λ` simbolo uzatas anstataŭ alia simbolo pro l’ kompostada atentindaĵo kiu estas
 diskutita [ĉi tie](https://goo.gl/vxMkW4). Do, ne maltrankviliĝu. Simple uzu ĝin.
 
 Kion sekvas post la `λ` simbolo, antaŭ la `.`, estas la parametro. Teĥnike, povas esti ia
@@ -243,7 +243,7 @@ Konstrui el `0`, ni nombru la unuaj tri nombradaj nombroj:
 ### <a name="postanto"></a>Postanto
 
 La postanto de entjero estas difinita kiel la sekva entjero, kalkuli supren. Do, la postanto de `0`
-estas `1`. La difino de la postanta funkcio estas:
+estas `1`. La difino de l’ postanta funkcio estas:
 
 ```scheme
 S ≡ (λxyz.y(xyz))
@@ -391,11 +391,11 @@ Ni kontrolu se `¬T` estas jam `F`:
 ### <a name="antaŭanto"></a>Antaŭanto
 
 La antaŭanto de nombro difinitas kie la antaŭa nombro precizigita kiam malantaŭen kalkuli. La motivo
-kial la diskuto pri la antaŭanta funkcio faritas aparte estas, ke ne estas intue por lerni ĝin
-komence, ka la scio pri la aliaj funckioj gravas por lerni ĝin.
+kial la diskuto pri l’ antaŭanta funkcio faritas aparte estas, ke ne estas intue por lerni ĝin
+komence, ka la scio pri l’ aliaj funckioj gravas por lerni ĝin.
 
 Ni supozu, ke oni havas duon, io kiel (y, x), en kiu, la unua ero estas unu paŝo supre, aŭ la
-postanto de la dua ero. Pro la unua ero estas la postanto, signifas ke la dua ero estas la
+postanto de l’ dua ero. Pro l’ unua ero estas la postanto, signifas ke la dua ero estas la
 antaŭanto. Vide:
 
 ```scheme
@@ -506,7 +506,7 @@ B11
 <a name="finrimarkoj"></a>Finrimarkoj
 -------------------------------------
 
-Oni simple ungogratis la tegon de lambdokalkulo, tamen oni ĵus spektis ĝia vastegan espriman
+Oni simple ungogratis la tegon de l’mbdokalkulo, tamen oni ĵus spektis ĝia vastegan espriman
 potencon, konsidere al kiel minimuna la sistemo difinitas.
 
 
