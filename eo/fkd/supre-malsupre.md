@@ -17,20 +17,20 @@ Ni plendas pri niaj mankoj de iloj. Ni plendas pri niaj mankoj de rimedoj. Tamen
 alportiĝas al ŝoka nekredemo kiam iu faras ion per multe malpli ol niaj manoj havas. Ni elrevigas la
 probablon ke kiun ni trovas, estas ja sur nia orelo. Nia kapablo por eksigi idealajn opciojn kiuj
 staras antaŭ ni, estas ŝoke. Kial ni bezonas fosi subteran subtervojon por enigi, kiam ĉio kiun ni
-bezonas, estas frapi ĉe la pordo?
+bezonas, estas frapi ĉe l’ pordo?
 
 Estas tre zorgige ke ni nepravigeble pozicias nin mem por neproteste akcepti konceptojn, nur tial ke
 ni estis diritaj por asimiligi ilin. Ni kredas ilin kiel veroj sen fari la plej minimuman progreson
 por supozi, ke tio, kion vi ĵus aŭdis, estas senerara. Ankaŭ estas maltrankvilige, ke por la multaj
 homoj, se ne plimulta, ili ja kredas tion, kion ili estis dirata, kiel estas, anstataŭ esti
-kritikanta per alti iliajn manojn por demandi pri la eble dubemaj pretendoj. Kiam ni diras jes, sen
+kritikanta per alti iliajn manojn por demandi pri l’ eble dubemaj pretendoj. Kiam ni diras jes, sen
 doni la plej malgrandan kvanton de penso, ni efektive kovris nin mem per kuseno kiel nubo, kiuj
 dum faras ĉion tuj apuda el via ĉiela haŭto, ni malatentas ĉasi la intelektan sekurecon kaj ni donas
 al ni mem-aprobitajn paraŝutojn.
 
 Pli grave, ni ankaŭ malkovras, ke multe da homo radikale pozicias sin mem al senlimaj pozicioj. Ni
 estas tre amaj por elpensi kaj nomizi etikedojn inter ni. Ni pensas, ke per movi nin mem al bunkroj
-de pensoj, ni konstruas supozojn, ke, pro la sekureco kiun nia bunkro disponigas, ni superis. El
+de pensoj, ni konstruas supozojn, ke, pro l’ sekureco kiun nia bunkro disponigas, ni superis. El
 niaj desoksiribonukleaj acidoj, kiuj provizas al ni la informon kiu enhavas la kodon de tio, kio
 faras nin por funkcii; ni devias al niaj cerboj por deponi jam pli da informo. Ĉi tiuj diversaj
 lokoj de informo kiuj estas altaj en larĝeco, kiu nia humila kodo ne plu komencas enhavi.
@@ -58,4 +58,4 @@ manovrojn sen iu por kapti viajn manojn.
 
 Ofte, ni malatentas ke ĉiom da iloj kion ni bezonas, estas ĉeestantaj kun ni.
 
-_Dankon al [Raymund Martinez](https://github.com/zhaqenl) pro la korektoj._
+_Dank’ al [Raymund Martinez](https://github.com/zhaqenl) pro l’ korektoj._

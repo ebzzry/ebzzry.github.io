@@ -9,7 +9,7 @@ La Ipsilonkombinatoro en Ses Paŝoj
 >―Lacus CLYNE, Gundam SEED Destiny
 
 Multe da ni estis instruitaj ke, por difini rikuran proceduron, la rikura alvoko devas uzi la
-nomon de la rikuran proceduron. La
+nomon de l’ rikuran proceduron. La
 [ipsilonkombinatoro (angle)](https://en.wikipedia.org/wiki/Fixed-point_combinator#Y_combinator), tamen,
 permesas onin por presti rikuron, sen referenci la nomatan identigilon.
 
@@ -44,7 +44,7 @@ realigo.
 
 Ni komencu per difini proceduron nomata `foo` kiu komputas la sumadon de pozitiva entjero, malsupren
 al nul. En la sekvanta kodaĵo, la rikura alvoko okazas kiam `foo` estas aplikata en la `else`-a
-parto de la kondiĉo.
+parto de l’ kondiĉo.
 
 ```scheme
 > (define foo
@@ -193,4 +193,4 @@ Kiam la kernaj konceptoj estas komprenataj, estos facile por kapti la ŝajne mal
 esperas, ke ĉi tiu artikolo estas utila por fari onin kompreni la ipsilonan kombinatoron,
 funkcivokarigon, kaj proceduran aplikon.
 
-_Dankon al [Raymund Martinez](https://github.com/zhaqenl) pro la korektoj._
+_Dank’ al [Raymund Martinez](https://github.com/zhaqenl) pro l’ korektoj._

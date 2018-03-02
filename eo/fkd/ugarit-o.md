@@ -95,7 +95,7 @@ enmemorigi la datumon sur rapida, fidebla, strestoleranta disko. Ne estas nekomu
     $ sudo chown -R $USER /ugarit
 
 Alia egale grava bezono, kiun oni devas havi estas ĝia agordosiero, kutime nomita
-`ugarit.conf`. Estas provizite kiel parto de la bezonataj komandliniaj argumentoj. Tenu en la
+`ugarit.conf`. Estas provizite kiel parto de l’ bezonataj komandliniaj argumentoj. Tenu en la
 kalkulo, kie ĉi tiu dosiero ne loĝas en fiksita loko, kontraste kun iuj programoj kiu serĉas
 agorddosieron dum startigo. Antaŭ oni fakte kreas tiun dosieron, oni bezonas kuri iujn
 komandojn. Konservu la eligojn de ĉi tiuj komandoj ĉar oni bezonados ilin poste.
@@ -143,7 +143,7 @@ Por krei dosierkopiojn, kuru:
     $ ugarit snapshot /ugarit/ugarit.conf ETIKEDO DOSIERUJO
 
 _ETIKEDO_ estas nomo kiu oni bezonas identigi la dosierkopion poste, dum _DOSIERUJO_ estas la
-dosiersistema arbo, kiun oni volas krei dosierkopion pri. Por krei ekzemple dosierkopion de la
+dosiersistema arbo, kiun oni volas krei dosierkopion pri. Por krei ekzemple dosierkopion de l’
 dosierujo `bildoj/`, kun la etikedo `bil`, kuru Ugarit-on jene:
 
     $ ugarit snapshot /ugarit/ugarit.conf bil bildoj
@@ -163,7 +163,7 @@ File cache has saved us 1 file hashings / 638104 bytes (before compression)
 
 ### <a name="esplori"></a>Esplori dosierkopiojn
 
-Por interage mastrumi la enhavojn de la kripto, kuru:
+Por interage mastrumi la enhavojn de l’ kripto, kuru:
 
     $ ugarit explore /ugarit/ugarit.conf
 
@@ -171,7 +171,7 @@ Por listigi la haveblajn komandojn:
 
     > help
 
-Per la konsiletoj el la helpa uzado, oni eltiros dosierujon kiu estas parto de la dosierkopio
+Per la konsiletoj el la helpa uzado, oni eltiros dosierujon kiu estas parto de l’ dosierkopio
 antaŭe. Ni supozu, ke la originala vojo de tiu dosierujo estis `bildoj/festo/`. Do, por eltiri la
 dosierujon `festo/` al la nuna dosierujo, kuru:
 
@@ -230,7 +230,7 @@ Por ŝalti tre babileman eligon:
 <a name="notoj"></a>Notoj
 -------------------------
 
-Kiam ne fidas la rendimenton de la disko kie oni enmemorigas la dosierkopiojn, malŝalti la
+Kiam ne fidas la rendimenton de l’ disko kie oni enmemorigas la dosierkopiojn, malŝalti la
 [locate-ajn kaj updatedb-ajn](http://linux.about.com/od/commands/fl/updatedb-Linux-Command-Unix-Command.htm)
 servojn. Estas kutime periode kuradi per cron-o. Metas multe da ŝarĝo sur la disko kaj eble
 trostresi ĝin. La sperto povas varii.
@@ -241,7 +241,7 @@ Por malŝalti tiujn servojn sur NixOS, aldonu la jenajn al `/etc/nixos/configura
 services.locate.enable = false;
 ```
 
-Grava averto menciinda estas ke pro la maniero kiel Ugarit-o funkcias, ne ekzistas forviŝi de
+Grava averto menciinda estas ke pro l’ maniero kiel Ugarit-o funkcias, ne ekzistas forviŝi de
 dosierkopioj. La enmemoriga meĥanismo funkcias laŭe kiel Gito, nur tio ne ekzistas `rebase`-aj
 opcioj.
 

@@ -12,7 +12,7 @@ Lok-al-loka sinkronigo kutime bezonatas, kiam du lokoj, sendepende kreas dosiera
 diru, ke la firmao _Okininam_ havas du oficejojn. En la unua oficejo, ili havas la librotenadan kaj
 loĝistikan fakojn. En la dua oficejo, ili havas la komputikan kaj homfaktoran fakojn. Ambaŭ havas
 komunan `/pub` arbon, kiu havas atribuitajn subdosierujojn al ĉiu fako. Sen sinkronigo, kiam la unua
-oficejo bezonas la informon de la dua oficejo, ili mane bezonas tiri la ĝisdatigojn. Per sinkronigo,
+oficejo bezonas la informon de l’ dua oficejo, ili mane bezonas tiri la ĝisdatigojn. Per sinkronigo,
 la unua oficejo povas aliri la dosierojn el la dua oficejo, kvazaŭ la komputika kaj homfaktora
 fakoj, estis en la unua oficejo. Usync helpas atingi tion. Kreitas per
 [Scsh](https://www.scsh.net). Uzas [Unison](http://www.cis.upenn.edu/~bcpierce/unison/) kaj
@@ -30,14 +30,14 @@ Enhavotabelo
 <a name="bazuzado"></a>Baza uzado
 ---------------------------------
 
-Por fari ambaŭdirektan sinkronigon de la dosierujo `/pub/yot/ninam`, inter la nuna retnodo al la
+Por fari ambaŭdirektan sinkronigon de l’ dosierujo `/pub/yot/ninam`, inter la nuna retnodo al la
 retnodoj `tarupam` kaj `taubetmo`, dum konservi la dosierujan strukturon defore, kuru la jenan
-komandon. Notu, ke ne devas ekzisti spacetoj inter la retnodaj precizigoj, pro la `IFS` media
+komandon. Notu, ke ne devas ekzisti spacetoj inter la retnodaj precizigoj, pro l’ `IFS` media
 variablo:
 
     $ usync /pub/yot/ninam/ tarupam,taubetmo
 
-La antaŭ komando faros ambaŭdirektan sinkronigon de la dosierujo `ninam/` troveblas sub `/pub/yot`,
+La antaŭ komando faros ambaŭdirektan sinkronigon de l’ dosierujo `ninam/` troveblas sub `/pub/yot`,
 al `tarupam:/pub/yot/` kaj `taubetmo:/pub/yot/`.
 
 Per la antaŭ ekzemplo, la ambaŭdirekto sinkronigo simple diras, ke se la arbo
@@ -57,11 +57,11 @@ fari tiel, kuru:
 
     $ usync /pub/yot/ninam/ ~/file.text ~reyn/*.blend tarupam,taubetmo
 
-La antaŭ komando faros ambaŭdirektan sinkronigon de la dosierindikoj `/pub/yot/ninam/`,
+La antaŭ komando faros ambaŭdirektan sinkronigon de l’ dosierindikoj `/pub/yot/ninam/`,
 `~/file.text`, kaj `~reyn/*.blend` al la mallokaj retnodoj `tarupam` kaj `taubetmo`, laŭ la sama
 dosieruja struktura sistemo kiu estas priskribita supre.
 
-Se vi volas fari unudirektan sinkronigon de la supraj, kiel _rsync_, kuru:
+Se vi volas fari unudirektan sinkronigon de l’ supraj, kiel _rsync_, kuru:
 
     $ usync --one-way --prefer-local /pub/yot/ninam/ \
     ~/file.text ~reyn/draft.blend tarupam,taubetmo
@@ -79,4 +79,4 @@ Kelkaj dosieroj kaj regulesprimoj enkonstruitas kiel eksigoj. Ili eble faras sen
 vi opinias, ke ili devas esti ŝanĝitaj, liberiĝu por sendi tirpeton. La fontoj haveblas
 [ĉi tie](https://github.com/ebzzry/usync).
 
-_Dankon al [Raymund Martinez](https://github.com/zhaqenl) pro la korektoj._
+_Dank’ al [Raymund Martinez](https://github.com/zhaqenl) pro l’ korektoj._

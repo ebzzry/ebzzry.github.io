@@ -5,7 +5,7 @@ Emakskonsiletoj 2-a: Seancoj kaj Pakoj
 <center>la 20-an de Februaro 2018</center>
 <center>Laste ŝanĝita: la 21-an de Februaro 2018</center>
 
-Ĉi tiu estas la daŭrigo de la serioj pri Emaksaj konsiletoj. En ĉi tiu afiŝo, ni esploras seancan
+Ĉi tiu estas la daŭrigo de l’ serioj pri Emaksaj konsiletoj. En ĉi tiu afiŝo, ni esploras seancan
 mastrumadon, pakojn, krommarĝenojn, kaj aliajn malgrandajn agrablajn aferojn.
 
 
@@ -32,7 +32,7 @@ Enhavotabelo
 <a name="desktop"></a>Desktop
 -----------------------------
 
-Havenda ilo kiun mi nun uzas estas _Desktop_. Ĝi konservas la staton de la emaksa seanco, por ke en la
+Havenda ilo kiun mi nun uzas estas _Desktop_. Ĝi konservas la staton de l’ emaksa seanco, por ke en la
 okazo de kraŝo, kurenta malfunkcio, aŭ io kiu igas min perdi mian seancon, mi povas reiri al
 ĝi. Desktop-o estas enkonstruita kun la plej ĵusaj versioj de Emakso. La jena estas la kodaĵo:
 
@@ -170,7 +170,7 @@ Por instali `markdown-mode` ekzemple, se eĉ ne jam ekzistas, kaj agordi siajn r
 <a name="lininumeroj"></a>Lininumeroj
 -------------------------------------
 
-Mi tre ŝatas havi la lininumerojn montrataj ĉe la maldekstra marĝeno. Donas al mi iom da ideo kiel
+Mi tre ŝatas havi la lininumerojn montrataj ĉe l’ maldekstra marĝeno. Donas al mi iom da ideo kiel
 granda la dosiero estas, kaj kie ni nune estas. Ŝalti `linum-mode` atingas tion:
 
 ```lisp
@@ -258,7 +258,7 @@ La komando `move-to-window-line-top-bottom`, defaŭlte bindita al <kbd>M-r</kbd>
 oni volas movi la montrilon al la supra, meza, kaj malsupra pozicioj en rilato kun la fenestro
 similas al la <kbd>H</kbd>, <kbd>M</kbd>, kaj <kbd>L</kbd> komandoj de Vimo.
 
-Tamen ne estas tre rendimente kiam specife celi areojn de la ekrano. La komandoj malsupre pozicias
+Tamen ne estas tre rendimente kiam specife celi areojn de l’ ekrano. La komandoj malsupre pozicias
 la montrilon, specife al la supra, meza, kaj malsupra pozicioj, respektive.
 
 ```lisp
@@ -279,7 +279,7 @@ la montrilon, specife al la supra, meza, kaj malsupra pozicioj, respektive.
 <a name="gito"></a>Gitstato en Dired-o
 --------------------------------------
 
-Ĉi tiu malgranda kodaĵo donas vidajn indikojn de la stato de gitmastrumitaj dosieroj ene Dired-a
+Ĉi tiu malgranda kodaĵo donas vidajn indikojn de l’ stato de gitmastrumitaj dosieroj ene Dired-a
 bufro. Premi <kbd>g</kbd> reŝargas la bufron, tiam ĝisdatigas la staton.
 
 ```lisp
@@ -323,5 +323,5 @@ La klavkombinoj por la supraj komandoj estas listigitaj malsupre:
 -------------------------------------
 
 En ĉi tiu afiŝo, mi montris, ke la malgrandaj alĝustigetoj povas generi grandajn gajnojn. Le resto
-de la agordo troveblas [ĉi tie](https://github.com/ebzzry/dotfiles/tree/master/emacs). Se vi havas
+de l’ agordo troveblas [ĉi tie](https://github.com/ebzzry/dotfiles/tree/master/emacs). Se vi havas
 Emaksan kodumon por havigi, sendu tirpeton!

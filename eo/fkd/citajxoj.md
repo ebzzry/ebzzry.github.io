@@ -6,7 +6,7 @@ Citaĵoj
 <center>Laste ŝanĝita: la 21-an de Februaro 2018</center>
 
 Ĉi tiu paĝo enhavas liston de atenteme elektitaj citaĵoj, aforismoj, kaj sentencoj kiujn mi kolektis
-tra la jarojn.
+tra l’ jarojn.
 
 - La aferoj kiujn oni volas malakcepti estas pli gravaj ol la aferoj kiujn oni volas akcepti.<br>
   ―Erik NAGGUM
@@ -150,11 +150,11 @@ tra la jarojn.
   ―Arthur C. CLARKE
 
 
-- La plej granda tragedio en la tuta historio de homaro estas eble la kaperado de la moraleco per religio.<br>
+- La plej granda tragedio en la tuta historio de homaro estas eble la kaperado de l’ moraleco per religio.<br>
   ―Arthur C. CLARKE
 
 
-- La nur maniero por trovi la limojn de la ebleco estas per iri ekster ilin en la maleblecon.<br>
+- La nur maniero por trovi la limojn de l’ ebleco estas per iri ekster ilin en la maleblecon.<br>
   ―Arthur C. CLARKE
 
 
@@ -191,7 +191,7 @@ tra la jarojn.
   ―Russell WARREN
 
 
-- Teĥnika kapablo estas la ellerneco de la komplekso, tamen la kreemo estas la ellerneco de la simpleco.<br>
+- Teĥnika kapablo estas la ellerneco de l’ komplekso, tamen la kreemo estas la ellerneco de l’ simpleco.<br>
   ―Erik Christopher ZEEMAN
 
 
@@ -245,7 +245,7 @@ tra la jarojn.
   ―C.S. LEWIS
 
 
-- Ne ekzistas aventuro kiel tio sentis de la inventisto kiel oni vidas siajn kreaĵojn disfaldas por
+- Ne ekzistas aventuro kiel tio sentis de l’ inventisto kiel oni vidas siajn kreaĵojn disfaldas por
   sukceso. Tiaj kortuŝoj farigas viron por forgesi manĝon, dormon, amikojn, amon, ĉion.<br>
   ―Nikola TESLA
 
@@ -262,7 +262,7 @@ tra la jarojn.
   ―Alberto EJNŜTEJNO
 
 
-- Oni neniam povas transiri la oceanon, krom se oni havas la kuraĝon por perdi la vidon de la marbordo.<br>
+- Oni neniam povas transiri la oceanon, krom se oni havas la kuraĝon por perdi la vidon de l’ marbordo.<br>
   ―Kristoforo KOLUMBO
 
 
@@ -415,7 +415,7 @@ tra la jarojn.
 
 
 - Ne estas la socio kiu determinas la estontecon de homoj. Estas la homoj, kiuj determinas la estontecon
-  de la socio.<br>
+  de l’ socio.<br>
   ―Akane TSUNEMORI, Psycho-Pass
 
 
@@ -427,7 +427,7 @@ tra la jarojn.
   ―Mikhail GORBACHEV
 
 
-- Malsaĝulo miras je nekutimajn aferojn. Ŝagulo miras je la kutimajn aferojn.<br>
+- Malsaĝulo miras je nekutimajn aferojn. Ŝagulo miras je l’ kutimajn aferojn.<br>
   ―Konfuceo
 
 
@@ -443,7 +443,7 @@ tra la jarojn.
   ―Ergo PROXY, Ergo Proxy
 
 
-- La blanka bruo kiu batas ene la blanka mallumo estas la ritmo de la vivo; estas la pulso kiu
+- La blanka bruo kiu batas ene la blanka mallumo estas la ritmo de l’ vivo; estas la pulso kiu
   neniam vere foriris la podion.<br>
   ―Ergo Proxy, Ergo Proxy
 
@@ -457,7 +457,7 @@ tra la jarojn.
   ―Søren KIERKEGAARD
 
 
-- La plej granda danĝero okazas je la momenton de venko.<br>
+- La plej granda danĝero okazas je l’ momenton de venko.<br>
   ―Napoleon BONAPARTE
 
 
@@ -503,7 +503,7 @@ tra la jarojn.
   ―Rick SEIFARTH
 
 
-- La ekzisto de la vivo bezonas la detruon.<br>
+- La ekzisto de l’ vivo bezonas la detruon.<br>
   ―Hugh Derry, Life (2017)
 
 
@@ -604,7 +604,7 @@ tra la jarojn.
   ―Susan SONTAG
 
 
-- El la militolernejo de la vivo: Kion ne detruas min, igas min pli forta.<br>
+- El la militolernejo de l’ vivo: Kion ne detruas min, igas min pli forta.<br>
   ―Friedrich NIETZSCHE
 
 
@@ -625,12 +625,12 @@ tra la jarojn.
   ―la pupo, Serial Experiments Lain
 
 
-- Racias por vidi je Wired kiel plisupra nivelo de la vera mondo. Alidire, fizika efektivaĵo estas
-  nenio, sed holografiaĵo de la informo, kiu fluas tra la Wired.<br>
+- Racias por vidi je Wired kiel plisupra nivelo de l’ vera mondo. Alidire, fizika efektivaĵo estas
+  nenio, sed holografiaĵo de l’ informo, kiu fluas tra l’ Wired.<br>
   ―Miho IWAKURA, Serial Experiments Lain
 
 
-- Tial ke la korpo, la agado de la homcerbo, estas nure fizika fenomeno kaŭzita de sinapsoj liveri
+- Tial ke la korpo, la agado de l’ homcerbo, estas nure fizika fenomeno kaŭzita de sinapsoj liveri
   elektrajn impulsojn.<br>
   ―Miho IWAKURA, Serial Experiments Lain
 
