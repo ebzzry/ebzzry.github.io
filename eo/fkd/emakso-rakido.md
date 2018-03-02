@@ -70,7 +70,7 @@ realigoj, se trovas ilin. La lastesprimo malnepras—ŝaltas onin por plenumi
 en la legad-taksad-presada iteracio (LTPI, angle REPL), por devigi la konservadon de l’ historio al
 la diskdosiero, kiu troveblas en `~/.geiser_history.racket` defaŭlte. Estas utila se vi tuj volas
 konservi vian LTPI-an historion. Ne ekzistas pli teruran aferon ol perdi TIUN esprimon. Por ĉiuj de
-la Emaksaj kodoj supraj, por efektiviĝi, vi nun povas taksi ilin per la membroj de l’ EVAL-a
+l’ Emaksaj kodoj supraj, por efektiviĝi, vi nun povas taksi ilin per la membroj de l’ EVAL-a
 trupo—`eval-defun`, `eval-last-sexp`, `eval-region`—aŭ, vi ankoraŭ elektas naski novan Emaksan
 procezon.
 

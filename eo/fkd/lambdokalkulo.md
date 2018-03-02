@@ -8,9 +8,9 @@ Aboco de l’ Lambdokalkulo
 >Oni ne vere komprenas ion krom se oni povas klarigi tion al sia avino.<br>
 >―Alberto EJNŜTEJNO
 
-Ĉi tiu estas mia provo por fari ja tion, tamen la avino ĉi tie estas mi mem. Mi firme kredas, ke mi
+Ĉi tio estas mia provo por fari ja tion, tamen la avino ĉi tie estas mi mem. Mi firme kredas, ke mi
 ne vere povas kompreni ion, krom se mi povas klarigi ĝin. Ĉi tiu afiŝo estas malstreĉa aliro por
-fari tion, kaj evitas tre teĥnikajn temojn, krom se estas ege bezonata.
+fari tion, kaj evitas tre teĥnikajn temojn, krom se ege bezonatas.
 
 
 Enhavotabelo
@@ -44,31 +44,31 @@ Enhavotabelo
 
 ### <a name="kio"></a>Kio ĝi estas?
 
-Lambdokalkulo estas minimuma sistemo por esprimi komputadon kiu konformas al la universalaj modeloj
-de komputado, de tie, fari ĝin universala modelo de komputado. Alidire ĝi povas esti nomita kiel unu
-el la plej simplaj programlingvoj, tamen aspektas kaj alie kondutas el la unuj ni kutime
-konas. Lambdokalkulo ankaŭ formiĝas kiel la bazo por la popolaj funkciaj programlingvoj uzataj nune.
+La lambdokalkulo estas minimuma sistemo por esprimi komputadon kiu konformas al la universalaj
+modeloj de komputado, de tie, fari ĝin universala modelo de komputado. Alidire ĝi povas esti nomita
+kiel unu el la plej simplaj programlingvoj, tamen aspektas kaj alie kondutas el la unuj ni kutime
+konas. La lambdokalkulo ankaŭ formiĝas kiel la bazo por la popolaj funkciaj programlingvoj uzataj nune.
 
 
 ### <a name="lerni"></a>Ĉu oni devas lerni ĝin?
 
 Jes kaj ne. Se oni volas kompreni la profundan meĥanismon kiel programaro funkcias, aŭ se oni volas
-konstrui la sekvan bonegan programlingvon, aŭ oni simple volas aprezi la elegantecon de ĝia arto,
-tiam jes. Tamen, se oni simple volas flugi aviadilon sen scii kiel ĝi funkcias, tiam ne. Serioze,
-lernu ĝin.
+konstrui la sekvan bonegan programlingvon, aŭ oni simple volas aprezi la elegantecon de ĝia arto, do
+jes. Tamen, se oni simple volas flugi aviadilon sen scii kiel ĝi funkcias, do ne. Serioze, lernu
+ĝin.
 
 
 ### <a name="fari"></a>Kion oni devas fari?
 
 Kiam diskuti novajn konceptojn, tre gravas por aranĝi la aksiomojn aŭ la komencajn regularojn. Pensu
 ĝin kiel difini novajn terminojn en ludo, kaj doni al ili sencojn. La koncepto, en kiu, ĉi tiuj
-sencoj vivas, tre gravas. Ekzemple, por la ĝardenisto la akvokondukilo uzatas por akvi la plantojn,
-dum por la fajrobrigadisto, la akvokondukilo uzatas por mortigi la fajron. Kiam la ĝardenisto aŭ la
+sencoj vivas, tre gravas. Ekzemple, de l’ ĝardenisto la akvokondukilo uzatas por akvi la plantojn,
+dum de l’ fajrobrigadisto, la akvokondukilo uzatas por mortigi la fajron. Kiam la ĝardenisto aŭ la
 fajrobrigadisto tenas la akvokondukilon, ili ne dubas kion ili tenas aŭ kio estas la celumo. Ili simple
 kredas en la fato de intuo, por precizigi la signifon de l’ akvokondukilo en la tempo ili tenis ĝin.
 
-Esperante, la vorto __alta__ havas kelkajn signiifojn. Tamen, en ĉiuj de l’ difinitiajn signifojn de
-la vorto, ne ekzistas apriora scio de l’ valoro de l’ vorto. Ni akceptas la difino tiel estas. Ni
+Esperante, la vorto _alta_ havas kelkajn signifojn. Tamen, en ĉiuj de l’ difinitaj signifoj de
+l’ vorto, ne ekzistas apriora scio de l’ valoro de l’ vorto. Ni akceptas la difino tiel estas. Ni
 devas konsenti al la uzado de l’ vorto en la limigita konteksto de l’ uzantoj de l’ vorto. Se ni
 provas devii el la establiĝita signifo de l’ vorto, ekzemple, se ni hazarde krei novan difinon de l’
 vorto pro kaprico, plej verŝajne ĝi ne estos akceptita. Ni bezonas kredi la difinitajn indikitajn
@@ -82,11 +82,11 @@ Neverland-o.
 
 ### <a name="funkcioj"></a>Funkcioj
 
-Kerna ludanto en lambdokalkulo estas la nocio de funkcio. Plejmulto da ni kutimas pri funkcioj en la
-al altnivelaj programlingvoj, tamen funkcioj en lambdokalkulo iomete malsimilas—ili devas havi plej
-minimume unu parametro. En plejmulto da produkta programlingvoj nune uzataj, oni povas alvoki
+Kerna ludanto en la lambdokalkulo estas la nocio de funkcio. Plejmulto da ni kutimas pri funkcioj en
+la al altnivelaj programlingvoj, tamen funkcioj en la lambdokalkulo iomete malsimilas—ili devas havi
+plej minimume unu parametro. En plejmulto da produkta programlingvoj nune uzataj, oni povas alvoki
 funkcion kiu ne prenas argumenton. Ili estas kutime por kromefikoj. Tamen, per lamdokalkulo, apenaŭa
-minimuma de unu argumento estas devigita. Jen minimuna funkcio en lambdokalkulo aspektas:
+minimuma de unu argumento estas devigita. Jen minimuna funkcio en la lambdokalkulo aspektas:
 
 ```scheme
 λx.x
@@ -217,8 +217,8 @@ Ekvivalentas al:
 
 ### <a name="komenco"></a>Komenco
 
-Pro preskaŭ ĉio en lambdokalkulo estas esprimita kiel funkcioj, ĝia opinio pri nombroj
-unikas. Asertebl, la plej grava nombro en lambdokalkulo estas nul (0), kiu estas esprimita kiel:
+Pro preskaŭ ĉio en la lambdokalkulo estas esprimita kiel funkcioj, ĝia opinio pri nombroj
+unikas. Asertebl, la plej grava nombro en la lambdokalkulo estas nul (0), kiu estas esprimita kiel:
 
 ```scheme
 (λsz.z)
@@ -338,7 +338,7 @@ Ni elprovu tion:
 ≡ 6
 ```
 
-Multipliki du nombrojn en lambdokalkulo estas tiel facila kaj simpla. Tamen, antaŭ daŭri al pli
+Multipliki du nombrojn en la lambdokalkulo estas tiel facila kaj simpla. Tamen, antaŭ daŭri al pli
 aritmetikaj funkcioj, ni unue traktu verecajn valorojn kaj kondiĉaĵojn, kiuj estas antaŭkondiĉoj en
 lerni la aliajn funkciojn.
 
@@ -348,7 +348,7 @@ lerni la aliajn funkciojn.
 
 ### <a name="buleaj"></a>Buleaj
 
-La prezento de vreco kaj malvereco en lambdokalkulo mallongas kaj elegantas:
+La prezento de vreco kaj malvereco en la lambdokalkulo mallongas kaj elegantas:
 
 ```scheme
 T ≡ (λxy.x)
@@ -431,7 +431,7 @@ Por elekti la unuan kaj duan erojn de duo, oni uzas `T` kaj `F`:
 ```
 
 Oni bezonas funkcion kiu ricevas duon kaj kreas novan duon, en kiu, la unua ero estas la postanto de
-la dua ero:
+l’ dua ero:
 
 ```scheme
 Nomo: Q
