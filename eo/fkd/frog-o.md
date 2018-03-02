@@ -9,7 +9,7 @@ Blogi Frog-e
 >―E.M. FORSTER
 
 Kiam eldoni blogan enhavon al la TTT, la plejmulto de homoj kondifus antaŭkreitajn servojn, kiuj
-faras la grandparton de la laboro. Tamen, ekzistas okazoj kiam oni volas havi pli da rego sur siaj
+faras la grandparton de l’ laboro. Tamen, ekzistas okazoj kiam oni volas havi pli da rego sur siaj
 aĵoj. Bona ekzemplo de tio, estas la limigoj, kiujn provizantoj efikigas. Alia afero estas la ĉeesto
 de reklamoj aŭ la uzado de [parte senpagaj](https://en.wikipedia.org/wiki/Freemium) servoj—komence
 liberaj servoj, tiam mono bezonatas por aldonaj servoj.
@@ -41,15 +41,15 @@ Enhavotabelo
 <a name="superrigardo"></a>Superrigardo
 ---------------------------------------
 
-Kiam mi trovadis ilojn por krei ĉi tiun blogon, mi malkontentiĝis pri la plejmulto de la famaj
+Kiam mi trovadis ilojn por krei ĉi tiun blogon, mi malkontentiĝis pri l’ plejmulto de l’ famaj
 opcioj. Iuj estas tro malfacilaj por agordi; iuj malhavas kapablojn. Mi frustriĝis pro ĉiu fino
-de la spektro devigas min por uzi ion, kiu estas tro mezkvalita en almenaŭ unu kritika
+de l’ spektro devigas min por uzi ion, kiu estas tro mezkvalita en almenaŭ unu kritika
 aspekto. Bonŝance, mi trovis je [Frog](https://github.com/greghendershott/frog) pro propono en
 [#racket](https://kiwiirc.com/client/irc.freenode.net/#racket).
 
 Frog-o en laikoterminoj, estas retejokreilo, kiu estas tiel facila por uzi, agordi, kaj tajlori. Kio
 ajn oni skribas aperos sur ĝi kiel si anticipas. Nek ekzistas bizaraj kondiĉoj de uzado, nek
-arbitraj limigoj, nek trudoj—estas tre proksima al tuta rego, en la pinto de la fingropintoj.
+arbitraj limigoj, nek trudoj—estas tre proksima al tuta rego, en la pinto de l’ fingropintoj.
 
 Frog-o operacias ie en la mezo de jena spektro:
 
@@ -146,7 +146,7 @@ will prevent the post from being published._
 ```
 
 Tenu en la kalkulo, ke ĉi tiu dosiero, estas kreita por oni per la komando `raco frog -n ...`.  La
-unuaj tri linioj enhavas la metadatumojn pri la afiŝo. Ili estas la afiŝotitolo, estigdato, kaj
+unuaj tri linioj enhavas la metadatumojn pri l’ afiŝo. Ili estas la afiŝotitolo, estigdato, kaj
 etikedoj, respektive. La dato estis elektita el la `-n`-a ŝaltilo, kiu estas proklamita antaŭe. La
 `Tags`-aj kampoj, enhavas diskomajn listojn de vortoj, kiuj Frog poste priidentigus la afiŝon. Kiam
 la usklecodistinga etikedo `DRAFT` estas uzata, la dosiero estos pretersalita dum la kunmetfazo.
@@ -154,7 +154,7 @@ la usklecodistinga etikedo `DRAFT` estas uzata, la dosiero estos pretersalita du
 Kvar spacetoj devas esti prefiksitaj antaŭ tiuj tri linioj, sekvita de malplena linio. La resto
 estos la efektiva artikola enhavo, en la Markdown-a formato. Kiam linio per si mem enhavas nur la
 tekston `<!‑‑ more ‑‑>`, tiu linio estos anstataŭigita per hiperligilo en la fina HTML-a formo, kiu
-estos montranta al la resto de la artikolo. Signifas, ĉiuj teksto, post la `<!‑‑ more ‑‑>` linio
+estos montranta al la resto de l’ artikolo. Signifas, ĉiuj teksto, post la `<!‑‑ more ‑‑>` linio
 ne aperos en la bloga indekso, sed aperos en la ligilo por la tutafiŝo.
 
 Ni supozu, ke oni ŝanĝas tiun dosieron por aspekti kiel io la jena:
@@ -195,7 +195,7 @@ Tiam, rekunmetu la dosierojn:
 
 Ĉi-foje eble oni jam tre volas tajlori la retejon. Jes, tio estas, kion oni faros en ĉi tiu sekcio.
 
-Ĉe la baznivelo, ekzistas tri dosieroj kiujn oni ŝanĝos por fari la komencajn ŝanĝojn:
+Ĉe l’ baznivelo, ekzistas tri dosieroj kiujn oni ŝanĝos por fari la komencajn ŝanĝojn:
 
 - `.frogrc`
 - `_src/page-template.html`
@@ -203,7 +203,7 @@ Tiam, rekunmetu la dosierojn:
 - `css/bootstrap.css`
 - `css/bootstrap.min.css`
 
-Ni pli proksimu esploru ĉiun de la dosieroj de la listo.
+Ni pli proksimu esploru ĉiun de l’ dosieroj de l’ listo.
 
 
 ### <a name=".frogrc"></a>.frogrc
@@ -221,7 +221,7 @@ tri parametroj:
 - `author`
 
 `scheme/host` devas enhavi la (sub)domajno al tiu, kiu oni eldonos sian verkon poste. `title` estas
-la nomo de la blogo. `author` estas la nomo de verkanto.
+la nomo de l’ blogo. `author` estas la nomo de verkanto.
 
 
 ### <a name="page-template.html"></a>page-template.html
@@ -252,7 +252,7 @@ afiŝoj. Eble, ĉi tiu estas la plej facila dosiero por. Ni malfermu ĝin.
     $ emacs _src/post-template.html
 
 Intertempe, oni nur bezonas ŝanĝi la tekston `shortname`. Estas la identigilo kiu ligilas la
-komentajn sekciojn de la blogaj afiŝoj al Disqus-a konto. Pli da informo pri ĉi tiu estos diskutita
+komentajn sekciojn de l’ blogaj afiŝoj al Disqus-a konto. Pli da informo pri ĉi tiu estos diskutita
 en la sekcio _Komentoj_.
 
 
@@ -304,7 +304,7 @@ will prevent the post from being published.
 ```
 
 Ni povas vidi, ke la Markdown-aj kaj Scribble-aj dosieroj estas plejparte similaj, krom la aldono de
-la lingva precizigilo, `#lang scribble/manual`, kaj la manko de la prefiksaj spacetoj por la
+la lingva precizigilo, `#lang scribble/manual`, kaj la manko de l’ prefiksaj spacetoj por la
 metadatumaj kampoj.
 
 
@@ -328,7 +328,7 @@ Por importi komentojn de ekzistanta blogo al Disqus, iru al <https://import.disq
 <a name="eldono"></a>Eldono
 ---------------------------
 
-Por eldoni la verkon, alŝuti la enhavojn de la dosierujo kiun Frog-o mastrumas al la defora
+Por eldoni la verkon, alŝuti la enhavojn de l’ dosierujo kiun Frog-o mastrumas al la defora
 servilo. En ĉi tiu gvidilo, estas la dosierujo `/home/ogag/blog`. Se la nuna dosierujo estas
 `blog/`, kaj oni volas sendi la dosierojn per rsync, la komando aspektus kiel:
 
