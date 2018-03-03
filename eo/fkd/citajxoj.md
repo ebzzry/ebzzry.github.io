@@ -657,3 +657,7 @@ tra l’ jarojn.
 
 - Funkcias informo per esti ĉiam moviĝas.<br>
   ―Lain IWAKURA, Serial Experiments Lain
+
+
+- Homo kiu scias kvar lingvojn valoras kvar homojn.<br>
+  ―Karlo la 5-a, Sankta Romia Imperio
