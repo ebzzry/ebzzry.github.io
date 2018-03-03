@@ -1,7 +1,7 @@
 Retrospekte
 ===========
 
-<center>[Esperante](#)  [English](/en/retrospect)</center>
+<center>[Esperante](#) · [English](/en/retrospect)</center>
 <center>la 8-an de Februaro 2018</center>
 <center>Laste ŝanĝita: la 11-an de Februaro 2018</center>
 

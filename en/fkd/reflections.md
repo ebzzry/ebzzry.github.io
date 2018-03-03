@@ -1,7 +1,7 @@
 Reflections
 ===========
 
-<center>[Esperanto](/eo/pripensoj)  [English](#)</center>
+<center>[Esperanto](/eo/pripensoj) · [English](#)</center>
 <center>November 24, 2015</center>
 <center>Updated: February 21, 2018</center>
 

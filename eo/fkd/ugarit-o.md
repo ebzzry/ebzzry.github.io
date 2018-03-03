@@ -1,7 +1,7 @@
 Krei Sekurkopiojn Ugarit-e
 ==========================
 
-<center>[Esperante](#)  [English](/en/ugarit)</center>
+<center>[Esperante](#) · [English](/en/ugarit)</center>
 <center>la 18-an de Februaro 2018</center>
 <center>Laste ŝanĝita: la 19-an de Februaro 2018</center>
 

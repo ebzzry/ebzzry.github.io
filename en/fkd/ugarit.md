@@ -1,7 +1,7 @@
 Creating Backups with Ugarit
 ============================
 
-<center>[Esperante](#/eo/ugarit-o)  [English](#)</center>
+<center>[Esperante](#/eo/ugarit-o) · [English](#)</center>
 <center>February 21, 2014</center>
 <center>Updated: Februaro 19, 2018</center>
 

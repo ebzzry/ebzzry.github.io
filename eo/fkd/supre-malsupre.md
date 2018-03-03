@@ -1,7 +1,7 @@
 Supre, Malsupre, kaj Aliloke
 ============================
 
-<center>[Esperante](#)  [English](/en/over-under)</center>
+<center>[Esperante](#) · [English](/en/over-under)</center>
 <center>la 2-an de Decembro 2017</center>
 <center>Laste ŝanĝita: la 11-an de Februaro 2018</center>
 

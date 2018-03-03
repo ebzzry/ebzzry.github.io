@@ -1,7 +1,7 @@
 Agordi Rakidprogramadon Emakse
 ==============================
 
-<center>[Esperante](#)  [English](/en/emacs-racket)</center>
+<center>[Esperante](#) · [English](/en/emacs-racket)</center>
 <center>la 13-an de Februaro 2018</center>
 <center>Laste ŝanĝita: la 13-an de Februaro 2018</center>
 

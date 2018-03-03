@@ -1,7 +1,7 @@
 Agordi je GPG kaj je SSH en KDE-o
 =================================
 
-<center>[Esperante](#)  [English](/en/gsk)</center>
+<center>[Esperante](#) · [English](/en/gsk)</center>
 <center>la 19-an de Februaro 2018</center>
 <center>Laste ŝanĝita: la 20-an de Februaro 2018</center>
 

@@ -1,7 +1,7 @@
 Migri de LiveJournal al Frog-o
 ==============================
 
-<center>[Esperante](#)  [English](/en/livefrog)</center>
+<center>[Esperante](#) · [English](/en/livefrog)</center>
 <center>la 7-an de Februaro 2018</center>
 <center>Laste ŝanĝita: la 11-an de Februaro 2018</center>
 

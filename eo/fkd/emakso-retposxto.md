@@ -1,7 +1,7 @@
 Agordi Retpoŝton Emakse
 =======================
 
-<center>[Esperante](#)  [English](/en/emacs-mail)</center>
+<center>[Esperante](#) · [English](/en/emacs-mail)</center>
 <center>la 14-an de Februaro 2018</center>
 <center>Laste ŝanĝita: la 14-an de Februaro 2018</center>
 

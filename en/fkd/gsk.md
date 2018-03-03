@@ -1,7 +1,7 @@
 Setting Up GPG and SSH in KDE
 =============================
 
-<center>[Esperante](/eo/gsk)  [English](#)</center>
+<center>[Esperante](/eo/gsk) · [English](#)</center>
 <center>September 17, 2014</center>
 <center>Updated: February 20, 2018</center>
 
