@@ -1,7 +1,7 @@
 Mastrumi Dosierujojn Emakse
 ===========================
 
-<center>[Esperante](#)  [English](/en/emacs-dired)</center>
+<center>[Esperante](#) · [English](/en/emacs-dired)</center>
 <center>la 12-an de Februaro 2018</center>
 <center>Laste ŝanĝita: la 12-an de Februaro 2018</center>
 

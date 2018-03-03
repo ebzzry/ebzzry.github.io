@@ -1,7 +1,7 @@
 Pripensoj
 =========
 
-<center>[Esperante](#)  [English](/en/reflections)</center>
+<center>[Esperante](#) · [English](/en/reflections)</center>
 <center>la 3-an de Novembro 2017</center>
 <center>Laste ŝanĝita: la 21-an de Februaro 2018</center>
 
