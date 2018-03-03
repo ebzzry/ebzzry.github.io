@@ -67,7 +67,7 @@ ruleset. Think of it as defining new terms in play, and giving them meaning. The
 these meanings live are important. For example, for the gardener the hose is used to water the
 plants, while for the fireman, the hose is used to put out the fire. When the gardener, or the
 fireman grabs the hose, he will not question what is that he is holding, and what is its purpose. He
-simply believes in his faith of intuition, to determine the meaning of the hose at the time he
+simply believes in his intuition, to determine the meaning of the hose at the time he
 grabbed it.
 
 In English, the word __“high”__ has several meanings. But for all the defined meanings of the word,
@@ -112,10 +112,7 @@ above is equivalent to:
 
 The Greek letter `λ` denotes that the surrounding context is a function—or something that can be
 applied or used. The `λ` symbol is used instead of another symbol because of a typesetting issue
-that is
-discussed
-[here](https://goo.gl/vxMkW4). So, don’t
-fret too much about, just use it.
+that is discussed [here](https://goo.gl/vxMkW4). So, don’t fret too much about, just use it.
 
 What comes next after the `λ` symbol, before the `.`, is the parameter. Technically, it can be any
 symbol. It simply means the name that can be used when applying that function, to refer to its
@@ -279,9 +276,8 @@ Let’s break it down:
 
 ### <a name="addition"></a> Addition
 
-What if you wanted to perform `2+3`? Fortunately, the successor function can do that for you. You
-express that as `2S3`, where you replace `+` as the infix operator. The addition function is defined
-as:
+What if you wanted to perform `2+3`? Fortunately, the successor function can do that. You express
+that as `2S3`, where you replace `+` as the infix operator. The addition function is defined as:
 
 ```scheme
 Name: A
