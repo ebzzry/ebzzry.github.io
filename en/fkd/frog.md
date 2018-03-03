@@ -1,7 +1,7 @@
 Blogging with Frog
 ==================
 
-<center>[Esperante](/eo/frog-o)  [English](#)</center>
+<center>[Esperante](/eo/frog-o) · [English](#)</center>
 <center>February 19, 2014</center>
 <center>Updated: February 18, 2018</center>
 

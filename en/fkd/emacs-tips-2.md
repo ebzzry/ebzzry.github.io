@@ -1,7 +1,7 @@
 Emacs Tips and Tricks 2: Sessions and Packages
 ==============================================
 
-<center>[Esperante](/eo/emakskonsiletoj-2-a)  [English](#)</center>
+<center>[Esperante](/eo/emakskonsiletoj-2-a) · [English](#)</center>
 <center>June 12, 2015</center>
 <center>Updated: February 21, 2018</center>
 

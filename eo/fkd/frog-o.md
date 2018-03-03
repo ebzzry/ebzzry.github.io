@@ -1,7 +1,7 @@
 Blogi Frog-e
 ============
 
-<center>[Esperante](#)  [English](/en/frog)</center>
+<center>[Esperante](#) · [English](/en/frog)</center>
 <center>la 16-an de Februaro 2018</center>
 <center>Laste ŝanĝita: la 18-an de Februaro 2018</center>
 
