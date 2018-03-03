@@ -666,3 +666,7 @@ the years.
 
 - Information functions by being always in motion.<br>
   ―Lain Iwakura, Serial Experiments Lain
+
+
+- A man who knows four languages is worth four men.<br>
+  ―Charles V, Holy Roman Emperor
