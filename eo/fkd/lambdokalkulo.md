@@ -484,7 +484,7 @@ P1
 
 ### <a name="subtraho"></a>Subtraho
 
-Nu, nun ke vi havas sa antaŭantan funkcion, oni nun povas konstrui la subtrahan funkcion.
+Nu, nun ke oni havas sa antaŭantan funkcion, oni nun povas konstrui la subtrahan funkcion.
 
 ```scheme
 B ≡ (λxy.yPx)
@@ -507,7 +507,7 @@ B11
 <a name="finrimarkoj"></a>Finrimarkoj
 -------------------------------------
 
-Oni simple ungogratis la tegon de l’ lambdokalkulo, tamen oni ĵus spektis ĝia vastegan espriman
+Oni simple ungogratis la tegon de l’ lambdokalkulo, tamen oni ĵus spektis ĝian vastegan espriman
 potencon, konsidere al kiel minimuna la sistemo difinitas.
 
 
