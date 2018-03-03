@@ -1,7 +1,7 @@
 Emakskonsiletoj 2-a: Seancoj kaj Pakoj
 ======================================
 
-<center>[Esperante](#)  [English](/en/emacs-tips-2)</center>
+<center>[Esperante](#) · [English](/en/emacs-tips-2)</center>
 <center>la 20-an de Februaro 2018</center>
 <center>Laste ŝanĝita: la 21-an de Februaro 2018</center>
 

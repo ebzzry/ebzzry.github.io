@@ -1,7 +1,7 @@
 Pensoj de Pedanta Primato
 =========================
 
-<center>[Esperante](#)  [English](/en/)</center>
+<center>[Esperante](#) · [English](/en/)</center>
 <center>la 27-an de Aprilo 2017</center>
 <center>Laste ŝanĝita: la 2-an de Marto 2018</center>
 

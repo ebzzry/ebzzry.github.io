@@ -1,7 +1,7 @@
 Aboco de l’ Lambdokalkulo
 =========================
 
-<center>[Esperante](#)  [English](/en/lambda-calculus)</center>
+<center>[Esperante](#) · [English](/en/lambda-calculus)</center>
 <center>la 21-an de Februaro 2018</center>
 <center>Laste ŝanĝita: la 3-an de Marto 2018</center>
 
@@ -507,7 +507,7 @@ B11
 <a name="finrimarkoj"></a>Finrimarkoj
 -------------------------------------
 
-Oni simple ungogratis la tegon de l’mbdokalkulo, tamen oni ĵus spektis ĝia vastegan espriman
+Oni simple ungogratis la tegon de l’ lambdokalkulo, tamen oni ĵus spektis ĝia vastegan espriman
 potencon, konsidere al kiel minimuna la sistemo difinitas.
 
 
