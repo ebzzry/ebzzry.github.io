@@ -3,10 +3,15 @@ Quotes
 
 <center>[Esperanto](/eo/citajxoj) · [English](#)</center>
 <center>August 29, 2015</center>
-<center>Updated: February 21, 2018</center>
+<center>Updated: March 6, 2018</center>
 
 This page contains a list of curated quotations, aphorisms, and proverbs that I have collected over
 the years.
+
+
+- Always believe you are right, unless convinced you are wrong.<br>
+  ―Roque F. Martinez
+
 
 - The aspects you are willing to ignore are more important than the aspects you are willing to
   accept.<br>
@@ -670,3 +675,11 @@ the years.
 
 - A man who knows four languages is worth four men.<br>
   ―Charles V, Holy Roman Emperor
+
+
+- The great enemy of communication, we find, is the illusion of it.<br>
+  ―William H. Whyte
+
+
+- A woman who knows a man who knows four languages, is worth five men.<br>
+  ―Jeanne Marie G. Ciño
