@@ -3,10 +3,15 @@ Citaĵoj
 
 <center>[Esperante](#) · [English](/en/quotes)</center>
 <center>la 15-an de Novembro 2017</center>
-<center>Laste ŝanĝita: la 21-an de Februaro 2018</center>
+<center>Laste ŝanĝita: la 6-an de Marto 2018</center>
 
 Ĉi tiu paĝo enhavas liston de atenteme elektitaj citaĵoj, aforismoj, kaj sentencoj kiujn mi kolektis
 tra l’ jarojn.
+
+
+- Ĉiam kredu ke vi pravas, krom se vi konvikiĝis malprava.<br>
+  ―Roque F. MARTINEZ
+
 
 - La aferoj kiujn oni volas malakcepti estas pli gravaj ol la aferoj kiujn oni volas akcepti.<br>
   ―Erik NAGGUM
@@ -661,3 +666,11 @@ tra l’ jarojn.
 
 - Homo kiu scias kvar lingvojn valoras kvar homojn.<br>
   ―Karlo la 5-a, Sankta Romia Imperio
+
+
+- Oni trovas, ke granda malamiko de komunikado estas la iluzio de ĝi.<br>
+  ―William H. WHYTE
+
+
+- Virino kiu scias viron kiu scias kvar lingvojn, valoras kvin homojn.<br>
+  ―Jeanne Marie CIÑO
