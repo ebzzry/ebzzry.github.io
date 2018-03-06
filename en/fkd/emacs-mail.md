@@ -3,7 +3,7 @@ Setting Up Mail in Emacs
 
 <center>[Esperante](/eo/emakso-retposxto) · [English](#)</center>
 <div class="center">February 2, 2014</div>
-<div class="center">Updated: February 14, 2018</div>
+<div class="center">Last updated: February 14, 2018</div>
 
 >Just because it isn’t done doesn’t mean it can’t be done. Just because it can be done doesn’t mean
 >it should be.<br>

@@ -3,7 +3,7 @@ About
 
 <center>[Esperante](/eo/pri) · [English](#)</center>
 <center>March 27, 2017</center>
-<center>Updated: February 21, 2018</center>
+<center>Last updated: February 21, 2018</center>
 
 <img style="margin-right: 0.5em; margin-bottom: 0.5em;" src="/bildoj/identicon.png" alt="Ve!" title="Ve!" align="left" />
 

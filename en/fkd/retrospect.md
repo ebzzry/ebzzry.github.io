@@ -3,7 +3,7 @@ In Retrospect
 
 <center>[Esperante](/eo/retrospekte) · [English](#)</center>
 <div class="center">July 11, 2013</div>
-<div class="center">Updated: Februray 8, 2018</div>
+<div class="center">Last updated: Februray 8, 2018</div>
 
 >Out of life's school of war: What does not destroy me, makes me stronger.<br>
 >―Friedrich Nietzsche

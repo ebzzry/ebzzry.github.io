@@ -3,7 +3,7 @@ Reflections
 
 <center>[Esperanto](/eo/pripensoj) · [English](#)</center>
 <center>November 24, 2015</center>
-<center>Updated: March 6, 2018</center>
+<center>Last updated: March 6, 2018</center>
 
 This page contains contains some of my personal reflections.
 

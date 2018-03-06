@@ -3,7 +3,7 @@ Creating Backups with Ugarit
 
 <center>[Esperante](#/eo/ugarit-o) · [English](#)</center>
 <center>February 21, 2014</center>
-<center>Updated: Februaro 19, 2018</center>
+<center>Last updated: Februaro 19, 2018</center>
 
 >Good judgement comes from experience, and experience comes from bad judgement.<br>
 >―Fred Brooks
