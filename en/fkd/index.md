@@ -3,7 +3,7 @@ Musings of a Pedantic Primate
 
 <center>[Esperanto](/eo/) · [English](#)</center>
 <center>August 15, 2015</center>
-<center>Updated: November 16, 2017</center>
+<center>Last updated: November 16, 2017</center>
 
 <img src="/bildoj/kafofaboj.jpg" class="banner" alt="kafofaboj" />
 

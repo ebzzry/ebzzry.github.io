@@ -2,7 +2,7 @@ Zsh Tips 3: Chroot Helpers
 ==========================
 
 <div class="center">October 20, 2017</div>
-<div class="center">Updated: October 21, 2017</div>
+<div class="center">Last updated: October 21, 2017</div>
 
 >We laugh at that which we cannot bear to face.<br>
 >―Aristotle
