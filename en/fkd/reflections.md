@@ -3,7 +3,7 @@ Reflections
 
 <center>[Esperanto](/eo/pripensoj) · [English](#)</center>
 <center>November 24, 2015</center>
-<center>Updated: February 21, 2018</center>
+<center>Updated: March 6, 2018</center>
 
 This page contains contains some of my personal reflections.
 
@@ -225,3 +225,7 @@ Entries are sorted in chronological order.
 - The definition of life is blurry—a black hole is as alive as a bacteria. The attributes of live
   which we have given to it, strongly depends on our relationship to the life forms that we are
   acquainted with.<br>
+
+
+- I speak Ilocano to my parents, Filipino to my countrymen, English to my associates, Esperanto to
+  my friends, and Lisp to my computer.<br>
