@@ -3,7 +3,7 @@ Over, Under, and Elsewhere
 
 <center>[Esperanto](/eo/supre-malsupre) · [English](#)</center>
 <div class="center">May 9, 2013</div>
-<div class="center">Updated: December 6, 2017</div>
+<div class="center">Last updated: December 6, 2017</div>
 
 >The only limits you have are the limits you believe.<br>
 >―Wayne Dyer

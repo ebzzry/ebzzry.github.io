@@ -3,7 +3,7 @@ Migrating from LiveJournal to Frog
 
 <center>[Esperante](/eo/frog) · [English](#)</center>
 <div class="center">May 29, 2013</div>
-<div class="center">Updated: February 8, 2018</div>
+<div class="center">Last updated: February 8, 2018</div>
 
 >I don’t know where I’m going, but I’m on my way.<br>
 >―Carl Sagan

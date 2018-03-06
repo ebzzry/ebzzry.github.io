@@ -2,7 +2,7 @@ Division in Haskell
 ===================
 
 <div class="center">March 8, 2017</div>
-<div class="center">Updated: March 27, 2017</div>
+<div class="center">Last updated: March 27, 2017</div>
 
 While learning about division in Haskell, I realized that the concept is not as trivial as I
 initially wanted it to be. There are subtle differences between the functions that can easily trip

@@ -2,7 +2,7 @@ Converting Markdown to HTML with emem
 =====================================
 
 <div class="center">March 12, 2017</div>
-<div class="center">Updated: October 18, 2017</div>
+<div class="center">Last updated: October 18, 2017</div>
 
 >The answers you seek you will never find until you stop looking outside and start looking for them
 >within yourself.<br>
