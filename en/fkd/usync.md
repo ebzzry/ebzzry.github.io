@@ -3,7 +3,7 @@ Synchronizing Sites with Usync
 
 <center>[Esperante](/eo/usync-o) · [English](#)</center>
 <div class="center">May 21, 2013</div>
-<div class="center">Updated: February 11, 2018</div>
+<div class="center">Last updated: February 11, 2018</div>
 
 >What I cannot create, I do not understand.<br>
 >―Richard P. Feynman

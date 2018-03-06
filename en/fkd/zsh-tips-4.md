@@ -2,7 +2,7 @@ Zsh Tips 4: General Helpers
 ===========================
 
 <div class="center">October 30, 2017</div>
-<div class="center">Updated: November 9, 2017</div>
+<div class="center">Last updated: November 9, 2017</div>
 
 >A change in perspective is worth 80 IQ points.<br>
 >―Alan Kay

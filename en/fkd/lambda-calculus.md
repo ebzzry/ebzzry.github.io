@@ -3,7 +3,7 @@ A Lambda Calculus Primer
 
 <center>[Esperante](/eo/lambdokalkulo) · [English](#)</center>
 <center>June 12, 2015</center>
-<center>Updated: March 3, 2018</center>
+<center>Last updated: March 3, 2018</center>
 
 >You do not really understand something unless you can explain it to your grandmother.<br>
 >―Albert Einstein

@@ -3,7 +3,7 @@ The Y Combinator in Six Steps
 
 <center>[Esperanto](/eo/ipsilono) · [English](#)</center>
 <div class="center">May 9, 2013</div>
-<div class="center">Updated: December 1, 2017</div>
+<div class="center">Last updated: December 1, 2017</div>
 
 >First, decide. And then do it. It’s the only way to achieve anything.<br>
 >―Lacus Clyne, Gundam SEED Destiny
