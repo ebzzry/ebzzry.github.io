@@ -6,7 +6,7 @@
 [Hejmo](/eo) · [Pri](/eo/pri) · [Citaĵoj](/eo/citajxoj) · [Pripensoj](/eo/pripensoj) · [Fonto](https://github.com/ebzzry/ebzzry.github.io)
 </div>
 <div class="text-x-small">
-Kreitas per [emem](https://github.com/ebzzry/emem)
+Kreitis per [emem](https://github.com/ebzzry/emem)
 </div>
 
 <div class="text-x-small">
