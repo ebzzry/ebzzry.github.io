@@ -3,7 +3,7 @@ Pripensoj
 
 <center>[Esperante](#) · [English](/en/reflections)</center>
 <center>la 3-an de Novembro 2017</center>
-<center>Laste ŝanĝita: la 21-an de Februaro 2018</center>
+<center>Laste ŝanĝita: la 6-an de Marto 2018</center>
 
 Ĉi tiu paĝo enhavas kelke da miaj propraj pripensoj.
 
@@ -215,8 +215,12 @@ Enskriboj ordigatas laŭ kronologiordo.
 
 
 - La plej gravaj aferoj kiujn oni devas pripensi, kiam krei kosmon el nulo, estas la komencaj
-  kondiĉoj. Ĉio dependas dependas de tio.<br>
+  kondiĉoj. Ĉio dependas de tio.<br>
 
 
 - Malklaras la difino de vivo—nigra truo estas kiel viva tiel bakterio. La atributoj de vivo kiujn ni
   donintaj al ĝi ege dependas al nia rilato al la vivaĵojn kiujn ni konas.<br>
+
+
+- Mi parolas la Ilokan al miaj gepatroj, la Filipinan al miaj kamparanoj, la Anglan al miaj
+  asocianoj, Esperanton al miaj amikoj, kaj la Lispon al mia komputilo.<br>
