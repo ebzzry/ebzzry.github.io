@@ -3,7 +3,7 @@ Emacs Tips and Tricks 1: Regions and Marks
 
 <center>[Esperante](/eo/emakskonsiletoj-1) · [English](#)</center>
 <div class="center">September 9, 2013</div>
-<div class="center">Updated: February 12, 2018</div>
+<div class="center">Last updated: February 12, 2018</div>
 
 I still have to find a better text editor than [Emacs](https://www.gnu.org/software/emacs/). What
 really makes Emacs shine is its configuration language—Emacs Lisp. Emacs uses it to the point that

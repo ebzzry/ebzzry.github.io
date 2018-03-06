@@ -2,7 +2,7 @@ A Brief Git and GitHub Tour
 ===========================
 
 <div class="center">August 29, 2015</div>
-<div class="center">Updated: March 31, 2017</div>
+<div class="center">Last updated: March 31, 2017</div>
 
 >Know how to solve every problem that has been solved.<br>
 >―Richard P. Feynman

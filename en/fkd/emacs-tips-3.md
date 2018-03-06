@@ -2,7 +2,7 @@ Emacs Tips and Tricks: Insert and Delete
 ========================================
 
 <div class="center">April 1, 2017</div>
-<div class="center">Updated: December 13, 2017</div>
+<div class="center">Last updated: December 13, 2017</div>
 
 This is the continuation of my series on Emacs tips and tricks. In this article, we explore string
 insertion, and line deletion, marking, and yanking.

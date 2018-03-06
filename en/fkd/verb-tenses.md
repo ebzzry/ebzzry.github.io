@@ -2,7 +2,7 @@ Verb Tenses in English
 ======================
 
 <div class="center">April 6, 2016</div>
-<div class="center">Updated: March 31, 2017</div>
+<div class="center">Last updated: March 31, 2017</div>
 
 >The difference between ordinary and extraordinary is that little extra.<br>
 >―Jimmy Johnson

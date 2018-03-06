@@ -2,7 +2,7 @@ My Markdown Style Guide
 =======================
 
 <center>April 3, 2017</center>
-<center>Updated: October 21, 2017</center>
+<center>Last updated: October 21, 2017</center>
 
 >The laws that govern circumstances are abolished by new circumstances.<br>
 >―Napoleon Bonaparte

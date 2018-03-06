@@ -2,7 +2,7 @@ Esperanto Affixes
 =================
 
 <center>September 10, 2016</center>
-<center>Updated: November 25, 2017</center>
+<center>Last updated: November 25, 2017</center>
 
 Here is a short listing of the different affixes that Esperanto uses.
 

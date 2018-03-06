@@ -3,7 +3,7 @@ Setting Up Racket Development in Emacs
 
 <center>[Esperante](/eo/emakso-rakido) · [English](#)</center>
 <div class="center">September 29, 2013</div>
-<div class="center">Updated: February 13, 2018</div>
+<div class="center">Last updated: February 13, 2018</div>
 
 >All the good ideas never lie under one hat.<br>
 >―Dale Turner

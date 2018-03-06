@@ -2,7 +2,7 @@ Scripting in Common Lisp
 ========================
 
 <div class="center">July 5, 2017</div>
-<div class="center">Updated: October 24, 2017</div>
+<div class="center">Last updated: October 24, 2017</div>
 
 >The light that burns twice as bright burns half as long.<br>
 >―Dr. Eldon Tyrell, Blade Runner (1982)

@@ -3,7 +3,7 @@ Setting Up GPG and SSH in KDE
 
 <center>[Esperante](/eo/gsk) · [English](#)</center>
 <center>September 17, 2014</center>
-<center>Updated: February 20, 2018</center>
+<center>Last updated: February 20, 2018</center>
 
 >It’s not at all important to get it right the first time. It’s vitally important to get it right
 >the last time.<br>

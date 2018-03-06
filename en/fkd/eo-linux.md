@@ -2,7 +2,7 @@ Esperanto Characters in Linux
 =============================
 
 <div class="center">April 18, 2016</div>
-<div class="center">Updated: March 31, 2017</div>
+<div class="center">Last updated: March 31, 2017</div>
 
 >If you want something you’ve never had, you must be willing to do something you’ve never
 >done.<br>

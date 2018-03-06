@@ -3,7 +3,7 @@ Quotes
 
 <center>[Esperanto](/eo/citajxoj) · [English](#)</center>
 <center>August 29, 2015</center>
-<center>Updated: March 6, 2018</center>
+<center>Last updated: March 6, 2018</center>
 
 This page contains a list of curated quotations, aphorisms, and proverbs that I have collected over
 the years.
