@@ -229,3 +229,6 @@ Entries are sorted in chronological order.
 
 - I speak Ilocano to my parents, Filipino to my countrymen, English to my associates, Esperanto to
   my friends, and Lisp to my computer.<br>
+
+
+- If life is a big game, it can be surmised that everything some kind of entertainment.<br>

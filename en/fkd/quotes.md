@@ -683,3 +683,7 @@ the years.
 
 - A woman who knows a man who knows four languages, is worth five men.<br>
   ―Jeanne Marie G. Ciño
+
+
+- We have to learn, in Computer Science, to stand on the shoulders of our predecessors, not their toes.<br>
+  ―Dr. Daniel G. Bobrow
