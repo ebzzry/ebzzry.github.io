@@ -210,7 +210,7 @@ Enskriboj ordigatas laŭ kronologiordo.
 - Neniam malestimu fizikajn fortojn.<br>
 
 
-- La kosmo ne havas devon por signifi ion al ni. Ekde l’ komenco de l’ tempo, estis ĉiam ni, kiuj
+- La kosmo ne havas devon por signifi ion al ni. Ekde la komenco de l’ tempo, estis ĉiam ni, kiuj
   volis doni signifon al ĉio.<br>
 
 
@@ -224,3 +224,6 @@ Enskriboj ordigatas laŭ kronologiordo.
 
 - Mi parolas la Ilokan al miaj gepatroj, la Filipinan al miaj kamparanoj, la Anglan al miaj
   asocianoj, Esperanton al miaj amikoj, kaj la Lispon al mia komputilo.<br>
+
+
+- Se la vivo estas granda ludo, povas esti konjektita, ke ĉio estas ia amuzaĵo.<br>

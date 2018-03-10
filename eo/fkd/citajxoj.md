@@ -674,3 +674,7 @@ tra l’ jarojn.
 
 - Virino kiu scias viron kiu scias kvar lingvojn, valoras kvin homojn.<br>
   ―Jeanne Marie CIÑO
+
+
+- Ni devas lerni, en informadiko, por stari sur la ŝultroj de niaj antaŭantoj, anstataŭ iliaj piedfingroj.<br>
+  ―D-ro. Daniel G. BOBROW
