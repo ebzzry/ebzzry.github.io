@@ -3,7 +3,7 @@ Quotes
 
 <center>[Esperanto](/eo/citajxoj) · [English](#)</center>
 <center>August 29, 2015</center>
-<center>Last updated: March 6, 2018</center>
+<center>Last updated: March 13, 2018</center>
 
 This page contains a list of curated quotations, aphorisms, and proverbs that I have collected over
 the years.
@@ -687,3 +687,7 @@ the years.
 
 - We have to learn, in Computer Science, to stand on the shoulders of our predecessors, not their toes.<br>
   ―Dr. Daniel G. Bobrow
+
+
+- The past is just a story we tell ourselves.<br>
+  ―Samantha, Her (2013)
