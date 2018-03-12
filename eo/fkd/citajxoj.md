@@ -3,7 +3,7 @@ Citaĵoj
 
 <center>[Esperante](#) · [English](/en/quotes)</center>
 <center>la 15-an de Novembro 2017</center>
-<center>Laste ŝanĝita: la 6-an de Marto 2018</center>
+<center>Laste ŝanĝita: la 13-an de Marto 2018</center>
 
 Ĉi tiu paĝo enhavas liston de atenteme elektitaj citaĵoj, aforismoj, kaj sentencoj kiujn mi kolektis
 tra l’ jarojn.
@@ -676,5 +676,9 @@ tra l’ jarojn.
   ―Jeanne Marie CIÑO
 
 
-- Ni devas lerni, en informadiko, por stari sur la ŝultroj de niaj antaŭantoj, anstataŭ iliaj piedfingroj.<br>
+- Ni devas lerni, en komputiko, por stari sur la ŝultroj de niaj antaŭantoj, anstataŭ iliaj piedfingroj.<br>
   ―D-ro. Daniel G. BOBROW
+
+
+- La estinteco estas nur rakonto, kiun ni diras al ni mem.<br>
+  ―Samantha, Her (2013)
