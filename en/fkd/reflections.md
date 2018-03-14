@@ -222,7 +222,7 @@ Entries are sorted in chronological order.
   conditions. Everything depends on it.<br>
 
 
-- The definition of life is blurry—a black hole is as alive as a bacteria. The attributes of live
+- The definition of life is blurry—a black hole is as alive as a bacteria. The attributes of life
   which we have given to it, strongly depends on our relationship to the life forms that we are
   acquainted with.<br>
 
@@ -231,4 +231,4 @@ Entries are sorted in chronological order.
   my friends, and Lisp to my computer.<br>
 
 
-- If life is a big game, it can be surmised that everything some kind of entertainment.<br>
+- If life is a big game, it can be surmised that everything is some kind of entertainment.<br>
