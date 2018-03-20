@@ -3,9 +3,9 @@ Agordi je GPG kaj je SSH en KDE-o
 
 <center>[Esperante](#) · [English](/en/gsk)</center>
 <center>la 19-an de Februaro 2018</center>
-<center>Laste ŝanĝita: la 20-an de Februaro 2018</center>
+<center>Laste ŝanĝita: la 20-an de Marto 2018</center>
 
->Ne tute estas grave por prave atingi tion en la unua fojo. Estas vitale grava por atingi tion en la
+>Ne tute estas grave por prave atingi tion en la unua fojo. Estas vitale grava atingi tion en la
 >lasta tempo.<br>
 >―Andrew HUNT kaj David THOMAS
 
@@ -14,7 +14,7 @@ sistemojn. Ekzistas kontrasto inter malfirme adaptita ganto kaj tiu, kiu tre bon
 
 Ĉi tiu mallonga gvidilo traktos la paŝojn kiel fari tion. Por gastigi ĉiujn, mi ankoraŭ diskutos
 kiel instali kaj agordi la bezonatajn komponantojn. Ni uzos je [nano](https://www.nano-editor.org/)
-por ĉi tiu seanco, tamen oni liberas por uzi ian redaktilon.
+por ĉi tiu seanco, tamen oni liberas uzi ian redaktilon.
 
 
 Enhavotabelo

@@ -3,7 +3,7 @@ Migri de LiveJournal al Frog-o
 
 <center>[Esperante](#) · [English](/en/livefrog)</center>
 <center>la 7-an de Februaro 2018</center>
-<center>Laste ŝanĝita: la 11-an de Februaro 2018</center>
+<center>Laste ŝanĝita: la 20-an de Marto 2018</center>
 
 >Mi ne scias kien mi iras, sed mi estas sur mia vojo.<br>
 >―Carl SAGAN
@@ -60,7 +60,7 @@ GitHub:
     $ git clone https://github.com/ebzzry/livefrog.git
     $ raco pkg install frog/ sxml/ livefrog/
 
-La vostaj suprenstrekoj gravas por diri al `raco`, ke oni instalas el lokaj dosierujoj. Elŝutos
+La vostaj suprenstrekoj gravas diri al `raco`, ke oni instalas el lokaj dosierujoj. Elŝutos
 la fontojn de l’ interreto sen tio.
 
 

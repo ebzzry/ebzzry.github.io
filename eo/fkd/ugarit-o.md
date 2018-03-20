@@ -199,7 +199,7 @@ rekte, kuru:
 
 ### <a name="defora"></a>Defora dosiersistemo
 
-Ugarit-o ne limigitas por krei dosierkopiojn de loka dosiersistemo. Ankaŭ povas uzita por krei
+Ugarit-o ne limigitas krei dosierkopiojn de loka dosiersistemo. Ankaŭ povas uzita krei
 dosierkopiojn de arboj de defora gastiganto muntita loke. Se oni ekzemple havas
 [SSHFS-an](https://fuse.sourceforge.net/sshfs.html) surmeton, si ankoraŭ povas krei dosierkopion de
 tiu, same kiel ia alia loka dosiersistemo.
