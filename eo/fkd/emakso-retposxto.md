@@ -91,7 +91,7 @@ received = false
 Anstataŭigu __UZANTNOMO__ per onia Gmail-a uzantnomo, tiam anstataŭigu __PASVORTO__, per onia Gmail-a
 pasvorto. Tamen, se oni uzas [dufazan aŭtentigon](https://www.google.com/landing/2step/), uzu
 [apspecifan](https://accounts.google.com/IssuedAuthSubTokens) pasvorton por la pasvorta kampo. Notu,
-ke `~/Maildir` estas la defaŭlta dosierujo, kiun la retpoŝta transmeta ilo uzos por konservi
+ke `~/Maildir` estas la defaŭlta dosierujo, kiun la retpoŝta transmeta ilo uzos konservi
 datumon.
 
 
@@ -159,7 +159,7 @@ Tiam, aldonu la jenan:
 (require 'mu4e)
 ```
 
-Krome oni bezonas enmeti kelkajn informojn pri onii, por ke, Emakso ne ĝenatas por demandi onin pri tiuj
+Krome oni bezonas enmeti kelkajn informojn pri onii, por ke, Emakso ne ĝenatas demandi onin pri tiuj
 detaloj poste:
 
 ```lisp
