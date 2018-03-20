@@ -3,7 +3,7 @@ Sinkronigi Retnodojn Usync-e
 
 <center>[Esperante](#) · [English](/en/usync)</center>
 <center>la 7-an de Februaro 2018</center>
-<center>Laste ŝanĝita: la 11-an de Februaro 2018</center>
+<center>Laste ŝanĝita: la 20-an de Marto 2018</center>
 
 >Kion mi ne povas krei, mi ne komprenas.<br>
 >―Richard P. FEYNMAN
@@ -52,7 +52,7 @@ Ideale, la rezulto estas `localhost:/pub/yot/ninam/`, `tarupam:/pub/yot/ninam/`,
 <a name="altniveluzado"></a>Altnivela uzado
 -------------------------------------------
 
-Estas ankaŭ ebla por fari sinkronigon de pluraj dosieroj kaj dosierujoj, al mallokaj retnodoj. Por
+Estas ankaŭ ebla fari sinkronigon de pluraj dosieroj kaj dosierujoj, al mallokaj retnodoj. Por
 fari tiel, kuru:
 
     $ usync /pub/yot/ninam/ ~/file.text ~reyn/*.blend tarupam,taubetmo

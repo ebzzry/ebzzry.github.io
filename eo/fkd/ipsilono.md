@@ -3,7 +3,7 @@ La Ipsilonkombinatoro en Ses Paŝoj
 
 <center>[Esperante](#) · [English](/en/y)</center>
 <center>la 25-an de Novembro 2017</center>
-<center>Laste ŝanĝita: la 12-an de Februaro 2018</center>
+<center>Laste ŝanĝita: la 20-an de Marto 2018</center>
 
 >Unue, decidu. Kaj faru ĝin. Estas la nur maniero por atingi ion.<br>
 >―Lacus CLYNE, Gundam SEED Destiny
@@ -190,7 +190,7 @@ proceduro.
 -------------------------------------
 
 Kiam la kernaj konceptoj estas komprenataj, estos facile por kapti la ŝajne malfacilegajn ideojn. Mi
-esperas, ke ĉi tiu artikolo estas utila por fari onin kompreni la ipsilonan kombinatoron,
+esperas, ke ĉi tiu artikolo estas utila fari onin kompreni la ipsilonan kombinatoron,
 funkcivokarigon, kaj proceduran aplikon.
 
 _Dank’ al [Raymund Martinez](https://github.com/zhaqenl) pro l’ korektoj._

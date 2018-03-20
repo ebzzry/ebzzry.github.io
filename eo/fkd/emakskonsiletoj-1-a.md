@@ -3,12 +3,12 @@ Emakskonsiletoj 1-a: Regionoj kaj Markoj
 
 <center>[Esperante](#) · [English](/en/emacs-tips-1)</center>
 <center>la 12-an de Februaro 2018</center>
-<center>Laste ŝanĝita: la 12-an de Februaro 2018</center>
+<center>Laste ŝanĝita: la 20-an de Marto 2018</center>
 
 Mi ankoraŭ bezonas trovi pli bonan redaktilon ol [Emakso](https://www.gnu.org/software/emacs/). Kio
 faras Emakson elstari, estas sia agorda lingvo—Emaksa Lispo. Emakso uzas ĝin al punkto, en kiu,
 plejmulto de l’ funkciado de si mem, realigitas per Emakslispo. En ĉi tiuj serioj, mi priparolos
-la aferojn, kiujn mi malkovris por fari la uzadon de Emakso pli agrabla.
+la aferojn, kiujn mi malkovris fari la uzadon de Emakso pli agrabla.
 
 
 Enhavotabelo
@@ -147,7 +147,7 @@ La klavkombinoj por la supraj komandoj, estas la jenaj:
 <a name="finrimarkoj"></a>Finrimarkoj
 -------------------------------------
 
-Mi esperas, ke vi povos esti kapabla por trovi uzojn de kelkaj de ili. La ceteraj agordoj troveblas
+Mi esperas, ke vi povos esti kapabla trovi uzojn de kelkaj de ili. La ceteraj agordoj troveblas
 [ĉi tie](https://github.com/ebzzry/dotfiles/tree/master/emacs).
 
 _Dank’ al [Raymund Martinez](https://github.com/zhaqenl) pro l’ korektoj._

@@ -3,7 +3,7 @@ Emakskonsiletoj 2-a: Seancoj kaj Pakoj
 
 <center>[Esperante](#) · [English](/en/emacs-tips-2)</center>
 <center>la 20-an de Februaro 2018</center>
-<center>Laste ŝanĝita: la 21-an de Februaro 2018</center>
+<center>Laste ŝanĝita: la 20-an de Marto 2018</center>
 
 Ĉi tiu estas la daŭrigo de l’ serioj pri Emaksaj konsiletoj. En ĉi tiu afiŝo, ni esploras seancan
 mastrumadon, pakojn, krommarĝenojn, kaj aliajn malgrandajn agrablajn aferojn.
@@ -108,7 +108,7 @@ Liveras la agrablan:
 ### <a name="elpa"></a>ELPA
 
 ELPA-o estas la pako-administrila sistemo de Emakso. Se vi ne ankoraŭ uzas la paksistemon, uzu ĝin
-nun. Ĉiuj, kiujn oni bezonas por komenci estas la jena:
+nun. Ĉiuj, kiujn oni bezonas komenci estas la jena:
 
 ```lisp
 (require 'package)

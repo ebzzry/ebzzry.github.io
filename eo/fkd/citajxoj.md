@@ -3,7 +3,7 @@ Citaĵoj
 
 <center>[Esperante](#) · [English](/en/quotes)</center>
 <center>la 15-an de Novembro 2017</center>
-<center>Laste ŝanĝita: la 13-an de Marto 2018</center>
+<center>Laste ŝanĝita: la 20-an de Marto 2018</center>
 
 Ĉi tiu paĝo enhavas liston de atenteme elektitaj citaĵoj, aforismoj, kaj sentencoj kiujn mi kolektis
 tra l’ jarojn.
@@ -60,7 +60,7 @@ tra l’ jarojn.
   ―David MCCULLOUGH
 
 
-- Ne tute estas grave por prave atingi tion en la unua fojo. Estas vitale grava por atingi tion en la
+- Ne tute estas grave por prave atingi tion en la unua fojo. Estas vitale grava atingi tion en la
   lasta tempo.<br>
   ―Andrew HUNT kaj David THOMAS
 
@@ -337,7 +337,7 @@ tra l’ jarojn.
 
 
 - Kiam unu pordo fermiĝas, alia pordo malfermiĝas; sed ni tiel ofte vidas tre longe kaj tiel bedaŭre, je
-  la fermita pordo, do ni ne vidas la aliajn, kiuj malfermiĝs por ni.<br>
+  la fermita pordo, do ni ne vidas la aliajn, kiuj malfermiĝas por ni.<br>
   ―Alexander Graham BELL
 
 
@@ -361,7 +361,7 @@ tra l’ jarojn.
   ―Anthony ROBBINS
 
 
-- Se vi volas ion, kion vi neniam havis, vi devas esti servopreta por fari ion, kiun vi neniam faris.<br>
+- Se vi volas ion, kion vi neniam havis, vi devas esti servopreta fari ion, kiun vi neniam faris.<br>
   ―Thomas JEFFERSON
 
 
@@ -436,11 +436,11 @@ tra l’ jarojn.
   ―Konfuceo
 
 
-- Oni povas eltrovi tion, kion plej timas siajn malamikojn, per rimarki la manierojn kiuj ili uzas por timigi sin.<br>
+- Oni povas eltrovi tion, kion plej timas siajn malamikojn, per rimarki la manierojn kiuj ili uzas timigi sin.<br>
   ―Eric HOFFER
 
 
-- Vi ne trovos la respondojn kiujn vi serĉas ĝis vi haltas serĉi ekster kaj komenciĝas por serĉi ilin el vi mem.<br>
+- Vi ne trovos la respondojn kiujn vi serĉas ĝis vi haltas serĉi ekster kaj komenciĝas serĉi ilin el vi mem.<br>
   ―Memory GATEKEEPER, Ergo Proxy
 
 
@@ -521,7 +521,7 @@ tra l’ jarojn.
   ―Theodore ROOSEVELT
 
 
-- Vi ne devas esti tima por revi iom pli granda, kara.<br>
+- Vi ne devas esti tima revi iom pli granda, kara.<br>
   ―Eames, Inception (2010)
 
 
@@ -530,7 +530,7 @@ tra l’ jarojn.
   ―Dominick Cobb, Inception (2010)
 
 
-- Ironie, ili kiuj ne servopretas por rompi, unue rompos.<br>
+- Ironie, ili kiuj ne servopretas rompi, unue rompos.<br>
   ―MindSmash, Jutubo
 
 
@@ -630,7 +630,7 @@ tra l’ jarojn.
   ―la pupo, Serial Experiments Lain
 
 
-- Racias por vidi je Wired kiel plisupra nivelo de l’ vera mondo. Alidire, fizika efektivaĵo estas
+- Racias vidi je Wired kiel plisupra nivelo de l’ vera mondo. Alidire, fizika efektivaĵo estas
   nenio, sed holografiaĵo de l’ informo, kiu fluas tra l’ Wired.<br>
   ―Miho IWAKURA, Serial Experiments Lain
 

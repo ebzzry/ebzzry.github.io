@@ -3,7 +3,7 @@ Malŝparitaj Malcedemoj
 
 <center>[Esperante](#) · [English](/en/squandered)</center>
 <center>la 5-an de Decembro 2017</center>
-<center>Laste ŝanĝita: la 11-an de Februaro 2018</center>
+<center>Laste ŝanĝita: la 20-an de Marto 2018</center>
 
 >La unua paŝo al iri ien, estas decidi, ke vi ne restos kie vi estas.<br>
 >―J.P. MORGAN
@@ -40,7 +40,7 @@ realaĵo. Kiam la nombro de personoj kiuj alfluas ĉirkaŭ ni, estas sufiĉe alt
 metrikoj, ni malklere infuzas al ni mem kiun ili zumas al ni, kaj tiam ni difektas nin mem kaj sekve
 mortas la esencon de nia individueco.
 
-Kiel prenkreskuloj, ni instruatas por bridi nin mem ene kaĝoj, kiujn ni mem konstruis, kaj estas
+Kiel prenkreskuloj, ni instruatas bridi nin mem ene kaĝoj, kiujn ni mem konstruis, kaj estas
 senkuraĝigaj por vidi ĉi tiun monstran agon disfaldiĝi antaŭ niaj mallongaj vidkampoj ĉiutage. Ni
 tiras nin mem al solaj konfinadoj ne niaj propraj dornaj dormoj. Ni fariĝas ama de prediki dubon al
 niaj uloj. Kaj se nia propra speco faras la samon, ni vidas sentojn de atingo. Tio ne nur estas
@@ -63,10 +63,10 @@ senti pri tio, kio estas antaŭmetata sur la instituciigitaj teleroj, sen la ple
 por apogiĝi ĝis elpensi demandojn.
 
 La socio, kiu ni ĉiuj estas parto de ĝi, estas parto de l’ malsano. Ĉi tiu malsano estas tio, kion
-ni ja helpas por vastigi, el ĝia eko. Ĉi tiu ero estas tio, kion ni ja forte laboras formi niajn
+ni ja helpas vastigi, el ĝia eko. Ĉi tiu ero estas tio, kion ni ja forte laboras formi niajn
 proprajn sencojn de individueco. Ni volis antaŭiĝi, kaj jam ĉio ni faras, estas simple miksiĝi. Kiel
 imponega ĉasisto fariĝas tiel obea, ke li fariĝis la kapto mem? Kial ni forĵetas niajn ĵetlancojn,
-kiam estas kiujn ni havas por doni al ni la kapablon por kontraŭe batali? Niaj sentemoj fordrivis en la
+kiam estas kiujn ni havas doni al ni la kapablon por kontraŭe batali? Niaj sentemoj fordrivis en la
 nigra, profundegaj truegoj, kiuj ni ĉiuj kotizis krei.
 
 Estas indignige al niaj ŝultroj, vidi ke generacioj post generacioj, ni malŝpariĝas kaj kredas, ke
@@ -77,9 +77,9 @@ en bestoĝardenoj, por la plezuro de aliaj? Aŭ ĉu ni akvumis niajn sencojn de 
 mem antaŭiĝi malpli, kaj pli miksiĝi en la homamaso, ege malpliigas niajn distingencojn kiam fore
 aspektata?
 
-Ŝajnas, ke nuntempe, ni malkonsentas por respondi kelkajn demandojn, tamen ni revenĝas al la ideo ke
+Ŝajnas, ke nuntempe, ni malkonsentas respondi kelkajn demandojn, tamen ni revenĝas al la ideo ke
 ni pridemandiĝas de aferoj pensataj kiel pli simpla ol mezlernejaj klasejaj lecionoj. Tamen,
-ekzistas iuj aferoj kiuj komunas al ni, kvankam ne ĉio: ni timemas por vidi kiel socio eble reagas
+ekzistas iuj aferoj kiuj komunas al ni, kvankam ne ĉio: ni timemas vidi kiel socio eble reagas
 al niaj agoj, kiel ajn stultaj aŭ gravaj niaj agoj povas esti. Tamen, pri l’ pli gravaj aferoj, ni
 prete miksiĝi, tial ke ni ne volas malakcepton. Plejparto da ni estas feliĉaj por pensi kaj movi kun
 la grego, sen ia antaŭzorgo.

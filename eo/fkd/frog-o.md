@@ -3,7 +3,7 @@ Blogi Frog-e
 
 <center>[Esperante](#) · [English](/en/frog)</center>
 <center>la 16-an de Februaro 2018</center>
-<center>Laste ŝanĝita: la 18-an de Februaro 2018</center>
+<center>Laste ŝanĝita: la 20-an de Marto 2018</center>
 
 >Unu persono kun ardo estas pli bona ol kvardek personoj nure interesataj.<br>
 >―E.M. FORSTER
@@ -47,7 +47,7 @@ de l’ spektro devigas min por uzi ion, kiu estas tro mezkvalita en almenaŭ un
 aspekto. Bonŝance, mi trovis je [Frog](https://github.com/greghendershott/frog) pro propono en
 [#racket](https://kiwiirc.com/client/irc.freenode.net/#racket).
 
-Frog-o en laikoterminoj, estas retejokreilo, kiu estas tiel facila por uzi, agordi, kaj tajlori. Kio
+Frog-o en laikoterminoj, estas retejokreilo, kiu estas tiel facila uzi, agordi, kaj tajlori. Kio
 ajn oni skribas aperos sur ĝi kiel si anticipas. Nek ekzistas bizaraj kondiĉoj de uzado, nek
 arbitraj limigoj, nek trudoj—estas tre proksima al tuta rego, en la pinto de l’ fingropintoj.
 

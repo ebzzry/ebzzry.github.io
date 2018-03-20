@@ -3,7 +3,7 @@ Retrospekte
 
 <center>[Esperante](#) · [English](/en/retrospect)</center>
 <center>la 8-an de Februaro 2018</center>
-<center>Laste ŝanĝita: la 11-an de Februaro 2018</center>
+<center>Laste ŝanĝita: la 20-an de Marto 2018</center>
 
 >El la militolernejo de l’ vivo: Kion ne detruas min, faras min pli forte.<br>
 >―Friedrich NIETZSCHE
@@ -35,7 +35,7 @@ Mi jam demandis al mi alian gravan demandon. Demando, kiu ultimate liveris sendo
 maltrankvilecon, kaj la neeblecon por tute kompreni la senperan tempon kaj spacon ĉirkaŭ mi.
 _“Ĉu meritis fari tion?”_ Ŝajnis al mi tiutempe, ke kiam ajn mi pripensas tion, mi malfermas la
 skatolon de Pandoro. Kaj iumaniere, mi ĉiam konvinkis min mem por malfermi ĝin, por vidi ĝin mem.
-Me estis tro sciema por scii, kio estis ene, malgraŭ admono el mi. Alia sciema animo, diris lian
+Me estis tro sciema scii, kio estis ene, malgraŭ admono el mi. Alia sciema animo, diris lian
 opinion, avizas min, ke tio estis la malĝusta demando por demandi. Ke, mi devus serĉi la ĝustan
 respondon, per mi mem, kvazaŭ provi trovi mian vojon hejmon.
 
