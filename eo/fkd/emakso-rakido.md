@@ -8,7 +8,7 @@ Agordi Rakidprogramadon Emakse
 >Ĉiom da bonaj ideoj ne kuŝas sub unu ĉapelo.<br>
 >―Dale TURNER
 
-En ĉi tiu afiŝo, mi priparolos la plej facilan alproksimiĝon, kiun mi uzis por agordi
+En ĉi tiu afiŝo, mi priparolos la plej facilan alproksimiĝon, kiun mi uzis agordi
 [Rakidan](https://racket-lang.org) programadan medion Emakse. Notu, ke ĉi tiu ne estas la sola
 aliro—iuj traktis ĝin en aserteble pli bonaj manieroj. En ĉi tiu afiŝo, mi provos klarigi la malpli
 longan vojon, kiun mi vojaĝis.
