@@ -3,7 +3,7 @@ Supre, Malsupre, kaj Aliloke
 
 <center>[Esperante](#) · [English](/en/over-under)</center>
 <center>la 2-an de Decembro 2017</center>
-<center>Laste ŝanĝita: la 11-an de Februaro 2018</center>
+<center>Laste ŝanĝita: la 20-an de Marto 2018</center>
 
 >La nuraj limoj kiujn oni havas, estas la limoj kiujn oni kredas.<br>
 >―Wayne DYER
@@ -35,7 +35,7 @@ niaj desoksiribonukleaj acidoj, kiuj provizas al ni la informon kiu enhavas la k
 faras nin por funkcii; ni devias al niaj cerboj por deponi jam pli da informo. Ĉi tiuj diversaj
 lokoj de informo kiuj estas altaj en larĝeco, kiu nia humila kodo ne plu komencas enhavi.
 
-Bedaŭrinde, ni havas tion, kio en niaj individuaj cerboj ne estas sufiĉa por loĝigi niajn ĉiam
+Bedaŭrinde, ni havas tion, kio en niaj individuaj cerboj ne estas sufiĉa loĝigi niajn ĉiam
 kreskantajn dormon de scio. Ni bezonis trovi manieron por registri ilin ekster niaj korpoj,
 konservata ie, en kiu, ektrakti la datumon estas unu el la plej kritikaj operacioj—ni skribis kaj
 kreis la enskribojn. Ni komencis skribi sur ŝtonoj, muroj, kaj iu ajn ke estus espereble daŭras

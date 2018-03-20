@@ -3,7 +3,7 @@ Aboco de l’ Lambdokalkulo
 
 <center>[Esperante](#) · [English](/en/lambda-calculus)</center>
 <center>la 21-an de Februaro 2018</center>
-<center>Laste ŝanĝita: la 3-an de Marto 2018</center>
+<center>Laste ŝanĝita: la 20-an de Marto 2018</center>
 
 >Oni ne vere komprenas ion krom se oni povas klarigi tion al sia avino.<br>
 >―Alberto EJNŜTEJNO
@@ -60,10 +60,10 @@ lernu ĝin.
 
 ### <a name="fari"></a>Kion oni devas fari?
 
-Kiam diskuti novajn konceptojn, tre gravas por aranĝi la aksiomojn aŭ la komencajn regularojn. Pensu
+Kiam diskuti novajn konceptojn, tre gravas aranĝi la aksiomojn aŭ la komencajn regularojn. Pensu
 ĝin kiel difini novajn terminojn en ludo, kaj doni al ili sencojn. La koncepto, en kiu, ĉi tiuj
-sencoj vivas, tre gravas. Ekzemple, de l’ ĝardenisto la akvokondukilo uzatas por akvi la plantojn,
-dum de l’ fajrobrigadisto, la akvokondukilo uzatas por mortigi la fajron. Kiam la ĝardenisto aŭ la
+sencoj vivas, tre gravas. Ekzemple, de l’ ĝardenisto la akvokondukilo uzatas akvi la plantojn,
+dum de l’ fajrobrigadisto, la akvokondukilo uzatas mortigi la fajron. Kiam la ĝardenisto aŭ la
 fajrobrigadisto tenas la akvokondukilon, ili ne dubas kion ili tenas aŭ kio estas la celumo. Oni simple
 kredas en sia intuo, por precizigi la signifon de l’ akvokondukilo en la tempo ili tenis ĝin.
 
@@ -392,7 +392,7 @@ Ni kontrolu se `¬T` estas jam `F`:
 
 La antaŭanto de nombro difinitas kiel la antaŭa nombro precizigita kiam malantaŭen kalkuli. La motivo
 kial la diskuto pri l’ antaŭanta funkcio faritas aparte estas, ke ne estas intue por lerni ĝin
-komence, ke la scio pri l’ aliaj funckioj gravas por lerni ĝin.
+komence, ke la scio pri l’ aliaj funckioj gravas lerni ĝin.
 
 Ni supozu, ke oni havas duon, io kiel (y, x), en kiu, la unua ero estas unu paŝo supre, aŭ la
 postanto de l’ dua ero. Pro l’ unua ero estas la postanto, signifas ke la dua ero estas la
