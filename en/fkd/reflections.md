@@ -3,7 +3,7 @@ Reflections
 
 <center>[Esperanto](/eo/pripensoj) · [English](#)</center>
 <center>November 24, 2015</center>
-<center>Last updated: March 6, 2018</center>
+<center>Last updated: March 25, 2018</center>
 
 This page contains contains some of my personal reflections.
 
@@ -232,3 +232,12 @@ Entries are sorted in chronological order.
 
 
 - If life is a big game, it can be surmised that everything is some kind of entertainment.<br>
+
+
+- Death by irrelevance is worse than physical death.<br>
+
+
+- The basic element of life is recognition.<br>
+
+
+- The amount of energy needed to refuse is higher than the amount of energy needed to accept.<br>
