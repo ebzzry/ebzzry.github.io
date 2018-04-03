@@ -691,3 +691,7 @@ the years.
 
 - The past is just a story we tell ourselves.<br>
   ―Samantha, Her (2013)
+
+
+- Slow and steady against hard problems.<br>
+  ―Chamath Palihapitiya
