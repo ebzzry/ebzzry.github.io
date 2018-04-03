@@ -682,3 +682,8 @@ tra l’ jarojn.
 
 - La estinteco estas nur rakonto, kiun ni diras al ni mem.<br>
   ―Samantha, Her (2013)
+
+
+- Malrapida kaj neŝanĝiĝema kontraŭ al malfacilaj problemoj.<br>
+  ―Chamath PALIHAPITIYA
+
