@@ -2,7 +2,7 @@ A Gentle Introduction to the Nix Family
 =======================================
 
 <div class="center">March 22, 2017</div>
-<div class="center">Last updated: February 21, 2018</div>
+<div class="center">Last updated: April 4, 2018</div>
 
 >Don’t worry about what anybody else is going to do. The best way to predict the future is to
 >invent it.<br>
@@ -755,7 +755,7 @@ The same. So how can we make use of that flexibility, then? We’ll create a lab
 set, so that we can refer to the ‘extra’ values:
 
 ```nix
-nix-repl> foop = attrs@{ a, b, ...}: a + b + attrs.blah
+nix-repl> foop = attrs@{ a, b, ...}: a + b + attrs.c
 ```
 
 We use it just like before, but with the use of the label:
@@ -1588,4 +1588,4 @@ nix-repl> let y = x: ((f: (x (v: ((f f) v)))) (f: (x (v: ((f f) v))))); b = p: (
 nix-repl>
 ```
 
-_Thanks to [Dave Loyall](https://github.com/daveloyall) for the corrections._
+_Thanks to [Dave Loyall](https://github.com/daveloyall) and [Yekta Leblebici](https://github.com/AranelSurion) for the corrections._
