@@ -163,7 +163,7 @@ Here is a short listing of the different affixes that Esperanto uses.
 - **_-ej-_**: place
   - **lernejo**: school; **banejo**: bathroom; **ludejo**: playground
   - **gastejo**: guest house; **koncertejo**: concert hall
-- **_-em-_**: tending to, inclination, -full
+- **_-em-_**: tending to, inclination, -ful
   - **parolema**: talkative; **ludema**: playful
   - **timema**: playful; **pardonema**: merciful
 - **_-end-_**: something that must be done
