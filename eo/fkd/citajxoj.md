@@ -9,10 +9,6 @@ Citaĵoj
 tra l’ jarojn.
 
 
-- Ĉiam kredu ke vi pravas, krom se vi konvikiĝis malprava.<br>
-  ―Roque F. MARTINEZ
-
-
 - La aferoj kiujn oni volas malakcepti estas pli gravaj ol la aferoj kiujn oni volas akcepti.<br>
   ―Erik NAGGUM
 
