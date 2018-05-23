@@ -3,7 +3,7 @@ Pripensoj
 
 <center>[Esperante](#) · [English](/en/reflections)</center>
 <center>la 3-an de Novembro 2017</center>
-<center>Laste ŝanĝita: la 25-an de Marto 2018</center>
+<center>Laste ŝanĝita: la 23-an de Majo 2018</center>
 
 Ĉi tiu paĝo enhavas kelke da miaj propraj pripensoj.
 
@@ -236,3 +236,9 @@ Enskriboj ordigatas laŭ kronologiordo.
 
 
 - La kiomo da energio bezonata por malakcepti estas pli granda ol la kiomo da energio bezonata por akcepti.<br>
+
+
+- Pulmojn oni ne povas instrui.<br>
+
+
+- Unue dubu.<br>
