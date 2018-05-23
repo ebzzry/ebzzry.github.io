@@ -9,10 +9,6 @@ This page contains a list of curated quotations, aphorisms, and proverbs that I 
 the years.
 
 
-- Always believe you are right, unless convinced you are wrong.<br>
-  ―Roque F. Martinez
-
-
 - The aspects you are willing to ignore are more important than the aspects you are willing to
   accept.<br>
   ―Erik Naggum
