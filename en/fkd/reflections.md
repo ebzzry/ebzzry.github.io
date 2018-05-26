@@ -181,7 +181,7 @@ Entries are sorted in chronological order.
 - Tell me what are your temptations and I will tell you what you are.<br>
 
 
-- Letting go is one of the most difficult things, that me must do.<br>
+- Letting go is one of the most difficult things, that we must do.<br>
 
 
 - Let’s not fear pain, because feeling pain is one of the best ways to become stronger.<br>
