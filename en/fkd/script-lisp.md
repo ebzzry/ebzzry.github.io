@@ -2,7 +2,7 @@ Scripting in Common Lisp
 ========================
 
 <div class="center">July 5, 2017</div>
-<div class="center">Last updated: October 24, 2017</div>
+<div class="center">Last updated: March 28, 2018</div>
 
 >The light that burns twice as bright burns half as long.<br>
 >―Dr. Eldon Tyrell, Blade Runner (1982)
@@ -184,7 +184,6 @@ $(NAME):
 install: $(NAME)
 	@ln -sf $(SCRIPT) $(BINARY)
 	@$(SCRIPT) symlink $(NAME)
-    $HOME/bin/symlink
 
 clean:
 	@rm -f $(NAME)
@@ -197,7 +196,7 @@ it is only going to build three symlinks to `my-scripts`. The `‑‑output $(NA
 the output file. The `‑‑dump !` means to create an image, to enable a faster startup. The `‑‑lisp sbcl`
 specifies that we want to use SBCL, for this script; the option `‑‑quicklisp` specifies that
 we load [Quicklisp](https://www.quicklisp.org) with the image. The `‑‑system $(NAME)` loads the
-system the we are building. The `‑‑dispatch-system $(NAME)/main` species the entrypoint of our
+system the we are building. The `‑‑dispatch-system $(NAME)/main` specifies the entrypoint of our
 program.
 
 
@@ -400,7 +399,7 @@ Yay!
 <a name="caveats">Caveats</a>
 -----------------------------
 
-An important thing to note is that in the definitions, you can’t use a CL keywoard as the name of
+An important thing to note is that in the definitions, you can’t use a CL keyword as the name of
 the command. So inside exporting definitions, you can’t have something like this:
 
 ```lisp
@@ -426,7 +425,7 @@ CL, and each implementation strives to achieve goals that may not necessarily be
 other implementations. That’s OK, because it gives room for implementors and designers, on how to
 work on the base specifications. As long as they conform to the standard, things are green.
 
-I wrote a simple [Nix](https://github.com/ebzzry/baf) as a working example of
+I wrote a simple [Nix](https://github.com/ebzzry/baf) script as a working example of
 how I use CL scripting.
 
 The human responsible for making scripting in CL possible and acceptable,
@@ -438,3 +437,5 @@ found [here](https://github.com/ebzzry/my-scripts), while the scripts that I use
 can be found [here](https://github.com/ebzzry/scripts).
 
 The banner image used at the top is from [common-lisp.net](https://common-lisp.net/).
+
+_Thanks to [Raymund Martinez](https://github.com/zhaqenl) for the corrections._
