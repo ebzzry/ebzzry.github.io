@@ -34,7 +34,7 @@ Por kuri Dired-on, kuru Emakson sur la komandlinio, provizi dosierujon, kiel la 
 
 Aŭ alternative, oni povas premi <kbd>C-x d</kbd> ene Emakso. Se oni nune redaktas dosieron, la
 dosierujo de tiu dosiero estos prezentita kiel la defaŭlta valoro en la etbufra areo. Ambaŭmaniere,
-kiam oni premas <kbd>Enter</kbd>, bufro de l’ dosierujo aperos, kiu aspektas kiel la eligo de
+kiam oni premas <kbd>Enter</kbd>, bufro de la dosierujo aperos, kiu aspektas kiel la eligo de
 `ls -l`:
 
 ```
@@ -123,7 +123,7 @@ konservi la ŝanĝojn, premu <kbd>C-c C-c</kbd>.
 <a name="finrimarkoj"></a>Finrimarkoj
 -------------------------------------
 
-Ni nur tuŝis la pinton de l’ glacimonto. Liberiĝu por esplori. Por vidi pli da informo, vizitu la
+Ni nur tuŝis la pinton de la glacimonto. Liberiĝu por esplori. Por vidi pli da informo, vizitu la
 Dired-an manlibron [ĉi tie](https://www.gnu.org/software/emacs/manual/html_node/emacs/Dired.html).
 
-_Dank’ al [Raymund Martinez](https://github.com/zhaqenl) pro l’ korektoj._
+_Dank’ al [Raymund Martinez](https://github.com/zhaqenl) pro la korektoj._
