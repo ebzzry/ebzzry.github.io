@@ -5,7 +5,7 @@ Retrospekte
 <center>la 8-an de Februaro 2018</center>
 <center>Laste ŝanĝita: la 20-an de Marto 2018</center>
 
->El la militolernejo de l’ vivo: Kion ne detruas min, faras min pli forte.<br>
+>El la militolernejo de la vivo: Kion ne detruas min, faras min pli forte.<br>
 >―Friedrich NIETZSCHE
 
 Mi ne tute aprezis tion, kion tiuj vortoj signifis antaŭ nun. Mi lernis, ke krom la sperto,
@@ -20,14 +20,14 @@ magia io komencas okazi. Kaj kiel por mi, alvenis en la formo de malĝentila vek
 
 Mi ne sciis, ke magia io disfaldos. Per ne nei mian staton, mi kapablis brakumi la premion. Mi
 konsciis, ke kiam mi povis avidi spiron, mi malŝlosis partojn de mi, kiuj restis nekonitaj
-antaŭe. Malrapide, kiel la lumradioj de l’ suno en la mateno, tuŝanta la akvoglobetojn sur folio, mi
+antaŭe. Malrapide, kiel la lumradioj de la suno en la mateno, tuŝanta la akvoglobetojn sur folio, mi
 konsciis vidi min mem, kiel per unuafoje vidi mian rebrilon sur lageto. Mi malkovris, ke ekzistis
 multaj latentaj partoj de mi, simple restadas esti vekitaj.
 
-Ĉe l’ pinto de mia agonio, mi katapultiĝis al memdetruo. Per kolerego, mi fingromontris al mi, sen
+Ĉe la pinto de mia agonio, mi katapultiĝis al memdetruo. Per kolerego, mi fingromontris al mi, sen
 antaŭzorgo. Mi malestime kriegis al mi, meti ĉion de kulpo sur miaj ŝultroj. La plej malbona parto
 de tio, estis, mi haste faris ilin. Mi neprudentis eĉ al mia memo. Mi ne konsciis, ke mi jam bredis
-tutan kolonion de sola specio de vermo, kiu do ankoraŭ manĝas min de l’ ene kaj manuzis min lau ilia
+tutan kolonion de sola specio de vermo, kiu do ankoraŭ manĝas min de la ene kaj manuzis min lau ilia
 volo. Mi ankaŭ tentitis multfoje por krei promesojn al mi; promesoj kiuj iutempe neesprimitas,
 krei mian propran ĥaoson kaj danĝeron. Mi forgesis ami mian propran memon.
 
@@ -56,7 +56,7 @@ bone.
 
 Niaj mensoj reagas al stimuloj, kaj ĉi tio ankaŭ aplikatas al iliaj prikomponantoj, kiel niaj
 bonfartoj kaj pensmaniero. Kiam ni trotrejnas niajn korpojn, plej verŝajne, ili spertos
-vundojn. Tamen, kiam ni trejnas niajn korpojn proksime al niaj limoj, ĉe l’ rando de rompado, ili
+vundojn. Tamen, kiam ni trejnas niajn korpojn proksime al niaj limoj, ĉe la rando de rompado, ili
 plifortiĝos. Do, scii niajn limojn kernas al niaj kreskadoj. Scii kiam por ĉesi ege signifas se ni
 volas trapasi niaj maljunajn limojn. Per atenteme iras al niaj rompadaj limoj, ni malŝlosas pli
 grandan potencialon.
@@ -67,4 +67,4 @@ iri rekte al mi, ĉar mi faros ilin sperti mil mortojn. Ĉiufoje mi falas, mi st
 daŭri la batalon. Mi ege frapos pli ol la lasta frapo, tiel longe kiel sango kuras tra mia korpo,
 tiel longe kiel mi sentas la palpeblan aeron de mia spiro.
 
-_Dank’ al [Raymund Martinez](https://github.com/zhaqenl) pro l’ korektoj._
+_Dank’ al [Raymund Martinez](https://github.com/zhaqenl) pro la korektoj._

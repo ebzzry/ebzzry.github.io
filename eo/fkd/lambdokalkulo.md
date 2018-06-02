@@ -1,4 +1,4 @@
-Aboco de l’ Lambdokalkulo
+Aboco de la Lambdokalkulo
 =========================
 
 <center>[Esperante](#) · [English](/en/lambda-calculus)</center>
@@ -62,17 +62,17 @@ lernu ĝin.
 
 Kiam diskuti novajn konceptojn, tre gravas aranĝi la aksiomojn aŭ la komencajn regularojn. Pensu
 ĝin kiel difini novajn terminojn en ludo, kaj doni al ili sencojn. La koncepto, en kiu, ĉi tiuj
-sencoj vivas, tre gravas. Ekzemple, de l’ ĝardenisto la akvokondukilo uzatas akvi la plantojn,
-dum de l’ fajrobrigadisto, la akvokondukilo uzatas mortigi la fajron. Kiam la ĝardenisto aŭ la
+sencoj vivas, tre gravas. Ekzemple, de la ĝardenisto la akvokondukilo uzatas akvi la plantojn,
+dum de la fajrobrigadisto, la akvokondukilo uzatas mortigi la fajron. Kiam la ĝardenisto aŭ la
 fajrobrigadisto tenas la akvokondukilon, ili ne dubas kion ili tenas aŭ kio estas la celumo. Oni simple
-kredas en sia intuo, por precizigi la signifon de l’ akvokondukilo en la tempo ili tenis ĝin.
+kredas en sia intuo, por precizigi la signifon de la akvokondukilo en la tempo ili tenis ĝin.
 
-Esperante, la vorto _alta_ havas kelkajn signifojn. Tamen, en ĉiuj de l’ difinitaj signifoj de
-l’ vorto, ne ekzistas apriora scio de l’ valoro de l’ vorto. Ni akceptas la difinon tiel estas. Ni
-devas konsenti al la uzado de l’ vorto en la limigita konteksto de l’ uzantoj de l’ vorto. Se ni
-provas devii el la establiĝita signifo de l’ vorto, ekzemple, se ni hazarde krei novan difinon de l’
+Esperante, la vorto _alta_ havas kelkajn signifojn. Tamen, en ĉiuj de la difinitaj signifoj de
+la vorto, ne ekzistas apriora scio de la valoro de la vorto. Ni akceptas la difinon tiel estas. Ni
+devas konsenti al la uzado de la vorto en la limigita konteksto de la uzantoj de la vorto. Se ni
+provas devii el la establiĝita signifo de la vorto, ekzemple, se ni hazarde krei novan difinon de la
 vorto pro kaprico, plej verŝajne ĝi ne akceptitos. Ni bezonas kredi la difinitajn indikitajn
-kaj montritajn signifojn de l’ vorto, por ke ĝi havas sencon al ni. La samo veras pri l’
+kaj montritajn signifojn de la vorto, por ke ĝi havas sencon al ni. La samo veras pri la
 lambdokalkulo—ni aŭ akcepti ĉi tiujn aksiomojn kaj operaciu en sia domajno, aŭ ni vivu en
 Neverland-o.
 
@@ -108,7 +108,7 @@ funkcio ĉi-supre ekvivalentas al:
 ```
 
 La Greka litero `λ` montras, ke la ĉirkaŭa konteksto estas funkcio—aŭ iu, kiu povas esti
-aplikata. The `λ` simbolo uzatas anstataŭ alia simbolo pro l’ kompostada atentindaĵo kiu estas
+aplikata. The `λ` simbolo uzatas anstataŭ alia simbolo pro la kompostada atentindaĵo kiu estas
 diskutita [ĉi tie](https://goo.gl/vxMkW4). Do, ne maltrankviliĝu. Oni simple povas uzi ĝin.
 
 Kion sekvas post la `λ` simbolo, antaŭ la `.`, estas la parametro. Teĥnike, povas esti ia
@@ -243,7 +243,7 @@ Konstrui el `0`, ni nombru la unuajn tri nombradaj nombroj:
 ### <a name="postanto"></a>Postanto
 
 La postanto de entjero estas difinita kiel la sekva entjero, kalkuli supren. Do, la postanto de `0`
-estas `1`. Jen la difino de l’ postanta funkcio:
+estas `1`. Jen la difino de la postanta funkcio:
 
 ```scheme
 S ≡ (λxyz.y(xyz))
@@ -273,7 +273,7 @@ Ni disapartigu ĝin:
 ### <a name="adicio"></a>Adicio
 
 Kio se oni volas efektivigi `2+3`? Bonŝance, la postanta funkcio povas fari tion. Oni esprimu tion
-kiel `2S3`, en kiu, oni uzas `+` kiel la intermeta operatoro. Jen la difino de l’ adicia funkcio:
+kiel `2S3`, en kiu, oni uzas `+` kiel la intermeta operatoro. Jen la difino de la adicia funkcio:
 
 ```scheme
 Nomo: A
@@ -391,11 +391,11 @@ Ni kontrolu se `¬T` estas jam `F`:
 ### <a name="antaŭanto"></a>Antaŭanto
 
 La antaŭanto de nombro difinitas kiel la antaŭa nombro precizigita kiam malantaŭen kalkuli. La motivo
-kial la diskuto pri l’ antaŭanta funkcio faritas aparte estas, ke ne estas intue por lerni ĝin
-komence, ke la scio pri l’ aliaj funckioj gravas lerni ĝin.
+kial la diskuto pri la antaŭanta funkcio faritas aparte estas, ke ne estas intue por lerni ĝin
+komence, ke la scio pri la aliaj funckioj gravas lerni ĝin.
 
 Ni supozu, ke oni havas duon, io kiel (y, x), en kiu, la unua ero estas unu paŝo supre, aŭ la
-postanto de l’ dua ero. Pro l’ unua ero estas la postanto, signifas ke la dua ero estas la
+postanto de la dua ero. Pro la unua ero estas la postanto, signifas ke la dua ero estas la
 antaŭanto. Vide:
 
 ```scheme
@@ -431,7 +431,7 @@ Por elekti la unuan kaj duan erojn de duo, oni uzas `T` kaj `F`:
 ```
 
 Oni bezonas funkcion kiu ricevas duon kaj kreas novan duon, en kiu, la unua ero estas la postanto de
-l’ dua ero:
+la dua ero:
 
 ```scheme
 Nomo: Q
@@ -506,7 +506,7 @@ B11
 <a name="finrimarkoj"></a>Finrimarkoj
 -------------------------------------
 
-Oni simple ungogratis la tegon de l’ lambdokalkulo, tamen oni ĵus spektis ĝian vastegan espriman
+Oni simple ungogratis la tegon de la lambdokalkulo, tamen oni ĵus spektis ĝian vastegan espriman
 potencon, konsidere al kiel minimuna la sistemo difinitas.
 
 

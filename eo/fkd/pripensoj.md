@@ -3,7 +3,7 @@ Pripensoj
 
 <center>[Esperante](#) · [English](/en/reflections)</center>
 <center>la 3-an de Novembro 2017</center>
-<center>Laste ŝanĝita: la 23-an de Majo 2018</center>
+<center>Laste ŝanĝita: la 2-an de Junio 2018</center>
 
 Ĉi tiu paĝo enhavas kelke da miaj propraj pripensoj.
 
@@ -11,10 +11,10 @@ Enskriboj ordigatas laŭ kronologiordo.
 
 
 - Dum la kuraĝuloj kuraĝas la ŝtormojn per kuraĝo kaj triumfo, la malkuraĝuloj ripozas sur la
-  marbordoj de l’ malprotesto kaj la konformeco.<br>
+  marbordoj de la malprotesto kaj la konformeco.<br>
 
 
-- Scivolemo estas la malamiko de l’ nescio, la timo, la necerteco, kaj la dubo.<br>
+- Scivolemo estas la malamiko de la nescio, la timo, la necerteco, kaj la dubo.<br>
 
 
 - Oraj ŝancoj estas ofte preterlasitaj tial ke ili manteliĝis kun malpuraj vestoj, anstataŭ
@@ -39,7 +39,7 @@ Enskriboj ordigatas laŭ kronologiordo.
 - Ridetu eĉ en la vizaĝo de malamiko, ĉar tio ankaŭ estos la fojo kiam vi brakumos la venkon.<br>
 
 
-- Se vi volas krei la estontecon, fokusiĝu pri l’ estantecan momenton anstataŭ la elvenon.<br>
+- Se vi volas krei la estontecon, fokusiĝu pri la estantecan momenton anstataŭ la elvenon.<br>
 
 
 - Viaj respondoj, kiel ajn vi fidemas pri ili, estas neĝustaj, se ili estis por la malpravaj
@@ -110,7 +110,7 @@ Enskriboj ordigatas laŭ kronologiordo.
 - Vartu vian korpŝelon, tial ke tiu nur estas kion vi havas.<br>
 
 
-- En la grandioza skalo de l’ kosmo, la homaj vivoj sensignifas. Ni malsindonas pri niaj vivoj tial
+- En la grandioza skalo de la kosmo, la homaj vivoj sensignifas. Ni malsindonas pri niaj vivoj tial
   ke ili estas la niaj. Tamen, ni devas memori nin, por ke la vivo por vigli, ankaŭ ekzistas
   morteco.<br>
 
@@ -118,7 +118,7 @@ Enskriboj ordigatas laŭ kronologiordo.
 - Diru al mi kion vi prizorgas, kaj mi diros al vi kion vi estas.<br>
 
 
-- La formo de l’ demando precizigas la formon de l’ respondo.<br>
+- La formo de la demando precizigas la formon de la respondo.<br>
 
 
 - Potenco sen rego estas nul; rego sen potenco ankaŭ estas nul.<br>
@@ -127,7 +127,7 @@ Enskriboj ordigatas laŭ kronologiordo.
 - Vera mastro scias ke li ne fariĝos.<br>
 
 
-- Unu de l’ plej kontentemaj tamen la plej malfacilaj aferoj por lerni, estas kiel mallerni.<br>
+- Unu de la plej kontentemaj tamen la plej malfacilaj aferoj por lerni, estas kiel mallerni.<br>
 
 
 - Homoj klaĉas pri aliaj homoj tial ke iliaj propraj vivoj estas tre seninteresaj.<br>
@@ -152,7 +152,7 @@ Enskriboj ordigatas laŭ kronologiordo.
   nenion.<br>
 
 
-- Ni ne havis la opcion ĉu ni enboatiĝos aŭ ne. Ni nur trovas nin mem en la mezo de l’ vojaĝo, post la
+- Ni ne havis la opcion ĉu ni enboatiĝos aŭ ne. Ni nur trovas nin mem en la mezo de la vojaĝo, post la
   ŝipo jam foriris la havenon.<br>
 
 
@@ -183,7 +183,7 @@ Enskriboj ordigatas laŭ kronologiordo.
 - Ni ne timu doloron, tial ke, senti doloron estas la plej bona maniero por plifortiĝi.<br>
 
 
-- En la vizaĝo de l’ kosmo, ni porĉiame estas infanoj.<br>
+- En la vizaĝo de la kosmo, ni porĉiame estas infanoj.<br>
 
 
 - Trompaj novaĵoj disvastiĝas ĉar trompaj homoj ekzistas.<br>
@@ -210,7 +210,7 @@ Enskriboj ordigatas laŭ kronologiordo.
 - Neniam malestimu fizikajn fortojn.<br>
 
 
-- La kosmo ne havas devon por signifi ion al ni. Ekde la komenco de l’ tempo, estis ĉiam ni, kiuj
+- La kosmo ne havas devon por signifi ion al ni. Ekde la komenco de la tempo, estis ĉiam ni, kiuj
   volis doni signifon al ĉio.<br>
 
 
@@ -242,3 +242,6 @@ Enskriboj ordigatas laŭ kronologiordo.
 
 
 - Unue dubu.<br>
+
+
+- Regnojn viroj reĝas; virojn virinoj reĝas.<br>

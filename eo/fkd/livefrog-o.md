@@ -61,13 +61,13 @@ GitHub:
     $ raco pkg install frog/ sxml/ livefrog/
 
 La vostaj suprenstrekoj gravas diri al `raco`, ke oni instalas el lokaj dosierujoj. Elŝutos
-la fontojn de l’ interreto sen tio.
+la fontojn de la interreto sen tio.
 
 
 <a name="bazaj"></a>Bazaj aferoj
 --------------------------------
 
-Por krei Markdown-an dosieron de l’ dosiero `entry.xml`
+Por krei Markdown-an dosieron de la dosiero `entry.xml`
 
     $ raco livefrog -m entry.xml
 

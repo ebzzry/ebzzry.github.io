@@ -141,8 +141,8 @@ kuri:
 en kiu, Emakso trovas pravalorizajn dosierojn. Notu, ke la supra git-a komando, fakte elŝutas la
 fontkodon de mu-o, kaj oni fakte povas uzi ĝin por instali mu-on. Tamen, tial ke oni jam havas sian
 pako-administrilon, si malatentos tion. Kaj la dosierindiko, en kiu, la `mu/mu4e/`-a subdosierujo
-ekzistas de l’ pako-administrila instalo, malsimilas inter sistemoj. Do, intertempe, oni nur estas
-interesita pri l’ `mu/mu4e/`-a subdosierujo.
+ekzistas de la pako-administrila instalo, malsimilas inter sistemoj. Do, intertempe, oni nur estas
+interesita pri la `mu/mu4e/`-a subdosierujo.
 
 
 ### <a name="legiagordo"></a>Agordo
@@ -238,7 +238,7 @@ kampojn kiel `To:`, kaj `Subject:`, tiam sur la mesaĝokorpo, premu:
 
 ĉi tiu komando, etikedos la eliranta poŝto kiel subskribita kaj ĉifrita. Por sendi ĝin, premu
 <kbd>C-c C-c</kbd>. Ĉi tiu komando sekve invitos onin por enigi sian pasfrazon. Ankaŭ demandos onin
-por plenumigi kelkajn informojn pri l’ elira retpoŝtservilo (SMTP). La SMTP-a servilo de Gmail
+por plenumigi kelkajn informojn pri la elira retpoŝtservilo (SMTP). La SMTP-a servilo de Gmail
 estas `smtp.gmail.com`, tiam uzu `UZANTNOMO@gmail.com` kiam invitita por la uzantnomo. Uzu onian
 kutiman pasvorton, kiam invitita, aŭ enigu onian apspecifan pasvortos, kiel priskribita antaŭe. Ĉi
 tiu informo estas konservita al `~/.authinfo`, kaj estos uzata por postaj mesaĝoj.
@@ -248,7 +248,7 @@ Por malĉifri mesaĝon, malfermu la mesaĝon, tiam premu:
     M-x dc RET
 
 Ĉi tiu komando invitos onin por eniri sian pasfrazon. Post tio, oni invititos ĉu si volas
-anstataŭigi la enhavon de l’ bufro. Diru jes al ĉi tio.
+anstataŭigi la enhavon de la bufro. Diru jes al ĉi tio.
 
 Ĉi tiuj alproksimiĝoj ne malfuŝeblas, tial ke, almenaŭ ekzistas du truoj gapas, kiujn oni devas
 konscii pri:
@@ -256,9 +256,9 @@ konscii pri:
 1. Emaksaj sekurkopioj, kaj
 2. mu4e-aj malnetoj
 
-Pri l’ antaŭa, kiam oni uzas la sekurkopia facilo de Emakso, aŭ pakaĵo kiel
+Pri la antaŭa, kiam oni uzas la sekurkopia facilo de Emakso, aŭ pakaĵo kiel
 [backup-dir](https://www.emacswiki.org/emacs/BackupDirectory), mesaĝoj kiujn si verkas, supozeble
-antaŭ si ĉifras ilin, estos havi malĉifritajn kopiojn sur la loka disko. Pri l’ lasta, la sama
+antaŭ si ĉifras ilin, estos havi malĉifritajn kopiojn sur la loka disko. Pri la lasta, la sama
 principo aplikatas. Do, estu atenta de ĉi tiuj situacioj, kaj alĝustigetu la agordon kiel necese.
 
 
