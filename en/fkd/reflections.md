@@ -3,7 +3,7 @@ Reflections
 
 <center>[Esperanto](/eo/pripensoj) · [English](#)</center>
 <center>November 24, 2015</center>
-<center>Last updated: May 23, 2018</center>
+<center>Last updated: June 2, 2018</center>
 
 This page contains contains some of my personal reflections.
 
@@ -247,3 +247,6 @@ Entries are sorted in chronological order.
 
 
 - Doubt first.<br>
+
+
+- Men reign kingdoms; women reign men.<br>

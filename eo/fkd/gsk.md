@@ -83,7 +83,7 @@ La sekva afero por fari estas por redakti la ĉefan GPG-an agorddosieron:
     $ nano ~/.gnupg/gpg.conf
 
 Trovu la linion kiu enhavas `use-agent` kaj malkomentigu ĝin, se ĝi estas komentigita. Se tiu linio
-ne ekzistas, simple metu `use agent` ĉe l’ fino de tiu dosiero.
+ne ekzistas, simple metu `use agent` ĉe la fino de tiu dosiero.
 
 Tiam, oni bezonas redakti la perilan dosieron:
 
@@ -170,4 +170,4 @@ Okazos samspeca agmaniero se oni ĉifras dosieron GPG-e:
 La paŝoj parolis supre estis intencitaj por esti mallongaj sen priparoli la malsimplajn
 detalojn. Mi esperas ke oni trovis ĉi tiun utila.
 
-_Dank’ al [Raymund Martinez](https://github.com/zhaqenl) pro l’ korektoj._
+_Dank’ al [Raymund Martinez](https://github.com/zhaqenl) pro la korektoj._
