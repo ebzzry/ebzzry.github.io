@@ -30,7 +30,7 @@ Enhavotabelo
 
 Redakti Rakidkodon Emakse estis tradicie farita per rudimentaj reĝimoj, kiuj malhavis
 flekseblecon. Ili estis kapablaj por taksi nunajn difinojn, lastajn difinojn, kaj tutajn bufrojn,
-ĉefparte. Bedaŭrinde, tio ne sufiĉis pri l’ maniero, en kiu Rakido traktadis la aferojn. Pli
+ĉefparte. Bedaŭrinde, tio ne sufiĉis pri la maniero, en kiu Rakido traktadis la aferojn. Pli
 inteligenta maniero de trakti kodon, estis bezonita.
 
 Bonŝance, ekzistas [Geiser](http://www.nongnu.org/geiser/). Ekzistis aliaj reĝimoj, kiuj provis
@@ -67,10 +67,10 @@ realigoj, se trovas ilin. La lastesprimo malnepras—ŝaltas onin por plenumi
 
     M-x geiser-save REV
 
-en la legad-taksad-presada iteracio (LTPI, angle REPL), por devigi la konservadon de l’ historio al
+en la legad-taksad-presada iteracio (LTPI, angle REPL), por devigi la konservadon de la historio al
 la diskdosiero, kiu troveblas en `~/.geiser_history.racket` defaŭlte. Estas utila se vi tuj volas
 konservi vian LTPI-an historion. Ne ekzistas pli teruran aferon ol perdi TIUN esprimon. Por ĉiuj de
-l’ Emaksaj kodoj supraj, por efektiviĝi, vi nun povas taksi ilin per la membroj de l’ EVAL-a
+la Emaksaj kodoj supraj, por efektiviĝi, vi nun povas taksi ilin per la membroj de la EVAL-a
 trupo—`eval-defun`, `eval-last-sexp`, `eval-region`—aŭ, vi ankoraŭ elektas naski novan Emaksan
 procezon.
 
@@ -86,12 +86,12 @@ deklaro. Tiam, premu:
 Kaj, hura! Aperas nova Emaksa fenestro, enhavi la `* Racket REPL *`-an bufron. Kio ajn vi povas fari
 per la LTPI-a envokito per la vanila komandlinia `racket`, vi ankaŭ povas fari tiujn, per ĉi tiu, kaj
 pli. Ĉi tiu ĉefreĝimo fakte estas la Comint-a reĝimo sub la kovrilo, kun kroĉiloj al Rakida
-procezo. Por tiuj de vi, kiuj estas malkutimaj pri l’ Comint-a reĝimo, estas la sama reĝimo kiu
+procezo. Por tiuj de vi, kiuj estas malkutimaj pri la Comint-a reĝimo, estas la sama reĝimo kiu
 traktas `M-x shell REV`.
 
 Do, kion oni povas fari per tio? Dum redakti `.rkt`-an dosieron, jen estas kelke de kutimaj
 fulmoklavoj, kiujn mi uzas. La plena listo haveblas [ĉi tie](http://www.nongnu.org/geiser/geiser_5.html#Cheat-sheet).
-Notu, ke la priskribo de l’ klavoj, kiujn mi uzas malsupre, estas por mi mem komence, por
+Notu, ke la priskribo de la klavoj, kiujn mi uzas malsupre, estas por mi mem komence, por
 helpi min komprenas tion, kion ĝi faras. Eble ili malsimilas al la oficiala priskribo, listigita sur
 la antaŭmenciita ligilo.
 
@@ -123,9 +123,9 @@ la antaŭmenciita ligilo.
 <a name="finrimarkoj"></a>Finrimarkoj
 -------------------------------------
 
-Mi laŭcele preterpasis multe da temo de l’ [oficialdokumento](http://www.nongnu.org/geiser/), tial
+Mi laŭcele preterpasis multe da temo de la [oficialdokumento](http://www.nongnu.org/geiser/), tial
 ke, fariĝas malĉarma al multe da homo, kiuj estas malinklinaj por legi longajn blokojn de
 teksto. Ironie, ĉi tiu artikolo povas kvalifi kiel tiu. La priskribitaj metodoj supre ne
-reprezentiĝas de konsilitaj manieroj, de l’ komunumo, de instali kaj uzi Rakidon Emakse. Do, ĝis!
+reprezentiĝas de konsilitaj manieroj, de la komunumo, de instali kaj uzi Rakidon Emakse. Do, ĝis!
 
-_Dank’ al [Raymund Martinez](https://github.com/zhaqenl) pro l’ korektoj._
+_Dank’ al [Raymund Martinez](https://github.com/zhaqenl) pro la korektoj._

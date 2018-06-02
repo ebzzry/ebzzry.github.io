@@ -3,7 +3,7 @@ Quotes
 
 <center>[Esperanto](/eo/citajxoj) · [English](#)</center>
 <center>August 29, 2015</center>
-<center>Last updated: March 13, 2018</center>
+<center>Last updated: June 2, 2018</center>
 
 This page contains a list of curated quotations, aphorisms, and proverbs that I have collected over
 the years.
@@ -691,3 +691,11 @@ the years.
 
 - Slow and steady against hard problems.<br>
   ―Chamath Palihapitiya
+
+
+- If you love it, you’ll teach yourself. If you don’t love it, others teach you.<br>
+  ―Yukitaka Yamaguchi
+
+
+- Well, we look at people who’ve been shattered and different as less than. What if they’re more than us?<br>
+  ―Dr. Fletcher, Split (2016)
