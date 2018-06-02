@@ -3,7 +3,7 @@ Quotes
 
 <center>[Esperanto](/eo/citajxoj) · [English](#)</center>
 <center>August 29, 2015</center>
-<center>Last updated: June 2, 2018</center>
+<center>Last updated: June 6, 2018</center>
 
 This page contains a list of curated quotations, aphorisms, and proverbs that I have collected over
 the years.
@@ -698,4 +698,20 @@ the years.
 
 
 - Well, we look at people who’ve been shattered and different as less than. What if they’re more than us?<br>
-  ―Dr. Fletcher, Split (2016)
+  ―Dr. Karen Fletcher, Split (2016)
+
+
+- You can accomplish anything if you’re never in a hurry.<br>
+  ―Chesley Sullenberger, Sully (2016)
+
+
+- The mass of men lead lives of quiet desperation. What is called resignation is confirmed desperation.<br>
+  ―Henry David Thoreau
+
+
+- The question of whether a computer can think is no more interesting than the question of whether a submarine can swim.<br>
+  ―Edsger Dijkstra
+
+
+- It is impossible to sharpen a pencil with a blunt axe. It is equally vain to try to do it with ten blunt axes instead.<br>
+  ―Edsger Dijkstra
