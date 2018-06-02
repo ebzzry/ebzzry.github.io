@@ -3,7 +3,7 @@ Citaĵoj
 
 <center>[Esperante](#) · [English](/en/quotes)</center>
 <center>la 15-an de Novembro 2017</center>
-<center>Laste ŝanĝita: la 2-an Junio Marto 2018</center>
+<center>Laste ŝanĝita: la 6-an de Junio 2018</center>
 
 Ĉi tiu paĝo enhavas liston de atenteme elektitaj citaĵoj, aforismoj, kaj sentencoj kiujn mi kolektis
 tra la jarojn.
@@ -673,7 +673,7 @@ tra la jarojn.
 
 
 - Ni devas lerni, en komputiko, por stari sur la ŝultroj de niaj antaŭantoj, anstataŭ iliaj piedfingroj.<br>
-  ―D-ro. Daniel G. BOBROW
+  ―D-ro Daniel G. BOBROW
 
 
 - La estinteco estas nur rakonto, kiun ni diras al ni mem.<br>
@@ -684,9 +684,25 @@ tra la jarojn.
   ―Chamath PALIHAPITIYA
 
 
-- Se ion vi ŝatas, vin mem vi instruos; Se ion vi malŝatas, vin la aliaj instruos.<br>
+- Se ion vi ŝatas, vin mem vi instruos. Se ion vi malŝatas, vin la aliaj instruos.<br>
   ―Yukitaka YAMAGUCHI
 
 
 - Nu, la homojn kiuj disfrakasiĝis kaj malsamas kiel malpli ni rigardas. Kio se, ili estas pli ol ni?<br>
-  ―D-ino Fletcher, Split (2016)
+  ―D-ino Karen FLETCHER, Split (2016)
+
+
+- Ion ajn oni povas atingi, se oni ne hastas.<br>
+  ―Chesley SULLENBERGER, Sully (2016)
+
+
+- Vivojn de kvietaj senesperemoj plejmulto da homo vivas. Kiu nomiĝas rezigno estas konfirmita senesperemo.<br>
+  ―Henry David THOREAU
+
+
+- La demando ĉu komputilo povas pensi ne plu interesas ol la demando ĉu submarŝipo povas naĝi.<br>
+  ―Edsger DIJKSTRA
+
+
+- Maleblas krajonon pliakrigi per malakra hakilo. Estas egale vana por ĝin provi fari per dek malakraj hakiloj.<br>
+  ―Edsger DIJKSTRA
