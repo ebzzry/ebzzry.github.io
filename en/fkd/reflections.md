@@ -3,7 +3,7 @@ Reflections
 
 <center>[Esperanto](/eo/pripensoj) · [English](#)</center>
 <center>November 24, 2015</center>
-<center>Last updated: June 2, 2018</center>
+<center>Last updated: June 26, 2018</center>
 
 This page contains contains some of my personal reflections.
 
@@ -250,3 +250,12 @@ Entries are sorted in chronological order.
 
 
 - Men reign kingdoms; women reign men.<br>
+
+
+- Substance is god.<br>
+
+
+- Have the right people.<br>
+
+
+- Rule 1: assume nothing.<br>
