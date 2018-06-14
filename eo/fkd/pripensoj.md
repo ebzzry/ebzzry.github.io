@@ -3,7 +3,7 @@ Pripensoj
 
 <center>[Esperante](#) · [English](/en/reflections)</center>
 <center>la 3-an de Novembro 2017</center>
-<center>Laste ŝanĝita: la 2-an de Junio 2018</center>
+<center>Laste ŝanĝita: la 26-an de Junio 2018</center>
 
 Ĉi tiu paĝo enhavas kelke da miaj propraj pripensoj.
 
@@ -226,7 +226,7 @@ Enskriboj ordigatas laŭ kronologiordo.
   asocianoj, Esperanton al miaj amikoj, kaj la Lispon al mia komputilo.<br>
 
 
-- Se la vivo estas granda ludo, povas esti konjektita, ke ĉio estas ia amuzaĵo.<br>
+- Se la vivo estas granda ludo, povas esti konjektite, ke ĉio estas ia amuzaĵo.<br>
 
 
 - Morteco per nekoncerneco estas pli malbona ol fizika morteco.<br>
@@ -245,3 +245,12 @@ Enskriboj ordigatas laŭ kronologiordo.
 
 
 - Regnojn viroj reĝas; virojn virinoj reĝas.<br>
+
+
+- La substanco estas la dio.<br>
+
+
+- La pravajn homojn havu.<br>
+
+
+- Regulo 1-a: nenion supozu.<br>
