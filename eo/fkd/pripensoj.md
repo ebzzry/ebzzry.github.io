@@ -3,7 +3,7 @@ Pripensoj
 
 <center>[Esperante](#) · [English](/en/reflections)</center>
 <center>la 3-an de Novembro 2017</center>
-<center>Laste ŝanĝita: la 26-an de Junio 2018</center>
+<center>Laste ŝanĝita: la 7-an de Julio 2018</center>
 
 Ĉi tiu paĝo enhavas kelke da miaj propraj pripensoj.
 
@@ -254,3 +254,15 @@ Enskriboj ordigatas laŭ kronologiordo.
 
 
 - Regulo 1-a: nenion supozu.<br>
+
+
+- Iu ajn kiu belas, estas iu de monstraĵo.<br>
+
+
+- Diplomatio estas la arto de diri ‘bonan hundon’ ĝis ŝtonon oni povas trovi.<br>
+
+
+- Ne estas diplomatio se ŝtonon oni jam komence havas.<br>
+
+
+- La plej ŝatataj marionetoj  de marionetuloj estas la tiuj, kiuj volas esti marionetigitaj.<br>
