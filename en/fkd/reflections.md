@@ -1,9 +1,9 @@
 Reflections
 ===========
 
-<center>[Esperanto](/eo/pripensoj) · [English](#)</center>
+<center>[Esperante](/eo/pripensoj) · [English](#)</center>
 <center>November 24, 2015</center>
-<center>Last updated: June 26, 2018</center>
+<center>Last updated: July 7, 2018</center>
 
 This page contains contains some of my personal reflections.
 
@@ -259,3 +259,12 @@ Entries are sorted in chronological order.
 
 
 - Rule 1: assume nothing.<br>
+
+
+- Anything that is beautiful is a thing of monstrosity.<br>
+
+
+- It is not diplomacy if one already has a stone to begin with.<br>
+
+
+- The favorite puppets of puppeteers are the the ones who wants be puppeteered.<br>
