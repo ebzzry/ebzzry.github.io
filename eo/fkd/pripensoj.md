@@ -259,10 +259,7 @@ Enskriboj ordigatas laŭ kronologiordo.
 - Iu ajn kiu belas, estas iu de monstraĵo.<br>
 
 
-- Diplomatio estas la arto de diri ‘bonan hundon’ ĝis ŝtonon oni povas trovi.<br>
-
-
 - Ne estas diplomatio se ŝtonon oni jam komence havas.<br>
 
 
-- La plej ŝatataj marionetoj  de marionetuloj estas la tiuj, kiuj volas esti marionetigitaj.<br>
+- La plej ŝatataj marionetoj de marionetuloj estas la tiuj, kiuj volas esti marionetigitaj.<br>
