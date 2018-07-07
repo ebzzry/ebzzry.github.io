@@ -2,7 +2,7 @@ Scripting in Common Lisp
 ========================
 
 <div class="center">July 5, 2017</div>
-<div class="center">Last updated: March 28, 2018</div>
+<div class="center">Last updated: July 7, 2018</div>
 
 >The light that burns twice as bright burns half as long.<br>
 >―Dr. Eldon Tyrell, Blade Runner (1982)
@@ -425,16 +425,18 @@ CL, and each implementation strives to achieve goals that may not necessarily be
 other implementations. That’s OK, because it gives room for implementors and designers, on how to
 work on the base specifications. As long as they conform to the standard, things are green.
 
-I wrote a simple [Nix](https://github.com/ebzzry/baf) script as a working example of
-how I use CL scripting.
+[baf](https://github.com/ebzzry/baf), a Nixpkgs/NixOS helper, is a working example of CL
+scripting. [pelo](https://github.com/zhaqenl/pelo/), a ping wrapper, is also another example that
+uses this facility. I wrote several personal helper
+[scripts](https://github.com/ebzzry/scripts/), that I hooked with my StumpWM
+[config](https://github.com/ebzzry/stumpo/). The code used for this article can be found
+[here](https://github.com/ebzzry/my-scripts).
 
-The human responsible for making scripting in CL possible and acceptable,
-is [Faré Rideau (Fare)](http://fare.tunes.org). It was 
-[this blog entry](http://fare.livejournal.com/184127.html) of him that motivated me to see the viability of CL
-as a scripting language. You may send your donations to him via [PayPal](https://paypal.me/fahree)
-or [Bitcoin](bitcoin:1fareF6wCNYYiLPGmyQjrd3AQdHBb1CJ6). The source code for this article can be
-found [here](https://github.com/ebzzry/my-scripts), while the scripts that I use for personal use
-can be found [here](https://github.com/ebzzry/scripts).
+The human responsible for making scripting in CL possible and acceptable, is
+[François-René Rideau (Fare)](http://fare.tunes.org). It was 
+[this blog entry](http://fare.livejournal.com/184127.html) that motivated me to see the viability of CL as a scripting language. You may send your
+donations to him via [PayPal](https://paypal.me/fahree) or
+[Bitcoin](bitcoin:1fareF6wCNYYiLPGmyQjrd3AQdHBb1CJ6).
 
 The banner image used at the top is from [common-lisp.net](https://common-lisp.net/).
 
