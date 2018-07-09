@@ -1,8 +1,8 @@
 Esperanto Affixes
 =================
 
-<center>September 10, 2016</center>
-<center>Last updated: November 25, 2017</center>
+<div class="center">September 10, 2016</div>
+<div class="center">Last updated: November 25, 2017</div>
 
 Here is a short listing of the different affixes that Esperanto uses.
 

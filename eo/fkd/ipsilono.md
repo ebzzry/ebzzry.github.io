@@ -1,9 +1,9 @@
 La Ipsilonkombinatoro en Ses Paŝoj
 ==================================
 
-<center>[Esperante](#) · [English](/en/y)</center>
-<center>la 25-an de Novembro 2017</center>
-<center>Laste ŝanĝita: la 20-an de Marto 2018</center>
+<div class="center">[Esperante](#) · [English](/en/y)</div>
+<div class="center">la 25-an de Novembro 2017</div>
+<div class="center">Laste ŝanĝita: la 20-an de Marto 2018</div>
 
 >Unue, decidu. Kaj faru ĝin. Estas la nur maniero por atingi ion.<br>
 >―Lacus CLYNE, Gundam SEED Destiny
@@ -14,8 +14,8 @@ nomon de la rikuran proceduron. La
 permesas onin por presti rikuron, sen referenci la nomatan identigilon.
 
 
-Enhavotabelo
-------------
+<a name="et"></a>Enhavotabelo
+-----------------------------
 
 - [Kio?](#kio)
 - [Paŝo 1-a: Difinu la bazan proceduron](#baza)

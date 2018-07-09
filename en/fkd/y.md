@@ -1,7 +1,7 @@
 The Y Combinator in Six Steps
 =============================
 
-<center>[Esperante](/eo/ipsilono) · [English](#)</center>
+<div class="center">[Esperante](/eo/ipsilono) · [English](#)</div>
 <div class="center">May 9, 2013</div>
 <div class="center">Last updated: December 1, 2017</div>
 

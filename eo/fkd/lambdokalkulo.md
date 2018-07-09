@@ -1,9 +1,9 @@
 Aboco de la Lambdokalkulo
 =========================
 
-<center>[Esperante](#) · [English](/en/lambda-calculus)</center>
-<center>la 21-an de Februaro 2018</center>
-<center>Laste ŝanĝita: la 20-an de Marto 2018</center>
+<div class="center">[Esperante](#) · [English](/en/lambda-calculus)</div>
+<div class="center">la 21-an de Februaro 2018</div>
+<div class="center">Laste ŝanĝita: la 20-an de Marto 2018</div>
 
 >Oni ne vere komprenas ion krom se oni povas klarigi tion al sia avino.<br>
 >―Alberto EJNŜTEJNO
@@ -13,8 +13,8 @@ ne vere povas kompreni ion, krom se mi povas klarigi ĝin. Ĉi tiu afiŝo estas 
 fari tion, kaj evitas tre teĥnikajn temojn, krom se ege bezonatas.
 
 
-Enhavotabelo
-------------
+<a name="et"></a>Enhavotabelo
+-----------------------------
 
 - [Enkonduko](#enkonduko)
   + [Kio ĝi estas?](#kio)
