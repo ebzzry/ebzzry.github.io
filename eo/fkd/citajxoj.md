@@ -21,7 +21,7 @@ tra la jarojn.
   ―H.H. WILLIAMS
 
 
-- Diplomatio estas la arto de diri ‘bonan hundon’ ĝis oni povas trovi ŝtonon.<br>
+- Diplomatio estas la arto de diri ‘bonan hundon’ ĝis ŝtonon oni povas trovi.<br>
   ―Will ROGERS
 
 

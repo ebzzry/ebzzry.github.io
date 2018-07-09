@@ -32,7 +32,6 @@ Musings of a Pedantic Primate
 - [My Kinesis Advantage Layout](advantage)
 - [A Brief Git and GitHub Tour](git-github)
 - [Emacs and Pairs](emacs-pairs)
-- [Conkeror Bookmarks with emem](conkeror-bookmarks)
 - [Virtualizing with KVM in Linux](kvm)
 - [A Lambda Calculus Primer](lambda-calculus)
 - [Emacs Tips 2: Sessions and Packages](emacs-tips-2)
