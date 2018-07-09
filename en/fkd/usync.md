@@ -1,7 +1,7 @@
 Synchronizing Sites with Usync
 ==============================
 
-<center>[Esperante](/eo/usync-o) · [English](#)</center>
+<div class="center">[Esperante](/eo/usync-o) · [English](#)</div>
 <div class="center">May 21, 2013</div>
 <div class="center">Last updated: February 11, 2018</div>
 

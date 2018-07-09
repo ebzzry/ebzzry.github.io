@@ -1,9 +1,9 @@
 Reflections
 ===========
 
-<center>[Esperante](/eo/pripensoj) · [English](#)</center>
-<center>November 24, 2015</center>
-<center>Last updated: July 7, 2018</center>
+<div class="center">[Esperante](/eo/pripensoj) · [English](#)</div>
+<div class="center">November 24, 2015</div>
+<div class="center">Last updated: July 8, 2018</div>
 
 This page contains contains some of my personal reflections.
 
@@ -268,3 +268,6 @@ Entries are sorted in chronological order.
 
 
 - The favorite puppets of puppeteers are the the ones who wants be puppeteered.<br>
+
+
+- In all wars, all of the participants get injured.<br>

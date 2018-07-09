@@ -1,9 +1,9 @@
-Krei Sekurkopiojn Ugarit-e
+Sekurkopiojn Ugarit-e Krei
 ==========================
 
-<center>[Esperante](#) · [English](/en/ugarit)</center>
-<center>la 18-an de Februaro 2018</center>
-<center>Laste ŝanĝita: la 19-an de Februaro 2018</center>
+<div class="center">[Esperante](#) · [English](/en/ugarit)</div>
+<div class="center">la 18-an de Februaro 2018</div>
+<div class="center">Laste ŝanĝita: la 19-an de Februaro 2018</div>
 
 >Bona juĝo devenas el sperto, kaj sperto devenas el malbona juĝo.<br>
 >―Fred BROOKS
@@ -22,8 +22,8 @@ En ĉi tiu afiŝo, mi parolos pri
 de teĥnologio, kiu kunmiksas facilecon de uzado kaj sekurecon en unu ilo.
 
 
-Enhavotabelo
-------------
+<a name="et"></a>Enhavotabelo
+-----------------------------
 
 - [Superrigardo](#superrigardo)
 - [Instalo](#instalo)

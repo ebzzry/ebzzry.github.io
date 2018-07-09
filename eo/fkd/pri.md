@@ -1,9 +1,9 @@
 Pri
 ===
 
-<center>[Esperante](#) · [English](/en/about)</center>
-<center>la 27-an de Aprilo 2017</center>
-<center>Laste ŝanĝita: la 21-an de Februaro 2018</center>
+<div class="center">[Esperante](#) · [English](/en/about)</div>
+<div class="center">la 27-an de Aprilo 2017</div>
+<div class="center">Laste ŝanĝita: la 21-an de Februaro 2018</div>
 
 <img style="margin-right: 0.5em; margin-bottom: 0.5em;" src="/bildoj/identicon.png" alt="Ve!" title="Ve!" align="left" />
 
