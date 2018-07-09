@@ -1,14 +1,15 @@
 Virtualizing with KVM in Linux
 ==============================
 
+<div class="center">[Esperante](/eo/kvm) · [English](#)</div>
 <div class="center">June 15, 2015</div>
-<div class="center">Last updated: November 7, 2017</div>
+<div class="center">Last updated: July 8, 2018</div>
 
 >If you do what you’ve always done, you’ll get what you’ve always gotten.<br>
 >―Anthony Robbins
 
-Most of you are familiar
-with [full virtualization](https://en.wikipedia.org/wiki/Full_virtualization) solutions like VMware
+Most of you are familiar with
+[full virtualization](https://en.wikipedia.org/wiki/Full_virtualization) solutions like VMware
 Workstation, Oracle VirtualBox, and Parallels. In this post, I’ll re-introduce you to another, arguably
 faster, way of doing things.
 
@@ -18,14 +19,15 @@ the [EUID](https://en.wikipedia.org/wiki/User_identifier#Effective_user_ID) of a
 zero (0) due to the use of sudo.
 
 
-Table of contents
------------------
+<a name="toc">Table of contents</a>
+-----------------------------------
 
 - [Setup](#setup)
   + [Hardware](#hardware)
   + [Software](#software)
 - [Configuration](#configuration)
   + [Images](#images)
+  + [KVM group](#kvmgroup)
   + [Networking](#networking)
 - [Execution](#execution)
   + [Load the image](#loadimage)
@@ -37,11 +39,11 @@ Table of contents
 - [Closing remarks](#closing)
 
 
-<a name="setup"></a> Setup
---------------------------
+<a name="setup"></a>Setup
+-------------------------
 
 
-### <a name="hardware"></a> Hardware
+### <a name="hardware"></a>Hardware
 
 One of the first things that you need to do is to
 enable
@@ -61,7 +63,7 @@ system indeed recognizes it.
 If it returns some text, then you’re good.
 
 
-### <a name="software"></a> Software
+### <a name="software"></a>Software
 
 Next, you need to install the essential applications.
 
@@ -89,11 +91,11 @@ for [VNC](https://en.wikipedia.org/wiki/Virtual_Network_Computing), but rather, 
 of meeting your goals.
 
 
-<a name="configuration"></a> Configuration
-------------------------------------------
+<a name="configuration"></a>Configuration
+-----------------------------------------
 
 
-### <a name="images"></a> Images
+### <a name="images"></a>Images
 
 QEMU supports an array of image types, however the [QCOW2](https://en.wikipedia.org/wiki/Qcow)
 format is the most flexible, and feature-rich, for QEMU use.
@@ -111,7 +113,7 @@ doesn’t really matter—you can name your image as `index.html`, but that woul
 sense, right? 😄
 
 
-### <a name="kvmgroup"></a> KVM group
+### <a name="kvmgroup"></a>KVM group
 
 The commands below require that a group named `kvm` exists and that you are a member of that
 group. To take those into effect, run:
@@ -123,13 +125,13 @@ group. To take those into effect, run:
 The last command enrolls you to the kvm group without logging out of your session.
 
 
-### <a name="networking"></a> Networking
+### <a name="networking"></a>Networking
 
 QEMU supports [many ways](http://wiki.qemu-project.org/Documentation/Networking) of setting up
 networking for its guests, but for this post we’ll use VDE.
 
 You need to run several commands to prep the networking environment. Ideally, you’d want to save
-these in a shell function, or a shell script:
+these in a shell function or script:
 
 ```bash
 $ sudo vde_switch -tap tap0 -mod 660 -group kvm -daemon
@@ -141,17 +143,17 @@ $ sudo iptables -t nat -A POSTROUTING -s 10.0.2.0/24 -j MASQUERADE
 
 The above commands will:
 
-1. Create a VDE device
-2. Configure the TCP/IP options for that device
-3. Enable the VDE device
-4. Enable packet forwarding on the host OS
-5. Setup the routing configuration
+1. Create a VDE device.
+2. Configure the TCP/IP options for that device.
+3. Enable the VDE device.
+4. Enable packet forwarding on the host OS.
+5. Setup the routing configuration.
 
 
-<a name="execution"></a> Execution
-----------------------------------
+<a name="execution"></a>Execution
+---------------------------------
 
-### <a name="loadimage"></a> Load the image
+### <a name="loadimage"></a>Load the image
 
 You now need to invoke `qemu-kvm`, the command that will launch everything up. The name of the
 command may differ with the one installed on your system.
@@ -179,7 +181,7 @@ Let’s break that down:
 
     -cpu host
 
-Use the KVM processor with all the supported features
+Use the KVM processor with all the supported features.
 
     -m 2G
 
@@ -187,7 +189,7 @@ Allocate 2GiB of host memory for the guest. Adjust as necessary.
 
     -net nic,model=virtio -net vde
 
-Create a virtual NIC, and enable VDE networking
+Create a virtual NIC, and enable VDE networking.
 
     -soundhw all
 
@@ -201,7 +203,7 @@ Specify the video adapter to emulate. Use QXL when using SPICE
 
 Specify the options for SPICE, separated by commas. _addr_ and _port_ are the IP address and TCP
 port that SPICE will listen on. Ideally, access to that port must be properly configured, and
-secured. _password_ is key that will be used by the SPICE client, _spicec_, to connect to the guest
+secured. _password_ is key that will be used by the SPICE client, _spicy_, to connect to the guest
 display later.
 
     -boot once=d -cdrom installer.iso
@@ -212,18 +214,18 @@ Running the _qemu-kvm_ command above will load the image, but you won’t be abl
 yet.
 
 
-### <a name="display"></a> Connect to the SPICE display
+### <a name="display"></a>Connect to the SPICE display
 
 To be able to use the guest machine’s display, you need to connect to
 the SPICE server, using the SPICE client `spicy`:
 
-    $ spicy -h 127.0.0.1 -p 5901 -w supersecretkey
+    $ spicy -h 127.0.0.1 -p 9999 -w supersecretkey
 
 Take note that closing the spicy window will not kill the QEMU session. If the guest OS captures
-the mouse input, press <kbd>Shift+F12</kbd>, to get out of it.
+the mouse input, press m<kbd>Shift+F12</kbd>, to get out of it.
 
 
-### <a name="guestnetworking"></a> Configure guest networking
+### <a name="guestnetworking"></a>Configure guest networking
 
 Next, you need to properly configure the network configuration of the guest OS so that it can
 connect to the rest of the local network, and to the internet if the host machine has access to it.
@@ -242,11 +244,11 @@ DNS servers:
     8.8.4.4
 
 
-<a name="closingcurtains"></a> Closing the curtains
----------------------------------------------------
+<a name="closingcurtains"></a>Closing the curtains
+--------------------------------------------------
 
 
-### <a name="restorenetworking"></a> Restore networking
+### <a name="restorenetworking"></a>Restore networking
 
 If you want to explicitly revert the network configuration, do the following.
 
@@ -270,8 +272,8 @@ The above commands will:
 6. Remove control files
 
 
-<a name="all"></a> Putting it all
----------------------------------
+<a name="all"></a>Putting it all
+--------------------------------
 
 Here are all the commands from above, compiled into functions, so that they can be ran from the
 command line:
@@ -300,7 +302,7 @@ function kvm-net () {
 function kvm-boot () {
     sudo qemu-kvm -cpu host -m 2G -net nic,model=virtio -net vde \
     -soundhw all -vga qxl \
-    -spice port=6900,addr=127.0.0.1,disable-ticketing \
+    -spice port=9999,addr=127.0.0.1,disable-ticketing \
     $@
 }
 
@@ -309,7 +311,7 @@ function kvm-iso () {
 }
 
 function kvm-display () {
-    spicy -p 6900 -h 127.0.0.1
+    spicy -p 9999 -h 127.0.0.1
 }
 ```
 
@@ -339,10 +341,9 @@ QEMU supports a myriad of cool options that we’ve not even discussed here, inc
 loading states (snapshots), creating screen and audio grabs, and a whole lot more. To learn more
 about them, click [here](http://wiki.qemu-project.org/Main_Page).
 
-QEMU with KVM is a powerful, fast, and flexible solution for
-doing [Full Virtualization](https://en.wikipedia.org/wiki/Full_virtualization). At least in my case,
-it out-performs the well-known options in the market. If you want to contribute to this project,
-head over to their [GitHub page](https://github.com/qemu/qemu).
+QEMU with KVM is a powerful, fast, and flexible solution for doing full virtualization. At least in
+my case, it out-performs the well-known options in the market. If you want to contribute to this
+project, head over to their [GitHub page](https://github.com/qemu/qemu).
 
 I hope this post helped you, in one way or another, learn more about QEMU and KVM and what it has to
 offer.
