@@ -1,9 +1,9 @@
-Blogi Frog-e
+Frog-e Blogi
 ============
 
-<center>[Esperante](#) · [English](/en/frog)</center>
-<center>la 16-an de Februaro 2018</center>
-<center>Laste ŝanĝita: la 20-an de Marto 2018</center>
+<div class="center">[Esperante](#) · [English](/en/frog)</div>
+<div class="center">la 16-an de Februaro 2018</div>
+<div class="center">Laste ŝanĝita: la 20-an de Marto 2018</div>
 
 >Unu persono kun ardo estas pli bona ol kvardek personoj nure interesataj.<br>
 >―E.M. FORSTER
@@ -20,8 +20,8 @@ vidi reklamojn sur mia retejo. Mi ne volas surprizajn cenzuradojn. Mi volas libe
 estas kiel mi, daŭru legi.
 
 
-Enhavotabelo
-------------
+<a name="et"></a>Enhavotabelo
+-----------------------------
 
 - [Superrigardo](#superrigardo)
 - [Instalo](#instalo)

@@ -1,9 +1,9 @@
 Creating Backups with Ugarit
 ============================
 
-<center>[Esperante](#/eo/ugarit-o) · [English](#)</center>
-<center>February 21, 2014</center>
-<center>Last updated: Februaro 19, 2018</center>
+<div class="center">[Esperante](#/eo/ugarit-o) · [English](#)</div>
+<div class="center">February 21, 2014</div>
+<div class="center">Last updated: Februaro 19, 2018</div>
 
 >Good judgement comes from experience, and experience comes from bad judgement.<br>
 >―Fred Brooks

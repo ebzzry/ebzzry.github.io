@@ -1,9 +1,9 @@
 Quotes
 ======
 
-<center>[Esperante](/eo/citajxoj) · [English](#)</center>
-<center>August 29, 2015</center>
-<center>Last updated: June 6, 2018</center>
+<div class="center">[Esperante](/eo/citajxoj) · [English](#)</div>
+<div class="center">August 29, 2015</div>
+<div class="center">Last updated: June 6, 2018</div>
 
 This page contains a list of curated quotations, aphorisms, and proverbs that I have collected over
 the years.

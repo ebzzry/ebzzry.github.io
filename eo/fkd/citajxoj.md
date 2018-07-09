@@ -1,9 +1,9 @@
 Citaĵoj
 =======
 
-<center>[Esperante](#) · [English](/en/quotes)</center>
-<center>la 15-an de Novembro 2017</center>
-<center>Laste ŝanĝita: la 6-an de Junio 2018</center>
+<div class="center">[Esperante](#) · [English](/en/quotes)</div>
+<div class="center">la 15-an de Novembro 2017</div>
+<div class="center">Laste ŝanĝita: la 6-an de Junio 2018</div>
 
 Ĉi tiu paĝo enhavas liston de atenteme elektitaj citaĵoj, aforismoj, kaj sentencoj kiujn mi kolektis
 tra la jarojn.
@@ -353,7 +353,7 @@ tra la jarojn.
   ―Sennoma
 
 
-- Se vi faras tion, kion vi ĉiam faras; vi akiros tion, kion vi ĉiam akiras.<br>
+- Se tion vi faras, kion vi ĉiam faras; tion vi akiros, kion vi ĉiam akiras.<br>
   ―Anthony ROBBINS
 
 

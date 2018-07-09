@@ -1,8 +1,8 @@
 My Markdown Style Guide
 =======================
 
-<center>April 3, 2017</center>
-<center>Last updated: October 21, 2017</center>
+<div class="center">April 3, 2017</div>
+<div class="center">Last updated: October 21, 2017</div>
 
 >The laws that govern circumstances are abolished by new circumstances.<br>
 >―Napoleon Bonaparte

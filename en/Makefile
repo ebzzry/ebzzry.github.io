@@ -12,7 +12,7 @@ all:
 	parallel --will-cite "$(MAKE) {/.}.html" ::: $(DOSIEROJ)
 	$(KONSTRUILO) \
           -D "A journal about computing, human predilections, and random krakaboom." \
-          -K "ebzzry, rommel, martinez, rommel martinez, padantic primate" \
+          -K "ebzzry, rommel, martinez, rommel martinez, pedantic primate" \
           --og-title "Musings of a Pedantic Primate" \
           --og-type $(OG_TYPE) \
           --og-url "https://ebzzry.io/en/" \

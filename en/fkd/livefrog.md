@@ -1,7 +1,7 @@
 Migrating from LiveJournal to Frog
 ==================================
 
-<center>[Esperante](/eo/frog) · [English](#)</center>
+<div class="center">[Esperante](/eo/frog) · [English](#)</div>
 <div class="center">May 29, 2013</div>
 <div class="center">Last updated: February 8, 2018</div>
 
