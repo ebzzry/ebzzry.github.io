@@ -1,9 +1,9 @@
 About
 =====
 
-<center>[Esperante](/eo/pri) · [English](#)</center>
-<center>March 27, 2017</center>
-<center>Last updated: February 21, 2018</center>
+<div class="center">[Esperante](/eo/pri) · [English](#)</div>
+<div class="center">March 27, 2017</div>
+<div class="center">Last updated: February 21, 2018</div>
 
 <img style="margin-right: 0.5em; margin-bottom: 0.5em;" src="/bildoj/identicon.png" alt="Ve!" title="Ve!" align="left" />
 

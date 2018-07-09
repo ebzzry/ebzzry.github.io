@@ -1,27 +1,28 @@
 Pensoj de Pedanta Primato
 =========================
 
-<center>[Esperante](#) · [English](/en/)</center>
-<center>la 27-an de Aprilo 2017</center>
-<center>Laste ŝanĝita: la 2-an de Marto 2018</center>
+<div class="center">[Esperante](#) · [English](/en/)</div>
+<div class="center">la 27-an de Aprilo 2017</div>
+<div class="center">Laste ŝanĝita: la 8-an de Julio 2018</div>
 
 <img src="/bildoj/kafofaboj.jpg" class="banner" alt="kafofaboj" />
 
 <div class="text-right">Retejo pri komputiko, hominklinaĵoj, kaj hazardaĵoj.</div>
 <div class="text-right">Enskriboj ordigatas laŭ inversa kronologiordo.</div>
 
+- [KVM-e Virtualigadi en Linukso](kvm)
 - [Aboco de la Lambdokalkulo](lambdokalkulo)
 - [Emakskonsiletoj 2-a: Seancoj kaj Pakoj](emakskonsiletoj-2-a)
 - [Agordi je GPG kaj je SSH en KDE-o](gsk)
-- [Krei Sekurkopiojn Ugarit-e](ugarit-o)
-- [Blogi Frog-e](frog-o)
+- [Sekurkopiojn Ugarit-e Krei](ugarit-o)
+- [Frog-e Blogi](frog-o)
 - [Agordi Retpoŝton Emakse](emakso-retposxto)
 - [Agordi Rakidprogramadon Emakse](emakso-rakido)
 - [Mastrumi Dosierujojn Emakse](emakso-dired-o)
 - [Emakskonsiletoj 1-a: Regionoj kaj Markoj](emakskonsiletoj-1-a)
 - [Retrospekte](retrospekte)
 - [Migri de LiveJournal al Frog-o](livefrog-o)
-- [Sinkronigi Retnodojn Usync-e](usync-o)
+- [Usync-e Sinkronigi Retnodojn](usync-o)
 - [Malŝparitaj Malcedemoj](malsxparitaj)
 - [Supre, Malsupre, kaj Aliloke](supre-malsupre)
 - [La Ipsilonkombinatoro en Ses Paŝoj](ipsilono)

@@ -1,9 +1,9 @@
 Agordi Rakidprogramadon Emakse
 ==============================
 
-<center>[Esperante](#) · [English](/en/emacs-racket)</center>
-<center>la 13-an de Februaro 2018</center>
-<center>Laste ŝanĝita: la 13-an de Februaro 2018</center>
+<div class="center">[Esperante](#) · [English](/en/emacs-racket)</div>
+<div class="center">la 13-an de Februaro 2018</div>
+<div class="center">Laste ŝanĝita: la 13-an de Februaro 2018</div>
 
 >Ĉiom da bonaj ideoj ne kuŝas sub unu ĉapelo.<br>
 >―Dale TURNER
@@ -14,8 +14,8 @@ aliro—iuj traktis ĝin en aserteble pli bonaj manieroj. En ĉi tiu afiŝo, mi 
 longan vojon, kiun mi vojaĝis.
 
 
-Enhavotabelo
-------------
+<a name="et"></a>Enhavotabelo
+-----------------------------
 
 - [Superrigardo](#superrigardo)
 - [Instalo](#instalo)

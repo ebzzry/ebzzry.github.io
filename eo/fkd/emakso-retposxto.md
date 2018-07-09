@@ -1,9 +1,9 @@
 Agordi Retpoŝton Emakse
 =======================
 
-<center>[Esperante](#) · [English](/en/emacs-mail)</center>
-<center>la 14-an de Februaro 2018</center>
-<center>Laste ŝanĝita: la 14-an de Februaro 2018</center>
+<div class="center">[Esperante](#) · [English](/en/emacs-mail)</div>
+<div class="center">la 14-an de Februaro 2018</div>
+<div class="center">Laste ŝanĝita: la 14-an de Februaro 2018</div>
 
 >Nur tial ke ne fariĝis, ne signifas, ke ne fareblas. Nur tial ke fareblas, ne
 >signifas, ke devus.<br>
@@ -20,8 +20,8 @@ kaj kiel agordi ilin ĝuste. En ĉi tiu lernilo, mi supozas, ke oni akiras siajn
 [Gmail-e](https://gmail.com) per ĝia IMAP-a interfacio.
 
 
-Enhavotabelo
-------------
+<a name="et"></a>Enhavotabelo
+-----------------------------
 
 - [Elŝuti mesaĝojn](#elŝuti)
   + [Instalo](#elŝutiinstalo)

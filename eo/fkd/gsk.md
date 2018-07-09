@@ -1,9 +1,9 @@
 Agordi je GPG kaj je SSH en KDE-o
 =================================
 
-<center>[Esperante](#) · [English](/en/gsk)</center>
-<center>la 19-an de Februaro 2018</center>
-<center>Laste ŝanĝita: la 20-an de Marto 2018</center>
+<div class="center">[Esperante](#) · [English](/en/gsk)</div>
+<div class="center">la 19-an de Februaro 2018</div>
+<div class="center">Laste ŝanĝita: la 20-an de Marto 2018</div>
 
 >Ne tute estas grave por prave atingi tion en la unua fojo. Estas vitale grava atingi tion en la
 >lasta tempo.<br>
@@ -17,8 +17,8 @@ kiel instali kaj agordi la bezonatajn komponantojn. Ni uzos je [nano](https://ww
 por ĉi tiu seanco, tamen oni liberas uzi ian redaktilon.
 
 
-Enhavotabelo
-------------
+<a name="et"></a>Enhavotabelo
+-----------------------------
 
 - [Postuloj](#postuloj)
 - [Agordi je SSH](#ssh)

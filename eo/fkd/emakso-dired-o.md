@@ -1,9 +1,9 @@
 Mastrumi Dosierujojn Emakse
 ===========================
 
-<center>[Esperante](#) · [English](/en/emacs-dired)</center>
-<center>la 12-an de Februaro 2018</center>
-<center>Laste ŝanĝita: la 12-an de Februaro 2018</center>
+<div class="center">[Esperante](#) · [English](/en/emacs-dired)</div>
+<div class="center">la 12-an de Februaro 2018</div>
+<div class="center">Laste ŝanĝita: la 12-an de Februaro 2018</div>
 
 >Supozi estas bona, tamen eltrovi estas pli bona.<br>
 >―Samuel CLEMENS
@@ -14,8 +14,8 @@ egalvaloro de dosieradministrilo. Kio ajn oni povas fari al regulaj bufroj, oni 
 al Dired-aj bufroj.
 
 
-Enhavotabelo
-------------
+<a name="et"></a>Enhavotabelo
+-----------------------------
 
 - [Superrigardo](#superrigardo)
 - [Komunaj komandoj](#komunaj)

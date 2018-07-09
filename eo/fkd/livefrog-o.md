@@ -1,9 +1,9 @@
 Migri de LiveJournal al Frog-o
 ==============================
 
-<center>[Esperante](#) · [English](/en/livefrog)</center>
-<center>la 7-an de Februaro 2018</center>
-<center>Laste ŝanĝita: la 20-an de Marto 2018</center>
+<div class="center">[Esperante](#) · [English](/en/livefrog)</div>
+<div class="center">la 7-an de Februaro 2018</div>
+<div class="center">Laste ŝanĝita: la 20-an de Marto 2018</div>
 
 >Mi ne scias kien mi iras, sed mi estas sur mia vojo.<br>
 >―Carl SAGAN
@@ -15,8 +15,9 @@ LiveJournal-ajn afiŝojn al alia platformo. Ekzistas iloj kiuj faras ĉi tion, t
 nenion, ĝis nun, kiu tradukas al [Frog](https://github.com/greghendershott/frog/) dosieroj. Ĉi tio
 estas mia malforta provo por atingi tiun celon.
 
-Enhavotabelo
-------------
+
+<a name="et"></a>Enhavotabelo
+-----------------------------
 
 - [Superrigardo](#superrigardo)
 - [Instalo](#instalo)

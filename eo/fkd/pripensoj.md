@@ -1,9 +1,9 @@
 Pripensoj
 =========
 
-<center>[Esperante](#) · [English](/en/reflections)</center>
-<center>la 3-an de Novembro 2017</center>
-<center>Laste ŝanĝita: la 7-an de Julio 2018</center>
+<div class="center">[Esperante](#) · [English](/en/reflections)</div>
+<div class="center">la 3-an de Novembro 2017</div>
+<div class="center">Laste ŝanĝita: la 8-an de Julio 2018</div>
 
 Ĉi tiu paĝo enhavas kelke da miaj propraj pripensoj.
 
@@ -263,3 +263,6 @@ Enskriboj ordigatas laŭ kronologiordo.
 
 
 - La plej ŝatataj marionetoj de marionetuloj estas la tiuj, kiuj volas esti marionetigitaj.<br>
+
+
+- En ĉiuj militoj, ĉiom da partoprenantoj vundiĝas.<br>

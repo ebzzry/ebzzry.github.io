@@ -1,16 +1,16 @@
 Emakskonsiletoj 2-a: Seancoj kaj Pakoj
 ======================================
 
-<center>[Esperante](#) · [English](/en/emacs-tips-2)</center>
-<center>la 20-an de Februaro 2018</center>
-<center>Laste ŝanĝita: la 20-an de Marto 2018</center>
+<div class="center">[Esperante](#) · [English](/en/emacs-tips-2)</div>
+<div class="center">la 20-an de Februaro 2018</div>
+<div class="center">Laste ŝanĝita: la 20-an de Marto 2018</div>
 
 Ĉi tiu estas la daŭrigo de la serioj pri Emaksaj konsiletoj. En ĉi tiu afiŝo, ni esploras seancan
 mastrumadon, pakojn, krommarĝenojn, kaj aliajn malgrandajn agrablajn aferojn.
 
 
-Enhavotabelo
-------------
+<a name="et"></a>Enhavotabelo
+-----------------------------
 
 - [Desktop](#desktop)
 - [Savehist](#savehist)

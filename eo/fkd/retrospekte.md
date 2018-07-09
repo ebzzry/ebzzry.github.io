@@ -1,9 +1,9 @@
 Retrospekte
 ===========
 
-<center>[Esperante](#) · [English](/en/retrospect)</center>
-<center>la 8-an de Februaro 2018</center>
-<center>Laste ŝanĝita: la 20-an de Marto 2018</center>
+<div class="center">[Esperante](#) · [English](/en/retrospect)</div>
+<div class="center">la 8-an de Februaro 2018</div>
+<div class="center">Laste ŝanĝita: la 20-an de Marto 2018</div>
 
 >El la militolernejo de la vivo: Kion ne detruas min, faras min pli forte.<br>
 >―Friedrich NIETZSCHE

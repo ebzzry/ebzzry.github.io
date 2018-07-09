@@ -1,9 +1,9 @@
 Emakskonsiletoj 1-a: Regionoj kaj Markoj
 ========================================
 
-<center>[Esperante](#) · [English](/en/emacs-tips-1)</center>
-<center>la 12-an de Februaro 2018</center>
-<center>Laste ŝanĝita: la 20-an de Marto 2018</center>
+<div class="center">[Esperante](#) · [English](/en/emacs-tips-1)</div>
+<div class="center">la 12-an de Februaro 2018</div>
+<div class="center">Laste ŝanĝita: la 20-an de Marto 2018</div>
 
 Mi ankoraŭ bezonas trovi pli bonan redaktilon ol [Emakso](https://www.gnu.org/software/emacs/). Kio
 faras Emakson elstari, estas sia agorda lingvo—Emaksa Lispo. Emakso uzas ĝin al punkto, en kiu,
@@ -11,8 +11,8 @@ plejmulto de la funkciado de si mem, realigitas per Emakslispo. En ĉi tiuj seri
 la aferojn, kiujn mi malkovris fari la uzadon de Emakso pli agrabla.
 
 
-Enhavotabelo
-------------
+<a name="et"></a>Enhavotabelo
+-----------------------------
 
 - [Regionoj](#regionoj)
 - [Kompilo](#kompilo)

@@ -1,9 +1,9 @@
 Blogging with Frog
 ==================
 
-<center>[Esperante](/eo/frog-o) · [English](#)</center>
-<center>February 19, 2014</center>
-<center>Last updated: February 18, 2018</center>
+<div class="center">[Esperante](/eo/frog-o) · [English](#)</div>
+<div class="center">February 19, 2014</div>
+<div class="center">Last updated: February 18, 2018</div>
 
 >One person with passion is better than forty people merely interested.<br>
 >―E.M. Forster

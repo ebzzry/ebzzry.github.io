@@ -1,7 +1,7 @@
 Over, Under, and Elsewhere
 ==========================
 
-<center>[Esperante](/eo/supre-malsupre) · [English](#)</center>
+<div class="center">[Esperante](/eo/supre-malsupre) · [English](#)</div>
 <div class="center">May 9, 2013</div>
 <div class="center">Last updated: December 6, 2017</div>
 

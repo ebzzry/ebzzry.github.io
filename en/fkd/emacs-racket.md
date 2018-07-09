@@ -1,7 +1,7 @@
 Setting Up Racket Development in Emacs
 ======================================
 
-<center>[Esperante](/eo/emakso-rakido) · [English](#)</center>
+<div class="center">[Esperante](/eo/emakso-rakido) · [English](#)</div>
 <div class="center">September 29, 2013</div>
 <div class="center">Last updated: February 13, 2018</div>
 

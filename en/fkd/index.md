@@ -1,9 +1,9 @@
 Musings of a Pedantic Primate
 =============================
 
-<center>[Esperante](/eo/) · [English](#)</center>
-<center>August 15, 2015</center>
-<center>Last updated: November 16, 2017</center>
+<div class="center">[Esperante](/eo/) · [English](#)</div>
+<div class="center">August 15, 2015</div>
+<div class="center">Last updated: November 16, 2017</div>
 
 <img src="/bildoj/kafofaboj.jpg" class="banner" alt="kafofaboj" />
 

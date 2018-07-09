@@ -1,9 +1,9 @@
-Sinkronigi Retnodojn Usync-e
+Usync-e Sinkronigi Retnodojn
 ============================
 
-<center>[Esperante](#) · [English](/en/usync)</center>
-<center>la 7-an de Februaro 2018</center>
-<center>Laste ŝanĝita: la 20-an de Marto 2018</center>
+<div class="center">[Esperante](#) · [English](/en/usync)</div>
+<div class="center">la 7-an de Februaro 2018</div>
+<div class="center">Laste ŝanĝita: la 20-an de Marto 2018</div>
 
 >Kion mi ne povas krei, mi ne komprenas.<br>
 >―Richard P. FEYNMAN
@@ -19,8 +19,8 @@ fakoj, estis en la unua oficejo. Usync helpas atingi tion. Kreitas per
 [rsync](http://rsync.samba.org/), por ambaŭ- kaj unudirekta sinkronigoj, respektive.
 
 
-Enhavotabelo
-------------
+<a name="et"></a>Enhavotabelo
+-----------------------------
 
 - [Baza uzado](#bazuzado)
 - [Altnivela uzado](#altniveluzado)
