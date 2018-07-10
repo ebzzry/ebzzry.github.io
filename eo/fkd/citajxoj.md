@@ -446,7 +446,7 @@ tra la jarojn.
 
 - La blanka bruo kiu batas ene la blanka mallumo estas la ritmo de la vivo; estas la pulso kiu
   neniam vere foriris la podion.<br>
-  ―Ergo Proxy, Ergo Proxy
+  ―Ergo PROXY, Ergo Proxy
 
 
 - En miaj senesperaj provoj por civitanuliĝi, mi daŭre ĉesigas min kaj provis esti la persono mi
