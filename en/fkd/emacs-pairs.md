@@ -1,8 +1,9 @@
 Emacs and Pairs
 ===============
 
+<div class="center">[Esperante](/eo/emakso-paroj) · [English](#)</div>
 <div class="center">August 15, 2015</div>
-<div class="center">Last updated: March 31, 2017</div>
+<div class="center">Last updated: July 9, 2018</div>
 
 >The white noise that beats within the white darkness is the rhythm of life; it is that pulse which
 >never truly left the stage.<br>
@@ -19,8 +20,8 @@ Take note, though, that the name is a misnomer, as it not only handles parenthes
 about anything that pairs, and it performs those functions stellarly.
 
 
-Table of contents
------------------
+<a name="toc"></a>Table of contents
+-----------------------------------
 
 - [Installation](#installation)
 - [Configuration](#configuration)
@@ -42,18 +43,16 @@ Table of contents
 - [Closing remarks](#closing)
 
 
-<a name="installation"></a> Installation
-----------------------------------------
+<a name="installation"></a>Installation
+---------------------------------------
 
 Installing smartparens is straightforward:
 
-```
-M-x package-install RET smartparens RET
-```
+    M-x package-install RET smartparens RET
 
 
-<a name="configuration"></a> Configuration
-------------------------------------------
+<a name="configuration"></a>Configuration
+-----------------------------------------
 
 Let’s enable smartparens on startup, and hook it with some major hooks:
 
@@ -69,17 +68,17 @@ Let’s enable smartparens on startup, and hook it with some major hooks:
 ```
 
 
-<a name="usage"></a> Usage
---------------------------
+<a name="usage"></a>Usage
+-------------------------
 
 Managing paired characters like parentheses, braces, brackets, quotation marks, angle brackets, and
 other conceivable pair-able characters has always been a pain. Other packages solve that problem
-partially. However, they it still miss several points.
+partially. However, they still miss several points.
 
-In the code snippets below, the `^` symbol will be used to represent point:
+In the code snippets below, the `^` symbol will be used to represent [point](https://www.gnu.org/software/emacs/manual/html_node/elisp/Point.html):
 
 
-### <a name="basics"></a> Basics
+### <a name="basics"></a>Basics
 
 In smartparens, when you input a pair-able character:
 
@@ -99,10 +98,10 @@ the pair:
 ```
 
 
-### <a name="navigation"></a> Navigation
+### <a name="navigation"></a>Navigation
 
 
-#### <a name="startsandends"></a> Starts and ends
+#### <a name="startsandends"></a>Starts and ends
 
 If you have the expression:
 
@@ -133,7 +132,7 @@ Conversely, to move point to the end of the expression:
 Execute `sp-end-of-sexp`. I bound it to <kbd>C-M-e</kbd>.
 
 
-#### <a name="traversinglists"></a> Traversing lists
+#### <a name="traversinglists"></a>Traversing lists
 
 If you have the expression:
 
@@ -212,7 +211,7 @@ and you want to move point to `(format`:
 Execute `sp-backward-up-sexp`. I bound it to <kbd>M-up</kbd>.
 
 
-#### <a name="blockmovements"></a> Block movements
+#### <a name="blockmovements"></a>Block movements
 
 If you have the expression:
 
@@ -230,7 +229,7 @@ and you want to move point after `]`:
                                 ^
 ```
 
-Execute `sp-forward-sexp`. I bound it to <kbd>C-M-f</kbd>
+Execute `sp-forward-sexp`. I bound it to <kbd>C-M-f</kbd>.
 
 Conversely, to move it back to `[`:
 
@@ -243,7 +242,7 @@ Conversely, to move it back to `[`:
 Execute `sp-backward-sexp`. I bound it to <kbd>C-M-b</kbd>.
 
 
-#### <a name="toplevel"></a> Top-level-ish traversal
+#### <a name="toplevel"></a>Top-level-ish traversal
 
 If you have the expression:
 
@@ -279,10 +278,11 @@ Conversely, to move it back:
   )
 
 ```
+
 Execute `sp-previous-sexp`. I bound it to <kbd>C-M-p</kbd>.
 
 
-#### <a name="freeform"></a> Free-form movements
+#### <a name="freeform"></a>Free-form movements
 
 If you have the expression:
 
@@ -300,7 +300,7 @@ and you want to move point to `blah`:
       ^
 ```
 
-Execute, `sp-backward-symbol`. I bound it to <kbd>C-S-b</kbd>.
+Execute `sp-backward-symbol`. I bound it to <kbd>C-S-b</kbd>.
 
 Conversely, if you have the expression:
 
@@ -324,9 +324,9 @@ What they do is that they navigate around expressions as if delimiters, like par
 braces do not exist.
 
 
-### <a name="manipulation"></a> Manipulation
+### <a name="manipulation"></a>Manipulation
 
-#### <a name="wrapping"></a> Wrapping
+#### <a name="wrapping"></a>Wrapping
 
 If you have the expression:
 
@@ -336,7 +336,7 @@ var mods = "vars";
            ^
 ```
 
-and you want `"vars"` to be surrounded by `[` and `]`:
+and you want `"vars"` mto be surrounded by `[` and `]`:
 
 ```javascript
 
@@ -345,7 +345,7 @@ var mods = ["vars"];
 ```
 
 Pressing <kbd>C-M-Space</kbd> or <kbd>ESC C-Space</kbd> followed by <kbd>[</kbd> will make the
-whole region become surrounded by matching `[` and `]`.  It also applies to keys like `(`,
+whole region become surrounded by matching `[` and `]`. It also applies to keys like `(`,
 `{`, `"`, `'`, `*`, `_`, etc, depending on the mode that you’re using.
 
 Alternatively, you may define wrapping functions:
@@ -404,7 +404,7 @@ var mods = ["vars"];
 Nothing will happen. smartparens saves us a lot of trouble, here.
 
 
-#### <a name="unwrapping"></a> Unwrapping
+#### <a name="unwrapping"></a>Unwrapping
 
 If you have the expression:
 
@@ -435,7 +435,7 @@ Conversely, if you want to unwrap the `bar` expression, removing the parentheses
 Execute `sp-unwrap-sexp`. I bound it to <kbd>M-]</kbd>.
 
 
-#### <a name="slurpandbarf"></a> Slurp and barf
+#### <a name="slurpandbarf"></a>Slurp and barf
 
 If you have the expression:
 
@@ -561,11 +561,11 @@ and you want to kill `[clojure.string :as s]`:
           ^
 ```
 
-Execute `sp-backward-kill-sexp`. I bound it to <kbd>M-k</kbd>
+Execute `sp-backward-kill-sexp`. I bound it to <kbd>M-k</kbd>.
 
 
-<a name="keys"></a> Keys
-------------------------
+<a name="keys"></a>Keys
+-----------------------
 
 The following snippet summarizes the key bindings used in this article. I use `bind-keys` to
 conveniently map my keys. I discussed about it, in an [earlier](/en/emacs-tips-2) article.
@@ -621,13 +621,13 @@ conveniently map my keys. I discussed about it, in an [earlier](/en/emacs-tips-2
 ```
 
 
-<a name="closing"></a> Closing remarks
---------------------------------------
+<a name="closing"></a>Closing remarks
+-------------------------------------
 
 The plethora of commands in smartparens may be daunting at first, but the investement in time in
 learning them, will be minimal compared to benefits that you will reap.
 
-smartparens is the brainchild of [Matus Goljer](mailto:matus.goljer@gmail.com). For more information
+smartparens is the brainchild of [Matus Goljer](https://github.com/Fuco1). For more information
 on smartparens, go to [here](https://github.com/Fuco1/smartparens). If you like this project, you
 may
 donate [here](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CEYP5YVHDRX8C).
