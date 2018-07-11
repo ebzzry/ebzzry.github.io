@@ -3,15 +3,16 @@ Pensoj de Pedanta Primato
 
 <div class="center">[Esperante](#) · [English](/en/)</div>
 <div class="center">la 27-an de Aprilo 2017</div>
-<div class="center">Laste ŝanĝita: la 9-an de Julio 2018</div>
+<div class="center">Laste ŝanĝita: la 11-an de Julio 2018</div>
 
 <img src="/bildoj/kafofaboj.jpg" class="banner" alt="kafofaboj" />
 
 <div class="text-right">Retejo pri komputiko, hominklinaĵoj, kaj hazardaĵoj.</div>
 <div class="text-right">Enskriboj ordigatas laŭ inversa kronologiordo.</div>
 
+- [Maldaŭra Rondvojaĝo de Gito kaj GitHub-o](gito-github-o)
 - [Emakso kaj Paroj](emakso-paroj)
-- [KVM-e Virtualigadi en Linukso](kvm)
+- [KVM-e Virtualigadi en Linukso](kvm-o)
 - [Aboco de la Lambdokalkulo](lambdokalkulo)
 - [Emakskonsiletoj 2-a: Seancoj kaj Pakoj](emakskonsiletoj-2-a)
 - [Agordi je GPG kaj je SSH en KDE-o](gsk)
