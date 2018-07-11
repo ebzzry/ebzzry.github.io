@@ -1,8 +1,9 @@
 A Brief Git and GitHub Tour
 ===========================
 
+<div class="center">[Esperante](/eo/gito-github-o) · [English](#)</div>
 <div class="center">August 29, 2015</div>
-<div class="center">Last updated: March 31, 2017</div>
+<div class="center">Last updated: July 11, 2018</div>
 
 >Know how to solve every problem that has been solved.<br>
 >―Richard P. Feynman
@@ -11,12 +12,13 @@ This short tutorial shows how to use [git](https://git-scm.com/) with a [GitHub]
 workflow. A quick Google of *git workflows* shows plenty of diverse results. This article describes
 just one of the ways of using git with a git-hosting service like GitHub.
 
-In this article, the `$` symbol represents the prompt. For demonstration purposes, we’ll use nano as
-the text editor. However, you’re free to use whatever editor you want to use.
+In this article, the `$` symbol represents the prompt. For demonstration purposes, we’ll use
+[nano](https://www.nano-editor.org/) as the text editor. However, you’re free to use whatever editor
+you want to use.
 
 
-Table of contents
------------------
+<a name="toc>"></a>Table of contents
+------------------------------------
 
 - [Basics](#basics)
   + [Initial use](#initial)
@@ -32,13 +34,13 @@ Table of contents
 - [Closing remarks](#closing)
 
 
-<a name="basics"></a> Basics
-----------------------------
+<a name="basics"></a>Basics
+---------------------------
 
-### <a name="initial"></a> Initial use
+### <a name="initial"></a>Initial use
 
 To make things easier later on, you’ll need to create a `.gitignore` file. The .gitignore file
-specifiles files that will be excluded from the repository. Some of these are binary files, and
+specifies files that will be excluded from the repository. Some of these are binary files, and
 error messages that are generated during compilation.
 
 _.gitignore_ files are specific to a project type. A good place to start in determining what a
@@ -54,7 +56,7 @@ Edit the `.gitignore` file in the current directory:
 
     $ nano .gitignore
 
-Then, paste the contents that you have copied earlier.
+Then, paste the contents that you have copied earlier. Save the changes.
 
 You may now initialize the Git repository:
 
@@ -66,10 +68,10 @@ Initially, add all the files in the current directory:
 
 Then, commit the changes:
 
-    $ git commit -m "Initial commit."
+    $ git commit -m "Initial commit"
 
 
-### <a name="subsequent"></a> Subsequent uses
+### <a name="subsequent"></a>Subsequent uses
 
 This section describes the basic commands that you’re going to use, when you already have a
 repository.
@@ -92,13 +94,13 @@ To display the changes that you have staged:
 
 To commit the changes:
 
-    $ git commit -m "Summary of your modifications."
+    $ git commit -m "Make changes"
 
 To display the commit log:
 
     $ git log
 
-To display the list of commit messages, with the diffs:
+To display the commit log with the diffs:
 
     $ git log -p
 
@@ -115,8 +117,8 @@ After that, you may delete the experimental branch:
     $ git branch -d experimental
 
 
-<a name="online"></a> Working online
-------------------------------------
+<a name="online"></a>Working online
+-----------------------------------
 
 This section describes how to work with other developers. You’re going to
 use [GitHub](https://github.com) in this discussion.
@@ -126,33 +128,33 @@ use [GitHub](https://github.com) in this discussion.
 
 You need to be able to authenticate yourself to your GitHub account, before you can push changes. To
 do that, you need to create your SSH keys. To do that, run the following command. Make sure that you
-supply a passphrase, when prompted:
+supply a [strong passphrase](https://xkcd.com/936/), when prompted:
 
-    $ ssh-keygen -t rsa
+    $ ssh-keygen -t ed25519
 
 After you have created your keys, you need to add that key to your GitHub account. To do that, run
 the following command then copy the output:
 
-    $ cat ~/.ssh/id_rsa.pub
+    $ cat ~/.ssh/id_ed25519.pub
 
-Go to <https://github.com/settings/ssh>, then click **Add SSH key**
+Go to <https://github.com/settings/ssh>, then click **Add SSH key** or **New SSH key**:
 
 ![Add SSH key](/bildoj/add-ssh-key.png)
 
 Paste the key, then follow through.
 
 
-### <a name="createrepo"></a> Creating a repository
+### <a name="createrepo"></a>Creating a repository
 
 In your repositories page, create a new repository by clicking **New**:
 
 ![New](/bildoj/new-repository.png)
 
 Follow through the prompts. When you have filled in the required fields, you’ll get a string of
-commands. Replace `shoryuken` and `foobar` with your GitHub username, and the name of the repository
+commands. Replace `ogag` and `foobar` with your GitHub username, and the name of the repository
 that you have created, respectively:
 
-    $ git remote add origin git@github.com:shoryuken/foobar.git
+    $ git remote add origin git@github.com:ogag/foobar.git
     $ git push -u origin master
 
 You’ll be prompted to supply the passphrase you have entered above. The `git push` command uploads
@@ -181,15 +183,15 @@ Next, you need to clone that forked project, to your local disk. Copy the URL lo
 
 ![SSH clone URL](/bildoj/ssh-clone-url.png)
 
-then run the following command, where `hadoken` is your username:
+then run the following command, where `ogagmet` is your username:
 
-    $ git clone git@github.com:hadoken/foobar.git
+    $ git clone git@github.com:ogagmet/foobar.git
 
 Next, create a _remote_ that will track changes from the source repository.
 
-    $ git remote add upstream git@github.com:shoryuken/foobar.git
+    $ git remote add upstream git@github.com:ogag/foobar.git
 
-When you want to make changes to the code, create a separate branch.  Use a branch name that is
+When you want to make changes to the code, create a separate branch. Use a branch name that is
 descriptive of the changes that you want to make. This name can be changed later. In this example,
 we’ll create a branch named `new-options`:
 
@@ -213,20 +215,22 @@ Select **compare across forks**:
 
 ![Compare Across Forks](/bildoj/compare-across-forks.png)
 
-In the left side, under the **base fork** field, select **shoryuken/foobar**, and in the **base**
+In the left side, under the **base fork** field, select **ogag/foobar**, and in the **base**
 field, select **master**.
 
-In the right side, under the **head fork** field, select **hadoken/foobar**, and in the **compare**
-select **new-options**, or whatever name you used above. Click **Create pull request**:
+In the right side, under the **head fork** field, select **ogagmet/foobar**, and in the **compare**
+select **new-options**
+
+Then, click **Create pull request**:
 
 ![Create pull request](/bildoj/create-pull-request.png)
 
 then, follow through.
 
 
-### <a name="syncupstream"></a> Synchronizing with upstream
+### <a name="syncupstream"></a>Synchronizing with upstream
 
-To synchronize the upstream branch with the source repository, pull changes from the upstream
+To synchronize the upstream branch with the local repository, pull changes from the upstream
 remote:
 
     $ git pull upstream master
@@ -236,7 +240,7 @@ Then push to your own repository:
     $ git push origin master
 
 
-<a name="pulling"></a> Pulling changes
+<a name="pulling"></a>Pulling changes
 --------------------------------------
 
 If you are the owner of the source repository, and you want to pull in changes from contributors,
@@ -247,7 +251,7 @@ click **Pull requests** from the repository page:
 then, follow through.
 
 
-<a name="mergeupstream"></a> Merging with upstream
+<a name="mergeupstream"></a>Merging with upstream
 --------------------------------------------------
 
 If you are a contributor, and your changes have been pulled in the source repository, synchronize
@@ -258,6 +262,7 @@ your upstream branch:
 At this point, you may delete the `new-options` branch you have created earlier:
 
     $ git branch -d new-options
+    $ git push origin -d new-options
 
 
 <a name="closing"></a> Closing remarks
