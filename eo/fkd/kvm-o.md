@@ -5,7 +5,7 @@ KVM-e Virtualigadi en Linukso
 <div class="center">la 3-an de Marto 2018</div>
 <div class="center">Laste ŝanĝita: la 8-an de Julio 2018</div>
 
->Se tion vi faras, kion vi ĉiam faras; tion vi akiros, kion vi ĉiam akiras.<br>
+>Se tion oni faras, kion oni ĉiam faras; tion oni akiros, kion oni ĉiam akiras.<br>
 >―Anthony ROBBINS
 
 La [tutvirtualigadajn](https://en.wikipedia.org/wiki/Full_virtualization) solvojn kiel «VMware

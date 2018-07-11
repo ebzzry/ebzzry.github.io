@@ -3,7 +3,7 @@ Citaĵoj
 
 <div class="center">[Esperante](#) · [English](/en/quotes)</div>
 <div class="center">la 15-an de Novembro 2017</div>
-<div class="center">Laste ŝanĝita: la 6-an de Junio 2018</div>
+<div class="center">Laste ŝanĝita: la 10-an de Julio 2018</div>
 
 Ĉi tiu paĝo enhavas liston de atenteme elektitaj citaĵoj, aforismoj, kaj sentencoj kiujn mi kolektis
 tra la jarojn.
@@ -13,7 +13,7 @@ tra la jarojn.
   ―Erik NAGGUM
 
 
-- La momento kiam oni pensas ke si scias ĉion, estas la momento kiam si ĉesas lerni.<br>
+- La momento kiam oni pensas ke oni scias ĉion, estas la momento kiam oni ĉesas lerni.<br>
   ―Yeontabal, Jumong (2006)
 
 
@@ -33,7 +33,7 @@ tra la jarojn.
   ―Laŭzio
 
 
-- Oni ne scias kion si faros. Oni komencas pentri pentraĵon kaj ĝi fariĝos io tute nesama.<br>
+- Oni ne scias kion oni faros. Oni komencas pentri pentraĵon kaj ĝi fariĝos io tute nesama.<br>
   ―Pablo PIKASO
 
 
@@ -43,16 +43,16 @@ tra la jarojn.
 
 
 - La senscio pli ofte naskigas fidon ol scio faras: Tiuj, kiuj scias malmulte, ne tiuj, kiuj
-  scias multe, certigegas ke ĉi tio aŭ tio problemo estos neniam solvita per scienco.<br>
+  scias multe, certigegas ke ĉi tio aŭ tio problemo estos neniam solvita science.<br>
   ―Karlo DARVINO
 
 
-- Evitu la homojn kiuj provas etigi viajn aspirojn. Etaj homoj ĉiam faru tion, sed la vere egaj
-  farigos vin por senti ke ankaŭ vi, povas fariĝi bonega.<br>
+- Evitu la homojn kiuj provas etigi oniajn aspirojn. Etaj homoj ĉiam faru tion, sed la vere egaj
+  farigos onin por senti ke ankaŭ oni, povas fariĝi bonega.<br>
   ―Mark TWAIN
 
 
-- Kiom ajn malmulte vi rigardas la televidon, rigardu malpli.<br>
+- Kiom ajn malmulte oni rigardas la televidon, rigardu malpli.<br>
   ―David MCCULLOUGH
 
 
@@ -61,7 +61,7 @@ tra la jarojn.
   ―Andrew HUNT kaj David THOMAS
 
 
-- Lerni ne estas necesa. Nek estas travivi.<br>
+- Lerni ne estas necesa; nek estas travivi.<br>
   ―W. Edwards DEMING
 
 
@@ -69,7 +69,7 @@ tra la jarojn.
   ―Fred BROOKS
 
 
-- Unu persono kun ardo estas pli bona ol kvardek personoj nure interesataj.<br>
+- Unu persono kun ardo pli bonas ol kvardek personoj nure interesitaj.<br>
   ―E.M. FORSTER
 
 
@@ -78,15 +78,15 @@ tra la jarojn.
   ―Barry GLASFORD
 
 
-- Lernu la reglamentojn por ke vi scias kiel ĝuste rompi ilin.<br>
+- Lernu la reglamentojn por ke oni scias kiel ĝuste rompi ilin.<br>
   ―Dalai-lamao
 
 
-- Ĉiom da bonaj ideoj ne kuŝas sub unu ĉapelo.<br>
+- Ĉiom da bona ideo ne kuŝas sub unu ĉapelo.<br>
   ―Dale TURNER
 
 
-- Ne malkonstruu barilon ĝis vi scias kial ĝi estis konstruita.<br>
+- Ne malkonstruu barilon ĝis oni scias kial ĝi estis konstruita.<br>
   ―G.K. CHESTERTON
 
 
@@ -94,15 +94,15 @@ tra la jarojn.
   ―Robert J. HANLON
 
 
-- Supozi estas bona, tamen eltrovi estas pli bona.<br>
+- Supozi estas bona, tamen eltrovi pli bonas.<br>
   ―Samuel CLEMENS
 
 
-- Plani estas vivgrava, sed planoj estas senutilaj.<br>
+- Plani vivgravas, sed planoj senutilas.<br>
   ―Dwight D. EISENHOWER
 
 
-- La unua regulo de Ron: Ĉiuj treegaj pozicioj estas malĝustaj.<br>
+- La unua regulo de Ron: Ĉiuj treegaj pozicioj malĝustas.<br>
   ―Ron GARRET
 
 
@@ -115,7 +115,7 @@ tra la jarojn.
   ―Steven WEINBERG
 
 
-- Se vi volas pasi, friponu. Se vi volas lerni, esploru.<br>
+- Se oni volas pasi, friponu. Se oni volas lerni, esploru.<br>
   ―Raganwald
 
 
@@ -123,7 +123,7 @@ tra la jarojn.
   ―Carl SAGAN
 
 
-- Mi ne scias kien mi iras, sed mi estas sur mia vojo.<br>
+- Mi ne scias kien mi iras, sed mi estas survoje.<br>
   ―Carl SAGAN
 
 
@@ -131,7 +131,7 @@ tra la jarojn.
   ―Richard P. FEYNMAN
 
 
-- Sciu kiel solvi ĉiun problemon kiun estis solvita.<br>
+- Ĉiujn problemon kiuj estis solvitaj sciu kiel solvi.<br>
   ―Richard P. FEYNMAN
 
 
@@ -141,17 +141,18 @@ tra la jarojn.
   ―Edsger DIJKSTRA
 
 
-- Ne diru al mi kiel laborema vi laboras. Diru al mi kiom da laboro vi faras.<br>
+- Ne diru al mi kiel laborema vii laboras. Diru al mi kiom da laboro vi faris.<br>
   ―James J. LING
 
 
-- Ne ekzistas kialo por supozi ke la kosmo havas la plej malgrandan interezon pri inteligenteco—aŭ eĉ
-  pri ambaŭ. Eble la vivo estas hazarda kromprodukto de siaj operacoj kiel la belaj regulaĝoj sur la
-  flugiloj de papilio. La insekto flugus tiel bone sen ili.<br>
+- Ne ekzistas kialo por supozi ke la kosmo havas la plej malgrandan interezon pri inteligenteco—aŭ
+  eĉ pri ambaŭ. Eble la vivo estas hazarda kromprodukto de siaj operacoj kiel la belaj regulaĝoj sur
+  la flugiloj de papilio. La insekto flugus tiel bone sen ili.<br>
   ―Arthur C. CLARKE
 
 
-- La plej granda tragedio en la tuta historio de homaro estas eble la kaperado de la moraleco per religio.<br>
+- La plej granda tragedio en la tuta historio de homaro estas eble la kaperado de la moraleco per
+  religio.<br>
   ―Arthur C. CLARKE
 
 
@@ -159,28 +160,28 @@ tra la jarojn.
   ―Arthur C. CLARKE
 
 
-- La sekreto de kreemo estas scii kiel kaŝi viajn fontojn.<br>
+- La sekreto de kreemo estas scii kiel kaŝi oniajn fontojn.<br>
   ―Alberto EJNŜTEJNO
 
 
 - Ekzistas dekkelkjarulojn kiuj pensas ke ili kreos fari milionojn kiel NBA-ludantoj, kiam tio ne
-  estas realisma por eĉ unu elcento de ili. Fari scientisto aŭ inĝeniero estas.<br>
+  estas realisma por eĉ unu elcento de ili. Iĝi scientisto aŭ inĝeniero estas.<br>
   ―Dean KAMEN
 
 
-- Se vi volas krei omleton, vi bezonas rompi ovojn.<br>
+- Se oni volas krei omleton, oni bezonas rompi ovojn.<br>
   ―Tyler DURDEN, Fight Club
 
 
-- Se vi volas atingi grandecon, ĉesu peti konsentojn.<br>
+- Se oni volas atingi grandecon, ĉesu peti konsentojn.<br>
   ―Eddie COLLA
 
 
-- La zorgo estas kiel balancoŝego—ĝi donas al vi ion por fari, sed ĝi ne portas vin ie ajn.<br>
+- La zorgo similas al balancoŝego—ĝi donas al oni ion por fari, sed ĝi ne portas onin ien ajn.<br>
   ―Erma BOMBECK
 
 
-- Se vi vivas per mono, estas ĉio vi elakiros.<br>
+- Se oni vivas per mono, estas ĉion oni elakiros.<br>
   ―Sennoma
 
 
@@ -192,7 +193,8 @@ tra la jarojn.
   ―Russell WARREN
 
 
-- Teĥnika kapablo estas la ellerneco de la komplekso, tamen la kreemo estas la ellerneco de la simpleco.<br>
+- Teĥnika kapablo estas la ellerneco de la komplekso, tamen la kreemo estas la ellerneco de la
+  simpleco.<br>
   ―Erik Christopher ZEEMAN
 
 
@@ -200,11 +202,11 @@ tra la jarojn.
   ―Kino MACGREGOR
 
 
-- Ĉesu bedaŭri por vi mem kaj vi estos feliĉa.<br>
+- Ĉesu bedaŭri por oni mem kaj oni feliĉos.<br>
   ―Stephen FRY
 
 
-- En ĉiu pasia ĉasado, la ĉasado kalkulas pli ol la ĉesata objekto.<br>
+- En ĉiu pasia ĉasado, la ĉasado valoriĝas pli ol la ĉesata objekto.<br>
   ―Bruce LEE
 
 
@@ -212,21 +214,21 @@ tra la jarojn.
   ―Randy PAUSCH
 
 
-- La sperto estas tio, kion oni akiras kiam oni ne akiris tion, kion oni volis akiri.<br>
+- La sperto estas tio, kion oni akiras, kiam oni ne akiris tion, kion oni volis akiri.<br>
   ―Randy PAUSCH
 
 
-- La kapablo por paroli ne farigas vin saĝa.<br>
+- La kapablo por paroli ne farigas onin saĝa.<br>
   ―Qui-gon JINN
 
 
-- Prizorgu viajn pensojn; ili fariĝos vortoj. Prizorgu viajn vortojn; ili fariĝos agoj. Prizorgu
-  viajn agojn; ili fariĝos kutimoj. Prizorgu viajn kutimojn; ili fariĝos naturoj. Prizorgu viajn
-  naturojn; ili fariĝos viaj sortoj.<br>
+- Prizorgu oniajn pensojn; ili fariĝos vortoj. Prizorgu oniajn vortojn; ili fariĝos agoj. Prizorgu
+  oniajn agojn; ili fariĝos kutimoj. Prizorgu oniajn kutimojn; ili fariĝos naturoj. Prizorgu oniajn
+  naturojn; ili fariĝos oniaj sortoj.<br>
   ―Laŭzio
 
 
-- Se vi forigos la maleblajn, kio ajn restas, kiel ajn neverŝajnaj, devas esti la vero.<br>
+- Se oni forigos la maleblajn, kio ajn restas, kiel ajn neverŝajnaj, devas esti la vero.<br>
   ―Spock
 
 
@@ -234,36 +236,38 @@ tra la jarojn.
   ―Wayne DYER
 
 
-- Vi ne ĉiam regas kio okazas ekster. Sed vi ĉiam povas regi kio ozakas ene.<br>
+- Oni ne ĉiam regas kio okazas ekster. Sed oni ĉiam povas regi kio ozakas ene.<br>
   ―Wayne DYER
 
 
-- Pardonu aliajn homojn ne tial ke ili meritas pardonon, sed tial ke vi meritas pacon.<br>
+- Pardonu aliajn homojn ne tial ke ili meritas pardonon, sed tial, ke oni meritas la pacon.<br>
   ―Jonathan Lockwood HUIE
 
 
-- La malfiero ne pensi malpli de vi mem, sed pensi de vi mem, malpli.<br>
+- La humileco ne estas pri pensi malpli de oni mem, sed pensi de oni mem, malpli.<br>
   ―C.S. LEWIS
 
 
-- Ne ekzistas aventuro kiel tio sentis de la inventisto kiel oni vidas siajn kreaĵojn disfaldas por
-  sukceso. Tiaj kortuŝoj farigas viron por forgesi manĝon, dormon, amikojn, amon, ĉion.<br>
+- Ne ekzistas ĝojo kiel tiu, kiu estis sentita de la inventisto kiel oni vidas siajn kreaĵojn
+  disfaldas por sukceso. Tiaj kortuŝoj farigas viron forgesi manĝon, dormon, amikojn, amon,
+  ĉion.<br>
   ―Nikola TESLA
 
 
-- Ne konfidu al iu alia por via memdigno; nur vi povas esti priresponda pri tio.<br>
+- Ne konfidu al iu alia por onia memdigno; nur oni povas esti priresponda pri tio.<br>
   ―Stacey CHARTER
 
 
-- La unua paŝo al iri ien, estas decidi, ke vi ne restos kie vi estas.<br>
+- La unua paŝo al iri ien, estas decidi, ke oni ne restos kie oni estas.<br>
   ―J.P. MORGAN
 
 
-- La vivo similas al rajdi biciklon. Por pluigi vian egalpezon, vi devas daŭri por movi.<br>
+- La vivo similas al rajdi biciklon. Por pluigi onian egalpezon, oni devas daŭri movi.<br>
   ―Alberto EJNŜTEJNO
 
 
-- Oni neniam povas transiri la oceanon, krom se oni havas la kuraĝon por perdi la vidon de la marbordo.<br>
+- Oni neniam povas transiri la oceanon, krom se oni havas la kuraĝon por perdi la vidon de la
+  marbordo.<br>
   ―Kristoforo KOLUMBO
 
 
@@ -275,19 +279,19 @@ tra la jarojn.
   ―M. Kathleen CASEY
 
 
-- Ni devas esti pretaj por lasi la vivon kiujn ni planitaj por havi la vivojn kiuj atendas nin.<br>
+- Ni devas esti pretaj por lasi la vivon kiujn ni planis, pro havi la vivon kiu atendas nin.<br>
   ―Joseph CAMPBELL
 
 
-- Mi dankemas miajn baraktojn, tial ke, sen tio mi ne estus renkonti mian forton.<br>
+- Mi dankemas miajn baraktojn tial, ke sen tio mi ne estus renkonti mian forton.<br>
   ―Alex ELLE
 
 
-- Estas en oniaj momentoj de decido kiam sia fato formatas.<br>
+- Estas en la momentoj de decido kiam onia sorto formitas.<br>
   ―Anthony ROBBINS
 
 
-- Vi devas esti la ŝanĝo kiun vi volas vidi en la mondo.<br>
+- Oni devas esti la ŝanĝo kiun oni volas vidi en la mondo.<br>
   ―Mahatmo GANDHIO
 
 
@@ -295,7 +299,7 @@ tra la jarojn.
   ―Robert FROSTO
 
 
-- Kredu kaj agu kiel se estis neeblaj por malsukcesi.<br>
+- Kredu kaj agu kvazaŭ estis neeblaj por malsukcesi.<br>
   ―Charles KETTERING
 
 
@@ -303,8 +307,8 @@ tra la jarojn.
   ―Jimmy JOHNSON
 
 
-- Kiam vi falegis antaŭe kaj vi postviviĝis, jen tre malmultaj aferoj en la vivo kiuj povas timi
-  vin.<br>
+- Kiam oni falegis antaŭe kaj si postviviĝis, ekzistas tre malmultaj aferoj en la vivo kiuj povas
+  timigi sin.<br>
   ―Sennomo
 
 
@@ -312,7 +316,7 @@ tra la jarojn.
   ―Albert PIKE
 
 
-- Faru kion vi povas, kie vi estas, per kion vi havas.<br>
+- Faru kion oni povas, kie oni estas, per kion oni havas.<br>
   ―Theodore ROOSEVELT
 
 
@@ -320,32 +324,32 @@ tra la jarojn.
   ―Tim FERRISS
 
 
-- Se vi ne tute trairas, kial iru?<br>
+- Se oni ne tute trairas, kial iru?<br>
   ―Joe NAMATH
 
 
-- Vi maltrafas 100% da pafojn, kiujn vi ne trafas.<br>
+- Oni maltrafas 100% da pafo, kiujn oni ne prenas.<br>
   ―Wayne GRETZKY
 
 
-- Ne pri ĉu vi estus frapita, estas ĉu vi povas stariĝi.<br>
+- Ne estas pri se oni frapigita, estas ĉu oni povas stari.<br>
   ―Vince LOMBARDI
 
 
-- Kiam unu pordo fermiĝas, alia pordo malfermiĝas; sed ni tiel ofte vidas tre longe kaj tiel bedaŭre, je
-  la fermita pordo, do ni ne vidas la aliajn, kiuj malfermiĝas por ni.<br>
+- Kiam unu pordo fermiĝas, alia pordo malfermiĝas; sed ni tiel ofte vidas tre longe kaj tiel
+  bedaŭre, je la fermita pordo, do ni ne vidas la aliajn, kiuj malfermiĝas por ni.<br>
   ―Alexander Graham BELL
 
 
-- Se vi iras tra inferno, daŭru iri.<br>
+- Se oni iras tra la infernon, daŭru iri.<br>
   ―Windows CHURCHILL
 
 
-- Estas pli bone esti sole anstataŭ kune kun iu, kiu igas vin senti, ke vi estas sola.<br>
+- Estas pli bone esti sole anstataŭ kune kun iu, kiu igas onin senti, ke oni solas.<br>
   ―Ivan JUNIUS
 
 
-- Via povo por atingi ion dependegas per kiom vi kredas vi povas atingi ion.<br>
+- Onia povo por atingi ion dependegas per kiom oni kredas oni povas atingi ion.<br>
   ―Sennoma
 
 
@@ -353,11 +357,12 @@ tra la jarojn.
   ―Sennoma
 
 
-- Se tion vi faras, kion vi ĉiam faras; tion vi akiros, kion vi ĉiam akiras.<br>
+- Se tion oni faras, kion oni ĉiam faras; tion oni akiros, kion oni ĉiam akiras.<br>
   ―Anthony ROBBINS
 
 
-- Se vi volas ion, kion vi neniam havis, vi devas esti servopreta fari ion, kiun vi neniam faris.<br>
+- Se oni volas ion, kion oni neniam havis, oni devas esti servopreta fari ion, kiun oni neniam
+  faris.<br>
   ―Thomas JEFFERSON
 
 
@@ -365,11 +370,11 @@ tra la jarojn.
   ―Ernest HEMMINGWAY
 
 
-- Vi ne havos pli bonan morgaŭon, se vi ankoraŭ pensas pri hieraŭ.<br>
+- Oni ne havos pli bonan morgaŭon, se oni ankoraŭ pensas pri hieraŭ.<br>
   ―Charles KETTERING
 
 
-- Kaptu fiŝon unufoje. Se ĝi eskapas, estas pli malfacile por kapti ĝin la duan fojon.<br>
+- Kaptu fiŝon unufoje. Se ĝi eskapas, estas pli malfacile por kapti sin la duan fojon.<br>
   ―Will GRAHAM, Hannibal (televida programo)
 
 
@@ -381,12 +386,12 @@ tra la jarojn.
   ―Bedelia DU MAURIER, Hannibal (televida programo)
 
 
-- Vi kapablas de justa perforto ĉar vi estas kompatema.<br>
+- Oni kapablas de justa perforto ĉar oni kompatemas.<br>
   ―Bedelia DU MAURIER, Hannibal (televida programo)
 
 
-- Treegaj agoj de krueleco postulas altan nivelon de empatio. La sekvan fojon vi havas instinkton
-  por helpi iun, vi devus pripensi por pisti ilin anstataŭe. Konservos vin multe da ĝeno.<br>
+- Treegaj agoj de krueleco postulas altan nivelon de empatio. La sekvan fojon oni havas instinkton
+  por helpi iun, oni devus pripensi por pisti ilin anstataŭe. Konservos onin multe da ĝeno.<br>
   ―Bedelia DU MAURIER, Hannibal (televida programo)
 
 
@@ -399,7 +404,7 @@ tra la jarojn.
   ―Benjameno FRANKLENO
 
 
-- Iru al la klifo kaj forsaltu. Konstruu viajn flugilojn survoje malsupren.<br>
+- Iru al la klifo kaj forsaltu. Konstruu oniajn flugilojn survoje malsupren.<br>
   ―Ray BRADBURY
 
 
@@ -407,7 +412,7 @@ tra la jarojn.
   ―Lacus CLYNE, Gundam SEED Destiny
 
 
-- Kiam io malebla okazas, jen du ebloj: aŭ viaj supozoj malĝustas aŭ vi freneziĝis.<br>
+- Kiam io malebla okazas, jen du ebloj: aŭ oniaj supozoj malĝustas aŭ oni freneziĝis.<br>
   ―Kogami SHINYA, Psycho-Pass
 
 
@@ -415,12 +420,12 @@ tra la jarojn.
   ―Makishima SHOUGO, Psycho-Pass
 
 
-- Ne estas la socio kiu determinas la estontecon de homoj. Estas la homoj, kiuj determinas la estontecon
-  de la socio.<br>
+- Ne estas la socio kiu determinas la estontecon de homoj. Estas la homoj, kiuj determinas la
+  estontecon de la socio.<br>
   ―Akane TSUNEMORI, Psycho-Pass
 
 
-- Ne forgesu ke vi certe mortos iutage, kaj tiel, estas la pli racio por vivi nun.<br>
+- Ne forgesu, ke oni certe mortos iutage, kaj tiel, estas la pli racio por vivi nun.<br>
   ―Decim, Death Parade
 
 
@@ -432,15 +437,18 @@ tra la jarojn.
   ―Konfuceo
 
 
-- Oni povas eltrovi tion, kion plej timas siajn malamikojn, per rimarki la manierojn kiuj ili uzas timigi sin.<br>
+- Oni povas eltrovi tiun, kiun plej timas siajn malamikojn, per rimarki la manierojn kiuj ili uzas
+  timigi onin.<br>
   ―Eric HOFFER
 
 
-- Vi ne trovos la respondojn kiujn vi serĉas ĝis vi haltas serĉi ekster kaj komenciĝas serĉi ilin el vi mem.<br>
+- Oni ne trovos la respondojn kiujn oni serĉas ĝis oni haltas serĉi ekster kaj komenciĝas serĉi ilin
+  el oni mem.<br>
   ―Memory GATEKEEPER, Ergo Proxy
 
 
-- Kosmo sen sciiĝo estas multe kiel stakego de putrataj libroj—porĉiame fermataj kaj nelegataj.<br>
+- Kosmo sen sciiĝo estas multe similas al stakego de putrataj libroj—porĉiame fermataj kaj
+  nelegataj.<br>
   ―Ergo PROXY, Ergo Proxy
 
 
@@ -475,15 +483,15 @@ tra la jarojn.
   ―Elbert HUBBARD
 
 
-- La kosmo ne havas devon por signifi al vi.<br>
+- La kosmo ne havas devon por signifi al oni.<br>
   ―Neil deGrasse TYSON
 
 
-- Ju pli rapida vi fortiĝas, des pli facila vi vundiĝos.<br>
+- Ju pli rapida oni fortiĝos, des pli facila oni vundiĝos.<br>
   ―Ahmad Taufiq MUHAMMAD
 
 
-- Se vi provos, tute iru. Kontraŭe, ne eĉ komencu.<br>
+- Se oni provos, tute iru. Kontraŭe, ne eĉ komencu.<br>
   ―Charles BUKOWSKI
 
 
@@ -500,7 +508,7 @@ tra la jarojn.
   ―Carl SAGAN
 
 
-- Unu fizika testo estas pli inda ol miloj de opinoj de spertuloj.<br>
+- Unu fizika testo pli indas ol milo da opinio de spertuloj.<br>
   ―Rick SEIFARTH
 
 
@@ -508,8 +516,8 @@ tra la jarojn.
   ―Hugh Derry, Life (2017)
 
 
-- La malsukceso nur estas la okazaĵo por denove komenci pli inteligente. Ne ekzistas hontigo en honesta
-  malsukceso; ekzistas hontigo en timi por malsukcesi.<br>
+- La malsukceso nur estas la okazaĵo por denove komenci pli inteligente. Ne ekzistas hontigo en
+  honesta malsukceso; ekzistas hontigo en timi por malsukcesi.<br>
   ―Henry FORD
 
 
@@ -517,26 +525,26 @@ tra la jarojn.
   ―Theodore ROOSEVELT
 
 
-- Vi ne devas esti tima revi iom pli granda, kara.<br>
+- Oni ne devas esti tima revi iom pli granda, kara.<br>
   ―Eames, Inception (2010)
 
 
-- Ideo estas kiel viruso. Fortike. Tre infekte. Kaj la plej malgranda semo de ideo povas
-  kreski. Povas kreski por difini aŭ por detrui vin.<br>
+- Ideo similas al viruso. Fortike. Tre infekte. Kaj la plej malgranda semo de ideo povas
+  kreski. Povas kreski por difini aŭ por detrui onin.<br>
   ―Dominick Cobb, Inception (2010)
 
 
-- Ironie, ili kiuj ne servopretas rompi, unue rompos.<br>
+- Ironie, ili kiuj ne servopretas rompiĝi, unue rompiĝos.<br>
   ―MindSmash, Jutubo
 
 
-- Ĉi tio estas kion mi faris por ke postvivi mian vivon. Mi ne malsamas al vi, tamen ni estas
+- Ĉi tio estas kion mi faris por ke postvivi mian vivon. Mi ne malsamas al oni, tamen ni estas
   en partnereco kiu postulas reciprokan respekton. Per tio premiso, la komuna celo kiu ligas nin
   estas postvivado.<br>
   ―Migi, Parasyte -the maxim- (2014)
 
 
-- Vi ĉiuj subtaksas homojn. Unuope, ili aspektas malfortaj, sed tio ne estas la efektivaĵo. Kion ni
+- Oni ĉiuj subtaksas homojn. Unuope, ili aspektas malfortaj, sed tio ne estas la efektivaĵo. Kion ni
   bezonas rekoni estas, ke homoj estas sola vivaĵo konsistata de milionoj de unuopaj. Krome
   iliaj unuopaj cerboj, homoj apartas alian cerbon de ega grandeco. La momenton ni agas per opozicio
   al tiu cerbo, ni malvenkiĝos.<br>
@@ -597,7 +605,7 @@ tra la jarojn.
   ―Alan KAY
 
 
-- Provu tiun kaj pensu, kie la mondo fariĝas tre malsama se vi faris malsamajn supozojn.<br>
+- Provu tiun kaj pensu, kie la mondo fariĝas tre malsama se oni faris malsamajn supozojn.<br>
   ―Alan KAY
 
 
@@ -609,8 +617,8 @@ tra la jarojn.
   ―Friedrich NIETZSCHE
 
 
-- La tri plej gravaj tagoj en via vivo estas via naskiĝtago, la tago kiam vi eltrovas kial vi
-  naskiĝis, kaj la tago kiam vi malkovras kiel kontribui la donacojn kiun vi naskitaj por doni.<br>
+- La tri plej gravaj tagoj en onia vivo estas onia naskiĝtago, la tago kiam oni eltrovas kial oni
+  naskiĝis, kaj la tago kiam oni malkovras kiel kontribui la donacojn kiun oni naskitaj por doni.<br>
   ―Taylor HARTMAN
 
 
@@ -618,7 +626,7 @@ tra la jarojn.
   ―Robert MCCALL
 
 
-- Kiam oni preĝas por pluvo, si ankaŭ bezonas trakti la koton.<br>
+- Kiam oni preĝas por pluvo, oni ankaŭ bezonas trakti la koton.<br>
   ―Robert MCCALL
 
 
@@ -684,7 +692,7 @@ tra la jarojn.
   ―Chamath PALIHAPITIYA
 
 
-- Se ion vi ŝatas, vin mem vi instruos. Se ion vi malŝatas, vin la aliaj instruos.<br>
+- Se ion oni ŝatas, sin mem oni instruos. Se ion oni malŝatas, onin la aliaj instruos.<br>
   ―Yukitaka YAMAGUCHI
 
 

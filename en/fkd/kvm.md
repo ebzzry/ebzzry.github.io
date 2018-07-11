@@ -1,7 +1,7 @@
 Virtualizing with KVM in Linux
 ==============================
 
-<div class="center">[Esperante](/eo/kvm) · [English](#)</div>
+<div class="center">[Esperante](/eo/kvm-o) · [English](#)</div>
 <div class="center">June 15, 2015</div>
 <div class="center">Last updated: July 8, 2018</div>
 
