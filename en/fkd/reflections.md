@@ -3,7 +3,7 @@ Reflections
 
 <div class="center">[Esperante](/eo/pripensoj) · [English](#)</div>
 <div class="center">November 24, 2015</div>
-<div class="center">Last updated: July 8, 2018</div>
+<div class="center">Last updated: July 13, 2018</div>
 
 This page contains contains some of my personal reflections.
 
@@ -271,3 +271,7 @@ Entries are sorted in chronological order.
 
 
 - In all wars, all of the participants get injured.<br>
+
+
+- In my own silences, I reflect if life has an intrinsic menaing. Is the value of life a mere
+  contrivance of humans?<br>
