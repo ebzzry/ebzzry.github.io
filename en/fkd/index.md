@@ -5,7 +5,7 @@ Random Things
 <div class="center">August 15, 2015</div>
 <div class="center">Last updated: July 13, 2018</div>
 
-<img src="/bildoj/kafofaboj.jpg" class="banner" alt="kafofaboj" />
+<img src="/bil/kafofaboj.jpg" class="banner" alt="kafofaboj" />
 
 <div class="text-right">A journal about computing, human predilections, and random krakaboom.</div>
 <div class="text-right">Entries are sorted in reverse chronological order.</div>
