@@ -11,4 +11,4 @@ Welcome to my piece of web!
 
 Hi! My name is Rommel. I hope that you enjoy your visit to this tiny abode.
 
-[![ebzzry@ebzzry.io](/bil/posxtobildeto-00-48x48.png "ebzzry@ebzzry.io")](mailto:ebzzry@ebzzry.io) [![github.com/ebzzry](/bildoj/githubobildeto-00-48x48.png "github.com/ebzzry")](https://github.com/ebzzry) [![GPG](/bildoj/gpgobildeto-00-48x48.png "GPG")](/dat/ebzzry-gpg.pub)
+[![ebzzry@ebzzry.io](/bil/posxtobildeto-00-48x48.png "ebzzry@ebzzry.io")](mailto:ebzzry@ebzzry.io) [![github.com/ebzzry](/bil/githubobildeto-00-48x48.png "github.com/ebzzry")](https://github.com/ebzzry) [![GPG](/bil/gpgobildeto-00-48x48.png "GPG")](/dat/ebzzry-gpg.pub)

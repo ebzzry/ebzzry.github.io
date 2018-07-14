@@ -1,7 +1,7 @@
 My Kinesis Advantage Layout
 ===========================
 
-<div class="center">[Esperante](/en/avantagxo) · [English](#)</div>
+<div class="center">[Esperante](/eo/avantagxo) · [English](#)</div>
 <div class="center">October 26, 2015</div>
 <div class="center">Last updated: July 13, 2018</div>
 
@@ -12,7 +12,7 @@ My Kinesis Advantage Layout
 margin-right: auto;" alt="Kinesis Advantage" title="Kinesis Advantage"/>
 
 
-<a href="toc"></a>Table of contents
+<a name="toc"></a>Table of contents
 -----------------------------------
 
 - [Overview](#overview)
@@ -47,7 +47,7 @@ mode without using any software by pressing <kbd>Pogrm + Shift + F5</kbd>. You c
 QWERTY mode by pressing the same key combination.  When using Dvorak emulation, the following layout
 is how the keys are mapped:
 
-<a href="/bil/avantagxo-dvorako-0.png"><img src="/bildoj/avantagxo-dvorako-0.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="Original Software Dvorak" title="Original Software Dvorak"/></a>
+<a href="/bil/avantagxo-dvorako-0.png"><img src="/bil/avantagxo-dvorako-0.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="Original Software Dvorak" title="Original Software Dvorak"/></a>
 <div class="center">Figure 1-1: Original software Dvorak</div>
 
 No. Using this layout on Emacs or Zsh, is hell: to press <kbd>M-x</kbd> in Emacs, one would have to
@@ -60,7 +60,7 @@ finger. Reaching out for the <kbd>Esc</kbd> keys isn’t a lot of fun, either, b
 
 Because of that, I remapped some of the keys. The new layout is as follows.
 
-<a href="/bil/avantagxo-dvorako-1.png"><img src="/bildoj/avantagxo-dvorako-1.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="Remapped Software Dvorak" title="Remapped Software Dvorak"/></a>
+<a href="/bil/avantagxo-dvorako-1.png"><img src="/bil/avantagxo-dvorako-1.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="Remapped Software Dvorak" title="Remapped Software Dvorak"/></a>
 <div class="center">Figure 1-2: Remapped software Dvorak</div>
 
 The new location of <kbd>Ctrl</kbd> and <kbd>Alt</kbd> makes it easy for the fingers. I swapped the

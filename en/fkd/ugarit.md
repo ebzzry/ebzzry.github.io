@@ -200,7 +200,7 @@ run:
 
 Ugarit is not limited to creating snapshots of a local filesystem. It can also be used to create
 snapshots of trees from a remote host mounted locally. If you have
-an [SSHFS](https://fuse.sourceforge.net/sshfs.html) mount, for example, you can still create a
+an [SSHFS](https://github.com/libfuse/sshfs) mount, for example, you can still create a
 snapshot of it, just like any other local filesystem:
 
     $ sshfs remotehost:/ ~/mnt/sshfs/remotehost
