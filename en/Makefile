@@ -12,8 +12,8 @@ all:
 	parallel --will-cite "$(MAKE) {/.}.html" ::: $(DOSIEROJ)
 	$(KONSTRUILO) \
           -D "A journal about computing, human predilections, and random krakaboom." \
-          -K "ebzzry, rommel, martinez, rommel martinez, pedantic primate" \
-          --og-title "Musings of a Pedantic Primate" \
+          -K "ebzzry, rommel martinez" \
+          --og-title "Random Things" \
           --og-type $(OG_TYPE) \
           --og-url "https://ebzzry.io/en/" \
           --og-image $(OG_IMAGE) \
@@ -26,7 +26,7 @@ all:
 	if [[ ! -d "$$(basename $< .md)" ]]; then mkdir "$$(basename $< .md)"; fi
 	$(KONSTRUILO) \
           -D $(OG_TITLE) \
-          -K "$$(cat $<.dat)" \
+          -K "$$(cat dat/$$(basename $< .md).dat)" \
           --og-title $(OG_TITLE) \
           --og-type $(OG_TYPE) \
           --og-url "https://ebzzry.io/en/$$(basename $< .md)/" \

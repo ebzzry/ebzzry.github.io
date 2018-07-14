@@ -160,7 +160,7 @@ of a code block:
     $ echo foo > foo/foo
     $ rm -rf foo
     $ date
-    ˋˋˋ 
+    ˋˋˋ
 
 <a name="bullets"></a> Bullets
 ------------------------------
@@ -238,7 +238,7 @@ GitLab, wherein it is usually more convenient to let the UI wrap the text.
 <a name="extras"></a> Extras
 ----------------------------
 
-When using GNU Emacs, I use [these](https://gist.github.com/0c8fb40ac8db1463a933cfc19f219431)
+When using GNU Emacs, I use [these](https://github.com/ebzzry/dotfiles/blob/master/emacs/fkd/gxeneralaj.el#L797-L811)
 commands, bound to <kbd>M-g =</kbd>, <kbd>M-g -</kbd>, and <kbd>M-g `</kbd>, respectively, to make
 it easy for me to insert the delimiters. For example, if I have the following text, where ^ is point:
 
