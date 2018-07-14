@@ -137,7 +137,7 @@ fari, la jenan komandon kuru, tiam la eligon kopiu:
 
 Iru al <https://github.com/settings/ssh>, tiam na **Add SSH key** aŭ na **New SSH key** klaku:
 
-![Add SSH key](/bildoj/add-ssh-key.png)
+![Add SSH key](/bil/sekursxelan-sxlosilon-aldonu.png)
 
 La ŝlosilon algluu, tiam tradaŭru.
 
@@ -146,7 +146,7 @@ La ŝlosilon algluu, tiam tradaŭru.
 
 En la paĝo de la deponejoj, novan deponejon krei per na **New** klaki:
 
-![New](/bildoj/new-repository.png)
+![New](/bil/nova-deponejo.png)
 
 Daŭru per la invitoj. Kiam la postulatajn kampojn oni jam plenigis, signovicojn de komandojn oni
 akiros. Na `ogag` kaj na `foobar` anstataŭigu per la GitHub-a uzantnomo kaj la nomo de la
@@ -173,14 +173,14 @@ puŝas al la propra forko:
 
 Unue, la projekton forku. Iru al la projekto, kiun oni volas forki, tiam na **Fork** klaku:
 
-![Fork](/bildoj/fork.png)
+![Fork](/bil/forku.png)
 
 Kopion de la deponejo ĉi tio kreas en la propra GitHub-a konto.
 
 Sekve, tiun forkon oni devas kloni al la loka disko. La adreson lokitas en la **SSH clone URL**-a
 kampo kopiu:
 
-![SSH clone URL](/bildoj/ssh-clone-url.png)
+![SSH clone URL](/bil/klonadreso-de-ssh.png)
 
 Tiam la jenan komandon kuru, en kiu, `ogagmet` estas via uzantnomo:
 
@@ -204,15 +204,15 @@ Nun ŝanĝojn al la dosieroj en ĉi tiu branĉo oni povas fari. Kiam la ŝanĝoj
 Se oni volas, ke la ŝanĝojn la fonta deponejo kunfandas, na _Pull Request_ kreu per iri al la paĝo
 de la fonta deponejo, tiam na **Pull requests** klaku:
 
-![Pull Requests](/bildoj/pull-requests.png)
+![Pull Requests](/bil/tirpetoj.png)
 
 En la sekva paĝo, na **New pull request** klaku:
 
-![New Pull Request](/bildoj/new-pull-request.png)
+![New Pull Request](/bil/nova-tirpeto.png)
 
 Na **compare across forks** elektu:
 
-![Compare Across Forks](/bildoj/compare-across-forks.png)
+![Compare Across Forks](/bil/komparu-trans-forkoj.png)
 
 Maldekstre, sub la **base fork**-a kampo, na **ogag/foobar** elektu, kaj en la **base**-a kampo,
 na **master** elektu.
@@ -222,7 +222,7 @@ na **novopcioj** elektu.
 
 Tiam, na **Create pull request** klaku:
 
-![Create pull request](/bildoj/create-pull-request.png)
+![Create pull request](/bil/tirpeton-kreu.png)
 
 Tiam, tradaŭru.
 
@@ -244,7 +244,7 @@ Tiam puŝu al via deponejo:
 Se oni estas la proprulo de la fonta deponejo, kaj la ŝanĝojn el la kontribuantoj oni volas tiri, na
 **Pull requests** en la paĝo de la deponejo klaku:
 
-![Pull requests](/bildoj/pull-requests.png)
+![Pull requests](/bil/tirpetoj.png)
 
 tiam, tradaŭru.
 

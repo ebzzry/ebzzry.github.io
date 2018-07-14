@@ -5,7 +5,7 @@ Hazardaj Aferoj
 <div class="center">la 27-an de Aprilo 2017</div>
 <div class="center">Laste ŝanĝita: la 13-an de Julio 2018</div>
 
-<img src="/bildoj/kafofaboj.jpg" class="banner" alt="kafofaboj" />
+<img src="/bil/kafofaboj.jpg" class="banner" alt="kafofaboj" />
 
 <div class="text-right">Retejo pri komputiko, hominklinaĵoj, kaj hazardaĵoj.</div>
 <div class="text-right">Enskriboj ordigatas laŭ inversa kronologiordo.</div>

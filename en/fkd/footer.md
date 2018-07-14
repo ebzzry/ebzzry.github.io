@@ -10,7 +10,7 @@ Created with [emem](https://github.com/ebzzry/emem)
 <div>
 
 <div class="text-x-small">
-<a rel="license" href="https://creativecommons.org/publicdomain/zero/1.0/deed.en"><img alt="CC0 1.0 Universal (CC0 1.0) Public Domain Dedication" class="cc" src="/bildoj/cc0-88x31.png" /></a><br>
+<a rel="license" href="https://creativecommons.org/publicdomain/zero/1.0/deed.en"><img alt="CC0 1.0 Universal (CC0 1.0) Public Domain Dedication" class="cc" src="/bil/cc0-88x31.png" /></a><br>
 This work is in the <a rel="license" href="https://creativecommons.org/publicdomain/zero/1.0/deed.en">public domain.</a><br>
 </div>
 
