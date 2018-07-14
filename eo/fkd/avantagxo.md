@@ -12,7 +12,7 @@ Mia Kinezia Avantaĝa Aranĝo
 margin-right: auto;" alt="Kinezia Avantaĝo" title="Kinezia Avantaĝo"/>
 
 
-<a href="et"></a>Enhavotabelo
+<a name="et"></a>Enhavotabelo
 -----------------------------
 
 - [Superrigardo](#superrigardo)
@@ -48,7 +48,7 @@ reĝimon oni povas ŝalti sen iun ajn programon uzi per na <kbd>Progrm + Shift +
 povas iri reen al la QWERTY-a reĝimo per la sama klavkombino. Kiam la dvorakan reĝimon oni uzas, la
 jena aranĝo estas kiel la klavoj aranĝitaj:
 
-<a href="/bil/avantagxo-dvorako-0.png"><img src="/bildoj/avantagxo-dvorako-0.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="Originala softvara Dvorako" title="Originala softvara Dvorako"/></a>
+<a href="/bil/avantagxo-dvorako-0.png"><img src="/bil/avantagxo-dvorako-0.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="Originala softvara Dvorako" title="Originala softvara Dvorako"/></a>
 <div class="center">Figuro 1-1: Originala softvara Dvorako</div>
 
 Ve. Ĉi tiun aranĝon uzi en Emakso aŭ Ziŝo estas inferno: por na <kbd>M-x</kbd> premi emakse, na
@@ -62,7 +62,7 @@ malproksimas.
 
 Pro tio kelke da klavo mi remapis. Jen la nova aranĝo.
 
-<a href="/bil/avantagxo-dvorako-1.png"><img src="/bildoj/avantagxo-dvorako-1.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="Remapigita softvara Dvorako" title="Remapigita softvara Dvorako"/></a>
+<a href="/bil/avantagxo-dvorako-1.png"><img src="/bil/avantagxo-dvorako-1.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="Remapigita softvara Dvorako" title="Remapigita softvara Dvorako"/></a>
 <div class="center">Figuro 1-2: Remapigita softvara Dvorako</div>
 
 La nova loko de <kbd>Ctrl</kbd> kaj <kbd>Alt</kbd> ĝentilas por la fingroj. La lokoj de <kbd>🡅</kbd>
