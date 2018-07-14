@@ -11,4 +11,4 @@ Bonvenon al mia peco de teksaĵo!
 
 Saluton! Mi nomiĝas Rommel. Mi esperas, ke la viziton al ĉi tiu eta loĝejo oni ĝuas.
 
-[![ebzzry@ebzzry.io](/bil/posxtobildeto-00-48x48.png "ebzzry@ebzzry.io")](mailto:ebzzry@ebzzry.io) [![github.com/ebzzry](/bildoj/githubobildeto-00-48x48.png "github.com/ebzzry")](https://github.com/ebzzry) [![GPG](/bildoj/gpgobildeto-00-48x48.png "GPG")](/dat/ebzzry-gpg.pub)
+[![ebzzry@ebzzry.io](/bil/posxtobildeto-00-48x48.png "ebzzry@ebzzry.io")](mailto:ebzzry@ebzzry.io) [![github.com/ebzzry](/bil/githubobildeto-00-48x48.png "github.com/ebzzry")](https://github.com/ebzzry) [![GPG](/bil/gpgobildeto-00-48x48.png "GPG")](/dat/ebzzry-gpg.pub)
