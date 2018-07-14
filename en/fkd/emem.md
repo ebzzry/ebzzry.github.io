@@ -232,7 +232,7 @@ $ emem --help
 For this whole [journal](https://ebzzry.io), I was able to get a 90+ score
 from [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/), a
 Mobile-Friendly rating
-from [Google Mobile-Friendly Test](https://search.google.com/search-console/mobile-friendly), and a
+from [Google Mobile-Friendly Test](https://search.google.com/test/mobile-friendly), and a
 performance grade of B from [Pingdom](https://tools.pingdom.com/). If you can control the web server
 parameters, you may even get a performance grade of A, when you leverage browser caching, and
 specify the `Vary: Accept-Encoding` header. I’m using [GitHub Pages](https://pages.github.com), so

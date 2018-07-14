@@ -1,9 +1,9 @@
-Musings of a Pedantic Primate
-=============================
+Random Things
+=============
 
 <div class="center">[Esperante](/eo/) · [English](#)</div>
 <div class="center">August 15, 2015</div>
-<div class="center">Last updated: November 16, 2017</div>
+<div class="center">Last updated: July 13, 2018</div>
 
 <img src="/bildoj/kafofaboj.jpg" class="banner" alt="kafofaboj" />
 
@@ -18,7 +18,7 @@ Musings of a Pedantic Primate
 - [Zsh Tips 1: Aliases and Functions](zsh-tips-1)
 - [Scripting in Common Lisp](script-lisp)
 - [My Markdown Style Guide](markdown)
-- [Emacs Tips and Tricks: Insert and Delete](emacs-tips-3)
+- [Emacs Tips 3: Insert and Delete](emacs-tips-3)
 - [A Gentle Introduction to the Nix Family](nix)
 - [Converting Markdown to HTML with emem](emem)
 - [Division in Haskell](division)

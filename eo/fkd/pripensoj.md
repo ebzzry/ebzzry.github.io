@@ -3,7 +3,7 @@ Pripensoj
 
 <div class="center">[Esperante](#) · [English](/en/reflections)</div>
 <div class="center">la 3-an de Novembro 2017</div>
-<div class="center">Laste ŝanĝita: la 8-an de Julio 2018</div>
+<div class="center">Laste ŝanĝita: la 13-an de Julio 2018</div>
 
 Ĉi tiu paĝo enhavas kelke da miaj propraj pripensoj.
 
@@ -266,3 +266,7 @@ Enskriboj ordigatas laŭ kronologiordo.
 
 
 - En ĉiuj militoj, ĉiom da partoprenantoj vundiĝas.<br>
+
+
+- En miaj propraj kvietoj, mi pensas se imanentan valoron la vivo havas. Ĉu la valoro de la vivo nur
+  elpensaĵo de homoj?<br>

@@ -201,7 +201,7 @@ rekte, kuru:
 
 Ugarit-o ne limigitas krei dosierkopiojn de loka dosiersistemo. Ankaŭ povas uzita krei
 dosierkopiojn de arboj de defora gastiganto muntita loke. Se oni ekzemple havas
-[SSHFS-an](https://fuse.sourceforge.net/sshfs.html) surmeton, si ankoraŭ povas krei dosierkopion de
+[SSHFS-an](https://github.com/libfuse/sshfs) surmeton, si ankoraŭ povas krei dosierkopion de
 tiu, same kiel ia alia loka dosiersistemo.
 
     $ sshfs remotehost:/ ~/mnt/sshfs/remotehost
