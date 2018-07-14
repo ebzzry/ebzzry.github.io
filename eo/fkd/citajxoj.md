@@ -688,7 +688,7 @@ tra la jarojn.
   ―Samantha, Her (2013)
 
 
-- Malrapida kaj neŝanĝiĝema kontraŭ al malfacilaj problemoj.<br>
+- Malrapide kaj neŝanĝiĝeme kontraŭ al malfacilaj problemoj.<br>
   ―Chamath PALIHAPITIYA
 
 

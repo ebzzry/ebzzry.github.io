@@ -1,5 +1,5 @@
-Emacs Tips and Tricks: Insert and Delete
-========================================
+Emacs Tips and Tricks 3: Insert and Delete
+==========================================
 
 <div class="center">April 1, 2017</div>
 <div class="center">Last updated: December 13, 2017</div>

@@ -17,7 +17,7 @@ progress in innumerable ways. This gives the false impression that solutions are
 done. This creates a false sense of assurance of improvements.
 
 Several years ago [Eelco Dolstra](https://nixos.org/~eelco/) wrote the
-seminal [papers](https://nixos.org/docs/papers.html) that described radical ways to deploy
+seminal [papers](https://nixos.org/~eelco/pubs/) that described radical ways to deploy
 software. These papers effectively formed the cornerstones of [Nix](https://nixos.org/nix/), a
 purely functional package manager language that solved the disease that plagued computing for a long
 time—poor package management. In this article I’ll talk about the Nix family, and how to use them to
@@ -1511,7 +1511,7 @@ In-depth details about instantiations, derivations, realisations were elided on 
 article. They may become a topic on their own, or I may update this article to add those topics. I
 may also write a new section about NixOps.
 
-An Emacs major mode is [available](https://github.com/NixOS/nix/blob/master/misc/emacs/nix-mode.el)
+An Emacs major mode is [available](https://github.com/NixOS/nix-mode)
 from the main repository. It is also [available](https://melpa.org/#/nix-mode) via MELPA. You may
 install it with:
 
@@ -1539,7 +1539,7 @@ and [ied](https://github.com/alexanderGugel/ied), an alternative package manager
 The articles
 of [Luca Bruno](https://lethalman.blogspot.com/2014/07/nix-pill-1-why-you-should-give-it-try.html),
 [James Fisher](https://lethalman.blogspot.com/2014/07/nix-pill-1-why-you-should-give-it-try.html),
-and [Oliver Charles](https://ocharles.org.uk/blog/posts/2014-02-04-how-i-develop-with-nixos.html), together with
+and [Oliver Charles](https://web.archive.org/web/20180610095602/https://ocharles.org.uk/blog/posts/2014-02-04-how-i-develop-with-nixos.html), together with
 the [NixOS](https://nixos.org/nixos/manual), [Nixpkgs](https://nixos.org/nixpkgs/manual),
 and [Nix](https://nixos.org/nix/manual) manuals, significantly helped me in understanding
 Nix. Special thanks goes to [François-René Rideau](https://fare.livejournal.com) for introducing me
