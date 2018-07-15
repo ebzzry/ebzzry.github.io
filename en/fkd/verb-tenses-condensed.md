@@ -1,8 +1,9 @@
 Verb Tenses in English (Condensed)
 ==================================
 
+<div class="center">[Esperante](/eo/verbotempoj-la-angla-mallongigite) · [English](#)</div>
 <div class="center">April 6, 2016</div>
-<div class="center">Last updated: March 28, 2017</div>
+<div class="center">Last updated: July 15, 2018</div>
 
 This article is the condensed form of [Verb Tenses in English](/en/verb-tenses).
 
@@ -10,62 +11,62 @@ This article is the condensed form of [Verb Tenses in English](/en/verb-tenses).
 Simple
 ------
 
-### Past: *created*
+### Simple future: *will create*
 
-- Maria __created__ a beautiful painting.
+- Maria __will create__ a beautiful painting.
 
-### Present: *creates*
+### Simple present: *creates*
 
 - Maria __creates__ beautiful paintings.
 
-### Future: *will create*
+### Simple past: *created*
 
-- Maria __will create__ a beautiful painting.
+- Maria __created__ a beautiful painting.
 
 
 Perfect
 -------
 
-### Past: *had created*
+### Perfect future: *will have created*
 
-- By the time Juan arrived, Maria __had created__ a beautiful painting.
+- By the time Juan arrives, Maria __will have created__ a beautiful painting.
 
-### Present: *have created*
+### Perfect present: *have created*
 
 - Maria __have created__ many beautiful paintings.
 
-### Future: *will have created*
+### Perfect past: *had created*
 
-- By the time Juan arrives, Maria __will have created__ a beautiful painting.
+- By the time Juan arrived, Maria __had created__ a beautiful painting.
 
 
 Progressive
 -----------
 
-### Past: *was creating*
+### Progressive future: *will be creating*
 
-- Maria __was creating__ a beautiful painting, when Juan arrived from school.
+- Maria __will be creating__ a beautiful painting next week.
 
-### Present: *is creating*
+### Progressive present: *is creating*
 
 - Maria __is creating__ a beautiful painting.
 
-### Future: *will be creating*
+### Progressive past: *was creating*
 
-- Maria __will be creating__ a beautiful painting next week.
+- Maria __was creating__ a beautiful painting, when Juan arrived from school.
 
 
 Perfect Progressive
 -------------------
 
-### Past: *had been creating*
+### Perfect progressive future: *will have been creating*
 
-- Before Juan's arrival, Maria __had been creating__ beautiful paintings.
+- Before her 16th birthday, Maria __will have been creating__ painting masterpieces.
 
-### Present: *has been creating*
+### Perfect progressive present: *has been creating*
 
 - Maria __has been creating__ paintings for a long time.
 
-### Future: *will have been creating*
+### Perfect progressive past: *had been creating*
 
-- Before her 16th birthday, Maria __will have been creating__ painting masterpieces.
+- Before Juan's arrival, Maria __had been creating__ beautiful paintings.
