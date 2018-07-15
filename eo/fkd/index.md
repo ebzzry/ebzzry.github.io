@@ -3,13 +3,15 @@ Hazardaj Aferoj
 
 <div class="center">[Esperante](#) · [English](/en/)</div>
 <div class="center">la 27-an de Aprilo 2017</div>
-<div class="center">Laste ŝanĝita: la 13-an de Julio 2018</div>
+<div class="center">Laste ŝanĝita: la 15-an de Julio 2018</div>
 
 <img src="/bil/kafofaboj.jpg" class="banner" alt="kafofaboj" />
 
 <div class="text-right">Retejo pri komputiko, hominklinaĵoj, kaj hazardaĵoj.</div>
 <div class="text-right">Enskriboj ordigatas laŭ inversa kronologiordo.</div>
 
+- [Verbotempoj en La Angla (Mallongigite)](verbotempoj-la-angla-mallongigite)
+- [Verbotempoj en La Angla](verbotempoj-la-angla)
 - [Mia Kinezia Avantaĝa Aranĝo](avantagxo)
 - [Maldaŭra Rondvojaĝo de Gito kaj GitHub-o](gito-github-o)
 - [Emakso kaj Paroj](emakso-paroj)
