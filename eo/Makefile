@@ -13,7 +13,7 @@ all:
 	$(KONSTRUILO) \
           -D "Retejo pri komputiko, hominklinoj, kaj hazardaĵoj." \
           -K "ebzzry, rommel martinez" \
-          --og-title "Hazardaj Aferoj" \
+          --og-title "La Pensoj de Pedanto" \
           --og-type $(OG_TYPE) \
           --og-url "https://ebzzry.io/eo/" \
           --og-image $(OG_IMAGE) \
