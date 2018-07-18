@@ -1,9 +1,9 @@
-Random Things
-=============
+The Musings of a Pedant
+=======================
 
 <div class="center">[Esperante](/eo/) · [English](#)</div>
 <div class="center">August 15, 2015</div>
-<div class="center">Last updated: July 13, 2018</div>
+<div class="center">Last updated: July 18, 2018</div>
 
 <img src="/bil/kafofaboj.jpg" class="banner" alt="kafofaboj" />
 
