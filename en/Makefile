@@ -13,7 +13,7 @@ all:
 	$(KONSTRUILO) \
           -D "A journal about computing, human predilections, and random krakaboom." \
           -K "ebzzry, rommel martinez" \
-          --og-title "Random Things" \
+          --og-title "The Musings of a Pedant" \
           --og-type $(OG_TYPE) \
           --og-url "https://ebzzry.io/en/" \
           --og-image $(OG_IMAGE) \
