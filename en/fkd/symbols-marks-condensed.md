@@ -1,20 +1,20 @@
 Symbols and Marks (Condensed)
 =============================
 
+<div class="center">[Esperante](/eo/signoj-interpunkcioj-mallongigite) · [English](#)</div>
 <div class="center">April 8, 2016</div>
-<div class="center">Last updated: October 22, 2016</div>
+<div class="center">Last updated: July 21, 2018</div>
 
 The table below is the condensed form of [Symbols and Marks](/en/symbols-marks).
 
-| Glyph | Name                 | Windows         | Mac             | Linux             |
-| :---- | :------------------- | :-------------- | :-------------- | :---------------- |
-| -     | hyphen               | -               | -               | -                 |
-| –     | en dash              | Alt + 0150      | ⌥ + -           | Compose - - space |
-| —     | em dash              | Alt + 0151      | ⌥ + ⇧ + -       | Compose - - -     |
-| “     | left double quote    | Alt + 0147      | ⌥ + [           | Compose 6 "       |
-| ”     | right double quote   | Alt + 0148      | ⌥ + ⇧ + [       | Compose 9 "       |
-| ‘     | left single quote    | Alt + 0145      | ⌥ + ]           | Compose 6 '       |
-| ’     | right single quote   | Alt + 0146      | ⌥ + ⇧ + ]       | Compose 9 '       |
-| ′     | prime                | Alt + 8242      | ⌥ + 2032        | Compose * . '     |
-| ″     | double prime         | Alt + 8243      | ⌥ + 2033        | Compose * . "     |
-| …     | horizontal ellipsis  | Alt + 0133      | ⌥ + ;           | Compose . . .     |
+| Glyph | Name               | Linux         | Mac           | Windows    |
+| :---- | :----------------- | :------------ | :------------ | :--------- |
+| –     | en dash            | Ω + -         | ⌥ + -         | Alt + 0150 |
+| —     | em dash            | Ω + Shift + - | ⌥ + Shift + - | Alt + 0151 |
+| “     | left double quote  | Ω + [         | ⌥ + [         | Alt + 0147 |
+| ”     | right double quote | Ω + ]         | ⌥ + Shift + [ | Alt + 0148 |
+| ‘     | left single quote  | Ω + `         | ⌥ + ]         | Alt + 0145 |
+| ’     | right single quote | Ω + '         | ⌥ + Shift + ] | Alt + 0146 |
+| ′     | prime              | Ω + ,         | ⌥ + 2032      | Alt + 8242 |
+| ″     | double prime       | Ω + Shift + , | ⌥ + 2033      | Alt + 8243 |
+| …     | ellipsis           | Ω + .         | ⌥ + ;         | Alt + 0133 |
