@@ -3,7 +3,7 @@ Mia Kinezia Avantaĝa Aranĝo
 
 <div class="center">[Esperante](#) · [English](/en/advantage)</div>
 <div class="center">la 12-an de Julio 2018</div>
-<div class="center">Laste ŝanĝita: la 13-an de Julio 2018</div>
+<div class="center">Laste ŝanĝita: la 22-an de Julio 2018</div>
 
 >La doloro neeviteblas. La suferado malnepras.<br>
 >―M. Kathleen CASEY
@@ -65,8 +65,8 @@ Pro tio kelke da klavo mi remapis. Jen la nova aranĝo.
 <a href="/bil/avantagxo-dvorako-1.png"><img src="/bil/avantagxo-dvorako-1.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="Remapigita softvara Dvorako" title="Remapigita softvara Dvorako"/></a>
 <div class="center">Figuro 1-2: Remapigita softvara Dvorako</div>
 
-La nova loko de <kbd>Ctrl</kbd> kaj <kbd>Alt</kbd> ĝentilas por la fingroj. La lokoj de <kbd>🡅</kbd>
-kaj <kbd>🡇</kbd> mi interŝanĝas kun <kbd>🡄</kbd> kaj <kbd>🡆</kbd>, respektive. Retejojn mi volas
+La nova loko de <kbd>Ctrl</kbd> kaj <kbd>Alt</kbd> ĝentilas por la fingroj. La lokoj de <kbd>🠉</kbd>
+kaj <kbd>🠋</kbd> mi interŝanĝas kun <kbd>🠈</kbd> kaj <kbd>🠊</kbd>, respektive. Retejojn mi volas
 rulumi per la musrado aŭ la desegna tabuleto sen mian dekstran manon uzi. La <kbd>Page Up</kbd> kaj
 <kbd>Page Down</kbd> klavoj ankaŭ movigitaj por egalan ŝarĝan distribuon ŝalti por du manoj.
 
@@ -95,12 +95,12 @@ signas, kiam alian klavon premi. Sinsekvon de premigitajn kaj tenigitajn klavoj 
 
 La jenajn klavojn premu orde:
 
-| Siksekvo                          | Priskribo                                                    |
-| :-------------------------------- | :----------------------------------------------------------- |
-| <kbd>Progrm + Shift + F10</kbd>   | La agordojn rekomencigi                                      |
-| <kbd>Progrm + \</kbd>             | La klavajn tonojn malŝalti                                   |
-| <kbd>Progrm + -</kbd>             | La sonojn de Caps, Scroll, Num Lock, kaj Insert malŝaltu     |
-| <kbd>Progrm + F12</kbd>           | La remapan reĝimon komenci                                   |
+| Siksekvo                          | Priskribo                                                                                                      |
+| :-------------------------------- | :------------------------------------------------------------------------------------------------------------- |
+| <kbd>Progrm + Shift + F10</kbd>   | La agordojn rekomencigi                                                                                        |
+| <kbd>Progrm + \</kbd>             | La klavajn tonojn malŝalti                                                                                     |
+| <kbd>Progrm + -</kbd>             | La sonojn de <kbd>Caps Lock</kbd>, <kbd>Scroll Lock</kbd>, <kbd>Num Lock</kbd>, kaj <kbd>Insert</kbd> malŝaltu |
+| <kbd>Progrm + F12</kbd>           | La remapan reĝimon komenci                                                                                     |
 
 En ĉi tiu punkto, la klavaro atendas por klavaj paroj kombinadoj. La unua klavo kiun oni devas premi
 estas la fonto, la sekva klavo estas la celo.
@@ -108,10 +108,10 @@ estas la fonto, la sekva klavo estas la celo.
 | Fonto                                      | Celo                       |
 | :----------------------------------------- | :------------------------- |
 | <kbd>Esc</kbd>                             | <kbd>Caps Lock</kbd>       |
-| <kbd>🡄</kbd>                               | <kbd>🡅</kbd>               |
-| <kbd>🡆</kbd>                               | <kbd>🡇</kbd>               |
-| <kbd>🡅</kbd>                               | <kbd>🡄</kbd>               |
-| <kbd>🡇</kbd>                               | <kbd>🡆</kbd>               |
+| <kbd>🠈</kbd>                               | <kbd>🠉</kbd>               |
+| <kbd>🠊</kbd>                               | <kbd>🠋</kbd>               |
+| <kbd>🠉</kbd>                               | <kbd>🠈</kbd>               |
+| <kbd>🠋</kbd>                               | <kbd>🠊</kbd>               |
 | <kbd>-_</kbd>                              | <kbd>End</kbd>             |
 | <kbd>=+</kbd>                              | <kbd>Page Down</kbd>       |
 | <kbd>Page Up</kbd>                         | <kbd>Home</kbd>            |
