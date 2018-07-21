@@ -3,13 +3,15 @@ La Pensoj de Pedanto
 
 <div class="center">[Esperante](#) · [English](/en/)</div>
 <div class="center">la 27-an de Aprilo 2017</div>
-<div class="center">Laste ŝanĝita: la 18-an de Julio 2018</div>
+<div class="center">Laste ŝanĝita: la 21-an de Julio 2018</div>
 
 <img src="/bil/kafofaboj.jpg" class="banner" alt="kafofaboj" />
 
 <div class="text-right">Retejo pri komputiko, hominklinaĵoj, kaj hazardaĵoj.</div>
 <div class="text-right">Enskriboj ordigatas laŭ inversa kronologiordo.</div>
 
+- [Signoj kaj Interpunkcioj (Mallongigite)](signoj-interpunkcioj-mallongigite)
+- [Signoj kaj Interpunkcioj](signoj-interpunkcioj)
 - [Verbotempoj en La Angla (Mallongigite)](verbotempoj-la-angla-mallongigite)
 - [Verbotempoj en La Angla](verbotempoj-la-angla)
 - [Mia Kinezia Avantaĝa Aranĝo](avantagxo)

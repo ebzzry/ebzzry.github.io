@@ -1,33 +1,30 @@
 Symbols and Marks
 =================
 
+<div class="center">[Esperante](/en/signoj-interpunkcioj) · [English](#)</div>
 <div class="center">April 8, 2016</div>
-<div class="center">Last updated: April 7, 2017</div>
+<div class="center">Last updated: July 22, 2018</div>
 
 >If you want to achieve greatness, stop asking for permission.<br>
 >―Eddie Colla
 
 *Click [here](/en/symbols-marks-condensed) for the condensed version.*
 
-This short guide gives you a tour on how to use the hidden symbols on your keyboard, that are better
-suited to perform symbol duties than their ill cousins from the typewriter era—the (-), (') and (")
-symbols. In addition to those symbols, I’m also going to talk about replacements to frequently-used
-incorrect symbols.
+This short guide gives you a tour on how to use the (-), ('), and (") symbols on your keyboard, that
+are better suited to perform symbol duties than their ill cousins from the typewriter era. In
+addition to those symbols, I’m also going to talk about replacements to frequently-used incorrect
+symbols.
 
-Each section begins with an input sequence for Windows, Mac, and Linux (X) systems,
+Each section begins with an input sequence for Linux, Mac, and Windows systems,
 respectively. The `+` symbol signifies that you press the key to its left, before you press the key
-to its right. That is, to input <kbd>⌥</kbd> + <kbd>⇧</kbd> + <kbd>-</kbd>, you must press and hold
-<kbd>⌥</kbd>, then press and hold <kbd>⇧</kbd>, then press <kbd>-</kbd>. For the Linux input
-sequences, the keys should be pressed and released. That is, to input <kbd>Compose</kbd>
-<kbd>-</kbd> <kbd>-</kbd> <kbd>-</kbd>, you must press and release <kbd>Compose</kbd>, press and
-release <kbd>-</kbd>, press and release another <kbd>-</kbd>, and press and release the last
-<kbd>-</kbd>. Also for Linux, the Compose (Multi_key) must first be set in your .Xmodmap file, or in
-your Desktop Environment (DE) configuration.
+to its right. That is, to input <kbd>⌥</kbd> + <kbd>Shift</kbd> + <kbd>-</kbd>, you must press and hold
+<kbd>⌥</kbd>, then press and hold <kbd>Shift</kbd>, then press <kbd>-</kbd>.
 
 
-Table of contents
------------------
+<a name="toc"></a>Table of contents
+-----------------------------------
 
+- [Notes for Linux](#notesforlinux)
 - [Hyphens](#hyphens)
 - [En dashes](#endashes)
 - [Em dashes](#emdashes)
@@ -35,14 +32,53 @@ Table of contents
 - [Single quotes](#singlequotes)
 - [Prime symbols](#prime)
 - [Horizontal ellipsis](#horizontalellipsis)
+- [Closing remarks](#closingremarks)
 
 
-<a name="hyphens"></a> Hyphens (-)
-----------------------------------
+<a name="notesforlinux"></a>Notes for Linux
+-------------------------------------------
 
-- Windows: <kbd>-</kbd>
-- Mac: <kbd>-</kbd>
+There is already a method to easily insert symbols in Linux. It is with the use of the
+<kbd>Compose</kbd> key. Unfortunately, using this method is not economical. Instead, we use the
+<kbd>Mode_switch</kbd> key. In this article the <kbd>Ω</kbd> key signifies the
+<kbd>Mode_switch</kbd> key.
+
+We must bind it in the correct configuration file. Open the file `~/.Xmodmap`, then add the following snippet:
+
+```
+!! print key
+keycode 107 = Mode_switch
+
+!! left windows key
+keycode 133 = Mode_switch
+
+!! right windows key
+keycode 134 = Mode_switch
+
+!! menu key
+keycode 135 = Mode_switch
+
+!! symbols
+keycode 48 = minus underscore endash emdash
+keycode 49 = grave asciitilde leftsinglequotemark
+keycode 24 = apostrophe quotedbl rightsinglequotemark
+keycode 25 = comma less minutes seconds
+keycode 26 = period greater ellipsis
+keycode 20 = bracketleft braceleft leftdoublequotemark
+keycode 21 = bracketright braceright rightdoublequotemark
+```
+
+Then, run the following command:
+
+    xmodmap ~/.Xmodmap
+
+
+<a name="hyphens"></a>Hyphens (-)
+---------------------------------
+
 - Linux: <kbd>-</kbd>
+- Mac: <kbd>-</kbd>
+- Windows: <kbd>-</kbd>
 
 The <kbd>-</kbd> key on your keyboard is not part of the dash family. It looks like one, but it
 isn’t one. Hyphens are used to join words, and to separate syllables of a single word. For example,
@@ -55,12 +91,12 @@ To speak of a snake that eats birds, we say:
 - A snake eating bird.
 
 
-<a name="endashes"></a> En dashes (–)
--------------------------------------
+<a name="endashes"></a>En dashes (–)
+------------------------------------
 
-- Windows: <kbd>Alt</kbd> + <kbd>0</kbd> <kbd>1</kbd> <kbd>5</kbd> <kbd>0</kbd>
+- Linux: <kbd>Ω</kbd> + <kbd>-</kbd>
 - Mac: <kbd>⌥</kbd> + <kbd>-</kbd>
-- Linux: <kbd>Compose</kbd> <kbd>-</kbd> <kbd>-</kbd> <kbd>space</kbd>
+- Windows: <kbd>Alt</kbd> + <kbd>0</kbd> <kbd>1</kbd> <kbd>5</kbd> <kbd>0</kbd>
 
 The en dash is used to denote a range of values. Don’t put spaces around it. To express the date
 range from 1960 to 2016, we type:
@@ -82,12 +118,12 @@ When the month is the same, used the unspaced en dash:
 - March 14–15, 1900
 
 
-<a name="emdashes"></a> Em dashes (—)
--------------------------------------
+<a name="emdashes"></a>Em dashes (—)
+------------------------------------
 
+- Linux: <kbd>Ω</kbd> + <kbd>Shift</kbd> + <kbd>-</kbd>
+- Mac: <kbd>⌥</kbd> + <kbd>Shift</kbd> + <kbd>-</kbd>
 - Windows: <kbd>Alt</kbd> + <kbd>0</kbd> <kbd>1</kbd> <kbd>5</kbd> <kbd>1</kbd>
-- Mac: <kbd>⌥</kbd> + <kbd>⇧</kbd> + <kbd>-</kbd>
-- Linux: <kbd>Compose</kbd> <kbd>-</kbd> <kbd>-</kbd> <kbd>-</kbd>
 
 The em dash can be used in a multitude of ways. Like em dashes, don’t put spaces around it. To use
 it like a colon:
@@ -107,7 +143,7 @@ To use it like parentheses:
 
 To denote interruption of the speaker:
 
-- “I think I will go and—hell, no.”
+- I think I will go and—hell, no.
 
 
 <a name="doublequotes"></a> Double quotes (“) (”)
@@ -115,21 +151,21 @@ To denote interruption of the speaker:
 
 Left double quotes (“)
 
-- Windows: <kbd>Alt</kbd> + <kbd>0</kbd> <kbd>1</kbd> <kbd>4</kbd> <kbd>7</kbd>
+- Linux: <kbd>Ω</kbd> + <kbd>[</kbd>
 - Mac: <kbd>⌥</kbd> + <kbd>[</kbd>
-- Linux: <kbd>Compose</kbd> <kbd>6</kbd> <kbd>"</kbd>
+- Windows: <kbd>Alt</kbd> + <kbd>0</kbd> <kbd>1</kbd> <kbd>4</kbd> <kbd>7</kbd>
 
 Right double quotes (”)
 
+- Linux: <kbd>Ω</kbd> + <kbd>]</kbd>
+- Mac: <kbd>⌥</kbd> + <kbd>Shift</kbd> + <kbd>[</kbd>
 - Windows: <kbd>Alt</kbd> + <kbd>0</kbd> <kbd>1</kbd> <kbd>4</kbd> <kbd>8</kbd>
-- Mac: <kbd>⌥</kbd> + <kbd>⇧</kbd> + <kbd>[</kbd>
-- Linux: <kbd>Compose</kbd> <kbd>9</kbd> <kbd>"</kbd>
 
 Double quotes are used to denote words that were spoken by a speaker.
 
 - She came up to me and said, “Can we determine its probability?”
 
-It is also used when writing quotes (attributions):
+They are also used when writing quotes (attributions):
 
 - “Supposing is good, but finding out is better.”―Samuel Clemens
 
@@ -153,15 +189,15 @@ nines:
 
 Left single quote (‘)
 
-- Windows: <kbd>Alt</kbd> + <kbd>0</kbd> <kbd>1</kbd> <kbd>4</kbd> <kbd>5</kbd>
+- Linux: <kbd>Ω</kbd> + <kbd>`</kbd>
 - Mac: <kbd>⌥</kbd> + <kbd>]</kbd>
-- Linux: <kbd>Compose</kbd> <kbd>6</kbd> <kbd>'</kbd>
+- Windows: <kbd>Alt</kbd> + <kbd>0</kbd> <kbd>1</kbd> <kbd>4</kbd> <kbd>5</kbd>
 
 Right single quote (’)
 
+- Linux: <kbd>Ω</kbd> + <kbd>'</kbd>
+- Mac: <kbd>⌥</kbd> + <kbd>Shift</kbd> + <kbd>]</kbd>
 - Windows: <kbd>Alt</kbd> + <kbd>0</kbd> <kbd>1</kbd> <kbd>4</kbd> <kbd>6</kbd>
-- Mac: <kbd>⌥</kbd> + <kbd>⇧</kbd> + <kbd>]</kbd>
-- Linux: <kbd>Compose</kbd> <kbd>9</kbd> <kbd>'</kbd>
 
 Single quotes are used when a speech is embedded within another speech:
 
@@ -189,25 +225,27 @@ write it as “1990s.” Next, is the presence of “s.” This creates an array
 With this in mind, ’90s means the years 1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, and 1999.
 
 
-<a name="prime"></a> Prime symbols (′) (″)
-------------------------------------------
+<a name="prime"></a>Prime symbols (′) (″)
+-----------------------------------------
 
 Prime (′)
 
-- Windows: <kbd>Alt</kbd> + <kbd>8</kbd> <kbd>2</kbd> <kbd>4</kbd> <kbd>2</kbd>
+- Linux: <kbd>Ω</kbd> + <kbd>,</kbd>
 - Mac: <kbd>⌥</kbd> + <kbd>2</kbd> <kbd>0</kbd> <kbd>3</kbd> <kbd>2</kbd>
-- Linux: <kbd>Compose</kbd> <kbd>*</kbd> <kbd>.</kbd> <kbd>'</kbd>
+- Windows: <kbd>Alt</kbd> + <kbd>8</kbd> <kbd>2</kbd> <kbd>4</kbd> <kbd>2</kbd>
 
 Double prime (″)
 
-- Windows: <kbd>Alt</kbd> + <kbd>8</kbd> <kbd>2</kbd> <kbd>4</kbd> <kbd>3</kbd>
+- Linux: <kbd>Ω</kbd> + <kbd>Shift</kbd> + <kbd>,</kbd>
 - Mac: <kbd>⌥</kbd> + <kbd>2</kbd> <kbd>0</kbd> <kbd>3</kbd> <kbd>3</kbd>
-- Linux: <kbd>Compose</kbd> <kbd>*</kbd> <kbd>.</kbd> <kbd>"</kbd>
+- Windows: <kbd>Alt</kbd> + <kbd>8</kbd> <kbd>2</kbd> <kbd>4</kbd> <kbd>3</kbd>
 
-The quotation symbols on your keyboard (') and (") look like prime symbols but they aren’t—they’re
+The quotation symbols on your keyboard (') and (") look like prime symbols but they aren’t. They’re
 sloppy vestiges from typewriters. The correct glyphs are (′) and (″). The prime symbol (′) is used
 to denote feet, minutes, and arcminutes, while the double prime symbol (″) is used to denote inches,
-seconds, and arcseconds. To express a height of six feet and two inches, we type:
+seconds, and arcseconds.
+
+To express a height of six feet and two inches, we type:
 
 - 6′2″
 
@@ -224,19 +262,18 @@ words above it are to be repeated. For example:
 Optimus′?
 
 
-<a name="horizontalellipsis"></a> Horizontal ellipsis (…)
----------------------------------------------------------
+<a name="horizontalellipsis"></a>Horizontal ellipsis (…)
+--------------------------------------------------------
 
-- Windows: <kbd>Alt</kbd> + <kbd>0</kbd> <kbd>1</kbd> <kbd>3</kbd> <kbd>3</kbd>
+- Linux: <kbd>Ω</kbd> + <kbd>.</kbd>
 - Mac: <kbd>⌥</kbd> + <kbd>;</kbd>
-- Linux: <kbd>Compose</kbd> <kbd>.</kbd> <kbd>.</kbd> <kbd>.</kbd>
-
+- Windows: <kbd>Alt</kbd> + <kbd>0</kbd> <kbd>1</kbd> <kbd>3</kbd> <kbd>3</kbd>
 
 The ellipsis is used to indicate omission of a word, phrase, sentence, or a whole block of text, as
-part of a larger text. It is one of the most misunderstood punctuation marks is the ellipsis. I see
-a lot of times that three periods—full stops—are used instead of the proper ellipsis symbol. In an
-era where typewriters were the best ways to typeset text, using three periods worked. That time,
-however, has long passed; we should use the facities available with us.
+part of a larger text. It is one of the most misunderstood punctuation marks. I see a lot of times
+that three periods—full stops—are used instead of the proper ellipsis symbol. In an era where
+typewriters were the best ways to typeset text, using three periods worked. That time, however, has
+long passed; we should use the facities available with us.
 
 For example, it can be used like this:
 
@@ -250,8 +287,8 @@ When used at the end of a block, put a space before it; when used at the start, 
 it; when used in the middle, put spaces around it.
 
 
-<a name="closing"></a> Closing remarks
---------------------------------------
+<a name="closing"></a>Closing remarks
+-------------------------------------
 
 Using the correct punctuation marks and symbols draws the line between class and crass. When you use
 the proper symbols, you communicate to your readers that you care about syntactical correctness as

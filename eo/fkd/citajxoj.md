@@ -3,7 +3,7 @@ Citaĵoj
 
 <div class="center">[Esperante](#) · [English](/en/quotes)</div>
 <div class="center">la 15-an de Novembro 2017</div>
-<div class="center">Laste ŝanĝita: la 10-an de Julio 2018</div>
+<div class="center">Laste ŝanĝita: la 20-an de Julio 2018</div>
 
 Ĉi tiu paĝo enhavas liston de atenteme elektitaj citaĵoj, aforismoj, kaj sentencoj kiujn mi kolektis
 tra la jarojn.
@@ -173,7 +173,7 @@ tra la jarojn.
   ―Tyler DURDEN, Fight Club
 
 
-- Se oni volas atingi grandecon, ĉesu peti konsentojn.<br>
+- Se grandiozon oni volas atingi, konsentojn ĉesu peti.<br>
   ―Eddie COLLA
 
 
@@ -182,7 +182,7 @@ tra la jarojn.
 
 
 - Se oni vivas per mono, estas ĉion oni elakiros.<br>
-  ―Sennoma
+  ―Anonimulo
 
 
 - La ŝanco favoras la pretan menson.<br>
@@ -349,12 +349,12 @@ tra la jarojn.
   ―Ivan JUNIUS
 
 
-- Onia povo por atingi ion dependegas per kiom oni kredas oni povas atingi ion.<br>
-  ―Sennoma
+- La povo por ion atingi dependegas per kiom oni kredas oni povas atingi ĝin.<br>
+  ―Anonimulo
 
 
 - La popoloj kiuj riskiĝas, estas ofte la tiuj, kiuj finiĝas esti la plej feliĉaj.<br>
-  ―Sennoma
+  ―Anonimulo
 
 
 - Se tion oni faras, kion oni ĉiam faras; tion oni akiros, kion oni ĉiam akiras.<br>

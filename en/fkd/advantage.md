@@ -3,7 +3,7 @@ My Kinesis Advantage Layout
 
 <div class="center">[Esperante](/eo/avantagxo) · [English](#)</div>
 <div class="center">October 26, 2015</div>
-<div class="center">Last updated: July 13, 2018</div>
+<div class="center">Last updated: July 22, 2018</div>
 
 >Pain is inevitable. Suffering is optional.<br>
 >―M. Kathleen Casey
@@ -64,7 +64,7 @@ Because of that, I remapped some of the keys. The new layout is as follows.
 <div class="center">Figure 1-2: Remapped software Dvorak</div>
 
 The new location of <kbd>Ctrl</kbd> and <kbd>Alt</kbd> makes it easy for the fingers. I swapped the
-location of <kbd>🡅</kbd> and <kbd>🡇</kbd> with <kbd>🡄</kbd> and <kbd>🡆</kbd>. I want to
+location of <kbd>🠉</kbd> and <kbd>🠋</kbd> with <kbd>🠈</kbd> and <kbd>🠊</kbd>. I want to
 be able to scroll through a webpage without having to use my right hand with the mouse wheel or the
 drawing tablet. <kbd>Page Up</kbd> and <kbd>Page Down</kbd> were also moved to enable equal load
 distribution for two hands.
@@ -94,12 +94,12 @@ order.
 
 First, press the following keys, in order:
 
-| Sequence                          | Description                                                  |
-| :-------------------------------- | :----------------------------------------------------------- |
-| <kbd>Progrm + Shift + F10</kbd>   | Reset settings                                               |
-| <kbd>Progrm + \</kbd>             | Disable key tones                                            |
-| <kbd>Progrm + -</kbd>             | Disable key tones for Caps, Scroll, Num Lock keys and Insert |
-| <kbd>Progrm + F12</kbd>           | Start remapping mode                                         |
+| Sequence                          | Description                                                                                                        |
+| :-------------------------------- | :----------------------------------------------------------------------------------------------------------------- |
+| <kbd>Progrm + Shift + F10</kbd>   | Reset settings                                                                                                     |
+| <kbd>Progrm + \</kbd>             | Disable key tones                                                                                                  |
+| <kbd>Progrm + -</kbd>             | Disable key tones for <kbd>Caps Lock</kbd>, <kbd>Scroll Lock</kbd>, <kbd>Num Lock</kbd> keys and <kbd>Insert</kbd> |
+| <kbd>Progrm + F12</kbd>           | Start remapping mode                                                                                               |
 
 At this point, the keyboard waits for key pair combinations. The first key that you’ll press will be
 the source; the next key will be the destination.
@@ -107,10 +107,10 @@ the source; the next key will be the destination.
 | Source                                 | Destination                |
 | :------------------------------------- | :------------------------- |
 | <kbd>Esc</kbd>                         | <kbd>Caps Lock</kbd>       |
-| <kbd>🡄</kbd>                           | <kbd>🡅</kbd>               |
-| <kbd>🡆</kbd>                           | <kbd>🡇</kbd>               |
-| <kbd>🡅</kbd>                           | <kbd>🡄</kbd>               |
-| <kbd>🡇</kbd>                           | <kbd>🡆</kbd>               |
+| <kbd>🠈</kbd>                           | <kbd>🠉</kbd>               |
+| <kbd>🠊</kbd>                           | <kbd>🠋</kbd>               |
+| <kbd>🠉</kbd>                           | <kbd>🠈</kbd>               |
+| <kbd>🠋</kbd>                           | <kbd>🠊</kbd>               |
 | <kbd>-_</kbd>                          | <kbd>End</kbd>             |
 | <kbd>=+</kbd>                          | <kbd>Page Down</kbd>       |
 | <kbd>Page Up</kbd>                     | <kbd>Home</kbd>            |
