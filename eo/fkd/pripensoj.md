@@ -183,7 +183,7 @@ Enskriboj ordigatas laŭ kronologiordo.
 - Ni ne timu doloron, tial ke, senti doloron estas la plej bona maniero por plifortiĝi.<br>
 
 
-- En la vizaĝo de la kosmo, ni porĉiame estas infanoj.<br>
+- En la vizaĝo de la kosmo, ni ĉiuj porĉiame estas infanoj.<br>
 
 
 - Trompaj novaĵoj disvastiĝas ĉar trompaj homoj ekzistas.<br>

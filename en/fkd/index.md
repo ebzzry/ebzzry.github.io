@@ -5,7 +5,7 @@ The Musings of a Pedant
 <div class="center">August 15, 2015</div>
 <div class="center">Last updated: July 22, 2018</div>
 
-<img src="/bil/pluvis.jpg" class="banner" alt="Pluvis." />
+<img src="/bil/pluvis.jpg" class="banner" alt="pluvis.jpg" title="In the face of the cosmos, we all are children forever." />
 
 <div class="text-right">A journal about computing, human predilections, and random krakaboom.</div>
 <div class="text-right">Entries are sorted in reverse chronological order.</div>
