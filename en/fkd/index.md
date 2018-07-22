@@ -3,9 +3,9 @@ The Musings of a Pedant
 
 <div class="center">[Esperante](/eo/) · [English](#)</div>
 <div class="center">August 15, 2015</div>
-<div class="center">Last updated: July 18, 2018</div>
+<div class="center">Last updated: July 22, 2018</div>
 
-<img src="/bil/pluvis.jpg" class="banner" alt="pluvis" />
+<img src="/bil/pluvis.jpg" class="banner" alt="Pluvis." />
 
 <div class="text-right">A journal about computing, human predilections, and random krakaboom.</div>
 <div class="text-right">Entries are sorted in reverse chronological order.</div>
