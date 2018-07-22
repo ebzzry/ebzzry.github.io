@@ -7,14 +7,14 @@ Symbols and Marks (Condensed)
 
 The table below is the condensed form of [Symbols and Marks](/en/symbols-marks).
 
-| Glyph | Name               | Linux         | Mac           | Windows    |
-| :---- | :----------------- | :------------ | :------------ | :--------- |
-| –     | en dash            | Ω + -         | ⌥ + -         | Alt + 0150 |
-| —     | em dash            | Ω + Shift + - | ⌥ + Shift + - | Alt + 0151 |
-| “     | left double quote  | Ω + [         | ⌥ + [         | Alt + 0147 |
-| ”     | right double quote | Ω + ]         | ⌥ + Shift + [ | Alt + 0148 |
-| ‘     | left single quote  | Ω + `         | ⌥ + ]         | Alt + 0145 |
-| ’     | right single quote | Ω + '         | ⌥ + Shift + ] | Alt + 0146 |
-| ′     | prime              | Ω + ,         | ⌥ + 2032      | Alt + 8242 |
-| ″     | double prime       | Ω + Shift + , | ⌥ + 2033      | Alt + 8243 |
-| …     | ellipsis           | Ω + .         | ⌥ + ;         | Alt + 0133 |
+| Glyph | Name               | Linux          | Mac           | Windows    |
+| :---- | :----------------- | :------------- | :------------ | :--------- |
+| –     | en dash            | 🐧 + -         | ⌥ + -         | Alt + 0150 |
+| —     | em dash            | 🐧 + Shift + - | ⌥ + Shift + - | Alt + 0151 |
+| “     | left double quote  | 🐧 + [         | ⌥ + [         | Alt + 0147 |
+| ”     | right double quote | 🐧 + ]         | ⌥ + Shift + [ | Alt + 0148 |
+| ‘     | left single quote  | 🐧 + `         | ⌥ + ]         | Alt + 0145 |
+| ’     | right single quote | 🐧 + '         | ⌥ + Shift + ] | Alt + 0146 |
+| ′     | prime              | 🐧 + ,         | ⌥ + 2032      | Alt + 8242 |
+| ″     | double prime       | 🐧 + Shift + , | ⌥ + 2033      | Alt + 8243 |
+| …     | ellipsis           | 🐧 + .         | ⌥ + ;         | Alt + 0133 |
