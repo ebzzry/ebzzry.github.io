@@ -5,7 +5,7 @@ La Pensoj de Pedanto
 <div class="center">la 27-an de Aprilo 2017</div>
 <div class="center">Laste ŝanĝita: la 22-an de Julio 2018</div>
 
-<img src="/bil/pluvis.jpg" class="banner" alt="Pluvis." />
+<img src="/bil/pluvis.jpg" class="banner" alt="pluvis.jpg" title="En la vizaĝo de la kosmo, ni ĉiuj porĉiame estas infanoj." />
 
 <div class="text-right">Retejo pri komputiko, hominklinaĵoj, kaj hazardaĵoj.</div>
 <div class="text-right">Enskriboj ordigatas laŭ inversa kronologiordo.</div>

@@ -3,9 +3,9 @@ Pri
 
 <div class="center">[Esperante](#) · [English](/en/about)</div>
 <div class="center">la 27-an de Aprilo 2017</div>
-<div class="center">Laste ŝanĝita: la 13-an de Julio 2018</div>
+<div class="center">Laste ŝanĝita: la 22-an de Julio 2018</div>
 
-<img style="margin-right: 0.5em; margin-bottom: 0.5em;" src="/bil/identicon.png" alt="Ve!" title="Ve!" align="left" />
+<img style="margin-right: 0.5em; margin-bottom: 0.5em;" src="/bil/identicon.png" alt="identicon.png" title="Ve!" align="left" />
 
 Bonvenon al mia peco de teksaĵo!
 

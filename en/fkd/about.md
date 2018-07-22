@@ -3,9 +3,9 @@ About
 
 <div class="center">[Esperante](/eo/pri) · [English](#)</div>
 <div class="center">March 27, 2017</div>
-<div class="center">Last updated: July 13, 2018</div>
+<div class="center">Last updated: July 22, 2018</div>
 
-<img style="margin-right: 0.5em; margin-bottom: 0.5em;" src="/bil/identicon.png" alt="Ve!" title="Ve!" align="left" />
+<img style="margin-right: 0.5em; margin-bottom: 0.5em;" src="/bil/identicon.png" alt="identicon.png" title="Ve!" align="left" />
 
 Welcome to my piece of web!
 

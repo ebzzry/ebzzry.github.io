@@ -187,7 +187,7 @@ Entries are sorted in chronological order.
 - Let’s not fear pain, because feeling pain is one of the best ways to become stronger.<br>
 
 
-- In the face of the cosmos, we are children, forever.<br>
+- In the face of the cosmos, we all are children forever.<br>
 
 
 - Fraudulent news spread because fraudulent humans exist.<br>
