@@ -35,29 +35,29 @@ premas.
 - [Finrimarkoj](#finrimarkoj)
 
 
-<a name="notojporlinuk"></a>Notoj por linukso
----------------------------------------------
+<a name="notojporlinukso"></a>Notoj por linukso
+-----------------------------------------------
 
 Jam ekzistas metodo por signojn enmeti linukse. Estas la uzo de la <kbd>Compose</kbd>
 klavo. Bedaŭrinde, ĉi tiun metodon ni ne uzas ĉar estas neekonomie. Anstataŭ la
-<kbd>Mode_switch</kbd> klavo ni uzu. En ĉi tiu artikolo la <kbd>Ω</kbd> klavo signifas la
-<kbd>Mode_switch</kbd> klavon.
+<kbd>Mode‎ߺ‎switch</kbd> klavo ni uzu. En ĉi tiu artikolo la <kbd>🐧</kbd> klavo signifas la
+<kbd>Mode‎ߺ‎switch</kbd> klavon.
 
 Ĝin ni devas bindi en la ĝusta agorda dosiero. La dosieron `~/.Xmodmap` malfermu, tiam na jenan
 kodeton enmetu:
 
 ```
 !! prema klavo
-keycode 107 = Mode_switch
+keycode 107 = Mode‎ߺ‎switch
 
-!! maldekstra vindoza klavo
-keycode 133 = Mode_switch
+!! maldekstra vindozklavo
+keycode 133 = Mode‎ߺ‎switch
 
-!! dekstra vindoza klavo
-keycode 134 = Mode_switch
+!! dekstra vindozklavo
+keycode 134 = Mode‎ߺ‎switch
 
 !! menua klavo
-keycode 135 = Mode_switch
+keycode 135 = Mode‎ߺ‎switch
 
 !! interpunkcioj
 keycode 48 = minus underscore endash emdash
@@ -85,10 +85,12 @@ Streketoj estas uzataj por la distributan sencon, kaj kunmetitajn vortojn montri
 volas esprimi:
 
 - sunleviĝo kaj sunsubiro
+- h-sistemo kaj x-sistemo
 
 Oni ankaŭ povas esprimi:
 
 - sunleviĝo kaj -subiro
+- h- kaj x-sistemo
 
 Se oni volas esprimi:
 
@@ -118,7 +120,7 @@ Oni esprimas:
 <a name="ĝis-strekoj"></a>Ĝis-strekoj (–)
 -----------------------------------------
 
-- Linukse: <kbd>Ω</kbd> + <kbd>-</kbd>
+- Linukse: <kbd>🐧</kbd> + <kbd>-</kbd>
 - Makintose: <kbd>⌥</kbd> + <kbd>-</kbd>
 - Vindoze: <kbd>Alt</kbd> + <kbd>0</kbd> <kbd>1</kbd> <kbd>5</kbd> <kbd>0</kbd>
 
@@ -158,7 +160,7 @@ Kiam la monatoj samas, la ĝis-strekojn sen spacetoj uzu:
 <a name="haltostrekoj"></a>Haltostrekoj (—)
 -------------------------------------------
 
-- Linukse: <kbd>Ω</kbd> + <kbd>Shift</kbd> + <kbd>-</kbd>
+- Linukse: <kbd>🐧</kbd> + <kbd>Shift</kbd> + <kbd>-</kbd>
 - Makintoŝe: <kbd>⌥</kbd> + <kbd>Shift</kbd> + <kbd>-</kbd>
 - Vindoze: <kbd>Alt</kbd> + <kbd>0</kbd> <kbd>1</kbd> <kbd>5</kbd> <kbd>1</kbd>
 
@@ -188,13 +190,13 @@ Por la maldaŭrigon de la parolanto esprimi:
 
 Maldekstra duobla citilo (“)
 
-- Linukse: <kbd>Ω</kbd> + <kbd>[</kbd>
+- Linukse: <kbd>🐧</kbd> + <kbd>[</kbd>
 - Makintoŝe: <kbd>⌥</kbd> + <kbd>[</kbd>
 - Vindoze: <kbd>Alt</kbd> + <kbd>0</kbd> <kbd>1</kbd> <kbd>4</kbd> <kbd>7</kbd>
 
 Dekstra duobla citilo (”)
 
-- Linukse: <kbd>Ω</kbd> + <kbd>]</kbd>
+- Linukse: <kbd>🐧</kbd> + <kbd>]</kbd>
 - Makintoŝe: <kbd>⌥</kbd> + <kbd>Shift</kbd> + <kbd>[</kbd>
 - Vindoze: <kbd>Alt</kbd> + <kbd>0</kbd> <kbd>1</kbd> <kbd>4</kbd> <kbd>8</kbd>
 
@@ -225,13 +227,13 @@ Por plifaciliĝi al kiel ili aperas, ilin pensu kiel flosantaj paroj de sesoj ka
 
 Maldekstra unuopa citilo (‘)
 
-- Linukse: <kbd>Ω</kbd> + <kbd>`</kbd>
+- Linukse: <kbd>🐧</kbd> + <kbd>`</kbd>
 - Makintoŝe: <kbd>⌥</kbd> + <kbd>]</kbd>
 - Vindoze: <kbd>Alt</kbd> + <kbd>0</kbd> <kbd>1</kbd> <kbd>4</kbd> <kbd>5</kbd>
 
 Dekstra unuopa citilo (’)
 
-- Linukse: <kbd>Ω</kbd> + <kbd>'</kbd>
+- Linukse: <kbd>🐧</kbd> + <kbd>'</kbd>
 - Makintoŝe: <kbd>⌥</kbd> + <kbd>Shift</kbd> + <kbd>]</kbd>
 - Vindoze: <kbd>Alt</kbd> + <kbd>0</kbd> <kbd>1</kbd> <kbd>4</kbd> <kbd>6</kbd>
 
@@ -270,13 +272,13 @@ Kiam ritmojn kaj taktojn oni kalkulas, la litero «u» en «unu» povas esti ell
 
 Primo (′)
 
-- Linukse: <kbd>Ω</kbd> + <kbd>,</kbd>
+- Linukse: <kbd>🐧</kbd> + <kbd>,</kbd>
 - Makintoŝe: <kbd>⌥</kbd> + <kbd>2</kbd> <kbd>0</kbd> <kbd>3</kbd> <kbd>2</kbd>
 - Vindoze: <kbd>Alt</kbd> + <kbd>8</kbd> <kbd>2</kbd> <kbd>4</kbd> <kbd>2</kbd>
 
 Duobla primo (″)
 
-- Linukse: <kbd>Ω</kbd> + <kbd>Shift</kbd> + <kbd>,</kbd>
+- Linukse: <kbd>🐧</kbd> + <kbd>Shift</kbd> + <kbd>,</kbd>
 - Makintoŝe: <kbd>⌥</kbd> + <kbd>2</kbd> <kbd>0</kbd> <kbd>3</kbd> <kbd>3</kbd>
 - Vindoze: <kbd>Alt</kbd> + <kbd>8</kbd> <kbd>2</kbd> <kbd>4</kbd> <kbd>3</kbd>
 
@@ -303,7 +305,7 @@ indiki, ke la vortoj ĉi-supre devas esti ripetitaj. Ekzemple:
 <a name="Tripunkto"></a>Tripunkto (…)
 -------------------------------------
 
-- Linukse: <kbd>Ω</kbd> + <kbd>.</kbd>
+- Linukse: <kbd>🐧</kbd> + <kbd>.</kbd>
 - Makintoŝe: <kbd>⌥</kbd> + <kbd>;</kbd>
 - Vindoze: <kbd>Alt</kbd> + <kbd>0</kbd> <kbd>1</kbd> <kbd>3</kbd> <kbd>3</kbd>
 
