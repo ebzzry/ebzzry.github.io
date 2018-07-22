@@ -40,23 +40,23 @@ to its right. That is, to input <kbd>⌥</kbd> + <kbd>Shift</kbd> + <kbd>-</kbd>
 
 There is already a method to easily insert symbols in Linux. It is with the use of the
 <kbd>Compose</kbd> key. Unfortunately, using this method is not economical. Instead, we use the
-<kbd>Mode_switch</kbd> key. In this article the <kbd>Ω</kbd> key signifies the
-<kbd>Mode_switch</kbd> key.
+<kbd>Mode‎ߺ‎switch</kbd> key. In this article the <kbd>🐧</kbd> key signifies the
+<kbd>Mode‎ߺ‎switch</kbd> key.
 
 We must bind it in the correct configuration file. Open the file `~/.Xmodmap`, then add the following snippet:
 
 ```
 !! print key
-keycode 107 = Mode_switch
+keycode 107 = Mode‎ߺ‎switch
 
 !! left windows key
-keycode 133 = Mode_switch
+keycode 133 = Mode‎ߺ‎switch
 
 !! right windows key
-keycode 134 = Mode_switch
+keycode 134 = Mode‎ߺ‎switch
 
 !! menu key
-keycode 135 = Mode_switch
+keycode 135 = Mode‎ߺ‎switch
 
 !! symbols
 keycode 48 = minus underscore endash emdash
@@ -94,7 +94,7 @@ To speak of a snake that eats birds, we say:
 <a name="endashes"></a>En dashes (–)
 ------------------------------------
 
-- Linux: <kbd>Ω</kbd> + <kbd>-</kbd>
+- Linux: <kbd>🐧</kbd> + <kbd>-</kbd>
 - Mac: <kbd>⌥</kbd> + <kbd>-</kbd>
 - Windows: <kbd>Alt</kbd> + <kbd>0</kbd> <kbd>1</kbd> <kbd>5</kbd> <kbd>0</kbd>
 
@@ -121,7 +121,7 @@ When the month is the same, used the unspaced en dash:
 <a name="emdashes"></a>Em dashes (—)
 ------------------------------------
 
-- Linux: <kbd>Ω</kbd> + <kbd>Shift</kbd> + <kbd>-</kbd>
+- Linux: <kbd>🐧</kbd> + <kbd>Shift</kbd> + <kbd>-</kbd>
 - Mac: <kbd>⌥</kbd> + <kbd>Shift</kbd> + <kbd>-</kbd>
 - Windows: <kbd>Alt</kbd> + <kbd>0</kbd> <kbd>1</kbd> <kbd>5</kbd> <kbd>1</kbd>
 
@@ -151,13 +151,13 @@ To denote interruption of the speaker:
 
 Left double quotes (“)
 
-- Linux: <kbd>Ω</kbd> + <kbd>[</kbd>
+- Linux: <kbd>🐧</kbd> + <kbd>[</kbd>
 - Mac: <kbd>⌥</kbd> + <kbd>[</kbd>
 - Windows: <kbd>Alt</kbd> + <kbd>0</kbd> <kbd>1</kbd> <kbd>4</kbd> <kbd>7</kbd>
 
 Right double quotes (”)
 
-- Linux: <kbd>Ω</kbd> + <kbd>]</kbd>
+- Linux: <kbd>🐧</kbd> + <kbd>]</kbd>
 - Mac: <kbd>⌥</kbd> + <kbd>Shift</kbd> + <kbd>[</kbd>
 - Windows: <kbd>Alt</kbd> + <kbd>0</kbd> <kbd>1</kbd> <kbd>4</kbd> <kbd>8</kbd>
 
@@ -189,13 +189,13 @@ nines:
 
 Left single quote (‘)
 
-- Linux: <kbd>Ω</kbd> + <kbd>`</kbd>
+- Linux: <kbd>🐧</kbd> + <kbd>`</kbd>
 - Mac: <kbd>⌥</kbd> + <kbd>]</kbd>
 - Windows: <kbd>Alt</kbd> + <kbd>0</kbd> <kbd>1</kbd> <kbd>4</kbd> <kbd>5</kbd>
 
 Right single quote (’)
 
-- Linux: <kbd>Ω</kbd> + <kbd>'</kbd>
+- Linux: <kbd>🐧</kbd> + <kbd>'</kbd>
 - Mac: <kbd>⌥</kbd> + <kbd>Shift</kbd> + <kbd>]</kbd>
 - Windows: <kbd>Alt</kbd> + <kbd>0</kbd> <kbd>1</kbd> <kbd>4</kbd> <kbd>6</kbd>
 
@@ -230,13 +230,13 @@ With this in mind, ’90s means the years 1990, 1991, 1992, 1993, 1994, 1995, 19
 
 Prime (′)
 
-- Linux: <kbd>Ω</kbd> + <kbd>,</kbd>
+- Linux: <kbd>🐧</kbd> + <kbd>,</kbd>
 - Mac: <kbd>⌥</kbd> + <kbd>2</kbd> <kbd>0</kbd> <kbd>3</kbd> <kbd>2</kbd>
 - Windows: <kbd>Alt</kbd> + <kbd>8</kbd> <kbd>2</kbd> <kbd>4</kbd> <kbd>2</kbd>
 
 Double prime (″)
 
-- Linux: <kbd>Ω</kbd> + <kbd>Shift</kbd> + <kbd>,</kbd>
+- Linux: <kbd>🐧</kbd> + <kbd>Shift</kbd> + <kbd>,</kbd>
 - Mac: <kbd>⌥</kbd> + <kbd>2</kbd> <kbd>0</kbd> <kbd>3</kbd> <kbd>3</kbd>
 - Windows: <kbd>Alt</kbd> + <kbd>8</kbd> <kbd>2</kbd> <kbd>4</kbd> <kbd>3</kbd>
 
@@ -265,7 +265,7 @@ Optimus′?
 <a name="horizontalellipsis"></a>Horizontal ellipsis (…)
 --------------------------------------------------------
 
-- Linux: <kbd>Ω</kbd> + <kbd>.</kbd>
+- Linux: <kbd>🐧</kbd> + <kbd>.</kbd>
 - Mac: <kbd>⌥</kbd> + <kbd>;</kbd>
 - Windows: <kbd>Alt</kbd> + <kbd>0</kbd> <kbd>1</kbd> <kbd>3</kbd> <kbd>3</kbd>
 

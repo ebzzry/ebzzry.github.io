@@ -1,60 +1,50 @@
 Esperanto Characters in Linux
 =============================
 
+<div class="center">[Esperante](/eo/eo-linukse) · [English](#)</div>
 <div class="center">April 18, 2016</div>
-<div class="center">Last updated: March 31, 2017</div>
+<div class="center">Last updated: July 22, 2018</div>
 
 >If you want something you’ve never had, you must be willing to do something you’ve never
 >done.<br>
 >―Thomas Jefferson
 
-Prior to the invention of the methods discussed in this post, the way to input Esperanto characters
-on Linux is to use the the [h-](https://en.wikipedia.org/wiki/Esperanto_orthography#H-system)
-or [x-systems](https://en.wikipedia.org/wiki/Esperanto_orthography#X-system).  To input the
-character **ĉ**, you would have to write “ch” or “cx”. The latter was more preferred because the
-character **x** isn’t part of the Esperanto alphabet. Another, more tedious way of inputting
-characters was with the use of a character map—a GUI application that displays Unicode characters,
-that you can copy characters from. A popular character map application for Linux systems
-is [gucharmap](https://wiki.gnome.org/Apps/Gucharmap).
+I opine, that one should no longer be using the
+[h-](https://en.wikipedia.org/wiki/Esperanto_orthography#H-system) or
+[x-system](https://en.wikipedia.org/wiki/Esperanto_orthography#X-system) to input the characters
+specific to Esperanto, unless it is not physically possible. Currently, there are two ways to input
+Esperanto characters on Linux systems—the <kbd>Multi‎ߺ‎key</kbd> and <kbd>Mode‎ߺ‎switch</kbd> keys.
 
-The aforementioned systems are inaccurate, and tedious. But, there’s no need to continue using these
-archaic methods—aside of course from supporting legacy display systems. Currently, there are two
-ways to input Esperanto characters on Linux systems—using the multi and mode switch keys.
+In this article the <kbd>🐧</kbd> key signifies the <kbd>Mode‎ߺ‎switch</kbd> key.
 
 
-Table of contents
------------------
+<a name="toc"></a>Table of contents
+-----------------------------------
 
-- [Multi key](#multikey)
+- [Multi‎ߺ‎key](#multikey)
 - [Mode switch](#modeswitch)
 - [Closing remarks](#closing)
 
 
-<a name="multikey"></a> Multi key
----------------------------------
+<a name="multikey"></a>Multi‎ߺ‎key
+--------------------------------
 
-The *multi key*, also called the compose key, is a specially-assigned key, that must be pressed and
+The *Multi‎ߺ‎key*, also called the Compose key, is a specially-assigned key, that must be pressed and
 released, along with other keys, to input a character, or series of characters. Unlike
 <kbd>Shift</kbd> or <kbd>Ctrl</kbd>, it must be released, and not held down.
 
-To use the <kbd>Pause</kbd> key as the multi key, edit the file `~/.Xmodmap`, then add the
+To use the <kbd>Pause</kbd> key as the Multi‎ߺ‎key, edit the file `~/.Xmodmap`, then add the
 following:
 
-```
-keycode 127 = Multi_key
-```
+    keycode 127 = Multi‎ߺ‎key
 
 Then, re-read `~/.Xmodmap`:
 
-```
-$ xmodmap ~/.Xmodmap
-```
+    xmodmap ~/.Xmodmap
 
-If you do not want to use <kbd>Pause</kbd> as the multi key, run xev:
+If you do not want to use <kbd>Pause</kbd> as the Multi‎ߺ‎key, run xev:
 
-```
-$ xev
-```
+    xev
 
 A small window appears with a white background. Move your mouse inside the window, then press a key
 on your keyboard. On your terminal, you will see the keycode of the key that you pressed.
@@ -68,59 +58,60 @@ KeyRelease event, serial 36, synthetic NO, window 0x2e00001,
 …
 ```
 
-So, to use the <kbd>Print</kbd> key as your multi key, edit
+So, to use the <kbd>Print</kbd> key as your Multi‎ߺ‎key, edit
 `~/.Xmodmap` to contain:
 
 ```
-keycode 107 = Multi_key
+keycode 107 = Multi‎ߺ‎key
 ```
 
 Then re-read the `~/.Xmodmap` file as described above.
 
-Now that you have access to the multi key, composing characters will be easy. Presuming you’re using
-<kbd>Pause</kbd> as the multi key, to input **ĉ**, you must press and release <kbd>Pause</kbd>,
+Now that you have access to the Multi‎ߺ‎key, composing characters will be easy. Presuming you’re using
+<kbd>Pause</kbd> as the Multi‎ߺ‎key, to input **ĉ**, you must press and release <kbd>Pause</kbd>,
 press and release <kbd>&#94;</kbd> (shift 6), then finally, press and release <kbd>c</kbd>.
 
 The following table lists the combinations for the Esperanto characters:
 
-
 | Character | Sequence       |
 | :-------- | :------------- |
-| ĉ         | Multi_key ^ c  |
-| Ĉ         | Multi_key ^ C  |
-| ĝ         | Multi_key ^ g  |
-| Ĝ         | Multi_key ^ G  |
-| ĥ         | Multi_key ^ h  |
-| Ĥ         | Multi_key ^ H  |
-| ĵ         | Multi_key ^ j  |
-| Ĵ         | Multi_key ^ J  |
-| ŝ         | Multi_key ^ s  |
-| Ŝ         | Multi_key ^ S  |
-| ŭ         | Multi_key u u  |
-| Ŭ         | Multi_key U U  |
+| ĉ         | Multi‎ߺ‎key ^ c  |
+| Ĉ         | Multi‎ߺ‎key ^ C  |
+| ĝ         | Multi‎ߺ‎key ^ g  |
+| Ĝ         | Multi‎ߺ‎key ^ G  |
+| ĥ         | Multi‎ߺ‎key ^ h  |
+| Ĥ         | Multi‎ߺ‎key ^ H  |
+| ĵ         | Multi‎ߺ‎key ^ j  |
+| Ĵ         | Multi‎ߺ‎key ^ J  |
+| ŝ         | Multi‎ߺ‎key ^ s  |
+| Ŝ         | Multi‎ߺ‎key ^ S  |
+| ŭ         | Multi‎ߺ‎key u u  |
+| Ŭ         | Multi‎ߺ‎key U U  |
 
 
-<a name="modeswitch"></a> Mode switch
--------------------------------------
+<a name="modeswitch"></a>Mode‎ߺ‎switch
+------------------------------------
 
-A faster and easier way to input Esperanto characters is through the use of the *mode switch*
-key. Just like with the *multi key*, you assign a key to it. I like to bind two keys to it, so I can
-type with both hands. Unlike the multi key, you have to hold it down like the <kbd>Shift</kbd> or
+A faster and easier way to input Esperanto characters is through the use of the *Mode switch*
+key. Just like with the *Multi‎ߺ‎key*, you assign a key to it. I like to bind two keys to it, so I can
+type with both hands. Unlike the Multi‎ߺ‎key, you have to hold it down like the <kbd>Shift</kbd> or
 <kbd>Ctrl</kbd> keys.
 
-If you want to assign the <kbd>![Windows](/bil/vindozobildeto-00-22x22.png "Windows key")</kbd> keys as the mode switch keys, edit
-the file `~/.Xmodmap`, then add the following:
+If you want to assign the Windows keys as the mode switch keys, edit the file `~/.Xmodmap`, then add the following:
 
 ```
-!! Left Window
-keycode 133 = Mode_switch
+!! left windows key
+keycode 133 = Mode‎ߺ‎switch
 
-!! Right Window
-keycode 134 = Mode_switch
+!! right windows key
+keycode 134 = Mode‎ߺ‎switch
+
+!! menu key
+keycode 135 = Mode‎ߺ‎switch
 ```
 
-Next, you need to add the appropriate names for the corresponding Esperanto characters. If you’re
-using QWERTY, add the following to your `~/.Xmodmap`.
+Next, you need to add the appropriate names for the corresponding Esperanto characters. Use the
+following snippets for QWERTY kaj Dvorak keyboards, respectively.
 
 ```
 keycode 54 = c C ccircumflex Ccircumflex
@@ -130,8 +121,6 @@ keycode 44 = j J jcircumflex Jcircumflex
 keycode 39 = s S scircumflex Scircumflex
 keycode 30 = u U ubreve Ubreve
 ```
-
-And if you’re using Dvorak, use the following:
 
 ```
 keycode 31 = c C ccircumflex Ccircumflex
@@ -144,56 +133,47 @@ keycode 41 = u U ubreve Ubreve
 
 Then, re-read `~/.Xmodmap`:
 
-```
-$ xmodmap ~/.Xmodmap
-```
+    xmodmap ~/.Xmodmap
 
-Using the <kbd>![Windows](/bil/vindozobildeto-00-22x22.png "Windows key")</kbd> keys as mode switch
-keys, to input **ĉ**, press and hold
-<kbd>![Windows](/bil/vindozobildeto-00-22x22.png "Windows key")</kbd>, then press <kbd>c</kbd>. To
-input **Ŭ**, press and hold <kbd>![Windows](/bil/vindozobildeto-00-22x22.png "Windows key")</kbd>,
-press and hold <kbd>Shift</kbd>, then press and release <kbd>u</kbd>. This setup effectively allows
-you to touch type.
+To input **ĉ**, press and hold 🐧, then press <kbd>c</kbd>. To input **Ŭ**, press and hold 🐧, press
+and hold <kbd>Shift</kbd>, then press and release <kbd>u</kbd>. This setup effectively allows you to
+touch type.
 
-On some keyboards, only one <kbd>![Windows](/bil/vindozobildeto-00-22x22.png "Windows key")</kbd>
-is present—usually located on the left side, while the one on the right can be <kbd>PrtSc</kbd>. A
-lot of times, they’re sandwiched between the <kbd>Ctrl</kbd> and <kbd>Alt</kbd> keys. To use that
-key, run `xev` like above, to get the keycode, and update your `~/.Xmodmap`, accordingly. On my
-ThinkPad, my `~/.Xmodmap` has this:
+On some keyboards, only one Windows key is present—usually located on the left side, while the one
+on the right can be <kbd>PrtSc</kbd>. A lot of times, they’re sandwiched between the <kbd>Ctrl</kbd>
+and <kbd>Alt</kbd> keys. To use that key, run `xev` like above, to get the keycode, and update your
+`~/.Xmodmap`, accordingly.
+
+On my ThinkPad, my `~/.Xmodmap` has this:
 
 ```
 !! Left Window
-keycode 133 = Mode_switch
+keycode 133 = Mode‎ߺ‎switch
 
 !! PrtSc
-keycode 107 = Mode_switch
+keycode 107 = Mode‎ߺ‎switch
 ```
 
 
-<a name="closing"></a> Closing remarks
---------------------------------------
+<a name="closing"></a>Closing remarks
+-------------------------------------
 
-Both methods outlined above do far more than emitting Esperanto characters. The multi key system can
+Both methods outlined above do far more than emitting Esperanto characters. The Multi‎ߺ‎key system can
 emit more sophisticated symbols and characters. To see the complete list of characters, run the
 following command if you’re on mainstream Linux systems:
 
-```
-$ less /usr/share/X11/locale/en_US.UTF-8/Compose
-```
+    less /usr/share/X11/locale/en_US.UTF-8/Compose
 
 If you’re using Nix, run:
 
-```
-$ less ~/.nix-profile/share/X11/locale/en_US.UTF-8/Compose
-```
+    less ~/.nix-profile/share/X11/locale/en_US.UTF-8/Compose
 
-The advantage of the mode switch method is speed. To see the list of character names available,
-click [here](http://wiki.linuxquestions.org/wiki/List_of_Keysyms_Recognised_by_Xmodmap).
+Male al tio, the advantage of the Mode‎ߺ‎switch method is speed. To see the list of character names
+available, click [here](http://wiki.linuxquestions.org/wiki/List_of_Keysyms_Recognised_by_Xmodmap).
 
 There’s no best way to do this—use whatever system that fits your style. If you’re already using the
-<kbd>![Windows](/bil/vindozobildeto-00-22x22.png "Windows key")</kbd> keys for something else, and
-you can only use one “spare” key on your keyboard, then use the multi key method. If you want ease
-of use, use the mode switch method. It is important to note, too, that you can use both methods
-simultaneously.
+Windows keys for something else, and you can only use one “spare” key on your keyboard, then use the
+Multi‎ߺ‎key method. If you want ease of use, use the Mode‎ߺ‎switch method. It is important to note, too,
+that you can use both methods simultaneously.
 
-Ĝis la revido! `(/^▽^)/`
+🐧—Ĝis la revido!
