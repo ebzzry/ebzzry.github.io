@@ -3,7 +3,7 @@ Pripensoj
 
 <div class="center">[Esperante](#) · [English](/en/reflections)</div>
 <div class="center">la 3-an de Novembro 2017</div>
-<div class="center">Laste ŝanĝita: la 17-an de Julio 2018</div>
+<div class="center">Laste ŝanĝita: la 23-an de Julio 2018</div>
 
 Ĉi tiu paĝo enhavas kelke da miaj propraj pripensoj.
 
@@ -273,3 +273,13 @@ Enskriboj ordigatas laŭ kronologiordo.
 
 
 - Ju pli oni montras des malpli oni havas.<br>
+
+
+- La kutimaj aferoj estas la plej danĝeraj.<br>
+
+
+- La kutimaj aferoj estas la tiuj, kiuj la plej malbonajn danĝerojn prezentas.<br>
+
+
+- La momenton, en kiu, oni opinias, ke oni devas prirapidiĝi, estas la momento ke oni devas
+  malprirapidiĝi.<br>
