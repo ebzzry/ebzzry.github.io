@@ -3,7 +3,7 @@ Reflections
 
 <div class="center">[Esperante](/eo/pripensoj) · [English](#)</div>
 <div class="center">November 24, 2015</div>
-<div class="center">Last updated: July 17, 2018</div>
+<div class="center">Last updated: July 23, 2018</div>
 
 This page contains contains some of my personal reflections.
 
@@ -278,3 +278,9 @@ Entries are sorted in chronological order.
 
 
 - The more one shows, the less one has.<br>
+
+
+- The usual things are the ones that pose the worst dangers.<br>
+
+
+- The moment that you think you need to go faster, is the moment that you need to go slower.<br>
