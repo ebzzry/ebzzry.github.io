@@ -3,7 +3,7 @@ Quotes
 
 <div class="center">[Esperante](/eo/citajxoj) · [English](#)</div>
 <div class="center">August 29, 2015</div>
-<div class="center">Last updated: June 6, 2018</div>
+<div class="center">Last updated: July 27, 2018</div>
 
 This page contains a list of curated quotations, aphorisms, and proverbs that I have collected over
 the years.
@@ -715,3 +715,7 @@ the years.
 
 - It is impossible to sharpen a pencil with a blunt axe. It is equally vain to try to do it with ten blunt axes instead.<br>
   ―Edsger Dijkstra
+
+
+- Thinking differently is the engine of creation, wealth, and new economy.<br>
+  ―Kevin Kelly
