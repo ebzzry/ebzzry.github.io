@@ -3,7 +3,7 @@ Signoj kaj Interpunkcioj
 
 <div class="center">[Esperante](#) · [English](/en/symbols-marks)</div>
 <div class="center">la 16-an de Julio 2018</div>
-<div class="center">Laste ŝanĝita: la 22-an de Julio 2018</div>
+<div class="center">Laste ŝanĝita: la 26-an de Julio 2018</div>
 
 >Se grandiozon oni volas atingi, konsentojn ĉesu peti.<br>
 >―Eddie COLLA
@@ -182,7 +182,7 @@ Por ĝin uzi kiel rondaj krampoj:
 
 Por la maldaŭrigon de la parolanto esprimi:
 
-- “Mi opinias, ke mi iras kaj—diable, ne.
+- Mi opinias, ke mi iras kaj—diable, ne.
 
 
 <a name="duoblajcitiloj"></a>Duoblaj citiloj (“) (”)

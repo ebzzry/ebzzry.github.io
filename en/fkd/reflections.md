@@ -3,7 +3,7 @@ Reflections
 
 <div class="center">[Esperante](/eo/pripensoj) · [English](#)</div>
 <div class="center">November 24, 2015</div>
-<div class="center">Last updated: July 23, 2018</div>
+<div class="center">Last updated: July 26, 2018</div>
 
 This page contains contains some of my personal reflections.
 
@@ -284,3 +284,7 @@ Entries are sorted in chronological order.
 
 
 - The moment that you think you need to go faster, is the moment that you need to go slower.<br>
+
+
+- The concept of balance of the universe is the direct result of human inclinations to believe that
+  it indeed exists.<br>

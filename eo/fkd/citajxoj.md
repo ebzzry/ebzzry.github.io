@@ -3,7 +3,7 @@ Citaĵoj
 
 <div class="center">[Esperante](#) · [English](/en/quotes)</div>
 <div class="center">la 15-an de Novembro 2017</div>
-<div class="center">Laste ŝanĝita: la 22-an de Julio 2018</div>
+<div class="center">Laste ŝanĝita: la 27-an de Julio 2018</div>
 
 Ĉi tiu paĝo enhavas liston de atenteme elektitaj citaĵoj, aforismoj, kaj sentencoj kiujn mi kolektis
 tra la jarojn.
@@ -713,3 +713,7 @@ tra la jarojn.
 
 - Maleblas krajonon pliakrigi per malakra hakilo. Estas egale vana por ĝin provi fari per dek malakraj hakiloj.<br>
   ―Edsger DIJKSTRA
+
+
+- Pensi malsame estas la motoro de kreado, riĉaĵo, kaj nova ekonomio.<br>
+  ―Kevin KELLY
