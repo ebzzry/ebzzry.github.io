@@ -1,8 +1,9 @@
 A Fallacies Primer
 ==================
 
+<div class="center">[Esperante](/eo/sofismoj) · [English](#)</div>
 <div class="center">May 1, 2016</div>
-<div class="center">Last updated: March 31, 2017</div>
+<div class="center">Last updated: July 29, 2018</div>
 
 >Learning is not compulsory. Neither is survival.<br>
 >―W. Edwards Deming
