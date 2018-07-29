@@ -3,7 +3,7 @@ Pripensoj
 
 <div class="center">[Esperante](#) · [English](/en/reflections)</div>
 <div class="center">la 3-an de Novembro 2017</div>
-<div class="center">Laste ŝanĝita: la 26-an de Julio 2018</div>
+<div class="center">Laste ŝanĝita: la 29-an de Julio 2018</div>
 
 Ĉi tiu paĝo enhavas kelke da miaj propraj pripensoj.
 
@@ -287,3 +287,6 @@ Enskriboj ordigatas laŭ kronologiordo.
 
 - La koncepto de kosmoekvilibro estas la rekta rezulto de la inklinaĵoj de homoj por pensi, ke ja ĝi
   fakte ekzistas.<br>
+
+
+- Inteligentecon demonstro de inteligenteco ne implicas.<br>
