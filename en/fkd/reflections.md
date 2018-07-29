@@ -3,7 +3,7 @@ Reflections
 
 <div class="center">[Esperante](/eo/pripensoj) · [English](#)</div>
 <div class="center">November 24, 2015</div>
-<div class="center">Last updated: July 26, 2018</div>
+<div class="center">Last updated: July 29, 2018</div>
 
 This page contains contains some of my personal reflections.
 
@@ -288,3 +288,6 @@ Entries are sorted in chronological order.
 
 - The concept of balance of the universe is the direct result of human inclinations to believe that
   it indeed exists.<br>
+
+
+- Demonstration of intelligence does not imply intelligence.<br>
