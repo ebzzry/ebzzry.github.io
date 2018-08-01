@@ -9,10 +9,10 @@ Enkonduko al Sofismoj
 >―W. Edwards DEMING
 
 Sofismoj estas eraraj en rezonado, kreitaj en la konstruado de argumentoj. Unuj estis faritaj
-intence por manipuli kaj trompi, dum unuj estas faritaj pro malscio kaj neprudenteco. Sofismoj
-estas dividitaj en du specoj—formalaj kaj neformalaj. Formalaj sofismoj, ankaŭ nomiĝas logikaj
-sofismoj estas esprimitaj en sistemo kiel propozicia logiko. Neformalaj sofismoj estas eraroj en la
-enhavo de la premisoj.
+intence por manipuli kaj trompi, dum unuj estas faritaj pro malscio kaj neprudenteco. Sofismoj estas
+dividitaj en du specoj—formalaj kaj neformalaj. Formalaj sofismoj, ankaŭ nomataj logikaj sofismoj,
+estas esprimitaj en sistemo kiel propozicia logiko. Neformalaj sofismoj estas eraroj en la enhavo de
+la premisoj.
 
 En ĉi tiu artikolo mi maldaŭre trairu pri kelka da sofismoj renkonitaj en niaj ĉiutagaj vivoj. Iom
 da ili estas kaŝitaj en klaraj vidoj dum aliaj rampas en la anguloj kaj pli proksiman ekzamenon
@@ -46,7 +46,7 @@ bezonas.
 - [Apelo al forto](#forto)
 - [Apelo al tradicio](#tradicio)
 - [Apelo al devenoj](#denevoj)
-- [Apelo al estontecto](#estonteco)
+- [Apelo al estonteco](#estonteco)
 - [Apelo al kompliko](#kompliko)
 - [Apelo al ekvilibro](#ekvilibro)
 - [Argumentado per rondo](#rondo)
@@ -98,13 +98,13 @@ argumenton kiun ri tenas.
 > kaj bizarajn muzikojn aŭskultas.
 
 Teniĝon sur siaj asertoj la persona stato de Maria ne havas. La diroj de Karlo estas
-nekoncernaj. Kiun devas atakite estas la argumentoj de Maria, kaj ne ŝian personan teniĝon.
+nekoncernaj. Kiun devas atakite estas la argumentoj de Maria, kaj ne sian personan teniĝon.
 
 
 <a name="ankaŭvi"></a>Ankaŭ vi
 ------------------------------
 
-Ĉi tio estas fifarita kiam argumentoj de persono estas asertite falsa pro la persono estas
+Ĉi tio estas fifarita kiam argumentoj de persono estas asertite falsaj pro la persono estas
 memkontraŭdiras.
 
 > Kuracisto: “Ĉesi fumadon pro ĝi estas noca por via sano.”<br>
@@ -117,19 +117,21 @@ kontraŭargumenton ke fumado ne estas noca por la sano la kuracato prezentis, es
 <a name="malsimplademando"></a>Malsimpla demando
 ------------------------------------------------
 
-Ĉi tio okazas kiam antaŭsupozo estas kreita antaŭe, kaj respondo estas devigita el limigitaj opcioj, kiel “jes” aŭ “ne”.
+Ĉi tio okazas kiam antaŭsupozo estas kreita antaŭe, kaj respondo estas devigita el limigitaj opcioj,
+kiel “jes” aŭ “ne.”
 
 > “Karlo, ĉu vi jam ĉesis trompi vian edzinon?”
 
 Ĉi tio erarigas ĉar la parolanto antaŭsupozas, ke Karlo jam trompis sian edzinon, almenaŭ
-unufoje. Se Karlo respondis per “Jes.”, tiam si jam trompis sian edzinon antaŭe, kaj si jam
-ĉesis. Se li respondis per “Ne.”, tiam si jam trompis antaŭe, kaj si ankoraŭ daŭras trompi.
+unufoje. Se Karlo respondis per “Jes,” tiam si jam trompis sian edzinon antaŭe, kaj si jam ĉesis. Se
+li respondis per “Ne,” tiam si jam trompis ŝin antaŭe, kaj si ankoraŭ daŭras trompi.
 
 
 <a name="falsadilemo"></a>Falsa dilemo
 --------------------------------------
 
-Ĉi tio estas fifarita kiam persono estas devigita por pozicion elekti aŭ demandon respondi, per truditaj limoj. Ĉi tio ankaŭ nomiĝas nigra-aŭ-blanka, aŭ la aŭ-aŭ sofismo.
+Ĉi tio estas fifarita kiam persono estas devigita por pozicion elekti aŭ demandon respondi, per
+truditaj limoj. Ĉi tio ankaŭ nomatas nigra-aŭ-blanka, aŭ la aŭ-aŭ sofismo.
 
 > “Aŭ vi estas kun mi aŭ vi estas kontraŭ mi.”
 
@@ -183,12 +185,12 @@ kiujn ri ne ankoraŭ vizitis.
 Ĉi tio estas fifarita kiam la respondenco por pruvon provizi ne kuŝas per persono A, la iu kiu
 asertojn faras, sed per persono B, por la asertojn de persono A refuti.
 
-> “Ĉar la nekzistecon de granda blato kiu stelojn fekas kaj loĝas ekzate 100.000 lumjaroj for de
+> “Ĉar la neekzistecon de granda blato kiu stelojn fekas kaj loĝas ekzate 100.000 lumjaroj for de
 > kie mi alfrontas nun oni ne povas pruvi, tial ĝi devas ekzisti.”
 
 Anstataŭ pruvon provizi al siaj asertoj, la ŝarĝon de pruvo persono A almovas al persono B. Ĉar ne
 ekzistas fizikaj manieroj de persono B por pruvi, ke la asertoj de persono A estas malvalidaj,
-persono A antaŭ supozas ke siaj asertoj devas esti veraj.
+persono A antaŭsupozas ke siaj asertoj devas esti veraj.
 
 
 <a name="glata"></a>Glata inklino
@@ -209,10 +211,11 @@ tiajn batalilojn manregi.
 --------------------------------------
 
 Ĉi tio estas fifarita kiam nekoncerna temo estas enkondukita por atenton forkonduki de la originala
-argumunto. La “ruĝa haringo” estas enĵetiĝita, sub la ŝajnigo, ke estas rilata al la originala temo.
+argumento. La “ruĝa haringo” estas enĵetiĝita, sub la ŝajnigo, ke ĝi estas rilata al la originala
+temo.
 
 > Raportistino: “Kiel vi planas trakti la atentindaĵojn pri korupto.”<br>
-> Kandidato: “Mi donos al ĉiuj postenojn, kaj mi pligrandigos enspezimpostojn.”
+> Kandidato: “Mi donos al ĉiuj postenojn, kaj mi malpligrandigos enspezimpostojn.”
 
 La celo estas por la originalan temon forlasi, por la aŭskultanton forkonduki. Ĉi tio estas ofte
 rimarkitaj en politikaj intervjuoj kaj diskutoj.
@@ -222,21 +225,21 @@ rimarkitaj en politikaj intervjuoj kaj diskutoj.
 -------------------------------------------
 
 Ĉi tio estas fifarita kiam fuŝformitan, malplifortan version de la argumento kiu persono A tenas
-persono B prezentas. Ĉi tiun version persono B tiam atakas, kaj se triumfe, konkludas, ke la
+persono B prezentas. Ĉi tiun version persono B do atakas, kaj se triumfe, konkludas, ke la
 argumento de persono A estas malvenkita.
 
-> Karlo: “Reklamoj pri alkoholaĵoj devas esti malpermesitaj el amasmedioj ĉar nepreskreskulan
-> trinkadon ĝi vigligas.”<br>
+> Karlo: “Reklamoj pri alkoholaĵoj devas esti malpermesitaj en amasmedioj ĉar nepreskreskulan
+> trinkadon ĝi malrekte spronas.”<br>
 > Petro: “Homoj jam trinkadis alkoholaĵon longatempe. Ili daŭras fari tiel.”
 
-La pozicio de Karlo Petro falsreprezentis kiel: “Popolo devas fordoni trinkadon de alkoholaĵo.” Tio
+La pozicion de Karlo Petro falsreprezentis kiel: “Popolo devas fordoni trinkadon de alkoholaĵo.” Tio
 ne estas kion Karlo diris.
 
 
 <a name="aĝo"></a>Apelo al aĝo
 ------------------------------
 
-Ĉi tio estas fifarita kiam estas disputita, ke tre malnovaj aŭ tre novaj argumentoj estas
+Ĉi tio estas fifarita kiam estas disputite, ke tre malnovaj aŭ tre novaj argumentoj estas
 superaj. Ĉi tiuj estas ofte rimarkitaj en merkatado kaj reklamado.
 
 > “Niaj novaj kaj plibonigitaj Super Eferveska Lavpulvoro Z lavas makulojn pli bonas ol la gvidaj
@@ -252,7 +255,8 @@ aŭ nova ne signifas, ke ĝi pli bonas.
 Ĉi tio estas fifarita kiam aĝo de persono estas uzita por la validecon de siaj asertoj subteni. Ĉi
 tio estas kutime aplikita kontraŭe al iu kiu estas pli juna.
 
-> “Mi jam estas en la komerco de 30 jarojn. Vi nur estas 30, kion vi scias pri lingva desegno?”
+> “Mi jam estas en la profesio de tridek jarojn. Vi nur havas tridek jarojn, kion vi scias pri
+> programlingva desegno?”
 
 Estas antaŭsupozita ĉi tie, ke nur ĉar iu pli junas al ri, fariĝas iu malplikompetenta por la
 diskutitaj aferoj.
@@ -352,13 +356,13 @@ devigi por blinde observi.
 <a name="tradicio"></a>Apelo al tradicio
 ----------------------------------------
 
-Ĉi tiu sofismo estas fifarita kiam estas disputita, ke nur ĉar io estas tradicia aŭ la normo, tiam
+Ĉi tiu sofismo estas fifarita kiam estas disputite, ke nur ĉar io estas tradicia aŭ la normo, tiam
 ĝi devas esti observita. Ĉi tiu estas ofte rimarkita en religioj kaj kulturoj.
 
 > “Estas kutime por ni por ĉiujare partopreni en la marŝado de Kabobohan. Ankaŭ vi devas
 > partopreni.”
 
-Ĉi tiu malsukcese eldiras kial oni devas aliĝi en la evento. Anstataŭe estas disputita, ke ĝi devas
+Ĉi tiu malsukcese eldiras kial oni devas aliĝi en la evento. Anstataŭe estas disputite, ke ĝi devas
 esti farita sur la fundoj, ke estas tradicia.
 
 
@@ -375,7 +379,7 @@ specifa deveno havas. Ĉi tio estas ofte rimarkita en sociaj klasoj, biologiaj d
 ankaŭ estas malriĉaj, same kiel li antaŭe.
 
 
-<a name="estonteco"></a>Apelo al estontecto
+<a name="estonteco"></a>Apelo al estonteco
 -------------------------------------------
 
 Ĉi tio estas fifarita kiam la necertecon de la estonteco persono uzas por sian argumenton
@@ -455,7 +459,8 @@ devas manĝi. Ĉi tio similas al apelo al tradicio.
 <a name="eltrovi"></a>Ne eltrovita ĉi tie
 -----------------------------------------
 
-Ĉi tio estas fifarita kiam io estas fremda aŭ loka, estas rigardita pli bone aŭ pli malbone. Ĉi tio estas ofte rimarkita en sociaj klasoj, kulturoj, tradicioj, generoj, kaj seksoj.
+Ĉi tio estas fifarita kiam io estas fremda aŭ loka, estas rigardita pli bone aŭ pli malbone. Ĉi tio
+estas ofte rimarkita en sociaj klasoj, kulturoj, tradicioj, generoj, kaj seksoj.
 
 > “Kion Karlo scias pri inismo? Li estas viro!”
 
@@ -496,14 +501,15 @@ konkludas per falsaj komparoj.
 --------------------------------------------
 
 Ĉi tio estas fifarita kiam ion parolanto asertas, sed ĝin ri poste malkonfesas per kontraŭdirajn
-deklaroj provizi. Ĉi tio ankaŭ nomiĝas “Havi vian kukon.”
+deklaroj provizi. Ĉi tio ankaŭ nomatas “Havi vian kukon.”
 
 > “Aŭskultu filo, mi ne kredas en fantomoj. Tamen, hieraŭ vespere, kiam mi estas sola en mia ĉambro,
 > mi aŭdis batetajn sonojn sur la lampotabelo. Mi certas, ke ne estis mi. Devas esti la nevideblaj
 > astraj estoj.”
 
 Aŭdacajn dirojn la parolanto faras pri ne kredi en la paranormalaj ekzistecoj de fantomoj, sed siajn
-vortojn li malkonfesis kaj asertas, ke iuj “astraj” estoj devas esti la fonto de la batetaj sonoj. Na A li asertas, sed poste kontraŭ-A.
+vortojn li malkonfesis kaj asertas, ke iuj “astraj” estoj devas esti la fonto de la batetaj
+sonoj. Na A li asertas, sed poste kontraŭ-A.
 
 
 <a name="malplej"></a>Malplej aprobebla hipotezo
