@@ -3,7 +3,7 @@ Supre, Malsupre, kaj Aliloke
 
 <div class="center">[Esperante](#) · [English](/en/over-under)</div>
 <div class="center">la 2-an de Decembro 2017</div>
-<div class="center">Laste ŝanĝita: la 20-an de Marto 2018</div>
+<div class="center">Laste ŝanĝita: la 1-an de Aŭgusto 2018</div>
 
 >La nuraj limoj kiujn oni havas, estas la limoj kiujn oni kredas.<br>
 >―Wayne DYER
@@ -51,10 +51,10 @@ trinkado havas ion ene aŭ ne.
 Iuj de ni daŭras en iluzioj kiuj pretendas scii tion, kion ili neniam hazardis, aŭ almenaŭ
 rimarkis. Estas tre senkuraĝige ke anstataŭ fari paŝon malantaŭen kaj fiksrigardi al la ĉielo por
 momento, homoj anstataŭ enakviĝas ili mem en mirlando. Ĉi tiu ebriiga kutimo, malbonfaras ne
-unuopulon, sed la tutan homaron. Kiam iu diras al vi ke respondoj al siaj demandoj povas esti
-ekzluzive respondata ĉiam per jes aŭ ne, forlasi lin kaj li ne plu meritas vian atenton denove. Se
-vi ne scias la respondon, vi devas diri ke vi ne scias la respondon, anstataŭ fari trapezajn
-manovrojn sen iu por kapti viajn manojn.
+unuopulon, sed la tutan homaron. Kiam iu diras al oni ke respondoj al siaj demandoj povas esti
+ekzluzive respondata ĉiam per jes aŭ ne, forlasi rin kaj ri ne plu meritas onian atenton denove. Se
+oni ne scias la respondon, oni devas diri ke oni ne scias la respondon, anstataŭ fari trapezajn
+manovrojn sen iu por kapti oniajn manojn.
 
 Ofte, ni malatentas ke ĉiom da iloj kion ni bezonas, estas ĉeestantaj kun ni.
 
