@@ -3,12 +3,12 @@ La Pensoj de Pedanto
 
 <div class="center">[Esperante](#) · [English](/en/)</div>
 <div class="center">la 27-an de Aprilo 2017</div>
-<div class="center">Laste ŝanĝita: la 31-an de Julio 2018</div>
+<div class="center">Laste ŝanĝita: la 1-an de Aŭgusto 2018</div>
 
 <img src="/bil/pluvis.jpg" class="banner" alt="pluvis.jpg" title="En la vizaĝo de la kosmo, ni ĉiuj porĉiame estas infanoj." />
 
 <div class="text-right">Retejo pri komputiko, hominklinaĵoj, kaj hazardaĵoj.</div>
-<div class="text-right">Enskriboj ordigatas laŭ inversa kronologiordo.</div>
+<div class="text-right">Eroj ordigitas laŭ inverskronologiordo. La steligiteroj sonartikolan version havas.</div>
 
 - [Enkonduko al Sofismoj](sofismoj)
 - [Esperantaj Signoj Linukse](eo-linukse)
@@ -33,5 +33,5 @@ La Pensoj de Pedanto
 - [Migri de LiveJournal al Frog-o](livefrog-o)
 - [Usync-e Sinkronigi Retnodojn](usync-o)
 - [Malŝparitaj Malcedemoj](malsxparitaj)
-- [Supre, Malsupre, kaj Aliloke](supre-malsupre)
+- [Supre, Malsupre, kaj Aliloke ★](supre-malsupre)
 - [La Ipsilonkombinatoro en Ses Paŝoj](ipsilono)

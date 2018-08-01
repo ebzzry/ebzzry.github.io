@@ -231,7 +231,7 @@ This is committed when person B presents a distorted, weaker version of the argu
 holds. Person B then attacks this weaker version, and if triumphant, concludes that person A’s
 argument is defeated.
 
-> Juan: “Alcohol ads should be banned from mass media, because it encourages underage drinking.”<br>
+> Juan: “Alcohol ads should be banned from mass media, because it indirectly encourages underage drinking.”<br>
 > Pedro: “People have been drinking alcohol for a long time. They will continue to do so.”
 
 Pedro misrepresents the position of Juan as: “People should give up drinking alcohol.” That is not
@@ -257,7 +257,8 @@ or new, doesn’t make it better.
 This is committed when a person’s age is used to support the validity of his claims. This is usually
 applied against someone who is younger.
 
-> “I’ve been in the business for 30 years. You’re only 30, what do you know about language design?”
+> “I’ve been in the business for 30 years. You’re only 30, what do you know about programming
+> language design?”
 
 It is assumed here, that just because someone is younger than him, makes him less qualified for the
 things that are being discussed.

@@ -3,7 +3,7 @@ Citaĵoj
 
 <div class="center">[Esperante](#) · [English](/en/quotes)</div>
 <div class="center">la 15-an de Novembro 2017</div>
-<div class="center">Laste ŝanĝita: la 30-an de Julio 2018</div>
+<div class="center">Laste ŝanĝita: la 1-an de Aŭgusto 2018</div>
 
 Ĉi tiu paĝo enhavas liston de atenteme elektitaj citaĵoj, aforismoj, kaj sentencoj kiujn mi kolektis
 tra la jarojn.
@@ -612,7 +612,7 @@ tra la jarojn.
   ―Susan SONTAG
 
 
-- El la militolernejo de la vivo: Kion ne detruas min, igas min pli forta.<br>
+- El la militolernejo de la vivo: kion ne detruas min, igas min pli forte.<br>
   ―Friedrich NIETZSCHE
 
 
@@ -722,3 +722,7 @@ tra la jarojn.
 - La homo kiu principojn kaptas, siajn proprajn metodojn povas sukcese elekti. La viro kiu metodojn
   provas, principojn malatente, certe malfacilaĵon havos.<br>
   ―Harrington EMERSON
+
+
+- Neniam forgesu, ke nur mortaj fiŝoj naĝas laŭ la fluo.<br>
+  ―Malcolm MUGGERIDGE

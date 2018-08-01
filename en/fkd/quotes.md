@@ -3,7 +3,7 @@ Quotes
 
 <div class="center">[Esperante](/eo/citajxoj) · [English](#)</div>
 <div class="center">August 29, 2015</div>
-<div class="center">Last updated: July 30, 2018</div>
+<div class="center">Last updated: August 1, 2018</div>
 
 This page contains a list of curated quotations, aphorisms, and proverbs that I have collected over
 the years.
@@ -724,3 +724,7 @@ the years.
 - The man who grasps principles can successfully select his own methods. The man who tries methods,
   ignoring principles, is sure to have trouble.<br>
   ―Harrington Emerson
+
+
+- Never forget that only dead fish swim with the stream.<br>
+  ―Malcolm Muggeridge

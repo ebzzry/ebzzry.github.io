@@ -5,7 +5,7 @@ Retrospekte
 <div class="center">la 8-an de Februaro 2018</div>
 <div class="center">Laste ŝanĝita: la 20-an de Marto 2018</div>
 
->El la militolernejo de la vivo: Kion ne detruas min, faras min pli forte.<br>
+>El la militolernejo de la vivo: kion ne detruas min, igas min pli forte.<br>
 >―Friedrich NIETZSCHE
 
 Mi ne tute aprezis tion, kion tiuj vortoj signifis antaŭ nun. Mi lernis, ke krom la sperto,
