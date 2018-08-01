@@ -7,6 +7,10 @@ Pri
 
 <img style="margin-right: 0.5em; margin-bottom: 0.5em;" src="/bil/identicon.png" alt="identicon.png" title="Ve!" align="left" />
 
+<div class="center">
+<iframe src="https://drive.google.com/file/d/1cv8b6eqCBTI6IhxJLxj-HkzP2GMxxXnh/preview" height="64"></iframe>
+</div>
+
 Saluton! Mi nomiĝas Rommel kaj bonvenon al mia peco de teksaĵo! Mi esperas, ke la viziton al ĉi tiu
 eta loĝejo oni ĝuas.
 
