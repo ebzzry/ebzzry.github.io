@@ -3,7 +3,7 @@ Quotes
 
 <div class="center">[Esperante](/eo/citajxoj) · [English](#)</div>
 <div class="center">August 29, 2015</div>
-<div class="center">Last updated: July 27, 2018</div>
+<div class="center">Last updated: July 30, 2018</div>
 
 This page contains a list of curated quotations, aphorisms, and proverbs that I have collected over
 the years.
@@ -719,3 +719,8 @@ the years.
 
 - Thinking differently is the engine of creation, wealth, and new economy.<br>
   ―Kevin Kelly
+
+
+- The man who grasps principles can successfully select his own methods. The man who tries methods,
+  ignoring principles, is sure to have trouble.<br>
+  ―Harrington Emerson

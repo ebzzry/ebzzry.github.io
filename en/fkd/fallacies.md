@@ -3,7 +3,7 @@ A Fallacies Primer
 
 <div class="center">[Esperante](/eo/sofismoj) · [English](#)</div>
 <div class="center">May 1, 2016</div>
-<div class="center">Last updated: July 29, 2018</div>
+<div class="center">Last updated: July 31, 2018</div>
 
 >Learning is not compulsory. Neither is survival.<br>
 >―W. Edwards Deming
@@ -19,8 +19,8 @@ lives. Some are hidden in plain sight while some creep into the corners and requ
 examination.
 
 
-Table of contents
------------------
+<a name="toc"></a>Table of contents
+-----------------------------------
 
 - [Post hoc ergo propter hoc](#posthoc)
 - [Cum hoc ergo propter hoc](#cumhoc)
@@ -111,9 +111,9 @@ inconsistent with his words. This fallacy is also known as the “You, too” fa
 > Doctor: “Quit smoking because it is harmful to your health.”<br>
 > Patient: “You, yourself smoke, so I can’t follow your advice.”
 
-The patient rendered Maria’s statement to be invalid, because Maria smokes, too. If the patient
-presented an objection that smoking is *not* harmful to the health, then it would have been a better
-position.
+The patient rendered the doctor’s statement to be invalid, because the doctor smokes, too. If the
+patient presented an objection that smoking is *not* harmful to the health, then it would have been
+a better position.
 
 
 <a name="loaded"></a> Loaded question
@@ -217,7 +217,7 @@ This is committed when an irrelevant topic is introduced to divert attention fro
 argument. The “red herring” is injected, under the pretense that it is relevant to the original
 topic.
 
-> Woman: “How do you plan addressing the issues about corruption?”<br>
+> Reporter: “How do you plan addressing the issues about corruption?”<br>
 > Candidate: “I’m going to give everyone a job, and I’m going to lower income taxes.”
 
 The goal is to abandon the original topic, to distract the listener. This is frequently observed in
@@ -247,8 +247,8 @@ frequently seen in marketing and advertising.
 > “Our new and improved Super Bubbly Detergent Zet washes stain off better than the leading
 > products.”
 
-This fails to address why their products are superior to the
-others. Just because something is old or new, doesn’t make it better.
+This fails to address why their products are superior to the others. Just because something is old
+or new, doesn’t make it better.
 
 
 <a name="seniority"></a> Appeal to seniority
@@ -257,7 +257,7 @@ others. Just because something is old or new, doesn’t make it better.
 This is committed when a person’s age is used to support the validity of his claims. This is usually
 applied against someone who is younger.
 
-> “I’ve been in the business for 30 years. You’re only 34, what do you know about language design.”
+> “I’ve been in the business for 30 years. You’re only 30, what do you know about language design?”
 
 It is assumed here, that just because someone is younger than him, makes him less qualified for the
 things that are being discussed.
@@ -295,7 +295,7 @@ specify who these experts are, he will resort to tactics to elude the question.
 This is committed when an appeal to authority is made, but the authority in question is outside the
 scope of his expertise.
 
-> “Pedro extensively studied and reviewed the efficacy of Kidneyaid capsules, and asserted that they
+> “Pedro extensively studied and reviewed the efficacy of Kidneyaid Capsules, and asserted that they
 > indeed improve kidney health.”
 
 Pedro, however, is not qualified professional to study and review health products, nor does he have
@@ -326,7 +326,8 @@ ideal or good.
 > consumption.”
 
 Cultivated tobacco (*Nicotiana tabacum*) is a naturally-occuring plant that is responsible for more
-than five million deaths per year, around the world.
+than five million deaths per year, around the world. Cyanide, one of the most toxic substances,
+occurs naturally.
 
 
 <a name="emotion"></a> Appeal to emotion
@@ -336,11 +337,11 @@ This fallacy is committed when emotions are used to elicit a fallacious response
 target. The basic idea is that emotional tactics are used to persuade a person into believing that
 the argument being presented is valid.
 
-> “Pedrito, eat your broccoli. Think about all the poor, starving, and homeless children around the
-> world who are unfortunate to even eat three times a day.”
+> “Pedro, eat your broccoli. Think about all the poor, starving, and homeless children around the
+> world.”
 
-Pedrito’s parent wants to make him eat the broccoli, by using emotional ploy, instead of providing
-substantial reasons for Pedrito to eat the broccoli.
+Pedro’s parent wants to make him eat the broccoli, by using emotional ploy, instead of providing
+substantial reasons for Pedro to eat the broccoli.
 
 
 <a name="force"></a> Appeal to force
@@ -439,7 +440,7 @@ assume that that entity exists, first. X because X.
 This is committed when a conclusion is made from narrow and limited views. This is also called the
 cherry picking fallacy. Mass and social media is notorious of this.
 
-> “Juana is living a blissful and satisfying life because I frequently see her posts on Facebook
+> “Juana is living a blissful and satisfying life because I frequently see her posts on socia reto
 > that she is happy.”
 
 The observer ignores the possibility that what he sees may not be true because Juana only posts what
@@ -493,7 +494,7 @@ then it follows that they must share other characteristics.
 
 > “When you mix coffee, sugar, and milk with a spoon, it spins, and it creates something new—a tasty
 > drink. The solar system spins, too. If the celestial bodies around the Sun spin fast enough,
-> something new must be created.”
+> something like that must be created, too.”
 
 The speaker convolutes something that is directly observable, to something that is inobservable, and
 draws conclusions based on false comparisons.
@@ -534,7 +535,7 @@ This is committed when person B changes his position after person A successfully
 position of person B. The goal is to move the goalpost so that it will then be difficult for person
 A to attack the new, shifted post.
 
-> Pedro claims that it is due to his daily intake of Kidneyaid capsules that makes his kidney
+> Pedro claimed that it is due to his daily intake of Kidneyaid capsules that makes his kidney
 > healthy. When he was diagnosed with kidney stones, he stated that it could have been worse, had it
 > not been for his Kidneyaid capsules.
 

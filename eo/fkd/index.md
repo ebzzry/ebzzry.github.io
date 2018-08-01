@@ -3,13 +3,14 @@ La Pensoj de Pedanto
 
 <div class="center">[Esperante](#) · [English](/en/)</div>
 <div class="center">la 27-an de Aprilo 2017</div>
-<div class="center">Laste ŝanĝita: la 22-an de Julio 2018</div>
+<div class="center">Laste ŝanĝita: la 31-an de Julio 2018</div>
 
 <img src="/bil/pluvis.jpg" class="banner" alt="pluvis.jpg" title="En la vizaĝo de la kosmo, ni ĉiuj porĉiame estas infanoj." />
 
 <div class="text-right">Retejo pri komputiko, hominklinaĵoj, kaj hazardaĵoj.</div>
 <div class="text-right">Enskriboj ordigatas laŭ inversa kronologiordo.</div>
 
+- [Enkonduko al Sofismoj](sofismoj)
 - [Esperantaj Signoj Linukse](eo-linukse)
 - [Signoj kaj Interpunkcioj (Mallongigite)](signoj-interpunkcioj-mallongigite)
 - [Signoj kaj Interpunkcioj](signoj-interpunkcioj)
