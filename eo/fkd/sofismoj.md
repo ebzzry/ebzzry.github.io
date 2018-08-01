@@ -67,7 +67,7 @@ bezonas.
 Post A, okazis B. Tial, A kaŭzis na B. Kiam okazo okazis post alia okazo, estas antaŭsupozita ke kio
 okazis antaŭ ĝi devas kaŭzis ĝin.
 
-> “Post Silvja preĝis al Toro, sia patro pliresaniĝis el lia malsano. Ni kultu Toro!”
+> “Post Silvja preĝis al Vakelo, sia patro pliresaniĝis el lia malsano. Ni kultu Vakelo!”
 
 Ĉi tio erarigas ĉar la eblecon ŝi malatentas, ke estis eble la medikamento kiu sian patron
 plisanigis.
@@ -331,7 +331,7 @@ substancoj, aperas nature.
 ---------------------------------------
 
 Ĉi tiu sofismo estas fifarita kiam emocioj estas uzitaj por erarigan respondon ellogi el la
-celulo. La baza ideo estas, ke emociaj taktitoj estas uzitaj por personon persvadi en kredi, ke al
+celulo. La baza ideo estas, ke emociaj taktikoj estas uzitaj por personon persvadi en kredi, ke al
 argumento prezentata estas valida.
 
 > “Petro, manĝu viajn brokoliojn. Pensu pri ĉiom da malricaj, malnutrantaj, kaj senhejmaj infanoj
@@ -347,9 +347,9 @@ fortikajn kialojn provizi, ke la brokolion Petro devas manĝi.
 Ĉi tiu sofismo estas fifarita kiam la minaco de forto aŭ fortego estas uzita por personon devigi por
 aserton akcepti kiel vera. Ĉi tiu sofismo estas ofte rimarkita en religiaj grupoj.
 
-> “Se vi ne observas la vortojn de Toro, vi forbruliĝos en la torturemaj flamoj de inferno.”
+> “Se vi ne observas la vortojn de Vakelo, vi forbruliĝos en la torturemaj flamoj de inferno.”
 
-Anstataŭ kialon provizi kial oni devas aŭskulti al Toro, minacoj de fortegoj estas uzitaj por iun
+Anstataŭ kialon provizi kial oni devas aŭskulti na Vakelo, minacoj de fortegoj estas uzitaj por iun
 devigi por blinde observi.
 
 
@@ -424,8 +424,8 @@ forigi, signifas, ke ili necesas.
 Ĉi tiu sofismo estas fifarita kiam la pruvota io estas uzita kiel unu el la premisoj. Estas ekzemple
 de ronda rezonado.
 
-> “La diaj vortoj de Toro estas puraj, superbaj, kaj seneraraj pro estas diritaj en La Eterna kaj
-> Transcenda Libro de Toro.”
+> “La diaj vortoj de Vakelo estas puraj, superbaj, kaj seneraraj pro estas diritaj en La Eterna kaj
+> Transcenda Libro de Vakelo.”
 
 La validecon de la ekzisto de tia esto ĉi tio senhoneste antaŭsupozas, kaj por ĝin pruvi signifas,
 ke la ekzistecon de tio oni devas supozi unue. A pro A.
