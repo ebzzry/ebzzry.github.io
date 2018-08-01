@@ -41,12 +41,12 @@ bezonas.
 - [Apelo al anonima aŭtoritato](#anonimaaŭtoritato)
 - [Apelo al falsa aŭtoritato](#falsaaŭtoritato)
 - [Apelo al populareco](#populareco)
-- [Apelo al naturo](#naturo)
-- [Apelo al emocio](#emocio)
+- [Apelo al la naturo](#naturo)
+- [Apelo al la emocio](#emocio)
 - [Apelo al forto](#forto)
 - [Apelo al tradicio](#tradicio)
 - [Apelo al devenoj](#denevoj)
-- [Apelo al estonteco](#estonteco)
+- [Apelo al la estonteco](#estonteco)
 - [Apelo al kompliko](#kompliko)
 - [Apelo al ekvilibro](#ekvilibro)
 - [Argumentado per rondo](#rondo)
@@ -313,13 +313,13 @@ sur la fundoj ke la homoj estas aprobaj rilate al tiu aserto.
 antaŭjuĝemoj. Elekto estas farita ne pro teĥnikaj meritoj sed pro antaŭjuĝoj.
 
 
-<a name="naturo"></a>Apelo al naturo
-------------------------------------
+<a name="naturo"></a>Apelo al la naturo
+---------------------------------------
 
 Ĉi tiu sofismo estas fifarita kiam estas disputite, ke nur io estas “natura” signifas, ke estas
 ideala aŭ bona.
 
-> “Silvja asertas, ke se produktaĵo ne estas etikedita ‘organika’ aŭ ‘natura’, tiam ĝi ne estas
+> “Silvja asertas, ke se produktaĵo ne estas etikedita ‘organika’ aŭ ‘natura,’ tiam ĝi ne estas
 > ideala por konsumado.”
 
 Kultivita tabako (*Nicotiana tabacum*) estas natura planto kiu estas priresponda por pli da kvin
@@ -327,8 +327,8 @@ milionoj mortoj po jare, ĉirkaŭ la mondo. Cianado, kemia kombinaĵo, kiu estas
 substancoj, aperas nature.
 
 
-<a name="emocio"></a>Apelo al emocio
-------------------------------------
+<a name="emocio"></a>Apelo al la emocio
+---------------------------------------
 
 Ĉi tiu sofismo estas fifarita kiam emocioj estas uzitaj por erarigan respondon ellogi el la
 celulo. La baza ideo estas, ke emociaj taktitoj estas uzitaj por personon persvadi en kredi, ke al
@@ -379,8 +379,8 @@ specifa deveno havas. Ĉi tio estas ofte rimarkita en sociaj klasoj, biologiaj d
 ankaŭ estas malriĉaj, same kiel li antaŭe.
 
 
-<a name="estonteco"></a>Apelo al estonteco
--------------------------------------------
+<a name="estonteco"></a>Apelo al la estonteco
+---------------------------------------------
 
 Ĉi tio estas fifarita kiam la necertecon de la estonteco persono uzas por sian argumenton
 subteni. Ri asertas, ke en la estonteco, riaj asertoj eventuale iĝas efektivaj.

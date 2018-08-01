@@ -3,7 +3,7 @@ In Retrospect
 
 <div class="center">[Esperante](/eo/retrospekte) · [English](#)</div>
 <div class="center">July 11, 2013</div>
-<div class="center">Last updated: Februray 8, 2018</div>
+<div class="center">Last updated: August 1, 2018</div>
 
 >Out of life's school of war: What does not destroy me, makes me stronger.<br>
 >―Friedrich Nietzsche
@@ -15,7 +15,7 @@ eyes.
 
 When we take a lot of pain, and survive it, we will live to tell the tale. We will live to share the
 story for generations to come. When we endure, and embrace the necessary agony, we are forced to
-think in retrospect. We are then forced to analize. We are then put into a position, wherein, we can
+think in retrospect. We are then forced to analyze. We are then put into a position, wherein, we can
 no longer procrastinate about the next ideal thing to do. I realized, that when we survive the
 ordeal, something magical begins to happen. And as for me, it came in the form of a rude awakening.
 
@@ -68,6 +68,6 @@ points, we unlock a greater potential.
 Armed with more knowledge, I am now more eager, to face any challenge, even if it means braving a
 storm. I will cross my old boundaries, even if it means getting wounded, again. I will dare the
 demons to come right at me, for I will make them experience a thousand deaths. Every time I will get
-knocked down, I will get back up again to continue the fight. I will hit hard, harder than than my
+knocked down, I will get back up again to continue the fight. I will hit hard, harder than my
 last strike, as long as blood courses through my body, and as long as I feel the tangible air of my
 breath.
