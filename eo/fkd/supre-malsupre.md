@@ -56,7 +56,7 @@ Iuj de ni daŭras en iluzioj kiuj pretendas scii tion, kion ili neniam hazardis,
 rimarkis. Estas tre senkuraĝige ke anstataŭ fari paŝon malantaŭen kaj fiksrigardi al la ĉielo por
 momento, homoj anstataŭ enakviĝas ili mem en mirlando. Ĉi tiu ebriiga kutimo, malbonfaras ne
 unuopulon, sed la tutan homaron. Kiam iu diras al oni ke respondoj al siaj demandoj povas esti
-eksluzive respondata ĉiam per jes aŭ ne, forlasi rin kaj ri ne plu meritas onian atenton denove. Se
+ekskluzive respondata ĉiam per jes aŭ ne, forlasi rin kaj ri ne plu meritas onian atenton denove. Se
 oni ne scias la respondon, oni devas diri ke oni ne scias la respondon, anstataŭ fari trapezajn
 manovrojn sen iu por kapti oniajn manojn.
 

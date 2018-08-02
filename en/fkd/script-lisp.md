@@ -2,7 +2,7 @@ Scripting in Common Lisp
 ========================
 
 <div class="center">July 5, 2017</div>
-<div class="center">Last updated: July 7, 2018</div>
+<div class="center">Last updated: August 2, 2018</div>
 
 >The light that burns twice as bright burns half as long.<br>
 >―Dr. Eldon Tyrell, Blade Runner (1982)
@@ -73,15 +73,11 @@ processes. [cl-scripting](https://github.com/fare/cl-scripting) helps us with mo
 The program `cl-launch` must also be installed in your system. It will be responsible in creating
 the multi-call binary, itself. To install `cl-launch` on systems that use APT:
 
-```bash
-sudo apt-get install -y cl-launch
-```
+    $ sudo apt-get install -y cl-launch
 
 To install on systems that use Nix:
 
-```bash
-nix-env -i cl-launch
-```
+    $ nix-env -i cl-launch
 
 
 <a name="basics"></a>Basics
@@ -92,9 +88,7 @@ nix-env -i cl-launch
 To get started, let’s create a new project directory. We will build our project in
 `$HOME/common-lisp`.
 
-```bash
-mkdir -p ~/common-lisp/my-scripts
-```
+    $ mkdir -p ~/common-lisp/my-scripts
 
 This directory is one of the standard paths that ASDf will crawl, for `.asd` files. It is worth
 nothing that it doesn’t matter if `$HOME/common-lisp` is a regular directory or a symlink to one.
@@ -111,7 +105,7 @@ Then, let’s create `my-scripts.asd` in that directory. To start, it will conta
   :version "0.0.1"
   :description "CL scripts"
   :license "MIT"
-  :author "Lolu Ogag"
+  :author "Lolu OGAG"
   :class :package-inferred-system
   :depends-on ((:version "cl-scripting" "0.1")
                (:version "inferior-shell" "2.0.3.3")
@@ -126,44 +120,48 @@ provides the things that we need for managing shell processes
 Next, let’s create the file `main.lisp`, in the same directory. It will contain the following:
 
 ```lisp
-(uiop:define-package :my-scripts/main
-    (:use :cl
-          :uiop
-          :cl-scripting
-          :inferior-shell
-          :fare-utils
-          :cl-launch/dispatch)
+(uiop:define-package #:my-scripts/main
+    (:use #:cl
+          #:uiop
+          #:cl-scripting
+          #:inferior-shell
+          #:fare-utils
+          #:cl-launch/dispatch)
   (:export #:symlink
            #:help))
 
-(in-package :my-scripts/main)
+(in-package #:my-scripts/main)
 
 (exporting-definitions
  (defun symlink (src)
-   (let ((binarch (resolve-absolute-location `(,(subpathname (user-homedir-pathname) "bin/")) :ensure-directory t)))
+   "Build the symlinks."
+   (let ((binarch (resolve-absolute-location
+                   `(,(subpathname (user-homedir-pathname) "bin/")) :ensure-directory t)))
      (with-current-directory (binarch)
        (dolist (i (cl-launch/dispatch:all-entry-names))
          (run `(ln -sf ,src ,i)))))
    (success))
 
  (defun help ()
+   "Display usage."
    (format! t "~A commands: ~{~A~^ ~}~%" (get-name) (all-entry-names))
    (success))
 
  (defun main (&rest args)
-    (format t "main~%")))
+   "Top-level function."
+   (format t "main~%")))
 
 (register-commands :my-scripts/main)
 ```
 
-We’re going to start by using `uiop:define-package`. Unlike `defpackage`, this creates the necessary
-environment that is friendly to UIOP. In the `:use` clause, we’re going to use helpers from other
-libraries. In the body of this file, you can see `exporting-definitions`. This marker effectively
+We’re going to start by using `UIOP:DEFINE-PACKAGE`. Unlike `DEFPACKAGE`, this creates the necessary
+environment that is friendly to UIOP. In the `:USE` clause, we’re going to use helpers from other
+libraries. In the body of this file, you can see `EXPORTING-DEFINITIONS`. This marker effectively
 marks the boundaries of what will be created as an executable, or not. It will be used by
-`register-commands`, later.
+`REGISTER-COMMANDS`, later.
 
-Here, we define several functions: `symlink` is responsible for creating the symlinks for the
-multi-call binary; `help` displays some basic usage information; and `main` is the
+Here, we define several functions: `SYMLINK` is responsible for creating the symlinks for the
+multi-call binary; `HELP` displays some basic usage information; and `MAIN` is the
 entrypoint of our script. The multi-call binary will be available in `$HOME/bin/`. To make it
 convenient to build the script and the symlinks, we’re going to put the build instructions in a
 Makefile. Create the file `Makefile` in the current directory, then put in the following:
@@ -191,7 +189,7 @@ clean:
 
 In the `$(NAME)` target, we call `cl-launch` with options to build the script. In the `install`
 target, we invoke the script with the options `symlink $(NAME)`, to build the symlinks for the
-multi-call binary. Since we only defined three functions within the body of `exporting-definitions`,
+multi-call binary. Since we only defined three functions within the body of `EXPORTING-DEFINITIONS`,
 it is only going to build three symlinks to `my-scripts`. The `‑‑output $(NAME)` option specifies
 the output file. The `‑‑dump !` means to create an image, to enable a faster startup. The `‑‑lisp sbcl`
 specifies that we want to use SBCL, for this script; the option `‑‑quicklisp` specifies that
@@ -204,9 +202,7 @@ program.
 
 We are now ready to build the script and the symlinks. To do that, run:
 
-```bash
-$ make install
-```
+    $ make install
 
 This will build the multi-call binary—`./my-scripts` and the corresponding symbolic links. The directory tree of
 `~/bin` should look like the following:
@@ -224,9 +220,7 @@ $ tree ~/bin
 
 To test that it indeed works, run:
 
-```bash
-$ getuid
-```
+    $ getuid
 
 If it displays your UID, we’re good to go.
 
@@ -244,7 +238,7 @@ with several functions. Let’s modify `my-script.asd` to contain the additional
   :version "0.0.1"
   :description "CL scripts"
   :license "MIT"
-  :author "Lolu Ogag"
+  :author "Lolu OGAG"
   :class :package-inferred-system
   :depends-on ((:version "cl-scripting" "0.1")
                (:version "inferior-shell" "2.0.3.3")
@@ -256,45 +250,46 @@ with several functions. Let’s modify `my-script.asd` to contain the additional
 Then, let’s populate the file `general.lisp` with the following contents:
 
 ```lisp
-(uiop:define-package
-    :scripts/general
-    (:use
-     :cl
-     :fare-utils
-     :uiop
-     :cl-scripting
-     :inferior-shell
-     :cl-launch/dispatch
-     :optima
-     :optima.ppcre
-     :local-time)
+(uiop:define-package #:scripts/general
+    (:use #:cl
+          #:fare-utils
+          #:uiop
+          #:cl-scripting
+          #:inferior-shell
+          #:cl-launch/dispatch
+          #:optima
+          #:optima.ppcre
+          #:local-time)
   (:export #:battery
            #:screenshot))
 
-(in-package :scripts/general)
+(in-package #:scripts/general)
 
 (defvar *screenshots-dir*
   (subpathname (user-homedir-pathname) "Desktop/"))
 
 (defun battery-status ()
+  "Return battery status."
   (let ((base-dir "/sys/class/power_supply/*")
         (exclude-string "/AC/"))
     (with-output (s nil)
-      (loop
-         :for dir :in (remove-if #'(lambda (path)
-                                     (search exclude-string (native-namestring path)))
-                                 (directory* base-dir))
-         :for battery = (first (last (pathname-directory dir)))
-         :for capacity = (read-file-line (subpathname dir "capacity"))
-         :for status = (read-file-line (subpathname dir "status"))
-         :do (format s "~A: ~A% (~A)~%" battery capacity status)))))
+      (loop :for dir
+            :in (remove-if #'(lambda (path)
+                               (search exclude-string (native-namestring path)))
+                           (directory* base-dir))
+            :for battery = (first (last (pathname-directory dir)))
+            :for capacity = (read-file-line (subpathname dir "capacity"))
+            :for status = (read-file-line (subpathname dir "status"))
+            :do (format s "~A: ~A% (~A)~%" battery capacity status)))))
 
 (exporting-definitions
-  (defun battery ()
-    (format t "~A" (battery-status))
-    (values))
+ (defun battery ()
+   "Display battery status."
+   (format t "~A" (battery-status))
+   (values))
 
-  (defun screenshot (mode)
+ (defun screenshot (mode)
+   "Take a screenshot."
    (let* ((dir *screenshots-dir*)
           (file (format nil "~A.png" (format-timestring nil (now))))
           (dest (format nil "mv $f ~A" dir))
@@ -311,23 +306,19 @@ Then, let’s populate the file `general.lisp` with the following contents:
 (register-commands :scripts/general)
 ```
 
-In the definition of `battery`, it outputs the return value of `(battery-status)`, in a human
-friendly way, i.e., sans the double quotes. The `battery` function then returns no values. We need
-to do this because we only want the output of the call to `battery-status`.
+In the definition of `BATTERY`, it outputs the return value of `(BATTERY-STATUS)`, in a human
+friendly way, i.e., sans the double quotes. The `BATTERY` function then returns no values. We need
+to do this because we only want the output of the call to `BATTERY-STATUS`.
 
-The command `screenshot`, on the other hand takes a screenshot with *scrot* then makes the absolute
-path of the image available from the clipboard selection, using *xclip*. We use the libraries
-`local-time`, for the date string and library; and `optima`, for the pattern matching. For the
-command `screenshot` to work, install the binary dependencies. Run the following commands for Debian
-and Nix systems, respectively:
+The function `SCREENSHOT`, on the other hand, takes a screenshot with *scrot* then makes the
+absolute path of the image available from the clipboard selection, using *xclip*. We use the
+libraries `local-time`, for the date string and library; and `optima`, for the pattern matching. For
+the command `screenshot` to work, install the binary dependencies. Run the following commands for
+Debian and Nix systems, respectively:
 
-```bash
-$ sudo apt-get install -y scrot xclip
-```
+    $ sudo apt-get install -y scrot xclip
 
-```bash
-$ nix-env -i scrot xclip
-```
+    $ nix-env -i scrot xclip
 
 Launching and managing user applications is easy. Let’s start by adding a dependency in
 `my-scripts.asd`:
@@ -339,7 +330,7 @@ Launching and managing user applications is easy. Let’s start by adding a depe
   :version "0.0.1"
   :description "CL scripts"
   :license "MIT"
-  :author "Lolu Ogag"
+  :author "Lolu OGAG"
   :class :package-inferred-system
   :depends-on ((:version "cl-scripting" "0.1")
                (:version "inferior-shell" "2.0.3.3")
@@ -352,35 +343,37 @@ Launching and managing user applications is easy. Let’s start by adding a depe
 Then, let’s populate `apps.lisp`:
 
 ```lisp
-(uiop:define-package
-    :scripts/apps
-    (:use
-     :cl
-     :fare-utils
-     :uiop
-     :inferior-shell
-     :cl-scripting
-     :cl-launch/dispatch)
+(uiop:define-package #:scripts/apps
+    (:use #:cl
+          #:fare-utils
+          #:uiop
+          #:inferior-shell
+          #:cl-scripting
+          #:cl-launch/dispatch)
   (:export #:chrome
            #:kill-chrome
            #:stop-chrome
            #:continue-chrome))
 
-(in-package :scripts/apps)
+(in-package #:scripts/apps)
 
 (exporting-definitions
  (defun chrome (&rest args)
+   "Run the Chrome browser."
    (run/i `(google-chrome-beta ,@args)))
 
  (defun kill-chrome (&rest args)
+   "Send a KILL signal to the Chrome process."
    (run `(killall ,@args chromium-browser chromium google-chrome chrome)
         :output :interactive :input :interactive :error-output nil :on-error nil)
    (success))
 
  (defun stop-chrome ()
+   "Send a STOP signal to the Chrome process."
    (kill-chrome "-STOP"))
 
  (defun continue-chrome ()
+   "Send a CONT signal to the Chrome process."
    (kill-chrome "-CONT")))
 
 (register-commands :scripts/apps)

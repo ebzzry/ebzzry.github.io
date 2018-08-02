@@ -3,9 +3,9 @@ Malŝparitaj Malcedemoj
 
 <div class="center">[Esperante](#) · [English](/en/squandered)</div>
 <div class="center">la 5-an de Decembro 2017</div>
-<div class="center">Laste ŝanĝita: la 20-an de Marto 2018</div>
+<div class="center">Laste ŝanĝita: la 2-an de Aŭgusto 2018</div>
 
->La unua paŝo al iri ien, estas decidi, ke vi ne restos kie vi estas.<br>
+>La unua paŝo por iri ien, estas decidi, ke oni ne restos kie oni estas.<br>
 >―J.P. MORGAN
 
 Ekzistas zorgiga kaj tremiga sentaĵo, kiun mi sentas kiam ajn la amortizema realiĝo, ke mi ne plu
