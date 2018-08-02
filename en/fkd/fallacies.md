@@ -3,7 +3,7 @@ A Fallacies Primer
 
 <div class="center">[Esperante](/eo/sofismoj) · [English](#)</div>
 <div class="center">May 1, 2016</div>
-<div class="center">Last updated: July 31, 2018</div>
+<div class="center">Last updated: August 2, 2018</div>
 
 >Learning is not compulsory. Neither is survival.<br>
 >―W. Edwards Deming
@@ -419,7 +419,7 @@ these contexts is ill-defined, and may have multiple ambiguous interpretations.
 It is unclear what kind of balance does the speaker speak of. When asked, he fails to explain why
 such is necessary. He further argues that since wars and terrorism are inevitable, then they must
 exist to create balance. This is faulty reasoning—just because you can’t eliminate the undesirable,
-means its existence is necessary.
+doesn’t mean that its existence is necessary.
 
 
 <a name="begging"></a> Begging the question
