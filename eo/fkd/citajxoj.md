@@ -258,7 +258,7 @@ tra la jarojn.
   ―Stacey CHARTER
 
 
-- La unua paŝo al iri ien, estas decidi, ke oni ne restos kie oni estas.<br>
+- La unua paŝo por iri ien, estas decidi, ke oni ne restos kie oni estas.<br>
   ―J.P. MORGAN
 
 
