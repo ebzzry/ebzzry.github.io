@@ -3,7 +3,7 @@ Enkonduko al Sofismoj
 
 <div class="center">[Esperante](#) · [English](/en/fallacies)</div>
 <div class="center">la 29-an de Julio 2018</div>
-<div class="center">Laste ŝanĝita: la 1-an de Aŭgusto 2018</div>
+<div class="center">Laste ŝanĝita: la 2-an de Aŭgusto 2018</div>
 
 >Lerni ne estas necesa; nek estas travivi.<br>
 >―W. Edwards DEMING
@@ -149,8 +149,8 @@ ofte rimarkita en ĵurnalismo por egalan kaj senantaŭjuĝan raportadon provizi.
 > “Sian propran opinion ĉiuj en ĉi tiu tablo havas. Neniu estas necese ĝusta aŭ malĝusta.”
 
 La diskuton kaj la decidon de la aprobebleco ke unu aŭ pli argumentoj eble estas la solvo al la
-problemo la parolanto evitas. Ĉi tio estas fifarita por “sidi sur la barilo” kaj por “ludi ĝin
-sekure.”
+problemo la parolanto evitas. Ĉi tio estas fifarita por ‘sidi sur la barilo’ kaj por ‘ludi ĝin
+sekure.’
 
 
 <a name="hasta"></a>Hasta ĝeneraligo
@@ -211,7 +211,7 @@ tiajn batalilojn manregi.
 --------------------------------------
 
 Ĉi tio estas fifarita kiam nekoncerna temo estas enkondukita por atenton forkonduki de la originala
-argumento. La “ruĝa haringo” estas enĵetiĝita, sub la ŝajnigo, ke ĝi estas rilata al la originala
+argumento. La ‘ruĝa haringo’ estas enĵetiĝita, sub la ŝajnigo, ke ĝi estas rilata al la originala
 temo.
 
 > Raportistino: “Kiel vi planas trakti la atentindaĵojn pri korupto.”<br>
@@ -316,7 +316,7 @@ antaŭjuĝemoj. Elekto estas farita ne pro teĥnikaj meritoj sed pro antaŭjuĝo
 <a name="naturo"></a>Apelo al la naturo
 ---------------------------------------
 
-Ĉi tiu sofismo estas fifarita kiam estas disputite, ke nur io estas “natura” signifas, ke estas
+Ĉi tiu sofismo estas fifarita kiam estas disputite, ke nur io estas natura signifas, ke estas
 ideala aŭ bona.
 
 > “Silvja asertas, ke se produktaĵo ne estas etikedita ‘organika’ aŭ ‘natura,’ tiam ĝi ne estas
@@ -369,7 +369,7 @@ esti farita sur la fundoj, ke estas tradicia.
 <a name="denevoj"></a>Apelo al devenoj
 --------------------------------------
 
-Ĉi tiu estas fifarita kiam estas antaŭsupozita, ke pli da teniĝon aŭ pezon argumento aŭ parolanto de
+Ĉi tiu estas fifarita kiam estas antaŭsupozita, ke pli da teniĝo aŭ pezo argumento aŭ parolanto de
 specifa deveno havas. Ĉi tio estas ofte rimarkita en sociaj klasoj, biologiaj devenoj, kaj kulturoj.
 
 > “Kaŭze de Panĉo devenas el malriĉa familio, kiam li elektiĝos prezidanto, mi certas, ke li povas
@@ -385,7 +385,7 @@ ankaŭ estas malriĉaj, same kiel li antaŭe.
 Ĉi tio estas fifarita kiam la necertecon de la estonteco persono uzas por sian argumenton
 subteni. Ri asertas, ke en la estonteco, riaj asertoj eventuale iĝas efektivaj.
 
-> “Neniu ankoraŭ faras ĝin, tamen mi certas ke, en la estontecon, ĉiuj estos.”
+> “Neniu ankoraŭ faras ĝin, tamen mi certas, ke en la estontecon, ĉiuj estos.”
 
 Ne ekzitas konataj manieroj nuntempe por riajn asertojn validigi, ĉar maleblas por la estontecon
 vidi aŭ sperti.
@@ -414,8 +414,8 @@ hastaj ĝeneraligoj.
 
 Estas malklare, kian ekvilibron la parolanto priparolas. Kiam demandite, ri malsukcese klarigas kial
 tia estas necesa. Ri plu argumentas, ke pro militoj kaj terorismoj neeviteblas, tiam ili devus
-ekzisti por ekvilibron krei. Ĉi tio estas mankhava rezonado—nur la neeviteblajn aferojn oni ne povas
-forigi, signifas, ke ili necesas.
+ekzisti por ekvilibron krei. Ĉi tio estas mankhava rezonado—nur ĉar la neeviteblajn aferojn oni ne
+povas forigi, ne signifas, ke ili necesas.
 
 
 <a name="rondo"></a>Argumentado per rondo
@@ -435,10 +435,10 @@ ke la ekzistecon de tio oni devas supozi unue. A pro A.
 -----------------------------------------
 
 Ĉi tio estas fifarita kiam konkludo estas farita el mallarĝaj kaj limigitaj vidoj. Ĉi tio ankaŭ
-estas sofismo de neplena pruvmaterialo. Amasmedioj kaj sociaj medioj estas malgloraj de ĉi tio.
+estas sofismo de neplena pruvmaterialo. Amasmedioj kaj socimedioj estas malgloraj de ĉi tio.
 
-> “Silvja estas vivanta per beata kaj elizea vivon pro mi ofte vidas ŝiajn afiŝojn en socia reto, ke
-> ŝe estas feliĉa.”
+> “Silvja estas vivanta per beata kaj elizea vivo pro mi ofte vidas ŝiajn afiŝojn en socia reto, ke
+> ŝi estas feliĉa.”
 
 La eblecon, ke kion ri vidas ne fakte veras pro Sylvja nur afiŝojn kiujn aliajn homojn si volas por
 vidi kaj kredi si afiŝas la parolanto malatentas.
@@ -450,23 +450,23 @@ vidi kaj kredi si afiŝas la parolanto malatentas.
 Ĉi tio estas fifarita kiam argumento estas farita per aserti, ke konduto nur akcepteblas ene la
 limigoj de certaj normoj.
 
-> “Kial vi ne manĝas per la manoj? Nur vera Kilikilimo devas manĝi per la manoj!”
+> “Kial vi ne manĝas per la piedoj? Vera vakelanto devas manĝi per la piedoj!”
 
-Ĉi tio estas speco de falsa pureco. Asertas, ke nur ekzistas unu akcepteblan maniero, ke Kilikilimo
+Ĉi tio estas speco de falsa pureco. Asertas, ke nur ekzistas unu akcepteblan maniero, ke Vakelantoj
 devas manĝi. Ĉi tio similas al apelo al tradicio.
 
 
 <a name="eltrovi"></a>Ne eltrovita ĉi tie
 -----------------------------------------
 
-Ĉi tio estas fifarita kiam io estas fremda aŭ loka, estas rigardita pli bone aŭ pli malbone. Ĉi tio
-estas ofte rimarkita en sociaj klasoj, kulturoj, tradicioj, generoj, kaj seksoj.
+Ĉi tio estas fifarita kiam iu kiu estas fremda aŭ loka, estas rigardita pli bone aŭ pli malbone. Ĉi
+tio estas ofte rimarkita en sociaj klasoj, kulturoj, tradicioj, generoj, kaj seksoj.
 
 > “Kion Karlo scias pri inismo? Li estas viro!”
 
 Ĉi tiu argumentas, ke nur ĉar Karlo estas viro, signifas ke la ideologiojn de inismo li ne scias
 kiel subteni. Ĉi tio ankaŭ estas ofte rimarkita en enportitaj produktaĵoj, aserti ke ili estas
-supraj kontraŭ la lokaj pro ili estas “enportitaj”.
+supraj kontraŭ la lokaj pro ili estas ‘enportitaj.’
 
 
 <a name="eksigo"></a>Eksigo
@@ -476,7 +476,7 @@ supraj kontraŭ la lokaj pro ili estas “enportitaj”.
 farita kiam ideon persono ne ŝatas, kaj trudan eksigon de argumento ri uzos.
 
 > “Pro vi malferme kontraŭparolas pri demokratio, vi devas forlasi la landon kaj trovi iun kiu
-> adaptas viajn gustojn!”
+> adaptas al viaj gustoj!”
 
 Siajn kontraŭparolojn la parolanto ne deklaras, kaj malprofundan vorton li uzas por tia diro. Ri
 estas malkomforta pro la kontraŭparoloj, kaj vojo de li por ĉi tiun malkomforton trakti estas por
@@ -487,13 +487,13 @@ estiginton de tiaj kontraŭparoloj forigi.
 ----------------------------------------------
 
 Ĉi tio estas fifarita kiam parolanto argumentas, ke nur pro du aferoj similas en iuj trajtoj,
-konsekvence ke ili devas aliajn trajtojn ili kunhavas.
+konsekvence ke aliajn trajtojn ili devas kunhavi.
 
 > “Kiam kafon, sukeron, kaj lakton oni miksas per kulero, ili turniĝas, kaj novan ion ĝi
-> kreas—bongusta trinkaĵo. La sunsistemo ankaŭ turniĝas. Se la ĉielaj korpoj ĉirkaŭ la sundo rapide
-> turniĝas, io kiel la antaŭa devas esti kreita.”
+> kreas—bongusta trinkaĵo. La sunsistemo ankaŭ turniĝas. Se la ĉielaj korpoj ĉirkaŭ la suno rapide
+> turniĝas, io kiel la antaŭa devos esti kreita.”
 
-La parolanto konfuziĝas pri io kiu estas rekte rimarkebla al io kiu ne estas rekte rimarkebla, kaj
+La parolanto konfuziĝas pri iu kiu estas rekte rimarkebla al iu kiu ne estas rekte rimarkebla, kaj
 konkludas per falsaj komparoj.
 
 
@@ -501,27 +501,27 @@ konkludas per falsaj komparoj.
 --------------------------------------------
 
 Ĉi tio estas fifarita kiam ion parolanto asertas, sed ĝin ri poste malkonfesas per kontraŭdirajn
-deklaroj provizi. Ĉi tio ankaŭ nomatas “Havi vian kukon.”
+deklaroj provizi. Ĉi tio ankaŭ nomatas ‘Havi vian kukon.’
 
-> “Aŭskultu filo, mi ne kredas en fantomoj. Tamen, hieraŭ vespere, kiam mi estas sola en mia ĉambro,
+> “Aŭskultu filo, mi ne kredas en fantomoj. Tamen, hieraŭ vespere, kiam mi estis sola en mia ĉambro,
 > mi aŭdis batetajn sonojn sur la lampotabelo. Mi certas, ke ne estis mi. Devas esti la nevideblaj
 > astraj estoj.”
 
 Aŭdacajn dirojn la parolanto faras pri ne kredi en la paranormalaj ekzistecoj de fantomoj, sed siajn
-vortojn li malkonfesis kaj asertas, ke iuj “astraj” estoj devas esti la fonto de la batetaj
-sonoj. Na A li asertas, sed poste kontraŭ-A.
+vortojn li malkonfesis kaj asertas, ke iuj astraj estoj devas esti la fonto de la batetaj sonoj. Na
+A li asertas, sed poste kontraŭ-A.
 
 
 <a name="malplej"></a>Malplej aprobebla hipotezo
 ------------------------------------------------
 
-Ĉi tio estas fifarita kiam malhoneste malatentas persvadan kaj fortan pruvmaterialon persono, dum
+Ĉi tio estas fifarita kiam persvadan kaj fortan pruvmaterialon persono malhoneste malatentas , dum
 implikitan iun favoras kiu pli da demando altigas.
 
-> “La statuo de virgulino Maria en la monteto de Idjaj ploris per sango. ŝi devis esti ploranta pro
+> “La statuo de virgulino Maria en la monteto de Idjaj ploris per sango. Ŝi devis esti ploranta pro
 > la pekoj kiujn homaro kreas.”
 
-La rigardantoj estis tre servopretaj por la ideon akcepti ke la statuo estis ja ploranta de “dia”
+La rigardantoj estis tre servopretaj por la ideon akcepti ke la statuo estis ja ploranta de ‘dia’
 sango. Estis poste malkovrite, ke dukto estis konektita per konduktilo kaj bovosango estis pumpita
 tra ĝi.
 
