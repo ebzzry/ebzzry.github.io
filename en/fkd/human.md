@@ -2,7 +2,7 @@ How to Communicate Like a Human
 ===============================
 
 <div class="center">February 28, 2017</div>
-<div class="center">Last updated: March 5, 2017</div>
+<div class="center">Last updated: August 2, 2018</div>
 
 >The ability to speak does not make you intelligent.<br>
 >―Qui-Gon Jinn
@@ -172,5 +172,5 @@ willing you show that you want to listen, the more people will want to talk to y
 ### Smile
 
 The payload of a smile is not at the instant that the smile was received; it is during our moments
-of reflection. Smiles create a lasting impact, and they are so potent that it is able to alter an
+of reflection. A smile creates a lasting impact, and it is so potent that it is able to alter an
 ill perception. A smile conveys lightheartedness, engagement, and happiness. Wear it. Own it. 😄
