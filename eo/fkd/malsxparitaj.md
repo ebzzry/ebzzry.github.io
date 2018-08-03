@@ -89,4 +89,4 @@ esti kapabla kuri ĉirkaŭ la stadiono facile. Kiam ni kuraĝas esplori nekartog
 sen bedaŭroj, sen disreviĝoj, sen la neceseco por havi alian ŝipon por irigi nin antaŭe, ni iutempe
 venkos.
 
-_Dank’ al [Raymund Martinez](https://github.com/zhaqenl) pro la korektoj._
+_Dank’ al [Raymund Martinez](https://zhaqenl.github.io) pro la korektoj._

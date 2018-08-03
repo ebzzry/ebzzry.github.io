@@ -150,4 +150,4 @@ La klavkombinoj por la supraj komandoj, estas la jenaj:
 Mi esperas, ke vi povos esti kapabla trovi uzojn de kelkaj de ili. La ceteraj agordoj troveblas
 [ĉi tie](https://github.com/ebzzry/dotfiles/tree/master/emacs).
 
-_Dank’ al [Raymund Martinez](https://github.com/zhaqenl) pro la korektoj._
+_Dank’ al [Raymund Martinez](https://zhaqenl.github.io) pro la korektoj._

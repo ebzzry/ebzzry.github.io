@@ -419,7 +419,7 @@ other implementations. That’s OK, because it gives room for implementors and d
 work on the base specifications. As long as they conform to the standard, things are green.
 
 [baf](https://github.com/ebzzry/baf), a Nixpkgs/NixOS helper, is a working example of CL
-scripting. [pelo](https://github.com/zhaqenl/pelo/), a ping wrapper, is also another example that
+scripting. [pelo](https://zhaqenl.github.io/pelo/), a ping wrapper, is also another example that
 uses this facility. I wrote several personal helper
 [scripts](https://github.com/ebzzry/scripts/), that I hooked with my StumpWM
 [config](https://github.com/ebzzry/stumpo/). The code used for this article can be found
@@ -433,4 +433,4 @@ donations to him via [PayPal](https://paypal.me/fahree) or
 
 The banner image used at the top is from [common-lisp.net](https://common-lisp.net/).
 
-_Thanks to [Raymund Martinez](https://github.com/zhaqenl) for the corrections._
+_Thanks to [Raymund Martinez](https://zhaqenl.github.io) for the corrections._
