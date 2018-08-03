@@ -67,4 +67,4 @@ iri rekte al mi, ĉar mi faros ilin sperti mil mortojn. Ĉiufoje mi falas, mi st
 daŭri la batalon. Mi ege frapos pli ol la lasta frapo, tiel longe kiel sango kuras tra mia korpo,
 tiel longe kiel mi sentas la palpeblan aeron de mia spiro.
 
-_Dank’ al [Raymund Martinez](https://github.com/zhaqenl) pro la korektoj._
+_Dank’ al [Raymund Martinez](https://zhaqenl.github.io) pro la korektoj._
