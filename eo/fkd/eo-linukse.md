@@ -3,7 +3,7 @@ Esperantaj Signoj Linukse
 
 <div class="center">[Esperante](#) · [English](/en/eo-linux)</div>
 <div class="center">la 22-an de Julio 2018</div>
-<div class="center">Laste ŝanĝita: la 22-an de Julio 2018</div>
+<div class="center">Laste ŝanĝita: la 3-an de Aŭgusto 2018</div>
 
 >Se ion oni volas, kion oni neniam havis, oni devas esti servopreta tion fari, kion oni neniam
 >faris.<br>
@@ -28,8 +28,8 @@ En ĉi tiu artikolo la <kbd>🐧</kbd> klavo signifas la <kbd>Mode‎ߺ‎switch
 <a name="multikey"></a>Multi‎ߺ‎key
 --------------------------------
 
-La *Multi‎ߺ‎key* ankaŭ nomiĝas la «Compose» key estas speciale asignita klavo, kiu devas esti premita
-kaj malpremita kun aliajn klavojn por signon enigi, aŭ serioj de karakteroj. Male al
+La *Multi‎ߺ‎key*, kiu ankaŭ nomatas la «Compose» key estas speciale asignita klavo, kiu devas esti
+premita kaj malpremita kun aliajn klavojn por signon enigi, aŭ serioj de karakteroj. Male al
 <kbd>Shift</kbd> aŭ <kbd>Ctrl</kbd>, ĝi devas esti malpremita kaj ne premita dum la sinsekvo de
 premoj.
 
@@ -91,7 +91,7 @@ Jen la tabuleto kiu la kombinadojn por la esperantaj karakteroj listigas.
 <a name="modeswitch"></a>Mode‎ߺ‎switch
 ------------------------------------
 
-Pli rapida kaj pli facila manieroj por esperantaj karakterojn enigi estas per la uzo de la
+Pli rapida kaj pli facila manieroj por esperantajn karakterojn enigi estas per la uzo de la
 *Mode‎ߺ‎switch* klavo. Similas al *Multi‎ߺ‎key* klavon oni devas asigni al ĝi. Du klavojn mi ŝatas bindi
 por tiu celo por ke, per du manojn mi povas tajpi. Male al la Multi‎ߺ‎key, ĝin oni devas premi kaj
 teni kiel la <kbd>Shift</kbd> aŭ <kbd>Ctrl</kbd> klavoj.
@@ -110,7 +110,7 @@ keycode 134 = Mode‎ߺ‎switch
 keycode 135 = Mode‎ߺ‎switch
 ```
 
-Sekve, la ĝustajn nomojn de la klavoj oni devas uzi. La jenajn kodetojn uzu por la QWERTY-a kaj Dvorakaj klavaroj, respektive.
+Sekve, la ĝustajn nomojn de la klavoj oni devas uzi. La jenajn kodetojn uzu por la QWERTY-a kaj Dvoraka klavaroj, respektive.
 
 ```
 keycode 54 = c C ccircumflex Ccircumflex
@@ -143,7 +143,7 @@ la <kbd>PrtSc</kbd> klavo. Multfoje ili estas sandviĉitaj inter la <kbd>Ctrl</k
 <kbd>Alt</kbd> klavoj. Por tiun klavon uzi, na `xev` kuru kiel ĉi-supre por la klavkodon akiri, tiam
 na `~/.Xmodmap` dosiero ĝisdatigi laŭe.
 
-Sur mia ThinkPAd, la jenan kodeton mi `~/.Xmodmap` havas:
+Sur mia ThinkPad, la jenan kodeton mi `~/.Xmodmap` havas:
 
 ```
 !! Maldekstra vindozo
@@ -157,8 +157,8 @@ keycode 107 = Mode‎ߺ‎switch
 <a name="finrimarkoj"></a>Finrimarkoj
 -------------------------------------
 
-Ambaŭ metodoj resumitaj supre, faras pli ol esperantajn karaktorojn montras. Pliartifikajn signojn
-kaj karakterojn la Multi‎ߺ‎key sistemo povas enigi. Por la plenan liston de karatekroj, la jenan komandon kuru se oni estas en kutimaj linuksaj sistemoj:
+Ambaŭ metodoj resumitaj supre, faras pli ol esperantajn karakterojn montras. Pliartifikajn signojn
+kaj karakterojn la Multi‎ߺ‎key sistemo povas enigi. Por la plenan liston de karakteroj, la jenan komandon kuru se oni estas en kutimaj linuksaj sistemoj:
 
     less /usr/share/X11/locale/en_US.UTF-8/Compose
 
@@ -167,12 +167,14 @@ Se na Nix oni uzas, kuru:
     less ~/.nix-profile/share/X11/locale/en_US.UTF-8/Compose
 
 Male al tio, la avantaĝo de la Mode‎ߺ‎switch metodo estas rapideco. Por la tutan liston de validaj
-karakterojn [ĉi tien](http://wiki.linuxquestions.org/wiki/List_of_Keysyms_Recognised_by_Xmodmap)
+karakterojn vidi [ĉi tien](http://wiki.linuxquestions.org/wiki/List_of_Keysyms_Recognised_by_Xmodmap)
 iru.
 
 Ne ekzistas la plej bona metodo por ĉi tiuj aferoj—kiun ajn oportunan sistemon uzu. Se la
-vindozklavoj jam uzatas por iu ajn, aj nur unu kromaĵan klavon oni povas uzi, tiam na Multi‎ߺ‎key
+vindozklavoj jam uzatas por iu ajn, aŭ nur unu kromaĵan klavon oni povas uzi, tiam na Multi‎ߺ‎key
 metodo uzu. Se facilon de uzado oni preferas, na Mode‎ߺ‎switch metodo uzu. Ankaŭ gravas por noti, ke
 ambaŭ metodojn oni povas uzi samtempe.
 
 🐧—Ĝis la revido!
+
+_Dank’ al [Raymund Martinez](https://zhaqenl.github.io) pro la korektoj._
