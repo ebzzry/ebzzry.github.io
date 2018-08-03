@@ -3,12 +3,12 @@ Enkonduko al Sofismoj
 
 <div class="center">[Esperante](#) · [English](/en/fallacies)</div>
 <div class="center">la 29-an de Julio 2018</div>
-<div class="center">Laste ŝanĝita: la 2-an de Aŭgusto 2018</div>
+<div class="center">Laste ŝanĝita: la 3-an de Aŭgusto 2018</div>
 
 >Lerni ne estas necesa; nek estas travivi.<br>
 >―W. Edwards DEMING
 
-Sofismoj estas eraraj en rezonado, kreitaj en la konstruado de argumentoj. Unuj estis faritaj
+Sofismoj estas eraroj en rezonado, kreitaj en la konstruado de argumentoj. Unuj estis faritaj
 intence por manipuli kaj trompi, dum unuj estas faritaj pro malscio kaj neprudenteco. Sofismoj estas
 dividitaj en du specoj—formalaj kaj neformalaj. Formalaj sofismoj, ankaŭ nomataj logikaj sofismoj,
 estas esprimitaj en sistemo kiel propozicia logiko. Neformalaj sofismoj estas eraroj en la enhavo de
@@ -34,7 +34,7 @@ bezonas.
 - [Ŝarĝo de pruvo](#ŝarĝo)
 - [Glata inklino](#glata)
 - [Ruĝa haringo](#ruĝaharingo)
-- [Pajlohama argumento](#pajlohamo)
+- [Pajlohoma argumento](#pajlohamo)
 - [Apelo al aĝo](#aĝo)
 - [Apelo al servodaŭro](#servodaŭro)
 - [Apelo al aŭtoriteco](#aŭtoriteco)
@@ -67,7 +67,7 @@ bezonas.
 Post A, okazis B. Tial, A kaŭzis na B. Kiam okazo okazis post alia okazo, estas antaŭsupozita ke kio
 okazis antaŭ ĝi devas kaŭzis ĝin.
 
-> “Post Silvja preĝis al Vakelo, sia patro pliresaniĝis el lia malsano. Ni kultu Vakelo!”
+> “Post Silvja preĝis al Vakelo, sia patro pliresaniĝis el lia malsano. Ni kultu je Vakelo!”
 
 Ĉi tio erarigas ĉar la eblecon ŝi malatentas, ke estis eble la medikamento kiu sian patron
 plisanigis.
@@ -143,8 +143,8 @@ parolanto.
 <a name="falsakompromiso"></a>Falsa kompromiso
 ----------------------------------------------
 
-Ĉi tio estas fifarita kiam griza areo estas devigita eĉ ne ekzistas klaraj elektoj. Ĉi tio estas
-ofte rimarkita en ĵurnalismo por egalan kaj senantaŭjuĝan raportadon provizi.
+Ĉi tio estas fifarita kiam griza areo estas devigita eĉ ekzistas klaraj elektoj. Ĉi tio estas ofte
+rimarkita en ĵurnalismo por egalan kaj senantaŭjuĝan raportadon provizi.
 
 > “Sian propran opinion ĉiuj en ĉi tiu tablo havas. Neniu estas necese ĝusta aŭ malĝusta.”
 
@@ -221,7 +221,7 @@ La celo estas por la originalan temon forlasi, por la aŭskultanton forkonduki. 
 rimarkitaj en politikaj intervjuoj kaj diskutoj.
 
 
-<a name="pajlohamo"></a>Pajlohama argumento
+<a name="pajlohamo"></a>Pajlohoma argumento
 -------------------------------------------
 
 Ĉi tio estas fifarita kiam fuŝformitan, malplifortan version de la argumento kiu persono A tenas
@@ -306,7 +306,7 @@ fortikan sperton li havas antaŭ tian kazostudon fari.
 elektas, tiam tiu pozicio devas esti vera. La baza ideo estas aserto devas esti akceptita kiel vera
 sur la fundoj ke la homoj estas aprobaj rilate al tiu aserto.
 
-> “La enketo montras, ke plejmulto da homo voĉdonas na Karlo kiel prezidanto. Ilia elekto devas esti
+> “La enketo montras, ke plejmulto da homo voĉdonas je Karlo kiel prezidanto. Ilia elekto devas esti
 > ĝusta. Mi ankaŭ voĉdonas por li.”
 
 Ĉi tio okazas kiam aserton per malprofundaj kialoj persono kredas. Ĉi tio ofte okazas pro
@@ -334,7 +334,7 @@ substancoj, aperas nature.
 celulo. La baza ideo estas, ke emociaj taktikoj estas uzitaj por personon persvadi en kredi, ke al
 argumento prezentata estas valida.
 
-> “Petro, manĝu viajn brokoliojn. Pensu pri ĉiom da malricaj, malnutrantaj, kaj senhejmaj infanoj
+> “Petro, manĝu viajn brokoliojn. Pensu pri ĉiom da malriĉaj, malnutrantaj, kaj senhejmaj infanoj
 > ĉirkaŭ la mondo.”
 
 La gepatroj de Petro lin volas por la brokolion manĝi, per la uzo do emocia trompo, anstataŭ
@@ -387,7 +387,7 @@ subteni. Ri asertas, ke en la estonteco, riaj asertoj eventuale iĝas efektivaj.
 
 > “Neniu ankoraŭ faras ĝin, tamen mi certas, ke en la estontecon, ĉiuj estos.”
 
-Ne ekzitas konataj manieroj nuntempe por riajn asertojn validigi, ĉar maleblas por la estontecon
+Ne ekzistas konataj manieroj nuntempe por riajn asertojn validigi, ĉar maleblas por la estontecon
 vidi aŭ sperti.
 
 
@@ -515,7 +515,7 @@ A li asertas, sed poste kontraŭ-A.
 <a name="malplej"></a>Malplej aprobebla hipotezo
 ------------------------------------------------
 
-Ĉi tio estas fifarita kiam persvadan kaj fortan pruvmaterialon persono malhoneste malatentas , dum
+Ĉi tio estas fifarita kiam persvadan kaj fortan pruvmaterialon persono malhoneste malatentas, dum
 implikitan iun favoras kiu pli da demando altigas.
 
 > “La statuo de virgulino Maria en la monteto de Idjaj ploris per sango. Ŝi devis esti ploranta pro
@@ -552,3 +552,5 @@ nevalidaj kaj neutilaj, sekve la argumenton de persono A igas neakcepteblaj.
 
 Supozante ke la fonta informo estas ja valida, la argumenton kiu persono A prezentas estas valida
 ankaŭ ne igas. Ĉi tio rilatas al apelo al devenoj.
+
+_Dank’ al [Raymund Martinez](https://github.com/zhaqenl) pro la korektoj._

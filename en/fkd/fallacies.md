@@ -5,7 +5,7 @@ A Fallacies Primer
 <div class="center">May 1, 2016</div>
 <div class="center">Last updated: August 2, 2018</div>
 
->Learning is not compulsory. Neither is survival.<br>
+>Learning is not compulsory; neither is survival.<br>
 >―W. Edwards Deming
 
 Fallacies are errors in reasoning, made in the construction of arguments. Some are committed
