@@ -64,7 +64,7 @@ the years.
   ―Andrew Hunt and David Thomas
 
 
-- Learning is not compulsory. Neither is survival.<br>
+- Learning is not compulsory; neither is survival.<br>
   ―W. Edwards Deming
 
 
