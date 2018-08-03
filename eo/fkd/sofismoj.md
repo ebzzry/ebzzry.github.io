@@ -553,4 +553,4 @@ nevalidaj kaj neutilaj, sekve la argumenton de persono A igas neakcepteblaj.
 Supozante ke la fonta informo estas ja valida, la argumenton kiu persono A prezentas estas valida
 ankaŭ ne igas. Ĉi tio rilatas al apelo al devenoj.
 
-_Dank’ al [Raymund Martinez](https://github.com/zhaqenl) pro la korektoj._
+_Dank’ al [Raymund Martinez](https://zhaqenl.github.io) pro la korektoj._
