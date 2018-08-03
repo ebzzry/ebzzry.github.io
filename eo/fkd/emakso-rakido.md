@@ -128,4 +128,4 @@ ke, fariĝas malĉarma al multe da homo, kiuj estas malinklinaj por legi longajn
 teksto. Ironie, ĉi tiu artikolo povas kvalifi kiel tiu. La priskribitaj metodoj supre ne
 reprezentiĝas de konsilitaj manieroj, de la komunumo, de instali kaj uzi Rakidon Emakse. Do, ĝis!
 
-_Dank’ al [Raymund Martinez](https://github.com/zhaqenl) pro la korektoj._
+_Dank’ al [Raymund Martinez](https://zhaqenl.github.io) pro la korektoj._
