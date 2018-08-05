@@ -3,7 +3,7 @@ Enkonduko al Sofismoj
 
 <div class="center">[Esperante](#) · [English](/en/fallacies)</div>
 <div class="center">la 29-an de Julio 2018</div>
-<div class="center">Laste ŝanĝita: la 3-an de Aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 3-an de Aŭgusto 2018</div>
 
 >Lerni ne estas necesa; nek estas travivi.<br>
 >―W. Edwards DEMING

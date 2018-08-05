@@ -3,7 +3,7 @@ Frog-e Blogi
 
 <div class="center">[Esperante](#) · [English](/en/frog)</div>
 <div class="center">la 16-an de Februaro 2018</div>
-<div class="center">Laste ŝanĝita: la 20-an de Marto 2018</div>
+<div class="center">Laste ĝisdatigita: la 20-an de Marto 2018</div>
 
 >Unu persono kun ardo estas pli bona ol kvardek personoj nure interesataj.<br>
 >―E.M. FORSTER

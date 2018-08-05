@@ -3,7 +3,7 @@ Malŝparitaj Malcedemoj
 
 <div class="center">[Esperante](#) · [English](/en/squandered)</div>
 <div class="center">la 5-an de Decembro 2017</div>
-<div class="center">Laste ŝanĝita: la 2-an de Aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 2-an de Aŭgusto 2018</div>
 
 >La unua paŝo por iri ien, estas decidi, ke oni ne restos kie oni estas.<br>
 >―J.P. MORGAN
