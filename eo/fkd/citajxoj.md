@@ -3,7 +3,7 @@ Citaĵoj
 
 <div class="center">[Esperante](#) · [English](/en/quotes)</div>
 <div class="center">la 15-an de Novembro 2017</div>
-<div class="center">Laste ŝanĝita: la 1-an de Aŭgusto 2018</div>
+<div class="center">Laste ŝanĝita: la 3-an de Aŭgusto 2018</div>
 
 Ĉi tiu paĝo enhavas liston de atenteme elektitaj citaĵoj, aforismoj, kaj sentencoj kiujn mi kolektis
 tra la jarojn.
@@ -218,7 +218,7 @@ tra la jarojn.
   ―Randy PAUSCH
 
 
-- La kapablo por paroli ne farigas onin saĝa.<br>
+- La kapablo por paroli ne igas onin saĝa.<br>
   ―Qui-gon JINN
 
 

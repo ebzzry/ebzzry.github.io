@@ -1,8 +1,9 @@
 How to Communicate Like a Human
 ===============================
 
+<div class="center">[Esperante](/eo/homo) · [English](#)</div>
 <div class="center">February 28, 2017</div>
-<div class="center">Last updated: August 2, 2018</div>
+<div class="center">Last updated: August 5, 2018</div>
 
 >The ability to speak does not make you intelligent.<br>
 >―Qui-Gon Jinn
@@ -48,22 +49,22 @@ take into account several factors including the variability of interpretation. J
 clearly understand what we are saying does not mean that the other side of the communication
 understands it as well as we do. Were we able to sufficiently provide enough background and context
 to the communicatee? Were we able to accurately transfer our mental image of the ideas to the
-listener? Is he able to construct my thought processes as accurately as I want it to be? If just
-one of those questions is answered by a no, then we need to reassess how are we communicating.
+listener? Is he able to construct my thought processes as accurately as I want it to be? If just one
+of those questions is answered by a no, then we need to reassess how are we communicating.
 
 
 ### Accept limitations
 
 When one needs to communicate messages to someone that do not possess the same mental faculties as
 the communicator, adjustments have to be made. Every one of us process things differently. A chess
-Grandmaster should bear in mind that when he is teaching a beginner, the student can only understand
+grandmaster should bear in mind that when he is teaching a beginner, the student can only understand
 so much. He can’t go ham and make him understand advanced topics. There is an impregnable wall; that
 wall only becomes thin with time.
 
 
 ### Be tolerant
 
-It is relatively easy to fall into trap wherein our emotions would like to take charge of our
+It is relatively easy to fall into a trap wherein our emotions would like to take charge of our
 communication processes. When we think that what we are communicating is not being assimilated well
 by the communicatee, we become frustrated and intolerant. When it happens, we push our ideas even
 harder down the avenue, which further exacerbates the already-dysfunctional communication. When we
@@ -76,33 +77,34 @@ Written language
 Several advancements in writing have been realized for the past decades. We went from handwritten
 content to computer-driven ones. However, even with all the conveniences of writing, we are still
 susceptible to not being able to clearly send our messages to our recipients. Written, unlike
-spoken, language is a different beast altogether.
+spoken language is a different beast altogether.
 
 
 ### Be courteous
 
-What’s the difference between “Read the documents.” and “Please, read the documents.”? When the
-proper words are used, we positively visualize. We imagine in our heads how would the communication take place
-had it been done on a face-to-face basis. Conversely, when we use words in excess, it creates a
-strain on the message, completely altering the content. Compare “Go.” with “Go. WTF.”
+What’s the difference between _“Read the documents.”_ and _“Please, read the documents.”_? When the
+proper words are used, we positively visualize, we imagine in our heads how would the communication
+take place had it been done on a face-to-face basis. Conversely, when we use words in excess, it
+creates a strain on the message, completely altering the content. Compare _“Go.”_ with _“Go. WTF.”_
 
 
 ### Use emojis, sparingly
 
 One downside of written communication is that it is very difficult to express emotions, that you
 want to show. There are occasions when no matter how good the words are, it is still not able to
-attach our warmth and sincerity to the message. An emoji conveys a message that is uniform across
-cultures. The image of a happy face conveys the message of a person who exhibits happiness. Humans
-are able to identify with that image, with ease. But, just like with perfumes, too much is bad.
+attach our warmth and sincerity to the message. A lot of times, an emoji conveys a message that is
+uniform across cultures. The image of a happy face conveys the message of a person who exhibits
+happiness. Humans are able to identify with that image, with ease. But, just like with perfumes, too
+much is bad.
 
 
-### Use a `!` instead of `.`
+### Use an exclamation point (!) instead of a period (.)
 
 The punctuation marks what we use in our messages matter, a lot, whether they are short phrases or
 complete sentences. This, again, is connected to the way we envision the person who is communicating
-the messages. Let’s take for example the reply “Got it.” This short message is concise and
-clear. However, it is also devoid of life—it lacks zest. Compare this with “Got it!” This version is
-alive. It creates a mental image of a person who is committed and engaged with the conversation.
+the messages. Let’s take for example the reply _“Got it.”_ This short message is concise and
+clear. However, it is also devoid of life; it lacks zest. Compare this with _“Got it!”_ This version
+is alive. It creates a mental image of a person who is committed and engaged with the conversation.
 
 
 Body language
@@ -110,7 +112,7 @@ Body language
 
 When our physical bodies convey messages that are not congruent to what we are speaking, an
 imbalance occurs. This creates confusion, and sometimes, frustration. If our speech is the sound
-that comes out of our mouths, our bodies are our shell. Without a stable shell, our messages get
+that comes out of our mouths, our bodies are our shells. Without a stable shell, our messages get
 lost.
 
 
@@ -118,7 +120,7 @@ lost.
 
 Consider this: as you are communicating with someone, he moves his body away from you. What message
 does it send you? Compare this with someone, who leans forward to listen to you. What happened is
-that the mere act of moving forward reduces the distance between the origin of the sound—his mouth
+that the mere act of moving forward reduces the distance between the origin of the sound—his mouth,
 to the destination of the sound—your ears. In terms of the speed at which sound travels on average
 on air, this distance is negligible. However, it means a lot to the one who is speaking. You
 signal to him that you are committed to receiving his messages. You show that you are actively
@@ -153,12 +155,11 @@ instead.
 
 ### Adapt to every person
 
-Do not take a one-size-fits-all approach—like a T-shirt. Just because your usual method works
-with another person, doesn’t mean it is right for him. Or, just because you are so used with the
+Do not take a one-size-fits-all approach—like a T-shirt. Just because your usual method works with
+another person, doesn’t mean it is right for him. Or, just because you are so used with the
 communication methods that you use on a daily basis with people that you interact with daily,
-doesn’t mean that you should use them everywhere. Don’t use your wood saw with iron
-shackles. Understand what makes a person tick. Know their interests. Do not underestimate the power
-of small talk.
+doesn’t mean that you should use them everywhere. Don’t use your wood saw with iron bars. Understand
+what makes a person tick. Know their interests. Do not underestimate the power of small talk.
 
 
 ### Listen more

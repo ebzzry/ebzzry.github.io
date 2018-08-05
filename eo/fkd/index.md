@@ -3,13 +3,14 @@ La Pensoj de Pedanto
 
 <div class="center">[Esperante](#) · [English](/en/)</div>
 <div class="center">la 27-an de Aprilo 2017</div>
-<div class="center">Laste ŝanĝita: la 1-an de Aŭgusto 2018</div>
+<div class="center">Laste ŝanĝita: la 5-an de Aŭgusto 2018</div>
 
 <img src="/bil/pluvis.jpg" class="banner" alt="pluvis.jpg" title="En la vizaĝo de la kosmo, ni ĉiuj porĉiame estas infanoj." />
 
 <div class="text-right">Retejo pri komputiko, hominklinaĵoj, kaj hazardaĵoj.</div>
-<div class="text-right">Eroj ordigitas laŭ inverskronologiordo. La steligiteroj sonartikolan version havas.</div>
+<div class="text-right">Eroj ordigitas laŭ inverskronologiordo. Aŭdversion la steligitaj eroj havas.</div>
 
+- [Kiel Komuniki Kiel Homo](homo)
 - [Enkonduko al Sofismoj](sofismoj)
 - [Esperantaj Signoj Linukse](eo-linukse)
 - [Signoj kaj Interpunkcioj (Mallongigite)](signoj-interpunkcioj-mallongigite)
