@@ -10,6 +10,7 @@ La Pensoj de Pedanto
 <div class="text-right">Retejo pri komputiko, hominklinaĵoj, kaj hazardaĵoj.</div>
 <div class="text-right">Eroj ordigitas laŭ inverskronologiordo. Aŭdversion la steligitaj eroj havas.</div>
 
+- [Divido en Haskelo](divido)
 - [Kiel Komuniki Kiel Homo](homo)
 - [Enkonduko al Sofismoj](sofismoj)
 - [Esperantaj Signoj Linukse](eo-linukse)
