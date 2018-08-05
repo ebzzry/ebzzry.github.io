@@ -3,7 +3,7 @@ Usync-e Sinkronigi Retnodojn
 
 <div class="center">[Esperante](#) · [English](/en/usync)</div>
 <div class="center">la 7-an de Februaro 2018</div>
-<div class="center">Laste ŝanĝita: la 20-an de Marto 2018</div>
+<div class="center">Laste ĝisdatigita: la 20-an de Marto 2018</div>
 
 >Kion mi ne povas krei, mi ne komprenas.<br>
 >―Richard P. FEYNMAN

@@ -3,7 +3,7 @@ Mia Kinezia Avantaĝa Aranĝo
 
 <div class="center">[Esperante](#) · [English](/en/advantage)</div>
 <div class="center">la 12-an de Julio 2018</div>
-<div class="center">Laste ŝanĝita: la 22-an de Julio 2018</div>
+<div class="center">Laste ĝisdatigita: la 22-an de Julio 2018</div>
 
 >La doloro neeviteblas. La suferado malnepras.<br>
 >―M. Kathleen CASEY

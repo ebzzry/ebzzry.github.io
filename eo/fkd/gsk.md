@@ -3,7 +3,7 @@ Agordi je GPG kaj je SSH en KDE-o
 
 <div class="center">[Esperante](#) · [English](/en/gsk)</div>
 <div class="center">la 19-an de Februaro 2018</div>
-<div class="center">Laste ŝanĝita: la 20-an de Marto 2018</div>
+<div class="center">Laste ĝisdatigita: la 20-an de Marto 2018</div>
 
 >Ne tute estas grave por prave atingi tion en la unua fojo. Estas vitale grava atingi tion en la
 >lasta tempo.<br>

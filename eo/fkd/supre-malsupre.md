@@ -3,7 +3,7 @@ Supre, Malsupre, kaj Aliloke
 
 <div class="center">[Esperante](#) · [English](/en/over-under)</div>
 <div class="center">la 2-an de Decembro 2017</div>
-<div class="center">Laste ŝanĝita: la 1-an de Aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 1-an de Aŭgusto 2018</div>
 
 <div class="center">
 <iframe src="https://drive.google.com/file/d/1J9AmuhZBETa5ATsHbuZQdvuvJt6XYZ96/preview" height="64"></iframe>
