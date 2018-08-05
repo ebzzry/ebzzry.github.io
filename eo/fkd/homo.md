@@ -3,7 +3,7 @@ Kiel Komuniki Kiel Homo
 
 <div class="center">[Esperante](#) · [English](/en/human)</div>
 <div class="center">la 3-an de Aŭgusto 2018</div>
-<div class="center">Laste ŝanĝita: la 5-an de Aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 5-an de Aŭgusto 2018</div>
 
 >La kapablo por paroli ne igas onin saĝa.<br>
 >―Qui-gon JINN

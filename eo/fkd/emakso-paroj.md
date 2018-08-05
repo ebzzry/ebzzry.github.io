@@ -3,7 +3,7 @@ Emakso kaj Paroj
 
 <div class="center">[Esperante](#) · [English](/en/emacs-pairs)</div>
 <div class="center">la 9-an de Julio 2018</div>
-<div class="center">Laste ŝanĝita: la 9-an de Julio 2018</div>
+<div class="center">Laste ĝisdatigita: la 9-an de Julio 2018</div>
 
 >La blanka bruo kiu batas ene la blanka mallumo estas la ritmo de la vivo; estas la pulso kiu
 >neniam vere foriris la podion.<br>
