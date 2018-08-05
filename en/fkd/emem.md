@@ -1,8 +1,9 @@
 Converting Markdown to HTML with emem
 =====================================
 
+<div class="center">[Esperante](/eo/emem-o) · [English](#)</div>
 <div class="center">March 12, 2017</div>
-<div class="center">Last updated: October 18, 2017</div>
+<div class="center">Last updated: August 5, 2018</div>
 
 >The answers you seek you will never find until you stop looking outside and start looking for them
 >within yourself.<br>
@@ -20,8 +21,8 @@ that takes in Markdown input either from stdin or disk file, then it produces a 
 decent enough, at least, for regular viewing.
 
 
-Table of contents
------------------
+<a name="toc"></a>Table of contents
+-----------------------------------
 
 - [Installation](#installation)
 - [Usage](#usage)
@@ -31,18 +32,14 @@ Table of contents
 <a name="installation"></a> Installation
 ----------------------------------------
 
-emem is available via [Nix](https://nixos.org/nix/). If you don’t have Nix yet, you may install it
+Emem is available via [Nix](https://nixos.org/nix/). If you don’t have Nix yet, you may install it
 with:
 
-```bash
-$ curl https://nixos.org/nix/install | bash
-```
+    $ curl https://nixos.org/nix/install | bash
 
 You may then install emem with:
 
-```bash
-$ nix-env -i emem
-```
+    $ nix-env -i emem
 
 If you’re unable to install Nix and you have Java installed, you may instead create ad-hoc script:
 
@@ -58,11 +55,9 @@ $ chmod +x ~/bin/emem
 
 When you’re done installing it, you may check the version number with:
 
-```bash
-$ emem --version
-```
+    $ emem --version
 
-The latest version is `0.2.48`.
+The latest version is `0.2.50`.
 
 
 <a name="usage"></a> Usage
@@ -72,9 +67,7 @@ At the most basic level, simply running emem against a Markdown file produces a 
 HTML file with all the necessary resources for correct page display. Applying emem on a file named
 `README.md`:
 
-```bash
-$ emem README.md
-```
+    $ emem README.md
 
 will create the following tree:
 
@@ -89,9 +82,7 @@ README.md
 
 While, running emem like so:
 
-```bash
-$ emem -s README.md
-```
+    $ emem -s README.md
 
 will create the following tree:
 
@@ -104,9 +95,9 @@ The `-s` option, removes the need to create a separate resource directory, and
 stuffs all the resources needed into the output file making it easy and conducive to view the output
 documents on devices like phones and tablets.
 
-Take note that the document title that will be used is the basename of the input file. So, for
-`README.md`, it will generate `<title>README.md</title>` in the head tag. If you format your Markdown
-files, such that the first two lines look like:
+Take note that the document title inside the file will be used is the basename of the input
+file. So, for `README.md`, it will generate `<title>README.md</title>` in the head tag. If you
+format your Markdown files, such that the first two lines look like:
 
 ```
 Foo Bar
@@ -115,48 +106,36 @@ Foo Bar
 
 the first line will serve as the document title. To do so, run:
 
-```bash
-$ emem -F README.md
-```
+    $ emem -F README.md
 
 resulting to `<title>Foo Bar</title>`.
 
 That’s all nice and dandy, but if you want to create just a rudimentary document without all the
 bells and whistles, use the plain mode:
 
-```bash
-$ emem -Rp README.md
-```
+    $ emem -Rp README.md
 
-The `-R` option instructs emem not to build the resource files, while the `-p` removes CSS and
-JavaScript.
+The `-R` option instructs emem not to build the resource files, while the `-p` option removes CSS
+and JavaScript.
 
 If you want to change the name of the output file, use `-o`:
 
-```bash
-$ emem -o my-file.html README.md
-```
+    $ emem -o my-file.html README.md
 
-If you have Markdown files in `~/Desktop`, you can convert them all to HTML in one fell swoop:
+If you have Markdown files in `~/Desktop/`, you can convert them all to HTML in one fell swoop:
 
-```bash
-$ emem ~/Desktop
-```
+    $ emem ~/Desktop
 
 If you don’t like the default page width—40 em—use `-f` to use the available browser
 page display width:
 
-```bash
-$ emem -f README.md
-```
+    $ emem -f README.md
 
 A feature that I like a lot is merging. This allows one to combine multiple files into a
 single output. For example, if you have `foo.md`, `bar.md`, and `baz.md`, you can merge them
 together to `index.html` with `-m`:
 
-```bash
-$ emem -mo index.html foo.md bar.md baz.md
-```
+    $ emem -mo index.html foo.md bar.md baz.md
 
 If you are publishing for the web, it is imperative that you specify values for the description and
 keyword meta attributes. You may do so with the `-D` and `-K` options,
@@ -168,9 +147,7 @@ $ emem -D 'A diary about lobsters and crabs' \
 ```
 
 It is also possible to insert arbitrary content in the head tag with the `-H` option. For example,
-to specify [OGP](http://ogp.me/) values:
-
-To use [Open Graph Protocol](http://ogp.me/) values:
+to specify [Open Graph Protocol](http://ogp.me/) values:
 
 ```bash
 $ emem -D Meh -K 'foo, bar, baz' \
@@ -181,17 +158,13 @@ README.md
 
 If you want to use Google Analytics, specify your 9-digit code, including the hyphen::
 
-```bash
-$ emem -D Foo -K 'qux, quux' -A 12345678-9 README.md
-```
+    $ emem -D Foo -K 'qux, quux' -A 12345678-9 README.md
 
 If the contents of the site is predominantly not in English, it is good to specify what language it
 is, to help search engines index your site properly; it also helps software, like screen readers,
 determine what language to use for the speech. For this, use the `-l` option:
 
-```bash
-$ emem -D 'Kie estas ĝin' -K 'kukurboj, hundegoj, afiŝoj' -l eo README.md
-```
+    $ emem -D 'Kie estas ĝin' -K 'kukurboj, hundegoj, afiŝoj' -l eo README.md
 
 A complete list of the supported languages of modern browsers can be
 found [here](https://www.w3schools.com/tags/ref_language_codes.asp).
@@ -200,30 +173,22 @@ There are times when I don’t want to break the edit loop when working with the
 just want the HTML files to be created whenever there are new changes to the source Markdown
 files. In that scenario, I invoke the continuous build mode, with the `-c` option:
 
-```bash
-$ emem -c README.md
-```
+    $ emem -c README.md
 
 The other options can be mixed with `-c` to fine-tune the output. For example, to build plain output
 in continuous mode:
 
-```bash
-$ emem -Rpc README.md
-```
+    $ emem -Rpc README.md
 
 emem checks for changes to `README.md` every 200 ms. If a change was detected, it will rebuild
 `README.html`. The timeout between checks can be changed with the `-t` option. To specify
 a 1 min timeout:
 
-```bash
-$ emem -Rpc -t 1000 README.md
-```
+    $ emem -Rpc -t 1000 README.md
 
 To view all the supported options:
 
-```bash
-$ emem --help
-```
+    $ emem --help
 
 
 <a name="closing"></a> Closing remarks
@@ -240,7 +205,6 @@ it’s a different story for me.
 
 I’m quite happy with the output that emem produces. It’s fast enough and I can extend it easily. I
 even use it for my personal and work documentation. I also use it with Emacs to create a web
-previews of Markdown buffers using [shell-command](https://www.gnu.org/software/emacs/manual/html_node/elisp/Synchronous-Processes.html) and w3m. To see emem in actual usage, go [here](https://github.com/ebzzry/ebzzry.github.io/blob/master/Makefile).
-
+previews of Markdown buffers using [shell-command](https://www.gnu.org/software/emacs/manual/html_node/elisp/Synchronous-Processes.html) and [emacs-w3m](https://www.emacswiki.org/emacs/emacs-w3m). To see emem in actual usage, go [here](https://github.com/ebzzry/ebzzry.github.io/blob/master/Makefile).
 
 If you know a bit of Clojure, [fork it](https://github.com/ebzzry/emem/) and hack away!
