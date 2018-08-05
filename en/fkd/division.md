@@ -1,8 +1,9 @@
 Division in Haskell
 ===================
 
+<div class="center">[Esperante](/eo/divido) · [English](#)</div>
 <div class="center">March 8, 2017</div>
-<div class="center">Last updated: March 27, 2017</div>
+<div class="center">Last updated: August 5, 2018</div>
 
 While learning about division in Haskell, I realized that the concept is not as trivial as I
 initially wanted it to be. There are subtle differences between the functions that can easily trip
