@@ -3,7 +3,7 @@ La Ipsilonkombinatoro en Ses Paŝoj
 
 <div class="center">[Esperante](#) · [English](/en/y)</div>
 <div class="center">la 25-an de Novembro 2017</div>
-<div class="center">Laste ŝanĝita: la 20-an de Marto 2018</div>
+<div class="center">Laste ĝisdatigita: la 20-an de Marto 2018</div>
 
 >Unue, decidu. Kaj faru ĝin. Estas la nur maniero por atingi ion.<br>
 >―Lacus CLYNE, Gundam SEED Destiny

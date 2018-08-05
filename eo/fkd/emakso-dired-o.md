@@ -3,7 +3,7 @@ Mastrumi Dosierujojn Emakse
 
 <div class="center">[Esperante](#) · [English](/en/emacs-dired)</div>
 <div class="center">la 12-an de Februaro 2018</div>
-<div class="center">Laste ŝanĝita: la 12-an de Februaro 2018</div>
+<div class="center">Laste ĝisdatigita: la 12-an de Februaro 2018</div>
 
 >Supozi estas bona, tamen eltrovi estas pli bona.<br>
 >―Samuel CLEMENS

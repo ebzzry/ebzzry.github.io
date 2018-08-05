@@ -3,7 +3,7 @@ La Pensoj de Pedanto
 
 <div class="center">[Esperante](#) · [English](/en/)</div>
 <div class="center">la 27-an de Aprilo 2017</div>
-<div class="center">Laste ŝanĝita: la 5-an de Aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 5-an de Aŭgusto 2018</div>
 
 <img src="/bil/pluvis.jpg" class="banner" alt="pluvis.jpg" title="En la vizaĝo de la kosmo, ni ĉiuj porĉiame estas infanoj." />
 

@@ -3,7 +3,7 @@ Emem-e Konverti na Markdown al HTML
 
 <div class="center">[Esperante](#) · [English](/en/emem)</div>
 <div class="center">la 5-an de Aŭgusto 2018</div>
-<div class="center">Laste ŝanĝita: la 5-an de Aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 5-an de Aŭgusto 2018</div>
 
 >Oni ne trovos la respondojn kiujn oni serĉas ĝis oni haltas serĉi ekster kaj komenciĝas serĉi ilin
 >el oni mem.<br>

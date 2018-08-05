@@ -3,7 +3,7 @@ Signoj kaj Interpunkcioj (Mallongigite)
 
 <div class="center">[Esperante](#) · [English](/en/symbols-marks-condensed)</div>
 <div class="center">la 21-an de Julio 2018</div>
-<div class="center">Laste ŝanĝita: la 21-an de Julio 2018</div>
+<div class="center">Laste ĝisdatigita: la 21-an de Julio 2018</div>
 
 La tabelo ĉi-sube estas la mallongigita versio de [Signoj kaj Interpunkcioj](/eo/signoj-interpunkcioj).
 

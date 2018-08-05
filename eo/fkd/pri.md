@@ -3,7 +3,7 @@ Pri
 
 <div class="center">[Esperante](#) · [English](/en/about)</div>
 <div class="center">la 27-an de Aprilo 2017</div>
-<div class="center">Laste ŝanĝita: la 28-an de Julio 2018</div>
+<div class="center">Laste ĝisdatigita: la 28-an de Julio 2018</div>
 
 <img style="margin-right: 0.5em; margin-bottom: 0.5em;" src="/bil/identicon.png" alt="identicon.png" title="Ve!" align="left" />
 
