@@ -187,6 +187,10 @@ tempolimon precizigi:
 
     $ emem -Rpc -t 1000 MINLEGU.md
 
+Kutime na emem mi kuras jene:
+
+    $ emem -Fis dosiero.md
+
 Por ĉiom da subtenitaj opcioj vidi:
 
     $ emem --help
