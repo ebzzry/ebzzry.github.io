@@ -186,6 +186,10 @@ a 1 min timeout:
 
     $ emem -Rpc -t 1000 README.md
 
+Usually I run emem thus:
+
+    $ emem -Fis file.md
+
 To view all the supported options:
 
     $ emem --help
