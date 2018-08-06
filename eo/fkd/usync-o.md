@@ -1,4 +1,4 @@
-Usync-e Sinkronigi Retnodojn
+Retnodojn Usync-e Sinkronigi
 ============================
 
 <div class="center">[Esperante](#) · [English](/en/usync)</div>
