@@ -10,15 +10,15 @@ Emem-e Konverti na Markdown al HTML
 >―Memory GATEKEEPER, Ergo Proxy
 
 Manieron por HTML-ajn dokumentojn krei el miaj Markdown-aj dosieroj mi ĉiam estas volinta. Komence,
-HTML-aj dosieroj el miaj tekstaj dosieroj mi nur volis havi por ke ilin mi povas vidi per mia
+HTML-ajn dosierojn el miaj tekstaj dosieroj mi nur volis havi por ke ilin mi povas vidi per mia
 poŝtelefono. Poste, manieron por tiujn dosierojn krei por ke ilin mi povas alŝuti al la interreto
 kaj ilin vidi sur aliaj aparatoj. Jam ekzistas iloj por ja tion fari. Ilin mi provis, tamen min mem
 mi trovis la eligon ŝanĝi ofte nur por ilin igas akcepteblaj. Neniuj da ili konformiĝis al mia
 kriterio: facile por munti, facile por uzi, kaj decan eligon realigas.
 
 Na [emem](https://github.com/ebzzry/emem) mi skribis kiel respondo al tiuj bezonoj. Emem estas
-malgranda ilo kiu Markdown-ajn dosierojn ricevas aŭ el «stdin» aŭ diska dosiero, tiam HTML-an eligon
-liveras kiu estas sufiĉe deca, almenaŭ por kutima rigardado.
+malgranda ilo kiu Markdown-ajn dosierojn ricevas aŭ el la ĉefenigujo aŭ diska dosiero, tiam HTML-an
+eligon liveras kiu estas sufiĉe deca, almenaŭ por kutima rigardado.
 
 
 <a name="et"></a>Enhavotabelo
@@ -98,14 +98,14 @@ aparatoj kiel poŝtelefonoj kaj tabuletoj.
 
 Tenu en la kalkulo, ke la dokumentotitolo ene la dosiero estos uzita kiel la baznomo de la
 dosiero. Do, de `MINLEGU.md`, na `<title>MINLEGU.md</title>` liveras en la HEAD-a etikedo. Se la
-Markdown-ajn dosierojn oni strukturas tia, kela unuaj du linioj aspektas kiel:
+Markdown-ajn dosierojn oni strukturas tia, ke la unuaj du linioj aspektas kiel:
 
 ```
 Foo Bar
 =======
 ```
 
-tiam la unua linio funkcias kiel la dokumentotitolo, Por tiel fari, kuru:
+tiam la unua linio funkcias kiel la dokumentotitolo. Por tiel fari, kuru:
 
     $ emem -F MINLEGU.md
 
@@ -116,8 +116,8 @@ senornaman reĝimon uzu:
 
     $ emem -Rp MINLEGU.md
 
-La `-R` opcio instruas al emem la risurcajn dosierojn ne krei, dum la CSS-ajn stilojn kaj
-Ĝavoskripton la `-p` opcio forigas.
+La `-R` opcio instruas al emem la risurcajn dosierojn ne krei, kaj la CSS-ajn stilojn kaj
+ĝavoskripton la `-p` opcio forigas.
 
 Se la nomon de la eliga dosiero oni volas ŝanĝi, la `-o` opcion uzu.
 
@@ -128,7 +128,7 @@ dosireoj en unu falplonĝo:
 
     $ emem ~/Desktop
 
-La le defaŭltan larĝecon oni ne ŝatas—40 em—uzu na `-f` por la disponan retumilan paĝan ekranan
+Se la defaŭltan larĝecon oni ne ŝatas—40 em—uzu na `-f` por la disponan retumilan paĝan ekranan
 larĝecon uzi:
 
     $ emem -f MINLEGU.md
@@ -143,8 +143,9 @@ Se oni planas eldoni por la TTT, estas grave, ke la valorojn de la priskriba kaj
 meta-atribuoj oni provizas. Ĝin oni povas fari per la `-D` kaj `-K` opcioj, respektive:
 
 ```bash
-$ emem -D 'Retero pri omaroj kaj kraboj \
--K 'omaroj, kraboj, blogo, ĵurnalo, retejo, maromanĝoj, monstroj' MINLEGU.md
+$ emem -D 'Retejo pri omaroj kaj kraboj \
+-K 'omaroj, kraboj, blogo, ĵurnalo, retejo, maromanĝoj, monstroj' \
+MINLEGU.md
 ```
 
 Ankaŭ eblas por ajnan enhavon meti en la HEAD-a etikedo per -a `-H` opcio. Ekzemple, por la
