@@ -3,7 +3,7 @@ Mia Kinezia Avantaĝa Aranĝo
 
 <div class="center">[Esperante](#) · [English](/en/advantage)</div>
 <div class="center">la 12-an de Julio 2018</div>
-<div class="center">Laste ĝisdatigita: la 22-an de Julio 2018</div>
+<div class="center">Laste ĝisdatigita: la 6-an de Aŭgusto 2018</div>
 
 >La doloro neeviteblas. La suferado malnepras.<br>
 >―M. Kathleen CASEY
@@ -16,7 +16,7 @@ margin-right: auto;" alt="Kinezia Avantaĝo" title="Kinezia Avantaĝo"/>
 -----------------------------
 
 - [Superrigardo](#superrigardo)
-- [Antaŭe](#antaŭe)
+- [Antaŭe](#antauxe)
 - [Poste](#poste)
 - [Agordo](#agordo)
 - [Finrimarkoj](#finrimarkoj)
@@ -40,8 +40,8 @@ Bedaŭrinde, la defaŭlta aranĝo de la klavoj ne konvenas por mi. La <kbd>Ctrl<
 Emakso kaj Ziŝo.
 
 
-<a name="antaŭe"></a>Antaŭe
----------------------------
+<a name="antauxe"></a>Antaŭe
+----------------------------
 
 Jam ekzistas dvoraka reĝimo, kiu estas enkonstruita en la klavaro. En ĉi tiu reĝimo, la dvorakan
 reĝimon oni povas ŝalti sen iun ajn programon uzi per na <kbd>Progrm + Shift + F5</kbd> premi. Oni

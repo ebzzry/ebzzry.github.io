@@ -3,7 +3,7 @@ Migri de LiveJournal al Frog-o
 
 <div class="center">[Esperante](#) · [English](/en/livefrog)</div>
 <div class="center">la 7-an de Februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 20-an de Marto 2018</div>
+<div class="center">Laste ĝisdatigita: la 6-an de Aŭgusto 2018</div>
 
 >Mi ne scias kien mi iras, sed mi estas sur mia vojo.<br>
 >―Carl SAGAN
@@ -23,7 +23,7 @@ estas mia malforta provo por atingi tiun celon.
 - [Instalo](#instalo)
 - [Bazaj aferoj](#bazaj)
 - [Komentoj](#komentoj)
-- [Ĝisdatigo](#ĝisdatigo)
+- [Ĝisdatigo](#gxisdatigo)
 - [Finrimarkoj](#finrimarkoj)
 
 
@@ -142,8 +142,8 @@ Por krei tiel dosieron, nomata kiel `comments.xml`, kun `foo.bar.com` kiel la ra
 Ĉi tiu uzatos per <https://import.disqus.com>.
 
 
-<a name="ĝisdatigo"></a>Ĝisdatigo
----------------------------------
+<a name="gxisdatigo"></a>Ĝisdatigo
+----------------------------------
 
 Se oni instalis livefrog-on per Planet2, oni povas ĝisdatigi ĝin per kuri:
 

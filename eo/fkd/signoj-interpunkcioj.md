@@ -26,7 +26,7 @@ premas.
 
 - [Notoj por linukso](#notojporlinukso)
 - [Streketoj](#streketoj)
-- [Ĝis-strekoj](#ĝis-strekoj)
+- [Ĝis-strekoj](#gxisstrekoj)
 - [Haltostrekoj](#haltostrekoj)
 - [Duoblaj citiloj](#duoblajcitiloj)
 - [Unuoblaj citiloj](#unuoblajcitiloj)
@@ -117,7 +117,7 @@ Oni esprimas:
 - ĝis-strekoj
 
 
-<a name="ĝis-strekoj"></a>Ĝis-strekoj (–)
+<a name="gxisstrekoj"></a>Ĝis-strekoj (–)
 -----------------------------------------
 
 - Linukse: <kbd>🐧</kbd> + <kbd>-</kbd>

@@ -3,7 +3,7 @@ Enkonduko al Sofismoj
 
 <div class="center">[Esperante](#) · [English](/en/fallacies)</div>
 <div class="center">la 29-an de Julio 2018</div>
-<div class="center">Laste ĝisdatigita: la 3-an de Aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 6-an de Aŭgusto 2018</div>
 
 >Lerni ne estas necesa; nek estas travivi.<br>
 >―W. Edwards DEMING
@@ -24,28 +24,28 @@ bezonas.
 
 - [Post ĉi tio, do, konsekvence de ĉi tio](#post)
 - [Dum ĉi tio, do, ankaŭ de ĉi tio](#dum)
-- [Kontraŭpersone](#kontraŭpersone)
+- [Kontraŭpersone](#kontrauxpersone)
 - [Ankaŭ vi](#ankaŭvi)
 - [Malsimpla demando](#malsimplademando)
 - [Falsa dilemo](#falsadilemo)
 - [Falsa kompromiso](#falsakompromiso)
 - [Hasta ĝeneraligo](#hasta)
 - [Balaema ĝeneraligo](#balaema)
-- [Ŝarĝo de pruvo](#ŝarĝo)
+- [Ŝarĝo de pruvo](#sxargxo)
 - [Glata inklino](#glata)
 - [Ruĝa haringo](#ruĝaharingo)
 - [Pajlohoma argumento](#pajlohamo)
-- [Apelo al aĝo](#aĝo)
-- [Apelo al servodaŭro](#servodaŭro)
-- [Apelo al aŭtoriteco](#aŭtoriteco)
-- [Apelo al anonima aŭtoritato](#anonimaaŭtoritato)
-- [Apelo al falsa aŭtoritato](#falsaaŭtoritato)
+- [Apelo al aĝo](#agxo)
+- [Apelo al servodaŭro](#servodauxro)
+- [Apelo al aŭtoriteco](#auxtoriteco)
+- [Apelo al anonima aŭtoritato](#anonimaauxtoritato)
+- [Apelo al falsa aŭtoritato](#falsaauxtoritato)
 - [Apelo al populareco](#populareco)
 - [Apelo al la naturo](#naturo)
 - [Apelo al la emocio](#emocio)
 - [Apelo al forto](#forto)
 - [Apelo al tradicio](#tradicio)
-- [Apelo al devenoj](#denevoj)
+- [Apelo al devenoj](#devenoj)
 - [Apelo al la estonteco](#estonteco)
 - [Apelo al kompliko](#kompliko)
 - [Apelo al ekvilibro](#ekvilibro)
@@ -86,8 +86,8 @@ okazis kune ĝi devas rilati.
 magio ŝi ne konsideris.
 
 
-<a name="kontraŭpersone"></a>Kontraŭpersone
--------------------------------------------
+<a name="kontrauxpersone"></a>Kontraŭpersone
+--------------------------------------------
 
 Ĉi tio okazas kiam anstataŭ kazon prezenti kontraŭe argumento, persono A estas atakita persone per
 persono B. Ĉi tio estas farita por la personon A malkreditigi baziĝita sur kio ri estas anstataŭ la
@@ -179,8 +179,8 @@ La parolanto jam rezignis per la ebleco ke tia globskribilo povas ekzisti, en un
 kiujn ri ne ankoraŭ vizitis.
 
 
-<a name="ŝarĝo"></a>Ŝarĝo de pruvo
-----------------------------------
+<a name="sxargxo"></a>Ŝarĝo de pruvo
+------------------------------------
 
 Ĉi tio estas fifarita kiam la respondenco por pruvon provizi ne kuŝas per persono A, la iu kiu
 asertojn faras, sed per persono B, por la asertojn de persono A refuti.
@@ -236,8 +236,8 @@ La pozicion de Karlo Petro falsreprezentis kiel: “Popolo devas fordoni trinkad
 ne estas kion Karlo diris.
 
 
-<a name="aĝo"></a>Apelo al aĝo
-------------------------------
+<a name="agxo"></a>Apelo al aĝo
+-------------------------------
 
 Ĉi tio estas fifarita kiam estas disputite, ke tre malnovaj aŭ tre novaj argumentoj estas
 superaj. Ĉi tiuj estas ofte rimarkitaj en merkatado kaj reklamado.
@@ -249,8 +249,8 @@ superaj. Ĉi tiuj estas ofte rimarkitaj en merkatado kaj reklamado.
 aŭ nova ne signifas, ke ĝi pli bonas.
 
 
-<a name="servodaŭro"></a>Apelo al servodaŭro
---------------------------------------------
+<a name="servodauxro"></a>Apelo al servodaŭro
+---------------------------------------------
 
 Ĉi tio estas fifarita kiam aĝo de persono estas uzita por la validecon de siaj asertoj subteni. Ĉi
 tio estas kutime aplikita kontraŭe al iu kiu estas pli juna.
@@ -262,8 +262,8 @@ Estas antaŭsupozita ĉi tie, ke nur ĉar iu pli junas al ri, fariĝas iu malpli
 diskutitaj aferoj.
 
 
-<a name="aŭtoriteco"></a>Apelo al aŭtoriteco
---------------------------------------------
+<a name="auxtoriteco"></a>Apelo al aŭtoriteco
+---------------------------------------------
 
 Ĉi tio estas fifarita kiam la agoj, elektoj, kaj vortoj de persono de aŭtoritato, aŭ sperto, estas
 uzitaj por la asertojn de alia persono refuti.
@@ -274,8 +274,8 @@ Nur ĉar iu estas sciencisto, ne signifas ke la [teorion de evoluado](http://not
 subtenas. Estas verŝajne, ke eĉ li estas sciencisto la antaŭmenciitan teorion li ne komprenas.
 
 
-<a name="anonimaaŭtoritato"></a>Apelo al anonima aŭtoritato
------------------------------------------------------------
+<a name="anonimaauxtoritato"></a>Apelo al anonima aŭtoritato
+------------------------------------------------------------
 
 Ĉi tio estas fifarita kiam apelo al aŭtoriteco estas farita, sed la aŭtoritato ne estas nomita. Nun
 estas tre malfacila por la validecon de la asertoj validigi.
@@ -286,8 +286,8 @@ estas tre malfacila por la validecon de la asertoj validigi.
 kiuj estas ĉi tiuj spertuloj precizigi, taktikojn ri uzos por la demandojn eviti.
 
 
-<a name="falsaaŭtoritato"></a>Apelo al falsa aŭtoritato
--------------------------------------------------------
+<a name="falsaauxtoritato"></a>Apelo al falsa aŭtoritato
+--------------------------------------------------------
 
 Ĉi tio estas fifarita kiam apelo al aŭtoriteco estas farita, sed la koncerna aŭtoritato estas ekster
 la regiono de ria fako.
@@ -366,7 +366,7 @@ devigi por blinde observi.
 esti farita sur la fundoj, ke estas tradicia.
 
 
-<a name="denevoj"></a>Apelo al devenoj
+<a name="devenoj"></a>Apelo al devenoj
 --------------------------------------
 
 Ĉi tiu estas fifarita kiam estas antaŭsupozita, ke pli da teniĝo aŭ pezo argumento aŭ parolanto de

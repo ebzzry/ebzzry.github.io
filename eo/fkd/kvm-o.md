@@ -3,7 +3,7 @@ KVM-e Virtualigadi en Linukso
 
 <div class="center">[Esperante](#) · [English](/en/kvm)</div>
 <div class="center">la 3-an de Marto 2018</div>
-<div class="center">Laste ĝisdatigita: la 8-an de Julio 2018</div>
+<div class="center">Laste ĝisdatigita: la 6-an de Aŭgusto 2018</div>
 
 >Se tion oni faras, kion oni ĉiam faras; tion oni akiros, kion oni ĉiam akiras.<br>
 >―Anthony ROBBINS
@@ -21,7 +21,7 @@ pro la uzado de «sudo».
 <a name="et"></a>Enhavotabelo
 -----------------------------
 
-- [Agordaĵo](#agordaĵo)
+- [Agordaĵo](#agordajxo)
   + [Aparataro](#aparataro)
   + [Programaro](#programaro)
 - [Agordo](#agordo)
@@ -29,17 +29,17 @@ pro la uzado de «sudo».
   + [KVM-a grupo](#grupo)
   + [Retkonektado](#retkonektado)
 - [Plenumo](#plenumo)
-  + [La bildon ŝarĝi](#ŝarĝu)
+  + [La bildon ŝarĝi](#sxargxu)
   + [Konekti al la SPICE-a ekrano](#ekrano)
   + [La gastan reton agordi](#gastareto)
 - [La kurtenojn fermi](#kurtenoj)
-  + [La retkonektadon restaŭri](#restaŭri)
-- [Ĉion kolekti](#ĉio)
+  + [La retkonektadon restaŭri](#restauxri)
+- [Ĉion kolekti](#cxio)
 - [Finrimarkoj](#finrimarkoj)
 
 
-<a name="agordaĵo"></a>Agordaĵo
--------------------------------
+<a name="agordajxo"></a>Agordaĵo
+--------------------------------
 
 
 ### <a name="aparataro"></a>Aparataro
@@ -147,7 +147,7 @@ La ĉi-supraj komandoj:
 -----------------------------
 
 
-### <a name="ŝarĝu"></a>La bildon ŝarĝi
+### <a name="sxargxu"></a>La bildon ŝarĝi
 
 La komandon `qemu-kvm` oni nun devas alvoki, la komando kiu ĉion lanĉas. La nomo de la komando eble
 malsamas kun la tiu, kiu estas instalita sur la sistemo.
@@ -238,7 +238,7 @@ DNS-aj serviloj:
 --------------------------------------------
 
 
-### <a name="restaŭri"></a>La retkonektadon restaŭri
+### <a name="restauxri"></a>La retkonektadon restaŭri
 
 Se la retkonektadon oni volas specife restaŭri, la jenan faru.
 
@@ -262,7 +262,7 @@ La ĉi-supraj komandoj:
 6. La regajn dosierojn forviŝos.
 
 
-<a name="ĉio"></a>Ĉion kolekti
+<a name="cxio"></a>Ĉion kolekti
 ------------------------------
 
 Jen ĉiom da komando el supre, kompiligitaj kiel funkcioj, por, ke ilin oni povas kuri komandlinie:

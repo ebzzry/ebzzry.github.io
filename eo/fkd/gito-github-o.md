@@ -3,7 +3,7 @@ Maldaŭra Rondvojaĝo de Gito kaj GitHub-o
 
 <div class="center">[Esperante](#) · [English](/en/git-github)</div>
 <div class="center">la 11-an de Julio 2018</div>
-<div class="center">Laste ĝisdatigita: la 11-an de Julio 2018</div>
+<div class="center">Laste ĝisdatigita: la 6-an de Aŭgusto 2018</div>
 
 >Ĉiujn solvitajn problemon sciu kiel solvi.<br>
 >―Richard P. FEYNMAN
@@ -23,9 +23,9 @@ En ĉi tiu artikolo, la inviton la `$` simbolo reprezentas. Por demonstradaj cel
   + [Komenca uzo](#komenco)
   + [Sekvontaj uzadoj](#sekvontaj)
 - [Enrete labori](#enrete)
-  + [La sekurŝelajn ŝlosilojn generi](#ŝlosiloj)
+  + [La sekurŝelajn ŝlosilojn generi](#sxlosiloj)
   + [La deponejon krei](#deponejonkrei)
-  + [La deponejon ĝisdatigi](#deponejonĝisdatigi)
+  + [La deponejon ĝisdatigi](#deponejongxisdatigi)
   + [Partopreni](#partopreni)
   + [Sinkronigi kun «upstream»](#sinkronigi)
 - [Ŝanĝojn tiri](#tiri)
@@ -122,7 +122,7 @@ Kiel labori kun aliaj programistoj ĉi tiu sekcio priskribas. Na [GitHub](https:
 uzos en ĉi tiu diskuto.
 
 
-### <a name="ŝlosiloj"></a>La sekurŝelajn ŝlosilojn generi
+### <a name="sxlosiloj"></a>La sekurŝelajn ŝlosilojn generi
 
 La mem oni devas esti kapabla por veriĝi al la GitHub-a konto, antaŭ la ŝanĝojn oni povas puŝi. Por
 tion fari, la sekurŝelajn ŝlosilojn oni devas krei. Por tion fari, la jenan komandon kuru. Certigu,
@@ -159,7 +159,7 @@ Oni invitiĝos por la pasfrazon provi kiun oni eniris supre. La enhavon de la de
 deponejo la `git push` komando alŝutas.
 
 
-### <a name="deponejonĝisdatigi"></a>La deponejon ĝisdatigi
+### <a name="deponejongxisdatigi"></a>La deponejon ĝisdatigi
 
 Kiam plu da ŝanĝo oni faris al la deponejo, la ŝanĝojn oni povas puŝi per la jena komando:
 
