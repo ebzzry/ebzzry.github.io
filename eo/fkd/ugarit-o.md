@@ -37,7 +37,7 @@ de teĥnologio, kiu kunmiksas facilecon de uzado kaj sekurecon en unu ilo.
 - [Konsiletoj](#konsiletoj)
   + [Defora dosiersistemo](#defora)
   + [Miksaĵo](#miksajxo)
-- [Notoj](#notoj)
+- [Finrimarkoj](#finrimarkoj)
 
 
 <a name="superrigardo"></a>Superrigardo
@@ -227,8 +227,8 @@ Por ŝalti tre babileman eligon:
     $ ugarit snapshot -:a256 /ugarit/ugarit.conf ...
 
 
-<a name="notoj"></a>Notoj
--------------------------
+<a name="finrimarkoj"></a>Finrimarkoj
+-------------------------------------
 
 Kiam ne fidas la rendimenton de la disko kie oni enmemorigas la dosierkopiojn, malŝalti la
 [locate-ajn kaj updatedb-ajn](http://linux.about.com/od/commands/fl/updatedb-Linux-Command-Unix-Command.htm)

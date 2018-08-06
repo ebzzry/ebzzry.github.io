@@ -1,4 +1,4 @@
-Agordi Retpoŝton Emakse
+Retpoŝton Emakse Agordi
 =======================
 
 <div class="center">[Esperante](#) · [English](/en/emacs-mail)</div>
