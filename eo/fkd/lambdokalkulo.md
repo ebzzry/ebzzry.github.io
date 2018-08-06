@@ -22,7 +22,7 @@ fari tion, kaj evitas tre teĥnikajn temojn, krom se ege bezonatas.
   + [Kion oni devas fari?](#fari)
 - [Etaj paŝoj](#pasxoj)
   + [Funkcioj](#funkcioj)
-  + [variabloj](#variabloj)
+  + [Variabloj](#variabloj)
   + [Funkciapliko](#apliko)
 - [Ni nombru](#nombri)
   + [Komenco](#komenco)

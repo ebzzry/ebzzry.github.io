@@ -3,14 +3,13 @@ La Pensoj de Pedanto
 
 <div class="center">[Esperante](#) · [English](/en/)</div>
 <div class="center">la 27-an de Aprilo 2017</div>
-<div class="center">Laste ĝisdatigita: la 5-an de Aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 6-an de Aŭgusto 2018</div>
 
 <img src="/bil/pluvis.jpg" class="banner" alt="pluvis.jpg" title="En la vizaĝo de la kosmo, ni ĉiuj porĉiame estas infanoj." />
 
-<div class="text-right">Retejo pri komputiko, hominklinaĵoj, kaj hazardaĵoj.</div>
-<div class="text-right">Eroj ordigitas laŭ inverskronologiordo. Aŭdversion la steligitaj eroj havas.</div>
+<div class="text-right">Retejo pri komputiko, hominklinaĵoj, kaj hazardaĵoj. Eroj ordigitas laŭ inverskronologiordo. Aŭdversion la steligitaj eroj havas.</div>
 
-- [Emem-e Konverti na Markdown al HTML](emem-o)
+- [Na Markdown Emem-e Konverti al HTML](emem-o)
 - [Divido en Haskelo](divido)
 - [Kiel Komuniki Kiel Homo](homo)
 - [Enkonduko al Sofismoj](sofismoj)
@@ -28,13 +27,13 @@ La Pensoj de Pedanto
 - [Agordi je GPG kaj je SSH en KDE-o](gsk)
 - [Sekurkopiojn Ugarit-e Krei](ugarit-o)
 - [Frog-e Blogi](frog-o)
-- [Agordi Retpoŝton Emakse](emakso-retposxto)
-- [Agordi Rakidprogramadon Emakse](emakso-rakido)
-- [Mastrumi Dosierujojn Emakse](emakso-dired-o)
+- [Retpoŝton Emakse Agordi](emakso-retposxto)
+- [Rakidprogramadon Emakse Agordi](emakso-rakido)
+- [Dosierujojn Emakse Mastrumi](emakso-dired-o)
 - [Emakskonsiletoj 1-a: Regionoj kaj Markoj](emakskonsiletoj-1-a)
 - [Retrospekte](retrospekte)
 - [Migri de LiveJournal al Frog-o](livefrog-o)
-- [Usync-e Sinkronigi Retnodojn](usync-o)
+- [Retnodojn Usync-e Sinkronigi](usync-o)
 - [Malŝparitaj Malcedemoj](malsxparitaj)
 - [Supre, Malsupre, kaj Aliloke ★](supre-malsupre)
 - [La Ipsilonkombinatoro en Ses Paŝoj](ipsilono)

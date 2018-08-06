@@ -222,7 +222,7 @@ Por plifaciliĝi al kiel ili aperas, ilin pensu kiel flosantaj paroj de sesoj ka
 - ⁶⁶Citita Teksto⁹⁹
 
 
-<a name="unuopajcitiloj"></a>Unuopaj citiloj (‘) (’)
+<a name="unuoblajcitiloj"></a>Unuoblaj citiloj (‘) (’)
 ----------------------------------------------------
 
 Maldekstra unuopa citilo (‘)
@@ -302,7 +302,7 @@ indiki, ke la vortoj ĉi-supre devas esti ripetitaj. Ekzemple:
 - Rozkoloraj ″           ″            ″       ″
 
 
-<a name="Tripunkto"></a>Tripunkto (…)
+<a name="tripunkto"></a>Tripunkto (…)
 -------------------------------------
 
 - Linukse: <kbd>🐧</kbd> + <kbd>.</kbd>

@@ -33,6 +33,7 @@ verbotempoj oni devas lerni. Ilin scii kiel kaj kiam uzi, onin ebligas por ne nu
   + [Perfekte progresiva estonteco](#perfekteprogresivaestonteco)
   + [Perfekte progresiva estanteco](#perfekteprogresivaestanteco)
   + [Perfekte progresiva estinteco](#perfekteprogresivaestinteco)
+- [Finrimarkoj](#finrimarkoj)
 
 
 <a name="simple"></a>Simple
@@ -164,7 +165,7 @@ montras.
 
 
 <a name="finrimarkoj"></a>Finrimarkoj
------------------------------------------
+-------------------------------------
 
 Por ke la plej minimumajn malklaraĵojn ni komuniki, ni devas esti akurataj. Kiam la pravajn
 konstruojn ni uzas, malpligranda da ĉambro de miskompreno ni kreas. Estas la malgrandaj ŝanĝoj en la
