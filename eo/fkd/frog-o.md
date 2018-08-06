@@ -3,7 +3,7 @@ Frog-e Blogi
 
 <div class="center">[Esperante](#) · [English](/en/frog)</div>
 <div class="center">la 16-an de Februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 20-an de Marto 2018</div>
+<div class="center">Laste ĝisdatigita: la 6-an de Aŭgusto 2018</div>
 
 >Unu persono kun ardo estas pli bona ol kvardek personoj nure interesataj.<br>
 >―E.M. FORSTER
@@ -32,7 +32,7 @@ estas kiel mi, daŭru legi.
   - [page-template.html](#page-template.html)
   - [post-template.html](#post-template.html)
   - [bootstrap.css](#bootstrap.css)
-- [Miksaĵo](#miksaĵo)
+- [Miksaĵo](#miksajxo)
 - [Komentoj](#komentoj)
 - [Eldono](#eldono)
 - [Finrimarkoj](#finrimarkoj)
@@ -268,8 +268,8 @@ kaj `bootstrap.min.css` kaj `bootstrap.css`. Poste, kopiu ilin al la CSS-a dosie
     $ cp ~/Downloads/bootstrap.*.css css/
 
 
-<a name="miksaĵo"></a>Miksaĵo
-----------------------------
+<a name="miksajxo"></a>Miksaĵo
+------------------------------
 
 Kiam oni kreis novan afiŝon antaŭe, oni uzis la komandon:
 

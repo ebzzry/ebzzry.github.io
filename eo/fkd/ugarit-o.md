@@ -3,7 +3,7 @@ Sekurkopiojn Ugarit-e Krei
 
 <div class="center">[Esperante](#) · [English](/en/ugarit)</div>
 <div class="center">la 18-an de Februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 19-an de Februaro 2018</div>
+<div class="center">Laste ĝisdatigita: la 6-an de Aŭgusto 2018</div>
 
 >Bona juĝo devenas el sperto, kaj sperto devenas el malbona juĝo.<br>
 >―Fred BROOKS
@@ -36,7 +36,7 @@ de teĥnologio, kiu kunmiksas facilecon de uzado kaj sekurecon en unu ilo.
   + [Rekte eltiri dosierkopiojn](#eltiri)
 - [Konsiletoj](#konsiletoj)
   + [Defora dosiersistemo](#defora)
-  + [Miksaĵo](#miksaĵo)
+  + [Miksaĵo](#miksajxo)
 - [Notoj](#notoj)
 
 
@@ -216,7 +216,7 @@ La samo aplikatas al [SMBFS-aj](https://www.samba.org/samba/smbfs/) surmetoj:
     $ ugarit snapshot /ugarit/ugarit.conf winhost
 
 
-### <a name="miksaĵo"></a>Miksaĵo
+### <a name="miksajxo"></a>Miksaĵo
 
 Por malŝalti eligon kiam krei dosierkopiojn:
 

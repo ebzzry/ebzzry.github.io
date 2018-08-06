@@ -3,7 +3,7 @@ Emakso kaj Paroj
 
 <div class="center">[Esperante](#) · [English](/en/emacs-pairs)</div>
 <div class="center">la 9-an de Julio 2018</div>
-<div class="center">Laste ĝisdatigita: la 9-an de Julio 2018</div>
+<div class="center">Laste ĝisdatigita: la 6-an de Aŭgusto 2018</div>
 
 >La blanka bruo kiu batas ene la blanka mallumo estas la ritmo de la vivo; estas la pulso kiu
 >neniam vere foriris la podion.<br>
@@ -24,7 +24,7 @@ traktas. Ankaŭ iujn ajn kiuj pariĝas ĝi traktas, kaj ilin ĝi traktas stele.
 -----------------------------
 
 - [Instalo](#instalo)
-- [Agordaĵo](#agordaĵo)
+- [Agordaĵo](#agordajxo)
 - [Uzado](#uzado)
   + [Bazaj](#bazaj)
   + [Navigado](#navigado)
@@ -37,7 +37,7 @@ traktas. Ankaŭ iujn ajn kiuj pariĝas ĝi traktas, kaj ilin ĝi traktas stele.
     * [Faldado](#faldado)
     * [Malfaldado](#malfaldado)
     * [Glutado kaj vomado](#glutadokajvomado)
-    * [Interŝanĝado](#interŝanĝado)
+    * [Interŝanĝado](#intersxangxado)
     * [Mortigado](#mortigado)
 - [Klavoj](#klavoj)
 - [Finrimarkoj](#finrimarkoj)
@@ -51,8 +51,8 @@ Na smartparens instali simplas:
     M-x package-install REV smartparens REV
 
 
-<a name="agordaĵo"></a>Agordaĵo
--------------------------------
+<a name="agordajxo"></a>Agordaĵo
+--------------------------------
 
 Na smartparens oni ŝaltu en la startigo, kaj ĝin oni kroĉu al egaj kroĉiloj:
 
@@ -492,7 +492,7 @@ blah [foo bar]
 Na `sp-backward-barf-sexp` plenumu. Ĝin mi bindis al <kbd>M-left</kbd>.
 
 
-#### <a name="interŝanĝado"></a>Interŝanĝado
+#### <a name="intersxangxado"></a>Interŝanĝado
 
 Se la jenan esprimon oni havas:
 

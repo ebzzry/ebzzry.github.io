@@ -3,7 +3,7 @@ Agordi Retpoŝton Emakse
 
 <div class="center">[Esperante](#) · [English](/en/emacs-mail)</div>
 <div class="center">la 14-an de Februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 14-an de Februaro 2018</div>
+<div class="center">Laste ĝisdatigita: la 6-an de Aŭgusto 2018</div>
 
 >Nur tial ke ne fariĝis, ne signifas, ke ne fareblas. Nur tial ke fareblas, ne
 >signifas, ke devus.<br>
@@ -23,26 +23,26 @@ kaj kiel agordi ilin ĝuste. En ĉi tiu lernilo, mi supozas, ke oni akiras siajn
 <a name="et"></a>Enhavotabelo
 -----------------------------
 
-- [Elŝuti mesaĝojn](#elŝuti)
-  + [Instalo](#elŝutiinstalo)
-  + [Agordo](#elŝutiagordo)
-  + [Plenumo](#elŝutiplenumo)
+- [Elŝuti mesaĝojn](#elsxuti)
+  + [Instalo](#elsxutiinstalo)
+  + [Agordo](#elsxutiagordo)
+  + [Plenumo](#elsxutiplenumo)
 - [Legi mesaĝojn](#legi)
   + [Instalo](#legiinstalo)
   + [Agordo](#legiagordo)
   + [Plenumo](#legiplenumo)
-- [Ĉifrado](#ĉifrado)
+- [Ĉifrado](#cxifrado)
 - [Finrimarkoj](#finrimarkoj)
 
 
-<a name="elŝuti"></a>Elŝuti mesaĝojn
-------------------------------------
+<a name="elsxuti"></a>Elŝuti mesaĝojn
+-------------------------------------
 
 Oni bezonas havi manieron por elŝuti siajn retpoŝtojn, el sia retpoŝtservilo. Facile uzebla
 programo, kiu faras tion al si, estas [getmail-o](http://pyropus.ca/software/getmail/).
 
 
-### <a name="elŝutiinstalo"></a>Instalo
+### <a name="elsxutiinstalo"></a>Instalo
 
 Plejofte, getmail-o jam haveblas sur la sistemo per la pako-administrilo:
 
@@ -58,7 +58,7 @@ Tamen, se onia sistemo ne provizas manieron por facile instali getmail-on, oni p
 [hejmpaĝo](http://pyropus.ca/software/getmail/), tiam elŝutu la tar-arĥivon.
 
 
-### <a name="elŝutiagordo"></a>Agordo
+### <a name="elsxutiagordo"></a>Agordo
 
 Sekve, oni bezonas fari sorĉon, por ke getmail-o scias kiel elŝuti siajn aĵojn. Kreu la dosieron
 `~/.getmail/getmailrc`. Krom tio, oni bezonas krei kaj precizigi kien la mesaĝojn iras:
@@ -95,7 +95,7 @@ ke `~/Maildir` estas la defaŭlta dosierujo, kiun la retpoŝta transmeta ilo uzo
 datumon.
 
 
-### <a name="elŝutiplenumo"></a>Plenumo
+### <a name="elsxutiplenumo"></a>Plenumo
 
 Por kontroli, ke oni jam povas elŝuti siajn mesaĝojn, kuru getmail-on:
 
@@ -193,7 +193,7 @@ mesaĝon. La ceteraj komandoj devus esti mem-klarigaj, tamen se oni povas lerni 
 povas legi la [agrablan manlibron](http://www.djcbsoftware.nl/code/mu/mu4e/index.html).
 
 
-<a name="ĉifrado"></a>Ĉifrado
+<a name="cxifrado"></a>Ĉifrado
 -----------------------------
 
 Malnepre oni eble volas aldoni kelkajn alĝustigetojn, por ke, la ĉifrado kaj malĉifrado de mesaĝoj
