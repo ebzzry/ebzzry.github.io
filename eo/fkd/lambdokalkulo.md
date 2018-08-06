@@ -3,7 +3,7 @@ Aboco de la Lambdokalkulo
 
 <div class="center">[Esperante](#) · [English](/en/lambda-calculus)</div>
 <div class="center">la 21-an de Februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 20-an de Marto 2018</div>
+<div class="center">Laste ĝisdatigita: la 6-an de Aŭgusto 2018</div>
 
 >Oni ne vere komprenas ion krom se oni povas klarigi tion al sia avino.<br>
 >―Alberto EJNŜTEJNO
@@ -20,7 +20,7 @@ fari tion, kaj evitas tre teĥnikajn temojn, krom se ege bezonatas.
   + [Kio ĝi estas?](#kio)
   + [Ĉu oni devas lerni ĝin?](#lerni)
   + [Kion oni devas fari?](#fari)
-- [Etaj paŝoj](#paŝoj)
+- [Etaj paŝoj](#pasxoj)
   + [Funkcioj](#funkcioj)
   + [variabloj](#variabloj)
   + [Funkciapliko](#apliko)
@@ -32,8 +32,8 @@ fari tion, kaj evitas tre teĥnikajn temojn, krom se ege bezonatas.
 - [Vereco, malvereco, kaj amikoj](#vereco)
   + [Buleaj](#buleaj)
   + [Logikaj funkciadoj](#logikaj)
-- [Ni nombru malantaŭen](#malantaŭen)
-  + [Antaŭanto](#antaŭanto)
+- [Ni nombru malantaŭen](#malantauxen)
+  + [Antaŭanto](#antauxanto)
   + [Subtraho](#subtraho)
 - [Finrimarkoj](#finrimarkoj)
 - [Fontindikoj](#fontindikoj)
@@ -77,8 +77,8 @@ lambdokalkulo—ni aŭ akcepti ĉi tiujn aksiomojn kaj operaciu en sia domajno, 
 Neverland-o.
 
 
-<a name="paŝoj"></a>Etaj paŝoj
-------------------------------
+<a name="pasxoj"></a>Etaj paŝoj
+-------------------------------
 
 ### <a name="funkcioj"></a>Funkcioj
 
@@ -385,10 +385,10 @@ Ni kontrolu se `¬T` estas jam `F`:
 ```
 
 
-<a name="malantaŭen"></a>Ni nombru malantŭen
+<a name="malantauxen"></a>Ni nombru malantŭen
 --------------------------------------------
 
-### <a name="antaŭanto"></a>Antaŭanto
+### <a name="antauxanto"></a>Antaŭanto
 
 La antaŭanto de nombro difinitas kiel la antaŭa nombro precizigita kiam malantaŭen kalkuli. La motivo
 kial la diskuto pri la antaŭanta funkcio faritas aparte estas, ke ne estas intue por lerni ĝin
