@@ -3,7 +3,7 @@ Retnodojn Usync-e Sinkronigi
 
 <div class="center">[Esperante](#) · [English](/en/usync)</div>
 <div class="center">la 7-an de Februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 20-an de Marto 2018</div>
+<div class="center">Laste ĝisdatigita: la 6-an de Aŭgusto 2018</div>
 
 >Kion mi ne povas krei, mi ne komprenas.<br>
 >―Richard P. FEYNMAN
@@ -30,23 +30,23 @@ fakoj, estis en la unua oficejo. Usync helpas atingi tion. Kreitas per
 <a name="bazuzado"></a>Baza uzado
 ---------------------------------
 
-Por fari ambaŭdirektan sinkronigon de la dosierujo `/pub/yot/ninam`, inter la nuna retnodo al la
+Por fari ambaŭdirektan sinkronigon de la dosierujo `/pub/jot/ninam`, inter la nuna retnodo al la
 retnodoj `tarupam` kaj `taubetmo`, dum konservi la dosierujan strukturon defore, kuru la jenan
 komandon. Notu, ke ne devas ekzisti spacetoj inter la retnodaj precizigoj, pro la `IFS` media
 variablo:
 
-    $ usync /pub/yot/ninam/ tarupam,taubetmo
+    $ usync /pub/jot/ninam/ tarupam,taubetmo
 
 La antaŭ komando faros ambaŭdirektan sinkronigon de la dosierujo `ninam/` troveblas sub `/pub/yot`,
 al `tarupam:/pub/yot/` kaj `taubetmo:/pub/yot/`.
 
 Per la antaŭ ekzemplo, la ambaŭdirekto sinkronigo simple diras, ke se la arbo
-`tarupam:/pub/yot/ninam/` enhavas novajn aŭ ĝisdatigatajn erojn, kontraŭas
-`localhost:/pub/yot/ninam/` kaj `localhost:/pub/yot/ninam/` ankaŭ havas novajn aŭ ĝisdatigatajn
+`tarupam:/pub/jot/ninam/` enhavas novajn aŭ ĝisdatigatajn erojn, kontraŭas
+`localhost:/pub/jot/ninam/` kaj `localhost:/pub/jot/ninam/` ankaŭ havas novajn aŭ ĝisdatigatajn
 erojn, tiam, ili intersanĝigas ĝisdatigojn.
 
-Ideale, la rezulto estas `localhost:/pub/yot/ninam/`, `tarupam:/pub/yot/ninam/`, kaj
-`taubetmo:/pub/yot/ninam/`, estas ĉiuj egalaj.
+Ideale, la rezulto estas `localhost:/pub/jot/ninam/`, `tarupam:/pub/jot/ninam/`, kaj
+`taubetmo:/pub/jot/ninam/`, estas ĉiuj egalaj.
 
 
 <a name="altniveluzado"></a>Altnivela uzado
@@ -55,15 +55,15 @@ Ideale, la rezulto estas `localhost:/pub/yot/ninam/`, `tarupam:/pub/yot/ninam/`,
 Estas ankaŭ ebla fari sinkronigon de pluraj dosieroj kaj dosierujoj, al mallokaj retnodoj. Por
 fari tiel, kuru:
 
-    $ usync /pub/yot/ninam/ ~/file.text ~reyn/*.blend tarupam,taubetmo
+    $ usync /pub/jot/ninam/ ~/file.text ~reyn/*.blend tarupam,taubetmo
 
-La antaŭ komando faros ambaŭdirektan sinkronigon de la dosierindikoj `/pub/yot/ninam/`,
+La antaŭ komando faros ambaŭdirektan sinkronigon de la dosierindikoj `/pub/jot/ninam/`,
 `~/file.text`, kaj `~reyn/*.blend` al la mallokaj retnodoj `tarupam` kaj `taubetmo`, laŭ la sama
 dosieruja struktura sistemo kiu estas priskribita supre.
 
 Se vi volas fari unudirektan sinkronigon de la supraj, kiel _rsync_, kuru:
 
-    $ usync --one-way --prefer-local /pub/yot/ninam/ \
+    $ usync --one-way --prefer-local /pub/jot/ninam/ \
     ~/file.text ~reyn/draft.blend tarupam,taubetmo
 
 
