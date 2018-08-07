@@ -3,7 +3,7 @@ Sekurkopiojn Ugarit-e Krei
 
 <div class="center">[Esperante](#) · [English](/en/ugarit)</div>
 <div class="center">la 18-an de Februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 6-an de aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 7-an de aŭgusto 2018</div>
 
 >Bona juĝo devenas el sperto, kaj sperto devenas el malbona juĝo.<br>
 >―Fred BROOKS
@@ -172,15 +172,15 @@ Por listigi la haveblajn komandojn:
     > help
 
 Per la konsiletoj el la helpa uzado, oni eltiros dosierujon kiu estas parto de la dosierkopio
-antaŭe. Ni supozu, ke la originala vojo de tiu dosierujo estis `bildoj/festo/`. Do, por eltiri la
-dosierujon `festo/` al la nuna dosierujo, kuru:
+antaŭe. Ni supozu, ke la originala vojo de tiu dosierujo estis `bildoj/festeno/`. Do, por eltiri la
+dosierujon `festeno/` al la nuna dosierujo, kuru:
 
 ```
 > cd bil
 /bil> cd current
 /bil/current> cd contents
-/bil/current/contents> get festo
-Extracted festo
+/bil/current/contents> get festeno
+Extracted festeno
 /bil/current/contents> exit
 ```
 
@@ -188,10 +188,10 @@ Extracted festo
 ### <a name="eltiri"></a>Rekte eltiri dosierkopiojn
 
 Tamen, se oni konas la ekzaktan dosierindikon de dosiero aŭ dosierujon kiun si volas eltiri, oni
-povas anstataŭ kuras Ugarit-on kun la eltira reĝimo. Por eltiri la dosierujon `festo/` el supre,
+povas anstataŭ kuras Ugarit-on kun la eltira reĝimo. Por eltiri la dosierujon `festeno/` el supre,
 rekte, kuru:
 
-    $ ugarit extract /ugarit/ugarit.conf /bil/current/contents/festo
+    $ ugarit extract /ugarit/ugarit.conf /bil/current/contents/festeno
 
 
 <a name="konsiletoj"></a>Konsiletoj
