@@ -3,7 +3,7 @@ Kiel Komuniki Kiel Homo
 
 <div class="center">[Esperante](#) · [English](/en/human)</div>
 <div class="center">la 3-an de Aŭgusto 2018</div>
-<div class="center">Laste ĝisdatigita: la 5-an de Aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 5-an de aŭgusto 2018</div>
 
 >La kapablo por paroli ne igas onin saĝa.<br>
 >―Qui-gon JINN
@@ -18,7 +18,7 @@ celbazita aliro, ne gravas se la komunikanto komunikis pli da intentica mesaĝo.
 por moskiton mortigi, estas efektive.
 
 Okazas rendimenta komunikado kiam la ekzakta kiomo de mesaĝo estas alportita—nek pli, nek
-malpi. Ekzemplo estas kiam akuratajn priskribojn oni donas al iu por ion fari, senerare,
+malpi. Ekzemplo estas kiam ekzaktajn priskribojn oni donas al iu por ion fari, senerare,
 senmakule. Erarojn de komunikado ĉi tiu metodo ne permesas.
 
 En ĉi tiu artikolo, mi diskutos kiel komunikadon aliri home. Ĉi tio devias de la psikopatiaj metodoj
@@ -38,7 +38,7 @@ la cetelaj ne niaj vivoj.
 
 ### Homoj, ne maŝinoj
 
-Kiam ni komunikas al maŝinoj—ĉu ili estas programara aŭ aparatara formo—akuratan korespondon inter
+Kiam ni komunikas al maŝinoj—ĉu ili estas programara aŭ aparatara formo—ekzaktan korespondon inter
 niaj intencoj kaj la eligojn kiuj ni deziras el la enigoj ni devas fari. La interagoj kaj la
 rezultoj de tiel, estas komputeblaj kaj antaŭdireblaj.
 
@@ -48,7 +48,7 @@ ni nun havas. Kiam ekzaktajn mesaĝojn ni komunikas, iom da kelkaj faktoroj ni n
 inkluzive la variablecon de interpreto. Nur ĉar kion ni diras al la alia flanko de la komunikado ni
 klare komprenas ne signifas, ke ĝin la alia flanko ankaŭ klare komprenas. Ĉu sufiĉan fonon kaj
 kuntekston al la komunikato ni provizis? Ĉu la mensan bildon de niaj ideoj al la komunikato ni
-akurate transmetis? Ĉu miajn pensajn procezojn ri povas konstrui kiel eble plej mi deziris? Se unu
+ekzakte transmetis? Ĉu miajn pensajn procezojn ri povas konstrui kiel eble plej mi deziris? Se unu
 de tiuj demandoj estas responditaj de ne, kiam ni devas retaksi kiel ni komuniki.
 
 
