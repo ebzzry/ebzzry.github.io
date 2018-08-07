@@ -3,7 +3,7 @@ Verbotempoj en La Angla
 
 <div class="center">[Esperante](#) · [English](/en/verb-tenses)</div>
 <div class="center">la 15-an de Julio 2018</div>
-<div class="center">Laste ĝisdatigita: la 15-an de Julio 2018</div>
+<div class="center">Laste ĝisdatigita: la 15-an de julio 2018</div>
 
 >La kontrasto inter ordinara kaj eksterordinara estas tiu eta pliaĵo.<br>
 >―Jimmy JOHNSON
@@ -167,6 +167,6 @@ montras.
 <a name="finrimarkoj"></a>Finrimarkoj
 -------------------------------------
 
-Por ke la plej minimumajn malklaraĵojn ni komuniki, ni devas esti akurataj. Kiam la pravajn
+Por ke la plej minimumajn malklaraĵojn ni komuniki, ni devas esti precizaj. Kiam la pravajn
 konstruojn ni uzas, malpligranda da ĉambro de miskompreno ni kreas. Estas la malgrandaj ŝanĝoj en la
 aferoj kiujn ni faras, kiuj grandajn kontrastojn faras.
