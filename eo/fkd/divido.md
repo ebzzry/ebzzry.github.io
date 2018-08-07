@@ -3,7 +3,7 @@ Divido en Haskelo
 
 <div class="center">[Esperante](#) · [English](/en/division)</div>
 <div class="center">la 5-an de Aŭgusto 2018</div>
-<div class="center">Laste ĝisdatigita: la 5-an de Aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 5-an de aŭgusto 2018</div>
 
 Kiam lerni pri divido en Haskelo, mi konsciis, ke la koncepto ne estas kiel triviala tiel ĝin mi
 komence volis. Ekzistas subtilaj kontrastoj inter la funkcioj kiu iun povas facile faligi ki ne

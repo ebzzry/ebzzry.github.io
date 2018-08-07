@@ -3,7 +3,7 @@ Enkonduko al Sofismoj
 
 <div class="center">[Esperante](#) · [English](/en/fallacies)</div>
 <div class="center">la 29-an de Julio 2018</div>
-<div class="center">Laste ĝisdatigita: la 6-an de Aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 7-an de aŭgusto 2018</div>
 
 >Lerni ne estas necesa; nek estas travivi.<br>
 >―W. Edwards DEMING
@@ -239,7 +239,7 @@ ne estas kion Karlo diris.
 <a name="agxo"></a>Apelo al aĝo
 -------------------------------
 
-Ĉi tio estas fifarita kiam estas disputite, ke tre malnovaj aŭ tre novaj argumentoj estas
+Ĉi tio estas fifarita kiam estas argumentite, ke tre malnovaj aŭ tre novaj argumentoj estas
 superaj. Ĉi tiuj estas ofte rimarkitaj en merkatado kaj reklamado.
 
 > “Niaj novaj kaj plibonigitaj Super Eferveska Lavpulvoro Z lavas makulojn pli bonas ol la gvidaj
@@ -316,7 +316,7 @@ antaŭjuĝemoj. Elekto estas farita ne pro teĥnikaj meritoj sed pro antaŭjuĝo
 <a name="naturo"></a>Apelo al la naturo
 ---------------------------------------
 
-Ĉi tiu sofismo estas fifarita kiam estas disputite, ke nur io estas natura signifas, ke estas
+Ĉi tiu sofismo estas fifarita kiam estas argumentite, ke nur io estas natura signifas, ke estas
 ideala aŭ bona.
 
 > “Silvja asertas, ke se produktaĵo ne estas etikedita ‘organika’ aŭ ‘natura,’ tiam ĝi ne estas

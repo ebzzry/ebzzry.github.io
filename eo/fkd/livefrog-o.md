@@ -3,7 +3,7 @@ Migri de LiveJournal al Frog-o
 
 <div class="center">[Esperante](#) · [English](/en/livefrog)</div>
 <div class="center">la 7-an de Februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 6-an de Aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 6-an de aŭgusto 2018</div>
 
 >Mi ne scias kien mi iras, sed mi estas sur mia vojo.<br>
 >―Carl SAGAN
