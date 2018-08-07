@@ -3,7 +3,7 @@ Signoj kaj Interpunkcioj
 
 <div class="center">[Esperante](#) · [English](/en/symbols-marks)</div>
 <div class="center">la 16-an de Julio 2018</div>
-<div class="center">Laste ĝisdatigita: la 26-an de Julio 2018</div>
+<div class="center">Laste ĝisdatigita: la 26-an de julio 2018</div>
 
 >Se grandiozon oni volas atingi, konsentojn ĉesu peti.<br>
 >―Eddie COLLA

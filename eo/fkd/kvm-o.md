@@ -3,7 +3,7 @@ KVM-e Virtualigadi en Linukso
 
 <div class="center">[Esperante](#) · [English](/en/kvm)</div>
 <div class="center">la 3-an de Marto 2018</div>
-<div class="center">Laste ĝisdatigita: la 6-an de Aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 6-an de aŭgusto 2018</div>
 
 >Se tion oni faras, kion oni ĉiam faras; tion oni akiros, kion oni ĉiam akiras.<br>
 >―Anthony ROBBINS

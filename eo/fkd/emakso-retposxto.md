@@ -3,7 +3,7 @@ Retpoŝton Emakse Agordi
 
 <div class="center">[Esperante](#) · [English](/en/emacs-mail)</div>
 <div class="center">la 14-an de Februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 6-an de Aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 6-an de aŭgusto 2018</div>
 
 >Nur tial ke ne fariĝis, ne signifas, ke ne fareblas. Nur tial ke fareblas, ne
 >signifas, ke devus.<br>
