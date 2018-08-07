@@ -3,7 +3,7 @@ Verbotempoj en La Angla (Mallongigite)
 
 <div class="center">[Esperante](#) · [English](/en/verb-tenses-condensed)</div>
 <div class="center">la 15-an de Julio 2018</div>
-<div class="center">Laste ĝisdatigita: la 15-an de julio 2018</div>
+<div class="center">Laste ĝisdatigita: la 7-an de aŭgusto 2018</div>
 
 Ĉi tiu artikolo estas la mallongigita versio de [Verbotempoj en La Angla](/eo/verbotempoj-la-angla).
 
@@ -11,15 +11,15 @@ Verbotempoj en La Angla (Mallongigite)
 Simple
 ------
 
-### Estontece: *will create*
+### Future: *will create*
 
 - Maria __will create__ a beautiful painting.
 
-### Estantece: *creates*
+### Prezence: *creates*
 
 - Maria __creates__ beautiful paintings.
 
-### Estintece: *created*
+### Preterite: *created*
 
 - Maria __created__ a beautiful painting.
 
@@ -27,15 +27,15 @@ Simple
 Perfekte
 --------
 
-### Estontece: *will have created*
+### Future: *will have created*
 
 - By the time Juan arrives, Maria __will have created__ a beautiful painting.
 
-### Estantece: *have created*
+### Prezence: *have created*
 
 - Maria __have created__ many beautiful paintings.
 
-### Estintece: *had created*
+### Preterite: *had created*
 
 - By the time Juan arrived, Maria __had created__ a beautiful painting.
 
@@ -43,15 +43,15 @@ Perfekte
 Progresive
 ----------
 
-### Estontece: *will be creating*
+### Future: *will be creating*
 
 - Maria __will be creating__ a beautiful painting next week.
 
-### Estantece: *is creating*
+### Prezence: *is creating*
 
 - Maria __is creating__ a beautiful painting.
 
-### Estintece: *was creating*
+### Preterite: *was creating*
 
 - Maria __was creating__ a beautiful painting, when Juan arrived from school.
 
@@ -59,14 +59,14 @@ Progresive
 Perfkete progresiva
 -------------------
 
-### Estontece: *will have been creating*
+### Future: *will have been creating*
 
 - Before her 16th birthday, Maria __will have been creating__ painting masterpieces.
 
-### Estantece: *has been creating*
+### Prezence: *has been creating*
 
 - Maria __has been creating__ paintings for a long time.
 
-### Estintece: *had been creating*
+### Preterite: *had been creating*
 
 - Before Juan's arrival, Maria __had been creating__ beautiful paintings.
