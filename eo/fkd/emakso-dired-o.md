@@ -2,8 +2,8 @@ Dosierujojn Emakse Mastrumi
 ===========================
 
 <div class="center">[Esperante](#) · [English](/en/emacs-dired)</div>
-<div class="center">la 12-an de Februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 6-an de aŭgusto 2018</div>
+<div class="center">la 12-an de februaro 2018</div>
+<div class="center">Laste ĝisdatigita: la 8-an de aŭgusto 2018</div>
 
 >Supozi estas bona, tamen eltrovi estas pli bona.<br>
 >―Samuel CLEMENS
@@ -28,7 +28,7 @@ al Dired-aj bufroj.
 <a name="superrigardo"></a>Superrigardo
 ---------------------------------------
 
-Por kuri Dired-on, kuru Emakson sur la komandlinio, provizi dosierujon, kiel la argumento:
+Por kuri Dired-on, kuru Emakson sur la komandlinio, disponigi dosierujon, kiel la argumento:
 
     $ emacs ~/Desktop
 

@@ -2,8 +2,8 @@ Esperantaj Signoj Linukse
 =========================
 
 <div class="center">[Esperante](#) · [English](/en/eo-linux)</div>
-<div class="center">la 22-an de Julio 2018</div>
-<div class="center">Laste ĝisdatigita: la 3-an de aŭgusto 2018</div>
+<div class="center">la 22-an de julio 2018</div>
+<div class="center">Laste ĝisdatigita: la 8-an de aŭgusto 2018</div>
 
 >Se ion oni volas, kion oni neniam havis, oni devas esti servopreta tion fari, kion oni neniam
 >faris.<br>

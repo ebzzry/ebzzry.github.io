@@ -2,8 +2,8 @@ Retpoŝton Emakse Agordi
 =======================
 
 <div class="center">[Esperante](#) · [English](/en/emacs-mail)</div>
-<div class="center">la 14-an de Februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 6-an de aŭgusto 2018</div>
+<div class="center">la 14-an de februaro 2018</div>
+<div class="center">Laste ĝisdatigita: la 8-an de aŭgusto 2018</div>
 
 >Nur tial ke ne fariĝis, ne signifas, ke ne fareblas. Nur tial ke fareblas, ne
 >signifas, ke devus.<br>
@@ -13,7 +13,7 @@ Nunatempe kontroli retpoŝton postulas onin por iri al la retejo de sia provizan
 poŝkomputilapon. Tamen, ekzistas kazoj kiam oni volas havi pli da rego sur siaj mesaĝoj, precipe kiam
 la kapablo kiun si volas, ne haveblas en la plimultaj opcioj.
 
-Emakso provizas pletorajn manierojn (Gnus, Wanderlust, VM, ktp.) de sendi kaj ricevi la retpoŝton. En ĉi
+Emakso disponigas pletorajn manierojn (Gnus, Wanderlust, VM, ktp.) de sendi kaj ricevi la retpoŝton. En ĉi
 tiu afiŝo, mi parolos pri [getmail-o](http://pyropus.ca/software/getmail/),
 [mu-o](http://www.djcbsoftware.nl/code/mu/), kaj [mu4e-o](http://www.djcbsoftware.nl/code/mu/mu4e.html),
 kaj kiel agordi ilin ĝuste. En ĉi tiu lernilo, mi supozas, ke oni akiras siajn mesaĝojn
@@ -54,7 +54,7 @@ Per APT-o:
 
     $ sudo apt-get install getmail4
 
-Tamen, se onia sistemo ne provizas manieron por facile instali getmail-on, oni povas iri al ĝia
+Tamen, se onia sistemo ne disponigas manieron por facile instali getmail-on, oni povas iri al ĝia
 [hejmpaĝo](http://pyropus.ca/software/getmail/), tiam elŝutu la tar-arĥivon.
 
 

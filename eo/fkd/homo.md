@@ -2,8 +2,8 @@ Kiel Komuniki Kiel Homo
 =======================
 
 <div class="center">[Esperante](#) · [English](/en/human)</div>
-<div class="center">la 3-an de Aŭgusto 2018</div>
-<div class="center">Laste ĝisdatigita: la 5-an de aŭgusto 2018</div>
+<div class="center">la 3-an de aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 8-an de aŭgusto 2018</div>
 
 >La kapablo por paroli ne igas onin saĝa.<br>
 >―Qui-gon JINN
@@ -47,7 +47,7 @@ bestoj. Ni disvolviĝis el malsamaj cirkonstancaro kontraste kun modernaj komput
 ni nun havas. Kiam ekzaktajn mesaĝojn ni komunikas, iom da kelkaj faktoroj ni ne tenas en la kalkulo
 inkluzive la variablecon de interpreto. Nur ĉar kion ni diras al la alia flanko de la komunikado ni
 klare komprenas ne signifas, ke ĝin la alia flanko ankaŭ klare komprenas. Ĉu sufiĉan fonon kaj
-kuntekston al la komunikato ni provizis? Ĉu la mensan bildon de niaj ideoj al la komunikato ni
+kuntekston al la komunikato ni disponigis? Ĉu la mensan bildon de niaj ideoj al la komunikato ni
 ekzakte transmetis? Ĉu miajn pensajn procezojn ri povas konstrui kiel eble plej mi deziris? Se unu
 de tiuj demandoj estas responditaj de ne, kiam ni devas retaksi kiel ni komuniki.
 

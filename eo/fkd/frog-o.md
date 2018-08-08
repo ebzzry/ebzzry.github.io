@@ -2,8 +2,8 @@ Frog-e Blogi
 ============
 
 <div class="center">[Esperante](#) · [English](/en/frog)</div>
-<div class="center">la 16-an de Februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 6-an de aŭgusto 2018</div>
+<div class="center">la 16-an de februaro 2018</div>
+<div class="center">Laste ĝisdatigita: la 8-an de aŭgusto 2018</div>
 
 >Unu persono kun ardo estas pli bona ol kvardek personoj nure interesataj.<br>
 >―E.M. FORSTER
@@ -93,7 +93,7 @@ Poste, oni akiros la `raco frog`-an komandon. Ni montru ĝiajn helpajn opciojn:
 <a name="unua"></a>Unua uzo
 ---------------------------
 
-Dolĉe. Nu, nun oni havas je Frog instalita, ni daŭru ruli. Por krei la unuan Frog-an provizitan
+Dolĉe. Nu, nun oni havas je Frog instalita, ni daŭru ruli. Por krei la unuan Frog-an disponigitan
 retejon, oni kreos la projektan dosierujon unue:
 
     $ mkdir blog

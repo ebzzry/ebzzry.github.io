@@ -2,8 +2,8 @@ Enkonduko al Sofismoj
 =====================
 
 <div class="center">[Esperante](#) · [English](/en/fallacies)</div>
-<div class="center">la 29-an de Julio 2018</div>
-<div class="center">Laste ĝisdatigita: la 7-an de aŭgusto 2018</div>
+<div class="center">la 29-an de julio 2018</div>
+<div class="center">Laste ĝisdatigita: la 8-an de aŭgusto 2018</div>
 
 >Lerni ne estas necesa; nek estas travivi.<br>
 >―W. Edwards DEMING
@@ -144,7 +144,7 @@ parolanto.
 ----------------------------------------------
 
 Ĉi tio estas fifarita kiam griza areo estas devigita eĉ ekzistas klaraj elektoj. Ĉi tio estas ofte
-rimarkita en ĵurnalismo por egalan kaj senantaŭjuĝan raportadon provizi.
+rimarkita en ĵurnalismo por egalan kaj senantaŭjuĝan raportadon disponigi.
 
 > “Sian propran opinion ĉiuj en ĉi tiu tablo havas. Neniu estas necese ĝusta aŭ malĝusta.”
 
@@ -182,13 +182,13 @@ kiujn ri ne ankoraŭ vizitis.
 <a name="sxargxo"></a>Ŝarĝo de pruvo
 ------------------------------------
 
-Ĉi tio estas fifarita kiam la respondenco por pruvon provizi ne kuŝas per persono A, la iu kiu
+Ĉi tio estas fifarita kiam la respondenco por pruvon disponigi ne kuŝas per persono A, la iu kiu
 asertojn faras, sed per persono B, por la asertojn de persono A refuti.
 
 > “Ĉar la neekzistecon de granda blato kiu stelojn fekas kaj loĝas ekzate 100.000 lumjaroj for de
 > kie mi alfrontas nun oni ne povas pruvi, tial ĝi devas ekzisti.”
 
-Anstataŭ pruvon provizi al siaj asertoj, la ŝarĝon de pruvo persono A almovas al persono B. Ĉar ne
+Anstataŭ pruvon disponigi al siaj asertoj, la ŝarĝon de pruvo persono A almovas al persono B. Ĉar ne
 ekzistas fizikaj manieroj de persono B por pruvi, ke la asertoj de persono A estas malvalidaj,
 persono A antaŭsupozas ke siaj asertoj devas esti veraj.
 
@@ -338,7 +338,7 @@ argumento prezentata estas valida.
 > ĉirkaŭ la mondo.”
 
 La gepatroj de Petro lin volas por la brokolion manĝi, per la uzo do emocia trompo, anstataŭ
-fortikajn kialojn provizi, ke la brokolion Petro devas manĝi.
+fortikajn kialojn disponigi, ke la brokolion Petro devas manĝi.
 
 
 <a name="forto"></a>Apelo al forto
@@ -349,7 +349,7 @@ aserton akcepti kiel vera. Ĉi tiu sofismo estas ofte rimarkita en religiaj grup
 
 > “Se vi ne observas la vortojn de Vakelo, vi forbruliĝos en la torturemaj flamoj de inferno.”
 
-Anstataŭ kialon provizi kial oni devas aŭskulti na Vakelo, minacoj de fortegoj estas uzitaj por iun
+Anstataŭ kialon disponigi kial oni devas aŭskulti na Vakelo, minacoj de fortegoj estas uzitaj por iun
 devigi por blinde observi.
 
 
@@ -501,7 +501,7 @@ konkludas per falsaj komparoj.
 --------------------------------------------
 
 Ĉi tio estas fifarita kiam ion parolanto asertas, sed ĝin ri poste malkonfesas per kontraŭdirajn
-deklaroj provizi. Ĉi tio ankaŭ nomatas ‘Havi vian kukon.’
+deklaroj disponigi. Ĉi tio ankaŭ nomatas ‘Havi vian kukon.’
 
 > “Aŭskultu filo, mi ne kredas en fantomoj. Tamen, hieraŭ vespere, kiam mi estis sola en mia ĉambro,
 > mi aŭdis batetajn sonojn sur la lampotabelo. Mi certas, ke ne estis mi. Devas esti la nevideblaj

@@ -2,8 +2,8 @@ Emakskonsiletoj 2-a: Seancoj kaj Pakoj
 ======================================
 
 <div class="center">[Esperante](#) · [English](/en/emacs-tips-2)</div>
-<div class="center">la 20-an de Februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 20-an de marto 2018</div>
+<div class="center">la 20-an de februaro 2018</div>
+<div class="center">Laste ĝisdatigita: la 8-an de aŭgusto 2018</div>
 
 Ĉi tiu estas la daŭrigo de la serioj pri Emaksaj konsiletoj. En ĉi tiu afiŝo, ni esploras seancan
 mastrumadon, pakojn, krommarĝenojn, kaj aliajn malgrandajn agrablajn aferojn.

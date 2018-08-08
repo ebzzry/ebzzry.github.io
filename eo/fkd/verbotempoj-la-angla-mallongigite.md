@@ -2,8 +2,8 @@ Verbotempoj en La Angla (Mallongigite)
 ======================================
 
 <div class="center">[Esperante](#) · [English](/en/verb-tenses-condensed)</div>
-<div class="center">la 15-an de Julio 2018</div>
-<div class="center">Laste ĝisdatigita: la 7-an de aŭgusto 2018</div>
+<div class="center">la 15-an de julio 2018</div>
+<div class="center">Laste ĝisdatigita: la 8-an de aŭgusto 2018</div>
 
 Ĉi tiu artikolo estas la mallongigita versio de [Verbotempoj en La Angla](/eo/verbotempoj-la-angla).
 

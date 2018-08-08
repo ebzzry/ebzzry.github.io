@@ -2,8 +2,8 @@ Aboco de la Lambdokalkulo
 =========================
 
 <div class="center">[Esperante](#) · [English](/en/lambda-calculus)</div>
-<div class="center">la 21-an de Februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 6-an de aŭgusto 2018</div>
+<div class="center">la 21-an de februaro 2018</div>
+<div class="center">Laste ĝisdatigita: la 8-an de aŭgusto 2018</div>
 
 >Oni ne vere komprenas ion krom se oni povas klarigi tion al sia avino.<br>
 >―Alberto EJNŜTEJNO

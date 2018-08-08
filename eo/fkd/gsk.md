@@ -2,8 +2,8 @@ Agordi je GPG kaj je SSH en KDE-o
 =================================
 
 <div class="center">[Esperante](#) · [English](/en/gsk)</div>
-<div class="center">la 19-an de Februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 20-an de marto 2018</div>
+<div class="center">la 19-an de februaro 2018</div>
+<div class="center">Laste ĝisdatigita: la 8-an de aŭgusto 2018</div>
 
 >Ne tute estas grave por prave atingi tion en la unua fojo. Estas vitale grava atingi tion en la
 >lasta tempo.<br>

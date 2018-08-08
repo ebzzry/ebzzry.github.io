@@ -2,8 +2,8 @@ Retrospekte
 ===========
 
 <div class="center">[Esperante](#) · [English](/en/retrospect)</div>
-<div class="center">la 8-an de Februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 20-an de marto 2018</div>
+<div class="center">la 8-an de februaro 2018</div>
+<div class="center">Laste ĝisdatigita: la 8-an de aŭgusto 2018</div>
 
 >El la militolernejo de la vivo: kion ne detruas min, igas min pli forte.<br>
 >―Friedrich NIETZSCHE
