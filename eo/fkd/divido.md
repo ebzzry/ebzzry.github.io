@@ -5,7 +5,7 @@ Divido en Haskelo
 <div class="center">la 5-an de aŭgusto 2018</div>
 <div class="center">Laste ĝisdatigita: la 8-an de aŭgusto 2018</div>
 
-Kiam lerni pri divido en Haskelo, mi konsciis, ke la koncepto ne estas kiel triviala tiel ĝin mi
+Kiam lerni pri divido en Haskelo, mi konsciis, ke la koncepto ne estas kiel bagatela tiel ĝin mi
 komence volis. Ekzistas subtilaj kontrastoj inter la funkcioj kiu iun povas facile faligi ki ne
 estas konscias de ili. Entjeran dividon kiu rondigas al nulo `quot` faras. `div` similas al `quot`,
 tamen ĝi rondigas sub nulo—negativa senfineco. La reston de divido `rem` liveras. `mod`, aliflanke,
