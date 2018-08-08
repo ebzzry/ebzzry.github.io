@@ -2,8 +2,8 @@ Verbotempoj en La Angla
 =======================
 
 <div class="center">[Esperante](#) · [English](/en/verb-tenses)</div>
-<div class="center">la 15-an de Julio 2018</div>
-<div class="center">Laste ĝisdatigita: la 7-an de Aŭgusto 2018</div>
+<div class="center">la 15-an de julio 2018</div>
+<div class="center">Laste ĝisdatigita: la 8-an de aŭgusto 2018</div>
 
 >La kontrasto inter ordinara kaj eksterordinara estas tiu eta pliaĵo.<br>
 >―Jimmy JOHNSON

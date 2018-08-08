@@ -2,8 +2,8 @@ KVM-e Virtualigadi en Linukso
 =============================
 
 <div class="center">[Esperante](#) · [English](/en/kvm)</div>
-<div class="center">la 3-an de Marto 2018</div>
-<div class="center">Laste ĝisdatigita: la 6-an de aŭgusto 2018</div>
+<div class="center">la 3-an de marto 2018</div>
+<div class="center">Laste ĝisdatigita: la 8-an de aŭgusto 2018</div>
 
 >Se tion oni faras, kion oni ĉiam faras; tion oni akiros, kion oni ĉiam akiras.<br>
 >―Anthony ROBBINS
@@ -76,7 +76,7 @@ La [QEMU](http://wiki.qemu-project.org/Main_Page)-an /ki-mu/ hiperregilon, la
 [VDE](http://vde.sourceforge.net/)-ajn ilojn, kaj [SPICE](http://www.spice-space.org/)-an subtenon
 ĉi tio instalas. QEMU, almenaŭ dum siaj fruaj tagoj ne estis impresa—ĝi estis bona, bedaŭrinde ne
 bonegas. Ekde versio 0.10.1, na [KVM](http://www.linux-kvm.org/)-ajn kapablojn—virtualigada
-subsistemo por linukso—kiu preskaŭ denaskan virtualigadon provizas per aparataro-asistita
+subsistemo por linukso—kiu preskaŭ denaskan virtualigadon disponigas per aparataro-asistita
 virtualigado, QEMU komencis subteni. La rendimentojn de la aliaj virtualigadaj sistemoj menciitaj
 ĉi-supre ĝi eĉ konkuras.
 

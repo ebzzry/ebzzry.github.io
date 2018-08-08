@@ -2,7 +2,7 @@ Retnodojn Usync-e Sinkronigi
 ============================
 
 <div class="center">[Esperante](#) · [English](/en/usync)</div>
-<div class="center">la 7-an de Februaro 2018</div>
+<div class="center">la 7-an de februaro 2018</div>
 <div class="center">Laste ĝisdatigita: la 6-an de aŭgusto 2018</div>
 
 >Kion mi ne povas krei, mi ne komprenas.<br>

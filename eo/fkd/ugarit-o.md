@@ -2,7 +2,7 @@ Sekurkopiojn Ugarit-e Krei
 ==========================
 
 <div class="center">[Esperante](#) · [English](/en/ugarit)</div>
-<div class="center">la 18-an de Februaro 2018</div>
+<div class="center">la 18-an de februaro 2018</div>
 <div class="center">Laste ĝisdatigita: la 7-an de aŭgusto 2018</div>
 
 >Bona juĝo devenas el sperto, kaj sperto devenas el malbona juĝo.<br>
@@ -95,7 +95,7 @@ enmemorigi la datumon sur rapida, fidebla, strestoleranta disko. Ne estas nekomu
     $ sudo chown -R $USER /ugarit
 
 Alia egale grava bezono, kiun oni devas havi estas ĝia agordosiero, kutime nomita
-`ugarit.conf`. Estas provizite kiel parto de la bezonataj komandliniaj argumentoj. Tenu en la
+`ugarit.conf`. Estas disponigite kiel parto de la bezonataj komandliniaj argumentoj. Tenu en la
 kalkulo, kie ĉi tiu dosiero ne loĝas en fiksita loko, kontraste kun iuj programoj kiu serĉas
 agorddosieron dum startigo. Antaŭ oni fakte kreas tiun dosieron, oni bezonas kuri iujn
 komandojn. Konservu la eligojn de ĉi tiuj komandoj ĉar oni bezonados ilin poste.
