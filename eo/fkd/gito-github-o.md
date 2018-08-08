@@ -2,8 +2,8 @@ Maldaŭra Rondvojaĝo de Gito kaj GitHub-o
 ========================================
 
 <div class="center">[Esperante](#) · [English](/en/git-github)</div>
-<div class="center">la 11-an de Julio 2018</div>
-<div class="center">Laste ĝisdatigita: la 6-an de aŭgusto 2018</div>
+<div class="center">la 11-an de julio 2018</div>
+<div class="center">Laste ĝisdatigita: la 8-an de aŭgusto 2018</div>
 
 >Ĉiujn solvitajn problemon sciu kiel solvi.<br>
 >―Richard P. FEYNMAN
@@ -126,7 +126,7 @@ uzos en ĉi tiu diskuto.
 
 La mem oni devas esti kapabla por veriĝi al la GitHub-a konto, antaŭ la ŝanĝojn oni povas puŝi. Por
 tion fari, la sekurŝelajn ŝlosilojn oni devas krei. Por tion fari, la jenan komandon kuru. Certigu,
-ke [fortan pasfrazon](https://xkcd.com/936/) oni provizas, kiam oni invitiĝis:
+ke [fortan pasfrazon](https://xkcd.com/936/) oni disponigas, kiam oni invitiĝis:
 
     $ ssh-keygen -t ed25519
 
