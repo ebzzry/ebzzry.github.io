@@ -3,7 +3,7 @@ Signoj kaj Interpunkcioj
 
 <div class="center">[Esperante](#) · [English](/en/symbols-marks)</div>
 <div class="center">la 16-an de julio 2018</div>
-<div class="center">Laste ĝisdatigita: la 8-an de aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 10-an de aŭgusto 2018</div>
 
 >Se grandiozon oni volas atingi, konsentojn ĉesu peti.<br>
 >―Eddie COLLA
@@ -81,7 +81,7 @@ Tiam, la jenan komandon kuru:
 - Makintoŝe: <kbd>-</kbd>
 - Vindoze: <kbd>-</kbd>
 
-Streketoj estas uzataj por la distributan sencon, kaj kunmetitajn vortojn montri. Ekzemple, se oni
+Streketoj uzatas por la distributan sencon, kaj kunmetitajn vortojn montri. Ekzemple, se oni
 volas esprimi:
 
 - sunleviĝo kaj sunsubiro
@@ -124,7 +124,7 @@ Oni esprimas:
 - Makintose: <kbd>⌥</kbd> + <kbd>-</kbd>
 - Vindoze: <kbd>Alt</kbd> + <kbd>0</kbd> <kbd>1</kbd> <kbd>5</kbd> <kbd>0</kbd>
 
-La ĝis-streko estas uzata por ampleksojn de valaroj esprimi. Spacetojn ne metu ĉirkaŭ ili. Ekzemple,
+La ĝis-streko uzatas por ampleksojn de valaroj esprimi. Spacetojn ne metu ĉirkaŭ ili. Ekzemple,
 se oni volas esprimi:
 
 - 1960 ĝis 2016
@@ -200,11 +200,11 @@ Dekstra duobla citilo (”)
 - Makintoŝe: <kbd>⌥</kbd> + <kbd>Shift</kbd> + <kbd>[</kbd>
 - Vindoze: <kbd>Alt</kbd> + <kbd>0</kbd> <kbd>1</kbd> <kbd>4</kbd> <kbd>8</kbd>
 
-Duoblaj citiloj estas uzataj por vortojn montri kiuj estas parolataj de parolanto.
+Duoblaj citiloj uzatas por vortojn montri kiuj estas parolataj de parolanto.
 
 - Ŝi venis al mi kaj diris, “Ĉu ni povas precizigi ĝian iĝeblecon?”
 
-Ili ankaŭ estas uzataj kiam citaĵojn (atribuadojn) skribi:
+Ili ankaŭ uzatas kiam citaĵojn (atribuadojn) skribi:
 
 - “Rompu, rompu la murojn inter la popoloj!”—Ludoviko Lazaro ZAMENHOF
 
@@ -237,7 +237,7 @@ Dekstra unuopa citilo (’)
 - Makintoŝe: <kbd>⌥</kbd> + <kbd>Shift</kbd> + <kbd>]</kbd>
 - Vindoze: <kbd>Alt</kbd> + <kbd>0</kbd> <kbd>1</kbd> <kbd>4</kbd> <kbd>6</kbd>
 
-Unuopaj citiloj estas uzataj kiam parolo estas enkorpigita ene alia parolo:
+Unuopaj citiloj uzatas kiam parolo estas enkorpigita ene alia parolo:
 
 - Li murmuris al li mem, “Mi opinias, ke li diris ‘Ne fareblas’ kiam ni interparolis hieraŭ.”
 
@@ -284,8 +284,8 @@ Duobla primo (″)
 
 La citiloj signoj sur la klavaro (') kaj (") aspektas kiel primaj signoj, bedaŭrinde ili ne
 estas. Ili estas fuŝaj postsignoj de la skribmaŝina epoĥo. La ĝustaj signobildoj estas (′) kaj
-(″). La prima signo (′) estas uzataj por futojn, minutojn, kaj minutojn de arko esprimi, dum la
-duobla prima signo (″) estas uzata por colojn, sekundojn, kaj sekundojn de arko esprimi.
+(″). La prima signo (′) uzatas por futojn, minutojn, kaj minutojn de arko esprimi, dum la
+duobla prima signo (″) uzatas por colojn, sekundojn, kaj sekundojn de arko esprimi.
 
 Por alton de ses funtoj kaj du colojn esprimi, oni skribas:
 
@@ -295,7 +295,7 @@ Por kvin gradojn, kvar minutojn de arko, kaj tri sekundojn de arko esprimi, oni 
 
 - 5°4′3″
 
-La duoblaj primaj signoj povas esti uzataj kiel la idema marko. La idema marko estas uzata por
+La duoblaj primaj signoj povas esti uzataj kiel la idema marko. La idema marko uzatas por
 indiki, ke la vortoj ĉi-supre devas esti ripetitaj. Ekzemple:
 
 - Ruĝaj ardeoj, gruoj, kaj mantoj.
@@ -309,9 +309,9 @@ indiki, ke la vortoj ĉi-supre devas esti ripetitaj. Ekzemple:
 - Makintoŝe: <kbd>⌥</kbd> + <kbd>;</kbd>
 - Vindoze: <kbd>Alt</kbd> + <kbd>0</kbd> <kbd>1</kbd> <kbd>3</kbd> <kbd>3</kbd>
 
-La tripunkto estas uzata por la forlason de vorto, frazero, frazone, aŭ tutan blokon de teksto
+La tripunkto uzatas por la forlason de vorto, frazero, frazone, aŭ tutan blokon de teksto
 montri, kiel parto de pli granda teksto. Ĝi estas unu el la plej miskomprenitaj signoj. Mi ofte
-rimarkas, ke la tri punktoj—plena ĉeso—estas uzitaj anstataŭ la ĝustan tripunkton signon. En epoĥo,
+rimarkas, ke la tri punktoj—plena ĉeso—uzitas anstataŭ la ĝustan tripunkton signon. En epoĥo,
 en kiu, la skribmaŝinoj estis la plej bona marieo por tekston komposti, la tri punktoj funkciis. Tiutempe, tamen, jam longe pasis; la haveblajn ilojn oni nun devas uzi.
 
 Ekzemple, ĝi povas uzita jene:
@@ -322,8 +322,8 @@ Kiam uzitis kiel la komenco de frazo, kortuŝojn kaj dramojn ĝi enkondukas:
 
 - … Mia amo, kie vi estas?
 
-Kiam ĝi estas uzita en la fino de bloko, spaceton antaŭ ĝi metu; kiam ĝi estas uzita en la komenco,
-spaceton post ĝi metu; kiam ĝi estas uzita en la mezo, spacetojn ĉirkaŭ metu.
+Kiam ĝi uzitas en la fino de bloko, spaceton antaŭ ol ĝi metu; kiam ĝi uzitas en la komenco,
+spaceton post ĝi metu; kiam ĝi uzitas en la mezo, spacetojn ĉirkaŭ metu.
 
 
 <a name="finrimarkoj"></a>Finrimarkoj

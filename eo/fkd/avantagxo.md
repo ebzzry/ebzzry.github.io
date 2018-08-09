@@ -3,7 +3,7 @@ Mia Kinezia Avantaĝa Aranĝo
 
 <div class="center">[Esperante](#) · [English](/en/advantage)</div>
 <div class="center">la 12-an de julio 2018</div>
-<div class="center">Laste ĝisdatigita: la 8-an de aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 10-an de aŭgusto 2018</div>
 
 >La doloro neeviteblas. La suferado malnepras.<br>
 >―M. Kathleen CASEY
@@ -32,7 +32,7 @@ gravas kiel ergonomie klavaro estas, se la rapidecan kategorion ĝi faligas. Ĝi
 kaj rapida.
 
 La [Kinezia Avantaĝo](https://www.kinesis-ergo.com/wp-content/uploads/2015/01/kinesis_advantage_user_manual.pdf) estas la epitomo de
-tia kategorio. Ĝi estas ergonomia kaj rapida. Se oni jam estas rutinhava tajpisto, oni
+tia kategorio. Ĝi ergonomias kaj rapidas. Se oni jam estas rutinhava tajpisto, oni
 povas trovi, ke post mallonga adaptiĝa tempodaŭro, oni eĉ tajpas pli rapide per la Avantaĝo.
 
 Bedaŭrinde, la defaŭlta aranĝo de la klavoj ne konvenas por mi. La <kbd>Ctrl</kbd> kaj la
@@ -43,10 +43,10 @@ Emakso kaj Ziŝo.
 <a name="antauxe"></a>Antaŭe
 ----------------------------
 
-Jam ekzistas dvoraka reĝimo, kiu estas enkonstruita en la klavaro. En ĉi tiu reĝimo, la dvorakan
-reĝimon oni povas ŝalti sen iun ajn programon uzi per na <kbd>Progrm + Shift + F5</kbd> premi. Oni
-povas iri reen al la QWERTY-a reĝimo per la sama klavkombino. Kiam la dvorakan reĝimon oni uzas, la
-jena aranĝo estas kiel la klavoj aranĝitaj:
+Jam ekzistas dvoraka reĝimo, kiu enkonstruitas en la klavaro. En ĉi tiu reĝimo, la dvorakan reĝimon
+oni povas ŝalti sen iun ajn programon uzi per na <kbd>Progrm + Shift + F5</kbd> premi. Oni povas iri
+reen al la QWERTY-a reĝimo per la sama klavkombino. Kiam la dvorakan reĝimon oni uzas, la jena
+aranĝo estas kiel la klavoj aranĝitaj:
 
 <a href="/bil/avantagxo-dvorako-0.png"><img src="/bil/avantagxo-dvorako-0.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="Originala softvara Dvorako" title="Originala softvara Dvorako"/></a>
 <div class="center">Figuro 1-1: Originala softvara Dvorako</div>
@@ -77,7 +77,7 @@ uzi aŭ apajn invitojn fermi.
 Na <kbd>Insert</kbd> mi uzis anstataŭ <kbd>Esc</kbd> por, ke na `XA_PRIMARY` zonon mi povas aliri
 facile per <kbd>Shift + Insert</kbd>. La `XA_PRIMARY`-a zono estas kie la musaj markoj iras. Ankaŭ
 plifaciliĝas por la `overwrite-mode`-an reĝimon de emakso eniri. La <kbd>Insert</kbd> klavo,
-bedaŭrinde, estas kaŝita en la klavo markita per `|`, maldekstre. La sinsekvo por ĝin aliri estas
+bedaŭrinde, kaŝitas en la klavo markita per `|`, maldekstre. La sinsekvo por ĝin aliri estas
 listigita al la fino de ĉi tiu afiŝo.
 
 Kiujn estis antaŭaj <kbd>Ctrl</kbd>-aj klavoj mi bindis al <kbd>KP Home</kbd> and <kbd>KP End</kbd>
@@ -144,7 +144,7 @@ keycode 104 = Multi_key
 -------------------------
 
 Se ŝlosilkodon 21 la dekstra <kbd>Ctrl</kbd> klavo havas—dum mapigite per xmodmap al
-<kbd>Mode_switch</kbd>—kaj ĝi estas samtempe premita kun <kbd>c</kbd> en softvara QWERTY-o aŭ
+<kbd>Mode_switch</kbd>—kaj ĝi samtempe premitas kun <kbd>c</kbd> en softvara QWERTY-o aŭ
 <kbd>j</kbd> en softvara Dvorako, la jenan tekston por QWERTY-aj kaj Dvorakaj reĝimon ĝi generas
 respektive:
 
@@ -169,5 +169,5 @@ frenezega fortikeco kaj la elstaraj ergonomioj la avantaĝon inda investo igas.
 
 Pli da kapablo ol la tiu kiun mi havas la plej ĵusa
 model—[Advantage2](https://www.kinesis-ergo.com/shop/advantage2/)—havas. La funkciaj klavoj de ĉi
-tiu modelo nun estas meĥanikaj. Se buĝeton oni havas, ĝin aĉetu! La
+tiu modelo nun meĥanikas. Se buĝeton oni havas, ĝin aĉetu! La
 [hejmpaĝon](https://www.kinesis-ergo.com/) de Kinezio oni povas viziti por pli da informo.
