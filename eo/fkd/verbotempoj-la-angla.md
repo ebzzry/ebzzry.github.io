@@ -71,12 +71,12 @@ Agon kiu komenciĝis kaj finiĝis en la preterito la simpla estintenca verbotemp
 
 ### <a name="perfektafuturo"></a>Perfekta futuro
 
-Agon kiu okazos en la futuro antaŭ alia ago la perfekta futura verbotempo montras. Ĉi tio
+Agon kiu okazos en la futuro antaŭ ol alia ago la perfekta futura verbotempo montras. Ĉi tio
 estas la inverso de preterita perfekta verbotempo.
 
 > By the time Juan arrives, Maria __will have created__ a beautiful painting.
 
-*Antaŭ Juan alvenos, Maria jam estos kreinta pentraĵon.*
+*Antaŭ ol Juan alvenos, Maria jam estos kreinta pentraĵon.*
 
 
 ### <a name="perfektaprezenco"></a>Perfekta prezenco
@@ -91,12 +91,12 @@ perfekta prezenca verbotempo montras.
 
 ### <a name="perfektapreterito"></a>Perfekta preterito
 
-Agon kiu okazis en la preterito, antaŭ alia preterita ago la perfekta preterita verbotempo
+Agon kiu okazis en la preterito, antaŭ ol alia preterita ago la perfekta preterita verbotempo
 montras. La konsileto ĉi tie estas la ĉeestoj de du agoj kiuj okazis en la preterito.
 
 > By the time Juan arrived, Maria __had created__ a beautiful painting.
 
-*Antaŭ Juan alvenis, Maria kreis pentraĵon.*
+*Antaŭ ol Juan alvenis, Maria kreis pentraĵon.*
 
 
 <a name="progresive"></a>Progresive
@@ -136,12 +136,12 @@ Agon kiu okazadis en la preterito kiam alia ago okazis la progresiva preterita v
 
 ### <a name="perfekteprogresivafuturo"></a>Perfekte progresiva futuro
 
-Agon en la futuro kiu daŭre okazas antaŭ specifa futura tempo la perfekte progresiva futura
+Agon en la futuro kiu daŭre okazas antaŭ ol specifa futura tempo la perfekte progresiva futura
 verbotempo montras.
 
 > Before her 16th birthday, Maria __will have been creating__ painting masterpieces.
 
-*Antaŭ la 16-a naskiĝdato de Maria, ŝi estos kreantadaj pentraĵojn.*
+*Antaŭ ol la 16-a naskiĝdato de Maria, ŝi estos kreantadaj pentraĵojn.*
 
 
 ### <a name="perfekteprogresivaprezenco"></a>Perfekte progresiva prezenco
@@ -156,7 +156,7 @@ perfekte progresiva prezenca verbotempo montras.
 
 ### <a name="perfekteprogresivapreterito"></a>Perfekte progresiva preterito
 
-Daŭran agon kiu komencis antaŭ alia preterita ago la perfekte progresiva preterita verbotempo
+Daŭran agon kiu komencis antaŭ ol alia preterita ago la perfekte progresiva preterita verbotempo
 montras.
 
 > Before Juan’s arrival, Maria __had been creating__ beautiful paintings.

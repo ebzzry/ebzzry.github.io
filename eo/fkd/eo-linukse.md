@@ -3,7 +3,7 @@ Esperantaj Signoj Linukse
 
 <div class="center">[Esperante](#) · [English](/en/eo-linux)</div>
 <div class="center">la 22-an de julio 2018</div>
-<div class="center">Laste ĝisdatigita: la 8-an de aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 10-an de aŭgusto 2018</div>
 
 >Se ion oni volas, kion oni neniam havis, oni devas esti servopreta tion fari, kion oni neniam
 >faris.<br>
@@ -139,7 +139,7 @@ Por na **ĉ** eniri, na 🐧 premu kaj tenu, tiam na <kbd>c</kbd> klavo premu. P
 onin permesas por senokultajpi.
 
 En kelkaj klavaroj, ekzistas nur unu vindozklavo, kutime lokitas maldekstre, dum la tiu dekstre estas
-la <kbd>PrtSc</kbd> klavo. Multfoje ili estas sandviĉitaj inter la <kbd>Ctrl</kbd> kaj la
+la <kbd>PrtSc</kbd> klavo. Multfoje ili sandviĉitas inter la <kbd>Ctrl</kbd> kaj la
 <kbd>Alt</kbd> klavoj. Por tiun klavon uzi, na `xev` kuru kiel ĉi-supre por la klavkodon akiri, tiam
 na `~/.Xmodmap` dosiero ĝisdatigi laŭe.
 

@@ -3,7 +3,7 @@ Aboco de la Lambdokalkulo
 
 <div class="center">[Esperante](#) · [English](/en/lambda-calculus)</div>
 <div class="center">la 21-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 8-an de aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 10-an de aŭgusto 2018</div>
 
 >Oni ne vere komprenas ion krom se oni povas klarigi tion al sia avino.<br>
 >―Alberto EJNŜTEJNO
@@ -86,7 +86,7 @@ Kerna ludanto en la lambdokalkulo estas la nocio de funkcio. Plejmulto da ni kut
 la al altnivelaj programlingvoj, tamen funkcioj en la lambdokalkulo iomete malsimilas—ili devas havi
 plej minimume unu parametron. En plejmulto da produkta programlingvoj nune uzataj, oni povas alvoki
 funkcion kiu ne prenas argumenton. Okazas kutime por kromefikoj. Tamen, lamdokalkule, apenaŭa
-minimumo de unu argumento estas devigita. Jen minimuna funkcio en la lambdokalkulo aspektas:
+minimumo de unu argumento devigitas. Jen minimuna funkcio en la lambdokalkulo aspektas:
 
 ```scheme
 λx.x
@@ -128,7 +128,7 @@ difinita funkcio supre:
 (λx.x)
 ```
 
-La parametro `x` estas variablo, kiu ligitas, tial ke ĝi estas sandviĉiĝita inter `λ` kaj
+La parametro `x` estas variablo, kiu ligitas, tial ke ĝi sandviĉiĝitas inter `λ` kaj
 `.`. Tamen, en la funkcio:
 
 ```scheme
@@ -140,8 +140,8 @@ La parametro `y` estas variablo kiu liberas, tial ke ĝi ne vivas inter `λ` kaj
 
 ### <a name="apliko"></a>Funkciapliko
 
-Por uzi funkcion, oni devas apliki ĝin al io. La ligitaj variabloj estas anstataŭigitaj per tio, kio
-ili estas aplikiĝitaj—procedo nomata kiel betaredukto.
+Por uzi funkcion, oni devas apliki ĝin al io. La ligitaj variabloj anstataŭigitas per tio, kio
+ili aplikiĝitas—procedo nomata kiel betaredukto.
 
 Ekzemple:
 
@@ -156,9 +156,9 @@ Ni disapartigu ĝin:
 2. Konsumi la argumentojn, tiam anstataŭigi ĉiujn aperaĵojn de `x` en la korpo, per `y`.
 
 _“Atendu, ĝi nur revenas la argumenton y.”_ oni eble diras. Tio pravas. La funkcio `(λx.x)` estas la
-identeca funkcio—estas unuopa-parametra funkcio kiu revenas kio ajn ĝi estas aplikiĝita.
+identeca funkcio—unuopas-parametra funkcio kiu revenas kio ajn ĝi estas aplikiĝita.
 
-Funkcioj ne estas ligimitaj esti aplikataj al simboloj. Ili ankaŭ povas esti aplikata al aliaj
+Funkcioj ne limigatas esti aplikataj al simboloj. Ili ankaŭ povas esti aplikata al aliaj
 funkcioj.
 
 ```scheme
@@ -217,7 +217,7 @@ Ekvivalentas al:
 
 ### <a name="komenco"></a>Komenco
 
-Pro preskaŭ ĉio en la lambdokalkulo estas esprimita kiel funkcioj, ĝia opinio pri nombroj
+Pro preskaŭ ĉio en la lambdokalkulo esprimitas kiel funkcioj, ĝia opinio pri nombroj
 unikas. Aserteble, la plej grava nombro en la lambdokalkulo estas la nulo—0. Jen la difino de `0`:
 
 ```scheme
@@ -242,7 +242,7 @@ Konstrui el `0`, ni nombru la unuajn tri nombradaj nombroj:
 
 ### <a name="postanto"></a>Postanto
 
-La postanto de entjero estas difinita kiel la sekva entjero, kalkuli supren. Do, la postanto de `0`
+La postanto de entjero difinitas kiel la sekva entjero, kalkuli supren. Do, la postanto de `0`
 estas `1`. Jen la difino de la postanta funkcio:
 
 ```scheme
@@ -306,7 +306,7 @@ Ni disapartigu ĝin:
 3. La plena versio de `SS3`, kiu kongruas al `2S3` aŭ du `S` kaj `3`.
 4. Malpligrandigi plu.
 5. Eĉ malpligrandigi plu.
-6. Nun estas malpligrandiĝita al `S4`.
+6. Nun malpligrandiĝitas al `S4`.
 7. Apliki `S` al `4`.
 8. Oni alvenas ĉe `5`.
 
@@ -338,7 +338,7 @@ Ni elprovu tion:
 ≡ 6
 ```
 
-Multipliki du nombrojn en la lambdokalkulo estas tiel facila kaj simpla. Tamen, antaŭ daŭri al pli
+Multipliki du nombrojn en la lambdokalkulo estas tiel facila kaj simpla. Tamen, antaŭ ol daŭri al pli
 aritmetikaj funkcioj, ni unue traktu verecajn valorojn kaj kondiĉaĵojn, kiuj estas antaŭkondiĉoj en
 lerni la aliajn funkciojn.
 
