@@ -43,7 +43,7 @@ Prelude> divMod 5 (-13)
 
 Apartan atenton al negativaj nombroj donante, jen kelkaj rimarkoj pri ĝi:
 
-- `quotRem` kaj `divMod` kondutas same se ĉiom da argumentoj estas pozitivaj.
+- `quotRem` kaj `divMod` kondutas same se ĉiom da argumentoj pozitivas.
 
 - `quot` liveras `0`, se la dividato estas malpli ol la dividanto.
 
@@ -51,8 +51,7 @@ Apartan atenton al negativaj nombroj donante, jen kelkaj rimarkoj pri ĝi:
 
 - `rem` liveras la dividato, se la dividato estas malpli ol la dividanto.
 
-- `div` rondigas la dividanton al negative senfineco, se aŭ la dividato aŭ la dividanto estas
-  negativa.
+- `div` rondigas la dividanton al negative senfineco, se aŭ la dividato aŭ la dividanto negativas.
 
 - `mod` sekvas la signon de la dividanto.
 
@@ -62,10 +61,10 @@ Apartan atenton al negativaj nombroj donante, jen kelkaj rimarkoj pri ĝi:
 - `mod` liveras la dividaton, se la dividato estas malpli ol la dividanto, kaj ambaŭ argumentoj estas
   pozitivaj.
 
-- `div` liveras `-1` se la dividato estas negativa, kaj ĝia absoluta valoro estas malpli ol la
+- `div` liveras `-1` se la dividato negativas, kaj ĝia absoluta valoro estas malpli ol la
   dividanto.
 
 - `quot` kaj `div` liveras `0` se la dividato estas `0`, kaj la dividanto ne estas nulo.
 
 - `mod` liveras la diferencon de la absolutaj valoroj de la dividanto kaj la dividato, sekvante la
-  signon de la dividanto, se aŭ la dividanto aŭ la dividato estas negativaj.
+  signon de la dividanto, se aŭ la dividanto aŭ la dividato negativas.
