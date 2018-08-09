@@ -3,7 +3,7 @@ Quotes
 
 <div class="center">[Esperante](/eo/citajxoj) · [English](#)</div>
 <div class="center">August 29, 2015</div>
-<div class="center">Last updated: August 1, 2018</div>
+<div class="center">Last updated: August 9, 2018</div>
 
 This page contains a list of curated quotations, aphorisms, and proverbs that I have collected over
 the years.
@@ -728,3 +728,7 @@ the years.
 
 - Never forget that only dead fish swim with the stream.<br>
   ―Malcolm Muggeridge
+
+
+- The world loves to be deceived.<br>
+  ―Sebastian Franck, Paradoxa Ducenta Octoginta
