@@ -3,7 +3,7 @@ KVM-e Virtualigadi en Linukso
 
 <div class="center">[Esperante](#) · [English](/en/kvm)</div>
 <div class="center">la 3-an de marto 2018</div>
-<div class="center">Laste ĝisdatigita: la 8-an de aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 10-an de aŭgusto 2018</div>
 
 >Se tion oni faras, kion oni ĉiam faras; tion oni akiros, kion oni ĉiam akiras.<br>
 >―Anthony ROBBINS
@@ -150,7 +150,7 @@ La ĉi-supraj komandoj:
 ### <a name="sxargxu"></a>La bildon ŝarĝi
 
 La komandon `qemu-kvm` oni nun devas alvoki, la komando kiu ĉion lanĉas. La nomo de la komando eble
-malsamas kun la tiu, kiu estas instalita sur la sistemo.
+malsamas kun la tiu, kiu instalitas sur la sistemo.
 
 Se operaciumon el praŝarĝebla bildo oni instalas, kutime la ISO-a dosiero, kuru:
 

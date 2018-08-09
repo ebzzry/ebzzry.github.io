@@ -3,9 +3,9 @@ Dosierujojn Emakse Mastrumi
 
 <div class="center">[Esperante](#) · [English](/en/emacs-dired)</div>
 <div class="center">la 12-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 8-an de aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 10-an de aŭgusto 2018</div>
 
->Supozi estas bona, tamen eltrovi estas pli bona.<br>
+>Supozi bonas, tamen eltrovi pli bonas.<br>
 >―Samuel CLEMENS
 
 En ĉi tiu afiŝo, mi fokusas sur unu el la plej lertaj manieroj, kiel Emakso traktas dosierujan
@@ -53,8 +53,8 @@ eksplicite esprimis alie.
 <a name="komunaj"></a>Komunaj komandoj
 --------------------------------------
 
-Jen la kutimaj komandoj kiujn oni uzus, en Dired-a bufro. Krome, ili povas funkcii sur unuobla aŭ
-pluraj eroj. Uzi ilin por pluraj eroj estos klarigitaj sekve.
+Jen la kutimaj komandoj kiujn oni uzus, en Dired-a bufro. Kaj cetere, ili povas funkcii sur unuobla
+aŭ pluraj eroj. Uzi ilin por pluraj eroj estos klarigitaj sekve.
 
 | Klavo   | Kion ĝi faras               |
 | :------ | :-------------------------- |

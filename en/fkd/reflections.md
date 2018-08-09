@@ -273,7 +273,7 @@ Entries are sorted in chronological order.
 - In all wars, all of the participants get injured.<br>
 
 
-- In my own silences, I reflect if life has an intrinsic menaing. Is the value of life a mere
+- In my own silences, I reflect if life has an intrinsic meaning. Is the value of life a mere
   contrivance of humans?<br>
 
 

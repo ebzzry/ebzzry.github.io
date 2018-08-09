@@ -3,7 +3,7 @@ Retpoŝton Emakse Agordi
 
 <div class="center">[Esperante](#) · [English](/en/emacs-mail)</div>
 <div class="center">la 14-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 8-an de aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 10-an de aŭgusto 2018</div>
 
 >Nur tial ke ne fariĝis, ne signifas, ke ne fareblas. Nur tial ke fareblas, ne
 >signifas, ke devus.<br>
@@ -130,8 +130,7 @@ Per APT:
 
     $ sudo apt-get install maildir-utils
 
-Krome al la supra instrukcio, oni bezonas elŝuti mu4e-on. Venas kun la fontkodo de mu-o. Elŝutu ĝin per
-kuri:
+Kaj cetere, oni bezonas elŝuti mu4e-on. Venas kun la fontkodo de mu-o. Elŝutu ĝin per kuri:
 
     $ mkdir ~/.emacs.d
     $ cd ~/.emacs.d
@@ -141,8 +140,8 @@ kuri:
 en kiu, Emakso trovas pravalorizajn dosierojn. Notu, ke la supra git-a komando, fakte elŝutas la
 fontkodon de mu-o, kaj oni fakte povas uzi ĝin por instali mu-on. Tamen, tial ke oni jam havas sian
 pako-administrilon, si malatentos tion. Kaj la dosierindiko, en kiu, la `mu/mu4e/`-a subdosierujo
-ekzistas de la pako-administrila instalo, malsimilas inter sistemoj. Do, intertempe, oni nur estas
-interesita pri la `mu/mu4e/`-a subdosierujo.
+ekzistas de la pako-administrila instalo, malsimilas inter sistemoj. Do, intertempe, oni nur
+interesitas pri la `mu/mu4e/`-a subdosierujo.
 
 
 ### <a name="legiagordo"></a>Agordo
@@ -159,8 +158,8 @@ Tiam, aldonu la jenan:
 (require 'mu4e)
 ```
 
-Krome oni bezonas enmeti kelkajn informojn pri onii, por ke, Emakso ne ĝenatas demandi onin pri tiuj
-detaloj poste:
+Kaj cetere oni bezonas enmeti kelkajn informojn pri onii, por ke, Emakso ne ĝenatas demandi onin pri
+tiuj detaloj poste:
 
 ```lisp
 (setq user-full-name "Foo B. Baz"
@@ -241,7 +240,7 @@ kampojn kiel `To:`, kaj `Subject:`, tiam sur la mesaĝokorpo, premu:
 por plenumigi kelkajn informojn pri la elira retpoŝtservilo (SMTP). La SMTP-a servilo de Gmail
 estas `smtp.gmail.com`, tiam uzu `UZANTNOMO@gmail.com` kiam invitita por la uzantnomo. Uzu onian
 kutiman pasvorton, kiam invitita, aŭ enigu onian apspecifan pasvortos, kiel priskribita antaŭe. Ĉi
-tiu informo estas konservita al `~/.authinfo`, kaj estos uzata por postaj mesaĝoj.
+tiu informo konservitas al `~/.authinfo`, kaj estos uzata por postaj mesaĝoj.
 
 Por malĉifri mesaĝon, malfermu la mesaĝon, tiam premu:
 

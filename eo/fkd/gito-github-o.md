@@ -3,7 +3,7 @@ Maldaŭra Rondvojaĝo de Gito kaj GitHub-o
 
 <div class="center">[Esperante](#) · [English](/en/git-github)</div>
 <div class="center">la 11-an de julio 2018</div>
-<div class="center">Laste ĝisdatigita: la 8-an de aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 10-an de aŭgusto 2018</div>
 
 >Ĉiujn solvitajn problemon sciu kiel solvi.<br>
 >―Richard P. FEYNMAN
@@ -102,7 +102,7 @@ Por la enmetoprotokolon kun la diferencoj montri:
 
     $ git log -p
 
-Kiam la ŝanĝojn oni jam testis estas stabilaj, ŝaltu al la `master`-a branĉo.
+Kiam la ŝanĝoj, kiujn oni jam testis, estas stabilaj, ŝaltu al la `master`-a branĉo.
 
     $ git checkout master
 
@@ -124,7 +124,7 @@ uzos en ĉi tiu diskuto.
 
 ### <a name="sxlosiloj"></a>La sekurŝelajn ŝlosilojn generi
 
-La mem oni devas esti kapabla por veriĝi al la GitHub-a konto, antaŭ la ŝanĝojn oni povas puŝi. Por
+La mem oni devas esti kapabla por veriĝi al la GitHub-a konto, antaŭ ol la ŝanĝojn oni povas puŝi. Por
 tion fari, la sekurŝelajn ŝlosilojn oni devas krei. Por tion fari, la jenan komandon kuru. Certigu,
 ke [fortan pasfrazon](https://xkcd.com/936/) oni disponigas, kiam oni invitiĝis:
 
@@ -190,7 +190,7 @@ Sekve, na «remote» nomiĝas «upstream» kreu kiu la ŝanĝojn el la fonta dep
 
     $ git remote add upstream git@github.com:ogag/foobar.git
 
-Kiam ŝanĝojn al la kodo oni volas fari, apartan branĉon kreu. Branĉan nomon kiu estas priskriba de
+Kiam ŝanĝojn al la kodo oni volas fari, apartan branĉon kreu. Branĉan nomon kiu priskribas de
 la ŝanĝojn kiujn oni volas fari kreu. La nomo povas esti ŝanĝita poste. En ĉi tiu ekzemplo, branĉon
 nomiĝas `novopcioj` ni kreos:
 

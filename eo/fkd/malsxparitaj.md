@@ -3,7 +3,7 @@ Malŝparitaj Malcedemoj
 
 <div class="center">[Esperante](#) · [English](/en/squandered)</div>
 <div class="center">la 5-an de decembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 8-an de aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 10-an de aŭgusto 2018</div>
 
 >La unua paŝo por iri ien, estas decidi, ke oni ne restos kie oni estas.<br>
 >―J.P. MORGAN
@@ -24,7 +24,7 @@ montrantaj al ni kion minacantaj abomenaĵoj eble altiĝas el la tero, pretaj po
 pli ni restas ekster, des pli alta la probablo de morto.
 
 Ni igas nin mem por kredi niajn proprajn kondamnojn; ni pravigas per niaj propraj mallaŭnormigataj
-skaloj de kiujn elektoj por fari. Kiam ajn nekonataj teritorioj estas esploritaj, ni preskaŭ tuj
+skaloj de kiujn elektoj por fari. Kiam ajn nekonataj teritorioj esploritas, ni preskaŭ tuj
 vindiĝas, reen en ŝajne kontraŭstaremaj formoj. Ni faras ĝin pro la timo. Ni faras ĝin tial ke ni ne
 ŝatas la nekonatajn. Ni faras ĝin pro niaj parencecoj kaj sindonoj por sekureco.
 
@@ -36,7 +36,7 @@ sensacioj.
 
 Niaj propraj antaŭjuĝemoj por atingi la premion, efektive haltas nin al fakte atingi ĝin, subfali al
 la senmemriproĉaj pretendoj de aliaj pri siaj malsukcesoj, faras nin malkleraj de la nevidata
-realaĵo. Kiam la nombro de personoj kiuj alfluas ĉirkaŭ ni, estas sufiĉe alta, laŭ niaj personaj
+realaĵo. Kiam la nombro de personoj kiuj alfluas ĉirkaŭ ni, sufiĉe altas, laŭ niaj personaj
 metrikoj, ni malklere infuzas al ni mem kiun ili zumas al ni, kaj tiam ni difektas nin mem kaj sekve
 mortas la esencon de nia individueco.
 
@@ -54,12 +54,12 @@ per sciemo, ni eltrovas jam alian regnon de eblecoj—ni trovas nin mem en dimen
 viditaj, kaj tutegale kiom da koto kaj ŝlimo ni sapumas sur niaj korpoj, ni ne zorgis. Ĉio, kio
 gravis al ni, estis ke, ni havas amuzon en marŝi la malfinian vojaĝon de eltrovo. Jam, ni lernis.
 
-Estas ironie, ke tuj kiam ni pensas ke ni jam estas sufiĉe maljunaj por senhelpe veturi la mondon
+Estas ironie, ke tuj kiam ni pensas ke ni jam sufiĉe maljunas por senhelpe veturi la mondon
 per niaj trejnadaj radoj, ni sufokiĝas per mezkvalitaj celoj de pseŭdoeltrovo. Kiam la kurteno
 senvualiĝis, ni alfrontiĝis per ŝoka vido—ni ja perdis la ardon, kiu unufoje irigis nin por havi
 elsciadon. Ni timemiĝis por ekzerci la samajn teĥnikojn kaj maksimojn, kiujn ni unufoje havis kiel
 infanoj. Ni haltiĝis de fari sciemajn inkviziciojn pri kion faras ekster. Ni fariĝas por bonforte
-senti pri tio, kio estas antaŭmetata sur la instituciigitaj teleroj, sen la plej minimuma klopodo
+senti pri tio, kio antaŭmetatas sur la instituciigitaj teleroj, sen la plej minimuma klopodo
 por apogiĝi ĝis elpensi demandojn.
 
 La socio, kiu ni ĉiuj estas parto de ĝi, estas parto de la malsano. Ĉi tiu malsano estas tio, kion
@@ -81,7 +81,7 @@ aspektata?
 ni pridemandiĝas de aferoj pensataj kiel pli simpla ol mezlernejaj klasejaj lecionoj. Tamen,
 ekzistas iuj aferoj kiuj komunas al ni, kvankam ne ĉio: ni timemas vidi kiel socio eble reagas
 al niaj agoj, kiel ajn stultaj aŭ gravaj niaj agoj povas esti. Tamen, pri la pli gravaj aferoj, ni
-prete miksiĝi, tial ke ni ne volas malakcepton. Plejparto da ni estas feliĉaj por pensi kaj movi kun
+prete miksiĝi, tial ke ni ne volas malakcepton. Plejparto da ni feliĉas por pensi kaj movi kun
 la grego, sen ia antaŭzorgo.
 
 Kiam ni propravole alligi al niaj kruroj la pezajn ĉenojn kaj ŝtalpilkojn, ni ne devus anticipi por

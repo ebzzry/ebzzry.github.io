@@ -124,7 +124,7 @@ la antaŭmenciita ligilo.
 -------------------------------------
 
 Mi laŭcele preterpasis multe da temo de la [oficialdokumento](http://www.nongnu.org/geiser/), tial
-ke, fariĝas malĉarma al multe da homo, kiuj estas malinklinaj por legi longajn blokojn de
+ke, fariĝas malĉarma al multe da homo, kiuj malinklinas por legi longajn blokojn de
 teksto. Ironie, ĉi tiu artikolo povas kvalifi kiel tiu. La priskribitaj metodoj supre ne
 reprezentiĝas de konsilitaj manieroj, de la komunumo, de instali kaj uzi Rakidon Emakse. Do, ĝis!
 

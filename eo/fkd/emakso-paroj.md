@@ -3,7 +3,7 @@ Emakso kaj Paroj
 
 <div class="center">[Esperante](#) · [English](/en/emacs-pairs)</div>
 <div class="center">la 9-an de julio 2018</div>
-<div class="center">Laste ĝisdatigita: la 8-an de aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 10-an de aŭgusto 2018</div>
 
 >La blanka bruo kiu batas ene la blanka mallumo estas la ritmo de la vivo; estas la pulso kiu
 >neniam vere foriris la podion.<br>
@@ -16,7 +16,7 @@ estas bona memorigilo.
 _smartparens_ estas unu el tiuj pakoj kiu draste plibonigas, kaj ŝanĝas kiel emakson oni
 uzas. Similas al kibernetikajn membrojn—onin igas por pli alte salti kaj pli forte pugnobati.
 
-Tenu en la kalkulo, ke la nomo estas iomete malprava tial, ke ne nur rondajn krampojn ĝi
+Tenu en la kalkulo, ke la nomo estas malpravas tial, ke ne nur rondajn krampojn ĝi
 traktas. Ankaŭ iujn ajn kiuj pariĝas ĝi traktas, kaj ilin ĝi traktas stele.
 
 
@@ -71,7 +71,7 @@ Na smartparens oni ŝaltu en la startigo, kaj ĝin oni kroĉu al egaj kroĉiloj:
 -------------------------
 
 Parigitajn karakterojn kiel rondaj krampoj, kurbaj krampoj, kvadrataj krampoj, citiloj, angulaj
-krampoj, kaj aliaj koncepteblaj parigeblaj karakteroj mastrumi jam estas ĉiam doloraj. Tiun
+krampoj, kaj aliaj koncepteblaj parigeblaj karakteroj mastrumi jam ĉiam doloras. Tiun
 problemon aliaj pakoj solvas parte. Bedaŭrinde, kelkajn punktojn ili maltrafas.
 
 En la kodetoj ĉi-sube, la `^` simbolo estos uzita por la
@@ -88,7 +88,7 @@ Smartparens-e, kiam parigeblan karakteron oni enigas:
           ^
 ```
 
-la kongruan paron ankaŭ eniĝas, kaj la punkto estas poziciita ene la paro:
+la kongruan paron ankaŭ eniĝas, kaj la punkto poziciitas ene la paro:
 
 ```clojure
 

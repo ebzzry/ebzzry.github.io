@@ -3,7 +3,7 @@ Retnodojn Usync-e Sinkronigi
 
 <div class="center">[Esperante](#) · [English](/en/usync)</div>
 <div class="center">la 7-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 6-an de aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 10-an de aŭgusto 2018</div>
 
 >Kion mi ne povas krei, mi ne komprenas.<br>
 >―Richard P. FEYNMAN
@@ -37,7 +37,7 @@ variablo:
 
     $ usync /pub/jot/ninam/ tarupam,taubetmo
 
-La antaŭ komando faros ambaŭdirektan sinkronigon de la dosierujo `ninam/` troveblas sub `/pub/yot`,
+La antaŭ ol komando faros ambaŭdirektan sinkronigon de la dosierujo `ninam/` troveblas sub `/pub/yot`,
 al `tarupam:/pub/yot/` kaj `taubetmo:/pub/yot/`.
 
 Per la antaŭ ekzemplo, la ambaŭdirekto sinkronigo simple diras, ke se la arbo
@@ -57,9 +57,9 @@ fari tiel, kuru:
 
     $ usync /pub/jot/ninam/ ~/file.text ~reyn/*.blend tarupam,taubetmo
 
-La antaŭ komando faros ambaŭdirektan sinkronigon de la dosierindikoj `/pub/jot/ninam/`,
+La antaŭ ol komando faros ambaŭdirektan sinkronigon de la dosierindikoj `/pub/jot/ninam/`,
 `~/file.text`, kaj `~reyn/*.blend` al la mallokaj retnodoj `tarupam` kaj `taubetmo`, laŭ la sama
-dosieruja struktura sistemo kiu estas priskribita supre.
+dosieruja struktura sistemo kiu priskribitas supre.
 
 Se vi volas fari unudirektan sinkronigon de la supraj, kiel _rsync_, kuru:
 

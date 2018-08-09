@@ -3,13 +3,13 @@ Na Markdown Emem-e Konverti al HTML
 
 <div class="center">[Esperante](#) · [English](/en/emem)</div>
 <div class="center">la 5-an de aŭgusto 2018</div>
-<div class="center">Laste ĝisdatigita: la 8-an de aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 10-an de aŭgusto 2018</div>
 
 >Oni ne trovos la respondojn kiujn oni serĉas ĝis oni haltas serĉi ekster kaj komenciĝas serĉi ilin
 >el oni mem.<br>
 >―Memory GATEKEEPER, Ergo Proxy
 
-Manieron por HTML-ajn dokumentojn krei el miaj Markdown-aj dosieroj mi ĉiam estas volinta. Komence,
+Manieron por HTML-ajn dokumentojn krei el miaj Markdown-aj dosieroj mi ĉiam volintas. Komence,
 HTML-ajn dosierojn el miaj tekstaj dosieroj mi nur volis havi por ke ilin mi povas vidi per mia
 poŝtelefono. Poste, manieron por tiujn dosierojn krei por ke ilin mi povas alŝuti al la interreto
 kaj ilin vidi sur aliaj aparatoj. Jam ekzistas iloj por ja tion fari. Ilin mi provis, tamen min mem
@@ -18,7 +18,7 @@ kriterio: facile por munti, facile por uzi, kaj decan eligon realigas.
 
 Na [emem](https://github.com/ebzzry/emem) mi skribis kiel respondo al tiuj bezonoj. Emem estas
 malgranda ilo kiu Markdown-ajn dosierojn ricevas aŭ el la ĉefenigujo aŭ diska dosiero, tiam HTML-an
-eligon liveras kiu estas sufiĉe deca, almenaŭ por kutima rigardado.
+eligon liveras kiu sufiĉe decas, almenaŭ por kutima rigardado.
 
 
 <a name="et"></a>Enhavotabelo
@@ -41,7 +41,7 @@ Tiam, na emem oni nun povas instali per:
 
     $ nix-env -i emem
 
-Se na Nix oni ne povas instali, tamen ĝavo estas instalita, porokazan skripton oni povas anstataŭ
+Se na Nix oni ne povas instali, tamen ĝavo instalitas, porokazan skripton oni povas anstataŭ
 krei:
 
 ```bash
@@ -208,7 +208,7 @@ rendimentan rangon de A oni eĉ povas atingi, kiam retumilan kaŝmemoron oni eks
 `Vary: Accept-Encoding`-an ĉapon precizigas. Na [GitHub Pages](https://pages.github.com) mi uzas, do estas
 malsama rakonto de mi.
 
-Mi feliĉas pri la eligo kiun emem liveras. Estas sufiĉe rapida kaj ĝin mi povas etendi facile. Ĝin
+Mi feliĉas pri la eligo kiun emem liveras. Sufiĉe rapidas kaj ĝin mi povas etendi facile. Ĝin
 mi eĉ uzas por miaj propraj kaj postenaj dokumentadoj. Ĝin mi ankaŭ uzas per emakso por TTT-ajn
 versiojn de Markdown-aj bufroj krei per
 [shell-command](https://www.gnu.org/software/emacs/manual/html_node/elisp/Synchronous-Processes.html)

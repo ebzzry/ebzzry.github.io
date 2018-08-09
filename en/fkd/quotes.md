@@ -68,7 +68,7 @@ the years.
   ―W. Edwards Deming
 
 
-- Good judgement comes from experience, and experience comes from bad judgement.<br>
+- Good judgment comes from experience, and experience comes from bad judgment.<br>
   ―Fred Brooks
 
 
@@ -466,7 +466,7 @@ the years.
   ―Ergo Proxy, Ergo Proxy
 
 
-- In my desperate attempts to become a fellow citizen, I’ve constantly supressed myself and tried
+- In my desperate attempts to become a fellow citizen, I’ve constantly suppressed myself and tried
   to be the person I thought they wanted.<br>
   ―Vincent Law, Ergo Proxy
 
@@ -512,7 +512,8 @@ the years.
   ―Neil deGrasse Tyson
 
 
-- For me, it is far better to grasp the Universe as it really is than to persist in delusion, however satisfying and reassuring.<br>
+- For me, it is far better to grasp the Universe as it really is than to persist in delusion,
+  however satisfying and reassuring.<br>
   ―Carl Sagan
 
 
@@ -524,7 +525,8 @@ the years.
   ―Hugh Derry, Life (2017)
 
 
-- Failure is only the opportunity more intelligently to begin again. There is no disgrace in honest failure; there is disgrace in fearing to fail.<br>
+- Failure is only the opportunity more intelligently to begin again. There is no disgrace in honest
+  failure; there is disgrace in fearing to fail.<br>
   ―Henry Ford
 
 
@@ -536,7 +538,8 @@ the years.
   ―Eames, Inception (2010)
 
 
-- An idea is like a virus. Resilient. Highly contagious. And the smallest seed of an idea can grow. It can grow to define or destroy you<br>
+- An idea is like a virus. Resilient. Highly contagious. And the smallest seed of an idea can
+  grow. It can grow to define or destroy you<br>
   ―Dominick Cobb, Inception (2010)
 
 
@@ -544,11 +547,16 @@ the years.
   ―MindSmash, YouTube
 
 
-- This is what I did in order to preserve my life. I am a different species from you, but we are in a partnership which demands mutual respect. On that premise, the common purpose that binds us is survival.<br>
+- This is what I did in order to preserve my life. I am a different species from you, but we are in
+  a partnership which demands mutual respect. On that premise, the common purpose that binds us is
+  survival.<br>
   ―Migi, Parasyte -the maxim- (2014)
 
 
-- You all underestimate humans. Individually, they may appear weak, but that is not the case. What we need to recognize is that humans are a single lifeform comprised of millions of individuals. Besides their individual brains, humans possess a different ‘brain’ of enormous magnitude. The moment we act in opposition to that brain, we will lose.<br>
+- You all underestimate humans. Individually, they may appear weak, but that is not the case. What
+  we need to recognize is that humans are a single life form comprised of millions of
+  individuals. Besides their individual brains, humans possess a different ‘brain’ of enormous
+  magnitude. The moment we act in opposition to that brain, we will lose.<br>
   ―Reiko Tamura, Parasyte -the maxim- (2014)
 
 
@@ -580,7 +588,8 @@ the years.
   ―Alan Kay
 
 
-- For me it’s not a question of whether we will become an interstellar species, but only a question of when.<br>
+- For me it’s not a question of whether we will become an interstellar species, but only a question
+  of when.<br>
   ―Stephen Hawking
 
 
@@ -606,7 +615,8 @@ the years.
   ―Alan Kay
 
 
-- Try and think of which ones where the world will be very different if you made different assumptions.<br>
+- Try and think of which ones where the world will be very different if you made different
+  assumptions.<br>
   ―Alan Kay
 
 
@@ -681,7 +691,8 @@ the years.
   ―Jeanne Marie G. Ciño
 
 
-- We have to learn, in Computer Science, to stand on the shoulders of our predecessors, not their toes.<br>
+- We have to learn, in Computer Science, to stand on the shoulders of our predecessors, not their
+  toes.<br>
   ―Dr. Daniel G. Bobrow
 
 
@@ -697,7 +708,8 @@ the years.
   ―Yukitaka Yamaguchi
 
 
-- Well, we look at people who’ve been shattered and different as less than. What if they’re more than us?<br>
+- Well, we look at people who’ve been shattered and different as less than. What if they’re more
+  than us?<br>
   ―Dr. Karen Fletcher, Split (2016)
 
 
@@ -705,15 +717,18 @@ the years.
   ―Chesley Sullenberger, Sully (2016)
 
 
-- The mass of men lead lives of quiet desperation. What is called resignation is confirmed desperation.<br>
+- The mass of men lead lives of quiet desperation. What is called resignation is confirmed
+  desperation.<br>
   ―Henry David Thoreau
 
 
-- The question of whether a computer can think is no more interesting than the question of whether a submarine can swim.<br>
+- The question of whether a computer can think is no more interesting than the question of whether a
+  submarine can swim.<br>
   ―Edsger Dijkstra
 
 
-- It is impossible to sharpen a pencil with a blunt axe. It is equally vain to try to do it with ten blunt axes instead.<br>
+- It is impossible to sharpen a pencil with a blunt axe. It is equally vain to try to do it with ten
+  blunt axes instead.<br>
   ―Edsger Dijkstra
 
 

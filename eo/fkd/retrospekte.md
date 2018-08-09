@@ -49,10 +49,9 @@ tiun demandon estis atesto por la sperto. Postvivado estas 20/20.
 
 Mi ofte aŭdis la frazon _“Vi ne devis doni vian ĉion.”_ Tio eblis funkcii al ili. Tio eblis funkcii
 al iliaj metodoj, tamen nepre por mi. Kial? Tial ke, mi ne povos esplori miajn limojn se estas mi
-mem, kiu metos la limojn, antaŭ mi eĉ esploras. Se mi ne ege strebas, mi ne povas iri ien. Mi
+mem, kiu metos la limojn, antaŭ ol mi eĉ esploras. Se mi ne ege strebas, mi ne povas iri ien. Mi
 porĉiame enfermitos en la sama loko. Se oni ne donos siajn plej bonajn en ĉiu ŝanco kiun si havos,
-siaj agoj facile falas en la kategorio de duagradeco. Se io valoras fari, valoras fari ĝin tre
-bone.
+siaj agoj facile falas en la kategorio de duagradeco. Se io valoras fari, valoras fari ĝin tre bone.
 
 Niaj mensoj reagas al stimuloj, kaj ĉi tio ankaŭ aplikatas al iliaj prikomponantoj, kiel niaj
 bonfartoj kaj pensmaniero. Kiam ni trotrejnas niajn korpojn, plej verŝajne, ili spertos

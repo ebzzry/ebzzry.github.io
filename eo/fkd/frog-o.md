@@ -3,9 +3,9 @@ Frog-e Blogi
 
 <div class="center">[Esperante](#) · [English](/en/frog)</div>
 <div class="center">la 16-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 8-an de aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 10-an de aŭgusto 2018</div>
 
->Unu persono kun ardo estas pli bona ol kvardek personoj nure interesataj.<br>
+>Unu persono kun ardo pli bonas ol kvardek personoj nure interesataj.<br>
 >―E.M. FORSTER
 
 Kiam eldoni blogan enhavon al la TTT, la plejmulto de homoj kondifus antaŭkreitajn servojn, kiuj
@@ -42,14 +42,14 @@ estas kiel mi, daŭru legi.
 ---------------------------------------
 
 Kiam mi trovadis ilojn por krei ĉi tiun blogon, mi malkontentiĝis pri la plejmulto de la famaj
-opcioj. Iuj estas tro malfacilaj por agordi; iuj malhavas kapablojn. Mi frustriĝis pro ĉiu fino
-de la spektro devigas min por uzi ion, kiu estas tro mezkvalita en almenaŭ unu kritika
+opcioj. Iuj tro malfacilas por agordi; iuj malhavas kapablojn. Mi frustriĝis pro ĉiu fino
+de la spektro devigas min por uzi ion, kiu tro mezkvalitas en almenaŭ unu kritika
 aspekto. Bonŝance, mi trovis je [Frog](https://github.com/greghendershott/frog) pro propono en
 [#racket](https://kiwiirc.com/client/irc.freenode.net/#racket).
 
 Frog-o en laikoterminoj, estas retejokreilo, kiu estas tiel facila uzi, agordi, kaj tajlori. Kio
 ajn oni skribas aperos sur ĝi kiel si anticipas. Nek ekzistas bizaraj kondiĉoj de uzado, nek
-arbitraj limigoj, nek trudoj—estas tre proksima al tuta rego, en la pinto de la fingropintoj.
+arbitraj limigoj, nek trudoj—tre proksimas al tuta rego, en la pinto de la fingropintoj.
 
 Frog-o operacias ie en la mezo de jena spektro:
 
@@ -57,7 +57,7 @@ Frog-o operacias ie en la mezo de jena spektro:
 
 En kiu, krudenhavo estas aŭ Markdown, Scribble, aŭ HTML-aj fontdosieroj, aŭ kombinado de ĉio. Frog-o
 konsumas tiujn enigdosierojn, kiam si eligas agrablajn HTML-ajn dosierojn, kiuj oni povas alŝuti al
-sia TTT-servilo. Ĉu estas facila? Ne, estas pli facila ol sonas.
+sia TTT-servilo. Ĉu facilas? Ne, pli facilas ol sonas.
 
 
 <a name="instalo"></a>Instalo
@@ -96,8 +96,8 @@ Poste, oni akiros la `raco frog`-an komandon. Ni montru ĝiajn helpajn opciojn:
 Dolĉe. Nu, nun oni havas je Frog instalita, ni daŭru ruli. Por krei la unuan Frog-an disponigitan
 retejon, oni kreos la projektan dosierujon unue:
 
-    $ mkdir blog
-    $ cd blog
+    $ mkdir blogo
+    $ cd blogo
 
 Tiam, bruligu la sparkilon pravalorizi la retan deponejon:
 
@@ -121,35 +121,34 @@ komandlinio kaj ni mortigu tiun procezon per premi <kbd>C-c</kbd>.
 
 Krei novan afiŝon el nulo estas alia facila tasko:
 
-    $ raco frog -n "New Blog Post."
+    $ raco frog -n "Nova Bloga Afisxo"
 
 Ĉi tiu kreas Markdown-an dosieron, kiu relativas al la nuna dosierujo, per la
-formato `_src/posts/YYYY-MM-DD-post-title.md`. Per la supra komando, la absoluta dosierindiko estus
+formato `_src/posts/YYYY-MM-DD-afisxa-titolo.md`. Per la supra komando, la absoluta dosierindiko estus
 simila al:
 
-    /home/ogag/blog/_src/posts/2014-02-21-new-blog-post.md
+    /home/ogag/blogo/_src/posts/2014-02-21-nova-bloga-afisxo.md
 
 Ni redaktu tiun dosieron, kaj vidu kiel ĝi aspektas:
 
-    $ emacs _src/posts/2014-02-21-new-blog-post.md
+    $ emacs _src/posts/2014-02-21-nova-bloga-afisxo.md
 
 ```
-    Title: New Blog Post
+    Title: Nova Bloga Afiŝo
     Date: 2014-02-21T18:53:42
     Tags: DRAFT
 
-_Replace this with your post text. Add one or more
-comma-separated Tags above. The special tag `DRAFT`
-will prevent the post from being published._
+_Ĉi tion anstataŭigu per la afiŝa teksto. Unu aŭ pli perkome disigitajn etikedojn aldonu ĉi-supre. La
+afiŝon por esti eldonita la speciala etikedo `DRAFT` malebligas._
 
 <!-- more -->
 ```
 
-Tenu en la kalkulo, ke ĉi tiu dosiero, estas kreita por oni per la komando `raco frog -n ...`.  La
+Tenu en la kalkulo, ke ĉi tiu dosiero, kreitas por oni per la komando `raco frog -n ...`.  La
 unuaj tri linioj enhavas la metadatumojn pri la afiŝo. Ili estas la afiŝotitolo, estigdato, kaj
-etikedoj, respektive. La dato estis elektita el la `-n`-a ŝaltilo, kiu estas proklamita antaŭe. La
+etikedoj, respektive. La dato estis elektita el la `-n`-a ŝaltilo, kiu proklamitas antaŭe. La
 `Tags`-aj kampoj, enhavas diskomajn listojn de vortoj, kiuj Frog poste priidentigus la afiŝon. Kiam
-la usklecodistinga etikedo `DRAFT` estas uzata, la dosiero estos pretersalita dum la kunmetfazo.
+la usklecodistinga etikedo `DRAFT` uzatas, la dosiero estos pretersalita dum la kunmetfazo.
 
 Kvar spacetoj devas esti prefiksitaj antaŭ tiuj tri linioj, sekvita de malplena linio. La resto
 estos la efektiva artikola enhavo, en la Markdown-a formato. Kiam linio per si mem enhavas nur la
@@ -160,20 +159,23 @@ ne aperos en la bloga indekso, sed aperos en la ligilo por la tutafiŝo.
 Ni supozu, ke oni ŝanĝas tiun dosieron por aspekti kiel io la jena:
 
 ```
-    Title: New Blog Post
+    Title: Nova Bloga Afiŝo
     Date: 2014-02-21T18:53:42
-    Tags: arts, history
+    Tags: arto, historio
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec
-odio. Quisque volutpat mattis eros. Nullam malesuada erat ut
-turpis. Suspendisse urna nibh, viverra non, semper suscipit,
-posuere a, pede.
+Se ia aŭtoritata centra institucio trovos, ke tiu aŭ alia vorto aŭ regulo en nia lingvo estas tro
+neoportuna, ĝi ne devos forigi aŭ ŝanĝi la diritan formon, sed ĝi povos proponi formon novan, kiun
+ĝi rekomendos uzadi paralele kun la formo malnova. Kun la tempo la formo nova iom post iom elpuŝos
+la formon malnovan, kiu fariĝos arĥaismo, kiel ni tion ĉi vidas en ĉiu natura lingvo. Sed,
+prezentante parton de la fundamento, tiuj ĉi arĥaismoj neniam estos elĵetitaj, sed ĉiam estos
+presataj en ĉiuj lernolibroj kaj vortaroj samtempe kun la formoj novaj, kaj tiamaniere ni havos la
+certecon, ke eĉ ĉe la plej granda perfektiĝado la unueco de Esperanto neniam estos rompata kaj neniu
+verko Esperanta eĉ el la plej frua tempo iam perdos sian valoron kaj kompreneblecon por la estontaj
+generacioj.
 
 <!-- more -->
 
-Donec nec justo eget felis facilisis fermentum. Aliquam
-porttitor mauris sit amet orci. Aenean dignissim pellentesque
-felis.
+Eĉoŝanĝo ĉiuĵaŭde
 ```
 
 Tiam, denove kuru la jenan komandon:
@@ -181,7 +183,7 @@ Tiam, denove kuru la jenan komandon:
     $ raco frog -bp
 
 Nun oni havas du afiŝojn, kiel montrata en la indekso. Por forigi la aŭtomate kreitan komencan
-afiŝon, kiu estas kreita per la komando `raco frog ‑‑init`, antaŭe, kuru:
+afiŝon, kiu kreitas per la komando `raco frog ‑‑init`, antaŭe, kuru:
 
     $ rm -f _src/posts/2012-01-01-a-2012-blog-post.md
 
@@ -231,7 +233,7 @@ afiŝoj. Malfermu la dosieron `_src/page-template.html`, troveblas en la nuna do
 
     $ emacs _src/page-template.html
 
-Oni vidos eĉ pli grandan dosieron, kontraste kun .frogrc. Ĉi tiu estas aparta HTML-a dosiero, kiu
+Oni vidos eĉ pli grandan dosieron, kontraste kun .frogrc. Ĉi tiu apartas HTML-a dosiero, kiu
 enhavas Rakidan kaj Frog-an specifajn kodojn. Estos uzata kiel bazo por ĉiuj paĝoj. Ekzitas multe da
 parametroj ĉi tie, tamen oni nur ŝanĝos iujn, kiuj estas plej utila por si ĉi-momente. Por fari ĝin
 pli facile, mi simple listigos la erojn por serĉi kaj anstataŭigi:
@@ -258,7 +260,7 @@ en la sekcio _Komentoj_.
 
 ### <a name="bootstrap.css"></a>bootstrap.css kaj bootstrap.min.css
 
-Ĉi tiuj du dosieroj respondecas por tiu, kiu estas komuna nomita, haŭtoj—regas la aspekton de
+Ĉi tiuj du dosieroj respondecas por tiu, kiu komune nomitas, haŭtoj—regas la aspekton de
 la retejo. Por ŝanĝi ĉi tiujn dosierojn, ni iru al <https://bootswatch.com/>, tiam elektu haŭton,
 kiun oni ŝatas.
 
@@ -273,37 +275,36 @@ kaj `bootstrap.min.css` kaj `bootstrap.css`. Poste, kopiu ilin al la CSS-a dosie
 
 Kiam oni kreis novan afiŝon antaŭe, oni uzis la komandon:
 
-    $ raco frog -n "New Blog Post"
+    $ raco frog -n "Nova Bloga Afisxo"
 
 Tiu komando kreas Markdown-an fontdosieron. Frog-o, tamen, havas alian reĝimon—Scribble-o. Ĉi tiu
 reĝimo permesas onin por uzi Scribble-an dosieron anstataŭe. Por krei tiun, oni uzos la jenan
 komandon:
 
-    $ raco frog -N "New Blog Post"
+    $ raco frog -N "Nova Bloga Afisxo"
 
 Per la supra komando, la absoluta dosierindiko aspektos kiel:
 
-    /home/ogag/blog/_src/posts/2014-02-21-new-blog-post.scrbl
+    /home/ogag/blogo/_src/posts/2014-02-21-nova-bloga-afisxo.scrbl
 
 Denove, ni redaktu tiun dosieron por vidi kiel ĝi aspektas ene:
 
-    $ emacs _src/posts/2014-02-21-new-blog-post.scrbl
+    $ emacs _src/posts/2014-02-21-nova-bloga-afisxo.scrbl
 
 ```
 ##lang scribble/manual
 
-Title: New Blog Post
+Title: Nova Bloga Afiŝo
 Date: 2014-02-21T18:53:42
 Tags: DRAFT
 
-Replace this with your post text. Add one or more
-comma-separated Tags above. The special tag `DRAFT`
-will prevent the post from being published.
+Ĉi tion anstataŭigu per la afiŝa teksto. Unu aŭ pli perkome disigitajn etikedojn aldonu ĉi-supre. La
+afiŝon por esti eldonita la speciala etikedo `DRAFT` malebligas.
 
 <!-- more -->
 ```
 
-Ni povas vidi, ke la Markdown-aj kaj Scribble-aj dosieroj estas plejparte similaj, krom la aldono de
+Ni povas vidi, ke la Markdown-aj kaj Scribble-aj dosieroj plejparte similas, krom la aldono de
 la lingva precizigilo, `#lang scribble/manual`, kaj la manko de la prefiksaj spacetoj por la
 metadatumaj kampoj.
 
@@ -329,7 +330,7 @@ Por importi komentojn de ekzistanta blogo al Disqus, iru al <https://import.disq
 ---------------------------
 
 Por eldoni la verkon, alŝuti la enhavojn de la dosierujo kiun Frog-o mastrumas al la defora
-servilo. En ĉi tiu gvidilo, estas la dosierujo `/home/ogag/blog`. Se la nuna dosierujo estas
+servilo. En ĉi tiu gvidilo, estas la dosierujo `/home/ogag/blogo`. Se la nuna dosierujo estas
 `blog/`, kaj oni volas sendi la dosierojn per rsync, la komando aspektus kiel:
 
     $ rsync -avz ./ deforservilo:public_html
@@ -356,11 +357,11 @@ Por vidi la retejon, iru al [ogag.github.io](http://ogag.github.io).
 <a name="finrimarkoj"></a>Finrimarkoj
 -------------------------------------
 
-Frog-o estas vivkapabla kaj utila retejokreilo. Estas facile por uzi; estas agordeblega, fleksebla, kaj
+Frog-o vivkapablas kaj utila retejokreilo. Estas facile por uzi; agordeblegas, flekseblas, kaj
 jes, malfermita kodo. Donas regon reen la verkisto. Bona ekzemplo de blogo funkciigita de Frog
 troveblas ĉe [https://ngnghm.github.io/](https://ngnghm.github.io/).
 
-Frog-o estas kreita de [Greg Hendershott](http://www.greghendershott.com/). Se oni volas lerni pli
+Frog-o kreitas de [Greg HENDERSHOTT](http://www.greghendershott.com/). Se oni volas lerni pli
 da projekto, iru [ĉi tien](https://github.com/greghendershott/frog).
 
 🐸—Kva!

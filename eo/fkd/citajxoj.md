@@ -3,7 +3,7 @@ Citaĵoj
 
 <div class="center">[Esperante](#) · [English](/en/quotes)</div>
 <div class="center">la 15-an de novembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 9-an de aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 10-an de aŭgusto 2018</div>
 
 Ĉi tiu paĝo enhavas liston de atenteme elektitaj citaĵoj, aforismoj, kaj sentencoj kiujn mi kolektis
 tra la jarojn.
@@ -61,7 +61,7 @@ tra la jarojn.
   ―Andrew HUNT kaj David THOMAS
 
 
-- Lerni ne estas necesa; nek estas travivi.<br>
+- Lerni ne necesas; nek travivas.<br>
   ―W. Edwards DEMING
 
 
@@ -69,7 +69,7 @@ tra la jarojn.
   ―Fred BROOKS
 
 
-- Unu persono kun ardo pli bonas ol kvardek personoj nure interesitaj.<br>
+- Unu persono kun ardo pli bonas ol kvardek personoj nure interesataj.<br>
   ―E.M. FORSTER
 
 
@@ -94,7 +94,7 @@ tra la jarojn.
   ―Robert J. HANLON
 
 
-- Supozi estas bona, tamen eltrovi pli bonas.<br>
+- Supozi bonas, tamen eltrovi pli bonas.<br>
   ―Samuel CLEMENS
 
 
@@ -135,9 +135,9 @@ tra la jarojn.
   ―Richard P. FEYNMAN
 
 
-- La intelekta nivelo bezonata por sistema desegno estas ĝenerale subtaksiĝata. Mi konvikiĝis pli ol
-  iam ajn, ke ĉi tiu laboro estas tre malfacila kaj ĉiu peno por fari ĝin kun alia ol la plej bonaj
-  homoj estas kondamnata por aŭ malsukceso aŭ modera sukceso per grandega kosto.<br>
+- La intelekta nivelo bezonata por sistema desegno ĝenerale subtaksiĝatas. Mi konvikiĝis pli ol
+  iam ajn, ke ĉi tiu laboro tre malfacilas kaj ĉiu peno por fari ĝin kun alia ol la plej bonaj
+  homoj kondamnatas por aŭ malsukceso aŭ modera sukceso per grandega kosto.<br>
   ―Edsger DIJKSTRA
 
 
@@ -165,7 +165,7 @@ tra la jarojn.
 
 
 - Ekzistas dekkelkjarulojn kiuj pensas ke ili kreos fari milionojn kiel NBA-ludantoj, kiam tio ne
-  estas realisma por eĉ unu elcento de ili. Iĝi scientisto aŭ inĝeniero estas.<br>
+  realismas por eĉ unu elcento de ili. Iĝi scientisto aŭ inĝeniero estas.<br>
   ―Dean KAMEN
 
 
@@ -283,7 +283,7 @@ tra la jarojn.
   ―Joseph CAMPBELL
 
 
-- Mi dankemas miajn baraktojn tial, ke sen tio mi ne estus renkonti mian forton.<br>
+- Mi dankemas pri miaj baraktoj tial, ke sen tio mi ne estus renkonti mian forton.<br>
   ―Alex ELLE
 
 
@@ -361,11 +361,12 @@ tra la jarojn.
   ―Anthony ROBBINS
 
 
-- Se ion oni volas, kion oni neniam havis, oni devas esti servopreta tion fari, kion oni neniam faris.<br>
+- Se ion oni volas, kion oni neniam havis, oni devas esti servopreta tion fari, kion oni neniam
+  faris.<br>
   ―Thomas JEFFERSON
 
 
-- Le plej bona maniero por trovi se oni povas kredi iun, estas kredi ilin.<br>
+- La plej bona maniero por trovi se oni povas kredi iun, estas kredi ilin.<br>
   ―Ernest HEMMINGWAY
 
 
@@ -389,7 +390,7 @@ tra la jarojn.
   ―Bedelia DU MAURIER, Hannibal (televida programo)
 
 
-- Treegaj agoj de krueleco postulas altan nivelon de empatio. La sekvan fojon oni havas instinkton
+- Treegaj agoj de krueleco postulas altan nivelon de kunsento. La sekvan fojon oni havas instinkton
   por helpi iun, oni devus pripensi por pisti ilin anstataŭe. Konservos onin multe da ĝeno.<br>
   ―Bedelia DU MAURIER, Hannibal (televida programo)
 
@@ -446,7 +447,7 @@ tra la jarojn.
   ―Memory GATEKEEPER, Ergo Proxy
 
 
-- Kosmo sen sciiĝo estas multe similas al stakego de putrataj libroj—porĉiame fermataj kaj
+- Kosmo sen sciiĝo multe similas al stakego de putrataj libroj—porĉiame fermataj kaj
   nelegataj.<br>
   ―Ergo PROXY, Ergo Proxy
 
@@ -469,16 +470,16 @@ tra la jarojn.
   ―Napoleon BONAPARTE
 
 
-- La reglamentoj kiuj governas cirkonstancojn nuliĝis per novaj cirkonstancoj.<br>
+- La reglamentoj kiuj direktas cirkonstancojn nuliĝis per novaj cirkonstancoj.<br>
   ―Napoleon BONAPARTE
 
 
-- Milita forto ne hevas daŭran formon. La akvo ne havas daŭran formon. La kapablo por gajni venkon
+- Milita forto ne havas daŭran formon. La akvo ne havas daŭran formon. La kapablo por gajni venkon
   per ŝanĝi kaj alfari laŭ la malamiko estas nomata genio.<br>
   ―Tzu SUN
 
 
-- La viro kiu diras ke, ne fareblas, estas ĝenerale interrompata per iu, kiu faras ĝin.<br>
+- La viro kiu diras ke, ne fareblas, ĝenerale interrompatas per iu, kiu faras ĝin.<br>
   ―Elbert HUBBARD
 
 
@@ -498,11 +499,11 @@ tra la jarojn.
   ―Aramaki DAISUKE, Ghost in the Shell (2017)
 
 
-- Estas la fato de steloj por disfali.<br>
+- Estas la sorto de steloj por disfali.<br>
   ―Neil deGrasse TYSON
 
 
-- Por mi, estas pli bone por kapti la kosmon kiel ĝi vere estas ol por daŭri en ensorĉo, kiom ajn
+- Por mi, estas pli bone por kapti la kosmon kiel ĝi vere estas ol por daŭri en trompo, kiom ajn
   kontentigema kaj trankviligema.<br>
   ―Carl SAGAN
 
@@ -544,13 +545,13 @@ tra la jarojn.
 
 
 - Oni ĉiuj subtaksas homojn. Unuope, ili aspektas malfortaj, sed tio ne estas la efektivaĵo. Kion ni
-  bezonas rekoni estas, ke homoj estas sola vivaĵo konsistata de milionoj de unuopaj. Krome
+  bezonas rekoni estas, ke homoj estas sola vivaĵo konsistanta de milionoj de unuopaj. Krome
   iliaj unuopaj cerboj, homoj apartas alian cerbon de ega grandeco. La momenton ni agas per opozicio
   al tiu cerbo, ni malvenkiĝos.<br>
   ―Reiko TAMURA, Parasyte -the maxim- (2014)
 
 
-- Kiu estas la pli malbona, por vivi kiel monstro aŭ por mortiĝi kiel bona homo.<br>
+- Kiu estas la pli malbona, por vivi kiel monstro aŭ por morti kiel bona homo.<br>
   ―Andrew LAEDDIS, Shutter Island (2010)
 
 
@@ -559,7 +560,7 @@ tra la jarojn.
 
 
 - Se oni vidas trompon kaj ne diras trompon, oni estas trompo.<br>
-  ―Nassim Nicholas Taleb
+  ―Nassim Nicholas TALEB
 
 
 - La enhavo estas la reĝo.<br>
@@ -633,8 +634,8 @@ tra la jarojn.
   ―la pupo, Serial Experiments Lain
 
 
-- Racias vidi je Wired kiel plisupra nivelo de la vera mondo. Alidire, fizika efektivaĵo estas
-  nenio, sed holografiaĵo de la informo, kiu fluas tra la Wired.<br>
+- Racias vidi je «Wired» kiel plisupra nivelo de la vera mondo. Alidire, fizika efektivaĵo estas
+  nenio, sed holografiaĵo de la informo, kiu fluas tra la «Wired».<br>
   ―Miho IWAKURA, Serial Experiments Lain
 
 
@@ -651,7 +652,7 @@ tra la jarojn.
   ―Lain IWAKURA, Serial Experiments Lain
 
 
-- Ne plu estas pri ‘Ĉu mi povas fari tion’, estas nun pri ‘Ĉu mi devas fari tion’?<br>
+- Ne plu estas pri ‘Ĉu mi povas fari tion,’ estas nun pri ‘Ĉu mi devas fari tion’?<br>
   ―Raymund MARTINEZ
 
 
@@ -659,11 +660,11 @@ tra la jarojn.
   ―Lain IWAKURA, Serial Experiments Lain
 
 
-- Se oni ne memoras ion, ne ekzistis. Se oni ne memoritis, ne ekzistis oni.<br>
+- Se oni ne memoras ion, ne ekzistis ĝi.<br>
   ―Arisu MIZUKI
 
 
-- Funkcias informo per esti ĉiam moviĝas.<br>
+- Funkcias informo per esti ĉiam movi.<br>
   ―Lain IWAKURA, Serial Experiments Lain
 
 
@@ -679,7 +680,8 @@ tra la jarojn.
   ―Jeanne Marie CIÑO
 
 
-- Ni devas lerni, en komputiko, por stari sur la ŝultroj de niaj antaŭantoj, anstataŭ iliaj piedfingroj.<br>
+- Ni devas lerni, en komputiko, por stari sur la ŝultroj de niaj antaŭantoj, anstataŭ iliaj
+  piedfingroj.<br>
   ―D-ro Daniel G. BOBROW
 
 
@@ -687,7 +689,7 @@ tra la jarojn.
   ―Samantha, Her (2013)
 
 
-- Malrapide kaj neŝanĝiĝeme kontraŭ al malfacilaj problemoj.<br>
+- Malrapideco kaj stabileco kontraŭ al malfacilaj problemoj.<br>
   ―Chamath PALIHAPITIYA
 
 
@@ -695,7 +697,8 @@ tra la jarojn.
   ―Yukitaka YAMAGUCHI
 
 
-- Nu, la homojn kiuj disfrakasiĝis kaj malsamas kiel malpli ni rigardas. Kio se, ili estas pli ol ni?<br>
+- Nu, la homojn kiuj rompitas kaj malsamas kiel malpli ni rigardas. Kio se, ili estas pli ol
+  ni?<br>
   ―D-ino Karen FLETCHER, Split (2016)
 
 
@@ -703,7 +706,8 @@ tra la jarojn.
   ―Chesley SULLENBERGER, Sully (2016)
 
 
-- Vivojn de kvietaj senesperemoj plejmulto da homo vivas. Kiu nomiĝas rezigno estas konfirmita senesperemo.<br>
+- Vivojn de kvietaj senesperemoj plejmulto da homo vivas. Kiu nomiĝas rezigno estas konfirmita
+  senesperemo.<br>
   ―Henry David THOREAU
 
 
@@ -711,7 +715,8 @@ tra la jarojn.
   ―Edsger DIJKSTRA
 
 
-- Maleblas krajonon pliakrigi per malakra hakilo. Estas egale vana por ĝin provi fari per dek malakraj hakiloj.<br>
+- Maleblas krajonon pliakrigi per malakra hakilo. Estas egale vana por ĝin provi fari per dek
+  malakraj hakiloj.<br>
   ―Edsger DIJKSTRA
 
 
