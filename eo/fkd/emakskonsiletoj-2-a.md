@@ -3,7 +3,7 @@ Emakskonsiletoj 2-a: Seancoj kaj Pakoj
 
 <div class="center">[Esperante](#) · [English](/en/emacs-tips-2)</div>
 <div class="center">la 20-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 8-an de aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 10-an de aŭgusto 2018</div>
 
 Ĉi tiu estas la daŭrigo de la serioj pri Emaksaj konsiletoj. En ĉi tiu afiŝo, ni esploras seancan
 mastrumadon, pakojn, krommarĝenojn, kaj aliajn malgrandajn agrablajn aferojn.
@@ -32,9 +32,9 @@ mastrumadon, pakojn, krommarĝenojn, kaj aliajn malgrandajn agrablajn aferojn.
 <a name="desktop"></a>Desktop
 -----------------------------
 
-Havenda ilo kiun mi nun uzas estas _Desktop_. Ĝi konservas la staton de la emaksa seanco, por ke en la
-okazo de kraŝo, kurenta malfunkcio, aŭ io kiu igas min perdi mian seancon, mi povas reiri al
-ĝi. Desktop-o estas enkonstruita kun la plej ĵusaj versioj de Emakso. La jena estas la kodaĵo:
+Havenda ilo kiun mi nun uzas estas _Desktop_. Ĝi konservas la staton de la emaksa seanco, por ke en
+la okazo de kraŝo, kurenta malfunkcio, aŭ io kiu igas min perdi mian seancon, mi povas reiri al
+ĝi. Desktop-o enkonstruitas kun la plej ĵusaj versioj de Emakso. La jena estas la kodaĵo:
 
 ```lisp
 (require 'desktop)
@@ -254,7 +254,7 @@ alinean kontekston. Se ekzistas markilo, tiam la regiono plenigiĝas.
 <a name="montrilo"></a>Montrilomovado
 -------------------------------------
 
-La komando `move-to-window-line-top-bottom`, defaŭlte bindita al <kbd>M-r</kbd> estas bonega kiam
+La komando `move-to-window-line-top-bottom`, defaŭlte bindita al <kbd>M-r</kbd> bonegas kiam
 oni volas movi la montrilon al la supra, meza, kaj malsupra pozicioj en rilato kun la fenestro
 similas al la <kbd>H</kbd>, <kbd>M</kbd>, kaj <kbd>L</kbd> komandoj de Vimo.
 
@@ -294,7 +294,7 @@ bufro. Premi <kbd>g</kbd> reŝargas la bufron, tiam ĝisdatigas la staton.
 <a name="klavkombinoj"></a>Klavkombinoj
 ---------------------------------------
 
-La klavkombinoj por la supraj komandoj estas listigitaj malsupre:
+La klavkombinoj por la supraj komandoj listigitas malsupre:
 
 ```lisp
 (bind-keys

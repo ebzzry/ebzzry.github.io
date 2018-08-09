@@ -3,7 +3,7 @@ La Ipsilonkombinatoro en Ses Paŝoj
 
 <div class="center">[Esperante](#) · [English](/en/y)</div>
 <div class="center">la 25-an de novembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 8-an de aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 18-an de aŭgusto 2018</div>
 
 >Unue, decidu. Kaj faru ĝin. Estas la nur maniero por atingi ion.<br>
 >―Lacus CLYNE, Gundam SEED Destiny
@@ -43,7 +43,7 @@ realigo.
 -------------------------------------------------------
 
 Ni komencu per difini proceduron nomata `foo` kiu komputas la sumadon de pozitiva entjero, malsupren
-al nul. En la sekvanta kodaĵo, la rikura alvoko okazas kiam `foo` estas aplikata en la `else`-a
+al nul. En la sekvanta kodaĵo, la rikura alvoko okazas kiam `foo` aplikatas en la `else`-a
 parto de la kondiĉo.
 
 ```scheme
@@ -79,7 +79,7 @@ funkcivokarigi (angle [currying](https://en.wikipedia.org/wiki/Currying)).
 
 La plia `lambda` estis bezonata ĉar oni bezonis havi manieron por abstrakti la rikuran
 alvokon. Tiaokaze, oni uzis la identigilon `f` por kunligi la rikuran proceduron, kiu estas `foo`,
-mem. La stranga `((f f) …)` estas bezonata, tial ke oni devas fari la saman proceduran alvokan
+mem. La stranga `((f f) …)` bezonatas, tial ke oni devas fari la saman proceduran alvokan
 metodon uzata interne: `((foo foo) 100)`.
 
 
@@ -157,7 +157,7 @@ Sekve, oni izolos la ipsilonan kombinatoron, el la `foo` proceduro.
 ```
 
 Oni anstataŭigu la difinon specifa al `foo`, per `x`. Ĉi tio bezonas onin, denove, por krei la enhavatan
-`lambda`. Tial ke `x` estas kunligata al la komputata proceduro, oni ne plu bezonas ripeti ĝin.
+`lambda`. Tial ke `x` kunligatas al la komputata proceduro, oni ne plu bezonas ripeti ĝin.
 
 
 

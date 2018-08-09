@@ -3,7 +3,7 @@ Pripensoj
 
 <div class="center">[Esperante](#) · [English](/en/reflections)</div>
 <div class="center">la 3-an de novembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 9-an de aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 10-an de aŭgusto 2018</div>
 
 Ĉi tiu paĝo enhavas kelke da miaj propraj pripensoj.
 
@@ -104,7 +104,7 @@ Enskriboj ordigatas laŭ kronologiordo.
 - Elektoj estas iluzioj; jen nur cirkonstancoj.<br>
 
 
-- Realaĵo estas relativa.<br>
+- Realaĵo relativas.<br>
 
 
 - Vartu vian korpŝelon, tial ke tiu nur estas kion vi havas.<br>
@@ -148,7 +148,7 @@ Enskriboj ordigatas laŭ kronologiordo.
 
 
 - Koramikecoj male al militoj, ne estas bataloj. Ni redonas, ni ricevas, ni enamiĝas, ni doloriĝas,
-  ni reamas. Nenio estas difinitiva. Ni ne scias, kio okazos poste. Sed, nenio okazos se ni faras
+  ni reamas. Nenio difinitivas. Ni ne scias, kio okazos poste. Sed, nenio okazos se ni faras
   nenion.<br>
 
 
@@ -295,7 +295,7 @@ Enskriboj ordigatas laŭ kronologiordo.
 - La aferoj, kiujn homoj montras estas la aferoj, kiujn ili volas al vi por vidi.<br>
 
 
-- Premiojn ne donu al ĉiuj partoprenantoj. Se premion oni donas eĉ al la venkitoj, baldaŭ ili
+- Premiojn ne donu al ĉiuj partoprenantoj. Se premiojn oni donas eĉ al la venkitoj, baldaŭ ili
   konscias, ke ĝin ili ne meritas.<br>
 
 
