@@ -3,7 +3,7 @@ Reflections
 
 <div class="center">[Esperante](/eo/pripensoj) · [English](#)</div>
 <div class="center">November 24, 2015</div>
-<div class="center">Last updated: July 29, 2018</div>
+<div class="center">Last updated: August 9, 2018</div>
 
 This page contains contains some of my personal reflections.
 
@@ -291,3 +291,14 @@ Entries are sorted in chronological order.
 
 
 - Demonstration of intelligence does not imply intelligence.<br>
+
+
+- The things that people show, are the things they want you to see.<br>
+
+
+- Don’t give rewards to all the participants. If rewards are given even to the losers, soon they
+  will realize that they don’t deserve it.<br>
+
+
+- Whenever you meet someone new, do not trust them. Only with time, one knows if they deserve
+  it.<br>
