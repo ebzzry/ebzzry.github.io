@@ -3,7 +3,7 @@ Citaĵoj
 
 <div class="center">[Esperante](#) · [English](/en/quotes)</div>
 <div class="center">la 15-an de novembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 8-an de aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 9-an de aŭgusto 2018</div>
 
 Ĉi tiu paĝo enhavas liston de atenteme elektitaj citaĵoj, aforismoj, kaj sentencoj kiujn mi kolektis
 tra la jarojn.
@@ -726,3 +726,7 @@ tra la jarojn.
 
 - Neniam forgesu, ke nur mortaj fiŝoj naĝas laŭ la fluo.<br>
   ―Malcolm MUGGERIDGE
+
+
+- La mondo amas esti trompigata.<br>
+  ―Sebastian FRANCK, Paradoxa Ducenta Octoginta
