@@ -10,7 +10,7 @@ Agordi je GPG kaj je SSH en KDE-o
 >―Andrew HUNT kaj David THOMAS
 
 Kiam kaj GPG-o kaj SSH-o bone enkonstruitas kun KDE-o, estas facile por kunoperacii tiujn
-sistemojn. Ekzistas kontrasto inter malfirme adaptita ganto kaj tiu, kiu tre bone adaptiĝas.
+sistemojn. Estas kontrasto inter malfirme adaptita ganto kaj tiu, kiu tre bone adaptiĝas.
 
 Ĉi tiu mallonga gvidilo traktos la paŝojn kiel fari tion. Por gastigi ĉiujn, mi ankoraŭ diskutos
 kiel instali kaj agordi la bezonatajn komponantojn. Ni uzos je [nano](https://www.nano-editor.org/)

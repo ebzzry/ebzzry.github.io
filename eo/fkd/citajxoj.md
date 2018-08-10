@@ -3,7 +3,7 @@ Citaĵoj
 
 <div class="center">[Esperante](#) · [English](/en/quotes)</div>
 <div class="center">la 15-an de novembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 10-an de aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 11-an de aŭgusto 2018</div>
 
 Ĉi tiu paĝo enhavas liston de atenteme elektitaj citaĵoj, aforismoj, kaj sentencoj kiujn mi kolektis
 tra la jarojn.
@@ -145,7 +145,7 @@ tra la jarojn.
   ―James J. LING
 
 
-- Ne ekzistas kialo por supozi ke la kosmo havas la plej malgrandan interezon pri inteligenteco—aŭ
+- Ne estas kialo por supozi ke la kosmo havas la plej malgrandan interezon pri inteligenteco—aŭ
   eĉ pri ambaŭ. Eble la vivo estas hazarda kromprodukto de siaj operacoj kiel la belaj regulaĝoj sur
   la flugiloj de papilio. La insekto flugus tiel bone sen ili.<br>
   ―Arthur C. CLARKE
@@ -164,7 +164,7 @@ tra la jarojn.
   ―Alberto EJNŜTEJNO
 
 
-- Ekzistas dekkelkjarulojn kiuj pensas ke ili kreos fari milionojn kiel NBA-ludantoj, kiam tio ne
+- Estas dekkelkjarulojn kiuj pensas ke ili kreos fari milionojn kiel NBA-ludantoj, kiam tio ne
   realismas por eĉ unu elcento de ili. Iĝi scientisto aŭ inĝeniero estas.<br>
   ―Dean KAMEN
 
@@ -248,7 +248,7 @@ tra la jarojn.
   ―C.S. LEWIS
 
 
-- Ne ekzistas ĝojo kiel tiu, kiu estis sentita de la inventisto kiel oni vidas siajn kreaĵojn
+- Ne estas ĝojo kiel tiu, kiu estis sentita de la inventisto kiel oni vidas siajn kreaĵojn
   disfaldas por sukceso. Tiaj kortuŝoj farigas viron forgesi manĝon, dormon, amikojn, amon,
   ĉion.<br>
   ―Nikola TESLA
@@ -307,7 +307,7 @@ tra la jarojn.
   ―Jimmy JOHNSON
 
 
-- Kiam oni falegis antaŭe kaj si postviviĝis, ekzistas tre malmultaj aferoj en la vivo kiuj povas
+- Kiam oni falegis antaŭe kaj si postviviĝis, estas tre malmultaj aferoj en la vivo kiuj povas
   timigi sin.<br>
   ―Sennomo
 
@@ -516,8 +516,8 @@ tra la jarojn.
   ―Hugh Derry, Life (2017)
 
 
-- La malsukceso nur estas la okazaĵo por denove komenci pli inteligente. Ne ekzistas hontigo en
-  honesta malsukceso; ekzistas hontigo en timi por malsukcesi.<br>
+- La malsukceso nur estas la okazaĵo por denove komenci pli inteligente. Ne estas hontigo en
+  honesta malsukceso; estas hontigo en timi por malsukcesi.<br>
   ―Henry FORD
 
 
@@ -596,7 +596,7 @@ tra la jarojn.
   ―Alan KAY
 
 
-- Ekzistas du specoj de homoj en la mondo: homoj kiuj pensas, ke ekzistas du specoj de homoj en la
+- Estas du specoj de homoj en la mondo: homoj kiuj pensas, ke ekzistas du specoj de homoj en la
   mondo, kaj homoj kiuj ne pensas tion.<br>
   ―Nekonata
 
