@@ -11,7 +11,7 @@ Migri de LiveJournal al Frog-o
 Estas tempoj kiam oni volas havi pli da rego sur la enhavo. Estas ankaŭ tempoj kiam oni ne volas
 alian platformon por dikti tion, kion eniras aŭ eliras. Aferoj kiel cenzurado kaj politikoj, facile
 povas rampi al blogan platformon. Mi spertis specificajn kazojn, en kiu, mi bezonis konverti
-LiveJournal-ajn afiŝojn al alia platformo. Ekzistas iloj kiuj faras ĉi tion, tamen, mi trovis
+LiveJournal-ajn afiŝojn al alia platformo. Estas iloj kiuj faras ĉi tion, tamen, mi trovis
 nenion, ĝis nun, kiu tradukas al [Frog](https://github.com/greghendershott/frog/) dosieroj. Ĉi tio
 estas mia malforta provo por atingi tiun celon.
 

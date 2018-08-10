@@ -3,7 +3,7 @@ Mia Kinezia Avantaĝa Aranĝo
 
 <div class="center">[Esperante](#) · [English](/en/advantage)</div>
 <div class="center">la 12-an de julio 2018</div>
-<div class="center">Laste ĝisdatigita: la 10-an de aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 11-an de aŭgusto 2018</div>
 
 >La doloro neeviteblas. La suferado malnepras.<br>
 >―M. Kathleen CASEY
@@ -71,8 +71,8 @@ rulumi per la musrado aŭ la desegna tabuleto sen mian dekstran manon uzi. La <k
 <kbd>Page Down</kbd> klavoj ankaŭ movigitaj por egalan ŝarĝan distribuon ŝalti por du manoj.
 
 Unu el miaj plej ŝatataj ŝanĝoj estas la nova loko de la <kbd>[</kbd> kaj <kbd>]</kbd> klavoj. La
-nova doko de <kbd>Esc</kbd> mi ankaŭ ŝatas—min ĉi tio permesas por la eskapan klavo premi kiam na Vi
-uzi aŭ apajn invitojn fermi.
+nova doko de <kbd>Esc</kbd> ankaŭ plaĉas al mi—min ĉi tio permesas por la eskapan klavo premi kiam
+na Vi uzi aŭ apajn invitojn fermi.
 
 Na <kbd>Insert</kbd> mi uzis anstataŭ <kbd>Esc</kbd> por, ke na `XA_PRIMARY` zonon mi povas aliri
 facile per <kbd>Shift + Insert</kbd>. La `XA_PRIMARY`-a zono estas kie la musaj markoj iras. Ankaŭ

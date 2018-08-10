@@ -3,7 +3,7 @@ Kiel Komuniki Kiel Homo
 
 <div class="center">[Esperante](#) · [English](/en/human)</div>
 <div class="center">la 3-an de aŭgusto 2018</div>
-<div class="center">Laste ĝisdatigita: la 10-an de aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 11-an de aŭgusto 2018</div>
 
 >La kapablo por paroli ne igas onin saĝa.<br>
 >―Qui-gon JINN
@@ -57,7 +57,7 @@ de tiuj demandoj estas responditaj de ne, kiam ni devas retaksi kiel ni komuniki
 Kiam mesaĝojn al iu kiu ne la samajn mensajn kapablojn havas kiel la komunikanto iu bezonas
 komuniki, alĝustigoj devos esti faritaj. Aferojn ĉiuj da ni traktas malsame. Ŝaka grandmajstro devas
 teni en la kalkulo, ke se komencanton ri instruas, la studanto nur povas kompreni tiom. Ri ne povas
-ekstremiĝi kaj lin devigi por altnivelajn temojn kompreni. Ekzistas malpenetrebla muro; tiu muro nur
+ekstremiĝi kaj lin devigi por altnivelajn temojn kompreni. Estas malpenetrebla muro; tiu muro nur
 malplidekiĝas per tempo.
 
 
@@ -90,7 +90,7 @@ la mesaĝo kreas, la mesaĝon tute ŝanĝi. Kontrastu “_Ek._” kaj “_Ek, ki
 ### Emoĝiojn uzu ŝpareme
 
 Unu malavantaĝo de skribita komunikado estas, ke estas malfacile por emociojn esprimi, kiujn oni
-volas montri. Ekzistas fojoj, en kiu, kia ajn bonaj la vortoj, ankoraŭ ne eblas por niajn varmecojn
+volas montri. Estas fojoj, en kiu, kia ajn bonaj la vortoj, ankoraŭ ne eblas por niajn varmecojn
 kaj sincerojn fiksi al la mesaĝo. Multfoje, mesaĝon kiu unuformas inter kulturoj emoĝioj
 alportas. La mesaĝon de persno kiu feliĉecon montras la bildo de feliĉa vizaĝo alportas. Homoj povas
 identiĝi kun tiu bildo, facile. Tamen, same kiel parfumoj, tro multe malbonas.
@@ -145,7 +145,7 @@ ne rigardu dum ĉi tiu procezo; eblas signalojn sendi al ri, ke kion ri diras on
 Miksaĵo
 -------
 
-Ekzistas aferoj kiuj ne adaptas en la kategiroj ĉi-supre, kaj ilin mi kolektis ĉi tie anstataŭe.
+Estas aferoj kiuj ne adaptas en la kategiroj ĉi-supre, kaj ilin mi kolektis ĉi tie anstataŭe.
 
 
 ### Adaptu al ĉiu persono

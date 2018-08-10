@@ -11,7 +11,7 @@ Esperantaj Signoj Linukse
 
 Mi opinias, ke la [h-](https://eo.wikipedia.org/wiki/H-sistemo) kaj la
 [x-sistemoj](https://eo.wikipedia.org/wiki/X-sistemo) ne plu devas uzitaj por la signojn enigi
-specifaj al Esperanto, krom se, ne fizike fareblas. Nune, ekzistas du manieroj por la
+specifaj al Esperanto, krom se, ne fizike fareblas. Nune, estas du manieroj por la
 esperantajn karakterojn enigi linukse—la <kbd>Multi‎ߺ‎key</kbd> kaj <kbd>Mode‎ߺ‎switch</kbd> klavoj.
 
 En ĉi tiu artikolo la <kbd>🐧</kbd> klavo signifas la <kbd>Mode‎ߺ‎switch</kbd> klavon.
@@ -138,7 +138,7 @@ Por na **ĉ** eniri, na 🐧 premu kaj tenu, tiam na <kbd>c</kbd> klavo premu. P
 🐧 premu kaj tenu, tiam na <kbd>Shift</kbd> premu, tiam na <kbd>u</kbd> premu. Per ĉi tiuj metodoj,
 onin permesas por senokultajpi.
 
-En kelkaj klavaroj, ekzistas nur unu vindozklavo, kutime lokitas maldekstre, dum la tiu dekstre estas
+En kelkaj klavaroj, estas nur unu vindozklavo, kutime lokitas maldekstre, dum la tiu dekstre estas
 la <kbd>PrtSc</kbd> klavo. Multfoje ili sandviĉitas inter la <kbd>Ctrl</kbd> kaj la
 <kbd>Alt</kbd> klavoj. Por tiun klavon uzi, na `xev` kuru kiel ĉi-supre por la klavkodon akiri, tiam
 na `~/.Xmodmap` dosiero ĝisdatigi laŭe.

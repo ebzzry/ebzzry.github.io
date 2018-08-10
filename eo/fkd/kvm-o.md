@@ -3,7 +3,7 @@ KVM-e Virtualigadi en Linukso
 
 <div class="center">[Esperante](#) · [English](/en/kvm)</div>
 <div class="center">la 3-an de marto 2018</div>
-<div class="center">Laste ĝisdatigita: la 10-an de aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 11-an de aŭgusto 2018</div>
 
 >Se tion oni faras, kion oni ĉiam faras; tion oni akiros, kion oni ĉiam akiras.<br>
 >―Anthony ROBBINS
@@ -13,7 +13,7 @@ Workstation», «Oracle VirtualBox», kaj «Parallels» plejmulto da oni konas. 
 metodon por aferojn fari, mi reenkondukos al oni.
 
 La `$` simbolo uzitos por la ŝelan inviton de normala uzanto indiki, dum la `#` simbolo uzitos por
-la ŝelan inviton de la ĉefuzanto indiki. Ekzistas fojoj kiam la
+la ŝelan inviton de la ĉefuzanto indiki. Estas fojoj kiam la
 [EUID](https://en.wikipedia.org/wiki/User_identifier#Effective_user_ID) de komando estos nulo (0)
 pro la uzado de «sudo».
 

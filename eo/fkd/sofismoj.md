@@ -3,7 +3,7 @@ Enkonduko al Sofismoj
 
 <div class="center">[Esperante](#) · [English](/en/fallacies)</div>
 <div class="center">la 29-an de julio 2018</div>
-<div class="center">Laste ĝisdatigita: la 10-an de aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 11-an de aŭgusto 2018</div>
 
 >Lerni ne necesas; nek travivas.<br>
 >―W. Edwards DEMING
@@ -93,9 +93,9 @@ magio ŝi ne konsideris.
 persono B. Ĉi tio faritas por la personon A malkreditigi baziĝita sur kio ri estas anstataŭ la
 argumenton kiun ri tenas.
 
-> Post persvadan pruvmaterialon pri la malsukcesoj de demokratio Maria prezentis, Karlo
-> kontraŭparolis, ke iun ajn oni ne devas kredi el virino kiu ne edziĝintas, infanojn ne havas,
-> kaj bizarajn muzikojn aŭskultas.
+> Post kiam persvadan pruvmaterialon pri la malsukcesoj de demokratio Maria prezentis, Karlo
+> kontraŭparolis, ke iun ajn oni ne devas kredi el virino kiu ne edziĝintas, infanojn ne havas, kaj
+> bizarajn muzikojn aŭskultas.
 
 Teniĝon sur siaj asertoj la persona stato de Maria ne havas. La diroj de Karlo nekoncernas. Kiun
 devas atakite estas la argumentoj de Maria, kaj ne sian personan teniĝon.
@@ -104,8 +104,7 @@ devas atakite estas la argumentoj de Maria, kaj ne sian personan teniĝon.
 <a name="ankaŭvi"></a>Ankaŭ vi
 ------------------------------
 
-Ĉi tio fifaritas kiam argumentoj de persono estas asertite falsaj pro la persono estas
-memkontraŭdiras.
+Ĉi tio fifaritas kiam argumentoj de persono estas asertite falsaj pro la persono memkontraŭdiras.
 
 > Kuracisto: “Ĉesi fumadon pro ĝi estas noca por via sano.”<br>
 > Kuracato: “Vi mem fumas, do vian konsilon mi ne povas observi.”
