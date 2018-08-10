@@ -3,13 +3,13 @@ Retrospekte
 
 <div class="center">[Esperante](#) · [English](/en/retrospect)</div>
 <div class="center">la 8-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 8-an de aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 11-an de aŭgusto 2018</div>
 
 >El la militolernejo de la vivo: kion ne detruas min, igas min pli forte.<br>
 >―Friedrich NIETZSCHE
 
 Mi ne tute aprezis tion, kion tiuj vortoj signifis antaŭ nun. Mi lernis, ke krom la sperto,
-ekzistas alia grava afero, kiun la vivo instruas nin—travivado. Kiam ni estas en la rando de
+estas alia grava afero, kiun la vivo instruas nin—travivado. Kiam ni estas en la rando de
 disfalo, paneo, aŭ eĉ morto, la plej gravaj aferoj en niaj vivoj ekaperas antaŭ niaj okuloj.
 
 Kiam ni ricevas multe da doloro, kaj ni travivas ĝin, ni vivos rakonti la rakonton. Ni vivos kunhavi
@@ -21,7 +21,7 @@ magia io komencas okazi. Kaj kiel por mi, alvenis en la formo de malĝentila vek
 Mi ne sciis, ke magia io disfaldos. Per ne nei mian staton, mi kapablis brakumi la premion. Mi
 konsciis, ke kiam mi povis avidi spiron, mi malŝlosis partojn de mi, kiuj restis nekonitaj
 antaŭe. Malrapide, kiel la lumradioj de la suno en la mateno, tuŝanta la akvoglobetojn sur folio, mi
-konsciis vidi min mem, kiel per unuafoje vidi mian rebrilon sur lageto. Mi malkovris, ke ekzistis
+konsciis vidi min mem, kiel per unuafoje vidi mian rebrilon sur lageto. Mi malkovris, ke estas
 multaj latentaj partoj de mi, simple restadas esti vekitaj.
 
 Ĉe la pinto de mia agonio, mi katapultiĝis al memdetruo. Per kolerego, mi fingromontris al mi, sen
