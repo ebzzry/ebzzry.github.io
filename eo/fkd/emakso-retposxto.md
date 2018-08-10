@@ -3,14 +3,14 @@ Retpoŝton Emakse Agordi
 
 <div class="center">[Esperante](#) · [English](/en/emacs-mail)</div>
 <div class="center">la 14-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 10-an de aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 11-an de aŭgusto 2018</div>
 
 >Nur tial ke ne fariĝis, ne signifas, ke ne fareblas. Nur tial ke fareblas, ne
 >signifas, ke devus.<br>
 >―Barry GLASFORD
 
 Nunatempe kontroli retpoŝton postulas onin por iri al la retejo de sia provizanto, aŭ uzi
-poŝkomputilapon. Tamen, ekzistas kazoj kiam oni volas havi pli da rego sur siaj mesaĝoj, precipe kiam
+poŝkomputilapon. Tamen, estas kazoj kiam oni volas havi pli da rego sur siaj mesaĝoj, precipe kiam
 la kapablo kiun si volas, ne haveblas en la plimultaj opcioj.
 
 Emakso disponigas pletorajn manierojn (Gnus, Wanderlust, VM, ktp.) de sendi kaj ricevi la retpoŝton. En ĉi
@@ -249,10 +249,10 @@ Por malĉifri mesaĝon, malfermu la mesaĝon, tiam premu:
 Ĉi tiu komando invitos onin por eniri sian pasfrazon. Post tio, oni invititos ĉu si volas
 anstataŭigi la enhavon de la bufro. Diru jes al ĉi tio.
 
-Ĉi tiuj alproksimiĝoj ne malfuŝeblas, tial ke, almenaŭ ekzistas du truoj gapas, kiujn oni devas
+Ĉi tiuj alproksimiĝoj ne malfuŝeblas tial, ke almenaŭ ekzistas du truoj gapas, kiujn oni devas
 konscii pri:
 
-1. Emaksaj sekurkopioj, kaj
+1. emaksaj sekurkopioj, kaj
 2. mu4e-aj malnetoj
 
 Pri la antaŭa, kiam oni uzas la sekurkopia facilo de Emakso, aŭ pakaĵo kiel

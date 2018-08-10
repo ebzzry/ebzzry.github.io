@@ -3,13 +3,13 @@ Frog-e Blogi
 
 <div class="center">[Esperante](#) · [English](/en/frog)</div>
 <div class="center">la 16-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 10-an de aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 11-an de aŭgusto 2018</div>
 
 >Unu persono kun ardo pli bonas ol kvardek personoj nure interesataj.<br>
 >―E.M. FORSTER
 
 Kiam eldoni blogan enhavon al la TTT, la plejmulto de homoj kondifus antaŭkreitajn servojn, kiuj
-faras la grandparton de la laboro. Tamen, ekzistas okazoj kiam oni volas havi pli da rego sur siaj
+faras la grandparton de la laboro. Tamen, estas okazoj kiam oni volas havi pli da rego sur siaj
 aĵoj. Bona ekzemplo de tio, estas la limigoj, kiujn provizantoj efikigas. Alia afero estas la ĉeesto
 de reklamoj aŭ la uzado de [parte senpagaj](https://en.wikipedia.org/wiki/Freemium) servoj—komence
 liberaj servoj, tiam mono bezonatas por aldonaj servoj.
@@ -48,7 +48,7 @@ aspekto. Bonŝance, mi trovis je [Frog](https://github.com/greghendershott/frog)
 [#racket](https://kiwiirc.com/client/irc.freenode.net/#racket).
 
 Frog-o en laikoterminoj, estas retejokreilo, kiu estas tiel facila uzi, agordi, kaj tajlori. Kio
-ajn oni skribas aperos sur ĝi kiel si anticipas. Nek ekzistas bizaraj kondiĉoj de uzado, nek
+ajn oni skribas aperos sur ĝi kiel si anticipas. Nek estas bizaraj kondiĉoj de uzado, nek
 arbitraj limigoj, nek trudoj—tre proksimas al tuta rego, en la pinto de la fingropintoj.
 
 Frog-o operacias ie en la mezo de jena spektro:
@@ -197,7 +197,7 @@ Tiam, rekunmetu la dosierojn:
 
 Ĉi-foje eble oni jam tre volas tajlori la retejon. Jes, tio estas, kion oni faros en ĉi tiu sekcio.
 
-Ĉe la baznivelo, ekzistas tri dosieroj kiujn oni ŝanĝos por fari la komencajn ŝanĝojn:
+Ĉe la baznivelo, estas tri dosieroj kiujn oni ŝanĝos por fari la komencajn ŝanĝojn:
 
 - `.frogrc`
 - `_src/page-template.html`
@@ -215,7 +215,7 @@ nuna dosierujo:
 
     $ emacs .frogrc
 
-Oni rimarkos, ke ekzistas pli ol dekduo parametroj kiuj ŝanĝeblas. Tamen por nun, oni nur okupiĝas pri
+Oni rimarkos, ke estas pli ol dekduo parametroj kiuj ŝanĝeblas. Tamen por nun, oni nur okupiĝas pri
 tri parametroj:
 
 - `scheme/host`
