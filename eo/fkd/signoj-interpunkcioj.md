@@ -323,7 +323,7 @@ Kiam uzitis kiel la komenco de frazo, kortuŝojn kaj dramojn ĝi enkondukas:
 - … Mia amo, kie vi estas?
 
 Kiam ĝi uzitas en la fino de bloko, spaceton antaŭ ol ĝi metu; kiam ĝi uzitas en la komenco,
-spaceton post ĝi metu; kiam ĝi uzitas en la mezo, spacetojn ĉirkaŭ metu.
+spaceton post kiam ĝi metu; kiam ĝi uzitas en la mezo, spacetojn ĉirkaŭ metu.
 
 
 <a name="finrimarkoj"></a>Finrimarkoj
