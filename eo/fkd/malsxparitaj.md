@@ -8,7 +8,7 @@ Malŝparitaj Malcedemoj
 >La unua paŝo por iri ien, estas decidi, ke oni ne restos kie oni estas.<br>
 >―J.P. MORGAN
 
-Ekzistas zorgiga kaj tremiga sentaĵo, kiun mi sentas kiam ajn la amortizema realiĝo, ke mi ne plu
+Estas zorgiga kaj tremiga sentaĵo, kiun mi sentas kiam ajn la amortizema realiĝo, ke mi ne plu
 juna infano, venas. La maltrankvila barakto inter lerni por liberigi la antaŭsignan estintecon kaj
 mian kaprican estontecon, kaptas min per forta teno.
 
@@ -79,7 +79,7 @@ aspektata?
 
 Ŝajnas, ke nuntempe, ni malkonsentas respondi kelkajn demandojn, tamen ni revenĝas al la ideo ke
 ni pridemandiĝas de aferoj pensataj kiel pli simpla ol mezlernejaj klasejaj lecionoj. Tamen,
-ekzistas iuj aferoj kiuj komunas al ni, kvankam ne ĉio: ni timemas vidi kiel socio eble reagas
+estas iuj aferoj kiuj komunas al ni, kvankam ne ĉio: ni timemas vidi kiel socio eble reagas
 al niaj agoj, kiel ajn stultaj aŭ gravaj niaj agoj povas esti. Tamen, pri la pli gravaj aferoj, ni
 prete miksiĝi, tial ke ni ne volas malakcepton. Plejparto da ni feliĉas por pensi kaj movi kun
 la grego, sen ia antaŭzorgo.

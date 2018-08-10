@@ -3,7 +3,7 @@ Na Markdown Emem-e Konverti al HTML
 
 <div class="center">[Esperante](#) · [English](/en/emem)</div>
 <div class="center">la 5-an de aŭgusto 2018</div>
-<div class="center">Laste ĝisdatigita: la 10-an de aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 11-an de aŭgusto 2018</div>
 
 >Oni ne trovos la respondojn kiujn oni serĉas ĝis oni haltas serĉi ekster kaj komenciĝas serĉi ilin
 >el oni mem.<br>
@@ -133,8 +133,8 @@ larĝecon uzi:
 
     $ emem -f MINLEGU.md
 
-Kapablo kiun mi ege ŝatas, estas kunfandado. Onin ĉi tio permesas por plurajn dosireojn kombini en
-sola eligo. Ekzemple, se oni havas na `a.md`, `b.md`, kaj `c.md`, ilin oni povas kunfandi al
+Kapablo kiu ege plaĉas al mi, estas kunfandado. Onin ĉi tio permesas por plurajn dosireojn kombini
+en sola eligo. Ekzemple, se oni havas na `a.md`, `b.md`, kaj `c.md`, ilin oni povas kunfandi al
 `index.html` per `-m`:
 
     $ emem -mo index.html a.md b.md c.md
@@ -171,7 +171,7 @@ lingvvon precizigi por la parolo. Por ĉi tion fari, la `-l` opcion uzu:
 Plena listo de la subtenitaj lingvoj de modernaj retumulioj troveblas
 [ĉi tie](https://www.w3schools.com/tags/ref_language_codes.asp).
 
-Ekzistas okazoj en kiu la redaktadan iteracion mi ne volas rompi laborante kun la enigaj dosieroj,
+Estas okazoj en kiu la redaktadan iteracion mi ne volas rompi laborante kun la enigaj dosieroj,
 kaj nur la HTML-ajn dosierojn mi volas esti kreitaj kiam ajn novaj ŝanĝoj al la fontaj Markdown-aj
 dosieroj realiĝas. Tiuokaze, la senpaŭzan reĝimon per la `-c` opcio mi alvokas:
 

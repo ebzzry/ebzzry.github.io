@@ -3,7 +3,7 @@ Signoj kaj Interpunkcioj
 
 <div class="center">[Esperante](#) · [English](/en/symbols-marks)</div>
 <div class="center">la 16-an de julio 2018</div>
-<div class="center">Laste ĝisdatigita: la 10-an de aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 11-an de aŭgusto 2018</div>
 
 >Se grandiozon oni volas atingi, konsentojn ĉesu peti.<br>
 >―Eddie COLLA
@@ -38,7 +38,7 @@ premas.
 <a name="notojporlinukso"></a>Notoj por linukso
 -----------------------------------------------
 
-Jam ekzistas metodo por signojn enmeti linukse. Estas la uzo de la <kbd>Compose</kbd>
+Jam estas metodo por signojn enmeti linukse. Estas la uzo de la <kbd>Compose</kbd>
 klavo. Bedaŭrinde, ĉi tiun metodon ni ne uzas ĉar estas neekonomie. Anstataŭ la
 <kbd>Mode‎ߺ‎switch</kbd> klavo ni uzu. En ĉi tiu artikolo la <kbd>🐧</kbd> klavo signifas la
 <kbd>Mode‎ߺ‎switch</kbd> klavon.
