@@ -3,7 +3,7 @@ Enkonduko al Sofismoj
 
 <div class="center">[Esperante](#) · [English](/en/fallacies)</div>
 <div class="center">la 29-an de julio 2018</div>
-<div class="center">Laste ĝisdatigita: la 11-an de aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 12-an de aŭgusto 2018</div>
 
 >Lerni ne necesas; nek travivas.<br>
 >―W. Edwards DEMING
@@ -528,7 +528,7 @@ tra ĝi.
 ------------------------------------
 
 Ĉi tio fifaritas kiam sian pozicion persono B ŝanĝas post la komencan pozicion de persono B
-persono A sukcese atakis. La celo estas por la celfoston movi por, ke estos tre malfacila de persono
+persono A sukcese atakis. La celo estas la celfoston movi por ke estu tre malfacila de persono
 A por la novan movitan celfoston ataki.
 
 > Petro asertis, ke estis pro la ĉiutaga ingestado de Ikso Kapsuloj kiu siajn renojn

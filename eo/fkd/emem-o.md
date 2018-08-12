@@ -3,15 +3,15 @@ Na Markdown Emem-e Konverti al HTML
 
 <div class="center">[Esperante](#) · [English](/en/emem)</div>
 <div class="center">la 5-an de aŭgusto 2018</div>
-<div class="center">Laste ĝisdatigita: la 11-an de aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 12-an de aŭgusto 2018</div>
 
 >Oni ne trovos la respondojn kiujn oni serĉas ĝis oni haltas serĉi ekster kaj komenciĝas serĉi ilin
 >el oni mem.<br>
 >―Memory GATEKEEPER, Ergo Proxy
 
 Manieron por HTML-ajn dokumentojn krei el miaj Markdown-aj dosieroj mi ĉiam volintas. Komence,
-HTML-ajn dosierojn el miaj tekstaj dosieroj mi nur volis havi por ke ilin mi povas vidi per mia
-poŝtelefono. Poste, manieron por tiujn dosierojn krei por ke ilin mi povas alŝuti al la interreto
+HTML-ajn dosierojn el miaj tekstaj dosieroj mi nur volis havi por ke ilin mi povu vidi per mia
+poŝtelefono. Poste, manieron por tiujn dosierojn krei por ke ilin mi povu alŝuti al la interreto
 kaj ilin vidi sur aliaj aparatoj. Jam ekzistas iloj por ja tion fari. Ilin mi provis, tamen min mem
 mi trovis la eligon ŝanĝi ofte nur por ilin igas akcepteblaj. Neniuj da ili konformiĝis al mia
 kriterio: facile por munti, facile por uzi, kaj decan eligon realigas.
