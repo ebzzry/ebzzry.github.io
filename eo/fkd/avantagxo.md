@@ -3,7 +3,7 @@ Mia Kinezia Avantaĝa Aranĝo
 
 <div class="center">[Esperante](#) · [English](/en/advantage)</div>
 <div class="center">la 12-an de julio 2018</div>
-<div class="center">Laste ĝisdatigita: la 11-an de aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 12-an de aŭgusto 2018</div>
 
 >La doloro neeviteblas. La suferado malnepras.<br>
 >―M. Kathleen CASEY
@@ -74,16 +74,16 @@ Unu el miaj plej ŝatataj ŝanĝoj estas la nova loko de la <kbd>[</kbd> kaj <kb
 nova doko de <kbd>Esc</kbd> ankaŭ plaĉas al mi—min ĉi tio permesas por la eskapan klavo premi kiam
 na Vi uzi aŭ apajn invitojn fermi.
 
-Na <kbd>Insert</kbd> mi uzis anstataŭ <kbd>Esc</kbd> por, ke na `XA_PRIMARY` zonon mi povas aliri
+Na <kbd>Insert</kbd> mi uzis anstataŭ <kbd>Esc</kbd> por ke na `XA_PRIMARY` zonon mi povu aliri
 facile per <kbd>Shift + Insert</kbd>. La `XA_PRIMARY`-a zono estas kie la musaj markoj iras. Ankaŭ
 plifaciliĝas por la `overwrite-mode`-an reĝimon de emakso eniri. La <kbd>Insert</kbd> klavo,
 bedaŭrinde, kaŝitas en la klavo markita per `|`, maldekstre. La sinsekvo por ĝin aliri estas
 listigita al la fino de ĉi tiu afiŝo.
 
 Kiujn estis antaŭaj <kbd>Ctrl</kbd>-aj klavoj mi bindis al <kbd>KP Home</kbd> and <kbd>KP End</kbd>
-por, ke en mia
+por ke en mia
 [~/.Xmodmap](https://github.com/ebzzry/dotfiles/blob/master/xmodmap/.Xmodmap.advantage.dvorak)-a
-dosiero, ĝin mi povis mapi al <kbd>Mode Switch</kbd>. Miajn [notojn](#notojn) vidu ĉi-sube kial
+dosiero, ĝin mi povu mapi al <kbd>Mode Switch</kbd>. Miajn [notojn](#notojn) vidu ĉi-sube kial
 alian malrektigadan nivelon mi aldonis.
 
 

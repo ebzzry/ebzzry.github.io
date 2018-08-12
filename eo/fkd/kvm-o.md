@@ -3,7 +3,7 @@ KVM-e Virtualigadi en Linukso
 
 <div class="center">[Esperante](#) · [English](/en/kvm)</div>
 <div class="center">la 3-an de marto 2018</div>
-<div class="center">Laste ĝisdatigita: la 11-an de aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 12-an de aŭgusto 2018</div>
 
 >Se tion oni faras, kion oni ĉiam faras; tion oni akiros, kion oni ĉiam akiras.<br>
 >―Anthony ROBBINS
@@ -206,7 +206,7 @@ vidi.
 
 ### <a name="ekrano"></a>Konekti al la SPICE-a ekrano
 
-Por, ke la gastan ekranon oni povas uzi, oni devas konekti al la SPICE-a servilo, per la SPICE-a
+Por ke la gastan ekranon oni povu uzi, oni devas konekti al la SPICE-a servilo, per la SPICE-a
 kliento:
 
     $ spicy -h 127.0.0.1 -p 9999 -w sekretŝlosilo
@@ -217,7 +217,7 @@ la gasta operaciumo kaptas, na <kbd>Shift+F12</kbd> premu, por eskapi.
 
 ### <a name="gastareto"></a>La gastan reton agordi
 
-Sekve, la retan agordon de la gasta operaciumo oni devas ĝuste agordi, por, ke ĝi povas konekti al
+Sekve, la retan agordon de la gasta operaciumo oni devas ĝuste agordi, por ke ĝi povu konekti al
 la lokreto, kaj la interreto se aliron al ĝi la gastiga maŝino havas.
 
 IP-a adreso:
@@ -265,7 +265,7 @@ La ĉi-supraj komandoj:
 <a name="cxio"></a>Ĉion kolekti
 ------------------------------
 
-Jen ĉiom da komando el supre, kompiligitaj kiel funkcioj, por, ke ilin oni povas kuri komandlinie:
+Jen ĉiom da komando el supre, kompiligitaj kiel funkcioj, por ke ilin oni povu kuri komandlinie:
 
 ```
 function kvm-net () {
