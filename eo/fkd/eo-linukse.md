@@ -3,7 +3,7 @@ Esperantaj Signoj Linukse
 
 <div class="center">[Esperante](#) · [English](/en/eo-linux)</div>
 <div class="center">la 22-an de julio 2018</div>
-<div class="center">Laste ĝisdatigita: la 10-an de aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 12-an de aŭgusto 2018</div>
 
 >Se ion oni volas, kion oni neniam havis, oni devas esti servopreta tion fari, kion oni neniam
 >faris.<br>
@@ -93,7 +93,7 @@ Jen la tabuleto kiu la kombinadojn por la esperantaj karakteroj listigas.
 
 Pli rapida kaj pli facila manieroj por esperantajn karakterojn enigi estas per la uzo de la
 *Mode‎ߺ‎switch* klavo. Similas al *Multi‎ߺ‎key* klavon oni devas asigni al ĝi. Du klavojn mi ŝatas bindi
-por tiu celo por ke, per du manojn mi povas tajpi. Male al la Multi‎ߺ‎key, ĝin oni devas premi kaj
+por tiu celo por ke per du manojn mi povu tajpi. Male al la Multi‎ߺ‎key, ĝin oni devas premi kaj
 teni kiel la <kbd>Shift</kbd> aŭ <kbd>Ctrl</kbd> klavoj.
 
 Se la vindozklavojn oni volas uzi kiel la Mode‎ߺ‎switch klavo, la `~/.Xmodmap` dosieron redaktu, tiam la
