@@ -3,7 +3,7 @@ Citaĵoj
 
 <div class="center">[Esperante](#) · [English](/en/quotes)</div>
 <div class="center">la 15-an de novembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 11-an de aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 12-an de aŭgusto 2018</div>
 
 Ĉi tiu paĝo enhavas liston de atenteme elektitaj citaĵoj, aforismoj, kaj sentencoj kiujn mi kolektis
 tra la jarojn.
@@ -78,7 +78,7 @@ tra la jarojn.
   ―Barry GLASFORD
 
 
-- Lernu la reglamentojn por ke oni scias kiel ĝuste rompi ilin.<br>
+- Lernu la reglamentojn por ke oni sciu kiel ĝuste rompi ilin.<br>
   ―Dalai-lamao
 
 
@@ -111,7 +111,7 @@ tra la jarojn.
 
 
 - Kun aŭ sen religio, bonaj homoj povas bone konduti kaj malbonaj homoj povas malbone fari; tamen,
-  por ke bonaj homoj por malbone fari—tio bezonas religion.<br>
+  por ke bonaj homoj por malbone faru—tio bezonas religion.<br>
   ―Steven WEINBERG
 
 
@@ -119,7 +119,7 @@ tra la jarojn.
   ―Raganwald
 
 
-- Por ke krei pomon el nenio, oni unue devas krei la kosmon.<br>
+- Por ke kreu pomon el nenio, oni unue devas krei la kosmon.<br>
   ―Carl SAGAN
 
 
@@ -538,7 +538,7 @@ tra la jarojn.
   ―MindSmash, Jutubo
 
 
-- Ĉi tio estas kion mi faris por ke postvivi mian vivon. Mi ne malsamas al oni, tamen ni estas
+- Ĉi tio estas kion mi faris por ke postvivu mian vivon. Mi ne malsamas al oni, tamen ni estas
   en partnereco kiu postulas reciprokan respekton. Per tio premiso, la komuna celo kiu ligas nin
   estas postvivado.<br>
   ―Migi, Parasyte -the maxim- (2014)

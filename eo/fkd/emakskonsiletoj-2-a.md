@@ -3,7 +3,7 @@ Emakskonsiletoj 2-a: Seancoj kaj Pakoj
 
 <div class="center">[Esperante](#) · [English](/en/emacs-tips-2)</div>
 <div class="center">la 20-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 10-an de aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 12-an de aŭgusto 2018</div>
 
 Ĉi tiu estas la daŭrigo de la serioj pri Emaksaj konsiletoj. En ĉi tiu afiŝo, ni esploras seancan
 mastrumadon, pakojn, krommarĝenojn, kaj aliajn malgrandajn agrablajn aferojn.
@@ -33,7 +33,7 @@ mastrumadon, pakojn, krommarĝenojn, kaj aliajn malgrandajn agrablajn aferojn.
 -----------------------------
 
 Havenda ilo kiun mi nun uzas estas _Desktop_. Ĝi konservas la staton de la emaksa seanco, por ke en
-la okazo de kraŝo, kurenta malfunkcio, aŭ io kiu igas min perdi mian seancon, mi povas reiri al
+la okazo de kraŝo, kurenta malfunkcio, aŭ io kiu igas min perdi mian seancon, mi povu reiri al
 ĝi. Desktop-o enkonstruitas kun la plej ĵusaj versioj de Emakso. La jena estas la kodaĵo:
 
 ```lisp

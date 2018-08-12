@@ -3,7 +3,7 @@ Aboco de la Lambdokalkulo
 
 <div class="center">[Esperante](#) · [English](/en/lambda-calculus)</div>
 <div class="center">la 21-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 10-an de aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 12-an de aŭgusto 2018</div>
 
 >Oni ne vere komprenas ion krom se oni povas klarigi tion al sia avino.<br>
 >―Alberto EJNŜTEJNO
@@ -72,7 +72,7 @@ la vorto, ne ekzistas apriora scio de la valoro de la vorto. Ni akceptas la difi
 devas konsenti al la uzado de la vorto en la limigita konteksto de la uzantoj de la vorto. Se ni
 provas devii el la establiĝita signifo de la vorto, ekzemple, se ni hazarde krei novan difinon de la
 vorto pro kaprico, plej verŝajne ĝi ne akceptitos. Ni bezonas kredi la difinitajn indikitajn
-kaj montritajn signifojn de la vorto, por ke ĝi havas sencon al ni. La samo veras pri la
+kaj montritajn signifojn de la vorto, por ke ĝi havu sencon al ni. La samo veras pri la
 lambdokalkulo—ni aŭ akcepti ĉi tiujn aksiomojn kaj operaciu en sia domajno, aŭ ni vivu en
 Neverland-o.
 

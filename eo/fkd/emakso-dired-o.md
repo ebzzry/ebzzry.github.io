@@ -3,7 +3,7 @@ Dosierujojn Emakse Mastrumi
 
 <div class="center">[Esperante](#) · [English](/en/emacs-dired)</div>
 <div class="center">la 12-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 10-an de aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 12-an de aŭgusto 2018</div>
 
 >Supozi bonas, tamen eltrovi pli bonas.<br>
 >―Samuel CLEMENS
@@ -73,7 +73,7 @@ aŭ pluraj eroj. Uzi ilin por pluraj eroj estos klarigitaj sekve.
 ------------------------------------
 
 La jenaj komandoj faras operaciojn kiuj rilatas al markoj. Krei markojn simple signifas, meti etikodon
-sur eroj, por ke oni povas presti la operaciojn en la antaŭa sekcio, sur ili:
+sur eroj, por ke oni povu presti la operaciojn en la antaŭa sekcio, sur ili:
 
 | Klavo | Kion ĝi faras                                        |
 | :---- | :--------------------------------------------------- |

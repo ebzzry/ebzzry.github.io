@@ -3,7 +3,7 @@ Agordi je GPG kaj je SSH en KDE-o
 
 <div class="center">[Esperante](#) · [English](/en/gsk)</div>
 <div class="center">la 19-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 8-an de aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 12-an de aŭgusto 2018</div>
 
 >Ne tute estas grave por prave atingi tion en la unua fojo. Estas vitale grava atingi tion en la
 >lasta tempo.<br>
@@ -62,7 +62,7 @@ La supra komando kreos du dosierojn:
     ~/.ssh/id_ed25519.pub
     ~/.ssh/id_ed25519
 
-Tiam, permesu la mem sur la defora servilo, por ke la senpasvortaj ensalutoj funkcios poste:
+Tiam, permesu la mem sur la defora servilo, por ke la senpasvortaj ensalutoj funkciu poste:
 
     $ ssh-copy-id uzanto@deforgastiganto
 
@@ -146,7 +146,7 @@ Ne forgesu por fari ĝin plenumebla:
 <a name="kontrolo"></a>Kontrolo
 -------------------------------
 
-Bedaŭrinde, oni bezonas reŝargi la KDE-an seancon, por ke ĉi tiuj agordaĵoj efektiviĝas. Se oni konas
+Bedaŭrinde, oni bezonas reŝargi la KDE-an seancon, por ke ĉi tiuj agordaĵoj efektiviĝu. Se oni konas
 metodon kiu ne bezonas reŝargi la seancon, avizu min, mi petas.
 
 Premu <kbd>Ctrl+Alt+Del</kbd> por elsaluti, tiam ensalutu al la konto:

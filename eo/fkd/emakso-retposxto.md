@@ -3,7 +3,7 @@ Retpoŝton Emakse Agordi
 
 <div class="center">[Esperante](#) · [English](/en/emacs-mail)</div>
 <div class="center">la 14-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 11-an de aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 12-an de aŭgusto 2018</div>
 
 >Nur tial ke ne fariĝis, ne signifas, ke ne fareblas. Nur tial ke fareblas, ne
 >signifas, ke devus.<br>
@@ -60,7 +60,7 @@ Tamen, se onia sistemo ne disponigas manieron por facile instali getmail-on, oni
 
 ### <a name="elsxutiagordo"></a>Agordo
 
-Sekve, oni bezonas fari sorĉon, por ke getmail-o scias kiel elŝuti siajn aĵojn. Kreu la dosieron
+Sekve, oni bezonas fari sorĉon, por ke getmail-o sciu kiel elŝuti siajn aĵojn. Kreu la dosieron
 `~/.getmail/getmailrc`. Krom tio, oni bezonas krei kaj precizigi kien la mesaĝojn iras:
 
     $ mkdir ~/Maildir
@@ -158,7 +158,7 @@ Tiam, aldonu la jenan:
 (require 'mu4e)
 ```
 
-Kaj cetere oni bezonas enmeti kelkajn informojn pri onii, por ke, Emakso ne ĝenatas demandi onin pri
+Kaj cetere oni bezonas enmeti kelkajn informojn pri onii, por ke Emakso ne ĝenatas demandu onin pri
 tiuj detaloj poste:
 
 ```lisp
@@ -177,7 +177,7 @@ Por fari onian vivon pli facile, agordu kelkajn variablojn:
 
 ### <a name="legiplenumo"></a>Plenumo
 
-Oni povas reŝargi Emakson, por ke, tiuj agordoj povas efektiviĝi, aŭ alternative, ovi povas marki
+Oni povas reŝargi Emakson, por ke tiuj agordoj povu efektiviĝi, aŭ alternative, ovi povas marki
 tiujn liniojn per <kbd>C-Space</kbd>, tiam premu:
 
     M-x eval-region REV
@@ -195,8 +195,8 @@ povas legi la [agrablan manlibron](http://www.djcbsoftware.nl/code/mu/mu4e/index
 <a name="cxifrado"></a>Ĉifrado
 -----------------------------
 
-Malnepre oni eble volas aldoni kelkajn alĝustigetojn, por ke, la ĉifrado kaj malĉifrado de mesaĝoj
-estos pli facilaj. Fakte ĉi tio estas unu el la ĉefkialoj kial mi uzas mu4e-on—estis montrita al mi ke
+Malnepre oni eble volas aldoni kelkajn alĝustigetojn, por ke la ĉifrado kaj malĉifrado de mesaĝoj
+estu pli facilaj. Fakte ĉi tio estas unu el la ĉefkialoj kial mi uzas mu4e-on—estis montrita al mi ke
 malgraŭ uzi retumilajn kromprogrojn kiel [FireGPG](http://getfiregpg.org/s/home),
 kaj [It’s All Text!](https://addons.mozilla.org/en-US/firefox/addon/its-all-text/), la onidire
 privataj mesaĝoj kiujn mi verkis, estis aŭtomate konservitaj en la _Drafts_
@@ -228,7 +228,7 @@ Marku tiujn liniojn, tiam premu:
 
     M-x eval-region REV
 
-Por ke la agordoj tuj efektiviĝi.
+Por ke la agordoj tuj efektiviĝu.
 
 Por sendi sendi ĉifritan mesaĝon, premu <kbd>C</kbd> el la ĉefmenuo de mu4e-o, plenumigi la kutimajn
 kampojn kiel `To:`, kaj `Subject:`, tiam sur la mesaĝokorpo, premu:
