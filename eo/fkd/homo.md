@@ -3,7 +3,7 @@ Kiel Komuniki Kiel Homo
 
 <div class="center">[Esperante](#) · [English](/en/human)</div>
 <div class="center">la 3-an de aŭgusto 2018</div>
-<div class="center">Laste ĝisdatigita: la 11-an de aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 12-an de aŭgusto 2018</div>
 
 >La kapablo por paroli ne igas onin saĝa.<br>
 >―Qui-gon JINN
@@ -81,10 +81,11 @@ parolita lingvo estas alia bestia entute.
 
 ### Estu ĝentile
 
-Kio estas la diferenco inter _“Legu la dokumentojn.”_ kaj _“Bonvole legu la dokumentojn.”_? Kiam la
-pravaj vortoj uzitas, ni pozitive bildigas, ni imagas en niaj kapoj kiel devus okazi la
-komunikado se ĝi okazis en vizaĝalvizaĝa maniero. Male, kiam la vortojn ni uzu troe, trostreĉon sur
-la mesaĝo kreas, la mesaĝon tute ŝanĝi. Kontrastu “_Ek._” kaj “_Ek, kio feke._”
+Kio estas la diferenco inter _“Legu la dokumentojn.”_ kaj _“Bonvole legu la dokumentojn.”_ aŭ eĉ
+_“Ĉu vi bonvolus legi la dokumenton?”_ Kiam la pravaj vortoj uzitas, ni pozitive bildigas, ni imagas
+en niaj kapoj kiel devus okazi la komunikado se ĝi okazis en vizaĝalvizaĝa maniero. Male, kiam la
+vortojn ni uzu troe, trostreĉon sur la mesaĝo kreas, la mesaĝon tute ŝanĝi. Kontrastu “_Ek._” kaj
+“_Ek, ve!_”
 
 
 ### Emoĝiojn uzu ŝpareme
