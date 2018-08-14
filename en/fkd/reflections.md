@@ -3,7 +3,7 @@ Reflections
 
 <div class="center">[Esperante](/eo/pripensoj) · [English](#)</div>
 <div class="center">November 24, 2015</div>
-<div class="center">Last updated: August 9, 2018</div>
+<div class="center">Last updated: August 14, 2018</div>
 
 This page contains contains some of my personal reflections.
 
@@ -302,3 +302,6 @@ Entries are sorted in chronological order.
 
 - Whenever you meet someone new, do not trust them. Only with time, one knows if they deserve
   it.<br>
+
+
+- My body is my shell. My mind is my playground.<br>
