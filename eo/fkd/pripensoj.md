@@ -3,7 +3,7 @@ Pripensoj
 
 <div class="center">[Esperante](#) · [English](/en/reflections)</div>
 <div class="center">la 3-an de novembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 12-an de aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 14-an de aŭgusto 2018</div>
 
 Ĉi tiu paĝo enhavas kelke da miaj propraj pripensoj.
 
@@ -301,3 +301,6 @@ Enskriboj ordigatas laŭ kronologiordo.
 
 - Kiam ajn iun novan homon oni renkontas, rin ne fidu. Nur per tempo oni povas scii se ĝin ri
   meritas.<br>
+
+
+- Mia korpo estas mia ŝelo. Mia menso estas mia ludejo.<br>
