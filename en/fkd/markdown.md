@@ -2,7 +2,7 @@ My Markdown Style Guide
 =======================
 
 <div class="center">April 3, 2017</div>
-<div class="center">Last updated: October 21, 2017</div>
+<div class="center">Last updated: August 16, 2018</div>
 
 >The laws that govern circumstances are abolished by new circumstances.<br>
 >―Napoleon Bonaparte
@@ -238,7 +238,7 @@ GitLab, wherein it is usually more convenient to let the UI wrap the text.
 <a name="extras"></a> Extras
 ----------------------------
 
-When using GNU Emacs, I use [these](https://github.com/ebzzry/dotfiles/blob/master/emacs/fkd/gxeneralaj.el#L797-L811)
+When using GNU Emacs, I use [these](https://gist.github.com/ebzzry/1206a1922805a872713bdaf2e8c419f5)
 commands, bound to <kbd>M-g =</kbd>, <kbd>M-g -</kbd>, and <kbd>M-g `</kbd>, respectively, to make
 it easy for me to insert the delimiters. For example, if I have the following text, where ^ is point:
 
@@ -253,7 +253,7 @@ then, when I press <kbd>M-g =</kbd>, it will become:
 ```markdown
 What is it Like Out There?
 ==========================
-                         ^
+                          ^
 ```
 
 The same apply with level 2 headings. So if I have:
@@ -269,7 +269,26 @@ then, when I press <kbd>M-g -</kbd>, it will become:
 ```markdown
 Monsters and angels
 -------------------
-                  ^
+                   ^
+```
+
+When I have the following:
+
+```markdown
+Code snippet:
+
+
+^
+```
+
+then, when I press <kbd>M-g `</kbd>, it will become:
+
+
+```markdown
+Code snippet:
+
+``````
+   ^
 ```
 
 
