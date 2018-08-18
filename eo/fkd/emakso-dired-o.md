@@ -3,7 +3,7 @@ Dosierujojn Emakse Mastrumi
 
 <div class="center">[Esperante](#) · [English](/en/emacs-dired)</div>
 <div class="center">la 12-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 12-an de aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 18-an de aŭgusto 2018</div>
 
 >Supozi bonas, tamen eltrovi pli bonas.<br>
 >―Samuel CLEMENS
@@ -123,7 +123,7 @@ konservi la ŝanĝojn, premu <kbd>C-c C-c</kbd>.
 <a name="finrimarkoj"></a>Finrimarkoj
 -------------------------------------
 
-Ni nur tuŝis la pinton de la glacimonto. Liberiĝu por esplori. Por vidi pli da informo, vizitu la
+Ni tuŝis nur la pinton de la glacimonto. Liberiĝu por esplori. Por vidi pli da informo, vizitu la
 Dired-an manlibron [ĉi tie](https://www.gnu.org/software/emacs/manual/html_node/emacs/Dired.html).
 
 _Dank’ al [Raymund Martinez](https://zhaqenl.github.io) pro la korektoj._

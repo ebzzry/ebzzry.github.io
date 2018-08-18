@@ -516,7 +516,7 @@ tra la jarojn.
   ―Hugh Derry, Life (2017)
 
 
-- La malsukceso nur estas la okazaĵo por denove komenci pli inteligente. Ne estas hontigo en
+- La malsukceso estas nur la okazaĵo por denove komenci pli inteligente. Ne estas hontigo en
   honesta malsukceso; estas hontigo en timi por malsukcesi.<br>
   ―Henry FORD
 

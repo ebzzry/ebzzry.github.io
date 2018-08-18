@@ -3,7 +3,7 @@ KVM-e Virtualigadi en Linukso
 
 <div class="center">[Esperante](#) · [English](/en/kvm)</div>
 <div class="center">la 3-an de marto 2018</div>
-<div class="center">Laste ĝisdatigita: la 12-an de aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 18-an de aŭgusto 2018</div>
 
 >Se tion oni faras, kion oni ĉiam faras; tion oni akiros, kion oni ĉiam akiras.<br>
 >―Anthony ROBBINS
@@ -122,7 +122,7 @@ Onin la lasta komando varbas al la KVM-a grupo senelsaluti el la seanco.
 
 ### <a name="retkonektado"></a>Retkonektado
 
-[Multajn manierojn](http://wiki.qemu-project.org/Documentation/Networking) de retkonektadon agordi
+[Multajn manierojn](http://wiki.qemu-project.org/Documentation/Networking) de retkonektado agordi
 por siaj gastoj QEMU subtenas, tamen por ĉi tiu afiŝo nur na VDE ni uzos.
 
 Kelkajn komandojn oni devas kuri por la retan medion pretigi. Ideale, la komandojn oni volas
