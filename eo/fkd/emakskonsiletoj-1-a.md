@@ -3,7 +3,7 @@ Emakskonsiletoj 1-a: Regionoj kaj Markoj
 
 <div class="center">[Esperante](#) · [English](/en/emacs-tips-1)</div>
 <div class="center">la 12-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 8-an de aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 18-an de aŭgusto 2018</div>
 
 Mi ankoraŭ bezonas trovi pli bonan redaktilon ol [Emakso](https://www.gnu.org/software/emacs/). Kio
 faras Emakson elstari, estas sia agorda lingvo—Emaksa Lispo. Emakso uzas ĝin al punkto, en kiu,
@@ -98,7 +98,7 @@ $ emacs --daemon
 ---------------------------
 
 Mi volas havi manieron por mortigi la nunan bufron, sen esti demandita kiun bufro por mortigi. Mi
-nur invitiĝos se la nuna bufro ŝanĝitis.
+nur invitiĝos se la nuna bufro ŝanĝiĝis.
 
 ```lisp
 (defun kill-current-buffer ()
@@ -110,7 +110,7 @@ nur invitiĝos se la nuna bufro ŝanĝitis.
 <a name="markoj"></a>Markoj
 ---------------------------
 
-Estis multe da fojo en la estinteco kiam mi bezonis funkcion kiu nur markas linion. Kiun mi havas
+Estis multe da fojo en la estinteco kiam mi bezonis funkcion kiu markas nur linion. Kiun mi havas
 estas la jena. Ruli ĝin multfoje markas plurajn liniojn.
 
 ```lisp
