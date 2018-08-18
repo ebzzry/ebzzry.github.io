@@ -3,7 +3,7 @@ Reflections
 
 <div class="center">[Esperante](/eo/pripensoj) · [English](#)</div>
 <div class="center">November 24, 2015</div>
-<div class="center">Last updated: August 14, 2018</div>
+<div class="center">Last updated: August 17, 2018</div>
 
 This page contains contains some of my personal reflections.
 
@@ -305,3 +305,6 @@ Entries are sorted in chronological order.
 
 
 - My body is my shell. My mind is my playground.<br>
+
+
+- If you do what everybody else does, you’ll get what everybody else gets.<br>
