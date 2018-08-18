@@ -3,7 +3,7 @@ Frog-e Blogi
 
 <div class="center">[Esperante](#) · [English](/en/frog)</div>
 <div class="center">la 16-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 11-an de aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 18-an de aŭgusto 2018</div>
 
 >Unu persono kun ardo pli bonas ol kvardek personoj nure interesataj.<br>
 >―E.M. FORSTER
@@ -215,7 +215,7 @@ nuna dosierujo:
 
     $ emacs .frogrc
 
-Oni rimarkos, ke estas pli ol dekduo parametroj kiuj ŝanĝeblas. Tamen por nun, oni nur okupiĝas pri
+Oni rimarkos, ke estas pli ol dekduo parametroj kiuj ŝanĝeblas. Tamen por nun, oni okupiĝas nur pri
 tri parametroj:
 
 - `scheme/host`
@@ -233,9 +233,9 @@ afiŝoj. Malfermu la dosieron `_src/page-template.html`, troveblas en la nuna do
 
     $ emacs _src/page-template.html
 
-Oni vidos eĉ pli grandan dosieron, kontraste kun .frogrc. Ĉi tiu apartas HTML-a dosiero, kiu
-enhavas Rakidan kaj Frog-an specifajn kodojn. Estos uzata kiel bazo por ĉiuj paĝoj. Ekzitas multe da
-parametroj ĉi tie, tamen oni nur ŝanĝos iujn, kiuj estas plej utila por si ĉi-momente. Por fari ĝin
+Oni vidos eĉ pli grandan dosieron, kontraste kun .frogrc. Ĉi tiu apartas HTML-a dosiero, kiu enhavas
+Rakidan kaj Frog-an specifajn kodojn. Estos uzata kiel bazo por ĉiuj paĝoj. Ekzistas multe da
+parametroj ĉi tie, tamen oni ŝanĝos nur iujn, kiuj estas plej utilaj por si ĉi-momente. Por fari ĝin
 pli facile, mi simple listigos la erojn por serĉi kaj anstataŭigi:
 
 - `The Unknown Blogger`
@@ -253,7 +253,7 @@ afiŝoj. Eble, ĉi tiu estas la plej facila dosiero por. Ni malfermu ĝin.
 
     $ emacs _src/post-template.html
 
-Intertempe, oni nur bezonas ŝanĝi la tekston `shortname`. Estas la identigilo kiu ligilas la
+Intertempe, oni bezonas ŝanĝi nur la tekston `shortname`. Estas la identigilo kiu ligilas la
 komentajn sekciojn de la blogaj afiŝoj al Disqus-a konto. Pli da informo pri ĉi tiu estos diskutita
 en la sekcio _Komentoj_.
 

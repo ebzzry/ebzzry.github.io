@@ -3,7 +3,7 @@ Enkonduko al Sofismoj
 
 <div class="center">[Esperante](#) · [English](/en/fallacies)</div>
 <div class="center">la 29-an de julio 2018</div>
-<div class="center">Laste ĝisdatigita: la 12-an de aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 18-an de aŭgusto 2018</div>
 
 >Lerni ne necesas; nek travivas.<br>
 >―W. Edwards DEMING
@@ -161,7 +161,7 @@ tirita el specimeno kiu ne estas sufiĉe granda.
 > “En mia junaĝo mi estis seksume fitraktita per samseksemulo. Tiel, samseksemuloj estas fiaj
 > kreaĵoj, kaj ili devas ponotaj.”
 
-La parolanto supozis, ke nur tial ke tian okazaĵon ri spertis en ria vivo antaŭe, ri konkludis ke
+La parolanto supozis, ke nur tial, ke tian okazaĵon ri spertis en ria vivo antaŭe, ri konkludis ke
 ĉiuj samseksemuloj malnoblas, kaj ili devas traktitaj per malestimo kaj naŭzo.
 
 
@@ -254,7 +254,7 @@ aŭ novas ne signifas, ke ĝi pli bonas.
 Ĉi tio fifaritas kiam aĝo de persono uzitas por la validecon de siaj asertoj subteni. Ĉi
 tio kutime aplikitas kontraŭe al iu kiu pli junas.
 
-> “Mi jam estas en la profesio de tridek jarojn. Vi nur havas tridek jarojn, kion vi scias pri
+> “Mi jam estas en la profesio de tridek jarojn. Vi havas nur tridek jarojn, kion vi scias pri
 > programlingva desegno?”
 
 Estas antaŭsupozite ĉi tie, ke nur ĉar iu pli junas al ri, fariĝas iu malplikompetenta por la
@@ -438,8 +438,8 @@ estas sofismo de neplena pruvmaterialo. Amasmedioj kaj socimedioj malgloras de �
 > “Silvja estas vivanta per beata kaj elizea vivo pro mi ofte vidas ŝiajn afiŝojn en socia reto, ke
 > ŝi estas feliĉa.”
 
-La eblecon, ke kion ri vidas ne fakte veras pro Sylvja nur afiŝojn kiujn aliajn homojn si volas por
-vidi kaj kredi si afiŝas la parolanto malatentas.
+La eblecon la parolanto malatentas, ke kion ri vidas ne fakte veras pro nur afiŝoj kiujn
+aliajn homojn Silvja volas por vidi kaj kredi ŝi afiŝas.
 
 
 <a name="skoto"></a>Ne vera skoto
