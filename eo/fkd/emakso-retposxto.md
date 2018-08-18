@@ -140,8 +140,8 @@ Kaj cetere, oni bezonas elŝuti mu4e-on. Venas kun la fontkodo de mu-o. Elŝutu 
 en kiu, Emakso trovas pravalorizajn dosierojn. Notu, ke la supra git-a komando, fakte elŝutas la
 fontkodon de mu-o, kaj oni fakte povas uzi ĝin por instali mu-on. Tamen, tial ke oni jam havas sian
 pako-administrilon, si malatentos tion. Kaj la dosierindiko, en kiu, la `mu/mu4e/`-a subdosierujo
-ekzistas de la pako-administrila instalo, malsimilas inter sistemoj. Do, intertempe, oni nur
-interesitas pri la `mu/mu4e/`-a subdosierujo.
+ekzistas de la pako-administrila instalo, malsimilas inter sistemoj. Do, intertempe, oni
+interesitas nur pri la `mu/mu4e/`-a subdosierujo.
 
 
 ### <a name="legiagordo"></a>Agordo

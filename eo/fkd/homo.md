@@ -3,7 +3,7 @@ Kiel Komuniki Kiel Homo
 
 <div class="center">[Esperante](#) · [English](/en/human)</div>
 <div class="center">la 3-an de aŭgusto 2018</div>
-<div class="center">Laste ĝisdatigita: la 12-an de aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 18-an de aŭgusto 2018</div>
 
 >La kapablo por paroli ne igas onin saĝa.<br>
 >―Qui-gon JINN
@@ -54,9 +54,9 @@ de tiuj demandoj estas responditaj de ne, kiam ni devas retaksi kiel ni komuniki
 
 ### Limigojn akcepti
 
-Kiam mesaĝojn al iu kiu ne la samajn mensajn kapablojn havas kiel la komunikanto iu bezonas
+Kiam mesaĝojn al iu kiuj ne la samajn mensajn kapablojn havas kiel la komunikanto iu bezonas
 komuniki, alĝustigoj devos esti faritaj. Aferojn ĉiuj da ni traktas malsame. Ŝaka grandmajstro devas
-teni en la kalkulo, ke se komencanton ri instruas, la studanto nur povas kompreni tiom. Ri ne povas
+teni en la kalkulo, ke se komencanton ri instruas, la studanto povas kompreni nur tiom. Ri ne povas
 ekstremiĝi kaj lin devigi por altnivelajn temojn kompreni. Estas malpenetrebla muro; tiu muro nur
 malplidekiĝas per tempo.
 
