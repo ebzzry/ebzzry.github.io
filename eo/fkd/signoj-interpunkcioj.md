@@ -3,7 +3,7 @@ Signoj kaj Interpunkcioj
 
 <div class="center">[Esperante](#) · [English](/en/symbols-marks)</div>
 <div class="center">la 16-an de julio 2018</div>
-<div class="center">Laste ĝisdatigita: la 11-an de aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 19-an de aŭgusto 2018</div>
 
 >Se grandiozon oni volas atingi, konsentojn ĉesu peti.<br>
 >―Eddie COLLA
@@ -81,7 +81,7 @@ Tiam, la jenan komandon kuru:
 - Makintoŝe: <kbd>-</kbd>
 - Vindoze: <kbd>-</kbd>
 
-Streketoj uzatas por la distributan sencon, kaj kunmetitajn vortojn montri. Ekzemple, se oni
+La streketoj uzatas por la distributan sencon, kaj kunmetitajn vortojn montri. Ekzemple, se oni
 volas esprimi:
 
 - sunleviĝo kaj sunsubiro
@@ -115,6 +115,12 @@ Se la kunmeton de vortoj oni volas esprimi:
 Oni esprimas:
 
 - ĝis-strekoj
+
+La streketoj ankaŭ uzatas por vortojn mallongigi. Ekzemple:
+
+- samideano iĝas s-ano
+- fraŭlino iĝas f-ino
+- doktoro iĝas d-ro
 
 
 <a name="gxisstrekoj"></a>Ĝis-strekoj (–)
