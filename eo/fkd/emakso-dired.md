@@ -3,7 +3,7 @@ Dosierujojn Emakse Mastrumi
 
 <div class="center">[Esperante](#) · [English](/en/emacs-dired)</div>
 <div class="center">la 12-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 18-an de aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 22-an de aŭgusto 2018</div>
 
 >Supozi bonas, tamen eltrovi pli bonas.<br>
 >―Samuel CLEMENS
@@ -11,7 +11,7 @@ Dosierujojn Emakse Mastrumi
 En ĉi tiu afiŝo, mi fokusas sur unu el la plej lertaj manieroj, kiel Emakso traktas dosierujan
 administradon. La dosierujrekdatilo _Dired_ (angle elparolas kiel dir-ed), estas la Emaksa
 egalvaloro de dosieradministrilo. Kio ajn oni povas fari al regulaj bufroj, oni ankaŭ povas fari ĝin
-al Dired-aj bufroj.
+al Dired-bufroj.
 
 
 <a name="et"></a>Enhavotabelo
@@ -21,7 +21,7 @@ al Dired-aj bufroj.
 - [Komunaj komandoj](#komunaj)
 - [Markaj komandoj](#markaj)
 - [Aliaj komandoj](#aliaj)
-- [WDired-a reĝimo](#wdired)
+- [WDired-reĝimo](#wdired)
 - [Finrimarkoj](#finrimarkoj)
 
 
@@ -53,7 +53,7 @@ eksplicite esprimis alie.
 <a name="komunaj"></a>Komunaj komandoj
 --------------------------------------
 
-Jen la kutimaj komandoj kiujn oni uzus, en Dired-a bufro. Kaj cetere, ili povas funkcii sur unuobla
+Jen la kutimaj komandoj kiujn oni uzus, en Dired-bufro. Kaj cetere, ili povas funkcii sur unuobla
 aŭ pluraj eroj. Uzi ilin por pluraj eroj estos klarigitaj sekve.
 
 | Klavo   | Kion ĝi faras               |
@@ -105,12 +105,12 @@ La jenaj komandoj agas laŭ si mem. Ili operacias sur solaj eroj kaj ili ne uzas
 | w       | Kopiu eron al tondejo                     |
 
 
-<a name="wdired"></a>WDired-a reĝimo
+<a name="wdired"></a>WDired-reĝimo
 ------------------------------------
 
 Tamen, unu el la plej mojosa, kaj ofte malatentita funkcio de Dired-o estas la _WDired-a_
 reĝimo. Kion ĝi faras, estas, ĝi donas al oni potenca kapablo por redakti la nomojn de eroj ene
-Dired-a bufro, similas al tio, kion oni faras al kutima bufro. Por eniri la WDired-a reĝimo, premu:
+Dired-bufro, similas al tio, kion oni faras al kutima bufro. Por eniri la WDired-reĝimo, premu:
 
     M-x wdired-change-to-wdired-mode REV
 
@@ -124,6 +124,6 @@ konservi la ŝanĝojn, premu <kbd>C-c C-c</kbd>.
 -------------------------------------
 
 Ni tuŝis nur la pinton de la glacimonto. Liberiĝu por esplori. Por vidi pli da informo, vizitu la
-Dired-an manlibron [ĉi tie](https://www.gnu.org/software/emacs/manual/html_node/emacs/Dired.html).
+Dired-manlibron [ĉi tie](https://www.gnu.org/software/emacs/manual/html_node/emacs/Dired.html).
 
 _Dank’ al [Raymund Martinez](https://zhaqenl.github.io) pro la korektoj._

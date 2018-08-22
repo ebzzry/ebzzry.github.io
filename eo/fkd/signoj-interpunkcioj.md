@@ -3,7 +3,7 @@ Signoj kaj Interpunkcioj
 
 <div class="center">[Esperante](#) · [English](/en/symbols-marks)</div>
 <div class="center">la 16-an de julio 2018</div>
-<div class="center">Laste ĝisdatigita: la 19-an de aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 22-an de aŭgusto 2018</div>
 
 >Se grandiozon oni volas atingi, konsentojn ĉesu peti.<br>
 >―Eddie COLLA
@@ -121,6 +121,12 @@ La streketoj ankaŭ uzatas por vortojn mallongigi. Ekzemple:
 - samideano iĝas s-ano
 - fraŭlino iĝas f-ino
 - doktoro iĝas d-ro
+
+Laste, la streketoj uzatas por neesperantigitajn vortojn esprimi. Ekzemple:
+
+- PDF-dosieroj
+- HTML-risurcoj
+- LiveJournal-uzantnomo
 
 
 <a name="gxisstrekoj"></a>Ĝis-strekoj (–)

@@ -1,15 +1,15 @@
-Agordi je GPG kaj je SSH en KDE-o
-=================================
+Agordi je GPG kaj je SSH en KDE
+===============================
 
 <div class="center">[Esperante](#) · [English](/en/gsk)</div>
 <div class="center">la 19-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 12-an de aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 22-an de aŭgusto 2018</div>
 
 >Ne tute estas grave por prave atingi tion en la unua fojo. Estas vitale grava atingi tion en la
 >lasta tempo.<br>
 >―Andrew HUNT kaj David THOMAS
 
-Kiam kaj GPG-o kaj SSH-o bone enkonstruitas kun KDE-o, estas facile por kunoperacii tiujn
+Kiam kaj GPG kaj SSH bone enkonstruitas kun KDE, estas facile por kunoperacii tiujn
 sistemojn. Estas kontrasto inter malfirme adaptita ganto kaj tiu, kiu tre bone adaptiĝas.
 
 Ĉi tiu mallonga gvidilo traktos la paŝojn kiel fari tion. Por gastigi ĉiujn, mi ankoraŭ diskutos
@@ -33,15 +33,15 @@ por ĉi tiu seanco, tamen oni liberas uzi ian redaktilon.
 
 Por ĉi tiu gvidilo, oni bezonas havi je GPG, je SSH, kaj je Pinentry.
 
-Per Nix-o:
+Per Nixpkgs:
 
     $ nix-env -i gnupg openssh pinentry
 
-Per APT-o:
+Per APT:
 
     $ sudo apt-get install gnupg2 ssh pinentry-qt4
 
-Per DNF-o:
+Per DNF:
 
     $ sudo dnf install gnupg openssh pinentry
 
@@ -70,13 +70,13 @@ Tiam, permesu la mem sur la defora servilo, por ke la senpasvortaj ensalutoj fun
 <a name="gpg"></a>Agordi je GPG
 -------------------------------
 
-Sekve, oni bezonas krei siajn GPG-ajn ŝlosilojn. Observu la invitojn, kiuj aperas, certigi ke oni
+Sekve, oni bezonas krei siajn GPG-ŝlosilojn. Observu la invitojn, kiuj aperas, certigi ke oni
 elektas la plej fortajn opciojn:
 
     $ gpg2 --gen-key
 
 Se oni volas uzi pli bonajn pasfrazojn, uzu
-[dajsvaron](http://world.std.com/~reinhold/diceware.html). XKCD-a bildstrio kreitas pro tio.
+[dajsvaron](http://world.std.com/~reinhold/diceware.html). XKCD-bildstrio kreitas pro tio.
 
 La sekva afero por fari estas por redakti la ĉefan GPG-an agorddosieron:
 
@@ -96,7 +96,7 @@ Metu la jenan kodaĵon:
     default-cache-ttl-ssh 10800
     pinentry-program /usr/bin/pinentry-qt4
 
-Anstataŭigu la valoron de `pinentry-program` per la efektiva dosierindiko de pinentry-o sur la
+Anstataŭigu la valoron de `pinentry-program` per la efektiva dosierindiko de pinentry sur la
 sistemo. Por precizigi la lokon de pinentry-o, kuru:
 
     $ which pinentry-qt4
@@ -105,8 +105,8 @@ sistemo. Por precizigi la lokon de pinentry-o, kuru:
 <a name="kde"></a>Agordi je KDE
 -------------------------------
 
-Oni nun bezonas ligi la GPG-an perilon al KDE-o. Oni bezonas krei startigan skripton por KDE-o, kiu
-alvokos la GPG-an perilon dum startigo. Oni ankaŭ bezonas diri al la GPG-a perilo por ŝalti SSH-an
+Oni nun bezonas ligi la GPG-an perilon al KDE. Oni bezonas krei startigan skripton por KDE, kiu
+alvokos la GPG-an perilon dum startigo. Oni ankaŭ bezonas diri al la GPG-perilo por ŝalti SSH-an
 apogon.
 
     $ mkdir ~/.kde/env
@@ -125,7 +125,7 @@ Faru ĝin plenumebla:
 
     $ chmod +x ~/.kde/env/01_gpg-agent.sh
 
-Fine, kreu la sistemferman skripton por la GPG-a perilo:
+Fine, kreu la sistemferman skripton por la GPG-perilo:
 
     $ mkdir ~/.kde/shutdown
     $ nano ~/.kde/shutdown/01_gpg-agent.sh
@@ -151,12 +151,12 @@ metodon kiu ne bezonas reŝargi la seancon, avizu min, mi petas.
 
 Premu <kbd>Ctrl+Alt+Del</kbd> por elsaluti, tiam ensalutu al la konto:
 
-Malfermu Konsole-an fenestron, tiam konektu al la plej ŝatata SSH-a servilo:
+Malfermu Konsole-an fenestron, tiam konektu al la plej ŝatata SSH-servilo:
 
     $ ssh uzanto@deforgastiganto
 
-Aperas pinentry-a dialogujo demandi onin por sia pasfrazo. Ĉi tiu pasfrazo estos kaŝmemorigita laŭ
-la agordoj en `~/.gnupg/gpg-agent.conf`. Sekvaj SSH-aj konektaj klopodoj ne plu demandos la
+Aperas pinentry-dialogujo demandi onin por sia pasfrazo. Ĉi tiu pasfrazo estos kaŝmemorigita laŭ
+la agordoj en `~/.gnupg/gpg-agent.conf`. Sekvaj SSH-konektaj klopodoj ne plu demandos la
 uzanton por la pasfrazon ene la tempolima periodo:
 
 Okazos samspeca agmaniero se oni ĉifras dosieron GPG-e:

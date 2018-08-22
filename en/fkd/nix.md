@@ -2,7 +2,7 @@ A Gentle Introduction to the Nix Family
 =======================================
 
 <div class="center">March 22, 2017</div>
-<div class="center">Last updated: April 4, 2018</div>
+<div class="center">Last updated: April 22, 2018</div>
 
 >Don’t worry about what anybody else is going to do. The best way to predict the future is to
 >invent it.<br>
@@ -943,7 +943,7 @@ repository at an earlier version.
 
 Updates to the git repository happen frequently—as you are reading this
 article,
-[new commits](https://github.com/nixos/nixpkgs/pulls?utf8=%E2%9C%93&q=is%3Apr%20is%3Aclosed) are
+[new commits](https://github.com/nixos/nixpkgs/pulls/) are
 made to the main tree. To use the git checkout, clone
 the [repository](https://github.com/nixos/nixpkgs):
 
