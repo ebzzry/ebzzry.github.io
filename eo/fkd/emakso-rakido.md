@@ -3,7 +3,7 @@ Rakidprogramadon Emakse Agordi
 
 <div class="center">[Esperante](#) · [English](/en/emacs-racket)</div>
 <div class="center">la 13-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 8-an de aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 22-an de aŭgusto 2018</div>
 
 >Ĉiom da bonaj ideoj ne kuŝas sub unu ĉapelo.<br>
 >―Dale TURNER
@@ -21,7 +21,7 @@ longan vojon, kiun mi vojaĝis.
 - [Instalo](#instalo)
 - [Uzado](#uzado)
   + [Rakida bufro](#rakidbufro)
-  + [LTPI-a bufro](#ltpibufro)
+  + [LTPI-bufro](#ltpibufro)
 - [Finrimarkoj](#finrimarkoj)
 
 
@@ -69,27 +69,26 @@ realigoj, se trovas ilin. La lastesprimo malnepras—ŝaltas onin por plenumi
 
 en la legad-taksad-presada iteracio (LTPI, angle REPL), por devigi la konservadon de la historio al
 la diskdosiero, kiu troveblas en `~/.geiser_history.racket` defaŭlte. Estas utila se vi tuj volas
-konservi vian LTPI-an historion. Ne ekzistas pli teruran aferon ol perdi TIUN esprimon. Por ĉiuj de
-la Emaksaj kodoj supraj, por efektiviĝi, vi nun povas taksi ilin per la membroj de la EVAL-a
-trupo—`eval-defun`, `eval-last-sexp`, `eval-region`—aŭ, vi ankoraŭ elektas naski novan Emaksan
+konservi vian LTPI-historion. Ne ekzistas pli teruran aferon ol perdi TIUN esprimon. Por ĉiuj de
+la Emaksaj kodoj supraj, por efektiviĝi, vi nun povas taksi ilin per la membroj de la EVAL-trupo—`eval-defun`, `eval-last-sexp`, `eval-region`—aŭ, vi ankoraŭ elektas naski novan Emaksan
 procezon.
 
 
 <a name="uzado"></a>Uzado
 -------------------------
 
-Por rikolti tiujn, kiujn vi semis, kreu aŭ malfermu `.rkt`-an dosieron, kun malpleje ĝusta modula
+Por rikolti tiujn, kiujn vi semis, kreu aŭ malfermu `.rkt`-dosieron, kun malpleje ĝusta modula
 deklaro. Tiam, premu:
 
     M-x run-geiser REV
 
-Kaj, hura! Aperas nova Emaksa fenestro, enhavi la `* Racket REPL *`-an bufron. Kio ajn vi povas fari
-per la LTPI-a envokito per la vanila komandlinia `racket`, vi ankaŭ povas fari tiujn, per ĉi tiu, kaj
-pli. Ĉi tiu ĉefreĝimo fakte estas la Comint-a reĝimo sub la kovrilo, kun kroĉiloj al Rakida
-procezo. Por tiuj de vi, kiuj estas malkutimaj pri la Comint-a reĝimo, estas la sama reĝimo kiu
+Kaj, hura! Aperas nova Emaksa fenestro, enhavi la `* Racket REPL *`-bufron. Kio ajn vi povas fari
+per la LTPI-envokito per la vanila komandlinia `racket`, vi ankaŭ povas fari tiujn, per ĉi tiu, kaj
+pli. Ĉi tiu ĉefreĝimo fakte estas la Comint-reĝimo sub la kovrilo, kun kroĉiloj al Rakida
+procezo. Por tiuj de vi, kiuj estas malkutimaj pri la Comint-reĝimo, estas la sama reĝimo kiu
 traktas `M-x shell REV`.
 
-Do, kion oni povas fari per tio? Dum redakti `.rkt`-an dosieron, jen estas kelke de kutimaj
+Do, kion oni povas fari per tio? Dum redakti `.rkt`-dosieron, jen estas kelke de kutimaj
 fulmoklavoj, kiujn mi uzas. La plena listo haveblas [ĉi tie](http://www.nongnu.org/geiser/geiser_5.html#Cheat-sheet).
 Notu, ke la priskribo de la klavoj, kiujn mi uzas malsupre, estas por mi mem komence, por
 helpi min komprenas tion, kion ĝi faras. Eble ili malsimilas al la oficiala priskribo, listigita sur
@@ -98,17 +97,17 @@ la antaŭmenciita ligilo.
 
 ### <a name="rakidbufro"></a>Rakida bufro
 
-| Klavo   | Kion ĝi faras                                   |
-| :------ | :---------------------------------------------- |
-| C-c C-z | Iru al la LTPI-a bufro                          |
-| C-c C-a | Taksu la nunbufron, tiam iru al la LTPI-a bufro |
-| C-M-x   | Taksu la nunesprimon                            |
-| C-x C-e | Taksu la lastesprimon                           |
-| C-c C-r | Taksu regionon                                  |
-| C-c C-\ | Enmetu lambdsimbolon (λ)                        |
+| Klavo   | Kion ĝi faras                                 |
+| :------ | :-------------------------------------------- |
+| C-c C-z | Iru al la LTPI-bufro                          |
+| C-c C-a | Taksu la nunbufron, tiam iru al la LTPI-bufro |
+| C-M-x   | Taksu la nunesprimon                          |
+| C-x C-e | Taksu la lastesprimon                         |
+| C-c C-r | Taksu regionon                                |
+| C-c C-\ | Enmetu lambdsimbolon (λ)                      |
 
 
-### <a name="ltpibufro"></a>LTPI-a bufro
+### <a name="ltpibufro"></a>LTPI-bufro
 
 | Klavo   | Kion ĝi faras                  |
 | :------ | :----------------------------- |

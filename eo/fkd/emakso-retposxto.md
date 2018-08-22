@@ -3,7 +3,7 @@ Retpoŝton Emakse Agordi
 
 <div class="center">[Esperante](#) · [English](/en/emacs-mail)</div>
 <div class="center">la 14-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 12-an de aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 22-an de aŭgusto 2018</div>
 
 >Nur tial ke ne fariĝis, ne signifas, ke ne fareblas. Nur tial ke fareblas, ne
 >signifas, ke devus.<br>
@@ -17,7 +17,7 @@ Emakso disponigas pletorajn manierojn (Gnus, Wanderlust, VM, ktp.) de sendi kaj 
 tiu afiŝo, mi parolos pri [getmail-o](http://pyropus.ca/software/getmail/),
 [mu-o](http://www.djcbsoftware.nl/code/mu/), kaj [mu4e-o](http://www.djcbsoftware.nl/code/mu/mu4e.html),
 kaj kiel agordi ilin ĝuste. En ĉi tiu lernilo, mi supozas, ke oni akiras siajn mesaĝojn
-[Gmail-e](https://gmail.com) per ĝia IMAP-a interfacio.
+[Gmail-e](https://gmail.com) per ĝia IMAP-interfacio.
 
 
 <a name="et"></a>Enhavotabelo
@@ -46,11 +46,11 @@ programo, kiu faras tion al si, estas [getmail-o](http://pyropus.ca/software/get
 
 Plejofte, getmail-o jam haveblas sur la sistemo per la pako-administrilo:
 
-Per Nix-o:
+Per Nixpkgs:
 
     $ nix-env -i getmail
 
-Per APT-o:
+Per APT:
 
     $ sudo apt-get install getmail4
 
@@ -88,11 +88,10 @@ delivered_to = false
 received = false
 ```
 
-Anstataŭigu __UZANTNOMO__ per onia Gmail-a uzantnomo, tiam anstataŭigu __PASVORTO__, per onia Gmail-a
-pasvorto. Tamen, se oni uzas [dufazan aŭtentigon](https://www.google.com/landing/2step/), uzu
+Anstataŭigu __UZANTNOMO__ per onia Gmail-uzantnomo, tiam anstataŭigu __PASVORTO__, per onia
+Gmail-pasvorto. Tamen, se oni uzas [dufazan aŭtentigon](https://www.google.com/landing/2step/), uzu
 [apspecifan](https://accounts.google.com/IssuedAuthSubTokens) pasvorton por la pasvorta kampo. Notu,
-ke `~/Maildir` estas la defaŭlta dosierujo, kiun la retpoŝta transmeta ilo uzos konservi
-datumon.
+ke `~/Maildir` estas la defaŭlta dosierujo, kiun la retpoŝta transmeta ilo uzos konservi datumon.
 
 
 ### <a name="elsxutiplenumo"></a>Plenumo
@@ -122,7 +121,7 @@ kaj la aldonita kliento, kiu funkcias Emakse, _mu-o_ envenas:
 Same kiel getmail-o supre, plej verŝajne, mu-o povas esti instalita per la pako-administrilo de onia
 sistemo:
 
-Per Nix:
+Per Nixpkgs:
 
     $ nix-env -i mu
 
@@ -137,11 +136,11 @@ Kaj cetere, oni bezonas elŝuti mu4e-on. Venas kun la fontkodo de mu-o. Elŝutu 
     $ git clone git@github.com:djcb/mu.git
 
 Ĉi tiu komando kreas `mu/`-an dosierujon en la nuna dosierujo, kiu estas la defaŭlta dosierindiko,
-en kiu, Emakso trovas pravalorizajn dosierojn. Notu, ke la supra git-a komando, fakte elŝutas la
+en kiu, Emakso trovas pravalorizajn dosierojn. Notu, ke la supra gita komando, fakte elŝutas la
 fontkodon de mu-o, kaj oni fakte povas uzi ĝin por instali mu-on. Tamen, tial ke oni jam havas sian
-pako-administrilon, si malatentos tion. Kaj la dosierindiko, en kiu, la `mu/mu4e/`-a subdosierujo
+pako-administrilon, si malatentos tion. Kaj la dosierindiko, en kiu, la `mu/mu4e/`-subdosierujo
 ekzistas de la pako-administrila instalo, malsimilas inter sistemoj. Do, intertempe, oni
-interesitas nur pri la `mu/mu4e/`-a subdosierujo.
+interesitas nur pri la `mu/mu4e/`-subdosierujo.
 
 
 ### <a name="legiagordo"></a>Agordo
@@ -237,7 +236,7 @@ kampojn kiel `To:`, kaj `Subject:`, tiam sur la mesaĝokorpo, premu:
 
 ĉi tiu komando, etikedos la eliranta poŝto kiel subskribita kaj ĉifrita. Por sendi ĝin, premu
 <kbd>C-c C-c</kbd>. Ĉi tiu komando sekve invitos onin por enigi sian pasfrazon. Ankaŭ demandos onin
-por plenumigi kelkajn informojn pri la elira retpoŝtservilo (SMTP). La SMTP-a servilo de Gmail
+por plenumigi kelkajn informojn pri la elira retpoŝtservilo (SMTP). La SMTP-servilo de Gmail
 estas `smtp.gmail.com`, tiam uzu `UZANTNOMO@gmail.com` kiam invitita por la uzantnomo. Uzu onian
 kutiman pasvorton, kiam invitita, aŭ enigu onian apspecifan pasvortos, kiel priskribita antaŭe. Ĉi
 tiu informo konservitas al `~/.authinfo`, kaj estos uzata por postaj mesaĝoj.
@@ -253,7 +252,7 @@ anstataŭigi la enhavon de la bufro. Diru jes al ĉi tio.
 konscii pri:
 
 1. emaksaj sekurkopioj, kaj
-2. mu4e-aj malnetoj
+2. mu4e-malnetoj
 
 Pri la antaŭa, kiam oni uzas la sekurkopia facilo de Emakso, aŭ pakaĵo kiel
 [backup-dir](https://www.emacswiki.org/emacs/BackupDirectory), mesaĝoj kiujn si verkas, supozeble
