@@ -1,9 +1,9 @@
-Migri de LiveJournal al Frog-o
-==============================
+Migri de LiveJournal al Frog
+============================
 
 <div class="center">[Esperante](#) · [English](/en/livefrog)</div>
 <div class="center">la 7-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 8-an de aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 22-an de aŭgusto 2018</div>
 
 >Mi ne scias kien mi iras, sed mi estas sur mia vojo.<br>
 >―Carl SAGAN
@@ -11,7 +11,7 @@ Migri de LiveJournal al Frog-o
 Estas tempoj kiam oni volas havi pli da rego sur la enhavo. Estas ankaŭ tempoj kiam oni ne volas
 alian platformon por dikti tion, kion eniras aŭ eliras. Aferoj kiel cenzurado kaj politikoj, facile
 povas rampi al blogan platformon. Mi spertis specificajn kazojn, en kiu, mi bezonis konverti
-LiveJournal-ajn afiŝojn al alia platformo. Estas iloj kiuj faras ĉi tion, tamen, mi trovis
+LiveJournal-afiŝojn al alia platformo. Estas iloj kiuj faras ĉi tion, tamen, mi trovis
 nenion, ĝis nun, kiu tradukas al [Frog](https://github.com/greghendershott/frog/) dosieroj. Ĉi tio
 estas mia malforta provo por atingi tiun celon.
 
@@ -31,7 +31,7 @@ estas mia malforta provo por atingi tiun celon.
 ---------------------------------------
 
 Livefrog estas utilaĵo, verkita per [Rakido](http://racket-lang.org), kiu uzatas migri
-LiveJournal-ajn afiŝojn al Frog, blogada platformo ankaŭ verkita per Rakido. Uzas la dosierojn,
+LiveJournal-afiŝojn al Frog, blogada platformo ankaŭ verkita per Rakido. Uzas la dosierojn,
 kreitaj de aŭ [ljdump](http://hewgill.com/ljdump/) aŭ
 [ljmigrate](https://github.com/ceejbot/ljmigrate).
 
@@ -41,11 +41,11 @@ kreitaj de aŭ [ljdump](http://hewgill.com/ljdump/) aŭ
 
 Esti kapable por kuri la programojn, oni unue devas instali Rakidon:
 
-Per Nix-o:
+Per Nixpkgs:
 
     $ nix-env -i racket
 
-Per APT-o:
+Per APT:
 
     $ sudo apt-get install -y racket
 
@@ -80,7 +80,7 @@ dosierojn, kreitaj de ljdump aŭ ljmigrate, kaj konverti ilin al Markdown:
 Memoru, tamen, ke ljdump kaj limigrate malsamopinias kiel la arboj por la datumaj aroj
 kreitas.
 
-ljdump havas la jenan arban strukturon, en kiu, `username` estas via LiveJournal-a uzantnomo:
+ljdump havas la jenan arban strukturon, en kiu, `username` estas via LiveJournal-uzantnomo:
 
 ```bash
 ljdump/
@@ -124,7 +124,7 @@ ljmigrate/
       userpics/
 ```
 
-Post krei la Markdown-ajn Frog-ajn fontajn dosierojn, oni nun povas kopii ilin al via Frog-a fonta
+Post krei la Markdown-ajn Frog-ajn fontajn dosierojn, oni nun povas kopii ilin al via Frog-fonta
 dosierujo, indikata ĉe `_src/posts/`.
 
 
@@ -132,7 +132,7 @@ dosierujo, indikata ĉe `_src/posts/`.
 -------------------------------
 
 Frog, defaŭlte, uzas [Disqus](https://disqus.com) por trakti la komentojn. Por importi komentojn al
-ĉi tiu platformo, oni devas generi XML-an dosieron, kiu devas konformiĝi al la reglamentoj de Disqus
+ĉi tiu platformo, oni devas generi XML-dosieron, kiu devas konformiĝi al la reglamentoj de Disqus
 por importi komentojn.
 
 Por krei tiel dosieron, nomata kiel `comments.xml`, kun `foo.bar.com` kiel la radika retejo:

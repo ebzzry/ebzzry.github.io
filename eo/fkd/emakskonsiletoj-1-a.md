@@ -3,7 +3,7 @@ Emakskonsiletoj 1-a: Regionoj kaj Markoj
 
 <div class="center">[Esperante](#) · [English](/en/emacs-tips-1)</div>
 <div class="center">la 12-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 18-an de aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 22-an de aŭgusto 2018</div>
 
 Mi ankoraŭ bezonas trovi pli bonan redaktilon ol [Emakso](https://www.gnu.org/software/emacs/). Kio
 faras Emakson elstari, estas sia agorda lingvo—Emaksa Lispo. Emakso uzas ĝin al punkto, en kiu,
@@ -44,8 +44,8 @@ La jena komando forviŝas regionon se unu aktivas aŭ forviŝas la signon sub la
 <a name="kompilo"></a>Kompilo
 -----------------------------
 
-Mi ofte uzas la jenan komandon kaj mi uzas ĝin de komposti LaTeX-ajn dokumentojn, kompili
-Scribble-ajn dokumentojn, kompili kodon, kaj por preskaŭ io ajn, kiun mi povas uzi ĝin.
+Mi ofte uzas la jenan komandon kaj mi uzas ĝin de komposti LaTeX-dokumentojn, kompili
+Scribble-dokumentojn, kompili kodon, kaj por preskaŭ io ajn, kiun mi povas uzi ĝin.
 
 ```lisp
 (defun compile-file ()

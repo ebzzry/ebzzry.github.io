@@ -3,22 +3,22 @@ Na Markdown Emem-e Konverti al HTML
 
 <div class="center">[Esperante](#) · [English](/en/emem)</div>
 <div class="center">la 5-an de aŭgusto 2018</div>
-<div class="center">Laste ĝisdatigita: la 12-an de aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 22-an de aŭgusto 2018</div>
 
 >Oni ne trovos la respondojn kiujn oni serĉas ĝis oni haltas serĉi ekster kaj komenciĝas serĉi ilin
 >el oni mem.<br>
 >―Memory GATEKEEPER, Ergo Proxy
 
-Manieron por HTML-ajn dokumentojn krei el miaj Markdown-aj dosieroj mi ĉiam volintas. Komence,
-HTML-ajn dosierojn el miaj tekstaj dosieroj mi nur volis havi por ke ilin mi povu vidi per mia
+Manieron por HTML-dokumentojn krei el miaj Markdown-dosieroj mi ĉiam volintas. Komence,
+HTML-dosierojn el miaj tekstaj dosieroj mi nur volis havi por ke ilin mi povu vidi per mia
 poŝtelefono. Poste, manieron por tiujn dosierojn krei por ke ilin mi povu alŝuti al la interreto
 kaj ilin vidi sur aliaj aparatoj. Jam ekzistas iloj por ja tion fari. Ilin mi provis, tamen min mem
 mi trovis la eligon ŝanĝi ofte nur por ilin igas akcepteblaj. Neniuj da ili konformiĝis al mia
 kriterio: facile por munti, facile por uzi, kaj decan eligon realigas.
 
 Na [emem](https://github.com/ebzzry/emem) mi skribis kiel respondo al tiuj bezonoj. Emem estas
-malgranda ilo kiu Markdown-ajn dosierojn ricevas aŭ el la ĉefenigujo aŭ diska dosiero, tiam HTML-an
-eligon liveras kiu sufiĉe decas, almenaŭ por kutima rigardado.
+malgranda ilo kiu Markdown-dosierojn ricevas aŭ el la ĉefenigujo aŭ diska dosiero, tiam HTML-eligon
+liveras kiu sufiĉe decas, almenaŭ por kutima rigardado.
 
 
 <a name="et"></a>Enhavotabelo
@@ -64,9 +64,9 @@ La plej ĵusa versio estas `0.2.50`.
 <a name="uzado"></a>Uzado
 -------------------------
 
-Ĉe la plej baza nivelo, na emem simple kuras kontraŭ Markdown-a dosiero, bazan, tamen plenan HTML-an
-dosieron kun ĉiom da necesaj risurcoj por ĝusta paĝa montrado liveras. Na emem aplikante al dosiero
-nomita `MINLEGU.md`:
+Ĉe la plej baza nivelo, na emem simple kuras kontraŭ Markdown-dosiero, bazan, tamen plenan
+HTML-dosieron kun ĉiom da necesaj risurcoj por ĝusta paĝa montrado liveras. Na emem aplikante al
+dosiero nomita `MINLEGU.md`:
 
     $ emem MINLEGU.md
 
@@ -97,8 +97,8 @@ en la eliga dosiero metas ĝin igas facila kaj helpema por la eligajn dokumentoj
 aparatoj kiel poŝtelefonoj kaj tabuletoj.
 
 Tenu en la kalkulo, ke la dokumentotitolo ene la dosiero estos uzita kiel la baznomo de la
-dosiero. Do, de `MINLEGU.md`, na `<title>MINLEGU.md</title>` liveras en la HEAD-a etikedo. Se la
-Markdown-ajn dosierojn oni strukturas tia, ke la unuaj du linioj aspektas kiel:
+dosiero. Do, de `MINLEGU.md`, na `<title>MINLEGU.md</title>` liveras en la HEAD-etikedo. Se la
+Markdown-dosierojn oni strukturas tia, ke la unuaj du linioj aspektas kiel:
 
 ```
 Foo Bar
@@ -116,15 +116,15 @@ senornaman reĝimon uzu:
 
     $ emem -Rp MINLEGU.md
 
-La `-R` opcio instruas al emem la risurcajn dosierojn ne krei, kaj la CSS-ajn stilojn kaj
+La `-R` opcio instruas al emem la risurcajn dosierojn ne krei, kaj la CSS-stilojn kaj
 ĝavoskripton la `-p` opcio forigas.
 
 Se la nomon de la eliga dosiero oni volas ŝanĝi, la `-o` opcion uzu.
 
     $ emem -o mia-dosiero.html MINLEGU.md
 
-Se Markdown-ajn dosierojn oni havas en `~/Desktop/`, ilin ĉiujn oni povas konverti al HTML-aj
-dosireoj en unu falplonĝo:
+Se Markdown-dosierojn oni havas en `~/Desktop/`, ilin ĉiujn oni povas konverti al HTML-dosireoj en
+unu falplonĝo:
 
     $ emem ~/Desktop
 
@@ -148,8 +148,8 @@ $ emem -D 'Retejo pri omaroj kaj kraboj \
 MINLEGU.md
 ```
 
-Ankaŭ eblas por ajnan enhavon meti en la HEAD-a etikedo per -a `-H` opcio. Ekzemple, por la
-[«Open Graph Protocol»](http://ogp.me/)-ajn valorojn precizigi:
+Ankaŭ eblas por ajnan enhavon meti en la HEAD-etikedo per la `-H` opcio. Ekzemple, por la
+[«Open Graph Protocol»](http://ogp.me/)-valorojn precizigi:
 
 ```bash
 $ emem -D Ve -K 'a, b, c' \
@@ -172,8 +172,7 @@ Plena listo de la subtenitaj lingvoj de modernaj retumulioj troveblas
 [ĉi tie](https://www.w3schools.com/tags/ref_language_codes.asp).
 
 Estas okazoj en kiu la redaktadan iteracion mi ne volas rompi laborante kun la enigaj dosieroj,
-kaj nur la HTML-ajn dosierojn mi volas esti kreitaj kiam ajn novaj ŝanĝoj al la fontaj Markdown-aj
-dosieroj realiĝas. Tiuokaze, la senpaŭzan reĝimon per la `-c` opcio mi alvokas:
+kaj nur la HTML-dosierojn mi volas esti kreitaj kiam ajn novaj ŝanĝoj al la fontaj Markdown-dosieroj realiĝas. Tiuokaze, la senpaŭzan reĝimon per la `-c` opcio mi alvokas:
 
     $ emem -c MINLEGU.md
 
@@ -200,19 +199,19 @@ Por ĉiom da subtenitaj opcioj vidi:
 <a name="finrimarkoj"></a>Finrimarkoj
 -------------------------------------
 
-Por ĉi tiu tuta [blogo](https://ebzzry.io), 90+ poentaron mi povis atingi el [Google PageSpeed
-Insights](https://developers.google.com/speed/pagespeed/insights/), «Mobile-Friendly» pritakso el
+Por ĉi tiu tuta [blogo](https://ebzzry.io), 90+ poentaron mi povis atingi el
+[Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/), «Mobile-Friendly» pritakso el
 [Google Mobile-Friendly Test](https://search.google.com/test/mobile-friendly), kaj rendimenta rango
-de B el [Pingdom](https://tools.pingdom.com/). Se la TTT-ajn servilajn parametrojn oni povas regi,
+de B el [Pingdom](https://tools.pingdom.com/). Se la TTT-servilajn parametrojn oni povas regi,
 rendimentan rangon de A oni eĉ povas atingi, kiam retumilan kaŝmemoron oni ekspluatas kaj la
-`Vary: Accept-Encoding`-an ĉapon precizigas. Na [GitHub Pages](https://pages.github.com) mi uzas, do estas
+`Vary: Accept-Encoding`-ĉapon precizigas. Na [GitHub Pages](https://pages.github.com) mi uzas, do estas
 malsama rakonto de mi.
 
-Mi feliĉas pri la eligo kiun emem liveras. Sufiĉe rapidas kaj ĝin mi povas etendi facile. Ĝin
-mi eĉ uzas por miaj propraj kaj postenaj dokumentadoj. Ĝin mi ankaŭ uzas per emakso por TTT-ajn
-versiojn de Markdown-aj bufroj krei per
+Mi feliĉas pri la eligo kiun emem liveras. Sufiĉe rapidas kaj ĝin mi povas etendi facile. Ĝin mi eĉ
+uzas por miaj propraj kaj postenaj dokumentadoj. Ĝin mi ankaŭ uzas per emakso por TTT-versiojn de
+Markdown-bufroj krei per
 [shell-command](https://www.gnu.org/software/emacs/manual/html_node/elisp/Synchronous-Processes.html)
-kaj [emacs-w3m](https://www.emacswiki.org/emacs/emacs-w3m). Por na emem vidi en efektiva uzado, [ĉi
-tien](https://github.com/ebzzry/ebzzry.github.io/blob/master/Makefile) iru.
+kaj [emacs-w3m](https://www.emacswiki.org/emacs/emacs-w3m). Por na emem vidi en efektiva uzado,
+[ĉi tien](https://github.com/ebzzry/ebzzry.github.io/blob/master/Makefile) iru.
 
 Se iom da Kloĵuron oni konas, [ĝin forku](https://github.com/ebzzry/emem/) kaj forkodumu!
