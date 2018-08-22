@@ -3,7 +3,7 @@ Sekurkopiojn Ugarit-e Krei
 
 <div class="center">[Esperante](#) · [English](/en/ugarit)</div>
 <div class="center">la 18-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 10-an de aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 22-an de aŭgusto 2018</div>
 
 >Bona juĝo devenas el sperto, kaj sperto devenas el malbona juĝo.<br>
 >―Fred BROOKS
@@ -27,8 +27,8 @@ de teĥnologio, kiu kunmiksas facilecon de uzado kaj sekurecon en unu ilo.
 
 - [Superrigardo](#superrigardo)
 - [Instalo](#instalo)
-  + [Per APT-o](#apt-o)
-  + [Per Nix-o](#nix-o)
+  + [Per APT](#apt)
+  + [Per Nixpkgs](#nixpkgs)
 - [Agordo](#agordo)
 - [Baza uzado](#baza)
   + [Krei dosierkopiojn](#krei)
@@ -55,7 +55,7 @@ tiel maŝinskribi mallongan komandon.
 <a name="instalo"></a>Instalo
 -----------------------------
 
-### <a name="apt-o"></a>Per APT-o
+### <a name="apt"></a>Per APT:
 
 Unue, oni devas instali je [Chicken](https://www.call-cc.org/). Plej verŝajne, povas esti instalita
 per la pako-administrilo:
@@ -74,9 +74,9 @@ Post ĉi tiu komando finiĝas, la komando `ugarit` haveblos. Por montri la uzado
     $ ugarit -h
 
 
-### <a name="nix-o"></a>Per Nix-o
+### <a name="nixpkgs"></a>Per Nixpkgs
 
-Se oni ozas Nix-on, simple kuru la jenan komandon:
+Se oni uzas na Nixpkgs, simple kuru la jenan komandon:
 
     $ nix-env -i ugarit
 
@@ -208,7 +208,7 @@ tiu, same kiel ia alia loka dosiersistemo.
     $ cd ~/mnt/sshfs
     $ ugarit snapshot /ugarit/ugarit.conf remotehost
 
-La samo aplikatas al [SMBFS-aj](https://www.samba.org/samba/smbfs/) surmetoj:
+La samo aplikatas al [SMBFS](https://www.samba.org/samba/smbfs/)-surmetoj:
 
     $ sudo mount -t cifs -o user=$USER,uid=$USER //winhost/c \
     ~/mnt/smbfs/winhost/c
@@ -235,15 +235,14 @@ Kiam ne fidas la rendimenton de la disko kie oni enmemorigas la dosierkopiojn, m
 servojn. Estas kutime periode kuradi per cron-o. Metas multe da ŝarĝo sur la disko kaj eble
 trostresi ĝin. La sperto povas varii.
 
-Por malŝalti tiujn servojn sur NixOS, aldonu la jenajn al `/etc/nixos/configuration.nix`:
+Por malŝalti tiujn servojn sur NixOS, aldonu la jenan al `/etc/nixos/configuration.nix`:
 
 ```nix
 services.locate.enable = false;
 ```
 
 Grava averto menciinda estas ke pro la maniero kiel Ugarit-o funkcias, ne ekzistas forviŝi de
-dosierkopioj. La enmemoriga meĥanismo funkcias laŭe kiel Gito, nur tio ne ekzistas `rebase`-aj
-opcioj.
+dosierkopioj. La enmemoriga meĥanismo funkcias laŭe kiel Gito, nur tio ne ekzistas `rebase`-opcioj.
 
 Ugarit-o estas kreita de [Alaric Snell-Pym](http://www.snell-pym.org.uk/alaric/). Se oni volas lerni
 pli da informo de projekto, iru [ĉi tien](https://www.kitten-technologies.co.uk/project/ugarit/doc/trunk/README.wiki).
