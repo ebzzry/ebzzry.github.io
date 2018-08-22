@@ -3,7 +3,7 @@ Mia Kinezia Avantaĝa Aranĝo
 
 <div class="center">[Esperante](#) · [English](/en/advantage)</div>
 <div class="center">la 12-an de julio 2018</div>
-<div class="center">Laste ĝisdatigita: la 12-an de aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 22-an de aŭgusto 2018</div>
 
 >La doloro neeviteblas. La suferado malnepras.<br>
 >―M. Kathleen CASEY
@@ -45,7 +45,7 @@ Emakso kaj Ziŝo.
 
 Jam ekzistas dvoraka reĝimo, kiu enkonstruitas en la klavaro. En ĉi tiu reĝimo, la dvorakan reĝimon
 oni povas ŝalti sen iun ajn programon uzi per na <kbd>Progrm + Shift + F5</kbd> premi. Oni povas iri
-reen al la QWERTY-a reĝimo per la sama klavkombino. Kiam la dvorakan reĝimon oni uzas, la jena
+reen al la QWERTY-reĝimo per la sama klavkombino. Kiam la dvorakan reĝimon oni uzas, la jena
 aranĝo estas kiel la klavoj aranĝitaj:
 
 <a href="/bil/avantagxo-dvorako-0.png"><img src="/bil/avantagxo-dvorako-0.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="Originala softvara Dvorako" title="Originala softvara Dvorako"/></a>
@@ -75,16 +75,16 @@ nova doko de <kbd>Esc</kbd> ankaŭ plaĉas al mi—min ĉi tio permesas por la e
 na Vi uzi aŭ apajn invitojn fermi.
 
 Na <kbd>Insert</kbd> mi uzis anstataŭ <kbd>Esc</kbd> por ke na `XA_PRIMARY` zonon mi povu aliri
-facile per <kbd>Shift + Insert</kbd>. La `XA_PRIMARY`-a zono estas kie la musaj markoj iras. Ankaŭ
+facile per <kbd>Shift + Insert</kbd>. La `XA_PRIMARY`-zono estas kie la musaj markoj iras. Ankaŭ
 plifaciliĝas por la `overwrite-mode`-an reĝimon de emakso eniri. La <kbd>Insert</kbd> klavo,
 bedaŭrinde, kaŝitas en la klavo markita per `|`, maldekstre. La sinsekvo por ĝin aliri estas
 listigita al la fino de ĉi tiu afiŝo.
 
-Kiujn estis antaŭaj <kbd>Ctrl</kbd>-aj klavoj mi bindis al <kbd>KP Home</kbd> and <kbd>KP End</kbd>
-por ke en mia
-[~/.Xmodmap](https://github.com/ebzzry/dotfiles/blob/master/xmodmap/.Xmodmap.advantage.dvorak)-a
-dosiero, ĝin mi povu mapi al <kbd>Mode Switch</kbd>. Miajn [notojn](#notojn) vidu ĉi-sube kial
-alian malrektigadan nivelon mi aldonis.
+Kiujn estis antaŭaj <kbd>Ctrl</kbd>-klavoj mi bindis al <kbd>KP Home</kbd> and <kbd>KP End</kbd> por
+ke en mia
+[~/.Xmodmap](https://github.com/ebzzry/dotfiles/blob/master/xmodmap/.Xmodmap.advantage.dvorak)-dosiero,
+ĝin mi povu mapi al <kbd>Mode Switch</kbd>. Miajn [notojn](#notojn) vidu ĉi-sube kial alian
+malrektigadan nivelon mi aldonis.
 
 
 <a name="agordo"></a>Agordo
@@ -132,8 +132,8 @@ estas la fonto, la sekva klavo estas la celo.
 Tiam na <kbd>Progrm + F12</kbd> premu denove, por la remapagadan reĝimon eliri. La <kbd>KP
 Enter</kbd> klavo moviĝis al la maldekstra <kbd>Alt</kbd> por, ke ĝin mi povas facile uzi kiel
 «Compose (Multi)» klavo en X. La jenan kodeton mia
-[~/.Xmodmap](https://github.com/ebzzry/dotfiles/blob/master/xmodmap/.Xmodmap.advantage.dvorak)-a
-dosiero enhavas:
+[~/.Xmodmap](https://github.com/ebzzry/dotfiles/blob/master/xmodmap/.Xmodmap.advantage.dvorak)-dosiero
+enhavas:
 
 ```
 keycode 104 = Multi_key
@@ -145,7 +145,7 @@ keycode 104 = Multi_key
 
 Se ŝlosilkodon 21 la dekstra <kbd>Ctrl</kbd> klavo havas—dum mapigite per xmodmap al
 <kbd>Mode_switch</kbd>—kaj ĝi samtempe premitas kun <kbd>c</kbd> en softvara QWERTY-o aŭ
-<kbd>j</kbd> en softvara Dvorako, la jenan tekston por QWERTY-aj kaj Dvorakaj reĝimon ĝi generas
+<kbd>j</kbd> en softvara Dvorako, la jenan tekston por QWERTY-aj kaj Dvorakaj reĝimojn ĝi generas
 respektive:
 
 ```

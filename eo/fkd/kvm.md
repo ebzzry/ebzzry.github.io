@@ -3,7 +3,7 @@ KVM-e Virtualigadi en Linukso
 
 <div class="center">[Esperante](#) · [English](/en/kvm)</div>
 <div class="center">la 3-an de marto 2018</div>
-<div class="center">Laste ĝisdatigita: la 18-an de aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 22-an de aŭgusto 2018</div>
 
 >Se tion oni faras, kion oni ĉiam faras; tion oni akiros, kion oni ĉiam akiras.<br>
 >―Anthony ROBBINS
@@ -26,11 +26,11 @@ pro la uzado de «sudo».
   + [Programaro](#programaro)
 - [Agordo](#agordo)
   + [Bildoj](#bildoj)
-  + [KVM-a grupo](#grupo)
+  + [KVM-grupo](#grupo)
   + [Retkonektado](#retkonektado)
 - [Plenumo](#plenumo)
   + [La bildon ŝarĝi](#sxargxu)
-  + [Konekti al la SPICE-a ekrano](#ekrano)
+  + [Konekti al la SPICE-ekrano](#ekrano)
   + [La gastan reton agordi](#gastareto)
 - [La kurtenojn fermi](#kurtenoj)
   + [La retkonektadon restaŭri](#restauxri)
@@ -73,9 +73,9 @@ APT:
     $ sudo apt-get install -y qemu-kvm vde2 spice-client-gtk
 
 La [QEMU](http://wiki.qemu-project.org/Main_Page)-an /ki-mu/ hiperregilon, la
-[VDE](http://vde.sourceforge.net/)-ajn ilojn, kaj [SPICE](http://www.spice-space.org/)-an subtenon
+[VDE](http://vde.sourceforge.net/)-ilojn, kaj [SPICE](http://www.spice-space.org/)-subtenon
 ĉi tio instalas. QEMU, almenaŭ dum siaj fruaj tagoj ne estis impresa—ĝi estis bona, bedaŭrinde ne
-bonegas. Ekde versio 0.10.1, na [KVM](http://www.linux-kvm.org/)-ajn kapablojn—virtualigada
+bonegas. Ekde versio 0.10.1, na [KVM](http://www.linux-kvm.org/)-kapablojn—virtualigada
 subsistemo por linukso—kiu preskaŭ denaskan virtualigadon disponigas per aparataro-asistita
 virtualigado, QEMU komencis subteni. La rendimentojn de la aliaj virtualigadaj sistemoj menciitaj
 ĉi-supre ĝi eĉ konkuras.
@@ -83,7 +83,7 @@ virtualigado, QEMU komencis subteni. La rendimentojn de la aliaj virtualigadaj s
 La opcion de konekti al la gasta maŝina ekrano
 [VNC](https://en.wikipedia.org/wiki/Virtual_Network_Computing)-e aliaj aplikaĵaroj
 ofertas. Bedaŭrinde, ĝi malrapidas kaj malviglas. La respondtempo teruras. La
-[SPICE](http://www.spice-space.org/)-an protokolon uzante, ne nur aferojn ĝi plirapidigas, ankaŭ
+[SPICE](http://www.spice-space.org/)-protokolon uzante, ne nur aferojn ĝi plirapidigas, ankaŭ
 aliajn aferojn ĝi ebligas. Tenu en la kalkulo, ke SPICE ne estas anstataŭaĵo por VNC, anstataŭe, ĝi
 estas alia maniero por la celojn renkonti.
 
@@ -93,10 +93,10 @@ estas alia maniero por la celojn renkonti.
 
 ### <a name="bildoj"></a>Bildoj
 
-Tabelon de bildaj tipoj QEMU subtenas, tamen la [QCOW2](https://en.wikipedia.org/wiki/Qcow)-a formato
+Tabelon de bildaj tipoj QEMU subtenas, tamen la [QCOW2](https://en.wikipedia.org/wiki/Qcow)-formato
 estas la plej fleksebla, kaj kapable riĉas, por la uzo do QEMU.
 
-Se ekzistantan VirtualBox-an dosieron (VDI) oni havas, ĝin oni povas konverti al QCOW2 per:
+Se ekzistantan VirtualBox-dosieron (VDI) oni havas, ĝin oni povas konverti al QCOW2 per:
 
     $ qemu-img convert -f vdi -O qcow2 vm.vdi vm.qcow2
 
@@ -108,7 +108,7 @@ Tamen, se bildon oni ne jam havas, ĝin oni povas krei per:
 ne fakte gravas—la bildon oni povas nomigi kiel `index.html`, tamen tio ne estus sencema, ĉu ne? 😄
 
 
-### <a name="grupo"></a>KVM-a grupo
+### <a name="grupo"></a>KVM-grupo
 
 La komandoj ĉi-sube postulas, ke grupo nomiĝas `kvm` devas ekzisti kaj oni estas ano de tiu
 grupo. Por tion efektivigi, kuru:
@@ -117,7 +117,7 @@ grupo. Por tion efektivigi, kuru:
     $ sudo usermod -G $(groups | sed 's/ /,/g'),kvm $USER
     $ newgrp kvm
 
-Onin la lasta komando varbas al la KVM-a grupo senelsaluti el la seanco.
+Onin la lasta komando varbas al la KVM-grupo senelsaluti el la seanco.
 
 
 ### <a name="retkonektado"></a>Retkonektado
@@ -136,9 +136,9 @@ konservi en ŝela funkcio aŭ skripto:
 
 La ĉi-supraj komandoj:
 
-1. La VDE-an aparaton kreos.
-2. La TCP/IP-ajn opciojn agordos por tiu aparato.
-3. La VDE-an aparaton ŝaltos.
+1. La VDE-aparaton kreos.
+2. La TCP/IP-opciojn agordos por tiu aparato.
+3. La VDE-aparaton ŝaltos.
 4. La paketan plusendadon ŝaltos en la gastiga sistemo.
 5. La enkursigan agordon agordos.
 
@@ -152,7 +152,7 @@ La ĉi-supraj komandoj:
 La komandon `qemu-kvm` oni nun devas alvoki, la komando kiu ĉion lanĉas. La nomo de la komando eble
 malsamas kun la tiu, kiu instalitas sur la sistemo.
 
-Se operaciumon el praŝarĝebla bildo oni instalas, kutime la ISO-a dosiero, kuru:
+Se operaciumon el praŝarĝebla bildo oni instalas, kutime la ISO-dosiero, kuru:
 
     $ sudo qemu-kvm -cpu host -m 2G -net nic,model=virtio \
     -net vde -soundhw all -vga qxl \
@@ -171,7 +171,7 @@ Tion ni malkomponu:
 
     -cpu host
 
-La KVM-an procezilon uzu, per ĉiom da subtenitaj kapabloj.
+La KVM-procezilon uzu, per ĉiom da subtenitaj kapabloj.
 
     -m 2G
 
@@ -179,7 +179,7 @@ La KVM-an procezilon uzu, per ĉiom da subtenitaj kapabloj.
 
     -net nic,model=virtio -net vde
 
-Virtualan NIC-an kreu, kaj VDE-an retkonektadon ŝaltu.
+Virtualan NIC-on kreu, kaj VDE-retkonektadon ŝaltu.
 
     -soundhw all
 
@@ -191,27 +191,26 @@ La videan adaptilon por imiti precizigu. Na QXL uzu kiam na SPICE uzi.
 
     -spice addr=127.0.0.1,port=9999,password=sekretŝlosilo
 
-La opciojn por SPICE precizigu, apartigitaj per komoj.  _addr_ kaj _port_ estas la IP-a adreso kaj
-TCP-a pordo kiujn SPICE aŭskultos. Ideale, aliro al tiu pordo devas esti ĝuste agordita, kaj
-sekurigita. _password_ etas la ŝlosilo, kiu esti uzota de la SPICE-a kliento, _spicy_, por konekti
+La opciojn por SPICE precizigu, apartigitaj per komoj.  _addr_ kaj _port_ estas la IP-adreso kaj
+TCP-pordo kiujn SPICE aŭskultos. Ideale, aliro al tiu pordo devas esti ĝuste agordita, kaj
+sekurigita. _password_ etas la ŝlosilo, kiu esti uzota de la SPICE-kliento, _spicy_, por konekti
 al la gasta ekrano poste.
 
     -boot once=d -cdrom instalilo.iso
 
 Praŝarĝi komence el `instalilo.iso`, tiam por sekvontaj praŝarĝoj, praŝarĝu per la kutima ordo.
 
-La _qemu-kvm_-an komandon ĉi-supre kurante, la bildon ŝarĝos, tamen la ekranon oni ne ankoraŭ povas
+La _qemu-kvm_-komandon ĉi-supre kurante, la bildon ŝarĝos, tamen la ekranon oni ne ankoraŭ povas
 vidi.
 
 
-### <a name="ekrano"></a>Konekti al la SPICE-a ekrano
+### <a name="ekrano"></a>Konekti al la SPICE-ekrano
 
-Por ke la gastan ekranon oni povu uzi, oni devas konekti al la SPICE-a servilo, per la SPICE-a
-kliento:
+Por ke la gastan ekranon oni povu uzi, oni devas konekti al la SPICE-servilo, per la SPICE-kliento:
 
     $ spicy -h 127.0.0.1 -p 9999 -w sekretŝlosilo
 
-Tenu en la kalkulo, ke la spicy-an fenestron fermi ne la QEMU-an seancon mortigas. Se la musenigon
+Tenu en la kalkulo, ke la spicy-fenestron fermi ne la QEMU-seancon mortigas. Se la musenigon
 la gasta operaciumo kaptas, na <kbd>Shift+F12</kbd> premu, por eskapi.
 
 
@@ -220,7 +219,7 @@ la gasta operaciumo kaptas, na <kbd>Shift+F12</kbd> premu, por eskapi.
 Sekve, la retan agordon de la gasta operaciumo oni devas ĝuste agordi, por ke ĝi povu konekti al
 la lokreto, kaj la interreto se aliron al ĝi la gastiga maŝino havas.
 
-IP-a adreso:
+IP-adreso:
 
     10.0.2.2
 
@@ -228,7 +227,7 @@ Defaŭlta kluzo:
 
     10.0.2.1
 
-DNS-aj serviloj:
+DNS-serviloj:
 
     8.8.8.8
     8.8.4.4
@@ -256,9 +255,9 @@ La ĉi-supraj komandoj:
 
 1. La enkursigan agordon restaŭros.
 2. La paketan plusendadon malŝaltos.
-3. La VDE-an aparaton malŝaltos.
-4. La VDE-an aparaton forviŝos.
-5. La VDE-an procezon mortigos.
+3. La VDE-aparaton malŝaltos.
+4. La VDE-aparaton forviŝos.
+5. La VDE-procezon mortigos.
 6. La regajn dosierojn forviŝos.
 
 
@@ -318,7 +317,7 @@ Fine, konektu al la ekrano:
 
     $ kvm-display
 
-Kiam oni finiĝas kun la virtuala maŝino, la spice-an ekranon fermu, tiam la KVM-an retkonektado
+Kiam oni finiĝas kun la virtuala maŝino, la spice-ekranon fermu, tiam la KVM-retkonektado
 malŝaltu.
 
     $ kvm-net down
@@ -333,7 +332,7 @@ kaj ŝarĝi, ekranaj kaj aŭdiaj kaptoj, kaj plu. Por lerni pli pri ili,
 
 QEMU kun KVM estas potenca, rapida, kaj fleksebla solvo por tutvirtualigadon fari. Almenaŭ en mia
 kazo, la plej konatajn opciojn en la bazaro ĝi superas. Se oni volas kontribui al ĉi tiu projekto,
-iru al ĝia [GitHub-a paĝo](https://github.com/qemu/qemu).
+iru al ĝia [GitHub-paĝo](https://github.com/qemu/qemu).
 
 Mi esperas, ke onin ĉi tiu afiŝo helpis, iel aŭ aliel, lerni pli pri QEMU kaj KVM kaj kiujn ili
 povas doni.

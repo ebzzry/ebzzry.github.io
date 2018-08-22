@@ -1,16 +1,16 @@
-Maldaŭra Rondvojaĝo de Gito kaj GitHub-o
-========================================
+Maldaŭra Rondvojaĝo de Gito kaj GitHub
+======================================
 
 <div class="center">[Esperante](#) · [English](/en/git-github)</div>
 <div class="center">la 11-an de julio 2018</div>
-<div class="center">Laste ĝisdatigita: la 10-an de aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 22-an de aŭgusto 2018</div>
 
 >Ĉiujn solvitajn problemon sciu kiel solvi.<br>
 >―Richard P. FEYNMAN
 
 [Giton](https://git-scm.com/) kun [GitHub-an](https://github.com) laborfluon ĉi tiu mallonga gvidilo
 montras. Multspecajn rezultojn rapida Gugla serĉo de *git workflows* revenas. Nur unu el la manieroj
-de giton uzi kun gita gastiga servo kiel GitHub-o ĉi tiu artikolo priskribas.
+de giton uzi kun gita gastiga servo kiel GitHub ĉi tiu artikolo priskribas.
 
 En ĉi tiu artikolo, la inviton la `$` simbolo reprezentas. Por demonstradaj celoj, la redaktilon
 [«nano»](https://www.nano-editor.org/) ni uzos. Tamen, kion ajn redaktilon oni liberas uzi.
@@ -38,11 +38,11 @@ En ĉi tiu artikolo, la inviton la `$` simbolo reprezentas. Por demonstradaj cel
 
 ### <a name="komenco"</a>Komenca uzo
 
-Por la aferojn plibonigi poste, na `.gitignore`-an dosieron oni devas krei. La dosierojn kiuj estas
-ekskluditaj el la deponejo la _.gitignore_-a dosiero precizigas. Kelke da ĉi tiuj estas duumaj
+Por la aferojn plibonigi poste, na `.gitignore`-dosieron oni devas krei. La dosierojn kiuj estas
+ekskluditaj el la deponejo la _.gitignore_-dosiero precizigas. Kelke da ĉi tiuj estas duumaj
 dosieroj kaj eraraj mesaĝoj kiuj estis kreitaj dum la kompilado.
 
-La tipon de projekto _.gitignore_-aj dosieroj specifas. Bona loko en precizigi kion .gitignore devas
+La tipon de projekto _.gitignore_-dosieroj specifas. Bona loko en precizigi kion .gitignore devas
 enhavi estas <https://gitignore.io>. La tipon de projekto precizigi en la kampo, tiam na
 **Generate** klaku, tiam le eligon kopiu al la tondejo.
 
@@ -51,7 +51,7 @@ Dosierujon por la projekto kreu, tiam ŝanĝu ene:
     $ mkdir foobar
     $ cd foobar
 
-La `.gitignore`-an dosieron redaktu en la nuna dosierujo:
+La `.gitignore`-dosieron redaktu en la nuna dosierujo:
 
     $ nano .gitignore
 
@@ -102,7 +102,7 @@ Por la enmetoprotokolon kun la diferencoj montri:
 
     $ git log -p
 
-Kiam la ŝanĝoj, kiujn oni jam testis, estas stabilaj, ŝaltu al la `master`-a branĉo.
+Kiam la ŝanĝoj, kiujn oni jam testis, estas stabilaj, ŝaltu al la `master`-branĉo.
 
     $ git checkout master
 
@@ -110,7 +110,7 @@ Tiam, kunfandu je `eksperimentaj`:
 
     $ git merge eksperimentaj
 
-Post tio, la `eksperimentaj`-an branĉon oni povas forviŝi:
+Post tio, la `eksperimentaj`-branĉon oni povas forviŝi:
 
     $ git branch -d eksperimentaj
 
@@ -124,13 +124,13 @@ uzos en ĉi tiu diskuto.
 
 ### <a name="sxlosiloj"></a>La sekurŝelajn ŝlosilojn generi
 
-La mem oni devas esti kapabla por veriĝi al la GitHub-a konto, antaŭ ol la ŝanĝojn oni povas puŝi. Por
+La mem oni devas esti kapabla por veriĝi al la GitHub-konto, antaŭ ol la ŝanĝojn oni povas puŝi. Por
 tion fari, la sekurŝelajn ŝlosilojn oni devas krei. Por tion fari, la jenan komandon kuru. Certigu,
 ke [fortan pasfrazon](https://xkcd.com/936/) oni disponigas, kiam oni invitiĝis:
 
     $ ssh-keygen -t ed25519
 
-Post la ŝlosilojn oni kreis, la ŝlosilojn oni devas aldoni al la propra GitHub-a konto. Por tion
+Post la ŝlosilojn oni kreis, la ŝlosilojn oni devas aldoni al la propra GitHub-konto. Por tion
 fari, la jenan komandon kuru, tiam la eligon kopiu:
 
     $ cat ~/.ssh/id_ed25519.pub
@@ -149,7 +149,7 @@ En la paĝo de la deponejoj, novan deponejon krei per na **New** klaki:
 ![New](/bil/nova-deponejo.png)
 
 Daŭru per la invitoj. Kiam la postulatajn kampojn oni jam plenigis, signovicojn de komandojn oni
-akiros. Na `ogag` kaj na `foobar` anstataŭigu per la GitHub-a uzantnomo kaj la nomo de la
+akiros. Na `ogag` kaj na `foobar` anstataŭigu per la GitHub-uzantnomo kaj la nomo de la
 deponejo, respektive.
 
     $ git remote add origin git@github.com:ogag/foobar.git
@@ -175,10 +175,9 @@ Unue, la projekton forku. Iru al la projekto, kiun oni volas forki, tiam na **Fo
 
 ![Fork](/bil/forku.png)
 
-Kopion de la deponejo ĉi tio kreas en la propra GitHub-a konto.
+Kopion de la deponejo ĉi tio kreas en la propra GitHub-konto.
 
-Sekve, tiun forkon oni devas kloni al la loka disko. La adreson lokitas en la **SSH clone URL**-a
-kampo kopiu:
+Sekve, tiun forkon oni devas kloni al la loka disko. La adreson lokitas en la **SSH clone URL**-kampo kopiu:
 
 ![SSH clone URL](/bil/klonadreso-de-ssh.png)
 
@@ -214,10 +213,10 @@ Na **compare across forks** elektu:
 
 ![Compare Across Forks](/bil/komparu-trans-forkoj.png)
 
-Maldekstre, sub la **base fork**-a kampo, na **ogag/foobar** elektu, kaj en la **base**-a kampo,
+Maldekstre, sub la **base fork**-kampo, na **ogag/foobar** elektu, kaj en la **base**-kampo,
 na **master** elektu.
 
-Dekstre, sub la **head fork**-a kampo, na **ogagmet/foobar** elektu, kaj en la **compare**-a kampo,
+Dekstre, sub la **head fork**-kampo, na **ogagmet/foobar** elektu, kaj en la **compare**-kampo,
 na **novopcioj** elektu.
 
 Tiam, na **Create pull request** klaku:
@@ -229,7 +228,7 @@ Tiam, tradaŭru.
 
 ### <a name="sinkronigi"></a>Sinkronigi kun «upstream»
 
-Por la «upstream»-an branĉon sinkronigi kun la loka deponejo, la ŝanĝojn el «upstream» tiru:
+Por la «upstream»-branĉon sinkronigi kun la loka deponejo, la ŝanĝojn el «upstream» tiru:
 
     $ git pull upstream master
 
@@ -253,11 +252,11 @@ tiam, tradaŭru.
 ----------------------------------------------
 
 Se oni estas la kontribuanto, kaj la ŝanĝojn jam estis tiritaj en la fonta deponejo, la
-«upstream»-an branĉon sinkronigi:
+«upstream»-branĉon sinkronigi:
 
     $ git pull upstream master
 
-En ĉi tiu punkto, la `novopcioj`-an branĉon kiu oni kreis antaŭe, oni nun povas forviŝi.
+En ĉi tiu punkto, la `novopcioj`-branĉon kiu oni kreis antaŭe, oni nun povas forviŝi.
 
     $ git branch -d novopcioj
     $ git push origin -d novopcioj
@@ -268,4 +267,4 @@ En ĉi tiu punkto, la `novopcioj`-an branĉon kiu oni kreis antaŭe, oni nun pov
 
 La laborfluo priskribita en ĉi tiu dokumento nur estas unu el la uzeblaj laborfluoj kiujn oni povas
 uzi. Ĉi tiu dokumento funkcias kiel enkonduko al la uzantoj kiuj estas komencantoj al Gito kaj
-GitHub-o.
+GitHub.

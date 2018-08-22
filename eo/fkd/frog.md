@@ -3,7 +3,7 @@ Frog-e Blogi
 
 <div class="center">[Esperante](#) · [English](/en/frog)</div>
 <div class="center">la 16-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 18-an de aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 22-an de aŭgusto 2018</div>
 
 >Unu persono kun ardo pli bonas ol kvardek personoj nure interesataj.<br>
 >―E.M. FORSTER
@@ -55,8 +55,8 @@ Frog-o operacias ie en la mezo de jena spektro:
 
     Krudenhavo -> Frog -> HTML
 
-En kiu, krudenhavo estas aŭ Markdown, Scribble, aŭ HTML-aj fontdosieroj, aŭ kombinado de ĉio. Frog-o
-konsumas tiujn enigdosierojn, kiam si eligas agrablajn HTML-ajn dosierojn, kiuj oni povas alŝuti al
+En kiu, krudenhavo estas aŭ Markdown, Scribble, aŭ HTML-fontdosieroj, aŭ kombinado de ĉio. Frog-o
+konsumas tiujn enigdosierojn, kiam si eligas agrablajn HTML-dosierojn, kiuj oni povas alŝuti al
 sia TTT-servilo. Ĉu facilas? Ne, pli facilas ol sonas.
 
 
@@ -70,11 +70,11 @@ Por instali je Frog, oni bezonas instali Rakidon unue. Plej verŝajne, la pako-a
 havas ĝin.
 
 
-Per Nix-o:
+Per Nixpkgs:
 
     $ nix-env -i racket
 
-Per APT-o:
+Per APT:
 
     $ sudo apt-get install -y racket
 
@@ -85,7 +85,7 @@ Tiam, oni bezonas instali je Frog:
 
     $ raco pkg install frog
 
-Poste, oni akiros la `raco frog`-an komandon. Ni montru ĝiajn helpajn opciojn:
+Poste, oni akiros la `raco frog`-komandon. Ni montru ĝiajn helpajn opciojn:
 
     $ raco frog -h
 
@@ -93,7 +93,7 @@ Poste, oni akiros la `raco frog`-an komandon. Ni montru ĝiajn helpajn opciojn:
 <a name="unua"></a>Unua uzo
 ---------------------------
 
-Dolĉe. Nu, nun oni havas je Frog instalita, ni daŭru ruli. Por krei la unuan Frog-an disponigitan
+Dolĉe. Nu, nun oni havas je Frog instalita, ni daŭru ruli. Por krei la unuan Frog-disponigitan
 retejon, oni kreos la projektan dosierujon unue:
 
     $ mkdir blogo
@@ -107,8 +107,8 @@ Tiam, oni vidos mesaĝon diri ke la retejo jam pretas. Ni agu laŭ la proponita 
 
     $ raco frog -bp
 
-Kion la komando faras, estas, ĝi muntas la HTML-ajn dosierojn el la specimenaj dosieroj, kreitaj
-per la `‑‑init`-a ŝaltilo, tiam ĝi lanĉas lokan retservilon, kiu defaŭlte servas la retejadreson
+Kion la komando faras, estas, ĝi muntas la HTML-dosierojn el la specimenaj dosieroj, kreitaj
+per la `‑‑init`-ŝaltilo, tiam ĝi lanĉas lokan retservilon, kiu defaŭlte servas la retejadreson
 [http://localhost:3000](http://localhost:3000).
 
 Frog-o malfermas novan retumilan langeton aŭ fenestron, montranta tiun retejadreson. La paĝo kiun
@@ -123,7 +123,7 @@ Krei novan afiŝon el nulo estas alia facila tasko:
 
     $ raco frog -n "Nova Bloga Afisxo"
 
-Ĉi tiu kreas Markdown-an dosieron, kiu relativas al la nuna dosierujo, per la
+Ĉi tiu kreas Markdown-dosieron, kiu relativas al la nuna dosierujo, per la
 formato `_src/posts/YYYY-MM-DD-afisxa-titolo.md`. Per la supra komando, la absoluta dosierindiko estus
 simila al:
 
@@ -146,13 +146,13 @@ afiŝon por esti eldonita la speciala etikedo `DRAFT` malebligas._
 
 Tenu en la kalkulo, ke ĉi tiu dosiero, kreitas por oni per la komando `raco frog -n ...`.  La
 unuaj tri linioj enhavas la metadatumojn pri la afiŝo. Ili estas la afiŝotitolo, estigdato, kaj
-etikedoj, respektive. La dato estis elektita el la `-n`-a ŝaltilo, kiu proklamitas antaŭe. La
-`Tags`-aj kampoj, enhavas diskomajn listojn de vortoj, kiuj Frog poste priidentigus la afiŝon. Kiam
+etikedoj, respektive. La dato estis elektita el la `-n`-ŝaltilo, kiu proklamitas antaŭe. La
+`Tags`-kampoj, enhavas diskomajn listojn de vortoj, kiuj Frog poste priidentigus la afiŝon. Kiam
 la usklecodistinga etikedo `DRAFT` uzatas, la dosiero estos pretersalita dum la kunmetfazo.
 
 Kvar spacetoj devas esti prefiksitaj antaŭ tiuj tri linioj, sekvita de malplena linio. La resto
-estos la efektiva artikola enhavo, en la Markdown-a formato. Kiam linio per si mem enhavas nur la
-tekston `<!‑‑ more ‑‑>`, tiu linio estos anstataŭigita per hiperligilo en la fina HTML-a formo, kiu
+estos la efektiva artikola enhavo, en la Markdown-formato. Kiam linio per si mem enhavas nur la
+tekston `<!‑‑ more ‑‑>`, tiu linio estos anstataŭigita per hiperligilo en la fina HTML-formo, kiu
 estos montranta al la resto de la artikolo. Signifas, ĉiuj teksto, post la `<!‑‑ more ‑‑>` linio
 ne aperos en la bloga indekso, sed aperos en la ligilo por la tutafiŝo.
 
@@ -233,8 +233,8 @@ afiŝoj. Malfermu la dosieron `_src/page-template.html`, troveblas en la nuna do
 
     $ emacs _src/page-template.html
 
-Oni vidos eĉ pli grandan dosieron, kontraste kun .frogrc. Ĉi tiu apartas HTML-a dosiero, kiu enhavas
-Rakidan kaj Frog-an specifajn kodojn. Estos uzata kiel bazo por ĉiuj paĝoj. Ekzistas multe da
+Oni vidos eĉ pli grandan dosieron, kontraste kun .frogrc. Ĉi tiu apartas HTML-dosiero, kiu enhavas
+Rakidan kaj Frog-specifajn kodojn. Estos uzata kiel bazo por ĉiuj paĝoj. Ekzistas multe da
 parametroj ĉi tie, tamen oni ŝanĝos nur iujn, kiuj estas plej utilaj por si ĉi-momente. Por fari ĝin
 pli facile, mi simple listigos la erojn por serĉi kaj anstataŭigi:
 
@@ -254,7 +254,7 @@ afiŝoj. Eble, ĉi tiu estas la plej facila dosiero por. Ni malfermu ĝin.
     $ emacs _src/post-template.html
 
 Intertempe, oni bezonas ŝanĝi nur la tekston `shortname`. Estas la identigilo kiu ligilas la
-komentajn sekciojn de la blogaj afiŝoj al Disqus-a konto. Pli da informo pri ĉi tiu estos diskutita
+komentajn sekciojn de la blogaj afiŝoj al Disqus-konto. Pli da informo pri ĉi tiu estos diskutita
 en la sekcio _Komentoj_.
 
 
@@ -265,7 +265,7 @@ la retejo. Por ŝanĝi ĉi tiujn dosierojn, ni iru al <https://bootswatch.com/>,
 kiun oni ŝatas.
 
 Ni supozu, ke oni elŝutis la *Cerulean* haŭton. Klaku la falmenuon por tiu haŭto. Elektu kaj elŝutu
-kaj `bootstrap.min.css` kaj `bootstrap.css`. Poste, kopiu ilin al la CSS-a dosierujo `css/`.
+kaj `bootstrap.min.css` kaj `bootstrap.css`. Poste, kopiu ilin al la CSS-dosierujo `css/`.
 
     $ cp ~/Downloads/bootstrap.*.css css/
 
@@ -277,8 +277,8 @@ Kiam oni kreis novan afiŝon antaŭe, oni uzis la komandon:
 
     $ raco frog -n "Nova Bloga Afisxo"
 
-Tiu komando kreas Markdown-an fontdosieron. Frog-o, tamen, havas alian reĝimon—Scribble-o. Ĉi tiu
-reĝimo permesas onin por uzi Scribble-an dosieron anstataŭe. Por krei tiun, oni uzos la jenan
+Tiu komando kreas Markdown-fontdosieron. Frog-o, tamen, havas alian reĝimon—Scribble-o. Ĉi tiu
+reĝimo permesas onin por uzi Scribble-dosieron anstataŭe. Por krei tiun, oni uzos la jenan
 komandon:
 
     $ raco frog -N "Nova Bloga Afisxo"
@@ -338,8 +338,7 @@ servilo. En ĉi tiu gvidilo, estas la dosierujo `/home/ogag/blogo`. Se la nuna d
 Anstataŭigu `public_html` per la ĝusta defora dosierujo.
 
 Tamen, se oni ne havas deforan gastigkomputilo kaj vi uzas je [Git](https://git-scm.com), oni povas
-uzi la liberan gastigservon de [GitHub Pages](https://pages.github.com). Se oni ne havas GitHub-an
-konton, si povas iri al [GitHub](https://github.com) por krei tiun. Por uzi je GitHub Pages, kreu
+uzi la liberan gastigservon de [GitHub Pages](https://pages.github.com). Se oni ne havas GitHub-konton, si povas iri al [GitHub](https://github.com) por krei tiun. Por uzi je GitHub Pages, kreu
 deponejon nomiĝas `UZANTNOMO.github.io`. Se la uzantnomo estas `ogag`, la deponejo kiun oni
 bezonas krei devas nomita `ogag.github.io`.
 
@@ -351,7 +350,7 @@ Tiam puŝu la enmetojn:
 
     $ git push origin master
 
-Por vidi la retejon, iru al [ogag.github.io](http://ogag.github.io).
+Por vidi la retejon, iru al `ogag.github.io`.
 
 
 <a name="finrimarkoj"></a>Finrimarkoj
