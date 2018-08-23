@@ -3,7 +3,7 @@ Mia Kinezia Avantaĝa Aranĝo
 
 <div class="center">[Esperante](#) · [English](/en/advantage)</div>
 <div class="center">la 12-an de julio 2018</div>
-<div class="center">Laste ĝisdatigita: la 22-an de aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 23-an de aŭgusto 2018</div>
 
 >La doloro neeviteblas. La suferado malnepras.<br>
 >―M. Kathleen CASEY
@@ -65,8 +65,8 @@ Pro tio kelke da klavo mi remapis. Jen la nova aranĝo.
 <a href="/bil/avantagxo-dvorako-1.png"><img src="/bil/avantagxo-dvorako-1.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="Remapigita softvara Dvorako" title="Remapigita softvara Dvorako"/></a>
 <div class="center">Figuro 1-2: Remapigita softvara Dvorako</div>
 
-La nova loko de <kbd>Ctrl</kbd> kaj <kbd>Alt</kbd> ĝentilas por la fingroj. La lokoj de <kbd>🠉</kbd>
-kaj <kbd>🠋</kbd> mi interŝanĝas kun <kbd>🠈</kbd> kaj <kbd>🠊</kbd>, respektive. Retejojn mi volas
+La nova loko de <kbd>Ctrl</kbd> kaj <kbd>Alt</kbd> ĝentilas por la fingroj. La lokoj de <kbd>↑</kbd>
+kaj <kbd>↓</kbd> mi interŝanĝas kun <kbd>←</kbd> kaj <kbd>→</kbd>, respektive. Retejojn mi volas
 rulumi per la musrado aŭ la desegna tabuleto sen mian dekstran manon uzi. La <kbd>Page Up</kbd> kaj
 <kbd>Page Down</kbd> klavoj ankaŭ movigitaj por egalan ŝarĝan distribuon ŝalti por du manoj.
 
@@ -108,10 +108,10 @@ estas la fonto, la sekva klavo estas la celo.
 | Fonto                                      | Celo                       |
 | :----------------------------------------- | :------------------------- |
 | <kbd>Esc</kbd>                             | <kbd>Caps Lock</kbd>       |
-| <kbd>🠈</kbd>                               | <kbd>🠉</kbd>               |
-| <kbd>🠊</kbd>                               | <kbd>🠋</kbd>               |
-| <kbd>🠉</kbd>                               | <kbd>🠈</kbd>               |
-| <kbd>🠋</kbd>                               | <kbd>🠊</kbd>               |
+| <kbd>←</kbd>                               | <kbd>↑</kbd>               |
+| <kbd>→</kbd>                               | <kbd>↓</kbd>               |
+| <kbd>↑</kbd>                               | <kbd>←</kbd>               |
+| <kbd>↓</kbd>                               | <kbd>→</kbd>               |
 | <kbd>-_</kbd>                              | <kbd>End</kbd>             |
 | <kbd>=+</kbd>                              | <kbd>Page Down</kbd>       |
 | <kbd>Page Up</kbd>                         | <kbd>Home</kbd>            |
