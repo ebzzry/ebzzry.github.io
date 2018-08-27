@@ -3,7 +3,7 @@ Reflections
 
 <div class="center">[Esperante](/eo/pripensoj) · [English](#)</div>
 <div class="center">November 24, 2015</div>
-<div class="center">Last updated: August 17, 2018</div>
+<div class="center">Last updated: August 27, 2018</div>
 
 This page contains contains some of my personal reflections.
 
@@ -308,3 +308,7 @@ Entries are sorted in chronological order.
 
 
 - If you do what everybody else does, you’ll get what everybody else gets.<br>
+
+
+- The golden rule is an example of a bad idea. If one thinks, that it is a good idea to hurt
+  themself, then, it is also a good idea to hurt others.<br>
