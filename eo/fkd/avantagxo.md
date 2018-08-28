@@ -3,7 +3,7 @@ Mia Kinezia Avantaĝa Aranĝo
 
 <div class="center">[Esperante](#) · [English](/en/advantage)</div>
 <div class="center">la 12-an de julio 2018</div>
-<div class="center">Laste ĝisdatigita: la 23-an de aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 28-an de aŭgusto 2018</div>
 
 >La doloro neeviteblas. La suferado malnepras.<br>
 >―M. Kathleen CASEY
@@ -82,7 +82,7 @@ listigita al la fino de ĉi tiu afiŝo.
 
 Kiujn estis antaŭaj <kbd>Ctrl</kbd>-klavoj mi bindis al <kbd>KP Home</kbd> and <kbd>KP End</kbd> por
 ke en mia
-[~/.Xmodmap](https://github.com/ebzzry/dotfiles/blob/master/xmodmap/.Xmodmap.advantage.dvorak)-dosiero,
+[~/.Xmodmap](https://github.com/ebzzry/dotfiles/blob/master/xmodmap/advantage.dv.xmap)-dosiero,
 ĝin mi povu mapi al <kbd>Mode Switch</kbd>. Miajn [notojn](#notojn) vidu ĉi-sube kial alian
 malrektigadan nivelon mi aldonis.
 
@@ -132,7 +132,7 @@ estas la fonto, la sekva klavo estas la celo.
 Tiam na <kbd>Progrm + F12</kbd> premu denove, por la remapagadan reĝimon eliri. La <kbd>KP
 Enter</kbd> klavo moviĝis al la maldekstra <kbd>Alt</kbd> por, ke ĝin mi povas facile uzi kiel
 «Compose (Multi)» klavo en X. La jenan kodeton mia
-[~/.Xmodmap](https://github.com/ebzzry/dotfiles/blob/master/xmodmap/.Xmodmap.advantage.dvorak)-dosiero
+[~/.Xmodmap](https://github.com/ebzzry/dotfiles/blob/master/xmodmap/advantage.dv.xmap)-dosiero
 enhavas:
 
 ```
