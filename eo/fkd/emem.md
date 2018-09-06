@@ -3,13 +3,13 @@ Na Markdown Emem-e Konverti al HTML
 
 <div class="center">[Esperante](#) · [English](/en/emem)</div>
 <div class="center">la 5-an de aŭgusto 2018</div>
-<div class="center">Laste ĝisdatigita: la 22-an de aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 6-an de septembro 2018</div>
 
 >Oni ne trovos la respondojn kiujn oni serĉas ĝis oni haltas serĉi ekster kaj komenciĝas serĉi ilin
 >el oni mem.<br>
 >―Memory GATEKEEPER, Ergo Proxy
 
-Manieron por HTML-dokumentojn krei el miaj Markdown-dosieroj mi ĉiam volintas. Komence,
+Manieron por HTML-dokumentojn krei el miaj Markdown-dosieroj mi ĉiam volis. Komence,
 HTML-dosierojn el miaj tekstaj dosieroj mi nur volis havi por ke ilin mi povu vidi per mia
 poŝtelefono. Poste, manieron por tiujn dosierojn krei por ke ilin mi povu alŝuti al la interreto
 kaj ilin vidi sur aliaj aparatoj. Jam ekzistas iloj por ja tion fari. Ilin mi provis, tamen min mem
@@ -54,7 +54,7 @@ EOF
 $ chmod +x ~/bin/emem
 ```
 
-Se oni jam faritas, la version oni povas kontroli per:
+Se ĝin oni jam oni finis krei, la version oni povas kontroli per:
 
     $ emem --version
 
@@ -93,7 +93,7 @@ MINLEGU.md
 ```
 
 La bezonon por apartan risurcan dosieron krei la `-s` opcio forigas, kaj ĉiom da bezonitaj risurcoj
-en la eliga dosiero metas ĝin igas facila kaj helpema por la eligajn dokumentojn rigardi sur
+metas al la eliga dosiero igas al ĝi facila kaj helpema por la eligajn dokumentojn rigardi sur
 aparatoj kiel poŝtelefonoj kaj tabuletoj.
 
 Tenu en la kalkulo, ke la dokumentotitolo ene la dosiero estos uzita kiel la baznomo de la

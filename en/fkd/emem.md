@@ -1,9 +1,9 @@
 Converting Markdown to HTML with emem
 =====================================
 
-<div class="center">[Esperante](/eo/emem-o) · [English](#)</div>
+<div class="center">[Esperante](/eo/emem) · [English](#)</div>
 <div class="center">March 12, 2017</div>
-<div class="center">Last updated: August 5, 2018</div>
+<div class="center">Last updated: September 6, 2018</div>
 
 >The answers you seek you will never find until you stop looking outside and start looking for them
 >within yourself.<br>
