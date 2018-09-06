@@ -1,9 +1,9 @@
 Migrating from LiveJournal to Frog
 ==================================
 
-<div class="center">[Esperante](/eo/livefrog-o) · [English](#)</div>
+<div class="center">[Esperante](/eo/livefrog) · [English](#)</div>
 <div class="center">May 29, 2013</div>
-<div class="center">Last updated: February 8, 2018</div>
+<div class="center">Last updated: September 6, 2018</div>
 
 >I don’t know where I’m going, but I’m on my way.<br>
 >―Carl Sagan
