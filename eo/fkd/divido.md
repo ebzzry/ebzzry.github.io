@@ -3,10 +3,10 @@ Divido en Haskelo
 
 <div class="center">[Esperante](#) · [English](/en/division)</div>
 <div class="center">la 5-an de aŭgusto 2018</div>
-<div class="center">Laste ĝisdatigita: la 22-an de aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 7-an de septembro 2018</div>
 
-Kiam lerni pri divido en Haskelo, mi konsciis, ke la koncepto ne estas kiel bagatela tiel ĝin mi
-komence volis. Estas subtilaj kontrastoj inter la funkcioj kiu iun povas facile faligi ki ne
+Lernante pri divido en Haskelo, mi konsciis, ke la koncepto ne estas kiel bagatela tiel ĝin mi
+komence volis. Estas subtilaj kontrastoj inter la funkcioj kiuj oni povas facile faligi kiu ne
 estas konscias de ili. Entjeran dividon kiu rondigas al nulo `quot` faras. `div` similas al `quot`,
 tamen ĝi rondigas sub nulo—negativa senfineco. La reston de divido `rem` liveras. `mod`, aliflanke,
 modulan aritmetikon faras.

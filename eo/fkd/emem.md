@@ -3,7 +3,7 @@ Na Markdown Emem-e Konverti al HTML
 
 <div class="center">[Esperante](#) · [English](/en/emem)</div>
 <div class="center">la 5-an de aŭgusto 2018</div>
-<div class="center">Laste ĝisdatigita: la 6-an de septembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 7-an de septembro 2018</div>
 
 >Oni ne trovos la respondojn kiujn oni serĉas ĝis oni haltas serĉi ekster kaj komenciĝas serĉi ilin
 >el oni mem.<br>
@@ -46,7 +46,7 @@ krei:
 
 ```bash
 $ mkdir ~/bin
-$ curl -sSLo ~/bin/emem.jar https://github.com/ebzzry/emem/releases/download/v0.2.48/emem.jar
+$ curl -sSLo ~/bin/emem.jar https://github.com/ebzzry/emem/releases/download/v0.2.50/emem.jar
 $ cat > ~/bin/emem << EOF
 #!/usr/bin/env bash
 java -jar \$HOME/bin/emem.jar \$@
@@ -54,7 +54,7 @@ EOF
 $ chmod +x ~/bin/emem
 ```
 
-Se ĝin oni jam oni finis krei, la version oni povas kontroli per:
+Se ĝin oni jam finis krei, la version oni povas kontroli per:
 
     $ emem --version
 
@@ -158,21 +158,21 @@ $ emem -D Ve -K 'a, b, c' \
 MINLEGU.md
 ```
 
-Se na Gugla «Analytics» oni volas uzi, la 9 ciferan kodo precizigu, kun la streketon:
+Se la Guglan «Analytics» oni volas uzi, la naŭ-ciferan kodon precizigu, kun la streketon:
 
     $ emem -D Ve -K 'a, b -A 12345678-9 MINLEGU.md
 
 Se la enhavo de la retejo precipe ne estas en la Angla, estas bone por la lingvon precizigi, por
-serĉilojn helpi la retejon indeksigi ĝuste; la programaron ankaŭ helpas, kiel ekranleligoj la
-lingvvon precizigi por la parolo. Por ĉi tion fari, la `-l` opcion uzu:
+serĉilojn helpi la retejon indeksigi ĝuste; la programaron ankaŭ helpas, kiel ekranlegiloj la
+lingvon precizigi por la parolo. Por ĉi tion fari, la `-l` opcion uzu:
 
-    $ emem -D 'Kie estas ĝin' -K 'kukurboj, hundegoj, afiŝoj' -l eo MINLEGU.md
+    $ emem -D 'Kie estas ĝi' -K 'kukurboj, hundegoj, afiŝoj' -l eo MINLEGU.md
 
-Plena listo de la subtenitaj lingvoj de modernaj retumulioj troveblas
+Plena listo de la subtenitaj lingvoj de modernaj retumiloj troveblas
 [ĉi tie](https://www.w3schools.com/tags/ref_language_codes.asp).
 
 Estas okazoj en kiu la redaktadan iteracion mi ne volas rompi laborante kun la enigaj dosieroj,
-kaj nur la HTML-dosierojn mi volas esti kreitaj kiam ajn novaj ŝanĝoj al la fontaj Markdown-dosieroj realiĝas. Tiuokaze, la senpaŭzan reĝimon per la `-c` opcio mi alvokas:
+kaj nur la HTML-dosieroj mi volas esti kreitaj kiam ajn novaj ŝanĝoj al la fontaj Markdown-dosieroj realiĝas. Tiuokaze, la senpaŭzan reĝimon per la `-c` opcio mi alvokas:
 
     $ emem -c MINLEGU.md
 
@@ -181,7 +181,7 @@ senornaman eligon munti en senpaŭza reĝimo:
 
     $ emem -Rpc MINLEGU.md
 
-Ŝanĝojn al `MINLEGU.md` emem kontrolas po 200 ms. Se ŝanĝo estis eltrovita, la `MINLEGU.html` dosiero
+Ŝanĝojn al `MINLEGU.md` emem kontrolas po 200 ms. Se ŝanĝo estis eltrovita, la `MINLEGU.html` dosieron
 ĝi remuntas. La tempolimo inter kontroloj povas esti ŝanĝita per la `-t` opcio. Por unu minutan
 tempolimon precizigi:
 

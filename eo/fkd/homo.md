@@ -1,9 +1,9 @@
-Kiel Komuniki Kiel Homo
-=======================
+Kiel Komuniki Samkiel Homo
+==========================
 
 <div class="center">[Esperante](#) · [English](/en/human)</div>
 <div class="center">la 3-an de aŭgusto 2018</div>
-<div class="center">Laste ĝisdatigita: la 18-an de aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 7-an de septembro 2018</div>
 
 >La kapablo por paroli ne igas onin saĝa.<br>
 >―Qui-gon JINN
@@ -11,7 +11,7 @@ Kiel Komuniki Kiel Homo
 La komunikadon ni traktas nepripensinde. Nur ĉar oni povas paroli ne signifas, ke oni povas
 komuniki. Ĉiutage kian ajn perilon ni uzas por ideojn, mesaĝojn, kaj absurdaĵojn alparoli al unu la
 alian. Bedaŭrinde, atenton kiel ni komuniki ni fakte ne atentas meti—tiel longe kiel la demando de
-kion ni komunikas estas respondita, ni satiĝas.
+tio, kion ni komunikas estas respondita, ni satiĝas.
 
 Okazas efektiva komunikado kiam mesaĝo alportitas kiel ilo por volitan celon atingi. Pro la
 celbazita aliro, ne gravas se la komunikanto komunikis pli da intentica mesaĝo. Kiam tankon oni uzas
