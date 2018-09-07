@@ -11,7 +11,7 @@ La Pensoj de Pedanto
 
 - [Na Markdown Emem-e Konverti al HTML](emem)
 - [Divido en Haskelo](divido)
-- [Kiel Komuniki Kiel Homo](homo)
+- [Kiel Komuniki Samkiel Homo](homo)
 - [Enkonduko al Sofismoj](sofismoj)
 - [Esperantaj Signoj Linukse](eo-linukse)
 - [Signoj kaj Interpunkcioj (Mallongigite)](signoj-interpunkcioj-mallongigite)
