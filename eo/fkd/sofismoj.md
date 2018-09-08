@@ -64,8 +64,8 @@ bezonas.
 <a name="post"></a>Post ĉi tio, do, konsekvence de ĉi tio
 ---------------------------------------------------------
 
-Post A, okazis B. Tial, A kaŭzis je B. Kiam okazo okazis post alia okazo, antaŭsupozitas ke kio
-okazis antaŭ ol ĝi devas kaŭzis ĝin.
+Post A, okazis B. Tial, A kaŭzis je B. Kiam okazo okazis post alia okazo, antaŭsupozitas, ke tio,
+kio okazis antaŭ ol ĝi devis kaŭzi ĝin.
 
 > “Post Silvja preĝis al Vakelo, sia patro pliresaniĝis el lia malsano. Ni kultu je Vakelo!”
 
@@ -76,10 +76,10 @@ plisanigis.
 <a name="dum"></a>Dum ĉi tio, do, ankaŭ de ĉi tio
 -------------------------------------------------
 
-Dum A, okazis B. Tial, A rilatas al B. Kiam okazo okazis kune alia okazo, antaŭsupozitas ke kio
-okazis kune ĝi devas rilati.
+Dum A, okazis B. Tial, A rilatas al B. Kiam okazo okazis kune alia okazo, antaŭsupozitas ke tio, kio
+okazis kun ĝi devas rilati.
 
-> “Ho, mia dio! Ĉu vi konsciis, ke dum mi movas al ĉi tien, en Novjorko, Petro ankaŭ faris tiel!
+> “Ho, mia dio! Ĉu vi konsciis, ke dum mi movas al ĉi tie, en Novjorko, Petro ankaŭ faris tiel!
 > Niaj mensoj devas esti konektitaj per astraj fortoj!”
 
 Ĉi tio erarigas ĉar la aliajn faktorojn kiel Petro movi al Novjorko per sia propra volado kaj ne per
@@ -89,16 +89,16 @@ magio ŝi ne konsideris.
 <a name="kontrauxpersone"></a>Kontraŭpersone
 --------------------------------------------
 
-Ĉi tio okazas kiam anstataŭ kazon prezenti kontraŭe argumento, persono A atakitas persone per
-persono B. Ĉi tio faritas por la personon A malkreditigi baziĝita sur kio ri estas anstataŭ la
-argumenton kiun ri tenas.
+Ĉi tio okazas kiam anstataŭ kazon prezenti kontraŭ argumento, persono A atakitas persone per persono
+B. Ĉi tio faritas por la personon A malkreditigi baziĝita sur tio, kio ri estas anstataŭ la
+argumento kiun ri tenas.
 
 > Post kiam persvadan pruvmaterialon pri la malsukcesoj de demokratio Maria prezentis, Karlo
 > kontraŭparolis, ke iun ajn oni ne devas kredi el virino kiu ne edziĝintas, infanojn ne havas, kaj
 > bizarajn muzikojn aŭskultas.
 
-Teniĝon sur siaj asertoj la persona stato de Maria ne havas. La diroj de Karlo nekoncernas. Kiun
-devas atakite estas la argumentoj de Maria, kaj ne sian personan teniĝon.
+Teniĝon sur siaj asertoj la persona stato de Maria ne havas. La diroj de Karlo nekoncernas. Tiu, kiu
+devas esti atakita estas la argumentoj de Maria, kaj ne sian personan teniĝon.
 
 
 <a name="ankaŭvi"></a>Ankaŭ vi
@@ -110,7 +110,7 @@ devas atakite estas la argumentoj de Maria, kaj ne sian personan teniĝon.
 > Kuracato: “Vi mem fumas, do vian konsilon mi ne povas observi.”
 
 La dirojn de la kuracisto la kuracato malvalidigis pro la kuracisto ankaŭ fumas. Se
-kontraŭargumenton ke fumado ne nocas por la sano la kuracato prezentis, estus pli bona pozicio.
+kontraŭargumenton, ke fumado ne nocas por la sano la kuracato prezentis, estus pli bona pozicio.
 
 
 <a name="malsimplademando"></a>Malsimpla demando
@@ -147,7 +147,7 @@ rimarkitas en ĵurnalismo por egalan kaj senantaŭjuĝan raportadon disponigi.
 
 > “Sian propran opinion ĉiuj en ĉi tiu tablo havas. Neniu necese ĝustas aŭ malĝustas.”
 
-La diskuton kaj la decidon de la aprobebleco ke unu aŭ pli argumentoj eble estas la solvo al la
+La diskuton kaj la decidon pri la ebleco, ke unu aŭ pli argumentoj eble estas la solvo al la
 problemo la parolanto evitas. Ĉi tio fifaritas por ‘sidi sur la barilo’ kaj por ‘ludi ĝin
 sekure.’
 
@@ -161,7 +161,7 @@ tirita el specimeno kiu ne estas sufiĉe granda.
 > “En mia junaĝo mi estis seksume fitraktita per samseksemulo. Tiel, samseksemuloj estas fiaj
 > kreaĵoj, kaj ili devas ponotaj.”
 
-La parolanto supozis, ke nur tial, ke tian okazaĵon ri spertis en ria vivo antaŭe, ri konkludis ke
+La parolanto supozis, ke nur tial, ke tian okazaĵon ri spertis en ria vivo antaŭe, ri konkludis, ke
 ĉiuj samseksemuloj malnoblas, kaj ili devas traktitaj per malestimo kaj naŭzo.
 
 
@@ -174,22 +174,22 @@ signifoplena elcento aplikitas al la tuta kompono.
 > “En ĉiuj retbutikoj kiujn mi iris, ne ekzistas iu kiu globskribilon kun blua pinto vendas. Tio
 > signifas, ke tian globskribilon mi ne povas trovi en la tuta lando.”
 
-La parolanto jam rezignis per la ebleco ke tia globskribilo povas ekzisti, en unu aŭ pli retbutikoj
+La parolanto jam rezignis per la ebleco, ke tia globskribilo povas ekzisti, en unu aŭ pli retbutikoj
 kiujn ri ne ankoraŭ vizitis.
 
 
 <a name="sxargxo"></a>Ŝarĝo de pruvo
 ------------------------------------
 
-Ĉi tio fifaritas kiam la respondenco por pruvon disponigi ne kuŝas per persono A, la iu kiu
+Ĉi tio fifaritas kiam la respondenco por pruvon disponigi ne sidas per persono A, la iu, kiu
 asertojn faras, sed per persono B, por la asertojn de persono A refuti.
 
 > “Ĉar la neekzistecon de granda blato kiu stelojn fekas kaj loĝas ekzate 100.000 lumjaroj for de
 > kie mi alfrontas nun oni ne povas pruvi, tial ĝi devas ekzisti.”
 
-Anstataŭ pruvon disponigi al siaj asertoj, la ŝarĝon de pruvo persono A almovas al persono B. Ĉar ne
-ekzistas fizikaj manieroj de persono B por pruvi, ke la asertoj de persono A malvalidas,
-persono A antaŭsupozas ke siaj asertoj devas esti veraj.
+Anstataŭ pruvon disponigi al siaj asertoj, la ŝarĝon de pruvo persono A movas al persono B. Ĉar ne
+ekzistas fizikaj manieroj de persono B por pruvi, ke la asertoj de persono A malvalidas, persono A
+antaŭsupozas ke siaj asertoj devas esti veraj.
 
 
 <a name="glata"></a>Glata inklino
@@ -254,7 +254,7 @@ aŭ novas ne signifas, ke ĝi pli bonas.
 Ĉi tio fifaritas kiam aĝo de persono uzitas por la validecon de siaj asertoj subteni. Ĉi
 tio kutime aplikitas kontraŭe al iu kiu pli junas.
 
-> “Mi jam estas en la profesio de tridek jarojn. Vi havas nur tridek jarojn, kion vi scias pri
+> “Mi jam estas en la profesio dum tridek jarojn. Vi havas nur tridek jarojn, kion vi scias pri
 > programlingva desegno?”
 
 Estas antaŭsupozite ĉi tie, ke nur ĉar iu pli junas al ri, fariĝas iu malplikompetenta por la
@@ -270,7 +270,7 @@ uzitas por la asertojn de alia persono refuti.
 > “La teorio de evoluado eraras pro Johano, kiu estas sciencisto diris, ke ĝin li ne kredas.”
 
 Nur ĉar iu estas sciencisto, ne signifas ke la [teorion de evoluado](http://notjustatheory.com/) li
-subtenas. Estas verŝajne, ke eĉ li estas sciencisto la antaŭmenciitan teorion li ne komprenas.
+subtenas. Estas verŝajne, ke eĉ li estas sciencisto la antaŭmenciitan teorion li ne kredas.
 
 
 <a name="anonimaauxtoritato"></a>Apelo al anonima aŭtoritato
@@ -282,7 +282,7 @@ tre malfacilas por la validecon de la asertoj validigi.
 > “Spertuloj konsentas, ke la trinkado de glaso da Ikso Suko ĉiutage onin plisanigos.”
 
 Ĉi tio malsukcesas pro la malsukceso por la tielnomatajn spertuloj precizigi. Kiam demandite por
-kiuj estas ĉi tiuj spertuloj precizigi, taktikojn ri uzos por la demandojn eviti.
+kiuj estas ĉi tiuj spertuloj precizigi, taktikojn oni uzos por la demandojn eviti.
 
 
 <a name="falsaauxtoritato"></a>Apelo al falsa aŭtoritato
@@ -302,10 +302,10 @@ fortikan sperton li havas antaŭ ol tian kazostudon fari.
 --------------------------------------------
 
 Ĉi tiu sofismo deklaras, ke se plejmulte da homoj—relativaj al la parolantoj—specifan pozicion
-elektas, tiam tiu pozicio devas esti vera. La baza ideo estas aserto devas esti akceptita kiel vera
-sur la fundoj ke la homoj estas aprobaj rilate al tiu aserto.
+elektas, do tiu pozicio devas esti vera. La baza ideo estas aserto devas esti akceptita kiel vera
+sur la fundoj, ke la homoj estas aprobaj rilate al tiu aserto.
 
-> “La enketo montras, ke plejmulto da homo voĉdonas je Karlo kiel prezidanto. Ilia elekto devas esti
+> “La enketo montras, ke plejmulto da homo voĉdonas je Karlo prezidanto. Ilia elekto devas esti
 > ĝusta. Mi ankaŭ voĉdonas por li.”
 
 Ĉi tio okazas kiam aserton per malprofundaj kialoj persono kredas. Ĉi tio ofte okazas pro
@@ -315,7 +315,8 @@ antaŭjuĝemoj. Elekto faritas ne pro teĥnikaj meritoj sed pro antaŭjuĝoj.
 <a name="naturo"></a>Apelo al la naturo
 ---------------------------------------
 
-Ĉi tiu sofismo fifaritas kiam estas argumentite, ke nur io estas natura signifas, ke idealas aŭ bonas.
+Ĉi tiu sofismo fifaritas kiam estas argumentite, ke nur pro io naturas, signifas, ke ĝi idealas aŭ
+bonas.
 
 > “Silvja asertas, ke se produktaĵo ne estas etikedita ‘organika’ aŭ ‘natura,’ tiam ĝi ne estas
 > ideala por konsumado.”
@@ -329,11 +330,11 @@ substancoj, aperas nature.
 ---------------------------------------
 
 Ĉi tiu sofismo fifaritas kiam emocioj uzitas por erarigan respondon ellogi el la
-celulo. La baza ideo estas, ke emociaj taktikoj uzitas por personon persvadi en kredi, ke al
+celulo. La baza ideo estas, ke emociaj taktikoj uzitas por personon persvadi en kredi, ke la
 argumento prezentata validas.
 
 > “Petro, manĝu viajn brokoliojn. Pensu pri ĉiom da malriĉaj, malnutrantaj, kaj senhejmaj infanoj
-> ĉirkaŭ la mondo.”
+> ĉirkaŭ la tutmondo.”
 
 La gepatroj de Petro lin volas por la brokolion manĝi, per la uzo do emocia trompo, anstataŭ
 fortikajn kialojn disponigi, ke la brokolion Petro devas manĝi.
@@ -354,10 +355,10 @@ devigi por blinde observi.
 <a name="tradicio"></a>Apelo al tradicio
 ----------------------------------------
 
-Ĉi tiu sofismo fifaritas kiam estas disputite, ke nur ĉar io tradicias aŭ la normo, tiam
+Ĉi tiu sofismo fifaritas kiam estas disputite, ke nur ĉar io tradicias aŭ la normo, do
 ĝi devas esti observita. Ĉi tiu ofte rimarkitas en religioj kaj kulturoj.
 
-> “Estas kutime por ni por ĉiujare partopreni en la marŝado de Kabobohan. Ankaŭ vi devas
+> “Estas kutime de ni por ĉiujare partopreni en la marŝado de Kabobohan. Ankaŭ vi devas
 > partopreni.”
 
 Ĉi tiu malsukcese eldiras kial oni devas aliĝi en la evento. Anstataŭe estas disputite, ke ĝi devas
@@ -370,7 +371,7 @@ esti farita sur la fundoj, ke tradicias.
 Ĉi tiu fifaritas kiam antaŭsupozitas, ke pli da teniĝo aŭ pezo argumento aŭ parolanto de
 specifa deveno havas. Ĉi tio ofte rimarkitas en sociaj klasoj, biologiaj devenoj, kaj kulturoj.
 
-> “Kaŭze de Panĉo devenas el malriĉa familio, kiam li elektiĝos prezidanto, mi certas, ke li povas
+> “Kaŭze de Panĉo devenas el malriĉa familio, kiam li elektiĝos prezidento, mi certas, ke li povas
 > helpi la kamparanojn kiel ni.”
 
 Ĉi tiu supozas, ke pro Panĉo devenas el malpli bonsortaj sociaj teniĝoj, li favoros la tiujn kiuj
@@ -392,13 +393,13 @@ vidi aŭ sperti.
 <a name="kompliko"></a>Apelo al kompliko
 ----------------------------------------
 
-Ĉi tio fifaritas kiam persono asertas, ke nur ĉar iun ri ne komprenas, tiam signifas ke
+Ĉi tio fifaritas kiam persono asertas, ke nur ĉar iun ri ne komprenas, do signifas ke
 plejmulto da homo ankaŭ ne povas.
 
 > “La lambdokalkulon mi ne ankoraŭ povas kompreni. Ve. Plej verŝajne, neniuj efektive komprenas
 > ĝin.”
 
-Siaj personaj limoj la parolanto aplikas al ĉiuj, pro ri mem ĝin ne povas fari. Ĉi tio similas al
+Siajn personajn limojn la parolanto aplikas al ĉiuj, pro ri mem ĝin ne povas fari. Ĉi tio similas al
 hastaj ĝeneraligoj.
 
 
@@ -422,10 +423,10 @@ povas forigi, ne signifas, ke ili necesas.
 Ĉi tiu sofismo fifaritas kiam la pruvota io uzitas kiel unu el la premisoj. Estas ekzemple
 de ronda rezonado.
 
-> “La diaj vortoj de Vakelo estas puraj, superbaj, kaj seneraraj pro estas diritaj en La Eterna kaj
-> Transcenda Libro de Vakelo.”
+> “La diaj vortoj de Vakelo estas puraj, superbaj, kaj seneraraj pro ili estas diritaj en La Eterna
+> kaj Transcenda Libro de Vakelo.”
 
-La validecon de la ekzisto de tia esto ĉi tio senhoneste antaŭsupozas, kaj por ĝin pruvi signifas,
+La validecon de la ekzisto de tia esto ĉi tio senhoneste antaŭsupozas, kaj por ĝin pruvi, signifas,
 ke la ekzistecon de tio oni devas supozi unue. A pro A.
 
 
@@ -438,7 +439,7 @@ estas sofismo de neplena pruvmaterialo. Amasmedioj kaj socimedioj malgloras de �
 > “Silvja estas vivanta per beata kaj elizea vivo pro mi ofte vidas ŝiajn afiŝojn en socia reto, ke
 > ŝi estas feliĉa.”
 
-La eblecon la parolanto malatentas, ke kion ri vidas ne fakte veras pro nur afiŝoj kiujn
+La eblecon la parolanto malatentas, ke tio, kion ri vidas, ne fakte veras pro nur la afiŝojn kiujn
 aliajn homojn Silvja volas por vidi kaj kredi ŝi afiŝas.
 
 
@@ -448,7 +449,7 @@ aliajn homojn Silvja volas por vidi kaj kredi ŝi afiŝas.
 Ĉi tio fifaritas kiam argumento faritas per aserti, ke konduto nur akcepteblas ene la
 limigoj de certaj normoj.
 
-> “Kial vi ne manĝas per la piedoj? Vera vakelanto devas manĝi per la piedoj!”
+> “Kial vi ne manĝas per la piedoj? Vera vakelanto devas manĝi piede!”
 
 Ĉi tio estas speco de falsa pureco. Asertas, ke nur ekzistas unu akcepteblan maniero, ke Vakelantoj
 devas manĝi. Ĉi tio similas al apelo al tradicio.
@@ -462,19 +463,19 @@ tio ofte rimarkitas en sociaj klasoj, kulturoj, tradicioj, generoj, kaj seksoj.
 
 > “Kion Karlo scias pri inismo? Li estas viro!”
 
-Ĉi tiu argumentas, ke nur ĉar Karlo estas viro, signifas ke la ideologiojn de inismo li ne scias
-kiel subteni. Ĉi tio ankaŭ ofte rimarkitas en enportitaj produktaĵoj, aserti ke ili
-supras kontraŭ la lokaj pro ili estas ‘enportitaj.’
+Ĉi tiu argumentas, ke nur ĉar Karlo estas viro, signifas, ke la ideologiojn de inismo li ne scias
+kiel subteni. Ĉi tio ankaŭ ofte rimarkitas en enportitaj produktaĵoj, asertante, ke ili supras kontraŭ
+la lokaj pro ili estas ‘enportitaj.’
 
 
 <a name="eksigo"></a>Eksigo
 ---------------------------
 
-Ĉi tio fifaritas kiam ideo malakceptitas sed ne estas klarigita kiel. Ĉi tio estas ofte
-farita kiam ideon persono ne ŝatas, kaj trudan eksigon de argumento ri uzos.
+Ĉi tio fifaritas kiam ideo malakceptitas sed ne estas klarigita kial. Ĉi tio estas ofte
+farita kiam ideo ne plaĉas al persono, kaj trudan eksigon de argumento ri uzos.
 
 > “Pro vi malferme kontraŭparolas pri demokratio, vi devas forlasi la landon kaj trovi iun kiu
-> adaptas al viaj gustoj!”
+> adaptas al viaj preferoj!”
 
 Siajn kontraŭparolojn la parolanto ne deklaras, kaj malprofundan vorton li uzas por tia diro. Ri
 malkomfortas pro la kontraŭparoloj, kaj vojo de li por ĉi tiun malkomforton trakti estas por
@@ -487,7 +488,7 @@ estiginton de tiaj kontraŭparoloj forigi.
 Ĉi tio fifaritas kiam parolanto argumentas, ke nur pro du aferoj similas en iuj trajtoj,
 konsekvence ke aliajn trajtojn ili devas kunhavi.
 
-> “Kiam kafon, sukeron, kaj lakton oni miksas per kulero, ili turniĝas, kaj novan ion ĝi
+> “Kiam kafon, sukeron, kaj lakton oni miksas per kulero, ili turniĝas, kaj novan ion ili
 > kreas—bongusta trinkaĵo. La sunsistemo ankaŭ turniĝas. Se la ĉielaj korpoj ĉirkaŭ la suno rapide
 > turniĝas, io kiel la antaŭa devos esti kreita.”
 
@@ -519,7 +520,7 @@ implikitan iun favoras kiu pli da demando altigas.
 > “La statuo de virgulino Maria en la monteto de Idjaj ploris per sango. Ŝi devis esti ploranta pro
 > la pekoj kiujn homaro kreas.”
 
-La rigardantoj estis tre servopretaj por la ideon akcepti ke la statuo estis ja ploranta de ‘dia’
+La rigardantoj estis tre servopretaj por la ideon akcepti, ke la statuo estis ja ploranta de ‘dia’
 sango. Estis poste malkovrite, ke dukto estis konektita per konduktilo kaj bovosango estis pumpita
 tra ĝi.
 
@@ -548,7 +549,7 @@ neutilas, sekve la argumenton de persono A igas neakcepteblaj.
 > “Unu el la fontoj de via papero estas raporto de bone konata verkoŝtelisto. Ĉi tio igas viajn
 > proponojn invalidaj kaj ni ne akceptos ilin.”
 
-Supozante ke la fonta informo ja validas, la argumenton kiu persono A prezentas validas
-ankaŭ ne igas. Ĉi tio rilatas al apelo al devenoj.
+Supozante, ke la fonta informo ja validas, la argumenton kiun persono A prezentas ne
+malvalidigas. Ĉi tio rilatas al apelo al devenoj.
 
 _Dank’ al [Raymund Martinez](https://zhaqenl.github.io) pro la korektoj._
