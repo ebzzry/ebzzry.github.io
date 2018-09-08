@@ -3,7 +3,7 @@ Enkonduko al Sofismoj
 
 <div class="center">[Esperante](#) · [English](/en/fallacies)</div>
 <div class="center">la 29-an de julio 2018</div>
-<div class="center">Laste ĝisdatigita: la 18-an de aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 8-an de septembro 2018</div>
 
 >Lerni ne necesas; nek travivas.<br>
 >―W. Edwards DEMING
@@ -64,7 +64,7 @@ bezonas.
 <a name="post"></a>Post ĉi tio, do, konsekvence de ĉi tio
 ---------------------------------------------------------
 
-Post A, okazis B. Tial, A kaŭzis na B. Kiam okazo okazis post alia okazo, antaŭsupozitas ke kio
+Post A, okazis B. Tial, A kaŭzis je B. Kiam okazo okazis post alia okazo, antaŭsupozitas ke kio
 okazis antaŭ ol ĝi devas kaŭzis ĝin.
 
 > “Post Silvja preĝis al Vakelo, sia patro pliresaniĝis el lia malsano. Ni kultu je Vakelo!”
@@ -195,7 +195,7 @@ persono A antaŭsupozas ke siaj asertoj devas esti veraj.
 <a name="glata"></a>Glata inklino
 ---------------------------------
 
-Ĉi tio fifaritas kiam io supozitas por okazi sekve, pro alia kaŭzo. Tio estas, se na A oni
+Ĉi tio fifaritas kiam io supozitas por okazi sekve, pro alia kaŭzo. Tio estas, se je A oni
 permesos, B okazos sekve. Pro tio, A devos okazi.
 
 > “Se la uzadon de pafiloj por civiluloj ni malpermesos, tiam la krimoprocento plikreskiĝas pro ne plu
@@ -347,7 +347,7 @@ aserton akcepti kiel vera. Ĉi tiu sofismo ofte rimarkitas en religiaj grupoj.
 
 > “Se vi ne observas la vortojn de Vakelo, vi forbruliĝos en la torturemaj flamoj de inferno.”
 
-Anstataŭ kialon disponigi kial oni devas aŭskulti na Vakelo, minacoj de fortegoj uzitas por iun
+Anstataŭ kialon disponigi kial oni devas aŭskulti je Vakelo, minacoj de fortegoj uzitas por iun
 devigi por blinde observi.
 
 
@@ -506,7 +506,7 @@ deklaroj disponigi. Ĉi tio ankaŭ nomatas ‘Havi vian kukon.’
 > astraj estoj.”
 
 Aŭdacajn dirojn la parolanto faras pri ne kredi en la paranormalaj ekzistecoj de fantomoj, sed siajn
-vortojn li malkonfesis kaj asertas, ke iuj astraj estoj devas esti la fonto de la batetaj sonoj. Na
+vortojn li malkonfesis kaj asertas, ke iuj astraj estoj devas esti la fonto de la batetaj sonoj. Je
 A li asertas, sed poste kontraŭ-A.
 
 
