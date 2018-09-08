@@ -156,7 +156,7 @@ instead.
 ### Adapt to every person
 
 Do not take a one-size-fits-all approach—like a T-shirt. Just because your usual method works with
-another person, doesn’t mean it is right for him. Or, just because you are so used with the
+another person, doesn’t mean it is right for another. Or, just because you are so used with the
 communication methods that you use on a daily basis with people that you interact with daily,
 doesn’t mean that you should use them everywhere. Don’t use your wood saw with iron bars. Understand
 what makes a person tick. Know their interests. Do not underestimate the power of small talk.
