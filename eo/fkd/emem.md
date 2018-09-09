@@ -1,9 +1,9 @@
-Na Markdown Emem-e Konverti al HTML
-===================================
+Konverti de Markdown al HTML
+============================
 
 <div class="center">[Esperante](#) · [English](/en/emem)</div>
 <div class="center">la 5-an de aŭgusto 2018</div>
-<div class="center">Laste ĝisdatigita: la 7-an de septembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 9-an de septembro 2018</div>
 
 >Oni ne trovos la respondojn kiujn oni serĉas ĝis oni haltas serĉi ekster kaj komenciĝas serĉi ilin
 >el oni mem.<br>
