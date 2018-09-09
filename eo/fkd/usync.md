@@ -1,9 +1,9 @@
-Retnodojn Usync-e Sinkronigi
-============================
+Retnodojn Sinkronigi per Usync
+==============================
 
 <div class="center">[Esperante](#) · [English](/en/usync)</div>
 <div class="center">la 7-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 10-an de aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 9-an de septembro 2018</div>
 
 >Kion mi ne povas krei, mi ne komprenas.<br>
 >―Richard P. FEYNMAN

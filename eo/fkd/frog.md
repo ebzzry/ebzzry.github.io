@@ -1,9 +1,9 @@
-Frog-e Blogi
-============
+Blogi per Frog
+==============
 
 <div class="center">[Esperante](#) · [English](/en/frog)</div>
 <div class="center">la 16-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 22-an de aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 9-an de septembro 2018</div>
 
 >Unu persono kun ardo pli bonas ol kvardek personoj nure interesataj.<br>
 >―E.M. FORSTER
