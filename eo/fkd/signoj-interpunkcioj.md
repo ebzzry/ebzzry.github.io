@@ -3,28 +3,28 @@ Signoj kaj Interpunkcioj
 
 <div class="center">[Esperante](#) · [English](/en/symbols-marks)</div>
 <div class="center">la 16-an de julio 2018</div>
-<div class="center">Laste ĝisdatigita: la 22-an de aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 9-an de septembro 2018</div>
 
 >Se grandiozon oni volas atingi, konsentojn ĉesu peti.<br>
 >―Eddie COLLA
 
 *[Ĉi tien](/eo/signoj-interpunkcioj-mallongigite) klaku por la mallongigita versio.*
 
-Rondvojaĝo por kiel la (-), ('), and (") signojn uzi sur la klavaro kiuj estas pli bone adaptitaj
-por signajn devojn fari ol siaj malsanaj kuzoj el la skribmaŝina epoĥo ĉi tiu mallonga gvidilo donas
-al oni. Aldone, mi ankaŭ parolos pri la anstataŭigoj al ofte uzataj malĝustaj signoj.
+Rondvojaĝo por kiel la ĝis-strekan (-), unuoblan citilan ('), kaj duoblan citilan (") signojn uzi
+sur la klavaro, kiuj estas pli bone adaptitaj por signajn devojn fari ol siaj malsanaj kuzoj el la
+skribmaŝina epoĥo, ĉi tiu mallonga gvidilo donas. Kaj cetere, mi ankaŭ parolos pri la anstataŭigoj
+al ofte uzataj malĝustaj signoj.
 
-Ĉiu sekcio komencas pri eniga sinsekvo por Linuksaj, Makintoŝaj, kaj Vindozaj sistemoj,
-respektive. La `+` signo signifas, ke la maldekstran klavon oni premas, antaŭ la dekstran
-klavon. Tio estas, por na <kbd>⌥</kbd> + <kbd>Shift</kbd> + <kbd>-</kbd> enigi, na <kbd>⌥</kbd> oni
-devas premi kaj teni, tiam na <kbd>Shift</kbd> oni devas premi kaj teni, tiam na <kbd>-</kbd> oni
-premas.
+Ĉiu sekcio komencas pri eniga sinsekvo por Linuksa, Makintoŝa, kaj Vindoza sistemoj, respektive. La
+plusa (+) signo signifas, ke la maldekstran klavon oni premas, antaŭ la dekstran klavon. Tio estas,
+por na <kbd>⌥</kbd> + <kbd>Shift</kbd> + <kbd>-</kbd> enigi, na <kbd>⌥</kbd> premu kaj tenu, tiam na
+<kbd>Shift</kbd> premu kaj tenu, tiam na <kbd>-</kbd> premu.
 
 
 <a name="et"></a>Enhavotabelo
 -----------------------------
 
-- [Notoj por linukso](#notojporlinukso)
+- [Linuksaj notoj](#linukso)
 - [Streketoj](#streketoj)
 - [Ĝis-strekoj](#gxisstrekoj)
 - [Haltostrekoj](#haltostrekoj)
@@ -35,13 +35,13 @@ premas.
 - [Finrimarkoj](#finrimarkoj)
 
 
-<a name="notojporlinukso"></a>Notoj por linukso
------------------------------------------------
+<a name="linukso"></a>Linuksaj notoj
+------------------------------------
 
 Jam estas metodo por signojn enmeti linukse. Estas la uzo de la <kbd>Compose</kbd>
-klavo. Bedaŭrinde, ĉi tiun metodon ni ne uzas ĉar estas neekonomie. Anstataŭ la
-<kbd>Mode‎ߺ‎switch</kbd> klavo ni uzu. En ĉi tiu artikolo la <kbd>🐧</kbd> klavo signifas la
-<kbd>Mode‎ߺ‎switch</kbd> klavon.
+klavo. Bedaŭrinde, ĉi tiun metodon ni ne uzas ĉar ĝi estas neekonomia. Anstataŭ la
+<kbd>Mode‎ߺ‎switch</kbd> klavon ni uzu. En ĉi tiu artikolo la <kbd>Mode‎ߺ‎switch</kbd> klavon la
+<kbd>🐧</kbd> klavo signifas.
 
 Ĝin ni devas bindi en la ĝusta agorda dosiero. La dosieron `~/.Xmodmap` malfermu, tiam na jenan
 kodeton enmetu:
@@ -136,7 +136,7 @@ Laste, la streketoj uzatas por neesperantigitajn vortojn esprimi. Ekzemple:
 - Makintose: <kbd>⌥</kbd> + <kbd>-</kbd>
 - Vindoze: <kbd>Alt</kbd> + <kbd>0</kbd> <kbd>1</kbd> <kbd>5</kbd> <kbd>0</kbd>
 
-La ĝis-streko uzatas por ampleksojn de valaroj esprimi. Spacetojn ne metu ĉirkaŭ ili. Ekzemple,
+La ĝis-streko uzatas por ampleksojn de valoroj esprimi. Spacetojn ne metu ĉirkaŭ ili. Ekzemple,
 se oni volas esprimi:
 
 - 1960 ĝis 2016
@@ -145,7 +145,7 @@ Oni esprimas:
 
 - 1960–2016
 
-Alia uzo de ĝis-strekoj estas por la parencocojn aŭ kostrastojn inter vortoj esprimi:
+Alia uzo de ĝis-strekoj estas por la parencecojn aŭ kostrastojn inter vortoj esprimi:
 
 - Patrina–filina parenceco
 
@@ -176,8 +176,8 @@ Kiam la monatoj samas, la ĝis-strekojn sen spacetoj uzu:
 - Makintoŝe: <kbd>⌥</kbd> + <kbd>Shift</kbd> + <kbd>-</kbd>
 - Vindoze: <kbd>Alt</kbd> + <kbd>0</kbd> <kbd>1</kbd> <kbd>5</kbd> <kbd>1</kbd>
 
-La haltostrekoj povas esti uzataj en multaj manieroj. Kiel ĝis-strekoj, spacetojn ne enmetu ĉirkaŭ
-ili. Se ĝin oni volas esprimi kiel dupunkto:
+La haltostrekoj povas esti uzataj en multaj manieroj. Samkiel ĝis-strekoj, spacetojn ne enmetu
+ĉirkaŭ ili. Se ĝin oni volas esprimi kiel dupunkto:
 
 - Mortis du viroj: Petro kaj Miĥaelo
 - Mortis du viroj—Petro kaj Miĥaelo
@@ -237,23 +237,23 @@ Por plifaciliĝi al kiel ili aperas, ilin pensu kiel flosantaj paroj de sesoj ka
 <a name="unuoblajcitiloj"></a>Unuoblaj citiloj (‘) (’)
 ----------------------------------------------------
 
-Maldekstra unuopa citilo (‘)
+Maldekstra unuobla citilo (‘)
 
 - Linukse: <kbd>🐧</kbd> + <kbd>`</kbd>
 - Makintoŝe: <kbd>⌥</kbd> + <kbd>]</kbd>
 - Vindoze: <kbd>Alt</kbd> + <kbd>0</kbd> <kbd>1</kbd> <kbd>4</kbd> <kbd>5</kbd>
 
-Dekstra unuopa citilo (’)
+Dekstra unuobla citilo (’)
 
 - Linukse: <kbd>🐧</kbd> + <kbd>'</kbd>
 - Makintoŝe: <kbd>⌥</kbd> + <kbd>Shift</kbd> + <kbd>]</kbd>
 - Vindoze: <kbd>Alt</kbd> + <kbd>0</kbd> <kbd>1</kbd> <kbd>4</kbd> <kbd>6</kbd>
 
-Unuopaj citiloj uzatas kiam parolo estas enkorpigita ene alia parolo:
+Unuoblaj citiloj uzatas kiam parolo estas enkorpigita ene alia parolo:
 
-- Li murmuris al li mem, “Mi opinias, ke li diris ‘Ne fareblas’ kiam ni interparolis hieraŭ.”
+- Li murmuris al si mem, “Mi opinias, ke li diris ‘Ne fareblas’ kiam ni interparolis hieraŭ.”
 
-Multe da uzo la desktra unuopa citilo aŭ pli ofte konata kiel apostrofo en la esperantujo, havas.
+Multe da uzo la desktra unuobla citilo aŭ pli ofte konata kiel apostrofo en la esperantujo, havas.
 
 La o-finaĝon substantivoj povas ellasi:
 
@@ -294,10 +294,10 @@ Duobla primo (″)
 - Makintoŝe: <kbd>⌥</kbd> + <kbd>2</kbd> <kbd>0</kbd> <kbd>3</kbd> <kbd>3</kbd>
 - Vindoze: <kbd>Alt</kbd> + <kbd>8</kbd> <kbd>2</kbd> <kbd>4</kbd> <kbd>3</kbd>
 
-La citiloj signoj sur la klavaro (') kaj (") aspektas kiel primaj signoj, bedaŭrinde ili ne
+La citiloj signoj sur la klavaro (') kaj (") aspektas kiel primaj signoj, bedaŭrinde, ili ne
 estas. Ili estas fuŝaj postsignoj de la skribmaŝina epoĥo. La ĝustaj signobildoj estas (′) kaj
-(″). La prima signo (′) uzatas por futojn, minutojn, kaj minutojn de arko esprimi, dum la
-duobla prima signo (″) uzatas por colojn, sekundojn, kaj sekundojn de arko esprimi.
+(″). La prima signo (′) uzatas por futojn, minutojn, kaj minutojn de arko esprimi, dum la duobla
+prima signo (″) uzatas por colojn, sekundojn, kaj sekundojn de arko esprimi.
 
 Por alton de ses funtoj kaj du colojn esprimi, oni skribas:
 
@@ -311,7 +311,7 @@ La duoblaj primaj signoj povas esti uzataj kiel la idema marko. La idema marko u
 indiki, ke la vortoj ĉi-supre devas esti ripetitaj. Ekzemple:
 
 - Ruĝaj ardeoj, gruoj, kaj mantoj.
-- Rozkoloraj ″           ″            ″       ″
+- Bluaj  ″            ″         ″    ″
 
 
 <a name="tripunkto"></a>Tripunkto (…)
@@ -321,14 +321,14 @@ indiki, ke la vortoj ĉi-supre devas esti ripetitaj. Ekzemple:
 - Makintoŝe: <kbd>⌥</kbd> + <kbd>;</kbd>
 - Vindoze: <kbd>Alt</kbd> + <kbd>0</kbd> <kbd>1</kbd> <kbd>3</kbd> <kbd>3</kbd>
 
-La tripunkto uzatas por la forlason de vorto, frazero, frazone, aŭ tutan blokon de teksto
+La tripunkto uzatas por la forlason de vorto, frazero, frazo, aŭ tuta bloko de teksto
 montri, kiel parto de pli granda teksto. Ĝi estas unu el la plej miskomprenitaj signoj. Mi ofte
-rimarkas, ke la tri punktoj—plena ĉeso—uzitas anstataŭ la ĝustan tripunkton signon. En epoĥo,
-en kiu, la skribmaŝinoj estis la plej bona marieo por tekston komposti, la tri punktoj funkciis. Tiutempe, tamen, jam longe pasis; la haveblajn ilojn oni nun devas uzi.
+rimarkas, ke la tri punktoj—plenaj ĉesoj—uzitas anstataŭ la ĝusta tripunkta signo. En epoĥo,
+en kiu, la skribmaŝino estis la plej bona maniero por tekston komposti, la tri punktoj funkciis. Tiutempe, tamen, jam longe pasis; la haveblajn ilojn oni nun devas uzi.
 
 Ekzemple, ĝi povas uzita jene:
 
-- Tiam, ŝi diris al ŝi mem …
+- Tiam, ŝi diris al si mem …
 
 Kiam uzitis kiel la komenco de frazo, kortuŝojn kaj dramojn ĝi enkondukas:
 
@@ -341,6 +341,6 @@ spaceton post kiam ĝi metu; kiam ĝi uzitas en la mezo, spacetojn ĉirkaŭ metu
 <a name="finrimarkoj"></a>Finrimarkoj
 -------------------------------------
 
-La ĝustajn signojn kaj interpunktiojn uzi, la linion skribas inter fajneco kaj malfajneco. Kiam la
-ĝustajn interpunkciojn oni uzas, oni komunikas al la legantoj, ke oni zorgas pri la sintaksa ĝusteco
-tiom multe kiel enhava valoro.
+La ĝustajn signojn kaj interpunkciojn uzante, la linion inter fajneco kaj malfajneco skribitas. Kiam
+la ĝustajn interpunkciojn oni uzas, oni komunikas al la legantoj, ke oni zorgas pri la sintaksa
+ĝusteco tiom multe kiel enhava valoro.
