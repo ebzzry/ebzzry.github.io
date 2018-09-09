@@ -525,4 +525,4 @@ expressive power, considering how minimal the system is defined.
 - <http://www.inf.fu-berlin.de/lehre/WS03/alpi/lambda.pdf>
 - <http://www.cse.chalmers.se/research/group/logic/TypesSS05/Extra/geuvers.pdf>
 - <http://palmstroem.blogspot.com/2012/05/lambda-calculus-for-absolute-dummies.html>
-- <https://goo.gl/rQ8Mm9>
+- <https://goo.gl/ae1hjS>
