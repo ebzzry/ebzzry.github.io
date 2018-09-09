@@ -1,9 +1,9 @@
-Sekurkopiojn Ugarit-e Krei
-==========================
+Sekurkopiojn Krei per Ugarit
+============================
 
 <div class="center">[Esperante](#) · [English](/en/ugarit)</div>
 <div class="center">la 18-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 22-an de aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 9-an de septembro 2018</div>
 
 >Bona juĝo devenas el sperto, kaj sperto devenas el malbona juĝo.<br>
 >―Fred BROOKS
@@ -18,7 +18,7 @@ retropaŝan agon—granda, sekura ŝaŭmo kiun ni surteriĝas—ne estus multe d
 korpremo. Aliflanke, krei kaj mastrumi sekurkopiojn povas esti senkuraĝigaj kaj egale danĝaj.
 
 En ĉi tiu afiŝo, mi parolos pri
-[Ugarit-o](https://www.kitten-technologies.co.uk/project/ugarit/doc/trunk/README.wiki), agrabla peco
+[Ugarit](https://www.kitten-technologies.co.uk/project/ugarit/doc/trunk/README.wiki), agrabla peco
 de teĥnologio, kiu kunmiksas facilecon de uzado kaj sekurecon en unu ilo.
 
 
@@ -43,12 +43,12 @@ de teĥnologio, kiu kunmiksas facilecon de uzado kaj sekurecon en unu ilo.
 <a name="superrigardo"></a>Superrigardo
 ---------------------------------------
 
-Ugarit-o estas klasika ekzemplo de ilo, kiu postulas minimuman agordon kaj agordaĵon. Ke, unu fojon
+Ugarit estas klasika ekzemplo de ilo, kiu postulas minimuman agordon kaj agordaĵon. Ke, unu fojon
 la komenca alĝustigado okazis, ĉio kion oni bezonas fari estas reuzi la ilon. Tamen, tio ne estas la
-ĉefforto de Ugarit-o—estas la preskaŭ malsankta edziĝo de oportuneco kaj sekureco.
+ĉefforto de Ugarit—estas la preskaŭ malsankta edziĝo de oportuneco kaj sekureco.
 
 Pleje, se ne ĉiam, oportuneco estas inverse proporcie kun sekureco. Tio estas, ju pli io
-oportunecas, de malpli sekura estas. Per Ugarit-o, krei kaj mastrumi sekurkopiojn estas kiel facile
+oportunecas, de malpli sekura estas. Per Ugarit, krei kaj mastrumi sekurkopiojn estas kiel facile
 tiel maŝinskribi mallongan komandon.
 
 
@@ -65,7 +65,7 @@ per la pako-administrilo:
 Se ne haveblas sur la sistemo, oni povas elŝuti gin el
 [code.call-cc.org](https://code.call-cc.org/).
 
-Post Chicken-o instalitas, ni instalu Ugarit-on mem kaj siajn dependecojn:
+Post Chicken instalitas, ni instalu Ugarit-on mem kaj siajn dependecojn:
 
     $ chicken-install -s ugarit tiger-hash aes
 
@@ -84,7 +84,7 @@ Se oni uzas na Nixpkgs, simple kuru la jenan komandon:
 <a name="agordo"></a>Agordo
 ---------------------------
 
-Ugarit-o ĉi-momente ne ankoraŭ utilas—oni bezonas precizigi kie ĝi devas enmemorigi la
+Ugarit ĉi-momente ne ankoraŭ utilas—oni bezonas precizigi kie ĝi devas enmemorigi la
 dosierkopiojn. Kiam krei dosierkopion de dosierujo kie havas kelke da terajbato, estas ideale por
 enmemorigi la datumon sur rapida, fidebla, strestoleranta disko. Ne estas nekomuna por la komando
 `ls` por sperti rimarkeblan malakcelon kiam kuriĝis ene datuma dosierujo. Ni supozu, ke
@@ -144,7 +144,7 @@ Por krei dosierkopiojn, kuru:
 
 _ETIKEDO_ estas nomo kiu oni bezonas identigi la dosierkopion poste, dum _DOSIERUJO_ estas la
 dosiersistema arbo, kiun oni volas krei dosierkopion pri. Por krei ekzemple dosierkopion de la
-dosierujo `bildoj/`, kun la etikedo `bil`, kuru Ugarit-on jene:
+dosierujo `bildoj/`, kun la etikedo `bil`, kuru na Ugarit jene:
 
     $ ugarit snapshot /ugarit/ugarit.conf bil bildoj
 
@@ -188,7 +188,7 @@ Extracted festo
 ### <a name="eltiri"></a>Rekte eltiri dosierkopiojn
 
 Tamen, se oni konas la ekzaktan dosierindikon de dosiero aŭ dosierujon kiun si volas eltiri, oni
-povas anstataŭ kuras Ugarit-on kun la eltira reĝimo. Por eltiri la dosierujon `festo/` el supre,
+povas anstataŭ kuras na Ugarit kun la eltira reĝimo. Por eltiri la dosierujon `festo/` el supre,
 rekte, kuru:
 
     $ ugarit extract /ugarit/ugarit.conf /bil/current/contents/festo
@@ -199,7 +199,7 @@ rekte, kuru:
 
 ### <a name="defora"></a>Defora dosiersistemo
 
-Ugarit-o ne limigitas krei dosierkopiojn de loka dosiersistemo. Ankaŭ povas uzita krei
+Ugarit ne limigitas krei dosierkopiojn de loka dosiersistemo. Ankaŭ povas uzita krei
 dosierkopiojn de arboj de defora gastiganto muntita loke. Se oni ekzemple havas
 [SSHFS-an](https://github.com/libfuse/sshfs) surmeton, si ankoraŭ povas krei dosierkopion de
 tiu, same kiel ia alia loka dosiersistemo.
@@ -241,9 +241,9 @@ Por malŝalti tiujn servojn sur NixOS, aldonu la jenan al `/etc/nixos/configurat
 services.locate.enable = false;
 ```
 
-Grava averto menciinda estas ke pro la maniero kiel Ugarit-o funkcias, ne ekzistas forviŝi de
+Grava averto menciinda estas ke pro la maniero kiel Ugarit funkcias, ne ekzistas forviŝi de
 dosierkopioj. La enmemoriga meĥanismo funkcias laŭe kiel Gito, nur tio ne ekzistas `rebase`-opcioj.
 
-Ugarit-o estas kreita de [Alaric Snell-Pym](http://www.snell-pym.org.uk/alaric/). Se oni volas lerni
+Ugarit estas kreita de [Alaric Snell-Pym](http://www.snell-pym.org.uk/alaric/). Se oni volas lerni
 pli da informo de projekto, iru [ĉi tien](https://www.kitten-technologies.co.uk/project/ugarit/doc/trunk/README.wiki).
 Por raporti cimojn, iru [ĉi tien](https://www.kitten-technologies.co.uk/project/ugarit/reportlist).
