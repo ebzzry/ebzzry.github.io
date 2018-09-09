@@ -14,7 +14,7 @@ Mi opinias, ke la [h-](https://eo.wikipedia.org/wiki/H-sistemo) kaj la
 specifaj al Esperanto, krom se, ne fizike fareblas. Nune, estas du manieroj por la
 esperantajn karakterojn enigi linukse—la <kbd>Multi‎ߺ‎key</kbd> kaj <kbd>Mode‎ߺ‎switch</kbd> klavoj.
 
-En ĉi tiu artikolo la <kbd>🐧</kbd> klavo signifas la <kbd>Mode‎ߺ‎switch</kbd> klavon.
+En ĉi tiu artikolo la <kbd>Mode‎ߺ‎switch</kbd> klavon la <kbd>🐧</kbd> klavo signifas.
 
 
 <a name="et"></a>Enhavotabelo
