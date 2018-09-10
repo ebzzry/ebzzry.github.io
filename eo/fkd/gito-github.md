@@ -8,7 +8,7 @@ Maldaŭra Rondvojaĝo de Gito kaj GitHub
 >Ĉiujn solvitajn problemon sciu kiel solvi.<br>
 >―Richard P. FEYNMAN
 
-[Giton](https://git-scm.com/) kun [GitHub-an](https://github.com) laborfluon ĉi tiu mallonga gvidilo
+[Giton](https://git-scm.com/) kun [GitHub](https://github.com)-laborfluon ĉi tiu mallonga gvidilo
 montras. Multspecajn rezultojn rapida Gugla serĉo de *git workflows* revenas. Nur unu el la manieroj
 de giton uzi kun gita gastiga servo kiel GitHub ĉi tiu artikolo priskribas.
 
