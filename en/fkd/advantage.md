@@ -97,8 +97,8 @@ First, press the following keys, in order:
 | Sequence                          | Description                                                                                                        |
 | :-------------------------------- | :----------------------------------------------------------------------------------------------------------------- |
 | <kbd>Progrm + Shift + F10</kbd>   | Reset settings                                                                                                     |
-| <kbd>Progrm + \</kbd>             | Disable key tones                                                                                                  |
 | <kbd>Progrm + -</kbd>             | Disable key tones for <kbd>Caps Lock</kbd>, <kbd>Scroll Lock</kbd>, <kbd>Num Lock</kbd> keys and <kbd>Insert</kbd> |
+| <kbd>Progrm + \</kbd>             | Disable key tones                                                                                                  |
 | <kbd>Progrm + F12</kbd>           | Start remapping mode                                                                                               |
 
 At this point, the keyboard waits for key pair combinations. The first key that you’ll press will be
