@@ -3,7 +3,7 @@ Mia Kinezia Avantaĝa Aranĝo
 
 <div class="center">[Esperante](#) · [English](/en/advantage)</div>
 <div class="center">la 12-an de julio 2018</div>
-<div class="center">Laste ĝisdatigita: la 28-an de aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 9-an de septembro 2018</div>
 
 >La doloro neeviteblas. La suferado malnepras.<br>
 >―M. Kathleen CASEY
@@ -25,9 +25,9 @@ margin-right: auto;" alt="Kinezia Avantaĝo" title="Kinezia Avantaĝo"/>
 <a name="superrigardo"></a>Superrigardo
 ---------------------------------------
 
-Unu el la plej bonaj investoj programisto povas havi estas bona klavaro. Kiu bona klavaro
+Unu el la plej bonaj investoj programisto povas havi estas bona klavaro. Kio bona klavaro
 konstituis, bedaŭrinde, fojfoje povas esti subjekto de debatoj. Komuna ero kiu daŭras en plejmulto
-da listo estas la klavaro devas esti ergonomia. Gravan kvaliton mi donos al tiu listo: rapideco. Ne
+da listoj, estas, klavaro devas esti ergonomia. Gravan kvaliton mi donos al tiuj listoj—rapideco. Ne
 gravas kiel ergonomie klavaro estas, se la rapidecan kategorion ĝi faligas. Ĝi devas esti komforta
 kaj rapida.
 
@@ -52,15 +52,15 @@ aranĝo estas kiel la klavoj aranĝitaj:
 <div class="center">Figuro 1-1: Originala softvara Dvorako</div>
 
 Ve. Ĉi tiun aranĝon uzi en Emakso aŭ Ziŝo estas inferno: por na <kbd>M-x</kbd> premi emakse, na
-<kbd>Alt</kbd> klavon oni devas premi per la dekstra dikfingro, tiam na <kbd>x</kbd> klavon oni
-premas per la maldekstra indeksfingro. Na <kbd>Esc</kbd> klavon atingi ne ankaŭ amuzas ĉar ĝi tro
+<kbd>Alt</kbd> klavon oni devas premi per la dekstra dikfingro, tiam la <kbd>x</kbd> klavon oni
+premas per la maldekstra indeksfingro. La <kbd>Esc</kbd> klavon atingi ne ankaŭ amuzas ĉar ĝi tro
 malproksimas.
 
 
 <a name="poste"></a>Poste
 -------------------------
 
-Pro tio kelke da klavo mi remapis. Jen la nova aranĝo.
+Pro tio kelke da klavoj mi remapis. Jen la nova aranĝo.
 
 <a href="/bil/avantagxo-dvorako-1.png"><img src="/bil/avantagxo-dvorako-1.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="Remapigita softvara Dvorako" title="Remapigita softvara Dvorako"/></a>
 <div class="center">Figuro 1-2: Remapigita softvara Dvorako</div>
@@ -68,38 +68,38 @@ Pro tio kelke da klavo mi remapis. Jen la nova aranĝo.
 La nova loko de <kbd>Ctrl</kbd> kaj <kbd>Alt</kbd> ĝentilas por la fingroj. La lokoj de <kbd>↑</kbd>
 kaj <kbd>↓</kbd> mi interŝanĝas kun <kbd>←</kbd> kaj <kbd>→</kbd>, respektive. Retejojn mi volas
 rulumi per la musrado aŭ la desegna tabuleto sen mian dekstran manon uzi. La <kbd>Page Up</kbd> kaj
-<kbd>Page Down</kbd> klavoj ankaŭ movigitaj por egalan ŝarĝan distribuon ŝalti por du manoj.
+<kbd>Page Down</kbd> klavoj ankaŭ moviĝis por egalan ŝarĝan distribuon ŝalti por du manoj.
 
 Unu el miaj plej ŝatataj ŝanĝoj estas la nova loko de la <kbd>[</kbd> kaj <kbd>]</kbd> klavoj. La
-nova doko de <kbd>Esc</kbd> ankaŭ plaĉas al mi—min ĉi tio permesas por la eskapan klavo premi kiam
+nova loko de <kbd>Esc</kbd> ankaŭ plaĉas al mi—min ĉi tio permesas por la eskapan klavo premi kiam
 na Vi uzi aŭ apajn invitojn fermi.
 
-Na <kbd>Insert</kbd> mi uzis anstataŭ <kbd>Esc</kbd> por ke na `XA_PRIMARY` zonon mi povu aliri
-facile per <kbd>Shift + Insert</kbd>. La `XA_PRIMARY`-zono estas kie la musaj markoj iras. Ankaŭ
-plifaciliĝas por la `overwrite-mode`-an reĝimon de emakso eniri. La <kbd>Insert</kbd> klavo,
-bedaŭrinde, kaŝitas en la klavo markita per `|`, maldekstre. La sinsekvo por ĝin aliri estas
+La <kbd>Insert</kbd> klavon mi uzis anstataŭ <kbd>Esc</kbd> por ke na `XA_PRIMARY` zonon mi povu
+aliri facile per <kbd>Shift + Insert</kbd>. La `XA_PRIMARY`-zono estas kie la musaj markoj
+iras. Ankaŭ plifaciliĝas por la `overwrite-mode`-an reĝimon de emakso eniri. La <kbd>Insert</kbd>
+klavo, bedaŭrinde, kaŝitas en la klavo markita per `|`, maldekstre. La sinsekvo por ĝin aliri estas
 listigita al la fino de ĉi tiu afiŝo.
 
-Kiujn estis antaŭaj <kbd>Ctrl</kbd>-klavoj mi bindis al <kbd>KP Home</kbd> and <kbd>KP End</kbd> por
-ke en mia
-[~/.Xmodmap](https://github.com/ebzzry/dotfiles/blob/master/xmodmap/advantage.dv.xmap)-dosiero,
-ĝin mi povu mapi al <kbd>Mode Switch</kbd>. Miajn [notojn](#notojn) vidu ĉi-sube kial alian
-malrektigadan nivelon mi aldonis.
+La tiujn kiuj estis antaŭe <kbd>Ctrl</kbd>-klavoj mi bindis al <kbd>KP Home</kbd> kaj <kbd>KP
+End</kbd> por ke ilin mi povu mapi al <kbd>Mode Switch</kbd> en mia
+[~/.Xmodmap](https://github.com/ebzzry/dotfiles/blob/master/xmodmap/advantage.dv.xmap)-dosiero. Miajn
+[notojn](#notojn) vidu ĉi-sube kial alian malrektigadan nivelon mi aldonis.
 
 
 <a name="agordo"></a>Agordo
 ---------------------------
 
-La agordon kiun mi uzis por la klavojn mapi ĉi tiu sekcio enhavas. Klavon premi kaj teni la `+`
-signas, kiam alian klavon premi. Sinsekvon de premigitajn kaj tenigitajn klavoj la `,` signas, orde.
+La agordon kiun mi uzis por la klavojn mapi ĉi tiu sekcio enhavas. Klavon premi kaj teni la pluso
+(+) signas, alian klavon premante. Sinsekvon de premigitajn kaj tenigitajn klavoj la komo (,)
+signas, orde.
 
 La jenajn klavojn premu orde:
 
 | Siksekvo                          | Priskribo                                                                                                      |
 | :-------------------------------- | :------------------------------------------------------------------------------------------------------------- |
 | <kbd>Progrm + Shift + F10</kbd>   | La agordojn rekomencigi                                                                                        |
+| <kbd>Progrm + -</kbd>             | La sonojn de <kbd>Caps Lock</kbd>, <kbd>Scroll Lock</kbd>, <kbd>Num Lock</kbd>, kaj <kbd>Insert</kbd> malŝalti |
 | <kbd>Progrm + \</kbd>             | La klavajn tonojn malŝalti                                                                                     |
-| <kbd>Progrm + -</kbd>             | La sonojn de <kbd>Caps Lock</kbd>, <kbd>Scroll Lock</kbd>, <kbd>Num Lock</kbd>, kaj <kbd>Insert</kbd> malŝaltu |
 | <kbd>Progrm + F12</kbd>           | La remapan reĝimon komenci                                                                                     |
 
 En ĉi tiu punkto, la klavaro atendas por klavaj paroj kombinadoj. La unua klavo kiun oni devas premi
@@ -130,8 +130,8 @@ estas la fonto, la sekva klavo estas la celo.
 | Keypad, <kbd>m</kbd>, Keypad (KP End)      | Dekstra <kbd>Ctrl</kbd>    |
 
 Tiam na <kbd>Progrm + F12</kbd> premu denove, por la remapagadan reĝimon eliri. La <kbd>KP
-Enter</kbd> klavo moviĝis al la maldekstra <kbd>Alt</kbd> por, ke ĝin mi povas facile uzi kiel
-«Compose (Multi)» klavo en X. La jenan kodeton mia
+Enter</kbd> klavo moviĝis al la maldekstra <kbd>Alt</kbd> por ke ĝin mi povu facile uzi kiel
+«Compose» klavo en X. La jenan kodeton mia
 [~/.Xmodmap](https://github.com/ebzzry/dotfiles/blob/master/xmodmap/advantage.dv.xmap)-dosiero
 enhavas:
 
@@ -143,9 +143,9 @@ keycode 104 = Multi_key
 <a name="notoj"></a>Notoj
 -------------------------
 
-Se ŝlosilkodon 21 la dekstra <kbd>Ctrl</kbd> klavo havas—dum mapigite per xmodmap al
+Se ŝlosilkodon 21 la dekstra <kbd>Ctrl</kbd> klavo havas—mapigite per xmodmap al
 <kbd>Mode_switch</kbd>—kaj ĝi samtempe premitas kun <kbd>c</kbd> en softvara QWERTY-o aŭ
-<kbd>j</kbd> en softvara Dvorako, la jenan tekston por QWERTY-aj kaj Dvorakaj reĝimojn ĝi generas
+<kbd>j</kbd> en softvara Dvorako, la jenan tekston por QWERTY-a kaj Dvoraka reĝimoj ĝi liveras
 respektive:
 
 ```
