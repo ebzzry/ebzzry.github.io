@@ -3,7 +3,7 @@ Signoj kaj Interpunkcioj
 
 <div class="center">[Esperante](#) · [English](/en/symbols-marks)</div>
 <div class="center">la 16-an de julio 2018</div>
-<div class="center">Laste ĝisdatigita: la 9-an de septembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 11-an de septembro 2018</div>
 
 >Se grandiozon oni volas atingi, konsentojn ĉesu peti.<br>
 >―Eddie COLLA
@@ -17,8 +17,8 @@ al ofte uzataj malĝustaj signoj.
 
 Ĉiu sekcio komencas pri eniga sinsekvo por Linuksa, Makintoŝa, kaj Vindoza sistemoj, respektive. La
 plusa (+) signo signifas, ke la maldekstran klavon oni premas, antaŭ la dekstran klavon. Tio estas,
-por na <kbd>⌥</kbd> + <kbd>Shift</kbd> + <kbd>-</kbd> enigi, na <kbd>⌥</kbd> premu kaj tenu, tiam na
-<kbd>Shift</kbd> premu kaj tenu, tiam na <kbd>-</kbd> premu.
+por je <kbd>⌥</kbd> + <kbd>Shift</kbd> + <kbd>-</kbd> enigi, je <kbd>⌥</kbd> premu kaj tenu, tiam na
+<kbd>Shift</kbd> premu kaj tenu, tiam je <kbd>-</kbd> premu.
 
 
 <a name="et"></a>Enhavotabelo
@@ -43,7 +43,7 @@ klavo. Bedaŭrinde, ĉi tiun metodon ni ne uzas ĉar ĝi estas neekonomia. Ansta
 <kbd>Mode‎ߺ‎switch</kbd> klavon ni uzu. En ĉi tiu artikolo la <kbd>Mode‎ߺ‎switch</kbd> klavon la
 <kbd>🐧</kbd> klavo signifas.
 
-Ĝin ni devas bindi en la ĝusta agorda dosiero. La dosieron `~/.Xmodmap` malfermu, tiam na jenan
+Ĝin ni devas bindi en la ĝusta agorda dosiero. La dosieron `~/.Xmodmap` malfermu, tiam jenan
 kodeton enmetu:
 
 ```
