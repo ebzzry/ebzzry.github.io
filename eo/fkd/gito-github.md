@@ -3,7 +3,7 @@ Maldaŭra Rondvojaĝo de Gito kaj GitHub
 
 <div class="center">[Esperante](#) · [English](/en/git-github)</div>
 <div class="center">la 11-an de julio 2018</div>
-<div class="center">Laste ĝisdatigita: la 22-an de aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 11-an de septembro 2018</div>
 
 >Ĉiujn solvitajn problemon sciu kiel solvi.<br>
 >―Richard P. FEYNMAN
@@ -38,7 +38,7 @@ En ĉi tiu artikolo, la inviton la `$` simbolo reprezentas. Por demonstradaj cel
 
 ### <a name="komenco"</a>Komenca uzo
 
-Por la aferojn plibonigi poste, na `.gitignore`-dosieron oni devas krei. La dosierojn kiuj estas
+Por la aferojn plibonigi poste, je `.gitignore`-dosieron oni devas krei. La dosierojn kiuj estas
 ekskluditaj el la deponejo la _.gitignore_-dosiero precizigas. Kelke da ĉi tiuj estas duumaj
 dosieroj kaj eraraj mesaĝoj kiuj estis kreitaj dum la kompilado.
 
@@ -118,7 +118,7 @@ Post tio, la `eksperimentaj`-branĉon oni povas forviŝi:
 <a name="enrete"></a>Enrete labori
 ----------------------------------
 
-Kiel labori kun aliaj programistoj ĉi tiu sekcio priskribas. Na [GitHub](https://github.com) oni
+Kiel labori kun aliaj programistoj ĉi tiu sekcio priskribas. Je [GitHub](https://github.com) oni
 uzos en ĉi tiu diskuto.
 
 
@@ -135,7 +135,7 @@ fari, la jenan komandon kuru, tiam la eligon kopiu:
 
     $ cat ~/.ssh/id_ed25519.pub
 
-Iru al <https://github.com/settings/ssh>, tiam na **Add SSH key** aŭ na **New SSH key** klaku:
+Iru al <https://github.com/settings/ssh>, tiam je **Add SSH key** aŭ je **New SSH key** klaku:
 
 ![Add SSH key](/bil/sekursxelan-sxlosilon-aldonu.png)
 
@@ -144,12 +144,12 @@ La ŝlosilon algluu, tiam tradaŭru.
 
 ### <a name="deponejonkrei"></a>La deponejon krei
 
-En la paĝo de la deponejoj, novan deponejon krei per na **New** klaki:
+En la paĝo de la deponejoj, novan deponejon krei per je **New** klaki:
 
 ![New](/bil/nova-deponejo.png)
 
 Daŭru per la invitoj. Kiam la postulatajn kampojn oni jam plenigis, signovicojn de komandojn oni
-akiros. Na `ogag` kaj na `foobar` anstataŭigu per la GitHub-uzantnomo kaj la nomo de la
+akiros. Je `ogag` kaj je `foobar` anstataŭigu per la GitHub-uzantnomo kaj la nomo de la
 deponejo, respektive.
 
     $ git remote add origin git@github.com:ogag/foobar.git
@@ -171,7 +171,7 @@ Kiam plu da ŝanĝo oni faris al la deponejo, la ŝanĝojn oni povas puŝi per l
 Se oni volas kontribui al projekto, kopion de tiu dosiero oni devas surlabori, tiam la ŝanĝojn oni
 puŝas al la propra forko:
 
-Unue, la projekton forku. Iru al la projekto, kiun oni volas forki, tiam na **Fork** klaku:
+Unue, la projekton forku. Iru al la projekto, kiun oni volas forki, tiam je **Fork** klaku:
 
 ![Fork](/bil/forku.png)
 
@@ -185,7 +185,7 @@ Tiam la jenan komandon kuru, en kiu, `ogagmet` estas via uzantnomo:
 
     $ git clone git@github.com:ogagmet/foobar.git
 
-Sekve, na «remote» nomiĝas «upstream» kreu kiu la ŝanĝojn el la fonta deponejo spuras:
+Sekve, je «remote» nomiĝas «upstream» kreu kiu la ŝanĝojn el la fonta deponejo spuras:
 
     $ git remote add upstream git@github.com:ogag/foobar.git
 
@@ -200,26 +200,26 @@ Nun ŝanĝojn al la dosieroj en ĉi tiu branĉo oni povas fari. Kiam la ŝanĝoj
 
     $ git push origin novopcioj
 
-Se oni volas, ke la ŝanĝojn la fonta deponejo kunfandas, na _Pull Request_ kreu per iri al la paĝo
-de la fonta deponejo, tiam na **Pull requests** klaku:
+Se oni volas, ke la ŝanĝojn la fonta deponejo kunfandas, je _Pull Request_ kreu per iri al la paĝo
+de la fonta deponejo, tiam je **Pull requests** klaku:
 
 ![Pull Requests](/bil/tirpetoj.png)
 
-En la sekva paĝo, na **New pull request** klaku:
+En la sekva paĝo, je **New pull request** klaku:
 
 ![New Pull Request](/bil/nova-tirpeto.png)
 
-Na **compare across forks** elektu:
+Je **compare across forks** elektu:
 
 ![Compare Across Forks](/bil/komparu-trans-forkoj.png)
 
-Maldekstre, sub la **base fork**-kampo, na **ogag/foobar** elektu, kaj en la **base**-kampo,
+Maldekstre, sub la **base fork**-kampo, je **ogag/foobar** elektu, kaj en la **base**-kampo,
 na **master** elektu.
 
-Dekstre, sub la **head fork**-kampo, na **ogagmet/foobar** elektu, kaj en la **compare**-kampo,
+Dekstre, sub la **head fork**-kampo, je **ogagmet/foobar** elektu, kaj en la **compare**-kampo,
 na **novopcioj** elektu.
 
-Tiam, na **Create pull request** klaku:
+Tiam, je **Create pull request** klaku:
 
 ![Create pull request](/bil/tirpeton-kreu.png)
 

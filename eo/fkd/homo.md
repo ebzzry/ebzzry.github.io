@@ -3,7 +3,7 @@ Kiel Komuniki Samkiel Homo
 
 <div class="center">[Esperante](#) · [English](/en/human)</div>
 <div class="center">la 3-an de aŭgusto 2018</div>
-<div class="center">Laste ĝisdatigita: la 8-an de septembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 11-an de septembro 2018</div>
 
 >La kapablo por paroli ne igas onin saĝa.<br>
 >―Qui-gon JINN
@@ -48,7 +48,7 @@ ni nun havas. Kiam ekzaktajn mesaĝojn ni komunikas, iom da kelkaj faktoroj ni n
 inkluzive la variablecon de interpreto. Nur ĉar kion ni diras al la alia flanko de la komunikado ni
 klare komprenas, ne signifas, ke ĝin la alia flanko ankaŭ klare komprenas. Ĉu sufiĉan fonon kaj
 kuntekston al la komunikato ni disponigis? Ĉu la mensan bildon de niaj ideoj al la komunikato ni
-ekzakte transmetis? Ĉu miajn pensajn procedojn ri povas konstrui kiel eble plej mi deziris? Se unu
+ekzakte transmetis? Ĉu miajn pensajn procedojn ĝi povas konstrui kiel eble plej mi deziris? Se unu
 de tiuj demandoj estas responditaj de ne, tiam ni devas retaksi kiel ni komuniki.
 
 
@@ -56,7 +56,7 @@ de tiuj demandoj estas responditaj de ne, tiam ni devas retaksi kiel ni komuniki
 
 Kiam mesaĝoj al iu kiuj ne la samajn mensajn kapablojn havas kiel la komunikanto, iu bezonas
 komuniki, alĝustigoj devos esti faritaj. Aferojn ĉiuj da ni traktas malsame. Ŝaka grandmajstro devas
-teni en la kalkulo, ke se komencanton ri instruas, nur tiom la studanto povas kompreni. Ri ne povas
+teni en la kalkulo, ke se komencanton ĝi instruas, nur tiom la studanto povas kompreni. Ĝi ne povas
 ekstremiĝi kaj lin devigi por altnivelajn temojn kompreni. Estas malpenetrebla muro; tiu muro nur
 malplidekiĝas per tempo.
 
@@ -116,7 +116,7 @@ de niaj buŝoj, niaj korpoj estas niaj ŝeloj. Sen staremaj ŝeloj, niaj mesaĝo
 
 ### Antaŭen kliniĝu
 
-Ĉi tion pripensu: kiel iu komunikas al oni, sian korpon ri movas for. Kiun mesaĝon sendas al oni? Ĉi
+Ĉi tion pripensu: kiel iu komunikas al oni, sian korpon ĝi movas for. Kiun mesaĝon sendas al oni? Ĉi
 tion kontrastu kun iu, kiu antaŭen kliniĝas por onin aŭskulti. Kio okazas, estas, la nura ago de
 antaŭen kliniĝi, la distanco inter la deveno de la sono—ria buŝo, al la celo de la sono—oniaj
 oreloj, malpligrandiĝas. La rapido, kaj la rilata distanco, en kiu, sono aere trairas estas
@@ -140,7 +140,7 @@ ne estis eldiritaj, mesaĝoj komunikitas. Kiam iu estas parolanta al oni, okulko
 pluigu. La ruzo estas por ne rigardi rekte al la okuloj, sed ie inter la ponto aŭ nur centimetro
 ĉirkaŭ la linio en kie la brovoj kunsidas. Por ĝin pliengaĝigi, nelonge rigardi je la flankoj aŭ
 malsupren, tiam reiru al la areo de la okuloj. Tamen, la aliajn partojn de la korpo de la paronlanto
-ne rigardu dum ĉi tiu procedo; eblas signalojn sendi al ri, ke kion ri diras oni ne priatentas.
+ne rigardu dum ĉi tiu procedo; eblas signalojn sendi al ri, ke kion ĝi diras oni ne priatentas.
 
 
 Miksaĵo

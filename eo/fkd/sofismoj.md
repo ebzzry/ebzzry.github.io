@@ -3,7 +3,7 @@ Enkonduko al Sofismoj
 
 <div class="center">[Esperante](#) · [English](/en/fallacies)</div>
 <div class="center">la 29-an de julio 2018</div>
-<div class="center">Laste ĝisdatigita: la 8-an de septembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 11-an de septembro 2018</div>
 
 >Lerni ne necesas; nek travivas.<br>
 >―W. Edwards DEMING
@@ -90,8 +90,8 @@ magio ŝi ne konsideris.
 --------------------------------------------
 
 Ĉi tio okazas kiam anstataŭ kazon prezenti kontraŭ argumento, persono A atakitas persone per persono
-B. Ĉi tio faritas por la personon A malkreditigi baziĝita sur tio, kio ri estas anstataŭ la
-argumento kiun ri tenas.
+B. Ĉi tio faritas por la personon A malkreditigi baziĝita sur tio, kio ĝi estas anstataŭ la
+argumento kiun ĝi tenas.
 
 > Post kiam persvadan pruvmaterialon pri la malsukcesoj de demokratio Maria prezentis, Karlo
 > kontraŭparolis, ke iun ajn oni ne devas kredi el virino kiu ne edziĝintas, infanojn ne havas, kaj
@@ -161,7 +161,7 @@ tirita el specimeno kiu ne estas sufiĉe granda.
 > “En mia junaĝo mi estis seksume fitraktita per samseksemulo. Tiel, samseksemuloj estas fiaj
 > kreaĵoj, kaj ili devas ponotaj.”
 
-La parolanto supozis, ke nur tial, ke tian okazaĵon ri spertis en ria vivo antaŭe, ri konkludis, ke
+La parolanto supozis, ke nur tial, ke tian okazaĵon ĝi spertis en ria vivo antaŭe, ĝi konkludis, ke
 ĉiuj samseksemuloj malnoblas, kaj ili devas traktitaj per malestimo kaj naŭzo.
 
 
@@ -175,7 +175,7 @@ signifoplena elcento aplikitas al la tuta kompono.
 > signifas, ke tian globskribilon mi ne povas trovi en la tuta lando.”
 
 La parolanto jam rezignis per la ebleco, ke tia globskribilo povas ekzisti, en unu aŭ pli retbutikoj
-kiujn ri ne ankoraŭ vizitis.
+kiujn ĝi ne ankoraŭ vizitis.
 
 
 <a name="sxargxo"></a>Ŝarĝo de pruvo
@@ -382,7 +382,7 @@ ankaŭ malriĉas, same kiel li antaŭe.
 ---------------------------------------------
 
 Ĉi tio fifaritas kiam la necertecon de la estonteco persono uzas por sian argumenton
-subteni. Ri asertas, ke en la estonteco, riaj asertoj eventuale iĝas efektivaj.
+subteni. Ĝi asertas, ke en la estonteco, riaj asertoj eventuale iĝas efektivaj.
 
 > “Neniu ankoraŭ faras ĝin, tamen mi certas, ke en la estontecon, ĉiuj estos.”
 
@@ -393,13 +393,13 @@ vidi aŭ sperti.
 <a name="kompliko"></a>Apelo al kompliko
 ----------------------------------------
 
-Ĉi tio fifaritas kiam persono asertas, ke nur ĉar iun ri ne komprenas, do signifas ke
+Ĉi tio fifaritas kiam persono asertas, ke nur ĉar iun ĝi ne komprenas, do signifas ke
 plejmulto da homo ankaŭ ne povas.
 
 > “La lambdokalkulon mi ne ankoraŭ povas kompreni. Ve. Plej verŝajne, neniuj efektive komprenas
 > ĝin.”
 
-Siajn personajn limojn la parolanto aplikas al ĉiuj, pro ri mem ĝin ne povas fari. Ĉi tio similas al
+Siajn personajn limojn la parolanto aplikas al ĉiuj, pro ĝi mem ĝin ne povas fari. Ĉi tio similas al
 hastaj ĝeneraligoj.
 
 
@@ -411,8 +411,8 @@ hastaj ĝeneraligoj.
 
 > “Devus ekzisti ĥaoso kaj malharmonio por krei ekvilibron en la kosmo.”
 
-Estas malklare, kian ekvilibron la parolanto priparolas. Kiam demandite, ri malsukcese klarigas kial
-tia necesas. Ri plu argumentas, ke pro militoj kaj terorismoj neeviteblas, tiam ili devus
+Estas malklare, kian ekvilibron la parolanto priparolas. Kiam demandite, ĝi malsukcese klarigas kial
+tia necesas. Ĝi plu argumentas, ke pro militoj kaj terorismoj neeviteblas, tiam ili devus
 ekzisti por ekvilibron krei. Ĉi tio estas mankhava rezonado—nur ĉar la neeviteblajn aferojn oni ne
 povas forigi, ne signifas, ke ili necesas.
 
@@ -439,7 +439,7 @@ estas sofismo de neplena pruvmaterialo. Amasmedioj kaj socimedioj malgloras de �
 > “Silvja estas vivanta per beata kaj elizea vivo pro mi ofte vidas ŝiajn afiŝojn en socia reto, ke
 > ŝi estas feliĉa.”
 
-La eblecon la parolanto malatentas, ke tio, kion ri vidas, ne fakte veras pro nur la afiŝojn kiujn
+La eblecon la parolanto malatentas, ke tio, kion ĝi vidas, ne fakte veras pro nur la afiŝojn kiujn
 aliajn homojn Silvja volas por vidi kaj kredi ŝi afiŝas.
 
 
@@ -472,12 +472,12 @@ la lokaj pro ili estas ‘enportitaj.’
 ---------------------------
 
 Ĉi tio fifaritas kiam ideo malakceptitas sed ne estas klarigita kial. Ĉi tio estas ofte
-farita kiam ideo ne plaĉas al persono, kaj trudan eksigon de argumento ri uzos.
+farita kiam ideo ne plaĉas al persono, kaj trudan eksigon de argumento ĝi uzos.
 
 > “Pro vi malferme kontraŭparolas pri demokratio, vi devas forlasi la landon kaj trovi iun kiu
 > adaptas al viaj preferoj!”
 
-Siajn kontraŭparolojn la parolanto ne deklaras, kaj malprofundan vorton li uzas por tia diro. Ri
+Siajn kontraŭparolojn la parolanto ne deklaras, kaj malprofundan vorton li uzas por tia diro. Ĝi
 malkomfortas pro la kontraŭparoloj, kaj vojo de li por ĉi tiun malkomforton trakti estas por
 estiginton de tiaj kontraŭparoloj forigi.
 
@@ -499,7 +499,7 @@ konkludas per falsaj komparoj.
 <a name="malkreskita"></a>Malkreskita aserto
 --------------------------------------------
 
-Ĉi tio fifaritas kiam ion parolanto asertas, sed ĝin ri poste malkonfesas per kontraŭdirajn
+Ĉi tio fifaritas kiam ion parolanto asertas, sed ĝin ĝi poste malkonfesas per kontraŭdirajn
 deklaroj disponigi. Ĉi tio ankaŭ nomatas ‘Havi vian kukon.’
 
 > “Aŭskultu filo, mi ne kredas en fantomoj. Tamen, hieraŭ vespere, kiam mi estis sola en mia ĉambro,

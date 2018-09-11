@@ -3,7 +3,7 @@ Sekurkopiojn Krei per Ugarit
 
 <div class="center">[Esperante](#) · [English](/en/ugarit)</div>
 <div class="center">la 18-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 9-an de septembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 11-an de septembro 2018</div>
 
 >Bona juĝo devenas el sperto, kaj sperto devenas el malbona juĝo.<br>
 >―Fred BROOKS
@@ -76,7 +76,7 @@ Post ĉi tiu komando finiĝas, la komando `ugarit` haveblos. Por montri la uzado
 
 ### <a name="nixpkgs"></a>Per Nixpkgs
 
-Se oni uzas na Nixpkgs, simple kuru la jenan komandon:
+Se oni uzas je Nixpkgs, simple kuru la jenan komandon:
 
     $ nix-env -i ugarit
 
@@ -144,7 +144,7 @@ Por krei dosierkopiojn, kuru:
 
 _ETIKEDO_ estas nomo kiu oni bezonas identigi la dosierkopion poste, dum _DOSIERUJO_ estas la
 dosiersistema arbo, kiun oni volas krei dosierkopion pri. Por krei ekzemple dosierkopion de la
-dosierujo `bildoj/`, kun la etikedo `bil`, kuru na Ugarit jene:
+dosierujo `bildoj/`, kun la etikedo `bil`, kuru je Ugarit jene:
 
     $ ugarit snapshot /ugarit/ugarit.conf bil bildoj
 
@@ -188,7 +188,7 @@ Extracted festo
 ### <a name="eltiri"></a>Rekte eltiri dosierkopiojn
 
 Tamen, se oni konas la ekzaktan dosierindikon de dosiero aŭ dosierujon kiun si volas eltiri, oni
-povas anstataŭ kuras na Ugarit kun la eltira reĝimo. Por eltiri la dosierujon `festo/` el supre,
+povas anstataŭ kuras je Ugarit kun la eltira reĝimo. Por eltiri la dosierujon `festo/` el supre,
 rekte, kuru:
 
     $ ugarit extract /ugarit/ugarit.conf /bil/current/contents/festo
