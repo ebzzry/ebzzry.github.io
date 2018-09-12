@@ -1,9 +1,9 @@
 Esperanto Characters in Linux
 =============================
 
-<div class="center">[Esperante](/eo/eo-linukse) · [English](#)</div>
+<div class="center">[Esperante](/eo/eo-linukso) · [English](#)</div>
 <div class="center">April 18, 2016</div>
-<div class="center">Last updated: July 22, 2018</div>
+<div class="center">Last updated: September 12, 2018</div>
 
 >If you want something you’ve never had, you must be willing to do something you’ve never
 >done.<br>
