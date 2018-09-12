@@ -8,14 +8,14 @@ Virtualigado en Linukso per KVM
 >Se tion oni faras, kion oni ĉiam faras; tion oni akiros, kion oni ĉiam akiras.<br>
 >―Anthony ROBBINS
 
-La [tutvirtualigadajn](https://en.wikipedia.org/wiki/Full_virtualization) solvojn kiel «VMware
-Workstation», «Oracle VirtualBox», kaj «Parallels» plejmulto da oni konas. En ĉi tiu afiŝo, alian
-metodon por aferojn fari, mi reenkondukos al oni.
+La [tutvirtualigadajn](https://en.wikipedia.org/wiki/Full_virtualization) solvojn kiel
+*VMware Workstation*, *Oracle VirtualBox*, kaj *Parallels* plejmulto da oni konas. En
+ĉi tiu afiŝo, alian metodon por aferojn fari, mi reenkondukos al oni.
 
-La `$` simbolo uzitos por la ŝelan inviton de normala uzanto indiki, dum la `#` simbolo uzitos por
-la ŝelan inviton de la ĉefuzanto indiki. Estas fojoj kiam la
+La dolarsigna ($) simbolo uzitos por la ŝelan inviton de normala uzanto indiki, dum la krada (#)
+simbolo uzitos por la ŝelan inviton de la ĉefuzanto indiki. Estas fojoj kiam la
 [EUID](https://en.wikipedia.org/wiki/User_identifier#Effective_user_ID) de komando estos nulo (0)
-pro la uzado de «sudo».
+pro la uzado de *sudo*.
 
 
 <a name="et"></a>Enhavotabelo
@@ -51,7 +51,7 @@ antaŭ 2006, plej verŝajne, ĉi tiu kapablo ne ĉeestas en la ico. Ankaŭ, tenu
 tiu paŝo ne devigatas por iun ajn kapablojn en ĉi tiu afiŝo uzi, tamen la aferojn ĝi _atentinde_
 plirapidigos.
 
-Por plirapigitan virtualigadon ŝalti, iru al la BIOS/UEFI agordoj, kaj la tenilon por ĉi tiun
+Por plirapigitan virtualigadon ŝalti, iru al la BIOS/UEFI-agordoj, kaj la tenilon por ĉi tiun
 kapablon trovu. La nomo de ĉi tiu kapablo malsamas inter fabrikanto al fabrikanto. La agordon
 konservu, tiam la sistemon reŝarĝu. Tiam, la kapablon oni nun povas verigi komandlinie.
 
