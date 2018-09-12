@@ -65,11 +65,11 @@ per la pako-administrilo:
 Se ne haveblas sur la sistemo, oni povas elŝuti gin el
 [code.call-cc.org](https://code.call-cc.org/).
 
-Post Chicken instalitas, ni instalu Ugarit-on mem kaj siajn dependecojn:
+Post kiam Chicken instalitas, ni instalu Ugarit-on mem kaj siajn dependecojn:
 
     $ chicken-install -s ugarit tiger-hash aes
 
-Post ĉi tiu komando finiĝas, la komando `ugarit` haveblos. Por montri la uzadon:
+Post kiam ĉi tiu komando finiĝas, la komando `ugarit` haveblos. Por montri la uzadon:
 
     $ ugarit -h
 
@@ -112,7 +112,7 @@ Kreu ŝlosilon por la kripto:
     | od -An -tx1 \
     | tr -d ' \t\n'
 
-Post kuri tiujn komandojn, oni kreos la agorddosieron, `ugarit.conf`. Por fari ĝin akorde kun la
+Post kiam kuri tiujn komandojn, oni kreos la agorddosieron, `ugarit.conf`. Por fari ĝin akorde kun la
 supra ekzamplo, oni konservos ĝin ene `/ugarit`:
 
     $ emacs /ugarit/ugarit.conf
@@ -148,7 +148,7 @@ dosierujo `bildoj/`, kun la etikedo `bil`, kuru je Ugarit jene:
 
     $ ugarit snapshot /ugarit/ugarit.conf bil bildoj
 
-Post krei la dosierkopion, oni vidos ion kiel la jena:
+Post kiam krei la dosierkopion, oni vidos ion kiel la jena:
 
 ```
 Archiving bildoj to tag bil...

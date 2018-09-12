@@ -13,7 +13,7 @@ montras. Multspecajn rezultojn rapida Gugla serĉo pri gitaj laborfluoj revenas.
 manieroj de giton uzi kun gita gastiga servo kiel GitHub ĉi tiu artikolo priskribas.
 
 En ĉi tiu artikolo, la inviton la `$` simbolo reprezentas. Por demonstradaj celoj, la redaktilon
-[«nano»](https://www.nano-editor.org/) ni uzos. Tamen, kion ajn redaktilon oni liberas uzi.
+[__nano__](https://www.nano-editor.org/) ni uzos. Tamen, kion ajn redaktilon oni liberas uzi.
 
 
 <a name="et"></a>Enhavotabelo
@@ -27,9 +27,9 @@ En ĉi tiu artikolo, la inviton la `$` simbolo reprezentas. Por demonstradaj cel
   + [La deponejon krei](#deponejonkrei)
   + [La deponejon ĝisdatigi](#deponejongxisdatigi)
   + [Partopreni](#partopreni)
-  + [Sinkronigi kun «upstream»](#sinkronigi)
+  + [Sinkronigi kun __upstream__](#sinkronigi)
 - [Ŝanĝojn tiri](#tiri)
-- [Kunfandi kun «upstream»](#kunfandi)
+- [Kunfandi kun __upstream__](#kunfandi)
 - [Finrimarkoj](#finrimarkoj)
 
 
@@ -130,12 +130,13 @@ ke [fortan pasfrazon](https://xkcd.com/936/) oni disponigas, kiam oni invitiĝis
 
     $ ssh-keygen -t ed25519
 
-Post la ŝlosilojn oni kreis, la ŝlosilojn oni devas aldoni al la propra GitHub-konto. Por tion
+Post kiam la ŝlosilojn oni kreis, la ŝlosilojn oni devas aldoni al la propra GitHub-konto. Por tion
 fari, la jenan komandon kuru, tiam la eligon kopiu:
 
     $ cat ~/.ssh/id_ed25519.pub
 
-Iru al <https://github.com/settings/ssh>, tiam je **Add SSH key** aŭ je **New SSH key** klaku:
+Iru al [https://github.com/settings/ssh](github.com/settings/ssh), tiam je **Add SSH key** aŭ je
+**New SSH key** klaku:
 
 ![Add SSH key](/bil/sekursxelan-sxlosilon-aldonu.png)
 
@@ -185,7 +186,7 @@ Tiam la jenan komandon kuru, en kiu, `ogagmet` estas via uzantnomo:
 
     $ git clone git@github.com:ogagmet/foobar.git
 
-Sekve, je «remote» nomiĝas «upstream» kreu kiu la ŝanĝojn el la fonta deponejo spuras:
+Sekve, je __remote__ nomiĝas __upstream__ kreu kiu la ŝanĝojn el la fonta deponejo spuras:
 
     $ git remote add upstream git@github.com:ogag/foobar.git
 
@@ -226,9 +227,9 @@ Tiam, je **Create pull request** klaku:
 Tiam, tradaŭru.
 
 
-### <a name="sinkronigi"></a>Sinkronigi kun «upstream»
+### <a name="sinkronigi"></a>Sinkronigi kun __upstream__
 
-Por la «upstream»-branĉon sinkronigi kun la loka deponejo, la ŝanĝojn el «upstream» tiru:
+Por la __upstream__-branĉon sinkronigi kun la loka deponejo, la ŝanĝojn el __upstream__ tiru:
 
     $ git pull upstream master
 
@@ -248,11 +249,11 @@ Se oni estas la proprulo de la fonta deponejo, kaj la ŝanĝojn el la kontribuan
 tiam, tradaŭru.
 
 
-<a name="kunfandi"></a>Kunfandi kun «upstream»
+<a name="kunfandi"></a>Kunfandi kun __upstream__
 ----------------------------------------------
 
 Se oni estas la kontribuanto, kaj la ŝanĝojn jam estis tiritaj en la fonta deponejo, la
-«upstream»-branĉon sinkronigi:
+__upstream__-branĉon sinkronigi:
 
     $ git pull upstream master
 

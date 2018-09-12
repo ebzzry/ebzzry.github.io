@@ -3,7 +3,7 @@ Enkonduko al Sofismoj
 
 <div class="center">[Esperante](#) · [English](/en/fallacies)</div>
 <div class="center">la 29-an de julio 2018</div>
-<div class="center">Laste ĝisdatigita: la 11-an de septembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 12-an de septembro 2018</div>
 
 >Lerni ne necesas; nek travivas.<br>
 >―W. Edwards DEMING
@@ -67,7 +67,7 @@ bezonas.
 Post A, okazis B. Tial, A kaŭzis je B. Kiam okazo okazis post alia okazo, antaŭsupozitas, ke tio,
 kio okazis antaŭ ol ĝi devis kaŭzi ĝin.
 
-> “Post Silvja preĝis al Vakelo, sia patro pliresaniĝis el lia malsano. Ni kultu je Vakelo!”
+> “Post kiam Silvja preĝis al Vakelo, sia patro pliresaniĝis el lia malsano. Ni kultu je Vakelo!”
 
 Ĉi tio erarigas ĉar la eblecon ŝi malatentas, ke estis eble la medikamento kiu sian patron
 plisanigis.
