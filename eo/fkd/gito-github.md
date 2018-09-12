@@ -13,7 +13,7 @@ montras. Multspecajn rezultojn rapida Gugla serĉo pri gitaj laborfluoj revenas.
 manieroj de giton uzi kun gita gastiga servo kiel GitHub ĉi tiu artikolo priskribas.
 
 En ĉi tiu artikolo, la inviton la `$` simbolo reprezentas. Por demonstradaj celoj, la redaktilon
-[__nano__](https://www.nano-editor.org/) ni uzos. Tamen, kion ajn redaktilon oni liberas uzi.
+[*nano*](https://www.nano-editor.org/) ni uzos. Tamen, kion ajn redaktilon oni liberas uzi.
 
 
 <a name="et"></a>Enhavotabelo
@@ -27,9 +27,9 @@ En ĉi tiu artikolo, la inviton la `$` simbolo reprezentas. Por demonstradaj cel
   + [La deponejon krei](#deponejonkrei)
   + [La deponejon ĝisdatigi](#deponejongxisdatigi)
   + [Partopreni](#partopreni)
-  + [Sinkronigi kun __upstream__](#sinkronigi)
+  + [Sinkronigi kun *upstream*](#sinkronigi)
 - [Ŝanĝojn tiri](#tiri)
-- [Kunfandi kun __upstream__](#kunfandi)
+- [Kunfandi kun *upstream*](#kunfandi)
 - [Finrimarkoj](#finrimarkoj)
 
 
@@ -186,7 +186,7 @@ Tiam la jenan komandon kuru, en kiu, `ogagmet` estas via uzantnomo:
 
     $ git clone git@github.com:ogagmet/foobar.git
 
-Sekve, je __remote__ nomiĝas __upstream__ kreu kiu la ŝanĝojn el la fonta deponejo spuras:
+Sekve, je *remote* nomiĝas *upstream* kreu kiu la ŝanĝojn el la fonta deponejo spuras:
 
     $ git remote add upstream git@github.com:ogag/foobar.git
 
@@ -227,9 +227,9 @@ Tiam, je **Create pull request** klaku:
 Tiam, tradaŭru.
 
 
-### <a name="sinkronigi"></a>Sinkronigi kun __upstream__
+### <a name="sinkronigi"></a>Sinkronigi kun *upstream*
 
-Por la __upstream__-branĉon sinkronigi kun la loka deponejo, la ŝanĝojn el __upstream__ tiru:
+Por la *upstream*-branĉon sinkronigi kun la loka deponejo, la ŝanĝojn el *upstream* tiru:
 
     $ git pull upstream master
 
@@ -249,11 +249,11 @@ Se oni estas la proprulo de la fonta deponejo, kaj la ŝanĝojn el la kontribuan
 tiam, tradaŭru.
 
 
-<a name="kunfandi"></a>Kunfandi kun __upstream__
+<a name="kunfandi"></a>Kunfandi kun *upstream*
 ----------------------------------------------
 
 Se oni estas la kontribuanto, kaj la ŝanĝojn jam estis tiritaj en la fonta deponejo, la
-__upstream__-branĉon sinkronigi:
+*upstream*-branĉon sinkronigi:
 
     $ git pull upstream master
 
