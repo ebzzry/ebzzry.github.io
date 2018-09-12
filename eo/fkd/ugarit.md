@@ -3,7 +3,7 @@ Sekurkopiojn Krei per Ugarit
 
 <div class="center">[Esperante](#) · [English](/en/ugarit)</div>
 <div class="center">la 18-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 11-an de septembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 12-an de septembro 2018</div>
 
 >Bona juĝo devenas el sperto, kaj sperto devenas el malbona juĝo.<br>
 >―Fred BROOKS
@@ -230,7 +230,7 @@ Por ŝalti tre babileman eligon:
 <a name="finrimarkoj"></a>Finrimarkoj
 -------------------------------------
 
-Kiam ne fidas la rendimenton de la disko kie oni enmemorigas la dosierkopiojn, malŝalti la
+Kiam oni ne fidas al la funkciado de la disko kie oni enmemorigas la dosierkopiojn, malŝalti la
 [locate-ajn kaj updatedb-ajn](http://linux.about.com/od/commands/fl/updatedb-Linux-Command-Unix-Command.htm)
 servojn. Estas kutime periode kuradi per cron-o. Metas multe da ŝarĝo sur la disko kaj eble
 trostresi ĝin. La sperto povas varii.

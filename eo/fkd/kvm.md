@@ -3,7 +3,7 @@ Virtualigado en Linukso per KVM
 
 <div class="center">[Esperante](#) · [English](/en/kvm)</div>
 <div class="center">la 3-an de marto 2018</div>
-<div class="center">Laste ĝisdatigita: la 11-an de septembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 12-an de septembro 2018</div>
 
 >Se tion oni faras, kion oni ĉiam faras; tion oni akiros, kion oni ĉiam akiras.<br>
 >―Anthony ROBBINS
@@ -73,12 +73,12 @@ APT:
     $ sudo apt-get install -y qemu-kvm vde2 spice-client-gtk
 
 La [QEMU](http://wiki.qemu-project.org/Main_Page)-an /ki-mu/ hiperregilon, la
-[VDE](http://vde.sourceforge.net/)-ilojn, kaj [SPICE](http://www.spice-space.org/)-subtenon
-ĉi tio instalas. QEMU, almenaŭ dum siaj fruaj tagoj ne estis impresa—ĝi estis bona, bedaŭrinde ne
-bonegas. Ekde versio 0.10.1, je [KVM](http://www.linux-kvm.org/)-kapablojn—virtualigada
-subsistemo por linukso—kiu preskaŭ denaskan virtualigadon disponigas per aparataro-asistita
-virtualigado, QEMU komencis subteni. La rendimentojn de la aliaj virtualigadaj sistemoj menciitaj
-ĉi-supre ĝi eĉ konkuras.
+[VDE](http://vde.sourceforge.net/)-ilojn, kaj [SPICE](http://www.spice-space.org/)-subtenon ĉi tio
+instalas. QEMU, almenaŭ dum siaj fruaj tagoj ne estis impresa—ĝi estis bona, bedaŭrinde ne
+bonegas. Ekde versio 0.10.1, je [KVM](http://www.linux-kvm.org/)-kapablojn—virtualigada subsistemo
+por linukso—kiu preskaŭ denaskan virtualigadon disponigas per aparataro-asistita virtualigado, QEMU
+komencis subteni. La ekonomiojn de la aliaj virtualigadaj sistemoj menciitaj ĉi-supre ĝi eĉ
+konkuras.
 
 La opcion de konekti al la gasta maŝina ekrano
 [VNC](https://en.wikipedia.org/wiki/Virtual_Network_Computing)-e aliaj aplikaĵaroj

@@ -3,7 +3,7 @@ Esperantaj Signoj Linukse
 
 <div class="center">[Esperante](#) · [English](/en/eo-linux)</div>
 <div class="center">la 22-an de julio 2018</div>
-<div class="center">Laste ĝisdatigita: la 11-an de septembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 12-an de septembro 2018</div>
 
 >Se ion oni volas, kion oni neniam havis, oni devas esti servopreta tion fari, kion oni neniam
 >faris.<br>
@@ -64,7 +64,7 @@ Do por je <kbd>Print</kbd> klavon uzi kiel *Multi‎ߺ‎key*, je `~/.Xmodmap` r
 
 Tiam, je `~/.Xmodmap` reŝarĝu, kiel priskribita ĉi-supre.
 
-Nun, ke je *Multi‎ߺ‎key* oni povas aliri, karakterojn komposti plifaciliĝas. Ni supozu, ke na
+Nun, ke je *Multi‎ߺ‎key* oni povas aliri, karakterojn komposti plifaciliĝas. Ni supozu, ke je
 <kbd>Pause</kbd> klavo ni uzis kiel *Multi‎ߺ‎key*, por la literon **ĉ** eniri, je <kbd>Pause</kbd> oni
 premas kaj malpremas, tiam je <kbd>&#94;</kbd> oni premas kaj malpremas, tiam fine, je <kbd>c</kbd>
 oni premas kaj malpremas.
@@ -141,7 +141,7 @@ literon eniri, je 🐧 premu kaj tenu, tiam je <kbd>Shift</kbd> premu, tiam je <
 En kelkaj klavaroj, estas nur unu vindozklavo, kutime lokitas maldekstre, dum la tiu dekstre estas
 la <kbd>PrtSc</kbd> klavo. Multfoje ili sandviĉitas inter la <kbd>Ctrl</kbd> kaj la
 <kbd>Alt</kbd> klavoj. Por tiun klavon uzi, je `xev` kuru kiel ĉi-supre por la klavkodon akiri, tiam
-na `~/.Xmodmap` dosiero ĝisdatigi laŭe.
+je `~/.Xmodmap` dosiero ĝisdatigi laŭe.
 
 Sur mia ThinkPad, la jenan kodeton mi `~/.Xmodmap` havas:
 

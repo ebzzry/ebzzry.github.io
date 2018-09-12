@@ -3,7 +3,7 @@ Kiel Komuniki Samkiel Homo
 
 <div class="center">[Esperante](#) · [English](/en/human)</div>
 <div class="center">la 3-an de aŭgusto 2018</div>
-<div class="center">Laste ĝisdatigita: la 11-an de septembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 12-an de septembro 2018</div>
 
 >La kapablo por paroli ne igas onin saĝa.<br>
 >―Qui-gon JINN
@@ -17,9 +17,9 @@ Okazas efektiva komunikado kiam mesaĝo alportitas kiel ilo por volan celon atin
 celbazita aliro, ne gravas se la komunikanto komunikis pli da intentica mesaĝo. Kiam tankon oni uzas
 por moskiton mortigi, estas efektive.
 
-Okazas rendimenta komunikado kiam la ekzakta kiomo de mesaĝo alportitas—nek pli, nek
-malpi. Ekzemplo estas kiam ekzaktajn priskribojn oni donas al iu por ion fari, senerare,
-senmakule. Erarojn de komunikado ĉi tiu metodo ne permesas.
+Okazas ekonomia komunikado kiam la ekzakta kiomo de mesaĝo alportitas—nek pli, nek malpi. Ekzemplo
+estas kiam ekzaktajn priskribojn oni donas al iu por ion fari, senerare, senmakule. Erarojn de
+komunikado ĉi tiu metodo ne permesas.
 
 En ĉi tiu artikolo, mi diskutos kiel komunikadon aliri home. Ĉi tio devias de la psikopatiaj metodoj
 de kutimaj lernolibroj pri komunikado. En firmaaj kaj komercaj okazejoj, ĉi tio estas tro kutime

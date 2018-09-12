@@ -3,7 +3,7 @@ Konverti de Markdown al HTML
 
 <div class="center">[Esperante](#) · [English](/en/emem)</div>
 <div class="center">la 5-an de aŭgusto 2018</div>
-<div class="center">Laste ĝisdatigita: la 11-an de septembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 12-an de septembro 2018</div>
 
 >Oni ne trovos la respondojn kiujn oni serĉas ĝis oni haltas serĉi ekster kaj komenciĝas serĉi ilin
 >el oni mem.<br>
@@ -201,9 +201,9 @@ Por ĉiom da subtenitaj opcioj vidi:
 
 Por ĉi tiu tuta [blogo](https://ebzzry.io), 90+ poentaron mi povis atingi el
 [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/), «Mobile-Friendly» pritakso el
-[Google Mobile-Friendly Test](https://search.google.com/test/mobile-friendly), kaj rendimenta rango
+[Google Mobile-Friendly Test](https://search.google.com/test/mobile-friendly), kaj ekonomia rango
 de B el [Pingdom](https://tools.pingdom.com/). Se la TTT-servilajn parametrojn oni povas regi,
-rendimentan rangon de A oni eĉ povas atingi, kiam retumilan kaŝmemoron oni ekspluatas kaj la
+ekonomian rangon de A oni eĉ povas atingi, kiam retumilan kaŝmemoron oni ekspluatas kaj la
 `Vary: Accept-Encoding`-ĉapon precizigas. Je [GitHub Pages](https://pages.github.com) mi uzas, do estas
 malsama rakonto de mi.
 
