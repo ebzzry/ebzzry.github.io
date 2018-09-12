@@ -1,9 +1,9 @@
-Rakidprogramadon Emakse Agordi
-==============================
+Rakidprogramadon Agordi per Emakso
+==================================
 
 <div class="center">[Esperante](#) · [English](/en/emacs-racket)</div>
 <div class="center">la 13-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 22-an de aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 12-an de septembro 2018</div>
 
 >Ĉiom da bonaj ideoj ne kuŝas sub unu ĉapelo.<br>
 >―Dale TURNER
