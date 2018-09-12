@@ -61,7 +61,7 @@ La gitan deponejon oni nun povas pravalorizi.
 
     $ git init
 
-Komence, ĉiom da dosiero en la nuna dosierujo aldonu:
+Komence, ĉiom da dosieroj en la nuna dosierujo aldonu:
 
     $ git add .
 

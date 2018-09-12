@@ -183,7 +183,7 @@ Virtualan NIC-on kreu, kaj VDE-retkonektadon ŝaltu.
 
     -soundhw all
 
-Ĉiom da aŭdia pelilo ŝaltu.
+Ĉiom da aŭdiaj peliloj ŝaltu.
 
     -vga qxl
 
@@ -264,7 +264,7 @@ La ĉi-supraj komandoj:
 <a name="cxio"></a>Ĉion kolekti
 ------------------------------
 
-Jen ĉiom da komando el supre, kompiligitaj kiel funkcioj, por ke ilin oni povu kuri komandlinie:
+Jen ĉiom da komandoj el supre, kompiligitaj kiel funkcioj, por ke ilin oni povu kuri komandlinie:
 
 ```
 function kvm-net () {
