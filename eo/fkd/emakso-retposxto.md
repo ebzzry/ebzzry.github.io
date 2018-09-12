@@ -1,5 +1,5 @@
-Retpoŝton Emakse Agordi
-=======================
+Retpoŝton Agordi per Emakso
+===========================
 
 <div class="center">[Esperante](#) · [English](/en/emacs-mail)</div>
 <div class="center">la 14-an de februaro 2018</div>
