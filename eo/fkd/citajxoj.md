@@ -3,7 +3,7 @@ Citaĵoj
 
 <div class="center">[Esperante](#) · [English](/en/quotes)</div>
 <div class="center">la 15-an de novembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 12-an de aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 12-an de septembro 2018</div>
 
 Ĉi tiu paĝo enhavas liston de atenteme elektitaj citaĵoj, aforismoj, kaj sentencoj kiujn mi kolektis
 tra la jarojn.
@@ -82,7 +82,7 @@ tra la jarojn.
   ―Dalai-lamao
 
 
-- Ĉiom da bona ideo ne kuŝas sub unu ĉapelo.<br>
+- Ĉiom da bonaj ideoj ne kuŝas sub unu ĉapelo.<br>
   ―Dale TURNER
 
 
