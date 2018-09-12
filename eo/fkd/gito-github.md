@@ -42,7 +42,7 @@ Por la aferojn plibonigi poste, je `.gitignore`-dosieron oni devas krei. La dosi
 ekskluditaj el la deponejo la _.gitignore_-dosiero precizigas. Kelke da ĉi tiuj estas duumaj
 dosieroj kaj eraraj mesaĝoj kiuj estis kreitaj dum kompiladoj.
 
-La tipon de projekto _.gitignore_-dosieroj specifas. Bona loko por precizigi tion, kion .gitignore
+La tipon de projekto `.gitignore`-dosieroj specifas. Bona loko por precizigi tion, kion .gitignore
 devas enhavi estas [https://gitignore.io](gitignore.io). La tipon de projekto precizigi en la kampo, tiam je
 **Generate** klaku, tiam le eligon kopiu al la tondejo.
 
