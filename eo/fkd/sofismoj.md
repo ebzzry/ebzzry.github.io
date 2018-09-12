@@ -25,7 +25,7 @@ bezonas.
 - [Post ĉi tio, do, konsekvence de ĉi tio](#post)
 - [Dum ĉi tio, do, ankaŭ de ĉi tio](#dum)
 - [Kontraŭpersone](#kontrauxpersone)
-- [Ankaŭ vi](#ankaŭvi)
+- [Ankaŭ vi](#ankauxvi)
 - [Malsimpla demando](#malsimplademando)
 - [Falsa dilemo](#falsadilemo)
 - [Falsa kompromiso](#falsakompromiso)
@@ -33,7 +33,7 @@ bezonas.
 - [Balaema ĝeneraligo](#balaema)
 - [Ŝarĝo de pruvo](#sxargxo)
 - [Glata inklino](#glata)
-- [Ruĝa haringo](#ruĝaharingo)
+- [Ruĝa haringo](#rugxaharingo)
 - [Pajlohoma argumento](#pajlohamo)
 - [Apelo al aĝo](#agxo)
 - [Apelo al servodaŭro](#servodauxro)
@@ -101,8 +101,8 @@ Teniĝon sur siaj asertoj la persona stato de Maria ne havas. La diroj de Karlo 
 devas esti atakita estas la argumentoj de Maria, kaj ne sian personan teniĝon.
 
 
-<a name="ankaŭvi"></a>Ankaŭ vi
-------------------------------
+<a name="ankauxvi"></a>Ankaŭ vi
+-------------------------------
 
 Ĉi tio fifaritas kiam argumentoj de persono estas asertite falsaj pro la persono memkontraŭdiras.
 
@@ -206,8 +206,8 @@ la proprietuloj. Ĉi tio ankaŭ supozas, ke civiluloj kiuj pafilojn posedas esta
 tiajn batalilojn manregi.
 
 
-<a name="ruĝaharingo"></a>Ruĝa haringo
---------------------------------------
+<a name="rugxaharingo"></a>Ruĝa haringo
+---------------------------------------
 
 Ĉi tio fifaritas kiam nekoncerna temo enkondukitas por atenton forkonduki de la originala
 argumento. La ‘ruĝa haringo’ enĵetiĝitas, sub la ŝajnigo, ke ĝi rilatas al la originala
