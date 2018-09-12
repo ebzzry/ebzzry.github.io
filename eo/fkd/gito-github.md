@@ -67,7 +67,7 @@ Komence, ĉiom da dosieroj en la nuna dosierujo aldonu:
 
 Tiam, la ŝanĝojn enmetu.
 
-    $ git commit -m "Komencan enmeton"
+    $ git commit -m "Novdeponejon pravalorizu"
 
 
 ### <a name="sekvontaj"></a>Sekvontaj uzadoj
