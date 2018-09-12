@@ -3,7 +3,7 @@ Dosierujojn Emakse Mastrumi
 
 <div class="center">[Esperante](#) · [English](/en/emacs-dired)</div>
 <div class="center">la 12-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 22-an de aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 12-an de septembro 2018</div>
 
 >Supozi bonas, tamen eltrovi pli bonas.<br>
 >―Samuel CLEMENS
@@ -32,7 +32,7 @@ Por kuri Dired-on, kuru Emakson sur la komandlinio, disponigi dosierujon, kiel l
 
     $ emacs ~/Desktop
 
-Aŭ alternative, oni povas premi <kbd>C-x d</kbd> ene Emakso. Se oni nune redaktas dosieron, la
+Aŭ alterne, oni povas premi <kbd>C-x d</kbd> ene Emakso. Se oni nune redaktas dosieron, la
 dosierujo de tiu dosiero estos prezentita kiel la defaŭlta valoro en la etbufra areo. Ambaŭmaniere,
 kiam oni premas <kbd>Enter</kbd>, bufro de la dosierujo aperos, kiu aspektas kiel la eligo de
 `ls -l`:
