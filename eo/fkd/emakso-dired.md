@@ -1,5 +1,5 @@
-Dosierujojn Emakse Mastrumi
-===========================
+Dosierujojn Mastrumi per Emakso
+===============================
 
 <div class="center">[Esperante](#) · [English](/en/emacs-dired)</div>
 <div class="center">la 12-an de februaro 2018</div>
@@ -108,9 +108,9 @@ La jenaj komandoj agas laŭ si mem. Ili operacias sur solaj eroj kaj ili ne uzas
 <a name="wdired"></a>WDired-reĝimo
 ------------------------------------
 
-Tamen, unu el la plej mojosa, kaj ofte malatentita funkcio de Dired-o estas la _WDired-a_
-reĝimo. Kion ĝi faras, estas, ĝi donas al oni potenca kapablo por redakti la nomojn de eroj ene
-Dired-bufro, similas al tio, kion oni faras al kutima bufro. Por eniri la WDired-reĝimo, premu:
+Tamen, unu el la plej mojosa, kaj ofte malatentita funkcio de Dired estas la _WDired-a_-reĝimo. Tio,
+kion ĝi faras, estas, ĝi donas al oni potenca kapablo por redakti la nomojn de eroj ene Dired-bufro,
+similas al tio, kion oni faras al kutima bufro. Por eniri la WDired-reĝimo, premu:
 
     M-x wdired-change-to-wdired-mode REV
 
