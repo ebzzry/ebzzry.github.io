@@ -3,14 +3,14 @@ Maldaŭra Rondvojaĝo de Gito kaj GitHub
 
 <div class="center">[Esperante](#) · [English](/en/git-github)</div>
 <div class="center">la 11-an de julio 2018</div>
-<div class="center">Laste ĝisdatigita: la 11-an de septembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 12-an de septembro 2018</div>
 
 >Ĉiujn solvitajn problemon sciu kiel solvi.<br>
 >―Richard P. FEYNMAN
 
 [Giton](https://git-scm.com/) kun [GitHub](https://github.com)-laborfluon ĉi tiu mallonga gvidilo
-montras. Multspecajn rezultojn rapida Gugla serĉo de *git workflows* revenas. Nur unu el la manieroj
-de giton uzi kun gita gastiga servo kiel GitHub ĉi tiu artikolo priskribas.
+montras. Multspecajn rezultojn rapida Gugla serĉo pri gitaj laborfluoj revenas. Nur unu el la
+manieroj de giton uzi kun gita gastiga servo kiel GitHub ĉi tiu artikolo priskribas.
 
 En ĉi tiu artikolo, la inviton la `$` simbolo reprezentas. Por demonstradaj celoj, la redaktilon
 [«nano»](https://www.nano-editor.org/) ni uzos. Tamen, kion ajn redaktilon oni liberas uzi.
@@ -40,13 +40,13 @@ En ĉi tiu artikolo, la inviton la `$` simbolo reprezentas. Por demonstradaj cel
 
 Por la aferojn plibonigi poste, je `.gitignore`-dosieron oni devas krei. La dosierojn kiuj estas
 ekskluditaj el la deponejo la _.gitignore_-dosiero precizigas. Kelke da ĉi tiuj estas duumaj
-dosieroj kaj eraraj mesaĝoj kiuj estis kreitaj dum la kompilado.
+dosieroj kaj eraraj mesaĝoj kiuj estis kreitaj dum kompiladoj.
 
-La tipon de projekto _.gitignore_-dosieroj specifas. Bona loko en precizigi kion .gitignore devas
-enhavi estas <https://gitignore.io>. La tipon de projekto precizigi en la kampo, tiam na
+La tipon de projekto _.gitignore_-dosieroj specifas. Bona loko por precizigi tion, kion .gitignore
+devas enhavi estas [https://gitignore.io](gitignore.io). La tipon de projekto precizigi en la kampo, tiam je
 **Generate** klaku, tiam le eligon kopiu al la tondejo.
 
-Dosierujon por la projekto kreu, tiam ŝanĝu ene:
+Dosierujon por la projekto kreu, tiam ŝanĝiĝu ene:
 
     $ mkdir foobar
     $ cd foobar
@@ -214,10 +214,10 @@ Je **compare across forks** elektu:
 ![Compare Across Forks](/bil/komparu-trans-forkoj.png)
 
 Maldekstre, sub la **base fork**-kampo, je **ogag/foobar** elektu, kaj en la **base**-kampo,
-na **master** elektu.
+je **master** elektu.
 
 Dekstre, sub la **head fork**-kampo, je **ogagmet/foobar** elektu, kaj en la **compare**-kampo,
-na **novopcioj** elektu.
+je **novopcioj** elektu.
 
 Tiam, je **Create pull request** klaku:
 
@@ -240,7 +240,7 @@ Tiam puŝu al via deponejo:
 <a name="tiri"></a>Ŝanĝojn tiru
 -------------------------------
 
-Se oni estas la proprulo de la fonta deponejo, kaj la ŝanĝojn el la kontribuantoj oni volas tiri, na
+Se oni estas la proprulo de la fonta deponejo, kaj la ŝanĝojn el la kontribuantoj oni volas tiri, je
 **Pull requests** en la paĝo de la deponejo klaku:
 
 ![Pull requests](/bil/tirpetoj.png)

@@ -3,7 +3,7 @@ Signoj kaj Interpunkcioj
 
 <div class="center">[Esperante](#) · [English](/en/symbols-marks)</div>
 <div class="center">la 16-an de julio 2018</div>
-<div class="center">Laste ĝisdatigita: la 11-an de septembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 12-an de septembro 2018</div>
 
 >Se grandiozon oni volas atingi, konsentojn ĉesu peti.<br>
 >―Eddie COLLA
@@ -17,7 +17,7 @@ al ofte uzataj malĝustaj signoj.
 
 Ĉiu sekcio komencas pri eniga sinsekvo por Linuksa, Makintoŝa, kaj Vindoza sistemoj, respektive. La
 plusa (+) signo signifas, ke la maldekstran klavon oni premas, antaŭ la dekstran klavon. Tio estas,
-por je <kbd>⌥</kbd> + <kbd>Shift</kbd> + <kbd>-</kbd> enigi, je <kbd>⌥</kbd> premu kaj tenu, tiam na
+por je <kbd>⌥</kbd> + <kbd>Shift</kbd> + <kbd>-</kbd> enigi, je <kbd>⌥</kbd> premu kaj tenu, tiam je
 <kbd>Shift</kbd> premu kaj tenu, tiam je <kbd>-</kbd> premu.
 
 

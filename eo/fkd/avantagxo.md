@@ -3,7 +3,7 @@ Mia Kinezia Avantaĝa Aranĝo
 
 <div class="center">[Esperante](#) · [English](/en/advantage)</div>
 <div class="center">la 12-an de julio 2018</div>
-<div class="center">Laste ĝisdatigita: la 11-an de septembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 12-an de septembro 2018</div>
 
 >La doloro neeviteblas. La suferado malnepras.<br>
 >―M. Kathleen CASEY
@@ -51,7 +51,7 @@ aranĝo estas kiel la klavoj aranĝitaj:
 <a href="/bil/avantagxo-dvorako-0.png"><img src="/bil/avantagxo-dvorako-0.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="Originala softvara Dvorako" title="Originala softvara Dvorako"/></a>
 <div class="center">Figuro 1-1: Originala softvara Dvorako</div>
 
-Ve. Ĉi tiun aranĝon uzi en Emakso aŭ Ziŝo estas inferno: por je <kbd>M-x</kbd> premi emakse, na
+Ve. Ĉi tiun aranĝon uzi en Emakso aŭ Ziŝo estas inferno: por je <kbd>M-x</kbd> premi emakse, je
 <kbd>Alt</kbd> klavon oni devas premi per la dekstra dikfingro, tiam la <kbd>x</kbd> klavon oni
 premas per la maldekstra indeksfingro. La <kbd>Esc</kbd> klavon atingi ne ankaŭ amuzas ĉar ĝi tro
 malproksimas.
@@ -72,7 +72,7 @@ rulumi per la musrado aŭ la desegna tabuleto sen mian dekstran manon uzi. La <k
 
 Unu el miaj plej ŝatataj ŝanĝoj estas la nova loko de la <kbd>[</kbd> kaj <kbd>]</kbd> klavoj. La
 nova loko de <kbd>Esc</kbd> ankaŭ plaĉas al mi—min ĉi tio permesas por la eskapan klavo premi kiam
-na Vi uzi aŭ apajn invitojn fermi.
+je Vi uzi aŭ apajn invitojn fermi.
 
 La <kbd>Insert</kbd> klavon mi uzis anstataŭ <kbd>Esc</kbd> por ke je `XA_PRIMARY` zonon mi povu
 aliri facile per <kbd>Shift + Insert</kbd>. La `XA_PRIMARY`-zono estas kie la musaj markoj
