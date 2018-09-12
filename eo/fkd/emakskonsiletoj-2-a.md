@@ -3,7 +3,7 @@ Emakskonsiletoj 2-a: Seancoj kaj Pakoj
 
 <div class="center">[Esperante](#) · [English](/en/emacs-tips-2)</div>
 <div class="center">la 20-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 12-an de aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 12-an de septembro 2018</div>
 
 Ĉi tiu estas la daŭrigo de la serioj pri Emaksaj konsiletoj. En ĉi tiu afiŝo, ni esploras seancan
 mastrumadon, pakojn, krommarĝenojn, kaj aliajn malgrandajn agrablajn aferojn.
@@ -258,7 +258,7 @@ La komando `move-to-window-line-top-bottom`, defaŭlte bindita al <kbd>M-r</kbd>
 oni volas movi la montrilon al la supra, meza, kaj malsupra pozicioj en rilato kun la fenestro
 similas al la <kbd>H</kbd>, <kbd>M</kbd>, kaj <kbd>L</kbd> komandoj de Vimo.
 
-Tamen ne estas tre rendimente kiam specife celi areojn de la ekrano. La komandoj malsupre pozicias
+Tamen ne estas tre ekonomie kiam specife celi areojn de la ekrano. La komandoj malsupre pozicias
 la montrilon, specife al la supra, meza, kaj malsupra pozicioj, respektive.
 
 ```lisp
