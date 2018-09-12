@@ -1,5 +1,5 @@
-Esperantaj Signoj Linukse
-=========================
+Esperantaj Signoj en Linukso
+============================
 
 <div class="center">[Esperante](#) · [English](/en/eo-linux)</div>
 <div class="center">la 22-an de julio 2018</div>

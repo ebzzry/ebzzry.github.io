@@ -3,7 +3,7 @@ La Pensoj de Pedanto
 
 <div class="center">[Esperante](#) · [English](/en/)</div>
 <div class="center">la 27-an de aprilo 2017</div>
-<div class="center">Laste ĝisdatigita: la 9-an de septembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 12-an de septembro 2018</div>
 
 <img src="/bil/pluvis.jpg" class="banner" alt="pluvis.jpg" title="En la vizaĝo de la kosmo, ni ĉiuj estas porĉiame infanoj." />
 
@@ -13,7 +13,7 @@ La Pensoj de Pedanto
 - [Divido en Haskelo](divido)
 - [Kiel Komuniki Samkiel Homo](homo)
 - [Enkonduko al Sofismoj](sofismoj)
-- [Esperantaj Signoj Linukse](eo-linukse)
+- [Esperantaj Signoj en Linukso](eo-linukso)
 - [Signoj kaj Interpunkcioj (Mallongigite)](signoj-interpunkcioj-mallongigite)
 - [Signoj kaj Interpunkcioj](signoj-interpunkcioj)
 - [Verbotempoj en La Angla (Mallongigite)](verbotempoj-la-angla-mallongigite)
