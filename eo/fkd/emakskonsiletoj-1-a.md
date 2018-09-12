@@ -3,7 +3,7 @@ Emakskonsiletoj 1-a: Regionoj kaj Markoj
 
 <div class="center">[Esperante](#) · [English](/en/emacs-tips-1)</div>
 <div class="center">la 12-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 22-an de aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 12-an de septembro 2018</div>
 
 Mi ankoraŭ bezonas trovi pli bonan redaktilon ol [Emakso](https://www.gnu.org/software/emacs/). Kio
 faras Emakson elstari, estas sia agorda lingvo—Emaksa Lispo. Emakso uzas ĝin al punkto, en kiu,
@@ -87,7 +87,7 @@ La jena kodaĵo certigas, ke la Emaksa servilo, la tiu, kiun `emacsclient` konek
   (server-start))
 ```
 
-Alternative, vi povas kuri Emakson en demonreĝimo el la komandlinio:
+Alterne, oni povas kuri Emakson en demonreĝimo el la komandlinio:
 
 ```bash
 $ emacs --daemon
@@ -147,7 +147,7 @@ La klavkombinoj por la supraj komandoj, estas la jenaj:
 <a name="finrimarkoj"></a>Finrimarkoj
 -------------------------------------
 
-Mi esperas, ke vi povos esti kapabla trovi uzojn de kelkaj de ili. La ceteraj agordoj troveblas
+Mi esperas, ke oni povos esti kapabla trovi uzojn de kelkaj de ili. La ceteraj agordoj troveblas
 [ĉi tie](https://github.com/ebzzry/dotfiles/tree/master/emacs).
 
 _Dank’ al [Raymund Martinez](https://zhaqenl.github.io) pro la korektoj._

@@ -3,20 +3,20 @@ Emakso kaj Paroj
 
 <div class="center">[Esperante](#) · [English](/en/emacs-pairs)</div>
 <div class="center">la 9-an de julio 2018</div>
-<div class="center">Laste ĝisdatigita: la 11-an de septembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 12-an de septembro 2018</div>
 
 >La blanka bruo kiu batas ene la blanka mallumo estas la ritmo de la vivo; estas la pulso kiu
 >neniam vere foriris la podion.<br>
 >―Ergo PROXY, Ergo Proxy
 
-En ĉi tiu artikolo, mi eksklusive parolas pri _smartparens_—pako kiun oni esperis, ke oni jam uzis
-antaŭe, supozante ĝin oni ne jam uzis. Se oni estas komencanto pri ĝi, laŭlegu; se ne, ĉi tio eble
-estas bona memorigilo.
+En ĉi tiu artikolo, mi eksklusive parolas pri _smartparens_—tiu pako, kiun oni esperis, ke oni jam
+uzis antaŭe, supozante ĝin oni ne jam uzis. Se oni estas komencanto pri ĝi, laŭlegu; se ne, ĉi tio
+eble estas bona memorigilo.
 
 _smartparens_ estas unu el tiuj pakoj kiu draste plibonigas, kaj ŝanĝas kiel emakson oni
 uzas. Similas al kibernetikajn membrojn—onin igas por pli alte salti kaj pli forte pugnobati.
 
-Tenu en la kalkulo, ke la nomo estas malpravas tial, ke ne nur rondajn krampojn ĝi
+Tenu en la kalkulo, ke la nomo malpravas tial, ke ne nur rondajn krampojn ĝi
 traktas. Ankaŭ iujn ajn kiuj pariĝas ĝi traktas, kaj ilin ĝi traktas stele.
 
 
@@ -74,7 +74,7 @@ Parigitajn karakterojn kiel rondaj krampoj, kurbaj krampoj, kvadrataj krampoj, c
 krampoj, kaj aliaj koncepteblaj parigeblaj karakteroj mastrumi jam ĉiam doloras. Tiun
 problemon aliaj pakoj solvas parte. Bedaŭrinde, kelkajn punktojn ili maltrafas.
 
-En la kodetoj ĉi-sube, la `^` simbolo estos uzita por la
+En la kodetoj ĉi-sube, la ĉapelo (^) simbolo estos uzita por la
 [punkton](https://www.gnu.org/software/emacs/manual/html_node/elisp/Point.html) reprezenti.
 
 
@@ -342,11 +342,11 @@ var mods = ["vars"];
             ^
 ```
 
-Je <kbd>C-M-Space</kbd> aŭ <kbd>ESC C-Space</kbd> premu sekvonte de <kbd>[</kbd> la tutan regionon
-igas esti ĉirkaŭitaj per kongruaj `[` kaj `]`. Ankaŭ aplikeblas al klavoj kiel `(`, `{`, `"`, `'`,
+Je <kbd>C-M-Space</kbd> kaj <kbd>[</kbd> preminte la tuta regiono
+iĝas ĉirkaŭitaj per kongruaj `[` kaj `]`. Ankaŭ aplikeblas al klavoj kiel `(`, `{`, `"`, `'`,
 `*`, `_`, ktp, dependas per la regimo kiun oni uzas.
 
-Alternative, faldadajn funkciojn oni povas difini:
+Faldadajn funkciojn oni povas difini alterne:
 
 ```lisp
 (defmacro def-pairs (pairs)
