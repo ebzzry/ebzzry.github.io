@@ -3,7 +3,7 @@ Migri de LiveJournal al Frog
 
 <div class="center">[Esperante](#) · [English](/en/livefrog)</div>
 <div class="center">la 7-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 12-an de septembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 14-an de septembro 2018</div>
 
 >Mi ne scias kien mi iras, sed mi estas sur mia vojo.<br>
 >―Carl SAGAN
@@ -124,7 +124,7 @@ ljmigrate/
       userpics/
 ```
 
-Post kiam krei la Markdown-ajn Frog-ajn fontajn dosierojn, oni nun povas kopii ilin al via Frog-fonta
+La Markdown-ajn Frog-ajn fontajn dosierojn kreinte, oni nun povas kopii ilin al via Frog-fonta
 dosierujo, indikata ĉe `_src/posts/`.
 
 
