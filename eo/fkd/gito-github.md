@@ -3,7 +3,7 @@ Maldaŭra Rondvojaĝo de Gito kaj GitHub
 
 <div class="center">[Esperante](#) · [English](/en/git-github)</div>
 <div class="center">la 11-an de julio 2018</div>
-<div class="center">Laste ĝisdatigita: la 12-an de septembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 14-an de septembro 2018</div>
 
 >Ĉiujn solvitajn problemon sciu kiel solvi.<br>
 >―Richard P. FEYNMAN
@@ -130,7 +130,7 @@ ke [fortan pasfrazon](https://xkcd.com/936/) oni disponigas, kiam oni invitiĝis
 
     $ ssh-keygen -t ed25519
 
-Post kiam la ŝlosilojn oni kreis, la ŝlosilojn oni devas aldoni al la propra GitHub-konto. Por tion
+La ŝlosilojn kreinte, la ŝlosilojn oni devas aldoni al la propra GitHub-konto. Por tion
 fari, la jenan komandon kuru, tiam la eligon kopiu:
 
     $ cat ~/.ssh/id_ed25519.pub

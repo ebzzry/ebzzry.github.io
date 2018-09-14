@@ -3,7 +3,7 @@ Sekurkopiojn Krei per Ugarit
 
 <div class="center">[Esperante](#) · [English](/en/ugarit)</div>
 <div class="center">la 18-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 12-an de septembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 14-an de septembro 2018</div>
 
 >Bona juĝo devenas el sperto, kaj sperto devenas el malbona juĝo.<br>
 >―Fred BROOKS
@@ -112,7 +112,7 @@ Kreu ŝlosilon por la kripto:
     | od -An -tx1 \
     | tr -d ' \t\n'
 
-Post kiam kuri tiujn komandojn, oni kreos la agorddosieron, `ugarit.conf`. Por fari ĝin akorde kun la
+Tiujn komandojn kurinte, oni kreos la agorddosieron, `ugarit.conf`. Por fari ĝin akorde kun la
 supra ekzamplo, oni konservos ĝin ene `/ugarit`:
 
     $ emacs /ugarit/ugarit.conf
@@ -148,7 +148,7 @@ dosierujo `bildoj/`, kun la etikedo `bil`, kuru je Ugarit jene:
 
     $ ugarit snapshot /ugarit/ugarit.conf bil bildoj
 
-Post kiam krei la dosierkopion, oni vidos ion kiel la jena:
+La dosierkopion kreinte, oni vidos ion kiel la jena:
 
 ```
 Archiving bildoj to tag bil...
