@@ -3,7 +3,7 @@ Signoj kaj Interpunkcioj
 
 <div class="center">[Esperante](#) · [English](/en/symbols-marks)</div>
 <div class="center">la 16-an de julio 2018</div>
-<div class="center">Laste ĝisdatigita: la 12-an de septembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 14-an de septembro 2018</div>
 
 >Se grandiozon oni volas atingi, konsentojn ĉesu peti.<br>
 >―Eddie COLLA
@@ -321,10 +321,11 @@ indiki, ke la vortoj ĉi-supre devas esti ripetitaj. Ekzemple:
 - Makintoŝe: <kbd>⌥</kbd> + <kbd>;</kbd>
 - Vindoze: <kbd>Alt</kbd> + <kbd>0</kbd> <kbd>1</kbd> <kbd>3</kbd> <kbd>3</kbd>
 
-La tripunkto uzatas por la forlason de vorto, frazero, frazo, aŭ tuta bloko de teksto
-montri, kiel parto de pli granda teksto. Ĝi estas unu el la plej miskomprenitaj signoj. Mi ofte
-rimarkas, ke la tri punktoj—plenaj ĉesoj—uzitas anstataŭ la ĝusta tripunkta signo. En epoĥo,
-en kiu, la skribmaŝino estis la plej bona maniero por tekston komposti, la tri punktoj funkciis. Tiutempe, tamen, jam longe pasis; la haveblajn ilojn oni nun devas uzi.
+La tripunkto uzatas por la forlason de vorto, frazero, frazo, aŭ tuta bloko de teksto montri, kiel
+parto de pli granda teksto. Ĝi estas unu el la plej miskomprenitaj signoj. Mi ofte rimarkas, ke la
+tri punktoj—plenaj ĉesoj—uzitas anstataŭ la ĝusta tripunkta signo. En epoĥo, en kiu, la skribmaŝino
+estis la plej bona maniero por tekston komposti, la tri punktoj funkciis. Tiutempe, tamen, jam longe
+pasis; la haveblajn ilojn oni nun devas uzi.
 
 Ekzemple, ĝi povas uzita jene:
 
@@ -334,8 +335,8 @@ Kiam uzitis kiel la komenco de frazo, kortuŝojn kaj dramojn ĝi enkondukas:
 
 - … Mia amo, kie vi estas?
 
-Kiam ĝi uzitas en la fino de bloko, spaceton antaŭ ol ĝi metu; kiam ĝi uzitas en la komenco,
-spaceton post kiam ĝi metu; kiam ĝi uzitas en la mezo, spacetojn ĉirkaŭ metu.
+Kiam ĝi uzitas en la fino de bloko, spaceton antaŭ ĝi metu; kiam ĝi uzitas en la komenco, spaceton
+post ĝi metu; kiam ĝi uzitas en la mezo, spacetojn ĉirkaŭ metu.
 
 
 <a name="finrimarkoj"></a>Finrimarkoj
