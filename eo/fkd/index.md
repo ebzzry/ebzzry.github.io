@@ -3,16 +3,18 @@ La Pensoj de Pedanto
 
 <div class="center">[Esperante](#) · [English](/en/)</div>
 <div class="center">la 27-an de aprilo 2017</div>
-<div class="center">Laste ĝisdatigita: la 12-an de septembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 15-an de septembro 2018</div>
 
 <img src="/bil/pluvis.jpg" class="banner" alt="pluvis.jpg" title="En la vizaĝo de la kosmo, ni ĉiuj estas porĉiame infanoj." />
 
-<div class="text-right">Retejo pri komputiko, hominklinaĵoj, kaj hazardaĵoj. Eroj ordigitas laŭ inverskronologiordo. Aŭdversion la steligitaj eroj havas.</div>
+<div class="text-right">Retejo pri komputiko, hominklinaĵoj, kaj hazardaĵoj. La eroj ordigitas laŭ
+inverskronologiordo. Aŭdversion la steligitaj eroj havas.</div>
 
+- [Milda Enkonduko al la Nix-Familio](nix)
 - [Konverti de Markdown al HTML](emem)
 - [Divido en Haskelo](divido)
 - [Kiel Komuniki Samkiel Homo](homo)
-- [Enkonduko al Sofismoj](sofismoj)
+- [Milda Enkonduko al Sofismoj](sofismoj)
 - [Esperantaj Signoj en Linukso](eo-linukso)
 - [Signoj kaj Interpunkcioj (Mallongigite)](signoj-interpunkcioj-mallongigite)
 - [Signoj kaj Interpunkcioj](signoj-interpunkcioj)
