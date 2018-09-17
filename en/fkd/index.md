@@ -3,11 +3,12 @@ The Musings of a Pedant
 
 <div class="center">[Esperante](/eo/) · [English](#)</div>
 <div class="center">August 15, 2015</div>
-<div class="center">Last updated: August 7, 2018</div>
+<div class="center">Last updated: September 15, 2018</div>
 
 <img src="/bil/pluvis.jpg" class="banner" alt="pluvis.jpg" title="In the face of the cosmos, we all are children forever." />
 
-<div class="text-right">A journal about computing, human predilections, and random krakaboom. Entries are sorted in reverse chronological order.</div>
+<div class="text-right">A journal about computing, human predilections, and random krakaboom. The
+entries are sorted in reverse chronological order.</div>
 
 - [Zsh Tips 4: General Helpers](zsh-tips-4)
 - [Zsh Tips 3: Chroot Helpers](zsh-tips-3)
@@ -21,7 +22,7 @@ The Musings of a Pedant
 - [Converting Markdown to HTML with emem](emem)
 - [Division in Haskell](division)
 - [How to Communicate Like a Human](human)
-- [A Fallacies Primer](fallacies)
+- [A Gentle Introduction to Fallacies](fallacies)
 - [Esperanto Characters in Linux](eo-linux)
 - [Symbols and Marks (Condensed)](symbols-marks-condensed)
 - [Symbols and Marks](symbols-marks)
