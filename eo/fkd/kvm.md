@@ -3,7 +3,7 @@ Virtualigado en Linukso per KVM
 
 <div class="center">[Esperante](#) · [English](/en/kvm)</div>
 <div class="center">la 3-an de marto 2018</div>
-<div class="center">Laste ĝisdatigita: la 12-an de septembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 17-an de septembro 2018</div>
 
 >Se tion oni faras, kion oni ĉiam faras; tion oni akiros, kion oni ĉiam akiras.<br>
 >―Anthony ROBBINS
@@ -12,8 +12,8 @@ La [tutvirtualigadajn](https://en.wikipedia.org/wiki/Full_virtualization) solvoj
 *VMware Workstation*, *Oracle VirtualBox*, kaj *Parallels* plejmulto da oni konas. En
 ĉi tiu afiŝo, alian metodon por aferojn fari, mi reenkondukos al oni.
 
-La dolarsigna ($) simbolo uzitos por la ŝelan inviton de normala uzanto indiki, dum la krada (#)
-simbolo uzitos por la ŝelan inviton de la ĉefuzanto indiki. Estas fojoj kiam la
+La dolarsigno ($) uzitos por la ŝelan inviton de normala uzanto indiki, dum la kradsigno (#) uzitos
+por la ŝelan inviton de la ĉefuzanto indiki. Estas fojoj kiam la
 [EUID](https://en.wikipedia.org/wiki/User_identifier#Effective_user_ID) de komando estos nulo (0)
 pro la uzado de *sudo*.
 

@@ -3,7 +3,7 @@ Citaĵoj
 
 <div class="center">[Esperante](#) · [English](/en/quotes)</div>
 <div class="center">la 15-an de novembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 12-an de septembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 15-an de septembro 2018</div>
 
 Ĉi tiu paĝo enhavas liston de atenteme elektitaj citaĵoj, aforismoj, kaj sentencoj kiujn mi kolektis
 tra la jarojn.
@@ -37,8 +37,8 @@ tra la jarojn.
   ―Pablo PIKASO
 
 
-- Ne maltrankviliĝu pri kion alia iu farigos. La plej bona maniero por antaŭdiri la estontecon estas
-  per eltrovi tion.<br>
+- Ne maltrankviliĝu pri tio, kion la aliaj faros. La plej bona maniero por la estontecon antaŭdiri
+  estas per tion eltrovi.<br>
   ―Alan KAY
 
 
