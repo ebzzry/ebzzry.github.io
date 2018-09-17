@@ -2,7 +2,7 @@ A Gentle Introduction to the Nix Family
 =======================================
 
 <div class="center">March 22, 2017</div>
-<div class="center">Last updated: April 22, 2018</div>
+<div class="center">Last updated: September 17, 2018</div>
 
 >Don’t worry about what anybody else is going to do. The best way to predict the future is to
 >invent it.<br>
@@ -54,7 +54,7 @@ Table of contents
 - [Nixpkgs](#nixpkgs)
   + [Installation](#nixpkgsinstallation)
   + [Usage](#nixpkgsusage)
-    * [Git checkout](#nixpkgsgit)
+    * [Git](#nixpkgsgit)
     * [Channels](#nixpkgschannels)
     * [Other commands](#nixpkgsother)
   + [Configuration](#nixpkgsconfiguration)
@@ -82,33 +82,32 @@ ticket to hell.
 
 [NixOS](https://nixos.org) is a Linux distribution that solves these problems by leveraging on the
 determinism of [Nix](https://nixos.org/nix) and by using a single declarative configuration file
-that contains all settings and knobs in one place—`/etc/nixos/configuration.nix`. This file conntain
+that contains all settings and knobs in one place—`/etc/nixos/configuration.nix`. This file contains
 information about your filesystems, users, services, network configuration, input devices, kernel
 parameters, and more. This means that you can take a `configuration.nix` of someone, and have his
 exact system configuration! In NixOS you don’t have to fiddle around with the whole system manually
-for configuration that want. You don’t have to use ad-hoc solutions to specify a desired
+for configuration that you want. You don’t have to use ad-hoc solutions to specify a desired
 configuration state. You don’t need to install additional software to manage system configuration.
 
 NixOS does not follow the [FHS](https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard),
-effectively preventing additional brain damage.  This gives room for a lot of flexibility and
-ingenuity. It does not have `/usr/` and `/opt/`. It does have `/bin/`, which contains only `sh` and
-`/usr/bin/` which contains only `env`—both of which are actually symlinks to the real programs
+effectively preventing additional brain damage. This gives room for a lot of flexibility and
+ingenuity. It does not have `/usr/` and `/opt/`. It does have `/bin/` and `/usr/bin/`, which contains only `sh` and `env`, respectively—both of which are actually symlinks to the real programs
 somewhere in `/nix/store/`. The top-level location for system binaries—the ones installed explicitly
 by the administrator—are located in `/run/current-system/sw/bin/` and
 `/run/current-system/sw/sbin/`.  User-installed programs, on the other hand, are available at their
-respective `~/.nix-profile/bin/`. These locations cannot be modified through normal means; dedicated
+respective m`~/.nix-profile/bin/`. These locations cannot be modified through normal means; dedicated
 programs must be used to write to these trees.
 
 
 ### <a name="nixosinstallation"></a> Installation
 
-Installation of NixOS is straightforward. For bare metal systems, download an installer
-from [https://nixos.org/nixos/download.html](https://nixos.org/nixos/download.html). VM images are
+Installation of NixOS is straightforward. For bare-metal systems, download an installer
+from [nixos.org/nixos/download.html](https://nixos.org/nixos/download.html). VM images are
 also available from that page. For my last installation, I installed with the following setup:
 
 - [UEFI](https://en.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface)
 - USB boot
-- Wi-Fi connectivity
+- Wi-Fi connection
 - [GUID Partition Table (GPT)](https://en.wikipedia.org/wiki/GUID_Partition_Table)
 - [LUKS](https://en.wikipedia.org/wiki/Linux_Unified_Key_Setup) over [LVM](https://en.wikipedia.org/wiki/Logical_volume_management)
 
@@ -120,73 +119,73 @@ Boot from the USB drive in UEFI mode. On the login prompt, login as `root`.
 
 #### <a name="nixosnetworking"></a> Setup networking
 
-Scan for available networks
+Scan for available networks:
 
     # nmcli d wifi list
 
-Then, connect to the router of choice
+Then, connect to the router of choice:
 
     # nmcli d wifi con Foobarbaz name Foo password supersecretkey
 
 
 #### <a name="nixosdisks"></a> Prepare disks
 
-Create the partitions
+Create the partitions:
 
     # gdisk /dev/sda
     sda1: EF00 (EFI system), 512 MiB
     sda2: 8E00 (Linux LVM), rest
 
-Format `/dev/sda1`
+Format `/dev/sda1`:
 
     # mkfs.vfat -F32 /dev/sda1
 
-Create the physical volume
+Create the physical volume:
 
     # pvcreate /dev/sda2
 
-Create the volume group
+Create the volume group:
 
-    vgcreate vg /dev/sda2
+    # vgcreate vg /dev/sda2
 
-Create the logical volumes
+Create the logical volumes:
 
     # lvcreate -L 20G -n swap vg
     # lvcreate -l 100%FREE -n root vg
 
-Encrypt root
+Encrypt root:
 
     # cryptsetup luksFormat /dev/vg/root
     # cryptsetup luksOpen /dev/vg/root root
 
-Format root
+Format root:
 
     # mkfs.ext4 -j -L root /dev/mapper/root
 
-Format swap
+Format swap:
 
     # mkswap -L swap /dev/vg/swap
 
-Mount the filesystems
+Mount the filesystems:
 
     # mount /dev/mapper/root /mnt
     # mkdir /mnt/boot
     # mount /dev/sda1 /mnt/boot
 
-Enable swap
+Enable swap:
 
     # swapon /dev/vg/swap
 
 
 #### <a name="nixosinstall"></a> Install to disk
 
-Create the base config
+Create the base config:
 
     # nixos-generate-config --root /mnt
 
-Edit the config file
+Edit the config file:
 
-    nano /mnt/etc/nixos/configuration.nix
+    # nano /mnt/etc/nixos/configuration.nix
 
 To give you a headstart, you may use a trimmed-down version
 of [my configuration](https://github.com/ebzzry/dotfiles/blob/master/nixos/configuration.nix),
@@ -305,24 +304,23 @@ A longer version is available with:
     # curl -sSLo /mnt/etc/nixos/configuration.nix https://goo.gl/K4P7l5
 
 Replace the UUID of the disk with the one that you have. Use the command `blkid` to get the
-UUIDs. For `networking.hostID`, use the following command:
+UUIDs. For the value of `networking.hostID`, use the following command:
 
     # cksum /etc/machine-id | while read c rest; do printf "%x" $c; done
 
 The above configuration specifies the following, among other things:
 
-- It creates a user `ogag` with full sudo access
-- It uses KDE 5 as the desktop environment
-- It enables SSH
-- It specifies the LUKS parameters
+- It creates a user `ogag` with full sudo access.
+- It uses KDE 5 as the desktop environment.
+- It enables SSH.
+- It specifies the LUKS parameters.
 
-Install NixOS to the disk
+Install NixOS to the disk:
 
     # nixos-install
 
-This will parse `/etc/nixos/configuration.nix`, making sure that there are no errors. This command
-will download all the necessary packages to match the specification, making sure that no stones are
-left unturned.
+This command will parse `/etc/nixos/configuration.nix`, making sure that there are no errors. This
+command will download all the necessary packages to match the specification.
 
 When the installation completes, reboot your system:
 
@@ -939,7 +937,7 @@ out. [Channels](https://nixos.org/channels/) on the other hand, are essentially 
 repository at an earlier version.
 
 
-#### <a name="nixpkgsgit"></a> Git checkout
+#### <a name="nixpkgsgit"></a> Git
 
 Updates to the git repository happen frequently—as you are reading this
 article,
