@@ -3,7 +3,7 @@ Rakidprogramadon Agordi per Emakso
 
 <div class="center">[Esperante](#) · [English](/en/emacs-racket)</div>
 <div class="center">la 13-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 12-an de septembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 20-an de septembro 2018</div>
 
 >Ĉiom da bonaj ideoj ne kuŝas sub unu ĉapelo.<br>
 >―Dale TURNER
@@ -29,7 +29,7 @@ longan vojon, kiun mi vojaĝis.
 ---------------------------------------
 
 Redakti Rakidkodon Emakse estis tradicie farita per rudimentaj reĝimoj, kiuj malhavis
-flekseblecon. Ili estis kapablaj por taksi nunajn difinojn, lastajn difinojn, kaj tutajn bufrojn,
+flekson. Ili estis kapablaj por taksi nunajn difinojn, lastajn difinojn, kaj tutajn bufrojn,
 ĉefparte. Bedaŭrinde, tio ne sufiĉis pri la maniero, en kiu Rakido traktadis la aferojn. Pli
 inteligenta maniero de trakti kodon, estis bezonita.
 
@@ -47,7 +47,7 @@ DrRacket-on krom mi bezonas uzi ĝian agrablan grafikfasadan sencimigilon.
 Per [ELPA](https://www.emacswiki.org/emacs/ELPA), instali Geiser-on facilas. Simple plenumi la jenan
 komandon
 
-    M-x package-install REV geiser REV
+    M-x package-install EN geiser EN
 
 Tiam post malmultajn sekundojn, vi havos Geiser-on, instalita en via Emaksa profilo. Sekve, vi metos en
 la efektivan kodon, kiu envokas kaj agordas Geiser-on:
@@ -65,7 +65,7 @@ la efektivan kodon, kiu envokas kaj agordas Geiser-on:
 La unuesprimo ŝarĝas Geiser-on mem. La duesprimo precizigas, ke ne invitos onin por la aliaj
 realigoj, se trovas ilin. La lastesprimo malnepras—ŝaltas onin por plenumi
 
-    M-x geiser-save REV
+    M-x geiser-save EN
 
 en la legad-taksad-presada iteracio (LTPI, angle REPL), por devigi la konservadon de la historio al
 la diskdosiero, kiu troveblas en `~/.geiser_history.racket` defaŭlte. Estas utila se vi tuj volas
@@ -80,13 +80,13 @@ procezon.
 Por rikolti tiujn, kiujn vi semis, kreu aŭ malfermu `.rkt`-dosieron, kun malpleje ĝusta modula
 deklaro. Tiam, premu:
 
-    M-x run-geiser REV
+    M-x run-geiser EN
 
 Kaj, hura! Aperas nova Emaksa fenestro, enhavi la `* Racket REPL *`-bufron. Kio ajn vi povas fari
 per la LTPI-envokito per la vanila komandlinia `racket`, vi ankaŭ povas fari tiujn, per ĉi tiu, kaj
 pli. Ĉi tiu ĉefreĝimo fakte estas la Comint-reĝimo sub la kovrilo, kun kroĉiloj al Rakida
 procezo. Por tiuj de vi, kiuj estas malkutimaj pri la Comint-reĝimo, estas la sama reĝimo kiu
-traktas `M-x shell REV`.
+traktas `M-x shell EN`.
 
 Do, kion oni povas fari per tio? Dum redakti `.rkt`-dosieron, jen estas kelke de kutimaj
 fulmoklavoj, kiujn mi uzas. La plena listo haveblas [ĉi tie](http://www.nongnu.org/geiser/geiser_5.html#Cheat-sheet).
