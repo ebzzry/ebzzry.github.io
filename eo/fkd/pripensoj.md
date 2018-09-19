@@ -3,7 +3,7 @@ Pripensoj
 
 <div class="center">[Esperante](#) · [English](/en/reflections)</div>
 <div class="center">la 3-an de novembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 27-an de aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 18-an de septembro 2018</div>
 
 Ĉi tiu paĝo enhavas kelke da miaj propraj pripensoj.
 
@@ -195,7 +195,7 @@ Enskriboj ordigatas laŭ kronologiordo.
 - Sciu la laboron kiu pagas viajn fakturojn kaj sciu la laboron kiu difinas vian estontecon.<br>
 
 
-- Gravas ĉio kaj nenio.<br>
+- Gravas ĉio kaj nenio. Signifo estas nia propra elpensaĵo. Ĝi estas klopodo por nian perceptitan ekzistecon kvantigi, kvalitigi, kaj pravigi.<br>
 
 
 - La kerno de malkovri la estontecon ne estas kiel solvi pli da problemojn; estas kiel malkovri pli da problemojn.<br>
@@ -311,3 +311,6 @@ Enskriboj ordigatas laŭ kronologiordo.
 
 - La ora regulo estas ekzemplo de malbona ideo. Se oni opinias, ke estas bona ideo por sin vundi,
   tiam, estas ankaŭ bona ideo por la aliajn vundi.<br>
+
+
+- Kvietecon paco ne implicas. Bruon ĥaoso ne implicas. Ĉiameco ne egalas al senfineco.<br>

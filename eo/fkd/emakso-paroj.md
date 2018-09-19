@@ -3,7 +3,7 @@ Emakso kaj Paroj
 
 <div class="center">[Esperante](#) · [English](/en/emacs-pairs)</div>
 <div class="center">la 9-an de julio 2018</div>
-<div class="center">Laste ĝisdatigita: la 12-an de septembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 20-an de septembro 2018</div>
 
 >La blanka bruo kiu batas ene la blanka mallumo estas la ritmo de la vivo; estas la pulso kiu
 >neniam vere foriris la podion.<br>
@@ -48,7 +48,7 @@ traktas. Ankaŭ iujn ajn kiuj pariĝas ĝi traktas, kaj ilin ĝi traktas stele.
 
 Je smartparens instali facilas:
 
-    M-x package-install REV smartparens REV
+    M-x package-install EN smartparens EN
 
 
 <a name="agordajxo"></a>Agordaĵo
