@@ -55,7 +55,7 @@ of your fingertips.
 
 Frog operates somewhere in the middle of the spectrum:
 
-    Raw Content -> Frog -> HTML
+    Raw Content → Frog → HTML
 
 Where raw content is either Markdown, Scribble, or HTML source files, or a combination of all. Frog
 takes in those input files, and it outputs nice HTML that you can upload to your web server. Easy?

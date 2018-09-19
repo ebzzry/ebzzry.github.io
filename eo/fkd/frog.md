@@ -3,7 +3,7 @@ Blogi per Frog
 
 <div class="center">[Esperante](#) · [English](/en/frog)</div>
 <div class="center">la 16-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 9-an de septembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 20-an de septembro 2018</div>
 
 >Unu persono kun ardo pli bonas ol kvardek personoj nure interesataj.<br>
 >―E.M. FORSTER
@@ -15,7 +15,7 @@ de reklamoj aŭ la uzado de [parte senpagaj](https://en.wikipedia.org/wiki/Freem
 liberaj servoj, tiam mono bezonatas por aldonaj servoj.
 
 Eble oni disputas, ke ĉiuj, kiujn si bezonas estas platformo por blogi, kaj si ne bezonas la plian
-flekseblecon. Estas bonfarte por iuj. Tamen multe da homo volas liberiĝi el la katenoj. Mi ne volas
+flekson. Estas bonfarte por iuj. Tamen multe da homo volas liberiĝi el la katenoj. Mi ne volas
 vidi reklamojn sur mia retejo. Mi ne volas surprizajn cenzuradojn. Mi volas liberon. Do, se oni
 estas kiel mi, daŭru legi.
 
@@ -53,7 +53,7 @@ arbitraj limigoj, nek trudoj—tre proksimas al tuta rego, en la pinto de la fin
 
 Frog-o operacias ie en la mezo de jena spektro:
 
-    Krudenhavo -> Frog -> HTML
+    Krudenhavo → Frog → HTML
 
 En kiu, krudenhavo estas aŭ Markdown, Scribble, aŭ HTML-fontdosieroj, aŭ kombinado de ĉio. Frog-o
 konsumas tiujn enigdosierojn, kiam si eligas agrablajn HTML-dosierojn, kiuj oni povas alŝuti al
