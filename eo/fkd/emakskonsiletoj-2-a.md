@@ -3,7 +3,7 @@ Emakskonsiletoj 2-a: Seancoj kaj Pakoj
 
 <div class="center">[Esperante](#) · [English](/en/emacs-tips-2)</div>
 <div class="center">la 20-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 12-an de septembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 20-an de septembro 2018</div>
 
 Ĉi tiu estas la daŭrigo de la serioj pri Emaksaj konsiletoj. En ĉi tiu afiŝo, ni esploras seancan
 mastrumadon, pakojn, krommarĝenojn, kaj aliajn malgrandajn agrablajn aferojn.
@@ -99,7 +99,7 @@ historion. Por fari tiel, mi havas la jenan:
 
 Liveras la agrablan:
 
-    M-x save REV
+    M-x save EN
 
 
 <a name="pakoj"></a>Pakoj
@@ -127,15 +127,15 @@ nun. Ĉiuj, kiujn oni bezonas komenci estas la jena:
 
 Por listigi ĉiujn haveblajn pakojn, premu:
 
-    M-x pl REV
+    M-x pl EN
 
 Se vi konas la nomon de pako, premu:
 
-    M-x pi REV pako REV
+    M-x pi EN pako EN
 
 Por ĝistadigi vian lokan datumon, premu:
 
-    M-x pr REV
+    M-x pr EN
 
 
 ### <a name="use-package"></a>use-package
@@ -145,7 +145,7 @@ oni havas la elekton por instali tiun pakon, se tiu ne ankoraŭ ekzistas. Ankaŭ
 la kapablon por agordi tiun pakon, ene unuigita esprimo. Tamen, male `require`, `use-package` ne
 alvenas konstruita kun Emakso. Oni bezonas instali ĝin per `package-install`:
 
-    M-x pi REV use-package REV
+    M-x pi EN use-package EN
 
 Oni nun povas postuli ĝin je sekvajn uzadojn:
 

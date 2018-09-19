@@ -336,12 +336,13 @@ configuration file then rebuild the system:
     # nixos-rebuild switch
 
 If you make a mistake, the system will notify you of it, instead of proceeding with an incorrect
-configuration. After the system has completed booting, switch to the console <kbd>Ctrl+Alt+F1</kbd>,
-then login as `root`, then set a password for the user that we specified in `configuration.nix`:
+configuration. After the system has completed booting, switch to the console with
+<kbd>Ctrl+Alt+F1</kbd>, then login as `root`, then set a password for the user that we specified in
+`configuration.nix`:
 
     # passwd ogag
 
-Exit the shell, switch to the graphical interface <kbd>Alt+F7</kbd>, then login as `ogag`.
+Exit the shell, switch to the graphical interface with <kbd>Alt+F7</kbd>, then login as `ogag`.
 
 
 <a name="nix"></a> Nix
@@ -434,16 +435,17 @@ nix-repl> 6/2
 /home/ogag/6/2
 ```
 
-Oops, that wasn’t what we expected. Since Nix was designed with files and directories in mind, it
+Oops! That wasn’t what we expected. Since Nix was designed with files and directories in mind, it
 made a special case that when a `/` character is surrounded by non-space characters, it interprets
 it as a directory path, resulting in an absolute path. To actually perform division, add at least
 one space before and after the `/` character:
 
 ```nix
 nix-repl> 6 / 2
+3
 ```
 
-There are no floating point numbers in Nix. So, if you try to evaluate one, you’ll get:
+By the way, there are no floating point numbers in Nix. So, if you try to evaluate one, you’ll get:
 
 ```nix
 nix-repl> 1.0
@@ -558,7 +560,7 @@ nix-repl> builtins.elemAt [ 1 "foo" true ] 1
 
 ### <a name="nixsets"></a> Sets
 
-An important data structure in Nix are sets. They are keyword-value pairs separated by semi-colons:
+An important data structure in Nix are sets. They are keyword-value pairs separated by semicolons:
 
 ```nix
 nix-repl> { a = 0; b = "bar"; c = true; d = (6 / 2); }
@@ -718,7 +720,7 @@ nix-repl> meh.a
 ```
 
 It is also possible to specify default values. When a parameter with default value is not used, the
-default value is used. They are declared similarly in Common Lisp:
+default value will be used. They are declared similarly in Common Lisp:
 
 ```lisp
 (defun foop (a &optional (b "O.o"))
@@ -882,7 +884,7 @@ are available in the [manual](https://nixos.org/nix/manual/#ch-expression-langua
 Nixpkgs is a collection of thousands of packages curated and maintained by users worldwide. Since
 the source code is in [GitHub](https://github.com/nixos/nixpkgs), it is able to take advantage of
 the powerful collaboration models that that platform offers. At the time of writing, there are
-almost 6500 packages in [the collection](https://nixos.org/nixos/packages.html). It contains a wide
+42583 packages in the [collection](https://nixos.org/nixos/packages.html). It contains a wide
 array of packages ranging from productivity applications to theorem provers.
 
 Most of the popular operating systems handle packages well, until, they don’t. As long as you are
@@ -893,13 +895,13 @@ crippled. However, if that member clones himself so that the departing copy beco
 original walking cast becomes undisturbed.
 
 Let’s take the case of a distribution aimed as a multi-user production development environment. When
-you install Firefox 100, the main binary goes to either `/usr/bin/firefox` or
+you install Firefox version 100, the main binary goes to either `/usr/bin/firefox` or
 `/usr/local/bin/firefox`. All the users then, in this system, will be able to access the application
 from that path; John, Mary, and Peter are happy. However, when John upgrades it to version 200, the
 same application that is being used by Mary and Peter get upgraded, too!. That’s not a good thing if
 they prefer the old version that works with them! Nixpkgs allows you have multiple versions of a
 software, without collisions from the other versions. John, Mary, and Peter can all have their
-versions of Firefox without conflicting with the other versions. How does it do it? It does it by
+versions of Firefox without conflicting with the other versions. How does Nixpkgs do it? It does it by
 naming components by their computed checksums, and by not using a common global location.
 
 Each user has their own versions of `~/.nix-profile` and all of the contents of those directories do
@@ -908,7 +910,7 @@ not contain regular files. Instead, they are all symbolic files to the actual fi
 only way to write to that directory is through the Nix-specific programs. There is no way to modify
 the contents of that directory through normal means. So, when regular user `john` installs Vim 8,
 the program becomes installed as something like
-`/nix/store/w4cr4j13lqzry2b8830819vdz3sdypfa-vim-8.0.0329`. The characters before the package name
+`/nix/store/w4cr4j13lqzry2b8830819vdz3sdypfa-vim-8.0.0329`. mThe characters before the package name
 is the checksum of all the inputs to build the package. The file `/home/john/.nix-profile/bin/vim`
 then points to a symlink to a file in `/nix/store/` that will lead to the actual Vim binary in
 `/nix/store/w4cr4j13lqzry2b8830819vdz3sdypfa-vim-8.0.0329/bin/vim`.
@@ -947,11 +949,11 @@ the [repository](https://github.com/nixos/nixpkgs):
 
     $ git clone https://github.com/nixos/nixpkgs ~/nixpkgs
 
-This command creates a `nixpkgs/` directory under your home. If your username is `ogag`, the
-clone of the repository is available at `/home/ogag/nixpkgs/` or `/Users/ogag/nixpkgs`, if you’re
-using a GNU/Linux or macOS, respectively.
+This command creates a `nixpkgs/` directory under your home. If your username is `ogag`, the clone
+of the repository is available at `/home/ogag/nixpkgs/` or `/Users/ogag/nixpkgs/`, if you’re using a
+GNU/Linux or macOS, respectively.
 
-To install a package, say emem—a Markdown to HTML converter—using the git checkout, run:
+To install a package, say *emem*—a Markdown to HTML converter—using the git checkout, run:
 
     $ nix-env -f ~/nixpkgs/default.nix -iA emem
 
@@ -960,8 +962,8 @@ to you. To make sure that emem has successfully installed, run:
 
     $ emem --version
 
-If your shell doesn’t barf and complain that you’re looking for something that does not exist, and instead
-you see a version number, it means that you have successfully installed emem.
+If your shell doesn’t barf and complain that you’re looking for something that does not exist, and
+instead you see a version number, it means that you have successfully installed emem.
 
 To get the most recent changes from the git repo, run:
 
@@ -971,11 +973,11 @@ To get the most recent changes from the git repo, run:
 #### <a name="nixpkgschannels"></a> Channels
 
 Installing packages via channels is nicer, because the commands to install packages with it are more
-convenient. The trade-off is that the packages will be out-of-date by a few weeks. If you’re fine
+convenient. The trade-off is that the packages will be out-of-date by a few days. If you’re fine
 with it, then use channels instead of the git checkout.
 
-Channels are labeled **stable**, **unstable**, or with a specific version number, e.g., **16.09** or
-**17.03**. For this article, let’s use the unstable channel—it’s not as dated as stable, nor as
+Channels are labeled **stable**, **unstable**, or with a specific version number, e.g., **17.03** or
+**18.09**. For this article, let’s use the unstable channel—it’s not as dated as stable, nor as
 recent as the git checkout. To subscribe to the unstable channel, run:
 
     $ nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
@@ -1002,7 +1004,7 @@ any package. To clean it up, run:
     $ nix-collect-garbage
 
 
-### <a name="nixpkgsother"></a> Other commands
+#### <a name="nixpkgsother"></a> Other commands
 
 To uninstall a package, run:
 
@@ -1015,10 +1017,6 @@ To list all your installed packages, run:
 To list all available packages, run:
 
     $ nix-env -q --available
-
-If you know the binary name of a program, and you want to know which package does it belong to, run:
-
-    $ command-not-found emem
 
 
 ### <a name="nixpkgsconfiguration"></a> Configuration
@@ -1061,7 +1059,7 @@ software model.
 
 The collaboration model of Nixpkgs rests with git and GitHub. To contribute a package or update an
 existing one, fork the [Nixpkgs](https://github.com/nixos/nixpkgs/) repository into your own GitHub
-account, make changes into a new branch, then create a pull request.
+account. Mmake changes into a new branch, then create a pull request.
 
 
 #### <a name="nixpkgsupdateexisting"></a> Updating existing package
@@ -1097,12 +1095,12 @@ $ tree -aFL 1
 7 directories, 9 files
 ```
 
-Next, let’s find where the package lives, for example Hello.
+Next, let’s find where the package lives, for example *GNU Hello*.
 
     $ grep hello pkgs/top-level/all-packages.nix
       hello = callPackage ../applications/misc/hello { };
 
-It says here that the package Hello is available under `../applications/misc/hello`. Relative to the
+It says here that the package *GNU Hello* is available under `../applications/misc/hello`. Relative to the
 file `all-packages.nix`, the path is at `pkgs/applications/misc/hello` or
 `~/nixpkgs/pkgs/applications/misc/hello`. Let’s go there:
 
@@ -1142,8 +1140,8 @@ stdenv.mkDerivation rec {
 This tells us that `default.nix`, is a function with a parameter as an attribute with two
 elements. The function returns the result of calling `stdenv.mkDerivation` with the input of an
 attribute value. The value for the `name` attribute is a string with the format *packagename-X.Y.Z*,
-where packagename is the name of the package and X.Y.Z is the version number. The value for the
-`src` attribute is the value returned by calling the `fetchurl` function, with another set attribute
+where *packagename* is the name of the package and *X.Y.Z* is the version number. The value for the
+`src` attribute is the value returned by calling the `fetchurl` function, with another attribute set
 argument. The value for the `url` attribute should either be a mirror specification, as described in
 `pkgs/build-support/fetchurl/mirrors.nix`, or a standard URL. In this instance, we used the GNU
 mirror and we interpolated the `name` variable inside that string. The value of the `sha256`
@@ -1164,14 +1162,14 @@ The `doCheck` attribute instructs Nix to run the tests for this package.
 The value for the `meta` attribute is another attribute set specification for other details
 regarding the package. The values specified here will help Nix programs classify the package, among
 other things. The `description` attribute is a short string describing the purpose of the
-package. The `longDescription` attribute is a longer, possibly multi-line string describe the
+package. The `longDescription` attribute is a longer, possibly multi-line string to describe the
 package in more details. The `homepage` attribute is a URL to the WWW home of the package. You don’t
 need to quote it with single or double quotes explicitly—it does that internally. You still have to
 quote a URL if you use variable interpolation. The `maintainers` attribute is a list of the people
-handling that package. The `platforms` attribute is important; it categorizes a package properly—we
+handling that package. The `platforms` attribute is important: it categorizes a package properly—we
 don’t want to build a package on macOS that only runs on GNU/Linux.
 
-If a newer version of Hello comes out, say version 2.11, modify the appropriate attributes. But
+If a newer version of *GNU Hello* comes out, say version 2.11, modify the appropriate attributes. But
 first, let’s create a separate branch for it:
 
     $ git checkout -b hello-2.11
@@ -1282,7 +1280,7 @@ If everything goes well, commit the changes:
     $ git add pkgs/applications/misc/tthsum
     $ git add pkgs/top-level/all-packages.nix
     $ git commit -m "tthsum: init at 1.3.2"
-    $ git push origin tthsum-1.3.2
+    $ git push origin tthsum-1.3.m2
 
 Finally, go to the GitHub repo [page](https://github.com/nixos/nixpkgs), then create a pull request
 (PR) between `nixos/nixpkgs:master` and `ogag/nixpkgs:tthsum-1.3.2`.
@@ -1336,6 +1334,8 @@ This declares that the packages named *zsh* and *vim* will be available for all 
 system. The binaries will be available as `/run/current-system/sw/bin/zsh` and
 `/run/current-system/sw/bin/vim`, for Zsh and Vim, respectively.
 
+On macOS, the system environment is not used.
+
 
 ### <a name="userenvironment"></a> User environment
 
@@ -1358,15 +1358,13 @@ instance of Zsh.
 ### <a name="developmentenvironment"></a> Development environment
 
 The third environment, development environments, are created with the use of
-*nix-shell*. `nix-shell` allows the user to create sandboxed environments. The environment created is
+*nix-shell*. *nix-shell* allows the user to create sandboxed environments. The environment created is
 isolated from the system and regular user environments. The environment created will still use
 `/nix/store`, but neither `/run/current-system/sw/` nor `~/.nix-profile/` will be modified. What
 *nix-shell* provides is an environment that is separated from the rest of the system, allowing the
 user to create ad-hoc deployments, without worries of altering system state. With this, a user gains
 the ability, for example, to use an environment to test out different deployments of an application,
 or to compare features prior to delivery.
-
-On macOS, the system environment is not used.
 
 To create environments that are disjunct from the rest of the system, we need to have a way to
 separate the dependencies of an application and its data itself, from normal system
@@ -1379,7 +1377,7 @@ installed, yet:
     $ which hello
     hello not found
 
-If that is the case, good. Otherwise, remove the Hello package first.
+If that is the case, good. Otherwise, remove the GNU Hello package first.
 
 Now, to demonstrate `nix-shell`, let’s run GNU Hello in the nix-shell, then it will return back to
 the user shell:
@@ -1389,15 +1387,15 @@ the user shell:
     $ which hello
     hello not found
 
-What this does is that fetches the binary package for Hello, creates an clean shell environment,
+What this does is that fetches the binary package for GNU Hello, creates an clean shell environment,
 then proceeds to run the `hello` binary, which will display to the screen the familiar greeting. If
-the run option was omitted, we will be dropped in a shell:
+the `−−run` option was omitted, we will be dropped in a shell:
 
     $ nix-shell --packages hello --pure
     [nix-shell:~]$ hello
     Hello, world!
 
-This shell instance is special because it only contains sufficient information just to make Hello,
+This shell instance is special because it only contains sufficient information just to make GNU Hello,
 available. We can even inspect the value of `$PATH`, here:
 
 ```bash
@@ -1421,8 +1419,8 @@ available. We can even inspect the value of `$PATH`, here:
 ```
 
 Your output is going to be different from mine because of the hashes in the store paths. Aside from
-the store path of Hello, the rest are the minimal components of a nix-shell instance. This cluster
-is called the *stdenv*.
+the store path of GNU Hello, the rest are the minimal components of a nix-shell instance. This
+cluster is called the *stdenv*.
 
 nix-shell looks for the files `shell.nix` or `default.nix`, in that order, in the current directory
 during startup, to load definitions from. Let’s create one, saving it as `default.nix`:
@@ -1437,9 +1435,9 @@ stdenv.mkDerivation {
 }
 ```
 
-A *.nix* file is a Nix expression. In this example, it’s a function that takes one argument, with a default
-value. The odd-looking `<nixpkgs>` refers to the value of the `nixpkgs` attribute declared in the
-`NIX_PATH` environment variable. On NixOS, it looks like this:
+A *.nix* file is a Nix expression. In this example, it’s a function that takes one argument, with a
+default value. The odd-looking `<nixpkgs>` refers to the value of the `nixpkgs` attribute declared
+in the `NIX_PATH` environment variable. On NixOS, it looks like this:
 
     $ echo $NIX_PATH
     nixpkgs=/nix/var/nix/profiles/per-user/root/channels/nixos/nixpkgs:nixos-config=/etc/nixos/configuration.nix:/nix/var/nix/profiles/per-user/root/channels
@@ -1455,7 +1453,7 @@ This tells us the version of Nixpkgs using channels on this profile.
 Going back, the `with pkgs` declaration puts all the identifiers in the local scope, making them
 visible. `stdenv`, which was mentioned earlier, is an attribute set which, among many things,
 contain the `mkDerivation` identifier. `mkDerivation`, in turn, is a function that accepts one
-attribute set argument. Let me remind you, that the curly braces after `mkDerivation` specify a
+attribute set argument. Let me remind you, that the curly braces after `mkDerivation` specifies a
 single unit of argument, which is the attribute set; it has no semantic resemblance to the curly
 braces found in other languages to delimit the start and end of a function scope. There are many
 knobs to it, but for the purposes of simplicity, we’ll only look at `name` and `buildInputs`—the
@@ -1500,16 +1498,16 @@ had to list down the most important features of the Nix ecosystem that I like, t
 - has transactional updates
 
 Another important member of the Nix family is [NixOps](https://nixos.org/nixops); it enables one to
-deploy NixOS on bare metal machines, virtual machines, or cloud using the declarative approach that
+deploy NixOS on bare-metal machines, virtual machines, or cloud using the declarative approach that
 we are familiar with. It is able to deploy to VirtualBox, Amazon EC2, Google Compute Engine,
 Microsoft Azure, Hetzner, Digital Ocean, and Libvirtd. Head over to
 the [manual](https://nixos.org/nixops/manual/) for more details.
 
-In-depth details about instantiations, derivations, realisations were elided on purpose, in this
+In-depth details about instantiations, derivations, and realisations were elided on purpose, in this
 article. They may become a topic on their own, or I may update this article to add those topics. I
 may also write a new section about NixOps.
 
-An Emacs major mode is [available](https://github.com/NixOS/nix-mode)
+An Emacs major mode for Nix files is [available](https://github.com/NixOS/nix-mode)
 from the main repository. It is also [available](https://melpa.org/#/nix-mode) via MELPA. You may
 install it with:
 
@@ -1523,7 +1521,7 @@ ones that I’m aware of are
 and [Flatpak](http://flatpak.org/).
 
 The [Guix System Distribution (GuixSD)](https://www.gnu.org/software/guix/) is a GNU/Linux distribution
-that is based on Nix. It uses Guile Scheme as its API language. The key differences between
+that is based on Nix. It uses [Guile](https://www.gnu.org/software/guile/) as its API language. The key differences between
 GuixSD and NixOS is that the former uses [GNU Shepherd](https://www.gnu.org/software/shepherd/)
 instead of systemd; it doesn’t allow non-free packages; and it
 uses [Linux-libre](https://www.fsfla.org/ikiwiki/selibre/linux-libre/), a stripped down version of
@@ -1531,8 +1529,8 @@ the mainstream kernel with all the proprietary blobs removed. More information a
 differences can be found [here](https://sandervanderburg.blogspot.de/2012/11/on-nix-and-gnu-guix.html).
 
 Aside from GuixSD, there are also other projects that Nix has inspired. There
-is [Habitat](https://habitat.sh) an application automation framework,
-and [ied](https://github.com/alexanderGugel/ied), an alternative package manager for Node.
+is [Habitat](https://habitat.sh), an application automation framework;
+and [ied](https://github.com/alexanderGugel/ied), an alternative package manager for Node.js.
 
 The articles
 of [Luca Bruno](https://lethalman.blogspot.com/2014/07/nix-pill-1-why-you-should-give-it-try.html),
@@ -1564,7 +1562,7 @@ nix-repl> f 20
 2432902008176640000
 ```
 
-Or, in one expression, using let:
+or, in one expression, using *let*:
 
 ```nix
 nix-repl> let y = x: ((f: (x (v: ((f f) v)))) (f: (x (v: ((f f) v)))));

@@ -3,7 +3,7 @@ Reflections
 
 <div class="center">[Esperante](/eo/pripensoj) · [English](#)</div>
 <div class="center">November 24, 2015</div>
-<div class="center">Last updated: August 27, 2018</div>
+<div class="center">Last updated: September 19, 2018</div>
 
 This page contains contains some of my personal reflections.
 
@@ -199,7 +199,8 @@ Entries are sorted in chronological order.
 - Know the work that pays your bills and know the work that defines your future.<br>
 
 
-- Everything and nothing matters.<br>
+- Everything and nothing matters. Meaning is our invention. It is an attempt to
+quantify, qualify, and justify our perceived existence.<br>
 
 
 - The key of discovering the future is not about solving more problems; it is discovering more problems.<br>
@@ -312,3 +313,6 @@ Entries are sorted in chronological order.
 
 - The golden rule is an example of a bad idea. If one thinks, that it is a good idea to hurt
   themself, then, it is also a good idea to hurt others.<br>
+
+
+- Peace does not imply quietness. Chaos does not imply noise. Permanence does not equate infinity.<br>
