@@ -3,7 +3,7 @@ Retpoŝton Agordi per Emakso
 
 <div class="center">[Esperante](#) · [English](/en/emacs-mail)</div>
 <div class="center">la 14-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 12-an de septembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 20-an de septembro 2018</div>
 
 >Nur tial ke ne fariĝis, ne signifas, ke ne fareblas. Nur tial ke fareblas, ne
 >signifas, ke devus.<br>
@@ -179,11 +179,11 @@ Por fari onian vivon pli facile, agordu kelkajn variablojn:
 Oni povas reŝargi Emakson, por ke tiuj agordoj povu efektiviĝi, aŭ alternative, ovi povas marki
 tiujn liniojn per <kbd>C-Space</kbd>, tiam premu:
 
-    M-x eval-region REV
+    M-x eval-region EN
 
 Ĉi-loke oni povas uzi mu4e-on, per premi:
 
-    M-x mu4e REV
+    M-x mu4e EN
 
 Oni vidos ĉarman menuon, en kiu, oni povas premi fulmoklavojn por iri kien oni povas iri. Por verki
 mesaĝon, premu <kbd>C</kbd>, tiam plenigu la kampojn, tiam premu <kbd>C-c C-c</kbd> por sendi la
@@ -225,7 +225,7 @@ Tiam, aldonu la jenan:
 
 Marku tiujn liniojn, tiam premu:
 
-    M-x eval-region REV
+    M-x eval-region EN
 
 Por ke la agordoj tuj efektiviĝu.
 
