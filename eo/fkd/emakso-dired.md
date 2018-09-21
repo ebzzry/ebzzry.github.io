@@ -1,7 +1,7 @@
 Dosierujojn Mastrumi per Emakso
 ===============================
 
-<div class="center">[Esperante](#) · [English](/en/emacs-dired)</div>
+<div class="center">[Esperanto](#) · [English](/en/emacs-dired)</div>
 <div class="center">la 12-an de februaro 2018</div>
 <div class="center">Laste ĝisdatigita: la 20-an de septembro 2018</div>
 
