@@ -1,7 +1,7 @@
 Squandered Relentlessness
 =========================
 
-<div class="center">[Esperante](/eo/malsxparitaj) · [English](#)</div>
+<div class="center">[Esperanto](/eo/malsxparitaj) · [English](#)</div>
 <div class="center">May 9, 2013</div>
 <div class="center">Last updated: December 8, 2017</div>
 
