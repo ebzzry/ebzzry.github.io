@@ -1,7 +1,7 @@
 Emakskonsiletoj 1-a: Regionoj kaj Markoj
 ========================================
 
-<div class="center">[Esperante](#) · [English](/en/emacs-tips-1)</div>
+<div class="center">[Esperanto](#) · [English](/en/emacs-tips-1)</div>
 <div class="center">la 12-an de februaro 2018</div>
 <div class="center">Laste ĝisdatigita: la 12-an de septembro 2018</div>
 

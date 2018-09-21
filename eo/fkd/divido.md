@@ -1,7 +1,7 @@
 Divido en Haskelo
 =================
 
-<div class="center">[Esperante](#) · [English](/en/division)</div>
+<div class="center">[Esperanto](#) · [English](/en/division)</div>
 <div class="center">la 5-an de aŭgusto 2018</div>
 <div class="center">Laste ĝisdatigita: la 7-an de septembro 2018</div>
 

@@ -1,7 +1,7 @@
 Signoj kaj Interpunkcioj
 ========================
 
-<div class="center">[Esperante](#) · [English](/en/symbols-marks)</div>
+<div class="center">[Esperanto](#) · [English](/en/symbols-marks)</div>
 <div class="center">la 16-an de julio 2018</div>
 <div class="center">Laste ĝisdatigita: la 14-an de septembro 2018</div>
 

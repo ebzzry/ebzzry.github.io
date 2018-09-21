@@ -1,7 +1,7 @@
 In Retrospect
 =============
 
-<div class="center">[Esperante](/eo/retrospekte) · [English](#)</div>
+<div class="center">[Esperanto](/eo/retrospekte) · [English](#)</div>
 <div class="center">July 11, 2013</div>
 <div class="center">Last updated: August 1, 2018</div>
 

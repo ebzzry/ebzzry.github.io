@@ -1,7 +1,7 @@
 Managing Directories with Emacs
 ===============================
 
-<div class="center">[Esperante](/eo/emakso-dired-o) · [English](#)</div>
+<div class="center">[Esperanto](/eo/emakso-dired-o) · [English](#)</div>
 <div class="center">September 26, 2013</div>
 <div class="center">Last updated: February 12, 2018</div>
 

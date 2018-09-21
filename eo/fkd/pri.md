@@ -1,7 +1,7 @@
 Pri
 ===
 
-<div class="center">[Esperante](#) · [English](/en/about)</div>
+<div class="center">[Esperanto](#) · [English](/en/about)</div>
 <div class="center">la 27-an de aprilo 2017</div>
 <div class="center">Laste ĝisdatigita: la 12-an de aŭgusto 2018</div>
 
