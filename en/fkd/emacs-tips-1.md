@@ -1,7 +1,7 @@
 Emacs Tips and Tricks 1: Regions and Marks
 ==========================================
 
-<div class="center">[Esperante](/eo/emakskonsiletoj-1-a) · [English](#)</div>
+<div class="center">[Esperanto](/eo/emakskonsiletoj-1-a) · [English](#)</div>
 <div class="center">September 9, 2013</div>
 <div class="center">Last updated: February 12, 2018</div>
 

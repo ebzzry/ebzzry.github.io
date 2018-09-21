@@ -1,7 +1,7 @@
 Verb Tenses in English
 ======================
 
-<div class="center">[Esperante](/eo/verbotempoj-la-angla) · [English](#)</div>
+<div class="center">[Esperanto](/eo/verbotempoj-la-angla) · [English](#)</div>
 <div class="center">April 6, 2016</div>
 <div class="center">Last updated: July 15, 2018</div>
 
