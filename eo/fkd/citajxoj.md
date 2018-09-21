@@ -1,7 +1,7 @@
 Citaĵoj
 =======
 
-<div class="center">[Esperante](#) · [English](/en/quotes)</div>
+<div class="center">[Esperanto](#) · [English](/en/quotes)</div>
 <div class="center">la 15-an de novembro 2017</div>
 <div class="center">Laste ĝisdatigita: la 15-an de septembro 2018</div>
 

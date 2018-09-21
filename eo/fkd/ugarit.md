@@ -1,7 +1,7 @@
 Sekurkopiojn Krei per Ugarit
 ============================
 
-<div class="center">[Esperante](#) · [English](/en/ugarit)</div>
+<div class="center">[Esperanto](#) · [English](/en/ugarit)</div>
 <div class="center">la 18-an de februaro 2018</div>
 <div class="center">Laste ĝisdatigita: la 14-an de septembro 2018</div>
 
