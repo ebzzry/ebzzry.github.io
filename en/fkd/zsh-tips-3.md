@@ -2,7 +2,7 @@ Zsh Tips 3: Chroot Helpers
 ==========================
 
 <div class="center">October 20, 2017</div>
-<div class="center">Last updated: October 21, 2017</div>
+<div class="center">Last updated: September 23, 2018</div>
 
 >We laugh at that which we cannot bear to face.<br>
 >―Aristotle
@@ -91,14 +91,14 @@ At this point, you will be logged in as root, using Bash. Let’s install some t
     # apt-get install -y zsh sudo
 
 Then, let’s create your chroot-specific account. Let’s make it uniform with the one that you are
-using now. Let’s presume that your username is `ogag` and the UID is `1000`.
+using now. Let’s presume that your username is `vakelo` and the UID is `1000`.
 
-    # useradd -u 1000 -m ogag
-    # passwd ogag
+    # useradd -u 1000 -m vakelo
+    # passwd vakelo
 
-Then, let’s make `ogag` part of the `sudo` group:
+Then, let’s make `vakelo` part of the `sudo` group:
 
-    # usermod -aG sudo ogag
+    # usermod -aG sudo vakelo
 
 Then, let’s tell sudo not to prompt you for your user password. For that, we need to use `visudo`
 

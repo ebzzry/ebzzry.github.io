@@ -280,7 +280,7 @@ uzi, kaj sekve. La valorojn anstataŭigu laŭ oni preferas. Ĉiom da agordaj al�
   };
 
   users = {
-    extraUsers.ogag = {
+    extraUsers.vakelo = {
       isNormalUser = true;
       uid = 1000;
       extraGroups = [ "wheel" "networkmanager" "docker" ];
@@ -309,7 +309,7 @@ la UUID-identigilojn akiru. Por la valoro de `networking.hostID` la jenan komand
 
 La jenan la ĉi-supra agordo precizigas, inter aliaj aferoj:
 
-- Uzanton `ogag` kreas kun tuta _sudo_-aliro.
+- Uzanton `vakelo` kreas kun tuta _sudo_-aliro.
 - Je KDE5 uzas kiel la fenestrilo.
 - La sekurŝelon ŝaltas.
 - La LUKS-parametrojn precizigas.
@@ -338,9 +338,9 @@ Se okazis eraro, onin la sistemo avizos pri tio, anstataŭ pluigi per malĝusta 
 sistemo finfaris reŝarĝi, iru al la konzolo per <kbd>Ctrl+Alt+F1</kbd>, tiam ensalutu kiel `root`,
 tiam pasvorton por la uzanto kiun ni precizigis en `configuration.nix` agordu:
 
-    # passwd ogag
+    # passwd vakelo
 
-Eliru de la ŝelo, tiam iru al la grafika fasado per <kbd>Alt+F7</kbd>, tiam ensalutu kiel `ogag`.
+Eliru de la ŝelo, tiam iru al la grafika fasado per <kbd>Alt+F7</kbd>, tiam ensalutu kiel `vakelo`.
 
 
 <a name="nix"></a>Nix
@@ -417,7 +417,7 @@ nix-repl> ''${x} ${y}''
 
 ### <a name="nixnombroj"></a>Nombroj
 
-Bazaj aritmetkaj operacioj en Nix estas inkluzivitaj kun malgranda surprizo:
+Bazaj aritmetikaj operacioj en Nix estas inkluzivitaj kun malgranda surprizo:
 
 ```nix
 nix-repl> 6+2
@@ -430,10 +430,10 @@ nix-repl> 6*2
 12
 
 nix-repl> 6/2
-/home/ogag/6/2
+/home/vakelo/6/2
 ```
 
-Ups! Tiu ne estis, kiun ni anticipis. Pro Nix estas desegnitaj kun dosieroj kaj dosierujoj en la
+Ups! Tio ne estis, kion ni anticipis. Pro Nix estas desegnitaj kun dosieroj kaj dosierujoj en la
 kalkulo, specialan kazon ĝi kreis, ke kiam suprenstrekon (/) signon estas ĉirkaŭitaj per nespacetaj
 signoj, ĝin ĝi interpretas kiel dosierujindiko, rezultante al absolutdosierindiko. Por dividon fari
 efektive, almenaŭ unu spaceton antaŭ kaj post la `/` signo aldonu:
@@ -596,7 +596,7 @@ la nuna dosierujo oni faras:
 
 ```nix
 nix-repl> ./hundo
-/home/ogag/hundo
+/home/vakelo/hundo
 ```
 
 Fariĝas absolutdosierindiko. Ĉi tio estas Bonaĵo™.
@@ -946,8 +946,8 @@ gitkopion uzi, la [deponejon](https://github.com/nixos/nixpkgs) klonu:
 
     $ git clone https://github.com/nixos/nixpkgs ~/nixpkgs
 
-`nixpkgs/` dosierujo ĉi tiu komando kreas sub la hejmdosierujo. Se la uzanto estas `ogag`, la klono
-de la deponejo troveblas ĉe `/home/ogag/nixpkgs/` aŭ `/Users/ogag/nixpkgs/`, se linukson aŭ
+`nixpkgs/` dosierujo ĉi tiu komando kreas sub la hejmdosierujo. Se la uzanto estas `vakelo`, la klono
+de la deponejo troveblas ĉe `/home/vakelo/nixpkgs/` aŭ `/Users/vakelo/nixpkgs/`, se linukson aŭ
 makintoŝon oni uzas respektive.
 
 Por pakon instali, ekzemple *emem*—Markdown- al HTML-dosiero konvertilo—per la gitkopio, kurigu:
@@ -1065,7 +1065,7 @@ GitHub-konto. Novajn ŝanĝojn kreu en nova branĉo, tiam tirpeton kreu.
 
 La deponejon forkinte, la propran version de la deponejon klonu:
 
-    $ git clone git@github.com:ogag/nixpkgs.git ~/nixpkgs
+    $ git clone git@github.com:vakelo/nixpkgs.git ~/nixpkgs
 
 Kopion de la forko ĉi tiu komando kreas en la radiko de la hejmdosierujo. Iru al tiu dosierujo, tiam
 la enhavojn ni esploru:
@@ -1199,7 +1199,7 @@ Bonege. La ŝanĝojn enmetu.
     $ git push origin hello-2.11
 
 Fine, iru al la GitHub-deponeja [paĝo](https://github.com/nixos/nixpkgs), tiam tirpeton inter
-`nixos/nixpkgs:master` kaj `ogag/nixpkgs:hello-2.11` kreu.
+`nixos/nixpkgs:master` kaj `vakelo/nixpkgs:hello-2.11` kreu.
 
 
 #### <a name="nixpkgssendi"></a>Novan pakon sendi
@@ -1283,7 +1283,7 @@ Se ĉio sukcesis, la ŝanĝojn enmetu:
     $ git push origin tthsum-1.3.2
 
 Fine, iru al la GitHub-deponeja [paĝo](https://github.com/nixos/nixpkgs), tiam tirpeton inter
-`nixos/nixpkgs:master` kaj `ogag/nixpkgs:tthsum-1.3.2` kreu.
+`nixos/nixpkgs:master` kaj `vakelo/nixpkgs:tthsum-1.3.2` kreu.
 
 
 ### <a name="nixpkgsnotoj"></a>Notoj
