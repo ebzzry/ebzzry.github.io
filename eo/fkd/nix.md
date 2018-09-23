@@ -382,7 +382,7 @@ nix-repl> "hundo" + "kato"
 "hundokato"
 ```
 
-Alia maniero por signovicojn deklari estas por du parojn de unuoblaj citiloj uzi. Ne konfuziĝu pri
+Alia maniero por signovicojn deklari, estas por du parojn de unuoblaj citiloj uzi. Ne konfuziĝu pri
 ĝi kontraŭ la duoblaj citiloj:
 
 ```nix
@@ -644,7 +644,7 @@ nix-repl> hundo-kato-muso: hundo-kato-muso
 ```
 
 Ĉi tiuj funkcioj ne estas tre utilaj tial, ke ili ne estas kaptitaj por aplikado. Se ĝin oni volas
-uzi, ekzemple kun la argumento `"hundo"`, ĝin ni bezonas ĉirkaŭkovri per rondkrampoj:
+uzi, ekzemple, kun la argumento `"hundo"`, ĝin ni bezonas ĉirkaŭkovri per rondkrampoj:
 
 ```nix
 nix-repl> (x: x) "hundo"
@@ -958,7 +958,7 @@ gitkopion uzi, la [deponejon](https://github.com/nixos/nixpkgs) klonu:
 de la deponejo troveblas ĉe `/home/vakelo/nixpkgs/` aŭ `/Users/vakelo/nixpkgs/`, se linukson aŭ
 makintoŝon oni uzas respektive.
 
-Por pakon instali, ekzemple *emem*—Markdown- al HTML-dosiero konvertilo—per la gitkopio, kurigu:
+Por pakon instali, ekzemple, *emem*—Markdown- al HTML-dosiero konvertilo—per la gitkopio, kurigu:
 
     $ nix-env -f ~/nixpkgs/default.nix -iA emem
 
@@ -979,20 +979,20 @@ Por la plej ĵusajn ŝanĝojn akiri el la gitdeponejo, kurigu:
 
 Pakojn instali per kanaloj pli agrablas tial, ke la komandoj por pakojn instali estas pli
 oportunaj. La kompromiso, estas, ke la pakoj estas malaktualaj de iom da tagoj. Se oni bonas pri
-tio, tiam kanalojn uzi anstataŭ la gitkopio.
+tio, tiam kanalojn uzi anstataŭ la gitkopion.
 
-Kanaloj estas etikeditaj **stable**, **unstable**, ar per specifa versinombro, ekzemple, **17.03**
-or **18.09**. Por ĉi tiu artikolo, je **unstable** ni uzu—ĝi nek estas tiel malaktuala kiel
-**stable** nek tiel ĵuŝa kiel la gitkopio. Por aboni al la **unstable**-kanalo, kurigu:
+Kanaloj estas etikeditaj `stable`, `unstable`, aŭ per specifa versinombro, ekzemple, `17.03` aŭ
+`18.09`. Por ĉi tiu artikolo, je `unstable` ni uzu—ĝi nek estas tiel malaktuala kiel `stable` nek
+tiel ĵuŝa kiel la gitkopio. Por aboni al la `unstable`-kanalo, kurigu:
 
     $ nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
 
-La kanalon etikedita `nixpkgs-unstable` ĉi tio irprenas el nixos.org, tiam instalas al la
+La kanalon etikedita `nixpkgs-unstable` ĉi tio irprenas el nixos.org, tiam instolas al la
 uzantprofilo.
 
 Por la listojn de kanaloj esplori, [ĉi tien](https://nixos.org/channels/) iru.
 
-Per la ekzemplo ĉi-supre, por je *emem* instali, la jenajn komandojn kurigu por NixOS kaj aliaj
+Per la ekzemplo ĉi-supre, je *emem* instali, la jenajn komandojn kurigu por NixOS kaj aliaj
 sistemoj, respektive:
 
     $ nix-env -iA nixos.emem
@@ -1004,7 +1004,7 @@ Por la kanalojn ĝisdatigi, kurigu:
 
     $ nix-channel --update
 
-Tempe, arboj en `/nix/store/` kreskigas kaj eble ekzistas dosierindikoj kiuj ne plu estas
+Tempe, arboj en `/nix/store/` kreskiĝas kaj eble ekzistas dosierindikoj kiuj ne plu estas
 referencitaj per ajna pako. Por ĝin purigi, kurigu:
 
     $ nix-collect-garbage
@@ -1029,7 +1029,7 @@ Por ĉiom da haveblaj pakoj listigi, kurigu:
 
 La dosiero `~/.nixpkgs/config.nix` estas Nix-esprimo, kiu estas legita per la Nix-komandoj. Ene,
 pakajn transpasojn oni povas precizigi—agordo kiu defaŭltajn agordojn uzurpas, kaj aliajn
-alĝustigilojn, inkluzime, sed ne limigataj al, retumilaj kromprogramoj, grafikfasadoaj agordoj, SSL,
+alĝustigilojn, inkluzive, sed ne limigataj al, retumilaj kromprogramoj, grafikfasadoaj agordoj, SSL,
 ktp.
 
 Malpligrandigitan version de mia `config.nix` ni rigardu:
@@ -1056,10 +1056,10 @@ Malpligrandigitan version de mia `config.nix` ni rigardu:
 ```
 
 Ĉi tio estas funkcio, kiu atribuon akceptas kiel parametro, tiam alian atributaron liveras kiel
-liveraĵo. Mia _config.nix_ diras, ke je GTK mi ne volas por emakso. Por fajrfojso, mi precizigis, ke
-nur je JRE- kaj je Google Talk-kromprogramoj mi volas uzi. Laste, mi precizigas, ke programarojn kiu
-malfermitkodajn permesilojn ne havas, aŭ programoj kiu la liberprogramaran modelon ne havas, mi
-volas esti kapabla por instali
+liveraĵo. Mia _config.nix_ diras, ke je GTK mi ne volas havi por emakso. Por fajrfokso, mi
+precizigis, ke nur je JRE- kaj je Google Talk-kromprogramoj mi volas uzi. Laste, mi precizigas, ke
+programaroj kiuj malfermitkodajn permesilojn ne havas, aŭ programoj kiu la liberprogramaran modelon
+ne havas, mi volas esti kapabla por instali
 
 
 ### <a name="nixpkgskontribuado"></a>Kontribuado
@@ -1102,12 +1102,12 @@ $ tree -aFL 1
 7 directories, 9 files
 ```
 
-Sekve, pakon ni trovu kie ĝi loĝas, ekzemple *GNU Hello*.
+Sekve, pakon ni trovu kie ĝi loĝas, ekzemple, *GNU Hello*.
 
     $ grep hello pkgs/top-level/all-packages.nix
       hello = callPackage ../applications/misc/hello { };
 
-Diras, ke la pako *hello* troveblas sub `../applications/misc/hello`. Relativas al la dosiero
+Diras, ke la pako *hello* troveblas sub `../applications/misc/hello`. Rilate al la dosiero
 `all-packages.nix`, la dosierindiko estas ĉe `pkgs/applications/misc/hello` aŭ
 `~/nixpkgs/pkgs/applications/misc/hello`. Tien ni iru:
 
@@ -1150,7 +1150,7 @@ liveras. La valoro por la atribuo `name` estas signovico kun la formato *paknomo
 *paknomo* estas la nomo de la pako kaj *A.B.C.* estas la versinombro. La valoro por la `src` atribuo
 estas la valoro liverita per la funkcion `fetchurl` voki, per alia atribuara argumento. La valoro
 por la atribuo `url` devas esti aŭ spegula specifo, kiel priskribita en
-`pkgs/build-support/fetchurl/mirrors.nix` aŭ kutima retejadreso. Tiukaze, la GNU-spegulon ni uzis
+`pkgs/build-support/fetchurl/mirrors.nix`, aŭ kutima retejadreso. Tiukaze, la GNU-spegulon ni uzis
 kaj la variablon `name` ni interpolis ene tiu signovico. La valoro de la atribuo `sha256` estas la
 tiu, kiun ni akiris per je `nix-prefetch-url` kurigi kontraŭ la retejadreso. Por la kontrolsumon akiri
 de `hello-2.10`, kurigu:
@@ -1164,18 +1164,18 @@ path is ‘/nix/store/3x7dwzq014bblazs7kq20p9hyzz0qh8g-hello-2.10.tar.gz’
 
 Ĝi kongruas al la SHA256-specifo ĉi-supre.
 
-La atribuo `doCheck` instruas al Nix, por la testojn kurigi por ĉi tiu pako.
+La atribuo `doCheck` instruas al Nix la testojn kurigi por ĉi tiu pako.
 
-La valoron por la atribuo `meta` estas alia atribuara specifo por aliaj detaloj pri la
+La valoron de la atribuo `meta` estas alia atribuara specifo por aliaj detaloj pri la
 pako. Nix-programojn la valoroj precizigitaj ĉi tie helpas por la pakon klasi, inter aliaj
 aferoj. La celon de pako la mallonga signovico en atribuo `description` priskribas. La atribuo
 `longDescription` estas pli longa atribuo, eble plurlinia signovico por la pakon priskribi en pli da
 detalo. La atribuo `homepage` estas retejadreso al la retejo de la pako. Ĝin oni ne plu bezonas citi
 per unuoblaj aŭ duoblaj citiloj specife—ĝin ĝi faras interne. Retejadreson oni ankoraŭ devas citi se
-variablan interpolado oni uzas. La atributo `platforms` estas grava: pakon ĝi ordas ĝuste—pakon sur
+variablan interpolado oni uzas. La atribuo `platforms` estas grava: pakon ĝi ordas ĝuste—pakon sur
 makintoŝo oni ne devas munti kiu nur kuras sur linukso.
 
-Se aperos nova versio de *GNU Hello*, ekzemple versio 2.11, la ĝustajn atribuojn modifu. Sen unue,
+Se aperos nova versio de *GNU Hello*, ekzemple, versio 2.11, la ĝustajn atribuojn modifu. Sen unue,
 apartan branĉon ni kreu por tio:
 
     $ git checkout -b hello-2.11
@@ -1366,7 +1366,7 @@ sablujmediojn krei. La medio kreita estas izolita de la sistemo kaj kutimaj uzan
 `/nix/store` la medio kreita ankoraŭ uzos, sed nek `/run/current-system/sw/` nek `~/.nix-profile/`
 estos modifita. Kiun *nix-shell* disponigas estas medio, kiu estas aparta de la resto de la sistemo,
 la uzanton permesante por porokazajn disponigojn krei sen zorgoj pli la modifado de la
-sistemstato. Per tio, la kapablon uzanto gajnas por medion uzi por diversajn disponigojn de apo
+sistemstato. Per tio, la kapablon por medion uzi uzanto gajnas por diversajn disponigojn de apo
 elprovi aŭ por eblojn kontrasti antaŭ liverado.
 
 Por mediojn krei kiuj estas malkonektitaj al la resto de la sistemo, manieron por la dependencojn de

@@ -43,8 +43,8 @@ ekskluditaj el la deponejo la _.gitignore_-dosiero precizigas. Kelke da ĉi tiuj
 dosieroj kaj eraraj mesaĝoj kiuj estis kreitaj dum kompiladoj.
 
 La tipon de projekto `.gitignore`-dosieroj specifas. Bona loko por precizigi tion, kion .gitignore
-devas enhavi estas [https://gitignore.io](gitignore.io). La tipon de projekto precizigi en la kampo, tiam je
-**Generate** klaku, tiam le eligon kopiu al la tondejo.
+devas enhavi estas [gitignore.io](https://gitignore.io). La tipon de projekto precizigi en la kampo,
+tiam je **Generate** klaku, tiam le eligon kopiu al la tondejo.
 
 Dosierujon por la projekto kreu, tiam ŝanĝiĝu ene:
 
@@ -135,7 +135,7 @@ fari, la jenan komandon kuru, tiam la eligon kopiu:
 
     $ cat ~/.ssh/id_ed25519.pub
 
-Iru al [https://github.com/settings/ssh](github.com/settings/ssh), tiam je **Add SSH key** aŭ je
+Iru al [github.com/settings/ssh](https://github.com/settings/ssh), tiam je **Add SSH key** aŭ je
 **New SSH key** klaku:
 
 ![Add SSH key](/bil/sekursxelan-sxlosilon-aldonu.png)
