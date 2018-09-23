@@ -1,8 +1,9 @@
 A Gentle Introduction to the Nix Family
 =======================================
 
+<div class="center">[Esperanto](/eo/nix) · [English](#)</div>
 <div class="center">March 22, 2017</div>
-<div class="center">Last updated: September 17, 2018</div>
+<div class="center">Last updated: September 23, 2018</div>
 
 >Don’t worry about what anybody else is going to do. The best way to predict the future is to
 >invent it.<br>
@@ -138,7 +139,7 @@ Create the partitions:
 
 Format `/dev/sda1`:
 
-    # mkfs.vfat -F32 /dev/sda1
+    # mkfs.vfat -F 32 /dev/sda1
 
 Create the physical volume:
 
@@ -564,6 +565,7 @@ An important data structure in Nix are sets. They are keyword-value pairs separa
 
 ```nix
 nix-repl> { a = 0; b = "bar"; c = true; d = (6 / 2); }
+{ a = 0; b = "kato"; c = true; d = 3; }
 ```
 
 What makes sets different from lists is that extracting values from them are done by making name
@@ -724,7 +726,7 @@ default value will be used. They are declared similarly in Common Lisp:
 
 ```lisp
 (defun foop (a &optional (b "O.o"))
-  (concatenate 'string a b'))
+  (concatenate 'string a b))
 ```
 
 ```nix
