@@ -3,7 +3,7 @@ Milda Enkonduko al Sofismoj
 
 <div class="center">[Esperanto](#) · [English](/en/fallacies)</div>
 <div class="center">la 29-an de julio 2018</div>
-<div class="center">Laste ĝisdatigita: la 15-an de septembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 23-an de septembro 2018</div>
 
 >Lerni ne necesas; nek travivas.<br>
 >―W. Edwards DEMING
@@ -148,8 +148,8 @@ rimarkitas en ĵurnalismo por egalan kaj senantaŭjuĝan raportadon disponigi.
 > “Sian propran opinion ĉiuj en ĉi tiu tablo havas. Neniu necese ĝustas aŭ malĝustas.”
 
 La diskuton kaj la decidon pri la ebleco, ke unu aŭ pli argumentoj eble estas la solvo al la
-problemo la parolanto evitas. Ĉi tio fifaritas por ‘sidi sur la barilo’ kaj por ‘ludi ĝin
-sekure.’
+problemo la parolanto evitas. Ĉi tio fifaritas por ‹sidi sur la barilo› kaj por ‹ludi ĝin
+sekure.›
 
 
 <a name="hasta"></a>Hasta ĝeneraligo
@@ -210,7 +210,7 @@ tiajn batalilojn manregi.
 ---------------------------------------
 
 Ĉi tio fifaritas kiam nekoncerna temo enkondukitas por atenton forkonduki de la originala
-argumento. La ‘ruĝa haringo’ enĵetiĝitas, sub la ŝajnigo, ke ĝi rilatas al la originala
+argumento. La ‹ruĝa haringo› enĵetiĝitas, sub la ŝajnigo, ke ĝi rilatas al la originala
 temo.
 
 > Raportistino: “Kiel vi planas trakti la atentindaĵojn pri korupto.”<br>
@@ -318,7 +318,7 @@ antaŭjuĝemoj. Elekto faritas ne pro teĥnikaj meritoj sed pro antaŭjuĝoj.
 Ĉi tiu sofismo fifaritas kiam estas argumentite, ke nur pro io naturas, signifas, ke ĝi idealas aŭ
 bonas.
 
-> “Silvja asertas, ke se produktaĵo ne estas etikedita ‘organika’ aŭ ‘natura,’ tiam ĝi ne estas
+> “Silvja asertas, ke se produktaĵo ne estas etikedita ‹organika› aŭ ‹natura,› tiam ĝi ne estas
 > ideala por konsumado.”
 
 Kultivita tabako (*Nicotiana tabacum*) estas natura planto kiu prirespondas por pli da kvin
@@ -465,7 +465,7 @@ tio ofte rimarkitas en sociaj klasoj, kulturoj, tradicioj, generoj, kaj seksoj.
 
 Ĉi tiu argumentas, ke nur ĉar Karlo estas viro, signifas, ke la ideologiojn de inismo li ne scias
 kiel subteni. Ĉi tio ankaŭ ofte rimarkitas en enportitaj produktaĵoj, asertante, ke ili supras kontraŭ
-la lokaj pro ili estas ‘enportitaj.’
+la lokaj pro ili estas ‹enportitaj.›
 
 
 <a name="eksigo"></a>Eksigo
@@ -500,7 +500,7 @@ konkludas per falsaj komparoj.
 --------------------------------------------
 
 Ĉi tio fifaritas kiam ion parolanto asertas, sed ĝin ĝi poste malkonfesas per kontraŭdirajn
-deklaroj disponigi. Ĉi tio ankaŭ nomatas ‘Havi vian kukon.’
+deklaroj disponigi. Ĉi tio ankaŭ nomatas ‹Havi vian kukon.›
 
 > “Aŭskultu filo, mi ne kredas en fantomoj. Tamen, hieraŭ vespere, kiam mi estis sola en mia ĉambro,
 > mi aŭdis batetajn sonojn sur la lampotabelo. Mi certas, ke ne estis mi. Devas esti la nevideblaj
@@ -520,7 +520,7 @@ implikitan iun favoras kiu pli da demando altigas.
 > “La statuo de virgulino Maria en la monteto de Idjaj ploris per sango. Ŝi devis esti ploranta pro
 > la pekoj kiujn homaro kreas.”
 
-La rigardantoj estis tre servopretaj por la ideon akcepti, ke la statuo estis ja ploranta de ‘dia’
+La rigardantoj estis tre servopretaj por la ideon akcepti, ke la statuo estis ja ploranta de ‹dia›
 sango. Estis poste malkovrite, ke dukto estis konektita per konduktilo kaj bovosango estis pumpita
 tra ĝi.
 

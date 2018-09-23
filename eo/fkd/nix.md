@@ -79,7 +79,7 @@ oni instalis rompigis? Kiom da fojo, pro ĉagrenego, oni rezignis en la riparado
 simple decidis por la sistemon reinstali el nulo. Datumdosierojn restaŭri facilas; sistemagordon de
 la lasta funkcia stato restaŭri, bedaŭrinde, estas unudirekta bileto al infero.
 
-[NixOS](https://nixos.org) estas linuksa distribuo kiu ĉi tiajn problemojn solvas per la
+[NixOS](https://nixos.org) (niks·oŭ·es) estas linuksa distribuo kiu ĉi tiajn problemojn solvas per la
 determinismon de [Nix](https://nixos.org/nix) ekspluati kaj per unu deklaran agorddosieron uzi kiu
 ĉiom da agordaĵoj kaj alĝustigiloj tenas en unu loko—`/etc/nixos/configuration.nix`. Informon pri la
 dosiersistemo, uzantoj, servoj, retagordo, enigaparatoj, kernaj parametroj, kaj pli ĉi tiu dosiero
@@ -346,8 +346,8 @@ Eliru de la ŝelo, tiam iru al la grafika fasado per <kbd>Alt+F7</kbd>, tiam ens
 <a name="nix"></a>Nix
 ---------------------
 
-La komponanto kiu la koron de NixOS kaj Nixpkgs fondas estas la
-[Nix](https://nixos.org/nix)-lingvo. Ĝi estas deklarlingvo kreita por pakojn mastrumi.
+La komponanto kiu la koron de NixOS kaj Nixpkgs fondas estas la [Nix](https://nixos.org/nix)-lingvo
+(niks). Ĝi estas deklarlingvo kreita por pakojn mastrumi.
 
 Por ke la lingvon oni facile povu kompreni, je nix-repl ni instalu:
 
@@ -434,8 +434,8 @@ nix-repl> 6/2
 ```
 
 Ups! Tio ne estis, kion ni anticipis. Pro Nix estas desegnitaj kun dosieroj kaj dosierujoj en la
-kalkulo, specialan kazon ĝi kreis, ke kiam suprenstrekon (/) signon estas ĉirkaŭitaj per nespacetaj
-signoj, ĝin ĝi interpretas kiel dosierujindiko, rezultante al absolutdosierindiko. Por dividon fari
+kalkulo, specialan kazon ĝi kreis, ke kiam suprenstreko (/) signo estas ĉirkaŭitaj per nespacetaj
+signoj, ĝin ĝi interpretas kiel dosierujindiko, rezultonte al absolutdosierindiko. Por dividon fari
 efektive, almenaŭ unu spaceton antaŭ kaj post la `/` signo aldonu:
 
 ```nix
@@ -458,7 +458,7 @@ nix-repl> builtins.div 6 3
 2
 ```
 
-La kontrasto, tamen estas, ke `builtins.div` povas esti aplikita parte:
+La kontrasto tamen, estas, ke `builtins.div` povas esti aplikita parte:
 
 ```nix
 nix-repl> (builtins.div 6)
@@ -479,8 +479,8 @@ La valoron de tiu parta esprimo ni eĉ povas konservi:
 nix-repl> d = builtins.div 6
 ```
 
-La operacisimbolo `=` en Nix estas uzata por valorojn bindi. En ĉi tiu ekzemplo, estas uzita por partan
-aplikon difini. Por tiun funkcion uzi:
+La operacisimbolo `=` en Nix estas uzata por valorojn bindi. En ĉi tiu ekzemplo, ĝi estas uzita por
+partan aplikon difini. Por tiun funkcion uzi:
 
 ```nix
 nix-repl> d 3
@@ -505,7 +505,7 @@ true
 nix-repl> "hundo" == "hundo"
 true
 
-nix-repl> "hundo" < "kato"
+nix-repl> "hundo" > "kato"
 false
 
 nix-repl> false || true
@@ -566,7 +566,7 @@ nix-repl> { a = 0; b = "kato"; c = true; cx = (6 / 2); }
 { a = 0; b = "kato"; c = true; cx = 3; }
 ```
 
-Tio, kion arojn igas malsamaj kontraŭ listoj estas, ke valorojn eltiri el ili estas faritaj per
+Tio, kion arojn igas malsamaj kontraŭ listoj, estas, ke valorojn eltiri el ili estas faritaj per
 referencojn nomi. Por la valoron de `b` eltiri, la operacisimbolon `.` uzu:
 
 ```nix
@@ -634,7 +634,7 @@ nix-repl> x: x
 
 Sennoman funkcion kiu sian argumenton revenas ĉi tiu esprimo kreas—la
 [identa funkcio (angle)](https://en.wikipedia.org/wiki/Identity_function). La dupunkto post la unua
-*x* montras, ke ĝi estas parametro al la funkcio, samkiel en
+`x` montras, ke ĝi estas parametro al la funkcio, samkiel en
 [lambdokalkulo](/eo/lambdokalkulo/#funkcioj). Aldone, la nomoj ne gravas pro
 [alfa-ekvivalenteco](https://eo.wikipedia.org/wiki/Lambda-kalkulo#%CE%B1-konverto):
 
@@ -682,7 +682,7 @@ nix-repl> ve "mi" "vi"
 "mi ve vi"
 ```
 
-La modelo estas, ke por aldonan parametron aldoni, la formon `name: ` uzu.
+La modelo, estas, ke por aldonan parametron aldoni, la formon `name: ` uzu.
 
 Aroj, kiam uzitaj kun funkcioj, pli da potencaj abstraktadoj ŝaltas. Aron kiel argumento al funkcio
 ni povas doni, kiu la datumon ene tiu aro do uzos:
@@ -710,7 +710,7 @@ La difino de `anaso` supre estas semantike simila al:
 nix-repl> anaso = ve: x: ve.a + " " + ve.b + x
 ```
 
-Kutiman, ne-ara parametron ni uzis ĉi tie por ke ĝi povu referenci al la aro kiel valoro. Ĉi tion
+Kutiman, ne-aran parametron ni uzis ĉi tie por ke ĝi povu referenci al la aro kiel valoro. Ĉi tion
 rimarku:
 
 ```nix
@@ -724,8 +724,15 @@ Ankaŭ eblas por la defaŭltajn valorojn precizigi. Kiam parametro kun defaŭlta
 la defaŭlta valoro estos uzita. Simile, en Komunlispo:
 
 ```lisp
-(defun birdo (a &optional (b "O.o"))
-  (concatenate 'string a b))
+* (defun birdo (a &optional (b "O.o"))
+    (concatenate 'string a b))
+
+* (birdo "o.O ")
+
+"o.O O.o"
+* (birdo "o.O " "^_^")
+
+"o.O ^_^"
 ```
 
 ```nix
@@ -753,7 +760,7 @@ nix-repl> birdo { a = "ve"; b = "hundo"; }
 ```
 
 Estas same. Do kiel tiun flekson ni povas uzi? Etikodon por la atribuaro ni kreos por ke ni
-povu referenci all a ‘ekstraj’ valoroj:
+povu referenci al la ‹ekstraj› valoroj:
 
 ```nix
 nix-repl> birdo = atribuoj@{ a, b, ...}: a + b + atribuoj.c
@@ -766,7 +773,7 @@ nix-repl> birdo { a = "oro"; b = "argxento"; c = "bronzo"; }
 "oroargxentobronzo"
 ```
 
-Mi diris ‘pseŭda’ ĉar la valoro por `c` estis ankoraŭ postulita.
+Mi diris ‹pseŭda› ĉar la valoro por `c` estis ankoraŭ postulita.
 
 Defaŭltaj valoroj kaj variabla loknombro pova esti kunmetitaj:
 
@@ -784,7 +791,7 @@ nix-repl> birdo { a = "A"; b = "B"; c = "X"; z = "Z"; }
 
 ### <a name="nixlet"></a>Let
 
-Onin la ŝlosilvorto `let` permesas por por variablojn difini en lokamplekso. Ekzemple, por la
+Onin la ŝlosilvorto `let` permesas por variablojn difini en lokamplekso. Ekzemple, por la
 identigilojn `x` kaj `y` igi videblaj nur en lokamplekso:
 
 ```nix
@@ -840,12 +847,13 @@ in {
 }
 ```
 
-La saman *ve* la let-esprimo bindas al funkcio kiu unu argumenton akceptas. En la korpo de let,
+La saman *ve* la let-esprimo bindas al funkcio kiu unu argumenton akceptas. En la korpo de `let`,
 aron ĝi revenas kiu unu membron kun la nomo *ve* havas—la tiu en la maldekstra parto de la `=`. La
 valoro de ĉi tiu ano estas la funkcio kiun ni ĵus difinis. La grava koncepto por memorigi, estas, ke
 atribuaron ĉi tiu let-esprimo revenas.
 
-Ni reen iru al la REPL por ĉi tiun dosieron uzi:
+Ni reen iru al la [REPL (angle)](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop)
+por ĉi tiun dosieron uzi:
 
 ```nix
 nix-repl> import ./ve.nix
@@ -860,7 +868,7 @@ nix-repl> (import ./ve.nix).ve "hundo"
 "hundove"
 ```
 
-Rondkrampojn ni devis uzi tial, ke ne estas tia dosiero `ve.nix.ve` en la nuna dosierujo. Se ĝin
+Rondkrampojn ni devis uzi tial, ke ne ekzistas tia dosiero `ve.nix.ve` en la nuna dosierujo. Se ĝin
 ni trapasos, ĝi aperos jene:
 
 ```nix
@@ -881,29 +889,29 @@ en la [gvidilo](https://nixos.org/nix/manual/#ch-expression-language).
 <a name="nixpkgs"></a>Nixpkgs
 -----------------------------
 
-Nixpkgs estas kolekto de mil da pakoj organizitaj kaj mastrumitaj per uzantoj tutmonde. Pro la
-fontkodo estas en [GitHub](https://github.com/nixos/nixpkgs), la avantaĝon de la potenca kunlaborada
-sistemo kiun tiu platformo ofertas ĝi eblas ekspluati. Dum ĉi tiun artikolon skribante, estas 42583
-pakoj en la la [kolekto](https://nixos.org/nixos/packages.html). Larĝan tabelon de pakoj iras de
-produktivecaj apoj al teoremaj pruviloj.
+Nixpkgs (niks·pa·kej·ĝes) estas kolekto de pakoj organizitaj kaj mastrumitaj per uzantoj
+tutmonde. Pro la fontkodo estas en [GitHub](https://github.com/nixos/nixpkgs), la avantaĝon de la
+potenca kunlaborada sistemo kiun tiu platformo ofertas ĝi eblas ekspluati. Ĉi tiun artikolon
+skribante, estas 42583 pakoj en la [kolekto](https://nixos.org/nixos/packages.html). Larĝan tabelon
+de pakoj iras de produktivecaj apoj al teoremaj pruviloj.
 
 Pakojn plejmulto da popularaj operaciumoj traktas bone, ĝis ili ne plu. Tiel longe kiel oni movas en
-rekta linio, sole, oni sekuras. Aferoj ŝanĝiĝas, kiam aliaj homoj enkondukiĝas en la marŝo. Por ke
+rektan linion, sole, oni sekuras. Aferoj ŝanĝiĝas, kiam aliaj homoj enkondukiĝas en la marŝo. Por ke
 la tutgrupo movu en unisono, ĉiuj devas esti konektita al unu la alia. Se ano decidas forvojaĝi, kaj
 sole marŝi, la tutgrupo kripliĝos. Tamen, se sin tiu ano decidas kloni por ke la forvojaĝado fariĝu
 sendependa, la originala marŝada grupo fariĝas nemodifita.
 
-La kazon de distribuo celita kiel pluruzanta produkta disvolva medio. Kiam fajrfokson versio 100 oni
-instalas, la ĉefa duuma dosiero iras al aŭ `/usr/bin/firefox` aŭ `/usr/local/bin/firefox`. Sekve, la
-apon el tiu dosierindiko ĉiom da uzanto povas aliri; Johano, Mario, kaj Petro feliĉas. Bedaŭrinde,
-se ĝin Johano decidis aktualigi al versio 200, la sama apo kiun Mario kaj Petro uzas ankaŭ
-aktualiĝis. Tio ne estas bonaĵo se la malnovan version kiu funkcias al ili, ili preferas! Onin Nix
-permesas por plurajn version de programaro havi sen kolizioj al la aliaj versioj. Siajn preferatajn
-versiojn de fajrfokso Johano, Mario, kaj Petro povas havi sen konfliktoj kun la aliaj versioj. Kiel
-ĝin Nixpkgs faras? Ĝin ĝi faras per la komponantojn nomi per iliaj kalkulitaj kontrolsumoj kaj per
-komunan tutmondan lokon ne uzi.
+La kazon de distribuo celita kiel pluruzanta produkta disvolva medio ni traktu. Kiam fajrfokson
+versio 100 oni instalas, la ĉefa duuma dosiero iras al aŭ `/usr/bin/firefox` aŭ
+`/usr/local/bin/firefox`. Sekve, la apon el tiu dosierindiko ĉiom da uzantoj povas aliri; Johano,
+Mario, kaj Petro feliĉas. Bedaŭrinde, se ĝin Johano decidis aktualigi al versio 200, la sama apo
+kiun Mario kaj Petro uzas ankaŭ aktualiĝis! Tio ne estas bonaĵo se la malnovan version kiu funkcias
+al ili ili preferas! Onin Nix permesas por plurajn versiojn de programaro havi sen kolizioj al la
+aliaj versioj. Siajn preferatajn versiojn de fajrfokso Johano, Mario, kaj Petro povas havi sen
+konfliktoj kun la aliaj versioj. Kiel ĝin Nixpkgs faras? Ĝin ĝi faras per la komponantojn nomi per
+iliaj kalkulitaj kontrolsumoj kaj per komunan tutmondan lokon ne uzi.
 
-Siajn proprajn versiojn de `~/.nix-profile` ĉiom da uzanto havas kaj kutimajn dosierojn ĉiom da
+Siajn proprajn versiojn de `~/.nix-profile` ĉiom da uzantoj havas kaj kutimajn dosierojn ĉiom da
 enhavo de tiuj dosierujoj ne havas. Anstataŭ, ili estas simbolligiloj al la efektivaj dosieroj
 troveblas en `/nix/store/`. Ĉi tiu dosierujo, estas kie la programoj kaj siaj dependecoj estas
 efektive instalitaj. La nur maniero por skribi al tiu dosierujo estas per la dediĉitaj
@@ -911,19 +919,19 @@ Nix-programoj. Ne estas maniero por tiun dosierujon rekte modifi per normalaj ma
 Vim 8 la uzanto `johano` instalas, la programo fariĝas instalita kiel
 `/nix/store/w4cr4j13lqzry2b8830819vdz3sdypfa-vim-8.0.0329`. La signoj antaŭ la paknomo estas la
 kontrolsumo de ĉiom da enigoj kiuj estis uzitaj por la pakon konstrui. La dosiero
-`/home/johano/.nix-profile/bin/vim` tiam montras al simbolligo, en dosiero troveblas en `/nix/store/`
-kiu kondukas al la efektiva Vim-duumdosiero en
+`/home/johano/.nix-profile/bin/vim` tiam montras al simbolligo, en dosiero troveblas en
+`/nix/store/` kiu kondukas al la efektiva Vim-duumdosiero en
 `/nix/store/w4cr4j13lqzry2b8830819vdz3sdypfa-vim-8.0.0329/bin/vim`.
 
 
 ### <a name="nixpkgsinstalo"></a>Instalo
 
-Se je NixOS oni uzas ĉi tiun preterpasu tial, ke Nixpkgs iras kun ĝi. Por je Nixpkgs instali sur
-linukso aŭ makintoŝo, kurigu:
+Se je NixOS oni uzas ĉi tiun sekcion preterpasu tial, ke Nixpkgs iras kun ĝi. Por je Nixpkgs instali
+sur linukso aŭ makintoŝo, kurigu:
 
     $ curl https://nixos.org/nix/install | bash
 
-Oni invitiĝos por la ensalutilojn por ĉefuzanta aliro eniri per *sudo* tial, ke la risurcojn ĝi
+Oni invitiĝos al la ensalutilojn por ĉefuzantan aliron eniri per *sudo* tial, ke la risurcojn ĝi
 instalos al `/nix/`. Post la instalo, oni petiĝas por linion de komando al la ŝela pravaloriza
 dosiero aldoni. Kiam novajn aperaĵojn de la ŝelo oni generas la komandoj specifaj al Nix fariĝos
 haveblaj.
