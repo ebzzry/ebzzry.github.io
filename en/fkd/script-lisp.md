@@ -2,7 +2,7 @@ Scripting in Common Lisp
 ========================
 
 <div class="center">July 5, 2017</div>
-<div class="center">Last updated: August 2, 2018</div>
+<div class="center">Last updated: September 23, 2018</div>
 
 >The light that burns twice as bright burns half as long.<br>
 >―Dr. Eldon Tyrell, Blade Runner (1982)
@@ -105,7 +105,7 @@ Then, let’s create `my-scripts.asd` in that directory. To start, it will conta
   :version "0.0.1"
   :description "CL scripts"
   :license "MIT"
-  :author "Lolu OGAG"
+  :author "Muno VAKELO"
   :class :package-inferred-system
   :depends-on ((:version "cl-scripting" "0.1")
                (:version "inferior-shell" "2.0.3.3")
@@ -209,10 +209,10 @@ This will build the multi-call binary—`./my-scripts` and the corresponding sym
 
 ```bash
 $ tree ~/bin
-/home/ogag/bin
+/home/vakelo/bin
 ├── getuid -> my-scripts
 ├── help -> my-scripts
-├── my-scripts -> /home/ogag/common-lisp/my-scripts/my-scripts
+├── my-scripts -> /home/vakelo/common-lisp/my-scripts/my-scripts
 └── symlink -> my-scripts
 
 0 directories, 5 files
@@ -238,7 +238,7 @@ with several functions. Let’s modify `my-script.asd` to contain the additional
   :version "0.0.1"
   :description "CL scripts"
   :license "MIT"
-  :author "Lolu OGAG"
+  :author "Muno VAKELO"
   :class :package-inferred-system
   :depends-on ((:version "cl-scripting" "0.1")
                (:version "inferior-shell" "2.0.3.3")
@@ -330,7 +330,7 @@ Launching and managing user applications is easy. Let’s start by adding a depe
   :version "0.0.1"
   :description "CL scripts"
   :license "MIT"
-  :author "Lolu OGAG"
+  :author "Lolu VAKELO"
   :class :package-inferred-system
   :depends-on ((:version "cl-scripting" "0.1")
                (:version "inferior-shell" "2.0.3.3")

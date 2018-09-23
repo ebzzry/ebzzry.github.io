@@ -3,7 +3,7 @@ Blogi per Frog
 
 <div class="center">[Esperanto](#) · [English](/en/frog)</div>
 <div class="center">la 16-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 20-an de septembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 23-an de septembro 2018</div>
 
 >Unu persono kun ardo pli bonas ol kvardek personoj nure interesataj.<br>
 >―E.M. FORSTER
@@ -63,8 +63,8 @@ sia TTT-servilo. Ĉu facilas? Ne, pli facilas ol sonas.
 <a name="instalo"></a>Instalo
 -----------------------------
 
-En la jenaj sekcioj, ni supozas, ke la uzantnomo estas `ogag`, kaj la hejmdosiero estas
-`/home/ogag/`.
+En la jenaj sekcioj, ni supozas, ke la uzantnomo estas `vakelo`, kaj la hejmdosiero estas
+`/home/vakelo/`.
 
 Por instali je Frog, oni bezonas instali Rakidon unue. Plej verŝajne, la pako-administrilo jam
 havas ĝin.
@@ -127,7 +127,7 @@ Krei novan afiŝon el nulo estas alia facila tasko:
 formato `_src/posts/YYYY-MM-DD-afisxa-titolo.md`. Per la supra komando, la absoluta dosierindiko estus
 simila al:
 
-    /home/ogag/blogo/_src/posts/2014-02-21-nova-bloga-afisxo.md
+    /home/vakelo/blogo/_src/posts/2014-02-21-nova-bloga-afisxo.md
 
 Ni redaktu tiun dosieron, kaj vidu kiel ĝi aspektas:
 
@@ -285,7 +285,7 @@ komandon:
 
 Per la supra komando, la absoluta dosierindiko aspektos kiel:
 
-    /home/ogag/blogo/_src/posts/2014-02-21-nova-bloga-afisxo.scrbl
+    /home/vakelo/blogo/_src/posts/2014-02-21-nova-bloga-afisxo.scrbl
 
 Denove, ni redaktu tiun dosieron por vidi kiel ĝi aspektas ene:
 
@@ -330,7 +330,7 @@ Por importi komentojn de ekzistanta blogo al Disqus, iru al <https://import.disq
 ---------------------------
 
 Por eldoni la verkon, alŝuti la enhavojn de la dosierujo kiun Frog-o mastrumas al la defora
-servilo. En ĉi tiu gvidilo, estas la dosierujo `/home/ogag/blogo`. Se la nuna dosierujo estas
+servilo. En ĉi tiu gvidilo, estas la dosierujo `/home/vakelo/blogo`. Se la nuna dosierujo estas
 `blog/`, kaj oni volas sendi la dosierojn per rsync, la komando aspektus kiel:
 
     $ rsync -avz ./ deforservilo:public_html
@@ -339,18 +339,18 @@ Anstataŭigu `public_html` per la ĝusta defora dosierujo.
 
 Tamen, se oni ne havas deforan gastigkomputilo kaj vi uzas je [Git](https://git-scm.com), oni povas
 uzi la liberan gastigservon de [GitHub Pages](https://pages.github.com). Se oni ne havas GitHub-konton, si povas iri al [GitHub](https://github.com) por krei tiun. Por uzi je GitHub Pages, kreu
-deponejon nomiĝas `UZANTNOMO.github.io`. Se la uzantnomo estas `ogag`, la deponejo kiun oni
-bezonas krei devas nomita `ogag.github.io`.
+deponejon nomiĝas `UZANTNOMO.github.io`. Se la uzantnomo estas `vakelo`, la deponejo kiun oni
+bezonas krei devas nomita `vakelo.github.io`.
 
 Por eldoni la verkon al GitHub Pages, oni unue devas aldoni la deforan deponejon:
 
-    $ git remote add origin git@github.com:ogag/ogag.github.io.git
+    $ git remote add origin git@github.com:vakelo/vakelo.github.io.git
 
 Tiam puŝu la enmetojn:
 
     $ git push origin master
 
-Por vidi la retejon, iru al `ogag.github.io`.
+Por vidi la retejon, iru al `vakelo.github.io`.
 
 
 <a name="finrimarkoj"></a>Finrimarkoj

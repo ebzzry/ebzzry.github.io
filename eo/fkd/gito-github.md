@@ -3,7 +3,7 @@ Maldaŭra Rondvojaĝo de Gito kaj GitHub
 
 <div class="center">[Esperanto](#) · [English](/en/git-github)</div>
 <div class="center">la 11-an de julio 2018</div>
-<div class="center">Laste ĝisdatigita: la 14-an de septembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 23-an de septembro 2018</div>
 
 >Ĉiujn solvitajn problemon sciu kiel solvi.<br>
 >―Richard P. FEYNMAN
@@ -150,10 +150,10 @@ En la paĝo de la deponejoj, novan deponejon krei per je **New** klaki:
 ![New](/bil/nova-deponejo.png)
 
 Daŭru per la invitoj. Kiam la postulatajn kampojn oni jam plenigis, signovicojn de komandojn oni
-akiros. Je `ogag` kaj je `foobar` anstataŭigu per la GitHub-uzantnomo kaj la nomo de la
+akiros. Je `vakelo` kaj je `foobar` anstataŭigu per la GitHub-uzantnomo kaj la nomo de la
 deponejo, respektive.
 
-    $ git remote add origin git@github.com:ogag/foobar.git
+    $ git remote add origin git@github.com:vakelo/foobar.git
     $ git push -u origin master
 
 Oni invitiĝos por la pasfrazon provi kiun oni eniris supre. La enhavon de la deponejo al la fora
@@ -182,13 +182,13 @@ Sekve, tiun forkon oni devas kloni al la loka disko. La adreson lokitas en la **
 
 ![SSH clone URL](/bil/klonadreso-de-ssh.png)
 
-Tiam la jenan komandon kuru, en kiu, `ogagmet` estas via uzantnomo:
+Tiam la jenan komandon kuru, en kiu, `memeho` estas via uzantnomo:
 
-    $ git clone git@github.com:ogagmet/foobar.git
+    $ git clone git@github.com:memeho/foobar.git
 
 Sekve, je *remote* nomiĝas *upstream* kreu kiu la ŝanĝojn el la fonta deponejo spuras:
 
-    $ git remote add upstream git@github.com:ogag/foobar.git
+    $ git remote add upstream git@github.com:vakelo/foobar.git
 
 Kiam ŝanĝojn al la kodo oni volas fari, apartan branĉon kreu. Branĉan nomon kiu priskribas de
 la ŝanĝojn kiujn oni volas fari kreu. La nomo povas esti ŝanĝita poste. En ĉi tiu ekzemplo, branĉon
@@ -214,10 +214,10 @@ Je **compare across forks** elektu:
 
 ![Compare Across Forks](/bil/komparu-trans-forkoj.png)
 
-Maldekstre, sub la **base fork**-kampo, je **ogag/foobar** elektu, kaj en la **base**-kampo,
+Maldekstre, sub la **base fork**-kampo, je **vakelo/foobar** elektu, kaj en la **base**-kampo,
 je **master** elektu.
 
-Dekstre, sub la **head fork**-kampo, je **ogagmet/foobar** elektu, kaj en la **compare**-kampo,
+Dekstre, sub la **head fork**-kampo, je **memeho/foobar** elektu, kaj en la **compare**-kampo,
 je **novopcioj** elektu.
 
 Tiam, je **Create pull request** klaku:

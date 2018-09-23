@@ -282,7 +282,7 @@ available [here](https://nixos.org/nixos/options.html).
   };
 
   users = {
-    extraUsers.ogag = {
+    extraUsers.vakelo = {
       isNormalUser = true;
       uid = 1000;
       extraGroups = [ "wheel" "networkmanager" "docker" ];
@@ -311,7 +311,7 @@ UUIDs. For the value of `networking.hostID`, use the following command:
 
 The above configuration specifies the following, among other things:
 
-- It creates a user `ogag` with full sudo access.
+- It creates a user `vakelo` with full sudo access.
 - It uses KDE 5 as the desktop environment.
 - It enables SSH.
 - It specifies the LUKS parameters.
@@ -341,9 +341,9 @@ configuration. After the system has completed booting, switch to the console wit
 <kbd>Ctrl+Alt+F1</kbd>, then login as `root`, then set a password for the user that we specified in
 `configuration.nix`:
 
-    # passwd ogag
+    # passwd vakelo
 
-Exit the shell, switch to the graphical interface with <kbd>Alt+F7</kbd>, then login as `ogag`.
+Exit the shell, switch to the graphical interface with <kbd>Alt+F7</kbd>, then login as `vakelo`.
 
 
 <a name="nix"></a> Nix
@@ -433,7 +433,7 @@ nix-repl> 6*2
 12
 
 nix-repl> 6/2
-/home/ogag/6/2
+/home/vakelo/6/2
 ```
 
 Oops! That wasn’t what we expected. Since Nix was designed with files and directories in mind, it
@@ -598,7 +598,7 @@ directory:
 
 ```nix
 nix-repl> ./foo
-/home/ogag/foo
+/home/vakelo/foo
 ```
 
 It gets translated to an absolute path. This is a Good Thing™.
@@ -951,8 +951,8 @@ the [repository](https://github.com/nixos/nixpkgs):
 
     $ git clone https://github.com/nixos/nixpkgs ~/nixpkgs
 
-This command creates a `nixpkgs/` directory under your home. If your username is `ogag`, the clone
-of the repository is available at `/home/ogag/nixpkgs/` or `/Users/ogag/nixpkgs/`, if you’re using a
+This command creates a `nixpkgs/` directory under your home. If your username is `vakelo`, the clone
+of the repository is available at `/home/vakelo/nixpkgs/` or `/Users/vakelo/nixpkgs/`, if you’re using a
 GNU/Linux or macOS, respectively.
 
 To install a package, say *emem*—a Markdown to HTML converter—using the git checkout, run:
@@ -1068,7 +1068,7 @@ account. Mmake changes into a new branch, then create a pull request.
 
 After you have forked the repository, clone your version of the repository.
 
-    $ git clone git@github.com:ogag/nixpkgs.git ~/nixpkgs
+    $ git clone git@github.com:vakelo/nixpkgs.git ~/nixpkgs
 
 This will create a copy of your fork in the root of your home directory. Head over to that
 directory, then let’s examine its contents:
@@ -1203,7 +1203,7 @@ Good. Commit the changes.
     $ git push origin hello-2.11
 
 Finally, go to the GitHub repo [page](https://github.com/nixos/nixpkgs), then create a pull request
-(PR) between `nixos/nixpkgs:master` and `ogag/nixpkgs:hello-2.11`.
+(PR) between `nixos/nixpkgs:master` and `vakelo/nixpkgs:hello-2.11`.
 
 
 #### <a name="nixpkgssubmitnew"></a> Submitting a new package
@@ -1285,7 +1285,7 @@ If everything goes well, commit the changes:
     $ git push origin tthsum-1.3.m2
 
 Finally, go to the GitHub repo [page](https://github.com/nixos/nixpkgs), then create a pull request
-(PR) between `nixos/nixpkgs:master` and `ogag/nixpkgs:tthsum-1.3.2`.
+(PR) between `nixos/nixpkgs:master` and `vakelo/nixpkgs:tthsum-1.3.2`.
 
 
 ### <a name="nixpkgsnotes"></a> Notes
