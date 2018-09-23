@@ -3,7 +3,7 @@ Blogging with Frog
 
 <div class="center">[Esperanto](/eo/frog) · [English](#)</div>
 <div class="center">February 19, 2014</div>
-<div class="center">Last updated: September 6, 2018</div>
+<div class="center">Last updated: September 23, 2018</div>
 
 >One person with passion is better than forty people merely interested.<br>
 >―E.M. Forster
@@ -65,8 +65,8 @@ No, it’s even easier that it sounds.
 <a name="installation"></a> Installation
 ----------------------------------------
 
-In the succeeding sections, let’s presume that your username is `ogag`, and your home directory is
-`/home/ogag/`.
+In the succeeding sections, let’s presume that your username is `vakelo`, and your home directory is
+`/home/vakelo/`.
 
 
 To install Frog, you need to install Racket, first. Chances are, your package manager already has
@@ -130,7 +130,7 @@ What it does is that it creates a Markdown file, relative to the current directo
 `_src/posts/YYYY-MM-DD-post-title.md`. With the command above, the absolute path would be similar
 to:
 
-    /home/ogag/blog/_src/posts/2014-02-21-new-blog-post.md
+    /home/vakelo/blog/_src/posts/2014-02-21-new-blog-post.md
 
 Let’s edit that file, and see how it looks like:
 
@@ -288,7 +288,7 @@ lets you use a Scribble source file, instead. To create one, you’ll use the fo
 
 With the command above, the absolute path would look like:
 
-    /home/ogag/blog/_src/posts/2014-02-21-new-blog-post.scrbl
+    /home/vakelo/blog/_src/posts/2014-02-21-new-blog-post.scrbl
 
 Again, let’s edit that file, and see how it looks like:
 
@@ -335,7 +335,7 @@ To import comments, from an existing blog, to Disqus, go to
 ----------------------------------
 
 To publish your work, upload the contents of the directory that Frog manages to your remote
-server. In this tutorial, it is the directory `/home/ogag/blog`. If the current directory is
+server. In this tutorial, it is the directory `/home/vakelo/blog`. If the current directory is
 `blog/`, and you want to send the files via rsync, the command would look like:
 
     $ rsync -avz ./ remotehost:public_html
@@ -345,18 +345,18 @@ Replace `public_html` with the appropriate remote directory.
 However, if you don’t have a remote host and you use [Git](https://git-scm.com), you can use the
 free hosting service of [GitHub Pages](https://pages.github.com). If you don’t have a GitHub account
 yet, you may go to [GitHub](https://github.com) to create one. To use, GitHub Pages, create a
-repository named `USERNAME.github.io`. So, if your username is `ogag`, the repository that you need
-to create should be named `ogag.github.io`.
+repository named `USERNAME.github.io`. So, if your username is `vakelo`, the repository that you need
+to create should be named `vakelo.github.io`.
 
 To publish your work to GitHub Pages, you first need to add that remote repository:
 
-    $ git remote add origin git@github.com:ogag/ogag.github.io.git
+    $ git remote add origin git@github.com:vakelo/vakelo.github.io.git
 
 Then you push the commits:
 
     $ git push origin master
 
-To view your website, go to [ogag.github.io](http://ogag.github.io).
+To view your website, go to [vakelo.github.io](http://vakelo.github.io).
 
 
 <a name="closing"></a> Closing remarks

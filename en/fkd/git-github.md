@@ -3,7 +3,7 @@ A Brief Git and GitHub Tour
 
 <div class="center">[Esperanto](/eo/gito-github) · [English](#)</div>
 <div class="center">August 29, 2015</div>
-<div class="center">Last updated: September 6, 2018</div>
+<div class="center">Last updated: September 23, 2018</div>
 
 >Know how to solve every problem that has been solved.<br>
 >―Richard P. Feynman
@@ -151,10 +151,10 @@ In your repositories page, create a new repository by clicking **New**:
 ![New](/bil/nova-deponejo.png)
 
 Follow through the prompts. When you have filled in the required fields, you’ll get a string of
-commands. Replace `ogag` and `foobar` with your GitHub username, and the name of the repository
+commands. Replace `vakelo` and `foobar` with your GitHub username, and the name of the repository
 that you have created, respectively:
 
-    $ git remote add origin git@github.com:ogag/foobar.git
+    $ git remote add origin git@github.com:vakelo/foobar.git
     $ git push -u origin master
 
 You’ll be prompted to supply the passphrase you have entered above. The `git push` command uploads
@@ -183,13 +183,13 @@ Next, you need to clone that forked project, to your local disk. Copy the URL lo
 
 ![SSH clone URL](/bil/klonadreso-de-ssh.png)
 
-then run the following command, where `ogagmet` is your username:
+then run the following command, where `memeho` is your username:
 
-    $ git clone git@github.com:ogagmet/foobar.git
+    $ git clone git@github.com:memeho/foobar.git
 
 Next, create a _remote_ that will track changes from the source repository.
 
-    $ git remote add upstream git@github.com:ogag/foobar.git
+    $ git remote add upstream git@github.com:vakelo/foobar.git
 
 When you want to make changes to the code, create a separate branch. Use a branch name that is
 descriptive of the changes that you want to make. This name can be changed later. In this example,
@@ -215,10 +215,10 @@ Select **compare across forks**:
 
 ![Compare Across Forks](/bil/komparu-trans-forkoj.png)
 
-In the left side, under the **base fork** field, select **ogag/foobar**, and in the **base**
+In the left side, under the **base fork** field, select **vakelo/foobar**, and in the **base**
 field, select **master**.
 
-In the right side, under the **head fork** field, select **ogagmet/foobar**, and in the **compare**
+In the right side, under the **head fork** field, select **memeho/foobar**, and in the **compare**
 select **new-options**
 
 Then, click **Create pull request**:
