@@ -725,17 +725,24 @@ It is also possible to specify default values. When a parameter with default val
 default value will be used. They are declared similarly in Common Lisp:
 
 ```lisp
-(defun foop (a &optional (b "O.o"))
-  (concatenate 'string a b))
+* (defun foof (a &optional (b "O.o"))
+    (concatenate 'string a b))
+
+* (foof "o.O ")
+
+"o.O O.o"
+* (foof "o.O " "^_^")
+
+"o.O ^_^"
 ```
 
 ```nix
-nix-repl> foop = { a, b ? "O.o" }: a + b
+nix-repl> foof = { a, b ? "O.o" }: a + b
 
-nix-repl> foop { a = "goo"; }
+nix-repl> foof { a = "goo"; }
 "gooO.o"
 
-nix-repl> foop { a = "goo"; b = "oog"; }
+nix-repl> foof { a = "goo"; b = "oog"; }
 "goooog"
 ```
 
@@ -743,13 +750,13 @@ To add even more flexibility, Nix supports the use of pseudorest arguments. Let�
 function from above:
 
 ```nix
-nix-repl> foop = { a, b, ...}: a + b
+nix-repl> foof = { a, b, ...}: a + b
 ```
 
 Let’s use it:
 
 ```nix
-nix-repl> foop { a = "meh"; b = "foo"; }
+nix-repl> foof { a = "meh"; b = "foo"; }
 "mehfoo"
 ```
 
@@ -757,13 +764,13 @@ The same. So how can we make use of that flexibility, then? We’ll create a lab
 set, so that we can refer to the ‘extra’ values:
 
 ```nix
-nix-repl> foop = attrs@{ a, b, ...}: a + b + attrs.c
+nix-repl> foof = attrs@{ a, b, ...}: a + b + attrs.c
 ```
 
 We use it just like before, but with the use of the label:
 
 ```nix
-nix-repl> foop { a = "goo"; b = "oog"; c = "hhh"; }
+nix-repl> foof { a = "goo"; b = "oog"; c = "hhh"; }
 "gooooghhh"
 ```
 
@@ -772,12 +779,12 @@ I said ‘pseudo’ because the value for `c` was still required.
 Default values and variable arity can be combined together:
 
 ```nix
-nix-repl> foop = attrs@{ a, b, c ? "C", ... }: a + b + c + attrs.d
+nix-repl> foof = attrs@{ a, b, c ? "C", ... }: a + b + c + attrs.d
 
-nix-repl> foop { a = "A"; b = "B"; d = "D"; }
+nix-repl> foof { a = "A"; b = "B"; d = "D"; }
 "ABCD"
 
-nix-repl> foop { a = "A"; b = "B"; c = "X"; d = "D"; }
+nix-repl> foof { a = "A"; b = "B"; c = "X"; d = "D"; }
 "ABXD"
 
 ```
@@ -883,7 +890,7 @@ are available in the [manual](https://nixos.org/nix/manual/#ch-expression-langua
 <a name="nixpkgs"></a> Nixpkgs
 ------------------------------
 
-Nixpkgs is a collection of thousands of packages curated and maintained by users worldwide. Since
+Nixpkgs is a collection of packages curated and maintained by users worldwide. Since
 the source code is in [GitHub](https://github.com/nixos/nixpkgs), it is able to take advantage of
 the powerful collaboration models that that platform offers. At the time of writing, there are
 42583 packages in the [collection](https://nixos.org/nixos/packages.html). It contains a wide

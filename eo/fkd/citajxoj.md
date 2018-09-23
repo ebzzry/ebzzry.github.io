@@ -3,7 +3,7 @@ Citaĵoj
 
 <div class="center">[Esperanto](#) · [English](/en/quotes)</div>
 <div class="center">la 15-an de novembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 15-an de septembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 23-an de septembro 2018</div>
 
 Ĉi tiu paĝo enhavas liston de atenteme elektitaj citaĵoj, aforismoj, kaj sentencoj kiujn mi kolektis
 tra la jarojn.
@@ -21,7 +21,7 @@ tra la jarojn.
   ―H.H. WILLIAMS
 
 
-- Diplomatio estas la arto de diri ‘bonan hundon’ ĝis ŝtonon oni povas trovi.<br>
+- Diplomatio estas la arto de diri ‹bonan hundon› ĝis ŝtonon oni povas trovi.<br>
   ―Will ROGERS
 
 
@@ -652,7 +652,7 @@ tra la jarojn.
   ―Lain IWAKURA, Serial Experiments Lain
 
 
-- Ne plu estas pri ‘Ĉu mi povas fari tion,’ estas nun pri ‘Ĉu mi devas fari tion’?<br>
+- Ne plu estas pri ‹Ĉu mi povas fari tion,› estas nun pri ‹Ĉu mi devas fari tion›?<br>
   ―Raymund MARTINEZ
 
 
