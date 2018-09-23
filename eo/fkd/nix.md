@@ -3,14 +3,14 @@ Milda Enkonduko al la Nix-Familio
 
 <div class="center">[Esperanto](#) · [English](/en/nix)</div>
 <div class="center">la 5-an de aŭgusto 2018</div>
-<div class="center">Laste ĝisdatigita: la 18-an de septembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 23-an de septembro 2018</div>
 
 >Ne maltrankviliĝu pri tio, kion la aliaj faros. La plej bona maniero por la estontecon antaŭdiri
 >estas per tion eltrovi.<br>
 >―Alan KAY
 
-Venas rare ideoj kiuj la manieron por komputado ŝanĝas. Multe da teĥnologio kiujn ni uzas nune nur
-estas ripetoj de la malnovaj—niveloj sur niveloj de kosmetikoj kiuj la malnovajn konceptojn
+Venas rare ideoj kiuj la manieron por komputado povas ŝanĝi. Multe da teĥnologio kiujn ni uzas nune
+nur estas ripetoj de la malnovaj—niveloj sur niveloj de kosmetikoj kiuj la malnovajn konceptojn
 ĉirkaŭkovras. Tutaj produktaj sistemoj estas bazitaj sur ĉi tiu manko de kreemo kaj
 lerteco. Malnovaj problemoj ne solvitas. Pentrante per novaj kolortonoj, la problemojn ĉi tiuj
 tielnomataj elpensemaj solvoj nure ĉirkaŭigas anstataŭe, pretendante ke almenaŭ, ĝin ili
@@ -18,12 +18,12 @@ plikolorplenigis. Progreson ĉi tiu mensostato difektas en nekalkuleblaj maniero
 impreson, ke la solvoj fakte estas faritaj ĉi tio donas. Falsan senson de plibonigoj ĉi tio kreas.
 
 Antaŭ multaj jaroj siajn semajn [paperojn](https://nixos.org/~eelco/pubs/)
-[Eelco Dolstra](https://nixos.org/~eelco/) skribis, kiu la radikalajn manierojn por programaron
-disponigi priskribis. La kernojn de [Nix](https://nixos.org/nix/), pure funkcia paka mastrumila
-lingvo kiu la malsanon solvis kiu la komputikon plagis delonge plagis—kompatinda paka mastrumado. En
-ĉi tiu artikolo mi parolos pri la Nix-familio, kaj kiel ilin uzi por la avantaĝo.
+[Eelco DOLSTRA](https://nixos.org/~eelco/) skribis, en kiu, la radikalajn manierojn por programaron
+disponigi li priskribis. La kernojn de [Nix](https://nixos.org/nix/), pure funkcia paka mastrumila
+lingvo kiu la malsanon solvis kiu la komputikon delonge plagis—kompatinda paka mastrumado—ĉi tiuj
+paperoj formis. En ĉi tiu artikolo mi parolos pri la Nix-familio, kaj kiel ĝin uzi por la avantaĝo.
 
-La dolarsigno ($) uzitos por la ŝelan inviton de normala uzanto indiki, dum la kradsigno (#) uzitos
+La dolarsigno ($) uzitos por la ŝelan inviton de normaluzanto indiki, dum la kradsigno (#) uzitos
 por la ŝelan inviton de la ĉefuzanto indiki. Estas fojoj kiam la
 [EUID](https://en.wikipedia.org/wiki/User_identifier#Effective_user_ID) de komando estos nulo (0)
 pro la uzado de *sudo*.
@@ -59,7 +59,7 @@ Enhavotabelo
     * [Aliaj komandoj](#nixpkgsaliaj)
   + [Agordaĵo](#nixpkgsagordajxo)
   + [Kontribuado](#nixpkgskontribuado)
-    * [Ekzistantan pakon ĝisdatigi](#nixpkgsgxistadigi)
+    * [Ekzistantan pakon ĝisdatigi](#nixpkgsgxisdatigi)
     * [Novan pakon sendi](#nixpkgssendi)
   + [Notoj](#nixpkgsnotoj)
 - [Medioj](#medioj)
@@ -73,25 +73,25 @@ Enhavotabelo
 <a name="nixos"></a>NixOS
 -------------------------
 
-Kiom da fojo difektan sistemon oni havadis pro programaron oni ĝistadigis kiun aliaj komponantoj
-dependis? Kiom da malfrunoktaj restoj oni pasis por apon oni bezonis funkciigi pro ĝin la nova pako
-kiun oni instalis rompigis? Kiom da fojo, pro ĉagrenego, oni rezignis en la riparado de la sistemo
-kaj simple decidis por la sistemon reinstali el nulo. Datumdosierojn restaŭri facilas; sistemagordon
-de la lasta funkcia stato restaŭri, bedaŭrinde, estas unudirekta bileto al infero.
+Kiom da fojo, difektitan sistemon oni havadis pro programaron oni ĝistadigis kiun aliaj komponantoj
+dependis? Kiom da malfruaj noktoj oni pasis por apon oni bezonis funkciigi pro ĝin la nova pako kiun
+oni instalis rompigis? Kiom da fojo, pro ĉagrenego, oni rezignis en la riparado de la sistemo kaj
+simple decidis por la sistemon reinstali el nulo. Datumdosierojn restaŭri facilas; sistemagordon de
+la lasta funkcia stato restaŭri, bedaŭrinde, estas unudirekta bileto al infero.
 
-[NixOS](https://nixos.org) estas linuksa distributo kiu ĉi tiajn problemojn solvas per la
-determinismon de [Nix](https://nixos.org/nix) ekspluati kaj per unu deklara agorda dosiero uzi kiu
+[NixOS](https://nixos.org) estas linuksa distribuo kiu ĉi tiajn problemojn solvas per la
+determinismon de [Nix](https://nixos.org/nix) ekspluati kaj per unu deklaran agorddosieron uzi kiu
 ĉiom da agordaĵoj kaj alĝustigiloj tenas en unu loko—`/etc/nixos/configuration.nix`. Informon pri la
 dosiersistemo, uzantoj, servoj, retagordo, enigaparatoj, kernaj parametroj, kaj pli ĉi tiu dosiero
-enhavas. Signifas, ke je `configuration.nix` de iu oni povas preni kaj sian ekzaktan sistemagordon
+enhavas. Signifas, ke je _configuration.nix_ de iu oni povas preni kaj ĝian ekzaktan sistemagordon
 havu! En NixOS oni ne plu bezonas ludadi pri la tutsistemo por la agordo kiun oni
 deziras. Porokazajn solvojn oni ne plu uzas por deziratan agordan staton precizigi. Aldonan
 programaron oni ne plu bezonas instali por sistemagordon mastrumi.
 
-NixOs ne konformiĝas al [FHS](https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard), aldonan
-cerban damaĝon efektive malebligas. Spacon por multe da flekso kaj eltrovemo donas. Je `/usr/`
-kaj `/opt/` ĝi ne havas. Tamen, je `/bin/` kaj `/usr/bin/` ĝi havas, kiu nur je `sh` kaj `env` havas
-respektive—ambaŭ fakte estas simbolligiloj al la realaj programoj kiu loĝas ie en `/nix/store/`. La
+NixOS ne konformiĝas al [FHS](https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard) aldonan
+cerban damaĝon efektive malebligi—spacon donanta por multe da flekso kaj eltrovemo. Je `/usr/` kaj
+`/opt/` ĝi ne havas. Tamen, je `/bin/` kaj `/usr/bin/` ĝi havas, kiu nur je `sh` kaj `env` havas
+respektive—ambaŭ fakte estas simbolligiloj al la realaj programoj kiuj loĝas ie en `/nix/store/`. La
 supra loko por sistemprogramoj—la tiuj, kiuj estas instalitaj specife de la sistemestro—estas
 lokitaj en `/run/current-system/sw/bin/` kaj `/run/current-system/sw/sbin/`. Uzantinstalitaj
 programoj, aliflanke, troveblas en siaj respektivaj `~/.nix-profile/bin/`-lokoj. Ĉi tiuj lokoj ne
@@ -119,71 +119,71 @@ Praŝarĝu per la USB-poŝmemorilo en UEFI-reĝimo. Sur la ensaluta invito, ensa
 
 #### <a name="nixosreto"></a>La reton agordi
 
-Haveblajn retojn skanu
+Haveblajn retojn skanu:
 
     # nmcli d wifi list
 
-Tiam, konektu al la preferata enkursigilo
+Tiam, konektu al la preferata enkursigilo:
 
     # nmcli d wifi con PLDT name hejmo password sekreto
 
 
 #### <a name="nixosdiskoj"></a>La diskojn pretigi
 
-La subdiskojn kreu
+La subdiskojn kreu:
 
     # gdisk /dev/sda
     sda1: EF00 (EFI system), 512 MiB
     sda2: 8E00 (Linux LVM), ceteraj
 
-Je `/dev/sda1` strukturu
+Je `/dev/sda1` strukturu:
 
-    # mkfs.vfat -F32 /dev/sda1
+    # mkfs.vfat -F 32 /dev/sda1
 
-La fizikan volumon kreu
+La fizikan volumon kreu:
 
     # pvcreate /dev/sda2
 
-La voluman grupon kreu
+La voluman grupon kreu:
 
     # vgcreate vg /dev/sda2
 
-La logikajn volumojn kreu
+La logikajn volumojn kreu:
 
     # lvcreate -L 20G -n swap vg
     # lvcreate -l 100%FREE -n root vg
 
-La radikon ĉifru
+La radikon ĉifru:
 
     # cryptsetup luksFormat /dev/vg/root
     # cryptsetup luksOpen /dev/vg/root root
 
-La radikon strukturu
+La radikon strukturu:
 
     # mkfs.ext4 -j -L root /dev/mapper/root
 
-La permutodosieron strukturu
+La permutodosieron strukturu:
 
     # mkswap -L swap /dev/vg/swap
 
-La dosiersistemojn surmetu
+La dosiersistemojn surmetu:
 
     # mount /dev/mapper/root /mnt
     # mkdir /mnt/boot
     # mount /dev/sda1 /mnt/boot
 
-La permutodosieron ŝaltu
+La permutodosieron ŝaltu:
 
     # swapon /dev/vg/swap
 
 
 #### <a name="nixosinstali"></a>Instali al disko
 
-La bazagorddosieron kreu
+La bazagorddosieron kreu:
 
     # nixos-generate-config --root /mnt
 
-La agorddosieron redaktu
+La agorddosieron redaktu:
 
     # nano /mnt/etc/nixos/configuration.nix
 
@@ -247,7 +247,7 @@ uzi, kaj sekve. La valorojn anstataŭigu laŭ oni preferas. Ĉiom da agordaj al�
   ];
 
   networking = {
-    hostName = "mehfoo";
+    hostName = "ombrelo";
     hostId = "7B1548AE";
     enableIPv6 = true;
     networkmanager.enable = true;
@@ -309,9 +309,9 @@ la UUID-identigilojn akiru. Por la valoro de `networking.hostID` la jenan komand
 
 La jenan la ĉi-supra agordo precizigas, inter aliaj aferoj:
 
-- Uzanton `ogag` kreas kun tuta sudo-aliro.
+- Uzanton `ogag` kreas kun tuta _sudo_-aliro.
 - Je KDE5 uzas kiel la fenestrilo.
-- Sekurŝelon ŝaltas.
+- La sekurŝelon ŝaltas.
 - La LUKS-parametrojn precizigas.
 
 Je NixOS instalu al la disko:
@@ -328,13 +328,13 @@ Post kiam la instalo finiĝis, la sistemon repraŝarĝu.
 
 ### <a name="nixosagordajxo"></a>Agordaĵo
 
-Instalinte, la ekzistantan agordaĵon ĝisdatigi facilas. Ĉio kion oni devas fari estas por la
+Instalinte, la ekzistantan agordaĵon ĝisdatigi facilas. Ĉio kion oni devas fari estas la
 agorddosieron redakti tiam la sistemon remuntu:
 
     # nano /etc/nixos/configuration.nix
     # nixos-rebuild switch
 
-Se okazis eraro, onin la sistemo avizos pri tio, anstataŭ pluigi per malĝusta agordo. Post la
+Se okazis eraro, onin la sistemo avizos pri tio, anstataŭ pluigi per malĝusta agordo. Post kiam la
 sistemo finfaris reŝarĝi, iru al la konzolo per <kbd>Ctrl+Alt+F1</kbd>, tiam ensalutu kiel `root`,
 tiam pasvorton por la uzanto kiun ni precizigis en `configuration.nix` agordu:
 
@@ -371,47 +371,47 @@ Bazajn esprimojn ni elprovu.
 Samkiel en aliaj lingvoj, signovicoj taksas al si mem:
 
 ```nix
-nix-repl> "foo"
-"foo"
+nix-repl> "hundo"
+"hundo"
 ```
 
-Por signovicojn kunmeti, la operatoron `+` uzu:
+Por signovicojn kunmeti, la operacisimbolon `+` uzu:
 
 ```nix
-nix-repl> "foo" + "bar"
-"foobar"
+nix-repl> "hundo" + "kato"
+"hundokato"
 ```
 
 Alia maniero por signovicojn deklari estas por du parojn de unuoblaj citiloj uzi. Ne konfuziĝu pri
-la duoblaj citiloj:
+ĝi kontraŭ la duoblaj citiloj:
 
 ```nix
-nix-repl> ''foo bar''
-"foo bar"
+nix-repl> ''hundo kato''
+"hundo kato"
 ```
 
-La avantaĝo de je `''` uzi anstataŭ `"`, estas, la ĉeeston de `"` ene ĝi ĝi permesas:
+La avantaĝo de je `''` uzi anstataŭ je `"`, estas, la ĉeeston de `"` ene ĝi ĝi permesas:
 
 ```nix
-nix-repl> ''"foo" "bar"''
-"\"foo\" \"bar\"\"
+nix-repl> ''"hundo" "kato"''
+"\"hundo\" \"kato\"\"
 ```
 
-La valoro kiun ĝi revenas estos ĝuste citita. Ĉu tio utilas poste kiam pli komplikajn esprimojn
+La valoro kiun ĝi revenas estos ĝuste citita. Ĉi tio utilas poste kiam pli komplikajn esprimojn
 ni muntos.
 
 Por signovicojn elreferenci ene signovicoj, la formon `${name}` uzu:
 
 ```nix
-nix-repl> x = "foo"
+nix-repl> x = "hundo"
 
-nix-repl> y = "bar"
+nix-repl> y = "kato"
 
 nix-repl> "${x} ${y}"
-"foo bar"
+"hundo kato"
 
 nix-repl> ''${x} ${y}''
-"foo bar"
+"hundo kato"
 ```
 
 
@@ -479,7 +479,7 @@ La valoron de tiu parta esprimo ni eĉ povas konservi:
 nix-repl> d = builtins.div 6
 ```
 
-La operatoro `=` en Nix estas uzata por valorojn bindi. En ĉi tiu ekzemplo, estas uzita por partan
+La operacisimbolo `=` en Nix estas uzata por valorojn bindi. En ĉi tiu ekzemplo, estas uzita por partan
 aplikon difini. Por tiun funkcion uzi:
 
 ```nix
@@ -502,10 +502,10 @@ false
 nix-repl> 1 == 1
 true
 
-nix-repl> "foo" == "foo"
+nix-repl> "hundo" == "hundo"
 true
 
-nix-repl> "foo" < "bar"
+nix-repl> "hundo" < "kato"
 false
 
 nix-repl> false || true
@@ -521,29 +521,29 @@ false
 Listoj estas heterogenaj tipoj por seriaj valoroj enteni. Eroj estas apartigitaj per spacetoj:
 
 ```nix
-nix-repl> [ 1 "foo" true ]
-[ 1 "foo" true ]
+nix-repl> [ 1 "hundo" true ]
+[ 1 "hundo" true ]
 ```
 
 Por listojn kunmeti:
 
 ```nix
-nix-repl> [ 1 "foo" true ] ++ [ false (6 / 2) ]
-[ 1 "foo" true false 3 ]
+nix-repl> [ 1 "hundo" true ] ++ [ false (6 / 2) ]
+[ 1 "hundo" true false 3 ]
 ```
 
 Por la kopon eltiri:
 
 ```nix
-nix-repl> builtins.head ([ 1 "foo" true (6 / 2) ] ++ [ false (6 / 2) ])
+nix-repl> builtins.head ([ 1 "hundo" true (6 / 2) ] ++ [ false (6 / 2) ])
 1
 ```
 
 Por la voston eltiri:
 
 ```nix
-nix-repl> builtins.tail ([ 1 "foo" true (6 / 2) ] ++ [ false (6 / 2) ])
-[ "foo" true 3 false 3 ]
+nix-repl> builtins.tail ([ 1 "hundo" true (6 / 2) ] ++ [ false (6 / 2) ])
+[ "hundo" true 3 false 3 ]
 ```
 
 Listoj estas indeksitaj komence de
@@ -551,8 +551,8 @@ Listoj estas indeksitaj komence de
 akiri, la operatoron `builtins.elemAt` uzu:
 
 ```nix
-nix-repl> builtins.elemAt [ 1 "foo" true ] 1
-"foo"
+nix-repl> builtins.elemAt [ 1 "hundo" true ] 1
+"hundo"
 ```
 
 
@@ -562,29 +562,30 @@ Grava datumstrukturo en Nix estas aroj. Ili estas paroj de ŝlosilvorto-valoro a
 punktokomoj:
 
 ```nix
-nix-repl> { a = 0; b = "bar"; c = true; d = (6 / 2); }
+nix-repl> { a = 0; b = "kato"; c = true; cx = (6 / 2); }
+{ a = 0; b = "kato"; c = true; cx = 3; }
 ```
 
 Tio, kion arojn igas malsamaj kontraŭ listoj estas, ke valorojn eltiri el ili estas faritaj per
-referencojn nomi. Por la valoron de `b` eltiri, la operatoron `.` uzu:
+referencojn nomi. Por la valoron de `b` eltiri, la operacisimbolon `.` uzu:
 
 ```nix
-nix-repl> { a = 0; b = "bar"; c = true; d = (6 / 2); }.b
-"bar"
+nix-repl> { a = 0; b = "kato"; c = true; cx = (6 / 2); }.b
+"kato"
 ```
 
 kiu estas ekvivalenta al:
 
 ```nix
-nix-repl> { a = 0; b = "bar"; c = true; d = (6 / 2); }."b"
-"bar"
+nix-repl> { a = 0; b = "kato"; c = true; cx = (6 / 2); }."b"
+"kato"
 ```
 
 Por anon elreferenci el tiu sama aro, la ŝlosilvorton `rec` uzu:
 
 ```nix
-nix-repl> rec { a = 0; b = "bar"; c = true; d = (6 / 2); e = b; }.e
-"bar"
+nix-repl> rec { a = 0; b = "kato"; c = true; cx = (6 / 2); d = b; }.d
+"kato"
 ```
 
 
@@ -594,8 +595,8 @@ En Nix ĉiom da dosierindikoj estas tradukitaj al absolutdosierindikoj. Se refer
 la nuna dosierujo oni faras:
 
 ```nix
-nix-repl> ./foo
-/home/ogag/foo
+nix-repl> ./hundo
+/home/ogag/hundo
 ```
 
 Fariĝas absolutdosierindiko. Ĉi tio estas Bonaĵo™.
@@ -604,8 +605,8 @@ Simile, se referencon al relativdosierindiko oni faras ene absolutdosierindiko, 
 tradukiĝas al absolutdosierindiko.
 
 ```nix
-nix-repl> /./foo
-/foo
+nix-repl> /./hundo
+/hundo
 ```
 
 Notu, bedaŭrinde, ke dosierindikoj kiuj staras sole ne plaĉas al Nix:
@@ -638,47 +639,47 @@ Sennoman funkcion kiu sian argumenton revenas ĉi tiu esprimo kreas—la
 [alfa-ekvivalenteco](https://eo.wikipedia.org/wiki/Lambda-kalkulo#%CE%B1-konverto):
 
 ```nix
-nix-repl> foo-bar-baz: foo-bar-baz
+nix-repl> hundo-kato-muso: hundo-kato-muso
 «lambda»
 ```
 
 Ĉi tiuj funkcioj ne estas tre utilaj tial, ke ili ne estas kaptitaj por aplikado. Se ĝin oni volas
-uzi, ekzemple kun la argumento `"foo"`, ĝin ni bezonas ĉirkaŭkovri per rondkrampoj:
+uzi, ekzemple kun la argumento `"hundo"`, ĝin ni bezonas ĉirkaŭkovri per rondkrampoj:
 
 ```nix
-nix-repl> (x: x) "foo"
-"foo"
+nix-repl> (x: x) "hundo"
+"hundo"
 ```
 
 Por pli da amuzo aldoni, tiun funkcion ni nomu:
 
 ```nix
-nix-repl> identity = x: x
+nix-repl> idento = x: x
 ```
 
 Bonege! Nun, ĝin ni apliku:
 
 ```nix
-nix-repl> identity "foo"
-"foo"
+nix-repl> idento "hundo"
+"hundo"
 ```
 
-Funkcion kiu je `" ugh"` postaldonas al sia enigo ni kreu, tiam ĝin ni apliku:
+Funkcion kiu je `" ve"` postaldonas al sia enigo ni kreu, tiam ĝin ni apliku:
 
 ```nix
-nix-repl> ugh = s: s + " ugh"
+nix-repl> ve = s: s + " ve"
 
-nix-repl> ugh "me"
-"me ugh"
+nix-repl> ve "mi"
+"mi ve"
 ```
 
 Por funkcion krei kiu alian argumenton akceptas, la jenan formon ni uzu:
 
 ```nix
-nix-repl> ugh = s: t: s + " ugh " + t
+nix-repl> ve = s: t: s + " ve " + t
 
-nix-repl> ugh "me" "you"
-"me ugh you"
+nix-repl> ve "mi" "vi"
+"mi ve vi"
 ```
 
 La modelo estas, ke por aldonan parametron aldoni, la formon `name: ` uzu.
@@ -687,82 +688,82 @@ Aroj, kiam uzitaj kun funkcioj, pli da potencaj abstraktadoj ŝaltas. Aron kiel 
 ni povas doni, kiu la datumon ene tiu aro do uzos:
 
 ```nix
-nix-repl> poof = { a, b }: x: a + " " + b + x
+nix-repl> anaso = { a, b }: x: a + " " + b + x
 ```
 
 Du parametrojn ĉi tiu funkcio havas: `{ a, b }`—parametra specifo por aro kun du eroj, kaj
 `x`—kutima parametro. Tenu en la kalkulo, ke parametra specifo ne estas veraro, sed nur maniero por
 la argumentojn kongrui; komon ĝi uzas kiel apartigilo de valoro. Ene ĉi tiu funkcio la enigojn ni
-povas kombini per la operatoro `+`. Por ĉi tiun funkcion uzi, ĝin ni uzu jene:
+povas kombini per la operacisimbolon `+`. Por ĉi tiun funkcion uzi, ĝin ni uzu jene:
 
 ```nix
-nix-repl> poof { a = "ugh"; b = "me"; } " poof"
-"ugh me poof"
+nix-repl> anaso { a = "ve"; b = "mi"; } " anaso"
+"ve mi anaso"
 ```
 
 Kiam aron funkcio deklaras kiel sia parametro, la ŝlosilvortojn oni devas precizigi kiam la
 funkciojn kiu ilin uzas invoki. Tiukaze, la nomoj de sa ŝlosilvortoj estas `a` kaj `b`:
 
-La difino de `poof` supre estas semantike simila al:
+La difino de `anaso` supre estas semantike simila al:
 
 ```nix
-nix-repl> poof = meh: x: meh.a + " " + meh.b + x
+nix-repl> anaso = ve: x: ve.a + " " + ve.b + x
 ```
 
 Kutiman, ne-ara parametron ni uzis ĉi tie por ke ĝi povu referenci al la aro kiel valoro. Ĉi tion
 rimarku:
 
 ```nix
-nix-repl> meh = { a = "foo"; b = "bar"; }
+nix-repl> ve = { a = "hundo"; b = "kato"; }
 
-nix-repl> meh.a
-"foo"
+nix-repl> ve.a
+"hundo"
 ```
 
 Ankaŭ eblas por la defaŭltajn valorojn precizigi. Kiam parametro kun defaŭlta valoro ne estas uzita,
 la defaŭlta valoro estos uzita. Simile, en Komunlispo:
 
 ```lisp
-(defun foop (a &optional (b "O.o"))
-  (concatenate 'string a b'))
+(defun birdo (a &optional (b "O.o"))
+  (concatenate 'string a b))
 ```
 
 ```nix
-nix-repl> foop = { a, b ? "O.o" }: a + b
+nix-repl> birdo = { a, b ? "O.o" }: a + b
 
-nix-repl> foop { a = "goo"; }
-"gooO.o"
+nix-repl> birdo { a = "oro"; }
+"oroO.o"
 
-nix-repl> foop { a = "goo"; b = "oog"; }
-"goooog"
+nix-repl> birdo { a = "oro"; b = "argxento"; }
+"oroargxento"
 ```
 
 Por pli da flekso aldoni, la uzon de pseŭdo-«rest» argumentoj Nix subtenas. La funkcion
 ĉi-supre ni modifu:
 
 ```nix
-nix-repl> foop = { a, b, ...}: a + b
+nix-repl> birdo = { a, b, ...}: a + b
 ```
 
 Ĝin ni uzu:
 
 ```nix
-nix-repl> foop { a = "meh"; b = "foo"; }
-"mehfoo"
+nix-repl> birdo { a = "ve"; b = "hundo"; }
+"vehundo"
 ```
 
 Estas same. Do kiel tiun flekson ni povas uzi? Etikodon por la atribuaro ni kreos por ke ni
 povu referenci all a ‘ekstraj’ valoroj:
 
 ```nix
-nix-repl> foop = attrs@{ a, b, ...}: a + b + attrs.c
+nix-repl> birdo = atribuoj@{ a, b, ...}: a + b + atribuoj.c
 ```
 
 Ĝin ni simple uzu kiel antaŭe, sed kun la uzado de la etikedo:
 
 ```nix
-nix-repl> foop { a = "goo"; b = "oog"; c = "hhh"; }
-"gooooghhh"
+nix-repl> birdo { a = "oro"; b = "argxento"; c = "bronzo"; }
+"oroargxentobronzo"
 ```
 
 Mi diris ‘pseŭda’ ĉar la valoro por `c` estis ankoraŭ postulita.
@@ -770,25 +771,25 @@ Mi diris ‘pseŭda’ ĉar la valoro por `c` estis ankoraŭ postulita.
 Defaŭltaj valoroj kaj variabla loknombro pova esti kunmetitaj:
 
 ```nix
-nix-repl> foop = attrs@{ a, b, c ? "C", ... }: a + b + c + attrs.d
+nix-repl> birdo = atribuoj@{ a, b, c ? "C", ... }: a + b + c + atribuoj.z
 
-nix-repl> foop { a = "A"; b = "B"; d = "D"; }
-"ABCD"
+nix-repl> birdo { a = "A"; b = "B"; z = "Z"; }
+"ABCZ"
 
-nix-repl> foop { a = "A"; b = "B"; c = "X"; d = "D"; }
-"ABXD"
+nix-repl> birdo { a = "A"; b = "B"; c = "X"; z = "Z"; }
+"ABXZ"
 
 ```
 
 
 ### <a name="nixlet"></a>Let
 
-Nin la ŝlosilvorto `let` permesas por por variablojn difini en lokamplekso. Ekzemple, por la
+Onin la ŝlosilvorto `let` permesas por por variablojn difini en lokamplekso. Ekzemple, por la
 identigilojn `x` kaj `y` igi videblaj nur en lokamplekso:
 
 ```nix
-nix-repl> let x = "foo"; y = "bar"; in x + poof { a = "huh"; b = "really"; } "hmm" + y
-"foohuh reallyhmmbar"
+nix-repl> let x = "hundo"; y = "kato"; in x + anaso { a = "ne"; b = "vere"; } "efektive" + y
+"hundone vereefektivekato"
 ```
 
 La lastan `;` antaŭ la `in` ŝlosilvorto kiu iras kun `let` tenu en la kalkulo—la komencon de la
@@ -801,8 +802,8 @@ programlingvoj kiel Lispo kaj Haskelo.
 Onin la ŝlosilvorto `with` permesas por arvalorojn demeti en amplekso:
 
 ```nix
-nix-repl> with { x = "foo"; y = "bar"; }; poof { a = y; b = x; } " xyz"
-"bar foo xyz"
+nix-repl> with { x = "hundo"; y = "kato"; }; anaso { a = y; b = x; } " xyz"
+"kato hundo xyz"
 ```
 
 Kio okazis ĉi tie, estas, ke la valoroj en tiu aro senvualiĝis por ilin disponebligi en la korpo de
@@ -829,48 +830,48 @@ nix-repl> if false then "true" else if false then "true" else if false then "tru
 ### <a name="nixdosierenportoj"></a>Dosierenportoj
 
 La ideo de dosierojn enporti en Nix-esprimo estas subtile malsame al aliaj lingvoj. Enportoj en Nix
-intime rilatas al aroj. Supozante, ke la dosieron `meh.nix` ni havas, kiu la jenan enhavas:
+intime rilatas al aroj. Supozante, ke la dosieron `ve.nix` ni havas, kiu la jenan enhavas:
 
 ```nix
 let
-  meh = x: x + "meh";
+  ve = x: x + "ve";
 in {
-  meh = meh;
+  ve = ve;
 }
 ```
 
-La saman *meh* la let-esprimo bindas al funkcio kiu unu argumenton akceptas. En la korpo de let,
-aron ĝi revenas kiu unu membron kun la nomo *meh* havas—la tiu en la maldekstra parto de la `=`. La
+La saman *ve* la let-esprimo bindas al funkcio kiu unu argumenton akceptas. En la korpo de let,
+aron ĝi revenas kiu unu membron kun la nomo *ve* havas—la tiu en la maldekstra parto de la `=`. La
 valoro de ĉi tiu ano estas la funkcio kiun ni ĵus difinis. La grava koncepto por memorigi, estas, ke
 atribuaron ĉi tiu let-esprimo revenas.
 
 Ni reen iru al la REPL por ĉi tiun dosieron uzi:
 
 ```nix
-nix-repl> import ./meh.nix
-{ meh = «lambda»; }
+nix-repl> import ./ve.nix
+{ ve = «lambda»; }
 ```
 
-La lambdo-terminon ni denove vidas. Sajnas, ke la *meh* nomo ĉi tie estas funkcio. Nun, kiel ĉi tiun
+La lambdo-terminon ni denove vidas. Sajnas, ke la *ve* nomo ĉi tie estas funkcio. Nun, kiel ĉi tiun
 valoron ni povas elreferenci? La operatoron `.` ni uzu!
 
 ```nix
-nix-repl> (import ./meh.nix).meh "foo"
-"foomeh"
+nix-repl> (import ./ve.nix).ve "hundo"
+"hundove"
 ```
 
-Rondkrampojn ni devis uzi tial, ke ne estas tia dosiero `meh.nix.meh` en la nuna dosierujo. Se ĝin
+Rondkrampojn ni devis uzi tial, ke ne estas tia dosiero `ve.nix.ve` en la nuna dosierujo. Se ĝin
 ni trapasos, ĝi aperos jene:
 
 ```nix
-nix-repl> { meh = «lambda»; }.meh "foo"
+nix-repl> { ve = «lambda»; }.ve "hundo"
 ```
 
 fariĝos:
 
 ```nix
-nix-repl> { meh = (x: x + "meh"); }.meh "foo"
-"foomeh"
+nix-repl> { ve = (x: x + "ve"); }.ve "hundo"
+"hundove"
 ```
 
 La enkondukajn konceptojn de la Nix-lingvo ĉi tiu sekcio resumas. La ceteraj vilaj detaloj troveblas
@@ -915,7 +916,7 @@ kiu kondukas al la efektiva Vim-duumdosiero en
 `/nix/store/w4cr4j13lqzry2b8830819vdz3sdypfa-vim-8.0.0329/bin/vim`.
 
 
-### <a name="nixpkginstalo"></a>Instalo
+### <a name="nixpkgsinstalo"></a>Instalo
 
 Se je NixOS oni uzas ĉi tiun preterpasu tial, ke Nixpkgs iras kun ĝi. Por je Nixpkgs instali sur
 linukso aŭ makintoŝo, kurigu:
@@ -928,7 +929,7 @@ dosiero aldoni. Kiam novajn aperaĵojn de la ŝelo oni generas la komandoj speci
 haveblaj.
 
 
-#### <a name="nixpkgsuzado"></a>Uzado
+### <a name="nixpkgsuzado"></a>Uzado
 
 Estas du manieroj por pakojn instali per Nixpkgs; la gita kopio, kiu estas la plej ĵusa versio,
 ĝisdatigita ĝis la lasta minuto, aŭ per kanalojn uzi. La
@@ -937,7 +938,7 @@ pako volas uzi, aŭ por uzantoj kiuj volas eltesti. [Kanaloj](https://nixos.org/
 estas esence kopioj de la gitdeponejo en antaŭ tempo.
 
 
-### <a name="nixpkgsgito"></a>Gito
+#### <a name="nixpkgsgito"></a>Gito
 
 Okazas ofte ĝisdatigoj al la gitdeponejo—ĉi tiun artikolon legante,
 [novaj ŝanĝoj](https://github.com/nixos/nixpkgs/pulls/) estas faritaj al la ĉefarbo. Por la
@@ -1253,6 +1254,8 @@ stdenv.mkDerivation rec {
 }
 ```
 
+Oni povas rimarki, ke la anglan ni uzas ene tial, ke ĝi estas la devigita lingvo en la tutprojekto.
+
 Kio novas ĉi tie estas la atribuo `installPhase`. La defaŭlta kunmetada procedoj de la *tthsum*-pako
 malsamals al la maniero, en kiu instalojn Nix traktas, do ni devas esti specifa pri tio. La `$out`
 identigilo signifas pri la fina dosierujo kie la programo loĝos en `/nix/store/`. En la uzantmedio,
@@ -1499,8 +1502,8 @@ Fundajn detalojn pri generadoj, derivaĵoj, kaj efektivigadoj estis eliziadoj in
 artikolo. Ili povas fariĝi sekcio per si mem, aŭ ĉi tiun artikolon mi eblas ĝisdatigi por tiujn
 temojn aldoni. Novan sekcion pri NixOs mi eblas skribi.
 
-Emaksa ĉefregimo por Nix-dosieroj [haveblas](https://github.com/NixOS/nix-mode) de la
-ĉefdeponejo. Ĝi ankaŭ [haveblas](https://melpa.org/#/nix-mode) per MELPA. Ĝin oni povas instali per:
+Emaksa ĉefregimo por Nix-dosieroj haveblas de la [ĉefdeponejo](https://github.com/NixOS/nix-mode) de
+NixOS. Ĝi ankaŭ haveblas per [MELPA](https://melpa.org/#/nix-mode). Ĝin oni povas instali per:q
 
 ```
 M-x package-install EN nix-mode EN
@@ -1524,17 +1527,21 @@ aplikaĵa aŭtomacia framo; kaj [ied](https://github.com/alexanderGugel/ied), al
 administrilo por Node.js.
 
 La artikoloj de
-[Luca Bruno](https://lethalman.blogspot.com/2014/07/nix-pill-1-why-you-should-give-it-try.html),
-[James Fisher](https://lethalman.blogspot.com/2014/07/nix-pill-1-why-you-should-give-it-try.html),
+[Luca BRUNO](https://lethalman.blogspot.com/2014/07/nix-pill-1-why-you-should-give-it-try.html),
+[James FISHER](https://lethalman.blogspot.com/2014/07/nix-pill-1-why-you-should-give-it-try.html),
 kaj
-[Oliver Charles](https://web.archive.org/web/20180610095602/https://ocharles.org.uk/blog/posts/2014-02-04-how-i-develop-with-nixos.html),
+[Oliver CHARLES](https://web.archive.org/web/20180610095602/https://ocharles.org.uk/blog/posts/2014-02-04-how-i-develop-with-nixos.html),
 kune la [NixOS](https://nixos.org/nixos/manual), [Nixpkgs](https://nixos.org/nixpkgs/manual),
 kaj [Nix](https://nixos.org/nix/manual) gvidiloj, min ege helpis por je Nix kompreni. Apartaj dankoj
-iras al [François-René Rideau](https://fare.livejournal.com) por min enkonduki al Nix antaŭ multaj jaroj.
+iras al [François-René RIDEAU](https://fare.livejournal.com) por min enkonduki al Nix antaŭ multaj jaroj.
 
 La NixOS-fondiĝo estas registrita senprofitcela organizo; la
 [oferdonoj](https://nixos.org/nixos/foundation.html) ege helpas en la disvolvo de Nix. Aliĝu al la
 [komunumo](https://nixos.org/nixos/community.html) kaj ĝin helpigu kreski!
+
+
+<a name="bonifiko"></a>Bonifiko
+-------------------------------
 
 Jen la [ipsilonkombinatoro](/eo/ipsilono) en Nix, aplikita al la faktoriala funkcio:
 
