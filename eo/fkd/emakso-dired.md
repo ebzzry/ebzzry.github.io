@@ -3,7 +3,7 @@ Dosierujojn Mastrumi per Emakso
 
 <div class="center">[Esperanto](#) · [English](/en/emacs-dired)</div>
 <div class="center">la 12-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 20-an de septembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 23-an de septembro 2018</div>
 
 >Supozi bonas, tamen eltrovi pli bonas.<br>
 >―Samuel CLEMENS
@@ -38,11 +38,11 @@ kiam oni premas <kbd>Enter</kbd>, bufro de la dosierujo aperos, kiu aspektas kie
 `ls -l`:
 
 ```
-/home/ogag/Desktop/foo:
+/home/vakelo/Desktop/foo:
 total used in directory 84 available 540767396
--rw-r--r-- 1 ogag users 5935 Sep 27 18:17 index.html
-drwxr-xr-x 3 ogag users 4096 Sep 26 17:42 bildoj
-drwxr-xr-x 3 ogag users 4096 Sep 26 05:39 filmoj
+-rw-r--r-- 1 vakelo users 5935 Sep 27 18:17 index.html
+drwxr-xr-x 3 vakelo users 4096 Sep 26 17:42 bildoj
+drwxr-xr-x 3 vakelo users 4096 Sep 26 05:39 filmoj
 ```
 
 Bone, nun, ke oni havas ĝin, kion si povas fari per ĝi? Nu, la jena estas mallonga listo de tiuj,

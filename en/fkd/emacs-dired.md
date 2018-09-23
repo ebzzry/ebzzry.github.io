@@ -3,7 +3,7 @@ Managing Directories with Emacs
 
 <div class="center">[Esperanto](/eo/emakso-dired-o) · [English](#)</div>
 <div class="center">September 26, 2013</div>
-<div class="center">Last updated: February 12, 2018</div>
+<div class="center">Last updated: September 23, 2018</div>
 
 >Supposing is good, but finding out is better.<br>
 >―Samuel Clemens
@@ -37,11 +37,11 @@ way, when you hit <kbd>Enter</kbd>, a buffer of the directory will load, that lo
 of `ls -l`:
 
 ```
-/home/ogag/Desktop/foo:
+/home/vakelo/Desktop/foo:
 total used in directory 84 available 540767396
--rw-r--r-- 1 ogag users 5935 Sep 27 18:17 index.html
-drwxr-xr-x 3 ogag users 4096 Sep 26 17:42 pics
-drwxr-xr-x 3 ogag users 4096 Sep 26 05:39 vids
+-rw-r--r-- 1 vakelo users 5935 Sep 27 18:17 index.html
+drwxr-xr-x 3 vakelo users 4096 Sep 26 17:42 pics
+drwxr-xr-x 3 vakelo users 4096 Sep 26 05:39 vids
 ```
 
 Okay, now that you have it, what can you do with it? Well, here is a short list of what, you can do
