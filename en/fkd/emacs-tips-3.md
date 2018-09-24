@@ -96,7 +96,7 @@ When I press <kbd>M-g =</kbd>, it will become:
 ```
 Foo Bar Baz
 ===========
-          ^
+           ^
 ```
 
 Conversely, if I have:
@@ -120,7 +120,7 @@ Foo Bar Baz
 
 Section I
 ---------
-        ^
+         ^
 ```
 
 
