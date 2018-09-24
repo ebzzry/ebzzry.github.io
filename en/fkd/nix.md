@@ -3,7 +3,7 @@ A Gentle Introduction to the Nix Family
 
 <div class="center">[Esperanto](/eo/nix) · [English](#)</div>
 <div class="center">March 22, 2017</div>
-<div class="center">Last updated: September 23, 2018</div>
+<div class="center">Last updated: September 24, 2018</div>
 
 >Don’t worry about what anybody else is going to do. The best way to predict the future is to
 >invent it.<br>
@@ -1343,7 +1343,7 @@ This declares that the packages named *zsh* and *vim* will be available for all 
 system. The binaries will be available as `/run/current-system/sw/bin/zsh` and
 `/run/current-system/sw/bin/vim`, for Zsh and Vim, respectively.
 
-On macOS, the system environment is not used.
+By the way, the system environment only exists on NixOS.
 
 
 ### <a name="userenvironment"></a> User environment
