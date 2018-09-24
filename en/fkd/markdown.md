@@ -8,7 +8,7 @@ My Markdown Style Guide
 >The laws that govern circumstances are abolished by new circumstances.<br>
 >―Napoleon Bonaparte
 
-I like writing in Markdown—it’s readable, lightweight, and portable. It’s plain text so you don’t
+I like writing in Markdown. It’s readable, lightweight, and portable. It’s plain text so you don’t
 need special applications to read or write with it. In this article, I post my guidelines on how I
 write Markdown files. I follow a certain set of rules so that my files look consistent with one
 another, and so that GNU Emacs will be able to format it nicely.
@@ -246,7 +246,7 @@ commands, bound to <kbd>M-g =</kbd>, <kbd>M-g -</kbd>, and <kbd>M-g `</kbd>, res
 it easy for me to insert the delimiters. For example, if I have the following text, where `^` is point:
 
 ```markdown
-What is it Like Out There?
+What Is Out There?
 
 ^
 ```
@@ -254,9 +254,9 @@ What is it Like Out There?
 then, when I press <kbd>M-g =</kbd>, it will become:
 
 ```markdown
-What is it Like Out There?
-==========================
-                          ^
+What Is Out There?
+==================
+                  ^
 ```
 
 The same apply with level 2 headings. So if I have:
