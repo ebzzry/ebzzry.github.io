@@ -3,7 +3,7 @@ Citaĵoj
 
 <div class="center">[Esperanto](#) · [English](/en/quotes)</div>
 <div class="center">la 15-an de novembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 23-an de septembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 24-an de septembro 2018</div>
 
 Ĉi tiu paĝo enhavas liston de atenteme elektitaj citaĵoj, aforismoj, kaj sentencoj kiujn mi kolektis
 tra la jarojn.
@@ -467,11 +467,11 @@ tra la jarojn.
 
 
 - La plej granda danĝero okazas je la momenton de venko.<br>
-  ―Napoleon BONAPARTE
+  ―Napoleono BONAPARTE
 
 
 - La reglamentoj kiuj direktas cirkonstancojn nuliĝis per novaj cirkonstancoj.<br>
-  ―Napoleon BONAPARTE
+  ―Napoleono BONAPARTE
 
 
 - Milita forto ne havas daŭran formon. La akvo ne havas daŭran formon. La kapablo por gajni venkon

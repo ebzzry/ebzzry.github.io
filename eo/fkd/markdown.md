@@ -6,9 +6,9 @@ Mia Markdown-Stila Gvidilo
 <div class="center">Laste ĝisdatigita: la 24-an de septembro 2018</div>
 
 >La reglamentoj kiuj direktas cirkonstancojn nuliĝis per novaj cirkonstancoj.<br>
->―Napoleon BONAPARTE
+>―Napoleono BONAPARTE
 
-Skribi per Markdown plaĉas al mi—ĝi estas legebla, plumpeza, kaj portebla. Ĝi estas platteksta do
+Skribi per Markdown plaĉas al mi. Ĝi estas legebla, plumpeza, kaj portebla. Ĝi estas platteksta do
 specialajn apojn oni ne plu bezonas por legi kaj skribi kun ĝi. En ĉi tiu artikolo miajn proprajn
 gvidnormojn sur kiel Markdown-dosierojn skribi mi priparolos. Specifajn arojn de reguloj mi observas
 por ke miaj dosierroj povu aspekti koheraj kun unu al aliaj, kaj por ke ĝin emakso povu formati
@@ -43,14 +43,14 @@ egalosignon (=) mi uzas por la 1-an nivelon indiki anstataŭ la kradosigno (#). 
 plifaciliĝas por la ĉapon vidi, kaj ĝin ĝi distingas kontraŭ la aliaj markiloj. Ĝin mi uzas tiel:
 
 ```markdown
-How to Fly Like a Lobster
-=========================
+Kiel Flugi Samkiel Omaro
+========================
 ```
 
 anstataŭ
 
 ```markdown
-# How to Fly Like a Lobster
+# Kiel Flugi Samkiel Omaro
 ```
 
 
@@ -62,14 +62,14 @@ dosiero. Similas al la nivela 1-a ĉapelo, la streketon (-) mi uzas por la ĉapo
 tiel:
 
 ```markdown
-Preparing Your Pincers
-----------------------
+La Pinĉilojn Pretigi
+--------------------
 ```
 
 anstataŭ
 
 ```markdown
-## Preparing Your Pincers
+## La Pinĉilojn Pretigi
 ```
 
 
@@ -81,13 +81,13 @@ por la nivelon indiki.
 Nivelo 3-a:
 
 ```markdown
-### Fuel
+### Bruligaĵo
 ```
 
 Nivelo 4-a:
 
 ```markdown
-#### Organic
+#### Organa
 ```
 
 Kaj tiel plu.
@@ -100,25 +100,25 @@ La spaco inter dokumentaj eroj devas esti akordaj por legeblecon plifaciligi. Po
 linion kreu:
 
 ```markdown
-Yeah, yeah, yeah
-================
+Ja, ja, ja
+==========
 
-Some text here
+Teksto ĉi tie
 ```
 
 Novan linion kreante, du malplenajn liniojn antaŭ ĝi kreu:
 
 ```markdown
-Yeah, yeah, yeah
-================
+Ja, ja, ja
+==========
 
-Some text here
+Teskto ĉi tie
 
 
-Preparing Your Pincers
-----------------------
+La Pinĉilojn Pretigi
+--------------------
 
-Meh
+Ve
 ```
 
 Alia bona kialo por malplenan spacon havi post ĉiu ĉapo estas por helpi al redaktiloj kiel emakso
@@ -129,20 +129,20 @@ por la tekston formati. Teksblokon la klavkombino <kbd>M-q</kbd> formatas—defa
 Do se la jenan tekston oni havas:
 
 ```markdown
-Preparing Your Pincers
-----------------------
+La Pinĉilojn Pretigi
+--------------------
 
-Meh meh meh mehmeh meh mehmeh meh mehmeh meh mehmeh meh mehmeh meh mehmeh meh mehmeh meh mehmeh meh mehmeh meh mehmeh meh mehmeh meh meh
+Ve ve ve veve ve veve ve veve ve veve ve veve ve veve ve veve ve veve ve veve ve veve ve veve ve ve
 ```
 
 kaj je <kbd>M-q</kbd> oni premas dum la punkto estas ie en la lasta linio, ĝi fariĝos:
 
 ```markdown
-Preparing Your Pincers
-----------------------
+La Pinĉilojn Pretigi
+--------------------
 
-Meh meh meh mehmeh meh mehmeh meh mehmeh meh mehmeh meh mehmeh meh mehmeh meh
-mehmeh meh mehmeh meh mehmeh meh mehmeh meh mehmeh meh meh
+Ve ve ve veve ve veve ve veve ve veve ve veve ve veve ve
+veve ve veve ve veve ve veve ve veve ve ve
 ```
 
 
@@ -153,7 +153,7 @@ Kiam du aŭ pli liniojn kodo aŭ komandbloko okupas, ĝin krommarĝenigu per kva
 
 ```bash
     VAR=blahblahblah
-    function meh () { echo meh }
+    function ve () { echo ve }
 ```
 
 
@@ -161,9 +161,9 @@ Se estas tri aŭ pli linioj, paroj de tri maldekstraj kornoj (```) uzu por la ko
 la kodbloko limigi:
 
     ˋˋˋbash
-    $ mkdir foo
-    $ echo foo > foo/foo
-    $ rm -rf foo
+    $ mkdir hundo
+    $ echo hundo > hundo/hundo
+    $ rm -rf hundo
     $ date
     ˋˋˋ
 
@@ -179,15 +179,15 @@ signobildon la streketo havas inter malsamaj litertipoj.
 Ekzemple:
 
 ```markdown
-- lobsters
-  + pincers
-  + thorax
-- crabs
-  + pincers
-    * laser cannon
-    * chainsaw
-      * detachable
-- unicorns
+- Omaroj
+  + pinĉiloj
+  + torako
+- Kraboj
+  + pinĉiloj
+    * laserpafilego
+    * ĉensegilo
+      * forprenebla
+- Unikornuloj
 ```
 
 <a name="ankroj"></a>Ankroj
@@ -221,15 +221,15 @@ per modernaj grafikaj sistemoj—estas pli dezirata por ke pli da informo ni pov
 70 signoj:
 
 ```
-Meh meh meh mehmeh meh mehmeh meh mehmeh meh mehmeh meh mehmeh meh
-mehmeh meh mehmeh meh meh meh meh mehmeh meh mehmeh meh mehmeh meh meh
+Ve ve ve veve ve veve ve veve ve veve ve veve ve
+veve ve veve ve ve ve ve veve ve veve ve veve ve ve
 ```
 
 100 signoj:
 
 ```
-Meh meh meh mehmeh meh mehmeh meh mehmeh meh mehmeh meh mehmeh meh mehmeh meh mehmeh meh meh meh meh
-mehmeh meh mehmeh meh mehmeh meh meh
+Ve ve ve veve ve veve ve veve ve veve ve veve ve veve ve veve ve ve ve ve
+veve ve veve ve veve ve ve
 ```
 
 Ĉi tiu gvidnormo, bedaŭrinde, eble ne aplikiĝas se la redaktilojn de servoj kiel GitHub aŭ GitLab
@@ -245,7 +245,7 @@ por la enmetadojn de la apartigiloj plifaciligi. Ekzemple, se la jenan tekston o
 `^` estas la punkto:
 
 ```markdown
-What is it Like Out There?
+Kio Estas Tie?
 
 ^
 ```
@@ -253,15 +253,15 @@ What is it Like Out There?
 tiam se je <kbd>M-g =</kbd> oni premas, ĝi fariĝos:
 
 ```markdown
-What is it Like Out There?
-==========================
-                          ^
+Kio Estas Tie?
+==============
+              ^
 ```
 
 La sama aplikas al nivelaj 2-aj ĉapoj. Do se la jenan oni havas:
 
 ```markdown
-Monsters and angels
+Monstroj kaj anĝeloj
 
 ^
 ```
@@ -269,15 +269,15 @@ Monsters and angels
 tiam se je <kbd>M-g -</kbd> oni premas, ĝi fariĝos:
 
 ```markdown
-Monsters and angels
--------------------
-                   ^
+Monstroj kaj anĝeloj
+--------------------
+                    ^
 ```
 
 Se la jenan oni havas:
 
 ```markdown
-Code snippet:
+Kodeto:
 
 
 ^
@@ -286,7 +286,7 @@ Code snippet:
 tiam se je <kbd>M-g `</kbd> oni premas, ĝi fariĝos:
 
 ```markdown
-Code snippet:
+Kodeto:
 
 ``````
    ^
