@@ -10,8 +10,8 @@ Mia Markdown-Stila Gvidilo
 
 Skribi per Markdown plaĉas al mi. Ĝi estas legebla, plumpeza, kaj portebla. Ĝi estas platteksta do
 specialajn apojn oni ne plu bezonas por legi kaj skribi kun ĝi. En ĉi tiu artikolo miajn proprajn
-gvidnormojn sur kiel Markdown-dosierojn skribi mi priparolos. Specifajn arojn de reguloj mi observas
-por ke miaj dosierroj povu aspekti koheraj kun unu al aliaj, kaj por ke ĝin emakso povu formati
+gvidnormojn pri kiel Markdown-dosierojn skribi mi priparolos. Specifajn arojn de reguloj mi observas
+por ke miaj dosierroj povu aspekti koheraj kun unu la aliaj, kaj por ke ĝin emakso povu formati
 bele.
 
 
@@ -27,7 +27,7 @@ bele.
 - [Bullistoj](#bullistoj)
 - [Ankroj](#ankroj)
 - [Linia larĝo](#largxo)
-- [Ektraj](#ektraj)
+- [Ekstraj](#ekstraj)
 - [Finrimarkoj](#finrimarkoj)
 
 
@@ -57,7 +57,7 @@ anstataŭ
 
 ### <a name="nivelo2a"></a>Nivelo 2-a
 
-La supraj partoj de dokumento niveloj 2-aj ĉapeloj montras. Ili estas la ĉefaj apartigiloj en
+La supraj partoj de dokumento nivelaj 2-aj ĉapeloj montras. Ili estas la ĉefaj apartigiloj en
 dosiero. Similas al la nivela 1-a ĉapelo, la streketon (-) mi uzas por la ĉapon marki. Ĝin mi uzas
 tiel:
 
@@ -123,8 +123,8 @@ Ve
 
 Alia bona kialo por malplenan spacon havi post ĉiu ĉapo estas por helpi al redaktiloj kiel emakso
 por la tekston formati. Teksblokon la klavkombino <kbd>M-q</kbd> formatas—defaŭlte bindita al
-`fill-paragraph`—por ke la maksimuma linia larĝo estas ĝuste plenumiĝita. La variablon
-`fill-column`—defaŭlte bindita al 70—la komandon `fill-paragraph` uzas por tekskorpon formati.
+`fill-paragraph`—por ke la maksimuma linia larĝo estu ĝuste plenumiĝita. La variablon
+`fill-column`—defaŭlte bindita al 70—la komando `fill-paragraph` uzas por tekskorpon formati.
 
 Do se la jenan tekston oni havas:
 
@@ -168,8 +168,9 @@ la kodbloko limigi:
     ˋˋˋ
 
 <a name="bullistoj"></a>Bullistoj
+---------------------------------
 
-Kiam listojn krei, la streketon (-) mi ofte uzas por la nivelon 1-an indiki. Tiam, la pluson (+) mi
+Listojn kreante, la streketon (-) mi ofte uzas por la nivelon 1-an indiki. Tiam, la pluson (+) mi
 uzas por la nivelon 2-an indiki. Fine, por la nivelo 3-a kaj malpli altaj, la steleton (*) mi uzas.
 
 La streketo pli facilas por tajpi sur klavaro ol la steleto. Oni ne estas devigita por la
@@ -215,7 +216,7 @@ Enhavotebelo
 <a name="largxo"></a>Linia larĝo
 --------------------------------
 
-De longe, estis bona ideo por la liniojn faldi ĝis la 70 kolumno. Nuntempe, pli alta limo—ebligita
+De longe, estis bona ideo por la liniojn faldi ĝis la 70 kolumnon. Nuntempe, pli alta limo—ebligita
 per modernaj grafikaj sistemoj—estas pli dezirata por ke pli da informo ni povu enpaki en unu linio:
 
 70 signoj:
@@ -296,6 +297,6 @@ Kodeto:
 <a name="finrimarkoj"></a>Finrimarkoj
 -------------------------------------
 
-Per ĉi tiujn simplaj gvidnormojn observante, koherecon inter miaj Markdown-dosieroj mi kreas. Ĉi
+Per ĉi tiujn simplajn gvidnormojn observante, koherecon inter miaj Markdown-dosieroj mi kreas. Ĉi
 tiuj gvidnormoj servas kiel miaj ŝablonoj kiam novajn dokumentojn krei aŭ ekzistantan dosierojn
 modifi. Se proponojn aŭ kritikojn oni havas, la tirpetojn sendu al mi!
