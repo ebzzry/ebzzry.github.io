@@ -1,9 +1,9 @@
-Retrospekte
-===========
+Rerigardante
+============
 
 <div class="center">[Esperanto](#) · [English](/en/retrospect)</div>
 <div class="center">la 8-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 11-an de aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 24-an de septembro 2018</div>
 
 >El la militolernejo de la vivo: kion ne detruas min, igas min pli forte.<br>
 >―Friedrich NIETZSCHE
@@ -13,10 +13,10 @@ estas alia grava afero, kiun la vivo instruas nin—travivado. Kiam ni estas en 
 disfalo, paneo, aŭ eĉ morto, la plej gravaj aferoj en niaj vivoj ekaperas antaŭ niaj okuloj.
 
 Kiam ni ricevas multe da doloro, kaj ni travivas ĝin, ni vivos rakonti la rakonton. Ni vivos kunhavi
-la rakonton por venontaj generacioj. Kiam ni suferas kaj brakumas la necesan agonion, ni devigatis
-pensi retrospekte. Tiam ni devigatis analizi. Ni tiam metitas en pozicion, en kiu, ni ne plu
-povas priprokrasti la sekvan idealan aferon por fari. Mi konsciis, ke kiam ni travivas afliktadon,
-magia io komencas okazi. Kaj kiel por mi, alvenis en la formo de malĝentila vekiĝo.
+la rakonton por venontaj generacioj. Kiam ni suferas kaj brakumas la necesan agonion, ni deviĝis
+pensi rerigardante. Tiam ni devigatis analizi. Ni tiam metitas en pozicion, en kiu, ni ne plu povas
+priprokrasti la sekvan idealan aferon por fari. Mi konsciis, ke kiam ni travivas afliktadon, magia
+io komencas okazi. Kaj kiel por mi, alvenis en la formo de malĝentila vekiĝo.
 
 Mi ne sciis, ke magia io disfaldos. Per ne nei mian staton, mi kapablis brakumi la premion. Mi
 konsciis, ke kiam mi povis avidi spiron, mi malŝlosis partojn de mi, kiuj restis nekonitaj

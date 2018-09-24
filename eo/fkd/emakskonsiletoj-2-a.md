@@ -3,9 +3,9 @@ Emakskonsiletoj 2-a: Seancoj kaj Pakoj
 
 <div class="center">[Esperanto](#) · [English](/en/emacs-tips-2)</div>
 <div class="center">la 20-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 20-an de septembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 24-an de septembro 2018</div>
 
-Ĉi tiu estas la daŭrigo de la serioj pri Emaksaj konsiletoj. En ĉi tiu afiŝo, ni esploras seancan
+Ĉi tiu estas la daŭrigo de la serioj pri emaksaj konsiletoj. En ĉi tiu afiŝo, ni esploras seancan
 mastrumadon, pakojn, krommarĝenojn, kaj aliajn malgrandajn agrablajn aferojn.
 
 
@@ -34,7 +34,7 @@ mastrumadon, pakojn, krommarĝenojn, kaj aliajn malgrandajn agrablajn aferojn.
 
 Havenda ilo kiun mi nun uzas estas _Desktop_. Ĝi konservas la staton de la emaksa seanco, por ke en
 la okazo de kraŝo, kurenta malfunkcio, aŭ io kiu igas min perdi mian seancon, mi povu reiri al
-ĝi. Desktop-o enkonstruitas kun la plej ĵusaj versioj de Emakso. La jena estas la kodaĵo:
+ĝi. Desktop-o enkonstruitas kun la plej ĵusaj versioj de emakso. La jena estas la kodaĵo:
 
 ```lisp
 (require 'desktop)
@@ -107,7 +107,7 @@ Liveras la agrablan:
 
 ### <a name="elpa"></a>ELPA
 
-ELPA-o estas la pako-administrila sistemo de Emakso. Se vi ne ankoraŭ uzas la paksistemon, uzu ĝin
+ELPA-o estas la pako-administrila sistemo de emakso. Se vi ne ankoraŭ uzas la paksistemon, uzu ĝin
 nun. Ĉiuj, kiujn oni bezonas komenci estas la jena:
 
 ```lisp
@@ -143,7 +143,7 @@ Por ĝistadigi vian lokan datumon, premu:
 Ĉi tiu estas vera valorŝtono. Similas al `require`, tamen kun steroidoj. Kiam *require*-igi pakon,
 oni havas la elekton por instali tiun pakon, se tiu ne ankoraŭ ekzistas. Ankaŭ donas al la uzanto
 la kapablon por agordi tiun pakon, ene unuigita esprimo. Tamen, male `require`, `use-package` ne
-alvenas konstruita kun Emakso. Oni bezonas instali ĝin per `package-install`:
+alvenas konstruita kun emakso. Oni bezonas instali ĝin per `package-install`:
 
     M-x pi EN use-package EN
 
@@ -324,4 +324,4 @@ La klavkombinoj por la supraj komandoj listigitas malsupre:
 
 En ĉi tiu afiŝo, mi montris, ke la malgrandaj alĝustigetoj povas generi grandajn gajnojn. Le resto
 de la agordo troveblas [ĉi tie](https://github.com/ebzzry/dotfiles/tree/master/emacs). Se vi havas
-Emaksan kodumon por havigi, sendu tirpeton!
+emaksan kodumon por havigi, sendu tirpeton!

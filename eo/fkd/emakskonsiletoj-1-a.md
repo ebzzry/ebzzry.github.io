@@ -3,12 +3,12 @@ Emakskonsiletoj 1-a: Regionoj kaj Markoj
 
 <div class="center">[Esperanto](#) · [English](/en/emacs-tips-1)</div>
 <div class="center">la 12-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 12-an de septembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 24-an de septembro 2018</div>
 
-Mi ankoraŭ bezonas trovi pli bonan redaktilon ol [Emakso](https://www.gnu.org/software/emacs/). Kio
-faras Emakson elstari, estas sia agorda lingvo—Emaksa Lispo. Emakso uzas ĝin al punkto, en kiu,
-plejmulto de la funkciado de si mem, realigitas per Emakslispo. En ĉi tiuj serioj, mi priparolos
-la aferojn, kiujn mi malkovris fari la uzadon de Emakso pli agrabla.
+Mi ankoraŭ bezonas trovi pli bonan redaktilon ol [emakso](https://www.gnu.org/software/emacs/). Kio
+faras emakson elstari, estas sia agorda lingvo—emaksa Lispo. Emakso uzas ĝin al punkto, en kiu,
+plejmulto de la funkciado de si mem, realigitas per emakslispo. En ĉi tiuj serioj, mi priparolos
+la aferojn, kiujn mi malkovris fari la uzadon de emakso pli agrabla.
 
 
 <a name="et"></a>Enhavotabelo
@@ -78,7 +78,7 @@ Kaj mi ankaŭ havas la jenan, tial ke, mi plaĉe volas ĝisrandigi la `λ`-an si
 <a name="servilo"></a>Servilo
 -----------------------------
 
-La jena kodaĵo certigas, ke la Emaksa servilo, la tiu, kiun `emacsclient` konektas al, kuras:
+La jena kodaĵo certigas, ke la emaksa servilo, la tiu, kiun `emacsclient` konektas al, kuras:
 
 ```lisp
 (require 'server)
@@ -87,7 +87,7 @@ La jena kodaĵo certigas, ke la Emaksa servilo, la tiu, kiun `emacsclient` konek
   (server-start))
 ```
 
-Alterne, oni povas kuri Emakson en demonreĝimo el la komandlinio:
+Alterne, oni povas kuri emakson en demonreĝimo el la komandlinio:
 
 ```bash
 $ emacs --daemon
