@@ -1,8 +1,9 @@
 My Markdown Style Guide
 =======================
 
+<div class="center">[Esperanto](/eo/markdown) · [English](#)</div>
 <div class="center">April 3, 2017</div>
-<div class="center">Last updated: August 16, 2018</div>
+<div class="center">Last updated: September 24, 2018</div>
 
 >The laws that govern circumstances are abolished by new circumstances.<br>
 >―Napoleon Bonaparte
@@ -17,6 +18,9 @@ Table of contents
 -----------------
 
 - [Headings](#headings)
+  + [Level 1](#level1)
+  + [Level 2](#level2)
+  + [Lower levels](#lowerlevels)
 - [Spacing](#spacing)
 - [Code blocks](#codeblocks)
 - [Bullets](#bullets)
@@ -87,7 +91,6 @@ Level 4:
 And, so on.
 
 
-
 <a name="spacing"></a> Spacing
 ------------------------------
 
@@ -117,7 +120,7 @@ Meh
 ```
 
 Another good reason for having a blank space after every heading is to make it easy for text editors
-like GNU Emacs to to format the text. The keyboard shortcut <kbd>M-q</kbd>, bound by default to
+like GNU Emacs to format the text. The keyboard shortcut <kbd>M-q</kbd>, bound by default to
 `fill-paragraph`, reformats a text block so that the maximum line width is filled correctly. The
 command `fill-paragraph` uses the `fill-column` variable–bound by default to 70—to reformat a text
 body.
@@ -137,8 +140,8 @@ and you press <kbd>M-q</kbd> while point (cursor) is somewhere in the last line,
 Preparing Your Pincers
 ----------------------
 
-Meh meh meh mehmeh meh mehmeh meh mehmeh meh mehmeh meh mehmeh meh mehmeh meh mehmeh meh mehmeh meh
-mehmeh meh mehmeh meh mehmeh meh meh
+Meh meh meh mehmeh meh mehmeh meh mehmeh meh mehmeh meh mehmeh meh mehmeh meh
+mehmeh meh mehmeh meh mehmeh meh mehmeh meh mehmeh meh meh
 ```
 
 
@@ -165,7 +168,7 @@ of a code block:
 <a name="bullets"></a> Bullets
 ------------------------------
 
-When making lists, I like to use the `-` (hyphen) charactr to indicate the first level. Then, I use
+When making lists, I like to use the `-` (hyphen) character to indicate the first level. Then, I use
 the `+` (plus) character to indicate the second level. Finally, for level 3 and lower, I use `*`
 (asterisk) character.
 
@@ -240,7 +243,7 @@ GitLab, wherein it is usually more convenient to let the UI wrap the text.
 
 When using GNU Emacs, I use [these](https://gist.github.com/ebzzry/1206a1922805a872713bdaf2e8c419f5)
 commands, bound to <kbd>M-g =</kbd>, <kbd>M-g -</kbd>, and <kbd>M-g `</kbd>, respectively, to make
-it easy for me to insert the delimiters. For example, if I have the following text, where ^ is point:
+it easy for me to insert the delimiters. For example, if I have the following text, where `^` is point:
 
 ```markdown
 What is it Like Out There?
