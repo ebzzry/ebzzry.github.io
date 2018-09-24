@@ -1,8 +1,9 @@
 Emacs Tips and Tricks 3: Insert and Delete
 ==========================================
 
+<div class="center">[Esperanto](/eo/emakskonsiletoj-3-a) · [English](#)</div>
 <div class="center">April 1, 2017</div>
-<div class="center">Last updated: December 13, 2017</div>
+<div class="center">Last updated: September 24, 2017</div>
 
 This is the continuation of my series on Emacs tips and tricks. In this article, we explore string
 insertion, and line deletion, marking, and yanking.
@@ -110,7 +111,7 @@ Section I
 ^
 ```
 
-When I press <kbd>M-g -</kbd>, it will become:
+ When I press <kbd>M-g -</kbd>, it will become:
 
 ```
 Foo Bar Baz
@@ -182,7 +183,7 @@ following:
   (mark-thing 'point 'end-of-line))
 ```
 
-I bound it <kbd>C-c C-a</kbd> and <kbd>C-c C-e</kbd>, respectively.
+I bound them <kbd>C-c C-a</kbd> and <kbd>C-c C-e</kbd>, respectively.
 
 
 <a name="yanking"></a> Yanking
@@ -243,7 +244,7 @@ Here’s the relevant snippet for all the commands discussed in this article. If
  ("M-g `" . insert-backticks)
  ("M-g =" . insert-equals)
  ("M-g -" . insert-hyphens))
- ```
+```
 
 
 <a name="closing"></a> Closing remarks

@@ -1,9 +1,9 @@
 In Retrospect
 =============
 
-<div class="center">[Esperanto](/eo/retrospekte) · [English](#)</div>
+<div class="center">[Esperanto](/eo/rerigardante) · [English](#)</div>
 <div class="center">July 11, 2013</div>
-<div class="center">Last updated: August 1, 2018</div>
+<div class="center">Last updated: September 24, 2018</div>
 
 >Out of life's school of war: What does not destroy me, makes me stronger.<br>
 >―Friedrich Nietzsche
