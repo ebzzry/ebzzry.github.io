@@ -5,7 +5,7 @@ Emakskonsiletoj 3-a: Enmeti kaj Forviŝi
 <div class="center">la 24-an de septembro 2018</div>
 <div class="center">Laste ĝisdatigita: la 24-an de septembro 2018</div>
 
-Jen la daŭrigado de mia serio pri emaksaj konsiletoj. En ĉi tiu artikolo, ni esploru pri signovicaj
+Jen la daŭrigo de mia serio pri emaksaj konsiletoj. En ĉi tiu artikolo, ni esploru pri signovicaj
 enmetadoj, kaj linia forviŝado, markado, kaj algluado.
 
 
@@ -195,7 +195,7 @@ terminalsimulilo.
 
 Unue, je xclip ni bezonas instali:
 
-Per Nix:
+Per Nixpkgs:
 
     nix-env -i xclip
 

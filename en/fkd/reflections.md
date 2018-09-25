@@ -3,7 +3,7 @@ Reflections
 
 <div class="center">[Esperanto](/eo/pripensoj) · [English](#)</div>
 <div class="center">November 24, 2015</div>
-<div class="center">Last updated: September 19, 2018</div>
+<div class="center">Last updated: September 25, 2018</div>
 
 This page contains contains some of my personal reflections.
 
@@ -316,3 +316,6 @@ quantify, qualify, and justify our perceived existence.<br>
 
 
 - Peace does not imply quietness. Chaos does not imply noise. Permanence does not equate infinity.<br>
+
+
+- Show me a mon who doesn’t want to embrace pain and I’ll show you a boy.<br>
