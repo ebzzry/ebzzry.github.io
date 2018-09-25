@@ -193,7 +193,7 @@ I want to be able to yank from the clipboard to Emacs, especially when I’m on 
 
 First, we need to install xclip:
 
-Nix:
+Nixpkgs:
 
     nix-env -i xclip
 
