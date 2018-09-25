@@ -72,7 +72,7 @@ Section I
   &quot;Create a region from point to end of line&quot;
   &#40;interactive &quot;p&quot;&#41;
   &#40;mark-thing 'point 'end-of-line&#41;&#41;
-</code></pre><p>I bound them <kbd>C-c C-a</kbd> and <kbd>C-c C-e</kbd>, respectively.</p><h2><a name="yanking"></a> Yanking</h2><p>I want to be able to yank from the clipboard to Emacs, especially when I’m on the terminal.</p><p>First, we need to install xclip:</p><p>Nix:</p><pre><code>nix-env -i xclip</code></pre><p>APT:</p><pre><code>sudo apt-get install -y xclip</code></pre><p>Then, we add in the Emacs Lisp code:</p><pre><code class="lisp">&#40;defun yank-primary &#40;&amp;optional arg&#41;
+</code></pre><p>I bound them <kbd>C-c C-a</kbd> and <kbd>C-c C-e</kbd>, respectively.</p><h2><a name="yanking"></a> Yanking</h2><p>I want to be able to yank from the clipboard to Emacs, especially when I’m on the terminal.</p><p>First, we need to install xclip:</p><p>Nixpkgs:</p><pre><code>nix-env -i xclip</code></pre><p>APT:</p><pre><code>sudo apt-get install -y xclip</code></pre><p>Then, we add in the Emacs Lisp code:</p><pre><code class="lisp">&#40;defun yank-primary &#40;&amp;optional arg&#41;
   &quot;Yank the primary selection&quot;
   &#40;interactive&#41;
   &#40;insert &#40;shell-command-to-string &quot;xclip -selection primary -o&quot;&#41;&#41;&#41;

@@ -72,7 +72,7 @@ al konservi la komandlinian historion. La jena estas la kodaĵo:
 <a name="kunfando"></a>Kunfando
 -------------------------------
 
-Okazis multe da fojo, kiam mi volas mane konservi la staton de tiom da seancan informon kiun mi
+Okazis multe da fojo, kiam mi volas permane konservi la staton de tiom da seancan informon kiun mi
 povas konservi. Mi volus konservi la bufrojn, etbufran historion, legosignojn, kaj comint-an reĝiman
 historion. Por fari tiel, mi havas la jenan:
 

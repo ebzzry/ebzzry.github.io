@@ -18,7 +18,7 @@
 </code></pre><h2><a name="savehist"></a>Savehist</h2><p>Alia grava funkciado kiun mi uzas estas <i>Savehist</i>. Ĝi konservas la etbufran historion. Iomete similas al konservi la komandlinian historion. La jena estas la kodaĵo:</p><pre><code class="lisp">&#40;savehist-mode t&#41;
 
 &#40;setq savehist-file &quot;&#126;/.emacs.d/savehist&quot;&#41;
-</code></pre><h2><a name="kunfando"></a>Kunfando</h2><p>Okazis multe da fojo, kiam mi volas mane konservi la staton de tiom da seancan informon kiun mi povas konservi. Mi volus konservi la bufrojn, etbufran historion, legosignojn, kaj comint-an reĝiman historion. Por fari tiel, mi havas la jenan:</p><pre><code class="lisp">&#40;defun save-defaults &#40;&#41;
+</code></pre><h2><a name="kunfando"></a>Kunfando</h2><p>Okazis multe da fojo, kiam mi volas permane konservi la staton de tiom da seancan informon kiun mi povas konservi. Mi volus konservi la bufrojn, etbufran historion, legosignojn, kaj comint-an reĝiman historion. Por fari tiel, mi havas la jenan:</p><pre><code class="lisp">&#40;defun save-defaults &#40;&#41;
   &#40;desktop-save desktop-dirname&#41;
   &#40;savehist-save&#41;
   &#40;bookmark-save&#41;&#41;

@@ -10,6 +10,7 @@ La Pensoj de Pedanto
 <div class="text-right">Retejo pri komputiko, hominklinaĵoj, kaj hazardaĵoj. La eroj ordigitas laŭ
 inverskronologiordo. Aŭdversion la steligitaj eroj havas.</div>
 
+- [Skriptado en Komunlispo](lispon-skripti)
 - [Mia Markdown-Stila Gvidilo](markdown)
 - [Emakskonsiletoj 3-a: Enmeti kaj Forviŝi](emakskonsiletoj-3-a)
 - [Milda Enkonduko al la Nix-Familio](nix)

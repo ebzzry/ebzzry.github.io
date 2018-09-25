@@ -1,8 +1,9 @@
 Scripting in Common Lisp
 ========================
 
+<div class="center">[Esperanto](/eo/lispon-skripti) · [English](#)</div>
 <div class="center">July 5, 2017</div>
-<div class="center">Last updated: September 23, 2018</div>
+<div class="center">Last updated: September 24, 2018</div>
 
 >The light that burns twice as bright burns half as long.<br>
 >―Dr. Eldon Tyrell, Blade Runner (1982)
@@ -23,6 +24,9 @@ scripting domain.
 
 - [Overview](#overview)
 - [Prerequisites](#prerequisites)
+  + [Paths](#paths)
+  + [Definitions](#definitions)
+  + [Building](#building)
 - [Basics](#basics)
 - [More](#more)
 - [Caveats](#caveats)
@@ -34,8 +38,8 @@ scripting domain.
 
 One of the most common questions I get when I mention that I want to do scripting in CL, is that why
 would I want to do so and is it possible. The answer is simple: I want more power and
-expressivity. I want a mature and unencumbered. I want a language that is able to express my ideas,
-in least amount of friction.
+expressivity. I want a mature and unencumbered language. I want a language that is able to express
+my ideas, in least amount of friction.
 
 A script is only as powerful as the language and tools would allow. Bash and friends, for example,
 are great for expressing ideas, as if you are typing them on the command line itself. It emulates
@@ -44,7 +48,7 @@ that. Functions in Bash are nowhere near functions in languages like CL. As an i
 shell, it works fine; other than that, no.
 
 Other scripting solutions exist in other languages. Haskell, Python, Scheme, and Ruby, to name a
-few, has it. However, there’s a neat future of CL, that is difficult to implement or non-existent in
+few, has it. However, there’s a neat feature of CL, that is difficult to implement or non-existent in
 other approaches: since the scripts themselves are valid CL programs, I can load the programs
 in the REPL and do nice things with it. Nothing comes close to the flexibility that CL provides when
 interacting with live, running programs.
@@ -62,8 +66,7 @@ this is handled by [cl-launch](https://github.com/fare/cl-launch).
 
 Scripting in CL works on top of the language, that is, in the form of libraries that provide the
 abstractions to interact with the system and
-environment. The
-[Utilities for Implementation- and OS- Portability (UIOP)](https://gitlab.common-lisp.net/asdf/asdf/tree/master/uiop) is
+environment. [Utilities for Implementation- and OS- Portability (UIOP)](https://gitlab.common-lisp.net/asdf/asdf/tree/master/uiop) is
 a set of abstractions that lets us use and write portable CL code. It does the heavy lifting of
 making sure that we are going to write portable Lisp code. UIOP is part of ASDF3—which is part of
 most modern CL implementations—so there is no need to manually install
@@ -83,18 +86,18 @@ To install on systems that use Nix:
 <a name="basics"></a>Basics
 ----------------------------
 
-### Paths
+### <a name="paths"></a>Paths
 
 To get started, let’s create a new project directory. We will build our project in
 `$HOME/common-lisp`.
 
     $ mkdir -p ~/common-lisp/my-scripts
 
-This directory is one of the standard paths that ASDf will crawl, for `.asd` files. It is worth
+This directory is one of the standard paths that ASDF will crawl, for `.asd` files. It is worth
 nothing that it doesn’t matter if `$HOME/common-lisp` is a regular directory or a symlink to one.
 
 
-### Definitions
+### <a name="definitions"></a>Definitions
 
 Then, let’s create `my-scripts.asd` in that directory. To start, it will contain the following:
 
@@ -192,20 +195,20 @@ target, we invoke the script with the options `symlink $(NAME)`, to build the sy
 multi-call binary. Since we only defined three functions within the body of `EXPORTING-DEFINITIONS`,
 it is only going to build three symlinks to `my-scripts`. The `‑‑output $(NAME)` option specifies
 the output file. The `‑‑dump !` means to create an image, to enable a faster startup. The `‑‑lisp sbcl`
-specifies that we want to use SBCL, for this script; the option `‑‑quicklisp` specifies that
+option specifies that we want to use SBCL, for this script. The option `‑‑quicklisp` specifies that
 we load [Quicklisp](https://www.quicklisp.org) with the image. The `‑‑system $(NAME)` loads the
 system the we are building. The `‑‑dispatch-system $(NAME)/main` specifies the entrypoint of our
 program.
 
 
-### Building
+### <a name="building"></a>Building
 
 We are now ready to build the script and the symlinks. To do that, run:
 
     $ make install
 
-This will build the multi-call binary—`./my-scripts` and the corresponding symbolic links. The directory tree of
-`~/bin` should look like the following:
+This will build the multi-call binary—`./my-scripts` and the corresponding symbolic links. The
+directory tree of `~/bin` should look like the following:
 
 ```bash
 $ tree ~/bin
@@ -393,7 +396,7 @@ Yay!
 -----------------------------
 
 An important thing to note is that in the definitions, you can’t use a CL keyword as the name of
-the command. So inside exporting definitions, you can’t have something like this:
+the command. So inside `EXPORTING-DEFINITIONS`, you can’t have something like this:
 
 ```lisp
 (exporting-definitions
@@ -412,7 +415,7 @@ It has been said many times that CL has already faded into obscurity; that no on
 that it is no longer useful. No, that is not true. Just because it is not being discussed in
 mainstream news, means it is dead or have fallen out of favor. CL is a standardized language, and a
 program that conforms to the standard has the guarantee—to an extent—that it can still run in the
-feature. To create a language standard is a monumental task—it requires that different, possibly
+future. To create a language standard is a monumental task—it requires that different, possibly
 conflicting parties, to agree to how things should be done. There are different implementations of
 CL, and each implementation strives to achieve goals that may not necessarily be compatible with
 other implementations. That’s OK, because it gives room for implementors and designers, on how to
@@ -426,7 +429,7 @@ uses this facility. I wrote several personal helper
 [here](https://github.com/ebzzry/my-scripts).
 
 The human responsible for making scripting in CL possible and acceptable, is
-[François-René Rideau (Fare)](http://fare.tunes.org). It was 
+[François-René Rideau](http://fare.tunes.org). It was 
 [this blog entry](http://fare.livejournal.com/184127.html) that motivated me to see the viability of CL as a scripting language. You may send your
 donations to him via [PayPal](https://paypal.me/fahree) or
 [Bitcoin](bitcoin:1fareF6wCNYYiLPGmyQjrd3AQdHBb1CJ6).
