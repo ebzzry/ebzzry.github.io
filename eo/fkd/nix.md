@@ -290,7 +290,8 @@ uzi, kaj sekve. La valorojn anstataŭigu laŭ oni preferas. Ĉiom da agordaj al�
 }
 ```
 
-Se la `nixos-generate-config` paŝon ĉi-supre oni preterpasis, la antaŭproduktan dosieron kreu mane:
+Se la `nixos-generate-config` paŝon ĉi-supre oni preterpasis, la antaŭproduktan dosieron kreu
+permane:
 
     # mkdir -p /mnt/etc/nixos
 
