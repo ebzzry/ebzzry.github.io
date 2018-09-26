@@ -1,8 +1,9 @@
 How I Roll with Tmux
 ====================
 
+<div class="center">[Esperanto](/eo/tmux) · [English](#)</div>
 <div class="center">October 18, 2017</div>
-<div class="center">Last updated: January 12, 2018</div>
+<div class="center">Last updated: September 26, 2018</div>
 
 >Furious activity is no substitute for understanding.<br>
 >―H.H. Williams
@@ -38,7 +39,7 @@ most important pieces of software that changed the way I do computing.
 -------------------------------
 
 For a long time, I have used [GNU Screen](https://www.gnu.org/software/screen/) for
-multiplexing. There was such an exhilerating feeling when you lose connection to a host, only to
+multiplexing. There was such an exhilarating feeling when you lose connection to a host, only to
 discover that the program that you ran on screen was still running.
 
 However, when I discovered tmux, I quickly realized how much I was missing. Both tmux and screen,
@@ -84,9 +85,9 @@ bind n new-session -c "#{pane_current_path}"
 bind @ setw synchronize-panes
 ```
 
-This binds several keys to detach the current session, select a session from a tree chooser. The
-<kbd>C-z @</kbd> key enables multiple panes in one window, to receive the same keyboard input. This is very
-useful when troubleshooting remote connections simultaneously.
+This binds several keys to detach the current session, and select a session from a tree chooser. The
+<kbd>C-z @</kbd> key enables multiple panes in one window, to receive the same keyboard input. This
+is very useful when troubleshooting remote connections simultaneously.
 
 
 ### <a name="sourcing">Sourcing</a>
@@ -102,8 +103,8 @@ Here, I rebound <kbd>C-z x</kbd> and <kbd>C-z &</kbd>, so that when windows are 
 numberings are automatically updated. Manual override by means of <kbd>C-z r</kbd> is also
 available.
 
-The <kbd>C-z r</kbd> fixes that. I also rebound <kbd>C-z x</kbd> and <kbd>C-z &</kbd> to kill
-panes and windows, respectively, without user prompts.
+I also rebound <kbd>C-z x</kbd> and <kbd>C-z &</kbd> to kill panes and windows, respectively,
+without user prompts.
 
 
 <a name="windows">Windows</a>
@@ -131,7 +132,7 @@ bind -n M-8 select-window -t 8
 bind -n M-9 select-window -t 9
 ```
 
-We bound <kbd>C-PageUp</kbd> and <kbd>C-PageDown</kbd>, to switch windows, backwards and forwards,
+Mi bound <kbd>C-PageUp</kbd> and <kbd>C-PageDown</kbd>, to switch windows, backwards and forwards,
 respectively. We also bound <kbd>S-Left</kbd> and <kbd>S-Right</kbd>, to swap windows to the left
 and to the right, respectively.
 
@@ -226,7 +227,7 @@ This displays the status bar on the bottom of the terminal, and shows all the wi
 -----------------------------
 
 I use several plugins to supplement my configuration. It ranges from the plugin manager, itself to
-clipboard control.
+clipboard control. The following is a summary.
 
     set -g @plugin 'tmux-plugins/tpm'
 
@@ -264,13 +265,14 @@ The `PRIMARY` selection is the one involved when you highlight something with yo
 (mouse) pointer. You can extract the contents using Middle-click or <kbd>Shift+Insert</kbd>.
 
 The `CLIPBOARD` selection is the one involved when you explicity make a request to have something
-copied, usually done with <kbd>C-c</kbd>, Right-click Copy, or `Edit > Copy`, with graphical
-applications, like web browsers. You can extract the contents using <kbd>C-v</kbd>, Right-click
-Paste, or `Edit > Paste`.
+copied, usually done with <kbd>C-c</kbd>, `Right-click > Copy`, or `Edit > Copy`, with graphical
+applications, like web browsers. You can extract the contents using <kbd>C-v</kbd>,
+`Right-click > Paste`, or `Edit > Paste`.
 
-The tmux selection is the one involved when you enter copy mode—<kbd>C-z [</kbd>—make a selection
-with <kbd>C-Space</kbd> and the movement keys, then copy the contents using <kbd>M-w</kbd>. You can
-extract the contents by pressing <kbd>C-z ]</kbd>.
+The tmux selection is the one involved when you enter copy mode. This is done by pressing
+<kbd>C-z [</kbd> first, then <kbd>C-Space</kbd> to mark the selection, then use the movement keys to
+define the area. The contents are copied using <kbd>M-w</kbd>. You can extract the contents by
+pressing <kbd>C-z ]</kbd>.
 
 With tmux, I no longer have to use the (mouse) pointer to manipulate my selections.
 

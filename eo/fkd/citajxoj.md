@@ -17,7 +17,7 @@ tra la jarojn.
   ―Yeontabal, Jumong (2006)
 
 
-- Furioza agado ne estas anstataŭaĵo por kompreni.<br>
+- Furioza agado ne estas anstataŭaĵo de komprenado.<br>
   ―H.H. WILLIAMS
 
 
