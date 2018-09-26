@@ -85,7 +85,7 @@ bind n new-session -c "#{pane_current_path}"
 bind @ setw synchronize-panes
 ```
 
-Kelkajn klavojn ĉi tio bindas por la nunan seancon malligi, kaj seancon elekti el la
+Kelkajn klavojn ĉi tio bindas por la aktualan seancon malligi, kaj seancon elekti el la
 arbelektilo. Plurajn panelojn la klavkombino <kbd>C-z @</kbd> permesas por la saman klavaran enigon
 ricevi. Ĉi tio tre utilas kiam forajn konektojn problemsolvi samtempe.
 
@@ -151,8 +151,8 @@ bind '"' split-window -v -c "#{pane_current_path}"
 bind % split-window -h -c "#{pane_current_path}"
 ```
 
-La klavojn ĉi tio bindis por novan seancon krei de la nuna labora dosierujo aŭ de la hejma
-dosierujo. La klavojn ĉi tio ankaŭ bindis por la vidon dividi vertikale kaj horizontale, kun la nuna
+La klavojn ĉi tio bindis por novan seancon krei de la aktuala labora dosierujo aŭ de la hejma
+dosierujo. La klavojn ĉi tio ankaŭ bindis por la vidon dividi vertikale kaj horizontale, kun la aktuala
 dosierujo kiel komenca punkto.
 
 
@@ -198,7 +198,7 @@ bind h select-pane -m
 ```
 
 La klavojn <kbd>C-z m</kbd> kaj <kbd>C-z M</kbd> ĉi tio bindis por panelojn kunfandi, al kaj de,
-specifaj fenestroj, respektive. La klavon <kbd>C-z h</kbd> mi ankaŭ bindis por la randojn de la nuna
+specifaj fenestroj, respektive. La klavon <kbd>C-z h</kbd> mi ankaŭ bindis por la randojn de la aktuala
 panelo marki.
 
 
@@ -248,7 +248,7 @@ tmux.
 
     set -g @plugin 'tmux-plugins/tmux-yank'
 
-Novan klavon <kbd>y</kbd> ĉi tio aldonas dum en kopireĝimo—<kbd>C-z [</kbd>—por la nunan zonon kopii
+Novan klavon <kbd>y</kbd> ĉi tio aldonas dum en kopireĝimo—<kbd>C-z [</kbd>—por la aktualan zonon kopii
 al la tondejo.
 
     set -g @continuum-restore 'on'

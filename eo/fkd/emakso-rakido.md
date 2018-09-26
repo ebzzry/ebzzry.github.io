@@ -3,7 +3,7 @@ Rakidprogramadon Agordi per Emakso
 
 <div class="center">[Esperanto](#) · [English](/en/emacs-racket)</div>
 <div class="center">la 13-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 20-an de septembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 26-an de septembro 2018</div>
 
 >Ĉiom da bonaj ideoj ne kuŝas sub unu ĉapelo.<br>
 >―Dale TURNER
@@ -29,7 +29,7 @@ longan vojon, kiun mi vojaĝis.
 ---------------------------------------
 
 Redakti Rakidkodon Emakse estis tradicie farita per rudimentaj reĝimoj, kiuj malhavis
-flekson. Ili estis kapablaj por taksi nunajn difinojn, lastajn difinojn, kaj tutajn bufrojn,
+flekson. Ili estis kapablaj por taksi aktualajn difinojn, lastajn difinojn, kaj tutajn bufrojn,
 ĉefparte. Bedaŭrinde, tio ne sufiĉis pri la maniero, en kiu Rakido traktadis la aferojn. Pli
 inteligenta maniero de trakti kodon, estis bezonita.
 

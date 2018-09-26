@@ -43,7 +43,7 @@
    &#40;format t &quot;main&#126;%&quot;&#41;&#41;&#41;
 
 &#40;register-commands :my-scripts/main&#41;
-</code></pre><p>Ni komencu per je <code>UIOP:DEFINE-PACKAGE</code> uzi. Male al <code>DEFPACKAGE</code>, la necesan medion kiu estas amika al UIOP ĉi tio kreas. En la klaŭzo <code>:USE</code>, la helpilojn de aliaj bibliotekoj ni uzos. En la korpo de ĉi tiu dosiero, je <code>EXPORTING-DEFINITIONS</code> oni povas vidi. La limojn de tiuj, kiuj iĝos duumdosieroj aŭ ne, ĉi tiu markilo efektive markas. Ĝi estos uzita de <code>REGISTER-COMMANDS</code> poste.</p><p>Ĉi tie, kelkajn funkciojn ni difinas: <code>SYMLINK</code> respondecas pri la kreado de la simbolligiloj por la multvoka duumdosiero; kelke da bazuza informo <code>HELP</code> montras; kaj <code>MAIN</code> estas la enirejo de nia skripto. La duumdosiero troveblos en <code>$HOME/bin/</code>. Por la procedon pri la kunmetado de la skripto kaj simbolligiloj plifaciligi, la kunmetadajn instrukciojn ni metos en Makefile. La dosieron <code>Makefile</code> en la nuna dosierujo kreu, tiam la jenan metu:</p><pre><code class="Makefile">NAME=my-scripts
+</code></pre><p>Ni komencu per je <code>UIOP:DEFINE-PACKAGE</code> uzi. Male al <code>DEFPACKAGE</code>, la necesan medion kiu estas amika al UIOP ĉi tio kreas. En la klaŭzo <code>:USE</code>, la helpilojn de aliaj bibliotekoj ni uzos. En la korpo de ĉi tiu dosiero, je <code>EXPORTING-DEFINITIONS</code> oni povas vidi. La limojn de tiuj, kiuj iĝos duumdosieroj aŭ ne, ĉi tiu markilo efektive markas. Ĝi estos uzita de <code>REGISTER-COMMANDS</code> poste.</p><p>Ĉi tie, kelkajn funkciojn ni difinas: <code>SYMLINK</code> respondecas pri la kreado de la simbolligiloj por la multvoka duumdosiero; kelke da bazuza informo <code>HELP</code> montras; kaj <code>MAIN</code> estas la enirejo de nia skripto. La duumdosiero troveblos en <code>$HOME/bin/</code>. Por la procedon pri la kunmetado de la skripto kaj simbolligiloj plifaciligi, la kunmetadajn instrukciojn ni metos en Makefile. La dosieron <code>Makefile</code> en la aktuala dosierujo kreu, tiam la jenan metu:</p><pre><code class="Makefile">NAME=my-scripts
 BINARY=$&#40;HOME&#41;/bin/$&#40;NAME&#41;
 SCRIPT=$&#40;PWD&#41;/$&#40;NAME&#41;
 CL=cl-launch
@@ -69,7 +69,7 @@ clean:
 └── symlink -&gt; my-scripts
 
 0 directories, 5 files
-</code></pre><p>Por kontroli, ke ĝi efektive funkcias, kurigu:</p><pre><code>$ getuid</code></pre><p>Sa la UID-nombron ĝi montras, tiam ni povas daŭrigi.</p><h2><a name="pli"></a>Pli</h2><p>Ni supozu, ke la baterian staton de la tekkomputilo oni volas scii de la komandlinio. Tion ni povas difini per kelkaj funkcioj. Je <code>my-scripts.asd</code> ni modifu per la aldonajn deklarojn enhavi:</p><pre><code class="lisp">#-asdf3.1 &#40;error &quot;ASDF 3.1 or bust!&quot;&#41;
+</code></pre><p>Por kontroli, ke ĝi efektive funkcias, kurigu:</p><pre><code>$ getuid</code></pre><p>Sa la uzantnumeron ĝi montras, tiam ni povas daŭrigi.</p><h2><a name="pli"></a>Pli</h2><p>Ni supozu, ke la baterian staton de la tekkomputilo oni volas scii de la komandlinio. Tion ni povas difini per kelkaj funkcioj. Je <code>my-scripts.asd</code> ni modifu per la aldonajn deklarojn enhavi:</p><pre><code class="lisp">#-asdf3.1 &#40;error &quot;ASDF 3.1 or bust!&quot;&#41;
 
 &#40;defsystem &quot;my-scripts&quot;
   :version &quot;0.0.1&quot;
