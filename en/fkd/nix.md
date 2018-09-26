@@ -1593,4 +1593,4 @@ nix-repl> let y = x: ((f: (x (v: ((f f) v)))) (f: (x (v: ((f f) v))))); b = p: (
 nix-repl>
 ```
 
-_Thanks to [Dave Loyall](https://github.com/daveloyall) and [Yekta Leblebici](https://github.com/AranelSurion) for the corrections._
+_Thanks to [Dave Loyall](https://github.com/daveloyall) and [Yekta Leblebici](https://www.linkedin.com/in/yekta-leblebici/) for the corrections._
