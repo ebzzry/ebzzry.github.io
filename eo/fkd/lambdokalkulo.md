@@ -3,7 +3,7 @@ Aboco de la Lambdokalkulo
 
 <div class="center">[Esperanto](#) · [English](/en/lambda-calculus)</div>
 <div class="center">la 21-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 12-an de aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 26-an de septembro 2018</div>
 
 >Oni ne vere komprenas ion krom se oni povas klarigi tion al sia avino.<br>
 >―Alberto EJNŜTEJNO
@@ -84,7 +84,7 @@ Neverland-o.
 
 Kerna ludanto en la lambdokalkulo estas la nocio de funkcio. Plejmulto da ni kutimas pri funkcioj en
 la al altnivelaj programlingvoj, tamen funkcioj en la lambdokalkulo iomete malsimilas—ili devas havi
-plej minimume unu parametron. En plejmulto da produkta programlingvoj nune uzataj, oni povas alvoki
+plej minimume unu parametron. En plejparto de produktadaj programlingvoj nune uzataj, oni povas alvoki
 funkcion kiu ne prenas argumenton. Okazas kutime por kromefikoj. Tamen, lamdokalkule, apenaŭa
 minimumo de unu argumento devigitas. Jen minimuna funkcio en la lambdokalkulo aspektas:
 

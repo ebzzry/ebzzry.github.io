@@ -5,7 +5,7 @@ Skriptado en Komunlispo
 <div class="center">la 24-an de septembro 2018</div>
 <div class="center">Laste ĝisdatigita: la 25-an de septembro 2018</div>
 
->La lumo kiu brulas duoble brila, brulas duone longa.<br>
+>La lumo kiu fajras duoble brila, fajras duone longa.<br>
 >―D-ro. Eldon TYRELL, Blade Runner (1982)
 
 <img src="/bil/lisposimbolo.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="common-lisp.net emblemo" title="common-lisp.net emblemo"/>
@@ -15,7 +15,7 @@ de longe, ne ekzistis definitiva solvo en komunlispon uzi kiel skriptada lingvo.
 en ĉi tiu kunteksto, signifas pri iu, kiu similas anime al komandliniaj ŝeloj—tio estas, iu kiu
 estas uzita por sistemkomandojn mastrumi kaj regi sur la apa nivelo. La signifo ankaŭ etendas al la
 aŭtomacioj de la plenumigado de taskoj kiuj aliamaniere faritaj unu post alia. En ĉi tiu artikolo,
-mallongan enkondukon pri kiel komunlispon uzi en la skriptada areo.
+mallongan enkondukon pri kiel komunlispon uzi en la skriptada areo mi priparolos.
 
 
 <a name="et"></a>Enhavotabelo
@@ -35,13 +35,13 @@ mallongan enkondukon pri kiel komunlispon uzi en la skriptada areo.
 <a name="superrigardo"></a>Superrigardo
 ---------------------------------------
 
-Unu el la plej oftaj demandoj kiun mi ricevas kiam mi diras, ke skriptadon mi volas uzi per
+Unu el la plej oftaj demandoj kiun mi ricevas kiam mi diras, ke skriptadon mi volas fari per
 komunlispo, estas, kiel tion mi eĉ volas fari kaj tio maleblas. La respondo simplas: pli da potenco
 kaj esprimpleneco mi volas havi. Maturan kaj nelimigitan lingvon mi volas havi. Lingvon kiu miajn
 ideojn povas esprimi en la malplej kiomo de froto mi volas havi.
 
 Skripto estas nur tiel potenca kiel la lingvo kaj iloj povus permesi. Baŝo kaj siaj amikoj,
-ekzemple, estas bonegaj por ideojn esprimi, tiel longe kiel oni tajpas ilin sur la komandlinio
+ekzemple, estas bonegaj por ideojn esprimi, tiel longe kiel komandojn oni tajpas sur la komandlinio
 mem. La konduton ene skripto ĝi imitas. Funkciojn oni povas difini por procedurojn fari, sed ili nur
 estas tiel. Funkcioj en Baŝo ne estas ie proksimaj al la funkcioj en lingvoj kiel komunlispo. Kiel
 interaga uzantŝelo, ĝi funkcias bone; escepte tio, ne.
@@ -50,14 +50,14 @@ Ekzistas aliaj skriptadaj solvoj en aliaj lingvoj. Haskelo, Pitono, Skimo, kaj R
 nomante, ĝin havas. Tamen estas bona eblo de komunlispo, kiu estas malfacila por realigi aŭ ne
 ekzistas en aliaj aliroj: pro la skriptoj mem estas validaj komunlispaj programoj, la programojn mi
 povas ŝarĝi en la REPL kaj afablajn aferojn mi povas fari kun tio. Neniu venas proksima al la
-flekso, kiun komunlispo provizas kiam interagi kun realtempaj kurantaj programoj.
+flekso, kiun komunlispo provizas interagante kun realtempaj kurantaj programoj.
 
 En ĉi tiu mallonga gvidilo, alian belan aĵon pri komunlispa skriptado mi ankaŭ tuŝetas: multvokaj
 duumdosieroj. Multvoka duumdosiero estas sola plenumebla dosiero kiu povas esti elreferencita per
 pluraj nomoj. Ĉiu nomo kongruas al specifa proceduro ene tiu sola duumdosiero. La beleco de ĉi tiu
 aliro, estas, ke anstataŭ multajn malsamajn programojn mastrumi, nur unu dosieron oni mastrumas, kaj
 la ĝustan proceduron ĝi disdonos kiu uzanto deziras. Ĉi tio similas al kiun Busybox
-faras. Komunlispo, ĉi tio estas traktita de [cl-launch](https://github.com/fare/cl-launch).
+faras. Komunlispe ĉi tio estas traktita de [cl-launch](https://github.com/fare/cl-launch).
 
 
 <a name="antkauxkondicxoj"></a>Antaŭkondiĉoj
@@ -65,11 +65,11 @@ faras. Komunlispo, ĉi tio estas traktita de [cl-launch](https://github.com/fare
 
 Skriptado en komunlispo funkcias super la lingvo, tio estas, en la formo de bibliotekoj kiuj la abstraktadojn disponigas por interagi kun la sistemo kaj la medio. [Utilities for Implementation- and OS- Portability (UIOP)](https://gitlab.common-lisp.net/asdf/asdf/tree/master/uiop)
 estas aro de abstraktadoj kiuj nin permesas por porteblan lispan kodon skribi. UIOP estas
-enkonstruita en ASDF3—kiu estas parto de plejmulto de komunlispaj realigoj—do ne ekzistas bezono por
-ĝin permane instali. Nin [inferior-shell](https://github.com/fare/inferior-shell) helpas por la
-procezojn mastrumi. Nin [cl-scripting](https://github.com/fare/cl-scripting) helpas por pli da rego.
+enkonstruita en ASDF3—kiu estas parto de la plejparto de komunlispaj realigoj—do ne ekzistas bezono por
+ĝin permane instali. Onin [inferior-shell](https://github.com/fare/inferior-shell) helpas por la
+procezojn mastrumi. Onin [cl-scripting](https://github.com/fare/cl-scripting) helpas por pli da rego.
 
-La programo `cl-launch` devas esti instali sur la sistemo. Ĝi estos respondeca por la kreado de la multvoka duumdosiero mem. Por je `cl-launch` instali:
+La programo `cl-launch` devas esti instalita sur la sistemo. Ĝi estos respondeca por la kreado de la multvoka duumdosiero mem. Por je `cl-launch` instali:
 
 Per APT:
 
@@ -86,7 +86,7 @@ Per Nixpkgs:
 
 ### <a name="dosierindikoj"></a>Dosierindikoj
 
-Komencante, novan projektan dosierujon ni kreu. La projekton ni kunmeton en `$HOME/common-lisp`.
+Komencante, novan projektan dosierujon ni kreu. La projekton ni kunmetu en `$HOME/common-lisp`.
 
     $ mkdir -p ~/common-lisp/my-scripts
 
@@ -113,9 +113,9 @@ Tiam la dosieron `my-scripts.asd` ni kreu en tiu dosierujo. Por komenci, la jena
                "my-scripts/main"))
 ```
 
-Kelke da funkcioj kiun ni bezonas, estas en ASDF 3.1, pro tio la tutan sistemon ni devas
+Kelke da funkcioj kiunj ni bezonas, estas en ASDF 3.1, pro tio la tutan sistemon ni devas
 kondiĉigi. La dependecojn sur `cl-scripting` ni deklaras, kiu kelkajn helpilojn provizas; kaj sur
-`inferior-shell`, kiu la aĵoj kiujn ni bezonas por la ŝelajn procezojn mastrumi provizas.
+`inferior-shell`, kiu la aĵojn kiujn ni bezonas por la ŝelajn procezojn mastrumi provizas.
 
 Sekve, la dosieron `main.lisp` ni kreu en la sama dosierujo. La jenan ĝi havos:
 
@@ -190,11 +190,11 @@ En la celo `$(NAME)`, je `cl-launch` ni voku kun la opcioj por la skripton kunme
 `install`, la skripton ni alvoku kun la opcioj `symlink $(NAME)`, por la simbolligilojn de la
 multvoka duumdosiero krei. Pro nur tri funkciojn ni difinis ene la korpo de `EXPORTING-DEFINITIONS`,
 nur tri simbolligilojn al `my-scripts` ĝi kreos. La eligan dosieron la opcio `‑‑output $(NAME)`
-precizigas. La `--dump !` signifas, ke bildon ĝi kreos, por pli rapidan startigon ŝalti. La opcio
-`‑‑lisp sbcl` signifas, ke je SBCL ni volas uzi, por ĉi tiu skripto. La opcion `--quicklisp`
+precizigas. La `‑‑dump !` signifas, ke bildon ĝi kreos, por pli rapidan startigon ŝalti. La opcio
+`‑‑lisp sbcl` signifas, ke je SBCL ni volas uzi, por ĉi tiu skripto. La opcion `‑‑quicklisp`
 signifas, ke je [Quicklisp](https://www.quicklisp.org) ni ŝarĝas kun la bildo. La sistemon, kiun ni
-kreas la opcio `‑‑system $(NAME)` ŝarĝas. La enirejo de nia programo la opcio `‑‑dispatch-system
-$(NAME)/main` precizigas.
+kreas la opcio `‑‑system $(NAME)` ŝarĝas. La enirejo de nia programo la opcio
+`‑‑dispatch-system $(NAME)/main` precizigas.
 
 
 ### <a name="kunmetado"></a>Kunmetado
@@ -309,7 +309,7 @@ estas, sen la duoblaj citiloj. Tiam nenian valoron la funkcio `BATTERY` do liver
 fari tial, ke nur la eligon al la alvoko de `BATTERY-STATUS` ni bezonas.
 
 Aliflanke, enrankopion per *scrot* la funkcio `SCREENSHOT` tenas tiam la absolutdosierindikon de la
-bildo ĝi disponebligas el la tondeja zono per *xclip*. La bibliotekojn `local-time`, por la data
+bildo ĝi disponebligas el la tondeja zono per *xclip*. La bibliotekojn `local-time` por la data
 signovico kaj biblioteko; kaj `optima`, por la ripetiĝa kongruado. Por la komandon `screenshot`
 ebligi, la duumdosierojn dependecojn instalu. La jenajn komandojn kurigu sur APT- kaj Nix-sistemoj,
 respektive:

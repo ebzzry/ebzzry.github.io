@@ -305,7 +305,7 @@ fortikan sperton li havas antaŭ ol tian kazostudon fari.
 elektas, do tiu pozicio devas esti vera. La baza ideo estas aserto devas esti akceptita kiel vera
 sur la fundoj, ke la homoj estas aprobaj rilate al tiu aserto.
 
-> “La enketo montras, ke plejmulto da homo voĉdonas je Karlo prezidanto. Ilia elekto devas esti
+> “La enketo montras, ke plejmulto da homoj voĉdonas je Karlo prezidanto. Ilia elekto devas esti
 > ĝusta. Mi ankaŭ voĉdonas por li.”
 
 Ĉi tio okazas kiam aserton per malprofundaj kialoj persono kredas. Ĉi tio ofte okazas pro
@@ -394,7 +394,7 @@ vidi aŭ sperti.
 ----------------------------------------
 
 Ĉi tio fifaritas kiam persono asertas, ke nur ĉar iun ĝi ne komprenas, do signifas ke
-plejmulto da homo ankaŭ ne povas.
+plejmulto da homoj ankaŭ ne povas.
 
 > “La lambdokalkulon mi ne ankoraŭ povas kompreni. Ve. Plej verŝajne, neniuj efektive komprenas
 > ĝin.”

@@ -3,7 +3,7 @@ Citaĵoj
 
 <div class="center">[Esperanto](#) · [English](/en/quotes)</div>
 <div class="center">la 15-an de novembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 25-an de septembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 26-an de septembro 2018</div>
 
 Ĉi tiu paĝo enhavas liston de atenteme elektitaj citaĵoj, aforismoj, kaj sentencoj kiujn mi kolektis
 tra la jarojn.
@@ -555,7 +555,7 @@ tra la jarojn.
   ―Andrew LAEDDIS, Shutter Island (2010)
 
 
-- La lumo kiu brulas duoble brila, brulas duone longa.<br>
+- La lumo kiu fajras duoble brila, fajras duone longa.<br>
   ―D-ro. Eldon TYRELL, Blade Runner (1982)
 
 
@@ -706,7 +706,7 @@ tra la jarojn.
   ―Chesley SULLENBERGER, Sully (2016)
 
 
-- Vivojn de kvietaj senesperemoj plejmulto da homo vivas. Kiu nomiĝas rezigno estas konfirmita
+- Vivojn de kvietaj senesperemoj plejparto de homo vivas. Kiu nomiĝas rezigno estas konfirmita
   senesperemo.<br>
   ―Henry David THOREAU
 
