@@ -1393,7 +1393,7 @@ uzantŝelo.
 
 Kion ĉi tio faras, estas, ke la duumpakon por GNU Hello ĝi elŝutos, puran ŝelan medion kreante, tiam
 progresas por la duumdosieron `hello` kurigi, kiu la konatan saluton montros al la ekrano. Se la
-`−−run` opcio estas forigita, ni faliĝos en ŝelo:
+`‑‑run` opcio estas forigita, ni faliĝos en ŝelo:
 
     $ nix-shell --packages hello --pure
     [nix-shell:~]$ hello
