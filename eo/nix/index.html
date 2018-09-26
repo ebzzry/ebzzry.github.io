@@ -394,7 +394,7 @@ $ git push origin tthsum-1.3.2</code></pre><p>Fine, iru al la GitHub-deponeja <a
 hello not found</code></pre><p>Se tio estas la kazo, bone. Aliokaze, la <em>GNU Hello</em>-pakon unue forigi.</p><p>Nu, por je nix-shell montri, je GNU Hello ni kurigu en nix-shell, tiam ĝi revenos al la kutima uzantŝelo.</p><pre><code>$ nix-shell --packages hello --pure --run hello
 Hello, world!
 $ which hello
-hello not found</code></pre><p>Kion ĉi tio faras, estas, ke la duumpakon por GNU Hello ĝi elŝutos, puran ŝelan medion kreante, tiam progresas por la duumdosieron <code>hello</code> kurigi, kiu la konatan saluton montros al la ekrano. Se la <code>−−run</code> opcio estas forigita, ni faliĝos en ŝelo:</p><pre><code>$ nix-shell --packages hello --pure
+hello not found</code></pre><p>Kion ĉi tio faras, estas, ke la duumpakon por GNU Hello ĝi elŝutos, puran ŝelan medion kreante, tiam progresas por la duumdosieron <code>hello</code> kurigi, kiu la konatan saluton montros al la ekrano. Se la <code>‑‑run</code> opcio estas forigita, ni faliĝos en ŝelo:</p><pre><code>$ nix-shell --packages hello --pure
 &#91;nix-shell:&#126;&#93;$ hello
 Hello, world!</code></pre><p>Ĉi tiu ŝelaperaĵo estas speciala tial, ke nur sufiĉan informon ĝi enhavas nur por la komandon <code>hello</code> igi disponebla. La valoron de <code>$PATH</code> ni eĉ povas kontroli ĉi tie:</p><pre><code class="bash">&#91;nix-shell:&#126;&#93;$ echo $PATH | tr ':' '\n'
 /nix/store/kc912zn1ry1xilcm901ip7p8s1iqv0f1-hello-2.10/bin
