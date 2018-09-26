@@ -3,7 +3,7 @@ Milda Enkonduko al la Nix-Familio
 
 <div class="center">[Esperanto](#) · [English](/en/nix)</div>
 <div class="center">la 5-an de aŭgusto 2018</div>
-<div class="center">Laste ĝisdatigita: la 24-an de septembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 26-an de septembro 2018</div>
 
 >Ne maltrankviliĝu pri tio, kion la aliaj faros. La plej bona maniero por la estontecon antaŭdiri
 >estas per tion eltrovi.<br>
@@ -593,7 +593,7 @@ nix-repl> rec { a = 0; b = "kato"; c = true; cx = (6 / 2); d = b; }.d
 ### <a name="nixdosierindikoj"></a>Dosierindikoj
 
 En Nix ĉiom da dosierindikoj estas tradukitaj al absolutdosierindikoj. Se referencon al dosiero en
-la nuna dosierujo oni faras:
+la aktuala dosierujo oni faras:
 
 ```nix
 nix-repl> ./hundo
@@ -869,7 +869,7 @@ nix-repl> (import ./ve.nix).ve "hundo"
 "hundove"
 ```
 
-Rondkrampojn ni devis uzi tial, ke ne ekzistas tia dosiero `ve.nix.ve` en la nuna dosierujo. Se ĝin
+Rondkrampojn ni devis uzi tial, ke ne ekzistas tia dosiero `ve.nix.ve` en la aktuala dosierujo. Se ĝin
 ni trapasos, ĝi aperos jene:
 
 ```nix
@@ -1195,7 +1195,7 @@ Tiam, la pakon muntu:
     $ cd ~/nixpkgs
     $ nix-build -A hello
 
-Se la kunmetaĵo sukcesis, aperos simbolligilo nomata `result` en la nuna dosierujo. Ĉi tiu
+Se la kunmetaĵo sukcesis, aperos simbolligilo nomata `result` en la aktuala dosierujo. Ĉi tiu
 simbolligilo montras al dosierindiko en `/nix/store`. La programon ni kurigu:
 
     $ ./result/bin/hello
@@ -1426,7 +1426,7 @@ La eligo malsamos kontraŭ la mia pro la kradvaloroj en la tenejaj dosierindikoj
 dosierindiko de *GNU Hello*, la ceteraj estas la minimumaj komponantoj de nix-shell-aperaĵo. Ĉi tiu
 sektoraro nomiĝas *stdenv*.
 
-La dosierojn `shell.nix` aŭ `default.nix` nix-shell serĉas, en tiu ordo, en la nuna dosierujo dum
+La dosierojn `shell.nix` aŭ `default.nix` nix-shell serĉas, en tiu ordo, en la aktuala dosierujo dum
 startigo, por la difinojn elŝarĝi. Ĝin ni kreu, ĝin konservante kiel `default.nix`:
 
 ```nix

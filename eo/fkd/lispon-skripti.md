@@ -163,7 +163,7 @@ aŭ ne, ĉi tiu markilo efektive markas. Ĝi estos uzita de `REGISTER-COMMANDS` 
 multvoka duumdosiero; kelke da bazuza informo `HELP` montras; kaj `MAIN` estas la enirejo de nia
 skripto. La duumdosiero troveblos en `$HOME/bin/`. Por la procedon pri la kunmetado de la skripto
 kaj simbolligiloj plifaciligi, la kunmetadajn instrukciojn ni metos en Makefile. La dosieron
-`Makefile` en la nuna dosierujo kreu, tiam la jenan metu:
+`Makefile` en la aktuala dosierujo kreu, tiam la jenan metu:
 
 ```Makefile
 NAME=my-scripts
@@ -220,7 +220,7 @@ Por kontroli, ke ĝi efektive funkcias, kurigu:
 
     $ getuid
 
-Sa la UID-nombron ĝi montras, tiam ni povas daŭrigi.
+Sa la uzantnumeron ĝi montras, tiam ni povas daŭrigi.
 
 
 <a name="pli"></a>Pli

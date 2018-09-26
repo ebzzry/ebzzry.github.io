@@ -173,7 +173,7 @@ Por listigi la haveblajn komandojn:
 
 Per la konsiletoj el la helpa uzado, oni eltiros dosierujon kiu estas parto de la dosierkopio
 antaŭe. Ni supozu, ke la originala vojo de tiu dosierujo estis `bildoj/festo/`. Do, por eltiri la
-dosierujon `festo/` al la nuna dosierujo, kuru:
+dosierujon `festo/` al la aktuala dosierujo, kuru:
 
 ```
 > cd bil

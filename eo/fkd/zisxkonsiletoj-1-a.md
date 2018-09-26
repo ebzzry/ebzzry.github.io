@@ -47,7 +47,7 @@ Aliaj estas pli agresivaj kiel tutmondaj alinomoj, kiuj malvolvojn povas fari ie
     alias -g NF='*(.om[1])'
 
 La ĉefenigujon kaj ĉefeligujon la unua tutmonda alinomo filtras al *egrep* kun kolorita eligo. La
-plej novan kutiman dosieron en la nuna dosierujo la dua tutmonda alinomo revenas.
+plej novan kutiman dosieron en la aktuala dosierujo la dua tutmonda alinomo revenas.
 
 Por ĉiom da alinomoj montru, kurigu:
 

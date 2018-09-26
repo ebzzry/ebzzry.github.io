@@ -3,7 +3,7 @@ Retnodojn Sinkronigi per Usync
 
 <div class="center">[Esperanto](#) · [English](/en/usync)</div>
 <div class="center">la 7-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 9-an de septembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 26-an de septembro 2018</div>
 
 >Kion mi ne povas krei, mi ne komprenas.<br>
 >―Richard P. FEYNMAN
@@ -30,7 +30,7 @@ homfaktora fakoj, estis en la unua oficejo. Usync helpas atingi tion. Kreitas pe
 <a name="bazuzado"></a>Baza uzado
 ---------------------------------
 
-Por fari ambaŭdirektan sinkronigon de la dosierujo `/pub/jot/ninam`, inter la nuna retnodo al la
+Por fari ambaŭdirektan sinkronigon de la dosierujo `/pub/jot/ninam`, inter la aktuala retnodo al la
 retnodoj `tarupam` kaj `taubetmo`, dum konservi la dosierujan strukturon defore, kuru la jenan
 komandon. Notu, ke ne devas ekzisti spacetoj inter la retnodaj precizigoj, pro la `IFS` media
 variablo:

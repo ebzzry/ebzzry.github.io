@@ -3,7 +3,7 @@ Dosierujojn Mastrumi per Emakso
 
 <div class="center">[Esperanto](#) · [English](/en/emacs-dired)</div>
 <div class="center">la 12-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 23-an de septembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 26-an de septembro 2018</div>
 
 >Supozi bonas, tamen eltrovi pli bonas.<br>
 >―Samuel CLEMENS
@@ -92,17 +92,17 @@ sur eroj, por ke oni povu presti la operaciojn en la antaŭa sekcio, sur ili:
 La jenaj komandoj agas laŭ si mem. Ili operacias sur solaj eroj kaj ili ne uzas markojn. La
 <kbd>w</kbd> komando, tamen, estas escepto.
 
-| Klavo   | Kion ĝi faras                             |
-| :------ | :---------------------------------------- |
-| +       | Kreu dosierujon                           |
-| ^       | Iru supren, per unu nivelo, kiel `cd ..`  |
-| e aŭ f  | Redaktu eron                              |
-| v       | Vidu eron, kiel `less`                    |
-| g       | Reŝarĝu la nunan dosierujon               |
-| j       | Saltu al ero                              |
-| s       | Ŝanĝu ordigan ordon                       |
-| y       | Montru dosiertipon de ero, kiel `file`    |
-| w       | Kopiu eron al tondejo                     |
+| Klavo   | Kion ĝi faras                                |
+| :------ | :------------------------------------------- |
+| +       | Kreu dosierujon                              |
+| ^       | Iru supren, per unu nivelo, kiel `cd ..`     |
+| e aŭ f  | Redaktu eron                                 |
+| v       | Vidu eron, kiel `less`                       |
+| g       | Reŝarĝu la aktualan dosierujon               |
+| j       | Saltu al ero                                 |
+| s       | Ŝanĝu ordigan ordon                          |
+| y       | Montru dosiertipon de ero, kiel `file`       |
+| w       | Kopiu eron al tondejo                        |
 
 
 <a name="wdired"></a>WDired-reĝimo

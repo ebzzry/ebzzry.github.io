@@ -26,7 +26,7 @@ plibonigi. En ĉi tiu artikolo, mi parolos pri simplaj manieroj kiel dosierujsta
 
 Ĉiufoje la dosierujo ŝanĝiĝas per `cd`, la komandon `pushd` mi uzas por tiun dosierujon konservi sur
 la dosierujstako. Min ĉi tio ebligas por iri reen al la lasta dosierujo, antaŭ je `pushd` mi voku,
-per la uzo de `popd`. La nunan valoron de la dosierujstako la komando `dirs` montras.
+per la uzo de `popd`. La aktualan valoron de la dosierujstako la komando `dirs` montras.
 
 Unue la helpilojn ni difinu:
 
@@ -74,7 +74,7 @@ reŝarĝi, certigante, ke miaj agorddosieroj estas ŝarĝitaj freŝe.
     % exec zsh
 
 Tion farante, la stakon kiun mi konstruis mi perdas. Por tion solvi, funkcion kiu la dosierujstakon
-de la nuna seanco konservas, mi havas.
+de la aktuala seanco konservas, mi havas.
 
 ```bash
 function z! () {
@@ -83,7 +83,7 @@ function z! () {
 }
 ```
 
-Je `z!` kurante, la enhavon de la nuna stako konservas, kaj la ŝelon reŝarĝas:
+Je `z!` kurante, la enhavon de la aktuala stako konservas, kaj la ŝelon reŝarĝas:
 
     % pwd
     /home/ebzzry
@@ -112,7 +112,7 @@ function z+ () {
 }
 ```
 
-Por la konservitan dosierujstakon restaŭri sur la nuna seanco aŭ al nova aparta aperaĵo, kurigu:
+Por la konservitan dosierujstakon restaŭri sur la aktuala seanco aŭ al nova aparta aperaĵo, kurigu:
 
     % z+
     % ds -v
