@@ -1,8 +1,9 @@
 Zsh Tips 4: General Helpers
 ===========================
 
+<div class="center">[Esperanto](/eo/zisxkonsiletoj-4-a) · [English](#)</div>
 <div class="center">October 30, 2017</div>
-<div class="center">Last updated: November 9, 2017</div>
+<div class="center">Last updated: September 26, 2018</div>
 
 >A change in perspective is worth 80 IQ points.<br>
 >―Alan Kay
@@ -40,7 +41,7 @@ helpful keybindings to speed up typing.
 ---------------------------------
 
 A beautiful thing about functions is that they’re so easy to create and use. Here are some functions
-that I use all the time.
+that I use often.
 
 
 ### <a name="map">map</a>
@@ -61,8 +62,8 @@ For example, you can use `map` to fetch multiple git repositories, serially:
 
 ### <a name="rmap">rmap</a>
 
-As the name implies, `rmap` operates as the reverse of map—the rest of the arguments are
-applied as commands to the first argument: It is defined as:
+As the name implies, `rmap` operates as the reverse of `map`—the rest of the arguments are
+applied as commands to the first argument. It is defined as:
 
 ```bash
 function rmap () {
@@ -126,7 +127,7 @@ When I run `d` with a directory and a command:
 
     % d ~/Downloads ls -l
 
-I change directory to `~/Downloads` then I run display the directory listing of that directory.
+I change directory to `~/Downloads` then I run `ls -l` display the directory listing of that directory.
 
 If the output of `dirs -v` is:
 
@@ -139,7 +140,7 @@ Then, when I run `d` with the second entry as its argument plus a command:
 
     % d -1 date
 
-I change directory to `/tmp`, then I execute the `date` command.
+I change directory to `/tmp/`, then I execute the `date` command.
 
 
 ### <a name="d_bang">d!</a>
@@ -156,7 +157,7 @@ function d! () {
 
 For example, I can use `d!` to stage a directory before downloading an ISO:
 
-    % d! ~/Downloads/isos  https://www.foo.bar/baz/meh/meh.iso
+    % d! ~/Downloads/iso https://www.foo.bar/baz/meh/meh.iso
 
 
 ### <a name="rm_bang">rm!</a>
@@ -227,7 +228,8 @@ function def_mk () {
 }
 ```
 
-To use it, supply the name of the name of the function that will be used as a command, and the expansion itself. These invocations should ideally be in your config file.
+To use it, supply the name of the function that will be used as a command, and the expansion
+itself. These invocations should ideally be in your config file.
 
 
 ### <a name="cp_bang">cp!</a>
@@ -356,6 +358,7 @@ example, if you have the following:
 When I execute `M-x copy-prev-shell-word RET`, Zsh inserts the last word, turning it to:
 
     % cp this.is.a.file.with.a.very.long.name this.is.a.file.with.a.very.long.name
+                                                                                  ^
 
 I bound it to <kbd>M-=</kbd>. To bind it in your config file:
 
@@ -367,7 +370,7 @@ I bound it to <kbd>M-=</kbd>. To bind it in your config file:
 In addition to executing `M-x` commands, Zsh also permits us to define keybindings that insert
 arbitrary text to the command line, including control characters.
 
-I frequently have the need to process the output of a command. Usually one would do the following:
+I frequently have the need to process the output of a command. Usually I would do the following:
 
     % foo `some command`
 
@@ -521,6 +524,7 @@ out_keys=(
   "\e'" "''\C-b"
 ); def_out_keys
 ```
+
 
 <a name="closing">Closing remarks</a>
 -------------------------------------
