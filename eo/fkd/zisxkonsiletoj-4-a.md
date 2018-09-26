@@ -1,7 +1,7 @@
 Ziŝkonsiletoj 4-a: Ĝeneralhelpiloj
 ==================================
 
-<div class="center">[Esperanto](#) · [English](/eo/zsh-tips-4)</div>
+<div class="center">[Esperanto](#) · [English](/en/zsh-tips-4)</div>
 <div class="center">la 26-an de septembro 2018</div>
 <div class="center">Laste ĝisdatigita: la 26-an de septembro 2018</div>
 
@@ -10,7 +10,7 @@ Ziŝkonsiletoj 4-a: Ĝeneralhelpiloj
 
 Lastfoje, mi parolis pri la helpilaj funkcioj por asisti en la mastrumado de radikigmedioj. En ĉi
 tiu artikolo, mi parolos pri ĝeneralaj helpiloj por labori sur la komandlinio. Mi ankaŭ parolos pri
-helpemaj klavkombinoj por tajpadan plirapidigi.
+helpemaj klavkombinoj por tajpadon plirapidigi.
 
 
 <a name="et"></a>Enhavotabelo

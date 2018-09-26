@@ -1,7 +1,7 @@
 Ziŝkonsiletoj 3-a: Radikighelpiloj
 ==================================
 
-<div class="center">[Esperanto](#) · [English](/eo/zsh-tips-3)</div>
+<div class="center">[Esperanto](#) · [English](/en/zsh-tips-3)</div>
 <div class="center">la 26-an de septembro 2018</div>
 <div class="center">Laste ĝisdatigita: la 26-an de septembro 2018</div>
 
