@@ -3,7 +3,7 @@ Scripting in Common Lisp
 
 <div class="center">[Esperanto](/eo/lispon-skripti) · [English](#)</div>
 <div class="center">July 5, 2017</div>
-<div class="center">Last updated: September 24, 2018</div>
+<div class="center">Last updated: September 26, 2018</div>
 
 >The light that burns twice as bright burns half as long.<br>
 >―Dr. Eldon Tyrell, Blade Runner (1982)
@@ -421,7 +421,7 @@ CL, and each implementation strives to achieve goals that may not necessarily be
 other implementations. That’s OK, because it gives room for implementors and designers, on how to
 work on the base specifications. As long as they conform to the standard, things are green.
 
-[baf](https://github.com/ebzzry/baf), a Nixpkgs/NixOS helper, is a working example of CL
+[baf](https://github.com/ebzzry/baf), a Nixpkgs and NixOS helper, is a working example of CL
 scripting. [pelo](https://github.com/zhaqenl/pelo/), a ping wrapper, is also another example that
 uses this facility. I wrote several personal helper
 [scripts](https://github.com/ebzzry/scripts/), that I hooked with my StumpWM

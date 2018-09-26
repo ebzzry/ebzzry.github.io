@@ -191,7 +191,7 @@ En la celo `$(NAME)`, je `cl-launch` ni voku kun la opcioj por la skripton kunme
 multvoka duumdosiero krei. Pro nur tri funkciojn ni difinis ene la korpo de `EXPORTING-DEFINITIONS`,
 nur tri simbolligilojn al `my-scripts` ĝi kreos. La eligan dosieron la opcio `‑‑output $(NAME)`
 precizigas. La `‑‑dump !` signifas, ke bildon ĝi kreos, por pli rapidan startigon ŝalti. La opcio
-`‑‑lisp sbcl` signifas, ke je SBCL ni volas uzi, por ĉi tiu skripto. La opcion `‑‑quicklisp`
+`‑‑lisp sbcl` signifas, ke je SBCL ni volas uzi, por ĉi tiu skripto. La opcio `‑‑quicklisp`
 signifas, ke je [Quicklisp](https://www.quicklisp.org) ni ŝarĝas kun la bildo. La sistemon, kiun ni
 kreas la opcio `‑‑system $(NAME)` ŝarĝas. La enirejo de nia programo la opcio
 `‑‑dispatch-system $(NAME)/main` precizigas.
@@ -227,7 +227,7 @@ Sa la UID-nombron ĝi montras, tiam ni povas daŭrigi.
 ---------------------
 
 Ni supozu, ke la baterian staton de la tekkomputilo oni volas scii de la komandlinio. Tion ni povas
-difini per kelkaj funkcioj. Je `my-scripts.asd` ni modifu por la aldonajn deklarojn enhavi:
+difini per kelkaj funkcioj. Je `my-scripts.asd` ni modifu per la aldonajn deklarojn enhavi:
 
 ```lisp
 #-asdf3.1 (error "ASDF 3.1 or bust!")
@@ -376,7 +376,7 @@ Tiam je `apps.lisp` ni plenigu:
 (register-commands :scripts/apps)
 ```
 
-Tiam je my-scripts ni remuntu:
+Tiam je *my-scripts* ni remuntu:
 
 ```bash
 $ make install
@@ -387,6 +387,7 @@ Hura!
 
 
 <a name="avertoj"></a>Avertoj
+-----------------------------
 
 Gravan aferon por teni en la kalkulo, estas, en la difinoj, komunlispajn ŝlosilvortojn oni ne povas uzi kiel la nomo de komando. Do ene `EXPORTING-DEFINITIONS` la jenan oni ne povas havi:
 
@@ -413,8 +414,8 @@ kiuj ne necesas kongruaj al la aliaj realigoj. Tio bonas tial, ke spacon ĝi kre
 kaj desegnistoj, pri kiel labori sur la bazaj specifoj. Tiel longe kiel ili akordas al la normo,
 aferoj verdas.
 
-[baf](https://github.com/ebzzry/baf), Nixpkgs/NixOS-helpilo, estas funkcia ekzemplo de komunlispa
-skriptado. [pelo](https://github.com/zhaqenl/pelo/), *ping*-kovrilo, estas alia ekzemplo, kiu ĉi
+[baf](https://github.com/ebzzry/baf), Nixpkgs- kaj NixOS-helpilo, estas funkcia ekzemplo de komunlispa
+skriptado. [pelo](https://github.com/zhaqenl/pelo/), ping-kovrilo, estas alia ekzemplo, kiu ĉi
 tiun facilon uzas. Kelkajn personajn helpilajn [skriptojn](https://github.com/ebzzry/scripts/) kiujn
 mi kroĉis al mia [StumpWM-agordo](https://github.com/ebzzry/stumpo/) mi skribis. La kodo kiu estis
 uzita por ĉi tiu artikolo troveblas [ĉi tie](https://github.com/ebzzry/my-scripts).
