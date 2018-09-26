@@ -3,13 +3,14 @@ La Pensoj de Pedanto
 
 <div class="center">[Esperanto](#) · [English](/en/)</div>
 <div class="center">la 27-an de aprilo 2017</div>
-<div class="center">Laste ĝisdatigita: la 24-an de septembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 26-an de septembro 2018</div>
 
 <img src="/bil/pluvis.jpg" class="banner" alt="pluvis.jpg" title="En la vizaĝo de la kosmo, ni ĉiuj estas porĉiame infanoj." />
 
 <div class="text-right">Retejo pri komputiko, hominklinaĵoj, kaj hazardaĵoj. La eroj ordigitas laŭ
 inverskronologiordo. Aŭdversion la steligitaj eroj havas.</div>
 
+- [Ziŝkonsiletoj 2-a: Dosierujstakoj](zisxkonsiletoj-2-a)
 - [Ziŝkonsiletoj 1-a: Alinomoj kaj Funkcioj](zisxkonsiletoj-1-a)
 - [Skriptado en Komunlispo](lispon-skripti)
 - [Mia Markdown-Stila Gvidilo](markdown)
