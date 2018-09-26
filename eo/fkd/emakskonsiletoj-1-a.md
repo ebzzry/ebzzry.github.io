@@ -97,8 +97,8 @@ $ emacs --daemon
 <a name="bufroj"></a>Bufroj
 ---------------------------
 
-Mi volas havi manieron por mortigi la nunan bufron, sen esti demandita kiun bufro por mortigi. Mi
-nur invitiĝos se la nuna bufro ŝanĝiĝis.
+Mi volas havi manieron por mortigi la aktualan bufron, sen esti demandita kiun bufro por mortigi. Mi
+nur invitiĝos se la aktuala bufro ŝanĝiĝis.
 
 ```lisp
 (defun kill-current-buffer ()

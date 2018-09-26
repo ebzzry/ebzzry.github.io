@@ -22,7 +22,7 @@
 &#40;unless &#40;server-running-p&#41;
   &#40;server-start&#41;&#41;
 </code></pre><p>Alterne, oni povas kuri emakson en demonreĝimo el la komandlinio:</p><pre><code class="bash">$ emacs --daemon
-</code></pre><h2><a name="bufroj"></a>Bufroj</h2><p>Mi volas havi manieron por mortigi la nunan bufron, sen esti demandita kiun bufro por mortigi. Mi nur invitiĝos se la nuna bufro ŝanĝiĝis.</p><pre><code class="lisp">&#40;defun kill-current-buffer &#40;&#41;
+</code></pre><h2><a name="bufroj"></a>Bufroj</h2><p>Mi volas havi manieron por mortigi la aktualan bufron, sen esti demandita kiun bufro por mortigi. Mi nur invitiĝos se la aktuala bufro ŝanĝiĝis.</p><pre><code class="lisp">&#40;defun kill-current-buffer &#40;&#41;
   &#40;interactive&#41;
   &#40;kill-buffer &#40;current-buffer&#41;&#41;&#41;
 </code></pre><h2><a name="markoj"></a>Markoj</h2><p>Estis multe da fojo en la estinteco kiam mi bezonis funkcion kiu markas nur linion. Kiun mi havas estas la jena. Ruli ĝin multfoje markas plurajn liniojn.</p><pre><code class="lisp">&#40;defun mark-line &#40;&amp;optional arg&#41;

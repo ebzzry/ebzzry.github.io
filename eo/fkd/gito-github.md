@@ -3,7 +3,7 @@ Maldaŭra Rondvojaĝo de Gito kaj GitHub
 
 <div class="center">[Esperanto](#) · [English](/en/git-github)</div>
 <div class="center">la 11-an de julio 2018</div>
-<div class="center">Laste ĝisdatigita: la 23-an de septembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 26-an de septembro 2018</div>
 
 >Ĉiujn solvitajn problemon sciu kiel solvi.<br>
 >―Richard P. FEYNMAN
@@ -51,7 +51,7 @@ Dosierujon por la projekto kreu, tiam ŝanĝiĝu ene:
     $ mkdir foobar
     $ cd foobar
 
-La `.gitignore`-dosieron redaktu en la nuna dosierujo:
+La `.gitignore`-dosieron redaktu en la aktuala dosierujo:
 
     $ nano .gitignore
 
@@ -61,7 +61,7 @@ La gitan deponejon oni nun povas pravalorizi.
 
     $ git init
 
-Komence, ĉiom da dosieroj en la nuna dosierujo aldonu:
+Komence, ĉiom da dosieroj en la aktuala dosierujo aldonu:
 
     $ git add .
 
