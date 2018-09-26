@@ -1,16 +1,18 @@
 Zsh Tips 1: Aliases and Functions
 =================================
 
+
+<div class="center">[Esperanto](/eo/zisxkonsiletoj-1-a) · [English](#)</div>
 <div class="center">October 18, 2017</div>
-<div class="center">Last updated: November 9, 2017</div>
+<div class="center">Last updated: Septembro 26, 2018</div>
 
 >A common man marvels at uncommon things; a wise man marvels at the commonplace.<br>
 >―Confucius
 
 One of the joys of working exclusively on the terminal is makes it so easy to work with commands,
 files, and directories. Being able to go from idea to results happens in a very short span of
-time. For interactive shell use, I use Zsh almost exclusively. In this article, I’ll talk about some
-things to improve your interactive interaction with the shell.
+time. For interactive shell use, I use [Zsh](http://zsh.sourceforge.net/) almost exclusively. In
+this article, I’ll talk about some things to improve your interactive interaction with the shell.
 
 
 <a name="toc">Table of contents</a>
@@ -35,7 +37,7 @@ defined as part of your configuration file, or inlined in your session.
 <a name="aliases">Aliases</a>
 -----------------------------
 
-Aliases are those cute stupid things that you put in your config files that do trivial one
+Aliases are those cute stupid things that you put in your config files that usually do trivial one
 liners. Some of them look like the following:
 
     alias ls="ls -F"
@@ -60,7 +62,7 @@ Functions on the other hand are the bigger relatives of aliases. They can do mor
 lesser ilk, can. One of the most important differences to note is that functions perform more that
 substitution. For example, an alias like the following:
 
-    alias meh="echo meh"
+    alias meh="echo foo"
 
 simply performs text substitution. That is, when Zsh encounters the text `foo` as the first token of
 the command line, it replaces it with `echo foo`. Nothing more. So, running:
@@ -69,14 +71,14 @@ the command line, it replaces it with `echo foo`. Nothing more. So, running:
 
 substitutes to
 
-    echo meh foo
+    echo foo
 
 Compare the following lines:
 
-    alias foo0="for i in foo bar baz; do echo $i; done"
-    function foo1 () { for i in foo bar baz; do echo $i; done }
+    alias foo0="for x in foo bar baz; do echo $x; done"
+    function foo1 () { for x in foo bar baz; do echo $x; done }
 
-The keyword `function` is redundant and may be omitted. Run it and see what happens:
+The keyword `function` is redundant and may be omitted. Run them and see what happens:
 
     % foo0
     % foo1
@@ -86,7 +88,7 @@ Aliases have a higher priority than functions. Consider the following lines:
     alias foo="echo foo"
     function foo () { echo foo, too }
 
-Both use the name foo, but each uses a different namespace. When you execute `foo`:
+Both use the name `foo`, but each uses a different namespace. When you execute `foo`:
 
     % foo
     foo
@@ -215,7 +217,8 @@ funs=(
   sl "ln -sf"
   md "mkdir -p"
 
-  g "egrep --color"
+  f "fd"
+  g "ripgrep --color auto"
   gi "g -i"
   tf "tail -F"
   rh "rehash"
@@ -232,6 +235,6 @@ funs=(
 <a name="closing">Closing remarks</a>
 -------------------------------------
 
-Grouping commands this way makes it significantly easier to add and remove new items. Bring them all
-in one consolidated places also makes your config file arguably cleaner. For the rest of the
+Grouping commands this way makes it significantly easier to add and remove items. Bring them all
+in one consolidated place also makes your config file arguably cleaner. For the rest of the
 definitions, visit the repo [here](https://github.com/ebzzry/dotfiles/tree/master/zsh).
