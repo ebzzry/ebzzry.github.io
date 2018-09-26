@@ -10,6 +10,7 @@ La Pensoj de Pedanto
 <div class="text-right">Retejo pri komputiko, hominklinaĵoj, kaj hazardaĵoj. La eroj ordigitas laŭ
 inverskronologiordo. Aŭdversion la steligitaj eroj havas.</div>
 
+- [Ziŝkonsiletoj 1-a: Alinomoj kaj Funkcioj](zisxkonsiletoj-1-a)
 - [Skriptado en Komunlispo](lispon-skripti)
 - [Mia Markdown-Stila Gvidilo](markdown)
 - [Emakskonsiletoj 3-a: Enmeti kaj Forviŝi](emakskonsiletoj-3-a)
@@ -18,7 +19,7 @@ inverskronologiordo. Aŭdversion la steligitaj eroj havas.</div>
 - [Divido en Haskelo](divido)
 - [Kiel Komuniki Samkiel Homo](homo)
 - [Milda Enkonduko al Sofismoj](sofismoj)
-- [Esperantaj Signoj en Linukso](eo-linukso)
+- [Esperanto-signoj en Linukso](eo-linukso)
 - [Signoj kaj Interpunkcioj (Mallongigite)](signoj-interpunkcioj-mallongigite)
 - [Signoj kaj Interpunkcioj](signoj-interpunkcioj)
 - [Verbotempoj en La Angla (Mallongigite)](verbotempoj-la-angla-mallongigite)

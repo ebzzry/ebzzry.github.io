@@ -1,5 +1,5 @@
-Esperantaj Signoj en Linukso
-============================
+Esperanto-signoj en Linukso
+===========================
 
 <div class="center">[Esperanto](#) · [English](/en/eo-linux)</div>
 <div class="center">la 22-an de julio 2018</div>
