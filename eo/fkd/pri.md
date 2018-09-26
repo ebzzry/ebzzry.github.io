@@ -12,6 +12,6 @@ Pri
 </div>
 
 Saluton! Mi nomiĝas Rommel kaj bonvenon al mia peco de teksaĵo! Mi esperas, ke la viziton al ĉi tiu
-eta loĝejo oni ĝuas. 👽
+eta loĝejo oni ĝuas.
 
 [Retpoŝto](mailto:ebzzry@ebzzry.io) · [GPG](/dat/ebzzry.pub.asc) · [GitHub](https://github.com/ebzzry)
