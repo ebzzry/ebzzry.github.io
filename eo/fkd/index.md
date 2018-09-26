@@ -10,6 +10,7 @@ La Pensoj de Pedanto
 <div class="text-right">Retejo pri komputiko, hominklinaĵoj, kaj hazardaĵoj. La eroj ordigitas laŭ
 inverskronologiordo. Aŭdversion la steligitaj eroj havas.</div>
 
+- [Ziŝkonsiletoj 4-a: Ĝeneralhelpiloj](zisxkonsiletoj-4-a)
 - [Ziŝkonsiletoj 3-a: Radikighelpiloj](zisxkonsiletoj-3-a)
 - [Kiel Mi Ruliĝas per Tmux](tmux)
 - [Ziŝkonsiletoj 2-a: Dosierujstakoj](zisxkonsiletoj-2-a)
