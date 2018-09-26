@@ -3,7 +3,7 @@ Emakskonsiletoj 2-a: Seancoj kaj Pakoj
 
 <div class="center">[Esperanto](#) · [English](/en/emacs-tips-2)</div>
 <div class="center">la 20-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 24-an de septembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 26-an de septembro 2018</div>
 
 Ĉi tiu estas la daŭrigo de la serioj pri emaksaj konsiletoj. En ĉi tiu afiŝo, ni esploras seancan
 mastrumadon, pakojn, krommarĝenojn, kaj aliajn malgrandajn agrablajn aferojn.
@@ -239,7 +239,7 @@ ne krommarĝeniĝas.
 <a name="plenigado"></a>Plenigado
 ---------------------------------
 
-Ĉi tiu kodaĵo ege funkcias kiam labori pri plataj tekstoj. Krommarĝenigas alineon aŭ la nunan
+Ĉi tiu kodaĵo ege funkcias kiam labori pri plataj tekstoj. Krommarĝenigas alineon aŭ la aktualan
 alinean kontekston. Se ekzistas markilo, tiam la regiono plenigiĝas.
 
 ```lisp

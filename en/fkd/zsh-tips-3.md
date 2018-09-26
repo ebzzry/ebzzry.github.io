@@ -1,6 +1,7 @@
 Zsh Tips 3: Chroot Helpers
 ==========================
 
+<div class="center">[Esperanto](/eo/zisxkonsiletoj-3-a) · [English](#)</div>
 <div class="center">October 20, 2017</div>
 <div class="center">Last updated: September 23, 2018</div>
 
@@ -45,11 +46,11 @@ options are too resource intensive and I just want it done fast, and now.
 To create the actual separate environment, we need a way to fetch and install it to our disk. For
 that, we need to have debootstrap.
 
-On Nix systems:
+On Nixpkgs systems:
 
     % nix-env -i debootstrap
 
-On Debian systems:
+On APT systems:
 
     % sudo apt-get install -y debootstrap
 
