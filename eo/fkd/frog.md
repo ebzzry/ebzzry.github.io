@@ -123,7 +123,7 @@ Krei novan afiŝon el nulo estas alia facila tasko:
 
     $ raco frog -n "Nova Bloga Afisxo"
 
-Ĉi tiu kreas Markdown-dosieron, kiu relativas al la nuna dosierujo, per la
+Ĉi tiu kreas Markdown-dosieron, kiu relativas al la aktuala dosierujo, per la
 formato `_src/posts/YYYY-MM-DD-afisxa-titolo.md`. Per la supra komando, la absoluta dosierindiko estus
 simila al:
 
@@ -211,7 +211,7 @@ Ni pli proksimu esploru ĉiun de la dosieroj de la listo.
 ### <a name=".frogrc"></a>.frogrc
 
 Ĉi tiu dosiero estas kie supraj tajloroj kreitas. Malfermu la dosieron `.frogrc`, troveblas en la
-nuna dosierujo:
+aktuala dosierujo:
 
     $ emacs .frogrc
 
@@ -229,7 +229,7 @@ la nomo de la blogo. `author` estas la nomo de verkanto.
 ### <a name="page-template.html"></a>page-template.html
 
 Ĉi tiu dosiero enhavas la komunan enhavon tra ĉiuj specoj de paĝoj, ĉu ili estas blogaj aŭ ne-blogaj
-afiŝoj. Malfermu la dosieron `_src/page-template.html`, troveblas en la nuna dosierujo:
+afiŝoj. Malfermu la dosieron `_src/page-template.html`, troveblas en la aktuala dosierujo:
 
     $ emacs _src/page-template.html
 
@@ -330,7 +330,7 @@ Por importi komentojn de ekzistanta blogo al Disqus, iru al <https://import.disq
 ---------------------------
 
 Por eldoni la verkon, alŝuti la enhavojn de la dosierujo kiun Frog-o mastrumas al la defora
-servilo. En ĉi tiu gvidilo, estas la dosierujo `/home/vakelo/blogo`. Se la nuna dosierujo estas
+servilo. En ĉi tiu gvidilo, estas la dosierujo `/home/vakelo/blogo`. Se la aktuala dosierujo estas
 `blog/`, kaj oni volas sendi la dosierojn per rsync, la komando aspektus kiel:
 
     $ rsync -avz ./ deforservilo:public_html

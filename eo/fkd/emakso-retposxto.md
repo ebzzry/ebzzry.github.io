@@ -3,7 +3,7 @@ Retpoŝton Agordi per Emakso
 
 <div class="center">[Esperanto](#) · [English](/en/emacs-mail)</div>
 <div class="center">la 14-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 20-an de septembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 26-an de septembro 2018</div>
 
 >Nur tial ke ne fariĝis, ne signifas, ke ne fareblas. Nur tial ke fareblas, ne
 >signifas, ke devus.<br>
@@ -135,7 +135,7 @@ Kaj cetere, oni bezonas elŝuti mu4e-on. Venas kun la fontkodo de mu-o. Elŝutu 
     $ cd ~/.emacs.d
     $ git clone git@github.com:djcb/mu.git
 
-Ĉi tiu komando kreas `mu/`-an dosierujon en la nuna dosierujo, kiu estas la defaŭlta dosierindiko,
+Ĉi tiu komando kreas `mu/`-an dosierujon en la aktuala dosierujo, kiu estas la defaŭlta dosierindiko,
 en kiu, Emakso trovas pravalorizajn dosierojn. Notu, ke la supra gita komando, fakte elŝutas la
 fontkodon de mu-o, kaj oni fakte povas uzi ĝin por instali mu-on. Tamen, tial ke oni jam havas sian
 pako-administrilon, si malatentos tion. Kaj la dosierindiko, en kiu, la `mu/mu4e/`-subdosierujo
