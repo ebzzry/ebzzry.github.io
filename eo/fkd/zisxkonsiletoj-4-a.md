@@ -236,7 +236,7 @@ function def_mk () {
 Por ĝin uzi, la nomon de la funkcio kiu estos uzita kiel komando donu, kaj la malvolvo mem. Ĉi tiuj
 alvokoj estas ideale difinita en la agorddosiero.
 
-### <a name="cp_krisino"></a>cp!
+### <a name="cp_krisigno"></a>cp!
 
 Por je `def_mk` uzi kun `cp` ĝin alvoku jene:
 
@@ -343,16 +343,17 @@ fari al:
 
     % dig hundo12345.kato.muzo.io
     % mtr hundo12345.kato.muzo.io
+                                 ^
 
 Ĉi tio certigas, ke la argumento estas ĝuste kopiita.
 
-La klavo estas defaŭlte bindita al <kbd>M-.</kbd>. Se oni volas certigi, ke tiun klavkombino oni
+La klavo estas defaŭlte bindita al <kbd>M-.</kbd>. Se oni volas certigi, ke tiun klavkombinon oni
 havas, la jenan metu en la agordo:
 
     bindkey "\e." insert-last-word
 
 
-### <a name="copyprevshellword"></a>copyprevshellword
+### <a name="copyprevshellword"></a>copy-prev-shell-word
 
 Se la lastan vorton en la aktuala komandlinio mi volas ripeti, je `copy-prev-shell-word` mi
 alvokas. Ekzemple, se la jenan oni havas:
