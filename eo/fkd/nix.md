@@ -896,7 +896,7 @@ potenca kunlaborada sistemo kiun tiu platformo ofertas ĝi eblas ekspluati. Ĉi 
 skribante, estas 42583 pakoj en la [kolekto](https://nixos.org/nixos/packages.html). Larĝan tabelon
 de pakoj iras de produktivecaj apoj al teoremaj pruviloj.
 
-Pakojn plejmulto da popularaj operaciumoj traktas bone, ĝis ili ne plu. Tiel longe kiel oni movas en
+Pakojn plejparto de popularaj operaciumoj traktas bone, ĝis ili ne plu. Tiel longe kiel oni movas en
 rektan linion, sole, oni sekuras. Aferoj ŝanĝiĝas, kiam aliaj homoj enkondukiĝas en la marŝo. Por ke
 la tutgrupo movu en unisono, ĉiuj devas esti konektita al unu la alia. Se ano decidas forvojaĝi, kaj
 sole marŝi, la tutgrupo kripliĝos. Tamen, se sin tiu ano decidas kloni por ke la forvojaĝado fariĝu
