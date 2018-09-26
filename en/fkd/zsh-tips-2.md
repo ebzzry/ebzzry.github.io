@@ -1,8 +1,9 @@
 Zsh Tips 2: Directory Stacks
 ============================
 
+<div class="center">[Esperanto](/eo/zisxkonsiletoj-2-a) · [English](#)</div>
 <div class="center">October 18, 2017</div>
-<div class="center">Last updated: October 19, 2017</div>
+<div class="center">Last updated: September 26, 2018</div>
 
 >What we do for ourselves dies with us. What we do for others remains forever.<br>
 >―Albert Pike
@@ -51,7 +52,7 @@ At this point I have three directories in the directory stack. If I run `popd`:
 
     % -
 
-I will get the following
+I will get the following:
 
     % pwd
     /etc/nixos
@@ -70,7 +71,7 @@ back to the last one through popping, with ease.
 However, when I create a new shell, that stack is lost. I use `exec` to reload my Zsh session, to
 ensure that my config files are read from scratch.
 
-    exec zsh
+    % exec zsh
 
 But doing so, removes the stack that I have built. To work this around, I have a function that saves
 the directory stack of the current session:
@@ -82,7 +83,7 @@ function z! () {
 }
 ```
 
-Running `z!` will save the contents of the current stack, and restart the shell
+Running `z!` will save the contents of the current stack, and restart the shell:
 
     % pwd
     /home/ebzzry
@@ -121,7 +122,6 @@ To restore the saved directory stack, on the current session, or a new separate 
     3       /home/ebzzry
 
 
-
 <a name="closing">Closing remarks</a>
 -------------------------------------
 
@@ -129,4 +129,3 @@ I use directory stacks as a way to save the directories that I interact with so 
 easier to restore to a previous working state. Having these two helper commands makes it even more
 enjoyable to work in the command line. For the rest of the definitions, visit the repo
 [here](https://github.com/ebzzry/dotfiles/tree/master/zsh).
-
