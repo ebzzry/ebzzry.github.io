@@ -3,7 +3,7 @@ The Musings of a Pedant
 
 <div class="center">[Esperanto](/eo/) · [English](#)</div>
 <div class="center">August 15, 2015</div>
-<div class="center">Last updated: September 15, 2018</div>
+<div class="center">Last updated: September 27, 2018</div>
 
 <img src="/bil/pluvis.jpg" class="banner" alt="pluvis.jpg" title="In the face of the cosmos, we all are children forever." />
 
@@ -21,7 +21,7 @@ entries are sorted in reverse chronological order.</div>
 - [A Gentle Introduction to the Nix Family](nix)
 - [Converting Markdown to HTML with emem](emem)
 - [Division in Haskell](haskell-division)
-- [How to Communicate Like a Human](human)
+- [How to Communicate like a Human](human)
 - [A Gentle Introduction to Fallacies](fallacies)
 - [Esperanto Characters in Linux](eo-linux)
 - [Symbols and Marks (Condensed)](symbols-marks-condensed)
@@ -34,11 +34,11 @@ entries are sorted in reverse chronological order.</div>
 - [Virtualizing with KVM in Linux](kvm)
 - [A Lambda Calculus Primer](lambda-calculus)
 - [Emacs Tips 2: Sessions and Packages](emacs-tips-2)
-- [Setting Up GPG and SSH in KDE](gsk)
+- [Setting up GPG and SSH in KDE](gsk)
 - [Creating Backups with Ugarit](ugarit)
 - [Blogging with Frog](frog)
-- [Setting Up Mail in Emacs](emacs-mail)
-- [Setting Up Racket Development in Emacs](emacs-racket)
+- [Setting up Mail in Emacs](emacs-mail)
+- [Setting up Racket Development in Emacs](emacs-racket)
 - [Managing Directories in Emacs](emacs-dired)
 - [Emacs Tips 1: Regions and Marks](emacs-tips-1)
 - [In Retrospect](retrospect)
