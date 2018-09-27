@@ -1,9 +1,9 @@
-Ziŝkonsiletoj 3-a: Radikighelpiloj
-==================================
+Ziŝkonsiletoj 3-a: Ŝanĝradikighelpiloj
+======================================
 
 <div class="center">[Esperanto](#) · [English](/en/zsh-tips-3)</div>
 <div class="center">la 26-an de septembro 2018</div>
-<div class="center">Laste ĝisdatigita: la 26-an de septembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 27-an de septembro 2018</div>
 
 >Ni ridas pri tio, kion ni ne povas toleri por alfronti.<br>
 >―Aristotelo
@@ -11,13 +11,13 @@ Ziŝkonsiletoj 3-a: Radikighelpiloj
 Teĥnologioj kiel Docker, QEMU, kaj VirtualBox estas bonegaj iloj kiam procezojn oni volas kurigi
 aparte de la gastiga sistemo. Tute izolitajn mediojn ĉi tiuj teĥnikoj provizas al ni kiuj la
 reprodukteblecon de kodo plifaciligas testi. Tamen, estas okazoj en kiu ĉi tiuj solvoj tro pezas,
-kaj ion malplipezan ni bezonas. Eniras radikigado. Male al siaj pliplezaj amikoj, radikigado sidas
-ie proksima al la dosiersistemo, kie la risurcojn de la medio kiun ĝin alvokas ĝi povas facile
+kaj ion malplipezan ni bezonas. Eniras ŝanĝradikigado. Male al siaj pliplezaj amikoj, ŝanĝradikigado
+sidas ie proksima al la dosiersistemo, kie la risurcojn de la medio kiun ĝin alvokas ĝi povas facile
 aliri.
 
-En ĉi tiu artikolo, mi parolos kiel radikigmedion agordi sur linukso per ziŝo. Teĥnike, ĉi tio estas
-kunmeto de diskutoj pri ŝelo kaj sistemadministrado, sed pro kapablojn kiuj estas ekskluzivaj al
-ziŝo mi uzas—aŭ alie malfacila por fari en aliaj ŝeloj—tiun paĝtitolon mi uzis.
+En ĉi tiu artikolo, mi parolos kiel ŝanĝradikigmedion agordi sur linukso per ziŝo. Teĥnike, ĉi tio
+estas kunmeto de diskutoj pri ŝelo kaj sistemadministrado, sed pro kapablojn kiuj estas ekskluzivaj
+al ziŝo mi uzas—aŭ alie malfacila por fari en aliaj ŝeloj—tiun paĝtitolon mi uzis.
 
 
 <a name="et"></a>Enhavotabelo
@@ -83,7 +83,7 @@ Kiam ĝi finis kuri, la bindsurmetojn de la sistemo al la cela sistemo ni devas 
 <a name="agordo"></a>Agordo
 ---------------------------
 
-Por ke la radikigmedio funkcias ĝuste, enen ni devas iri kaj ŝanĝojn fari:
+Por ke la ŝanĝradikigmedio funkcias ĝuste, enen ni devas iri kaj ŝanĝojn fari:
 
     % sudo chroot /home/chrt/ubuntu
 
@@ -91,7 +91,7 @@ En ĉi tiu punkto, oni estas ensalutita kiel la ĉefuzanto per Baŝo. Kelkajn il
 
     # apt-get install -y zsh sudo
 
-Tiam la radikigmedian specifan konton ni kreu. Ĝin ni devas akordigi al la tiu, kiun oni nune
+Tiam la ŝanĝradikigmedian specifan konton ni kreu. Ĝin ni devas akordigi al la tiu, kiun oni nune
 uzas. Ni supozu, ke la aktuala uzantnomo estas `vakelo` kun la uzantnumero `1000`.
 
     # useradd -u 1000 -m vakelo
@@ -117,7 +117,7 @@ al
 
     %sudo   ALL=(ALL:ALL) NOPASSWD: ALL
 
-La redaktilon fermu. Post tio, ankaŭ eliru de la radikigmedio:
+La redaktilon fermu. Post tio, ankaŭ eliru de la ŝanĝradikigmedio:
 
     # exit
 
@@ -126,8 +126,8 @@ La redaktilon fermu. Post tio, ankaŭ eliru de la radikigmedio:
 ------------------------------------------
 
 De nun ni estas reen sur la gastiga maŝino. La komandojn kiuj estas efektive uzitaj por interagi al
-la radikigmedio ni devas difini. La dosieron `~/.zshenv` ni malfermu per la redaktilo, tiam la jenan
-metu:
+la ŝanĝradikigmedio ni devas difini. La dosieron `~/.zshenv` ni malfermu per la redaktilo, tiam la
+jenan metu:
 
 ```bash
 CHROOT=/home/chrt/ubuntu
@@ -196,7 +196,7 @@ estu legitaj de la startiga dosiero.
 <a name="elprovado"></a>Elprovado
 ---------------------------------
 
-La daton el la radikigmedio ni akiru:
+La daton el la ŝanĝradikigmedio ni akiru:
 
     % cr date
 
@@ -211,7 +211,7 @@ Je `cr` oni ankaŭ povas kurigi por eniri al ŝelo:
 Ene ĉi tiu ŝelo, aliron al la ekstermedio la aktuala medio havas, inkluzive la hejmdosierujon. Onin
 ĉi tio permesas por apojn instali kiu la datumon en la gastiga maŝina medio povas aliri.
 
-Se la radikigmedion oni volas malŝalti eksplicite, kurigu:
+Se la ŝanĝradikigmedion oni volas malŝalti eksplicite, kurigu:
 
     % cru
 
