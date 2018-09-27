@@ -1,7 +1,7 @@
 Kiel Mi Ruliĝas per Tmux
 ========================
 
-<div class="center">[Esperanto](#) · [English](/en/tmux)</div>
+<div class="center">[Esperanto](#) · [English](/en/tmux/)</div>
 <div class="center">la 26-an de septembro 2018</div>
 <div class="center">Laste ĝisdatigita: la 26-an de septembro 2018</div>
 

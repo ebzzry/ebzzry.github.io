@@ -1,7 +1,7 @@
 Emakso kaj Paroj
 ================
 
-<div class="center">[Esperanto](#) · [English](/en/emacs-pairs)</div>
+<div class="center">[Esperanto](#) · [English](/en/emacs-pairs/)</div>
 <div class="center">la 9-an de julio 2018</div>
 <div class="center">Laste ĝisdatigita: la 20-an de septembro 2018</div>
 
