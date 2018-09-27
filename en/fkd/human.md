@@ -1,4 +1,4 @@
-How to Communicate Like a Human
+How to Communicate like a Human
 ===============================
 
 <div class="center">[Esperanto](/eo/homo) · [English](#)</div>
