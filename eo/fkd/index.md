@@ -11,7 +11,7 @@ La Pensoj de Pedanto
 inverskronologiordo. Aŭdversion la steligitaj eroj havas.</div>
 
 - [Ziŝkonsiletoj 4-a: Ĝeneralhelpiloj](zisxkonsiletoj-4-a)
-- [Ziŝkonsiletoj 3-a: Radikighelpiloj](zisxkonsiletoj-3-a)
+- [Ziŝkonsiletoj 3-a: Ŝanĝradikighelpiloj](zisxkonsiletoj-3-a)
 - [Kiel Mi Ruliĝas per Tmux](tmux)
 - [Ziŝkonsiletoj 2-a: Dosierujstakoj](zisxkonsiletoj-2-a)
 - [Ziŝkonsiletoj 1-a: Alinomoj kaj Funkcioj](zisxkonsiletoj-1-a)
