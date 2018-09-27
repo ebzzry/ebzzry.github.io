@@ -20,7 +20,7 @@ entries are sorted in reverse chronological order.</div>
 - [Emacs Tips 3: Insert and Delete](emacs-tips-3)
 - [A Gentle Introduction to the Nix Family](nix)
 - [Converting Markdown to HTML with emem](emem)
-- [Division in Haskell](division)
+- [Division in Haskell](haskell-division)
 - [How to Communicate Like a Human](human)
 - [A Gentle Introduction to Fallacies](fallacies)
 - [Esperanto Characters in Linux](eo-linux)
