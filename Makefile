@@ -9,15 +9,7 @@ OG_BILDO="https://ebzzry.io/static/ico/android-chrome-512x512.png"
 ANALITIKOJ="93746003-1"
 
 %.html: fkd/%.md
-	$(KONSTRUILO) \
-          --og-title $(OG_TITOLO) --og-type $(OG_TIPO) \
-          -D $(OG_TITOLO) \
-          -K "ebzzry, rommel, martinez, rommel martinez" \
-          --og-url "https://ebzzry.io/$$(basename $< .md).html" \
-          --og-image $(OG_BILDO) \
-          --analytics $(ANALITIKOJ) \
-          -RFiamuo "$$(basename $< .md).html" \
-          $<
+	$(KONSTRUILO) --og-title $(OG_TITOLO) --og-type $(OG_TIPO) -D $(OG_TITOLO) -K "ebzzry, rommel, martinez, rommel martinez" --og-url "https://ebzzry.io/$$(basename $< .md).html" --og-image $(OG_BILDO) --analytics $(ANALITIKOJ) -RFiamuo "$$(basename $< .md).html" $<
 
 all:
 	$(KONSTRUILO) -r

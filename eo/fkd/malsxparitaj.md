@@ -3,30 +3,30 @@ Malŝparitaj Malcedemoj
 
 <div class="center">[Esperanto](#) · [English](/en/squandered/)</div>
 <div class="center">la 5-an de decembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 10-an de aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 27-an de septembro 2018</div>
 
 >La unua paŝo por iri ien, estas decidi, ke oni ne restos kie oni estas.<br>
 >―J.P. MORGAN
 
-Estas zorgiga kaj tremiga sentaĵo, kiun mi sentas kiam ajn la amortizema realiĝo, ke mi ne plu
-juna infano, venas. La maltrankvila barakto inter lerni por liberigi la antaŭsignan estintecon kaj
-mian kaprican estontecon, kaptas min per forta teno.
+Estas zorgiga kaj tremiga sentaĵo, kiun mi sentas kiam ajn la malvarma konscio, ke mi ne plu estas
+juna infano, venas. La maltrankvila barakto inter lerni liberigi la antaŭsignan estintecon kaj mian
+kaprican estontecon, kaptas min per forta teno.
 
 Ne estas pri la neebleco por refari senpagajn elspezojn de iom liberale disponigitaj laksaj
 konfinadoj de tempo, tamen estas pri la kornaŭzaj rimarkoj ke la pensmaniero kiun mi antaŭe
-premisis, nun estas io ke volus postuli atlazajn fortojn de mi por eĉ komenci venigi. Mi avidas la
-nemalpliiĝantajn esploremecojn, kiujn mi unufoje facile manprenis, por miaj ĉiutagaj interpuŝiĝoj
+premisis, nun estas io, ke volus postuli atlazajn fortojn de mi por eĉ komenci venigi. Mi avidas pri
+la nemalpliiĝantaj esploremecoj, kiujn mi unufoje facile manprenis, por miaj ĉiutagaj interpuŝiĝoj
 pri la svarmoj de razioj de la vivo.
 
-Kiam ni translokas preter niaj zonoj de konsolo, ni plenigitas per avideco por reveni al niaj
+Kiam ni translokiĝas preter niaj areoj de konsolo, ni pleniĝas per avideco por reveni al niaj
 propraj fortikaj bunkroj. Ni vidas niajn proprajn fantomemajn similulojn, komunikantaj kaj
 montrantaj al ni kion minacantaj abomenaĵoj eble altiĝas el la tero, pretaj por vive vori nin. Ju
 pli ni restas ekster, des pli alta la probablo de morto.
 
 Ni igas nin mem por kredi niajn proprajn kondamnojn; ni pravigas per niaj propraj mallaŭnormigataj
-skaloj de kiujn elektoj por fari. Kiam ajn nekonataj teritorioj esploritas, ni preskaŭ tuj
-vindiĝas, reen en ŝajne kontraŭstaremaj formoj. Ni faras ĝin pro la timo. Ni faras ĝin tial ke ni ne
-ŝatas la nekonatajn. Ni faras ĝin pro niaj parencecoj kaj sindonoj por sekureco.
+skaloj de kiujn elektoj por fari. Kiam ajn nekonataj teritorioj esploriĝas, ni preskaŭ tuj vindiĝas,
+reen en ŝajne kontraŭstaremaj formoj. Ni faras ĝin pro la timo. Ni faras ĝin tial, ke ni ne ŝatas la
+nekonatajn. Ni faras ĝin pro niaj parencecoj kaj sindonoj por sekureco.
 
 Ni plendas pri la sufokema manko de premio, kaj jam ni libervole ĉesi nin mem de fari eĉ colon de
 movado de kruro al fari la avancon al la kapto. Ni estas tiel sentimentale enamiĝas kun fervoro en la
@@ -81,7 +81,7 @@ aspektata?
 ni pridemandiĝas de aferoj pensataj kiel pli simpla ol mezlernejaj klasejaj lecionoj. Tamen,
 estas iuj aferoj kiuj komunas al ni, kvankam ne ĉio: ni timemas vidi kiel socio eble reagas
 al niaj agoj, kiel ajn stultaj aŭ gravaj niaj agoj povas esti. Tamen, pri la pli gravaj aferoj, ni
-prete miksiĝi, tial ke ni ne volas malakcepton. Plejparto da ni feliĉas por pensi kaj movi kun
+prete miksiĝi tial, ke ni ne volas malakcepton. Plejparto da ni feliĉas por pensi kaj movi kun
 la grego, sen ia antaŭzorgo.
 
 Kiam ni propravole alligi al niaj kruroj la pezajn ĉenojn kaj ŝtalpilkojn, ni ne devus anticipi por
