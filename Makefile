@@ -3,18 +3,18 @@
 DOSIEROJ=$(wildcard fkd/*.md)
 KONSTRUILO=emem
 
-OG_TITLE="$$(head -1 $<)"
-OG_TYPE="article"
-OG_IMAGE="https://ebzzry.io/static/ico/android-chrome-512x512.png"
+OG_TITOLO="$$(head -1 $<)"
+OG_TIPO="article"
+OG_BILDO="https://ebzzry.io/static/ico/android-chrome-512x512.png"
 ANALITIKOJ="93746003-1"
 
 %.html: fkd/%.md
 	$(KONSTRUILO) \
-          --og-title $(OG_TITLE) --og-type $(OG_TYPE) \
-          -D $(OG_TITLE) \
+          --og-title $(OG_TITOLO) --og-type $(OG_TIPO) \
+          -D $(OG_TITOLO) \
           -K "ebzzry, rommel, martinez, rommel martinez" \
           --og-url "https://ebzzry.io/$$(basename $< .md).html" \
-          --og-image $(OG_IMAGE) \
+          --og-image $(OG_BILDO) \
           --analytics $(ANALITIKOJ) \
           -RFiamuo "$$(basename $< .md).html" \
           $<
