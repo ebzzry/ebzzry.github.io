@@ -20,7 +20,7 @@ inverskronologiordo. Aŭdversion la steligitaj eroj havas.</div>
 - [Emakskonsiletoj 3-a: Enmeti kaj Forviŝi](emakskonsiletoj-3-a)
 - [Milda Enkonduko al la Nix-Familio](nix)
 - [Konverti de Markdown al HTML](emem)
-- [Divido en Haskelo](divido)
+- [Divido en Haskelo](haskeldivido)
 - [Kiel Komuniki Samkiel Homo](homo)
 - [Milda Enkonduko al Sofismoj](sofismoj)
 - [Esperanto-signoj en Linukso](eo-linukso)
