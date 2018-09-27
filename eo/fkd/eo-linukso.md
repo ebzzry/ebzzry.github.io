@@ -1,7 +1,7 @@
 Esperanto-signoj en Linukso
 ===========================
 
-<div class="center">[Esperanto](#) · [English](/en/eo-linux)</div>
+<div class="center">[Esperanto](#) · [English](/en/eo-linux/)</div>
 <div class="center">la 22-an de julio 2018</div>
 <div class="center">Laste ĝisdatigita: la 12-an de septembro 2018</div>
 

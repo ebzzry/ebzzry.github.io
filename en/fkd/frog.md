@@ -1,7 +1,7 @@
 Blogging with Frog
 ==================
 
-<div class="center">[Esperanto](/eo/frog) · [English](#)</div>
+<div class="center">[Esperanto](/eo/frog/) · [English](#)</div>
 <div class="center">February 19, 2014</div>
 <div class="center">Last updated: September 23, 2018</div>
 
@@ -356,7 +356,7 @@ Then you push the commits:
 
     $ git push origin master
 
-To view your website, go to [vakelo.github.io](http://vakelo.github.io).
+To view your website, go to `vakelo.github.io`.
 
 
 <a name="closing"></a> Closing remarks

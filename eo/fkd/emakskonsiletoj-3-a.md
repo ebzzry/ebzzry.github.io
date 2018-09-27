@@ -1,7 +1,7 @@
 Emakskonsiletoj 3-a: Enmeti kaj Forviŝi
 =======================================
 
-<div class="center">[Esperanto](#) · [English](/en/emacs-tips-3)</div>
+<div class="center">[Esperanto](#) · [English](/en/emacs-tips-3/)</div>
 <div class="center">la 24-an de septembro 2018</div>
 <div class="center">Laste ĝisdatigita: la 24-an de septembro 2018</div>
 

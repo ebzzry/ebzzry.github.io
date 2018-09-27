@@ -1,7 +1,7 @@
 Esperanto Characters in Linux
 =============================
 
-<div class="center">[Esperanto](/eo/eo-linukso) · [English](#)</div>
+<div class="center">[Esperanto](/eo/eo-linukso/) · [English](#)</div>
 <div class="center">April 18, 2016</div>
 <div class="center">Last updated: September 12, 2018</div>
 

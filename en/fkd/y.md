@@ -1,7 +1,7 @@
 The Y Combinator in Six Steps
 =============================
 
-<div class="center">[Esperanto](/eo/ipsilono) · [English](#)</div>
+<div class="center">[Esperanto](/eo/ipsilono/) · [English](#)</div>
 <div class="center">May 9, 2013</div>
 <div class="center">Last updated: December 1, 2017</div>
 

@@ -1,7 +1,7 @@
 Emacs Tips and Tricks 2: Sessions and Packages
 ==============================================
 
-<div class="center">[Esperanto](/eo/emakskonsiletoj-2-a) · [English](#)</div>
+<div class="center">[Esperanto](/eo/emakskonsiletoj-2-a/) · [English](#)</div>
 <div class="center">June 12, 2015</div>
 <div class="center">Last updated: February 21, 2018</div>
 

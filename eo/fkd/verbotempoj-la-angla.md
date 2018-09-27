@@ -1,14 +1,14 @@
 Verbotempoj en La Angla
 =======================
 
-<div class="center">[Esperanto](#) · [English](/en/verb-tenses)</div>
+<div class="center">[Esperanto](#) · [English](/en/verb-tenses/)</div>
 <div class="center">la 15-an de julio 2018</div>
 <div class="center">Laste ĝisdatigita: la 12-an de aŭgusto 2018</div>
 
 >La kontrasto inter ordinara kaj eksterordinara estas tiu eta pliaĵo.<br>
 >―Jimmy JOHNSON
 
-*[Ĉi tien](/eo/verbotempoj-la-angla-mallongigite) klaku por la mallongigita versio.*
+*[Ĉi tien](/eo/verbotempoj-la-angla-mallongigite/) klaku por la mallongigita versio.*
 
 Por la Anglan legi, skribi, kaj paroli pli bone, la kvalitojn kaj distingaĵojn inter la diversaj
 verbotempoj oni devas lerni. Ilin scii kiel kaj kiam uzi, onin ebligas por ne nur la Anglan havi pli bonan aprezon, sed de lingvojn ĝenerale.

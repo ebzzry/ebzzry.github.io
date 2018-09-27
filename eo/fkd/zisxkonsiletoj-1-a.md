@@ -1,7 +1,7 @@
 Ziŝkonsiletoj 1-a: Alinomoj kaj Funkcioj
 ========================================
 
-<div class="center">[Esperanto](#) · [English](/en/zsh-tips-1)</div>
+<div class="center">[Esperanto](#) · [English](/en/zsh-tips-1/)</div>
 <div class="center">la 26-an de septembro 2018</div>
 <div class="center">Laste ĝisdatigita: la 26-an de septembro 2018</div>
 

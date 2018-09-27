@@ -1,14 +1,14 @@
 Verb Tenses in English
 ======================
 
-<div class="center">[Esperanto](/eo/verbotempoj-la-angla) · [English](#)</div>
+<div class="center">[Esperanto](/eo/verbotempoj-la-angla/) · [English](#)</div>
 <div class="center">April 6, 2016</div>
 <div class="center">Last updated: July 15, 2018</div>
 
 >The difference between ordinary and extraordinary is that little extra.<br>
 >―Jimmy Johnson
 
-*Click [here](/en/verb-tenses-condensed) for the condensed version.*
+*Click [here](/en/verb-tenses-condensed/) for the condensed version.*
 
 To read, write, and speak better English, one must learn the qualities and peculiarities between the
 different verb tenses. Knowing how to and when to use them will enable you have a better
