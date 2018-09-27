@@ -1,7 +1,7 @@
 Milda Enkonduko al la Nix-Familio
 =================================
 
-<div class="center">[Esperanto](#) · [English](/en/nix)</div>
+<div class="center">[Esperanto](#) · [English](/en/nix/)</div>
 <div class="center">la 5-an de aŭgusto 2018</div>
 <div class="center">Laste ĝisdatigita: la 26-an de septembro 2018</div>
 
@@ -1552,7 +1552,7 @@ La NixOS-fondiĝo estas registrita senprofitcela organizo; la
 <a name="bonifiko"></a>Bonifiko
 -------------------------------
 
-Jen la [ipsilonkombinatoro](/eo/ipsilono) en Nix, aplikita al la faktoriala funkcio:
+Jen la [ipsilonkombinatoro](/eo/ipsilono/) en Nix, aplikita al la faktoriala funkcio:
 
 ```nix
 nix-repl> y = x: ((f: (x (v: ((f f) v)))) (f: (x (v: ((f f) v)))))

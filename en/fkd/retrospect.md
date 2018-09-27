@@ -1,7 +1,7 @@
 In Retrospect
 =============
 
-<div class="center">[Esperanto](/eo/rerigardante) · [English](#)</div>
+<div class="center">[Esperanto](/eo/rerigardante/) · [English](#)</div>
 <div class="center">July 11, 2013</div>
 <div class="center">Last updated: September 24, 2018</div>
 
