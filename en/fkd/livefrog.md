@@ -1,7 +1,7 @@
 Migrating from LiveJournal to Frog
 ==================================
 
-<div class="center">[Esperanto](/eo/livefrog) · [English](#)</div>
+<div class="center">[Esperanto](/eo/livefrog/) · [English](#)</div>
 <div class="center">May 29, 2013</div>
 <div class="center">Last updated: September 6, 2018</div>
 

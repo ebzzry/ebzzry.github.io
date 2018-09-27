@@ -1,14 +1,14 @@
 Symbols and Marks
 =================
 
-<div class="center">[Esperanto](/eo/signoj-interpunkcioj) · [English](#)</div>
+<div class="center">[Esperanto](/eo/signoj-interpunkcioj/) · [English](#)</div>
 <div class="center">April 8, 2016</div>
 <div class="center">Last updated: July 22, 2018</div>
 
 >If you want to achieve greatness, stop asking for permission.<br>
 >―Eddie Colla
 
-*Click [here](/en/symbols-marks-condensed) for the condensed version.*
+*Click [here](/en/symbols-marks-condensed/) for the condensed version.*
 
 This short guide gives you a tour on how to use the (-), ('), and (") symbols on your keyboard, that
 are better suited to perform symbol duties than their ill cousins from the typewriter era. In

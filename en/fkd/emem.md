@@ -1,7 +1,7 @@
 Converting Markdown to HTML with emem
 =====================================
 
-<div class="center">[Esperanto](/eo/emem) · [English](#)</div>
+<div class="center">[Esperanto](/eo/emem/) · [English](#)</div>
 <div class="center">March 12, 2017</div>
 <div class="center">Last updated: September 6, 2018</div>
 
