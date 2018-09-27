@@ -3,15 +3,15 @@ Squandered Relentlessness
 
 <div class="center">[Esperanto](/eo/malsxparitaj/) · [English](#)</div>
 <div class="center">May 9, 2013</div>
-<div class="center">Last updated: December 8, 2017</div>
+<div class="center">Last updated: September 27, 2018</div>
 
 >The first step towards getting somewhere is to decide that you are not going to stay where you
 >are.<br>
 >―J.P. Morgan
 
-There is a disturbing and eerie sensation that I feel whenever the damping realization that I am no
-longer a young child comes. The uneasy struggle between learning to let go of my portentous past and my
-capricious future, grips me, with heavy clench.
+There is a disturbing and eerie sensation that I feel whenever the cold realization that I am no
+longer a young child comes. The uneasy struggle between learning to let go of my portentous past and
+my capricious future, grips me, with heavy clench.
 
 It is not about the inability to redo gratuitous expenditure of somewhat liberally-provided lax
 confinements of time, but it is about the unsettling observation that the mindset I previously took
@@ -87,5 +87,5 @@ without any forethought.
 
 When we voluntarily attach to our legs, heavy chains and balls of steel, we should not expect to be
 able to run around the coliseum with ease. When we dare to explore uncharted territories, without
-regrets, without dis-enchantments, without the necessity to have another ship to propel us forward, we
-will eventually triumph.
+regrets, without dis-enchantments, without the necessity to have another ship to propel us forward,
+we will eventually triumph.
