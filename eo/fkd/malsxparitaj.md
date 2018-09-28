@@ -20,10 +20,10 @@ pri la svarmoj de razioj de la vivo.
 
 Kiam ni translokiĝas preter niaj areoj de konsolo, ni pleniĝas per avideco por reveni al niaj
 propraj fortikaj bunkroj. Ni vidas niajn proprajn fantomemajn similulojn, komunikantaj kaj
-montrantaj al ni kion minacantaj abomenaĵoj eble altiĝas el la tero, pretaj por vive vori nin. Ju
+montrantaj al ni kiaj minacantaj abomenaĵoj eble altiĝas el la tero, pretaj por vive vori nin. Ju
 pli ni restas ekster, des pli alta la probablo de morto.
 
-Ni igas nin mem por kredi niajn proprajn kondamnojn; ni pravigas per niaj propraj mallaŭnormigataj
+Ni igas nin mem por kredi niajn proprajn kondamnojn; ni praviĝas per niaj propraj mallaŭnormigataj
 skaloj de kiujn elektoj por fari. Kiam ajn nekonataj teritorioj esploriĝas, ni preskaŭ tuj vindiĝas,
 reen en ŝajne kontraŭstaremaj formoj. Ni faras ĝin pro la timo. Ni faras ĝin tial, ke ni ne ŝatas la
 nekonatajn. Ni faras ĝin pro niaj parencecoj kaj sindonoj por sekureco.

@@ -1503,8 +1503,8 @@ eblojn de la Nix-ekosistemo kiuj plaĉas al mi, mi devas listigi, ili estas:
 
 Alia grava ano de la Nix-familio estas [NixOps](https://nixos.org/nixops); onin permesas por je
 NixOS disponigi sur «nudmetalaj» sistemoj, virtualaj sistemoj, aŭ la nubo, per la uzo de deklara
-aliro kiu estas konata al ni. Ĝi eblas disponigi al VirtualBox, Amazon EC2, Google Compute Engine,
-Microsoft Azure, Hetzner, Digital Ocean, kaj Libvirtd. Iru al la
+aliro kiu estas konata al ni. Ĝi eblas disponigi al *VirtualBox*, *Amazon EC2*, *Google Compute Engine*,
+*Microsoft Azure*, *Hetzner*, *Digital Ocean*, kaj *Libvirtd*. Iru al la
 [gvidilo](https://nixos.org/nixops/manual/) por pli da detalo.
 
 Fundajn detalojn pri generadoj, derivaĵoj, kaj efektivigadoj estis eliziadoj intence, en ĉi tiu
