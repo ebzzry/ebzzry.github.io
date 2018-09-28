@@ -3,7 +3,7 @@ Agordi je GPG kaj je SSH en KDE
 
 <div class="center">[Esperanto](#) · [English](/en/gsk/)</div>
 <div class="center">la 19-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 22-an de aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 28-an de aŭgusto 2018</div>
 
 >Ne tute estas grave por prave atingi tion en la unua fojo. Estas vitale grava atingi tion en la
 >lasta tempo.<br>
@@ -170,4 +170,4 @@ Okazos samspeca agmaniero se oni ĉifras dosieron GPG-e:
 La paŝoj parolis supre estis intencitaj por esti mallongaj sen priparoli la malsimplajn
 detalojn. Mi esperas ke oni trovis ĉi tiun utila.
 
-_Dank’ al [Raymund Martinez](https://zhaqenl.github.io) pro la korektoj._
+_Dank’ al [Raymund MARTINEZ](https://zhaqenl.github.io) pro la korektoj._

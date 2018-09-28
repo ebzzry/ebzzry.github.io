@@ -3,7 +3,7 @@ Rerigardante
 
 <div class="center">[Esperanto](#) · [English](/en/retrospect/)</div>
 <div class="center">la 8-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 24-an de septembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 28-an de septembro 2018</div>
 
 >El la militolernejo de la vivo: kion ne detruas min, igas min pli forte.<br>
 >―Friedrich NIETZSCHE
@@ -66,4 +66,4 @@ iri rekte al mi, ĉar mi faros ilin sperti mil mortojn. Ĉiufoje mi falas, mi st
 daŭri la batalon. Mi ege frapos pli ol la lasta frapo, tiel longe kiel sango kuras tra mia korpo,
 tiel longe kiel mi sentas la palpeblan aeron de mia spiro.
 
-_Dank’ al [Raymund Martinez](https://zhaqenl.github.io) pro la korektoj._
+_Dank’ al [Raymund MARTINEZ](https://zhaqenl.github.io) pro la korektoj._

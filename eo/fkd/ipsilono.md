@@ -3,7 +3,7 @@ La Ipsilonkombinatoro en Ses Paŝoj
 
 <div class="center">[Esperanto](#) · [English](/en/y/)</div>
 <div class="center">la 25-an de novembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 18-an de aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 28-an de septembro 2018</div>
 
 >Unue, decidu. Kaj faru ĝin. Estas la nur maniero por atingi ion.<br>
 >―Lacus CLYNE, Gundam SEED Destiny
@@ -193,4 +193,4 @@ Kiam la kernaj konceptoj estas komprenataj, estos facile por kapti la ŝajne mal
 esperas, ke ĉi tiu artikolo estas utila fari onin kompreni la ipsilonan kombinatoron,
 funkcivokarigon, kaj proceduran aplikon.
 
-_Dank’ al [Raymund Martinez](https://zhaqenl.github.io) pro la korektoj._
+_Dank’ al [Raymund MARTINEZ](https://zhaqenl.github.io) pro la korektoj._

@@ -3,7 +3,7 @@ Malŝparitaj Malcedemoj
 
 <div class="center">[Esperanto](#) · [English](/en/squandered/)</div>
 <div class="center">la 5-an de decembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 27-an de septembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 28-an de septembro 2018</div>
 
 >La unua paŝo por iri ien, estas decidi, ke oni ne restos kie oni estas.<br>
 >―J.P. MORGAN
@@ -89,4 +89,4 @@ esti kapabla kuri ĉirkaŭ la stadiono facile. Kiam ni kuraĝas esplori nekartog
 sen bedaŭroj, sen disreviĝoj, sen la neceseco por havi alian ŝipon por irigi nin antaŭe, ni iutempe
 venkos.
 
-_Dank’ al [Raymund Martinez](https://zhaqenl.github.io) pro la korektoj._
+_Dank’ al [Raymund MARTINEZ](https://zhaqenl.github.io) pro la korektoj._
