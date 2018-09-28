@@ -3,7 +3,7 @@ Milda Enkonduko al Sofismoj
 
 <div class="center">[Esperanto](#) · [English](/en/fallacies/)</div>
 <div class="center">la 29-an de julio 2018</div>
-<div class="center">Laste ĝisdatigita: la 23-an de septembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 28-an de septembro 2018</div>
 
 >Lerni ne necesas; nek travivas.<br>
 >―W. Edwards DEMING
@@ -552,4 +552,4 @@ neutilas, sekve la argumenton de persono A igas neakcepteblaj.
 Supozante, ke la fonta informo ja validas, la argumenton kiun persono A prezentas ne
 malvalidigas. Ĉi tio rilatas al apelo al devenoj.
 
-_Dank’ al [Raymund Martinez](https://zhaqenl.github.io) pro la korektoj._
+_Dank’ al [Raymund MARTINEZ](https://zhaqenl.github.io) pro la korektoj._
