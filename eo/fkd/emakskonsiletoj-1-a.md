@@ -3,7 +3,7 @@ Emakskonsiletoj 1-a: Regionoj kaj Markoj
 
 <div class="center">[Esperanto](#) · [English](/en/emacs-tips-1/)</div>
 <div class="center">la 12-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 26-an de septembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 28-an de septembro 2018</div>
 
 Mi ankoraŭ bezonas trovi pli bonan redaktilon ol [emakso](https://www.gnu.org/software/emacs/). Kio
 faras emakson elstari, estas sia agorda lingvo—emaksa Lispo. Emakso uzas ĝin al punkto, en kiu,
@@ -150,4 +150,4 @@ La klavkombinoj por la supraj komandoj, estas la jenaj:
 Mi esperas, ke oni povos esti kapabla trovi uzojn de kelkaj de ili. La ceteraj agordoj troveblas
 [ĉi tie](https://github.com/ebzzry/dotfiles/tree/master/emacs).
 
-_Dank’ al [Raymund Martinez](https://zhaqenl.github.io) pro la korektoj._
+_Dank’ al [Raymund MARTINEZ](https://zhaqenl.github.io) pro la korektoj._

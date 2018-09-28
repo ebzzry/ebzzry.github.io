@@ -3,7 +3,7 @@ Esperanto-signoj en Linukso
 
 <div class="center">[Esperanto](#) · [English](/en/eo-linux/)</div>
 <div class="center">la 22-an de julio 2018</div>
-<div class="center">Laste ĝisdatigita: la 12-an de septembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 28-an de septembro 2018</div>
 
 >Se ion oni volas, kion oni neniam havis, oni devas esti servopreta tion fari, kion oni neniam
 >faris.<br>
@@ -178,4 +178,4 @@ gravas por noti, ke ambaŭ metodojn oni povas uzi samtempe.
 
 🐧—Ĝis la revido!
 
-_Dank’ al [Raymund Martinez](https://zhaqenl.github.io) pro la korektoj._
+_Dank’ al [Raymund MARTINEZ](https://zhaqenl.github.io) pro la korektoj._
