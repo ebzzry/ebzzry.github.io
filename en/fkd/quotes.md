@@ -3,7 +3,7 @@ Quotes
 
 <div class="center">[Esperanto](/eo/citajxoj/) · [English](#)</div>
 <div class="center">August 29, 2015</div>
-<div class="center">Last updated: September 25, 2018</div>
+<div class="center">Last updated: September 28, 2018</div>
 
 This page contains a list of curated quotations, aphorisms, and proverbs that I have collected over
 the years.
@@ -751,3 +751,7 @@ the years.
 
 - I am no one’s boy.<br>
   ―Leo Albert Lazo
+
+
+- No wise man ever wished to be younger.<br>
+  ―Jonathan Swift
