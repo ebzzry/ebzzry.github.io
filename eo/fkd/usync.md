@@ -3,7 +3,7 @@ Retnodojn Sinkronigi per Usync
 
 <div class="center">[Esperanto](#) · [English](/en/usync/)</div>
 <div class="center">la 7-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 26-an de septembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 28-an de septembro 2018</div>
 
 >Kion mi ne povas krei, mi ne komprenas.<br>
 >―Richard P. FEYNMAN
@@ -79,4 +79,4 @@ Kelkaj dosieroj kaj regulesprimoj enkonstruitas kiel eksigoj. Ili eble faras sen
 vi opinias, ke ili devas esti ŝanĝitaj, liberiĝu por sendi tirpeton. La fontoj haveblas
 [ĉi tie](https://github.com/ebzzry/usync).
 
-_Dank’ al [Raymund Martinez](https://zhaqenl.github.io) pro la korektoj._
+_Dank’ al [Raymund MARTINEZ](https://zhaqenl.github.io) pro la korektoj._

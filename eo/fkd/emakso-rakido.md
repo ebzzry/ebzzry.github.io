@@ -3,7 +3,7 @@ Rakidprogramadon Agordi per Emakso
 
 <div class="center">[Esperanto](#) · [English](/en/emacs-racket/)</div>
 <div class="center">la 13-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 26-an de septembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 28-an de septembro 2018</div>
 
 >Ĉiom da bonaj ideoj ne kuŝas sub unu ĉapelo.<br>
 >―Dale TURNER
@@ -127,4 +127,4 @@ ke, fariĝas malĉarma al multe da homo, kiuj malinklinas por legi longajn bloko
 teksto. Ironie, ĉi tiu artikolo povas kvalifi kiel tiu. La priskribitaj metodoj supre ne
 reprezentiĝas de konsilitaj manieroj, de la komunumo, de instali kaj uzi Rakidon Emakse. Do, ĝis!
 
-_Dank’ al [Raymund Martinez](https://zhaqenl.github.io) pro la korektoj._
+_Dank’ al [Raymund MARTINEZ](https://zhaqenl.github.io) pro la korektoj._
