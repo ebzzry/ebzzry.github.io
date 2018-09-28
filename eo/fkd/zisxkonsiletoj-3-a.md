@@ -3,12 +3,12 @@ Ziŝkonsiletoj 3-a: Ŝanĝradikighelpiloj
 
 <div class="center">[Esperanto](#) · [English](/en/zsh-tips-3/)</div>
 <div class="center">la 26-an de septembro 2018</div>
-<div class="center">Laste ĝisdatigita: la 27-an de septembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 28-an de septembro 2018</div>
 
 >Ni ridas pri tio, kion ni ne povas toleri por alfronti.<br>
 >―Aristotelo
 
-Teĥnologioj kiel Docker, QEMU, kaj VirtualBox estas bonegaj iloj kiam procezojn oni volas kurigi
+Teĥnologioj kiel Dakero, *QEMU*, kaj *VirtualBox* estas bonegaj iloj kiam procezojn oni volas kurigi
 aparte de la gastiga sistemo. Tute izolitajn mediojn ĉi tiuj teĥnikoj provizas al ni kiuj la
 reprodukteblecon de kodo plifaciligas testi. Tamen, estas okazoj en kiu ĉi tiuj solvoj tro pezas,
 kaj ion malplipezan ni bezonas. Eniras ŝanĝradikigado. Male al siaj pliplezaj amikoj, ŝanĝradikigado
