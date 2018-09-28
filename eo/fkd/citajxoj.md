@@ -3,7 +3,7 @@ Citaĵoj
 
 <div class="center">[Esperanto](#) · [English](/en/quotes/)</div>
 <div class="center">la 15-an de novembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 26-an de septembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 28-an de septembro 2018</div>
 
 Ĉi tiu paĝo enhavas liston de atenteme elektitaj citaĵoj, aforismoj, kaj sentencoj kiujn mi kolektis
 tra la jarojn.
@@ -739,3 +739,7 @@ tra la jarojn.
 
 - Mi estas nenies knabo.<br>
   ―Leo Albert LAZO
+
+
+- Nenia saĝa homo iam deziris esti pli juna.<br>
+  ―Jonathan SWIFT
