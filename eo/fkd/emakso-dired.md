@@ -3,7 +3,7 @@ Dosierujojn Mastrumi per Emakso
 
 <div class="center">[Esperanto](#) · [English](/en/emacs-dired/)</div>
 <div class="center">la 12-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 26-an de septembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 28-an de septembro 2018</div>
 
 >Supozi bonas, tamen eltrovi pli bonas.<br>
 >―Samuel CLEMENS
@@ -126,4 +126,4 @@ konservi la ŝanĝojn, premu <kbd>C-c C-c</kbd>.
 Ni tuŝis nur la pinton de la glacimonto. Liberiĝu por esplori. Por vidi pli da informo, vizitu la
 Dired-manlibron [ĉi tie](https://www.gnu.org/software/emacs/manual/html_node/emacs/Dired.html).
 
-_Dank’ al [Raymund Martinez](https://zhaqenl.github.io) pro la korektoj._
+_Dank’ al [Raymund MARTINEZ](https://zhaqenl.github.io) pro la korektoj._
