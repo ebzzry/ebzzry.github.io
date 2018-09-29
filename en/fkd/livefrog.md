@@ -3,7 +3,7 @@ Migrating from LiveJournal to Frog
 
 <div class="center">[Esperanto](/eo/livefrog/) · [English](#)</div>
 <div class="center">May 29, 2013</div>
-<div class="center">Last updated: September 6, 2018</div>
+<div class="center">Last updated: September 29, 2018</div>
 
 >I don’t know where I’m going, but I’m on my way.<br>
 >―Carl Sagan
@@ -160,11 +160,17 @@ livefrog, then installing it again:
 
 To reduce typing, you may create an alias to `raco livefrog` in your shell.
 
-Sh-like shells—Sh, Bash, Zsh, Ash, Ksh:
+sh-like shells—sh, ash, DASH; mksh; Bash; and Zsh; respectively:
+
+    $ echo 'alias livefrog="raco livefrog"' >> ~/.profile
+
+    $ echo 'alias livefrog="raco livefrog"' >> ~/.mkshrc
 
     $ echo 'alias livefrog="raco livefrog"' >> ~/.bashrc
 
-Csh-like shells—Csh, Tcsh:
+    $ echo 'alias livefrog="raco livefrog"' >> ~/.zshenv
+
+csh-like shells—Csh, Tcsh:
 
     $ echo 'alias livefrog raco livefrog' >> ~/.cshrc
 

@@ -3,7 +3,7 @@ Migri de LiveJournal al Frog
 
 <div class="center">[Esperanto](#) · [English](/en/livefrog/)</div>
 <div class="center">la 7-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 14-an de septembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 29-an de septembro 2018</div>
 
 >Mi ne scias kien mi iras, sed mi estas sur mia vojo.<br>
 >―Carl SAGAN
@@ -164,15 +164,19 @@ livefrog-on, kaj denove instali ĝin:
 
 Por redukti tajpadon, oni povas krei alinomon de `raco livefrog` en via ŝelo.
 
-Per Sh-ecaj ŝeloj—Bash, Zsh, Ash, Ksh, Sh:
+Por sh- kaj sh-ecaj ŝeloj—sh, ash, DASH; mksh; Baŝo; kaj Ziŝo; respektive:
+
+    $ echo 'alias livefrog="raco livefrog"' >> ~/.profile
+
+    $ echo 'alias livefrog="raco livefrog"' >> ~/.mkshrc
 
     $ echo 'alias livefrog="raco livefrog"' >> ~/.bashrc
 
-Per Csh-ecaj ŝeloj—Csh, Tcsh:
+    $ echo 'alias livefrog="raco livefrog"' >> ~/.zshenv
+
+Por csh- kaj csh-ecaj ŝeloj—csh, Tcsh, respektive:
 
     $ echo 'alias livefrog raco livefrog' >> ~/.cshrc
-
-Anstataŭigu `.bashrc` kaj `.cshrc`, laŭ la taŭgaj pravalorizaj dosieroj por via ŝelo.
 
 La fontoj, kun la aldonaj informoj, troveblas [ĉi tie](https://github.com/ebzzry/livefrog). Se vi
 konas Rakidon, forku ĝin!
