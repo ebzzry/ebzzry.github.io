@@ -13,7 +13,7 @@ estas juna infano. La maltrankvila barakto inter lerni liberigi la antaŭsignan 
 kaprican estontecon, kaptas min per forta teno.
 
 Ne estas pri la neebleco por refari senpagajn elspezojn de iom liberale disponigitaj laksaj
-konfinadoj de tempo, tamen estas pri la kornaŭzaj rimarkoj ke la pensmaniero kiun mi antaŭe
+konfinadoj de tempo, tamen estas pri la kornaŭzaj rimarkoj, ke la pensmaniero kiun mi antaŭe
 premisis, nun estas io, kiu volus postuli atlasajn fortojn de mi por eĉ komenci venigi. Mi avidas
 pri la nemalpliiĝantaj esploremecoj, kiujn mi unufoje facile manprenis kontraste al la ĉiutagaj
 interpuŝiĝoj pri la svarmoj de razioj de la vivo.
@@ -31,7 +31,7 @@ ne plaĉas al ni. Ni faras ĝin pro niaj parencecoj kaj sindonoj de la sekureco.
 Ni plendas pri la sufokema manko de premio, kaj jam ni libervole ĉesi nin mem de fari eĉ colon de
 movado de kruro por fari la avancon al la kapto. Ni estas tiel sentimentale enamiĝas kun fervoro en
 la strebi de raciigo al niaj nepravigeblaj pravigoj, sed ni same petas raciajn raciojn. Estas eĉ pli
-ŝoke ol vidi, ke iuj da ni inside anoncas iluziojn de grandiozo, kun pretendoj de plene ripetaj
+ŝoke vidi, ke iuj da ni inside anoncas iluziojn de grandiozo, kun pretendoj de plene ripetaj
 sensacioj.
 
 Niaj propraj antaŭjuĝemoj por atingi la premion, efike haltas nin al fakte atingi ĝin, subfali al la
