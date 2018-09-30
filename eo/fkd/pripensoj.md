@@ -3,7 +3,7 @@ Pripensoj
 
 <div class="center">[Esperanto](#) · [English](/en/reflections/)</div>
 <div class="center">la 3-an de novembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 25-an de septembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 30-an de septembro 2018</div>
 
 Ĉi tiu paĝo enhavas kelke da miaj propraj pripensoj.
 
@@ -154,9 +154,6 @@ Enskriboj ordigatas laŭ kronologiordo.
 
 - Ni ne havis la opcion ĉu ni enboatiĝos aŭ ne. Ni nur trovas nin mem en la mezo de la vojaĝo, post la
   ŝipo jam foriris la havenon.<br>
-
-
-- Ĥaozo ne subkomprenigas bruon.<br>
 
 
 - La sola afero kiu kunligas nin al niaj amatoj estas la memoroj.<br>
