@@ -3,7 +3,7 @@ Milda Enkonduko al la Nix-Familio
 
 <div class="center">[Esperanto](#) · [English](/en/nix/)</div>
 <div class="center">la 5-an de aŭgusto 2018</div>
-<div class="center">Laste ĝisdatigita: la 26-an de septembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 30-an de septembro 2018</div>
 
 >Ne maltrankviliĝu pri tio, kion la aliaj faros. La plej bona maniero por la estontecon antaŭdiri
 >estas per tion eltrovi.<br>
@@ -23,7 +23,7 @@ disponigi li priskribis. La kernojn de [Nix](https://nixos.org/nix/), pure funkc
 lingvo kiu la malsanon solvis kiu la komputikon delonge plagis—kompatinda paka mastrumado—ĉi tiuj
 paperoj formis. En ĉi tiu artikolo mi parolos pri la Nix-familio, kaj kiel ĝin uzi por la avantaĝo.
 
-La dolarsigno ($) uzitos por la ŝelan inviton de normaluzanto indiki, dum la kradsigno (#) uzitos
+La dolarsigno ($) uzitos por la ŝelan inviton de normuzanto indiki, dum la kradsigno (#) uzitos
 por la ŝelan inviton de la ĉefuzanto indiki. Estas fojoj kiam la
 [EUID](https://en.wikipedia.org/wiki/User_identifier#Effective_user_ID) de komando estos nulo (0)
 pro la uzado de *sudo*.
@@ -916,7 +916,7 @@ Siajn proprajn versiojn de `~/.nix-profile` ĉiom da uzantoj havas kaj kutimajn 
 enhavo de tiuj dosierujoj ne havas. Anstataŭ, ili estas simbolligiloj al la efektivaj dosieroj
 troveblas en `/nix/store/`. Ĉi tiu dosierujo, estas kie la programoj kaj siaj dependecoj estas
 efektive instalitaj. La nur maniero por skribi al tiu dosierujo estas per la dediĉitaj
-Nix-programoj. Ne estas maniero por tiun dosierujon rekte modifi per normalaj manieroj. Do, kiam je
+Nix-programoj. Ne estas maniero por tiun dosierujon rekte modifi per normaj manieroj. Do, kiam je
 Vim 8 la uzanto `johano` instalas, la programo fariĝas instalita kiel
 `/nix/store/w4cr4j13lqzry2b8830819vdz3sdypfa-vim-8.0.0329`. La signoj antaŭ la paknomo estas la
 kontrolsumo de ĉiom da enigoj kiuj estis uzitaj por la pakon konstrui. La dosiero
