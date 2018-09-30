@@ -3,7 +3,7 @@ Reflections
 
 <div class="center">[Esperanto](/eo/pripensoj/) · [English](#)</div>
 <div class="center">November 24, 2015</div>
-<div class="center">Last updated: September 25, 2018</div>
+<div class="center">Last updated: September 30, 2018</div>
 
 This page contains contains some of my personal reflections.
 
@@ -160,9 +160,6 @@ Entries are sorted in chronological order.
   of the journey, after the ship has already left the port.<br>
 
 
-- Chaos does not imply noise.<br>
-
-
 - The only thing that binds us to our loved ones are our memories.<br>
 
 
@@ -199,8 +196,7 @@ Entries are sorted in chronological order.
 - Know the work that pays your bills and know the work that defines your future.<br>
 
 
-- Everything and nothing matters. Meaning is our invention. It is an attempt to
-quantify, qualify, and justify our perceived existence.<br>
+- Everything and nothing matters. Meaning is our invention. It is an attempt to quantify, qualify, and justify our perceived existence.<br>
 
 
 - The key of discovering the future is not about solving more problems; it is discovering more problems.<br>

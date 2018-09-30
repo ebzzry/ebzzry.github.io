@@ -3,7 +3,7 @@ Malŝparitaj Malcedemoj
 
 <div class="center">[Esperanto](#) · [English](/en/squandered/)</div>
 <div class="center">la 5-an de decembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 28-an de septembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 30-an de septembro 2018</div>
 
 >La unua paŝo por iri ien, estas decidi, ke oni ne restos kie oni estas.<br>
 >―J.P. MORGAN
@@ -25,10 +25,10 @@ pli ni restas ekster, des pli alta la probablo de morto.
 
 Ni igas nin mem por kredi niajn proprajn kondamnojn; ni praviĝas per niaj propraj mallaŭnormigataj
 skaloj de kiujn elektoj por fari. Kiam ajn nekonataj teritorioj esploriĝas, ni preskaŭ tuj vindiĝas,
-reen en ŝajne kontraŭstaremajn formojn. Ni faras ĝin pro la timo. Ni faras ĝin tial, ke la nekonataj
+reen en ŝajne kontraŭstaremaj formoj. Ni faras ĝin pro la timo. Ni faras ĝin tial, ke la nekonataj
 ne plaĉas al ni. Ni faras ĝin pro niaj parencecoj kaj sindonoj de la sekureco.
 
-Ni plendas pri la sufokema manko de premio, kaj jam ni libervole ĉesi nin mem de fari eĉ colon de
+Ni plendas pri la sufokema manko de premio, sed tamen ni libervole ĉesi nin mem de fari eĉ colon de
 movado de kruro por fari la avancon al la kapto. Ni estas tiel sentimentale enamiĝas kun fervoro en
 la strebi de raciigo al niaj nepravigeblaj pravigoj, sed ni same petas raciajn raciojn. Estas eĉ pli
 ŝoke vidi, ke iuj da ni inside anoncas iluziojn de grandiozo, kun pretendoj de plene ripetaj
