@@ -23,10 +23,10 @@ propraj fortikaj bunkroj. Ni vidas niajn proprajn fantomemajn similulojn, komuni
 montrantaj al ni kiaj minacantaj abomenaĵoj eble altiĝas el la tero, pretaj por vive vori nin. Ju
 pli ni restas ekster, des pli alta la probablo de morto.
 
-Ni igas nin mem por kredi niajn proprajn kondamnojn; ni praviĝas per niaj propraj mallaŭnormigataj
-skaloj de kiujn elektoj por fari. Kiam ajn nekonataj teritorioj esploriĝas, ni preskaŭ tuj vindiĝas,
-reen en ŝajne kontraŭstaremaj formoj. Ni faras ĝin pro la timo. Ni faras ĝin tial, ke la nekonataj
-ne plaĉas al ni. Ni faras ĝin pro niaj parencecoj kaj sindonoj de la sekureco.
+Ni fariĝas kredi niajn proprajn kondamnojn; ni praviĝas per niaj propraj mallaŭnormigataj skaloj pri
+kiujn elektoj por fari. Kiam ajn nekonataj teritorioj esploriĝas, ni preskaŭ tuj vindiĝas, reen en
+ŝajne kontraŭstaremaj formoj. Ni faras ĝin pro timo. Ni faras ĝin tial, ke la nekonataj ne plaĉas al
+ni. Ni faras ĝin pro niaj parencecoj kaj sindonoj de la sekureco.
 
 Ni plendas pri la sufokema manko de premio, sed tamen ni libervole ĉesi nin mem de fari eĉ colon de
 movado de kruro por fari la avancon al la kapto. Ni estas tiel sentimentale enamiĝas kun fervoro en
