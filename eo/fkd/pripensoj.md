@@ -235,7 +235,7 @@ Enskriboj ordigatas laŭ kronologiordo.
 - La kiomo da energio bezonata por malakcepti estas pli granda ol la kiomo da energio bezonata por akcepti.<br>
 
 
-- Pulmojn oni ne povas instrui.<br>
+- Ne gravas kiom da trejnado oni ricevas se oni volas naĝi tre profunde en la maro. Pulmojn oni ne povas lerni.<br>
 
 
 - Unue dubu.<br>
