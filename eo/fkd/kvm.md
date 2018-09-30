@@ -12,7 +12,7 @@ La [tutvirtualigadajn](https://en.wikipedia.org/wiki/Full_virtualization) solvoj
 *VMware Workstation*, *Oracle VirtualBox*, kaj *Parallels* plejmulto da oni konas. En
 ĉi tiu afiŝo, alian metodon por aferojn fari, mi reenkondukos al oni.
 
-La dolarsigno ($) uzitos por la ŝelan inviton de normala uzanto indiki, dum la kradsigno (#) uzitos
+La dolarsigno ($) uzitos por la ŝelan inviton de normuzanto indiki, dum la kradsigno (#) uzitos
 por la ŝelan inviton de la ĉefuzanto indiki. Estas fojoj kiam la
 [EUID](https://en.wikipedia.org/wiki/User_identifier#Effective_user_ID) de komando estos nulo (0)
 pro la uzado de *sudo*.
