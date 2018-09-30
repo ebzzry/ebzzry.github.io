@@ -3,7 +3,7 @@ Squandered Relentlessness
 
 <div class="center">[Esperanto](/eo/malsxparitaj/) · [English](#)</div>
 <div class="center">May 9, 2013</div>
-<div class="center">Last updated: September 27, 2018</div>
+<div class="center">Last updated: September 30, 2018</div>
 
 >The first step towards getting somewhere is to decide that you are not going to stay where you
 >are.<br>
@@ -75,15 +75,14 @@ that discoveries should always be made for us, peeled off then fed to our mouths
 become as sailors of the stars? Have we given up the drive to motivate ourselves to see what is on
 the other side of the rainbow? Have we tamed ourselves too much, that we became willing to be
 incarcerated in zoos, for the pleasure of others?  Or did we just flush out our sense of power, to
-make ourselves stand out less, and mix more with the crowd, greatly reducing our distinctiveness
-when viewed from afar?
+make ourselves stand out less and mix more with the crowd, greatly reducing our distinctiveness when
+viewed from afar?
 
 It seems that, for now, we refuse to answer some questions, yet we retaliate to the idea that we are
-being interrogated of things deemed to be simpler than high school classroom lessons. But some
-things are common to us, albeit not all: we are afraid to see how society may react to our actions,
-no matter how silly or grave our actions may be. But on matters of more weight, we readily blend in,
-because we do not want rejection. Most of us are more than happy to think and move with the herd,
-without any forethought.
+being interrogated of things deemed to be simpler than high school classroom lessons. Some things
+are common to us: we are afraid to see how society may react to our actions, no matter how silly or
+grave our actions may be. But on matters of more weight, we readily blend in, because we do not want
+rejection. Most of us are more than happy to think and move with the herd, without any forethought.
 
 When we voluntarily attach to our legs, heavy chains and balls of steel, we should not expect to be
 able to run around the coliseum with ease. When we dare to explore uncharted territories, without
