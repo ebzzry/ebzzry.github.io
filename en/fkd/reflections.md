@@ -240,7 +240,7 @@ Entries are sorted in chronological order.
 - The amount of energy needed to refuse is higher than the amount of energy needed to accept.<br>
 
 
-- You cannot teach lungs.<br>
+- It doesn’t matter how much training you receive if you want to swim deep in the ocean. You cannot  learn lungs.<br>
 
 
 - Doubt first.<br>
@@ -314,4 +314,4 @@ Entries are sorted in chronological order.
 - Peace does not imply quietness. Chaos does not imply noise. Permanence does not equate infinity.<br>
 
 
-- Show me a mon who doesn’t want to embrace pain and I’ll show you a boy.<br>
+- Show me a man who doesn’t want to embrace pain and I’ll show you a boy.<br>
