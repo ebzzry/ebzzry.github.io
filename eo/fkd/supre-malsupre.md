@@ -1,7 +1,7 @@
 Supre, Malsupre, kaj Aliloke
 ============================
 
-<div class="center">[Esperanto](#) · [English](/en/over-under/)</div>
+<div class="center">Esperanto · [English](/en/over-under/)</div>
 <div class="center">la 2-an de decembro 2017</div>
 <div class="center">Laste ĝisdatigita: la 28-an de septembro 2018</div>
 
