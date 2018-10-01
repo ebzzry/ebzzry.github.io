@@ -1,7 +1,7 @@
 Quotes
 ======
 
-<div class="center">[Esperanto](/eo/citajxoj/) · [English](#)</div>
+<div class="center">[Esperanto](/eo/citajxoj/) · English</div>
 <div class="center">August 29, 2015</div>
 <div class="center">Last updated: September 28, 2018</div>
 

@@ -1,7 +1,7 @@
 La Pensoj de Pedanto
 ====================
 
-<div class="center">[Esperanto](#) · [English](/en/)</div>
+<div class="center">Esperanto · [English](/en/)</div>
 <div class="center">la 27-an de aprilo 2017</div>
 <div class="center">Laste ĝisdatigita: la 27-an de septembro 2018</div>
 

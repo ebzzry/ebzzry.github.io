@@ -1,7 +1,7 @@
 Maldaŭra Rondvojaĝo de Gito kaj GitHub
 ======================================
 
-<div class="center">[Esperanto](#) · [English](/en/git-github/)</div>
+<div class="center">Esperanto · [English](/en/git-github/)</div>
 <div class="center">la 11-an de julio 2018</div>
 <div class="center">Laste ĝisdatigita: la 26-an de septembro 2018</div>
 

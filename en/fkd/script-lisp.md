@@ -1,7 +1,7 @@
 Scripting in Common Lisp
 ========================
 
-<div class="center">[Esperanto](/eo/lispon-skripti/) · [English](#)</div>
+<div class="center">[Esperanto](/eo/lispon-skripti/) · English</div>
 <div class="center">July 5, 2017</div>
 <div class="center">Last updated: September 26, 2018</div>
 

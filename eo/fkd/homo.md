@@ -1,7 +1,7 @@
 Kiel Komuniki Samkiel Homo
 ==========================
 
-<div class="center">[Esperanto](#) · [English](/en/human/)</div>
+<div class="center">Esperanto · [English](/en/human/)</div>
 <div class="center">la 3-an de aŭgusto 2018</div>
 <div class="center">Laste ĝisdatigita: la 12-an de septembro 2018</div>
 

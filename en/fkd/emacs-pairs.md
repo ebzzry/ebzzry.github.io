@@ -1,7 +1,7 @@
 Emacs and Pairs
 ===============
 
-<div class="center">[Esperanto](/eo/emakso-paroj/) · [English](#)</div>
+<div class="center">[Esperanto](/eo/emakso-paroj/) · English</div>
 <div class="center">August 15, 2015</div>
 <div class="center">Last updated: July 9, 2018</div>
 
