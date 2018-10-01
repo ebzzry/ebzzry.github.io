@@ -1,7 +1,7 @@
 Milda Enkonduko al la Nix-Familio
 =================================
 
-<div class="center">[Esperanto](#) · [English](/en/nix/)</div>
+<div class="center">Esperanto · [English](/en/nix/)</div>
 <div class="center">la 5-an de aŭgusto 2018</div>
 <div class="center">Laste ĝisdatigita: la 30-an de septembro 2018</div>
 

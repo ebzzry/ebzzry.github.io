@@ -1,7 +1,7 @@
 Migri de LiveJournal al Frog
 ============================
 
-<div class="center">[Esperanto](#) · [English](/en/livefrog/)</div>
+<div class="center">Esperanto · [English](/en/livefrog/)</div>
 <div class="center">la 7-an de februaro 2018</div>
 <div class="center">Laste ĝisdatigita: la 29-an de septembro 2018</div>
 

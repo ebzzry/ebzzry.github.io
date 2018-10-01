@@ -1,7 +1,7 @@
 Skriptado en Komunlispo
 =======================
 
-<div class="center">[Esperanto](#) · [English](/en/script-lisp/)</div>
+<div class="center">Esperanto · [English](/en/script-lisp/)</div>
 <div class="center">la 24-an de septembro 2018</div>
 <div class="center">Laste ĝisdatigita: la 25-an de septembro 2018</div>
 

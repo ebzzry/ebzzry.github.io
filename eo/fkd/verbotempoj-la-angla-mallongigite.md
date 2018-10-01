@@ -1,7 +1,7 @@
 Verbotempoj en La Angla (Mallongigite)
 ======================================
 
-<div class="center">[Esperanto](#) · [English](/en/verb-tenses-condensed/)</div>
+<div class="center">Esperanto · [English](/en/verb-tenses-condensed/)</div>
 <div class="center">la 15-an de julio 2018</div>
 <div class="center">Laste ĝisdatigita: la 8-an de aŭgusto 2018</div>
 
