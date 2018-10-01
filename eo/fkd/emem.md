@@ -1,7 +1,7 @@
 Konverti de Markdown al HTML
 ============================
 
-<div class="center">[Esperanto](#) · [English](/en/emem/)</div>
+<div class="center">Esperanto · [English](/en/emem/)</div>
 <div class="center">la 5-an de aŭgusto 2018</div>
 <div class="center">Laste ĝisdatigita: la 12-an de septembro 2018</div>
 
