@@ -3,11 +3,9 @@ Reflections
 
 <div class="center">[Esperanto](/eo/pripensoj/) · English</div>
 <div class="center">November 24, 2015</div>
-<div class="center">Last updated: September 30, 2018</div>
+<div class="center">Last updated: October 1, 2018</div>
 
-This page contains contains some of my personal reflections.
-
-Entries are sorted in chronological order.
+This page contains contains some of my personal reflections. Entries are sorted in chronological order.
 
 
 - While the intrepid ones are braving the storms with courage and triumph, the cowards are basking
@@ -249,9 +247,6 @@ Entries are sorted in chronological order.
 - Men reign kingdoms; women reign men.<br>
 
 
-- Substance is god.<br>
-
-
 - Have the right people.<br>
 
 
@@ -315,3 +310,6 @@ Entries are sorted in chronological order.
 
 
 - Show me a man who doesn’t want to embrace pain and I’ll show you a boy.<br>
+
+
+- Content is king; timing is queen; substance is god.<br>
