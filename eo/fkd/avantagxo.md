@@ -2,8 +2,8 @@ Mia Kinezia Avantaĝa Aranĝo
 ===========================
 
 <div class="center">Esperanto · [English](/en/advantage/)</div>
-<div class="center">la 12-an de julio 2018</div>
-<div class="center">Laste ĝisdatigita: la 12-an de septembro 2018</div>
+<div class="center">la 12'-an de julio 2018</div>
+<div class="center">Laste ĝisdatigita: la 3-an de oktobro 2018</div>
 
 >La doloro neeviteblas. La suferado malnepras.<br>
 >―M. Kathleen CASEY
@@ -76,9 +76,9 @@ je Vi uzi aŭ apajn invitojn fermi.
 
 La <kbd>Insert</kbd> klavon mi uzis anstataŭ <kbd>Esc</kbd> por ke je `XA_PRIMARY` zonon mi povu
 aliri facile per <kbd>Shift + Insert</kbd>. La `XA_PRIMARY`-zono estas kie la musaj markoj
-iras. Ankaŭ plifaciliĝas por la `overwrite-mode`-an reĝimon de emakso eniri. La <kbd>Insert</kbd>
-klavo, bedaŭrinde, kaŝitas en la klavo markita per `|`, maldekstre. La sinsekvo por ĝin aliri estas
-listigita al la fino de ĉi tiu afiŝo.
+iras. Ankaŭ plifaciliĝas por la `overwrite-mode`-an reĝimon de emakso eniri kaj por novan nivelon
+aldoni en *Krita*. La <kbd>Insert</kbd> klavo, bedaŭrinde, kaŝitas en la klavo markita per `|`,
+maldekstre. La sinsekvo por ĝin aliri estas listigita al la fino de ĉi tiu afiŝo.
 
 La tiujn kiuj estis antaŭe <kbd>Ctrl</kbd>-klavoj mi bindis al <kbd>KP Home</kbd> kaj <kbd>KP
 End</kbd> por ke ilin mi povu mapi al <kbd>Mode Switch</kbd> en mia
