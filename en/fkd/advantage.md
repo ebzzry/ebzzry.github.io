@@ -3,7 +3,7 @@ My Kinesis Advantage Layout
 
 <div class="center">[Esperanto](/eo/avantagxo/) · English</div>
 <div class="center">October 26, 2015</div>
-<div class="center">Last updated: August 28, 2018</div>
+<div class="center">Last updated: October 3, 2018</div>
 
 >Pain is inevitable. Suffering is optional.<br>
 >―M. Kathleen Casey
@@ -75,9 +75,9 @@ vi, or closing application prompts.
 
 I used <kbd>Insert</kbd> in lieu of <kbd>Esc</kbd>, so that I can easily access the `XA_PRIMARY`
 selection using <kbd>Shift + Insert</kbd>. The `XA_PRIMARY` selection is where your mouse highlights
-go. It also makes it easy to enter Emacs’s `overwrite-mode`. The <kbd>Insert</kbd> key, however, is
-buried in the key physically marked with `|`, on the left side. The sequence to access it is listed
-at end of this post.
+go. It also makes it easy to enter Emacs’s `overwrite-mode` and to add a new layer in Krita. The
+<kbd>Insert</kbd> key, however, is buried in the key physically marked with `|`, on the left
+side. The sequence to access it is listed at end of this post.
 
 I bound what used to be the <kbd>Ctrl</kbd> keys to <kbd>KP Home</kbd> and <kbd>KP End</kbd> so that
 in my [.Xmodmap](https://github.com/ebzzry/dotfiles/blob/master/xmodmap/advantage.dv.xmap)
