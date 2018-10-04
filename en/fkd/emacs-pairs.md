@@ -3,7 +3,7 @@ Emacs and Pairs
 
 <div class="center">[Esperanto](/eo/emakso-paroj/) · English</div>
 <div class="center">August 15, 2015</div>
-<div class="center">Last updated: July 9, 2018</div>
+<div class="center">Last updated: October 4, 2018</div>
 
 >The white noise that beats within the white darkness is the rhythm of life; it is that pulse which
 >never truly left the stage.<br>
@@ -571,6 +571,25 @@ The following snippet summarizes the key bindings used in this article. I use `b
 conveniently map my keys. I discussed about it, in an [earlier](/en/emacs-tips-2) article.
 
 ```lisp
+(defmacro def-pairs (pairs)
+  `(progn
+     ,@(loop for (key . val) in pairs
+          collect
+            `(defun ,(read (concat
+                            "wrap-with-"
+                            (prin1-to-string key)
+                            "s"))
+                 (&optional arg)
+               (interactive "p")
+               (sp-wrap-with-pair ,val)))))
+
+(def-pairs ((paren . "(")
+            (bracket . "[")
+            (brace . "{")
+            (single-quote . "'")
+            (double-quote . "\"")
+            (back-quote . "`")))
+
 (bind-keys
  :map smartparens-mode-map
  ("C-M-a" . sp-beginning-of-sexp)

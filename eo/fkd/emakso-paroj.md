@@ -3,7 +3,7 @@ Emakso kaj Paroj
 
 <div class="center">Esperanto · [English](/en/emacs-pairs/)</div>
 <div class="center">la 9-an de julio 2018</div>
-<div class="center">Laste ĝisdatigita: la 20-an de septembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 4-an de oktobro 2018</div>
 
 >La blanka bruo kiu batas ene la blanka mallumo estas la ritmo de la vivo; estas la pulso kiu
 >neniam vere foriris la podion.<br>
@@ -569,6 +569,25 @@ La uzatajn klavkombinojn en ĉi tiu artikolo la jena kodeto resumas. Je `bind-ke
 klavojn oportune mapi. Ĝin mi diskutis en [antaŭa](/eo/emakskonsiletoj-2-a) artikolo.
 
 ```lisp
+(defmacro def-pairs (pairs)
+  `(progn
+     ,@(loop for (key . val) in pairs
+          collect
+            `(defun ,(read (concat
+                            "wrap-with-"
+                            (prin1-to-string key)
+                            "s"))
+                 (&optional arg)
+               (interactive "p")
+               (sp-wrap-with-pair ,val)))))
+
+(def-pairs ((paren . "(")
+            (bracket . "[")
+            (brace . "{")
+            (single-quote . "'")
+            (double-quote . "\"")
+            (back-quote . "`")))
+
 (bind-keys
  :map smartparens-mode-map
  ("C-M-a" . sp-beginning-of-sexp)
