@@ -139,6 +139,7 @@ If you have the expression:
 ```lisp
 
 (defun format-date (format)
+  "Insert date with FORMAT specification using a specific locale."
   (let ((system-time-locale "en_US.UTF-8"))
     (insert (format-time-string format)))) ^
 
@@ -149,6 +150,7 @@ and you want to move point to `insert`:
 ```lisp
 
 (defun format-date (format)
+  "Insert date with FORMAT specification using a specific locale."
   (let ((system-time-locale "en_US.UTF-8"))
     (insert (format-time-string format))))
      ^
@@ -352,16 +354,25 @@ Alternatively, you may define wrapping functions:
 
 ```lisp
 (defmacro def-pairs (pairs)
+  "Define functions for pairing. PAIRS is an alist of (NAME . STRING)
+conses, where NAME is the function name that will be created and
+STRING is a single-character string that marks the opening character.
+
+  (def-pairs ((paren . \"(\")
+              (bracket . \"[\"))
+
+defines the functions WRAP-WITH-PAREN and WRAP-WITH-BRACKET,
+respectively."
   `(progn
      ,@(loop for (key . val) in pairs
-          collect
-            `(defun ,(read (concat
-                            "wrap-with-"
-                            (prin1-to-string key)
-                            "s"))
-                 (&optional arg)
-               (interactive "p")
-               (sp-wrap-with-pair ,val)))))
+             collect
+             `(defun ,(read (concat
+                             "wrap-with-"
+                             (prin1-to-string key)
+                             "s"))
+                  (&optional arg)
+                (interactive "p")
+                (sp-wrap-with-pair ,val)))))
 
 (def-pairs ((paren . "(")
             (bracket . "[")
@@ -572,16 +583,25 @@ conveniently map my keys. I discussed about it, in an [earlier](/en/emacs-tips-2
 
 ```lisp
 (defmacro def-pairs (pairs)
+  "Define functions for pairing. PAIRS is an alist of (NAME . STRING)
+conses, where NAME is the function name that will be created and
+STRING is a single-character string that marks the opening character.
+
+  (def-pairs ((paren . \"(\")
+              (bracket . \"[\"))
+
+defines the functions WRAP-WITH-PAREN and WRAP-WITH-BRACKET,
+respectively."
   `(progn
      ,@(loop for (key . val) in pairs
-          collect
-            `(defun ,(read (concat
-                            "wrap-with-"
-                            (prin1-to-string key)
-                            "s"))
-                 (&optional arg)
-               (interactive "p")
-               (sp-wrap-with-pair ,val)))))
+             collect
+             `(defun ,(read (concat
+                             "wrap-with-"
+                             (prin1-to-string key)
+                             "s"))
+                  (&optional arg)
+                (interactive "p")
+                (sp-wrap-with-pair ,val)))))
 
 (def-pairs ((paren . "(")
             (bracket . "[")
