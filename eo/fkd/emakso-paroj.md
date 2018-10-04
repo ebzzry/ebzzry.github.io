@@ -137,6 +137,7 @@ Se la jenan esprimon oni havas:
 ```lisp
 
 (defun format-date (format)
+  "La daton enmetu laŭ specio FORMAT kun specifa lokaĵaro."
   (let ((system-time-locale "en_US.UTF-8"))
     (insert (format-time-string format)))) ^
 
@@ -147,6 +148,7 @@ kaj la punkton oni volas movi al `insert`:
 ```lisp
 
 (defun format-date (format)
+  "La daton enmetu laŭ specio FORMAT kun specifa lokaĵaro."
   (let ((system-time-locale "en_US.UTF-8"))
     (insert (format-time-string format))))
      ^
@@ -350,16 +352,28 @@ Faldadajn funkciojn oni povas difini alterne:
 
 ```lisp
 (defmacro def-pairs (pairs)
+  "Funkciojn por parigado difinu. PAIRS estas asocialisto de
+(NAME . STRING) conses, en kiu, NAME estas la nomo de la
+funkcio kiu estos kreita kaj STRING estas sole signa signovico
+kiu la komencan signon markas.
+
+La alvoko
+
+  (def-pairs ((paren . \"(\")
+              (bracket . \"[\"))
+
+la funkciojn WRAP-WITH-PAREN kaj WRAP-WITH-BRACKET difinas,
+respektive."
   `(progn
      ,@(loop for (key . val) in pairs
-          collect
-            `(defun ,(read (concat
-                            "wrap-with-"
-                            (prin1-to-string key)
-                            "s"))
-                 (&optional arg)
-               (interactive "p")
-               (sp-wrap-with-pair ,val)))))
+             collect
+             `(defun ,(read (concat
+                             "wrap-with-"
+                             (prin1-to-string key)
+                             "s"))
+                  (&optional arg)
+                (interactive "p")
+                (sp-wrap-with-pair ,val)))))
 
 (def-pairs ((paren . "(")
             (bracket . "[")
@@ -570,16 +584,28 @@ klavojn oportune mapi. Ĝin mi diskutis en [antaŭa](/eo/emakskonsiletoj-2-a) ar
 
 ```lisp
 (defmacro def-pairs (pairs)
+  "Funkciojn por parigado difinu. PAIRS estas asocialisto de
+(NAME . STRING) conses, en kiu, NAME estas la nomo de la
+funkcio kiu estos kreita kaj STRING estas sole signa signovico
+kiu la komencan signon markas.
+
+La alvoko
+
+  (def-pairs ((paren . \"(\")
+              (bracket . \"[\"))
+
+la funkciojn WRAP-WITH-PAREN kaj WRAP-WITH-BRACKET difinas,
+respektive."
   `(progn
      ,@(loop for (key . val) in pairs
-          collect
-            `(defun ,(read (concat
-                            "wrap-with-"
-                            (prin1-to-string key)
-                            "s"))
-                 (&optional arg)
-               (interactive "p")
-               (sp-wrap-with-pair ,val)))))
+             collect
+             `(defun ,(read (concat
+                             "wrap-with-"
+                             (prin1-to-string key)
+                             "s"))
+                  (&optional arg)
+                (interactive "p")
+                (sp-wrap-with-pair ,val)))))
 
 (def-pairs ((paren . "(")
             (bracket . "[")
