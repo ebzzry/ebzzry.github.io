@@ -3,7 +3,7 @@ The Musings of a Pedant
 
 <div class="center">[Esperanto](/eo//) · English</div>
 <div class="center">August 15, 2015</div>
-<div class="center">Last updated: September 27, 2018</div>
+<div class="center">Last updated: October 4, 2018</div>
 
 <img src="/bil/pluvis.jpg" class="banner" alt="pluvis.jpg" title="In the face of the cosmos, we all are children forever." />
 
@@ -24,9 +24,9 @@ entries are sorted in reverse chronological order.</div>
 - [How to Communicate like a Human](human/)
 - [A Gentle Introduction to Fallacies](fallacies/)
 - [Esperanto Characters in Linux](eo-linux/)
-- [Symbols and Marks (Condensed/)](symbols-marks-condensed/)
+- [Symbols and Marks (Condensed)](symbols-marks-condensed/)
 - [Symbols and Marks](symbols-marks/)
-- [Verb Tenses in English (Condensed/)](verb-tenses-condensed/)
+- [Verb Tenses in English (Condensed)](verb-tenses-condensed/)
 - [Verb Tenses in English](verb-tenses/)
 - [My Kinesis Advantage Layout](advantage/)
 - [A Brief Git and GitHub Tour](git-github/)
