@@ -24,11 +24,13 @@
                              &#94;
 </code></pre><p>Execute <code>sp-end-of-sexp</code>. I bound it to <kbd>C-M-e</kbd>.</p><h4><a name="traversinglists"></a>Traversing lists</h4><p>If you have the expression:</p><pre><code class="lisp">
 &#40;defun format-date &#40;format&#41;
+  &quot;Insert date with FORMAT specification using a specific locale.&quot;
   &#40;let &#40;&#40;system-time-locale &quot;en&#95;US.UTF-8&quot;&#41;&#41;
     &#40;insert &#40;format-time-string format&#41;&#41;&#41;&#41; &#94;
 
 </code></pre><p>and you want to move point to <code>insert</code>:</p><pre><code class="lisp">
 &#40;defun format-date &#40;format&#41;
+  &quot;Insert date with FORMAT specification using a specific locale.&quot;
   &#40;let &#40;&#40;system-time-locale &quot;en&#95;US.UTF-8&quot;&#41;&#41;
     &#40;insert &#40;format-time-string format&#41;&#41;&#41;&#41;
      &#94;
@@ -96,16 +98,25 @@ var mods = &quot;vars&quot;;
 var mods = &#91;&quot;vars&quot;&#93;;
             &#94;
 </code></pre><p>Pressing <kbd>C-M-Space</kbd> or <kbd>ESC C-Space</kbd> followed by <kbd>[</kbd> will make the whole region become surrounded by matching <code>&#91;</code> and <code>&#93;</code>. It also applies to keys like <code>&#40;</code>, <code>{</code>, <code>&quot;</code>, <code>'</code>, <code>&#42;</code>, <code>&#95;</code>, etc, depending on the mode that you’re using.</p><p>Alternatively, you may define wrapping functions:</p><pre><code class="lisp">&#40;defmacro def-pairs &#40;pairs&#41;
+  &quot;Define functions for pairing. PAIRS is an alist of &#40;NAME . STRING&#41;
+conses, where NAME is the function name that will be created and
+STRING is a single-character string that marks the opening character.
+
+  &#40;def-pairs &#40;&#40;paren . \&quot;&#40;\&quot;&#41;
+              &#40;bracket . \&quot;&#91;\&quot;&#41;&#41;
+
+defines the functions WRAP-WITH-PAREN and WRAP-WITH-BRACKET,
+respectively.&quot;
   `&#40;progn
      ,@&#40;loop for &#40;key . val&#41; in pairs
-          collect
-            `&#40;defun ,&#40;read &#40;concat
-                            &quot;wrap-with-&quot;
-                            &#40;prin1-to-string key&#41;
-                            &quot;s&quot;&#41;&#41;
-                 &#40;&amp;optional arg&#41;
-               &#40;interactive &quot;p&quot;&#41;
-               &#40;sp-wrap-with-pair ,val&#41;&#41;&#41;&#41;&#41;
+             collect
+             `&#40;defun ,&#40;read &#40;concat
+                             &quot;wrap-with-&quot;
+                             &#40;prin1-to-string key&#41;
+                             &quot;s&quot;&#41;&#41;
+                  &#40;&amp;optional arg&#41;
+                &#40;interactive &quot;p&quot;&#41;
+                &#40;sp-wrap-with-pair ,val&#41;&#41;&#41;&#41;&#41;
 
 &#40;def-pairs &#40;&#40;paren . &quot;&#40;&quot;&#41;
             &#40;bracket . &quot;&#91;&quot;&#41;
@@ -171,16 +182,25 @@ blah &#91;foo bar&#93;
 &#40;:require &#41;
           &#94;
 </code></pre><p>Execute <code>sp-backward-kill-sexp</code>. I bound it to <kbd>M-k</kbd>.</p><h2><a name="keys"></a>Keys</h2><p>The following snippet summarizes the key bindings used in this article. I use <code>bind-keys</code> to conveniently map my keys. I discussed about it, in an <a href='/en/emacs-tips-2'>earlier</a> article.</p><pre><code class="lisp">&#40;defmacro def-pairs &#40;pairs&#41;
+  &quot;Define functions for pairing. PAIRS is an alist of &#40;NAME . STRING&#41;
+conses, where NAME is the function name that will be created and
+STRING is a single-character string that marks the opening character.
+
+  &#40;def-pairs &#40;&#40;paren . \&quot;&#40;\&quot;&#41;
+              &#40;bracket . \&quot;&#91;\&quot;&#41;&#41;
+
+defines the functions WRAP-WITH-PAREN and WRAP-WITH-BRACKET,
+respectively.&quot;
   `&#40;progn
      ,@&#40;loop for &#40;key . val&#41; in pairs
-          collect
-            `&#40;defun ,&#40;read &#40;concat
-                            &quot;wrap-with-&quot;
-                            &#40;prin1-to-string key&#41;
-                            &quot;s&quot;&#41;&#41;
-                 &#40;&amp;optional arg&#41;
-               &#40;interactive &quot;p&quot;&#41;
-               &#40;sp-wrap-with-pair ,val&#41;&#41;&#41;&#41;&#41;
+             collect
+             `&#40;defun ,&#40;read &#40;concat
+                             &quot;wrap-with-&quot;
+                             &#40;prin1-to-string key&#41;
+                             &quot;s&quot;&#41;&#41;
+                  &#40;&amp;optional arg&#41;
+                &#40;interactive &quot;p&quot;&#41;
+                &#40;sp-wrap-with-pair ,val&#41;&#41;&#41;&#41;&#41;
 
 &#40;def-pairs &#40;&#40;paren . &quot;&#40;&quot;&#41;
             &#40;bracket . &quot;&#91;&quot;&#41;

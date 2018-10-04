@@ -5,7 +5,7 @@ La Pensoj de Pedanto
 <div class="center">la 27-an de aprilo 2017</div>
 <div class="center">Laste ĝisdatigita: la 4-an de oktobro 2018</div>
 
-<img src="/bil/pluvis.jpg" class="banner" alt="pluvis.jpg" title="En la vizaĝo de la kosmo, ni ĉiuj estas porĉiame infanoj." />
+<img src="/bil/pluvis.jpg" class="banner" alt="pluvis" title="En la vizaĝo de la kosmo, ni ĉiuj estas porĉiame infanoj." />
 
 <div class="text-right">Retejo pri komputiko, hominklinaĵoj, kaj hazardaĵoj. La eroj ordigitas laŭ
 inverskronologiordo. Aŭdversion la steligitaj eroj havas.</div>
@@ -19,7 +19,7 @@ inverskronologiordo. Aŭdversion la steligitaj eroj havas.</div>
 - [Mia Markdown-Stila Gvidilo](markdown/)
 - [Emakskonsiletoj 3-a: Enmeti kaj Forviŝi](emakskonsiletoj-3-a/)
 - [Milda Enkonduko al la Nix-Familio](nix/)
-- [Konverti de Markdown al HTML](emem/)
+- [Konverti de Markdown al HTML per emem](emem/)
 - [Divido en Haskelo](haskeldivido/)
 - [Kiel Komuniki Samkiel Homo](homo/)
 - [Milda Enkonduko al Sofismoj](sofismoj/)
