@@ -3,7 +3,7 @@ Pripensoj
 
 <div class="center">Esperanto · [English](/en/reflections/)</div>
 <div class="center">la 3-an de novembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 1-an de oktobro 2018</div>
+<div class="center">Laste ĝisdatigita: la 5-an de oktobro 2018</div>
 
 Ĉi tiu paĝo enhavas kelke da miaj propraj pripensoj. Enskriboj ordigatas laŭ kronologiordo.
 
@@ -245,7 +245,7 @@ Pripensoj
 - La pravajn homojn havu.<br>
 
 
-- Regulo 1-a: nenion supozu.<br>
+- Regulo 1-a: nenion antaŭsupozu.<br>
 
 
 - Iu ajn kiu belas, estas iu de monstraĵo.<br>
