@@ -3,7 +3,7 @@ Reflections
 
 <div class="center">[Esperanto](/eo/pripensoj/) · English</div>
 <div class="center">November 24, 2015</div>
-<div class="center">Last updated: October 1, 2018</div>
+<div class="center">Last updated: October 5, 2018</div>
 
 This page contains contains some of my personal reflections. Entries are sorted in chronological order.
 
