@@ -14,4 +14,4 @@ Pri
 Saluton! Mi nomiĝas Rommel kaj bonvenon al mia peco de teksaĵo! Mi esperas, ke la viziton al ĉi tiu
 eta loĝejo oni ĝuas.
 
-[Retpoŝto](mailto:ebzzry@ebzzry.io) · [GPG](/dat/ebzzry.pub.asc) · [GitHub](https://github.com/ebzzry)
+[Retpoŝto](mailto:ebzzry@ebzzry.io) · [GPG](/dat/ebzzry.pub.asc) · [GitHub](https://github.com/ebzzry) · [DeviantART](https://ebzzry.deviantart.com)
