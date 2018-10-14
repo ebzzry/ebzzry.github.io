@@ -3,7 +3,7 @@ Malŝparitaj Malcedemoj
 
 <div class="center">Esperanto · [English](/en/squandered/)</div>
 <div class="center">la 5-an de decembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 30-an de septembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 14-an de oktobro 2018</div>
 
 >La unua paŝo por iri ien, estas decidi, ke oni ne restos kie oni estas.<br>
 >―J.P. MORGAN
@@ -24,7 +24,7 @@ montrantaj al ni kiaj minacantaj abomenaĵoj eble altiĝas el la tero, pretaj po
 pli ni restas ekster, des pli alta la probableco de morto.
 
 Ni fariĝas kredi niajn proprajn kondamnojn; ni praviĝas per niaj propraj mallaŭnormigataj skaloj pri
-kiujn elektoj por fari. Kiam ajn nekonataj teritorioj esploriĝas, ni preskaŭ tuj vindiĝas, reen en
+kiujn elektojn por fari. Kiam ajn nekonataj teritorioj esploriĝas, ni preskaŭ tuj vindiĝas, reen en
 ŝajne kontraŭstaremaj formoj. Ni faras ĝin pro timo. Ni faras ĝin tial, ke la nekonataj ne plaĉas al
 ni. Ni faras ĝin pro niaj parencecoj kaj sindonoj de la sekureco.
 
@@ -42,7 +42,7 @@ mortigas la esencon de nia individueco.
 
 Kiel prenkreskuloj, ni instruiĝas bridi nin ene kaĝoj, kiujn ni mem konstruis, kaj estas
 senkuraĝigaj por vidi ĉi tiun monstran agon disfaldiĝi antaŭ niaj mallongaj vidkampoj ĉiutage. Ni
-tiras nin al solaj konfinadoj ne niaj propraj dornaj dormoj. Ni fariĝas amaj de prediki dubon al
+tiras nin al solaj konfinadoj de niaj propraj dornaj dormoj. Ni fariĝas amaj de prediki dubon al
 niaj uloj. Kaj se nia propra speco faras la samon, ni vidas sentojn de atingeco. Tio ne nur estas
 horora, sed ankaŭ antaŭvideble stulta. Kiam ni estis ankoraŭ maljunaj, ni atingas eksteren al
 malplena spaco kaj kreas niajn proprajn eltrovojn. Ni eltrovas la aferojn, kiuj ne antaŭ estis
