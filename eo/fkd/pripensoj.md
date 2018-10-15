@@ -3,7 +3,7 @@ Pripensoj
 
 <div class="center">Esperanto · [English](/en/reflections/)</div>
 <div class="center">la 3-an de novembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 14-an de oktobro 2018</div>
+<div class="center">Laste ĝisdatigita: la 15-an de oktobro 2018</div>
 
 Ĉi tiu paĝo enhavas kelke da miaj propraj pripensoj. Enskriboj ordigatas laŭ kronologiordo.
 
@@ -31,7 +31,7 @@ Pripensoj
   ilin.<br>
 
 
-- Se via ŝipo ne venos al vi, naĝu al ĝi; se vi ne povas naĝi, trenu la ŝipon al vi.<br>
+- Se la ŝipo ne venos, naĝu al ĝi; se oni ne povas naĝi, trenu la ŝipon.<br>
 
 
 - Ridetu eĉ en la vizaĝo de malamiko, ĉar tio ankaŭ estos la fojo kiam vi brakumos la venkon.<br>
@@ -315,3 +315,6 @@ Pripensoj
 
 
 - Donacon nur donu se oni certas, ke ĝin la ricevanto meritas. Male, donacon nur ricevu se oni certas, ke ĝin oni meritas.<br>
+
+
+- La kvanto de plezuro kion oni povas doni rekte proporcias al la kvanto de plezuro kion oni povas ricevi.<br>

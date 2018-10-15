@@ -3,7 +3,7 @@ Reflections
 
 <div class="center">[Esperanto](/eo/pripensoj/) · English</div>
 <div class="center">November 24, 2015</div>
-<div class="center">Last updated: October 14, 2018</div>
+<div class="center">Last updated: October 15, 2018</div>
 
 This page contains contains some of my personal reflections. Entries are sorted in chronological order.
 
@@ -316,3 +316,6 @@ This page contains contains some of my personal reflections. Entries are sorted 
 
 
 - Only give a gift if one is certain, that the receiver deserves it. On the other hand, only receive a gift, if you are certain that you deserve it.<br>
+
+
+- The amount of pleasure that you can give is directly proportional to the amount of pleasure that you can receive.<br>
