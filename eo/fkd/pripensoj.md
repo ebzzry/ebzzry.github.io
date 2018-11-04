@@ -3,7 +3,7 @@ Pripensoj
 
 <div class="center">Esperanto · [English](/en/reflections/)</div>
 <div class="center">la 3-an de novembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 15-an de oktobro 2018</div>
+<div class="center">Laste ĝisdatigita: la 6-an de novembro 2018</div>
 
 Ĉi tiu paĝo enhavas kelke da miaj propraj pripensoj. Enskriboj ordigatas laŭ kronologiordo.
 
@@ -318,3 +318,6 @@ Pripensoj
 
 
 - La kvanto de plezuro kion oni povas doni rekte proporcias al la kvanto de plezuro kion oni povas ricevi.<br>
+
+
+- La vera valoro de iu plumo ne estas pri ĝia varmarko; estas pri la tiu, kiu ĝin uzas.<br>

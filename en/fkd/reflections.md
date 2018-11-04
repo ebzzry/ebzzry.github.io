@@ -3,7 +3,7 @@ Reflections
 
 <div class="center">[Esperanto](/eo/pripensoj/) · English</div>
 <div class="center">November 24, 2015</div>
-<div class="center">Last updated: October 15, 2018</div>
+<div class="center">Last updated: November 6, 2018</div>
 
 This page contains contains some of my personal reflections. Entries are sorted in chronological order.
 
@@ -319,3 +319,6 @@ This page contains contains some of my personal reflections. Entries are sorted 
 
 
 - The amount of pleasure that you can give is directly proportional to the amount of pleasure that you can receive.<br>
+
+
+- La true value of a pen is not about its brand name; it is about the one who uses it.<br>
