@@ -321,4 +321,4 @@ This page contains contains some of my personal reflections. Entries are sorted 
 - The amount of pleasure that you can give is directly proportional to the amount of pleasure that you can receive.<br>
 
 
-- La true value of a pen is not about its brand name; it is about the one who uses it.<br>
+- The true value of a pen is not about its brand name; it is about the one who uses it.<br>
