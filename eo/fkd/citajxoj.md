@@ -3,7 +3,7 @@ Citaĵoj
 
 <div class="center">Esperanto · [English](/en/quotes/)</div>
 <div class="center">la 15-an de novembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 7-an de novembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 21-an de novembro 2018</div>
 
 Ĉi tiu paĝo enhavas liston de atenteme elektitaj citaĵoj, aforismoj, kaj sentencoj kiujn mi kolektis
 tra la jarojn.
@@ -13,7 +13,7 @@ tra la jarojn.
   ―Erik NAGGUM
 
 
-- La momento kiam oni pensas ke oni scias ĉion, estas la momento kiam oni ĉesas lerni.<br>
+- La momenton kiam oni pensas ke oni scias ĉion, estas la momenton kiam oni ĉesas lerni.<br>
   ―Yeontabal, Jumong (2006)
 
 
@@ -743,3 +743,7 @@ tra la jarojn.
 
 - Disputante al malsaĝulo, unue certigu, ke la saman ĝi ne faras.<br>
   ―Malnovproverbo
+
+
+- Unue la situacion oni devas konsideri de la vidpunkto de la malamiko.<br>
+  ―Baron ZEPPELI, JoJo no Kimyou na Bouken
