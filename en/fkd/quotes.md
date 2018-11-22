@@ -3,7 +3,7 @@ Quotes
 
 <div class="center">[Esperanto](/eo/citajxoj/) · English</div>
 <div class="center">August 29, 2015</div>
-<div class="center">Last updated: November 7, 2018</div>
+<div class="center">Last updated: November 21, 2018</div>
 
 This page contains a list of curated quotations, aphorisms, and proverbs that I have collected over
 the years.
@@ -755,3 +755,7 @@ the years.
 
 - When arguing with a fool, first make sure the other person isn’t doing the same thing.<br>
   ―Old proverb
+
+
+- First, you must consider the situation from the enemy’s viewpoint.<br>
+  ―Baron Zeppeli, JoJo no Kimyou na Boukenm
