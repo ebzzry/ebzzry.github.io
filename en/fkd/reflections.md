@@ -3,7 +3,7 @@ Reflections
 
 <div class="center">[Esperanto](/eo/pripensoj/) · English</div>
 <div class="center">November 24, 2015</div>
-<div class="center">Last updated: November 6, 2018</div>
+<div class="center">Last updated: November 24, 2018</div>
 
 This page contains contains some of my personal reflections. Entries are sorted in chronological order.
 
@@ -322,3 +322,6 @@ This page contains contains some of my personal reflections. Entries are sorted 
 
 
 - The true value of a pen is not about its brand name; it is about the one who uses it.<br>
+
+
+- Don’t forget, that when you pluck a flower from the earth, you are killing it.<br>
