@@ -3,7 +3,7 @@ Reflections
 
 <div class="center">[Esperanto](/eo/pripensoj/) · English</div>
 <div class="center">November 24, 2015</div>
-<div class="center">Last updated: November 24, 2018</div>
+<div class="center">Last updated: December 2, 2018</div>
 
 This page contains contains some of my personal reflections. Entries are sorted in chronological order.
 
@@ -325,3 +325,6 @@ This page contains contains some of my personal reflections. Entries are sorted 
 
 
 - Don’t forget, that when you pluck a flower from the earth, you are killing it.<br>
+
+
+- Don’t thank someone of good things because of circumstances; thank someone because of good intentions.<br>
