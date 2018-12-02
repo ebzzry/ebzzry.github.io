@@ -3,7 +3,7 @@ Pripensoj
 
 <div class="center">Esperanto · [English](/en/reflections/)</div>
 <div class="center">la 3-an de novembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 24-an de novembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 2-an de decembro 2018</div>
 
 Ĉi tiu paĝo enhavas kelke da miaj propraj pripensoj. Enskriboj ordigatas laŭ kronologiordo.
 
@@ -324,3 +324,6 @@ Pripensoj
 
 
 - Ne forgesu, ke kiam floron oni plukas de la tero, ĝin oni mortigas.<br>
+
+
+- Iun ne danku pri bonaĵoj pro cirkonstancoj; iun danku pro bonintencoj.<br>
