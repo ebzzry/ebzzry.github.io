@@ -3,7 +3,7 @@ Quotes
 
 <div class="center">[Esperanto](/eo/citajxoj/) · English</div>
 <div class="center">August 29, 2015</div>
-<div class="center">Last updated: November 21, 2018</div>
+<div class="center">Last updated: December 10, 2018</div>
 
 This page contains a list of curated quotations, aphorisms, and proverbs that I have collected over
 the years.
@@ -759,3 +759,7 @@ the years.
 
 - First, you must consider the situation from the enemy’s viewpoint.<br>
   ―Baron Zeppeli, JoJo no Kimyou na Boukenm
+
+
+- Each blind man describes the nearby elephant differently.<br>
+  ―Old Indian proverb

@@ -3,7 +3,7 @@ Citaĵoj
 
 <div class="center">Esperanto · [English](/en/quotes/)</div>
 <div class="center">la 15-an de novembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 21-an de novembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 10-an de decembro 2018</div>
 
 Ĉi tiu paĝo enhavas liston de atenteme elektitaj citaĵoj, aforismoj, kaj sentencoj kiujn mi kolektis
 tra la jarojn.
@@ -747,3 +747,7 @@ tra la jarojn.
 
 - Unue la situacion oni devas konsideri de la vidpunkto de la malamiko.<br>
   ―Baron ZEPPELI, JoJo no Kimyou na Bouken
+
+
+- La apudan elefanton ĉiu blinda viro priskribis malsame.<br>
+  ―Malnovhindproverbo
