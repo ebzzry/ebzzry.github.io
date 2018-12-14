@@ -3,7 +3,7 @@ Rakidprogramadon Agordi per Emakso
 
 <div class="center">Esperanto · [English](/en/emacs-racket/)</div>
 <div class="center">la 13-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 28-an de septembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 14-an de decembro 2018</div>
 
 >Ĉiom da bonaj ideoj ne kuŝas sub unu ĉapelo.<br>
 >―Dale TURNER
@@ -97,14 +97,14 @@ la antaŭmenciita ligilo.
 
 ### <a name="rakidbufro"></a>Rakida bufro
 
-| Klavo   | Kion ĝi faras                                 |
-| :------ | :-------------------------------------------- |
-| C-c C-z | Iru al la LTPI-bufro                          |
-| C-c C-a | Taksu la nunbufron, tiam iru al la LTPI-bufro |
-| C-M-x   | Taksu la nunesprimon                          |
-| C-x C-e | Taksu la lastesprimon                         |
-| C-c C-r | Taksu regionon                                |
-| C-c C-\ | Enmetu lambdsimbolon (λ)                      |
+| Klavo   | Kion ĝi faras                                       |
+| :------ | :-------------------------------------------------- |
+| C-c C-z | Iru al la LTPI-bufro                                |
+| C-c C-a | Taksu la aktualan bufron, tiam iru al la LTPI-bufro |
+| C-M-x   | Taksu la aktualan esprimon                          |
+| C-x C-e | Taksu la lastan esprimon                            |
+| C-c C-r | Taksu regionon                                      |
+| C-c C-\ | Enmetu lambdsimbolon (λ)                            |
 
 
 ### <a name="ltpibufro"></a>LTPI-bufro
