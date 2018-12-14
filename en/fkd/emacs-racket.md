@@ -3,7 +3,7 @@ Setting up Racket Development in Emacs
 
 <div class="center">[Esperanto](/eo/emakso-rakido/) · English</div>
 <div class="center">September 29, 2013</div>
-<div class="center">Last updated: September 27, 2018</div>
+<div class="center">Last updated: December 14, 2018</div>
 
 >All the good ideas never lie under one hat.<br>
 >―Dale Turner
@@ -95,26 +95,26 @@ aforementioned link.
 
 ### <a name="racketbuffer"></a> Racket buffer
 
-| Key     | What it does                                            |
-| :------ | :------------------------------------------------------ |
-| C-c C-z | Switch to the REPL buffer                               |
-| C-c C-a | Evaluate current buffer, then switch to the REPL buffer |
-| C-M-x   | Evaluate current expression                             |
-| C-x C-e | Evaluate last expression                                |
-| C-c C-r | Evaluate region                                         |
-| C-c C-\ | Insert a lambda (λ) symbol                              |
+| Key                           | What it does                                            |
+| :---------------------------- | :------------------------------------------------------ |
+| <kbd>C-c</kbd> <kbd>C-z</kbd> | Switch to the REPL buffer                               |
+| <kbd>C-c</kbd> <kbd>C-a</kbd> | Evaluate current buffer, then switch to the REPL buffer |
+| <kbd>C-M-x</kbd>              | Evaluate current expression                             |
+| <kbd>C-x</kbd> <kbd>C-e</kbd> | Evaluate last expression                                |
+| <kbd>C-c</kbd> <kbd>C-r</kbd> | Evaluate region                                         |
+| <kbd>C-c</kbd> <kbd>C-\</kbd> | Insert a lambda (λ) symbol                              |
 
 
 ### <a name="replbuffer"></a> REPL buffer
 
-| Key     | What it does                        |
-| :------ | :---------------------------------- |
-| C-c C-z | Switch to the Racket buffer         |
-| M-p     | Switch to the previous history item |
-| M-n     | Switch to the next history item     |
-| C-c M-p | Jump to previous prompt             |
-| C-c M-n | Jump to next prompt                 |
-| C-c C-q | Quit the REPL                       |
+| Key                           | What it does                        |
+| :---------------------------- | :---------------------------------- |
+| <kbd>C-c</kbd> <kbd>C-z</kbd> | Switch to the Racket buffer         |
+| <kbd>M-p</kbd>                | Switch to the previous history item |
+| <kbd>M-n</kbd>                | Switch to the next history item     |
+| <kbd>C-c</kbd> <kbd>M-p</kbd> | Jump to previous prompt             |
+| <kbd>C-c</kbd> <kbd>M-n</kbd> | Jump to next prompt                 |
+| <kbd>C-c</kbd> <kbd>C-q</kbd> | Quit the REPL                       |
 
 
 <a name="closing"></a> Closing remarks

@@ -3,7 +3,7 @@ Dosierujojn Mastrumi per Emakso
 
 <div class="center">Esperanto · [English](/en/emacs-dired/)</div>
 <div class="center">la 12-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 28-an de septembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 14-an de decembro 2018</div>
 
 >Supozi bonas, tamen eltrovi pli bonas.<br>
 >―Samuel CLEMENS
@@ -56,17 +56,17 @@ eksplicite esprimis alie.
 Jen la kutimaj komandoj kiujn oni uzus, en Dired-bufro. Kaj cetere, ili povas funkcii sur unuobla
 aŭ pluraj eroj. Uzi ilin por pluraj eroj estos klarigitaj sekve.
 
-| Klavo   | Kion ĝi faras               |
-| :------ | :-------------------------- |
-| R       | Renomu eron                 |
-| C       | Kopiu eron                  |
-| D       | Forviŝu eron                |
-| O       | Ŝanĝu proprulon             |
-| G       | Ŝanĝu grupon                |
-| M       | Ŝanĝu permesosjn            |
-| S       | Kreu simbolligilon          |
-| T       | Tuŝu eron                   |
-| ! or X  | Kuru ŝelan komandon al ero  |
+| Klavo                         | Kion ĝi faras               |
+| :---------------------------- | :-------------------------- |
+| <kbd>R</kbd>                  | Renomu eron                 |
+| <kbd>C</kbd>                  | Kopiu eron                  |
+| <kbd>D</kbd>                  | Forviŝu eron                |
+| <kbd>O</kbd>                  | Ŝanĝu proprulon             |
+| <kbd>G</kbd>                  | Ŝanĝu grupon                |
+| <kbd>M</kbd>                  | Ŝanĝu permesosjn            |
+| <kbd>S</kbd>                  | Kreu simbolligilon          |
+| <kbd>T</kbd>                  | Tuŝu eron                   |
+| <kbd>!</kbd> aŭ <kbd>X</kbd>  | Kuru ŝelan komandon al ero  |
 
 
 <a name="markaj"></a>Markaj komandoj
@@ -75,15 +75,15 @@ aŭ pluraj eroj. Uzi ilin por pluraj eroj estos klarigitaj sekve.
 La jenaj komandoj faras operaciojn kiuj rilatas al markoj. Krei markojn simple signifas, meti etikodon
 sur eroj, por ke oni povu presti la operaciojn en la antaŭa sekcio, sur ili:
 
-| Klavo | Kion ĝi faras                                        |
-| :---- | :--------------------------------------------------- |
-| m     | Marku eron                                           |
-| d     | Marku eron por forviŝi                               |
-| x     | Plenumu operacion                                    |
-| u     | Malmarku soleron                                     |
-| U     | Malmarku ĉiujn erojn                                 |
-| t     | Baskuligu markojn inter markitaj kaj nemarkitaj eroj |
-| c     | Densigu erojn                                        |
+| Klavo        | Kion ĝi faras                                        |
+| :----------- | :--------------------------------------------------- |
+| <kbd>m</kbd> | Marku eron                                           |
+| <kbd>d</kbd> | Marku eron por forviŝi                               |
+| <kbd>x</kbd> | Plenumu operacion                                    |
+| <kbd>u</kbd> | Malmarku soleron                                     |
+| <kbd>U</kbd> | Malmarku ĉiujn erojn                                 |
+| <kbd>t</kbd> | Baskuligu markojn inter markitaj kaj nemarkitaj eroj |
+| <kbd>c</kbd> | Densigu erojn                                        |
 
 
 <a name="aliaj"></a>Aliaj komandoj
@@ -92,17 +92,17 @@ sur eroj, por ke oni povu presti la operaciojn en la antaŭa sekcio, sur ili:
 La jenaj komandoj agas laŭ si mem. Ili operacias sur solaj eroj kaj ili ne uzas markojn. La
 <kbd>w</kbd> komando, tamen, estas escepto.
 
-| Klavo   | Kion ĝi faras                                |
-| :------ | :------------------------------------------- |
-| +       | Kreu dosierujon                              |
-| ^       | Iru supren, per unu nivelo, kiel `cd ..`     |
-| e aŭ f  | Redaktu eron                                 |
-| v       | Vidu eron, kiel `less`                       |
-| g       | Reŝarĝu la aktualan dosierujon               |
-| j       | Saltu al ero                                 |
-| s       | Ŝanĝu ordigan ordon                          |
-| y       | Montru dosiertipon de ero, kiel `file`       |
-| w       | Kopiu eron al tondejo                        |
+| Klavo                        | Kion ĝi faras                                |
+| :--------------------------- | :------------------------------------------- |
+| <kbd>+</kbd>                 | Kreu dosierujon                              |
+| <kbd>&#94;</kbd>             | Iru supren, per unu nivelo, kiel `cd ..`     |
+| <kbd>e</kbd> aŭ <kbd>f</kbd> | Redaktu eron                                 |
+| <kbd>v</kbd>                 | Vidu eron, kiel `less`                       |
+| <kbd>g</kbd>                 | Reŝarĝu la aktualan dosierujon               |
+| <kbd>j</kbd>                 | Saltu al ero                                 |
+| <kbd>s</kbd>                 | Ŝanĝu ordigan ordon                          |
+| <kbd>y</kbd>                 | Montru dosiertipon de ero, kiel `file`       |
+| <kbd>w</kbd>                 | Kopiu eron al tondejo                        |
 
 
 <a name="wdired"></a>WDired-reĝimo
