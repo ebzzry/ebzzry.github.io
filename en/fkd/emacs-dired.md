@@ -3,7 +3,7 @@ Managing Directories with Emacs
 
 <div class="center">[Esperanto](/eo/emakso-dired/) · English</div>
 <div class="center">September 26, 2013</div>
-<div class="center">Last updated: September 23, 2018</div>
+<div class="center">Last updated: December 14, 2018</div>
 
 >Supposing is good, but finding out is better.<br>
 >―Samuel Clemens
@@ -55,17 +55,17 @@ explicitly stated otherwise.
 These are the usual commands that you would use, in a dired buffer. In addition to that, they can
 operate on single, or multiple items. Using them for multiple items will be explained, next.
 
-| Key     | What it does              |
-| :------ | :------------------------ |
-| R       | Rename item               |
-| C       | Copy item                 |
-| D       | Delete item               |
-| O       | Change owner              |
-| G       | Change group              |
-| M       | Change permissions        |
-| S       | Create symlink            |
-| T       | Touch item                |
-| ! or X  | Run shell command on item |
+| Key                           | What it does              |
+| :---------------------------- | :------------------------ |
+| <kbd>R</kbd>                  | Rename item               |
+| <kbd>C</kbd>                  | Copy item                 |
+| <kbd>D</kbd>                  | Delete item               |
+| <kbd>O</kbd>                  | Change owner              |
+| <kbd>G</kbd>                  | Change group              |
+| <kbd>M</kbd>                  | Change permissions        |
+| <kbd>S</kbd>                  | Create symlink            |
+| <kbd>T</kbd>                  | Touch item                |
+| <kbd>!</kbd> or <kbd>X</kbd>  | Run shell command on item |
 
 
 <a name="markcommands"></a> Mark commands
@@ -74,15 +74,15 @@ operate on single, or multiple items. Using them for multiple items will be expl
 These commands perform mark-related operations on items. Creating marks simply means putting a tag
 on items, so that you can perform the operations in the previous section, on them.
 
-| Key | What it does                                     |
-| :-- | :----------------------------------------------- |
-| m   | Mark an item                                     |
-| d   | Mark an item for deletion                        |
-| x   | Execute operation                                |
-| u   | Unmark a single item                             |
-| U   | Unmark all items                                 |
-| t   | Toggle marks between marked and unmarked items   |
-| c   | Compress items                                   |
+| Key          | What it does                                     |
+| :----------- | :----------------------------------------------- |
+| <kbd>m</kbd> | Mark an item                                     |
+| <kbd>d</kbd> | Mark an item for deletion                        |
+| <kbd>x</kbd> | Execute operation                                |
+| <kbd>u</kbd> | Unmark a single item                             |
+| <kbd>U</kbd> | Unmark all items                                 |
+| <kbd>t</kbd> | Toggle marks between marked and unmarked items   |
+| <kbd>c</kbd> | Compress items                                   |
 
 
 <a name="othercommands"></a> Other commands
@@ -91,17 +91,17 @@ on items, so that you can perform the operations in the previous section, on the
 These commands act on their own. They operate on single items, and they don’t make use of marks. The
 <kbd>w</kbd> command, however, is an exception.
 
-| Key     | What it does                            |
-| :------ | :-------------------------------------- |
-| +       | Create directory                        |
-| ^       | Go up one level, like `cd ..`           |
-| e or f  | Edit an item                            |
-| v       | View an item, like `less`               |
-| g       | Reload the current directory            |
-| j       | Jump to an item                         |
-| s       | Change sort order                       |
-| y       | Show file type of item, like `file`     |
-| w       | Copy item name to clipboard             |
+| Key                          | What it does                            |
+| :--------------------------- | :-------------------------------------- |
+| <kbd>+</kbd>                 | Create directory                        |
+| <kbd>&#94;</kbd>             | Go up one level, like `cd ..`           |
+| <kbd>e</kbd> or <kbd>f</kbd> | Edit an item                            |
+| <kbd>v</kbd>                 | View an item, like `less`               |
+| <kbd>g</kbd>                 | Reload the current directory            |
+| <kbd>j</kbd>                 | Jump to an item                         |
+| <kbd>s</kbd>                 | Change sort order                       |
+| <kbd>y</kbd>                 | Show file type of item, like `file`     |
+| <kbd>w</kbd>                 | Copy item name to clipboard             |
 
 
 <a name="wdired"></a> WDired mode
