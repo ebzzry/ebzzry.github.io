@@ -3,7 +3,7 @@ Citaĵoj
 
 <div class="center">Esperanto · [English](/en/quotes/)</div>
 <div class="center">la 15-an de novembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 12-an de decembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 13-an de januaro 2019</div>
 
 Ĉi tiu paĝo enhavas liston de atenteme elektitaj citaĵoj, aforismoj, kaj sentencoj kiujn mi kolektis
 tra la jarojn.
@@ -750,9 +750,13 @@ tra la jarojn.
 
 
 - La apudan elefanton ĉiu blinda viro priskribis malsame.<br>
-  ―Malnovhindproverbo
+  ―Malnovbaratproverbo
 
 
 - Kelke da plej kernaj paŝoj en mensa kresko estas bazitaj ne simple sur novajn kapablojn akiri, sed
   sur novajn administrajn manierojn akiri por la tiujn uzi, kiujn oni jam scias.<br>
   ―Marvin MINSKY
+
+
+- Trofidemvirinoj reproduktos pli. Trofidemviroj reproduktos malpli.<br>
+  ―Evelyn Jane SAUNGIKAR
