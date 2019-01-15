@@ -3,7 +3,7 @@ Synchronizing Sites with Usync
 
 <div class="center">[Esperanto](/eo/usync/) · English</div>
 <div class="center">May 21, 2013</div>
-<div class="center">Last updated: September 6, 2018</div>
+<div class="center">Last updated: January 13, 2019</div>
 
 >What I cannot create, I do not understand.<br>
 >―Richard P. Feynman
@@ -23,9 +23,22 @@ and uni-directional synchronizations, respectively.
 Table of contents
 -----------------
 
+- [Installation](#installation)
 - [Basic usage](#basicusage)
 - [Advanced usage](#advancedusage)
 - [Closing remarks](#closing)
+
+
+<a name="installation"></a> Installation
+----------------------------------------
+
+Usync can be installed with Nixpkgs:
+
+    $ nix-env -i usync
+
+To check that Usync is indeed installed, run:
+
+    $ which usync
 
 
 <a name="basicusage"></a> Basic usage
