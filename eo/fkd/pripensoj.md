@@ -3,7 +3,7 @@ Pripensoj
 
 <div class="center">Esperanto · [English](/en/reflections/)</div>
 <div class="center">la 3-an de novembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 2-an de decembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 13-an de januaro 2019</div>
 
 Ĉi tiu paĝo enhavas kelke da miaj propraj pripensoj. Enskriboj ordigatas laŭ kronologiordo.
 
@@ -239,9 +239,6 @@ Pripensoj
 - Unue dubu.<br>
 
 
-- Regnojn viroj reĝas; virojn virinoj reĝas.<br>
-
-
 - La pravajn homojn havu.<br>
 
 
@@ -327,3 +324,6 @@ Pripensoj
 
 
 - Iun ne danku pri bonaĵoj pro cirkonstancoj; iun danku pro bonintencoj.<br>
+
+
+- Ene la maŝinaro de la cerboj de virinoj estas ludkuboj.<br>
