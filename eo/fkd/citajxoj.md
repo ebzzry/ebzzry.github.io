@@ -756,7 +756,3 @@ tra la jarojn.
 - Kelke da plej kernaj paŝoj en mensa kresko estas bazitaj ne simple sur novajn kapablojn akiri, sed
   sur novajn administrajn manierojn akiri por la tiujn uzi, kiujn oni jam scias.<br>
   ―Marvin MINSKY
-
-
-- Trofidemvirinoj reproduktos pli. Trofidemviroj reproduktos malpli.<br>
-  ―Evelyn Jane SAUNGIKAR
