@@ -3,7 +3,7 @@ Citaĵoj
 
 <div class="center">Esperanto · [English](/en/quotes/)</div>
 <div class="center">la 15-an de novembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 13-an de januaro 2019</div>
+<div class="center">Laste ĝisdatigita: la 22-an de januaro 2019</div>
 
 Ĉi tiu paĝo enhavas liston de atenteme elektitaj citaĵoj, aforismoj, kaj sentencoj kiujn mi kolektis
 tra la jarojn.
@@ -756,3 +756,7 @@ tra la jarojn.
 - Kelke da plej kernaj paŝoj en mensa kresko estas bazitaj ne simple sur novajn kapablojn akiri, sed
   sur novajn administrajn manierojn akiri por la tiujn uzi, kiujn oni jam scias.<br>
   ―Marvin MINSKY
+
+
+- Ion ajn mi ne diros kiu ne povas elteni kiel la lasta kion mi iam ajn diros.<br>
+  ―Aŭŝvica postvivanto de Benjamin ZANDER

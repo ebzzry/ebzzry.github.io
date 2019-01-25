@@ -3,7 +3,7 @@ Reflections
 
 <div class="center">[Esperanto](/eo/pripensoj/) · English</div>
 <div class="center">November 24, 2015</div>
-<div class="center">Last updated: January 18, 2019</div>
+<div class="center">Last updated: January 22, 2019</div>
 
 This page contains contains some of my personal reflections. Entries are sorted in chronological order.
 
@@ -46,9 +46,6 @@ This page contains contains some of my personal reflections. Entries are sorted 
 
 
 - If you can’t beat them, arrange to have them beaten.<br>
-
-
-- Fear births doubt.<br>
 
 
 - Procrastinate procrastination.<br>
@@ -241,9 +238,6 @@ This page contains contains some of my personal reflections. Entries are sorted 
 - It doesn’t matter how much training you receive if you want to swim deep in the ocean. You cannot  learn lungs.<br>
 
 
-- Doubt first.<br>
-
-
 - Have the right people.<br>
 
 
@@ -328,3 +322,6 @@ This page contains contains some of my personal reflections. Entries are sorted 
 
 
 - You can’t teach a chicken how to shoot, because it can’t.<br>
+
+
+- Firstly, doubt; then question.<br>
