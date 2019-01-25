@@ -3,7 +3,7 @@ Pripensoj
 
 <div class="center">Esperanto · [English](/en/reflections/)</div>
 <div class="center">la 3-an de novembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 18-an de januaro 2019</div>
+<div class="center">Laste ĝisdatigita: la 22-an de januaro 2019</div>
 
 Ĉi tiu paĝo enhavas kelke da miaj propraj pripensoj. Enskriboj ordigatas laŭ kronologiordo.
 
@@ -45,9 +45,6 @@ Pripensoj
 
 
 - Se vi ne povas venki ilin, okazu aranĝon por bati ilin.<br>
-
-
-- La timo naskigas la dubon.<br>
 
 
 - Prokrastu prokrastadon.<br>
@@ -236,9 +233,6 @@ Pripensoj
 - Ne gravas kiom da trejnado oni ricevas se oni volas naĝi tre profunde en la maro. Pulmojn oni ne povas lerni.<br>
 
 
-- Unue dubu.<br>
-
-
 - La pravajn homojn havu.<br>
 
 
@@ -327,3 +321,6 @@ Pripensoj
 
 
 - Oni ne povas instrui al koko kiel pafi tial, ke ĝi ne povas.<br>
+
+
+- Unue dubu; tiam demandu.<br>
