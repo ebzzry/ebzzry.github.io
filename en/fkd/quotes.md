@@ -3,7 +3,7 @@ Quotes
 
 <div class="center">[Esperanto](/eo/citajxoj/) · English</div>
 <div class="center">August 29, 2015</div>
-<div class="center">Last updated: January 13, 2019</div>
+<div class="center">Last updated: January 22, 2019</div>
 
 This page contains a list of curated quotations, aphorisms, and proverbs that I have collected over
 the years.
@@ -768,3 +768,7 @@ the years.
 - Some of the most crucial steps in mental growth are based not simply on acquiring new skills, but
   on acquiring new administrative ways to use what one already knows.<br>
   ―Marvin Minsky
+
+
+- I will never say anything that couldn’t stand as the last thing I ever say.<br>
+  ―Auschwitz survivor via Benjamin Zander
