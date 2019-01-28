@@ -3,7 +3,7 @@ Esperanto-signoj en Linukso
 
 <div class="center">Esperanto · [English](/en/eo-linux/)</div>
 <div class="center">la 22-an de julio 2018</div>
-<div class="center">Laste ĝisdatigita: la 28-an de septembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 28-an de januaro 2019</div>
 
 >Se ion oni volas, kion oni neniam havis, oni devas esti servopreta tion fari, kion oni neniam
 >faris.<br>
@@ -110,7 +110,7 @@ keycode 134 = Mode‎ߺ‎switch
 keycode 135 = Mode‎ߺ‎switch
 ```
 
-Sekve, la ĝustajn nomojn de la klavoj oni devas uzi. La jenajn kodetojn uzu por la QWERTY-a kaj Dvoraka klavaroj, respektive.
+Sekve, la ĝustajn nomojn de la klavoj oni devas uzi. La jenajn kodetojn uzu por la QWERTY- kaj Dvoraka klavaroj, respektive.
 
 ```
 keycode 54 = c C ccircumflex Ccircumflex

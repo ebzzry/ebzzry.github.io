@@ -3,7 +3,7 @@ Agordi je GPG kaj je SSH en KDE
 
 <div class="center">Esperanto · [English](/en/gsk/)</div>
 <div class="center">la 19-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 28-an de aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 28-an de januaro 2019</div>
 
 >Ne tute estas grave por prave atingi tion en la unua fojo. Estas vitale grava atingi tion en la
 >lasta tempo.<br>
@@ -78,7 +78,7 @@ elektas la plej fortajn opciojn:
 Se oni volas uzi pli bonajn pasfrazojn, uzu
 [dajsvaron](http://world.std.com/~reinhold/diceware.html). XKCD-bildstrio kreitas pro tio.
 
-La sekva afero por fari estas por redakti la ĉefan GPG-an agorddosieron:
+La sekva afero por fari estas por redakti la ĉefan GPG-agorddosieron:
 
     $ nano ~/.gnupg/gpg.conf
 
@@ -105,9 +105,8 @@ sistemo. Por precizigi la lokon de pinentry-o, kuru:
 <a name="kde"></a>Agordi je KDE
 -------------------------------
 
-Oni nun bezonas ligi la GPG-an perilon al KDE. Oni bezonas krei startigan skripton por KDE, kiu
-alvokos la GPG-an perilon dum startigo. Oni ankaŭ bezonas diri al la GPG-perilo por ŝalti SSH-an
-apogon.
+Oni nun bezonas ligi la GPG-perilon al KDE. Oni bezonas krei startigan skripton por KDE, kiu
+alvokos la GPG-perilon dum startigo. Oni ankaŭ bezonas diri al la GPG-perilo por ŝalti SSH-apogon.
 
     $ mkdir ~/.kde/env
     $ nano ~/.kde/env/01_gpg-agent.sh
@@ -146,12 +145,12 @@ Ne forgesu por fari ĝin plenumebla:
 <a name="kontrolo"></a>Kontrolo
 -------------------------------
 
-Bedaŭrinde, oni bezonas reŝargi la KDE-an seancon, por ke ĉi tiuj agordaĵoj efektiviĝu. Se oni konas
+Bedaŭrinde, oni bezonas reŝargi la KDE-seancon, por ke ĉi tiuj agordaĵoj efektiviĝu. Se oni konas
 metodon kiu ne bezonas reŝargi la seancon, avizu min, mi petas.
 
 Premu <kbd>Ctrl+Alt+Del</kbd> por elsaluti, tiam ensalutu al la konto:
 
-Malfermu Konsole-an fenestron, tiam konektu al la plej ŝatata SSH-servilo:
+Malfermu Konsole-fenestron, tiam konektu al la plej ŝatata SSH-servilo:
 
     $ ssh uzanto@deforgastiganto
 
