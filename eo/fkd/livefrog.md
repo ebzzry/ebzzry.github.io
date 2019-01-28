@@ -3,7 +3,7 @@ Migri de LiveJournal al Frog
 
 <div class="center">Esperanto · [English](/en/livefrog/)</div>
 <div class="center">la 7-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 29-an de septembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 28-an de januaro 2019</div>
 
 >Mi ne scias kien mi iras, sed mi estas sur mia vojo.<br>
 >―Carl SAGAN
@@ -49,11 +49,11 @@ Per APT:
 
     $ sudo apt-get install -y racket
 
-Sekve, ni instalu livefrog-on—haveblas per [Planet2](https://pkg.racket-lang.org).
+Sekve, ni instalu je livefrog—haveblas per [Planet2](https://pkg.racket-lang.org).
 
     $ raco pkg install livefrog
 
-Se tio ne funkcias, oni facile povas instali livefrog-on per elŝuti ĝiajn dependecojn rekte de
+Se tio ne funkcias, oni facile povas instali je livefrog per elŝuti ĝiajn dependecojn rekte de
 GitHub:
 
     $ git clone https://github.com/greghendershott/frog.git
@@ -124,7 +124,7 @@ ljmigrate/
       userpics/
 ```
 
-La Markdown-ajn Frog-ajn fontajn dosierojn kreinte, oni nun povas kopii ilin al via Frog-fonta
+La Markdown- kaj Frog-fontajn dosierojn kreinte, oni nun povas kopii ilin al via Frog-fonta
 dosierujo, indikata ĉe `_src/posts/`.
 
 
@@ -145,12 +145,12 @@ Por krei tiel dosieron, nomata kiel `comments.xml`, kun `foo.bar.com` kiel la ra
 <a name="gxisdatigo"></a>Ĝisdatigo
 ----------------------------------
 
-Se oni instalis livefrog-on per Planet2, oni povas ĝisdatigi ĝin per kuri:
+Se oni instalis je livefrog per Planet2, oni povas ĝisdatigi ĝin per kuri:
 
     $ raco pkg update livefrog
 
-Tamen, se oni uzis la postan metodon, oni povas ĝisdatigi ĝin per elŝuti la ĝisdatigojn, malinstali
-livefrog-on, kaj denove instali ĝin:
+Tamen, se oni uzis la postan metodon, oni povas ĝisdatigi ĝin per elŝuti la ĝisdatigojn, malinstali je
+livefrog, kaj denove instali ĝin:
 
     $ cd livefrog
     $ git pull origin master

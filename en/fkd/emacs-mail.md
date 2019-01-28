@@ -3,7 +3,7 @@ Setting up Mail in Emacs
 
 <div class="center">[Esperanto](/eo/emakso-retposxto/) · English</div>
 <div class="center">February 2, 2014</div>
-<div class="center">Last updated: September 27, 2018</div>
+<div class="center">Last updated: January 28, 2019</div>
 
 >Just because it isn’t done doesn’t mean it can’t be done. Just because it can be done doesn’t mean
 >it should be.<br>
@@ -198,11 +198,11 @@ nice [mu4e manual](http://www.djcbsoftware.nl/code/mu/mu4e/index.html).
 <a name="encryption"></a> Encryption
 ------------------------------------
 
-Optionally, you may want to add some tweaks so that encryption and decryption of messages, will be
-easier. This is actually one of my primary reasons why I’m using mu4e—it has been pointed out to
-me that despite using browser extensions like [FireGPG](http://getfiregpg.org/s/home),
-and [It’s All Text!](https://addons.mozilla.org/en-US/firefox/addon/its-all-text/), the supposedly
-private message that you composed got auto-saved by default to the _Drafts_ folder. This implies,
+Optionally, you may want to add some tweaks so that encryption and decryption of
+messages, will be easier. This is actually one of my primary reasons why I’m
+using mu4e—it has been pointed out to me that despite using browser extensions
+like [FireGPG](http://getfiregpg.org/s/home) the supposedly private message that
+you composed got auto-saved by default to the _Drafts_ folder. This implies,
 that your unencrypted message, was still saved somewhere. Ahem.
 
 To make use of these cryptographic utilities, edit your emacs init:
