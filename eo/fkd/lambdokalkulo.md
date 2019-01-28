@@ -3,7 +3,7 @@ Aboco de la Lambdokalkulo
 
 <div class="center">Esperanto · [English](/en/lambda-calculus/)</div>
 <div class="center">la 21-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 26-an de septembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 28-an de januaro 2019</div>
 
 >Oni ne vere komprenas ion krom se oni povas klarigi tion al sia avino.<br>
 >―Alberto EJNŜTEJNO
@@ -74,7 +74,7 @@ provas devii el la establiĝita signifo de la vorto, ekzemple, se ni hazarde kre
 vorto pro kaprico, plej verŝajne ĝi ne akceptitos. Ni bezonas kredi la difinitajn indikitajn
 kaj montritajn signifojn de la vorto, por ke ĝi havu sencon al ni. La samo veras pri la
 lambdokalkulo—ni aŭ akcepti ĉi tiujn aksiomojn kaj operaciu en sia domajno, aŭ ni vivu en
-Neverland-o.
+Neverlando.
 
 
 <a name="pasxoj"></a>Etaj paŝoj

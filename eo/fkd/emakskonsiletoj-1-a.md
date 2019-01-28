@@ -3,7 +3,7 @@ Emakskonsiletoj 1-a: Regionoj kaj Markoj
 
 <div class="center">Esperanto · [English](/en/emacs-tips-1/)</div>
 <div class="center">la 12-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 28-an de septembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 28-an de februaro 2019</div>
 
 Mi ankoraŭ bezonas trovi pli bonan redaktilon ol [emakso](https://www.gnu.org/software/emacs/). Kio
 faras emakson elstari, estas sia agorda lingvo—emaksa Lispo. Emakso uzas ĝin al punkto, en kiu,
@@ -65,7 +65,7 @@ Mi volas havi komandon kiu eksplicite konservas la enigan historion de Geiser:
   (geiser-repl--write-input-ring))
 ```
 
-Kaj mi ankaŭ havas la jenan, tial ke, mi plaĉe volas ĝisrandigi la `λ`-an simbolon.
+Kaj mi ankaŭ havas la jenan, tial ke, mi plaĉe volas ĝisrandigi la `λ`-simbolon.
 
 ```lisp
 (defun my-scheme-mode-hook ()
