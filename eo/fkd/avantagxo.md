@@ -2,8 +2,8 @@ Mia Kinezia Avantaĝa Aranĝo
 ===========================
 
 <div class="center">Esperanto · [English](/en/advantage/)</div>
-<div class="center">la 12'-an de julio 2018</div>
-<div class="center">Laste ĝisdatigita: la 3-an de oktobro 2018</div>
+<div class="center">la 12https://kinesis-ergo.com/shop/advantage2/-an de julio 2018</div>
+<div class="center">Laste ĝisdatigita: la 28-an de februaro 2019</div>
 
 >La doloro neeviteblas. La suferado malnepras.<br>
 >―M. Kathleen CASEY
@@ -76,7 +76,7 @@ je Vi uzi aŭ apajn invitojn fermi.
 
 La <kbd>Insert</kbd> klavon mi uzis anstataŭ <kbd>Esc</kbd> por ke je `XA_PRIMARY` zonon mi povu
 aliri facile per <kbd>Shift + Insert</kbd>. La `XA_PRIMARY`-zono estas kie la musaj markoj
-iras. Ankaŭ plifaciliĝas por la `overwrite-mode`-an reĝimon de emakso eniri kaj por novan nivelon
+iras. Ankaŭ plifaciliĝas por la `overwrite-mode`-reĝimon de emakso eniri kaj por novan nivelon
 aldoni en *Krita*. La <kbd>Insert</kbd> klavo, bedaŭrinde, kaŝitas en la klavo markita per `|`,
 maldekstre. La sinsekvo por ĝin aliri estas listigita al la fino de ĉi tiu afiŝo.
 
@@ -144,8 +144,8 @@ keycode 104 = Multi_key
 -------------------------
 
 Se ŝlosilkodon 21 la dekstra <kbd>Ctrl</kbd> klavo havas—mapigite per xmodmap al
-<kbd>Mode_switch</kbd>—kaj ĝi samtempe premitas kun <kbd>c</kbd> en softvara QWERTY-o aŭ
-<kbd>j</kbd> en softvara Dvorako, la jenan tekston por QWERTY-a kaj Dvoraka reĝimoj ĝi liveras
+<kbd>Mode_switch</kbd>—kaj ĝi samtempe premitas kun <kbd>c</kbd> en softvara QWERTY aŭ
+<kbd>j</kbd> en softvara Dvorako, la jenan tekston por QWERTY- kaj Dvoraka reĝimoj ĝi liveras
 respektive:
 
 ```
@@ -168,6 +168,6 @@ La programebleco de la Kinezia Avantaĝo estas unu el siaj plej fortaj kapabloj.
 frenezega fortikeco kaj la elstaraj ergonomioj la avantaĝon inda investo igas.
 
 Pli da kapablo ol la tiu kiun mi havas la plej ĵusa
-model—[Advantage2](https://www.kinesis-ergo.com/shop/advantage2/)—havas. La funkciaj klavoj de ĉi
+model—[Advantage2](https://kinesis-ergo.com/shop/advantage2/)—havas. La funkciaj klavoj de ĉi
 tiu modelo nun meĥanikas. Se buĝeton oni havas, ĝin aĉetu! La
 [hejmpaĝon](https://www.kinesis-ergo.com/) de Kinezio oni povas viziti por pli da informo.

@@ -3,7 +3,7 @@ Retpoŝton Agordi per Emakso
 
 <div class="center">Esperanto · [English](/en/emacs-mail/)</div>
 <div class="center">la 14-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 26-an de septembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 28-an de januaro 2019</div>
 
 >Nur tial ke ne fariĝis, ne signifas, ke ne fareblas. Nur tial ke fareblas, ne
 >signifas, ke devus.<br>
@@ -14,8 +14,8 @@ poŝkomputilapon. Tamen, estas kazoj kiam oni volas havi pli da rego sur siaj me
 la kapablo kiun si volas, ne haveblas en la plimultaj opcioj.
 
 Emakso disponigas pletorajn manierojn (Gnus, Wanderlust, VM, ktp.) de sendi kaj ricevi la retpoŝton. En ĉi
-tiu afiŝo, mi parolos pri [getmail-o](http://pyropus.ca/software/getmail/),
-[mu-o](http://www.djcbsoftware.nl/code/mu/), kaj [mu4e-o](http://www.djcbsoftware.nl/code/mu/mu4e.html),
+tiu afiŝo, mi parolos pri [getmail](http://pyropus.ca/software/getmail/),
+[mu](http://www.djcbsoftware.nl/code/mu/), kaj [mu4e](http://www.djcbsoftware.nl/code/mu/mu4e.html),
 kaj kiel agordi ilin ĝuste. En ĉi tiu lernilo, mi supozas, ke oni akiras siajn mesaĝojn
 [Gmail-e](https://gmail.com) per ĝia IMAP-interfacio.
 
@@ -39,12 +39,12 @@ kaj kiel agordi ilin ĝuste. En ĉi tiu lernilo, mi supozas, ke oni akiras siajn
 -------------------------------------
 
 Oni bezonas havi manieron por elŝuti siajn retpoŝtojn, el sia retpoŝtservilo. Facile uzebla
-programo, kiu faras tion al si, estas [getmail-o](http://pyropus.ca/software/getmail/).
+programo, kiu faras tion al si, estas [getmail](http://pyropus.ca/software/getmail/).
 
 
 ### <a name="elsxutiinstalo"></a>Instalo
 
-Plejofte, getmail-o jam haveblas sur la sistemo per la pako-administrilo:
+Plejofte, getmail jam haveblas sur la sistemo per la pako-administrilo:
 
 Per Nixpkgs:
 
@@ -54,13 +54,13 @@ Per APT:
 
     $ sudo apt-get install getmail4
 
-Tamen, se onia sistemo ne disponigas manieron por facile instali getmail-on, oni povas iri al ĝia
+Tamen, se onia sistemo ne disponigas manieron por facile instali je getmail, oni povas iri al ĝia
 [hejmpaĝo](http://pyropus.ca/software/getmail/), tiam elŝutu la tar-arĥivon.
 
 
 ### <a name="elsxutiagordo"></a>Agordo
 
-Sekve, oni bezonas fari sorĉon, por ke getmail-o sciu kiel elŝuti siajn aĵojn. Kreu la dosieron
+Sekve, oni bezonas fari sorĉon, por ke getmail sciu kiel elŝuti siajn aĵojn. Kreu la dosieron
 `~/.getmail/getmailrc`. Krom tio, oni bezonas krei kaj precizigi kien la mesaĝojn iras:
 
     $ mkdir ~/Maildir
@@ -96,11 +96,11 @@ ke `~/Maildir` estas la defaŭlta dosierujo, kiun la retpoŝta transmeta ilo uzo
 
 ### <a name="elsxutiplenumo"></a>Plenumo
 
-Por kontroli, ke oni jam povas elŝuti siajn mesaĝojn, kuru getmail-on:
+Por kontroli, ke oni jam povas elŝuti siajn mesaĝojn, kurigu je getmail:
 
     $ getmail
 
-Se funkcias kaj montras ion kiel la jena, tiam oni prave agordis getmail-on:
+Se funkcias kaj montras ion kiel la jena, tiam oni prave agordis je getmail:
 
 ```bash
 getmail version 4.43.0
@@ -113,12 +113,12 @@ SimpleIMAPSSLRetriever:foobar@gmail.com@imap.gmail.com:993:
 <a name="legi"></a>Legi mesaĝojn
 --------------------------------
 
-Nun ke oni povas elŝuti siajn mesaĝojn, oni bezonas havi manieron por legi ilin. Ĉi tie estas kie mu-a
-kaj la aldonita kliento, kiu funkcias Emakse, _mu-o_ envenas:
+Nun ke oni povas elŝuti siajn mesaĝojn, oni bezonas havi manieron por legi ilin. Ĉi tie estas kie mu
+kaj la aldonita kliento, kiu funkcias Emakse, _mu_ envenas:
 
 ### <a name="legiinstalo"></a>Instalo
 
-Same kiel getmail-o supre, plej verŝajne, mu-o povas esti instalita per la pako-administrilo de onia
+Same kiel getmail supre, plej verŝajne, mu povas esti instalita per la pako-administrilo de onia
 sistemo:
 
 Per Nixpkgs:
@@ -129,15 +129,15 @@ Per APT:
 
     $ sudo apt-get install maildir-utils
 
-Kaj cetere, oni bezonas elŝuti mu4e-on. Venas kun la fontkodo de mu-o. Elŝutu ĝin per kuri:
+Kaj cetere, oni bezonas elŝuti je mu4e. Venas kun la fontkodo de mu. Elŝutu ĝin per kuri:
 
     $ mkdir ~/.emacs.d
     $ cd ~/.emacs.d
     $ git clone git@github.com:djcb/mu.git
 
-Ĉi tiu komando kreas `mu/`-an dosierujon en la aktuala dosierujo, kiu estas la defaŭlta dosierindiko,
+Ĉi tiu komando kreas `mu/`-dosierujon en la aktuala dosierujo, kiu estas la defaŭlta dosierindiko,
 en kiu, Emakso trovas pravalorizajn dosierojn. Notu, ke la supra gita komando, fakte elŝutas la
-fontkodon de mu-o, kaj oni fakte povas uzi ĝin por instali mu-on. Tamen, tial ke oni jam havas sian
+fontkodon de mu, kaj oni fakte povas uzi ĝin por instali je mu. Tamen, tial ke oni jam havas sian
 pako-administrilon, si malatentos tion. Kaj la dosierindiko, en kiu, la `mu/mu4e/`-subdosierujo
 ekzistas de la pako-administrila instalo, malsimilas inter sistemoj. Do, intertempe, oni
 interesitas nur pri la `mu/mu4e/`-subdosierujo.
@@ -145,7 +145,7 @@ interesitas nur pri la `mu/mu4e/`-subdosierujo.
 
 ### <a name="legiagordo"></a>Agordo
 
-Oni nun bezonas fari tiun mu4e-an dosierujon alirebla al Emakso. Por fari tiel, oni bezonas redakti
+Oni nun bezonas fari tiun mu4e-dosierujon alirebla al Emakso. Por fari tiel, oni bezonas redakti
 aŭ `~/.emacs.d/init.el` aŭ `~/.emacs`:
 
     $ emacs ~/.emacs.d/init.el
@@ -181,7 +181,7 @@ tiujn liniojn per <kbd>C-Space</kbd>, tiam premu:
 
     M-x eval-region EN
 
-Ĉi-loke oni povas uzi mu4e-on, per premi:
+Ĉi-loke oni povas uzi je mu4e, per premi:
 
     M-x mu4e EN
 
@@ -194,12 +194,12 @@ povas legi la [agrablan manlibron](http://www.djcbsoftware.nl/code/mu/mu4e/index
 <a name="cxifrado"></a>Ĉifrado
 -----------------------------
 
-Malnepre oni eble volas aldoni kelkajn alĝustigetojn, por ke la ĉifrado kaj malĉifrado de mesaĝoj
-estu pli facilaj. Fakte ĉi tio estas unu el la ĉefkialoj kial mi uzas mu4e-on—estis montrita al mi ke
-malgraŭ uzi retumilajn kromprogrojn kiel [FireGPG](http://getfiregpg.org/s/home),
-kaj [It’s All Text!](https://addons.mozilla.org/en-US/firefox/addon/its-all-text/), la onidire
-privataj mesaĝoj kiujn mi verkis, estis aŭtomate konservitaj en la _Drafts_
-dosierujo. Subkomprenigas, ke la malĉifrita mesaĝo, estis ankoraŭ konservita ie. Kraĉotusas.
+Malnepre oni eble volas aldoni kelkajn alĝustigetojn, por ke la ĉifrado kaj
+malĉifrado de mesaĝoj estu pli facilaj. Fakte ĉi tio estas unu el la ĉefkialoj
+kial mi uzas je mu4e—estis montrite al mi ke malgraŭ uzi retumilajn kromprogrojn
+kiel [FireGPG](http://getfiregpg.org/s/home), la onidire privataj mesaĝoj kiujn
+mi verkis, estis aŭtomate konservitaj en la _Drafts_ dosierujo. Subkomprenigas,
+ke la malĉifrita mesaĝo, estis ankoraŭ konservita ie. Kraĉotusas.
 
 Por uzi ĉi tiujn ĉifradajn utilaĵojn, redaktu la Emaksan pravalorizan dosieron:
 
@@ -229,7 +229,7 @@ Marku tiujn liniojn, tiam premu:
 
 Por ke la agordoj tuj efektiviĝu.
 
-Por sendi sendi ĉifritan mesaĝon, premu <kbd>C</kbd> el la ĉefmenuo de mu4e-o, plenumigi la kutimajn
+Por sendi sendi ĉifritan mesaĝon, premu <kbd>C</kbd> el la ĉefmenuo de mu4e, plenumigi la kutimajn
 kampojn kiel `To:`, kaj `Subject:`, tiam sur la mesaĝokorpo, premu:
 
     M-x ec REv
@@ -264,6 +264,6 @@ principo aplikatas. Do, estu atenta de ĉi tiuj situacioj, kaj alĝustigetu la a
 -------------------------------------
 
 Tenu en la kalkulo, ke mi laŭcele evitis eltiregis multe da detalo, ĉar devus konfuzi la celon de ĉi
-tiu artikolo por fari la aferojn simplaj. Tamen, se oni volas lerni pli, oni ĉiam povas iri al la [getmail-a](http://pyropus.ca/software/getmail/documentation.html)
-kaj [mu4e-a](http://www.djcbsoftware.nl/code/mu/mu4e/index.html) dokumentadoj, por plenumigi la
+tiu artikolo por fari la aferojn simplaj. Tamen, se oni volas lerni pli, oni ĉiam povas iri al la [getmail-](http://pyropus.ca/software/getmail/documentation.html)
+kaj [mu4e-](http://www.djcbsoftware.nl/code/mu/mu4e/index.html)dokumentadoj, por plenumigi la
 mankajn informojn kiun oni eble havi.

@@ -3,7 +3,7 @@ Emakskonsiletoj 2-a: Seancoj kaj Pakoj
 
 <div class="center">Esperanto · [English](/en/emacs-tips-2/)</div>
 <div class="center">la 20-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 26-an de septembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 28-an de februaro 2019</div>
 
 Ĉi tiu estas la daŭrigo de la serioj pri emaksaj konsiletoj. En ĉi tiu afiŝo, ni esploras seancan
 mastrumadon, pakojn, krommarĝenojn, kaj aliajn malgrandajn agrablajn aferojn.
@@ -24,7 +24,7 @@ mastrumadon, pakojn, krommarĝenojn, kaj aliajn malgrandajn agrablajn aferojn.
 - [Linifinio sen krommarĝeno](#linifinio)
 - [Plenigado](#plenigado)
 - [Montrilomovado](#montrilo)
-- [Gitstato en Dired-o](#gito)
+- [Gitstato en Dired](#gito)
 - [Klavkombinoj](#klavkombinoj)
 - [Finrimarkoj](#finrimarkoj)
 
@@ -34,7 +34,7 @@ mastrumadon, pakojn, krommarĝenojn, kaj aliajn malgrandajn agrablajn aferojn.
 
 Havenda ilo kiun mi nun uzas estas _Desktop_. Ĝi konservas la staton de la emaksa seanco, por ke en
 la okazo de kraŝo, kurenta malfunkcio, aŭ io kiu igas min perdi mian seancon, mi povu reiri al
-ĝi. Desktop-o enkonstruitas kun la plej ĵusaj versioj de emakso. La jena estas la kodaĵo:
+ĝi. Desktop enkonstruitas kun la plej ĵusaj versioj de emakso. La jena estas la kodaĵo:
 
 ```lisp
 (require 'desktop)
@@ -73,7 +73,7 @@ al konservi la komandlinian historion. La jena estas la kodaĵo:
 -------------------------------
 
 Okazis multe da fojo, kiam mi volas permane konservi la staton de tiom da seancan informon kiun mi
-povas konservi. Mi volus konservi la bufrojn, etbufran historion, legosignojn, kaj comint-an reĝiman
+povas konservi. Mi volus konservi la bufrojn, etbufran historion, legosignojn, kaj je comint-reĝiman
 historion. Por fari tiel, mi havas la jenan:
 
 ```lisp
@@ -107,7 +107,7 @@ Liveras la agrablan:
 
 ### <a name="elpa"></a>ELPA
 
-ELPA-o estas la pako-administrila sistemo de emakso. Se vi ne ankoraŭ uzas la paksistemon, uzu ĝin
+ELPA estas la pako-administrila sistemo de emakso. Se vi ne ankoraŭ uzas la paksistemon, uzu ĝin
 nun. Ĉiuj, kiujn oni bezonas komenci estas la jena:
 
 ```lisp
@@ -276,11 +276,10 @@ la montrilon, specife al la supra, meza, kaj malsupra pozicioj, respektive.
 ```
 
 
-<a name="gito"></a>Gitstato en Dired-o
---------------------------------------
+<a name="gito"></a>Gitstato en Dired
+------------------------------------
 
-Ĉi tiu malgranda kodaĵo donas vidajn indikojn de la stato de gitmastrumitaj dosieroj ene Dired-a
-bufro. Premi <kbd>g</kbd> reŝargas la bufron, tiam ĝisdatigas la staton.
+Ĉi tiu malgranda kodaĵo donas vidajn indikojn de la stato de gitmastrumitaj dosieroj ene Dired-bufro. Premi <kbd>g</kbd> reŝargas la bufron, tiam ĝisdatigas la staton.
 
 ```lisp
 (use-package dired-k

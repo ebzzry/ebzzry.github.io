@@ -3,7 +3,7 @@ Blogi per Frog
 
 <div class="center">Esperanto · [English](/en/frog/)</div>
 <div class="center">la 16-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 26-an de septembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 28-an de januaro 2019</div>
 
 >Unu persono kun ardo pli bonas ol kvardek personoj nure interesataj.<br>
 >―E.M. FORSTER
@@ -47,15 +47,15 @@ de la spektro devigas min por uzi ion, kiu tro mezkvalitas en almenaŭ unu kriti
 aspekto. Bonŝance, mi trovis je [Frog](https://github.com/greghendershott/frog) pro propono en
 [#racket](https://kiwiirc.com/client/irc.freenode.net/#racket).
 
-Frog-o en laikoterminoj, estas retejokreilo, kiu estas tiel facila uzi, agordi, kaj tajlori. Kio
+Frog en laikoterminoj, estas retejokreilo, kiu estas tiel facila uzi, agordi, kaj tajlori. Kio
 ajn oni skribas aperos sur ĝi kiel si anticipas. Nek estas bizaraj kondiĉoj de uzado, nek
 arbitraj limigoj, nek trudoj—tre proksimas al tuta rego, en la pinto de la fingropintoj.
 
-Frog-o operacias ie en la mezo de jena spektro:
+Frog operacias ie en la mezo de jena spektro:
 
     Krudenhavo → Frog → HTML
 
-En kiu, krudenhavo estas aŭ Markdown, Scribble, aŭ HTML-fontdosieroj, aŭ kombinado de ĉio. Frog-o
+En kiu, krudenhavo estas aŭ Markdown, Scribble, aŭ HTML-fontdosieroj, aŭ kombinado de ĉio. Frog
 konsumas tiujn enigdosierojn, kiam si eligas agrablajn HTML-dosierojn, kiuj oni povas alŝuti al
 sia TTT-servilo. Ĉu facilas? Ne, pli facilas ol sonas.
 
@@ -111,7 +111,7 @@ Kion la komando faras, estas, ĝi muntas la HTML-dosierojn el la specimenaj dosi
 per la `‑‑init`-ŝaltilo, tiam ĝi lanĉas lokan retservilon, kiu defaŭlte servas la retejadreson
 [http://localhost:3000](http://localhost:3000).
 
-Frog-o malfermas novan retumilan langeton aŭ fenestron, montranta tiun retejadreson. La paĝo kiun
+Frog malfermas novan retumilan langeton aŭ fenestron, montranta tiun retejadreson. La paĝo kiun
 oni vidos, enhavas la defaŭltan retejan araĝon. Kiam oni konsentas al tiu, ni iru al la
 komandlinio kaj ni mortigu tiun procezon per premi <kbd>C-c</kbd>.
 
@@ -277,7 +277,7 @@ Kiam oni kreis novan afiŝon antaŭe, oni uzis la komandon:
 
     $ raco frog -n "Nova Bloga Afisxo"
 
-Tiu komando kreas Markdown-fontdosieron. Frog-o, tamen, havas alian reĝimon—Scribble-o. Ĉi tiu
+Tiu komando kreas Markdown-fontdosieron. Frog, tamen, havas alian reĝimon—Scribble. Ĉi tiu
 reĝimo permesas onin por uzi Scribble-dosieron anstataŭe. Por krei tiun, oni uzos la jenan
 komandon:
 
@@ -304,7 +304,7 @@ afiŝon por esti eldonita la speciala etikedo `DRAFT` malebligas.
 <!-- more -->
 ```
 
-Ni povas vidi, ke la Markdown-aj kaj Scribble-aj dosieroj plejparte similas, krom la aldono de
+Ni povas vidi, ke la Markdown- kaj Scribble-dosieroj plejparte similas, krom la aldono de
 la lingva precizigilo, `#lang scribble/manual`, kaj la manko de la prefiksaj spacetoj por la
 metadatumaj kampoj.
 
@@ -312,7 +312,7 @@ metadatumaj kampoj.
 <a name="komentoj"></a>Komentoj
 -------------------------------
 
-Frog-o uzas je [Disqus](https://disqus.com) por trakti siajn komentojn. Por uzi ĝin, kreu konton ĉe
+Frog uzas je [Disqus](https://disqus.com) por trakti siajn komentojn. Por uzi ĝin, kreu konton ĉe
 [https://disqus.com/profile/signup/](https://disqus.com/profile/signup/?next=http%3A//disqus.com/).
 
 Kiam oni jam havas sian konton, iru al <https://disqus.com/admin/create/>  por krei retejon, kiu
@@ -329,7 +329,7 @@ Por importi komentojn de ekzistanta blogo al Disqus, iru al <https://import.disq
 <a name="eldono"></a>Eldono
 ---------------------------
 
-Por eldoni la verkon, alŝuti la enhavojn de la dosierujo kiun Frog-o mastrumas al la defora
+Por eldoni la verkon, alŝuti la enhavojn de la dosierujo kiun Frog mastrumas al la defora
 servilo. En ĉi tiu gvidilo, estas la dosierujo `/home/vakelo/blogo`. Se la aktuala dosierujo estas
 `blog/`, kaj oni volas sendi la dosierojn per rsync, la komando aspektus kiel:
 
@@ -356,11 +356,11 @@ Por vidi la retejon, iru al `vakelo.github.io`.
 <a name="finrimarkoj"></a>Finrimarkoj
 -------------------------------------
 
-Frog-o vivkapablas kaj utila retejokreilo. Estas facile por uzi; agordeblegas, flekseblas, kaj
+Frog vivkapablas kaj utila retejokreilo. Estas facile por uzi; agordeblegas, flekseblas, kaj
 jes, malfermita kodo. Donas regon reen la verkisto. Bona ekzemplo de blogo funkciigita de Frog
 troveblas ĉe [https://ngnghm.github.io/](https://ngnghm.github.io/).
 
-Frog-o kreitas de [Greg HENDERSHOTT](http://www.greghendershott.com/). Se oni volas lerni pli
+Frog kreitas de [Greg HENDERSHOTT](http://www.greghendershott.com/). Se oni volas lerni pli
 da projekto, iru [ĉi tien](https://github.com/greghendershott/frog).
 
 🐸—Kva!

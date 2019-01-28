@@ -3,7 +3,7 @@ Sekurkopiojn Krei per Ugarit
 
 <div class="center">Esperanto · [English](/en/ugarit/)</div>
 <div class="center">la 18-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 26-an de septembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 28-an de januaro 2019</div>
 
 >Bona juĝo devenas el sperto, kaj sperto devenas el malbona juĝo.<br>
 >―Fred BROOKS
@@ -65,7 +65,7 @@ per la pako-administrilo:
 Se ne haveblas sur la sistemo, oni povas elŝuti gin el
 [code.call-cc.org](https://code.call-cc.org/).
 
-Post kiam Chicken instalitas, ni instalu Ugarit-on mem kaj siajn dependecojn:
+Post kiam Chicken instalitas, ni instalu je Ugarit mem kaj siajn dependecojn:
 
     $ chicken-install -s ugarit tiger-hash aes
 
@@ -200,8 +200,8 @@ rekte, kuru:
 ### <a name="defora"></a>Defora dosiersistemo
 
 Ugarit ne limigitas krei dosierkopiojn de loka dosiersistemo. Ankaŭ povas uzita krei
-dosierkopiojn de arboj de defora gastiganto muntita loke. Se oni ekzemple havas
-[SSHFS-an](https://github.com/libfuse/sshfs) surmeton, si ankoraŭ povas krei dosierkopion de
+dosierkopiojn de arboj de defora gastiganto muntita loke. Se oni ekzemple havas je
+[SSHFS](https://github.com/libfuse/sshfs)-surmeton, si ankoraŭ povas krei dosierkopion de
 tiu, same kiel ia alia loka dosiersistemo.
 
     $ sshfs remotehost:/ ~/mnt/sshfs/remotehost
@@ -231,8 +231,7 @@ Por ŝalti tre babileman eligon:
 -------------------------------------
 
 Kiam oni ne fidas al la funkciado de la disko kie oni enmemorigas la dosierkopiojn, malŝalti la
-[locate-ajn kaj updatedb-ajn](http://linux.about.com/od/commands/fl/updatedb-Linux-Command-Unix-Command.htm)
-servojn. Estas kutime periode kuradi per cron-o. Metas multe da ŝarĝo sur la disko kaj eble
+[locate- kaj updatedb-](http://linux.about.com/od/commands/fl/updatedb-Linux-Command-Unix-Command.htm)servojn. Estas kutime periode kurigis per cron. Metas multe da ŝarĝo sur la disko kaj eble
 trostresi ĝin. La sperto povas varii.
 
 Por malŝalti tiujn servojn sur NixOS, aldonu la jenan al `/etc/nixos/configuration.nix`:

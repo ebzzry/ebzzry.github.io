@@ -3,7 +3,7 @@ Dosierujojn Mastrumi per Emakso
 
 <div class="center">Esperanto · [English](/en/emacs-dired/)</div>
 <div class="center">la 12-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 14-an de decembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 28-an de januaro 2019</div>
 
 >Supozi bonas, tamen eltrovi pli bonas.<br>
 >―Samuel CLEMENS
@@ -28,7 +28,7 @@ al Dired-bufroj.
 <a name="superrigardo"></a>Superrigardo
 ---------------------------------------
 
-Por kuri Dired-on, kuru Emakson sur la komandlinio, disponigi dosierujon, kiel la argumento:
+Por kuri je Dired, kuru Emakson sur la komandlinio, disponigi dosierujon, kiel la argumento:
 
     $ emacs ~/Desktop
 
@@ -108,7 +108,7 @@ La jenaj komandoj agas laŭ si mem. Ili operacias sur solaj eroj kaj ili ne uzas
 <a name="wdired"></a>WDired-reĝimo
 ------------------------------------
 
-Tamen, unu el la plej mojosa, kaj ofte malatentita funkcio de Dired estas la _WDired-a_-reĝimo. Tio,
+Tamen, unu el la plej mojosa, kaj ofte malatentita funkcio de Dired estas la _WDired_-reĝimo. Tio,
 kion ĝi faras, estas, ĝi donas al oni potenca kapablo por redakti la nomojn de eroj ene Dired-bufro,
 similas al tio, kion oni faras al kutima bufro. Por eniri la WDired-reĝimo, premu:
 

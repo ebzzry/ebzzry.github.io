@@ -3,7 +3,7 @@ Virtualigado en Linukso per KVM
 
 <div class="center">Esperanto · [English](/en/kvm/)</div>
 <div class="center">la 3-an de marto 2018</div>
-<div class="center">Laste ĝisdatigita: la 17-an de septembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 28-an de februaro 2019</div>
 
 >Se tion oni faras, kion oni ĉiam faras; tion oni akiros, kion oni ĉiam akiras.<br>
 >―Anthony ROBBINS
@@ -72,7 +72,7 @@ APT:
 
     $ sudo apt-get install -y qemu-kvm vde2 spice-client-gtk
 
-La [QEMU](http://wiki.qemu-project.org/Main_Page)-an /ki-mu/ hiperregilon, la
+La [QEMU](http://wiki.qemu-project.org/Main_Page)-hiperregilon, la
 [VDE](http://vde.sourceforge.net/)-ilojn, kaj [SPICE](http://www.spice-space.org/)-subtenon ĉi tio
 instalas. QEMU, almenaŭ dum siaj fruaj tagoj ne estis impresa—ĝi estis bona, bedaŭrinde ne
 bonegas. Ekde versio 0.10.1, je [KVM](http://www.linux-kvm.org/)-kapablojn—virtualigada subsistemo
@@ -104,7 +104,7 @@ Tamen, se bildon oni ne jam havas, ĝin oni povas krei per:
 
     $ qemu-img create -f qcow2 vm.qcow2 20G
 
-20GiB-an bildon la lasta paŝo kreas, kiu nomiĝas `vm.qcow2`. Tenu en la kalkulo, ke la dosiersufikso
+20GiB-bildon la lasta paŝo kreas, kiu nomiĝas `vm.qcow2`. Tenu en la kalkulo, ke la dosiersufikso
 ne fakte gravas—la bildon oni povas nomigi kiel `index.html`, tamen tio ne estus sencema, ĉu ne? 😄
 
 
@@ -179,7 +179,7 @@ La KVM-procezilon uzu, per ĉiom da subtenitaj kapabloj.
 
     -net nic,model=virtio -net vde
 
-Virtualan NIC-on kreu, kaj VDE-retkonektadon ŝaltu.
+Je virtualan NIC kreu, kaj VDE-retkonektadon ŝaltu.
 
     -soundhw all
 
