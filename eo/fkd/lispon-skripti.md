@@ -426,4 +426,4 @@ La priresponda homo por komunlispon igi ebla kaj akceptebla estas
 komunlispo kiel skriptada lingvo vidi. Oferdonjn oni povas doni al li per
 [PayPal](https://paypal.me/fahree) aŭ [Bitcoin](bitcoin:1fareF6wCNYYiLPGmyQjrd3AQdHBb1CJ6).
 
-La rubandbildo uzita supre estas de [common-lisp.net](https://common-lisp.net/).
+La rubandbildo kiu uziĝas supre estas de [common-lisp.net](https://common-lisp.net/).
