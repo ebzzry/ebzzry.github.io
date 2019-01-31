@@ -3,11 +3,7 @@ Supre, Malsupre, kaj Aliloke
 
 <div class="center">Esperanto · [English](/en/over-under/)</div>
 <div class="center">la 2-an de decembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 28-an de septembro 2018</div>
-
-<div class="center">
-<iframe src="https://drive.google.com/file/d/1J9AmuhZBETa5ATsHbuZQdvuvJt6XYZ96/preview" height="64"></iframe>
-</div>
+<div class="center">Laste ĝisdatigita: la 29-an de januaro 2019</div>
 
 >La nuraj limoj kiujn oni havas, estas la limoj kiujn oni kredas.<br>
 >―Wayne DYER
