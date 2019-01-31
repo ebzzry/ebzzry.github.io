@@ -3,12 +3,12 @@ La Pensoj de Pedanto
 
 <div class="center">Esperanto · [English](/en/)</div>
 <div class="center">la 27-an de aprilo 2017</div>
-<div class="center">Laste ĝisdatigita: la 4-an de oktobro 2018</div>
+<div class="center">Laste ĝisdatigita: la 29-an de januaro 2019</div>
 
 <img src="/bil/pluvis.jpg" class="banner" alt="pluvis" title="En la vizaĝo de la kosmo, ni ĉiuj estas porĉiame infanoj." />
 
 <div class="text-right">Retejo pri komputiko, hominklinaĵoj, kaj hazardaĵoj. La eroj ordigitas laŭ
-inverskronologiordo. Aŭdversion la steligitaj eroj havas.</div>
+inverskronologiordo.</div>
 
 - [Ziŝkonsiletoj 4-a: Ĝeneralhelpiloj](zisxkonsiletoj-4-a/)
 - [Ziŝkonsiletoj 3-a: Ŝanĝradikighelpiloj](zisxkonsiletoj-3-a/)
@@ -45,5 +45,5 @@ inverskronologiordo. Aŭdversion la steligitaj eroj havas.</div>
 - [Migri de LiveJournal al Frog](livefrog/)
 - [Retnodojn Sinkronigi per Usync](usync/)
 - [Malŝparitaj Malcedemoj](malsxparitaj/)
-- [Supre, Malsupre, kaj Aliloke ★](supre-malsupre/)
+- [Supre, Malsupre, kaj Aliloke](supre-malsupre/)
 - [La Ipsilonkombinatoro en Ses Paŝoj](ipsilono/)
