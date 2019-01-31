@@ -3,7 +3,7 @@ Scripting in Common Lisp
 
 <div class="center">[Esperanto](/eo/lispon-skripti/) · English</div>
 <div class="center">July 5, 2017</div>
-<div class="center">Last updated: September 26, 2018</div>
+<div class="center">Last updated: January 31, 2019</div>
 
 >The light that burns twice as bright burns half as long.<br>
 >―Dr. Eldon Tyrell, Blade Runner (1982)
@@ -123,35 +123,42 @@ provides the things that we need for managing shell processes
 Next, let’s create the file `main.lisp`, in the same directory. It will contain the following:
 
 ```lisp
-(uiop:define-package #:my-scripts/main
+(uiop:define-package :my-scripts/main
     (:use #:cl
           #:uiop
           #:cl-scripting
           #:inferior-shell
           #:fare-utils
           #:cl-launch/dispatch)
-  (:export #:symlink
-           #:help))
+  (:export #:getuid
+           #:symlink
+           #:help
+           #:main))
 
 (in-package #:my-scripts/main)
 
 (exporting-definitions
+  (defun getuid ()
+    #+sbcl (sb-posix:getuid)
+    #+cmu (unix:unix-getuid)
+    #+clisp (posix:uid)
+    #+ecl (ext:getuid)
+    #+ccl (ccl::getuid)
+    #+allegro (excl.osi:getuid)
+    #-(or sbcl cmu clisp ecl ccl allegro) (error "no getuid"))
+
  (defun symlink (src)
-   "Build the symlinks."
-   (let ((binarch (resolve-absolute-location
-                   `(,(subpathname (user-homedir-pathname) "bin/")) :ensure-directory t)))
+   (let ((binarch (resolve-absolute-location `(,(subpathname (user-homedir-pathname) "bin/")) :ensure-directory t)))
      (with-current-directory (binarch)
        (dolist (i (cl-launch/dispatch:all-entry-names))
          (run `(ln -sf ,src ,i)))))
    (success))
 
  (defun help ()
-   "Display usage."
    (format! t "~A commands: ~{~A~^ ~}~%" (get-name) (all-entry-names))
    (success))
 
  (defun main (&rest args)
-   "Top-level function."
    (format t "main~%")))
 
 (register-commands :my-scripts/main)
@@ -272,14 +279,12 @@ Then, let’s populate the file `general.lisp` with the following contents:
   (subpathname (user-homedir-pathname) "Desktop/"))
 
 (defun battery-status ()
-  "Return battery status."
   (let ((base-dir "/sys/class/power_supply/*")
         (exclude-string "/AC/"))
     (with-output (s nil)
-      (loop :for dir
-            :in (remove-if #'(lambda (path)
-                               (search exclude-string (native-namestring path)))
-                           (directory* base-dir))
+      (loop :for dir :in (remove-if #'(lambda (path)
+                                        (search exclude-string (native-namestring path)))
+                                    (directory* base-dir))
             :for battery = (first (last (pathname-directory dir)))
             :for capacity = (read-file-line (subpathname dir "capacity"))
             :for status = (read-file-line (subpathname dir "status"))
@@ -287,12 +292,10 @@ Then, let’s populate the file `general.lisp` with the following contents:
 
 (exporting-definitions
  (defun battery ()
-   "Display battery status."
    (format t "~A" (battery-status))
    (values))
 
  (defun screenshot (mode)
-   "Take a screenshot."
    (let* ((dir *screenshots-dir*)
           (file (format nil "~A.png" (format-timestring nil (now))))
           (dest (format nil "mv $f ~A" dir))
@@ -300,10 +303,10 @@ Then, let’s populate the file `general.lisp` with the following contents:
      (flet ((scrot (file dest &rest args)
               (run/i `(scrot ,@args ,file -e ,dest))))
        (match mode
-         ((ppcre "(full|f)") (scrot file dest))
-         ((ppcre "(region|r)") (scrot file dest '-s))
-         (_ (err (format nil "invalid mode ~A~%" mode))))
-       (run `(xclip -selection clipboard) :input (list image))
+              ((ppcre "(full|f)") (scrot file dest))
+              ((ppcre "(region|r)") (scrot file dest '-s))
+              (_ (err (format nil "invalid mode ~A~%" mode))))
+       (run `("xclip" "-selection" "clipboard" "-t" "image/png" ,image))
        (success)))))
 
 (register-commands :scripts/general)
@@ -362,21 +365,17 @@ Then, let’s populate `apps.lisp`:
 
 (exporting-definitions
  (defun chrome (&rest args)
-   "Run the Chrome browser."
    (run/i `(google-chrome-beta ,@args)))
 
  (defun kill-chrome (&rest args)
-   "Send a KILL signal to the Chrome process."
    (run `(killall ,@args chromium-browser chromium google-chrome chrome)
         :output :interactive :input :interactive :error-output nil :on-error nil)
    (success))
 
  (defun stop-chrome ()
-   "Send a STOP signal to the Chrome process."
    (kill-chrome "-STOP"))
 
  (defun continue-chrome ()
-   "Send a CONT signal to the Chrome process."
    (kill-chrome "-CONT")))
 
 (register-commands :scripts/apps)
@@ -386,7 +385,7 @@ Let’s rebuild my-scripts:
 
 ```bash
 $ make install
-my-scripts available commands: battery chrome continue-chrome help kill-chrome main screenshot stop-chrome symlink
+my-scripts available commands: battery chrome continue-chrome getuid help kill-chrome main screenshot stop-chrome symlink
 ```
 
 Yay!
@@ -436,4 +435,4 @@ donations to him via [PayPal](https://paypal.me/fahree) or
 
 The banner image used at the top is from [common-lisp.net](https://common-lisp.net/).
 
-_Thanks to [Raymund Martinez](https://zhaqenl.github.io) for the corrections._
+_Thanks to [Raymund Martinez](https://zhaqenl.github.io) and [Marco Wahl](https://marcowahl.github.io/busi/) for the corrections._
