@@ -3,7 +3,7 @@ Skriptado en Komunlispo
 
 <div class="center">Esperanto · [English](/en/script-lisp/)</div>
 <div class="center">la 24-an de septembro 2018</div>
-<div class="center">Laste ĝisdatigita: la 25-an de septembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 31-an de januaro 2019</div>
 
 >La lumo kiu fajras duoble brila, fajras duone longa.<br>
 >―D-ro. Eldon TYRELL, Blade Runner (1982)
@@ -120,35 +120,42 @@ kondiĉigi. La dependecojn sur `cl-scripting` ni deklaras, kiu kelkajn helpilojn
 Sekve, la dosieron `main.lisp` ni kreu en la sama dosierujo. La jenan ĝi havos:
 
 ```lisp
-(uiop:define-package #:my-scripts/main
+(uiop:define-package :my-scripts/main
     (:use #:cl
           #:uiop
           #:cl-scripting
           #:inferior-shell
           #:fare-utils
           #:cl-launch/dispatch)
-  (:export #:symlink
-           #:help))
+  (:export #:getuid
+           #:symlink
+           #:help
+           #:main))
 
 (in-package #:my-scripts/main)
 
 (exporting-definitions
+  (defun getuid ()
+    #+sbcl (sb-posix:getuid)
+    #+cmu (unix:unix-getuid)
+    #+clisp (posix:uid)
+    #+ecl (ext:getuid)
+    #+ccl (ccl::getuid)
+    #+allegro (excl.osi:getuid)
+    #-(or sbcl cmu clisp ecl ccl allegro) (error "no getuid"))
+
  (defun symlink (src)
-   "Build the symlinks."
-   (let ((binarch (resolve-absolute-location
-                   `(,(subpathname (user-homedir-pathname) "bin/")) :ensure-directory t)))
+   (let ((binarch (resolve-absolute-location `(,(subpathname (user-homedir-pathname) "bin/")) :ensure-directory t)))
      (with-current-directory (binarch)
        (dolist (i (cl-launch/dispatch:all-entry-names))
          (run `(ln -sf ,src ,i)))))
    (success))
 
  (defun help ()
-   "Display usage."
    (format! t "~A commands: ~{~A~^ ~}~%" (get-name) (all-entry-names))
    (success))
 
  (defun main (&rest args)
-   "Top-level function."
    (format t "main~%")))
 
 (register-commands :my-scripts/main)
@@ -267,14 +274,12 @@ Tiam, la dosieron `general.lisp` ni plenigu per la jena enhavo:
   (subpathname (user-homedir-pathname) "Desktop/"))
 
 (defun battery-status ()
-  "Return battery status."
   (let ((base-dir "/sys/class/power_supply/*")
         (exclude-string "/AC/"))
     (with-output (s nil)
-      (loop :for dir
-            :in (remove-if #'(lambda (path)
-                               (search exclude-string (native-namestring path)))
-                           (directory* base-dir))
+      (loop :for dir :in (remove-if #'(lambda (path)
+                                        (search exclude-string (native-namestring path)))
+                                    (directory* base-dir))
             :for battery = (first (last (pathname-directory dir)))
             :for capacity = (read-file-line (subpathname dir "capacity"))
             :for status = (read-file-line (subpathname dir "status"))
@@ -282,12 +287,10 @@ Tiam, la dosieron `general.lisp` ni plenigu per la jena enhavo:
 
 (exporting-definitions
  (defun battery ()
-   "Display battery status."
    (format t "~A" (battery-status))
    (values))
 
  (defun screenshot (mode)
-   "Take a screenshot."
    (let* ((dir *screenshots-dir*)
           (file (format nil "~A.png" (format-timestring nil (now))))
           (dest (format nil "mv $f ~A" dir))
@@ -295,10 +298,10 @@ Tiam, la dosieron `general.lisp` ni plenigu per la jena enhavo:
      (flet ((scrot (file dest &rest args)
               (run/i `(scrot ,@args ,file -e ,dest))))
        (match mode
-         ((ppcre "(full|f)") (scrot file dest))
-         ((ppcre "(region|r)") (scrot file dest '-s))
-         (_ (err (format nil "invalid mode ~A~%" mode))))
-       (run `(xclip -selection clipboard) :input (list image))
+              ((ppcre "(full|f)") (scrot file dest))
+              ((ppcre "(region|r)") (scrot file dest '-s))
+              (_ (err (format nil "invalid mode ~A~%" mode))))
+       (run `("xclip" "-selection" "clipboard" "-t" "image/png" ,image))
        (success)))))
 
 (register-commands :scripts/general)
@@ -356,21 +359,17 @@ Tiam je `apps.lisp` ni plenigu:
 
 (exporting-definitions
  (defun chrome (&rest args)
-   "Run the Chrome browser."
    (run/i `(google-chrome-beta ,@args)))
 
  (defun kill-chrome (&rest args)
-   "Send a KILL signal to the Chrome process."
    (run `(killall ,@args chromium-browser chromium google-chrome chrome)
         :output :interactive :input :interactive :error-output nil :on-error nil)
    (success))
 
  (defun stop-chrome ()
-   "Send a STOP signal to the Chrome process."
    (kill-chrome "-STOP"))
 
  (defun continue-chrome ()
-   "Send a CONT signal to the Chrome process."
    (kill-chrome "-CONT")))
 
 (register-commands :scripts/apps)
@@ -380,7 +379,7 @@ Tiam je *my-scripts* ni remuntu:
 
 ```bash
 $ make install
-my-scripts available commands: battery chrome continue-chrome help kill-chrome main screenshot stop-chrome symlink
+my-scripts available commands: battery chrome continue-chrome getuid help kill-chrome main screenshot stop-chrome symlink
 ```
 
 Hura!
