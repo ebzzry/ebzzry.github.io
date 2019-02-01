@@ -3,7 +3,7 @@ Emakso kaj Paroj
 
 <div class="center">Esperanto · [English](/en/emacs-pairs/)</div>
 <div class="center">la 9-an de julio 2018</div>
-<div class="center">Laste ĝisdatigita: la 4-an de oktobro 2018</div>
+<div class="center">Laste ĝisdatigita: la 1-an de februaro 2018</div>
 
 >La blanka bruo kiu batas ene la blanka mallumo estas la ritmo de la vivo; estas la pulso kiu
 >neniam vere foriris la podion.<br>
@@ -70,8 +70,8 @@ Je smartparens oni ŝaltu en la startigo, kaj ĝin oni kroĉu al egaj kroĉiloj:
 <a name="uzado"></a>Uzado
 -------------------------
 
-Parigitajn karakterojn kiel rondaj krampoj, kurbaj krampoj, kvadrataj krampoj, citiloj, angulaj
-krampoj, kaj aliaj koncepteblaj parigeblaj karakteroj mastrumi jam ĉiam doloras. Tiun
+Parigitajn signojn kiel rondaj krampoj, kurbaj krampoj, kvadrataj krampoj, citiloj, angulaj
+krampoj, kaj aliaj koncepteblaj parigeblaj signoj mastrumi jam ĉiam doloras. Tiun
 problemon aliaj pakoj solvas parte. Bedaŭrinde, kelkajn punktojn ili maltrafas.
 
 En la kodetoj ĉi-sube, la ĉapelo (^) simbolo estos uzita por la
@@ -80,7 +80,7 @@ En la kodetoj ĉi-sube, la ĉapelo (^) simbolo estos uzita por la
 
 ### <a name="bazaj"></a>Bazaj
 
-Smartparens-e, kiam parigeblan karakteron oni enigas:
+Per smartparens, kiam parigeblajn signojn oni enigas:
 
 ```clojure
 
@@ -670,7 +670,7 @@ respektive."
 La pletoro de la komandoj en smartparens eble komence senkuraĝigas, tamen la investo per tempo en
 ilin lerni, minimumas kontraste al la gajnojn oni povas rikolti.
 
-smartparens estas la elpensintaĵo de [Matus Goljer](https://github.com/Fuco1). Por pli da informo
+smartparens estas la elpensintaĵo de [Matus GOLJER](https://github.com/Fuco1). Por pli da informo
 pri smartparens, [ĉi tien](https://github.com/Fuco1/smartparens) iru. Se ĉi tiun projekton oni
 ŝatas, oni povas donaci
 [ĉi tie](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CEYP5YVHDRX8C).
