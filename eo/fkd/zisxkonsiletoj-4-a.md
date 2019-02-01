@@ -188,7 +188,7 @@ mi uzas por la forviŝadon kurigi paralele, anstataŭ serie. Ĝi estas difinita 
 
 ```bash
 function rm+ () {
-  parallel --will-cite 'rm -rf {}' ::: $@
+  parallel 'rm -rf {}' ::: $@
 }
 ```
 
@@ -468,7 +468,7 @@ function rm! () {
 }
 
 function rm+ () {
-  parallel --will-cite 'rm -rf {}' ::: $@
+  parallel 'rm -rf {}' ::: $@
 }
 
 function rm@ () {

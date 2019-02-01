@@ -183,7 +183,7 @@ When I want to quickly remove a tree containing a lot of files and directories, 
 
 ```bash
 function rm+ () {
-  parallel --will-cite 'rm -rf {}' ::: $@
+  parallel 'rm -rf {}' ::: $@
 }
 ```
 
@@ -463,7 +463,7 @@ function rm! () {
 }
 
 function rm+ () {
-  parallel --will-cite 'rm -rf {}' ::: $@
+  parallel 'rm -rf {}' ::: $@
 }
 
 function rm@ () {

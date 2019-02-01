@@ -15,7 +15,7 @@ all:
 	$(KONSTRUILO) -r
 	$(MAKE) $(MFLAGS) -C eo
 	$(MAKE) $(MFLAGS) -C en
-	parallel --will-cite "$(MAKE) {/.}.html" ::: $(DOSIEROJ)
+	parallel "$(MAKE) {/.}.html" ::: $(DOSIEROJ)
 
 clean:
 	find . -maxdepth 1 -name '*.html' ! -name 'sitemap.html' ! -name 'index.html' -exec rm -vf {} \;
