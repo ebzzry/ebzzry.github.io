@@ -81,7 +81,7 @@ aldoni en *Krita*. La <kbd>Insert</kbd> klavo, bedaŭrinde, kaŝitas en la klavo
 maldekstre. La sinsekvo por ĝin aliri estas listigita al la fino de ĉi tiu afiŝo.
 
 La tiujn kiuj estis antaŭe <kbd>Ctrl</kbd>-klavoj mi bindis al <kbd>KP Home</kbd> kaj <kbd>KP
-End</kbd> por ke ilin mi povu mapi al <kbd>Mode Switch</kbd> en mia
+End</kbd> por ke ilin mi povu mapi al <kbd>Mode‎ߺ‎Switch</kbd> en mia
 [~/.Xmodmap](https://github.com/ebzzry/dotfiles/blob/master/xmodmap/advantage.dv.xmap)-dosiero. Miajn
 [notojn](#notojn) vidu ĉi-sube kial alian malrektigadan nivelon mi aldonis.
 
