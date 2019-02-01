@@ -22,7 +22,7 @@ In this article the <kbd>🐧</kbd> key signifies the <kbd>Mode‎ߺ‎switch</k
 -----------------------------------
 
 - [Multi‎ߺ‎key](#multikey)
-- [Mode switch](#modeswitch)
+- [Mode‎ߺ‎switch](#modeswitch)
 - [Closing remarks](#closing)
 
 
@@ -92,12 +92,12 @@ The following table lists the combinations for the Esperanto characters:
 <a name="modeswitch"></a>Mode‎ߺ‎switch
 ------------------------------------
 
-A faster and easier way to input Esperanto characters is through the use of the *Mode switch*
+A faster and easier way to input Esperanto characters is through the use of the *Mode‎ߺ‎switch*
 key. Just like with the *Multi‎ߺ‎key*, you assign a key to it. I like to bind two keys to it, so I can
 type with both hands. Unlike the Multi‎ߺ‎key, you have to hold it down like the <kbd>Shift</kbd> or
 <kbd>Ctrl</kbd> keys.
 
-If you want to assign the Windows keys as the mode switch keys, edit the file `~/.Xmodmap`, then add the following:
+If you want to assign the Windows keys as the <kbd>Mode‎ߺ‎switch</kbd> keys, edit the file `~/.Xmodmap`, then add the following:
 
 ```
 !! left windows key
@@ -168,12 +168,12 @@ If you’re using Nix, run:
 
     less ~/.nix-profile/share/X11/locale/en_US.UTF-8/Compose
 
-Male al tio, the advantage of the Mode‎ߺ‎switch method is speed. To see the list of character names
+Male al tio, the advantage of the *Mode‎ߺ‎switch* method is speed. To see the list of character names
 available, click [here](http://wiki.linuxquestions.org/wiki/List_of_Keysyms_Recognised_by_Xmodmap).
 
 There’s no best way to do this—use whatever system that fits your style. If you’re already using the
 Windows keys for something else, and you can only use one “spare” key on your keyboard, then use the
-Multi‎ߺ‎key method. If you want ease of use, use the Mode‎ߺ‎switch method. It is important to note, too,
+Multi‎ߺ‎key method. If you want ease of use, use the *Mode‎ߺ‎switch* method. It is important to note, too,
 that you can use both methods simultaneously.
 
 🐧—Ĝis la revido!
