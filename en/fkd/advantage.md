@@ -81,7 +81,7 @@ side. The sequence to access it is listed at end of this post.
 
 I bound what used to be the <kbd>Ctrl</kbd> keys to <kbd>KP Home</kbd> and <kbd>KP End</kbd> so that
 in my [.Xmodmap](https://github.com/ebzzry/dotfiles/blob/master/xmodmap/advantage.dv.xmap)
-file , I can map it to <kbd>Mode Switch</kbd>. See the [notes](#notes) below why I added another
+file , I can map it to <kbd>Mode‎ߺ‎switch</kbd>. See the [notes](#notes) below why I added another
 level of indirection.
 
 
@@ -141,7 +141,7 @@ keycode 104 = Multi_key
 -------------------------
 
 If the right <kbd>Ctrl</kbd> key has keycode 21—while mapped via xmodmap to
-<kbd>Mode_switch</kbd>—and it is simultaneously pressed with <kbd>c</kbd> in software QWERTY, or <kbd>j</kbd> in software Dvorak, it
+<kbd>Mode‎ߺ‎switch</kbd>—and it is simultaneously pressed with <kbd>c</kbd> in software QWERTY, or <kbd>j</kbd> in software Dvorak, it
 generates the following text for QWERTY and Dvorak, respectively:
 
 ```
