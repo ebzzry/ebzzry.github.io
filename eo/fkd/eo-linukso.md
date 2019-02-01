@@ -3,7 +3,7 @@ Esperanto-signoj en Linukso
 
 <div class="center">Esperanto · [English](/en/eo-linux/)</div>
 <div class="center">la 22-an de julio 2018</div>
-<div class="center">Laste ĝisdatigita: la 28-an de januaro 2019</div>
+<div class="center">Laste ĝisdatigita: la 1-an de februaro 2019</div>
 
 >Se ion oni volas, kion oni neniam havis, oni devas esti servopreta tion fari, kion oni neniam
 >faris.<br>
@@ -12,7 +12,7 @@ Esperanto-signoj en Linukso
 Mi opinias, ke la [h-](https://eo.wikipedia.org/wiki/H-sistemo) kaj la
 [x-sistemoj](https://eo.wikipedia.org/wiki/X-sistemo) ne plu devas uzitaj por la signojn enigi
 specifaj al Esperanto, krom se, ne fizike fareblas. Nune, estas du manieroj por la
-esperantajn karakterojn enigi linukse—la <kbd>Multi‎ߺ‎key</kbd> kaj <kbd>Mode‎ߺ‎switch</kbd> klavoj.
+esperantajn signojn enigi linukse—la <kbd>Multi‎ߺ‎key</kbd> kaj <kbd>Mode‎ߺ‎switch</kbd> klavoj.
 
 En ĉi tiu artikolo la <kbd>Mode‎ߺ‎switch</kbd> klavon la <kbd>🐧</kbd> klavo signifas.
 
@@ -29,7 +29,7 @@ En ĉi tiu artikolo la <kbd>Mode‎ߺ‎switch</kbd> klavon la <kbd>🐧</kbd> k
 --------------------------------
 
 La *Multi‎ߺ‎key* klavo, kiu ankaŭ nomatas la «Compose» klavo estas speciale asignita klavo, kiu devas
-esti premita kaj malpremita kun aliajn klavojn por signon enigi, aŭ seriojn de karakteroj. Male al
+esti premita kaj malpremita kun aliajn klavojn por signon enigi, aŭ seriojn de signoj. Male al
 <kbd>Shift</kbd> aŭ <kbd>Ctrl</kbd>, ĝi devas esti malpremita kaj ne premita dum la sinsekvo de
 premoj.
 
@@ -64,14 +64,14 @@ Do por je <kbd>Print</kbd> klavon uzi kiel *Multi‎ߺ‎key*, je `~/.Xmodmap` r
 
 Tiam, je `~/.Xmodmap` reŝarĝu, kiel priskribita ĉi-supre.
 
-Nun, ke je *Multi‎ߺ‎key* oni povas aliri, karakterojn komposti plifaciliĝas. Ni supozu, ke je
+Nun, ke je *Multi‎ߺ‎key* oni povas aliri, signojn komposti plifaciliĝas. Ni supozu, ke je
 <kbd>Pause</kbd> klavo ni uzis kiel *Multi‎ߺ‎key*, por la literon **ĉ** eniri, je <kbd>Pause</kbd> oni
 premas kaj malpremas, tiam je <kbd>&#94;</kbd> oni premas kaj malpremas, tiam fine, je <kbd>c</kbd>
 oni premas kaj malpremas.
 
-Jen la tabuleto kiu la kombinadojn por la esperantaj karakteroj listigas.
+Jen la tabuleto kiu la kombinadojn por la esperantaj signoj listigas.
 
-| Karaktero | Sinsekvo       |
+| Signo     | Sinsekvo       |
 | :-------- | :------------- |
 | ĉ         | Multi‎ߺ‎key ^ c  |
 | Ĉ         | Multi‎ߺ‎key ^ C  |
@@ -91,7 +91,7 @@ Jen la tabuleto kiu la kombinadojn por la esperantaj karakteroj listigas.
 <a name="modeswitch"></a>Mode‎ߺ‎switch
 ------------------------------------
 
-Pli rapida kaj pli facila manieroj por esperantajn karakterojn enigi estas per la uzo de la
+Pli rapida kaj pli facila manieroj por esperantajn signojn enigi estas per la uzo de la
 *Mode‎ߺ‎switch* klavo. Similas al *Multi‎ߺ‎key* klavon oni devas asigni al ĝi. Du klavojn mi ŝatas bindi
 por tiu celo por ke per du manojn mi povu tajpi. Male al *Multi‎ߺ‎key*, ĝin oni devas premi kaj
 teni kiel la <kbd>Shift</kbd> aŭ <kbd>Ctrl</kbd> klavoj.
@@ -157,8 +157,8 @@ keycode 107 = Mode‎ߺ‎switch
 <a name="finrimarkoj"></a>Finrimarkoj
 -------------------------------------
 
-Ambaŭ resumitaj metodoj supre, faras pli ol esperantajn karakterojn montri. Pliartifikajn signojn
-kaj karakterojn *Multi‎ߺ‎key* sistemo povas enigi. Por la plenan liston de karakteroj, la jenan komandon
+Ambaŭ resumitaj metodoj supre, faras pli ol esperantajn signojn montri. Pliartifikajn signojn
+kaj signojn *Multi‎ߺ‎key* sistemo povas enigi. Por la plenan liston de signoj, la jenan komandon
 kuru se oni estas en kutimaj linuksaj sistemoj:
 
     less /usr/share/X11/locale/en_US.UTF-8/Compose
@@ -168,7 +168,7 @@ Se je Nix oni uzas, kuru:
     less ~/.nix-profile/share/X11/locale/en_US.UTF-8/Compose
 
 Male al tio, la avantaĝo de la *Mode‎ߺ‎switch*-metodo estas rapideco. Por la tutan liston de validaj
-karakterojn vidi [ĉi tien](http://wiki.linuxquestions.org/wiki/List_of_Keysyms_Recognised_by_Xmodmap)
+signojn vidi [ĉi tien](http://wiki.linuxquestions.org/wiki/List_of_Keysyms_Recognised_by_Xmodmap)
 iru.
 
 Ne ekzistas la plej bona metodo por ĉi tiuj aferoj—kiun ajn oportunan sistemon uzu. Se la
