@@ -9,7 +9,7 @@ OG_BILDO="https://ebzzry.io/static/ico/android-chrome-512x512.png"
 ANALITIKOJ="93746003-1"
 
 all:
-	parallel --will-cite "$(MAKE) {/.}.html" ::: $(DOSIEROJ)
+	parallel "$(MAKE) {/.}.html" ::: $(DOSIEROJ)
 	$(KONSTRUILO) -D "A journal about computing, human predilections, and random krakaboom." -K "ebzzry, rommel martinez" --og-title "The Musings of a Pedant" --og-type $(OG_TIPO) --og-url "https://ebzzry.io/en/" --og-image $(OG_BILDO) --analytics $(ANALITIKOJ) --lang "en" -RFiamuo index.html fkd/index.md fkd/footer.md
 
 %.html: fkd/%.md

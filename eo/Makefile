@@ -9,7 +9,7 @@ OG_BILDO="https://ebzzry.io/static/ico/android-chrome-512x512.png"
 ANALITIKOJ="93746003-1"
 
 all:
-	parallel --will-cite "$(MAKE) {/.}.html" ::: $(DOSIEROJ)
+	parallel "$(MAKE) {/.}.html" ::: $(DOSIEROJ)
 	$(KONSTRUILO) -D "Retejo pri komputiko, hominklinoj, kaj hazardaĵoj." -K "ebzzry, rommel martinez" --og-title "La Pensoj de Pedanto" --og-type $(OG_TIPO) --og-url "https://ebzzry.io/eo/" --og-image $(OG_BILDO) --analytics $(ANALITIKOJ) --lang "eo" -RFiamuo index.html fkd/index.md fkd/pagxopiedo.md
 
 %.html: fkd/%.md
