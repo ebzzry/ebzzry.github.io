@@ -35,7 +35,7 @@
   fi
 }
 </code></pre><p>The command <code>command</code> ensures that I am calling the system binary <code>rm</code> instead of any shell alias or function.</p><h3><a name="rm_plus">rm+</a></h3><p>When I want to quickly remove a tree containing a lot of files and directories, I use the <code>parallel</code> command to run the deletions in parallel, instead of serially. I have a helper function defined as:</p><pre><code class="bash">function rm+ &#40;&#41; {
-  parallel --will-cite 'rm -rf {}' ::: $@
+  parallel 'rm -rf {}' ::: $@
 }
 </code></pre><p>Consult your package management system on how to install <code>parallel</code>.</p><h3><a name="rm_at">rm@</a></h3><p>From time to time, I need to delete a file or directory without the chances of recovery. For that I use the <code>shred</code> command. I have a helper function defined as:</p><pre><code class="bash">function rm@ &#40;&#41; {
   if &#91;&#91; -d $1 &#93;&#93;; then
@@ -155,7 +155,7 @@ function rm! &#40;&#41; {
 }
 
 function rm+ &#40;&#41; {
-  parallel --will-cite 'rm -rf {}' ::: $@
+  parallel 'rm -rf {}' ::: $@
 }
 
 function rm@ &#40;&#41; {
