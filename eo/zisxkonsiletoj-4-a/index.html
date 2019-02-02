@@ -35,7 +35,7 @@
   fi
 }
 </code></pre><p>La komando <code>commando</code> certigas, ke la sistemduumdosieron <code>rm</code> mi alvokas anstataŭ ia ŝela alinomo aŭ funkcio.</p><h3><a name="rm_pluso"></a>rm+</h3><p>Kiam arbon kiu multe da dosiero kaj dosierujo havas mi volas rapide forviŝi, la komandon <code>parallel</code> mi uzas por la forviŝadon kurigi paralele, anstataŭ serie. Ĝi estas difinita jene:</p><pre><code class="bash">function rm+ &#40;&#41; {
-  parallel --will-cite 'rm -rf {}' ::: $@
+  parallel 'rm -rf {}' ::: $@
 }
 </code></pre><p>La pakmastrumilon de la sistemo kontrolu kiel je <code>parallel</code> instali.</p><h3><a name="rm_heliko"></a>rm@</h3><p>Kelkfoje, dosieron aŭ dosierujon mi bezonas forviŝi sen la ŝancoj de retrovado. Por tion fari, la komandon <code>shred</code> mi uzas. Ĝi estas difinita jene:</p><pre><code class="bash">function rm@ &#40;&#41; {
   if &#91;&#91; -d $1 &#93;&#93;; then
@@ -156,7 +156,7 @@ function rm! &#40;&#41; {
 }
 
 function rm+ &#40;&#41; {
-  parallel --will-cite 'rm -rf {}' ::: $@
+  parallel 'rm -rf {}' ::: $@
 }
 
 function rm@ &#40;&#41; {

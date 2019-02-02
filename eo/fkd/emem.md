@@ -182,7 +182,7 @@ senornaman eligon munti en senpaŭza reĝimo:
     $ emem -Rpc MINLEGU.md
 
 Ŝanĝojn al `MINLEGU.md` emem kontrolas po 200 ms. Se ŝanĝo estis eltrovita, la `MINLEGU.html` dosieron
-ĝi remuntas. La tempolimo inter kontroloj povas esti ŝanĝita per la `-t` opcio. Por unu minutan
+ĝi rekunmetas. La tempolimo inter kontroloj povas esti ŝanĝita per la `-t` opcio. Por unu minutan
 tempolimon precizigi:
 
     $ emem -Rpc -t 1000 MINLEGU.md
