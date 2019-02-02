@@ -3,7 +3,7 @@ Milda Enkonduko al la Nix-Familio
 
 <div class="center">Esperanto · [English](/en/nix/)</div>
 <div class="center">la 5-an de aŭgusto 2018</div>
-<div class="center">Laste ĝisdatigita: la 30-an de septembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 2-an de februaro 2019</div>
 
 >Ne maltrankviliĝu pri tio, kion la aliaj faros. La plej bona maniero por la estontecon antaŭdiri
 >estas per tion eltrovi.<br>
@@ -330,7 +330,7 @@ Post kiam la instalo finiĝis, la sistemon repraŝarĝu.
 ### <a name="nixosagordajxo"></a>Agordaĵo
 
 Instalinte, la ekzistantan agordaĵon ĝisdatigi facilas. Ĉio kion oni devas fari estas la
-agorddosieron redakti tiam la sistemon remuntu:
+agorddosieron redakti tiam la sistemon rekunmetu:
 
     # nano /etc/nixos/configuration.nix
     # nixos-rebuild switch
@@ -1303,7 +1303,7 @@ simbolligilon de `/nix/store` al `~/.nix-profile/`, la operacio kiu ĝin dispone
 sistemo kreas. La kreado de simbolligiloj en linukso kaj makintoŝo estas aŭ sukcesa aŭ ne.
 
 Sur NixOS, la kanalo uzita de la ĉefuzanto estas grava tial, ke ĝi estas la tiu, kiun oni uzas kiam
-la sistemon remunti per `nixos-rebuild switch` post ŝanĝoj al `/etc/nixos/configuration.nix` estas
+la sistemon rekunmeti per `nixos-rebuild switch` post ŝanĝoj al `/etc/nixos/configuration.nix` estas
 faritaj. Por certigi, ke la pravan kanalon oni uzas, ĝin listigu per:
 
     $ sudo nix-channel --list
