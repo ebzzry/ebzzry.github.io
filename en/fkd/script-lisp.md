@@ -3,7 +3,7 @@ Scripting in Common Lisp
 
 <div class="center">[Esperanto](/eo/lispon-skripti/) · English</div>
 <div class="center">July 5, 2017</div>
-<div class="center">Last updated: January 31, 2019</div>
+<div class="center">Last updated: February 2, 2019</div>
 
 >The light that burns twice as bright burns half as long.<br>
 >―Dr. Eldon Tyrell, Blade Runner (1982)
@@ -400,7 +400,7 @@ the command. So inside `EXPORTING-DEFINITIONS`, you can’t have something like 
 ```lisp
 (exporting-definitions
   (defun t (&rest args)
-    (run/i `(terminator ,@args)`)))
+    (run/i `(urxvt ,@args)`)))
 ```
 
 If you do, and try to compile the file, your CL implementation will complain about a name that is
