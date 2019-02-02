@@ -375,7 +375,7 @@ Tiam je `apps.lisp` ni plenigu:
 (register-commands :scripts/apps)
 ```
 
-Tiam je *my-scripts* ni remuntu:
+Tiam je *my-scripts* ni rekunmetu:
 
 ```bash
 $ make install
