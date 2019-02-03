@@ -3,7 +3,7 @@ Ziŝkonsiletoj 1-a: Alinomoj kaj Funkcioj
 
 <div class="center">Esperanto · [English](/en/zsh-tips-1/)</div>
 <div class="center">la 26-an de septembro 2018</div>
-<div class="center">Laste ĝisdatigita: la 26-an de septembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 3-an de februaro 2019</div>
 
 >Malsaĝulo miras je nekutimajn aferojn. Ŝagulo miras je la kutimajn aferojn.<br>
 >―Konfuceo
@@ -66,7 +66,7 @@ funckiojn povas fari pli ol anstataŭigon. Ekzemple, en la jena alinomo:
 tekstan anstataŭigon nur faras. Tio estas, kiam la tekston `hundo` ziŝo trafas kiel la unua ero de la
 komandlinio, ĝin ĝi anstataŭigas per `echo hundo`. Nenio plu. Do, kurigante jene:
 
-    ve hundo
+    ve
 
 fariĝas
 
@@ -237,3 +237,5 @@ funs=(
 Komandojn grupigi tiel la procedon por novajn erojn aldoni kaj forigi plifaciligas. Ĉion porti en
 unu kunfandita loko la agorddosieron igas aserteble pura. Por la restantajn difinojn iru
 [ĉi tien](https://github.com/ebzzry/dotfiles/tree/master/zsh).
+
+_Dankon al [Jakub JAREŠ](https://github.com/nohwnd) pro la korektoj._

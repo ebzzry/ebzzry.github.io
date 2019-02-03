@@ -4,7 +4,7 @@ Zsh Tips 1: Aliases and Functions
 
 <div class="center">[Esperanto](/eo/zisxkonsiletoj-1-a/) · English</div>
 <div class="center">October 18, 2017</div>
-<div class="center">Last updated: Septembro 26, 2018</div>
+<div class="center">Last updated: February 3, 2019</div>
 
 >A common man marvels at uncommon things; a wise man marvels at the commonplace.<br>
 >―Confucius
@@ -67,7 +67,7 @@ substitution. For example, an alias like the following:
 simply performs text substitution. That is, when Zsh encounters the text `foo` as the first token of
 the command line, it replaces it with `echo foo`. Nothing more. So, running:
 
-    meh foo
+    meh
 
 substitutes to
 
@@ -238,3 +238,5 @@ funs=(
 Grouping commands this way makes it significantly easier to add and remove items. Bring them all
 in one consolidated place also makes your config file arguably cleaner. For the rest of the
 definitions, visit the repo [here](https://github.com/ebzzry/dotfiles/tree/master/zsh).
+
+_Thanks to [Jakub Jareš](https://github.com/nohwnd) for the corrections._
