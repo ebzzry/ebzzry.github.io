@@ -3,7 +3,7 @@ Supre, Malsupre, kaj Aliloke
 
 <div class="center">Esperanto · [English](/en/over-under/)</div>
 <div class="center">la 2-an de decembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 29-an de januaro 2019</div>
+<div class="center">Laste ĝisdatigita: la 3-an de februaro 2019</div>
 
 >La nuraj limoj kiujn oni havas, estas la limoj kiujn oni kredas.<br>
 >―Wayne DYER
@@ -19,12 +19,12 @@ probablon ke kiun ni trovas, estas ja sur nia orelo. Nia kapablo por eksigi idea
 staras antaŭ ni, estas ŝoke. Kial ni bezonas fosi subteran subtervojon por enigi, kiam ĉio kiun ni
 bezonas, estas frapi ĉe la pordo?
 
-Estas tre zorgige ke ni nepravigeble pozicias nin mem por neproteste akcepti konceptojn, nur tial ke
-ni estis diritaj por asimiligi ilin. Ni kredas ilin kiel veroj sen fari la plej minimuman progreson
-por supozi, ke tio, kion vi ĵus aŭdis, estas senerara. Ankaŭ estas maltrankvilige, ke por la multaj
-homoj, se ne plimulta, ili ja kredas tion, kion ili estis dirata, kiel estas, anstataŭ esti
-kritikanta per alti iliajn manojn por demandi pri la eble dubemaj pretendoj. Kiam ni diras jes, sen
-doni la plej malgrandan kvanton de penso, ni efektive kovris nin mem per kuseno kiel nubo, kiuj
+Estas tre zorgige ke ni nepravigeble pozicias nin mem por neproteste akcepti konceptojn, nur pro
+tio, ke ni estis diritaj por asimiligi ilin. Ni kredas ilin kiel veroj sen fari la plej minimuman
+progreson por supozi, ke tio, kion vi ĵus aŭdis, estas senerara. Ankaŭ estas maltrankvilige, ke por
+la multaj homoj, se ne plimulta, ili ja kredas tion, kion ili estis dirata, kiel estas, anstataŭ
+esti kritikanta per alti iliajn manojn por demandi pri la eble dubemaj pretendoj. Kiam ni diras jes,
+sen doni la plej malgrandan kvanton de penso, ni efektive kovris nin mem per kuseno kiel nubo, kiuj
 dum faras ĉion tuj apuda el via ĉiela haŭto, ni malatentas ĉasi la intelektan sekurecon kaj ni donas
 al ni mem-aprobitajn paraŝutojn.
 
