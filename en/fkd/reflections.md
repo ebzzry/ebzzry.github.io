@@ -3,7 +3,7 @@ Reflections
 
 <div class="center">[Esperanto](/eo/pripensoj/) · English</div>
 <div class="center">November 24, 2015</div>
-<div class="center">Last updated: January 28, 2019</div>
+<div class="center">Last updated: February 3, 2019</div>
 
 This page contains contains some of my personal reflections. Entries are sorted in chronological order.
 
@@ -329,3 +329,8 @@ This page contains contains some of my personal reflections. Entries are sorted 
 
 - One of the things that continually disturbs me is, that I am ignorant of many
   things. Additionally, of all those things, I am most ignorant of reality.<br>
+
+
+- It is futile to think how you can fly like a falcon if you are an
+  orca. Instead, it is far better to aim how you can become a stronger
+  orca.<br>

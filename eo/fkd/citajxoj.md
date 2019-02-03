@@ -3,7 +3,7 @@ Citaĵoj
 
 <div class="center">Esperanto · [English](/en/quotes/)</div>
 <div class="center">la 15-an de novembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 22-an de januaro 2019</div>
+<div class="center">Laste ĝisdatigita: la 3-an de februaro 2019</div>
 
 Ĉi tiu paĝo enhavas liston de atenteme elektitaj citaĵoj, aforismoj, kaj sentencoj kiujn mi kolektis
 tra la jarojn.
@@ -760,3 +760,13 @@ tra la jarojn.
 
 - Ion ajn mi ne diros kiu ne povas elteni kiel la lasta kion mi iam ajn diros.<br>
   ―Aŭŝvica postvivanto de Benjamin ZANDER
+
+
+- Unu el la aferoj kiun ni scias pri komparo: ke, kiam ajn iun aferon ni
+  komparu al la alia, ŝanĝiĝas ĝia valoro.<br>
+  ―Dan GILBERT
+
+
+- Oportunecaj kostoj depreni el la kontento kiun ni akiras el nia elekto, eĉ
+  elstaras tiuj elektoj.<br>
+  ―Barry SCHWARTZ
