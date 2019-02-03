@@ -3,9 +3,9 @@ Retpoŝton Agordi per Emakso
 
 <div class="center">Esperanto · [English](/en/emacs-mail/)</div>
 <div class="center">la 14-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 28-an de januaro 2019</div>
+<div class="center">Laste ĝisdatigita: la 3-an de februaro 2019</div>
 
->Nur tial ke ne fariĝis, ne signifas, ke ne fareblas. Nur tial ke fareblas, ne
+>Nur pro tio, ke ne fariĝis, ne signifas, ke ne fareblas. Nur pro tio, ke fareblas, ne
 >signifas, ke devus.<br>
 >―Barry GLASFORD
 
