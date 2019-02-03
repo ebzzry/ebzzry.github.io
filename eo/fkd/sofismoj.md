@@ -3,7 +3,7 @@ Milda Enkonduko al Sofismoj
 
 <div class="center">Esperanto · [English](/en/fallacies/)</div>
 <div class="center">la 29-an de julio 2018</div>
-<div class="center">Laste ĝisdatigita: la 28-an de septembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 3-an de februaro 2019</div>
 
 >Lerni ne necesas; nek travivas.<br>
 >―W. Edwards DEMING
@@ -161,7 +161,7 @@ tirita el specimeno kiu ne estas sufiĉe granda.
 > “En mia junaĝo mi estis seksume fitraktita per samseksemulo. Tiel, samseksemuloj estas fiaj
 > kreaĵoj, kaj ili devas ponotaj.”
 
-La parolanto supozis, ke nur tial, ke tian okazaĵon ĝi spertis en ria vivo antaŭe, ĝi konkludis, ke
+La parolanto supozis, ke nur pro tio, ke tian okazaĵon ĝi spertis en ria vivo antaŭe, ĝi konkludis, ke
 ĉiuj samseksemuloj malnoblas, kaj ili devas traktitaj per malestimo kaj naŭzo.
 
 
@@ -244,8 +244,8 @@ ofte rimarkitas en merkatado kaj reklamado.
 > “Niaj novaj kaj plibonigitaj Super Eferveska Lavpulvoro Z lavas makulojn pli bonas ol la gvidaj
 > produktaĵoj.”
 
-Ĉi tio malsukcese diras kial iliaj produktaĵoj pli bonas ol la aliaj. Nur tial, ke io malnovas
-aŭ novas ne signifas, ke ĝi pli bonas.
+Ĉi tio malsukcese diras kial iliaj produktaĵoj pli bonas ol la aliaj. Nur pro tio, ke io malnovas aŭ
+novas ne signifas, ke ĝi pli bonas.
 
 
 <a name="servodauxro"></a>Apelo al servodaŭro
