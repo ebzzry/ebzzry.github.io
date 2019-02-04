@@ -3,7 +3,7 @@ Ziŝkonsiletoj 1-a: Alinomoj kaj Funkcioj
 
 <div class="center">Esperanto · [English](/en/zsh-tips-1/)</div>
 <div class="center">la 26-an de septembro 2018</div>
-<div class="center">Laste ĝisdatigita: la 3-an de februaro 2019</div>
+<div class="center">Laste ĝisdatigita: la 4-an de februaro 2019</div>
 
 >Malsaĝulo miras je nekutimajn aferojn. Ŝagulo miras je la kutimajn aferojn.<br>
 >―Konfuceo

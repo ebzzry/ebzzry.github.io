@@ -3,18 +3,18 @@ Blogi per Frog
 
 <div class="center">Esperanto · [English](/en/frog/)</div>
 <div class="center">la 16-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 28-an de januaro 2019</div>
+<div class="center">Laste ĝisdatigita: la 4-an de februaro 2019</div>
 
 >Unu persono kun ardo pli bonas ol kvardek personoj nure interesataj.<br>
 >―E.M. FORSTER
 
 Kiam eldoni blogan enhavon al la TTT, la plejmulto da homoj kondifus antaŭkreitajn servojn, kiuj
-faras la grandparton de la laboro. Tamen, estas okazoj kiam oni volas havi pli da rego sur siaj
+faras la grandparton de la laboro. Tamen, estas okazoj kiam oni volas havi pli da rego sur ĝiaj
 aĵoj. Bona ekzemplo de tio, estas la limigoj, kiujn provizantoj efikigas. Alia afero estas la ĉeesto
 de reklamoj aŭ la uzado de [parte senpagaj](https://en.wikipedia.org/wiki/Freemium) servoj—komence
 liberaj servoj, tiam mono bezonatas por aldonaj servoj.
 
-Eble oni disputas, ke ĉiuj, kiujn si bezonas estas platformo por blogi, kaj si ne bezonas la plian
+Eble oni disputas, ke ĉiuj, kiujn ĝi bezonas estas platformo por blogi, kaj ĝi ne bezonas la plian
 flekson. Estas bonfarte por iuj. Tamen multe da homo volas liberiĝi el la katenoj. Mi ne volas
 vidi reklamojn sur mia retejo. Mi ne volas surprizajn cenzuradojn. Mi volas liberon. Do, se oni
 estas kiel mi, daŭru legi.
@@ -48,7 +48,7 @@ aspekto. Bonŝance, mi trovis je [Frog](https://github.com/greghendershott/frog)
 [#racket](https://kiwiirc.com/client/irc.freenode.net/#racket).
 
 Frog en laikoterminoj, estas retejokreilo, kiu estas tiel facila uzi, agordi, kaj tajlori. Kio
-ajn oni skribas aperos sur ĝi kiel si anticipas. Nek estas bizaraj kondiĉoj de uzado, nek
+ajn oni skribas aperos sur ĝi kiel oni anticipas. Nek estas bizaraj kondiĉoj de uzado, nek
 arbitraj limigoj, nek trudoj—tre proksimas al tuta rego, en la pinto de la fingropintoj.
 
 Frog operacias ie en la mezo de jena spektro:
@@ -56,7 +56,7 @@ Frog operacias ie en la mezo de jena spektro:
     Krudenhavo → Frog → HTML
 
 En kiu, krudenhavo estas aŭ Markdown, Scribble, aŭ HTML-fontdosieroj, aŭ kombinado de ĉio. Frog
-konsumas tiujn enigdosierojn, kiam si eligas agrablajn HTML-dosierojn, kiuj oni povas alŝuti al
+konsumas tiujn enigdosierojn, kiam ĝi eligas agrablajn HTML-dosierojn, kiuj oni povas alŝuti al
 sia TTT-servilo. Ĉu facilas? Ne, pli facilas ol sonas.
 
 
@@ -235,7 +235,7 @@ afiŝoj. Malfermu la dosieron `_src/page-template.html`, troveblas en la aktuala
 
 Oni vidos eĉ pli grandan dosieron, kontraste kun .frogrc. Ĉi tiu apartas HTML-dosiero, kiu enhavas
 Rakidan kaj Frog-specifajn kodojn. Estos uzata kiel bazo por ĉiuj paĝoj. Ekzistas multe da
-parametroj ĉi tie, tamen oni ŝanĝos nur iujn, kiuj estas plej utilaj por si ĉi-momente. Por fari ĝin
+parametroj ĉi tie, tamen oni ŝanĝos nur iujn, kiuj estas plej utilaj por ĝi ĉi-momente. Por fari ĝin
 pli facile, mi simple listigos la erojn por serĉi kaj anstataŭigi:
 
 - `The Unknown Blogger`
@@ -338,7 +338,7 @@ servilo. En ĉi tiu gvidilo, estas la dosierujo `/home/vakelo/blogo`. Se la aktu
 Anstataŭigu `public_html` per la ĝusta defora dosierujo.
 
 Tamen, se oni ne havas deforan gastigkomputilo kaj vi uzas je [Git](https://git-scm.com), oni povas
-uzi la liberan gastigservon de [GitHub Pages](https://pages.github.com). Se oni ne havas GitHub-konton, si povas iri al [GitHub](https://github.com) por krei tiun. Por uzi je GitHub Pages, kreu
+uzi la liberan gastigservon de [GitHub Pages](https://pages.github.com). Se oni ne havas GitHub-konton, oni povas iri al [GitHub](https://github.com) por krei tiun. Por uzi je GitHub Pages, kreu
 deponejon nomiĝas `UZANTNOMO.github.io`. Se la uzantnomo estas `vakelo`, la deponejo kiun oni
 bezonas krei devas nomita `vakelo.github.io`.
 

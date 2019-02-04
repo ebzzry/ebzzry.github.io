@@ -3,21 +3,21 @@ Retpoŝton Agordi per Emakso
 
 <div class="center">Esperanto · [English](/en/emacs-mail/)</div>
 <div class="center">la 14-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 3-an de februaro 2019</div>
+<div class="center">Laste ĝisdatigita: la 4-an de februaro 2019</div>
 
 >Nur pro tio, ke ne fariĝis, ne signifas, ke ne fareblas. Nur pro tio, ke fareblas, ne
 >signifas, ke devus.<br>
 >―Barry GLASFORD
 
 Nunatempe kontroli retpoŝton postulas onin por iri al la retejo de sia provizanto, aŭ uzi
-poŝkomputilapon. Tamen, estas kazoj kiam oni volas havi pli da rego sur siaj mesaĝoj, precipe kiam
-la kapablo kiun si volas, ne haveblas en la plimultaj opcioj.
+poŝkomputilapon. Tamen, estas kazoj kiam oni volas havi pli da rego sur ĝiaj mesaĝoj, precipe kiam
+la kapablo kiun ĝi volas, ne haveblas en la plimultaj opcioj.
 
 Emakso disponigas pletorajn manierojn (Gnus, Wanderlust, VM, ktp.) de sendi kaj ricevi la retpoŝton. En ĉi
 tiu afiŝo, mi parolos pri [getmail](http://pyropus.ca/software/getmail/),
 [mu](http://www.djcbsoftware.nl/code/mu/), kaj [mu4e](http://www.djcbsoftware.nl/code/mu/mu4e.html),
 kaj kiel agordi ilin ĝuste. En ĉi tiu lernilo, mi supozas, ke oni akiras siajn mesaĝojn
-[Gmail-e](https://gmail.com) per ĝia IMAP-interfacio.
+per [Gmail](https://gmail.com) kaj ĝia IMAP-interfacio.
 
 
 <a name="et"></a>Enhavotabelo
@@ -38,8 +38,8 @@ kaj kiel agordi ilin ĝuste. En ĉi tiu lernilo, mi supozas, ke oni akiras siajn
 <a name="elsxuti"></a>Elŝuti mesaĝojn
 -------------------------------------
 
-Oni bezonas havi manieron por elŝuti siajn retpoŝtojn, el sia retpoŝtservilo. Facile uzebla
-programo, kiu faras tion al si, estas [getmail](http://pyropus.ca/software/getmail/).
+Oni bezonas havi manieron por elŝuti la retpoŝtojn, el retpoŝtservilo. Facile uzebla
+programo, kiu faras tion, estas [getmail](http://pyropus.ca/software/getmail/).
 
 
 ### <a name="elsxutiinstalo"></a>Instalo
@@ -60,7 +60,7 @@ Tamen, se onia sistemo ne disponigas manieron por facile instali je getmail, oni
 
 ### <a name="elsxutiagordo"></a>Agordo
 
-Sekve, oni bezonas fari sorĉon, por ke getmail sciu kiel elŝuti siajn aĵojn. Kreu la dosieron
+Sekve, oni bezonas fari sorĉon, por ke getmail sciu kiel elŝuti la aĵojn. Kreu la dosieron
 `~/.getmail/getmailrc`. Krom tio, oni bezonas krei kaj precizigi kien la mesaĝojn iras:
 
     $ mkdir ~/Maildir
@@ -137,8 +137,8 @@ Kaj cetere, oni bezonas elŝuti je mu4e. Venas kun la fontkodo de mu. Elŝutu ĝ
 
 Ĉi tiu komando kreas `mu/`-dosierujon en la aktuala dosierujo, kiu estas la defaŭlta dosierindiko,
 en kiu, Emakso trovas pravalorizajn dosierojn. Notu, ke la supra gita komando, fakte elŝutas la
-fontkodon de mu, kaj oni fakte povas uzi ĝin por instali je mu. Tamen, tial ke oni jam havas sian
-pako-administrilon, si malatentos tion. Kaj la dosierindiko, en kiu, la `mu/mu4e/`-subdosierujo
+fontkodon de mu, kaj oni fakte povas uzi ĝin por instali je mu. Tamen, ĉar oni jam havas sian
+pako-administrilon, ĝi malatentos tion. Kaj la dosierindiko, en kiu, la `mu/mu4e/`-subdosierujo
 ekzistas de la pako-administrila instalo, malsimilas inter sistemoj. Do, intertempe, oni
 interesitas nur pri la `mu/mu4e/`-subdosierujo.
 
@@ -235,7 +235,7 @@ kampojn kiel `To:`, kaj `Subject:`, tiam sur la mesaĝokorpo, premu:
     M-x ec REv
 
 ĉi tiu komando, etikedos la eliranta poŝto kiel subskribita kaj ĉifrita. Por sendi ĝin, premu
-<kbd>C-c C-c</kbd>. Ĉi tiu komando sekve invitos onin por enigi sian pasfrazon. Ankaŭ demandos onin
+<kbd>C-c C-c</kbd>. Ĉi tiu komando sekve invitos onin por enigi la pasfrazon. Ankaŭ demandos onin
 por plenumigi kelkajn informojn pri la elira retpoŝtservilo (SMTP). La SMTP-servilo de Gmail
 estas `smtp.gmail.com`, tiam uzu `UZANTNOMO@gmail.com` kiam invitita por la uzantnomo. Uzu onian
 kutiman pasvorton, kiam invitita, aŭ enigu onian apspecifan pasvortos, kiel priskribita antaŭe. Ĉi
@@ -245,7 +245,7 @@ Por malĉifri mesaĝon, malfermu la mesaĝon, tiam premu:
 
     M-x dc RET
 
-Ĉi tiu komando invitos onin por eniri sian pasfrazon. Post tio, oni invititos ĉu si volas
+Ĉi tiu komando invitos onin por eniri la pasfrazon. Post tio, oni invitiĝos ĉu ĝi volas
 anstataŭigi la enhavon de la bufro. Diru jes al ĉi tio.
 
 Ĉi tiuj alproksimiĝoj ne malfuŝeblas tial, ke almenaŭ ekzistas du truoj gapas, kiujn oni devas
@@ -254,9 +254,9 @@ konscii pri:
 1. emaksaj sekurkopioj, kaj
 2. mu4e-malnetoj
 
-Pri la antaŭa, kiam oni uzas la sekurkopia facilo de Emakso, aŭ pakaĵo kiel
-[backup-dir](https://www.emacswiki.org/emacs/BackupDirectory), mesaĝoj kiujn si verkas, supozeble
-antaŭ si ĉifras ilin, estos havi malĉifritajn kopiojn sur la loka disko. Pri la lasta, la sama
+Pri la antaŭa, kiam oni uzas la sekurkopian facilon de Emakso, aŭ pakaĵon kiel
+[backup-dir](https://www.emacswiki.org/emacs/BackupDirectory), mesaĝojn kiujn ĝi verkas, supozeble
+antaŭ ĝi ĉifras ilin, estos havi malĉifritajn kopiojn sur la loka disko. Pri la lasta, la sama
 principo aplikatas. Do, estu atenta de ĉi tiuj situacioj, kaj alĝustigetu la agordon kiel necese.
 
 

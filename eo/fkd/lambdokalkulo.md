@@ -3,7 +3,7 @@ Aboco de la Lambdokalkulo
 
 <div class="center">Esperanto · [English](/en/lambda-calculus/)</div>
 <div class="center">la 21-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 28-an de januaro 2019</div>
+<div class="center">Laste ĝisdatigita: la 4-an de februaro 2019</div>
 
 >Oni ne vere komprenas ion krom se oni povas klarigi tion al sia avino.<br>
 >―Alberto EJNŜTEJNO
@@ -73,7 +73,7 @@ devas konsenti al la uzado de la vorto en la limigita konteksto de la uzantoj de
 provas devii el la establiĝita signifo de la vorto, ekzemple, se ni hazarde krei novan difinon de la
 vorto pro kaprico, plej verŝajne ĝi ne akceptitos. Ni bezonas kredi la difinitajn indikitajn
 kaj montritajn signifojn de la vorto, por ke ĝi havu sencon al ni. La samo veras pri la
-lambdokalkulo—ni aŭ akcepti ĉi tiujn aksiomojn kaj operaciu en sia domajno, aŭ ni vivu en
+lambdokalkulo—ni aŭ akcepti ĉi tiujn aksiomojn kaj operaciu en ĝia domajno, aŭ ni vivu en
 Neverlando.
 
 
@@ -112,8 +112,8 @@ aplikata. The `λ` simbolo uzatas anstataŭ alia simbolo pro la kompostada atent
 diskutita [ĉi tie](https://goo.gl/vxMkW4). Do, ne maltrankviliĝu. Oni simple povas uzi ĝin.
 
 Kion sekvas post la `λ` simbolo, antaŭ la `.`, estas la parametro. Teĥnike, povas esti ia
-simbolo. Simple signifas la nomon, kiu povas esti uzita kiam apliki tiun funkcion, por referenci al
-sia argumento.
+simbolo. Simple signifas la nomon, kiu povas esti uzita aplikante tiun funkcion, por referenci al
+ĝia argumento.
 
 La `.` simbolo ĉi tie, estas la apartigilo inter la parametra listo kaj la funkciokorpo. En la
 funkcio `(λx.x)`, la korpo simple estas la simbolo `x`.
