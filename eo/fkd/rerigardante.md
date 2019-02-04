@@ -3,7 +3,7 @@ Rerigardante
 
 <div class="center">Esperanto · [English](/en/retrospect/)</div>
 <div class="center">la 8-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 28-an de septembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 4-an de februaro 2019</div>
 
 >El la militolernejo de la vivo: kion ne detruas min, igas min pli forte.<br>
 >―Friedrich NIETZSCHE
@@ -39,19 +39,19 @@ Me estis tro sciema scii, kio estis ene, malgraŭ admono el mi. Alia sciema anim
 opinion, avizas min, ke tio estis la malĝusta demando por demandi. Ke, mi devus serĉi la ĝustan
 respondon, per mi mem, kvazaŭ provi trovi mian vojon hejmon.
 
-Unufoje, iu frapis la pordon—bedaŭro. Malgraŭ lia ŝajne kompatinda stato, mi ne permesis eniri lin,
-kiel ajn persista li estis. Mi scias, ke la momenton, en kiu mi permesas eniri lin, li tuj bonvene
-sentos por si, kaj komforte sentos ĉirkaŭ la loĝejo, kvazaŭ ĝi apartenas al si. Ĉiufoje li frapis la
-pordon, si demandis ĉu si bonvenas. Mi kuraĝanime diras _“Ne.”_ ĉiufoje. Mi dirus diri al mi, ke se
-mi ne faris tion, mi ne devus sperti la doloron. Tio eraras en multaj manieroj, tial ke, se mi ne
-faris tion, mi ne devus esti tie en la unua okazo, por demandi tiun demandon. La kapablo por diri
-tiun demandon estis atesto por la sperto. Postvivado estas 20/20.
+Unufoje, iu frapis la pordon—estis Bedaŭro. Malgraŭ ĝia ŝajne kompatinda stato, mi ne permesis eniri
+ĝin, kiel ajn persista ĝi estis. Mi scias, ke la momenton, en kiu mi permesas eniri ĝin, ĝi tuj
+bonvene sentos por si mem, kaj komforte sentos ĉirkaŭ la loĝejo, kvazaŭ ĝi apartenas al si
+mem. Ĉiufoje ĝi frapis la pordon, ĝi demandis ĉu ĝi bonvenas. Mi kuraĝanime diras _“Ne.”_
+ĉiufoje. Mi devus diri al mi, ke se mi ne faris tion, mi ne devus sperti la doloron. Tio eraras en
+multaj manieroj tial, ke se mi ne faris tion, mi ne devus esti tie en la unua okazo, por demandi
+tiun demandon. La kapablo por diri tiun demandon estis atesto por la sperto. Postvivado estas 20/20.
 
 Mi ofte aŭdis la frazon _“Vi ne devis doni vian ĉion.”_ Tio eblis funkcii al ili. Tio eblis funkcii
-al iliaj metodoj, tamen nepre por mi. Kial? Tial ke, mi ne povos esplori miajn limojn se estas mi
+al iliaj metodoj, tamen nepre ne por mi. Kial? Tial ke, mi ne povos esplori miajn limojn se estas mi
 mem, kiu metos la limojn, antaŭ ol mi eĉ esploras. Se mi ne ege strebas, mi ne povas iri ien. Mi
-porĉiame enfermitos en la sama loko. Se oni ne donos siajn plej bonajn en ĉiu ŝanco kiun si havos,
-siaj agoj facile falas en la kategorio de duagradeco. Se io valoras fari, valoras fari ĝin tre bone.
+porĉiame enfermitos en la sama loko. Se oni ne donos siajn plej bonajn en ĉiu ŝanco kiun ĝi havos,
+la agoj facile falas en la kategorio de duagradeco. Se io valoras fari, valoras fari ĝin tre bone.
 
 Niaj mensoj reagas al stimuloj, kaj ĉi tio ankaŭ aplikatas al iliaj prikomponantoj, kiel niaj
 bonfartoj kaj pensmaniero. Kiam ni trotrejnas niajn korpojn, plej verŝajne, ili spertos

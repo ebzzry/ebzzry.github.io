@@ -3,7 +3,7 @@ Kiel Komuniki Samkiel Homo
 
 <div class="center">Esperanto · [English](/en/human/)</div>
 <div class="center">la 3-an de aŭgusto 2018</div>
-<div class="center">Laste ĝisdatigita: la 12-an de septembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 4-an de februaro 2019</div>
 
 >La kapablo por paroli ne igas onin saĝa.<br>
 >―Qui-gon JINN
@@ -160,7 +160,7 @@ interezojn konu. La potencon de babilado ne malestimu.
 
 ### Aŭskultu pli
 
-Ne gravas kiel bone ni pensas pri si mem, ni devas alliniiĝi al tiu, kiu komunikas al ni. Kontraŭe,
+Ne gravas kiel bone ni pensas pri ni, ni devas alliniiĝi al tiu, kiu komunikas al ni. Kontraŭe,
 kial partopreni tute, se ni tro okupatas per niaj malhumiloj, ke nur niaj voĉoj ni volas aŭdiĝi. La
 urĝon por maldaŭrigi regu. La interparolon ne forkaptu. Ju pli volecon por aŭskulti oni montras, des
 pli homoj volos ŝati por aŭskulti al oni.

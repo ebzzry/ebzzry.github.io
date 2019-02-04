@@ -3,7 +3,7 @@ Dosierujojn Mastrumi per Emakso
 
 <div class="center">Esperanto · [English](/en/emacs-dired/)</div>
 <div class="center">la 12-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 28-an de januaro 2019</div>
+<div class="center">Laste ĝisdatigita: la 4-an de februaro 2019</div>
 
 >Supozi bonas, tamen eltrovi pli bonas.<br>
 >―Samuel CLEMENS
@@ -45,7 +45,7 @@ drwxr-xr-x 3 vakelo users 4096 Sep 26 17:42 bildoj
 drwxr-xr-x 3 vakelo users 4096 Sep 26 05:39 filmoj
 ```
 
-Bone, nun, ke oni havas ĝin, kion si povas fari per ĝi? Nu, la jena estas mallonga listo de tiuj,
+Bone, nun, ke oni havas ĝin, kion oni povas fari per ĝi? Nu, la jena estas mallonga listo de tiuj,
 kiujn oni bezonas fari per gi. Notu, ke la fulmoklavoj en ĉi tiu artikolo usklecodistingas, krom se
 eksplicite esprimis alie.
 
@@ -89,7 +89,7 @@ sur eroj, por ke oni povu presti la operaciojn en la antaŭa sekcio, sur ili:
 <a name="aliaj"></a>Aliaj komandoj
 ----------------------------------
 
-La jenaj komandoj agas laŭ si mem. Ili operacias sur solaj eroj kaj ili ne uzas markojn. La
+La jenaj komandoj agas laŭ ili mem. Ili operacias sur solaj eroj kaj ili ne uzas markojn. La
 <kbd>w</kbd> komando, tamen, estas escepto.
 
 | Klavo                        | Kion ĝi faras                                |

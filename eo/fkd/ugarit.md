@@ -3,14 +3,14 @@ Sekurkopiojn Krei per Ugarit
 
 <div class="center">Esperanto · [English](/en/ugarit/)</div>
 <div class="center">la 18-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 28-an de januaro 2019</div>
+<div class="center">Laste ĝisdatigita: la 4-an de februaro 2019</div>
 
 >Bona juĝo devenas el sperto, kaj sperto devenas el malbona juĝo.<br>
 >―Fred BROOKS
 
 Kiom da fojoj oni spertis komprenon, post kiam katastrofo okazis? Kiom da fojoj oni diris al si mem,
-ke se si kreis sekurkopiojn de siaj altvaloraj datumoj, oni ne devus esti en tiu terura situacio,
-eltiri sian hararon kiel rabia maniulo?
+ke se oni kreis sekurkopiojn de siaj altvaloraj datumoj, oni ne devus esti en tiu terura situacio,
+eltirante sian hararon kiel rabia maniulo?
 
 Plejmulto da ni jam spertis ĝin—ni perdis niajn altvalorajn dosierojn pro malatentecaj kaŭzoj. Ni
 perdis ilin pro diskkraŝo, datuma putro, sekureca rompo, kaj aliaj kialoj. Tamen se oni kreis
@@ -65,7 +65,7 @@ per la pako-administrilo:
 Se ne haveblas sur la sistemo, oni povas elŝuti gin el
 [code.call-cc.org](https://code.call-cc.org/).
 
-Post kiam Chicken instalitas, ni instalu je Ugarit mem kaj siajn dependecojn:
+Post kiam Chicken instalitas, ni instalu je Ugarit mem kaj ĝiajn dependecojn:
 
     $ chicken-install -s ugarit tiger-hash aes
 
@@ -187,7 +187,7 @@ Extracted festo
 
 ### <a name="eltiri"></a>Rekte eltiri dosierkopiojn
 
-Tamen, se oni konas la ekzaktan dosierindikon de dosiero aŭ dosierujon kiun si volas eltiri, oni
+Tamen, se oni konas la ekzaktan dosierindikon de dosiero aŭ dosierujon kiun ĝi volas eltiri, oni
 povas anstataŭ kuras je Ugarit kun la eltira reĝimo. Por eltiri la dosierujon `festo/` el supre,
 rekte, kuru:
 
@@ -201,7 +201,7 @@ rekte, kuru:
 
 Ugarit ne limigitas krei dosierkopiojn de loka dosiersistemo. Ankaŭ povas uzita krei
 dosierkopiojn de arboj de defora gastiganto muntita loke. Se oni ekzemple havas je
-[SSHFS](https://github.com/libfuse/sshfs)-surmeton, si ankoraŭ povas krei dosierkopion de
+[SSHFS](https://github.com/libfuse/sshfs)-surmeton, ĝi ankoraŭ povas krei dosierkopion de
 tiu, same kiel ia alia loka dosiersistemo.
 
     $ sshfs remotehost:/ ~/mnt/sshfs/remotehost
