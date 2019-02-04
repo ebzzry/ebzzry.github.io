@@ -3,7 +3,7 @@ Milda Enkonduko al Sofismoj
 
 <div class="center">Esperanto · [English](/en/fallacies/)</div>
 <div class="center">la 29-an de julio 2018</div>
-<div class="center">Laste ĝisdatigita: la 3-an de februaro 2019</div>
+<div class="center">Laste ĝisdatigita: la 4-an de februaro 2019</div>
 
 >Lerni ne necesas; nek travivas.<br>
 >―W. Edwards DEMING
@@ -122,8 +122,8 @@ kiel “jes” aŭ “ne.”
 > “Karlo, ĉu vi jam ĉesis trompi vian edzinon?”
 
 Ĉi tio erarigas ĉar la parolanto antaŭsupozas, ke Karlo jam trompis sian edzinon, almenaŭ
-unufoje. Se Karlo respondis per “Jes,” tiam si jam trompis sian edzinon antaŭe, kaj si jam ĉesis. Se
-li respondis per “Ne,” tiam si jam trompis ŝin antaŭe, kaj si ankoraŭ daŭras trompi.
+unufoje. Se Karlo respondis per “Jes,” tiam li jam trompis lian edzinon antaŭe, kaj li jam ĉesis. Se
+li respondis per “Ne,” tiam li jam trompis ŝin antaŭe, kaj li ankoraŭ daŭras trompi.
 
 
 <a name="falsadilemo"></a>Falsa dilemo
@@ -184,7 +184,7 @@ kiujn ĝi ne ankoraŭ vizitis.
 Ĉi tio fifaritas kiam la respondenco por pruvon disponigi ne sidas per persono A, la iu, kiu
 asertojn faras, sed per persono B, por la asertojn de persono A refuti.
 
-> “Ĉar la neekzistecon de granda blato kiu stelojn fekas kaj loĝas ekzate 100.000 lumjaroj for de
+> “Ĉar la neekzistecon de granda blato kiu stelojn fekas kaj loĝas ekzakte 100 000 lumjaroj for de
 > kie mi alfrontas nun oni ne povas pruvi, tial ĝi devas ekzisti.”
 
 Anstataŭ pruvon disponigi al siaj asertoj, la ŝarĝon de pruvo persono A movas al persono B. Ĉar ne

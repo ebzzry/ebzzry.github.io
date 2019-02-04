@@ -3,7 +3,7 @@ Agordi je GPG kaj je SSH en KDE
 
 <div class="center">Esperanto · [English](/en/gsk/)</div>
 <div class="center">la 19-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 28-an de januaro 2019</div>
+<div class="center">Laste ĝisdatigita: la 4-an de februaro 2019</div>
 
 >Ne tute estas grave por prave atingi tion en la unua fojo. Estas vitale grava atingi tion en la
 >lasta tempo.<br>
@@ -49,8 +49,8 @@ Per DNF:
 <a name="ssh"></a>Agordi je SSH
 -------------------------------
 
-Nu, nun oni havas la partojn antaŭ si, estas tempo por munti la komponantojn. La unua afero kiun oni
-bezonas fari—kvankam vere la dosieroj kiun oni bezonas malfermi povas esti farita en ia ordo kiun si
+Nu, nun oni havas la partojn antaŭ ĝi, estas tempo por munti la komponantojn. La unua afero kiun oni
+bezonas fari—kvankam vere la dosieroj kiun oni bezonas malfermi povas esti farita en ia ordo kiun oni
 volas—estas krei siajn sekurŝelajn ŝlosilojn:
 
     $ ssh-keygen -t ed25519
@@ -154,7 +154,7 @@ Malfermu Konsole-fenestron, tiam konektu al la plej ŝatata SSH-servilo:
 
     $ ssh uzanto@deforgastiganto
 
-Aperas pinentry-dialogujo demandi onin por sia pasfrazo. Ĉi tiu pasfrazo estos kaŝmemorigita laŭ
+Aperas pinentry-dialogujo demandi onin por ĝia pasfrazo. Ĉi tiu pasfrazo estos kaŝmemorigita laŭ
 la agordoj en `~/.gnupg/gpg-agent.conf`. Sekvaj SSH-konektaj klopodoj ne plu demandos la
 uzanton por la pasfrazon ene la tempolima periodo:
 

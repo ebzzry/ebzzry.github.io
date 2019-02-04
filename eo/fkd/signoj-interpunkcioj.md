@@ -3,7 +3,7 @@ Signoj kaj Interpunkcioj
 
 <div class="center">Esperanto · [English](/en/symbols-marks/)</div>
 <div class="center">la 16-an de julio 2018</div>
-<div class="center">Laste ĝisdatigita: la 14-an de septembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 4-an de februaro 2019</div>
 
 >Se grandiozon oni volas atingi, konsentojn ĉesu peti.<br>
 >―Eddie COLLA
@@ -11,7 +11,7 @@ Signoj kaj Interpunkcioj
 *[Ĉi tien](/eo/signoj-interpunkcioj-mallongigite/) klaku por la mallongigita versio.*
 
 Rondvojaĝo por kiel la ĝis-strekan (-), unuoblan citilan ('), kaj duoblan citilan (") signojn uzi
-sur la klavaro, kiuj estas pli bone adaptitaj por signajn devojn fari ol siaj malsanaj kuzoj el la
+sur la klavaro, kiuj estas pli bone adaptitaj por signajn devojn fari ol iliaj malsanaj kuzoj el la
 skribmaŝina epoĥo, ĉi tiu mallonga gvidilo donas. Kaj cetere, mi ankaŭ parolos pri la anstataŭigoj
 al ofte uzataj malĝustaj signoj.
 

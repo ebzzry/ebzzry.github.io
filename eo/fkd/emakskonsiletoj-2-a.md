@@ -3,7 +3,7 @@ Emakskonsiletoj 2-a: Seancoj kaj Pakoj
 
 <div class="center">Esperanto · [English](/en/emacs-tips-2/)</div>
 <div class="center">la 20-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 28-an de februaro 2019</div>
+<div class="center">Laste ĝisdatigita: la 4-an de februaro 2019</div>
 
 Ĉi tiu estas la daŭrigo de la serioj pri emaksaj konsiletoj. En ĉi tiu afiŝo, ni esploras seancan
 mastrumadon, pakojn, krommarĝenojn, kaj aliajn malgrandajn agrablajn aferojn.
@@ -153,7 +153,7 @@ Oni nun povas postuli ĝin je sekvajn uzadojn:
 (require 'use-package)
 ```
 
-Por instali `markdown-mode` ekzemple, se eĉ ne jam ekzistas, kaj agordi siajn rilatajn opciojn post
+Por instali `markdown-mode` ekzemple, se eĉ ne jam ekzistas, kaj agordi ĝiajn rilatajn opciojn post
 ŝargi ĝin, havu la jenan:
 
 ```lisp
