@@ -3,7 +3,7 @@ Malŝparitaj Malcedemoj
 
 <div class="center">Esperanto · [English](/en/squandered/)</div>
 <div class="center">la 5-an de decembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 14-an de oktobro 2018</div>
+<div class="center">Laste ĝisdatigita: la 4-an de februaro 2019</div>
 
 >La unua paŝo por iri ien, estas decidi, ke oni ne restos kie oni estas.<br>
 >―J.P. MORGAN
@@ -35,7 +35,7 @@ la strebi de raciigo al niaj nepravigeblaj pravigoj, sed ni same petas raciajn r
 sensacioj.
 
 Niaj propraj antaŭjuĝemoj por atingi la premion, efike haltas nin al fakte atingi ĝin, subfalante al
-la senmemriproĉaj pretendoj de aliaj pri siaj malsukcesoj, fari nin malkleraj de la nevidata
+la senmemriproĉaj pretendoj de aliaj pri iliaj malsukcesoj, fari nin malkleraj de la nevidata
 realaĵo. Kiam la nombro de personoj kiuj alfluas ĉirkaŭ ni, sufiĉe altas, laŭ niaj personaj
 metrikoj, ni malklere infuzas al ni tiu, kiun ili zumas al ni, kaj tiam ni difektas nin kaj sekve
 mortigas la esencon de nia individueco.
@@ -82,7 +82,7 @@ distingencojn kiam fore aspektata?
 pridemandiĝas pri aferoj konsiderataj pli simplas ol gimnaziaj lecionoj. Estas kelkaj aferoj kiuj
 komunas al ni: ni timas vidi kiel socio eble reagas pri niaj agoj, kiel ajn stultaj aŭ gravaj niaj
 agoj povas esti. Tamen, por la pli gravaj aferoj, ni prete miksiĝas tial, ke ni ne volas
-malakcepton. Plejparto da ni feliĉas pensi kaj movi kun la grego, sen ia antaŭzorgo.
+malakcepton. Plejmulto da ni feliĉas pensi kaj movi kun la grego, sen ia antaŭzorgo.
 
 Kiam ni propravole alfiksas al niaj kruroj la pezajn ĉenojn kaj ŝtalpilkojn, ni ne devus anticipi
 por esti kapabla kuri ĉirkaŭ la stadionon facile. Kiam ni kuraĝas esplori nekartografitajn

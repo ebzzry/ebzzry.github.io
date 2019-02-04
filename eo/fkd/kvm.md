@@ -3,7 +3,7 @@ Virtualigado en Linukso per KVM
 
 <div class="center">Esperanto · [English](/en/kvm/)</div>
 <div class="center">la 3-an de marto 2018</div>
-<div class="center">Laste ĝisdatigita: la 28-an de februaro 2019</div>
+<div class="center">Laste ĝisdatigita: la 4-an de februaro 2019</div>
 
 >Se tion oni faras, kion oni ĉiam faras; tion oni akiros, kion oni ĉiam akiras.<br>
 >―Anthony ROBBINS
@@ -81,7 +81,7 @@ komencis subteni. La ekonomiojn de la aliaj virtualigadaj sistemoj menciitaj ĉi
 konkuras.
 
 La opcion de konekti al la gasta maŝina ekrano
-[VNC](https://en.wikipedia.org/wiki/Virtual_Network_Computing)-e aliaj aplikaĵaroj
+per [VNC](https://en.wikipedia.org/wiki/Virtual_Network_Computing) aliaj aplikaĵaroj
 ofertas. Bedaŭrinde, ĝi malrapidas kaj malviglas. La respondtempo teruras. La
 [SPICE](http://www.spice-space.org/)-protokolon uzante, ne nur aferojn ĝi plirapidigas, ankaŭ
 aliajn aferojn ĝi ebligas. Tenu en la kalkulo, ke SPICE ne estas anstataŭaĵo por VNC, anstataŭe, ĝi
@@ -122,7 +122,7 @@ Onin la lasta komando varbas al la KVM-grupo senelsaluti el la seanco.
 
 ### <a name="retkonektado"></a>Retkonektado
 
-[Multajn manierojn](http://wiki.qemu-project.org/Documentation/Networking) de retkonektado agordi
+[Multajn manierojn](http://wiki.qemu-project.org/Documentation/Networking) por retkonektadon agordi
 por siaj gastoj QEMU subtenas, tamen por ĉi tiu afiŝo nur je VDE ni uzos.
 
 Kelkajn komandojn oni devas kuri por la retan medion pretigi. Ideale, la komandojn oni volas

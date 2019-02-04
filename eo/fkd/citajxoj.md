@@ -3,7 +3,7 @@ Citaĵoj
 
 <div class="center">Esperanto · [English](/en/quotes/)</div>
 <div class="center">la 15-an de novembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 3-an de februaro 2019</div>
+<div class="center">Laste ĝisdatigita: la 4-an de februaro 2019</div>
 
 Ĉi tiu paĝo enhavas liston de atenteme elektitaj citaĵoj, aforismoj, kaj sentencoj kiujn mi kolektis
 tra la jarojn.
@@ -307,7 +307,7 @@ tra la jarojn.
   ―Jimmy JOHNSON
 
 
-- Kiam oni falegis antaŭe kaj si postviviĝis, estas tre malmultaj aferoj en la vivo kiuj povas
+- Kiam oni falegis antaŭe kaj ĝi postviviĝis, estas tre malmultaj aferoj en la vivo kiuj povas
   timigi sin.<br>
   ―Sennomo
 
@@ -706,7 +706,7 @@ tra la jarojn.
   ―Chesley SULLENBERGER, Sully (2016)
 
 
-- Vivojn de kvietaj senesperemoj plejparto de homo vivas. Kiu nomiĝas rezigno estas konfirmita
+- Vivojn de kvietaj senesperemoj plejmulto da homo vivas. Kiu nomiĝas rezigno estas konfirmita
   senesperemo.<br>
   ―Henry David THOREAU
 
