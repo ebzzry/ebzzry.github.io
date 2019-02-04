@@ -3,7 +3,7 @@ Milda Enkonduko al la Nix-Familio
 
 <div class="center">Esperanto · [English](/en/nix/)</div>
 <div class="center">la 5-an de aŭgusto 2018</div>
-<div class="center">Laste ĝisdatigita: la 2-an de februaro 2019</div>
+<div class="center">Laste ĝisdatigita: la 4-an de februaro 2019</div>
 
 >Ne maltrankviliĝu pri tio, kion la aliaj faros. La plej bona maniero por la estontecon antaŭdiri
 >estas per tion eltrovi.<br>
@@ -623,8 +623,8 @@ error: syntax error, unexpected '.', at (string):1:1
 
 ### <a name="nixfunkcioj"></a>Funkcioj
 
-Ĉu eĉ ekzistas plezuro se ne estos verbojn por uzi kun ĉi tiuj substantivoj? Similecojn kun aliaj
-lingvoj funkcioj en Nix kunhavas, siajn unikajn trajtojn havante.
+Ĉu eĉ ekzistas plezuro se ne estos verbojn por uzi kun ĉi tiuj substantivoj? Similecojn al aliaj
+lingvoj funkcioj en Nix kunhavas, ĝiajn unikajn trajtojn havante.
 
 Jen la bazformo de funkcio:
 
@@ -963,7 +963,7 @@ Por pakon instali, ekzemple, *emem*—Markdown- al HTML-dosiero konvertilo—per
 
     $ nix-env -f ~/nixpkgs/default.nix -iA emem
 
-Je *emem* ĉi tiu komando elŝutas kun siajn dependecojn, kaj la programon ĝi disponebligas al
+Je *emem* ĉi tiu komando elŝutas kun ĝiajn dependecojn, kaj la programon ĝi disponebligas al
 oni. Por certigi, ke emem estas efektive instalita, kurigu:
 
     $ emem --version
@@ -1522,7 +1522,7 @@ Ekzistas aliaj pakaj mastrumadaj sistemoj kiuj ĉi tiun problemareon ankaŭ prov
 kiujn mi konas estas [AppImage](http://appimage.org/), [Zero Install](http://0install.net/),
 [Snapcraft](https://snapcraft.io/), kaj [Flatpak](http://flatpak.org/).
 
-La [Guix System Distribution (GuixSD)](https://www.gnu.org/software/guix/) estas linukso distribuo
+La [Guix System Distribution (GuixSD)](https://www.gnu.org/software/guix/) estas linuksa distribuo
 kiu estas bazita sur Nix. Je [Guile](https://www.gnu.org/software/guile/) ĝi uzas kiel sia
 API-lingvo. La kerna kontrasto inter GuixSD kaj NixOS, estas, je
 [GNU Shepherd](https://www.gnu.org/software/shepherd/) la tiu uzas anstataŭ systemd; neliberajn

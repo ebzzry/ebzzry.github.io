@@ -3,9 +3,9 @@ In Retrospect
 
 <div class="center">[Esperanto](/eo/rerigardante/) · English</div>
 <div class="center">July 11, 2013</div>
-<div class="center">Last updated: September 24, 2018</div>
+<div class="center">Last updated: Februaro 4, 2019</div>
 
->Out of life's school of war: What does not destroy me, makes me stronger.<br>
+>Out of life's school of war: what does not destroy me, makes me stronger.<br>
 >―Friedrich Nietzsche
 
 I haven’t fully appreciated what those words meant, prior to now. I have learned that aside from
@@ -42,7 +42,7 @@ curious to know, what was in it, despite admonitions to my own self. Another cur
 two cents, advising me that that was the wrong question to ask. That I should seek for the correct
 answer, myself, as if trying to find my own way back home.
 
-At one point, someone knocked on my door—it was regret. Despite his seemingly pitiful state, I
+At one point, someone knocked on my door—it was Regret. Despite his seemingly pitiful state, I
 declined to let him in, no matter how persistent he was. I knew that the moment I let him in, he’d
 feel immediately welcome for himself, and feel comfortable around the place, as if it was his. Every
 time he knocked on my door, he asked if he was welcome. I boldly said _“No.”_, every single time. I
