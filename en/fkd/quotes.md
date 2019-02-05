@@ -3,7 +3,7 @@ Quotes
 
 <div class="center">[Esperanto](/eo/citajxoj/) · English</div>
 <div class="center">August 29, 2015</div>
-<div class="center">Last updated: February 3, 2019</div>
+<div class="center">Last updated: February 5, 2019</div>
 
 This page contains a list of curated quotations, aphorisms, and proverbs that I have collected over
 the years.
@@ -783,3 +783,7 @@ the years.
 - Opportunity costs subtract from the satisfaction we get out of what we choose,
   even when what we choose is terific.<br>
   ―Barry Schwartz
+
+
+- In the country of the blind the one-eyed man is king.<br>
+  ―Erasmus
