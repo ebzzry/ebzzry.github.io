@@ -3,7 +3,7 @@ Citaĵoj
 
 <div class="center">Esperanto · [English](/en/quotes/)</div>
 <div class="center">la 15-an de novembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 5-an de februaro 2019</div>
+<div class="center">Laste ĝisdatigita: la 6-an de februaro 2019</div>
 
 Ĉi tiu paĝo enhavas liston de atenteme elektitaj citaĵoj, aforismoj, kaj sentencoj kiujn mi kolektis
 tra la jarojn.
@@ -774,3 +774,8 @@ tra la jarojn.
 
 - En la lando de la blinduloj, la unuokululo estas la reĝo.<br>
   ―Erasmo<br>
+
+
+- Estas grandegaj nombroj de homoj kiuj engaĝitas en tute ne utilaj aferoj tial, ke ili estas tro
+  kunallogaj kaj la sociaj retoj estas facile operaciitaj.<br>
+  ―Marvin MINSKY
