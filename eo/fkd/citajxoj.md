@@ -3,7 +3,7 @@ Citaĵoj
 
 <div class="center">Esperanto · [English](/en/quotes/)</div>
 <div class="center">la 15-an de novembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 6-an de februaro 2019</div>
+<div class="center">Laste ĝisdatigita: la 7-an de februaro 2019</div>
 
 Ĉi tiu paĝo enhavas liston de atenteme elektitaj citaĵoj, aforismoj, kaj sentencoj kiujn mi kolektis
 tra la jarojn.
@@ -374,7 +374,7 @@ tra la jarojn.
   ―Charles KETTERING
 
 
-- Kaptu fiŝon unufoje. Se ĝi eskapas, estas pli malfacile por kapti sin la duan fojon.<br>
+- Kaptu fiŝon unufoje. Se ĝi eskapas, estas pli malfacile por kapti ĝin la duan fojon.<br>
   ―Will GRAHAM, Hannibal (televida programo)
 
 
