@@ -779,3 +779,8 @@ tra la jarojn.
 - Estas grandegaj nombroj de homoj kiuj engaĝitas en tute ne utilaj aferoj tial, ke ili estas tro
   kunallogaj kaj la sociaj retoj estas facile operaciitaj.<br>
   ―Marvin MINSKY
+
+
+- Malfacilas kelkaj problemoj tial, ke nur terure malsimplas ili. Malfacilas kelkaj problemoj ĉar ne
+  estas en iliaj naturoj por esti solvitaj iel ajn.<br>
+  ―Marvin MINSKY

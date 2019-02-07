@@ -3,7 +3,7 @@ Quotes
 
 <div class="center">[Esperanto](/eo/citajxoj/) · English</div>
 <div class="center">August 29, 2015</div>
-<div class="center">Last updated: February 6, 2019</div>
+<div class="center">Last updated: February 7, 2019</div>
 
 This page contains a list of curated quotations, aphorisms, and proverbs that I have collected over
 the years.
@@ -791,4 +791,9 @@ the years.
 
 - There are huge numbers of people who are getting involved in completely useless things because
   they are so attracted and the social networks are so easy to operate.<br>
+  ―Marvin Minsky
+
+
+- Some problems are hard because they’re just terribly complicated. Some problems are hard just
+  because it’s not in the nature of the thing that it can be done at all.<br>
   ―Marvin Minsky
