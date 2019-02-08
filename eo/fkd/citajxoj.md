@@ -3,7 +3,7 @@ Citaĵoj
 
 <div class="center">Esperanto · [English](/en/quotes/)</div>
 <div class="center">la 15-an de novembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 7-an de februaro 2019</div>
+<div class="center">Laste ĝisdatigita: la 8-an de februaro 2019</div>
 
 Ĉi tiu paĝo enhavas liston de atenteme elektitaj citaĵoj, aforismoj, kaj sentencoj kiujn mi kolektis
 tra la jarojn.
@@ -703,7 +703,7 @@ tra la jarojn.
 
 
 - Ion ajn oni povas atingi, se oni ne hastas.<br>
-  ―Chesley SULLENBERGER, Sully (2016)
+―Chesley SULLENBERGER, Sully 2016
 
 
 - Vivojn de kvietaj senesperemoj plejmulto da homo vivas. Kiu nomiĝas rezigno estas konfirmita
@@ -784,3 +784,8 @@ tra la jarojn.
 - Malfacilas kelkaj problemoj tial, ke nur terure malsimplas ili. Malfacilas kelkaj problemoj ĉar ne
   estas en iliaj naturoj por esti solvitaj iel ajn.<br>
   ―Marvin MINSKY
+
+
+- Kiel la plej brusonojn malplenujoj faras, do la tiuj kun la malplej malgrandsaĝoj estas la plej
+  grandbabiluloj.<br>
+  ―Plato
