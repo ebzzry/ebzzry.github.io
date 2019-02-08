@@ -3,7 +3,7 @@ Quotes
 
 <div class="center">[Esperanto](/eo/citajxoj/) · English</div>
 <div class="center">August 29, 2015</div>
-<div class="center">Last updated: February 7, 2019</div>
+<div class="center">Last updated: February 8, 2019</div>
 
 This page contains a list of curated quotations, aphorisms, and proverbs that I have collected over
 the years.
@@ -797,3 +797,8 @@ the years.
 - Some problems are hard because they’re just terribly complicated. Some problems are hard just
   because it’s not in the nature of the thing that it can be done at all.<br>
   ―Marvin Minsky
+
+
+- As empty vessels make the loudest sounds, so they that have the least wit are the greatest
+  babblers.<br>
+  ―Plato
