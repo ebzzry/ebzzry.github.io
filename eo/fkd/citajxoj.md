@@ -786,6 +786,6 @@ tra la jarojn.
   ―Marvin MINSKY
 
 
-- Kiel la plej brusonojn malplenujoj faras, do la tiuj kun la malplej malgrandsaĝoj estas la plej
+- Kiel la plej brusonojn malplenujoj faras, do la tiuj kun la plej malgrandsaĝoj estas la plej
   grandbabiluloj.<br>
   ―Plato
