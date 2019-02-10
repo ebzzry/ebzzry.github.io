@@ -5,7 +5,7 @@ KONSTRUILO=emem
 
 OG_TITOLO="$$(head -1 $<)"
 OG_TIPO="article"
-OG_BILDO="https://ebzzry.io/images/ico/android-chrome-512x512.png"
+OG_BILDO="https://ebzzry.io/images/ico/bildsimbolo-512x512.png"
 ANALITIKOJ="93746003-1"
 
 all:

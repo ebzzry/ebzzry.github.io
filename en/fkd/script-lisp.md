@@ -3,7 +3,7 @@ Scripting in Common Lisp
 
 <div class="center">[Esperanto](/eo/lispon-skripti/) · English</div>
 <div class="center">July 5, 2017</div>
-<div class="center">Last updated: February 2, 2019</div>
+<div class="center">Last updated: February 10, 2019</div>
 
 >The light that burns twice as bright burns half as long.<br>
 >―Dr. Eldon Tyrell, Blade Runner (1982)
@@ -424,7 +424,7 @@ work on the base specifications. As long as they conform to the standard, things
 scripting. [pelo](https://github.com/zhaqenl/pelo/), a ping wrapper, is also another example that
 uses this facility. I wrote several personal helper
 [scripts](https://github.com/ebzzry/scripts/), that I hooked with my StumpWM
-[config](https://github.com/ebzzry/stumpo/). The code used for this article can be found
+[config](https://github.com/ebzzry/dotfiles/tree/master/stumpwm). The code used for this article can be found
 [here](https://github.com/ebzzry/my-scripts).
 
 The human responsible for making scripting in CL possible and acceptable, is

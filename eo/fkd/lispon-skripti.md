@@ -3,19 +3,20 @@ Skriptado en Komunlispo
 
 <div class="center">Esperanto · [English](/en/script-lisp/)</div>
 <div class="center">la 24-an de septembro 2018</div>
-<div class="center">Laste ĝisdatigita: la 2-an de februaro 2019</div>
+<div class="center">Laste ĝisdatigita: la 10-an de februaro 2019</div>
 
 >La lumo kiu fajras duoble brila, fajras duone longa.<br>
 >―D-ro. Eldon TYRELL, Blade Runner (1982)
 
 <img src="/bil/lisposimbolo.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="common-lisp.net emblemo" title="common-lisp.net emblemo"/>
 
-Plenaj tutaj sistemoj kaj bibliotekoj estas ĉiam komforta areo por komunlispaj uzantoj. Bedaŭrinde,
-de longe, ne ekzistis definitiva solvo en komunlispon uzi kiel skriptada lingvo. Skriptada lingvo,
-en ĉi tiu kunteksto, signifas pri iu, kiu similas anime al komandliniaj ŝeloj—tio estas, iu kiu
-estas uzita por sistemkomandojn mastrumi kaj regi sur la apa nivelo. La signifo ankaŭ etendas al la
-aŭtomacioj de la plenumigado de taskoj kiuj aliamaniere faritaj unu post alia. En ĉi tiu artikolo,
-mallongan enkondukon pri kiel komunlispon uzi en la skriptada areo mi priparolos.
+Plenaj tutaj sistemoj kaj bibliotekoj estas ĉiam komfortaj areoj por komunlispaj
+uzantoj. Bedaŭrinde, de longe, ne ekzistis definitiva solvo en komunlispon uzi kiel skriptada
+lingvo. Skriptada lingvo, en ĉi tiu kunteksto, signifas pri iu, kiu similas anime al komandliniaj
+ŝeloj—tio estas, iu kiu estas uzita por sistemkomandojn mastrumi kaj regi sur la apa nivelo. La
+signifo ankaŭ etendas al la aŭtomacioj de la plenumigado de taskoj kiuj aliamaniere faritaj unu post
+alia. En ĉi tiu artikolo, mallongan enkondukon pri kiel komunlispon uzi en la skriptada areo mi
+priparolos.
 
 
 <a name="et"></a>Enhavotabelo
@@ -416,7 +417,7 @@ aferoj verdas.
 [baf](https://github.com/ebzzry/baf), Nixpkgs- kaj NixOS-helpilo, estas funkcia ekzemplo de komunlispa
 skriptado. [pelo](https://github.com/zhaqenl/pelo/), ping-kovrilo, estas alia ekzemplo, kiu ĉi
 tiun facilon uzas. Kelkajn personajn helpilajn [skriptojn](https://github.com/ebzzry/scripts/) kiujn
-mi kroĉis al mia [StumpWM-agordo](https://github.com/ebzzry/stumpo/) mi skribis. La kodo kiu estis
+mi kroĉis al mia [StumpWM-agordo](https://github.com/ebzzry/dotfiles/tree/master/stumpwm) mi skribis. La kodo kiu estis
 uzita por ĉi tiu artikolo troveblas [ĉi tie](https://github.com/ebzzry/my-scripts).
 
 La priresponda homo por komunlispon igi ebla kaj akceptebla estas
