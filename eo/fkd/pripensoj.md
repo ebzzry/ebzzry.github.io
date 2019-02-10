@@ -3,7 +3,7 @@ Pripensoj
 
 <div class="center">Esperanto · [English](/en/reflections/)</div>
 <div class="center">la 3-an de novembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 3-an de februaro 2019</div>
+<div class="center">Laste ĝisdatigita: la 10-an de februaro 2019</div>
 
 Ĉi tiu paĝo enhavas kelke da miaj propraj pripensoj. Enskriboj ordigatas laŭ kronologiordo.
 
@@ -15,12 +15,12 @@ Pripensoj
 - Scivolemo estas la malamiko de la nescio, la timo, la necerteco, kaj la dubo.<br>
 
 
-- Oraj ŝancoj estas ofte preterlasitaj tial ke ili manteliĝis kun malpuraj vestoj, anstataŭ
-  brilo kaj oro.<br>
+- Oraj ŝancoj estas ofte preterlasitaj tial ke ili manteliĝis kun malpuraj vestoj, anstataŭ brilo
+  kaj oro.<br>
 
 
-- Kiam vi ne donas vian plej bonan, tiam malfavoraj sekvoj aperas, vi scivolos kio okazos se vi donis
-  vian plej bonan.<br>
+- Kiam vi ne donas vian plej bonan, tiam malfavoraj sekvoj aperas, vi scivolos kio okazos se vi
+  donis vian plej bonan.<br>
 
 
 - Kontraŭstaru. Daŭru. Venku.<br>
@@ -80,7 +80,8 @@ Pripensoj
 - Ni pensas kion ni scias.<br>
 
 
-- Kiam la reglamentoj ŝanĝiĝas, ŝanĝiĝu. Se vi nek povas nek volas alaranĝi, ŝanĝu la reglamentojn.<br>
+- Kiam la reglamentoj ŝanĝiĝas, ŝanĝiĝu. Se vi nek povas nek volas alaranĝi, ŝanĝu la
+  reglamentojn.<br>
 
 
 - Diplomatio kiel sekvo de manko de elekto estas tute ne diplomatio.<br>
@@ -132,8 +133,8 @@ Pripensoj
 
 
 - La homoj havas mirindajn povojn por rezisti la eltrovon, la progreson, kaj la novigadon. Ili ofte
-  anoncas siajn povojn por modliĝi kaj ŝanĝi mem. Bedaŭrinde, tiuj aferoj estas nuraj projekciaĵoj de
-  kion ili volas atingi, ne kion ili havas.<br>
+  anoncas siajn povojn por modliĝi kaj ŝanĝi mem. Bedaŭrinde, tiuj aferoj estas nuraj projekciaĵoj
+  de kion ili volas atingi, ne kion ili havas.<br>
 
 
 - Ni estas tiel frenezaj pri niaj celoj, kiam la vera palpebla celo en la vivo estas morteco.<br>
@@ -147,8 +148,8 @@ Pripensoj
   nenion.<br>
 
 
-- Ni ne havis la opcion ĉu ni enboatiĝos aŭ ne. Ni nur trovas nin mem en la mezo de la vojaĝo, post la
-  ŝipo jam foriris la havenon.<br>
+- Ni ne havis la opcion ĉu ni enboatiĝos aŭ ne. Ni nur trovas nin mem en la mezo de la vojaĝo, post
+  la ŝipo jam foriris la havenon.<br>
 
 
 - La sola afero kiu kunligas nin al niaj amatoj estas la memoroj.<br>
@@ -187,10 +188,12 @@ Pripensoj
 - Sciu la laboron kiu pagas viajn fakturojn kaj sciu la laboron kiu difinas vian estontecon.<br>
 
 
-- Gravas ĉio kaj nenio. Signifo estas nia propra elpensaĵo. Ĝi estas klopodo por nian perceptitan ekzistecon kvantigi, kvalitigi, kaj pravigi.<br>
+- Gravas ĉio kaj nenio. Signifo estas nia propra elpensaĵo. Ĝi estas klopodo por nian perceptitan
+  ekzistecon kvantigi, kvalitigi, kaj pravigi.<br>
 
 
-- La kerno de malkovri la estontecon ne estas kiel solvi pli da problemojn; estas kiel malkovri pli da problemojn.<br>
+- La kerno de malkovri la estontecon ne estas kiel solvi pli da problemojn; estas kiel malkovri pli
+  da problemojn.<br>
 
 
 - Ni ne povas solvi tiujn, kiujn ni opinias, ne bezonas solvi.<br>
@@ -210,8 +213,8 @@ Pripensoj
   kondiĉoj. Ĉio dependas de tio.<br>
 
 
-- Malklaras la difino de vivo—nigra truo estas kiel viva tiel bakterio. La atributoj de vivo kiujn ni
-  donintaj al ĝi ege dependas al nia rilato al la vivaĵojn kiujn ni konas.<br>
+- Malklaras la difino de vivo—nigra truo estas kiel viva tiel bakterio. La atributoj de vivo kiujn
+  ni donintaj al ĝi ege dependas al nia rilato al la vivaĵojn kiujn ni konas.<br>
 
 
 - Mi parolas la Ilokan al miaj gepatroj, la Filipinan al miaj kamparanoj, la Anglan al miaj
@@ -227,10 +230,12 @@ Pripensoj
 - La baza ero de la vivo estas agnosko.<br>
 
 
-- La kiomo da energio bezonata por malakcepti estas pli granda ol la kiomo da energio bezonata por akcepti.<br>
+- La kiomo da energio bezonata por malakcepti estas pli granda ol la kiomo da energio bezonata por
+  akcepti.<br>
 
 
-- Ne gravas kiom da trejnado oni ricevas se oni volas naĝi tre profunde en la maro. Pulmojn oni ne povas lerni.<br>
+- Ne gravas kiom da trejnado oni ricevas se oni volas naĝi tre profunde en la maro. Pulmojn oni ne
+  povas lerni.<br>
 
 
 - La pravajn homojn havu.<br>
@@ -305,10 +310,12 @@ Pripensoj
 - La enhavo estas la reĝo; la altempigado estas la reĝino; la substanco estas la dio.<br>
 
 
-- Donacon nur donu se oni certas, ke ĝin la ricevanto meritas. Male, donacon nur ricevu se oni certas, ke ĝin oni meritas.<br>
+- Donacon nur donu se oni certas, ke ĝin la ricevanto meritas. Male, donacon nur ricevu se oni
+  certas, ke ĝin oni meritas.<br>
 
 
-- La kvanto de plezuro kion oni povas doni rekte proporcias al la kvanto de plezuro kion oni povas ricevi.<br>
+- La kvanto de plezuro kion oni povas doni rekte proporcias al la kvanto de plezuro kion oni povas
+  ricevi.<br>
 
 
 - La vera valoro de iu plumo ne estas pri ĝia varmarko; estas pri la tiu, kiu ĝin uzas.<br>
@@ -326,11 +333,13 @@ Pripensoj
 - Dubu; ĉiam dubu.<br>
 
 
-- Unu el la aferoj, kiu konstante kornaŭzas al mi estas, ke mi nescias pri
-  multaj aferoj. Kaj cetere, el ĉiuj de tiuj aferoj, mi estas plej nescia pri la
-  realo.<br>
+- Unu el la aferoj, kiu konstante kornaŭzas al mi estas, ke mi nescias pri multaj aferoj. Kaj
+  cetere, el ĉiuj de tiuj aferoj, mi estas plej nescia pri la realo.<br>
 
 
-- Estas vane por pensi kiel oni povas flugi samkiel falko se oni estas granda
-  orcino. Anstataŭe estas ege pli bone por scii kiel oni iĝas pli forta granda
-  orcino.<br>
+- Estas vane por pensi kiel oni povas flugi samkiel falko se oni estas granda orcino. Anstataŭe
+  estas ege pli bone por scii kiel oni iĝas pli forta granda orcino.<br>
+
+
+- En brua ĉambro, se oni volas esti aŭdota, la momenton atendu en kie ĉiuj jam ĉesis paroli. Tiam
+  parolu. Tiam iĝas aŭdata oni.<br>
