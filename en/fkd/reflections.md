@@ -3,7 +3,7 @@ Reflections
 
 <div class="center">[Esperanto](/eo/pripensoj/) · English</div>
 <div class="center">November 24, 2015</div>
-<div class="center">Last updated: February 3, 2019</div>
+<div class="center">Last updated: February 10, 2019</div>
 
 This page contains contains some of my personal reflections. Entries are sorted in chronological order.
 
@@ -334,3 +334,7 @@ This page contains contains some of my personal reflections. Entries are sorted 
 - It is futile to think how you can fly like a falcon if you are an
   orca. Instead, it is far better to aim how you can become a stronger
   orca.<br>
+
+
+- In a noisy room, if you want to be heard, wait for the moment wherein everyone has stopped
+  talking. Then, speak. Then, one becomes heard.<br>
