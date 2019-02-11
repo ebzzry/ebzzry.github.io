@@ -3,7 +3,7 @@ Symbols and Marks
 
 <div class="center">[Esperanto](/eo/signoj-interpunkcioj/) · English</div>
 <div class="center">April 8, 2016</div>
-<div class="center">Last updated: July 22, 2018</div>
+<div class="center">Last updated: February 11, 2019</div>
 
 >If you want to achieve greatness, stop asking for permission.<br>
 >―Eddie Colla
@@ -222,7 +222,30 @@ This is correct because the right single quote signifies and substitutes “19.�
 write it as “1990s.” Next, is the presence of “s.” This creates an array; 90s here would mean: 90,
 91, 92, 93, 94, 95, 96, 97, 98, and 99—a series.
 
+With that, another common mistake is to use the left single quote instead of the right one:
+
+- Wrong: ‘90s music.
+
 With this in mind, ’90s means the years 1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, and 1999.
+
+When expressing textual omissions, the correct character is the right single quote, not the left one. For example, let’s look at the contraction of “It is” in “It is the season.”
+
+- Wrong: ‘Tis the season.
+- Correct: ’Tis the season.
+
+This also applies to the word “and” contracted to a single letter:
+
+- Wrong: Lock ‘n’ load
+- Correct: Lock ’n’ load
+
+What the quotes substitute are the letters “a” and “d,” respectively.
+
+Use both the left and right single quotes, however, when there are no contractions involved and that
+something is treated specially:
+
+- Take the ‘A’ Train
+
+Here, ‘A’ is the name of a specific train or it denotes a special meaning.
 
 
 <a name="prime"></a>Prime symbols (′) (″)
