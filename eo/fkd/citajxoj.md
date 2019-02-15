@@ -3,7 +3,7 @@ Citaĵoj
 
 <div class="center">Esperanto · [English](/en/quotes/)</div>
 <div class="center">la 15-an de novembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 8-an de februaro 2019</div>
+<div class="center">Laste ĝisdatigita: la 15-an de februaro 2019</div>
 
 Ĉi tiu paĝo enhavas liston de atenteme elektitaj citaĵoj, aforismoj, kaj sentencoj kiujn mi kolektis
 tra la jarojn.
@@ -789,3 +789,7 @@ tra la jarojn.
 - Kiel la plej brusonojn malplenujoj faras, do la tiuj kun la plej malgrandsaĝoj estas la plej
   grandbabiluloj.<br>
   ―Plato
+
+
+- Ne distingeblas kontraste al magio ajne sufiĉe altnivela teĥnologio.<br>
+  ―Arthur C. CLARKE
