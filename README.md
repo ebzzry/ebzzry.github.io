@@ -2,23 +2,22 @@ ebzzry.io ⛲
 ===========
 
 
-Ĉi tiu deponejo enhavas la fontojn de [https://ebzzry.io](ebzzry.io).
+La fontojn de [https://ebzzry.io](ebzzry.io) ĉi tiu deponejo enhavas.
 
 
 Dependencoj
 -----------
 
-* [JRE](http://java.com/download)
-* [emem](https://github.com/ebzzry/emem)
+- [emem](https://github.com/ebzzry/emem)
 
 
 Munti
 -----
 
-Por munti la HTML-ajn dosierojn, kuru la jenan:
+Por la HTML-dosierojn generi, la jenan komandon kurigu:
 
     $ make
 
-Se vi havas ja Nix instalita, vi anstataŭe eblas kuru:
+Se je Nix oni havas, anstataŭe eblas la jenan komandon kurigi:
 
     $ nix-shell --pure --run make
