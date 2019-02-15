@@ -3,9 +3,9 @@ La Pensoj de Pedanto
 
 <div class="center">Esperanto · [English](/en/)</div>
 <div class="center">la 27-an de aprilo 2017</div>
-<div class="center">Laste ĝisdatigita: la 29-an de januaro 2019</div>
+<div class="center">Laste ĝisdatigita: la 15-an de februaro 2019</div>
 
-<img src="/bil/pluvis.jpg" class="banner" alt="pluvis" title="En la vizaĝo de la kosmo, ni ĉiuj estas porĉiame infanoj." />
+<img src="/bil/ora-proporcio.png" class="banner" alt="ora-proporcio" title="En la vizaĝo de la kosmo, ni ĉiuj estas porĉiame infanoj." />
 
 <div class="text-right">Retejo pri komputiko, hominklinaĵoj, kaj hazardaĵoj. La eroj ordigitas laŭ
 inverskronologiordo.</div>
