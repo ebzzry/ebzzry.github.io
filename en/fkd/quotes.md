@@ -3,7 +3,7 @@ Quotes
 
 <div class="center">[Esperanto](/eo/citajxoj/) · English</div>
 <div class="center">August 29, 2015</div>
-<div class="center">Last updated: February 8, 2019</div>
+<div class="center">Last updated: February 15, 2019</div>
 
 This page contains a list of curated quotations, aphorisms, and proverbs that I have collected over
 the years.
@@ -802,3 +802,7 @@ the years.
 - As empty vessels make the loudest sounds, so they that have the least wit are the greatest
   babblers.<br>
   ―Plato
+
+
+- Any sufficiently advanced technology is indistinguishable from magic.<br>
+  ―Arthur C. Clarke
