@@ -3,7 +3,7 @@ Milda Enkonduko al la Nix-Familio
 
 <div class="center">Esperanto · [English](/en/nix/)</div>
 <div class="center">la 5-an de aŭgusto 2018</div>
-<div class="center">Laste ĝisdatigita: la 4-an de februaro 2019</div>
+<div class="center">Laste ĝisdatigita: la 16-an de februaro 2019</div>
 
 >Ne maltrankviliĝu pri tio, kion la aliaj faros. La plej bona maniero por la estontecon antaŭdiri
 >estas per tion eltrovi.<br>
@@ -58,7 +58,7 @@ Enhavotabelo
     * [Kanaloj](#nixpkgskanaloj)
     * [Aliaj komandoj](#nixpkgsaliaj)
   + [Agordaĵo](#nixpkgsagordajxo)
-  + [Kontribuado](#nixpkgskontribuado)
+  + [Kontribui](#nixpkgskontribui)
     * [Ekzistantan pakon ĝisdatigi](#nixpkgsgxisdatigi)
     * [Novan pakon sendi](#nixpkgssendi)
   + [Notoj](#nixpkgsnotoj)
@@ -66,6 +66,9 @@ Enhavotabelo
   + [Sistemmedio](#sistemmedio)
   + [Uzantmedio](#uzantmedio)
   + [Disvolvmedio](#disvolvmedio)
+- [Surmetoj](#surmetoj)
+  + [Transpasoj](#surmetojtranspasoj)
+  + [Novaj pakoj](#surmetojnovajpakoj)
 - [Finrimarkoj](#finrimarkoj)
 - [Bonifiko](#bonifiko)
 
@@ -1063,7 +1066,7 @@ programaroj kiuj malfermitkodajn permesilojn ne havas, aŭ programoj kiu la libe
 ne havas, mi volas esti kapabla por instali
 
 
-### <a name="nixpkgskontribuado"></a>Kontribuado
+### <a name="nixpkgskontribui"></a>Kontribui
 
 La kunlaborada modelo de Nixpkgs restas sur gito kaj GitHub. Por pakon kontributi aŭ ekzistantan
 pakon ĝisdatigi, la [Nixpkgs](https://github.com/nixos/nixpkgs/)-deponejon forku al la propra
@@ -1298,7 +1301,7 @@ Fine, iru al la GitHub-deponeja [paĝo](https://github.com/nixos/nixpkgs), tiam 
 ### <a name="nixpkgsnotoj"></a>Notoj
 
 En ajna punkto dum la instalo de pako, la procezo estas interrompita, la pako ne estos instalita en
-duone bakita stato. La plej lasta paŝo de pakojn instali estas atoma.  La sekreto, estas,
+duone bakita stato. La plej lasta paŝo de pakojn instali estas atoma. La sekreto, estas,
 simbolligilon de `/nix/store` al `~/.nix-profile/`, la operacio kiu ĝin disponebligas al uzanto la
 sistemo kreas. La kreado de simbolligiloj en linukso kaj makintoŝo estas aŭ sukcesa aŭ ne.
 
@@ -1482,6 +1485,138 @@ Por ĉi tiun esprimon manĝigi al nix-shell, ambaŭ je *hello* kaj *emem* uzante
 
 Fortajn abstraktadajn meĥanismojn nix-shell donas al ni kiuj estas rigarditaj tre malfacilaj por
 fari en aliaj aliroj. La determinismajn kvalitojn de Nix ĝi ekspluatas, fortan avantaĝon kreante.
+
+
+<a name="surmetoj"></a> Surmetoj
+--------------------------------
+
+Estos tempoj en kiuj ŝanĝojn al la paksistemo oni devas fari, tamen ne pretas oni por iri tutfreneze
+kaj la gitdeponejon fuŝi. Ankaŭ estos tempoj en kiuj privatan deponejon oni volas havi, sed oni ne
+volas publikiĝi. Onin surmetoj povas helpi pri tio.
+
+Kiel la nomo implicas, la surmeto meĥanismo estas maniero por abstraktan nivelon krei super la
+ekzistantaj esprimoj. Unu uzo estas samkiel benkseĝaron porti por intervjuo—vi ankoraŭ estas vi
+sube, sed draste ŝanĝiĝis via aspekto. Alia uzo samkiel viajn internajn organojn anstataŭigi per la
+kibernetikajn—vi ankoraŭ estas iomete vi, sed draste ŝanĝiĝis pluraj partoj de vi interne. Alia uzado, kiu estas unu el miaj plej ŝatataj, estas novan eston krei el virtuala nenio.
+
+Surmetaj dosieroj estas viaj konataj Nix-esprimoj, per specifa formato. Ili loĝas en
+`~/.config/nixpkgs/overlays/`. Se tiun dosierujon oni ne havas, ĝin oni povas krei per:
+
+    $ mkdir -p ~/.config/nixpkgs/overlays
+
+Miajn surmetajn dosierojn mi strukturas en kiu ĉiu dosiero kongruas al unu pako, kies konduton mi
+volas ŝanĝi.
+
+
+### <a name="surmetojtranspasoj"></a> Transpasoj
+
+Ekzemple, se oni volas certigi ke la dokumentaro por
+[Rakido](https://github.com/NixOS/nixpkgs/blob/master/pkgs/development/interpreters/racket/default.nix)
+estos instalitaj, la dosieron `~/.config/nixpkgs/overlays/racket.nix` kreu per la jena enhavo:
+
+```nix
+self: super: {
+  racket = super.racket.override {
+    disableDocs = false;
+  };
+}
+```
+
+Ĝi estas Nix-funkcio kun du argumentoj—`self` kaj `super`. `super` referencas al la esprimoj kiuj apartenas al la sistemo, dum `self` referencas al la aro de esprimoj kiujn oni difinas. Estas devige, ke estas nur du argumentoj kaj ili estas `self` kaj `super`.
+
+Sekve, precizigu, ke por la `racket`-atributo, la `override`-funkcion ĝi vokos el la fonta tavolo,
+donante al ĝi atributan aron kiu la transpasojn enhavas.
+
+Alia ekzemplo estas ke se je [NaCl](https://developer.chrome.com/native-client) por
+[Chromium](https://github.com/NixOS/nixpkgs/blob/master/pkgs/applications/networking/browsers/chromium/default.nix)
+oni volas ŝalti, la dosieron `~/.config/nixpkgs/overlays/chromium.nix` kreu per la jena enhavo:
+
+```nix
+self: super: {
+  chromium = super.chromium.override {
+    enableNaCl = true;
+  };
+}
+```
+
+Kiam je Racket aŭ je Chromium oni instalas, tiuj agordoj estos legataj kaj efektiviĝos.
+
+    $ nix-env -iA $(nix-channel --list | awk '{print $1}').racket
+
+
+### <a name="surmetojnovajpakoj"></a> Novaj pakoj
+
+La surmetan sistemon uzi por novajn pakojn krei estas ideala se la pakon oni ne volas doni al
+Nixpkgs, ĝin oni volos esti privata, aŭ novan infrastukturon oni volas aldoni sen la ekstran
+komplekson trakti.
+
+Ni supozu, ke je [libu8](https://github.com/beingmeta/libu8), portebla UTF-8-biblioteko, oni volas
+pakigi. Por tion fari, du aĵojn oni skribos:
+
+1. la supran surmetan dosieron en `~/.config/nixpkgs/overlays/`; kaj
+2. la Nix-esprimo kiu je _libu8_ fakte kreas.
+
+Por #1, la dosieron `~/.config/nixpkgs/overlays/libu8.nix` kreu per la jena enhavo:
+
+```
+self: super: {
+  libu8 = super.callPackage ./pkgs/libu8 { };
+}
+```
+
+Tiam, por #2, la dosierarbon kreu por la esprimo. Tenu en la kalkulo, ke ne devigatas la nomo
+`pkgs`:
+
+    $ cd ~/.config/nixpkgs/overlays
+    $ mkdir -p pkgs/libu8
+
+Tiam la dosieron `~/.config/nixpkgs/overlays/pkgs/libu8/default.nix` keru per la jena enhavo:
+
+```nix
+{ stdenv, fetchFromGitHub }:
+
+stdenv.mkDerivation rec {
+  name = "libu8-${version}";
+  version = "2.6.7";
+
+  src = fetchFromGitHub {
+    owner = "beingmeta";
+    repo = "libu8";
+    rev = "d17327ddd5465ce8a6708817e7430f87e6e19b13";
+    sha256 = "1gip2zpi01vbl4zcadms0iwh3zmhhysjfkp1ycmp7ri4hb55gsqh";
+  };
+
+  doCheck = true;
+
+  installPhase = ''
+    mkdir -p $out/lib
+    mkdir -p $out/include/libu8
+
+    cp lib/* $out/lib
+    cp include/libu8/* $out/include/libu8
+  '';
+
+  meta = with stdenv.lib; {
+    description = "Portable UTF-8 and general system library";
+    homepage = https://github.com/beingmeta/libu8;
+    license = licenses.lgpl2;
+    platforms = platforms.unix;
+    maintainers = [ maintainers.ebzzry ];
+  };
+}
+```
+
+Per tiuj du dosieroj, je _libu8_ oni nun povas instali nur por ĝi:
+
+    $ nix-env -iA $(nix-channel --list | awk '{print $1}').libu8
+
+aŭ ĝin oni povas havi kiel dependeco en alia derivaĵo:
+
+```nix
+{stdenv, libu8, etc }:
+
+...
+```
 
 
 <a name="finrimarkoj"></a>Finrimarkoj
