@@ -3,7 +3,7 @@ A Gentle Introduction to the Nix Family
 
 <div class="center">[Esperanto](/eo/nix/) · English</div>
 <div class="center">March 22, 2017</div>
-<div class="center">Last updated: February 14, 2019</div>
+<div class="center">Last updated: February 16, 2019</div>
 
 >Don’t worry about what anybody else is going to do. The best way to predict the future is to
 >invent it.<br>
@@ -62,14 +62,14 @@ Table of contents
   + [Contributing](#nixpkgscontribute)
     * [Updating an existing package](#nixpkgsupdateexisting)
     * [Submitting a new package](#nixpkgssubmitnew)
-  + [Overlays](#overlays)
-    * [Overrides](#overlaysoverrides)
-    * [New packages](#overlaysnewpackages)
   + [Notes](#nixpkgsnotes)
 - [Environments](#environments)
   + [System environment](#systemenvironment)
   + [User environment](#userenvironment)
   + [Development environment](#developmentenvironment)
+- [Overlays](#overlays)
+  + [Overrides](#overlaysoverrides)
+  + [New packages](#overlaysnewpackages)
 - [Closing remarks](#closing)
 - [Bonus](#bonus)
 
@@ -1298,141 +1298,6 @@ Finally, go to the GitHub repo [page](https://github.com/nixos/nixpkgs), then cr
 (PR) between `nixos/nixpkgs:master` and `vakelo/nixpkgs:tthsum-1.3.2`.
 
 
-### <a name="overlays"></a> Overlays
-
-There will be times when you need to make modifications to the package system, but you’re not
-willing to go full Hulk and mess around with the Git repository. There will also be times when you
-want to have your own private package, which you’re not willing to push out into the
-public. Overlays can greatly help you with that.
-
-As the name implies, the overlay mechanism is a way to create an abstracting layer on top of the
-existing expressions. One usage is like putting on a suit for an interview—you’re still you
-underneath, but the way you appear has drastically changed. Another usage is like replacing your
-internal organs with cybernetic ones—you’re still a bit you, but parts of you has drastically
-changed. Another usage, which is one of my favorites, is creating a new being from virtually
-nothing.
-
-Overlay files are your familiar Nix expressions, with a specific format. They live in
-`~/.config/nixpkgs/overlays/`. If don’t have that directory, you may create it with:
-
-    $ mkdir -p ~/.config/nixpkgs/overlays
-
-I structure my overlay files so that each file corresponds to one package, whose behavior I want to
-change.
-
-
-#### <a name="overlaysoverrides"></a> Overrides
-
-For example, if you want to make sure that the documentation for
-[Racket](https://github.com/NixOS/nixpkgs/blob/master/pkgs/development/interpreters/racket/default.nix)
-is installed, create the file `~/.config/nixpkgs/overlays/racket.nix` with the following contents:
-
-```nix
-self: super: {
-  racket = super.racket.override {
-    disableDocs = false;
-  };
-}
-```
-
-It’s a Nix function with two arguments—`self` and `super`. `super` refers to the expressions that
-belong to the system, while `self` refers to the set of expressions that are defining it. It’s
-mandatory that there are two arguments and that they are `self` and `super`.
-
-Next, specify that for the `racket` attribute, it will call the `override` function from
-the source layer, passing it an attribute set that will contain the overrides.
-
-Another example is that if you want to enable [NaCl](https://developer.chrome.com/native-client) for
-[Chromium](https://github.com/NixOS/nixpkgs/blob/master/pkgs/applications/networking/browsers/chromium/default.nix),
-create the file `~/.config/nixpkgs/overlays/chromium.nix` with the following contents:
-
-```nix
-self: super: {
-  chromium = super.chromium.override {
-    enableNaCl = true;
-  };
-}
-```
-
-When you install or reinstall Racket or Chromium, those settings will be read and taken into effect:
-
-    $ nix-env -iA $(nix-channel --list | awk '{print $1}').racket
-
-
-#### <a name="overlaysnewpackages"></a> New packages
-
-Using the overlay system to create new packages is ideal if you don’t want to make the package part
-of Nixpkgs, you want to make it private, or you want to add a new infrastructure without handling
-the extra complexity.
-
-Let’s say you want to package [libu8](https://github.com/beingmeta/libu8), a portable UTF-8
-library. To do that, you’ll be writing two things:
-
-1. the top-level overlay file in `~/.config/nixpkgs/overlays/`; and
-2. the Nix expression that will actually build _libu8_.
-
-For #1, create the file `~/.config/nixpkgs/overlays/libu8.nix` with the following contents:
-
-```
-self: super: {
-  libu8 = super.callPackage ./pkgs/libu8 { };
-}
-```
-
-Then, for #2, create the directory tree for the expression. Take note that it doesn’t have to have the name `pkgs`.
-
-    cd ~/.config/nixpkgs/overlays
-    mkdir -p pkgs/libu8
-
-Then create the file `~/.config/nixpkgs/overlays/pkgs/libu8/default.nix` with the following contents:
-
-```nix
-{ stdenv, fetchFromGitHub }:
-
-stdenv.mkDerivation rec {
-  name = "libu8-${version}";
-  version = "2.6.7";
-
-  src = fetchFromGitHub {
-    owner = "beingmeta";
-    repo = "libu8";
-    rev = "d17327ddd5465ce8a6708817e7430f87e6e19b13";
-    sha256 = "1gip2zpi01vbl4zcadms0iwh3zmhhysjfkp1ycmp7ri4hb55gsqh";
-  };
-
-  doCheck = true;
-
-  installPhase = ''
-    mkdir -p $out/lib
-    mkdir -p $out/include/libu8
-
-    cp lib/* $out/lib
-    cp include/libu8/* $out/include/libu8
-  '';
-
-  meta = with stdenv.lib; {
-    description = "Portable UTF-8 and general system library";
-    homepage = https://github.com/beingmeta/libu8;
-    license = licenses.lgpl2;
-    platforms = platforms.unix;
-    maintainers = [ maintainers.ebzzry ];
-  };
-}
-```
-
-With those two files in place, you can now install _libu8_ by itself:
-
-    $ nix-env -iA $(nix-channel --list | awk '{print $1}').libu8
-
-or have it as a dependency in another derivation:
-
-```nix
-{stdenv, libu8, etc }:
-
-...
-```
-
-
 ### <a name="nixpkgsnotes"></a> Notes
 
 If at any point during the installation of a package, the process is interrupted, the package being
@@ -1625,6 +1490,142 @@ To feed this expression to nix-shell, making use of both *hello* and *emem*, run
 
 nix-shell gives us strong abstraction mechanisms that are deemed very difficult to do in other
 approaches. It banks on the deterministic properties of Nix, creating a very strong leverage.
+
+
+<a name="overlays"></a> Overlays
+--------------------------------
+
+There will be times when you need to make modifications to the package system, but you’re not
+willing to go full nuts and mess around with the Git repository. There will also be times when you
+want to have your own private package, which you’re not willing to push out into the
+public. Overlays can greatly help you with that.
+
+As the name implies, the overlay mechanism is a way to create an abstracting layer on top of the
+existing expressions. One usage is like putting on a suit for an interview—you’re still you
+underneath, but the way you appear has drastically changed. Another usage is like replacing your
+internal organs with cybernetic ones—you’re still a bit you, but parts of you has drastically
+changed. Another usage, which is one of my favorites, is creating a new being from virtually
+nothing.
+
+Overlay files are your familiar Nix expressions, with a specific format. They live in
+`~/.config/nixpkgs/overlays/`. If don’t have that directory, you may create it with:
+
+    $ mkdir -p ~/.config/nixpkgs/overlays
+
+I structure my overlay files so that each file corresponds to one package, whose behavior I want to
+change.
+
+
+### <a name="overlaysoverrides"></a> Overrides
+
+For example, if you want to make sure that the documentation for
+[Racket](https://github.com/NixOS/nixpkgs/blob/master/pkgs/development/interpreters/racket/default.nix)
+is installed, create the file `~/.config/nixpkgs/overlays/racket.nix` with the following contents:
+
+```nix
+self: super: {
+  racket = super.racket.override {
+    disableDocs = false;
+  };
+}
+```
+
+It’s a Nix function with two arguments—`self` and `super`. `super` refers to the expressions that
+belong to the system, while `self` refers to the set of expressions that are defining it. It’s
+mandatory that there are two arguments and that they are `self` and `super`.
+
+Next, specify that for the `racket` attribute, it will call the `override` function from
+the source layer, passing it an attribute set that will contain the overrides.
+
+Another example is that if you want to enable [NaCl](https://developer.chrome.com/native-client) for
+[Chromium](https://github.com/NixOS/nixpkgs/blob/master/pkgs/applications/networking/browsers/chromium/default.nix),
+create the file `~/.config/nixpkgs/overlays/chromium.nix` with the following contents:
+
+```nix
+self: super: {
+  chromium = super.chromium.override {
+    enableNaCl = true;
+  };
+}
+```
+
+When you install or reinstall Racket or Chromium, those settings will be read and taken into effect:
+
+    $ nix-env -iA $(nix-channel --list | awk '{print $1}').racket
+
+
+### <a name="overlaysnewpackages"></a> New packages
+
+Using the overlay system to create new packages is ideal if you don’t want to make the package part
+of Nixpkgs, you want to make it private, or you want to add a new infrastructure without handling
+the extra complexity.
+
+Let’s say you want to package [libu8](https://github.com/beingmeta/libu8), a portable UTF-8
+library. To do that, you’ll be writing two things:
+
+1. the top-level overlay file in `~/.config/nixpkgs/overlays/`; and
+2. the Nix expression that will actually build _libu8_.
+
+For #1, create the file `~/.config/nixpkgs/overlays/libu8.nix` with the following contents:
+
+```
+self: super: {
+  libu8 = super.callPackage ./pkgs/libu8 { };
+}
+```
+
+Then, for #2, create the directory tree for the expression. Take note that it doesn’t have to have the name `pkgs`:
+
+    $ cd ~/.config/nixpkgs/overlays
+    $ mkdir -p pkgs/libu8
+
+Then create the file `~/.config/nixpkgs/overlays/pkgs/libu8/default.nix` with the following contents:
+
+```nix
+{ stdenv, fetchFromGitHub }:
+
+stdenv.mkDerivation rec {
+  name = "libu8-${version}";
+  version = "2.6.7";
+
+  src = fetchFromGitHub {
+    owner = "beingmeta";
+    repo = "libu8";
+    rev = "d17327ddd5465ce8a6708817e7430f87e6e19b13";
+    sha256 = "1gip2zpi01vbl4zcadms0iwh3zmhhysjfkp1ycmp7ri4hb55gsqh";
+  };
+
+  doCheck = true;
+
+  installPhase = ''
+    mkdir -p $out/lib
+    mkdir -p $out/include/libu8
+
+    cp lib/* $out/lib
+    cp include/libu8/* $out/include/libu8
+  '';
+
+  meta = with stdenv.lib; {
+    description = "Portable UTF-8 and general system library";
+    homepage = https://github.com/beingmeta/libu8;
+    license = licenses.lgpl2;
+    platforms = platforms.unix;
+    maintainers = [ maintainers.ebzzry ];
+  };
+}
+```
+
+With those two files in place, you can now install _libu8_ by itself:
+
+    $ nix-env -iA $(nix-channel --list | awk '{print $1}').libu8
+
+or have it as a dependency in another derivation:
+
+```nix
+{stdenv, libu8, etc }:
+
+...
+```
 
 
 <a name="closing"></a> Closing remarks
