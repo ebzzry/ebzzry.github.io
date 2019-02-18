@@ -5,7 +5,7 @@ Pripensoj
 <div class="center">la 3-an de novembro 2017</div>
 <div class="center">Laste ĝisdatigita: la 10-an de februaro 2019</div>
 
-Ĉi tiu paĝo enhavas kelke da miaj propraj pripensoj. Enskriboj ordigatas laŭ kronologiordo.
+Kelke da miaj propraj pripensoj ĉi tiu paĝo enhavas. Ordigatas la enskriboj laŭ kronologiordo.
 
 
 - Dum la kuraĝuloj kuraĝas la ŝtormojn per kuraĝo kaj triumfo, la malkuraĝuloj ripozas sur la
