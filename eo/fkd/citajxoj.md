@@ -5,8 +5,8 @@ Citaĵoj
 <div class="center">la 15-an de novembro 2017</div>
 <div class="center">Laste ĝisdatigita: la 15-an de februaro 2019</div>
 
-Ĉi tiu paĝo enhavas liston de atenteme elektitaj citaĵoj, aforismoj, kaj sentencoj kiujn mi kolektis
-tra la jarojn.
+Liston de atenteme elektitaj citaĵoj, aforismoj, kaj sentencoj kiujn mi kolektis
+tra la jarojn ĉi tiu paĝo enhavas.
 
 
 - La aferoj kiujn oni volas malakcepti estas pli gravaj ol la aferoj kiujn oni volas akcepti.<br>
