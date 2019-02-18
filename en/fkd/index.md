@@ -5,7 +5,7 @@ The Musings of a Pedant
 <div class="center">August 15, 2015</div>
 <div class="center">Last updated: February 15, 2019</div>
 
-<img src="/bil/ora-proporcio.png" class="banner" alt="ora-proporcio" title="In the face of the cosmos, we all are children forever." />
+<img src="/bil/pluvis.jpg" class="banner" alt="pluvis" title="In the face of the cosmos, we all are children forever." />
 
 <div class="text-right">A journal about computing, human predilections, and random krakaboom. The
 entries are sorted in reverse chronological order.</div>
