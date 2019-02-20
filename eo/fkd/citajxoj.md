@@ -3,7 +3,7 @@ Citaĵoj
 
 <div class="center">Esperanto · [English](/en/quotes/)</div>
 <div class="center">la 15-an de novembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 15-an de februaro 2019</div>
+<div class="center">Laste ĝisdatigita: la 20-an de februaro 2019</div>
 
 Liston de atenteme elektitaj citaĵoj, aforismoj, kaj sentencoj kiujn mi kolektis
 tra la jarojn ĉi tiu paĝo enhavas.
@@ -90,7 +90,7 @@ tra la jarojn ĉi tiu paĝo enhavas.
   ―G.K. CHESTERTON
 
 
-- Neniam atribuu al la maliceco kion la malkompetenteco klarigos.<br>
+- Neniam atribuu al la malico kiun la malkompetenteco klarigos.<br>
   ―Robert J. HANLON
 
 
