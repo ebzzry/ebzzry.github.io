@@ -3,7 +3,7 @@ How I Roll with Tmux
 
 <div class="center">[Esperanto](/eo/tmux/) · English</div>
 <div class="center">October 18, 2017</div>
-<div class="center">Last updated: September 26, 2018</div>
+<div class="center">Last updated: februaro 20, 2019</div>
 
 >Furious activity is no substitute for understanding.<br>
 >―H.H. Williams
@@ -97,6 +97,7 @@ bind . source-file ~/.tmux.conf
 bind r move-window -r \; setw automatic-rename
 bind x kill-pane \; move-window -r \; setw automatic-rename
 bind & kill-window \; move-window -r \; setw automatic-rename
+bind k clear-history
 ```
 
 Here, I rebound <kbd>C-z x</kbd> and <kbd>C-z &</kbd>, so that when windows are removed the
@@ -105,6 +106,8 @@ available.
 
 I also rebound <kbd>C-z x</kbd> and <kbd>C-z &</kbd> to kill panes and windows, respectively,
 without user prompts.
+
+I bound the key <kbd>C-z k</kbd> to delete the buffer history to clear the view.
 
 
 <a name="windows">Windows</a>
@@ -148,11 +151,13 @@ bind C new-window -c ~
 
 bind '"' split-window -v -c "#{pane_current_path}"
 bind % split-window -h -c "#{pane_current_path}"
+bind Space last-window
 ```
 
 This binds keys to start a new session from the current working directory or from the home
 directory. This also binds keys to split the view vertically or horizontally, with the current
-working directory as a starting point.
+working directory as a starting point. I also want that there’s an easy key to change to the last
+window.
 
 
 <a name="panes">Panes</a>
@@ -207,16 +212,35 @@ The status bar provides a lot of feedback, and we can also customize it. I set u
 
 ```
 set -g status-position bottom
-set -g status-bg black
-set -g status-fg white
-set -g window-status-current-bg black
-set -g window-status-current-fg blue
-set -g window-status-current-attr bold
-set -g status-interval 60
-set -g status-left ' ★ '
-set -g status-right-length 30
-set -g status-right-attr bright
-set -g status-right '%a %b %0d'
+set -g status-bg "#3F3F3F"
+set -g status-fg default
+
+setw -g window-status-format "#I:#W#F "
+setw -g window-status-current-format "#I:#W#F "
+
+setw -g window-status-attr bold
+setw -g window-status-fg "#D8D8D8"
+setw -g window-status-bg "#3F3F3F"
+
+setw -g window-status-current-attr bold
+setw -g window-status-current-fg green
+setw -g window-status-current-bg black
+
+set -g status-interval 1
+
+set -g status-left ''
+set -g status-left-fg green
+set -g status-left-bg black
+
+set -g status-right '#{prefix_highlight}'
+set -g status-right-fg green
+set -g status-right-bg black
+set -g status-right-length 50
+
+set -g pane-border-fg "#3F3F3F"
+set -g pane-border-bg black
+set -g pane-active-border-fg green
+set -g pane-active-border-bg black
 ```
 
 This displays the status bar on the bottom of the terminal, and shows all the windows starting from

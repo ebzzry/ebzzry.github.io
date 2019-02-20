@@ -3,7 +3,7 @@ Kiel Mi Ruliĝas per Tmux
 
 <div class="center">Esperanto · [English](/en/tmux/)</div>
 <div class="center">la 26-an de septembro 2018</div>
-<div class="center">Laste ĝisdatigita: la 26-an de septembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 20-an de februaro 2019</div>
 
 >Furioza agado ne estas anstataŭaĵo de komprenado.<br>
 >―H.H. WILLIAMS
@@ -97,15 +97,17 @@ bind . source-file ~/.tmux.conf
 bind r move-window -r \; setw automatic-rename
 bind x kill-pane \; move-window -r \; setw automatic-rename
 bind & kill-window \; move-window -r \; setw automatic-rename
+bind k clear-history
 ```
 
 Ĉi tie, je <kbd>C-z x</kbd> kaj je <kbd>C-z &</kbd> mi rebindis por ke kiam fenestroj estas
 forigitaj la numerado aŭtomate ĝisdatigu. Permana transparo per <kbd>C-z r</kbd> estas alia alterna
 havebla metodo.
 
-
 La klavojn <kbd>C-z x</kbd> kaj <kbd>C-z &</kbd> mi ankaŭ rebindis por panelojn kaj fenestrojn
 mortigi, respektive, sen invitoj.
+
+La klavon <kbd>C-z k</kbd> mi bindis por la bufran historion purigi por la vidon klarigi.
 
 
 <a name="fenestroj"></a>Fenestroj
@@ -149,11 +151,13 @@ bind C new-window -c ~
 
 bind '"' split-window -v -c "#{pane_current_path}"
 bind % split-window -h -c "#{pane_current_path}"
+bind Space last-window
 ```
 
 La klavojn ĉi tio bindis por novan seancon krei de la aktuala labora dosierujo aŭ de la hejma
-dosierujo. La klavojn ĉi tio ankaŭ bindis por la vidon dividi vertikale kaj horizontale, kun la aktuala
-dosierujo kiel komenca punkto.
+dosierujo. La klavojn ĉi tio ankaŭ bindis por la vidon dividi vertikale kaj horizontale, kun la
+aktuala dosierujo kiel komenca punkto. Mi ankaŭ volas, ke estas facila klavo por iri al la lasta
+fenestro.
 
 
 <a name="paneloj"></a>Paneloj
@@ -209,16 +213,35 @@ Multe da prisondo la statbreto donas, kaj ĝin ni povas tajlori. La mian mi agor
 
 ```
 set -g status-position bottom
-set -g status-bg black
-set -g status-fg white
-set -g window-status-current-bg black
-set -g window-status-current-fg blue
-set -g window-status-current-attr bold
-set -g status-interval 60
-set -g status-left ' ★ '
-set -g status-right-length 30
-set -g status-right-attr bright
-set -g status-right '%a %b %0d'
+set -g status-bg "#3F3F3F"
+set -g status-fg default
+
+setw -g window-status-format "#I:#W#F "
+setw -g window-status-current-format "#I:#W#F "
+
+setw -g window-status-attr bold
+setw -g window-status-fg "#D8D8D8"
+setw -g window-status-bg "#3F3F3F"
+
+setw -g window-status-current-attr bold
+setw -g window-status-current-fg green
+setw -g window-status-current-bg black
+
+set -g status-interval 1
+
+set -g status-left ''
+set -g status-left-fg green
+set -g status-left-bg black
+
+set -g status-right '#{prefix_highlight}'
+set -g status-right-fg green
+set -g status-right-bg black
+set -g status-right-length 50
+
+set -g pane-border-fg "#3F3F3F"
+set -g pane-border-bg black
+set -g pane-active-border-fg green
+set -g pane-active-border-bg black
 ```
 
 La statbreton ĉi tio montras en la subo de la terminalsimulilo, kaj ĉiujn fenestroj de 1 montras, la
