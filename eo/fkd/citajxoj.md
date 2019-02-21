@@ -3,7 +3,7 @@ Citaĵoj
 
 <div class="center">Esperanto · [English](/en/quotes/)</div>
 <div class="center">la 15-an de novembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 20-an de februaro 2019</div>
+<div class="center">Laste ĝisdatigita: la 21-an de februaro 2019</div>
 
 Liston de atenteme elektitaj citaĵoj, aforismoj, kaj sentencoj kiujn mi kolektis
 tra la jarojn ĉi tiu paĝo enhavas.
@@ -793,3 +793,7 @@ tra la jarojn ĉi tiu paĝo enhavas.
 
 - Ne distingeblas kontraste al magio ajne sufiĉe altnivela teĥnologio.<br>
   ―Arthur C. CLARKE
+
+
+- Kelkaj homoj tre timas pri artefarita intelekto; dum mi pli timas pri natura stulteco.<br>
+  ―Eugenia CHENG

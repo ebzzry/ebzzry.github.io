@@ -3,7 +3,7 @@ Quotes
 
 <div class="center">[Esperanto](/eo/citajxoj/) · English</div>
 <div class="center">August 29, 2015</div>
-<div class="center">Last updated: February 15, 2019</div>
+<div class="center">Last updated: February 21, 2019</div>
 
 This page contains a list of curated quotations, aphorisms, and proverbs that I have collected over
 the years.
@@ -806,3 +806,8 @@ the years.
 
 - Any sufficiently advanced technology is indistinguishable from magic.<br>
   ―Arthur C. Clarke
+
+
+- Some people are really afraid of artificial intelligence; whereas I’m more afraid of natural
+  stupidity.<br>
+  ―Eugenia Cheng
