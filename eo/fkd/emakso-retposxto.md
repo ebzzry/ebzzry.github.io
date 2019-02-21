@@ -3,7 +3,7 @@ Retpoŝton Agordi per Emakso
 
 <div class="center">Esperanto · [English](/en/emacs-mail/)</div>
 <div class="center">la 14-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 4-an de februaro 2019</div>
+<div class="center">Laste ĝisdatigita: la 21-an de februaro 2019</div>
 
 >Nur pro tio, ke ne fariĝis, ne signifas, ke ne fareblas. Nur pro tio, ke fareblas, ne
 >signifas, ke devus.<br>
@@ -96,7 +96,7 @@ ke `~/Maildir` estas la defaŭlta dosierujo, kiun la retpoŝta transmeta ilo uzo
 
 ### <a name="elsxutiplenumo"></a>Plenumo
 
-Por kontroli, ke oni jam povas elŝuti siajn mesaĝojn, kurigu je getmail:
+Por kontroli, ke oni jam povas elŝuti siajn mesaĝojn, plenumu je getmail:
 
     $ getmail
 
@@ -229,14 +229,14 @@ Marku tiujn liniojn, tiam premu:
 
 Por ke la agordoj tuj efektiviĝu.
 
-Por sendi sendi ĉifritan mesaĝon, premu <kbd>C</kbd> el la ĉefmenuo de mu4e, plenumigi la kutimajn
+Por sendi sendi ĉifritan mesaĝon, premu <kbd>C</kbd> el la ĉefmenuo de mu4e, plenumi la kutimajn
 kampojn kiel `To:`, kaj `Subject:`, tiam sur la mesaĝokorpo, premu:
 
     M-x ec REv
 
 ĉi tiu komando, etikedos la eliranta poŝto kiel subskribita kaj ĉifrita. Por sendi ĝin, premu
 <kbd>C-c C-c</kbd>. Ĉi tiu komando sekve invitos onin por enigi la pasfrazon. Ankaŭ demandos onin
-por plenumigi kelkajn informojn pri la elira retpoŝtservilo (SMTP). La SMTP-servilo de Gmail
+por plenumi kelkajn informojn pri la elira retpoŝtservilo (SMTP). La SMTP-servilo de Gmail
 estas `smtp.gmail.com`, tiam uzu `UZANTNOMO@gmail.com` kiam invitita por la uzantnomo. Uzu onian
 kutiman pasvorton, kiam invitita, aŭ enigu onian apspecifan pasvortos, kiel priskribita antaŭe. Ĉi
 tiu informo konservitas al `~/.authinfo`, kaj estos uzata por postaj mesaĝoj.
@@ -265,5 +265,5 @@ principo aplikatas. Do, estu atenta de ĉi tiuj situacioj, kaj alĝustigetu la a
 
 Tenu en la kalkulo, ke mi laŭcele evitis eltiregis multe da detalo, ĉar devus konfuzi la celon de ĉi
 tiu artikolo por fari la aferojn simplaj. Tamen, se oni volas lerni pli, oni ĉiam povas iri al la [getmail-](http://pyropus.ca/software/getmail/documentation.html)
-kaj [mu4e-](http://www.djcbsoftware.nl/code/mu/mu4e/index.html)dokumentadoj, por plenumigi la
+kaj [mu4e-](http://www.djcbsoftware.nl/code/mu/mu4e/index.html)dokumentadoj, por plenumi la
 mankajn informojn kiun oni eble havi.

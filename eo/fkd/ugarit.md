@@ -3,7 +3,7 @@ Sekurkopiojn Krei per Ugarit
 
 <div class="center">Esperanto · [English](/en/ugarit/)</div>
 <div class="center">la 18-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 4-an de februaro 2019</div>
+<div class="center">Laste ĝisdatigita: la 21-an de februaro 2019</div>
 
 >Bona juĝo devenas el sperto, kaj sperto devenas el malbona juĝo.<br>
 >―Fred BROOKS
@@ -231,7 +231,7 @@ Por ŝalti tre babileman eligon:
 -------------------------------------
 
 Kiam oni ne fidas al la funkciado de la disko kie oni enmemorigas la dosierkopiojn, malŝalti la
-[locate- kaj updatedb-](http://linux.about.com/od/commands/fl/updatedb-Linux-Command-Unix-Command.htm)servojn. Estas kutime periode kurigis per cron. Metas multe da ŝarĝo sur la disko kaj eble
+[locate- kaj updatedb-](http://linux.about.com/od/commands/fl/updatedb-Linux-Command-Unix-Command.htm)servojn. Estas kutime periode plenumis per cron. Metas multe da ŝarĝo sur la disko kaj eble
 trostresi ĝin. La sperto povas varii.
 
 Por malŝalti tiujn servojn sur NixOS, aldonu la jenan al `/etc/nixos/configuration.nix`:
