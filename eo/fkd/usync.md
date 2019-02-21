@@ -3,7 +3,7 @@ Retnodojn Sinkronigi per Usync
 
 <div class="center">Esperanto · [English](/en/usync/)</div>
 <div class="center">la 7-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 13-an de januaro 2019</div>
+<div class="center">Laste ĝisdatigita: la 21-an de januaro 2019</div>
 
 >Kion mi ne povas krei, mi ne komprenas.<br>
 >―Richard P. FEYNMAN
@@ -35,7 +35,7 @@ Usync povas esti instali per Nixpkgs:
 
     $ nix-env -i usync
 
-Por certigi, ke usync fakte estas instalita, kurigu:
+Por certigi, ke usync fakte estas instalita, plenumu:
 
     $ which usync
 

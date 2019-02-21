@@ -3,7 +3,7 @@ Ziŝkonsiletoj 1-a: Alinomoj kaj Funkcioj
 
 <div class="center">Esperanto · [English](/en/zsh-tips-1/)</div>
 <div class="center">la 26-an de septembro 2018</div>
-<div class="center">Laste ĝisdatigita: la 4-an de februaro 2019</div>
+<div class="center">Laste ĝisdatigita: la 21-an de februaro 2019</div>
 
 >Malsaĝulo miras je nekutimajn aferojn. Ŝagulo miras je la kutimajn aferojn.<br>
 >―Konfuceo
@@ -49,7 +49,7 @@ Aliaj estas pli agresivaj kiel tutmondaj alinomoj, kiuj malvolvojn povas fari ie
 La ĉefenigujon kaj ĉefeligujon la unua tutmonda alinomo filtras al *egrep* kun kolorita eligo. La
 plej novan kutiman dosieron en la aktuala dosierujo la dua tutmonda alinomo revenas.
 
-Por ĉiom da alinomoj montru, kurigu:
+Por ĉiom da alinomoj montru, plenumu:
 
     alias
 
@@ -64,7 +64,7 @@ funckiojn povas fari pli ol anstataŭigon. Ekzemple, en la jena alinomo:
     alias ve="echo hundo"
 
 tekstan anstataŭigon nur faras. Tio estas, kiam la tekston `hundo` ziŝo trafas kiel la unua ero de la
-komandlinio, ĝin ĝi anstataŭigas per `echo hundo`. Nenio plu. Do, kurigante jene:
+komandlinio, ĝin ĝi anstataŭigas per `echo hundo`. Nenio plu. Do, plenumante jene:
 
     ve
 
@@ -93,7 +93,7 @@ La nomon `hundo` ambaŭ uzas, sed malsaman nomspacon ĉiu uzas. Kiam je `hundo` 
     hundo
 
 Nur je `hundo` ĝi montras, anstataŭ je `hundo, too` eĉ ĉi tiu venas de pli nova difino. Por la alinomon
-`hundo` forigi, kurigu:
+`hundo` forigi, plenumu:
 
     % unalias hundo
     % hundo
@@ -101,7 +101,7 @@ Nur je `hundo` ĝi montras, anstataŭ je `hundo, too` eĉ ĉi tiu venas de pli n
 
 Tiel longe kiel eble, funkciojn kuru:
 
-Por ĉiom da funkcioj montri, kurigu:
+Por ĉiom da funkcioj montri, plenumu:
 
     % functions
 

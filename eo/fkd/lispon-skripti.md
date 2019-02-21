@@ -3,7 +3,7 @@ Skriptado en Komunlispo
 
 <div class="center">Esperanto · [English](/en/script-lisp/)</div>
 <div class="center">la 24-an de septembro 2018</div>
-<div class="center">Laste ĝisdatigita: la 10-an de februaro 2019</div>
+<div class="center">Laste ĝisdatigita: la 21-an de februaro 2019</div>
 
 >La lumo kiu fajras duoble brila, fajras duone longa.<br>
 >―D-ro. Eldon TYRELL, Blade Runner (1982)
@@ -14,7 +14,7 @@ Plenaj tutaj sistemoj kaj bibliotekoj estas ĉiam komfortaj areoj por komunlispa
 uzantoj. Bedaŭrinde, de longe, ne ekzistis definitiva solvo en komunlispon uzi kiel skriptada
 lingvo. Skriptada lingvo, en ĉi tiu kunteksto, signifas pri iu, kiu similas anime al komandliniaj
 ŝeloj—tio estas, iu kiu estas uzita por sistemkomandojn mastrumi kaj regi sur la apa nivelo. La
-signifo ankaŭ etendas al la aŭtomacioj de la plenumigado de taskoj kiuj aliamaniere faritaj unu post
+signifo ankaŭ etendas al la aŭtomacioj de la plenumado de taskoj kiuj aliamaniere faritaj unu post
 alia. En ĉi tiu artikolo, mallongan enkondukon pri kiel komunlispon uzi en la skriptada areo mi
 priparolos.
 
@@ -207,7 +207,7 @@ kreas la opcio `‑‑system $(NAME)` ŝarĝas. La enirejo de nia programo la op
 
 ### <a name="kunmetado"></a>Kunmetado
 
-Ni nun pretas por la skripton kaj la simbolligilojn krei. Por tion fari, kurigu:
+Ni nun pretas por la skripton kaj la simbolligilojn krei. Por tion fari, plenumu:
 
     $ make install
 
@@ -224,7 +224,7 @@ $ tree ~/bin
 0 directories, 5 files
 ```
 
-Por kontroli, ke ĝi efektive funkcias, kurigu:
+Por kontroli, ke ĝi efektive funkcias, plenumu:
 
     $ getuid
 
@@ -315,7 +315,7 @@ fari tial, ke nur la eligon al la alvoko de `BATTERY-STATUS` ni bezonas.
 Aliflanke, enrankopion per *scrot* la funkcio `SCREENSHOT` tenas tiam la absolutdosierindikon de la
 bildo ĝi disponebligas el la tondeja zono per *xclip*. La bibliotekojn `local-time` por la data
 signovico kaj biblioteko; kaj `optima`, por la ripetiĝa kongruado. Por la komandon `screenshot`
-ebligi, la duumdosierojn dependecojn instalu. La jenajn komandojn kurigu sur APT- kaj Nix-sistemoj,
+ebligi, la duumdosierojn dependecojn instalu. La jenajn komandojn plenumu sur APT- kaj Nix-sistemoj,
 respektive:
 
     $ sudo apt-get install -y scrot xclip
