@@ -3,7 +3,7 @@ Ziŝkonsiletoj 4-a: Ĝeneralhelpiloj
 
 <div class="center">Esperanto · [English](/en/zsh-tips-4/)</div>
 <div class="center">la 26-an de septembro 2018</div>
-<div class="center">Laste ĝisdatigita: la 26-an de septembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 21-an de februaro 2019</div>
 
 >Vidpunkto meritas okdek poentojn da inteligentecaj kvocientoj.<br>
 >―Alan KAY
@@ -118,7 +118,7 @@ function d () {
 }
 ```
 
-Kiam je `d` mi kurigas sole:
+Kiam je `d` mi plenumas sole:
 
     % d
 
@@ -184,7 +184,7 @@ funkcio.
 ### <a name="rm_pluso"></a>rm+
 
 Kiam arbon kiu multe da dosiero kaj dosierujo havas mi volas rapide forviŝi, la komandon `parallel`
-mi uzas por la forviŝadon kurigi paralele, anstataŭ serie. Ĝi estas difinita jene:
+mi uzas por la forviŝadon plenumi paralele, anstataŭ serie. Ĝi estas difinita jene:
 
 ```bash
 function rm+ () {

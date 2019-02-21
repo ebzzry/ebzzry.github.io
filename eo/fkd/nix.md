@@ -3,7 +3,7 @@ Milda Enkonduko al la Nix-Familio
 
 <div class="center">Esperanto · [English](/en/nix/)</div>
 <div class="center">la 5-an de aŭgusto 2018</div>
-<div class="center">Laste ĝisdatigita: la 16-an de februaro 2019</div>
+<div class="center">Laste ĝisdatigita: la 21-an de februaro 2019</div>
 
 >Ne maltrankviliĝu pri tio, kion la aliaj faros. La plej bona maniero por la estontecon antaŭdiri
 >estas per tion eltrovi.<br>
@@ -931,7 +931,7 @@ kontrolsumo de ĉiom da enigoj kiuj estis uzitaj por la pakon konstrui. La dosie
 ### <a name="nixpkgsinstalo"></a>Instalo
 
 Se je NixOS oni uzas ĉi tiun sekcion preterpasu tial, ke Nixpkgs iras kun ĝi. Por je Nixpkgs instali
-sur linukso aŭ makintoŝo, kurigu:
+sur linukso aŭ makintoŝo, plenumu:
 
     $ curl https://nixos.org/nix/install | bash
 
@@ -962,19 +962,19 @@ gitkopion uzi, la [deponejon](https://github.com/nixos/nixpkgs) klonu:
 de la deponejo troveblas ĉe `/home/vakelo/nixpkgs/` aŭ `/Users/vakelo/nixpkgs/`, se linukson aŭ
 makintoŝon oni uzas respektive.
 
-Por pakon instali, ekzemple, *emem*—Markdown- al HTML-dosiero konvertilo—per la gitkopio, kurigu:
+Por pakon instali, ekzemple, *emem*—Markdown- al HTML-dosiero konvertilo—per la gitkopio, plenumu:
 
     $ nix-env -f ~/nixpkgs/default.nix -iA emem
 
 Je *emem* ĉi tiu komando elŝutas kun ĝiajn dependecojn, kaj la programon ĝi disponebligas al
-oni. Por certigi, ke emem estas efektive instalita, kurigu:
+oni. Por certigi, ke emem estas efektive instalita, plenumu:
 
     $ emem --version
 
 Se la ŝelo ne vomiĝas kaj plendas, ke tio, kion oni volas trovi ne ekzistas, kaj versinombron oni
 vidas, do signifas ke je emem oni sukcese instalis.
 
-Por la plej ĵusajn ŝanĝojn akiri el la gitdeponejo, kurigu:
+Por la plej ĵusajn ŝanĝojn akiri el la gitdeponejo, plenumu:
 
     $ cd ~/nixpkgs && git pull origin master
 
@@ -987,7 +987,7 @@ tio, tiam kanalojn uzi anstataŭ la gitkopion.
 
 Kanaloj estas etikeditaj `stable`, `unstable`, aŭ per specifa versinombro, ekzemple, `17.03` aŭ
 `18.09`. Por ĉi tiu artikolo, je `unstable` ni uzu—ĝi nek estas tiel malaktuala kiel `stable` nek
-tiel ĵuŝa kiel la gitkopio. Por aboni al la `unstable`-kanalo, kurigu:
+tiel ĵuŝa kiel la gitkopio. Por aboni al la `unstable`-kanalo, plenumu:
 
     $ nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
 
@@ -996,7 +996,7 @@ uzantprofilo.
 
 Por la listojn de kanaloj esplori, [ĉi tien](https://nixos.org/channels/) iru.
 
-Per la ekzemplo ĉi-supre, je *emem* instali, la jenajn komandojn kurigu por NixOS kaj aliaj
+Per la ekzemplo ĉi-supre, je *emem* instali, la jenajn komandojn plenumu por NixOS kaj aliaj
 sistemoj, respektive:
 
     $ nix-env -iA nixos.emem
@@ -1004,27 +1004,27 @@ sistemoj, respektive:
     $ nix-env -iA nixpkgs.emem
 
 
-Por la kanalojn ĝisdatigi, kurigu:
+Por la kanalojn ĝisdatigi, plenumu:
 
     $ nix-channel --update
 
 Tempe, arboj en `/nix/store/` kreskiĝas kaj eble ekzistas dosierindikoj kiuj ne plu estas
-referencitaj per ajna pako. Por ĝin purigi, kurigu:
+referencitaj per ajna pako. Por ĝin purigi, plenumu:
 
     $ nix-collect-garbage
 
 
 #### <a name="nixpkgsaliaj"></a>Aliaj komandoj
 
-Por pakon malinstali, kurigu:
+Por pakon malinstali, plenumu:
 
     $ nix-env -e emem
 
-Por ĉiom da instalitaj pakoj listigi, kurigu:
+Por ĉiom da instalitaj pakoj listigi, plenumu:
 
     $ nix-env -q --installed
 
-Por ĉiom da haveblaj pakoj listigi, kurigu:
+Por ĉiom da haveblaj pakoj listigi, plenumu:
 
     $ nix-env -q --available
 
@@ -1156,8 +1156,8 @@ estas la valoro liverita per la funkcion `fetchurl` voki, per alia atribuara arg
 por la atribuo `url` devas esti aŭ spegula specifo, kiel priskribita en
 `pkgs/build-support/fetchurl/mirrors.nix`, aŭ kutima retejadreso. Tiukaze, la GNU-spegulon ni uzis
 kaj la variablon `name` ni interpolis ene tiu signovico. La valoro de la atribuo `sha256` estas la
-tiu, kiun ni akiris per je `nix-prefetch-url` kurigi kontraŭ la retejadreso. Por la kontrolsumon akiri
-de `hello-2.10`, kurigu:
+tiu, kiun ni akiris per je `nix-prefetch-url` plenumi kontraŭ la retejadreso. Por la kontrolsumon akiri
+de `hello-2.10`, plenumu:
 
 ```bash
 $ nix-prefetch-url http://ftpmirror.gnu.org/hello/hello-2.10.tar.gz
@@ -1168,7 +1168,7 @@ path is ‘/nix/store/3x7dwzq014bblazs7kq20p9hyzz0qh8g-hello-2.10.tar.gz’
 
 Ĝi kongruas al la SHA256-specifo ĉi-supre.
 
-La atribuo `doCheck` instruas al Nix la testojn kurigi por ĉi tiu pako.
+La atribuo `doCheck` instruas al Nix la testojn plenumi por ĉi tiu pako.
 
 La valoro de la atribuo `meta` estas alia atribuara specifo por aliaj detaloj pri la
 pako. Nix-programojn la valoroj precizigitaj ĉi tie helpas por la pakon klasi, inter aliaj
@@ -1199,7 +1199,7 @@ Tiam, la pakon muntu:
     $ nix-build -A hello
 
 Se la kunmetaĵo sukcesis, aperos simbolligilo nomata `result` en la aktuala dosierujo. Ĉi tiu
-simbolligilo montras al dosierindiko en `/nix/store`. La programon ni kurigu:
+simbolligilo montras al dosierindiko en `/nix/store`. La programon ni plenumu:
 
     $ ./result/bin/hello
     Hello, world!
@@ -1354,7 +1354,7 @@ ziŝon instalante per nix-env:
     $ nix-env -iA nixos.zsh
 
 Ziŝo fariĝos specife disponebla por la uzanto kiu ĝin alvokas. Se `johano` estas la uzanto kiu tiun
-komandon kurigis, tiam la ziŝa duumdosiero disponebliĝos kiel
+komandon plenumis, tiam la ziŝa duumdosiero disponebliĝos kiel
 `/home/johano/.nix-profile/bin/zsh`. Se ziŝon la uzanto `mario` ankoraŭ ne instalis en sia profilo,
 tiam ĝi ne disponeblas por ĝi. Se la saman kanalon kiel Johano, Mario havas, kaj la saman
 *nix-env*-komandon ĝi kuris, tiam la ziŝan programan datumon Nix ne plu bezonas elŝuti el
@@ -1386,7 +1386,7 @@ instalita:
 
 Se tio estas la kazo, bone. Aliokaze, la *GNU Hello*-pakon unue forigi.
 
-Nu, por je nix-shell montri, je GNU Hello ni kurigu en nix-shell, tiam ĝi revenos al la kutima
+Nu, por je nix-shell montri, je GNU Hello ni plenumu en nix-shell, tiam ĝi revenos al la kutima
 uzantŝelo.
 
     $ nix-shell --packages hello --pure --run hello
@@ -1395,7 +1395,7 @@ uzantŝelo.
     hello not found
 
 Kion ĉi tio faras, estas, ke la duumpakon por GNU Hello ĝi elŝutos, puran ŝelan medion kreante, tiam
-progresas por la duumdosieron `hello` kurigi, kiu la konatan saluton montros al la ekrano. Se la
+progresas por la duumdosieron `hello` plenumi, kiu la konatan saluton montros al la ekrano. Se la
 `‑‑run` opcio estas forigita, ni faliĝos en ŝelo:
 
     $ nix-shell --packages hello --pure
@@ -1478,7 +1478,7 @@ pkgs.stdenv.mkDerivation {
   buildInputs = [ pkgs.hello pkgs.emem ];
 ```
 
-Por ĉi tiun esprimon manĝigi al nix-shell, ambaŭ je *hello* kaj *emem* uzante, kurigu:
+Por ĉi tiun esprimon manĝigi al nix-shell, ambaŭ je *hello* kaj *emem* uzante, plenumu:
 
     $ nix-shell --pure --run "hello | emem -w"
     <p>Hello, world!</p>
