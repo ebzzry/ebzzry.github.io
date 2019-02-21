@@ -3,12 +3,12 @@ Ziŝkonsiletoj 3-a: Ŝanĝradikighelpiloj
 
 <div class="center">Esperanto · [English](/en/zsh-tips-3/)</div>
 <div class="center">la 26-an de septembro 2018</div>
-<div class="center">Laste ĝisdatigita: la 28-an de septembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 21-an de februaro 2019</div>
 
 >Ni ridas pri tio, kion ni ne povas toleri por alfronti.<br>
 >―Aristotelo
 
-Teĥnologioj kiel Dakero, *QEMU*, kaj *VirtualBox* estas bonegaj iloj kiam procezojn oni volas kurigi
+Teĥnologioj kiel Dakero, *QEMU*, kaj *VirtualBox* estas bonegaj iloj kiam procezojn oni volas plenumi
 aparte de la gastiga sistemo. Tute izolitajn mediojn ĉi tiuj teĥnikoj provizas al ni kiuj la
 reprodukteblecon de kodo plifaciligas testi. Tamen, estas okazoj en kiu ĉi tiuj solvoj tro pezas,
 kaj ion malplipezan ni bezonas. Eniras ŝanĝradikigado. Male al siaj pliplezaj amikoj, ŝanĝradikigado
@@ -35,7 +35,7 @@ al ziŝo mi uzas—aŭ alie malfacila por fari en aliaj ŝeloj—tiun paĝtitolo
 <a name="superrigardo"></a>Superrigardo
 ---------------------------------------
 
-Kelkfoje komandojn de aliaj sistemoj mi bezonas rapide kurigi, ekzemple, de Ubunto, por ke mian
+Kelkfoje komandojn de aliaj sistemoj mi bezonas rapide plenumi, ekzemple, de Ubunto, por ke mian
 programaron mi povu testi, kun daŭra konservaj mekanismoj kaj aliro al sistemduumdosieroj. Aliaj
 opcioj estas laborintensivaj kaj la taskojn mi povas kuri rapide, kaj nun.
 
@@ -189,7 +189,7 @@ function cr () {
 }
 ```
 
-La ŝanĝojn konservu, tiam la redaktilon fermu. Post tio, novan ŝelon kurigu por ke la novaj komandoj
+La ŝanĝojn konservu, tiam la redaktilon fermu. Post tio, novan ŝelon plenumu por ke la novaj komandoj
 estu legitaj de la startiga dosiero.
 
 
@@ -204,14 +204,14 @@ La daton de la uname-komando ni ankaŭ vidu:
 
     % cr uname -a
 
-Je `cr` oni ankaŭ povas kurigi por eniri al ŝelo:
+Je `cr` oni ankaŭ povas plenumi por eniri al ŝelo:
 
     % cr
 
 Ene ĉi tiu ŝelo, aliron al la ekstermedio la aktuala medio havas, inkluzive la hejmdosierujon. Onin
 ĉi tio permesas por apojn instali kiu la datumon en la gastiga maŝina medio povas aliri.
 
-Se la ŝanĝradikigmedion oni volas malŝalti eksplicite, kurigu:
+Se la ŝanĝradikigmedion oni volas malŝalti eksplicite, plenumu:
 
     % cru
 
@@ -219,5 +219,5 @@ Se la ŝanĝradikigmedion oni volas malŝalti eksplicite, kurigu:
 <a name="finrimarkoj"></a>Finrimarkoj
 -------------------------------------
 
-Medion havante por programojn testi kaj programojn kurigi kiuj estas ekskluzivaj al tiu platformo,
+Medion havante por programojn testi kaj programojn plenumi kiuj estas ekskluzivaj al tiu platformo,
 en malpli peza medio, certe estas helpema aldono.
