@@ -3,7 +3,7 @@ Symbols and Marks
 
 <div class="center">[Esperanto](/eo/signoj-interpunkcioj/) · English</div>
 <div class="center">April 8, 2016</div>
-<div class="center">Last updated: February 11, 2019</div>
+<div class="center">Last updated: February 21, 2019</div>
 
 >If you want to achieve greatness, stop asking for permission.<br>
 >―Eddie Colla
@@ -228,7 +228,11 @@ With that, another common mistake is to use the left single quote instead of the
 
 With this in mind, ’90s means the years 1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, and 1999.
 
-When expressing textual omissions, the correct character is the right single quote, not the left one. For example, let’s look at the contraction of “It is” in “It is the season.”
+When expressing textual omissions and contractions, the correct character is the
+[right](https://unicode-search.net/unicode-namesearch.pl?term=%E2%80%99&.submit=Search) single
+quote, not the
+[left](https://unicode-search.net/unicode-namesearch.pl?term=%E2%80%98&.submit=Search) one. For example,
+let’s look at the contraction of “It is” in “It is the season.”
 
 - Wrong: ‘Tis the season.
 - Correct: ’Tis the season.
