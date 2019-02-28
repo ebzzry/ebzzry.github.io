@@ -3,7 +3,7 @@ Reflections
 
 <div class="center">[Esperanto](/eo/pripensoj/) · English</div>
 <div class="center">November 24, 2015</div>
-<div class="center">Last updated: February 10, 2019</div>
+<div class="center">Last updated: February 26, 2019</div>
 
 This page contains contains some of my personal reflections. Entries are sorted in chronological order.
 
@@ -338,3 +338,9 @@ This page contains contains some of my personal reflections. Entries are sorted 
 
 - In a noisy room, if you want to be heard, wait for the moment wherein everyone has stopped
   talking. Then, speak. Then, one becomes heard.<br>
+
+
+- When a cult becomes mainstream, it becomes a religion.<br>
+
+
+- If you know all pain, you become master of pleasure.<br>

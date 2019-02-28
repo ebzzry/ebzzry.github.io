@@ -3,7 +3,7 @@ Milda Enkonduko al la Nix-Familio
 
 <div class="center">Esperanto · [English](/en/nix/)</div>
 <div class="center">la 5-an de aŭgusto 2018</div>
-<div class="center">Laste ĝisdatigita: la 21-an de februaro 2019</div>
+<div class="center">Laste ĝisdatigita: la 27-an de februaro 2019</div>
 
 >Ne maltrankviliĝu pri tio, kion la aliaj faros. La plej bona maniero por la estontecon antaŭdiri
 >estas per tion eltrovi.<br>
@@ -1550,17 +1550,17 @@ La surmetan sistemon uzi por novajn pakojn krei estas ideala se la pakon oni ne 
 Nixpkgs, ĝin oni volos esti privata, aŭ novan infrastukturon oni volas aldoni sen la ekstran
 komplekson trakti.
 
-Ni supozu, ke je [libu8](https://github.com/beingmeta/libu8), portebla UTF-8-biblioteko, oni volas
+Ni supozu, ke je [kapo](https://github.com/ebzzry/kapo)—Vagrant-helpilon—oni volas
 pakigi. Por tion fari, du aĵojn oni skribos:
 
 1. la supran surmetan dosieron en `~/.config/nixpkgs/overlays/`; kaj
-2. la Nix-esprimo kiu je _libu8_ fakte kreas.
+2. la Nix-esprimo kiu je _kapo_ fakte kreas.
 
-Por #1, la dosieron `~/.config/nixpkgs/overlays/libu8.nix` kreu per la jena enhavo:
+Por #1, la dosieron `~/.config/nixpkgs/overlays/kapo.nix` kreu per la jena enhavo:
 
 ```
 self: super: {
-  libu8 = super.callPackage ./pkgs/libu8 { };
+  kapo = super.callPackage ./pkgs/kapo { };
 }
 ```
 
@@ -1568,55 +1568,47 @@ Tiam, por #2, la dosierarbon kreu por la esprimo. Tenu en la kalkulo, ke ne devi
 `pkgs`:
 
     $ cd ~/.config/nixpkgs/overlays
-    $ mkdir -p pkgs/libu8
+    $ mkdir -p pkgs/kapo
 
-Tiam la dosieron `~/.config/nixpkgs/overlays/pkgs/libu8/default.nix` keru per la jena enhavo:
+Tiam la dosieron `~/.config/nixpkgs/overlays/pkgs/kapo/default.nix` keru per la jena enhavo:
 
 ```nix
-{ stdenv, fetchFromGitHub }:
+{ stdenv, fetchFromGitHub, bash }:
 
 stdenv.mkDerivation rec {
-  name = "libu8-${version}";
-  version = "2.6.7";
+  name = "kapo-${version}";
+  version = "0.0.1";
 
   src = fetchFromGitHub {
-    owner = "beingmeta";
-    repo = "libu8";
-    rev = "d17327ddd5465ce8a6708817e7430f87e6e19b13";
-    sha256 = "1gip2zpi01vbl4zcadms0iwh3zmhhysjfkp1ycmp7ri4hb55gsqh";
+    owner = "ebzzry";
+    repo = "kapo";
+    rev = "abd22b4860f83fe7469e8e40ee50f0db1c7a5f2c";
+    sha256 = "0jh0kdc7z8d632gwpvzclx1bbacpsr6brkphbil93vb654mk16ws";
   };
 
-  doCheck = true;
+  buildPhase = ''
+    substituteInPlace kapo --replace "/usr/bin/env bash" "${bash}/bin/bash"
+  '';
 
   installPhase = ''
-    mkdir -p $out/lib
-    mkdir -p $out/include/libu8
-
-    cp lib/* $out/lib
-    cp include/libu8/* $out/include/libu8
+    mkdir -p $out/bin
+    cp kapo $out/bin
+    chmod +x $out/bin/kapo
   '';
 
   meta = with stdenv.lib; {
-    description = "Portable UTF-8 and general system library";
-    homepage = https://github.com/beingmeta/libu8;
-    license = licenses.lgpl2;
-    platforms = platforms.unix;
+    description = "Vagrant helper";
+    homepage = https://github.com/ebzzry/kapo;
+    license = licenses.cc0;
     maintainers = [ maintainers.ebzzry ];
+    platforms = platforms.all;
   };
 }
 ```
 
-Per tiuj du dosieroj, je _libu8_ oni nun povas instali nur por ĝi:
+Per tiuj du dosieroj, je _kapo_ oni nun povas instali:
 
-    $ nix-env -iA $(nix-channel --list | awk '{print $1}').libu8
-
-aŭ ĝin oni povas havi kiel dependeco en alia derivaĵo:
-
-```nix
-{stdenv, libu8, etc }:
-
-...
-```
+    $ nix-env -iA $(nix-channel --list | awk '{print $1}').kapo
 
 
 <a name="finrimarkoj"></a>Finrimarkoj
