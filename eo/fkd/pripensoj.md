@@ -3,7 +3,7 @@ Pripensoj
 
 <div class="center">Esperanto · [English](/en/reflections/)</div>
 <div class="center">la 3-an de novembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 10-an de februaro 2019</div>
+<div class="center">Laste ĝisdatigita: la 26-an de februaro 2019</div>
 
 Kelke da miaj propraj pripensoj ĉi tiu paĝo enhavas. Ordigatas la enskriboj laŭ kronologiordo.
 
@@ -343,3 +343,9 @@ Kelke da miaj propraj pripensoj ĉi tiu paĝo enhavas. Ordigatas la enskriboj la
 
 - En brua ĉambro, se oni volas esti aŭdota, la momenton atendu en kie ĉiuj jam ĉesis paroli. Tiam
   parolu. Tiam iĝas aŭdata oni.<br>
+
+
+- Kiam kulto fariĝas populara, ĝi fariĝas religio.<br>
+
+
+- Se ĉiom da doloro oni scias, oni fariĝas mastro de plezuro.<br>
