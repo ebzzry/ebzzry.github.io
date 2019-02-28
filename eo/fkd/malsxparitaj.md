@@ -3,7 +3,7 @@ Malŝparitaj Malcedemoj
 
 <div class="center">Esperanto · [English](/en/squandered/)</div>
 <div class="center">la 5-an de decembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 4-an de februaro 2019</div>
+<div class="center">Laste ĝisdatigita: la 25-an de februaro 2019</div>
 
 >La unua paŝo por iri ien, estas decidi, ke oni ne restos kie oni estas.<br>
 >―J.P. MORGAN
@@ -64,7 +64,7 @@ senti pri tio, kio antaŭmetatas sur la instituciigitaj teleroj, sen la plej min
 apogiĝi ĝis elpensi demandojn.
 
 La socio, kiu ni ĉiuj estas parto de ĝi, estas parto de la malsano. Ĉi tiu malsano estas tio, kion
-ni ja helpas vastigi, el ĝia eko. Ĉi tiu ero estas la tio, kion ni ja forte prilaboradis por formi
+ni ja helpas vastigi, el ĝia eko. Ĉi tiu ero estas tio, kion ni ja forte prilaboradis por formi
 niajn proprajn sencojn de individueco. Ni volis antaŭiĝi, kaj jam ĉio, kion ni faras, estas simple
 miksiĝi. Kiel imponega ĉasisto fariĝas tiel obea, ke li fariĝis la kapto mem? Kial ni forĵetas niajn
 ĵetlancojn, kiam ĝi estas la tiuj, kiujn ni havas, donante al ni la kapablon por kontraŭe batali?
