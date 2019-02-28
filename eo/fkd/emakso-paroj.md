@@ -3,7 +3,7 @@ Emakso kaj Paroj
 
 <div class="center">Esperanto · [English](/en/emacs-pairs/)</div>
 <div class="center">la 9-an de julio 2018</div>
-<div class="center">Laste ĝisdatigita: la 1-an de februaro 2019</div>
+<div class="center">Laste ĝisdatigita: la 25-an de februaro 2019</div>
 
 >La blanka bruo kiu batas ene la blanka mallumo estas la ritmo de la vivo; estas la pulso kiu
 >neniam vere foriris la podion.<br>
@@ -72,7 +72,7 @@ Je smartparens oni ŝaltu en la startigo, kaj ĝin oni kroĉu al egaj kroĉiloj:
 
 Parigitajn signojn kiel rondaj krampoj, kurbaj krampoj, kvadrataj krampoj, citiloj, angulaj
 krampoj, kaj aliaj koncepteblaj parigeblaj signoj mastrumi jam ĉiam doloras. Tiun
-problemon aliaj pakoj solvas parte. Bedaŭrinde, kelkajn punktojn ili maltrafas.
+problemon aliaj pakoj solvas parte. Bedaŭrinde, kelkaj punktoj mankas al ili.
 
 En la kodetoj ĉi-sube, la ĉapelo (^) simbolo estos uzita por la
 [punkton](https://www.gnu.org/software/emacs/manual/html_node/elisp/Point.html) reprezenti.

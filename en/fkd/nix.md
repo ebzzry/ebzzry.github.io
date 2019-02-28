@@ -3,7 +3,7 @@ A Gentle Introduction to the Nix Family
 
 <div class="center">[Esperanto](/eo/nix/) · English</div>
 <div class="center">March 22, 2017</div>
-<div class="center">Last updated: February 16, 2019</div>
+<div class="center">Last updated: February 27, 2019</div>
 
 >Don’t worry about what anybody else is going to do. The best way to predict the future is to
 >invent it.<br>
@@ -1560,72 +1560,63 @@ Using the overlay system to create new packages is ideal if you don’t want to 
 of Nixpkgs, you want to make it private, or you want to add a new infrastructure without handling
 the extra complexity.
 
-Let’s say you want to package [libu8](https://github.com/beingmeta/libu8), a portable UTF-8
-library. To do that, you’ll be writing two things:
+Let’s say you want to package [kapo](https://github.com/ebzzry/kapo)—a Vagrant helper. To do that, you’ll be writing two things:
 
 1. the top-level overlay file in `~/.config/nixpkgs/overlays/`; and
-2. the Nix expression that will actually build _libu8_.
+2. the Nix expression that will actually build _kapo_.
 
-For #1, create the file `~/.config/nixpkgs/overlays/libu8.nix` with the following contents:
+For #1, create the file `~/.config/nixpkgs/overlays/kapo.nix` with the following contents:
 
 ```
 self: super: {
-  libu8 = super.callPackage ./pkgs/libu8 { };
+  kapo = super.callPackage ./pkgs/kapo { };
 }
 ```
 
 Then, for #2, create the directory tree for the expression. Take note that it doesn’t have to have the name `pkgs`:
 
     $ cd ~/.config/nixpkgs/overlays
-    $ mkdir -p pkgs/libu8
+    $ mkdir -p pkgs/kapo
 
-Then create the file `~/.config/nixpkgs/overlays/pkgs/libu8/default.nix` with the following contents:
+Then create the file `~/.config/nixpkgs/overlays/pkgs/kapo/default.nix` with the following contents:
 
 ```nix
-{ stdenv, fetchFromGitHub }:
+{ stdenv, fetchFromGitHub, bash }:
 
 stdenv.mkDerivation rec {
-  name = "libu8-${version}";
-  version = "2.6.7";
+  name = "kapo-${version}";
+  version = "0.0.1";
 
   src = fetchFromGitHub {
-    owner = "beingmeta";
-    repo = "libu8";
-    rev = "d17327ddd5465ce8a6708817e7430f87e6e19b13";
-    sha256 = "1gip2zpi01vbl4zcadms0iwh3zmhhysjfkp1ycmp7ri4hb55gsqh";
+    owner = "ebzzry";
+    repo = "kapo";
+    rev = "abd22b4860f83fe7469e8e40ee50f0db1c7a5f2c";
+    sha256 = "0jh0kdc7z8d632gwpvzclx1bbacpsr6brkphbil93vb654mk16ws";
   };
 
-  doCheck = true;
+  buildPhase = ''
+    substituteInPlace kapo --replace "/usr/bin/env bash" "${bash}/bin/bash"
+  '';
 
   installPhase = ''
-    mkdir -p $out/lib
-    mkdir -p $out/include/libu8
-
-    cp lib/* $out/lib
-    cp include/libu8/* $out/include/libu8
+    mkdir -p $out/bin
+    cp kapo $out/bin
+    chmod +x $out/bin/kapo
   '';
 
   meta = with stdenv.lib; {
-    description = "Portable UTF-8 and general system library";
-    homepage = https://github.com/beingmeta/libu8;
-    license = licenses.lgpl2;
-    platforms = platforms.unix;
+    description = "Vagrant helper";
+    homepage = https://github.com/ebzzry/kapo;
+    license = licenses.cc0;
     maintainers = [ maintainers.ebzzry ];
+    platforms = platforms.all;
   };
 }
 ```
 
-With those two files in place, you can now install _libu8_ by itself:
+With those two files in place, you can now install _kapo_:
 
-    $ nix-env -iA $(nix-channel --list | awk '{print $1}').libu8
-
-or have it as a dependency in another derivation:
-
-```nix
-{stdenv, libu8, etc }:
-
-...
-```
+    $ nix-env -iA $(nix-channel --list | awk '{print $1}').kapo
 
 
 <a name="closing"></a> Closing remarks
