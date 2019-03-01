@@ -3,7 +3,7 @@ Reflections
 
 <div class="center">[Esperanto](/eo/pripensoj/) · English</div>
 <div class="center">November 24, 2015</div>
-<div class="center">Last updated: February 26, 2019</div>
+<div class="center">Last updated: March 1, 2019</div>
 
 This page contains contains some of my personal reflections. Entries are sorted in chronological order.
 
@@ -340,7 +340,11 @@ This page contains contains some of my personal reflections. Entries are sorted 
   talking. Then, speak. Then, one becomes heard.<br>
 
 
+- If you know all kinds pain, you become master of pleasure.<br>
+
+
 - When a cult becomes mainstream, it becomes a religion.<br>
 
 
-- If you know all pain, you become master of pleasure.<br>
+- If execution by electrocution was already invented in the time of Jesus, gigantic electric chairs
+  would be hanging on the altars of Catholic churces.<br>
