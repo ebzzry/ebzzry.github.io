@@ -3,7 +3,7 @@ Pripensoj
 
 <div class="center">Esperanto · [English](/en/reflections/)</div>
 <div class="center">la 3-an de novembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 26-an de februaro 2019</div>
+<div class="center">Laste ĝisdatigita: la 1-an de marto 2019</div>
 
 Kelke da miaj propraj pripensoj ĉi tiu paĝo enhavas. Ordigatas la enskriboj laŭ kronologiordo.
 
@@ -345,7 +345,11 @@ Kelke da miaj propraj pripensoj ĉi tiu paĝo enhavas. Ordigatas la enskriboj la
   parolu. Tiam iĝas aŭdata oni.<br>
 
 
+- Se ĉiom da doloro oni scias, oni fariĝas mastro de plezuro.<br>
+
+
 - Kiam kulto fariĝas populara, ĝi fariĝas religio.<br>
 
 
-- Se ĉiom da doloro oni scias, oni fariĝas mastro de plezuro.<br>
+- Se elektroekzekutado estis jam elpensita en la tempo de Jesuo, gigantaj elektraj seĝoj nun
+  pendus sur la altaroj de katolikaj preĝejoj.<br>
