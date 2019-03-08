@@ -3,7 +3,7 @@ Citaĵoj
 
 <div class="center">Esperanto · [English](/en/quotes/)</div>
 <div class="center">la 15-an de novembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 21-an de februaro 2019</div>
+<div class="center">Laste ĝisdatigita: la 8-an de marto 2019</div>
 
 Liston de atenteme elektitaj citaĵoj, aforismoj, kaj sentencoj kiujn mi kolektis
 tra la jarojn ĉi tiu paĝo enhavas.
@@ -753,8 +753,8 @@ tra la jarojn ĉi tiu paĝo enhavas.
   ―Malnovbaratproverbo
 
 
-- Kelke da plej kernaj paŝoj en mensa kresko estas bazitaj ne simple sur novajn kapablojn akiri, sed
-  sur novajn administrajn manierojn akiri por la tiujn uzi, kiujn oni jam scias.<br>
+- Kelke da plej kernaj paŝoj en mensa kresko estas bazitaj ne simple pri novajn kapablojn akiri, sed
+  pri novajn administrajn manierojn akiri por tion uzi, kion oni jam scias.<br>
   ―Marvin MINSKY
 
 

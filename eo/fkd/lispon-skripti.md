@@ -3,12 +3,12 @@ Skriptado en Komunlispo
 
 <div class="center">Esperanto · [English](/en/script-lisp/)</div>
 <div class="center">la 24-an de septembro 2018</div>
-<div class="center">Laste ĝisdatigita: la 21-an de februaro 2019</div>
+<div class="center">Laste ĝisdatigita: la 8-an de marto 2019</div>
 
 >La lumo kiu fajras duoble brila, fajras duone longa.<br>
 >―D-ro. Eldon TYRELL, Blade Runner (1982)
 
-<img src="/bil/lisposimbolo.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="common-lisp.net emblemo" title="common-lisp.net emblemo"/>
+<img src="/bil/lispo-simbolo.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="common-lisp.net emblemo" title="common-lisp.net emblemo"/>
 
 Plenaj tutaj sistemoj kaj bibliotekoj estas ĉiam komfortaj areoj por komunlispaj
 uzantoj. Bedaŭrinde, de longe, ne ekzistis definitiva solvo en komunlispon uzi kiel skriptada
@@ -426,4 +426,4 @@ La priresponda homo por komunlispon igi ebla kaj akceptebla estas
 komunlispo kiel skriptada lingvo vidi. Oferdonjn oni povas doni al li per
 [PayPal](https://paypal.me/fahree) aŭ [Bitcoin](bitcoin:1fareF6wCNYYiLPGmyQjrd3AQdHBb1CJ6).
 
-La rubandbildo kiu uziĝas supre estas de [common-lisp.net](https://common-lisp.net/).
+La paĝa rubando kiu uziĝas supre estas de [common-lisp.net](https://common-lisp.net/).

@@ -5,6 +5,11 @@ A Gentle Introduction to Non-determinism in Scheme
 <div class="center">March 8, 2019</div>
 <div class="center">Last updated: March 8, 2019</div>
 
+>Some of the most crucial steps in mental growth are based not simply on acquiring new skills, but
+>on acquiring new administrative ways to use what one already knows.<br>
+>―Marvin Minsky
+
+<img src="/bil/wallhaven-333472-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-333472" title="wallhaven-333472"/>
 
 <a name="toc">Table of contents</a>
 -----------------------------------
@@ -604,4 +609,5 @@ The type of continuations that we dealt with is the
 that there’s an [argument](http://okmij.org/ftp/continuations/against-callcc.html) against the use
 of `call/cc`.
 
-Anyway, I hope that you learned something good from this post!
+Anyway, I hope that you learned something good from this post. The banner image used at the top is
+from [wallhaven](https://alpha.wallhaven.cc/wallpaper/333472) .
