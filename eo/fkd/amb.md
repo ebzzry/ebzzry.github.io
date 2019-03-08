@@ -142,8 +142,8 @@ la fluo de la komputo estas
 (+         3)
 ```
 
-Unue `(* 1 2)` taksiĝos tiam la rezulto fariĝas la unua argumento por `(+   3)`. En tiu vaka spaco,
-la restanta komputo estas
+Unue `(* 1 2)` taksiĝos tiam la rezulto fariĝas la unua argumento por `(+   3)`. En tiu malplena
+spaco, la restanta komputoestas
 
 ```scheme
 (lambda (v) (+ v 3))
