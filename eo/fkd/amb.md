@@ -5,6 +5,11 @@ Milda Enkonduko al Nedeterminismo en Skimo
 <div class="center">la 24-an de februaro 2019</div>
 <div class="center">Laste ĝisdatigita: la 8-an de marto 2019</div>
 
+>Kelke da plej kernaj paŝoj en mensa kresko estas bazitaj ne simple pri novajn kapablojn akiri, sed
+>pri novajn administrajn manierojn akiri por tion uzi, kion oni jam scias.<br>
+>―Marvin MINSKY
+
+<img src="/bil/wallhaven-333472-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-333472" title="wallhaven-333472"/>
 
 <a name="et">Enhavotabelo</a>
 -----------------------------
@@ -444,7 +449,7 @@ estas makroo por certigi, ke la argumentoj ne taksiĝos. Krome, listojn ĝi inte
                     (k (amb b ...))))           ; 15
           (k a)))))))                           ; 16
                                                 ; 17
-(define (cxu-vere? x y)                              ; 18
+(define (cxu-vere? x y)                         ; 18
   (if (equal? x y)                              ; 19
       (list x y)                                ; 20
       (amb)))                                   ; 21
@@ -599,4 +604,5 @@ La tipo de daŭrigoj, kiun oni traktis estis
 mencii, ke estas [argumento](http://okmij.org/ftp/continuations/against-callcc.html) kontraŭ la
 uzado de `call/cc`.
 
-Mi esperas, ke iel, bonan ion oni lernis el ĉi tiu afiŝo!
+Mi esperas, ke iel, bonan ion oni lernis el ĉi tiu afiŝo. La paĝa rubando kiu uziĝas supre estas de
+[wallhaven](https://alpha.wallhaven.cc/wallpaper/333472).

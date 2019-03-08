@@ -11,13 +11,13 @@ Dependencoj
 - [emem](https://github.com/ebzzry/emem)
 
 
-Munti
------
+Muntado
+-------
 
-Por la HTML-dosierojn generi, la jenan komandon kurigu:
+Por la HTML-dosierojn generi, la jenan komandon plenumu:
 
     $ make
 
-Se je Nix oni havas, anstataŭe eblas la jenan komandon kurigi:
+Se je Nix oni havas, eblas anstataŭe la jenan komandon plenumu:
 
     $ nix-shell --pure --run make
