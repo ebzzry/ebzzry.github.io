@@ -465,7 +465,7 @@ arguments are not evaluated. Additionally, it uses lists internally.
              (k 'no-choices)))))                ; 26
 ```
 
-These definitions work on [MIT Scheme](https://www.gnu.org/software/mit-scheme/),
+These definitions work on [MIT/GNU Scheme](https://www.gnu.org/software/mit-scheme/),
 [Guile](https://www.gnu.org/software/guile/), [Scheme48](http://s48.org/),
 [Scsh](https://scsh.net/), [chibi-scheme](http://synthcode.com/wiki/chibi-scheme),
 [Gerbil](https://cons.io/), [Chez Scheme](https://www.scheme.com/), [Chicken](http://call-cc.org/),
