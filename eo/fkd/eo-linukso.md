@@ -3,7 +3,7 @@ Esperanto-signoj en Linukso
 
 <div class="center">Esperanto · [English](/en/eo-linux/)</div>
 <div class="center">la 22-an de julio 2018</div>
-<div class="center">Laste ĝisdatigita: la 1-an de februaro 2019</div>
+<div class="center">Laste ĝisdatigita: la 8-an de marto 2019</div>
 
 >Se ion oni volas, kion oni neniam havis, oni devas esti servopreta tion fari, kion oni neniam
 >faris.<br>
@@ -93,7 +93,7 @@ Jen la tabuleto kiu la kombinadojn por la esperantaj signoj listigas.
 
 Pli rapida kaj pli facila manieroj por esperantajn signojn enigi estas per la uzo de la
 *Mode‎ߺ‎switch* klavo. Similas al *Multi‎ߺ‎key* klavon oni devas asigni al ĝi. Du klavojn mi ŝatas bindi
-por tiu celo por ke per du manojn mi povu tajpi. Male al *Multi‎ߺ‎key*, ĝin oni devas premi kaj
+por tiu celo por ke per du manojn mi povu maŝinskribi. Male al *Multi‎ߺ‎key*, ĝin oni devas premi kaj
 teni kiel la <kbd>Shift</kbd> aŭ <kbd>Ctrl</kbd> klavoj.
 
 Se la vindozklavojn oni volas uzi kiel la *Mode‎ߺ‎switch*-klavo, la `~/.Xmodmap` dosieron redaktu, tiam la
@@ -136,7 +136,7 @@ Tiam, je `~/.Xmodmap` reŝarĝu:
 
 Por la literon **ĉ** eniri, je 🐧 premu kaj tenu, tiam <kbd>c</kbd> klavon premu. Por la **Ŭ**
 literon eniri, je 🐧 premu kaj tenu, tiam je <kbd>Shift</kbd> premu, tiam je <kbd>u</kbd> premu. Per
-ĉi tiuj metodoj, onin permesas por senokultajpi.
+ĉi tiuj metodoj, onin permesas por senokulmaŝinskribi.
 
 En kelkaj klavaroj, estas nur unu vindozklavo, kutime lokitas maldekstre, dum la tiu dekstre estas
 la <kbd>PrtSc</kbd> klavo. Multfoje ili sandviĉitas inter la <kbd>Ctrl</kbd> kaj la

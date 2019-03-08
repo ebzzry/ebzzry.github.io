@@ -3,14 +3,14 @@ Ziŝkonsiletoj 4-a: Ĝeneralhelpiloj
 
 <div class="center">Esperanto · [English](/en/zsh-tips-4/)</div>
 <div class="center">la 26-an de septembro 2018</div>
-<div class="center">Laste ĝisdatigita: la 21-an de februaro 2019</div>
+<div class="center">Laste ĝisdatigita: la 8-an de marto 2019</div>
 
 >Vidpunkto meritas okdek poentojn da inteligentecaj kvocientoj.<br>
 >―Alan KAY
 
 Lastfoje, mi parolis pri la helpilaj funkcioj por asisti en la mastrumado de radikigmedioj. En ĉi
 tiu artikolo, mi parolos pri ĝeneralaj helpiloj por labori sur la komandlinio. Mi ankaŭ parolos pri
-helpemaj klavkombinoj por tajpadon plirapidigi.
+helpemaj klavkombinoj por maŝinskribadon plirapidigi.
 
 
 <a name="et"></a>Enhavotabelo
@@ -98,7 +98,7 @@ mi povas plenumi:
 
 ### <a name="d"></a>d
 
-Ofte, kiam mi iras al dosierujo, serion de komandoj mi bezonas plenumi. Tempon por tajpado mi volas
+Ofte, kiam mi iras al dosierujo, serion de komandoj mi bezonas plenumi. Tempon por maŝinskribado mi volas
 savi, do anstataŭ du komandojn plenumi, nur unu mi nur devas plenumi. Manieron por dosierujon rapide
 ŝanĝigi tra la dosierujstakoj per `pushd` mi volas havi. Ĝi estas difinita jene:
 
@@ -325,14 +325,14 @@ necese:
 <a name="klavkombinoj"></a>Klavkombinoj
 ---------------------------------------
 
-Ekster la komandoj kiuj estas tajpitaj, klavkombinoj oni ankaŭ povas alvoki por ajnajn komandojn
+Ekster la komandoj kiuj estas maŝinskribitaj, klavkombinoj oni ankaŭ povas alvoki por ajnajn komandojn
 fari. Jen kelkaj, kiujn mi uzas ofte:
 
 
 ### <a name="insertlastword"></a>insert-last-word
 
 Kiam la lastan vorton de la lasta komando mi volas enmeti, je `insert-last-word` mi vokas. Ekzemple,
-se la jenan oni havas, en kiu la ĉapelo estas la tajpmontrilo:
+se la jenan oni havas, en kiu la ĉapelo estas la kursoro:
 
     % dig hundo12345.kato.muzo.io
     % mtr
@@ -384,7 +384,7 @@ aŭ
 
     % foo $(some command)
 
-La antaŭa pli facilas por tajpi, tamen ĝi ne povas nestiĝi; la ĉi tiu estas tro malfacila por tajpi. Por tio, la klavkombinon <kbd>M-`</kbd> mi bindis jene:
+La antaŭa pli facilas por maŝinskribi, tamen ĝi ne povas nestiĝi; la ĉi tiu estas tro malfacila por maŝinskribi. Por tio, la klavkombinon <kbd>M-`</kbd> mi bindis jene:
 
     % bindkey -s '\e`' '$()\C-b'
 
