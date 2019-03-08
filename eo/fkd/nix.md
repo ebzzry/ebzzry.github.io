@@ -3,11 +3,13 @@ Milda Enkonduko al la Nix-Familio
 
 <div class="center">Esperanto · [English](/en/nix/)</div>
 <div class="center">la 5-an de aŭgusto 2018</div>
-<div class="center">Laste ĝisdatigita: la 27-an de februaro 2019</div>
+<div class="center">Laste ĝisdatigita: la 8-an de marto 2019</div>
 
 >Ne maltrankviliĝu pri tio, kion la aliaj faros. La plej bona maniero por la estontecon antaŭdiri
 >estas per tion eltrovi.<br>
 >―Alan KAY
+
+<img src="/bil/wallhaven-751942-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-333472" title="wallhaven-333472"/>
 
 Venas rare ideoj kiuj la manieron por komputado povas ŝanĝi. Multe da teĥnologio kiujn ni uzas nune
 nur estas ripetoj de la malnovaj—niveloj sur niveloj de kosmetikoj kiuj la malnovajn konceptojn
@@ -29,8 +31,8 @@ por la ŝelan inviton de la ĉefuzanto indiki. Estas fojoj kiam la
 pro la uzado de *sudo*.
 
 
-Enhavotabelo
-------------
+<a name="et"></a>Enhavotabelo
+-----------------------------
 
 - [NixOS](#nixos)
   + [Instalo](#nixosinstalo)
