@@ -3,26 +3,19 @@ Emakso kaj Paroj
 
 <div class="center">Esperanto · [English](/en/emacs-pairs/)</div>
 <div class="center">la 9-an de julio 2018</div>
-<div class="center">Laste ĝisdatigita: la 25-an de februaro 2019</div>
+<div class="center">Laste ĝisdatigita: la 9-an de marto 2019</div>
 
 >La blanka bruo kiu batas ene la blanka mallumo estas la ritmo de la vivo; estas la pulso kiu
 >neniam vere foriris la podion.<br>
 >―Ergo PROXY, Ergo Proxy
 
-En ĉi tiu artikolo, mi eksklusive parolas pri _smartparens_—tiu pako, kiun oni esperis, ke oni jam
-uzis antaŭe, supozante ĝin oni ne jam uzis. Se oni estas komencanto pri ĝi, laŭlegu; se ne, ĉi tio
-eble estas bona memorigilo.
-
-_smartparens_ estas unu el tiuj pakoj kiu draste plibonigas, kaj ŝanĝas kiel emakson oni
-uzas. Similas al kibernetikajn membrojn—onin igas por pli alte salti kaj pli forte pugnobati.
-
-Tenu en la kalkulo, ke la nomo malpravas tial, ke ne nur rondajn krampojn ĝi
-traktas. Ankaŭ iujn ajn kiuj pariĝas ĝi traktas, kaj ilin ĝi traktas stele.
+<img src="/bil/wallhaven-578010-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-578010" title="wallhaven-578010"/>
 
 
 <a name="et"></a>Enhavotabelo
 -----------------------------
 
+- [Enkonduko](#enkonduko)
 - [Instalo](#instalo)
 - [Agordaĵo](#agordajxo)
 - [Uzado](#uzado)
@@ -41,6 +34,20 @@ traktas. Ankaŭ iujn ajn kiuj pariĝas ĝi traktas, kaj ilin ĝi traktas stele.
     * [Mortigado](#mortigado)
 - [Klavoj](#klavoj)
 - [Finrimarkoj](#finrimarkoj)
+
+
+<a name="enkonduko"></a>Enkonduko
+---------------------------------
+
+En ĉi tiu artikolo, mi eksklusive parolas pri _smartparens_—tiu pako, kiun oni esperis, ke oni jam
+uzis antaŭe, supozante ĝin oni ne jam uzis. Se oni estas komencanto pri ĝi, laŭlegu; se ne, ĉi tio
+eble estas bona memorigilo.
+
+_smartparens_ estas unu el tiuj pakoj kiu draste plibonigas, kaj ŝanĝas kiel emakson oni
+uzas. Similas al kibernetikajn membrojn—onin igas por pli alte salti kaj pli forte pugnobati.
+
+Tenu en la kalkulo, ke la nomo malpravas tial, ke ne nur rondajn krampojn ĝi
+traktas. Ankaŭ iujn ajn kiuj pariĝas ĝi traktas, kaj ilin ĝi traktas stele.
 
 
 <a name="instalo"></a>Instalo
@@ -674,3 +681,5 @@ smartparens estas la elpensintaĵo de [Matus GOLJER](https://github.com/Fuco1). 
 pri smartparens, [ĉi tien](https://github.com/Fuco1/smartparens) iru. Se ĉi tiun projekton oni
 ŝatas, oni povas donaci
 [ĉi tie](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CEYP5YVHDRX8C).
+
+La paĝa rubando kiu uziĝas supre estas de [wallhaven](https://alpha.wallhaven.cc/wallpaper/578010).
