@@ -10,19 +10,11 @@ Scripting in Common Lisp
 
 <img src="/bil/lispo-simbolo.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="common-lisp.net logo" title="common-lisp.net logo"/>
 
-Full-fledged systems and libraries have always been a comfortable zone for Common Lisp
-users. However, for a long time, there has not been a definitive solution in using CL as a scripting
-language. A scripting language, in this context, means something that is similar in spirit to
-command line shells—that is, one that is used to issue, control, and manage system commands on the
-application level. The meaning also extends to the automation of the execution of tasks that are
-otherwise done one-by-one. In this article, I will give a short introduction on how to use CL in the
-scripting domain.
-
 
 <a name="toc"></a>Table of contents
 ------------------------------------
 
-- [Overview](#overview)
+- [Introduction](#introduction)
 - [Prerequisites](#prerequisites)
   + [Paths](#paths)
   + [Definitions](#definitions)
@@ -33,8 +25,16 @@ scripting domain.
 - [Closing remarks](#closing)
 
 
-<a name="overview"></a>Overview
---------------------------------
+<a name="introduction"></a>Introduction
+---------------------------------------
+
+Full-fledged systems and libraries have always been a comfortable zone for Common Lisp
+users. However, for a long time, there has not been a definitive solution in using CL as a scripting
+language. A scripting language, in this context, means something that is similar in spirit to
+command line shells—that is, one that is used to issue, control, and manage system commands on the
+application level. The meaning also extends to the automation of the execution of tasks that are
+otherwise done one-by-one. In this article, I will give a short introduction on how to use CL in the
+scripting domain.
 
 One of the most common questions I get when I mention that I want to do scripting in CL, is that why
 would I want to do so and is it possible. The answer is simple: I want more power and
