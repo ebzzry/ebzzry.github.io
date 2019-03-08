@@ -21,7 +21,7 @@ A Gentle Introduction to Non-determinism in Scheme
   + [Definition](#ambdefinition)
   + [Deconstruction](#ambdeconstruction)
   + [Evaluation](#ambevaluation)
-- [Closing remarks](#closingremarks)
+- [Closing remarks](#closing)
 
 
 <a name="introduction">Introduction</a>
@@ -32,8 +32,8 @@ there exists multiple possible continuations. The behavior of a computation can 
 same inputs. There are several methods to achieve nondeterminism. In this article the method that
 I’ll use is backtracking.
 
-Additionally, I’ll use [Scheme](https://en.wikipedia.org/wiki/Scheme_(programming_language)) to do
-it. In Scheme, you are permitted to go back in an early computation and back, later, with ease.
+Additionally, I’ll use [Scheme](https://goo.gl/zAHR9A) to do it. In Scheme, you are permitted to go
+back in an early computation and back, later, with ease.
 
 I will also discuss the prerequisite topics to make nondeterminism in Scheme easier to understand.
 
@@ -449,7 +449,7 @@ arguments are not evaluated. Additionally, it uses lists internally.
                     (k (amb b ...))))           ; 15
           (k a)))))))                           ; 16
                                                 ; 17
-(define (really? x y)                    ; 18
+(define (really? x y)                           ; 18
   (if (equal? x y)                              ; 19
       (list x y)                                ; 20
       (amb)))                                   ; 21
@@ -591,8 +591,8 @@ will be evaluated in the body of `really?` which finally returns
 ```
 
 
-<a name="closingremarks">Closing remarks</a>
---------------------------------------------
+<a name="closing">Closing remarks</a>
+-------------------------------------
 
 In this article, we noticed that with `call/cc` we have easily achieved non-determinism through
 backtracking with `amb` and basic Scheme functions. However, there are more elaborate and better
@@ -601,8 +601,7 @@ methods of achieving this.
 The type of continuations that we dealt with is the
 [non-delimited continuation](https://en.wikipedia.org/wiki/Continuation) in contrast with a
 [delimited continuation](https://en.wikipedia.org/wiki/Delimited_continuation). I must also mention,
-that`call/cc` may
-[not be the best construct](http://okmij.org/ftp/continuations/against-callcc.html) to achieve the
-goals of this article.
+that there’s an [argument](http://okmij.org/ftp/continuations/against-callcc.html) against the use
+of `call/cc`.
 
-Anyway, I hope that you still learned something good from this post!
+Anyway, I hope that you learned something good from this post!
