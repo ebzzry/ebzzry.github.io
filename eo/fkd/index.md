@@ -3,7 +3,7 @@ La Pensoj de Pedanto
 
 <div class="center">Esperanto · [English](/en/)</div>
 <div class="center">la 27-an de aprilo 2017</div>
-<div class="center">Laste ĝisdatigita: la 3-an de marto 2019</div>
+<div class="center">Laste ĝisdatigita: la 8-an de marto 2019</div>
 
 <img src="/bil/pluvis.jpg" class="banner" alt="pluvis" title="En la vizaĝo de la kosmo, ni ĉiuj estas porĉiame infanoj." />
 
