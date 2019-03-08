@@ -9,7 +9,7 @@ Milda Enkonduko al la Nix-Familio
 >estas per tion eltrovi.<br>
 >―Alan KAY
 
-<img src="/bil/wallhaven-751942-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-333472" title="wallhaven-333472"/>
+<img src="/bil/wallhaven-751942-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-751942" title="wallhaven-751942"/>
 
 
 <a name="et"></a>Enhavotabelo
@@ -1637,8 +1637,8 @@ eblojn de la Nix-ekosistemo kiuj plaĉas al mi, mi devas listigi, ili estas:
 
 Alia grava ano de la Nix-familio estas [NixOps](https://nixos.org/nixops); onin permesas por je
 NixOS disponigi sur «nudmetalaj» sistemoj, virtualaj sistemoj, aŭ la nubo, per la uzo de deklara
-aliro kiu estas konata al ni. Ĝi eblas disponigi al *VirtualBox*, *Amazon EC2*, *Google Compute Engine*,
-*Microsoft Azure*, *Hetzner*, *Digital Ocean*, kaj *Libvirtd*. Iru al la
+aliro kiu estas konata al ni. Ĝi eblas disponigi al *VirtualBox*, *Amazon EC2*,
+*Google Compute Engine*, *Microsoft Azure*, *Hetzner*, *Digital Ocean*, kaj *Libvirtd*. Iru al la
 [gvidilo](https://nixos.org/nixops/manual/) por pli da detalo.
 
 Fundajn detalojn pri generadoj, derivaĵoj, kaj efektivigadoj estis eliziadoj intence, en ĉi tiu
@@ -1646,41 +1646,43 @@ artikolo. Ili povas fariĝi sekcio per si mem, aŭ ĉi tiun artikolon mi eblas �
 temojn aldoni. Novan sekcion pri NixOs mi eblas skribi.
 
 Emaksa ĉefregimo por Nix-dosieroj haveblas de la [ĉefdeponejo](https://github.com/NixOS/nix-mode) de
-NixOS. Ĝi ankaŭ haveblas per [MELPA](https://melpa.org/#/nix-mode). Ĝin oni povas instali per:q
+NixOS. Ĝi ankaŭ haveblas per [MELPA](https://melpa.org/#/nix-mode). Ĝin oni povas instali per:
 
 ```
 M-x package-install EN nix-mode EN
 ```
 
 Ekzistas aliaj pakaj mastrumadaj sistemoj kiuj ĉi tiun problemareon ankaŭ provas solvi. La tiuj,
-kiujn mi konas estas [AppImage](http://appimage.org/), [Zero Install](http://0install.net/),
+kiujn mi konas estas [AppImage](http://appimage.org/), [Zero Install](http://0install.net/),
 [Snapcraft](https://snapcraft.io/), kaj [Flatpak](http://flatpak.org/).
 
-La [Guix System Distribution (GuixSD)](https://www.gnu.org/software/guix/) estas linuksa distribuo
+La [Guix System Distribution (GuixSD)](https://www.gnu.org/software/guix/) estas linuksa distribuo
 kiu estas bazita sur Nix. Je [Guile](https://www.gnu.org/software/guile/) ĝi uzas kiel sia
 API-lingvo. La kerna kontrasto inter GuixSD kaj NixOS, estas, je
-[GNU Shepherd](https://www.gnu.org/software/shepherd/) la tiu uzas anstataŭ systemd; neliberajn
+[GNU Shepherd](https://www.gnu.org/software/shepherd/) la tiu uzas anstataŭ systemd; neliberajn
 pakojn ĝi ne permesas; kaj je [Linux-libre](https://www.fsfla.org/ikiwiki/selibre/linux-libre/),
 malpligrandigita versio de la baza kerno kun ĉiom da komercaj aĵoj forigitaj, ĝi uzas. Pli da
 informo pri iliaj kontrastoj troveblas
-[ĉi tie](https://sandervanderburg.blogspot.de/2012/11/on-nix-and-gnu-guix.html).
+[ĉi tie](https://sandervanderburg.blogspot.de/2012/11/on-nix-and-gnu-guix.html).
 
 Ekster GuixSD, ekzistas aliaj projektoj kiujn Nix inspiris. Estas [Habitat](https://habitat.sh),
 aplikaĵa aŭtomacia framo; kaj [ied](https://github.com/alexanderGugel/ied), alterna paka
 administrilo por Node.js.
 
 La artikoloj de
-[Luca BRUNO](https://lethalman.blogspot.com/2014/07/nix-pill-1-why-you-should-give-it-try.html),
-[James FISHER](https://lethalman.blogspot.com/2014/07/nix-pill-1-why-you-should-give-it-try.html),
+[Luca BRUNO](https://lethalman.blogspot.com/2014/07/nix-pill-1-why-you-should-give-it-try.html),
+[James FISHER](https://lethalman.blogspot.com/2014/07/nix-pill-1-why-you-should-give-it-try.html),
 kaj
-[Oliver CHARLES](https://web.archive.org/web/20180610095602/https://ocharles.org.uk/blog/posts/2014-02-04-how-i-develop-with-nixos.html),
+[Oliver CHARLES](https://web.archive.org/web/20180610095602/https://ocharles.org.uk/blog/posts/2014-02-04-how-i-develop-with-nixos.html),
 kune la [NixOS](https://nixos.org/nixos/manual), [Nixpkgs](https://nixos.org/nixpkgs/manual),
 kaj [Nix](https://nixos.org/nix/manual) gvidiloj, min ege helpis por je Nix kompreni. Apartaj dankoj
-iras al [François-René RIDEAU](https://fare.livejournal.com) por min enkonduki al Nix antaŭ multaj jaroj.
+iras al [François-René RIDEAU](https://fare.livejournal.com) por min enkonduki al Nix antaŭ multaj jaroj.
 
 La NixOS-fondiĝo estas registrita senprofitcela organizo; la
 [oferdonoj](https://nixos.org/nixos/foundation.html) ege helpas en la disvolvo de Nix. Aliĝu al la
 [komunumo](https://nixos.org/nixos/community.html) kaj ĝin helpigu kreski!
+
+La paĝa rubando kiu uziĝas supre estas de [wallhaven](https://alpha.wallhaven.cc/wallpaper/751942).
 
 
 <a name="bonifiko"></a>Bonifiko
