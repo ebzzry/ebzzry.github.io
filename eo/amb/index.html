@@ -14,7 +14,7 @@
 </code></pre><p>En la esprimo</p><pre><code class="scheme">&#40;+ &#40;&#42; 1 2&#41; 3&#41;
 </code></pre><p>la fluo de la komputo estas</p><pre><code class="scheme">   &#40;&#42; 1 2&#41;
 &#40;+         3&#41;
-</code></pre><p>Unue <code>&#40;&#42; 1 2&#41;</code> taksiĝos tiam la rezulto fariĝas la unua argumento por <code>&#40;+   3&#41;</code>. En tiu vaka spaco, la restanta komputo estas</p><pre><code class="scheme">&#40;lambda &#40;v&#41; &#40;+ v 3&#41;&#41;
+</code></pre><p>Unue <code>&#40;&#42; 1 2&#41;</code> taksiĝos tiam la rezulto fariĝas la unua argumento por <code>&#40;+   3&#41;</code>. En tiu malplena spaco, la restanta komputo estas</p><pre><code class="scheme">&#40;lambda &#40;v&#41; &#40;+ v 3&#41;&#41;
 </code></pre><p>kaj la restanta operacio estas</p><pre><code class="scheme">&#40;&#40;lambda &#40;v&#41; &#40;+ v 3&#41;&#41; &#40;&#42; 1 2&#41;&#41;
 </code></pre><h2><a name="callcc">La call/cc-operatoro</a></h2><p>En skimo, la aktualan daŭrigon—la restantan komputon—oni povas kapti kiel variablo. Tion oni povas fari per <a href='https://scheme.com/tspl4/further.html#./further:h3'>call/cc</a>. Ĝi estas operatoro, kiu nur unu argumenton ekskluzive akceptas—<a href='/eo/lambdokalkulo/'>lambdon</a>—sennoman funcion, kun unu argumento:</p><pre><code class="scheme">&#40;call/cc &#40;lambda &#40;k&#41; k&#41;&#41;
 </code></pre><p>Se je <code>call/cc</code> oni ne havas, ĝin difinu per:</p><pre><code class="scheme">&#40;define call/cc call-with-current-continuation&#41;

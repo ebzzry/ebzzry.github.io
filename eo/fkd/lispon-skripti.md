@@ -42,7 +42,7 @@ kaj esprimpleneco mi volas havi. Maturan kaj nelimigitan lingvon mi volas havi. 
 ideojn povas esprimi en la malplej kiomo de froto mi volas havi.
 
 Skripto estas nur tiel potenca kiel la lingvo kaj iloj povus permesi. Baŝo kaj siaj amikoj,
-ekzemple, estas bonegaj por ideojn esprimi, tiel longe kiel komandojn oni tajpas sur la komandlinio
+ekzemple, estas bonegaj por ideojn esprimi, tiel longe kiel komandojn oni maŝinskribas sur la komandlinio
 mem. La konduton ene skripto ĝi imitas. Funkciojn oni povas difini por procedurojn fari, sed ili nur
 estas tiel. Funkcioj en Baŝo ne estas ie proksimaj al la funkcioj en lingvoj kiel komunlispo. Kiel
 interaga uzantŝelo, ĝi funkcias bone; escepte tio, ne.

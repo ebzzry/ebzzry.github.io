@@ -3,7 +3,7 @@ Migri de LiveJournal al Frog
 
 <div class="center">Esperanto · [English](/en/livefrog/)</div>
 <div class="center">la 7-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 28-an de januaro 2019</div>
+<div class="center">Laste ĝisdatigita: la 8-an de marto 2019</div>
 
 >Mi ne scias kien mi iras, sed mi estas sur mia vojo.<br>
 >―Carl SAGAN
@@ -162,7 +162,7 @@ livefrog, kaj denove instali ĝin:
 <a name="finrimarkoj"></a>Finrimarkoj
 -------------------------------------
 
-Por redukti tajpadon, oni povas krei alinomon de `raco livefrog` en via ŝelo.
+Por redukti maŝinskribadon, oni povas krei alinomon de `raco livefrog` en via ŝelo.
 
 Por sh- kaj sh-ecaj ŝeloj—sh, ash, DASH; mksh; Baŝo; kaj Ziŝo; respektive:
 

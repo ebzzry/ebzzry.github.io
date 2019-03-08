@@ -3,7 +3,7 @@ Mia Markdown-Stila Gvidilo
 
 <div class="center">Esperanto · [English](/en/markdown/)</div>
 <div class="center">la 24-an de septembro 2018</div>
-<div class="center">Laste ĝisdatigita: la 24-an de septembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 8-an de marto 2019</div>
 
 >La reglamentoj kiuj direktas cirkonstancojn nuliĝis per novaj cirkonstancoj.<br>
 >―Napoleono BONAPARTE
@@ -173,7 +173,7 @@ la kodbloko limigi:
 Listojn kreante, la streketon (-) mi ofte uzas por la nivelon 1-an indiki. Tiam, la pluson (+) mi
 uzas por la nivelon 2-an indiki. Fine, por la nivelo 3-a kaj malpli altaj, la steleton (*) mi uzas.
 
-La streketo pli facilas por tajpi sur klavaro ol la steleto. Oni ne estas devigita por la
+La streketo pli facilas por maŝinskribi sur klavaro ol la steleto. Oni ne estas devigita por la
 <kbd>Shift</kbd> klavon uzi sur kutimaj klavaroj. Kaj cetere, kontraste kun la steleto, pli koheran
 signobildon la streketo havas inter malsamaj litertipoj.
 
