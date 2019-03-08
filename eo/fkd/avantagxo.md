@@ -3,7 +3,7 @@ Mia Kinezia Avantaĝa Aranĝo
 
 <div class="center">Esperanto · [English](/en/advantage/)</div>
 <div class="center">la 12https://kinesis-ergo.com/shop/advantage2/-an de julio 2018</div>
-<div class="center">Laste ĝisdatigita: la 4-an de februaro 2019</div>
+<div class="center">Laste ĝisdatigita: la 8-an de marto 2019</div>
 
 >La doloro neeviteblas. La suferado malnepras.<br>
 >―M. Kathleen CASEY
@@ -31,9 +31,9 @@ da listoj, estas, klavaro devas esti ergonomia. Gravan kvaliton mi donos al tiuj
 gravas kiel ergonomie klavaro estas, se la rapidecan kategorion ĝi faligas. Ĝi devas esti komforta
 kaj rapida.
 
-La [Kinezia Avantaĝo](https://www.kinesis-ergo.com/wp-content/uploads/2015/01/kinesis_advantage_user_manual.pdf) estas la epitomo de
-tia kategorio. Ĝi ergonomias kaj rapidas. Se oni jam estas rutinhava tajpisto, oni
-povas trovi, ke post mallonga adaptiĝa tempodaŭro, oni eĉ tajpas pli rapide per la Avantaĝo.
+La [Kinezia Avantaĝo](https://www.kinesis-ergo.com/wp-content/uploads/2015/01/kinesis_advantage_user_manual.pdf) estas la epitomo de
+tia kategorio. Ĝi ergonomias kaj rapidas. Se oni jam estas rutinhava maŝinskribisto, oni
+povas trovi, ke post mallonga adaptiĝa tempodaŭro, oni eĉ maŝinskribas pli rapide per la Avantaĝo.
 
 Bedaŭrinde, la defaŭlta aranĝo de la klavoj ne konvenas por mi. La <kbd>Ctrl</kbd> kaj la
 <kbd>Alt</kbd> klavoj estas tre foraj por atingi. Ĉi tio gravas por uzantoj de programaro kiel
