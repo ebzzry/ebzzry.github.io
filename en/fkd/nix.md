@@ -9,7 +9,7 @@ A Gentle Introduction to the Nix Family
 >invent it.<br>
 >―Alan Kay
 
-<img src="/bil/wallhaven-751942-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-333472" title="wallhaven-333472"/>
+<img src="/bil/wallhaven-751942-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-751942" title="wallhaven-751942"/>
 
 
 <a name="toc"></a>Table of contents
@@ -1645,8 +1645,8 @@ had to list down the most important features of the Nix ecosystem that I like, t
 
 Another important member of the Nix family is [NixOps](https://nixos.org/nixops); it enables one to
 deploy NixOS on bare-metal machines, virtual machines, or cloud using the declarative approach that
-we are familiar with. It is able to deploy to VirtualBox, Amazon EC2, Google Compute Engine,
-Microsoft Azure, Hetzner, Digital Ocean, and Libvirtd. Head over to
+we are familiar with. It is able to deploy to VirtualBox, Amazon EC2, Google Compute Engine,
+Microsoft Azure, Hetzner, Digital Ocean, and Libvirtd. Head over to
 the [manual](https://nixos.org/nixops/manual/) for more details.
 
 In-depth details about instantiations, derivations, and realisations were elided on purpose, in this
@@ -1666,31 +1666,34 @@ ones that I’m aware of are
 [AppImage](http://appimage.org/), [Zero Install](http://0install.net/), [Snapcraft](https://snapcraft.io/),
 and [Flatpak](http://flatpak.org/).
 
-The [Guix System Distribution (GuixSD)](https://www.gnu.org/software/guix/) is a GNU/Linux distribution
-that is based on Nix. It uses [Guile](https://www.gnu.org/software/guile/) as its API language. The key differences between
-GuixSD and NixOS is that the former uses [GNU Shepherd](https://www.gnu.org/software/shepherd/)
-instead of systemd; it doesn’t allow non-free packages; and it
-uses [Linux-libre](https://www.fsfla.org/ikiwiki/selibre/linux-libre/), a stripped down version of
-the mainstream kernel with all the proprietary blobs removed. More information about their
-differences can be found [here](https://sandervanderburg.blogspot.de/2012/11/on-nix-and-gnu-guix.html).
+The [Guix System Distribution (GuixSD)](https://www.gnu.org/software/guix/) is a GNU/Linux
+distribution that is based on Nix. It uses [Guile](https://www.gnu.org/software/guile/) as its API
+language. The key differences between GuixSD and NixOS is that the former uses
+[GNU Shepherd](https://www.gnu.org/software/shepherd/) instead of systemd; it doesn’t allow non-free
+packages; and it uses [Linux-libre](https://www.fsfla.org/ikiwiki/selibre/linux-libre/), a stripped
+down version of the mainstream kernel with all the proprietary blobs removed. More information about
+their differences can be found
+[here](https://sandervanderburg.blogspot.de/2012/11/on-nix-and-gnu-guix.html).
 
-Aside from GuixSD, there are also other projects that Nix has inspired. There
-is [Habitat](https://habitat.sh), an application automation framework;
-and [ied](https://github.com/alexanderGugel/ied), an alternative package manager for Node.js.
+Aside from GuixSD, there are also other projects that Nix has inspired. There is
+[Habitat](https://habitat.sh), an application automation framework; and
+[ied](https://github.com/alexanderGugel/ied), an alternative package manager for Node.js.
 
-The articles
-of [Luca Bruno](https://lethalman.blogspot.com/2014/07/nix-pill-1-why-you-should-give-it-try.html),
-[James Fisher](https://lethalman.blogspot.com/2014/07/nix-pill-1-why-you-should-give-it-try.html),
-and [Oliver Charles](https://web.archive.org/web/20180610095602/https://ocharles.org.uk/blog/posts/2014-02-04-how-i-develop-with-nixos.html), together with
-the [NixOS](https://nixos.org/nixos/manual), [Nixpkgs](https://nixos.org/nixpkgs/manual),
-and [Nix](https://nixos.org/nix/manual) manuals, significantly helped me in understanding
-Nix. Special thanks goes to [François-René Rideau](https://fare.livejournal.com) for introducing me
-to Nix several years ago.
+The articles of
+[Luca Bruno](https://lethalman.blogspot.com/2014/07/nix-pill-1-why-you-should-give-it-try.html),
+[James Fisher](https://lethalman.blogspot.com/2014/07/nix-pill-1-why-you-should-give-it-try.html),
+and
+[Oliver Charles](https://web.archive.org/web/20180610095602/https://ocharles.org.uk/blog/posts/2014-02-04-how-i-develop-with-nixos.html),
+together with the [NixOS](https://nixos.org/nixos/manual),
+[Nixpkgs](https://nixos.org/nixpkgs/manual), and [Nix](https://nixos.org/nix/manual) manuals,
+significantly helped me in understanding Nix. Special thanks goes to
+[François-René Rideau](https://fare.livejournal.com) for introducing me to Nix several years ago.
 
 The NixOS Foundation is a registered non-profit organization;
 your [donations](https://nixos.org/nixos/foundation.html) will significantly help in the development
 of Nix. Join the [community](https://nixos.org/nixos/community.html) and help make it grow!
 
+The banner image used at the top is from [wallhaven](https://alpha.wallhaven.cc/wallpaper/751942).
 
 <a name="bonus"></a> Bonus
 --------------------------

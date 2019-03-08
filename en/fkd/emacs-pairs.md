@@ -3,26 +3,19 @@ Emacs and Pairs
 
 <div class="center">[Esperanto](/eo/emakso-paroj/) · English</div>
 <div class="center">August 15, 2015</div>
-<div class="center">Last updated: October 4, 2018</div>
+<div class="center">Last updated: March 9, 2019</div>
 
 >The white noise that beats within the white darkness is the rhythm of life; it is that pulse which
 >never truly left the stage.<br>
 >―Ergo Proxy, Ergo Proxy
 
-In this article, I’ll exclusively talk about _smartparens_—a package that you wish you should have
-used, earlier, presuming you don’t use it yet. If you’re new to it, read along; if not, this may be
-a good refresher.
-
-_smartparens_ is one of those packages that drastically improves, and changes how one uses
-Emacs. It’s like having cybernetic limbs—it makes you jump higher and punch harder.
-
-Take note, though, that the name is a misnomer, as it not only handles parentheses. It handles just
-about anything that pairs, and it performs those functions stellarly.
+<img src="/bil/wallhaven-578010-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-578010" title="wallhaven-578010"/>
 
 
 <a name="toc"></a>Table of contents
 -----------------------------------
 
+- [Introduction](#introduction)
 - [Installation](#installation)
 - [Configuration](#configuration)
 - [Usage](#usage)
@@ -41,6 +34,20 @@ about anything that pairs, and it performs those functions stellarly.
     * [Killing](#killing)
 - [Keys](#keys)
 - [Closing remarks](#closing)
+
+
+<a name="introduction"></a>Introduction
+---------------------------------------
+
+In this article, I’ll exclusively talk about _smartparens_—a package that you wish you should have
+used, earlier, presuming you don’t use it yet. If you’re new to it, read along; if not, this may be
+a good refresher.
+
+_smartparens_ is one of those packages that drastically improves, and changes how one uses
+Emacs. It’s like having cybernetic limbs—it makes you jump higher and punch harder.
+
+Take note, though, that the name is a misnomer, as it not only handles parentheses. It handles just
+about anything that pairs, and it performs those functions stellarly.
 
 
 <a name="installation"></a>Installation
@@ -670,3 +677,5 @@ smartparens is the brainchild of [Matus Goljer](https://github.com/Fuco1). For m
 on smartparens, go to [here](https://github.com/Fuco1/smartparens). If you like this project, you
 may
 donate [here](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CEYP5YVHDRX8C).
+
+The banner image used at the top is from [wallhaven](https://alpha.wallhaven.cc/wallpaper/578010).
