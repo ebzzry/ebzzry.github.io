@@ -3,12 +3,12 @@ Scripting in Common Lisp
 
 <div class="center">[Esperanto](/eo/lispon-skripti/) · English</div>
 <div class="center">July 5, 2017</div>
-<div class="center">Last updated: February 10, 2019</div>
+<div class="center">Last updated: March 8, 2019</div>
 
 >The light that burns twice as bright burns half as long.<br>
 >―Dr. Eldon Tyrell, Blade Runner (1982)
 
-<img src="/bil/lisposimbolo.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="common-lisp.net logo" title="common-lisp.net logo"/>
+<img src="/bil/lispo-simbolo.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="common-lisp.net logo" title="common-lisp.net logo"/>
 
 Full-fledged systems and libraries have always been a comfortable zone for Common Lisp
 users. However, for a long time, there has not been a definitive solution in using CL as a scripting
