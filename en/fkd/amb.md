@@ -11,16 +11,6 @@ A Gentle Introduction to Non-determinism in Scheme
 
 <img src="/bil/wallhaven-333472-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-333472" title="wallhaven-333472"/>
 
-Nondeterministic programming is a technique wherein the flow of an algorithm is not linear, and
-there exists multiple possible continuations. The behavior of a computation can also change with the
-same inputs. There are several methods to achieve nondeterminism. In this article the method that
-I’ll use is backtracking.
-
-Additionally, I’ll use [Scheme](https://goo.gl/zAHR9A) to do it. In Scheme, you are permitted to go
-back in an early computation and back, later, with ease.
-
-I will also discuss the prerequisite topics to make nondeterminism in Scheme easier to understand.
-
 
 <a name="toc">Table of contents</a>
 -----------------------------------
@@ -37,6 +27,20 @@ I will also discuss the prerequisite topics to make nondeterminism in Scheme eas
   + [Deconstruction](#ambdeconstruction)
   + [Evaluation](#ambevaluation)
 - [Closing remarks](#closing)
+
+
+<a name="introduction">Introduction</a>
+---------------------------------------
+
+Nondeterministic programming is a technique wherein the flow of an algorithm is not linear, and
+there exists multiple possible continuations. The behavior of a computation can also change with the
+same inputs. There are several methods to achieve nondeterminism. In this article the method that
+I’ll use is backtracking.
+
+Additionally, I’ll use [Scheme](https://goo.gl/zAHR9A) to do it. In Scheme, you are permitted to go
+back in an early computation and back, later, with ease.
+
+I will also discuss the prerequisite topics to make nondeterminism in Scheme easier to understand.
 
 
 <a name="cc">The current continuation</a>
