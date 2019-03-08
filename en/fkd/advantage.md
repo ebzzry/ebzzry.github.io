@@ -30,9 +30,11 @@ keyboard, however, can sometimes be a subject of debates. A common item that per
 that it has be ergonomic. I add to that list an important quality: speed. No matter how ergonomic a
 keyboard is, if it fails on the speed category. It has to be comfortable, and speedy.
 
-The [Kinesis Advantage](https://www.kinesis-ergo.com/wp-content/uploads/2015/01/kinesis_advantage_user_manual.pdf) is the epitome of
-such a criteria. It is ergonomic, and it is fast. If you are already proficient typist, you’ll find
-that after the small adjustment period, you’ll type even faster with the Advantage.
+The
+[Kinesis Advantage](https://www.kinesis-ergo.com/wp-content/uploads/2015/01/kinesis_advantage_user_manual.pdf)
+is the epitome of such a criteria. It is ergonomic, and it is fast. If you are already proficient
+typist, you’ll find that after the small adjustment period, you’ll type even faster with the
+Advantage.
 
 However, the default layout of the keys, however, doesn’t suit me. The <kbd>Ctrl</kbd> and
 <kbd>Alt</kbd> keys are too far to reach. This is important for users of software like Emacs and
