@@ -596,8 +596,7 @@ facile per `amb` kaj bazaj skimaj funkcioj. Tamen, estas aliaj pli detalaj kaj p
 La tipo de daŭrigoj, kiun oni traktis estis
 [nelimigita daŭrigo (angle)](https://en.wikipedia.org/wiki/Continuation) kontraste al
 [limigita daŭrigo (angle)](https://en.wikipedia.org/wiki/Delimited_continuation). Mi ankaŭ devas
-mencii, ke `call/cc` eble
-[ne estas la plej bona konstruo](http://okmij.org/ftp/continuations/against-callcc.html) por la
-celojn de ĉi tiu artikolo atingi.
+mencii, ke estas [argumento](http://okmij.org/ftp/continuations/against-callcc.html) kontraŭ la
+uzado de `call/cc`.
 
-Mi esperas, ke iel, bonan ion oni ankoraŭ lernis el ĉi tiu afiŝo!
+Mi esperas, ke iel, bonan ion oni lernis el ĉi tiu afiŝo!
