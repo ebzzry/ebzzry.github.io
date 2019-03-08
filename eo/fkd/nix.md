@@ -11,29 +11,11 @@ Milda Enkonduko al la Nix-Familio
 
 <img src="/bil/wallhaven-751942-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-333472" title="wallhaven-333472"/>
 
-Venas rare ideoj kiuj la manieron por komputado povas ŝanĝi. Multe da teĥnologio kiujn ni uzas nune
-nur estas ripetoj de la malnovaj—niveloj sur niveloj de kosmetikoj kiuj la malnovajn konceptojn
-ĉirkaŭkovras. Tutaj produktaj sistemoj estas bazitaj sur ĉi tiu manko de kreemo kaj
-lerteco. Malnovaj problemoj ne solvitas. Pentrante per novaj kolortonoj, la problemojn ĉi tiuj
-tielnomataj elpensemaj solvoj nure ĉirkaŭigas anstataŭe, pretendante ke almenaŭ, ĝin ili
-plikolorplenigis. Progreson ĉi tiu mensostato difektas en nekalkuleblaj manieroj. La falsan
-impreson, ke la solvoj fakte estas faritaj ĉi tio donas. Falsan senson de plibonigoj ĉi tio kreas.
-
-Antaŭ multaj jaroj siajn semajn [paperojn](https://nixos.org/~eelco/pubs/)
-[Eelco DOLSTRA](https://nixos.org/~eelco/) skribis, en kiu, la radikalajn manierojn por programaron
-disponigi li priskribis. La kernojn de [Nix](https://nixos.org/nix/), pure funkcia paka mastrumila
-lingvo kiu la malsanon solvis kiu la komputikon delonge plagis—kompatinda paka mastrumado—ĉi tiuj
-paperoj formis. En ĉi tiu artikolo mi parolos pri la Nix-familio, kaj kiel ĝin uzi por la avantaĝo.
-
-La dolarsigno ($) uzitos por la ŝelan inviton de normuzanto indiki, dum la kradsigno (#) uzitos
-por la ŝelan inviton de la ĉefuzanto indiki. Estas fojoj kiam la
-[EUID](https://en.wikipedia.org/wiki/User_identifier#Effective_user_ID) de komando estos nulo (0)
-pro la uzado de *sudo*.
-
 
 <a name="et"></a>Enhavotabelo
 -----------------------------
 
+- [Enkonduko](#enkonduko)
 - [NixOS](#nixos)
   + [Instalo](#nixosinstalo)
     * [La maŝinon ŝalti](#nixossxalti)
@@ -73,6 +55,29 @@ pro la uzado de *sudo*.
   + [Novaj pakoj](#surmetojnovajpakoj)
 - [Finrimarkoj](#finrimarkoj)
 - [Bonifiko](#bonifiko)
+
+
+<a name="enkonduko"></a>Enkonduko
+---------------------------------
+
+Venas rare ideoj kiuj la manieron por komputado povas ŝanĝi. Multe da teĥnologio kiujn ni uzas nune
+nur estas ripetoj de la malnovaj—niveloj sur niveloj de kosmetikoj kiuj la malnovajn konceptojn
+ĉirkaŭkovras. Tutaj produktaj sistemoj estas bazitaj sur ĉi tiu manko de kreemo kaj
+lerteco. Malnovaj problemoj ne solvitas. Pentrante per novaj kolortonoj, la problemojn ĉi tiuj
+tielnomataj elpensemaj solvoj nure ĉirkaŭigas anstataŭe, pretendante ke almenaŭ, ĝin ili
+plikolorplenigis. Progreson ĉi tiu mensostato difektas en nekalkuleblaj manieroj. La falsan
+impreson, ke la solvoj fakte estas faritaj ĉi tio donas. Falsan senson de plibonigoj ĉi tio kreas.
+
+Antaŭ multaj jaroj siajn semajn [paperojn](https://nixos.org/~eelco/pubs/)
+[Eelco DOLSTRA](https://nixos.org/~eelco/) skribis, en kiu, la radikalajn manierojn por programaron
+disponigi li priskribis. La kernojn de [Nix](https://nixos.org/nix/), pure funkcia paka mastrumila
+lingvo kiu la malsanon solvis kiu la komputikon delonge plagis—kompatinda paka mastrumado—ĉi tiuj
+paperoj formis. En ĉi tiu artikolo mi parolos pri la Nix-familio, kaj kiel ĝin uzi por la avantaĝo.
+
+La dolarsigno ($) uzitos por la ŝelan inviton de normuzanto indiki, dum la kradsigno (#) uzitos
+por la ŝelan inviton de la ĉefuzanto indiki. Estas fojoj kiam la
+[EUID](https://en.wikipedia.org/wiki/User_identifier#Effective_user_ID) de komando estos nulo (0)
+pro la uzado de *sudo*.
 
 
 <a name="nixos"></a>NixOS

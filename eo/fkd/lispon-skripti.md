@@ -10,19 +10,11 @@ Skriptado en Komunlispo
 
 <img src="/bil/lispo-simbolo.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="common-lisp.net emblemo" title="common-lisp.net emblemo"/>
 
-Plenaj tutaj sistemoj kaj bibliotekoj estas ĉiam komfortaj areoj por komunlispaj
-uzantoj. Bedaŭrinde, de longe, ne ekzistis definitiva solvo en komunlispon uzi kiel skriptada
-lingvo. Skriptada lingvo, en ĉi tiu kunteksto, signifas pri iu, kiu similas anime al komandliniaj
-ŝeloj—tio estas, iu kiu estas uzita por sistemkomandojn mastrumi kaj regi sur la apa nivelo. La
-signifo ankaŭ etendas al la aŭtomacioj de la plenumado de taskoj kiuj aliamaniere faritaj unu post
-alia. En ĉi tiu artikolo, mallongan enkondukon pri kiel komunlispon uzi en la skriptada areo mi
-priparolos.
-
 
 <a name="et"></a>Enhavotabelo
 -----------------------------
 
-- [Superrigardo](#superrigardo)
+- [Enkonduko](#enkonduko)
 - [Antaŭkondiĉoj](#antauxkondicxoj)
 - [Bazaj](#bazaj)
   + [Dosierindikoj](#dosierindikoj)
@@ -33,8 +25,16 @@ priparolos.
 - [Finrimarkoj](#finrimarkoj)
 
 
-<a name="superrigardo"></a>Superrigardo
----------------------------------------
+<a name="Enkonduko"></a>Enkonduko
+---------------------------------
+
+Plenaj tutaj sistemoj kaj bibliotekoj estas ĉiam komfortaj areoj por komunlispaj
+uzantoj. Bedaŭrinde, de longe, ne ekzistis definitiva solvo en komunlispon uzi kiel skriptada
+lingvo. Skriptada lingvo, en ĉi tiu kunteksto, signifas pri iu, kiu similas anime al komandliniaj
+ŝeloj—tio estas, iu kiu estas uzita por sistemkomandojn mastrumi kaj regi sur la apa nivelo. La
+signifo ankaŭ etendas al la aŭtomacioj de la plenumado de taskoj kiuj aliamaniere faritaj unu post
+alia. En ĉi tiu artikolo, mallongan enkondukon pri kiel komunlispon uzi en la skriptada areo mi
+priparolos.
 
 Unu el la plej oftaj demandoj kiun mi ricevas kiam mi diras, ke skriptadon mi volas fari per
 komunlispo, estas, kiel tion mi eĉ volas fari kaj tio maleblas. La respondo simplas: pli da potenco
