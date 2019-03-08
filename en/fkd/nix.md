@@ -11,30 +11,11 @@ A Gentle Introduction to the Nix Family
 
 <img src="/bil/wallhaven-751942-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-333472" title="wallhaven-333472"/>
 
-Ideas that change the way we do computing come rarely. A lot of the technology that we are using now
-are just re-hashes of old ones—layers upon layers of cosmetics enveloping old concepts. Entire
-product lines are based upon this lack of creativity and ingenuity. Old problems are not
-solved. Instead, these so-called innovative solutions merely pass around the problem while painting
-it with new shades, claiming that at least, they made it more colorful. This mentality harms
-progress in innumerable ways. This gives the false impression that solutions are actually being
-done. This creates a false sense of assurance of improvements.
-
-Several years ago [Eelco Dolstra](https://nixos.org/~eelco/) wrote the
-seminal [papers](https://nixos.org/~eelco/pubs/) that described radical ways to deploy
-software. These papers effectively formed the cornerstones of [Nix](https://nixos.org/nix/), a
-purely functional package manager language that solved the disease that plagued computing for a long
-time—poor package management. In this article I’ll talk about the Nix family, and how to use them to
-your advantage.
-
-The `$` symbol will be used to indicate the shell prompt for a regular user, while the `#` symbol
-will denote the shell for the root user. There are cases when
-the [EUID](https://en.wikipedia.org/wiki/User_identifier#Effective_user_ID) of a command will be
-zero (0) due to the use of sudo.
-
 
 <a name="toc"></a>Table of contents
 -----------------------------------
 
+- [Introduction](#introduction)
 - [NixOS](#nixos)
   + [Installation](#nixosinstallation)
     * [Boot machine](#nixosboot)
@@ -74,6 +55,30 @@ zero (0) due to the use of sudo.
   + [New packages](#overlaysnewpackages)
 - [Closing remarks](#closing)
 - [Bonus](#bonus)
+
+
+<a name="introduction"></a>Introduction
+---------------------------------------
+
+Ideas that change the way we do computing come rarely. A lot of the technology that we are using now
+are just re-hashes of old ones—layers upon layers of cosmetics enveloping old concepts. Entire
+product lines are based upon this lack of creativity and ingenuity. Old problems are not
+solved. Instead, these so-called innovative solutions merely pass around the problem while painting
+it with new shades, claiming that at least, they made it more colorful. This mentality harms
+progress in innumerable ways. This gives the false impression that solutions are actually being
+done. This creates a false sense of assurance of improvements.
+
+Several years ago [Eelco Dolstra](https://nixos.org/~eelco/) wrote the
+seminal [papers](https://nixos.org/~eelco/pubs/) that described radical ways to deploy
+software. These papers effectively formed the cornerstones of [Nix](https://nixos.org/nix/), a
+purely functional package manager language that solved the disease that plagued computing for a long
+time—poor package management. In this article I’ll talk about the Nix family, and how to use them to
+your advantage.
+
+The `$` symbol will be used to indicate the shell prompt for a regular user, while the `#` symbol
+will denote the shell for the root user. There are cases when
+the [EUID](https://en.wikipedia.org/wiki/User_identifier#Effective_user_ID) of a command will be
+zero (0) due to the use of sudo.
 
 
 <a name="nixos"></a> NixOS
