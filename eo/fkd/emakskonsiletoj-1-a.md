@@ -3,7 +3,7 @@ Emakskonsiletoj 1-a: Regionoj kaj Markoj
 
 <div class="center">Esperanto · [English](/en/emacs-tips-1/)</div>
 <div class="center">la 12-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 25-an de februaro 2019</div>
+<div class="center">Laste ĝisdatigita: la 8-an de marto 2019</div>
 
 Mi ankoraŭ bezonas trovi pli bonan redaktilon ol [emakso](https://www.gnu.org/software/emacs/). tio,
 kio igas emakson elstara, estas ĝia agorda lingvo—emaksa Lispo. Emakso uzas ĝin al punkto, en kiu,
@@ -27,7 +27,7 @@ aferojn, kiujn mi malkovris fari la uzadon de emakso pli agrabla.
 <a name="regionoj"></a>Regionoj
 -------------------------------
 
-La jena komando forviŝas regionon se unu aktivas aŭ forviŝas la signon sub la tajpmontrilo.
+La jena komando forviŝas regionon se unu aktivas aŭ forviŝas la signon sub la kursoro.
 
 ```lisp
 (defun delete-char-or-region (&optional arg)
