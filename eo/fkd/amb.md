@@ -1,8 +1,9 @@
 Milda Enkonduko al Nedeterminismo en Skimo
 ==========================================
 
+<div class="center">Esperanto · [English](/en/amb/)</div>
 <div class="center">la 24-an de februaro 2019</div>
-<div class="center">Laste ĝisdatigita: la 7-an de marto 2019</div>
+<div class="center">Laste ĝisdatigita: la 8-an de marto 2019</div>
 
 
 <a name="et">Enhavotabelo</a>
@@ -26,10 +27,10 @@ Milda Enkonduko al Nedeterminismo en Skimo
 <a name="enkonduko">Enkonduko</a>
 ---------------------------------
 
-[Nedeterminisma](http://vortaro.net/#nedeterminisma) programado estas tekniko en kiu la fluo de la
-algoritmo ne linearas kaj ekzistas pluraj daŭrigoj. La konduto povas ŝanĝiĝi per la samaj
-enigoj. Ekzistas multaj metodoj por tion fari. En ĉi tiu artikolo la metodo kiun mi uzos estas
-retroiĝado.
+[Nedeterminisma](http://vortaro.net/#nedeterminisma) programado estas tekniko en kiu la fluo de
+algoritmo ne linearas; kaj ekzistas pluraj eblaj daŭrigoj. La konduto de komputo ankaŭ povas ŝanĝiĝi
+per la samaj enigoj. Ekzistas multaj metodoj por nedeterminismon atingi. En ĉi tiu artikolo la
+metodo kiun mi uzos estas retroiĝado.
 
 Kaj cetere, la programlingvon [skimo](https://eo.wikipedia.org/wiki/Scheme) mi uzos por tion
 atingi. En skimo, oni permesatas por facile iri al antaŭa tempo de komputo kaj reen facile.
@@ -77,6 +78,7 @@ Tenu en la kalkulo, ke la nomo de la argumento de la lambdo ne gravas. Ĝi povas
 ((lambda (hundo-kato-muso) hundo-kato-muso) 0)
 ```
 
+
 ### <a name="aktualadaŭrigoekzemploj">Ekzemploj</a>
 
 En la esprimo
@@ -103,7 +105,7 @@ kiu, en tiu nivelo de komputo liveras
 2
 ```
 
-konsekvece, la restanta komputo estas
+Konsekvece, la restanta komputo estas
 
 ```scheme
 (lambda (v) v)
@@ -115,7 +117,7 @@ kaj la restanta operacio estas
 ((lambda (v) v) 2)
 ```
 
-kiu fine liveras ĉe la plej supra nivelo
+kiu fine liveras, ĉe la plej supra nivelo:
 
 ```scheme
 2
@@ -141,7 +143,7 @@ la restanta komputo estas
 (lambda (v) (+ v 3))
 ```
 
-la restanta komputo operacio estas
+kaj la restanta operacio estas
 
 ```scheme
 ((lambda (v) (+ v 3)) (* 1 2))
@@ -152,8 +154,9 @@ la restanta komputo operacio estas
 -----------------------------------------
 
 En skimo, la aktualan daŭrigon—la restantan komputon—oni povas kapti kiel variablo. Tion oni povas
-fari per la operatoro [call/cc](https://scheme.com/tspl4/further.html#./further:h3). Ĝi estas
-operatoro, kiu nur unu argumenton ekskluzive akceptas—[lambdon](http://localhost:8000/eo/lambdokalkulo/)—sennoman funcion, kun unu argumento:
+fari per [call/cc](https://scheme.com/tspl4/further.html#./further:h3). Ĝi estas operatoro, kiu nur
+unu argumenton ekskluzive akceptas—[lambdon](/eo/lambdokalkulo/)—sennoman funcion, kun unu
+argumento:
 
 ```scheme
 (call/cc (lambda (k) k))
@@ -165,12 +168,11 @@ Se je `call/cc` oni ne havas, ĝin difinu per:
 (define call/cc call-with-current-continuation)
 ```
 
-En la angla, `call/cc` estas la alinomo de `call-with-current-continuation`. Tiun nomon oni ankaŭ
-povas trakti kiel *voku funkcion per la restanta komputo*. La funkcio, kiun ĝi vokas estas la
-lambdo. Kaj cetere, la aktualan daŭrigon—la restantan komputon—`call/cc` pasas al tiu sennoma
-funkcio.
+En la angla, ĝi signifas _voku funkcion kun la aktuala daŭrigo_. Tiun nomon oni ankaŭ povas trakti
+kiel __voku funkcion kun la restanta komputo_. La funkcio, kiun ĝi vokas estas la lambdo. Kaj cetere,
+la aktualan daŭrigon—la restantan komputon—`call/cc` pasas al tiu sennoma funkcio.
 
-En tiu lambdo,
+En ĉi tiu lambdo:
 
 ```scheme
 (lambda (k) k)
@@ -182,7 +184,7 @@ En tiu lambdo,
 (call/cc (lambda (k) k))
 ```
 
-la aktualan daŭrigon—simple la funkcion—`call/cc` liveras sen ajna argumento. Tamen, en
+la aktualan daŭrigon—simple la funkcion—`call/cc` liveras. Tamen, en
 
 ```scheme
 (call/cc (lambda (k) (k 0)))
@@ -200,7 +202,7 @@ la aktualan daŭrigon—simple la funkcion—`call/cc` liveras sen ajna argument
 (call/cc (lambda (k) (k 0)))
 ```
 
-ekvivalentas al:
+funkcie ekvivalentas al:
 
 ```scheme
 ((lambda (v) v) 0)
@@ -208,7 +210,7 @@ ekvivalentas al:
 
 ### <a name="callcckaptado">Kaptado</a>
 
-Reirante al la antaŭa ekzemplo
+Reirante al la antaŭa ekzemplo:
 
 ```scheme
 (+ (* 1 2) 3)
@@ -220,16 +222,17 @@ la aktualan daŭrigon de `(* 1 2)` oni povas kapti per `call/cc`:
 (+ (call/cc (lambda (k) (* 1 2))) 3)
 ```
 
-Tamen, oni povas rimarki ke la funckion `k` oni ne aplikis al io ajn. La esprimon `(* 1 2)` oni
-taksos, kaj la rezulton oni donos al `(+ _ 3)`. Alidire, tiu esprimo ekvivalentas al:
+Tamen, oni povas rimarki ke la funckion `k` oni ne aplikis al io ajn. La esprimo `(* 1 2)`
+taksiĝos, kaj la rezulto iras al `(+ _ 3)`. Alidire, tiu esprimo funkcie ekvivalentas al:
 
 ```scheme
 (+ (* 1 2) 3)
 ```
 
+
 ### <a name="callccaplikado">Aplikado</a>
 
-La saman ekzemplon uzante, ĉi tie la funkcion `k` oni apliku.
+La saman ekzemplon uzante, ĉi tie la funkcion `k` oni apliku:
 
 ```scheme
 (+ (call/cc (lambda (k) (k (* 1 2)))) 3)
@@ -240,13 +243,14 @@ Ene la voko de `call/cc`:
 ```scheme
             (lambda (k) (k (* 1 2)))
 ```
+
 la variablo `k` estas la aktuala daŭrigo—la restanta komputo. Kio estas la restanta komputo? Jen:
 
 ```scheme
 (+                                    3)
 ```
 
-—la adicio al 3. Por ke tiun komputon reprezentu kiel funkcio, ĝi fariĝos:
+—la adicio al `3`. Por ke tiun komputon reprezentu kiel funkcio, ĝi fariĝos:
 
 ```scheme
 (lambda (v) (+ v 3))
@@ -261,11 +265,12 @@ restanta komputo nomiĝas `k`. Pro tio, la konsekveco de:
 (+ (call/cc (lambda (k) (k (* 1 2)))) 3)
 ```
 
-ekvivalentas al
+funkcie ekvivalentas al
 
 ```scheme
 ((lambda (v) (+ v 3)) (* 1 2))
 ```
+
 
 ### <a name="callcceskapado">Eskapado</a>
 
@@ -282,7 +287,8 @@ normale la rezulto estos
 5
 ```
 
-tamen pro tio, ke la aktualan daŭrigon—`k`—ni konservis en `z`. Al tiu loko oni povas reiri per:
+tamen pro tio, ke la aktualan daŭrigon—`k`—ni konservis en `z`, al tiu konservita loko oni povas
+reiri per:
 
 ```scheme
 (z 1)
@@ -294,7 +300,8 @@ kiu liveras je
 4
 ```
 
-—alian valoron. Tiu meĥanismo donas al oni la kapablon por la komputon eskapi.
+—alian valoron. Tiu meĥanismo donas al oni la kapablon por la komputon eskapi, ĉu kun nova valoro,
+aŭ malnova valaro, aŭ nenio.
 
 Pro tio, ke la aktuala daŭrigo estas:
 
@@ -307,7 +314,8 @@ la voko
 ```scheme
 (z 1)
 ```
-ekvivalentas al
+
+funkcie ekvivalentas al
 
 ```scheme
 ((lambda (v) (+ v 3)) 1)
@@ -318,6 +326,7 @@ anstataŭ
 ```scheme
 ((lambda (v) (+ v 3)) (* 1 2))
 ```
+
 
 ### <a name="callccekzemploj">Ekzemploj</a>
 
@@ -345,7 +354,8 @@ tie, la restanta komputo estas
 (lambda (o) "saluton")
 ```
 
-kiu iras al la variablo `k` en la korpo de `call/cc`. Kiel antaŭe, je `k` oni apliku al `(lambda (o) "saluton")` ene alia lambdo:
+kiu iras al la variablo `k` en la korpo de `call/cc`. Kiel antaŭe, je `k` oni apliku al
+`(lambda (o) "saluton")` ene alia lambdo:
 
 ```scheme
 ((lambda (v) (v (lambda (o) "saluton"))) (lambda (o) "saluton"))
@@ -375,7 +385,8 @@ Ene la korpo de `call/cc`, la restanta komputo estas
 (lambda (x) x)
 ```
 
-kiu iras al la variablo `k` en la korpo de `call/cc`. Kiel antaŭe denove, ĝin oni apliku al la lambdo
+kiu iras al la variablo `k` en la korpo de `call/cc`. Kiel antaŭe denove, ĝin oni apliku al la
+lambdo:
 
 ```scheme
 ((lambda (v) (v (lambda (x) x))) (lambda (x) x))
@@ -403,17 +414,17 @@ kiu liveras je
 <a name="amb">La amb-operatoro</a>
 ----------------------------------
 
-La fama amb-operatoro estas uzata en skimo por nedeterminisman programadon realigi per
+Unu el la uzoj de la fama amb-operatoro en skimo estas por nedeterminisman programadon realigi per
 retroiĝado. Per tiu meĥanismo, la komputo povas iri al antaŭa stato; valorojn porti; ŝtatojn ŝanĝi;
-komputon eskapi; ktp.
+komputon eskapi; kaj pli.
 
 En ĉi tiu artikolo la amb-operatoron oni uzos por la retroiĝadan meĥanismon ebligi.
 
 
 ### <a name="ambdifino">Difino</a>
 
-La difino kiun oni uzos estas de [shido.info](http://www.shido.info/lisp/scheme_amb_e.html). Ĝi estas
-makroo por certigi, ke la argumentoj ne taksiĝos. Kaj cetere, listojn ĝi interne uzas.
+La difino kiun oni uzos estas de [shido.info](http://www.shido.info/lisp/scheme_amb_e.html). Ĝi
+estas makroo por certigi, ke la argumentoj ne taksiĝos. Krome, listojn ĝi interne uzas.
 
 ```scheme
 (define call/cc call-with-current-continuation) ;  1
@@ -433,7 +444,7 @@ makroo por certigi, ke la argumentoj ne taksiĝos. Kaj cetere, listojn ĝi inter
                     (k (amb b ...))))           ; 15
           (k a)))))))                           ; 16
                                                 ; 17
-(define (cxu? x y)                              ; 18
+(define (cxu-vere? x y)                              ; 18
   (if (equal? x y)                              ; 19
       (list x y)                                ; 20
       (amb)))                                   ; 21
@@ -451,7 +462,7 @@ makroo por certigi, ke la argumentoj ne taksiĝos. Kaj cetere, listojn ĝi inter
 [Bigloo](https://www-sop.inria.fr/indes/fp/Bigloo/),
 [Gauche](https://practical-scheme.net/gauche/memo.html), kaj [Rakido](https://racket-lang.org/).
 
-La enkonstruitan operatoron `choice`—kiu funkcias kiel `amb`—[FramerD](http://www.framerd.org/)
+La enkonstruitan operatoron `choice`—kiu funkcias kiel `FramerD`—[amb](http://www.framerd.org/)
 havas. Se la nomon `amb` oni preferas, ĝin oni povas bindi per:
 
 ```scheme
@@ -462,64 +473,68 @@ havas. Se la nomon `amb` oni preferas, ĝin oni povas bindi per:
 ### <a name="ambmalkonstruado">Malkonstruado</a>
 
 En ĉi tiu sekcio, la difinon de la amb-operatoro kaj aliaj funkcioj oni malkonstruu. La funkcio
-`cxu?` teknike ne estas parto de la difino, tamen ĝin oni uzos por la funkciadon de `amb`
+`cxu-vere?` teknike ne estas parto de la difino, tamen ĝin oni uzos por la funkciadon de `amb`
 montru.
 
-En linio 1-a `call/cc` bindiĝas al `call-with-current-continuation` precipe por realigoj kiuj tiun
-funkcion ne havas. En linio 3-a `f` bindiĝas al implicita valoro. En linioj 5-a ĝis 16-a estas la korpo
-do `amb`. En linioj 18-a ĝis 21-a estas ekzempla funckio. Se `x` kaj `y` egalas, liston ĝi liveras; se
-ne, `amb` vokiĝos. En linioj 23-a ĝis 26-a, `call/cc` vokiĝas, en kiu la vera komenca valoro de `f`
-pravaloriziĝas per lambdo kiu je `'neniuj-elektoj` simple liveras.
+Jen la malprofundaj paŝoj de la difinoj:
 
-Oni reiru al la korpo de `amb` en linioj 5-a ĝis 16-a. En linio 7-a, se `amb` vokiĝas kiel:
+1. En linio 1-a `call/cc` bindiĝas al `call-with-current-continuation` precipe por realigoj kiuj
+   tiun difinon ne havas.
 
+2. En linio 3-a `f` bindiĝas al implicita valoro.
+
+3. En linioj 5-a ĝis 16-a estas la korpo do `amb`.
+
+4. En linioj 18-a ĝis 21-a estas ekzempla funckio: se `x` kaj `y` egalas, liston ĝi liveras; se ne,
+   `amb` vokiĝos.
+
+5. En linioj 23-a ĝis 26-a, `call/cc` vokiĝas, en kiu la vera komenca valoro de `f` pravaloriziĝas
+   per lambdo kiu je `'neniuj-elektoj` simple liveras.
+
+6. Oni reiru al la korpo de `amb` en linioj 5-a ĝis 16-a. En linio 7-a, se `amb` vokiĝas kiel:
 ```scheme
 (amb)
 ```
+la funkcio `f` vokiĝos, per kio ajn `f` povas fari.
 
-la funkcio `f` vokiĝos, per kio ajn `f` povos fari.
-
-En linio 8-a, se `amb` vokiĝas kiel:
-
+7. En linio 8-a, se `amb` vokiĝas kiel:
 ```scheme
 (amb "hundo")
 ```
-
 la argumento `"hundo"` simple liveriĝas.
 
-Tamen, per pli ol unu argumentoj, la konduto de `amb` ŝanĝiĝos. Unue, en linio 10-a, la aktuala
-valoro de `f` bindiĝas al `s`, sekve en linio 11-a, `call/cc` vokiĝas, la aktualan daŭrigon kaptante
-al `k`.
+8. Tamen, per pli ol unu argumentoj, la konduto de `amb` ŝanĝiĝos. Unue, en linio 10-a, la aktuala
+   valoro de `f` bindiĝas al `s`, sekve en linio 11-a, `call/cc` vokiĝas, la aktualan daŭrigon
+   kaptante al `k`.
 
-Ene la korpo de la lambdo, novan valoron la tutmonda variablo `f` havos—alian lambdon—kiu ne estas
-taksota ĝis ĝi estas specife taksata. En tiu korpo, la valoron de `s` antaŭe `f` havos, tiam `k`
-vokiĝos per la valoro `b ...`, kiu estas la ceteraj argumentoj por `amb`.
+9. Ene la korpo de la lambdo, novan valoron la tutmonda variablo `f` havos—alian lambdon—kiu ne
+   estas taksota ĝis ĝi estas specife petata. En tiu korpo, la valoron de `s` antaŭe `f` havos, tiam
+   `k` vokiĝos per la valoro `b ...`, kiu estas la ceteraj argumentoj por `amb`.
 
-Kaj laste, la `k` funkcio—la sekva komputo—aplikiĝos al la valoro `a`.
+10. Laste, en linio 16-a, la `k` funkcio—la restanta komputo—aplikiĝos al la valoro `a`.
 
 
 ### <a name="ambtaksado">Taksado</a>
 
-Je `cxu?` uzante, la paŝojn en la uzado de `amb` oni rigardos. Se la jenan esprimon oni
-havas:
+Je `cxu-vere?` uzante, la paŝojn en la uzado de `amb` oni rigardos. Se la jenan esprimon oni
+havas,
 
 ```scheme
-(cxu? (amb "hundo" "kato" 9) (amb "muso" 9))
+(cxu-vere? (amb "hundo" "kato" 9) (amb "muso" 9))
 ```
 
-Jen la pli simpligitaj taksadaj paŝoj:
+jen la pli simpligitaj taksadaj paŝoj:
 
 1. `(amb "hundo" "kato" 9)` taksiĝos;
 
 2. Pro tio, ke pli ol unu argumento estas pasitaj al `amb` oni iru al linio 9-a;
 
-3. La aktualan valoron de `f` de la plej supra nivelo:
+3. La aktualan valoron de `f` de la plej supra nivelo la loka variablo `s` havos;
 ```scheme
 (lambda () (k 'neniuj-elektoj))
 ```
-la loka variablo `s` havos;
 
-4. La lambdo en linio 12-a vokiĝos kun la sekva komputo al `k`;
+4. La lambdo en linio 12-a vokiĝos kun la restanta komputo al `k`;
 
 5. En linio 13-a novan valoron `f` havos. La valoro estos lambdo;
 
@@ -527,15 +542,15 @@ la loka variablo `s` havos;
 
 7. `k` aplikiĝos al `a`, en kiu, `(k a)` estas:
 ```scheme
-((lambda (v) (cxu? v (amb "muso" 9))) "hundo")
+((lambda (v) (cxu-vere? v (amb "muso" 9))) "hundo")
 ```
 kiu konsekvece fariĝas
 ```scheme
-((lambda (v) ((lambda (w) (cxu? v w)) "hundo")) "muso")
+((lambda (v) ((lambda (w) (cxu-vere? v w)) "hundo")) "muso")
 ```
 pro la voko `(amb "muso" 9)`;
 
-8. Pro tio, ke `"hundo"` ne egalas al `"muso"` la `amb` funkcio vokiĝos, kiel:
+8. Pro tio, ke `"hundo"` ne egalas al `"muso"` la `amb` operatoro vokiĝos, kiel:
 ```scheme
 (amb)
 ```
@@ -544,28 +559,28 @@ pro la voko `(amb "muso" 9)`;
 ```scheme
 (f)
 ```
-en kiu la valoro estas la lambdo en la linioj 13-a ĝis 15-a. La valoro de `f` denove fariĝas:
+en kiu la valoro de `f` estas la lambdo en la linioj 13-a ĝis 15-a. La valoro de `f` denove fariĝas:
 ```scheme
 (lambda () (k 'neniuj-elektoj))
 ```
 
 10. Tiam, en linio 15-a, `k` vokiĝos kiel `(k "kato" 9)`.
 
-11. La paŝoj ripetiĝos, je `cxu?` vokante. En kie, la paŝoj aspektos kiel:
+11. La paŝoj ripetiĝos, je `cxu-vere?` vokante plurfoje. La paŝoj aspektos kiel:
 ```scheme
-(cxu? "hundo" "muso")
-(cxu? "hundo" 9)
-(cxu? "kato" "muso")
-(cxu? "kato" 9)
-(cxu? 9 "muso")
-(cxu? 9 9)
+(cxu-vere? "hundo" "muso")
+(cxu-vere? "hundo" 9)
+(cxu-vere? "kato" "muso")
+(cxu-vere? "kato" 9)
+(cxu-vere? 9 "muso")
+(cxu-vere? 9 9)
 ```
 
 12. Pro tio, ke `9` egalas al `9`, la esprimo
 ```scheme
 (list 9 9)
 ```
-taksiĝos en la korpo de `cxu?` kiu finfine liveras je
+taksiĝos en la korpo de `cxu-vere?` kiu finfine liveras je
 ```
 '(9 9)
 ```
@@ -575,12 +590,14 @@ taksiĝos en la korpo de `cxu?` kiu finfine liveras je
 -------------------------------------
 
 En ĉi tiu artikolo, oni rimarkis, ke per `call/cc` nedeterminismon per retroiĝado oni povis atingi
-facile per `amb` kaj bazaj skimaj funkcioj. Tamen, estas aliaj pli kompleksaj kaj pli bonaj metodoj
-por ĉi tion atingi. La tipo de daŭrigoj, kiun oni traktis estis la
-[kutima daŭrigo (angle)](https://en.wikipedia.org/wiki/Continuation) kontraste al
+facile per `amb` kaj bazaj skimaj funkcioj. Tamen, estas aliaj pli detalaj kaj pli bonaj metodoj por
+ĉi tion atingi.
+
+La tipo de daŭrigoj, kiun oni traktis estis
+[nelimigita daŭrigo (angle)](https://en.wikipedia.org/wiki/Continuation) kontraste al
 [limigita daŭrigo (angle)](https://en.wikipedia.org/wiki/Delimited_continuation). Mi ankaŭ devas
 mencii, ke `call/cc` eble
-[ne estas bona konstruo](http://okmij.org/ftp/continuations/against-callcc.html) por la celon de ĉi
-tiu artikolo atingi.
+[ne estas la plej bona konstruo](http://okmij.org/ftp/continuations/against-callcc.html) por la
+celojn de ĉi tiu artikolo atingi.
 
-Mi esperas, ke iel, bonan ion oni lernis el ĉi tiu afiŝo!
+Mi esperas, ke iel, bonan ion oni ankoraŭ lernis el ĉi tiu afiŝo!
