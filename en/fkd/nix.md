@@ -3,11 +3,13 @@ A Gentle Introduction to the Nix Family
 
 <div class="center">[Esperanto](/eo/nix/) · English</div>
 <div class="center">March 22, 2017</div>
-<div class="center">Last updated: February 27, 2019</div>
+<div class="center">Last updated: March 8, 2019</div>
 
 >Don’t worry about what anybody else is going to do. The best way to predict the future is to
 >invent it.<br>
 >―Alan Kay
+
+<img src="/bil/wallhaven-751942-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-333472" title="wallhaven-333472"/>
 
 Ideas that change the way we do computing come rarely. A lot of the technology that we are using now
 are just re-hashes of old ones—layers upon layers of cosmetics enveloping old concepts. Entire
@@ -30,8 +32,8 @@ the [EUID](https://en.wikipedia.org/wiki/User_identifier#Effective_user_ID) of a
 zero (0) due to the use of sudo.
 
 
-Table of contents
------------------
+<a name="toc"></a>Table of contents
+-----------------------------------
 
 - [NixOS](#nixos)
   + [Installation](#nixosinstallation)

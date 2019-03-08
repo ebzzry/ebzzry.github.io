@@ -11,10 +11,20 @@ Milda Enkonduko al Nedeterminismo en Skimo
 
 <img src="/bil/wallhaven-333472-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-333472" title="wallhaven-333472"/>
 
+[Nedeterminisma](http://vortaro.net/#nedeterminisma) programado estas tekniko en kiu la fluo de
+algoritmo ne linearas; kaj ekzistas pluraj eblaj daŭrigoj. La konduto de komputo ankaŭ povas ŝanĝiĝi
+per la samaj enigoj. Ekzistas multaj metodoj por nedeterminismon atingi. En ĉi tiu artikolo la
+metodo kiun mi uzos estas retroiĝado.
+
+Kaj cetere, la programlingvon [skimo](https://eo.wikipedia.org/wiki/Scheme) mi uzos por tion
+atingi. En skimo, oni permesatas por facile iri al antaŭa tempo de komputo kaj reen facile.
+
+Mi ankaŭ diskutos pri la postulaj temoj por ke nedeterminismo en skimo oni pli facile komprenu.
+
+
 <a name="et">Enhavotabelo</a>
 -----------------------------
 
-- [Enkonduko](#enkonduko)
 - [La aktuala daŭrigo](#aktualadaŭrigo)
   + [Ekzemploj](#aktualadaŭrigoekzemploj)
 - [La call/cc-operatoro](#callcc)
@@ -27,20 +37,6 @@ Milda Enkonduko al Nedeterminismo en Skimo
   + [Malkonstruado](#ambmalkonstruado)
   + [Taksado](#ambtaksado)
 - [Finrimarkoj](#finrimarkoj)
-
-
-<a name="enkonduko">Enkonduko</a>
----------------------------------
-
-[Nedeterminisma](http://vortaro.net/#nedeterminisma) programado estas tekniko en kiu la fluo de
-algoritmo ne linearas; kaj ekzistas pluraj eblaj daŭrigoj. La konduto de komputo ankaŭ povas ŝanĝiĝi
-per la samaj enigoj. Ekzistas multaj metodoj por nedeterminismon atingi. En ĉi tiu artikolo la
-metodo kiun mi uzos estas retroiĝado.
-
-Kaj cetere, la programlingvon [skimo](https://eo.wikipedia.org/wiki/Scheme) mi uzos por tion
-atingi. En skimo, oni permesatas por facile iri al antaŭa tempo de komputo kaj reen facile.
-
-Mi ankaŭ diskutos pri la postulaj temoj por ke nedeterminismo en skimo oni pli facile komprenu.
 
 
 <a name="aktualadaŭrigo">La aktuala daŭrigo</a>
