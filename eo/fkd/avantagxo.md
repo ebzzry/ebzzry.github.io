@@ -2,7 +2,7 @@ Mia Kinezia Avantaĝa Aranĝo
 ===========================
 
 <div class="center">Esperanto · [English](/en/advantage/)</div>
-<div class="center">la 12https://kinesis-ergo.com/shop/advantage2/-an de julio 2018</div>
+<div class="center">la 12-an de julio 2018</div>
 <div class="center">Laste ĝisdatigita: la 8-an de marto 2019</div>
 
 >La doloro neeviteblas. La suferado malnepras.<br>
@@ -168,6 +168,6 @@ La programebleco de la Kinezia Avantaĝo estas unu el ĝiaj plej fortaj kapabloj
 frenezega fortikeco kaj la elstaraj ergonomioj la avantaĝon inda investo igas.
 
 Pli da kapablo ol la tiu kiun mi havas la plej ĵusa
-model—[Advantage2](https://kinesis-ergo.com/shop/advantage2/)—havas. La funkciaj klavoj de ĉi
-tiu modelo nun meĥanikas. Se buĝeton oni havas, ĝin aĉetu! La
-[hejmpaĝon](https://www.kinesis-ergo.com/) de Kinezio oni povas viziti por pli da informo.
+model—[Advantage2](https://kinesis-ergo.com/shop/advantage2/)—havas. La funkciaj klavoj de ĉi tiu
+modelo nun meĥanikas. Se buĝeton oni havas, ĝin aĉetu! La [hejmpaĝon](https://www.kinesis-ergo.com/)
+de Kinezio oni povas viziti por pli da informo.
