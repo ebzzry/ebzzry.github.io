@@ -3,25 +3,18 @@ Milda Enkonduko al Sofismoj
 
 <div class="center">Esperanto · [English](/en/fallacies/)</div>
 <div class="center">la 29-an de julio 2018</div>
-<div class="center">Laste ĝisdatigita: la 4-an de februaro 2019</div>
+<div class="center">Laste ĝisdatigita: la 9-an de marto 2019</div>
 
 >Lerni ne necesas; nek travivas.<br>
 >―W. Edwards DEMING
 
-Sofismoj estas eraroj en rezonado, kreitaj en la konstruado de argumentoj. Unuj estis faritaj
-intence por manipuli kaj trompi, dum unuj estas faritaj pro malscio kaj neprudenteco. Sofismoj estas
-dividitaj en du specoj—formalaj kaj neformalaj. Formalaj sofismoj, ankaŭ nomataj logikaj sofismoj,
-estas esprimitaj en sistemo kiel propozicia logiko. Neformalaj sofismoj estas eraroj en la enhavo de
-la premisoj.
-
-En ĉi tiu artikolo mi maldaŭre trairu pri kelka da sofismoj renkonitaj en niaj ĉiutagaj vivoj. Iom
-da ili kaŝitas en klaraj vidoj dum aliaj rampas en la anguloj kaj pli proksiman ekzamenon
-bezonas.
+<img src="/bil/wallhaven-73145-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-333472" title="wallhaven-333472"/>
 
 
 <a name="et"></a>Enhavotabelo
 -----------------------------
 
+- [Enkonduko](#enkonduko)
 - [Post ĉi tio, do, konsekvence de ĉi tio](#post)
 - [Dum ĉi tio, do, ankaŭ de ĉi tio](#dum)
 - [Kontraŭpersone](#kontrauxpersone)
@@ -59,6 +52,20 @@ bezonas.
 - [Malplej aprobebla hipotezo](#malplej)
 - [La celfoston movi](#movi)
 - [La puton veneni](#veneni)
+- [Finrimarkoj](#finrimarkoj)
+
+
+<a name="enkonduko"></a>Enkonduko
+---------------------------------
+
+Sofismoj estas eraroj en rezonado, kreitaj en la konstruado de argumentoj. Unuj estis faritaj
+intence por manipuli kaj trompi, dum unuj estas faritaj pro malscio kaj neprudenteco. Sofismoj estas
+dividitaj en du specoj—formalaj kaj neformalaj. Formalaj sofismoj, ankaŭ nomataj logikaj sofismoj,
+estas esprimitaj en sistemo kiel propozicia logiko. Neformalaj sofismoj estas eraroj en la enhavo de
+la premisoj.
+
+En ĉi tiu artikolo mi maldaŭre trairu pri kelka da sofismoj renkonitaj en niaj ĉiutagaj vivoj. Iom
+da ili kaŝitas en klaraj vidoj dum aliaj rampas en la anguloj kaj pli proksiman ekzamenon bezonas.
 
 
 <a name="post"></a>Post ĉi tio, do, konsekvence de ĉi tio
@@ -551,5 +558,13 @@ neutilas, sekve la argumenton de persono A igas neakcepteblaj.
 
 Supozante, ke la fonta informo ja validas, la argumenton kiun persono A prezentas ne
 malvalidigas. Ĉi tio rilatas al apelo al devenoj.
+
+
+<a name="finrimarkoj"></a>Finrimarkoj
+-------------------------------------
+
+Mi esperas, ke per ĉi tiu afiŝo, pli da pensada klareco mi povis doni.
+
+La paĝa rubando kiu uziĝas supre estas de [wallhaven](https://alpha.wallhaven.cc/wallpaper/333472).
 
 _Dank’ al [Raymund MARTINEZ](https://zhaqenl.github.io) pro la korektoj._
