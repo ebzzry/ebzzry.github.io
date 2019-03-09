@@ -3,7 +3,7 @@ Blogi per Frog
 
 <div class="center">Esperanto · [English](/en/frog/)</div>
 <div class="center">la 16-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 4-an de februaro 2019</div>
+<div class="center">Laste ĝisdatigita: la 9-an de marto 2019</div>
 
 >Unu persono kun ardo pli bonas ol kvardek personoj nure interesataj.<br>
 >―E.M. FORSTER
@@ -178,12 +178,12 @@ generacioj.
 Eĉoŝanĝo ĉiuĵaŭde
 ```
 
-Tiam, denove kuru la jenan komandon:
+Tiam, denove plenumu la jenan komandon:
 
     $ raco frog -bp
 
 Nun oni havas du afiŝojn, kiel montrata en la indekso. Por forigi la aŭtomate kreitan komencan
-afiŝon, kiu kreitas per la komando `raco frog ‑‑init`, antaŭe, kuru:
+afiŝon, kiu kreitas per la komando `raco frog ‑‑init`, antaŭe, plenumu:
 
     $ rm -f _src/posts/2012-01-01-a-2012-blog-post.md
 
