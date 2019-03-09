@@ -3,7 +3,7 @@ Agordi je GPG kaj je SSH en KDE
 
 <div class="center">Esperanto · [English](/en/gsk/)</div>
 <div class="center">la 19-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 4-an de februaro 2019</div>
+<div class="center">Laste ĝisdatigita: la 9-an de marto 2019</div>
 
 >Ne tute estas grave por prave atingi tion en la unua fojo. Estas vitale grava atingi tion en la
 >lasta tempo.<br>
@@ -97,7 +97,7 @@ Metu la jenan kodaĵon:
     pinentry-program /usr/bin/pinentry-qt4
 
 Anstataŭigu la valoron de `pinentry-program` per la efektiva dosierindiko de pinentry sur la
-sistemo. Por precizigi la lokon de pinentry-o, kuru:
+sistemo. Por precizigi la lokon de pinentry-o, plenumu:
 
     $ which pinentry-qt4
 
