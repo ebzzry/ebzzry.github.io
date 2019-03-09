@@ -605,5 +605,6 @@ La tipo de daŭrigoj, kiun oni traktis estis
 mencii, ke estas [argumento](http://okmij.org/ftp/continuations/against-callcc.html) kontraŭ la
 uzado de `call/cc`.
 
-Mi esperas, ke iel, bonan ion oni lernis el ĉi tiu afiŝo. La paĝa rubando kiu uziĝas supre estas de
-[wallhaven](https://alpha.wallhaven.cc/wallpaper/333472).
+Mi esperas, ke iel, bonan ion oni lernis el ĉi tiu afiŝo.
+
+La paĝa rubando kiu uziĝas supre estas de [wallhaven](https://alpha.wallhaven.cc/wallpaper/333472).
