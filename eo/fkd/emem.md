@@ -3,7 +3,7 @@ Konverti de Markdown al HTML per emem
 
 <div class="center">Esperanto · [English](/en/emem/)</div>
 <div class="center">la 5-an de aŭgusto 2018</div>
-<div class="center">Laste ĝisdatigita: la 12-an de septembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 9-an de marto 2019</div>
 
 >Oni ne trovos la respondojn kiujn oni serĉas ĝis oni haltas serĉi ekster kaj komenciĝas serĉi ilin
 >el oni mem.<br>
@@ -105,7 +105,7 @@ Foo Bar
 =======
 ```
 
-tiam la unua linio funkcias kiel la dokumentotitolo. Por tiel fari, kuru:
+tiam la unua linio funkcias kiel la dokumentotitolo. Por tiel fari, plenumu:
 
     $ emem -F MINLEGU.md
 

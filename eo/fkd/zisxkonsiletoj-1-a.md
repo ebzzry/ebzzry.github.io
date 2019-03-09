@@ -3,7 +3,7 @@ Ziŝkonsiletoj 1-a: Alinomoj kaj Funkcioj
 
 <div class="center">Esperanto · [English](/en/zsh-tips-1/)</div>
 <div class="center">la 26-an de septembro 2018</div>
-<div class="center">Laste ĝisdatigita: la 21-an de februaro 2019</div>
+<div class="center">Laste ĝisdatigita: la 9-an de marto 2019</div>
 
 >Malsaĝulo miras je nekutimajn aferojn. Ŝagulo miras je la kutimajn aferojn.<br>
 >―Konfuceo
@@ -77,7 +77,7 @@ La jenajn liniojn kontrastu:
     alias hundo0="for x in hundo kato muso; do echo $x; done"
     function hundo1 () { for x in hundo kato muso; do echo $x; done }
 
-La ŝlosilvorto `function` estas redunda kaj povas esti ellasita. Ilin kuru kaj la resultojn rimarku:
+La ŝlosilvorto `function` estas redunda kaj povas esti ellasita. Ilin plenumu kaj la resultojn rimarku:
 
     % hundo0
     % hundo1
@@ -99,7 +99,7 @@ Nur je `hundo` ĝi montras, anstataŭ je `hundo, too` eĉ ĉi tiu venas de pli n
     % hundo
     hundo, too
 
-Tiel longe kiel eble, funkciojn kuru:
+Tiel longe kiel eble, funkciojn plenumu:
 
 Por ĉiom da funkcioj montri, plenumu:
 

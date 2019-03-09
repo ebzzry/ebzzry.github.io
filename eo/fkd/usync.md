@@ -3,7 +3,7 @@ Retnodojn Sinkronigi per Usync
 
 <div class="center">Esperanto · [English](/en/usync/)</div>
 <div class="center">la 7-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 21-an de januaro 2019</div>
+<div class="center">Laste ĝisdatigita: la 9-an de marto 2019</div>
 
 >Kion mi ne povas krei, mi ne komprenas.<br>
 >―Richard P. FEYNMAN
@@ -44,7 +44,7 @@ Por certigi, ke usync fakte estas instalita, plenumu:
 ---------------------------------
 
 Por fari ambaŭdirektan sinkronigon de la dosierujo `/pub/jot/ninam`, inter la aktuala retnodo al la
-retnodoj `tarupam` kaj `taubetmo`, dum konservi la dosierujan strukturon defore, kuru la jenan
+retnodoj `tarupam` kaj `taubetmo`, dum konservi la dosierujan strukturon defore, plenumu la jenan
 komandon. Notu, ke ne devas ekzisti spacetoj inter la retnodaj precizigoj, pro la `IFS` media
 variablo:
 
@@ -66,7 +66,7 @@ Ideale, la rezulto estas `localhost:/pub/jot/ninam/`, `tarupam:/pub/jot/ninam/`,
 -------------------------------------------
 
 Estas ankaŭ ebla fari sinkronigon de pluraj dosieroj kaj dosierujoj, al mallokaj retnodoj. Por
-fari tiel, kuru:
+fari tiel, plenumu:
 
     $ usync /pub/jot/ninam/ ~/file.text ~reyn/*.blend tarupam,taubetmo
 
@@ -74,13 +74,13 @@ La antaŭ ol komando faros ambaŭdirektan sinkronigon de la dosierindikoj `/pub/
 `~/file.text`, kaj `~reyn/*.blend` al la mallokaj retnodoj `tarupam` kaj `taubetmo`, laŭ la sama
 dosieruja struktura sistemo kiu priskribitas supre.
 
-Se vi volas fari unudirektan sinkronigon de la supraj, kiel _rsync_, kuru:
+Se vi volas fari unudirektan sinkronigon de la supraj, kiel _rsync_, plenumu:
 
     $ usync --one-way --prefer-local /pub/jot/ninam/ \
     ~/file.text ~reyn/draft.blend tarupam,taubetmo
 
 
-Por vidi pli da informo, kuru:
+Por vidi pli da informo, plenumu:
 
     $ usync --help
 

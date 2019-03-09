@@ -3,7 +3,7 @@ Maldaŭra Rondvojaĝo de Gito kaj GitHub
 
 <div class="center">Esperanto · [English](/en/git-github/)</div>
 <div class="center">la 11-an de julio 2018</div>
-<div class="center">Laste ĝisdatigita: la 26-an de septembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 9-an de marto 2019</div>
 
 >Ĉiujn solvitajn problemon sciu kiel solvi.<br>
 >―Richard P. FEYNMAN
@@ -125,13 +125,13 @@ uzos en ĉi tiu diskuto.
 ### <a name="sxlosiloj"></a>La sekurŝelajn ŝlosilojn generi
 
 La mem oni devas esti kapabla por veriĝi al la GitHub-konto, antaŭ ol la ŝanĝojn oni povas puŝi. Por
-tion fari, la sekurŝelajn ŝlosilojn oni devas krei. Por tion fari, la jenan komandon kuru. Certigu,
+tion fari, la sekurŝelajn ŝlosilojn oni devas krei. Por tion fari, la jenan komandon plenumu. Certigu,
 ke [fortan pasfrazon](https://xkcd.com/936/) oni disponigas, kiam oni invitiĝis:
 
     $ ssh-keygen -t ed25519
 
 La ŝlosilojn kreinte, la ŝlosilojn oni devas aldoni al la propra GitHub-konto. Por tion
-fari, la jenan komandon kuru, tiam la eligon kopiu:
+fari, la jenan komandon plenumu, tiam la eligon kopiu:
 
     $ cat ~/.ssh/id_ed25519.pub
 
@@ -182,7 +182,7 @@ Sekve, tiun forkon oni devas kloni al la loka disko. La adreson lokitas en la **
 
 ![SSH clone URL](/bil/klonadreso-de-ssh.png)
 
-Tiam la jenan komandon kuru, en kiu, `memeho` estas via uzantnomo:
+Tiam la jenan komandon plenumu, en kiu, `memeho` estas via uzantnomo:
 
     $ git clone git@github.com:memeho/foobar.git
 

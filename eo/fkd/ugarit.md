@@ -3,7 +3,7 @@ Sekurkopiojn Krei per Ugarit
 
 <div class="center">Esperanto · [English](/en/ugarit/)</div>
 <div class="center">la 18-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 21-an de februaro 2019</div>
+<div class="center">Laste ĝisdatigita: la 9-an de marto 2019</div>
 
 >Bona juĝo devenas el sperto, kaj sperto devenas el malbona juĝo.<br>
 >―Fred BROOKS
@@ -76,7 +76,7 @@ Post kiam ĉi tiu komando finiĝas, la komando `ugarit` haveblos. Por montri la 
 
 ### <a name="nixpkgs"></a>Per Nixpkgs
 
-Se oni uzas je Nixpkgs, simple kuru la jenan komandon:
+Se oni uzas je Nixpkgs, simple plenumu la jenan komandon:
 
     $ nix-env -i ugarit
 
@@ -138,13 +138,13 @@ antaŭe.
 
 ### <a name="krei"></a>Krei dosierkopiojn
 
-Por krei dosierkopiojn, kuru:
+Por krei dosierkopiojn, plenumu:
 
     $ ugarit snapshot /ugarit/ugarit.conf ETIKEDO DOSIERUJO
 
 _ETIKEDO_ estas nomo kiu oni bezonas identigi la dosierkopion poste, dum _DOSIERUJO_ estas la
 dosiersistema arbo, kiun oni volas krei dosierkopion pri. Por krei ekzemple dosierkopion de la
-dosierujo `bildoj/`, kun la etikedo `bil`, kuru je Ugarit jene:
+dosierujo `bildoj/`, kun la etikedo `bil`, plenumu je Ugarit jene:
 
     $ ugarit snapshot /ugarit/ugarit.conf bil bildoj
 
@@ -163,7 +163,7 @@ File cache has saved us 1 file hashings / 638104 bytes (before compression)
 
 ### <a name="esplori"></a>Esplori dosierkopiojn
 
-Por interage mastrumi la enhavojn de la kripto, kuru:
+Por interage mastrumi la enhavojn de la kripto, plenumu:
 
     $ ugarit explore /ugarit/ugarit.conf
 
@@ -173,7 +173,7 @@ Por listigi la haveblajn komandojn:
 
 Per la konsiletoj el la helpa uzado, oni eltiros dosierujon kiu estas parto de la dosierkopio
 antaŭe. Ni supozu, ke la originala vojo de tiu dosierujo estis `bildoj/festo/`. Do, por eltiri la
-dosierujon `festo/` al la aktuala dosierujo, kuru:
+dosierujon `festo/` al la aktuala dosierujo, plenumu:
 
 ```
 > cd bil
@@ -189,7 +189,7 @@ Extracted festo
 
 Tamen, se oni konas la ekzaktan dosierindikon de dosiero aŭ dosierujon kiun ĝi volas eltiri, oni
 povas anstataŭ kuras je Ugarit kun la eltira reĝimo. Por eltiri la dosierujon `festo/` el supre,
-rekte, kuru:
+rekte, plenumu:
 
     $ ugarit extract /ugarit/ugarit.conf /bil/current/contents/festo
 

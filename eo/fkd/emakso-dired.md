@@ -3,7 +3,7 @@ Dosierujojn Mastrumi per Emakso
 
 <div class="center">Esperanto · [English](/en/emacs-dired/)</div>
 <div class="center">la 12-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 4-an de februaro 2019</div>
+<div class="center">Laste ĝisdatigita: la 9-an de marto 2019</div>
 
 >Supozi bonas, tamen eltrovi pli bonas.<br>
 >―Samuel CLEMENS
@@ -28,7 +28,7 @@ al Dired-bufroj.
 <a name="superrigardo"></a>Superrigardo
 ---------------------------------------
 
-Por kuri je Dired, kuru Emakson sur la komandlinio, disponigi dosierujon, kiel la argumento:
+Por kuri je Dired, plenumu Emakson sur la komandlinio, disponigi dosierujon, kiel la argumento:
 
     $ emacs ~/Desktop
 
@@ -56,17 +56,17 @@ eksplicite esprimis alie.
 Jen la kutimaj komandoj kiujn oni uzus, en Dired-bufro. Kaj cetere, ili povas funkcii sur unuobla
 aŭ pluraj eroj. Uzi ilin por pluraj eroj estos klarigitaj sekve.
 
-| Klavo                         | Kion ĝi faras               |
-| :---------------------------- | :-------------------------- |
-| <kbd>R</kbd>                  | Renomu eron                 |
-| <kbd>C</kbd>                  | Kopiu eron                  |
-| <kbd>D</kbd>                  | Forviŝu eron                |
-| <kbd>O</kbd>                  | Ŝanĝu proprulon             |
-| <kbd>G</kbd>                  | Ŝanĝu grupon                |
-| <kbd>M</kbd>                  | Ŝanĝu permesosjn            |
-| <kbd>S</kbd>                  | Kreu simbolligilon          |
-| <kbd>T</kbd>                  | Tuŝu eron                   |
-| <kbd>!</kbd> aŭ <kbd>X</kbd>  | Kuru ŝelan komandon al ero  |
+| Klavo                         | Kion ĝi faras                  |
+| :---------------------------- | :----------------------------- |
+| <kbd>R</kbd>                  | Renomu eron                    |
+| <kbd>C</kbd>                  | Kopiu eron                     |
+| <kbd>D</kbd>                  | Forviŝu eron                   |
+| <kbd>O</kbd>                  | Ŝanĝu proprulon                |
+| <kbd>G</kbd>                  | Ŝanĝu grupon                   |
+| <kbd>M</kbd>                  | Ŝanĝu permesosjn               |
+| <kbd>S</kbd>                  | Kreu simbolligilon             |
+| <kbd>T</kbd>                  | Tuŝu eron                      |
+| <kbd>!</kbd> aŭ <kbd>X</kbd>  | Plenumu ŝelan komandon al ero  |
 
 
 <a name="markaj"></a>Markaj komandoj
