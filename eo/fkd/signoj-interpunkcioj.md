@@ -3,7 +3,7 @@ Signoj kaj Interpunkcioj
 
 <div class="center">Esperanto · [English](/en/symbols-marks/)</div>
 <div class="center">la 16-an de julio 2018</div>
-<div class="center">Laste ĝisdatigita: la 4-an de februaro 2019</div>
+<div class="center">Laste ĝisdatigita: la 9-an de marto 2019</div>
 
 >Se grandiozon oni volas atingi, konsentojn ĉesu peti.<br>
 >―Eddie COLLA
@@ -69,7 +69,7 @@ keycode 20 = bracketleft braceleft leftdoublequotemark
 keycode 21 = bracketright braceright rightdoublequotemark
 ```
 
-Tiam, la jenan komandon kuru:
+Tiam, la jenan komandon plenumu:
 
     xmodmap ~/.Xmodmap
 

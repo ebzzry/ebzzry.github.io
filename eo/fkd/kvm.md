@@ -3,7 +3,7 @@ Virtualigado en Linukso per KVM
 
 <div class="center">Esperanto · [English](/en/kvm/)</div>
 <div class="center">la 3-an de marto 2018</div>
-<div class="center">Laste ĝisdatigita: la 4-an de februaro 2019</div>
+<div class="center">Laste ĝisdatigita: la 9-an de marto 2019</div>
 
 >Se tion oni faras, kion oni ĉiam faras; tion oni akiros, kion oni ĉiam akiras.<br>
 >―Anthony ROBBINS
@@ -111,7 +111,7 @@ ne fakte gravas—la bildon oni povas nomigi kiel `index.html`, tamen tio ne est
 ### <a name="grupo"></a>KVM-grupo
 
 La komandoj ĉi-sube postulas, ke grupo nomiĝas `kvm` devas ekzisti kaj oni estas ano de tiu
-grupo. Por tion efektivigi, kuru:
+grupo. Por tion efektivigi, plenumu:
 
     $ sudo groupadd kvm
     $ sudo usermod -G $(groups | sed 's/ /,/g'),kvm $USER
@@ -152,7 +152,7 @@ La ĉi-supraj komandoj:
 La komandon `qemu-kvm` oni nun devas alvoki, la komando kiu ĉion lanĉas. La nomo de la komando eble
 malsamas kun la tiu, kiu instalitas sur la sistemo.
 
-Se operaciumon el praŝarĝebla bildo oni instalas, kutime la ISO-dosiero, kuru:
+Se operaciumon el praŝarĝebla bildo oni instalas, kutime la ISO-dosiero, plenumu:
 
     $ sudo qemu-kvm -cpu host -m 2G -net nic,model=virtio \
     -net vde -soundhw all -vga qxl \
