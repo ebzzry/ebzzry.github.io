@@ -3,7 +3,10 @@ Citaĵoj
 
 <div class="center">Esperanto · [English](/en/quotes/)</div>
 <div class="center">la 15-an de novembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 8-an de marto 2019</div>
+<div class="center">Laste ĝisdatigita: la 9-an de marto 2019</div>
+
+<img src="/bil/wallhaven-77816-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
+
 
 Liston de atenteme elektitaj citaĵoj, aforismoj, kaj sentencoj kiujn mi kolektis
 tra la jarojn ĉi tiu paĝo enhavas.
@@ -797,3 +800,6 @@ tra la jarojn ĉi tiu paĝo enhavas.
 
 - Kelkaj homoj tre timas pri artefarita intelekto; dum mi pli timas pri natura stulteco.<br>
   ―Eugenia CHENG
+
+
+La paĝa rubando kiu uziĝas supre estas de [wallhaven](https://alpha.wallhaven.cc/wallpaper/77816).

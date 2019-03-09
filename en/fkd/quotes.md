@@ -3,7 +3,10 @@ Quotes
 
 <div class="center">[Esperanto](/eo/citajxoj/) · English</div>
 <div class="center">August 29, 2015</div>
-<div class="center">Last updated: February 21, 2019</div>
+<div class="center">Last updated: March 9, 2019</div>
+
+<img src="/bil/wallhaven-77816-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
+
 
 This page contains a list of curated quotations, aphorisms, and proverbs that I have collected over
 the years.
@@ -811,3 +814,6 @@ the years.
 - Some people are really afraid of artificial intelligence; whereas I’m more afraid of natural
   stupidity.<br>
   ―Eugenia Cheng
+
+
+The banner image used at the top is from [wallhaven](https://alpha.wallhaven.cc/wallpaper/77816).
