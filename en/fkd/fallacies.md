@@ -3,25 +3,18 @@ A Gentle Introduction to Fallacies
 
 <div class="center">[Esperanto](/eo/sofismoj/) · English</div>
 <div class="center">May 1, 2016</div>
-<div class="center">Last updated: August 2, 2018</div>
+<div class="center">Last updated: March 9, 2019</div>
 
 >Learning is not compulsory; neither is survival.<br>
 >―W. Edwards Deming
 
-Fallacies are errors in reasoning, made in the construction of arguments. Some are committed
-intentionally to manipulate and deceive, while some are committed unintentionally due to ignorance
-and recklessness. Fallacies are divided into two kinds—formal and informal. Formal fallacies, also
-called logical fallacies, are expressed in a system like propositional logic. Informal fallacies are
-errors in the content of the premises.
-
-In this post I’ll briefly go through some of the common fallacies encountered in our daily
-lives. Some are hidden in plain sight while some creep into the corners and require a closer
-examination.
+<img src="/bil/wallhaven-73145-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-333472" title="wallhaven-333472"/>
 
 
 <a name="toc"></a>Table of contents
 -----------------------------------
 
+- [Introduction](#introduction)
 - [Post hoc ergo propter hoc](#posthoc)
 - [Cum hoc ergo propter hoc](#cumhoc)
 - [Ad hominem](#adhominem)
@@ -59,6 +52,21 @@ examination.
 - [Least plausible hyphothesis](#least)
 - [Moving the goalpost](#moving)
 - [Poisoning the well](#poisoning)
+- [Closing remarks](#closing)
+
+
+<a name="introduction"></a> Introduction
+----------------------------------------
+
+Fallacies are errors in reasoning, made in the construction of arguments. Some are committed
+intentionally to manipulate and deceive, while some are committed unintentionally due to ignorance
+and recklessness. Fallacies are divided into two kinds—formal and informal. Formal fallacies, also
+called logical fallacies, are expressed in a system like propositional logic. Informal fallacies are
+errors in the content of the premises.
+
+In this post I’ll briefly go through some of the common fallacies encountered in our daily
+lives. Some are hidden in plain sight while some creep into the corners and require a closer
+examination.
 
 
 <a name="posthoc"></a> Post hoc ergo propter hoc
@@ -555,3 +563,12 @@ unusable, thus rendering the argument of person A unacceptable.
 
 Presuming that the source information is indeed invalid, it doesn’t render the argument that person
 A is presenting to be invalid, too. This is related to appeal to origins.
+
+
+
+<a name="closing"></a> Closing remarks
+--------------------------------------
+
+I hope that with this post, I was able to add more thinking clarity.
+
+The banner image used at the top is from [wallhaven](https://alpha.wallhaven.cc/wallpaper/73145).
