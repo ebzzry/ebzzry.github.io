@@ -3,7 +3,7 @@ Esperanto-signoj en Linukso
 
 <div class="center">Esperanto · [English](/en/eo-linux/)</div>
 <div class="center">la 22-an de julio 2018</div>
-<div class="center">Laste ĝisdatigita: la 8-an de marto 2019</div>
+<div class="center">Laste ĝisdatigita: la 9-an de marto 2019</div>
 
 >Se ion oni volas, kion oni neniam havis, oni devas esti servopreta tion fari, kion oni neniam
 >faris.<br>
@@ -42,7 +42,7 @@ Tiam, je `~/.Xmodmap` reŝarĝu:
 
     xmodmap ~/.Xmodmap
 
-Se je <kbd>Pause</kbd> klavon oni ne volas uzi, je `xev` kuru:
+Se je <kbd>Pause</kbd> klavon oni ne volas uzi, je `xev` plenumu:
 
     xev
 
@@ -140,7 +140,7 @@ literon eniri, je 🐧 premu kaj tenu, tiam je <kbd>Shift</kbd> premu, tiam je <
 
 En kelkaj klavaroj, estas nur unu vindozklavo, kutime lokitas maldekstre, dum la tiu dekstre estas
 la <kbd>PrtSc</kbd> klavo. Multfoje ili sandviĉitas inter la <kbd>Ctrl</kbd> kaj la
-<kbd>Alt</kbd> klavoj. Por tiun klavon uzi, je `xev` kuru kiel ĉi-supre por la klavkodon akiri, tiam
+<kbd>Alt</kbd> klavoj. Por tiun klavon uzi, je `xev` plenumu kiel ĉi-supre por la klavkodon akiri, tiam
 je `~/.Xmodmap` dosiero ĝisdatigi laŭe.
 
 Sur mia ThinkPad, la jenan kodeton mi `~/.Xmodmap` havas:
@@ -159,11 +159,11 @@ keycode 107 = Mode‎ߺ‎switch
 
 Ambaŭ resumitaj metodoj supre, faras pli ol esperantajn signojn montri. Pliartifikajn signojn
 kaj signojn *Multi‎ߺ‎key* sistemo povas enigi. Por la plenan liston de signoj, la jenan komandon
-kuru se oni estas en kutimaj linuksaj sistemoj:
+plenumu se oni estas en kutimaj linuksaj sistemoj:
 
     less /usr/share/X11/locale/en_US.UTF-8/Compose
 
-Se je Nix oni uzas, kuru:
+Se je Nix oni uzas, plenumu:
 
     less ~/.nix-profile/share/X11/locale/en_US.UTF-8/Compose
 
