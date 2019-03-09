@@ -609,5 +609,6 @@ The type of continuations that we dealt with is the
 that there’s an [argument](http://okmij.org/ftp/continuations/against-callcc.html) against the use
 of `call/cc`.
 
-Anyway, I hope that you learned something good from this post. The banner image used at the top is
-from [wallhaven](https://alpha.wallhaven.cc/wallpaper/333472).
+Anyway, I hope that you learned something good from this post.
+
+The banner image used at the top is from [wallhaven](https://alpha.wallhaven.cc/wallpaper/333472).
