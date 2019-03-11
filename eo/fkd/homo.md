@@ -56,8 +56,8 @@ de tiuj demandoj estas responditaj de ne, tiam ni devas retaksi kiel ni komuniki
 
 Kiam mesaĝoj al iu kiuj ne la samajn mensajn kapablojn havas kiel la komunikanto, iu bezonas
 komuniki, alĝustigoj devos esti faritaj. Aferojn ĉiuj da ni traktas malsame. Ŝaka grandmajstro devas
-teni en la kalkulo, ke se komencanton ĝi instruas, nur tiom la studanto povas kompreni. Ĝi ne povas
-ekstremiĝi kaj lin devigi por altnivelajn temojn kompreni. Estas malpenetrebla muro; tiu muro nur
+teni en la kalkulo, ke se komencanton ri instruas, nur tiom la studanto povas kompreni. Ri ne povas
+ekstremiĝi kaj rin devigi por altnivelajn temojn kompreni. Estas malpenetrebla muro; tiu muro nur
 malplidekiĝas per tempo.
 
 
@@ -102,7 +102,7 @@ kun tiu bildo, facile. Tamen, same kiel parfumoj, tro multe malbonas.
 La interpunkcioj kiujn ni uzas en niaj mesaĝoj multe gravas, ĉu ili estas malgrandaj frazeroj aŭ
 plenaj frazoj. Ĉi tio, denove, konektitas al la maniero en kiu la personon, kiu komunikas, ni
 imagas. La respondon _“Bone.”_ ni traktu. Ĉi tiu mallonga mesaĝo lakonas kaj klaras. Bedaŭrinde, ĝi
-ankaŭ estas senenhava de vivo; vervon ĝi malhavas. Ĉi tion kontrastu al _“Bone!”_ Ĉi tiu versio
+ankaŭ estas senenhava de vivo; vervon ĝi malhavas. Ĉi tion kontrastu al “Bone!” Ĉi tiu versio
 vivas. Mensan bildon de persono kiu estas ĝisosta kaj engaĝita kun la konversacio kreas.
 
 
@@ -116,7 +116,7 @@ de niaj buŝoj, niaj korpoj estas niaj ŝeloj. Sen staremaj ŝeloj, niaj mesaĝo
 
 ### Antaŭen kliniĝu
 
-Ĉi tion pripensu: kiel iu komunikas al oni, sian korpon ĝi movas for. Kiun mesaĝon sendas al oni? Ĉi
+Ĉi tion pripensu: kiel iu komunikas al oni, sian korpon ri movas for. Kiun mesaĝon sendas al oni? Ĉi
 tion kontrastu kun iu, kiu antaŭen kliniĝas por onin aŭskulti. Kio okazas, estas, la nura ago de
 antaŭen kliniĝi, la distanco inter la deveno de la sono—ria buŝo, al la celo de la sono—oniaj
 oreloj, malpligrandiĝas. La rapido, kaj la rilata distanco, en kiu, sono aere trairas estas
@@ -140,7 +140,7 @@ ne estis eldiritaj, mesaĝoj komunikitas. Kiam iu estas parolanta al oni, okulko
 pluigu. La ruzo estas por ne rigardi rekte al la okuloj, sed ie inter la ponto aŭ nur centimetro
 ĉirkaŭ la linio en kie la brovoj kunsidas. Por ĝin pliengaĝigi, nelonge rigardi je la flankoj aŭ
 malsupren, tiam reiru al la areo de la okuloj. Tamen, la aliajn partojn de la korpo de la paronlanto
-ne rigardu dum ĉi tiu procedo; eblas signalojn sendi al ri, ke kion ĝi diras oni ne priatentas.
+ne rigardu dum ĉi tiu procedo; eblas signalojn sendi al ri, ke kion ri diras oni ne priatentas.
 
 
 Miksaĵo
