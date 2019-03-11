@@ -310,7 +310,7 @@ tra la jarojn ĉi tiu paĝo enhavas.
   ―Jimmy JOHNSON
 
 
-- Kiam oni falegis antaŭe kaj ĝi postviviĝis, estas tre malmultaj aferoj en la vivo kiuj povas
+- Kiam oni falegis antaŭe kaj oni postviviĝis, estas tre malmultaj aferoj en la vivo kiuj povas
   timigi sin.<br>
   ―Sennomo
 
@@ -744,7 +744,7 @@ tra la jarojn ĉi tiu paĝo enhavas.
   ―Jonathan SWIFT
 
 
-- Disputante al malsaĝulo, unue certigu, ke la saman ĝi ne faras.<br>
+- Disputante al malsaĝulo, unue certigu, ke la saman ri ne faras.<br>
   ―Malnovproverbo
 
 
