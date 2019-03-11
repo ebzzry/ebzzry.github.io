@@ -3,7 +3,7 @@ Reflections
 
 <div class="center">[Esperanto](/eo/pripensoj/) · English</div>
 <div class="center">November 24, 2015</div>
-<div class="center">Last updated: March 1, 2019</div>
+<div class="center">Last updated: March 11, 2019</div>
 
 This page contains contains some of my personal reflections. Entries are sorted in chronological order.
 
@@ -348,3 +348,7 @@ This page contains contains some of my personal reflections. Entries are sorted 
 
 - If execution by electrocution was already invented in the time of Jesus, gigantic electric chairs
   would be hanging on the altars of Catholic churces.<br>
+
+
+- Never make important decisions when you are hungry, drunk, angry, tired, injured, sleepy, drugged,
+  ecstatic, dismal, or menstruating.<br>

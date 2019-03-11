@@ -3,7 +3,7 @@ Pripensoj
 
 <div class="center">Esperanto · [English](/en/reflections/)</div>
 <div class="center">la 3-an de novembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 8-an de marto 2019</div>
+<div class="center">Laste ĝisdatigita: la 11-an de marto 2019</div>
 
 Kelke da miaj propraj pripensoj ĉi tiu paĝo enhavas. Ordigatas la enskriboj laŭ kronologiordo.
 
@@ -353,3 +353,7 @@ Kelke da miaj propraj pripensoj ĉi tiu paĝo enhavas. Ordigatas la enskriboj la
 
 - Se elektroekzekutado estis jam elpensita en la tempo de Jesuo, gigantaj elektraj seĝoj nun
   pendus sur la altaroj de katolikaj preĝejoj.<br>
+
+
+- Gravajn decidojn neniam faru se oni malsatas, ebrias, koleras, lacas, vundiĝas, dormemas,
+  drogiĝas, ĝojegas, malĝojegas, aŭ menstruas.<br>
