@@ -3,7 +3,7 @@ Malŝparitaj Malcedemoj
 
 <div class="center">Esperanto · [English](/en/squandered/)</div>
 <div class="center">la 5-an de decembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 25-an de februaro 2019</div>
+<div class="center">Laste ĝisdatigita: la 9-an de marto 2019</div>
 
 >La unua paŝo por iri ien, estas decidi, ke oni ne restos kie oni estas.<br>
 >―J.P. MORGAN

@@ -3,7 +3,7 @@ Pripensoj
 
 <div class="center">Esperanto · [English](/en/reflections/)</div>
 <div class="center">la 3-an de novembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 1-an de marto 2019</div>
+<div class="center">Laste ĝisdatigita: la 8-an de marto 2019</div>
 
 Kelke da miaj propraj pripensoj ĉi tiu paĝo enhavas. Ordigatas la enskriboj laŭ kronologiordo.
 
@@ -214,7 +214,7 @@ Kelke da miaj propraj pripensoj ĉi tiu paĝo enhavas. Ordigatas la enskriboj la
 
 
 - Malklaras la difino de vivo—nigra truo estas kiel viva tiel bakterio. La atributoj de vivo kiujn
-  ni donintaj al ĝi ege dependas al nia rilato al la vivaĵojn kiujn ni konas.<br>
+  ni donis al ĝi ege dependas al nia rilato je la vivaĵoj kiujn ni konas.<br>
 
 
 - Mi parolas la Ilokan al miaj gepatroj, la Filipinan al miaj kamparanoj, la Anglan al miaj

@@ -3,7 +3,7 @@ Kiel Mi Ruliĝas per Tmux
 
 <div class="center">Esperanto · [English](/en/tmux/)</div>
 <div class="center">la 26-an de septembro 2018</div>
-<div class="center">Laste ĝisdatigita: la 20-an de februaro 2019</div>
+<div class="center">Laste ĝisdatigita: la 8-an de marto 2019</div>
 
 >Furioza agado ne estas anstataŭaĵo de komprenado.<br>
 >―H.H. WILLIAMS
@@ -298,7 +298,7 @@ kiel retumiloj. La enhavon de ĝi oni povas elĉerpi per <kbd>C-v</kbd>, `Dekstr
 La tmux-zono estas la tiu, kiu estas engaĝita kiam la kopian reĝimon oni eniras. Ĉi tio estas farita
 per je <kbd>C-z [</kbd> premi unue, tiam je <kbd>C-Space</kbd> premu por la komencon marki, tiam la
 movadajn klavojn premi por la areon etendi, kaj fine je <kbd>M-w</kbd> premu por la enhavojn
-kopii. La enhavon de ĝi oni poval elĉerpi per je <kbd>C-z ]</kbd> premi.
+kopii. La enhavon de ĝi oni povas elĉerpi per je <kbd>C-z ]</kbd> premi.
 
 Per tmux la musmontrilon mi ne plu bezonas uzi por la zonojn mastrumi.
 

@@ -11,8 +11,8 @@ Dependencoj
 - [emem](https://github.com/ebzzry/emem)
 
 
-Muntado
--------
+Kunmetado
+---------
 
 Por la HTML-dosierojn generi, la jenan komandon plenumu:
 
