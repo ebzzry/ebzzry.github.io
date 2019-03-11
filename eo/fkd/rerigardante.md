@@ -3,7 +3,7 @@ Rerigardante
 
 <div class="center">Esperanto · [English](/en/retrospect/)</div>
 <div class="center">la 8-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 4-an de februaro 2019</div>
+<div class="center">Laste ĝisdatigita: la 9-an de marto 2019</div>
 
 >El la militolernejo de la vivo: kion ne detruas min, igas min pli forte.<br>
 >―Friedrich NIETZSCHE
@@ -50,7 +50,7 @@ tiun demandon. La kapablo por diri tiun demandon estis atesto por la sperto. Pos
 Mi ofte aŭdis la frazon _“Vi ne devis doni vian ĉion.”_ Tio eblis funkcii al ili. Tio eblis funkcii
 al iliaj metodoj, tamen nepre ne por mi. Kial? Tial ke, mi ne povos esplori miajn limojn se estas mi
 mem, kiu metos la limojn, antaŭ ol mi eĉ esploras. Se mi ne ege strebas, mi ne povas iri ien. Mi
-porĉiame enfermitos en la sama loko. Se oni ne donos siajn plej bonajn en ĉiu ŝanco kiun ĝi havos,
+porĉiame enfermitos en la sama loko. Se oni ne donos siajn plej bonajn en ĉiu ŝanco kiun ri havos,
 la agoj facile falas en la kategorio de duagradeco. Se io valoras fari, valoras fari ĝin tre bone.
 
 Niaj mensoj reagas al stimuloj, kaj ĉi tio ankaŭ aplikatas al iliaj prikomponantoj, kiel niaj
