@@ -3,7 +3,7 @@ Kiel Mi Ruliĝas per Tmux
 
 <div class="center">Esperanto · [English](/en/tmux/)</div>
 <div class="center">la 26-an de septembro 2018</div>
-<div class="center">Laste ĝisdatigita: la 8-an de marto 2019</div>
+<div class="center">Laste ĝisdatigita: la 13-an de marto 2019</div>
 
 >Furioza agado ne estas anstataŭaĵo de komprenado.<br>
 >―H.H. WILLIAMS
@@ -97,7 +97,7 @@ bind . source-file ~/.tmux.conf
 bind r move-window -r \; setw automatic-rename
 bind x kill-pane \; move-window -r \; setw automatic-rename
 bind & kill-window \; move-window -r \; setw automatic-rename
-bind k clear-history
+bind k send-keys C-l \; send-keys -R \; clear-history
 ```
 
 Ĉi tie, je <kbd>C-z x</kbd> kaj je <kbd>C-z &</kbd> mi rebindis por ke kiam fenestroj estas
