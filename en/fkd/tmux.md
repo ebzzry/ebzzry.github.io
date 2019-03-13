@@ -3,7 +3,7 @@ How I Roll with Tmux
 
 <div class="center">[Esperanto](/eo/tmux/) · English</div>
 <div class="center">October 18, 2017</div>
-<div class="center">Last updated: februaro 20, 2019</div>
+<div class="center">Last updated: March 13, 2019</div>
 
 >Furious activity is no substitute for understanding.<br>
 >―H.H. Williams
@@ -97,7 +97,7 @@ bind . source-file ~/.tmux.conf
 bind r move-window -r \; setw automatic-rename
 bind x kill-pane \; move-window -r \; setw automatic-rename
 bind & kill-window \; move-window -r \; setw automatic-rename
-bind k clear-history
+bind k send-keys C-l \; send-keys -R \; clear-history
 ```
 
 Here, I rebound <kbd>C-z x</kbd> and <kbd>C-z &</kbd>, so that when windows are removed the
