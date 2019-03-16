@@ -3,7 +3,7 @@ Converting Markdown to HTML with emem
 
 <div class="center">[Esperanto](/eo/emem/) · English</div>
 <div class="center">March 12, 2017</div>
-<div class="center">Last updated: September 6, 2018</div>
+<div class="center">Last updated: March 16, 2019</div>
 
 >The answers you seek you will never find until you stop looking outside and start looking for them
 >within yourself.<br>
@@ -146,8 +146,7 @@ $ emem -D 'A diary about lobsters and crabs' \
 -K 'lobsters, crabs, blog, journal, sea foods, monsters' README.md
 ```
 
-It is also possible to insert arbitrary content in the head tag with the `-H` option. For example,
-to specify [Open Graph Protocol](http://ogp.me/) values:
+It is also possible to specify [Open Graph Protocol](http://ogp.me/) values:
 
 ```bash
 $ emem -D Meh -K 'foo, bar, baz' \
