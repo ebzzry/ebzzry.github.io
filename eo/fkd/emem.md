@@ -211,6 +211,6 @@ uzas por miaj propraj kaj postenaj dokumentadoj. Ĝin mi ankaŭ uzas per emakso 
 Markdown-bufroj krei per
 [shell-command](https://www.gnu.org/software/emacs/manual/html_node/elisp/Synchronous-Processes.html)
 kaj [emacs-w3m](https://www.emacswiki.org/emacs/emacs-w3m). Por je emem vidi en efektiva uzado,
-[ĉi tien](https://github.com/ebzzry/ebzzry.github.io/blob/master/Makefile) iru.
+[ĉi tien](https://github.com/ebzzry/ebzzry.github.io/blob/master/makefile) iru.
 
 Se iom da Kloĵuron oni konas, [ĝin forku](https://github.com/ebzzry/emem/) kaj forkodumu!
