@@ -3,7 +3,7 @@ Creating Backups with Ugarit
 
 <div class="center">[Esperanto](/eo/ugarit/) · English</div>
 <div class="center">February 21, 2014</div>
-<div class="center">Last updated: September 6, 2018</div>
+<div class="center">Last updated: March 19, 2019</div>
 
 >Good judgement comes from experience, and experience comes from bad judgement.<br>
 >―Fred Brooks
@@ -230,9 +230,8 @@ To enable very verbose output:
 --------------------------
 
 When you are doubtful of the performance of the disk where you’ll be storing the snapshots, disable
-the [locate and updatedb](http://linux.about.com/od/commands/fl/updatedb-Linux-Command-Unix-Command.htm) service. It is
-usually run periodically via cron. It places a lot of load on the disk, and may over-stress it. Your
-mileage may vary.
+the locate and updatedb service. It is usually run periodically via cron. It places a lot of load on
+the disk, and may over-stress it. Your mileage may vary.
 
 To disable locate on NixOS, add the following to `/etc/nixos/configuration.nix`:
 
