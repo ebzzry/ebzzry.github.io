@@ -3,7 +3,7 @@ A Gentle Introduction to Non-determinism in Scheme
 
 <div class="center">[Esperanto](/eo/amb/) · English</div>
 <div class="center">March 8, 2019</div>
-<div class="center">Last updated: March 9, 2019</div>
+<div class="center">Last updated: March 21, 2019</div>
 
 >Some of the most crucial steps in mental growth are based not simply on acquiring new skills, but
 >on acquiring new administrative ways to use what one already knows.<br>
@@ -218,7 +218,7 @@ is functionally equivalent to
 
 ### <a name="callcccapturing">Capturing</a>
 
-Going b back to the earlier example:
+Going back to the earlier example:
 
 ```scheme
 (+ (* 1 2) 3)
