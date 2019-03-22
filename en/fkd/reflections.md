@@ -3,7 +3,7 @@ Reflections
 
 <div class="center">[Esperanto](/eo/pripensoj/) · English</div>
 <div class="center">November 24, 2015</div>
-<div class="center">Last updated: March 16, 2019</div>
+<div class="center">Last updated: March 22, 2019</div>
 
 This page contains contains some of my personal reflections. Entries are sorted in chronological order.
 
@@ -346,7 +346,7 @@ This page contains contains some of my personal reflections. Entries are sorted 
 - When a cult becomes mainstream, it becomes a religion.<br>
 
 
-- If execution by electrocution was already invented in the time of Jesus, gigantic electric chairs
+- If execution by lethal injection was already invented in the time of Jesus, gigantic syringes
   would be hanging on the altars of Catholic churches.<br>
 
 
