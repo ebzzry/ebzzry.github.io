@@ -65,10 +65,8 @@ Je smartparens oni ŝaltu en la startigo, kaj ĝin oni kroĉu al egaj kroĉiloj:
 
 ```lisp
 (use-package smartparens-config
-    :ensure smartparens
-    :config
-    (progn
-      (show-smartparens-global-mode t)))
+  :ensure smartparens
+  :config (progn (show-smartparens-global-mode t)))
 
 (add-hook 'prog-mode-hook 'turn-on-smartparens-strict-mode)
 (add-hook 'markdown-mode-hook 'turn-on-smartparens-strict-mode)
@@ -677,9 +675,9 @@ respektive."
 La pletoro de la komandoj en smartparens eble komence senkuraĝigas, tamen la investo per tempo en
 ilin lerni, minimumas kontraste al la gajnojn oni povas rikolti.
 
-smartparens estas la elpensintaĵo de [Matus GOLJER](https://github.com/Fuco1). Por pli da informo
+smartparens estas la elpensintaĵo de [Matus GOLJER](https://github.com/Fuco1). Por pli da informo
 pri smartparens, [ĉi tien](https://github.com/Fuco1/smartparens) iru. Se ĉi tiun projekton oni
 ŝatas, oni povas donaci
-[ĉi tie](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CEYP5YVHDRX8C).
+[ĉi tie](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CEYP5YVHDRX8C).
 
 La paĝa rubando kiu uziĝas supre estas de [wallhaven](https://alpha.wallhaven.cc/wallpaper/578010).
