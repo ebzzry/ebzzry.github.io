@@ -65,10 +65,8 @@ Let’s enable smartparens on startup, and hook it with some major hooks:
 
 ```lisp
 (use-package smartparens-config
-    :ensure smartparens
-    :config
-    (progn
-      (show-smartparens-global-mode t)))
+  :ensure smartparens
+  :config (progn (show-smartparens-global-mode t)))
 
 (add-hook 'prog-mode-hook 'turn-on-smartparens-strict-mode)
 (add-hook 'markdown-mode-hook 'turn-on-smartparens-strict-mode)
@@ -673,9 +671,8 @@ respectively."
 The plethora of commands in smartparens may be daunting at first, but the investement in time in
 learning them, will be minimal compared to benefits that you will reap.
 
-smartparens is the brainchild of [Matus Goljer](https://github.com/Fuco1). For more information
-on smartparens, go to [here](https://github.com/Fuco1/smartparens). If you like this project, you
-may
+smartparens is the brainchild of [Matus Goljer](https://github.com/Fuco1). For more information on
+smartparens, go [here](https://github.com/Fuco1/smartparens). If you like this project, you may
 donate [here](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CEYP5YVHDRX8C).
 
 The banner image used at the top is from [wallhaven](https://alpha.wallhaven.cc/wallpaper/578010).
