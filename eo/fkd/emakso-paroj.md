@@ -3,7 +3,7 @@ Emakso kaj Paroj
 
 <div class="center">Esperanto ▪ [English](/en/emacs-pairs/)</div>
 <div class="center">la 9-an de julio 2018</div>
-<div class="center">Laste ĝisdatigita: la 9-an de marto 2019</div>
+<div class="center">Laste ĝisdatigita: la 30-an de marto 2019</div>
 
 >La blanka bruo kiu batas ene la blanka mallumo estas la ritmo de la vivo; estas la pulso kiu
 >neniam vere foriris la podion.<br>
@@ -589,7 +589,7 @@ klavojn oportune mapi. Ĝin mi diskutis en [antaŭa](/eo/emakskonsiletoj-2-a) ar
 
 ```lisp
 (defmacro def-pairs (pairs)
-  "Funkciojn por parigado difinu. PAIRS estas asocialisto de
+  "Funkciojn por parigadon difini. PAIRS estas asocialisto de
 (NAME . STRING) conses, en kiu, NAME estas la nomo de la
 funkcio kiu estos kreita kaj STRING estas sole signa signovico
 kiu la komencan signon markas.
