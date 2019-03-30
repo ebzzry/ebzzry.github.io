@@ -1,7 +1,7 @@
 La Ipsilonkombinatoro en Ses Paŝoj
 ==================================
 
-<div class="center">Esperanto · [English](/en/y/)</div>
+<div class="center">Esperanto ▪ [English](/en/y/)</div>
 <div class="center">la 25-an de novembro 2017</div>
 <div class="center">Laste ĝisdatigita: la 28-an de septembro 2018</div>
 

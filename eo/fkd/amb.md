@@ -1,7 +1,7 @@
 Milda Enkonduko al Nedeterminismo en Skimo
 ==========================================
 
-<div class="center">Esperanto · [English](/en/amb/)</div>
+<div class="center">Esperanto ▪ [English](/en/amb/)</div>
 <div class="center">la 24-an de februaro 2019</div>
 <div class="center">Laste ĝisdatigita: la 22-an de marto 2019</div>
 

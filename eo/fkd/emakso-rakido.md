@@ -1,7 +1,7 @@
 Rakidprogramadon Agordi per Emakso
 ==================================
 
-<div class="center">Esperanto · [English](/en/emacs-racket/)</div>
+<div class="center">Esperanto ▪ [English](/en/emacs-racket/)</div>
 <div class="center">la 13-an de februaro 2018</div>
 <div class="center">Laste ĝisdatigita: la 28-an de januaro 2019</div>
 

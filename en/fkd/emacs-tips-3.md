@@ -1,7 +1,7 @@
 Emacs Tips and Tricks 3: Insert and Delete
 ==========================================
 
-<div class="center">[Esperanto](/eo/emakskonsiletoj-3-a/) · English</div>
+<div class="center">[Esperanto](/eo/emakskonsiletoj-3-a/) ▪ English</div>
 <div class="center">April 1, 2017</div>
 <div class="center">Last updated: September 24, 2017</div>
 
