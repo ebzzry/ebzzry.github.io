@@ -1,7 +1,7 @@
 Pripensoj
 =========
 
-<div class="center">Esperanto · [English](/en/reflections/)</div>
+<div class="center">Esperanto ▪ [English](/en/reflections/)</div>
 <div class="center">la 3-an de novembro 2017</div>
 <div class="center">Laste ĝisdatigita: la 22-an de marto 2019</div>
 

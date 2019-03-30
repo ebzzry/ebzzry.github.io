@@ -1,7 +1,7 @@
 Division in Haskell
 ===================
 
-<div class="center">[Esperanto](/eo/haskeldivido/) · English</div>
+<div class="center">[Esperanto](/eo/haskeldivido/) ▪ English</div>
 <div class="center">March 8, 2017</div>
 <div class="center">Last updated: August 5, 2018</div>
 

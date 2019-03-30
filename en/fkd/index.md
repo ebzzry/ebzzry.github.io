@@ -1,7 +1,7 @@
 The Musings of a Pedant
 =======================
 
-<div class="center">[Esperanto](/eo/) · English</div>
+<div class="center">[Esperanto](/eo/) ▪ English</div>
 <div class="center">August 15, 2015</div>
 <div class="center">Last updated: March 8, 2019</div>
 

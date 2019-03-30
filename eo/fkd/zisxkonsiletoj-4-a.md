@@ -1,7 +1,7 @@
 Ziŝkonsiletoj 4-a: Ĝeneralhelpiloj
 ==================================
 
-<div class="center">Esperanto · [English](/en/zsh-tips-4/)</div>
+<div class="center">Esperanto ▪ [English](/en/zsh-tips-4/)</div>
 <div class="center">la 26-an de septembro 2018</div>
 <div class="center">Laste ĝisdatigita: la 8-an de marto 2019</div>
 

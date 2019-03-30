@@ -1,7 +1,7 @@
 Retpoŝton Agordi per Emakso
 ===========================
 
-<div class="center">Esperanto · [English](/en/emacs-mail/)</div>
+<div class="center">Esperanto ▪ [English](/en/emacs-mail/)</div>
 <div class="center">la 14-an de februaro 2018</div>
 <div class="center">Laste ĝisdatigita: la 21-an de februaro 2019</div>
 

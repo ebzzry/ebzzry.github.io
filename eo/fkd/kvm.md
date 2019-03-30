@@ -1,7 +1,7 @@
 Virtualigado en Linukso per KVM
 ===============================
 
-<div class="center">Esperanto · [English](/en/kvm/)</div>
+<div class="center">Esperanto ▪ [English](/en/kvm/)</div>
 <div class="center">la 3-an de marto 2018</div>
 <div class="center">Laste ĝisdatigita: la 9-an de marto 2019</div>
 

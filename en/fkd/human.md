@@ -1,7 +1,7 @@
 How to Communicate like a Human
 ===============================
 
-<div class="center">[Esperanto](/eo/homo/) · English</div>
+<div class="center">[Esperanto](/eo/homo/) ▪ English</div>
 <div class="center">February 28, 2017</div>
 <div class="center">Last updated: August 5, 2018</div>
 

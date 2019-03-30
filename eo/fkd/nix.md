@@ -1,7 +1,7 @@
 Milda Enkonduko al la Nix-Familio
 =================================
 
-<div class="center">Esperanto · [English](/en/nix/)</div>
+<div class="center">Esperanto ▪ [English](/en/nix/)</div>
 <div class="center">la 5-an de aŭgusto 2018</div>
 <div class="center">Laste ĝisdatigita: la 8-an de marto 2019</div>
 
@@ -89,7 +89,7 @@ oni instalis rompigis? Kiom da fojo, pro ĉagrenego, oni rezignis en la riparado
 simple decidis por la sistemon reinstali el nulo. Datumdosierojn restaŭri facilas; sistemagordon de
 la lasta funkcia stato restaŭri, bedaŭrinde, estas unudirekta bileto al infero.
 
-[NixOS](https://nixos.org) (niks·oŭ·es) estas linuksa distribuo kiu ĉi tiajn problemojn solvas per la
+[NixOS](https://nixos.org) (niks▪oŭ▪es) estas linuksa distribuo kiu ĉi tiajn problemojn solvas per la
 determinismon de [Nix](https://nixos.org/nix) ekspluati kaj per unu deklaran agorddosieron uzi kiu
 ĉiom da agordaĵoj kaj alĝustigiloj tenas en unu loko—`/etc/nixos/configuration.nix`. Informon pri la
 dosiersistemo, uzantoj, servoj, retagordo, enigaparatoj, kernaj parametroj, kaj pli ĉi tiu dosiero
@@ -900,7 +900,7 @@ en la [gvidilo](https://nixos.org/nix/manual/#ch-expression-language).
 <a name="nixpkgs"></a>Nixpkgs
 -----------------------------
 
-Nixpkgs (niks·pa·kej·ĝes) estas kolekto de pakoj organizitaj kaj mastrumitaj per uzantoj
+Nixpkgs (niks▪pa▪kej▪ĝes) estas kolekto de pakoj organizitaj kaj mastrumitaj per uzantoj
 tutmonde. Pro la fontkodo estas en [GitHub](https://github.com/nixos/nixpkgs), la avantaĝon de la
 potenca kunlaborada sistemo kiun tiu platformo ofertas ĝi eblas ekspluati. Ĉi tiun artikolon
 skribante, estas 42583 pakoj en la [kolekto](https://nixos.org/nixos/packages.html). Larĝan tabelon
