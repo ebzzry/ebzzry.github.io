@@ -1,7 +1,7 @@
 My Kinesis Advantage Layout
 ===========================
 
-<div class="center">[Esperanto](/eo/avantagxo/) · English</div>
+<div class="center">[Esperanto](/eo/avantagxo/) ▪ English</div>
 <div class="center">October 26, 2015</div>
 <div class="center">Last updated: October 3, 2018</div>
 

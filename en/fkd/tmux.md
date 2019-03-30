@@ -1,7 +1,7 @@
 How I Roll with Tmux
 ====================
 
-<div class="center">[Esperanto](/eo/tmux/) · English</div>
+<div class="center">[Esperanto](/eo/tmux/) ▪ English</div>
 <div class="center">October 18, 2017</div>
 <div class="center">Last updated: March 13, 2019</div>
 

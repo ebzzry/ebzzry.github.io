@@ -1,7 +1,7 @@
 My Markdown Style Guide
 =======================
 
-<div class="center">[Esperanto](/eo/markdown/) · English</div>
+<div class="center">[Esperanto](/eo/markdown/) ▪ English</div>
 <div class="center">April 3, 2017</div>
 <div class="center">Last updated: September 24, 2018</div>
 
