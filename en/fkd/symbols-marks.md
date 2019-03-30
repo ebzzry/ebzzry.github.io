@@ -1,7 +1,7 @@
 Symbols and Marks
 =================
 
-<div class="center">[Esperanto](/eo/signoj-interpunkcioj/) · English</div>
+<div class="center">[Esperanto](/eo/signoj-interpunkcioj/) ▪ English</div>
 <div class="center">April 8, 2016</div>
 <div class="center">Last updated: February 21, 2019</div>
 

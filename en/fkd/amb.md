@@ -1,7 +1,7 @@
 A Gentle Introduction to Non-determinism in Scheme
 ==================================================
 
-<div class="center">[Esperanto](/eo/amb/) · English</div>
+<div class="center">[Esperanto](/eo/amb/) ▪ English</div>
 <div class="center">March 8, 2019</div>
 <div class="center">Last updated: March 22, 2019</div>
 
