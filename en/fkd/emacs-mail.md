@@ -1,7 +1,7 @@
 Setting up Mail in Emacs
 ========================
 
-<div class="center">[Esperanto](/eo/emakso-retposxto/) · English</div>
+<div class="center">[Esperanto](/eo/emakso-retposxto/) ▪ English</div>
 <div class="center">February 2, 2014</div>
 <div class="center">Last updated: January 28, 2019</div>
 

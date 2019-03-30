@@ -1,7 +1,7 @@
 Rerigardante
 ============
 
-<div class="center">Esperanto · [English](/en/retrospect/)</div>
+<div class="center">Esperanto ▪ [English](/en/retrospect/)</div>
 <div class="center">la 8-an de februaro 2018</div>
 <div class="center">Laste ĝisdatigita: la 9-an de marto 2019</div>
 

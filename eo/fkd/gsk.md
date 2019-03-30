@@ -1,7 +1,7 @@
 Agordi je GPG kaj je SSH en KDE
 ===============================
 
-<div class="center">Esperanto · [English](/en/gsk/)</div>
+<div class="center">Esperanto ▪ [English](/en/gsk/)</div>
 <div class="center">la 19-an de februaro 2018</div>
 <div class="center">Laste ĝisdatigita: la 9-an de marto 2019</div>
 
