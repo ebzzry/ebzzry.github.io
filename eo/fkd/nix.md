@@ -3,7 +3,7 @@ Milda Enkonduko al la Nix-Familio
 
 <div class="center">Esperanto ▪ [English](/en/nix/)</div>
 <div class="center">la 5-an de aŭgusto 2018</div>
-<div class="center">Laste ĝisdatigita: la 8-an de marto 2019</div>
+<div class="center">Laste ĝisdatigita: la 18-an de aprilo 2019</div>
 
 >Ne maltrankviliĝu pri tio, kion la aliaj faros. La plej bona maniero por la estontecon antaŭdiri
 >estas per tion eltrovi.<br>
@@ -992,9 +992,10 @@ Pakojn instali per kanaloj pli agrablas tial, ke la komandoj por pakojn instali 
 oportunaj. La kompromiso, estas, ke la pakoj estas malaktualaj de iom da tagoj. Se oni bonas pri
 tio, tiam kanalojn uzi anstataŭ la gitkopion.
 
-Kanaloj estas etikeditaj `stable`, `unstable`, aŭ per specifa versinombro, ekzemple, `17.03` aŭ
-`18.09`. Por ĉi tiu artikolo, je `unstable` ni uzu—ĝi nek estas tiel malaktuala kiel `stable` nek
-tiel ĵuŝa kiel la gitkopio. Por aboni al la `unstable`-kanalo, plenumu:
+Kanaloj estas etikeditaj `stable`, `unstable`, aŭ per specifa versinombro,
+ekzemple, `18.09` aŭ `19.03`. Por ĉi tiu artikolo, je `unstable` ni uzu—ĝi nek
+estas tiel malaktuala kiel `stable` nek tiel ĵuŝa kiel la gitkopio. Por aboni al
+la `unstable`-kanalo, plenumu:
 
     $ nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
 

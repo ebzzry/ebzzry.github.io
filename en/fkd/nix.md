@@ -3,7 +3,7 @@ A Gentle Introduction to the Nix Family
 
 <div class="center">[Esperanto](/eo/nix/) ▪ English</div>
 <div class="center">March 22, 2017</div>
-<div class="center">Last updated: March 8, 2019</div>
+<div class="center">Last updated: April 18, 2019</div>
 
 >Don’t worry about what anybody else is going to do. The best way to predict the future is to
 >invent it.<br>
@@ -995,9 +995,10 @@ Installing packages via channels is nicer, because the commands to install packa
 convenient. The trade-off is that the packages will be out-of-date by a few days. If you’re fine
 with it, then use channels instead of the git checkout.
 
-Channels are labeled **stable**, **unstable**, or with a specific version number, e.g., **17.03** or
-**18.09**. For this article, let’s use the unstable channel—it’s not as dated as stable, nor as
-recent as the git checkout. To subscribe to the unstable channel, run:
+Channels are labeled `stable`, `unstable`, or with a specific version number,
+e.g., `18.09` or `19.03`. For this article, let’s use the unstable channel—it’s
+not as dated as stable, nor as recent as the git checkout. To subscribe to the
+unstable channel, run:
 
     $ nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
 
