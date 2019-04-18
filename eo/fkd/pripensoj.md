@@ -3,7 +3,7 @@ Pripensoj
 
 <div class="center">Esperanto ▪ [English](/en/reflections/)</div>
 <div class="center">la 3-an de novembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 22-an de marto 2019</div>
+<div class="center">Laste ĝisdatigita: la 18-an de aprilo 2019</div>
 
 Kelke da miaj propraj pripensoj ĉi tiu paĝo enhavas. Ordigatas la enskriboj laŭ kronologiordo.
 
@@ -250,7 +250,7 @@ Kelke da miaj propraj pripensoj ĉi tiu paĝo enhavas. Ordigatas la enskriboj la
 - Ne estas diplomatio se ŝtonon oni jam komence havas.<br>
 
 
-- La plej ŝatataj marionetoj de marionetuloj estas la tiuj, kiuj volas esti marionetigitaj.<br>
+- La plej ŝatataj marionetoj de marionetuloj estas tiuj, kiuj volas esti marionetigitaj.<br>
 
 
 - En ĉiuj militoj, ĉiom da partoprenantoj vundiĝas.<br>
@@ -266,7 +266,7 @@ Kelke da miaj propraj pripensoj ĉi tiu paĝo enhavas. Ordigatas la enskriboj la
 - La kutimaj aferoj estas la plej danĝeraj.<br>
 
 
-- La kutimaj aferoj estas la tiuj, kiuj la plej malbonajn danĝerojn prezentas.<br>
+- La kutimaj aferoj estas tiuj, kiuj la plej malbonajn danĝerojn prezentas.<br>
 
 
 - La momenton, en kiu, oni opinias, ke oni devas prirapidiĝi, estas la momento ke oni devas
@@ -318,7 +318,7 @@ Kelke da miaj propraj pripensoj ĉi tiu paĝo enhavas. Ordigatas la enskriboj la
   ricevi.<br>
 
 
-- La vera valoro de iu plumo ne estas pri ĝia varmarko; estas pri la tiu, kiu ĝin uzas.<br>
+- La vera valoro de iu plumo ne estas pri ĝia varmarko; estas pri tiu, kiu ĝin uzas.<br>
 
 
 - Ne forgesu, ke kiam floron oni plukas de la tero, ĝin oni mortigas.<br>

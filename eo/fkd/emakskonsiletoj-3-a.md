@@ -3,7 +3,7 @@ Emakskonsiletoj 3-a: Enmeti kaj Forviŝi
 
 <div class="center">Esperanto ▪ [English](/en/emacs-tips-3/)</div>
 <div class="center">la 24-an de septembro 2018</div>
-<div class="center">Laste ĝisdatigita: la 24-an de septembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 18-an de aprilo 2018</div>
 
 Jen la daŭrigo de mia serio pri emaksaj konsiletoj. En ĉi tiu artikolo, ni esploru pri signovicaj
 enmetadoj, kaj linia forviŝado, markado, kaj algluado.
@@ -217,7 +217,7 @@ Tiam, la jenan ni aldonu al emaksa startiga dosiero:
   (insert (shell-command-to-string "xclip -selection clipboard -o")))
 ```
 
-La ĉefzono estas la tiu, kiu ŝaltiĝas kiam musajn markojn oni faras, dum la tondejzono estas la tiu,
+La ĉefzono estas tiu, kiu ŝaltiĝas kiam musajn markojn oni faras, dum la tondejzono estas tiu,
 kiu estas uzita kiam la komandon _Kopii_ el apo oni alvokas, aŭ kiam je <kbd>Ctrl+c</kbd> oni
 premas.
 

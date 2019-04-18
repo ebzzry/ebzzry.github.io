@@ -3,7 +3,7 @@ Ziŝkonsiletoj 3-a: Ŝanĝradikighelpiloj
 
 <div class="center">Esperanto ▪ [English](/en/zsh-tips-3/)</div>
 <div class="center">la 26-an de septembro 2018</div>
-<div class="center">Laste ĝisdatigita: la 21-an de februaro 2019</div>
+<div class="center">Laste ĝisdatigita: la 18-an de aprilo 2019</div>
 
 >Ni ridas pri tio, kion ni ne povas toleri por alfronti.<br>
 >―Aristotelo
@@ -91,7 +91,7 @@ En ĉi tiu punkto, oni estas ensalutita kiel la ĉefuzanto per Baŝo. Kelkajn il
 
     # apt-get install -y zsh sudo
 
-Tiam la ŝanĝradikigmedian specifan konton ni kreu. Ĝin ni devas akordigi al la tiu, kiun oni nune
+Tiam la ŝanĝradikigmedian specifan konton ni kreu. Ĝin ni devas akordigi al tiu, kiun oni nune
 uzas. Ni supozu, ke la aktuala uzantnomo estas `vakelo` kun la uzantnumero `1000`.
 
     # useradd -u 1000 -m vakelo

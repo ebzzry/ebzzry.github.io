@@ -3,7 +3,7 @@ Mia Kinezia Avantaĝa Aranĝo
 
 <div class="center">Esperanto ▪ [English](/en/advantage/)</div>
 <div class="center">la 12-an de julio 2018</div>
-<div class="center">Laste ĝisdatigita: la 8-an de marto 2019</div>
+<div class="center">Laste ĝisdatigita: la 18-an de aprilo 2019</div>
 
 >La doloro neeviteblas. La suferado malnepras.<br>
 >―M. Kathleen CASEY
@@ -80,7 +80,7 @@ iras. Ankaŭ plifaciliĝas por la `overwrite-mode`-reĝimon de emakso eniri kaj 
 aldoni en *Krita*. La <kbd>Insert</kbd> klavo, bedaŭrinde, kaŝitas en la klavo markita per `|`,
 maldekstre. La sinsekvo por ĝin aliri estas listigita al la fino de ĉi tiu afiŝo.
 
-La tiujn kiuj estis antaŭe <kbd>Ctrl</kbd>-klavoj mi bindis al <kbd>KP Home</kbd> kaj <kbd>KP
+Tiujn kiuj estis antaŭe <kbd>Ctrl</kbd>-klavoj mi bindis al <kbd>KP Home</kbd> kaj <kbd>KP
 End</kbd> por ke ilin mi povu mapi al <kbd>Mode‎ߺ‎Switch</kbd> en mia
 [~/.Xmodmap](https://github.com/ebzzry/dotfiles/blob/master/xmodmap/advantage.dv.xmap)-dosiero. Miajn
 [notojn](#notojn) vidu ĉi-sube kial alian malrektigadan nivelon mi aldonis.
@@ -167,7 +167,7 @@ En la tempo de skribado, ĉi tion mi nek ankoraŭ scias kio kaŭzas nek sencebla
 La programebleco de la Kinezia Avantaĝo estas unu el ĝiaj plej fortaj kapabloj. Tio, kun ĝia
 frenezega fortikeco kaj la elstaraj ergonomioj la avantaĝon inda investo igas.
 
-Pli da kapablo ol la tiu kiun mi havas la plej ĵusa
+Pli da kapablo ol tiu kiun mi havas la plej ĵusa
 model—[Advantage2](https://kinesis-ergo.com/shop/advantage2/)—havas. La funkciaj klavoj de ĉi tiu
 modelo nun meĥanikas. Se buĝeton oni havas, ĝin aĉetu! La [hejmpaĝon](https://www.kinesis-ergo.com/)
 de Kinezio oni povas viziti por pli da informo.

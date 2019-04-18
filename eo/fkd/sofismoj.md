@@ -3,7 +3,7 @@ Milda Enkonduko al Sofismoj
 
 <div class="center">Esperanto ▪ [English](/en/fallacies/)</div>
 <div class="center">la 29-an de julio 2018</div>
-<div class="center">Laste ĝisdatigita: la 9-an de marto 2019</div>
+<div class="center">Laste ĝisdatigita: la 18-an de aprilo 2019</div>
 
 >Lerni ne necesas; nek travivas.<br>
 >―W. Edwards DEMING
@@ -381,7 +381,7 @@ specifa deveno havas. Ĉi tio ofte rimarkitas en sociaj klasoj, biologiaj deveno
 > “Kaŭze de Panĉo devenas el malriĉa familio, kiam li elektiĝos prezidento, mi certas, ke li povas
 > helpi la kamparanojn kiel ni.”
 
-Ĉi tiu supozas, ke pro Panĉo devenas el malpli bonsortaj sociaj teniĝoj, li favoros la tiujn kiuj
+Ĉi tiu supozas, ke pro Panĉo devenas el malpli bonsortaj sociaj teniĝoj, li favoros tiujn kiuj
 ankaŭ malriĉas, same kiel li antaŭe.
 
 

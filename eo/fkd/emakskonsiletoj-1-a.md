@@ -3,7 +3,7 @@ Emakskonsiletoj 1-a: Regionoj kaj Markoj
 
 <div class="center">Esperanto ▪ [English](/en/emacs-tips-1/)</div>
 <div class="center">la 12-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 8-an de marto 2019</div>
+<div class="center">Laste ĝisdatigita: la 18-an de aprilo 2019</div>
 
 Mi ankoraŭ bezonas trovi pli bonan redaktilon ol [emakso](https://www.gnu.org/software/emacs/). tio,
 kio igas emakson elstara, estas ĝia agorda lingvo—emaksa Lispo. Emakso uzas ĝin al punkto, en kiu,
@@ -78,7 +78,7 @@ Kaj mi ankaŭ havas la jenan, tial ke, mi plaĉe volas ĝisrandigi la `λ`-simbo
 <a name="servilo"></a>Servilo
 -----------------------------
 
-La jena kodaĵo certigas, ke la emaksa servilo, la tiu, kiun `emacsclient` konektas al, kuras:
+La jena kodaĵo certigas, ke la emaksa servilo, tiu, kiun `emacsclient` konektas al, kuras:
 
 ```lisp
 (require 'server)
