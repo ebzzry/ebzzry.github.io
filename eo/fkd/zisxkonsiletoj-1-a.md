@@ -3,7 +3,7 @@ Ziŝkonsiletoj 1-a: Alinomoj kaj Funkcioj
 
 <div class="center">Esperanto ▪ [English](/en/zsh-tips-1/)</div>
 <div class="center">la 26-an de septembro 2018</div>
-<div class="center">Laste ĝisdatigita: la 9-an de marto 2019</div>
+<div class="center">Laste ĝisdatigita: la 18-an de aprilo 2019</div>
 
 >Malsaĝulo miras je nekutimajn aferojn. Ŝagulo miras je la kutimajn aferojn.<br>
 >―Konfuceo
@@ -28,7 +28,7 @@ artikolo mi parolos pri la aĵoj por la interagan uzon de la ŝelo plibonigi.
 ---------------------------------------
 
 Estas almenaŭ tri tipoj de komandoj en Ziŝo: duumdosieroj, alinomoj, kaj funkcioj. Duumdosieroj,
-estas la tiuj kiuj troveblas en la `$PATH`; ili estas la programoj, kiujn oni instalis per la
+estas tiuj kiuj troveblas en la `$PATH`; ili estas la programoj, kiujn oni instalis per la
 pakadministrilo. Alinomoj kaj funkcioj, aliflanke, ne loĝas kiel dosieroj sur la dosiersistemo. Ili
 estas difinitaj kiel parto de la agorddosiero, aŭ entekstitaj en la seanco.
 

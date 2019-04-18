@@ -3,7 +3,7 @@ Citaĵoj
 
 <div class="center">Esperanto ▪ [English](/en/quotes/)</div>
 <div class="center">la 15-an de novembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 9-an de marto 2019</div>
+<div class="center">Laste ĝisdatigita: la 18-an de aprilo 2019</div>
 
 <img src="/bil/wallhaven-77816-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -356,7 +356,7 @@ tra la jarojn ĉi tiu paĝo enhavas.
   ―Anonimulo
 
 
-- La popoloj kiuj riskiĝas, estas ofte la tiuj, kiuj finiĝas esti la plej feliĉaj.<br>
+- La popoloj kiuj riskiĝas, estas ofte tiuj, kiuj finiĝas esti la plej feliĉaj.<br>
   ―Anonimulo
 
 
@@ -789,7 +789,7 @@ tra la jarojn ĉi tiu paĝo enhavas.
   ―Marvin MINSKY
 
 
-- Kiel la plej brusonojn malplenujoj faras, do la tiuj kun la plej malgrandsaĝoj estas la plej
+- Kiel la plej brusonojn malplenujoj faras, do tiuj kun la plej malgrandsaĝoj estas la plej
   grandbabiluloj.<br>
   ―Plato
 
