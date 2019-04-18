@@ -3,7 +3,7 @@ Kiel Mi Ruliĝas per Tmux
 
 <div class="center">Esperanto ▪ [English](/en/tmux/)</div>
 <div class="center">la 26-an de septembro 2018</div>
-<div class="center">Laste ĝisdatigita: la 13-an de marto 2019</div>
+<div class="center">Laste ĝisdatigita: la 18-an de aprilo 2019</div>
 
 >Furioza agado ne estas anstataŭaĵo de komprenado.<br>
 >―H.H. WILLIAMS
@@ -287,15 +287,15 @@ Por ĉiom da kromprogramoj instali, je <kbd>C-z I</kbd> premu.
 
 Per tmux aliron al la tri zonoj mi havas samtempe: la `PRIMARY`-, `CLIPBOARD`-, kaj la tmux-zonoj.
 
-La `PRIMARY`-zono estas la tiu, kiu estas engaĝita kiam ion oni markas per la musmontrilo. La
+La `PRIMARY`-zono estas tiu, kiu estas engaĝita kiam ion oni markas per la musmontrilo. La
 enhavon de ĝi oni povas elĉerpi per la mezklaka musbutono aŭ <kbd>Shift+Insert</kbd>.
 
-La `CLIPBOARD`-zono estas la tiu, kiu estas engaĝita kiam eksplicitan peton por kopiado oni faras,
+La `CLIPBOARD`-zono estas tiu, kiu estas engaĝita kiam eksplicitan peton por kopiado oni faras,
 kutime farite per <kbd>C-c</kbd>, `Dekstre klaki > Kopii`, aŭ `Redakti > Kopii`, per grafikaj apoj
 kiel retumiloj. La enhavon de ĝi oni povas elĉerpi per <kbd>C-v</kbd>, `Dekstre klaki > Alglui`, aŭ
-`Redakti > Kopii`.
+`Redakti > Alglui`.
 
-La tmux-zono estas la tiu, kiu estas engaĝita kiam la kopian reĝimon oni eniras. Ĉi tio estas farita
+La tmux-zono estas tiu, kiu estas engaĝita kiam la kopian reĝimon oni eniras. Ĉi tio estas farita
 per je <kbd>C-z [</kbd> premi unue, tiam je <kbd>C-Space</kbd> premu por la komencon marki, tiam la
 movadajn klavojn premi por la areon etendi, kaj fine je <kbd>M-w</kbd> premu por la enhavojn
 kopii. La enhavon de ĝi oni povas elĉerpi per je <kbd>C-z ]</kbd> premi.

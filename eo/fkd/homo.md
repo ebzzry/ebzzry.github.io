@@ -3,7 +3,7 @@ Kiel Komuniki Samkiel Homo
 
 <div class="center">Esperanto ▪ [English](/en/human/)</div>
 <div class="center">la 3-an de aŭgusto 2018</div>
-<div class="center">Laste ĝisdatigita: la 4-an de februaro 2019</div>
+<div class="center">Laste ĝisdatigita: la 18-an de aprilo 2019</div>
 
 >La kapablo por paroli ne igas onin saĝa.<br>
 >―Qui-gon JINN
@@ -127,7 +127,7 @@ riajn mesaĝojn ricevi. Oni montras, ke oni aktive partoprenas en la konversacio
 ### Malfermajn polmojn montru
 
 Kiam niajn polmojn ni montras al la aŭskultanto, sencon de partopreno ni envokas, iu kiu montras, ke
-la tiu kun malfermaj polmoj rin igas vundebla. Ĉi tio estas pro parte de nia anatomio—niaj polmoj
+tiu kun malfermaj polmoj rin igas vundebla. Ĉi tio estas pro parte de nia anatomio—niaj polmoj
 karnas kaj delikatas. Se la enaj partoj de niaj manoj vundiĝos, niaj kapabloj por aĵojn teni estas
 ege kompromisitaj. Kiam niajn polmojn ni montras, malfermeco ni montras, volecon por lerni kaj fidon
 ni montras.

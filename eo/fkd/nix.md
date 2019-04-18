@@ -102,7 +102,7 @@ NixOS ne konformiĝas al [FHS](https://en.wikipedia.org/wiki/Filesystem_Hierarch
 cerban damaĝon efektive malebligi—spacon donanta por multe da flekso kaj eltrovemo. Je `/usr/` kaj
 `/opt/` ĝi ne havas. Tamen, je `/bin/` kaj `/usr/bin/` ĝi havas, kiu nur je `sh` kaj `env` havas
 respektive—ambaŭ fakte estas simbolligiloj al la realaj programoj kiuj loĝas ie en `/nix/store/`. La
-supra loko por sistemprogramoj—la tiuj, kiuj estas instalitaj specife de la sistemestro—estas
+supra loko por sistemprogramoj—tiuj, kiuj estas instalitaj specife de la sistemestro—estas
 lokitaj en `/run/current-system/sw/bin/` kaj `/run/current-system/sw/sbin/`. Uzantinstalitaj
 programoj, aliflanke, troveblas en siaj respektivaj `~/.nix-profile/bin/`-lokoj. Ĉi tiuj lokoj ne
 povas ŝanĝiĝi per kutimaj manieroj; dediĉitaj programoj devas esti uzataj por skribi al ĉi tiuj
@@ -313,7 +313,7 @@ Pli longa versio haveblas per:
 
     # curl -sSLo /mnt/etc/nixos/configuration.nix https://goo.gl/K4P7l5
 
-La UUID-identigilon de la disko anstataŭigu per la tiu, kiun oni havas. La komandon `blkid` uzu por
+La UUID-identigilon de la disko anstataŭigu per tiu, kiun oni havas. La komandon `blkid` uzu por
 la UUID-identigilojn akiru. Por la valoro de `networking.hostID` la jenan komandon uzu:
 
     # cksum /etc/machine-id | while read c rest; do printf "%x" $c; done
@@ -859,7 +859,7 @@ in {
 ```
 
 La saman `ve` la let-esprimo bindas al funkcio kiu unu argumenton akceptas. En la korpo de `let`,
-aron ĝi revenas kiu unu membron kun la nomo `ve` havas—la tiu en la maldekstra parto de la `=`. La
+aron ĝi revenas kiu unu membron kun la nomo `ve` havas—tiu en la maldekstra parto de la `=`. La
 valoro de ĉi tiu ano estas la funkcio kiun ni ĵus difinis. La grava koncepto por memorigi, estas, ke
 atribuaron ĉi tiu let-esprimo revenas.
 
@@ -1163,8 +1163,7 @@ liveras. La valoro por la atribuo `name` estas signovico kun la formato *paknomo
 estas la valoro liverita per la funkcion `fetchurl` voki, per alia atribuara argumento. La valoro
 por la atribuo `url` devas esti aŭ spegula specifo, kiel priskribita en
 `pkgs/build-support/fetchurl/mirrors.nix`, aŭ kutima retejadreso. Tiukaze, la GNU-spegulon ni uzis
-kaj la variablon `name` ni interpolis ene tiu signovico. La valoro de la atribuo `sha256` estas la
-tiu, kiun ni akiris per je `nix-prefetch-url` plenumi kontraŭ la retejadreso. Por la kontrolsumon akiri
+kaj la variablon `name` ni interpolis ene tiu signovico. La valoro de la atribuo `sha256` estas tiu, kiun ni akiris per je `nix-prefetch-url` plenumi kontraŭ la retejadreso. Por la kontrolsumon akiri
 de `hello-2.10`, plenumu:
 
 ```bash
@@ -1313,13 +1312,13 @@ duone bakita stato. La plej lasta paŝo de pakojn instali estas atoma. La sekret
 simbolligilon de `/nix/store` al `~/.nix-profile/`, la operacio kiu ĝin disponebligas al uzanto la
 sistemo kreas. La kreado de simbolligiloj en linukso kaj makintoŝo estas aŭ sukcesa aŭ ne.
 
-Sur NixOS, la kanalo uzita de la ĉefuzanto estas grava tial, ke ĝi estas la tiu, kiun oni uzas kiam
+Sur NixOS, la kanalo uzita de la ĉefuzanto estas grava tial, ke ĝi estas tiu, kiun oni uzas kiam
 la sistemon rekunmeti per `nixos-rebuild switch` post ŝanĝoj al `/etc/nixos/configuration.nix` estas
 faritaj. Por certigi, ke la pravan kanalon oni uzas, ĝin listigu per:
 
     $ sudo nix-channel --list
 
-Por la ĉefuzantan kanalon ŝanĝi simila al la tiu, kiu estis uzita antaŭe:
+Por la ĉefuzantan kanalon ŝanĝi simila al tiu, kiu estis uzita antaŭe:
 
     $ sudo nix-channel --add https://nixos.org/channels/nixos-unstable nixos
 
@@ -1356,7 +1355,7 @@ Parenteze, nur ekzistas sur NixOS la sistemmedio.
 
 ### <a name="uzantmedio"></a>Uzantmedio
 
-La uzantmedio estas la tiu, kiu estas uzita kiam ajn la komando `nix-env` estas uzita. Ekzemple,
+La uzantmedio estas tiu, kiu estas uzita kiam ajn la komando `nix-env` estas uzita. Ekzemple,
 ziŝon instalante per nix-env:
 
     $ nix-env -iA nixos.zsh
@@ -1367,7 +1366,7 @@ komandon plenumis, tiam la ziŝa duumdosiero disponebliĝos kiel
 tiam ĝi ne disponeblas por ĝi. Se la saman kanalon kiel Johano, Mario havas, kaj la saman
 *nix-env*-komandon ĝi kuris, tiam la ziŝan programan datumon Nix ne plu bezonas elŝuti el
 nulo. Anstataŭe, la ziŝan programan datumon, kiu estis kreita de la procezo de Johano antaŭe,
-disponebligas por Mario. Tamen, se gitkopion aŭ alian version de kanaloj kontraŭ la tiu kiun Johano
+disponebligas por Mario. Tamen, se gitkopion aŭ alian version de kanaloj kontraŭ tiu kiun Johano
 uzas, Mario uzas, tiam novan aperaĵon de ziŝo la alvoko de `nix-env` per Mario elŝutos.
 
 
@@ -1653,14 +1652,14 @@ NixOS. Ĝi ankaŭ haveblas per [MELPA](https://melpa.org/#/nix-mode). Ĝin oni p
 M-x package-install EN nix-mode EN
 ```
 
-Ekzistas aliaj pakaj mastrumadaj sistemoj kiuj ĉi tiun problemareon ankaŭ provas solvi. La tiuj,
+Ekzistas aliaj pakaj mastrumadaj sistemoj kiuj ĉi tiun problemareon ankaŭ provas solvi. Tiuj,
 kiujn mi konas estas [AppImage](http://appimage.org/), [Zero Install](http://0install.net/),
 [Snapcraft](https://snapcraft.io/), kaj [Flatpak](http://flatpak.org/).
 
 La [Guix System Distribution (GuixSD)](https://www.gnu.org/software/guix/) estas linuksa distribuo
 kiu estas bazita sur Nix. Je [Guile](https://www.gnu.org/software/guile/) ĝi uzas kiel sia
 API-lingvo. La kerna kontrasto inter GuixSD kaj NixOS, estas, je
-[GNU Shepherd](https://www.gnu.org/software/shepherd/) la tiu uzas anstataŭ systemd; neliberajn
+[GNU Shepherd](https://www.gnu.org/software/shepherd/) tiu uzas anstataŭ systemd; neliberajn
 pakojn ĝi ne permesas; kaj je [Linux-libre](https://www.fsfla.org/ikiwiki/selibre/linux-libre/),
 malpligrandigita versio de la baza kerno kun ĉiom da komercaj aĵoj forigitaj, ĝi uzas. Pli da
 informo pri iliaj kontrastoj troveblas
