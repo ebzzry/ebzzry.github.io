@@ -3,7 +3,7 @@ Kiel Mi Ruliĝas per Tmux
 
 <div class="center">Esperanto ▪ [English](/en/tmux/)</div>
 <div class="center">la 26-an de septembro 2018</div>
-<div class="center">Laste ĝisdatigita: la 18-an de Aprilo 2019</div>
+<div class="center">Laste ĝisdatigita: la 21-an de Majo 2019</div>
 
 >Furioza agado ne estas anstataŭaĵo de komprenado.<br>
 >―H.H. WILLIAMS
@@ -243,6 +243,33 @@ set -g pane-border-bg black
 set -g pane-active-border-fg green
 set -g pane-active-border-bg black
 ```
+
+Sed se la `2.9.X` serion oni jam uzas, ĉi tion uzu anstataŭe:
+
+```
+set -g status-position bottom
+set -g status-bg "#3F3F3F"
+set -g status-fg default
+
+setw -g window-status-format "#I:#W#F "
+setw -g window-status-current-format "#I:#W#F "
+
+setw -g window-status-style fg="#D8D8D8",bg="#3F3F3F",bold
+setw -g window-status-current-style fg=green,bg=black,bold
+
+set -g status-interval 1
+
+set -g status-left ''
+set -g status-left-style fg=green,bg=black
+
+set -g status-right '#{prefix_highlight}'
+set -g status-right-length 50
+set -g status-right-style fg=green,bg=black
+
+set -g pane-border-style fg="#3F3F3F",bg=black
+set -g pane-active-border-style fg=green,bg=black
+```
+
 
 La statbreton ĉi tio montras en la subo de la terminalsimulilo, kaj ĉiujn fenestroj de 1 montras, la
 daton en la dekstra parto montrante.

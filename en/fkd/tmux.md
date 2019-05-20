@@ -3,7 +3,7 @@ How I Roll with Tmux
 
 <div class="center">[Esperanto](/eo/tmux/) ▪ English</div>
 <div class="center">October 18, 2017</div>
-<div class="center">Last updated: March 13, 2019</div>
+<div class="center">Last updated: May 21, 2019</div>
 
 >Furious activity is no substitute for understanding.<br>
 >―H.H. Williams
@@ -241,6 +241,32 @@ set -g pane-border-fg "#3F3F3F"
 set -g pane-border-bg black
 set -g pane-active-border-fg green
 set -g pane-active-border-bg black
+```
+
+However, if you are already using the `2.9.X` series, use the following instead:
+
+```
+set -g status-position bottom
+set -g status-bg "#3F3F3F"
+set -g status-fg default
+
+setw -g window-status-format "#I:#W#F "
+setw -g window-status-current-format "#I:#W#F "
+
+setw -g window-status-style fg="#D8D8D8",bg="#3F3F3F",bold
+setw -g window-status-current-style fg=green,bg=black,bold
+
+set -g status-interval 1
+
+set -g status-left ''
+set -g status-left-style fg=green,bg=black
+
+set -g status-right '#{prefix_highlight}'
+set -g status-right-length 50
+set -g status-right-style fg=green,bg=black
+
+set -g pane-border-style fg="#3F3F3F",bg=black
+set -g pane-active-border-style fg=green,bg=black
 ```
 
 This displays the status bar on the bottom of the terminal, and shows all the windows starting from
