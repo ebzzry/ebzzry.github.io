@@ -3,7 +3,7 @@ Blogi per Frog
 
 <div class="center">Esperanto ▪ [English](/en/frog/)</div>
 <div class="center">la 16-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 9-an de marto 2019</div>
+<div class="center">Laste ĝisdatigita: la 20-an de Majo 2019</div>
 
 >Unu persono kun ardo pli bonas ol kvardek personoj nure interesataj.<br>
 >―E.M. FORSTER
@@ -182,7 +182,7 @@ Tiam, denove plenumu la jenan komandon:
 
     $ raco frog -bp
 
-Nun oni havas du afiŝojn, kiel montrata en la indekso. Por forigi la aŭtomate kreitan komencan
+Nun oni havas du afiŝojn, kiel montrate en la indekso. Por forigi la aŭtomate kreitan komencan
 afiŝon, kiu kreitas per la komando `raco frog ‑‑init`, antaŭe, plenumu:
 
     $ rm -f _src/posts/2012-01-01-a-2012-blog-post.md
@@ -321,7 +321,7 @@ unike identigi sian retejon.
 
 Do, se oni ekzemple elektas `foobar` kiel la mallonga nomo por la retejo, oni povas aliri
 <http://foobar.disqus.com> por mastrumi la komentojn por tiu retejo. La mallonga nomo menciita ĉi
-tie, estas tiu, kiujn oni uzos en la dosiero `_src/post-template.html`, kiel priskribita supre.
+tie, estas tiu, kiujn oni uzos en la dosiero `_src/post-template.html`, kiel priskribite supre.
 
 Por importi komentojn de ekzistanta blogo al Disqus, iru al <https://import.disqus.com>.
 
