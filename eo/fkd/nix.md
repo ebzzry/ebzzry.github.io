@@ -3,7 +3,7 @@ Milda Enkonduko al la Nix-Familio
 
 <div class="center">Esperanto ▪ [English](/en/nix/)</div>
 <div class="center">la 5-an de aŭgusto 2018</div>
-<div class="center">Laste ĝisdatigita: la 18-an de aprilo 2019</div>
+<div class="center">Laste ĝisdatigita: la 20-an de Majo 2019</div>
 
 >Ne maltrankviliĝu pri tio, kion la aliaj faros. La plej bona maniero por la estontecon antaŭdiri
 >estas per tion eltrovi.<br>
@@ -1161,7 +1161,7 @@ eroj. La rezulton de je `stdenv.mkDerivation` voki per enigo de atribua valaro l
 liveras. La valoro por la atribuo `name` estas signovico kun la formato *paknomo-A.B.C*, en kiu,
 *paknomo* estas la nomo de la pako kaj *A.B.C.* estas la versinombro. La valoro por la `src` atribuo
 estas la valoro liverita per la funkcion `fetchurl` voki, per alia atribuara argumento. La valoro
-por la atribuo `url` devas esti aŭ spegula specifo, kiel priskribita en
+por la atribuo `url` devas esti aŭ spegula specifo, kiel priskribite en
 `pkgs/build-support/fetchurl/mirrors.nix`, aŭ kutima retejadreso. Tiukaze, la GNU-spegulon ni uzis
 kaj la variablon `name` ni interpolis ene tiu signovico. La valoro de la atribuo `sha256` estas tiu, kiun ni akiris per je `nix-prefetch-url` plenumi kontraŭ la retejadreso. Por la kontrolsumon akiri
 de `hello-2.10`, plenumu:

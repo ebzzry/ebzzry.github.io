@@ -3,7 +3,7 @@ Emakskonsiletoj 1-a: Regionoj kaj Markoj
 
 <div class="center">Esperanto ▪ [English](/en/emacs-tips-1/)</div>
 <div class="center">la 12-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 18-an de aprilo 2019</div>
+<div class="center">Laste ĝisdatigita: la 18-an de Aprilo 2019</div>
 
 Mi ankoraŭ bezonas trovi pli bonan redaktilon ol [emakso](https://www.gnu.org/software/emacs/). tio,
 kio igas emakson elstara, estas ĝia agorda lingvo—emaksa Lispo. Emakso uzas ĝin al punkto, en kiu,
