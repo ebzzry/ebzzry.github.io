@@ -3,7 +3,7 @@ Virtualigado en Linukso per KVM
 
 <div class="center">Esperanto ▪ [English](/en/kvm/)</div>
 <div class="center">la 3-an de marto 2018</div>
-<div class="center">Laste ĝisdatigita: la 18-an de aprilo 2019</div>
+<div class="center">Laste ĝisdatigita: la 18-an de Aprilo 2019</div>
 
 >Se tion oni faras, kion oni ĉiam faras; tion oni akiros, kion oni ĉiam akiras.<br>
 >―Anthony ROBBINS
