@@ -3,7 +3,7 @@ Esperanto-signoj en Linukso
 
 <div class="center">Esperanto ▪ [English](/en/eo-linux/)</div>
 <div class="center">la 22-an de julio 2018</div>
-<div class="center">Laste ĝisdatigita: la 18-an de aprilo 2019</div>
+<div class="center">Laste ĝisdatigita: la 20-an de Majo 2019</div>
 
 >Se ion oni volas, kion oni neniam havis, oni devas esti servopreta tion fari, kion oni neniam
 >faris.<br>
@@ -62,7 +62,7 @@ Do por je <kbd>Print</kbd> klavon uzi kiel *Multi‎ߺ‎key*, je `~/.Xmodmap` r
 
     keycode 107 = Multi‎ߺ‎key
 
-Tiam, je `~/.Xmodmap` reŝarĝu, kiel priskribita ĉi-supre.
+Tiam, je `~/.Xmodmap` reŝarĝu, kiel priskribite ĉi-supre.
 
 Nun, ke je *Multi‎ߺ‎key* oni povas aliri, signojn komposti plifaciliĝas. Ni supozu, ke je
 <kbd>Pause</kbd> klavo ni uzis kiel *Multi‎ߺ‎key*, por la literon **ĉ** eniri, je <kbd>Pause</kbd> oni

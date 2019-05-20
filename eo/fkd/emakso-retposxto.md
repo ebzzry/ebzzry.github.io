@@ -3,7 +3,7 @@ Retpoŝton Agordi per Emakso
 
 <div class="center">Esperanto ▪ [English](/en/emacs-mail/)</div>
 <div class="center">la 14-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 21-an de februaro 2019</div>
+<div class="center">Laste ĝisdatigita: la 20-an de Majo 2019</div>
 
 >Nur pro tio, ke ne fariĝis, ne signifas, ke ne fareblas. Nur pro tio, ke fareblas, ne
 >signifas, ke devus.<br>
@@ -232,18 +232,18 @@ Por ke la agordoj tuj efektiviĝu.
 Por sendi sendi ĉifritan mesaĝon, premu <kbd>C</kbd> el la ĉefmenuo de mu4e, plenumi la kutimajn
 kampojn kiel `To:`, kaj `Subject:`, tiam sur la mesaĝokorpo, premu:
 
-    M-x ec REv
+    M-x ec EN
 
-ĉi tiu komando, etikedos la eliranta poŝto kiel subskribita kaj ĉifrita. Por sendi ĝin, premu
+ĉi tiu komando, etikedos la eliranta poŝto kiel subskribite kaj ĉifrite. Por sendi ĝin, premu
 <kbd>C-c C-c</kbd>. Ĉi tiu komando sekve invitos onin por enigi la pasfrazon. Ankaŭ demandos onin
 por plenumi kelkajn informojn pri la elira retpoŝtservilo (SMTP). La SMTP-servilo de Gmail
 estas `smtp.gmail.com`, tiam uzu `UZANTNOMO@gmail.com` kiam invitita por la uzantnomo. Uzu onian
-kutiman pasvorton, kiam invitita, aŭ enigu onian apspecifan pasvortos, kiel priskribita antaŭe. Ĉi
+kutiman pasvorton, kiam invitita, aŭ enigu onian apspecifan pasvortos, kiel priskribite antaŭe. Ĉi
 tiu informo konservitas al `~/.authinfo`, kaj estos uzata por postaj mesaĝoj.
 
 Por malĉifri mesaĝon, malfermu la mesaĝon, tiam premu:
 
-    M-x dc RET
+    M-x dc EN
 
 Ĉi tiu komando invitos onin por eniri la pasfrazon. Post tio, oni invitiĝos ĉu ĝi volas
 anstataŭigi la enhavon de la bufro. Diru jes al ĉi tio.

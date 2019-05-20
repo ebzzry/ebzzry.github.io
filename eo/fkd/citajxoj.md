@@ -3,7 +3,7 @@ Citaĵoj
 
 <div class="center">Esperanto ▪ [English](/en/quotes/)</div>
 <div class="center">la 15-an de novembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 18-an de aprilo 2019</div>
+<div class="center">Laste ĝisdatigita: la 20-an de Majo 2019</div>
 
 <img src="/bil/wallhaven-77816-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -144,7 +144,7 @@ tra la jarojn ĉi tiu paĝo enhavas.
   ―Edsger DIJKSTRA
 
 
-- Ne diru al mi kiel laborema vii laboras. Diru al mi kiom da laboro vi faris.<br>
+- Ne diru al mi kiel laboreme vi laboras. Diru al mi kiom da laboro vi faris.<br>
   ―James J. LING
 
 
@@ -348,7 +348,7 @@ tra la jarojn ĉi tiu paĝo enhavas.
   ―Windows CHURCHILL
 
 
-- Estas pli bone esti sole anstataŭ kune kun iu, kiu igas onin senti, ke oni solas.<br>
+- Estas pli bone esti sola anstataŭ kune kun iu, kiu igas onin senti, ke oni solas.<br>
   ―Ivan JUNIUS
 
 

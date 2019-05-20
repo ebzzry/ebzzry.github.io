@@ -3,7 +3,7 @@ Ziŝkonsiletoj 2-a: Dosierujstakoj
 
 <div class="center">Esperanto ▪ [English](/en/zsh-tips-2/)</div>
 <div class="center">la 26-an de septembro 2018</div>
-<div class="center">Laste ĝisdatigita: la 21-an de februaro 2019</div>
+<div class="center">Laste ĝisdatigita: la 21-an de Februaro 2019</div>
 
 >Kion ni faras por ni, mortas kun ni. Kion ni faras por ili, porĉiame restas.<br>
 >―Albert PIKE

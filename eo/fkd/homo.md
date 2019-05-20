@@ -3,7 +3,7 @@ Kiel Komuniki Samkiel Homo
 
 <div class="center">Esperanto ▪ [English](/en/human/)</div>
 <div class="center">la 3-an de aŭgusto 2018</div>
-<div class="center">Laste ĝisdatigita: la 18-an de aprilo 2019</div>
+<div class="center">Laste ĝisdatigita: la 18-an de Aprilo 2019</div>
 
 >La kapablo por paroli ne igas onin saĝa.<br>
 >―Qui-gon JINN
@@ -30,7 +30,7 @@ senkompate.
 Parolita lingvo
 ---------------
 
-Ni lernis kiel komuniki unue, antaŭ ol ni lernis kiel skribi; ĉi tio multe parolas pri kiel praa estas
+Ni lernis kiel komuniki unue, antaŭ ol ni lernis kiel skribi; ĉi tio multe parolas pri kiel prae estas
 verba komunikado. Kvankam, ĉi tio kostas; ĝi estas facile por uzi kaj maluzi. Kiam komplimenton iu
 donas al oni, la impreso daŭras vivtempe. Kiam malutilajn vortojn iu diras, la dorolon ni portas por
 la ceteraj ne niaj vivoj.

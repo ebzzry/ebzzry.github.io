@@ -3,7 +3,7 @@ Mia Markdown-Stila Gvidilo
 
 <div class="center">Esperanto ▪ [English](/en/markdown/)</div>
 <div class="center">la 24-an de septembro 2018</div>
-<div class="center">Laste ĝisdatigita: la 8-an de marto 2019</div>
+<div class="center">Laste ĝisdatigita: la 8-an de Marto 2019</div>
 
 >La reglamentoj kiuj direktas cirkonstancojn nuliĝis per novaj cirkonstancoj.<br>
 >―Napoleono BONAPARTE

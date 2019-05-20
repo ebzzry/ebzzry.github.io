@@ -3,7 +3,7 @@ Sekurkopiojn Krei per Ugarit
 
 <div class="center">Esperanto ▪ [English](/en/ugarit/)</div>
 <div class="center">la 18-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 19-an de marto 2019</div>
+<div class="center">Laste ĝisdatigita: la 19-an de Marto 2019</div>
 
 >Bona juĝo devenas el sperto, kaj sperto devenas el malbona juĝo.<br>
 >―Fred BROOKS

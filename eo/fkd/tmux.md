@@ -3,7 +3,7 @@ Kiel Mi Ruliĝas per Tmux
 
 <div class="center">Esperanto ▪ [English](/en/tmux/)</div>
 <div class="center">la 26-an de septembro 2018</div>
-<div class="center">Laste ĝisdatigita: la 18-an de aprilo 2019</div>
+<div class="center">Laste ĝisdatigita: la 18-an de Aprilo 2019</div>
 
 >Furioza agado ne estas anstataŭaĵo de komprenado.<br>
 >―H.H. WILLIAMS

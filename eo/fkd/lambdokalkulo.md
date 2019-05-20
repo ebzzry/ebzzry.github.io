@@ -3,7 +3,7 @@ Aboco de la Lambdokalkulo
 
 <div class="center">Esperanto ▪ [English](/en/lambda-calculus/)</div>
 <div class="center">la 21-an de februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 4-an de februaro 2019</div>
+<div class="center">Laste ĝisdatigita: la 20-an de Majo 2019</div>
 
 >Oni ne vere komprenas ion krom se oni povas klarigi tion al sia avino.<br>
 >―Alberto EJNŜTEJNO
@@ -507,7 +507,7 @@ B11
 -------------------------------------
 
 Oni simple ungogratis la tegon de la lambdokalkulo, tamen oni ĵus spektis ĝian vastegan espriman
-potencon, konsidere al kiel minimuna la sistemo difinitas.
+potencon, konsidere al kiel minimune la sistemo difinitas.
 
 
 <a name="fontindikoj"></a>Fontindikoj
