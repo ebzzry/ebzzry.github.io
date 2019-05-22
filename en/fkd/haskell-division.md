@@ -3,7 +3,7 @@ Division in Haskell
 
 <div class="center">[Esperanto](/eo/haskeldivido/) ▪ English</div>
 <div class="center">March 8, 2017</div>
-<div class="center">Last updated: August 5, 2018</div>
+<div class="center">Last updated: May 22, 2019</div>
 
 While learning about division in Haskell, I realized that the concept is not as trivial as I
 initially wanted it to be. There are subtle differences between the functions that can easily trip
@@ -51,19 +51,38 @@ Giving special attention to negative numbers, here are some observations about i
 
 - `rem` returns the dividend, if the dividend is less than the divisor.
 
-- `div` rounds off the divisor to the negative infinity, if either the dividend or divisor is
-  negative.
+- `div` rounds off the divisor to the negative infinity, if either the dividend
+  or divisor is negative.
 
 - `mod` follows the sign of the divisor.
 
-- `div` returns `0`, if the dividend is less than the divisor, and both arguments are positive.
+- `div` returns `0`, if the dividend is less than the divisor, and both
+  arguments are positive.
 
-- `mod` returns the dividend, if the dividend is less than the divisor, and both arguments are
-  positive.
+- `mod` returns the dividend, if the dividend is less than the divisor, and both
+  arguments are positive.
 
-- `div` returns `-1` if the dividend is negative, and its absolute value is less than the divisor.
+- `div` returns `-1` if the dividend is negative, and its absolute value is less
+  than the divisor.
 
-- `quot` and `div` returns `0` if the dividend is `0`, and the divisor is not zero.
+- `quot` and `div` returns `0` if the dividend is `0`, and the divisor is not
+  zero.
 
-- `mod` returns the difference of the absolute values of the divisor and the dividend, following the
-  sign of the divisor, if either the divisor or the dividend is negative.
+- `mod` returns the difference of the absolute values of the dividend and the
+  divisor, following the sign of the divisor, if either the dividend or the
+  divisor is negative, and if the absolute of the dividend is less than the
+  absolute value of the divisor.
+
+- If either the dividend or divisor of `mod` is a negative, and that the
+  absolute value of the dividend is larger than the abvolute value of the
+  divisor, `mod` returns a value such that when this value is added to the
+  result of the `div` of the dividend and divisor, multiplied by the divisor, it
+  returns the dividend of `mod`. That is:
+```haskell
+x == (x `mod` y) + (x `div` y) * y
+```
+So if `x = (-13)` and `y = 5`, then
+```haskell
+(-13) == ((-13) `mod` 5) + ((-13) `div` 5) * 5
+```
+evaluates to `True`.
