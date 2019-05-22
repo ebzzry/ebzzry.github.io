@@ -3,7 +3,7 @@ Divido en Haskelo
 
 <div class="center">Esperanto ▪ [English](/en/haskell-division/)</div>
 <div class="center">la 5-an de aŭgusto 2018</div>
-<div class="center">Laste ĝisdatigita: la 20-an de Majo 2019</div>
+<div class="center">Laste ĝisdatigita: la 22-an de Majo 2019</div>
 
 Lernante pri divido en Haskelo, mi konsciis, ke la koncepto ne estas kiel bagatele tiel ĝin mi
 komence volis. Estas subtilaj kontrastoj inter la funkcioj kiuj oni povas facile faligi kiu ne
@@ -66,5 +66,21 @@ Apartan atenton al negativaj nombroj donante, jen kelkaj rimarkoj pri ĝi:
 
 - `quot` kaj `div` liveras `0` se la dividato estas `0`, kaj la dividanto ne estas nulo.
 
-- `mod` liveras la diferencon de la absolutaj valoroj de la dividanto kaj la dividato, sekvante la
-  signon de la dividanto, se aŭ la dividanto aŭ la dividato negativas.
+- `mod` liveras la diferencon de la absolutaj valoroj de la dividato kaj la
+  dividanto, sekvante la signon de la dividanto, se aŭ la dividato aŭ la
+  dividanto negativas, kaj se la absoluta valoro de la dividato estas malpli ol
+  la absoluta valoro de la dividanto.
+
+- Se aŭ la dividato aŭ la dividanto de `mod` negativas, kaj la absoluta valoro
+  de la dividato estas pli ol la absoluta valoro de la dividanto, `mod` liveras
+  valoron tiel, ke kiam ĉi tiu valoro estas adiciita al la rezulto de la `div`
+  de la dividato kaj la dividanto, multiplikite per la dividanto, ĝi liveras la
+  dividaton de `mod`. Tio estas:
+```haskell
+x == (x `mod` y) + (x `div` y) * y
+```
+Do, se `x = (-13)` kaj `y = 5`, tiam
+```haskell
+(-13) == ((-13) `mod` 5) + ((-13) `div` 5) * 5
+```
+taksas al `True`.
