@@ -3,7 +3,7 @@ A Gentle Introduction to Non-determinism in Scheme
 
 <div class="center">[Esperanto](/eo/amb/) ▪ English</div>
 <div class="center">March 8, 2019</div>
-<div class="center">Last updated: March 22, 2019</div>
+<div class="center">Last updated: May 23, 2019</div>
 
 >Some of the most crucial steps in mental growth are based not simply on acquiring new skills, but
 >on acquiring new administrative ways to use what one already knows.<br>
@@ -473,8 +473,9 @@ These definitions work on [MIT/GNU Scheme](https://www.gnu.org/software/mit-sche
 [Bigloo](https://www-sop.inria.fr/indes/fp/Bigloo/),
 [Gauche](https://practical-scheme.net/gauche/memo.html), and [Racket](https://racket-lang.org/).
 
-[FramerD](http://www.framerd.org/) has the built-in operator `choice`, which works just like the
-`amb` operator. If you prefer to use the name `amb`, you can bind it with:
+[FramerD](http://www.framerd.org/) and [KNO](https://github.com/beingmeta/kno)
+have the built-in operator `choice`, which works just like the `amb`
+operator. If you prefer to use the name `amb`, you can bind it with:
 
 ```scheme
 (define amb choice)
