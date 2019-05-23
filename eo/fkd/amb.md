@@ -3,7 +3,7 @@ Milda Enkonduko al Nedeterminismo en Skimo
 
 <div class="center">Esperanto ▪ [English](/en/amb/)</div>
 <div class="center">la 24-an de februaro 2019</div>
-<div class="center">Laste ĝisdatigita: la 22-an de Marto 2019</div>
+<div class="center">Laste ĝisdatigita: la 23-an de Majo 2019</div>
 
 >Kelke da plej kernaj paŝoj en mensa kresko estas bazitaj ne simple pri novajn kapablojn akiri, sed
 >pri novajn administrajn manierojn akiri por tion uzi, kion oni jam scias.<br>
@@ -468,7 +468,8 @@ estas makroo por certigi, ke la argumentoj ne taksiĝos. Krome, listojn ĝi inte
 [Bigloo](https://www-sop.inria.fr/indes/fp/Bigloo/),
 [Gauche](https://practical-scheme.net/gauche/memo.html), kaj [Rakido](https://racket-lang.org/).
 
-La enkonstruitan operatoron `choice`—kiu funkcias kiel `amb`—[FramerD](http://www.framerd.org/)
+La enkonstruitan operatoron `choice`—kiu funkcias kiel
+`amb`—[FramerD](http://www.framerd.org/) kaj [KNO](https://github.com/beingmeta/kno)
 havas. Se la nomon `amb` oni preferas, ĝin oni povas bindi per:
 
 ```scheme
