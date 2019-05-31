@@ -680,4 +680,4 @@ pri smartparens, [ĉi tien](https://github.com/Fuco1/smartparens) iru. Se ĉi ti
 ŝatas, oni povas donaci
 [ĉi tie](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CEYP5YVHDRX8C).
 
-La paĝa rubando kiu uziĝas supre estas de [wallhaven](https://alpha.wallhaven.cc/wallpaper/578010).
+La paĝa rubando kiu uziĝas supre venas el [wallhaven](https://alpha.wallhaven.cc/wallpaper/578010).

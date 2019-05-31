@@ -1682,7 +1682,7 @@ La NixOS-fondiĝo estas registrita senprofitcela organizo; la
 [oferdonoj](https://nixos.org/nixos/foundation.html) ege helpas en la disvolvo de Nix. Aliĝu al la
 [komunumo](https://nixos.org/nixos/community.html) kaj ĝin helpigu kreski!
 
-La paĝa rubando kiu uziĝas supre estas de [wallhaven](https://alpha.wallhaven.cc/wallpaper/751942).
+La paĝa rubando kiu uziĝas supre venas el [wallhaven](https://alpha.wallhaven.cc/wallpaper/751942).
 
 
 <a name="bonifiko"></a>Bonifiko

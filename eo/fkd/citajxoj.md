@@ -732,5 +732,5 @@ tra la jarojn ĉi tiu paĝo enhavas.
 - Se vi konscias, ke vi fariĝas sinĝena pri io, nur pensu pri kion vi faros se
   la opinioj de homo ne gravis.<br>―Daigo UMEHARA
 
-La paĝa rubando kiu uziĝas supre estas de
+La paĝa rubando kiu uziĝas supre venas el
 [wallhaven](https://alpha.wallhaven.cc/wallpaper/77816).
