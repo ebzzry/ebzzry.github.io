@@ -565,6 +565,6 @@ malvalidigas. Ĉi tio rilatas al apelo al devenoj.
 
 Mi esperas, ke per ĉi tiu afiŝo, pli da pensada klareco mi povis doni.
 
-La paĝa rubando kiu uziĝas supre estas de [wallhaven](https://alpha.wallhaven.cc/wallpaper/333472).
+La paĝa rubando kiu uziĝas supre venas el [wallhaven](https://alpha.wallhaven.cc/wallpaper/333472).
 
 _Dank’ al [Raymund MARTINEZ](https://zhaqenl.github.io) pro la korektoj._
