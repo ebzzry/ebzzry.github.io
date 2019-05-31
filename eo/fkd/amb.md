@@ -468,14 +468,6 @@ estas makroo por certigi, ke la argumentoj ne taksiĝos. Krome, listojn ĝi inte
 [Bigloo](https://www-sop.inria.fr/indes/fp/Bigloo/),
 [Gauche](https://practical-scheme.net/gauche/memo.html), kaj [Rakido](https://racket-lang.org/).
 
-La enkonstruitan operatoron `choice`—kiu funkcias kiel
-`amb`—[FramerD](http://www.framerd.org/) kaj [KNO](https://github.com/beingmeta/kno)
-havas. Se la nomon `amb` oni preferas, ĝin oni povas bindi per:
-
-```scheme
-(define amb choice)
-```
-
 
 ### <a name="ambmalkonstruado">Malkonstruado</a>
 

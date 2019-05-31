@@ -473,14 +473,6 @@ These definitions work on [MIT/GNU Scheme](https://www.gnu.org/software/mit-sche
 [Bigloo](https://www-sop.inria.fr/indes/fp/Bigloo/),
 [Gauche](https://practical-scheme.net/gauche/memo.html), and [Racket](https://racket-lang.org/).
 
-[FramerD](http://www.framerd.org/) and [KNO](https://github.com/beingmeta/kno)
-have the built-in operator `choice`, which works just like the `amb`
-operator. If you prefer to use the name `amb`, you can bind it with:
-
-```scheme
-(define amb choice)
-```
-
 
 ### <a name="ambdeconstruction">Deconstruction</a>
 
