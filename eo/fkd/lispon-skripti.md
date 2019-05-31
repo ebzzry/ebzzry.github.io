@@ -427,4 +427,4 @@ vivpovecon vidi de komunlispo kiel skriptada lingvo. Oferdonjn oni povas doni al
 li per [PayPal](https://paypal.me/fahree) aŭ
 [Bitcoin](bitcoin:1fareF6wCNYYiLPGmyQjrd3AQdHBb1CJ6).
 
-La paĝa rubando kiu uziĝas supre estas de [common-lisp.net](https://common-lisp.net/).
+La paĝa rubando kiu uziĝas supre venas el [common-lisp.net](https://common-lisp.net/).

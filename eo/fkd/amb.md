@@ -600,4 +600,4 @@ uzado de `call/cc`.
 
 Mi esperas, ke iel, bonan ion oni lernis el ĉi tiu afiŝo.
 
-La paĝa rubando kiu uziĝas supre estas de [wallhaven](https://alpha.wallhaven.cc/wallpaper/333472).
+La paĝa rubando kiu uziĝas supre venas el [wallhaven](https://alpha.wallhaven.cc/wallpaper/333472).
