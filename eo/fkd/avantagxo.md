@@ -3,7 +3,7 @@ Mia Kinezia Avantaĝa Aranĝo
 
 <div class="center">Esperanto ▪ [English](/en/advantage/)</div>
 <div class="center">la 12-an de julio 2018</div>
-<div class="center">Laste ĝisdatigita: la 18-an de Aprilo 2019</div>
+<div class="center">Laste ĝisdatigita: la 1-an de Junio 2019</div>
 
 >La doloro neeviteblas. La suferado malnepras.<br>
 >―M. Kathleen CASEY
@@ -31,7 +31,7 @@ da listoj, estas, klavaro devas esti ergonomia. Gravan kvaliton mi donos al tiuj
 gravas kiel ergonomie klavaro estas, se la rapidecan kategorion ĝi faligas. Ĝi devas esti komforta
 kaj rapida.
 
-La [Kinezia Avantaĝo](https://www.kinesis-ergo.com/wp-content/uploads/2015/01/kinesis_advantage_user_manual.pdf) estas la epitomo de
+La [Kinezia Avantaĝo](https://www.manualslib.com/manual/739296/Kinesis-Advantage-Kb500usb.html) estas la epitomo de
 tia kategorio. Ĝi ergonomias kaj rapidas. Se oni jam estas rutinhava maŝinskribisto, oni
 povas trovi, ke post mallonga adaptiĝa tempodaŭro, oni eĉ maŝinskribas pli rapide per la Avantaĝo.
 
