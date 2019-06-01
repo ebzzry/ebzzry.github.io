@@ -3,7 +3,7 @@ My Kinesis Advantage Layout
 
 <div class="center">[Esperanto](/eo/avantagxo/) ▪ English</div>
 <div class="center">October 26, 2015</div>
-<div class="center">Last updated: October 3, 2018</div>
+<div class="center">Last updated: June 1, 2019</div>
 
 >Pain is inevitable. Suffering is optional.<br>
 >―M. Kathleen Casey
@@ -31,7 +31,7 @@ that it has be ergonomic. I add to that list an important quality: speed. No mat
 keyboard is, if it fails on the speed category. It has to be comfortable, and speedy.
 
 The
-[Kinesis Advantage](https://www.kinesis-ergo.com/wp-content/uploads/2015/01/kinesis_advantage_user_manual.pdf)
+[Kinesis Advantage](https://www.manualslib.com/manual/739296/Kinesis-Advantage-Kb500usb.html)
 is the epitome of such a criteria. It is ergonomic, and it is fast. If you are already proficient
 typist, you’ll find that after the small adjustment period, you’ll type even faster with the
 Advantage.

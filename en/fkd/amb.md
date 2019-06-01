@@ -3,7 +3,7 @@ A Gentle Introduction to Non-determinism in Scheme
 
 <div class="center">[Esperanto](/eo/amb/) ▪ English</div>
 <div class="center">March 8, 2019</div>
-<div class="center">Last updated: May 23, 2019</div>
+<div class="center">Last updated: June 1, 2019</div>
 
 >Some of the most crucial steps in mental growth are based not simply on acquiring new skills, but
 >on acquiring new administrative ways to use what one already knows.<br>
@@ -433,9 +433,9 @@ In this article we’re going to use the amb operator to enable the backtracking
 
 ### <a name="ambdefinition">Definition</a>
 
-The definition that we’ll use is the one by
-[shido.info](http://www.shido.info/lisp/scheme_amb_e.html). It is a macro to ensure that the
-arguments are not evaluated. Additionally, it uses lists internally.
+The definition that we’ll use is the one by shido.info/lisp. It is a macro to
+ensure that the arguments are not evaluated. Additionally, it uses lists
+internally.
 
 ```scheme
 (define call/cc call-with-current-continuation) ;  1
