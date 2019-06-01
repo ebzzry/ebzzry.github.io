@@ -3,7 +3,7 @@ Milda Enkonduko al Nedeterminismo en Skimo
 
 <div class="center">Esperanto ▪ [English](/en/amb/)</div>
 <div class="center">la 24-an de februaro 2019</div>
-<div class="center">Laste ĝisdatigita: la 23-an de Majo 2019</div>
+<div class="center">Laste ĝisdatigita: la 1-an de Junio 2019</div>
 
 >Kelke da plej kernaj paŝoj en mensa kresko estas bazitaj ne simple pri novajn kapablojn akiri, sed
 >pri novajn administrajn manierojn akiri por tion uzi, kion oni jam scias.<br>
@@ -429,8 +429,8 @@ En ĉi tiu artikolo la amb-operatoron oni uzos por la retroiĝadan meĥanismon e
 
 ### <a name="ambdifino">Difino</a>
 
-La difino kiun oni uzos estas de [shido.info](http://www.shido.info/lisp/scheme_amb_e.html). Ĝi
-estas makroo por certigi, ke la argumentoj ne taksiĝos. Krome, listojn ĝi interne uzas.
+La difino kiun oni uzos estas el shido.info/lisp. Ĝi estas makroo por certigi,
+ke la argumentoj ne taksiĝos. Krome, listojn ĝi interne uzas.
 
 ```scheme
 (define call/cc call-with-current-continuation) ;  1
