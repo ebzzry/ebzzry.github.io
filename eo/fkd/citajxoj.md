@@ -3,7 +3,7 @@ Citaĵoj
 
 <div class="center">Esperanto ▪ [English](/en/quotes/)</div>
 <div class="center">la 15-an de novembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 25-an de Majo 2019</div>
+<div class="center">Laste ĝisdatigita: la 4-an de Junio 2019</div>
 
 <img src="/bil/wallhaven-77816-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -729,8 +729,16 @@ tra la jarojn ĉi tiu paĝo enhavas.
   fari en ilia propra mondo senzorgeme al la opinioj de tiuj ĉirkaŭ ili.<br>―Daigo
   UMEHARA
 
+
 - Se vi konscias, ke vi fariĝas sinĝena pri io, nur pensu pri kion vi faros se
   la opinioj de homo ne gravis.<br>―Daigo UMEHARA
+
+
+- Premo estas privilegio.<br>―Billie Jean KING
+
+
+- Fine, oni ne povas venki se oni ne ludas.<br>―Douglas CONANT
+
 
 La paĝa rubando kiu uziĝas supre venas el
 [wallhaven](https://alpha.wallhaven.cc/wallpaper/77816).
