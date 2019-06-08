@@ -3,7 +3,7 @@ Quotes
 
 <div class="center">[Esperanto](/eo/citajxoj/) ▪ English</div>
 <div class="center">August 29, 2015</div>
-<div class="center">Last updated: June 4, 2019</div>
+<div class="center">Last updated: June 5, 2019</div>
 
 <img src="/bil/wallhaven-77816-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -730,13 +730,21 @@ have collected over the years.
 
 
 - If you ever find yourself getting self-conscious about something, just think
-  of what you’d do if people’s opinions didn’t matter<br>―Daigo Umehara
+  of what you’d do if people’s opinions didn’t matter.<br>―Daigo Umehara
 
 
 - Pressure is a privilege.<br>―Billie Jean King
 
 
 - Ultimately, you can’t win if you don’t play.<br>―Douglas Conant
+
+
+- When you blow something up by a factor of a hundred, it gets about a factor
+  of a hundred weaker.<br>―Alan Kay
+
+
+- There is no idea so simple and powerful, that you can’t get zillions of people
+  to misunderstand it.<br>―Alan Kay
 
 
 The banner image used at the top is from

@@ -3,7 +3,7 @@ Citaĵoj
 
 <div class="center">Esperanto ▪ [English](/en/quotes/)</div>
 <div class="center">la 15-an de novembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 4-an de Junio 2019</div>
+<div class="center">Laste ĝisdatigita: la 5-an de Junio 2019</div>
 
 <img src="/bil/wallhaven-77816-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -738,6 +738,13 @@ tra la jarojn ĉi tiu paĝo enhavas.
 
 
 - Fine, oni ne povas venki se oni ne ludas.<br>―Douglas CONANT
+
+
+- Kiam ion oni pligrandigas centoble, ĝi pli malfortiĝas centoble.<br>―Alan KAY
+
+
+- Ne estas idea tiel simpla kaj potenca, ke oni ne povas havi umilionon da homo
+  por ĝin malkompreni.<br>―Alan KAY
 
 
 La paĝa rubando kiu uziĝas supre venas el
