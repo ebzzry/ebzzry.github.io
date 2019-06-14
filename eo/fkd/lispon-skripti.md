@@ -3,7 +3,7 @@ Skriptado en Komunlispo
 
 <div class="center">Esperanto ▪ [English](/en/script-lisp/)</div>
 <div class="center">la 24-an de septembro 2018</div>
-<div class="center">Laste ĝisdatigita: la 20-an de Majo 2019</div>
+<div class="center">Laste ĝisdatigita: la 14-an de Junio 2019</div>
 
 >La lumo kiu fajras duoble brila, fajras duone longa.<br>
 >―D-ro. Eldon TYRELL, Blade Runner (1982)
@@ -423,8 +423,6 @@ uzita por ĉi tiu artikolo troveblas [ĉi tie](https://github.com/ebzzry/my-scri
 La priresponda homo por komunlispon igi ebla kaj akceptebla estas
 [François-René RIDEAU](http://fare.tunes.org). Estis
 [ĉi tiu blogo](http://fare.livejournal.com/184127.html) kiu min inspiris por la
-vivpovecon vidi de komunlispo kiel skriptada lingvo. Oferdonjn oni povas doni al
-li per [PayPal](https://paypal.me/fahree) aŭ
-[Bitcoin](bitcoin:1fareF6wCNYYiLPGmyQjrd3AQdHBb1CJ6).
+vivpovecon vidi de komunlispo kiel skriptada lingvo.
 
 La paĝa rubando kiu uziĝas supre venas el [common-lisp.net](https://common-lisp.net/).
