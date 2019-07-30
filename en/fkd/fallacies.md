@@ -571,4 +571,4 @@ A is presenting to be invalid, too. This is related to appeal to origins.
 
 I hope that with this post, I was able to add more thinking clarity.
 
-The banner image used at the top is from [wallhaven](https://alpha.wallhaven.cc/wallpaper/73145).
+_The banner image used at the top is from [wallhaven](https://alpha.wallhaven.cc/wallpaper/73145)._

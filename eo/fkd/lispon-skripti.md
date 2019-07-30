@@ -2,7 +2,7 @@ Skriptado en Komunlispo
 =======================
 
 <div class="center">Esperanto ▪ [English](/en/script-lisp/)</div>
-<div class="center">la 24-an de septembro 2018</div>
+<div class="center">la 24-an de Septembro 2018</div>
 <div class="center">Laste ĝisdatigita: la 14-an de Junio 2019</div>
 
 >La lumo kiu fajras duoble brila, fajras duone longa.<br>
@@ -425,4 +425,4 @@ La priresponda homo por komunlispon igi ebla kaj akceptebla estas
 [ĉi tiu blogo](http://fare.livejournal.com/184127.html) kiu min inspiris por la
 vivpovecon vidi de komunlispo kiel skriptada lingvo.
 
-La paĝa rubando kiu uziĝas supre venas el [common-lisp.net](https://common-lisp.net/).
+_La paĝa rubando supre venis el [common-lisp.net](https://common-lisp.net/)._

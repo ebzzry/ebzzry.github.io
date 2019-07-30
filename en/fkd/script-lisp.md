@@ -433,4 +433,4 @@ The human responsible for making scripting in CL possible and acceptable, is
 
 _Thanks to [Raymund Martinez](https://zhaqenl.github.io) and [Marco Wahl](https://marcowahl.github.io/busi/) for the corrections._
 
-The banner image used at the top is from [common-lisp.net](https://common-lisp.net/).
+_The banner image used at the top is from [common-lisp.net](https://common-lisp.net/)._

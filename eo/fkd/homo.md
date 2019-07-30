@@ -2,7 +2,7 @@ Kiel Komuniki Samkiel Homo
 ==========================
 
 <div class="center">Esperanto ▪ [English](/en/human/)</div>
-<div class="center">la 3-an de aŭgusto 2018</div>
+<div class="center">la 3-an de Aŭgusto 2018</div>
 <div class="center">Laste ĝisdatigita: la 18-an de Aprilo 2019</div>
 
 >La kapablo por paroli ne igas onin saĝa.<br>

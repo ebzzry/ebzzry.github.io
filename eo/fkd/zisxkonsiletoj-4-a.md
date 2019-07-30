@@ -2,7 +2,7 @@ Ziŝkonsiletoj 4-a: Ĝeneralhelpiloj
 ==================================
 
 <div class="center">Esperanto ▪ [English](/en/zsh-tips-4/)</div>
-<div class="center">la 26-an de septembro 2018</div>
+<div class="center">la 26-an de Septembro 2018</div>
 <div class="center">Laste ĝisdatigita: la 8-an de Marto 2019</div>
 
 >Vidpunkto meritas okdek poentojn da inteligentecaj kvocientoj.<br>

@@ -605,4 +605,4 @@ of `call/cc`.
 
 Anyway, I hope that you learned something good from this post.
 
-The banner image used at the top is from [wallhaven](https://alpha.wallhaven.cc/wallpaper/333472).
+_The banner image used at the top is from [wallhaven](https://alpha.wallhaven.cc/wallpaper/333472)._

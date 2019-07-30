@@ -1694,8 +1694,6 @@ The NixOS Foundation is a registered non-profit organization;
 your [donations](https://nixos.org/nixos/foundation.html) will significantly help in the development
 of Nix. Join the [community](https://nixos.org/nixos/community.html) and help make it grow!
 
-The banner image used at the top is from [wallhaven](https://alpha.wallhaven.cc/wallpaper/751942).
-
 <a name="bonus"></a> Bonus
 --------------------------
 
@@ -1734,4 +1732,6 @@ nix-repl> let y = x: ((f: (x (v: ((f f) v)))) (f: (x (v: ((f f) v))))); b = p: (
 nix-repl>
 ```
 
-_Thanks to [Dave Loyall](https://github.com/daveloyall) and [Yekta Leblebici](https://www.linkedin.com/in/yekta-leblebici/) for the corrections._
+_The banner image used at the top is from [wallhaven](https://alpha.wallhaven.cc/wallpaper/751942)._
+
+_Thanks to [Dave Loyall](https://github.com/daveloyall) and [Yekta Leblebici](https://github.com/YektaLeblebici) for the corrections._

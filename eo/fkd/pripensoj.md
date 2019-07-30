@@ -2,8 +2,8 @@ Pripensoj
 =========
 
 <div class="center">Esperanto ▪ [English](/en/reflections/)</div>
-<div class="center">la 3-an de novembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 18-an de Aprilo 2019</div>
+<div class="center">la 3-an de Novembro 2017</div>
+<div class="center">Laste ĝisdatigita: la 5-an de Julio 2019</div>
 
 Kelke da miaj propraj pripensoj ĉi tiu paĝo enhavas. Ordigatas la enskriboj laŭ kronologiordo.
 
@@ -217,10 +217,6 @@ Kelke da miaj propraj pripensoj ĉi tiu paĝo enhavas. Ordigatas la enskriboj la
   ni donis al ĝi ege dependas al nia rilato je la vivaĵoj kiujn ni konas.<br>
 
 
-- Mi parolas la Ilokan al miaj gepatroj, la Filipinan al miaj kamparanoj, la Anglan al miaj
-  asocianoj, Esperanton al miaj amikoj, kaj la Lispon al mia komputilo.<br>
-
-
 - Se la vivo estas granda ludo, povas esti konjektite, ke ĉio estas ia amuzaĵo.<br>
 
 
@@ -356,4 +352,11 @@ Kelke da miaj propraj pripensoj ĉi tiu paĝo enhavas. Ordigatas la enskriboj la
 
 
 - Gravajn decidojn neniam faru se oni malsatas, ebrias, koleras, lacas, vundiĝas, dormemas,
-  drogiĝas, ĝojegas, malĝojegas, aŭ menstruas.<br>
+  drogiĝas, ĝojegas, aŭ malĝojegas.<br>
+
+
+- Estas multe da tialo por esti malĝoje, tamen, estas eĉ pli multe da tialo por
+  esti ĝoje.<br>
+
+
+- Forcedado ne samas al rezignado.<br>

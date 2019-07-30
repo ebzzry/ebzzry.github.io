@@ -2,7 +2,7 @@ Milda Enkonduko al la Nix-Familio
 =================================
 
 <div class="center">Esperanto ▪ [English](/en/nix/)</div>
-<div class="center">la 5-an de aŭgusto 2018</div>
+<div class="center">la 5-an de Aŭgusto 2018</div>
 <div class="center">Laste ĝisdatigita: la 20-an de Majo 2019</div>
 
 >Ne maltrankviliĝu pri tio, kion la aliaj faros. La plej bona maniero por la estontecon antaŭdiri
@@ -1682,8 +1682,6 @@ La NixOS-fondiĝo estas registrita senprofitcela organizo; la
 [oferdonoj](https://nixos.org/nixos/foundation.html) ege helpas en la disvolvo de Nix. Aliĝu al la
 [komunumo](https://nixos.org/nixos/community.html) kaj ĝin helpigu kreski!
 
-La paĝa rubando kiu uziĝas supre venas el [wallhaven](https://alpha.wallhaven.cc/wallpaper/751942).
-
 
 <a name="bonifiko"></a>Bonifiko
 -------------------------------
@@ -1722,3 +1720,5 @@ nix-repl> let y = x: ((f: (x (v: ((f f) v)))) (f: (x (v: ((f f) v))))); b = p: (
 
 nix-repl>
 ```
+
+_La paĝa rubando supre venis el [wallhaven](https://alpha.wallhaven.cc/wallpaper/751942)._

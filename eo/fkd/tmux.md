@@ -2,8 +2,8 @@ Kiel Mi Ruliĝas per Tmux
 ========================
 
 <div class="center">Esperanto ▪ [English](/en/tmux/)</div>
-<div class="center">la 26-an de septembro 2018</div>
-<div class="center">Laste ĝisdatigita: la 21-an de Majo 2019</div>
+<div class="center">la 26-an de Septembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 28-an de Julio 2019</div>
 
 >Furioza agado ne estas anstataŭaĵo de komprenado.<br>
 >―H.H. WILLIAMS
@@ -357,3 +357,6 @@ Se tmux plendas, ke iom da kromprogramoj mankas, je <kbd>C-z I</kbd> premu:
 
 Tmux estas unu el la iloj, kiun oni devas havi laborante sur la terminalsimulilo kaj komandlinio. Laborfluon kio estas aliokaze malfacila per aliaj kunigiloj, aŭ tre malfacila por fari per kutimaj nemastrumitaj seancoj ĝi ebligas. Por la restantaj difinoj iru
 [ĉi tien](https://github.com/ebzzry/dotfiles/tree/master/tmux/.tmux.conf).
+
+Se giton vi uzas, la artikolo pri kiel ĝi mi uzas, eble ankaŭ plaĉas al vi. Ĝi
+troviĝas [ĉi tie](/eo/gito/).
