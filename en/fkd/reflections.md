@@ -3,7 +3,7 @@ Reflections
 
 <div class="center">[Esperanto](/eo/pripensoj/) ▪ English</div>
 <div class="center">November 24, 2015</div>
-<div class="center">Last updated: March 22, 2019</div>
+<div class="center">Last updated: July 5, 2019</div>
 
 This page contains contains some of my personal reflections. Entries are sorted in chronological order.
 
@@ -219,10 +219,6 @@ This page contains contains some of my personal reflections. Entries are sorted 
   acquainted with.<br>
 
 
-- I speak Ilocano to my parents, Filipino to my countrymen, English to my associates, Esperanto to
-  my friends, and Lisp to my computer.<br>
-
-
 - If life is a big game, it can be surmised that everything is some kind of entertainment.<br>
 
 
@@ -351,4 +347,10 @@ This page contains contains some of my personal reflections. Entries are sorted 
 
 
 - Never make important decisions when you are hungry, drunk, angry, tired, injured, sleepy, drugged,
-  ecstatic, dismal, or menstruating.<br>
+  ecstatic, or dismal.<br>
+
+
+- There are a lot of reasons to be sad, however, there are even more reasons to be happy.<br>
+
+
+- Letting go is not the same as giving up.<br>

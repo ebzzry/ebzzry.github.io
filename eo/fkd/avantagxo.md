@@ -2,7 +2,7 @@ Mia Kinezia Avantaĝa Aranĝo
 ===========================
 
 <div class="center">Esperanto ▪ [English](/en/advantage/)</div>
-<div class="center">la 12-an de julio 2018</div>
+<div class="center">la 12-an de Julio 2018</div>
 <div class="center">Laste ĝisdatigita: la 1-an de Junio 2019</div>
 
 >La doloro neeviteblas. La suferado malnepras.<br>
