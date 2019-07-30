@@ -2,7 +2,7 @@ Milda Enkonduko al Nedeterminismo en Skimo
 ==========================================
 
 <div class="center">Esperanto ▪ [English](/en/amb/)</div>
-<div class="center">la 24-an de februaro 2019</div>
+<div class="center">la 24-an de Februaro 2019</div>
 <div class="center">Laste ĝisdatigita: la 1-an de Junio 2019</div>
 
 >Kelke da plej kernaj paŝoj en mensa kresko estas bazitaj ne simple pri novajn kapablojn akiri, sed
@@ -600,4 +600,4 @@ uzado de `call/cc`.
 
 Mi esperas, ke iel, bonan ion oni lernis el ĉi tiu afiŝo.
 
-La paĝa rubando kiu uziĝas supre venas el [wallhaven](https://alpha.wallhaven.cc/wallpaper/333472).
+_La paĝa rubando supre venis el [wallhaven](https://alpha.wallhaven.cc/wallpaper/333472)._

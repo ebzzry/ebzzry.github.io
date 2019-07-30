@@ -1,10 +1,9 @@
 Zsh Tips 1: Aliases and Functions
 =================================
 
-
 <div class="center">[Esperanto](/eo/zisxkonsiletoj-1-a/) ▪ English</div>
 <div class="center">October 18, 2017</div>
-<div class="center">Last updated: February 3, 2019</div>
+<div class="center">Last updated: July 28, 2019</div>
 
 >A common man marvels at uncommon things; a wise man marvels at the commonplace.<br>
 >―Confucius
@@ -238,5 +237,7 @@ funs=(
 Grouping commands this way makes it significantly easier to add and remove items. Bring them all
 in one consolidated place also makes your config file arguably cleaner. For the rest of the
 definitions, visit the repo [here](https://github.com/ebzzry/dotfiles/tree/master/zsh).
+
+If you use git, you may also like the article about how I use it. It can be found [here](/en/git/).
 
 _Thanks to [Jakub Jareš](https://github.com/nohwnd) for the corrections._

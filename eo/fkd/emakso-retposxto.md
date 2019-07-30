@@ -2,7 +2,7 @@ Retpoŝton Agordi per Emakso
 ===========================
 
 <div class="center">Esperanto ▪ [English](/en/emacs-mail/)</div>
-<div class="center">la 14-an de februaro 2018</div>
+<div class="center">la 14-an de Februaro 2018</div>
 <div class="center">Laste ĝisdatigita: la 20-an de Majo 2019</div>
 
 >Nur pro tio, ke ne fariĝis, ne signifas, ke ne fareblas. Nur pro tio, ke fareblas, ne

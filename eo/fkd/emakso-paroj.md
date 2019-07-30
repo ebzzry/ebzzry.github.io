@@ -2,7 +2,7 @@ Emakso kaj Paroj
 ================
 
 <div class="center">Esperanto ▪ [English](/en/emacs-pairs/)</div>
-<div class="center">la 9-an de julio 2018</div>
+<div class="center">la 9-an de Julio 2018</div>
 <div class="center">Laste ĝisdatigita: la 30-an de Marto 2019</div>
 
 >La blanka bruo kiu batas ene la blanka mallumo estas la ritmo de la vivo; estas la pulso kiu
@@ -680,4 +680,4 @@ pri smartparens, [ĉi tien](https://github.com/Fuco1/smartparens) iru. Se ĉi ti
 ŝatas, oni povas donaci
 [ĉi tie](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CEYP5YVHDRX8C).
 
-La paĝa rubando kiu uziĝas supre venas el [wallhaven](https://alpha.wallhaven.cc/wallpaper/578010).
+_La paĝa rubando supre venis el [wallhaven](https://alpha.wallhaven.cc/wallpaper/578010)._

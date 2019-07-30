@@ -2,7 +2,7 @@ Milda Enkonduko al Sofismoj
 ===========================
 
 <div class="center">Esperanto ▪ [English](/en/fallacies/)</div>
-<div class="center">la 29-an de julio 2018</div>
+<div class="center">la 29-an de Julio 2018</div>
 <div class="center">Laste ĝisdatigita: la 18-an de Aprilo 2019</div>
 
 >Lerni ne necesas; nek travivas.<br>
@@ -565,6 +565,6 @@ malvalidigas. Ĉi tio rilatas al apelo al devenoj.
 
 Mi esperas, ke per ĉi tiu afiŝo, pli da pensada klareco mi povis doni.
 
-La paĝa rubando kiu uziĝas supre venas el [wallhaven](https://alpha.wallhaven.cc/wallpaper/333472).
+_La paĝa rubando supre venis el [wallhaven](https://alpha.wallhaven.cc/wallpaper/333472)._
 
 _Dank’ al [Raymund MARTINEZ](https://zhaqenl.github.io) pro la korektoj._

@@ -2,7 +2,7 @@ Emakskonsiletoj 2-a: Seancoj kaj Pakoj
 ======================================
 
 <div class="center">Esperanto ▪ [English](/en/emacs-tips-2/)</div>
-<div class="center">la 20-an de februaro 2018</div>
+<div class="center">la 20-an de Februaro 2018</div>
 <div class="center">Laste ĝisdatigita: la 4-an de Februaro 2019</div>
 
 Ĉi tiu estas la daŭrigo de la serioj pri emaksaj konsiletoj. En ĉi tiu afiŝo, ni esploras seancan
