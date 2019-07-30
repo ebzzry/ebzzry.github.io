@@ -2,7 +2,7 @@ Dosierujojn Mastrumi per Emakso
 ===============================
 
 <div class="center">Esperanto ▪ [English](/en/emacs-dired/)</div>
-<div class="center">la 12-an de februaro 2018</div>
+<div class="center">la 12-an de Februaro 2018</div>
 <div class="center">Laste ĝisdatigita: la 9-an de Marto 2019</div>
 
 >Supozi bonas, tamen eltrovi pli bonas.<br>

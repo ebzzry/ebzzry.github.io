@@ -2,7 +2,7 @@ La Ipsilonkombinatoro en Ses Paŝoj
 ==================================
 
 <div class="center">Esperanto ▪ [English](/en/y/)</div>
-<div class="center">la 25-an de novembro 2017</div>
+<div class="center">la 25-an de Novembro 2017</div>
 <div class="center">Laste ĝisdatigita: la 28-an de Septembro 2018</div>
 
 >Unue, decidu. Kaj faru ĝin. Estas la nur maniero por atingi ion.<br>

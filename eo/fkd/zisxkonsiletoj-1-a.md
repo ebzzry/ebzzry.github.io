@@ -2,8 +2,8 @@ Ziŝkonsiletoj 1-a: Alinomoj kaj Funkcioj
 ========================================
 
 <div class="center">Esperanto ▪ [English](/en/zsh-tips-1/)</div>
-<div class="center">la 26-an de septembro 2018</div>
-<div class="center">Laste ĝisdatigita: la 20-an de Majo 2019</div>
+<div class="center">la 26-an de Septembro 2018</div>
+<div class="center">Laste ĝisdatigita: la 28-an de Julio 2019</div>
 
 >Malsaĝulo miras je nekutimajn aferojn. Ŝagulo miras je la kutimajn aferojn.<br>
 >―Konfuceo
@@ -237,5 +237,8 @@ funs=(
 Komandojn grupigi tiel la procedon por novajn erojn aldoni kaj forigi plifaciligas. Ĉion porti en
 unu kunfandita loko la agorddosieron igas aserteble pura. Por la restantajn difinojn iru
 [ĉi tien](https://github.com/ebzzry/dotfiles/tree/master/zsh).
+
+Se giton vi uzas, la artikolo pri kiel ĝi mi uzas, eble ankaŭ plaĉas al vi. Ĝi
+troviĝas [ĉi tie](/eo/gito/).
 
 _Dankon al [Jakub JAREŠ](https://github.com/nohwnd) pro la korektoj._

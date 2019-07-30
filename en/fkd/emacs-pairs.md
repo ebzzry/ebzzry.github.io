@@ -675,4 +675,4 @@ smartparens is the brainchild of [Matus Goljer](https://github.com/Fuco1). For 
 smartparens, go [here](https://github.com/Fuco1/smartparens). If you like this project, you may
 donate [here](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CEYP5YVHDRX8C).
 
-The banner image used at the top is from [wallhaven](https://alpha.wallhaven.cc/wallpaper/578010).
+_The banner image used at the top is from [wallhaven](https://alpha.wallhaven.cc/wallpaper/578010)._
