@@ -3,7 +3,7 @@ Kiel Mi Ruliĝas per Gito
 
 <div class="center">Esperanto ▪ [English](/en/git/)</div>
 <div class="center">la 26-an de Julio 2019</div>
-<div class="center">Laste ĝisdatigita: la 30-an de Julio 2019</div>
+<div class="center">Laste ĝisdatigita: la 1-an de Aŭgusto 2019</div>
 
 >Male, tiuj kun senĉeseco povas malatenti kiujn aliaj pensas. Ion ajn ili povas
 >fari en ilia propra mondo senzorgeme al la opinioj de tiuj ĉirkaŭ ili.<br>
@@ -404,8 +404,9 @@ en la protokolo mi ne deziras havi.
       (cpa) "${self}" cp --abort "$@" ;;
 
       (fb) "${git}" filter-branch "$@" ;;
-      (fbm) "${self}" -f --msg-filter "$@" ;;
-      (fbm.) "${self}" fbm 'sed "s/\.$//"' "$(git brh)" ;;
+      (fb!) "${self}" fb -f "$@" ;;
+      (fbm) "${self}" fb! --msg-filter "$@" ;;
+      (fbi) "${self}" fb! --index-filter "$@" ;;
 
       (rp) "${git}" rev-parse "$@" ;;
       (rph) "${self}" rp HEAD ;;
@@ -413,6 +414,21 @@ en la protokolo mi ne deziras havi.
       (sh) "${git}" stash "$@" ;;
       (shp) "${self}" sh pop "$@" ;;
 ```
+
+Kiam ajn tekstojn de ĉiuj antaŭaj ŝanĝmesaĝoj mi volas ŝanĝi, ekzemple la vorton
+`hundo` mi volas ŝanĝi al `kato`, la jenan komandon mi plenumas:
+
+    git fbm 'sed "s/hundo/kato/"'
+
+Kiam ajn dosieron mi volas forigi tute el la deponejo, ekzemple `dosiero.dat`,
+la jenan komandon mi plenumas:
+
+    git fbi 'git rm --cached --ignore-unmatch dosiero.dat' HEAD
+
+Ambaŭmaniere, la jenan komandon mi uzas sekve, por certigi ke la ŝanĝoj aperas
+en la fora deponejo:
+
+    git oo!
 
 
 **Subarboj, kaj submoduloj**
@@ -596,8 +612,9 @@ function git () {
       (cpa) "${self}" cp --abort "$@" ;;
 
       (fb) "${git}" filter-branch "$@" ;;
-      (fbm) "${self}" -f --msg-filter "$@" ;;
-      (fbm.) "${self}" fbm 'sed "s/\.$//"' "$(git brh)" ;;
+      (fb!) "${self}" fb -f "$@" ;;
+      (fbm) "${self}" fb! --msg-filter "$@" ;;
+      (fbi) "${self}" fb! --index-filter "$@" ;;
 
       (rp) "${git}" rev-parse "$@" ;;
       (rph) "${self}" rp HEAD ;;
