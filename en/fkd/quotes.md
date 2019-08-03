@@ -3,7 +3,7 @@ Quotes
 
 <div class="center">[Esperanto](/eo/citajxoj/) ▪ English</div>
 <div class="center">August 29, 2015</div>
-<div class="center">Last updated: July 5, 2019</div>
+<div class="center">Last updated: August 3, 2019</div>
 
 <img src="/bil/wallhaven-77816-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -747,7 +747,13 @@ have collected over the years.
   to misunderstand it.<br>―Alan Kay
 
 
-- Keeping great talent really can mean the difference between a business succeeding or failing.<br>―Brigette Hyacinth
+- Keeping great talent really can mean the difference between a business
+  succeeding or failing.<br>―Brigette Hyacinth
+
+
+- If you want to build a ship, don’t drum up the men to gather wood, divide the
+  work, and give orders. Instead, teach them to yearn for the vast and endless
+  sea.<br>―Antoine de Saint-Exupéry
 
 
 _The banner image used at the top is from [wallhaven](https://alpha.wallhaven.cc/wallpaper/77816)._
