@@ -3,7 +3,7 @@ Citaĵoj
 
 <div class="center">Esperanto ▪ [English](/en/quotes/)</div>
 <div class="center">la 15-an de Novembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 5-an de Julio 2019</div>
+<div class="center">Laste ĝisdatigita: la 3-an de Aŭgusto 3 2019</div>
 
 <img src="/bil/wallhaven-77816-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -748,6 +748,11 @@ tra la jarojn ĉi tiu paĝo enhavas.
 
 
 - La kontraston inter sukceso aŭ malsukceso la tenado de bonegtalento efektive kreas.<br>―Brigette HYACINTH
+
+
+- Se ŝipon oni deziras konstrui, la laboristojn ne vigligu por lignon rikolti,
+  la laboron dividi, kaj ordojn doni. Anstataŭe, ilin instruu kiel sopiri por la
+  vasta kaj senfina maro.<br>―Antoine de SAINT-EXUPÉRY
 
 
 _La paĝa rubando supre venis el [wallhaven](https://alpha.wallhaven.cc/wallpaper/77816)._
