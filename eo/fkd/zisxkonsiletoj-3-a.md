@@ -3,7 +3,7 @@ Ziŝkonsiletoj 3-a: Ŝanĝradikighelpiloj
 
 <div class="center">Esperanto ▪ [English](/en/zsh-tips-3/)</div>
 <div class="center">la 26-an de Septembro 2018</div>
-<div class="center">Laste ĝisdatigita: la 18-an de Aprilo 2019</div>
+<div class="center">Laste ĝisdatigita: la 11-an de Aŭgusto 2019</div>
 
 >Ni ridas pri tio, kion ni ne povas toleri por alfronti.<br>
 >―Aristotelo
@@ -83,7 +83,7 @@ Kiam ĝi finis kuri, la bindsurmetojn de la sistemo al la cela sistemo ni devas 
 <a name="agordo"></a>Agordo
 ---------------------------
 
-Por ke la ŝanĝradikigmedio funkcias ĝuste, enen ni devas iri kaj ŝanĝojn fari:
+Por ke la ŝanĝradikigmedio funkciu ĝuste, enen ni devas iri kaj ŝanĝojn fari:
 
     % sudo chroot /home/chrt/ubuntu
 
