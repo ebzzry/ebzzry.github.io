@@ -565,6 +565,4 @@ malvalidigas. Ĉi tio rilatas al apelo al devenoj.
 
 Mi esperas, ke per ĉi tiu afiŝo, pli da pensada klareco mi povis doni.
 
-_La paĝa rubando supre venis el [wallhaven](https://alpha.wallhaven.cc/wallpaper/333472)._
-
 _Dank’ al [Raymund MARTINEZ](https://zhaqenl.github.io) pro la korektoj._

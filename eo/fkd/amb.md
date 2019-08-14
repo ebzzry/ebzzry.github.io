@@ -599,5 +599,3 @@ mencii, ke estas [argumento](http://okmij.org/ftp/continuations/against-callcc.h
 uzado de `call/cc`.
 
 Mi esperas, ke iel, bonan ion oni lernis el ĉi tiu afiŝo.
-
-_La paĝa rubando supre venis el [wallhaven](https://alpha.wallhaven.cc/wallpaper/333472)._
