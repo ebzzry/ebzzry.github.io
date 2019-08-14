@@ -3,7 +3,7 @@ Konverti de Markdown al HTML per emem
 
 <div class="center">Esperanto ▪ [English](/en/emem/)</div>
 <div class="center">la 5-an de Aŭgusto 2018</div>
-<div class="center">Laste ĝisdatigita: la 16-an de Marto 2019</div>
+<div class="center">Laste ĝisdatigita: la 14-an de Aŭgusto 2019</div>
 
 >Oni ne trovos la respondojn kiujn oni serĉas ĝis oni haltas serĉi ekster kaj komenciĝas serĉi ilin
 >el oni mem.<br>
@@ -16,7 +16,7 @@ kaj ilin vidi sur aliaj aparatoj. Jam ekzistas iloj por ja tion fari. Ilin mi pr
 mi trovis la eligon ŝanĝi ofte nur por ilin igas akcepteblaj. Neniuj da ili konformiĝis al mia
 kriterio: facile por munti, facile por uzi, kaj decan eligon realigas.
 
-Je [emem](https://github.com/ebzzry/emem) mi skribis kiel respondo al tiuj bezonoj. Emem estas
+Na [emem](https://github.com/ebzzry/emem) mi skribis kiel respondo al tiuj bezonoj. Emem estas
 malgranda ilo kiu Markdown-dosierojn ricevas aŭ el la ĉefenigujo aŭ diska dosiero, tiam HTML-eligon
 liveras kiu sufiĉe decas, almenaŭ por kutima rigardado.
 
@@ -32,16 +32,16 @@ liveras kiu sufiĉe decas, almenaŭ por kutima rigardado.
 <a name="instalo"></a>Instalo
 -----------------------------
 
-Emem haveblas per [Nix](https://nixos.org/nix/). Se je Nix oni ne ankoraŭ havas, ĝin oni povas
+Emem haveblas per [Nix](https://nixos.org/nix/). Se na Nix oni ne ankoraŭ havas, ĝin oni povas
 instali per:
 
     $ curl https://nixos.org/nix/install | bash
 
-Tiam, je emem oni nun povas instali per:
+Tiam, na emem oni nun povas instali per:
 
     $ nix-env -i emem
 
-Se je Nix oni ne povas instali, tamen ĝavo instalitas, porokazan skripton oni povas anstataŭ
+Se na Nix oni ne povas instali, tamen ĝavo instalitas, porokazan skripton oni povas anstataŭ
 krei:
 
 ```bash
@@ -64,8 +64,8 @@ La plej ĵusa versio estas `0.2.50`.
 <a name="uzado"></a>Uzado
 -------------------------
 
-Ĉe la plej baza nivelo, je emem simple kuras kontraŭ Markdown-dosiero, bazan, tamen plenan
-HTML-dosieron kun ĉiom da necesaj risurcoj por ĝusta paĝa montrado liveras. Je emem aplikante al
+Ĉe la plej baza nivelo, na emem simple kuras kontraŭ Markdown-dosiero, bazan, tamen plenan
+HTML-dosieron kun ĉiom da necesaj risurcoj por ĝusta paĝa montrado liveras. Na emem aplikante al
 dosiero nomita `MINLEGU.md`:
 
     $ emem MINLEGU.md
@@ -81,7 +81,7 @@ MINLEGU.html
 MINLEGU.md
 ```
 
-Male, je emem kuri kiel jene:
+Male, na emem kuri kiel jene:
 
     $ emem -s MINLEGU.md
 
@@ -97,7 +97,7 @@ metas al la eliga dosiero igas al ĝi facila kaj helpema por la eligajn dokument
 aparatoj kiel poŝtelefonoj kaj tabuletoj.
 
 Tenu en la kalkulo, ke la dokumentotitolo ene la dosiero estos uzita kiel la baznomo de la
-dosiero. Do, de `MINLEGU.md`, je `<title>MINLEGU.md</title>` liveras en la HEAD-etikedo. Se la
+dosiero. Do, de `MINLEGU.md`, na `<title>MINLEGU.md</title>` liveras en la HEAD-etikedo. Se la
 Markdown-dosierojn oni strukturas tia, ke la unuaj du linioj aspektas kiel:
 
 ```
@@ -128,13 +128,13 @@ unu falplonĝo:
 
     $ emem ~/Desktop
 
-Se la defaŭltan larĝecon oni ne ŝatas—40 em—uzu je `-f` por la disponan retumilan paĝan ekranan
+Se la defaŭltan larĝecon oni ne ŝatas—40 em—uzu na `-f` por la disponan retumilan paĝan ekranan
 larĝecon uzi:
 
     $ emem -f MINLEGU.md
 
 Kapablo kiu ege plaĉas al mi, estas kunfandado. Onin ĉi tio permesas por plurajn dosireojn kombini
-en sola eligo. Ekzemple, se oni havas je `a.md`, `b.md`, kaj `c.md`, ilin oni povas kunfandi al
+en sola eligo. Ekzemple, se oni havas na `a.md`, `b.md`, kaj `c.md`, ilin oni povas kunfandi al
 `index.html` per `-m`:
 
     $ emem -mo index.html a.md b.md c.md
@@ -186,7 +186,7 @@ tempolimon precizigi:
 
     $ emem -Rpc -t 1000 MINLEGU.md
 
-Kutime je emem mi kuras jene:
+Kutime na emem mi kuras jene:
 
     $ emem -Fis dosiero.md
 
@@ -203,14 +203,14 @@ Por ĉi tiu tuta [blogo](https://ebzzry.io), 90+ poentaron mi povis atingi el
 [Google Mobile-Friendly Test](https://search.google.com/test/mobile-friendly), kaj ekonomia rango
 de B el [Pingdom](https://tools.pingdom.com/). Se la TTT-servilajn parametrojn oni povas regi,
 ekonomian rangon de A oni eĉ povas atingi, kiam retumilan kaŝmemoron oni ekspluatas kaj la
-`Vary: Accept-Encoding`-ĉapon precizigas. Je [GitHub Pages](https://pages.github.com) mi uzas, do estas
+`Vary: Accept-Encoding`-ĉapon precizigas. Na [GitHub Pages](https://pages.github.com) mi uzas, do estas
 malsama rakonto de mi.
 
 Mi feliĉas pri la eligo kiun emem liveras. Sufiĉe rapidas kaj ĝin mi povas etendi facile. Ĝin mi eĉ
 uzas por miaj propraj kaj postenaj dokumentadoj. Ĝin mi ankaŭ uzas per emakso por TTT-versiojn de
 Markdown-bufroj krei per
 [shell-command](https://www.gnu.org/software/emacs/manual/html_node/elisp/Synchronous-Processes.html)
-kaj [emacs-w3m](https://www.emacswiki.org/emacs/emacs-w3m). Por je emem vidi en efektiva uzado,
+kaj [emacs-w3m](https://www.emacswiki.org/emacs/emacs-w3m). Por na emem vidi en efektiva uzado,
 [ĉi tien](https://github.com/ebzzry/ebzzry.github.io/blob/master/makefile) iru.
 
 Se iom da Kloĵuron oni konas, [ĝin forku](https://github.com/ebzzry/emem/) kaj forkodumu!

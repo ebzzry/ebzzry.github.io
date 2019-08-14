@@ -3,7 +3,7 @@ Blogi per Frog
 
 <div class="center">Esperanto ▪ [English](/en/frog/)</div>
 <div class="center">la 16-an de Februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 20-an de Majo 2019</div>
+<div class="center">Laste ĝisdatigita: la 14-an de Aŭgusto 2019</div>
 
 >Unu persono kun ardo pli bonas ol kvardek personoj nure interesataj.<br>
 >―E.M. FORSTER
@@ -44,7 +44,7 @@ estas kiel mi, daŭru legi.
 Kiam mi trovadis ilojn por krei ĉi tiun blogon, mi malkontentiĝis pri la plejmulto de la famaj
 opcioj. Iuj tro malfacilas por agordi; iuj malhavas kapablojn. Mi frustriĝis pro ĉiu fino
 de la spektro devigas min por uzi ion, kiu tro mezkvalitas en almenaŭ unu kritika
-aspekto. Bonŝance, mi trovis je [Frog](https://github.com/greghendershott/frog) pro propono en
+aspekto. Bonŝance, mi trovis na [Frog](https://github.com/greghendershott/frog) pro propono en
 [#racket](https://kiwiirc.com/client/irc.freenode.net/#racket).
 
 Frog en laikoterminoj, estas retejokreilo, kiu estas tiel facila uzi, agordi, kaj tajlori. Kio
@@ -66,7 +66,7 @@ sia TTT-servilo. Ĉu facilas? Ne, pli facilas ol sonas.
 En la jenaj sekcioj, ni supozas, ke la uzantnomo estas `vakelo`, kaj la hejmdosiero estas
 `/home/vakelo/`.
 
-Por instali je Frog, oni bezonas instali Rakidon unue. Plej verŝajne, la pako-administrilo jam
+Por instali na Frog, oni bezonas instali Rakidon unue. Plej verŝajne, la pako-administrilo jam
 havas ĝin.
 
 
@@ -81,7 +81,7 @@ Per APT:
 En la malbonŝanca okazo ke ne instaleblas per la pako-administrilo, iru al
 [racket-lang.org/download/](https://racket-lang.org/download/), tiam faru la instrukciojn el tie:
 
-Tiam, oni bezonas instali je Frog:
+Tiam, oni bezonas instali na Frog:
 
     $ raco pkg install frog
 
@@ -93,7 +93,7 @@ Poste, oni akiros la `raco frog`-komandon. Ni montru ĝiajn helpajn opciojn:
 <a name="unua"></a>Unua uzo
 ---------------------------
 
-Dolĉe. Nu, nun oni havas je Frog instalita, ni daŭru ruli. Por krei la unuan Frog-disponigitan
+Dolĉe. Nu, nun oni havas na Frog instalita, ni daŭru ruli. Por krei la unuan Frog-disponigitan
 retejon, oni kreos la projektan dosierujon unue:
 
     $ mkdir blogo
@@ -312,7 +312,7 @@ metadatumaj kampoj.
 <a name="komentoj"></a>Komentoj
 -------------------------------
 
-Frog uzas je [Disqus](https://disqus.com) por trakti siajn komentojn. Por uzi ĝin, kreu konton ĉe
+Frog uzas na [Disqus](https://disqus.com) por trakti siajn komentojn. Por uzi ĝin, kreu konton ĉe
 [https://disqus.com/profile/signup/](https://disqus.com/profile/signup/?next=http%3A//disqus.com/).
 
 Kiam oni jam havas sian konton, iru al <https://disqus.com/admin/create/>  por krei retejon, kiu
@@ -337,8 +337,8 @@ servilo. En ĉi tiu gvidilo, estas la dosierujo `/home/vakelo/blogo`. Se la aktu
 
 Anstataŭigu `public_html` per la ĝusta defora dosierujo.
 
-Tamen, se oni ne havas deforan gastigkomputilo kaj vi uzas je [Git](https://git-scm.com), oni povas
-uzi la liberan gastigservon de [GitHub Pages](https://pages.github.com). Se oni ne havas GitHub-konton, oni povas iri al [GitHub](https://github.com) por krei tiun. Por uzi je GitHub Pages, kreu
+Tamen, se oni ne havas deforan gastigkomputilo kaj vi uzas na [Git](https://git-scm.com), oni povas
+uzi la liberan gastigservon de [GitHub Pages](https://pages.github.com). Se oni ne havas GitHub-konton, oni povas iri al [GitHub](https://github.com) por krei tiun. Por uzi na GitHub Pages, kreu
 deponejon nomiĝas `UZANTNOMO.github.io`. Se la uzantnomo estas `vakelo`, la deponejo kiun oni
 bezonas krei devas nomita `vakelo.github.io`.
 
