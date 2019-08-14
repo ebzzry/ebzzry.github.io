@@ -3,7 +3,7 @@ La Pensoj de Pedanto
 
 <div class="center">Esperanto ▪ [English](/en/)</div>
 <div class="center">la 27-an de Aprilo 2017</div>
-<div class="center">Laste ĝisdatigita: la 28-an de Julio 2019</div>
+<div class="center">Laste ĝisdatigita: la 14-an de Aŭgusto 2019</div>
 
 <img src="/bil/pluvis-1008x250.jpg" class="banner" alt="pluvis" title="En la vizaĝo de la kosmo, ni ĉiuj estas porĉiame infanoj." />
 
@@ -36,7 +36,7 @@ inverskronologiordo.</div>
 - [Virtualigado en Linukso per KVM](kvm/)
 - [Aboco de la Lambdokalkulo](lambdokalkulo/)
 - [Emakskonsiletoj 2-a: Seancoj kaj Pakoj](emakskonsiletoj-2-a/)
-- [Agordi je GPG kaj je SSH en KDE](gsk/)
+- [Agordi na GPG kaj na SSH en KDE](gsk/)
 - [Sekurkopiojn Krei per Ugarit](ugarit/)
 - [Blogi per Frog](frog/)
 - [Retpoŝton Agordi per Emakso](emakso-retposxto/)
