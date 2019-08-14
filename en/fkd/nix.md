@@ -1732,6 +1732,4 @@ nix-repl> let y = x: ((f: (x (v: ((f f) v)))) (f: (x (v: ((f f) v))))); b = p: (
 nix-repl>
 ```
 
-_The banner image used at the top is from [wallhaven](https://alpha.wallhaven.cc/wallpaper/751942)._
-
 _Thanks to [Dave Loyall](https://github.com/daveloyall) and [Yekta Leblebici](https://github.com/YektaLeblebici) for the corrections._

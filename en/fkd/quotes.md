@@ -759,6 +759,3 @@ have collected over the years.
 - If you’re in a manic episode, it’s like “It’s time to get everything good
   right now.” Fine, but you won’t sleep for a week, and then you die because
   you’ve burned yourself to a crisp.<br>―Jordan Peterson
-
-
-_The banner image used at the top is from [wallhaven](https://alpha.wallhaven.cc/wallpaper/77816)._

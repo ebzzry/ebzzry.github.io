@@ -565,10 +565,7 @@ Presuming that the source information is indeed invalid, it doesn’t render the
 A is presenting to be invalid, too. This is related to appeal to origins.
 
 
-
 <a name="closing"></a> Closing remarks
 --------------------------------------
 
 I hope that with this post, I was able to add more thinking clarity.
-
-_The banner image used at the top is from [wallhaven](https://alpha.wallhaven.cc/wallpaper/73145)._
