@@ -679,5 +679,3 @@ smartparens estas la elpensintaĵo de [Matus GOLJER](https://github.com/Fuco1).
 pri smartparens, [ĉi tien](https://github.com/Fuco1/smartparens) iru. Se ĉi tiun projekton oni
 ŝatas, oni povas donaci
 [ĉi tie](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CEYP5YVHDRX8C).
-
-_La paĝa rubando supre venis el [wallhaven](https://alpha.wallhaven.cc/wallpaper/578010)._
