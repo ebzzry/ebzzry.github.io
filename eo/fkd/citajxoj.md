@@ -755,4 +755,9 @@ tra la jarojn ĉi tiu paĝo enhavas.
   vasta kaj senfina maro.<br>―Antoine de SAINT-EXUPÉRY
 
 
+- Se oni estas en epizodo de manio, estas kiel “Estas la tempo por ĉion ordigi
+  jam nun.” Bone, sed oni ne dormos por unu semajno, tiam oni mortos ĉar oni
+  tute rostiĝis.<br>―Jordan PETERSON
+
+
 _La paĝa rubando supre venis el [wallhaven](https://alpha.wallhaven.cc/wallpaper/77816)._
