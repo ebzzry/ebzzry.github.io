@@ -3,7 +3,7 @@ Quotes
 
 <div class="center">[Esperanto](/eo/citajxoj/) ▪ English</div>
 <div class="center">August 29, 2015</div>
-<div class="center">Last updated: August 3, 2019</div>
+<div class="center">Last updated: August 14, 2019</div>
 
 <img src="/bil/wallhaven-77816-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -754,6 +754,11 @@ have collected over the years.
 - If you want to build a ship, don’t drum up the men to gather wood, divide the
   work, and give orders. Instead, teach them to yearn for the vast and endless
   sea.<br>―Antoine de Saint-Exupéry
+
+
+- If you’re in a manic episode, it’s like “It’s time to get everything good
+  right now.” Fine, but you won’t sleep for a week, and then you die because
+  you’ve burned yourself to a crisp.<br>―Jordan Peterson
 
 
 _The banner image used at the top is from [wallhaven](https://alpha.wallhaven.cc/wallpaper/77816)._
