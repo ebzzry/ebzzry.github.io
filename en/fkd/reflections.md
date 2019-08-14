@@ -3,7 +3,7 @@ Reflections
 
 <div class="center">[Esperanto](/eo/pripensoj/) ▪ English</div>
 <div class="center">November 24, 2015</div>
-<div class="center">Last updated: July 5, 2019</div>
+<div class="center">Last updated: August 14, 2019</div>
 
 This page contains contains some of my personal reflections. Entries are sorted in chronological order.
 
@@ -67,9 +67,6 @@ This page contains contains some of my personal reflections. Entries are sorted 
 
 
 - Impatience is the twin of impulsiveness.<br>
-
-
-- You are not weak; you are not strong, either.<br>
 
 
 - Opinions are biases.<br>
