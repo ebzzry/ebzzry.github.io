@@ -3,7 +3,7 @@ Migri de LiveJournal al Frog
 
 <div class="center">Esperanto ▪ [English](/en/livefrog/)</div>
 <div class="center">la 7-an de Februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 8-an de Marto 2019</div>
+<div class="center">Laste ĝisdatigita: la 14-an de Aŭgusto 2019</div>
 
 >Mi ne scias kien mi iras, sed mi estas sur mia vojo.<br>
 >―Carl SAGAN
@@ -49,11 +49,11 @@ Per APT:
 
     $ sudo apt-get install -y racket
 
-Sekve, ni instalu je livefrog—haveblas per [Planet2](https://pkg.racket-lang.org).
+Sekve, ni instalu na livefrog—haveblas per [Planet2](https://pkg.racket-lang.org).
 
     $ raco pkg install livefrog
 
-Se tio ne funkcias, oni facile povas instali je livefrog per elŝuti ĝiajn dependecojn rekte de
+Se tio ne funkcias, oni facile povas instali na livefrog per elŝuti ĝiajn dependecojn rekte de
 GitHub:
 
     $ git clone https://github.com/greghendershott/frog.git
@@ -145,7 +145,7 @@ Por krei tiel dosieron, nomata kiel `comments.xml`, kun `foo.bar.com` kiel la ra
 <a name="gxisdatigo"></a>Ĝisdatigo
 ----------------------------------
 
-Se oni instalis je livefrog per Planet2, oni povas ĝisdatigi ĝin per kuri:
+Se oni instalis na livefrog per Planet2, oni povas ĝisdatigi ĝin per kuri:
 
     $ raco pkg update livefrog
 

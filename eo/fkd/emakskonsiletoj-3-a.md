@@ -3,7 +3,7 @@ Emakskonsiletoj 3-a: Enmeti kaj Forviŝi
 
 <div class="center">Esperanto ▪ [English](/en/emacs-tips-3/)</div>
 <div class="center">la 24-an de Septembro 2018</div>
-<div class="center">Laste ĝisdatigita: la 18-an de Aprilo 2018</div>
+<div class="center">Laste ĝisdatigita: la 14-an de Aŭgusto 2019</div>
 
 Jen la daŭrigo de mia serio pri emaksaj konsiletoj. En ĉi tiu artikolo, ni esploru pri signovicaj
 enmetadoj, kaj linia forviŝado, markado, kaj algluado.
@@ -79,7 +79,7 @@ Por signovicojn enmeti ĝis la lastan kolumnon de la antaŭa linio:
   (insert-until-last "-"))
 ```
 
-La enmetadon de `=` kaj `-` plifaciligos kiam je H1 kaj H2 ĉapojn krei.
+La enmetadon de `=` kaj `-` plifaciligos kiam na H1 kaj H2 ĉapojn krei.
 
 Ilin mi bindis al <kbd>M-g =</kbd> kaj <kbd>M-g -</kbd>, respektive.
 
@@ -91,7 +91,7 @@ Hundo Kato Muso
 ^
 ```
 
-Kiam je <kbd>M-g =</kbd> oni premas, ĝi fariĝos:
+Kiam na <kbd>M-g =</kbd> oni premas, ĝi fariĝos:
 
 ```
 Hundo Kato Muso
@@ -99,7 +99,7 @@ Hundo Kato Muso
               ^
 ```
 
-Male, je la jenan mi havas:
+Male, na la jenan mi havas:
 
 ```
 Hundo Kato Muso
@@ -112,7 +112,7 @@ Sekcio 1-a
 ```
 
 
-Kiam je <kbd>M-g -</kbd> oni premas, ĝi fariĝos:
+Kiam na <kbd>M-g -</kbd> oni premas, ĝi fariĝos:
 
 ```
 Hundo Kato Muso
@@ -151,14 +151,14 @@ Retejo pri komputiko, hominklinaĵoj, kaj hazardaĵoj.
                       ^
 ```
 
-Tiam, je <kbd>C-c ^</kbd> oni premas, ĝi fariĝos:
+Tiam, na <kbd>C-c ^</kbd> oni premas, ĝi fariĝos:
 
 ```
 hominklinaĵoj, kaj hazardaĵoj.
 ^
 ```
 
-Male, se je <kbd>C-c $</kbd> oni premas, ĝi fariĝos:
+Male, se na <kbd>C-c $</kbd> oni premas, ĝi fariĝos:
 
 ```
 Retejo pri komputiko,
@@ -193,7 +193,7 @@ Ilin mi bindis al <kbd>C-c C-a</kbd> kaj <kbd>C-c C-e</kbd>, respektive.
 Mi volas esti kapabla por alglui de la tondejo al emakso, precipe se mi estas en la
 terminalsimulilo.
 
-Unue, je xclip ni bezonas instali:
+Unue, na xclip ni bezonas instali:
 
 Per Nixpkgs:
 
@@ -218,7 +218,7 @@ Tiam, la jenan ni aldonu al emaksa startiga dosiero:
 ```
 
 La ĉefzono estas tiu, kiu ŝaltiĝas kiam musajn markojn oni faras, dum la tondejzono estas tiu,
-kiu estas uzita kiam la komandon _Kopii_ el apo oni alvokas, aŭ kiam je <kbd>Ctrl+c</kbd> oni
+kiu estas uzita kiam la komandon _Kopii_ el apo oni alvokas, aŭ kiam na <kbd>Ctrl+c</kbd> oni
 premas.
 
 
