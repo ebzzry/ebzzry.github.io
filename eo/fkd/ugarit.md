@@ -3,7 +3,7 @@ Sekurkopiojn Krei per Ugarit
 
 <div class="center">Esperanto ▪ [English](/en/ugarit/)</div>
 <div class="center">la 18-an de Februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 19-an de Marto 2019</div>
+<div class="center">Laste ĝisdatigita: la 14-an de Aŭgusto 2019</div>
 
 >Bona juĝo devenas el sperto, kaj sperto devenas el malbona juĝo.<br>
 >―Fred BROOKS
@@ -57,7 +57,7 @@ tiel maŝinskribi mallongan komandon.
 
 ### <a name="apt"></a>Per APT:
 
-Unue, oni devas instali je [Chicken](https://www.call-cc.org/). Plej verŝajne, povas esti instalita
+Unue, oni devas instali na [Chicken](https://www.call-cc.org/). Plej verŝajne, povas esti instalita
 per la pako-administrilo:
 
     $ sudo apt-get install chicken-bin
@@ -65,7 +65,7 @@ per la pako-administrilo:
 Se ne haveblas sur la sistemo, oni povas elŝuti gin el
 [code.call-cc.org](https://code.call-cc.org/).
 
-Post kiam Chicken instalitas, ni instalu je Ugarit mem kaj ĝiajn dependecojn:
+Post kiam Chicken instalitas, ni instalu na Ugarit mem kaj ĝiajn dependecojn:
 
     $ chicken-install -s ugarit tiger-hash aes
 
@@ -76,7 +76,7 @@ Post kiam ĉi tiu komando finiĝas, la komando `ugarit` haveblos. Por montri la 
 
 ### <a name="nixpkgs"></a>Per Nixpkgs
 
-Se oni uzas je Nixpkgs, simple plenumu la jenan komandon:
+Se oni uzas na Nixpkgs, simple plenumu la jenan komandon:
 
     $ nix-env -i ugarit
 
@@ -144,7 +144,7 @@ Por krei dosierkopiojn, plenumu:
 
 _ETIKEDO_ estas nomo kiu oni bezonas identigi la dosierkopion poste, dum _DOSIERUJO_ estas la
 dosiersistema arbo, kiun oni volas krei dosierkopion pri. Por krei ekzemple dosierkopion de la
-dosierujo `bildoj/`, kun la etikedo `bil`, plenumu je Ugarit jene:
+dosierujo `bildoj/`, kun la etikedo `bil`, plenumu na Ugarit jene:
 
     $ ugarit snapshot /ugarit/ugarit.conf bil bildoj
 
@@ -188,7 +188,7 @@ Extracted festo
 ### <a name="eltiri"></a>Rekte eltiri dosierkopiojn
 
 Tamen, se oni konas la ekzaktan dosierindikon de dosiero aŭ dosierujon kiun ĝi volas eltiri, oni
-povas anstataŭ kuras je Ugarit kun la eltira reĝimo. Por eltiri la dosierujon `festo/` el supre,
+anstataŭ povas plenumi na Ugarit kun la eltira reĝimo. Por eltiri la dosierujon `festo/` el supre,
 rekte, plenumu:
 
     $ ugarit extract /ugarit/ugarit.conf /bil/current/contents/festo

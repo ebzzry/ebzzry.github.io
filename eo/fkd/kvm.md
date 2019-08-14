@@ -3,7 +3,7 @@ Virtualigado en Linukso per KVM
 
 <div class="center">Esperanto ▪ [English](/en/kvm/)</div>
 <div class="center">la 3-an de Marto 2018</div>
-<div class="center">Laste ĝisdatigita: la 18-an de Aprilo 2019</div>
+<div class="center">Laste ĝisdatigita: la 14-an de Aŭgusto 2019</div>
 
 >Se tion oni faras, kion oni ĉiam faras; tion oni akiros, kion oni ĉiam akiras.<br>
 >―Anthony ROBBINS
@@ -75,7 +75,7 @@ APT:
 La [QEMU](http://wiki.qemu-project.org/Main_Page)-hiperregilon, la
 [VDE](http://vde.sourceforge.net/)-ilojn, kaj [SPICE](http://www.spice-space.org/)-subtenon ĉi tio
 instalas. QEMU, almenaŭ dum siaj fruaj tagoj ne estis impresa—ĝi estis bona, bedaŭrinde ne
-bonegas. Ekde versio 0.10.1, je [KVM](http://www.linux-kvm.org/)-kapablojn—virtualigada subsistemo
+bonegas. Ekde versio 0.10.1, na [KVM](http://www.linux-kvm.org/)-kapablojn—virtualigada subsistemo
 por linukso—kiu preskaŭ denaskan virtualigadon disponigas per aparataro-asistita virtualigado, QEMU
 komencis subteni. La ekonomiojn de la aliaj virtualigadaj sistemoj menciitaj ĉi-supre ĝi eĉ
 konkuras.
@@ -123,7 +123,7 @@ Onin la lasta komando varbas al la KVM-grupo senelsaluti el la seanco.
 ### <a name="retkonektado"></a>Retkonektado
 
 [Multajn manierojn](http://wiki.qemu-project.org/Documentation/Networking) por retkonektadon agordi
-por siaj gastoj QEMU subtenas, tamen por ĉi tiu afiŝo nur je VDE ni uzos.
+por siaj gastoj QEMU subtenas, tamen por ĉi tiu afiŝo nur na VDE ni uzos.
 
 Kelkajn komandojn oni devas kuri por la retan medion pretigi. Ideale, la komandojn oni volas
 konservi en ŝela funkcio aŭ skripto:
@@ -179,7 +179,7 @@ La KVM-procezilon uzu, per ĉiom da subtenitaj kapabloj.
 
     -net nic,model=virtio -net vde
 
-Je virtualan NIC kreu, kaj VDE-retkonektadon ŝaltu.
+Na virtualan NIC kreu, kaj VDE-retkonektadon ŝaltu.
 
     -soundhw all
 
@@ -187,7 +187,7 @@ Je virtualan NIC kreu, kaj VDE-retkonektadon ŝaltu.
 
     -vga qxl
 
-La videan adaptilon por imiti precizigu. Je QXL uzu kiam je SPICE uzi.
+La videan adaptilon por imiti precizigu. Na QXL uzu kiam na SPICE uzi.
 
     -spice addr=127.0.0.1,port=9999,password=sekretŝlosilo
 
@@ -211,7 +211,7 @@ Por ke la gastan ekranon oni povu uzi, oni devas konekti al la SPICE-servilo, pe
     $ spicy -h 127.0.0.1 -p 9999 -w sekretŝlosilo
 
 Tenu en la kalkulo, ke la spicy-fenestron fermi ne la QEMU-seancon mortigas. Se la musenigon
-la gasta operaciumo kaptas, je <kbd>Shift+F12</kbd> premu, por eskapi.
+la gasta operaciumo kaptas, na <kbd>Shift+F12</kbd> premu, por eskapi.
 
 
 ### <a name="gastareto"></a>La gastan reton agordi

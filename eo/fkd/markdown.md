@@ -3,7 +3,7 @@ Mia Markdown-Stila Gvidilo
 
 <div class="center">Esperanto ▪ [English](/en/markdown/)</div>
 <div class="center">la 24-an de Septembro 2018</div>
-<div class="center">Laste ĝisdatigita: la 8-an de Marto 2019</div>
+<div class="center">Laste ĝisdatigita: la 14-an de Aŭgusto 2019</div>
 
 >La reglamentoj kiuj direktas cirkonstancojn nuliĝis per novaj cirkonstancoj.<br>
 >―Napoleono BONAPARTE
@@ -135,7 +135,7 @@ La Pinĉilojn Pretigi
 Ve ve ve veve ve veve ve veve ve veve ve veve ve veve ve veve ve veve ve veve ve veve ve veve ve ve
 ```
 
-kaj je <kbd>M-q</kbd> oni premas dum la punkto estas ie en la lasta linio, ĝi fariĝos:
+kaj na <kbd>M-q</kbd> oni premas dum la punkto estas ie en la lasta linio, ĝi fariĝos:
 
 ```markdown
 La Pinĉilojn Pretigi
@@ -251,7 +251,7 @@ Kio Estas Tie?
 ^
 ```
 
-tiam se je <kbd>M-g =</kbd> oni premas, ĝi fariĝos:
+tiam se na <kbd>M-g =</kbd> oni premas, ĝi fariĝos:
 
 ```markdown
 Kio Estas Tie?
@@ -267,7 +267,7 @@ Monstroj kaj anĝeloj
 ^
 ```
 
-tiam se je <kbd>M-g -</kbd> oni premas, ĝi fariĝos:
+tiam se na <kbd>M-g -</kbd> oni premas, ĝi fariĝos:
 
 ```markdown
 Monstroj kaj anĝeloj
@@ -284,7 +284,7 @@ Kodeto:
 ^
 ```
 
-tiam se je <kbd>M-g `</kbd> oni premas, ĝi fariĝos:
+tiam se na <kbd>M-g `</kbd> oni premas, ĝi fariĝos:
 
 ```markdown
 Kodeto:

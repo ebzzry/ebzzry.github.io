@@ -3,7 +3,7 @@ Ziŝkonsiletoj 3-a: Ŝanĝradikighelpiloj
 
 <div class="center">Esperanto ▪ [English](/en/zsh-tips-3/)</div>
 <div class="center">la 26-an de Septembro 2018</div>
-<div class="center">Laste ĝisdatigita: la 11-an de Aŭgusto 2019</div>
+<div class="center">Laste ĝisdatigita: la 14-an de Aŭgusto 2019</div>
 
 >Ni ridas pri tio, kion ni ne povas toleri por alfronti.<br>
 >―Aristotelo
@@ -44,7 +44,7 @@ opcioj estas laborintensivaj kaj la taskojn mi povas kuri rapide, kaj nun.
 -------------------------------------------
 
 Por la efektivan disan medion krei, manieron por ĝin elŝuti kaj instali sur nia disko ni
-bezonas. Por tion fari, je bootstrap ni bezonas.
+bezonas. Por tion fari, na bootstrap ni bezonas.
 
 Per Nixpkgs:
 
@@ -101,7 +101,7 @@ Tiam, la uzanton `vakelo` ni aligu parto de la `sudo` grupo:
 
     # usermod -aG sudo vakelo
 
-Tiam, ni diru al *sudo*, ke nin ĝi ne devas invitigi por la pasvorto. Por tion fari, je `visudo` ni
+Tiam, ni diru al *sudo*, ke nin ĝi ne devas invitigi por la pasvorto. Por tion fari, na `visudo` ni
 devas uzi:
 
     # visudo
@@ -204,7 +204,7 @@ La daton de la uname-komando ni ankaŭ vidu:
 
     % cr uname -a
 
-Je `cr` oni ankaŭ povas plenumi por eniri al ŝelo:
+Na `cr` oni ankaŭ povas plenumi por eniri al ŝelo:
 
     % cr
 

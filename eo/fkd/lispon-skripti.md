@@ -3,7 +3,7 @@ Skriptado en Komunlispo
 
 <div class="center">Esperanto ▪ [English](/en/script-lisp/)</div>
 <div class="center">la 24-an de Septembro 2018</div>
-<div class="center">Laste ĝisdatigita: la 14-an de Junio 2019</div>
+<div class="center">Laste ĝisdatigita: la 14-an de Aŭgusto 2019</div>
 
 >La lumo kiu fajras duoble brila, fajras duone longa.<br>
 >―D-ro. Eldon TYRELL, Blade Runner (1982)
@@ -70,7 +70,7 @@ enkonstruita en ASDF3—kiu estas parto de la plejparto de komunlispaj realigoj�
 ĝin permane instali. Onin [inferior-shell](https://github.com/fare/inferior-shell) helpas por la
 procezojn mastrumi. Onin [cl-scripting](https://github.com/fare/cl-scripting) helpas por pli da rego.
 
-La programo `cl-launch` devas esti instalita sur la sistemo. Ĝi estos respondeca por la kreado de la multvoka duumdosiero mem. Por je `cl-launch` instali:
+La programo `cl-launch` devas esti instalita sur la sistemo. Ĝi estos respondeca por la kreado de la multvoka duumdosiero mem. Por na `cl-launch` instali:
 
 Per APT:
 
@@ -162,9 +162,9 @@ Sekve, la dosieron `main.lisp` ni kreu en la sama dosierujo. La jenan ĝi havos:
 (register-commands :my-scripts/main)
 ```
 
-Ni komencu per je `UIOP:DEFINE-PACKAGE` uzi. Male al `DEFPACKAGE`, la necesan medion kiu estas amika
+Ni komencu per na `UIOP:DEFINE-PACKAGE` uzi. Male al `DEFPACKAGE`, la necesan medion kiu estas amika
 al UIOP ĉi tio kreas. En la klaŭzo `:USE`, la helpilojn de aliaj bibliotekoj ni uzos. En la korpo de
-ĉi tiu dosiero, je `EXPORTING-DEFINITIONS` oni povas vidi. La limojn de tiuj, kiuj iĝos duumdosieroj
+ĉi tiu dosiero, na `EXPORTING-DEFINITIONS` oni povas vidi. La limojn de tiuj, kiuj iĝos duumdosieroj
 aŭ ne, ĉi tiu markilo efektive markas. Ĝi estos uzita de `REGISTER-COMMANDS` poste.
 
 Ĉi tie, kelkajn funkciojn ni difinas: `SYMLINK` respondecas pri la kreado de la simbolligiloj por la
@@ -194,13 +194,13 @@ clean:
     @rm -f $(NAME)
 ```
 
-En la celo `$(NAME)`, je `cl-launch` ni voku kun la opcioj por la skripton kunmeti. En la celo
+En la celo `$(NAME)`, na `cl-launch` ni voku kun la opcioj por la skripton kunmeti. En la celo
 `install`, la skripton ni alvoku kun la opcioj `symlink $(NAME)`, por la simbolligilojn de la
 multvoka duumdosiero krei. Pro nur tri funkciojn ni difinis ene la korpo de `EXPORTING-DEFINITIONS`,
 nur tri simbolligilojn al `my-scripts` ĝi kreos. La eligan dosieron la opcio `‑‑output $(NAME)`
 precizigas. La `‑‑dump !` signifas, ke bildon ĝi kreos, por pli rapidan startigon ŝalti. La opcio
-`‑‑lisp sbcl` signifas, ke je SBCL ni volas uzi, por ĉi tiu skripto. La opcio `‑‑quicklisp`
-signifas, ke je [Quicklisp](https://www.quicklisp.org) ni ŝarĝas kun la bildo. La sistemon, kiun ni
+`‑‑lisp sbcl` signifas, ke na SBCL ni volas uzi, por ĉi tiu skripto. La opcio `‑‑quicklisp`
+signifas, ke na [Quicklisp](https://www.quicklisp.org) ni ŝarĝas kun la bildo. La sistemon, kiun ni
 kreas la opcio `‑‑system $(NAME)` ŝarĝas. La enirejo de nia programo la opcio
 `‑‑dispatch-system $(NAME)/main` precizigas.
 
@@ -235,7 +235,7 @@ Sa la uzantnumeron ĝi montras, tiam ni povas daŭrigi.
 ---------------------
 
 Ni supozu, ke la baterian staton de la tekkomputilo oni volas scii de la komandlinio. Tion ni povas
-difini per kelkaj funkcioj. Je `my-scripts.asd` ni modifu per la aldonajn deklarojn enhavi:
+difini per kelkaj funkcioj. Na `my-scripts.asd` ni modifu per la aldonajn deklarojn enhavi:
 
 ```lisp
 #-asdf3.1 (error "ASDF 3.1 or bust!")
@@ -341,7 +341,7 @@ Uzantapojn lanĉi kaj mastrumi facilas. Ni komencu per dependecon aldoni en `my-
                "my-scripts/apps"))
 ```
 
-Tiam je `apps.lisp` ni plenigu:
+Tiam na `apps.lisp` ni plenigu:
 
 ```lisp
 (uiop:define-package #:scripts/apps
@@ -376,7 +376,7 @@ Tiam je `apps.lisp` ni plenigu:
 (register-commands :scripts/apps)
 ```
 
-Tiam je *my-scripts* ni rekunmetu:
+Tiam na *my-scripts* ni rekunmetu:
 
 ```bash
 $ make install

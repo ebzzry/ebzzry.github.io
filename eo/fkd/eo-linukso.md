@@ -3,7 +3,7 @@ Esperanto-signoj en Linukso
 
 <div class="center">Esperanto ▪ [English](/en/eo-linux/)</div>
 <div class="center">la 22-an de Julio 2018</div>
-<div class="center">Laste ĝisdatigita: la 20-an de Majo 2019</div>
+<div class="center">Laste ĝisdatigita: la 14-an de Aŭgusto 2019</div>
 
 >Se ion oni volas, kion oni neniam havis, oni devas esti servopreta tion fari, kion oni neniam
 >faris.<br>
@@ -33,16 +33,16 @@ esti premita kaj malpremita kun aliajn klavojn por signon enigi, aŭ seriojn de 
 <kbd>Shift</kbd> aŭ <kbd>Ctrl</kbd>, ĝi devas esti malpremita kaj ne premita dum la sinsekvo de
 premoj.
 
-Por je <kbd>Pause</kbd> klavon uzi kiel *Multi‎ߺ‎key*, la dosieron `~/.Xmodmap` redaktu, tiam la
+Por na <kbd>Pause</kbd> klavon uzi kiel *Multi‎ߺ‎key*, la dosieron `~/.Xmodmap` redaktu, tiam la
 jenan kodeton aldonu:
 
     keycode 127 = Multi‎ߺ‎key
 
-Tiam, je `~/.Xmodmap` reŝarĝu:
+Tiam, na `~/.Xmodmap` reŝarĝu:
 
     xmodmap ~/.Xmodmap
 
-Se je <kbd>Pause</kbd> klavon oni ne volas uzi, je `xev` plenumu:
+Se na <kbd>Pause</kbd> klavon oni ne volas uzi, na `xev` plenumu:
 
     xev
 
@@ -58,15 +58,15 @@ KeyRelease event, serial 36, synthetic NO, window 0x2e00001,
 …
 ```
 
-Do por je <kbd>Print</kbd> klavon uzi kiel *Multi‎ߺ‎key*, je `~/.Xmodmap` redaktu por enhavi:
+Do por na <kbd>Print</kbd> klavon uzi kiel *Multi‎ߺ‎key*, na `~/.Xmodmap` redaktu por enhavi:
 
     keycode 107 = Multi‎ߺ‎key
 
-Tiam, je `~/.Xmodmap` reŝarĝu, kiel priskribite ĉi-supre.
+Tiam, na `~/.Xmodmap` reŝarĝu, kiel priskribite ĉi-supre.
 
-Nun, ke je *Multi‎ߺ‎key* oni povas aliri, signojn komposti plifaciliĝas. Ni supozu, ke je
-<kbd>Pause</kbd> klavo ni uzis kiel *Multi‎ߺ‎key*, por la literon **ĉ** eniri, je <kbd>Pause</kbd> oni
-premas kaj malpremas, tiam je <kbd>&#94;</kbd> oni premas kaj malpremas, tiam fine, je <kbd>c</kbd>
+Nun, ke na *Multi‎ߺ‎key* oni povas aliri, signojn komposti plifaciliĝas. Ni supozu, ke je
+<kbd>Pause</kbd> klavo ni uzis kiel *Multi‎ߺ‎key*, por la literon **ĉ** eniri, na <kbd>Pause</kbd> oni
+premas kaj malpremas, tiam na <kbd>&#94;</kbd> oni premas kaj malpremas, tiam fine, na <kbd>c</kbd>
 oni premas kaj malpremas.
 
 Jen la tabuleto kiu la kombinadojn por la esperantaj signoj listigas.
@@ -130,17 +130,17 @@ keycode 47 = s S scircumflex Scircumflex
 keycode 41 = u U ubreve Ubreve
 ```
 
-Tiam, je `~/.Xmodmap` reŝarĝu:
+Tiam, na `~/.Xmodmap` reŝarĝu:
 
     xmodmap ~/.Xmodmap
 
-Por la literon **ĉ** eniri, je 🐧 premu kaj tenu, tiam <kbd>c</kbd> klavon premu. Por la **Ŭ**
-literon eniri, je 🐧 premu kaj tenu, tiam je <kbd>Shift</kbd> premu, tiam je <kbd>u</kbd> premu. Per
+Por la literon **ĉ** eniri, na 🐧 premu kaj tenu, tiam <kbd>c</kbd> klavon premu. Por la **Ŭ**
+literon eniri, na 🐧 premu kaj tenu, tiam na <kbd>Shift</kbd> premu, tiam na <kbd>u</kbd> premu. Per
 ĉi tiuj metodoj, onin permesas por senokulmaŝinskribi.
 
 En kelkaj klavaroj, estas nur unu vindozklavo, kutime lokitas maldekstre, dum tiu dekstre estas
 la <kbd>PrtSc</kbd> klavo. Multfoje ili sandviĉitas inter la <kbd>Ctrl</kbd> kaj la
-<kbd>Alt</kbd> klavoj. Por tiun klavon uzi, je `xev` plenumu kiel ĉi-supre por la klavkodon akiri, tiam
+<kbd>Alt</kbd> klavoj. Por tiun klavon uzi, na `xev` plenumu kiel ĉi-supre por la klavkodon akiri, tiam
 je `~/.Xmodmap` dosiero ĝisdatigi laŭe.
 
 Sur mia ThinkPad, la jenan kodeton mi `~/.Xmodmap` havas:
@@ -163,7 +163,7 @@ plenumu se oni estas en kutimaj linuksaj sistemoj:
 
     less /usr/share/X11/locale/en_US.UTF-8/Compose
 
-Se je Nix oni uzas, plenumu:
+Se na Nix oni uzas, plenumu:
 
     less ~/.nix-profile/share/X11/locale/en_US.UTF-8/Compose
 

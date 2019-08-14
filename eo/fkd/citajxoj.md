@@ -3,7 +3,7 @@ Citaĵoj
 
 <div class="center">Esperanto ▪ [English](/en/quotes/)</div>
 <div class="center">la 15-an de Novembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 3-an de Aŭgusto 3 2019</div>
+<div class="center">Laste ĝisdatigita: la 14-an de Aŭgusto 2019</div>
 
 <img src="/bil/wallhaven-77816-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -393,8 +393,8 @@ tra la jarojn ĉi tiu paĝo enhavas.
 - Se ne mi, kiu? Se ne nun, kiam?<br>―Mikhail GORBACHEV
 
 
-- Malsaĝulo miras je nekutimajn aferojn. Ŝagulo miras je la kutimajn
-  aferojn.<br>―Konfuceo
+- Malsaĝulo miras pri nekutimaj aferoj. Ŝagulo miras pri la kutimaj
+  aferoj.<br>―Konfuceo
 
 
 - Oni povas eltrovi tiun, kiun plej timas siajn malamikojn, per rimarki la
@@ -421,7 +421,7 @@ tra la jarojn ĉi tiu paĝo enhavas.
   memaserto.<br>―Søren KIERKEGAARD
 
 
-- La plej granda danĝero okazas je la momenton de venko.<br>―Napoleono BONAPARTE
+- La plej granda danĝero okazas en la momento de venko.<br>―Napoleono BONAPARTE
 
 
 - La reglamentoj kiuj direktas cirkonstancojn nuliĝis per novaj
@@ -572,7 +572,7 @@ tra la jarojn ĉi tiu paĝo enhavas.
   Lain
 
 
-- Racias vidi je «Wired» kiel plisupra nivelo de la vera mondo. Alidire, fizika
+- Racias vidi na «Wired» kiel plisupra nivelo de la vera mondo. Alidire, fizika
   efektivaĵo estas nenio, sed holografiaĵo de la informo, kiu fluas tra la
   «Wired».<br>―Miho IWAKURA, Serial Experiments Lain
 

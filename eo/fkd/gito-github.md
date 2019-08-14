@@ -3,7 +3,7 @@ Maldaŭra Rondvojaĝo de Gito kaj GitHub
 
 <div class="center">Esperanto ▪ [English](/en/git-github/)</div>
 <div class="center">la 11-an de Julio 2018</div>
-<div class="center">Laste ĝisdatigita: la 9-an de Marto 2019</div>
+<div class="center">Laste ĝisdatigita: la 14-an de Aŭgusto 2019</div>
 
 >Ĉiujn solvitajn problemon sciu kiel solvi.<br>
 >―Richard P. FEYNMAN
@@ -38,13 +38,13 @@ En ĉi tiu artikolo, la inviton la `$` simbolo reprezentas. Por demonstradaj cel
 
 ### <a name="komenco"</a>Komenca uzo
 
-Por la aferojn plibonigi poste, je `.gitignore`-dosieron oni devas krei. La dosierojn kiuj estas
+Por la aferojn plibonigi poste, na `.gitignore`-dosieron oni devas krei. La dosierojn kiuj estas
 ekskluditaj el la deponejo la _.gitignore_-dosiero precizigas. Kelke da ĉi tiuj estas duumaj
 dosieroj kaj eraraj mesaĝoj kiuj estis kreitaj dum kompiladoj.
 
 La tipon de projekto `.gitignore`-dosieroj specifas. Bona loko por precizigi tion, kion .gitignore
 devas enhavi estas [gitignore.io](https://gitignore.io). La tipon de projekto precizigi en la kampo,
-tiam je **Generate** klaku, tiam le eligon kopiu al la tondejo.
+tiam na **Generate** klaku, tiam le eligon kopiu al la tondejo.
 
 Dosierujon por la projekto kreu, tiam ŝanĝiĝu ene:
 
@@ -106,7 +106,7 @@ Kiam la ŝanĝoj, kiujn oni jam testis, estas stabilaj, ŝaltu al la `master`-br
 
     $ git checkout master
 
-Tiam, kunfandu je `eksperimentaj`:
+Tiam, kunfandu na `eksperimentaj`:
 
     $ git merge eksperimentaj
 
@@ -118,7 +118,7 @@ Post tio, la `eksperimentaj`-branĉon oni povas forviŝi:
 <a name="enrete"></a>Enrete labori
 ----------------------------------
 
-Kiel labori kun aliaj programistoj ĉi tiu sekcio priskribas. Je [GitHub](https://github.com) oni
+Kiel labori kun aliaj programistoj ĉi tiu sekcio priskribas. Na [GitHub](https://github.com) oni
 uzos en ĉi tiu diskuto.
 
 
@@ -135,8 +135,8 @@ fari, la jenan komandon plenumu, tiam la eligon kopiu:
 
     $ cat ~/.ssh/id_ed25519.pub
 
-Iru al [github.com/settings/ssh](https://github.com/settings/ssh), tiam je **Add SSH key** aŭ je
-**New SSH key** klaku:
+Iru al [github.com/settings/ssh](https://github.com/settings/ssh), tiam na **Add SSH key** aŭ je
+**New SSH key** klaku:
 
 ![Add SSH key](/bil/sekursxelan-sxlosilon-aldonu.png)
 
@@ -145,12 +145,12 @@ La ŝlosilon algluu, tiam tradaŭru.
 
 ### <a name="deponejonkrei"></a>La deponejon krei
 
-En la paĝo de la deponejoj, novan deponejon krei per je **New** klaki:
+En la paĝo de la deponejoj, novan deponejon krei per na **New** klaki:
 
 ![New](/bil/nova-deponejo.png)
 
 Daŭru per la invitoj. Kiam la postulatajn kampojn oni jam plenigis, signovicojn de komandojn oni
-akiros. Je `vakelo` kaj je `foobar` anstataŭigu per la GitHub-uzantnomo kaj la nomo de la
+akiros. Na `vakelo` kaj na `foobar` anstataŭigu per la GitHub-uzantnomo kaj la nomo de la
 deponejo, respektive.
 
     $ git remote add origin git@github.com:vakelo/foobar.git
@@ -172,7 +172,7 @@ Kiam plu da ŝanĝo oni faris al la deponejo, la ŝanĝojn oni povas puŝi per l
 Se oni volas kontribui al projekto, kopion de tiu dosiero oni devas surlabori, tiam la ŝanĝojn oni
 puŝas al la propra forko:
 
-Unue, la projekton forku. Iru al la projekto, kiun oni volas forki, tiam je **Fork** klaku:
+Unue, la projekton forku. Iru al la projekto, kiun oni volas forki, tiam na **Fork** klaku:
 
 ![Fork](/bil/forku.png)
 
@@ -186,7 +186,8 @@ Tiam la jenan komandon plenumu, en kiu, `memeho` estas via uzantnomo:
 
     $ git clone git@github.com:memeho/foobar.git
 
-Sekve, je *remote* nomiĝas *upstream* kreu kiu la ŝanĝojn el la fonta deponejo spuras:
+Sekve, na *remote* kiu nomiĝas *upstream* kreu kiun la ŝanĝojn el la fonta
+deponejo spuras:
 
     $ git remote add upstream git@github.com:vakelo/foobar.git
 
@@ -201,26 +202,26 @@ Nun ŝanĝojn al la dosieroj en ĉi tiu branĉo oni povas fari. Kiam la ŝanĝoj
 
     $ git push origin novopcioj
 
-Se oni volas, ke la ŝanĝojn la fonta deponejo kunfandas, je _Pull Request_ kreu per iri al la paĝo
-de la fonta deponejo, tiam je **Pull requests** klaku:
+Se oni volas, ke la ŝanĝojn la fonta deponejo kunfandas, na _Pull Request_ kreu per iri al la paĝo
+de la fonta deponejo, tiam na **Pull requests** klaku:
 
 ![Pull Requests](/bil/tirpetoj.png)
 
-En la sekva paĝo, je **New pull request** klaku:
+En la sekva paĝo, na **New pull request** klaku:
 
 ![New Pull Request](/bil/nova-tirpeto.png)
 
-Je **compare across forks** elektu:
+Na **compare across forks** elektu:
 
 ![Compare Across Forks](/bil/komparu-trans-forkoj.png)
 
-Maldekstre, sub la **base fork**-kampo, je **vakelo/foobar** elektu, kaj en la **base**-kampo,
+Maldekstre, sub la **base fork**-kampo, na **vakelo/foobar** elektu, kaj en la **base**-kampo,
 je **master** elektu.
 
-Dekstre, sub la **head fork**-kampo, je **memeho/foobar** elektu, kaj en la **compare**-kampo,
+Dekstre, sub la **head fork**-kampo, na **memeho/foobar** elektu, kaj en la **compare**-kampo,
 je **novopcioj** elektu.
 
-Tiam, je **Create pull request** klaku:
+Tiam, na **Create pull request** klaku:
 
 ![Create pull request](/bil/tirpeton-kreu.png)
 
@@ -242,7 +243,7 @@ Tiam puŝu al via deponejo:
 -------------------------------
 
 Se oni estas la proprulo de la fonta deponejo, kaj la ŝanĝojn el la kontribuantoj oni volas tiri, je
-**Pull requests** en la paĝo de la deponejo klaku:
+**Pull requests** en la paĝo de la deponejo klaku:
 
 ![Pull requests](/bil/tirpetoj.png)
 

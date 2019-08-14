@@ -3,7 +3,7 @@ Emakskonsiletoj 2-a: Seancoj kaj Pakoj
 
 <div class="center">Esperanto ▪ [English](/en/emacs-tips-2/)</div>
 <div class="center">la 20-an de Februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 4-an de Februaro 2019</div>
+<div class="center">Laste ĝisdatigita: la 14-an de Aŭgusto 2019</div>
 
 Ĉi tiu estas la daŭrigo de la serioj pri emaksaj konsiletoj. En ĉi tiu afiŝo, ni esploras seancan
 mastrumadon, pakojn, krommarĝenojn, kaj aliajn malgrandajn agrablajn aferojn.
@@ -73,7 +73,7 @@ al konservi la komandlinian historion. La jena estas la kodaĵo:
 -------------------------------
 
 Okazis multe da fojo, kiam mi volas permane konservi la staton de tiom da seancan informon kiun mi
-povas konservi. Mi volus konservi la bufrojn, etbufran historion, legosignojn, kaj je comint-reĝiman
+povas konservi. Mi volus konservi la bufrojn, etbufran historion, legosignojn, kaj comint-reĝiman
 historion. Por fari tiel, mi havas la jenan:
 
 ```lisp
@@ -147,7 +147,7 @@ alvenas konstruita kun emakso. Oni bezonas instali ĝin per `package-install`:
 
     M-x pi EN use-package EN
 
-Oni nun povas postuli ĝin je sekvajn uzadojn:
+Oni nun povas postuli ĝin per la sekva esprimo:
 
 ```lisp
 (require 'use-package)
