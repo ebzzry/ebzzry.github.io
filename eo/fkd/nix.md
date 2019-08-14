@@ -1720,5 +1720,3 @@ nix-repl> let y = x: ((f: (x (v: ((f f) v)))) (f: (x (v: ((f f) v))))); b = p: (
 
 nix-repl>
 ```
-
-_La paĝa rubando supre venis el [wallhaven](https://alpha.wallhaven.cc/wallpaper/751942)._
