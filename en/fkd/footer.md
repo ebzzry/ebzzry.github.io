@@ -6,7 +6,7 @@
 [Home](/en/) ▪ [About](/en/about/) ▪ [Quotes](/en/quotes/) ▪ [Reflections](/en/reflections/) ▪ [Source](https://github.com/ebzzry/ebzzry.github.io)
 </div>
 <div class="text-x-small">
-Created with [emem](https://github.com/ebzzry/emem)
+Created with [emem](https://github.com/ebzzry/emem) and [skeleton](https://github.com/ebzzry/skeleton)
 <div>
 
 <div class="text-x-small">
