@@ -241,4 +241,4 @@ unu kunfandita loko la agorddosieron igas aserteble pura. Por la restantajn difi
 Se giton vi uzas, la artikolo pri kiel ĝi mi uzas, eble ankaŭ plaĉas al vi. Ĝi
 troviĝas [ĉi tie](/eo/gito/).
 
-_Dankon al [Jakub JAREŠ](https://github.com/nohwnd) pro la korektoj._
+_Dank’ al [Jakub JAREŠ](https://github.com/nohwnd) pro la korektoj._
