@@ -1,16 +1,17 @@
-Setting up Racket Development in Emacs
+Setting up Scheme Development in Emacs
 ======================================
 
-<div class="center">[Esperanto](/eo/emakso-rakido/) ▪ English</div>
+<div class="center">[Esperanto](/eo/emakso-skimo/) ▪ English</div>
 <div class="center">September 29, 2013</div>
-<div class="center">Last updated: December 14, 2018</div>
+<div class="center">Last updated: August 26, 2019</div>
 
 >All the good ideas never lie under one hat.<br>
 >―Dale Turner
 
-In this article, I’ll discuss the easiest approach that I took to setup up
-a [Racket](https://racket-lang.org) development environment in Emacs. Take note, that this is not
-the only approach available—some did it in arguably better ways. In this article, I’ll try to
+In this article, I’ll discuss the easiest approach that I took to setup up a
+[Scheme](https://en.wikipedia.org/wiki/Scheme_(programming_language) )
+development environment in Emacs. Take note, that this is not the only approach
+available—some did it in arguably better ways. In this article, I’ll try to
 explain the shortest route that I took.
 
 
@@ -20,7 +21,7 @@ Table of contents
 - [Overview](#overview)
 - [Installation](#installation)
 - [Usage](#usage)
-  + [Racket buffer](#racketbuffer)
+  + [Scheme buffer](#schemebuffer)
   + [REPL buffer](#replbuffer)
 - [Closing remarks](#closing)
 
@@ -28,17 +29,16 @@ Table of contents
 <a name="overview"></a>Overview
 -------------------------------
 
-Editing Racket code with Emacs has traditionally been done by rudimentary modes that lacked
+Editing Scheme code with Emacs has traditionally been done by rudimentary modes that lacked
 flexibility. They were able to evaluate current definitions, last definitions, and entire buffers,
-for the most part. Unfortunately, that didn’t suffice with the way Racket dealt with things. A more
+for the most part. Unfortunately, that didn’t suffice with the way Scheme dealt with things. A more
 intelligent way of handling code, was needed.
 
 Fortunately, there is [Geiser](http://www.nongnu.org/geiser/). There are other major modes that try
 to do what Geiser does, but I became most comfortable with what Geiser offered. Some similar
 libraries can co-exist with Geiser, too. I tried those, but it became too complex, for me. I wound
-up just using Geiser. Also, as a semi-related note, I’m using Emacs to edit Racket code because I
-don’t know of any other editor that does it so well. I don’t use DrRacket, except when I need to use
-its nice GUI debugger.
+up just using Geiser. Also, as a semi-related note, I’m using Emacs to edit Scheme code because I
+don’t know of any other editor that does it so well.
 
 
 <a name="installation"></a>Installation
@@ -54,7 +54,7 @@ actual code that invokes and configures Geiser:
 ```lisp
 (require 'geiser)
 
-(setq geiser-active-implementations '(racket))
+(setq geiser-active-implementations '(mit))
 
 (defun geiser-save ()
   (interactive)
@@ -67,7 +67,7 @@ other implementations if it finds them. The last one is optional—it enables yo
     M-x geiser-save RET
 
 in the REPL buffer to force saving of the history to the disk file, which is found in
-`~/.geiser_history.racket`, by default. It is useful if you want to save your REPL session,
+`~/.geiser_history.mit`, by default. It is useful if you want to save your REPL session,
 immediately. Nothing is more horrifying than losing **THAT** expression. For all the Emacs code
 above, to take effect, you can evaluate them now using members of the EVAL troupe—`eval-defun`,
 `eval-last-sexp`, `eval-region`—or, you can still opt to respawn a new Emacs process.
@@ -76,24 +76,26 @@ above, to take effect, you can evaluate them now using members of the EVAL troup
 <a name="usage"></a> Usage
 --------------------------
 
-To reap what you sowed, create or open a `.rkt` file, with at least a proper module
-declaration. Then hit:
+To reap what you sowed, create or open a `.scm` file, with at least a proper
+module declaration. Then hit:
 
     M-x run-geiser RET
 
-And, boomshakalaka! A new (Emacs) window opens, containing the `* Racket REPL *` buffer. Whatever
-you can do with the REPL invoked with vanilla command-line `racket`, you can also do with this, and
-more. This major mode is actually Comint mode, under the hood, with hooks to a Racket process. For
-those of you who are unfamiliar with Comint mode, it is the same mode that handles `M-x shell RET`.
+And, boomshakalaka! A new (Emacs) window opens, containing the `* MIT REPL *`
+buffer. Whatever you can do with the REPL invoked with vanilla command-line
+`mit-scheme`, you can also do with this, and more. This major mode is actually
+Comint mode, under the hood, with hooks to a Scheme process. For those of you
+who are unfamiliar with Comint mode, it is the same mode that handles `M-x shell
+RET`.
 
-So, what can you do with it? While editing `.rkt` file, here are some of the usual shortcuts that I
+So, what can you do with it? While editing `.scm` file, here are some of the usual shortcuts that I
 use. The full list of keys are [available here](http://www.nongnu.org/geiser/geiser_5.html#Cheat-sheet).
 Take note, that the description of the keys that I use below, are for myself initially, to help me
 understand what they do. They may, or may not diverge from the official description, listed on the
 aforementioned link.
 
 
-### <a name="racketbuffer"></a> Racket buffer
+### <a name="schemebuffer"></a>Scheme buffer
 
 | Key                           | What it does                                            |
 | :---------------------------- | :------------------------------------------------------ |
@@ -109,7 +111,7 @@ aforementioned link.
 
 | Key                           | What it does                        |
 | :---------------------------- | :---------------------------------- |
-| <kbd>C-c</kbd> <kbd>C-z</kbd> | Switch to the Racket buffer         |
+| <kbd>C-c</kbd> <kbd>C-z</kbd> | Switch to the Scheme buffer         |
 | <kbd>M-p</kbd>                | Switch to the previous history item |
 | <kbd>M-n</kbd>                | Switch to the next history item     |
 | <kbd>C-c</kbd> <kbd>M-p</kbd> | Jump to previous prompt             |
@@ -123,4 +125,4 @@ aforementioned link.
 I have intentionally skipped many topics from the [official document](http://www.nongnu.org/geiser/)
 because it makes it unattractive to people who are averse to reading long blocks of text.
 Ironically, this article may even qualify as one. The methods described above are by in no way
-representative of community-advised ways of installing and using Racket with Emacs. Ciao!
+representative of community-advised ways of installing and using Scheme with Emacs. Ciao!

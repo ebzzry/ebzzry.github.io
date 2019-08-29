@@ -1,9 +1,9 @@
-Dosierujojn Mastrumi per Emakso
-===============================
+Dosierujojn Mastrumi en Emakso
+==============================
 
 <div class="center">Esperanto ▪ [English](/en/emacs-dired/)</div>
 <div class="center">la 12-an de Februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 14-an de Aŭguto 2019</div>
+<div class="center">Laste ĝisdatigita: la 26-an de Aŭguto 2019</div>
 
 >Supozi bonas, tamen eltrovi pli bonas.<br>
 >―Samuel CLEMENS

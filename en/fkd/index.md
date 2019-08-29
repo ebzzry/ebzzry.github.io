@@ -40,7 +40,7 @@ entries are sorted in reverse chronological order.</div>
 - [Creating Backups with Ugarit](ugarit/)
 - [Blogging with Frog](frog/)
 - [Setting up Mail in Emacs](emacs-mail/)
-- [Setting up Racket Development in Emacs](emacs-racket/)
+- [Setting up Scheme Development in Emacs](emacs-scheme/)
 - [Managing Directories in Emacs](emacs-dired/)
 - [Emacs Tips 1: Regions and Marks](emacs-tips-1/)
 - [In Retrospect](retrospect/)
