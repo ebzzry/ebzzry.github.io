@@ -3,7 +3,7 @@ Quotes
 
 <div class="center">[Esperanto](/eo/citajxoj/) ▪ English</div>
 <div class="center">August 29, 2015</div>
-<div class="center">Last updated: August 28, 2019</div>
+<div class="center">Last updated: August 31, 2019</div>
 
 <img src="/bil/wallhaven-77816-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -762,3 +762,7 @@ have collected over the years.
 
 
 - Mutation is not bad. Bad mutation is bad.<br>―Gwang-Jin Kim
+
+
+- All happy families resemble one another, each unhappy family is unhappy in its
+  own way.<br>—Leo Tolstoy, Anna Karenina
