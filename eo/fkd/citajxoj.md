@@ -3,7 +3,7 @@ Citaĵoj
 
 <div class="center">Esperanto ▪ [English](/en/quotes/)</div>
 <div class="center">la 15-an de Novembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 31-an de Aŭgusto 2019</div>
+<div class="center">Laste ĝisdatigita: la 6-an de Septembro 2019</div>
 
 <img src="/bil/wallhaven-77816-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -765,3 +765,6 @@ tra la jarojn ĉi tiu paĝo enhavas.
 
 - Ĉiuj feliĉaj familioj similas al unu la alia, ĉiuj malfeliĉa familio
   malfeliĉas en ĝia propra maniero.<br>—Leo TOLSTOY, Anna Karenina
+
+
+- Sekreton tri uloj povas gardi se du el ili estas mortaj.<br>―Benjameno FRANKLENO
