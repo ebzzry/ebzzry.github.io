@@ -3,7 +3,7 @@ Citaĵoj
 
 <div class="center">Esperanto ▪ [English](/en/quotes/)</div>
 <div class="center">la 15-an de Novembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 6-an de Septembro 2019</div>
+<div class="center">Laste ĝisdatigita: la 13-an de Septembro 2019</div>
 
 <img src="/bil/wallhaven-77816-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -768,3 +768,13 @@ tra la jarojn ĉi tiu paĝo enhavas.
 
 
 - Sekreton tri uloj povas gardi se du el ili estas mortaj.<br>―Benjameno FRANKLENO
+
+
+- Estas du kontraŭdiraj frapfrazoj: Unu estas ke daŭre fari la saman aferon kaj
+  anticipi malsaman rezulton estas la difino de frenezeco. Male, se komence oni
+  ne sukcesas, klopodu, klopodu denove. La ĉi tiun mi preferas tial, ke mi
+  ne deziras, ke oni rememoras min kiel la ulo kiu ne klopodis.<br>―Ted NELSON
+
+
+- Ekzistas du ebloj: Aŭ ni estas sola en la kosmo aŭ ni ne estas sola. Ambaŭ egale
+  timigegas.<br>―Arthur C. CLARKE

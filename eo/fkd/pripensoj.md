@@ -3,7 +3,7 @@ Pripensoj
 
 <div class="center">Esperanto ▪ [English](/en/reflections/)</div>
 <div class="center">la 3-an de Novembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 14-an de Aŭgusto 2019</div>
+<div class="center">Laste ĝisdatigita: la 14-an de Septembro 2019</div>
 
 Kelke da miaj propraj pripensoj ĉi tiu paĝo enhavas. La enskriboj estas
 ordigitaj laŭ kronologiordo.
@@ -342,13 +342,6 @@ ordigitaj laŭ kronologiordo.
 - Se ĉiom da doloro oni scias, oni fariĝas mastro de plezuro.<br>
 
 
-- Kiam kulto fariĝas populara, ĝi fariĝas religio.<br>
-
-
-- Se morto per mortiginjekto estis jam elpensita en la tempo de Jesuo, gigantaj injektiloj nun
-  pendus sur la altaroj de katolikaj preĝejoj.<br>
-
-
 - Gravajn decidojn neniam faru se oni malsatas, ebrias, koleras, lacas, vundiĝas, dormemas,
   drogiĝas, ĝojegas, aŭ malĝojegas.<br>
 
@@ -358,3 +351,6 @@ ordigitaj laŭ kronologiordo.
 
 
 - Forcedado ne samas al rezignado.<br>
+
+
+- La plej abomenaj specoj pekoj estas tiuj, kiuj sinprezentas bonfaraj.<br>

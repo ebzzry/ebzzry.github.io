@@ -3,7 +3,7 @@ Quotes
 
 <div class="center">[Esperanto](/eo/citajxoj/) ▪ English</div>
 <div class="center">August 29, 2015</div>
-<div class="center">Last updated: September 6, 2019</div>
+<div class="center">Last updated: September 13, 2019</div>
 
 <img src="/bil/wallhaven-77816-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -769,3 +769,13 @@ have collected over the years.
 
 
 - Three may keep a secret, if two of them are dead.<br>―Benjamin Franklin
+
+
+- There are two contradictory slogans: One is that continuing to do the same
+  thing and expecting a diffirent result is the definition of insanity. On the
+  other hand, if at first you don’t succeed, try, try again. I prefer the latter
+  because I don’t want to be remembered as the guy who didn’t.<br>―Ted Nelson
+
+
+- Two possibilities exist: Either we are alone in the Universe or we are
+  not. Both are equally terrifying.<br>―Arthur C. Clarke
