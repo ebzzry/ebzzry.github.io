@@ -3,7 +3,7 @@ Reflections
 
 <div class="center">[Esperanto](/eo/pripensoj/) ▪ English</div>
 <div class="center">November 24, 2015</div>
-<div class="center">Last updated: August 14, 2019</div>
+<div class="center">Last updated: September 14, 2019</div>
 
 This page contains contains some of my personal reflections. Entries are sorted in chronological order.
 
@@ -336,13 +336,6 @@ This page contains contains some of my personal reflections. Entries are sorted 
 - If you know all kinds of pain, you become master of pleasure.<br>
 
 
-- When a cult becomes mainstream, it becomes a religion.<br>
-
-
-- If execution by lethal injection was already invented in the time of Jesus, gigantic syringes
-  would be hanging on the altars of Catholic churches.<br>
-
-
 - Never make important decisions when you are hungry, drunk, angry, tired, injured, sleepy, drugged,
   ecstatic, or dismal.<br>
 
@@ -351,3 +344,7 @@ This page contains contains some of my personal reflections. Entries are sorted 
 
 
 - Letting go is not the same as giving up.<br>
+
+
+- The most abominable forms of evil are the ones that present itself as
+  benevolent.<br>
