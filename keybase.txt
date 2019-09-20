@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/ebzzry
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://ebzzry.io
+  * I am ebzzry (https://keybase.io/ebzzry) on keybase.
+  * I have a public key ASBRJJkULMAPiHjjOGwA-i8uCKeNareCCDLpPNHLZs8ryAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012093a3171ffd4da3109b52ae9c33c478633e63e47c7b7ead6708063c059d7aa78f0a",
+      "host": "keybase.io",
+      "kid": "0120512499142cc00f8878e3386c00fa2f2e08a78d6ab7820832e93cd1cb66cf2bc80a",
+      "uid": "10f12e8cac9266f8054448cad45a2419",
+      "username": "ebzzry"
+    },
+    "merkle_root": {
+      "ctime": 1568956864,
+      "hash": "644a9e7f5d0d34e16d7bc05698e565c94a751fc8655c3327c7a1836eaeab7bc120dcb6d8bf1135a608dc4e28a9aa9630d0ca8a0183ecc05a9065062b2382d306",
+      "hash_meta": "ccac0e8b83a006c00c3d1fac197a777c142e14773c68c0343b4768642930cb85",
+      "seqno": 7628243
+    },
+    "service": {
+      "entropy": "XHUqf4rzXQn4RS2F92hG2553",
+      "hostname": "ebzzry.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "4.1.0"
+  },
+  "ctime": 1568956880,
+  "expire_in": 504576000,
+  "prev": "41c49fdb9b2e652a152802d5e823d840de1248144be703bd3967d2773db879f8",
+  "seqno": 10,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgUSSZFCzAD4h44zhsAPovLginjWq3gggy6TzRy2bPK8gKp3BheWxvYWTESpcCCsQgQcSf25suZSoVKALV6CPYQN4SSBRL5wO9OWfSdz24efjEIAPO35j/msQvxqAgAZOVsxeZI0mvDam8g+czR2pK0nFtAgHCo3NpZ8RAVTxiH7nmkHfenN0X++fRwMUGIXKfwXI0E/A6BvJWPSuUdhy8Wpxn232xs4aOr2wkuND9LfJsqJoO/W4Yah2oCahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEICAziYIT69kqmpF4xISQFJj/y1HAEPEgUSm2FZvleosmo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/ebzzry
+
+==================================================================
