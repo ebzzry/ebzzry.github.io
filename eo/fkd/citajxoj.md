@@ -3,7 +3,7 @@ Citaĵoj
 
 <div class="center">Esperanto ▪ [English](/en/quotes/)</div>
 <div class="center">la 15-an de Novembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 13-an de Septembro 2019</div>
+<div class="center">Laste ĝisdatigita: la 28-an de Septembro 2019</div>
 
 <img src="/bil/wallhaven-77816-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -778,3 +778,14 @@ tra la jarojn ĉi tiu paĝo enhavas.
 
 - Ekzistas du ebloj: Aŭ ni estas sola en la kosmo aŭ ni ne estas sola. Ambaŭ egale
   timigegas.<br>―Arthur C. CLARKE
+
+
+- Laŭ multaj aspektoj, estas pli facile por malfacilan firmaon krei ol facilan
+  firmaon.<br>―Sam ALTMAN
+
+
+- Antaŭ ol oni enŝipiĝos por vojaĝo de venĝo, du tombojn fosu.<br>―Lillet
+  WALTERS
+
+
+- Klareco de penso antaŭvenas venas antaŭ klareco de lingvo.<br>―Ali ROWGHANI
