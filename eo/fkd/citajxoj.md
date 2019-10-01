@@ -3,7 +3,7 @@ Citaĵoj
 
 <div class="center">Esperanto ▪ [English](/en/quotes/)</div>
 <div class="center">la 15-an de Novembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 28-an de Septembro 2019</div>
+<div class="center">Laste ĝisdatigita: la 1-an de Oktobro 2019</div>
 
 <img src="/bil/wallhaven-77816-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -680,7 +680,7 @@ tra la jarojn ĉi tiu paĝo enhavas.
 
 
 - La apudan elefanton ĉiu blinda viro priskribis
-  malsame.<br>―Malnovbaratproverbo
+  malsame.<br>―Malnova barata proverbo
 
 
 - Kelke da plej kernaj paŝoj en mensa kresko estas bazitaj ne simple pri novajn
@@ -789,3 +789,6 @@ tra la jarojn ĉi tiu paĝo enhavas.
 
 
 - Klareco de penso antaŭvenas venas antaŭ klareco de lingvo.<br>―Ali ROWGHANI
+
+
+- Se pacon oni deziras, pretiĝu por milito.<br>―Latina proverbo
