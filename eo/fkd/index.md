@@ -7,7 +7,7 @@ La Pensoj de Optimisto
 
 <img src="/bil/pluvis-1008x250.jpg" class="banner" alt="pluvis" title="En la vizaĝo de la kosmo, ni ĉiuj estas porĉiame infanoj." />
 
-<div class="text-right">Retejo pri komputiko, hominklinaĵoj, kaj hazardaĵoj. La
+<div class="text-right">Retejo pri komputado, hominklinaĵoj, kaj hazardaĵoj. La
 enskriboj estas ordigitaj laŭ inverskronologiordo.</div>
 
 - [Kiel Mi Ruliĝas per Gito](gito/)
