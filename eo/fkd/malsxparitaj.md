@@ -3,7 +3,7 @@ Malŝparitaj Malcedemoj
 
 <div class="center">Esperanto ▪ [English](/en/squandered/)</div>
 <div class="center">la 5-an de Decembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 18-an de Aprilo 2019</div>
+<div class="center">Laste ĝisdatigita: la 3-an de Oktobro 2019</div>
 
 >La unua paŝo por iri ien, estas decidi, ke oni ne restos kie oni estas.<br>
 >―J.P. MORGAN
@@ -44,7 +44,7 @@ Kiel prenkreskuloj, ni instruiĝas bridi nin ene kaĝoj, kiujn ni mem konstruis,
 senkuraĝigaj por vidi ĉi tiun monstran agon disfaldiĝi antaŭ niaj mallongaj vidkampoj ĉiutage. Ni
 tiras nin al solaj konfinadoj de niaj propraj dornaj dormoj. Ni fariĝas amaj de prediki dubon al
 niaj uloj. Kaj se nia propra speco faras la samon, ni vidas sentojn de atingeco. Tio ne nur estas
-horora, sed ankaŭ antaŭvideble stulta. Kiam ni estis ankoraŭ maljunaj, ni atingas eksteren al
+horora, sed ankaŭ antaŭvideble malsaĝa. Kiam ni estis ankoraŭ maljunaj, ni atingas eksteren al
 malplena spaco kaj kreas niajn proprajn eltrovojn. Ni eltrovas la aferojn, kiuj ne antaŭ estis
 instruataj al ni.
 
@@ -80,7 +80,7 @@ distingencojn kiam fore aspektata?
 
 Ŝajnas, ke nuntempe, ni malkonsentas respondi kelkajn demandojn, tamen ni revenas al la ideo, ke ni
 pridemandiĝas pri aferoj konsiderataj pli simplas ol gimnaziaj lecionoj. Estas kelkaj aferoj kiuj
-komunas al ni: ni timas vidi kiel socio eble reagas pri niaj agoj, kiel ajn stultaj aŭ gravaj niaj
+komunas al ni: ni timas vidi kiel socio eble reagas pri niaj agoj, kiel ajn malsaĝaj aŭ gravaj niaj
 agoj povas esti. Tamen, por la pli gravaj aferoj, ni prete miksiĝas tial, ke ni ne volas
 malakcepton. Plejmulto da ni feliĉas pensi kaj movi kun la grego, sen ia antaŭzorgo.
 
