@@ -3,7 +3,7 @@ Ziŝkonsiletoj 1-a: Alinomoj kaj Funkcioj
 
 <div class="center">Esperanto ▪ [English](/en/zsh-tips-1/)</div>
 <div class="center">la 26-an de Septembro 2018</div>
-<div class="center">Laste ĝisdatigita: la 14-an de Aŭgusto 2019</div>
+<div class="center">Laste ĝisdatigita: la 3-an de Oktobro 2019</div>
 
 >Malsaĝulo miras pri nekutimajn aferoj. Ŝagulo miras pri la kutimaj aferoj.<br>
 >―Konfuceo
@@ -36,7 +36,7 @@ estas difinitaj kiel parto de la agorddosiero, aŭ entekstitaj en la seanco.
 <a name="alinomoj"></a>Alinomoj
 -------------------------------
 
-Alinomoj estas tiuj beletaj stultaj aĵoj kiujn oni metas en la agorddosieroj kiuj bagatelajn unu
+Alinomoj estas tiuj beletaj malsaĝaj aĵoj kiujn oni metas en la agorddosieroj kiuj bagatelajn unu
 liniajn komandojn faras. Kelke da ili aspektas jene:
 
     alias ls="ls -F"
@@ -110,7 +110,7 @@ Por ĉiom da funkcioj montri, plenumu:
 -------------------------------
 
 La agorddosieron malpurigi per plenaj funciaj difinioj por ĉiu malgranda komando, kiun oni volas
-havi estas stulta. Anstataŭe, pli bonan manieron por tutmondajn alinomojn kaj malgrandajn funkciojn
+havi estas malŝaga. Anstataŭe, pli bonan manieron por tutmondajn alinomojn kaj malgrandajn funkciojn
 ni uzos. La dosieron `~/.zshenv` malfermu per la plej ŝatata redaktilo.
 
 La funkciojn, kiu la aliajn difinas, ni unue difinu:
