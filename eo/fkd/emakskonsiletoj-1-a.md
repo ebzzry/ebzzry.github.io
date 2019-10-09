@@ -1,5 +1,5 @@
-Emakskonsiletoj 1-a: Regionoj kaj Markoj
-========================================
+Emaksaj Konsiletoj 1-a: Regionoj kaj Markoj
+===========================================
 
 <div class="center">Esperanto ▪ [English](/en/emacs-tips-1/)</div>
 <div class="center">la 12-an de Februaro 2018</div>

@@ -1,11 +1,11 @@
-Ziŝkonsiletoj 1-a: Alinomoj kaj Funkcioj
-========================================
+Ziŝaj Konsiletoj 1-a: Alinomoj kaj Funkcioj
+===========================================
 
 <div class="center">Esperanto ▪ [English](/en/zsh-tips-1/)</div>
 <div class="center">la 26-an de Septembro 2018</div>
 <div class="center">Laste ĝisdatigita: la 3-an de Oktobro 2019</div>
 
->Malsaĝulo miras pri nekutimajn aferoj. Ŝagulo miras pri la kutimaj aferoj.<br>
+>Malsaĝulo miras pri nekutimaj aferoj. Ŝagulo miras pri la kutimaj aferoj.<br>
 >―Konfuceo
 
 Unu el la ĝuoj de ekskluzive labori sur la terminalsimulilo estas la laboron pri komandoj, dosieroj,

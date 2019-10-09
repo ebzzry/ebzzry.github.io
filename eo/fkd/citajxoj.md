@@ -3,7 +3,7 @@ Citaĵoj
 
 <div class="center">Esperanto ▪ [English](/en/quotes/)</div>
 <div class="center">la 15-an de Novembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 3-an de Oktobro 2019</div>
+<div class="center">Laste ĝisdatigita: la 9-an de Oktobro 2019</div>
 
 <img src="/bil/wallhaven-77816-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -792,3 +792,12 @@ tra la jarojn ĉi tiu paĝo enhavas.
 
 
 - Se pacon oni deziras, pretiĝu por milito.<br>―Latina proverbo
+
+
+- Ni prosperas per la opa agado de homoj kiuj siajn unuopajn naturdotojn
+  provizas.<br>―Robert GREENE
+
+
+- Nur per iu interna impulso—plezuro, amo—povas helpi nin por venki barojn,
+  prepari vojon, kaj levi nin el la mallarĝa grupeto en kiu la aliaj elpiedpasas
+  siajn dolorigatajn, kompatidajn ekzistaĵojn!<br>―Johann Wolfgang von GOETHE
