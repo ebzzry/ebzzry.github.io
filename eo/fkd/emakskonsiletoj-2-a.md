@@ -1,5 +1,5 @@
-Emakskonsiletoj 2-a: Seancoj kaj Pakoj
-======================================
+Emaksaj Konsiletoj 2-a: Seancoj kaj Pakoj
+=========================================
 
 <div class="center">Esperanto ▪ [English](/en/emacs-tips-2/)</div>
 <div class="center">la 20-an de Februaro 2018</div>
