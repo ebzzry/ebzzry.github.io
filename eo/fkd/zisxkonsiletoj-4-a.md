@@ -1,5 +1,5 @@
-Ziŝkonsiletoj 4-a: Ĝeneralhelpiloj
-==================================
+Ziŝaj Konsiletoj 4-a: Ĝeneralhelpiloj
+=====================================
 
 <div class="center">Esperanto ▪ [English](/en/zsh-tips-4/)</div>
 <div class="center">la 26-an de Septembro 2018</div>
