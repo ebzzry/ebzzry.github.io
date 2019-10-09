@@ -3,7 +3,7 @@ Quotes
 
 <div class="center">[Esperanto](/eo/citajxoj/) ▪ English</div>
 <div class="center">August 29, 2015</div>
-<div class="center">Last updated: October 1, 2019</div>
+<div class="center">Last updated: October 9, 2019</div>
 
 <img src="/bil/wallhaven-77816-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -792,3 +792,12 @@ have collected over the years.
 
 
 - If you want peace, prepare for war.<br>―Latin proverb
+
+
+- We thrive by the collective activity of people supplying their individual
+  talents.<br>―Robert Greene
+
+
+- Only some inner drive—pleasure, love—can help us overcome obstacles, prepare a
+  path, and lift us out of the narrow circle in which others tread out their
+  anguished, miserable existences!<br>―Johann Wolfgang von Goethe
