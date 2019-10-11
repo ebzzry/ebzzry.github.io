@@ -3,7 +3,7 @@ How I Roll with Git
 
 <div class="center">[Esperanto](/eo/gito/) ▪ English</div>
 <div class="center">July 28, 2019</div>
-<div class="center">Last updated: August 1, 2019</div>
+<div class="center">Last updated: October 11, 2019</div>
 
 >Conversely, those with persistence can ignore what others think. They can press
 >on in their own world, oblivious to the opinions of those around them.<br>
@@ -401,6 +401,7 @@ visible entry in the commit log.
       (fb!) "${self}" fb -f "$@" ;;
       (fbm) "${self}" fb! --msg-filter "$@" ;;
       (fbi) "${self}" fb! --index-filter "$@" ;;
+      (fbe) "${self}" fb! --env-filter "$@" ;;
 
       (rp) "${git}" rev-parse "$@" ;;
       (rph) "${self}" rp HEAD ;;
@@ -419,8 +420,12 @@ Whenever I want to completely remove a file from a repository, for example
 
     git fbi 'git rm --cached --ignore-unmatch file.dat' HEAD
 
-Either way, I run the following command to make sure that the changes appear in
-the remote repository:
+Whenever I want to change the email address in the commits, for example, to
+`cat@world.com`, I run the following command:
+
+    git fbe 'export GIT_AUTHOR_EMAIL="cat@world.com"; export GIT_COMMITTER_EMAIL="cat@world.com"' --tag-name-filter cat -- --branches --tags
+
+I then run the following command to make sure that the changes appear in the remote repository:
 
     git oo!
 
@@ -609,6 +614,7 @@ function git () {
       (fb!) "${self}" fb -f "$@" ;;
       (fbm) "${self}" fb! --msg-filter "$@" ;;
       (fbi) "${self}" fb! --index-filter "$@" ;;
+      (fbe) "${self}" fb! --env-filter "$@" ;;
 
       (rp) "${git}" rev-parse "$@" ;;
       (rph) "${self}" rp HEAD ;;
