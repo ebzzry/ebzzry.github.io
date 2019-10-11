@@ -3,7 +3,7 @@ Kiel Mi Ruliĝas per Gito
 
 <div class="center">Esperanto ▪ [English](/en/git/)</div>
 <div class="center">la 26-an de Julio 2019</div>
-<div class="center">Laste ĝisdatigita: la 14-an de Aŭgusto 2019</div>
+<div class="center">Laste ĝisdatigita: la 11-an de Oktobro 2019</div>
 
 >Male, tiuj kun senĉeseco povas malatenti kiujn aliaj pensas. Ion ajn ili povas
 >fari en ilia propra mondo senzorgeme al la opinioj de tiuj ĉirkaŭ ili.<br>
@@ -407,6 +407,7 @@ en la protokolo mi ne deziras havi.
       (fb!) "${self}" fb -f "$@" ;;
       (fbm) "${self}" fb! --msg-filter "$@" ;;
       (fbi) "${self}" fb! --index-filter "$@" ;;
+      (fbe) "${self}" fb! --env-filter "$@" ;;
 
       (rp) "${git}" rev-parse "$@" ;;
       (rph) "${self}" rp HEAD ;;
@@ -425,8 +426,12 @@ la jenan komandon mi plenumas:
 
     git fbi 'git rm --cached --ignore-unmatch dosiero.dat' HEAD
 
-Ambaŭmaniere, la jenan komandon mi uzas sekve, por certigi ke la ŝanĝoj aperas
-en la fora deponejo:
+Kiam ajn la retpoŝadreson mi volas ŝanĝi, ekzemple, al `kato@mondo.io`, la jenan
+komandon mi plenumas:
+
+    git fbe 'export GIT_AUTHOR_EMAIL="kato@mondo.io"; export GIT_COMMITTER_EMAIL="kato@mondo.io"' --tag-name-filter cat -- --branches --tags
+
+La jenan komandon mi tiam uzas sekve, por certigi ke la ŝanĝoj aperas en la fora deponejo:
 
     git oo!
 
@@ -615,6 +620,7 @@ function git () {
       (fb!) "${self}" fb -f "$@" ;;
       (fbm) "${self}" fb! --msg-filter "$@" ;;
       (fbi) "${self}" fb! --index-filter "$@" ;;
+      (fbe) "${self}" fb! --env-filter "$@" ;;
 
       (rp) "${git}" rev-parse "$@" ;;
       (rph) "${self}" rp HEAD ;;
