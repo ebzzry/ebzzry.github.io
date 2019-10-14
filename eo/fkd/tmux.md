@@ -3,7 +3,7 @@ Kiel Mi Ruliĝas per Tmux
 
 <div class="center">Esperanto ▪ [English](/en/tmux/)</div>
 <div class="center">la 26-an de Septembro 2018</div>
-<div class="center">Laste ĝisdatigita: la 14-an de Aŭgusto 2019</div>
+<div class="center">Laste ĝisdatigita: la 14-an de Oktobro 2019</div>
 
 >Furioza agado ne estas anstataŭaĵo de komprenado.<br>
 >―H.H. WILLIAMS
@@ -101,7 +101,7 @@ bind k send-keys C-l \; send-keys -R \; clear-history
 ```
 
 Ĉi tie, na <kbd>C-z x</kbd> kaj na <kbd>C-z &</kbd> mi rebindis por ke kiam fenestroj estas
-forigitaj la numerado aŭtomate ĝisdatigu. Permana transparo per <kbd>C-z r</kbd> estas alia alterna
+forigitaj la numerado aŭtomate ĝisdatigu. Mana transpaso pere de <kbd>C-z r</kbd> estas alia alterna
 havebla metodo.
 
 La klavojn <kbd>C-z x</kbd> kaj <kbd>C-z &</kbd> mi ankaŭ rebindis por panelojn kaj fenestrojn
