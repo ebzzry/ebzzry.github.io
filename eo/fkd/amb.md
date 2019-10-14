@@ -3,7 +3,7 @@ Milda Enkonduko al Nedeterminismo en Skimo
 
 <div class="center">Esperanto ▪ [English](/en/amb/)</div>
 <div class="center">la 24-an de Februaro 2019</div>
-<div class="center">Laste ĝisdatigita: la 14-an de Aŭgusto 2019</div>
+<div class="center">Laste ĝisdatigita: la 14-an de Oktobro 2019</div>
 
 >Kelke da plej kernaj paŝoj en mensa kresko estas bazitaj ne simple pri novajn kapablojn akiri, sed
 >pri novajn administrajn manierojn akiri por tion uzi, kion oni jam scias.<br>
@@ -421,7 +421,7 @@ kiu liveras na
 ----------------------------------
 
 Unu el la uzoj de la fama amb-operatoro en skimo estas por nedeterminisman programadon realigi per
-retroiĝado. Per tiu meĥanismo, la komputo povas iri al antaŭa stato; valorojn porti; ŝtatojn ŝanĝi;
+retroiĝado. Pere de tiu meĥanismo, la komputo povas iri al antaŭa stato; valorojn porti; ŝtatojn ŝanĝi;
 komputon eskapi; kaj pli.
 
 En ĉi tiu artikolo la amb-operatoron oni uzos por la retroiĝadan meĥanismon ebligi.
