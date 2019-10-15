@@ -3,7 +3,7 @@ Reflections
 
 <div class="center">[Esperanto](/eo/pripensoj/) ▪ English</div>
 <div class="center">November 24, 2015</div>
-<div class="center">Last updated: September 14, 2019</div>
+<div class="center">Last updated: October 15, 2019</div>
 
 This page contains contains some of my personal reflections. Entries are sorted in chronological order.
 
@@ -348,3 +348,8 @@ This page contains contains some of my personal reflections. Entries are sorted 
 
 - The most abominable forms of evil are the ones that present itself as
   benevolent.<br>
+
+
+- Never chase the unworthy and misleading goals. Rejoice, that there are
+  mountains, the sky, and the sea. Be happy and content, that you still breathe
+  air.<br>
