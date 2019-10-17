@@ -77,10 +77,10 @@ Fab ≡ &#40;λxy.y&#41;ab = b
 </code></pre><p>And the smallest unit of pair is:</p><pre><code class="scheme">&#40;λz.z00&#41; ≡ &#40;λz.z&#40;λsz.z&#41;&#40;λsz.z&#41;&#41;
 </code></pre><p>To select the first and second elements of a pair, you use <code>T</code> and <code>F</code>:</p><pre><code class="scheme">&#40;λz.zab&#41;&#40;λxy.x&#41; ≡ &#40;λz.zab&#41;T = Tab = a
 &#40;λz.zab&#41;&#40;λxy.y&#41; ≡ &#40;λz.zab&#41;F = Fab = b
-</code></pre><p>You need a function that takes a pair, then creates a new pair, wherein the first element is the successor of the second element.</p><pre><code class="scheme">Name: Q
+</code></pre><p>You need a function that takes a pair, then creates a new pair, wherein the first element is the successor of the input's first element and the second element is the input's first element.</p><pre><code class="scheme">Name: Q
 Profile: &#40;λpz.z&#40;S&#40;pT&#41;&#41;&#40;pT&#41;&#41;
 Inputs: &#40;a, b&#41;
-Outputs: &#40;S&#40;a&#41;, b&#41;
+Outputs: &#40;S&#40;a&#41;, a&#41;
 Usage: Q&#40;a,b&#41;
 </code></pre><p>Let’s test that out:</p><pre><code class="scheme">Q&#40;λz.z00&#41;
 ≡ &#40;λpz.z&#40;S&#40;pT&#41;&#41;&#40;pT&#41;&#41;&#40;λz.z00&#41;
