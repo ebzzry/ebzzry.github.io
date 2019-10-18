@@ -3,7 +3,7 @@ Synchronizing Sites with Usync
 
 <div class="center">[Esperanto](/eo/usync/) ▪ English</div>
 <div class="center">May 21, 2013</div>
-<div class="center">Last updated: January 13, 2019</div>
+<div class="center">Last updated: October 18, 2019</div>
 
 >What I cannot create, I do not understand.<br>
 >―Richard P. Feynman
@@ -92,4 +92,4 @@ Some files and regexes are baked in as exclusions. They make or make not make se
 they should be changed, feel free to send a pull request. The sources are
 available [here](https://github.com/ebzzry/usync).
 
-_Dankon al Raymund Martinez pro la provlegado._
+_Thanks to [Raymund Martinez](https://zhaqenl.github.io)  for the corrections._
