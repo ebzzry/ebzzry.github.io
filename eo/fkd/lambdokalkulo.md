@@ -3,7 +3,7 @@ Aboco de la Lambdokalkulo
 
 <div class="center">Esperanto ▪ [English](/en/lambda-calculus/)</div>
 <div class="center">la 21-an de Februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 20-an de Majo 2019</div>
+<div class="center">Laste ĝisdatigita: la 18-an de Oktobro 2019</div>
 
 >Oni ne vere komprenas ion krom se oni povas klarigi tion al sia avino.<br>
 >―Alberto EJNŜTEJNO
@@ -431,13 +431,13 @@ Por elekti la unuan kaj duan erojn de duo, oni uzas `T` kaj `F`:
 ```
 
 Oni bezonas funkcion kiu ricevas duon kaj kreas novan duon, en kiu, la unua ero estas la postanto de
-la dua ero:
+la unua ero de la enigo kaj la dua ero estas la unua ero de la enigo:
 
 ```scheme
 Nomo: Q
 Profilo: (λpz.z(S(pT))(pT))
 Enigoj: (a, b)
-Eligoj: (S(a), b)
+Eligoj: (S(a), a)
 Uzado: Q(a,b)
 ```
 
@@ -508,6 +508,8 @@ B11
 
 Oni simple ungogratis la tegon de la lambdokalkulo, tamen oni ĵus spektis ĝian vastegan espriman
 potencon, konsidere al kiel minimune la sistemo difinitas.
+
+_Dank’ al [Lucas Lugao](https://github.com/lucaslugao) pro la korektoj._
 
 
 <a name="fontindikoj"></a>Fontindikoj
