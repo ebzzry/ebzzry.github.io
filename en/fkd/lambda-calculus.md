@@ -3,7 +3,7 @@ A Lambda Calculus Primer
 
 <div class="center">[Esperanto](/eo/lambdokalkulo/) ▪ English</div>
 <div class="center">June 12, 2015</div>
-<div class="center">Last updated: March 3, 2018</div>
+<div class="center">Last updated: October 18, 2018</div>
 
 >You do not really understand something unless you can explain it to your grandmother.<br>
 >―Albert Einstein
@@ -440,13 +440,13 @@ To select the first and second elements of a pair, you use `T` and
 ```
 
 You need a function that takes a pair, then creates a new pair, wherein the first element is the
-successor of the second element.
+successor of the input’s first element and the second element is the input's first element:
 
 ```scheme
 Name: Q
 Profile: (λpz.z(S(pT))(pT))
 Inputs: (a, b)
-Outputs: (S(a), b)
+Outputs: (S(a), a)
 Usage: Q(a,b)
 ```
 
@@ -517,6 +517,8 @@ B11
 
 You’ve just scratched the surface of lambda calculus, but you have just witnessed its immense
 expressive power, considering how minimal the system is defined.
+
+_Thanks to [Lucas Lugao](https://github.com/lucaslugao) for the corrections._
 
 
 <a name="references"></a> References
