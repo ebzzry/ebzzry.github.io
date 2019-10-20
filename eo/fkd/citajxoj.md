@@ -3,7 +3,7 @@ Citaĵoj
 
 <div class="center">Esperanto ▪ [English](/en/quotes/)</div>
 <div class="center">la 15-an de Novembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 18-an de Oktobro 2019</div>
+<div class="center">Laste ĝisdatigita: la 19-an de Oktobro 2019</div>
 
 <img src="/bil/wallhaven-77816-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -804,3 +804,27 @@ tra la jarojn ĉi tiu paĝo enhavas.
 
 
 - Ludu laŭ viaj fortoj.<br>―proverbo
+
+
+- Se doloron kaj suferon oni jam renkontis estas pli facile por esti bonkore al
+  aliuloj. Esti bonkore ne estas malforto.<br>―Ryoji IKAJI, Neon Genesis
+  Evangelion
+
+
+- Homoj ne vere povas kompreni sin mem, malpli aliajn homojn. Kompri 100% da io
+  ajn maleblas. Tial ni uzas multe da tempo provi kompreni niajn proprajn
+  intencojn kaj tiujn de aliuolj.<br>―Ryoji IKAJI, Neon Genesis Evangelion
+
+
+- Vi havas ion kion vi povas fari; tion kion vi nur povas fari. Neniu devigas
+  vin. Pensu por vi mem kaj fari tiun decidon per vi mem. Pensu pri kion vi
+  devas fari nun. Pensu pri ne plu havi bedaŭrojn.<br>―Ryoji IKAJI, Neon Genesis
+  Evangelion
+
+
+- Sonorilo kiu ne povas sonori ne havas celon.<br>―Keel LORENZ, Neon Genesis Evangelion
+
+
+- Ie ajn povas esti paradizo tiel longe kiel oni deziras vivi; kaj pro tio ke li
+  vivas, tiel longe kiel li vivas, li havas ŝancon por atingi feliĉon.<br>―Neon
+  Genesis Evangelion
