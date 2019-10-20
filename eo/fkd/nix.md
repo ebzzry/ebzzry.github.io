@@ -993,7 +993,7 @@ oportunaj. La kompromiso, estas, ke la pakoj estas malaktualaj de iom da tagoj. 
 tio, tiam kanalojn uzi anstataŭ la gitkopion.
 
 Kanaloj estas etikeditaj `stable`, `unstable`, aŭ per specifa versinombro,
-ekzemple, `18.09` aŭ `19.03`. Por ĉi tiu artikolo, na `unstable` ni uzu—ĝi nek
+ekzemple, `18.09` aŭ `19.09`. Por ĉi tiu artikolo, na `unstable` ni uzu—ĝi nek
 estas tiel malaktuala kiel `stable` nek tiel ĵuŝa kiel la gitkopio. Por aboni al
 la `unstable`-kanalo, plenumu:
 

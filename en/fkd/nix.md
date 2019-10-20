@@ -996,7 +996,7 @@ convenient. The trade-off is that the packages will be out-of-date by a few days
 with it, then use channels instead of the git checkout.
 
 Channels are labeled `stable`, `unstable`, or with a specific version number,
-e.g., `18.09` or `19.03`. For this article, let’s use the unstable channel—it’s
+e.g., `18.09` or `19.09`. For this article, let’s use the unstable channel—it’s
 not as dated as stable, nor as recent as the git checkout. To subscribe to the
 unstable channel, run:
 
