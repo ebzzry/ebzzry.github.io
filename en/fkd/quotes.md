@@ -3,7 +3,7 @@ Quotes
 
 <div class="center">[Esperanto](/eo/citajxoj/) ▪ English</div>
 <div class="center">August 29, 2015</div>
-<div class="center">Last updated: October 18, 2019</div>
+<div class="center">Last updated: October 19, 2019</div>
 
 <img src="/bil/wallhaven-77816-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -804,3 +804,27 @@ have collected over the years.
 
 
 - Play to your strengths.<br>―proverb
+
+
+- If you’ve known pain and hardship it’s easier to be kind to others. Being kind
+  isn’t a weakness.<br>―Ryoji Ikaji, Neon Genesis Evangelion
+
+
+- People really can’t understand themselves, much less each other. Understanding
+  100% of anything is impossible. That’s why we spend so much time trying to
+  understand our own motivations and those of others.<br>―Ryoji Ikaji, Neon
+  Genesis Evangelion
+
+
+- You have something that you can do; that only you can do. Nobody is forcing
+  you. Think for yourself and make that decision by yourself. Think about what
+  you have to do now. Think about no longer having any regrets.<br>―Ryoji Ikaji,
+  Neon Genesis Evangelion
+
+
+- A bell that doesn’t ring has no purpose.<br>―Keel Lorenz, Neon Genesis Evangelion
+
+
+- Anywhere can be heaven as long as you try to live; and because he’s alive, for
+  as long as he lives, he will have a chance to attain happiness.<br>―Neon
+  Genesis Evangelion
