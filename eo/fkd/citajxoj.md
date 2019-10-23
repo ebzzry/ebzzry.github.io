@@ -3,7 +3,7 @@ Citaĵoj
 
 <div class="center">Esperanto ▪ [English](/en/quotes/)</div>
 <div class="center">la 15-an de Novembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 19-an de Oktobro 2019</div>
+<div class="center">Laste ĝisdatigita: la 23-an de Oktobro 2019</div>
 
 <img src="/bil/wallhaven-77816-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -828,3 +828,6 @@ tra la jarojn ĉi tiu paĝo enhavas.
 - Ie ajn povas esti paradizo tiel longe kiel oni deziras vivi; kaj pro tio ke li
   vivas, tiel longe kiel li vivas, li havas ŝancon por atingi feliĉon.<br>―Neon
   Genesis Evangelion
+
+
+- Sukcesa edziĝo estas unuiĝo inter du pardonemaj homoj.<br>―Norma Reynoso REYES
