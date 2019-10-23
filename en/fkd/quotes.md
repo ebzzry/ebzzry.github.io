@@ -3,7 +3,7 @@ Quotes
 
 <div class="center">[Esperanto](/eo/citajxoj/) ▪ English</div>
 <div class="center">August 29, 2015</div>
-<div class="center">Last updated: October 19, 2019</div>
+<div class="center">Last updated: October 23, 2019</div>
 
 <img src="/bil/wallhaven-77816-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -828,3 +828,7 @@ have collected over the years.
 - Anywhere can be heaven as long as you try to live; and because he’s alive, for
   as long as he lives, he will have a chance to attain happiness.<br>―Neon
   Genesis Evangelion
+
+
+- A successful marriage is a union between two forgiving people.<br>―Norma
+  Reynoso Reyes
