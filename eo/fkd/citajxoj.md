@@ -3,7 +3,7 @@ Citaĵoj
 
 <div class="center">Esperanto ▪ [English](/en/quotes/)</div>
 <div class="center">la 15-an de Novembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 23-an de Oktobro 2019</div>
+<div class="center">Laste ĝisdatigita: la 30-an de Oktobro 2019</div>
 
 <img src="/bil/wallhaven-77816-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -826,8 +826,24 @@ tra la jarojn ĉi tiu paĝo enhavas.
 
 
 - Ie ajn povas esti paradizo tiel longe kiel oni deziras vivi; kaj pro tio ke li
-  vivas, tiel longe kiel li vivas, li havas ŝancon por atingi feliĉon.<br>―Neon
-  Genesis Evangelion
+  vivas, tiel longe kiel li vivas, li havas ŝancon por atingi feliĉon.<br>―Yui
+  Ikari, Neon Genesis Evangelion
 
 
 - Sukcesa edziĝo estas unuiĝo inter du pardonemaj homoj.<br>―Norma Reynoso REYES
+
+
+- Estas malpleneco ene la plej kerna parto de niaj animoj—fundamenta malpleneco
+  kiu hantis ĉiujn estojn ekde la plej unua epoko. Sur praa nivelo, homo ĉiam ja
+  estis konscia pri la mallumeco kiu loĝas ĉe la kerno de sia menso. Ni deziris
+  eskapi el ĉi tiu malpleneco kaj la timo kiun ĝi kaŭzas, kaj ĉio da atingoj de
+  homaro estis faritaj sur la espero de plenigi ĝin.<br>―Ritsuko AKAGI, Neon
+  Genesis Evangelion
+
+
+- Tiu kiu meritas travivi estas tiu kiu havas la deziron por tion
+  ebligi.<br>Misato KATSURAGI, Neon Genesis Evangelion
+
+
+- La vero estas subjektiva, tial, oni apenaŭ povas diri tion kion oni povas
+  senti kiel efektivaĵo<br>―Ritsuko AKAGI, Neon Genesis Evangelion
