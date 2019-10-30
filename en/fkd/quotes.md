@@ -3,7 +3,7 @@ Quotes
 
 <div class="center">[Esperanto](/eo/citajxoj/) ▪ English</div>
 <div class="center">August 29, 2015</div>
-<div class="center">Last updated: October 23, 2019</div>
+<div class="center">Last updated: October 30, 2019</div>
 
 <img src="/bil/wallhaven-77816-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -826,9 +826,25 @@ have collected over the years.
 
 
 - Anywhere can be heaven as long as you try to live; and because he’s alive, for
-  as long as he lives, he will have a chance to attain happiness.<br>―Neon
-  Genesis Evangelion
+  as long as he lives, he will have a chance to attain happiness.<br>―Yui Ikari,
+  Neon Genesis Evangelion
 
 
 - A successful marriage is a union between two forgiving people.<br>―Norma
   Reynoso Reyes
+
+
+- There is an emptiness at the very core of our souls—a fundamental
+  incompleteness that has haunted all beings since the very first epoch. On a
+  primal level, man has always been aware of the darkness that resides at the
+  core of his mind. We have seeked to escape from this void and the fear it
+  causes, and all of men’s accomplishments were made in the hope of filling
+  it.<br>―Ritsuko Akagi, Neon Genesis Evangelion
+
+
+- The one who deserves to survive is the one who has the will to make it
+  happen.<br>―Misato Katsuragi, Neon Genesis Evangelion
+
+
+- Truth is subjective, therefore, you can barely tell that which you can feel as
+  fact.<br>―Ritsuko Akagi, Neon Genesis Evangelion
