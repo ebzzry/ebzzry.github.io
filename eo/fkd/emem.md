@@ -3,7 +3,7 @@ Konverti de Markdown al HTML per emem
 
 <div class="center">Esperanto ▪ [English](/en/emem/)</div>
 <div class="center">la 5-an de Aŭgusto 2018</div>
-<div class="center">Laste ĝisdatigita: la 14-an de Aŭgusto 2019</div>
+<div class="center">Laste ĝisdatigita: la 1-an de Decembro 2019</div>
 
 >Oni ne trovos la respondojn kiujn oni serĉas ĝis oni haltas serĉi ekster kaj komenciĝas serĉi ilin
 >el oni mem.<br>
@@ -13,7 +13,7 @@ Manieron por HTML-dokumentojn krei el miaj Markdown-dosieroj mi ĉiam volis. Kom
 HTML-dosierojn el miaj tekstaj dosieroj mi nur volis havi por ke ilin mi povu vidi per mia
 poŝtelefono. Poste, manieron por tiujn dosierojn krei por ke ilin mi povu alŝuti al la interreto
 kaj ilin vidi sur aliaj aparatoj. Jam ekzistas iloj por ja tion fari. Ilin mi provis, tamen min mem
-mi trovis la eligon ŝanĝi ofte nur por ilin igas akcepteblaj. Neniuj da ili konformiĝis al mia
+mi trovis la eligon ŝanĝi ofte nur por ilin igas akcepteblaj. Neniuj el ili konformiĝis al mia
 kriterio: facile por munti, facile por uzi, kaj decan eligon realigas.
 
 Na [emem](https://github.com/ebzzry/emem) mi skribis kiel respondo al tiuj bezonoj. Emem estas
@@ -64,8 +64,8 @@ La plej ĵusa versio estas `0.2.50`.
 <a name="uzado"></a>Uzado
 -------------------------
 
-Ĉe la plej baza nivelo, na emem simple kuras kontraŭ Markdown-dosiero, bazan, tamen plenan
-HTML-dosieron kun ĉiom da necesaj risurcoj por ĝusta paĝa montrado liveras. Na emem aplikante al
+Ĉe la plej baza nivelo, emem simple kuras kontraŭ Markdown-dosiero, bazan, tamen plenan
+HTML-dosieron kun ĉiom da necesaj risurcoj por ĝustan paĝan montradon liveras. Na emem aplikante al
 dosiero nomita `MINLEGU.md`:
 
     $ emem MINLEGU.md
@@ -92,9 +92,9 @@ MINLEGU.html
 MINLEGU.md
 ```
 
-La bezonon por apartan risurcan dosieron krei la `-s` opcio forigas, kaj ĉiom da bezonitaj risurcoj
-metas al la eliga dosiero igas al ĝi facila kaj helpema por la eligajn dokumentojn rigardi sur
-aparatoj kiel poŝtelefonoj kaj tabuletoj.
+La `-s` opcio forigas la bezonon por apartan risurcan dosieron krei, kaj na ĉiom
+da bezonitaj risurcoj metas al la eliga dosiero igas al ĝi facila kaj helpema
+por la eligajn dokumentojn rigardi sur aparatoj kiel poŝtelefonoj kaj tabuletoj.
 
 Tenu en la kalkulo, ke la dokumentotitolo ene la dosiero estos uzita kiel la baznomo de la
 dosiero. Do, de `MINLEGU.md`, na `<title>MINLEGU.md</title>` liveras en la HEAD-etikedo. Se la
@@ -111,7 +111,7 @@ tiam la unua linio funkcias kiel la dokumentotitolo. Por tiel fari, plenumu:
 
 na `<title>Foo Bar</title>` liveronte.
 
-Tio agrablas kaj dandas, sed nur rudimentan dokumenton oni nur volas krei sen ĉiom da ornamaĵoj, la
+Tio agrablas kaj dandas, sed se nur rudimentan dokumenton oni nur volas krei sen ĉiom da ornamaĵoj, la
 senornaman reĝimon uzu:
 
     $ emem -Rp MINLEGU.md
@@ -190,7 +190,7 @@ Kutime na emem mi kuras jene:
 
     $ emem -Fis dosiero.md
 
-Por ĉiom da subtenitaj opcioj vidi:
+Por na ĉiom da subtenitaj opcioj vidi:
 
     $ emem --help
 
@@ -213,4 +213,4 @@ Markdown-bufroj krei per
 kaj [emacs-w3m](https://www.emacswiki.org/emacs/emacs-w3m). Por na emem vidi en efektiva uzado,
 [ĉi tien](https://github.com/ebzzry/ebzzry.github.io/blob/master/makefile) iru.
 
-Se iom da Kloĵuron oni konas, [ĝin forku](https://github.com/ebzzry/emem/) kaj forkodumu!
+Se na iom da Kloĵuron oni konas, [ĝin forku](https://github.com/ebzzry/emem/) kaj forkodumu!

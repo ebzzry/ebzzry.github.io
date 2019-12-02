@@ -3,14 +3,15 @@ Sekurkopiojn Krei per Ugarit
 
 <div class="center">Esperanto ▪ [English](/en/ugarit/)</div>
 <div class="center">la 18-an de Februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 14-an de Aŭgusto 2019</div>
+<div class="center">Laste ĝisdatigita: la 2-an de Decembro 2019</div>
 
 >Bona juĝo devenas el sperto, kaj sperto devenas el malbona juĝo.<br>
 >―Fred BROOKS
 
-Kiom da fojoj oni spertis komprenon, post kiam katastrofo okazis? Kiom da fojoj oni diris al si mem,
-ke se oni kreis sekurkopiojn de siaj altvaloraj datumoj, oni ne devus esti en tiu terura situacio,
-eltirante sian hararon kiel rabia maniulo?
+Kiom da fojoj oni spertis komprenon post kiam okazis katastrofo? Kiom da fojoj
+oni diris al si mem, ke se oni kreis sekurkopiojn de siaj altvaloraj datumoj,
+oni ne devus esti en tiu terura situacio, eltirante sian hararon kiel rabia
+maniulo?
 
 Plejmulto da ni jam spertis ĝin—ni perdis niajn altvalorajn dosierojn pro malatentecaj kaŭzoj. Ni
 perdis ilin pro diskkraŝo, datuma putro, sekureca rompo, kaj aliaj kialoj. Tamen se oni kreis
@@ -231,7 +232,7 @@ Por ŝalti tre babileman eligon:
 -------------------------------------
 
 Kiam oni ne fidas al la funkciado de la disko kie oni enmemorigas la dosierkopiojn, malŝalti la
-locate- kaj updatedb-servojn. Estas kutime periode plenumis per cron. Metas multe da ŝarĝo sur la
+locate- kaj updatedb-servojn. Estas kutime periode plenumis per cron. Ĝi metas multe da ŝarĝo sur la
 disko kaj eble trostresi ĝin. La sperto povas varii.
 
 Por malŝalti tiujn servojn sur NixOS, aldonu la jenan al `/etc/nixos/configuration.nix`:
@@ -243,6 +244,6 @@ services.locate.enable = false;
 Grava averto menciinda estas ke pro la maniero kiel Ugarit funkcias, ne ekzistas forviŝi de
 dosierkopioj. La enmemoriga meĥanismo funkcias laŭe kiel Gito, nur tio ne ekzistas `rebase`-opcioj.
 
-Ugarit estas kreita de [Alaric Snell-Pym](http://www.snell-pym.org.uk/alaric/). Se oni volas lerni
-pli da informo de projekto, iru [ĉi tien](https://www.kitten-technologies.co.uk/project/ugarit/doc/trunk/README.wiki).
+Ugarit estas kreita de [Alaric SNELL-PYM](http://www.snell-pym.org.uk/alaric/). Se oni volas lerni
+pli da informo de la projekto, iru [ĉi tien](https://www.kitten-technologies.co.uk/project/ugarit/doc/trunk/README.wiki).
 Por raporti cimojn, iru [ĉi tien](https://www.kitten-technologies.co.uk/project/ugarit/reportlist).

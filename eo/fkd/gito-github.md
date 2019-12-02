@@ -3,7 +3,7 @@ Maldaŭra Rondvojaĝo de Gito kaj GitHub
 
 <div class="center">Esperanto ▪ [English](/en/git-github/)</div>
 <div class="center">la 11-an de Julio 2018</div>
-<div class="center">Laste ĝisdatigita: la 14-an de Aŭgusto 2019</div>
+<div class="center">Laste ĝisdatigita: la 2-an de Decembro 2019</div>
 
 >Ĉiujn solvitajn problemon sciu kiel solvi.<br>
 >―Richard P. FEYNMAN
@@ -39,7 +39,7 @@ En ĉi tiu artikolo, la inviton la `$` simbolo reprezentas. Por demonstradaj cel
 ### <a name="komenco"</a>Komenca uzo
 
 Por la aferojn plibonigi poste, na `.gitignore`-dosieron oni devas krei. La dosierojn kiuj estas
-ekskluditaj el la deponejo la _.gitignore_-dosiero precizigas. Kelke da ĉi tiuj estas duumaj
+ekskluditaj el la deponejo la _.gitignore_-dosiero precizigas. Multaj el ĉi tiuj estas duumaj
 dosieroj kaj eraraj mesaĝoj kiuj estis kreitaj dum kompiladoj.
 
 La tipon de projekto `.gitignore`-dosieroj specifas. Bona loko por precizigi tion, kion .gitignore
@@ -61,7 +61,7 @@ La gitan deponejon oni nun povas pravalorizi.
 
     $ git init
 
-Komence, ĉiom da dosieroj en la aktuala dosierujo aldonu:
+Komence, na ĉiom da dosieroj en la aktuala dosierujo aldonu:
 
     $ git add .
 
@@ -162,7 +162,7 @@ deponejo la `git push` komando alŝutas.
 
 ### <a name="deponejongxisdatigi"></a>La deponejon ĝisdatigi
 
-Kiam plu da ŝanĝo oni faris al la deponejo, la ŝanĝojn oni povas puŝi per la jena komando:
+Kiam na pli da ŝanĝo oni faris al la deponejo, la ŝanĝojn oni povas puŝi per la jena komando:
 
     $ git push origin master
 
