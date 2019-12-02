@@ -3,7 +3,7 @@ Virtualigado en Linukso per KVM
 
 <div class="center">Esperanto ▪ [English](/en/kvm/)</div>
 <div class="center">la 3-an de Marto 2018</div>
-<div class="center">Laste ĝisdatigita: la 14-an de Aŭgusto 2019</div>
+<div class="center">Laste ĝisdatigita: la 2-an de Decembro 2019</div>
 
 >Se tion oni faras, kion oni ĉiam faras; tion oni akiros, kion oni ĉiam akiras.<br>
 >―Anthony ROBBINS
@@ -183,7 +183,7 @@ Na virtualan NIC kreu, kaj VDE-retkonektadon ŝaltu.
 
     -soundhw all
 
-Ĉiom da aŭdiaj peliloj ŝaltu.
+Na ĉiom da aŭdiaj peliloj ŝaltu.
 
     -vga qxl
 

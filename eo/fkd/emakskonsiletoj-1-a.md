@@ -110,7 +110,7 @@ nur invitiĝos se la aktuala bufro ŝanĝiĝis.
 <a name="markoj"></a>Markoj
 ---------------------------
 
-Estis multe da fojo en la estinteco kiam mi bezonis funkcion kiu markas nur linion. Kiun mi havas
+Estis multe da fojoj en la estinteco kiam mi bezonis funkcion kiu markas nur linion. Kiun mi havas
 estas la jena. Ruli ĝin multfoje markas plurajn liniojn.
 
 ```lisp

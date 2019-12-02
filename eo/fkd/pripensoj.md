@@ -3,9 +3,9 @@ Pripensoj
 
 <div class="center">Esperanto ▪ [English](/en/reflections/)</div>
 <div class="center">la 3-an de Novembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 15-an de Oktobro 2019</div>
+<div class="center">Laste ĝisdatigita: la 2-an de Decembro 2019</div>
 
-Kelke da miaj propraj pripensoj ĉi tiu paĝo enhavas. La enskriboj estas
+Ĉi tiu paĝo enhavas kelke da miaj propraj pripensoj. La enskriboj estas
 ordigitaj laŭ kronologiordo.
 
 
@@ -190,8 +190,8 @@ ordigitaj laŭ kronologiordo.
   ekzistecon kvantigi, kvalitigi, kaj pravigi.<br>
 
 
-- La kerno de malkovri la estontecon ne estas kiel solvi pli da problemojn; estas kiel malkovri pli
-  da problemojn.<br>
+- La kerno de malkovri la estontecon ne estas kiel solvi pli da problemoj; estas
+  kiel malkovri pli da problemoj.<br>
 
 
 - Ni ne povas solvi tiujn, kiujn ni opinias, ne bezonas solvi.<br>
@@ -228,7 +228,7 @@ ordigitaj laŭ kronologiordo.
   akcepti.<br>
 
 
-- Ne gravas kiom da trejnado oni ricevas se oni volas naĝi tre profunde en la maro. Pulmojn oni ne
+- Ne gravas kiom da trejnado oni ricevas se oni volas naĝi tre profunde en la maron. Pulmojn oni ne
   povas lerni.<br>
 
 
@@ -247,7 +247,7 @@ ordigitaj laŭ kronologiordo.
 - La plej ŝatataj marionetoj de marionetuloj estas tiuj, kiuj volas esti marionetigitaj.<br>
 
 
-- En ĉiuj militoj, ĉiom da partoprenantoj vundiĝas.<br>
+- En ĉiuj militoj, vundiĝas ĉiom da partoprenantoj.<br>
 
 
 - En miaj propraj kvietoj, mi pensas se imanentan valoron la vivo havas. Ĉu la valoro de la vivo nur
@@ -339,7 +339,7 @@ ordigitaj laŭ kronologiordo.
   parolu. Tiam iĝas aŭdata oni.<br>
 
 
-- Se ĉiom da doloro oni scias, oni fariĝas mastro de plezuro.<br>
+- Se na ĉiom da doloro oni scias, oni fariĝas mastro de plezuro.<br>
 
 
 - Gravajn decidojn neniam faru se oni malsatas, ebrias, koleras, lacas, vundiĝas, dormemas,

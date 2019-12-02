@@ -3,7 +3,7 @@ Blogi per Frog
 
 <div class="center">Esperanto ▪ [English](/en/frog/)</div>
 <div class="center">la 16-an de Februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 14-an de Aŭgusto 2019</div>
+<div class="center">Laste ĝisdatigita: la 2-an de Decembro 2019</div>
 
 >Unu persono kun ardo pli bonas ol kvardek personoj nure interesataj.<br>
 >―E.M. FORSTER
@@ -15,7 +15,7 @@ de reklamoj aŭ la uzado de [parte senpagaj](https://en.wikipedia.org/wiki/Freem
 liberaj servoj, tiam mono bezonatas por aldonaj servoj.
 
 Eble oni disputas, ke ĉiuj, kiujn ĝi bezonas estas platformo por blogi, kaj ĝi ne bezonas la plian
-flekson. Estas bonfarte por iuj. Tamen multe da homo volas liberiĝi el la katenoj. Mi ne volas
+flekson. Estas bonfarte por iuj. Tamen multe da homoj volas liberiĝi el la katenoj. Mi ne volas
 vidi reklamojn sur mia retejo. Mi ne volas surprizajn cenzuradojn. Mi volas liberon. Do, se oni
 estas kiel mi, daŭru legi.
 
@@ -361,6 +361,6 @@ jes, malfermita kodo. Donas regon reen la verkisto. Bona ekzemplo de blogo funkc
 troveblas ĉe [https://ngnghm.github.io/](https://ngnghm.github.io/).
 
 Frog kreitas de [Greg HENDERSHOTT](http://www.greghendershott.com/). Se oni volas lerni pli
-da projekto, iru [ĉi tien](https://github.com/greghendershott/frog).
+pri da projekto, iru [ĉi tien](https://github.com/greghendershott/frog).
 
 🐸—Kva!

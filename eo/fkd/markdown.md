@@ -3,7 +3,7 @@ Mia Markdown-Stila Gvidilo
 
 <div class="center">Esperanto ▪ [English](/en/markdown/)</div>
 <div class="center">la 24-an de Septembro 2018</div>
-<div class="center">Laste ĝisdatigita: la 14-an de Aŭgusto 2019</div>
+<div class="center">Laste ĝisdatigita: la 2-an de Decembro 2019</div>
 
 >La reglamentoj kiuj direktas cirkonstancojn nuliĝis per novaj cirkonstancoj.<br>
 >―Napoleono BONAPARTE
@@ -217,7 +217,7 @@ Enhavotebelo
 --------------------------------
 
 De longe, estis bona ideo por la liniojn faldi ĝis la 70 kolumnon. Nuntempe, pli alta limo—ebligita
-per modernaj grafikaj sistemoj—estas pli dezirata por ke pli da informo ni povu enpaki en unu linio:
+per modernaj grafikaj sistemoj—estas pli dezirata por ke na pli da informo ni povu enpaki en unu linio:
 
 70 signoj:
 

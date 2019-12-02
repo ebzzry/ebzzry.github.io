@@ -3,7 +3,7 @@ Skriptado en Komunlispo
 
 <div class="center">Esperanto ▪ [English](/en/script-lisp/)</div>
 <div class="center">la 24-an de Septembro 2018</div>
-<div class="center">Laste ĝisdatigita: la 14-an de Aŭgusto 2019</div>
+<div class="center">Laste ĝisdatigita: la 2-an de Decembro 2019</div>
 
 >La lumo kiu fajras duoble brila, fajras duone longa.<br>
 >―D-ro. Eldon TYRELL, Blade Runner (1982)
@@ -36,10 +36,11 @@ signifo ankaŭ etendas al la aŭtomacioj de la plenumado de taskoj kiuj aliamani
 alia. En ĉi tiu artikolo, mallongan enkondukon pri kiel komunlispon uzi en la skriptada areo mi
 priparolos.
 
-Unu el la plej oftaj demandoj kiun mi ricevas kiam mi diras, ke skriptadon mi volas fari per
-komunlispo, estas, kiel tion mi eĉ volas fari kaj tio maleblas. La respondo simplas: pli da potenco
-kaj esprimpleneco mi volas havi. Maturan kaj nelimigitan lingvon mi volas havi. Lingvon kiu miajn
-ideojn povas esprimi en la malplej kiomo de froto mi volas havi.
+Unu el la plej oftaj demandoj kiun mi ricevas kiam mi diras, ke skriptadon mi
+volas fari per komunlispo, estas, kiel tion mi eĉ volas fari kaj tio
+maleblas. La respondo simplas: na pli da potenco kaj esprimpleneco mi volas
+havi. Maturan kaj nelimigitan lingvon mi volas havi. Lingvon kiu miajn ideojn
+povas esprimi en la malplej kiomo de froto mi volas havi.
 
 Skripto estas nur tiel potenca kiel la lingvo kaj iloj povus permesi. Baŝo kaj siaj amikoj,
 ekzemple, estas bonegaj por ideojn esprimi, tiel longe kiel komandojn oni maŝinskribas sur la komandlinio
@@ -47,11 +48,12 @@ mem. La konduton ene skripto ĝi imitas. Funkciojn oni povas difini por procedur
 estas tiel. Funkcioj en Baŝo ne estas ie proksimaj al la funkcioj en lingvoj kiel komunlispo. Kiel
 interaga uzantŝelo, ĝi funkcias bone; escepte tio, ne.
 
-Ekzistas aliaj skriptadaj solvoj en aliaj lingvoj. Haskelo, Pitono, Skimo, kaj Rubeno, kelke da ili
-nomante, ĝin havas. Tamen estas bona eblo de komunlispo, kiu estas malfacila por realigi aŭ ne
-ekzistas en aliaj aliroj: pro la skriptoj mem estas validaj komunlispaj programoj, la programojn mi
-povas ŝarĝi en la REPL kaj afablajn aferojn mi povas fari kun tio. Neniu venas proksima al la
-flekso, kiun komunlispo provizas interagante kun realtempaj kurantaj programoj.
+Ekzistas aliaj skriptadaj solvoj en aliaj lingvoj. Haskelo, Pitono, Skimo, kaj
+Rubeno, na kelke da ili nomante, ĝin havas. Tamen estas bona eblo de komunlispo,
+kiu estas malfacila por realigi aŭ ne ekzistas en aliaj aliroj: pro la skriptoj
+mem estas validaj komunlispaj programoj, la programojn mi povas ŝarĝi en la REPL
+kaj afablajn aferojn mi povas fari kun tio. Neniu venas proksima al la flekso,
+kiun komunlispo provizas interagante kun realtempaj kurantaj programoj.
 
 En ĉi tiu mallonga gvidilo, alian belan aĵon pri komunlispa skriptado mi ankaŭ tuŝetas: multvokaj
 duumdosieroj. Multvoka duumdosiero estas sola plenumebla dosiero kiu povas esti elreferencita per
@@ -67,8 +69,8 @@ faras. Komunlispe ĉi tio estas traktita de [cl-launch](https://github.com/fare/
 Skriptado en komunlispo funkcias super la lingvo, tio estas, en la formo de bibliotekoj kiuj la abstraktadojn disponigas por interagi kun la sistemo kaj la medio. [Utilities for Implementation- and OS- Portability (UIOP)](https://gitlab.common-lisp.net/asdf/asdf/tree/master/uiop)
 estas aro de abstraktadoj kiuj nin permesas por porteblan lispan kodon skribi. UIOP estas
 enkonstruita en ASDF3—kiu estas parto de la plejparto de komunlispaj realigoj—do ne ekzistas bezono por
-ĝin permane instali. Onin [inferior-shell](https://github.com/fare/inferior-shell) helpas por la
-procezojn mastrumi. Onin [cl-scripting](https://github.com/fare/cl-scripting) helpas por pli da rego.
+ĝin permane instali. [inferior-shell](https://github.com/fare/inferior-shell) helpas por la
+procezojn mastrumi. [cl-scripting](https://github.com/fare/cl-scripting) helpas por pli da rego.
 
 La programo `cl-launch` devas esti instalita sur la sistemo. Ĝi estos respondeca por la kreado de la multvoka duumdosiero mem. Por na `cl-launch` instali:
 
@@ -114,7 +116,7 @@ Tiam la dosieron `my-scripts.asd` ni kreu en tiu dosierujo. Por komenci, la jena
                "my-scripts/main"))
 ```
 
-Kelke da funkcioj kiunj ni bezonas, estas en ASDF 3.1, pro tio la tutan sistemon ni devas
+Kelke da funkcioj kiujn ni bezonas, estas en ASDF 3.1, pro tio la tutan sistemon ni devas
 kondiĉigi. La dependecojn sur `cl-scripting` ni deklaras, kiu kelkajn helpilojn provizas; kaj sur
 `inferior-shell`, kiu la aĵojn kiujn ni bezonas por la ŝelajn procezojn mastrumi provizas.
 
@@ -168,7 +170,7 @@ al UIOP ĉi tio kreas. En la klaŭzo `:USE`, la helpilojn de aliaj bibliotekoj n
 aŭ ne, ĉi tiu markilo efektive markas. Ĝi estos uzita de `REGISTER-COMMANDS` poste.
 
 Ĉi tie, kelkajn funkciojn ni difinas: `SYMLINK` respondecas pri la kreado de la simbolligiloj por la
-multvoka duumdosiero; kelke da bazuza informo `HELP` montras; kaj `MAIN` estas la enirejo de nia
+multvoka duumdosiero; na kelke da bazuza informo `HELP` montras; kaj `MAIN` estas la enirejo de nia
 skripto. La duumdosiero troveblos en `$HOME/bin/`. Por la procedon pri la kunmetado de la skripto
 kaj simbolligiloj plifaciligi, la kunmetadajn instrukciojn ni metos en Makefile. La dosieron
 `Makefile` en la aktuala dosierujo kreu, tiam la jenan metu:
