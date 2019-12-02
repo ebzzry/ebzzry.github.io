@@ -3,7 +3,7 @@ Milda Enkonduko al Sofismoj
 
 <div class="center">Esperanto ▪ [English](/en/fallacies/)</div>
 <div class="center">la 29-an de Julio 2018</div>
-<div class="center">Laste ĝisdatigita: la 14-an de Aŭgusto 2019</div>
+<div class="center">Laste ĝisdatigita: la 2-an de Decembro 2019</div>
 
 >Lerni ne necesas; nek travivas.<br>
 >―W. Edwards DEMING
@@ -64,7 +64,7 @@ dividitaj en du specoj—formalaj kaj neformalaj. Formalaj sofismoj, ankaŭ noma
 estas esprimitaj en sistemo kiel propozicia logiko. Neformalaj sofismoj estas eraroj en la enhavo de
 la premisoj.
 
-En ĉi tiu artikolo mi maldaŭre trairu pri kelka da sofismoj renkonitaj en niaj ĉiutagaj vivoj. Iom
+En ĉi tiu artikolo mi maldaŭre trairu pri kelkaj  sofismoj renkonitaj en niaj ĉiutagaj vivoj. Iom
 da ili kaŝitas en klaraj vidoj dum aliaj rampas en la anguloj kaj pli proksiman ekzamenon bezonas.
 
 
@@ -308,7 +308,7 @@ fortikan sperton li havas antaŭ ol tian kazostudon fari.
 <a name="populareco"></a>Apelo al populareco
 --------------------------------------------
 
-Ĉi tiu sofismo deklaras, ke se plejmulte da homoj—relativaj al la parolantoj—specifan pozicion
+Ĉi tiu sofismo deklaras, ke se plejmulto da homoj—relativaj al la parolantoj—specifan pozicion
 elektas, do tiu pozicio devas esti vera. La baza ideo estas aserto devas esti akceptita kiel vera
 sur la fundoj, ke la homoj estas aprobaj rilate al tiu aserto.
 
@@ -375,8 +375,9 @@ esti farita sur la fundoj, ke tradicias.
 <a name="devenoj"></a>Apelo al devenoj
 --------------------------------------
 
-Ĉi tiu fifaritas kiam antaŭsupozitas, ke pli da teniĝo aŭ pezo argumento aŭ parolanto de
-specifa deveno havas. Ĉi tio ofte rimarkitas en sociaj klasoj, biologiaj devenoj, kaj kulturoj.
+Ĉi tiu fifaritas kiam antaŭsupozitas, ke argumento aŭ parolanto de specifa
+deveno havas pli da teniĝo aŭ pezo . Ĉi tio ofte rimarkitas en sociaj klasoj,
+biologiaj devenoj, kaj kulturoj.
 
 > “Kaŭze de Panĉo devenas el malriĉa familio, kiam li elektiĝos prezidento, mi certas, ke li povas
 > helpi la kamparanojn kiel ni.”
@@ -522,7 +523,7 @@ A li asertas, sed poste kontraŭ-A.
 ------------------------------------------------
 
 Ĉi tio fifaritas kiam persvadan kaj fortan pruvmaterialon persono malhoneste malatentas, dum
-implikitan iun favoras kiu pli da demando altigas.
+implikitan iun favoras kiu na pli da demando altigas.
 
 > “La statuo de virgulino Maria en la monteto de Idjaj ploris per sango. Ŝi devis esti ploranta pro
 > la pekoj kiujn homaro kreas.”
@@ -563,6 +564,6 @@ malvalidigas. Ĉi tio rilatas al apelo al devenoj.
 <a name="finrimarkoj"></a>Finrimarkoj
 -------------------------------------
 
-Mi esperas, ke per ĉi tiu afiŝo, pli da pensada klareco mi povis doni.
+Mi esperas, ke per ĉi tiu afiŝo, na pli da pensada klareco mi povis doni.
 
 _Dank’ al [Raymund MARTINEZ](https://zhaqenl.github.io) pro la korektoj._

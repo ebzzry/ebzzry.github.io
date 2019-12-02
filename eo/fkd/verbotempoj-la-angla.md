@@ -3,7 +3,7 @@ Verbotempoj en La Angla
 
 <div class="center">Esperanto ▪ [English](/en/verb-tenses/)</div>
 <div class="center">la 15-an de Julio 2018</div>
-<div class="center">Laste ĝisdatigita: la 12-an de Aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 1-an de Decembro 2019</div>
 
 >La kontrasto inter ordinara kaj eksterordinara estas tiu eta pliaĵo.<br>
 >―Jimmy JOHNSON
@@ -168,5 +168,5 @@ montras.
 -------------------------------------
 
 Por ke la plej minimumajn malklaraĵojn ni komuniku, ni devas esti precizaj. Kiam la pravajn
-konstruojn ni uzas, malpligranda da ĉambro de miskompreno ni kreas. Estas la malgrandaj ŝanĝoj en la
+konstruojn ni uzas, malpligrandan ĉambron de miskompreno ni kreas. Estas la malgrandaj ŝanĝoj en la
 aferoj kiujn ni faras, kiuj grandajn kontrastojn faras.

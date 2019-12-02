@@ -3,7 +3,7 @@ Mia Kinezia Avantaĝa Aranĝo
 
 <div class="center">Esperanto ▪ [English](/en/advantage/)</div>
 <div class="center">la 12-an de Julio 2018</div>
-<div class="center">Laste ĝisdatigita: la 14-an de Aŭgusto 2019</div>
+<div class="center">Laste ĝisdatigita: la 2-an de Decembro 2019</div>
 
 >La doloro neeviteblas. La suferado malnepras.<br>
 >―M. Kathleen CASEY
@@ -25,15 +25,18 @@ margin-right: auto;" alt="Kinezia Avantaĝo" title="Kinezia Avantaĝo"/>
 <a name="superrigardo"></a>Superrigardo
 ---------------------------------------
 
-Unu el la plej bonaj investoj programisto povas havi estas bona klavaro. Kio bona klavaro
-konstituis, bedaŭrinde, fojfoje povas esti subjekto de debatoj. Komuna ero kiu daŭras en plejmulto
-da listoj, estas, klavaro devas esti ergonomia. Gravan kvaliton mi donos al tiuj listoj—rapideco. Ne
-gravas kiel ergonomie klavaro estas, se la rapidecan kategorion ĝi faligas. Ĝi devas esti komforta
-kaj rapida.
+Unu el la plej bonaj investoj programisto povas havi estas bona klavaro. Kio
+bona klavaro konstituis, bedaŭrinde, fojfoje povas esti subjekto de
+debatoj. Komuna ero kiu daŭras en plejmulto da listoj, estas, klavaro devas esti
+ergonomia. Gravan kvaliton mi donos al tiuj listoj—rapideco. Ne gravas kiel
+ergonomie klavaro estas, se la rapidecan kategorion ĝi faligas. Ĝi devas esti
+komforta kaj rapida.
 
-La [Kinezia Avantaĝo](https://www.manualslib.com/manual/739296/Kinesis-Advantage-Kb500usb.html) estas la epitomo de
-tia kategorio. Ĝi ergonomias kaj rapidas. Se oni jam estas rutinhava maŝinskribisto, oni
-povas trovi, ke post mallonga adaptiĝa tempodaŭro, oni eĉ maŝinskribas pli rapide per la Avantaĝo.
+La
+[Kinezia Avantaĝo](https://www.manualslib.com/manual/739296/Kinesis-Advantage-Kb500usb.html)
+estas la epitomo de tia kategorio. Ĝi ergonomias kaj rapidas. Se oni jam estas
+rutinhava maŝinskribisto, oni povas trovi, ke post mallonga adaptiĝa tempodaŭro,
+oni eĉ maŝinskribas pli rapide per la Avantaĝo.
 
 Bedaŭrinde, la defaŭlta aranĝo de la klavoj ne konvenas por mi. La <kbd>Ctrl</kbd> kaj la
 <kbd>Alt</kbd> klavoj estas tre foraj por atingi. Ĉi tio gravas por uzantoj de programaro kiel
@@ -60,7 +63,7 @@ malproksimas.
 <a name="poste"></a>Poste
 -------------------------
 
-Pro tio kelke da klavoj mi remapis. Jen la nova aranĝo.
+Pro tio na kelke da klavoj mi remapis. Jen la nova aranĝo.
 
 <a href="/bil/avantagxo-dvorako-1.png"><img src="/bil/avantagxo-dvorako-1.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="Remapigita softvara Dvorako" title="Remapigita softvara Dvorako"/></a>
 <div class="center">Figuro 1-2: Remapigita softvara Dvorako</div>
@@ -167,7 +170,8 @@ En la tempo de skribado, ĉi tion mi nek ankoraŭ scias kio kaŭzas nek sencebla
 La programebleco de la Kinezia Avantaĝo estas unu el ĝiaj plej fortaj kapabloj. Tio, kun ĝia
 frenezega fortikeco kaj la elstaraj ergonomioj la avantaĝon inda investo igas.
 
-Pli da kapablo ol tiu kiun mi havas la plej ĵusa
-model—[Advantage2](https://kinesis-ergo.com/shop/advantage2/)—havas. La funkciaj klavoj de ĉi tiu
-modelo nun meĥanikas. Se buĝeton oni havas, ĝin aĉetu! La [hejmpaĝon](https://www.kinesis-ergo.com/)
-de Kinezio oni povas viziti por pli da informo.
+Na pli da kapablo ol tiu kiun mi havas la plej ĵusa
+model—[Advantage2](https://kinesis-ergo.com/shop/advantage2/)—havas. La funkciaj
+klavoj de ĉi tiu modelo nun meĥanikas. Se buĝeton oni havas, ĝin aĉetu! La
+[hejmpaĝon](https://www.kinesis-ergo.com/) de Kinezio oni povas viziti por vidi
+pli da informo.

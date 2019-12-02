@@ -3,7 +3,7 @@ Signoj kaj Interpunkcioj
 
 <div class="center">Esperanto ▪ [English](/en/symbols-marks/)</div>
 <div class="center">la 16-an de Julio 2018</div>
-<div class="center">Laste ĝisdatigita: la 14-an de Aŭgusto 2019</div>
+<div class="center">Laste ĝisdatigita: la 2-an de Decembro 2019</div>
 
 >Se grandiozon oni volas atingi, konsentojn ĉesu peti.<br>
 >―Eddie COLLA
@@ -253,7 +253,8 @@ Unuoblaj citiloj uzatas kiam parolo estas enkorpigita ene alia parolo:
 
 - Li murmuris al si mem, “Mi opinias, ke li diris ‘Ne fareblas’ kiam ni interparolis hieraŭ.”
 
-Multe da uzo la desktra unuobla citilo aŭ pli ofte konata kiel apostrofo en la esperantujo, havas.
+La desktra unuobla citilo——pli ofte konata kiel apostrofo en la
+esperantujo—havas multe da uzo:
 
 La o-finaĝon substantivoj povas ellasi:
 

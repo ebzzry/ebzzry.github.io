@@ -3,7 +3,7 @@ Ziŝaj Konsiletoj 4-a: Ĝeneralhelpiloj
 
 <div class="center">Esperanto ▪ [English](/en/zsh-tips-4/)</div>
 <div class="center">la 26-an de Septembro 2018</div>
-<div class="center">Laste ĝisdatigita: la 14-an de Aŭgusto 2019</div>
+<div class="center">Laste ĝisdatigita: la 2-an de Decembro 2019</div>
 
 >Vidpunkto meritas okdek poentojn da inteligentecaj kvocientoj.<br>
 >―Alan KAY
@@ -183,8 +183,9 @@ funkcio.
 
 ### <a name="rm_pluso"></a>rm+
 
-Kiam arbon kiu multe da dosiero kaj dosierujo havas mi volas rapide forviŝi, la komandon `parallel`
-mi uzas por la forviŝadon plenumi paralele, anstataŭ serie. Ĝi estas difinita jene:
+Kiam ajn mi volas rapide forviŝi arbon kiu havas multe da dosiero kaj dosierujo,
+la komandon `parallel` mi uzas por la forviŝadon plenumi paralele, anstataŭ
+serie. Ĝi estas difinita jene:
 
 ```bash
 function rm+ () {
