@@ -34,7 +34,7 @@ mastrumadon, pakojn, krommarĝenojn, kaj aliajn malgrandajn agrablajn aferojn.
 
 Havenda ilo kiun mi nun uzas estas _Desktop_. Ĝi konservas la staton de la emaksa seanco, por ke en
 la okazo de kraŝo, kurenta malfunkcio, aŭ io kiu igas min perdi mian seancon, mi povu reiri al
-ĝi. Desktop enkonstruitas kun la plej ĵusaj versioj de emakso. La jena estas la kodaĵo:
+ĝi. Desktop enkonstruitas kun la plej ĵusaj versioj de emakso. La jeno estas la kodaĵo:
 
 ```lisp
 (require 'desktop)
@@ -72,7 +72,7 @@ al konservi la komandlinian historion. La jena estas la kodaĵo:
 <a name="kunfando"></a>Kunfando
 -------------------------------
 
-Okazis multe da fojo, kiam mi volas permane konservi la staton de tiom da seancan informon kiun mi
+Okazis multe da fojoj, kiam mi volas permane konservi la staton de tiom da seancan informon kiun mi
 povas konservi. Mi volus konservi la bufrojn, etbufran historion, legosignojn, kaj comint-reĝiman
 historion. Por fari tiel, mi havas la jenan:
 
@@ -186,7 +186,7 @@ granda la dosiero estas, kaj kie ni nune estas. Ŝalti `linum-mode` atingas tion
 <a name="tempindikoj"></a>Tempindikoj
 -------------------------------------
 
-Mi ofte bezonas meti tempindikojn, precipe kiam mi redaktas mian ĉiutagan protokoldosieron. La jena
+Mi ofte bezonas meti tempindikojn, precipe kiam mi redaktas mian ĉiutagan protokoldosieron. La jeno
 estas kelke da kodaĵo por helpi onin:
 
 ```lisp

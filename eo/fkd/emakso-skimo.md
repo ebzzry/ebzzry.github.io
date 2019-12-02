@@ -3,7 +3,7 @@ Skimprogramadon Agordi en Emakso
 
 <div class="center">Esperanto ▪ [English](/en/emacs-scheme/)</div>
 <div class="center">la 13-an de Februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 26-an de Aŭgusto 2019</div>
+<div class="center">Laste ĝisdatigita: la 2-an de Decembro 2019</div>
 
 >Ĉiom da bonaj ideoj ne kuŝas sub unu ĉapelo.<br>
 >―Dale TURNER
@@ -126,9 +126,11 @@ la antaŭmenciita ligilo.
 <a name="finrimarkoj"></a>Finrimarkoj
 -------------------------------------
 
-Mi laŭcele preterpasis multe da temo de la [oficialdokumento](http://www.nongnu.org/geiser/), tial
-ke, fariĝas malĉarma al multe da homo, kiuj malinklinas por legi longajn blokojn de
-teksto. Ironie, ĉi tiu artikolo povas kvalifi kiel tiu. La priskribitaj metodoj supre ne
-reprezentiĝas de konsilitaj manieroj, de la komunumo, de instali kaj uzi skimon emakse. Do, ĝis!
+Mi laŭcele preterpasis multe da temo de la
+[oficialdokumento](http://www.nongnu.org/geiser/) tial, ke fariĝas malĉarma al
+multe da homoj, kiuj malinklinas por legi longajn blokojn de teksto. Ironie, ĉi
+tiu artikolo povas kvalifi kiel tiu. La priskribitaj metodoj supre ne
+reprezentiĝas de konsilitaj manieroj, de la komunumo, de instali kaj uzi skimon
+emakse. Do, ĝis!
 
 _Dank’ al [Raymund MARTINEZ](https://zhaqenl.github.io) pro la korektoj._

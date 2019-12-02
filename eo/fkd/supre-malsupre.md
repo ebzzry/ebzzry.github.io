@@ -3,14 +3,14 @@ Supre, Malsupre, kaj Aliloke
 
 <div class="center">Esperanto ▪ [English](/en/over-under/)</div>
 <div class="center">la 2-an de Decembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 3-an de Februaro 2019</div>
+<div class="center">Laste ĝisdatigita: la 2-an de Decembro 2019</div>
 
 >La nuraj limoj kiujn oni havas, estas la limoj kiujn oni kredas.<br>
 >―Wayne DYER
 
 Nia ruza kapablo por preterlaso estas ridinde alta, ĉu solvi problemon aŭ simple provas esti
 krea. Niaj impetoj por troe realigi estas malkutime regaj se niaj komencaj atendoj ne satiĝis. Ni
-tiras niajn konsciojn al longaĵoj preskaŭ nesondeble ĉar ni pensas, ke se ni enverŝi multa da
+tiras niajn konsciojn al longaĵoj preskaŭ nesondeble ĉar ni pensas, ke se ni enverŝi multe da
 pensaĵo, la elveno estas pozitive kaj proporcie alta laŭ niaj konvinkoj.
 
 Ni plendas pri niaj mankoj de iloj. Ni plendas pri niaj mankoj de rimedoj. Tamen, ni miregas kaj
@@ -28,7 +28,7 @@ sen doni la plej malgrandan kvanton de penso, ni efektive kovris nin mem per kus
 dum faras ĉion tuj apuda el via ĉiela haŭto, ni malatentas ĉasi la intelektan sekurecon kaj ni donas
 al ni mem-aprobitajn paraŝutojn.
 
-Pli grave, ni ankaŭ malkovras, ke multe da homo radikale pozicias sin mem al senlimaj pozicioj. Ni
+Pli grave, ni ankaŭ malkovras, ke multe da homoj radikale pozicias sin mem al senlimaj pozicioj. Ni
 estas tre amaj por elpensi kaj nomizi etikedojn inter ni. Ni pensas, ke per movi nin mem al bunkroj
 de pensoj, ni konstruas supozojn, ke, pro la sekureco kiun nia bunkro disponigas, ni superis. El
 niaj desoksiribonukleaj acidoj, kiuj provizas al ni la informon kiu enhavas la kodon de tio, kio
@@ -40,7 +40,7 @@ kreskantajn dormon de scio. Ni bezonis trovi manieron por registri ilin ekster n
 konservata ie, en kiu, ektrakti la datumon estas unu el la plej kritikaj operacioj—ni skribis kaj
 kreis la enskribojn. Ni komencis skribi sur ŝtonoj, muroj, kaj iu ajn ke estus espereble daŭras
 enhavi kion ĝi devas, tra generacioj de legantoj. Ni ja konstruis kolosajn librejojn, kun gigantaj
-aroj de libroj. Per tio, ni konservis vastegan kvanton de rekordoj, kiuj estas preterprezega kion
+aroj de libroj. Per tio, ni konservis vastegan kvanton de rekordoj, kiuj estas preterprezega kiun
 ĉiom da cerboj de homoj povas enhavi. Tiam, la librejoj iĝis komputilaj datumbazoj. Ni faras jam
 alian paŝon en krei turajn dormojn de tio, kion niaj prauloj sciis, kaj tio, kion ni scias hodiaŭ en
 la nuna mondo. Tamen ambaŭ per intrigo kaj perturbo, ni vidas, ke ne eĉ niaj plej modernaj teĥnikoj
@@ -56,6 +56,6 @@ ekskluzive respondata ĉiam per jes aŭ ne, forlasi rin kaj ri ne plu meritas on
 oni ne scias la respondon, oni devas diri ke oni ne scias la respondon, anstataŭ fari trapezajn
 manovrojn sen iu por kapti oniajn manojn.
 
-Ofte, ni malatentas ke ĉiom da iloj kion ni bezonas, estas ĉeestantaj kun ni.
+Ofte, ni malatentas ke ĉiom da iloj kiun ni bezonas, estas ĉeestantaj kun ni.
 
 _Dank’ al [Raymund MARTINEZ](https://zhaqenl.github.io) pro la korektoj._
