@@ -3,15 +3,16 @@ Kiel Mi Ruliĝas per Tmux
 
 <div class="center">Esperanto ▪ [English](/en/tmux/)</div>
 <div class="center">la 26-an de Septembro 2018</div>
-<div class="center">Laste ĝisdatigita: la 14-an de Oktobro 2019</div>
+<div class="center">Laste ĝisdatigita: la 1-an de Decembro 2019</div>
 
 >Furioza agado ne estas anstataŭaĵo de komprenado.<br>
 >―H.H. WILLIAMS
 
-Samkiel redaktilo, terminalsimulila kunigilo estas unu el la malmultaj iloj kiu multe da
-produktiveco liveras ekde ĝin oni lernas kiel uzi. En ĉi artikolo pri parolos pri
-[tmux](https://github.com/tmux/tmux)—seanca mastrumilo, kunigilo, fenesadministrilo, kaj unu el la
-plej gravaj programaroj kiu la manieron en kiu komputadon mi faras ŝanĝis.
+Samkiel redaktilo, terminalsimulila kunigilo estas unu el la malmultaj iloj kiu
+na multe da produktiveco liveras ekde ĝin oni lernas kiel uzi. En ĉi artikolo
+pri parolos pri [tmux](https://github.com/tmux/tmux)—seanca mastrumilo,
+kunigilo, fenesadministrilo, kaj unu el la plej gravaj programaroj kiu la
+manieron en kiu komputadon mi faras ŝanĝis.
 
 
 <a name="et"></a>Enhavotabelo
@@ -54,7 +55,7 @@ donos.
 ----------------------------------
 
 Estas bona ideo por komenci de la pli ĝeneralaj fazoj de agordaĵo, moviĝonte al la plej
-specifaj. Iom da ĉi tiuj agordaĵoj ĉi tiu sekcio rigardos.
+specifaj. Na iom da ĉi tiuj agordaĵoj ĉi tiu sekcio rigardos.
 
 
 ### <a name="indeksoj"></a>Indeksoj
@@ -209,7 +210,7 @@ panelo marki.
 <a name="statbreto"></a>Statbreto
 ---------------------------------
 
-Multe da prisondo la statbreto donas, kaj ĝin ni povas tajlori. La mian mi agordis jene:
+Na multe da prisondo la statbreto donas, kaj ĝin ni povas tajlori. La mian mi agordis jene:
 
 ```
 set -g status-position bottom
@@ -278,8 +279,8 @@ daton en la dekstra parto montrante.
 <a name="kromprogramoj"></a>Kromprogramoj
 ----------------------------------------
 
-Kelke da kromprogramo mi uzas por mian agordon subteni. Ĝi ampleksiĝas de la kromprograma mastrumilo
-mem al tondeja regado. Jen la resumo.
+Na kelke da kromprogramo mi uzas por mian agordon subteni. Ĝi ampleksiĝas de la
+kromprograma mastrumilo mem al tondeja regado. Jen la resumo.
 
     set -g @plugin 'tmux-plugins/tpm'
 
@@ -306,7 +307,7 @@ al la tondejo.
 
 La konservitajn seancojn ĉi tio ŝarĝas dum la startigo kaj la kromprograman mastrumilon ŝarĝas.
 
-Por ĉiom da kromprogramoj instali, na <kbd>C-z I</kbd> premu.
+Por na ĉiom da kromprogramoj instali, na <kbd>C-z I</kbd> premu.
 
 
 <a name="zonoj"></a>Zonoj
@@ -349,7 +350,7 @@ Fine, na tmux reŝarĝi:
 
     $ tmux
 
-Se tmux plendas, ke iom da kromprogramoj mankas, na <kbd>C-z I</kbd> premu:
+Se tmux plendas, ke mankas iom da kromprogramoj, na <kbd>C-z I</kbd> premu:
 
 
 <a name="finrimarkoj"></a>Finrimarkoj

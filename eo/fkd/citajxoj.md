@@ -3,13 +3,13 @@ Citaĵoj
 
 <div class="center">Esperanto ▪ [English](/en/quotes/)</div>
 <div class="center">la 15-an de Novembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 30-an de Oktobro 2019</div>
+<div class="center">Laste ĝisdatigita: la 2-an de Decembro 2019</div>
 
 <img src="/bil/wallhaven-77816-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
 
 Liston de atenteme elektitaj citaĵoj, aforismoj, kaj sentencoj kiujn mi kolektis
-tra la jarojn ĉi tiu paĝo enhavas.
+tra la jarojn, ĉi tiu paĝo enhavas.
 
 
 - La aferoj kiujn oni volas malakcepti estas pli gravaj ol la aferoj kiujn oni
@@ -355,7 +355,7 @@ tra la jarojn ĉi tiu paĝo enhavas.
 
 - Treegaj agoj de krueleco postulas altan nivelon de kunsento. La sekvan fojon
   oni havas instinkton por helpi iun, oni devus pripensi por pisti ilin
-  anstataŭe. Konservos onin multe da ĝeno.<br>―Bedelia DU MAURIER, Hannibal
+  anstataŭe. Konservos multe da ĝeno por oni.<br>―Bedelia DU MAURIER, Hannibal
   (televida programo)
 
 
@@ -836,7 +836,7 @@ tra la jarojn ĉi tiu paĝo enhavas.
 - Estas malpleneco ene la plej kerna parto de niaj animoj—fundamenta malpleneco
   kiu hantis ĉiujn estojn ekde la plej unua epoko. Sur praa nivelo, homo ĉiam ja
   estis konscia pri la mallumeco kiu loĝas ĉe la kerno de sia menso. Ni deziris
-  eskapi el ĉi tiu malpleneco kaj la timo kiun ĝi kaŭzas, kaj ĉio da atingoj de
+  eskapi el ĉi tiu malpleneco kaj la timo kiun ĝi kaŭzas, kaj ĉiom da atingoj de
   homaro estis faritaj sur la espero de plenigi ĝin.<br>―Ritsuko AKAGI, Neon
   Genesis Evangelion
 

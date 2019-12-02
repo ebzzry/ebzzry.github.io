@@ -3,7 +3,7 @@ Milda Enkonduko al la Nix-Familio
 
 <div class="center">Esperanto ▪ [English](/en/nix/)</div>
 <div class="center">la 5-an de Aŭgusto 2018</div>
-<div class="center">Laste ĝisdatigita: la 14-an de Aŭgusto 2019</div>
+<div class="center">Laste ĝisdatigita: la 2-an de Decembro 2019</div>
 
 >Ne maltrankviliĝu pri tio, kion la aliaj faros. La plej bona maniero por la estontecon antaŭdiri
 >estas per tion eltrovi.<br>
@@ -60,13 +60,15 @@ Milda Enkonduko al la Nix-Familio
 <a name="enkonduko"></a>Enkonduko
 ---------------------------------
 
-Venas rare ideoj kiuj la manieron por komputado povas ŝanĝi. Multe da teĥnologio kiujn ni uzas nune
-nur estas ripetoj de la malnovaj—niveloj sur niveloj de kosmetikoj kiuj la malnovajn konceptojn
-ĉirkaŭkovras. Tutaj produktaj sistemoj estas bazitaj sur ĉi tiu manko de kreemo kaj
-lerteco. Malnovaj problemoj ne solvitas. Pentrante per novaj kolortonoj, la problemojn ĉi tiuj
-tielnomataj elpensemaj solvoj nure ĉirkaŭigas anstataŭe, pretendante ke almenaŭ, ĝin ili
-plikolorplenigis. Progreson ĉi tiu mensostato difektas en nekalkuleblaj manieroj. La falsan
-impreson, ke la solvoj fakte estas faritaj ĉi tio donas. Falsan senson de plibonigoj ĉi tio kreas.
+Venas rare ideoj kiuj la manieron por komputado povas ŝanĝi. Multe da teĥnologio
+kiujn ni uzas nune nur estas ripetoj de la malnovaj—niveloj sur niveloj de
+kosmetikoj kiuj la malnovajn konceptojn ĉirkaŭkovras. Tutaj produktaj sistemoj
+estas bazitaj sur ĉi tiu manko de kreemo kaj lerteco. Malnovaj problemoj ne
+solvitas. Pentrante per novaj kolortonoj, la problemojn ĉi tiuj tielnomataj
+elpensemaj solvoj nure ĉirkaŭigas anstataŭe, pretendante ke almenaŭ, ĝin ili
+plikolorplenigis. Progreson ĉi tiu mensostato difektas en nekalkuleblaj
+manieroj. La falsan impreson, ke la solvoj fakte estas faritaj ĉi tio
+donas. Falsan senson de plibonigoj ĉi tio kreas.
 
 Antaŭ multaj jaroj siajn semajn [paperojn](https://nixos.org/~eelco/pubs/)
 [Eelco DOLSTRA](https://nixos.org/~eelco/) skribis, en kiu, la radikalajn manierojn por programaron
@@ -83,15 +85,17 @@ pro la uzado de *sudo*.
 <a name="nixos"></a>NixOS
 -------------------------
 
-Kiom da fojo, difektitan sistemon oni havadis pro programaron oni ĝistadigis kiun aliaj komponantoj
-dependis? Kiom da malfruaj noktoj oni pasis por apon oni bezonis funkciigi pro ĝin la nova pako kiun
-oni instalis rompigis? Kiom da fojo, pro ĉagrenego, oni rezignis en la riparado de la sistemo kaj
-simple decidis por la sistemon reinstali el nulo. Datumdosierojn restaŭri facilas; sistemagordon de
-la lasta funkcia stato restaŭri, bedaŭrinde, estas unudirekta bileto al infero.
+Kiom da fojoj, difektitan sistemon oni havadis pro programaron oni ĝistadigis
+kiun aliaj komponantoj dependis? Kiom da malfruaj noktoj oni pasis por apon oni
+bezonis funkciigi pro ĝin la nova pako kiun oni instalis rompigis? Kiom da
+fojoj, pro ĉagrenego, oni rezignis en la riparado de la sistemo kaj simple
+decidis por la sistemon reinstali el nulo. Datumdosierojn restaŭri facilas;
+sistemagordon de la lasta funkcia stato restaŭri, bedaŭrinde, estas unudirekta
+bileto al infero.
 
 [NixOS](https://nixos.org) (niks▪oŭ▪es) estas linuksa distribuo kiu ĉi tiajn problemojn solvas per la
 determinismon de [Nix](https://nixos.org/nix) ekspluati kaj per unu deklaran agorddosieron uzi kiu
-ĉiom da agordaĵoj kaj alĝustigiloj tenas en unu loko—`/etc/nixos/configuration.nix`. Informon pri la
+na ĉiom da agordaĵoj kaj alĝustigiloj tenas en unu loko—`/etc/nixos/configuration.nix`. Informon pri la
 dosiersistemo, uzantoj, servoj, retagordo, enigaparatoj, kernaj parametroj, kaj pli ĉi tiu dosiero
 enhavas. Signifas, ke na _configuration.nix_ de iu oni povas preni kaj ĝian ekzaktan sistemagordon
 havu! En NixOS oni ne plu bezonas ludadi pri la tutsistemo por la agordo kiun oni
@@ -329,8 +333,9 @@ Na NixOS instalu al la disko:
 
     # nixos-install
 
-Na `/etc/nixos/configuration.nix` ĉi tiu komando analizas, asekurante, ke ne estas eraroj. Ĉiom da
-necesaj pakoj por kongrui al la specifo ĉi tiu komando elŝutos.
+Na `/etc/nixos/configuration.nix` ĉi tiu komando analizas, asekurante, ke ne
+estas eraroj. Na ĉiom da necesaj pakoj por kongrui al la specifo ĉi tiu komando
+elŝutos.
 
 Post kiam la instalo finiĝis, la sistemon repraŝarĝu.
 
@@ -662,7 +667,7 @@ nix-repl> (x: x) "hundo"
 "hundo"
 ```
 
-Por pli da amuzo aldoni, tiun funkcion ni nomu:
+Por na pli da amuzo aldoni, tiun funkcion ni nomu:
 
 ```nix
 nix-repl> idento = x: x
@@ -695,8 +700,8 @@ nix-repl> ve "mi" "vi"
 
 La modelo, estas, ke por aldonan parametron aldoni, la formon `name: ` uzu.
 
-Aroj, kiam uzitaj kun funkcioj, pli da potencaj abstraktadoj ŝaltas. Aron kiel argumento al funkcio
-ni povas doni, kiu la datumon ene tiu aro do uzos:
+Aroj, kiam uzitaj kun funkcioj, na pli da potencaj abstraktadoj ŝaltas. Aron
+kiel argumento al funkcio ni povas doni, kiu la datumon ene tiu aro do uzos:
 
 ```nix
 nix-repl> anaso = { a, b }: x: a + " " + b + x
@@ -756,7 +761,7 @@ nix-repl> birdo { a = "oro"; b = "argxento"; }
 "oroargxento"
 ```
 
-Por pli da flekso aldoni, la uzon de pseŭdo-«rest» argumentoj Nix subtenas. La funkcion
+Por na pli da flekso aldoni, la uzon de pseŭdo-«rest» argumentoj Nix subtenas. La funkcion
 ĉi-supre ni modifu:
 
 ```nix
@@ -914,7 +919,7 @@ sendependa, la originala marŝada grupo fariĝas nemodifita.
 
 La kazon de distribuo celita kiel pluruzanta produkta disvolva medio ni traktu. Kiam fajrfokson
 versio 100 oni instalas, la ĉefa duuma dosiero iras al aŭ `/usr/bin/firefox` aŭ
-`/usr/local/bin/firefox`. Sekve, la apon el tiu dosierindiko ĉiom da uzantoj povas aliri; Johano,
+`/usr/local/bin/firefox`. Sekve, la apon el tiu dosierindiko na ĉiom da uzantoj povas aliri; Johano,
 Mario, kaj Petro feliĉas. Bedaŭrinde, se ĝin Johano decidis aktualigi al versio 200, la sama apo
 kiun Mario kaj Petro uzas ankaŭ aktualiĝis! Tio ne estas bonaĵo se la malnovan version kiu funkcias
 al ili ili preferas! Onin Nix permesas por plurajn versiojn de programaro havi sen kolizioj al la
@@ -1028,11 +1033,11 @@ Por pakon malinstali, plenumu:
 
     $ nix-env -e emem
 
-Por ĉiom da instalitaj pakoj listigi, plenumu:
+Por na ĉiom da instalitaj pakoj listigi, plenumu:
 
     $ nix-env -q --installed
 
-Por ĉiom da haveblaj pakoj listigi, plenumu:
+Por na ĉiom da haveblaj pakoj listigi, plenumu:
 
     $ nix-env -q --available
 
@@ -1464,7 +1469,7 @@ enhavon ni kontrolu:
 
 Ĉi tio diras al ni la versio de Nixpkgs kanalojn uzanta en ĉi tiu profilo.
 
-Iri reen, ĉiom da identigiloj en la lokamplekso la deklaro `with pkgs` metas, ilin igas
+Iri reen, na ĉiom da identigiloj en la lokamplekso la deklaro `with pkgs` metas, ilin igas
 videblaj. `stdenv`, kiu estis menciita antaŭe, estas atribuaro kiu inter multaj aferoj, la
 identigilon `mkDerivation` enhavas. `mkDerivation`, sinsekve, estas funkcio kiu unu atribuaran
 argumenton akceptas. Onin mi memorigas, ke unu eron de argumento kiu estas atribuaro la kunigkrampoj
@@ -1639,7 +1644,7 @@ Alia grava ano de la Nix-familio estas [NixOps](https://nixos.org/nixops); onin 
 NixOS disponigi sur «nudmetalaj» sistemoj, virtualaj sistemoj, aŭ la nubo, per la uzo de deklara
 aliro kiu estas konata al ni. Ĝi eblas disponigi al *VirtualBox*, *Amazon EC2*,
 *Google Compute Engine*, *Microsoft Azure*, *Hetzner*, *Digital Ocean*, kaj *Libvirtd*. Iru al la
-[gvidilo](https://nixos.org/nixops/manual/) por pli da detalo.
+[gvidilo](https://nixos.org/nixops/manual/) por vidi pli da detalo.
 
 Fundajn detalojn pri generadoj, derivaĵoj, kaj efektivigadoj estis eliziadoj intence, en ĉi tiu
 artikolo. Ili povas fariĝi sekcio per si mem, aŭ ĉi tiun artikolon mi eblas ĝisdatigi por tiujn

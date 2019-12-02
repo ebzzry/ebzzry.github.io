@@ -45,7 +45,7 @@ drwxr-xr-x 3 vakelo users 4096 Sep 26 17:42 bildoj
 drwxr-xr-x 3 vakelo users 4096 Sep 26 05:39 filmoj
 ```
 
-Bone, nun, ke oni havas ĝin, kion oni povas fari per ĝi? Nu, la jena estas mallonga listo de tiuj,
+Bone, nun, ke oni havas ĝin, kion oni povas fari per ĝi? Nu, la jeno estas mallonga listo de tiuj,
 kiujn oni bezonas fari per gi. Notu, ke la fulmoklavoj en ĉi tiu artikolo usklecodistingas, krom se
 eksplicite esprimis alie.
 
