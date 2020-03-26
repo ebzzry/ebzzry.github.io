@@ -3,7 +3,7 @@ Reflections
 
 <div class="center">[Esperanto](/eo/pripensoj/) ▪ English</div>
 <div class="center">November 24, 2015</div>
-<div class="center">Last updated: March 17, 2020</div>
+<div class="center">Last updated: March 26, 2020</div>
 
 This page contains contains some of my personal reflections. Entries are sorted in chronological order.
 
@@ -356,3 +356,6 @@ This page contains contains some of my personal reflections. Entries are sorted 
 
 
 - If you are afraid of making mistakes, you’ll make more mistakes.<br>
+
+
+- When in doubt, doubt.<br>

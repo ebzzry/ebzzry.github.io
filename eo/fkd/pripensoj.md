@@ -3,7 +3,7 @@ Pripensoj
 
 <div class="center">Esperanto ▪ [English](/en/reflections/)</div>
 <div class="center">la 3-an de Novembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 17-an de Marto 2020</div>
+<div class="center">Laste ĝisdatigita: la 26-an de Marto 2020</div>
 
 Ĉi tiu paĝo enhavas kelke da miaj propraj pripensoj. La enskriboj estas
 ordigitaj laŭ kronologiordo.
@@ -361,3 +361,6 @@ ordigitaj laŭ kronologiordo.
 
 
 - Se erarojn oni timas fari, pli multajn erarojn oni faros.<br>
+
+
+- Kiam vi dubemas, dubu.<br>
