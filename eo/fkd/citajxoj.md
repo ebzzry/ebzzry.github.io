@@ -3,7 +3,7 @@ Citaĵoj
 
 <div class="center">Esperanto ▪ [English](/en/quotes/)</div>
 <div class="center">la 15-an de Novembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 2-an de Decembro 2019</div>
+<div class="center">Laste ĝisdatigita: la 10-an de Aprilo 2020</div>
 
 <img src="/bil/wallhaven-77816-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -847,3 +847,6 @@ tra la jarojn, ĉi tiu paĝo enhavas.
 
 - La vero estas subjektiva, tial, oni apenaŭ povas diri tion kion oni povas
   senti kiel efektivaĵo<br>―Ritsuko AKAGI, Neon Genesis Evangelion
+
+
+- Multajn rokojn oni devas forĵeti por ke diamantojn oni povu trovi.<br>―David BETHUNE
