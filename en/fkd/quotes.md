@@ -3,7 +3,7 @@ Quotes
 
 <div class="center">[Esperanto](/eo/citajxoj/) ▪ English</div>
 <div class="center">August 29, 2015</div>
-<div class="center">Last updated: October 30, 2019</div>
+<div class="center">Last updated: April 10, 2020</div>
 
 <img src="/bil/wallhaven-77816-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -848,3 +848,6 @@ have collected over the years.
 
 - Truth is subjective, therefore, you can barely tell that which you can feel as
   fact.<br>―Ritsuko Akagi, Neon Genesis Evangelion
+
+
+- You have to throw away a lot of rocks in order to find diamonds.<br>―David Bethune
