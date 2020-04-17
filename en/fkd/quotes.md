@@ -3,7 +3,7 @@ Quotes
 
 <div class="center">[Esperanto](/eo/citajxoj/) ▪ English</div>
 <div class="center">August 29, 2015</div>
-<div class="center">Last updated: April 10, 2020</div>
+<div class="center">Last updated: April 15, 2020</div>
 
 <img src="/bil/wallhaven-77816-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -851,3 +851,6 @@ have collected over the years.
 
 
 - You have to throw away a lot of rocks in order to find diamonds.<br>―David Bethune
+
+
+- The ignorance of one voter in a democracy impairs the security of all.<br>―John F. Kennedy
