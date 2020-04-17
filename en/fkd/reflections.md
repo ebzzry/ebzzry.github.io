@@ -346,7 +346,7 @@ This page contains contains some of my personal reflections. Entries are sorted 
 - Letting go is not the same as giving up.<br>
 
 
-- The most abominable forms of evil are the ones that present itself as
+- The most abominable forms of evil are the ones that present themselves as
   benevolent.<br>
 
 
