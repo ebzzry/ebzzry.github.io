@@ -3,16 +3,16 @@ Milda Enkonduko al la Nix-Familio
 
 <div class="center">Esperanto ▪ [English](/en/nix/)</div>
 <div class="center">la 5-an de Aŭgusto 2018</div>
-<div class="center">Laste ĝisdatigita: la 2-an de Decembro 2019</div>
+<div class="center">Laste ĝisdatigita: la 7-an de Majo 2020</div>
 
 >Ne maltrankviliĝu pri tio, kion la aliaj faros. La plej bona maniero por la estontecon antaŭdiri
->estas per tion eltrovi.<br>
+>estas por tion eltrovi.<br>
 >―Alan KAY
 
 <img src="/bil/wallhaven-751942-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-751942" title="wallhaven-751942"/>
 
 
-<a name="et"></a>Enhavotabelo
+<a name="et">Enhavotabelo</a>
 -----------------------------
 
 - [Enkonduko](#enkonduko)
@@ -57,7 +57,7 @@ Milda Enkonduko al la Nix-Familio
 - [Bonifiko](#bonifiko)
 
 
-<a name="enkonduko"></a>Enkonduko
+<a name="enkonduko">Enkonduko</a>
 ---------------------------------
 
 Venas rare ideoj kiuj la manieron por komputado povas ŝanĝi. Multe da teĥnologio
@@ -82,7 +82,7 @@ por la ŝelan inviton de la ĉefuzanto indiki. Estas fojoj kiam la
 pro la uzado de *sudo*.
 
 
-<a name="nixos"></a>NixOS
+<a name="nixos">NixOS</a>
 -------------------------
 
 Kiom da fojoj, difektitan sistemon oni havadis pro programaron oni ĝistadigis
@@ -113,7 +113,7 @@ povas ŝanĝiĝi per kutimaj manieroj; dediĉitaj programoj devas esti uzataj po
 arboj.
 
 
-### <a name="nixosinstalo"></a>Instalo
+### <a name="nixosinstalo">Instalo</a>
 
 Simplas instalo de NixOS. Por «nudmetalaj» sistemoj, instalilon de
 [nixos.org/nixos/download.html](https://nixos.org/nixos/download.html) elŝutu. Virtualmaŝinaj
@@ -126,12 +126,12 @@ diskbildoj ankaŭ haveblas de tiu paĝo. En mia lasta instalo, mi instalis per l
 - [LUKS](https://en.wikipedia.org/wiki/Linux_Unified_Key_Setup) super [LVM](https://en.wikipedia.org/wiki/Logical_volume_management)
 
 
-#### <a name="nixossxalti"></a>La maŝinon ŝalti
+#### <a name="nixossxalti">La maŝinon ŝalti</a>
 
 Praŝarĝu per la USB-poŝmemorilo en UEFI-reĝimo. Sur la ensaluta invito, ensalutu kiel `root`.
 
 
-#### <a name="nixosreto"></a>La reton agordi
+#### <a name="nixosreto">La reton agordi</a>
 
 Haveblajn retojn skanu:
 
@@ -142,7 +142,7 @@ Tiam, konektu al la preferata enkursigilo:
     # nmcli d wifi con PLDT name hejmo password sekreto
 
 
-#### <a name="nixosdiskoj"></a>La diskojn pretigi
+#### <a name="nixosdiskoj">La diskojn pretigi</a>
 
 La subdiskojn kreu:
 
@@ -191,7 +191,7 @@ La permutodosieron ŝaltu:
     # swapon /dev/vg/swap
 
 
-#### <a name="nixosinstali"></a>Instali al disko
+#### <a name="nixosinstali">Instali al disko</a>
 
 La bazagorddosieron kreu:
 
@@ -342,7 +342,7 @@ Post kiam la instalo finiĝis, la sistemon repraŝarĝu.
     # reboot
 
 
-### <a name="nixosagordajxo"></a>Agordaĵo
+### <a name="nixosagordajxo">Agordaĵo</a>
 
 Instalinte, la ekzistantan agordaĵon ĝisdatigi facilas. Ĉio kion oni devas fari estas la
 agorddosieron redakti tiam la sistemon rekunmetu:
@@ -359,7 +359,7 @@ tiam pasvorton por la uzanto kiun ni precizigis en `configuration.nix` agordu:
 Eliru de la ŝelo, tiam iru al la grafika fasado per <kbd>Alt+F7</kbd>, tiam ensalutu kiel `vakelo`.
 
 
-<a name="nix"></a>Nix
+<a name="nix">Nix</a>
 ---------------------
 
 La komponanto kiu la koron de NixOS kaj Nixpkgs fondas estas la [Nix](https://nixos.org/nix)-lingvo
@@ -382,7 +382,7 @@ nix-repl>
 Bazajn esprimojn ni elprovu.
 
 
-### <a name="nixsignovicoj"></a>Signovicoj
+### <a name="nixsignovicoj">Signovicoj</a>
 
 Samkiel en aliaj lingvoj, signovicoj taksas al si mem:
 
@@ -431,7 +431,7 @@ nix-repl> ''${x} ${y}''
 ```
 
 
-### <a name="nixnombroj"></a>Nombroj
+### <a name="nixnombroj">Nombroj</a>
 
 Bazaj aritmetikaj operacioj en Nix estas inkluzivitaj kun malgranda surprizo:
 
@@ -504,7 +504,7 @@ nix-repl> d 3
 ```
 
 
-### <a name="nixbuleaj"></a>Buleaj
+### <a name="nixbuleaj">Buleaj</a>
 
 Vereco kaj malvereco estas reprezentitaj de `true` kaj `false`:
 
@@ -532,7 +532,7 @@ false
 ```
 
 
-### <a name="nixlistoj"></a>Listoj
+### <a name="nixlistoj">Listoj</a>
 
 Listoj estas heterogenaj tipoj por seriaj valoroj enteni. Eroj estas apartigitaj per spacetoj:
 
@@ -572,7 +572,7 @@ nix-repl> builtins.elemAt [ 1 "hundo" true ] 1
 ```
 
 
-### <a name="nixaroj"></a>Aroj
+### <a name="nixaroj">Aroj</a>
 
 Grava datumstrukturo en Nix estas aroj. Ili estas paroj de ŝlosilvorto-valoro apartigitaj per
 punktokomoj:
@@ -605,7 +605,7 @@ nix-repl> rec { a = 0; b = "kato"; c = true; cx = (6 / 2); d = b; }.d
 ```
 
 
-### <a name="nixdosierindikoj"></a>Dosierindikoj
+### <a name="nixdosierindikoj">Dosierindikoj</a>
 
 En Nix ĉiom da dosierindikoj estas tradukitaj al absolutdosierindikoj. Se referencon al dosiero en
 la aktuala dosierujo oni faras:
@@ -636,7 +636,7 @@ error: syntax error, unexpected '.', at (string):1:1
 ```
 
 
-### <a name="nixfunkcioj"></a>Funkcioj
+### <a name="nixfunkcioj">Funkcioj</a>
 
 Ĉu eĉ ekzistas plezuro se ne estos verbojn por uzi kun ĉi tiuj substantivoj? Similecojn al aliaj
 lingvoj funkcioj en Nix kunhavas, ĝiajn unikajn trajtojn havante.
@@ -805,7 +805,7 @@ nix-repl> birdo { a = "A"; b = "B"; c = "X"; z = "Z"; }
 ```
 
 
-### <a name="nixlet"></a>Let
+### <a name="nixlet">Let</a>
 
 Onin la ŝlosilvorto `let` permesas por variablojn difini en lokamplekso. Ekzemple, por la
 identigilojn `x` kaj `y` igi videblaj nur en lokamplekso:
@@ -820,7 +820,7 @@ korpo de `let` ĝi markas. La `let` konstruo kondutas simile al la `let` ŝlosil
 programlingvoj kiel Lispo kaj Haskelo.
 
 
-### <a name="nixwith"></a>With
+### <a name="nixwith">With</a>
 
 Onin la ŝlosilvorto `with` permesas por arvalorojn demeti en amplekso:
 
@@ -834,7 +834,7 @@ Kio okazis ĉi tie, estas, ke la valoroj en tiu aro senvualiĝis por ilin dispon
 
 
 
-### <a name="nixkondicxesprimoj"></a>Kondiĉesprimoj
+### <a name="nixkondicxesprimoj">Kondiĉesprimoj</a>
 
 Kondiĉesprimoj estas faritaj per la `if` ŝlosilvorto. Similan formon de plimultaj lingvoj ĝi havas:
 
@@ -850,7 +850,7 @@ nix-repl> if false then "true" else if false then "true" else if false then "tru
 "false"
 ```
 
-### <a name="nixdosierenportoj"></a>Dosierenportoj
+### <a name="nixdosierenportoj">Dosierenportoj</a>
 
 La ideo de dosierojn enporti en Nix-esprimo estas subtile malsame al aliaj lingvoj. Enportoj en Nix
 intime rilatas al aroj. Supozante, ke la dosieron `ve.nix` ni havas, kiu la jenan enhavas:
@@ -902,7 +902,7 @@ La enkondukajn konceptojn de la Nix-lingvo ĉi tiu sekcio resumas. La ceteraj vi
 en la [gvidilo](https://nixos.org/nix/manual/#ch-expression-language).
 
 
-<a name="nixpkgs"></a>Nixpkgs
+<a name="nixpkgs">Nixpkgs</a>
 -----------------------------
 
 Nixpkgs (niks▪pa▪kej▪ĝes) estas kolekto de pakoj organizitaj kaj mastrumitaj per uzantoj
@@ -940,7 +940,7 @@ kontrolsumo de ĉiom da enigoj kiuj estis uzitaj por la pakon konstrui. La dosie
 `/nix/store/w4cr4j13lqzry2b8830819vdz3sdypfa-vim-8.0.0329/bin/vim`.
 
 
-### <a name="nixpkgsinstalo"></a>Instalo
+### <a name="nixpkgsinstalo">Instalo</a>
 
 Se na NixOS oni uzas ĉi tiun sekcion preterpasu tial, ke Nixpkgs iras kun ĝi. Por na Nixpkgs instali
 sur linukso aŭ makintoŝo, plenumu:
@@ -953,7 +953,7 @@ dosiero aldoni. Kiam novajn aperaĵojn de la ŝelo oni generas la komandoj speci
 haveblaj.
 
 
-### <a name="nixpkgsuzado"></a>Uzado
+### <a name="nixpkgsuzado">Uzado</a>
 
 Estas du manieroj por pakojn instali per Nixpkgs; la gita kopio, kiu estas la plej ĵusa versio,
 ĝisdatigita ĝis la lasta minuto, aŭ per kanalojn uzi. La
@@ -962,7 +962,7 @@ pako volas uzi, aŭ por uzantoj kiuj volas eltesti. [Kanaloj](https://nixos.org/
 estas esence kopioj de la gitdeponejo en antaŭ tempo.
 
 
-#### <a name="nixpkgsgito"></a>Gito
+#### <a name="nixpkgsgito">Gito</a>
 
 Okazas ofte ĝisdatigoj al la gitdeponejo—ĉi tiun artikolon legante,
 [novaj ŝanĝoj](https://github.com/nixos/nixpkgs/pulls/) estas faritaj al la ĉefarbo. Por la
@@ -991,14 +991,14 @@ Por la plej ĵusajn ŝanĝojn akiri el la gitdeponejo, plenumu:
     $ cd ~/nixpkgs && git pull origin master
 
 
-#### <a name="nixpkgskanaloj"></a>Kanaloj
+#### <a name="nixpkgskanaloj">Kanaloj</a>
 
 Pakojn instali per kanaloj pli agrablas tial, ke la komandoj por pakojn instali estas pli
 oportunaj. La kompromiso, estas, ke la pakoj estas malaktualaj de iom da tagoj. Se oni bonas pri
 tio, tiam kanalojn uzi anstataŭ la gitkopion.
 
 Kanaloj estas etikeditaj `stable`, `unstable`, aŭ per specifa versinombro,
-ekzemple, `18.09` aŭ `19.09`. Por ĉi tiu artikolo, na `unstable` ni uzu—ĝi nek
+ekzemple, `18.09` aŭ `20.03`. Por ĉi tiu artikolo, na `unstable` ni uzu—ĝi nek
 estas tiel malaktuala kiel `stable` nek tiel ĵuŝa kiel la gitkopio. Por aboni al
 la `unstable`-kanalo, plenumu:
 
@@ -1027,7 +1027,7 @@ referencitaj per ajna pako. Por ĝin purigi, plenumu:
     $ nix-collect-garbage
 
 
-#### <a name="nixpkgsaliaj"></a>Aliaj komandoj
+#### <a name="nixpkgsaliaj">Aliaj komandoj</a>
 
 Por pakon malinstali, plenumu:
 
@@ -1042,7 +1042,7 @@ Por na ĉiom da haveblaj pakoj listigi, plenumu:
     $ nix-env -q --available
 
 
-### <a name="nixpkgsagordajxo"></a>Agordaĵo
+### <a name="nixpkgsagordajxo">Agordaĵo</a>
 
 La dosiero `~/.nixpkgs/config.nix` estas Nix-esprimo, kiu estas legita per la Nix-komandoj. Ene,
 pakajn transpasojn oni povas precizigi—agordo kiu defaŭltajn agordojn uzurpas, kaj aliajn
@@ -1079,14 +1079,14 @@ programaroj kiuj malfermitkodajn permesilojn ne havas, aŭ programoj kiu la libe
 ne havas, mi volas esti kapabla por instali
 
 
-### <a name="nixpkgskontribui"></a>Kontribui
+### <a name="nixpkgskontribui">Kontribui</a>
 
 La kunlaborada modelo de Nixpkgs restas sur gito kaj GitHub. Por pakon kontributi aŭ ekzistantan
 pakon ĝisdatigi, la [Nixpkgs](https://github.com/nixos/nixpkgs/)-deponejon forku al la propra
 GitHub-konto. Novajn ŝanĝojn kreu en nova branĉo, tiam tirpeton kreu.
 
 
-#### <a name="nixpkgsgxisdatigi"></a>Ekzistantan pakon ĝisdatigi
+#### <a name="nixpkgsgxisdatigi">Ekzistantan pakon ĝisdatigi</a>
 
 La deponejon forkinte, la propran version de la deponejon klonu:
 
@@ -1226,7 +1226,7 @@ Fine, iru al la GitHub-deponeja [paĝo](https://github.com/nixos/nixpkgs), tiam 
 `nixos/nixpkgs:master` kaj `vakelo/nixpkgs:hello-2.11` kreu.
 
 
-#### <a name="nixpkgssendi"></a>Novan pakon sendi
+#### <a name="nixpkgssendi">Novan pakon sendi</a>
 
 La paŝoj por novan pakon sendi estas preskaŭ simila de novan ĝisdatigi, krom malmultaj aferoj.
 
@@ -1310,7 +1310,7 @@ Fine, iru al la GitHub-deponeja [paĝo](https://github.com/nixos/nixpkgs), tiam 
 `nixos/nixpkgs:master` kaj `vakelo/nixpkgs:tthsum-1.3.2` kreu.
 
 
-### <a name="nixpkgsnotoj"></a>Notoj
+### <a name="nixpkgsnotoj">Notoj</a>
 
 En ajna punkto dum la instalo de pako, la procezo estas interrompita, la pako ne estos instalita en
 duone bakita stato. La plej lasta paŝo de pakojn instali estas atoma. La sekreto, estas,
@@ -1328,14 +1328,14 @@ Por la ĉefuzantan kanalon ŝanĝi simila al tiu, kiu estis uzita antaŭe:
     $ sudo nix-channel --add https://nixos.org/channels/nixos-unstable nixos
 
 
-<a name="medioj"></a>Medioj
+<a name="medioj">Medioj</a>
 ---------------------------
 
 Medio estas maniero de Nix por komponantan izoladon provizi inter la sistemo kaj uzantoj. En NixOS,
 ekzistas tri medioj: sistemmedio, uzantmedio, kaj disvolvmedio.
 
 
-### <a name="sistemmedio"></a>Sistemmedio
+### <a name="sistemmedio">Sistemmedio</a>
 
 La sistemmedio estas modifita nur per la ĉefuzanto kiu ĝian valoron ĝi deklaras en
 `/etc/nixos/configuration.nix`. Ĝi estas listo, kiu la pakojn kiu disponebliĝos al ĉiuj uzantoj de
@@ -1358,7 +1358,7 @@ por Ziŝo kaj Vim, respektive.
 Parenteze, nur ekzistas sur NixOS la sistemmedio.
 
 
-### <a name="uzantmedio"></a>Uzantmedio
+### <a name="uzantmedio">Uzantmedio</a>
 
 La uzantmedio estas tiu, kiu estas uzita kiam ajn la komando `nix-env` estas uzita. Ekzemple,
 ziŝon instalante per nix-env:
@@ -1375,7 +1375,7 @@ disponebligas por Mario. Tamen, se gitkopion aŭ alian version de kanaloj kontra
 uzas, Mario uzas, tiam novan aperaĵon de ziŝo la alvoko de `nix-env` per Mario elŝutos.
 
 
-### <a name="disvolvmedio"></a>Disvolvmedio
+### <a name="disvolvmedio">Disvolvmedio</a>
 
 La tria medio, la dislovmedio, estas kreita per la uzo de nix-shell. La uzanton nix-shell
 permesas por sablujmediojn krei. La medio kreita estas izolita de la sistemo kaj kutimaj
@@ -1499,8 +1499,8 @@ Fortajn abstraktadajn meĥanismojn nix-shell donas al ni kiuj estas rigarditaj t
 fari en aliaj aliroj. La determinismajn kvalitojn de Nix ĝi ekspluatas, fortan avantaĝon kreante.
 
 
-<a name="surmetoj"></a> Surmetoj
---------------------------------
+<a name="surmetoj">Surmetoj</a>
+-------------------------------
 
 Estos tempoj en kiuj ŝanĝojn al la paksistemo oni devas fari, tamen ne pretas oni por iri tutfreneze
 kaj la gitdeponejon fuŝi. Ankaŭ estos tempoj en kiuj privatan deponejon oni volas havi, sed oni ne
@@ -1520,7 +1520,7 @@ Miajn surmetajn dosierojn mi strukturas en kiu ĉiu dosiero kongruas al unu pako
 volas ŝanĝi.
 
 
-### <a name="surmetojtranspasoj"></a> Transpasoj
+### <a name="surmetojtranspasoj">Transpasoj</a>
 
 Ekzemple, se oni volas certigi ke la dokumentaro por
 [Rakido](https://github.com/NixOS/nixpkgs/blob/master/pkgs/development/interpreters/racket/default.nix)
@@ -1556,7 +1556,7 @@ Kiam na Racket aŭ na Chromium oni instalas, tiuj agordoj estos legataj kaj efek
     $ nix-env -iA $(nix-channel --list | awk '{print $1}').racket
 
 
-### <a name="surmetojnovajpakoj"></a> Novaj pakoj
+### <a name="surmetojnovajpakoj">Novaj pakoj</a>
 
 La surmetan sistemon uzi por novajn pakojn krei estas ideala se la pakon oni ne volas doni al
 Nixpkgs, ĝin oni volos esti privata, aŭ novan infrastukturon oni volas aldoni sen la ekstran
@@ -1623,7 +1623,7 @@ Per tiuj du dosieroj, na _kapo_ oni nun povas instali:
     $ nix-env -iA $(nix-channel --list | awk '{print $1}').kapo
 
 
-<a name="finrimarkoj"></a>Finrimarkoj
+<a name="finrimarkoj">Finrimarkoj</a>
 -------------------------------------
 
 Potencajn ilojn por sistemojn kaj disvolvajn agordojn mastrumi facile Nix provizas. Fleksajn
@@ -1688,7 +1688,7 @@ La NixOS-fondiĝo estas registrita senprofitcela organizo; la
 [komunumo](https://nixos.org/nixos/community.html) kaj ĝin helpigu kreski!
 
 
-<a name="bonifiko"></a>Bonifiko
+<a name="bonifiko">Bonifiko</a>
 -------------------------------
 
 Jen la [ipsilonkombinatoro](/eo/ipsilono/) en Nix, aplikita al la faktoriala funkcio:

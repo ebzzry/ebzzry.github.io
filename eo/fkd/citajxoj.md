@@ -3,7 +3,7 @@ Citaĵoj
 
 <div class="center">Esperanto ▪ [English](/en/quotes/)</div>
 <div class="center">la 15-an de Novembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 15-an de Aprilo 2020</div>
+<div class="center">Laste ĝisdatigita: la 7-an de Majo 2020</div>
 
 <img src="/bil/wallhaven-77816-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -39,7 +39,7 @@ tra la jarojn, ĉi tiu paĝo enhavas.
 
 
 - Ne maltrankviliĝu pri tio, kion la aliaj faros. La plej bona maniero por la
-  estontecon antaŭdiri estas per tion eltrovi.<br>―Alan KAY
+  estontecon antaŭdiri estas por tion eltrovi.<br>―Alan KAY
 
 
 - La senscio pli ofte naskigas fidon ol scio faras: Tiuj, kiuj scias malmulte,

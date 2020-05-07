@@ -3,7 +3,7 @@ A Gentle Introduction to the Nix Family
 
 <div class="center">[Esperanto](/eo/nix/) ▪ English</div>
 <div class="center">March 22, 2017</div>
-<div class="center">Last updated: April 18, 2019</div>
+<div class="center">Last updated: May 7, 2020</div>
 
 >Don’t worry about what anybody else is going to do. The best way to predict the future is to
 >invent it.<br>
@@ -12,7 +12,7 @@ A Gentle Introduction to the Nix Family
 <img src="/bil/wallhaven-751942-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-751942" title="wallhaven-751942"/>
 
 
-<a name="toc"></a>Table of contents
+<a name="toc">Table of contents</a>
 -----------------------------------
 
 - [Introduction](#introduction)
@@ -57,7 +57,7 @@ A Gentle Introduction to the Nix Family
 - [Bonus](#bonus)
 
 
-<a name="introduction"></a>Introduction
+<a name="introduction">Introduction</a>
 ---------------------------------------
 
 Ideas that change the way we do computing come rarely. A lot of the technology that we are using now
@@ -81,8 +81,8 @@ the [EUID](https://en.wikipedia.org/wiki/User_identifier#Effective_user_ID) of a
 zero (0) due to the use of sudo.
 
 
-<a name="nixos"></a> NixOS
---------------------------
+<a name="nixos">NixOS</a>
+-------------------------
 
 How many times have you had a broken system because you upgraded a software that other components
 depended on? How many late night stays have you had because you had to make an application work,
@@ -110,7 +110,7 @@ respective m`~/.nix-profile/bin/`. These locations cannot be modified through no
 programs must be used to write to these trees.
 
 
-### <a name="nixosinstallation"></a> Installation
+### <a name="nixosinstallation">Installation</a>
 
 Installation of NixOS is straightforward. For bare-metal systems, download an installer
 from [nixos.org/nixos/download.html](https://nixos.org/nixos/download.html). VM images are
@@ -123,12 +123,12 @@ also available from that page. For my last installation, I installed with the fo
 - [LUKS](https://en.wikipedia.org/wiki/Linux_Unified_Key_Setup) over [LVM](https://en.wikipedia.org/wiki/Logical_volume_management)
 
 
-#### <a name="nixosboot"></a> Boot machine
+#### <a name="nixosboot">Boot machine</a>
 
 Boot from the USB drive in UEFI mode. On the login prompt, login as `root`.
 
 
-#### <a name="nixosnetworking"></a> Setup networking
+#### <a name="nixosnetworking">Setup networking</a>
 
 Scan for available networks:
 
@@ -139,7 +139,7 @@ Then, connect to the router of choice:
     # nmcli d wifi con Foobarbaz name Foo password supersecretkey
 
 
-#### <a name="nixosdisks"></a> Prepare disks
+#### <a name="nixosdisks">Prepare disks</a>
 
 Create the partitions:
 
@@ -188,7 +188,7 @@ Enable swap:
     # swapon /dev/vg/swap
 
 
-#### <a name="nixosinstall"></a> Install to disk
+#### <a name="nixosinstall">Install to disk</a>
 
 Create the base config:
 
@@ -338,7 +338,7 @@ When the installation completes, reboot your system:
     # reboot
 
 
-### <a name="nixosconfiguration"></a> Configuration
+### <a name="nixosconfiguration">Configuration</a>
 
 After installation, updating your existing configuration is trivial. All you have to do is edit the
 configuration file then rebuild the system:
@@ -356,8 +356,8 @@ configuration. After the system has completed booting, switch to the console wit
 Exit the shell, switch to the graphical interface with <kbd>Alt+F7</kbd>, then login as `vakelo`.
 
 
-<a name="nix"></a> Nix
-----------------------
+<a name="nix">Nix</a>
+---------------------
 
 The component that forms the heart of NixOS and Nixpkgs is the [Nix](https://nixos.org/nix)
 language. It is a declarative language designed in mind to handle packages.
@@ -379,7 +379,7 @@ nix-repl>
 Let’s try out some basic expressions.
 
 
-### <a name="nixstrings"></a> Strings
+### <a name="nixstrings">Strings</a>
 
 Just like in other languages, strings evaluate to themselves:
 
@@ -428,7 +428,7 @@ nix-repl> ''${x} ${y}''
 ```
 
 
-### <a name="nixnumbers"></a> Numbers
+### <a name="nixnumbers">Numbers</a>
 
 Basic arithmetic operations in Nix are included, with a small twist:
 
@@ -501,7 +501,7 @@ nix-repl> d 3
 ```
 
 
-### <a name="nixbooleans"></a> Booleans
+### <a name="nixbooleans">Booleans</a>
 
 Truth- and falsehood are represented with `true` and `false`:
 
@@ -529,7 +529,7 @@ false
 ```
 
 
-### <a name="nixlists"></a> Lists
+### <a name="nixlists">Lists</a>
 
 Lists are heterogeneous types for containing serial values. Elements are separated by spaces:
 
@@ -569,7 +569,7 @@ nix-repl> builtins.elemAt [ 1 "foo" true ] 1
 ```
 
 
-### <a name="nixsets"></a> Sets
+### <a name="nixsets">Sets</a>
 
 An important data structure in Nix are sets. They are keyword-value pairs separated by semicolons:
 
@@ -601,7 +601,7 @@ nix-repl> rec { a = 0; b = "bar"; c = true; d = (6 / 2); e = b; }.e
 ```
 
 
-### <a name="nixpaths"></a> Paths
+### <a name="nixpaths">Paths</a>
 
 In Nix all paths are translated to absolute ones. If you make a reference to a file in the current
 directory:
@@ -632,7 +632,7 @@ error: syntax error, unexpected '.', at (string):1:1
 ```
 
 
-### <a name="nixfunctions"></a> Functions
+### <a name="nixfunctions">Functions</a>
 
 What fun would it be if there’ll be no verbs to use with these nouns? Functions in Nix share
 similarities with other languages while having its own unique traits.
@@ -800,7 +800,7 @@ nix-repl> foof { a = "A"; b = "B"; c = "X"; d = "D"; }
 ```
 
 
-### <a name="nixlet"></a> Let
+### <a name="nixlet">Let</a>
 
 The keyword `let` lets (pun not intended) us define variables in a local scope. For example, to make
 the identifiers `x` and `y` visible only in a local scope:
@@ -815,7 +815,7 @@ Take note of the last `;` before the `in` keyword that goes with `let`—it mark
 Lisp and Haskell.
 
 
-### <a name="nixwith"></a> With
+### <a name="nixwith">With</a>
 
 The keyword `with` lets you ‘drop’ set values in a scope:
 
@@ -828,7 +828,7 @@ What happened here is that the values inside that set were ‘unveiled’ to mak
 `with` body.
 
 
-### <a name="nixconditionals"></a> Conditionals
+### <a name="nixconditionals">Conditionals</a>
 
 Conditional expressions are done with the `if` keyword. It has a similar form with mainstream
 languages:
@@ -846,7 +846,7 @@ nix-repl> if false then "true" else if false then "true" else if false then "tru
 ```
 
 
-### <a name="niximports"></a> File imports
+### <a name="niximports">File imports</a>
 
 The idea of importing files into a Nix expression is subtly different from other languages. Imports
 in Nix are closely tied with sets. Presuming we have the file `meh.nix` that contains the following:
@@ -897,8 +897,8 @@ This pretty sums up the introductory concepts about the Nix language. The rest o
 are available in the [manual](https://nixos.org/nix/manual/#ch-expression-language).
 
 
-<a name="nixpkgs"></a> Nixpkgs
-------------------------------
+<a name="nixpkgs">Nixpkgs</a>
+-----------------------------
 
 Nixpkgs is a collection of packages curated and maintained by users worldwide. Since
 the source code is in [GitHub](https://github.com/nixos/nixpkgs), it is able to take advantage of
@@ -935,7 +935,7 @@ then points to a symlink to a file in `/nix/store/` that will lead to the actual
 `/nix/store/w4cr4j13lqzry2b8830819vdz3sdypfa-vim-8.0.0329/bin/vim`.
 
 
-### <a name="nixpkgsinstallation"></a> Installation
+### <a name="nixpkgsinstallation">Installation</a>
 
 Skip this step if you are using NixOS because Nixpkgs already comes with it. To install Nixpkgs on
 GNU/Linux or macOS, run:
@@ -948,7 +948,7 @@ to your shell initialization file. When you spawn a new shell instance, the Nix-
 will be available for use.
 
 
-### <a name="nixpkgsusage"></a> Usage
+### <a name="nixpkgsusage">Usage</a>
 
 There are two ways to install packages with Nixpkgs: the git checkout, which is the bleeding edge,
 up-to-the-minute updated version, or by using
@@ -958,7 +958,7 @@ out. [Channels](https://nixos.org/channels/) on the other hand, are essentially 
 repository at an earlier version.
 
 
-#### <a name="nixpkgsgit"></a> Git
+#### <a name="nixpkgsgit">Git</a>
 
 Updates to the git repository happen frequently—as you are reading this
 article,
@@ -989,14 +989,14 @@ To get the most recent changes from the git repo, run:
     $ cd ~/nixpkgs && git pull origin master
 
 
-#### <a name="nixpkgschannels"></a> Channels
+#### <a name="nixpkgschannels">Channels</a>
 
 Installing packages via channels is nicer, because the commands to install packages with it are more
 convenient. The trade-off is that the packages will be out-of-date by a few days. If you’re fine
 with it, then use channels instead of the git checkout.
 
 Channels are labeled `stable`, `unstable`, or with a specific version number,
-e.g., `18.09` or `19.09`. For this article, let’s use the unstable channel—it’s
+e.g., `18.09` or `20.03`. For this article, let’s use the unstable channel—it’s
 not as dated as stable, nor as recent as the git checkout. To subscribe to the
 unstable channel, run:
 
@@ -1024,7 +1024,7 @@ any package. To clean it up, run:
     $ nix-collect-garbage
 
 
-#### <a name="nixpkgsother"></a> Other commands
+#### <a name="nixpkgsother">Other commands</a>
 
 To uninstall a package, run:
 
@@ -1039,7 +1039,7 @@ To list all available packages, run:
     $ nix-env -q --available
 
 
-### <a name="nixpkgsconfiguration"></a> Configuration
+### <a name="nixpkgsconfiguration">Configuration</a>
 
 The file `~/.nixpkgs/config.nix` is a Nix expression, which is read by the Nix commands. In it, we’re
 able to specify package overrides—configuration that supplants default settings, and other knobs
@@ -1075,14 +1075,14 @@ install software which doesn’t have open source licenses, or software that doe
 software model.
 
 
-### <a name="nixpkgscontribute"></a> Contributing
+### <a name="nixpkgscontribute">Contributing</a>
 
 The collaboration model of Nixpkgs rests with git and GitHub. To contribute a package or update an
 existing one, fork the [Nixpkgs](https://github.com/nixos/nixpkgs/) repository into your own GitHub
 account. Mmake changes into a new branch, then create a pull request.
 
 
-#### <a name="nixpkgsupdateexisting"></a> Updating existing package
+#### <a name="nixpkgsupdateexisting">Updating existing package</a>
 
 After you have forked the repository, clone your version of the repository.
 
@@ -1224,7 +1224,7 @@ Finally, go to the GitHub repo [page](https://github.com/nixos/nixpkgs), then cr
 (PR) between `nixos/nixpkgs:master` and `vakelo/nixpkgs:hello-2.11`.
 
 
-#### <a name="nixpkgssubmitnew"></a> Submitting a new package
+#### <a name="nixpkgssubmitnew">Submitting a new package</a>
 
 The steps for submitting a new package is pretty much the same as with updating an existing one,
 except for a few things.
@@ -1306,7 +1306,7 @@ Finally, go to the GitHub repo [page](https://github.com/nixos/nixpkgs), then cr
 (PR) between `nixos/nixpkgs:master` and `vakelo/nixpkgs:tthsum-1.3.2`.
 
 
-### <a name="nixpkgsnotes"></a> Notes
+### <a name="nixpkgsnotes">Notes</a>
 
 If at any point during the installation of a package, the process is interrupted, the package being
 installed will not be in a half-baked state. The very last step of installing a package is
@@ -1326,14 +1326,14 @@ To change the root channel similar to the one used above:
     $ sudo nix-channel --add https://nixos.org/channels/nixos-unstable nixos
 
 
-<a name="environments"></a> Environments
-----------------------------------------
+<a name="environments">Environments</a>
+---------------------------------------
 
 An environment is a way of Nix of providing component isolation between system and users. In NixOS,
 there are three environments: system environment, user environment, and development environment.
 
 
-### <a name="systemenvironment"></a> System environment
+### <a name="systemenvironment">System environment</a>
 
 The system environment is modified only by the root user who declares its value in
 `/etc/nixos/configuration.nix`. It is a list which contains the packages that will be made available
@@ -1357,7 +1357,7 @@ system. The binaries will be available as `/run/current-system/sw/bin/zsh` and
 By the way, the system environment only exists on NixOS.
 
 
-### <a name="userenvironment"></a> User environment
+### <a name="userenvironment">User environment</a>
 
 The user environment is the one that is used whenever the command `nix-env` is used. For example,
 when installing Zsh using nix-env:
@@ -1375,7 +1375,7 @@ differ from the version of John, then the invocation of `nix-env` by Mary will f
 instance of Zsh.
 
 
-### <a name="developmentenvironment"></a> Development environment
+### <a name="developmentenvironment">Development environment</a>
 
 The third environment, development environments, are created with the use of
 *nix-shell*. *nix-shell* allows the user to create sandboxed environments. The environment created is
@@ -1500,8 +1500,8 @@ nix-shell gives us strong abstraction mechanisms that are deemed very difficult 
 approaches. It banks on the deterministic properties of Nix, creating a very strong leverage.
 
 
-<a name="overlays"></a> Overlays
---------------------------------
+<a name="overlays">Overlays</a>
+-------------------------------
 
 There will be times when you need to make modifications to the package system, but you’re not
 willing to go full nuts and mess around with the Git repository. There will also be times when you
@@ -1524,7 +1524,7 @@ I structure my overlay files so that each file corresponds to one package, whose
 change.
 
 
-### <a name="overlaysoverrides"></a> Overrides
+### <a name="overlaysoverrides">Overrides</a>
 
 For example, if you want to make sure that the documentation for
 [Racket](https://github.com/NixOS/nixpkgs/blob/master/pkgs/development/interpreters/racket/default.nix)
@@ -1562,7 +1562,7 @@ When you install or reinstall Racket or Chromium, those settings will be read an
     $ nix-env -iA $(nix-channel --list | awk '{print $1}').racket
 
 
-### <a name="overlaysnewpackages"></a> New packages
+### <a name="overlaysnewpackages">New packages</a>
 
 Using the overlay system to create new packages is ideal if you don’t want to make the package part
 of Nixpkgs, you want to make it private, or you want to add a new infrastructure without handling
@@ -1627,8 +1627,8 @@ With those two files in place, you can now install _kapo_:
     $ nix-env -iA $(nix-channel --list | awk '{print $1}').kapo
 
 
-<a name="closing"></a> Closing remarks
---------------------------------------
+<a name="closing">Closing remarks</a>
+-------------------------------------
 
 Nix provides powerful tools to make managing systems and development configurations, significantly
 easier. It has flexible facilities for creating efficient workflows and distribution models. If I
@@ -1694,8 +1694,9 @@ The NixOS Foundation is a registered non-profit organization;
 your [donations](https://nixos.org/nixos/foundation.html) will significantly help in the development
 of Nix. Join the [community](https://nixos.org/nixos/community.html) and help make it grow!
 
-<a name="bonus"></a> Bonus
---------------------------
+
+<a name="bonus">Bonus</a>
+-------------------------
 
 Here’s the [Y combinator](/en/y) in Nix, applied to the factorial function:
 
