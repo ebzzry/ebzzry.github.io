@@ -3,7 +3,7 @@ Milda Enkonduko al la Nix-Familio
 
 <div class="center">Esperanto ▪ [English](/en/nix/)</div>
 <div class="center">la 5-an de Aŭgusto 2018</div>
-<div class="center">Laste ĝisdatigita: la 7-an de Majo 2020</div>
+<div class="center">Laste ĝisdatigita: la 8-an de Majo 2020</div>
 
 >Ne maltrankviliĝu pri tio, kion la aliaj faros. La plej bona maniero por la estontecon antaŭdiri
 >estas por tion eltrovi.<br>
@@ -906,10 +906,10 @@ en la [gvidilo](https://nixos.org/nix/manual/#ch-expression-language).
 -----------------------------
 
 Nixpkgs (niks▪pa▪kej▪ĝes) estas kolekto de pakoj organizitaj kaj mastrumitaj per uzantoj
-tutmonde. Pro la fontkodo estas en [GitHub](https://github.com/nixos/nixpkgs), la avantaĝon de la
-potenca kunlaborada sistemo kiun tiu platformo ofertas ĝi eblas ekspluati. Ĉi tiun artikolon
-skribante, estas 42583 pakoj en la [kolekto](https://nixos.org/nixos/packages.html). Larĝan tabelon
-de pakoj iras de produktivecaj apoj al teoremaj pruviloj.
+tutmonde. Pro tio ke la fontkodo estas en [GitHub](https://github.com/nixos/nixpkgs), la avantaĝon
+de la potenca kunlaborada sistemo kiun tiu platformo ofertas ĝi eblas ekspluati. Grandan vicaron da
+pakoj la [kolekto](https://nixos.org/nixos/packages.html) havas, de produktivecaj apoj al teoremaj
+pruviloj.
 
 Pakojn plejparto de popularaj operaciumoj traktas bone, ĝis ili ne plu. Tiel longe kiel oni movas en
 rektan linion, sole, oni sekuras. Aferoj ŝanĝiĝas, kiam aliaj homoj enkondukiĝas en la marŝo. Por ke

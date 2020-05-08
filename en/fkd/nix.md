@@ -3,7 +3,7 @@ A Gentle Introduction to the Nix Family
 
 <div class="center">[Esperanto](/eo/nix/) ▪ English</div>
 <div class="center">March 22, 2017</div>
-<div class="center">Last updated: May 7, 2020</div>
+<div class="center">Last updated: May 8, 2020</div>
 
 >Don’t worry about what anybody else is going to do. The best way to predict the future is to
 >invent it.<br>
@@ -900,11 +900,12 @@ are available in the [manual](https://nixos.org/nix/manual/#ch-expression-langua
 <a name="nixpkgs">Nixpkgs</a>
 -----------------------------
 
-Nixpkgs is a collection of packages curated and maintained by users worldwide. Since
-the source code is in [GitHub](https://github.com/nixos/nixpkgs), it is able to take advantage of
-the powerful collaboration models that that platform offers. At the time of writing, there are
-42583 packages in the [collection](https://nixos.org/nixos/packages.html). It contains a wide
-array of packages ranging from productivity applications to theorem provers.
+Nixpkgs is a collection of packages curated and maintained by users
+worldwide. Since the source code is in
+[GitHub](https://github.com/nixos/nixpkgs), it is able to take advantage of the
+powerful collaboration models that that platform offers. The
+[collection](https://nixos.org/nixos/packages.html) contains a wide array of
+packages ranging from productivity applications to theorem provers.
 
 Most of the popular operating systems handle packages well, until, they don’t. As long as you are
 moving in a straight line, alone, you’ll be fine. Things change, when you introduce other people in
