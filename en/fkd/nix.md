@@ -3,7 +3,7 @@ A Gentle Introduction to the Nix Family
 
 <div class="center">[Esperanto](/eo/nix/) ▪ English</div>
 <div class="center">March 22, 2017</div>
-<div class="center">Last updated: May 8, 2020</div>
+<div class="center">Last updated: May 21, 2020</div>
 
 >Don’t worry about what anybody else is going to do. The best way to predict the future is to
 >invent it.<br>
