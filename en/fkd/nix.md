@@ -227,30 +227,26 @@ available [here](https://nixos.org/nixos/options.html).
       "rtsx_pci_sdmmc"
     ];
 
-    initrd.luks.devices = [
-      {
+    initrd.luks.devices = {
+      "root" = {
         device = "/dev/vg/root";
-        name = "root";
         preLVM = false;
-      }
-    ];
+      };
+    };
 
     cleanTmpDir = true;
   };
 
-  fileSystems = [
-    {
-      device = "/dev/disk/by-uuid/6106-6BF8";
+  fileSystems = {
+    "/boot" = {
+      device = "/dev/disk/by-uuid/D5FE-BECB";
       fsType = "vfat";
-      mountPoint = "/boot";
-    }
-
-    {
+    };
+    "/" = {
       device = "/dev/mapper/root";
       fsType = "ext4";
-      mountPoint = "/";
-    }
-  ];
+    };
+  };
 
   swapDevices = [
     {
@@ -285,8 +281,8 @@ available [here](https://nixos.org/nixos/options.html).
       autorun = true;
       defaultDepth = 24;
       enable = true;
-      displayManager.kdm.enable = true;
-      desktopManager.kde5.enable = true;
+      displayManager.lightdm.enable = true;
+      desktopManager.plasma5.enable = true;
       videoDrivers = [ "intel" ];
     };
   };
@@ -306,7 +302,7 @@ If you skipped the `nixos-generate-config` step above, create the staging direct
 
     # mkdir -p /mnt/etc/nixos
 
-You mave save the file above with:
+You may save the file above with:
 
     # curl -sSLo /mnt/etc/nixos/configuration.nix https://goo.gl/ZTQcGs
 
@@ -322,7 +318,7 @@ UUIDs. For the value of `networking.hostID`, use the following command:
 The above configuration specifies the following, among other things:
 
 - It creates a user `vakelo` with full sudo access.
-- It uses KDE 5 as the desktop environment.
+- It uses Plasma 5 as the desktop environment.
 - It enables SSH.
 - It specifies the LUKS parameters.
 
