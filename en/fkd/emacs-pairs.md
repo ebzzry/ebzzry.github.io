@@ -343,7 +343,7 @@ var mods = "vars";
            ^
 ```
 
-and you want `"vars"` mto be surrounded by `[` and `]`:
+and you want `"vars"` to be surrounded by `[` and `]`:
 
 ```javascript
 
