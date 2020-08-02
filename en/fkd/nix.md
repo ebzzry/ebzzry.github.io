@@ -3,7 +3,7 @@ A Gentle Introduction to the Nix Family
 
 <div class="center">[Esperanto](/eo/nix/) ▪ English</div>
 <div class="center">March 22, 2017</div>
-<div class="center">Last updated: May 21, 2020</div>
+<div class="center">Last updated: August 2, 2020</div>
 
 >Don’t worry about what anybody else is going to do. The best way to predict the future is to
 >invent it.<br>
@@ -1679,7 +1679,7 @@ Aside from GuixSD, there are also other projects that Nix has inspired. There is
 
 The articles of
 [Luca Bruno](https://lethalman.blogspot.com/2014/07/nix-pill-1-why-you-should-give-it-try.html),
-[James Fisher](https://lethalman.blogspot.com/2014/07/nix-pill-1-why-you-should-give-it-try.html),
+[James Fisher](https://jameshfisher.com/2014/09/28/nix-by-example/),
 and
 [Oliver Charles](https://web.archive.org/web/20180610095602/https://ocharles.org.uk/blog/posts/2014-02-04-how-i-develop-with-nixos.html),
 together with the [NixOS](https://nixos.org/nixos/manual),
@@ -1730,4 +1730,4 @@ nix-repl> let y = x: ((f: (x (v: ((f f) v)))) (f: (x (v: ((f f) v))))); b = p: (
 nix-repl>
 ```
 
-_Thanks to [Dave Loyall](https://github.com/daveloyall) and [Yekta Leblebici](https://github.com/YektaLeblebici) for the corrections._
+_Thanks to [Dave Loyall](https://github.com/daveloyall),  [Yekta Leblebici](https://github.com/YektaLeblebici), and [Dan Svoboda](https://github.com/dansvo) for the corrections._

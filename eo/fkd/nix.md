@@ -3,7 +3,7 @@ Milda Enkonduko al la Nix-Familio
 
 <div class="center">Esperanto ▪ [English](/en/nix/)</div>
 <div class="center">la 5-an de Aŭgusto 2018</div>
-<div class="center">Laste ĝisdatigita: la 8-an de Majo 2020</div>
+<div class="center">Laste ĝisdatigita: la 2-an de Aŭgusto 2020</div>
 
 >Ne maltrankviliĝu pri tio, kion la aliaj faros. La plej bona maniero por la estontecon antaŭdiri
 >estas por tion eltrovi.<br>
@@ -1676,7 +1676,7 @@ administrilo por Node.js.
 
 La artikoloj de
 [Luca BRUNO](https://lethalman.blogspot.com/2014/07/nix-pill-1-why-you-should-give-it-try.html),
-[James FISHER](https://lethalman.blogspot.com/2014/07/nix-pill-1-why-you-should-give-it-try.html),
+[James FISHER](https://jameshfisher.com/2014/09/28/nix-by-example/),
 kaj
 [Oliver CHARLES](https://web.archive.org/web/20180610095602/https://ocharles.org.uk/blog/posts/2014-02-04-how-i-develop-with-nixos.html),
 kune la [NixOS](https://nixos.org/nixos/manual), [Nixpkgs](https://nixos.org/nixpkgs/manual),
@@ -1725,3 +1725,5 @@ nix-repl> let y = x: ((f: (x (v: ((f f) v)))) (f: (x (v: ((f f) v))))); b = p: (
 
 nix-repl>
 ```
+
+_Dank’ al [Dan Svoboda](https://github.com/dansvo) pro la korektoj._
