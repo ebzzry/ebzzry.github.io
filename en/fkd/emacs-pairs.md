@@ -3,7 +3,7 @@ Emacs and Pairs
 
 <div class="center">[Esperanto](/eo/emakso-paroj/) ▪ English</div>
 <div class="center">August 15, 2015</div>
-<div class="center">Last updated: March 9, 2019</div>
+<div class="center">Last updated: August 4, 2020</div>
 
 >The white noise that beats within the white darkness is the rhythm of life; it is that pulse which
 >never truly left the stage.<br>
@@ -674,3 +674,5 @@ learning them, will be minimal compared to benefits that you will reap.
 smartparens is the brainchild of [Matus Goljer](https://github.com/Fuco1). For more information on
 smartparens, go [here](https://github.com/Fuco1/smartparens). If you like this project, you may
 donate [here](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CEYP5YVHDRX8C).
+
+_Thanks to [Andreas Sahlbach](https://github.com/Khoulaiz) for the corrections._
