@@ -92,7 +92,7 @@
 </code></pre><p>Execute <code>sp-forward-symbol</code>. I bound it to <kbd>C-S-f</kbd>.</p><p>What they do is that they navigate around expressions as if delimiters, like parens, brackets, and braces do not exist.</p><h3><a name="manipulation"></a>Manipulation</h3><h4><a name="wrapping"></a>Wrapping</h4><p>If you have the expression:</p><pre><code class="javascript">
 var mods = &quot;vars&quot;;
            &#94;
-</code></pre><p>and you want <code>&quot;vars&quot;</code> mto be surrounded by <code>&#91;</code> and <code>&#93;</code>:</p><pre><code class="javascript">
+</code></pre><p>and you want <code>&quot;vars&quot;</code> to be surrounded by <code>&#91;</code> and <code>&#93;</code>:</p><pre><code class="javascript">
 var mods = &#91;&quot;vars&quot;&#93;;
             &#94;
 </code></pre><p>Pressing <kbd>C-M-Space</kbd> or <kbd>ESC C-Space</kbd> followed by <kbd>[</kbd> will make the whole region become surrounded by matching <code>&#91;</code> and <code>&#93;</code>. It also applies to keys like <code>&#40;</code>, <code>{</code>, <code>&quot;</code>, <code>'</code>, <code>&#42;</code>, <code>&#95;</code>, etc, depending on the mode that you’re using.</p><p>Alternatively, you may define wrapping functions:</p><pre><code class="lisp">&#40;defmacro def-pairs &#40;pairs&#41;
