@@ -3,7 +3,7 @@ Symbols and Marks
 
 <div class="center">[Esperanto](/eo/signoj-interpunkcioj/) ▪ English</div>
 <div class="center">April 8, 2016</div>
-<div class="center">Last updated: February 21, 2019</div>
+<div class="center">Last updated: August 5, 2020</div>
 
 >If you want to achieve greatness, stop asking for permission.<br>
 >―Eddie Colla
@@ -125,7 +125,7 @@ When the month is the same, used the unspaced en dash:
 - Mac: <kbd>⌥</kbd> + <kbd>Shift</kbd> + <kbd>-</kbd>
 - Windows: <kbd>Alt</kbd> + <kbd>0</kbd> <kbd>1</kbd> <kbd>5</kbd> <kbd>1</kbd>
 
-The em dash can be used in a multitude of ways. Like em dashes, don’t put spaces around it. To use
+The em dash can be used in a multitude of ways. Like en dashes, don’t put spaces around it. To use
 it like a colon:
 
 - Two men are dead: Juan and Pedro.
@@ -320,3 +320,5 @@ it; when used in the middle, put spaces around it.
 Using the correct punctuation marks and symbols draws the line between class and crass. When you use
 the proper symbols, you communicate to your readers that you care about syntactical correctness as
 much as content value.
+
+_Thanks to Ram Martinez for the corrections._
