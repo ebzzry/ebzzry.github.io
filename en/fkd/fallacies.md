@@ -3,7 +3,7 @@ A Gentle Introduction to Fallacies
 
 <div class="center">[Esperanto](/eo/sofismoj/) ▪ English</div>
 <div class="center">May 1, 2016</div>
-<div class="center">Last updated: March 9, 2019</div>
+<div class="center">Last updated: August 5, 2020</div>
 
 >Learning is not compulsory; neither is survival.<br>
 >―W. Edwards Deming
@@ -371,7 +371,7 @@ instead used to force someone to follow blindly.
 This fallacy is committed when it is argued that just because something is traditional, or the norm,
 then it must be followed. This is found in religion and cultures.
 
-> “It is customary for us to participate annually in the Kabobohan March. You should join us, too.”
+> “It is customary for us to participate annually in the Kabobohan march. You should join us, too.”
 
 This fails to state why one should join the said event. Instead it is argued that it should be done
 on the grounds that it is traditional.
