@@ -3,7 +3,7 @@ How I Roll with Git
 
 <div class="center">[Esperanto](/eo/gito/) ▪ English</div>
 <div class="center">July 28, 2019</div>
-<div class="center">Last updated: October 11, 2019</div>
+<div class="center">Last updated: September 12, 2020</div>
 
 >Conversely, those with persistence can ignore what others think. They can press
 >on in their own world, oblivious to the opinions of those around them.<br>
@@ -406,8 +406,8 @@ visible entry in the commit log.
       (rp) "${git}" rev-parse "$@" ;;
       (rph) "${self}" rp HEAD ;;
 
-      (sh) "${git}" stash "$@" ;;
-      (shp) "${self}" sh pop "$@" ;;
+      (st) "${git}" stash "$@" ;;
+      (stp) "${self}" st pop "$@" ;;
 ```
 
 Whenever I want to change to change a text from all commit messages, for example
@@ -433,17 +433,17 @@ I then run the following command to make sure that the changes appear in the rem
 **Subtrees and submodules**
 
 ```
-      (st) "${git}" subtree "$@" ;;
-      (sta) "${self}" st add "$@" ;;
-      (stph) "${self}" st push "$@" ;;
-      (stpl) "${self}" st pull "$@" ;;
+      (subt) "${git}" subtree "$@" ;;
+      (subta) "${self}" subt add "$@" ;;
+      (subtph) "${self}" subt push "$@" ;;
+      (subtpl) "${self}" subt pull "$@" ;;
 
-      (sm) "${git}" submodule "$@" ;;
-      (sms) "${self}" sm status "$@" ;;
-      (smy) "${self}" sm summary "$@" ;;
-      (smu) "${self}" sm update "$@" ;;
-      (sma) "${self}" sm add "$@" ;;
-      (smi) "${self}" sm init "$@" ;;
+      (subm) "${git}" submodule "$@" ;;
+      (subms) "${self}" subm status "$@" ;;
+      (submy) "${self}" subm summary "$@" ;;
+      (submu) "${self}" subm update "$@" ;;
+      (subma) "${self}" subm add "$@" ;;
+      (submi) "${self}" subm init "$@" ;;
 
       (ref) "${git}" reflog "$@" ;;
 ```
@@ -619,20 +619,20 @@ function git () {
       (rp) "${git}" rev-parse "$@" ;;
       (rph) "${self}" rp HEAD ;;
 
-      (sh) "${git}" stash "$@" ;;
-      (shp) "${self}" sh pop "$@" ;;
+      (st) "${git}" stash "$@" ;;
+      (stp) "${self}" st pop "$@" ;;
 
-      (st) "${git}" subtree "$@" ;;
-      (sta) "${self}" st add "$@" ;;
-      (stph) "${self}" st push "$@" ;;
-      (stpl) "${self}" st pull "$@" ;;
+      (subt) "${git}" subtree "$@" ;;
+      (subta) "${self}" subt add "$@" ;;
+      (subtph) "${self}" subt push "$@" ;;
+      (subtpl) "${self}" subt pull "$@" ;;
 
-      (sm) "${git}" submodule "$@" ;;
-      (sms) "${self}" sm status "$@" ;;
-      (smy) "${self}" sm summary "$@" ;;
-      (smu) "${self}" sm update "$@" ;;
-      (sma) "${self}" sm add "$@" ;;
-      (smi) "${self}" sm init "$@" ;;
+      (subm) "${git}" submodule "$@" ;;
+      (subms) "${self}" subm status "$@" ;;
+      (submy) "${self}" subm summary "$@" ;;
+      (submu) "${self}" subm update "$@" ;;
+      (subma) "${self}" subm add "$@" ;;
+      (submi) "${self}" subm init "$@" ;;
 
       (ref) "${git}" reflog "$@" ;;
 
