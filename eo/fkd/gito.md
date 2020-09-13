@@ -3,7 +3,7 @@ Kiel Mi Ruliĝas per Gito
 
 <div class="center">Esperanto ▪ [English](/en/git/)</div>
 <div class="center">la 26-an de Julio 2019</div>
-<div class="center">Laste ĝisdatigita: la 11-an de Oktobro 2019</div>
+<div class="center">Laste ĝisdatigita: la 12-an de Septembro 2020</div>
 
 >Male, tiuj kun senĉeseco povas malatenti kiujn aliaj pensas. Ion ajn ili povas
 >fari en ilia propra mondo senzorgeme al la opinioj de tiuj ĉirkaŭ ili.<br>
@@ -412,8 +412,8 @@ en la protokolo mi ne deziras havi.
       (rp) "${git}" rev-parse "$@" ;;
       (rph) "${self}" rp HEAD ;;
 
-      (sh) "${git}" stash "$@" ;;
-      (shp) "${self}" sh pop "$@" ;;
+      (st) "${git}" stash "$@" ;;
+      (stp) "${self}" st pop "$@" ;;
 ```
 
 Kiam ajn tekstojn de ĉiuj antaŭaj ŝanĝmesaĝoj mi volas ŝanĝi, ekzemple la vorton
@@ -439,17 +439,17 @@ La jenan komandon mi tiam uzas sekve, por certigi ke la ŝanĝoj aperas en la fo
 **Subarboj, kaj submoduloj**
 
 ```
-      (st) "${git}" subtree "$@" ;;
-      (sta) "${self}" st add "$@" ;;
-      (stph) "${self}" st push "$@" ;;
-      (stpl) "${self}" st pull "$@" ;;
+      (subt) "${git}" subtree "$@" ;;
+      (subta) "${self}" subt add "$@" ;;
+      (subtph) "${self}" subt push "$@" ;;
+      (subtpl) "${self}" subt pull "$@" ;;
 
-      (sm) "${git}" submodule "$@" ;;
-      (sms) "${self}" sm status "$@" ;;
-      (smy) "${self}" sm summary "$@" ;;
-      (smu) "${self}" sm update "$@" ;;
-      (sma) "${self}" sm add "$@" ;;
-      (smi) "${self}" sm init "$@" ;;
+      (subm) "${git}" submodule "$@" ;;
+      (subms) "${self}" subm status "$@" ;;
+      (submy) "${self}" subm summary "$@" ;;
+      (submu) "${self}" subm update "$@" ;;
+      (subma) "${self}" subm add "$@" ;;
+      (submi) "${self}" subm init "$@" ;;
 
       (ref) "${git}" reflog "$@" ;;
 ```
@@ -625,20 +625,20 @@ function git () {
       (rp) "${git}" rev-parse "$@" ;;
       (rph) "${self}" rp HEAD ;;
 
-      (sh) "${git}" stash "$@" ;;
-      (shp) "${self}" sh pop "$@" ;;
+      (st) "${git}" stash "$@" ;;
+      (stp) "${self}" st pop "$@" ;;
 
-      (st) "${git}" subtree "$@" ;;
-      (sta) "${self}" st add "$@" ;;
-      (stph) "${self}" st push "$@" ;;
-      (stpl) "${self}" st pull "$@" ;;
+      (subt) "${git}" subtree "$@" ;;
+      (subta) "${self}" subt add "$@" ;;
+      (subtph) "${self}" subt push "$@" ;;
+      (subtpl) "${self}" subt pull "$@" ;;
 
-      (sm) "${git}" submodule "$@" ;;
-      (sms) "${self}" sm status "$@" ;;
-      (smy) "${self}" sm summary "$@" ;;
-      (smu) "${self}" sm update "$@" ;;
-      (sma) "${self}" sm add "$@" ;;
-      (smi) "${self}" sm init "$@" ;;
+      (subm) "${git}" submodule "$@" ;;
+      (subms) "${self}" subm status "$@" ;;
+      (submy) "${self}" subm summary "$@" ;;
+      (submu) "${self}" subm update "$@" ;;
+      (subma) "${self}" subm add "$@" ;;
+      (submi) "${self}" subm init "$@" ;;
 
       (ref) "${git}" reflog "$@" ;;
 
