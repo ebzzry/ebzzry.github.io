@@ -858,3 +858,7 @@ have collected over the years.
 
 - Behold the superfluous! They are always sick; they vomit their gall and call it a newspaper. They
   devour each other and cannot even digest themselves.<br>―Friedrich Nietzsche
+
+
+- Schools are intended to produce, through the application of formulas, formulaic human beings whose
+  behavior can be predicted and controlled.<br>―John Taylor Gatto

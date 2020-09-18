@@ -857,3 +857,7 @@ tra la jarojn, ĉi tiu paĝo enhavas.
 
 - Jen la superflua! Ili ĉiam vomemas; siajn galojn ili vomas kaj ilin nomi ĵurnalo. Unu la alian ili
   voras kaj sin mem ne povas digesti.<br>―Friedrich NIETZSCHE
+
+
+- La celo de lernejoj estas por produkti, per la apliko de formuloj, formulecajn homojn kies kondutoj
+  povas esti antaŭdiritaj kaj regitaj.<br>―John Taylor GATTO
