@@ -859,5 +859,5 @@ tra la jarojn, ĉi tiu paĝo enhavas.
   voras kaj sin mem ne povas digesti.<br>―Friedrich NIETZSCHE
 
 
-- La celo de lernejoj estas por produkti, per la apliko de formuloj, formulecajn homojn kies kondutoj
-  povas esti antaŭdiritaj kaj regitaj.<br>―John Taylor GATTO
+- Lernejoj estas intence kreitaj por produkti, per la apliko de formuloj, formulecajn homojn kies
+  kondutoj povas esti antaŭdiritaj kaj regitaj.<br>―John Taylor GATTO
