@@ -3,7 +3,7 @@ Pripensoj
 
 <div class="center">Esperanto ▪ [English](/en/reflections/)</div>
 <div class="center">la 3-an de Novembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 20-an de Aprilo 2020</div>
+<div class="center">Laste ĝisdatigita: la 29-an de Septembro 2020</div>
 
 Ĉi tiu paĝo enhavas kelke da miaj propraj pripensoj. La enskriboj estas
 ordigitaj laŭ kronologiordo.
@@ -370,3 +370,6 @@ ordigitaj laŭ kronologiordo.
 
 
 - Se tion vi povas fari prave unuafoje, kial ne?<br>
+
+
+- La serĉado por la signifo de la vivo havas la aŭdacan antaŭsupozon, ke ekzistas tia signifo.<br>
