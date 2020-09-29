@@ -3,7 +3,7 @@ Reflections
 
 <div class="center">[Esperanto](/eo/pripensoj/) ▪ English</div>
 <div class="center">November 24, 2015</div>
-<div class="center">Last updated: April 20, 2020</div>
+<div class="center">Last updated: September 29, 2020</div>
 
 This page contains contains some of my personal reflections. Entries are sorted in chronological order.
 
@@ -365,3 +365,6 @@ This page contains contains some of my personal reflections. Entries are sorted 
 
 
 - If you can do it right the first time, why not?<br>
+
+
+- Searching for the meaning of life has the bold assumption that such meaning exists.<br>
