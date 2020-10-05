@@ -3,7 +3,7 @@ Reflections
 
 <div class="center">[Esperanto](/eo/pripensoj/) ▪ English</div>
 <div class="center">November 24, 2015</div>
-<div class="center">Last updated: September 29, 2020</div>
+<div class="center">Last updated: October 5, 2020</div>
 
 This page contains contains some of my personal reflections. Entries are sorted in chronological order.
 
@@ -368,3 +368,6 @@ This page contains contains some of my personal reflections. Entries are sorted 
 
 
 - Searching for the meaning of life has the bold assumption that such meaning exists.<br>
+
+
+- Doing good deeds does not imply being good. An evil person can be benevolent.<br>
