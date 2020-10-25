@@ -3,7 +3,7 @@ Reflections
 
 <div class="center">[Esperanto](/eo/pripensoj/) ▪ English</div>
 <div class="center">November 24, 2015</div>
-<div class="center">Last updated: October 5, 2020</div>
+<div class="center">Last updated: October 25, 2020</div>
 
 This page contains contains some of my personal reflections. Entries are sorted in chronological order.
 
@@ -371,3 +371,6 @@ This page contains contains some of my personal reflections. Entries are sorted 
 
 
 - Doing good deeds does not imply being good. An evil person can be benevolent.<br>
+
+
+- The most fearful ones are the weak.<br>
