@@ -3,7 +3,7 @@ How I Roll with Git
 
 <div class="center">[Esperanto](/eo/gito/) ▪ English</div>
 <div class="center">July 28, 2019</div>
-<div class="center">Last updated: September 12, 2020</div>
+<div class="center">Last updated: November 2, 2020</div>
 
 >Conversely, those with persistence can ignore what others think. They can press
 >on in their own world, oblivious to the opinions of those around them.<br>
@@ -449,6 +449,14 @@ I then run the following command to make sure that the changes appear in the rem
 ```
 
 
+**Descriptions**
+
+```
+      (de) "${git}" describe "$@" ;;
+      (det) "${self}" de --tags "$@" ;;
+```
+
+
 <a name="all">Putting them all together</a>
 -------------------------------------------
 
@@ -635,6 +643,9 @@ function git () {
       (submi) "${self}" subm init "$@" ;;
 
       (ref) "${git}" reflog "$@" ;;
+
+      (de) "${git}" describe "$@" ;;
+      (det) "${self}" de --tags "$@" ;;
 
       (*) "${git}" "${op}" "$@" ;;
     esac
