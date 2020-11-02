@@ -3,7 +3,7 @@ Kiel Mi Ruliĝas per Gito
 
 <div class="center">Esperanto ▪ [English](/en/git/)</div>
 <div class="center">la 26-an de Julio 2019</div>
-<div class="center">Laste ĝisdatigita: la 12-an de Septembro 2020</div>
+<div class="center">Laste ĝisdatigita: la 2-an de Novembro 2020</div>
 
 >Male, tiuj kun senĉeseco povas malatenti kiujn aliaj pensas. Ion ajn ili povas
 >fari en ilia propra mondo senzorgeme al la opinioj de tiuj ĉirkaŭ ili.<br>
@@ -454,6 +454,13 @@ La jenan komandon mi tiam uzas sekve, por certigi ke la ŝanĝoj aperas en la fo
       (ref) "${git}" reflog "$@" ;;
 ```
 
+**Priskribado**
+
+```
+      (de) "${git}" describe "$@" ;;
+      (det) "${self}" de --tags "$@" ;;
+```
+
 
 <a name="cxio">Ĉion rikolti</a>
 -------------------------------
@@ -641,6 +648,9 @@ function git () {
       (submi) "${self}" subm init "$@" ;;
 
       (ref) "${git}" reflog "$@" ;;
+
+      (de) "${git}" describe "$@" ;;
+      (det) "${self}" de --tags "$@" ;;
 
       (*) "${git}" "${op}" "$@" ;;
     esac
