@@ -3,7 +3,7 @@ Citaĵoj
 
 <div class="center">Esperanto ▪ [English](/en/quotes/)</div>
 <div class="center">la 15-an de Novembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 18-an de Septembro 2020</div>
+<div class="center">Laste ĝisdatigita: la 9-an de Novembro 2020</div>
 
 <img src="/bil/wallhaven-77816-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -861,3 +861,7 @@ tra la jarojn, ĉi tiu paĝo enhavas.
 
 - Lernejoj estas intence kreitaj por produkti, per la apliko de formuloj, formulecajn homojn kies
   kondutoj povas esti antaŭdiritaj kaj regitaj.<br>―John Taylor GATTO
+
+
+- Oni povas elpreni la homon el la arbaro, tamen oni ne povas elpreni la arbaron el la homo.<br>―Gary
+  PAULSEN
