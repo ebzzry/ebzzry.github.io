@@ -7,5 +7,5 @@ Pri
 
 <center>
 [Retpoŝto](mailto:ebzzry@ebzzry.io) ▪ [GPG](/dat/ebzzry.pub.asc) ▪ [GitHub](https://github.com/ebzzry) ▪ [LinkedIn](https://linkedin.com/in/ebzzry) ▪ [Telegramo](https://t.me/ebzzry)<br>
-[DeviantArt](https://ebzzry.deviantart.com) ▪ [Keybase](https://keybase.io/ebzzry) ▪ [Steam](https://steamcommunity.com/id/ebzzry) ▪ [SG2E+](http://157.230.48.241/)
+[DeviantArt](https://ebzzry.deviantart.com) ▪ [Keybase](https://keybase.io/ebzzry) ▪ [Steam](https://steamcommunity.com/id/ebzzry) ▪ [SG2E+](http://134.209.73.57/)
 </center>
