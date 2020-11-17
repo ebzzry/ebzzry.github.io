@@ -7,5 +7,5 @@ About
 
 <center>
 [Email](mailto:ebzzry@ebzzry.io) ▪ [GPG](/dat/ebzzry.pub.asc) ▪ [GitHub](https://github.com/ebzzry) ▪ [LinkedIn](https://linkedin.com/in/ebzzry) ▪ [Telegram](https://t.me/ebzzry)<br>
-[DeviantArt](https://ebzzry.deviantart.com) ▪ [Keybase](https://keybase.io/ebzzry) ▪ [Steam](https://steamcommunity.com/id/ebzzry) ▪ [SG2E+](http://134.209.73.57/)
+[DeviantArt](https://ebzzry.deviantart.com) ▪ [Keybase](https://keybase.io/ebzzry) ▪ [Steam](https://steamcommunity.com/id/ebzzry) ▪ [SG2E+](http://161.35.2.36/)
 </center>
