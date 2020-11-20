@@ -3,7 +3,7 @@ Quotes
 
 <div class="center">[Esperanto](/eo/citajxoj/) ▪ English</div>
 <div class="center">August 29, 2015</div>
-<div class="center">Last updated: November 15, 2020</div>
+<div class="center">Last updated: November 20, 2020</div>
 
 <img src="/bil/wallhaven-77816-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -558,7 +558,7 @@ have collected over the years.
   stronger.<br>―Friedrich Nietzsche
 
 
-- The three most important days of your live are the day you were born, the day
+- The three most important days of your life are the day you were born, the day
   you find out why you were born, and the day you discover how to contribute the
   gift that you were born to give.<br>―Taylor Hartman
 
