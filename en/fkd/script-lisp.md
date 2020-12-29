@@ -212,6 +212,7 @@ program.
 
 We are now ready to build the script and the symlinks. To do that, run:
 
+    $ mkdir -p ~/bin
     $ make install
 
 This will build the multi-call binary—`./my-scripts` and the corresponding symbolic links. The
