@@ -211,6 +211,7 @@ kreas la opcio `‑‑system $(NAME)` ŝarĝas. La enirejo de nia programo la op
 
 Ni nun pretas por la skripton kaj la simbolligilojn krei. Por tion fari, plenumu:
 
+    $ mkdir -p ~/bin
     $ make install
 
 La multvokan duumdosieron—`./my-scripts`—ĉi tiu komando kunmetas kun la respondaj simbolligiloj. La dosieruja arbo de `~/bin` devas aspekti jene:
