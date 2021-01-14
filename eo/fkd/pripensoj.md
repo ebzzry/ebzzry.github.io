@@ -3,7 +3,7 @@ Pripensoj
 
 <div class="center">Esperanto ▪ [English](/en/reflections/)</div>
 <div class="center">la 3-an de Novembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 25-an de Oktobro 2020</div>
+<div class="center">Laste ĝisdatigita: la 14-an de Januaro 2020</div>
 
 Ĉi tiu paĝo enhavas kelke da miaj propraj pripensoj. La enskriboj estas
 ordigitaj laŭ kronologiordo.
@@ -379,3 +379,9 @@ ordigitaj laŭ kronologiordo.
 
 
 - La plej timemaj estas la plej malfortaj.<br>
+
+
+- La plej malbona malliberejo, estas tiu kiun oni portas ĉie.<br>
+
+
+- Oni povas pentri kaj ornami sian karceron iamaniere, sed oni ankoraŭ estas malliberulo.<br>
