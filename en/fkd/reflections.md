@@ -3,7 +3,7 @@ Reflections
 
 <div class="center">[Esperanto](/eo/pripensoj/) ▪ English</div>
 <div class="center">November 24, 2015</div>
-<div class="center">Last updated: October 25, 2020</div>
+<div class="center">Last updated: January 14, 2020</div>
 
 This page contains contains some of my personal reflections. Entries are sorted in chronological order.
 
@@ -374,3 +374,9 @@ This page contains contains some of my personal reflections. Entries are sorted 
 
 
 - The most fearful ones are the weak.<br>
+
+
+- The worst kind of prison, is the one that you carry with you.<br>
+
+
+- You can paint and decorate the walls of your prison cell however you want, but you’re still a prisoner.<br>
