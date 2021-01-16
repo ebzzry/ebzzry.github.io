@@ -3,7 +3,7 @@ Retpoŝton Agordi per Emakso
 
 <div class="center">Esperanto ▪ [English](/en/emacs-mail/)</div>
 <div class="center">la 14-an de Februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 14-an de Aŭgusto 2019</div>
+<div class="center">Laste ĝisdatigita: la 16-an de Januaro 2021</div>
 
 >Nur pro tio, ke ne fariĝis, ne signifas, ke ne fareblas. Nur pro tio, ke fareblas, ne
 >signifas, ke devus.<br>
@@ -196,7 +196,7 @@ povas legi la [agrablan manlibron](http://www.djcbsoftware.nl/code/mu/mu4e/index
 
 Malnepre oni eble volas aldoni kelkajn alĝustigetojn, por ke la ĉifrado kaj
 malĉifrado de mesaĝoj estu pli facilaj. Fakte ĉi tio estas unu el la ĉefkialoj
-kial mi uzas na mu4e—estis montrite al mi ke malgraŭ uzi retumilajn kromprogrojn
+kial mi uzas na mu4e—estis montrite al mi ke malgraŭ ke uzi retumilajn kromprogrojn
 kiel [FireGPG](http://getfiregpg.org/s/home), la onidire privataj mesaĝoj kiujn
 mi verkis, estis aŭtomate konservitaj en la _Drafts_ dosierujo. Subkomprenigas,
 ke la malĉifrita mesaĝo, estis ankoraŭ konservita ie. Kraĉotusas.
