@@ -1,5 +1,5 @@
-Kiel Mi Ruliĝas per Gito
-========================
+Kiel Giton Mi Uzas
+==================
 
 <div class="center">Esperanto ▪ [English](/en/git/)</div>
 <div class="center">la 26-an de Julio 2019</div>
