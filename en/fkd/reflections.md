@@ -3,7 +3,7 @@ Reflections
 
 <div class="center">[Esperanto](/eo/pripensoj/) ▪ English</div>
 <div class="center">November 24, 2015</div>
-<div class="center">Last updated: January 14, 2020</div>
+<div class="center">Last updated: January 26, 2021</div>
 
 This page contains contains some of my personal reflections. Entries are sorted in chronological order.
 
@@ -380,3 +380,9 @@ This page contains contains some of my personal reflections. Entries are sorted 
 
 
 - You can paint and decorate the walls of your prison cell however you want, but you’re still a prisoner.<br>
+
+
+- Never forgive someone if you’re not yet complete. Otherwise, you’ll end up more unable to forgive.<br>
+
+
+- It doesn’t matter what evil the world has done to you. What matters is what good you’ll give to it.<br>

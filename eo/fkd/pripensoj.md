@@ -3,7 +3,7 @@ Pripensoj
 
 <div class="center">Esperanto ▪ [English](/en/reflections/)</div>
 <div class="center">la 3-an de Novembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 14-an de Januaro 2020</div>
+<div class="center">Laste ĝisdatigita: la 26-an de Januaro 2021</div>
 
 Ĉi tiu paĝo enhavas kelke da miaj propraj pripensoj. La enskriboj estas
 ordigitaj laŭ kronologiordo.
@@ -385,3 +385,9 @@ ordigitaj laŭ kronologiordo.
 
 
 - Oni povas pentri kaj ornami sian karceron iamaniere, sed oni ankoraŭ estas malliberulo.<br>
+
+
+- Iun neniam pardonu se oni ne ankoraŭ plenas. Alie oni fariĝos pli malkapabla por pardoni.<br>
+
+
+- Ne gravas kiajn pekojn la mondo faris al vi. Gravas kiajn bonfarojn vi donos al ĝi.<br>
