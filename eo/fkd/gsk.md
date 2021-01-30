@@ -169,4 +169,4 @@ Okazos samspeca agmaniero se oni ĉifras dosieron GPG-e:
 La paŝoj parolis supre estis intencitaj por esti mallongaj sen priparoli la malsimplajn
 detalojn. Mi esperas ke oni trovis ĉi tiun utila.
 
-_Dank’ al [Raymund MARTINEZ](https://zhaqenl.github.io) pro la korektoj._
+_Dank’ al [Raymund Mᴀʀᴛɪɴᴇᴢ](https://zhaqenl.github.io) pro la korektoj._

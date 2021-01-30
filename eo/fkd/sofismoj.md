@@ -566,4 +566,4 @@ malvalidigas. Ĉi tio rilatas al apelo al devenoj.
 
 Mi esperas, ke per ĉi tiu afiŝo, na pli da pensada klareco mi povis doni.
 
-_Dank’ al [Raymund MARTINEZ](https://zhaqenl.github.io) pro la korektoj._
+_Dank’ al [Raymund Mᴀʀᴛɪɴᴇᴢ](https://zhaqenl.github.io) pro la korektoj._
