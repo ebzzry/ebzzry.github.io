@@ -1726,4 +1726,4 @@ nix-repl> let y = x: ((f: (x (v: ((f f) v)))) (f: (x (v: ((f f) v))))); b = p: (
 nix-repl>
 ```
 
-_Dank’ al [Dan Svoboda](https://github.com/dansvo) pro la korektoj._
+_Dank’ al [Dan Sᴠᴏʙᴏᴅᴀ](https://github.com/dansvo) pro la korektoj._

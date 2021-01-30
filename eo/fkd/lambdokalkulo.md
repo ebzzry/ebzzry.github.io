@@ -509,7 +509,7 @@ B11
 Oni simple ungogratis la tegon de la lambdokalkulo, tamen oni ĵus spektis ĝian vastegan espriman
 potencon, konsidere al kiel minimune la sistemo difinitas.
 
-_Dank’ al [Lucas Lugao](https://github.com/lucaslugao) pro la korektoj._
+_Dank’ al [Lucas Lᴜɢᴀᴏ](https://github.com/lucaslugao) pro la korektoj._
 
 
 <a name="fontindikoj"></a>Fontindikoj

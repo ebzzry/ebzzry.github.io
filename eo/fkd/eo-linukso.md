@@ -178,4 +178,4 @@ gravas por noti, ke ambaŭ metodojn oni povas uzi samtempe.
 
 🐧—Ĝis la revido!
 
-_Dank’ al [Raymund MARTINEZ](https://zhaqenl.github.io) pro la korektoj._
+_Dank’ al [Raymund Mᴀʀᴛɪɴᴇᴢ](https://zhaqenl.github.io) pro la korektoj._

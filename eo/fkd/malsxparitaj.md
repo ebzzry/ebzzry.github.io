@@ -89,4 +89,4 @@ por esti kapabla kuri ĉirkaŭ la stadionon facile. Kiam ni kuraĝas esplori nek
 teritoriojn, sen bedaŭroj, sen disreviĝoj, sen la neceseco por havi alian ŝipon por irigi nin
 antaŭe, ni iutempe venkos.
 
-_Dank’ al [Raymund MARTINEZ](https://zhaqenl.github.io) pro la korektoj._
+_Dank’ al [Raymund Mᴀʀᴛɪɴᴇᴢ](https://zhaqenl.github.io) pro la korektoj._

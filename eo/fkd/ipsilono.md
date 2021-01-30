@@ -193,4 +193,4 @@ Kiam la kernaj konceptoj estas komprenataj, estos facile por kapti la ŝajne mal
 esperas, ke ĉi tiu artikolo estas utila fari onin kompreni la ipsilonan kombinatoron,
 funkcivokarigon, kaj proceduran aplikon.
 
-_Dank’ al [Raymund MARTINEZ](https://zhaqenl.github.io) pro la korektoj._
+_Dank’ al [Raymund Mᴀʀᴛɪɴᴇᴢ](https://zhaqenl.github.io) pro la korektoj._
