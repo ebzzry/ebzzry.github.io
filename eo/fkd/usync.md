@@ -92,4 +92,4 @@ Kelkaj dosieroj kaj regulesprimoj enkonstruitas kiel eksigoj. Ili eble faras sen
 vi opinias, ke ili devas esti ŝanĝitaj, liberiĝu por sendi tirpeton. La fontoj haveblas
 [ĉi tie](https://github.com/ebzzry/usync).
 
-_Dank’ al [Raymund MARTINEZ](https://zhaqenl.github.io) pro la korektoj._
+_Dank’ al [Raymund Mᴀʀᴛɪɴᴇᴢ](https://zhaqenl.github.io) pro la korektoj._
