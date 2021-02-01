@@ -6,7 +6,7 @@ Retnodojn Sinkronigi per Usync
 <div class="center">Laste ĝisdatigita: la 9-an de Marto 2019</div>
 
 >Kion mi ne povas krei, mi ne komprenas.<br>
->―Richard P. FEYNMAN
+>―Richard P. Fᴇʏɴᴍᴀɴ
 
 Lok-al-loka sinkronigo kutime bezonatas, kiam du lokoj, sendepende kreas dosierajn ĝisdatigojn. Ni
 diru, ke la firmao _Okininam_ havas du oficejojn. En la unua oficejo, ili havas la librotenadan kaj

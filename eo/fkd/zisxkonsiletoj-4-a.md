@@ -6,7 +6,7 @@ Ziŝaj Konsiletoj 4-a: Ĝeneralhelpiloj
 <div class="center">Laste ĝisdatigita: la 2-an de Decembro 2019</div>
 
 >Vidpunkto meritas okdek poentojn da inteligentecaj kvocientoj.<br>
->―Alan KAY
+>―Alan Kᴀʏ
 
 Lastfoje, mi parolis pri la helpilaj funkcioj por asisti en la mastrumado de radikigmedioj. En ĉi
 tiu artikolo, mi parolos pri ĝeneralaj helpiloj por labori sur la komandlinio. Mi ankaŭ parolos pri

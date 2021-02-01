@@ -6,7 +6,7 @@ Signoj kaj Interpunkcioj
 <div class="center">Laste ĝisdatigita: la 2-an de Decembro 2019</div>
 
 >Se grandiozon oni volas atingi, konsentojn ĉesu peti.<br>
->―Eddie COLLA
+>―Eddie Cᴏʟʟᴀ
 
 *[Ĉi tien](/eo/signoj-interpunkcioj-mallongigite/) klaku por la mallongigita versio.*
 

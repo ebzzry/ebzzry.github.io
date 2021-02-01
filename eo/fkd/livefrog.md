@@ -6,7 +6,7 @@ Migri de LiveJournal al Frog
 <div class="center">Laste ĝisdatigita: la 14-an de Aŭgusto 2019</div>
 
 >Mi ne scias kien mi iras, sed mi estas sur mia vojo.<br>
->―Carl SAGAN
+>―Carl Sᴀɢᴀɴ
 
 Estas tempoj kiam oni volas havi pli da rego sur la enhavo. Estas ankaŭ tempoj kiam oni ne volas
 alian platformon por dikti tion, kion eniras aŭ eliras. Aferoj kiel cenzurado kaj politikoj, facile

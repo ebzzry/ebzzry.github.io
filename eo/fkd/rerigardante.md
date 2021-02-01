@@ -6,7 +6,7 @@ Rerigardante
 <div class="center">Laste ĝisdatigita: la 9-an de Marto 2019</div>
 
 >El la militolernejo de la vivo: kion ne detruas min, igas min pli forte.<br>
->―Friedrich NIETZSCHE
+>―Friedrich Nɪᴇᴛᴢsᴄʜᴇ
 
 Mi ne tute aprezis tion, kion tiuj vortoj signifis antaŭ nun. Mi lernis, ke krom la sperto,
 estas alia grava afero, kiun la vivo instruas nin—travivado. Kiam ni estas en la rando de

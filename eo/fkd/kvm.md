@@ -6,7 +6,7 @@ Virtualigado en Linukso per KVM
 <div class="center">Laste ĝisdatigita: la 2-an de Decembro 2019</div>
 
 >Se tion oni faras, kion oni ĉiam faras; tion oni akiros, kion oni ĉiam akiras.<br>
->―Anthony ROBBINS
+>―Anthony Rᴏʙʙɪɴs
 
 La [tutvirtualigadajn](https://en.wikipedia.org/wiki/Full_virtualization) solvojn kiel
 *VMware Workstation*, *Oracle VirtualBox*, kaj *Parallels* plejmulto da oni konas. En

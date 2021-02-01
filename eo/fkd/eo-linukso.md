@@ -7,7 +7,7 @@ Esperanto-signoj en Linukso
 
 >Se ion oni volas, kion oni neniam havis, oni devas esti servopreta tion fari, kion oni neniam
 >faris.<br>
->―Thomas JEFFERSON
+>―Thomas Jᴇғғᴇʀsᴏɴ
 
 Mi opinias, ke la [h-](https://eo.wikipedia.org/wiki/H-sistemo) kaj la
 [x-sistemoj](https://eo.wikipedia.org/wiki/X-sistemo) ne plu devas uzitaj por la signojn enigi

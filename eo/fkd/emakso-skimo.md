@@ -6,7 +6,7 @@ Skimprogramadon Agordi en Emakso
 <div class="center">Laste ĝisdatigita: la 2-an de Decembro 2019</div>
 
 >Ĉiom da bonaj ideoj ne kuŝas sub unu ĉapelo.<br>
->―Dale TURNER
+>―Dale Tᴜʀɴᴇʀ
 
 En ĉi tiu afiŝo, mi priparolos la plej facilan alproksimiĝon, kiun mi uzis
 agordi [skiman](https://eo.wikipedia.org/wiki/Skimo) programadan medion

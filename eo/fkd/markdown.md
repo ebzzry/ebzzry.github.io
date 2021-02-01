@@ -6,7 +6,7 @@ Mia Markdown-Stila Gvidilo
 <div class="center">Laste ĝisdatigita: la 2-an de Decembro 2019</div>
 
 >La reglamentoj kiuj direktas cirkonstancojn nuliĝis per novaj cirkonstancoj.<br>
->―Napoleono BONAPARTE
+>―Napoleono Bᴏɴᴀᴘᴀʀᴛᴇ
 
 Skribi per Markdown plaĉas al mi. Ĝi estas legebla, plumpeza, kaj portebla. Ĝi estas platteksta do
 specialajn apojn oni ne plu bezonas por legi kaj skribi kun ĝi. En ĉi tiu artikolo miajn proprajn

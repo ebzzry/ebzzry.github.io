@@ -6,7 +6,7 @@ Kiel Komuniki Samkiel Homo
 <div class="center">Laste ĝisdatigita: la 2-an de Decembro 2019</div>
 
 >La kapablo por paroli ne igas onin saĝa.<br>
->―Qui-gon JINN
+>―Qui-gon Jɪɴɴ
 
 La komunikadon ni traktas nepripensinde. Nur ĉar oni povas paroli ne signifas, ke oni povas
 komuniki. Ĉiutage kian ajn perilon ni uzas por ideojn, mesaĝojn, kaj absurdaĵojn alparoli unu la
