@@ -3,7 +3,7 @@ Pripensoj
 
 <div class="center">Esperanto ▪ [English](/en/reflections/)</div>
 <div class="center">la 3-an de Novembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 26-an de Januaro 2021</div>
+<div class="center">Laste ĝisdatigita: la 1-an de Februaro 2021</div>
 
 Ĉi tiu paĝo enhavas kelke da miaj propraj pripensoj. La enskriboj estas
 ordigitaj laŭ kronologiordo.
@@ -391,3 +391,6 @@ ordigitaj laŭ kronologiordo.
 
 
 - Ne gravas kiajn pekojn la mondo faris al vi. Gravas kiajn bonfarojn vi donos al ĝi.<br>
+
+
+- Nur pro tio ke ĝin oni ne povas rimarki, ne signifas, ke ĝi ne okazas.<br>

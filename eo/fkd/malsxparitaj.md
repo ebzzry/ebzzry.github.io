@@ -6,7 +6,7 @@ Malŝparitaj Malcedemoj
 <div class="center">Laste ĝisdatigita: la 3-an de Oktobro 2019</div>
 
 >La unua paŝo por iri ien, estas decidi, ke oni ne restos kie oni estas.<br>
->―J.P. MORGAN
+>―J.P. Mᴏʀɢᴀɴ
 
 Estas zorgiga kaj tremiga sentaĵo, kiun mi sentas kiam ajn venas la malvarma konscio, ke mi ne plu
 estas juna infano. La maltrankvila barakto inter lerni liberigi la antaŭsignan estintecon kaj la

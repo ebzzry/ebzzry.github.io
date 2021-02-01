@@ -6,7 +6,7 @@ Kiel Mi Ruliĝas per Tmux
 <div class="center">Laste ĝisdatigita: la 1-an de Decembro 2019</div>
 
 >Furioza agado ne estas anstataŭaĵo de komprenado.<br>
->―H.H. WILLIAMS
+>―H.H. Wɪʟʟɪᴀᴍs
 
 Samkiel redaktilo, terminalsimulila kunigilo estas unu el la malmultaj iloj kiu
 na multe da produktiveco liveras ekde ĝin oni lernas kiel uzi. En ĉi artikolo

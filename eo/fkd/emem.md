@@ -7,7 +7,7 @@ Konverti de Markdown al HTML per emem
 
 >Oni ne trovos la respondojn kiujn oni serĉas ĝis oni haltas serĉi ekster kaj komenciĝas serĉi ilin
 >el oni mem.<br>
->―Memory GATEKEEPER, Ergo Proxy
+>―JJ, Ergo Proxy
 
 Manieron por HTML-dokumentojn krei el miaj Markdown-dosieroj mi ĉiam volis. Komence,
 HTML-dosierojn el miaj tekstaj dosieroj mi nur volis havi por ke ilin mi povu vidi per mia
