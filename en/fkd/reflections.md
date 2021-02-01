@@ -389,3 +389,6 @@ This page contains contains some of my personal reflections. Entries are sorted 
 
 
 - Just because you can’t observe it doesn’t mean it’s not happening.<br>
+
+
+- The weight of a loss is directly proportional to the perceived value of the thing lost.<br>
