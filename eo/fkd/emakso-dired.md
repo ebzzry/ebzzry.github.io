@@ -6,7 +6,7 @@ Dosierujojn Mastrumi en Emakso
 <div class="center">Laste ĝisdatigita: la 26-an de Aŭguto 2019</div>
 
 >Supozi bonas, tamen eltrovi pli bonas.<br>
->―Samuel CLEMENS
+>―Samuel Cʟᴇᴍᴇɴs
 
 En ĉi tiu afiŝo, mi fokusas sur unu el la plej lertaj manieroj, kiel Emakso traktas dosierujan
 administradon. La dosierujrekdatilo _Dired_ (angle prononcata *dir-ed*), estas la Emaksa

@@ -7,7 +7,7 @@ Agordi na GPG kaj na SSH en KDE
 
 >Ne tute estas grave por prave atingi tion en la unua fojo. Estas vitale grava atingi tion en la
 >lasta tempo.<br>
->―Andrew HUNT kaj David THOMAS
+>―Andrew Hᴜɴᴛ kaj David Tʜᴏᴍᴀs
 
 Kiam kaj GPG kaj SSH bone enkonstruitas kun KDE, estas facile por kunoperacii tiujn
 sistemojn. Estas kontrasto inter malfirme adaptita ganto kaj tiu, kiu tre bone adaptiĝas.
