@@ -394,3 +394,6 @@ ordigitaj laŭ kronologiordo.
 
 
 - Nur pro tio ke ĝin oni ne povas rimarki, ne signifas, ke ĝi ne okazas.<br>
+
+
+- La graveco de perdo estas rekte proporcie kun la perceptita valoro de la perdo.<br>
