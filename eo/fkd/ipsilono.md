@@ -6,7 +6,7 @@ La Ipsilonkombinatoro en Ses Paŝoj
 <div class="center">Laste ĝisdatigita: la 28-an de Septembro 2018</div>
 
 >Unue, decidu. Kaj faru ĝin. Estas la nur maniero por atingi ion.<br>
->―Lacus CLYNE, Gundam SEED Destiny
+>―Lacus Cʟʏɴᴇ, Gundam SEED Destiny
 
 Multe da ni estis instruitaj ke, por difini rikuran proceduron, la rikura alvoko devas uzi la
 nomon de la rikuran proceduron. La

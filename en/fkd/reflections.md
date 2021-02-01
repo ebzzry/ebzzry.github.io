@@ -386,3 +386,6 @@ This page contains contains some of my personal reflections. Entries are sorted 
 
 
 - It doesn’t matter what evil the world has done to you. What matters is what good you’ll give to it.<br>
+
+
+- Just because you can’t observe it doesn’t mean it’s not happening.<br>

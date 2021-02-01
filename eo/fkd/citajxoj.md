@@ -402,7 +402,7 @@ tra la jarojn, ĉi tiu paĝo enhavas.
 
 
 - Oni ne trovos la respondojn kiujn oni serĉas ĝis oni haltas serĉi ekster kaj
-  komenciĝas serĉi ilin el oni mem.<br>―Memory Gᴀᴛᴇᴋᴇᴇᴘᴇʀ, Ergo Proxy
+  komenciĝas serĉi ilin el oni mem.<br>―JJ, Ergo Proxy
 
 
 - Kosmo sen sciiĝo multe similas al stakego de putrataj libroj—porĉiame fermataj

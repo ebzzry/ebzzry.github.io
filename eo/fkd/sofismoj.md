@@ -6,7 +6,7 @@ Milda Enkonduko al Sofismoj
 <div class="center">Laste ĝisdatigita: la 2-an de Decembro 2019</div>
 
 >Lerni ne necesas; nek travivas.<br>
->―W. Edwards DEMING
+>―W. Edwards Dᴇᴍɪɴɢ
 
 <img src="/bil/wallhaven-73145-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-333472" title="wallhaven-333472"/>
 
