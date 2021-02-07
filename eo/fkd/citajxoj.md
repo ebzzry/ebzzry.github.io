@@ -3,7 +3,7 @@ Citaĵoj
 
 <div class="center">Esperanto ▪ [English](/en/quotes/)</div>
 <div class="center">la 15-an de Novembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 1-an de Februaro 2021</div>
+<div class="center">Laste ĝisdatigita: la 7-an de Februaro 2021</div>
 
 <img src="/bil/wallhaven-77816-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -871,3 +871,6 @@ tra la jarojn, ĉi tiu paĝo enhavas.
 
 
 - Io ajn kiuj registriĝos parolas rekte al la estonteco.<br>―Priya, Tenet (2020)
+
+
+- Se vi povas iri tra la tago kaj ankoraŭ povas dormi je la nokto, vi faras pli bone ol la plimulto.<br>―Migs Mᴀʏғᴇʟᴅ, The Mandalorian (2019)
