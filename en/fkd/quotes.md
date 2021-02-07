@@ -3,7 +3,7 @@ Quotes
 
 <div class="center">[Esperanto](/eo/citajxoj/) ▪ English</div>
 <div class="center">August 29, 2015</div>
-<div class="center">Last updated: February 1, 2021</div>
+<div class="center">Last updated: February 7, 2021</div>
 
 <img src="/bil/wallhaven-77816-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -872,3 +872,6 @@ have collected over the years.
 
 
 - Anything that goes into the record speaks directly to the future.<br>―Priya, Tenet (2020)
+
+
+- If you can make it through your day and still sleep at night, you’re doin’ better than most.<br>―Migs Mayfeld, The Mandalorian (2019)
