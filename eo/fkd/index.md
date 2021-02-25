@@ -14,7 +14,7 @@ enskriboj estas ordigitaj laŭ inverskronologiordo.</div>
 - [Milda Enkonduko al Nedeterminismo en Skimo](amb/)
 - [Ziŝaj Konsiletoj 4-a: Ĝeneralhelpiloj](zisxkonsiletoj-4-a/)
 - [Ziŝaj Konsiletoj 3-a: Ŝanĝradikighelpiloj](zisxkonsiletoj-3-a/)
-- [Kiel Mi Ruliĝas per Tmux](tmux/)
+- [Kiel Timukson Mi Uzas](timukso/)
 - [Ziŝaj Konsiletoj 2-a: Dosierujstakoj](zisxkonsiletoj-2-a/)
 - [Ziŝaj Konsiletoj 1-a: Alinomoj kaj Funkcioj](zisxkonsiletoj-1-a/)
 - [Skriptado en Komunlispo](lispon-skripti/)
