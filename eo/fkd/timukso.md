@@ -1,18 +1,18 @@
-Kiel Mi Ruliĝas per Tmux
-========================
+Kiel Timukson Mi Uzas
+=====================
 
 <div class="center">Esperanto ▪ [English](/en/tmux/)</div>
 <div class="center">la 26-an de Septembro 2018</div>
-<div class="center">Laste ĝisdatigita: la 1-an de Decembro 2019</div>
+<div class="center">Laste ĝisdatigita: la 25-an de Februaro 2019</div>
 
 >Furioza agado ne estas anstataŭaĵo de komprenado.<br>
 >―H.H. Wɪʟʟɪᴀᴍs
 
 Samkiel redaktilo, terminalsimulila kunigilo estas unu el la malmultaj iloj kiu
-na multe da produktiveco liveras ekde ĝin oni lernas kiel uzi. En ĉi artikolo
-pri parolos pri [tmux](https://github.com/tmux/tmux)—seanca mastrumilo,
+na multe da produktiveco liveras ekde ĝin oni lernas kiel uzi. En ĉi tiu artikolo
+mi parolos pri [timukso](https://github.com/tmux/tmux)—seanca mastrumilo,
 kunigilo, fenesadministrilo, kaj unu el la plej gravaj programaroj kiu la
-manieron en kiu komputadon mi faras ŝanĝis.
+manieron ŝanĝis en kiu komputadon mi faras.
 
 
 <a name="et"></a>Enhavotabelo
@@ -43,11 +43,11 @@ De longe na [GNU Screen](https://www.gnu.org/software/screen/) mi uzis por kunig
 vigliga sento kiam la konekton al maŝino oni perdas nur por malkovri poste, ke la porgramo kiun oni
 kurigis antaŭe ankoraŭ kuras.
 
-Tamen, kiam na tmux mi malkovris, mi rapide eksciis tiom mankadis al mi. Kaj tmux kaj screen estas
+Tamen, kiam timukson mi malkovris, mi rapide eksciis tiom mankadis al mi. Kaj timukso kaj screen estas
 kunigiloj, sed iel malsamajn problemojn ili taktas. En mia propra kazo, tiuj, kiuj mankis al mi de
-screen, tmux provizis.
+screen, timukso provizis.
 
-En ĉi tiu artikolo, onin mi kondukas al mia agordaĵo kaj krudan ideon kiel mi ruliĝas per tmux mi
+En ĉi tiu artikolo, onin mi kondukas al mia agordaĵo kaj krudan ideon kiel mi ruliĝas per timukso mi
 donos.
 
 
@@ -114,7 +114,7 @@ La klavon <kbd>C-z k</kbd> mi bindis por la bufran historion purigi por la vidon
 <a name="fenestroj"></a>Fenestroj
 ---------------------------------
 
-Fenestroj estas la ekvivalentoj de retumilaj langetoj en tmux. Seancojn ĝi organizas al subseancoj.
+Fenestroj estas la ekvivalentoj de retumilaj langetoj en timukso. Seancojn ĝi organizas al subseancoj.
 
 
 ### <a name="fenestrojmovado"></a>Movado
@@ -295,7 +295,7 @@ respektive.
 
 
 Na *tmux-resurrect* ĉi tio komplementas per la seancojn aŭtomate restaŭri en la komenca startigo de
-tmux.
+timukso.
 
     set -g @plugin 'tmux-plugins/tmux-yank'
 
@@ -313,7 +313,7 @@ Por na ĉiom da kromprogramoj instali, na <kbd>C-z I</kbd> premu.
 <a name="zonoj"></a>Zonoj
 -------------------------
 
-Per tmux aliron al la tri zonoj mi havas samtempe: la `PRIMARY`-, `CLIPBOARD`-, kaj la tmux-zonoj.
+Per timukso, aliron al la tri zonoj mi havas samtempe: la `PRIMARY`-, `CLIPBOARD`-, kaj la timukso-zonoj.
 
 La `PRIMARY`-zono estas tiu, kiu estas engaĝita kiam ion oni markas per la musmontrilo. La
 enhavon de ĝi oni povas elĉerpi per la mezklaka musbutono aŭ <kbd>Shift+Insert</kbd>.
@@ -323,12 +323,12 @@ kutime farite per <kbd>C-c</kbd>, `Dekstre klaki > Kopii`, aŭ `Redakti > Kopii`
 kiel retumiloj. La enhavon de ĝi oni povas elĉerpi per <kbd>C-v</kbd>, `Dekstre klaki > Alglui`, aŭ
 `Redakti > Alglui`.
 
-La tmux-zono estas tiu, kiu estas engaĝita kiam la kopian reĝimon oni eniras. Ĉi tio estas farita
+La timukso-zono estas tiu, kiu estas engaĝita kiam la kopian reĝimon oni eniras. Ĉi tio estas farita
 per na <kbd>C-z [</kbd> premi unue, tiam na <kbd>C-Space</kbd> premu por la komencon marki, tiam la
 movadajn klavojn premi por la areon etendi, kaj fine na <kbd>M-w</kbd> premu por la enhavojn
 kopii. La enhavon de ĝi oni povas elĉerpi per na <kbd>C-z ]</kbd> premi.
 
-Per tmux la musmontrilon mi ne plu bezonas uzi por la zonojn mastrumi.
+Per timukso la musmontrilon mi ne plu bezonas uzi por la zonojn mastrumi.
 
 
 <a name="elprovado"></a>Elprovado
@@ -338,7 +338,7 @@ Se ĉi tiujn agordojn oni volas priludi, mian agordon oni povas elŝuti al la si
 
     $ mv ~/.tmux.conf{,.backup}
 
-Tiam na tmux mortigu:
+Tiam timukson mortigu:
 
     $ killall tmux
 
@@ -346,17 +346,17 @@ Tiam la agorddosieron ni instalu:
 
     $ curl -SLo ~/.tmux.conf https://raw.githubusercontent.com/ebzzry/dotfiles/master/tmux/.tmux.conf
 
-Fine, na tmux reŝarĝi:
+Fine, timukson reŝargu:
 
     $ tmux
 
-Se tmux plendas, ke mankas iom da kromprogramoj, na <kbd>C-z I</kbd> premu:
+Se timukso plendas, ke mankas iom da kromprogramoj, na <kbd>C-z I</kbd> premu:
 
 
 <a name="finrimarkoj"></a>Finrimarkoj
 -------------------------------------
 
-Tmux estas unu el la iloj, kiun oni devas havi laborante sur la terminalsimulilo kaj komandlinio. Laborfluon kio estas aliokaze malfacila per aliaj kunigiloj, aŭ tre malfacila por fari per kutimaj nemastrumitaj seancoj ĝi ebligas. Por la restantaj difinoj iru
+Timukso estas unu el la iloj, kiun oni devas havi laborante sur la terminalsimulilo kaj komandlinio. Laborfluon kio estas aliokaze malfacila per aliaj kunigiloj, aŭ tre malfacila por fari per kutimaj nemastrumitaj seancoj ĝi ebligas. Por la restantaj difinoj iru
 [ĉi tien](https://github.com/ebzzry/dotfiles/tree/master/tmux/.tmux.conf).
 
 Se giton vi uzas, la artikolo pri kiel ĝi mi uzas, eble ankaŭ plaĉas al vi. Ĝi

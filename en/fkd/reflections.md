@@ -3,7 +3,7 @@ Reflections
 
 <div class="center">[Esperanto](/eo/pripensoj/) ▪ English</div>
 <div class="center">November 24, 2015</div>
-<div class="center">Last updated: January 26, 2021</div>
+<div class="center">Last updated: February 22, 2021</div>
 
 This page contains contains some of my personal reflections. Entries are sorted in chronological order.
 
@@ -361,7 +361,7 @@ This page contains contains some of my personal reflections. Entries are sorted 
 - When in doubt, doubt.<br>
 
 
-- Most people need leaders because most people are not leaders.<br>
+- Most people need a leader because most people aren’t.<br>
 
 
 - If you can do it right the first time, why not?<br>
