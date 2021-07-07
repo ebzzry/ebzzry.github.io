@@ -3,7 +3,7 @@ Citaĵoj
 
 <div class="center">Esperanto ▪ [English](/en/quotes/)</div>
 <div class="center">la 15-an de Novembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 7-an de Februaro 2021</div>
+<div class="center">Laste ĝisdatigita: la 16-an de Aprilo 2021</div>
 
 <img src="/bil/wallhaven-77816-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -141,7 +141,7 @@ tra la jarojn, ĉi tiu paĝo enhavas.
   de la moraleco per religio.<br>―Arthur C. Cʟᴀʀᴋᴇ
 
 
-- La nur maniero por trovi la limojn de la ebleco estas per iri ekster ilin en
+- La nura maniero por trovi la limojn de la ebleco estas per iri ekster ilin en
   la maleblecon.<br>―Arthur C. Cʟᴀʀᴋᴇ
 
 
@@ -298,7 +298,7 @@ tra la jarojn, ĉi tiu paĝo enhavas.
 - Oni maltrafas 100% da pafo, kiujn oni ne prenas.<br>―Wayne Gʀᴇᴛᴢᴋʏ
 
 
-- Ne estas pri se oni frapigita, estas ĉu oni povas stari.<br>―Vince Lᴏᴍʙᴀʀᴅɪ
+- Ne estas pri se oni estas frapigita, estas ĉu oni povas stari.<br>―Vince Lᴏᴍʙᴀʀᴅɪ
 
 
 - Kiam unu pordo fermiĝas, alia pordo malfermiĝas; sed ni tiel ofte vidas tre
@@ -366,11 +366,11 @@ tra la jarojn, ĉi tiu paĝo enhavas.
   sekurecon, meritas nek liberecon nek sekurecon.<br>―Benjameno Fʀᴀɴᴋʟᴇɴᴏ
 
 
-- Iru al la klifo kaj forsaltu. Konstruu oniajn flugilojn survoje
+- Iru al la klifo kaj forsaltu. Konstruu la flugilojn survoje
   malsupren.<br>―Ray Bʀᴀᴅʙᴜʀʏ
 
 
-- Unue, decidu. Kaj faru ĝin. Estas la nur maniero por atingi ion.<br>―Lacus
+- Unue, decidu. Kaj faru ĝin. Estas la nura maniero por atingi ion.<br>―Lacus
   Cʟʏɴᴇ, Gundam SEED Destiny
 
 
@@ -386,7 +386,7 @@ tra la jarojn, ĉi tiu paĝo enhavas.
   determinas la estontecon de la socio.<br>―Akane Tsᴜɴᴇᴍᴏʀɪ, Psycho-Pass
 
 
-- Ne forgesu, ke oni certe mortos iutage, kaj tiel, estas la pli racio por vivi
+- Ne forgesu, ke oni certe mortos iutage, kaj pro tio, estas pli racie por vivi
   nun.<br>―Decim, Death Parade
 
 
@@ -402,7 +402,7 @@ tra la jarojn, ĉi tiu paĝo enhavas.
 
 
 - Oni ne trovos la respondojn kiujn oni serĉas ĝis oni haltas serĉi ekster kaj
-  komenciĝas serĉi ilin el oni mem.<br>―JJ, Ergo Proxy
+  komenciĝas serĉi ilin el si mem.<br>―JJ, Ergo Proxy
 
 
 - Kosmo sen sciiĝo multe similas al stakego de putrataj libroj—porĉiame fermataj
@@ -417,14 +417,13 @@ tra la jarojn, ĉi tiu paĝo enhavas.
   esti la persono mi pensis, ili volis.<br>―Vincent Lᴀᴡ, Ergo Proxy
 
 
-- La admirado estas feliĉa memrezigno; la envio estas malfeliĉa
-  memaserto.<br>―Søren Kɪᴇʀᴋᴇɢᴀᴀʀᴅ
+- Admirado estas feliĉa memrezigno; envio estas malfeliĉa memaserto.<br>―Søren Kɪᴇʀᴋᴇɢᴀᴀʀᴅ
 
 
 - La plej granda danĝero okazas en la momento de venko.<br>―Napoleono Bᴏɴᴀᴘᴀʀᴛᴇ
 
 
-- La reglamentoj kiuj direktas cirkonstancojn nuliĝis per novaj
+- La reglamentoj kiuj direktas cirkonstancojn estas nuligitaj per novaj
   cirkonstancoj.<br>―Napoleono Bᴏɴᴀᴘᴀʀᴛᴇ
 
 
@@ -433,14 +432,14 @@ tra la jarojn, ĉi tiu paĝo enhavas.
   genio.<br>―Tzu Sᴜɴ
 
 
-- La viro kiu diras ke, ne fareblas, ĝenerale interrompatas per iu, kiu faras
+- La viro kiu diras, ke, ne fareblas, ĝenerale estas interrompita per iu, kiu faras
   ĝin.<br>―Elbert Hᴜʙʙᴀʀᴅ
 
 
 - La kosmo ne havas devon por signifi al oni.<br>―Neil deGrasse TYSON
 
 
-- Ju pli rapida oni fortiĝos, des pli facila oni vundiĝos.<br>―Ahmad Taufiq
+- Ju pli rapide oni fortiĝos, des pli facile oni vundiĝos.<br>―Ahmad Taufiq
   Mᴜʜᴀᴍᴍᴀᴅ
 
 
@@ -469,8 +468,7 @@ tra la jarojn, ĉi tiu paĝo enhavas.
   malsukcesi.<br>―Henry Fᴏʀᴅ
 
 
-- La nur viro kiu ne faras erarojn estas la viro kiu ne ĉiam faras
-  ion.<br>―Theodore Rᴏᴏsᴇᴠᴇʟᴛ
+- La nura homo kiu ne faras erarojn estas la homo kiu neniam faras ion.<br>―Theodore Rᴏᴏsᴇᴠᴇʟᴛ
 
 
 - Oni ne devas esti tima revi iom pli granda, kara.<br>―Eames, Inception (2010)
@@ -553,7 +551,7 @@ tra la jarojn, ĉi tiu paĝo enhavas.
 
 
 - El la militolernejo de la vivo: kion ne detruas min, igas min pli
-  forte.<br>―Friedrich Nɪᴇᴛᴢsᴄʜᴇ
+  fortexo.<br>―Friedrich Nɪᴇᴛᴢsᴄʜᴇ
 
 
 - La tri plej gravaj tagoj en onia vivo estas onia naskiĝtago, la tago kiam oni
@@ -582,7 +580,7 @@ tra la jarojn, ĉi tiu paĝo enhavas.
   Lain
 
 
-- Nur ekzistas la korpo por verigi la ekziston de oni.<br>―Miho Iᴡᴀᴋᴜʀᴀ, Serial
+- Nur ekzistas la korpo por verigi sian ekziston.<br>―Miho Iᴡᴀᴋᴜʀᴀ, Serial
   Experiments Lain
 
 
@@ -845,8 +843,8 @@ tra la jarojn, ĉi tiu paĝo enhavas.
   ebligi.<br>Misato Kᴀᴛsᴜʀᴀɢɪ, Neon Genesis Evangelion
 
 
-- La vero estas subjektiva, tial, oni apenaŭ povas diri tion kion oni povas
-  senti kiel efektivaĵo<br>―Ritsuko Aᴋᴀɢɪ, Neon Genesis Evangelion
+- La vero estas subjektiva, tial, oni apenaŭ povas diri tion kion oni povas senti kiel
+  efektivaĵo<br>―Ritsuko Aᴋᴀɢɪ, Neon Genesis Evangelion
 
 
 - Multajn rokojn oni devas forĵeti por ke diamantojn oni povu trovi.<br>―David Bᴇᴛʜᴜɴᴇ
@@ -863,8 +861,8 @@ tra la jarojn, ĉi tiu paĝo enhavas.
   kondutoj povas esti antaŭdiritaj kaj regitaj.<br>―John Taylor Gᴀᴛᴛᴏ
 
 
-- Oni povas elpreni la homon el la arbaro, tamen oni ne povas elpreni la arbaron el la homo.<br>―Gary
-  Pᴀᴜʟsᴇɴ
+- Oni povas elpreni la homon el la arbaro, tamen oni ne povas elpreni la arbaron el la
+  homo.<br>―Gary Pᴀᴜʟsᴇɴ
 
 
 - Oni ĉiam mortas aŭ tro malfrue—aŭ tro frue.<br>―Jean-Paul Sᴀʀᴛʀᴇ
@@ -873,4 +871,5 @@ tra la jarojn, ĉi tiu paĝo enhavas.
 - Io ajn kiuj registriĝos parolas rekte al la estonteco.<br>―Priya, Tenet (2020)
 
 
-- Se vi povas iri tra la tago kaj ankoraŭ povas dormi je la nokto, vi faras pli bone ol la plimulto.<br>―Migs Mᴀʏꜰᴇʟᴅ, The Mandalorian (2019)
+- Se vi povas iri tra la tago kaj ankoraŭ povas dormi je la nokto, vi faras pli bone ol la
+  plimulto.<br>―Migs Mᴀʏꜰᴇʟᴅ, The Mandalorian (2019)
