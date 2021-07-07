@@ -198,7 +198,7 @@ Por na ĉiom da subtenitaj opcioj vidi:
 <a name="finrimarkoj"></a>Finrimarkoj
 -------------------------------------
 
-Por ĉi tiu tuta [blogo](https://ebzzry.io), 90+ poentaron mi povis atingi el
+Por ĉi tiu tuta [blogo](https://ebzzry.github.io), 90+ poentaron mi povis atingi el
 [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/), «Mobile-Friendly» pritakso el
 [Google Mobile-Friendly Test](https://search.google.com/test/mobile-friendly), kaj ekonomia rango
 de B el [Pingdom](https://tools.pingdom.com/). Se la TTT-servilajn parametrojn oni povas regi,

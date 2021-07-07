@@ -1,5 +1,5 @@
-ebzzry.io
-=========
+README
+======
 
 Esperanto · [English](README.en.md)
 
@@ -7,7 +7,7 @@ Esperanto · [English](README.en.md)
 Superrigardo
 ------------
 
-La fontojn de [https://ebzzry.io](ebzzry.io) ĉi tiu deponejo enhavas.
+La fontojn de [https://ebzzry.github.io](ebzzry.github.io) ĉi tiu deponejo enhavas.
 
 
 Dependencoj
