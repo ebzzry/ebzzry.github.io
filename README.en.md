@@ -1,5 +1,5 @@
-ebzzry.io
-=========
+README
+======
 
 [Esperanto](README.eo.md) · English
 
@@ -7,7 +7,7 @@ ebzzry.io
 Overview
 --------
 
-This repository contains the sources of [https://ebzzry.io](ebzzry.io).
+This repository contains the sources of [https://ebzzry.github.io](ebzzry.github.io).
 
 
 Dependencies
