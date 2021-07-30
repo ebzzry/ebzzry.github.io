@@ -72,7 +72,7 @@ tra la jarojn, ĉi tiu paĝo enhavas.
 
 
 - Nur pro tio, ke ne fariĝis, ne signifas, ke ne fareblas. Nur pro tio, ke
-  fareblas, ne signifas, ke devus.<br>―Barry Gʟᴀsꜰᴏʀᴅ
+  fareblas, ne signifas, ke devus.<br>―Barry Gʟᴀsғᴏʀᴅ
 
 
 - Lernu la reglamentojn por ke oni sciu kiel ĝuste rompi ilin.<br>―Dalai-lamao
@@ -326,7 +326,7 @@ tra la jarojn, ĉi tiu paĝo enhavas.
 
 
 - Se ion oni volas, kion oni neniam havis, oni devas esti servopreta tion fari,
-  kion oni neniam faris.<br>―Thomas Jᴇꜰꜰᴇʀsᴏɴ
+  kion oni neniam faris.<br>―Thomas Jᴇғғᴇʀsᴏɴ
 
 
 - La plej bona maniero por trovi se oni povas kredi iun, estas kredi
@@ -398,7 +398,7 @@ tra la jarojn, ĉi tiu paĝo enhavas.
 
 
 - Oni povas eltrovi tiun, kiun plej timas siajn malamikojn, per rimarki la
-  manierojn kiuj ili uzas timigi onin.<br>―Eric Hᴏꜰꜰᴇʀ
+  manierojn kiuj ili uzas timigi onin.<br>―Eric Hᴏғғᴇʀ
 
 
 - Oni ne trovos la respondojn kiujn oni serĉas ĝis oni haltas serĉi ekster kaj
@@ -457,7 +457,7 @@ tra la jarojn, ĉi tiu paĝo enhavas.
   trompo, kiom ajn kontentigema kaj trankviligema.<br>―Carl Sᴀɢᴀɴ
 
 
-- Unu fizika testo pli indas ol milo da opinio de spertuloj.<br>―Rick Sᴇɪꜰᴀʀᴛʜ
+- Unu fizika testo pli indas ol milo da opinio de spertuloj.<br>―Rick Sᴇɪғᴀʀᴛʜ
 
 
 - La ekzisto de la vivo bezonas la detruon.<br>―Hugh Dᴇʀʀʏ, Life (2017)
@@ -666,7 +666,7 @@ tra la jarojn, ĉi tiu paĝo enhavas.
   Octoginta
 
 
-- Neniu saĝa homo iam deziris esti pli juna.<br>―Jonathan Sᴡɪꜰᴛ
+- Neniu saĝa homo iam deziris esti pli juna.<br>―Jonathan Sᴡɪғᴛ
 
 
 - Disputante al malsaĝulo, unue certigu, ke la saman ri ne
@@ -872,7 +872,7 @@ tra la jarojn, ĉi tiu paĝo enhavas.
 
 
 - Se vi povas iri tra la tago kaj ankoraŭ povas dormi je la nokto, vi faras pli bone ol la
-  plimulto.<br>―Migs Mᴀʏꜰᴇʟᴅ, The Mandalorian (2019)
+  plimulto.<br>―Migs Mᴀʏғᴇʟᴅ, The Mandalorian (2019)
 
 
 - Oni ne povas atendi ĝis la vivo ne plu estas malfacila antaŭ ol oni decidas esti feliĉa.<br>―Jane Marczweskie (Nightbirde)

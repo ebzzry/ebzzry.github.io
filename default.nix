@@ -1,6 +1,6 @@
 with import <nixpkgs> {};
 
 stdenv.mkDerivation {
-  name = "ebzzry.github.io";
+  name = "nix-shell";
   buildInputs = [ gnumake parallel-rust findutils emem ];
 }
