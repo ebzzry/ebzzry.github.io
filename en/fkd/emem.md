@@ -197,7 +197,7 @@ To view all the supported options:
 <a name="closing"></a> Closing remarks
 --------------------------------------
 
-For this whole [journal](https://ebzzry.github.io), I was able to get a 90+ score
+For this whole [journal](https://ebzzry.com), I was able to get a 90+ score
 from [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/), a
 Mobile-Friendly rating
 from [Google Mobile-Friendly Test](https://search.google.com/test/mobile-friendly), and a
