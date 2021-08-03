@@ -6,6 +6,6 @@ Pri
 <div class="center">Laste ĝisdatigita: la 9-an de Julio 2021</div>
 
 <center>
-[Retpoŝto](mailto:ebzzry@gmail.com) ▪ [GPG](/dat/ebzzry.pub.asc) ▪ [GitHub](https://github.com/ebzzry) ▪ [LinkedIn](https://linkedin.com/in/ebzzry) ▪ [Telegramo](https://t.me/ebzzry)<br>
+[Retpoŝto](mailto:ebzzry@icloud.com) ▪ [GPG](/dat/ebzzry.pub.asc) ▪ [GitHub](https://github.com/ebzzry) ▪ [LinkedIn](https://linkedin.com/in/ebzzry) ▪ [Telegramo](https://t.me/ebzzry)<br>
 [DeviantArt](https://ebzzry.deviantart.com) ▪ [Steam](https://steamcommunity.com/id/ebzzry)
 </center>
