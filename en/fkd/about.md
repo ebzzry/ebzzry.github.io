@@ -6,6 +6,6 @@ About
 <div class="center">Last updated: July 9, 2021</div>
 
 <center>
-[Email](mailto:ebzzry@gmail.com) ▪ [GPG](/dat/ebzzry.pub.asc) ▪ [GitHub](https://github.com/ebzzry) ▪ [LinkedIn](https://linkedin.com/in/ebzzry) ▪ [Telegram](https://t.me/ebzzry)<br>
+[Email](mailto:ebzzry@icloud.com) ▪ [GPG](/dat/ebzzry.pub.asc) ▪ [GitHub](https://github.com/ebzzry) ▪ [LinkedIn](https://linkedin.com/in/ebzzry) ▪ [Telegram](https://t.me/ebzzry)<br>
 [DeviantArt](https://ebzzry.deviantart.com) ▪ [Steam](https://steamcommunity.com/id/ebzzry)
 </center>
