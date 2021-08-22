@@ -3,7 +3,7 @@ La Pensoj de Optimisto
 
 <div class="center">Esperanto ▪ [English](/en/)</div>
 <div class="center">la 27-an de Aprilo 2017</div>
-<div class="center">Laste ĝisdatigita: la 25-an de Februaro 2019</div>
+<div class="center">Laste ĝisdatigita: la 22-an de Aŭgusto 2021</div>
 
 <img src="/bil/pluvis-1008x250.jpg" class="banner" alt="pluvis" title="En la vizaĝo de la kosmo, ni ĉiuj estas porĉiame infanoj." />
 
