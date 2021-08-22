@@ -3,7 +3,7 @@ Signoj kaj Interpunkcioj
 
 <div class="center">Esperanto ▪ [English](/en/symbols-marks/)</div>
 <div class="center">la 16-an de Julio 2018</div>
-<div class="center">Laste ĝisdatigita: la 2-an de Decembro 2019</div>
+<div class="center">Laste ĝisdatigita: la 22-an de Aŭgusto 2021</div>
 
 >Se grandiozon oni volas atingi, konsentojn ĉesu peti.<br>
 >―Eddie Cᴏʟʟᴀ
@@ -133,7 +133,7 @@ Laste, la streketoj uzatas por neesperantigitajn vortojn esprimi. Ekzemple:
 -----------------------------------------
 
 - Linukse: <kbd>🐧</kbd> + <kbd>-</kbd>
-- Makintose: <kbd>⌥</kbd> + <kbd>-</kbd>
+- Makintose: <kbd>⌥</kbd> <kbd>-</kbd>
 - Vindoze: <kbd>Alt</kbd> + <kbd>0</kbd> <kbd>1</kbd> <kbd>5</kbd> <kbd>0</kbd>
 
 La ĝis-streko uzatas por ampleksojn de valoroj esprimi. Spacetojn ne metu ĉirkaŭ ili. Ekzemple,
@@ -173,7 +173,7 @@ Kiam la monatoj samas, la ĝis-strekojn sen spacetoj uzu:
 -------------------------------------------
 
 - Linukse: <kbd>🐧</kbd> + <kbd>Shift</kbd> + <kbd>-</kbd>
-- Makintoŝe: <kbd>⌥</kbd> + <kbd>Shift</kbd> + <kbd>-</kbd>
+- Makintoŝe: <kbd>⇧</kbd> <kbd>⌥</kbd> <kbd>-</kbd>
 - Vindoze: <kbd>Alt</kbd> + <kbd>0</kbd> <kbd>1</kbd> <kbd>5</kbd> <kbd>1</kbd>
 
 La haltostrekoj povas esti uzataj en multaj manieroj. Samkiel ĝis-strekoj, spacetojn ne enmetu
@@ -203,13 +203,13 @@ Por la maldaŭrigon de la parolanto esprimi:
 Maldekstra duobla citilo (“)
 
 - Linukse: <kbd>🐧</kbd> + <kbd>[</kbd>
-- Makintoŝe: <kbd>⌥</kbd> + <kbd>[</kbd>
+- Makintoŝe: <kbd>⌥</kbd> <kbd>[</kbd>
 - Vindoze: <kbd>Alt</kbd> + <kbd>0</kbd> <kbd>1</kbd> <kbd>4</kbd> <kbd>7</kbd>
 
 Dekstra duobla citilo (”)
 
 - Linukse: <kbd>🐧</kbd> + <kbd>]</kbd>
-- Makintoŝe: <kbd>⌥</kbd> + <kbd>Shift</kbd> + <kbd>[</kbd>
+- Makintoŝe: <kbd>⇧</kbd> <kbd>⌥</kbd> <kbd>[</kbd>
 - Vindoze: <kbd>Alt</kbd> + <kbd>0</kbd> <kbd>1</kbd> <kbd>4</kbd> <kbd>8</kbd>
 
 Duoblaj citiloj uzatas por vortojn montri kiuj estas parolataj de parolanto.
@@ -240,13 +240,13 @@ Por plifaciliĝi al kiel ili aperas, ilin pensu kiel flosantaj paroj de sesoj ka
 Maldekstra unuobla citilo (‘)
 
 - Linukse: <kbd>🐧</kbd> + <kbd>`</kbd>
-- Makintoŝe: <kbd>⌥</kbd> + <kbd>]</kbd>
+- Makintoŝe: <kbd>⌥</kbd> <kbd>]</kbd>
 - Vindoze: <kbd>Alt</kbd> + <kbd>0</kbd> <kbd>1</kbd> <kbd>4</kbd> <kbd>5</kbd>
 
 Dekstra unuobla citilo (’)
 
 - Linukse: <kbd>🐧</kbd> + <kbd>'</kbd>
-- Makintoŝe: <kbd>⌥</kbd> + <kbd>Shift</kbd> + <kbd>]</kbd>
+- Makintoŝe: <kbd>⇧</kbd> <kbd>⌥</kbd> <kbd>]</kbd>
 - Vindoze: <kbd>Alt</kbd> + <kbd>0</kbd> <kbd>1</kbd> <kbd>4</kbd> <kbd>6</kbd>
 
 Unuoblaj citiloj uzatas kiam parolo estas enkorpigita ene alia parolo:
@@ -286,13 +286,13 @@ Kiam ritmojn kaj taktojn oni kalkulas, la litero «u» en «unu» povas esti ell
 Primo (′)
 
 - Linukse: <kbd>🐧</kbd> + <kbd>,</kbd>
-- Makintoŝe: <kbd>⌥</kbd> + <kbd>2</kbd> <kbd>0</kbd> <kbd>3</kbd> <kbd>2</kbd>
+- Makintoŝe: <kbd>⇧</kbd> <kbd>⌥</kbd> <kbd>e</kbd>
 - Vindoze: <kbd>Alt</kbd> + <kbd>8</kbd> <kbd>2</kbd> <kbd>4</kbd> <kbd>2</kbd>
 
 Duobla primo (″)
 
 - Linukse: <kbd>🐧</kbd> + <kbd>Shift</kbd> + <kbd>,</kbd>
-- Makintoŝe: <kbd>⌥</kbd> + <kbd>2</kbd> <kbd>0</kbd> <kbd>3</kbd> <kbd>3</kbd>
+- Makintoŝe: <kbd>⇧</kbd> <kbd>⌥</kbd> <kbd>g</kbd>
 - Vindoze: <kbd>Alt</kbd> + <kbd>8</kbd> <kbd>2</kbd> <kbd>4</kbd> <kbd>3</kbd>
 
 La citiloj signoj sur la klavaro (') kaj (") aspektas kiel primaj signoj, bedaŭrinde, ili ne
@@ -319,7 +319,7 @@ indiki, ke la vortoj ĉi-supre devas esti ripetitaj. Ekzemple:
 -------------------------------------
 
 - Linukse: <kbd>🐧</kbd> + <kbd>.</kbd>
-- Makintoŝe: <kbd>⌥</kbd> + <kbd>;</kbd>
+- Makintoŝe: <kbd>⌥</kbd> <kbd>;</kbd>
 - Vindoze: <kbd>Alt</kbd> + <kbd>0</kbd> <kbd>1</kbd> <kbd>3</kbd> <kbd>3</kbd>
 
 La tripunkto uzatas por la forlason de vorto, frazero, frazo, aŭ tuta bloko de teksto montri, kiel

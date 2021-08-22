@@ -10,12 +10,12 @@ La tabelo ĉi-sube estas la mallongigita versio de
 
 | S. | Nomo                      | Linukse        | Makintoŝe     | Vindoze    |
 | :- | :------------------------ | :------------- | :------------ | :--------- |
-| –  | ĝis-streko                | 🐧 + -         | ⌥ + -         | Alt + 0150 |
-| —  | haltostreko               | 🐧 + Shift + - | ⌥ + Shift + - | Alt + 0151 |
-| “  | maldekstra duobla citilo  | 🐧 + [         | ⌥ + [         | Alt + 0147 |
-| ”  | dekstra duobla citilo     | 🐧 + ]         | ⌥ + Shift + [ | Alt + 0148 |
-| ‘  | maldekstra unuobla citilo | 🐧 + `         | ⌥ + ]         | Alt + 0145 |
-| ’  | dekstra unuobla citilo    | 🐧 + '         | ⌥ + Shift + ] | Alt + 0146 |
-| ′  | primo                     | 🐧 + ,         | ⌥ + 2032      | Alt + 8242 |
-| ″  | duobla primo              | 🐧 + Shift + , | ⌥ + 2033      | Alt + 8243 |
-| …  | tripunkto                 | 🐧 + .         | ⌥ + ;         | Alt + 0133 |
+| –  | ĝis-streko                | 🐧 + -         | ⌥ -           | Alt + 0150 |
+| —  | haltostreko               | 🐧 + Shift + - | ⇧ ⌥ -         | Alt + 0151 |
+| “  | maldekstra duobla citilo  | 🐧 + [         | ⌥ [           | Alt + 0147 |
+| ”  | dekstra duobla citilo     | 🐧 + ]         | ⇧ ⌥ [         | Alt + 0148 |
+| ‘  | maldekstra unuobla citilo | 🐧 + `         | ⌥ ]           | Alt + 0145 |
+| ’  | dekstra unuobla citilo    | 🐧 + '         | ⇧ ⌥ ]         | Alt + 0146 |
+| ′  | primo                     | 🐧 + ,         | ⇧ ⌥ e         | Alt + 8242 |
+| ″  | duobla primo              | 🐧 + Shift + , | ⇧ ⌥ g         | Alt + 8243 |
+| …  | tripunkto                 | 🐧 + .         | ⌥ ;           | Alt + 0133 |

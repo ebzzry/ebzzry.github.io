@@ -3,7 +3,7 @@ Symbols and Marks
 
 <div class="center">[Esperanto](/eo/signoj-interpunkcioj/) ▪ English</div>
 <div class="center">April 8, 2016</div>
-<div class="center">Last updated: August 5, 2020</div>
+<div class="center">Last updated: August 22, 2021</div>
 
 >If you want to achieve greatness, stop asking for permission.<br>
 >―Eddie Colla
@@ -95,7 +95,7 @@ To speak of a snake that eats birds, we say:
 ------------------------------------
 
 - Linux: <kbd>🐧</kbd> + <kbd>-</kbd>
-- Mac: <kbd>⌥</kbd> + <kbd>-</kbd>
+- Mac: <kbd>⌥</kbd> <kbd>-</kbd>
 - Windows: <kbd>Alt</kbd> + <kbd>0</kbd> <kbd>1</kbd> <kbd>5</kbd> <kbd>0</kbd>
 
 The en dash is used to denote a range of values. Don’t put spaces around it. To express the date
@@ -122,7 +122,7 @@ When the month is the same, used the unspaced en dash:
 ------------------------------------
 
 - Linux: <kbd>🐧</kbd> + <kbd>Shift</kbd> + <kbd>-</kbd>
-- Mac: <kbd>⌥</kbd> + <kbd>Shift</kbd> + <kbd>-</kbd>
+- Mac: <kbd>⇧</kbd> <kbd>⌥</kbd> <kbd>-</kbd>
 - Windows: <kbd>Alt</kbd> + <kbd>0</kbd> <kbd>1</kbd> <kbd>5</kbd> <kbd>1</kbd>
 
 The em dash can be used in a multitude of ways. Like en dashes, don’t put spaces around it. To use
@@ -152,13 +152,13 @@ To denote interruption of the speaker:
 Left double quotes (“)
 
 - Linux: <kbd>🐧</kbd> + <kbd>[</kbd>
-- Mac: <kbd>⌥</kbd> + <kbd>[</kbd>
+- Mac: <kbd>⌥</kbd> <kbd>[</kbd>
 - Windows: <kbd>Alt</kbd> + <kbd>0</kbd> <kbd>1</kbd> <kbd>4</kbd> <kbd>7</kbd>
 
 Right double quotes (”)
 
 - Linux: <kbd>🐧</kbd> + <kbd>]</kbd>
-- Mac: <kbd>⌥</kbd> + <kbd>Shift</kbd> + <kbd>[</kbd>
+- Mac: <kbd>⇧</kbd> <kbd>⌥</kbd> <kbd>[</kbd>
 - Windows: <kbd>Alt</kbd> + <kbd>0</kbd> <kbd>1</kbd> <kbd>4</kbd> <kbd>8</kbd>
 
 Double quotes are used to denote words that were spoken by a speaker.
@@ -190,13 +190,13 @@ nines:
 Left single quote (‘)
 
 - Linux: <kbd>🐧</kbd> + <kbd>`</kbd>
-- Mac: <kbd>⌥</kbd> + <kbd>]</kbd>
+- Mac: <kbd>⌥</kbd> <kbd>]</kbd>
 - Windows: <kbd>Alt</kbd> + <kbd>0</kbd> <kbd>1</kbd> <kbd>4</kbd> <kbd>5</kbd>
 
 Right single quote (’)
 
 - Linux: <kbd>🐧</kbd> + <kbd>'</kbd>
-- Mac: <kbd>⌥</kbd> + <kbd>Shift</kbd> + <kbd>]</kbd>
+- Mac: <kbd>⇧</kbd> <kbd>⌥</kbd> <kbd>]</kbd>
 - Windows: <kbd>Alt</kbd> + <kbd>0</kbd> <kbd>1</kbd> <kbd>4</kbd> <kbd>6</kbd>
 
 Single quotes are used when a speech is embedded within another speech:
@@ -258,13 +258,13 @@ Here, ‘A’ is the name of a specific train or it denotes a special meaning.
 Prime (′)
 
 - Linux: <kbd>🐧</kbd> + <kbd>,</kbd>
-- Mac: <kbd>⌥</kbd> + <kbd>2</kbd> <kbd>0</kbd> <kbd>3</kbd> <kbd>2</kbd>
+- Mac: <kbd>⇧</kbd> <kbd>⌥</kbd> <kbd>e</kbd>
 - Windows: <kbd>Alt</kbd> + <kbd>8</kbd> <kbd>2</kbd> <kbd>4</kbd> <kbd>2</kbd>
 
 Double prime (″)
 
 - Linux: <kbd>🐧</kbd> + <kbd>Shift</kbd> + <kbd>,</kbd>
-- Mac: <kbd>⌥</kbd> + <kbd>2</kbd> <kbd>0</kbd> <kbd>3</kbd> <kbd>3</kbd>
+- Mac: <kbd>⇧</kbd> <kbd>⌥</kbd> <kbd>g</kbd>
 - Windows: <kbd>Alt</kbd> + <kbd>8</kbd> <kbd>2</kbd> <kbd>4</kbd> <kbd>3</kbd>
 
 The quotation symbols on your keyboard (') and (") look like prime symbols but they aren’t. They’re
@@ -293,7 +293,7 @@ Optimus′?
 --------------------------------------------------------
 
 - Linux: <kbd>🐧</kbd> + <kbd>.</kbd>
-- Mac: <kbd>⌥</kbd> + <kbd>;</kbd>
+- Mac: <kbd>⌥</kbd> <kbd>;</kbd>
 - Windows: <kbd>Alt</kbd> + <kbd>0</kbd> <kbd>1</kbd> <kbd>3</kbd> <kbd>3</kbd>
 
 The ellipsis is used to indicate omission of a word, phrase, sentence, or a whole block of text, as
