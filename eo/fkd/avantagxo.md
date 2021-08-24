@@ -3,7 +3,7 @@ Mia Kinezia Avantaĝa Aranĝo
 
 <div class="center">Esperanto ▪ [English](/en/advantage/)</div>
 <div class="center">la 12-an de Julio 2018</div>
-<div class="center">Laste ĝisdatigita: la 2-an de Decembro 2019</div>
+<div class="center">Laste ĝisdatigita: la 23-an de Aŭgusto 2021</div>
 
 >La doloro neeviteblas. La suferado malnepras.<br>
 >―M. Kathleen Cᴀsᴇʏ
@@ -47,14 +47,14 @@ Emakso kaj Ziŝo.
 ----------------------------
 
 Jam ekzistas dvoraka reĝimo, kiu enkonstruitas en la klavaro. En ĉi tiu reĝimo, la dvorakan reĝimon
-oni povas ŝalti sen iun ajn programon uzi per na <kbd>Progrm + Shift + F5</kbd> premi. Oni povas iri
+oni povas ŝalti sen iun ajn programon uzi per je <kbd>Progrm + Shift + F5</kbd> premi. Oni povas iri
 reen al la QWERTY-reĝimo per la sama klavkombino. Kiam la dvorakan reĝimon oni uzas, la jena
 aranĝo estas kiel la klavoj aranĝitaj:
 
 <a href="/bil/avantagxo-dvorako-0.png"><img src="/bil/avantagxo-dvorako-0.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="Originala softvara Dvorako" title="Originala softvara Dvorako"/></a>
 <div class="center">Figuro 1-1: Originala softvara Dvorako</div>
 
-Ve. Ĉi tiun aranĝon uzi en Emakso aŭ Ziŝo estas inferno: por na <kbd>M-x</kbd> premi emakse, je
+Ve. Ĉi tiun aranĝon uzi en Emakso aŭ Ziŝo estas inferno: por je <kbd>M-x</kbd> premi emakse, je
 <kbd>Alt</kbd> klavon oni devas premi per la dekstra dikfingro, tiam la <kbd>x</kbd> klavon oni
 premas per la maldekstra indeksfingro. La <kbd>Esc</kbd> klavon atingi ne ankaŭ amuzas ĉar ĝi tro
 malproksimas.
@@ -77,7 +77,7 @@ Unu el miaj plej ŝatataj ŝanĝoj estas la nova loko de la <kbd>[</kbd> kaj <kb
 nova loko de <kbd>Esc</kbd> ankaŭ plaĉas al mi—min ĉi tio permesas por la eskapan klavo premi kiam
 je Vi uzi aŭ apajn invitojn fermi.
 
-La <kbd>Insert</kbd> klavon mi uzis anstataŭ <kbd>Esc</kbd> por ke na `XA_PRIMARY` zonon mi povu
+La <kbd>Insert</kbd> klavon mi uzis anstataŭ <kbd>Esc</kbd> por ke je `XA_PRIMARY` zonon mi povu
 aliri facile per <kbd>Shift + Insert</kbd>. La `XA_PRIMARY`-zono estas kie la musaj markoj
 iras. Ankaŭ plifaciliĝas por la `overwrite-mode`-reĝimon de emakso eniri kaj por novan nivelon
 aldoni en *Krita*. La <kbd>Insert</kbd> klavo, bedaŭrinde, kaŝitas en la klavo markita per `|`,
@@ -132,7 +132,7 @@ estas la fonto, la sekva klavo estas la celo.
 | Keypad, <kbd>u</kbd>, Keypad (KP Home)     | Maldekstra <kbd>Ctrl</kbd> |
 | Keypad, <kbd>m</kbd>, Keypad (KP End)      | Dekstra <kbd>Ctrl</kbd>    |
 
-Tiam na <kbd>Progrm + F12</kbd> premu denove, por la remapagadan reĝimon eliri. La <kbd>KP
+Tiam je <kbd>Progrm + F12</kbd> premu denove, por la remapagadan reĝimon eliri. La <kbd>KP
 Enter</kbd> klavo moviĝis al la maldekstra <kbd>Alt</kbd> por ke ĝin mi povu facile uzi kiel
 «Compose» klavo en X. La jenan kodeton mia
 [~/.Xmodmap](https://github.com/ebzzry/dotfiles/blob/master/xmodmap/advantage.dv.xmap)-dosiero

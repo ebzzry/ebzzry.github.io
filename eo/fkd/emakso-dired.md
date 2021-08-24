@@ -3,7 +3,7 @@ Dosierujojn Mastrumi en Emakso
 
 <div class="center">Esperanto ▪ [English](/en/emacs-dired/)</div>
 <div class="center">la 12-an de Februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 26-an de Aŭguto 2019</div>
+<div class="center">Laste ĝisdatigita: la 24-an de Aŭguto 2021</div>
 
 >Supozi bonas, tamen eltrovi pli bonas.<br>
 >―Samuel Cʟᴇᴍᴇɴs
@@ -28,7 +28,7 @@ al Dired-bufroj.
 <a name="superrigardo"></a>Superrigardo
 ---------------------------------------
 
-Por na Dired plenumi, plenumu Emakson sur la komandlinio, disponigi dosierujon, kiel la argumento:
+Por je Dired plenumi, plenumu Emakson sur la komandlinio, disponigi dosierujon, kiel la argumento:
 
     $ emacs ~/Desktop
 

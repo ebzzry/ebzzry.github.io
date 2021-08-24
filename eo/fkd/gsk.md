@@ -1,9 +1,9 @@
-Agordi na GPG kaj na SSH en KDE
+Agordi je GPG kaj je SSH en KDE
 ===============================
 
 <div class="center">Esperanto ▪ [English](/en/gsk/)</div>
 <div class="center">la 19-an de Februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 14-an de Aŭgusto 2019</div>
+<div class="center">Laste ĝisdatigita: la 23-an de Aŭgusto 2021</div>
 
 >Ne tute estas grave por prave atingi tion en la unua fojo. Estas vitale grava atingi tion en la
 >lasta tempo.<br>
@@ -13,7 +13,7 @@ Kiam kaj GPG kaj SSH bone enkonstruitas kun KDE, estas facile por kunoperacii ti
 sistemojn. Estas kontrasto inter malfirme adaptita ganto kaj tiu, kiu tre bone adaptiĝas.
 
 Ĉi tiu mallonga gvidilo traktos la paŝojn kiel fari tion. Por gastigi ĉiujn, mi ankoraŭ diskutos
-kiel instali kaj agordi la bezonatajn komponantojn. Ni uzos na [nano](https://www.nano-editor.org/)
+kiel instali kaj agordi la bezonatajn komponantojn. Ni uzos je [nano](https://www.nano-editor.org/)
 por ĉi tiu seanco, tamen oni liberas uzi ian redaktilon.
 
 
@@ -21,9 +21,9 @@ por ĉi tiu seanco, tamen oni liberas uzi ian redaktilon.
 -----------------------------
 
 - [Postuloj](#postuloj)
-- [Agordi na SSH](#ssh)
-- [Agordi na GPG](#gpg)
-- [Agordi na KDE](#kde)
+- [Agordi je SSH](#ssh)
+- [Agordi je GPG](#gpg)
+- [Agordi je KDE](#kde)
 - [Kontrolo](#kontrolo)
 - [Finrimarkoj](#finrimarkoj)
 
@@ -31,7 +31,7 @@ por ĉi tiu seanco, tamen oni liberas uzi ian redaktilon.
 <a name="postuloj"></a>Postuloj
 -------------------------------
 
-Por ĉi tiu gvidilo, oni bezonas havi na GPG, na SSH, kaj na Pinentry.
+Por ĉi tiu gvidilo, oni bezonas havi je GPG, je SSH, kaj je Pinentry.
 
 Per Nixpkgs:
 
@@ -46,7 +46,7 @@ Per DNF:
     $ sudo dnf install gnupg openssh pinentry
 
 
-<a name="ssh"></a>Agordi na SSH
+<a name="ssh"></a>Agordi je SSH
 -------------------------------
 
 Nu, nun oni havas la partojn antaŭ ĝi, estas tempo por munti la komponantojn. La unua afero kiun oni
@@ -67,7 +67,7 @@ Tiam, permesu la mem sur la defora servilo, por ke la senpasvortaj ensalutoj fun
     $ ssh-copy-id uzanto@deforgastiganto
 
 
-<a name="gpg"></a>Agordi na GPG
+<a name="gpg"></a>Agordi je GPG
 -------------------------------
 
 Sekve, oni bezonas krei siajn GPG-ŝlosilojn. Observu la invitojn, kiuj aperas, certigi ke oni
@@ -102,7 +102,7 @@ sistemo. Por precizigi la lokon de pinentry-o, plenumu:
     $ which pinentry-qt4
 
 
-<a name="kde"></a>Agordi na KDE
+<a name="kde"></a>Agordi je KDE
 -------------------------------
 
 Oni nun bezonas ligi la GPG-perilon al KDE. Oni bezonas krei startigan skripton por KDE, kiu

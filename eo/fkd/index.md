@@ -3,7 +3,7 @@ La Pensoj de Optimisto
 
 <div class="center">Esperanto ▪ [English](/en/)</div>
 <div class="center">la 27-an de Aprilo 2017</div>
-<div class="center">Laste ĝisdatigita: la 22-an de Aŭgusto 2021</div>
+<div class="center">Laste ĝisdatigita: la 23-an de Aŭgusto 2021</div>
 
 <img src="/bil/pluvis-1008x250.jpg" class="banner" alt="pluvis" title="En la vizaĝo de la kosmo, ni ĉiuj estas porĉiame infanoj." />
 
@@ -36,7 +36,7 @@ enskriboj estas ordigitaj laŭ inverskronologiordo.</div>
 - [Virtualigado en Linukso per KVM](kvm/)
 - [Aboco de la Lambdokalkulo](lambdokalkulo/)
 - [Emaksaj Konsiletoj 2-a: Seancoj kaj Pakoj](emakskonsiletoj-2-a/)
-- [Agordi na GPG kaj na SSH en KDE](gsk/)
+- [Agordi je GPG kaj je SSH en KDE](gsk/)
 - [Sekurkopiojn Krei per Ugarit](ugarit/)
 - [Blogi per Frog](frog/)
 - [Retpoŝton Agordi per Emakso](emakso-retposxto/)

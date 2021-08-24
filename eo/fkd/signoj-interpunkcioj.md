@@ -3,12 +3,12 @@ Signoj kaj Interpunkcioj
 
 <div class="center">Esperanto ▪ [English](/en/symbols-marks/)</div>
 <div class="center">la 16-an de Julio 2018</div>
-<div class="center">Laste ĝisdatigita: la 22-an de Aŭgusto 2021</div>
+<div class="center">Laste ĝisdatigita: la 23-an de Aŭgusto 2021</div>
 
 >Se grandiozon oni volas atingi, konsentojn ĉesu peti.<br>
 >―Eddie Cᴏʟʟᴀ
 
-*[Ĉi tien](/eo/signoj-interpunkcioj-mallongigite/) klaku por la mallongigita versio.*
+*[Ĉi tien](/eo/signoj-interpunkcioj-mallongigite/) alklaku por la mallongigita versio.*
 
 Rondvojaĝo por kiel la ĝis-strekan (-), unuoblan citilan ('), kaj duoblan citilan (") signojn uzi
 sur la klavaro, kiuj estas pli bone adaptitaj por signajn devojn fari ol iliaj malsanaj kuzoj el la
@@ -17,8 +17,8 @@ al ofte uzataj malĝustaj signoj.
 
 Ĉiu sekcio komencas pri eniga sinsekvo por Linuksa, Makintoŝa, kaj Vindoza sistemoj, respektive. La
 plusa (+) signo signifas, ke la maldekstran klavon oni premas, antaŭ la dekstran klavon. Tio estas,
-por na <kbd>⌥</kbd> + <kbd>Shift</kbd> + <kbd>-</kbd> enigi, na <kbd>⌥</kbd> premu kaj tenu, tiam je
-<kbd>Shift</kbd> premu kaj tenu, tiam na <kbd>-</kbd> premu.
+por je <kbd>⌥</kbd> + <kbd>Shift</kbd> + <kbd>-</kbd> enigi, je <kbd>⌥</kbd> premu kaj tenu, tiam je
+<kbd>Shift</kbd> premu kaj tenu, tiam je <kbd>-</kbd> premu.
 
 
 <a name="et"></a>Enhavotabelo

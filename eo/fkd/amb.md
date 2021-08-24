@@ -3,7 +3,7 @@ Milda Enkonduko al Nedeterminismo en Skimo
 
 <div class="center">Esperanto ▪ [English](/en/amb/)</div>
 <div class="center">la 24-an de Februaro 2019</div>
-<div class="center">Laste ĝisdatigita: la 14-an de Oktobro 2019</div>
+<div class="center">Laste ĝisdatigita: la 23-an de Aŭgusto 2021</div>
 
 >Kelke da plej kernaj paŝoj en mensa kresko estas bazitaj ne simple pri novajn kapablojn akiri, sed
 >pri novajn administrajn manierojn akiri por tion uzi, kion oni jam scias.<br>
@@ -168,7 +168,7 @@ argumento:
 (call/cc (lambda (k) k))
 ```
 
-Se na `call/cc` oni ne havas, ĝin difinu per:
+Se je `call/cc` oni ne havas, ĝin difinu per:
 
 ```scheme
 (define call/cc call-with-current-continuation)
@@ -196,7 +196,7 @@ la aktualan daŭrigon—simple la funkcion—`call/cc` liveras. Tamen, en
 (call/cc (lambda (k) (k 0)))
 ```
 
-`call/cc` simple liveras na `0` tial, ke en tiu nivelo—la plej supra nivelo—`k` estas:
+`call/cc` simple liveras je `0` tial, ke en tiu nivelo—la plej supra nivelo—`k` estas:
 
 ```scheme
 (lambda (v) v)
@@ -360,7 +360,7 @@ tie, la restanta komputo estas
 (lambda (o) "saluton")
 ```
 
-kiu iras al la variablo `k` en la korpo de `call/cc`. Kiel antaŭe, na `k` oni apliku al
+kiu iras al la variablo `k` en la korpo de `call/cc`. Kiel antaŭe, je `k` oni apliku al
 `(lambda (o) "saluton")` ene alia lambdo:
 
 ```scheme
@@ -488,7 +488,7 @@ Jen la malprofundaj paŝoj de la difinoj:
    `amb` vokiĝos.
 
 5. En linioj 23-a ĝis 26-a, `call/cc` vokiĝas, en kiu la vera komenca valoro de `f` pravaloriziĝas
-   per lambdo kiu na `'neniuj-elektoj` simple liveras.
+   per lambdo kiu je `'neniuj-elektoj` simple liveras.
 
 6. Oni reiru al la korpo de `amb` en linioj 5-a ĝis 16-a. En linio 7-a, se `amb` vokiĝas kiel:
 ```scheme
@@ -515,7 +515,7 @@ la argumento `"hundo"` simple liveriĝas.
 
 ### <a name="ambtaksado">Taksado</a>
 
-Na `cxu-vere?` uzante, la paŝojn en la uzado de `amb` oni rigardos. Se la jenan esprimon oni
+Je `cxu-vere?` uzante, la paŝojn en la uzado de `amb` oni rigardos. Se la jenan esprimon oni
 havas,
 
 ```scheme
@@ -565,7 +565,7 @@ en kiu la valoro de `f` estas la lambdo en la linioj 13-a ĝis 15-a. La valoro d
 
 10. Tiam, en linio 15-a, `k` vokiĝos kiel `(k "kato" 9)`.
 
-11. La paŝoj ripetiĝos, na `cxu-vere?` vokante plurfoje. La paŝoj aspektos kiel:
+11. La paŝoj ripetiĝos, je `cxu-vere?` vokante plurfoje. La paŝoj aspektos kiel:
 ```scheme
 (cxu-vere? "hundo" "muso")
 (cxu-vere? "hundo" 9)

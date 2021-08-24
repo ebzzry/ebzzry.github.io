@@ -3,7 +3,7 @@ Ziŝaj Konsiletoj 1-a: Alinomoj kaj Funkcioj
 
 <div class="center">Esperanto ▪ [English](/en/zsh-tips-1/)</div>
 <div class="center">la 26-an de Septembro 2018</div>
-<div class="center">Laste ĝisdatigita: la 1-an de Decembro 2019</div>
+<div class="center">Laste ĝisdatigita: la 24-an de Aŭgusto 2021</div>
 
 >Malsaĝulo miras pri nekutimaj aferoj. Ŝagulo miras pri la kutimaj aferoj.<br>
 >―Konfuceo
@@ -87,12 +87,12 @@ Pli altan prioritaton alinomoj havas pli ol funkcioj. La jenajn liniojn konsider
     alias hundo="echo hundo"
     function hundo () { echo hundo, ankaux }
 
-La nomon `hundo` ambaŭ uzas, sed malsaman nomspacon ĉiu uzas. Kiam na `hundo` oni kuras:
+La nomon `hundo` ambaŭ uzas, sed malsaman nomspacon ĉiu uzas. Kiam je `hundo` oni plenumas:
 
     % hundo
     hundo
 
-Nur na `hundo` ĝi montras, anstataŭ na `hundo, too` eĉ ĉi tiu venas de pli nova difino. Por la alinomon
+Nur je `hundo` ĝi montras, anstataŭ je `hundo, too` eĉ ĉi tiu venas de pli nova difino. Por la alinomon
 `hundo` forigi, plenumu:
 
     % unalias hundo

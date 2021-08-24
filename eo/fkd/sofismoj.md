@@ -3,7 +3,7 @@ Milda Enkonduko al Sofismoj
 
 <div class="center">Esperanto ▪ [English](/en/fallacies/)</div>
 <div class="center">la 29-an de Julio 2018</div>
-<div class="center">Laste ĝisdatigita: la 2-an de Decembro 2019</div>
+<div class="center">Laste ĝisdatigita: la 24-an de Aŭgusto 2021</div>
 
 >Lerni ne necesas; nek travivas.<br>
 >―W. Edwards Dᴇᴍɪɴɢ
@@ -71,10 +71,10 @@ da ili kaŝitas en klaraj vidoj dum aliaj rampas en la anguloj kaj pli proksiman
 <a name="post"></a>Post ĉi tio, do, konsekvence de ĉi tio
 ---------------------------------------------------------
 
-Post A, okazis B. Tial, A kaŭzis na B. Kiam okazo okazis post alia okazo, antaŭsupozitas, ke tio,
+Post A, okazis B. Tial, A kaŭzis je B. Kiam okazo okazis post alia okazo, antaŭsupozitas, ke tio,
 kio okazis antaŭ ol ĝi devis kaŭzi ĝin.
 
-> “Post kiam Silvja preĝis al Vakelo, sia patro pliresaniĝis el lia malsano. Ni kultu na Vakelo!”
+> “Post kiam Silvja preĝis al Vakelo, sia patro pliresaniĝis el lia malsano. Ni kultu je Vakelo!”
 
 Ĉi tio erarigas ĉar la eblecon ŝi malatentas, ke estis eble la medikamento kiu sian patron
 plisanigis.
@@ -202,7 +202,7 @@ antaŭsupozas ke siaj asertoj devas esti veraj.
 <a name="glata"></a>Glata inklino
 ---------------------------------
 
-Ĉi tio fifaritas kiam io supozitas por okazi sekve, pro alia kaŭzo. Tio estas, se na A oni
+Ĉi tio fifaritas kiam io supozitas por okazi sekve, pro alia kaŭzo. Tio estas, se je A oni
 permesos, B okazos sekve. Pro tio, A devos okazi.
 
 > “Se la uzadon de pafiloj por civiluloj ni malpermesos, tiam la krimoprocento plikreskiĝas pro ne plu
@@ -312,7 +312,7 @@ fortikan sperton li havas antaŭ ol tian kazostudon fari.
 elektas, do tiu pozicio devas esti vera. La baza ideo estas aserto devas esti akceptita kiel vera
 sur la fundoj, ke la homoj estas aprobaj rilate al tiu aserto.
 
-> “La enketo montras, ke plejmulto da homoj voĉdonas na Karlo prezidanto. Ilia elekto devas esti
+> “La enketo montras, ke plejmulto da homoj voĉdonas je Karlo prezidanto. Ilia elekto devas esti
 > ĝusta. Mi ankaŭ voĉdonas por li.”
 
 Ĉi tio okazas kiam aserton per malprofundaj kialoj persono kredas. Ĉi tio ofte okazas pro
@@ -355,7 +355,7 @@ aserton akcepti kiel vera. Ĉi tiu sofismo ofte rimarkitas en religiaj grupoj.
 
 > “Se vi ne observas la vortojn de Vakelo, vi forbruliĝos en la torturemaj flamoj de inferno.”
 
-Anstataŭ kialon disponigi kial oni devas aŭskulti na Vakelo, minacoj de fortegoj uzitas por iun
+Anstataŭ kialon disponigi kial oni devas aŭskulti je Vakelo, minacoj de fortegoj uzitas por iun
 devigi por blinde observi.
 
 

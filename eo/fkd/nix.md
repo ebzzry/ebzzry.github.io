@@ -3,7 +3,7 @@ Milda Enkonduko al la Nix-Familio
 
 <div class="center">Esperanto ▪ [English](/en/nix/)</div>
 <div class="center">la 5-an de Aŭgusto 2018</div>
-<div class="center">Laste ĝisdatigita: la 2-an de Aŭgusto 2020</div>
+<div class="center">Laste ĝisdatigita: la 23-an de Aŭgusto 2021</div>
 
 >Ne maltrankviliĝu pri tio, kion la aliaj faros. La plej bona maniero por la estontecon antaŭdiri
 >estas por tion eltrovi.<br>
@@ -97,14 +97,14 @@ bileto al infero.
 determinismon de [Nix](https://nixos.org/nix) ekspluati kaj per unu deklaran agorddosieron uzi kiu
 na ĉiom da agordaĵoj kaj alĝustigiloj tenas en unu loko—`/etc/nixos/configuration.nix`. Informon pri la
 dosiersistemo, uzantoj, servoj, retagordo, enigaparatoj, kernaj parametroj, kaj pli ĉi tiu dosiero
-enhavas. Signifas, ke na _configuration.nix_ de iu oni povas preni kaj ĝian ekzaktan sistemagordon
+enhavas. Signifas, ke je _configuration.nix_ de iu oni povas preni kaj ĝian ekzaktan sistemagordon
 havu! En NixOS oni ne plu bezonas ludadi pri la tutsistemo por la agordo kiun oni
 deziras. Porokazajn solvojn oni ne plu uzas por deziratan agordan staton precizigi. Aldonan
 programaron oni ne plu bezonas instali por sistemagordon mastrumi.
 
 NixOS ne konformiĝas al [FHS](https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard) aldonan
-cerban damaĝon efektive malebligi—spacon donanta por multe da flekso kaj eltrovemo. Na `/usr/` kaj
-`/opt/` ĝi ne havas. Tamen, na `/bin/` kaj `/usr/bin/` ĝi havas, kiu nur na `sh` kaj `env` havas
+cerban damaĝon efektive malebligi—spacon donanta por multe da flekso kaj eltrovemo. Je `/usr/` kaj
+`/opt/` ĝi ne havas. Tamen, je `/bin/` kaj je `/usr/bin/` ĝi havas, kiu nur je `sh` kaj `env` havas
 respektive—ambaŭ fakte estas simbolligiloj al la realaj programoj kiuj loĝas ie en `/nix/store/`. La
 supra loko por sistemprogramoj—tiuj, kiuj estas instalitaj specife de la sistemestro—estas
 lokitaj en `/run/current-system/sw/bin/` kaj `/run/current-system/sw/sbin/`. Uzantinstalitaj
@@ -150,7 +150,7 @@ La subdiskojn kreu:
     sda1: EF00 (EFI system), 512 MiB
     sda2: 8E00 (Linux LVM), ceteraj
 
-Na `/dev/sda1` strukturu:
+Je `/dev/sda1` strukturu:
 
     # mkfs.vfat -F 32 /dev/sda1
 
@@ -325,15 +325,15 @@ la UUID-identigilojn akiru. Por la valoro de `networking.hostID` la jenan komand
 La jenan la ĉi-supra agordo precizigas, inter aliaj aferoj:
 
 - Uzanton `vakelo` kreas kun tuta _sudo_-aliro.
-- Na KDE5 uzas kiel la fenestrilo.
+- Je KDE5 uzas kiel la fenestrilo.
 - La sekurŝelon ŝaltas.
 - La LUKS-parametrojn precizigas.
 
-Na NixOS instalu al la disko:
+Je NixOS instalu al la disko:
 
     # nixos-install
 
-Na `/etc/nixos/configuration.nix` ĉi tiu komando analizas, asekurante, ke ne
+Je `/etc/nixos/configuration.nix` ĉi tiu komando analizas, asekurante, ke ne
 estas eraroj. Na ĉiom da necesaj pakoj por kongrui al la specifo ĉi tiu komando
 elŝutos.
 
@@ -365,7 +365,7 @@ Eliru de la ŝelo, tiam iru al la grafika fasado per <kbd>Alt+F7</kbd>, tiam ens
 La komponanto kiu la koron de NixOS kaj Nixpkgs fondas estas la [Nix](https://nixos.org/nix)-lingvo
 (niks). Ĝi estas deklarlingvo kreita por pakojn mastrumi.
 
-Por ke la lingvon oni facile povu kompreni, na nix-repl ni instalu:
+Por ke la lingvon oni facile povu kompreni, je nix-repl ni instalu:
 
     $ nix-env -iA $(nix-channel --list | awk '{print $1}').nix-repl
 
@@ -406,7 +406,7 @@ nix-repl> ''hundo kato''
 "hundo kato"
 ```
 
-La avantaĝo de na `''` uzi anstataŭ na `"`, estas, la ĉeeston de `"` ene ĝi ĝi permesas:
+La avantaĝo de je `''` uzi anstataŭ je `"`, estas, la ĉeeston de `"` ene ĝi ĝi permesas:
 
 ```nix
 nix-repl> ''"hundo" "kato"''
@@ -680,7 +680,7 @@ nix-repl> idento "hundo"
 "hundo"
 ```
 
-Funkcion kiu na `" ve"` postaldonas al sia enigo ni kreu, tiam ĝin ni apliku:
+Funkcion kiu je `" ve"` postaldonas al sia enigo ni kreu, tiam ĝin ni apliku:
 
 ```nix
 nix-repl> ve = s: s + " ve"
@@ -942,7 +942,7 @@ kontrolsumo de ĉiom da enigoj kiuj estis uzitaj por la pakon konstrui. La dosie
 
 ### <a name="nixpkgsinstalo">Instalo</a>
 
-Se na NixOS oni uzas ĉi tiun sekcion preterpasu tial, ke Nixpkgs iras kun ĝi. Por na Nixpkgs instali
+Se je NixOS oni uzas ĉi tiun sekcion preterpasu tial, ke Nixpkgs iras kun ĝi. Por je Nixpkgs instali
 sur linukso aŭ makintoŝo, plenumu:
 
     $ curl https://nixos.org/nix/install | bash
@@ -978,13 +978,13 @@ Por pakon instali, ekzemple, *emem*—Markdown- al HTML-dosiero konvertilo—per
 
     $ nix-env -f ~/nixpkgs/default.nix -iA emem
 
-Na *emem* ĉi tiu komando elŝutas kun ĝiajn dependecojn, kaj la programon ĝi disponebligas al
+Je *emem* ĉi tiu komando elŝutas kun ĝiajn dependecojn, kaj la programon ĝi disponebligas al
 oni. Por certigi, ke emem estas efektive instalita, plenumu:
 
     $ emem --version
 
 Se la ŝelo ne vomiĝas kaj plendas, ke tio, kion oni volas trovi ne ekzistas, kaj versinombron oni
-vidas, do signifas ke na emem oni sukcese instalis.
+vidas, do signifas ke je emem oni sukcese instalis.
 
 Por la plej ĵusajn ŝanĝojn akiri el la gitdeponejo, plenumu:
 
@@ -998,7 +998,7 @@ oportunaj. La kompromiso, estas, ke la pakoj estas malaktualaj de iom da tagoj. 
 tio, tiam kanalojn uzi anstataŭ la gitkopion.
 
 Kanaloj estas etikeditaj `stable`, `unstable`, aŭ per specifa versinombro,
-ekzemple, `18.09` aŭ `21.05`. Por ĉi tiu artikolo, na `unstable` ni uzu—ĝi nek
+ekzemple, `18.09` aŭ `21.05`. Por ĉi tiu artikolo, je `unstable` ni uzu—ĝi nek
 estas tiel malaktuala kiel `stable` nek tiel ĵuŝa kiel la gitkopio. Por aboni al
 la `unstable`-kanalo, plenumu:
 
@@ -1009,7 +1009,7 @@ uzantprofilo.
 
 Por la listojn de kanaloj esplori, [ĉi tien](https://nixos.org/channels/) iru.
 
-Per la ekzemplo ĉi-supre, na *emem* instali, la jenajn komandojn plenumu por NixOS kaj aliaj
+Per la ekzemplo ĉi-supre, je *emem* instali, la jenajn komandojn plenumu por NixOS kaj aliaj
 sistemoj, respektive:
 
     $ nix-env -iA nixos.emem
@@ -1073,8 +1073,8 @@ Malpligrandigitan version de mia `config.nix` ni rigardu:
 ```
 
 Ĉi tio estas funkcio, kiu atribuon akceptas kiel parametro, tiam alian atributaron liveras kiel
-liveraĵo. Mia _config.nix_ diras, ke na GTK mi ne volas havi por emakso. Por fajrfokso, mi
-precizigis, ke nur na JRE- kaj na Google Talk-kromprogramoj mi volas uzi. Laste, mi precizigas, ke
+liveraĵo. Mia _config.nix_ diras, ke je GTK mi ne volas havi por emakso. Por fajrfokso, mi
+precizigis, ke nur je JRE- kaj je Google Talk-kromprogramoj mi volas uzi. Laste, mi precizigas, ke
 programaroj kiuj malfermitkodajn permesilojn ne havas, aŭ programoj kiu la liberprogramaran modelon
 ne havas, mi volas esti kapabla por instali
 
@@ -1162,13 +1162,13 @@ stdenv.mkDerivation rec {
 ```
 
 Ĉi tio diras al ni, ke la dosiero `default.nix`, estas dosiero kun parametro kiel atribuo kun du
-eroj. La rezulton de na `stdenv.mkDerivation` voki per enigo de atribua valaro la funkcio
+eroj. La rezulton de je `stdenv.mkDerivation` voki per enigo de atribua valaro la funkcio
 liveras. La valoro por la atribuo `name` estas signovico kun la formato *paknomo-A.B.C*, en kiu,
 *paknomo* estas la nomo de la pako kaj *A.B.C.* estas la versinombro. La valoro por la `src` atribuo
 estas la valoro liverita per la funkcion `fetchurl` voki, per alia atribuara argumento. La valoro
 por la atribuo `url` devas esti aŭ spegula specifo, kiel priskribite en
 `pkgs/build-support/fetchurl/mirrors.nix`, aŭ kutima retejadreso. Tiukaze, la GNU-spegulon ni uzis
-kaj la variablon `name` ni interpolis ene tiu signovico. La valoro de la atribuo `sha256` estas tiu, kiun ni akiris per na `nix-prefetch-url` plenumi kontraŭ la retejadreso. Por la kontrolsumon akiri
+kaj la variablon `name` ni interpolis ene tiu signovico. La valoro de la atribuo `sha256` estas tiu, kiun ni akiris per je `nix-prefetch-url` plenumi kontraŭ la retejadreso. Por la kontrolsumon akiri
 de `hello-2.10`, plenumu:
 
 ```bash
@@ -1379,7 +1379,7 @@ uzas, Mario uzas, tiam novan aperaĵon de ziŝo la alvoko de `nix-env` per Mario
 
 La tria medio, la dislovmedio, estas kreita per la uzo de nix-shell. La uzanton nix-shell
 permesas por sablujmediojn krei. La medio kreita estas izolita de la sistemo kaj kutimaj
-uzantmedioj. Na `/nix/store` la medio kreita ankoraŭ uzos, sed nek `/run/current-system/sw/` nek
+uzantmedioj. Je `/nix/store` la medio kreita ankoraŭ uzos, sed nek `/run/current-system/sw/` nek
 `~/.nix-profile/` estos modifita. Kiun nix-shell disponigas estas medio, kiu estas aparta de la
 resto de la sistemo, la uzanton permesante por porokazajn disponigojn krei sen zorgoj pli la
 modifado de la sistemstato. Per tio, la kapablon por medion uzi uzanto gajnas por diversajn
@@ -1398,7 +1398,7 @@ instalita:
 
 Se tio estas la kazo, bone. Aliokaze, la *GNU Hello*-pakon unue forigi.
 
-Nu, por na nix-shell montri, na GNU Hello ni plenumu en nix-shell, tiam ĝi revenos al la kutima
+Nu, por je nix-shell montri, je GNU Hello ni plenumu en nix-shell, tiam ĝi revenos al la kutima
 uzantŝelo.
 
     $ nix-shell --packages hello --pure --run hello
@@ -1475,12 +1475,12 @@ identigilon `mkDerivation` enhavas. `mkDerivation`, sinsekve, estas funkcio kiu 
 argumenton akceptas. Onin mi memorigas, ke unu eron de argumento kiu estas atribuaro la kunigkrampoj
 post `mkDerivation` precizigas; semantikan similecon al la kunigkrampoj de aliaj programlingvoj por
 la komencon kaj finon de funkciamplekso limigi ĝi ne havas. Estas pluraj alĝustigiloj por ĝi, tamen
-por la celoj de simpleco, nur na `name` kaj na `buildInputs` ni kontrolos—la apenaŭaj atribuaj
+por la celoj de simpleco, nur je `name` kaj je `buildInputs` ni kontrolos—la apenaŭaj atribuaj
 parametroj.
 
 Por nia bagatela ekzemplo, la voloro de `name` povas esti io ajn. La valoro de `buildInputs`, tamen,
 estas grava. Ĉi tie, ili estas deklaritaj `hello` kaj `emem`. Estas referencoj al valoroj en la
-`nixpkgs` markilo, kiun ni vidis antaŭe. Se na `with pkgs` ni ne uzis, la esprimo estus:
+`nixpkgs` markilo, kiun ni vidis antaŭe. Se je `with pkgs` ni ne uzis, la esprimo estus:
 
 ```nix
 { pkgs ? import <nixpkgs> {} }:
@@ -1490,7 +1490,7 @@ pkgs.stdenv.mkDerivation {
   buildInputs = [ pkgs.hello pkgs.emem ];
 ```
 
-Por ĉi tiun esprimon manĝigi al nix-shell, ambaŭ na *hello* kaj *emem* uzante, plenumu:
+Por ĉi tiun esprimon manĝigi al nix-shell, ambaŭ je *hello* kaj *emem* uzante, plenumu:
 
     $ nix-shell --pure --run "hello | emem -w"
     <p>Hello, world!</p>
@@ -1539,7 +1539,7 @@ self: super: {
 Sekve, precizigu, ke por la `racket`-atributo, la `override`-funkcion ĝi vokos el la fonta tavolo,
 donante al ĝi atributan aron kiu la transpasojn enhavas.
 
-Alia ekzemplo estas ke se na [NaCl](https://developer.chrome.com/native-client) por
+Alia ekzemplo estas ke se je [NaCl](https://developer.chrome.com/native-client) por
 [Chromium](https://github.com/NixOS/nixpkgs/blob/master/pkgs/applications/networking/browsers/chromium/default.nix)
 oni volas ŝalti, la dosieron `~/.config/nixpkgs/overlays/chromium.nix` kreu per la jena enhavo:
 
@@ -1551,7 +1551,7 @@ self: super: {
 }
 ```
 
-Kiam na Racket aŭ na Chromium oni instalas, tiuj agordoj estos legataj kaj efektiviĝos.
+Kiam je Racket aŭ je Chromium oni instalas, tiuj agordoj estos legataj kaj efektiviĝos.
 
     $ nix-env -iA $(nix-channel --list | awk '{print $1}').racket
 
@@ -1562,11 +1562,11 @@ La surmetan sistemon uzi por novajn pakojn krei estas ideala se la pakon oni ne 
 Nixpkgs, ĝin oni volos esti privata, aŭ novan infrastukturon oni volas aldoni sen la ekstran
 komplekson trakti.
 
-Ni supozu, ke na [kapo](https://github.com/ebzzry/kapo)—Vagrant-helpilon—oni volas
+Ni supozu, ke je [kapo](https://github.com/ebzzry/kapo)—Vagrant-helpilon—oni volas
 pakigi. Por tion fari, du aĵojn oni skribos:
 
 1. la supran surmetan dosieron en `~/.config/nixpkgs/overlays/`; kaj
-2. la Nix-esprimo kiu na _kapo_ fakte kreas.
+2. la Nix-esprimo kiu je _kapo_ fakte kreas.
 
 Por #1, la dosieron `~/.config/nixpkgs/overlays/kapo.nix` kreu per la jena enhavo:
 
@@ -1618,7 +1618,7 @@ stdenv.mkDerivation rec {
 }
 ```
 
-Per tiuj du dosieroj, na _kapo_ oni nun povas instali:
+Per tiuj du dosieroj, je _kapo_ oni nun povas instali:
 
     $ nix-env -iA $(nix-channel --list | awk '{print $1}').kapo
 
@@ -1662,10 +1662,10 @@ kiujn mi konas estas [AppImage](http://appimage.org/), [Zero Install](http://0i
 [Snapcraft](https://snapcraft.io/), kaj [Flatpak](http://flatpak.org/).
 
 La [Guix System Distribution (GuixSD)](https://www.gnu.org/software/guix/) estas linuksa distribuo
-kiu estas bazita sur Nix. Na [Guile](https://www.gnu.org/software/guile/) ĝi uzas kiel sia
+kiu estas bazita sur Nix. Je [Guile](https://www.gnu.org/software/guile/) ĝi uzas kiel sia
 API-lingvo. La kerna kontrasto inter GuixSD kaj NixOS, estas, je
 [GNU Shepherd](https://www.gnu.org/software/shepherd/) tiu uzas anstataŭ systemd; neliberajn
-pakojn ĝi ne permesas; kaj na [Linux-libre](https://www.fsfla.org/ikiwiki/selibre/linux-libre/),
+pakojn ĝi ne permesas; kaj je [Linux-libre](https://www.fsfla.org/ikiwiki/selibre/linux-libre/),
 malpligrandigita versio de la baza kerno kun ĉiom da komercaj aĵoj forigitaj, ĝi uzas. Pli da
 informo pri iliaj kontrastoj troveblas
 [ĉi tie](https://sandervanderburg.blogspot.de/2012/11/on-nix-and-gnu-guix.html).
@@ -1680,7 +1680,7 @@ La artikoloj de
 kaj
 [Oliver CHARLES](https://web.archive.org/web/20180610095602/https://ocharles.org.uk/blog/posts/2014-02-04-how-i-develop-with-nixos.html),
 kune la [NixOS](https://nixos.org/nixos/manual), [Nixpkgs](https://nixos.org/nixpkgs/manual),
-kaj [Nix](https://nixos.org/nix/manual) gvidiloj, min ege helpis por na Nix kompreni. Apartaj dankoj
+kaj [Nix](https://nixos.org/nix/manual) gvidiloj, min ege helpis por je Nix kompreni. Apartaj dankoj
 iras al [François-René RIDEAU](https://fare.livejournal.com) por min enkonduki al Nix antaŭ multaj jaroj.
 
 La NixOS-fondiĝo estas registrita senprofitcela organizo; la
