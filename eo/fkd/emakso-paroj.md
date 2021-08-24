@@ -3,7 +3,7 @@ Emakso kaj Paroj
 
 <div class="center">Esperanto ▪ [English](/en/emacs-pairs/)</div>
 <div class="center">la 9-an de Julio 2018</div>
-<div class="center">Laste ĝisdatigita: la 14-an de Aŭgusto 2019</div>
+<div class="center">Laste ĝisdatigita: la 23-an de Aŭgusto 2021</div>
 
 >La blanka bruo kiu batas ene la blanka mallumo estas la ritmo de la vivo; estas la pulso kiu
 >neniam vere foriris la podion.<br>
@@ -53,7 +53,7 @@ traktas. Ankaŭ iujn ajn kiuj pariĝas ĝi traktas, kaj ilin ĝi traktas stele.
 <a name="instalo"></a>Instalo
 -----------------------------
 
-Na smartparens instali facilas:
+Je smartparens instali facilas:
 
     M-x package-install EN smartparens EN
 
@@ -61,7 +61,7 @@ Na smartparens instali facilas:
 <a name="agordajxo"></a>Agordaĵo
 --------------------------------
 
-Na smartparens oni ŝaltu en la startigo, kaj ĝin oni kroĉu al egaj kroĉiloj:
+Je smartparens oni ŝaltu en la startigo, kaj ĝin oni kroĉu al egaj kroĉiloj:
 
 ```lisp
 (use-package smartparens-config
@@ -122,7 +122,7 @@ kaj la punkton oni volas movi en la komenco de la signovico:
          ^
 ```
 
-Na `sp-beginning-of-sexp` plenumu. Ĝin mi bindis al <kbd>C-M-a</kbd>.
+Je `sp-beginning-of-sexp` plenumu. Ĝin mi bindis al <kbd>C-M-a</kbd>.
 
 Male, por la punkton movi al la fino de la esprimo:
 
@@ -132,7 +132,7 @@ Male, por la punkton movi al la fino de la esprimo:
                              ^
 ```
 
-Na `sp-end-of-sexp` plenumu. Ĝin mi bindis al <kbd>C-M-e</kbd>.
+Je `sp-end-of-sexp` plenumu. Ĝin mi bindis al <kbd>C-M-e</kbd>.
 
 
 #### <a name="listojntrairi"></a>Listojn trairi
@@ -159,7 +159,7 @@ kaj la punkton oni volas movi al `insert`:
      ^
 ```
 
-Na `sp-down-sexp` plenumu. Ĝin mi bindis al <kbd>C-down</kbd>.
+Je `sp-down-sexp` plenumu. Ĝin mi bindis al <kbd>C-down</kbd>.
 
 Sa le jenan esprimon oni havas:
 
@@ -177,7 +177,7 @@ kaj la punkton oni volas movi post `)`:
                          ^
 ```
 
-Na `sp-up-sexp` plenumu. Ĝin mi bindis al <kbd>C-up</kbd>.
+Je `sp-up-sexp` plenumu. Ĝin mi bindis al <kbd>C-up</kbd>.
 
 Se la jenan esprimon oni havas:
 
@@ -195,7 +195,7 @@ kaj la punkton oni volas movi al la apuda `]`:
               ^
 ```
 
-Na `sp-backward-down-sexp` plenumu. Ĝin mi bindis al <kbd>M-down</kbd>.
+Je `sp-backward-down-sexp` plenumu. Ĝin mi bindis al <kbd>M-down</kbd>.
 
 Sa la jenan esprimon oni havas:
 
@@ -213,7 +213,7 @@ kaj la punkton oni volas movi al `(format`:
         ^
 ```
 
-Na `sp-backward-up-sexp` plenumu. Ĝin mi bindis al <kbd>M-up</kbd>.
+Je `sp-backward-up-sexp` plenumu. Ĝin mi bindis al <kbd>M-up</kbd>.
 
 
 #### <a name="blokajmovadoj"></a>Blokaj movadoj
@@ -234,7 +234,7 @@ kaj la punkton oni volas movi post `]`:
                                 ^
 ```
 
-Na `sp-forward-sexp` plenumu. Ĝin mi bindis al <kbd>C-M-f</kbd>.
+Je `sp-forward-sexp` plenumu. Ĝin mi bindis al <kbd>C-M-f</kbd>.
 
 Male, por ĝin movi reen al `[`:
 
@@ -244,7 +244,7 @@ Male, por ĝin movi reen al `[`:
           ^
 ```
 
-Na `sp-backward-sexp` plenumu. Ĝin mi bindis al <kbd>C-M-b</kbd>.
+Je `sp-backward-sexp` plenumu. Ĝin mi bindis al <kbd>C-M-b</kbd>.
 
 
 #### <a name="supra"></a>Supra niveleca trairado
@@ -271,7 +271,7 @@ kaj la punkton oni volas movi al `[`:
 
 ```
 
-Na `sp-next-sexp` plenumu. Ĝin mi bindis al <kbd>C-M-n</kbd>.
+Je `sp-next-sexp` plenumu. Ĝin mi bindis al <kbd>C-M-n</kbd>.
 
 Male, por ĝin movi reen:
 
@@ -284,7 +284,7 @@ Male, por ĝin movi reen:
 
 ```
 
-Na `sp-previous-sexp` plenumu. Ĝin mi bindis al <kbd>C-M-p</kbd>.
+Je `sp-previous-sexp` plenumu. Ĝin mi bindis al <kbd>C-M-p</kbd>.
 
 
 #### <a name="libermanaj"></a>Libermanaj movadoj
@@ -305,7 +305,7 @@ kaj la punkton oni volas movi al `blah`:
       ^
 ```
 
-Na `sp-backward-symbol` plenumu. Ĝin mi bindis al <kbd>C-S-b</kbd>.
+Je `sp-backward-symbol` plenumu. Ĝin mi bindis al <kbd>C-S-b</kbd>.
 
 Male, sa la jenan esprimon oni havas:
 
@@ -323,7 +323,7 @@ kaj la punkton oni volas movi tuj post `(let`:
                   ^
 ```
 
-Na `sp-forward-symbol` plenumu. Ĝin mi bindis al <kbd>C-S-f</kbd>.
+Je `sp-forward-symbol` plenumu. Ĝin mi bindis al <kbd>C-S-f</kbd>.
 
 Kion ili faras, estas, ili ĉirkaŭnavigas kvazaŭ ne ekzistas la limiligoj kiel rondaj krampoj,
 kvadrataj krampoj, kaj kurbaj krampoj.
@@ -341,7 +341,7 @@ var mods = "vars";
            ^
 ```
 
-kaj na `"vars"` oni volas esti ĉirkaŭitaj per `[` kaj `]`:
+kaj je `"vars"` oni volas esti ĉirkaŭitaj per `[` kaj `]`:
 
 ```javascript
 
@@ -349,7 +349,7 @@ var mods = ["vars"];
             ^
 ```
 
-Na <kbd>C-M-Space</kbd> kaj <kbd>[</kbd> preminte la tuta regiono
+Je <kbd>C-M-Space</kbd> kaj <kbd>[</kbd> preminte la tuta regiono
 iĝas ĉirkaŭitaj per kongruaj `[` kaj `]`. Ankaŭ aplikeblas al klavoj kiel `(`, `{`, `"`, `'`,
 `*`, `_`, ktp, dependas per la regimo kiun oni uzas.
 
@@ -398,7 +398,7 @@ esprimon oni havas:
           ^
 ```
 
-kaj na `args` oni volas ĉirkaŭi per `[` kaj `]`:
+kaj je `args` oni volas ĉirkaŭi per `[` kaj `]`:
 
 ```clojure
 
@@ -406,10 +406,10 @@ kaj na `args` oni volas ĉirkaŭi per `[` kaj `]`:
            ^
 ```
 
-Na <kbd>C-c [</kbd> premu.
+Je <kbd>C-c [</kbd> premu.
 
 Fojfoje, unu el la paraj paroj oni malatentence forviŝas—ĉi tio rezultas en malekvilibrigita
-esprimo. Onin smartparens malpermesas por tion fari. Se na <kbd>Backspace</kbd> oni premas en la
+esprimo. Onin smartparens malpermesas por tion fari. Se je <kbd>Backspace</kbd> oni premas en la
 jena esprimo:
 
 ```javascript
@@ -439,7 +439,7 @@ foo (bar x y z)
     ^
 ```
 
-Na `sp-backward-unwrap-sexp` plenumu. Ĝin mi bindis al <kbd>M-[</kbd>.
+Je `sp-backward-unwrap-sexp` plenumu. Ĝin mi bindis al <kbd>M-[</kbd>.
 
 Male, se la `bar` esprimon oni volas malfaldi, la rondajn krampojn forigante ĉirkaŭ `bar`:
 
@@ -449,7 +449,7 @@ Male, se la `bar` esprimon oni volas malfaldi, la rondajn krampojn forigante ĉi
      ^
 ```
 
-Na `sp-unwrap-sexp` plenumu. Ĝin mi bindis al <kbd>M-]</kbd>.
+Je `sp-unwrap-sexp` plenumu. Ĝin mi bindis al <kbd>M-]</kbd>.
 
 
 #### <a name="glutadokajvomado"></a>Glutado kaj vomado
@@ -462,7 +462,7 @@ Sa la jenan esprimon oni havas:
         ^
 ```
 
-kaj na `baz` oni volas esti parto de `foo` kaj `bar`:
+kaj je `baz` oni volas esti parto de `foo` kaj `bar`:
 
 ```clojure
 
@@ -470,9 +470,9 @@ kaj na `baz` oni volas esti parto de `foo` kaj `bar`:
         ^
 ```
 
-Na `sp-forward-slurp-sexp` plenumu. Ĝin mi bindis al <kbd>C-right</kbd>.
+Je `sp-forward-slurp-sexp` plenumu. Ĝin mi bindis al <kbd>C-right</kbd>.
 
-Male, se na `baz` oni volas forigi:
+Male, se je `baz` oni volas forigi:
 
 ```clojure
 
@@ -480,7 +480,7 @@ Male, se na `baz` oni volas forigi:
         ^
 ```
 
-Na `sp-forward-barf-sexp` plenumu. Ĝin mi bindis al <kbd>M-right</kbd>.
+Je `sp-forward-barf-sexp` plenumu. Ĝin mi bindis al <kbd>M-right</kbd>.
 
 Se la jenan esprimon oni havas:
 
@@ -490,7 +490,7 @@ blah [foo bar]
              ^
 ```
 
-kaj na `blah` oni volas esti parto de `foo` kaj `bar`:
+kaj je `blah` oni volas esti parto de `foo` kaj `bar`:
 
 ```clojure
 
@@ -498,9 +498,9 @@ kaj na `blah` oni volas esti parto de `foo` kaj `bar`:
              ^
 ```
 
-Na `sp-backward-slurp-sexp` plenumu. Ĝin mi bindis al <kbd>C-left</kbd>.
+Je `sp-backward-slurp-sexp` plenumu. Ĝin mi bindis al <kbd>C-left</kbd>.
 
-Male, se na `blah` oni volas forigi:
+Male, se je `blah` oni volas forigi:
 
 ```clojure
 
@@ -508,7 +508,7 @@ blah [foo bar]
              ^
 ```
 
-Na `sp-backward-barf-sexp` plenumu. Ĝin mi bindis al <kbd>M-left</kbd>.
+Je `sp-backward-barf-sexp` plenumu. Ĝin mi bindis al <kbd>M-left</kbd>.
 
 
 #### <a name="intersxangxado"></a>Interŝanĝado
@@ -521,7 +521,7 @@ Se la jenan esprimon oni havas:
       ^
 ```
 
-kaj na `"foo"` kaj `"bar"` oni volas interŝanĝi:
+kaj je `"foo"` kaj `"bar"` oni volas interŝanĝi:
 
 ```clojure
 
@@ -529,7 +529,7 @@ kaj na `"foo"` kaj `"bar"` oni volas interŝanĝi:
       ^
 ```
 
-Na `sp-transpose-sexp` plenumu. Ĝin mi bindin al <kbd>C-M-t</kbd>.
+Je `sp-transpose-sexp` plenumu. Ĝin mi bindin al <kbd>C-M-t</kbd>.
 
 
 #### <a name="mortigado"></a>Mortigado
@@ -550,9 +550,9 @@ kaj nur na`"y yy yyy"` oni volas mortigi:
                ^
 ```
 
-Na `sp-kill-sexp` plenumu. Ĝin mi bindis al <kbd>C-M-k</kbd>.
+Je `sp-kill-sexp` plenumu. Ĝin mi bindis al <kbd>C-M-k</kbd>.
 
-Se na `"y yy yyy" z 0` oni volas mortigi:
+Se je `"y yy yyy" z 0` oni volas mortigi:
 
 ```clojure
 
@@ -560,7 +560,7 @@ Se na `"y yy yyy" z 0` oni volas mortigi:
                ^
 ```
 
-Na `sp-kill-hybrid-sexp` plenumu. Ĝin mi bindis al <kbd>C-k</kbd>.
+Je `sp-kill-hybrid-sexp` plenumu. Ĝin mi bindis al <kbd>C-k</kbd>.
 
 Se la jenan esprimon oni havas:
 
@@ -570,7 +570,7 @@ Se la jenan esprimon oni havas:
                                 ^
 ```
 
-kaj na `[clojure.string :as s]` oni volas mortigi:
+kaj je `[clojure.string :as s]` oni volas mortigi:
 
 ```clojure
 
@@ -578,13 +578,13 @@ kaj na `[clojure.string :as s]` oni volas mortigi:
           ^
 ```
 
-Na `sp-backward-kill-sexp` plenumu. Ĝin mi bindis al <kbd>M-k</kbd>.
+Je `sp-backward-kill-sexp` plenumu. Ĝin mi bindis al <kbd>M-k</kbd>.
 
 
 <a name="klavoj"></a>Klavoj
 ---------------------------
 
-La uzatajn klavkombinojn en ĉi tiu artikolo la jena kodeto resumas. Na `bind-keys` mi uzas por miajn
+La uzatajn klavkombinojn en ĉi tiu artikolo la jena kodeto resumas. Je `bind-keys` mi uzas por miajn
 klavojn oportune mapi. Ĝin mi diskutis en [antaŭa](/eo/emakskonsiletoj-2-a) artikolo.
 
 ```lisp

@@ -3,7 +3,7 @@ Retpoŝton Agordi per Emakso
 
 <div class="center">Esperanto ▪ [English](/en/emacs-mail/)</div>
 <div class="center">la 14-an de Februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 16-an de Januaro 2021</div>
+<div class="center">Laste ĝisdatigita: la 23-an de Aŭgusto 2021</div>
 
 >Nur pro tio, ke ne fariĝis, ne signifas, ke ne fareblas. Nur pro tio, ke fareblas, ne
 >signifas, ke devus.<br>
@@ -54,7 +54,7 @@ Per APT:
 
     $ sudo apt-get install getmail4
 
-Tamen, se onia sistemo ne disponigas manieron por facile instali na getmail, oni povas iri al ĝia
+Tamen, se onia sistemo ne disponigas manieron por facile instali je getmail, oni povas iri al ĝia
 [hejmpaĝo](http://pyropus.ca/software/getmail/), tiam elŝutu la tar-arĥivon.
 
 
@@ -96,11 +96,11 @@ ke `~/Maildir` estas la defaŭlta dosierujo, kiun la retpoŝta transmeta ilo uzo
 
 ### <a name="elsxutiplenumo"></a>Plenumo
 
-Por kontroli, ke oni jam povas elŝuti siajn mesaĝojn, plenumu na getmail:
+Por kontroli, ke oni jam povas elŝuti siajn mesaĝojn, plenumu je getmail:
 
     $ getmail
 
-Se funkcias kaj montras ion kiel la jena, tiam oni prave agordis na getmail:
+Se funkcias kaj montras ion kiel la jena, tiam oni prave agordis je getmail:
 
 ```bash
 getmail version 4.43.0
@@ -129,7 +129,7 @@ Per APT:
 
     $ sudo apt-get install maildir-utils
 
-Kaj cetere, oni bezonas elŝuti na mu4e. Venas kun la fontkodo de mu. Elŝutu ĝin per kuri:
+Kaj cetere, oni bezonas elŝuti je mu4e. Venas kun la fontkodo de mu. Elŝutu ĝin per kuri:
 
     $ mkdir ~/.emacs.d
     $ cd ~/.emacs.d
@@ -137,7 +137,7 @@ Kaj cetere, oni bezonas elŝuti na mu4e. Venas kun la fontkodo de mu. Elŝutu ĝ
 
 Ĉi tiu komando kreas `mu/`-dosierujon en la aktuala dosierujo, kiu estas la defaŭlta dosierindiko,
 en kiu, Emakso trovas pravalorizajn dosierojn. Notu, ke la supra gita komando, fakte elŝutas la
-fontkodon de mu, kaj oni fakte povas uzi ĝin por instali na mu. Tamen, ĉar oni jam havas sian
+fontkodon de mu, kaj oni fakte povas uzi ĝin por instali je mu. Tamen, ĉar oni jam havas sian
 pako-administrilon, ĝi malatentos tion. Kaj la dosierindiko, en kiu, la `mu/mu4e/`-subdosierujo
 ekzistas de la pako-administrila instalo, malsimilas inter sistemoj. Do, intertempe, oni
 interesitas nur pri la `mu/mu4e/`-subdosierujo.
@@ -181,7 +181,7 @@ tiujn liniojn per <kbd>C-Space</kbd>, tiam premu:
 
     M-x eval-region EN
 
-Ĉi-loke oni povas uzi na mu4e, per premi:
+Ĉi-loke oni povas uzi je mu4e, per premi:
 
     M-x mu4e EN
 
@@ -196,7 +196,7 @@ povas legi la [agrablan manlibron](http://www.djcbsoftware.nl/code/mu/mu4e/index
 
 Malnepre oni eble volas aldoni kelkajn alĝustigetojn, por ke la ĉifrado kaj
 malĉifrado de mesaĝoj estu pli facilaj. Fakte ĉi tio estas unu el la ĉefkialoj
-kial mi uzas na mu4e—estis montrite al mi ke malgraŭ ke uzi retumilajn kromprogrojn
+kial mi uzas je mu4e—estis montrite al mi ke malgraŭ ke uzi retumilajn kromprogrojn
 kiel [FireGPG](http://getfiregpg.org/s/home), la onidire privataj mesaĝoj kiujn
 mi verkis, estis aŭtomate konservitaj en la _Drafts_ dosierujo. Subkomprenigas,
 ke la malĉifrita mesaĝo, estis ankoraŭ konservita ie. Kraĉotusas.

@@ -3,7 +3,7 @@ Citaĵoj
 
 <div class="center">Esperanto ▪ [English](/en/quotes/)</div>
 <div class="center">la 15-an de Novembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 11-an de Aŭgusto, 2021</div>
+<div class="center">Laste ĝisdatigita: la 24-an de Aŭgusto, 2021</div>
 
 <img src="/bil/wallhaven-77816-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -570,7 +570,7 @@ tra la jarojn, ĉi tiu paĝo enhavas.
   Lain
 
 
-- Racias vidi na «Wired» kiel plisupra nivelo de la vera mondo. Alidire, fizika
+- Racias vidi je «Wired» kiel plisupra nivelo de la vera mondo. Alidire, fizika
   efektivaĵo estas nenio, sed holografiaĵo de la informo, kiu fluas tra la
   «Wired».<br>―Miho Iᴡᴀᴋᴜʀᴀ, Serial Experiments Lain
 

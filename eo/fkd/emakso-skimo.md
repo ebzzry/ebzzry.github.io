@@ -3,7 +3,7 @@ Skimprogramadon Agordi en Emakso
 
 <div class="center">Esperanto ▪ [English](/en/emacs-scheme/)</div>
 <div class="center">la 13-an de Februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 2-an de Decembro 2019</div>
+<div class="center">Laste ĝisdatigita: la 23-an de Aŭgusto 2021</div>
 
 >Ĉiom da bonaj ideoj ne kuŝas sub unu ĉapelo.<br>
 >―Dale Tᴜʀɴᴇʀ
@@ -37,19 +37,19 @@ inteligenta maniero de trakti kodon, estis bezonita.
 Bonŝance, estas [Geiser](http://www.nongnu.org/geiser/). Estas aliaj reĝimoj, kiuj provis
 fari, kiujn Geiser faras, tamen mi fariĝas pli bonfarta al tiuj, kiujn Geiser ofertis. Kelkaj
 similaj bibliotekoj ankaŭ povas kunekzisti kun Geiser. Mi ankaŭ provis tiujn, bedaŭrinde, fariĝis
-tro malsimplaj, por mi. Mi finvenis uzi nur na Geiser. Kaj kiel parte rilata noto, mi uzas emakson
+tro malsimplaj, por mi. Mi finvenis uzi nur je Geiser. Kaj kiel parte rilata noto, mi uzas emakson
 por redakti skimkodon, tial ke, mi ne konas ian ajn redaktilon, kiu tiel bonfartas.
 
 
 <a name="instalo"></a>Instalo
 -----------------------------
 
-Per [ELPA](https://www.emacswiki.org/emacs/ELPA), instali na Geiser facilas. Simple plenumi la jenan
+Per [ELPA](https://www.emacswiki.org/emacs/ELPA), instali je Geiser facilas. Simple plenumi la jenan
 komandon
 
     M-x package-install EN geiser EN
 
-Tiam post malmultajn sekundojn, vi havos na Geiser, instalita en via emaksa
+Tiam post malmultajn sekundojn, vi havos je Geiser, instalita en via emaksa
 profilo. Sekve, vi metos en la efektivan kodon, kiu envokas kaj agordas je
 Geiser:
 
@@ -63,7 +63,7 @@ Geiser:
   (geiser-repl--write-input-ring))
 ```
 
-La unuesprimo ŝarĝas na Geiser mem. La duesprimo precizigas, ke ne invitos onin por la aliaj
+La unuesprimo ŝargas je Geiser mem. La duesprimo precizigas, ke ne invitos onin por la aliaj
 realigoj, se trovas ilin. La lastesprimo malnepras—ebligas onin por plenumi
 
     M-x geiser-save EN

@@ -3,7 +3,7 @@ Ziŝaj Konsiletoj 4-a: Ĝeneralhelpiloj
 
 <div class="center">Esperanto ▪ [English](/en/zsh-tips-4/)</div>
 <div class="center">la 26-an de Septembro 2018</div>
-<div class="center">Laste ĝisdatigita: la 2-an de Decembro 2019</div>
+<div class="center">Laste ĝisdatigita: la 23-an de Decembro 2021</div>
 
 >Vidpunkto meritas okdek poentojn da inteligentecaj kvocientoj.<br>
 >―Alan Kᴀʏ
@@ -55,7 +55,7 @@ function map () {
 }
 ```
 
-Ekzemple, na `map` oni povas uzi por plurajn gitaj deponejon, serie:
+Ekzemple, je `map` oni povas uzi por plurajn gitaj deponejon, serie:
 
     % map 'git clone' git@github.com:nixos/nixpkgs.git git@github.com:tmux/tmux.git
 
@@ -118,17 +118,17 @@ function d () {
 }
 ```
 
-Kiam na `d` mi plenumas sole:
+Kiam je `d` mi plenumas sole:
 
     % d
 
 Mi iros al la hejmdosierujo, samkiel kion memstara `cd` devus fari:
 
-Kiam na `d` mi plenumas kun dosierujo kaj komando:
+Kiam je `d` mi plenumas kun dosierujo kaj komando:
 
     % d ~/Downloads ls -l
 
-La aktuala dosierujo ŝanĝiĝos al `~/Downloads`, tiam na `ls -l` mi plenumas por la enhavon de tiu
+La aktuala dosierujo ŝanĝiĝos al `~/Downloads`, tiam je `ls -l` mi plenumas por la enhavon de tiu
 dosierujo montri.
 
 Se la eligo de `dirs -v` estas la jena:
@@ -138,7 +138,7 @@ Se la eligo de `dirs -v` estas la jena:
 1       /tmp
 ```
 
-Tiam, na `d` mi plenumu, kaj la dua enskribo estas uzota kun komando:
+Tiam, je `d` mi plenumu, kaj la dua enskribo estas uzota kun komando:
 
     % d -1 date
 
@@ -157,7 +157,7 @@ function d! () {
 }
 ```
 
-Ekzemple, na `d!` mi povas uzi por dosierujon scenigi antaŭ ISO-dosieron elŝuti:
+Ekzemple, je `d!` mi povas uzi por dosierujon scenigi antaŭ ISO-dosieron elŝuti:
 
     % d! ~/Downloads/iso https://www.hundo.kato/muso/ve/ve.iso
 
@@ -193,7 +193,7 @@ function rm+ () {
 }
 ```
 
-La pakmastrumilon de la sistemo kontrolu kiel na `parallel` instali.
+La pakmastrumilon de la sistemo kontrolu kiel je `parallel` instali.
 
 
 ### <a name="rm_heliko"></a>rm@
@@ -212,7 +212,7 @@ function rm@ () {
 }
 ```
 
-La pakmastrumilon de la sistemo kontrolu kiel na `shred` instali.
+La pakmastrumilon de la sistemo kontrolu kiel je `shred` instali.
 
 
 ### <a name="defmk"></a>def_mk
@@ -239,7 +239,7 @@ alvokoj estas ideale difinita en la agorddosiero.
 
 ### <a name="cp_krisigno"></a>cp!
 
-Por na `def_mk` uzi kun `cp` ĝin alvoku jene:
+Por je `def_mk` uzi kun `cp` ĝin alvoku jene:
 
     def_mk cp! cp -rf
 
@@ -283,7 +283,7 @@ necese:
 
 ### <a name="mv_krisigno"></a>mv!
 
-Por na `def_mk` uzi kun `mv` ĝin alvoku jene:
+Por je `def_mk` uzi kun `mv` ĝin alvoku jene:
 
     def_mk mv! mv -f
 
@@ -332,14 +332,14 @@ fari. Jen kelkaj, kiujn mi uzas ofte:
 
 ### <a name="insertlastword"></a>insert-last-word
 
-Kiam la lastan vorton de la lasta komando mi volas enmeti, na `insert-last-word` mi vokas. Ekzemple,
+Kiam la lastan vorton de la lasta komando mi volas enmeti, je `insert-last-word` mi vokas. Ekzemple,
 se la jenan oni havas, en kiu la ĉapelo estas la kursoro:
 
     % dig hundo12345.kato.muzo.io
     % mtr
           ^
 
-Kiam na `M-x insert-last-word EN` mi plenumas, la lastan vorton de la lasta komando ĝi enmetas, ĝin
+Kiam je `M-x insert-last-word EN` mi plenumas, la lastan vorton de la lasta komando ĝi enmetas, ĝin
 fari al:
 
     % dig hundo12345.kato.muzo.io
@@ -356,13 +356,13 @@ havas, la jenan metu en la agordo:
 
 ### <a name="copyprevshellword"></a>copy-prev-shell-word
 
-Se la lastan vorton en la aktuala komandlinio mi volas ripeti, na `copy-prev-shell-word` mi
+Se la lastan vorton en la aktuala komandlinio mi volas ripeti, je `copy-prev-shell-word` mi
 alvokas. Ekzemple, se la jenan oni havas:
 
     % cp cxi.tio.estas.tre.longa.nomo
                                       ^
 
-Kiam na `M-x copy-prev-shell-word EN` mi plenumas, la lastan vorton ziŝo enmetas, gin fari al:
+Kiam je `M-x copy-prev-shell-word EN` mi plenumas, la lastan vorton ziŝo enmetas, gin fari al:
 
     % cp cxi.tio.estas.tre.longa.nomo cxi.tio.estas.tre.longa.nomo
                                                                   ^
@@ -394,7 +394,7 @@ Do, se la jenan mi havas:
     % foo
           ^
 
-Kiam na <kbd>M-`</kbd> mi premas, la jenan mi akiros:
+Kiam je <kbd>M-`</kbd> mi premas, la jenan mi akiros:
 
     % foo $()
             ^
@@ -405,7 +405,7 @@ Kiam na <kbd>M-`</kbd> mi premas, la jenan mi akiros:
 La bezonon por la argumenton de komandon citi mi ofte havas, precipe se metaesprimojn ĝi havas. Ofta
 kazo estas de jutubaj retadresoj, kiu la `?` signon havas:
 
-Por tio, na <kbd>M-'</kbd> bindis kiel jene:
+Por tio, je <kbd>M-'</kbd> bindis kiel jene:
 
     % bindkey -s "\e'" "''\C-b"
 
@@ -414,7 +414,7 @@ Do, kiam la jenan mi havas:
     % youtube-dl
                  ^
 
-Kiam na <kbd>M-'</kbd> mi premas, la jenan mi akiros:
+Kiam je <kbd>M-'</kbd> mi premas, la jenan mi akiros:
 
     % youtube-dl ''
                   ^
