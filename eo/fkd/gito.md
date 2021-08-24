@@ -3,7 +3,7 @@ Kiel Giton Mi Uzas
 
 <div class="center">Esperanto ▪ [English](/en/git/)</div>
 <div class="center">la 26-an de Julio 2019</div>
-<div class="center">Laste ĝisdatigita: la 2-an de Novembro 2020</div>
+<div class="center">Laste ĝisdatigita: la 23-an de Aŭgusto 2021</div>
 
 >Male, tiuj kun senĉeseco povas malatenti kiujn aliaj pensas. Ion ajn ili povas
 >fari en ilia propra mondo senzorgeme al la opinioj de tiuj ĉirkaŭ ili.<br>
@@ -32,7 +32,7 @@ gito. Ekde kiam giton mi konis antaŭ multaj jaroj, ĝi fariĝis unu el miaj ple
 uzataj iloj. Pro ĝia rapideco kaj amplekso de uzo, ĝin mi uzas kiel mia tria
 brako.
 
-Pro tio ke emakson mi uzas, na [Magit](https://magit.vc/) mi ankaŭ havas. Tamen,
+Pro tio ke emakson mi uzas, je [Magit](https://magit.vc/) mi ankaŭ havas. Tamen,
 en ĉi tiu artikolo mi parolos pri kiel giton mi uzas ĉiutage sur la komandlinio.
 
 La komandoj kaj funckioj kiujn ni havos ĉi tie estas por Ziŝo kaj Baŝo. Eblas,
@@ -679,7 +679,7 @@ aperos la listoj de dosieroj mastrumitaj de git, anstataŭ la teksto
 
 Do, per tiu funkcio, mi povas labori per gito pli facile tial, ke mi nur
 devas pensi pli la mallongigoj. Krome aliron al miaj aliaj ŝelaj komandoj mi
-havas. Pro tio ke na [tmux](/eo/tmux/) mi uzas, kiam ajn giton mi bezonas uzi,
+havas. Pro tio ke je [tmux](/eo/tmux/) mi uzas, kiam ajn giton mi bezonas uzi,
 klavkombinon por la malfermado de alia tmux-fenestro sube mi nur devas
 premi. Tie, tiujn gitkomandojn mi povas facile sen la ŝanĝon de ekranvido kiun
 Magit bedaŭrinde faras. Min ĝi ebligas por pensi aparte inter la kodo kaj la

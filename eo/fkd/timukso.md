@@ -3,7 +3,7 @@ Kiel Timukson Mi Uzas
 
 <div class="center">Esperanto ▪ [English](/en/tmux/)</div>
 <div class="center">la 26-an de Septembro 2018</div>
-<div class="center">Laste ĝisdatigita: la 25-an de Februaro 2019</div>
+<div class="center">Laste ĝisdatigita: la 24-an de Aŭgusto 2021</div>
 
 >Furioza agado ne estas anstataŭaĵo de komprenado.<br>
 >―H.H. Wɪʟʟɪᴀᴍs
@@ -39,7 +39,7 @@ manieron ŝanĝis en kiu komputadon mi faras.
 <a name="superrigardo"></a>Superrigardo
 ---------------------------------------
 
-De longe na [GNU Screen](https://www.gnu.org/software/screen/) mi uzis por kunigilado. Estis tia
+De longe je [GNU Screen](https://www.gnu.org/software/screen/) mi uzis por kunigilado. Estis tia
 vigliga sento kiam la konekton al maŝino oni perdas nur por malkovri poste, ke la porgramo kiun oni
 kurigis antaŭe ankoraŭ kuras.
 
@@ -73,7 +73,7 @@ set -g prefix C-z
 ```
 
 La komencan fenestran ciferon ĉi tio agordas al 1, anstataŭ 0; plifaciliĝas por specifan fenestron
-ŝanĝi poste. La limon de la historio kaj la prefiksklavon ĝi ankaŭ agordas. na <kbd>C-b</kbd> mi
+ŝanĝi poste. La limon de la historio kaj la prefiksklavon ĝi ankaŭ agordas. je <kbd>C-b</kbd> mi
 malbindis pro tiu klavo estas tro grava al emaksa kaj ziŝa uzo.
 
 
@@ -101,7 +101,7 @@ bind & kill-window \; move-window -r \; setw automatic-rename
 bind k send-keys C-l \; send-keys -R \; clear-history
 ```
 
-Ĉi tie, na <kbd>C-z x</kbd> kaj na <kbd>C-z &</kbd> mi rebindis por ke kiam fenestroj estas
+Ĉi tie, je <kbd>C-z x</kbd> kaj je <kbd>C-z &</kbd> mi rebindis por ke kiam fenestroj estas
 forigitaj la numerado aŭtomate ĝisdatigu. Mana transpaso pere de <kbd>C-z r</kbd> estas alia alterna
 havebla metodo.
 
@@ -136,8 +136,8 @@ bind -n M-8 select-window -t 8
 bind -n M-9 select-window -t 9
 ```
 
-Na <kbd>C-PageUp</kbd> kaj na <kbd>C-PageDown</kbd> mi bindis por fenestrojn ŝanĝi malantaŭen kaj
-antaŭen, respektive. na <kbd>S-Left</kbd> kaj <kbd>S-Right</kbd> mi bindis por fenestrojn interŝanĝi
+Je <kbd>C-PageUp</kbd> kaj je <kbd>C-PageDown</kbd> mi bindis por fenestrojn ŝanĝi malantaŭen kaj
+antaŭen, respektive. je <kbd>S-Left</kbd> kaj <kbd>S-Right</kbd> mi bindis por fenestrojn interŝanĝi
 al maldekstren kaj dekstren, respektive.
 
 Por rapide ŝanĝi al specifaj fenestroj, kelkajn klavkombinojn ni bindis al la klavon <kbd>Alt</kbd>,
@@ -294,7 +294,7 @@ respektive.
     set -g @plugin 'tmux-plugins/tmux-continuum'
 
 
-Na *tmux-resurrect* ĉi tio komplementas per la seancojn aŭtomate restaŭri en la komenca startigo de
+Je *tmux-resurrect* ĉi tio komplementas per la seancojn aŭtomate restaŭri en la komenca startigo de
 timukso.
 
     set -g @plugin 'tmux-plugins/tmux-yank'
@@ -307,7 +307,7 @@ al la tondejo.
 
 La konservitajn seancojn ĉi tio ŝarĝas dum la startigo kaj la kromprograman mastrumilon ŝarĝas.
 
-Por na ĉiom da kromprogramoj instali, na <kbd>C-z I</kbd> premu.
+Por na ĉiom da kromprogramoj instali, je <kbd>C-z I</kbd> premu.
 
 
 <a name="zonoj"></a>Zonoj
@@ -319,14 +319,14 @@ La `PRIMARY`-zono estas tiu, kiu estas engaĝita kiam ion oni markas per la musm
 enhavon de ĝi oni povas elĉerpi per la mezklaka musbutono aŭ <kbd>Shift+Insert</kbd>.
 
 La `CLIPBOARD`-zono estas tiu, kiu estas engaĝita kiam eksplicitan peton por kopiado oni faras,
-kutime farite per <kbd>C-c</kbd>, `Dekstre klaki > Kopii`, aŭ `Redakti > Kopii`, per grafikaj apoj
-kiel retumiloj. La enhavon de ĝi oni povas elĉerpi per <kbd>C-v</kbd>, `Dekstre klaki > Alglui`, aŭ
+kutime farite per <kbd>C-c</kbd>, `Dekstre alklaki > Kopii`, aŭ `Redakti > Kopii`, per grafikaj apoj
+kiel retumiloj. La enhavon de ĝi oni povas elĉerpi per <kbd>C-v</kbd>, `Dekstre alklaki > Alglui`, aŭ
 `Redakti > Alglui`.
 
 La timukso-zono estas tiu, kiu estas engaĝita kiam la kopian reĝimon oni eniras. Ĉi tio estas farita
-per na <kbd>C-z [</kbd> premi unue, tiam na <kbd>C-Space</kbd> premu por la komencon marki, tiam la
-movadajn klavojn premi por la areon etendi, kaj fine na <kbd>M-w</kbd> premu por la enhavojn
-kopii. La enhavon de ĝi oni povas elĉerpi per na <kbd>C-z ]</kbd> premi.
+per je <kbd>C-z [</kbd> premi unue, tiam je <kbd>C-Space</kbd> premu por la komencon marki, tiam la
+movadajn klavojn premi por la areon etendi, kaj fine je <kbd>M-w</kbd> premu por la enhavojn
+kopii. La enhavon de ĝi oni povas elĉerpi per je <kbd>C-z ]</kbd> premi.
 
 Per timukso la musmontrilon mi ne plu bezonas uzi por la zonojn mastrumi.
 
@@ -350,7 +350,7 @@ Fine, timukson reŝargu:
 
     $ tmux
 
-Se timukso plendas, ke mankas iom da kromprogramoj, na <kbd>C-z I</kbd> premu:
+Se timukso plendas, ke mankas iom da kromprogramoj, je <kbd>C-z I</kbd> premu:
 
 
 <a name="finrimarkoj"></a>Finrimarkoj

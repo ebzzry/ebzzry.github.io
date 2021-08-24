@@ -3,17 +3,18 @@ Ziŝaj Konsiletoj 3-a: Ŝanĝradikighelpiloj
 
 <div class="center">Esperanto ▪ [English](/en/zsh-tips-3/)</div>
 <div class="center">la 26-an de Septembro 2018</div>
-<div class="center">Laste ĝisdatigita: la 14-an de Aŭgusto 2019</div>
+<div class="center">Laste ĝisdatigita: la 23-an de Aŭgusto 2021</div>
 
 >Ni ridas pri tio, kion ni ne povas toleri por alfronti.<br>
 >―Aristotelo
 
-Teĥnologioj kiel Dakero, *QEMU*, kaj *VirtualBox* estas bonegaj iloj kiam procezojn oni volas plenumi
-aparte de la gastiga sistemo. Tute izolitajn mediojn ĉi tiuj teĥnikoj provizas al ni kiuj la
-reprodukteblecon de kodo plifaciligas testi. Tamen, estas okazoj en kiu ĉi tiuj solvoj tro pezas,
-kaj ion malplipezan ni bezonas. Eniras ŝanĝradikigado. Male al siaj pliplezaj amikoj, ŝanĝradikigado
-sidas ie proksima al la dosiersistemo, kie la risurcojn de la medio kiun ĝin alvokas ĝi povas facile
-aliri.
+Teĥnologioj kiel Dakero, *QEMU*, kaj *VirtualBox* estas bonegaj iloj kiam
+procezojn oni volas plenumi aparte de la gastiga sistemo. Tute izolitajn mediojn
+ĉi tiuj teĥnikoj provizas al ni kiuj la reprodukteblecon de kodo plifaciligas
+testi. Tamen, estas okazoj en kiu ĉi tiuj solvoj tro pezas, kaj ion malplipezan
+ni bezonas. Eniras ŝanĝradikigado. Male al siaj pliplezaj amikoj, ŝanĝradikigado
+sidas ie proksima al la dosiersistemo, kie la risurcojn de la medio kiun ĝin
+alvokas ĝi povas facile aliri.
 
 En ĉi tiu artikolo, mi parolos kiel ŝanĝradikigmedion agordi sur linukso per ziŝo. Teĥnike, ĉi tio
 estas kunmeto de diskutoj pri ŝelo kaj sistemadministrado, sed pro kapablojn kiuj estas ekskluzivaj
@@ -44,7 +45,7 @@ opcioj estas laborintensivaj kaj la taskojn mi povas kuri rapide, kaj nun.
 -------------------------------------------
 
 Por la efektivan disan medion krei, manieron por ĝin elŝuti kaj instali sur nia disko ni
-bezonas. Por tion fari, na bootstrap ni bezonas.
+bezonas. Por tion fari, je Bootstrap ni bezonas.
 
 Per Nixpkgs:
 
@@ -101,7 +102,7 @@ Tiam, la uzanton `vakelo` ni aligu parto de la `sudo` grupo:
 
     # usermod -aG sudo vakelo
 
-Tiam, ni diru al *sudo*, ke nin ĝi ne devas invitigi por la pasvorto. Por tion fari, na `visudo` ni
+Tiam, ni diru al *sudo*, ke nin ĝi ne devas invitigi por la pasvorto. Por tion fari, je `visudo` ni
 devas uzi:
 
     # visudo
