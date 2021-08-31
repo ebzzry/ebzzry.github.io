@@ -3,7 +3,7 @@ Konverti de Markdown al HTML per emem
 
 <div class="center">Esperanto ▪ [English](/en/emem/)</div>
 <div class="center">la 5-an de Aŭgusto 2018</div>
-<div class="center">Laste ĝisdatigita: la 23-an de Aŭgusto 2021</div>
+<div class="center">Laste ĝisdatigita: la 31-an de Aŭgusto 2021</div>
 
 >Oni ne trovos la respondojn kiujn oni serĉas ĝis oni haltas serĉi ekster kaj komenciĝas serĉi ilin
 >el oni mem.<br>
@@ -92,8 +92,8 @@ MINLEGU.html
 MINLEGU.md
 ```
 
-La `-s` opcio forigas la bezonon por apartan risurcan dosieron krei, kaj na ĉiom
-da bezonitaj risurcoj metas al la eliga dosiero igas al ĝi facila kaj helpema
+La `-s` opcio forigas la bezonon por apartan risurcan dosieron krei, kaj ĉiomajn
+bezonitajn risurcojn metas al la eliga dosiero igas al ĝi facila kaj helpema
 por la eligajn dokumentojn rigardi sur aparatoj kiel poŝtelefonoj kaj tabuletoj.
 
 Tenu en la kalkulo, ke la dokumentotitolo ene la dosiero estos uzita kiel la baznomo de la
@@ -190,7 +190,7 @@ Kutime je emem mi kuras jene:
 
     $ emem -Fis dosiero.md
 
-Por na ĉiom da subtenitaj opcioj vidi:
+Por ĉiomajn subtenitajn opciojn vidi:
 
     $ emem --help
 
@@ -213,4 +213,4 @@ Markdown-bufroj krei per
 kaj [emacs-w3m](https://www.emacswiki.org/emacs/emacs-w3m). Por je emem vidi en efektiva uzado,
 [ĉi tien](https://github.com/ebzzry/ebzzry.github.io/blob/master/makefile) iru.
 
-Se na iom da Kloĵuron oni konas, [ĝin forku](https://github.com/ebzzry/emem/) kaj forkodumu!
+Se ioman Kloĵuron oni konas, [ĝin forku](https://github.com/ebzzry/emem/) kaj forkodumu!

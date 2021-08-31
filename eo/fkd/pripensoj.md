@@ -3,7 +3,7 @@ Pripensoj
 
 <div class="center">Esperanto ▪ [English](/en/reflections/)</div>
 <div class="center">la 3-an de Novembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 1-an de Februaro 2021</div>
+<div class="center">Laste ĝisdatigita: la 31-an de Aŭgusto 2021</div>
 
 Ĉi tiu paĝo enhavas kelke da miaj propraj pripensoj. La enskriboj estas
 ordigitaj laŭ kronologiordo.
@@ -339,7 +339,7 @@ ordigitaj laŭ kronologiordo.
   parolu. Tiam iĝas aŭdata oni.<br>
 
 
-- Se na ĉiom da doloro oni scias, oni fariĝas mastro de plezuro.<br>
+- Se ĉioman doloron oni scias, oni fariĝas mastro de plezuro.<br>
 
 
 - Gravajn decidojn neniam faru se oni malsatas, ebrias, koleras, lacas, vundiĝas, dormemas,
