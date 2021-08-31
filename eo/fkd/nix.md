@@ -3,7 +3,7 @@ Milda Enkonduko al la Nix-Familio
 
 <div class="center">Esperanto ▪ [English](/en/nix/)</div>
 <div class="center">la 5-an de Aŭgusto 2018</div>
-<div class="center">Laste ĝisdatigita: la 23-an de Aŭgusto 2021</div>
+<div class="center">Laste ĝisdatigita: la 31-an de Aŭgusto 2021</div>
 
 >Ne maltrankviliĝu pri tio, kion la aliaj faros. La plej bona maniero por la estontecon antaŭdiri
 >estas por tion eltrovi.<br>
@@ -95,7 +95,7 @@ bileto al infero.
 
 [NixOS](https://nixos.org) (niks▪oŭ▪es) estas linuksa distribuo kiu ĉi tiajn problemojn solvas per la
 determinismon de [Nix](https://nixos.org/nix) ekspluati kaj per unu deklaran agorddosieron uzi kiu
-na ĉiom da agordaĵoj kaj alĝustigiloj tenas en unu loko—`/etc/nixos/configuration.nix`. Informon pri la
+ĉiomajn agordaĵojn kaj alĝustigiloj tenas en unu loko—`/etc/nixos/configuration.nix`. Informon pri la
 dosiersistemo, uzantoj, servoj, retagordo, enigaparatoj, kernaj parametroj, kaj pli ĉi tiu dosiero
 enhavas. Signifas, ke je _configuration.nix_ de iu oni povas preni kaj ĝian ekzaktan sistemagordon
 havu! En NixOS oni ne plu bezonas ludadi pri la tutsistemo por la agordo kiun oni
@@ -334,7 +334,7 @@ Je NixOS instalu al la disko:
     # nixos-install
 
 Je `/etc/nixos/configuration.nix` ĉi tiu komando analizas, asekurante, ke ne
-estas eraroj. Na ĉiom da necesaj pakoj por kongrui al la specifo ĉi tiu komando
+estas eraroj. Ĉiomajn necesajn pakojn por kongrui al la specifo ĉi tiu komando
 elŝutos.
 
 Post kiam la instalo finiĝis, la sistemon repraŝarĝu.
@@ -667,7 +667,7 @@ nix-repl> (x: x) "hundo"
 "hundo"
 ```
 
-Por na pli da amuzo aldoni, tiun funkcion ni nomu:
+Por plian amuzon aldoni, tiun funkcion ni nomu:
 
 ```nix
 nix-repl> idento = x: x
@@ -700,7 +700,7 @@ nix-repl> ve "mi" "vi"
 
 La modelo, estas, ke por aldonan parametron aldoni, la formon `name: ` uzu.
 
-Aroj, kiam uzitaj kun funkcioj, na pli da potencaj abstraktadoj ŝaltas. Aron
+Aroj, kiam uzitaj kun funkcioj, pliajn potencajn abstraktadojn ŝaltas. Aron
 kiel argumento al funkcio ni povas doni, kiu la datumon ene tiu aro do uzos:
 
 ```nix
@@ -761,7 +761,7 @@ nix-repl> birdo { a = "oro"; b = "argxento"; }
 "oroargxento"
 ```
 
-Por na pli da flekso aldoni, la uzon de pseŭdo-«rest» argumentoj Nix subtenas. La funkcion
+Por plian flekson aldoni, la uzon de pseŭdo-«rest» argumentoj Nix subtenas. La funkcion
 ĉi-supre ni modifu:
 
 ```nix
@@ -919,7 +919,7 @@ sendependa, la originala marŝada grupo fariĝas nemodifita.
 
 La kazon de distribuo celita kiel pluruzanta produkta disvolva medio ni traktu. Kiam fajrfokson
 versio 100 oni instalas, la ĉefa duuma dosiero iras al aŭ `/usr/bin/firefox` aŭ
-`/usr/local/bin/firefox`. Sekve, la apon el tiu dosierindiko na ĉiom da uzantoj povas aliri; Johano,
+`/usr/local/bin/firefox`. Sekve, la apon el tiu dosierindiko ĉiomajn uzantojn povas aliri; Johano,
 Mario, kaj Petro feliĉas. Bedaŭrinde, se ĝin Johano decidis aktualigi al versio 200, la sama apo
 kiun Mario kaj Petro uzas ankaŭ aktualiĝis! Tio ne estas bonaĵo se la malnovan version kiu funkcias
 al ili ili preferas! Onin Nix permesas por plurajn versiojn de programaro havi sen kolizioj al la
@@ -1033,11 +1033,11 @@ Por pakon malinstali, plenumu:
 
     $ nix-env -e emem
 
-Por na ĉiom da instalitaj pakoj listigi, plenumu:
+Por ĉiomajn instalitajn pakojn listigi, plenumu:
 
     $ nix-env -q --installed
 
-Por na ĉiom da haveblaj pakoj listigi, plenumu:
+Por ĉiomajn haveblajn pakojn listigi, plenumu:
 
     $ nix-env -q --available
 
@@ -1469,7 +1469,7 @@ enhavon ni kontrolu:
 
 Ĉi tio diras al ni la versio de Nixpkgs kanalojn uzanta en ĉi tiu profilo.
 
-Iri reen, na ĉiom da identigiloj en la lokamplekso la deklaro `with pkgs` metas, ilin igas
+Iri reen, ĉiomajn identigilojn en la lokamplekso la deklaro `with pkgs` metas, ilin igas
 videblaj. `stdenv`, kiu estis menciita antaŭe, estas atribuaro kiu inter multaj aferoj, la
 identigilon `mkDerivation` enhavas. `mkDerivation`, sinsekve, estas funkcio kiu unu atribuaran
 argumenton akceptas. Onin mi memorigas, ke unu eron de argumento kiu estas atribuaro la kunigkrampoj

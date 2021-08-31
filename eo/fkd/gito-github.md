@@ -3,7 +3,7 @@ Maldaŭra Rondvojaĝo de Gito kaj GitHub
 
 <div class="center">Esperanto ▪ [English](/en/git-github/)</div>
 <div class="center">la 11-an de Julio 2018</div>
-<div class="center">Laste ĝisdatigita: la 24-an de Aŭgusto 2021</div>
+<div class="center">Laste ĝisdatigita: la 31-an de Aŭgusto 2021</div>
 
 >Ĉiujn solvitajn problemon sciu kiel solvi.<br>
 >―Richard P. Fᴇʏɴᴍᴀɴ
@@ -61,7 +61,7 @@ La gitan deponejon oni nun povas pravalorizi.
 
     $ git init
 
-Komence, na ĉiom da dosieroj en la aktuala dosierujo aldonu:
+Komence, ĉiomajn dosierojn en la aktuala dosierujo aldonu:
 
     $ git add .
 
@@ -162,7 +162,7 @@ deponejo la `git push` komando alŝutas.
 
 ### <a name="deponejongxisdatigi"></a>La deponejon ĝisdatigi
 
-Kiam na pli da ŝanĝo oni faris al la deponejo, la ŝanĝojn oni povas puŝi per la jena komando:
+Kiam plian ŝanĝon oni faris al la deponejo, la ŝanĝojn oni povas puŝi per la jena komando:
 
     $ git push origin master
 

@@ -3,7 +3,7 @@ Milda Enkonduko al Sofismoj
 
 <div class="center">Esperanto ▪ [English](/en/fallacies/)</div>
 <div class="center">la 29-an de Julio 2018</div>
-<div class="center">Laste ĝisdatigita: la 24-an de Aŭgusto 2021</div>
+<div class="center">Laste ĝisdatigita: la 31-an de Aŭgusto 2021</div>
 
 >Lerni ne necesas; nek travivas.<br>
 >―W. Edwards Dᴇᴍɪɴɢ
@@ -523,7 +523,7 @@ A li asertas, sed poste kontraŭ-A.
 ------------------------------------------------
 
 Ĉi tio fifaritas kiam persvadan kaj fortan pruvmaterialon persono malhoneste malatentas, dum
-implikitan iun favoras kiu na pli da demando altigas.
+implikitan iun favoras kiu plian demandon altigas.
 
 > “La statuo de virgulino Maria en la monteto de Idjaj ploris per sango. Ŝi devis esti ploranta pro
 > la pekoj kiujn homaro kreas.”
@@ -564,6 +564,6 @@ malvalidigas. Ĉi tio rilatas al apelo al devenoj.
 <a name="finrimarkoj"></a>Finrimarkoj
 -------------------------------------
 
-Mi esperas, ke per ĉi tiu afiŝo, na pli da pensada klareco mi povis doni.
+Mi esperas, ke per ĉi tiu afiŝo, plian pensadan klarecon mi povis doni.
 
 _Dank’ al [Raymund Mᴀʀᴛɪɴᴇᴢ](https://zhaqenl.github.io) pro la korektoj._

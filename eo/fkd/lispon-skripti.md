@@ -38,7 +38,7 @@ priparolos.
 
 Unu el la plej oftaj demandoj kiun mi ricevas kiam mi diras, ke skriptadon mi
 volas fari per komunlispo, estas, kiel tion mi eĉ volas fari kaj tio
-maleblas. La respondo simplas: na pli da potenco kaj esprimpleneco mi volas
+maleblas. La respondo simplas: plian potencon kaj esprimplenecon mi volas
 havi. Maturan kaj nelimigitan lingvon mi volas havi. Lingvon kiu miajn ideojn
 povas esprimi en la malplej kiomo de froto mi volas havi.
 
@@ -49,7 +49,7 @@ estas tiel. Funkcioj en Baŝo ne estas ie proksimaj al la funkcioj en lingvoj ki
 interaga uzantŝelo, ĝi funkcias bone; escepte tio, ne.
 
 Ekzistas aliaj skriptadaj solvoj en aliaj lingvoj. Haskelo, Pitono, Skimo, kaj
-Rubeno, na kelke da ili nomante, ĝin havas. Tamen estas bona eblo de komunlispo,
+Rubeno, kelkajn ilin nomante, ĝin havas. Tamen estas bona eblo de komunlispo,
 kiu estas malfacila por realigi aŭ ne ekzistas en aliaj aliroj: pro la skriptoj
 mem estas validaj komunlispaj programoj, la programojn mi povas ŝarĝi en la REPL
 kaj afablajn aferojn mi povas fari kun tio. Neniu venas proksima al la flekso,
@@ -170,7 +170,7 @@ al UIOP ĉi tio kreas. En la klaŭzo `:USE`, la helpilojn de aliaj bibliotekoj n
 aŭ ne, ĉi tiu markilo efektive markas. Ĝi estos uzita de `REGISTER-COMMANDS` poste.
 
 Ĉi tie, kelkajn funkciojn ni difinas: `SYMLINK` respondecas pri la kreado de la simbolligiloj por la
-multvoka duumdosiero; na kelke da bazuza informo `HELP` montras; kaj `MAIN` estas la enirejo de nia
+multvoka duumdosiero; kelkajn bazuzajn informojn `HELP` montras; kaj `MAIN` estas la enirejo de nia
 skripto. La duumdosiero troveblos en `$HOME/bin/`. Por la procedon pri la kunmetado de la skripto
 kaj simbolligiloj plifaciligi, la kunmetadajn instrukciojn ni metos en Makefile. La dosieron
 `Makefile` en la aktuala dosierujo kreu, tiam la jenan metu:

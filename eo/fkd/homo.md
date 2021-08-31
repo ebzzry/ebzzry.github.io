@@ -3,7 +3,7 @@ Kiel Komuniki Samkiel Homo
 
 <div class="center">Esperanto ▪ [English](/en/human/)</div>
 <div class="center">la 3-an de Aŭgusto 2018</div>
-<div class="center">Laste ĝisdatigita: la 2-an de Decembro 2019</div>
+<div class="center">Laste ĝisdatigita: la 31-an de Aŭgusto 2021</div>
 
 >La kapablo por paroli ne igas onin saĝa.<br>
 >―Qui-gon Jɪɴɴ
@@ -45,7 +45,7 @@ rezultoj de tiel komputeblas kaj antaŭdireblas.
 Homoj estas ege malsamaj—ne ekzistas 1:1 rilato de instrukcioj kaj la
 elveno. Homoj estas emociaj bestoj. Ni disvolviĝis el malsamaj cirkonstancaro
 kontraste kun modernaj komputikaj sistemoj kiujn ni nun havas. Kiam ekzaktajn
-mesaĝojn ni komunikas, na iom da kelkaj faktoroj ni ne tenas en la kalkulo
+mesaĝojn ni komunikas, iomajn kelkajn faktorojn ni ne tenas en la kalkulo
 inkluzive la variablecon de interpreto. Nur ĉar kion ni diras al la alia flanko
 de la komunikado ni klare komprenas, ne signifas, ke ĝin la alia flanko ankaŭ
 klare komprenas. Ĉu sufiĉan fonon kaj kuntekston al la komunikato ni disponigis?
