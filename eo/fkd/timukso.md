@@ -3,7 +3,7 @@ Kiel Timukson Mi Uzas
 
 <div class="center">Esperanto ▪ [English](/en/tmux/)</div>
 <div class="center">la 26-an de Septembro 2018</div>
-<div class="center">Laste ĝisdatigita: la 24-an de Aŭgusto 2021</div>
+<div class="center">Laste ĝisdatigita: la 31-an de Aŭgusto 2021</div>
 
 >Furioza agado ne estas anstataŭaĵo de komprenado.<br>
 >―H.H. Wɪʟʟɪᴀᴍs
@@ -51,11 +51,11 @@ En ĉi tiu artikolo, onin mi kondukas al mia agordaĵo kaj krudan ideon kiel mi 
 donos.
 
 
-<a name="gxeneralaj"></a>Ĝeneralaj
+o<a name="gxeneralaj"></a>Ĝeneralaj
 ----------------------------------
 
 Estas bona ideo por komenci de la pli ĝeneralaj fazoj de agordaĵo, moviĝonte al la plej
-specifaj. Na iom da ĉi tiuj agordaĵoj ĉi tiu sekcio rigardos.
+specifaj. Iomajn agordaĵn ĉi tiu sekcio rigardos.
 
 
 ### <a name="indeksoj"></a>Indeksoj
@@ -307,7 +307,7 @@ al la tondejo.
 
 La konservitajn seancojn ĉi tio ŝarĝas dum la startigo kaj la kromprograman mastrumilon ŝarĝas.
 
-Por na ĉiom da kromprogramoj instali, je <kbd>C-z I</kbd> premu.
+Por ĉiomajn kromprogramojn instali, je <kbd>C-z I</kbd> premu.
 
 
 <a name="zonoj"></a>Zonoj

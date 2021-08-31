@@ -3,7 +3,7 @@ Ziŝaj Konsiletoj 1-a: Alinomoj kaj Funkcioj
 
 <div class="center">Esperanto ▪ [English](/en/zsh-tips-1/)</div>
 <div class="center">la 26-an de Septembro 2018</div>
-<div class="center">Laste ĝisdatigita: la 24-an de Aŭgusto 2021</div>
+<div class="center">Laste ĝisdatigita: la 31-an de Aŭgusto 2021</div>
 
 >Malsaĝulo miras pri nekutimaj aferoj. Ŝagulo miras pri la kutimaj aferoj.<br>
 >―Konfuceo
@@ -49,7 +49,7 @@ Aliaj estas pli agresivaj kiel tutmondaj alinomoj, kiuj malvolvojn povas fari ie
 La ĉefenigujon kaj ĉefeligujon la unua tutmonda alinomo filtras al *egrep* kun kolorita eligo. La
 plej novan kutiman dosieron en la aktuala dosierujo la dua tutmonda alinomo revenas.
 
-Por na ĉiom da alinomoj montri, plenumu:
+Por ĉiomajn alinomojn montri, plenumu:
 
     alias
 
@@ -101,7 +101,7 @@ Nur je `hundo` ĝi montras, anstataŭ je `hundo, too` eĉ ĉi tiu venas de pli n
 
 Tiel longe kiel eble, funkciojn plenumu:
 
-Por na ĉiom da funkcioj montri, plenumu:
+Por ĉiomajn funkciojn montri, plenumu:
 
     % functions
 

@@ -3,7 +3,7 @@ Mia Kinezia Avantaĝa Aranĝo
 
 <div class="center">Esperanto ▪ [English](/en/advantage/)</div>
 <div class="center">la 12-an de Julio 2018</div>
-<div class="center">Laste ĝisdatigita: la 23-an de Aŭgusto 2021</div>
+<div class="center">Laste ĝisdatigita: la 31-an de Aŭgusto 2021</div>
 
 >La doloro neeviteblas. La suferado malnepras.<br>
 >―M. Kathleen Cᴀsᴇʏ
@@ -63,7 +63,7 @@ malproksimas.
 <a name="poste"></a>Poste
 -------------------------
 
-Pro tio na kelke da klavoj mi remapis. Jen la nova aranĝo.
+Pro tio kelkajn klavojn mi remapis. Jen la nova aranĝo.
 
 <a href="/bil/avantagxo-dvorako-1.png"><img src="/bil/avantagxo-dvorako-1.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="Remapigita softvara Dvorako" title="Remapigita softvara Dvorako"/></a>
 <div class="center">Figuro 1-2: Remapigita softvara Dvorako</div>
