@@ -3,7 +3,7 @@ Ziŝaj Konsiletoj 3-a: Ŝanĝradikighelpiloj
 
 <div class="center">Esperanto ▪ [English](/en/zsh-tips-3/)</div>
 <div class="center">la 26-an de Septembro 2018</div>
-<div class="center">Laste ĝisdatigita: la 23-an de Aŭgusto 2021</div>
+<div class="center">Laste ĝisdatigita: la 28-an de Septembro 2021</div>
 
 >Ni ridas pri tio, kion ni ne povas toleri por alfronti.<br>
 >―Aristotelo
@@ -205,7 +205,7 @@ La daton de la uname-komando ni ankaŭ vidu:
 
     % cr uname -a
 
-Na `cr` oni ankaŭ povas plenumi por eniri al ŝelo:
+Je `cr` oni ankaŭ povas plenumi por eniri al ŝelo:
 
     % cr
 

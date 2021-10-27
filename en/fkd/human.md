@@ -3,7 +3,7 @@ How to Communicate like a Human
 
 <div class="center">[Esperanto](/eo/homo/) ▪ English</div>
 <div class="center">February 28, 2017</div>
-<div class="center">Last updated: August 5, 2018</div>
+<div class="center">Last updated: October 10, 2021</div>
 
 >The ability to speak does not make you intelligent.<br>
 >―Qui-Gon Jinn
@@ -58,7 +58,7 @@ of those questions is answered by a no, then we need to reassess how are we comm
 When one needs to communicate messages to someone that do not possess the same mental faculties as
 the communicator, adjustments have to be made. Every one of us process things differently. A chess
 grandmaster should bear in mind that when he is teaching a beginner, the student can only understand
-so much. He can’t go ham and make him understand advanced topics. There is an impregnable wall; that
+so much. They can’t go ham and make them understand advanced topics. There is an impregnable wall; that
 wall only becomes thin with time.
 
 
@@ -118,19 +118,19 @@ lost.
 
 ### Lean forward
 
-Consider this: as you are communicating with someone, he moves his body away from you. What message
+Consider this: as you are communicating with someone, they move their body away from you. What message
 does it send you? Compare this with someone, who leans forward to listen to you. What happened is
 that the mere act of moving forward reduces the distance between the origin of the sound—his mouth,
 to the destination of the sound—your ears. In terms of the speed at which sound travels on average
 on air, this distance is negligible. However, it means a lot to the one who is speaking. You
-signal to him that you are committed to receiving his messages. You show that you are actively
+signal to them that you are committed to receiving their messages. You show that you are actively
 participating in the conversation.
 
 
 ### Display open palms
 
 When we display our palms to the listener, we invoke a sense of participation, one that shows that
-the one with open palms makes himself vulnerable. This is due in part to our anatomy—our palms are
+the one with open palms makes themself vulnerable. This is due in part to our anatomy—our palms are
 fleshly and sensitive. If the inside of our hands are wounded, our ability to hold and grip things
 are greatly compromised. When we display our palms, we display openness, we display willingness to
 learn, we display trust.
@@ -143,7 +143,7 @@ are uttered, messages are communicated. When someone is speaking to you, maintai
 trick is not to look directly at the eyes, but somewhere between the bridge, or just a centimeter
 around the line where the eyebrows meet. To make it more engaging, briefly look on the sides, or
 downwards, then go back to the eye area. Do not, however, look at other parts of a person’s body
-during this process—it may signal to him that you are not paying attention to what he is saying.
+during this process—it may signal to them that you are not paying attention to what he is saying.
 
 
 Miscellany

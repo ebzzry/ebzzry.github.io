@@ -3,7 +3,7 @@ A Lambda Calculus Primer
 
 <div class="center">[Esperanto](/eo/lambdokalkulo/) ▪ English</div>
 <div class="center">June 12, 2015</div>
-<div class="center">Last updated: October 18, 2018</div>
+<div class="center">Last updated: October 10, 2021</div>
 
 >You do not really understand something unless you can explain it to your grandmother.<br>
 >―Albert Einstein
@@ -66,8 +66,8 @@ When discussing new concepts, it is very important to layout the axioms or the i
 ruleset. Think of it as defining new terms in play, and giving them meaning. The context in which
 these meanings live are important. For example, for the gardener the hose is used to water the
 plants, while for the fireman, the hose is used to put out the fire. When the gardener, or the
-fireman grabs the hose, he will not question what is that he is holding, and what is its purpose. He
-simply believes in his intuition, to determine the meaning of the hose at the time he
+fireman grabs the hose, they will not question what is that they are holding, and what is its purpose. They
+simply believe in their intuition, to determine the meaning of the hose at the time they
 grabbed it.
 
 In English, the word __“high”__ has several meanings. But for all the defined meanings of the word,
