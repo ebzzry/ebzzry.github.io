@@ -3,7 +3,7 @@ In Retrospect
 
 <div class="center">[Esperanto](/eo/rerigardante/) ▪ English</div>
 <div class="center">July 11, 2013</div>
-<div class="center">Last updated: Februaro 4, 2019</div>
+<div class="center">Last updated: October 10, 2021</div>
 
 >Out of life's school of war: what does not destroy me, makes me stronger.<br>
 >―Friedrich Nietzsche
@@ -38,13 +38,13 @@ I have also asked myself, another important question. A question that ultimately
 nights, anxiety, and the inability to fully grasp the immediate time and space, around me.
 _“Was it worth doing it?”_ It seemed to me that time, that whenever I think about it, I open
 Pandora’s box. And somehow, I always convinced myself to open it, to see it for myself. I was very
-curious to know, what was in it, despite admonitions to my own self. Another curious soul, gave his
+curious to know, what was in it, despite admonitions to my own self. Another curious soul, gave their
 two cents, advising me that that was the wrong question to ask. That I should seek for the correct
 answer, myself, as if trying to find my own way back home.
 
-At one point, someone knocked on my door—it was Regret. Despite his seemingly pitiful state, I
-declined to let him in, no matter how persistent he was. I knew that the moment I let him in, he’d
-feel immediately welcome for himself, and feel comfortable around the place, as if it was his. Every
+At one point, someone knocked on my door—it was Regret. Despite their seemingly pitiful state, I
+declined to let them in, no matter how persistent they were. I knew that the moment I let them in, he’d
+feel immediately welcome for themself, and feel comfortable around the place, as if it was theirs. Every
 time he knocked on my door, he asked if he was welcome. I boldly said _“No.”_, every single time. I
 would have told myself that had I not done it, I would have not experienced the pain. This is wrong
 in many ways, because had I not done it, I wouldn’t be there in the first place, to ask that

@@ -3,7 +3,7 @@ Milda Enkonduko al la Nix-Familio
 
 <div class="center">Esperanto ▪ [English](/en/nix/)</div>
 <div class="center">la 5-an de Aŭgusto 2018</div>
-<div class="center">Laste ĝisdatigita: la 31-an de Aŭgusto 2021</div>
+<div class="center">Laste ĝisdatigita: la 20-an de Oktobro 2021</div>
 
 >Ne maltrankviliĝu pri tio, kion la aliaj faros. La plej bona maniero por la estontecon antaŭdiri
 >estas por tion eltrovi.<br>
@@ -63,7 +63,7 @@ Milda Enkonduko al la Nix-Familio
 Venas rare ideoj kiuj la manieron por komputado povas ŝanĝi. Multe da teĥnologio
 kiujn ni uzas nune nur estas ripetoj de la malnovaj—niveloj sur niveloj de
 kosmetikoj kiuj la malnovajn konceptojn ĉirkaŭkovras. Tutaj produktaj sistemoj
-estas bazitaj sur ĉi tiu manko de kreemo kaj lerteco. Malnovaj problemoj ne
+baziĝas sur ĉi tiu manko de kreemo kaj lerteco. Malnovaj problemoj ne
 solvitas. Pentrante per novaj kolortonoj, la problemojn ĉi tiuj tielnomataj
 elpensemaj solvoj nure ĉirkaŭigas anstataŭe, pretendante ke almenaŭ, ĝin ili
 plikolorplenigis. Progreson ĉi tiu mensostato difektas en nekalkuleblaj
@@ -1662,7 +1662,7 @@ kiujn mi konas estas [AppImage](http://appimage.org/), [Zero Install](http://0i
 [Snapcraft](https://snapcraft.io/), kaj [Flatpak](http://flatpak.org/).
 
 La [Guix System Distribution (GuixSD)](https://www.gnu.org/software/guix/) estas linuksa distribuo
-kiu estas bazita sur Nix. Je [Guile](https://www.gnu.org/software/guile/) ĝi uzas kiel sia
+kiu baziĝas sur Nix. Je [Guile](https://www.gnu.org/software/guile/) ĝi uzas kiel sia
 API-lingvo. La kerna kontrasto inter GuixSD kaj NixOS, estas, je
 [GNU Shepherd](https://www.gnu.org/software/shepherd/) tiu uzas anstataŭ systemd; neliberajn
 pakojn ĝi ne permesas; kaj je [Linux-libre](https://www.fsfla.org/ikiwiki/selibre/linux-libre/),

@@ -3,7 +3,7 @@ Squandered Relentlessness
 
 <div class="center">[Esperanto](/eo/malsxparitaj/) ▪ English</div>
 <div class="center">May 9, 2013</div>
-<div class="center">Last updated: September 30, 2018</div>
+<div class="center">Last updated: October 10, 2021</div>
 
 >The first step towards getting somewhere is to decide that you are not going to stay where you
 >are.<br>
@@ -66,7 +66,7 @@ slightest attempt to bolster up to devise questions.
 The society, which we are all part of, is part of the disease. This very illness is what we have
 been aiding to develop, from its inception. This unit is what we have been working hard on, to form
 our own senses of individuality. We wanted to stand out, and yet all we do is just blend in. How can
-a formidable hunter become so docile that he becomes the prey himself? Why do we throw away our
+a formidable hunter become so docile that they becomes the prey themself? Why do we throw away our
 spears when they are all we have to give us the ability to fight back?  Our sensibilities have
 drifted away into black, bottomless pits, which we have all contributed to making.
 

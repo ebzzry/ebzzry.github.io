@@ -3,13 +3,13 @@ Kiel Timukson Mi Uzas
 
 <div class="center">Esperanto ▪ [English](/en/tmux/)</div>
 <div class="center">la 26-an de Septembro 2018</div>
-<div class="center">Laste ĝisdatigita: la 31-an de Aŭgusto 2021</div>
+<div class="center">Laste ĝisdatigita: la 28-an de Septembro 2021</div>
 
 >Furioza agado ne estas anstataŭaĵo de komprenado.<br>
 >―H.H. Wɪʟʟɪᴀᴍs
 
 Samkiel redaktilo, terminalsimulila kunigilo estas unu el la malmultaj iloj kiu
-na multe da produktiveco liveras ekde ĝin oni lernas kiel uzi. En ĉi tiu artikolo
+multan produktivecon liveras ekde ĝin oni lernas kiel uzi. En ĉi tiu artikolo
 mi parolos pri [timukso](https://github.com/tmux/tmux)—seanca mastrumilo,
 kunigilo, fenesadministrilo, kaj unu el la plej gravaj programaroj kiu la
 manieron ŝanĝis en kiu komputadon mi faras.
@@ -120,10 +120,10 @@ Fenestroj estas la ekvivalentoj de retumilaj langetoj en timukso. Seancojn ĝi o
 ### <a name="fenestrojmovado"></a>Movado
 
 ```
-bind -n C-PPage previous-window
-bind -n C-NPage next-window
-bind -n S-left swap-window -t -1
-bind -n S-right swap-window -t +1
+bind -n S-left previous-window
+bind -n S-right next-window
+bind left swap-window -t -1\; previous-window
+bind right swap-window -t +1\; next-window
 
 bind -n M-1 select-window -t 1
 bind -n M-2 select-window -t 2
@@ -136,8 +136,8 @@ bind -n M-8 select-window -t 8
 bind -n M-9 select-window -t 9
 ```
 
-Je <kbd>C-PageUp</kbd> kaj je <kbd>C-PageDown</kbd> mi bindis por fenestrojn ŝanĝi malantaŭen kaj
-antaŭen, respektive. je <kbd>S-Left</kbd> kaj <kbd>S-Right</kbd> mi bindis por fenestrojn interŝanĝi
+Je <kbd>S-left</kbd> kaj je <kbd>S-right</kbd> mi bindis por fenestrojn ŝanĝi malantaŭen kaj
+antaŭen, respektive. je <kbd>C-z left</kbd> kaj <kbd>C-z right</kbd> mi bindis por fenestrojn interŝanĝi
 al maldekstren kaj dekstren, respektive.
 
 Por rapide ŝanĝi al specifaj fenestroj, kelkajn klavkombinojn ni bindis al la klavon <kbd>Alt</kbd>,
@@ -210,7 +210,7 @@ panelo marki.
 <a name="statbreto"></a>Statbreto
 ---------------------------------
 
-Na multe da prisondo la statbreto donas, kaj ĝin ni povas tajlori. La mian mi agordis jene:
+Multan prisondon la statbreto donas, kaj ĝin ni povas tajlori. La mian mi agordis jene:
 
 ```
 set -g status-position bottom
@@ -245,7 +245,7 @@ set -g pane-active-border-fg green
 set -g pane-active-border-bg black
 ```
 
-Sed se la `2.9.X` serion oni jam uzas, ĉi tion uzu anstataŭe:
+Sed se la `2.9.X` serion oni jam uzas, ĉi tiun uzu anstataŭe:
 
 ```
 set -g status-position bottom
@@ -279,7 +279,7 @@ daton en la dekstra parto montrante.
 <a name="kromprogramoj"></a>Kromprogramoj
 ----------------------------------------
 
-Na kelke da kromprogramo mi uzas por mian agordon subteni. Ĝi ampleksiĝas de la
+Kelkan kromprogramon mi uzas por mian agordon subteni. Ĝi ampleksiĝas de la
 kromprograma mastrumilo mem al tondeja regado. Jen la resumo.
 
     set -g @plugin 'tmux-plugins/tpm'

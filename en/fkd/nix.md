@@ -3,7 +3,7 @@ A Gentle Introduction to the Nix Family
 
 <div class="center">[Esperanto](/eo/nix/) ▪ English</div>
 <div class="center">March 22, 2017</div>
-<div class="center">Last updated: August 2, 2020</div>
+<div class="center">Last updated: October 10, 2021</div>
 
 >Don’t worry about what anybody else is going to do. The best way to predict the future is to
 >invent it.<br>
@@ -95,7 +95,7 @@ ticket to hell.
 determinism of [Nix](https://nixos.org/nix) and by using a single declarative configuration file
 that contains all settings and knobs in one place—`/etc/nixos/configuration.nix`. This file contains
 information about your filesystems, users, services, network configuration, input devices, kernel
-parameters, and more. This means that you can take a `configuration.nix` of someone, and have his
+parameters, and more. This means that you can take a `configuration.nix` of someone, and have their
 exact system configuration! In NixOS you don’t have to fiddle around with the whole system manually
 for configuration that you want. You don’t have to use ad-hoc solutions to specify a desired
 configuration state. You don’t need to install additional software to manage system configuration.
@@ -906,8 +906,8 @@ packages ranging from productivity applications to theorem provers.
 Most of the popular operating systems handle packages well, until, they don’t. As long as you are
 moving in a straight line, alone, you’ll be fine. Things change, when you introduce other people in
 the walk. For the whole cast to move in unison, everyone must be strictly connected to one
-another. If a member decides to break off, and walk on his own, the entire cast becomes
-crippled. However, if that member clones himself so that the departing copy becomes independent, the
+another. If a member decides to break off, and walk on their own, the entire cast becomes
+crippled. However, if that member clones themself so that the departing copy becomes independent, the
 original walking cast becomes undisturbed.
 
 Let’s take the case of a distribution aimed as a multi-user production development environment. When

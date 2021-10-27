@@ -681,7 +681,7 @@ tra la jarojn, ĉi tiu paĝo enhavas.
   malsame.<br>―malnova barata proverbo
 
 
-- Kelke da plej kernaj paŝoj en mensa kresko estas bazitaj ne simple pri novajn
+- Kelke da plej kernaj paŝoj en mensa kresko baziĝas ne simple pri novajn
   kapablojn akiri, sed pri novajn administrajn manierojn akiri por tion uzi,
   kion oni jam scias.<br>―Marvin Mɪɴsᴋʏ
 
