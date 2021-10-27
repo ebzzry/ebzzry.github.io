@@ -3,7 +3,7 @@ Over, Under, and Elsewhere
 
 <div class="center">[Esperanto](/eo/supre-malsupre/) ▪ English</div>
 <div class="center">May 9, 2013</div>
-<div class="center">Last updated: December 6, 2017</div>
+<div class="center">Last updated: October 10, 2021</div>
 
 >The only limits you have are the limits you believe.<br>
 >―Wayne Dyer
@@ -51,8 +51,8 @@ with high certainty, tell whether a drinking glass has something in it or not.
 Some of us persist in delusions that claim to know what they have never ventured, or at the least,
 observed. It is very disheartening that instead of taking a step back and gaze at the sky for a
 moment, people instead immerse themselves in wonderland. This very intoxicating habit, harms not an
-individual, but the whole mankind. When someone tells you that answers to his questions can only be
-exclusively answered always by a yes or no, leave him and that he no longer deserves to have your
+individual, but the whole mankind. When someone tells you that answers to their questions can only be
+exclusively answered always by a yes or no, leave them and that they no longer deserves to have your
 attention again. If you do not know the answer, you should say that you do not know the answer,
 instead of doing trapeze jumps without anyone to catch your hands.
 

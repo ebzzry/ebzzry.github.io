@@ -3,7 +3,7 @@ A Gentle Introduction to Fallacies
 
 <div class="center">[Esperanto](/eo/sofismoj/) ▪ English</div>
 <div class="center">May 1, 2016</div>
-<div class="center">Last updated: August 5, 2020</div>
+<div class="center">Last updated: October 10, 2021</div>
 
 >Learning is not compulsory; neither is survival.<br>
 >―W. Edwards Deming
@@ -99,8 +99,8 @@ of his own volition, and not due to magic.
 -----------------------------------
 
 This happens when instead of presenting a case against an argument, person A is instead attacked
-personally, by person B. This is done to discredit the person A, based on who he is, and not the
-argument that he holds.
+personally, by person B. This is done to discredit the person A, based on who they are, and not the
+argument that they hold.
 
 > After Maria presented a compelling evidence on the failures of democracy, Juan objected that we
 > shouldn’t believe anything from a woman who isn’t married, doesn’t have kids, and listens to weird
@@ -114,7 +114,7 @@ are irrelevant. What should be attacked is Maria’s argument, and not her perso
 ---------------------------------
 
 This is committed when a person’s argument are claimed to be false because that person is
-inconsistent with his words. This fallacy is also known as the “You, too” fallacy.
+inconsistent with their words. This fallacy is also known as the “You, too” fallacy.
 
 > Doctor: “Quit smoking because it is harmful to your health.”<br>
 > Patient: “You, yourself smoke, so I can’t follow your advice.”
@@ -173,7 +173,7 @@ drawn from a sample that is not large enough.
 > “I was molested in childhood by a homosexual. Thus, homosexuals are vile creatures, and they must
 > be punished!”
 
-The speaker assumed that just because he experienced one such incident in his life before, he
+The speaker assumed that just because they experienced one such incident in their life before, they
 concluded that all homosexuals are despicable, and that they must be treated with contempt and
 disgust.
 
@@ -200,9 +200,9 @@ making claims, but with person B, to disprove the claims of person A.
 > “Since you can’t prove the inexistence of a large cockroach that defecates stars and lives exactly
 > 100,000 light-years away from where I’m facing right now, it must exist.”
 
-Instead of providing evidence to his own claims, person A shifts the burden of providing proof to
+Instead of providing evidence to their own claims, person A shifts the burden of providing proof to
 person B. Since there are no physical ways for person B to prove that the claims of person A is
-invalid, person A presumes that his claims must be true.
+invalid, person A presumes that their claims must be true.
 
 
 <a name="slippery"></a> Slippery slope
@@ -262,13 +262,13 @@ or new, doesn’t make it better.
 <a name="seniority"></a> Appeal to seniority
 --------------------------------------------
 
-This is committed when a person’s age is used to support the validity of his claims. This is usually
+This is committed when a person’s age is used to support the validity of their claims. This is usually
 applied against someone who is younger.
 
 > “I’ve been in the business for 30 years. You’re only 30, what do you know about programming
 > language design?”
 
-It is assumed here, that just because someone is younger than him, makes him less qualified for the
+It is assumed here, that just because someone is younger than them, makes them less qualified for the
 things that are being discussed.
 
 
@@ -302,7 +302,7 @@ specify who these experts are, he will resort to tactics to elude the question.
 -------------------------------------------------------
 
 This is committed when an appeal to authority is made, but the authority in question is outside the
-scope of his expertise.
+scope of their expertise.
 
 > “Pedro extensively studied and reviewed the efficacy of Kidneyaid Capsules, and asserted that they
 > indeed improve kidney health.”
@@ -394,12 +394,12 @@ ones who are also poor, just like he was before.
 <a name="future"></a> Appeal to the future
 ------------------------------------------
 
-This is committed when a person uses the uncertainty of the future, to support his argument. He
-asserts that in the future, his claims will eventually become true.
+This is committed when a person uses the uncertainty of the future, to support their argument. They
+asserts that in the future, their claims will eventually become true.
 
 > “Nobody does it yet, but I’m sure in the future, everyone will.”
 
-There are no known ways at the moment, to verify his claims, since it is impossible to see or
+There are no known ways at the moment, to verify their claims, since it is impossible to see or
 experience the future.
 
 
@@ -412,7 +412,7 @@ it means that most people doesn’t, too.
 > “I still can’t understand lambda calculus after all these years. Heh. Chances are, nobody really
 > can.”
 
-The speaker applies his personal limitations to everyone, since he himself can’t do it. This is
+The speaker applies their personal limitations to everyone, since they themself can’t do it. This is
 similar to hasty generalizations.
 
 
@@ -424,8 +424,8 @@ these contexts is ill-defined, and may have multiple ambiguous interpretations.
 
 > “There must be chaos and discord to create balance in the universe.”
 
-It is unclear what kind of balance does the speaker speak of. When asked, he fails to explain why
-such is necessary. He further argues that since wars and terrorism are inevitable, then they must
+It is unclear what kind of balance does the speaker speak of. When asked, they fail to explain why
+such is necessary. They further argue that since wars and terrorism are inevitable, then they must
 exist to create balance. This is faulty reasoning—just because you can’t eliminate the undesirable,
 doesn’t mean that its existence is necessary.
 
@@ -462,7 +462,7 @@ she wants people to see and believe.
 This is committed when an argument is made by asserting that a behavior is only acceptable within
 the confines of certain standards.
 
-> “Why don’t you eat with your bare hands? A true Kilikilimo should eat with his bare hands!”
+> “Why don’t you eat with your bare hands? A true Kilikilimo should eat with their bare hands!”
 
 This is a form of false purity. It asserts that there is only one acceptable way for a Kilikilimo to
 eat. This is similar to appeal to tradition.
@@ -490,8 +490,8 @@ person doesn’t like an idea, and he will resort to forceful dismissal of an ar
 > “Since you openly object to democracy, you better leave the country and find one that fits your
 > tastes!”
 
-The speaker doesn’t state and explain his objections, and uses a shallow verse for giving such a
-statement. He is uncomfortable with the objections, and a way for him to get around this discomfort
+The speaker doesn’t state and explain their objections, and uses a shallow verse for giving such a
+statement. They are uncomfortable with the objections, and a way for them to get around this discomfort
 is to remove the originator of such objections.
 
 
@@ -519,7 +519,7 @@ statements. This is also called “Having your cake.”
 > tapping sounds on the night stand. I’m sure it wasn’t me. It must be those unseen astral beings.”
 
 The speaker makes a bold statement about not believing in the paranormal existence of ghosts, but he
-backs out later and claims that some “astral” beings must be the source of the tapping. He claims X
+backs out later and claims that some “astral” beings must be the source of the tapping. They claims X
 but states the anti-X, later.
 
 
@@ -540,7 +540,7 @@ cow blood was pumped through it.
 <a name="moving"></a> Moving the goalpost
 -----------------------------------------
 
-This is committed when person B changes his position after person A successfully attacks the initial
+This is committed when person B changes their position after person A successfully attacks the initial
 position of person B. The goal is to move the goalpost so that it will then be difficult for person
 A to attack the new, shifted post.
 
@@ -548,8 +548,8 @@ A to attack the new, shifted post.
 > healthy. When he was diagnosed with kidney stones, he stated that it could have been worse, had it
 > not been for his Kidneyaid capsules.
 
-The speaker adjusted his position when his initial claims were jeopardized. When the situation has
-changed, the speaker changed his position, too.
+The speaker adjusted their position when their initial claims were jeopardized. When the situation has
+changed, the speaker changed their position, too.
 
 
 <a name="poisoning"></a> Poisoning the well

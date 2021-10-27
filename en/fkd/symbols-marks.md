@@ -3,7 +3,7 @@ Symbols and Marks
 
 <div class="center">[Esperanto](/eo/signoj-interpunkcioj/) ▪ English</div>
 <div class="center">April 8, 2016</div>
-<div class="center">Last updated: August 22, 2021</div>
+<div class="center">Last updated: October 10, 2021</div>
 
 >If you want to achieve greatness, stop asking for permission.<br>
 >―Eddie Colla
@@ -201,7 +201,7 @@ Right single quote (’)
 
 Single quotes are used when a speech is embedded within another speech:
 
-- He muttered to himself, “I thought he said ‘It is not doable’ when we talked yesterday.”
+- They muttered to themself, “I thought they said ‘It is not doable’ when we talked yesterday.”
 
 The right single quote is also used when denoting possessions, contractions, and abbreviations:
 

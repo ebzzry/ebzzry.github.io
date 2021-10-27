@@ -3,7 +3,7 @@ How I Roll with Tmux
 
 <div class="center">[Esperanto](/eo/timukso) ▪ English</div>
 <div class="center">October 18, 2017</div>
-<div class="center">Last updated: July 28, 2019</div>
+<div class="center">Last updated: September 28, 2021</div>
 
 >Furious activity is no substitute for understanding.<br>
 >―H.H. Williams
@@ -119,10 +119,10 @@ Windows are the equivalent of browser tabs in tmux. It organizes sessions into s
 ### <a name="windowsmovement">Movement</a>
 
 ```
-bind -n C-PPage previous-window
-bind -n C-NPage next-window
-bind -n S-left swap-window -t -1
-bind -n S-right swap-window -t +1
+bind -n S-left previous-window
+bind -n S-right next-window
+bind left swap-window -t -1\; previous-window
+bind right swap-window -t +1\; next-window
 
 bind -n M-1 select-window -t 1
 bind -n M-2 select-window -t 2
@@ -135,8 +135,8 @@ bind -n M-8 select-window -t 8
 bind -n M-9 select-window -t 9
 ```
 
-Mi bound <kbd>C-PageUp</kbd> and <kbd>C-PageDown</kbd>, to switch windows, backwards and forwards,
-respectively. We also bound <kbd>S-Left</kbd> and <kbd>S-Right</kbd>, to swap windows to the left
+We bound <kbd>S-left</kbd> and <kbd>S-right</kbd>, to switch windows, backwards and forwards,
+respectively. We also bound <kbd>C-z left</kbd> and <kbd>C-z right</kbd>, to swap windows to the left
 and to the right, respectively.
 
 To quickly switch to specific windows, we bound several keys to the <kbd>Alt</kbd> key, otherwise
