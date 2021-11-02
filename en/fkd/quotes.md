@@ -3,7 +3,7 @@ Quotes
 
 <div class="center">[Esperanto](/eo/citajxoj/) ▪ English</div>
 <div class="center">August 29, 2015</div>
-<div class="center">Last updated: August 11, 2021</div>
+<div class="center">Last updated: November 2, 2021</div>
 
 <img src="/bil/wallhaven-77816-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -882,3 +882,8 @@ have collected over the years.
 
 - Don't raise your voice; improve your argument.<br>―Desmond Tutu
 
+
+- If history demonstrates anything at all it is the fact that there is no direct relationship between mode of production and the form society will take.<br>―W. Cleon Skousen
+
+
+- Man is by nature social and political being, and therefore the creation of governments to direct the members of the community toward their common welfare is simply an inherent expression of the very nature of man.<br>―W. Cleon Skousen
