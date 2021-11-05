@@ -3,7 +3,7 @@ Citaĵoj
 
 <div class="center">Esperanto ▪ [English](/en/quotes/)</div>
 <div class="center">la 15-an de Novembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 5-an de Novembro, 2021</div>
+<div class="center">Laste ĝisdatigita: la 6-an de Novembro, 2021</div>
 
 <img src="/bil/wallhaven-77816-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -888,3 +888,6 @@ tra la jarojn, ĉi tiu paĝo enhavas.
 
 
 - Oni elektas la propran oferon tial, ke la oferto neeviteblas tamen almenaŭ oni povas elekti ĝin.<br>―Jordan Pᴇᴛᴇʀsᴏɴ
+
+
+- La problemo de homaro ne estis pri la rajto por posedi propran posedaĵon sed kiel provizi justan distribuadon de posedrajtojn por ke multaj homoj povu ĝui ilin.―W. Cleon Sᴋᴏᴜsᴇɴ
