@@ -3,7 +3,7 @@ Quotes
 
 <div class="center">[Esperanto](/eo/citajxoj/) ▪ English</div>
 <div class="center">August 29, 2015</div>
-<div class="center">Last updated: November 5, 2021</div>
+<div class="center">Last updated: November 6, 2021</div>
 
 <img src="/bil/wallhaven-77816-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -890,3 +890,6 @@ have collected over the years.
 
 
 - You choose your own sacrifice because the sacrifice is inevitable but at least you get to choose it.<br>―Jordan Peterson
+
+
+- The problem of humanity has not been the right to own private property but how to provide an equitable distribution of property rights so that many people could enjoy them.<br>―W. Cleon Skousen
