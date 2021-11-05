@@ -3,7 +3,7 @@ Citaĵoj
 
 <div class="center">Esperanto ▪ [English](/en/quotes/)</div>
 <div class="center">la 15-an de Novembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 2-an de Novembro, 2021</div>
+<div class="center">Laste ĝisdatigita: la 5-an de Novembro, 2021</div>
 
 <img src="/bil/wallhaven-77816-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -885,3 +885,6 @@ tra la jarojn, ĉi tiu paĝo enhavas.
 
 
 - Homo estas nature socia kaj politika esto, kaj la kreado de registaroj por direkti la anojn de la komunumo al la komuna bonstato estas simple esenca esprimo de la naturo de homo.<br>―W. Cleon Sᴋᴏᴜsᴇɴ
+
+
+- Oni elektas la propran oferon tial, ke la oferto neeviteblas tamen almenaŭ oni povas elekti ĝin.<br>―Jordan Pᴇᴛᴇʀsᴏɴ
