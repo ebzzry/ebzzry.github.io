@@ -890,4 +890,7 @@ tra la jarojn, ĉi tiu paĝo enhavas.
 - Oni elektas la propran oferon tial, ke la oferto neeviteblas tamen almenaŭ oni povas elekti ĝin.<br>―Jordan Pᴇᴛᴇʀsᴏɴ
 
 
-- La problemo de homaro ne estis pri la rajto por posedi propran posedaĵon sed kiel provizi justan distribuadon de posedrajtojn por ke multaj homoj povu ĝui ilin.―W. Cleon Sᴋᴏᴜsᴇɴ
+- La problemo de homaro ne estis pri la rajto por posedi propran posedaĵon sed kiel provizi justan distribuadon de posedrajtojn por ke multaj homoj povu ĝui ilin.<br>―W. Cleon Sᴋᴏᴜsᴇɴ
+
+
+- La medio nur kutimigas homon, ĝi ne ŝanĝas rian propran naturon.<br>―W. Cleon Sᴋᴏᴜsᴇɴ
