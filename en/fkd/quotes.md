@@ -893,3 +893,6 @@ have collected over the years.
 
 
 - The problem of humanity has not been the right to own private property but how to provide an equitable distribution of property rights so that many people could enjoy them.<br>―W. Cleon Skousen
+
+
+- Environment only conditions man, it does not change his very nature.<br>―W. Cleon Skousen
