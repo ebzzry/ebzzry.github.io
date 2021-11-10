@@ -3,7 +3,7 @@ Quotes
 
 <div class="center">[Esperanto](/eo/citajxoj/) ▪ English</div>
 <div class="center">August 29, 2015</div>
-<div class="center">Last updated: November 6, 2021</div>
+<div class="center">Last updated: November 10, 2021</div>
 
 <img src="/bil/wallhaven-77816-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -896,3 +896,6 @@ have collected over the years.
 
 
 - Environment only conditions man, it does not change his very nature.<br>―W. Cleon Skousen
+
+
+- Fortune favors the bold.<br>―Latin proverb
