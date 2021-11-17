@@ -3,7 +3,7 @@ Citaĵoj
 
 <div class="center">Esperanto ▪ [English](/en/quotes/)</div>
 <div class="center">la 15-an de Novembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 10-an de Novembro, 2021</div>
+<div class="center">Laste ĝisdatigita: la 17-an de Novembro, 2021</div>
 
 <img src="/bil/wallhaven-77816-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -897,3 +897,6 @@ tra la jarojn, ĉi tiu paĝo enhavas.
 
 
 - La sorto favoras la kuraĝulojn.<br>―latina proverbo
+
+
+- Ne, oni devas esti monstro—absoluta monstro, poste oni devas regi ĝin. Tial, ke se oni ne kapablas de krueleco oni estas absoluta viktimo al iu kiu estas tio.<br>―Jordan Pᴇᴛᴇʀsᴏɴ

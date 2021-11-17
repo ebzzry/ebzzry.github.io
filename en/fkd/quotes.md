@@ -3,7 +3,7 @@ Quotes
 
 <div class="center">[Esperanto](/eo/citajxoj/) ▪ English</div>
 <div class="center">August 29, 2015</div>
-<div class="center">Last updated: November 10, 2021</div>
+<div class="center">Last updated: November 17, 2021</div>
 
 <img src="/bil/wallhaven-77816-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -899,3 +899,6 @@ have collected over the years.
 
 
 - Fortune favors the bold.<br>―Latin proverb
+
+
+- No, you should be a monster—an absolute monster, and then you should learn how to control it. Because if you are not capable of cruelty you are absolutely a victim to anyone who is.<br>―Jordan Peterson
