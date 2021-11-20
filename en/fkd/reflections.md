@@ -3,7 +3,7 @@ Reflections
 
 <div class="center">[Esperanto](/eo/pripensoj/) ▪ English</div>
 <div class="center">November 24, 2015</div>
-<div class="center">Last updated: February 22, 2021</div>
+<div class="center">Last updated: November 20, 2021</div>
 
 This page contains contains some of my personal reflections. Entries are sorted in chronological order.
 
@@ -392,3 +392,6 @@ This page contains contains some of my personal reflections. Entries are sorted 
 
 
 - The weight of a loss is directly proportional to the perceived value of the thing lost.<br>
+
+
+- IQ is what IQ tests measure.<br>
