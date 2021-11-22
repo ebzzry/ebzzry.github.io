@@ -3,7 +3,7 @@ Pripensoj
 
 <div class="center">Esperanto ▪ [English](/en/reflections/)</div>
 <div class="center">la 3-an de Novembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 20-an de Novembro 2021</div>
+<div class="center">Laste ĝisdatigita: la 22-an de Novembro 2021</div>
 
 Ĉi tiu paĝo enhavas kelke da miaj propraj pripensoj. La enskriboj estas
 ordigitaj laŭ kronologiordo.
@@ -396,7 +396,10 @@ ordigitaj laŭ kronologiordo.
 - Nur pro tio ke ĝin oni ne povas rimarki, ne signifas, ke ĝi ne okazas.<br>
 
 
-- La graveco de perdo estas rekte proporcie kun la perceptita valoro de la perdo.<br>
+- La graveco de perdo estas rekte proporcie kun la perceptita valoro de tio kion oni perdis.<br>
 
 
 - IK estas kiun IK-testoj mezuras.<br>
+
+
+- Simple plonĝu kaj provu ne droni.<br>
