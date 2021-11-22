@@ -3,7 +3,7 @@ Reflections
 
 <div class="center">[Esperanto](/eo/pripensoj/) ▪ English</div>
 <div class="center">November 24, 2015</div>
-<div class="center">Last updated: November 20, 2021</div>
+<div class="center">Last updated: November 22, 2021</div>
 
 This page contains contains some of my personal reflections. Entries are sorted in chronological order.
 
@@ -391,7 +391,10 @@ This page contains contains some of my personal reflections. Entries are sorted 
 - Just because you can’t observe it doesn’t mean it’s not happening.<br>
 
 
-- The weight of a loss is directly proportional to the perceived value of the thing lost.<br>
+- The weight of a loss is directly proportional to the perceived value of the thing that was lost.<br>
 
 
 - IQ is what IQ tests measure.<br>
+
+
+- Just dive and try not to drown.<br>
