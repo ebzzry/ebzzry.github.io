@@ -902,3 +902,6 @@ have collected over the years.
 
 
 - No, you should be a monster—an absolute monster, and then you should learn how to control it. Because if you are not capable of cruelty you are absolutely a victim to anyone who is.<br>―Jordan Peterson
+
+
+- If you’re creative, and you’re graded by someone who isn’t a creative person, they are not gonna think that you’re creative. They are just gonna think you’re wrong.<br>―Jordan Peterson
