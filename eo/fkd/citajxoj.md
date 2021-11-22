@@ -900,3 +900,6 @@ tra la jarojn, ĉi tiu paĝo enhavas.
 
 
 - Ne, oni devas esti monstro—absoluta monstro, poste oni devas regi ĝin. Tial, ke se oni ne kapablas de krueleco oni estas absoluta viktimo al iu kiu estas tio.<br>―Jordan Pᴇᴛᴇʀsᴏɴ
+
+
+- Se oni estas kreema, kaj oni estas taksita de iu kiu ne estas kreema persono, ili ne pensos, ke vi estas kreema. Ili nur pensos ke oni estas malĝusta.<br>―Jordan Pᴇᴛᴇʀsᴏɴ
