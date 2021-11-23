@@ -3,7 +3,7 @@ Quotes
 
 <div class="center">[Esperanto](/eo/citajxoj/) ▪ English</div>
 <div class="center">August 29, 2015</div>
-<div class="center">Last updated: November 17, 2021</div>
+<div class="center">Last updated: November 23, 2021</div>
 
 <img src="/bil/wallhaven-77816-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -905,3 +905,7 @@ have collected over the years.
 
 
 - If you’re creative, and you’re graded by someone who isn’t a creative person, they are not gonna think that you’re creative. They are just gonna think you’re wrong.<br>―Jordan Peterson
+
+
+- We are inherently conflictual. The human condition is conflict among peoples because they could just never agree on values.<br>―Steven Pinker
+
