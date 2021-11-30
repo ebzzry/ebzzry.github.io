@@ -909,3 +909,5 @@ have collected over the years.
 
 - We are inherently conflictual. The human condition is conflict among peoples because they could just never agree on values.<br>―Steven Pinker
 
+
+- We don’t matter, and there’s the good news.<br>―Jim Carrey
