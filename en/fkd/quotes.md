@@ -3,7 +3,7 @@ Quotes
 
 <div class="center">[Esperanto](/eo/citajxoj/) ▪ English</div>
 <div class="center">August 29, 2015</div>
-<div class="center">Last updated: November 23, 2021</div>
+<div class="center">Last updated: November 30, 2021</div>
 
 <img src="/bil/wallhaven-77816-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -614,7 +614,7 @@ have collected over the years.
 
 
 - A woman who knows a man who knows four languages, is worth five
-  men.<br>―Jeanne Marie G. Ciño
+  men.<br>―Jeanne Marie G. Ciño-Martinez
 
 
 - We have to learn, in Computer Science, to stand on the shoulders of our
