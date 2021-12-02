@@ -3,7 +3,7 @@ Quotes
 
 <div class="center">[Esperanto](/eo/citajxoj/) ▪ English</div>
 <div class="center">August 29, 2015</div>
-<div class="center">Last updated: November 30, 2021</div>
+<div class="center">Last updated: December 2, 2021</div>
 
 <img src="/bil/wallhaven-77816-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -911,3 +911,6 @@ have collected over the years.
 
 
 - We don’t matter, and there’s the good news.<br>―Jim Carrey
+
+
+- If you were teaching a child how to open a door, you wouldn’t open the door for him and then describe at length how the door looked when it was open. No, you would teach how to turn the doorknob so that he could open the door himself.<br>―Ben Hogan
