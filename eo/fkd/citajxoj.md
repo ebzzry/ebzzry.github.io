@@ -3,7 +3,7 @@ Citaĵoj
 
 <div class="center">Esperanto ▪ [English](/en/quotes/)</div>
 <div class="center">la 15-an de Novembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 2-an de Decembro, 2021</div>
+<div class="center">Laste ĝisdatigita: la 13-an de Decembro, 2021</div>
 
 <img src="/bil/wallhaven-77816-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -912,3 +912,6 @@ tra la jarojn, ĉi tiu paĝo enhavas.
 
 
 - Se oni intruas infanon kiel malfermi pordon, oni ne malfermus la pordon por ri kaj amplekse preskribi kiel la pordo aspektis kiam ĝi malfermiĝis. Ne, oni devus instrui kiel turni la pordanson por ke ri mem povu malfermi la pordon.<br>―Ben Hᴏɢᴀɴ
+
+
+- La kvalitiga sentiga subjektiva naturo de konscio estas la difina trajto de konscio kaj nia tasko estas por precizigi kiel diable la cerbo faras tion.<br>―John Sᴇᴀʀʟᴇ
