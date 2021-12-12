@@ -915,3 +915,6 @@ tra la jarojn, ĉi tiu paĝo enhavas.
 
 
 - La kvalitiga sentiga subjektiva naturo de konscio estas la difina trajto de konscio kaj nia tasko estas por precizigi kiel diable la cerbo faras tion.<br>―John Sᴇᴀʀʟᴇ
+
+
+- Tio kion ni scias pri la mondo estas, ke la konscio estas kaŭzita de cerbaj procedoj. Se ni scias detale kiel la cerbo faras tion, do ni devus esti kapabla por fari ĝin artefarite.<br>―John Sᴇᴀʀʟᴇ
