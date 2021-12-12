@@ -917,3 +917,6 @@ have collected over the years.
 
 
 - The qualitative experiential subjective character of consciousness is the defining feature of consciousness and our problem is to figure out how the hell does the brain do that.<br>―John Searle
+
+
+- What we know about how the world works, we know that consciousness is caused by brain processes. If we knew in detail exactly how the brain does it, then we ought to be able to do it artificially.<br>―John Searle
