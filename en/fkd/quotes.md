@@ -3,7 +3,7 @@ Quotes
 
 <div class="center">[Esperanto](/eo/citajxoj/) ▪ English</div>
 <div class="center">August 29, 2015</div>
-<div class="center">Last updated: December 13, 2021</div>
+<div class="center">Last updated: December 23, 2021</div>
 
 <img src="/bil/wallhaven-77816-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -920,3 +920,6 @@ have collected over the years.
 
 
 - What we know about how the world works, we know that consciousness is caused by brain processes. If we knew in detail exactly how the brain does it, then we ought to be able to do it artificially.<br>―John Searle
+
+
+- I think a lot of this actually comes down to the weaknesses of language, both scientific and traditional. Nothing can be perfectly described. Hearing about an experience is very different from experiencing it.<br>―Beartooth, YouTube
