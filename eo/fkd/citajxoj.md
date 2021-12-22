@@ -3,7 +3,7 @@ Citaĵoj
 
 <div class="center">Esperanto ▪ [English](/en/quotes/)</div>
 <div class="center">la 15-an de Novembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 13-an de Decembro, 2021</div>
+<div class="center">Laste ĝisdatigita: la 23-an de Decembro, 2021</div>
 
 <img src="/bil/wallhaven-77816-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -918,3 +918,6 @@ tra la jarojn, ĉi tiu paĝo enhavas.
 
 
 - Tio kion ni scias pri la mondo estas, ke la konscio estas kaŭzita de cerbaj procedoj. Se ni scias detale kiel la cerbo faras tion, do ni devus esti kapabla por fari ĝin artefarite.<br>―John Sᴇᴀʀʟᴇ
+
+
+- Mi pensas, ke multe da ĉi tio estas pri la malfortoj de lingvoj, ambaŭ scienca kaj tradicia. Nenio povas esti priskribita perfekte. Aŭdi pri sperto estas tre malsama al sperti ĝin.<br>―Beartooth, Jutubo
