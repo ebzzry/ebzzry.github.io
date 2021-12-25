@@ -3,7 +3,7 @@ Reflections
 
 <div class="center">[Esperanto](/eo/pripensoj/) ▪ English</div>
 <div class="center">November 24, 2015</div>
-<div class="center">Last updated: November 22, 2021</div>
+<div class="center">Last updated: December 26, 2021</div>
 
 This page contains contains some of my personal reflections. Entries are sorted in chronological order.
 
@@ -398,3 +398,6 @@ This page contains contains some of my personal reflections. Entries are sorted 
 
 
 - Just dive and try not to drown.<br>
+
+
+- The question of whether machines can think is a question of whether submarines can swim.<br>
