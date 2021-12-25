@@ -926,3 +926,6 @@ have collected over the years.
 
 
 - I don't know; I think like, AI really needs to understand death deeply in order to be able to drive a car.<br>―Lex Fridman
+
+
+- It is important to study the brain but you will never squeeze the essence of consciousness out of gray matter. You can squeeze it like a sponge as much as you want, you will never get experience flowing out of it.<br>―Giulio Tononi
