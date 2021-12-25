@@ -924,3 +924,6 @@ tra la jarojn, ĉi tiu paĝo enhavas.
 
 
 - Mi ne scias; mi pensas, ke artefarita intelekto bezonas kompreni mortecon pli profunde por ke ĝi povu stiri aŭton.<br>―Lex Fʀɪᴅᴍᴀɴ
+
+
+- Estas grave por egzameni la cerbon sed oni ne povas elpremi la econ de konscio el griza materio. Oni povas fermpinĉi ĝin kiel spongon kiom oni volas, sed oni ne povas preni sperton fluante el ĝi.<br>―Giulio Tᴏɴᴏɴɪ
