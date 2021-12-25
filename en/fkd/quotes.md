@@ -923,3 +923,6 @@ have collected over the years.
 
 
 - I think a lot of this actually comes down to the weaknesses of language, both scientific and traditional. Nothing can be perfectly described. Hearing about an experience is very different from experiencing it.<br>―Beartooth, YouTube
+
+
+- I don't know; I think like, AI really needs to understand death deeply in order to be able to drive a car.<br>―Lex Fridman
