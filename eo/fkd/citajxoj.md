@@ -3,7 +3,7 @@ Citaĵoj
 
 <div class="center">Esperanto ▪ [English](/en/quotes/)</div>
 <div class="center">la 15-an de Novembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 23-an de Decembro, 2021</div>
+<div class="center">Laste ĝisdatigita: la 26-an de Decembro, 2021</div>
 
 <img src="/bil/wallhaven-77816-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -927,3 +927,6 @@ tra la jarojn, ĉi tiu paĝo enhavas.
 
 
 - Estas grave por egzameni la cerbon sed oni ne povas elpremi la econ de konscio el griza materio. Oni povas fermpinĉi ĝin kiel spongon kiom oni volas, sed oni ne povas preni sperton fluante el ĝi.<br>―Giulio Tᴏɴᴏɴɪ
+
+
+- Programado en Lispo proksimiĝas, mi opinias, ie inter 1 000 kaj 50 000 oble pli rapida ol la programado en iu  ajn kiujn vi nomas modernaj aŭ plibonigitaj programlingvoj.<br>―Douglas Lᴇɴᴀᴛ
