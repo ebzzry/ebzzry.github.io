@@ -3,7 +3,7 @@ Quotes
 
 <div class="center">[Esperanto](/eo/citajxoj/) ▪ English</div>
 <div class="center">August 29, 2015</div>
-<div class="center">Last updated: December 23, 2021</div>
+<div class="center">Last updated: December 26, 2021</div>
 
 <img src="/bil/wallhaven-77816-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -929,3 +929,6 @@ have collected over the years.
 
 
 - It is important to study the brain but you will never squeeze the essence of consciousness out of gray matter. You can squeeze it like a sponge as much as you want, you will never get experience flowing out of it.<br>―Giulio Tononi
+
+
+- Development of programs in Lisp proceeds, I think, somewhere between 1,000 and 50,000 times faster than development in any of what you’re calling modern or improved computer languages.<br>―Douglas Lenat
