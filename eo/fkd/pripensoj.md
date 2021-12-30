@@ -3,7 +3,7 @@ Pripensoj
 
 <div class="center">Esperanto ▪ [English](/en/reflections/)</div>
 <div class="center">la 3-an de Novembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 26-an de Decembro 2021</div>
+<div class="center">Laste ĝisdatigita: la 30-an de Decembro 2021</div>
 
 Ĉi tiu paĝo enhavas kelke da miaj propraj pripensoj. La enskriboj estas
 ordigitaj laŭ kronologiordo.
@@ -98,8 +98,6 @@ ordigitaj laŭ kronologiordo.
 - Elektoj estas iluzioj; jen nur cirkonstancoj.<br>
 
 
-- Realaĵo relativas.<br>
-
 
 - Vartu vian korpŝelon, tial ke tiu nur estas kion vi havas.<br>
 
@@ -151,9 +149,6 @@ ordigitaj laŭ kronologiordo.
 
 
 - La sola afero kiu kunligas nin al niaj amatoj estas la memoroj.<br>
-
-
-- Ne fiksitas realaĵo.<br>
 
 
 - Ju pli mi eraras, des pli mi praviĝas.<br>
@@ -407,3 +402,5 @@ ordigitaj laŭ kronologiordo.
 
 - La demando ĉu maŝinoj povas pensi estas demando ĉu submarŝipoj povas naĝi.<br>
 
+
+- Unu el la kernaj problemoj de scii kio estas la realo, estas trovi la difinon de la vorto “realo.”<br>
