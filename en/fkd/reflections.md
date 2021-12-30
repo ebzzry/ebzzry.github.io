@@ -3,7 +3,7 @@ Reflections
 
 <div class="center">[Esperanto](/eo/pripensoj/) ▪ English</div>
 <div class="center">November 24, 2015</div>
-<div class="center">Last updated: December 26, 2021</div>
+<div class="center">Last updated: December 30, 2021</div>
 
 This page contains contains some of my personal reflections. Entries are sorted in chronological order.
 
@@ -97,9 +97,6 @@ This page contains contains some of my personal reflections. Entries are sorted 
 - Choices are illusions; there are only circumstances.<br>
 
 
-- Reality is relative.<br>
-
-
 - Take care of your shell, because it’s the only one that you have.<br>
 
 
@@ -153,9 +150,6 @@ This page contains contains some of my personal reflections. Entries are sorted 
 
 
 - The only thing that binds us to our loved ones are our memories.<br>
-
-
-- Reality is not fixed.<br>
 
 
 - The more I err, the more I become right.<br>
@@ -401,3 +395,9 @@ This page contains contains some of my personal reflections. Entries are sorted 
 
 
 - The question of whether machines can think is a question of whether submarines can swim.<br>
+
+
+- One of the main problems with determing what reality is first defining what is real. For all intents and purposes we can settle on an arbitrary level and say that that is real. Who or what is the arbiter in confirming to us whether our beliefs are true or not.<br>
+
+
+- One of the key problems with knowing what reality is, is first finding the definition of the word “real.”<br>
