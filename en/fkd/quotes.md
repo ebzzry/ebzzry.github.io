@@ -3,7 +3,7 @@ Quotes
 
 <div class="center">[Esperanto](/eo/citajxoj/) ▪ English</div>
 <div class="center">August 29, 2015</div>
-<div class="center">Last updated: December 26, 2021</div>
+<div class="center">Last updated: January 8, 2022</div>
 
 <img src="/bil/wallhaven-77816-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -932,3 +932,6 @@ have collected over the years.
 
 
 - Development of programs in Lisp proceeds, I think, somewhere between 1,000 and 50,000 times faster than development in any of what you’re calling modern or improved computer languages.<br>―Douglas Lenat
+
+
+- I think that people have never stopped believing in anything that has no germ of sense to it.<br>―Isaac Asimov

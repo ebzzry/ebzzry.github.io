@@ -3,7 +3,7 @@ Citaĵoj
 
 <div class="center">Esperanto ▪ [English](/en/quotes/)</div>
 <div class="center">la 15-an de Novembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 26-an de Decembro, 2021</div>
+<div class="center">Laste ĝisdatigita: la 8-an de Januaro, 2022</div>
 
 <img src="/bil/wallhaven-77816-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -923,6 +923,8 @@ tra la jarojn, ĉi tiu paĝo enhavas.
 - Mi pensas, ke multe da ĉi tio estas pri la malfortoj de lingvoj, ambaŭ scienca kaj tradicia. Nenio povas esti priskribita perfekte. Aŭdi pri sperto estas tre malsama al sperti ĝin.<br>―Beartooth, Jutubo
 
 
+- Mi opinias, ke homoj neniam ĉesis kredi je io ajn kiu ne havas 
+
 - Mi ne scias; mi pensas, ke artefarita intelekto bezonas kompreni mortecon pli profunde por ke ĝi povu stiri aŭton.<br>―Lex Fʀɪᴅᴍᴀɴ
 
 
@@ -930,3 +932,6 @@ tra la jarojn, ĉi tiu paĝo enhavas.
 
 
 - Programado en Lispo proksimiĝas, mi opinias, ie inter 1 000 kaj 50 000 oble pli rapida ol la programado en iu  ajn kiujn vi nomas modernaj aŭ plibonigitaj programlingvoj.<br>―Douglas Lᴇɴᴀᴛ
+
+
+- Mi opinias, ke homoj neniam ĉesis kredi je io ajn kiu ne havas eron de senco al ĝi.<br>―Isaac Asɪᴍᴏᴠ
