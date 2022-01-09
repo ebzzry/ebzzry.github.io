@@ -923,8 +923,6 @@ tra la jarojn, ĉi tiu paĝo enhavas.
 - Mi pensas, ke multe da ĉi tio estas pri la malfortoj de lingvoj, ambaŭ scienca kaj tradicia. Nenio povas esti priskribita perfekte. Aŭdi pri sperto estas tre malsama al sperti ĝin.<br>―Beartooth, Jutubo
 
 
-- Mi opinias, ke homoj neniam ĉesis kredi je io ajn kiu ne havas 
-
 - Mi ne scias; mi pensas, ke artefarita intelekto bezonas kompreni mortecon pli profunde por ke ĝi povu stiri aŭton.<br>―Lex Fʀɪᴅᴍᴀɴ
 
 
@@ -935,3 +933,6 @@ tra la jarojn, ĉi tiu paĝo enhavas.
 
 
 - Mi opinias, ke homoj neniam ĉesis kredi je io ajn kiu ne havas eron de senco al ĝi.<br>―Isaac Asɪᴍᴏᴠ
+
+
+- Tiel la mondo iras.<br>―Juliano Hernández Aɴɢᴜʟᴏ
