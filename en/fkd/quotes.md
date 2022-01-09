@@ -935,3 +935,6 @@ have collected over the years.
 
 
 - I think that people have never stopped believing in anything that has no germ of sense to it.<br>―Isaac Asimov
+
+
+- Such is the world.<br>―Juliano Hernández Angulo
