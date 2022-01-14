@@ -3,7 +3,7 @@ Citaĵoj
 
 <div class="center">Esperanto ▪ [English](/en/quotes/)</div>
 <div class="center">la 15-an de Novembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 8-an de Januaro, 2022</div>
+<div class="center">Laste ĝisdatigita: la 14-an de Januaro, 2022</div>
 
 <img src="/bil/wallhaven-77816-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -936,3 +936,9 @@ tra la jarojn, ĉi tiu paĝo enhavas.
 
 
 - Tiel la mondo iras.<br>―Juliano Hernández Aɴɢᴜʟᴏ
+
+
+- Ho mia dio! Ili ja faris tion!<br>―Charles E. Lᴇɪsᴇʀsᴏɴ
+
+
+- La malamiko de mia malamiko estas mia amiko.<br>―latina proverb

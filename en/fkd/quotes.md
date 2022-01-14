@@ -3,7 +3,7 @@ Quotes
 
 <div class="center">[Esperanto](/eo/citajxoj/) ▪ English</div>
 <div class="center">August 29, 2015</div>
-<div class="center">Last updated: January 8, 2022</div>
+<div class="center">Last updated: January 14, 2022</div>
 
 <img src="/bil/wallhaven-77816-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -938,3 +938,9 @@ have collected over the years.
 
 
 - Such is the world.<br>―Juliano Hernández Angulo
+
+
+- Oh my god! They really did that!<br>―Charles E. Leiserson
+
+
+- The enemey of my enemy is my friend.<br>―latin proverb
