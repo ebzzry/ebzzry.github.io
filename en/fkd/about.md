@@ -3,11 +3,15 @@ About
 
 <div class="center">[Esperanto](/eo/pri/) ▪ English</div>
 <div class="center">March 27, 2017</div>
-<div class="center">Last updated: December 20, 2021</div>
+<div class="center">Last updated: January 15, 2022</div>
 
 <div>
 <img align="right" width="50%" src="/images/photos/ebzzry.jpg">
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Rommel Martinez is an artificial intelligence researcher who is interested with consciousness, the mind, and reality. He is currently exploring how we can use modern computers to reach the low hanging fruits of AI.
+
+Additionally, he likes to do physical training and sports, mainly with kettlebells, calisthenics, and golf.
+
+He currently lives with his wife and son in the warm country of the Philippines.
 </div>
 <div>
 [Email](mailto:ebzzry@icloud.com) ▪ [GPG](/dat/ebzzry.pub.asc) ▪ [GitHub](https://github.com/ebzzry) ▪ [LinkedIn](https://linkedin.com/in/ebzzry) ▪ [Telegram](https://t.me/ebzzry) ▪ [DeviantArt](https://ebzzry.deviantart.com) ▪ [Steam](https://steamcommunity.com/id/ebzzry)
