@@ -3,7 +3,7 @@ Pripensoj
 
 <div class="center">Esperanto ▪ [English](/en/reflections/)</div>
 <div class="center">la 3-an de Novembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 30-an de Decembro 2021</div>
+<div class="center">Laste ĝisdatigita: la 18-an de Januaro 2021</div>
 
 Ĉi tiu paĝo enhavas kelke da miaj propraj pripensoj. La enskriboj estas
 ordigitaj laŭ kronologiordo.
@@ -404,3 +404,6 @@ ordigitaj laŭ kronologiordo.
 
 
 - Unu el la kernaj problemoj de scii kio estas la realo, estas trovi la difinon de la vorto “realo.”<br>
+
+
+- Kiam oni ĵetas rokojn al vi, vi ĵetu panon aŭ eble golfpilkojn.<br>
