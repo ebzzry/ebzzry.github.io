@@ -3,11 +3,11 @@ About
 
 <div class="center">[Esperanto](/eo/pri/) ▪ English</div>
 <div class="center">March 27, 2017</div>
-<div class="center">Last updated: January 15, 2022</div>
+<div class="center">Last updated: January 24, 2022</div>
 
 <div>
 <img align="right" width="50%" src="/images/photos/ebzzry.jpg">
-Rommel Martinez is an artificial intelligence researcher who is interested with consciousness, the mind, and reality. He is currently exploring how we can use modern computers to reach the low hanging fruits of AI.
+Rommel Martinez is an artificial intelligence researcher who is interested with consciousness, the mind, and reality. He is currently exploring how we can use modern computers to reach the low hanging fruits of AI. He is spearheading the AI research and development at [ASTN Group](https://astn-group.com).
 
 Additionally, he likes to do physical training and sports, mainly with kettlebells, calisthenics, and golf.
 
