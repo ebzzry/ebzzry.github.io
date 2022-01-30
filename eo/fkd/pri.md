@@ -3,7 +3,7 @@ Pri
 
 <div class="center">Esperanto ▪ [English](/en/about/)</div>
 <div class="center">la 27-an de Aprilo 2017</div>
-<div class="center">Laste ĝisdatigita: la 15-an de Januaro 2022</div>
+<div class="center">Laste ĝisdatigita: la 24-an de Januaro 2022</div>
 
 <div>
 <img align="right" width="50%" src="/images/photos/ebzzry.jpg">
