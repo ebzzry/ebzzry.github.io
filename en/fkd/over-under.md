@@ -45,15 +45,15 @@ it, we have stored an immense amount of records, far beyond what all the brains 
 contain. Then, the libraries became computer databases. We took yet another step in building tower
 houses of what our ancestors knew, and what we know today. But both by intrigue and disturbance, we
 see that not even our most advanced technology is able to carefully record, with predictability, our
-coordinates in space in time, for the past, present, and future. We are in a time wherein we can,
-with high certainty, tell whether a drinking glass has something in it or not.
+coordinates in space in time, for the past, present, and future. As a consolation we are in a time
+wherein we can, with high certainty, tell whether a drinking glass has something in it or not.
 
-Some of us persist in delusions that claim to know what they have never ventured, or at the least,
+Some of us persist in delusions and claim to know what they have never ventured in, or at the least,
 observed. It is very disheartening that instead of taking a step back and gaze at the sky for a
 moment, people instead immerse themselves in wonderland. This very intoxicating habit, harms not an
-individual, but the whole mankind. When someone tells you that answers to their questions can only be
-exclusively answered always by a yes or no, leave them and that they no longer deserves to have your
-attention again. If you do not know the answer, you should say that you do not know the answer,
+individual, but the whole mankind. When someone tells you that answers to their questions can only
+be exclusively answered always by a yes or no, leave them and that they no longer deserves to have
+your attention again. If you do not know the answer, you should say that you do not know the answer,
 instead of doing trapeze jumps without anyone to catch your hands.
 
 Oftentimes, we overlook that all the tools that we need are right with us.
