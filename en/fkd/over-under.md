@@ -3,7 +3,7 @@ Over, Under, and Elsewhere
 
 <div class="center">[Esperanto](/eo/supre-malsupre/) ▪ English</div>
 <div class="center">May 9, 2013</div>
-<div class="center">Last updated: October 10, 2021</div>
+<div class="center">Last updated: January 31, 2022</div>
 
 >The only limits you have are the limits you believe.<br>
 >―Wayne Dyer
@@ -33,20 +33,20 @@ On a higher note, I also find that a lot of people radically position themselves
 positions. We are very fond of inventing and assigning labels among ourselves. We think that by
 moving ourselves to thought-bunkers, we build assumptions that because of the security that our
 bunker provides, we have prevailed. From our DNA that provides us with the information that contains
-the code of what makes us tick; we turn to our brains to store yet more information. Our humble code
-can no longer even begin to contain these various pieces of information, which are high in breadth.
+the code of what makes us tick; we turn to our brains to store yet more information. Our simple code
+can no longer even begin to contain these various pieces of information.
 
 But alas, what we have in our individual brains is still not enough to house our ever-growing house
 of knowledge. We needed to find a way to record them outside our bodies, stored somewhere where data
-retrieval is one of its most critical operations—we wrote and created records. We began by writing
-on stones, walls, and anything that would hopefully persist to contain what it must, across
-generations of readers. We have built colossal libraries, with gargantuan collections of books. With
-it, we have stored an immense amount of records, far beyond what all the brains of all humans can
-contain. Then, the libraries became computer databases. We took yet another step in building tower
-houses of what our ancestors knew, and what we know today. But both by intrigue and disturbance, we
-see that not even our most advanced technology is able to carefully record, with predictability, our
-coordinates in space in time, for the past, present, and future. As a consolation we are in a time
-wherein we can, with high certainty, tell whether a drinking glass has something in it or not.
+retrieval is one of its most critical operations. We began by writing on stones, walls, and anything
+that would hopefully persist to contain what it must, across generations of readers. We have built
+colossal libraries, with gargantuan collections of books. With it, we have stored an immense amount
+of records—far beyond what all the brains of all humans can contain. Then, the libraries became
+computer databases. We took yet another step in building tower houses of what our ancestors knew,
+and what we know today. But both by intrigue and disturbance, we see that not even our most advanced
+technology is able to carefully tell with high certainty what’s going to happen next. As a
+consolation we are in a time wherein we can, with high certainty, tell whether a drinking glass has
+something in it or not.
 
 Some of us persist in delusions and claim to know what they have never ventured in, or at the least,
 observed. It is very disheartening that instead of taking a step back and gaze at the sky for a
