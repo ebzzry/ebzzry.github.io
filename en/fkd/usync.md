@@ -3,13 +3,13 @@ Synchronizing Sites with Usync
 
 <div class="center">[Esperanto](/eo/usync/) ▪ English</div>
 <div class="center">May 21, 2013</div>
-<div class="center">Last updated: October 18, 2019</div>
+<div class="center">Last updated: February 2, 2022</div>
 
 >What I cannot create, I do not understand.<br>
 >―Richard P. Feynman
 
 Site-to-site synchronizations are usually needed, when two locations, make file updates
-independently. Let’s say the company _Okininam_ has two offices. In the first office, they have the
+independently. Let’s say the company _MMM_ has two offices. In the first office, they have the
 accounting, and logistics departments. In the second office, they have the IT, and HR
 departments. Both have a common `/pub` tree, that has subdirectories assigned to each
 department. Without synchronization, when the first office needs information from the second office,
@@ -44,23 +44,23 @@ To check that Usync is indeed installed, run:
 <a name="basicusage"></a> Basic usage
 -------------------------------------
 
-To perform two-way synchronization of the directory `/pub/yot/ninam`, between the current host, to
-the hosts `tarupam` and `taubetmo`, while preserving the directory structure remotely, run the
+To perform two-way synchronization of the directory `/pub/mis/doc`, between the current host, to
+the hosts `site1` and `site2`, while preserving the directory structure remotely, run the
 following command. Take note, that there must be no spaces between the hosts specification, due to
-the `IFS` environment variable:
+the `IFS` environment variable of the shell:
 
-    $ usync /pub/yot/ninam/ tarupam,taubetmo
+    $ usync /pub/mis/doc/ site1,site2
 
-The command above will perform two-way synchronization of the directory `ninam/` found under
-`/pub/yot/`, to `tarupam:/pub/yot/`, and `taubetmo:/pub/yot/`.
+The command above will perform two-way synchronization of the directory `doc/` found under
+`/pub/mis/`, to `site1:/pub/mis/`, and `site2:/pub/mis/`.
 
 Using your example above, the two-way synchronization system basically tells that if the tree
-`tarupam:/pub/yot/ninam/` contains new and/or updated items, compared with
-`localhost:/pub/yot/ninam/`, and `localhost:/pub/yot/ninam/` also happens to have new and/or updated
+`site1:/pub/mis/doc/` contains new and/or updated items, compared with
+`localhost:/pub/mis/doc/`, and `localhost:/pub/mis/doc/` also happens to have new and/or updated
 items, then, they will trade updates.
 
-Ideally, the result is that `localhost:/pub/yot/ninam/`, `tarupam:/pub/yot/ninam/`, and
-`taubetmo:/pub/yot/ninam/`, are all equal.
+Ideally, the result is that `localhost:/pub/mis/doc/`, `site1:/pub/mis/doc/`, and
+`site2:/pub/mis/doc/`, are all equal.
 
 
 <a name="advancedusage"></a> Advanced usage
@@ -69,16 +69,16 @@ Ideally, the result is that `localhost:/pub/yot/ninam/`, `tarupam:/pub/yot/ninam
 It is also possible to perform synchronization of multiple files, and directories, to remote
 hosts. To do so, run:
 
-    $ usync /pub/yot/ninam/ ~/file.text ~reyn/*.blend tarupam,taubetmo
+    $ usync /pub/mis/doc/ ~/file.txt ~rmm/*.txt site1,site2
 
-The command above will perform two-way synchronization of the paths `/pub/yot/ninam/`,
-`~/file.text`, and `~reyn/*.blend` to the remote hosts `tarupam`, and `taubetmo`, using the same
+The command above will perform two-way synchronization of the paths `/pub/mis/doc/`,
+`~/file.txt`, and `~rmm/*.txt` to the remote hosts `site1`, and `site2`, using the same
 directory structuring system described above.
 
 If you want to perform one-way synchronization, of the above, like _rsync_, run:
 
-    $ usync --one-way --prefer-local /pub/yot/ninam/ \
-    ~/file.text ~reyn/draft.blend tarupam,taubetmo
+    $ usync --one-way --prefer-local /pub/mis/doc/ \
+    ~/file.txt ~rmm/draft.txt site1,site2
 
 For more usage information, run:
 
