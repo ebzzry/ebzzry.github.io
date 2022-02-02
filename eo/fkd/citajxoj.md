@@ -935,12 +935,6 @@ tra la jarojn, ĉi tiu paĝo enhavas.
 - Mi opinias, ke homoj neniam ĉesis kredi je io ajn kiu ne havas eron de senco al ĝi.<br>―Isaac Asɪᴍᴏᴠ
 
 
-- Tiel la mondo iras.<br>―Juliano Hernández Aɴɢᴜʟᴏ
-
-
-- Ho mia dio! Ili ja faris tion!<br>―Charles E. Lᴇɪsᴇʀsᴏɴ
-
-
 - La malamiko de mia malamiko estas mia amiko.<br>―latina proverb
 
 
