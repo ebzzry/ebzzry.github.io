@@ -6,7 +6,7 @@ Sekurkopiojn Krei per Ugarit
 <div class="center">Laste ĝisdatigita: la 24-an de Aŭgusto 2021</div>
 
 >Bona juĝo devenas el sperto, kaj sperto devenas el malbona juĝo.<br>
->―Fred Bʀᴏᴏᴋs
+>―Fred BROOKs
 
 Kiom da fojoj oni spertis komprenon post kiam okazis katastrofo? Kiom da fojoj
 oni diris al si mem, ke se oni kreis sekurkopiojn de siaj altvaloraj datumoj,

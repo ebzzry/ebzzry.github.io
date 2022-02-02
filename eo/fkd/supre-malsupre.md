@@ -6,7 +6,7 @@ Supre, Malsupre, kaj Aliloke
 <div class="center">Laste ĝisdatigita: la 31-an de Januaro 2022</div>
 
 >La nuraj limoj kiujn havas oni, estas la limoj kiujn kredas oni.<br>
->―Wayne Dʏᴇʀ
+>―Wayne DYER
 
 Nia ruza kapablo por preterlaso estas ridinde alta, ĉu solvi problemon aŭ simple provas esti kreema.
 Niaj impetoj por troe realigi estas malkutime regaj se niaj komencaj atendoj ne satiĝis. Tiras ni
@@ -57,4 +57,4 @@ iu por kapti la manojn.
 
 Ofte, malatentas ni ke ĉiomaj iloj kiujn bezonas ni, estas ĉeestantaj kun ni.
 
-_Dank’ al [Raymund Mᴀʀᴛɪɴᴇᴢ](https://zhaqenl.github.io) pro la korektoj._
+_Dank’ al [Raymund MARTINEZ](https://zhaqenl.github.io) pro la korektoj._

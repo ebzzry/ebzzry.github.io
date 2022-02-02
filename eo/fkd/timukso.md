@@ -6,7 +6,7 @@ Kiel Timukson Mi Uzas
 <div class="center">Laste ĝisdatigita: la 28-an de Septembro 2021</div>
 
 >Furioza agado ne estas anstataŭaĵo de komprenado.<br>
->―H.H. Wɪʟʟɪᴀᴍs
+>―H.H. WILLIAMs
 
 Samkiel redaktilo, terminalsimulila kunigilo estas unu el la malmultaj iloj kiu
 multan produktivecon liveras ekde ĝin oni lernas kiel uzi. En ĉi tiu artikolo
@@ -245,7 +245,7 @@ set -g pane-active-border-fg green
 set -g pane-active-border-bg black
 ```
 
-Sed se la `2.9.X` serion oni jam uzas, ĉi tiun uzu anstataŭe:
+Sed se la `2.9.x` serion oni jam uzas, ĉi tiun uzu anstataŭe:
 
 ```
 set -g status-position bottom

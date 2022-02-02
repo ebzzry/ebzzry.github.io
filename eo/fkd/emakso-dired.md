@@ -6,7 +6,7 @@ Dosierujojn Mastrumi en Emakso
 <div class="center">Laste ĝisdatigita: la 24-an de Aŭguto 2021</div>
 
 >Supozi bonas, tamen eltrovi pli bonas.<br>
->―Samuel Cʟᴇᴍᴇɴs
+>―Samuel CLEMENs
 
 En ĉi tiu afiŝo, mi fokusas sur unu el la plej lertaj manieroj, kiel Emakso traktas dosierujan
 administradon. La dosierujrekdatilo _Dired_ (angle prononcata *dir-ed*), estas la Emaksa
@@ -66,7 +66,7 @@ aŭ pluraj eroj. Uzi ilin por pluraj eroj estos klarigitaj sekve.
 | <kbd>M</kbd>                  | Ŝanĝu permesosjn               |
 | <kbd>S</kbd>                  | Kreu simbolligilon             |
 | <kbd>T</kbd>                  | Tuŝu eron                      |
-| <kbd>!</kbd> aŭ <kbd>X</kbd>  | Plenumu ŝelan komandon al ero  |
+| <kbd>!</kbd> aŭ <kbd>x</kbd>  | Plenumu ŝelan komandon al ero  |
 
 
 <a name="markaj"></a>Markaj komandoj
@@ -126,4 +126,4 @@ konservi la ŝanĝojn, premu <kbd>C-c C-c</kbd>.
 Ni tuŝis nur la pinton de la glacimonto. Liberiĝu por esplori. Por vidi pli da informo, vizitu la
 Dired-manlibron [ĉi tie](https://www.gnu.org/software/emacs/manual/html_node/emacs/Dired.html).
 
-_Dank’ al [Raymund Mᴀʀᴛɪɴᴇᴢ](https://zhaqenl.github.io) pro la korektoj._
+_Dank’ al [Raymund MARTINEZ](https://zhaqenl.github.io) pro la korektoj._

@@ -44,7 +44,7 @@ La jena komando forviŝas regionon se unu aktivas aŭ forviŝas la signon sub la
 <a name="kompilo"></a>Kompilo
 -----------------------------
 
-Mi ofte uzas la jenan komandon kaj mi uzas ĝin de komposti LaTeX-dokumentojn, kompili
+Mi ofte uzas la jenan komandon kaj mi uzas ĝin de komposti LaTex-dokumentojn, kompili
 Scribble-dokumentojn, kompili kodon, kaj por preskaŭ io ajn, kiun mi povas uzi ĝin.
 
 ```lisp
@@ -150,4 +150,4 @@ La klavkombinoj por la supraj komandoj, estas la jenaj:
 Mi esperas, ke oni povos esti kapabla trovi uzojn de kelkaj de ili. La ceteraj agordoj troveblas
 [ĉi tie](https://github.com/ebzzry/dotfiles/tree/master/emacs).
 
-_Dank’ al [Raymund Mᴀʀᴛɪɴᴇᴢ](https://zhaqenl.github.io) pro la korektoj._
+_Dank’ al [Raymund MARTINEZ](https://zhaqenl.github.io) pro la korektoj._

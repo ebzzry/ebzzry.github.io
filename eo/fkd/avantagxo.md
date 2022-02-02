@@ -6,7 +6,7 @@ Mia Kinezia Avantaĝa Aranĝo
 <div class="center">Laste ĝisdatigita: la 28-an de Septembro 2021</div>
 
 >La doloro neeviteblas. La suferado malnepras.<br>
->―M. Kathleen Cᴀsᴇʏ
+>―M. Kathleen CAsEY
 
 <img src="/bil/avantagxo.jpg" style="display: block; width: 100%; margin-left: auto;
 margin-right: auto;" alt="Kinezia Avantaĝo" title="Kinezia Avantaĝo"/>
@@ -77,15 +77,15 @@ Unu el miaj plej ŝatataj ŝanĝoj estas la nova loko de la <kbd>[</kbd> kaj <kb
 nova loko de <kbd>Esc</kbd> ankaŭ plaĉas al mi—min ĉi tio permesas por la eskapan klavo premi kiam
 je Vi uzi aŭ apajn invitojn fermi.
 
-La <kbd>Insert</kbd> klavon mi uzis anstataŭ <kbd>Esc</kbd> por ke je `XA_PRIMARY` zonon mi povu
-aliri facile per <kbd>Shift + Insert</kbd>. La `XA_PRIMARY`-zono estas kie la musaj markoj
+La <kbd>Insert</kbd> klavon mi uzis anstataŭ <kbd>Esc</kbd> por ke je `xA_PRIMARY` zonon mi povu
+aliri facile per <kbd>Shift + Insert</kbd>. La `xA_PRIMARY`-zono estas kie la musaj markoj
 iras. Ankaŭ plifaciliĝas por la `overwrite-mode`-reĝimon de emakso eniri kaj por novan nivelon
 aldoni en *Krita*. La <kbd>Insert</kbd> klavo, bedaŭrinde, kaŝitas en la klavo markita per `|`,
 maldekstre. La sinsekvo por ĝin aliri estas listigita al la fino de ĉi tiu afiŝo.
 
 Tiujn kiuj estis antaŭe <kbd>Ctrl</kbd>-klavoj mi bindis al <kbd>KP Home</kbd> kaj <kbd>KP
 End</kbd> por ke ilin mi povu mapi al <kbd>Mode‎ߺ‎Switch</kbd> en mia
-[~/.Xmodmap](https://github.com/ebzzry/dotfiles/blob/master/xmodmap/advantage.dv.xmap)-dosiero. Miajn
+[~/.xmodmap](https://github.com/ebzzry/dotfiles/blob/master/xmodmap/advantage.dv.xmap)-dosiero. Miajn
 [notojn](#notojn) vidu ĉi-sube kial alian malrektigadan nivelon mi aldonis.
 
 
@@ -134,8 +134,8 @@ estas la fonto, la sekva klavo estas la celo.
 
 Tiam je <kbd>Progrm + F12</kbd> premu denove, por la remapagadan reĝimon eliri. La <kbd>KP
 Enter</kbd> klavo moviĝis al la maldekstra <kbd>Alt</kbd> por ke ĝin mi povu facile uzi kiel
-«Compose» klavo en X. La jenan kodeton mia
-[~/.Xmodmap](https://github.com/ebzzry/dotfiles/blob/master/xmodmap/advantage.dv.xmap)-dosiero
+«Compose» klavo en x. La jenan kodeton mia
+[~/.xmodmap](https://github.com/ebzzry/dotfiles/blob/master/xmodmap/advantage.dv.xmap)-dosiero
 enhavas:
 
 ```

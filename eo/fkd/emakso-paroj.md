@@ -7,7 +7,7 @@ Emakso kaj Paroj
 
 >La blanka bruo kiu batas ene la blanka mallumo estas la ritmo de la vivo; estas la pulso kiu
 >neniam vere foriris la podion.<br>
->―Ergo Pʀᴏxʏ, Ergo Proxy
+>―Ergo PROxY, Ergo Proxy
 
 <img src="/bil/wallhaven-578010-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-578010" title="wallhaven-578010"/>
 
@@ -678,4 +678,4 @@ ilin lerni, minimumas kontraste al la gajnojn oni povas rikolti.
 smartparens estas la elpensintaĵo de [Matus GOLJER](https://github.com/Fuco1). Por pli da informo
 pri smartparens, [ĉi tien](https://github.com/Fuco1/smartparens) iru. Se ĉi tiun projekton oni
 ŝatas, oni povas donaci
-[ĉi tie](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CEYP5YVHDRX8C).
+[ĉi tie](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CEYP5YVHDRx8C).
