@@ -1,4 +1,4 @@
-Skimprogramadon Agordi en Emakso
+Agordi Skimprogramadon en Emakso
 ================================
 
 <div class="center">Esperanto ▪ [English](/en/emacs-scheme/)</div>

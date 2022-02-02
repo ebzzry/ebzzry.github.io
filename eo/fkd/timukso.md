@@ -1,4 +1,4 @@
-Kiel Timukson Mi Uzas
+Kiel Uzas Mi Timukson
 =====================
 
 <div class="center">Esperanto ▪ [English](/en/tmux/)</div>
