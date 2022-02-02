@@ -54,7 +54,7 @@
             &#40;+ n &#40;p &#40;- n 1&#41;&#41;&#41;&#41;&#41;&#41;&#41;
    100&#41;
 5050
-</code></pre><p>Anstataŭigu oni la difinon specifa al <code>foo</code>, per <code>x</code>. Igas ĉi tio onin denove, por krei la enhavatan <code>lambda</code>-esprimo tial, ke <code>x</code> estas kunligata al la komputata proceduro, ne plu devas ripeti oni ĝin.</p><h2><a name="difini">Paŝo 6-a: Difinu la kombinatoron</a></h2><p>Fine, kreos eksplicite oni apartan proceduran difinon por la ipsilonkombinatoro mem kaj la proceduro <code>foo</code>.</p><pre><code class="scheme">&gt; &#40;define y
+</code></pre><p>Anstataŭigu oni la difinon specifa al <code>foo</code>, per <code>x</code>. Igas ĉi tio onin denove, por krei la enhavatan <code>lambda</code>-esprimo tial, ke <code>x</code> estas kunligata al la komputata proceduro, ne plu devas ripeti oni ĝin.</p><h2><a name="difini">Paŝo 6-a: Difinu la kombinatoron</a></h2><p>Fine, kreos oni apartan proceduran difinon eksplicite por la ipsilonkombinatoro mem kaj la proceduro <code>foo</code>.</p><pre><code class="scheme">&gt; &#40;define y
     &#40;lambda &#40;x&#41;
       &#40;&#40;lambda &#40;f&#41;
          &#40;x &#40;lambda &#40;v&#41; &#40;&#40;f f&#41; v&#41;&#41;&#41;&#41;

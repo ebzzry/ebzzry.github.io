@@ -800,7 +800,7 @@ nix-repl> birdo { a = "A"; b = "B"; z = "Z"; }
 "ABCZ"
 
 nix-repl> birdo { a = "A"; b = "B"; c = "x"; z = "Z"; }
-"ABxZ"
+"ABXZ"
 
 ```
 
@@ -998,7 +998,7 @@ oportunaj. La kompromiso, estas, ke la pakoj estas malaktualaj de iom da tagoj. 
 tio, tiam kanalojn uzi anstataŭ la gitkopion.
 
 Kanaloj estas etikeditaj `stable`, `unstable`, aŭ per specifa versinombro,
-ekzemple, `18.09` aŭ `21.05`. Por ĉi tiu artikolo, je `unstable` ni uzu—ĝi nek
+ekzemple, `18.09` aŭ `21.11`. Por ĉi tiu artikolo, je `unstable` ni uzu—ĝi nek
 estas tiel malaktuala kiel `stable` nek tiel ĵuŝa kiel la gitkopio. Por aboni al
 la `unstable`-kanalo, plenumu:
 
@@ -1261,9 +1261,9 @@ stdenv.mkDerivation rec {
   '';
 
   meta = with stdenv.lib; {
-    description = "An md5sum-alike program that works with Tiger/THEx hashes";
+    description = "An md5sum-alike program that works with Tiger/THEX hashes";
     longDescription = ''
-      tthsum generates or checks TTH checksums (root of the THEx hash
+      tthsum generates or checks TTH checksums (root of the THEX hash
       tree). The Merkle Hash Tree, invented by Ralph Merkle, is a hash
       construct that exhibits desirable properties for verifying the
       integrity of files and file subranges in an incremental or
@@ -1456,9 +1456,9 @@ stdenv.mkDerivation {
 
 *.nix*-dosiero estas Nix-esprimo. En ĉi tiu ekzemplo, ĝi estas funkcio kiu unu argumenton akceptas
 kun defaŭlta valoro. La bizara `<nixpkgs>` montras al la valoro de la atribuo `nixpkgs` deklarita en
-la `NIx_PATH` media variablo. Sur NixOS, ĝi aspektas jene:
+la `NIX_PATH` media variablo. Sur NixOS, ĝi aspektas jene:
 
-    $ echo $NIx_PATH
+    $ echo $NIX_PATH
     nixpkgs=/nix/var/nix/profiles/per-user/root/channels/nixos/nixpkgs:nixos-config=/etc/nixos/configuration.nix:/nix/var/nix/profiles/per-user/root/channels
 
 En la dosierujo kiu estas montrata de la atribuo `nixpkgs`, estas `.git-revision` dosiero. Ĝian
@@ -1648,7 +1648,7 @@ aliro kiu estas konata al ni. Ĝi eblas disponigi al *VirtualBox*, *Amazon EC2*
 
 Fundajn detalojn pri generadoj, derivaĵoj, kaj efektivigadoj estis eliziadoj intence, en ĉi tiu
 artikolo. Ili povas fariĝi sekcio per si mem, aŭ ĉi tiun artikolon mi eblas ĝisdatigi por tiujn
-temojn aldoni. Novan sekcion pri NixOs mi eblas skribi.
+temojn aldoni. Novan sekcion pri NixOS mi eblas skribi.
 
 Emaksa ĉefregimo por Nix-dosieroj haveblas de la [ĉefdeponejo](https://github.com/NixOS/nix-mode) de
 NixOS. Ĝi ankaŭ haveblas per [MELPA](https://melpa.org/#/nix-mode). Ĝin oni povas instali per:

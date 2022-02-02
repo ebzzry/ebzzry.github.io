@@ -6,7 +6,7 @@ Aboco de la Lambdokalkulo
 <div class="center">Laste ĝisdatigita: la 18-an de Oktobro 2019</div>
 
 >Oni ne vere komprenas ion krom se oni povas klarigi tion al sia avino.<br>
->―Alberto EJNsxTEJNO
+>―Alberto EJNSXTEJNO
 
 Ĉi tio estas mia provo por fari ja tion, tamen la avino ĉi tie estas mi mem. Mi firme kredas, ke mi
 ne vere povas kompreni ion, krom se mi povas klarigi ĝin. Ĉi tiu afiŝo estas malstreĉa aliro por

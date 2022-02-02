@@ -3,7 +3,7 @@ Malŝparitaj Malcedemoj
 
 <div class="center">Esperanto ▪ [English](/en/squandered/)</div>
 <div class="center">la 5-an de Decembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 2-an de Februaro 2022</div>
+<div class="center">Laste ĝisdatigita: la 3-an de Februaro 2022</div>
 
 >La unua paŝo por iri ien, estas decidi, ke oni ne restos kie oni estas.<br>
 >―J.P. MORGAN
@@ -20,7 +20,7 @@ interpuŝiĝoj pri la svarmoj de razioj de la vivo.
 
 Kiam translokiĝas ni preter niaj areoj de konsolo, pleniĝas ni per avideco por reveni al niaj
 propraj fortikaj bunkroj. Vidas ni niajn proprajn fantomemajn similulojn, komunikantaj kaj
-montrantaj al ni kiaj minacantaj abomenaĵoj eble altiĝas el la tero, kiuj pretas por vive vori nin. Ju
+montrantaj al ni kiaj minacantaj abomenaĵoj eble altiĝas el la tero, kiuj pretas por vori nin vive. Ju
 pli restas ekster ni, des pli altas la probableco de morto.
 
 Fariĝas ni kredi niajn proprajn kondamnojn; Praviĝas ni per niaj propraj mallaŭnormigataj skaloj pri
@@ -28,7 +28,7 @@ kiujn elektojn por fari. Kiam ajn nekonataj teritorioj esploriĝas, preskaŭ tuj
 ŝajne kontraŭstaremaj formoj. Faras ni ĝin pro timo. Faras ni ĝin tial, ke ne plaĉas al ni la
 nekonataj . Faras ni ĝin pro niaj parencecoj kaj sindonoj de la sekureco.
 
-Plendas ni pri la sufokema manko de premio, sed tamen sin ĉesi libervole ni mem per fari eĉ colon de
+Plendas ni pri la sufokema manko de premio, sed tamen sin ĉesi ni mem libervole per fari eĉ colon de
 movo de kruro por fari la avancon al la kapto. Ni estas tiel sentimentale enamiĝas kun fervoro en
 la strebado de raciigo al niaj nepravigeblaj pravigoj, sed same petas ni raciajn raciojn. Estas eĉ
 pli ŝoke vidi, ke inside anoncas iluziojn de grandiozo kelke da ni, kun pretendoj de plene ripetaj
@@ -58,9 +58,9 @@ Estas ironie, ke tuj kiam pensas ni, ke jam sufiĉe maljunas ni por senhelpe vet
 niaj trejnadaj radoj, sufokiĝas ni per mezkvalitaj celoj de pseŭdoeltrovo. Kiam senvualiĝis la
 kurteno, alfrontiĝis ni per ŝoka vido—ja perdis ni la ardon, kiu unufoje irigis nin por havi
 elsciadon. Timiĝis ni ekzerci la samajn teĥnikojn kaj maksimojn, kiujn unufoje havis ni kiel
-infanoj. Haltiĝis fari ni sciemajn inkviziciojn pri tio, kio okazas ekstere. Fariĝas bonforte senti
-ni pri tio, kio antaŭmetatas sur la instituciigitaj teleroj, sen la plej minimuma klopodo por
-apogiĝi ĝis elpensi demandojn.
+infanoj. Haltiĝis fari ni sciemajn inkviziciojn pri tio, kio okazas ekstere. Fariĝas ni bonfarte pri
+tio, kio estas antaŭmetata sur la instituciigitaj teleroj, sen la plej minimuma klopodo por apogiĝi
+ĝis elpensi demandojn.
 
 La socio, kiu ni ĉiuj estas parto de, estas parto de la malsano. Ĉi tiu malsano estas tio, kion ja
 helpas vastigi ni, el ĝia eko. Ĉi tiu ero estas tio, kion ja forte prilaboradis ni por formi niajn
