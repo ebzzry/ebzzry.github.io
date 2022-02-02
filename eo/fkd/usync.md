@@ -1,4 +1,4 @@
-Retnodojn Sinkronigi per Usync
+Sinkronigi Retnodojn per Usync
 ==============================
 
 <div class="center">Esperanto ▪ [English](/en/usync/)</div>
@@ -88,7 +88,7 @@ Por vidi pli da informo, plenumu:
 -------------------------------------
 
 Kelkaj dosieroj kaj regulesprimoj estas enkonstruitaj kiel eksigoj. Eble ili senchavas aŭ ne. Se
-opinias oni, ke ili devas esti ŝanĝitaj, estu libere por sendi tirpeton. La fontoj haveblas [ĉi
+opinias oni, ke ili devas esti ŝanĝitaj, estu libere por sendi tirpeton. Haveblas la fontoj [ĉi
 tie](https://github.com/ebzzry/usync).
 
 _Dank’ al [Raymund MARTINEZ](https://zhaqenl.github.io) pro la korektoj._

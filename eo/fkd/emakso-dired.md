@@ -1,4 +1,4 @@
-Dosierujojn Mastrumi en Emakso
+Mastrumi Dosierujojn en Emakso
 ==============================
 
 <div class="center">Esperanto ▪ [English](/en/emacs-dired/)</div>
