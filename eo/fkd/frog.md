@@ -6,7 +6,7 @@ Blogi per Frog
 <div class="center">Laste ĝisdatigita: la 24-an de Aŭgusto 2021</div>
 
 >Unu persono kun ardo pli bonas ol kvardek personoj nure interesataj.<br>
->―E.M. Fᴏʀsᴛᴇʀ
+>―E.M. FORsTER
 
 Kiam eldoni blogan enhavon al la TTT, la plejmulto da homoj kondifus antaŭkreitajn servojn, kiuj
 faras la grandparton de la laboro. Tamen, estas okazoj kiam oni volas havi pli da rego sur ĝiaj

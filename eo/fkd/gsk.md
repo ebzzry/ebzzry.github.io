@@ -7,7 +7,7 @@ Agordi je GPG kaj je SSH en KDE
 
 >Ne tute estas grave por prave atingi tion en la unua fojo. Estas vitale grava atingi tion en la
 >lasta tempo.<br>
->―Andrew Hᴜɴᴛ kaj David Tʜᴏᴍᴀs
+>―Andrew HUNT kaj David THOMAs
 
 Kiam kaj GPG kaj SSH bone enkonstruitas kun KDE, estas facile por kunoperacii tiujn
 sistemojn. Estas kontrasto inter malfirme adaptita ganto kaj tiu, kiu tre bone adaptiĝas.
@@ -76,7 +76,7 @@ elektas la plej fortajn opciojn:
     $ gpg2 --gen-key
 
 Se oni volas uzi pli bonajn pasfrazojn, uzu
-[dajsvaron](http://world.std.com/~reinhold/diceware.html). XKCD-bildstrio kreitas pro tio.
+[dajsvaron](http://world.std.com/~reinhold/diceware.html). xKCD-bildstrio kreitas pro tio.
 
 La sekva afero por fari estas por redakti la ĉefan GPG-agorddosieron:
 
@@ -169,4 +169,4 @@ Okazos samspeca agmaniero se oni ĉifras dosieron GPG-e:
 La paŝoj parolis supre estis intencitaj por esti mallongaj sen priparoli la malsimplajn
 detalojn. Mi esperas ke oni trovis ĉi tiun utila.
 
-_Dank’ al [Raymund Mᴀʀᴛɪɴᴇᴢ](https://zhaqenl.github.io) pro la korektoj._
+_Dank’ al [Raymund MARTINEZ](https://zhaqenl.github.io) pro la korektoj._

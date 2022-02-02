@@ -7,7 +7,7 @@ Milda Enkonduko al la Nix-Familio
 
 >Ne maltrankviliĝu pri tio, kion la aliaj faros. La plej bona maniero por la estontecon antaŭdiri
 >estas por tion eltrovi.<br>
->―Alan Kᴀʏ
+>―Alan KAY
 
 <img src="/bil/wallhaven-751942-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-751942" title="wallhaven-751942"/>
 
@@ -799,8 +799,8 @@ nix-repl> birdo = atribuoj@{ a, b, c ? "C", ... }: a + b + c + atribuoj.z
 nix-repl> birdo { a = "A"; b = "B"; z = "Z"; }
 "ABCZ"
 
-nix-repl> birdo { a = "A"; b = "B"; c = "X"; z = "Z"; }
-"ABXZ"
+nix-repl> birdo { a = "A"; b = "B"; c = "x"; z = "Z"; }
+"ABxZ"
 
 ```
 
@@ -1059,7 +1059,7 @@ Malpligrandigitan version de mia `config.nix` ni rigardu:
     emacs = pkgs.emacs.override {
       withGTK2 = false;
       withGTK3 = false;
-      withXwidgets = false;
+      withxwidgets = false;
     };
   };
 
@@ -1261,9 +1261,9 @@ stdenv.mkDerivation rec {
   '';
 
   meta = with stdenv.lib; {
-    description = "An md5sum-alike program that works with Tiger/THEX hashes";
+    description = "An md5sum-alike program that works with Tiger/THEx hashes";
     longDescription = ''
-      tthsum generates or checks TTH checksums (root of the THEX hash
+      tthsum generates or checks TTH checksums (root of the THEx hash
       tree). The Merkle Hash Tree, invented by Ralph Merkle, is a hash
       construct that exhibits desirable properties for verifying the
       integrity of files and file subranges in an incremental or
@@ -1456,9 +1456,9 @@ stdenv.mkDerivation {
 
 *.nix*-dosiero estas Nix-esprimo. En ĉi tiu ekzemplo, ĝi estas funkcio kiu unu argumenton akceptas
 kun defaŭlta valoro. La bizara `<nixpkgs>` montras al la valoro de la atribuo `nixpkgs` deklarita en
-la `NIX_PATH` media variablo. Sur NixOS, ĝi aspektas jene:
+la `NIx_PATH` media variablo. Sur NixOS, ĝi aspektas jene:
 
-    $ echo $NIX_PATH
+    $ echo $NIx_PATH
     nixpkgs=/nix/var/nix/profiles/per-user/root/channels/nixos/nixpkgs:nixos-config=/etc/nixos/configuration.nix:/nix/var/nix/profiles/per-user/root/channels
 
 En la dosierujo kiu estas montrata de la atribuo `nixpkgs`, estas `.git-revision` dosiero. Ĝian
@@ -1726,4 +1726,4 @@ nix-repl> let y = x: ((f: (x (v: ((f f) v)))) (f: (x (v: ((f f) v))))); b = p: (
 nix-repl>
 ```
 
-_Dank’ al [Dan Sᴠᴏʙᴏᴅᴀ](https://github.com/dansvo) pro la korektoj._
+_Dank’ al [Dan SVOBODA](https://github.com/dansvo) pro la korektoj._

@@ -6,7 +6,7 @@ Maldaŭra Rondvojaĝo de Gito kaj GitHub
 <div class="center">Laste ĝisdatigita: la 31-an de Aŭgusto 2021</div>
 
 >Ĉiujn solvitajn problemon sciu kiel solvi.<br>
->―Richard P. Fᴇʏɴᴍᴀɴ
+>―Richard P. FEYNMAN
 
 [Giton](https://git-scm.com/) kun [GitHub](https://github.com)-laborfluon ĉi tiu mallonga gvidilo
 montras. Multspecajn rezultojn rapida Gugla serĉo pri gitaj laborfluoj revenas. Nur unu el la

@@ -6,7 +6,7 @@ Skriptado en Komunlispo
 <div class="center">Laste ĝisdatigita: la 23-an de Aŭgusto 2021</div>
 
 >La lumo kiu fajras duoble brila, fajras duone longa.<br>
->―D-ro Eldon Tʏʀᴇʟʟ, Blade Runner (1982)
+>―D-ro Eldon TYRELL, Blade Runner (1982)
 
 <img src="/bil/lispo-simbolo.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="common-lisp.net emblemo" title="common-lisp.net emblemo"/>
 
@@ -166,7 +166,7 @@ Sekve, la dosieron `main.lisp` ni kreu en la sama dosierujo. La jenan ĝi havos:
 
 Ni komencu per je `UIOP:DEFINE-PACKAGE` uzi. Male al `DEFPACKAGE`, la necesan medion kiu estas amika
 al UIOP ĉi tio kreas. En la klaŭzo `:USE`, la helpilojn de aliaj bibliotekoj ni uzos. En la korpo de
-ĉi tiu dosiero, je `EXPORTING-DEFINITIONS` oni povas vidi. La limojn de tiuj, kiuj iĝos duumdosieroj
+ĉi tiu dosiero, je `ExPORTING-DEFINITIONS` oni povas vidi. La limojn de tiuj, kiuj iĝos duumdosieroj
 aŭ ne, ĉi tiu markilo efektive markas. Ĝi estos uzita de `REGISTER-COMMANDS` poste.
 
 Ĉi tie, kelkajn funkciojn ni difinas: `SYMLINK` respondecas pri la kreado de la simbolligiloj por la
@@ -198,7 +198,7 @@ clean:
 
 En la celo `$(NAME)`, je `cl-launch` ni voku kun la opcioj por la skripton kunmeti. En la celo
 `install`, la skripton ni alvoku kun la opcioj `symlink $(NAME)`, por la simbolligilojn de la
-multvoka duumdosiero krei. Pro nur tri funkciojn ni difinis ene la korpo de `EXPORTING-DEFINITIONS`,
+multvoka duumdosiero krei. Pro nur tri funkciojn ni difinis ene la korpo de `ExPORTING-DEFINITIONS`,
 nur tri simbolligilojn al `my-scripts` ĝi kreos. La eligan dosieron la opcio `‑‑output $(NAME)`
 precizigas. La `‑‑dump !` signifas, ke bildon ĝi kreos, por pli rapidan startigon ŝalti. La opcio
 `‑‑lisp sbcl` signifas, ke je SBCL ni volas uzi, por ĉi tiu skripto. La opcio `‑‑quicklisp`
@@ -392,7 +392,7 @@ Hura!
 <a name="avertoj"></a>Avertoj
 -----------------------------
 
-Gravan aferon por teni en la kalkulo, estas, en la difinoj, komunlispajn ŝlosilvortojn oni ne povas uzi kiel la nomo de komando. Do ene `EXPORTING-DEFINITIONS` la jenan oni ne povas havi:
+Gravan aferon por teni en la kalkulo, estas, en la difinoj, komunlispajn ŝlosilvortojn oni ne povas uzi kiel la nomo de komando. Do ene `ExPORTING-DEFINITIONS` la jenan oni ne povas havi:
 
 ```lisp
 (exporting-definitions

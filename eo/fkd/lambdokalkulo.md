@@ -6,7 +6,7 @@ Aboco de la Lambdokalkulo
 <div class="center">Laste ĝisdatigita: la 18-an de Oktobro 2019</div>
 
 >Oni ne vere komprenas ion krom se oni povas klarigi tion al sia avino.<br>
->―Alberto Eᴊɴsxᴛᴇᴊɴᴏ
+>―Alberto EJNsxTEJNO
 
 Ĉi tio estas mia provo por fari ja tion, tamen la avino ĉi tie estas mi mem. Mi firme kredas, ke mi
 ne vere povas kompreni ion, krom se mi povas klarigi ĝin. Ĉi tiu afiŝo estas malstreĉa aliro por
@@ -509,7 +509,7 @@ B11
 Oni simple ungogratis la tegon de la lambdokalkulo, tamen oni ĵus spektis ĝian vastegan espriman
 potencon, konsidere al kiel minimune la sistemo difinitas.
 
-_Dank’ al [Lucas Lᴜɢᴀᴏ](https://github.com/lucaslugao) pro la korektoj._
+_Dank’ al [Lucas LUGAO](https://github.com/lucaslugao) pro la korektoj._
 
 
 <a name="fontindikoj"></a>Fontindikoj

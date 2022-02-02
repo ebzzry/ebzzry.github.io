@@ -7,10 +7,10 @@ Esperanto-signoj en Linukso
 
 >Se ion oni volas, kion oni neniam havis, oni devas esti servopreta tion fari, kion oni neniam
 >faris.<br>
->―Thomas Jᴇғғᴇʀsᴏɴ
+>―Thomas JEFFERsON
 
 Mi opinias, ke la [h-](https://eo.wikipedia.org/wiki/H-sistemo) kaj la
-[x-sistemoj](https://eo.wikipedia.org/wiki/X-sistemo) ne plu devas uzitaj por la signojn enigi
+[x-sistemoj](https://eo.wikipedia.org/wiki/x-sistemo) ne plu devas uzitaj por la signojn enigi
 specifaj al Esperanto, krom se, ne fizike fareblas. Nune, estas du manieroj por la
 esperantajn signojn enigi linukse—la <kbd>Multi‎ߺ‎key</kbd> kaj <kbd>Mode‎ߺ‎switch</kbd> klavoj.
 
@@ -33,14 +33,14 @@ esti premita kaj malpremita kun aliajn klavojn por signon enigi, aŭ seriojn de 
 <kbd>Shift</kbd> aŭ <kbd>Ctrl</kbd>, ĝi devas esti malpremita kaj ne premita dum la sinsekvo de
 premoj.
 
-Por je <kbd>Pause</kbd> klavon uzi kiel *Multi‎ߺ‎key*, la dosieron `~/.Xmodmap` redaktu, tiam la
+Por je <kbd>Pause</kbd> klavon uzi kiel *Multi‎ߺ‎key*, la dosieron `~/.xmodmap` redaktu, tiam la
 jenan kodeton aldonu:
 
     keycode 127 = Multi‎ߺ‎key
 
-Tiam, je `~/.Xmodmap` reŝarĝu:
+Tiam, je `~/.xmodmap` reŝarĝu:
 
-    xmodmap ~/.Xmodmap
+    xmodmap ~/.xmodmap
 
 Se je <kbd>Pause</kbd> klavon oni ne volas uzi, je `xev` plenumu:
 
@@ -58,11 +58,11 @@ KeyRelease event, serial 36, synthetic NO, window 0x2e00001,
 …
 ```
 
-Do por je <kbd>Print</kbd> klavon uzi kiel *Multi‎ߺ‎key*, je `~/.Xmodmap` redaktu por enhavi:
+Do por je <kbd>Print</kbd> klavon uzi kiel *Multi‎ߺ‎key*, je `~/.xmodmap` redaktu por enhavi:
 
     keycode 107 = Multi‎ߺ‎key
 
-Tiam, je `~/.Xmodmap` reŝarĝu, kiel priskribite ĉi-supre.
+Tiam, je `~/.xmodmap` reŝarĝu, kiel priskribite ĉi-supre.
 
 Nun, ke je *Multi‎ߺ‎key* oni povas aliri, signojn komposti plifaciliĝas. Ni supozu, ke je
 <kbd>Pause</kbd> klavo ni uzis kiel *Multi‎ߺ‎key*, por la literon **ĉ** eniri, je <kbd>Pause</kbd> oni
@@ -96,7 +96,7 @@ Pli rapida kaj pli facila manieroj por esperantajn signojn enigi estas per la uz
 por tiu celo por ke per du manojn mi povu maŝinskribi. Male al *Multi‎ߺ‎key*, ĝin oni devas premi kaj
 teni kiel la <kbd>Shift</kbd> aŭ <kbd>Ctrl</kbd> klavoj.
 
-Se la vindozklavojn oni volas uzi kiel la *Mode‎ߺ‎switch*-klavo, la `~/.Xmodmap` dosieron redaktu, tiam la
+Se la vindozklavojn oni volas uzi kiel la *Mode‎ߺ‎switch*-klavo, la `~/.xmodmap` dosieron redaktu, tiam la
 jenan kodeton enmeti:
 
 ```
@@ -130,9 +130,9 @@ keycode 47 = s S scircumflex Scircumflex
 keycode 41 = u U ubreve Ubreve
 ```
 
-Tiam, je `~/.Xmodmap` reŝargu:
+Tiam, je `~/.xmodmap` reŝargu:
 
-    xmodmap ~/.Xmodmap
+    xmodmap ~/.xmodmap
 
 Por la literon **ĉ** eniri, je 🐧 premu kaj tenu, tiam <kbd>c</kbd> klavon premu. Por la **Ŭ**
 literon eniri, je 🐧 premu kaj tenu, tiam je <kbd>Shift</kbd> premu, tiam je <kbd>u</kbd> premu. Per
@@ -141,9 +141,9 @@ literon eniri, je 🐧 premu kaj tenu, tiam je <kbd>Shift</kbd> premu, tiam je <
 En kelkaj klavaroj, estas nur unu vindozklavo, kutime lokitas maldekstre, dum tiu dekstre estas
 la <kbd>PrtSc</kbd> klavo. Multfoje ili sandviĉitas inter la <kbd>Ctrl</kbd> kaj la
 <kbd>Alt</kbd> klavoj. Por tiun klavon uzi, je `xev` plenumu kiel ĉi-supre por la klavkodon akiri, tiam
-je `~/.Xmodmap` dosiero ĝisdatigi laŭe.
+je `~/.xmodmap` dosiero ĝisdatigi laŭe.
 
-Sur mia ThinkPad, la jenan kodeton mi `~/.Xmodmap` havas:
+Sur mia ThinkPad, la jenan kodeton mi `~/.xmodmap` havas:
 
 ```
 !! Maldekstra vindozo
@@ -161,14 +161,14 @@ Ambaŭ resumitaj metodoj supre, faras pli ol esperantajn signojn montri. Pliarti
 kaj signojn *Multi‎ߺ‎key* sistemo povas enigi. Por la plenan liston de signoj, la jenan komandon
 plenumu se oni estas en kutimaj linuksaj sistemoj:
 
-    less /usr/share/X11/locale/en_US.UTF-8/Compose
+    less /usr/share/x11/locale/en_US.UTF-8/Compose
 
 Se je Nix oni uzas, plenumu:
 
-    less ~/.nix-profile/share/X11/locale/en_US.UTF-8/Compose
+    less ~/.nix-profile/share/x11/locale/en_US.UTF-8/Compose
 
 Male al tio, la avantaĝo de la *Mode‎ߺ‎switch*-metodo estas rapideco. Por la tutan liston de validaj
-signojn vidi [ĉi tien](http://wiki.linuxquestions.org/wiki/List_of_Keysyms_Recognised_by_Xmodmap)
+signojn vidi [ĉi tien](http://wiki.linuxquestions.org/wiki/List_of_Keysyms_Recognised_by_xmodmap)
 iru.
 
 Ne ekzistas la plej bona metodo por ĉi tiuj aferoj—kiun ajn oportunan sistemon uzu. Se la
@@ -178,4 +178,4 @@ gravas por noti, ke ambaŭ metodojn oni povas uzi samtempe.
 
 🐧—Ĝis la revido!
 
-_Dank’ al [Raymund Mᴀʀᴛɪɴᴇᴢ](https://zhaqenl.github.io) pro la korektoj._
+_Dank’ al [Raymund MARTINEZ](https://zhaqenl.github.io) pro la korektoj._

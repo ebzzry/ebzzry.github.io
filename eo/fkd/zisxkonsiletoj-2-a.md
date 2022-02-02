@@ -6,7 +6,7 @@ Ziŝaj Konsiletoj 2-a: Dosierujstakoj
 <div class="center">Laste ĝisdatigita: la 21-an de Februaro 2019</div>
 
 >Kion ni faras por ni, mortas kun ni. Kion ni faras por ili, porĉiame restas.<br>
->―Albert Pɪᴋᴇ
+>―Albert PIKE
 
 Lastfoje mi skribis pri alinomoj kaj funkcioj, kial ilin uzi pol la komandlinian sperton
 plibonigi. En ĉi tiu artikolo, mi parolos pri simplaj manieroj kiel dosierujstakojn konservi.

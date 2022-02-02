@@ -6,7 +6,7 @@ Signoj kaj Interpunkcioj
 <div class="center">Laste ĝisdatigita: la 23-an de Aŭgusto 2021</div>
 
 >Se grandiozon oni volas atingi, konsentojn ĉesu peti.<br>
->―Eddie Cᴏʟʟᴀ
+>―Eddie COLLA
 
 *[Ĉi tien](/eo/signoj-interpunkcioj-mallongigite/) alklaku por la mallongigita versio.*
 
@@ -43,7 +43,7 @@ klavo. Bedaŭrinde, ĉi tiun metodon ni ne uzas ĉar ĝi estas neekonomia. Ansta
 <kbd>Mode‎ߺ‎switch</kbd> klavon ni uzu. En ĉi tiu artikolo la <kbd>Mode‎ߺ‎switch</kbd> klavon la
 <kbd>🐧</kbd> klavo signifas.
 
-Ĝin ni devas bindi en la ĝusta agorda dosiero. La dosieron `~/.Xmodmap` malfermu, tiam jenan
+Ĝin ni devas bindi en la ĝusta agorda dosiero. La dosieron `~/.xmodmap` malfermu, tiam jenan
 kodeton enmetu:
 
 ```
@@ -71,7 +71,7 @@ keycode 21 = bracketright braceright rightdoublequotemark
 
 Tiam, la jenan komandon plenumu:
 
-    xmodmap ~/.Xmodmap
+    xmodmap ~/.xmodmap
 
 
 <a name="streketoj"></a>Streketoj (-)

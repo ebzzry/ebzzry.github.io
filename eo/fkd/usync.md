@@ -6,7 +6,7 @@ Retnodojn Sinkronigi per Usync
 <div class="center">Laste ĝisdatigita: la 9-an de Marto 2019</div>
 
 >Kion mi ne povas krei, mi ne komprenas.<br>
->―Richard P. Fᴇʏɴᴍᴀɴ
+>―Richard P. FEYNMAN
 
 Lok-al-loka sinkronigo estas kutime bezonata, kiam du lokoj, sendepende kreas dosierajn ĝisdatigojn.
 Ni diru, ke la firmao _Okininam_ havas du oficejojn. En la unua oficejo, ili havas la librotenadan
@@ -92,4 +92,4 @@ Kelkaj dosieroj kaj regulesprimoj enkonstruitas kiel eksigoj. Ili eble faras sen
 vi opinias, ke ili devas esti ŝanĝitaj, liberiĝu por sendi tirpeton. La fontoj haveblas
 [ĉi tie](https://github.com/ebzzry/usync).
 
-_Dank’ al [Raymund Mᴀʀᴛɪɴᴇᴢ](https://zhaqenl.github.io) pro la korektoj._
+_Dank’ al [Raymund MARTINEZ](https://zhaqenl.github.io) pro la korektoj._
