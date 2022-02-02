@@ -937,13 +937,7 @@ have collected over the years.
 - I think that people have never stopped believing in anything that has no germ of sense to it.<br>―Isaac Asimov
 
 
-- Such is the world.<br>―Juliano Hernández Angulo
-
-
-- Oh my god! They really did that!<br>―Charles E. Leiserson
-
-
-- The enemey of my enemy is my friend.<br>―latin proverb
+- The enemy of my enemy is my friend.<br>―Latin proverb
 
 
 - Human beings are born with different capacities. If they are free, they are not equal. And if they are equal, they are not free.<br>―Aleksandr Solzhenitsyn

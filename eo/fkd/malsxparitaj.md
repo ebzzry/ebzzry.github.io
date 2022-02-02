@@ -3,7 +3,7 @@ Malŝparitaj Malcedemoj
 
 <div class="center">Esperanto ▪ [English](/en/squandered/)</div>
 <div class="center">la 5-an de Decembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 3-an de Oktobro 2019</div>
+<div class="center">Laste ĝisdatigita: la 2-an de Oktobro 2022</div>
 
 >La unua paŝo por iri ien, estas decidi, ke oni ne restos kie oni estas.<br>
 >―J.P. Mᴏʀɢᴀɴ
@@ -28,7 +28,7 @@ kiujn elektojn por fari. Kiam ajn nekonataj teritorioj esploriĝas, preskaŭ tuj
 ŝajne kontraŭstaremaj formoj. Faras ni ĝin pro timo. Faras ni ĝin tial, ke la nekonataj ne plaĉas al
 ni. Faras ni ĝin pro niaj parencecoj kaj sindonoj de la sekureco.
 
-Plendas ni pri la sufokema manko de premio, sed tamen libervole ĉesi ni nin mem de fari eĉ colon de
+Plendas ni pri la sufokema manko de premio, sed tamen libervole sin ĉesi ni mem de fari eĉ colon de
 movado de kruro por fari la avancon al la kapto. Ni estas tiel sentimentale enamiĝas kun fervoro en
 la strebado de raciigo al niaj nepravigeblaj pravigoj, sed same petas ni raciajn raciojn. Estas eĉ
 pli ŝoke vidi, ke inside anoncas iluziojn de grandiozo kelke da ni, kun pretendoj de plene ripetaj
@@ -37,55 +37,55 @@ sensacioj.
 Niaj propraj antaŭjuĝemoj por atingi la premion, efike haltas nin al fakte atingi ĝin, subfalante al
 la senmemriproĉaj pretendoj de la aliaj pri iliaj malsukcesoj, igi nin malkleraj de la nevidata
 realaĵo. Kiam la nombro de personoj kiuj alfluas ĉirkaŭ ni, sufiĉe altas, laŭ niaj personaj
-metrikoj, malklere infuzas ni al ni tio, kiun ili prizumas al ni, kaj poste difektas ni nin kaj
+metrikoj, malklere infuzas ni al ni tio, kiun ili prizumas al ni, kaj poste sin difektas ni kaj
 sekve mortigas la esencon de nia individueco.
 
 Kiel prenkreskuloj, instruiĝas ni bridi nin ene kaĝoj, kiujn konstruis ni mem, kaj estas senkuraĝige
-por vidi ĉi tiun monstran agon disfaldiĝi antaŭ niaj mallongaj vidkampoj ĉiutage. Tiras ni nin al
+por vidi ĉi tiun monstran agon disfaldiĝi antaŭ niaj mallongaj vidkampoj ĉiutage. Sin tiras ni al
 solaj enkaĝigecoj de niaj propraj dornaj dormoj. Fariĝas ni amaj de prediki dubon al niaj uloj. Kaj
 se faras nia propra speco la samon, vidas ni sentojn de atingeco. Tio ne nur estas horora, sed ankaŭ
 antaŭvideble malsaĝa. Kiam ni estis ankoraŭ junaj, etendas la manoj al malplena spaco kaj kreas
-niajn proprajn eltrovojn. Eltrovas ni la aferojn, kiuj antaŭe ne estis instruataj al ni.
+niajn proprajn eltrovojn. Eltrovas ni la aferojn, kiuj antaŭe ne estis instruitaj al ni.
 
 Havas ni la volan malobeon pri danĝero kaj estreco—ne zorgas ni pri la gratoj kaj bataĵoj kiujn ni
 akiras, tiel longe kiel verigas ni niajn sovaĝajn kaj nesatigeblajn gustojn pri eltrovo. Kiam
-fueliĝis per sciemo, eltrovas ni jam alian regnon de eblecoj—trovas ni nin en dimensioj neniam
+fueliĝis per sciemo, eltrovas ni jam alian regnon de eblecoj—sin trovas ni en dimensioj neniam
 aŭditaj aŭ viditaj, kaj tutegale kiom da koto kaj ŝlimo sapumas ni sur niaj korpoj, ni ne
 zorgadis. Ĉio, kio gravis al ni, estis, ke havas ni amuzon en marŝi la malfinian vojaĝon de
 eltrovo. Tamen, lernis ni.
 
 Estas ironie, ke tuj kiam pensas ni, ke jam sufiĉe maljunas ni por senhelpe veturi la mondon per
-niaj trejnadaj radoj, sufokiĝas ni per mezkvalitaj celoj de pseŭdoeltrovo. Kiam la kurteno
-senvualiĝis, alfrontiĝis ni per ŝoka vido—ja perdis ni la ardon, kiu unufoje irigis nin por havi
+niaj trejnadaj radoj, sufokiĝas ni per mezkvalitaj celoj de pseŭdoeltrovo. Kiam senvualiĝis
+la kurteno, alfrontiĝis ni per ŝoka vido—ja perdis ni la ardon, kiu unufoje irigis nin por havi
 elsciadon. Timiĝis ni ekzerci la samajn teĥnikojn kaj maksimojn, kiujn unufoje havis ni kiel
-infanoj. Haltiĝis ni fari sciemajn inkviziciojn pri tio, kio okazas ekstere. Ni fariĝas bonforte
-senti pri tio, kio antaŭmetatas sur la instituciigitaj teleroj, sen la plej minimuma klopodo por
+infanoj. Haltiĝis fari ni sciemajn inkviziciojn pri tio, kio okazas ekstere. Fariĝas bonforte
+senti ni pri tio, kio antaŭmetatas sur la instituciigitaj teleroj, sen la plej minimuma klopodo por
 apogiĝi ĝis elpensi demandojn.
 
-La socio, kiu ni ĉiuj estas parto de ĝi, estas parto de la malsano. Ĉi tiu malsano estas tio, kion
-ni ja helpas vastigi, el ĝia eko. Ĉi tiu ero estas tio, kion ni ja forte prilaboradis por formi
-niajn proprajn sencojn de individueco. Ni volis antaŭiĝi, kaj jam ĉio, kion ni faras, estas simple
-miksiĝi. Kiel imponega ĉasisto fariĝas tiel obea, ke li fariĝis la kapto mem? Kial ni forĵetas niajn
-ĵetlancojn, kiam ĝi estas tiuj, kiujn ni havas, donante al ni la kapablon por kontraŭe batali?
-Niaj sentemoj fordrivis en la nigrajn profundegajn truegojn, kiujn ni ĉiuj kotizis krei.
+La socio, kiu ni ĉiuj estas parto de, estas parto de la malsano. Ĉi tiu malsano estas tio, kion ja
+helpas vastigi ni, el ĝia eko. Ĉi tiu ero estas tio, kion ja forte prilaboradis ni por formi niajn
+proprajn sencojn de individueco. Volis antaŭiĝi ni, kaj jam ĉio, kion faras ni, estas simple
+miksiĝi. Kiel fariĝas imponega ĉasisto tiel obea, ke fariĝis li la kapto mem? Kial forĵetas ni niajn
+ĵetlancojn, kiam ĝi estas tiuj, kiujn havas ni, donante al ni la kapablon por kontraŭe batali? Niaj
+sentemoj fordrivis en la nigrajn profundegajn truegojn, kiujn kotizis krei ni ĉiuj.
 
-Estas indignige al niaj ŝultroj, vidi, ke generacioj post generacioj, ni malŝpariĝas kaj kredas, ke
-eltrovoj devus ĉiam esti faritaj por ni, senŝeligitaj tiam manĝigataj al niaj buŝoj. Kio ni fariĝis
-kiel maristoj de la steloj? Ĉu ni jam rezignis la ardon por motivi nin por vidi tion, kio estas en
-la alia flanko de ĉielarko? Ĉu ni jam tro multe dresiĝas, ke ni fariĝis volontaj por esti
-enprizonigataj en bestoĝardenoj por la plezuro de la aliaj? Aŭ ĉu ni akvumis niajn sencojn de
+Estas indignige al niaj ŝultroj, vidante, ke generacioj post generacioj, malŝpariĝas kaj kredas ni,
+ke eltrovoj devus ĉiam esti faritaj por ni, senŝeligitaj tiam manĝigataj al niaj buŝoj. Kio ni
+fariĝis kiel maristoj de la steloj? Ĉu jam rezignis ni la ardon por motivi nin vidi tion, kio estas
+en la alia flanko de ĉielarko? Ĉu jam tro multe dresiĝas ni, ke fariĝis ni volontaj por esti
+enprizonigataj en bestoĝardenoj por la plezuro de la aliaj? Aŭ ĉu akvumis ni niajn sencojn de
 potenco, por igi nin elstari malpli kaj pli miksiĝi en la homamason, ege malpliigante niajn
 distingencojn kiam fore aspektata?
 
-Ŝajnas, ke nuntempe, ni malkonsentas respondi kelkajn demandojn, tamen ni revenas al la ideo, ke ni
-pridemandiĝas pri aferoj konsiderataj pli simplas ol gimnaziaj lecionoj. Estas kelkaj aferoj kiuj
-komunas al ni: ni timas vidi kiel socio eble reagas pri niaj agoj, kiel ajn malsaĝaj aŭ gravaj niaj
-agoj povas esti. Tamen, por la pli gravaj aferoj, ni prete miksiĝas tial, ke ni ne volas
-malakcepton. Plejmulto da ni feliĉas pensi kaj movi kun la grego, sen ia antaŭzorgo.
+Ŝajnas, ke nuntempe, malkonsentas respondi ni kelkajn demandojn, tamen revenas ni al la ideo, ke ni
+estas demandata pri aferoj konsiderataj pli simplas ol gimnaziaj lecionoj. Estas kelkaj aferoj kiuj
+komunas al ni: timas vidi ni kiel socio eble reagas pri niaj agoj, kiel ajn malsaĝaj aŭ gravaj niaj
+agoj povas esti. Tamen, por la pli gravaj aferoj, prete miksiĝas ni tial, ke ne volas ni
+malakcepton. Feliĉas pensi kaj movi kun la gregoplejmulto da ni, sen ia antaŭzorgo.
 
-Kiam ni propravole alfiksas al niaj kruroj la pezajn ĉenojn kaj ŝtalpilkojn, ni ne devus anticipi
-por esti kapabla kuri ĉirkaŭ la stadionon facile. Kiam ni kuraĝas esplori nekartografitajn
+Kiam propravole alfiksas ni al niaj kruroj la pezajn ĉenojn kaj ŝtalpilkojn, ne devus anticipi ni
+por esti kapabla kuri ĉirkaŭ la stadionon facile. Kiam kuraĝas esplori ni nekartografitajn
 teritoriojn, sen bedaŭroj, sen disreviĝoj, sen la neceseco por havi alian ŝipon por irigi nin
-antaŭe, ni iutempe venkos.
+antaŭe, iutempe venkos ni.
 
 _Dank’ al [Raymund Mᴀʀᴛɪɴᴇᴢ](https://zhaqenl.github.io) pro la korektoj._
