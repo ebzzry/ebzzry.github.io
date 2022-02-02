@@ -8,11 +8,11 @@ Retnodojn Sinkronigi per Usync
 >Kion mi ne povas krei, mi ne komprenas.<br>
 >―Richard P. Fᴇʏɴᴍᴀɴ
 
-Lok-al-loka sinkronigo kutime bezonatas, kiam du lokoj, sendepende kreas dosierajn ĝisdatigojn. Ni
-diru, ke la firmao _Okininam_ havas du oficejojn. En la unua oficejo, ili havas la librotenadan kaj
-loĝistikan fakojn. En la dua oficejo, ili havas la komputikan kaj homfaktoran fakojn. Ambaŭ havas
-komunan `/pub` arbon, kiu havas atribuitajn subdosierujojn al ĉiu fako. Sen sinkronigo, kiam la unua
-oficejo bezonas la informon de la dua oficejo, ili permane bezonas tiri la ĝisdatigojn. Per
+Lok-al-loka sinkronigo estas kutime bezonata, kiam du lokoj, sendepende kreas dosierajn ĝisdatigojn.
+Ni diru, ke la firmao _Okininam_ havas du oficejojn. En la unua oficejo, ili havas la librotenadan
+kaj loĝistikan fakojn. En la dua oficejo, ili havas la komputikan kaj homfaktoran fakojn. Ambaŭ
+havas komunan `/pub` arbon, kiu havas atribuitajn subdosierujojn al ĉiu fako. Sen sinkronigo, kiam
+la unua oficejo bezonas la informon de la dua oficejo, ili permane bezonas tiri la ĝisdatigojn. Per
 sinkronigo, la unua oficejo povas aliri la dosierojn el la dua oficejo, kvazaŭ la komputika kaj
 homfaktora fakoj, estis en la unua oficejo. Usync helpas atingi tion. Kreitas per
 [Scsh](https://www.scsh.net). Uzas [Unison](http://www.cis.upenn.edu/~bcpierce/unison/) kaj
