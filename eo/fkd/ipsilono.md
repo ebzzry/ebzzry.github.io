@@ -11,7 +11,7 @@ La Ipsilonkombinatoro en Ses Paŝoj
 Multe da ni estis instruitaj ke, por difini rikuran proceduron, devas uzi la rikura alvoko la nomon
 de la rikura proceduro. Tamen, ebligas la
 [ipsilonkombinatoro](https://en.wikipedia.org/wiki/Fixed-point_combinator#Y_combinator) (angla
-artikolo) onin por presti rikuron, senreferenci la nomatan identigilon.
+artikolo) onin por presti rikuron, sen referencante la nomatan identigilon.
 
 
 <a name="et">Enhavotabelo</a>
