@@ -3,23 +3,23 @@ Retnodojn Sinkronigi per Usync
 
 <div class="center">Esperanto ▪ [English](/en/usync/)</div>
 <div class="center">la 7-an de Februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 9-an de Marto 2019</div>
+<div class="center">Laste ĝisdatigita: la 2-an de Februaro 2022</div>
 
 >Kion mi ne povas krei, mi ne komprenas.<br>
 >―Richard P. FEYNMAN
 
-Lok-al-loka sinkronigo estas kutime bezonata, kiam du lokoj, sendepende kreas dosierajn ĝisdatigojn.
-Ni diru, ke la firmao _Okininam_ havas du oficejojn. En la unua oficejo, ili havas la librotenadan
-kaj loĝistikan fakojn. En la dua oficejo, ili havas la komputikan kaj homfaktoran fakojn. Ambaŭ
-havas komunan `/pub` arbon, kiu havas atribuitajn subdosierujojn al ĉiu fako. Sen sinkronigo, kiam
-la unua oficejo bezonas la informon de la dua oficejo, ili permane bezonas tiri la ĝisdatigojn. Per
-sinkronigo, la unua oficejo povas aliri la dosierojn el la dua oficejo, kvazaŭ la komputika kaj
-homfaktora fakoj, estis en la unua oficejo. Usync helpas atingi tion. Kreitas per
+Lok-al-loka sinkronigo estas kutime bezonata, kiam sendepende kreas du lokoj dosierajn ĝisdatigojn.
+Supozu ni, ke la firmao _MMM_ havas du oficejojn. En la unua oficejo, havas ili la librotenadan kaj
+loĝistikan fakojn. En la dua oficejo, havas ili la informadikan kaj homfaktoran fakojn. Havas ambaŭ
+komunan `/pub`-arbon, kiu havas atribuitajn subdosierujojn al ĉiu fako. Sen sinkronigo, kiam bezonas
+la unua oficejo la informon de la dua oficejo, permane bezonas tiri ili la ĝisdatigojn. Per
+sinkronigo, povas aliri la unua oficejo la dosierojn el la dua oficejo, kvazaŭ la informadika kaj
+homfaktora fakoj, estis en la unua oficejo. Helpas usync atingi tion. Ĝi estas kreita per
 [Scsh](https://www.scsh.net). Uzas [Unison](http://www.cis.upenn.edu/~bcpierce/unison/) kaj
 [rsync](http://rsync.samba.org/), por ambaŭ- kaj unudirekta sinkronigoj, respektive.
 
 
-<a name="et"></a>Enhavotabelo
+<a name="et">Enhavotabelo</a>
 -----------------------------
 
 - [Instalo](#instalo)
@@ -28,7 +28,7 @@ homfaktora fakoj, estis en la unua oficejo. Usync helpas atingi tion. Kreitas pe
 - [Finrimarkoj](#finrimarkoj)
 
 
-<a name="instalo"></a>Instalo
+<a name="instalo">Instalo</a>
 -----------------------------
 
 Usync povas esti instali per Nixpkgs:
@@ -43,42 +43,41 @@ Por certigi, ke usync fakte estas instalita, plenumu:
 <a name="bazuzado"></a>Baza uzado
 ---------------------------------
 
-Por fari ambaŭdirektan sinkronigon de la dosierujo `/pub/jot/ninam`, inter la aktuala retnodo al la
-retnodoj `tarupam` kaj `taubetmo`, dum konservi la dosierujan strukturon defore, plenumu la jenan
+Por fari ambaŭdirektan sinkronigon de la dosierujo `/pub/mis/dok`, inter la aktuala retnodo al la
+retnodoj `loko1` kaj `loko2`, dum konservi la dosierujan strukturon defore, plenumu la jenan
 komandon. Notu, ke ne devas ekzisti spacetoj inter la retnodaj precizigoj, pro la `IFS` media
-variablo:
+variablo de la ŝelo:
 
-    $ usync /pub/jot/ninam/ tarupam,taubetmo
+    $ usync /pub/mis/dok/ loko1,loko2
 
-La antaŭ ol komando faros ambaŭdirektan sinkronigon de la dosierujo `ninam/` troveblas sub `/pub/yot`,
-al `tarupam:/pub/yot/` kaj `taubetmo:/pub/yot/`.
+Faros la komando ambaŭdirektan sinkronigon de la dosierujo `dok/` troveblas ĉe `/pub/mis`,
+al `loko1:/pub/mis/` kaj `loko2:/pub/mis/`.
 
-Per la antaŭ ekzemplo, la ambaŭdirekto sinkronigo simple diras, ke se la arbo
-`tarupam:/pub/jot/ninam/` enhavas novajn aŭ ĝisdatigatajn erojn, kontraŭas
-`localhost:/pub/jot/ninam/` kaj `localhost:/pub/jot/ninam/` ankaŭ havas novajn aŭ ĝisdatigatajn
-erojn, tiam, ili intersanĝigas ĝisdatigojn.
+Per la antaŭa ekzemplo, la ambaŭdirekta sinkronigo simple diras, ke se la arbo `loko1:/pub/mis/dok/`
+enhavas novajn aŭ ĝisdatigatajn erojn kontraste al `localhost:/pub/mis/dok/` kaj
+`localhost:/pub/mis/ninam/` kiuj ankaŭ havas novajn aŭ ĝisdatigitajn erojn, tiam, ili intersanĝigas
+ĝisdatigojn.
 
-Ideale, la rezulto estas `localhost:/pub/jot/ninam/`, `tarupam:/pub/jot/ninam/`, kaj
-`taubetmo:/pub/jot/ninam/`, estas ĉiuj egalaj.
+Ideale, la rezulto estas ke `localhost:/pub/mis/dok/`, `loko1:/pub/mis/ninam/`, kaj
+`loko2:/pub/mis/dok/` ĉiuj egalas.
 
 
-<a name="altniveluzado"></a>Altnivela uzado
+<a name="altniveluzado">Altnivela uzado</a>
 -------------------------------------------
 
-Estas ankaŭ ebla fari sinkronigon de pluraj dosieroj kaj dosierujoj, al mallokaj retnodoj. Por
+Estas ankaŭ eble fari sinkronigon de pluraj dosieroj kaj dosierujoj, al mallokaj retnodoj. Por
 fari tiel, plenumu:
 
-    $ usync /pub/jot/ninam/ ~/file.text ~reyn/*.blend tarupam,taubetmo
+    $ usync /pub/mis/dok/ ~/file.txt ~rmm/*.txt loko1,loko2
 
-La antaŭ ol komando faros ambaŭdirektan sinkronigon de la dosierindikoj `/pub/jot/ninam/`,
-`~/file.text`, kaj `~reyn/*.blend` al la mallokaj retnodoj `tarupam` kaj `taubetmo`, laŭ la sama
-dosieruja struktura sistemo kiu priskribitas supre.
+Faros la komando ambaŭdirektan sinkronigon de la dosierindikoj `/pub/mis/dok/`, `~/file.txt`, kaj
+`~rmm/*.txt` al la mallokaj retnodoj `loko1` kaj `loko2`, laŭ la sama dosieruja struktura sistemo
+kiu estas priskribita supre.
 
-Se vi volas fari unudirektan sinkronigon de la supraj, kiel _rsync_, plenumu:
+Se volas fari oni unudirektan sinkronigon de la supraj, kiel _rsync_, plenumu:
 
-    $ usync --one-way --prefer-local /pub/jot/ninam/ \
-    ~/file.text ~reyn/draft.blend tarupam,taubetmo
-
+    $ usync --one-way --prefer-local /pub/mis/dok/ \
+    ~/file.txt ~rmm/draft.txt loko1,loko2
 
 Por vidi pli da informo, plenumu:
 
@@ -88,8 +87,8 @@ Por vidi pli da informo, plenumu:
 <a name="finrimarkoj"></a>Finrimarkoj
 -------------------------------------
 
-Kelkaj dosieroj kaj regulesprimoj enkonstruitas kiel eksigoj. Ili eble faras sencon aŭ ne. Se
-vi opinias, ke ili devas esti ŝanĝitaj, liberiĝu por sendi tirpeton. La fontoj haveblas
-[ĉi tie](https://github.com/ebzzry/usync).
+Kelkaj dosieroj kaj regulesprimoj estas enkonstruitaj kiel eksigoj. Eble ili senchavas aŭ ne. Se
+opinias oni, ke ili devas esti ŝanĝitaj, estu libere por sendi tirpeton. La fontoj haveblas [ĉi
+tie](https://github.com/ebzzry/usync).
 
 _Dank’ al [Raymund MARTINEZ](https://zhaqenl.github.io) pro la korektoj._
