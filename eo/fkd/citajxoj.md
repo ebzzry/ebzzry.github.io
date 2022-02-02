@@ -3,7 +3,7 @@ Citaĵoj
 
 <div class="center">Esperanto ▪ [English](/en/quotes/)</div>
 <div class="center">la 15-an de Novembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 28-an de Januaro, 2022</div>
+<div class="center">Laste ĝisdatigita: la 2-an de Februaro, 2022</div>
 
 <img src="/bil/wallhaven-77816-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -942,3 +942,6 @@ tra la jarojn, ĉi tiu paĝo enhavas.
 
 
 - La malamiko de mia malamiko estas mia amiko.<br>―latina proverb
+
+
+- Homoj estas naskitaj kun malsamaj kapabloj. Se ili estas liberaj, ili ne estas egalaj. Se ili estas egalaj, ili ne estas liberaj.<br>―Aleksandr Sᴏʟᴢʜᴇɴɪᴛsʏɴ
