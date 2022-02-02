@@ -8,58 +8,57 @@ Malŝparitaj Malcedemoj
 >La unua paŝo por iri ien, estas decidi, ke oni ne restos kie oni estas.<br>
 >―J.P. Mᴏʀɢᴀɴ
 
-Estas zorgiga kaj tremiga sentaĵo, kiun mi sentas kiam ajn venas la malvarma konscio, ke mi ne plu
+Estas zorgiga kaj tremiga sentaĵo, kiun sentas mi kiam ajn venas la malvarma konscio, ke mi ne plu
 estas juna infano. La maltrankvila barakto inter lerni liberigi la antaŭsignan estintecon kaj la
 kaprican estontecon, kaptas min per forta teno.
 
 Ne estas pri la neebleco por refari senpagajn elspezojn de iom liberale disponigitaj laksaj
 konfinadoj de tempo, tamen estas pri la kornaŭzaj rimarkoj, ke la pensmaniero kiun mi antaŭe
-premisis, nun estas io, kiu volus postuli atlasajn fortojn de mi por eĉ komenci venigi. Mi avidas
-pri la nemalpliiĝantaj esploremecoj, kiujn mi unufoje facile manprenis kontraste al la ĉiutagaj
+premisis, nun estas io, kiu volus postuli atlasajn fortojn de mi por eĉ komenci venigi. Avidas mi
+pri la nemalpliiĝantaj esploremecoj, kiujn unufoje facile manprenis mi kontraste al la ĉiutagaj
 interpuŝiĝoj pri la svarmoj de razioj de la vivo.
 
-Kiam ni translokiĝas preter niaj areoj de konsolo, ni pleniĝas per avideco por reveni al niaj
-propraj fortikaj bunkroj. Ni vidas niajn proprajn fantomemajn similulojn, komunikantaj kaj
+Kiam translokiĝas ni preter niaj areoj de konsolo, pleniĝas ni per avideco por reveni al niaj
+propraj fortikaj bunkroj. Vidas ni niajn proprajn fantomemajn similulojn, komunikantaj kaj
 montrantaj al ni kiaj minacantaj abomenaĵoj eble altiĝas el la tero, pretaj por vive vori nin. Ju
-pli ni restas ekster, des pli alta la probableco de morto.
+pli restas ekster ni, des pli alta la probableco de morto.
 
-Ni fariĝas kredi niajn proprajn kondamnojn; ni praviĝas per niaj propraj mallaŭnormigataj skaloj pri
-kiujn elektojn por fari. Kiam ajn nekonataj teritorioj esploriĝas, ni preskaŭ tuj vindiĝas, reen en
-ŝajne kontraŭstaremaj formoj. Ni faras ĝin pro timo. Ni faras ĝin tial, ke la nekonataj ne plaĉas al
-ni. Ni faras ĝin pro niaj parencecoj kaj sindonoj de la sekureco.
+Fariĝas ni kredi niajn proprajn kondamnojn; Praviĝas ni per niaj propraj mallaŭnormigataj skaloj pri
+kiujn elektojn por fari. Kiam ajn nekonataj teritorioj esploriĝas, preskaŭ tuj vindiĝas ni, reen en
+ŝajne kontraŭstaremaj formoj. Faras ni ĝin pro timo. Faras ni ĝin tial, ke la nekonataj ne plaĉas al
+ni. Faras ni ĝin pro niaj parencecoj kaj sindonoj de la sekureco.
 
-Ni plendas pri la sufokema manko de premio, sed tamen ni libervole ĉesi nin mem de fari eĉ colon de
+Plendas ni pri la sufokema manko de premio, sed tamen libervole ĉesi ni nin mem de fari eĉ colon de
 movado de kruro por fari la avancon al la kapto. Ni estas tiel sentimentale enamiĝas kun fervoro en
-la strebi de raciigo al niaj nepravigeblaj pravigoj, sed ni same petas raciajn raciojn. Estas eĉ pli
-ŝoke vidi, ke kelke da ni inside anoncas iluziojn de grandiozo, kun pretendoj de plene ripetaj
+la strebado de raciigo al niaj nepravigeblaj pravigoj, sed same petas ni raciajn raciojn. Estas eĉ
+pli ŝoke vidi, ke inside anoncas iluziojn de grandiozo kelke da ni, kun pretendoj de plene ripetaj
 sensacioj.
 
 Niaj propraj antaŭjuĝemoj por atingi la premion, efike haltas nin al fakte atingi ĝin, subfalante al
-la senmemriproĉaj pretendoj de aliaj pri iliaj malsukcesoj, fari nin malkleraj de la nevidata
+la senmemriproĉaj pretendoj de la aliaj pri iliaj malsukcesoj, igi nin malkleraj de la nevidata
 realaĵo. Kiam la nombro de personoj kiuj alfluas ĉirkaŭ ni, sufiĉe altas, laŭ niaj personaj
-metrikoj, ni malklere infuzas al ni tiu, kiun ili zumas al ni, kaj tiam ni difektas nin kaj sekve
-mortigas la esencon de nia individueco.
+metrikoj, malklere infuzas ni al ni tio, kiun ili prizumas al ni, kaj poste difektas ni nin kaj
+sekve mortigas la esencon de nia individueco.
 
-Kiel prenkreskuloj, ni instruiĝas bridi nin ene kaĝoj, kiujn ni mem konstruis, kaj estas
-senkuraĝigaj por vidi ĉi tiun monstran agon disfaldiĝi antaŭ niaj mallongaj vidkampoj ĉiutage. Ni
-tiras nin al solaj konfinadoj de niaj propraj dornaj dormoj. Ni fariĝas amaj de prediki dubon al
-niaj uloj. Kaj se nia propra speco faras la samon, ni vidas sentojn de atingeco. Tio ne nur estas
-horora, sed ankaŭ antaŭvideble malsaĝa. Kiam ni estis ankoraŭ maljunaj, ni atingas eksteren al
-malplena spaco kaj kreas niajn proprajn eltrovojn. Ni eltrovas la aferojn, kiuj ne antaŭ estis
-instruataj al ni.
+Kiel prenkreskuloj, instruiĝas ni bridi nin ene kaĝoj, kiujn konstruis ni mem, kaj estas senkuraĝige
+por vidi ĉi tiun monstran agon disfaldiĝi antaŭ niaj mallongaj vidkampoj ĉiutage. Tiras ni nin al
+solaj enkaĝigecoj de niaj propraj dornaj dormoj. Fariĝas ni amaj de prediki dubon al niaj uloj. Kaj
+se faras nia propra speco la samon, vidas ni sentojn de atingeco. Tio ne nur estas horora, sed ankaŭ
+antaŭvideble malsaĝa. Kiam ni estis ankoraŭ junaj, etendas la manoj al malplena spaco kaj kreas
+niajn proprajn eltrovojn. Eltrovas ni la aferojn, kiuj antaŭe ne estis instruataj al ni.
 
-Ni havas la volan malobeon pri danĝero kaj estreco; ni ne zorgas pri la gratoj kaj bataĵoj kiujn ni
-akiras, tiel longe kiel ni verigas niajn sovaĝajn kaj nesatigeblajn gustojn pri eltrovo. Kiam
-fueliĝis per sciemo, ni eltrovas jam alian regnon de eblecoj—ni trovas nin en dimensioj neniam
-aŭditaj aŭ viditaj, kaj tutegale kiom da koto kaj ŝlimo ni sapumas sur niaj korpoj, ni ne
-zorgadis. Ĉio, kio gravis al ni, estis, ke ni havas amuzon en marŝi la malfinian vojaĝon de
-eltrovo. Tamen, ni lernis.
+Havas ni la volan malobeon pri danĝero kaj estreco—ne zorgas ni pri la gratoj kaj bataĵoj kiujn ni
+akiras, tiel longe kiel verigas ni niajn sovaĝajn kaj nesatigeblajn gustojn pri eltrovo. Kiam
+fueliĝis per sciemo, eltrovas ni jam alian regnon de eblecoj—trovas ni nin en dimensioj neniam
+aŭditaj aŭ viditaj, kaj tutegale kiom da koto kaj ŝlimo sapumas ni sur niaj korpoj, ni ne
+zorgadis. Ĉio, kio gravis al ni, estis, ke havas ni amuzon en marŝi la malfinian vojaĝon de
+eltrovo. Tamen, lernis ni.
 
-Estas ironie, ke tuj kiam ni pensas, ke ni jam sufiĉe maljunas por senhelpe veturi la mondon per
-niaj trejnadaj radoj, ni sufokiĝas per mezkvalitaj celoj de pseŭdoeltrovo. Kiam la kurteno
-senvualiĝis, ni alfrontiĝis per ŝoka vido—ni ja perdis la ardon, kiu unufoje irigis nin por havi
-elsciadon. Ni timiĝis ekzerci la samajn teĥnikojn kaj maksimojn, kiujn ni unufoje havis kiel
-infanoj. Ni haltiĝis fari sciemajn inkviziciojn pri tio, kio okazas ekstere. Ni fariĝas bonforte
+Estas ironie, ke tuj kiam pensas ni, ke jam sufiĉe maljunas ni por senhelpe veturi la mondon per
+niaj trejnadaj radoj, sufokiĝas ni per mezkvalitaj celoj de pseŭdoeltrovo. Kiam la kurteno
+senvualiĝis, alfrontiĝis ni per ŝoka vido—ja perdis ni la ardon, kiu unufoje irigis nin por havi
+elsciadon. Timiĝis ni ekzerci la samajn teĥnikojn kaj maksimojn, kiujn unufoje havis ni kiel
+infanoj. Haltiĝis ni fari sciemajn inkviziciojn pri tio, kio okazas ekstere. Ni fariĝas bonforte
 senti pri tio, kio antaŭmetatas sur la instituciigitaj teleroj, sen la plej minimuma klopodo por
 apogiĝi ĝis elpensi demandojn.
 
