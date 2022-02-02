@@ -187,7 +187,7 @@ Je virtualan NIC kreu, kaj VDE-retkonektadon ŝaltu.
 
     -vga qxl
 
-La videan adaptilon por imiti precizigu. Je QxL uzu kiam je SPICE uzi.
+La videan adaptilon por imiti precizigu. Je QXL uzu kiam je SPICE uzi.
 
     -spice addr=127.0.0.1,port=9999,password=sekretŝlosilo
 

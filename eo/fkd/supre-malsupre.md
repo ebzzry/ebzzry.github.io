@@ -19,7 +19,7 @@ Elrevigas ni la probablon ke kiun ni trovas, fakte estas ja sur nia orelo. Nia k
 idealajn opciojn kiuj staras antaŭ ni estas ŝoke. Kial devas fosi ni subteran subtervojon por enigi,
 kiam ĉio kion devas fari ni, estas frapi ĉe la pordo?
 
-Estas tre alarme ke ni nepravigeble pozicias nin mem por neproteste akcepti konceptojn nur pro tio,
+Estas tre alarme ke pozicias ni nin mem nepravigeble por neproteste akcepti konceptojn nur pro tio,
 ke estis dirita al ni por asimiligi ilin. Kredas ni ilin kiel veroj sen fari la plej minimuman
 progreson por supozi, ke tio kion ĵus aŭdis vi, estas senerara. Ankaŭ estas alarme, ke por la multaj
 homoj, se ne la plimulta, ja kredas ili tion kio estis dirita al ili laŭlitere anstataŭ esti

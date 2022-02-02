@@ -77,8 +77,8 @@ Unu el miaj plej ŝatataj ŝanĝoj estas la nova loko de la <kbd>[</kbd> kaj <kb
 nova loko de <kbd>Esc</kbd> ankaŭ plaĉas al mi—min ĉi tio permesas por la eskapan klavo premi kiam
 je Vi uzi aŭ apajn invitojn fermi.
 
-La <kbd>Insert</kbd> klavon mi uzis anstataŭ <kbd>Esc</kbd> por ke je `xA_PRIMARY` zonon mi povu
-aliri facile per <kbd>Shift + Insert</kbd>. La `xA_PRIMARY`-zono estas kie la musaj markoj
+La <kbd>Insert</kbd> klavon mi uzis anstataŭ <kbd>Esc</kbd> por ke je `XA_PRIMARY` zonon mi povu
+aliri facile per <kbd>Shift + Insert</kbd>. La `XA_PRIMARY`-zono estas kie la musaj markoj
 iras. Ankaŭ plifaciliĝas por la `overwrite-mode`-reĝimon de emakso eniri kaj por novan nivelon
 aldoni en *Krita*. La <kbd>Insert</kbd> klavo, bedaŭrinde, kaŝitas en la klavo markita per `|`,
 maldekstre. La sinsekvo por ĝin aliri estas listigita al la fino de ĉi tiu afiŝo.

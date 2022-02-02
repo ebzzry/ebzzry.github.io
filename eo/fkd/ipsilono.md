@@ -164,7 +164,7 @@ Anstataŭigu oni la difinon specifa al `foo`, per `x`. Igas ĉi tio onin denove,
 <a name="difini">Paŝo 6-a: Difinu la kombinatoron</a>
 -----------------------------------------------------
 
-Fine, kreos eksplicite oni apartan proceduran difinon por la ipsilonkombinatoro mem kaj la
+Fine, kreos oni apartan proceduran difinon eksplicite por la ipsilonkombinatoro mem kaj la
 proceduro `foo`.
 
 ```scheme
