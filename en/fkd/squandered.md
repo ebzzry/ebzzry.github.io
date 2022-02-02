@@ -48,7 +48,7 @@ doubt to our fellowmen. And if our own kind does the same, we see feelings of ac
 is not only horrendous, but also unsurprisingly stupid. When we were still young, we reach out to
 empty space, and create our own discoveries. We find out about things previously untaught to us.
 
-We have the willful disregard for danger and authority; we do not care how about the scratches and
+We have the willful disregard for danger and authority—we do not care how about the scratches and
 bruises that we get, as long as we satisfy our wild and insatiable taste for discovery. When fueled
 by curiosity, we discover yet another realm of possibilities—we find ourselves immersed in
 dimensions never before heard or seen, and no matter how much dirt and mud we lather up to our
