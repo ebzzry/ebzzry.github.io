@@ -1,4 +1,4 @@
-Sekurkopiojn Krei per Ugarit
+Krei Sekurkopiojn per Ugarit
 ============================
 
 <div class="center">Esperanto ▪ [English](/en/ugarit/)</div>

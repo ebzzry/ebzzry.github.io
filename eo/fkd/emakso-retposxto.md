@@ -1,4 +1,4 @@
-Retpoŝton Agordi per Emakso
+Agordi Retpoŝton per Emakso
 ===========================
 
 <div class="center">Esperanto ▪ [English](/en/emacs-mail/)</div>
