@@ -6,7 +6,7 @@ Skimprogramadon Agordi en Emakso
 <div class="center">Laste ĝisdatigita: la 23-an de Aŭgusto 2021</div>
 
 >Ĉiom da bonaj ideoj ne kuŝas sub unu ĉapelo.<br>
->―Dale Tᴜʀɴᴇʀ
+>―Dale TURNER
 
 En ĉi tiu afiŝo, mi priparolos la plej facilan alproksimiĝon, kiun mi uzis
 agordi [skiman](https://eo.wikipedia.org/wiki/Skimo) programadan medion
@@ -133,4 +133,4 @@ tiu artikolo povas kvalifi kiel tiu. La priskribitaj metodoj supre ne
 reprezentiĝas de konsilitaj manieroj, de la komunumo, de instali kaj uzi skimon
 emakse. Do, ĝis!
 
-_Dank’ al [Raymund Mᴀʀᴛɪɴᴇᴢ](https://zhaqenl.github.io) pro la korektoj._
+_Dank’ al [Raymund MARTINEZ](https://zhaqenl.github.io) pro la korektoj._

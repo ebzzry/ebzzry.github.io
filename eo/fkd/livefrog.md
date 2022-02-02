@@ -6,7 +6,7 @@ Migri de LiveJournal al Frog
 <div class="center">Laste ĝisdatigita: la 23-an de Aŭgusto 2021</div>
 
 >Mi ne scias kien mi iras, sed mi estas sur mia vojo.<br>
->―Carl Sᴀɢᴀɴ
+>―Carl SAGAN
 
 Estas tempoj kiam oni volas havi pli da rego sur la enhavo. Estas ankaŭ tempoj kiam oni ne volas
 alian platformon por dikti tion, kion eniras aŭ eliras. Aferoj kiel cenzurado kaj politikoj, facile
@@ -132,7 +132,7 @@ dosierujo, indikata ĉe `_src/posts/`.
 -------------------------------
 
 Frog, defaŭlte, uzas [Disqus](https://disqus.com) por trakti la komentojn. Por importi komentojn al
-ĉi tiu platformo, oni devas generi XML-dosieron, kiu devas konformiĝi al la reglamentoj de Disqus
+ĉi tiu platformo, oni devas generi xML-dosieron, kiu devas konformiĝi al la reglamentoj de Disqus
 por importi komentojn.
 
 Por krei tiel dosieron, nomata kiel `comments.xml`, kun `foo.bar.com` kiel la radika retejo:

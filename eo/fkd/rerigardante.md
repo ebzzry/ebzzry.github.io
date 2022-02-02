@@ -6,7 +6,7 @@ Rerigardante
 <div class="center">Laste ĝisdatigita: la 9-an de Marto 2019</div>
 
 >El la militolernejo de la vivo: kion ne detruas min, igas min pli forte.<br>
->―Friedrich Nɪᴇᴛᴢsᴄʜᴇ
+>―Friedrich NIETZsCHE
 
 Mi ne tute aprezis tion, kion tiuj vortoj signifis antaŭ nun. Mi lernis, ke krom la sperto,
 estas alia grava afero, kiun la vivo instruas nin—travivado. Kiam ni estas en la rando de
@@ -66,4 +66,4 @@ iri rekte al mi, ĉar mi faros ilin sperti mil mortojn. Ĉiufoje mi falas, mi st
 daŭri la batalon. Mi ege frapos pli ol la lasta frapo, tiel longe kiel sango kuras tra mia korpo,
 tiel longe kiel mi sentas la palpeblan aeron de mia spiro.
 
-_Dank’ al [Raymund Mᴀʀᴛɪɴᴇᴢ](https://zhaqenl.github.io) pro la korektoj._
+_Dank’ al [Raymund MARTINEZ](https://zhaqenl.github.io) pro la korektoj._

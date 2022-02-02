@@ -6,7 +6,7 @@ Milda Enkonduko al Sofismoj
 <div class="center">Laste ĝisdatigita: la 31-an de Aŭgusto 2021</div>
 
 >Lerni ne necesas; nek travivas.<br>
->―W. Edwards Dᴇᴍɪɴɢ
+>―W. Edwards DEMING
 
 <img src="/bil/wallhaven-73145-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-333472" title="wallhaven-333472"/>
 
@@ -566,4 +566,4 @@ malvalidigas. Ĉi tio rilatas al apelo al devenoj.
 
 Mi esperas, ke per ĉi tiu afiŝo, plian pensadan klarecon mi povis doni.
 
-_Dank’ al [Raymund Mᴀʀᴛɪɴᴇᴢ](https://zhaqenl.github.io) pro la korektoj._
+_Dank’ al [Raymund MARTINEZ](https://zhaqenl.github.io) pro la korektoj._

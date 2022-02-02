@@ -5,8 +5,8 @@ La Ipsilonkombinatoro en Ses Paŝoj
 <div class="center">la 25-an de Novembro 2017</div>
 <div class="center">Laste ĝisdatigita: la 1-an de Februaro 2022</div>
 
->Unue, decidu. Kaj faru ĝin. Estas la nur maniero por atingi ion.<br>
->―Lacus Cʟʏɴᴇ, Gundam SEED Destiny
+>Unue, decidu. Kaj faru ĝin. Estas la nura maniero por atingi ion.<br>
+>―Lacus CLYNE, Gundam SEED Destiny
 
 Multe da ni estis instruitaj ke, por difini rikuran proceduron, devas uzi la rikura alvoko la nomon
 de la rikura proceduro. Tamen, ebligas la
@@ -193,4 +193,4 @@ Kiam la kernaj konceptoj estas komprenataj, estos facile por kapti la ŝajne mal
 konceptojn. Esperas mi, ke ĉi tiu artikolo estas utila por igi onin kompreni la ipsilonan
 kombinatoron, funkcivokarigadon, kaj proceduran aplikon.
 
-_Dank’ al [Raymund Mᴀʀᴛɪɴᴇᴢ](https://zhaqenl.github.io) pro la korektoj._
+_Dank’ al [Raymund MARTINEZ](https://zhaqenl.github.io) pro la korektoj._

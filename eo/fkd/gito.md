@@ -7,7 +7,7 @@ Kiel Giton Mi Uzas
 
 >Male, tiuj kun senĉeseco povas malatenti kiujn aliaj pensas. Ion ajn ili povas
 >fari en ilia propra mondo senzorgeme al la opinioj de tiuj ĉirkaŭ ili.<br>
->―Daigo Uᴍᴇʜᴀʀᴀ
+>―Daigo UMEHARA
 
 <a name="et">Enhavotabelo</a>
 -----------------------------

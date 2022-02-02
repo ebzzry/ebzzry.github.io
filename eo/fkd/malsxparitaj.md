@@ -6,7 +6,7 @@ Malŝparitaj Malcedemoj
 <div class="center">Laste ĝisdatigita: la 2-an de Februaro 2022</div>
 
 >La unua paŝo por iri ien, estas decidi, ke oni ne restos kie oni estas.<br>
->―J.P. Mᴏʀɢᴀɴ
+>―J.P. MORGAN
 
 Estas zorgiga kaj tremiga sensacio, kiun sentas mi kiam ajn venas la malvarma konscio, ke mi ne plu
 estas juna infano. La maltrankvila barakto inter lerni liberigi la antaŭsignan estintecon kaj la
@@ -88,4 +88,4 @@ esti kapabla kuri ĉirkaŭ la stadion facile. Kiam kuraĝas esplori ni nekartogr
 sen bedaŭroj, sen disreviĝoj, sen la neceseco por havi alian ŝipon por irigi nin antaŭe, iutempe
 venkos ni.
 
-_Dank’ al [Raymund Mᴀʀᴛɪɴᴇᴢ](https://zhaqenl.github.io) pro la korektoj._
+_Dank’ al [Raymund MARTINEZ](https://zhaqenl.github.io) pro la korektoj._

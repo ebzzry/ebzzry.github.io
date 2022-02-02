@@ -6,7 +6,7 @@ Verbotempoj en La Angla
 <div class="center">Laste ĝisdatigita: la 1-an de Decembro 2019</div>
 
 >La kontrasto inter ordinara kaj eksterordinara estas tiu eta pliaĵo.<br>
->―Jimmy Jᴏʜɴsᴏɴ
+>―Jimmy JOHNsON
 
 *[Ĉi tien](/eo/verbotempoj-la-angla-mallongigite/) klaku por la mallongigita versio.*
 
