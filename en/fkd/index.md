@@ -5,7 +5,7 @@ The Musings of an Optimist
 <div class="center">August 15, 2015</div>
 <div class="center">Last updated: October 10, 2021</div>
 
-<img src="/bil/pluvis-1008x250.jpg" class="banner" alt="pluvis" title="In the face of the cosmos, we all are children forever." />
+<img src="/bil/pluvis-1008x250.jpg" class="banner" alt="pluvis" title="On the face of the cosmos, we all are children forever." />
 
 <div class="text-right">A journal about computing, human predilections, and random krakaboom. The
 entries are sorted in reverse chronological order.</div>

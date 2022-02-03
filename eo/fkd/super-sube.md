@@ -1,5 +1,5 @@
-Supre, Malsupre, kaj Aliloke
-============================
+Super, Sube, kaj Aliloke
+========================
 
 <div class="center">Esperanto ▪ [English](/en/over-under/)</div>
 <div class="center">la 2-an de Decembro 2017</div>

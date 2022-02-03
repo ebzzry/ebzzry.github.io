@@ -5,7 +5,7 @@ La Pensoj de Optimisto
 <div class="center">la 27-an de Aprilo 2017</div>
 <div class="center">Laste ĝisdatigita: la 2-an de Februaro 2022</div>
 
-<img src="/bil/pluvis-1008x250.jpg" class="banner" alt="pluvis" title="En la vizaĝo de la kosmo, ni ĉiuj estas porĉiame infanoj." />
+<img src="/bil/pluvis-1008x250.jpg" class="banner" alt="pluvis" title="Sur la vizaĝo de la kosmo, ni ĉiuj estas porĉiame infanoj." />
 
 <div class="text-right">Retejo pri komputado, hominklinaĵoj, kaj hazardaĵoj. La
 enskriboj estas ordigitaj laŭ inverskronologiordo.</div>
@@ -43,9 +43,9 @@ enskriboj estas ordigitaj laŭ inverskronologiordo.</div>
 - [Agordi Skimprogramadon en Emakso](emakso-skimo/)
 - [Mastrumi Dosierujojn en Emakso](emakso-dired/)
 - [Emaksaj Konsiletoj 1-a: Regionoj kaj Markoj](emakskonsiletoj-1-a/)
-- [Rerigardante](rerigardante/)
+- [Retrospektive](retrospektive/)
 - [Migri de LiveJournal al Frog](livefrog/)
 - [Sinkronigi Retnodojn per Usync](usync/)
 - [Malŝparitaj Malcedemoj](malsxparitaj/)
-- [Supre, Malsupre, kaj Aliloke](supre-malsupre/)
-- [La Ipsilonkombinatoro en Ses Paŝoj](ipsilono/)
+- [Super, Sube, kaj Aliloke](super-sube/)
+- [La Ipsilonkombinatoro per Ses Paŝoj](ipsilono/)
