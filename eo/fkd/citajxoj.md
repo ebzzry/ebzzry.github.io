@@ -624,7 +624,7 @@ tra la jarojn, ĉi tiu paĝo enhavas.
   PALIHAPITIYA
 
 
-- Se ion oni ŝatas, sin mem oni instruos. Se ion oni malŝatas, onin la aliaj
+- Se ŝatas oni ion, sin mem instruos oni. Se ion oni malŝatas, onin la aliaj
   instruos.<br>―Yukitaka YAMAGUCHI
 
 

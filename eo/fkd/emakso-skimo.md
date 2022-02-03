@@ -3,7 +3,7 @@ Agordi Skimprogramadon en Emakso
 
 <div class="center">Esperanto ▪ [English](/en/emacs-scheme/)</div>
 <div class="center">la 13-an de Februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 23-an de Aŭgusto 2021</div>
+<div class="center">Laste ĝisdatigita: la 3-an de Februaro 2022</div>
 
 >Ĉiom da bonaj ideoj ne kuŝas sub unu ĉapelo.<br>
 >―Dale TURNER
@@ -49,8 +49,8 @@ komandon
 
     M-x package-install EN geiser EN
 
-Tiam post malmultajn sekundojn, vi havos je Geiser, instalita en via emaksa
-profilo. Sekve, vi metos en la efektivan kodon, kiu envokas kaj agordas je
+Tiam post malmultajn sekundojn, oni havos je Geiser, instalita en via emaksa
+profilo. Sekve, oni metos en la efektivan kodon, kiu envokas kaj agordas je
 Geiser:
 
 ```lisp
@@ -71,9 +71,9 @@ realigoj, se trovas ilin. La lastesprimo malnepras—ebligas onin por plenumi
 en la legada-taksada-presada iteracio (LTPI, angle
 [REPL](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop)), por
 devigi la konservadon de la historio al la diskdosiero, kiu troveblas en
-`~/.geiser_history.mit` defaŭlte. Estas utila se vi tuj volas konservi vian
+`~/.geiser_history.mit` defaŭlte. Utila se oni tuj volas konservi vian
 LTPI-historion. Ne ekzistas pli teruran aferon ol perdi TIUN esprimon. Por ĉiuj
-de la emaksaj kodoj supraj, por efektiviĝi, vi nun povas taksi ilin per la
+de la emaksaj kodoj supraj, por efektiviĝi, oni nun povas taksi ilin per la
 membroj de la EVAL-trupo—`eval-defun`, `eval-last-sexp`, `eval-region`—aŭ, vi
 ankoraŭ elektas naski novan emaksan procezon.
 
@@ -81,13 +81,13 @@ ankoraŭ elektas naski novan emaksan procezon.
 <a name="uzado"></a>Uzado
 -------------------------
 
-Por rikolti tiujn, kiujn vi semis, kreu aŭ malfermu `.scm`-dosieron, kun malpleje ĝusta modula
+Por rikolti tiujn, kiujn oni semis, kreu aŭ malfermu `.scm`-dosieron, kun malpleje ĝusta modula
 deklaro. Tiam, premu:
 
     M-x run-geiser EN
 
-Kaj, hura! Aperas nova emaksa fenestro, enhavi la `* MIT REPL *`-bufron. Kio ajn vi povas fari
-per la LTPI-envokito per la vanila komandlinia `mit-scheme`, vi ankaŭ povas fari tiujn, per ĉi tiu, kaj
+Kaj, hura! Aperas nova emaksa fenestro, enhavi la `* MIT REPL *`-bufron. Kio ajn oni povas fari
+per la LTPI-envokito per la vanila komandlinia `mit-scheme`, oni ankaŭ povas fari tiujn, per ĉi tiu, kaj
 pli. Ĉi tiu ĉefreĝimo fakte estas la Comint-reĝimo sub la kovrilo, kun kroĉiloj al skima
 procezo. Por tiuj de vi, kiuj estas malkutimaj pri la Comint-reĝimo, estas la sama reĝimo kiu
 traktas `M-x shell EN`.

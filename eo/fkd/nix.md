@@ -914,7 +914,7 @@ pruviloj.
 Pakojn plejparto de popularaj operaciumoj traktas bone, ĝis ili ne plu. Tiel longe kiel oni movas en
 rektan linion, sole, oni sekuras. Aferoj ŝanĝiĝas, kiam aliaj homoj enkondukiĝas en la marŝo. Por ke
 la tutgrupo movu en unisono, ĉiuj devas esti konektita al unu la alia. Se ano decidas forvojaĝi, kaj
-sole marŝi, la tutgrupo kripliĝos. Tamen, se sin tiu ano decidas kloni por ke la forvojaĝado fariĝu
+sole marŝi, la tutgrupo kripliĝos. Tamen, se ĝin tiu ano decidas kloni por ke la forvojaĝado fariĝu
 sendependa, la originala marŝada grupo fariĝas nemodifita.
 
 La kazon de distribuo celita kiel pluruzanta produkta disvolva medio ni traktu. Kiam fajrfokson

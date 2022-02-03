@@ -1,9 +1,9 @@
-La Ipsilonkombinatoro en Ses Paŝoj
-==================================
+La Ipsilonkombinatoro per Ses Paŝoj
+===================================
 
 <div class="center">Esperanto ▪ [English](/en/y/)</div>
 <div class="center">la 25-an de Novembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 1-an de Februaro 2022</div>
+<div class="center">Laste ĝisdatigita: la 3-an de Februaro 2022</div>
 
 >Unue, decidu. Kaj faru ĝin. Estas la nura maniero por atingi ion.<br>
 >―Lacus CLYNE, Gundam SEED Destiny
@@ -43,7 +43,7 @@ realigo.
 -------------------------------------------------------
 
 Komencu ni per difini proceduron nomata `foo` kiu komputas la sumadon de pozitiva entjero, malsupren
-al nulo. En la sekvanta kodaĵo, okazas la rikura alvoko kiam `foo` estas aplikata en la `else`-a
+al nulo. En la sekvanta kodaĵo, okazas la rikura alvoko kiam `foo` aplikiĝas en la `else`-a
 parto de la kondiĉo.
 
 ```scheme

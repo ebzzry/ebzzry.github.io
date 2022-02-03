@@ -49,7 +49,7 @@ Per APT:
 
     $ sudo apt-get install -y racket
 
-Sekve, instalu ni je livefrog, kiu estas havebla per [Planet2](https://pkg.racket-lang.org).
+Sekve, instalu ni je livefrog, kiu haveblas per [Planet2](https://pkg.racket-lang.org).
 
     $ raco pkg install livefrog
 
