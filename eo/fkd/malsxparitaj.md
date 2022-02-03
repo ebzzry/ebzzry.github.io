@@ -28,7 +28,7 @@ kiujn elektojn por fari. Kiam ajn nekonataj teritorioj esploriĝas, preskaŭ tuj
 ŝajne kontraŭstaremaj formoj. Faras ni ĝin pro timo. Faras ni ĝin tial, ke ne plaĉas al ni la
 nekonataj . Faras ni ĝin pro niaj parencecoj kaj sindonoj de la sekureco.
 
-Plendas ni pri la sufokema manko de premio, sed tamen sin ĉesi ni mem libervole per fari eĉ colon de
+Plendas ni pri la sufokema manko de premio, sed tamen ĉesi ni nin mem libervole per fari eĉ colon de
 movo de kruro por fari la avancon al la kapto. Ni estas tiel sentimentale enamiĝas kun fervoro en
 la strebado de raciigo al niaj nepravigeblaj pravigoj, sed same petas ni raciajn raciojn. Estas eĉ
 pli ŝoke vidi, ke inside anoncas iluziojn de grandiozo kelke da ni, kun pretendoj de plene ripetaj
@@ -37,11 +37,11 @@ sensacioj.
 Niaj propraj antaŭjuĝemoj por atingi la premion, efike haltas nin al fakte atingi ĝin, subfalante al
 la senmemriproĉaj pretendoj de la aliaj pri iliaj malsukcesoj, igi nin malkleraj de la nevidata
 realaĵo. Kiam sufiĉe altas laŭ niaj personaj metrikoj la nombro de personoj kiuj alfluas ĉirkaŭ ni,
-malklere infuzas ni al ni tio, kion ili prizumas al ni, kaj poste sin difektas ni kaj sekve mortigas
+malklere infuzas ni al ni tio, kion ili prizumas al ni, kaj poste difektas ni nin kaj sekve mortigas
 la esencon de nia individueco.
 
 Kiel prenkreskuloj, instruiĝas bridi ni nin ene kaĝoj, kiujn konstruis ni mem, kaj estas senkuraĝige
-por vidi ĉi tiun monstran agon disfaldiĝi antaŭ niaj mallongaj vidkampoj ĉiutage. Sin tiras ni al
+por vidi ĉi tiun monstran agon disfaldiĝi antaŭ niaj mallongaj vidkampoj ĉiutage. Tiras ni nin al
 solaj enkaĝigecoj de niaj propraj dornaj dormoj. Fariĝas ni amaj de prediki dubon al niaj uloj. Kaj
 se faras nia propra speco la samon, vidas ni sentojn de atingeco. Tio ne nur estas horora, sed ankaŭ
 antaŭvideble malsaĝa. Kiam ni estis ankoraŭ junaj, etendas la manoj al malplena spaco kaj kreas
@@ -49,7 +49,7 @@ niajn proprajn eltrovojn. Eltrovas ni la aferojn, kiuj antaŭe ne estis instruit
 
 Havas ni la volan malobeon pri danĝero kaj estreco—ne zorgas ni pri la gratoj kaj bataĵoj kiujn ni
 akiras, tiel longe kiel verigas ni niajn sovaĝajn kaj nesatigeblajn gustojn pri eltrovo. Kiam
-fueliĝis per sciemo, eltrovas ni jam alian regnon de eblecoj—sin trovas ni en dimensioj neniam
+fueliĝis per sciemo, eltrovas ni jam alian regnon de eblecoj—troveblas ni en dimensioj neniam
 aŭditaj aŭ viditaj, kaj tutegale kiom da koto kaj ŝlimo sapumas ni sur niaj korpoj, ni ne
 zorgadis. Ĉio, kio gravis al ni, estis, ke havas ni amuzon en marŝi la malfinian vojaĝon de
 eltrovo. Tamen, lernis ni.
