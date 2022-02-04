@@ -5,8 +5,8 @@ In Retrospect
 <div class="center">July 11, 2013</div>
 <div class="center">Last updated: October 10, 2021</div>
 
->Out of life's school of war: what does not destroy me, makes me stronger.<br>
->―Friedrich Nietzsche
+>Difficulty is what wakes up the genius.<br>
+>―Nassim Nicholas Taleb
 
 I haven’t fully appreciated what those words meant, prior to now. I have learned that aside from
 experience, there is another important aspect, that life teaches us—survival. When we are at the
