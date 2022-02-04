@@ -3,3 +3,5 @@
 *.test
 TODO.md
 *.b
+/eo/index
+/en/index
