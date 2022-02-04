@@ -41,7 +41,7 @@ enskriboj estas ordigitaj laŭ inverskronologiordo.</div>
 - [Blogi per Frog](frog/)
 - [Agordi Retpoŝton per Emakso](emakso-retposxto/)
 - [Agordi Skimprogramadon en Emakso](emakso-skimo/)
-- [Mastrumi Dosierujojn en Emakso](emakso-dired/)
+- [Manipuli Dosierujojn en Emakso](emakso-dired/)
 - [Emaksaj Konsiletoj 1-a: Regionoj kaj Markoj](emakskonsiletoj-1-a/)
 - [Retrospektive](retrospektive/)
 - [Migri de LiveJournal al Frog](livefrog/)

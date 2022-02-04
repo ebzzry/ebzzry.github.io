@@ -1,20 +1,20 @@
-Mastrumi Dosierujojn en Emakso
+Manipuli Dosierujojn en Emakso
 ==============================
 
 <div class="center">Esperanto ▪ [English](/en/emacs-dired/)</div>
 <div class="center">la 12-an de Februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 24-an de Aŭguto 2021</div>
+<div class="center">Laste ĝisdatigita: la 4-an de Februaro 2022</div>
 
 >Supozi bonas, tamen eltrovi pli bonas.<br>
->―Samuel CLEMENs
+>―Samuel CLEMENS
 
-En ĉi tiu afiŝo, mi fokusas sur unu el la plej lertaj manieroj, kiel Emakso traktas dosierujan
-administradon. La dosierujrekdatilo _Dired_ (angle prononcata *dir-ed*), estas la Emaksa
-egalvaloro de dosieradministrilo. Kio ajn oni povas fari al regulaj bufroj, oni ankaŭ povas fari ĝin
+En ĉi tiu afiŝo, fokusas mi pri unu el la plej lertaj manieroj kiel traktas emakso dosierujan
+administradon. La dosierujrekdatilo _Dired_ (angle prononcata *dir-ed*), estas la emaksa
+ekvivalento de dosieradministrilo. Kio ajn povas fari oni al regulaj bufroj, ankaŭ povas fari oni ĝin
 al Dired-bufroj.
 
 
-<a name="et"></a>Enhavotabelo
+<a name="et">Enhavotabelo</a>
 -----------------------------
 
 - [Superrigardo](#superrigardo)
@@ -25,17 +25,16 @@ al Dired-bufroj.
 - [Finrimarkoj](#finrimarkoj)
 
 
-<a name="superrigardo"></a>Superrigardo
+<a name="superrigardo">Superrigardo</a>
 ---------------------------------------
 
-Por je Dired plenumi, plenumu Emakson sur la komandlinio, disponigi dosierujon, kiel la argumento:
+Por plenumi Dired plenumi, plenumu emakson ĉe la komandlinio, disponigi dosierujon kiel la argumento:
 
     $ emacs ~/Desktop
 
-Aŭ alterne, oni povas premi <kbd>C-x d</kbd> ene Emakso. Se oni nune redaktas dosieron, la
-dosierujo de tiu dosiero estos prezentita kiel la defaŭlta valoro en la etbufra areo. Ambaŭmaniere,
-kiam oni premas <kbd>Enter</kbd>, bufro de la dosierujo aperos, kiu aspektas kiel la eligo de
-`ls -l`:
+Aŭ alterne, povas oni premi <kbd>C-x d</kbd> ene emakso. Se nune redaktas oni dosieron, la dosierujo
+de tiu dosiero estos prezentita kiel la implicita valoro en la etbufra areo. Ambaŭmaniere, kiam
+premas oni <kbd>Enter</kbd>, aperos bufro de la dosierujo, kiu aspektas kiel la eligo de `ls -l`:
 
 ```
 /home/vakelo/Desktop/foo:
@@ -45,18 +44,18 @@ drwxr-xr-x 3 vakelo users 4096 Sep 26 17:42 bildoj
 drwxr-xr-x 3 vakelo users 4096 Sep 26 05:39 filmoj
 ```
 
-Bone, nun, ke oni havas ĝin, kion oni povas fari per ĝi? Nu, la jeno estas mallonga listo de tiuj,
-kiujn oni bezonas fari per gi. Notu, ke la fulmoklavoj en ĉi tiu artikolo usklecodistingas, krom se
+Bone. Nun, ke havas oni ĝin, kion povas fari oni per ĝi? Nu, la jeno estas mallonga listo de tiuj,
+kiujn bezonas fari oni per gi. Notu, ke usklecodistingas la fulmoklavoj en ĉi tiu artikolo, krom se
 eksplicite esprimis alie.
 
 
 <a name="komunaj"></a>Komunaj komandoj
 --------------------------------------
 
-Jen la kutimaj komandoj kiujn oni uzus, en Dired-bufro. Kaj cetere, ili povas funkcii sur unuobla
-aŭ pluraj eroj. Uzi ilin por pluraj eroj estos klarigitaj sekve.
+Jen la kutimaj komandoj kiujn uzus oni, en Dired-bufro. Kaj cetere, povas funkcii ili al unuobla
+aŭ pluraj eroj. Uzi ilin al pluraj eroj estos klarigitaj sekve.
 
-| Klavo                         | Kion ĝi faras                  |
+| Klavo                         | Kion faras ĝi                  |
 | :---------------------------- | :----------------------------- |
 | <kbd>R</kbd>                  | Renomu eron                    |
 | <kbd>C</kbd>                  | Kopiu eron                     |
@@ -69,13 +68,13 @@ aŭ pluraj eroj. Uzi ilin por pluraj eroj estos klarigitaj sekve.
 | <kbd>!</kbd> aŭ <kbd>x</kbd>  | Plenumu ŝelan komandon al ero  |
 
 
-<a name="markaj"></a>Markaj komandoj
+<a name="markaj">Markaj komandoj</a>
 ------------------------------------
 
-La jenaj komandoj faras operaciojn kiuj rilatas al markoj. Krei markojn simple signifas, meti etikodon
-sur eroj, por ke oni povu presti la operaciojn en la antaŭa sekcio, sur ili:
+Faras la jenaj komandoj operaciojn kiuj rilatas al markoj. Krei markojn simple signifas, meti etikodon
+sur eroj, por ke povu presti oni la operaciojn en la antaŭa sekcio, sur ili:
 
-| Klavo        | Kion ĝi faras                                        |
+| Klavo        | Kion faras ĝi                                        |
 | :----------- | :--------------------------------------------------- |
 | <kbd>m</kbd> | Marku eron                                           |
 | <kbd>d</kbd> | Marku eron por forviŝi                               |
@@ -86,13 +85,13 @@ sur eroj, por ke oni povu presti la operaciojn en la antaŭa sekcio, sur ili:
 | <kbd>c</kbd> | Densigu erojn                                        |
 
 
-<a name="aliaj"></a>Aliaj komandoj
+<a name="aliaj">Aliaj komandoj</a>
 ----------------------------------
 
-La jenaj komandoj agas laŭ ili mem. Ili operacias sur solaj eroj kaj ili ne uzas markojn. La
-<kbd>w</kbd> komando, tamen, estas escepto.
+Agas la jenaj komandoj laŭ ili mem. Operacias ili sur solaj eroj kaj ne uzas ili markojn. La komando
+<kbd>w</kbd>, tamen, estas escepto.
 
-| Klavo                        | Kion ĝi faras                                |
+| Klavo                        | Kion faras ĝi                                |
 | :--------------------------- | :------------------------------------------- |
 | <kbd>+</kbd>                 | Kreu dosierujon                              |
 | <kbd>&#94;</kbd>             | Iru supren, per unu nivelo, kiel `cd ..`     |
@@ -105,25 +104,25 @@ La jenaj komandoj agas laŭ ili mem. Ili operacias sur solaj eroj kaj ili ne uza
 | <kbd>w</kbd>                 | Kopiu eron al tondejo                        |
 
 
-<a name="wdired"></a>WDired-reĝimo
+<a name="wdired">WDired-reĝimo</a>
 ------------------------------------
 
-Tamen, unu el la plej mojosa, kaj ofte malatentita funkcio de Dired estas la _WDired_-reĝimo. Tio,
-kion ĝi faras, estas, ĝi donas al oni potenca kapablo por redakti la nomojn de eroj ene Dired-bufro,
-similas al tio, kion oni faras al kutima bufro. Por eniri la WDired-reĝimo, premu:
+Tamen, unu el la plej mojosaj kaj ofte malatentitaj funkcioj de Dired estas la _WDired_-reĝimo. Tio,
+kion faras ĝi, estas ke, donas ĝi al oni potenca kapablo por redakti la nomojn de eroj ene Dired-bufro,
+similas al tio, kion faras oni al kutima bufro. Por eniri al WDired-reĝimo, premu:
 
     M-x wdired-change-to-wdired-mode EN
 
-La ĉefreĝimo ŝanĝiĝas de `Dired` al `Editable Dired`. Oni nun povas renomi la dosierojn kaj
-dosierujon facile. Oni eĉ povas uzi ortangulajn kaj anstataŭigajn funkciojn sur ili, por fari
-aferojn pli facile. La ŝanĝoj, kiujn oni faris, en ĉi tiu punkto ne ankoraŭ konservitas. Por
+Ŝanĝiĝas la ĉefreĝimo de `Dired` al `Editable Dired`. Nun povas oni renomi la dosierojn kaj
+dosierujon facile. Eĉ povas uzi oni ortangulajn kaj anstataŭigajn funkciojn sur ili, por fari
+aferojn pli facile. La ŝanĝoj, kiujn faris oni, en ĉi tiu punkto, ne ankoraŭ konserviĝis. Por
 konservi la ŝanĝojn, premu <kbd>C-c C-c</kbd>.
 
 
-<a name="finrimarkoj"></a>Finrimarkoj
+<a name="finrimarkoj">Finrimarkoj</a>
 -------------------------------------
 
-Ni tuŝis nur la pinton de la glacimonto. Liberiĝu por esplori. Por vidi pli da informo, vizitu la
+Tuŝis ni nur la pinton de la glacimonto. Liberiĝu esplori. Por vidi pli da informo, vizitu la
 Dired-manlibron [ĉi tie](https://www.gnu.org/software/emacs/manual/html_node/emacs/Dired.html).
 
 _Dank’ al [Raymund MARTINEZ](https://zhaqenl.github.io) pro la korektoj._

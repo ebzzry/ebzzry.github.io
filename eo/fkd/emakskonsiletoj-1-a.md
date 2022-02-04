@@ -27,7 +27,7 @@ aferojn, kiujn malkovris fari mi la uzadon de emakso pli agrabla persone.
 <a name="regionoj">Regionoj</a>
 -------------------------------
 
-La jena komando forviŝas regionon se unu aktivas aŭ forviŝas la signon sub la kursoro.
+Forviŝas la jena komando regionon se unu aktivas aŭ forviŝas la signon sub la kursoro.
 
 ```lisp
 (defun delete-char-or-region (&optional arg)
