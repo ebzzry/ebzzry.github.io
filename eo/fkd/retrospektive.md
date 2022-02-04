@@ -5,8 +5,8 @@ Retrospektive
 <div class="center">la 8-an de Februaro 2018</div>
 <div class="center">Laste ĝisdatigita: la 3-an de Februaro 2022</div>
 
->El la militolernejo de la vivo: kion ne detruas min, igas min pli forte.<br>
->―Friedrich NIETZSCHE
+>Malfacileco estas tio, kio vekas la geniulon.<br>
+>―Nassim Nicholas TALEB
 
 Ne tute aprezis mi kion tiuj vortoj signifis antaŭ nun. Lernis mi, ke krom la sperto, estas
 alia grava afero, kiun instruas la vivo al ni—travivado. Kiam ni estas en la rando de disfalo,

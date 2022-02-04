@@ -3,7 +3,7 @@ Quotes
 
 <div class="center">[Esperanto](/eo/citajxoj/) ▪ English</div>
 <div class="center">August 29, 2015</div>
-<div class="center">Last updated: February 2, 2022</div>
+<div class="center">Last updated: February 4, 2022</div>
 
 <img src="/bil/wallhaven-77816-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -507,8 +507,7 @@ have collected over the years.
   Blade Runner (1982)
 
 
-- If you see fraud and do not say fraud, you are a fraud.<br>―Nassim Nicholas
-  Taleb
+- If you see fraud and do not say fraud, you are a fraud.<br>―Nassim Nicholas Taleb
 
 
 - Content is king.<br>―Bill Gates
@@ -554,8 +553,7 @@ have collected over the years.
   appears.<br>―Susan Sontag
 
 
-- Out of life's school of war: What does not destroy me, makes me
-  stronger.<br>―Friedrich Nietzsche
+- Difficulty is what wakes up the genius.<br>―Nassim Nicholas Taleb
 
 
 - The three most important days of your life are the day you were born, the day
@@ -854,10 +852,6 @@ have collected over the years.
 
 
 - The ignorance of one voter in a democracy impairs the security of all.<br>―John F. Kennedy
-
-
-- Behold the superfluous! They are always sick; they vomit their gall and call it a newspaper. They
-  devour each other and cannot even digest themselves.<br>―Friedrich Nietzsche
 
 
 - Schools are intended to produce, through the application of formulas, formulaic human beings whose

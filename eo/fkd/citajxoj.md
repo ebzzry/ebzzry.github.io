@@ -3,7 +3,7 @@ Citaĵoj
 
 <div class="center">Esperanto ▪ [English](/en/quotes/)</div>
 <div class="center">la 15-an de Novembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 2-an de Februaro, 2022</div>
+<div class="center">Laste ĝisdatigita: la 4-an de Februaro, 2022</div>
 
 <img src="/bil/wallhaven-77816-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -82,7 +82,7 @@ tra la jarojn, ĉi tiu paĝo enhavas.
 
 
 - Ne malkonstruu barilon ĝis oni scias kial ĝi estis
-  konstruita.<br>―G.K. CHE~TERTON
+  konstruita.<br>―G.K. CHESTERTON
 
 
 - Neniam atribuu al la malico kiun la malkompetenteco klarigos.<br>―Robert
@@ -503,8 +503,7 @@ tra la jarojn, ĉi tiu paĝo enhavas.
   Blade Runner (1982)
 
 
-- Se oni vidas trompon kaj ne diras trompon, oni estas trompo.<br>―Nassim
-  Nicholas TALEB
+- Se oni vidas trompon kaj ne diras trompon, oni estas trompo.<br>―Nassim Nicholas TALEB
 
 
 - La enhavo estas la reĝo.<br>―Bill GATES
@@ -550,8 +549,7 @@ tra la jarojn, ĉi tiu paĝo enhavas.
   SONTAG
 
 
-- El la militolernejo de la vivo: kion ne detruas min, igas min pli
-  fortexo.<br>―Friedrich NIETZSCHE
+- Malfacileco estas tio, kio vekas la geniulon.<br>―Nassim Nicholas TALEB
 
 
 - La tri plej gravaj tagoj en onia vivo estas onia naskiĝtago, la tago kiam oni
@@ -848,10 +846,6 @@ tra la jarojn, ĉi tiu paĝo enhavas.
 
 
 - La sekurecon de ĉiuj la malscio de unu voĉdonanto difektas.<br>―John F. KENNEDY
-
-
-- Jen la superflua! Ili ĉiam vomemas; siajn galojn ili vomas kaj ilin nomi ĵurnalo. Unu la alian ili
-  voras kaj sin mem ne povas digesti.<br>―Friedrich NIETZ~CHE
 
 
 - Lernejoj estas intence kreitaj por produkti, per la apliko de formuloj, formulecajn homojn kies
