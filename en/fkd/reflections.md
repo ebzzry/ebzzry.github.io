@@ -3,7 +3,7 @@ Reflections
 
 <div class="center">[Esperanto](/eo/pripensoj/) ▪ English</div>
 <div class="center">November 24, 2015</div>
-<div class="center">Last updated: January 18, 2021</div>
+<div class="center">Last updated: February 7, 2022</div>
 
 This page contains contains some of my personal reflections. Entries are sorted in chronological order.
 
@@ -404,3 +404,6 @@ This page contains contains some of my personal reflections. Entries are sorted 
 
 
 - When someone throws rocks at you, throw back bread, or maybe golf balls.<br>
+
+
+- If you are not willing to play the game, somebody else is.<br>
