@@ -8,14 +8,14 @@ Agordi Skimprogramadon en Emakso
 >Ĉiom da bonaj ideoj ne kuŝas sub unu ĉapelo.<br>
 >―Dale TURNER
 
-En ĉi tiu afiŝo, mi priparolos la plej facilan alproksimiĝon, kiun mi uzis
+En ĉi tiu afiŝo, priparolos mi la plej facilan metodon, kiun uzis mi
 agordi [skiman](https://eo.wikipedia.org/wiki/Skimo) programadan medion
-emakse. Notu, ke ĉi tiu ne estas la sola aliro—iuj traktis ĝin en aserteble pli
-bonaj manieroj. En ĉi tiu afiŝo, mi provos klarigi la malpli longan vojon, kiun
-mi vojaĝis.
+emakse. Notu, ke ĉi tiu ne estas la sola aliro—traktis iuj ĝin en aserteble pli
+bonaj manieroj. En ĉi tiu afiŝo, provos klarigi mi la malpli longan vojon, kiun
+vojaĝigis mi.
 
 
-<a name="et"></a>Enhavotabelo
+<a name="et">Enhavotabelo</a>
 -----------------------------
 
 - [Superrigardo](#superrigardo)
@@ -26,19 +26,19 @@ mi vojaĝis.
 - [Finrimarkoj](#finrimarkoj)
 
 
-<a name="superrigardo"></a>Superrigardo
+<a name="superrigardo">Superrigardo</a>
 ---------------------------------------
 
-Redakti skimkodon emakse estis tradicie farita per rudimentaj reĝimoj, kiuj malhavis
-flekson. Ili estis kapablaj por taksi aktualajn difinojn, lastajn difinojn, kaj tutajn bufrojn,
-ĉefparte. Bedaŭrinde, tio ne sufiĉis pri la maniero, en kiu skimo traktadis la aferojn. Pli
-inteligenta maniero de trakti kodon, estis bezonita.
+Redakti skimkodon emakse estis tradicie farita per rudimentaj reĝimoj, kiuj malhavis flekson. Ili
+estis kapablaj por taksi aktualajn difinojn, lastajn difinojn, kaj tutajn bufrojn, ĉefparte.
+Bedaŭrinde, tio ne sufiĉis pri la maniero, en kiu traktadis skimo la aferojn. Pli inteligenta
+maniero de trakti kodon estis bezonita.
 
 Bonŝance, estas [Geiser](http://www.nongnu.org/geiser/). Estas aliaj reĝimoj, kiuj provis
-fari, kiujn Geiser faras, tamen mi fariĝas pli bonfarta al tiuj, kiujn Geiser ofertis. Kelkaj
-similaj bibliotekoj ankaŭ povas kunekzisti kun Geiser. Mi ankaŭ provis tiujn, bedaŭrinde, fariĝis
-tro malsimplaj, por mi. Mi finvenis uzi nur je Geiser. Kaj kiel parte rilata noto, mi uzas emakson
-por redakti skimkodon, tial ke, mi ne konas ian ajn redaktilon, kiu tiel bonfartas.
+fari, kiujn faras Geiser, tamen fariĝas mi pli bonfarta al tiuj, kiujn ofertis Geiser. Kelkaj
+similaj bibliotekoj ankaŭ povas kunekzisti kun Geiser. Ankaŭ provis tiujn mi, bedaŭrinde, fariĝis
+tro malsimplaj, por mi. Finvenis uzi mi nur je Geiser. Kaj kiel parte rilata noto, uzas mi emakson
+por redakti skimkodon tial, ke ne konas mi ian ajn redaktilon kiu tiel bonfartas.
 
 
 <a name="instalo"></a>Instalo
@@ -49,8 +49,8 @@ komandon
 
     M-x package-install EN geiser EN
 
-Tiam post malmultajn sekundojn, oni havos je Geiser, instalita en via emaksa
-profilo. Sekve, oni metos en la efektivan kodon, kiu envokas kaj agordas je
+tiam post malmultajn sekundojn, havos oni je Geiser, instalita en via emaksa
+profilo. Sekve, metos oni en la efektivan kodon, kiu envokas kaj agordas je
 Geiser:
 
 ```lisp
@@ -63,45 +63,44 @@ Geiser:
   (geiser-repl--write-input-ring))
 ```
 
-La unuesprimo ŝargas je Geiser mem. La duesprimo precizigas, ke ne invitos onin por la aliaj
-realigoj, se trovas ilin. La lastesprimo malnepras—ebligas onin por plenumi
+Ŝargas la unuesprimo je Geiser mem. Precizigas la duesprimo, ke ne invitos ĝi onin por la aliaj
+realigoj, se trovas ĝi ilin. La lastesprimo malnepras—ebligas onin por plenumi
 
     M-x geiser-save EN
 
 en la legada-taksada-presada iteracio (LTPI, angle
-[REPL](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop)), por
-devigi la konservadon de la historio al la diskdosiero, kiu troveblas en
-`~/.geiser_history.mit` defaŭlte. Utila se oni tuj volas konservi vian
-LTPI-historion. Ne ekzistas pli teruran aferon ol perdi TIUN esprimon. Por ĉiuj
-de la emaksaj kodoj supraj, por efektiviĝi, oni nun povas taksi ilin per la
-membroj de la EVAL-trupo—`eval-defun`, `eval-last-sexp`, `eval-region`—aŭ, vi
-ankoraŭ elektas naski novan emaksan procezon.
+[REPL](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop)), por devigi la
+konservadon de la historio al la diskdosiero, kiu troveblas en `~/.geiser_history.mit` implicite.
+Estas utile se oni tuj volas konservi la LTPI-historion. Ne ekzistas pli teruran aferon ol perdi
+TIUN esprimon. Por certigi, ke efektiviĝos ĉiomaj emaksaj kodoj supre, nun povas taksi oni ilin per
+la membroj de la EVAL-trupo—`eval-defun`, `eval-last-sexp`, `eval-region`—aŭ ankoraŭ elektas oni
+naski novan emaksan procezon.
 
 
 <a name="uzado"></a>Uzado
 -------------------------
 
-Por rikolti tiujn, kiujn oni semis, kreu aŭ malfermu `.scm`-dosieron, kun malpleje ĝusta modula
+Por rikolti tiujn, kiujn semis oni, kreu aŭ malfermu `.scm`-dosieron, kun malpleje ĝusta modula
 deklaro. Tiam, premu:
 
     M-x run-geiser EN
 
-Kaj, hura! Aperas nova emaksa fenestro, enhavi la `* MIT REPL *`-bufron. Kio ajn oni povas fari
-per la LTPI-envokito per la vanila komandlinia `mit-scheme`, oni ankaŭ povas fari tiujn, per ĉi tiu, kaj
-pli. Ĉi tiu ĉefreĝimo fakte estas la Comint-reĝimo sub la kovrilo, kun kroĉiloj al skima
-procezo. Por tiuj de vi, kiuj estas malkutimaj pri la Comint-reĝimo, estas la sama reĝimo kiu
-traktas `M-x shell EN`.
+Kaj, hura! Aperas nova emaksa fenestro, enhavante la `* MIT REPL *`-bufron. Kio ajn povas oni fari
+per la LTPI—vokita per la vanila komandlinia `mit-scheme`-programo—ankaŭ povas oni fari tiujn, per
+ĉi tiu kaj pli. Ĉi tiu ĉefreĝimo fakte estas la Comint-reĝimo sub la kovrilo, kun kroĉiloj al skima
+procezo. Por tiuj, kiuj ne konas la Comint-reĝimon, ĝi estas la sama reĝimo kiu traktas `M-x
+shell EN`.
 
-Do, kion oni povas fari per tio? Dum redakti `.rkt`-dosieron, jen estas kelke de kutimaj
-fulmoklavoj, kiujn mi uzas. La plena listo haveblas [ĉi tie](http://www.nongnu.org/geiser/geiser_5.html#Cheat-sheet).
-Notu, ke la priskribo de la klavoj, kiujn mi uzas malsupre, estas por mi mem komence, por
-helpi min komprenas tion, kion ĝi faras. Eble ili malsimilas al la oficiala priskribo, listigita sur
-la antaŭmenciita ligilo.
+Do, kion oni povas fari per tio? Dum redakti `.rkt`-dosieron, jen kelkaj kutimaj fulmoklavoj, kiujn
+uzas mi. Haveblas la plena listo [ĉi tie](http://www.nongnu.org/geiser/geiser_5.html#Cheat-sheet).
+Notu, ke la priskribo de la klavoj, kiujn uzas mi malsupre, estas por mi mem komence, por helpi min
+komprenas tion, kion faras ĝi. Eble ili malsimilas al la oficiala priskribo, listigita sur la
+antaŭmenciita ligilo.
 
 
-### <a name="skimbufro"></a>Skima bufro
+### <a name="skimbufro">Skima bufro</a>
 
-| Klavo                         | Kion ĝi faras                                       |
+| Klavo                         | Kion faras ĝi                                       |
 | :---------------------------- | :-------------------------------------------------- |
 | <kbd>C-c</kbd> <kbd>C-z</kbd> | Iru al la LTPI-bufro                                |
 | <kbd>C-c</kbd> <kbd>C-a</kbd> | Taksu la aktualan bufron, tiam iru al la LTPI-bufro |
@@ -113,7 +112,7 @@ la antaŭmenciita ligilo.
 
 ### <a name="ltpibufro"></a>LTPI-bufro
 
-| Klavo                         | Kion ĝi faras                  |
+| Klavo                         | Kion faras ĝi                  |
 | :---------------------------- | :----------------------------- |
 | <kbd>C-c</kbd> <kbd>C-z</kbd> | Iru al la skima bufro          |
 | <kbd>M-p</kbd>                | Montru la antaŭan historieron  |
@@ -126,11 +125,9 @@ la antaŭmenciita ligilo.
 <a name="finrimarkoj"></a>Finrimarkoj
 -------------------------------------
 
-Mi laŭcele preterpasis multe da temo de la
-[oficialdokumento](http://www.nongnu.org/geiser/) tial, ke fariĝas malĉarma al
-multe da homoj, kiuj malinklinas por legi longajn blokojn de teksto. Ironie, ĉi
-tiu artikolo povas kvalifi kiel tiu. La priskribitaj metodoj supre ne
-reprezentiĝas de konsilitaj manieroj, de la komunumo, de instali kaj uzi skimon
-emakse. Do, ĝis!
+Laŭcele preterpasis mi multan temon de la [oficialdokumento](http://www.nongnu.org/geiser/) tial, ke
+fariĝas ĝi malĉarma al multe da homo, kiuj malinklinas legi longajn blokojn da teksto. Ironie,
+ĉi tiu artikolo povas kvalifi kiel tio. La priskribitaj metodoj supre ne reprezentiĝas de kial faras
+la ĝenerala komunumo ilin. Do, ĝis!
 
 _Dank’ al [Raymund MARTINEZ](https://zhaqenl.github.io) pro la korektoj._

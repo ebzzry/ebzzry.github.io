@@ -125,4 +125,4 @@ aforementioned link.
 I have intentionally skipped many topics from the [official document](http://www.nongnu.org/geiser/)
 because it makes it unattractive to people who are averse to reading long blocks of text.
 Ironically, this article may even qualify as one. The methods described above are by in no way
-representative of community-advised ways of installing and using Scheme with Emacs. Ciao!
+representative of how the general community does them. See ya!
