@@ -22,7 +22,7 @@ vojaĝigis mi.
 - [Instalo](#instalo)
 - [Uzado](#uzado)
   + [Skima bufro](#skimbufro)
-  + [LTPI-bufro](#ltpibufro)
+  + [REPL-bufro](#replbufro)
 - [Finrimarkoj](#finrimarkoj)
 
 
@@ -68,13 +68,12 @@ realigoj, se trovas ĝi ilin. La lastesprimo malnepras—ebligas onin por plenum
 
     M-x geiser-save EN
 
-en la legada-taksada-presada iteracio (LTPI, angle
-[REPL](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop)), por devigi la
-konservadon de la historio al la diskdosiero, kiu troveblas en `~/.geiser_history.mit` implicite.
-Estas utile se oni tuj volas konservi la LTPI-historion. Ne ekzistas pli teruran aferon ol perdi
-TIUN esprimon. Por certigi, ke efektiviĝos ĉiomaj emaksaj kodoj supre, nun povas taksi oni ilin per
-la membroj de la EVAL-trupo—`eval-defun`, `eval-last-sexp`, `eval-region`—aŭ ankoraŭ elektas oni
-naski novan emaksan procezon.
+en la [REPL](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop)-iteracio, por
+devigi la konservadon de la historio al la diskdosiero, kiu troveblas en `~/.geiser_history.mit`
+implicite. Estas utile se oni tuj volas konservi la LTPI-historion. Ne ekzistas pli teruran aferon
+ol perdi TIUN esprimon. Por certigi, ke efektiviĝos ĉiomaj emaksaj kodoj supre, nun povas taksi oni
+ilin per la membroj de la EVAL-trupo—`eval-defun`, `eval-last-sexp`, `eval-region`—aŭ ankoraŭ
+elektas oni naski novan emaksan procezon.
 
 
 <a name="uzado"></a>Uzado
@@ -110,7 +109,7 @@ antaŭmenciita ligilo.
 | <kbd>C-c</kbd> <kbd>C-\</kbd> | Enmetu lambdsimbolon (λ)                            |
 
 
-### <a name="ltpibufro"></a>LTPI-bufro
+### <a name="replbufro">REPL-bufro</a>
 
 | Klavo                         | Kion faras ĝi                  |
 | :---------------------------- | :----------------------------- |
