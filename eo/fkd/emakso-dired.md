@@ -101,7 +101,7 @@ Agas la jenaj komandoj laŭ ili mem. Operacias ili sur solaj eroj kaj ne uzas il
 | <kbd>j</kbd>                  | Saltu al ero                                                       |
 | <kbd>s</kbd>                  | Ŝanĝu ordigan ordon                                                |
 | <kbd>y</kbd>                  | Montru dosiertipon de ero, kiel `file`                             |
-| <kbd>w</kbd>                  | Kopiu eron al tondejo                                              |
+| <kbd>w</kbd>                  | Kopiu eron al la tondejo                                           |
 
 
 <a name="wdired">WDired-reĝimo</a>
