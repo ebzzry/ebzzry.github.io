@@ -48,8 +48,8 @@ With [ELPA](/en/emacs-tips-2/#elpa), installing Geiser is a breeze. Simply execu
 
     M-x package-install RET geiser RET
 
-And in a few seconds, you’ll have Geiser installed in your Emacs profile. Next, you’ll put in the
-actual code that invokes and configures Geiser:
+And in a few seconds, you’ll have Geiser installed in your Emacs profile. Next, put in the actual
+code that invokes and configures Geiser:
 
 ```lisp
 (require 'geiser)

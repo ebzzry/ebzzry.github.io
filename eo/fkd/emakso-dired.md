@@ -55,17 +55,17 @@ eksplicite esprimis alie.
 Jen la kutimaj komandoj kiujn uzus oni, en Dired-bufro. Kaj cetere, povas funkcii ili al unuobla
 aŭ pluraj eroj. Uzi ilin al pluraj eroj estos klarigitaj sekve.
 
-| Klavo                         | Kion faras ĝi                  |
-| :---------------------------- | :----------------------------- |
-| <kbd>R</kbd>                  | Renomu eron                    |
-| <kbd>C</kbd>                  | Kopiu eron                     |
-| <kbd>D</kbd>                  | Forviŝu eron                   |
-| <kbd>O</kbd>                  | Ŝanĝu proprulon                |
-| <kbd>G</kbd>                  | Ŝanĝu grupon                   |
-| <kbd>M</kbd>                  | Ŝanĝu permesosjn               |
-| <kbd>S</kbd>                  | Kreu simbolligilon             |
-| <kbd>T</kbd>                  | Tuŝu eron                      |
-| <kbd>!</kbd> aŭ <kbd>x</kbd>  | Plenumu ŝelan komandon al ero  |
+| Fulmoklavo                    | Kion faras ĝi                                                      |
+| :---------------------------- | :----------------------------------------------------------------- |
+| <kbd>R</kbd>                  | Renomu eron                                                        |
+| <kbd>C</kbd>                  | Kopiu eron                                                         |
+| <kbd>D</kbd>                  | Forviŝu eron                                                       |
+| <kbd>O</kbd>                  | Ŝanĝu proprulon                                                    |
+| <kbd>G</kbd>                  | Ŝanĝu grupon                                                       |
+| <kbd>M</kbd>                  | Ŝanĝu permesosjn                                                   |
+| <kbd>S</kbd>                  | Kreu simbolligilon                                                 |
+| <kbd>T</kbd>                  | Tuŝu eron                                                          |
+| <kbd>!</kbd> aŭ <kbd>x</kbd>  | Plenumu ŝelan komandon al ero                                      |
 
 
 <a name="markaj">Markaj komandoj</a>
@@ -74,15 +74,15 @@ aŭ pluraj eroj. Uzi ilin al pluraj eroj estos klarigitaj sekve.
 Faras la jenaj komandoj operaciojn kiuj rilatas al markoj. Krei markojn simple signifas, meti etikodon
 sur eroj, por ke povu presti oni la operaciojn en la antaŭa sekcio, sur ili:
 
-| Klavo        | Kion faras ĝi                                        |
-| :----------- | :--------------------------------------------------- |
-| <kbd>m</kbd> | Marku eron                                           |
-| <kbd>d</kbd> | Marku eron por forviŝi                               |
-| <kbd>x</kbd> | Plenumu operacion                                    |
-| <kbd>u</kbd> | Malmarku soleron                                     |
-| <kbd>U</kbd> | Malmarku ĉiujn erojn                                 |
-| <kbd>t</kbd> | Baskuligu markojn inter markitaj kaj nemarkitaj eroj |
-| <kbd>c</kbd> | Densigu erojn                                        |
+| Fulmoklavo                    | Kion faras ĝi                                                      |
+| :---------------------------- | :----------------------------------------------------------------- |
+| <kbd>m</kbd>                  | Marku eron                                                         |
+| <kbd>d</kbd>                  | Marku eron por forviŝi                                             |
+| <kbd>x</kbd>                  | Plenumu operacion                                                  |
+| <kbd>u</kbd>                  | Malmarku soleron                                                   |
+| <kbd>U</kbd>                  | Malmarku ĉiujn erojn                                               |
+| <kbd>t</kbd>                  | Baskuligu markojn inter markitaj kaj nemarkitaj eroj               |
+| <kbd>c</kbd>                  | Densigu erojn                                                      |
 
 
 <a name="aliaj">Aliaj komandoj</a>
@@ -91,17 +91,17 @@ sur eroj, por ke povu presti oni la operaciojn en la antaŭa sekcio, sur ili:
 Agas la jenaj komandoj laŭ ili mem. Operacias ili sur solaj eroj kaj ne uzas ili markojn. La komando
 <kbd>w</kbd>, tamen, estas escepto.
 
-| Klavo                        | Kion faras ĝi                                |
-| :--------------------------- | :------------------------------------------- |
-| <kbd>+</kbd>                 | Kreu dosierujon                              |
-| <kbd>&#94;</kbd>             | Iru supren, per unu nivelo, kiel `cd ..`     |
-| <kbd>e</kbd> aŭ <kbd>f</kbd> | Redaktu eron                                 |
-| <kbd>v</kbd>                 | Vidu eron, kiel `less`                       |
-| <kbd>g</kbd>                 | Reŝarĝu la aktualan dosierujon               |
-| <kbd>j</kbd>                 | Saltu al ero                                 |
-| <kbd>s</kbd>                 | Ŝanĝu ordigan ordon                          |
-| <kbd>y</kbd>                 | Montru dosiertipon de ero, kiel `file`       |
-| <kbd>w</kbd>                 | Kopiu eron al tondejo                        |
+| Fulmoklavo                    | Kion faras ĝi                                                      |
+| :---------------------------- | :----------------------------------------------------------------- |
+| <kbd>+</kbd>                  | Kreu dosierujon                                                    |
+| <kbd>&#94;</kbd>              | Iru supren, per unu nivelo, kiel `cd ..`                           |
+| <kbd>e</kbd> aŭ <kbd>f</kbd>  | Redaktu eron                                                       |
+| <kbd>v</kbd>                  | Vidu eron, kiel `less`                                             |
+| <kbd>g</kbd>                  | Reŝarĝu la aktualan dosierujon                                     |
+| <kbd>j</kbd>                  | Saltu al ero                                                       |
+| <kbd>s</kbd>                  | Ŝanĝu ordigan ordon                                                |
+| <kbd>y</kbd>                  | Montru dosiertipon de ero, kiel `file`                             |
+| <kbd>w</kbd>                  | Kopiu eron al tondejo                                              |
 
 
 <a name="wdired">WDired-reĝimo</a>
