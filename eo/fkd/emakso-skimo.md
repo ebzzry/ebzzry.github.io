@@ -98,26 +98,26 @@ antaŭmenciita ligilo.
 
 ### <a name="skimbufro">Skima bufro</a>
 
-| Klavkombinoj                  | Kion faras ĝi                                       |
-| :---------------------------- | :-------------------------------------------------- |
-| <kbd>C-c</kbd> <kbd>C-z</kbd> | Iru al la LTPI-bufro                                |
-| <kbd>C-c</kbd> <kbd>C-a</kbd> | Taksu la aktualan bufron, tiam iru al la LTPI-bufro |
-| <kbd>C-M-x</kbd>              | Taksu la aktualan esprimon                          |
-| <kbd>C-x</kbd> <kbd>C-e</kbd> | Taksu la lastan esprimon                            |
-| <kbd>C-c</kbd> <kbd>C-r</kbd> | Taksu regionon                                      |
-| <kbd>C-c</kbd> <kbd>C-\</kbd> | Enmetu lambdsimbolon (λ)                            |
+| Klavkombinoj                  | Kion faras ĝi                                                     |
+| :---------------------------- | :---------------------------------------------------------------- |
+| <kbd>C-c</kbd> <kbd>C-z</kbd> | Iru al la REPL-bufro                                              |
+| <kbd>C-c</kbd> <kbd>C-a</kbd> | Taksu la aktualan bufron, tiam iru al la REPL-bufro               |
+| <kbd>C-M-x</kbd>              | Taksu la aktualan esprimon                                        |
+| <kbd>C-x</kbd> <kbd>C-e</kbd> | Taksu la lastan esprimon                                          |
+| <kbd>C-c</kbd> <kbd>C-r</kbd> | Taksu la regionon                                                 |
+| <kbd>C-c</kbd> <kbd>C-\</kbd> | Enmetu lambdsimbolon (λ)                                          |
 
 
 ### <a name="replbufro">REPL-bufro</a>
 
-| Klavkombinoj                  | Kion faras ĝi                                       |
-| :---------------------------- | :-------------------------------------------------- |
-| <kbd>C-c</kbd> <kbd>C-z</kbd> | Iru al la skima bufro                               |
-| <kbd>M-p</kbd>                | Montru la antaŭan historieron                       |
-| <kbd>M-n</kbd>                | Montru la sekvan historieron                        |
-| <kbd>C-c</kbd> <kbd>M-p</kbd> | Saltu al la antaŭinvito                             |
-| <kbd>C-c</kbd> <kbd>M-n</kbd> | Saltu al la sekvinvito                              |
-| <kbd>C-c</kbd> <kbd>C-q</kbd> | Eliru de la LTPI                                    |
+| Klavkombinoj                  | Kion faras ĝi                                                     |
+| :---------------------------- | :---------------------------------------------------------------- |
+| <kbd>C-c</kbd> <kbd>C-z</kbd> | Iru al la skima bufro                                             |
+| <kbd>M-p</kbd>                | Montru la antaŭan historieron                                     |
+| <kbd>M-n</kbd>                | Montru la sekvan historieron                                      |
+| <kbd>C-c</kbd> <kbd>M-p</kbd> | Saltu al la antaŭinvito                                           |
+| <kbd>C-c</kbd> <kbd>M-n</kbd> | Saltu al la sekvinvito                                            |
+| <kbd>C-c</kbd> <kbd>C-q</kbd> | Eliru de la REPL                                                  |
 
 
 <a name="finrimarkoj">Finrimarkoj</a>
