@@ -9,7 +9,7 @@ Ziŝaj Konsiletoj 1-a: Alinomoj kaj Funkcioj
 >―Konfuceo
 
 Unu el la ĝuoj de ekskluzive labori sur la terminalsimulilo estas la laboron pri komandoj, dosieroj,
-kaj dosieroj ĝi plifaciligas. Esti kapabla por iri de ideo al ideo okazas en malmulte da tempo. Por
+kaj dosieroj ĝi plifaciligas. Esti kapable por iri de ideo al ideo okazas en malmulte da tempo. Por
 interaga ŝela uzo, [ziŝon](http://zsh.sourceforge.net/) mi uzas preskaŭ eksklusive. En ĉi tiu
 artikolo mi parolos pri la aĵoj por la interagan uzon de la ŝelo plibonigi.
 
