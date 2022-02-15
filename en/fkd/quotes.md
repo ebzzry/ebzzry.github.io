@@ -938,3 +938,9 @@ have collected over the years.
 
 
 - Row, row, row your boat gently down the stream. Merrily, merrily, merrily, merrily. Life is but a dream.<br>―Eliphalet Oram Lyte
+
+
+- Their exercises are unbloody battles, and their battles bloody exercises.<br>―Flavius Josephus
+
+
+- The more you sweat in peace, the less you bleed in war.<br>―Norman Schwarzkopf

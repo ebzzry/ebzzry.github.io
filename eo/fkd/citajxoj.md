@@ -933,3 +933,9 @@ tra la jarojn, ĉi tiu paĝo enhavas.
 
 
 - Remu, remu, remu en la boato milde laŭ la rojo. Bonhumore, bonhumore, bonhumore. La vivo estas nur sonĝo.<br>―Eliphalet Oram LYTE
+
+
+- Iliaj ekzercoj estas nesangaj bataloj, kaj iliaj bataloj estas nur ekzercoj.<br>―Flavius JOSEPHUS
+
+
+- Ju pli oni ŝvitas en paco, des malpli oni sangas en milito.<br>―Norman SCHWARZKOPF
