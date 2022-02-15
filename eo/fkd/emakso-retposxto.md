@@ -5,9 +5,8 @@ Agordi Retpoŝton per Emakso
 <div class="center">la 14-an de Februaro 2018</div>
 <div class="center">Laste ĝisdatigita: la 23-an de Aŭgusto 2021</div>
 
->Nur pro tio, ke ne fariĝis, ne signifas, ke ne fareblas. Nur pro tio, ke fareblas, ne
->signifas, ke devus.<br>
->―Barry GLAsFORD
+> Nur pro tio, ke ne fariĝis io, ne signifas, ke ne fareblas ĝi. Nur pro tio, ke fareblas io, ne signifas, ke farendas ĝi.<br>
+>―Barry GLASFORD
 
 Nunatempe kontroli retpoŝton postulas onin por iri al la retejo de sia provizanto, aŭ uzi
 poŝkomputilapon. Tamen, estas kazoj kiam oni volas havi pli da rego sur ĝiaj mesaĝoj, precipe kiam
