@@ -3,7 +3,7 @@ Citaĵoj
 
 <div class="center">Esperanto ▪ [English](/en/quotes/)</div>
 <div class="center">la 15-an de Novembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 4-an de Februaro, 2022</div>
+<div class="center">Laste ĝisdatigita: la 15-an de Februaro, 2022</div>
 
 <img src="/bil/wallhaven-77816-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -71,8 +71,8 @@ tra la jarojn, ĉi tiu paĝo enhavas.
   interesataj.<br>―E.M. FORSTER
 
 
-- Nur pro tio, ke ne fariĝis, ne signifas, ke ne fareblas. Nur pro tio, ke
-  fareblas, ne signifas, ke devus.<br>―Barry GLASFORD
+- Nur pro tio, ke ne fariĝis io, ne signifas, ke ne fareblas ĝi. Nur pro tio, ke
+  fareblas io, ne signifas, ke farendas ĝi.<br>―Barry GLASFORD
 
 
 - Lernu la reglamentojn por ke oni sciu kiel ĝuste rompi ilin.<br>―Dalai-lamao
@@ -930,3 +930,6 @@ tra la jarojn, ĉi tiu paĝo enhavas.
 
 
 - Homoj estas naskitaj kun malsamaj kapabloj. Se ili estas liberaj, ili ne estas egalaj. Se ili estas egalaj, ili ne estas liberaj.<br>―Aleksandr SOLZHENITSYN
+
+
+- Remu, remu, remu en la boato milde laŭ la rojo. Bonhumore, bonhumore, bonhumore. La vivo estas nur sonĝo.<br>―Eliphalet Oram LYTE
