@@ -3,15 +3,14 @@ La Ipsilonkombinatoro per Ses Paŝoj
 
 <div class="center">Esperanto ▪ [English](/en/y/)</div>
 <div class="center">la 25-an de Novembro 2017</div>
-<div class="center">Laste ĝisdatigita: la 3-an de Februaro 2022</div>
+<div class="center">Laste ĝisdatigita: la 19-an de Februaro 2022</div>
 
 >Unue, decidu. Kaj faru ĝin. Estas la nura maniero por atingi ion.<br>
 >―Lacus CLYNE, Gundam SEED Destiny
 
-Multe da ni estis instruitaj ke, por difini rikuran proceduron, devas uzi la rikura alvoko la nomon
-de la rikura proceduro. Tamen, ebligas la
-[ipsilonkombinatoro](https://en.wikipedia.org/wiki/Fixed-point_combinator#Y_combinator) (angla
-artikolo) onin por presti rikuron, sen referencante la nomatan identigilon.
+Multe da ni estis instruitaj ke, por difini rikuran proceduron, la rikura alvoko devas uzi la nomon
+de la rikura proceduro. Tamen, la [ipsilonkombinatoro](https://en.wikipedia.org/wiki/Fixed-point_combinator#Y_combinator)
+(angla artikolo) ebligas onin por presti rikuron, sen referencante la nomatan identigilon.
 
 
 <a name="et">Enhavotabelo</a>
@@ -30,20 +29,20 @@ artikolo) onin por presti rikuron, sen referencante la nomatan identigilon.
 <a name="kio">Kio?</a>
 ----------------------
 
-La ipsilonkombinatoro estas la fonto de kaj inspiro kaj frustro de multaj homoj. Elvokas sensacion
-kiel surprizego kiam pasis oni la muron, sed ankaŭ igas nin skrapi niajn kapojn kiam ne senchavas
-trairi la labirinton. Celas porti ĉi tiu artikolo miajn proprajn metodojn kiel derivi la ipsilonan
+La ipsilonkombinatoro estas la fonto de kaj inspiro kaj frustro de multaj homoj. Ĝi elvokas sensacion
+kiel surprizego kiam oni pasis la muron, sed ankaŭ igas nin skrapi niajn kapojn kiam ne senchavas
+trairi la labirinton. Ĉi tiu artikolo celas porti miajn proprajn metodojn kiel derivi la ipsilonan
 kombinatoron. Eble ne estas la plej eleganta maniero, tamen eblas funkcii por iu.
 
-En la kodaj ekzemploj en ĉi tiu artikolo, montras la simbolo `>` la invitsimbolon de la skima
+En la kodaj ekzemploj en ĉi tiu artikolo, la simbolo `>` montras la invitsimbolon de la skima
 realigo.
 
 
 <a name="baza">Paŝo 1-a: Difinu la bazan proceduron</a>
 -------------------------------------------------------
 
-Komencu ni per difini proceduron nomata `foo` kiu komputas la sumadon de pozitiva entjero, malsupren
-al nulo. En la sekvanta kodaĵo, okazas la rikura alvoko kiam `foo` aplikiĝas en la `else`-a
+Ni komencu per difini proceduron nomata `foo` kiu komputas la sumadon de pozitiva entjero, malsupren
+al nulo. En la sekvanta kodaĵo, la rikura alvoko okazas kiam `foo` aplikiĝas en la `else`-a
 parto de la kondiĉo.
 
 ```scheme
@@ -56,13 +55,13 @@ parto de la kondiĉo.
 5050
 ```
 
-Rimarkis oni, ke difinis mi je `foo` per eksplicita `lambda`-esprimo. Vidos oni postnelonge kial.
+Oni rimarkis, ke mi difinis je `foo` per eksplicita `lambda`-esprimo. Oni vidos postnelonge kial.
 
 
 <a name="funkcivokarigi">Paŝo 2-a: Funkcivokarigu la rikuran alvokon</a>
 ------------------------------------------------------------------------
 
-Dismembrigu ni tiun proceduron pli detale per pli rudimentaj eroj, kaj aplikos oni ĝin per
+Ni dismembrigu tiun proceduron pli detale per pli rudimentaj eroj, kaj oni aplikos ĝin per
 funkcivokarigado (angle [currying](https://en.wikipedia.org/wiki/Currying)).
 
 ```scheme
@@ -76,16 +75,16 @@ funkcivokarigado (angle [currying](https://en.wikipedia.org/wiki/Currying)).
 5050
 ```
 
-La plia `lambda`-esprimo estis bezonata ĉar bezonis havi oni manieron por abstrakti la rikuran
-alvokon. Tiaokaze, uzis oni la identigilon `f` por kunligi la rikuran proceduron, kiu estas `foo`
-mem. La stranga `((f f) …)`-esprimo estas bezonata tial, ke devas fari oni la saman proceduran
+La plia `lambda`-esprimo estis bezonata ĉar oni bezonis havi manieron por abstrakti la rikuran
+alvokon. Tiaokaze, oni uzis la identigilon `f` por kunligi la rikuran proceduron, kiu estas `foo`
+mem. La stranga `((f f) …)`-esprimo estas bezonata tial, ke oni devas fari la saman proceduran
 alvokan metodon uzata interne: `((foo foo) 100)`.
 
 
 <a name="mem">Paŝo 3-a: Apliku la proceduron al si mem</a>
 ----------------------------------------------------------
 
-Nun eluzas oni ĉi tiun kvaliton por uzi sennomatan aliron—ne per la identigilo `foo`.
+Oni nun eluzas ĉi tiun kvaliton por uzi sennomatan aliron—ne per la identigilo `foo`.
 
 ```scheme
 > (((lambda (f)
@@ -102,13 +101,13 @@ Nun eluzas oni ĉi tiun kvaliton por uzi sennomatan aliron—ne per la identigil
 5050
 ```
 
-Konstatiĝu, ke nun, ne plu uzos oni la nomon `foo` por referenci la difinon, krom poste.
+Konstatiĝu, ke nun, oni ne plu uzos la nomon `foo` por referenci la difinon, krom poste.
 
 
 <a name="enan">Paŝo 4-a: Abstraktu la enan alvokon</a>
 ------------------------------------------------------
 
-Sekve, devas movi oni la parton `(f f)` eksteren por izoli la ĝeneralan (ipsilonkombinatoro), el la
+Sekve, oni devas movi la parton `(f f)` eksteren por izoli la ĝeneralan (ipsilonkombinatoro), el la
 specifa (`foo`) kodo.
 
 ```scheme
@@ -138,7 +137,7 @@ identigilo `v` estos kunligata al `(- n 1)`.
 <a name="izoli">Paŝo 5-a: Izolu la kombinatoron</a>
 ---------------------------------------------------
 
-Sekve, izolos oni la ipsilonan kombinatoron, el la `foo` proceduro.
+Sekve, oni izolos la ipsilonan kombinatoron, el la `foo` proceduro.
 
 ```scheme
 > (((lambda (x)
@@ -155,8 +154,8 @@ Sekve, izolos oni la ipsilonan kombinatoron, el la `foo` proceduro.
 5050
 ```
 
-Anstataŭigu oni la difinon specifa al `foo`, per `x`. Igas ĉi tio onin denove, por krei la enhavatan
-`lambda`-esprimo tial, ke `x` estas kunligata al la komputata proceduro, ne plu devas ripeti oni
+Oni anstataŭigu la difinon specifa al `foo`, per `x`. Ĉi tio igas onin denove, por krei la enhavatan
+`lambda`-esprimo tial, ke `x` estas kunligata al la komputata proceduro, oni ne plu devas ripeti
 ĝin.
 
 
@@ -164,7 +163,7 @@ Anstataŭigu oni la difinon specifa al `foo`, per `x`. Igas ĉi tio onin denove,
 <a name="difini">Paŝo 6-a: Difinu la kombinatoron</a>
 -----------------------------------------------------
 
-Fine, kreos oni apartan proceduran difinon eksplicite por la ipsilonkombinatoro mem kaj la
+Fine, oni kreos apartan proceduran difinon eksplicite por la ipsilonkombinatoro mem kaj la
 proceduro `foo`.
 
 ```scheme
@@ -190,7 +189,7 @@ proceduro `foo`.
 -------------------------------------
 
 Kiam la kernaj konceptoj estas komprenataj, estos facile por kapti la ŝajne malfacilegajn
-konceptojn. Esperas mi, ke ĉi tiu artikolo estas utila por igi onin kompreni la ipsilonan
+konceptojn. Mi esperas, ke ĉi tiu artikolo estas utila por igi onin kompreni la ipsilonan
 kombinatoron, funkcivokarigadon, kaj proceduran aplikon.
 
 _Dank’ al [Raymund MARTINEZ](https://zhaqenl.github.io) pro la korektoj._
