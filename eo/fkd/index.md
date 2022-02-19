@@ -10,11 +10,11 @@ La Pensoj de Optimisto
 <div class="text-right">Retejo pri komputado, hominklinaĵoj, kaj hazardaĵoj. La
 enskriboj estas ordigitaj laŭ inverskronologiordo.</div>
 
-- [Kiel Uzas Mi Giton](gito/)
+- [Kiel Mi Uzas Uzas Giton](gito/)
 - [Milda Enkonduko al Nedeterminismo en Skimo](amb/)
 - [Ziŝaj Konsiletoj 4-a: Ĝeneralhelpiloj](zisxkonsiletoj-4-a/)
 - [Ziŝaj Konsiletoj 3-a: Ŝanĝradikighelpiloj](zisxkonsiletoj-3-a/)
-- [Kiel Uzas Mi Timukson](timukso/)
+- [Kiel Mi Uzas Timukson](timukso/)
 - [Ziŝaj Konsiletoj 2-a: Dosierujstakoj](zisxkonsiletoj-2-a/)
 - [Ziŝaj Konsiletoj 1-a: Alinomoj kaj Funkcioj](zisxkonsiletoj-1-a/)
 - [Skriptado en Komunlispo](skripti-lispon/)

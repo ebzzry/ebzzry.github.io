@@ -41,7 +41,7 @@ estas kiel mi, daŭru legi.
 <a name="superrigardo"></a>Superrigardo
 ---------------------------------------
 
-Kiam mi trovadis ilojn por krei ĉi tiun blogon, mi malkontentiĝis pri la plejmulto de la famaj
+Kiam mi trovadis ilojn por krei ĉi tiun blogon, mi malkontentiĝis pri la plejmulto da la famaj
 opcioj. Iuj tro malfacilas por agordi; iuj malhavas kapablojn. Mi frustriĝis pro ĉiu fino
 de la spektro devigas min por uzi ion, kiu tro mezkvalitas en almenaŭ unu kritika
 aspekto. Bonŝance, mi trovis je [Frog](https://github.com/greghendershott/frog) pro propono en

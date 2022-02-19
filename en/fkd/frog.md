@@ -313,7 +313,7 @@ language specifier, `#lang scribble/manual`, and the absence of the prefix space
 fields.
 
 
-<a name="comments"></a> Comments
+<a name="comments">Comments</a>
 --------------------------------
 
 Frog makes use of [Disqus](https://disqus.com) to handle its comments. To use it, create an account
@@ -331,7 +331,7 @@ To import comments, from an existing blog, to Disqus, go to
 <https://import.disqus.com>.
 
 
-<a name="publishing"></a> Publishing
+<a name="publishing">Publishing</a>
 ----------------------------------
 
 To publish your work, upload the contents of the directory that Frog manages to your remote
