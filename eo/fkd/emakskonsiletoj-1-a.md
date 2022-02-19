@@ -3,12 +3,12 @@ Emaksaj Konsiletoj 1-a: Regionoj kaj Markoj
 
 <div class="center">Esperanto ▪ [English](/en/emacs-tips-1/)</div>
 <div class="center">la 12-an de Februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 3-an de Februaro 2022</div>
+<div class="center">Laste ĝisdatigita: la 20-an de Februaro 2022</div>
 
-Ankoraŭ bezonas trovi mi pli bonan redaktilon ol [emakso](https://www.gnu.org/software/emacs/). Tio,
-kio igas emakson elstara, estas ĝia agorda lingvo—emakslispo. Uzas emakso ĝin al punkto, en kiu,
-plejparto de la funkciado de ĝi mem, realiĝas per emakslispo. En ĉi tiuj serioj, priparolos mi la
-aferojn, kiujn malkovris fari mi la uzadon de emakso pli agrabla persone.
+Mi Ankoraŭ bezonas trovi pli bonan redaktilon ol [emakso](https://www.gnu.org/software/emacs/). Tio,
+kio igas emakson elstara, estas ĝia agorda lingvo—emakslispo. Emakso uzas ĝin al punkto, en kiu,
+plejparto de la funkciado de ĝi mem, realiĝas per emakslispo. En ĉi tiuj serioj, mi priparolos la
+aferojn, kiujn mi malkovris fari la uzadon de emakso pli agrabla persone.
 
 
 <a name="et">Enhavotabelo</a>
@@ -27,7 +27,7 @@ aferojn, kiujn malkovris fari mi la uzadon de emakso pli agrabla persone.
 <a name="regionoj">Regionoj</a>
 -------------------------------
 
-Forviŝas la jena komando regionon se unu aktivas aŭ forviŝas la signon sub la kursoro.
+La jena komando forviŝas regionon se unu aktivas aŭ forviŝas la signon sub la kursoro.
 
 ```lisp
 (defun delete-char-or-region (&optional arg)
@@ -44,8 +44,8 @@ Forviŝas la jena komando regionon se unu aktivas aŭ forviŝas la signon sub la
 <a name="kompilo">Kompilo</a>
 -----------------------------
 
-Ofte uzas mi la jenan komandon kaj uzas mi ĝin kiam komposti LaTex-dokumentojn, kompili
-Scribble-dokumentojn, kompili kodon, kaj por preskaŭ io ajn, al kiun povas uzi mi ĝin.
+Ofte mi uzas la jenan komandon kaj mi uzas ĝin kiam komposti LaTex-dokumentojn, kompili
+Scribble-dokumentojn, kompili kodon, kaj por preskaŭ io ajn, al kiu mi povas uzi ĝin.
 
 ```lisp
 (defun compile-file ()
@@ -57,7 +57,7 @@ Scribble-dokumentojn, kompili kodon, kaj por preskaŭ io ajn, al kiun povas uzi 
 <a name="skimo">Skimo</a>
 -------------------------
 
-Volas havi mi komandon kiu eksplicite konservas la enigan historion de Geiser:
+Mi volas havi komandon kiu eksplicite konservas la enigan historion de Geiser:
 
 ```lisp
 (defun geiser-save ()
@@ -65,7 +65,7 @@ Volas havi mi komandon kiu eksplicite konservas la enigan historion de Geiser:
   (geiser-repl--write-input-ring))
 ```
 
-Kaj ankaŭ havas mi la jenan tial, ke volas ĝisrandigi plaĉe mi la `λ`-simbolon.
+Kaj mi ankaŭ havas la jenan tial, ke mi volas ĝisrandigi plaĉe la `λ`-simbolon.
 
 ```lisp
 (defun my-scheme-mode-hook ()
@@ -78,7 +78,7 @@ Kaj ankaŭ havas mi la jenan tial, ke volas ĝisrandigi plaĉe mi la `λ`-simbol
 <a name="servilo">Servilo</a>
 -----------------------------
 
-Certigas la jena kodaĵo, ke la emaksa servilo, tiu, kiun `emacsclient` konektas al, kuros:
+La jena certigas kodaĵo, ke la emaksa servilo—tiu, kiu `emacsclient` konektas al—plenumiĝos:
 
 ```lisp
 (require 'server)
@@ -87,7 +87,7 @@ Certigas la jena kodaĵo, ke la emaksa servilo, tiu, kiun `emacsclient` konektas
   (server-start))
 ```
 
-Alterne, povas plenumi oni emakson en demonreĝimo ĉe la komandlinio:
+Alterne, oni povas plenumi emakson en demonreĝimo ĉe la komandlinio:
 
 ```bash
 $ emacs --daemon
@@ -97,8 +97,8 @@ $ emacs --daemon
 <a name="bufroj">Bufroj</a>
 ---------------------------
 
-Volas havi mi manieron por mortigi la aktualan bufron sen esti demandita kiun bufro por mortigi. Nur
-invitiĝos mi se ŝanĝiĝis la aktuala bufro.
+Mi volas havi manieron por mortigi la aktualan bufron sen demandita kiun bufron por mortigi. Mi nur
+invitiĝos se la aktuala bufro ŝanĝiĝis:
 
 ```lisp
 (defun kill-current-buffer ()
@@ -110,7 +110,7 @@ invitiĝos mi se ŝanĝiĝis la aktuala bufro.
 <a name="markoj">Markoj</a>
 ---------------------------
 
-Estis multe da fojoj en la estinteco kiam bezonis funkcion mi kiu markas nur linion. Kiun havas mi
+Estis multe da fojoj en la estinteco kiam mi bezonis funkcion kiu markas nur linion. Kiun mi havas
 estas la jena. Plenumi ĝin multfoje markas plurajn liniojn.
 
 ```lisp
@@ -147,7 +147,7 @@ La klavkombinoj por la supraj komandoj, estas la jenaj:
 <a name="finrimarkoj">Finrimarkoj</a>
 -------------------------------------
 
-Esperas mi, ke oni povos esti kapabla trovi uzojn el kelke da ili. Troveblas la ceteraj agordoj [ĉi
-tie](https://github.com/ebzzry/dotfiles/tree/master/emacs).
+Mi esperas, ke oni povos esti kapabla trovi uzojn el kelke da aferoj ĉi-supre. La ceteraj agordoj
+troveblas [ĉi tie](https://github.com/ebzzry/dotfiles/tree/master/emacs).
 
 _Dank’ al [Raymund MARTINEZ](https://zhaqenl.github.io) pro la korektoj._
