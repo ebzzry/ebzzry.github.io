@@ -34,7 +34,7 @@ mastrumadon, pakojn, krommarĝenojn, kaj aliajn malgrandajn agrablajn aferojn.
 
 Havenda ilo kiun mi nun uzas estas _Desktop_. Ĝi konservas la staton de la emaksa seanco, por ke en
 la okazo de kraŝo, kurenta malfunkcio, aŭ io kiu igas min perdi mian seancon, mi povu reiri al
-ĝi. Desktop enkonstruitas kun la plej ĵusaj versioj de emakso. La jeno estas la kodaĵo:
+ĝi. Desktop enkonstruitas kun la plej ĵusaj versioj de emakso. La jena estas la kodaĵo:
 
 ```lisp
 (require 'desktop)
