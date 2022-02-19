@@ -1,4 +1,4 @@
-Kiel Uzas Mi Giton
+Kiel Mi Uzas Giton
 ==================
 
 <div class="center">Esperanto ▪ [English](/en/git/)</div>

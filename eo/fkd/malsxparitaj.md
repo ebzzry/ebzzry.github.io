@@ -81,7 +81,7 @@ distingencojn kiam fore aspektataj?
 estas demandata pri aferoj konsiderataj pli simplaj ol gimnaziaj lecionoj. Estas kelkaj aferoj kiuj
 komunas al ni: ni timas vidi kiel socio eble reagas pri niaj agoj, kiel ajn malsaĝaj aŭ gravaj niaj
 agoj povas esti. Tamen, por la pli gravaj aferoj, ni prete miksiĝastial, ke ni ne volas
-malakcepton. Plejmulto de ni feliĉas pensi kaj movi kun la grego, sen ia antaŭzorgo.
+malakcepton. Plejmulto da ni feliĉas pensi kaj movi kun la grego, sen ia antaŭzorgo.
 
 Kiam ni propravole alfiksas la pezajn ĉenojn kaj ŝtalpilkojn al niaj kruroj, ni ne devus anticipi
 esti kapabla kuri ĉirkaŭi la stadion facile. Kiam ni kuraĝas esplori nekartografitajn teritoriojn,
