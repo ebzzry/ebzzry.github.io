@@ -222,7 +222,7 @@ IP-adreso:
 
     10.0.2.2
 
-Defaŭlta kluzo:
+Implicita kluzo:
 
     10.0.2.1
 

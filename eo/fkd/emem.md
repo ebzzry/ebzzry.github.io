@@ -3,7 +3,7 @@ Konverti de Markdown al HTML per emem
 
 <div class="center">Esperanto ▪ [English](/en/emem/)</div>
 <div class="center">Laste ĝisdatigita: la 31-an de Aŭgusto 2021</div>
-
+    
 >Oni ne trovos la respondojn kiujn oni serĉas ĝis oni haltas serĉi ekster kaj komenciĝas serĉi ilin
 >el oni mem.<br>
 >―JJ, Ergo Proxy
@@ -127,7 +127,7 @@ unu falplonĝo:
 
     $ emem ~/Desktop
 
-Se la defaŭltan larĝecon oni ne ŝatas—40 em—uzu je `-f` por la disponan retumilan paĝan ekranan
+Se la implicitan larĝecon oni ne ŝatas—40 em—uzu je `-f` por la disponan retumilan paĝan ekranan
 larĝecon uzi:
 
     $ emem -f MINLEGU.md
