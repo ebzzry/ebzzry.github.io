@@ -2,7 +2,6 @@ A Brief Git and GitHub Tour
 ===========================
 
 <div class="center">[Esperanto](/eo/gito-github/) ▪ English</div>
-<div class="center">August 29, 2015</div>
 <div class="center">Last updated: September 23, 2018</div>
 
 >Know how to solve every problem that has been solved.<br>

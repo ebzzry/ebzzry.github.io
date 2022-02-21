@@ -2,7 +2,6 @@ Emaksaj Konsiletoj 1-a: Regionoj kaj Markoj
 ===========================================
 
 <div class="center">Esperanto ▪ [English](/en/emacs-tips-1/)</div>
-<div class="center">la 12-an de Februaro 2018</div>
 <div class="center">Laste ĝisdatigita: la 20-an de Februaro 2022</div>
 
 Mi Ankoraŭ bezonas trovi pli bonan redaktilon ol [emakso](https://www.gnu.org/software/emacs/). Tio,

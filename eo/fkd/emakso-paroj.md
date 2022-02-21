@@ -2,7 +2,6 @@ Emakso kaj Paroj
 ================
 
 <div class="center">Esperanto ▪ [English](/en/emacs-pairs/)</div>
-<div class="center">la 9-an de Julio 2018</div>
 <div class="center">Laste ĝisdatigita: la 23-an de Aŭgusto 2021</div>
 
 >La blanka bruo kiu batas ene la blanka mallumo estas la ritmo de la vivo; estas la pulso kiu

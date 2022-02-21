@@ -2,7 +2,6 @@ Milda Enkonduko al la Nix-Familio
 =================================
 
 <div class="center">Esperanto ▪ [English](/en/nix/)</div>
-<div class="center">la 5-an de Aŭgusto 2018</div>
 <div class="center">Laste ĝisdatigita: la 20-an de Oktobro 2021</div>
 
 >Ne maltrankviliĝu pri tio, kion la aliaj faros. La plej bona maniero por la estontecon antaŭdiri

@@ -2,7 +2,6 @@ Blogging with Frog
 ==================
 
 <div class="center">[Esperanto](/eo/frog/) ▪ English</div>
-<div class="center">February 19, 2014</div>
 <div class="center">Last updated: September 23, 2018</div>
 
 >One person with passion is better than forty people merely interested.<br>

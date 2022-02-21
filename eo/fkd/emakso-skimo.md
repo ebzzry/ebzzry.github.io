@@ -2,17 +2,15 @@ Agordi Skimprogramadon en Emakso
 ================================
 
 <div class="center">Esperanto ▪ [English](/en/emacs-scheme/)</div>
-<div class="center">la 13-an de Februaro 2018</div>
-<div class="center">Laste ĝisdatigita: la 9-an de Februaro 2022</div>
+<div class="center">Laste ĝisdatigita: la 21-an de Februaro 2022</div>
 
 >Ĉiom da bonaj ideoj ne kuŝas sub unu ĉapelo.<br>
 >―Dale TURNER
 
-En ĉi tiu afiŝo, priparolos mi la plej facilan metodon, kiun uzis mi
-agordi [skiman](https://eo.wikipedia.org/wiki/Skimo) programadan medion
-emakse. Notu, ke ĉi tiu ne estas la sola aliro—traktis iuj ĝin en aserteble pli
-bonaj manieroj. En ĉi tiu afiŝo, provos klarigi mi la malpli longan vojon, kiun
-vojaĝigis mi.
+En ĉi tiu afiŝo, mi priparolos la plej facilan metodon, kiun mi uzis por agordi
+[skiman](https://eo.wikipedia.org/wiki/Skimo) programadan medion emakse. Notu, ke ĉi tiu ne estas la
+sola aliro—iuj traktis ĝin en aserteble pli bonaj manieroj. En ĉi tiu afiŝo, mi provos klarigi la
+malpli longan vojon, kiun mi vojaĝigis.
 
 
 <a name="et">Enhavotabelo</a>
@@ -31,26 +29,26 @@ vojaĝigis mi.
 
 Redakti skimkodon emakse estis tradicie farita per rudimentaj reĝimoj, kiuj malhavis flekson. Ili
 estis kapablaj por taksi aktualajn difinojn, lastajn difinojn, kaj tutajn bufrojn, ĉefparte.
-Bedaŭrinde, ne sufiĉis tio pri la maniero, en kiu traktadis skimo la aferojn. Pli inteligenta
-maniero de trakti kodon estis bezonita.
+Bedaŭrinde, tio ne sufiĉis pri la maniero, en kiu skimo traktadis la aferojn. Pli inteligenta
+maniero por trakti kodon estis bezonita.
 
-Bonŝance, ekzistas [Geiser](http://www.nongnu.org/geiser/). Estas aliaj reĝimoj, kiuj provis fari,
-kiujn faras Geiser, tamen fariĝas mi pli bonfarta al tiuj, kiujn ofertis Geiser. Kelkaj similaj
-bibliotekoj ankaŭ povas kunekzisti kun Geiser. Ankaŭ provis tiujn mi, bedaŭrinde, fariĝis tro
-malsimplaj, por mi. Finvenis uzi mi nur je Geiser. Kaj kiel parte rilata noto, uzas mi emakson por
-redakti skimkodon tial, ke ne konas mi ian ajn redaktilon kiu tiel bonfartas.
+Bonŝance, ekzistas [Geiser](http://www.nongnu.org/geiser/). Estas aliaj reĝimoj, kiuj provas fari
+tiujn, kiujn Geiser faras, tamen mi fariĝas pli bonfarta al tiuj, kiujn Geiser ofertis. Kelkaj
+similaj bibliotekoj ankaŭ povas kunekzisti kun Geiser. Mi ankaŭ provis tiujn, bedaŭrinde, ili fariĝis
+tro malsimplaj al mi. Mi finvenis uzi nur Geiser. Kaj kiel parte rilata noto, mi uzas emakson
+por redakti skimkodon tial, ke mi ne konas ian ajn redaktilon kiu tiel bonfartas.
 
 
 <a name="instalo">Instalo</a>
 -----------------------------
 
-Per [ELPA](https://www.emacswiki.org/emacs/ELPA), instali je Geiser facilas. Simple plenumi la jenan
+Per [ELPA](https://www.emacswiki.org/emacs/ELPA), instali Geiser facilas. Simple plenumi la jenan
 komandon
 
     M-x package-install EN geiser EN
 
-tiam post malmultajn sekundojn, havos oni je Geiser, instalita en via emaksa profilo. Sekve, metos
-oni la efektivan kodon, kiu envokas kaj agordas je Geiser:
+tiam post malmultajn sekundojn, oni havos Geiser, instalita en via emaksa profilo. Sekve, oni
+metos la efektivan kodon, kiu envokas kaj agordas Geiser:
 
 ```lisp
 (require 'geiser)
@@ -62,70 +60,70 @@ oni la efektivan kodon, kiu envokas kaj agordas je Geiser:
   (geiser-repl--write-input-ring))
 ```
 
-Ŝargas la unuesprimo je Geiser mem. Precizigas la duesprimo, ke ne invitos ĝi la uzanton por la
-aliaj realigoj, se trovas ĝi ilin. La lastesprimo malnepras—ebligas onin por plenumi
+La unuesprimo ŝargas Geiser mem. La duesprimo precizigas, ke ĝi ne invitos la uzanton por la
+aliaj realigoj, se ĝi trovas ilin. La lastesprimo malnepras—ebligas onin por plenumi
 
     M-x geiser-save EN
 
 en la [REPL](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop)-bufro, por devigi
 la konservadon de la historio al la diskdosiero, kiu implicite troveblas en `~/.geiser_history.mit`
-Estas utile se oni tuj volas konservi la REPL-historion. Ne ekzistas pli teruran aferon ol perdi
-LA esprimon. Por certigi, ke efektiviĝos ĉiomaj emaksaj kodoj supre, nun povas taksi oni ilin per
-la membroj de la EVAL-trupo—`eval-defun`, `eval-last-sexp`, `eval-region`—aŭ ankoraŭ elektas oni
+Estas utile se oni tuj volas konservi la REPL-historion. Ne ekzistas pli terura afero ol perdi
+gravajn esprimojn. Por certigi, ke ĉiomaj emaksaj kodoj supre efektiviĝos, oni nun povas taksi ilin
+per la membroj de la EVAL-trupo—`eval-defun`, `eval-last-sexp`, `eval-region`—aŭ oni ankoraŭ elektas
 naski novan emaksan procezon.
 
 
 <a name="uzado">Uzado</a>
 -------------------------
 
-Por rikolti tiujn, kiujn semis oni, kreu aŭ malfermu `.scm`-dosieron, kun malpleje ĝusta modula
+Por rikolti tiujn, kiujn oni semis, kreu aŭ malfermu `.scm`-dosieron, kun malpleje ĝusta modula
 deklaro. Tiam, premu:
 
     M-x run-geiser EN
 
-Kaj, hura! Aperas nova emaksa fenestro, enhavante la `* MIT REPL *`-bufron. Kio ajn povas oni fari
-per la REPL—vokita per la vanila komandlinia `mit-scheme`-programo—ankaŭ povas oni fari tiujn, per
+Kaj, hura! Aperas nova emaksa fenestro enhavante la `* MIT REPL *`-bufron. Kio ajn oni povas fari
+per la REPL-bufro—vokita per la vanila komandlinia `mit-scheme`-programo—oni ankaŭ povas fari, per
 ĉi tiu kaj pli. Ĉi tiu ĉefreĝimo fakte estas la Comint-reĝimo sub la kovrilo, kun kroĉiloj al skima
-procezo. Por tiuj, kiuj ne konas la Comint-reĝimon, ĝi estas la sama reĝimo kiu traktas `M-x
-shell EN`.
+procezo. Al tiuj, kiuj ne konas la Comint-reĝimon, ĝi estas la sama reĝimo kiu traktas `M-x shell
+EN`.
 
 Do, kion oni povas fari per tio? Dum redakti `.rkt`-dosieron, jen kelkaj kutimaj klavkombinoj, kiujn
-uzas mi. Haveblas la plena listo [ĉi tie](http://www.nongnu.org/geiser/geiser_5.html#Cheat-sheet).
-Notu, ke la priskribo de la klavoj, kiujn uzas mi malsupre, estas por mi mem komence, por helpi min
-komprenas tion, kion faras ĝi. Eble ili malsimilas al la oficiala priskribo, listigita sur la
+mi uzas. La plena listo haveblas [ĉi tie](http://www.nongnu.org/geiser/geiser_5.html#Cheat-sheet).
+Notu, ke la priskribo de la klavoj, kiujn mi uzas malsupre, estas por mi mem komence, por helpi min
+kompreni tion, kion ĝi faras. Eble ili malsimilas al la oficiala priskribo, listigita ĉe la
 antaŭmenciita ligilo.
 
 
 ### <a name="skimbufro">Skima bufro</a>
 
-| Klavkombinoj                  | Kion faras ĝi                                                     |
+| Klavkombinoj                  | Kion ĝi faras                                                     |
 | :---------------------------- | :---------------------------------------------------------------- |
-| <kbd>C-c</kbd> <kbd>C-z</kbd> | Iru al la REPL-bufro                                              |
-| <kbd>C-c</kbd> <kbd>C-a</kbd> | Taksu la aktualan bufron, tiam iru al la REPL-bufro               |
-| <kbd>C-M-x</kbd>              | Taksu la aktualan esprimon                                        |
-| <kbd>C-x</kbd> <kbd>C-e</kbd> | Taksu la lastan esprimon                                          |
-| <kbd>C-c</kbd> <kbd>C-r</kbd> | Taksu la regionon                                                 |
-| <kbd>C-c</kbd> <kbd>C-\</kbd> | Enmetu lambdsimbolon (λ)                                          |
+| <kbd>C-c</kbd> <kbd>C-z</kbd> | Iri al la REPL-bufro                                              |
+| <kbd>C-c</kbd> <kbd>C-a</kbd> | Taksi la aktualan bufron, tiam iri al la REPL-bufro               |
+| <kbd>C-M-x</kbd>              | Taksi la aktualan esprimon                                        |
+| <kbd>C-x</kbd> <kbd>C-e</kbd> | Taksi la lastan esprimon                                          |
+| <kbd>C-c</kbd> <kbd>C-r</kbd> | Taksi la regionon                                                 |
+| <kbd>C-c</kbd> <kbd>C-\</kbd> | Enmeti lambdsimbolon (λ)                                          |
 
 
 ### <a name="replbufro">REPL-bufro</a>
 
-| Klavkombinoj                  | Kion faras ĝi                                                     |
+| Klavkombinoj                  | Kion ĝi faras                                                     |
 | :---------------------------- | :---------------------------------------------------------------- |
-| <kbd>C-c</kbd> <kbd>C-z</kbd> | Iru al la skima bufro                                             |
-| <kbd>M-p</kbd>                | Montru la antaŭan historieron                                     |
-| <kbd>M-n</kbd>                | Montru la sekvan historieron                                      |
-| <kbd>C-c</kbd> <kbd>M-p</kbd> | Saltu al la antaŭinvito                                           |
-| <kbd>C-c</kbd> <kbd>M-n</kbd> | Saltu al la sekvinvito                                            |
-| <kbd>C-c</kbd> <kbd>C-q</kbd> | Eliru de la REPL                                                  |
+| <kbd>C-c</kbd> <kbd>C-z</kbd> | Iri al la skima bufro                                             |
+| <kbd>M-p</kbd>                | Montri la antaŭan historieron                                     |
+| <kbd>M-n</kbd>                | Montri la sekvan historieron                                      |
+| <kbd>C-c</kbd> <kbd>M-p</kbd> | Salti al la antaŭinvito                                           |
+| <kbd>C-c</kbd> <kbd>M-n</kbd> | Salti al la sekvinvito                                            |
+| <kbd>C-c</kbd> <kbd>C-q</kbd> | Eliri de la REPL                                                  |
 
 
 <a name="finrimarkoj">Finrimarkoj</a>
 -------------------------------------
 
-Laŭcele preterpasis mi multan temon de la [oficialdokumento](http://www.nongnu.org/geiser/) tial, ke
-fariĝas ĝi malĉarma al multaj homoj, kiuj malinklinas legi longajn blokojn da teksto. Ironie,
-ĉi tiu artikolo povas kvalifi kiel tio. La priskribitaj metodoj supre ne reprezentiĝas de kial faras
-la ĝenerala komunumo ilin. Do, ĝis!
+Mi laŭcele preterpasis multan temon de la [oficialdokumento](http://www.nongnu.org/geiser/) tial, ke
+ĝi fariĝas malĉarma al multaj homoj, kiuj malinklinas legi longajn blokojn da teksto. Ironie, ĉi tiu
+artikolo povas kvalifi kiel tio! La priskribitaj metodoj supre ne reprezentiĝas de kiel la ĝenerala
+komunumo faras ilin. Do, ĝis!
 
 _Dank’ al [Raymund MARTINEZ](https://zhaqenl.github.io) pro la korektoj._

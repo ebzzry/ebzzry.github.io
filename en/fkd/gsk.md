@@ -2,7 +2,6 @@ Setting up GPG and SSH in KDE
 =============================
 
 <div class="center">[Esperanto](/eo/gsk/) ▪ English</div>
-<div class="center">September 17, 2014</div>
 <div class="center">Last updated: September 27, 2018</div>
 
 >It’s not at all important to get it right the first time. It’s vitally important to get it right

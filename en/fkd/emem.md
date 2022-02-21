@@ -2,7 +2,6 @@ Converting Markdown to HTML with emem
 =====================================
 
 <div class="center">[Esperanto](/eo/emem/) ▪ English</div>
-<div class="center">March 12, 2017</div>
 <div class="center">Last updated: March 16, 2019</div>
 
 >The answers you seek you will never find until you stop looking outside and start looking for them

@@ -2,7 +2,6 @@ Ziŝaj Konsiletoj 1-a: Alinomoj kaj Funkcioj
 ===========================================
 
 <div class="center">Esperanto ▪ [English](/en/zsh-tips-1/)</div>
-<div class="center">la 26-an de Septembro 2018</div>
 <div class="center">Laste ĝisdatigita: la 31-an de Aŭgusto 2021</div>
 
 >Malsaĝulo miras pri nekutimaj aferoj. Ŝagulo miras pri la kutimaj aferoj.<br>

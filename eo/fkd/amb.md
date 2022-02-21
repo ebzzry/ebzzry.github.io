@@ -2,7 +2,6 @@ Milda Enkonduko al Nedeterminismo en Skimo
 ==========================================
 
 <div class="center">Esperanto ▪ [English](/en/amb/)</div>
-<div class="center">la 24-an de Februaro 2019</div>
 <div class="center">Laste ĝisdatigita: la 20-an de Oktobro 2021</div>
 
 >Kelke da plej kernaj paŝoj en mensa kresko baziĝas ne simple pri novajn kapablojn akiri, sed

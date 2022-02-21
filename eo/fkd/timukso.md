@@ -2,7 +2,6 @@ Kiel Mi Uzas Timukson
 =====================
 
 <div class="center">Esperanto ▪ [English](/en/tmux/)</div>
-<div class="center">la 26-an de Septembro 2018</div>
 <div class="center">Laste ĝisdatigita: la 28-an de Septembro 2021</div>
 
 >Furioza agado ne estas anstataŭaĵo de komprenado.<br>

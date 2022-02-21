@@ -2,7 +2,6 @@ Retrospektive
 =============
 
 <div class="center">Esperanto ▪ [English](/en/retrospect/)</div>
-<div class="center">la 8-an de Februaro 2018</div>
 <div class="center">Laste ĝisdatigita: la 19-an de Februaro 2022</div>
 
 >Malfacileco estas tio, kio vekas la geniulon.<br>

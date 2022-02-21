@@ -2,7 +2,6 @@ Maldaŭra Rondvojaĝo de Gito kaj GitHub
 ======================================
 
 <div class="center">Esperanto ▪ [English](/en/git-github/)</div>
-<div class="center">la 11-an de Julio 2018</div>
 <div class="center">Laste ĝisdatigita: la 31-an de Aŭgusto 2021</div>
 
 >Ĉiujn solvitajn problemon sciu kiel solvi.<br>

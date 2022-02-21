@@ -2,7 +2,6 @@ Aboco de la Lambdokalkulo
 =========================
 
 <div class="center">Esperanto ▪ [English](/en/lambda-calculus/)</div>
-<div class="center">la 21-an de Februaro 2018</div>
 <div class="center">Laste ĝisdatigita: la 18-an de Oktobro 2019</div>
 
 >Oni ne vere komprenas ion krom se oni povas klarigi tion al sia avino.<br>

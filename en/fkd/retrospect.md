@@ -2,7 +2,6 @@ In Retrospect
 =============
 
 <div class="center">[Esperanto](/eo/rerigardante/) ▪ English</div>
-<div class="center">July 11, 2013</div>
 <div class="center">Last updated: October 10, 2021</div>
 
 >Difficulty is what wakes up the genius.<br>

@@ -2,7 +2,6 @@ Krei Sekurkopiojn per Ugarit
 ============================
 
 <div class="center">Esperanto ▪ [English](/en/ugarit/)</div>
-<div class="center">la 18-an de Februaro 2018</div>
 <div class="center">Laste ĝisdatigita: la 24-an de Aŭgusto 2021</div>
 
 >Bona juĝo devenas el sperto, kaj sperto devenas el malbona juĝo.<br>
