@@ -37,7 +37,7 @@ estas la epitomo de tia kategorio. Ĝi ergonomias kaj rapidas. Se oni jam estas
 rutinhava maŝinskribisto, oni povas trovi, ke post mallonga adaptiĝa tempodaŭro,
 oni eĉ maŝinskribas pli rapide per la Avantaĝo.
 
-Bedaŭrinde, la defaŭlta aranĝo de la klavoj ne konvenas por mi. La <kbd>Ctrl</kbd> kaj la
+Bedaŭrinde, la implicita aranĝo de la klavoj ne konvenas por mi. La <kbd>Ctrl</kbd> kaj la
 <kbd>Alt</kbd> klavoj estas tre foraj por atingi. Ĉi tio gravas por uzantoj de programaro kiel
 Emakso kaj Ziŝo.
 
