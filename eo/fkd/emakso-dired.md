@@ -2,7 +2,6 @@ Manipuli Dosierujojn en Emakso
 ==============================
 
 <div class="center">Esperanto ▪ [English](/en/emacs-dired/)</div>
-<div class="center">la 12-an de Februaro 2018</div>
 <div class="center">Laste ĝisdatigita: la 20-an de Februaro 2022</div>
 
 >Supozi bonas, tamen eltrovi pli bonas.<br>
@@ -57,15 +56,15 @@ aŭ pluraj eroj. Uzi ilin al pluraj eroj estos klarigitaj sekve.
 
 | Fulmoklavo                    | Kion ĝi faras                                                      |
 | :---------------------------- | :----------------------------------------------------------------- |
-| <kbd>R</kbd>                  | Renomu eron                                                        |
-| <kbd>C</kbd>                  | Kopiu eron                                                         |
-| <kbd>D</kbd>                  | Forviŝu eron                                                       |
-| <kbd>O</kbd>                  | Ŝanĝu proprulon                                                    |
-| <kbd>G</kbd>                  | Ŝanĝu grupon                                                       |
-| <kbd>M</kbd>                  | Ŝanĝu permesosjn                                                   |
-| <kbd>S</kbd>                  | Kreu simbolligilon                                                 |
-| <kbd>T</kbd>                  | Tuŝu eron                                                          |
-| <kbd>!</kbd> aŭ <kbd>x</kbd>  | Plenumu ŝelan komandon al ero                                      |
+| <kbd>R</kbd>                  | Renomi eron                                                        |
+| <kbd>C</kbd>                  | Kopii eron                                                         |
+| <kbd>D</kbd>                  | Forviŝi eron                                                       |
+| <kbd>O</kbd>                  | Ŝanĝi proprulon                                                    |
+| <kbd>G</kbd>                  | Ŝanĝi grupon                                                       |
+| <kbd>M</kbd>                  | Ŝanĝi permesosjn                                                   |
+| <kbd>S</kbd>                  | Krei simbolligilon                                                 |
+| <kbd>T</kbd>                  | Tuŝi eron                                                          |
+| <kbd>!</kbd> aŭ <kbd>x</kbd>  | Plenumi ŝelan komandon al ero                                      |
 
 
 <a name="markaj">Markaj komandoj</a>
@@ -76,13 +75,13 @@ sur eroj, por ke oni povu presti la operaciojn en la antaŭa sekcio, sur ili:
 
 | Fulmoklavo                    | Kion ĝi faras                                                      |
 | :---------------------------- | :----------------------------------------------------------------- |
-| <kbd>m</kbd>                  | Marku eron                                                         |
-| <kbd>d</kbd>                  | Marku eron por forviŝi                                             |
-| <kbd>x</kbd>                  | Plenumu operacion                                                  |
-| <kbd>u</kbd>                  | Malmarku soleron                                                   |
-| <kbd>U</kbd>                  | Malmarku ĉiujn erojn                                               |
-| <kbd>t</kbd>                  | Baskuligu markojn inter markitaj kaj nemarkitaj eroj               |
-| <kbd>c</kbd>                  | Densigu erojn                                                      |
+| <kbd>m</kbd>                  | Marki eron                                                         |
+| <kbd>d</kbd>                  | Marki eron por forviŝi                                             |
+| <kbd>x</kbd>                  | Plenumi operacion                                                  |
+| <kbd>u</kbd>                  | Malmarki soleron                                                   |
+| <kbd>U</kbd>                  | Malmarki ĉiujn erojn                                               |
+| <kbd>t</kbd>                  | Baskuligi markojn inter markitaj kaj nemarkitaj eroj               |
+| <kbd>c</kbd>                  | Densigi erojn                                                      |
 
 
 <a name="aliaj">Aliaj komandoj</a>

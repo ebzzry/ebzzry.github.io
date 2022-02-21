@@ -2,7 +2,6 @@ Emacs Tips and Tricks 1: Regions and Marks
 ==========================================
 
 <div class="center">[Esperanto](/eo/emakskonsiletoj-1-a/) ▪ English</div>
-<div class="center">September 9, 2013</div>
 <div class="center">Last updated: February 12, 2018</div>
 
 I still have to find a better text editor than [Emacs](https://www.gnu.org/software/emacs/). What

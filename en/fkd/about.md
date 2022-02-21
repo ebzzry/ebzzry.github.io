@@ -2,8 +2,7 @@ About
 =====
 
 <div class="center">[Esperanto](/eo/pri/) ▪ English</div>
-<div class="center">March 27, 2017</div>
-<div class="center">Last updated: January 24, 2022</div>
+<div class="center">Last updated: February 21, 2022</div>
 
 <div>
 <img align="right" width="50%" src="/images/photos/ebzzry.jpg">
@@ -14,5 +13,5 @@ Additionally, he likes to do physical training and sports, mainly with kettlebel
 He currently lives with his wife and son in the warm country of the Philippines.
 </div>
 <div>
-[Email](mailto:ebzzry@icloud.com) ▪ [GPG](/dat/ebzzry.pub.asc) ▪ [GitHub](https://github.com/ebzzry) ▪ [LinkedIn](https://linkedin.com/in/ebzzry) ▪ [Telegram](https://t.me/ebzzry) ▪ [DeviantArt](https://ebzzry.deviantart.com) ▪ [Steam](https://steamcommunity.com/id/ebzzry)
+[Email](mailto:ebzzry@icloud.com) ▪ [GPG](/dat/ebzzry.pub.asc) ▪ [GitHub](https://github.com/ebzzry) ▪ [LinkedIn](https://linkedin.com/in/ebzzry) ▪ [Telegram](https://t.me/ebzzry) ▪ [DeviantArt](https://ebzzry.deviantart.com) ▪ [Steam](https://steamcommunity.com/id/ebzzry) ▪ [Twitter](https://twitter.com/ebzzry)
 </div>

@@ -2,7 +2,6 @@ Kiel Mi Uzas Giton
 ==================
 
 <div class="center">Esperanto ▪ [English](/en/git/)</div>
-<div class="center">la 26-an de Julio 2019</div>
 <div class="center">Laste ĝisdatigita: la 23-an de Aŭgusto 2021</div>
 
 >Male, tiuj kun senĉeseco povas malatenti kiujn aliaj pensas. Ion ajn ili povas

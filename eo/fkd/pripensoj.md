@@ -2,7 +2,6 @@ Pripensoj
 =========
 
 <div class="center">Esperanto ▪ [English](/en/reflections/)</div>
-<div class="center">la 3-an de Novembro 2017</div>
 <div class="center">Laste ĝisdatigita: la 7-an de Februaro 2022</div>
 
 Ĉi tiu paĝo enhavas kelke da miaj propraj pripensoj. La enskriboj estas

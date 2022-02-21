@@ -2,7 +2,6 @@ Virtualigado en Linukso per KVM
 ===============================
 
 <div class="center">Esperanto ▪ [English](/en/kvm/)</div>
-<div class="center">la 3-an de Marto 2018</div>
 <div class="center">Laste ĝisdatigita: la 28-an de Septembro 2021</div>
 
 >Se tion oni faras, kion oni ĉiam faras; tion oni akiros, kion oni ĉiam akiras.<br>

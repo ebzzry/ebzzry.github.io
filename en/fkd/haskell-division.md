@@ -2,7 +2,6 @@ Division in Haskell
 ===================
 
 <div class="center">[Esperanto](/eo/haskeldivido/) ▪ English</div>
-<div class="center">March 8, 2017</div>
 <div class="center">Last updated: May 22, 2019</div>
 
 While learning about division in Haskell, I realized that the concept is not as trivial as I

@@ -2,7 +2,6 @@ Synchronizing Sites with Usync
 ==============================
 
 <div class="center">[Esperanto](/eo/usync/) ▪ English</div>
-<div class="center">May 21, 2013</div>
 <div class="center">Last updated: February 2, 2022</div>
 
 >What I cannot create, I do not understand.<br>

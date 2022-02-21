@@ -2,8 +2,7 @@ Pri
 ===
 
 <div class="center">Esperanto ▪ [English](/en/about/)</div>
-<div class="center">la 27-an de Aprilo 2017</div>
-<div class="center">Laste ĝisdatigita: la 24-an de Januaro 2022</div>
+<div class="center">Laste ĝisdatigita: la 21-an de Februaro 2022</div>
 
 <div>
 <img align="right" width="50%" src="/images/photos/ebzzry.jpg">
@@ -14,5 +13,5 @@ Krome, fiziktrejnado kaj sportoj tre interesas al li, precipe per globhalteroj, 
 Li nune loĝas kun sia edzino kaj filo en la varma lando de Filipinoj.
 </div>
 <div>
-[Retpoŝto](mailto:ebzzry@icloud.com) ▪ [GPG](/dat/ebzzry.pub.asc) ▪ [GitHub](https://github.com/ebzzry) ▪ [LinkedIn](https://linkedin.com/in/ebzzry) ▪ [Telegramo](https://t.me/ebzzry) ▪ [DeviantArt](https://ebzzry.deviantart.com) ▪ [Steam](https://steamcommunity.com/id/ebzzry)
+[Retpoŝto](mailto:ebzzry@icloud.com) ▪ [GPG](/dat/ebzzry.pub.asc) ▪ [GitHub](https://github.com/ebzzry) ▪ [LinkedIn](https://linkedin.com/in/ebzzry) ▪ [Telegramo](https://t.me/ebzzry) ▪ [DeviantArt](https://ebzzry.deviantart.com) ▪ [Steam](https://steamcommunity.com/id/ebzzry) ▪ [Tvitero](https://twitter.com/ebzzry)
 </div>

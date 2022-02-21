@@ -2,19 +2,18 @@ Konverti de Markdown al HTML per emem
 =====================================
 
 <div class="center">Esperanto ▪ [English](/en/emem/)</div>
-<div class="center">la 5-an de Aŭgusto 2018</div>
 <div class="center">Laste ĝisdatigita: la 31-an de Aŭgusto 2021</div>
 
 >Oni ne trovos la respondojn kiujn oni serĉas ĝis oni haltas serĉi ekster kaj komenciĝas serĉi ilin
 >el oni mem.<br>
 >―JJ, Ergo Proxy
 
-Manieron por HTML-dokumentojn krei el miaj Markdown-dosieroj mi ĉiam volis. Komence,
-HTML-dosierojn el miaj tekstaj dosieroj mi nur volis havi por ke ilin mi povu vidi per mia
-poŝtelefono. Poste, manieron por tiujn dosierojn krei por ke ilin mi povu alŝuti al la interreto
-kaj ilin vidi sur aliaj aparatoj. Jam ekzistas iloj por ja tion fari. Ilin mi provis, tamen min mem
-mi trovis la eligon ŝanĝi ofte nur por ilin igas akcepteblaj. Neniuj el ili konformiĝis al mia
-kriterio: facile por munti, facile por uzi, kaj decan eligon realigas.
+Manieron por HTML-dokumentojn krei el miaj Markdown-dosieroj mi ĉiam volis. Komence, HTML-dosierojn
+el miaj tekstaj dosieroj mi nur volis havi por ke ilin mi povu vidi per mia poŝtelefono. Poste, mi
+dezirisi manieron por krei tiujn dosierojn por ke ilin mi povu alŝuti al la interreto kaj vidi ilin
+per aliaj aparatoj. Jam ekzistas iloj por ja tion fari. Ilin mi provis, tamen min mem mi trovis la
+eligon ŝanĝi ofte nur por ilin igas akcepteblaj. Neniuj el ili konformiĝis al mia kriterio: facile
+por munti, facile por uzi, kaj decan eligon realigas.
 
 Je [emem](https://github.com/ebzzry/emem) mi skribis kiel respondo al tiuj bezonoj. Emem estas
 malgranda ilo kiu Markdown-dosierojn ricevas aŭ el la ĉefenigujo aŭ diska dosiero, tiam HTML-eligon

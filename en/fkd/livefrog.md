@@ -2,7 +2,6 @@ Migrating from LiveJournal to Frog
 ==================================
 
 <div class="center">[Esperanto](/eo/livefrog/) ▪ English</div>
-<div class="center">May 29, 2013</div>
 <div class="center">Last updated: September 29, 2018</div>
 
 >I don’t know where I’m going, but I’m on my way.<br>

@@ -2,7 +2,6 @@ Signoj kaj Interpunkcioj
 ========================
 
 <div class="center">Esperanto ▪ [English](/en/symbols-marks/)</div>
-<div class="center">la 16-an de Julio 2018</div>
 <div class="center">Laste ĝisdatigita: la 23-an de Aŭgusto 2021</div>
 
 >Se grandiozon oni volas atingi, konsentojn ĉesu peti.<br>

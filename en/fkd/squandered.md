@@ -2,7 +2,6 @@ Squandered Relentlessness
 =========================
 
 <div class="center">[Esperanto](/eo/malsxparitaj/) ▪ English</div>
-<div class="center">May 9, 2013</div>
 <div class="center">Last updated: February 19, 2021</div>
 
 >The first step towards getting somewhere is to decide that you are not going to stay where you
