@@ -2,7 +2,6 @@ Blogi per Frog
 ==============
 
 <div class="center">Esperanto ▪ [English](/en/frog/)</div>
-<div class="center">la 16-an de Februaro 2018</div>
 <div class="center">Laste ĝisdatigita: la 24-an de Aŭgusto 2021</div>
 
 >Unu persono kun ardo pli bonas ol kvardek personoj nure interesataj.<br>

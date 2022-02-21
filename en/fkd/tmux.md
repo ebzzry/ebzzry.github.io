@@ -2,7 +2,6 @@ How I Roll with Tmux
 ====================
 
 <div class="center">[Esperanto](/eo/timukso) ▪ English</div>
-<div class="center">October 18, 2017</div>
 <div class="center">Last updated: September 28, 2021</div>
 
 >Furious activity is no substitute for understanding.<br>

@@ -2,7 +2,6 @@ Mia Markdown-Stila Gvidilo
 ==========================
 
 <div class="center">Esperanto ▪ [English](/en/markdown/)</div>
-<div class="center">la 24-an de Septembro 2018</div>
 <div class="center">Laste ĝisdatigita: la 31-an de Aŭgusto 2021</div>
 
 >La reglamentoj kiuj direktas cirkonstancojn nuliĝis per novaj cirkonstancoj.<br>

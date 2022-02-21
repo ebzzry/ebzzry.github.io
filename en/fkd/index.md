@@ -2,7 +2,6 @@ The Musings of an Optimist
 ==========================
 
 <div class="center">[Esperanto](/eo/) ▪ English</div>
-<div class="center">August 15, 2015</div>
 <div class="center">Last updated: October 10, 2021</div>
 
 <img src="/bil/pluvis-1008x250.jpg" class="banner" alt="pluvis" title="On the face of the cosmos, we all are children forever." />

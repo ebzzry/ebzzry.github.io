@@ -2,10 +2,9 @@ Agordi Retpoŝton per Emakso
 ===========================
 
 <div class="center">Esperanto ▪ [English](/en/emacs-mail/)</div>
-<div class="center">la 14-an de Februaro 2018</div>
 <div class="center">Laste ĝisdatigita: la 23-an de Aŭgusto 2021</div>
 
-> Nur pro tio, ke ne fariĝis io, ne signifas, ke ne fareblas ĝi. Nur pro tio, ke fareblas io, ne signifas, ke farendas ĝi.<br>
+>Nur pro tio, ke ne fariĝis io, ne signifas, ke ne fareblas ĝi. Nur pro tio, ke fareblas io, ne signifas, ke farendas ĝi.<br>
 >―Barry GLASFORD
 
 Nunatempe kontroli retpoŝton postulas onin por iri al la retejo de sia provizanto, aŭ uzi
@@ -19,7 +18,7 @@ kaj kiel agordi ilin ĝuste. En ĉi tiu lernilo, mi supozas, ke oni akiras siajn
 per [Gmail](https://gmail.com) kaj ĝia IMAP-interfacio.
 
 
-<a name="et"></a>Enhavotabelo
+<a name="et">Enhavotabelo</a>
 -----------------------------
 
 - [Elŝuti mesaĝojn](#elsxuti)
@@ -34,14 +33,14 @@ per [Gmail](https://gmail.com) kaj ĝia IMAP-interfacio.
 - [Finrimarkoj](#finrimarkoj)
 
 
-<a name="elsxuti"></a>Elŝuti mesaĝojn
+<a name="elsxuti">Elŝuti mesaĝojn</a>
 -------------------------------------
 
 Oni bezonas havi manieron por elŝuti la retpoŝtojn, el retpoŝtservilo. Facile uzebla
 programo, kiu faras tion, estas [getmail](http://pyropus.ca/software/getmail/).
 
 
-### <a name="elsxutiinstalo"></a>Instalo
+### <a name="elsxutiinstalo">Instalo</a>
 
 Plejofte, getmail jam haveblas sur la sistemo per la pako-administrilo:
 
@@ -57,7 +56,7 @@ Tamen, se onia sistemo ne disponigas manieron por facile instali je getmail, oni
 [hejmpaĝo](http://pyropus.ca/software/getmail/), tiam elŝutu la tar-arĥivon.
 
 
-### <a name="elsxutiagordo"></a>Agordo
+### <a name="elsxutiagordo">Agordo</a>
 
 Sekve, oni bezonas fari sorĉon, por ke getmail sciu kiel elŝuti la aĵojn. Kreu la dosieron
 `~/.getmail/getmailrc`. Krom tio, oni bezonas krei kaj precizigi kien la mesaĝojn iras:
@@ -109,7 +108,7 @@ SimpleIMAPSSLRetriever:foobar@gmail.com@imap.gmail.com:993:
 ```
 
 
-<a name="legi"></a>Legi mesaĝojn
+<a name="legi">Legi mesaĝojn</a>
 --------------------------------
 
 Nun ke oni povas elŝuti siajn mesaĝojn, oni bezonas havi manieron por legi ilin. Ĉi tie estas kie mu
@@ -142,7 +141,7 @@ ekzistas de la pako-administrila instalo, malsimilas inter sistemoj. Do, interte
 interesitas nur pri la `mu/mu4e/`-subdosierujo.
 
 
-### <a name="legiagordo"></a>Agordo
+### <a name="legiagordo">Agordo</a>
 
 Oni nun bezonas fari tiun mu4e-dosierujon alirebla al Emakso. Por fari tiel, oni bezonas redakti
 aŭ `~/.emacs.d/init.el` aŭ `~/.emacs`:
@@ -173,7 +172,7 @@ Por fari onian vivon pli facile, agordu kelkajn variablojn:
 ```
 
 
-### <a name="legiplenumo"></a>Plenumo
+### <a name="legiplenumo">Plenumo</a>
 
 Oni povas reŝargi Emakson, por ke tiuj agordoj povu efektiviĝi, aŭ alternative, ovi povas marki
 tiujn liniojn per <kbd>C-Space</kbd>, tiam premu:
@@ -190,7 +189,7 @@ mesaĝon. La ceteraj komandoj devus esti mem-klarigaj, tamen se oni povas lerni 
 povas legi la [agrablan manlibron](http://www.djcbsoftware.nl/code/mu/mu4e/index.html).
 
 
-<a name="cxifrado"></a>Ĉifrado
+<a name="cxifrado">Ĉifrado</a>
 -----------------------------
 
 Malnepre oni eble volas aldoni kelkajn alĝustigetojn, por ke la ĉifrado kaj
@@ -259,10 +258,11 @@ antaŭ ĝi ĉifras ilin, estos havi malĉifritajn kopiojn sur la loka disko. Pri
 principo aplikatas. Do, estu atenta de ĉi tiuj situacioj, kaj alĝustigetu la agordon kiel necese.
 
 
-<a name="finrimarkoj"></a>Finrimarkoj
+<a name="finrimarkoj">Finrimarkoj</a>
 -------------------------------------
 
-Tenu en la kalkulo, ke mi laŭcele evitis eltiregis multe da detalo, ĉar devus konfuzi la celon de ĉi
-tiu artikolo por fari la aferojn simplaj. Tamen, se oni volas lerni pli, oni ĉiam povas iri al la [getmail-](http://pyropus.ca/software/getmail/documentation.html)
-kaj [mu4e-](http://www.djcbsoftware.nl/code/mu/mu4e/index.html)dokumentadoj, por plenumi la
-mankajn informojn kiun oni eble havi.
+Tenu en la kalkulo, ke mi laŭcele evitis multe da detalo, ĉar devus konfuzi la celon de ĉi
+tiu artikolo por fari la aferojn simplajn. Tamen, se oni volas lerni pli, oni ĉiam povas iri al la
+[getmail-](http://pyropus.ca/software/getmail/documentation.html) kaj
+[mu4e-](http://www.djcbsoftware.nl/code/mu/mu4e/index.html)dokumentadoj, por plenumi la mankajn
+informojn kiun oni eble havi.

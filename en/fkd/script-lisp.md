@@ -2,7 +2,6 @@ Scripting in Common Lisp
 ========================
 
 <div class="center">[Esperanto](/eo/skripti-lispon/) ▪ English</div>
-<div class="center">July 5, 2017</div>
 <div class="center">Last updated: June 14, 2019</div>
 
 >The light that burns twice as bright burns half as long.<br>

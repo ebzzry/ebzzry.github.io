@@ -2,7 +2,6 @@ A Gentle Introduction to Fallacies
 ==================================
 
 <div class="center">[Esperanto](/eo/sofismoj/) ▪ English</div>
-<div class="center">May 1, 2016</div>
 <div class="center">Last updated: October 10, 2021</div>
 
 >Learning is not compulsory; neither is survival.<br>

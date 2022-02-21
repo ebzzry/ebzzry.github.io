@@ -2,7 +2,6 @@ Milda Enkonduko al Sofismoj
 ===========================
 
 <div class="center">Esperanto ▪ [English](/en/fallacies/)</div>
-<div class="center">la 29-an de Julio 2018</div>
 <div class="center">Laste ĝisdatigita: la 31-an de Aŭgusto 2021</div>
 
 >Lerni ne necesas; nek travivas.<br>

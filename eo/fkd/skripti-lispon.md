@@ -2,7 +2,6 @@ Skriptado en Komunlispo
 =======================
 
 <div class="center">Esperanto ▪ [English](/en/script-lisp/)</div>
-<div class="center">la 24-an de Septembro 2018</div>
 <div class="center">Laste ĝisdatigita: la 23-an de Aŭgusto 2021</div>
 
 >La lumo kiu fajras duoble brila, fajras duone longa.<br>

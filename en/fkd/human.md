@@ -2,7 +2,6 @@ How to Communicate like a Human
 ===============================
 
 <div class="center">[Esperanto](/eo/homo/) ▪ English</div>
-<div class="center">February 28, 2017</div>
 <div class="center">Last updated: October 10, 2021</div>
 
 >The ability to speak does not make you intelligent.<br>

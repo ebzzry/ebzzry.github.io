@@ -2,7 +2,6 @@ Verbotempoj en La Angla
 =======================
 
 <div class="center">Esperanto ▪ [English](/en/verb-tenses/)</div>
-<div class="center">la 15-an de Julio 2018</div>
 <div class="center">Laste ĝisdatigita: la 1-an de Decembro 2019</div>
 
 >La kontrasto inter ordinara kaj eksterordinara estas tiu eta pliaĵo.<br>
