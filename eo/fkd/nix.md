@@ -735,8 +735,8 @@ nix-repl> ve.a
 "hundo"
 ```
 
-Ankaŭ eblas por la defaŭltajn valorojn precizigi. Kiam parametro kun defaŭlta valoro ne estas uzita,
-la defaŭlta valoro estos uzita. Simile, en Komunlispo:
+Ankaŭ eblas por la implicitajn valorojn precizigi. Kiam parametro kun implicita valoro ne estas uzita,
+la implicita valoro estos uzita. Simile, en Komunlispo:
 
 ```lisp
 * (defun birdo (a &optional (b "O.o"))
@@ -790,7 +790,7 @@ nix-repl> birdo { a = "oro"; b = "argxento"; c = "bronzo"; }
 
 Mi diris ‹pseŭda› ĉar la valoro por `c` estis ankoraŭ postulita.
 
-Defaŭltaj valoroj kaj variabla loknombro pova esti kunmetitaj:
+Implicitaj valoroj kaj variabla loknombro pova esti kunmetitaj:
 
 ```nix
 nix-repl> birdo = atribuoj@{ a, b, c ? "C", ... }: a + b + c + atribuoj.z
@@ -1044,7 +1044,7 @@ Por ĉiomajn haveblajn pakojn listigi, plenumu:
 ### <a name="nixpkgsagordajxo">Agordaĵo</a>
 
 La dosiero `~/.nixpkgs/config.nix` estas Nix-esprimo, kiu estas legita per la Nix-komandoj. Ene,
-pakajn transpasojn oni povas precizigi—agordo kiu defaŭltajn agordojn uzurpas, kaj aliajn
+pakajn transpasojn oni povas precizigi—agordo kiu implicitajn agordojn uzurpas, kaj aliajn
 alĝustigilojn, inkluzive, sed ne limigataj al, retumilaj kromprogramoj, grafikfasadoaj agordoj, SSL,
 ktp.
 
@@ -1279,7 +1279,7 @@ stdenv.mkDerivation rec {
 
 Oni povas rimarki, ke la anglan ni uzas ene tial, ke ĝi estas la devigita lingvo en la tutprojekto.
 
-Kio novas ĉi tie estas la atribuo `installPhase`. La defaŭlta kunmetada procedoj de la *tthsum*-pako
+Kio novas ĉi tie estas la atribuo `installPhase`. La implicita kunmetada procedoj de la *tthsum*-pako
 malsamas al la maniero, en kiu instalojn Nix traktas, do ni devas esti specifa pri tio. La `$out`
 identigilo signifas pri la fina dosierujo kie la programo loĝos en `/nix/store/`. En la uzantmedio,
 la programo haveblos ĉe `~/.nix-profile/bin/tthsum`, kaj en la sistemmedio la programo haveblos ĉe
@@ -1454,7 +1454,7 @@ stdenv.mkDerivation {
 ```
 
 *.nix*-dosiero estas Nix-esprimo. En ĉi tiu ekzemplo, ĝi estas funkcio kiu unu argumenton akceptas
-kun defaŭlta valoro. La bizara `<nixpkgs>` montras al la valoro de la atribuo `nixpkgs` deklarita en
+kun implicita valoro. La bizara `<nixpkgs>` montras al la valoro de la atribuo `nixpkgs` deklarita en
 la `NIX_PATH` media variablo. Sur NixOS, ĝi aspektas jene:
 
     $ echo $NIX_PATH
