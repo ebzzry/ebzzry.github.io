@@ -192,7 +192,7 @@ function rm+ () {
 }
 ```
 
-La pakmastrumilon de la sistemo kontrolu kiel je `parallel` instali.
+La pakadministrilon de la sistemo kontrolu kiel je `parallel` instali.
 
 
 ### <a name="rm_heliko"></a>rm@
@@ -211,7 +211,7 @@ function rm@ () {
 }
 ```
 
-La pakmastrumilon de la sistemo kontrolu kiel je `shred` instali.
+La pakadministrilon de la sistemo kontrolu kiel je `shred` instali.
 
 
 ### <a name="defmk"></a>def_mk

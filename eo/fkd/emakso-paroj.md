@@ -75,7 +75,7 @@ Je smartparens oni ŝaltu en la startigo, kaj ĝin oni kroĉu al egaj kroĉiloj:
 -------------------------
 
 Parigitajn signojn kiel rondaj krampoj, kurbaj krampoj, kvadrataj krampoj, citiloj, angulaj
-krampoj, kaj aliaj koncepteblaj parigeblaj signoj mastrumi jam ĉiam doloras. Tiun
+krampoj, kaj aliaj koncepteblaj parigeblaj signoj administri jam ĉiam doloras. Tiun
 problemon aliaj pakoj solvas parte. Bedaŭrinde, kelkaj punktoj mankas al ili.
 
 En la kodetoj ĉi-sube, la ĉapelo (^) simbolo estos uzita por la

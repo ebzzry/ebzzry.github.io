@@ -71,8 +71,8 @@ donas. Falsan senson de plibonigoj ĉi tio kreas.
 
 Antaŭ multaj jaroj siajn semajn [paperojn](https://nixos.org/~eelco/pubs/)
 [Eelco DOLSTRA](https://nixos.org/~eelco/) skribis, en kiu, la radikalajn manierojn por programaron
-disponigi li priskribis. La kernojn de [Nix](https://nixos.org/nix/), pure funkcia paka mastrumila
-lingvo kiu la malsanon solvis kiu la komputikon delonge plagis—kompatinda paka mastrumado—ĉi tiuj
+disponigi li priskribis. La kernojn de [Nix](https://nixos.org/nix/), pure funkcia paka administrila
+lingvo kiu la malsanon solvis kiu la komputikon delonge plagis—kompatinda paka administrado—ĉi tiuj
 paperoj formis. En ĉi tiu artikolo mi parolos pri la Nix-familio, kaj kiel ĝin uzi por la avantaĝo.
 
 La dolarsigno ($) uzitos por la ŝelan inviton de normuzanto indiki, dum la kradsigno (#) uzitos
@@ -99,7 +99,7 @@ dosiersistemo, uzantoj, servoj, retagordo, enigaparatoj, kernaj parametroj, kaj 
 enhavas. Signifas, ke je _configuration.nix_ de iu oni povas preni kaj ĝian ekzaktan sistemagordon
 havu! En NixOS oni ne plu bezonas ludadi pri la tutsistemo por la agordo kiun oni
 deziras. Porokazajn solvojn oni ne plu uzas por deziratan agordan staton precizigi. Aldonan
-programaron oni ne plu bezonas instali por sistemagordon mastrumi.
+programaron oni ne plu bezonas instali por sistemagordon administri.
 
 NixOS ne konformiĝas al [FHS](https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard) aldonan
 cerban damaĝon efektive malebligi—spacon donanta por multe da flekso kaj eltrovemo. Je `/usr/` kaj
@@ -362,7 +362,7 @@ Eliru de la ŝelo, tiam iru al la grafika fasado per <kbd>Alt+F7</kbd>, tiam ens
 ---------------------
 
 La komponanto kiu la koron de NixOS kaj Nixpkgs fondas estas la [Nix](https://nixos.org/nix)-lingvo
-(niks). Ĝi estas deklarlingvo kreita por pakojn mastrumi.
+(niks). Ĝi estas deklarlingvo kreita por pakojn administri.
 
 Por ke la lingvon oni facile povu kompreni, je nix-repl ni instalu:
 
@@ -904,7 +904,7 @@ en la [gvidilo](https://nixos.org/nix/manual/#ch-expression-language).
 <a name="nixpkgs">Nixpkgs</a>
 -----------------------------
 
-Nixpkgs (niks▪pa▪kej▪ĝes) estas kolekto de pakoj organizitaj kaj mastrumitaj per uzantoj
+Nixpkgs (niks▪pa▪kej▪ĝes) estas kolekto de pakoj organizitaj kaj administritaj per uzantoj
 tutmonde. Pro tio ke la fontkodo estas en [GitHub](https://github.com/nixos/nixpkgs), la avantaĝon
 de la potenca kunlaborada sistemo kiun tiu platformo ofertas ĝi eblas ekspluati. Grandan vicaron da
 pakoj la [kolekto](https://nixos.org/nixos/packages.html) havas, de produktivecaj apoj al teoremaj
@@ -1386,7 +1386,7 @@ disponigojn de apo elprovi aŭ por eblojn kontrasti antaŭ liverado.
 
 Por mediojn krei kiuj estas malkonektitaj al la resto de la sistemo, manieron por la dependencojn de
 apo kaj sia datumo mem apartigi, de kutima sistema interveno ni bezonas havi. Onin la nix-shell
-permesas por maldikajn nivelojn de abstraktado krei, la determinismon kaj risurcan mastrumadon de
+permesas por maldikajn nivelojn de abstraktado krei, la determinismon kaj risurcan administradon de
 Nix mem ekspluatante.
 
 Por ilustri, ni kontrolu, ke [GNU Hello](https://www.gnu.org/software/hello/) ne fakte estas ankoraŭ
@@ -1625,7 +1625,7 @@ Per tiuj du dosieroj, je _kapo_ oni nun povas instali:
 <a name="finrimarkoj">Finrimarkoj</a>
 -------------------------------------
 
-Potencajn ilojn por sistemojn kaj disvolvajn agordojn mastrumi facile Nix provizas. Fleksajn
+Potencajn ilojn por sistemojn kaj disvolvajn agordojn administri facile Nix provizas. Fleksajn
 facilojn por rendimentajn laborfluojn kaj distrubuajn modelojn krei ĝi havas. Se la plej gravajn
 eblojn de la Nix-ekosistemo kiuj plaĉas al mi, mi devas listigi, ili estas:
 
@@ -1656,7 +1656,7 @@ NixOS. Ĝi ankaŭ haveblas per [MELPA](https://melpa.org/#/nix-mode). Ĝin oni p
 M-x package-install EN nix-mode EN
 ```
 
-Ekzistas aliaj pakaj mastrumadaj sistemoj kiuj ĉi tiun problemareon ankaŭ provas solvi. Tiuj,
+Ekzistas aliaj pakaj administradaj sistemoj kiuj ĉi tiun problemareon ankaŭ provas solvi. Tiuj,
 kiujn mi konas estas [AppImage](http://appimage.org/), [Zero Install](http://0install.net/),
 [Snapcraft](https://snapcraft.io/), kaj [Flatpak](http://flatpak.org/).
 
