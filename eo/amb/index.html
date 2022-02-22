@@ -3,7 +3,7 @@
 </code></pre><p>la aktuala daŭrigo—la restanta komputo—estas</p><pre><code class="scheme">&#40;lambda &#40;v&#41; v&#41;
 </code></pre><p>kaj la restanta operacio estas</p><pre><code class="scheme">&#40;&#40;lambda &#40;v&#41; v&#41; 0&#41;
 </code></pre><p>kiu liveras na</p><pre><code class="scheme">0
-</code></pre><p>Tio estas la rezulto tial, ke la restanta komputo en tiu nivelo—la plej supra nivelo—estas la identa funkcio.</p><p>Tenu en la kalkulo, ke la nomo de la argumento de la lambdo ne gravas. Ĝi povas esti <code>v</code>, <code>x</code>, aŭ <code>hundo-kato-muso</code>:</p><pre><code class="scheme">&#40;&#40;lambda &#40;hundo-kato-muso&#41; hundo-kato-muso&#41; 0&#41;
+</code></pre><p>Tio estas la rezulto tial, ke la restanta komputo en tiu nivelo—la plej supra nivelo—estas la identa funkcio.</p><p>Memoru, ke la nomo de la argumento de la lambdo ne gravas. Ĝi povas esti <code>v</code>, <code>x</code>, aŭ <code>hundo-kato-muso</code>:</p><pre><code class="scheme">&#40;&#40;lambda &#40;hundo-kato-muso&#41; hundo-kato-muso&#41; 0&#41;
 </code></pre><h3><a name="aktualadaŭrigoekzemploj">Ekzemploj</a></h3><p>En la esprimo</p><pre><code class="scheme">&#40;&#42; 1 2&#41;
 </code></pre><p>la restanta komputo por <code>2</code>—la dua argumento de <code>&#42;</code>—estas</p><pre><code class="scheme">&#40;lambda &#40;v&#41; &#40;&#42; 1 v&#41;&#41;
 </code></pre><p>kaj la restanta operacio estas</p><pre><code class="scheme">&#40;&#40;lambda &#40;v&#41; &#40;&#42; 1 v&#41;&#41; 2&#41;

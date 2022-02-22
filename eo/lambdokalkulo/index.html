@@ -12,7 +12,7 @@ y
 </code></pre><p>En la ekzemplo ĉi-supre, la identeca funkcio aplikatas al identeca funkcio, reveni identecan funkcion.</p><p>Jen alia apliko kun liberaj variabloj:</p><pre><code class="scheme">&#40;λa.ab&#41;&#40;λy.y&#41;
 &#40;λy.y&#41;b
 b
-</code></pre><p>La ligita variablo <code>a</code> estis anstataŭigita per <code>&#40;λy.y&#41;</code>, kiu estas do aplikata al la libera variablo <code>b</code>, rezulti al <code>b</code>.</p><p>Tenu en la kalkulo, ke ĉi tiu funkciapliko:</p><pre><code class="scheme">&#40;λx.&#40;λy.y&#41;&#41;ab
+</code></pre><p>La ligita variablo <code>a</code> estis anstataŭigita per <code>&#40;λy.y&#41;</code>, kiu estas do aplikata al la libera variablo <code>b</code>, rezulti al <code>b</code>.</p><p>Memoru, ke ĉi tiu funkciapliko:</p><pre><code class="scheme">&#40;λx.&#40;λy.y&#41;&#41;ab
 &#40;λy.y&#41;b
 b
 </code></pre><p>Ekvivalentas al:</p><pre><code class="scheme">&#40;λxy.y&#41;ab

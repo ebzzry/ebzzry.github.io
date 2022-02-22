@@ -76,7 +76,7 @@ kiu liveras na
 Tio estas la rezulto tial, ke la restanta komputo en tiu nivelo—la plej supra nivelo—estas la identa
 funkcio.
 
-Tenu en la kalkulo, ke la nomo de la argumento de la lambdo ne gravas. Ĝi povas esti `v`, `x`, aŭ
+Memoru, ke la nomo de la argumento de la lambdo ne gravas. Ĝi povas esti `v`, `x`, aŭ
 `hundo-kato-muso`:
 
 ```scheme

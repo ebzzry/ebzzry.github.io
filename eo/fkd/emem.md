@@ -95,7 +95,7 @@ La `-s` opcio forigas la bezonon por apartan risurcan dosieron krei, kaj ĉiomaj
 bezonitajn risurcojn metas al la eliga dosiero igas al ĝi facila kaj helpema
 por la eligajn dokumentojn rigardi sur aparatoj kiel poŝtelefonoj kaj tabuletoj.
 
-Tenu en la kalkulo, ke la dokumentotitolo ene la dosiero estos uzita kiel la baznomo de la
+Memoru, ke la dokumentotitolo ene la dosiero estos uzita kiel la baznomo de la
 dosiero. Do, de `MINLEGU.md`, je `<title>MINLEGU.md</title>` liveras en la HEAD-etikedo. Se la
 Markdown-dosierojn oni strukturas tia, ke la unuaj du linioj aspektas kiel:
 
