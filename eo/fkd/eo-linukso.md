@@ -142,7 +142,7 @@ la <kbd>PrtSc</kbd> klavo. Multfoje ili sandviĉitas inter la <kbd>Ctrl</kbd> ka
 <kbd>Alt</kbd> klavoj. Por tiun klavon uzi, je `xev` plenumu kiel ĉi-supre por la klavkodon akiri, tiam
 je `~/.xmodmap` dosiero ĝisdatigi laŭe.
 
-Sur mia ThinkPad, la jenan kodeton mi `~/.xmodmap` havas:
+Per mia ThinkPad-komputilo, la jenan kodeton mi `~/.xmodmap` havas:
 
 ```
 !! Maldekstra vindozo

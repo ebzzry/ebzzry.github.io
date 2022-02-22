@@ -2,7 +2,7 @@ Milda Enkonduko al la Nix-Familio
 =================================
 
 <div class="center">Esperanto ▪ [English](/en/nix/)</div>
-<div class="center">Laste ĝisdatigita: la 20-an de Oktobro 2021</div>
+<div class="center">Laste ĝisdatigita: la 22-an de Februaro 2022</div>
 
 >Ne maltrankviliĝu pri tio, kion la aliaj faros. La plej bona maniero por la estontecon antaŭdiri
 >estas por tion eltrovi.<br>
@@ -59,15 +59,13 @@ Milda Enkonduko al la Nix-Familio
 <a name="enkonduko">Enkonduko</a>
 ---------------------------------
 
-Venas rare ideoj kiuj la manieron por komputado povas ŝanĝi. Multe da teĥnologio
-kiujn ni uzas nune nur estas ripetoj de la malnovaj—niveloj sur niveloj de
-kosmetikoj kiuj la malnovajn konceptojn ĉirkaŭkovras. Tutaj produktaj sistemoj
-baziĝas sur ĉi tiu manko de kreemo kaj lerteco. Malnovaj problemoj ne
-solvitas. Pentrante per novaj kolortonoj, la problemojn ĉi tiuj tielnomataj
-elpensemaj solvoj nure ĉirkaŭigas anstataŭe, pretendante ke almenaŭ, ĝin ili
-plikolorplenigis. Progreson ĉi tiu mensostato difektas en nekalkuleblaj
-manieroj. La falsan impreson, ke la solvoj fakte estas faritaj ĉi tio
-donas. Falsan senson de plibonigoj ĉi tio kreas.
+Venas rare ideoj kiuj la manieron por komputado povas ŝanĝi. Multe da teĥnologio kiujn ni uzas nune
+nur estas ripetoj de la malnovaj—niveloj sur niveloj de kosmetikoj kiuj la malnovajn konceptojn
+ĉirkaŭkovras. Tutaj produktaj sistemoj baziĝas ĉe ĉi tiu manko de kreemo kaj lerteco. Malnovaj
+problemoj ne solvitas. Pentrante per novaj kolortonoj, la problemojn ĉi tiuj tielnomataj elpensemaj
+solvoj nure ĉirkaŭigas anstataŭe, pretendante ke almenaŭ, ĝin ili plikolorplenigis. Progreson ĉi tiu
+mensostato difektas en nekalkuleblaj manieroj. La falsan impreson, ke la solvoj fakte estas faritaj
+ĉi tio donas. Falsan senson de plibonigoj ĉi tio kreas.
 
 Antaŭ multaj jaroj siajn semajn [paperojn](https://nixos.org/~eelco/pubs/)
 [Eelco DOLSTRA](https://nixos.org/~eelco/) skribis, en kiu, la radikalajn manierojn por programaron
@@ -127,7 +125,7 @@ diskbildoj ankaŭ haveblas de tiu paĝo. En mia lasta instalo, mi instalis per l
 
 #### <a name="nixossxalti">La maŝinon ŝalti</a>
 
-Praŝarĝu per la USB-poŝmemorilo en UEFI-reĝimo. Sur la ensaluta invito, ensalutu kiel `root`.
+Praŝarĝu per la USB-poŝmemorilo en UEFI-reĝimo. Ĉe la ensaluta invito, ensalutu kiel `root`.
 
 
 #### <a name="nixosreto">La reton agordi</a>
@@ -942,7 +940,7 @@ kontrolsumo de ĉiom da enigoj kiuj estis uzitaj por la pakon konstrui. La dosie
 ### <a name="nixpkgsinstalo">Instalo</a>
 
 Se je NixOS oni uzas ĉi tiun sekcion preterpasu tial, ke Nixpkgs iras kun ĝi. Por je Nixpkgs instali
-sur linukso aŭ makintoŝo, plenumu:
+ĉe linukso aŭ makintoŝo, plenumu:
 
     $ curl https://nixos.org/nix/install | bash
 
@@ -1080,7 +1078,7 @@ ne havas, mi volas esti kapabla por instali
 
 ### <a name="nixpkgskontribui">Kontribui</a>
 
-La kunlaborada modelo de Nixpkgs restas sur gito kaj GitHub. Por pakon kontributi aŭ ekzistantan
+La kunlaborada modelo de Nixpkgs restas ĉe gito kaj GitHub. Por pakon kontributi aŭ ekzistantan
 pakon ĝisdatigi, la [Nixpkgs](https://github.com/nixos/nixpkgs/)-deponejon forku al la propra
 GitHub-konto. Novajn ŝanĝojn kreu en nova branĉo, tiam tirpeton kreu.
 
@@ -1187,8 +1185,8 @@ aferoj. La celon de pako la mallonga signovico en atribuo `description` priskrib
 `longDescription` estas pli longa atribuo, eble plurlinia signovico por la pakon priskribi en pli da
 detalo. La atribuo `homepage` estas retejadreso al la retejo de la pako. Ĝin oni ne plu bezonas citi
 per unuoblaj aŭ duoblaj citiloj specife—ĝin ĝi faras interne. Retejadreson oni ankoraŭ devas citi se
-variablan interpolado oni uzas. La atribuo `platforms` estas grava: pakon ĝi ordas ĝuste—pakon sur
-makintoŝo oni ne devas munti kiu nur kuras sur linukso.
+variablan interpolado oni uzas. La atribuo `platforms` estas grava: pakon ĝi ordas ĝuste—pakon ĉe
+makintoŝo oni ne devas munti kiu nur kuras ĉe linukso.
 
 Se aperos nova versio de *GNU Hello*, ekzemple, versio 2.11, la ĝustajn atribuojn modifu. Sed unue,
 apartan branĉon ni kreu por tio:
@@ -1316,7 +1314,7 @@ duone bakita stato. La plej lasta paŝo de pakojn instali estas atoma. La sekret
 simbolligilon de `/nix/store` al `~/.nix-profile/`, la operacio kiu ĝin disponebligas al uzanto la
 sistemo kreas. La kreado de simbolligiloj en linukso kaj makintoŝo estas aŭ sukcesa aŭ ne.
 
-Sur NixOS, la kanalo uzita de la ĉefuzanto estas grava tial, ke ĝi estas tiu, kiun oni uzas kiam
+Ĉe NixOS, la kanalo uzita de la ĉefuzanto estas grava tial, ke ĝi estas tiu, kiun oni uzas kiam
 la sistemon rekunmeti per `nixos-rebuild switch` post ŝanĝoj al `/etc/nixos/configuration.nix` estas
 faritaj. Por certigi, ke la pravan kanalon oni uzas, ĝin listigu per:
 
@@ -1354,7 +1352,7 @@ la sistemo enhavas. Jen ekzemplo de `/etc/nixos/configuration.nix` kiu la sistem
 duumdosieroj disponeblos kiel `/run/current-system/sw/bin/zsh` kaj `/run/current-system/sw/bin/vim`,
 por Ziŝo kaj Vim, respektive.
 
-Parenteze, nur ekzistas sur NixOS la sistemmedio.
+Parenteze, nur ekzistas ĉe NixOS la sistemmedio.
 
 
 ### <a name="uzantmedio">Uzantmedio</a>
@@ -1455,7 +1453,7 @@ stdenv.mkDerivation {
 
 *.nix*-dosiero estas Nix-esprimo. En ĉi tiu ekzemplo, ĝi estas funkcio kiu unu argumenton akceptas
 kun implicita valoro. La bizara `<nixpkgs>` montras al la valoro de la atribuo `nixpkgs` deklarita en
-la `NIX_PATH` media variablo. Sur NixOS, ĝi aspektas jene:
+la `NIX_PATH` media variablo. Ĉe NixOS, ĝi aspektas jene:
 
     $ echo $NIX_PATH
     nixpkgs=/nix/var/nix/profiles/per-user/root/channels/nixos/nixpkgs:nixos-config=/etc/nixos/configuration.nix:/nix/var/nix/profiles/per-user/root/channels
@@ -1640,7 +1638,7 @@ eblojn de la Nix-ekosistemo kiuj plaĉas al mi, mi devas listigi, ili estas:
 - transakciajn ĝisdatigojn havas
 
 Alia grava ano de la Nix-familio estas [NixOps](https://nixos.org/nixops); onin permesas por je
-NixOS disponigi sur «nudmetalaj» sistemoj, virtualaj sistemoj, aŭ la nubo, per la uzo de deklara
+NixOS disponigi ĉe «nudmetalaj» sistemoj, virtualaj sistemoj, aŭ la nubo, per la uzo de deklara
 aliro kiu estas konata al ni. Ĝi eblas disponigi al *VirtualBox*, *Amazon EC2*,
 *Google Compute Engine*, *Microsoft Azure*, *Hetzner*, *Digital Ocean*, kaj *Libvirtd*. Iru al la
 [gvidilo](https://nixos.org/nixops/manual/) por vidi pli da detalo.
@@ -1661,7 +1659,7 @@ kiujn mi konas estas [AppImage](http://appimage.org/), [Zero Install](http://0i
 [Snapcraft](https://snapcraft.io/), kaj [Flatpak](http://flatpak.org/).
 
 La [Guix System Distribution (GuixSD)](https://www.gnu.org/software/guix/) estas linuksa distribuo
-kiu baziĝas sur Nix. Je [Guile](https://www.gnu.org/software/guile/) ĝi uzas kiel sia
+kiu baziĝas ĉe Nix. Je [Guile](https://www.gnu.org/software/guile/) ĝi uzas kiel sia
 API-lingvo. La kerna kontrasto inter GuixSD kaj NixOS, estas, je
 [GNU Shepherd](https://www.gnu.org/software/shepherd/) tiu uzas anstataŭ systemd; neliberajn
 pakojn ĝi ne permesas; kaj je [Linux-libre](https://www.fsfla.org/ikiwiki/selibre/linux-libre/),

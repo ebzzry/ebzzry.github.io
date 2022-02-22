@@ -2,7 +2,7 @@ Skriptado en Komunlispo
 =======================
 
 <div class="center">Esperanto ▪ [English](/en/script-lisp/)</div>
-<div class="center">Laste ĝisdatigita: la 23-an de Aŭgusto 2021</div>
+<div class="center">Laste ĝisdatigita: la 23-an de Februaro 2022</div>
 
 >La lumo kiu fajras duoble brila, fajras duone longa.<br>
 >―D-ro Eldon TYRELL, Blade Runner (1982)
@@ -42,7 +42,7 @@ havi. Maturan kaj nelimigitan lingvon mi volas havi. Lingvon kiu miajn ideojn
 povas esprimi en la malplej kiomo de froto mi volas havi.
 
 Skripto estas nur tiel potenca kiel la lingvo kaj iloj povus permesi. Baŝo kaj siaj amikoj,
-ekzemple, estas bonegaj por ideojn esprimi, tiel longe kiel komandojn oni maŝinskribas sur la komandlinio
+ekzemple, estas bonegaj por ideojn esprimi, tiel longe kiel komandojn oni maŝinskribas ĉe la komandlinio
 mem. La konduton ene skripto ĝi imitas. Funkciojn oni povas difini por procedurojn fari, sed ili nur
 estas tiel. Funkcioj en Baŝo ne estas ie proksimaj al la funkcioj en lingvoj kiel komunlispo. Kiel
 interaga uzantŝelo, ĝi funkcias bone; escepte tio, ne.
@@ -65,13 +65,16 @@ faras. Komunlispe ĉi tio estas traktita de [cl-launch](https://github.com/fare/
 <a name="antkauxkondicxoj"></a>Antaŭkondiĉoj
 --------------------------------------------
 
-Skriptado en komunlispo funkcias super la lingvo, tio estas, en la formo de bibliotekoj kiuj la abstraktadojn disponigas por interagi kun la sistemo kaj la medio. [Utilities for Implementation- and OS- Portability (UIOP)](https://gitlab.common-lisp.net/asdf/asdf/tree/master/uiop)
-estas aro de abstraktadoj kiuj nin permesas por porteblan lispan kodon skribi. UIOP estas
-enkonstruita en ASDF3—kiu estas parto de la plejparto de komunlispaj realigoj—do ne ekzistas bezono por
-ĝin permane instali. [inferior-shell](https://github.com/fare/inferior-shell) helpas por la
-procezojn administri. [cl-scripting](https://github.com/fare/cl-scripting) helpas por pli da rego.
+Skriptado en komunlispo funkcias super la lingvo, tio estas, en la formo de bibliotekoj kiuj la
+abstraktadojn disponigas por interagi kun la sistemo kaj la medio. [Utilities for Implementation-
+and OS- Portability (UIOP)](https://gitlab.common-lisp.net/asdf/asdf/tree/master/uiop) estas aro de
+abstraktadoj kiuj nin permesas por porteblan lispan kodon skribi. UIOP estas enkonstruita en
+ASDF3—kiu estas parto de la plejparto de komunlispaj realigoj—do ne ekzistas bezono por ĝin permane
+instali. [inferior-shell](https://github.com/fare/inferior-shell) helpas por la procezojn
+administri. [cl-scripting](https://github.com/fare/cl-scripting) helpas por pli da rego.
 
-La programo `cl-launch` devas esti instalita sur la sistemo. Ĝi estos respondeca por la kreado de la multvoka duumdosiero mem. Por je `cl-launch` instali:
+La programo `cl-launch` devas esti instalita ĉe la sistemo. Ĝi estos respondeca por la kreado de la
+multvoka duumdosiero mem. Por je `cl-launch` instali:
 
 Per APT:
 
@@ -115,8 +118,8 @@ Tiam la dosieron `my-scripts.asd` ni kreu en tiu dosierujo. Por komenci, la jena
                "my-scripts/main"))
 ```
 
-Kelke da funkcioj kiujn ni bezonas, estas en ASDF 3.1, pro tio la tutan sistemon ni devas
-kondiĉigi. La dependecojn sur `cl-scripting` ni deklaras, kiu kelkajn helpilojn provizas; kaj sur
+Kelke da funkcioj kiujn ni bezonas, estas en ASDF 3.1, pro tio la tutan sistemon ni devas kondiĉigi.
+La dependecojn ĉe `cl-scripting` ni deklaras, kiu kelkajn helpilojn provizas; kaj ĉe
 `inferior-shell`, kiu la aĵojn kiujn ni bezonas por la ŝelajn procezojn administri provizas.
 
 Sekve, la dosieron `main.lisp` ni kreu en la sama dosierujo. La jenan ĝi havos:
@@ -317,7 +320,7 @@ fari tial, ke nur la eligon al la alvoko de `BATTERY-STATUS` ni bezonas.
 Aliflanke, enrankopion per *scrot* la funkcio `SCREENSHOT` tenas tiam la absolutdosierindikon de la
 bildo ĝi disponebligas el la tondeja zono per *xclip*. La bibliotekojn `local-time` por la data
 signovico kaj biblioteko; kaj `optima`, por la ripetiĝa kongruado. Por la komandon `screenshot`
-ebligi, la duumdosierojn dependecojn instalu. La jenajn komandojn plenumu sur APT- kaj Nix-sistemoj,
+ebligi, la duumdosierojn dependecojn instalu. La jenajn komandojn plenumu ĉe APT- kaj Nix-sistemoj,
 respektive:
 
     $ sudo apt-get install -y scrot xclip
@@ -413,7 +416,7 @@ normo havas—ĝis tia grado ke—ĝi ankoraŭ povas kuri en la estontecon. Por 
 monumenta tasko—ĝi postulas, ke malsamaj, eble konfliktaj anaroj devas akordi al unu la
 alia. Ekzistas multaj diversaj realigoj de komunlispo, kaj la celojn ĉiu realigo strebas atingi,
 kiuj ne necesas kongruaj al la aliaj realigoj. Tio bonas tial, ke spacon ĝi kreas por realigistoj
-kaj desegnistoj, pri kiel labori sur la bazaj specifoj. Tiel longe kiel ili akordas al la normo,
+kaj desegnistoj, pri kiel labori ĉe la bazaj specifoj. Tiel longe kiel ili akordas al la normo,
 aferoj verdas.
 
 [baf](https://github.com/ebzzry/baf), Nixpkgs- kaj NixOS-helpilo, estas funkcia ekzemplo de komunlispa

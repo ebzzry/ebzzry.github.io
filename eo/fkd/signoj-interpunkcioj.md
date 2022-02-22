@@ -10,7 +10,7 @@ Signoj kaj Interpunkcioj
 *[Ĉi tien](/eo/signoj-interpunkcioj-mallongigite/) alklaku por la mallongigita versio.*
 
 Rondvojaĝo por kiel la ĝis-strekan (-), unuoblan citilan ('), kaj duoblan citilan (") signojn uzi
-sur la klavaro, kiuj estas pli bone adaptitaj por signajn devojn fari ol iliaj malsanaj kuzoj el la
+per la klavaro, kiuj estas pli bone adaptitaj por signajn devojn fari ol iliaj malsanaj kuzoj el la
 skribmaŝina epoĥo, ĉi tiu mallonga gvidilo donas. Kaj cetere, mi ankaŭ parolos pri la anstataŭigoj
 al ofte uzataj malĝustaj signoj.
 

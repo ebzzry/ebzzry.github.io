@@ -149,7 +149,7 @@ La ĉi-supraj komandoj:
 ### <a name="sxargxu"></a>La bildon ŝarĝi
 
 La komandon `qemu-kvm` oni nun devas alvoki, la komando kiu ĉion lanĉas. La nomo de la komando eble
-malsamas kun tiu, kiu instalitas sur la sistemo.
+malsamas kun tiu, kiu instaliĝas ĉe la sistemo.
 
 Se operaciumon el praŝarĝebla bildo oni instalas, kutime la ISO-dosiero, plenumu:
 

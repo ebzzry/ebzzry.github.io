@@ -2,12 +2,12 @@ Ziŝaj Konsiletoj 1-a: Alinomoj kaj Funkcioj
 ===========================================
 
 <div class="center">Esperanto ▪ [English](/en/zsh-tips-1/)</div>
-<div class="center">Laste ĝisdatigita: la 31-an de Aŭgusto 2021</div>
+<div class="center">Laste ĝisdatigita: la 23-an de Februaro 2022</div>
 
 >Malsaĝulo miras pri nekutimaj aferoj. Ŝagulo miras pri la kutimaj aferoj.<br>
 >―Konfuceo
 
-Unu el la ĝuoj de ekskluzive labori sur la terminalsimulilo estas la laboron pri komandoj, dosieroj,
+Unu el la ĝuoj de ekskluzive labori ĉe la terminalsimulilo estas la laboron pri komandoj, dosieroj,
 kaj dosieroj ĝi plifaciligas. Esti kapable por iri de ideo al ideo okazas en malmulte da tempo. Por
 interaga ŝela uzo, [ziŝon](http://zsh.sourceforge.net/) mi uzas preskaŭ eksklusive. En ĉi tiu
 artikolo mi parolos pri la aĵoj por la interagan uzon de la ŝelo plibonigi.
@@ -28,7 +28,7 @@ artikolo mi parolos pri la aĵoj por la interagan uzon de la ŝelo plibonigi.
 
 Estas almenaŭ tri tipoj de komandoj en Ziŝo: duumdosieroj, alinomoj, kaj funkcioj. Duumdosieroj,
 estas tiuj kiuj troveblas en la `$PATH`; ili estas la programoj, kiujn oni instalis per la
-pakadministrilo. Alinomoj kaj funkcioj, aliflanke, ne loĝas kiel dosieroj sur la dosiersistemo. Ili
+pakadministrilo. Alinomoj kaj funkcioj, aliflanke, ne loĝas kiel dosieroj ĉe la dosiersistemo. Ili
 estas difinitaj kiel parto de la agorddosiero, aŭ entekstitaj en la seanco.
 
 
@@ -40,7 +40,7 @@ liniajn komandojn faras. Multaj el ili aspektas jene:
 
     alias ls="ls -F"
 
-Aliaj estas pli agresivaj kiel tutmondaj alinomoj, kiuj malvolvojn povas fari ie sur la komandlinio:
+Aliaj estas pli agresivaj kiel tutmondaj alinomoj, kiuj malvolvojn povas fari ie ĉe la komandlinio:
 
     alias -g G="|& rg --color auto"
     alias -g NF='*(.om[1])'

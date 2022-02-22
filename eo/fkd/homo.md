@@ -85,7 +85,7 @@ parolita lingvo estas alia bestio entute.
 Kio estas la diferenco inter _“Legu la dokumentojn.”_ kaj _“Bonvole legu la dokumentojn.”_ aŭ eĉ
 _“Ĉu vi bonvolus legi la dokumenton?”_ Kiam la pravaj vortoj uzitas, ni pozitive bildigas, ni imagas
 en niaj kapoj kiel devus okazi la komunikado se ĝi okazis en vizaĝalvizaĝa maniero. Male, kiam la
-vortojn ni uzu troe, trostreĉon sur la mesaĝo kreas, la mesaĝon tute ŝanĝi. Kontrastu “_Ek._” kaj
+vortojn ni uzu troe, kreante trostreĉon al la mesaĝo, la mesaĝon tute ŝanĝi. Kontrastu “_Ek._” kaj
 “_Ek, ve!_”
 
 

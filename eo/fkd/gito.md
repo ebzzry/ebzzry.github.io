@@ -2,7 +2,7 @@ Kiel Mi Uzas Giton
 ==================
 
 <div class="center">Esperanto ▪ [English](/en/git/)</div>
-<div class="center">Laste ĝisdatigita: la 23-an de Aŭgusto 2021</div>
+<div class="center">Laste ĝisdatigita: la 22-an de Februaro 2022</div>
 
 >Male, tiuj kun senĉeseco povas malatenti kiujn aliaj pensas. Ion ajn ili povas
 >fari en ilia propra mondo senzorgeme al la opinioj de tiuj ĉirkaŭ ili.<br>
@@ -32,10 +32,10 @@ uzataj iloj. Pro ĝia rapideco kaj amplekso de uzo, ĝin mi uzas kiel mia tria
 brako.
 
 Pro tio ke emakson mi uzas, je [Magit](https://magit.vc/) mi ankaŭ havas. Tamen,
-en ĉi tiu artikolo mi parolos pri kiel giton mi uzas ĉiutage sur la komandlinio.
+en ĉi tiu artikolo mi parolos pri kiel giton mi uzas ĉiutage ĉe la komandlinio.
 
 La komandoj kaj funckioj kiujn ni havos ĉi tie estas por Ziŝo kaj Baŝo. Eblas,
-ke ili ankaŭ povas funkcii sur aliaj ŝeloj, tamen, ilin mi ne testis.
+ke ili ankaŭ povas funkcii per aliaj ŝeloj, tamen, ilin mi ne testis.
 
 
 <a name="mallongaj">Mallongaj komandoj</a>
