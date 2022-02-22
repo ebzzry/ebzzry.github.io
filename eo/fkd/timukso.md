@@ -355,8 +355,10 @@ Se timukso plendas, ke mankas iom da kromprogramoj, je <kbd>C-z I</kbd> premu:
 <a name="finrimarkoj"></a>Finrimarkoj
 -------------------------------------
 
-Timukso estas unu el la iloj, kiun oni devas havi laborante sur la terminalsimulilo kaj komandlinio. Laborfluon kio estas aliokaze malfacila per aliaj kunigiloj, aŭ tre malfacila por fari per kutimaj neadministritaj seancoj ĝi ebligas. Por la restantaj difinoj iru
-[ĉi tien](https://github.com/ebzzry/dotfiles/tree/master/tmux/.tmux.conf).
+Timukso estas unu el la iloj, kiun oni devas havi laborante ĉe la terminalsimulilo kaj komandlinio.
+Laborfluon kio estas aliokaze malfacila per aliaj kunigiloj, aŭ tre malfacila por fari per kutimaj
+neadministritaj seancoj ĝi ebligas. Por la restantaj difinoj iru [ĉi
+tien](https://github.com/ebzzry/dotfiles/tree/master/tmux/.tmux.conf).
 
 Se giton vi uzas, la artikolo pri kiel ĝi mi uzas, eble ankaŭ plaĉas al vi. Ĝi
 troviĝas [ĉi tie](/eo/gito/).

@@ -252,7 +252,7 @@ ankoraŭ havas, ĝin oni povas instali per:
 -------------------------------------
 
 Mian vivon ĉi tiuj funkcioj kaj klavkombinoj plifaciligas precipe kiam mi laboras kun emacsclient
-sur la terminalsimulilo pro kelkaj klavaj stiraj kodoj ne estas ricevitaj bone per la
+ĉe la terminalsimulilo pro kelkaj klavaj stiraj kodoj ne estas ricevitaj bone per la
 terminalsimulilo mem. Eksteraj ilojn ekspluatante, unuforman konduton tra platformoj mi povas akiri.
 
 Kiel ĉiam, la fontkodo troveblas [ĉi tie](https://github.com/ebzzry/dotfiles/tree/master/emacs). Se

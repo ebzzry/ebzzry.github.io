@@ -91,9 +91,9 @@ MINLEGU.html
 MINLEGU.md
 ```
 
-La `-s` opcio forigas la bezonon por apartan risurcan dosieron krei, kaj ĉiomajn
-bezonitajn risurcojn metas al la eliga dosiero igas al ĝi facila kaj helpema
-por la eligajn dokumentojn rigardi sur aparatoj kiel poŝtelefonoj kaj tabuletoj.
+La `-s` opcio forigas la bezonon por apartan risurcan dosieron krei, kaj ĉiomajn bezonitajn
+risurcojn metas al la eliga dosiero igas al ĝi facila kaj helpema por la eligajn dokumentojn rigardi
+sur aparatoj kiel poŝtelefonoj kaj tabuletoj.
 
 Memoru, ke la dokumentotitolo ene la dosiero estos uzita kiel la baznomo de la
 dosiero. Do, de `MINLEGU.md`, je `<title>MINLEGU.md</title>` liveras en la HEAD-etikedo. Se la

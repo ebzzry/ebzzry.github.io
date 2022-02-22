@@ -61,7 +61,7 @@ La supra komando kreos du dosierojn:
     ~/.ssh/id_ed25519.pub
     ~/.ssh/id_ed25519
 
-Tiam, permesu la mem sur la defora servilo, por ke la senpasvortaj ensalutoj funkciu poste:
+Tiam, sin permesu ĉe la defora servilo, por ke la senpasvortaj ensalutoj funkciu poste:
 
     $ ssh-copy-id uzanto@deforgastiganto
 
@@ -95,7 +95,7 @@ Metu la jenan kodaĵon:
     default-cache-ttl-ssh 10800
     pinentry-program /usr/bin/pinentry-qt4
 
-Anstataŭigu la valoron de `pinentry-program` per la efektiva dosierindiko de pinentry sur la
+Anstataŭigu la valoron de `pinentry-program` per la efektiva dosierindiko de pinentry ĉe la
 sistemo. Por precizigi la lokon de pinentry-o, plenumu:
 
     $ which pinentry-qt4

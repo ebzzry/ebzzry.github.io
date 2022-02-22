@@ -227,7 +227,7 @@ Marku tiujn liniojn, tiam premu:
 Por ke la agordoj tuj efektiviĝu.
 
 Por sendi sendi ĉifritan mesaĝon, premu <kbd>C</kbd> el la ĉefmenuo de mu4e, plenumi la kutimajn
-kampojn kiel `To:`, kaj `Subject:`, tiam sur la mesaĝokorpo, premu:
+kampojn kiel `To:`, kaj `Subject:`, tiam en la mesaĝokorpo, premu:
 
     M-x ec EN
 
@@ -253,7 +253,7 @@ konscii pri:
 
 Pri la antaŭa, kiam oni uzas la sekurkopian facilon de Emakso, aŭ pakaĵon kiel
 [backup-dir](https://www.emacswiki.org/emacs/BackupDirectory), mesaĝojn kiujn ĝi verkas, supozeble
-antaŭ ĝi ĉifras ilin, estos havi malĉifritajn kopiojn sur la loka disko. Pri la lasta, la sama
+antaŭ ĝi ĉifras ilin, estos havi malĉifritajn kopiojn ĉe la loka disko. Pri la lasta, la sama
 principo aplikatas. Do, estu atente en ĉi tiuj situacioj, kaj alĝustigetu la agordon necese.
 
 

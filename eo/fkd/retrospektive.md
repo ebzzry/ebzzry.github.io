@@ -19,9 +19,9 @@ afliktadon, komencas okazi magia io. Kaj kiel por mi, tio alvenis en la formo de
 
 Mi ne sciis, ke magia io disfaldos. Per ne nei mian staton, mi kapablis brakumi la premion. Mi
 konsciis, ke kiam mi povis avidi spiron, mi malŝlosis partojn de mi, kiuj restis nekonitaj antaŭe.
-Malrapide, kiel la lumradioj de la suno en la mateno, tuŝanta la akvoglobetojn sur folio, mi konsciis
-vidi min mem, kiel per unuafoje vidi mian rebrilon sur lageto. Mi malkovris, ke estas multaj
-latentaj partoj de mi, simple restadas esti vekitaj.
+Malrapide, kiel la lumradioj de la suno en la mateno, tuŝanta la akvoglobetojn sur folio, mi
+konsciis vidi min mem, kiel per unuafoje vidi mian rebrilon sur lageto. Mi malkovris, ke estas
+multaj latentaj partoj de mi, simple restadas esti vekitaj.
 
 Ĉe la pinto de mia agonio, mi katapultiĝis al memdetruo. Per kolerego, mi fingromontris al mi, sen
 antaŭzorgo. Mi malestime kriegis al mi, metante ĉiom da kulpo sur miajn ŝultrojn. La plej malbona
