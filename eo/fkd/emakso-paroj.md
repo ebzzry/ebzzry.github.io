@@ -45,7 +45,7 @@ eble estas bona memorigilo.
 _smartparens_ estas unu el tiuj pakoj kiu draste plibonigas, kaj ŝanĝas kiel emakson oni
 uzas. Similas al kibernetikajn membrojn—onin igas por pli alte salti kaj pli forte pugnobati.
 
-Tenu en la kalkulo, ke la nomo malpravas tial, ke ne nur rondajn krampojn ĝi
+Memoru, ke la nomo malpravas tial, ke ne nur rondajn krampojn ĝi
 traktas. Ankaŭ iujn ajn kiuj pariĝas ĝi traktas, kaj ilin ĝi traktas stele.
 
 
