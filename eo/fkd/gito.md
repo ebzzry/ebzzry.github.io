@@ -669,7 +669,7 @@ tiam la jenan komandon ni plenumos
 
     git ls
 
-aperos la listoj de dosieroj mastrumitaj de git, anstataŭ la teksto
+aperos la listoj de dosieroj administritaj de git, anstataŭ la teksto
 `hello world` sur la ekrano.
 
 
@@ -682,4 +682,4 @@ havas. Pro tio ke je [tmux](/eo/tmux/) mi uzas, kiam ajn giton mi bezonas uzi,
 klavkombinon por la malfermado de alia tmux-fenestro sube mi nur devas
 premi. Tie, tiujn gitkomandojn mi povas facile sen la ŝanĝon de ekranvido kiun
 Magit bedaŭrinde faras. Min ĝi ebligas por pensi aparte inter la kodo kaj la
-mastrumado de la kodo mem.
+administrado de la kodo mem.

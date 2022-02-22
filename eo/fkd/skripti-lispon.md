@@ -30,7 +30,7 @@ Skriptado en Komunlispo
 Plenaj tutaj sistemoj kaj bibliotekoj estas ĉiam komfortaj areoj por komunlispaj
 uzantoj. Bedaŭrinde, de longe, ne ekzistis definitiva solvo en komunlispon uzi kiel skriptada
 lingvo. Skriptada lingvo, en ĉi tiu kunteksto, signifas pri iu, kiu similas anime al komandliniaj
-ŝeloj—tio estas, iu kiu estas uzita por sistemkomandojn mastrumi kaj regi sur la apa nivelo. La
+ŝeloj—tio estas, iu kiu estas uzita por sistemkomandojn administri kaj regi sur la apa nivelo. La
 signifo ankaŭ etendas al la aŭtomacioj de la plenumado de taskoj kiuj aliamaniere faritaj unu post
 alia. En ĉi tiu artikolo, mallongan enkondukon pri kiel komunlispon uzi en la skriptada areo mi
 priparolos.
@@ -57,7 +57,7 @@ kiun komunlispo provizas interagante kun realtempaj kurantaj programoj.
 En ĉi tiu mallonga gvidilo, alian belan aĵon pri komunlispa skriptado mi ankaŭ tuŝetas: multvokaj
 duumdosieroj. Multvoka duumdosiero estas sola plenumebla dosiero kiu povas esti elreferencita per
 pluraj nomoj. Ĉiu nomo kongruas al specifa proceduro ene tiu sola duumdosiero. La beleco de ĉi tiu
-aliro, estas, ke anstataŭ multajn malsamajn programojn mastrumi, nur unu dosieron oni mastrumas, kaj
+aliro, estas, ke anstataŭ multajn malsamajn programojn administri, nur unu dosieron oni administras, kaj
 la ĝustan proceduron ĝi disdonos kiu uzanto deziras. Ĉi tio similas al kiun Busybox
 faras. Komunlispe ĉi tio estas traktita de [cl-launch](https://github.com/fare/cl-launch).
 
@@ -69,7 +69,7 @@ Skriptado en komunlispo funkcias super la lingvo, tio estas, en la formo de bibl
 estas aro de abstraktadoj kiuj nin permesas por porteblan lispan kodon skribi. UIOP estas
 enkonstruita en ASDF3—kiu estas parto de la plejparto de komunlispaj realigoj—do ne ekzistas bezono por
 ĝin permane instali. [inferior-shell](https://github.com/fare/inferior-shell) helpas por la
-procezojn mastrumi. [cl-scripting](https://github.com/fare/cl-scripting) helpas por pli da rego.
+procezojn administri. [cl-scripting](https://github.com/fare/cl-scripting) helpas por pli da rego.
 
 La programo `cl-launch` devas esti instalita sur la sistemo. Ĝi estos respondeca por la kreado de la multvoka duumdosiero mem. Por je `cl-launch` instali:
 
@@ -117,7 +117,7 @@ Tiam la dosieron `my-scripts.asd` ni kreu en tiu dosierujo. Por komenci, la jena
 
 Kelke da funkcioj kiujn ni bezonas, estas en ASDF 3.1, pro tio la tutan sistemon ni devas
 kondiĉigi. La dependecojn sur `cl-scripting` ni deklaras, kiu kelkajn helpilojn provizas; kaj sur
-`inferior-shell`, kiu la aĵojn kiujn ni bezonas por la ŝelajn procezojn mastrumi provizas.
+`inferior-shell`, kiu la aĵojn kiujn ni bezonas por la ŝelajn procezojn administri provizas.
 
 Sekve, la dosieron `main.lisp` ni kreu en la sama dosierujo. La jenan ĝi havos:
 
@@ -324,7 +324,7 @@ respektive:
 
     $ nix-env -i scrot xclip
 
-Uzantapojn lanĉi kaj mastrumi facilas. Ni komencu per dependecon aldoni en `my-scripts.asd`:
+Uzantapojn lanĉi kaj administri facilas. Ni komencu per dependecon aldoni en `my-scripts.asd`:
 
 ```lisp
 #-asdf3.1 (error "ASDF 3.1 or bust!")

@@ -37,7 +37,7 @@
 </code></pre><p>La komando <code>commando</code> certigas, ke la sistemduumdosieron <code>rm</code> mi alvokas anstataŭ ia ŝela alinomo aŭ funkcio.</p><h3><a name="rm_pluso"></a>rm+</h3><p>Kiam ajn mi volas rapide forviŝi arbon kiu havas multe da dosiero kaj dosierujo, la komandon <code>parallel</code> mi uzas por la forviŝadon plenumi paralele, anstataŭ serie. Ĝi estas difinita jene:</p><pre><code class="bash">function rm+ &#40;&#41; {
   parallel 'rm -rf {}' ::: $@
 }
-</code></pre><p>La pakmastrumilon de la sistemo kontrolu kiel je <code>parallel</code> instali.</p><h3><a name="rm_heliko"></a>rm@</h3><p>Kelkfoje, dosieron aŭ dosierujon mi bezonas forviŝi sen la ŝancoj de retrovado. Por tion fari, la komandon <code>shred</code> mi uzas. Ĝi estas difinita jene:</p><pre><code class="bash">function rm@ &#40;&#41; {
+</code></pre><p>La pakadministrilon de la sistemo kontrolu kiel je <code>parallel</code> instali.</p><h3><a name="rm_heliko"></a>rm@</h3><p>Kelkfoje, dosieron aŭ dosierujon mi bezonas forviŝi sen la ŝancoj de retrovado. Por tion fari, la komandon <code>shred</code> mi uzas. Ĝi estas difinita jene:</p><pre><code class="bash">function rm@ &#40;&#41; {
   if &#91;&#91; -d $1 &#93;&#93;; then
       find $1 -type f -exec shred -vfzun 10 {} \;
       command rm -rf $1
@@ -45,7 +45,7 @@
     shred -vfzun 10 $1
   fi
 }
-</code></pre><p>La pakmastrumilon de la sistemo kontrolu kiel je <code>shred</code> instali.</p><h3><a name="defmk"></a>def_mk</h3><p>Helpilojn ci tiu helpilo generas. Onin ĝi permesas por funkciojn krei kiuj antaŭproduktajn dosierojn kreas antaŭ la vera komando estas plenumita. Ĝi estas difinita kiel:</p><pre><code class="bash">function def&#95;mk &#40;&#41; {
+</code></pre><p>La pakadministrilon de la sistemo kontrolu kiel je <code>shred</code> instali.</p><h3><a name="defmk"></a>def_mk</h3><p>Helpilojn ci tiu helpilo generas. Onin ĝi permesas por funkciojn krei kiuj antaŭproduktajn dosierojn kreas antaŭ la vera komando estas plenumita. Ĝi estas difinita kiel:</p><pre><code class="bash">function def&#95;mk &#40;&#41; {
   eval &quot;function ${argv&#91;1&#93;} &#40;&#41; {
             if &#91;&#91; \$# -ge 2 &#93;&#93;; then
                 if &#91;&#91; ! -e \${@: -1} &#93;&#93;; then
