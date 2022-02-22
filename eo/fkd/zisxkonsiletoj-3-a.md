@@ -2,7 +2,7 @@ Ziŝaj Konsiletoj 3-a: Ŝanĝradikighelpiloj
 =========================================
 
 <div class="center">Esperanto ▪ [English](/en/zsh-tips-3/)</div>
-<div class="center">Laste ĝisdatigita: la 28-an de Septembro 2021</div>
+<div class="center">Laste ĝisdatigita: la 22-an de Februaro 2022</div>
 
 >Ni ridas pri tio, kion ni ne povas toleri por alfronti.<br>
 >―Aristotelo
@@ -15,7 +15,7 @@ ni bezonas. Eniras ŝanĝradikigado. Male al siaj pliplezaj amikoj, ŝanĝradiki
 sidas ie proksima al la dosiersistemo, kie la risurcojn de la medio kiun ĝin
 alvokas ĝi povas facile aliri.
 
-En ĉi tiu artikolo, mi parolos kiel ŝanĝradikigmedion agordi sur linukso per ziŝo. Teĥnike, ĉi tio
+En ĉi tiu artikolo, mi parolos kiel ŝanĝradikigmedion agordi en linukso per ziŝo. Teĥnike, ĉi tio
 estas kunmeto de diskutoj pri ŝelo kaj sistemadministrado, sed pro kapablojn kiuj estas ekskluzivaj
 al ziŝo mi uzas—aŭ alie malfacila por fari en aliaj ŝeloj—tiun paĝtitolon mi uzis.
 
@@ -43,7 +43,7 @@ opcioj estas laborintensivaj kaj la taskojn mi povas kuri rapide, kaj nun.
 <a name="antauxkondicxoj"></a>Antaŭkondiĉoj
 -------------------------------------------
 
-Por la efektivan disan medion krei, manieron por ĝin elŝuti kaj instali sur nia disko ni
+Por la efektivan disan medion krei, manieron por ĝin elŝuti kaj instali ĉe la disko ni
 bezonas. Por tion fari, je Bootstrap ni bezonas.
 
 Per Nixpkgs:
@@ -125,7 +125,7 @@ La redaktilon fermu. Post tio, ankaŭ eliru de la ŝanĝradikigmedio:
 <a name="komandoj"></a>La komandojn difini
 ------------------------------------------
 
-De nun ni estas reen sur la gastiga maŝino. La komandojn kiuj estas efektive uzitaj por interagi al
+De nun ni estas reen ĉe la gastiga maŝino. La komandojn kiuj estas efektive uzitaj por interagi al
 la ŝanĝradikigmedio ni devas difini. La dosieron `~/.zshenv` ni malfermu per la redaktilo, tiam la
 jenan metu:
 

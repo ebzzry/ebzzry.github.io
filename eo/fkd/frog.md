@@ -2,10 +2,10 @@ Blogi per Frog
 ==============
 
 <div class="center">Esperanto ▪ [English](/en/frog/)</div>
-<div class="center">Laste ĝisdatigita: la 22-an de Februaro 2022</div>
+<div class="center">Laste ĝisdatigita: la 23-an de Februaro 2022</div>
 
 >Unu persono kun ardo pli bonas ol kvardek personoj nure interesataj.<br>
->―E.M. FORsTER
+>―E.M. FORSTER
 
 Eldonante blogan enhavon al la TTT, la plejmulto da homoj konfidus antaŭkreitajn servojn, kiuj faras
 la grandparton da laboro. Tamen, estas okazoj kiam oni volas havi pli da rego de la aĵoj. Bona
@@ -15,7 +15,7 @@ liberaj servoj, tiam mono bezoniĝas por aldonaj servoj.
 
 Eble oni disputas, ke ĉiuj, kiujn ĝi bezonas estas platformo por blogi, kaj ĝi ne bezonas la plian
 flekson. Estas bonfarte por iuj. Tamen multe da homoj volas liberiĝi el la katenoj. Mi ne volas
-vidi reklamojn sur mia retejo. Mi ne volas surprizajn cenzuradojn. Mi volas liberon. Do, se oni
+vidi reklamojn ĉe mia retejo. Mi ne volas surprizajn cenzuradojn. Mi volas liberon. Do, se oni
 estas kiel mi, daŭru legi.
 
 

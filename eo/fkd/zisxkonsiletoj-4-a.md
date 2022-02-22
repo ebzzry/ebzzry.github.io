@@ -2,13 +2,13 @@ Ziŝaj Konsiletoj 4-a: Ĝeneralhelpiloj
 =====================================
 
 <div class="center">Esperanto ▪ [English](/en/zsh-tips-4/)</div>
-<div class="center">Laste ĝisdatigita: la 23-an de Decembro 2021</div>
+<div class="center">Laste ĝisdatigita: la 23-an de Februaro 2022</div>
 
 >Vidpunkto meritas okdek poentojn da inteligentecaj kvocientoj.<br>
 >―Alan KAY
 
 Lastfoje, mi parolis pri la helpilaj funkcioj por asisti en la mastrumado de radikigmedioj. En ĉi
-tiu artikolo, mi parolos pri ĝeneralaj helpiloj por labori sur la komandlinio. Mi ankaŭ parolos pri
+tiu artikolo, mi parolos pri ĝeneralaj helpiloj por labori ĉe la komandlinio. Mi ankaŭ parolos pri
 helpemaj klavkombinoj por maŝinskribadon plirapidigi.
 
 
@@ -374,7 +374,7 @@ Kiam je `M-x copy-prev-shell-word EN` mi plenumas, la lastan vorton ziŝo enmeta
 ### <a name="anstatauxigoj"></a>Anstataŭigoj
 
 Krome la plenumado de `M-x` komandoj, onin ziŝo permesas por klavkombinojn difini kiu ajnan tekston
-enmeti sur la komandlinion, inkluzive stirsignoj.
+enmeti ĉe la komandlinion, inkluzive stirsignoj.
 
 La eligon de komandoj mi ofte bezonis akiri. Kutime la jenan mi faras:
 
@@ -418,7 +418,7 @@ Kiam je <kbd>M-'</kbd> mi premas, la jenan mi akiros:
     % youtube-dl ''
                   ^
 
-Anstataŭ tri klavojn premi sur mia klavaro, nur du mi nur devas premi, kaj ĝi certigas, ke paron de
+Anstataŭ tri klavojn premi per mia klavaro, nur du mi nur devas premi, kaj ĝi certigas, ke paron de
 citiloj mi akiras.
 
 

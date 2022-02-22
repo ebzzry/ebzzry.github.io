@@ -42,7 +42,7 @@ Table of contents
 --------------------------------
 
 Ugarit is a classic example of a tool, that requires minimal setup and configuration. That, once the
-initial tinkering is done, all you need to do is reuse the tool. But that isn’t Ugarit’s main
+initial tinkering is done, all you need to do is reuse the tool. But that still isn’t Ugarit’s main
 strength—it is the almost unholy marriage of convenience and security.
 
 Most, if not all the time, convenience is inversely proportional to security. That is, the more

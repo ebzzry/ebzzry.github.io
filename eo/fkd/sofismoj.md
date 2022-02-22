@@ -103,7 +103,7 @@ argumento kiun ri tenas.
 > kontraŭparolis, ke iun ajn oni ne devas kredi el virino kiu ne edziĝintas, infanojn ne havas, kaj
 > bizarajn muzikojn aŭskultas.
 
-Teniĝon sur siaj asertoj la persona stato de Maria ne havas. La diroj de Karlo nekoncernas. Tiu, kiu
+Teniĝon de siaj asertoj la persona stato de Maria ne havas. La diroj de Karlo nekoncernas. Tiu, kiu
 devas esti atakita estas la argumentoj de Maria, kaj ne sian personan teniĝon.
 
 

@@ -2,7 +2,7 @@ Ziŝaj Konsiletoj 2-a: Dosierujstakoj
 ====================================
 
 <div class="center">Esperanto ▪ [English](/en/zsh-tips-2/)</div>
-<div class="center">Laste ĝisdatigita: la 21-an de Februaro 2019</div>
+<div class="center">Laste ĝisdatigita: la 22-an de Februaro 2022</div>
 
 >Kion ni faras por ni, mortas kun ni. Kion ni faras por ili, porĉiame restas.<br>
 >―Albert PIKE
@@ -111,7 +111,7 @@ function z+ () {
 }
 ```
 
-Por la konservitan dosierujstakon restaŭri sur la aktuala seanco aŭ al nova aparta aperaĵo, plenumu:
+Por restaŭri la konservitan dosierujstakon en la aktuala seanco aŭ al nova aparta aperaĵo, plenumu:
 
     % z+
     % ds -v
@@ -125,5 +125,6 @@ Por la konservitan dosierujstakon restaŭri sur la aktuala seanco aŭ al nova ap
 -------------------------------------
 
 Dosierujstakojn mi uzas kiel maniero por la dosieroj kiujn mi interagas konservi por ke estos pli
-facile por ilin restaŭru al antaŭ funkcia stato. Ĉi tiujn du helpilojn havante, la laboron sur la komandlinio plifaciligas. Por la restantajn difinojn iru
-[ĉi tien](https://github.com/ebzzry/dotfiles/tree/master/zsh).
+facile por ilin restaŭru al antaŭ funkcia stato. Ĉi tiujn du helpilojn havante, la laboron ĉe la
+komandlinio plifaciligas. Por la restantajn difinojn iru [ĉi
+tien](https://github.com/ebzzry/dotfiles/tree/master/zsh).

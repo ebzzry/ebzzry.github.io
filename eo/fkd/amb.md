@@ -460,7 +460,7 @@ ke la argumentoj ne taksiĝos. Krome, listojn ĝi interne uzas.
              (k 'neniuj-elektoj)))))            ; 26
 ```
 
-Ĉi tiuj difinoj funkcias sur [MIT/GNU-skimo](https://www.gnu.org/software/mit-scheme/),
+Ĉi tiuj difinoj funkcias ĉe [MIT/GNU-skimo](https://www.gnu.org/software/mit-scheme/),
 [Guile](https://www.gnu.org/software/guile/), [Scheme48](http://s48.org/),
 [Scsh](https://scsh.net/), [chibi-scheme](http://synthcode.com/wiki/chibi-scheme),
 [Gerbil](https://cons.io/), [Chez-skimo](https://www.scheme.com/), [Chicken](http://call-cc.org/),
