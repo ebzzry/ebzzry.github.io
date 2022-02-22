@@ -11,8 +11,8 @@ Nunatempe kontroli retpoŝton postulas onin por iri al la retejo de sia provizan
 poŝkomputilapon. Tamen, estas kazoj kiam oni volas havi pli da rego de ĝiaj mesaĝoj, precipe kiam
 la kapablo kiun oni volas, ne haveblas en la plimultaj opcioj.
 
-Emakso disponigas pletorajn manierojn (Gnus, Wanderlust, VM, ktp.) de sendi kaj ricevi retpoŝtonj.
-En ĉi tiu afiŝo, mi parolos pri [getmail](http://pyropus.ca/software/getmail/),
+Emakso disponigas multaj manierojn (Gnus, Wanderlust, VM, ktp.) de sendi kaj ricevi retpoŝtonj. En
+ĉi tiu afiŝo, mi parolos pri [getmail](http://pyropus.ca/software/getmail/),
 [mu](http://www.djcbsoftware.nl/code/mu/), kaj [mu4e](http://www.djcbsoftware.nl/code/mu/mu4e.html),
 kaj kiel agordi ilin ĝuste. En ĉi tiu lernilo, mi supozas, ke oni akiras siajn mesaĝojn per
 [Gmail](https://gmail.com) kaj ĝia IMAP-interfacio.
@@ -58,7 +58,7 @@ Tamen, se la sistemo ne disponigas manieron por facile instali getmail, oni pova
 
 ### <a name="elsxutiagordo">Agordo</a>
 
-Sekve, oni bezonas fari sorĉon, por ke getmail sciu kiel elŝuti la aĵojn. Kreu la dosieron
+Sekve, oni bezonas fari sorĉadon, por ke getmail sciu kiel elŝuti la aĵojn. Kreu la dosieron
 `~/.getmail/getmailrc`. Krom tio, oni bezonas krei kaj precizigi kien la mesaĝoj iros:
 
     $ mkdir ~/Maildir
@@ -143,7 +143,7 @@ interesiĝas nur pri la `mu/mu4e/`-subdosierujo.
 
 ### <a name="legiagordo">Agordo</a>
 
-Oni nun bezonas fari tiun mu4e-dosierujon, alirebla al Emakso. Por fari tiel, oni bezonas redakti
+Oni nun bezonas igi tiun mu4e-dosierujon, alirebla al Emakso. Por fari tiel, oni bezonas redakti
 aŭ `~/.emacs.d/init.el` aŭ `~/.emacs`:
 
     $ emacs ~/.emacs.d/init.el
@@ -155,7 +155,7 @@ Tiam, aldonu la jenan:
 (require 'mu4e)
 ```
 
-Kaj cetere oni bezonas enmeti kelkajn informojn pri oni, por ke Emakso ne ĝeniĝos demandi onin pri
+Kaj cetere oni bezonas enmeti kelkajn informojn pri oni, por ke Emakso ne ĝeniĝus demandi onin pri
 tiuj detaloj poste:
 
 ```lisp
@@ -260,8 +260,8 @@ principo aplikatas. Do, estu atente en ĉi tiuj situacioj, kaj alĝustigetu la a
 <a name="finrimarkoj">Finrimarkoj</a>
 -------------------------------------
 
-Tenu en la kalkulo, ke mi laŭcele evitis multe da detalo, ĉar devus konfuzi la celon de ĉi tiu
-artikolo por fari la aferojn simplajn. Tamen, se oni volas lerni pli, oni ĉiam povas iri al la
+Memoru, ke mi laŭcele evitis multe da detalo, ĉar forigu la celon de ĉi tiu artikolo por
+igi la aferojn simplajn. Tamen, se oni volas lerni pli, oni ĉiam povas iri al la
 [getmail-](http://pyropus.ca/software/getmail/documentation.html) kaj
 [mu4e-](http://www.djcbsoftware.nl/code/mu/mu4e/index.html)dokumentadoj, por plenumi la mankajn
 informojn kiun oni eble havi.
