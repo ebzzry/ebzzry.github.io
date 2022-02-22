@@ -535,6 +535,6 @@ out_keys=(
 -------------------------------------
 
 La komandlinion uzante, precipe per ŝelo tiel potenca kiel ziŝo, estas devige por esti konscie, kiun
-la ŝelon povas fari. Pakojn kiuj la ŝelon tajloras ne blinde uzu, sen kompreni kiujn ili faras.
+la ŝelon povas fari. Ne blinde uzu pakojn kiujn la ŝelon personecigas, sen kompreni kiujn ili faras.
 
 Bonan ziŝigadon!
