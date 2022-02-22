@@ -5,7 +5,7 @@ Emaksaj Konsiletoj 2-a: Seancoj kaj Pakoj
 <div class="center">Laste ĝisdatigita: la 14-an de Aŭgusto 2019</div>
 
 Ĉi tiu estas la daŭrigo de la serioj pri emaksaj konsiletoj. En ĉi tiu afiŝo, ni esploras seancan
-mastrumadon, pakojn, krommarĝenojn, kaj aliajn malgrandajn agrablajn aferojn.
+administradon, pakojn, krommarĝenojn, kaj aliajn malgrandajn agrablajn aferojn.
 
 
 <a name="et"></a>Enhavotabelo
@@ -278,7 +278,7 @@ la montrilon, specife al la supra, meza, kaj malsupra pozicioj, respektive.
 <a name="gito"></a>Gitstato en Dired
 ------------------------------------
 
-Ĉi tiu malgranda kodaĵo donas vidajn indikojn de la stato de gitmastrumitaj dosieroj ene Dired-bufro. Premi <kbd>g</kbd> reŝargas la bufron, tiam ĝisdatigas la staton.
+Ĉi tiu malgranda kodaĵo donas vidajn indikojn de la stato de gitadministritaj dosieroj ene Dired-bufro. Premi <kbd>g</kbd> reŝargas la bufron, tiam ĝisdatigas la staton.
 
 ```lisp
 (use-package dired-k

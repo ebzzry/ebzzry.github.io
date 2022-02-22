@@ -9,7 +9,7 @@ Kiel Mi Uzas Timukson
 
 Samkiel redaktilo, terminalsimulila kunigilo estas unu el la malmultaj iloj kiu
 multan produktivecon liveras ekde ĝin oni lernas kiel uzi. En ĉi tiu artikolo
-mi parolos pri [timukso](https://github.com/tmux/tmux)—seanca mastrumilo,
+mi parolos pri [timukso](https://github.com/tmux/tmux)—seanca administrilo,
 kunigilo, fenesadministrilo, kaj unu el la plej gravaj programaroj kiu la
 manieron ŝanĝis en kiu komputadon mi faras.
 
@@ -209,7 +209,7 @@ panelo marki.
 <a name="statbreto"></a>Statbreto
 ---------------------------------
 
-Multan prisondon la statbreto donas, kaj ĝin ni povas tajlori. La mian mi agordis jene:
+Multan prisondon la statbreto donas, kaj ĝin ni povas personecigi. La mian mi agordis jene:
 
 ```
 set -g status-position bottom
@@ -279,11 +279,11 @@ daton en la dekstra parto montrante.
 ----------------------------------------
 
 Kelkan kromprogramon mi uzas por mian agordon subteni. Ĝi ampleksiĝas de la
-kromprograma mastrumilo mem al tondeja regado. Jen la resumo.
+kromprograma administrilo mem al tondeja regado. Jen la resumo.
 
     set -g @plugin 'tmux-plugins/tpm'
 
-la krompragraman mastrumilon mem ŝarĝas.
+la krompragraman administrilon mem ŝarĝas.
 
     set -g @plugin 'tmux-plugins/tmux-resurrect'
 
@@ -304,7 +304,7 @@ al la tondejo.
     set -g @continuum-restore 'on'
     run '~/.tmux/plugins/tpm/tpm'
 
-La konservitajn seancojn ĉi tio ŝarĝas dum la startigo kaj la kromprograman mastrumilon ŝarĝas.
+La konservitajn seancojn ĉi tio ŝarĝas dum la startigo kaj la kromprograman administrilon ŝarĝas.
 
 Por ĉiomajn kromprogramojn instali, je <kbd>C-z I</kbd> premu.
 
@@ -327,7 +327,7 @@ per je <kbd>C-z [</kbd> premi unue, tiam je <kbd>C-Space</kbd> premu por la kome
 movadajn klavojn premi por la areon etendi, kaj fine je <kbd>M-w</kbd> premu por la enhavojn
 kopii. La enhavon de ĝi oni povas elĉerpi per je <kbd>C-z ]</kbd> premi.
 
-Per timukso la musmontrilon mi ne plu bezonas uzi por la zonojn mastrumi.
+Per timukso la musmontrilon mi ne plu bezonas uzi por la zonojn administri.
 
 
 <a name="elprovado"></a>Elprovado
@@ -355,7 +355,7 @@ Se timukso plendas, ke mankas iom da kromprogramoj, je <kbd>C-z I</kbd> premu:
 <a name="finrimarkoj"></a>Finrimarkoj
 -------------------------------------
 
-Timukso estas unu el la iloj, kiun oni devas havi laborante sur la terminalsimulilo kaj komandlinio. Laborfluon kio estas aliokaze malfacila per aliaj kunigiloj, aŭ tre malfacila por fari per kutimaj nemastrumitaj seancoj ĝi ebligas. Por la restantaj difinoj iru
+Timukso estas unu el la iloj, kiun oni devas havi laborante sur la terminalsimulilo kaj komandlinio. Laborfluon kio estas aliokaze malfacila per aliaj kunigiloj, aŭ tre malfacila por fari per kutimaj neadministritaj seancoj ĝi ebligas. Por la restantaj difinoj iru
 [ĉi tien](https://github.com/ebzzry/dotfiles/tree/master/tmux/.tmux.conf).
 
 Se giton vi uzas, la artikolo pri kiel ĝi mi uzas, eble ankaŭ plaĉas al vi. Ĝi

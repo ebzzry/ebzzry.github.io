@@ -15,7 +15,7 @@ maniulo?
 Plejmulto da ni jam spertis ĝin—ni perdis niajn altvalorajn dosierojn pro malatentecaj kaŭzoj. Ni
 perdis ilin pro diskkraŝo, datuma putro, sekureca rompo, kaj aliaj kialoj. Tamen se oni kreis
 retropaŝan agon—granda, sekura ŝaŭmo kiun ni surteriĝas—ne estus multe da ĝeno kaj
-korpremo. Aliflanke, krei kaj mastrumi sekurkopiojn povas esti senkuraĝigaj kaj egale danĝaj.
+korpremo. Aliflanke, krei kaj administri sekurkopiojn povas esti senkuraĝigaj kaj egale danĝaj.
 
 En ĉi tiu afiŝo, mi parolos pri
 [Ugarit](https://www.kitten-technologies.co.uk/project/ugarit/doc/trunk/README.wiki), agrabla peco
@@ -48,7 +48,7 @@ la komenca alĝustigado okazis, ĉio kion oni bezonas fari estas reuzi la ilon. 
 ĉefforto de Ugarit—estas la preskaŭ malsankta edziĝo de oportuneco kaj sekureco.
 
 Pleje, se ne ĉiam, oportuneco estas inverse proporcie kun sekureco. Tio estas, ju pli io
-oportunecas, de malpli sekura estas. Per Ugarit, krei kaj mastrumi sekurkopiojn estas kiel facile
+oportunecas, de malpli sekura estas. Per Ugarit, krei kaj administri sekurkopiojn estas kiel facile
 tiel maŝinskribi mallongan komandon.
 
 
@@ -163,7 +163,7 @@ File cache has saved us 1 file hashings / 638104 bytes (before compression)
 
 ### <a name="esplori"></a>Esplori dosierkopiojn
 
-Por interage mastrumi la enhavojn de la kripto, plenumu:
+Por interage administri la enhavojn de la kripto, plenumu:
 
     $ ugarit explore /ugarit/ugarit.conf
 
