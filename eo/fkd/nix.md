@@ -707,7 +707,7 @@ nix-repl> anaso = { a, b }: x: a + " " + b + x
 ```
 
 Du parametrojn ĉi tiu funkcio havas: `{ a, b }`—parametra specifo por aro kun du eroj, kaj
-`x`—kutima parametro. Tenu en la kalkulo, ke parametra specifo ne estas veraro, sed nur maniero por
+`x`—kutima parametro. Memoru, ke parametra specifo ne estas veraro, sed nur maniero por
 la argumentojn kongrui; komon ĝi uzas kiel apartigilo de valoro. Ene ĉi tiu funkcio la enigojn ni
 povas kombini per la operacisimbolon `+`. Por ĉi tiun funkcion uzi, ĝin ni uzu jene:
 
@@ -814,7 +814,7 @@ nix-repl> let x = "hundo"; y = "kato"; in x + anaso { a = "ne"; b = "vere"; } "e
 "hundone vereefektivekato"
 ```
 
-La lastan `;` antaŭ la `in` ŝlosilvorto kiu iras kun `let` tenu en la kalkulo—la komencon de la
+La lastan `;` antaŭ la `in` ŝlosilvorto kiu iras kun `let` memoru—la komencon de la
 korpo de `let` ĝi markas. La `let` konstruo kondutas simile al la `let` ŝlosilvorto troveblas en
 programlingvoj kiel Lispo kaj Haskelo.
 
@@ -1575,7 +1575,7 @@ self: super: {
 }
 ```
 
-Tiam, por #2, la dosierarbon kreu por la esprimo. Tenu en la kalkulo, ke ne devigatas la nomo
+Tiam, por #2, la dosierarbon kreu por la esprimo. Memoru, ke ne devigatas la nomo
 `pkgs`:
 
     $ cd ~/.config/nixpkgs/overlays

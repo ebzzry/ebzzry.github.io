@@ -179,7 +179,7 @@ b
 La ligita variablo `a` estis anstataŭigita per `(λy.y)`, kiu estas do aplikata al la libera
 variablo `b`, rezulti al `b`.
 
-Tenu en la kalkulo, ke ĉi tiu funkciapliko:
+Memoru, ke ĉi tiu funkciapliko:
 
 ```scheme
 (λx.(λy.y))ab

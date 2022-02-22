@@ -7,11 +7,11 @@ Blogi per Frog
 >Unu persono kun ardo pli bonas ol kvardek personoj nure interesataj.<br>
 >―E.M. FORsTER
 
-Kiam eldoni blogan enhavon al la TTT, la plejmulto da homoj kondifus antaŭkreitajn servojn, kiuj
-faras la grandparton de la laboro. Tamen, estas okazoj kiam oni volas havi pli da rego sur ĝiaj
-aĵoj. Bona ekzemplo de tio, estas la limigoj, kiujn provizantoj efikigas. Alia afero estas la ĉeesto
-de reklamoj aŭ la uzado de [parte senpagaj](https://en.wikipedia.org/wiki/Freemium) servoj—komence
-liberaj servoj, tiam mono bezonatas por aldonaj servoj.
+Eldonante blogan enhavon al la TTT, la plejmulto da homoj konfidus antaŭkreitajn servojn, kiuj faras
+la grandparton da laboro. Tamen, estas okazoj kiam oni volas havi pli da rego de la aĵoj. Bona
+ekzemplo de tio, estas la limigoj, kiujn provizantoj efikigas. Alia afero estas la ĉeesto de
+reklamoj aŭ la uzado de [parte senpagaj](https://en.wikipedia.org/wiki/Freemium) servoj—komence
+liberaj servoj, tiam mono bezoniĝas por aldonaj servoj.
 
 Eble oni disputas, ke ĉiuj, kiujn ĝi bezonas estas platformo por blogi, kaj ĝi ne bezonas la plian
 flekson. Estas bonfarte por iuj. Tamen multe da homoj volas liberiĝi el la katenoj. Mi ne volas
@@ -19,7 +19,7 @@ vidi reklamojn sur mia retejo. Mi ne volas surprizajn cenzuradojn. Mi volas libe
 estas kiel mi, daŭru legi.
 
 
-<a name="et"></a>Enhavotabelo
+<a name="et">Enhavotabelo</a>
 -----------------------------
 
 - [Superrigardo](#superrigardo)
@@ -37,17 +37,17 @@ estas kiel mi, daŭru legi.
 - [Finrimarkoj](#finrimarkoj)
 
 
-<a name="superrigardo"></a>Superrigardo
+<a name="superrigardo">Superrigardo</a>
 ---------------------------------------
 
-Kiam mi trovadis ilojn por krei ĉi tiun blogon, mi malkontentiĝis pri la plejmulto da la famaj
-opcioj. Iuj tro malfacilas por agordi; iuj malhavas kapablojn. Mi frustriĝis pro ĉiu fino
-de la spektro devigas min por uzi ion, kiu tro mezkvalitas en almenaŭ unu kritika
-aspekto. Bonŝance, mi trovis je [Frog](https://github.com/greghendershott/frog) pro propono en
+Trovante ilojn por krei ĉi tiun blogon, mi malkontentiĝis pri la plejmulto da famaj opcioj. Iuj tro
+malfacilas por agordi; iuj malhavas kapablojn. Mi frustriĝis ĉar ĉiu fino de la spektro devigas min
+por uzi ion, kiu tro mezkvalitas en almenaŭ unu kritika afero. Bonŝance, mi trovis je
+[Frog](https://github.com/greghendershott/frog) pro propono en
 [#racket](https://kiwiirc.com/client/irc.freenode.net/#racket).
 
 Frog en laikoterminoj, estas retejokreilo, kiu estas tiel facila uzi, agordi, kaj tajlori. Kio
-ajn oni skribas aperos sur ĝi kiel oni anticipas. Nek estas bizaraj kondiĉoj de uzado, nek
+ajn oni skribas, aperos kiel oni anticipas. Nek estas bizaraj kondiĉoj de uzado, nek
 arbitraj limigoj, nek trudoj—tre proksimas al tuta rego, en la pinto de la fingropintoj.
 
 Frog operacias ie en la mezo de jena spektro:
@@ -56,16 +56,16 @@ Frog operacias ie en la mezo de jena spektro:
 
 En kiu, krudenhavo estas aŭ Markdown, Scribble, aŭ HTML-fontdosieroj, aŭ kombinado de ĉio. Frog
 konsumas tiujn enigdosierojn, kiam ĝi eligas agrablajn HTML-dosierojn, kiuj oni povas alŝuti al
-sia TTT-servilo. Ĉu facilas? Ne, pli facilas ol sonas.
+TTT-servilo. Ĉu facilas? Ne, pli facilas ol ĝi sonas.
 
 
-<a name="instalo"></a>Instalo
+<a name="instalo">Instalo</a>
 -----------------------------
 
 En la jenaj sekcioj, ni supozas, ke la uzantnomo estas `vakelo`, kaj la hejmdosiero estas
 `/home/vakelo/`.
 
-Por instali je Frog, oni bezonas instali Rakidon unue. Plej verŝajne, la pako-administrilo jam
+Por instali Frog, oni bezonas instali Rakidon unue. Plej verŝajne, la pako-administrilo jam
 havas ĝin.
 
 
@@ -77,10 +77,10 @@ Per APT:
 
     $ sudo apt-get install -y racket
 
-En la malbonŝanca okazo ke ne instaleblas per la pako-administrilo, iru al
+En la malbonŝanca okazo ke ĝi ne instaleblas per la pako-administrilo, iru al
 [racket-lang.org/download/](https://racket-lang.org/download/), tiam faru la instrukciojn el tie:
 
-Tiam, oni bezonas instali je Frog:
+Tiam, oni bezonas instali Frog:
 
     $ raco pkg install frog
 
@@ -89,33 +89,33 @@ Poste, oni akiros la `raco frog`-komandon. Ni montru ĝiajn helpajn opciojn:
     $ raco frog -h
 
 
-<a name="unua"></a>Unua uzo
+<a name="unua">Unua uzo</a>
 ---------------------------
 
-Dolĉe. Nu, nun oni havas je Frog instalita, ni daŭru ruli. Por krei la unuan Frog-disponigitan
+Bone. Nu, nun oni havas je Frog instalita, ni daŭru ruliĝi. Por krei la unuan Frog-disponigitan
 retejon, oni kreos la projektan dosierujon unue:
 
     $ mkdir blogo
     $ cd blogo
 
-Tiam, bruligu la sparkilon pravalorizi la retan deponejon:
+Tiam, bruligu la sparkilon, pravalorizante la retan deponejon:
 
     $ raco frog --init
 
-Tiam, oni vidos mesaĝon diri ke la retejo jam pretas. Ni agu laŭ la proponita komando:
+Tiam, oni vidos mesaĝon dirante, ke la retejo jam pretas. Ni agu laŭ la proponita komando:
 
     $ raco frog -bp
 
 Kion la komando faras, estas, ĝi muntas la HTML-dosierojn el la specimenaj dosieroj, kreitaj
-per la `‑‑init`-ŝaltilo, tiam ĝi lanĉas lokan retservilon, kiu defaŭlte servas la retejadreson
+per la `‑‑init`-ŝaltilo, tiam ĝi lanĉas lokan retservilon, kiu implicite servas la retejadreson
 [http://localhost:3000](http://localhost:3000).
 
-Frog malfermas novan retumilan langeton aŭ fenestron, montranta tiun retejadreson. La paĝo kiun
-oni vidos, enhavas la defaŭltan retejan araĝon. Kiam oni konsentas al tiu, ni iru al la
+Frog malfermas novan retumilan langeton aŭ fenestron, montrante tiun retejadreson. La paĝo kiun
+oni vidos, enhavas la implicitanhh retejan araĝon. Kiam oni konsentas al tio, ni iru al la
 komandlinio kaj ni mortigu tiun procezon per premi <kbd>C-c</kbd>.
 
 
-<a name="novaj"></a>Krei novafiŝojn
+<a name="novaj">Krei novafiŝojn</a>
 -----------------------------------
 
 Krei novan afiŝon el nulo estas alia facila tasko:
@@ -128,7 +128,7 @@ simila al:
 
     /home/vakelo/blogo/_src/posts/2014-02-21-nova-bloga-afisxo.md
 
-Ni redaktu tiun dosieron, kaj vidu kiel ĝi aspektas:
+Ni redaktu tiun dosieron, kaj vidu kiel ĝi aspektos:
 
     $ emacs _src/posts/2014-02-21-nova-bloga-afisxo.md
 
@@ -137,13 +137,14 @@ Ni redaktu tiun dosieron, kaj vidu kiel ĝi aspektas:
     Date: 2014-02-21T18:53:42
     Tags: DRAFT
 
-_Ĉi tion anstataŭigu per la afiŝa teksto. Unu aŭ pli perkome disigitajn etikedojn aldonu ĉi-supre. La
-afiŝon por esti eldonita la speciala etikedo `DRAFT` malebligas._
+_Anstataŭigu ĉi tiun per la afiŝa teksto. Aldonu unu
+aŭ pli perkome disigitajn etikedojn supre. La speciala
+etikedo `DRAFT` malebligas la afiŝon por esti eldonita._
 
 <!-- more -->
 ```
 
-Tenu en la kalkulo, ke ĉi tiu dosiero, kreitas por oni per la komando `raco frog -n ...`.  La
+Memoru, ke ĉi tiu dosiero, kreitas por oni per la komando `raco frog -n ...`.  La
 unuaj tri linioj enhavas la metadatumojn pri la afiŝo. Ili estas la afiŝotitolo, estigdato, kaj
 etikedoj, respektive. La dato estis elektita el la `-n`-ŝaltilo, kiu proklamitas antaŭe. La
 `Tags`-kampoj, enhavas diskomajn listojn de vortoj, kiuj Frog poste priidentigus la afiŝon. Kiam

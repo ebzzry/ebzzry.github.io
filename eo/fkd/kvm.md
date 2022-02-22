@@ -46,7 +46,7 @@ pro la uzado de *sudo*.
 Unu el la plej unuaj aferoj kiujn oni devas fari estas por la
 [aparataro-asistitan virtualigadon](https://en.wikipedia.org/wiki/Hardware-assisted_virtualization)
 ŝalti, ankaŭ nomiĝas plirapigita virtualigado, en la aparataro. Se la ĉefprocezilo estis kreita
-antaŭ 2006, plej verŝajne, ĉi tiu kapablo ne ĉeestas en la ico. Ankaŭ, tenu en la kalkulo, ke ĉi
+antaŭ 2006, plej verŝajne, ĉi tiu kapablo ne ĉeestas en la ico. Ankaŭ, memoru, ke ĉi
 tiu paŝo ne devigatas por iun ajn kapablojn en ĉi tiu afiŝo uzi, tamen la aferojn ĝi _atentinde_
 plirapidigos.
 
@@ -83,7 +83,7 @@ La opcion de konekti al la gasta maŝina ekrano
 per [VNC](https://en.wikipedia.org/wiki/Virtual_Network_Computing) aliaj aplikaĵaroj
 ofertas. Bedaŭrinde, ĝi malrapidas kaj malviglas. La respondtempo teruras. La
 [SPICE](http://www.spice-space.org/)-protokolon uzante, ne nur aferojn ĝi plirapidigas, ankaŭ
-aliajn aferojn ĝi ebligas. Tenu en la kalkulo, ke SPICE ne estas anstataŭaĵo por VNC, anstataŭe, ĝi
+aliajn aferojn ĝi ebligas. Memoru, ke SPICE ne estas anstataŭaĵo por VNC, anstataŭe, ĝi
 estas alia maniero por la celojn renkonti.
 
 
@@ -103,7 +103,7 @@ Tamen, se bildon oni ne jam havas, ĝin oni povas krei per:
 
     $ qemu-img create -f qcow2 vm.qcow2 20G
 
-20GiB-bildon la lasta paŝo kreas, kiu nomiĝas `vm.qcow2`. Tenu en la kalkulo, ke la dosiersufikso
+20GiB-bildon la lasta paŝo kreas, kiu nomiĝas `vm.qcow2`. Memoru, ke la dosiersufikso
 ne fakte gravas—la bildon oni povas nomigi kiel `index.html`, tamen tio ne estus sencema, ĉu ne? 😄
 
 
@@ -209,7 +209,7 @@ Por ke la gastan ekranon oni povu uzi, oni devas konekti al la SPICE-servilo, pe
 
     $ spicy -h 127.0.0.1 -p 9999 -w sekretŝlosilo
 
-Tenu en la kalkulo, ke la spicy-fenestron fermi ne la QEMU-seancon mortigas. Se la musenigon
+Memoru, ke la spicy-fenestron fermi ne la QEMU-seancon mortigas. Se la musenigon
 la gasta operaciumo kaptas, je <kbd>Shift+F12</kbd> premu, por eskapi.
 
 
