@@ -2,11 +2,11 @@ Pri
 ===
 
 <div class="center">Esperanto ▪ [English](/en/about/)</div>
-<div class="center">Laste ĝisdatigita: la 21-an de Februaro 2022</div>
+<div class="center">Laste ĝisdatigita: la 22-an de Februaro 2022</div>
 
 <div>
 <img align="right" width="50%" src="/images/photos/ebzzry.jpg">
-Rommel MARTINEZ estas artefarita intelekta esploristo kiu interesiĝas pri la konscio, la menso, kaj la realeco. Li nune esploras kiel modernajn komputilojn oni povas uzi por atingi la malalte pendantajn fruktojn de AI. Li gvidas la AI-esplorado kaj -evoluado ĉe [ASTN Group](https://astn-group.com).
+Rommel MARTINEZ estas artefarita intelekta esploristo kiu interesiĝas pri la konscio, la menso, kaj la realeco. Li nune esploras kiel modernajn komputilojn oni povas uzi por atingi la malalte pendantajn fruktojn de AI. Li gvidas la AI-esploradon kaj -evoluadon ĉe [ASTN Group](https://astn-group.com).
 
 Krome, fiziktrejnado kaj sportoj tre interesas al li, precipe per globhalteroj, kalistenoj, kaj golfo.
 
