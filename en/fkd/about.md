@@ -6,7 +6,11 @@ About
 
 <div>
 <img align="right" width="50%" src="/images/photos/ebzzry.jpg">
-Rommel Martinez is an artificial intelligence researcher who is interested with consciousness, the mind, and reality. He is currently exploring how we can use modern computers to reach the low hanging fruits of AI. He is spearheading the AI research and development at [ASTN Group](https://astn-group.com).
+
+Rommel Martinez is an artificial intelligence researcher who is interested with consciousness, the
+mind, and reality. He is currently exploring how we can use modern computers to reach the low
+hanging fruits of AI. He is spearheading the AI research and development at [ASTN
+Group](https://astn-group.com).
 
 Additionally, he likes to do physical training and sports, mainly with kettlebells, calisthenics, and golf.
 
