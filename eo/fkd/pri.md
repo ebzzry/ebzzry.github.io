@@ -6,9 +6,14 @@ Pri
 
 <div>
 <img align="right" width="50%" src="/images/photos/ebzzry.jpg">
-Rommel MARTINEZ estas artefarita intelekta esploristo kiu interesiĝas pri la konscio, la menso, kaj la realeco. Li nune esploras kiel modernajn komputilojn oni povas uzi por atingi la malalte pendantajn fruktojn de AI. Li gvidas la AI-esploradon kaj -evoluadon ĉe [ASTN Group](https://astn-group.com).
 
-Krome, fiziktrejnado kaj sportoj tre interesas al li, precipe per globhalteroj, kalistenoj, kaj golfo.
+Rommel MARTINEZ estas artefarita intelekta esploristo kiu interesiĝas pri la konscio, la menso, kaj
+la realeco. Li nune esploras kiel modernajn komputilojn oni povas uzi por atingi la malalte
+pendantajn fruktojn de AI. Li gvidas la AI-esploradon kaj -evoluadon ĉe [ASTN
+Group](https://astn-group.com).
+
+Krome, fiziktrejnado kaj sportoj tre interesas al li, precipe per globhalteroj, kalistenoj, kaj
+golfo.
 
 Li nune loĝas kun sia edzino kaj filo en la varma lando de Filipinoj.
 </div>
