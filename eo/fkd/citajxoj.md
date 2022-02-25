@@ -6,7 +6,6 @@ Citaĵoj
 
 <img src="/bil/wallhaven-77816-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
-
 Liston de atenteme elektitaj citaĵoj, aforismoj, kaj sentencoj kiujn mi kolektis tra la jarojn, ĉi
 tiu paĝo enhavas.
 
@@ -210,7 +209,7 @@ tiu paĝo enhavas.
   CHARTER
 
 
-- La unua paŝo por iri ien, estas decidi, ke oni ne restos kie oni estas.<br>―J.P. MORGAN
+- La unua paŝo por iri ien estas decidi, ke oni ne restos kie oni estas.<br>―J.P. MORGAN
 
 
 - La vivo similas al rajdi biciklon. Por pluigi onian egalpezon, oni devas daŭri movi.<br>―Alberto
@@ -759,7 +758,7 @@ tiu paĝo enhavas.
   Genesis Evangelion
 
 
-- Tiu kiu meritas travivi estas tiu kiu havas la deziron por tion ebligi.<br>Misato KATsURAGI, Neon
+- Tiu kiu meritas travivi estas tiu kiu havas la deziron por tion ebligi.<br>Misato KATSURAGI, Neon
   Genesis Evangelion
 
 
