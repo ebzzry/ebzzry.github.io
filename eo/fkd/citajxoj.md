@@ -56,7 +56,7 @@ tiu paĝo enhavas.
 - Lerni ne necesas; nek travivas.<br>―W. Edwards DEMING
 
 
-- Bona juĝo devenas el sperto, kaj sperto devenas el malbona juĝo.<br>―Fred BROOKs
+- Bona juĝo devenas el sperto, kaj sperto devenas el malbona juĝo.<br>―Fred BROOKS
 
 
 - Unu persono kun ardo pli bonas ol kvardek personoj nure interesataj.<br>―E.M. FORSTER
@@ -130,7 +130,7 @@ tiu paĝo enhavas.
   maleblecon.<br>―Arthur C. CLARKE
 
 
-- La sekreto de kreemo estas scii kiel kaŝi oniajn fontojn.<br>―Alberto EJNsXTEJNO
+- La sekreto de kreemo estas scii kiel kaŝi oniajn fontojn.<br>―Alberto EJNSXTEJNO
 
 
 - Estas dekkelkjarulojn kiuj pensas ke ili kreos fari milionojn kiel NBA-ludantoj, kiam tio ne
@@ -245,7 +245,7 @@ tiu paĝo enhavas.
 - Kredu kaj agu kvazaŭ estis neeblaj por malsukcesi.<br>―Charles KETTERING
 
 
-- La kontrasto inter ordinara kaj eksterordinara estas tiu eta pliaĵo.<br>―Jimmy JOHNsON
+- La kontrasto inter ordinara kaj eksterordinara estas tiu eta pliaĵo.<br>―Jimmy JOHNSON
 
 
 - Kiam oni falegis antaŭe kaj oni postviviĝis, estas tre malmultaj aferoj en la vivo kiuj povas
@@ -687,7 +687,7 @@ tiu paĝo enhavas.
 
 
 - Ĉiuj feliĉaj familioj similas al unu la alia, ĉiuj malfeliĉa familio malfeliĉas en ĝia propra
-  maniero.<br>—Leo TOLsTOY, Anna Karenina
+  maniero.<br>—Leo TOLSTOY, Anna Karenina
 
 
 - Sekreton tri uloj povas gardi se du el ili estas mortaj.<br>―Benjameno FRANKLENO
