@@ -3,20 +3,20 @@ Agordi GPG kaj SSH en KDE
 
 <div class="center">Esperanto ▪ [English](/en/gsk/)</div>
 <div class="center">Laste ĝisdatigita: la 3-an de Februaro 2022</div>
-
+    
 >Ne tute estas grave por prave atingi tion en la unua fojo. Estas vitale grava atingi tion en la
 >lasta tempo.<br>
->―Andrew HUNT kaj David THOMAs
+>―Andrew HUNT kaj David THOMAS
 
-Kiam kaj GPG kaj SSH bone enkonstruitas kun KDE, estas facile por kunoperacii tiujn
+Kiam kaj GPG kaj SSH estis bone enkonstruita kun KDE, estas facile por kunoperacii tiujn
 sistemojn. Estas kontrasto inter malfirme adaptita ganto kaj tiu, kiu tre bone adaptiĝas.
 
 Ĉi tiu mallonga gvidilo traktos la paŝojn kiel fari tion. Por gastigi ĉiujn, mi ankoraŭ diskutos
-kiel instali kaj agordi la bezonatajn komponantojn. Uzos ni je [nano](https://www.nano-editor.org/)
-por ĉi tiu seanco, tamen liberas oni uzi ian redaktilon.
+kiel instali kaj agordi la bezonatajn komponantojn. Ni uzos [nano](https://www.nano-editor.org/)
+por ĉi tiu seanco, tamen oni liberas uzi ian ajn redaktilon.
 
 
-<a name="et"></a>Enhavotabelo
+<a name="et">Enhavotabelo</a>
 -----------------------------
 
 - [Postuloj](#postuloj)
@@ -27,10 +27,10 @@ por ĉi tiu seanco, tamen liberas oni uzi ian redaktilon.
 - [Finrimarkoj](#finrimarkoj)
 
 
-<a name="postuloj"></a>Postuloj
+<a name="postuloj">Postuloj</a>
 -------------------------------
 
-Por ĉi tiu gvidilo, bezonas oni havi GPG, SSH, kaj Pinentry.
+Por ĉi tiu gvidilo, oni bezonas havi GPG, SSH, kaj Pinentry.
 
 Per Nixpkgs:
 
@@ -45,12 +45,12 @@ Per DNF:
     $ sudo dnf install gnupg openssh pinentry
 
 
-<a name="ssh"></a>Agordi SSH
+<a name="ssh">Agordi SSH</a>
 ----------------------------
 
 Nu, nun oni havas la partojn antaŭ ĝi, estas tempo por munti la komponantojn. La unua afero kiun oni
-bezonas fari—kvankam vere la dosieroj kiun oni bezonas malfermi povas esti farita en ia ordo kiun oni
-volas—estas krei siajn sekurŝelajn ŝlosilojn:
+bezonas fari—kvankam vere la dosieroj kiun oni bezonas malfermi povas esti faritaj en ia ordo kiun
+oni volas—estas krei siajn sekurŝelajn ŝlosilojn:
 
     $ ssh-keygen -t ed25519
 
@@ -61,21 +61,22 @@ La supra komando kreos du dosierojn:
     ~/.ssh/id_ed25519.pub
     ~/.ssh/id_ed25519
 
-Tiam, sin permesu ĉe la defora servilo, por ke la senpasvortaj ensalutoj funkciu poste:
+Tiam, permesu sin ĉe la defora servilo, por ke la senpasvortaj ensalutoj funkciu poste:
 
     $ ssh-copy-id uzanto@deforgastiganto
 
 
-<a name="gpg"></a>Agordi GPG
+<a name="gpg">Agordi GPG</a>
 ----------------------------
 
-Sekve, oni bezonas krei siajn GPG-ŝlosilojn. Observu la invitojn, kiuj aperas, certigi ke oni
+Sekve, oni bezonas krei siajn GPG-ŝlosilojn. Observu la invitojn, kiuj aperas, certigante ke oni
 elektas la plej fortajn opciojn:
 
     $ gpg2 --gen-key
 
 Se oni volas uzi pli bonajn pasfrazojn, uzu
-[dajsvaron](http://world.std.com/~reinhold/diceware.html). XKCD-bildstrio kreitas pro tio.
+[dajsvaron](http://world.std.com/~reinhold/diceware.html). [XKCD-bildstrio](https://xkcd.com/936/)
+estas kreita pro tio.
 
 La sekva afero por fari estas por redakti la ĉefan GPG-agorddosieron:
 
@@ -101,7 +102,7 @@ sistemo. Por precizigi la lokon de pinentry-o, plenumu:
     $ which pinentry-qt4
 
 
-<a name="kde"></a>Agordi KDE
+<a name="kde">Agordi KDE</a>
 ----------------------------
 
 Oni nun bezonas ligi la GPG-perilon al KDE. Oni bezonas krei startigan skripton por KDE, kiu
@@ -136,12 +137,12 @@ Tiam metu la jenan kodaĵon:
 killall gpg-agent
 ```
 
-Ne forgesu por fari ĝin plenumebla:
+Ne forgesu fari ĝin plenumebla:
 
     $ chmod +x ~/.kde/shutdown/01_gpg-agent.sh
 
 
-<a name="kontrolo"></a>Kontrolo
+<a name="kontrolo">Kontrolo</a>
 -------------------------------
 
 Bedaŭrinde, oni bezonas reŝargi la KDE-seancon, por ke ĉi tiuj agordaĵoj efektiviĝu. Se oni konas
@@ -153,19 +154,19 @@ Malfermu Konsole-fenestron, tiam konektu al la plej ŝatata SSH-servilo:
 
     $ ssh uzanto@deforgastiganto
 
-Aperas pinentry-dialogujo demandi onin por ĝia pasfrazo. Ĉi tiu pasfrazo estos kaŝmemorigita laŭ
-la agordoj en `~/.gnupg/gpg-agent.conf`. Sekvaj SSH-konektaj klopodoj ne plu demandos la
-uzanton por la pasfrazon ene la tempolima periodo:
+Aperos pinentry-dialogujo demandante onin por ĝia pasfrazo. Ĉi tiu pasfrazo estos kaŝmemorigita laŭ
+la agordoj en `~/.gnupg/gpg-agent.conf`. Sekvaj SSH-konektaj klopodoj ne plu demandos la uzanton por
+la pasfrazon ene la tempolima periodo:
 
 Okazos samspeca agmaniero se oni ĉifras dosieron GPG-e:
 
     $ gpg2 -sea -r john@foo.bar file.dat
 
 
-<a name="finrimarkoj"></a>Finrimarkoj
+<a name="finrimarkoj">Finrimarkoj</a>
 -------------------------------------
 
-La paŝoj parolis supre estis intencitaj por esti mallongaj sen priparoli la malsimplajn
-detalojn. Mi esperas ke oni trovis ĉi tiun utila.
+La parolitaj paŝoj supre estis intencitaj por esti mallongaj sen priparoli la malsimplajn detalojn.
+Mi esperas ke oni trovis ĉi tiun utila.
 
 _Dank’ al [Raymund MARTINEZ](https://zhaqenl.github.io) pro la korektoj._

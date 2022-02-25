@@ -2,9 +2,12 @@ Emaksaj Konsiletoj 1-a: Regionoj kaj Markoj
 ===========================================
 
 <div class="center">Esperanto ▪ [English](/en/emacs-tips-1/)</div>
-<div class="center">Laste ĝisdatigita: la 20-an de Februaro 2022</div>
+<div class="center">Laste ĝisdatigita: la 25-an de Februaro 2022</div>
 
-Mi Ankoraŭ bezonas trovi pli bonan redaktilon ol [emakso](https://www.gnu.org/software/emacs/). Tio,
+>La voĉon ne pligrandigu; la argumenton plibonigu.<br>
+>―Desmond TUTU
+
+Mi ankoraŭ bezonas trovi pli bonan redaktilon ol [emakso](https://www.gnu.org/software/emacs/). Tio,
 kio igas emakson elstara, estas ĝia agorda lingvo—emakslispo. Emakso uzas ĝin al punkto, en kiu,
 plejparto de la funkciado de ĝi mem, realiĝas per emakslispo. En ĉi tiuj serioj, mi priparolos la
 aferojn, kiujn mi malkovris fari la uzadon de emakso pli agrabla persone.
