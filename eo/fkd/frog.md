@@ -26,7 +26,7 @@ estas kiel mi, daŭru legi.
 - [Instalo](#instalo)
 - [Unua uzo](#unua)
 - [Krei novafiŝojn](#novaj)
-- [Personecigaĵoj](#personecigaĵoj)
+- [Personecigaĵoj](#personecigajxoj)
   - [.frogrc](#.frogrc)
   - [page-template.html](#page-template.html)
   - [post-template.html](#post-template.html)
@@ -192,7 +192,7 @@ Tiam, rekunmetu la dosierojn:
     $ raco frog -bp
 
 
-<a name="personecigaĵoj">Personecigaĵoj</a>
+<a name="personecigajxoj">Personecigaĵoj</a>
 -------------------------------------------
 
 Ĉi-foje eble oni jam tre volas personecigi la retejon. Jes, tio estas, kion oni faros en ĉi tiu sekcio.

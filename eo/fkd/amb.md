@@ -6,7 +6,7 @@ Milda Enkonduko al Nedeterminismo en Skimo
 
 >Kelke da plej kernaj paŝoj en mensa kresko baziĝas ne simple pri novajn kapablojn akiri, sed
 >pri novajn administrajn manierojn akiri por tion uzi, kion oni jam scias.<br>
->―Marvin MINsKY
+>―Marvin MINSKY
 
 <img src="/bil/wallhaven-333472-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-333472" title="wallhaven-333472"/>
 
