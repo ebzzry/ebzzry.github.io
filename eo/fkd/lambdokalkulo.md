@@ -4,15 +4,15 @@ Aboco de la Lambdokalkulo
 <div class="center">Esperanto ▪ [English](/en/lambda-calculus/)</div>
 <div class="center">Laste ĝisdatigita: la 18-an de Oktobro 2019</div>
 
->Oni ne vere komprenas ion krom se oni povas klarigi tion al sia avino.<br>
+>Oni ne vere komprenas ion krom se oni povas klarigi ĝin  al sia avino.<br>
 >―Alberto EJNSXTEJNO
 
-Ĉi tio estas mia provo por fari ja tion, tamen la avino ĉi tie estas mi mem. Mi firme kredas, ke mi
+Ĉi tiu estas mia provo por fari ja tion, tamen la avino ĉi tie estas mi mem. Mi firme kredas, ke mi
 ne vere povas kompreni ion, krom se mi povas klarigi ĝin. Ĉi tiu afiŝo estas malstreĉa aliro por
-fari tion, kaj evitas tre teĥnikajn temojn, krom se ege bezonatas.
+fari tion, kaj evitas tre teĥnikajn temojn, krom se ili estas ege bezonitaj.
 
 
-<a name="et"></a>Enhavotabelo
+<a name="et">Enhavotabelo</a>
 -----------------------------
 
 - [Enkonduko](#enkonduko)
@@ -38,10 +38,10 @@ fari tion, kaj evitas tre teĥnikajn temojn, krom se ege bezonatas.
 - [Fontindikoj](#fontindikoj)
 
 
-<a name="enkonduko"></a>Enkonduko
+<a name="enkonduko">Enkonduko</a>
 ---------------------------------
 
-### <a name="kio"></a>Kio ĝi estas?
+### <a name="kio">Kio ĝi estas?</a>
 
 La lambdokalkulo estas minimuma sistemo por esprimi komputadon kiu konformas al la universalaj
 modeloj de komputado, fari ĝin universala modelo de komputado. Alidire ĝi povas esti nomita kiel unu
