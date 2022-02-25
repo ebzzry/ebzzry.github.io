@@ -2,13 +2,15 @@ Emaksaj Konsiletoj 2-a: Seancoj kaj Pakoj
 =========================================
 
 <div class="center">Esperanto ▪ [English](/en/emacs-tips-2/)</div>
-<div class="center">Laste ĝisdatigita: la 14-an de Aŭgusto 2019</div>
+<div class="center">Laste ĝisdatigita: la 25-an de Februaro 2022</div>
 
-Ĉi tiu estas la daŭrigo de la serioj pri emaksaj konsiletoj. En ĉi tiu afiŝo, ni esploras seancan
+>Sonorilo kiu ne povas sonori ne havas celon.<br>
+>―Keel LORENZ, Neon Genesis Evangelion
+
+Ĉi tiu estas la daŭrigo de la serioj pri emaksaj konsiletoj. En ĉi tiu afiŝo, ni esploros seancan
 administradon, pakojn, krommarĝenojn, kaj aliajn malgrandajn agrablajn aferojn.
 
-
-<a name="et"></a>Enhavotabelo
+<a name="et"Enhavotabelo></a>
 -----------------------------
 
 - [Desktop](#desktop)
@@ -28,12 +30,13 @@ administradon, pakojn, krommarĝenojn, kaj aliajn malgrandajn agrablajn aferojn.
 - [Finrimarkoj](#finrimarkoj)
 
 
-<a name="desktop"></a>Desktop
+<a name="desktop">Desktop</a>
 -----------------------------
 
 Havenda ilo kiun mi nun uzas estas _Desktop_. Ĝi konservas la staton de la emaksa seanco, por ke en
-la okazo de kraŝo, kurenta malfunkcio, aŭ io kiu igas min perdi mian seancon, mi povu reiri al
-ĝi. Desktop enkonstruitas kun la plej ĵusaj versioj de emakso. La jena estas la kodaĵo:
+la okazo de kraŝo, kurenta malfunkcio, aŭ io kiu igas min perdi mian seancon, mi povu reiri al la
+lasta seanco. Desktop estas enkonstruita kun la plej ĵusaj versioj de emakso. La jena estas la
+kodaĵo por uzi ĝin :
 
 ```lisp
 (require 'desktop)
@@ -55,10 +58,10 @@ la okazo de kraŝo, kurenta malfunkcio, aŭ io kiu igas min perdi mian seancon, 
 ```
 
 
-<a name="savehist"></a>Savehist
+<a name="savehist">Savehist</a>
 -------------------------------
 
-Alia grava funkciado kiun mi uzas estas _Savehist_. Ĝi konservas la etbufran historion. Iomete similas
+Alia grava funkcio kiun mi uzas estas _Savehist_. Ĝi konservas la etbufran historion. Iomete similas
 al konservi la komandlinian historion. La jena estas la kodaĵo:
 
 ```lisp
@@ -68,11 +71,11 @@ al konservi la komandlinian historion. La jena estas la kodaĵo:
 ```
 
 
-<a name="kunfando"></a>Kunfando
+<a name="kunfando">Kunfando</a>
 -------------------------------
 
-Okazis multe da fojoj, kiam mi volas permane konservi la staton de tiom da seancan informon kiun mi
-povas konservi. Mi volus konservi la bufrojn, etbufran historion, legosignojn, kaj comint-reĝiman
+Okazis multe da fojoj, kiam mi volis permane konservi la staton de tiom da seancan informon kiun mi
+povas konservi. Mi volas konservi la bufrojn, etbufran historion, legosignojn, kaj comint-reĝiman
 historion. Por fari tiel, mi havas la jenan:
 
 ```lisp
@@ -96,18 +99,18 @@ historion. Por fari tiel, mi havas la jenan:
   (save-histories))
 ```
 
-Liveras la agrablan:
+Kiu provizas la agrablan:
 
     M-x save EN
 
 
-<a name="pakoj"></a>Pakoj
+<a name="pakoj">Pakoj</a>
 -------------------------
 
-### <a name="elpa"></a>ELPA
+### <a name="elpa">ELPA</a>
 
 ELPA estas la pako-administrila sistemo de emakso. Se vi ne ankoraŭ uzas la paksistemon, uzu ĝin
-nun. Ĉiuj, kiujn oni bezonas komenci estas la jena:
+nun. Ĉio, kiun oni bezonas komenci estas la jena:
 
 ```lisp
 (require 'package)
@@ -130,30 +133,30 @@ Por listigi ĉiujn haveblajn pakojn, premu:
 
 Se vi konas la nomon de pako, premu:
 
-    M-x pi EN pako EN
+    M-x pi EN paknomo EN
 
 Por ĝistadigi vian lokan datumon, premu:
 
     M-x pr EN
 
 
-### <a name="use-package"></a>use-package
+### <a name="use-package">use-package</a>
 
-Ĉi tiu estas vera valorŝtono. Similas al `require`, tamen kun steroidoj. Kiam *require*-igi pakon,
-oni havas la elekton por instali tiun pakon, se tiu ne ankoraŭ ekzistas. Ankaŭ donas al la uzanto
-la kapablon por agordi tiun pakon, ene unuigita esprimo. Tamen, male `require`, `use-package` ne
-alvenas konstruita kun emakso. Oni bezonas instali ĝin per `package-install`:
+Ĉi tiu estas vera valorŝtono. Ĝi similas al `require`, tamen kun steroidoj. Kiam *require*-igi
+pakon, oni havas la elekton por instali tiun pakon, se ĝi ne ankoraŭ ekzistas. Ĝi ankaŭ donas al la
+uzanto la kapablon por agordi tiun pakon ene unuigita esprimo. Tamen, male `require`, `use-package`
+ne alvenas konstruita kun emakso. Oni bezonas instali ĝin per `package-install`:
 
     M-x pi EN use-package EN
 
-Oni nun povas postuli ĝin per la sekva esprimo:
+Oni nun povas ŝargi ĝin per la sekva esprimo:
 
 ```lisp
 (require 'use-package)
 ```
 
-Por instali `markdown-mode` ekzemple, se eĉ ne jam ekzistas, kaj agordi ĝiajn rilatajn opciojn post
-ŝargi ĝin, havu la jenan:
+Por instali `markdown-mode` ekzemple—se eĉ ĝi ne jam ekzistas—kaj agordi ĝiajn rilatajn opciojn
+ŝarginte ĝin, havu la jenan:
 
 ```lisp
 (use-package markdown-mode
@@ -166,11 +169,11 @@ Por instali `markdown-mode` ekzemple, se eĉ ne jam ekzistas, kaj agordi ĝiajn 
 ```
 
 
-<a name="lininumeroj"></a>Lininumeroj
+<a name="lininumeroj">Lininumeroj</a>
 -------------------------------------
 
-Mi tre ŝatas havi la lininumerojn montrataj ĉe la maldekstra marĝeno. Donas al mi iom da ideo kiel
-granda la dosiero estas, kaj kie ni nune estas. Ŝalti `linum-mode` atingas tion:
+Mi tre ŝatas havi la lininumerojn montrataj ĉe la maldekstra marĝeno. Ĝi donas al mi iom da ideo
+kiel granda la aktuala dosiero estas, kaj kie ni nune estas. Ŝalti `linum-mode` atingas tion:
 
 ```lisp
 (setq linum-format "%5d │ ")
@@ -182,10 +185,10 @@ granda la dosiero estas, kaj kie ni nune estas. Ŝalti `linum-mode` atingas tion
 ```
 
 
-<a name="tempindikoj"></a>Tempindikoj
+<a name="tempindikoj">Tempindikoj</a>
 -------------------------------------
 
-Mi ofte bezonas meti tempindikojn, precipe kiam mi redaktas mian ĉiutagan protokoldosieron. La jeno
+Mi ofte bezonas meti tempindikojn, precipe kiam mi redaktas mian ĉiutagan protokoldosieron. La jena
 estas kelke da kodaĵo por helpi onin:
 
 ```lisp
@@ -205,11 +208,11 @@ estas kelke da kodaĵo por helpi onin:
 Ŝanĝu la valoron de `system-time-locale` kiel taŭgas.
 
 
-<a name="klavoj"></a>Klavoj
+<a name="klavoj">Klavoj</a>
 ---------------------------
 
-Kiam la klavkombinoj ne ordigatas, ne estas facile por trovi tiun, kiun klavkombino klavo estas
-ligita. Bonŝance, oni havas `bind-key`, kiu estas parto de `use-package`.
+Kiam la klavkombinoj ne estas ordigitaj, ne estas facile por trovi tiun, kiun klavkombino klavo
+estas ligita. Bonŝance, oni havas `bind-key`, kiu estas parto de `use-package`.
 
 Ekzampla uzado de `bind-key` aspektus kiel:
 
@@ -221,11 +224,11 @@ Ekzampla uzado de `bind-key` aspektus kiel:
 ```
 
 
-<a name="linifinio"></a>Linifinio sen krommarĝeno
+<a name="linifinio">Linifinio sen krommarĝeno</a>
 -------------------------------------------------
 
-Ĉi tiu komando kreas linifinion, kiam movadas la montrilon. Ŝajnigas agmanieron, en kiu, la novlinion
-ne krommarĝeniĝas.
+Ĉi tiu komando kreas linifinion, kiam movadas la montrilon. Ĝi ŝajnigas agmanieron, en kiu, la
+novlinio ne krommarĝeniĝas.
 
 ```lisp
 (defun newline-and-no-indent (&optional arg)
@@ -235,11 +238,11 @@ ne krommarĝeniĝas.
 ```
 
 
-<a name="plenigado"></a>Plenigado
+<a name="plenigado">Plenigado</a>
 ---------------------------------
 
-Ĉi tiu kodaĵo ege funkcias kiam labori pri plataj tekstoj. Krommarĝenigas alineon aŭ la aktualan
-alinean kontekston. Se ekzistas markilo, tiam la regiono plenigiĝas.
+Ĉi tiu kodaĵo ege funkcias laborante pri plataj tekstoj. Ĝi krommarĝenigas alineon aŭ la aktualan
+alinean kontekston. Se ekzistas markilo, tiam la regiono pleniĝos:
 
 ```lisp
 (defun fill-region-or-paragraph ()
@@ -250,14 +253,14 @@ alinean kontekston. Se ekzistas markilo, tiam la regiono plenigiĝas.
 ```
 
 
-<a name="montrilo"></a>Montrilomovado
+<a name="montrilo">Montrilomovado</a>
 -------------------------------------
 
-La komando `move-to-window-line-top-bottom`, defaŭlte bindita al <kbd>M-r</kbd> bonegas kiam
-oni volas movi la montrilon al la supra, meza, kaj malsupra pozicioj en rilato kun la fenestro
-similas al la <kbd>H</kbd>, <kbd>M</kbd>, kaj <kbd>L</kbd> komandoj de Vimo.
+La komando `move-to-window-line-top-bottom`, implicite bindita al <kbd>M-r</kbd>, bonegas kiam oni
+volas movi la montrilon al la supra, meza, kaj malsupra pozicioj rilate al la fenestro, kaj similas
+al la <kbd>H</kbd>, <kbd>M</kbd>, kaj <kbd>L</kbd> komandoj de Vim.
 
-Tamen ne estas tre ekonomie kiam specife celi areojn de la ekrano. La komandoj malsupre pozicias
+Tamen, ĝi ne estas tre ekonomia kiam specife celi areojn de la ekrano. La komandoj malsupre pozicias
 la montrilon, specife al la supra, meza, kaj malsupra pozicioj, respektive.
 
 ```lisp
@@ -275,10 +278,11 @@ la montrilon, specife al la supra, meza, kaj malsupra pozicioj, respektive.
 ```
 
 
-<a name="gito"></a>Gitstato en Dired
+<a name="gito">Gitstato en Dired</a>
 ------------------------------------
 
-Ĉi tiu malgranda kodaĵo donas vidajn indikojn de la stato de gitadministritaj dosieroj ene Dired-bufro. Premi <kbd>g</kbd> reŝargas la bufron, tiam ĝisdatigas la staton.
+Ĉi tiu malgranda kodaĵo donas vidajn indikojn de la stato de gitadministritaj dosieroj ene
+Dired-bufro. Premi <kbd>g</kbd> reŝargas la bufron, tiam ĝisdatigas la staton.
 
 ```lisp
 (use-package dired-k
@@ -289,10 +293,10 @@ la montrilon, specife al la supra, meza, kaj malsupra pozicioj, respektive.
 ```
 
 
-<a name="klavkombinoj"></a>Klavkombinoj
+<a name="klavkombinoj">Klavkombinoj</a>
 ---------------------------------------
 
-La klavkombinoj por la supraj komandoj listigitas malsupre:
+La klavkombinoj por la supraj komandoj estas listigitaj malsupre:
 
 ```lisp
 (bind-keys
@@ -317,7 +321,7 @@ La klavkombinoj por la supraj komandoj listigitas malsupre:
 ```
 
 
-<a name="finrimarkoj"></a>Finrimarkoj
+<a name="finrimarkoj">Finrimarkoj</a>
 -------------------------------------
 
 En ĉi tiu afiŝo, mi montris, ke la malgrandaj alĝustigetoj povas generi grandajn gajnojn. Le resto

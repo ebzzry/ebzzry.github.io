@@ -4,7 +4,7 @@ Malŝparitaj Malcedemoj
 <div class="center">Esperanto ▪ [English](/en/squandered/)</div>
 <div class="center">Laste ĝisdatigita: la 19-an de Februaro 2022</div>
 
->La unua paŝo por iri ien, estas decidi, ke oni ne restos kie oni estas.<br>
+>La unua paŝo por iri ien estas decidi, ke oni ne restos kie oni estas.<br>
 >―J.P. MORGAN
 
 Estas zorgiga kaj tremiga sensacio, kiun mi sentas kiam ajn venas la malvarma konscio, ke mi ne plu
