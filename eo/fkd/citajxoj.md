@@ -24,7 +24,7 @@ tiu paĝo enhavas.
 - Diplomatio estas la arto de diri ‹bonan hundon› ĝis ŝtonon oni povas trovi.<br>―Will ROGERS
 
 
-- Oni ne vere komprenas ion krom se oni povas klarigi tion al sia avino.<br>―Alberto EJNSXTEJNO
+- Oni ne vere komprenas ion krom se oni povas klarigi tion al sia avino.<br>―Alberto EJNŜTEJNO
 
 
 - Vojo de mil mejloj komencas per unuobla paŝo.<br>―Laŭzio
@@ -130,7 +130,7 @@ tiu paĝo enhavas.
   maleblecon.<br>―Arthur C. CLARKE
 
 
-- La sekreto de kreemo estas scii kiel kaŝi oniajn fontojn.<br>―Alberto EJNSXTEJNO
+- La sekreto de kreemo estas scii kiel kaŝi oniajn fontojn.<br>―Alberto EJNŜTEJNO
 
 
 - Estas dekkelkjarulojn kiuj pensas ke ili kreos fari milionojn kiel NBA-ludantoj, kiam tio ne
@@ -213,7 +213,7 @@ tiu paĝo enhavas.
 
 
 - La vivo similas al rajdi biciklon. Por pluigi onian egalpezon, oni devas daŭri movi.<br>―Alberto
-  EJNSXTEJNO
+  EJNŜTEJNO
 
 
 - Oni neniam povas transiri la oceanon, krom se oni havas la kuraĝon por perdi la vidon de la

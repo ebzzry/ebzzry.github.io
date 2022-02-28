@@ -2,10 +2,10 @@ Aboco de la Lambdokalkulo
 =========================
 
 <div class="center">Esperanto ▪ [English](/en/lambda-calculus/)</div>
-<div class="center">Laste ĝisdatigita: la 18-an de Oktobro 2019</div>
+<div class="center">Laste ĝisdatigita: la 28-an de Februaro 2022</div>
 
 >Oni ne vere komprenas ion krom se oni povas klarigi ĝin  al sia avino.<br>
->―Alberto EJNSXTEJNO
+>―Alberto EJNŜTEJNO
 
 Ĉi tiu estas mia provo por fari ja tion, tamen la avino ĉi tie estas mi mem. Mi firme kredas, ke mi
 ne vere povas kompreni ion, krom se mi povas klarigi ĝin. Ĉi tiu afiŝo estas malstreĉa aliro por
@@ -29,7 +29,7 @@ fari tion, kaj evitas tre teĥnikajn temojn, krom se ili estas ege bezonitaj.
   + [Adicio](#adicio)
   + [Multipliko](#multipliko)
 - [Vereco, malvereco, kaj amikoj](#vereco)
-  + [Buleaj](#buleaj)
+  + [Buleaj valoroj](#buleaj)
   + [Logikaj funkciadoj](#logikaj)
 - [Ni nombru malantaŭen](#malantauxen)
   + [Antaŭanto](#antauxanto)
@@ -44,103 +44,104 @@ fari tion, kaj evitas tre teĥnikajn temojn, krom se ili estas ege bezonitaj.
 ### <a name="kio">Kio ĝi estas?</a>
 
 La lambdokalkulo estas minimuma sistemo por esprimi komputadon kiu konformas al la universalaj
-modeloj de komputado, fari ĝin universala modelo de komputado. Alidire ĝi povas esti nomita kiel unu
-el la plej simplaj programlingvoj, tamen aspektas kaj alie kondutas el la unuj ni kutime konas. La
-lambdokalkulo ankaŭ formiĝas kiel la bazo por la popolaj funkciaj programlingvoj kiuj nune uzatas.
+modeloj de komputado, igi ĝin mem universala modelo de komputado. Alidire ĝi povas esti nomita kiel
+unu el la plej simplaj programlingvoj, tamen ĝi aspektas kaj alie kondutas el la unuj, kiuj ni
+kutime konas. La lambdokalkulo ankaŭ formiĝas kiel la bazo por la popolaj funkciaj programlingvoj
+kiuj nune uziĝas.
 
 
-### <a name="lerni"></a>Ĉu oni devas lerni ĝin?
+### <a name="lerni">Ĉu oni devas lerni ĝin?</a>
 
-Jes kaj ne. Se ĉu oni volas kompreni la profundan meĥanismon kiel programaro funkcias, aŭ se oni
-volas konstrui la sekvan bonegan programlingvon, aŭ oni simple volas aprezi la elegantecon de ĝia
-arto, do jes. Tamen, se oni simple volas flugi aviadilon sen scii kiel ĝi funkcias, do ne. Serioze,
-lernu ĝin.
-
-
-### <a name="fari"></a>Kion oni devas fari?
-
-Kiam diskuti novajn konceptojn, tre gravas aranĝi la aksiomojn aŭ la komencajn regularojn. Pensu
-ĝin kiel difini novajn terminojn en ludo, kaj doni al ili sencojn. La koncepto, en kiu, ĉi tiuj
-sencoj vivas, tre gravas. Ekzemple, de la ĝardenisto la akvokondukilo uzatas akvi la plantojn,
-dum de la fajrobrigadisto, la akvokondukilo uzatas mortigi la fajron. Kiam la ĝardenisto aŭ la
-fajrobrigadisto tenas la akvokondukilon, ili ne dubas kion ili tenas aŭ kio estas la celumo. Oni simple
-kredas en sia intuo, por precizigi la signifon de la akvokondukilo en la tempo ili tenis ĝin.
-
-Esperante, la vorto _alta_ havas kelkajn signifojn. Tamen, en ĉiuj de la difinitaj signifoj de
-la vorto, ne ekzistas apriora scio de la valoro de la vorto. Ni akceptas la difinon tiel estas. Ni
-devas konsenti al la uzado de la vorto en la limigita konteksto de la uzantoj de la vorto. Se ni
-provas devii el la establiĝita signifo de la vorto, ekzemple, se ni hazarde krei novan difinon de la
-vorto pro kaprico, plej verŝajne ĝi ne akceptitos. Ni bezonas kredi la difinitajn indikitajn
-kaj montritajn signifojn de la vorto, por ke ĝi havu sencon al ni. La samo veras pri la
-lambdokalkulo—ni aŭ akcepti ĉi tiujn aksiomojn kaj operaciu en ĝia domajno, aŭ ni vivu en
-Neverlando.
+Jes kaj ne. Se oni volas kompreni la profundan meĥanismon kiel programaro funkcias, aŭ se oni volas
+konstrui la sekvan bonegan programlingvon, aŭ se oni simple volas aprezi la elegantecon de ĝia arto,
+do jes. Tamen, se oni simple volas flugi aviadilon sen scii kiel ĝi funkcias, do ne.
 
 
-<a name="pasxoj"></a>Etaj paŝoj
+### <a name="fari">Kion oni devas fari?</a>
+
+Diskutante novajn konceptojn, tre gravas aranĝi la aksiomojn aŭ la komencajn regularojn. Pensu ĝin
+kiel difini novajn terminojn en ludo, kaj doni al ili sencojn. La koncepto, en kiu, ĉi tiuj sencoj
+vivas, estas gravaj. Ekzemple, laŭ la ĝardenisto, la akvokondukilo estas uzata por akvi la plantojn,
+dum laŭ la fajrobrigadisto, la akvokondukilo estas uzata por mortigi la fajron. Kiam la ĝardenisto
+aŭ la fajrobrigadisto tenas la akvokondukilon, ili ne dubas kion ili tenas aŭ kio estas la celumo.
+Oni simple kredas en sia intuo, por precizigi la signifon de la akvokondukilo en la tempo, ke ili
+tenis ĝin.
+
+La vorto _alta_ havas plurajn signifojn. Tamen, en ĉiom da difinitaj signifoj de la vorto, ne
+ekzistas apriora scio de la valoro de la vorto. Ni akceptas la difinon tiel estas. Ni devas konsenti
+al la uzado de la vorto en la limigita kunteksto de la uzantoj de la vorto. Se ni provas devii el la
+establiĝita signifo de la vorto, ekzemple, se ni hazarde kreas novan difinon de la vorto pro
+kaprico, plej verŝajne ĝi ne estos akceptita. Ni bezonas kredi la difinitajn kaj montritajn
+signifojn de la vorto, por ke ĝi havu sencon al ni. La sama veras pri la lambdokalkulo—ni aŭ akcepti
+ĉi tiujn aksiomojn kaj operaciu en ĝia domajno, aŭ ni vivu en Neverlando.
+
+
+<a name="pasxoj">Etaj paŝoj</a>
 -------------------------------
 
-### <a name="funkcioj"></a>Funkcioj
+### <a name="funkcioj">Funkcioj</a>
 
-Kerna ludanto en la lambdokalkulo estas la nocio de funkcio. Plejmulto da ni kutimas pri funkcioj en
-la al altnivelaj programlingvoj, tamen funkcioj en la lambdokalkulo iomete malsimilas—ili devas havi
-plej minimume unu parametron. En plejparto de produktadaj programlingvoj nune uzataj, oni povas alvoki
-funkcion kiu ne prenas argumenton. Okazas kutime por kromefikoj. Tamen, lamdokalkule, apenaŭa
-minimumo de unu argumento devigitas. Jen minimuna funkcio en la lambdokalkulo aspektas:
+Kerna ludanto en la lambdokalkulo estas la nocio de funkcio. Plejmulto da ni konas funkciojn en
+altnivelaj programlingvoj, tamen funkcioj en la lambdokalkulo iomete malsimilas—ili devas havi plej
+minimume unu parametron. En plejparto de produktadaj programlingvoj nune uzataj, oni povas alvoki
+funkcion kiu ne prenas argumenton. Tio okazas kutime por kromefikoj. Tamen, lamdokalkule, apenaŭa
+minimumo de unu argumento estas devigita. Jen kiel minimuna funkcio en la lambdokalkulo aspektas. La
+jena
 
 ```scheme
 λx.x
 ```
 
-Ekvivalentas al:
+estas ekvivalenta al
 
 ```scheme
 (λz.z)
 (λc.c)
 ```
 
-Ĉi tiu ekvivalenteco nomitas la alfakonverto. La nomoj ne gravas, tiel longe kiel ili estas
-uzitaj konsekvence. Rondkrampoj povas esti uzataj por forigi plursensecon kiam apliki funkciojn. La
-funkcio ĉi-supre ekvivalentas al:
+Ĉi tiu ekvivalenteco nomiĝas la alfakonverto. La nomoj ne gravas, tiel longe kiel ili estas uzitaj
+konsekvence. Rondkrampoj povas esti uzataj por forigi plursensecon aplikante funkciojn. La funkcio
+ĉi-supre ekvivalentas al:
 
 ```scheme
 (λx.x)
 ```
 
-La Greka litero `λ` montras, ke la ĉirkaŭa konteksto estas funkcio—aŭ iu, kiu povas esti
-aplikata. The `λ` simbolo uzatas anstataŭ alia simbolo pro la kompostada atentindaĵo kiu estas
+La Greka litero `λ` montras, ke la ĉirkaŭa kunteksto estas funkcio—aŭ iu, kiu povas esti
+aplikata. The simbol `λ` estas uzata anstataŭ alia simbolo pro la kompostada atentindaĵo kiu estas
 diskutita [ĉi tie](https://goo.gl/vxMkW4). Do, ne maltrankviliĝu. Oni simple povas uzi ĝin.
 
-Kion sekvas post la `λ` simbolo, antaŭ la `.`, estas la parametro. Teĥnike, povas esti ia
-simbolo. Simple signifas la nomon, kiu povas esti uzita aplikante tiun funkcion, por referenci al
-ĝia argumento.
+Kio sekvas post la simbolo `λ`, antaŭ la signo `.`, estas la parametro. Teĥnike, ĝi povas esti ia
+simbolo. Tio simple signifas la nomon, kiu povas esti uzita aplikante tiun funkcion, por referenci
+al ĝia argumento.
 
-La `.` simbolo ĉi tie, estas la apartigilo inter la parametra listo kaj la funkciokorpo. En la
+La simbolo `.`, ĉi tie, estas la apartigilo inter la parametra listo kaj la funkciokorpo. En la
 funkcio `(λx.x)`, la korpo simple estas la simbolo `x`.
 
 
-### <a name="variabloj"></a>Variabloj
+### <a name="variabloj">Variabloj</a>
 
-En la lambdokalkulo, la simboloj kiuj uzatas ene funkcio estas nomitaj variabloj. Reiri al la
+En la lambdokalkulo, la simboloj kiuj estas uzataj ene funkcio nomiĝas variabloj. Reiri al la
 difinita funkcio supre:
 
 ```scheme
 (λx.x)
 ```
 
-La parametro `x` estas variablo, kiu ligitas, tial ke ĝi sandviĉiĝitas inter `λ` kaj
+La parametro `x` estas variablo, kiu ligiĝas tial, ke ĝi estas sandviĉiĝita inter `λ` kaj
 `.`. Tamen, en la funkcio:
 
 ```scheme
 (λx.xy)
 ```
 
-La parametro `y` estas variablo kiu liberas, tial ke ĝi ne vivas inter `λ` kaj `.`.
+La parametro `y` estas variablo kiu liberas tial, ke ĝi ne vivas inter `λ` kaj `.`.
 
 
 ### <a name="apliko"></a>Funkciapliko
 
-Por uzi funkcion, oni devas apliki ĝin al io. La ligitaj variabloj anstataŭigitas per tio, kio
-ili aplikiĝitas—procedo nomata kiel betaredukto.
+Por uzi funkcion, oni devas apliki ĝin al io. La ligitaj variabloj estas anstataŭigitaj per tiuj, kiuj
+ili estas aplikitaj—procedo nomiĝas betaredukto.
 
 Ekzemple:
 
@@ -155,9 +156,9 @@ Ni disapartigu ĝin:
 2. Konsumi la argumentojn, tiam anstataŭigi ĉiujn aperaĵojn de `x` en la korpo, per `y`.
 
 _“Atendu, ĝi nur revenas la argumenton y.”_ oni eble diras. Tio pravas. La funkcio `(λx.x)` estas la
-identeca funkcio—unuopas-parametra funkcio kiu revenas kio ajn ĝi estas aplikiĝita.
+identeca funkcio—unuopa-parametra funkcio kiu revenas kion ajn ĝi estas aplikita al.
 
-Funkcioj ne limigatas esti aplikataj al simboloj. Ili ankaŭ povas esti aplikata al aliaj
+Funkcioj ne estas limigitaj, por esti aplikataj al simboloj. Ili ankaŭ povas esti aplikataj al aliaj
 funkcioj.
 
 ```scheme
@@ -165,7 +166,7 @@ funkcioj.
 (λy.y)
 ```
 
-En la ekzemplo ĉi-supre, la identeca funkcio aplikatas al identeca funkcio, reveni identecan
+En la ekzemplo ĉi-supre, la identeca funkcio estas aplikata al identeca funkcio, revenonte identecan
 funkcion.
 
 Jen alia apliko kun liberaj variabloj:
@@ -177,9 +178,9 @@ b
 ```
 
 La ligita variablo `a` estis anstataŭigita per `(λy.y)`, kiu estas do aplikata al la libera
-variablo `b`, rezulti al `b`.
+variablo `b`, rezultante al `b`.
 
-Memoru, ke ĉi tiu funkciapliko:
+Memoru, ke la jena funkciapliko:
 
 ```scheme
 (λx.(λy.y))ab
@@ -187,37 +188,37 @@ Memoru, ke ĉi tiu funkciapliko:
 b
 ```
 
-Ekvivalentas al:
+ekvivalentas al:
 
 ```scheme
 (λxy.y)ab
 b
 ```
 
-Havi plurajn parametrajn nomojn estas steno de pluraj lambdoj, doni la malplilongigitan version la
-efekto, ke ĝi konsumas plurajn argumentojn samtempe.
+Havi plurajn parametrajn nomojn estas steno de pluraj lambdoj, igante al la malplilongigita versio la
+efekton, ke ĝi konsumas plurajn argumentojn samtempe.
 
-Ene la korpo da funkcio, kiam du simboloj tuŝantas al si reciproke, la unua simbolo estas
-supozita funkcio esti aplikata al la dua simbolo, sen la rondkrampoj. Ekzemple, la jena kodaĵo:
+Ene la korpo da funkcio, kiam du simboloj tuŝas al si reciproke, la unua simbolo estas supozita por
+esti funkcio aplikata al la dua simbolo, sen la rondkrampoj. Ekzemple, la jena kodaĵo:
 
 ```scheme
 (λxy.xy)
 ```
 
-Ekvivalentas al:
+ekvivalentas al:
 
 ```scheme
 (λxy.x(y))
 ```
 
 
-<a name="nombri"></a>Ni nombru
+<a name="nombri">Ni nombru</a>
 ------------------------------
 
 ### <a name="komenco"></a>Komenco
 
-Pro preskaŭ ĉio en la lambdokalkulo esprimitas kiel funkcioj, ĝia opinio pri nombroj
-unikas. Aserteble, la plej grava nombro en la lambdokalkulo estas la nulo—0. Jen la difino de `0`:
+Pro tio ke preskaŭ ĉio en la lambdokalkulo esprimiĝas kiel funkcioj, ĝia opinio pri nombroj unikas.
+Aserteble, la plej grava nombro en la lambdokalkulo estas la nulo—0. Jen la difino de `0`:
 
 ```scheme
 (λsz.z)
@@ -241,15 +242,15 @@ Konstrui el `0`, ni nombru la unuajn tri nombradaj nombroj:
 
 ### <a name="postanto"></a>Postanto
 
-La postanto de entjero difinitas kiel la sekva entjero, kalkuli supren. Do, la postanto de `0`
+La postanto de entjero estas difinita kiel la sekva entjero, kalkulante supren. Do, la postanto de `0`
 estas `1`. Jen la difino de la postanta funkcio:
 
 ```scheme
 S ≡ (λxyz.y(xyz))
 ```
 
-Ni provu tion per `0`. En la ekzemploj malsupre, la `=` simbolo estas legita kiel
-_“malpligrandiĝitas al”_:
+Ni provu tiun per `0`. En la ekzemploj malsupre, la `=` simbolo estas legita kiel
+_“malpligrandiĝas al”_:
 
 ```scheme
 S0
@@ -262,17 +263,17 @@ S0
 
 Ni disapartigu ĝin:
 
-1. Precizigi la postanton (S) de nulo (0).
-2. Precizigi la ekvivalentan funkcian notadon.
-3. Apliki `(λsz.z)` al `y` anstataŭigi la ligitan variablon `s` al `y`.
-4. Apliki `(λz.z)` al `z` anstataŭigi la ligitan variablon `z` al `z`.
-5. La taksado ĉesas kaj `(λyz.y(z))` liveritas, kiu estas la nombro 1.
+1. Precizigi la postanton (S) de nulo (0);
+2. Precizigi la ekvivalentan funkcian notadon;
+3. Apliki `(λsz.z)` al `y` anstataŭigi la ligitan variablon `s` al `y`;
+4. Apliki `(λz.z)` al `z` anstataŭigi la ligitan variablon `z` al `z`; kaj
+5. La taksado ĉesas kaj liveriĝas `(λyz.y(z))` , kiu estas la nombro 1.
 
 
-### <a name="adicio"></a>Adicio
+### <a name="adicio">Adicio</a>
 
 Kio se oni volas efektivigi `2+3`? Bonŝance, la postanta funkcio povas fari tion. Oni esprimu tion
-kiel `2S3`, en kiu, oni uzas `+` kiel la intermeta operatoro. Jen la difino de la adicia funkcio:
+kiel `2S3`, en kiu, oni uzos `+` kiel la intermeta operatoro. Jen la difino de la adicia funkcio:
 
 ```scheme
 Nomo: A
@@ -299,18 +300,18 @@ Ni elprovu tion:
 
 Ni disapartigu ĝin:
 
-0. Eldiri la problemon.
-1. Precizigi la ekvivalentan funkcian notadon de `2`, `S`, kaj `3`.
+0. Eldiri la problemon;
+1. Precizigi la ekvivalentan funkcian notadon de `2`, `S`, kaj `3`;
 2. Malpligrandigi ĝin donas `SS3`
-3. La plena versio de `SS3`, kiu kongruas al `2S3` aŭ du `S` kaj `3`.
-4. Malpligrandigi plu.
-5. Eĉ malpligrandigi plu.
-6. Nun malpligrandiĝitas al `S4`.
-7. Apliki `S` al `4`.
+3. La plena versio de `SS3`, kiu kongruas al `2S3` aŭ du `S` kaj `3`;
+4. Malpligrandigi plu;
+5. Eĉ malpligrandigi plu;
+6. Nun malpligrandiĝitas al `S4`;
+7. Apliki `S` al `4`; kaj
 8. Oni alvenas ĉe `5`.
 
 
-### <a name="multipliko"></a>Multipliko
+### <a name="multipliko">Multipliko</a>
 
 La multiplika funkcio difinitas kiel:
 
@@ -337,17 +338,17 @@ Ni elprovu tion:
 ≡ 6
 ```
 
-Multipliki du nombrojn en la lambdokalkulo estas tiel facila kaj simpla. Tamen, antaŭ ol daŭri al pli
-aritmetikaj funkcioj, ni unue traktu verecajn valorojn kaj kondiĉaĵojn, kiuj estas antaŭkondiĉoj en
-lerni la aliajn funkciojn.
+Multipliki du nombrojn en la lambdokalkulo estas tiel facila kaj simpla. Tamen, antaŭ ol daŭri al
+pli aritmetikaj funkcioj, ni unue traktu verecajn valorojn kaj kondiĉaĵojn, kiuj estas antaŭkondiĉoj
+en lerni la aliajn funkciojn.
 
 
-<a name="vereco"></a>Vereco, malvereco, kaj amikoj
+<a name="vereco">Vereco, malvereco, kaj amikoj</a>
 --------------------------------------------------
 
-### <a name="buleaj"></a>Buleaj
+### <a name="buleaj">Buleaj valoroj</a>
 
-La prezento de vereco kaj malvereco en la lambdokalkulo mallongas kaj elegantas:
+La prezentoj de vereco kaj malvereco en la lambdokalkulo mallongas kaj elegantas:
 
 ```scheme
 T ≡ (λxy.x)
@@ -362,7 +363,7 @@ Fab ≡ (λxy.y)ab = b
 ```
 
 
-### <a name="logikaj"></a>Logikaj funkciadoj
+### <a name="logikaj">Logikaj funkciadoj</a>
 
 La tri abocaj operatoroj: KAJ, AŬ, kaj NE:
 
@@ -384,18 +385,18 @@ Ni kontrolu se `¬T` estas jam `F`:
 ```
 
 
-<a name="malantauxen"></a>Ni nombru malantŭen
---------------------------------------------
+<a name="malantauxen">Ni nombru malantŭen</a>
+---------------------------------------------
 
-### <a name="antauxanto"></a>Antaŭanto
+### <a name="antauxanto">Antaŭanto</a>
 
-La antaŭanto de nombro difinitas kiel la antaŭa nombro precizigita kiam malantaŭen kalkuli. La motivo
-kial la diskuto pri la antaŭanta funkcio faritas aparte estas, ke ne estas intue por lerni ĝin
-komence, ke la scio pri la aliaj funckioj gravas lerni ĝin.
+La antaŭanto de nombro estas difinita kiel la antaŭa nombro precizigita kiam kalkuli malantaŭen. La
+motivo kial la diskuto pri la antaŭanta funkcio estas farita aparte estas, ke ne estas intue por lerni
+ĝin komence, kaj la scio pri la aliaj funckioj gravas lerni ĝin.
 
 Ni supozu, ke oni havas duon, io kiel (y, x), en kiu, la unua ero estas unu paŝo supre, aŭ la
-postanto de la dua ero. Pro la unua ero estas la postanto, signifas ke la dua ero estas la
-antaŭanto. Vide:
+postanto de la dua ero. Pro tio ke la unua ero estas la postanto, tio signifas ke la dua ero estas
+la antaŭanto. Vide:
 
 ```scheme
 (z+1, z) = (z, z-1)
@@ -407,7 +408,7 @@ Pro tio:
 x = Py iff y = Sx
 ```
 
-Tio estas, `x` estas la antaŭanto de `y`, se kaj nur se, `y` estas la postanto de  `x`. Do, por
+Tio signifas, ke `x` estas la antaŭanto de `y`, se kaj nur se, `y` estas la postanto de `x`. Do, por
 precizigi la antaŭanton de nombro `x`, oni kreu duon kiel supre, tiam elektu la duan eron:
 
 Ni difinu iujn bazajn unuojn. Duo aspektas kiel:
@@ -480,7 +481,7 @@ P1
 ```
 
 
-### <a name="subtraho"></a>Subtraho
+### <a name="subtraho">Subtraho</a>
 
 Nu, nun ke oni havas la antaŭantan funkcion, oni nun povas konstrui la subtrahan funkcion.
 
@@ -502,16 +503,16 @@ B11
 ```
 
 
-<a name="finrimarkoj"></a>Finrimarkoj
+<a name="finrimarkoj">Finrimarkoj</a>
 -------------------------------------
 
 Oni simple ungogratis la tegon de la lambdokalkulo, tamen oni ĵus spektis ĝian vastegan espriman
-potencon, konsidere al kiel minimune la sistemo difinitas.
+potencon, konsidere al kiel minimune la sistemo estas difinita.
 
 _Dank’ al [Lucas LUGAO](https://github.com/lucaslugao) pro la korektoj._
 
 
-<a name="fontindikoj"></a>Fontindikoj
+<a name="fontindikoj">Fontindikoj</a>
 -------------------------------------
 
 - <http://www.inf.fu-berlin.de/lehre/WS03/alpi/lambda.pdf>

@@ -55,27 +55,24 @@ languages in current use now.
 
 Yes, and no. If you want to understand the underlying mechanisms of how software works, or if you
 want to build the next great language, or if you just want to appreciate the elegance of its art,
-then yes. However, if you just want to fly a plane without knowing how it ticks, then no. Seriously
-though, learn it.
-
+then yes. However, if you just want to fly a plane without knowing how it ticks, then no.
 
 ### <a name="do"></a> What do we do?
 
-When discussing new concepts, it is very important to layout the axioms or the initial
-ruleset. Think of it as defining new terms in play, and giving them meaning. The context in which
-these meanings live are important. For example, for the gardener the hose is used to water the
-plants, while for the fireman, the hose is used to put out the fire. When the gardener, or the
-fireman grabs the hose, they will not question what is that they are holding, and what is its purpose. They
-simply believe in their intuition, to determine the meaning of the hose at the time they
-grabbed it.
+When discussing new concepts, it is very important to layout the axioms or the initial ruleset.
+Think of it as defining new terms in play, and giving them meaning. The context in which these
+meanings live are important. For example, for the gardener the hose is used to water the plants,
+while for the fireman, the hose is used to put out the fire. When the gardener, or the fireman grabs
+the hose, they will not question what is that they are holding, and what is its purpose. They simply
+believe in their intuition, to determine the meaning of the hose at the time they grabbed it.
 
-In English, the word __“high”__ has several meanings. But for all the defined meanings of the word,
-there is no intrinsic knowledge of the value of the word. We take the meaning as is. We have to
-agree to use the word in the narrowed context of the users of the word. If we try to deviate from
-the established meaning of the word, for example, we randomly create a new definition of the word
-because of whim, chances are it won’t be accepted. We need to believe in the defined connotative and
-denotative meanings of the word, for it to have meaning to us. The same holds true for lambda
-calculus—we either accept these axioms and operate in its domain, or we live in Neverland.
+The word _high_ has several meanings. But for all the defined meanings of the word, there is no
+intrinsic knowledge of the value of the word. We take the meaning as is. We have to agree to use the
+word in the narrowed context of the users of the word. If we try to deviate from the established
+meaning of the word, for example, we randomly create a new definition of the word because of whim,
+chances are it won’t be accepted. We need to believe in the defined connotative and denotative
+meanings of the word, for it to have meaning to us. The same holds true for lambda calculus—we
+either accept these axioms and operate in its domain, or we live in Neverland.
 
 
 <a name="babysteps"></a> Baby steps
