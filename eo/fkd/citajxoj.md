@@ -287,7 +287,7 @@ tiu paĝo enhavas.
 - La popoloj kiuj riskiĝas, estas ofte tiuj, kiuj finiĝas esti la plej feliĉaj.<br>―Anonimulo
 
 
-- Se tion oni faras, kion oni ĉiam faras; tion oni akiros, kion oni ĉiam akiras.<br>―Anthony ROBBINS
+- Se oni faras tion , kion oni ĉiam faras; oni akiros tion , kion oni ĉiam akiras.<br>―Anthony ROBBINS
 
 
 - Se ion oni volas, kion oni neniam havis, oni devas esti servopreta tion fari, kion oni neniam
