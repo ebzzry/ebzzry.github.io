@@ -2,22 +2,22 @@ Virtualigado en Linukso per KVM
 ===============================
 
 <div class="center">Esperanto ▪ [English](/en/kvm/)</div>
-<div class="center">Laste ĝisdatigita: la 28-an de Septembro 2021</div>
+<div class="center">Laste ĝisdatigita: la 3-an de Marto 2022</div>
 
->Se tion oni faras, kion oni ĉiam faras; tion oni akiros, kion oni ĉiam akiras.<br>
->―Anthony ROBBINs
+>Se oni faras tion , kion oni ĉiam faras; oni akiros tion , kion oni ĉiam akiras.<br>
+>―Anthony ROBBINS
 
-La [tutvirtualigadajn](https://en.wikipedia.org/wiki/Full_virtualization) solvojn kiel
-*VMware Workstation*, *Oracle VirtualBox*, kaj *Parallels* plejmulto da oni konas. En
-ĉi tiu afiŝo, alian metodon por aferojn fari, mi reenkondukos al oni.
+Plejmulto da ni konas la [tutvirtualigadajn](https://en.wikipedia.org/wiki/Full_virtualization)
+solvojn kiel *VMware Workstation*, *Oracle VirtualBox*, kaj *Parallels*. En ĉi tiu afiŝo, mi
+reenkondukos al oni alian metodon por aferojn fari.
 
-La dolarsigno ($) uzitos por la ŝelan inviton de normuzanto indiki, dum la kradsigno (#) uzitos
-por la ŝelan inviton de la ĉefuzanto indiki. Estas fojoj kiam la
+La dolarsigno ($) uziĝos por indiki la ŝelan inviton de normuzanto, dum la kradsigno (#) uziĝos por
+indiki la ŝelan inviton de la ĉefuzanto. Estas fojoj kiam la
 [EUID](https://en.wikipedia.org/wiki/User_identifier#Effective_user_ID) de komando estos nulo (0)
 pro la uzado de *sudo*.
 
 
-<a name="et"></a>Enhavotabelo
+<a name="et">Enhavotabelo</a>
 -----------------------------
 
 - [Agordaĵo](#agordajxo)
@@ -28,7 +28,7 @@ pro la uzado de *sudo*.
   + [KVM-grupo](#grupo)
   + [Retkonektado](#retkonektado)
 - [Plenumo](#plenumo)
-  + [La bildon ŝarĝi](#sxargxu)
+  + [La bildon ŝargi](#sxargu)
   + [Konekti al la SPICE-ekrano](#ekrano)
   + [La gastan reton agordi](#gastareto)
 - [La kurtenojn fermi](#kurtenoj)
@@ -37,31 +37,30 @@ pro la uzado de *sudo*.
 - [Finrimarkoj](#finrimarkoj)
 
 
-<a name="agordajxo"></a>Agordaĵo
+<a name="agordajxo">Agordaĵo</a>
 --------------------------------
 
 
-### <a name="aparataro"></a>Aparataro
+### <a name="aparataro">Aparataro</a>
 
-Unu el la plej unuaj aferoj kiujn oni devas fari estas por la
-[aparataro-asistitan virtualigadon](https://en.wikipedia.org/wiki/Hardware-assisted_virtualization)
-ŝalti, ankaŭ nomiĝas plirapigita virtualigado, en la aparataro. Se la ĉefprocezilo estis kreita
-antaŭ 2006, plej verŝajne, ĉi tiu kapablo ne ĉeestas en la ico. Ankaŭ, memoru, ke ĉi
-tiu paŝo ne devigatas por iun ajn kapablojn en ĉi tiu afiŝo uzi, tamen la aferojn ĝi _atentinde_
-plirapidigos.
+Unu el la plej unuaj aferoj kiujn oni devas fari estas ŝalti la [aparataro-asistitan
+virtualigadon](https://en.wikipedia.org/wiki/Hardware-assisted_virtualization), ankaŭ nomiĝas
+plirapigita virtualigado, ĉe la aparataro. Se la ĉefprocezilo estis kreita antaŭ 2006, plej
+verŝajne, ĉi tiu kapablo ne ĉeestas en la ico. Ankaŭ, memoru, ke ĉi tiu paŝo ne estas devigita por
+uzi iujn ajn kapablojn en ĉi tiu afiŝo, tamen ĝi _atentinde_plirapidigos la aferojn.
 
-Por plirapigitan virtualigadon ŝalti, iru al la BIOS/UEFI-agordoj, kaj la tenilon por ĉi tiun
-kapablon trovu. La nomo de ĉi tiu kapablo malsamas inter fabrikanto al fabrikanto. La agordon
-konservu, tiam la sistemon reŝarĝu. Tiam, la kapablon oni nun povas verigi komandlinie.
+Por ŝalti plirapigitan virtualigadon, iru al la BIOS/UEFI-agordoj, kaj trovu la tenilon por ĉi tiun
+kapablon. La nomo de ĉi tiu kapablo malsamas inter fabrikanto al fabrikanto. Konservu la agordon,
+tiam la sistemon reŝargu. Tiam, oni nun povas verigi la kapablon komandlinie.
 
     $ egrep '(vmx|svm)' /proc/cpuinfo
 
-Se kelkajn tekstojn ĝi revenigas, oni bonas.
+Se ĝi revenigas kelkajn tekstojn, oni pretas.
 
 
-### <a name="programaro"></a>Programaro
+### <a name="programaro">Programaro</a>
 
-Sekve, la havendajn apojn oni devas instali:
+Sekve, oni devas instali la havendajn apojn:
 
 Nix:
 
@@ -71,61 +70,59 @@ APT:
 
     $ sudo apt-get install -y qemu-kvm vde2 spice-client-gtk
 
-La [QEMU](http://wiki.qemu-project.org/Main_Page)-hiperregilon, la
-[VDE](http://vde.sourceforge.net/)-ilojn, kaj [SPICE](http://www.spice-space.org/)-subtenon ĉi tio
-instalas. QEMU, almenaŭ dum siaj fruaj tagoj ne estis impresa—ĝi estis bona, bedaŭrinde ne
-bonegas. Ekde versio 0.10.1, je [KVM](http://www.linux-kvm.org/)-kapablojn—virtualigada subsistemo
-por linukso—kiu preskaŭ denaskan virtualigadon disponigas per aparataro-asistita virtualigado, QEMU
-komencis subteni. La ekonomiojn de la aliaj virtualigadaj sistemoj menciitaj ĉi-supre ĝi eĉ
-konkuras.
+Ĉi tiu instalas la [QEMU](http://wiki.qemu-project.org/Main_Page)-hiperregilon, la
+[VDE](http://vde.sourceforge.net/)-ilojn, kaj [SPICE](http://www.spice-space.org/)-subtenon. QEMU,
+almenaŭ dum siaj fruaj tagoj ne estis impresa—ĝi estis bona, sed ne bonegas. Ekde versio 0.10.1,
+QEMU komencis subteni [KVM](http://www.linux-kvm.org/)-kapablojn—virtualigada subsistemo por
+linukso—kiu preskaŭ disponigas denaskan virtualigadon per aparataro-asistita virtualigado. Ĝi eĉ
+konkurigas la ekonomiojn de la aliaj virtualigadaj sistemoj menciitaj ĉi-supre.
 
-La opcion de konekti al la gasta maŝina ekrano
-per [VNC](https://en.wikipedia.org/wiki/Virtual_Network_Computing) aliaj aplikaĵaroj
-ofertas. Bedaŭrinde, ĝi malrapidas kaj malviglas. La respondtempo teruras. La
-[SPICE](http://www.spice-space.org/)-protokolon uzante, ne nur aferojn ĝi plirapidigas, ankaŭ
-aliajn aferojn ĝi ebligas. Memoru, ke SPICE ne estas anstataŭaĵo por VNC, anstataŭe, ĝi
-estas alia maniero por la celojn renkonti.
+Aliaj aplikaĵaroj ofertas la opcion de konekti al la gasta maŝina ekrano per
+[VNC](https://en.wikipedia.org/wiki/Virtual_Network_Computing) . Bedaŭrinde, ĝi malrapidas kaj
+malviglas. La respondtempo teruras. Uzi la [SPICE](http://www.spice-space.org/)-protokolon, ne
+nur plirapidigas la aferojn, ĝi ankaŭ ebligas aliajn aferojn. Memoru, ke SPICE ne estas anstataŭaĵo
+por VNC, anstataŭe, ĝi estas alia maniero por renkonti la celojn.
 
 
-<a name="agordo"></a>Agordo
+<a name="agordo">Agordo</a>
 ---------------------------
 
-### <a name="bildoj"></a>Bildoj
+### <a name="bildoj">Bildoj</a>
 
-Tabelon de bildaj tipoj QEMU subtenas, tamen la [QCOW2](https://en.wikipedia.org/wiki/Qcow)-formato
-estas la plej fleksebla, kaj kapable riĉas, por la uzo do QEMU.
+QEMU subtenas tabelon de bildaj tipoj, tamen la [QCOW2](https://en.wikipedia.org/wiki/Qcow)-formato
+estas la plej fleksebla, kaj kapable riĉas, por la uzado de QEMU.
 
-Se ekzistantan VirtualBox-dosieron (VDI) oni havas, ĝin oni povas konverti al QCOW2 per:
+Oni havas se ekzistantan VirtualBox-dosieron (VDI), oni povas konverti ĝin al QCOW2 per:
 
     $ qemu-img convert -f vdi -O qcow2 vm.vdi vm.qcow2
 
-Tamen, se bildon oni ne jam havas, ĝin oni povas krei per:
+Tamen, se oni ne jam havas bildon, oni povas krei ĝin per:
 
     $ qemu-img create -f qcow2 vm.qcow2 20G
 
-20GiB-bildon la lasta paŝo kreas, kiu nomiĝas `vm.qcow2`. Memoru, ke la dosiersufikso
-ne fakte gravas—la bildon oni povas nomigi kiel `index.html`, tamen tio ne estus sencema, ĉu ne? 😄
+La lasta paŝo kreas 20GiB-bildon, kiu nomiĝas `vm.qcow2`. Memoru, ke la dosiersufikso
+ne fakte gravas—oni povas nomigi la bildon kiel `index.html`, tamen tio ne estus sencema, ĉu ne? 😄
 
 
-### <a name="grupo"></a>KVM-grupo
+### <a name="grupo">KVM-grupo</a>
 
 La komandoj ĉi-sube postulas, ke grupo nomiĝas `kvm` devas ekzisti kaj oni estas ano de tiu
-grupo. Por tion efektivigi, plenumu:
+grupo. Por efektivigi tion, plenumu la jenajn komandojn:
 
     $ sudo groupadd kvm
     $ sudo usermod -G $(groups | sed 's/ /,/g'),kvm $USER
     $ newgrp kvm
 
-Onin la lasta komando varbas al la KVM-grupo senelsaluti el la seanco.
+La lasta komando varbas onin al la grupo `KVM ` grupo senelsalutante el la seanco.
 
 
-### <a name="retkonektado"></a>Retkonektado
+### <a name="retkonektado">Retkonektado</a>
 
-[Multajn manierojn](http://wiki.qemu-project.org/Documentation/Networking) por retkonektadon agordi
-por siaj gastoj QEMU subtenas, tamen por ĉi tiu afiŝo nur je VDE ni uzos.
+QEMU subtenas [multajn manierojn](http://wiki.qemu-project.org/Documentation/Networking) por
+agordi retkonektadon por siaj gastoj, tamen por ĉi tiu afiŝo ni uzos nur VDE.
 
-Kelkajn komandojn oni devas kuri por la retan medion pretigi. Ideale, la komandojn oni volas
-konservi en ŝela funkcio aŭ skripto:
+Oni devas plenumi kelkajn komandojn por pretigi la retan medion. Ideale, oni volas konservi la
+komandojn en ŝela funkcio aŭ skripto:
 
     $ sudo vde_switch -tap tap0 -mod 660 -group kvm -daemon
     $ sudo ip addr add 10.0.2.1/24 dev tap0
@@ -135,23 +132,23 @@ konservi en ŝela funkcio aŭ skripto:
 
 La ĉi-supraj komandoj:
 
-1. La VDE-aparaton kreos.
-2. La TCP/IP-opciojn agordos por tiu aparato.
-3. La VDE-aparaton ŝaltos.
-4. La paketan plusendadon ŝaltos en la gastiga sistemo.
-5. La enkursigan agordon agordos.
+1. Kreos la VDE-aparaton kreos;
+2. Agordos la TCP/IP-opciojn por tiu aparato;
+3. Ŝaltos la VDE-aparaton;
+4. Ŝaltos La paketan plusendadon en la gastiga sistemo; kaj
+5. Agordos la enkursigan agordon.
 
 
-<a name="plenumo"></a>Plenumo
+<a name="plenumo">Plenumo</a>
 -----------------------------
 
 
-### <a name="sxargxu"></a>La bildon ŝarĝi
+### <a name="sxargu">La bildon ŝargi</a>
 
-La komandon `qemu-kvm` oni nun devas alvoki, la komando kiu ĉion lanĉas. La nomo de la komando eble
+Oni nun devas alvoki la komandon `qemu-kvm`—la komando kiu lanĉas ĉion. La nomo de la komando eble
 malsamas kun tiu, kiu instaliĝas ĉe la sistemo.
 
-Se operaciumon el praŝarĝebla bildo oni instalas, kutime la ISO-dosiero, plenumu:
+Se oni instalas operaciumon el praŝargebla bildo—kutime la ISO-dosiero—plenumu la jenajn komandojn:
 
     $ sudo qemu-kvm -cpu host -m 2G -net nic,model=virtio \
     -net vde -soundhw all -vga qxl \
@@ -159,64 +156,64 @@ Se operaciumon el praŝarĝebla bildo oni instalas, kutime la ISO-dosiero, plenu
     -boot once=d -cdrom installer.iso \
     vm.qcow2
 
-En sekvaj uzadoj:
+Por sekvaj uzadoj:
 
     $ sudo qemu-kvm -cpu host -m 2G -net nic,model=virtio \
     -net vde -soundhw all -vga qxl \
     -spice port=9999,addr=127.0.0.1,password=sekretŝlosilo \
     vm.qcow2
 
-Tion ni malkomponu:
+Ni malkomponu tiun:
 
     -cpu host
 
-La KVM-procezilon uzu, per ĉiom da subtenitaj kapabloj.
+Uzu la KVM-procezilon, per ĉiom da subtenitaj kapabloj.
 
     -m 2G
 
-2GiB de gastiga maŝino por la gasto asignu. Adaptu, kiel necese.
+Asignu 2GiB de gastiga maŝino por la gasto. Adaptu, kiel necese.
 
     -net nic,model=virtio -net vde
 
-Je virtualan NIC kreu, kaj VDE-retkonektadon ŝaltu.
+Kreu virtualan NIC-adaptilo, kaj ŝaltu VDE-retkonektadon.
 
     -soundhw all
 
-Ĉiomajn aŭdiajn pelilojn ŝaltu.
+Ŝaltu ĉiomajn aŭdiajn pelilojn.
 
     -vga qxl
 
-La videan adaptilon por imiti precizigu. Je QXL uzu kiam je SPICE uzi.
+Precizigu la videan adaptilon por imiti. Uzu QXL kiam uzi SPICE.
 
     -spice addr=127.0.0.1,port=9999,password=sekretŝlosilo
 
-La opciojn por SPICE precizigu, apartigitaj per komoj.  _addr_ kaj _port_ estas la IP-adreso kaj
+Precizigu la opciojn por SPICE, apartigitaj per komoj. _addr_ kaj _port_ estas la IP-adreso kaj
 TCP-pordo kiujn SPICE aŭskultos. Ideale, aliro al tiu pordo devas esti ĝuste agordita, kaj
-sekurigita. _password_ etas la ŝlosilo, kiu esti uzota de la SPICE-kliento, _spicy_, por konekti
-al la gasta ekrano poste.
+sekurigita. _password_ etas la ŝlosilo, kiu estis uzota de la SPICE-kliento, _spicy_, por konekti al
+la gasta ekrano poste.
 
     -boot once=d -cdrom instalilo.iso
 
-Praŝarĝi komence el `instalilo.iso`, tiam por sekvontaj praŝarĝoj, praŝarĝu per la kutima ordo.
+Praŝargu komence el `instalilo.iso`, tiam por sekvontaj praŝargoj, praŝargu per la kutima ordo.
 
-La _qemu-kvm_-komandon ĉi-supre kurante, la bildon ŝarĝos, tamen la ekranon oni ne ankoraŭ povas
-vidi.
+Kurante la _qemu-kvm_-komandon ĉi-supre, ŝargiĝos la bildon, tamen oni ne ankoraŭ povas vidi la
+ekranon.
 
 
-### <a name="ekrano"></a>Konekti al la SPICE-ekrano
+### <a name="ekrano">Konekti al la SPICE-ekrano</a>
 
-Por ke la gastan ekranon oni povu uzi, oni devas konekti al la SPICE-servilo, per la SPICE-kliento:
+Por ke oni povu uzi la gastan ekranon, oni devas konekti al la SPICE-servilo, per la SPICE-kliento:
 
     $ spicy -h 127.0.0.1 -p 9999 -w sekretŝlosilo
 
-Memoru, ke la spicy-fenestron fermi ne la QEMU-seancon mortigas. Se la musenigon
-la gasta operaciumo kaptas, je <kbd>Shift+F12</kbd> premu, por eskapi.
+Memoru, ke fermi la spicy-fenestron ne mortigos la QEMU-seancon. Se la gasta operaciumo kaptas la
+musenigon, premu <kbd>Shift+F12</kbd> por eskapi.
 
 
-### <a name="gastareto"></a>La gastan reton agordi
+### <a name="gastareto">La gastan reton agordi</a>
 
-Sekve, la retan agordon de la gasta operaciumo oni devas ĝuste agordi, por ke ĝi povu konekti al
-la lokreto, kaj la interreto se aliron al ĝi la gastiga maŝino havas.
+Sekve, oni devas ĝuste agordi la retan agordon de la gasta operaciumo, por ke ĝi povu konekti al
+la lokreto, kaj la interreto se la gastiga maŝino havas aliron al ĝi.
 
 IP-adreso:
 
@@ -232,13 +229,13 @@ DNS-serviloj:
     8.8.4.4
 
 
-<a name="kurtenoj"></a>La kurtenojn fermi
---------------------------------------------
+<a name="kurtenoj">La kurtenojn ferm</a>
+----------------------------------------
 
 
-### <a name="restauxri"></a>La retkonektadon restaŭri
+### <a name="restauxri">La retkonektadon restaŭri</a>
 
-Se la retkonektadon oni volas specife restaŭri, la jenan faru.
+Se oni volas specife restaŭri la retkonektadon, plenumu la jenajn komandojn:
 
 ```bash
 $ sudo iptables -t nat -D POSTROUTING -s 10.0.2.0/24 \
@@ -252,18 +249,19 @@ $ sudo rm -f /run/vde.ctl/ctl
 
 La ĉi-supraj komandoj:
 
-1. La enkursigan agordon restaŭros.
-2. La paketan plusendadon malŝaltos.
-3. La VDE-aparaton malŝaltos.
-4. La VDE-aparaton forviŝos.
-5. La VDE-procezon mortigos.
-6. La regajn dosierojn forviŝos.
+1. Restaŭros la enkursigan agordon;
+2. Malŝaltos la paketan plusendadon;
+3. Malŝaltos La VDE-aparaton;
+4. Forviŝos la VDE-aparaton;
+5. Mortigos la VDE-procezon; kaj
+6. Forviŝos la regajn dosierojn.
 
 
-<a name="cxio"></a>Ĉion kolekti
+<a name="cxio">Ĉion kolekti</a>
 ------------------------------
 
-Jen ĉiom da komandoj el supre, kompiligitaj kiel funkcioj, por ke ilin oni povu kuri komandlinie:
+Jen ĉiom da komandoj de supre, kompiligitaj kiel funkcioj, por ke oni povu plenumi ilin ĉe la
+komandlinio facile:
 
 ```
 function kvm-net () {
@@ -302,13 +300,13 @@ function kvm-display () {
 }
 ```
 
-Onin mi gvidos:
+Mi gvidos onin:
 
-Komence, la retkonektadon agordu:
+Komence, agordu la retkonektadon:
 
     $ kvm-net up
 
-Tiam, la bildon ŝarĝu:
+Tiam,  ŝargu la bildon:
 
     $ kvm-boot vm.qcow2
 
@@ -316,22 +314,21 @@ Fine, konektu al la ekrano:
 
     $ kvm-display
 
-Kiam oni finiĝas kun la virtuala maŝino, la spice-ekranon fermu, tiam la KVM-retkonektado
-malŝaltu.
+Kiam oni finiĝas pri la virtuala maŝino, fermu la spice-ekranon, tiam malŝaltu la KVM-retkonektadon.
 
     $ kvm-net down
 
 
-<a name="finrimarkoj"></a>Finrimarkoj
+<a name="finrimarkoj">Finrimarkoj</a>
 -------------------------------------
 
-Miriadojn de mojosaj opcioj kiujn ni ne eĉ diskutis ĉi tie QEMU subtenas, inkluzive statojn konservi
-kaj ŝarĝi, ekranaj kaj aŭdiaj kaptoj, kaj plu. Por lerni pli pri ili,
-[ĉi tien](http://wiki.qemu-project.org/Main_Page) alklaku.
+QEMU subtenas miriadojn da mojosaj opcioj kiujn ni ne eĉ diskutis ĉi tie, inkluzive statojn konservi
+kaj ŝargi, ekranaj kaj aŭdiaj kaptoj, kaj plu. Por lerni pli pri ili, alklaku [ĉi
+tiun](http://wiki.qemu-project.org/Main_Page).
 
-QEMU kun KVM estas potenca, rapida, kaj fleksebla solvo por tutvirtualigadon fari. Almenaŭ en mia
-kazo, la plej konatajn opciojn en la bazaro ĝi superas. Se oni volas kontribui al ĉi tiu projekto,
-iru al ĝia [GitHub-paĝo](https://github.com/qemu/qemu).
+QEMU kun KVM estas potencaj, rapidaj, kaj flekseblaj solvoj por fari tutvirtualigadon. Almenaŭ en
+mia kazo, ĝi superas la plej konatajn opciojn en la bazaro. Se oni volas kontribui al ĉi tiu
+projekto, iru al ĝia [GitHub-paĝo](https://github.com/qemu/qemu).
 
-Mi esperas, ke onin ĉi tiu afiŝo helpis, iel aŭ aliel, lerni pli pri QEMU kaj KVM kaj kiujn ili
+Mi esperas, ke ĉi tiu afiŝo helpis onin , iel aŭ aliel, lerni pli pri QEMU kaj KVM kaj kiujn ili
 povas doni.
