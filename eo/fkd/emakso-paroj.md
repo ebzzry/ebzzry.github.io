@@ -11,14 +11,14 @@ Emakso kaj Paroj
 <img src="/bil/wallhaven-578010-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-578010" title="wallhaven-578010"/>
 
 
-<a name="et"></a>Enhavotabelo
+<a name="et">Enhavotabelo</a>
 -----------------------------
 
 - [Enkonduko](#enkonduko)
 - [Instalo](#instalo)
 - [Agordaĵo](#agordajxo)
 - [Uzado](#uzado)
-  + [Bazaj](#bazaj)
+  + [Bazaferoj](#bazaferoj)
   + [Navigado](#navigado)
     * [Komencoj kaj finoj](#komencojkajfinoj)
     * [Listojn trairi](#listojntrairi)
@@ -35,32 +35,32 @@ Emakso kaj Paroj
 - [Finrimarkoj](#finrimarkoj)
 
 
-<a name="enkonduko"></a>Enkonduko
+<a name="enkonduko">Enkonduko</a>
 ---------------------------------
 
 En ĉi tiu artikolo, mi eksklusive parolas pri _smartparens_—tiu pako, kiun oni esperis, ke oni jam
-uzis antaŭe, supozante ĝin oni ne jam uzis. Se oni estas komencanto pri ĝi, laŭlegu; se ne, ĉi tio
+uzis antaŭe, supozante oni ne jam uzis ĝin . Se oni estas komencanto pri ĝi, laŭlegu; se ne, ĉi tio
 eble estas bona memorigilo.
 
-_smartparens_ estas unu el tiuj pakoj kiu draste plibonigas, kaj ŝanĝas kiel emakson oni
-uzas. Similas al kibernetikajn membrojn—onin igas por pli alte salti kaj pli forte pugnobati.
+_smartparens_ estas unu el tiuj pakoj kiu draste plibonigas, kaj ŝanĝas kiel oni uzas emakson .
+Similas al kibernetikaj membroj—igas onin por pli alte salti kaj pli forte pugnobati.
 
 Memoru, ke la nomo malpravas tial, ke ne nur rondajn krampojn ĝi
-traktas. Ankaŭ iujn ajn kiuj pariĝas ĝi traktas, kaj ilin ĝi traktas stele.
+traktas. Ĝi ankaŭ traktas iujn ajn kiuj pariĝas, kaj ĝi traktas ilin stele.
 
 
-<a name="instalo"></a>Instalo
+<a name="instalo">Instalo</a>
 -----------------------------
 
-Je smartparens instali facilas:
+Instali smartparens estas facila:
 
     M-x package-install EN smartparens EN
 
 
-<a name="agordajxo"></a>Agordaĵo
+<a name="agordajxo">Agordaĵo</a>
 --------------------------------
 
-Je smartparens oni ŝaltu en la startigo, kaj ĝin oni kroĉu al egaj kroĉiloj:
+Sekve, oni ŝaltu smartparens en la startigo, kaj oni kroĉu ĝin al egaj kroĉiloj:
 
 ```lisp
 (use-package smartparens-config
@@ -71,20 +71,20 @@ Je smartparens oni ŝaltu en la startigo, kaj ĝin oni kroĉu al egaj kroĉiloj:
 (add-hook 'markdown-mode-hook 'turn-on-smartparens-strict-mode)
 ```
 
-<a name="uzado"></a>Uzado
+<a name="uzado">Uzado</a>
 -------------------------
 
-Parigitajn signojn kiel rondaj krampoj, kurbaj krampoj, kvadrataj krampoj, citiloj, angulaj
-krampoj, kaj aliaj koncepteblaj parigeblaj signoj administri jam ĉiam doloras. Tiun
-problemon aliaj pakoj solvas parte. Bedaŭrinde, kelkaj punktoj mankas al ili.
+Administri parigitajn signojn kiel rondaj krampoj, kurbaj krampoj, kvadrataj krampoj, citiloj,
+angulaj krampoj, kaj aliaj koncepteblaj parigeblaj signoj jam ĉiam doloras sin. Aliaj pakoj solvas tiun
+problemon parte. Bedaŭrinde, mankas al ili kelkaj punktoj.
 
-En la kodetoj ĉi-sube, la ĉapelo (^) simbolo estos uzita por la
-[punkton](https://www.gnu.org/software/emacs/manual/html_node/elisp/Point.html) reprezenti.
+En la kodetoj ĉi-sube, la ĉapelo (^) simbolo estos uzita por reprezenti la
+[punkton](https://www.gnu.org/software/emacs/manual/html_node/elisp/Point.html).
 
 
-### <a name="bazaj"></a>Bazaj
+### <a name="bazaferoj">Bazaferoj</a>
 
-Per smartparens, kiam parigeblajn signojn oni enigas:
+Per smartparens, kiam oni enigas parigeblajn signojn:
 
 ```clojure
 
@@ -92,7 +92,7 @@ Per smartparens, kiam parigeblajn signojn oni enigas:
           ^
 ```
 
-la kongruan paron ankaŭ eniĝas, kaj la punkto poziciitas ene la paro:
+ankaŭ eniĝas la kongrua paro, kaj la punkto estas poziciita ene la paro:
 
 ```clojure
 
@@ -101,11 +101,11 @@ la kongruan paron ankaŭ eniĝas, kaj la punkto poziciitas ene la paro:
 ```
 
 
-### <a name="navigado"></a>Navigado
+### <a name="navigado">Navigado</a>
 
-#### <a name="komencojkajfinoj"></a>Komencoj kaj finoj
+#### <a name="komencojkajfinoj">Komencoj kaj finoj</a>
 
-Sa le jenan esprimon oni havas:
+Sa oni havas le jenan esprimon:
 
 ```clojure
 
@@ -113,7 +113,7 @@ Sa le jenan esprimon oni havas:
                          ^
 ```
 
-kaj la punkton oni volas movi en la komenco de la signovico:
+kaj oni volas movi la punkton al la komenco de la signovico:
 
 ```clojure
 
@@ -121,9 +121,9 @@ kaj la punkton oni volas movi en la komenco de la signovico:
          ^
 ```
 
-Je `sp-beginning-of-sexp` plenumu. Ĝin mi bindis al <kbd>C-M-a</kbd>.
+Plenumu `sp-beginning-of-sexp`. Mi bindis ĝin al <kbd>C-M-a</kbd>.
 
-Male, por la punkton movi al la fino de la esprimo:
+Male, por movi la punkton al la fino de la esprimo:
 
 ```clojure
 
@@ -131,12 +131,12 @@ Male, por la punkton movi al la fino de la esprimo:
                              ^
 ```
 
-Je `sp-end-of-sexp` plenumu. Ĝin mi bindis al <kbd>C-M-e</kbd>.
+Plenumu `sp-end-of-sexp`. Mi bindis ĝin al <kbd>C-M-e</kbd>.
 
 
-#### <a name="listojntrairi"></a>Listojn trairi
+#### <a name="listojntrairi">Listojn trairi</a>
 
-Se la jenan esprimon oni havas:
+Se oni havas la jenan esprimon:
 
 ```lisp
 
@@ -147,7 +147,7 @@ Se la jenan esprimon oni havas:
 
 ```
 
-kaj la punkton oni volas movi al `insert`:
+kaj oni volas movi la punkton al `insert`:
 
 ```lisp
 
@@ -158,9 +158,9 @@ kaj la punkton oni volas movi al `insert`:
      ^
 ```
 
-Je `sp-down-sexp` plenumu. Ĝin mi bindis al <kbd>C-down</kbd>.
+Plenumu `sp-down-sexp`. Mi bindis ĝin al <kbd>C-down</kbd>.
 
-Sa le jenan esprimon oni havas:
+Sa oni havas la jenan esprimon:
 
 ```clojure
 
@@ -168,7 +168,7 @@ Sa le jenan esprimon oni havas:
     ^
 ```
 
-kaj la punkton oni volas movi post `)`:
+kaj oni volas movi la punkton post `)`:
 
 ```clojure
 
@@ -176,9 +176,9 @@ kaj la punkton oni volas movi post `)`:
                          ^
 ```
 
-Je `sp-up-sexp` plenumu. Ĝin mi bindis al <kbd>C-up</kbd>.
+Plenumu `sp-up-sexp`. Mi bindis ĝin al <kbd>C-up</kbd>.
 
-Se la jenan esprimon oni havas:
+Se oni havas la jenan esprimon:
 
 ```clojure
 
@@ -186,7 +186,7 @@ Se la jenan esprimon oni havas:
                 ^
 ```
 
-kaj la punkton oni volas movi al la apuda `]`:
+kaj oni volas movi la punkton al la apuda `]`:
 
 ```clojure
 
@@ -194,9 +194,9 @@ kaj la punkton oni volas movi al la apuda `]`:
               ^
 ```
 
-Je `sp-backward-down-sexp` plenumu. Ĝin mi bindis al <kbd>M-down</kbd>.
+Plenumu `sp-backward-down-sexp`. Mi bindis ĝin al <kbd>M-down</kbd>.
 
-Sa la jenan esprimon oni havas:
+Sa oni havas la jenan esprimon:
 
 ```lisp
 
@@ -212,12 +212,12 @@ kaj la punkton oni volas movi al `(format`:
         ^
 ```
 
-Je `sp-backward-up-sexp` plenumu. Ĝin mi bindis al <kbd>M-up</kbd>.
+Plenumu `sp-backward-up-sexp`. Mi bindis ĝin al <kbd>M-up</kbd>.
 
 
-#### <a name="blokajmovadoj"></a>Blokaj movadoj
+#### <a name="blokajmovadoj">Blokaj movadoj</a>
 
-Sa la jenan esprimon oni havas:
+Sa oni havas la jenan esprimon:
 
 ```clojure
 

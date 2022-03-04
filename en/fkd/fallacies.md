@@ -2,7 +2,7 @@ A Gentle Introduction to Fallacies
 ==================================
 
 <div class="center">[Esperanto](/eo/sofismoj/) ▪ English</div>
-<div class="center">Last updated: October 10, 2021</div>
+<div class="center">Last updated: March 4, 2022</div>
 
 >Learning is not compulsory; neither is survival.<br>
 >―W. Edwards Deming
@@ -106,7 +106,7 @@ argument that they hold.
 > music.
 
 Maria’s personal status doesn’t not have any bearing on the validity her claims. Juan’s statements
-are irrelevant. What should be attacked is Maria’s argument, and not her personal standings.
+are irrelevant. What should be attacked is Maria’s argument, and not her personal standing.
 
 
 <a name="tuquoque"></a> Tu quoque
@@ -386,7 +386,7 @@ cultures.
 > “Given that Pancho comes from a poor family, when he gets elected as the president, I’m sure he’ll
 > be able to help the poor like us.”
 
-This presumes that since Pancho originates from less fortunate social standings, he will favor the
+This presumes that since Pancho originates from less fortunate social standing, he will favor the
 ones who are also poor, just like he was before.
 
 
