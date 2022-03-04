@@ -2,7 +2,7 @@ Ziŝaj Konsiletoj 3-a: Ŝanĝradikighelpiloj
 =========================================
 
 <div class="center">Esperanto ▪ [English](/en/zsh-tips-3/)</div>
-<div class="center">Laste ĝisdatigita: la 22-an de Februaro 2022</div>
+<div class="center">Laste ĝisdatigita: la 4-an de Marto 2022</div>
 
 >Ni ridas pri tio, kion ni ne povas toleri por alfronti.<br>
 >―Aristotelo
@@ -208,8 +208,8 @@ Je `cr` oni ankaŭ povas plenumi por eniri al ŝelo:
 
     % cr
 
-Ene ĉi tiu ŝelo, aliron al la ekstermedio la aktuala medio havas, inkluzive la hejmdosierujon. Onin
-ĉi tio permesas por apojn instali kiu la datumon en la gastiga maŝina medio povas aliri.
+Ene ĉi tiu ŝelo, aliron al la ekstermedio la aktuala medio havas, inkluzive la hejmdosierujon. Ĉi
+tio ebligas onin por instali apojn kiuj povas aliri la datumon en la gastiga maŝina medio.
 
 Se la ŝanĝradikigmedion oni volas malŝalti eksplicite, plenumu:
 

@@ -206,7 +206,7 @@ You may also run `cr` without arguments, to enter a shell:
     % cr
 
 Inside this shell, the environment has access to the environment outside, including your home
-directory. This allows us to install applications that can make use the data in our host
+directory. This allows us to install applications that can use the data in our host
 environment.
 
 If you want to explicitly turn the chroot environment off, run:

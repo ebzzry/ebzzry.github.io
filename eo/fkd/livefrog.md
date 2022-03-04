@@ -76,7 +76,7 @@ dosierojn—kreitaj de ljdump aŭ ljmigrate—kaj konverti ilin al Markdown:
 
     $ raco livefrog -am
 
-Memoru, tamen, ke ljdump kaj limigrate malsamopinias kiel la arboj por la datumaj aroj
+Memoru, tamen, ke ljdump kaj limigrate malsamopinias kiel la arboj por la datenaj aroj
 estas kreitaj.
 
 Ljdump havas la jenan arban strukturon, en kiu, `username` estas la LiveJournal-uzantnomo:

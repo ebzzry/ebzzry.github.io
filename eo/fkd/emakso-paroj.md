@@ -233,9 +233,9 @@ kaj la punkton oni volas movi post `]`:
                                 ^
 ```
 
-Je `sp-forward-sexp` plenumu. Ĝin mi bindis al <kbd>C-M-f</kbd>.
+Plenumu `sp-forward-sexp`. Mi bindis ĝin al <kbd>C-M-f</kbd>.
 
-Male, por ĝin movi reen al `[`:
+Male, por movi ĝin reen al `[`:
 
 ```clojure
 
@@ -243,12 +243,12 @@ Male, por ĝin movi reen al `[`:
           ^
 ```
 
-Je `sp-backward-sexp` plenumu. Ĝin mi bindis al <kbd>C-M-b</kbd>.
+Plenumu `sp-backward-sexp`. Mi bindis ĝin al <kbd>C-M-b</kbd>.
 
 
-#### <a name="supra"></a>Supra niveleca trairado
+#### <a name="supra">Supra niveleca trairado</a>
 
-Se la jenan esprimon oni havas:
+Se oni havas la jenan esprimon:
 
 ```clojure
 

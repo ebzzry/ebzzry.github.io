@@ -2,7 +2,7 @@ Quotes
 ======
 
 <div class="center">[Esperanto](/eo/citajxoj/) ▪ English</div>
-<div class="center">Last updated: February 15, 2022</div>
+<div class="center">Last updated: March 4, 2022</div>
 
 <img src="/bil/wallhaven-77816-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -894,3 +894,6 @@ the years.
 
 
 - The more you sweat in peace, the less you bleed in war.<br>―Norman Schwarzkopf
+
+
+- I think, therefore I am.<br>―René Descartes
