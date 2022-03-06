@@ -155,7 +155,7 @@ Ni disapartigu ĝin:
 1. Apliki `(λx.x)` al `y`:
 2. Konsumi la argumentojn, tiam anstataŭigi ĉiujn aperaĵojn de `x` en la korpo, per `y`.
 
-_“Atendu, ĝi nur revenas la argumenton y.”_ oni eble diras. Tio pravas. La funkcio `(λx.x)` estas la
+_«Atendu, ĝi nur revenas la argumenton y.»_ oni eble diras. Tio pravas. La funkcio `(λx.x)` estas la
 identeca funkcio—unuopa-parametra funkcio kiu revenas kion ajn ĝi estas aplikita al.
 
 Funkcioj ne estas limigitaj, por esti aplikataj al simboloj. Ili ankaŭ povas esti aplikataj al aliaj
@@ -225,7 +225,7 @@ Aserteble, la plej grava nombro en la lambdokalkulo estas la nulo—0. Jen la di
 ```
 
 Por oportunecaj celoj, ni etikedu tiun esprimon kiel `0`, kun la simbolo `=` legita kiel
-_“ekvivalentas al.”_
+_«ekvivalentas al.»_
 
 ```scheme
 0 ≡ (λsz.z)
@@ -250,7 +250,7 @@ S ≡ (λxyz.y(xyz))
 ```
 
 Ni provu tiun per `0`. En la ekzemploj malsupre, la `=` simbolo estas legita kiel
-_“malpligrandiĝas al”_:
+_«malpligrandiĝas al»_:
 
 ```scheme
 S0
