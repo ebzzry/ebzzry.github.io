@@ -7,7 +7,7 @@
 </code></pre><p>La parametro <code>x</code> estas variablo, kiu ligiĝas tial, ke ĝi estas sandviĉiĝita inter <code>λ</code> kaj <code>.</code>. Tamen, en la funkcio:</p><pre><code class="scheme">&#40;λx.xy&#41;
 </code></pre><p>La parametro <code>y</code> estas variablo kiu liberas tial, ke ĝi ne vivas inter <code>λ</code> kaj <code>.</code>.</p><h3><a name="apliko"></a>Funkciapliko</h3><p>Por uzi funkcion, oni devas apliki ĝin al io. La ligitaj variabloj estas anstataŭigitaj per tiuj, kiuj ili estas aplikitaj—procedo nomiĝas betaredukto.</p><p>Ekzemple:</p><pre><code class="scheme">&#40;λx.x&#41;y
 y
-</code></pre><p>Ni disapartigu ĝin:</p><ol><li>Apliki <code>&#40;λx.x&#41;</code> al <code>y</code>:</li><li>Konsumi la argumentojn, tiam anstataŭigi ĉiujn aperaĵojn de <code>x</code> en la korpo, per <code>y</code>.</li></ol><p><i>“Atendu, ĝi nur revenas la argumenton y.”</i> oni eble diras. Tio pravas. La funkcio <code>&#40;λx.x&#41;</code> estas la identeca funkcio—unuopa-parametra funkcio kiu revenas kion ajn ĝi estas aplikita al.</p><p>Funkcioj ne estas limigitaj, por esti aplikataj al simboloj. Ili ankaŭ povas esti aplikataj al aliaj funkcioj.</p><pre><code class="scheme">&#40;λx.x&#41;&#40;λy.y&#41;
+</code></pre><p>Ni disapartigu ĝin:</p><ol><li>Apliki <code>&#40;λx.x&#41;</code> al <code>y</code>:</li><li>Konsumi la argumentojn, tiam anstataŭigi ĉiujn aperaĵojn de <code>x</code> en la korpo, per <code>y</code>.</li></ol><p><i>«Atendu, ĝi nur revenas la argumenton y.»</i> oni eble diras. Tio pravas. La funkcio <code>&#40;λx.x&#41;</code> estas la identeca funkcio—unuopa-parametra funkcio kiu revenas kion ajn ĝi estas aplikita al.</p><p>Funkcioj ne estas limigitaj, por esti aplikataj al simboloj. Ili ankaŭ povas esti aplikataj al aliaj funkcioj.</p><pre><code class="scheme">&#40;λx.x&#41;&#40;λy.y&#41;
 &#40;λy.y&#41;
 </code></pre><p>En la ekzemplo ĉi-supre, la identeca funkcio estas aplikata al identeca funkcio, revenonte identecan funkcion.</p><p>Jen alia apliko kun liberaj variabloj:</p><pre><code class="scheme">&#40;λa.ab&#41;&#40;λy.y&#41;
 &#40;λy.y&#41;b
@@ -20,12 +20,12 @@ b
 </code></pre><p>Havi plurajn parametrajn nomojn estas steno de pluraj lambdoj, igante al la malplilongigita versio la efekton, ke ĝi konsumas plurajn argumentojn samtempe.</p><p>Ene la korpo da funkcio, kiam du simboloj tuŝas al si reciproke, la unua simbolo estas supozita por esti funkcio aplikata al la dua simbolo, sen la rondkrampoj. Ekzemple, la jena kodaĵo:</p><pre><code class="scheme">&#40;λxy.xy&#41;
 </code></pre><p>ekvivalentas al:</p><pre><code class="scheme">&#40;λxy.x&#40;y&#41;&#41;
 </code></pre><h2><a name="nombri">Ni nombru</a></h2><h3><a name="komenco"></a>Komenco</h3><p>Pro tio ke preskaŭ ĉio en la lambdokalkulo esprimiĝas kiel funkcioj, ĝia opinio pri nombroj unikas. Aserteble, la plej grava nombro en la lambdokalkulo estas la nulo—0. Jen la difino de <code>0</code>:</p><pre><code class="scheme">&#40;λsz.z&#41;
-</code></pre><p>Por oportunecaj celoj, ni etikedu tiun esprimon kiel <code>0</code>, kun la simbolo <code>=</code> legita kiel <i>“ekvivalentas al.”</i></p><pre><code class="scheme">0 ≡ &#40;λsz.z&#41;
+</code></pre><p>Por oportunecaj celoj, ni etikedu tiun esprimon kiel <code>0</code>, kun la simbolo <code>=</code> legita kiel <i>«ekvivalentas al.»</i></p><pre><code class="scheme">0 ≡ &#40;λsz.z&#41;
 </code></pre><p>Konstrui el <code>0</code>, ni nombru la unuajn tri nombradaj nombroj:</p><pre><code class="scheme">1 ≡ &#40;λsz.s&#40;z&#41;&#41;
 2 ≡ &#40;λsz.s&#40;s&#40;z&#41;&#41;&#41;
 3 ≡ &#40;λsz.s&#40;s&#40;s&#40;z&#41;&#41;&#41;&#41;
 </code></pre><h3><a name="postanto"></a>Postanto</h3><p>La postanto de entjero estas difinita kiel la sekva entjero, kalkulante supren. Do, la postanto de <code>0</code> estas <code>1</code>. Jen la difino de la postanta funkcio:</p><pre><code class="scheme">S ≡ &#40;λxyz.y&#40;xyz&#41;&#41;
-</code></pre><p>Ni provu tiun per <code>0</code>. En la ekzemploj malsupre, la <code>=</code> simbolo estas legita kiel <i>“malpligrandiĝas al”</i>:</p><pre><code class="scheme">S0
+</code></pre><p>Ni provu tiun per <code>0</code>. En la ekzemploj malsupre, la <code>=</code> simbolo estas legita kiel <i>«malpligrandiĝas al»</i>:</p><pre><code class="scheme">S0
 ≡ &#40;λxyz.y&#40;xyz&#41;&#41;&#40;λsz.z&#41;
 = &#40;λyz.y&#40;&#40;λsz.z&#41;yz&#41;&#41;
 = &#40;λyz.y&#40;&#40;λz.z&#41;z&#41;&#41;
