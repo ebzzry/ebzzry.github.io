@@ -82,11 +82,11 @@ parolita lingvo estas alia bestio entute.
 
 ### Estu ĝentile
 
-Kio estas la diferenco inter _“Legu la dokumentojn.”_ kaj _“Bonvole legu la dokumentojn.”_ aŭ eĉ
-_“Ĉu vi bonvolus legi la dokumenton?”_ Kiam la pravaj vortoj uzitas, ni pozitive bildigas, ni imagas
+Kio estas la diferenco inter _«Legu la dokumentojn.»_ kaj _«Bonvole legu la dokumentojn.»_ aŭ eĉ
+_«Ĉu vi bonvolus legi la dokumenton?»_ Kiam la pravaj vortoj uzitas, ni pozitive bildigas, ni imagas
 en niaj kapoj kiel devus okazi la komunikado se ĝi okazis en vizaĝalvizaĝa maniero. Male, kiam la
-vortojn ni uzu troe, kreante trostreĉon al la mesaĝo, la mesaĝon tute ŝanĝi. Kontrastu “_Ek._” kaj
-“_Ek, ve!_”
+vortojn ni uzu troe, kreante trostreĉon al la mesaĝo, la mesaĝon tute ŝanĝi. Kontrastu «_Ek._» kaj
+«_Ek, ve!_»
 
 
 ### Emoĝiojn uzu ŝpareme
@@ -102,8 +102,8 @@ kun tiu bildo, facile. Tamen, same kiel parfumoj, tro multe malbonas.
 
 La interpunkcioj kiujn ni uzas en niaj mesaĝoj multe gravas, ĉu ili estas malgrandaj frazeroj aŭ
 plenaj frazoj. Ĉi tio, denove, konektitas al la maniero en kiu la personon, kiu komunikas, ni
-imagas. La respondon _“Bone.”_ ni traktu. Ĉi tiu mallonga mesaĝo lakonas kaj klaras. Bedaŭrinde, ĝi
-ankaŭ estas senenhava de vivo; vervon ĝi malhavas. Ĉi tion kontrastu al “Bone!” Ĉi tiu versio
+imagas. La respondon _«Bone.»_ ni traktu. Ĉi tiu mallonga mesaĝo lakonas kaj klaras. Bedaŭrinde, ĝi
+ankaŭ estas senenhava de vivo; vervon ĝi malhavas. Ĉi tion kontrastu al «Bone!» Ĉi tiu versio
 vivas. Mensan bildon de persono kiu estas ĝisosta kaj engaĝita kun la konversacio kreas.
 
 

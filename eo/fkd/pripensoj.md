@@ -402,7 +402,7 @@ ordigitaj laŭ kronologiordo.
 - La demando ĉu maŝinoj povas pensi estas demando ĉu submarŝipoj povas naĝi.<br>
 
 
-- Unu el la kernaj problemoj de scii kio estas la realo, estas trovi la difinon de la vorto “realo.”<br>
+- Unu el la kernaj problemoj de scii kio estas la realo, estas trovi la difinon de la vorto «realo.»<br>
 
 
 - Kiam oni ĵetas rokojn al vi, vi ĵetu panon aŭ eble golfpilkojn.<br>

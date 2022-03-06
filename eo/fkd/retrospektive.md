@@ -32,8 +32,8 @@ iutempe ne estis esprimita, krei mian propran ĥaoson kaj danĝeron. Mi forgesis
 memon.
 
 Mi jam demandis al mi alian gravan demandon. Demando, kiu ultimate liveris sendormajn noktojn,
-maltrankvilecon, kaj la neeblecon por tute kompreni la senperan tempon kaj spacon ĉirkaŭ mi. _“Ĉu
-farindas tio?”_ Ŝajnis al mi tiutempe, ke kiam ajn mi pripensas tion, mi malfermas la skatolon de
+maltrankvilecon, kaj la neeblecon por tute kompreni la senperan tempon kaj spacon ĉirkaŭ mi. _«Ĉu
+farindas tio?»_ Ŝajnis al mi tiutempe, ke kiam ajn mi pripensas tion, mi malfermas la skatolon de
 Pandoro. Kaj iumaniere, ĉiam mi konvinkis min mem por malfermi ĝin, por vidi ĝin mem. Me tro sciemis
 scii, kio estis ene, malgraŭ la admono de mi. Alia sciema animo diris sian opinion, avizas min, ke
 tio estis la malĝusta demando por demandi. Ke, mi devus serĉi la ĝustan respondon per mi mem, kvazaŭ
@@ -42,12 +42,12 @@ provi trovi mian vojon hejmen.
 Iu unufoje frapis ĉe la pordo—estis la bedaŭro. Malgraŭ ĝia ŝajne kompatinda stato, mi ne permesis
 eniri ĝin, kiel ajn persista ĝi estis. Mi scias, ke en la momento, en kiu mi permesas eniri ĝin, ĝi
 tuj bonvene sentos por si mem, kaj komforte sentos ĉirkaŭ la loĝejo, kvazaŭ ĝi apartenas al si mem.
-Ĉiufoje ĝi frapis ĉe la pordo, ĝi demandis ĉu ĝi bonvenas. Mi kuraĝanime diris la respondon _“ne”_
+Ĉiufoje ĝi frapis ĉe la pordo, ĝi demandis ĉu ĝi bonvenas. Mi kuraĝanime diris la respondon _«ne»_
 ĉiufoje. Mi devus diri al mi, ke se mi ne faris tion, mi ne devus sperti la doloron. Tio eraras laŭ
 multaj manieroj tial, ke se mi ne faris tion, mi ne devus esti tie en la unua okazo, por demandi
 tiun demandon. La kapablo por diri tiun demandon estis atesto de la sperto. Postvidado estas 20/20.
 
-Mi ofte aŭdis la frazon _“Vi ne devis doni la ĉion.”_ Tio estas eble taŭga tio al ili. Tio estas
+Mi ofte aŭdis la frazon _«Vi ne devis doni la ĉion.»_ Tio estas eble taŭga tio al ili. Tio estas
 eble taŭga al iliaj metodoj, tamen nepre ne por mi. Kial? Pro tio ke mi ne povos esplori miajn
 limojn se estas mi mem, kiu metos la limojn, antaŭ ol mi eĉ esploras. Se mi ne ege strebas, mi ne
 povas iri ien. Mi porĉiame enfermiĝos en la sama loko. Se oni ne donos sian plej bonan strebon en
