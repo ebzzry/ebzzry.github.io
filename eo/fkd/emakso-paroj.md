@@ -2,7 +2,7 @@ Emakso kaj Paroj
 ================
 
 <div class="center">Esperanto ▪ [English](/en/emacs-pairs/)</div>
-<div class="center">Laste ĝisdatigita: la 23-an de Aŭgusto 2021</div>
+<div class="center">Laste ĝisdatigita: la 7-an de Marto 2021</div>
 
 >La blanka bruo kiu batas ene la blanka mallumo estas la ritmo de la vivo; estas la pulso kiu
 >neniam vere foriris la podion.<br>
@@ -259,7 +259,7 @@ Se oni havas la jenan esprimon:
 
 ```
 
-kaj la punkton oni volas movi al `[`:
+kaj oni volas movi la punkton  al `[`:
 
 ```clojure
 
@@ -270,25 +270,25 @@ kaj la punkton oni volas movi al `[`:
 
 ```
 
-Je `sp-next-sexp` plenumu. Ĝin mi bindis al <kbd>C-M-n</kbd>.
+Plenumu `sp-next-sexp` . Mi bindis ĝin al <kbd>C-M-n</kbd>.
 
-Male, por ĝin movi reen:
+Male, por movi ĝin reen:
 
 ```clojure
 
 (defn blah
-  "Returns blah of foo."
+    "Returns blah of foo."
   [foo]                 ^
   )
 
 ```
 
-Je `sp-previous-sexp` plenumu. Ĝin mi bindis al <kbd>C-M-p</kbd>.
+Plenumu `sp-previous-sexp`. Mi bindis ĝin al <kbd>C-M-p</kbd>.
 
 
-#### <a name="libermanaj"></a>Libermanaj movadoj
+#### <a name="libermanaj">Libermanaj movadoj</a>
 
-Se la jenan esprimon oni havas:
+Se oni havas la jenan esprimon:
 
 ```clojure
 
@@ -296,7 +296,7 @@ Se la jenan esprimon oni havas:
                ^
 ```
 
-kaj la punkton oni volas movi al `blah`:
+kaj oni volas movi la punkton  al `blah`:
 
 ```clojure
 
@@ -304,9 +304,9 @@ kaj la punkton oni volas movi al `blah`:
       ^
 ```
 
-Je `sp-backward-symbol` plenumu. Ĝin mi bindis al <kbd>C-S-b</kbd>.
+Plenumu `sp-backward-symbol`. Mi bindis ĝin al <kbd>C-S-b</kbd>.
 
-Male, sa la jenan esprimon oni havas:
+Male, se oni havas la jenan esprimon:
 
 ```clojure
 
@@ -314,7 +314,7 @@ Male, sa la jenan esprimon oni havas:
             ^
 ```
 
-kaj la punkton oni volas movi tuj post `(let`:
+kaj oni volas movi la punkton tuj post `(let`:
 
 ```clojure
 
@@ -322,17 +322,17 @@ kaj la punkton oni volas movi tuj post `(let`:
                   ^
 ```
 
-Je `sp-forward-symbol` plenumu. Ĝin mi bindis al <kbd>C-S-f</kbd>.
+Plenumu `sp-forward-symbol`. Mi bindis ĝin al <kbd>C-S-f</kbd>.
 
-Kion ili faras, estas, ili ĉirkaŭnavigas kvazaŭ ne ekzistas la limiligoj kiel rondaj krampoj,
+Kion ili faras, estas ke, ili ĉirkaŭnavigas kvazaŭ ne ekzistas la limiligoj kiel rondaj krampoj,
 kvadrataj krampoj, kaj kurbaj krampoj.
 
 
-### <a name="manipulado"></a>Manipulado
+### <a name="manipulado">Manipulado</a>
 
-#### <a name="faldado"></a>Faldado
+#### <a name="faldado">Faldado</a>
 
-Se la jenan esprimon oni havas:
+Se oni havas la jenan esprimon:
 
 ```javascript
 
@@ -340,7 +340,7 @@ var mods = "vars";
            ^
 ```
 
-kaj je `"vars"` oni volas esti ĉirkaŭitaj per `[` kaj `]`:
+kaj oni volas ĉirkaŭi `"vars"` per `[` kaj `]`:
 
 ```javascript
 
@@ -348,26 +348,22 @@ var mods = ["vars"];
             ^
 ```
 
-Je <kbd>C-M-Space</kbd> kaj <kbd>[</kbd> preminte la tuta regiono
-iĝas ĉirkaŭitaj per kongruaj `[` kaj `]`. Ankaŭ aplikeblas al klavoj kiel `(`, `{`, `"`, `'`,
-`*`, `_`, ktp, dependas per la regimo kiun oni uzas.
+Preminte <kbd>C-M-Space</kbd> kaj <kbd>[</kbd> la tuta regiono fariĝas ĉirkaŭitaj per kongruaj `[`
+kaj `]`. Tio ankaŭ estas aplikeblaj al klavoj kiel `(`, `{`, `"`, `'`, `*`, `_`, ktp, dependas per
+la regimo kiun oni uzas.
 
-Faldadajn funkciojn oni povas difini alterne:
+Oni povas difini faldadajn funkciojn alterne:
 
 ```lisp
 (defmacro def-pairs (pairs)
-  "Funkciojn por parigado difinu. PAIRS estas asocialisto de
-(NAME . STRING) conses, en kiu, NAME estas la nomo de la
-funkcio kiu estos kreita kaj STRING estas sole signa signovico
-kiu la komencan signon markas.
+  "Funkciojn por parigado difinu. PAIRS estas asocialisto de (NAME . STRING) conses, en kiu, NAME estas la nomo de la funkcio kiu estos kreita kaj STRING estas sole signa signovico kiu la komencan signon markas.
 
 La alvoko
 
   (def-pairs ((paren . \"(\")
               (bracket . \"[\"))
 
-la funkciojn WRAP-WITH-PAREN kaj WRAP-WITH-BRACKET difinas,
-respektive."
+difinas la funkciojn WRAP-WITH-PAREN kaj WRAP-WITH-BRACKET, respektive."
   `(progn
      ,@(loop for (key . val) in pairs
              collect
@@ -387,9 +383,9 @@ respektive."
             (back-quote . "`")))
 ```
 
-La avantaĝon de regionojn ne postuli ĉi tiuj havas por kunoperacii. La unuajn tri funkciojn mi
-bindis al <kbd>C-c (</kbd>, <kbd>C-c [</kbd>, kaj <kbd>C-c {</kbd>, respektive. Do, se la jenan
-esprimon oni havas:
+Ĉi tiuj havas la avantaĝon de ne postuli regionojn por esti operaciotaj. Mi bindis la unuajn tri
+funkciojn al <kbd>C-c (</kbd>, <kbd>C-c [</kbd>, kaj <kbd>C-c {</kbd>, respektive. Do, se oni havas la jenan
+esprimon:
 
 ```clojure
 
@@ -397,7 +393,7 @@ esprimon oni havas:
           ^
 ```
 
-kaj je `args` oni volas ĉirkaŭi per `[` kaj `]`:
+kaj oni volas ĉirkaŭi `args` per `[` kaj `]`:
 
 ```clojure
 
@@ -405,11 +401,11 @@ kaj je `args` oni volas ĉirkaŭi per `[` kaj `]`:
            ^
 ```
 
-Je <kbd>C-c [</kbd> premu.
+Premu <kbd>C-c [</kbd>.
 
-Fojfoje, unu el la paraj paroj oni malatentence forviŝas—ĉi tio rezultas en malekvilibrigita
-esprimo. Onin smartparens malpermesas por tion fari. Se je <kbd>Backspace</kbd> oni premas en la
-jena esprimo:
+Fojfoje, oni malatentence forviŝas unu el la paraj paroj—ĉi tio rezultas al malekvilibrigita
+esprimo. Smartparens malpermesas onin por fari tion. Se oni premas<kbd>Backspace</kbd> en la jena
+esprimo:
 
 ```javascript
 
@@ -417,12 +413,12 @@ var mods = ["vars"];
             ^
 ```
 
-Okazas nenio. Onin smartparens savas el multe da ĝeno, ĉi tie.
+Nenio okazas. smartparens savas onin el multe da ĝeno, ĉi tie.
 
 
-#### <a name="malfaldado"></a>Malfaldado
+#### <a name="malfaldado">Malfaldado</a>
 
-Se la jenan esprimon oni havas:
+Se oni havas la jenan esprimon:
 
 ```clojure
 
@@ -430,7 +426,7 @@ Se la jenan esprimon oni havas:
      ^
 ```
 
-kaj la `bar` esprimon oni volas malfaldi, la rondajn krampojn forigante ĉirkaŭ `foo`:
+kaj oni volas malfaldi la `bar` esprimon, forigante la rondajn krampojn ĉirkaŭ `foo`:
 
 ```clojure
 
@@ -438,9 +434,9 @@ foo (bar x y z)
     ^
 ```
 
-Je `sp-backward-unwrap-sexp` plenumu. Ĝin mi bindis al <kbd>M-[</kbd>.
+Plenumu `sp-backward-unwrap-sexp`. Mi bindis ĝin al <kbd>M-[</kbd>.
 
-Male, se la `bar` esprimon oni volas malfaldi, la rondajn krampojn forigante ĉirkaŭ `bar`:
+Male, se oni volas malfaldi la esprimon `bar`, forigante la rondajn krampojn ĉirkaŭ `bar`:
 
 ```clojure
 
@@ -448,12 +444,12 @@ Male, se la `bar` esprimon oni volas malfaldi, la rondajn krampojn forigante ĉi
      ^
 ```
 
-Je `sp-unwrap-sexp` plenumu. Ĝin mi bindis al <kbd>M-]</kbd>.
+Plenumu `sp-unwrap-sexp`. Mi bindis ĝin al <kbd>M-]</kbd>.
 
 
-#### <a name="glutadokajvomado"></a>Glutado kaj vomado
+#### <a name="glutadokajvomado">Glutado kaj vomado</a>
 
-Sa la jenan esprimon oni havas:
+Sa oni havas la jenan esprimon:
 
 ```clojure
 
@@ -461,7 +457,7 @@ Sa la jenan esprimon oni havas:
         ^
 ```
 
-kaj je `baz` oni volas esti parto de `foo` kaj `bar`:
+kaj oni volas igi `baz` parto de `foo` kaj `bar`:
 
 ```clojure
 
@@ -469,9 +465,9 @@ kaj je `baz` oni volas esti parto de `foo` kaj `bar`:
         ^
 ```
 
-Je `sp-forward-slurp-sexp` plenumu. Ĝin mi bindis al <kbd>C-right</kbd>.
+Plenumu `sp-forward-slurp-sexp`. Mi bindis ĝin al <kbd>C-right</kbd>.
 
-Male, se je `baz` oni volas forigi:
+Male, se oni volas forigi `baz`:
 
 ```clojure
 
@@ -479,9 +475,9 @@ Male, se je `baz` oni volas forigi:
         ^
 ```
 
-Je `sp-forward-barf-sexp` plenumu. Ĝin mi bindis al <kbd>M-right</kbd>.
+Plenumu `sp-forward-barf-sexp`. Mi bindis ĝin al <kbd>M-right</kbd>.
 
-Se la jenan esprimon oni havas:
+Se oni havas la jenan esprimon:
 
 ```clojure
 
@@ -489,7 +485,7 @@ blah [foo bar]
              ^
 ```
 
-kaj je `blah` oni volas esti parto de `foo` kaj `bar`:
+kaj oni volas igi `blah` parto de `foo` kaj `bar`:
 
 ```clojure
 
@@ -497,9 +493,9 @@ kaj je `blah` oni volas esti parto de `foo` kaj `bar`:
              ^
 ```
 
-Je `sp-backward-slurp-sexp` plenumu. Ĝin mi bindis al <kbd>C-left</kbd>.
+Plenumu `sp-backward-slurp-sexp`. Mi bindis ĝin al <kbd>C-left</kbd>.
 
-Male, se je `blah` oni volas forigi:
+Male, se oni volas forigi `blah`:
 
 ```clojure
 
@@ -507,12 +503,12 @@ blah [foo bar]
              ^
 ```
 
-Je `sp-backward-barf-sexp` plenumu. Ĝin mi bindis al <kbd>M-left</kbd>.
+Plenumu `sp-backward-barf-sexp`. Mi bindis ĝin al <kbd>M-left</kbd>.
 
 
-#### <a name="intersxangxado"></a>Interŝanĝado
+#### <a name="intersxangxado">Interŝanĝado</a>
 
-Se la jenan esprimon oni havas:
+Se oni havas la jenan esprimon:
 
 ```clojure
 
@@ -520,7 +516,7 @@ Se la jenan esprimon oni havas:
       ^
 ```
 
-kaj je `"foo"` kaj `"bar"` oni volas interŝanĝi:
+kaj oni volas interŝanĝi `"foo"` kaj `"bar"`:
 
 ```clojure
 
@@ -528,12 +524,12 @@ kaj je `"foo"` kaj `"bar"` oni volas interŝanĝi:
       ^
 ```
 
-Je `sp-transpose-sexp` plenumu. Ĝin mi bindin al <kbd>C-M-t</kbd>.
+Plenumu `sp-transpose-sexp`. Mi bindis ĝin al <kbd>C-M-t</kbd>.
 
 
-#### <a name="mortigado"></a>Mortigado
+#### <a name="mortigado">Mortigado</a>
 
-Se la jenan esprimon oni havas:
+Se oni havas la jenan esprimon:
 
 ```clojure
 
@@ -541,7 +537,7 @@ Se la jenan esprimon oni havas:
                ^
 ```
 
-kaj nur na`"y yy yyy"` oni volas mortigi:
+kaj oni volas mortigi nur `"y yy yyy"`:
 
 ```clojure
 
@@ -549,9 +545,9 @@ kaj nur na`"y yy yyy"` oni volas mortigi:
                ^
 ```
 
-Je `sp-kill-sexp` plenumu. Ĝin mi bindis al <kbd>C-M-k</kbd>.
+Plenumu `sp-kill-sexp`. Mi bindis ĝin al <kbd>C-M-k</kbd>.
 
-Se je `"y yy yyy" z 0` oni volas mortigi:
+Se oni volas mortigi `"y yy yyy" z 0`:
 
 ```clojure
 
@@ -559,9 +555,9 @@ Se je `"y yy yyy" z 0` oni volas mortigi:
                ^
 ```
 
-Je `sp-kill-hybrid-sexp` plenumu. Ĝin mi bindis al <kbd>C-k</kbd>.
+Plenumu `sp-kill-hybrid-sexp`. Mi bindis ĝin al <kbd>C-k</kbd>.
 
-Se la jenan esprimon oni havas:
+Se oni havas la jenan esprimon:
 
 ```clojure
 
@@ -569,7 +565,7 @@ Se la jenan esprimon oni havas:
                                 ^
 ```
 
-kaj je `[clojure.string :as s]` oni volas mortigi:
+kaj oni volas mortigi `[clojure.string :as s]`:
 
 ```clojure
 
@@ -577,29 +573,25 @@ kaj je `[clojure.string :as s]` oni volas mortigi:
           ^
 ```
 
-Je `sp-backward-kill-sexp` plenumu. Ĝin mi bindis al <kbd>M-k</kbd>.
+Plenumu `sp-backward-kill-sexp`. Mi bindis ĝin al <kbd>M-k</kbd>.
 
 
-<a name="klavoj"></a>Klavoj
+<a name="klavoj">Klavoj</a>
 ---------------------------
 
-La uzatajn klavkombinojn en ĉi tiu artikolo la jena kodeto resumas. Je `bind-keys` mi uzas por miajn
-klavojn oportune mapi. Ĝin mi diskutis en [antaŭa](/eo/emakskonsiletoj-2-a) artikolo.
+La jena kodeto resumas la uzatajn klavkombinojn en ĉi tiu artikolo. Mi uzas `bind-keys` por mapi
+miajn klavojn oportune. Mi pridiskutis ĝin en [antaŭa](/eo/emakskonsiletoj-2-a) artikolo.
 
 ```lisp
 (defmacro def-pairs (pairs)
-  "Funkciojn por parigadon difini. PAIRS estas asocialisto de
-(NAME . STRING) conses, en kiu, NAME estas la nomo de la
-funkcio kiu estos kreita kaj STRING estas sole signa signovico
-kiu la komencan signon markas.
+  "Funkciojn por parigado difinu. PAIRS estas asocialisto de (NAME . STRING) conses, en kiu, NAME estas la nomo de la funkcio kiu estos kreita kaj STRING estas sole signa signovico kiu la komencan signon markas.
 
 La alvoko
 
   (def-pairs ((paren . \"(\")
               (bracket . \"[\"))
 
-la funkciojn WRAP-WITH-PAREN kaj WRAP-WITH-BRACKET difinas,
-respektive."
+difinas la funkciojn WRAP-WITH-PAREN kaj WRAP-WITH-BRACKET, respektive."
   `(progn
      ,@(loop for (key . val) in pairs
              collect
@@ -668,13 +660,13 @@ respektive."
 ```
 
 
-<a name="finrimarkoj"></a>Finrimaroj
+<a name="finrimarkoj">Finrimaroj</a>
 ------------------------------------
 
-La pletoro de la komandoj en smartparens eble komence senkuraĝigas, tamen la investo per tempo en
-ilin lerni, minimumas kontraste al la gajnojn oni povas rikolti.
+La pletoro de la komandoj en smartparens eble povas senkuraĝigas en la komenco, tamen la investo per
+tempo en lerni ilin, estas minimuma kontraste al la gajnojn oni povas rikolti.
 
-smartparens estas la elpensintaĵo de [Matus GOLJER](https://github.com/Fuco1). Por pli da informo
-pri smartparens, [ĉi tien](https://github.com/Fuco1/smartparens) iru. Se ĉi tiun projekton oni
-ŝatas, oni povas donaci
+smartparens estas la elpensintaĵo de [Matus GOLJER](https://github.com/Fuco1). Por vidi pli da
+informo pri smartparens, iru [ĉi tien](https://github.com/Fuco1/smartparens). Se oni ŝatas ĉi tiun
+projekton, oni povas donaci
 [ĉi tie](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CEYP5YVHDRX8C).
