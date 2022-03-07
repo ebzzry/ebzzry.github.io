@@ -11,7 +11,7 @@ Mia Kinezia Avantaĝa Aranĝo
 margin-right: auto;" alt="Kinezia Avantaĝo" title="Kinezia Avantaĝo"/>
 
 
-<a name="et"></a>Enhavotabelo
+<a name="et">Enhavotabelo</a>
 -----------------------------
 
 - [Superrigardo](#superrigardo)
