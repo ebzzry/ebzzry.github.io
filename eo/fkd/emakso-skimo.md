@@ -2,7 +2,7 @@ Agordi Skimprogramadon en Emakso
 ================================
 
 <div class="center">Esperanto ▪ [English](/en/emacs-scheme/)</div>
-<div class="center">Laste ĝisdatigita: la 21-an de Februaro 2022</div>
+<div class="center">Laste ĝisdatigita: la 7-an de Marto 2022</div>
 
 >Ĉiom da bonaj ideoj ne kuŝas sub unu ĉapelo.<br>
 >―Dale TURNER
@@ -125,5 +125,3 @@ Mi laŭcele preterpasis multan temon de la [oficialdokumento](http://www.nongnu.
 ĝi fariĝas malĉarma al multaj homoj, kiuj malinklinas legi longajn blokojn da teksto. Ironie, ĉi tiu
 artikolo povas kvalifi kiel tio! La priskribitaj metodoj supre ne reprezentiĝas de kiel la ĝenerala
 komunumo faras ilin. Do, ĝis!
-
-_Dank’ al [Raymund MARTINEZ](https://zhaqenl.github.io) pro la korektoj._

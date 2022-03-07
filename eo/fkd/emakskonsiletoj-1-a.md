@@ -2,7 +2,7 @@ Emaksaj Konsiletoj 1-a: Regionoj kaj Markoj
 ===========================================
 
 <div class="center">Esperanto ▪ [English](/en/emacs-tips-1/)</div>
-<div class="center">Laste ĝisdatigita: la 25-an de Februaro 2022</div>
+<div class="center">Laste ĝisdatigita: la 7-an de Marto 2022</div>
 
 >La voĉon ne pligrandigu; la argumenton plibonigu.<br>
 >―Desmond TUTU
@@ -151,5 +151,3 @@ La klavkombinoj por la supraj komandoj, estas la jenaj:
 
 Mi esperas, ke oni povos esti kapabla trovi uzojn el kelke da aferoj ĉi-supre. La ceteraj agordoj
 troveblas [ĉi tie](https://github.com/ebzzry/dotfiles/tree/master/emacs).
-
-_Dank’ al [Raymund MARTINEZ](https://zhaqenl.github.io) pro la korektoj._

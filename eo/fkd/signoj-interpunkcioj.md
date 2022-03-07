@@ -2,7 +2,7 @@ Signoj kaj Interpunkcioj
 ========================
 
 <div class="center">Esperanto ▪ [English](/en/symbols-marks/)</div>
-<div class="center">Laste ĝisdatigita: la 23-an de Aŭgusto 2021</div>
+<div class="center">Laste ĝisdatigita: la 7-an de Marto 2022</div>
 
 >Se grandiozon oni volas atingi, konsentojn ĉesu peti.<br>
 >―Eddie COLLA
@@ -272,7 +272,7 @@ litero povas esti ellasita:
 
 En la vorto «danko» la «o» litero ankaŭ povas esti ellasita en la jena kunteksto:
 
-- Dank’ al Rejmundo.
+- Dank’ al Renato.
 
 Kiam ritmojn kaj taktojn oni kalkulas, la litero «u» en «unu» povas esti ellasita:
 

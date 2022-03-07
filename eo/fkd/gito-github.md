@@ -1,70 +1,71 @@
-Maldaŭra Rondvojaĝo de Gito kaj GitHub
-======================================
+Lakona Rondvojaĝo de Gito kaj GitHub
+====================================
 
 <div class="center">Esperanto ▪ [English](/en/git-github/)</div>
-<div class="center">Laste ĝisdatigita: la 31-an de Aŭgusto 2021</div>
+<div class="center">Laste ĝisdatigita: la 7-an de Marto 2022</div>
 
->Ĉiujn solvitajn problemon sciu kiel solvi.<br>
+>Sciu kiel solvi ĉiujn solvitajn problemon.<br>
 >―Richard P. FEYNMAN
 
-[Giton](https://git-scm.com/) kun [GitHub](https://github.com)-laborfluon ĉi tiu mallonga gvidilo
-montras. Multspecajn rezultojn rapida Gugla serĉo pri gitaj laborfluoj revenas. Nur unu el la
-manieroj de giton uzi kun gita gastiga servo kiel GitHub ĉi tiu artikolo priskribas.
+Ĉi tiu lakona gvidilo montros laborfluon per [Gito](https://git-scm.com/) kaj
+[GitHub](https://github.com). Rapida interreta serĉo pri gitaj laborfluoj revenas multspecajn
+rezultojn. Ĉi tiu artikolo priskribas nur unu el la eblaj manieroj de uzi giton kun gita gastiga
+servo kiel GitHub .
 
-En ĉi tiu artikolo, la inviton la `$` simbolo reprezentas. Por demonstradaj celoj, la redaktilon
-[*nano*](https://www.nano-editor.org/) ni uzos. Tamen, kion ajn redaktilon oni liberas uzi.
+En ĉi tiu artikolo, la simbolo `$` reprezentas la inviton . Por demonstradaj celoj, ni uzos la
+redaktilon [*nano*](https://www.nano-editor.org/) . Tamen, kion ajn redaktilon oni liberas uzi.
 
 
-<a name="et"></a>Enhavotabelo
+<a name="et">Enhavotabelo</a>
 -----------------------------
 
 - [Bazaj](#bazaj)
   + [Komenca uzo](#komenco)
   + [Sekvontaj uzadoj](#sekvontaj)
-- [Enrete labori](#enrete)
-  + [La sekurŝelajn ŝlosilojn generi](#sxlosiloj)
-  + [La deponejon krei](#deponejonkrei)
-  + [La deponejon ĝisdatigi](#deponejongxisdatigi)
+- [Labori enrete](#enrete)
+  + [Generi la sekurŝelajn ŝlosilojn](#sxlosiloj)
+  + [Krei la deponejon](#deponejonkrei)
+  + [Ĝisdatigi la deponejon](#deponejongxisdatigi)
   + [Partopreni](#partopreni)
   + [Sinkronigi kun *upstream*](#sinkronigi)
-- [Ŝanĝojn tiri](#tiri)
+- [Tiri ŝanĝojn](#tiri)
 - [Kunfandi kun *upstream*](#kunfandi)
 - [Finrimarkoj](#finrimarkoj)
 
 
-<a name="bazaj"></a>Bazaj
+<a name="bazaj">Bazaj</a>
 -------------------------
 
-### <a name="komenco"</a>Komenca uzo
+### <a name="komenco">Komenca uzo</a>
 
-Por la aferojn plibonigi poste, je `.gitignore`-dosieron oni devas krei. La dosierojn kiuj estas
-ekskluditaj el la deponejo la _.gitignore_-dosiero precizigas. Multaj el ĉi tiuj estas duumaj
-dosieroj kaj eraraj mesaĝoj kiuj estis kreitaj dum kompiladoj.
+Por plifaciligi la aferojn poste, oni devas krei `.gitignore`-dosieron. La _.gitignore_-dosiero
+precizigas la dosierojn kiuj estas ekskluditaj el la deponejo. Multaj el ĉi tiuj estas duumaj
+dosieroj kaj eraraj mesaĝoj kiuj estis kreitaj dum kompilado.
 
-La tipon de projekto `.gitignore`-dosieroj specifas. Bona loko por precizigi tion, kion .gitignore
-devas enhavi estas [gitignore.io](https://gitignore.io). La tipon de projekto precizigi en la kampo,
-tiam je **Generate** klaku, tiam le eligon kopiu al la tondejo.
+`.gitignore`-dosieroj specifas la tipon de projekto. Bona loko por precizigi tion, kion .gitignore
+devas enhavi estas [gitignore.io](https://gitignore.io). Precizigi la tipon de projektoen la kampo,
+tiam alklaku **Generate**, tiam kopiu le eligon al la tondejo.
 
-Dosierujon por la projekto kreu, tiam ŝanĝiĝu ene:
+Kreu dosierujon por la projekto, tiam iru al tiu dosierujo:
 
     $ mkdir foobar
     $ cd foobar
 
-La `.gitignore`-dosieron redaktu en la aktuala dosierujo:
+Redaktu la `.gitignore`-dosieron en la aktuala dosierujo:
 
     $ nano .gitignore
 
-Tiam, la enhavon de la tondejo algluu. La ŝanĝojn konservu.
+Tiam, algluu la enhavon de la tondejo. Konservu la ŝanĝojn.
 
-La gitan deponejon oni nun povas pravalorizi.
+Oni nun povas pravalorizi la gitan deponejon:
 
     $ git init
 
-Komence, ĉiomajn dosierojn en la aktuala dosierujo aldonu:
+Komence, aldonu ĉiom da dosieroj en aktuala dosierujo:
 
     $ git add .
 
-Tiam, la ŝanĝojn enmetu.
+Tiam, la enmetu ŝanĝojn:
 
     $ git commit -m "Novdeponejon pravalorizu"
 
@@ -85,151 +86,151 @@ Kiam ŝanĝojn al la dosieroj oni faris, ilin scenigu:
 
     $ git add -u
 
-Por la ŝanĝojn montri kiuj oni scenigis:
+Por montri la ŝanĝojn kiuj oni scenigis:
 
     $ git diff
 
-Por la ŝanĝojn enmeti:
+Por enmeti la ŝanĝojn:
 
     $ git commit -m "Ŝanĝojn faru"
 
-Por la enmetoprotokolon montri:
+Por montri la enmetoprotokolon:
 
     $ git log
 
-Por la enmetoprotokolon kun la diferencoj montri:
+Por montri la enmetoprotokolon kun la diferencoj:
 
     $ git log -p
 
-Kiam la ŝanĝoj, kiujn oni jam testis, estas stabilaj, ŝaltu al la `master`-branĉo.
+Kiam stabilas la ŝanĝoj, kiujn oni jam testis, ŝaltu al la `master`-branĉo:
 
     $ git checkout master
 
-Tiam, kunfandu je `eksperimentaj`:
+Tiam, kunfandu `eksperimentaj`:
 
     $ git merge eksperimentaj
 
-Post tio, la `eksperimentaj`-branĉon oni povas forviŝi:
+Post tio, oni povas forviŝi la `eksperimentaj`-branĉon:
 
     $ git branch -d eksperimentaj
 
 
-<a name="enrete"></a>Enrete labori
+<a name="enrete">Labori enrete</a>
 ----------------------------------
 
-Kiel labori kun aliaj programistoj ĉi tiu sekcio priskribas. Je [GitHub](https://github.com) oni
-uzos en ĉi tiu diskuto.
+Ĉi tiu sekcio priskribas kiel labori kun aliaj programistoj. Oni uzos [GitHub](https://github.com)
+en ĉi tiu diskuto.
 
 
-### <a name="sxlosiloj"></a>La sekurŝelajn ŝlosilojn generi
+### <a name="sxlosiloj">Generi la sekurŝelajn ŝlosilojn</a>
 
-La mem oni devas esti kapabla por veriĝi al la GitHub-konto, antaŭ ol la ŝanĝojn oni povas puŝi. Por
-tion fari, la sekurŝelajn ŝlosilojn oni devas krei. Por tion fari, la jenan komandon plenumu. Certigu,
-ke [fortan pasfrazon](https://xkcd.com/936/) oni disponigas, kiam oni invitiĝis:
+Oni devas esti kapabla por veriĝi ĉe la GitHub-konto, antaŭ ol oni povas puŝi la ŝanĝojn. Por
+fari tion, oni devas krei la sekurŝelajn ŝlosilojn. Por fari tion, plenumu la jenan komandon. Certigu,
+ke oni disponigos [fortan pasfrazon](https://xkcd.com/936/), kiam oni invitiĝis:
 
     $ ssh-keygen -t ed25519
 
-La ŝlosilojn kreinte, la ŝlosilojn oni devas aldoni al la propra GitHub-konto. Por tion
-fari, la jenan komandon plenumu, tiam la eligon kopiu:
+Kreinte la ŝlosilojn, oni devas aldoni la ŝlosilojn al la propra GitHub-konto. Por fari
+tion, plenumu la jenan komandon, tiam kopiu la eligon:
 
     $ cat ~/.ssh/id_ed25519.pub
 
-Iru al [github.com/settings/ssh](https://github.com/settings/ssh), tiam je **Add SSH key** aŭ je
-**New SSH key** klaku:
+Iru al [github.com/settings/ssh](https://github.com/settings/ssh), tiam alklaku **Add SSH key** aŭ
+**New SSH key**:
 
 ![Add SSH key](/bil/sekursxelan-sxlosilon-aldonu.png)
 
-La ŝlosilon algluu, tiam tradaŭru.
+Algluu la ŝlosilon, tiam tradaŭru.
 
 
-### <a name="deponejonkrei"></a>La deponejon krei
+### <a name="deponejonkrei">Krei la deponejon</a>
 
-En la paĝo de la deponejoj, novan deponejon krei per je **New** klaki:
+En la paĝo de la deponejoj, krei novan deponejon per klaki **New**:
 
 ![New](/bil/nova-deponejo.png)
 
-Daŭru per la invitoj. Kiam la postulatajn kampojn oni jam plenigis, signovicojn de komandojn oni
-akiros. Je `vakelo` kaj je `foobar` anstataŭigu per la GitHub-uzantnomo kaj la nomo de la
-deponejo, respektive.
+Daŭru per la invitoj. Kiam oni jam plenigis la postulatajn kampojn, akiros signovicojn de komandojn
+oni. Anstataŭigu `vakelo` kaj `foobar` per la GitHub-uzantnomo kaj la nomo de la deponejo,
+respektive.
 
     $ git remote add origin git@github.com:vakelo/foobar.git
     $ git push -u origin master
 
-Oni invitiĝos por la pasfrazon provi kiun oni eniris supre. La enhavon de la deponejo al la fora
-deponejo la `git push` komando alŝutas.
+Oni invitiĝos por provi la pasfrazon kiun oni eniris supre. La `git push` komando alŝutos la enhavon
+de la deponejo al la fora deponejo.
 
 
-### <a name="deponejongxisdatigi"></a>La deponejon ĝisdatigi
+### <a name="deponejongxisdatigi">La deponejon ĝisdatigi</a>
 
-Kiam plian ŝanĝon oni faris al la deponejo, la ŝanĝojn oni povas puŝi per la jena komando:
+Kiam oni faris plian ŝanĝon al la deponejo, oni povas puŝi la ŝanĝojn per la jena komando:
 
     $ git push origin master
 
 
-### <a name="partopreni"></a>Partopreni
+### <a name="partopreni">Partopreni</a>
 
-Se oni volas kontribui al projekto, kopion de tiu dosiero oni devas surlabori, tiam la ŝanĝojn oni
-puŝas al la propra forko:
+Se oni volas kontribui al projekto, oni devas surlabori kopion de tiu dosiero, tiam oni puŝas la
+ŝanĝojn al la propra forko:
 
-Unue, la projekton forku. Iru al la projekto, kiun oni volas forki, tiam je **Fork** klaku:
+Unue, forku la projekton. Iru al la projekto, kiun oni volas forki, tiam alklaku **Fork**:
 
 ![Fork](/bil/forku.png)
 
-Kopion de la deponejo ĉi tio kreas en la propra GitHub-konto.
+Ĉi tio kreas Kopion de la deponejo en la propra GitHub-konto.
 
-Sekve, tiun forkon oni devas kloni al la loka disko. La adreson lokitas en la **SSH clone URL**-kampo kopiu:
+Sekve, oni devas kloni tiun forkon al la loka disko. Kopiu la adreson kiu estas lokita en la **SSH
+clone URL**-kampo:
 
 ![SSH clone URL](/bil/klonadreso-de-ssh.png)
 
-Tiam la jenan komandon plenumu, en kiu, `memeho` estas via uzantnomo:
+Tiam plenumu la jenan komandon, en kiu, `memeho` estas la uzantnomo:
 
     $ git clone git@github.com:memeho/foobar.git
 
-Sekve, je *remote* kiu nomiĝas *upstream* kreu kiun la ŝanĝojn el la fonta
-deponejo spuras:
+Sekve, kreu *remote* kiu nomiĝas *upstream* kiu spuras la ŝanĝojn de la fonta deponejo:
 
     $ git remote add upstream git@github.com:vakelo/foobar.git
 
-Kiam ŝanĝojn al la kodo oni volas fari, apartan branĉon kreu. Branĉan nomon kiu priskribas de
-la ŝanĝojn kiujn oni volas fari kreu. La nomo povas esti ŝanĝita poste. En ĉi tiu ekzemplo, branĉon
-nomiĝas `novopcioj` ni kreos:
+Kiam oni volas fari ŝanĝojn al la kodo, kreu apartan branĉon. Kreu branĉan nomon kiu priskribas
+la ŝanĝojn kiujn oni volas fari. La nomo povas esti ŝanĝita poste. En ĉi tiu ekzemplo, ni kreos branĉon
+nomita `novopcioj`:
 
     $ git checkout -b novopcioj
 
-Nun ŝanĝojn al la dosieroj en ĉi tiu branĉo oni povas fari. Kiam la ŝanĝojn oni jam enmetis, la
-ŝanĝojn puŝu al via forko:
+Nun oni povas fari ŝanĝojn al la dosieroj en ĉi tiu branĉo. Kiam oni jam enmetis la ŝanĝojn, puŝu la
+ŝanĝojn al via forko:
 
     $ git push origin novopcioj
 
-Se oni volas, ke la ŝanĝojn la fonta deponejo kunfandas, je _Pull Request_ kreu per iri al la paĝo
-de la fonta deponejo, tiam je **Pull requests** klaku:
+Se oni volas, ke la fonta deponejo kunfandu la ŝanĝojn , kreu _Pull Request_ per iri al la paĝo de
+la fonta deponejo, tiam alklaku **Pull requests**:
 
 ![Pull Requests](/bil/tirpetoj.png)
 
-En la sekva paĝo, je **New pull request** klaku:
+En la sekva paĝo, alklaku **New pull request**:
 
 ![New Pull Request](/bil/nova-tirpeto.png)
 
-Je **compare across forks** elektu:
+Elektu **compare across forks**:
 
 ![Compare Across Forks](/bil/komparu-trans-forkoj.png)
 
-Maldekstre, sub la **base fork**-kampo, je **vakelo/foobar** elektu, kaj en la **base**-kampo,
-je **master** elektu.
+Maldekstre, sub la **base fork**-kampo, elektu **vakelo/foobar**, kaj en la **base**-kampo,
+elektu **master**.
 
-Dekstre, sub la **head fork**-kampo, je **memeho/foobar** elektu, kaj en la **compare**-kampo,
-je **novopcioj** elektu.
+Dekstre, sub la **head fork**-kampo, elektu **memeho/foobar**, kaj en la **compare**-kampo,
+elektu **novopcioj**.
 
-Tiam, je **Create pull request** klaku:
+Tiam, alklaku **Create pull request**:
 
 ![Create pull request](/bil/tirpeton-kreu.png)
 
 Tiam, tradaŭru.
 
 
-### <a name="sinkronigi"></a>Sinkronigi kun *upstream*
+### <a name="sinkronigi">Sinkronigi kun *upstream*</a>
 
-Por la *upstream*-branĉon sinkronigi kun la loka deponejo, la ŝanĝojn el *upstream* tiru:
+Por sinkronigi la *upstream*-branĉon kun la loka deponejo, tiru la ŝanĝojn el *upstream*:
 
     $ git pull upstream master
 
@@ -238,32 +239,32 @@ Tiam puŝu al via deponejo:
     $ git push origin master
 
 
-<a name="tiri"></a>Ŝanĝojn tiru
+<a name="tiri">Tiru ŝanĝojn</a>
 -------------------------------
 
-Se oni estas la proprulo de la fonta deponejo, kaj la ŝanĝojn el la kontribuantoj oni volas tiri, je
-**Pull requests** en la paĝo de la deponejo klaku:
+Se oni estas la proprulo de la fonta deponejo, kaj oni volas tiri la ŝanĝojn el la kontribuantoj,
+klaku **Pull requests** en la paĝo de la deponejo:
 
 ![Pull requests](/bil/tirpetoj.png)
 
 tiam, tradaŭru.
 
 
-<a name="kunfandi"></a>Kunfandi kun *upstream*
+<a name="kunfandi">Kunfandi kun *upstream*</a>
 ----------------------------------------------
 
-Se oni estas la kontribuanto, kaj la ŝanĝojn jam estis tiritaj en la fonta deponejo, la
-*upstream*-branĉon sinkronigi:
+Se oni estas la kontribuanto, kaj la ŝanĝoj jam estis tiritaj de la fonta deponejo, sinkronigu la
+*upstream*-branĉon:
 
     $ git pull upstream master
 
-En ĉi tiu punkto, la `novopcioj`-branĉon kiu oni kreis antaŭe, oni nun povas forviŝi.
+En ĉi tiu punkto, oni nun povas forviŝi la `novopcioj`-branĉon, kiun oni kreis antaŭe:
 
     $ git branch -d novopcioj
     $ git push origin -d novopcioj
 
 
-<a name="finrimarkoj"></a>Finrimarkoj
+<a name="finrimarkoj">Finrimarkoj</a>
 -------------------------------------
 
 La laborfluo priskribita en ĉi tiu dokumento nur estas unu el la uzeblaj laborfluoj kiujn oni povas
