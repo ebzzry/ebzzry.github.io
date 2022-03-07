@@ -72,7 +72,7 @@ distribution for two hands.
 
 One of my favorite changes is the new location of the <kbd>[</kbd> and <kbd>]</kbd> keys. I also
 like the new location of the <kbd>Esc</kbd> key—this allows me to easily hit the Esc key when using
-vi, or closing application prompts.
+[vi](http://ex-vi.sourceforge.net), or closing application prompts.
 
 I used <kbd>Insert</kbd> in lieu of <kbd>Esc</kbd>, so that I can easily access the `XA_PRIMARY`
 selection using <kbd>Shift + Insert</kbd>. The `XA_PRIMARY` selection is where your mouse highlights
