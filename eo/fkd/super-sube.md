@@ -2,7 +2,7 @@ Super, Sube, kaj Aliloke
 ========================
 
 <div class="center">Esperanto ▪ [English](/en/over-under/)</div>
-<div class="center">Laste ĝisdatigita: la 19-an de Februaro 2022</div>
+<div class="center">Laste ĝisdatigita: la 7-an de Marto 2022</div>
 
 >La nuraj limoj kiujn havas oni, estas la limoj kiujn kredas oni.<br>
 >―Wayne DYER
@@ -55,5 +55,3 @@ scias la respondon, oni devas diri ke oni ne scias la respondon, anstataŭ fari 
 sen iu por kapti la manojn.
 
 Ofte, ni malatentas ke ĉiom da iloj kiujn ni bezonas, estas ĉeestantaj kun ni.
-
-_Dank’ al [Raymund MARTINEZ](https://zhaqenl.github.io) pro la korektoj._

@@ -2,7 +2,7 @@ Sinkronigi Retnodojn per Usync
 ==============================
 
 <div class="center">Esperanto ▪ [English](/en/usync/)</div>
-<div class="center">Laste ĝisdatigita: la 19-an de Februaro 2022</div>
+<div class="center">Laste ĝisdatigita: la 7-an de Marto 2022</div>
 
 >Kion mi ne povas krei, mi ne komprenas.<br>
 >―Richard P. FEYNMAN
@@ -89,5 +89,3 @@ Por vidi pli da informo, plenumu:
 Kelkaj dosieroj kaj regulesprimoj estas enkonstruitaj kiel eksigoj. Eble ili senchavas aŭ ne. Se oni
 opinias, ke ili devas esti ŝanĝitaj, estu libere por sendi tirpeton. La fontoj haveblas [ĉi
 tie](https://github.com/ebzzry/usync).
-
-_Dank’ al [Raymund MARTINEZ](https://zhaqenl.github.io) pro la korektoj._

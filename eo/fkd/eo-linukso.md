@@ -2,7 +2,7 @@ Esperanto-signoj en Linukso
 ===========================
 
 <div class="center">Esperanto ▪ [English](/en/eo-linux/)</div>
-<div class="center">Laste ĝisdatigita: la 23-an de Aŭgusto 2021</div>
+<div class="center">Laste ĝisdatigita: la 7-an de Marto 2022</div>
 
 >Se ion oni volas, kion oni neniam havis, oni devas esti servopreta tion fari, kion oni neniam
 >faris.<br>
@@ -176,5 +176,3 @@ vindozklavoj jam uzatas por iu ajn, aŭ nur unu kromaĵan klavon oni povas uzi, 
 gravas por noti, ke ambaŭ metodojn oni povas uzi samtempe.
 
 🐧—Ĝis la revido!
-
-_Dank’ al [Raymund MARTINEZ](https://zhaqenl.github.io) pro la korektoj._

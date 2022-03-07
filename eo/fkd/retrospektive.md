@@ -2,7 +2,7 @@ Retrospektive
 =============
 
 <div class="center">Esperanto ▪ [English](/en/retrospect/)</div>
-<div class="center">Laste ĝisdatigita: la 19-an de Februaro 2022</div>
+<div class="center">Laste ĝisdatigita: la 7-an de Marto 2022</div>
 
 >Malfacileco estas tio, kio vekas la geniulon.<br>
 >―Nassim Nicholas TALEB
@@ -66,5 +66,3 @@ Armiĝis per pli da scio, mi nun pli avidas alfronti ian defion, eĉ tio signifa
 iri rekte al mi, ĉar mi igas ilin sperti mil mortojn. Ĉiufoje mi falas, mi stariĝos denove por
 daŭrigi la batalon. Mi ege frapos pli ol la lasta frapo, tiel longe kiel sango kuras tra mia korpo,
 tiel longe kiel sentas mi la palpeblan aeron de mia spiro.
-
-_Dank’ al [Raymund MARTINEZ](https://zhaqenl.github.io) pro la korektoj._

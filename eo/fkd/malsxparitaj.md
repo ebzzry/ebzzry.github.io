@@ -2,7 +2,7 @@ Malŝparitaj Malcedemoj
 ======================
 
 <div class="center">Esperanto ▪ [English](/en/squandered/)</div>
-<div class="center">Laste ĝisdatigita: la 19-an de Februaro 2022</div>
+<div class="center">Laste ĝisdatigita: la 7-an de Marto 2022</div>
 
 >La unua paŝo por iri ien estas decidi, ke oni ne restos kie oni estas.<br>
 >―J.P. MORGAN
@@ -86,5 +86,3 @@ Kiam ni propravole alfiksas la pezajn ĉenojn kaj ŝtalpilkojn al niaj kruroj, n
 esti kapabla kuri ĉirkaŭi la stadion facile. Kiam ni kuraĝas esplori nekartografitajn teritoriojn,
 sen bedaŭroj, sen disreviĝoj, sen la neceseco por havi alian ŝipon por irigi nin antaŭe, ni iutempe
 venkos.
-
-_Dank’ al [Raymund MARTINEZ](https://zhaqenl.github.io) pro la korektoj._
