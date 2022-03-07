@@ -15,7 +15,7 @@ Skriptado en Komunlispo
 
 - [Enkonduko](#enkonduko)
 - [Antaŭkondiĉoj](#antauxkondicxoj)
-- [Bazaj](#bazaj)
+- [Bazaferoj](#bazaferoj)
   + [Dosierindikoj](#dosierindikoj)
   + [Difinoj](#difinoj)
   + [Kunmetado](#kunmetado)
@@ -85,8 +85,8 @@ Per Nixpkgs:
     $ nix-env -i cl-launch
 
 
-<a name="bazaj"></a>Bazaj
--------------------------
+<a name="bazaferoj">Bazaferoj</a>
+---------------------------------
 
 
 ### <a name="dosierindikoj"></a>Dosierindikoj

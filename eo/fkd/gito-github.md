@@ -19,7 +19,7 @@ redaktilon [*nano*](https://www.nano-editor.org/) . Tamen, kion ajn redaktilon o
 <a name="et">Enhavotabelo</a>
 -----------------------------
 
-- [Bazaj](#bazaj)
+- [Bazaferoj](#bazaferoj)
   + [Komenca uzo](#komenco)
   + [Sekvontaj uzadoj](#sekvontaj)
 - [Labori enrete](#enrete)
@@ -33,8 +33,8 @@ redaktilon [*nano*](https://www.nano-editor.org/) . Tamen, kion ajn redaktilon o
 - [Finrimarkoj](#finrimarkoj)
 
 
-<a name="bazaj">Bazaj</a>
--------------------------
+<a name="bazaferoj">Bazaferoj</a>
+---------------------------------
 
 ### <a name="komenco">Komenca uzo</a>
 
@@ -61,32 +61,32 @@ Oni nun povas pravalorizi la gitan deponejon:
 
     $ git init
 
-Komence, aldonu ĉiom da dosieroj en aktuala dosierujo:
+Komence, aldonu ĉiom da dosieroj en la aktuala dosierujo:
 
     $ git add .
 
-Tiam, la enmetu ŝanĝojn:
+Tiam, la ŝanĝojn enmetu:
 
-    $ git commit -m "Novdeponejon pravalorizu"
+    $ git commit -m "Pravalorizu novdeponejon"
 
 
-### <a name="sekvontaj"></a>Sekvontaj uzadoj
+### <a name="sekvontaj">Sekvontaj uzadoj</a>
 
-La bazajn komandojn kiuj oni uzos kiam deponejon oni jam havas ĉi tiu sekcio priskribas.
+Ĉi tiu sekcio priskribas la bazajn komandojn kiuj oni uzos kiam oni jam havas deponejon.
 
-Branĉon kiu la ŝanĝojn tenas kreu:
+Kreu branĉon kiu tenas la ŝanĝojn:
 
     $ git checkout -b eksperimentaj
 
-Se dosieron oni volas aldoni al la deponejo:
+Se oni volas aldoni dosieron al la deponejo:
 
     $ git add Blah.java
 
-Kiam ŝanĝojn al la dosieroj oni faris, ilin scenigu:
+Kiam oni faris ŝanĝojn al la dosieroj, scenigu ilin:
 
     $ git add -u
 
-Por montri la ŝanĝojn kiuj oni scenigis:
+Por montri la ŝanĝojn kiujn oni scenigis:
 
     $ git diff
 
@@ -160,7 +160,7 @@ Oni invitiĝos por provi la pasfrazon kiun oni eniris supre. La `git push` koman
 de la deponejo al la fora deponejo.
 
 
-### <a name="deponejongxisdatigi">La deponejon ĝisdatigi</a>
+### <a name="deponejongxisdatigi">Ĝisdatigi la deponejon</a>
 
 Kiam oni faris plian ŝanĝon al la deponejo, oni povas puŝi la ŝanĝojn per la jena komando:
 
