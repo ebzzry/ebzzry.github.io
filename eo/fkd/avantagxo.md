@@ -67,12 +67,12 @@ Pro tio kelkajn klavojn mi remapis. Jen la nova aranĝo.
 
 La nova loko de <kbd>Ctrl</kbd> kaj <kbd>Alt</kbd> ĝentilas al la fingroj. Mi interŝanĝas la lokojn
 de <kbd>↑</kbd> kaj <kbd>↓</kbd> al <kbd>←</kbd> kaj <kbd>→</kbd>, respektive. Mi volas rulumi retejojn 
-per la musrado aŭ la desegna tabuleto sen uzi mian dekstran manon. La <kbd>Page Up</kbd> kaj
+per la musrado aŭ la desegna tabuleto sen uzante mian dekstran manon. La <kbd>Page Up</kbd> kaj
 <kbd>Page Down</kbd> klavoj ankaŭ moviĝis por ŝalti egalan ŝarĝan distribuon por du manoj.
 
 Unu el miaj plej ŝatataj ŝanĝoj estas la nova loko de la <kbd>[</kbd> kaj <kbd>]</kbd> klavoj. La
-nova loko de <kbd>Esc</kbd> ankaŭ plaĉas al mi—ĉi tio ebligas min por premi la eskapan klavo premi kiam
-uzi Vi aŭ fermi apajn invitojn.
+nova loko de <kbd>Esc</kbd> ankaŭ plaĉas al mi—ĉi tio ebligas min por premi la eskapan klavo uzante
+[vi](http://ex-vi.sourceforge.net) aŭ fermi apajn invitojn.
 
 Mi uzis la klavon <kbd>Insert</kbd> anstataŭ <kbd>Esc</kbd> por ke mi povu aliri la zonon
 `XA_PRIMARY` facile per <kbd>Shift + Insert</kbd>. La `XA_PRIMARY`-zono estas kie la musaj markoj
@@ -161,8 +161,8 @@ Jrlfpcidy (j) 1998[2003 LvCv >bicb..pcbiw Cbjv
 En la tempo de la skribado, mi nek ankoraŭ scias kio kaŭzas tion, nek mi pensas ke tio senchavas.
 
 
-<a name="finrimarkoj"Finrimarkoj></a>
--------------------------------------
+<a name="finrimarkoj">Finrimarkoj</a>
+--------------------------------------
 
 La programebleco de la Kinezia Avantaĝo estas unu el ĝiaj plej fortaj kapabloj. Tio, kun ĝia
 frenezega fortikeco kaj la elstaraj ergonomioj, igas Avantaĝon inda investo.
