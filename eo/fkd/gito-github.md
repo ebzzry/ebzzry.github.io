@@ -267,6 +267,6 @@ En ĉi tiu punkto, oni nun povas forviŝi la `novopcioj`-branĉon, kiun oni krei
 <a name="finrimarkoj">Finrimarkoj</a>
 -------------------------------------
 
-La laborfluo priskribita en ĉi tiu dokumento nur estas unu el la uzeblaj laborfluoj kiujn oni povas
+La laborfluo priskribita en ĉi tiu dokumento estas nur unu el la uzeblaj laborfluoj kiujn oni povas
 uzi. Ĉi tiu dokumento funkcias kiel enkonduko al la uzantoj kiuj estas komencantoj al Gito kaj
 GitHub.
