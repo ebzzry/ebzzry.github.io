@@ -2,7 +2,7 @@ My Kinesis Advantage Layout
 ===========================
 
 <div class="center">[Esperanto](/eo/avantagxo/) ▪ English</div>
-<div class="center">Last updated: June 1, 2019</div>
+<div class="center">Last updated: March 7, 2022</div>
 
 >Pain is inevitable. Suffering is optional.<br>
 >―M. Kathleen Casey
@@ -164,7 +164,7 @@ At the time of writing, I still don’t know what causes this, nor do I think it
 The programmability of the Kinesis Advantage is one of its strongest feature. That, along with its
 crazy-ass durability and the award-winning ergonomics makes the Advantage a worthwhile investment.
 
-The latest model—[Advantage2](https://www.kinesis-ergo.com/shop/advantage2/)—has more features than
-the one that I have. The function keys of this model are now also mechanical. So, if you have the
-budget, go get it! Visit the [homepage](https://www.kinesis-ergo.com/) of Kinesis for more
-information.
+The latest models—[Advantage2](https://www.kinesis-ergo.com/shop/advantage2/) and
+[Advantage360](https://kinesis-ergo.com/keyboards/advantage360/)—have more features than the one
+that I have. The function keys of these models are now also mechanical. So, if you have the budget,
+go get them! Visit the [homepage](https://www.kinesis-ergo.com/) of Kinesis for more information.
