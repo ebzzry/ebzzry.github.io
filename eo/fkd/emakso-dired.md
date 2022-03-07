@@ -2,7 +2,7 @@ Manipuli Dosierujojn en Emakso
 ==============================
 
 <div class="center">Esperanto ▪ [English](/en/emacs-dired/)</div>
-<div class="center">Laste ĝisdatigita: la 20-an de Februaro 2022</div>
+<div class="center">Laste ĝisdatigita: la 7-an de Marto 2022</div>
 
 >Supozi bonas, tamen eltrovi pli bonas.<br>
 >―Samuel CLEMENS
@@ -123,5 +123,3 @@ konservi la ŝanĝojn, premu <kbd>C-c C-c</kbd>.
 
 Ni nur tuŝis la pinton de la glacimonto. Liberiĝu esplori. Por vidi pli da informo, vizitu la
 Dired-manlibron [ĉi tie](https://www.gnu.org/software/emacs/manual/html_node/emacs/Dired.html).
-
-_Dank’ al [Raymund MARTINEZ](https://zhaqenl.github.io) pro la korektoj._

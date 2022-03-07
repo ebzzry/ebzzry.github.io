@@ -2,14 +2,14 @@ A Brief Git and GitHub Tour
 ===========================
 
 <div class="center">[Esperanto](/eo/gito-github/) ▪ English</div>
-<div class="center">Last updated: September 23, 2018</div>
+<div class="center">Last updated: March 7, 2022</div>
 
 >Know how to solve every problem that has been solved.<br>
 >―Richard P. Feynman
 
 This short tutorial shows how to use [git](https://git-scm.com/) with a [GitHub](https://github.com)
-workflow. A quick Google of *git workflows* shows plenty of diverse results. This article describes
-just one of the ways of using git with a git-hosting service like GitHub.
+workflow. A quick web search  of *git workflows* shows plenty of diverse results. This article describes
+just one of the possible ways of using git with a git-hosting service like GitHub.
 
 In this article, the `$` symbol represents the prompt. For demonstration purposes, we’ll use
 [nano](https://www.nano-editor.org/) as the text editor. However, you’re free to use whatever editor

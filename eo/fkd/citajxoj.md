@@ -2,7 +2,7 @@ Citaĵoj
 =======
 
 <div class="center">Esperanto ▪ [English](/en/quotes/)</div>
-<div class="center">Laste ĝisdatigita: la 4-an de Marto, 2022</div>
+<div class="center">Laste ĝisdatigita: la 7-an de Marto 2022</div>
 
 <img src="/bil/wallhaven-77816-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -106,7 +106,7 @@ tiu paĝo enhavas.
 - Kion mi ne povas krei, mi ne komprenas.<br>―Richard P. FEYNMAN
 
 
-- Ĉiujn problemon kiuj estis solvitaj sciu kiel solvi.<br>―Richard P. FEYNMAN
+- Sciu kiel solvi ĉiujn solvitajn problemon.<br>―Richard P. FEYNMAN
 
 
 - La intelekta nivelo bezonata por sistema desegno ĝenerale subtaksiĝatas. Mi konvikiĝis pli ol iam
@@ -527,10 +527,6 @@ tiu paĝo enhavas.
 
 
 - La efektiva mondo ne estas efektiva finfine.<br>―Lain IWAKURA, Serial Experiments Lain
-
-
-- Ne plu estas pri ‹Ĉu mi povas fari tion,› estas nun pri ‹Ĉu mi devas fari tion›?<br>―Raymund
-  MARTINEZ
 
 
 - Nur havas substancon homoj ene la memoroj de aliaj.<br>―Lain IWAKURA, Serial Experiments Lain

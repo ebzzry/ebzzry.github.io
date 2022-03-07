@@ -2,7 +2,7 @@ La Ipsilonkombinatoro per Ses Paŝoj
 ===================================
 
 <div class="center">Esperanto ▪ [English](/en/y/)</div>
-<div class="center">Laste ĝisdatigita: la 19-an de Februaro 2022</div>
+<div class="center">Laste ĝisdatigita: la 7-an de Marto 2022</div>
 
 >Unue, decidu. Kaj faru ĝin. Estas la nura maniero por atingi ion.<br>
 >―Lacus CLYNE, Gundam SEED Destiny
@@ -190,5 +190,3 @@ proceduro `foo`.
 Kiam la kernaj konceptoj estas komprenataj, estos facile por kapti la ŝajne malfacilegajn
 konceptojn. Mi esperas, ke ĉi tiu artikolo estas utila por igi onin kompreni la ipsilonan
 kombinatoron, funkcivokarigadon, kaj proceduran aplikon.
-
-_Dank’ al [Raymund MARTINEZ](https://zhaqenl.github.io) pro la korektoj._

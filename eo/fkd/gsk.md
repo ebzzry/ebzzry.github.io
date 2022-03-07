@@ -2,7 +2,7 @@ Agordi GPG kaj SSH en KDE
 =========================
 
 <div class="center">Esperanto ▪ [English](/en/gsk/)</div>
-<div class="center">Laste ĝisdatigita: la 27-an de Februaro 2022</div>
+<div class="center">Laste ĝisdatigita: la 7-an de Marto 2022</div>
     
 >Ne tute estas grave por prave atingi tion en la unua fojo. Estas vitale grava atingi tion en la
 >lasta tempo.<br>
@@ -168,5 +168,3 @@ Okazos samspeca agmaniero se oni ĉifras dosieron GPG-e:
 
 La parolitaj paŝoj supre estis intencitaj por esti mallongaj sen priparoli la malsimplajn detalojn.
 Mi esperas ke oni trovis ĉi tiun utila.
-
-_Dank’ al [Raymund MARTINEZ](https://zhaqenl.github.io) pro la korektoj._

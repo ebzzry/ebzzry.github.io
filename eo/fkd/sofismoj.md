@@ -2,7 +2,7 @@ Milda Enkonduko al Sofismoj
 ===========================
 
 <div class="center">Esperanto ▪ [English](/en/fallacies/)</div>
-<div class="center">Laste ĝisdatigita: la 31-an de Aŭgusto 2021</div>
+<div class="center">Laste ĝisdatigita: la 7-an de Marto 2022</div>
 
 >Lerni ne necesas; nek travivas.<br>
 >―W. Edwards DEMING
@@ -564,5 +564,3 @@ malvalidigas. Ĉi tio rilatas al apelo al devenoj.
 -------------------------------------
 
 Mi esperas, ke per ĉi tiu afiŝo, plian pensadan klarecon mi povis doni.
-
-_Dank’ al [Raymund MARTINEZ](https://zhaqenl.github.io) pro la korektoj._

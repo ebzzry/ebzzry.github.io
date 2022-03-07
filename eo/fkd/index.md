@@ -30,7 +30,7 @@ enskriboj estas ordigitaj laŭ inverskronologiordo.</div>
 - [Verbotempoj en La Angla (Mallongigite)](verbotempoj-la-angla-mallongigite/)
 - [Verbotempoj en La Angla](verbotempoj-la-angla/)
 - [Mia Kinezia Avantaĝa Aranĝo](avantagxo/)
-- [Maldaŭra Rondvojaĝo de Gito kaj GitHub](gito-github/)
+- [Lakona Rondvojaĝo de Gito kaj GitHub](gito-github/)
 - [Emakso kaj Paroj](emakso-paroj/)
 - [Virtualigado en Linukso per KVM](kvm/)
 - [Aboco de la Lambdokalkulo](lambdokalkulo/)
