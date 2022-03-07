@@ -4,19 +4,20 @@ Verbotempoj en La Angla
 <div class="center">Esperanto ▪ [English](/en/verb-tenses/)</div>
 <div class="center">Laste ĝisdatigita: la 1-an de Decembro 2019</div>
 
->La kontrasto inter ordinara kaj eksterordinara estas tiu eta pliaĵo.<br>
+>La kontrasto inter la ordinara kaj la eksterordinara estas tiu eta pliaĵo.<br>
 >―Jimmy JOHNSON
 
-*[Ĉi tien](/eo/verbotempoj-la-angla-mallongigite/) klaku por la mallongigita versio.*
+*Alklaku [ĉi tien](/eo/verbotempoj-la-angla-mallongigite/) por la mallongigita versio.*
 
-Por la Anglan legi, skribi, kaj paroli pli bone, la kvalitojn kaj distingaĵojn inter la diversaj
-verbotempoj oni devas lerni. Ilin scii kiel kaj kiam uzi, onin ebligas por ne nur la Anglan havi pli bonan aprezon, sed de lingvojn ĝenerale.
+Por legi, skribi, kaj paroli la anglan pli bone, oni devas lerni la kvalitojn kaj distingaĵojn inter
+la diversaj verbotempoj. Scii kiel kaj kiam uzi ilin, ebligas onin por ne nur havi pli
+bonan aprezon de la angla, sed de lingvoj ĝenerale.
 
 
-<a name="et"></a>Enhavotabelo
+<a name="et">Enhavotabelo</a>
 -----------------------------
 
-- [Simple](#simple)
+- [Simpla](#simpla)
   - [Simpla futuro](#simplafuturo)
   - [Simpla prezenco](#simplaprezenco)
   - [Simpla preterito](#simplapreterito)
@@ -24,7 +25,7 @@ verbotempoj oni devas lerni. Ilin scii kiel kaj kiam uzi, onin ebligas por ne nu
   - [Perfekta futuro](#perfektafuturo)
   - [Perfekta prezenco](#perfektaprezenco)
   - [Perfekta preterito](#perfektapreterito)
-- [Progresive](#progresive)
+- [Progresiva](#progresiva)
   - [Progresiva futuro](#progresivafuturo)
   - [Progresiva prezenco](#progresivaprezenco)
   - [Progresiva preterito](#progresivapreterito)
@@ -35,10 +36,10 @@ verbotempoj oni devas lerni. Ilin scii kiel kaj kiam uzi, onin ebligas por ne nu
 - [Finrimarkoj](#finrimarkoj)
 
 
-<a name="simple"></a>Simple
+<a name="simpla">Simpla</a>
 ---------------------------
 
-### <a name="simplafuturo"></a>Simpla futuro
+### <a name="simplafuturo">Simpla futuro</a>
 
 Agon kiu okazos future la simpla futura verbotempo montras.
 
@@ -65,7 +66,7 @@ Agon kiu komenciĝis kaj finiĝis en la preterito la simpla estintenca verbotemp
 *Maria kreis petraĵon en la preterito, kaj ŝi jam finis ĝin en la preterito.*
 
 
-<a name="perfekte"></a>Perfekte
+<a name="perfekta">Perfekta</a>
 -------------------------------
 
 ### <a name="perfektafuturo"></a>Perfekta futuro
@@ -98,7 +99,7 @@ montras. La konsileto ĉi tie estas la ĉeestoj de du agoj kiuj okazis en la pre
 *Antaŭ ol Juan alvenis, Maria kreis pentraĵon.*
 
 
-<a name="progresive"></a>Progresive
+<a name="progresiva">Progresiva</a>
 -----------------------------------
 
 

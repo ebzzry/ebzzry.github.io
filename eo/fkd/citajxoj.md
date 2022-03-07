@@ -245,7 +245,7 @@ tiu paĝo enhavas.
 - Kredu kaj agu kvazaŭ estis neeblaj por malsukcesi.<br>―Charles KETTERING
 
 
-- La kontrasto inter ordinara kaj eksterordinara estas tiu eta pliaĵo.<br>―Jimmy JOHNSON
+- La kontrasto inter la ordinara kaj la eksterordinara estas tiu eta pliaĵo.<br>―Jimmy JOHNSON
 
 
 - Kiam oni falegis antaŭe kaj oni postviviĝis, estas tre malmultaj aferoj en la vivo kiuj povas
