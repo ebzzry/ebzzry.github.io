@@ -21,14 +21,13 @@ margin-right: auto;" alt="Kinezia Avantaĝo" title="Kinezia Avantaĝo"/>
 - [Finrimarkoj](#finrimarkoj)
 
 
-<a name="superrigardo"></a>Superrigardo
+<a name="superrigardo">Superrigardo</a>
 ---------------------------------------
 
-Unu el la plej bonaj investoj programisto povas havi estas bona klavaro. Kio
-bona klavaro konstituis, bedaŭrinde, fojfoje povas esti subjekto de
-debatoj. Komuna ero kiu daŭras en plejmulto da listoj, estas, klavaro devas esti
-ergonomia. Gravan kvaliton mi donos al tiuj listoj—rapideco. Ne gravas kiel
-ergonomie klavaro estas, se la rapidecan kategorion ĝi faligas. Ĝi devas esti
+Unu el la plej bonaj investoj kiun programisto povas havi estas bona klavaro. Kio konstituas bonan
+klavaron , bedaŭrinde, fojfoje povas esti subjekto de debatoj. Komuna ero kiu daŭras en plejmulto da
+listoj, estas, ke klavaro devas esti ergonomia. Mi aldonos gravan kvaliton al tiuj listoj —rapideco.
+Ne gravas kiel ergonomie estas klavaro, se ĝi faligas la rapidecan kategorion. Ĝi devas esti
 komforta kaj rapida.
 
 La
@@ -38,7 +37,7 @@ rutinhava maŝinskribisto, oni povas trovi, ke post mallonga adaptiĝa tempodaŭ
 oni eĉ maŝinskribas pli rapide per la Avantaĝo.
 
 Bedaŭrinde, la implicita aranĝo de la klavoj ne konvenas por mi. La <kbd>Ctrl</kbd> kaj la
-<kbd>Alt</kbd> klavoj estas tre foraj por atingi. Ĉi tio gravas por uzantoj de programaro kiel
+<kbd>Alt</kbd> klavoj estas tre foraj por atingi. Ĉi tio gravas por uzantoj de programaroj kiel
 Emakso kaj Ziŝo.
 
 

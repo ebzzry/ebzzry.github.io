@@ -20,7 +20,7 @@ malforta provo por atingi tiun celon.
 
 - [Superrigardo](#superrigardo)
 - [Instalo](#instalo)
-- [Bazaj aferoj](#bazaj)
+- [Bazaferoj](#bazaferoj)
 - [Komentoj](#komentoj)
 - [Ĝisdatigo](#gxisdatigo)
 - [Finrimarkoj](#finrimarkoj)
@@ -64,8 +64,8 @@ La vostaj suprenstrekoj gravas, diri al `raco`, ke oni instalos el lokaj dosieru
 elŝutos la fontojn el la interreto sen ili.
 
 
-<a name="bazaj">Bazaj aferoj</a>
---------------------------------
+<a name="bazaferoj">Bazaferoj</a>
+---------------------------------
 
 Por krei Markdown-an dosieron de la dosiero `entry.xml`
 
