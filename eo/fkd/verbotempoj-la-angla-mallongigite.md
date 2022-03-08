@@ -2,70 +2,70 @@ Verbotempoj en La Angla (Mallongigite)
 ======================================
 
 <div class="center">Esperanto ▪ [English](/en/verb-tenses-condensed/)</div>
-<div class="center">Laste ĝisdatigita: la 8-an de Aŭgusto 2018</div>
+<div class="center">Laste ĝisdatigita: la 8-an de Marto 2022</div>
 
 Ĉi tiu artikolo estas la mallongigita versio de [Verbotempoj en La Angla](/eo/verbotempoj-la-angla/).
 
 
-Simple
+Simpla
 ------
 
-### Future: *will create*
+### Futuro: *will create*
 
 - Maria __will create__ a beautiful painting.
 
-### Prezence: *creates*
+### Prezenco: *creates*
 
 - Maria __creates__ beautiful paintings.
 
-### Preterite: *created*
+### Preterito: *created*
 
 - Maria __created__ a beautiful painting.
 
 
-Perfekte
+Perfekta
 --------
 
-### Future: *will have created*
+### Futuro: *will have created*
 
 - By the time Juan arrives, Maria __will have created__ a beautiful painting.
 
-### Prezence: *have created*
+### Prezenco: *have created*
 
 - Maria __have created__ many beautiful paintings.
 
-### Preterite: *had created*
+### Preterito: *had created*
 
 - By the time Juan arrived, Maria __had created__ a beautiful painting.
 
 
-Progresive
-----------
+Kontinua
+--------
 
-### Future: *will be creating*
+### Futuro: *will be creating*
 
 - Maria __will be creating__ a beautiful painting next week.
 
-### Prezence: *is creating*
+### Prezenco: *is creating*
 
 - Maria __is creating__ a beautiful painting.
 
-### Preterite: *was creating*
+### Preterito: *was creating*
 
 - Maria __was creating__ a beautiful painting, when Juan arrived from school.
 
 
-Perfkete progresiva
--------------------
+Perfekte kontinua
+-----------------
 
-### Future: *will have been creating*
+### Futuro: *will have been creating*
 
 - Before her 16th birthday, Maria __will have been creating__ painting masterpieces.
 
-### Prezence: *has been creating*
+### Prezenco: *has been creating*
 
 - Maria __has been creating__ paintings for a long time.
 
-### Preterite: *had been creating*
+### Preterito: *had been creating*
 
 - Before Juan's arrival, Maria __had been creating__ beautiful paintings.

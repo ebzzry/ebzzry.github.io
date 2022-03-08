@@ -2,12 +2,12 @@ Verbotempoj en La Angla
 =======================
 
 <div class="center">Esperanto ▪ [English](/en/verb-tenses/)</div>
-<div class="center">Laste ĝisdatigita: la 1-an de Decembro 2019</div>
+<div class="center">Laste ĝisdatigita: la 8-an de Marto 2022</div>
 
 >La kontrasto inter la ordinara kaj la eksterordinara estas tiu eta pliaĵo.<br>
 >―Jimmy JOHNSON
 
-*Alklaku [ĉi tien](/eo/verbotempoj-la-angla-mallongigite/) por la mallongigita versio.*
+*Iru [ĉi tien](/eo/verbotempoj-la-angla-mallongigite/) por la mallongigita versio.*
 
 Por legi, skribi, kaj paroli la anglan pli bone, oni devas lerni la kvalitojn kaj distingaĵojn inter
 la diversaj verbotempoj. Scii kiel kaj kiam uzi ilin, ebligas onin por ne nur havi pli
@@ -18,48 +18,48 @@ bonan aprezon de la angla, sed de lingvoj ĝenerale.
 -----------------------------
 
 - [Simpla](#simpla)
-  - [Simpla futuro](#simplafuturo)
-  - [Simpla prezenco](#simplaprezenco)
-  - [Simpla preterito](#simplapreterito)
-- [Perfekte](#perfekte)
-  - [Perfekta futuro](#perfektafuturo)
-  - [Perfekta prezenco](#perfektaprezenco)
-  - [Perfekta preterito](#perfektapreterito)
-- [Progresiva](#progresiva)
-  - [Progresiva futuro](#progresivafuturo)
-  - [Progresiva prezenco](#progresivaprezenco)
-  - [Progresiva preterito](#progresivapreterito)
-- [Perfekte progresiva](#perfekteprogresiva)
-  + [Perfekte progresiva futuro](#perfekteprogresivafuturo)
-  + [Perfekte progresiva prezenco](#perfekteprogresivaprezenco)
-  + [Perfekte progresiva preterito](#perfekteprogresivapreterito)
+  - [Futuro simpla](#futurosimpla)
+  - [Prezenco simpla](#prezencosimpla)
+  - [Preterito simpla](#preteritosimpla)
+- [Perfekta](#perfekta)
+  - [Futuro perfekta](#futuroperfekta)
+  - [Prezenco perfekta](#prezencoperfekta)
+  - [Preterito perfekta](#preteritoperfekta)
+- [Kontinua](#kontinua)
+  - [Futuro kontinua](#futurokontinua)
+  - [Prezenco kontinua](#prezencokontinua)
+  - [Preterito kontinua](#preteritokontinua)
+- [Perfekte kontinua](#perfektekontinua)
+  + [Futuro perfekte kontinua](#futuroperfektekontinua)
+  + [Prezenco perfekte kontinua](#prezencoperfektekontinua)
+  + [Preterito perfekte kontnua](#preteritoperfektekontinua)
 - [Finrimarkoj](#finrimarkoj)
 
 
 <a name="simpla">Simpla</a>
 ---------------------------
 
-### <a name="simplafuturo">Simpla futuro</a>
+### <a name="futurasimpla">Futuro simpla</a>
 
-Agon kiu okazos future la simpla futura verbotempo montras.
+La simpla futura verbotempo montras agon kiu okazos future:
 
 > Maria __will create__ a beautiful painting.
 
 *Maria kreos belan pentraĵon en la futuro.*
 
 
-### <a name="simplaprezenco"></a>Simpla prezenco
+### <a name="prezencosimpla">Prezenco simpla</a>
 
-Agon kiu ripetas aŭ senŝanĝas la simpla prezenca verbotempo montras:
+La simpla prezenca verbotempo montras agon kiu ripetas aŭ senŝanĝiĝas:
 
 > Maria __creates__ beautiful paintings.
 
 *Maria kreas pentraĵojn, kaj ŝi ankoraŭ daŭras por tiel fari.*
 
 
-### <a name="simplapreterito"></a>Simpla preterito
+### <a name="preteritosimpla">Preterito simpla</a>
 
-Agon kiu komenciĝis kaj finiĝis en la preterito la simpla estintenca verbotempo montras:
+La simpla preterita verbotempo montras agon kiu komenciĝis kaj finiĝis en la preterito:
 
 > Maria __created__ a beautiful painting.
 
@@ -69,9 +69,9 @@ Agon kiu komenciĝis kaj finiĝis en la preterito la simpla estintenca verbotemp
 <a name="perfekta">Perfekta</a>
 -------------------------------
 
-### <a name="perfektafuturo"></a>Perfekta futuro
+### <a name="futuroperfekta">Futuro perfekta</a>
 
-Agon kiu okazos en la futuro antaŭ ol alia ago la perfekta futura verbotempo montras. Ĉi tio
+La perfekta futura verbotempo montras agon kiu okazos en la futuro antaŭ ol alia ago. Ĉi tio
 estas la inverso de preterita perfekta verbotempo.
 
 > By the time Juan arrives, Maria __will have created__ a beautiful painting.
@@ -79,94 +79,95 @@ estas la inverso de preterita perfekta verbotempo.
 *Antaŭ ol Juan alvenos, Maria jam estos kreinta pentraĵon.*
 
 
-### <a name="perfektaprezenco"></a>Perfekta prezenco
+### <a name="prezencoperfekta">Prezenco perfekta</a>
 
-Agon kiu okazis en la preterito, aŭ komencis en la preterito kaj daŭras okazi al la prezenco la
-perfekta prezenca verbotempo montras.
+La perfekta prezenca verbotempo montras agon kiu okazis en la preterito, aŭ komencis en la preterito
+kaj daŭras okazi en la prezenco.
 
 > Maria __has created__ many beautiful paintings.
 
 *Maria kreis pentraĵojn, kaj ŝi jam ĉesis, aŭ ŝi ankoraŭ pentradas nuntempe.*
 
 
-### <a name="perfektapreterito"></a>Perfekta preterito
+### <a name="preteritoperfekta">Preterito perfekta</a>
 
-Agon kiu okazis en la preterito, antaŭ ol alia preterita ago la perfekta preterita verbotempo
-montras. La konsileto ĉi tie estas la ĉeestoj de du agoj kiuj okazis en la preterito.
+La perfekta preterita verbotempo montras agon kiu okazis en la preterito, antaŭ ol alia preterita
+ago. La konsileto ĉi tie estas la ĉeestoj de du agoj kiuj okazis en la preterito.
 
 > By the time Juan arrived, Maria __had created__ a beautiful painting.
 
 *Antaŭ ol Juan alvenis, Maria kreis pentraĵon.*
 
 
-<a name="progresiva">Progresiva</a>
------------------------------------
+<a name="kontinua">Kontinua</a>
+-------------------------------
 
 
-### <a name="progresivafuturo"></a>Progresiva futuro
+### <a name="futurokontinua">Futuro kontinua</a>
 
-Daŭran agon kiu okazos en la futuro la progresiva futura verbotempo montras.
+La kontinua futura verbotempo montras daŭran agon kiu okazos en la futuro.
 
 > Maria __will be creating__ a beautiful painting next week.
 
 *Sekvan semajnon, Maria estos kreantaj pentraĵojn.*
 
 
-### <a name="progresivaprezenco"></a>Progresiva prezenco
+### <a name="prezencokontinua">Prezenco kontinua</a>
 
-Agon kiu okazas dum la tempo la sama tempo en kiu la diro estas parolanta aŭ skribanta la progresiva
-prezenca verbotempo montras.
+La kontinua prezenca verbotempo montras agon kiu okazas dum la tempo la sama tempo en kiu la diro
+estas parolanta aŭ skribanta.
 
 > Maria __is creating__ a beautiful painting.
 
 *Maria estas kreantaj pentraĵon, dum la paronlanto diris ĉi tiun diron.*
 
-### <a name="progresivapreterito"></a>Progresiva preterito
+### <a name="preteritokontinua">Preterito kontinua</a>
 
-Agon kiu okazadis en la preterito kiam alia ago okazis la progresiva preterita verbotempo montras. La konsileto ĉi tie estas ago okazadis dum alia ago okazadis.
+La kontinua preterita verbotempo montras agon kiu okazis en la preterito kiam alia ago okazis. La
+konsileto ĉi tie estas ago okazis dum alia ago okazis.
 
 > Maria __was creating__ a beautiful painting, when Juan arrived from school.
 
 *Maria jam estis kreanta pentraĵon, kiam Juan alvenis de la lernejo.*
 
 
-<a name="perfekteprogresiva"></a>Perfekte progresiva
-----------------------------------------------------
+<a name="perfektekontinua">Perfekte kontinua</a>
+------------------------------------------------
 
 
-### <a name="perfekteprogresivafuturo"></a>Perfekte progresiva futuro
+### <a name="futuroperfektekontinua">Futuro perfekte kontinua</a>
 
-Agon en la futuro kiu daŭre okazas antaŭ ol specifa futura tempo la perfekte progresiva futura
-verbotempo montras.
+La perfekte kontinua futura verbotempo montras agon en la futuro kiu daŭre okazas antaŭ ol specifa
+futura tempo.
 
 > Before her 16th birthday, Maria __will have been creating__ painting masterpieces.
 
 *Antaŭ ol la 16-a naskiĝdato de Maria, ŝi estos kreantadaj pentraĵojn.*
 
 
-### <a name="perfekteprogresivaprezenco"></a>Perfekte progresiva prezenco
+### <a name="prezencoperfektekontinua">Prezenco perfekte kontinua</a>
 
-Agon kiu komencis en la preterito kiu daŭras en la prezenco aŭ eblas daŭri en la futuro la
-perfekte progresiva prezenca verbotempo montras.
+La perfekte kontinua prezenca verbotempo montras agon kiu komencis en la preterito kiu daŭras en
+la prezenco aŭ eblas daŭri en la futuro.
 
 > Maria __has been creating__ paintings for a long time.
 
 *Maria kreadis pentraĵojn en la preterito, ankoraŭ kreas pentraĵojn, kaj eble kreos pli da pentraĵo en la futuro.*
 
 
-### <a name="perfekteprogresivapreterito"></a>Perfekte progresiva preterito
+### <a name="preteritoperfektekontinua">Preterito perfekte kontinua</a>
 
-Daŭran agon kiu komencis antaŭ ol alia preterita ago la perfekte progresiva preterita verbotempo
-montras.
+La perfekte kontinua preterita verbotempo montras daŭran agon kiu komencis antaŭ ol alia preterita
+ago.
 
 > Before Juan’s arrival, Maria __had been creating__ beautiful paintings.
 
 *Antaaŭ Juan alvenis, Maria jam estis kreantaĵ pentraĵojn.*
 
 
-<a name="finrimarkoj"></a>Finrimarkoj
+<a name="finrimarkoj">Finrimarkoj</a>
 -------------------------------------
 
-Por ke la plej minimumajn malklaraĵojn ni komuniku, ni devas esti precizaj. Kiam la pravajn
-konstruojn ni uzas, malpligrandan ĉambron de miskompreno ni kreas. Estas la malgrandaj ŝanĝoj en la
-aferoj kiujn ni faras, kiuj grandajn kontrastojn faras.
+Por ke ni komuniku la plej minimumajn malklaraĵojn, ni devas esti precizaj. Kiam ni uzas la pravajn
+konstruojn, ni kreas malpligrandan ĉambron de miskompreno. Estas la malgrandaj ŝanĝoj en la aferoj
+kiujn ni faras, kiuj kreas grandajn kontrastojn.
