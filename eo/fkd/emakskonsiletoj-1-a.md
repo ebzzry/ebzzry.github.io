@@ -1,7 +1,7 @@
 Emaksaj Konsiletoj 1-a: Regionoj kaj Markoj
 ===========================================
 
-<div class="center">Esperanto ▪ [English](/en/emacs-tips-1/)</div>
+<div class="center">Esperanto ◆ [English](/en/emacs-tips-1/)</div>
 <div class="center">Laste ĝisdatigita: la 7-an de Marto 2022</div>
 
 >La voĉon ne pligrandigu; la argumenton plibonigu.<br>

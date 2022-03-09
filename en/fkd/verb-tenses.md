@@ -1,7 +1,7 @@
 Verb Tenses in English
 ======================
 
-<div class="center">[Esperanto](/eo/verbotempoj-la-angla/) ▪ English</div>
+<div class="center">[Esperanto](/eo/verbotempoj-la-angla/) ◆ English</div>
 <div class="center">Last updated: March 8, 2022</div>
 
 >The difference between ordinary and extraordinary is that little extra.<br>

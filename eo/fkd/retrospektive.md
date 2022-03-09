@@ -1,7 +1,7 @@
 Retrospektive
 =============
 
-<div class="center">Esperanto ▪ [English](/en/retrospect/)</div>
+<div class="center">Esperanto ◆ [English](/en/retrospect/)</div>
 <div class="center">Laste ĝisdatigita: la 7-an de Marto 2022</div>
 
 >Malfacileco estas tio, kio vekas la geniulon.<br>

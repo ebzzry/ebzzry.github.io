@@ -1,7 +1,7 @@
 Reflections
 ===========
 
-<div class="center">[Esperanto](/eo/pripensoj/) ▪ English</div>
+<div class="center">[Esperanto](/eo/pripensoj/) ◆ English</div>
 <div class="center">Last updated: February 7, 2022</div>
 
 This page contains contains some of my personal reflections. Entries are sorted in chronological order.

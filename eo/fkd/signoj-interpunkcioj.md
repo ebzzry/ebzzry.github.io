@@ -1,7 +1,7 @@
 Signoj kaj Interpunkcioj
 ========================
 
-<div class="center">Esperanto ▪ [English](/en/symbols-marks/)</div>
+<div class="center">Esperanto ◆ [English](/en/symbols-marks/)</div>
 <div class="center">Laste ĝisdatigita: la 7-an de Marto 2022</div>
 
 >Se grandiozon oni volas atingi, konsentojn ĉesu peti.<br>
