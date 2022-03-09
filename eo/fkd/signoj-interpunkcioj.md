@@ -7,20 +7,20 @@ Signoj kaj Interpunkcioj
 >Se grandiozon oni volas atingi, konsentojn ĉesu peti.<br>
 >―Eddie COLLA
 
-*[Ĉi tien](/eo/signoj-interpunkcioj-mallongigite/) alklaku por la mallongigita versio.*
+*Iru [ĉi tien](/eo/signoj-interpunkcioj-mallongigite/) por la mallongigita versio.*
 
-Rondvojaĝo por kiel la ĝis-strekan (-), unuoblan citilan ('), kaj duoblan citilan (") signojn uzi
-per la klavaro, kiuj estas pli bone adaptitaj por signajn devojn fari ol iliaj malsanaj kuzoj el la
-skribmaŝina epoĥo, ĉi tiu mallonga gvidilo donas. Kaj cetere, mi ankaŭ parolos pri la anstataŭigoj
-al ofte uzataj malĝustaj signoj.
+Ĉi tiu mallonga gvidilo donas rondvojaĝon kiel uzi la ĝis-strekan (-), unuoblan citilan ('), kaj
+duoblan citilan (") signojn per la klavaro, kiuj estas pli bone adaptitaj por fari signajn devojn ol
+iliaj malsanaj kuzoj el la skribmaŝina epoĥo. Kaj cetere, mi ankaŭ parolos pri la anstataŭigoj de 
+ofte uzataj malĝustaj signoj.
 
-Ĉiu sekcio komencas pri eniga sinsekvo por Linuksa, Makintoŝa, kaj Vindoza sistemoj, respektive. La
-plusa (+) signo signifas, ke la maldekstran klavon oni premas, antaŭ la dekstran klavon. Tio estas,
-por je <kbd>⌥</kbd> + <kbd>Shift</kbd> + <kbd>-</kbd> enigi, je <kbd>⌥</kbd> premu kaj tenu, tiam je
-<kbd>Shift</kbd> premu kaj tenu, tiam je <kbd>-</kbd> premu.
+Ĉiu sekcio komencas pri eniga sinsekvo por sistemoj linuksa, makintoŝa, kaj vindoza, respektive. La
+plusa (+) signo signifas, ke Oni premas la maldekstran klavon, antaŭ la dekstran klavon. Tio estas,
+por enigi <kbd>⌥</kbd> + <kbd>Shift</kbd> + <kbd>-</kbd>, premu kaj tenu <kbd>⌥</kbd>, tiam premu
+kaj tenu <kbd>Shift</kbd>, fine premu <kbd>-</kbd>.
 
 
-<a name="et"></a>Enhavotabelo
+<a name="et">Enhavotabelo</a>
 -----------------------------
 
 - [Linuksaj notoj](#linukso)
@@ -34,29 +34,29 @@ por je <kbd>⌥</kbd> + <kbd>Shift</kbd> + <kbd>-</kbd> enigi, je <kbd>⌥</kbd>
 - [Finrimarkoj](#finrimarkoj)
 
 
-<a name="linukso"></a>Linuksaj notoj
+<a name="linukso">Linuksaj notoj</a>
 ------------------------------------
 
-Jam estas metodo por signojn enmeti linukse. Estas la uzo de la <kbd>Compose</kbd>
-klavo. Bedaŭrinde, ĉi tiun metodon ni ne uzas ĉar ĝi estas neekonomia. Anstataŭ la
-<kbd>Mode‎ߺ‎switch</kbd> klavon ni uzu. En ĉi tiu artikolo la <kbd>Mode‎ߺ‎switch</kbd> klavon la
-<kbd>🐧</kbd> klavo signifas.
+Jam estas metodo por enmeti signojn linukse. Tio estas la uzo de la klavo <kbd>Compose</kbd>.
+Bedaŭrinde, ni ne uzas ĉi tiun metodon ĉar ĝi estas neekonomia. Anstataŭe ni uzu la klavon
+<kbd>Modeߺswitch</kbd>. En ĉi tiu artikolo la klavo <kbd>🐧</kbd> signifas la klavon
+<kbd>Modeߺswitch</kbd>.
 
-Ĝin ni devas bindi en la ĝusta agorda dosiero. La dosieron `~/.xmodmap` malfermu, tiam jenan
-kodeton enmetu:
+Ni devas bindi ĝin en la ĝusta agorda dosiero. Malfermu la dosieron `~/.xmodmap`, tiam enmetu la
+jenan kodeton:
 
 ```
 !! prema klavo
-keycode 107 = Mode‎ߺ‎switch
+keycode 107 = Modeߺswitch
 
 !! maldekstra vindozklavo
-keycode 133 = Mode‎ߺ‎switch
+keycode 133 = Modeߺswitch
 
 !! dekstra vindozklavo
-keycode 134 = Mode‎ߺ‎switch
+keycode 134 = Modeߺswitch
 
 !! menua klavo
-keycode 135 = Mode‎ߺ‎switch
+keycode 135 = Modeߺswitch
 
 !! interpunkcioj
 keycode 48 = minus underscore endash emdash
@@ -68,12 +68,12 @@ keycode 20 = bracketleft braceleft leftdoublequotemark
 keycode 21 = bracketright braceright rightdoublequotemark
 ```
 
-Tiam, la jenan komandon plenumu:
+Tiam, plenumu la jenan komandon:
 
     xmodmap ~/.xmodmap
 
 
-<a name="streketoj"></a>Streketoj (-)
+<a name="streketoj">Streketoj (-)</a>
 -------------------------------------
 
 - Linukse: <kbd>-</kbd>
