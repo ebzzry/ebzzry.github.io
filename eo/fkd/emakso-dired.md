@@ -1,7 +1,7 @@
 Manipuli Dosierujojn en Emakso
 ==============================
 
-<div class="center">Esperanto ▪ [English](/en/emacs-dired/)</div>
+<div class="center">Esperanto ◆ [English](/en/emacs-dired/)</div>
 <div class="center">Laste ĝisdatigita: la 7-an de Marto 2022</div>
 
 >Supozi bonas, tamen eltrovi pli bonas.<br>

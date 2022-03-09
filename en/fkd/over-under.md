@@ -1,7 +1,7 @@
 Over, Under, and Elsewhere
 ==========================
 
-<div class="center">[Esperanto](/eo/supre-malsupre/) ▪ English</div>
+<div class="center">[Esperanto](/eo/supre-malsupre/) ◆ English</div>
 <div class="center">Last updated: January 31, 2022</div>
 
 >The only limits you have are the limits you believe.<br>

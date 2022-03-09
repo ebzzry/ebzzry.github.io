@@ -1,7 +1,7 @@
 Mia Kinezia Avantaĝa Aranĝo
 ===========================
 
-<div class="center">Esperanto ▪ [English](/en/advantage/)</div>
+<div class="center">Esperanto ◆ [English](/en/advantage/)</div>
 <div class="center">Laste ĝisdatigita: la 7-an de Marto 2022</div>
 
 >La doloro neeviteblas. La suferado malnepras.<br>

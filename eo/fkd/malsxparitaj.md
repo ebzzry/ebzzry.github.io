@@ -1,7 +1,7 @@
 Malŝparitaj Malcedemoj
 ======================
 
-<div class="center">Esperanto ▪ [English](/en/squandered/)</div>
+<div class="center">Esperanto ◆ [English](/en/squandered/)</div>
 <div class="center">Laste ĝisdatigita: la 7-an de Marto 2022</div>
 
 >La unua paŝo por iri ien estas decidi, ke oni ne restos kie oni estas.<br>

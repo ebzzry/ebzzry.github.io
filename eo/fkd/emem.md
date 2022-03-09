@@ -1,7 +1,7 @@
 Konverti de Markdown al HTML per emem
 =====================================
 
-<div class="center">Esperanto ▪ [English](/en/emem/)</div>
+<div class="center">Esperanto ◆ [English](/en/emem/)</div>
 <div class="center">Laste ĝisdatigita: la 31-an de Aŭgusto 2021</div>
     
 >Oni ne trovos la respondojn kiujn oni serĉas ĝis oni haltas serĉi ekster kaj komenciĝas serĉi ilin

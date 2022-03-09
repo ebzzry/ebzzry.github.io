@@ -1,8 +1,8 @@
 La Pensoj de Optimisto
 ======================
 
-<div class="center">Esperanto ▪ [English](/en/)</div>
-<div class="center">Laste ĝisdatigita: la 21-an de Februaro 2022</div>
+<div class="center">Esperanto ◆ [English](/en/)</div>
+<div class="center">Laste ĝisdatigita: la 9-an de Marto 2022</div>
 
 <img src="/bil/pluvis-1008x250.jpg" class="banner" alt="pluvis" title="Sur la vizaĝo de la kosmo, ni ĉiuj estas porĉiame infanoj." />
 

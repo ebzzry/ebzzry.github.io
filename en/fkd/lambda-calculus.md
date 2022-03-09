@@ -1,7 +1,7 @@
 A Lambda Calculus Primer
 ========================
 
-<div class="center">[Esperanto](/eo/lambdokalkulo/) ▪ English</div>
+<div class="center">[Esperanto](/eo/lambdokalkulo/) ◆ English</div>
 <div class="center">Last updated: October 10, 2021</div>
 
 >You do not really understand something unless you can explain it to your grandmother.<br>
