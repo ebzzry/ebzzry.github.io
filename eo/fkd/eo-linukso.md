@@ -2,21 +2,21 @@ Esperanto-signoj en Linukso
 ===========================
 
 <div class="center">Esperanto ◆ [English](/en/eo-linux/)</div>
-<div class="center">Laste ĝisdatigita: la 7-an de Marto 2022</div>
+<div class="center">Laste ĝisdatigita: la 10-an de Marto 2022</div>
 
 >Se ion oni volas, kion oni neniam havis, oni devas esti servopreta tion fari, kion oni neniam
 >faris.<br>
 >―Thomas JEFFERSON
 
 Mi opinias, ke la [h-](https://eo.wikipedia.org/wiki/H-sistemo) kaj la
-[x-sistemoj](https://eo.wikipedia.org/wiki/x-sistemo) ne plu devas uzitaj por la signojn enigi
-specifaj al Esperanto, krom se, ne fizike fareblas. Nune, estas du manieroj por la
-esperantajn signojn enigi linukse—la <kbd>Multi‎ߺ‎key</kbd> kaj <kbd>Mode‎ߺ‎switch</kbd> klavoj.
+[x-sistemoj](https://eo.wikipedia.org/wiki/x-sistemo) ne plu devas esti uzitaj por la enigi signojn
+specife al Esperanto, krom se, ne estas fizike farebla. Nune, estas du manieroj por la enigi Esperantajn
+signojn linukse—la klavoj <kbd>Multi‎ߺ‎key</kbd> kaj <kbd>Mode‎ߺ‎switch</kbd>.
 
-En ĉi tiu artikolo la <kbd>Mode‎ߺ‎switch</kbd> klavon la <kbd>🐧</kbd> klavo signifas.
+En ĉi tiu artikolo la klavo <kbd>🐧</kbd> signifas la  klavon <kbd>Mode‎ߺ‎switch</kbd>.
 
 
-<a name="et"></a>Enhavotabelo
+<a name="et">Enhavotabelo</a>
 -----------------------------
 
 - [Multi‎ߺ‎key](#multikey)
@@ -27,13 +27,13 @@ En ĉi tiu artikolo la <kbd>Mode‎ߺ‎switch</kbd> klavon la <kbd>🐧</kbd> k
 <a name="multikey"></a>Multi‎ߺ‎key
 --------------------------------
 
-La *Multi‎ߺ‎key* klavo, kiu ankaŭ nomatas la «Compose» klavo estas speciale asignita klavo, kiu devas
-esti premita kaj malpremita kun aliajn klavojn por signon enigi, aŭ seriojn de signoj. Male al
-<kbd>Shift</kbd> aŭ <kbd>Ctrl</kbd>, ĝi devas esti malpremita kaj ne premita dum la sinsekvo de
+La *Multi‎ߺ‎key* klavo, kiu ankaŭ nomiĝas la klavo «Compose» estas speciale asignita klavo, kiu devas
+esti premita kaj malpremita kun aliaj klavoj por enigi signon aŭ seriojn de signoj. Male al
+<kbd>Shift</kbd> aŭ <kbd>Ctrl</kbd>, ĝi devas esti malpremita kaj ne premita dum la sinsekvo de la
 premoj.
 
-Por je <kbd>Pause</kbd> klavon uzi kiel *Multi‎ߺ‎key*, la dosieron `~/.xmodmap` redaktu, tiam la
-jenan kodeton aldonu:
+Por uzi la klavon <kbd>Pause</kbd> kiel *Multi‎ߺ‎key*, redaktu la dosieron `~/.xmodmap`, tiam la
+aldonu jenan kodeton:
 
     keycode 127 = Multi‎ߺ‎key
 
@@ -41,12 +41,12 @@ Tiam, je `~/.xmodmap` reŝarĝu:
 
     xmodmap ~/.xmodmap
 
-Se je <kbd>Pause</kbd> klavon oni ne volas uzi, je `xev` plenumu:
+Se oni volas uzi la klavon <kbd>Pause</kbd>, plenumu `xev`:
 
     xev
 
-Aperos malgranda fenestro kun blanka malfono. La musmontrilon movu ene la fenestro, tiam klavon
-premu per la klavaro. Aperos en la terminalo la klavkodo de la premita klavo.
+Aperos malgranda fenestro kun blanka malfono. Movu la musmontrilon ene la fenestro, tiam premu
+klavon per la klavaro. Aperos en la terminalo la klavkodo de la premita klavo.
 
 ```
 …
@@ -57,20 +57,20 @@ KeyRelease event, serial 36, synthetic NO, window 0x2e00001,
 …
 ```
 
-Do por je <kbd>Print</kbd> klavon uzi kiel *Multi‎ߺ‎key*, je `~/.xmodmap` redaktu por enhavi:
+Do, por uzi la klavon <kbd>Print</kbd> kiel *Multi‎ߺ‎key*, redaktu `~/.xmodmap` por enhavi:
 
     keycode 107 = Multi‎ߺ‎key
 
-Tiam, je `~/.xmodmap` reŝarĝu, kiel priskribite ĉi-supre.
+Tiam, reŝargu `~/.xmodmap` kiel priskribite ĉi-supre.
 
-Nun, ke je *Multi‎ߺ‎key* oni povas aliri, signojn komposti plifaciliĝas. Ni supozu, ke je
-<kbd>Pause</kbd> klavo ni uzis kiel *Multi‎ߺ‎key*, por la literon **ĉ** eniri, je <kbd>Pause</kbd> oni
-premas kaj malpremas, tiam je <kbd>&#94;</kbd> oni premas kaj malpremas, tiam fine, je <kbd>c</kbd>
-oni premas kaj malpremas.
+Nun, ke oni povas aliri *Multi‎ߺ‎key*, plifaciliĝas komposti signojn. Ni supozu, ke ni uzis la klavon
+<kbd>Pause</kbd> kiel *Multi‎ߺ‎key*, por eniri la literon **ĉ**, oni premas kaj malpremas
+<kbd>Pause</kbd>, tiam oni premas kaj malpremas <kbd>&#94;</kbd> , tiam fine, oni premas kal
+malpremas <kbd>c</kbd>.
 
 Jen la tabuleto kiu la kombinadojn por la esperantaj signoj listigas.
 
-| Signo     | Sinsekvo       |
+| signo     | sinsekvo       |
 | :-------- | :------------- |
 | ĉ         | Multi‎ߺ‎key ^ c  |
 | Ĉ         | Multi‎ߺ‎key ^ C  |
@@ -87,29 +87,30 @@ Jen la tabuleto kiu la kombinadojn por la esperantaj signoj listigas.
 
 
 
-<a name="modeswitch"></a>Mode‎ߺ‎switch
+<a name="modeswitch">Mode‎ߺ‎switch</a>
 ------------------------------------
 
-Pli rapida kaj pli facila manieroj por esperantajn signojn enigi estas per la uzo de la
-*Mode‎ߺ‎switch* klavo. Similas al *Multi‎ߺ‎key* klavon oni devas asigni al ĝi. Du klavojn mi ŝatas bindi
-por tiu celo por ke per du manojn mi povu maŝinskribi. Male al *Multi‎ߺ‎key*, ĝin oni devas premi kaj
-teni kiel la <kbd>Shift</kbd> aŭ <kbd>Ctrl</kbd> klavoj.
+Pli rapida kaj pli facila manieroj por enigi esperantajn signojn estas per la uzo de la
+*Mode‎ߺ‎switch* klavo. Kiel *Multi‎ߺ‎key*, oni devas asigni klavon al ĝi. Mi ŝatas bindi du klavojn 
+por tiu celo por ke mi povu maŝinskribi per du manojn. Male al *Multi‎ߺ‎key*, oni devas premi ĝin kaj
+teni kiel la <kbd>Shift</kbd>- aŭ <kbd>Ctrl</kbd>-klavoj.
 
-Se la vindozklavojn oni volas uzi kiel la *Mode‎ߺ‎switch*-klavo, la `~/.xmodmap` dosieron redaktu, tiam la
-jenan kodeton enmeti:
+Se la vindozo-klavojn oni volas uzi kiel la *Mode‎ߺ‎switch*-klavo, redaktu la `~/.xmodmap` dosieron,
+tiam enmetu la jenan kodeton:
 
 ```
-!! maldekstra vindozklavo
+!! maldekstra vindozo-klavo
 keycode 133 = Mode‎ߺ‎switch
 
-!! dekstra vindozklavo
+!! dekstra vindozo-klavo
 keycode 134 = Mode‎ߺ‎switch
 
 !! menua klavo
 keycode 135 = Mode‎ߺ‎switch
 ```
 
-Sekve, la ĝustajn nomojn de la klavoj oni devas uzi. La jenajn kodetojn uzu por la QWERTY- kaj Dvoraka klavaroj, respektive.
+Sekve, oni devas uzi la ĝustajn nomojn de la klavoj. Uzu la jenajn kodetojn por la QWERTY- kaj
+Dvoraka klavaroj, respektive.
 
 ```
 keycode 54 = c C ccircumflex Ccircumflex
@@ -129,23 +130,22 @@ keycode 47 = s S scircumflex Scircumflex
 keycode 41 = u U ubreve Ubreve
 ```
 
-Tiam, je `~/.xmodmap` reŝargu:
+Tiam, reŝargu `~/.xmodmap`:
 
     xmodmap ~/.xmodmap
 
-Por la literon **ĉ** eniri, je 🐧 premu kaj tenu, tiam <kbd>c</kbd> klavon premu. Por la **Ŭ**
-literon eniri, je 🐧 premu kaj tenu, tiam je <kbd>Shift</kbd> premu, tiam je <kbd>u</kbd> premu. Per
-ĉi tiuj metodoj, onin permesas por senokulmaŝinskribi.
+Por eniri la literon **ĉ**, premu kaj tenu 🐧, tiam premu la klavon <kbd>c</kbd>. Por enigi la
+literon **Ŭ**, premu kaj tenu 🐧, tiam premu <kbd>Shift</kbd>, tiam premu <kbd>u</kbd>. Per
+ĉi tiuj metodoj, eblas senokulmaŝinskribi.
 
-En kelkaj klavaroj, estas nur unu vindozklavo, kutime lokitas maldekstre, dum tiu dekstre estas
-la <kbd>PrtSc</kbd> klavo. Multfoje ili sandviĉitas inter la <kbd>Ctrl</kbd> kaj la
-<kbd>Alt</kbd> klavoj. Por tiun klavon uzi, je `xev` plenumu kiel ĉi-supre por la klavkodon akiri, tiam
-je `~/.xmodmap` dosiero ĝisdatigi laŭe.
+En kelkaj klavaroj, estas nur unu vindozo-klavo, kutime lokiĝas maldekstre, dum tiu dekstra klavo
+estas la klavo <kbd>PrtSc</kbd>. Multfoje ili estas sandviĉitaj inter la klavoj <kbd>Ctrl</kbd> kaj <kbd>Alt</kbd>. Por uzi tiun klavon, plenumu `xev` plenumu kiel ĉi-supre por akiri la klavkodon,
+    tiam ĝisdatigu `~/.xmodmap` laŭe.
 
-Per mia ThinkPad-komputilo, la jenan kodeton mi `~/.xmodmap` havas:
+Per mia ThinkPad-komputilo, mi havas la jenan kodeton en `~/.xmodmap`:
 
 ```
-!! Maldekstra vindozo
+!! maldekstra vindozo-klavo
 keycode 133 = Mode‎ߺ‎switch
 
 !! PrtSc
@@ -153,26 +153,23 @@ keycode 107 = Mode‎ߺ‎switch
 ```
 
 
-<a name="finrimarkoj"></a>Finrimarkoj
+<a name="finrimarkoj">Finrimarkoj</a>
 -------------------------------------
 
-Ambaŭ resumitaj metodoj supre, faras pli ol esperantajn signojn montri. Pliartifikajn signojn
-kaj signojn *Multi‎ߺ‎key* sistemo povas enigi. Por la plenan liston de signoj, la jenan komandon
-plenumu se oni estas en kutimaj linuksaj sistemoj:
+La resumitaj metodoj supre faras pli ol montri esperantajn signojn. *Multi‎ߺ‎key* sistemo povas enigi
+pliartifikajn signojn kaj signojn. Por vidi la plenan liston de signoj, plenumu la jenan komandon se oni
+estas ĉe kutima linuksa sistemo:
 
     less /usr/share/x11/locale/en_US.UTF-8/Compose
 
-Se je Nix oni uzas, plenumu:
+Se oni uzas Nix, plenumu:
 
     less ~/.nix-profile/share/x11/locale/en_US.UTF-8/Compose
 
-Male al tio, la avantaĝo de la *Mode‎ߺ‎switch*-metodo estas rapideco. Por la tutan liston de validaj
-signojn vidi [ĉi tien](http://wiki.linuxquestions.org/wiki/List_of_Keysyms_Recognised_by_xmodmap)
-iru.
+Male al tio, la avantaĝo de la *Mode‎ߺ‎switch*-metodo estas rapideco. Por vidi la tutan liston de validaj
+signojn iru [ĉi tien](http://wiki.linuxquestions.org/wiki/List_of_Keysyms_Recognised_by_xmodmap).
 
-Ne ekzistas la plej bona metodo por ĉi tiuj aferoj—kiun ajn oportunan sistemon uzu. Se la
-vindozklavoj jam uzatas por iu ajn, aŭ nur unu kromaĵan klavon oni povas uzi, tiam
-*Multi‎ߺ‎key*-metodon uzu. Se facilon de uzado oni preferas, la *Mode‎ߺ‎switch*-metodon uzu. Ankaŭ
-gravas por noti, ke ambaŭ metodojn oni povas uzi samtempe.
-
-🐧—Ĝis la revido!
+Ne ekzistas la plej bona metodo por ĉi tiuj aferoj—uzu kiun ajn oportunan sistemon. Se la
+vindozo-klavoj estas jam por io ajn aŭ oni povas uzi nur unu kromaĵan klavon, do uzu la
+*Multi‎ߺ‎key*-metodon. Se oni preferas facilon de uzado, uzu la *Mode‎ߺ‎switch*-metodon. Ankaŭ
+gravas noti, ke oni povas uzi ambaŭ metodojn samtempe.

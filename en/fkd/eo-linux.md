@@ -174,5 +174,3 @@ There’s no best way to do this—use whatever system that fits your style. If 
 Windows keys for something else, and you can only use one “spare” key on your keyboard, then use the
 Multi‎ߺ‎key method. If you want ease of use, use the *Mode‎ߺ‎switch* method. It is important to note, too,
 that you can use both methods simultaneously.
-
-🐧—Ĝis la revido!
