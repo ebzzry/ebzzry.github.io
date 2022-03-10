@@ -10,8 +10,8 @@ Esperanto-signoj en Linukso
 
 Mi opinias, ke la [h-](https://eo.wikipedia.org/wiki/H-sistemo) kaj la
 [x-sistemoj](https://eo.wikipedia.org/wiki/x-sistemo) ne plu devas esti uzitaj por la enigi signojn
-specife al Esperanto, krom se, ne estas fizike farebla. Nune, estas du manieroj por la enigi Esperantajn
-signojn linukse—la klavoj <kbd>Multi‎ߺ‎key</kbd> kaj <kbd>Mode‎ߺ‎switch</kbd>.
+specife al Esperanto, krom se, ne estas fizike farebla. Nune, estas du manieroj por la enigi
+Esperanto-signojn linukse—la klavoj <kbd>Multi‎ߺ‎key</kbd> kaj <kbd>Mode‎ߺ‎switch</kbd>.
 
 En ĉi tiu artikolo la klavo <kbd>🐧</kbd> signifas la  klavon <kbd>Mode‎ߺ‎switch</kbd>.
 
@@ -156,7 +156,7 @@ keycode 107 = Mode‎ߺ‎switch
 <a name="finrimarkoj">Finrimarkoj</a>
 -------------------------------------
 
-La resumitaj metodoj supre faras pli ol montri esperantajn signojn. *Multi‎ߺ‎key* sistemo povas enigi
+La resumitaj metodoj supre faras pli ol montri Esperanto-signojn. *Multi‎ߺ‎key* sistemo povas enigi
 pliartifikajn signojn kaj signojn. Por vidi la plenan liston de signoj, plenumu la jenan komandon se oni
 estas ĉe kutima linuksa sistemo:
 
