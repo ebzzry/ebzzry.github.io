@@ -20,13 +20,13 @@ to its right. That is, to input <kbd>⌥</kbd> + <kbd>Shift</kbd> + <kbd>-</kbd>
 <kbd>⌥</kbd>, then press and hold <kbd>Shift</kbd>, then press <kbd>-</kbd>.
 
 
-<a name="toc"></a>Table of contents
+<a name="toc">Table of contents</a>
 -----------------------------------
 
 - [Notes for Linux](#notesforlinux)
-- [Hyphens](#hyphens)
-- [En dashes](#endashes)
-- [Em dashes](#emdashes)
+- [Hyphen](#hyphen)
+- [En dashe](#endash)
+- [Em dashe](#emdash)
 - [Double quotes](#doublequotes)
 - [Single quotes](#singlequotes)
 - [Prime symbols](#prime)
@@ -34,7 +34,7 @@ to its right. That is, to input <kbd>⌥</kbd> + <kbd>Shift</kbd> + <kbd>-</kbd>
 - [Closing remarks](#closingremarks)
 
 
-<a name="notesforlinux"></a>Notes for Linux
+<a name="notesforlinux">Notes for Linux</a>
 -------------------------------------------
 
 There is already a method to easily insert symbols in Linux. It is with the use of the
@@ -72,8 +72,8 @@ Then, run the following command:
     xmodmap ~/.Xmodmap
 
 
-<a name="hyphens"></a>Hyphens (-)
----------------------------------
+<a name="hyphen">Hyphen (-)</a>
+-------------------------------
 
 - Linux: <kbd>-</kbd>
 - Mac: <kbd>-</kbd>
@@ -90,8 +90,8 @@ To speak of a snake that eats birds, we say:
 - A snake eating bird.
 
 
-<a name="endashes"></a>En dashes (–)
-------------------------------------
+<a name="endash">En dash (–)</a>
+--------------------------------
 
 - Linux: <kbd>🐧</kbd> + <kbd>-</kbd>
 - Mac: <kbd>⌥</kbd> <kbd>-</kbd>
@@ -117,8 +117,8 @@ When the month is the same, used the unspaced en dash:
 - March 14–15, 1900
 
 
-<a name="emdashes"></a>Em dashes (—)
-------------------------------------
+<a name="emdash">Em dash (—)</a>
+--------------------------------
 
 - Linux: <kbd>🐧</kbd> + <kbd>Shift</kbd> + <kbd>-</kbd>
 - Mac: <kbd>⇧</kbd> <kbd>⌥</kbd> <kbd>-</kbd>
@@ -145,7 +145,7 @@ To denote interruption of the speaker:
 - I think I will go and—hell, no.
 
 
-<a name="doublequotes"></a> Double quotes (“) (”)
+<a name="doublequotes">Double quotes (“) (”)</a>
 -------------------------------------------------
 
 Left double quotes (“)
@@ -183,7 +183,7 @@ nines:
 - ⁶⁶Quoted Text⁹⁹
 
 
-<a name="singlequotes"></a> Single quotes (‘) (’)
+<a name="singlequotes">Single quotes (‘) (’)</a>
 -------------------------------------------------
 
 Left single quote (‘)
@@ -251,7 +251,7 @@ something is treated specially:
 Here, ‘A’ is the name of a specific train or it denotes a special meaning.
 
 
-<a name="prime"></a>Prime symbols (′) (″)
+<a name="prime">Prime symbols (′) (″)</a>
 -----------------------------------------
 
 Prime (′)
