@@ -4,7 +4,7 @@ Signoj kaj Interpunkcioj
 <div class="center">Esperanto ◆ [English](/en/symbols-marks/)</div>
 <div class="center">Laste ĝisdatigita: la 7-an de Marto 2022</div>
 
->Se grandiozon oni volas atingi, konsentojn ĉesu peti.<br>
+>Se oni volas atingi grandiozon, ĉesu peti konsentojn.<br>
 >―Eddie COLLA
 
 *Iru [ĉi tien](/eo/signoj-interpunkcioj-mallongigite/) por la mallongigita versio.*
@@ -24,9 +24,9 @@ kaj tenu <kbd>Shift</kbd>, fine premu <kbd>-</kbd>.
 -----------------------------
 
 - [Linuksaj notoj](#linukso)
-- [Streketoj](#streketoj)
-- [Ĝis-strekoj](#gxisstrekoj)
-- [Haltostrekoj](#haltostrekoj)
+- [Streketo](#streketo)
+- [Ĝis-streko](#gxisstreko)
+- [Haltostreko](#haltostreko)
 - [Duoblaj citiloj](#duoblajcitiloj)
 - [Unuoblaj citiloj](#unuoblajcitiloj)
 - [Primaj signoj](#primajsignoj)
@@ -38,25 +38,25 @@ kaj tenu <kbd>Shift</kbd>, fine premu <kbd>-</kbd>.
 ------------------------------------
 
 Jam estas metodo por enmeti signojn linukse. Tio estas la uzo de la klavo <kbd>Compose</kbd>.
-Bedaŭrinde, ni ne uzas ĉi tiun metodon ĉar ĝi estas neekonomia. Anstataŭe ni uzu la klavon
-<kbd>Modeߺswitch</kbd>. En ĉi tiu artikolo la klavo <kbd>🐧</kbd> signifas la klavon
+Bedaŭrinde, ni ne uzas tiun metodon ĉar ĝi estas neekonomia. Anstataŭe ni uzos la klavon
+<kbd>Modeߺswitch</kbd>. En ĉi tiu artikolo, la klavo <kbd>🐧</kbd> signifas la klavon
 <kbd>Modeߺswitch</kbd>.
 
-Ni devas bindi ĝin en la ĝusta agorda dosiero. Malfermu la dosieron `~/.xmodmap`, tiam enmetu la
+Ni devas bindi ĝin ĉe la ĝusta agorda dosiero. Malfermu la dosieron `~/.xmodmap`, tiam enmetu la
 jenan kodeton:
 
 ```
 !! prema klavo
-keycode 107 = Modeߺswitch
+keycode 107 = Mode‎ߺ‎switch
 
 !! maldekstra vindozklavo
-keycode 133 = Modeߺswitch
+keycode 133 = Mode‎ߺ‎switch
 
 !! dekstra vindozklavo
-keycode 134 = Modeߺswitch
+keycode 134 = Mode‎ߺ‎switch
 
 !! menua klavo
-keycode 135 = Modeߺswitch
+keycode 135 = Mode‎ߺ‎switch
 
 !! interpunkcioj
 keycode 48 = minus underscore endash emdash
@@ -73,14 +73,14 @@ Tiam, plenumu la jenan komandon:
     xmodmap ~/.xmodmap
 
 
-<a name="streketoj">Streketoj (-)</a>
--------------------------------------
+<a name="streketo">Streketo (-)</a>
+-----------------------------------
 
-- Linukse: <kbd>-</kbd>
-- Makintoŝe: <kbd>-</kbd>
-- Vindoze: <kbd>-</kbd>
+- linukse: <kbd>-</kbd>
+- makintoŝe: <kbd>-</kbd>
+- vindoze: <kbd>-</kbd>
 
-La streketoj uzatas por la distributan sencon, kaj kunmetitajn vortojn montri. Ekzemple, se oni
+Streketoj estas uzitaj por montri la distribuan sencon kaj kunmetitajn vortojn. Ekzemple, se oni
 volas esprimi:
 
 - sunleviĝo kaj sunsubiro
@@ -107,7 +107,7 @@ Oni ankaŭ povas esprimi:
 
 - kvincent-jar-aĝa urbeto
 
-Se la kunmeton de vortoj oni volas esprimi:
+Se oni volas esprimi la kunmeton de vortoj:
 
 - «ĝis» kaj «strekoj»
 
@@ -115,32 +115,32 @@ Oni esprimas:
 
 - ĝis-strekoj
 
-La streketoj ankaŭ uzatas por vortojn mallongigi. Ekzemple:
+Streketoj estas ankaŭ uzitaj por mallongigi vortojn. Ekzemple:
 
 - samideano iĝas s-ano
 - fraŭlino iĝas f-ino
 - doktoro iĝas d-ro
 
-Laste, la streketoj uzatas por neesperantigitajn vortojn esprimi. Ekzemple:
+Laste, streketoj estas uzitaj por esprimi neesperantigitajn vortojn. Ekzemple:
 
 - PDF-dosieroj
 - HTML-risurcoj
 - LiveJournal-uzantnomo
 
 
-<a name="gxisstrekoj"></a>Ĝis-strekoj (–)
------------------------------------------
+<a name="gxisstreko">Ĝis-streko (–)</a>
+---------------------------------------
 
-- Linukse: <kbd>🐧</kbd> + <kbd>-</kbd>
+- linukse: <kbd>🐧</kbd> + <kbd>-</kbd>
 - Makintose: <kbd>⌥</kbd> <kbd>-</kbd>
-- Vindoze: <kbd>Alt</kbd> + <kbd>0</kbd> <kbd>1</kbd> <kbd>5</kbd> <kbd>0</kbd>
+- vindoze: <kbd>Alt</kbd> + <kbd>0</kbd> <kbd>1</kbd> <kbd>5</kbd> <kbd>0</kbd>
 
-La ĝis-streko uzatas por ampleksojn de valoroj esprimi. Spacetojn ne metu ĉirkaŭ ili. Ekzemple,
+Ĝis-strekoj estas uzitaj por esprimi ampleksojn de valoroj. Ne metu spacetojn ĉirkaŭ ili. Ekzemple,
 se oni volas esprimi:
 
 - 1960 ĝis 2016
 
-Oni esprimas:
+Oni ankaŭ povas esprimi:
 
 - 1960–2016
 
@@ -150,117 +150,116 @@ Alia uzo de ĝis-strekoj estas por la parencecojn aŭ kostrastojn inter vortoj e
 
 - Sudkoreia–Ĉina vojaĝo
 
-Se monatojn oni volas esprimi:
+Se oni volas esprimi monatojn:
 
 - Januaro ĝis Marto
 
-Oni esprimas:
+Oni ankaŭ povas esprimi:
 
 - Januaro–Marto
 
-Tamen, se aliajn formojn de ampleksoj oni volas esprimi la konduto iomete ŝanĝiĝas. Se la esprimataj
-datoj estas de malsamaj monatoj, la jenan uzu:
+Tamen, se oni volas esprimi aliajn formojn de ampleksoj, la konduto iomete ŝanĝiĝas. Se la esprimataj
+datoj estas de malsamaj monatoj, uzu la jenan:
 
 - Ŝi marŝis la 1-an de Januaro – la 15-an de Februaro 1800
 
-Kiam la monatoj samas, la ĝis-strekojn sen spacetoj uzu:
+Kiam la monatoj samas, uzu la ĝis-strekojn sen spacetoj:
 
 - La 14–15-ajn de Marto 1900
 
 
-<a name="haltostrekoj"></a>Haltostrekoj (—)
--------------------------------------------
+<a name="haltostreko">Haltostreko (—)</a>
+-----------------------------------------
 
-- Linukse: <kbd>🐧</kbd> + <kbd>Shift</kbd> + <kbd>-</kbd>
-- Makintoŝe: <kbd>⇧</kbd> <kbd>⌥</kbd> <kbd>-</kbd>
-- Vindoze: <kbd>Alt</kbd> + <kbd>0</kbd> <kbd>1</kbd> <kbd>5</kbd> <kbd>1</kbd>
+- linukse: <kbd>🐧</kbd> + <kbd>Shift</kbd> + <kbd>-</kbd>
+- makintoŝe: <kbd>⇧</kbd> <kbd>⌥</kbd> <kbd>-</kbd>
+- vindoze: <kbd>Alt</kbd> + <kbd>0</kbd> <kbd>1</kbd> <kbd>5</kbd> <kbd>1</kbd>
 
-La haltostrekoj povas esti uzataj en multaj manieroj. Samkiel ĝis-strekoj, spacetojn ne enmetu
-ĉirkaŭ ili. Se ĝin oni volas esprimi kiel dupunkto:
+Haltostrekoj povas esti uzitaj en multaj manieroj. Samkiel ĝis-strekoj, ne enmetu spacetojn ĉirkaŭ
+ili. Se oni volas esprimi ĝin kiel dupunkto:
 
 - Mortis du viroj: Petro kaj Miĥaelo
 - Mortis du viroj—Petro kaj Miĥaelo
 
-Por ĝin uzi kiel inversa dupunkto:
+Por uzi ĝin kiel inversa dupunkto:
 
 - Ĉi tiuj estas ĝiaj kvalitoj: malmola, ŝlima, pika.
 - Malmola, ŝlima, pika—ĉi tiuj estas ĝiaj kvalitoj.
 
-Por ĝin uzi kiel rondaj krampoj:
+Por uzi ĝin kiel rondaj krampoj:
 
 - Du viroj (Petro kaj Miĥaelo) mortis.
 - Du viroj—Petro kaj Miĥaelo—mortis.
 
-Por la maldaŭrigon de la parolanto esprimi:
+Por esprimi la maldaŭrigon de la parolanto:
 
 - Mi opinias, ke mi iras kaj—diable, ne.
 
 
-<a name="duoblajcitiloj"></a>Duoblaj citiloj (“) (”)
+<a name="duoblajcitiloj">Duoblaj citiloj (“) (”)</a>
 ----------------------------------------------------
 
 Maldekstra duobla citilo (“)
 
-- Linukse: <kbd>🐧</kbd> + <kbd>[</kbd>
-- Makintoŝe: <kbd>⌥</kbd> <kbd>[</kbd>
-- Vindoze: <kbd>Alt</kbd> + <kbd>0</kbd> <kbd>1</kbd> <kbd>4</kbd> <kbd>7</kbd>
+- linukse: <kbd>🐧</kbd> + <kbd>[</kbd>
+- makintoŝe: <kbd>⌥</kbd> <kbd>[</kbd>
+- vindoze: <kbd>Alt</kbd> + <kbd>0</kbd> <kbd>1</kbd> <kbd>4</kbd> <kbd>7</kbd>
 
 Dekstra duobla citilo (”)
 
-- Linukse: <kbd>🐧</kbd> + <kbd>]</kbd>
-- Makintoŝe: <kbd>⇧</kbd> <kbd>⌥</kbd> <kbd>[</kbd>
-- Vindoze: <kbd>Alt</kbd> + <kbd>0</kbd> <kbd>1</kbd> <kbd>4</kbd> <kbd>8</kbd>
+- linukse: <kbd>🐧</kbd> + <kbd>]</kbd>
+- makintoŝe: <kbd>⇧</kbd> <kbd>⌥</kbd> <kbd>[</kbd>
+- vindoze: <kbd>Alt</kbd> + <kbd>0</kbd> <kbd>1</kbd> <kbd>4</kbd> <kbd>8</kbd>
 
-Duoblaj citiloj uzatas por vortojn montri kiuj estas parolataj de parolanto.
+Duoblaj citiloj estas uzitaj por montri vortojn kiuj estas parolataj de parolanto.
 
 - Ŝi venis al mi kaj diris, “Ĉu ni povas precizigi ĝian iĝeblecon?”
 
-Ili ankaŭ uzatas kiam citaĵojn (atribuadojn) skribi:
+Ili ankaŭ estas uzitaj skribante citaĵojn (atribuaĵojn):
 
 - “Rompu, rompu la murojn inter la popoloj!”—Ludoviko Lazaro ZAMENHOF
 
-Alia fama uzo de duoblaj citiloj estas kiam ili estas uzatj kiel ĉikanaj citiloj—uzataj por ironion
-indiki kaj aliajn mallaŭnormajn signifoj:
+Alia fama uzo de duoblaj citiloj estas kiam ili estas uzitaj kiel ĉikanaj citiloj—uzataj por indiki
+ironion kaj aliajn mallaŭnormajn signifoj:
 
 - La “sekura” aparato poves esti rekte legita.
 
-Laste, ili uzatas por parton da tuto mencii:
+Laste, ili estas uzitaj por mencii parton da tuto:
 
-- “Return of the Jedi” estas filmo en la Star Wars sagao, plenitaj de beletaj pluŝursetoj.
+- “Return of the Jedi” estas filmo en la Star Wars-sagao, plenitaj de beletaj pluŝursetoj.
 
-Por plifaciliĝi al kiel ili aperas, ilin pensu kiel flosantaj paroj de sesoj kaj naŭoj:
+Por plifaciliĝi kiel ili aperas, traktu ilin kiel flosantaj paroj da etaj sesoj kaj naŭoj:
 
 - ⁶⁶Citita Teksto⁹⁹
 
 
-<a name="unuoblajcitiloj"></a>Unuoblaj citiloj (‘) (’)
-----------------------------------------------------
+<a name="unuoblajcitiloj">Unuoblaj citiloj (‘) (’)</a>
+------------------------------------------------------
 
 Maldekstra unuobla citilo (‘)
 
-- Linukse: <kbd>🐧</kbd> + <kbd>`</kbd>
-- Makintoŝe: <kbd>⌥</kbd> <kbd>]</kbd>
-- Vindoze: <kbd>Alt</kbd> + <kbd>0</kbd> <kbd>1</kbd> <kbd>4</kbd> <kbd>5</kbd>
+- linukse: <kbd>🐧</kbd> + <kbd>`</kbd>
+- makintoŝe: <kbd>⌥</kbd> <kbd>]</kbd>
+- vindoze: <kbd>Alt</kbd> + <kbd>0</kbd> <kbd>1</kbd> <kbd>4</kbd> <kbd>5</kbd>
 
 Dekstra unuobla citilo (’)
 
-- Linukse: <kbd>🐧</kbd> + <kbd>'</kbd>
-- Makintoŝe: <kbd>⇧</kbd> <kbd>⌥</kbd> <kbd>]</kbd>
-- Vindoze: <kbd>Alt</kbd> + <kbd>0</kbd> <kbd>1</kbd> <kbd>4</kbd> <kbd>6</kbd>
+- linukse: <kbd>🐧</kbd> + <kbd>'</kbd>
+- makintoŝe: <kbd>⇧</kbd> <kbd>⌥</kbd> <kbd>]</kbd>
+- vindoze: <kbd>Alt</kbd> + <kbd>0</kbd> <kbd>1</kbd> <kbd>4</kbd> <kbd>6</kbd>
 
-Unuoblaj citiloj uzatas kiam parolo estas enkorpigita ene alia parolo:
+Unuoblaj citiloj estas uzitaj kiam parolo estas enkorpigita ene alia parolo:
 
 - Li murmuris al si mem, “Mi opinias, ke li diris ‘Ne fareblas’ kiam ni interparolis hieraŭ.”
 
-La desktra unuobla citilo——pli ofte konata kiel apostrofo en la
-esperantujo—havas multe da uzo:
+La desktra unuobla citilo——pli ofte konata kiel apostrofo en ~sperantujo—havas multe da uzo:
 
-La o-finaĝon substantivoj povas ellasi:
+Substantivoj povas ellasi o-finaĝon :
 
 - vespero
 - vesper’
 
-Se la vorto «la» estas antaŭita de la vortoj «de», «ĉe», «je», «tra», «pri», aŭ «pro»; la «a»
+Se la vorto «la» estas anstataŭigita per la vortoj «de», «ĉe», «je», «tra», «pri», aŭ «pro»; la «a»
 litero povas esti ellasita:
 
 - de l’
@@ -270,78 +269,78 @@ litero povas esti ellasita:
 - pri l’
 - pro l’
 
-En la vorto «danko» la «o» litero ankaŭ povas esti ellasita en la jena kunteksto:
+En la vorto «danko» la litero «o» ankaŭ povas esti ellasita en la jena kunteksto:
 
 - Dank’ al Renato.
 
-Kiam ritmojn kaj taktojn oni kalkulas, la litero «u» en «unu» povas esti ellasita:
+Kiam oni kalkulas ritmojn kaj taktojn, la litero «u» en «unu» povas esti ellasita:
 
 - Un’, du, tri, …
 
 
-<a name="primajsignoj"></a>Primaj signoj (′) (″)
+<a name="primajsignoj">Primaj signoj (′) (″)</a>
 ------------------------------------------------
 
 Primo (′)
 
-- Linukse: <kbd>🐧</kbd> + <kbd>,</kbd>
-- Makintoŝe: <kbd>⇧</kbd> <kbd>⌥</kbd> <kbd>e</kbd>
-- Vindoze: <kbd>Alt</kbd> + <kbd>8</kbd> <kbd>2</kbd> <kbd>4</kbd> <kbd>2</kbd>
+- linukse: <kbd>🐧</kbd> + <kbd>,</kbd>
+- makintoŝe: <kbd>⇧</kbd> <kbd>⌥</kbd> <kbd>e</kbd>
+- vindoze: <kbd>Alt</kbd> + <kbd>8</kbd> <kbd>2</kbd> <kbd>4</kbd> <kbd>2</kbd>
 
-Duobla primo (″)
+Duoblaj primoj (″)
 
-- Linukse: <kbd>🐧</kbd> + <kbd>Shift</kbd> + <kbd>,</kbd>
-- Makintoŝe: <kbd>⇧</kbd> <kbd>⌥</kbd> <kbd>g</kbd>
-- Vindoze: <kbd>Alt</kbd> + <kbd>8</kbd> <kbd>2</kbd> <kbd>4</kbd> <kbd>3</kbd>
+- linukse: <kbd>🐧</kbd> + <kbd>Shift</kbd> + <kbd>,</kbd>
+- makintoŝe: <kbd>⇧</kbd> <kbd>⌥</kbd> <kbd>g</kbd>
+- vindoze: <kbd>Alt</kbd> + <kbd>8</kbd> <kbd>2</kbd> <kbd>4</kbd> <kbd>3</kbd>
 
-La citiloj signoj sur la klavaro (') kaj (") aspektas kiel primaj signoj, bedaŭrinde, ili ne
-estas. Ili estas fuŝaj postsignoj de la skribmaŝina epoĥo. La ĝustaj signobildoj estas (′) kaj
-(″). La prima signo (′) uzatas por futojn, minutojn, kaj minutojn de arko esprimi, dum la duobla
-prima signo (″) uzatas por colojn, sekundojn, kaj sekundojn de arko esprimi.
+La citiloj-signoj sur la klavaro—(') kaj (")—aspektas kiel primaj signoj, bedaŭrinde, ili ne estas
+tiaj. Ili estas fuŝaj postsignoj de la skribmaŝina epoĥo. La ĝustaj signobildoj estas (′) kaj (″).
+La prima signo (′) estas uzita por esprimi futojn, minutojn, kaj minutojn de arko, dum la duobla
+prima signo (″) estas uzita por esprimi colojn, sekundojn, kaj sekundojn de arko.
 
-Por alton de ses funtoj kaj du colojn esprimi, oni skribas:
+Por esprimi alton de ses funtoj kaj du coloj:
 
 - 6′2″
 
-Por kvin gradojn, kvar minutojn de arko, kaj tri sekundojn de arko esprimi, oni skribas:
+Por esprimi kvin gradojn, kvar minutojn, kaj tri sekundojn de arko:
 
 - 5°4′3″
 
-La duoblaj primaj signoj povas esti uzataj kiel la idema marko. La idema marko uzatas por
+La duoblaj primaj signoj povas esti uzitaj kiel la idema marko. La idema marko estas uzita por
 indiki, ke la vortoj ĉi-supre devas esti ripetitaj. Ekzemple:
 
 - Ruĝaj ardeoj, gruoj, kaj mantoj.
 - Bluaj  ″            ″         ″    ″
 
 
-<a name="tripunkto"></a>Tripunkto (…)
+<a name="tripunkto">Tripunkto (…)</a>
 -------------------------------------
 
-- Linukse: <kbd>🐧</kbd> + <kbd>.</kbd>
-- Makintoŝe: <kbd>⌥</kbd> <kbd>;</kbd>
-- Vindoze: <kbd>Alt</kbd> + <kbd>0</kbd> <kbd>1</kbd> <kbd>3</kbd> <kbd>3</kbd>
+- linukse: <kbd>🐧</kbd> + <kbd>.</kbd>
+- makintoŝe: <kbd>⌥</kbd> <kbd>;</kbd>
+- vindoze: <kbd>Alt</kbd> + <kbd>0</kbd> <kbd>1</kbd> <kbd>3</kbd> <kbd>3</kbd>
 
-La tripunkto uzatas por la forlason de vorto, frazero, frazo, aŭ tuta bloko de teksto montri, kiel
-parto de pli granda teksto. Ĝi estas unu el la plej miskomprenitaj signoj. Mi ofte rimarkas, ke la
-tri punktoj—plenaj ĉesoj—uzitas anstataŭ la ĝusta tripunkta signo. En epoĥo, en kiu, la skribmaŝino
-estis la plej bona maniero por tekston komposti, la tri punktoj funkciis. Tiutempe, tamen, jam longe
-pasis; la haveblajn ilojn oni nun devas uzi.
+La tripunkto estas uzita por montri la forlasadon de vorto, frazero, frazo, aŭ tuta bloko de teksto,
+kiel parto de pli granda teksto. Ĝi estas unu el la plej miskomprenitaj signoj. Mi ofte rimarkas, ke
+la tri punktoj—plenaj ĉesoj—estas uzitaj anstataŭ la ĝusta tripunkta signo. En epoĥo, en kiu, la
+skribmaŝino estis la plej bona maniero por tekston komposti, la tri punktoj funkciis. Tiutempe,
+tamen, jam longe pasis; oni nun devas uzi la haveblajn ilojn.
 
 Ekzemple, ĝi povas uzita jene:
 
 - Tiam, ŝi diris al si mem …
 
-Kiam uzitis kiel la komenco de frazo, kortuŝojn kaj dramojn ĝi enkondukas:
+Kiam ĝi estas uzita kiel la komenco de frazo, ĝi enkondukas kortuŝojn kaj dramojn:
 
 - … Mia amo, kie vi estas?
 
-Kiam ĝi uzitas en la fino de bloko, spaceton antaŭ ĝi metu; kiam ĝi uzitas en la komenco, spaceton
-post ĝi metu; kiam ĝi uzitas en la mezo, spacetojn ĉirkaŭ metu.
+Kiam ĝi estas uzita en la fino de bloko, ĝi metu spaceton antaŭ; kiam ĝi estas uzita en la komenco,
+metu spaceton post ĝi; kiam ĝi estas uzits en la mezo, metu spacetojn ĉirkaŭ.
 
 
-<a name="finrimarkoj"></a>Finrimarkoj
+<a name="finrimarkoj">Finrimarkoj</a>
 -------------------------------------
 
-La ĝustajn signojn kaj interpunkciojn uzante, la linion inter fajneco kaj malfajneco skribitas. Kiam
-la ĝustajn interpunkciojn oni uzas, oni komunikas al la legantoj, ke oni zorgas pri la sintaksa
+Uzante la ĝustajn signojn kaj interpunkciojn, la linio inter fajneco kaj malfajneco estas skribita.
+Kiam oni uzas la ĝustajn interpunkciojn, oni komunikas al la legantoj, ke oni zorgas pri la sintaksa
 ĝusteco tiom multe kiel enhava valoro.
