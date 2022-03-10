@@ -367,5 +367,3 @@ found at [https://ngnghm.github.io/](https://ngnghm.github.io/).
 
 Frog was created by [Greg Hendershott](http://www.greghendershott.com/). If you want to learn more
 about it, go [here](https://github.com/greghendershott/frog).
-
-🐸—_Ribbit!_

@@ -364,5 +364,3 @@ troveblas ĉe [https://ngnghm.github.io/](https://ngnghm.github.io/).
 
 Frog estas kreita de [Greg HENDERSHOTT](http://www.greghendershott.com/). Se oni volas lerni pli
 pri da projekto, iru [ĉi tien](https://github.com/greghendershott/frog).
-
-🐸—Kva!
