@@ -167,7 +167,7 @@ Se oni uzas Nix, plenumu:
     less ~/.nix-profile/share/x11/locale/en_US.UTF-8/Compose
 
 Male al tio, la avantaĝo de la *Mode‎ߺ‎switch*-metodo estas rapideco. Por vidi la tutan liston de validaj
-signojn iru [ĉi tien](http://wiki.linuxquestions.org/wiki/List_of_Keysyms_Recognised_by_xmodmap).
+signojn iru [ĉi tien](https://wiki.linuxquestions.org/wiki/List_of_Keysyms_Recognised_by_Xmodmap).
 
 Ne ekzistas la plej bona metodo por ĉi tiuj aferoj—uzu kiun ajn oportunan sistemon. Se la
 vindozo-klavoj estas jam por io ajn aŭ oni povas uzi nur unu kromaĵan klavon, do uzu la
