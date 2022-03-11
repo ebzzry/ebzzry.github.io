@@ -95,7 +95,7 @@ propra volo kaj ne per magio.
 --------------------------------------------
 
 Ĉi tio okazas kiam anstataŭ prezenti kazon kontraŭ argumento, persono A atakiĝas persone per persono
-B. Ĉi tio estas farita por malkreditigi personon A laŭ kio ri estas anstataŭ la argumento kiun ri
+B. Ĉi tio estas fifarita por malkreditigi personon A laŭ kio ri estas anstataŭ la argumento kiun ri
 tenas.
 
 >Post kiam Maria prezentis persvadan pruvmaterialon pri la malsukcesoj de demokratio, Karlo
@@ -109,7 +109,7 @@ devas esti atakitaj estas la argumentoj de Maria, ne ŝiaj personaj teniĝoj.
 <a name="ankauxvi">Ankaŭ vi</a>
 -------------------------------
 
-Ĉi tio estas farita kiam argumentoj de persono estas asertite falsaj pro tio ke la persono mem estas
+Ĉi tio estas fifarita kiam argumentoj de persono estas asertite falsaj pro tio ke la persono mem estas
 kontraŭdira.
 
 >Kuracisto: «Ĉesi fumadon pro ĝi estas noca al via sano.»<br>
@@ -135,7 +135,7 @@ Se li neas, do li jam estis malfidela al ŝi antaŭe, kaj li ankoraŭ daŭras es
 <a name="falsadilemo">Falsa dilemo</a>
 --------------------------------------
 
-Ĉi tio estas farita kiam persono estas devigita por elekti starpunkton aŭ respondi al demando per
+Ĉi tio estas fifarita kiam persono estas devigita por elekti starpunkton aŭ respondi al demando per
 truditaj limoj. Ĉi tio ankaŭ nomiĝas nigra-aŭ-blanka aŭ la aŭ-aŭ sofismo.
 
 >«Aŭ vi estas kun mi aŭ vi estas kontraŭ mi.»
@@ -148,13 +148,13 @@ parolanto.
 <a name="falsakompromiso">Falsa kompromiso</a>
 ----------------------------------------------
 
-Ĉi tio estas farita kiam griza areo estas devigita eĉ ekzistas klaraj elektoj. Ĉi tio ofte
+Ĉi tio estas fifarita kiam griza areo estas devigita eĉ ekzistas klaraj elektoj. Ĉi tio ofte
 rimarkita en ĵurnalismo por prezenti egalan kaj senantaŭjuĝan raportadon.
 
 >«Ĉiuj en ĉi tiu tablo havas sian propran opinion. Neniu necese ĝustas aŭ malĝustas.»
 
 La parolanto evitas la diskuton kaj la decidon pri la ebleco, ke unu aŭ pli argumentoj eble estas la
-solvo al la problemo. Ĉi tio estas farita por «sidi sur la palisaro» kaj «ludi sendanĝere.»
+solvo al la problemo. Ĉi tio estas fifarita por «sidi sur la palisaro» kaj «ludi sendanĝere.»
 
 
 <a name="hasta">Hasta ĝeneralaĵo</a>
@@ -173,7 +173,7 @@ konkludis, ke ĉiuj samseksemuloj malnoblas, kaj ili devas esti traktitaj per ma
 <a name="balaema">Balaema ĝeneralaĵo</a>
 ----------------------------------------
 
-Ĉi tio estas farita kiam grandparto estas supozita por komponi la tuton. Estas farite kiam
+Ĉi tio estas fifarita kiam grandparto estas supozita por komponi la tuton. Estas farite kiam
 signifoplena elcento aplikiĝas al la tuta kompono.
 
 >«En ĉiuj retbutikoj kiujn mi vizitis, ne ekzistas unu kiu vendas globskribilon kun blua pinto. Tio
@@ -186,7 +186,7 @@ kiujn ri ne ankoraŭ vizitis.
 <a name="pruvo">Respondeco de pruvo</a>
 ---------------------------------------
 
-Ĉi tio estas farita kiam la respondenco por prezenti pruvon sidas ĉe persono A, la iu, kiu
+Ĉi tio estas fifarita kiam la respondenco por prezenti pruvon sidas ĉe persono A, la iu, kiu
 faras asertojn, ne ĉe persono B, who dubas la asertojn de persono A.
 
 >Persono A: Ekzistas granda blato kiu fekas stelojn kaj loĝas ekzakte 100 000 lumjaroj for de kie mi alfrontas nun. Pruvu, ke ĝi ne ekzistas!
@@ -201,7 +201,7 @@ antaŭsupozas ke siaj asertoj devas esti veraj.
 <a name="glata">Glata inklino</a>
 ---------------------------------
 
-Ĉi tio estas farita kiam io estas supozita por okazi sekve, pro alia kaŭzo. Tio estas, se oni permesas A, B okazos sekve. Pro tio, A devos okazi.
+Ĉi tio estas fifarita kiam io estas supozita por okazi sekve, pro alia kaŭzo. Tio estas, se oni permesas A, B okazos sekve. Pro tio, A devos okazi.
 
 >«Se ni permesos la uzadon de pafiloj por civiluloj, do plikreskiĝas la krimoprocento ĉar krimorganizoj povas preni pafilojn facile.»
 
@@ -212,93 +212,95 @@ laŭleĝaj metodoj.
 <a name="rugxaharingo">Ruĝa haringo</a>
 ---------------------------------------
 
-Ĉi tio estas farita kiam nekoncerna temo estas enkondukita por forkonduki atenton de la originala
+Ĉi tio estas fifarita kiam nekoncerna temo estas enkondukita por forkonduki atenton de la originala
 argumento. La «ruĝa haringo» estas enĵetiĝita, sub la ŝajnigo, ke ĝi estas rilata al la originala
 temo.
 
->Raportistino: «Kiel vi planas trakti la atentindaĵojn pri korupto.»<br>
+>Raportistino: «Kiel vi planas trakti la atentindaĵojn pri korupto?»<br>
 >Kandidato: «Mi donos al ĉiuj postenojn, kaj mi malpligrandigos enspezimpostojn.»
 
-La celo estas por la originalan temon forlasi, por la aŭskultanton forkonduki. Ĉi tio estas ofte
+La celo estas forlasi la originalan temon, por forkonduki la aŭskultanton. Ĉi tio estas ofte
 rimarkitaj en politikaj intervjuoj kaj diskutoj.
 
 
-<a name="pajlohamo"></a>Pajlohoma argumento
+<a name="pajlohamo">Pajlohoma argumento</a>
 -------------------------------------------
 
-Ĉi tio fifaritas kiam fuŝformitan, malplifortan version de la argumento kiu persono A tenas
-persono B prezentas. Ĉi tiun version persono B do atakas, kaj se triumfe, konkludas, ke la
-argumento de persono A malvenkitas.
+Ĉi tio estas fifarita kiam persono B prezentas malplifortan, fuŝformitan version de la argumento
+kiun persono A tenas. Persono B do atakas ĉi tiun version, kaj se ri triumfas, ri konkludas, ke la
+argumento de persono A estas malvenkita.
 
 >Karlo: «Reklamoj pri alkoholaĵoj devas esti malpermesitaj en amasmedioj ĉar nepreskreskulan
 >trinkadon ĝi malrekte spronas.»<br>
 >Petro: «Homoj jam trinkadis alkoholaĵon longatempe. Ili daŭras fari tiel.»
 
-La pozicion de Karlo Petro falsreprezentis kiel: «Popolo devas fordoni trinkadon de alkoholaĵo.» Tio
+Petro false reprezentis la starpunkton de Karlo kiel: «Popolo devas fordoni trinkadon de alkoholaĵo.» Tio
 ne estas kion Karlo diris.
 
 
-<a name="agxo"></a>Apelo al aĝo
+<a name="agxo">Apelo al aĝo</a>
 -------------------------------
 
-Ĉi tio fifaritas kiam estas argumentite, ke tre malnovaj aŭ tre novaj argumentoj superas. Ĉi tiuj
-ofte rimarkitas en merkatado kaj reklamado.
+Ĉi tio estas fifarita kiam estas argumentite, ke superas tre malnovaj aŭ tre novaj argumentoj. Ĉi tio
+estas ofte rimarkita en merkatado kaj reklamado.
 
->«Niaj novaj kaj plibonigitaj Super Eferveska Lavpulvoro Z lavas makulojn pli bonas ol la gvidaj
+>«Niaj novaj kaj plibonigitaj Super Eferveska Lavpulvoro Z lavas makulojn pli bonas ol la superaj
 >produktaĵoj.»
 
-Ĉi tio malsukcese diras kial iliaj produktaĵoj pli bonas ol la aliaj. Nur pro tio, ke io malnovas aŭ
+Ĉi tio malsukcese diras kial iliaj produktaĵoj pli bonas ol la aliaj. Nur pro tio ke io malnovas aŭ
 novas ne signifas, ke ĝi pli bonas.
 
 
-<a name="servodauxro"></a>Apelo al servodaŭro
+<a name="servodauxro">Apelo al servodaŭro</a>
 ---------------------------------------------
 
-Ĉi tio fifaritas kiam aĝo de persono uzitas por la validecon de siaj asertoj subteni. Ĉi
-tio kutime aplikitas kontraŭe al iu kiu pli junas.
+Ĉi tio estas fifarita kiam aĝo de persono estas uzita por subteni la validecon de siaj asertoj. Ĉi
+tio kutime estas aplikita kontraŭe al iu kiu pli junas.
 
 >«Mi jam estas en la profesio dum tridek jarojn. Vi havas nur tridek jarojn, kion vi scias pri
 >programlingva desegno?»
 
-Estas antaŭsupozite ĉi tie, ke nur ĉar iu pli junas al ri, fariĝas iu malplikompetenta por la
+Estas antaŭsupozite ĉi tie, ke nur pro tio ke iu pli junas al ri, iu fariĝas malplikompetenta por la
 diskutitaj aferoj.
 
 
-<a name="auxtoriteco"></a>Apelo al aŭtoriteco
+<a name="auxtoriteco">Apelo al aŭtoriteco</a>
 ---------------------------------------------
 
-Ĉi tio fifaritas kiam la agoj, elektoj, kaj vortoj de persono de aŭtoritato, aŭ sperto,
-uzitas por la asertojn de alia persono refuti.
+Ĉi tio estas fifarita kiam la agoj, elektoj, kaj vortoj de persono de aŭtoritato, aŭ sperto,
+estas uzitaj por refuti la asertojn de alia persono.
 
->«La teorio de evoluado eraras pro Johano, kiu estas sciencisto diris, ke ĝin li ne kredas.»
+>«La teorio de evoluado eraras pro Johano, kiu estas sciencisto diris, ke li ne kredas ĝin.»
 
-Nur ĉar iu estas sciencisto, ne signifas ke la [teorion de evoluado](http://notjustatheory.com/) li
-subtenas. Estas verŝajne, ke eĉ li estas sciencisto la antaŭmenciitan teorion li ne kredas.
+Nur pro tio ke iu estas sciencisto, ne signifas ke ri subtenas la [teorion de
+evoluado](http://notjustatheory.com/). Estas verŝajne, ke eĉ ri estas sciencisto li ne kredas la
+antaŭmenciitan teorion.
 
 
-<a name="anonimaauxtoritato"></a>Apelo al anonima aŭtoritato
+<a name="anonimaauxtoritato">Apelo al anonima aŭtoritato</a>
 ------------------------------------------------------------
 
-Ĉi tio fifaritas kiam apelo al aŭtoriteco faritas, sed la aŭtoritato ne nomitas. Nun
-tre malfacilas por la validecon de la asertoj validigi.
+Ĉi tio estas fifarita kiam apelo al aŭtoriteco estas farita, sed la aŭtoritato ne estas nomita.
+Estas malfacile nun por validigi la asertojn.
 
->«Spertuloj konsentas, ke la trinkado de glaso da Ikso Suko ĉiutage onin plisanigos.»
+>«Spertuloj konsentas, ke la trinkado de glaso da Ikso-Suko ĉiutage plisanigos onin.»
 
-Ĉi tio malsukcesas pro la malsukceso por la tielnomatajn spertuloj precizigi. Kiam demandite por
-kiuj estas ĉi tiuj spertuloj precizigi, taktikojn oni uzos por la demandojn eviti.
+Ĉi tio estas malsukcesa pro la malsukceso por precizigi la tielnomatajn spertuloj. Kiam demandite pri
+kiuj estas ĉi tiuj spertuloj, oni uzos taktikojn por eviti la demandojn.
 
 
-<a name="falsaauxtoritato"></a>Apelo al falsa aŭtoritato
+<a name="falsaauxtoritato">Apelo al falsa aŭtoritato</a>
 --------------------------------------------------------
 
-Ĉi tio fifaritas kiam apelo al aŭtoriteco faritas, sed la koncerna aŭtoritato estas ekster
-la regiono de ria fako.
+Ĉi tio estas fifarita kiam apelo al aŭtoriteco estas farita, sed la koncerna aŭtoritato estas ekster
+la regiono de ies fako.
 
->«La efikecon de Ikso Kapsuloj Petro amplekse studis kaj revuis, kaj asertis, ke la sanon de la reno
->ili ja plibonigas.»
+>Petro estas bonega plumbisto. Kiam demandite pri iu produktaĵo por sano, li diris, ke li amplekse
+>studis kaj revuis la efikecon de Ikso-Kapsuloj, kaj asertis, ke la kapsuloj ja plibonigas la sanon
+>de la reno.
 
 Petro, bedaŭrinde, nek estas kompetenta profesiulo por sanajn produktaĵojn studi kaj revui, nek
-fortikan sperton li havas antaŭ ol tian kazostudon fari.
+li havas fortan sperton faronte tian kazostudon.
 
 
 <a name="populareco"></a>Apelo al populareco

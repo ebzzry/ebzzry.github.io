@@ -303,10 +303,11 @@ specify who these experts are, he will resort to tactics to elude the question.
 This is committed when an appeal to authority is made, but the authority in question is outside the
 scope of their expertise.
 
->“Pedro extensively studied and reviewed the efficacy of Kidneyaid Capsules, and asserted that they
->indeed improve kidney health.”
+>Peter is a great plumber. When asked about some health product, he said, that he extensively
+>studied and reviewed the efficacy of Kidneyaid Capsules, and asserted that the product indeed
+>improves kidney health.”
 
-Pedro, however, is not qualified professional to study and review health products, nor does he have
+Peter, however, is not qualified professional to study and review health products, nor does he have
 any substantial experience prior to conducting such a study.
 
 
