@@ -206,14 +206,14 @@ antaŭsupozas ke siaj asertoj devas esti veraj.
 >«Se ni permesos la uzadon de pafiloj por civiluloj, do plikreskiĝas la krimoprocento ĉar krimorganizoj povas preni pafilojn facile.»
 
 Ĉi tio malsukcese konsideras, ke la grandparto da pafiloj kiujn krimorganizoj uzas ne venas de
-laŭleĝaj manieroj.
+laŭleĝaj metodoj.
 
 
 <a name="rugxaharingo">Ruĝa haringo</a>
 ---------------------------------------
 
 Ĉi tio estas farita kiam nekoncerna temo estas enkondukita por forkonduki atenton de la originala
-argumento. La ‹ruĝa haringo› estas enĵetiĝita, sub la ŝajnigo, ke ĝi estas rilata al la originala
+argumento. La «ruĝa haringo» estas enĵetiĝita, sub la ŝajnigo, ke ĝi estas rilata al la originala
 temo.
 
 >Raportistino: «Kiel vi planas trakti la atentindaĵojn pri korupto.»<br>
