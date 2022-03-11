@@ -252,7 +252,7 @@ Unuoblaj citiloj estas uzitaj kiam parolo estas enkorpigita ene alia parolo:
 
 - Li murmuris al si mem, “Mi opinias, ke li diris ‘Ne fareblas’ kiam ni interparolis hieraŭ.”
 
-La desktra unuobla citilo——pli ofte konata kiel apostrofo en ~sperantujo—havas multe da uzo:
+La desktra unuobla citilo—pli ofte konata kiel apostrofo en Esperantujo—havas multe da uzo:
 
 Substantivoj povas ellasi o-finaĝon :
 
