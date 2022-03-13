@@ -1,7 +1,7 @@
 Super, Sube, kaj Aliloke
 ========================
 
-<div class="center">Esperanto ◆ [English](/en/over-under/)</div>
+<div class="center">Esperanto ■ [English](/en/over-under/)</div>
 <div class="center">Laste ĝisdatigita: la 7-an de Marto 2022</div>
 
 >La nuraj limoj kiujn havas oni, estas la limoj kiujn kredas oni.<br>
