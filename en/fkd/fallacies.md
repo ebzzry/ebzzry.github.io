@@ -384,10 +384,10 @@ This is committed when it is assumed that an argument or a speaker, of a particu
 bearing or significance. This is usually observed in social classes, biological lineage, and
 cultures.
 
->“Given that Pancho comes from a poor family, when he gets elected as the president, I’m sure he’ll
+>“Given that Leodo comes from a poor family, when he gets elected as the president, I’m sure he’ll
 >be able to help the poor like us.”
 
-This presumes that since Pancho originates from less fortunate social standing, he will favor the
+This presumes that since Leodo originates from less fortunate social standing, he will favor the
 ones who are also poor, just like he was before.
 
 
@@ -449,11 +449,11 @@ assume that that entity exists, first. X because X.
 This is committed when a conclusion is made from narrow and limited views. This is also called the
 cherry picking fallacy. Mass and social media is notorious of this.
 
->“Juana is living a blissful and satisfying life because I frequently see her posts on socia reto
+>“Jane is living a blissful and satisfying life because I frequently see her posts on socia reto
 >that she is happy.”
 
-The observer ignores the possibility that what he sees may not be true because Juana only posts what
-she wants people to see and believe.
+The observer ignores the possibility that what he sees may not be true because Jane may only post
+what she wants people to see and believe.
 
 
 <a name="scotsman"></a> No true Scotsman

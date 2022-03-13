@@ -21,7 +21,7 @@ Milda Enkonduko al Sofismoj
 - [Malsimpla demando](#malsimplademando)
 - [Falsa dilemo](#falsadilemo)
 - [Falsa kompromiso](#falsakompromiso)
-- [Hasta ĝeneraligo](#hasta)
+- [Hasta ĝeneralaĵo](#hasta)
 - [Balaema ĝeneraligo](#balaema)
 - [Respondeco de pruvo](#pruvo)
 - [Glata inklino](#glata)
@@ -60,7 +60,7 @@ Milda Enkonduko al Sofismoj
 Sofismoj estas eraroj en rezonado, ĉefe kreitaj en la konstruado de argumentoj. Unuj estis faritaj
 intence por manipuli kaj trompi, dum unuj estas faritaj pro malscio kaj neprudenteco. Sofismoj estas
 dividitaj en du specoj—formalaj kaj neformalaj. Formalaj sofismoj, ankaŭ nomataj logikaj sofismoj,
-estas esprimitaj en sistemo kiel propozicia logiko. Neformalaj sofismoj estas eraroj en la enhavo de
+esprimiĝas en sistemo kiel propozicia logiko. Neformalaj sofismoj estas eraroj en la enhavo de
 la premisoj.
 
 En ĉi tiu artikolo mi lakone trairos pri kelkaj sofismoj renkontitaj en la ĉiutaga vivo. Iom
@@ -102,8 +102,8 @@ tenas.
 >kontraŭparolis, ke oni ne devas kredi ion ajn el virino kiu ne estas edziĝinta, ne havas infanojn,
 >kaj aŭskultas bizaran muzikon.
 
-La persona stato de Maria ne havas teniĝon al siaj asertoj . La diroj de Karlo nekoncernas. Tiuj, kiuj
-devas esti atakitaj estas la argumentoj de Maria, ne ŝiaj personaj teniĝoj.
+La persona stato de Maria ne havas efikon al siaj asertoj . La diroj de Karlo nekoncernas. Tiuj, kiuj
+devas esti atakitaj estas la argumentoj de Maria, ne ŝia persona stato.
 
 
 <a name="ankauxvi">Ankaŭ vi</a>
@@ -268,7 +268,7 @@ diskutitaj aferoj.
 ---------------------------------------------
 
 Ĉi tio estas fifarita kiam la agoj, elektoj, kaj vortoj de persono de aŭtoritato, aŭ sperto,
-estas uzitaj por refuti la asertojn de alia persono.
+uziĝas por refuti la asertojn de alia persono.
 
 >«La teorio de evoluado eraras pro Johano, kiu estas sciencisto diris, ke li ne kredas ĝin.»
 
@@ -303,263 +303,262 @@ Petro, bedaŭrinde, nek estas kompetenta profesiulo por sanajn produktaĵojn stu
 li havas fortan sperton faronte tian kazostudon.
 
 
-<a name="populareco"></a>Apelo al populareco
+<a name="populareco">Apelo al populareco</a>
 --------------------------------------------
 
-Ĉi tiu sofismo deklaras, ke se plejmulto da homoj—relativaj al la parolantoj—specifan pozicion
-elektas, do tiu pozicio devas esti vera. La baza ideo estas aserto devas esti akceptita kiel vera
-sur la fundoj, ke la homoj estas aprobaj rilate al tiu aserto.
+Ĉi tiu sofismo deklaras, ke se plejmulto da homoj—rilate al la parolantoj—elektas specifan pozicion,
+do tiu pozicio devas esti vera. La baza ideo estas, ke aserto devas esti akceptita kiel la vero sur la
+fundoj, ke la homoj estas aprobaj rilate al tiu aserto.
 
->«La enketo montras, ke plejmulto da homoj voĉdonas je Karlo prezidanto. Ilia elekto devas esti
->ĝusta. Mi ankaŭ voĉdonas por li.»
+>«La enketo montras, ke plejmulto da homoj voĉdonos Karlon por prezidanto. Ilia elekto devas esti
+>ĝusta. Mi ankaŭ voĉdonos por li.»
 
-Ĉi tio okazas kiam aserton per malprofundaj kialoj persono kredas. Ĉi tio ofte okazas pro
-antaŭjuĝemoj. Elekto faritas ne pro teĥnikaj meritoj sed pro antaŭjuĝoj.
+Ĉi tio okazas kiam persono kredas aserton per malprofundaj kialoj. Ĉi tio ofte okazas pro
+antaŭjuĝemoj. Elekto estas farita ne pro teĥnikaj meritoj sed pro antaŭjuĝoj.
 
 
-<a name="naturo"></a>Apelo al la naturo
+<a name="naturo">Apelo al la naturo</a>
 ---------------------------------------
 
-Ĉi tiu sofismo fifaritas kiam estas argumentite, ke nur pro io naturas, signifas, ke ĝi idealas aŭ
-bonas.
+Ĉi tiu sofismo estas fifarita kiam estas argumentite, ke nur pro io naturas aŭ okazas nature,
+signifas, ke ĝi estas idealas aŭ bonas.
 
->«Silvja asertas, ke se produktaĵo ne estas etikedita ‹organika› aŭ ‹natura,› tiam ĝi ne estas
+>«Silvja asertas, ke se produktaĵo ne estas etikedita ‹organika› aŭ ‹natura,› do ĝi ne estas
 >ideala por konsumado.»
 
-Kultivita tabako (*Nicotiana tabacum*) estas natura planto kiu prirespondas por pli da kvin
-milionoj mortoj po jare, ĉirkaŭ la mondo. Cianado, kemia kombinaĵo, kiu estas unu el la plej venenaj
+Kultivita tabako (*Nicotiana tabacum*) estas natura planto kiu estas kulpa por pli da kvin
+milionoj da mortoj jare ĉirkaŭ la mondo. Cianado, ĥemia kombinaĵo, kiu estas unu el la plej venenaj
 substancoj, aperas nature.
 
 
-<a name="emocio"></a>Apelo al la emocio
+<a name="emocio">Apelo al la emocio</a>
 ---------------------------------------
 
-Ĉi tiu sofismo fifaritas kiam emocioj uzitas por erarigan respondon ellogi el la
-celulo. La baza ideo estas, ke emociaj taktikoj uzitas por personon persvadi en kredi, ke la
-argumento prezentata validas.
+Ĉi tiu sofismo estas fifarita kiam emocioj uziĝas por ellogi erarigan respondon el la
+celulo. La baza ideo estas, ke emociaj taktikoj uziĝas por persvadi personon por kredi, ke validas la
+prezentata argumento.
 
->«Petro, manĝu viajn brokoliojn. Pensu pri ĉiom da malriĉaj, malnutrantaj, kaj senhejmaj infanoj
->ĉirkaŭ la tutmondo.»
+>«Petro, manĝu la brokoliojn. Pensu pri ĉiom da malriĉaj, malnutrantaj, kaj senhejmaj infanoj
+>ĉirkaŭ la tutmondo, kiuj ne manĝas bone.»
 
-La gepatroj de Petro lin volas por la brokolion manĝi, per la uzo do emocia trompo, anstataŭ
-fortikajn kialojn disponigi, ke la brokolion Petro devas manĝi.
+La gepatroj de Petro igas lin por manĝi la brokolion, per la uzo do emocia trompo, anstataŭ doni
+fortikajn kialojn, ke Petro devas manĝi la brokolion ĉar ĝi nutras.
 
 
-<a name="forto"></a>Apelo al forto
+<a name="forto">Apelo al forto</a>
 ----------------------------------
 
-Ĉi tiu sofismo fifaritas kiam la minaco de forto aŭ fortego uzitas por personon devigi por
-aserton akcepti kiel vera. Ĉi tiu sofismo ofte rimarkitas en religiaj grupoj.
+Ĉi tiu sofismo estas farita kiam la minaco de forto aŭ fortego estas uzita por devigi personon por
+akcepti aserton kiel vera. Ĉi tiu sofismo estas ofte rimarkita en religiaj grupoj.
 
->«Se vi ne observas la vortojn de Vakelo, vi forbruliĝos en la torturemaj flamoj de inferno.»
+>«Se vi ne obeos la vortojn de Vakelo, vi forbruliĝos en la torturemaj flamoj de la geheno.»
 
-Anstataŭ kialon disponigi kial oni devas aŭskulti je Vakelo, minacoj de fortegoj uzitas por iun
+Anstataŭ doni kialon kial oni devas aŭskulti Vakelo, minacoj de fortegoj estas uzitaj por devigi iun
 devigi por blinde observi.
 
 
-<a name="tradicio"></a>Apelo al tradicio
+<a name="tradicio">Apelo al tradicio</a>
 ----------------------------------------
 
-Ĉi tiu sofismo fifaritas kiam estas disputite, ke nur ĉar io tradicias aŭ la normo, do tio devas
-esti observita. Ĉi tiu ofte rimarkitas en religioj kaj kulturoj.
+Ĉi tiu sofismo estas farita kiam estas disputite, ke nur pro tio ke io estas tradicia aŭ la normo,
+do tio devas esti observita. Ĉi tiu ofte estas rimarkita en religiaj grupoj kaj kulturoj.
 
 >«Estas kutime de ni por ĉiujare partopreni en la marŝado de Kabobohan. Ankaŭ vi devas
->partopreni.»
+>partopreni!»
 
-Ĉi tiu malsukcese eldiras kial oni devas aliĝi en la evento. Anstataŭe estas disputite, ke ĝi devas
+Ĉi tiu malsukcese eldiras kial oni devas aliĝi en la evento. Anstataŭe, estas disputite, ke ĝi devas
 esti farita sur la fundoj, ke tradicias.
 
 
-<a name="devenoj"></a>Apelo al devenoj
+<a name="devenoj">Apelo al devenoj</a>
 --------------------------------------
 
-Ĉi tiu fifaritas kiam antaŭsupozitas, ke argumento aŭ parolanto de specifa
-deveno havas pli da teniĝo aŭ pezo . Ĉi tio ofte rimarkitas en sociaj klasoj,
-biologiaj devenoj, kaj kulturoj.
+Ĉi tiu estas fifarita kiam estas antaŭsupozite, ke argumento aŭ parolanto de specifa deveno havas
+pli da valoro aŭ pezo. Ĉi tio ofte estas rimarkita en sociaj klasoj, biologiaj devenoj, kaj kulturoj.
 
->«Kaŭze de Panĉo devenas el malriĉa familio, kiam li elektiĝos prezidento, mi certas, ke li povas
+>«Kaŭze de Leodo devenas el malriĉa familio, kiam li elektiĝos prezidento, mi certas, ke li povas
 >helpi la kamparanojn kiel ni.»
 
-Ĉi tiu supozas, ke pro Panĉo devenas el malpli bonsortaj sociaj teniĝoj, li favoros tiujn kiuj
-ankaŭ malriĉas, same kiel li antaŭe.
+Ĉi tiu supozas, ke pro tio ke Leodo devenas el malpli bonsortaj sociaj statoj, li favoros tiujn,
+kiuj ankaŭ malriĉas, same kiel li antaŭe.
 
 
-<a name="estonteco"></a>Apelo al la estonteco
+<a name="estonteco">Apelo al la estonteco</a>
 ---------------------------------------------
 
-Ĉi tio fifaritas kiam la necertecon de la estonteco persono uzas por sian argumenton
-subteni. Ri asertas, ke en la estonteco, riaj asertoj eventuale iĝas efektivaj.
+Ĉi tio estas farita kiam persono uzas la necertecon de la estonteco por subteni sian argumenton. Ri
+asertas, ke en la estonteco, riaj asertoj eventuale iĝas efektivaj.
 
->«Neniu ankoraŭ faras ĝin, tamen mi certas, ke en la estontecon, ĉiuj estos.»
+>«Neniu ankoraŭ faras ĝin, tamen mi certas, ke en la estonteco, ĉiuj estos.»
 
-Ne ekzistas konataj manieroj nuntempe por riajn asertojn validigi, ĉar maleblas por la estontecon
-vidi aŭ sperti.
+Ne ekzistas konataj manieroj nuntempe por validigi riajn asertojn, ĉar maleblas vidi aŭ sperti la
+estontecon.
 
 
-<a name="kompliko"></a>Apelo al kompliko
+<a name="kompliko">Apelo al kompliko</a>
 ----------------------------------------
 
-Ĉi tio fifaritas kiam persono asertas, ke nur ĉar iun ri ne komprenas, do signifas ke
-plejmulto da homoj ankaŭ ne povas.
+Ĉi tio estas fifarita kiam persono asertas, ke nur pro tio ke ri ne komprenas ion, do signifas ke
+plejmulto da homoj ankaŭ ne povas fari ĝin.
 
->«La lambdokalkulon mi ne ankoraŭ povas kompreni. Ve. Plej verŝajne, neniuj efektive komprenas
+>«Mi ne ankoraŭ povas kompreni la lambdokalkulon. Ve. Plej verŝajne, neniuj efektive komprenas
 >ĝin.»
 
-Siajn personajn limojn la parolanto aplikas al ĉiuj, pro ri mem ĝin ne povas fari. Ĉi tio similas al
-hastaj ĝeneraligoj.
+La parolanto aplikas siajn personajn limojn al ĉio, pro ri mem ne povas fari ĝin. Ĉi tio similas al
+hastaj ĝeneralaĵo.
 
 
-<a name="ekvilibro"></a>Apelo al ekvilibro
+<a name="ekvilibro">Apelo al ekvilibro</a>
 ------------------------------------------
 
-Ĉi tio fifaritas kiam la ideo de ekvilibro uzatas kiam ne konvenas. La vorto
-«ekvilibro» en ĉiuj kuntekstoj malbone difinitas, kaj plurajn interpretojn eble havas.
+Ĉi tio estas fifarita kiam la ideo de ekvilibro estas uzata kiam ĝi ne konvenas. La vorto
+«ekvilibro» en ĉiuj kuntekstoj estas malbone difinita, kaj ĝi eble havas plurajn interpretojn.
 
 >«Devus ekzisti ĥaoso kaj malharmonio por krei ekvilibron en la kosmo.»
 
 Estas malklare, kian ekvilibron la parolanto priparolas. Kiam demandite, ri malsukcese klarigas kial
-tia necesas. Ri plu argumentas, ke pro militoj kaj terorismoj neeviteblas, tiam ili devus
-ekzisti por ekvilibron krei. Ĉi tio estas mankhava rezonado—nur ĉar la neeviteblajn aferojn oni ne
-povas forigi, ne signifas, ke ili necesas.
+tia afero necesas. Ri plu argumentas, ke pro militoj kaj terorismoj neeviteblas, do ili devus
+ekzisti por krei ekvilibron. Ĉi tio estas mankhava rezonado—nur ĉar oni ne povas forigi la
+neeviteblajn aferojn, ne signifas, ke ili necesas.
 
 
-<a name="rondo"></a>Argumentado per rondo
+<a name="rondo">Argumentado per rondo</a>
 -----------------------------------------
 
-Ĉi tiu sofismo fifaritas kiam la pruvota io uzitas kiel unu el la premisoj. Estas ekzemple
+Ĉi tiu sofismo estas farita kiam la pruvota io estas uzita kiel unu el la premisoj. Estas ekzemple
 de ronda rezonado.
 
->«La diaj vortoj de Vakelo estas puraj, superbaj, kaj seneraraj pro ili estas diritaj en La Eterna
->kaj Transcenda Libro de Vakelo.»
+>«La diaj vortoj de Vakelo estas puraj, superbaj, kaj seneraraj pro tio ke ili estas diritaj en La
+>Eterna kaj Transcenda Libro de Vakelo.»
 
-La validecon de la ekzisto de tia esto ĉi tio senhoneste antaŭsupozas, kaj por ĝin pruvi, signifas,
-ke la ekzistecon de tio oni devas supozi unue. A pro A.
+Ĉi tio senhoneste antaŭsupozas la validecon de la ekzisto de tia esto, kaj por pruvi ĝin, signifas,
+ke oni devas supozi unue la ekzistecon de tio. A pro A.
 
 
-<a name="selektiva"></a>Selektiva observo
+<a name="selektiva">Selektiva observo</a>
 -----------------------------------------
 
-Ĉi tio fifaritas kiam konkludo faritas el mallarĝaj kaj limigitaj vidoj. Ĉi tio ankaŭ
+Ĉi tio estas fifarita kiam konkludo estas farita el mallarĝaj kaj limigitaj observoj. Ĉi tio ankaŭ
 estas sofismo de neplena pruvmaterialo. Amasmedioj kaj socimedioj malgloras de ĉi tio.
 
->«Silvja estas vivanta per beata kaj elizea vivo pro mi ofte vidas ŝiajn afiŝojn en socia reto, ke
+>«Silvja estas vivanta per beata kaj elizea vivo ĉar mi ofte vidas ŝiajn afiŝojn en la socia reto, ke
 >ŝi estas feliĉa.»
 
-La eblecon la parolanto malatentas, ke tio, kion ri vidas, ne fakte veras pro nur la afiŝojn kiujn
-aliajn homojn Silvja volas por vidi kaj kredi ŝi afiŝas.
+La parolanto malatentas la eblon, ke tiuj, kiujn ri vidas, ne fakte veras ĉar Silvja eble nur afiŝaŝ
+afiŝojn kiujn ŝi volas homojn por vidi kaj kredi.
 
 
-<a name="skoto"></a>Ne vera skoto
+<a name="skoto">Ne vera skoto</a>
 ---------------------------------
 
-Ĉi tio fifaritas kiam argumento faritas per aserti, ke konduto nur akcepteblas ene la
+Ĉi tio estas fifarita kiam argumento estas farita per aserti, ke konduto nur akcepteblas ene la
 limigoj de certaj normoj.
 
->«Kial vi ne manĝas per la piedoj? Vera vakelanto devas manĝi piede!»
+>«Kial vi ne manĝas per la piedoj? Vera Vakelanto devas manĝi piede!»
 
-Ĉi tio estas speco de falsa pureco. Asertas, ke nur ekzistas unu akcepteblan maniero, ke Vakelantoj
-devas manĝi. Ĉi tio similas al apelo al tradicio.
+Ĉi tio estas speco de falsa pureco. Ĝi asertas, ke nur ekzistas unu akcepteblan maniero, ke
+Vakelantoj devas manĝi. Ĉi tio similas al apelo al tradicio.
 
 
-<a name="eltrovi"></a>Ne eltrovita ĉi tie
+<a name="eltrovi">Ne eltrovita ĉi tie</a>
 -----------------------------------------
 
-Ĉi tio fifaritas kiam iu kiu fremdas aŭ lokas, estas rigardita pli bone aŭ pli malbone. Ĉi
-tio ofte rimarkitas en sociaj klasoj, kulturoj, tradicioj, generoj, kaj seksoj.
+Ĉi tio estas fifarita kiam iu kiu fremdas aŭ lokas, estas rigardita pli bone aŭ pli malbone. Ĉi
+tio ofte estas rimarkita en sociaj klasoj, kulturoj, tradicioj, generoj, kaj seksoj.
 
 >«Kion Karlo scias pri inismo? Li estas viro!»
 
-Ĉi tiu argumentas, ke nur ĉar Karlo estas viro, signifas, ke la ideologiojn de inismo li ne scias
-kiel subteni. Ĉi tio ankaŭ ofte rimarkitas en enportitaj produktaĵoj, asertante, ke ili supras kontraŭ
-la lokaj pro ili estas ‹enportitaj.›
+Ĉi tio argumentas, ke nur pro tio ke Karlo estas viro, signifas, ke la ideologiojn de inismo li ne
+scias subteni. Ĉi tio ankaŭ estas ofte rimarkita en enportitaj produktaĵoj, asertante, ke ili supras
+kontraŭ la lokaj versioj pro tio ke ili estas «enportitaj.«
 
 
-<a name="eksigo"></a>Eksigo
+<a name="eksigo">Eksigo</a>
 ---------------------------
 
-Ĉi tio fifaritas kiam ideo malakceptitas sed ne estas klarigita kial. Ĉi tio estas ofte
-farita kiam ideo ne plaĉas al persono, kaj trudan eksigon de argumento ri uzos.
+Ĉi tio estas fifarita kiam ideo estas malakceptita sed ne estas klarigita kial. Ĉi tio estas ofte
+farita kiam ideo ne plaĉas al persono, kaj ri uzas trudan eksigon de argumento.
 
 >«Pro vi malferme kontraŭparolas pri demokratio, vi devas forlasi la landon kaj trovi iun kiu
 >adaptas al viaj preferoj!»
 
-Siajn kontraŭparolojn la parolanto ne deklaras, kaj malprofundan vorton ri uzas por tia diro. Ri
-malkomfortas pro la kontraŭparoloj, kaj vojo de ri por ĉi tiun malkomforton trakti estas por
-estiginton de tiaj kontraŭparoloj forigi.
+La parolanto ne deklaras siajn kontraŭparolojn, kaj ri uzas malprofundan vorton por tia diro. Ri
+malkomfortas pri la kontraŭparoloj, kaj maniero de ri por trakti ĉi tiun malkomforton estas forigi 
+la estiginton de tiaj kontraŭparoloj.
 
 
-<a name="malbonaanalogio"></a>Malbona analogio
+<a name="malbonaanalogio">Malbona analogio</a>
 ----------------------------------------------
 
-Ĉi tio fifaritas kiam parolanto argumentas, ke nur pro du aferoj similas en iuj trajtoj,
-konsekvence ke aliajn trajtojn ili devas kunhavi.
+Ĉi tio estas farita kiam parolanto argumentas, ke nur pro tio ke du aferoj similas laŭ iuj trajtoj,
+konsekvence ke ili devas kunhavi aliajn trajtojn.
 
->«Kiam kafon, sukeron, kaj lakton oni miksas per kulero, ili turniĝas, kaj novan ion ili
->kreas—bongusta trinkaĵo. La sunsistemo ankaŭ turniĝas. Se la ĉielaj korpoj ĉirkaŭ la suno rapide
+>«Kiam oni miksas kafon, sukeron, kaj lakton per kulero, ili turniĝas, kaj ili keras novan
+>ion—bongusta trinkaĵo. La sunsistemo ankaŭ turniĝas. Se la ĉielaj korpoj ĉirkaŭ la suno rapide
 >turniĝas, io kiel la antaŭa devos esti kreita.»
 
-La parolanto konfuziĝas pri iu kiu rekte rimarkeblas al iu kiu ne rekte rimarkeblas, kaj
+La parolanto konfuziĝas pri iu kiu rekte rimarkeblas al io kiu ne rekte rimarkeblas, kaj
 konkludas per falsaj komparoj.
 
 
-<a name="malkreskita"></a>Malkreskita aserto
+<a name="malkreskita">Malkreskita aserto</a>
 --------------------------------------------
 
-Ĉi tio fifaritas kiam ion parolanto asertas, sed ĝin ri poste malkonfesas per kontraŭdirajn
-deklaroj disponigi. Ĉi tio ankaŭ nomatas ‹Havi vian kukon.›
+Ĉi tio estas farita kiam parolanto asertas ion, sed ri poste malkonfesas ĝin per doni kontraŭdirajn
+deklaroj. Ĉi tio ankaŭ nomiĝas «havi vian kukon.»
 
->«Aŭskultu filo, mi ne kredas en fantomoj. Tamen, hieraŭ vespere, kiam mi estis sola en mia ĉambro,
->mi aŭdis batetajn sonojn sur la lampotabelo. Mi certas, ke ne estis mi. Devas esti la nevideblaj
+>«Aŭskultu filo, mi ne kredas je fantomoj. Tamen, hieraŭ vespere, kiam mi estis sola en mia ĉambro,
+>mi aŭdis batetajn sonojn sur la lampotabelo. Mi certas, ke tio ne estis mi. Devas esti la nevideblaj
 >astraj estoj.»
 
-Aŭdacajn dirojn la parolanto faras pri ne kredi en la paranormalaj ekzistecoj de fantomoj, sed siajn
-vortojn li malkonfesis kaj asertas, ke iuj astraj estoj devas esti la fonto de la batetaj sonoj. Je
-A li asertas, sed poste kontraŭ-A.
+La parolanto faras aŭdacajn dirojn pri ne kredi la paranormalajn ekzistecojn de fantomoj, sed li
+malkonfesis kaj asertas siajn vortojn, ke iuj astraj estoj devas esti la fonto de la batetaj sonoj.
+Oni asertas A, sed poste asertas kontraŭ-A.
 
 
-<a name="malplej"></a>Malplej aprobebla hipotezo
+<a name="malplej">Malplej aprobebla hipotezo</a>
 ------------------------------------------------
 
-Ĉi tio fifaritas kiam persvadan kaj fortan pruvmaterialon persono malhoneste malatentas, dum
-implikitan iun favoras kiu plian demandon altigas.
+Ĉi tio estas farita kiam persono malhoneste malatentas persvadan kaj fortan pruvmaterialon,
+favorante implikitan ion kiu petas pli da demando.
 
 >«La statuo de virgulino Maria en la monteto de Idjaj ploris per sango. Ŝi devis esti ploranta pro
 >la pekoj kiujn homaro kreas.»
 
-La rigardantoj estis tre servopretaj por la ideon akcepti, ke la statuo estis ja ploranta de ‹dia›
-sango. Estis poste malkovrite, ke dukto estis konektita per konduktilo kaj bovosango estis pumpita
+La rigardantoj estis tre servopretaj por akcepti la ideon, ke la statuo estis ja ploranta de «dia»
+sango. Estis poste malkovrite, ke dukto estis konektita per kondukilo kaj bovosango estis pumpita
 tra ĝi.
 
 
-<a name="movi"></a>La celfoston movi
+<a name="movi">La celfoston movi</a>
 ------------------------------------
 
-Ĉi tio fifaritas kiam sian pozicion persono B ŝanĝas post la komencan pozicion de persono B
-persono A sukcese atakis. La celo estas la celfoston movi por ke estu tre malfacila de persono
-A por la novan movitan celfoston ataki.
+Ĉi tio estas farita kiam persono B ŝanĝas sian pozicion post kiam persono A sukcese atakis la
+komencan pozicion de persono B. La celo estas per persono B por movi la celfoston por ke estu tre
+malfacile de persono A por ataki la novan movitan celfoston de persono B.
 
->Petro asertis, ke estis pro la ĉiutaga ingestado de Ikso Kapsuloj kiu siajn renojn
->plisanigis. Kiam li estis diagnozita de rena gruzmalsano, li asertis, ke se ne estis pro Ikso
->Kapsuloj lia sano devus esti pli malbone.
+>Petro asertis, ke estis pro la ĉiutaga ingestado de Ikso-Kapsuloj kiu plisanigis siajn renojn. Kiam
+>li estis diagnozita de rena gruzmalsano, li asertis, ke se ne estis pro Ikso-Kapsuloj, lia sano
+>devus esti pli malbone.
 
-Sian pozicion la parolanto ŝanĝis kiam siaj komencaj asertoj estis komprimitaj. Kiam la situacio
-ŝanĝiĝis, sian pozicion la parolanto ankaŭ ŝanĝis.
+La parolanto ŝanĝis sian pozicion kiam siaj komencaj asertoj estis kompromitaj. Kiam la situacio
+ŝanĝiĝis, la parolanto ankaŭ ŝanĝis sian pozicion.
 
 
-<a name="veneni"></a>La puton veneni
+<a name="veneni">La puton veneni</a>
 ------------------------------------
 
-Ĉi tio fifaritas kiam persono B kontraŭparolas, ke unu aŭ ĉiom da fontoj de persono A nevalidas kaj
-neutilas, sekve la argumenton de persono A igas neakcepteblaj.
+Ĉi tio estas fifarita kiam persono B kontraŭparolas, ke unu aŭ ĉiom da fontoj de persono A nevalidas kaj
+neutilas, igante la argumentojn de persono A neakcepteblaj.
 
 >«Unu el la fontoj de via papero estas raporto de bone konata verkoŝtelisto. Ĉi tio igas viajn
 >proponojn invalidaj kaj ni ne akceptos ilin.»
 
-Supozante, ke la fonta informo ja validas, la argumenton kiun persono A prezentas ne
-malvalidigas. Ĉi tio rilatas al apelo al devenoj.
+Supozante, ke la fonta informo ja validas, la argumento kiun persono A prezentas ne malvalidiĝas.
+Ĉi tio estas rilata al apelo al devenoj.
 
 
-<a name="finrimarkoj"></a>Finrimarkoj
+<a name="finrimarkoj">Finrimarkoj</a>
 -------------------------------------
 
-Mi esperas, ke per ĉi tiu afiŝo, plian pensadan klarecon mi povis doni.
+Mi esperas, ke per ĉi tiu afiŝo, mi povis doni plian pensadan klarecon.
