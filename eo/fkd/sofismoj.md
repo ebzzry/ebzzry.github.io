@@ -2,7 +2,7 @@ Milda Enkonduko al Sofismoj
 ===========================
 
 <div class="center">Esperanto ◆ [English](/en/fallacies/)</div>
-<div class="center">Laste ĝisdatigita: la 7-an de Marto 2022</div>
+<div class="center">Laste ĝisdatigita: la 13-an de Marto 2022</div>
 
 >Lerni ne necesas; nek travivas.<br>
 >―W. Edwards DEMING
@@ -26,7 +26,7 @@ Milda Enkonduko al Sofismoj
 - [Respondeco de pruvo](#pruvo)
 - [Glata inklino](#glata)
 - [Ruĝa haringo](#rugxaharingo)
-- [Pajlohoma argumento](#pajlohamo)
+- [Ĉifonfiguro](#cxifonfiguro)
 - [Apelo al aĝo](#agxo)
 - [Apelo al servodaŭro](#servodauxro)
 - [Apelo al aŭtoriteco](#auxtoriteco)
@@ -49,8 +49,8 @@ Milda Enkonduko al Sofismoj
 - [Malbona analogio](#malbonaanalogio)
 - [Malkreskita aserto](#malkreskita)
 - [Malplej aprobebla hipotezo](#malplej)
-- [La celfoston movi](#movi)
-- [La puton veneni](#veneni)
+- [Movi la celfoston](#movi)
+- [Veneni la puton](#veneni)
 - [Finrimarkoj](#finrimarkoj)
 
 
@@ -223,7 +223,7 @@ La celo estas forlasi la originalan temon, por forkonduki la aŭskultanton. Ĉi 
 rimarkitaj en politikaj intervjuoj kaj diskutoj.
 
 
-<a name="pajlohamo">Pajlohoma argumento</a>
+<a name="cxifonfiguro">Ĉifonfiguro</a>
 -------------------------------------------
 
 Ĉi tio estas fifarita kiam persono B prezentas malplifortan, fuŝformitan version de la argumento
@@ -530,7 +530,7 @@ sango. Estis poste malkovrite, ke dukto estis konektita per kondukilo kaj bovosa
 tra ĝi.
 
 
-<a name="movi">La celfoston movi</a>
+<a name="movi">Movi la celfoston</a>
 ------------------------------------
 
 Ĉi tio estas farita kiam persono B ŝanĝas sian pozicion post kiam persono A sukcese atakis la
@@ -545,7 +545,7 @@ La parolanto ŝanĝis sian pozicion kiam siaj komencaj asertoj estis kompromitaj
 ŝanĝiĝis, la parolanto ankaŭ ŝanĝis sian pozicion.
 
 
-<a name="veneni">La puton veneni</a>
+<a name="veneni">Veneni la puton</a>
 ------------------------------------
 
 Ĉi tio estas fifarita kiam persono B kontraŭparolas, ke unu aŭ ĉiom da fontoj de persono A nevalidas kaj
