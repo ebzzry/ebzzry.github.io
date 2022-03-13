@@ -1,7 +1,7 @@
 Verbotempoj en La Angla
 =======================
 
-<div class="center">Esperanto ◆ [English](/en/verb-tenses/)</div>
+<div class="center">Esperanto ■ [English](/en/verb-tenses/)</div>
 <div class="center">Laste ĝisdatigita: la 8-an de Marto 2022</div>
 
 >La kontrasto inter la ordinara kaj la eksterordinara estas tiu eta pliaĵo.<br>

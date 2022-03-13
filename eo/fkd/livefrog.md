@@ -1,7 +1,7 @@
 Migri de LiveJournal al Frog
 ============================
 
-<div class="center">Esperanto ◆ [English](/en/livefrog/)</div>
+<div class="center">Esperanto ■ [English](/en/livefrog/)</div>
 <div class="center">Laste ĝisdatigita: la 19-an de Februaro 2022</div>
 
 >Mi ne scias kien mi iras, sed mi estas sur mia vojo.<br>

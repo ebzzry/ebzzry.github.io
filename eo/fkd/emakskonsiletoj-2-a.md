@@ -1,7 +1,7 @@
 Emaksaj Konsiletoj 2-a: Seancoj kaj Pakoj
 =========================================
 
-<div class="center">Esperanto ◆ [English](/en/emacs-tips-2/)</div>
+<div class="center">Esperanto ■ [English](/en/emacs-tips-2/)</div>
 <div class="center">Laste ĝisdatigita: la 25-an de Februaro 2022</div>
 
 >Sonorilo kiu ne povas sonori ne havas celon.<br>
