@@ -7,23 +7,28 @@ How to Communicate like a Human
 >The ability to speak does not make you intelligent.<br>
 >―Qui-Gon Jinn
 
+<img src="/bil/andriyko-podilnyk-zGQ17qQMaaM-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="andriyko-podilnyk-zGQ17qQMaaM-unsplash" title="andriyko-podilnyk-zGQ17qQMaaM-unsplash-1008x250"/>
+
 We take communication for granted. Just because you can speak does not mean that you can
 communicate. Everyday, we use whatever media is available to convey ideas, messages, and absurdities
-to one another. However, we don’t really bother to put attention to how we communicate—as long as
-the question of what are we communicating is answered, we’re satisfied.
+to one another. However, we don’t really bother to put attention to how we communicate. As long as
+what we’re asking is simply answered, we’re satisfied. That should change.
 
-An effective communication happens when a message is conveyed as a means to reach a desired
+Effective communication happens when a message is conveyed as a means to reach a desired
 goal. Due to its goal-based approach, it doesn’t matter if the communicator communicated more than what
 he intended. When you use a tank to kill a single mosquito, it is effective.
 
-An efficient communication happens when the exact amount of message is conveyed—no more; no less. An
+Efficient communication happens when the exact amount of message is conveyed—no more; no less. An
 example is when someone gives accurate instructions to someone to do something, to a tee. This does
 not leave room for errors on the communicatee.
 
-In this article, I’m going to discuss how to approach communication in a human way. This deviates
-from the psychopathic methods of contemporary textbooks about communication. In a corporate or
-business setting, it is far too common to see everyone communicating to one another like a bunch of
-rabid hyenas in a steel cage—sterile and without compassion.
+Frigid communication happens when cold manners of speaking are used. It carries the psychopathic
+methods of contemporary textbooks about communication. In a corporate or business setting, it is far
+too common to see everyone communicating to one another like rabid hyenas in a steel cage—sterile
+and without compassion.
+
+In this article, I’m going to discuss how to approach communication in a human way. How is human
+communication different from other methods?
 
 
 Spoken language

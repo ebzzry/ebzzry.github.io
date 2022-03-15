@@ -7,80 +7,109 @@ Kiel Komuniki Samkiel Homo
 >La kapablo por paroli ne igas onin saĝa.<br>
 >―Qui-gon JINN
 
+<img src="/bil/andriyko-podilnyk-zGQ17qQMaaM-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="andriyko-podilnyk-zGQ17qQMaaM-unsplash" title="andriyko-podilnyk-zGQ17qQMaaM-unsplash-1008x250"/>
+
+
+<a name="et">Enhavotabelo</a>
+-----------------------------
+
+- [Enkonduko](#enkonduko)
+- [Parolita lingvo](#parolita)
+  + [Homoj, ne maŝinoj](#homoj)
+  + [Akcepti limigojn](#limigoj)
+  + [Estu tolereme](#tolereme)
+- [Skribita lingvo](#skribita)
+  + [Estu ĝentile](#gxentile)
+  + [Uzu emoĝiojn ŝpareme](#emogxioj)
+  + [Uzu la krisignon](#krisigno)
+- [Korpa lingvo](#korpa)
+  + [Kliniĝu antaŭe](#klinigxu)
+  + [Montru malfermajn polmojn](#polmoj)
+  + [Rigardu la okulojn](#okuloj)
+- [Aliaj aferoj](#aliaj)
+  + [Adaptu al ĉiu persono](#adaptu)
+  + [Aŭskultu pli](#aŭskultu)
+  + [Ridetu](#ridetu)
+
+
+<a name="enkonduko">Enkonduko</a>
+---------------------------------
+
 Ni traktas la komunikadon nepripensinde. Nur ĉar oni povas paroli ne signifas, ke oni povas
-komuniki. Ĉiutage kian ajn perilon ni uzas por alparoli ideojn, mesaĝojn, kaj absurdaĵojn alparoli.
-Bedaŭrinde, ni fakte ne atentas doni atenton kiel ni komuniki—tiel longe kiel la demando de tio,
-kion ni komunikas estas respondita, ni satiĝas.
+komuniki. Ĉiutage ni uzas kian ajn perilon por alparoli ideojn, mesaĝojn, kaj absurdaĵojn alparoli.
+Bedaŭrinde, ni fakte ne donas atenton kiel ni komunikas. Tiel longle kiel niaj demandoj estas
+responditaj, ni simple satiĝas. Tio devas ŝanĝiĝi.
 
 Okazas efektiva komunikado kiam mesaĝo estas alportita kiel ilo por atingi volan celon. Pro la
-celbazita aliro, ne gravas se la komunikanto komunikis pli da intentica mesaĝo. Kiam oni uzas tankon
-por mortigi moskiton, tio estas efektive.
+celbazita aliro, ne gravas se la komunikanto komunikis pli da tio, kiun li intence komunikis. Kiam
+oni uzas tankon por mortigi moskiton, ĝi estas efektive.
 
-Okazas ekonomia komunikado kiam la ekzakta kiomo de mesaĝo alportitas—nek pli, nek malpi. Ekzemplo
-estas kiam ekzaktajn priskribojn oni donas al iu por ion fari, senerare, senmakule. Erarojn de
-komunikado ĉi tiu metodo ne permesas.
+Okazas ekonomia komunikado kiam la ekzakta kvanto da mesaĝo estas alportita—nek pli, nek malpi.
+Ekzemplo estas kiam oni donas ekzaktajn priskribojn al iu por fari ion, senerare, senmakule. Ĉi tiu
+metodo ne permesas erarojn de komunikado.
 
-En ĉi tiu artikolo, mi diskutos kiel komunikadon aliri home. Ĉi tio devias de la psikopatiaj metodoj
-de kutimaj lernolibroj pri komunikado. En firmaaj kaj komercaj okazejoj, ĉi tio estas tro kutime
-vidita, en kiu, ĉiuj komunikas unu la alian kiel aro de rabiaj hienoj en ŝtala kaĝo—malsane kaj
+Okazas frida komunikado kiam oni uzas malvarman paralodon. Tio portas la psikopatiajn metodojn de
+kutimaj lernolibroj pri komunikado. En firmaaj kaj komercaj okazejoj, ĉi tio estas tro kutime
+vidita, en kiu, ĉiuj komunikas al unu la alia kiel rabiaj hienoj en ŝtala kaĝo—malsane kaj
 senkompate.
 
-
-Parolita lingvo
----------------
-
-Ni lernis kiel komuniki unue, antaŭ ol ni lernis kiel skribi; ĉi tio multe parolas pri kiel prae estas
-verba komunikado. Kvankam, ĉi tio kostas; ĝi estas facile por uzi kaj maluzi. Kiam komplimenton iu
-donas al oni, la impreso daŭras vivtempe. Kiam malutilajn vortojn iu diras, la dorolon ni portas por
-la ceteraj ne niaj vivoj.
+En ĉi tiu artikolo, mi diskutos kiel aliri komunikadon home. Kiel homa komunikado malsamas al aliaj
+metodoj?
 
 
-### Homoj, ne maŝinoj
+<a name="parolita">Parolita lingvo</a>
+--------------------------------------
 
-Kiam ni komunikas al maŝinoj—ĉu ili estas programara aŭ aparatara formo—ekzaktan korespondon inter
-niaj intencoj kaj la eligojn kiuj ni deziras el la enigoj ni devas fari. La interagoj kaj la
-rezultoj de tiel komputeblas kaj antaŭdireblas.
-
-Homoj estas ege malsamaj—ne ekzistas 1:1 rilato de instrukcioj kaj la
-elveno. Homoj estas emociaj bestoj. Ni disvolviĝis el malsamaj cirkonstancaro
-kontraste kun modernaj komputikaj sistemoj kiujn ni nun havas. Kiam ekzaktajn
-mesaĝojn ni komunikas, iomajn kelkajn faktorojn ni ne tenas en la kalkulo
-inkluzive la variablecon de interpreto. Nur ĉar kion ni diras al la alia flanko
-de la komunikado ni klare komprenas, ne signifas, ke ĝin la alia flanko ankaŭ
-klare komprenas. Ĉu sufiĉan fonon kaj kuntekston al la komunikato ni disponigis?
-Ĉu la mensan bildon de niaj ideoj al la komunikato ni ekzakte transmetis? Ĉu
-miajn pensajn procedojn ĝi povas konstrui kiel eble plej mi deziris? Se unu de
-tiuj demandoj estas responditaj de ne, tiam ni devas retaksi kiel ni komuniki.
+Ni lernis kiel komuniki unue, antaŭ ol ni lernis kiel skribi; ĉi tio diras multe kiel prae estas
+verba komunikado. Kvankam, ĉi tio kostas; ĝi estas facila por uzi kaj maluzi. Kiam komplimenton iu
+donas al oni, la impreso daŭras vivtempe. Kiam iu diras malutilajn vortojn, ni portas la dorolon por
+la cetero ne niaj vivoj.
 
 
-### Limigojn akcepti
+### <a name="homoj">Homoj, ne maŝinoj</a>
 
-Kiam mesaĝoj al iu kiuj ne la samajn mensajn kapablojn havas kiel la komunikanto, iu bezonas
-komuniki, alĝustigoj devos esti faritaj. Aferojn ĉiuj el ni traktas malsame. Ŝaka grandmajstro devas
-teni en la kalkulo, ke se komencanton ri instruas, nur tiom la studanto povas kompreni. Ri ne povas
-ekstremiĝi kaj rin devigi por altnivelajn temojn kompreni. Estas malpenetrebla muro; tiu muro nur
-malplidekiĝas per tempo.
+Kiam ni komunikas al maŝinoj—ĉu programara aŭ aparatara formo—ni devas fari ekzaktan korespondon
+inter niaj intencoj kaj la eligojn kiuj ni deziras el la enigoj. La interagoj kaj la rezultoj de tio
+estas komputeblaj kaj antaŭdireblaj.
 
-
-### Estu tolereme
-
-Estas facile por fali al insido, en kiu, niaj emocioj volus ŝati por niajn komunikadajn procedojn
-regi. Kiam ni opinias, ke kiujn ni komunikas ne estas bone asimiliĝis de la komunikato, ni
-frustriĝas kaj maltolerimiĝas. Kiam ĝi okazas, niajn ideojn ni puŝas eĉ pli malsupren la aleon, kiu
-la jam malfunkcian komunikadon pliseverigas. Kiam paciencon ni malhavas, ni ne plu komprenas kial ni
-eĉ komunikas en la unua okazo.
+Homoj estas ege malsamaj—ne ekzistas 1:1 rilato de instrukcioj kaj la elveno. Homoj estas emociaj
+bestoj. Ni disvolviĝis de malsamaj cirkonstancaroj kontraste al modernaj komputikaj sistemoj kiujn
+ni nun havas. Kiam ni komunikas ekzaktajn mesaĝojn, ni ne tenas iomajn kelkajn faktorojn en la
+kalkulo inkluzive la variablecon de interpreto. Nur ĉar tio kion ni diras al la alia flanko de la
+komunikado ni klare komprenas, ne signifas, ke la alia flanko ankaŭ klare komprenas ĝin. Ĉu ni donas
+sufiĉan fonon kaj kuntekston al la komunikato? Ĉu ni ekzakte transmetis la mensan bildon de niaj
+ideoj al la komunikato? Ĉu ĝi povas konstrui miajn pensajn procedojn kiel eble plej mi deziris? Se
+eĉ unu el tiuj demandoj estas responditaj per ne, do ni devas retaksi kiel ni komunikas.
 
 
-Skribita lingvo
----------------
+### <a name="limigoj">Akcepti limigojn</a>
 
-Kelkaj progresoj en skribado estis realigitaj en la antaŭaj jardekoj. Ni iris de manskribitaj
-enhavoj el komputile skribitaj. Tamen, eĉ per la oportunoj de skribado, ni ankoraŭ estas
-inklinemaj por la mesaĝojn ne povas kapabli sendi klare al niaj ricevantoj. Skribita, male al
-parolita lingvo estas alia bestio entute.
+Kiam oni bezonas komuniki mesaĝojn al iu kiu ne havas la samajn mensajn kapablojn kiel la
+komunikanto, alĝustigoj devos esti faritaj. Ĉiuj el ni traktas aferojn malsame. Ŝaka grandmajstro
+devas memoru, ke se komencanton ri instruas, la studanto povas kompreni nur tiom da lecio. La
+instruanto ne povas ekstremiĝi kaj devigi rin por kompreni altnivelajn temojn. Estas malpenetrebla
+muro; tiu muro nur malplidikiĝas laŭ tempo.
 
 
-### Estu ĝentile
+### <a name="tolereme">Estu tolereme</a>
+
+Estas facile por fali en insidon, en kiu, niaj emocioj volus ŝati por regi niajn komunikadajn
+procedojn. Kiam ni opinias, ke kiujn ni komunikas ne estas bone asimiliĝis de la komunikato, ni
+frustriĝas kaj maltolerimiĝas. Kiam tio okazas, ni puŝas niajn ideojn eĉ pli malsupren la aleon, kiu
+pliseverigas la jam malfunkcian komunikadon. Kiam ni malhavas paciencon, ni ne plu komprenas kial
+ni eĉ komunikas unue.
+
+
+<a name="skribita">Skribita lingvo</a>
+--------------------------------------
+
+Kelkaj progresoj en skribado estis realigitaj dum la pasintaj jardekoj. Ni iris de manskribitaj
+enhavoj al komputile skribitaj. Tamen, eĉ per la oportunoj de skribado, ni ankoraŭ estas inklinemaj
+por ne esti kapablaj por sendi la mesaĝojn klare al niaj ricevantoj. Skribita male al parolita
+lingvo estas alia bestio entute.
+
+
+### <a name="gxentile">Estu ĝentile</a>
 
 Kio estas la diferenco inter _«Legu la dokumentojn.»_ kaj _«Bonvole legu la dokumentojn.»_ aŭ eĉ
 _«Ĉu vi bonvolus legi la dokumenton?»_ Kiam la pravaj vortoj uzitas, ni pozitive bildigas, ni imagas
@@ -89,7 +118,7 @@ vortojn ni uzu troe, kreante trostreĉon al la mesaĝo, la mesaĝon tute ŝanĝi
 «_Ek, ve!_»
 
 
-### Emoĝiojn uzu ŝpareme
+### <a name="emogxioj">Uzu emoĝiojn ŝpareme</a>
 
 Unu malavantaĝo de skribita komunikado, estas, ke estas malfacile por emociojn esprimi, kiujn oni
 volas montri. Estas fojoj, en kiu, kia ajn bonaj la vortoj, ankoraŭ ne eblas por niajn varmecojn kaj
@@ -98,24 +127,25 @@ mesaĝon de persono, kiu feliĉecon montras, la bildo de feliĉa vizaĝo alporta
 kun tiu bildo, facile. Tamen, same kiel parfumoj, tro multe malbonas.
 
 
-### Anstataŭ punkton (.) krisignon (!) uzu
+### <a name="krisigno">Uzu la krisignon</a>
 
 La interpunkcioj kiujn ni uzas en niaj mesaĝoj multe gravas, ĉu ili estas malgrandaj frazeroj aŭ
-plenaj frazoj. Ĉi tio, denove, konektitas al la maniero en kiu la personon, kiu komunikas, ni
+plenaj frazoj. Ĉi tio, denove, estas konektita al la maniero en kiu la persono, kiu komunikas, ni
 imagas. La respondon _«Bone.»_ ni traktu. Ĉi tiu mallonga mesaĝo lakonas kaj klaras. Bedaŭrinde, ĝi
-ankaŭ estas senenhava de vivo; vervon ĝi malhavas. Ĉi tion kontrastu al «Bone!» Ĉi tiu versio
-vivas. Mensan bildon de persono kiu estas ĝisosta kaj engaĝita kun la konversacio kreas.
+ankaŭ estas senenhava de vivo; vervon ĝi malhavas. Ĉi tion kontrastu al «Bone!» Ĉi tiu versio vivas.
+Mensan bildon de persono kiu estas ĝisosta kaj engaĝita kun la konversacio kreas. Oni devas uzi la
+krisignon (!) anstataŭ la punkton (.)
 
 
-Korpa lingvo
-------------
+<a name="korpa">Korpa lingvo</a>
+--------------------------------
 
 Kiam mesaĝojn kiuj ne kongruas al kiun ni parolas niaj korpoj alportas, okazas
 misekvilibrio. Konfuzon, kaj kelkfoje frustron ĉi tio kreas. Se nia parolo estas la sono kiu elvenas
 de niaj buŝoj, niaj korpoj estas niaj ŝeloj. Sen staremaj ŝeloj, niaj mesaĝoj perdiĝos.
 
 
-### Antaŭen kliniĝu
+### <a name="klinigxu">Kliniĝu antaŭen</a>
 
 Ĉi tion pripensu: kiel iu komunikas al oni, sian korpon ri movas for. Kiun mesaĝon sendas al oni? Ĉi
 tion kontrastu kun iu, kiu antaŭen kliniĝas por onin aŭskulti. Kio okazas, estas, la nura ago de
@@ -125,7 +155,7 @@ nekalkulinda. Tamen multe gravas al la iu kiu parolas. Oni signalas al iu, ke on
 riajn mesaĝojn ricevi. Oni montras, ke oni aktive partoprenas en la konversacion.
 
 
-### Malfermajn polmojn montru
+### <a name="polmoj">Montru malfermajn polmojn</a>
 
 Kiam niajn polmojn ni montras al la aŭskultanto, sencon de partopreno ni envokas, iu kiu montras, ke
 tiu kun malfermaj polmoj rin igas vundebla. Ĉi tio estas pro parte de nia anatomio—niaj polmoj
@@ -134,23 +164,24 @@ ege kompromisitaj. Kiam niajn polmojn ni montras, malfermeco ni montras, volecon
 ni montras.
 
 
-### La okulojn rigardu, sed ne fiksrigardu
+### <a name="okuloj">Rigardu la okulojn</a>
 
 En vizaĝalvizaĝaj interagoj, neniu estas pli potenca kaj pli subtila ol okulkontakto. Eĉ se vortoj
-ne estis eldiritaj, mesaĝoj komunikitas. Kiam iu estas parolanta al oni, okulkontakton
-pluigu. La ruzo estas por ne rigardi rekte al la okuloj, sed ie inter la ponto aŭ nur centimetro
-ĉirkaŭ la linio en kie la brovoj kunsidas. Por ĝin pliengaĝigi, nelonge rigardi je la flankoj aŭ
-malsupren, tiam reiru al la areo de la okuloj. Tamen, la aliajn partojn de la korpo de la paronlanto
-ne rigardu dum ĉi tiu procedo; eblas signalojn sendi al ri, ke kion ri diras oni ne priatentas.
+ne estis eldiritaj, mesaĝoj komunikitas. Kiam iu estas parolanta al oni, okulkontakton pluigu. La
+ruzo estas por ne rigardi rekte al la okuloj, sed ie inter la ponto aŭ nur centimetro ĉirkaŭ la
+linio en kie la brovoj kunsidas. Por ĝin pliengaĝigi, nelonge rigardi je la flankoj aŭ malsupren,
+tiam reiru al la areo de la okuloj. Tamen, la aliajn partojn de la korpo de la paronlanto ne rigardu
+dum ĉi tiu procedo; eblas signalojn sendi al ri, ke kion ri diras oni ne priatentas. Do, rigardu la
+okulojn, sed ne fiksrigardu.
 
 
-Miksaĵo
--------
+<a name="aliaj">Aliaj aferoj</a>
+--------------------------------
 
 Estas aferoj kiuj ne adaptas en la kategiroj ĉi-supre, kaj ilin mi kolektis ĉi tie anstataŭe.
 
 
-### Adaptu al ĉiu persono
+### <a name="adaptu">Adaptu al ĉiu persono</a>
 
 Ĉiesmezuran aliron ne havu—kiel t-ĉemizo. Nur ĉar la kutimaj metodoj funkcias kun alia persono, ne
 signifas, ke estas malprava por alia. Aŭ, nur ĉar oni tiel kutimiĝas per la komunikadaj
@@ -159,7 +190,7 @@ uzi ĉie. La lignan segilon ne uzu al feraj bastonoj. Tion, kion personon funkci
 interezojn konu. La potencon de babilado ne malestimu.
 
 
-### Aŭskultu pli
+### <a name="auxskultu">Aŭskultu pli</a>
 
 Ne gravas kiel bone ni pensas pri ni, ni devas alliniiĝi al tiu, kiu komunikas al ni. Kontraŭe,
 kial partopreni tute, se ni tro okupatas per niaj malhumiloj, ke nur niaj voĉoj ni volas aŭdiĝi. La
@@ -167,7 +198,7 @@ urĝon por maldaŭrigi regu. La interparolon ne forkaptu. Ju pli volecon por aŭ
 pli homoj volos ŝati por aŭskulti al oni.
 
 
-### Ridetu
+### <a name="ridetu">Ridetu</a>
 
 Ne okazos la utilŝarĝo de rideto en la momenton, en kiu la rideto estis ricevita; estas dum la
 momentoj de pripensadoj. Daŭreman efikon rideto kreas, kaj ĝi estas tiel potenca, ke ĝi kapablas por
