@@ -1,5 +1,5 @@
-La Pensoj de Optimisto
-======================
+Pensoj de Optimisto
+===================
 
 <div class="center">Esperanto ■ [English](/en/)</div>
 <div class="center">Laste ĝisdatigita: la 9-an de Marto 2022</div>
