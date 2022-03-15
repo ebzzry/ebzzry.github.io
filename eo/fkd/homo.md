@@ -7,14 +7,14 @@ Kiel Komuniki Samkiel Homo
 >La kapablo por paroli ne igas onin saĝa.<br>
 >―Qui-gon JINN
 
-La komunikadon ni traktas nepripensinde. Nur ĉar oni povas paroli ne signifas, ke oni povas
-komuniki. Ĉiutage kian ajn perilon ni uzas por ideojn, mesaĝojn, kaj absurdaĵojn alparoli unu la
-alian. Bedaŭrinde, atenton kiel ni komuniki ni fakte ne atentas meti—tiel longe kiel la demando de
-tio, kion ni komunikas estas respondita, ni satiĝas.
+Ni traktas la komunikadon nepripensinde. Nur ĉar oni povas paroli ne signifas, ke oni povas
+komuniki. Ĉiutage kian ajn perilon ni uzas por alparoli ideojn, mesaĝojn, kaj absurdaĵojn alparoli.
+Bedaŭrinde, ni fakte ne atentas doni atenton kiel ni komuniki—tiel longe kiel la demando de tio,
+kion ni komunikas estas respondita, ni satiĝas.
 
-Okazas efektiva komunikado kiam mesaĝo alportitas kiel ilo por volan celon atingi. Pro la
-celbazita aliro, ne gravas se la komunikanto komunikis pli da intentica mesaĝo. Kiam tankon oni uzas
-por moskiton mortigi, estas efektive.
+Okazas efektiva komunikado kiam mesaĝo estas alportita kiel ilo por atingi volan celon. Pro la
+celbazita aliro, ne gravas se la komunikanto komunikis pli da intentica mesaĝo. Kiam oni uzas tankon
+por mortigi moskiton, tio estas efektive.
 
 Okazas ekonomia komunikado kiam la ekzakta kiomo de mesaĝo alportitas—nek pli, nek malpi. Ekzemplo
 estas kiam ekzaktajn priskribojn oni donas al iu por ion fari, senerare, senmakule. Erarojn de
