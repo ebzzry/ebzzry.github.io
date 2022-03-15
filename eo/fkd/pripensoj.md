@@ -2,10 +2,9 @@ Pripensoj
 =========
 
 <div class="center">Esperanto ■ [English](/en/reflections/)</div>
-<div class="center">Laste ĝisdatigita: la 7-an de Februaro 2022</div>
+<div class="center">Laste ĝisdatigita: la 15-an de Marto 2022</div>
 
-Ĉi tiu paĝo enhavas kelke da miaj propraj pripensoj. La enskriboj estas
-ordigitaj laŭ kronologiordo.
+Ĉi tiu paĝo enhavas kelke da miaj propraj pripensoj. La enskriboj estas ordigitaj laŭ kronologiordo.
 
 
 - Dum la kuraĝuloj kuraĝas la ŝtormojn per kuraĝo kaj triumfo, la malkuraĝuloj ripozas sur la
@@ -409,3 +408,6 @@ ordigitaj laŭ kronologiordo.
 
 
 - Se ne ŝatas ludi oni la ludon, ŝatas ludi alia iu ĝin.<br>
+
+
+- Oni ne frapetas sian propran ŝultron.<br>

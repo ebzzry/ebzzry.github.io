@@ -6,8 +6,7 @@ Pensoj de Optimisto
 
 <img src="/bil/pluvis-1008x250.jpg" class="banner" alt="pluvis" title="Ĉe la vizaĝo de la kosmo, ni ĉiuj estas porĉiame infanoj." />
 
-<div class="text-right">Retejo pri komputado, hominklinaĵoj, kaj hazardaĵoj. La
-enskriboj estas ordigitaj laŭ inverskronologiordo.</div>
+<div class="text-right">Retejo pri komputado, hominklinaĵoj, kaj hazardaĵoj. La enskriboj estas ordigitaj laŭ inverskronologiordo.</div>
 
 - [Kiel Mi Uzas Giton](gito/)
 - [Milda Enkonduko al Nedeterminismo en Skimo](amb/)
