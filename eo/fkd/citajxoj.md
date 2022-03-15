@@ -147,7 +147,7 @@ tra la jaroj.
   ajn.<br>—Erma BOMBECK
 
 
-- Se oni vivas per mono, estas ĉion oni elakiros.<br>—Anonimulo
+- Se oni vivas per mono, estas ĉion oni elakiros.<br>—anonimulo
 
 
 - La ŝanco favoras la pretan menson.<br>—Louis PASTEUR
@@ -249,7 +249,7 @@ tra la jaroj.
 
 
 - Kiam oni falegis antaŭe kaj oni postviviĝis, estas tre malmultaj aferoj en la vivo kiuj povas
-  timigi sin.<br>—Sennomo
+  timigi sin.<br>—anonimulo
 
 
 - Kion ni faras por ni, mortas kun ni. Kion ni faras por ili, porĉiame restas.<br>—Albert PIKE
@@ -281,10 +281,10 @@ tra la jaroj.
 - Estas pli bone esti sola anstataŭ kune kun iu, kiu igas onin senti, ke oni solas.<br>—Ivan JUNIUS
 
 
-- La povo por ion atingi dependegas per kiom oni kredas oni povas atingi ĝin.<br>—Anonimulo
+- La povo por ion atingi dependegas per kiom oni kredas oni povas atingi ĝin.<br>—anonimulo
 
 
-- La popoloj kiuj riskiĝas, estas ofte tiuj, kiuj finiĝas esti la plej feliĉaj.<br>—Anonimulo
+- La popoloj kiuj riskiĝas, estas ofte tiuj, kiuj finiĝas esti la plej feliĉaj.<br>—anonimulo
 
 
 - Se oni faras tion , kion oni ĉiam faras; oni akiros tion , kion oni ĉiam akiras.<br>—Anthony ROBBINS
@@ -484,7 +484,7 @@ tra la jaroj.
 
 
 - Estas du specoj de homoj en la mondo: homoj kiuj pensas, ke ekzistas du specoj de homoj en la
-  mondo, kaj homoj kiuj ne pensas tion.<br>—Nekonata
+  mondo, kaj homoj kiuj ne pensas tion.<br>—anonimulo
 
 
 - Oni ne povas eltrovi la estontecon per uzi komercaĵojn.<br>—Alan KAY
@@ -703,7 +703,7 @@ tra la jaroj.
   ALTMAN
 
 
-- Antaŭ ol oni enŝipiĝos por vojaĝo de venĝo, du tombojn fosu.<br>—Lillet WALTERs
+- Antaŭ ol oni enŝipiĝos por vojaĝo de venĝo, du tombojn fosu.<br>—Lillet WALTERS
 
 
 - Klareco de penso antaŭvenas venas antaŭ klareco de lingvo.<br>—Ali ROWGHANI
@@ -754,7 +754,7 @@ tra la jaroj.
   Genesis Evangelion
 
 
-- Tiu kiu meritas travivi estas tiu kiu havas la deziron por tion ebligi.<br>Misato KATSURAGI, Neon
+- Tiu kiu meritas travivi estas tiu kiu havas la deziron por tion ebligi.<br>—Misato KATSURAGI, Neon
   Genesis Evangelion
 
 
