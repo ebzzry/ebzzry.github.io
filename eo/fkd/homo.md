@@ -2,7 +2,7 @@ Kiel Komuniki Samkiel Homo
 ==========================
 
 <div class="center">Esperanto ■ [English](/en/human/)</div>
-<div class="center">Laste ĝisdatigita: la 31-an de Aŭgusto 2021</div>
+<div class="center">Laste ĝisdatigita: la 15-an de Marto 2022</div>
 
 >La kapablo por paroli ne igas onin saĝa.<br>
 >―Qui-gon JINN
