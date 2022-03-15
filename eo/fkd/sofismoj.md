@@ -2,7 +2,7 @@ Milda Enkonduko al Sofismoj
 ===========================
 
 <div class="center">Esperanto ■ [English](/en/fallacies/)</div>
-<div class="center">Laste ĝisdatigita: la 13-an de Marto 2022</div>
+<div class="center">Laste ĝisdatigita: la 15-an de Marto 2022</div>
 
 >Lerni ne necesas; nek travivas.<br>
 >―W. Edwards DEMING
@@ -21,7 +21,7 @@ Milda Enkonduko al Sofismoj
 - [Malsimpla demando](#malsimplademando)
 - [Falsa dilemo](#falsadilemo)
 - [Falsa kompromiso](#falsakompromiso)
-- [Hasta ĝeneralaĵo](#hasta)
+- [Hasta ĝeneraligo](#hasta)
 - [Balaema ĝeneraligo](#balaema)
 - [Respondeco de pruvo](#pruvo)
 - [Glata inklino](#glata)
@@ -157,7 +157,7 @@ La parolanto evitas la diskuton kaj la decidon pri la ebleco, ke unu aŭ pli arg
 solvo al la problemo. Ĉi tio estas fifarita por «sidi sur la palisaro» kaj «ludi sendanĝere.»
 
 
-<a name="hasta">Hasta ĝeneralaĵo</a>
+<a name="hasta">Hasta ĝeneraligo</a>
 ------------------------------------
 
 Ĉi tio farita kiam estas supozite, ke parto kreas la tuton. Estas farite kiam konkludo estas
@@ -170,7 +170,7 @@ La parolanto supozis, ke nur pro tio, ke ri spertis malbonan okazaĵon en sia vi
 konkludis, ke ĉiuj samseksemuloj malnoblas, kaj ili devas esti traktitaj per malestimo kaj naŭzo.
 
 
-<a name="balaema">Balaema ĝeneralaĵo</a>
+<a name="balaema">Balaema ĝeneraligo</a>
 ----------------------------------------
 
 Ĉi tio estas fifarita kiam grandparto estas supozita por komponi la tuton. Estas farite kiam
@@ -405,7 +405,7 @@ plejmulto da homoj ankaŭ ne povas fari ĝin.
 >ĝin.»
 
 La parolanto aplikas siajn personajn limojn al ĉio, pro ri mem ne povas fari ĝin. Ĉi tio similas al
-hastaj ĝeneralaĵo.
+hastaj ĝeneraligo.
 
 
 <a name="ekvilibro">Apelo al ekvilibro</a>
