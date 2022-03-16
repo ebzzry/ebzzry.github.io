@@ -7,6 +7,8 @@ Blogging with Frog
 >One person with passion is better than forty people merely interested.<br>
 >―E.M. Forster
 
+<img src="/bil/zdenek-machacek-HYTwWSE5ztw-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="zdenek-machacek-HYTwWSE5ztw-unsplash" title="zdenek-machacek-HYTwWSE5ztw-unsplash"/>
+
 When publishing blog content to the web, most would rely on pre-fabricated services, that do most of
 the heavy lifting. However, there are instances when you want to have more control over your
 stuff. A good example of which are the constraints that providers enforce. Another is the presence
