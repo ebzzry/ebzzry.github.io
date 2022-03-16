@@ -2,10 +2,12 @@ Virtualizing with KVM in Linux
 ==============================
 
 <div class="center">[Esperanto](/eo/kvm/) ■ English</div>
-<div class="center">Last updated: September 6, 2018</div>
+<div class="center">Last updated: March 16, 2022</div>
 
 >If you do what you’ve always done, you’ll get what you’ve always gotten.<br>
 >―Anthony Robbins
+
+<img src="/bil/pierre-chatel-innocenti-N6Hx4HT4mHg-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="pierre-chatel-innocenti-N6Hx4HT4mHg-unsplash" title="pierre-chatel-innocenti-N6Hx4HT4mHg-unsplash"/>
 
 Most of you are familiar with
 [full virtualization](https://en.wikipedia.org/wiki/Full_virtualization) solutions like VMware
