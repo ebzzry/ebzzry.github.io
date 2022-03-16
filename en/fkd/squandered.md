@@ -2,11 +2,13 @@ Squandered Relentlessness
 =========================
 
 <div class="center">[Esperanto](/eo/malsxparitaj/) ■ English</div>
-<div class="center">Last updated: February 19, 2021</div>
+<div class="center">Last updated: March 16, 2022</div>
 
 >The first step towards getting somewhere is to decide that you are not going to stay where you
 >are.<br>
 >―J.P. Morgan
+
+<img src="/bil/steve-johnson-zkNT5mikUuo-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="steve-johnson-zkNT5mikUuo-unsplash" title="steve-johnson-zkNT5mikUuo-unsplash"/>
 
 There is a disturbing and eerie sensation that I feel whenever the cold realization that I am no
 longer a young child comes. The uneasy struggle between learning to let go of my portentous past and
