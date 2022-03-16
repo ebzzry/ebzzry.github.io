@@ -2,12 +2,12 @@ La Ipsilonkombinatoro per Ses Paŝoj
 ===================================
 
 <div class="center">Esperanto ■ [English](/en/y/)</div>
-<div class="center">Laste ĝisdatigita: la 7-an de Marto 2022</div>
+<div class="center">Laste ĝisdatigita: la 16-an de Marto 2022</div>
 
 >Unue, decidu. Kaj faru ĝin. Estas la nura maniero por atingi ion.<br>
 >―Lacus CLYNE, Gundam SEED Destiny
 
-<img src="/bil/david-becker-crs2vlkSe98-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="david-becker-crs2vlkSe98-unsplash-1008x250.jpg" title="david-becker-crs2vlkSe98-unsplash-1008x250.jpg"/>
+<img src="/bil/david-becker-crs2vlkSe98-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="david-becker-crs2vlkSe98-unsplash" title="david-becker-crs2vlkSe98-unsplash"/>
 
 Multe da ni estis instruitaj ke, por difini rikuran proceduron, la rikura alvoko devas uzi la nomon
 de la rikura proceduro. Tamen, la [ipsilonkombinatoro](https://en.wikipedia.org/wiki/Fixed-point_combinator#Y_combinator)

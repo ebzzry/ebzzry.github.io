@@ -2,10 +2,12 @@ Sinkronigi Retnodojn per Usync
 ==============================
 
 <div class="center">Esperanto ■ [English](/en/usync/)</div>
-<div class="center">Laste ĝisdatigita: la 7-an de Marto 2022</div>
+<div class="center">Laste ĝisdatigita: la 16-an de Marto 2022</div>
 
 >Kion mi ne povas krei, mi ne komprenas.<br>
 >―Richard P. FEYNMAN
+
+<img src="/bil/willem-karssenberg-5SH4PHlGHI-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="willem-karssenberg-5SH4PHlGHI-unsplash" title="willem-karssenberg-5SH4PHlGHI-unsplash"/>
 
 Lok-al-loka sinkronigo estas kutime bezonata, kiam du lokoj sendepende kreas dosierajn ĝisdatigojn.
 Ni supozu, ke la firmao _MMM_ havas du oficejojn. En la unua oficejo, ili havas la librotenadan kaj

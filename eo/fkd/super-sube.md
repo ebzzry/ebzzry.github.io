@@ -2,10 +2,12 @@ Super, Sube, kaj Aliloke
 ========================
 
 <div class="center">Esperanto ■ [English](/en/over-under/)</div>
-<div class="center">Laste ĝisdatigita: la 7-an de Marto 2022</div>
+<div class="center">Laste ĝisdatigita: la 16-an de Marto 2022</div>
 
 >La nuraj limoj kiujn havas oni, estas la limoj kiujn kredas oni.<br>
 >―Wayne DYER
+
+<img src="/bil/timon-klauser-3MAmj1ZKSZA-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="timon-klauser-3MAmj1ZKSZA-unsplash" title="timon-klauser-3MAmj1ZKSZA-unsplash"/>
 
 Nia ruza kapablo por preterlaso estas ridinde alta, ĉu solvi problemon aŭ simple provas esti kreema.
 Niaj impetoj por troe realigi estas malkutime regaj se niaj komencaj atendoj ne satiĝis. Ni tiras

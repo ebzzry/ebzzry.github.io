@@ -2,10 +2,12 @@ Synchronizing Sites with Usync
 ==============================
 
 <div class="center">[Esperanto](/eo/usync/) ■ English</div>
-<div class="center">Last updated: February 2, 2022</div>
+<div class="center">Last updated: March 16, 2022</div>
 
 >What I cannot create, I do not understand.<br>
 >―Richard P. Feynman
+
+<img src="/bil/willem-karssenberg-5SH4PHlGHI-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="willem-karssenberg-5SH4PHlGHI-unsplash" title="willem-karssenberg-5SH4PHlGHI-unsplash"/>
 
 Site-to-site synchronizations are usually needed, when two locations, make file updates
 independently. Let’s say the company _MMM_ has two offices. In the first office, they have the
