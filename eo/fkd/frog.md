@@ -7,6 +7,8 @@ Blogi per Frog
 >Unu persono kun ardo pli bonas ol kvardek personoj nure interesataj.<br>
 >―E.M. FORSTER
 
+<img src="/bil/zdenek-machacek-HYTwWSE5ztw-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="zdenek-machacek-HYTwWSE5ztw-unsplash" title="zdenek-machacek-HYTwWSE5ztw-unsplash"/>
+
 Eldonante blogan enhavon al la TTT, la plejmulto da homoj konfidus antaŭkreitajn servojn, kiuj faras
 la grandparton da laboro. Tamen, estas okazoj kiam oni volas havi pli da rego de la aĵoj. Bona
 ekzemplo de tio, estas la limigoj, kiujn provizantoj efikigas. Alia afero estas la ĉeesto de
