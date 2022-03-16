@@ -7,6 +7,8 @@ Migri de LiveJournal al Frog
 >Mi ne scias kien mi iras, sed mi estas sur mia vojo.<br>
 >―Carl SAGAN
 
+<img src="/bil/stephanie-leblanc-xrE6WwccyU-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="stephanie-leblanc-xrE6Wwccy_U-unsplash" title="stephanie-leblanc-xrE6Wwccy_U-unsplash"/>
+
 Estas tempoj kiam oni volas havi plian regon de la enhavo. Estas ankaŭ tempoj kiam ni ne volas
 alian platformon por dikti kio eniras aŭ eliras. Aferoj kiel cenzurado kaj politikoj, facile
 povas rampi al bloga platformo. Mi spertis specificajn kazojn, en kiu, mi bezonis konverti

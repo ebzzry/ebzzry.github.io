@@ -7,8 +7,7 @@ Mia Kinezia Avantaĝa Aranĝo
 >La doloro neeviteblas. La suferado malnepras.<br>
 >―M. Kathleen CASEY
 
-<img src="/bil/avantagxo.jpg" style="display: block; width: 100%; margin-left: auto;
-margin-right: auto;" alt="Kinezia Avantaĝo" title="Kinezia Avantaĝo"/>
+<img src="/bil/avantagxo.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="Kinezia Avantaĝo" title="Kinezia Avantaĝo"/>
 
 
 <a name="et">Enhavotabelo</a>

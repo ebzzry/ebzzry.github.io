@@ -20,7 +20,7 @@ Pensoj de Optimisto
 - [Emaksaj Konsiletoj 3-a: Enmeti kaj Forviŝi](emakskonsiletoj-3-a/)
 - [Milda Enkonduko al la Nix-Familio](nix/)
 - [Konverti de Markdaŭno al HTML per emem](emem/)
-- [Divido en ](haskeldivido/)
+- [Divido en Haskelo](haskeldivido/)
 - [Kiel Komuniki Samkiel Homo](homo/)
 - [Milda Enkonduko al Sofismoj](sofismoj/)
 - [Esperanto-signoj en Linukso](eo-linukso/)
