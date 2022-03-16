@@ -1,6 +1,7 @@
 Musings of an Optimist
 ======================
 
+
 <div class="center">[Esperanto](/eo/) ■ English</div>
 <div class="center">Last updated: March 9, 2022</div>
 
