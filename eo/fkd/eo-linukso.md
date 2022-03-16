@@ -8,6 +8,8 @@ Esperanto-signoj en Linukso
 >faris.<br>
 >―Thomas JEFFERSON
 
+<img src="/bil/stefan-HbwYKfnVz0-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="stefan-HbwYKfnVz0-unsplash" title="stefan-HbwYKfnVz0-unsplash"/>
+
 Mi opinias, ke la [h-](https://eo.wikipedia.org/wiki/H-sistemo) kaj la
 [x-sistemoj](https://eo.wikipedia.org/wiki/x-sistemo) ne plu devas esti uzitaj por la enigi signojn
 specife al Esperanto, krom se, ne estas fizike farebla. Nune, estas du manieroj por la enigi
