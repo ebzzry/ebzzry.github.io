@@ -9,6 +9,8 @@ Verb Tenses in English
 
 *Click [here](/en/verb-tenses-condensed/) for the condensed version.*
 
+<img src="/bil/noor-younis-mId2gG0a9GU-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="noor-younis-mId2gG0a9GU-unsplash" title="noor-younis-mId2gG0a9GU-unsplash"/>
+
 To read, write, and speak better English, one must learn the qualities and peculiarities between the
 different verb tenses. Knowing how to and when to use them will enable you have a better
 appreciation of not only English, but also of languages in general.
