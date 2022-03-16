@@ -2,7 +2,7 @@ Kiel Komuniki Samkiel Homo
 ==========================
 
 <div class="center">Esperanto ■ [English](/en/human/)</div>
-<div class="center">Laste ĝisdatigita: la 15-an de Marto 2022</div>
+<div class="center">Laste ĝisdatigita: la 16-an de Marto 2022</div>
 
 >La kapablo por paroli ne igas onin saĝa.<br>
 >―Qui-gon JINN
@@ -21,14 +21,14 @@ Kiel Komuniki Samkiel Homo
 - [Skribita lingvo](#skribita)
   + [Estu ĝentile](#gxentile)
   + [Uzu emoĝiojn ŝpareme](#emogxioj)
-  + [Uzu la krisignon](#krisigno)
+  + [Uzu la krisignon anstataŭ la punkton](#krisigno)
 - [Korpa lingvo](#korpa)
   + [Kliniĝu antaŭe](#klinigxu)
   + [Montru malfermajn polmojn](#polmoj)
-  + [Rigardu la okulojn](#okuloj)
+  + [Rigardu la okulojn, sed ne fiksrigardu](#okuloj)
 - [Aliaj aferoj](#aliaj)
   + [Adaptu al ĉiu persono](#adaptu)
-  + [Aŭskultu pli](#aŭskultu)
+  + [Aŭskultu pli](#auxskultu)
   + [Ridetu](#ridetu)
 
 
@@ -127,80 +127,77 @@ mesaĝon de persono, kiu feliĉecon montras, la bildo de feliĉa vizaĝo alporta
 kun tiu bildo, facile. Tamen, same kiel parfumoj, tro multe malbonas.
 
 
-### <a name="krisigno">Uzu la krisignon</a>
+### <a name="krisigno">Uzu la krisignon anstataŭ la punkton</a>
 
-La interpunkcioj kiujn ni uzas en niaj mesaĝoj multe gravas, ĉu ili estas malgrandaj frazeroj aŭ
-plenaj frazoj. Ĉi tio, denove, estas konektita al la maniero en kiu la persono, kiu komunikas, ni
-imagas. La respondon _«Bone.»_ ni traktu. Ĉi tiu mallonga mesaĝo lakonas kaj klaras. Bedaŭrinde, ĝi
-ankaŭ estas senenhava de vivo; vervon ĝi malhavas. Ĉi tion kontrastu al «Bone!» Ĉi tiu versio vivas.
-Mensan bildon de persono kiu estas ĝisosta kaj engaĝita kun la konversacio kreas. Oni devas uzi la
-krisignon (!) anstataŭ la punkton (.)
+La interpunkcioj kiujn ni uzas en niaj mesaĝoj estas gravaj, ĉu ili estas malgrandaj frazeroj aŭ
+plenaj frazoj. Ĉi tio, denove, estas konektita al la maniero, en kiu, ni imagas la personon kiu
+komunikas. Ni traktu la respondon «Bone.» Ĉi tiu mallonga mesaĝo lakonas kaj klaras. Bedaŭrinde, ĝi
+ankaŭ estas senenhava de vivo; ĝi malhavas vervon . Kontrastu ĉi tiun al «Bone!» Ĉi tiu versio estas
+vivanta. Tio kreas mensan bildon de persono kiu estas ĝisosta kaj engaĝita kun la konversacio.
 
 
 <a name="korpa">Korpa lingvo</a>
 --------------------------------
 
-Kiam mesaĝojn kiuj ne kongruas al kiun ni parolas niaj korpoj alportas, okazas
-misekvilibrio. Konfuzon, kaj kelkfoje frustron ĉi tio kreas. Se nia parolo estas la sono kiu elvenas
-de niaj buŝoj, niaj korpoj estas niaj ŝeloj. Sen staremaj ŝeloj, niaj mesaĝoj perdiĝos.
+Kiam niaj korpoj alportas mesaĝojn kiuj ne kongruas al kiun ni parolas, okazos malekvilibro. Ĉi tio
+kreas konfuzon, kaj kelkfoje, frustron. Se nia parolo estas la sono kiu elvenas de niaj buŝoj, niaj
+korpoj estas niaj ŝeloj. Sen staremaj ŝeloj, niaj mesaĝoj perdiĝos.
 
 
 ### <a name="klinigxu">Kliniĝu antaŭen</a>
 
-Ĉi tion pripensu: kiel iu komunikas al oni, sian korpon ri movas for. Kiun mesaĝon sendas al oni? Ĉi
-tion kontrastu kun iu, kiu antaŭen kliniĝas por onin aŭskulti. Kio okazas, estas, la nura ago de
-antaŭen kliniĝi, la distanco inter la deveno de la sono—ria buŝo, al la celo de la sono—oniaj
-oreloj, malpligrandiĝas. La rapido, kaj la rilata distanco, en kiu, sono aere trairas estas
-nekalkulinda. Tamen multe gravas al la iu kiu parolas. Oni signalas al iu, ke oni estas ĝisosta por
-riajn mesaĝojn ricevi. Oni montras, ke oni aktive partoprenas en la konversacion.
+Pripensu ĉi tion: kiam oni komunikas al iu, ili movas sian korpon for. Kiun mesaĝon tio sendas?
+Kontrastu ĉi tion kun iu, kiu kliniĝas antaŭen por aŭskulti onin. Kio okazas, estas ke, la nura ago
+de kliniĝi antaŭen, malpligrandiĝas la distanco inter la deveno de la sono—ria buŝo, al la celo de
+la sono—oniaj oreloj. La rapido, kaj la rilata distanco, en kiu, sono aere trairas estas
+nekalkulinda. Tamen tio multe gravas al iu kiu parolas. Oni signalas al iu, ke oni estas ĝisosta por
+ricevi riajn mesaĝojn. Oni montras, ke oni aktive partoprenas en la konversacio.
 
 
 ### <a name="polmoj">Montru malfermajn polmojn</a>
 
-Kiam niajn polmojn ni montras al la aŭskultanto, sencon de partopreno ni envokas, iu kiu montras, ke
-tiu kun malfermaj polmoj rin igas vundebla. Ĉi tio estas pro parte de nia anatomio—niaj polmoj
-karnas kaj delikatas. Se la enaj partoj de niaj manoj vundiĝos, niaj kapabloj por aĵojn teni estas
-ege kompromisitaj. Kiam niajn polmojn ni montras, malfermeco ni montras, volecon por lerni kaj fidon
-ni montras.
+Kiam ni montras niajn polmojn al la aŭskultanto, ni envokas sencon de partopreno. Iu kiu montras, ke
+tiu kun malfermaj polmoj igas rin vundebla. Ĉi tio estas pro de nia anatomio, parte—niaj polmoj
+estas karnaj kaj delikataj. Se vundiĝos la enaj partoj de niaj manoj, niaj kapabloj por teni aĵojn
+estas ege kompromisitaj. Kiam ni montras niajn polmojn, ni montras malfermecon; ni montras volecon
+por lerni; kaj ni montras fidon.
 
 
-### <a name="okuloj">Rigardu la okulojn</a>
+### <a name="okuloj">Rigardu la okulojn, sed ne fiksrigardu</a>
 
-En vizaĝalvizaĝaj interagoj, neniu estas pli potenca kaj pli subtila ol okulkontakto. Eĉ se vortoj
-ne estis eldiritaj, mesaĝoj komunikitas. Kiam iu estas parolanta al oni, okulkontakton pluigu. La
-ruzo estas por ne rigardi rekte al la okuloj, sed ie inter la ponto aŭ nur centimetro ĉirkaŭ la
-linio en kie la brovoj kunsidas. Por ĝin pliengaĝigi, nelonge rigardi je la flankoj aŭ malsupren,
-tiam reiru al la areo de la okuloj. Tamen, la aliajn partojn de la korpo de la paronlanto ne rigardu
-dum ĉi tiu procedo; eblas signalojn sendi al ri, ke kion ri diras oni ne priatentas. Do, rigardu la
-okulojn, sed ne fiksrigardu.
+En vizaĝalvizaĝaj interagoj, neniu estas pli potenca kaj pli subtila ol la okulkontakto. Eĉ se
+vortoj ne estis eldiritaj, mesaĝoj estas komunikitaj. Kiam iu parolas al oni, pluigu okulkontakton.
+La ruzo estas por ne rigardi rekte al la okuloj, sed ien inter la ponto aŭ nur centimetro ĉirkaŭ la
+linio en kie la brovoj kunsidas. Por pliengaĝigi ĝin, nelonge rigardu je la flankoj aŭ malsupren,
+tiam reiru al la areo de la okuloj. Tamen, ne rigardu la aliajn korpopartojn de la paronlanto dum ĉi
+tiu procedo; eblas sendi signalojn al la komunikato, ke oni ne priatentas tion, kion ri diras.
 
 
 <a name="aliaj">Aliaj aferoj</a>
 --------------------------------
 
-Estas aferoj kiuj ne adaptas en la kategiroj ĉi-supre, kaj ilin mi kolektis ĉi tie anstataŭe.
+Estas aferoj kiuj ne adaptas en la kategorioj ĉi-supre, kaj mi kolektis ilin ĉi tie anstataŭe.
 
 
 ### <a name="adaptu">Adaptu al ĉiu persono</a>
 
-Ĉiesmezuran aliron ne havu—kiel t-ĉemizo. Nur ĉar la kutimaj metodoj funkcias kun alia persono, ne
-signifas, ke estas malprava por alia. Aŭ, nur ĉar oni tiel kutimiĝas per la komunikadaj
-metodoj kiujn oni uzas ĉiutage kun homoj kiujn oni ĉiutage interagas, ne signifas, ke ilin oni devas
-uzi ĉie. La lignan segilon ne uzu al feraj bastonoj. Tion, kion personon funkciigas komprenu. Iliajn
-interezojn konu. La potencon de babilado ne malestimu.
+Ne prenu ĉiesmezuran aliron. Nur ĉar la kutimaj metodoj funkcias al alia persono, ne signifas, ke
+estas prave por la alia. Aŭ, nur ĉar oni tiel kutimiĝas per la komunikadaj metodoj kiujn oni uzas
+ĉiutage kun homoj kiujn oni ĉiutage interagas, ne signifas, ke oni devas ilin uzi ĉie. Ne uzu lignan
+segilon al feraj bastonoj. Komprenu tion, kio funkciigas personon. Konu iliajn interezojn. Ne
+malestimu la potencon de babilado.
 
 
 ### <a name="auxskultu">Aŭskultu pli</a>
 
-Ne gravas kiel bone ni pensas pri ni, ni devas alliniiĝi al tiu, kiu komunikas al ni. Kontraŭe,
-kial partopreni tute, se ni tro okupatas per niaj malhumiloj, ke nur niaj voĉoj ni volas aŭdiĝi. La
-urĝon por maldaŭrigi regu. La interparolon ne forkaptu. Ju pli volecon por aŭskulti oni montras, des
-pli homoj volos ŝati por aŭskulti al oni.
+Ne gravas tiom bone ni pensas pri ni mem, ni devas alliniiĝi al tiu, kiu komunikas al ni. Kontraŭe,
+kial partopreni tute, se ni tro okupiĝas per niaj malhumiloj, ke ni volas aŭdi nur niajn voĉojn.
+Regu la urĝon por maldaŭrigi. Ne forkaptu la interparolon. Ju pli oni montras volecon por aŭskult,
+des pli homoj volos ŝati por aŭskulti al oni.
 
 
 ### <a name="ridetu">Ridetu</a>
 
-Ne okazos la utilŝarĝo de rideto en la momenton, en kiu la rideto estis ricevita; estas dum la
-momentoj de pripensadoj. Daŭreman efikon rideto kreas, kaj ĝi estas tiel potenca, ke ĝi kapablas por
-malbonan senton ŝanĝi. Neseriozecon, engaĝiĝon, kaj feliĉecon rideto alportas. Ĝin portu. Ĝin
-posedu. 😊
+Ne okazos la gajno de rideto en la momenton, en kiu la rideto estis ricevita; estas dum la momentoj
+de pripensadoj. Rideto kreas daŭreman efikon, kaj ĝi estas tiom potenca, ke ĝi kapablas por ŝanĝi malbonan
+senton. Rideto alportas neseriozecon, engaĝiĝon, kaj feliĉecon. Portu ĝin. Posedu ĝin. 😊

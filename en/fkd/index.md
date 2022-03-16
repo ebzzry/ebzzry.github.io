@@ -1,5 +1,5 @@
-The Musings of an Optimist
-==========================
+Musings of an Optimist
+======================
 
 <div class="center">[Esperanto](/eo/) ■ English</div>
 <div class="center">Last updated: March 9, 2022</div>
@@ -22,7 +22,7 @@ entries are sorted in reverse chronological order.</div>
 - [A Gentle Introduction to the Nix Family](nix/)
 - [Converting Markdown to HTML with emem](emem/)
 - [Division in Haskell](haskell-division/)
-- [How to Communicate like a Human](human/)
+- [How to Communicate Like a Human](human/)
 - [A Gentle Introduction to Fallacies](fallacies/)
 - [Esperanto Characters in Linux](eo-linux/)
 - [Symbols and Marks (Condensed)](symbols-marks-condensed/)

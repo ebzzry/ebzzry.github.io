@@ -5,3 +5,4 @@ TODO.md
 *.b
 /eo/index
 /en/index
+.DS_Store
