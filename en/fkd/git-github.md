@@ -2,12 +2,14 @@ A Brief Git and GitHub Tour
 ===========================
 
 <div class="center">[Esperanto](/eo/gito-github/) ■ English</div>
-<div class="center">Last updated: March 7, 2022</div>
+<div class="center">Last updated: March 16, 2022</div>
 
 >Know how to solve every problem that has been solved.<br>
 >―Richard P. Feynman
 
-This short tutorial shows how to use [git](https://git-scm.com/) with a [GitHub](https://github.com)
+<img src="/bil/tobias-tullius-XQ1cWY7v2PI-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="tobias-tullius-XQ1cWY7v2PI-unsplash" title="tobias-tullius-XQ1cWY7v2PI-unsplash"/>
+
+This short tutorial shows to use [git](https://git-scm.com/) with a [GitHub](https://github.com)
 workflow. A quick web search  of *git workflows* shows plenty of diverse results. This article describes
 just one of the possible ways of using git with a git-hosting service like GitHub.
 

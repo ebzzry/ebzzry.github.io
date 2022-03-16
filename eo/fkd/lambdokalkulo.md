@@ -2,10 +2,12 @@ Aboco de la Lambdokalkulo
 =========================
 
 <div class="center">Esperanto ■ [English](/en/lambda-calculus/)</div>
-<div class="center">Laste ĝisdatigita: la 28-an de Februaro 2022</div>
+<div class="center">Laste ĝisdatigita: la 16-an de Marto 2022</div>
 
 >Oni ne vere komprenas ion krom se oni povas klarigi ĝin al sia avino.<br>
 >―Alberto EJNŜTEJNO
+
+<img src="/bil/joel-filipe-Wc8k-KryEPM-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="joel-filipe-Wc8k-KryEPM-unsplash" title="joel-filipe-Wc8k-KryEPM-unsplash"/>
 
 Ĉi tiu estas mia provo por fari ja tion, tamen la avino ĉi tie estas mi mem. Mi firme kredas, ke mi
 ne vere povas kompreni ion, krom se mi povas klarigi ĝin. Ĉi tiu afiŝo estas malstreĉa aliro por

@@ -2,10 +2,12 @@ A Lambda Calculus Primer
 ========================
 
 <div class="center">[Esperanto](/eo/lambdokalkulo/) ■ English</div>
-<div class="center">Last updated: October 10, 2021</div>
+<div class="center">Last updated: March 16, 2022</div>
 
 >You do not really understand something unless you can explain it to your grandmother.<br>
 >―Albert Einstein
+
+<img src="/bil/joel-filipe-Wc8k-KryEPM-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="joel-filipe-Wc8k-KryEPM-unsplash" title="joel-filipe-Wc8k-KryEPM-unsplash"/>
 
 This post is my attempt to do just that, only that the grandmother here is myself. I firmly believe
 that I won’t really understand something, unless I can explain it. This post takes a very laid-back

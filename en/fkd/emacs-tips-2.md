@@ -2,10 +2,12 @@ Emacs Tips and Tricks 2: Sessions and Packages
 ==============================================
 
 <div class="center">[Esperanto](/eo/emakskonsiletoj-2-a/) ■ English</div>
-<div class="center">Last updated: February 21, 2018</div>
+<div class="center">Last updated: February 21, 20</div>
 
 >A bell that doesn’t ring has no purpose.<br>
 >―Keel Lorenz, Neon Genesis Evangelion
+
+<img src="/bil/maximalfocus-VT4rx775FT4-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="maximalfocus-VT4rx775FT4-unsplash" title="maximalfocus-VT4rx775FT4-unsplash"/>
 
 This is the continuation of the series on Emacs tips and tricks. In this article, we explore session
 management, packages, managing indents, and other nice little things.
