@@ -2,10 +2,12 @@ Setting up Scheme Development in Emacs
 ======================================
 
 <div class="center">[Esperanto](/eo/emakso-skimo/) ■ English</div>
-<div class="center">Last updated: August 26, 2019</div>
+<div class="center">Last updated: March 16, 2022</div>
 
 >All the good ideas never lie under one hat.<br>
 >―Dale Turner
+
+<img src="/bil/dimitar-belchev-fRBpWLAcWIY-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="dimitar-belchev-fRBpWLAcWIY-unsplash" title="dimitar-belchev-fRBpWLAcWIY-unsplash"/>
 
 In this article, I’ll discuss the easiest approach that I took to setup up a
 [Scheme](https://en.wikipedia.org/wiki/Scheme_(programming_language) )

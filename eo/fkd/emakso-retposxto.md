@@ -2,10 +2,12 @@ Agordi Retpoŝton per Emakso
 ===========================
 
 <div class="center">Esperanto ■ [English](/en/emacs-mail/)</div>
-<div class="center">Laste ĝisdatigita: la 22-an de Februaro 2022</div>
+<div class="center">Laste ĝisdatigita: la 16-an de Marto 2022</div>
 
 >Nur pro tio, ke ne fariĝis io, ne signifas, ke ne fareblas ĝi. Nur pro tio, ke fareblas io, ne signifas, ke farendas ĝi.<br>
 >―Barry GLASFORD
+
+<img src="/bil/zak-7wBFsHWQDlk-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="zak-7wBFsHWQDlk-unsplash" title="zak-7wBFsHWQDlk-unsplash"/>
 
 Nunatempe kontroli retpoŝton postulas onin por iri al la retejo de sia provizanto aŭ uzi
 poŝkomputilapon. Tamen, estas kazoj kiam oni volas havi pli da rego de ĝiaj mesaĝoj, precipe kiam

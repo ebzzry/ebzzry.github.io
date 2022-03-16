@@ -2,10 +2,12 @@ Agordi Skimprogramadon en Emakso
 ================================
 
 <div class="center">Esperanto ■ [English](/en/emacs-scheme/)</div>
-<div class="center">Laste ĝisdatigita: la 7-an de Marto 2022</div>
+<div class="center">Laste ĝisdatigita: la 16-an de Marto 2022</div>
 
 >Ĉiom da bonaj ideoj ne kuŝas sub unu ĉapelo.<br>
 >―Dale TURNER
+
+<img src="/bil/dimitar-belchev-fRBpWLAcWIY-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="dimitar-belchev-fRBpWLAcWIY-unsplash" title="dimitar-belchev-fRBpWLAcWIY-unsplash"/>
 
 En ĉi tiu afiŝo, mi priparolos la plej facilan metodon, kiun mi uzis por agordi
 [skiman](https://eo.wikipedia.org/wiki/Skimo) programadan medion emakse. Notu, ke ĉi tiu ne estas la

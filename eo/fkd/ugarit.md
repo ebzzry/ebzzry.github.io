@@ -7,6 +7,8 @@ Krei Sekurkopiojn per Ugarit
 >Bona juĝo devenas el sperto, kaj sperto devenas el malbona juĝo.<br>
 >―Fred BROOKS
 
+<img src="/bil/omar-flores-lQTbOWtysE-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="omar-flores-lQTbOWtysE-unsplash" title="omar-flores-lQTbOWtysE-unsplash"/>
+
 Kiom da fojoj oni spertis komprenon post kiam katastrofo okazis? Kiom da fojoj oni diris al si mem,
 ke se oni kreis sekurkopiojn de siaj altvaloraj datumoj, oni ne devus esti en tiu terura situacio,
 eltirante sian hararon kiel rabia maniulo?

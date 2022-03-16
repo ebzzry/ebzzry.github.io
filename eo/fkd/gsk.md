@@ -2,11 +2,13 @@ Agordi GPG kaj SSH en KDE
 =========================
 
 <div class="center">Esperanto ■ [English](/en/gsk/)</div>
-<div class="center">Laste ĝisdatigita: la 7-an de Marto 2022</div>
+<div class="center">Laste ĝisdatigita: la 16-an de Marto 2022</div>
     
 >Ne tute estas grave por prave atingi tion en la unua fojo. Estas vitale grava atingi tion en la
 >lasta tempo.<br>
 >―Andrew HUNT kaj David THOMAS
+
+<img src="/bil/milad-fakurian-UYgrVfIhBec-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="milad-fakurian-UYgrVfIhBec-unsplash" title="milad-fakurian-UYgrVfIhBec-unsplash"/>
 
 Kiam kaj GPG kaj SSH estas bone enkonstruitaj kun KDE, estas facile por kunoperacii tiujn
 sistemojn. Estas kontrasto inter malfirme adaptita ganto kaj tiu, kiu tre bone adaptiĝas.
