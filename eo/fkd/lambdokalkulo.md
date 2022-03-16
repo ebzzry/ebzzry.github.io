@@ -4,7 +4,7 @@ Aboco de la Lambdokalkulo
 <div class="center">Esperanto ■ [English](/en/lambda-calculus/)</div>
 <div class="center">Laste ĝisdatigita: la 28-an de Februaro 2022</div>
 
->Oni ne vere komprenas ion krom se oni povas klarigi ĝin  al sia avino.<br>
+>Oni ne vere komprenas ion krom se oni povas klarigi ĝin al sia avino.<br>
 >―Alberto EJNŜTEJNO
 
 Ĉi tiu estas mia provo por fari ja tion, tamen la avino ĉi tie estas mi mem. Mi firme kredas, ke mi

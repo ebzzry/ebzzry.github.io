@@ -7,6 +7,8 @@ The Y Combinator in Six Steps
 >First, decide. And then do it. It’s the only way to achieve anything.<br>
 >―Lacus Clyne, Gundam SEED Destiny
 
+<img src="/bil/david-becker-crs2vlkSe98-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="david-becker-crs2vlkSe98-unsplash-1008x250.jpg" title="david-becker-crs2vlkSe98-unsplash-1008x250.jpg"/>
+
 A lot of us have been taught that to be able to define a recursive procedure, the recursive
 invocation must “use” the name of the recursive
 procedure. The [Y combinator](https://en.wikipedia.org/wiki/Fixed-point_combinator#Y_combinator) ,
