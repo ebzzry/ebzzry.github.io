@@ -497,7 +497,7 @@ tra la jaroj.
 - Ĉiuj komprenoj komencas per ni ne konsenti la mondon kiel ĝi aperas.<br>—Susan SONTAG
 
 
-- Malfacileco estas tio, kio vekas la geniulon.<br>—Nassim Nicholas TALEB
+- Malfacileco estas tio, kiu vekas la geniulon.<br>—Nassim Nicholas TALEB
 
 
 - La tri plej gravaj tagoj en onia vivo estas onia naskiĝtago, la tago kiam oni eltrovas kial oni

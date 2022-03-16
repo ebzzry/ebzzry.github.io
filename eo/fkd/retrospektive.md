@@ -2,12 +2,14 @@ Retrospektive
 =============
 
 <div class="center">Esperanto ■ [English](/en/retrospect/)</div>
-<div class="center">Laste ĝisdatigita: la 7-an de Marto 2022</div>
+<div class="center">Laste ĝisdatigita: la 16-an de Marto 2022</div>
 
->Malfacileco estas tio, kio vekas la geniulon.<br>
+>Malfacileco estas tio, kiu vekas la geniulon.<br>
 >―Nassim Nicholas TALEB
 
-Mi ne tute aprezis kion tiuj vortoj signifis antaŭ nun. Mi lernis, ke krom la sperto, estas
+<img src="/bil/calvin-mano-CXS27RrJObQ-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="calvin-mano-CXS27RrJObQ-unsplash" title="calvin-mano-CXS27RrJObQ-unsplash"/>
+
+Mi ne tute aprezis tion, kion tiuj vortoj signifis antaŭ nun. Mi lernis, ke krom la sperto, estas
 alia grava afero, kiun la vivo instruas al ni—travivado. Kiam ni estas en la rando de disfalo,
 paneo, aŭ eĉ morto, ekaperas la plej gravaj aferoj en niaj vivoj antaŭ niaj okuloj.
 

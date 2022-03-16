@@ -7,6 +7,8 @@ Migrating from LiveJournal to Frog
 >I don’t know where I’m going, but I’m on my way.<br>
 >―Carl Sagan
 
+<img src="/bil/stephanie-leblanc-xrE6WwccyU-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="stephanie-leblanc-xrE6Wwccy_U-unsplash" title="stephanie-leblanc-xrE6Wwccy_U-unsplash"/>
+
 There are times when you want more control over your content. There are also times when you don’t
 want another platform to dictate what goes in or out. Issues like censorship and politics, can
 easily creep up on a blogging platform. I had specific cases wherein I needed to convert LiveJournal
