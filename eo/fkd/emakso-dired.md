@@ -2,10 +2,12 @@ Manipuli Dosierujojn en Emakso
 ==============================
 
 <div class="center">Esperanto ■ [English](/en/emacs-dired/)</div>
-<div class="center">Laste ĝisdatigita: la 7-an de Marto 2022</div>
+<div class="center">Laste ĝisdatigita: la 16-an de Marto 2022</div>
 
 >Supozi bonas, tamen eltrovi pli bonas.<br>
 >―Samuel CLEMENS
+
+<img src="/bil/lucas-benjamin-V-mEcfI8fsI-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="lucas-benjamin-V-mEcfI8fsI-unsplash" title="lucas-benjamin-V-mEcfI8fsI-unsplash"/>
 
 En ĉi tiu afiŝo, mi fokusas pri unu el la plej lertaj manieroj kiel emakso traktas dosierujan
 administradon. La dosierujrekdatilo _Dired_ (angle prononcata *dir-ed*), estas la emaksa

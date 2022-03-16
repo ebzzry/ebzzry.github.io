@@ -2,10 +2,12 @@ Managing Directories with Emacs
 ===============================
 
 <div class="center">[Esperanto](/eo/emakso-dired/) ■ English</div>
-<div class="center">Last updated: December 14, 2018</div>
+<div class="center">Last updated: March 16, 2022</div>
 
 >Supposing is good, but finding out is better.<br>
 >―Samuel Clemens
+
+<img src="/bil/lucas-benjamin-V-mEcfI8fsI-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="lucas-benjamin-V-mEcfI8fsI-unsplash" title="lucas-benjamin-V-mEcfI8fsI-unsplash"/>
 
 In this post, I’ll be focusing on one of the smart ways Emacs handles directory management. The
 directory editor, or _Dired_ (pronounced dir-ed, not dye-rd), is the Emacs equivalent of

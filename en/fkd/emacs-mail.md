@@ -2,11 +2,13 @@ Setting up Mail in Emacs
 ========================
 
 <div class="center">[Esperanto](/eo/emakso-retposxto/) ■ English</div>
-<div class="center">Last updated: January 28, 2019</div>
+<div class="center">Last updated: March 16, 2022</div>
 
 >Just because it isn’t done doesn’t mean it can’t be done. Just because it can be done doesn’t mean
 >it should be.<br>
 >―Barry Glasford
+
+<img src="/bil/zak-7wBFsHWQDlk-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="zak-7wBFsHWQDlk-unsplash" title="zak-7wBFsHWQDlk-unsplash"/>
 
 In this day and age, checking your mail means going to the website of your mail provider, or using a
 mobile app. However, there are some cases when you want to have more control over your messages,

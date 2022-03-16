@@ -2,10 +2,12 @@ Emacs Tips and Tricks 1: Regions and Marks
 ==========================================
 
 <div class="center">[Esperanto](/eo/emakskonsiletoj-1-a/) ■ English</div>
-<div class="center">Last updated: February 25, 2018</div>
+<div class="center">Last updated: March 16, 2022</div>
 
 >Don't raise your voice; improve your argument.<br>
 >―Desmond Tutu
+
+<img src="/bil/robert-keane-rlbG0pnQOU-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="robert-keane-rlbG0pnQOU-unsplash" title="robert-keane-rlbG0pnQOU-unsplash"/>
 
 I still have to find a better text editor than [Emacs](https://www.gnu.org/software/emacs/). What
 really makes Emacs shine is its configuration language—Emacs Lisp. Emacs uses it to the point that

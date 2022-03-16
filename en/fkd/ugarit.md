@@ -7,6 +7,8 @@ Creating Backups with Ugarit
 >Good judgement comes from experience, and experience comes from bad judgement.<br>
 >―Fred Brooks
 
+<img src="/bil/omar-flores-lQTbOWtysE-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="omar-flores-lQTbOWtysE-unsplash" title="omar-flores-lQTbOWtysE-unsplash"/>
+
 How many times have you experienced hindsight, after a catastrophic event has happened? How many
 times have you told yourself that had you created backups of your precious data, you wouldn’t be in
 that dire situation, pulling your hair out, like a rabid maniac?

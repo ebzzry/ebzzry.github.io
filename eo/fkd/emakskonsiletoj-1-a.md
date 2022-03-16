@@ -2,10 +2,12 @@ Emaksaj Konsiletoj 1-a: Regionoj kaj Markoj
 ===========================================
 
 <div class="center">Esperanto ■ [English](/en/emacs-tips-1/)</div>
-<div class="center">Laste ĝisdatigita: la 7-an de Marto 2022</div>
+<div class="center">Laste ĝisdatigita: la 16-an de Marto 2022</div>
 
 >La voĉon ne pligrandigu; la argumenton plibonigu.<br>
 >―Desmond TUTU
+
+<img src="/bil/robert-keane-rlbG0pnQOU-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="robert-keane-rlbG0pnQOU-unsplash" title="robert-keane-rlbG0pnQOU-unsplash"/>
 
 Mi ankoraŭ bezonas trovi pli bonan redaktilon ol [emakso](https://www.gnu.org/software/emacs/). Tio,
 kio igas emakson elstara, estas ĝia agorda lingvo—emakslispo. Emakso uzas ĝin al punkto, en kiu,
