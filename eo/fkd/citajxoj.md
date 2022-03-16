@@ -382,7 +382,7 @@ tra la jaroj.
 - La plej granda danĝero okazas en la momento de venko.<br>—Napoleono BONAPARTE
 
 
-- La reglamentoj kiuj direktas cirkonstancojn estas nuligitaj per novaj cirkonstancoj.<br>—Napoleono
+- La reguloj kiuj direktas cirkonstancojn estas nuligitaj per novaj cirkonstancoj.<br>—Napoleono
   BONAPARTE
 
 

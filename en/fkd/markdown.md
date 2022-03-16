@@ -2,7 +2,7 @@ My Markdown Style Guide
 =======================
 
 <div class="center">[Esperanto](/eo/markdauxno/) ■ English</div>
-<div class="center">Last updated: September 24, 2018</div>
+<div class="center">Last updated: March 16, 2022</div>
 
 >The laws that govern circumstances are abolished by new circumstances.<br>
 >―Napoleon Bonaparte
