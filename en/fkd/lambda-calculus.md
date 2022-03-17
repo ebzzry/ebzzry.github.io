@@ -2,20 +2,16 @@ A Lambda Calculus Primer
 ========================
 
 <div class="center">[Esperanto](/eo/lambdokalkulo/) ■ English</div>
-<div class="center">Last updated: March 16, 2022</div>
+<div class="center">Last updated: March 17, 2022</div>
 
 >You do not really understand something unless you can explain it to your grandmother.<br>
 >―Albert Einstein
 
 <img src="/bil/joel-filipe-Wc8k-KryEPM-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="joel-filipe-Wc8k-KryEPM-unsplash" title="joel-filipe-Wc8k-KryEPM-unsplash"/>
 
-This post is my attempt to do just that, only that the grandmother here is myself. I firmly believe
-that I won’t really understand something, unless I can explain it. This post takes a very laid-back
-approach to do that, and avoids very technical topics, unless warranted.
 
-
-Table of contents
------------------
+<a name="toc">Table of contents</a>
+-----------------------------------
 
 - [Introduction](#introduction)
   + [What is it?](#what)
@@ -40,11 +36,15 @@ Table of contents
 - [References](#references)
 
 
-<a name="introduction"></a> Introduction
+<a name="introduction">Introduction</a>
 ----------------------------------------
 
+This post is my attempt to do just that, only that the grandmother here is myself. I firmly believe
+that I won’t really understand something, unless I can explain it. This post takes a very laid-back
+approach to do that, and avoids very technical topics, unless warranted.
 
-### <a name="what"></a> What is it?
+
+### <a name="what">What is it?</a>
 
 Lambda calculus is a minimal system for expressing computation that conforms to universal models of
 computation, hence making it a universal model of computation. In other words, it can be called as
@@ -53,13 +53,13 @@ contemporarily know. Lambda calculus also forms as the basis for the popular fun
 languages in current use now.
 
 
-### <a name="learn"></a> Do I need to learn it?
+### <a name="learn">Do I need to learn it?</a>
 
 Yes, and no. If you want to understand the underlying mechanisms of how software works, or if you
 want to build the next great language, or if you just want to appreciate the elegance of its art,
 then yes. However, if you just want to fly a plane without knowing how it ticks, then no.
 
-### <a name="do"></a> What do we do?
+### <a name="do">What do we do?</a>
 
 When discussing new concepts, it is very important to layout the axioms or the initial ruleset.
 Think of it as defining new terms in play, and giving them meaning. The context in which these
@@ -77,10 +77,10 @@ meanings of the word, for it to have meaning to us. The same holds true for lamb
 either accept these axioms and operate in its domain, or we live in Neverland.
 
 
-<a name="babysteps"></a> Baby steps
+<a name="babysteps">Baby steps</a>
 -----------------------------------
 
-### <a name="functions"></a> Functions
+### <a name="functions">Functions</a>
 
 A central player in lambda calculus is the notion of function. Most of us are familiar with
 functions in our high-level languages, but functions in lambda calculus are slightly
@@ -120,7 +120,7 @@ The `.` symbol here, is the separator between the parameter list, and the functi
 function `(λx.x)`, the body is simply the symbol `x`.
 
 
-### <a name="variables"></a> Variables
+### <a name="variables">Variables</a>
 
 In lambda calculus, the symbols that are used inside a function are called variables. Going back to
 the function you defined above:
@@ -140,7 +140,7 @@ The parameter `y` is a variable that is said to be free, because it does not liv
 `.`.
 
 
-### <a name="application"></a> Function application
+### <a name="application">Function application</a>
 
 To use a function, you must apply it to something. The bound variables are substituted with what
 they’re applied to—a process called β-reduction.
@@ -214,11 +214,11 @@ is equivalent to:
 ```
 
 
-<a name="count"></a> Let’s count!
+<a name="count">Let’s count!</a>
 ---------------------------------
 
 
-### <a name="start"></a> Start
+### <a name="start">Start</a>
 
 Since almost everything in lambda calculus is expressed as functions, its take on numbers is
 unique. Arguably, the most important number in lambda calculus is zero (0), which is expressed as:
@@ -243,7 +243,7 @@ Building from `0`, let’s enumerate the first three counting numbers:
 ```
 
 
-### <a name="successor"></a> Successor
+### <a name="successor">Successor</a>
 
 The successor of a whole number is defined as the next whole number, counting up. So, the successor
 of `0` is `1`. The definition of the successor function is:
@@ -272,7 +272,7 @@ Let’s break it down:
 5. Evaluation stops and `(λyz.y(z))` is returned, which is the number 1.
 
 
-### <a name="addition"></a> Addition
+### <a name="addition">Addition</a>
 
 What if you wanted to perform `2+3`? Fortunately, the successor function can do that. You express
 that as `2S3`, where you replace `+` as the infix operator. The addition function is defined as:
@@ -313,7 +313,7 @@ Let’s break it down:
 8. You now arrive at `5`.
 
 
-### <a name="multiplication"></a> Multiplication
+### <a name="multiplication">Multiplication</a>
 
 The multiplication function is defined as:
 
@@ -345,11 +345,11 @@ continue to more arithmetic functions, let’s tackle first truth values and con
 prerequisite in learning the other functions.
 
 
-<a name="tff"></a> Truth, falsity, and friends
+<a name="tff">Truth, falsity, and friends</a>
 ----------------------------------------------
 
 
-### <a name="booleans"></a> Booleans
+### <a name="booleans">Booleans</a>
 
 The representations of true and false in lambda calculus, are succinct and elegant:
 
@@ -366,7 +366,7 @@ Fab ≡ (λxy.y)ab = b
 ```
 
 
-### <a name="logicalops"></a> Logical operations
+### <a name="logicalops">Logical operations</a>
 
 The three basic operators: AND, OR, and NOT:
 
@@ -388,11 +388,11 @@ Let’s see if `¬T` is indeed `F`:
 ```
 
 
-<a name="countbackwards"></a> Let’s count, backwards!
+<a name="countbackwards">Let’s count, backwards!</a>
 -----------------------------------------------------
 
 
-### <a name="pred"></a> Predecessor
+### <a name="pred">Predecessor</a>
 
 The predecessor of a number is defined as the preceding number determined when counting
 backwards. The reason why the discussion on the predecessor function is being done separately is
@@ -488,7 +488,7 @@ P1
 ```
 
 
-### <a name="subtraction"></a> Subtraction
+### <a name="subtraction">Subtraction</a>
 
 Now that you have the predecessor function, you can build your subtraction function.
 
@@ -510,7 +510,7 @@ B11
 ```
 
 
-<a name="closing"></a> Closing remarks
+<a name="closing">Closing remarks</a>
 --------------------------------------
 
 You’ve just scratched the surface of lambda calculus, but you have just witnessed its immense
@@ -519,7 +519,7 @@ expressive power, considering how minimal the system is defined.
 _Thanks to [Lucas Lugao](https://github.com/lucaslugao) for the corrections._
 
 
-<a name="references"></a> References
+<a name="references">References</a>
 ------------------------------------
 
 - <http://www.inf.fu-berlin.de/lehre/WS03/alpi/lambda.pdf>
