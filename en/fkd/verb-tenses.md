@@ -2,23 +2,20 @@ Verb Tenses in English
 ======================
 
 <div class="center">[Esperanto](/eo/verbotempoj-la-angla/) ■ English</div>
-<div class="center">Last updated: March 8, 2022</div>
+<div class="center">Last updated: March 17, 2022</div>
 
 >The difference between ordinary and extraordinary is that little extra.<br>
 >―Jimmy Johnson
 
-*Click [here](/en/verb-tenses-condensed/) for the condensed version.*
-
 <img src="/bil/noor-younis-mId2gG0a9GU-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="noor-younis-mId2gG0a9GU-unsplash" title="noor-younis-mId2gG0a9GU-unsplash"/>
 
-To read, write, and speak better English, one must learn the qualities and peculiarities between the
-different verb tenses. Knowing how to and when to use them will enable you have a better
-appreciation of not only English, but also of languages in general.
+*Go [here](/en/verb-tenses-condensed/) for the condensed version.*
 
 
-<a name="toc"></a>Table of contents
+<a name="toc">Table of contents</a>
 ----------------------------------
 
+- [Introduction](#introduction)
 - [Simple](#simple)
   + [Simple future](#simplefuture)
   + [Simple present](#simplepresent)
@@ -38,7 +35,15 @@ appreciation of not only English, but also of languages in general.
 - [Closing remarks](#closing)
 
 
-<a name="simple">Simple</a> 
+<a name="introduction">Introduction</a>
+---------------------------------------
+
+To read, write, and speak better English, one must learn the qualities and peculiarities between the
+different verb tenses. Knowing how to and when to use them will enable you have a better
+appreciation of not only English, but also of languages in general.
+
+
+<a name="simple">Simple </a>
 ---------------------------
 
 
