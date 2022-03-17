@@ -7,7 +7,7 @@ Sinkronigi Retnodojn per Usync
 >Kion mi ne povas krei, mi ne komprenas.<br>
 >―Richard P. FEYNMAN
 
-<img src="/bil/willem-karssenberg-5SH4PHlGHI-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="willem-karssenberg-5SH4PHlGHI-unsplash" title="willem-karssenberg-5SH4PHlGHI-unsplash"/>
+<img src="/bil/thomas-jensen-ISG-rUel0Uw-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="thomas-jensen-ISG-rUel0Uw-unsplash" title="thomas-jensen-ISG-rUel0Uw-unsplash"/>
 
 
 <a name="et">Enhavotabelo</a>
