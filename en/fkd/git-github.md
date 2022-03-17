@@ -2,25 +2,18 @@ A Brief Git and GitHub Tour
 ===========================
 
 <div class="center">[Esperanto](/eo/gito-github/) ■ English</div>
-<div class="center">Last updated: March 16, 2022</div>
+<div class="center">Last updated: March 17, 2022</div>
 
 >Know how to solve every problem that has been solved.<br>
 >―Richard P. Feynman
 
 <img src="/bil/tobias-tullius-XQ1cWY7v2PI-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="tobias-tullius-XQ1cWY7v2PI-unsplash" title="tobias-tullius-XQ1cWY7v2PI-unsplash"/>
 
-This short tutorial shows to use [git](https://git-scm.com/) with a [GitHub](https://github.com)
-workflow. A quick web search  of *git workflows* shows plenty of diverse results. This article describes
-just one of the possible ways of using git with a git-hosting service like GitHub.
 
-In this article, the `$` symbol represents the prompt. For demonstration purposes, we’ll use
-[nano](https://www.nano-editor.org/) as the text editor. However, you’re free to use whatever editor
-you want to use.
-
-
-<a name="toc>"></a>Table of contents
+<a name="toc>">Table of contents</a>
 ------------------------------------
 
+- [Introduction](#introduction)
 - [Basics](#basics)
   + [Initial use](#initial)
   + [Subsequent uses](#subsequent)
@@ -35,10 +28,22 @@ you want to use.
 - [Closing remarks](#closing)
 
 
-<a name="basics"></a>Basics
+<a name="introduction">Introduction</a>
+---------------------------------------
+
+This short tutorial shows to use [git](https://git-scm.com/) with a [GitHub](https://github.com)
+workflow. A quick web search  of *git workflows* shows plenty of diverse results. This article describes
+just one of the possible ways of using git with a git-hosting service like GitHub.
+
+In this article, the `$` symbol represents the prompt. For demonstration purposes, we’ll use
+[nano](https://www.nano-editor.org/) as the text editor. However, you’re free to use whatever editor
+you want to use.
+
+
+<a name="basics">Basics</a>
 ---------------------------
 
-### <a name="initial"></a>Initial use
+### <a name="initial">Initial use</a>
 
 To make things easier later on, you’ll need to create a `.gitignore` file. The .gitignore file
 specifies files that will be excluded from the repository. Some of these are binary files, and
@@ -72,7 +77,7 @@ Then, commit the changes:
     $ git commit -m "Initial commit"
 
 
-### <a name="subsequent"></a>Subsequent uses
+### <a name="subsequent">Subsequent uses</a>
 
 This section describes the basic commands that you’re going to use, when you already have a
 repository.
@@ -118,14 +123,14 @@ After that, you may delete the experimental branch:
     $ git branch -d experimental
 
 
-<a name="online"></a>Working online
+<a name="online">Working online</a>
 -----------------------------------
 
 This section describes how to work with other developers. You’re going to
 use [GitHub](https://github.com) in this discussion.
 
 
-### <a name="sshkeys"></a> Generate your SSH keys
+### <a name="sshkeys"> Generate your SSH keys</a>
 
 You need to be able to authenticate yourself to your GitHub account, before you can push changes. To
 do that, you need to create your SSH keys. To do that, run the following command. Make sure that you
@@ -145,7 +150,7 @@ Go to <https://github.com/settings/ssh>, then click **Add SSH key** or **New SSH
 Paste the key, then follow through.
 
 
-### <a name="createrepo"></a>Creating a repository
+### <a name="createrepo">Creating a repository</a>
 
 In your repositories page, create a new repository by clicking **New**:
 
@@ -162,14 +167,14 @@ You’ll be prompted to supply the passphrase you have entered above. The `git p
 the contents of your repository to the remote repository.
 
 
-### <a name="updaterepo"></a> Updating your repository
+### <a name="updaterepo"> Updating your repository</a>
 
 When you have made further changes to the repository, you may push your changes with the command:
 
     $ git push origin master
 
 
-### <a name="participation"></a> Participation
+### <a name="participation"> Participation</a>
 
 If you want to contribute to a project, you’ll need to work on a copy of that repository, then push
 changes to your own fork.
@@ -229,7 +234,7 @@ Then, click **Create pull request**:
 then, follow through.
 
 
-### <a name="syncupstream"></a>Synchronizing with upstream
+### <a name="syncupstream">Synchronizing with upstream</a>
 
 To synchronize the upstream branch with the local repository, pull changes from the upstream
 remote:
@@ -241,7 +246,7 @@ Then push to your own repository:
     $ git push origin master
 
 
-<a name="pulling"></a>Pulling changes
+<a name="pulling">Pulling changes</a>
 --------------------------------------
 
 If you are the owner of the source repository, and you want to pull in changes from contributors,
@@ -252,7 +257,7 @@ click **Pull requests** from the repository page:
 then, follow through.
 
 
-<a name="mergeupstream"></a>Merging with upstream
+<a name="mergeupstream">Merging with upstream</a>
 --------------------------------------------------
 
 If you are a contributor, and your changes have been pulled in the source repository, synchronize
@@ -266,7 +271,7 @@ At this point, you may delete the `new-options` branch you have created earlier:
     $ git push origin -d new-options
 
 
-<a name="closing"></a> Closing remarks
+<a name="closing"> Closing remarks</a>
 --------------------------------------
 
 The workflow described in this document is only one of the many usable workflows that one can
