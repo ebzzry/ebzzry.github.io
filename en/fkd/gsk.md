@@ -2,13 +2,29 @@ Setting up GPG and SSH in KDE
 =============================
 
 <div class="center">[Esperanto](/eo/gsk/) ■ English</div>
-<div class="center">Last updated: March 16, 2022</div>
+<div class="center">Last updated: March 17, 2022</div>
 
 >It’s not at all important to get it right the first time. It’s vitally important to get it right
 >the last time.<br>
 >―Andrew Hunt and David Thomas
 
 <img src="/bil/milad-fakurian-UYgrVfIhBec-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="milad-fakurian-UYgrVfIhBec-unsplash" title="milad-fakurian-UYgrVfIhBec-unsplash"/>
+
+
+<a name="toc">Table of contents</a>
+-----------------------------------
+
+- [Introduction](#introduction)
+- [Requirements](#requirements)
+- [Configure SSH](#ssh)
+- [Configure GPG](#gpg)
+- [Configure KDE](#kde)
+- [Verification](#verification)
+- [Closing remarks](#closing)
+
+
+<a name="introduction">Introduction</a>
+---------------------------------------
 
 When both GPG and SSH are integrated with KDE, it makes inter-operating with those systems very
 easy. It will make the difference between a loose-fitting glove and one that fits snugly.
@@ -18,19 +34,8 @@ still go about how to install and configure all the necessary components. We’l
 session but you are free to use any editor.
 
 
-Table of contents
------------------
-
-- [Requirements](#requirements)
-- [Configure SSH](#ssh)
-- [Configure GPG](#gpg)
-- [Configure KDE](#kde)
-- [Verification](#verification)
-- [Closing remarks](#closing)
-
-
-<a name="requirements"></a> Requirements
-----------------------------------------
+<a name="requirements">Requirements</a>
+---------------------------------------
 
 For this tutorial you need to have GPG, SSH, and Pinentry.
 
@@ -47,8 +52,8 @@ DNF:
     $ sudo dnf install gnupg openssh pinentry
 
 
-<a name="ssh"></a> Configure SSH
---------------------------------
+<a name="ssh">Configure SSH</a> 
+-------------------------------
 
 Now that you have the parts in front of you, it’s time to assemble them. The first thing that you
 need to do—although in reality the files that you are going to open in this tutorial can be done in
@@ -68,7 +73,7 @@ Next, authorize yourself on the remote server, so that password-less logins will
     $ ssh-copy-id user@remotehost
 
 
-<a name="gpg"></a> Configure GPG
+<a name="gpg">Configure GPG</a>
 --------------------------------
 
 You need to create next your GPG keys. Follow the prompts that follow, making sure that you select
@@ -105,7 +110,7 @@ determine the location of pinentry, run:
     $ which pinentry-qt4
 
 
-<a name="kde"></a> Configure KDE
+<a name="kde">Configure KDE</a>
 --------------------------------
 
 You now need to link the GPG agent with KDE. You need to create a startup script for KDE that will
@@ -145,8 +150,8 @@ Don’t forget to make it executable:
     $ chmod +x ~/.kde/shutdown/01_gpg-agent.sh
 
 
-<a name="verification"></a> Verification
-----------------------------------------
+<a name="verification">Verification</a>
+---------------------------------------
 
 Unfortunately, you have to restart your KDE session for these settings to take effect. If you know a
 method that doesn’t require restarting the session, please let me know.
@@ -166,8 +171,8 @@ A similar behavior will happen if you encrypt a file with GPG:
     $ gpg2 -sea -r john@foo.bar file.dat
 
 
-<a name="closing"></a> Closing remarks
---------------------------------------
+<a name="closing">Closing remarks</a> 
+-------------------------------------
 
 The steps outlined above were meant to be succinct without going through the gory details. I hope
 you found this useful!
