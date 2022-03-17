@@ -2,7 +2,7 @@ Verbotempoj en La Angla
 =======================
 
 <div class="center">Esperanto ■ [English](/en/verb-tenses/)</div>
-<div class="center">Laste ĝisdatigita: la 8-an de Marto 2022</div>
+<div class="center">Laste ĝisdatigita: la 17-an de Marto 2022</div>
 
 >La kontrasto inter la ordinara kaj la eksterordinara estas tiu eta pliaĵo.<br>
 >―Jimmy JOHNSON
@@ -11,14 +11,11 @@ Verbotempoj en La Angla
 
 *Iru [ĉi tien](/eo/verbotempoj-la-angla-mallongigite/) por la mallongigita versio.*
 
-Por legi, skribi, kaj paroli la anglan pli bone, oni devas lerni la kvalitojn kaj distingaĵojn inter
-la diversaj verbotempoj. Scii kiel kaj kiam uzi ilin, ebligas onin por ne nur havi pli
-bonan aprezon de la angla, sed de lingvoj ĝenerale.
-
 
 <a name="et">Enhavotabelo</a>
 -----------------------------
 
+- [Enkonduko](#enkonduko)
 - [Simpla](#simpla)
   - [Futuro simpla](#futurosimpla)
   - [Prezenco simpla](#prezencosimpla)
@@ -36,6 +33,14 @@ bonan aprezon de la angla, sed de lingvoj ĝenerale.
   + [Prezenco perfekte kontinua](#prezencoperfektekontinua)
   + [Preterito perfekte kontnua](#preteritoperfektekontinua)
 - [Finrimarkoj](#finrimarkoj)
+
+
+<a name="enkonduko">Enkonduko</a>
+---------------------------------
+
+Por legi, skribi, kaj paroli la anglan pli bone, oni devas lerni la kvalitojn kaj distingaĵojn inter
+la diversaj verbotempoj. Scii kiel kaj kiam uzi ilin, ebligas onin por ne nur havi pli
+bonan aprezon de la angla, sed de lingvoj ĝenerale.
 
 
 <a name="simpla">Simpla</a>

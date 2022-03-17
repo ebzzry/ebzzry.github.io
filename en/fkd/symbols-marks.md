@@ -2,14 +2,14 @@ Symbols and Marks
 =================
 
 <div class="center">[Esperanto](/eo/signoj-interpunkcioj/) ■ English</div>
-<div class="center">Last updated: March 16, 2022</div>
+<div class="center">Last updated: March 17, 2022</div>
 
 >If you want to achieve greatness, stop asking for permission.<br>
 >―Eddie Colla
 
 <img src="/bil/stephen-johnson-Q8-Cc-IXRY-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="stephen-johnson-Q8-Cc-IXRY-unsplash" title="stephen-johnson-Q8-Cc-IXRY-unsplash"/>
 
-*Click [here](/en/symbols-marks-condensed/) for the condensed version.*
+*Go [here](/en/symbols-marks-condensed/) for the condensed version.*
 
 This short guide gives you a tour on how to use the (-), ('), and (") symbols on your keyboard, that
 are better suited to perform symbol duties than their ill cousins from the typewriter era. In
