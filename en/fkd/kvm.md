@@ -2,27 +2,18 @@ Virtualizing with KVM in Linux
 ==============================
 
 <div class="center">[Esperanto](/eo/kvm/) ■ English</div>
-<div class="center">Last updated: March 16, 2022</div>
+<div class="center">Last updated: March 17, 2022</div>
 
 >If you do what you’ve always done, you’ll get what you’ve always gotten.<br>
 >―Anthony Robbins
 
 <img src="/bil/pierre-chatel-innocenti-N6Hx4HT4mHg-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="pierre-chatel-innocenti-N6Hx4HT4mHg-unsplash" title="pierre-chatel-innocenti-N6Hx4HT4mHg-unsplash"/>
 
-Most of you are familiar with
-[full virtualization](https://en.wikipedia.org/wiki/Full_virtualization) solutions like VMware
-Workstation, Oracle VirtualBox, and Parallels. In this post, I’ll re-introduce you to another, arguably
-faster, way of doing things.
-
-The `$` symbol will be used to indicate the shell prompt for a regular user, while the `#` symbol
-will denote the shell for the root user. There are cases when
-the [EUID](https://en.wikipedia.org/wiki/User_identifier#Effective_user_ID) of a command will be
-zero (0) due to the use of sudo.
-
 
 <a name="toc">Table of contents</a>
 -----------------------------------
 
+- [Introduction](#introduction)
 - [Setup](#setup)
   + [Hardware](#hardware)
   + [Software](#software)
@@ -36,15 +27,29 @@ zero (0) due to the use of sudo.
   + [Configure guest networking](#guestnetworking)
 - [Closing the curtains](#closingcurtains)
   + [Restore networking](#restorenetworking)
-- [Putting it all](#all)
+- [Putting it all together](#together)
 - [Closing remarks](#closing)
 
 
-<a name="setup"></a>Setup
+<a name="introduction">Introduction</a>
+---------------------------------------
+
+Most of you are familiar with [full
+virtualization](https://en.wikipedia.org/wiki/Full_virtualization) solutions like VMware
+Workstation, Oracle VirtualBox, and Parallels. In this post, I’ll re-introduce you to another,
+arguably faster, way of doing things.
+
+The `$` symbol will be used to indicate the shell prompt for a regular user, while the `#` symbol
+will denote the shell for the root user. There are cases when the
+[EUID](https://en.wikipedia.org/wiki/User_identifier#Effective_user_ID) of a command will be zero
+(0) due to the use of sudo.
+
+
+<a name="setup">Setup</a>
 -------------------------
 
 
-### <a name="hardware"></a>Hardware
+### <a name="hardware">Hardware</a>
 
 One of the first things that you need to do is to
 enable
@@ -64,7 +69,7 @@ system indeed recognizes it.
 If it returns some text, then you’re good.
 
 
-### <a name="software"></a>Software
+### <a name="software">Software</a>
 
 Next, you need to install the essential applications.
 
@@ -92,11 +97,11 @@ for [VNC](https://en.wikipedia.org/wiki/Virtual_Network_Computing), but rather, 
 of meeting your goals.
 
 
-<a name="configuration"></a>Configuration
+<a name="configuration">Configuration</a>
 -----------------------------------------
 
 
-### <a name="images"></a>Images
+### <a name="images">Images</a>
 
 QEMU supports an array of image types, however the [QCOW2](https://en.wikipedia.org/wiki/Qcow)
 format is the most flexible, and feature-rich, for QEMU use.
@@ -114,7 +119,7 @@ doesn’t really matter—you can name your image as `index.html`, but that woul
 sense, right? 😄
 
 
-### <a name="kvmgroup"></a>KVM group
+### <a name="kvmgroup">KVM group</a>
 
 The commands below require that a group named `kvm` exists and that you are a member of that
 group. To take those into effect, run:
@@ -126,7 +131,7 @@ group. To take those into effect, run:
 The last command enrolls you to the kvm group without logging out of your session.
 
 
-### <a name="networking"></a>Networking
+### <a name="networking">Networking</a>
 
 QEMU supports [many ways](http://wiki.qemu-project.org/Documentation/Networking) of setting up
 networking for its guests, but for this post we’ll use VDE.
@@ -151,10 +156,10 @@ The above commands will:
 5. Setup the routing configuration.
 
 
-<a name="execution"></a>Execution
+<a name="execution">Execution</a>
 ---------------------------------
 
-### <a name="loadimage"></a>Load the image
+### <a name="loadimage">Load the image</a>
 
 You now need to invoke `qemu-kvm`, the command that will launch everything up. The name of the
 command may differ with the one installed on your system.
@@ -215,7 +220,7 @@ Running the _qemu-kvm_ command above will load the image, but you won’t be abl
 yet.
 
 
-### <a name="display"></a>Connect to the SPICE display
+### <a name="display">Connect to the SPICE display</a>
 
 To be able to use the guest machine’s display, you need to connect to
 the SPICE server, using the SPICE client `spicy`:
@@ -226,7 +231,7 @@ Take note that closing the spicy window will not kill the QEMU session. If the g
 the mouse input, press m<kbd>Shift+F12</kbd>, to get out of it.
 
 
-### <a name="guestnetworking"></a>Configure guest networking
+### <a name="guestnetworking">Configure guest networking</a>
 
 Next, you need to properly configure the network configuration of the guest OS so that it can
 connect to the rest of the local network, and to the internet if the host machine has access to it.
@@ -245,11 +250,11 @@ DNS servers:
     8.8.4.4
 
 
-<a name="closingcurtains"></a>Closing the curtains
+<a name="closingcurtains">Closing the curtains</a>
 --------------------------------------------------
 
 
-### <a name="restorenetworking"></a>Restore networking
+### <a name="restorenetworking">Restore networking</a>
 
 If you want to explicitly revert the network configuration, do the following.
 
@@ -273,8 +278,8 @@ The above commands will:
 6. Remove control files
 
 
-<a name="all"></a>Putting it all
---------------------------------
+<a name="together">Putting it all together</a>
+----------------------------------------------
 
 Here are all the commands from above, compiled into functions, so that they can be ran from the
 command line:
@@ -335,7 +340,7 @@ When you’re done with the VM, close the Spice display then shutdown the KVM ne
     $ kvm-net down
 
 
-<a name="closing"></a> Closing remarks
+<a name="closing">Closing remarks</a>
 --------------------------------------
 
 QEMU supports a myriad of cool options that we’ve not even discussed here, including saving and

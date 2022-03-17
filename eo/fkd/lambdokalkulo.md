@@ -9,10 +9,6 @@ Aboco de la Lambdokalkulo
 
 <img src="/bil/joel-filipe-Wc8k-KryEPM-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="joel-filipe-Wc8k-KryEPM-unsplash" title="joel-filipe-Wc8k-KryEPM-unsplash"/>
 
-Ĉi tiu estas mia provo por fari ja tion, tamen la avino ĉi tie estas mi mem. Mi firme kredas, ke mi
-ne vere povas kompreni ion, krom se mi povas klarigi ĝin. Ĉi tiu afiŝo estas malstreĉa aliro por
-fari tion, kaj evitas tre teĥnikajn temojn, krom se ili estas ege bezonitaj.
-
 
 <a name="et">Enhavotabelo</a>
 -----------------------------
@@ -42,6 +38,11 @@ fari tion, kaj evitas tre teĥnikajn temojn, krom se ili estas ege bezonitaj.
 
 <a name="enkonduko">Enkonduko</a>
 ---------------------------------
+
+Ĉi tiu estas mia provo por fari ja tion, tamen la avino ĉi tie estas mi mem. Mi firme kredas, ke mi
+ne vere povas kompreni ion, krom se mi povas klarigi ĝin. Ĉi tiu afiŝo estas malstreĉa aliro por
+fari tion, kaj evitas tre teĥnikajn temojn, krom se ili estas ege bezonitaj.
+
 
 ### <a name="kio">Kio ĝi estas?</a>
 
