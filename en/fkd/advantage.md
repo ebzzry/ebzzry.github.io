@@ -2,7 +2,7 @@ My Kinesis Advantage Layout
 ===========================
 
 <div class="center">[Esperanto](/eo/avantagxo/) ■ English</div>
-<div class="center">Last updated: March 7, 2022</div>
+<div class="center">Last updated: March 17, 2022</div>
 
 >Pain is inevitable. Suffering is optional.<br>
 >―M. Kathleen Casey
@@ -11,18 +11,18 @@ My Kinesis Advantage Layout
 margin-right: auto;" alt="Kinesis Advantage" title="Kinesis Advantage"/>
 
 
-<a name="toc"></a>Table of contents
+<a name="toc">Table of contents</a>
 -----------------------------------
 
-- [Overview](#overview)
+- [Introduction](#introduction)
 - [Before](#before)
 - [After](#after)
 - [Setup](#setup)
 - [Closing remarks](#closing)
 
 
-<a name="overview"></a>Overview
--------------------------------
+<a name="introduction">Introduction</a>
+---------------------------------------
 
 One of the best investments a programmer can have is a good keyboard. What constitutes a good
 keyboard, however, can sometimes be a subject of debates. A common item that persists most lists is
@@ -40,7 +40,7 @@ However, the default layout of the keys, however, doesn’t suit me. The <kbd>Ct
 Zsh.
 
 
-<a name="before"></a>Before
+<a name="before">Before</a>
 ---------------------------
 
 There exists a Dvorak mode which is already built-in in the keyboard. You can activate the dvorak
@@ -56,7 +56,7 @@ press the <kbd>Alt</kbd> key with the right thumb, then the <kbd>x</kbd> key wit
 finger. Reaching out for the <kbd>Esc</kbd> keys isn’t a lot of fun, either, because it’s too far.
 
 
-<a name="after"></a>After
+<a name="after">After</a>
 -------------------------
 
 Because of that, I remapped some of the keys. The new layout is as follows.
@@ -86,7 +86,7 @@ file , I can map it to <kbd>Mode‎ߺ‎switch</kbd>. See the [notes](#notes) be
 level of indirection.
 
 
-<a name="setup"></a>Setup
+<a name="setup">Setup</a>
 -------------------------
 
 The following section contains the setup that I used to map the keys. The `+` indicates pressing and
@@ -138,7 +138,7 @@ keycode 104 = Multi_key
 ```
 
 
-<a name="notes"></a>Notes
+<a name="notes">Notes</a>
 -------------------------
 
 If the right <kbd>Ctrl</kbd> key has keycode 21—while mapped via xmodmap to
@@ -158,7 +158,7 @@ Jrlfpcidy (j) 1998[2003 LvCv >bicb..pcbiw Cbjv
 At the time of writing, I still don’t know what causes this, nor do I think it makes sense.
 
 
-<a name="closing"></a>Closing remarks
+<a name="closing">Closing remarks</a>
 -------------------------------------
 
 The programmability of the Kinesis Advantage is one of its strongest feature. That, along with its
