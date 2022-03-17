@@ -2,19 +2,18 @@ Emaksaj Konsiletoj 2-a: Seancoj kaj Pakoj
 =========================================
 
 <div class="center">Esperanto ■ [English](/en/emacs-tips-2/)</div>
-<div class="center">Laste ĝisdatigita: la 16-an de Marto 2022</div>
+<div class="center">Laste ĝisdatigita: la 17-an de Marto 2022</div>
 
 >Sonorilo kiu ne povas sonori ne havas celon.<br>
 >―Keel LORENZ, Neon Genesis Evangelion
 
 <img src="/bil/maximalfocus-VT4rx775FT4-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="maximalfocus-VT4rx775FT4-unsplash" title="maximalfocus-VT4rx775FT4-unsplash"/>
 
-Ĉi tiu estas la daŭrigo de la serioj pri emaksaj konsiletoj. En ĉi tiu afiŝo, ni esploros seancan
-administradon, pakojn, krommarĝenojn, kaj aliajn malgrandajn agrablajn aferojn.
 
-<a name="et"Enhavotabelo></a>
+<a name="et">Enhavotabelo</a>
 -----------------------------
 
+- [Enkonduko](#enkonduko)
 - [Desktop](#desktop)
 - [Savehist](#savehist)
 - [Kunfando](#kunfando)
@@ -30,6 +29,13 @@ administradon, pakojn, krommarĝenojn, kaj aliajn malgrandajn agrablajn aferojn.
 - [Gitstato en Dired](#gito)
 - [Klavkombinoj](#klavkombinoj)
 - [Finrimarkoj](#finrimarkoj)
+
+
+<a name="enkonduko">Enkonduko</a>
+---------------------------------
+
+Ĉi tiu estas la daŭrigo de la serioj pri emaksaj konsiletoj. En ĉi tiu afiŝo, ni esploros seancan
+administradon, pakojn, krommarĝenojn, kaj aliajn malgrandajn agrablajn aferojn.
 
 
 <a name="desktop">Desktop</a>

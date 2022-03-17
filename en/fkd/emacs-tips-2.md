@@ -2,19 +2,18 @@ Emacs Tips and Tricks 2: Sessions and Packages
 ==============================================
 
 <div class="center">[Esperanto](/eo/emakskonsiletoj-2-a/) ■ English</div>
-<div class="center">Last updated: February 21, 20</div>
+<div class="center">Last updated: March 17, 2022</div>
 
 >A bell that doesn’t ring has no purpose.<br>
 >―Keel Lorenz, Neon Genesis Evangelion
 
 <img src="/bil/maximalfocus-VT4rx775FT4-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="maximalfocus-VT4rx775FT4-unsplash" title="maximalfocus-VT4rx775FT4-unsplash"/>
 
-This is the continuation of the series on Emacs tips and tricks. In this article, we explore session
-management, packages, managing indents, and other nice little things.
 
-Table of contents
------------------
+<a name="toc">Table of contents</a>
+-----------------------------------
 
+- [Introduction](#introduction)
 - [Desktop](#desktop)
 - [Savehist](#savehist)
 - [Consolidation](#consolidation)
@@ -32,7 +31,14 @@ Table of contents
 - [Closing remarks](#closing)
 
 
-<a name="desktop"></a> Desktop
+<a name="introduction">Introduction</a>
+---------------------------------------
+
+This is the continuation of the series on Emacs tips and tricks. In this article, we explore session
+management, packages, managing indents, and other nice little things.
+
+
+<a name="desktop">Desktop</a>
 ------------------------------
 
 An indispensable tool that I use now is desktop. It saves the state of my Emacs session, so that in
@@ -59,8 +65,8 @@ Desktop comes built-in with the recent versions of GNU Emacs. Here's my snippet:
 ```
 
 
-<a name="savehist"></a> Savehist
---------------------------------
+<a name="savehist">Savehist</a>
+-------------------------------
 
 Another important functionality that I use is savehist. It saves the minibuffer history. It’s
 roughly similar to saving the command line history. Here’s my snippet
@@ -72,7 +78,7 @@ roughly similar to saving the command line history. Here’s my snippet
 ```
 
 
-<a name="consolidation"></a> Consolidation
+<a name="consolidation">Consolidation</a>
 ------------------------------------------
 
 There were a lot of times, when I want to manually save the state of as much session information
@@ -105,10 +111,10 @@ This gives you a nice:
     M-x save RET
 
 
-<a name="packages"></a> Packages
+<a name="packages">Packages</a>
 --------------------------------
 
-### <a name="elpa"></a> ELPA
+### <a name="elpa">ELPA</a>
 
 ELPA is the package management system of Emacs. If you aren’t using the package system yet, use it
 now. All you need to get started is the following:
@@ -141,7 +147,7 @@ To update your local database, hit:
     M-x pr RET
 
 
-### <a name="use-package"></a> use-package
+### <a name="use-package">use-package</a>
 
 This one is a real gem. It’s like `require`, but on steroids. When *require*-ing a package, you have
 the option to specify to install that package, if it does not exist, yet. It also enables you to
@@ -170,8 +176,8 @@ loading it, have:
 ```
 
 
-<a name="linenumbers"></a> Line numbers
----------------------------------------
+<a name="linenumbers">Line numbers</a>
+--------------------------------------
 
 I really like to have the line numbers displayed at the left margin. It gives me a rough idea how
 big the file is, and where am I currently. Turning on `linum-mode` achieves it:
@@ -186,8 +192,8 @@ big the file is, and where am I currently. Turning on `linum-mode` achieves it:
 ```
 
 
-<a name="timestamps"></a> Timestamps
-------------------------------------
+<a name="timestamps">Timestamps</a>
+-----------------------------------
 
 I frequently find the need to insert timestamps, especially when I'm editing my daily log file. Here
 are some snippets to help you with it:
@@ -209,8 +215,8 @@ are some snippets to help you with it:
 Change the value of `system-time-locale` as appropriate.
 
 
-<a name="keys"></a> Keys
-------------------------
+<a name="keys">Keys</a>
+-----------------------
 
 When your key bindings are not organized, it’s not easy to find what key did you bind to
 what. Fortunately, you have `bind-key`, which comes as part of `use-package`.
@@ -225,8 +231,8 @@ An example usage of `bind-key` would look like:
 ```
 
 
-<a name="newline"></a> Newline sans indent
-------------------------------------------
+<a name="newline">Newline sans indent</a> 
+-----------------------------------------
 
 This command creates a newline, then moves the cursor. It simulates a behavior wherein the new line
 doesn’t indent.
@@ -239,8 +245,8 @@ doesn’t indent.
 ```
 
 
-<a name="filling"></a> Filling
-------------------------------
+<a name="filling">Filling</a> 
+-----------------------------
 
 This snippet works great when working with plain text. It indent a paragraph or the current
 paragraph context. If there is a mark, the region becomes filled.
@@ -254,8 +260,8 @@ paragraph context. If there is a mark, the region becomes filled.
 ```
 
 
-<a name="cursormovement"></a> Cursor movement
----------------------------------------------
+<a name="cursormovement">Cursor movement</a>
+--------------------------------------------
 
 The command `move-to-window-line-top-bottom`, bound by default to <kbd>M-r</kbd> is great when you
 want to move the cursor to the center, top, and bottom positions, relative to the window, similar
@@ -279,8 +285,8 @@ below position point, specifically to the top, center, and bottom window positio
 ```
 
 
-<a name="gitdired"></a> Git status in dired
--------------------------------------------
+<a name="gitdired">Git status in dired</a>
+------------------------------------------
 
 This small snippet gives visual indications of the status of git-managed files in a Dired
 buffer. Pressing <kbd>g</kbd> reloads the buffer, then updates the status.
@@ -294,8 +300,8 @@ buffer. Pressing <kbd>g</kbd> reloads the buffer, then updates the status.
 ```
 
 
-<a name="keybindings"></a> Key bindings
----------------------------------------
+<a name="keybindings">Key bindings</a>
+--------------------------------------
 
 The key bindings for the commands above, are listed below:
 
@@ -322,8 +328,8 @@ The key bindings for the commands above, are listed below:
 ```
 
 
-<a name="closing"></a> Closing remarks 
----------------------------------------
+<a name="closing">Closing remarks</a> 
+-------------------------------------
 
 In this post, I demonstrated that small tweaks can generate huge benefits. The rest of the
 configuration can be found [here](https://github.com/ebzzry/dotfiles/tree/master/emacs). If you have
