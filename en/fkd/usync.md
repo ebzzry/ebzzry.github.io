@@ -9,6 +9,20 @@ Synchronizing Sites with Usync
 
 <img src="/bil/willem-karssenberg-5SH4PHlGHI-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="willem-karssenberg-5SH4PHlGHI-unsplash" title="willem-karssenberg-5SH4PHlGHI-unsplash"/>
 
+
+Table of contents
+-----------------
+
+- [Introduction](#introduction)
+- [Installation](#installation)
+- [Basic usage](#basicusage)
+- [Advanced usage](#advancedusage)
+- [Closing remarks](#closing)
+
+
+<a name="introduction">Introduction</a> 
+---------------------------------------
+
 Site-to-site synchronizations are usually needed, when two locations, make file updates
 independently. Let’s say the company _MMM_ has two offices. In the first office, they have the
 accounting, and logistics departments. In the second office, they have the IT, and HR
@@ -21,17 +35,8 @@ to achieve this. It is written in [Scsh](https://www.scsh.net). It makes use of
 and uni-directional synchronizations, respectively.
 
 
-Table of contents
------------------
-
-- [Installation](#installation)
-- [Basic usage](#basicusage)
-- [Advanced usage](#advancedusage)
-- [Closing remarks](#closing)
-
-
-<a name="installation"></a> Installation
-----------------------------------------
+<a name="installation">Installation</a> 
+---------------------------------------
 
 Usync can be installed with Nixpkgs:
 
@@ -42,7 +47,7 @@ To check that Usync is indeed installed, run:
     $ which usync
 
 
-<a name="basicusage"></a> Basic usage
+<a name="basicusage">Basic usage</a>
 -------------------------------------
 
 To perform two-way synchronization of the directory `/pub/mis/doc`, between the current host, to
@@ -64,7 +69,7 @@ Ideally, the result is that `localhost:/pub/mis/doc/`, `site1:/pub/mis/doc/`, an
 `site2:/pub/mis/doc/`, are all equal.
 
 
-<a name="advancedusage"></a> Advanced usage
+<a name="advancedusage">Advanced usage</a>
 -------------------------------------------
 
 It is also possible to perform synchronization of multiple files, and directories, to remote
@@ -86,7 +91,7 @@ For more usage information, run:
     $ usync --help
 
 
-<a name="closing"></a> Closing remarks
+<a name="closing">Closing remarks</a>
 --------------------------------------
 
 Some files and regexes are baked in as exclusions. They make or make not make sense. If you think

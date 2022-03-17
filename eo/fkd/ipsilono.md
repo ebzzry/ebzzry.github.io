@@ -2,21 +2,18 @@ La Ipsilonkombinatoro per Ses Paŝoj
 ===================================
 
 <div class="center">Esperanto ■ [English](/en/y/)</div>
-<div class="center">Laste ĝisdatigita: la 16-an de Marto 2022</div>
+<div class="center">Laste ĝisdatigita: la 17-an de Marto 2022</div>
 
 >Unue, decidu. Kaj faru ĝin. Estas la nura maniero por atingi ion.<br>
 >―Lacus CLYNE, Gundam SEED Destiny
 
 <img src="/bil/david-becker-crs2vlkSe98-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="david-becker-crs2vlkSe98-unsplash" title="david-becker-crs2vlkSe98-unsplash"/>
 
-Multe da ni estis instruitaj ke, por difini rikuran proceduron, la rikura alvoko devas uzi la nomon
-de la rikura proceduro. Tamen, la [ipsilonkombinatoro](https://en.wikipedia.org/wiki/Fixed-point_combinator#Y_combinator)
-(angla artikolo) ebligas onin por presti rikuron, sen referencante la nomatan identigilon.
-
 
 <a name="et">Enhavotabelo</a>
 -----------------------------
 
+- [Enkonduko](#enkonduko)
 - [Kio?](#kio)
 - [Paŝo 1-a: Difinu la bazan proceduron](#baza)
 - [Paŝo 2-a: Funkcivokarigu la rikuran alvokon](#funkcivokarigi)
@@ -25,6 +22,14 @@ de la rikura proceduro. Tamen, la [ipsilonkombinatoro](https://en.wikipedia.org/
 - [Paŝo 5-a: Izolu la kombinatoron](#izoli)
 - [Paŝo 6-a: Difinu la kombinatoron](#difini)
 - [Finrimarkoj](#finrimarkoj)
+
+
+<a name="enkonduko">Enkonduko</a>
+---------------------------------
+
+Multe da ni estis instruitaj ke, por difini rikuran proceduron, la rikura alvoko devas uzi la nomon
+de la rikura proceduro. Tamen, la [ipsilonkombinatoro](https://en.wikipedia.org/wiki/Fixed-point_combinator#Y_combinator)
+(angla artikolo) ebligas onin por presti rikuron, sen referencante la nomatan identigilon.
 
 
 <a name="kio">Kio?</a>

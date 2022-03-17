@@ -2,25 +2,18 @@ Migri de LiveJournal al Frog
 ============================
 
 <div class="center">Esperanto ■ [English](/en/livefrog/)</div>
-<div class="center">Laste ĝisdatigita: la 19-an de Februaro 2022</div>
+<div class="center">Laste ĝisdatigita: la 16-an de Marto 2022</div>
 
 >Mi ne scias kien mi iras, sed mi estas sur mia vojo.<br>
 >―Carl SAGAN
 
 <img src="/bil/stephanie-leblanc-xrE6WwccyU-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="stephanie-leblanc-xrE6Wwccy_U-unsplash" title="stephanie-leblanc-xrE6Wwccy_U-unsplash"/>
 
-Estas tempoj kiam oni volas havi plian regon de la enhavo. Estas ankaŭ tempoj kiam ni ne volas
-alian platformon por dikti kio eniras aŭ eliras. Aferoj kiel cenzurado kaj politikoj, facile
-povas rampi al bloga platformo. Mi spertis specificajn kazojn, en kiu, mi bezonis konverti
-LiveJournal-afiŝojn por alia platformo. Estas iloj kiuj faras tion, tamen, mi trovis nenion, ĝis
-nun, kiu tradukas al [Frog](https://github.com/greghendershott/frog/)-dosieroj. Ĉi tio estas mia
-malforta provo por atingi tiun celon.
-
 
 <a name="et">Enhavotabelo</a>
 -----------------------------
 
-- [Superrigardo](#superrigardo)
+- [Enkonduko](#enkonduko)
 - [Instalo](#instalo)
 - [Bazaferoj](#bazaferoj)
 - [Komentoj](#komentoj)
@@ -28,8 +21,15 @@ malforta provo por atingi tiun celon.
 - [Finrimarkoj](#finrimarkoj)
 
 
-<a name="superrigardo">Superrigardo</a>
----------------------------------------
+<a name="enkonduko">Enkonduko</a>
+---------------------------------
+
+Estas tempoj kiam oni volas havi plian regon de la enhavo. Estas ankaŭ tempoj kiam ni ne volas
+alian platformon por dikti kio eniras aŭ eliras. Aferoj kiel cenzurado kaj politikoj, facile
+povas rampi al bloga platformo. Mi spertis specificajn kazojn, en kiu, mi bezonis konverti
+LiveJournal-afiŝojn por alia platformo. Estas iloj kiuj faras tion, tamen, mi trovis nenion, ĝis
+nun, kiu tradukas al [Frog](https://github.com/greghendershott/frog/)-dosieroj. Ĉi tio estas mia
+malforta provo por atingi tiun celon.
 
 Livefrog estas utilaĵo, verkita per [Rakido](http://racket-lang.org), kiu estas uzata por migrigi
 LiveJournal-afiŝojn al Frog—blogada platformo, ankaŭ verkita per Rakido. Ĝi uzas la dosierojn

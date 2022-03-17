@@ -9,6 +9,20 @@ Sinkronigi Retnodojn per Usync
 
 <img src="/bil/willem-karssenberg-5SH4PHlGHI-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="willem-karssenberg-5SH4PHlGHI-unsplash" title="willem-karssenberg-5SH4PHlGHI-unsplash"/>
 
+
+<a name="et">Enhavotabelo</a>
+-----------------------------
+
+- [Enkonduko](#enkonduko)
+- [Instalo](#instalo)
+- [Baza uzado](#bazuzado)
+- [Altnivela uzado](#altniveluzado)
+- [Finrimarkoj](#finrimarkoj)
+
+
+<a name="enkonduko">Enkonduko</a>
+---------------------------------
+
 Lok-al-loka sinkronigo estas kutime bezonata, kiam du lokoj sendepende kreas dosierajn ĝisdatigojn.
 Ni supozu, ke la firmao _MMM_ havas du oficejojn. En la unua oficejo, ili havas la librotenadan kaj
 loĝistikan fakojn. En la dua oficejo, ili havas la informadikan kaj homfaktoran fakojn. Ambaŭ havas
@@ -18,15 +32,6 @@ sinkronigo, la unua oficejo povas aliri la dosierojn el la dua oficejo, kvazaŭ 
 homfaktora fakoj, estis en la unua oficejo. Usync helpas atingi tion. Ĝi estas kreita per
 [Scsh](https://www.scsh.net). Ĝi uzas [Unison](http://www.cis.upenn.edu/~bcpierce/unison/) kaj
 [rsync](http://rsync.samba.org/) por ambaŭ- kaj unudirekta sinkronigoj, respektive.
-
-
-<a name="et">Enhavotabelo</a>
------------------------------
-
-- [Instalo](#instalo)
-- [Baza uzado](#bazuzado)
-- [Altnivela uzado](#altniveluzado)
-- [Finrimarkoj](#finrimarkoj)
 
 
 <a name="instalo">Instalo</a>

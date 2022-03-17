@@ -2,22 +2,18 @@ The Y Combinator in Six Steps
 =============================
 
 <div class="center">[Esperanto](/eo/ipsilono/) ■ English</div>
-<div class="center">Last updated: March 16, 2022</div>
+<div class="center">Last updated: March 17, 2022</div>
 
 >First, decide. And then do it. It’s the only way to achieve anything.<br>
 >―Lacus Clyne, Gundam SEED Destiny
 
 <img src="/bil/david-becker-crs2vlkSe98-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="david-becker-crs2vlkSe98-unsplash-1008x250.jpg" title="david-becker-crs2vlkSe98-unsplash-1008x250.jpg"/>
 
-A lot of us have been taught that to be able to define a recursive procedure, the recursive
-invocation must “use” the name of the recursive
-procedure. The [Y combinator](https://en.wikipedia.org/wiki/Fixed-point_combinator#Y_combinator) ,
-however, lets you perform recursion, without referring to the named identifier.
-
 
 Table of contents
 -----------------
 
+- [Introduction](#introduction)
 - [Y?](#y)
 - [Step 1: Define the base procedure](#base)
 - [Step 2: Curry the recursive call](#curry)
@@ -26,6 +22,15 @@ Table of contents
 - [Step 5: Isolate the combinator](#isolate)
 - [Step 6: Define the combinator](#define)
 - [Closing remarks](#closing)
+
+
+<a name="introduction">Introduction</a>
+---------------------------------------
+
+A lot of us have been taught that to be able to define a recursive procedure, the recursive
+invocation must “use” the name of the recursive
+procedure. The [Y combinator](https://en.wikipedia.org/wiki/Fixed-point_combinator#Y_combinator) ,
+however, lets you perform recursion, without referring to the named identifier.
 
 
 <a name="y"></a> Y?

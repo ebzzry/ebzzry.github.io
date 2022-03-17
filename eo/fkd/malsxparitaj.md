@@ -1,5 +1,5 @@
-Malŝparitaj Malcedemoj
-======================
+Malŝparita Senĉeseco
+====================
 
 <div class="center">Esperanto ■ [English](/en/squandered/)</div>
 <div class="center">Laste ĝisdatigita: la 16-an de Marto 2022</div>
