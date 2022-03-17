@@ -9,17 +9,11 @@ Setting up Scheme Development in Emacs
 
 <img src="/bil/dimitar-belchev-fRBpWLAcWIY-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="dimitar-belchev-fRBpWLAcWIY-unsplash" title="dimitar-belchev-fRBpWLAcWIY-unsplash"/>
 
-In this article, I’ll discuss the easiest approach that I took to setup up a
-[Scheme](https://en.wikipedia.org/wiki/Scheme_(programming_language) )
-development environment in Emacs. Take note, that this is not the only approach
-available—some did it in arguably better ways. In this article, I’ll try to
-explain the shortest route that I took.
 
+<a name="toc">Table of contents</a>
+-----------------------------------
 
-Table of contents
------------------
-
-- [Overview](#overview)
+- [Introduction](#introduction)
 - [Installation](#installation)
 - [Usage](#usage)
   + [Scheme buffer](#schemebuffer)
@@ -27,8 +21,13 @@ Table of contents
 - [Closing remarks](#closing)
 
 
-<a name="overview"></a>Overview
--------------------------------
+<a name="introduction">Introduction</a>
+---------------------------------------
+
+In this article, I’ll discuss the easiest approach that I took to setup up a
+[Scheme](https://groups.csail.mit.edu/mac/projects/scheme/) development environment in
+Emacs. Take note, that this is not the only approach available—some did it in arguably better ways.
+In this article, I’ll try to explain the shortest route that I took.
 
 Editing Scheme code with Emacs has traditionally been done by rudimentary modes that lacked
 flexibility. They were able to evaluate current definitions, last definitions, and entire buffers,
@@ -42,7 +41,7 @@ up just using Geiser. Also, as a semi-related note, I’m using Emacs to edit Sc
 don’t know of any other editor that does it so well.
 
 
-<a name="installation"></a>Installation
+<a name="installation">Installation</a>
 ---------------------------------------
 
 With [ELPA](/en/emacs-tips-2/#elpa), installing Geiser is a breeze. Simply execute the following
@@ -74,7 +73,7 @@ above, to take effect, you can evaluate them now using members of the EVAL troup
 `eval-last-sexp`, `eval-region`—or, you can still opt to respawn a new Emacs process.
 
 
-<a name="usage"></a> Usage
+<a name="usage">Usage</a>
 --------------------------
 
 To reap what you sowed, create or open a `.scm` file, with at least a proper
@@ -96,7 +95,7 @@ understand what they do. They may, or may not diverge from the official descript
 aforementioned link.
 
 
-### <a name="schemebuffer"></a>Scheme buffer
+### <a name="schemebuffer">Scheme buffer</a>
 
 | Key                           | What it does                                            |
 | :---------------------------- | :------------------------------------------------------ |
@@ -108,7 +107,7 @@ aforementioned link.
 | <kbd>C-c</kbd> <kbd>C-\</kbd> | Insert a lambda (λ) symbol                              |
 
 
-### <a name="replbuffer"></a> REPL buffer
+### <a name="replbuffer">REPL buffer</a>
 
 | Key                           | What it does                        |
 | :---------------------------- | :---------------------------------- |
@@ -120,7 +119,7 @@ aforementioned link.
 | <kbd>C-c</kbd> <kbd>C-q</kbd> | Quit the REPL                       |
 
 
-<a name="closing"></a> Closing remarks
+<a name="closing">Closing remarks</a>
 --------------------------------------
 
 I have intentionally skipped many topics from the [official document](http://www.nongnu.org/geiser/)
