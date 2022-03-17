@@ -2,7 +2,7 @@ Mia Kinezia Avantaĝa Aranĝo
 ===========================
 
 <div class="center">Esperanto ■ [English](/en/advantage/)</div>
-<div class="center">Laste ĝisdatigita: la 7-an de Marto 2022</div>
+<div class="center">Laste ĝisdatigita: la 17-an de Marto 2022</div>
 
 >La doloro neeviteblas. La suferado malnepras.<br>
 >―M. Kathleen CASEY
@@ -13,14 +13,14 @@ Mia Kinezia Avantaĝa Aranĝo
 <a name="et">Enhavotabelo</a>
 -----------------------------
 
-- [Superrigardo](#superrigardo)
+- [Enkonduko](#enkonduko)
 - [Antaŭe](#antauxe)
 - [Poste](#poste)
 - [Agordo](#agordo)
 - [Finrimarkoj](#finrimarkoj)
 
 
-<a name="superrigardo">Superrigardo</a>
+<a name="enkonduko">Enkonduko</a>
 ---------------------------------------
 
 Unu el la plej bonaj investoj kiun programisto povas havi estas bona klavaro. Kio konstituas bonan
