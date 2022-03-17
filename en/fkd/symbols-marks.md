@@ -11,16 +11,6 @@ Symbols and Marks
 
 *Go [here](/en/symbols-marks-condensed/) for the condensed version.*
 
-This short guide gives you a tour on how to use the (-), ('), and (") symbols on your keyboard, that
-are better suited to perform symbol duties than their ill cousins from the typewriter era. In
-addition to those symbols, I’m also going to talk about replacements to frequently-used incorrect
-symbols.
-
-Each section begins with an input sequence for Linux, Mac, and Windows systems,
-respectively. The `+` symbol signifies that you press the key to its left, before you press the key
-to its right. That is, to input <kbd>⌥</kbd> + <kbd>Shift</kbd> + <kbd>-</kbd>, you must press and hold
-<kbd>⌥</kbd>, then press and hold <kbd>Shift</kbd>, then press <kbd>-</kbd>.
-
 
 <a name="toc">Table of contents</a>
 -----------------------------------
@@ -34,6 +24,20 @@ to its right. That is, to input <kbd>⌥</kbd> + <kbd>Shift</kbd> + <kbd>-</kbd>
 - [Prime symbols](#prime)
 - [Horizontal ellipsis](#horizontalellipsis)
 - [Closing remarks](#closingremarks)
+
+
+<a name="introduction">Introduction</a>
+---------------------------------------
+
+This short guide gives you a tour on how to use the (-), ('), and (") symbols on your keyboard, that
+are better suited to perform symbol duties than their ill cousins from the typewriter era. In
+addition to those symbols, I’m also going to talk about replacements to frequently-used incorrect
+symbols.
+
+Each section begins with an input sequence for Linux, Mac, and Windows systems,
+respectively. The `+` symbol signifies that you press the key to its left, before you press the key
+to its right. That is, to input <kbd>⌥</kbd> + <kbd>Shift</kbd> + <kbd>-</kbd>, you must press and hold
+<kbd>⌥</kbd>, then press and hold <kbd>Shift</kbd>, then press <kbd>-</kbd>.
 
 
 <a name="notesforlinux">Notes for Linux</a>
@@ -290,7 +294,7 @@ words above it are to be repeated. For example:
 Optimus′?
 
 
-<a name="horizontalellipsis"></a>Horizontal ellipsis (…)
+<a name="horizontalellipsis">Horizontal ellipsis (…)</a>
 --------------------------------------------------------
 
 - Linux: <kbd>🐧</kbd> + <kbd>.</kbd>
@@ -315,7 +319,7 @@ When used at the end of a block, put a space before it; when used at the start, 
 it; when used in the middle, put spaces around it.
 
 
-<a name="closing"></a>Closing remarks
+<a name="closing">Closing remarks</a>
 -------------------------------------
 
 Using the correct punctuation marks and symbols draws the line between class and crass. When you use

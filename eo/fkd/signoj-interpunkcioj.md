@@ -11,20 +11,11 @@ Signoj kaj Interpunkcioj
 
 *Iru [ĉi tien](/eo/signoj-interpunkcioj-mallongigite/) por la mallongigita versio.*
 
-Ĉi tiu mallonga gvidilo donas rondvojaĝon kiel uzi la ĝis-strekan (-), unuoblan citilan ('), kaj
-duoblan citilan (") signojn per la klavaro, kiuj estas pli bone adaptitaj por fari signajn devojn ol
-iliaj malsanaj kuzoj el la skribmaŝina epoĥo. Kaj cetere, mi ankaŭ parolos pri la anstataŭigoj de 
-ofte uzataj malĝustaj signoj.
-
-Ĉiu sekcio komencas pri eniga sinsekvo por sistemoj linuksa, makintoŝa, kaj vindoza, respektive. La
-plusa (+) signo signifas, ke Oni premas la maldekstran klavon, antaŭ la dekstran klavon. Tio estas,
-por enigi <kbd>⌥</kbd> + <kbd>Shift</kbd> + <kbd>-</kbd>, premu kaj tenu <kbd>⌥</kbd>, tiam premu
-kaj tenu <kbd>Shift</kbd>, fine premu <kbd>-</kbd>.
-
 
 <a name="et">Enhavotabelo</a>
 -----------------------------
 
+- [Enkonduko](#enkonduko)
 - [Linuksaj notoj](#linukso)
 - [Streketo](#streketo)
 - [Ĝis-streko](#gxisstreko)
@@ -34,6 +25,20 @@ kaj tenu <kbd>Shift</kbd>, fine premu <kbd>-</kbd>.
 - [Primaj signoj](#primajsignoj)
 - [Tripunkto](#tripunkto)
 - [Finrimarkoj](#finrimarkoj)
+
+
+<a name="enkonduko">Enkonduko</a>
+---------------------------------
+
+Ĉi tiu mallonga gvidilo donas rondvojaĝon kiel uzi la ĝis-strekan (-), unuoblan citilan ('), kaj
+duoblan citilan (") signojn per la klavaro, kiuj estas pli bone adaptitaj por fari signajn devojn ol
+iliaj malsanaj kuzoj el la skribmaŝina epoĥo. Kaj cetere, mi ankaŭ parolos pri la anstataŭigoj de 
+ofte uzataj malĝustaj signoj.
+
+Ĉiu sekcio komencas pri eniga sinsekvo por sistemoj linuksa, makintoŝa, kaj vindoza, respektive. La
+plusa (+) signo signifas, ke Oni premas la maldekstran klavon, antaŭ la dekstran klavon. Tio estas,
+por enigi <kbd>⌥</kbd> + <kbd>Shift</kbd> + <kbd>-</kbd>, premu kaj tenu <kbd>⌥</kbd>, tiam premu
+kaj tenu <kbd>Shift</kbd>, fine premu <kbd>-</kbd>.
 
 
 <a name="linukso">Linuksaj notoj</a>
