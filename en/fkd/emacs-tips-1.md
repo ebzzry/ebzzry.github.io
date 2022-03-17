@@ -2,22 +2,18 @@ Emacs Tips and Tricks 1: Regions and Marks
 ==========================================
 
 <div class="center">[Esperanto](/eo/emakskonsiletoj-1-a/) ■ English</div>
-<div class="center">Last updated: March 16, 2022</div>
+<div class="center">Last updated: March 17, 2022</div>
 
 >Don't raise your voice; improve your argument.<br>
 >―Desmond Tutu
 
 <img src="/bil/robert-keane-rlbG0pnQOU-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="robert-keane-rlbG0pnQOU-unsplash" title="robert-keane-rlbG0pnQOU-unsplash"/>
 
-I still have to find a better text editor than [Emacs](https://www.gnu.org/software/emacs/). What
-really makes Emacs shine is its configuration language—Emacs Lisp. Emacs uses it to the point that
-most of the functionality of Emacs itself, is implemented in Emacs Lisp. In this series, I will talk
-about the things that I discovered to make the use of Emacs even more enjoyable.
-
 
 Table of contents
 -----------------
 
+- [Introduction](#introduction)
 - [Regions](#regions)
 - [Compilation](#compilation)
 - [Scheme](#scheme)
@@ -28,7 +24,16 @@ Table of contents
 - [Closing remarks](#closing)
 
 
-<a name="regions"></a> Regions
+<a name="introduction">Introduction</a>
+---------------------------------------
+
+I still have to find a better text editor than [Emacs](https://www.gnu.org/software/emacs/). What
+really makes Emacs shine is its configuration language—Emacs Lisp. Emacs uses it to the point that
+most of the functionality of Emacs itself, is implemented in Emacs Lisp. In this series, I will talk
+about the things that I discovered to make the use of Emacs even more enjoyable.
+
+
+<a name="regions">Regions</a>
 ------------------------------
 
 This command deletes a region if one is active, or deletes the character underneath the cursor.
@@ -45,7 +50,7 @@ This command deletes a region if one is active, or deletes the character underne
 ```
 
 
-<a name="compilation"></a> Compilation
+<a name="compilation">Compilation</a>
 --------------------------------------
 
 I use this command frequently, and I use it from typesetting LaTeX documents, compiling Scribble
@@ -58,7 +63,7 @@ documents, compiling code, and just about anything that I can use make with.
 ```
 
 
-<a name="scheme"></a> Scheme
+<a name="scheme">Scheme</a>
 ----------------------------
 
 I want to have a command that explicitly saves the input ring of Geiser:
@@ -79,7 +84,7 @@ I also have the following, because I want to align the `λ` symbol nicely.
 ```
 
 
-<a name="server"></a> Server
+<a name="server">Server</a>
 ----------------------------
 
 This snippet ensures that the Emacs server, the one that `emacsclient` connects to, runs:
@@ -98,7 +103,7 @@ $ emacs --daemon
 ```
 
 
-<a name="buffers"></a> Buffers
+<a name="buffers"><Buffers/a>
 ------------------------------
 
 I want a way to kill the current buffer, without being asked what buffer to kill. I will only get
@@ -111,7 +116,7 @@ prompted if the current has been modified.
 ```
 
 
-<a name="marks"></a> Marks
+<a name="marks">Marks</a>
 --------------------------
 
 There have been plenty of times in the past when I needed a function that just marks a line. What I
@@ -129,7 +134,7 @@ have is below. Executing it multiple times, marks multiple lines.
 ```
 
 
-<a name="keybindings"></a> Key bindings
+<a name="keybindings">Key bindings</a>
 ---------------------------------------
 
 The key bindings for the commands above, are listed below:
@@ -148,7 +153,7 @@ The key bindings for the commands above, are listed below:
 ```
 
 
-<a name="closing"></a> Closing remarks
+<a name="closing">Closing remarks</a>
 --------------------------------------
 
 I hope you’ll be able to find use of any of them. The rest of the configuration can be
