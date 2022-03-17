@@ -44,6 +44,6 @@ Pensoj de Optimisto
 - [Retrospektive](retrospektive/)
 - [Migri de LiveJournal al Frog](livefrog/)
 - [Sinkronigi Retnodojn per Usync](usync/)
-- [Malŝparitaj Malcedemoj](malsxparitaj/)
+- [Malŝparita Senĉeseco](malsxparita/)
 - [Super, Sube, kaj Aliloke](super-sube/)
 - [La Ipsilonkombinatoro per Ses Paŝoj](ipsilono/)

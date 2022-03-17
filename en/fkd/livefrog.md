@@ -2,25 +2,18 @@ Migrating from LiveJournal to Frog
 ==================================
 
 <div class="center">[Esperanto](/eo/livefrog/) ■ English</div>
-<div class="center">Last updated: September 29, 2018</div>
+<div class="center">Last updated: March 16, 2022</div>
 
 >I don’t know where I’m going, but I’m on my way.<br>
 >―Carl Sagan
 
 <img src="/bil/stephanie-leblanc-xrE6WwccyU-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="stephanie-leblanc-xrE6Wwccy_U-unsplash" title="stephanie-leblanc-xrE6Wwccy_U-unsplash"/>
 
-There are times when you want more control over your content. There are also times when you don’t
-want another platform to dictate what goes in or out. Issues like censorship and politics, can
-easily creep up on a blogging platform. I had specific cases wherein I needed to convert LiveJournal
-articles to another platform. There are tools that does this, however, I found none, so far, that
-translate to [Frog](https://github.com/greghendershott/frog/) files. This is my feeble attempt to
-achieve that goal.
 
+<a name="toc">Table of contents</a>
+-----------------------------------
 
-Table of contents
------------------
-
-- [Overview](#overview)
+- [Introduction](#introduction)
 - [Installation](#installation)
 - [Basics](#basics)
 - [Comments](#comments)
@@ -28,8 +21,15 @@ Table of contents
 - [Closing remarks](#closing)
 
 
-<a name="overview"></a> Overview
---------------------------------
+<a name="introduction">Introduction</a>
+---------------------------------------
+
+There are times when you want more control over your content. There are also times when you don’t
+want another platform to dictate what goes in or out. Issues like censorship and politics, can
+easily creep up on a blogging platform. I had specific cases wherein I needed to convert LiveJournal
+articles to another platform. There are tools that does this, however, I found none, so far, that
+translate to [Frog](https://github.com/greghendershott/frog/) files. This is my feeble attempt to
+achieve that goal.
 
 livefrog is a utility written in [Racket](http://racket-lang.org), used to migrate LiveJournal posts
 to Frog, a blogging platform written in Racket, too. It uses the files dumped by
