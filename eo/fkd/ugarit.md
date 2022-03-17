@@ -2,31 +2,18 @@ Krei Sekurkopiojn per Ugarit
 ============================
 
 <div class="center">Esperanto ■ [English](/en/ugarit/)</div>
-<div class="center">Laste ĝisdatigita: la 23-an de Februaro 2022</div>
+<div class="center">Laste ĝisdatigita: la 17-an de Marto 2022</div>
 
 >Bona juĝo devenas el sperto, kaj sperto devenas el malbona juĝo.<br>
 >―Fred BROOKS
 
 <img src="/bil/omar-flores-lQTbOWtysE-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="omar-flores-lQTbOWtysE-unsplash" title="omar-flores-lQTbOWtysE-unsplash"/>
 
-Kiom da fojoj oni spertis komprenon post kiam katastrofo okazis? Kiom da fojoj oni diris al si mem,
-ke se oni kreis sekurkopiojn de siaj altvaloraj datumoj, oni ne devus esti en tiu terura situacio,
-eltirante sian hararon kiel rabia maniulo?
-
-Plejmulto da ni jam spertis ĝin—ni perdis niajn altvalorajn dosierojn pro malatentecaj kaŭzoj. Ni
-perdis ilin pro diskkraŝo, datuma putro, sekureca rompo, kaj aliaj kialoj. Tamen se oni kreis
-retropaŝan agon—granda, sekura ŝaŭmo kie ni surteriĝas—ne estus multe da ĝeno kaj korpremo.
-Aliflanke, krei kaj administri sekurkopiojn povas esti senkuraĝigaj kaj egale danĝeraj.
-
-En ĉi tiu afiŝo, mi parolos pri
-[Ugarit](https://www.kitten-technologies.co.uk/project/ugarit/doc/trunk/README.wiki), agrabla peco
-de teĥnologio, kiu kunmiksas facilecon de uzado kaj sekurecon, en unu ilo.
-
 
 <a name="et">Enhavotabelo</a>
 -----------------------------
 
-- [Superrigardo](#superrigardo)
+- [Enkonduko](#enkonduko)
 - [Instalo](#instalo)
   + [Per APT](#apt)
   + [Per Nixpkgs](#nixpkgs)
@@ -41,8 +28,21 @@ de teĥnologio, kiu kunmiksas facilecon de uzado kaj sekurecon, en unu ilo.
 - [Finrimarkoj](#finrimarkoj)
 
 
-<a name="superrigardo">Superrigardo</a>
----------------------------------------
+<a name="enkonduko">Enkonduko</a>
+---------------------------------
+
+Kiom da fojoj oni spertis komprenon post kiam katastrofo okazis? Kiom da fojoj oni diris al si mem,
+ke se oni kreis sekurkopiojn de siaj altvaloraj datumoj, oni ne devus esti en tiu terura situacio,
+eltirante sian hararon kiel rabia maniulo?
+
+Plejmulto da ni jam spertis ĝin—ni perdis niajn altvalorajn dosierojn pro malatentecaj kaŭzoj. Ni
+perdis ilin pro diskkraŝo, datuma putro, sekureca rompo, kaj aliaj kialoj. Tamen se oni kreis
+retropaŝan agon—granda, sekura ŝaŭmo kie ni surteriĝas—ne estus multe da ĝeno kaj korpremo.
+Aliflanke, krei kaj administri sekurkopiojn povas esti senkuraĝigaj kaj egale danĝeraj.
+
+En ĉi tiu afiŝo, mi parolos pri
+[Ugarit](https://www.kitten-technologies.co.uk/project/ugarit/doc/trunk/README.wiki), agrabla peco
+de teĥnologio, kiu kunmiksas facilecon de uzado kaj sekurecon, en unu ilo.
 
 Ugarit estas klasika ekzemplo de ilo, kiu postulas minimuman agordon kaj agordaĵon. Ke, kiam la
 komenca alĝustigado estas farita, ĉio kion oni bezonas fari estas reuzi la ilon. Tamen, tio ne

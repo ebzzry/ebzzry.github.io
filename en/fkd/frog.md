@@ -62,8 +62,8 @@ takes in those input files, and it outputs nice HTML that you can upload to your
 No, it’s even easier that it sounds.
 
 
-<a name="installation"></a> Installation
-----------------------------------------
+<a name="installation">Installation</a>
+---------------------------------------
 
 In the succeeding sections, let’s presume that your username is `vakelo`, and your home directory is
 `/home/vakelo/`.
@@ -93,8 +93,8 @@ After which, you’ll get the `raco frog` command. Let’s display its help opti
     $ raco frog -h
 
 
-<a name="firstuse"></a> First use
----------------------------------
+<a name="firstuse">First use</a>
+--------------------------------
 
 Sweet. Now that you have Frog installed, let’s get rolling. To create your first Frog-powered
 website, you’ll create a project directory first:
@@ -119,8 +119,8 @@ contains the default site layout. When you’re OK with it, let’s go back to t
 that process by hitting <kbd>C-c</kbd>.
 
 
-<a name="createnew"></a> Creating new posts
--------------------------------------------
+<a name="createnew">Creating new posts</a>
+------------------------------------------
 
 Creating a new article from scratch is another easy task:
 
@@ -193,8 +193,8 @@ Then, rebuild the files:
     $ raco frog -bp
 
 
-<a name="customizations"></a> Customizations
---------------------------------------------
+<a name="customizations">Customizations</a>
+-------------------------------------------
 
 By this time, you’re really itching to customize the site. Yep, that’s what you’re going to do in
 this section.
@@ -211,7 +211,7 @@ changes:
 Let’s examine each of the files in the list, closer.
 
 
-### <a name=".frogrc"></a> .frogrc
+### <a name=".frogrc">.frogrc</a>
 
 This file is where top-level customizations are made. Open the file `.frogrc`, located in the
 current directory:
@@ -229,7 +229,7 @@ only concerned about three parameters:
 is the name of your blog. `author` is your name.
 
 
-### <a name="page-template.html"></a> page-template.html
+### <a name="page-template.html">page-template.html</a>
 
 This file contains the common content, across all types of pages, whether they are blog or non-blog
 posts. Open the file `_src/page-template.html`, located in the current directory:
@@ -249,7 +249,7 @@ moment. To make it easier, I’ll just list down the items to search and replace
 It should be self-evident what you should replace them with.
 
 
-### <a name="post-template.html"></a> post-template.html
+### <a name="post-template.html">post-template.html</a>
 
 Similar to `page-template.html`, but this file contains content that will only appear with blog
 posts. It is also perhaps the easiest file to modify. Let’s open it:
@@ -261,7 +261,7 @@ section of your blog posts, to a Disqus account. More about this will be discuss
 _Comments_.
 
 
-### <a name="bootstrap.css"></a> bootstrap.css and bootstrap.min.css
+### <a name="bootstrap.css">bootstrap.css and bootstrap.min.css</a>
 
 These two files are responsible for what is commonly called as themes—it controls the look of the
 site. To change these files, let’s head over to <https://bootswatch.com/>, then let’s select a theme
@@ -274,8 +274,8 @@ the download link, for that theme. Select and download both `bootstrap.min.css` 
     $ cp ~/Downloads/bootstrap.*.css css/
 
 
-<a name="miscellany"></a> Miscellany
-------------------------------------
+<a name="miscellany">Miscellany</a>
+-----------------------------------
 
 When you created a new post earlier, you used the following command:
 
@@ -359,8 +359,8 @@ Then you push the commits:
 To view your website, go to `vakelo.github.io`.
 
 
-<a name="closing"></a> Closing remarks
---------------------------------------
+<a name="closing">Closing remarks</a>
+-------------------------------------
 
 Frog is a viable and usable site creator. It is easy-to-use, highly configurable, flexible, and yes,
 open source. It gives control, back to the author. A good example of a Frog-powered blog can be

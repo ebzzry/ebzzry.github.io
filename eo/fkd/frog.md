@@ -13,7 +13,7 @@ Blogi per Frog
 <a name="et">Enhavotabelo</a>
 -----------------------------
 
-- [Introduction](#introduction)
+- [Enkonduko](#enkonduko)
 - [Instalo](#instalo)
 - [Unua uzo](#unua)
 - [Krei novafiŝojn](#novaj)
@@ -28,8 +28,8 @@ Blogi per Frog
 - [Finrimarkoj](#finrimarkoj)
 
 
-<a name="introduction">Introduction</a>
----------------------------------------
+<a name="enkonduko">Enkonduko</a>
+---------------------------------
 
 Eldonante blogan enhavon al la TTT, la plejmulto da homoj konfidus antaŭkreitajn servojn, kiuj faras
 la grandparton da laboro. Tamen, estas okazoj kiam oni volas havi pli da rego de la aĵoj. Bona
