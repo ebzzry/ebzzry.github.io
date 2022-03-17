@@ -2,29 +2,18 @@ Blogi per Frog
 ==============
 
 <div class="center">Esperanto ■ [English](/en/frog/)</div>
-<div class="center">Laste ĝisdatigita: la 23-an de Februaro 2022</div>
+<div class="center">Laste ĝisdatigita: la 17-an de Marto 2022</div>
 
 >Unu persono kun ardo pli bonas ol kvardek personoj nure interesataj.<br>
 >―E.M. FORSTER
 
 <img src="/bil/zdenek-machacek-HYTwWSE5ztw-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="zdenek-machacek-HYTwWSE5ztw-unsplash" title="zdenek-machacek-HYTwWSE5ztw-unsplash"/>
 
-Eldonante blogan enhavon al la TTT, la plejmulto da homoj konfidus antaŭkreitajn servojn, kiuj faras
-la grandparton da laboro. Tamen, estas okazoj kiam oni volas havi pli da rego de la aĵoj. Bona
-ekzemplo de tio, estas la limigoj, kiujn provizantoj efikigas. Alia afero estas la ĉeesto de
-reklamoj aŭ la uzado de [parte senpagaj](https://en.wikipedia.org/wiki/Freemium) servoj—komence
-liberaj servoj, tiam mono bezoniĝas por aldonaj servoj.
-
-Eble oni disputas, ke ĉiuj, kiujn ĝi bezonas estas platformo por blogi, kaj ĝi ne bezonas la plian
-flekson. Estas bonfarte por iuj. Tamen multe da homoj volas liberiĝi el la katenoj. Mi ne volas
-vidi reklamojn ĉe mia retejo. Mi ne volas surprizajn cenzuradojn. Mi volas liberon. Do, se oni
-estas kiel mi, daŭru legi.
-
 
 <a name="et">Enhavotabelo</a>
 -----------------------------
 
-- [Superrigardo](#superrigardo)
+- [Introduction](#introduction)
 - [Instalo](#instalo)
 - [Unua uzo](#unua)
 - [Krei novafiŝojn](#novaj)
@@ -39,8 +28,19 @@ estas kiel mi, daŭru legi.
 - [Finrimarkoj](#finrimarkoj)
 
 
-<a name="superrigardo">Superrigardo</a>
+<a name="introduction">Introduction</a>
 ---------------------------------------
+
+Eldonante blogan enhavon al la TTT, la plejmulto da homoj konfidus antaŭkreitajn servojn, kiuj faras
+la grandparton da laboro. Tamen, estas okazoj kiam oni volas havi pli da rego de la aĵoj. Bona
+ekzemplo de tio, estas la limigoj, kiujn provizantoj efikigas. Alia afero estas la ĉeesto de
+reklamoj aŭ la uzado de [parte senpagaj](https://en.wikipedia.org/wiki/Freemium) servoj—komence
+liberaj servoj, tiam mono bezoniĝas por aldonaj servoj.
+
+Eble oni disputas, ke ĉiuj, kiujn ĝi bezonas estas platformo por blogi, kaj ĝi ne bezonas la plian
+flekson. Estas bonfarte por iuj. Tamen multe da homoj volas liberiĝi el la katenoj. Mi ne volas
+vidi reklamojn ĉe mia retejo. Mi ne volas surprizajn cenzuradojn. Mi volas liberon. Do, se oni
+estas kiel mi, daŭru legi.
 
 Trovante ilojn por krei ĉi tiun blogon, mi malkontentiĝis pri la plejmulto da famaj opcioj. Iuj tro
 malfacilas por agordi; iuj malhavas kapablojn. Mi frustriĝis ĉar ĉiu fino de la spektro devigas min
