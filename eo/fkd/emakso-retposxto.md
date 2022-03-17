@@ -2,27 +2,18 @@ Agordi Retpoŝton per Emakso
 ===========================
 
 <div class="center">Esperanto ■ [English](/en/emacs-mail/)</div>
-<div class="center">Laste ĝisdatigita: la 16-an de Marto 2022</div>
+<div class="center">Laste ĝisdatigita: la 17-an de Marto 2022</div>
 
 >Nur pro tio, ke ne fariĝis io, ne signifas, ke ne fareblas ĝi. Nur pro tio, ke fareblas io, ne signifas, ke farendas ĝi.<br>
 >―Barry GLASFORD
 
 <img src="/bil/zak-7wBFsHWQDlk-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="zak-7wBFsHWQDlk-unsplash" title="zak-7wBFsHWQDlk-unsplash"/>
 
-Nunatempe kontroli retpoŝton postulas onin por iri al la retejo de sia provizanto aŭ uzi
-poŝkomputilapon. Tamen, estas kazoj kiam oni volas havi pli da rego de ĝiaj mesaĝoj, precipe kiam
-la kapablo kiun oni volas, ne haveblas en la plimultaj opcioj.
-
-Emakso disponigas multaj manierojn (Gnus, Wanderlust, VM, ktp.) de sendi kaj ricevi retpoŝtonj. En
-ĉi tiu afiŝo, mi parolos pri [getmail](http://pyropus.ca/software/getmail/),
-[mu](http://www.djcbsoftware.nl/code/mu/), kaj [mu4e](http://www.djcbsoftware.nl/code/mu/mu4e.html),
-kaj kiel agordi ilin ĝuste. En ĉi tiu lernilo, mi supozas, ke oni akiras siajn mesaĝojn per
-[Gmail](https://gmail.com) kaj ĝia IMAP-interfacio.
-
 
 <a name="et">Enhavotabelo</a>
 -----------------------------
 
+- [Enkonduko](#enkonduko)
 - [Elŝuti mesaĝojn](#elsxuti)
   + [Instalo](#elsxutiinstalo)
   + [Agordo](#elsxutiagordo)
@@ -33,6 +24,20 @@ kaj kiel agordi ilin ĝuste. En ĉi tiu lernilo, mi supozas, ke oni akiras siajn
   + [Plenumo](#legiplenumo)
 - [Ĉifrado](#cxifrado)
 - [Finrimarkoj](#finrimarkoj)
+
+
+<a name="enkonduko">Enkonduko</a>
+---------------------------------
+
+Nunatempe kontroli retpoŝton postulas onin por iri al la retejo de sia provizanto aŭ uzi
+poŝkomputilapon. Tamen, estas kazoj kiam oni volas havi pli da rego de ĝiaj mesaĝoj, precipe kiam
+la kapablo kiun oni volas, ne haveblas en la plimultaj opcioj.
+
+Emakso disponigas multaj manierojn (Gnus, Wanderlust, VM, ktp.) de sendi kaj ricevi retpoŝtonj. En
+ĉi tiu afiŝo, mi parolos pri [getmail](http://pyropus.ca/software/getmail/),
+[mu](http://www.djcbsoftware.nl/code/mu/), kaj [mu4e](http://www.djcbsoftware.nl/code/mu/mu4e.html),
+kaj kiel agordi ilin ĝuste. En ĉi tiu lernilo, mi supozas, ke oni akiras siajn mesaĝojn per
+[Gmail](https://gmail.com) kaj ĝia IMAP-interfacio.
 
 
 <a name="elsxuti">Elŝuti mesaĝojn</a>

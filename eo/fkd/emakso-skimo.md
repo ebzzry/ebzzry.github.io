@@ -9,16 +9,11 @@ Agordi Skimprogramadon en Emakso
 
 <img src="/bil/dimitar-belchev-fRBpWLAcWIY-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="dimitar-belchev-fRBpWLAcWIY-unsplash" title="dimitar-belchev-fRBpWLAcWIY-unsplash"/>
 
-En ĉi tiu afiŝo, mi priparolos la plej facilan metodon, kiun mi uzis por agordi
-[skiman](https://eo.wikipedia.org/wiki/Skimo) programadan medion emakse. Notu, ke ĉi tiu ne estas la
-sola aliro—iuj traktis ĝin en aserteble pli bonaj manieroj. En ĉi tiu afiŝo, mi provos klarigi la
-malpli longan vojon, kiun mi vojaĝigis.
-
 
 <a name="et">Enhavotabelo</a>
 -----------------------------
 
-- [Superrigardo](#superrigardo)
+- [Enkonduko](#enkonduko)
 - [Instalo](#instalo)
 - [Uzado](#uzado)
   + [Skima bufro](#skimbufro)
@@ -26,8 +21,13 @@ malpli longan vojon, kiun mi vojaĝigis.
 - [Finrimarkoj](#finrimarkoj)
 
 
-<a name="superrigardo">Superrigardo</a>
----------------------------------------
+<a name="enkonduko">Enkonduko</a>
+---------------------------------
+
+En ĉi tiu afiŝo, mi priparolos la plej facilan metodon, kiun mi uzis por agordi
+[skiman](https://groups.csail.mit.edu/mac/projects/scheme/) programadan medion emakse. Notu, ke ĉi
+tiu ne estas la sola aliro—iuj traktis ĝin en aserteble pli bonaj manieroj. En ĉi tiu afiŝo, mi
+provos klarigi la malpli longan vojon, kiun mi vojaĝigis.
 
 Redakti skimkodon emakse estis tradicie farita per rudimentaj reĝimoj, kiuj malhavis flekson. Ili
 estis kapablaj por taksi aktualajn difinojn, lastajn difinojn, kaj tutajn bufrojn, ĉefparte.

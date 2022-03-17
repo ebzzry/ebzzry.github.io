@@ -2,13 +2,33 @@ Setting up Mail in Emacs
 ========================
 
 <div class="center">[Esperanto](/eo/emakso-retposxto/) ■ English</div>
-<div class="center">Last updated: March 16, 2022</div>
+<div class="center">Last updated: March 17, 2022</div>
 
 >Just because it isn’t done doesn’t mean it can’t be done. Just because it can be done doesn’t mean
 >it should be.<br>
 >―Barry Glasford
 
 <img src="/bil/zak-7wBFsHWQDlk-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="zak-7wBFsHWQDlk-unsplash" title="zak-7wBFsHWQDlk-unsplash"/>
+
+
+<a name="toc">Table of contents</a>
+-----------------------------------
+
+- [Introduction](#introduction)
+- [Fetching messages](#fetching)
+  + [Installation](#fetchinstallation)
+  + [Configuration](#fetchconfiguration)
+  + [Execution](#fetchexecution)
+- [Reading messages](#reading)
+  + [Installation](#readinstallation)
+  + [Configuration](#readconfiguration)
+  + [Execution](#readexecution)
+- [Encryption](#encryption)
+- [Closing remarks](#closing)
+
+
+<a name="introduction">Introduction</a>
+---------------------------------------
 
 In this day and age, checking your mail means going to the website of your mail provider, or using a
 mobile app. However, there are some cases when you want to have more control over your messages,
@@ -20,21 +40,6 @@ about [getmail](http://pyropus.ca/software/getmail/), [mu](http://www.djcbsoftwa
 and [mu4e](http://www.djcbsoftware.nl/code/mu/mu4e.html), and how to set them up quickly. In this
 tutorial I’ll assume that you’re going to get your messages from [Gmail](https://gmail.com) via its
 IMAP interface.
-
-
-Table of contents
------------------
-
-- [Fetching messages](#fetching)
-  + [Installation](#fetchinstallation)
-  + [Configuration](#fetchconfiguration)
-  + [Execution](#fetchexecution)
-- [Reading messages](#reading)
-  + [Installation](#readinstallation)
-  + [Configuration](#readconfiguration)
-  + [Execution](#readexecution)
-- [Encryption](#encryption)
-- [Closing remarks](#closing)
 
 
 <a name="fetching"></a> Fetching messages
