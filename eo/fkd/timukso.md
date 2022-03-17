@@ -2,22 +2,16 @@ Kiel Mi Uzas Timukson
 =====================
 
 <div class="center">Esperanto ■ [English](/en/tmux/)</div>
-<div class="center">Laste ĝisdatigita: la 28-an de Septembro 2021</div>
+<div class="center">Laste ĝisdatigita: la 17-an de Marto 2022</div>
 
 >Furioza agado ne estas anstataŭaĵo de komprenado.<br>
 >―H.H. WILLIAMs
 
-Samkiel redaktilo, terminalsimulila kunigilo estas unu el la malmultaj iloj kiu
-multan produktivecon liveras ekde ĝin oni lernas kiel uzi. En ĉi tiu artikolo
-mi parolos pri [timukso](https://github.com/tmux/tmux)—seanca administrilo,
-kunigilo, fenesadministrilo, kaj unu el la plej gravaj programaroj kiu la
-manieron ŝanĝis en kiu komputadon mi faras.
 
-
-<a name="et"></a>Enhavotabelo
+<a name="et">Enhavotabelo</a>
 -----------------------------
 
-- [Superrigardo](#superrigardo)
+- [Introduction](#introduction)
 - [Ĝeneralaj](#gxeneralaj)
   + [Indeksoj](#indeksoj)
   + [Klientoj](#klientoj)
@@ -35,8 +29,13 @@ manieron ŝanĝis en kiu komputadon mi faras.
 - [Finrimarkoj](#finrimarkoj)
 
 
-<a name="superrigardo"></a>Superrigardo
+<a name="introduction">Introduction</a>
 ---------------------------------------
+
+Samkiel redaktilo, terminalsimulila kunigilo estas unu el la malmultaj iloj kiu multan produktivecon
+liveras ekde ĝin oni lernas kiel uzi. En ĉi tiu artikolo mi parolos pri
+[timukso](https://github.com/tmux/tmux)—seanca administrilo, kunigilo, fenesadministrilo, kaj unu el
+la plej gravaj programaroj kiu la manieron ŝanĝis en kiu komputadon mi faras.
 
 De longe je [GNU Screen](https://www.gnu.org/software/screen/) mi uzis por kunigilado. Estis tia
 vigliga sento kiam la konekton al maŝino oni perdas nur por malkovri poste, ke la porgramo kiun oni
@@ -50,7 +49,7 @@ En ĉi tiu artikolo, onin mi kondukas al mia agordaĵo kaj krudan ideon kiel mi 
 donos.
 
 
-o<a name="gxeneralaj"></a>Ĝeneralaj
+<a name="gxeneralaj">Ĝeneralaj</a>
 ----------------------------------
 
 Estas bona ideo por komenci de la pli ĝeneralaj fazoj de agordaĵo, moviĝonte al la plej

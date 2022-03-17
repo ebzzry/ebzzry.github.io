@@ -2,21 +2,16 @@ How I Roll with Tmux
 ====================
 
 <div class="center">[Esperanto](/eo/timukso) ■ English</div>
-<div class="center">Last updated: September 28, 2021</div>
+<div class="center">Last updated: March 17, 2022</div>
 
 >Furious activity is no substitute for understanding.<br>
 >―H.H. Williams
-
-Just like with a text editor, a terminal multiplexer is one of the few tools that yields a lot of
-productivity once you learn how to use it. In this article, I’ll talk about
-[tmux](https://github.com/tmux/tmux)—a session manager, multiplexer, window manager, and one of the
-most important pieces of software that changed the way I do computing.
 
 
 <a name="toc">Table of contents</a>
 -----------------------------------
 
-- [Overview](#overview)
+- [Introduction](#introduction)
 - [General](#general)
   + [Indexes](#indexes)
   + [Clients](#clients)
@@ -34,8 +29,13 @@ most important pieces of software that changed the way I do computing.
 - [Closing remarks](#closingremarks)
 
 
-<a name="overview">Overview</a>
--------------------------------
+<a name="introduction">Introduction</a>
+---------------------------------------
+
+Just like with a text editor, a terminal multiplexer is one of the few tools that yields a lot of
+productivity once you learn how to use it. In this article, I’ll talk about
+[tmux](https://github.com/tmux/tmux)—a session manager, multiplexer, window manager, and one of the
+most important pieces of software that changed the way I do computing.
 
 For a long time, I have used [GNU Screen](https://www.gnu.org/software/screen/) for
 multiplexing. There was such an exhilarating feeling when you lose connection to a host, only to

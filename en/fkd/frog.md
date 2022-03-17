@@ -2,29 +2,18 @@ Blogging with Frog
 ==================
 
 <div class="center">[Esperanto](/eo/frog/) ■ English</div>
-<div class="center">Last updated: September 23, 2018</div>
+<div class="center">Last updated: March 17, 2022</div>
 
 >One person with passion is better than forty people merely interested.<br>
 >―E.M. Forster
 
 <img src="/bil/zdenek-machacek-HYTwWSE5ztw-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="zdenek-machacek-HYTwWSE5ztw-unsplash" title="zdenek-machacek-HYTwWSE5ztw-unsplash"/>
 
-When publishing blog content to the web, most would rely on pre-fabricated services, that do most of
-the heavy lifting. However, there are instances when you want to have more control over your
-stuff. A good example of which are the constraints that providers enforce. Another is the presence
-of ads, or the use of [freemium](https://en.wikipedia.org/wiki/Freemium) services, i.e., things can
-be done, only up to a certain visible limit.
 
-One may argue that all they need is a platform to blog with, and that they don’t need the extra
-flexibility. While that is fine, some of us, including me, want to be free from these shackles. I
-don’t want ads on my site. I don’t want surprise censorship. I want freedom. Now, if you’re like me,
-then read on.
+<a name="toc">Table of contents</a>
+-----------------------------------
 
-
-Table of contents
------------------
-
-- [Overview](#Overview)
+- [Introduction](#introduction)
 - [Installation](#installation)
 - [First use](#firstuse)
 - [Creating new posts](#createnew)
@@ -39,9 +28,19 @@ Table of contents
 - [Closing remarks](#closing)
 
 
+<a name="Introduction">Introduction</a>
+---------------------------------------
 
-<a name="Overview"></a> Overview
---------------------------------
+When publishing blog content to the web, most would rely on pre-fabricated services, that do most of
+the heavy lifting. However, there are instances when you want to have more control over your
+stuff. A good example of which are the constraints that providers enforce. Another is the presence
+of ads, or the use of [freemium](https://en.wikipedia.org/wiki/Freemium) services, i.e., things can
+be done, only up to a certain visible limit.
+
+One may argue that all they need is a platform to blog with, and that they don’t need the extra
+flexibility. While that is fine, some of us, including me, want to be free from these shackles. I
+don’t want ads on my site. I don’t want surprise censorship. I want freedom. Now, if you’re like me,
+then read on.
 
 When I was looking for tools to create this blog, I became dissatisfied with most of the mainstream
 options. Some are the just too difficult to setup, while some are lacking in features. I became

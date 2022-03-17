@@ -2,22 +2,18 @@ Managing Directories with Emacs
 ===============================
 
 <div class="center">[Esperanto](/eo/emakso-dired/) ■ English</div>
-<div class="center">Last updated: March 16, 2022</div>
+<div class="center">Last updated: March 17, 2022</div>
 
 >Supposing is good, but finding out is better.<br>
 >―Samuel Clemens
 
 <img src="/bil/lucas-benjamin-V-mEcfI8fsI-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="lucas-benjamin-V-mEcfI8fsI-unsplash" title="lucas-benjamin-V-mEcfI8fsI-unsplash"/>
 
-In this post, I’ll be focusing on one of the smart ways Emacs handles directory management. The
-directory editor, or _Dired_ (pronounced dir-ed, not dye-rd), is the Emacs equivalent of
-a file manager. Whatever you can do with regular buffers, you can also do it with dired ones.
 
+<a name="toc">Table of contents</a>
+-----------------------------------
 
-Table of contents
------------------
-
-- [Overview](#overview)
+- [Introduciton](#introduction)
 - [Common commands](#commoncommands)
 - [Mark commands](#markcommands)
 - [Other commands](#othercommands)
@@ -25,8 +21,12 @@ Table of contents
 - [Closing remarks](#closing)
 
 
-<a name="overview"></a> Overview
---------------------------------
+<a name="introduction">Introduction</a>
+---------------------------------------
+
+In this post, I’ll be focusing on one of the smart ways Emacs handles directory management. The
+directory editor, or _Dired_ (pronounced dir-ed, not dye-rd), is the Emacs equivalent of
+a file manager. Whatever you can do with regular buffers, you can also do it with dired ones.
 
 To run Dired, run Emacs on the command line, supplying a directory as its argument:
 
