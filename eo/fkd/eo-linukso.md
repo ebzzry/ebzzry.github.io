@@ -2,7 +2,7 @@ Esperanto-signoj en Linukso
 ===========================
 
 <div class="center">Esperanto ■ [English](/en/eo-linux/)</div>
-<div class="center">Laste ĝisdatigita: la 10-an de Marto 2022</div>
+<div class="center">Laste ĝisdatigita: la 17-an de Marto 2022</div>
 
 >Se ion oni volas, kion oni neniam havis, oni devas esti servopreta tion fari, kion oni neniam
 >faris.<br>
@@ -10,21 +10,25 @@ Esperanto-signoj en Linukso
 
 <img src="/bil/stefan-HbwYKfnVz0-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="stefan-HbwYKfnVz0-unsplash" title="stefan-HbwYKfnVz0-unsplash"/>
 
+
+<a name="et">Enhavotabelo</a>
+-----------------------------
+
+- [Enkonduko](#enkonduko)
+- [Multi‎ߺ‎key](#multikey)
+- [Mode‎ߺ‎switch](#modeswitch)
+- [Finrimarkoj](#finrimarkoj)
+
+
+<a name="enkonduko">Enkonduko</a>
+---------------------------------
+
 Mi opinias, ke la [h-](https://eo.wikipedia.org/wiki/H-sistemo) kaj la
 [x-sistemoj](https://eo.wikipedia.org/wiki/x-sistemo) ne plu devas esti uzitaj por la enigi signojn
 specife al Esperanto, krom se, ne estas fizike farebla. Nune, estas du manieroj por la enigi
 Esperanto-signojn linukse—la klavoj <kbd>Multi‎ߺ‎key</kbd> kaj <kbd>Mode‎ߺ‎switch</kbd>.
 
 En ĉi tiu artikolo la klavo <kbd>🐧</kbd> signifas la  klavon <kbd>Mode‎ߺ‎switch</kbd>.
-
-
-<a name="et">Enhavotabelo</a>
------------------------------
-
-- [Multi‎ߺ‎key](#multikey)
-- [Mode‎ߺ‎switch](#modeswitch)
-- [Finrimarkoj](#finrimarkoj)
-
 
 <a name="multikey"></a>Multi‎ߺ‎key
 --------------------------------

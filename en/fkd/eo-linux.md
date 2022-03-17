@@ -2,13 +2,26 @@ Esperanto Characters in Linux
 =============================
 
 <div class="center">[Esperanto](/eo/eo-linukso/) ■ English</div>
-<div class="center">Last updated: September 12, 2018</div>
+<div class="center">Last updated: March 17, 2022</div>
 
 >If you want something you’ve never had, you must be willing to do something you’ve never
 >done.<br>
 >―Thomas Jefferson
 
 <img src="/bil/stefan-HbwYKfnVz0-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="stefan-HbwYKfnVz0-unsplash" title="stefan-HbwYKfnVz0-unsplash"/>
+
+
+<a name="toc">Table of contents</a>
+-----------------------------------
+
+- [Introduction](#introduction)
+- [Multi‎ߺ‎key](#multikey)
+- [Mode‎ߺ‎switch](#modeswitch)
+- [Closing remarks](#closing)
+
+
+<a name="introduction">Introduction</a>
+---------------------------------------
 
 I opine, that one should no longer be using the
 [h-](https://en.wikipedia.org/wiki/Esperanto_orthography#H-system) or
@@ -19,15 +32,7 @@ Esperanto characters on Linux systems—the <kbd>Multi‎ߺ‎key</kbd> and <kbd
 In this article the <kbd>🐧</kbd> key signifies the <kbd>Mode‎ߺ‎switch</kbd> key.
 
 
-<a name="toc"></a>Table of contents
------------------------------------
-
-- [Multi‎ߺ‎key](#multikey)
-- [Mode‎ߺ‎switch](#modeswitch)
-- [Closing remarks](#closing)
-
-
-<a name="multikey"></a>Multi‎ߺ‎key
+<a name="multikey">Multi‎ߺ‎key</a>
 --------------------------------
 
 The *Multi‎ߺ‎key*, also called the Compose key, is a specially-assigned key, that must be pressed and
@@ -90,7 +95,7 @@ The following table lists the combinations for the Esperanto characters:
 | Ŭ         | Multi‎ߺ‎key U U  |
 
 
-<a name="modeswitch"></a>Mode‎ߺ‎switch
+<a name="modeswitch">Mode‎ߺ‎switch</a>
 ------------------------------------
 
 A faster and easier way to input Esperanto characters is through the use of the *Mode‎ߺ‎switch*
@@ -156,7 +161,7 @@ keycode 107 = Mode‎ߺ‎switch
 ```
 
 
-<a name="closing"></a>Closing remarks
+<a name="closing">Closing remarks</a>
 -------------------------------------
 
 Both methods outlined above do far more than emitting Esperanto characters. The Multi‎ߺ‎key system can
