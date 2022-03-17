@@ -2,25 +2,18 @@ Lakona Rondvojaĝo de Gito kaj GitHub
 ====================================
 
 <div class="center">Esperanto ■ [English](/en/git-github/)</div>
-<div class="center">Laste ĝisdatigita: la 16-an de Marto 2022</div>
+<div class="center">Laste ĝisdatigita: la 17-an de Marto 2022</div>
 
 >Sciu kiel solvi ĉiujn solvitajn problemon.<br>
 >―Richard P. FEYNMAN
 
 <img src="/bil/tobias-tullius-XQ1cWY7v2PI-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="tobias-tullius-XQ1cWY7v2PI-unsplash" title="tobias-tullius-XQ1cWY7v2PI-unsplash"/>
 
-Ĉi tiu lakona gvidilo montros laborfluon per [Gito](https://git-scm.com/) kaj
-[GitHub](https://github.com). Rapida interreta serĉo pri gitaj laborfluoj revenas multspecajn
-rezultojn. Ĉi tiu artikolo priskribas nur unu el la eblaj manieroj de uzi giton kun gita gastiga
-servo kiel GitHub .
-
-En ĉi tiu artikolo, la simbolo `$` reprezentas la inviton . Por demonstradaj celoj, ni uzos la
-redaktilon [*nano*](https://www.nano-editor.org/) . Tamen, kion ajn redaktilon oni liberas uzi.
-
 
 <a name="et">Enhavotabelo</a>
 -----------------------------
 
+- [Enkonduko](#enkonduko)
 - [Bazaferoj](#bazaferoj)
   + [Komenca uzo](#komenco)
   + [Sekvontaj uzadoj](#sekvontaj)
@@ -33,6 +26,18 @@ redaktilon [*nano*](https://www.nano-editor.org/) . Tamen, kion ajn redaktilon o
 - [Tiri ŝanĝojn](#tiri)
 - [Kunfandi kun *upstream*](#kunfandi)
 - [Finrimarkoj](#finrimarkoj)
+
+
+<a name="enkonduko">Enkonduko</a>
+---------------------------------
+
+Ĉi tiu lakona gvidilo montros laborfluon per [Gito](https://git-scm.com/) kaj
+[GitHub](https://github.com). Rapida interreta serĉo pri gitaj laborfluoj revenas multspecajn
+rezultojn. Ĉi tiu artikolo priskribas nur unu el la eblaj manieroj de uzi giton kun gita gastiga
+servo kiel GitHub.
+
+En ĉi tiu artikolo, la simbolo `$` reprezentas la inviton. Por demonstradaj celoj, ni uzos la
+redaktilon [*nano*](https://www.nano-editor.org/) . Tamen, kion ajn redaktilon oni liberas uzi.
 
 
 <a name="bazaferoj">Bazaferoj</a>
