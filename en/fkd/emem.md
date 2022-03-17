@@ -6,7 +6,22 @@ Converting Markdown to HTML with emem
 
 >The answers you seek you will never find until you stop looking outside and start looking for them
 >within yourself.<br>
->―Memory gatekeeper, Ergo Proxy
+>―JJ, Ergo Proxy
+
+<img src="/bil/s-migaj-Yui5vfKHuzs-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="s-migaj-Yui5vfKHuzs-unsplash" title="s-migaj-Yui5vfKHuzs-unsplash"/>
+ 
+
+<a name="toc">Table of contents</a>
+-----------------------------------
+
+- [Introduction](#introduction)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Closing remarks](#closing)
+
+
+<a name="introduction">Introduction</a>
+---------------------------------------
 
 I have always wanted a way to create HTML documents from my Markdown files. Initially, I simply
 wanted to have HTML files from my text files so that I can view them nicely on my phone. Later, I
@@ -20,15 +35,7 @@ that takes in Markdown input either from stdin or disk file, then it produces a 
 decent enough, at least, for regular viewing.
 
 
-<a name="toc"></a>Table of contents
------------------------------------
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Closing remarks](#closing)
-
-
-<a name="installation"></a> Installation
+<a name="installation"> Installation</a>
 ----------------------------------------
 
 Emem is available via [Nix](https://nixos.org/nix/). If you don’t have Nix yet, you may install it
@@ -59,7 +66,7 @@ When you’re done installing it, you may check the version number with:
 The latest version is `0.2.50`.
 
 
-<a name="usage"></a> Usage
+<a name="usage"> Usage</a>
 --------------------------
 
 At the most basic level, simply running emem against a Markdown file produces a basic, yet complete
@@ -193,7 +200,7 @@ To view all the supported options:
     $ emem --help
 
 
-<a name="closing"></a> Closing remarks
+<a name="closing"> Closing remarks</a>
 --------------------------------------
 
 For this whole [journal](https://ebzzry.com), I was able to get a 90+ score

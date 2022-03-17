@@ -4,11 +4,26 @@ Konverti de Markdaŭno al HTML per emem
 <div class="center">Esperanto ■ [English](/en/emem/)</div>
 <div class="center">Laste ĝisdatigita: la 16-an de Marto 2022</div>
     
->Oni ne trovos la respondojn kiujn oni serĉas ĝis oni haltas serĉi ekster kaj komenciĝas serĉi ilin
+>Oni ne trovos la respondojn kiujn oni serĉas ĝis oni haltas serĉi ekstere kaj komenciĝas serĉi ilin
 >el oni mem.<br>
 >―JJ, Ergo Proxy
 
-Mi ĉiam volis Manieron por HTML-dokumentojn krei el miaj markdaŭnaj dosieroj. Komence, HTML-dosierojn
+<img src="/bil/s-migaj-Yui5vfKHuzs-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="s-migaj-Yui5vfKHuzs-unsplash" title="s-migaj-Yui5vfKHuzs-unsplash"/>
+
+
+<a name="et">Enhavotabelo</a>
+-----------------------------
+
+- [Enkonduko](#enkonduko)
+- [Instalo](#instalo)
+- [Uzado](#uzado)
+- [Finrimarkoj](#finrimarkoj)
+
+
+<a name="enkonduko">Enkonduko</a>
+---------------------------------
+
+Mi ĉiam volis manieron por HTML-dokumentojn krei el miaj markdaŭnaj dosieroj. Komence, HTML-dosierojn
 el miaj tekstaj dosieroj mi nur volis havi por ke ilin mi povu vidi per mia poŝtelefono. Poste, mi
 dezirisi manieron por krei tiujn dosierojn por ke ilin mi povu alŝuti al la interreto kaj vidi ilin
 per aliaj aparatoj. Jam ekzistas iloj por ja tion fari. Ilin mi provis, tamen min mem mi trovis la
@@ -20,15 +35,7 @@ malgranda ilo kiu markdaŭnaj dosierojn ricevas aŭ el la ĉefenigujo aŭ diska 
 liveras kiu sufiĉe decas, almenaŭ por kutima rigardado.
 
 
-<a name="et"></a>Enhavotabelo
------------------------------
-
-- [Instalo](#instalo)
-- [Uzado](#uzado)
-- [Finrimarkoj](#finrimarkoj)
-
-
-<a name="instalo"></a>Instalo
+<a name="instalo">Instalo</a>
 -----------------------------
 
 Emem haveblas per [Nix](https://nixos.org/nix/). Se je Nix oni ne ankoraŭ havas, ĝin oni povas
@@ -60,7 +67,7 @@ Se ĝin oni jam finis krei, la version oni povas kontroli per:
 La plej ĵusa versio estas `0.2.50`.
 
 
-<a name="uzado"></a>Uzado
+<a name="uzado">Uzado</a>
 -------------------------
 
 Ĉe la plej baza nivelo, emem simple kuras kontraŭ markdaŭna dosiero, bazan, tamen plenan
@@ -195,7 +202,7 @@ Por ĉiomajn subtenitajn opciojn vidi:
     $ emem --help
 
 
-<a name="finrimarkoj"></a>Finrimarkoj
+<a name="finrimarkoj">Finrimarkoj</a>
 -------------------------------------
 
 Por ĉi tiu tuta [blogo](https://ebzzry.com), 90+ poentaron mi povis atingi el

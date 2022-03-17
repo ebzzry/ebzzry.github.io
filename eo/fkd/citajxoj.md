@@ -360,7 +360,7 @@ tra la jaroj.
   timigi onin.<br>—Eric HOFFER
 
 
-- Oni ne trovos la respondojn kiujn oni serĉas ĝis oni haltas serĉi ekster kaj komenciĝas serĉi ilin
+- Oni ne trovos la respondojn kiujn oni serĉas ĝis oni haltas serĉi ekstere kaj komenciĝas serĉi ilin
   el si mem.<br>—JJ, Ergo Proxy
 
 
