@@ -2,30 +2,18 @@ Creating Backups with Ugarit
 ============================
 
 <div class="center">[Esperanto](/eo/ugarit/) ■ English</div>
-<div class="center">Last updated: March 19, 2019</div>
+<div class="center">Last updated: March 17, 2022</div>
 
 >Good judgement comes from experience, and experience comes from bad judgement.<br>
 >―Fred Brooks
 
 <img src="/bil/omar-flores-lQTbOWtysE-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="omar-flores-lQTbOWtysE-unsplash" title="omar-flores-lQTbOWtysE-unsplash"/>
 
-How many times have you experienced hindsight, after a catastrophic event has happened? How many
-times have you told yourself that had you created backups of your precious data, you wouldn’t be in
-that dire situation, pulling your hair out, like a rabid maniac?
 
-Most of us have been there—we lost our precious files due to inadvertent causes. We lost them
-because of disk crash, data corruption, security breach, and other reasons. But had we created a
-fallback—a big, safe foam that we can land on—it wouldn’t have been a lot of trouble and heart
-ache. On the flip side, creating and managing backups can be daunting and equally dangerous.
+<a name="toc">Table of contents</a>
+-----------------------------------
 
-In this post, I’ll talk about
-[Ugarit](https://www.kitten-technologies.co.uk/project/ugarit/doc/trunk/README.wiki), a nice piece of technology, that combines ease-of-use and security, in a single tool.
-
-
-Table of contents
------------------
-
-- [Overview](#overview)
+- [Introduction](#introduction)
 - [Installation](#installation)
   + [APT](#apt)
   + [Nix](#nix)
@@ -40,8 +28,20 @@ Table of contents
 - [Notes](#notes)
 
 
-<a name="overview"></a> Overview
---------------------------------
+<a name="introduction">Introduction</a>
+---------------------------------------
+
+How many times have you experienced hindsight, after a catastrophic event has happened? How many
+times have you told yourself that had you created backups of your precious data, you wouldn’t be in
+that dire situation, pulling your hair out, like a rabid maniac?
+
+Most of us have been there—we lost our precious files due to inadvertent causes. We lost them
+because of disk crash, data corruption, security breach, and other reasons. But had we created a
+fallback—a big, safe foam that we can land on—it wouldn’t have been a lot of trouble and heart
+ache. On the flip side, creating and managing backups can be daunting and equally dangerous.
+
+In this post, I’ll talk about
+[Ugarit](https://www.kitten-technologies.co.uk/project/ugarit/doc/trunk/README.wiki), a nice piece of technology, that combines ease-of-use and security, in a single tool.
 
 Ugarit is a classic example of a tool, that requires minimal setup and configuration. That, once the
 initial tinkering is done, all you need to do is reuse the tool. But that still isn’t Ugarit’s main
@@ -52,10 +52,10 @@ convenient something is, the less secure it is. With Ugarit, creating and managi
 easy as typing a short command.
 
 
-<a name="installation"></a> Installation
+<a name="installation">Installation</a>
 ----------------------------------------
 
-### <a name="apt"></a> APT
+### <a name="apt">APT</a>
 
 First, you need to install [Chicken](https://www.call-cc.org/). Most likely, it can be installed via
 your package manager:
@@ -74,14 +74,14 @@ After this command completes, the command `ugarit` will become available. To dis
     $ ugarit -h
 
 
-### <a name="nix"></a> Nix
+### <a name="nix">Nix</a>
 
 If you’re using Nix, just run the following command:
 
     $ nix-env -i ugarit
 
 
-<a name="configuration"></a> Configuration
+<a name="configuration">Configuration</a>
 ------------------------------------------
 
 Ugarit at this point isn’t usable, yet—you need to specify where should it store the
@@ -133,10 +133,10 @@ Save the file, then secure it.
     $ chmod 600 /ugarit/ugarit.conf
 
 
-<a name="basic"></a> Basic usage
---------------------------------
+<a name="basic">Basic usage</a>
+-------------------------------
 
-### <a name="create"></a> Creating snapshots
+### <a name="create">Creating snapshots</a>
 
 To create a snapshot, run:
 
@@ -161,7 +161,7 @@ File cache has saved us 1 file hashings / 638104 bytes (before compression)
 ```
 
 
-### <a name="explore"></a> Exploring Snapshots
+### <a name="explore">Exploring Snapshots</a>
 
 To interactively manage the contents of the vault, run:
 
@@ -185,7 +185,7 @@ Extracted holiday
 ```
 
 
-### <a name="extract"></a> Extracting Snapshots Directly
+### <a name="extract">Extracting Snapshots Directly</a>
 
 If, however, you know the exact path to a file or directory that you want to extract, you can
 instead run Ugarit with the extract mode. To extract the directory `holiday/` from above, directly,
@@ -194,10 +194,10 @@ run:
     $ ugarit extract /ugarit/ugarit.conf /pix/current/contents/holiday
 
 
-<a name="tips"></a> Tips
+<a name="tips">Tips</a>
 ------------------------
 
-### <a name="remote"></a> Remote filesystems
+### <a name="remote">Remote filesystems</a>
 
 Ugarit is not limited to creating snapshots of a local filesystem. It can also be used to create
 snapshots of trees from a remote host mounted locally. If you have
@@ -216,7 +216,7 @@ The same applies to [SMBFS](https://www.samba.org/samba/smbfs/) mounts:
     $ ugarit snapshot /ugarit/ugarit.conf winhost
 
 
-### <a name="miscellany"></a> Miscellany
+### <a name="miscellany">Miscellany</a>
 
 To disable output, when creating snapshots:
 
@@ -227,7 +227,7 @@ To enable very verbose output:
     $ ugarit snapshot -:a256 /ugarit/ugarit.conf ...
 
 
-<a name="notes"></a> Notes
+<a name="notes">Notes</a>
 --------------------------
 
 When you are doubtful of the performance of the disk where you’ll be storing the snapshots, disable
