@@ -2,29 +2,31 @@ Ziŝaj Konsiletoj 1-a: Alinomoj kaj Funkcioj
 ===========================================
 
 <div class="center">Esperanto ■ [English](/en/zsh-tips-1/)</div>
-<div class="center">Laste ĝisdatigita: la 23-an de Februaro 2022</div>
+<div class="center">Laste ĝisdatigita: la 18-an de Marto 2022</div>
 
 >Malsaĝulo miras pri nekutimaj aferoj. Ŝagulo miras pri la kutimaj aferoj.<br>
 >―Konfuceo
 
-Unu el la ĝuoj de ekskluzive labori ĉe la terminalsimulilo estas la laboron pri komandoj, dosieroj,
-kaj dosieroj ĝi plifaciligas. Esti kapable por iri de ideo al ideo okazas en malmulte da tempo. Por
-interaga ŝela uzo, [ziŝon](http://zsh.sourceforge.net/) mi uzas preskaŭ eksklusive. En ĉi tiu
-artikolo mi parolos pri la aĵoj por la interagan uzon de la ŝelo plibonigi.
+<img src="/bil/omair-parvez-o6ka1Lpk81U-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="omair-parvez-o6ka1Lpk81U-unsplash" title="omair-parvez-o6ka1Lpk81U-unsplash"/>
 
 
-<a name="et"></a>Enhavotabelo
+<a name="et">Enhavotabelo</a>
 -----------------------------
 
-- [Superrigardo](#superrigardo)
+- [Enkonduko](#enkonduko)
 - [Alinomoj](#alinomoj)
 - [Funkcioj](#funkcioj)
 - [Ĉion rikolti](#cxio)
 - [Finrimarkoj](#finrimarkoj)
 
 
-<a name="superrigardo"></a>Superrigardo
----------------------------------------
+<a name="enkonduko">Enkonduko</a>
+---------------------------------
+
+Unu el la ĝuoj de ekskluzive labori ĉe la terminalsimulilo estas la laboron pri komandoj, dosieroj,
+kaj dosieroj ĝi plifaciligas. Esti kapable por iri de ideo al ideo okazas en malmulte da tempo. Por
+interaga ŝela uzo, [ziŝon](http://zsh.sourceforge.net/) mi uzas preskaŭ eksklusive. En ĉi tiu
+artikolo mi parolos pri la aĵoj por la interagan uzon de la ŝelo plibonigi.
 
 Estas almenaŭ tri tipoj de komandoj en Ziŝo: duumdosieroj, alinomoj, kaj funkcioj. Duumdosieroj,
 estas tiuj kiuj troveblas en la `$PATH`; ili estas la programoj, kiujn oni instalis per la
@@ -32,7 +34,7 @@ pakadministrilo. Alinomoj kaj funkcioj, aliflanke, ne loĝas kiel dosieroj ĉe l
 estas difinitaj kiel parto de la agorddosiero, aŭ entekstitaj en la seanco.
 
 
-<a name="alinomoj"></a>Alinomoj
+<a name="alinomoj">Alinomoj</a>
 -------------------------------
 
 Alinomoj estas tiuj beletaj malsaĝaj aĵoj kiujn oni metas en la agorddosieroj kiuj bagatelajn unu
@@ -53,7 +55,7 @@ Por ĉiomajn alinomojn montri, plenumu:
     alias
 
 
-<a name="funkcioj"></a>Funkcioj
+<a name="funkcioj">Funkcioj</a>
 -------------------------------
 
 Funkcioj, aliflanke, estas la pli grandaj parencoj de alinomoj. Ili povas fari pli multe ol siaj
@@ -105,7 +107,7 @@ Por ĉiomajn funkciojn montri, plenumu:
     % functions
 
 
-<a name="cxio"></a>Ĉion rikolti
+<a name="cxio">Ĉion rikolti</a>
 -------------------------------
 
 La agorddosieron malpurigi per plenaj funciaj difinioj por ĉiu malgranda komando, kiun oni volas
@@ -230,7 +232,7 @@ funs=(
 ```
 
 
-<a name="finrimarkoj"></a>Finrimarkoj
+<a name="finrimarkoj">Finrimarkoj</a>
 -------------------------------------
 
 Komandojn grupigi tiel la procedon por novajn erojn aldoni kaj forigi plifaciligas. Ĉion porti en
