@@ -1,7 +1,7 @@
 A Gentle Introduction to the Nix Family
 =======================================
 
-<div class="center">[Esperanto](/eo/nix/) ◆ English</div>
+<div class="center">[Esperanto](/eo/nix/) ■ English</div>
 <div class="center">Last updated: October 10, 2021</div>
 
 >Don’t worry about what anybody else is going to do. The best way to predict the future is to

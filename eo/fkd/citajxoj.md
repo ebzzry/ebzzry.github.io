@@ -34,8 +34,8 @@ tra la jaroj.
   nesama.<br>—Pablo PIKASO
 
 
-- Ne maltrankviliĝu pri tio, kion la aliaj faros. La plej bona maniero por la estontecon antaŭdiri
-  estas por tion eltrovi.<br>—Alan KAY
+- Ne maltrankviliĝu pri tio, kion la aliaj faros. La plej bona maniero por antaŭdiri la estontecon
+  estas por eltrovi ĝin.<br>—Alan KAY
 
 
 - La senscio pli ofte naskigas fidon ol scio faras: Tiuj, kiuj scias malmulte, ne tiuj, kiuj scias
