@@ -2,7 +2,7 @@ Converting Markdown to HTML with emem
 =====================================
 
 <div class="center">[Esperanto](/eo/emem/) ■ English</div>
-<div class="center">Last updated: March 16, 2019</div>
+<div class="center">Last updated: March 18, 2022</div>
 
 >The answers you seek you will never find until you stop looking outside and start looking for them
 >within yourself.<br>
@@ -195,7 +195,7 @@ Usually I run emem thus:
 
     $ emem -Fis file.md
 
-To view all the supported options:
+Finally, to view all the supported options:
 
     $ emem --help
 
@@ -204,16 +204,19 @@ To view all the supported options:
 --------------------------------------
 
 For this whole [journal](https://ebzzry.com), I was able to get a 90+ score
-from [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/), a
+from [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/), a
 Mobile-Friendly rating
-from [Google Mobile-Friendly Test](https://search.google.com/test/mobile-friendly), and a
+from [Google Mobile-Friendly Test](https://search.google.com/test/mobile-friendly), and a
 performance grade of B from [Pingdom](https://tools.pingdom.com/). If you can control the web server
 parameters, you may even get a performance grade of A, when you leverage browser caching, and
-specify the `Vary: Accept-Encoding` header. I’m using [GitHub Pages](https://pages.github.com), so
+specify the `Vary: Accept-Encoding` header. I’m using [GitHub Pages](https://pages.github.com), so
 it’s a different story for me.
 
-I’m quite happy with the output that emem produces. It’s fast enough and I can extend it easily. I
-even use it for my personal and work documentation. I also use it with Emacs to create a web
-previews of Markdown buffers using [shell-command](https://www.gnu.org/software/emacs/manual/html_node/elisp/Synchronous-Processes.html) and [emacs-w3m](https://www.emacswiki.org/emacs/emacs-w3m). To see emem in actual usage, go [here](https://github.com/ebzzry/ebzzry.github.io/blob/master/makefile).
+I’m quite happy with the output that emem produces. emem is fast enough and I can extend it easily.
+I even use it for my personal and work documentation. I also use it with Emacs to create a web
+previews of Markdown buffers using
+[shell-command](https://www.gnu.org/software/emacs/manual/html_node/elisp/Synchronous-Processes.html)
+and [emacs-w3m](https://www.emacswiki.org/emacs/emacs-w3m). To see emem in actual usage, go
+[here](https://github.com/ebzzry/ebzzry.github.io/blob/master/makefile).
 
 If you know a bit of Clojure, [fork it](https://github.com/ebzzry/emem/) and hack away!
