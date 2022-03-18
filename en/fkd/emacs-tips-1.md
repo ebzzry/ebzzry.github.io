@@ -157,4 +157,4 @@ The key bindings for the commands above, are listed below:
 --------------------------------------
 
 I hope you’ll be able to find use of any of them. The rest of the configuration can be
-found [here](https://github.com/ebzzry/dotfiles/tree/master/emacs).
+found [here](https://github.com/ebzzry/dotfiles/tree/main/emacs).

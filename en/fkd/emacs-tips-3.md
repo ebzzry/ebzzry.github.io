@@ -2,15 +2,17 @@ Emacs Tips and Tricks 3: Insert and Delete
 ==========================================
 
 <div class="center">[Esperanto](/eo/emakskonsiletoj-3-a/) ■ English</div>
-<div class="center">Last updated: September 24, 2017</div>
+<div class="center">Last updated: March 18, 2022</div>
 
-This is the continuation of my series on Emacs tips and tricks. In this article, we explore string
-insertion, and line deletion, marking, and yanking.
+>The more you sweat in peace, the less you bleed in war.<br>—Norman Schwarzkopf
+
+<img src="/bil/jr-korpa-E2i7HftbrI-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="jr-korpa-E2i7HftbrI-unsplash" title="jr-korpa-E2i7HftbrI-unsplash"/>
 
 
-Table of contents
------------------
+<a name="toc">Table of contents</a>
+-----------------------------------
 
+- [Introduction](#introduction)
 - [Insertion](#insertion)
 - [Deletion](#deletion)
 - [Marking](#marking)
@@ -19,7 +21,14 @@ Table of contents
 - [Closing remarks](#closing)
 
 
-<a name="insertion"></a> Insertion
+<a name="introduction">Introduction</a>
+---------------------------------------
+
+This is the continuation of my series on Emacs tips and tricks. In this article, we explore string
+insertion, and line deletion, marking, and yanking.
+
+
+<a name="insertion">Insertion</a>
 ----------------------------------
 
 I work with a lot of Markdown files and I want a way to easily insert characters and strings.
@@ -123,7 +132,7 @@ Section I
 ```
 
 
-<a name="deletion"></a> Deletion
+<a name="deletion">Deletion</a>
 --------------------------------
 
 I want convenient functions to delete from point to start and end:
@@ -164,7 +173,7 @@ A journal about computing,
 ```
 
 
-<a name="marking"></a> Marking
+<a name="marking">Marking</a>
 ------------------------------
 
 There are many times when I want to make a region from point to start and end. For that, I have the
@@ -185,7 +194,7 @@ following:
 I bound them <kbd>C-c C-a</kbd> and <kbd>C-c C-e</kbd>, respectively.
 
 
-<a name="yanking"></a> Yanking
+<a name="yanking">Yanking</a>
 ------------------------------
 
 I want to be able to yank from the clipboard to Emacs, especially when I’m on the terminal.
@@ -219,7 +228,7 @@ selection is the one used when you invoke the _Copy_ command from an application
 <kbd>Ctrl+c</kbd> is pressed.
 
 
-<a name="keys"></a> Keys
+<a name="keys">Keys</a>
 ------------------------
 
 Here’s the relevant snippet for all the commands discussed in this article. If you don’t have
@@ -246,7 +255,7 @@ Here’s the relevant snippet for all the commands discussed in this article. If
 ```
 
 
-<a name="closing"></a> Closing remarks
+<a name="closing">Closing remarks</a>
 --------------------------------------
 
 These functions and key bindings make it significantly convenient for me when working with
@@ -254,5 +263,5 @@ emacsclient on the terminal, due to the fact that some keyboard control codes ar
 the terminal emulator itself. By leveraging on external tools, I get a consistent behavior across
 platforms.
 
-As always, the source is available [here](https://github.com/ebzzry/dotfiles/tree/master/emacs). If
+As always, the source is available [here](https://github.com/ebzzry/dotfiles/tree/main/emacs). If
 you have a tip to share, send in your pull request!

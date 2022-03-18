@@ -2,20 +2,18 @@ My Markdown Style Guide
 =======================
 
 <div class="center">[Esperanto](/eo/markdauxno/) ■ English</div>
-<div class="center">Last updated: March 16, 2022</div>
+<div class="center">Last updated: March 18, 2022</div>
 
 >The laws that govern circumstances are abolished by new circumstances.<br>
 >―Napoleon Bonaparte
 
-I like writing in Markdown. It’s readable, lightweight, and portable. It’s plain text so you don’t
-need special applications to read or write with it. In this article, I post my guidelines on how I
-write Markdown files. I follow a certain set of rules so that my files look consistent with one
-another, and so that GNU Emacs will be able to format it nicely.
+<img src="/bil/luca-bravo-bTxMLuJOff4-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="luca-bravo-bTxMLuJOff4-unsplash" title="luca-bravo-bTxMLuJOff4-unsplash"/>
 
 
-Table of contents
------------------
+<a name="toc">Table of contents</a>
+-----------------------------------
 
+- [Introduction](#introduction)
 - [Headings](#headings)
   + [Level 1](#level1)
   + [Level 2](#level2)
@@ -29,11 +27,20 @@ Table of contents
 - [Closing remarks](#closing)
 
 
-<a name="headings"></a> Headings
+<a name="introduction">Introduction</a>
+---------------------------------------
+
+I like writing in Markdown. It’s readable, lightweight, and portable. It’s plain text so you don’t
+need special applications to read or write with it. In this article, I post my guidelines on how I
+write Markdown files. I follow a certain set of rules so that my files look consistent with one
+another, and so that GNU Emacs will be able to format it nicely.
+
+
+<a name="headings">Headings</a>
 --------------------------------
 
 
-### <a name="level1"></a> Level 1
+### <a name="level1">Level 1</a>
 
 Level 1 headings are ideal when used as document titles. They should be used only once and they must
 be in the first line of a file. It should describe what the file or document is all about. I use the
@@ -52,7 +59,7 @@ instead of
 ```
 
 
-### <a name="level2"></a> Level 2
+### <a name="level2">Level 2</a>
 
 Level 2 headings indicate the top-level sections of a document. They are the primary dividers in a
 file. Similar to the level 1 heading, I use the `-` (hyphen) symbol to mark the heading. I use it
@@ -70,7 +77,7 @@ instead of
 ```
 
 
-### <a name="lowerlevels"></a> Lower levels
+### <a name="lowerlevels">Lower levels</a>
 
 For level 3 and lower headings, I use `#` with the appropriate number of repetitions to indicate
 the level.
@@ -90,7 +97,7 @@ Level 4:
 And, so on.
 
 
-<a name="spacing"></a> Spacing
+<a name="spacing">Spacing</a>
 ------------------------------
 
 The space between document elements should be consistent to facilitate readability. After a heading,
@@ -144,7 +151,7 @@ mehmeh meh mehmeh meh mehmeh meh mehmeh meh mehmeh meh meh
 ```
 
 
-<a name="codeblocks"></a> Code blocks
+<a name="codeblocks">Code blocks</a>
 -------------------------------------
 
 When the code or command block occupies one to two lines, indent it with four spaces:
@@ -164,7 +171,7 @@ of a code block:
     $ date
     ˋˋˋ
 
-<a name="bullets"></a> Bullets
+<a name="bullets">Bullets</a>
 ------------------------------
 
 When making lists, I like to use the `-` (hyphen) character to indicate the first level. Then, I use
@@ -190,14 +197,14 @@ For example:
 ```
 
 
-<a name="anchors"></a> Anchors
+<a name="anchors">Anchors</a>
 ------------------------------
 
 When the target document format of your Markdown files is HTML, it is a good habit to label your
 sections properly. For example, this section is written as:
 
 ```markdown
-<a name="anchors"></a> Anchors
+<a name="anchors">Anchors</a>
 ------------------------------
 
 ```
@@ -212,7 +219,7 @@ Table of contents
 ```
 
 
-<a name="linewidth"></a> Line width
+<a name="linewidth">Line width</a>
 -----------------------------------
 
 In the old days, it’s good to wrap your lines at the 70 character line width. Nowadays, a higher
@@ -237,7 +244,7 @@ This guideline, however, may not apply if you are using the editors of services 
 GitLab, wherein it is usually more convenient to let the UI wrap the text.
 
 
-<a name="extras"></a> Extras
+<a name="extras">Extras</a>
 ----------------------------
 
 When using GNU Emacs, I use [these](https://gist.github.com/ebzzry/1206a1922805a872713bdaf2e8c419f5)
@@ -294,7 +301,7 @@ Code snippet:
 ```
 
 
-<a name="closing"></a> Closing remarks
+<a name="closing">Closing remarks</a>
 --------------------------------------
 
 By following these simple guidelines, I create consistency among my Markdown source files. These

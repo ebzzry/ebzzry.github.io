@@ -127,4 +127,4 @@ To restore the saved directory stack, on the current session, or a new separate 
 I use directory stacks as a way to save the directories that I interact with so that it will be
 easier to restore to a previous working state. Having these two helper commands makes it even more
 enjoyable to work in the command line. For the rest of the definitions, visit the repo
-[here](https://github.com/ebzzry/dotfiles/tree/master/zsh).
+[here](https://github.com/ebzzry/dotfiles/tree/main/zsh).

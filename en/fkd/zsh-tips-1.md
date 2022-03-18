@@ -235,7 +235,7 @@ funs=(
 
 Grouping commands this way makes it significantly easier to add and remove items. Bring them all
 in one consolidated place also makes your config file arguably cleaner. For the rest of the
-definitions, visit the repo [here](https://github.com/ebzzry/dotfiles/tree/master/zsh).
+definitions, visit the repo [here](https://github.com/ebzzry/dotfiles/tree/main/zsh).
 
 If you use git, you may also like the article about how I use it. It can be found [here](/en/git/).
 

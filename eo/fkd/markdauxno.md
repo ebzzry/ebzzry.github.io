@@ -2,21 +2,18 @@ Mia Markdaŭna Stilgvidilo
 =========================
 
 <div class="center">Esperanto ■ [English](/en/markdown/)</div>
-<div class="center">Laste ĝisdatigita: la 16-an de Marto 2022</div>
+<div class="center">Laste ĝisdatigita: la 17-an de Marto 2022</div>
 
 >La reguloj kiuj direktas cirkonstancojn estas nuligitaj per novaj cirkonstancoj.<br>
 >―Napoleono BONAPARTE
 
-Skribi per markdaŭno plaĉas al mi. Ĝi estas legebla, plumpeza, kaj portebla. Ĝi estas platteksta do
-specialajn apojn oni ne plu bezonas por legi kaj skribi kun ĝi. En ĉi tiu artikolo miajn proprajn
-gvidnormojn pri kiel markdaŭnajn dosierojn skribi mi priparolos. Specifajn arojn de reguloj mi
-observas por ke miaj dosierroj povu aspekti koheraj kun unu la aliaj, kaj por ke ĝin emakso povu
-formati bele.
+<img src="/bil/luca-bravo-bTxMLuJOff4-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="luca-bravo-bTxMLuJOff4-unsplash" title="luca-bravo-bTxMLuJOff4-unsplash"/>
 
 
-<a name="et"></a>Enhavotabelo
+<a name="et">Enhavotabelo</a>
 -----------------------------
 
+- [Enkonduko](#enkonduko)
 - [Ĉapoj](#cxapoj)
   + [Nivelo 1-a](#nivelo1a)
   + [Nivelo 2-a](#nivelo2a)
@@ -30,11 +27,21 @@ formati bele.
 - [Finrimarkoj](#finrimarkoj)
 
 
-<a name="cxapoj"></a>Ĉapoj
+<a name="enkonduko">Enkonduko</a>
+---------------------------------
+
+Skribi per markdaŭno plaĉas al mi. Ĝi estas legebla, plumpeza, kaj portebla. Ĝi estas platteksta do
+specialajn apojn oni ne plu bezonas por legi kaj skribi kun ĝi. En ĉi tiu artikolo miajn proprajn
+gvidnormojn pri kiel markdaŭnajn dosierojn skribi mi priparolos. Specifajn arojn de reguloj mi
+observas por ke miaj dosierroj povu aspekti koheraj kun unu la aliaj, kaj por ke ĝin emakso povu
+formati bele.
+
+
+<a name="cxapoj">Ĉapoj</a>
 --------------------------
 
 
-### <a name="nivelo1a"></a>Nivelo 1-a
+### <a name="nivelo1a">Nivelo 1-a</a>
 
 Nivelaj 1-aj ĉapeloj idealas kiam uzitas kiel dokumentaj titoloj. Ili devas esti uzataj nur unufoje
 kaj ili devas esti en la unua linio de dosiero. La celon de la dosiero ĝi devas priskribi. La
@@ -54,7 +61,7 @@ anstataŭ
 
 
 
-### <a name="nivelo2a"></a>Nivelo 2-a
+### <a name="nivelo2a">Nivelo 2-a</a>
 
 La supraj partoj de dokumento nivelaj 2-aj ĉapeloj montras. Ili estas la ĉefaj apartigiloj en
 dosiero. Similas al la nivela 1-a ĉapelo, la streketon (-) mi uzas por la ĉapon marki. Ĝin mi uzas
@@ -72,7 +79,7 @@ anstataŭ
 ```
 
 
-### <a name="malplialtaj"></a>Malpli altaj niveloj
+### <a name="malplialtaj">Malpli altaj niveloj</a>
 
 Por nivelo 3-a kaj malpli altaj niveloj, la kradon (#) mi uzas kun la konvenaj nombroj de ripetoj
 por la nivelon indiki.
@@ -92,7 +99,7 @@ Nivelo 4-a:
 Kaj tiel plu.
 
 
-<a name="distanco"></a>Interlinia distanco
+<a name="distanco">Interlinia distanco</a>
 ------------------------------------------
 
 La spaco inter dokumentaj eroj devas esti akordaj por legeblecon plifaciligi. Post ĉapo, malplenan
@@ -145,7 +152,7 @@ veve ve veve ve veve ve veve ve veve ve ve
 ```
 
 
-<a name="kodblokoj"></a>Kodblokoj
+<a name="kodblokoj">Kodblokoj</a>
 ---------------------------------
 
 Kiam du aŭ pli liniojn kodo aŭ komandbloko okupas, ĝin krommarĝenigu per kvar spacetoj:
@@ -166,7 +173,7 @@ la kodbloko limigi:
     $ date
     ˋˋˋ
 
-<a name="bullistoj"></a>Bullistoj
+<a name="bullistoj">Bullistoj</a>
 ---------------------------------
 
 Listojn kreante, la streketon (-) mi ofte uzas por la nivelon 1-an indiki. Tiam, la pluson (+) mi
@@ -190,14 +197,14 @@ Ekzemple:
 - Unikornuloj
 ```
 
-<a name="ankroj"></a>Ankroj
+<a name="ankroj">Ankroj</a>
 ---------------------------
 
 Se la cela dokumenta formato de la markdaŭnaj dosieroj estas HTML, estas bona rutino por la sekciojn
 etikedi ĝuste. Ekzemple, ĉi tiu sekcio estas skribita tiel:
 
 ```markdown
-<a name="ankroj"></a>Ankroj
+<a name="ankroj">Ankroj</a>
 ---------------------------
 
 ```
@@ -212,7 +219,7 @@ Enhavotebelo
 - [Ankroj](#ankroj)
 ```
 
-<a name="largxo"></a>Linia larĝo
+<a name="largxo">Linia larĝo</a>
 --------------------------------
 
 De longe, estis bona ideo por la liniojn faldi ĝis la 70 kolumnon. Nuntempe, pli alta limo—ebligita
@@ -236,7 +243,7 @@ veve ve veve ve veve ve ve
 oni uzas, en kiu, estas pli oportune por la grafikfasadon permesi por la tekston faldi.
 
 
-<a name="ekstraj"></a>Ekstraj
+<a name="ekstraj">Ekstraj</a>
 -----------------------------
 
 Emakson uzante, [ĉi tiujn](https://gist.github.com/ebzzry/1206a1922805a872713bdaf2e8c419f5)
@@ -293,7 +300,7 @@ Kodeto:
 ```
 
 
-<a name="finrimarkoj"></a>Finrimarkoj
+<a name="finrimarkoj">Finrimarkoj</a>
 -------------------------------------
 
 Per ĉi tiujn simplajn gvidnormojn observante, koherecon inter miaj markdaŭnaj dosieroj mi kreas. Ĉi
