@@ -2,29 +2,31 @@ Zsh Tips 1: Aliases and Functions
 =================================
 
 <div class="center">[Esperanto](/eo/zisxkonsiletoj-1-a/) ■ English</div>
-<div class="center">Last updated: July 28, 2019</div>
+<div class="center">Last updated: March 18, 2022</div>
 
 >A common man marvels at uncommon things; a wise man marvels at the commonplace.<br>
 >―Confucius
 
-One of the joys of working exclusively on the terminal is makes it so easy to work with commands,
-files, and directories. Being able to go from idea to results happens in a very short span of
-time. For interactive shell use, I use [Zsh](http://zsh.sourceforge.net/) almost exclusively. In
-this article, I’ll talk about some things to improve your interactive interaction with the shell.
+<img src="/bil/omair-parvez-o6ka1Lpk81U-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="omair-parvez-o6ka1Lpk81U-unsplash" title="omair-parvez-o6ka1Lpk81U-unsplash"/>
 
 
 <a name="toc">Table of contents</a>
 -----------------------------------
 
-- [Overview](#overview)
+- [Introduction](#introduction)
 - [Aliases](#aliases)
 - [Functions](#functions)
 - [Putting them all together](#all)
 - [Closing remarks](#closing)
 
 
-<a name="overview">Overview</a>
--------------------------------
+<a name="introduction">Introduction</a>
+---------------------------------------
+
+One of the joys of working exclusively on the terminal is makes it so easy to work with commands,
+files, and directories. Being able to go from idea to results happens in a very short span of
+time. For interactive shell use, I use [Zsh](http://zsh.sourceforge.net/) almost exclusively. In
+this article, I’ll talk about some things to improve your interactive interaction with the shell.
 
 There are at least three kinds of commands in Zsh: binaries, aliases, and functions. Binaries are
 the ones that are found in your `$PATH`; they are the programs that you installed using your package

@@ -14,7 +14,7 @@ Pensoj de Optimisto
 - [Ziŝaj Konsiletoj 3-a: Ŝanĝradikighelpiloj](zisxkonsiletoj-3-a/)
 - [Kiel Mi Uzas Timukson](timukso/)
 - [Ziŝaj Konsiletoj 2-a: Dosierujstakoj](zisxkonsiletoj-2-a/)
-- [Ziŝaj Konsiletoj 1-a: Alinomoj kaj Funkcioj](zisxkonsileto-1-a)
+- [Ziŝaj Konsiletoj 1-a: Alinomoj kaj Funkcioj](zisxkonsiletoj-1-a/)
 - [Skriptado en Komunlispo](skripti-lispon/)
 - [Mia Markdaŭna Stilgvidilo](markdauxno/)
 - [Emaksaj Konsiletoj 3-a: Enmeti kaj Forviŝi](emakskonsiletoj-3-a/)
