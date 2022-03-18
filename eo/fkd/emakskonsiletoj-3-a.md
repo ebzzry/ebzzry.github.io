@@ -2,15 +2,17 @@ Emaksaj Konsiletoj 3-a: Enmeti kaj Forviŝi
 ==========================================
 
 <div class="center">Esperanto ■ [English](/en/emacs-tips-3/)</div>
-<div class="center">Laste ĝisdatigita: la 23-an de Aŭgusto 2021</div>
+<div class="center">Laste ĝisdatigita: la 18-an de Marto 2022</div>
 
-Jen la daŭrigo de mia serio pri emaksaj konsiletoj. En ĉi tiu artikolo, ni esploru pri signovicaj
-enmetadoj, kaj linia forviŝado, markado, kaj algluado.
+>Ju pli oni ŝvitas en paco, des malpli oni sangas en milito.<br>—Norman SCHWARZKOPF
+
+<img src="/bil/jr-korpa-E2i7HftbrI-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="jr-korpa-E2i7HftbrI-unsplash" title="jr-korpa-E2i7HftbrI-unsplash"/>
 
 
-<a name="et"></a>Enhavotabelo
+<a name="et">Enhavotabelo</a>
 -----------------------------
 
+- [Enkonduko](#enkonduko)
 - [Enmetado](#enmetado)
 - [Forviŝado](#forvisxado)
 - [Markado](#markado)
@@ -19,7 +21,14 @@ enmetadoj, kaj linia forviŝado, markado, kaj algluado.
 - [Finrimarkoj](#finrimarkoj)
 
 
-<a name="enmetado"></a>Enmetado
+<a name="enkonduko">Enkonduko</a>
+---------------------------------
+
+Jen la daŭrigo de mia serio pri emaksaj konsiletoj. En ĉi tiu artikolo, ni esploru pri signovicaj
+enmetadoj, kaj linia forviŝado, markado, kaj algluado.
+
+
+<a name="enmetado">Enmetado</a>
 -------------------------------
 
 Mi laboras kun multe da Markdown-dosieroj kaj manieron por signojn kaj signovicojn enmeti facile mi
@@ -124,7 +133,7 @@ Sekcio 1-a
 ```
 
 
-<a name="forvisxado"></a>Forviŝado
+<a name="forvisxado">Forviŝado</a>
 ----------------------------------
 
 Oportunajn funkciojn mi volas havi por la linion de punkto al komenco kaj fino forviŝi:
@@ -164,7 +173,7 @@ Retejo pri komputiko,
                       ^
 ```
 
-<a name="markado"></a>Markado
+<a name="markado">Markado</a>
 -----------------------------
 
 Estas pluraj fojoj kiam regionon de punkto al komenco kaj fino mi hovas krei. Pro tio, la jenan mi
@@ -186,7 +195,7 @@ Ilin mi bindis al <kbd>C-c C-a</kbd> kaj <kbd>C-c C-e</kbd>, respektive.
 
 
 
-<a name="algluado"></a>Algluado
+<a name="algluado">Algluado</a>
 -------------------------------
 
 Mi volas esti kapabla por alglui de la tondejo al emakso, precipe se mi estas en la
@@ -221,7 +230,7 @@ kiu estas uzita kiam la komandon _Kopii_ el apo oni alvokas, aŭ kiam je <kbd>Ct
 premas.
 
 
-<a name="klavoj"></a>Klavoj
+<a name="klavoj">Klavoj</a>
 ---------------------------
 
 Jen la rilata kodeto por ĉiom da komandoj diskutitaj en ĉi tiu artikolo. Se j `bind-key` oni ne
@@ -248,12 +257,12 @@ ankoraŭ havas, ĝin oni povas instali per:
  ```
 
 
-<a name="finrimarkoj"></a>Finrimarkoj
+<a name="finrimarkoj">Finrimarkoj</a>
 -------------------------------------
 
 Mian vivon ĉi tiuj funkcioj kaj klavkombinoj plifaciligas precipe kiam mi laboras kun emacsclient
 ĉe la terminalsimulilo pro kelkaj klavaj stiraj kodoj ne estas ricevitaj bone per la
 terminalsimulilo mem. Eksteraj ilojn ekspluatante, unuforman konduton tra platformoj mi povas akiri.
 
-Kiel ĉiam, la fontkodo troveblas [ĉi tie](https://github.com/ebzzry/dotfiles/tree/master/emacs). Se
+Kiel ĉiam, la fontkodo troveblas [ĉi tie](https://github.com/ebzzry/dotfiles/tree/main/emacs). Se
 konsileton oni volas doni, la tirpeton sendu al mi!

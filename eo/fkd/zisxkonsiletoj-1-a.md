@@ -235,7 +235,7 @@ funs=(
 
 Komandojn grupigi tiel la procedon por novajn erojn aldoni kaj forigi plifaciligas. Ĉion porti en
 unu kunfandita loko la agorddosieron igas aserteble pura. Por la restantajn difinojn iru
-[ĉi tien](https://github.com/ebzzry/dotfiles/tree/master/zsh).
+[ĉi tien](https://github.com/ebzzry/dotfiles/tree/main/zsh).
 
 Se giton vi uzas, la artikolo pri kiel ĝi mi uzas, eble ankaŭ plaĉas al vi. Ĝi
 troviĝas [ĉi tie](/eo/gito/).

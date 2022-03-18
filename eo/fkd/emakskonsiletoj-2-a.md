@@ -333,5 +333,5 @@ La klavkombinoj por la supraj komandoj estas listigitaj malsupre:
 -------------------------------------
 
 En ĉi tiu afiŝo, mi montris, ke la malgrandaj alĝustigetoj povas generi grandajn gajnojn. Le resto
-de la agordo troveblas [ĉi tie](https://github.com/ebzzry/dotfiles/tree/master/emacs). Se vi havas
+de la agordo troveblas [ĉi tie](https://github.com/ebzzry/dotfiles/tree/main/emacs). Se vi havas
 emaksan kodumon por havigi, sendu tirpeton!

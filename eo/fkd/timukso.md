@@ -12,7 +12,7 @@ Kiel Mi Uzas Timukson
 -----------------------------
 
 - [Introduction](#introduction)
-- [Ĝeneralaj](#gxeneralaj)
+- [Ĝeneralaĵoj](#gxeneralajxoj)
   + [Indeksoj](#indeksoj)
   + [Klientoj](#klientoj)
   + [La agordon reŝarĝi](#resxargxi)
@@ -49,14 +49,14 @@ En ĉi tiu artikolo, onin mi kondukas al mia agordaĵo kaj krudan ideon kiel mi 
 donos.
 
 
-<a name="gxeneralaj">Ĝeneralaj</a>
-----------------------------------
+<a name="gxeneralajxoj">Ĝeneralaĵoj</a>
+---------------------------------------
 
 Estas bona ideo por komenci de la pli ĝeneralaj fazoj de agordaĵo, moviĝonte al la plej
 specifaj. Iomajn agordaĵn ĉi tiu sekcio rigardos.
 
 
-### <a name="indeksoj"></a>Indeksoj
+### <a name="indeksoj">Indeksoj</a>
 
 ```
 set -g default-shell $SHELL
@@ -75,7 +75,7 @@ La komencan fenestran ciferon ĉi tio agordas al 1, anstataŭ 0; plifaciliĝas p
 malbindis pro tiu klavo estas tro grava al emaksa kaj ziŝa uzo.
 
 
-### <a name="klientoj"></a>Klientoj
+### <a name="klientoj">Klientoj</a>
 
 ```
 bind D detach-client
@@ -89,7 +89,7 @@ arbelektilo. Plurajn panelojn la klavkombino <kbd>C-z @</kbd> permesas por la sa
 ricevi. Ĉi tio tre utilas kiam forajn konektojn problemsolvi samtempe.
 
 
-### <a name="resxargxi"></a>La agordon reŝarĝi
+### <a name="resxargxi">La agordon reŝarĝi</a>
 
 ```
 bind . source-file ~/.tmux.conf
@@ -109,13 +109,13 @@ mortigi, respektive, sen invitoj.
 La klavon <kbd>C-z k</kbd> mi bindis por la bufran historion purigi por la vidon klarigi.
 
 
-<a name="fenestroj"></a>Fenestroj
+<a name="fenestroj">Fenestroj</a>
 ---------------------------------
 
 Fenestroj estas la ekvivalentoj de retumilaj langetoj en timukso. Seancojn ĝi organizas al subseancoj.
 
 
-### <a name="fenestrojmovado"></a>Movado
+### <a name="fenestrojmovado">Movado</a>
 
 ```
 bind -n S-left previous-window
@@ -142,7 +142,7 @@ Por rapide ŝanĝi al specifaj fenestroj, kelkajn klavkombinojn ni bindis al la 
 alie nomata la klavo <kbd>Meta</kbd>.
 
 
-### <a name="fenestrojregado"></a>Regado
+### <a name="fenestrojregado">Regado</a>
 
 ```bash
 bind c new-window -c "#{pane_current_path}"
@@ -159,13 +159,13 @@ aktuala dosierujo kiel komenca punkto. Mi ankaŭ volas, ke estas facila klavo po
 fenestro.
 
 
-<a name="paneloj"></a>Paneloj
+<a name="paneloj">Paneloj</a>
 -----------------------------
 
 Paneloj estas la subdividoj de fenestroj. Ili similas al kadropaĝo en la kunteksto de retumiloj.
 
 
-### <a name="panelojmovado"></a>Movado
+### <a name="panelojmovado">Movado</a>
 
 ```
 bind -n C-Left select-pane -t :.-
@@ -192,7 +192,7 @@ interŝanĝi, malantaŭen kaj antaŭen, respektive.
 Onin la aliaj klavoj permesas por ŝanĝi al speciaj paneloj.
 
 
-### <a name="panelojkunfandado"></a>Kunfandado
+### <a name="panelojkunfandado">Kunfandado</a>
 
 ```
 bind m command-prompt -p "Kunfandi al:"  "join-pane -t '%%'"
@@ -205,7 +205,7 @@ specifaj fenestroj, respektive. La klavon <kbd>C-z h</kbd> mi ankaŭ bindis por 
 panelo marki.
 
 
-<a name="statbreto"></a>Statbreto
+<a name="statbreto">Statbreto</a>
 ---------------------------------
 
 Multan prisondon la statbreto donas, kaj ĝin ni povas personecigi. La mian mi agordis jene:
@@ -274,7 +274,7 @@ La statbreton ĉi tio montras en la subo de la terminalsimulilo, kaj ĉiujn fene
 daton en la dekstra parto montrante.
 
 
-<a name="kromprogramoj"></a>Kromprogramoj
+<a name="kromprogramoj">Kromprogramoj</a>
 ----------------------------------------
 
 Kelkan kromprogramon mi uzas por mian agordon subteni. Ĝi ampleksiĝas de la
@@ -308,7 +308,7 @@ La konservitajn seancojn ĉi tio ŝarĝas dum la startigo kaj la kromprograman a
 Por ĉiomajn kromprogramojn instali, je <kbd>C-z I</kbd> premu.
 
 
-<a name="zonoj"></a>Zonoj
+<a name="zonoj">Zonoj</a>
 -------------------------
 
 Per timukso, aliron al la tri zonoj mi havas samtempe: la `PRIMARY`-, `CLIPBOARD`-, kaj la timukso-zonoj.
@@ -329,7 +329,7 @@ kopii. La enhavon de ĝi oni povas elĉerpi per je <kbd>C-z ]</kbd> premi.
 Per timukso la musmontrilon mi ne plu bezonas uzi por la zonojn administri.
 
 
-<a name="elprovado"></a>Elprovado
+<a name="elprovado">Elprovado</a>
 ---------------------------------
 
 Se ĉi tiujn agordojn oni volas priludi, mian agordon oni povas elŝuti al la sistemo. Sed unue, la ekzistantan agordon ni savkopiu:
@@ -351,13 +351,13 @@ Fine, timukson reŝargu:
 Se timukso plendas, ke mankas iom da kromprogramoj, je <kbd>C-z I</kbd> premu:
 
 
-<a name="finrimarkoj"></a>Finrimarkoj
+<a name="finrimarkoj">Finrimarkoj</a>
 -------------------------------------
 
 Timukso estas unu el la iloj, kiun oni devas havi laborante ĉe la terminalsimulilo kaj komandlinio.
 Laborfluon kio estas aliokaze malfacila per aliaj kunigiloj, aŭ tre malfacila por fari per kutimaj
 neadministritaj seancoj ĝi ebligas. Por la restantaj difinoj iru [ĉi
-tien](https://github.com/ebzzry/dotfiles/tree/master/tmux/.tmux.conf).
+tien](https://github.com/ebzzry/dotfiles/tree/main/tmux/.tmux.conf).
 
 Se giton vi uzas, la artikolo pri kiel ĝi mi uzas, eble ankaŭ plaĉas al vi. Ĝi
 troviĝas [ĉi tie](/eo/gito/).
