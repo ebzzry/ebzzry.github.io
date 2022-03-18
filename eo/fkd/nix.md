@@ -1,12 +1,11 @@
 Milda Enkonduko al la Nix-Familio
 =================================
 
-<div class="center">Esperanto ◆ [English](/en/nix/)</div>
+<div class="center">Esperanto ■ [English](/en/nix/)</div>
 <div class="center">Laste ĝisdatigita: la 22-an de Februaro 2022</div>
 
->Ne maltrankviliĝu pri tio, kion la aliaj faros. La plej bona maniero por la estontecon antaŭdiri
->estas por tion eltrovi.<br>
->―Alan KAY
+>Ne maltrankviliĝu pri tio, kion la aliaj faros. La plej bona maniero por antaŭdiri la estontecon
+>estas por eltrovi ĝin.<br>―Alan KAY
 
 <img src="/bil/wallhaven-751942-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-751942" title="wallhaven-751942"/>
 
