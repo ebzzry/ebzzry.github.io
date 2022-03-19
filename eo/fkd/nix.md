@@ -970,7 +970,7 @@ gitkopion uzi, la [deponejon](https://github.com/nixos/nixpkgs) klonu:
 de la deponejo troveblas ĉe `/home/vakelo/nixpkgs/` aŭ `/Users/vakelo/nixpkgs/`, se linukson aŭ
 makintoŝon oni uzas respektive.
 
-Por pakon instali, ekzemple, *emem*—Markdown- al HTML-dosiero konvertilo—per la gitkopio, plenumu:
+Por pakon instali, ekzemple, *emem*—markdaŭna- al HTML-dosiero konvertilo—per la gitkopio, plenumu:
 
     $ nix-env -f ~/nixpkgs/default.nix -iA emem
 

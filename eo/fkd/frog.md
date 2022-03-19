@@ -56,7 +56,7 @@ Frog operacias ie en la mezo de jena spektro:
 
     Krudenhavo → Frog → HTML
 
-En kiu, krudenhavo estas aŭ Markdown, Scribble, aŭ HTML-fontdosieroj, aŭ kombinado de ĉio. Frog
+En kiu, krudenhavo estas aŭ markdaŭno, Scribble, aŭ HTML-fontdosieroj, aŭ kombinado de ĉio. Frog
 konsumas tiujn enigdosierojn, kiam ĝi eligas agrablajn HTML-dosierojn, kiuj oni povas alŝuti al
 TTT-servilo. Ĉu facilas? Ne, pli facilas ol ĝi sonas.
 
@@ -124,7 +124,7 @@ Krei novan afiŝon el nulo estas alia facila tasko:
 
     $ raco frog -n "Nova Bloga Afisxo"
 
-Ĉi tiu kreas Markdown-dosieron, kiu relativas al la aktuala dosierujo, per la
+Ĉi tiu kreas markdaŭdan dosieron, kiu relativas al la aktuala dosierujo, per la
 formato `_src/posts/YYYY-MM-DD-afisxa-titolo.md`. Per la supra komando, la absoluta dosierindiko estus
 simila al:
 
@@ -153,7 +153,7 @@ enhavas diskomajn listojn de vortoj, kiuj Frog poste priidentigus la afiŝon. Ki
 etikedo `DRAFT` uzatas, la dosiero estos pretersalita dum la kunmetfazo.
 
 Kvar spacetoj devas esti prefiksitaj antaŭ tiuj tri linioj, sekvita de malplena linio. La cetero
-estos la efektiva artikola enhavo en la Markdown-formato. Kiam linio per si mem enhavas nur la
+estos la efektiva artikola enhavo en la markdaŭna formato. Kiam linio per si mem enhavas nur la
 tekston `<!‑‑ more ‑‑>`, tiu linio estos anstataŭigita per hiperligilo en la fina HTML-formo, kiu
 estos montrata al la cetero de la artikolo. Tio signifas, ke ĉiuj teksto, post la linio `<!‑‑ more ‑‑>`, 
 ne aperos en la bloga indekso, sed ili aperos en la ligilo por la tutafiŝo.
@@ -279,7 +279,7 @@ Kiam oni kreis novan afiŝon antaŭe, oni uzis la komandon:
 
     $ raco frog -n "Nova Bloga Afisxo"
 
-Tiu komando kreas Markdown-fontdosieron. Frog, tamen, havas alian reĝimon—Scribble. Ĉi tiu
+Tiu komando kreas markdaŭnan dosieron. Frog, tamen, havas alian reĝimon—Scribble. Ĉi tiu
 reĝimo permesas onin por uzi Scribble-dosieron anstataŭe. Por krei tiun, oni uzos la jenan
 komandon:
 
@@ -307,7 +307,7 @@ etikedo `DRAFT` malebligas la afiŝon por esti eldonita.
 <!-- more -->
 ```
 
-Ni povas vidi, ke la Markdown- kaj Scribble-dosieroj plejparte similas, krom la aldono de
+Ni povas vidi, ke la markdaŭna- kaj Scribble-dosieroj plejparte similas, krom la aldono de
 la lingva precizigilo `#lang scribble/manual`, kaj la manko de la prefiksaj spacetoj por la
 metadatumaj kampoj.
 

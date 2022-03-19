@@ -24,14 +24,14 @@ Emaksaj Konsiletoj 3-a: Enmeti kaj Forviŝi
 <a name="enkonduko">Enkonduko</a>
 ---------------------------------
 
-Jen la daŭrigo de mia serio pri emaksaj konsiletoj. En ĉi tiu artikolo, ni esploru pri signovicaj
-enmetadoj, kaj linia forviŝado, markado, kaj algluado.
+Jen la daŭrigo de mia serio pri emaksaj konsiletoj. En ĉi tiu artikolo, ni esploros pri signovica
+enmetado, linia forviŝado, markado, kaj algluado.
 
 
 <a name="enmetado">Enmetado</a>
 -------------------------------
 
-Mi laboras kun multe da Markdown-dosieroj kaj manieron por signojn kaj signovicojn enmeti facile mi
+Mi laboras kun multe da markdaŭnaj dosieroj kaj manieron por signojn kaj signovicojn enmeti facile mi
 volas havi.
 
 Por kodon enmeti per maldekstraj kornoj:

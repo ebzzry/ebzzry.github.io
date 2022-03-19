@@ -69,12 +69,12 @@ elŝutos la fontojn el la interreto sen ili.
 <a name="bazaferoj">Bazaferoj</a>
 ---------------------------------
 
-Por krei Markdown-an dosieron de la dosiero `entry.xml`
+Por krei markdaŭnan dosieron de la dosiero `entry.xml`
 
     $ raco livefrog -m entry.xml
 
 Bedaŭrinde, tio fariĝos ĝena se oni administros pli ol cent enskribojn. Por aŭtomate kolekti la
-dosierojn—kreitaj de ljdump aŭ ljmigrate—kaj konverti ilin al Markdown:
+dosierojn—kreitaj de ljdump aŭ ljmigrate—kaj konverti ilin al markdaŭno:
 
     $ raco livefrog -am
 
@@ -125,7 +125,7 @@ ljmigrate/
       userpics/
 ```
 
-Kreinte la Markdown- kaj Frog-fontajn dosierojnkreinte, oni nun povas kopii ilin al la Frog-fonta
+Kreinte la markdaŭnaj- kaj Frog-fontajn dosierojnkreinte, oni nun povas kopii ilin al la Frog-fonta
 dosierujo, indikata ĉe `_src/posts/`.
 
 
