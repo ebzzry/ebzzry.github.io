@@ -2,16 +2,19 @@ How I Roll with Git
 ===================
 
 <div class="center">[Esperanto](/eo/gito/) ■ English</div>
-<div class="center">Last updated: November 2, 2020</div>
+<div class="center">Last updated: March 19, 2022</div>
 
 >Conversely, those with persistence can ignore what others think. They can press
 >on in their own world, oblivious to the opinions of those around them.<br>
 >―Daigo Umehara
 
+<img src="/bil/simon-berger-6te9SupeW1g-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="simon-berger-6te9SupeW1g-unsplash" title="simon-berger-6te9SupeW1g-unsplash"/>
+
+
 <a name="toc">Table of contents</a>
 -----------------------------------
 
-- [Overview](#overview)
+- [Introduction](#introduction)
 - [Short commands](#short)
   + [Aliases](#aliases)
   + [Alternative](#alternative)
@@ -23,8 +26,8 @@ How I Roll with Git
 - [Closing remarks](#closing)
 
 
-<a name="overview">Overview</a>
--------------------------------
+<a name="introduction">Introduction</a>
+---------------------------------------
 
 In my toolbox are terminal simulator, shell, editor, browser, compiler, and
 git. When I encountered git several years ago, it became one of my most used

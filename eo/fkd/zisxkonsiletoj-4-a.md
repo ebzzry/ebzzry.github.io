@@ -2,19 +2,18 @@ Ziŝaj Konsiletoj 4-a: Ĝeneralhelpiloj
 =====================================
 
 <div class="center">Esperanto ■ [English](/en/zsh-tips-4/)</div>
-<div class="center">Laste ĝisdatigita: la 23-an de Februaro 2022</div>
+<div class="center">Laste ĝisdatigita: la 19-an de Marto 2022</div>
 
 >Vidpunkto meritas okdek poentojn da inteligentecaj kvocientoj.<br>
 >―Alan KAY
 
-Lastfoje, mi parolis pri la helpilaj funkcioj por asisti en la mastrumado de radikigmedioj. En ĉi
-tiu artikolo, mi parolos pri ĝeneralaj helpiloj por labori ĉe la komandlinio. Mi ankaŭ parolos pri
-helpemaj klavkombinoj por maŝinskribadon plirapidigi.
+<img src="/bil/adam-hornyak-Cm187aESg0k-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="adam-hornyak-Cm187aESg0k-unsplash" title="adam-hornyak-Cm187aESg0k-unsplash"/>
 
 
-<a name="et"></a>Enhavotabelo
+<a name="et">Enhavotabelo</a>
 -----------------------------
 
+- [Enkonduko](#enkonduko)
 - [Funkcioj](#funkcioj)
   + [map](#map)
   + [rmap](#rmap)
@@ -36,14 +35,22 @@ helpemaj klavkombinoj por maŝinskribadon plirapidigi.
 - [Finrimarkoj](#finrimarkoj)
 
 
-<a name="funkcioj"></a>Funkcioj
+<a name="enkonduko">Enkonduko</a>
+---------------------------------
+
+Lastfoje, mi parolis pri la helpilaj funkcioj por asisti en la mastrumado de radikigmedioj. En ĉi
+tiu artikolo, mi parolos pri ĝeneralaj helpiloj por labori ĉe la komandlinio. Mi ankaŭ parolos pri
+helpemaj klavkombinoj por maŝinskribadon plirapidigi.
+
+
+<a name="funkcioj">Funkcioj</a>
 -------------------------------
 
 Bela afero pri funkcioj, estas, ke ili estas tiel facile por skribi kaj uzi. Jen kelkaj funkcioj
 kiujn mi uzas ofte.
 
 
-### <a name="map"></a>map
+### <a name="map">map</a>
 
 Kiam komandon kiu nur unu argumenton akceptas oni havas, plurajn uzojn de tiu komando oni volas
 simuli per ĉi tiu funkcio. Ĝi estas difinita jene:
@@ -59,7 +66,7 @@ Ekzemple, je `map` oni povas uzi por plurajn gitaj deponejon, serie:
     % map 'git clone' git@github.com:nixos/nixpkgs.git git@github.com:tmux/tmux.git
 
 
-### <a name="rmap"></a>rmap
+### <a name="rmap">rmap</a>
 
 Kiel la nomo implicas, `rmap` funkcias kiel la inverso de `map`—la cetaraj argumentoj estas
 aplikitaj kiel komandoj al la unua argumento. Ĝi estas difinita jene:
@@ -76,7 +83,7 @@ dosiernumerojn de dosiero aŭ dosierujo vidi:
     % rmap iudosierujo 'du -h' stat 'sudo lsof'
 
 
-### <a name="fp"></a>fp
+### <a name="fp">fp</a>
 
 Rapidan manieron por la realan kaj absolutan dosierindikon de dosiero aŭ dosierujo precizigi mi volas
 havi. Min ĉi tio helpas multe en skriptado. Ĝi estas difinita jene:
@@ -95,7 +102,7 @@ mi povas plenumi:
 Ĉi tiu funkcio estos grava en la sekva sekcio.
 
 
-### <a name="d"></a>d
+### <a name="d">d</a>
 
 Ofte, kiam mi iras al dosierujo, serion de komandoj mi bezonas plenumi. Tempon por maŝinskribado mi volas
 savi, do anstataŭ du komandojn plenumi, nur unu mi nur devas plenumi. Manieron por dosierujon rapide
@@ -144,7 +151,7 @@ Tiam, je `d` mi plenumu, kaj la dua enskribo estas uzota kun komando:
 La dosierujo ŝanĝiĝos al `/tmp/`, tiam la komando `date` kuros.
 
 
-### <a name="d_krisigno"></a>d!
+### <a name="d_krisigno">d!</a>
 
 Kiel la nomo implicas, `d!` similas al sia kuzo nur, ke se la cela dosierujo ne ekzistas, ĝin ĝi
 kreas, kaj la saman konduton de `d` ĝi faras poste. Ĝi estas difinita jene:
@@ -161,7 +168,7 @@ Ekzemple, je `d!` mi povas uzi por dosierujon scenigi antaŭ ISO-dosieron elŝut
     % d! ~/Downloads/iso https://www.hundo.kato/muso/ve/ve.iso
 
 
-### <a name="rm_krisigno"></a>rm!
+### <a name="rm_krisigno">rm!</a>
 
 Kiam mi certas, ke dosieron aŭ dosierujon mi volas forviŝi, mi ne volos ĝenita per invitoj, dum
 samtempe escepton por la hejmdosieron ne akcidente forviŝi mi volas havi. Ĝi estas difinita jene:
@@ -180,7 +187,7 @@ La komando `commando` certigas, ke la sistemduumdosieron `rm` mi alvokas anstata
 funkcio.
 
 
-### <a name="rm_pluso"></a>rm+
+### <a name="rm_pluso">rm+</a>
 
 Kiam ajn mi volas rapide forviŝi arbon kiu havas multe da dosiero kaj dosierujo,
 la komandon `parallel` mi uzas por la forviŝadon plenumi paralele, anstataŭ
@@ -195,7 +202,7 @@ function rm+ () {
 La pakadministrilon de la sistemo kontrolu kiel je `parallel` instali.
 
 
-### <a name="rm_heliko"></a>rm@
+### <a name="rm_heliko">rm@</a>
 
 Kelkfoje, dosieron aŭ dosierujon mi bezonas forviŝi sen la ŝancoj de retrovado. Por tion fari, la
 komandon `shred` mi uzas. Ĝi estas difinita jene:
@@ -214,7 +221,7 @@ function rm@ () {
 La pakadministrilon de la sistemo kontrolu kiel je `shred` instali.
 
 
-### <a name="defmk"></a>def_mk
+### <a name="defmk">def_mk</a>
 
 Helpilojn ci tiu helpilo generas. Onin ĝi permesas por funkciojn krei kiuj antaŭproduktajn dosierojn
 kreas antaŭ la vera komando estas plenumita. Ĝi estas difinita kiel:
@@ -236,7 +243,7 @@ function def_mk () {
 Por ĝin uzi, la nomon de la funkcio kiu estos uzita kiel komando donu, kaj la malvolvo mem. Ĉi tiuj
 alvokoj estas ideale difinita en la agorddosiero.
 
-### <a name="cp_krisigno"></a>cp!
+### <a name="cp_krisigno">cp!</a>
 
 Por je `def_mk` uzi kun `cp` ĝin alvoku jene:
 
@@ -280,7 +287,7 @@ necese:
 ```
 
 
-### <a name="mv_krisigno"></a>mv!
+### <a name="mv_krisigno">mv!</a>
 
 Por je `def_mk` uzi kun `mv` ĝin alvoku jene:
 
@@ -322,14 +329,14 @@ necese:
 ```
 
 
-<a name="klavkombinoj"></a>Klavkombinoj
+<a name="klavkombinoj">Klavkombinoj</a>
 ---------------------------------------
 
 Ekster la komandoj kiuj estas maŝinskribitaj, klavkombinoj oni ankaŭ povas alvoki por ajnajn komandojn
 fari. Jen kelkaj, kiujn mi uzas ofte:
 
 
-### <a name="insertlastword"></a>insert-last-word
+### <a name="insertlastword">insert-last-word</a>
 
 Kiam la lastan vorton de la lasta komando mi volas enmeti, je `insert-last-word` mi vokas. Ekzemple,
 se la jenan oni havas, en kiu la ĉapelo estas la kursoro:
@@ -353,7 +360,7 @@ havas, la jenan metu en la agordo:
     bindkey "\e." insert-last-word
 
 
-### <a name="copyprevshellword"></a>copy-prev-shell-word
+### <a name="copyprevshellword">copy-prev-shell-word</a>
 
 Se la lastan vorton en la aktuala komandlinio mi volas ripeti, je `copy-prev-shell-word` mi
 alvokas. Ekzemple, se la jenan oni havas:
@@ -371,7 +378,7 @@ Kiam je `M-x copy-prev-shell-word EN` mi plenumas, la lastan vorton ziŝo enmeta
     bindkey "\e=" copy-prev-shell-word
 
 
-### <a name="anstatauxigoj"></a>Anstataŭigoj
+### <a name="anstatauxigoj">Anstataŭigoj</a>
 
 Krome la plenumado de `M-x` komandoj, onin ziŝo permesas por klavkombinojn difini kiu ajnan tekston
 enmeti ĉe la komandlinion, inkluzive stirsignoj.
@@ -399,7 +406,7 @@ Kiam je <kbd>M-`</kbd> mi premas, la jenan mi akiros:
             ^
 
 
-### <a name="citiloj"></a>Citiloj
+### <a name="citiloj">Citiloj</a>
 
 La bezonon por la argumenton de komandon citi mi ofte havas, precipe se metaesprimojn ĝi havas. Ofta
 kazo estas de jutubaj retadresoj, kiu la `?` signon havas:
@@ -422,7 +429,7 @@ Anstataŭ tri klavojn premi per mia klavaro, nur du mi nur devas premi, kaj ĝi 
 citiloj mi akiras.
 
 
-<a name="cxio"></a>Ĉion rikolti
+<a name="cxio">Ĉion rikolti</a>
 -------------------------------
 
 Jen ĉiom da difinoj, kun kelkaj aldonaj helpiloj, en unu loko:
@@ -531,7 +538,7 @@ out_keys=(
 ```
 
 
-<a name="finrimarkoj"></a>Finrimarkoj
+<a name="finrimarkoj">Finrimarkoj</a>
 -------------------------------------
 
 La komandlinion uzante, precipe per ŝelo tiel potenca kiel ziŝo, estas devige por esti konscie, kiun

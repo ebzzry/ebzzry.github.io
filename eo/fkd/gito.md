@@ -2,16 +2,19 @@ Kiel Mi Uzas Giton
 ==================
 
 <div class="center">Esperanto ■ [English](/en/git/)</div>
-<div class="center">Laste ĝisdatigita: la 22-an de Februaro 2022</div>
+<div class="center">Laste ĝisdatigita: la 19-an de Marto 2022</div>
 
 >Male, tiuj kun senĉeseco povas malatenti kiujn aliaj pensas. Ion ajn ili povas
 >fari en ilia propra mondo senzorgeme al la opinioj de tiuj ĉirkaŭ ili.<br>
 >―Daigo UMEHARA
 
+<img src="/bil/simon-berger-6te9SupeW1g-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="simon-berger-6te9SupeW1g-unsplash" title="simon-berger-6te9SupeW1g-unsplash"/>
+
+
 <a name="et">Enhavotabelo</a>
 -----------------------------
 
-- [Superrigardo](#superrigardo)
+- [Enkonduko](#enkonduko)
 - [Mallongaj komandoj](#mallongaj)
   + [Alinomoj](#alinomoj)
   + [Alternativo](#alternativo)
@@ -23,13 +26,12 @@ Kiel Mi Uzas Giton
 - [Finrimarkoj](#finrimarkoj)
 
 
-<a name="superrigardo">Superrigardo</a>
----------------------------------------
+<a name="enkonduko">Enkonduko</a>
+---------------------------------
 
-En mia ilaro estas terminalsimulilo, ŝelo, redaktilo, retumilo, kompililo, kaj
-gito. Ekde kiam giton mi konis antaŭ multaj jaroj, ĝi fariĝis unu el miaj plej
-uzataj iloj. Pro ĝia rapideco kaj amplekso de uzo, ĝin mi uzas kiel mia tria
-brako.
+En mia ilaro estas terminalsimulilo, ŝelo, redaktilo, retumilo, kompililo, kaj gito. Ekde kiam giton
+mi konis antaŭ multaj jaroj, ĝi fariĝis unu el miaj plej uzataj iloj. Pro ĝia rapideco kaj amplekso
+de uzo, ĝin mi uzas kiel mia tria brako.
 
 Pro tio ke emakson mi uzas, je [Magit](https://magit.vc/) mi ankaŭ havas. Tamen,
 en ĉi tiu artikolo mi parolos pri kiel giton mi uzas ĉiutage ĉe la komandlinio.

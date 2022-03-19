@@ -2,19 +2,18 @@ Zsh Tips 4: General Helpers
 ===========================
 
 <div class="center">[Esperanto](/eo/zisxkonsiletoj-4-a/) ■ English</div>
-<div class="center">Last updated: September 26, 2018</div>
+<div class="center">Last updated: March 19, 2022</div>
 
 >A change in perspective is worth 80 IQ points.<br>
 >―Alan Kay
 
-Last time, I talked about helper functions to assist in managing chroot environments. In this
-article, I’ll talk about general helpers for working with the command line. I will also talk about
-helpful keybindings to speed up typing.
+<img src="/bil/adam-hornyak-Cm187aESg0k-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="adam-hornyak-Cm187aESg0k-unsplash" title="adam-hornyak-Cm187aESg0k-unsplash"/>
 
 
 <a name="toc">Table of contents</a>
 -----------------------------------
 
+- [Introduction](#introduction)
 - [Functions](#functions)
   + [map](#map)
   + [rmap](#rmap)
@@ -34,6 +33,14 @@ helpful keybindings to speed up typing.
   + [Quotes](#quotes)
 - [Putting them all together](#all)
 - [Closing remarks](#closing)
+
+
+<a name="introduction">Introduction</a>
+---------------------------------------
+
+Last time, I talked about helper functions to assist in managing chroot environments. In this
+article, I’ll talk about general helpers for working with the command line. I will also talk about
+helpful keybindings to speed up typing.
 
 
 <a name="functions">Functions</a>
