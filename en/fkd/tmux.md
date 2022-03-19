@@ -2,10 +2,12 @@ How I Roll with Tmux
 ====================
 
 <div class="center">[Esperanto](/eo/timukso) ■ English</div>
-<div class="center">Last updated: March 17, 2022</div>
+<div class="center">Last updated: March 18, 2022</div>
 
 >Furious activity is no substitute for understanding.<br>
 >―H.H. Williams
+
+<img src="/bil/lysander-yuen-wk833OrQLJE-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="lysander-yuen-wk833OrQLJE-unsplash" title="lysander-yuen-wk833OrQLJE-unsplash"/>
 
 
 <a name="toc">Table of contents</a>

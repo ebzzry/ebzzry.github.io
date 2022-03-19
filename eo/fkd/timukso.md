@@ -2,11 +2,12 @@ Kiel Mi Uzas Timukson
 =====================
 
 <div class="center">Esperanto ■ [English](/en/tmux/)</div>
-<div class="center">Laste ĝisdatigita: la 17-an de Marto 2022</div>
+<div class="center">Laste ĝisdatigita: la 18-an de Marto 2022</div>
 
 >Furioza agado ne estas anstataŭaĵo de komprenado.<br>
 >―H.H. WILLIAMs
 
+<img src="/bil/lysander-yuen-wk833OrQLJE-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="lysander-yuen-wk833OrQLJE-unsplash" title="lysander-yuen-wk833OrQLJE-unsplash"/>
 
 <a name="et">Enhavotabelo</a>
 -----------------------------

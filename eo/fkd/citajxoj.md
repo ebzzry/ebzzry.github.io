@@ -2,7 +2,7 @@ Citaĵoj
 =======
 
 <div class="center">Esperanto ■ [English](/en/quotes/)</div>
-<div class="center">Laste ĝisdatigita: la 15-an de Marto 2022</div>
+<div class="center">Laste ĝisdatigita: la 18-an de Marto 2022</div>
 
 <img src="/bil/wallhaven-77816-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -87,7 +87,7 @@ tra la jaroj.
 - La unua regulo de Ron: Ĉiuj treegaj pozicioj malĝustas.<br>—Ron GARRET
 
 
-- Ni ridas pri tio, kion ni ne povas toleri por alfronti.<br>—Aristotelo
+- Ni ridas pri tio, kion ni ne povas toleri alfronti.<br>—Aristotelo
 
 
 - Kun aŭ sen religio, bonaj homoj povas bone konduti kaj malbonaj homoj povas malbone fari; tamen,

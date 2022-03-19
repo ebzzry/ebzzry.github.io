@@ -2,10 +2,28 @@ Zsh Tips 3: Chroot Helpers
 ==========================
 
 <div class="center">[Esperanto](/eo/zisxkonsiletoj-3-a/) ■ English</div>
-<div class="center">Last updated: September 23, 2018</div>
+<div class="center">Last updated: March 19, 2022</div>
 
 >We laugh at that which we cannot bear to face.<br>
 >―Aristotle
+
+<img src="/bil/ali-lokhandwala-KUr51Y4dOyo-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="ali-lokhandwala-KUr51Y4dOyo-unsplash" title="ali-lokhandwala-KUr51Y4dOyo-unsplash"/>
+
+
+<a name="toc">Table of contents</a>
+-----------------------------------
+
+- [Introduction](#introduction)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Configuration](#configuration)
+- [Define the commands](#commands)
+- [Trying it out](#trying)
+- [Closing remarks](#closing)
+
+
+<a name="introduction">Introduction</a>
+---------------------------------------
 
 Technologies such as Docker, QEMU, and VirtualBox are great tools when one wants to run processes
 separate from the host system. These techniques provide us with completely isolated environments
@@ -17,22 +35,6 @@ environment invoking it.
 In this article, I’ll talk about how to setup a chroot environment on Linux with Zsh. Technically,
 this is a mixture of shell discussion and system administration, but since I’m using features that
 are exclusive to Zsh—or otherwise difficult in other shells—I went with that title.
-
-
-<a name="toc">Table of contents</a>
------------------------------------
-
-- [Overview](#overview)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Configuration](#configuration)
-- [Define the commands](#commands)
-- [Trying it out](#trying)
-- [Closing remarks](#closing)
-
-
-<a name="overview">Overview</a>
--------------------------------
 
 Every now and then, I need to quickly run commands for other systems, for example, Ubuntu, so that I
 can test my software, with persistent storage mechanisms and fast access to system binaries. Other

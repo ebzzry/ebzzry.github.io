@@ -2,26 +2,28 @@ Ziŝaj Konsiletoj 2-a: Dosierujstakoj
 ====================================
 
 <div class="center">Esperanto ■ [English](/en/zsh-tips-2/)</div>
-<div class="center">Laste ĝisdatigita: la 22-an de Februaro 2022</div>
+<div class="center">Laste ĝisdatigita: la 18-an de Marto 2022</div>
 
 >Kion ni faras por ni, mortas kun ni. Kion ni faras por ili, porĉiame restas.<br>
 >―Albert PIKE
 
-Lastfoje mi skribis pri alinomoj kaj funkcioj, kial ilin uzi pol la komandlinian sperton
-plibonigi. En ĉi tiu artikolo, mi parolos pri simplaj manieroj kiel dosierujstakojn konservi.
+<img src="/bil/jonny-caspari-A7ol2HfnycY-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="jonny-caspari-A7ol2HfnycY-unsplash" title="jonny-caspari-A7ol2HfnycY-unsplash"/>
 
 
-<a name="et"></a>Enhavotebelo
+<a name="et">Enhavotebelo</a>
 -----------------------------
 
-- [Superrigardo](#superrigardo)
+- [Enkonduko](#enkonduko)
 - [Konservi](#konservi)
 - [Restaŭri](#restauxri)
 - [Finrimarkoj](#finrimarkoj)
 
 
-<a name="superrigardo"></a>Superrigardo
----------------------------------------
+<a name="enkonduko">Enkonduko</a>
+---------------------------------
+
+Lastfoje mi skribis pri alinomoj kaj funkcioj, kial ilin uzi pol la komandlinian sperton
+plibonigi. En ĉi tiu artikolo, mi parolos pri simplaj manieroj kiel dosierujstakojn konservi.
 
 Ĉiufoje la dosierujo ŝanĝiĝas per `cd`, la komandon `pushd` mi uzas por tiun dosierujon konservi sur
 la dosierujstako. Min ĉi tio ebligas por iri reen al la lasta dosierujo, antaŭ je `pushd` mi voku,
@@ -60,7 +62,7 @@ La jenan mi akiros:
     1       /home/ebzzry/Downloads
 
 
-<a name="konservi"></a>Konservi
+<a name="konservi">Konservi</a>
 -------------------------------
 
 Onin dosierujstakoj permesas por movi tra la arboj kiujn ni nune prilaboras. Puŝi al la
@@ -92,7 +94,7 @@ Je `z!` kurante, la enhavon de la aktuala stako konservas, kaj la ŝelon reŝar�
     % z!
 
 
-<a name="restauxri"></a>Restaŭri
+<a name="restauxri">Restaŭri</a>
 --------------------------------
 
 Por iri kun `z!` funkcion kiu la konservitan dosierujstakon restaŭras mi havas:
@@ -121,10 +123,10 @@ Por restaŭri la konservitan dosierujstakon en la aktuala seanco aŭ al nova apa
     3       /home/ebzzry
 
 
-<a name="finrimarkoj"></a>Finrimarkoj
+<a name="finrimarkoj">Finrimarkoj</a>
 -------------------------------------
 
 Dosierujstakojn mi uzas kiel maniero por la dosieroj kiujn mi interagas konservi por ke estos pli
 facile por ilin restaŭru al antaŭ funkcia stato. Ĉi tiujn du helpilojn havante, la laboron ĉe la
-komandlinio plifaciligas. Por la restantajn difinojn iru [ĉi
-tien](https://github.com/ebzzry/dotfiles/tree/main/zsh).
+komandlinio plifaciligas. Por la restantajn difinojn iru
+[ĉi tien](https://github.com/ebzzry/dotfiles/tree/main/zsh).

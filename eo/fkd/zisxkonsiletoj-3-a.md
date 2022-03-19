@@ -2,28 +2,18 @@ Ziŝaj Konsiletoj 3-a: Ŝanĝradikighelpiloj
 =========================================
 
 <div class="center">Esperanto ■ [English](/en/zsh-tips-3/)</div>
-<div class="center">Laste ĝisdatigita: la 4-an de Marto 2022</div>
+<div class="center">Laste ĝisdatigita: la 19-an de Marto 2022</div>
 
->Ni ridas pri tio, kion ni ne povas toleri por alfronti.<br>
+>Ni ridas pri tio, kion ni ne povas toleri alfronti.<br>
 >―Aristotelo
 
-Teĥnologioj kiel Dakero, *QEMU*, kaj *VirtualBox* estas bonegaj iloj kiam
-procezojn oni volas plenumi aparte de la gastiga sistemo. Tute izolitajn mediojn
-ĉi tiuj teĥnikoj provizas al ni kiuj la reprodukteblecon de kodo plifaciligas
-testi. Tamen, estas okazoj en kiu ĉi tiuj solvoj tro pezas, kaj ion malplipezan
-ni bezonas. Eniras ŝanĝradikigado. Male al siaj pliplezaj amikoj, ŝanĝradikigado
-sidas ie proksima al la dosiersistemo, kie la risurcojn de la medio kiun ĝin
-alvokas ĝi povas facile aliri.
-
-En ĉi tiu artikolo, mi parolos kiel ŝanĝradikigmedion agordi en linukso per ziŝo. Teĥnike, ĉi tio
-estas kunmeto de diskutoj pri ŝelo kaj sistemadministrado, sed pro kapablojn kiuj estas ekskluzivaj
-al ziŝo mi uzas—aŭ alie malfacila por fari en aliaj ŝeloj—tiun paĝtitolon mi uzis.
+<img src="/bil/ali-lokhandwala-KUr51Y4dOyo-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="ali-lokhandwala-KUr51Y4dOyo-unsplash" title="ali-lokhandwala-KUr51Y4dOyo-unsplash"/>
 
 
-<a name="et"></a>Enhavotabelo
+<a name="et">Enhavotabelo</a>
 -----------------------------
 
-- [Superrigardo](#superrigardo)
+- [Enkonduko](#enkonduko)
 - [Antaŭkondiĉoj](#antauxkondicxoj)
 - [Instalo](#instalo)
 - [Agordo](#agordo)
@@ -32,15 +22,26 @@ al ziŝo mi uzas—aŭ alie malfacila por fari en aliaj ŝeloj—tiun paĝtitolo
 - [Finrimarkoj](#finrimarkoj)
 
 
-<a name="superrigardo"></a>Superrigardo
----------------------------------------
+<a name="enkonduko">Enkonduko</a>
+---------------------------------
+
+Teĥnologioj kiel Dakero, *QEMU*, kaj *VirtualBox* estas bonegaj iloj kiam procezojn oni volas
+plenumi aparte de la gastiga sistemo. Tute izolitajn mediojn ĉi tiuj teĥnikoj provizas al ni kiuj la
+reprodukteblecon de kodo plifaciligas testi. Tamen, estas okazoj en kiu ĉi tiuj solvoj tro pezas,
+kaj ion malplipezan ni bezonas. Eniras ŝanĝradikigado. Male al siaj pliplezaj amikoj, ŝanĝradikigado
+sidas ie proksima al la dosiersistemo, kie la risurcojn de la medio kiun ĝin alvokas ĝi povas facile
+aliri.
+
+En ĉi tiu artikolo, mi parolos kiel ŝanĝradikigmedion agordi en linukso per ziŝo. Teĥnike, ĉi tio
+estas kunmeto de diskutoj pri ŝelo kaj sistemadministrado, sed pro kapablojn kiuj estas ekskluzivaj
+al ziŝo mi uzas—aŭ alie malfacila por fari en aliaj ŝeloj—tiun paĝtitolon mi uzis.
 
 Kelkfoje komandojn de aliaj sistemoj mi bezonas rapide plenumi, ekzemple, de Ubunto, por ke mian
 programaron mi povu testi, kun daŭra konservaj mekanismoj kaj aliro al sistemduumdosieroj. Aliaj
 opcioj estas laborintensivaj kaj la taskojn mi povas kuri rapide, kaj nun.
 
 
-<a name="antauxkondicxoj"></a>Antaŭkondiĉoj
+<a name="antauxkondicxoj">Antaŭkondiĉoj</a>
 -------------------------------------------
 
 Por la efektivan disan medion krei, manieron por ĝin elŝuti kaj instali ĉe la disko ni
@@ -59,7 +60,7 @@ Por la aferojn fluigi, la saman uzantnomon kaj uzantnumeron de la gasgita sistem
     % id -un; id -u
 
 
-<a name="instalo"></a>Instalo
+<a name="instalo">Instalo</a>
 -----------------------------
 
 Unue la celan dosierujon ni kreu:
@@ -80,7 +81,7 @@ Kiam ĝi finis kuri, la bindsurmetojn de la sistemo al la cela sistemo ni devas 
     % sudo mount --bind /dev/pts /home/chrt/ubuntu/dev/pts
 
 
-<a name="agordo"></a>Agordo
+<a name="agordo">Agordo</a>
 ---------------------------
 
 Por ke la ŝanĝradikigmedio funkciu ĝuste, enen ni devas iri kaj ŝanĝojn fari:
@@ -122,7 +123,7 @@ La redaktilon fermu. Post tio, ankaŭ eliru de la ŝanĝradikigmedio:
     # exit
 
 
-<a name="komandoj"></a>La komandojn difini
+<a name="komandoj">La komandojn difini</a>
 ------------------------------------------
 
 De nun ni estas reen ĉe la gastiga maŝino. La komandojn kiuj estas efektive uzitaj por interagi al
@@ -193,7 +194,7 @@ La ŝanĝojn konservu, tiam la redaktilon fermu. Post tio, novan ŝelon plenumu 
 estu legitaj de la startiga dosiero.
 
 
-<a name="elprovado"></a>Elprovado
+<a name="elprovado">Elprovado</a>
 ---------------------------------
 
 La daton el la ŝanĝradikigmedio ni akiru:
@@ -216,7 +217,7 @@ Se la ŝanĝradikigmedion oni volas malŝalti eksplicite, plenumu:
     % cru
 
 
-<a name="finrimarkoj"></a>Finrimarkoj
+<a name="finrimarkoj">Finrimarkoj</a>
 -------------------------------------
 
 Medion havante por programojn testi kaj programojn plenumi kiuj estas ekskluzivaj al tiu platformo,

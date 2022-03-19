@@ -2,26 +2,28 @@ Zsh Tips 2: Directory Stacks
 ============================
 
 <div class="center">[Esperanto](/eo/zisxkonsiletoj-2-a/) ■ English</div>
-<div class="center">Last updated: September 26, 2018</div>
+<div class="center">Last updated: March 18, 2022</div>
 
 >What we do for ourselves dies with us. What we do for others remains forever.<br>
 >―Albert Pike
 
-Last time, I wrote about aliases and functions, and how to use them to enhance your command line
-experience. In this article, I will talk about a simple way to save and restore directory stacks.
+<img src="/bil/jonny-caspari-A7ol2HfnycY-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="jonny-caspari-A7ol2HfnycY-unsplash" title="jonny-caspari-A7ol2HfnycY-unsplash"/>
 
 
 <a name="toc">Table of contents</a>
 -----------------------------------
 
-- [Overview](#overview)
+- [Introduction](#introduction)
 - [Saving](#saving)
 - [Restoring](#restoring)
 - [Closing remarks](#closing)
 
 
-<a name="overview">Overview</a>
--------------------------------
+<a name="introduction">Introduction</a>
+---------------------------------------
+
+Last time, I wrote about aliases and functions, and how to use them to enhance your command line
+experience. In this article, I will talk about a simple way to save and restore directory stacks.
 
 Every time I change directory through `cd`, I use `pushd` to save that directory on that directory
 stack. This enables me to go back to the previous directory, before I call `pushd`, with the use
