@@ -24,7 +24,7 @@ Milda Enkonduko al la Nix-Familio
 - [Nix](#nix)
   + [Signovicoj](#nixsignovicoj)
   + [Nombroj](#nixnombroj)
-  + [Buleaj](#nixbuleaj)
+  + [Buleaj valoroj](#nixbuleaj)
   + [Listoj](#nixlistoj)
   + [Aroj](#nixaroj)
   + [Dosierindikoj](#nixdosierindikoj)
@@ -93,7 +93,7 @@ kiu tenas ĉiomajn agordaĵojn kaj alĝustigilojn tenas en unu loko—`/etc/nixo
 tiu dosiero enhavas informon pri la dosiersistemo, uzantoj, servoj, retagordo, enigaparatoj, kernaj
 parametroj, kaj pli . Signifas, ke oni povas preni _configuration.nix_ de iu kaj havi ĝian ekzaktan
 sistemagordon! En NixOS oni ne plu bezonas ludi pri la tutsistemo por la agordo kiun oni deziras.
-Oni ne plu uzas porokazajn solvojn por precizigi deziratan agordan staton. Oni ne plu bezonas
+Oni ne plu uzas porokazajn solvojn por specifi deziratan agordan staton. Oni ne plu bezonas
 instali aldonan programaron por administri sistemagordon.
 
 NixOS ne konformiĝas al [FHS](https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard),
@@ -196,8 +196,8 @@ Redaktu la agorddosieron:
     # nano /mnt/etc/nixos/configuration.nix
 
 Por plifaciligi la procedon, oni povas uzi la malpligrandigitan version de
-[mia agorddosiero](https://github.com/ebzzry/dotfiles/blob/main/nixos/configuration.nix). Kaj
-sekve, anstataŭigu la valorojn laŭplaĉe. Haveblas ĉiom da agordaj alĝustigiloj [ĉi tie](https://nixos.org/nixos/options.html).
+[mia agorddosiero](https://github.com/ebzzry/dotfiles/blob/main/nixos/configuration.nix). Kaj sekve,
+anstataŭigu la valorojn laŭplaĉe. Haveblas ĉiom da agordaj alĝustigiloj [ĉi tie](https://nixos.org/nixos/options.html).
 
 ```nix
 { config, lib, pkgs, ... }:
@@ -297,55 +297,54 @@ sekve, anstataŭigu la valorojn laŭplaĉe. Haveblas ĉiom da agordaj alĝustigi
 }
 ```
 
-Se la `nixos-generate-config` paŝon ĉi-supre oni preterpasis, la antaŭproduktan dosieron kreu
+Se oni preterpasis la paŝon `nixos-generate-config` ĉi-supre, kreu la antaŭproduktan dosieron
 permane:
 
     # mkdir -p /mnt/etc/nixos
 
-La ĉi-supran dosieron oni povas konservi per:
+Oni povas konservi la ĉi-supran dosieron per:
 
     # curl -sSLo /mnt/etc/nixos/configuration.nix https://goo.gl/ZTQcGs
 
-Pli longa versio haveblas per:
+Haveblas pli longa versio per:
 
     # curl -sSLo /mnt/etc/nixos/configuration.nix https://goo.gl/K4P7l5
 
-La UUID-identigilon de la disko anstataŭigu per tiu, kiun oni havas. La komandon `blkid` uzu por
-la UUID-identigilojn akiru. Por la valoro de `networking.hostID` la jenan komandon uzu:
+Anstataŭigu la UUID-identigilon de la disko per tiu, kiun oni havas. Uzu La komandon `blkid` por
+akiri la UUID-identigilojn. Por la valoro de `networking.hostID` uzu la jenan komandon:
 
     # cksum /etc/machine-id | while read c rest; do printf "%x" $c; done
 
-La jenan la ĉi-supra agordo precizigas, inter aliaj aferoj:
+La ĉi-supra agordo precizigas la jenan, inter aliaj aferoj:
 
-- Uzanton `vakelo` kreas kun tuta _sudo_-aliro.
-- Je KDE5 uzas kiel la fenestrilo.
-- La sekurŝelon ŝaltas.
-- La LUKS-parametrojn precizigas.
+- Krei uzanton `vakelo` kun tuta _sudo_-kapablo;
+- Uzi KDE5 kiel la fenestrilo;
+- Ŝalti sekurŝelon; kaj
+- Specifi la LUKS-parametrojn.
 
-Je NixOS instalu al la disko:
+Instalu NixOS al la disko:
 
     # nixos-install
 
-Je `/etc/nixos/configuration.nix` ĉi tiu komando analizas, asekurante, ke ne
-estas eraroj. Ĉiomajn necesajn pakojn por kongrui al la specifo ĉi tiu komando
-elŝutos.
+Tio komando analizas `/etc/nixos/configuration.nix` , asekurante, ke ne estas eraroj. Tiu komando
+elŝutos ĉiom da necesaj pakojn por kongrui al la specifo .
 
-Post kiam la instalo finiĝis, la sistemon repraŝargu.
+Post kiam la instalo finiĝis, repraŝargu la sistemon:
 
     # reboot
 
 
 ### <a name="nixosagordajxo">Agordaĵo</a>
 
-Instalinte, la ekzistantan agordaĵon ĝisdatigi facilas. Ĉio kion oni devas fari estas la
-agorddosieron redakti tiam la sistemon rekunmetu:
+Instalinte, ĝisdatigi la ekzistantan agordaĵon facilas. Ĉio kion oni devas fari estas redakti la
+agorddosieron tiam rekunmetu la sistemon:
 
     # nano /etc/nixos/configuration.nix
     # nixos-rebuild switch
 
-Se okazis eraro, onin la sistemo avizos pri tio, anstataŭ pluigi per malĝusta agordo. Post kiam la
+Se okazis eraro, la sistemo sciigos onin pri tio, anstataŭ pluigi per malĝusta agordo. Post kiam la
 sistemo finfaris reŝargi, iru al la konzolo per <kbd>Ctrl+Alt+F1</kbd>, tiam ensalutu kiel `root`,
-tiam pasvorton por la uzanto kiun ni precizigis en `configuration.nix` agordu:
+tiam agordu pasvorton por la uzanto kiun ni specifis en `configuration.nix`:
 
     # passwd vakelo
 
@@ -355,24 +354,23 @@ Eliru de la ŝelo, tiam iru al la grafika fasado per <kbd>Alt+F7</kbd>, tiam ens
 <a name="nix">Nix</a>
 ---------------------
 
-La komponanto kiu la koron de NixOS kaj Nixpkgs fondas estas la [Nix](https://nixos.org/nix)-lingvo
-(niks). Ĝi estas deklarlingvo kreita por pakojn administri.
+La komponanto kiu la fondas koron de NixOS kaj Nixpkgs estas la [Nix](https://nixos.org/nix)-lingvo.
+Ĝi estas deklarlingvo kreita por administri pakojn.
 
-Por ke la lingvon oni facile povu kompreni, je nix-repl ni instalu:
+Por ke oni facile povu kompreni la lingvon, ni rulu `nix repl`:
 
-    $ nix-env -iA $(nix-channel --list | awk '{print $1}').nix-repl
+    $ nix repl
 
-Sekve, ĝin ni rulu. Oni salutiĝas per la versinombro, kaj la invito de nix-repl. Ĉi tiun
-artikolon skribante, la plej ĵusa stabila versinombro estas 1.11.8:
+Sekve, ni rulu ĝin. Oni salutiĝas per la versinombro, kaj la invito de nix-repl. Skribante ĉi tiun
+artikolon, la plej ĵusa stabila versinombro estas 2.4:
 
 ```nix
-$ nix-repl
-Welcome to Nix version 1.11.8. Type :? for help.
+Welcome to Nix 2.4. Type :? for help.
 
 nix-repl>
 ```
 
-Bazajn esprimojn ni elprovu.
+Ni elprovu bazajn esprimojn.
 
 
 ### <a name="nixsignovicoj">Signovicoj</a>
@@ -384,32 +382,32 @@ nix-repl> "hundo"
 "hundo"
 ```
 
-Por signovicojn kunmeti, la operacisimbolon `+` uzu:
+Por kunmeti signovicojn, uzu la operacisimbolon `+`:
 
 ```nix
 nix-repl> "hundo" + "kato"
 "hundokato"
 ```
 
-Alia maniero por signovicojn deklari, estas por du parojn de unuoblaj citiloj uzi. Ne konfuziĝu pri
-ĝi kontraŭ la duoblaj citiloj:
+Alia maniero por deklari signovicojn, estas por uzi du parojn de unuoblaj citiloj. Ne konfuziĝu pri
+ĝi kontraste de la duoblaj citiloj:
 
 ```nix
 nix-repl> ''hundo kato''
 "hundo kato"
 ```
 
-La avantaĝo de je `''` uzi anstataŭ je `"`, estas, la ĉeeston de `"` ene ĝi ĝi permesas:
+La avantaĝo de uzi `''` anstataŭ `"`, estas ĝi permesas la ĉeeston de `"` ene ĝi:
 
 ```nix
 nix-repl> ''"hundo" "kato"''
 "\"hundo\" \"kato\"\"
 ```
 
-La valoro kiun ĝi revenas estos ĝuste citita. Ĉi tio utilas poste kiam pli komplikajn esprimojn
-ni muntos.
+La valoro kiun ĝi revenas estos ĝuste citita. Ĉi tio utilas poste kiam ni muntos pli komplikajn
+esprimojn.
 
-Por signovicojn elreferenci ene signovicoj, la formon `${name}` uzu:
+Por elreferenci signovicojn ene signovicoj, uzu la formon `${name}`:
 
 ```nix
 nix-repl> x = "hundo"
@@ -442,17 +440,17 @@ nix-repl> 6/2
 /home/vakelo/6/2
 ```
 
-Ups! Tio ne estis, kion ni anticipis. Pro Nix estas desegnitaj kun dosieroj kaj dosierujoj en la
-kalkulo, specialan kazon ĝi kreis, ke kiam suprenstreko (/) signo estas ĉirkaŭitaj per nespacetaj
-signoj, ĝin ĝi interpretas kiel dosierujindiko, rezultonte al absolutdosierindiko. Por dividon fari
-efektive, almenaŭ unu spaceton antaŭ kaj post la `/` signo aldonu:
+Ho! Tio ne estis, kion ni anticipis. Pro tio ke Nix estas desegnitaj kun dosieroj kaj dosierujoj, ĝi
+kreis specialan kazon, ke kiam suprenstreko (/) signo estas ĉirkaŭitaj per nespacetaj signoj, ĝi
+interpretas ĝin kiel dosierujindiko, rezultonte al absolutdosierindiko. Por fari dividon efektive,
+aldonu almenaŭ unu spaceton antaŭ kaj post la `/` signo:
 
 ```nix
 nix-repl> 6 / 2
 3
 ```
 
-Parenteze, ne estas glitpunktaj en Nix. Do, se ĝin oni provas fari, oni akiras:
+Parenteze, ne estas glitpunktoj en Nix. Do, se oni provas uzi ilin, oni akiros:
 
 ```nix
 nix-repl> 1.0
@@ -460,7 +458,7 @@ error: syntax error, unexpected INT, expecting ID or OR_KW or DOLLAR_CURLY or '"
 '"'
 ```
 
-La operacion de `/` la funkcio `builtins.div` faras esence:
+La funkcio `builtins.div` faras la operacion de `/` esence:
 
 ```nix
 nix-repl> builtins.div 6 3
@@ -474,22 +472,21 @@ nix-repl> (builtins.div 6)
 «primop-app»
 ```
 
-Fermon de parte aplikita funkco ĉi tiu esprimo revenas. Alian valoron por ĝin tute apliki ni
-bezonas:
+Ĉi tiu esprimo revenas fermon de parte aplikita funkco. Ni bezonas alian valoron por tute apliki ĝin:
 
 ```nix
 nix-repl> (builtins.div 6) 3
 2
 ```
 
-La valoron de tiu parta esprimo ni eĉ povas konservi:
+Ni eĉ povas konservi la valoron de tiu parta esprimo :
 
 ```nix
 nix-repl> d = builtins.div 6
 ```
 
-La operacisimbolo `=` en Nix estas uzata por valorojn bindi. En ĉi tiu ekzemplo, ĝi estas uzita por
-partan aplikon difini. Por tiun funkcion uzi:
+La operacisimbolo `=` en Nix estas uzata por bindi valorojn. En ĉi tiu ekzemplo, ĝi estas uzita por
+difini partan aplikon. Por uzi tiun funkcion:
 
 ```nix
 nix-repl> d 3
@@ -497,7 +494,7 @@ nix-repl> d 3
 ```
 
 
-### <a name="nixbuleaj">Buleaj</a>
+### <a name="nixbuleaj">Buleaj valoroj</a>
 
 Vereco kaj malvereco estas reprezentitaj de `true` kaj `false`:
 
@@ -527,7 +524,7 @@ false
 
 ### <a name="nixlistoj">Listoj</a>
 
-Listoj estas heterogenaj tipoj por seriaj valoroj enteni. Eroj estas apartigitaj per spacetoj:
+Listoj estas heterogenaj tipoj por enteni seriajn valorojn. Eroj estas apartigitaj per spacetoj:
 
 ```nix
 nix-repl> [ 1 "hundo" true ]
@@ -541,14 +538,14 @@ nix-repl> [ 1 "hundo" true ] ++ [ false (6 / 2) ]
 [ 1 "hundo" true false 3 ]
 ```
 
-Por la kopon eltiri:
+Por eltiri la kopon:
 
 ```nix
 nix-repl> builtins.head ([ 1 "hundo" true (6 / 2) ] ++ [ false (6 / 2) ])
 1
 ```
 
-Por la voston eltiri:
+Por eltiri la voston:
 
 ```nix
 nix-repl> builtins.tail ([ 1 "hundo" true (6 / 2) ] ++ [ false (6 / 2) ])
@@ -556,8 +553,8 @@ nix-repl> builtins.tail ([ 1 "hundo" true (6 / 2) ] ++ [ false (6 / 2) ])
 ```
 
 Listoj estas indeksitaj komence de
-[0 (angle)](https://www.cs.utexas.edu/users/EWD/transcriptions/EWD08xx/EWD831.html). Por la 1-an eron
-akiri, la operatoron `builtins.elemAt` uzu:
+[0 (angle)](https://www.cs.utexas.edu/users/EWD/transcriptions/EWD08xx/EWD831.html). Por akiri la
+1-an eron, uzu la operatoron `builtins.elemAt`:
 
 ```nix
 nix-repl> builtins.elemAt [ 1 "hundo" true ] 1
@@ -575,8 +572,8 @@ nix-repl> { a = 0; b = "kato"; c = true; cx = (6 / 2); }
 { a = 0; b = "kato"; c = true; cx = 3; }
 ```
 
-Tio, kion arojn igas malsamaj kontraŭ listoj, estas, ke valorojn eltiri el ili estas faritaj per
-referencojn nomi. Por la valoron de `b` eltiri, la operacisimbolon `.` uzu:
+Tio, kio igas arojn malsamaj konstraste de listoj, estas, ke eltiri valorojn el ili estas faritaj per
+nomi referencojn. Por eltiri la valoron de `b`, uzu la operacisimbolon `.`:
 
 ```nix
 nix-repl> { a = 0; b = "kato"; c = true; cx = (6 / 2); }.b
@@ -590,7 +587,7 @@ nix-repl> { a = 0; b = "kato"; c = true; cx = (6 / 2); }."b"
 "kato"
 ```
 
-Por anon elreferenci el tiu sama aro, la ŝlosilvorton `rec` uzu:
+Por elreferenci anon el tiu sama aro, uzu la ŝlosilvorton `rec`:
 
 ```nix
 nix-repl> rec { a = 0; b = "kato"; c = true; cx = (6 / 2); d = b; }.d
@@ -600,17 +597,17 @@ nix-repl> rec { a = 0; b = "kato"; c = true; cx = (6 / 2); d = b; }.d
 
 ### <a name="nixdosierindikoj">Dosierindikoj</a>
 
-En Nix ĉiom da dosierindikoj estas tradukitaj al absolutdosierindikoj. Se referencon al dosiero en
-la aktuala dosierujo oni faras:
+En Nix ĉiom da dosierindikoj estas tradukitaj al absolutdosierindikoj. Se oni faras referencon al dosiero en
+la aktuala dosierujo:
 
 ```nix
 nix-repl> ./hundo
 /home/vakelo/hundo
 ```
 
-Fariĝas absolutdosierindiko. Ĉi tio estas Bonaĵo™.
+Fariĝas absolutdosierindiko. Ĉi tio estas Bonafero™.
 
-Simile, se referencon al relativdosierindiko oni faras ene absolutdosierindiko, ĝi ankoraŭ
+Simile, se oni faras referencon al relativdosierindiko ene absolutdosierindiko, ĝi ankoraŭ
 tradukiĝas al absolutdosierindiko.
 
 ```nix
@@ -631,8 +628,8 @@ error: syntax error, unexpected '.', at (string):1:1
 
 ### <a name="nixfunkcioj">Funkcioj</a>
 
-Ĉu eĉ ekzistas plezuro se ne estos verbojn por uzi kun ĉi tiuj substantivoj? Similecojn al aliaj
-lingvoj funkcioj en Nix kunhavas, ĝiajn unikajn trajtojn havante.
+Ĉu eĉ ekzistas plezuro se ne estos verboj por uzi kun ĉi tiuj substantivoj? Funkcioj en Nix kunhavas
+similecojn al aliaj lingvoj, havante ĝiajn unikajn trajtojn.
 
 Jen la bazformo de funkcio:
 
@@ -641,8 +638,8 @@ nix-repl> x: x
 «lambda»
 ```
 
-Sennoman funkcion kiu sian argumenton revenas ĉi tiu esprimo kreas—la
-[identa funkcio (angle)](https://en.wikipedia.org/wiki/Identity_function). La dupunkto post la unua
+Ĉi tiu esprimo kreas sennoman funkcion kiu revenas sian argumenton—la
+[identa funkcio (angle)](https://en.wikipedia.org/wiki/Identity_function). La dupunkto post la unua
 `x` montras, ke ĝi estas parametro al la funkcio, samkiel en
 [lambdokalkulo](/eo/lambdokalkulo/#funkcioj). Aldone, la nomoj ne gravas pro
 [alfa-ekvivalenteco](https://eo.wikipedia.org/wiki/Lambda-kalkulo#%CE%B1-konverto):
@@ -652,28 +649,28 @@ nix-repl> hundo-kato-muso: hundo-kato-muso
 «lambda»
 ```
 
-Ĉi tiuj funkcioj ne estas tre utilaj tial, ke ili ne estas kaptitaj por aplikado. Se ĝin oni volas
-uzi, ekzemple, kun la argumento `"hundo"`, ĝin ni bezonas ĉirkaŭkovri per rondkrampoj:
+Ĉi tiuj funkcioj ne estas tre utilaj tial, ke ili ne estas kaptitaj por aplikado. Se oni volas ĝin,
+ekzemple, kun la argumento `"hundo"`, ni bezonas ĉirkaŭkovri ĝin per rondkrampoj:
 
 ```nix
 nix-repl> (x: x) "hundo"
 "hundo"
 ```
 
-Por plian amuzon aldoni, tiun funkcion ni nomu:
+Por aldoni plian amuzon, ni nomu tiun funkcion:
 
 ```nix
 nix-repl> idento = x: x
 ```
 
-Bonege! Nun, ĝin ni apliku:
+Bonege! Nun, ni apliku ĝin:
 
 ```nix
 nix-repl> idento "hundo"
 "hundo"
 ```
 
-Funkcion kiu je `" ve"` postaldonas al sia enigo ni kreu, tiam ĝin ni apliku:
+Ni kreu funkcion kiu postaldonas `" ve"` al sia enigo, tiam ni apliku ĝin:
 
 ```nix
 nix-repl> ve = s: s + " ve"
@@ -682,7 +679,7 @@ nix-repl> ve "mi"
 "mi ve"
 ```
 
-Por funkcion krei kiu alian argumenton akceptas, la jenan formon ni uzu:
+Por krei funkcion kiu akceptas alian argumenton, ni uzu la jenan formon:
 
 ```nix
 nix-repl> ve = s: t: s + " ve " + t
@@ -691,27 +688,27 @@ nix-repl> ve "mi" "vi"
 "mi ve vi"
 ```
 
-La modelo, estas, ke por aldonan parametron aldoni, la formon `name: ` uzu.
+La modelo, estas, ke por aldoni aldonan parametron, uzu la formon `name: `.
 
-Aroj, kiam uzitaj kun funkcioj, pliajn potencajn abstraktadojn ŝaltas. Aron
-kiel argumento al funkcio ni povas doni, kiu la datumon ene tiu aro do uzos:
+Aroj, kiam uzitaj kun funkcioj, ŝaltas pliajn potencajn abstraktadojn. Ni povas doni aron kiel
+argumento al funkcio, kiu do uzos la datumon ene tiu aro:
 
 ```nix
 nix-repl> anaso = { a, b }: x: a + " " + b + x
 ```
 
-Du parametrojn ĉi tiu funkcio havas: `{ a, b }`—parametra specifo por aro kun du eroj, kaj
-`x`—kutima parametro. Memoru, ke parametra specifo ne estas veraro, sed nur maniero por
-la argumentojn kongrui; komon ĝi uzas kiel apartigilo de valoro. Ene ĉi tiu funkcio la enigojn ni
-povas kombini per la operacisimbolon `+`. Por ĉi tiun funkcion uzi, ĝin ni uzu jene:
+Ĉi tiu funkcio havas du parametrojn: `{ a, b }`—parametra specifo por aro kun du eroj, kaj
+`x`—kutima parametro. Memoru, ke parametra specifo ne estas veraro, sed nur maniero por kongrui la
+argumentojn; ĝi uzas komon kiel apartigilo de valoroj. Ene ĉi tiu funkcio la ni povas kombini
+enigojn per la operacisimbolon `+`. Por uzi ĉi tiun funkcion, ni uzu ĝin jene:
 
 ```nix
 nix-repl> anaso { a = "ve"; b = "mi"; } " anaso"
 "ve mi anaso"
 ```
 
-Kiam aron funkcio deklaras kiel sia parametro, la ŝlosilvortojn oni devas precizigi kiam la
-funkciojn kiu ilin uzas invoki. Tiukaze, la nomoj de sa ŝlosilvortoj estas `a` kaj `b`:
+Kiam funkcio deklaras aron kiel sia parametro, oni devas specifi la ŝlosilvortojn kiam invoki la
+funkciojn kiu uzas ilin. Tiukaze, la nomoj de sa ŝlosilvortoj estas `a` kaj `b`:
 
 La difino de `anaso` supre estas semantike simila al:
 
@@ -719,8 +716,8 @@ La difino de `anaso` supre estas semantike simila al:
 nix-repl> anaso = ve: x: ve.a + " " + ve.b + x
 ```
 
-Kutiman, ne-aran parametron ni uzis ĉi tie por ke ĝi povu referenci al la aro kiel valoro. Ĉi tion
-rimarku:
+Ni uzis kutiman, ne-aran parametron ĉi tie por ke ĝi povu referenci al la aro kiel valoro. Rimarku
+ĉi tion:
 
 ```nix
 nix-repl> ve = { a = "hundo"; b = "kato"; }
@@ -729,7 +726,7 @@ nix-repl> ve.a
 "hundo"
 ```
 
-Ankaŭ eblas por la implicitajn valorojn precizigi. Kiam parametro kun implicita valoro ne estas uzita,
+Ankaŭ eblas por specifi la implicitajn valorojn. Kiam parametro kun implicita valoro ne estas uzita,
 la implicita valoro estos uzita. Simile, en Komunlispo:
 
 ```lisp
@@ -754,8 +751,8 @@ nix-repl> birdo { a = "oro"; b = "argxento"; }
 "oroargxento"
 ```
 
-Por plian flekson aldoni, la uzon de pseŭdo-«rest» argumentoj Nix subtenas. La funkcion
-ĉi-supre ni modifu:
+Por aldoni plian flekson, Nix subtenasla uzon de pseŭdo-«rest» argumentoj. Ni modifu La funkcion
+ĉi-supre:
 
 ```nix
 nix-repl> birdo = { a, b, ...}: a + b
@@ -1038,7 +1035,7 @@ Por ĉiomajn haveblajn pakojn listigi, rulu:
 ### <a name="nixpkgsagordajxo">Agordaĵo</a>
 
 La dosiero `~/.nixpkgs/config.nix` estas Nix-esprimo, kiu estas legita per la Nix-komandoj. Ene,
-pakajn transpasojn oni povas precizigi—agordo kiu implicitajn agordojn uzurpas, kaj aliajn
+pakajn transpasojn oni povas specifi—agordo kiu implicitajn agordojn uzurpas, kaj aliajn
 alĝustigilojn, inkluzive, sed ne limigataj al, retumilaj kromprogramoj, grafikfasadoaj agordoj, SSL,
 ktp.
 
@@ -1067,7 +1064,7 @@ Malpligrandigitan version de mia `config.nix` ni rigardu:
 
 Ĉi tio estas funkcio, kiu atribuon akceptas kiel parametro, tiam alian atributaron liveras kiel
 liveraĵo. Mia _config.nix_ diras, ke je GTK mi ne volas havi por emakso. Por fajrfokso, mi
-precizigis, ke nur je JRE- kaj je Google Talk-kromprogramoj mi volas uzi. Laste, mi precizigas, ke
+specifis, ke nur je JRE- kaj je Google Talk-kromprogramoj mi volas uzi. Laste, mi precizigas, ke
 programaroj kiuj malfermitkodajn permesilojn ne havas, aŭ programoj kiu la liberprogramaran modelon
 ne havas, mi volas esti kapabla por instali
 

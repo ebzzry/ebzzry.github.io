@@ -887,3 +887,6 @@ tra la jaroj.
 
 
 - Ni estas registaro de la popolo, per la popolo, kaj por la popolo. Do la regeco emanas el la popolo. Se ni funkciigos nian regecon, ĉio devas esti farita per la popolo kaj tiuj kiuj voĉdonos kaj tiuj kiuj kalkulos devas esti la popolo.<br>—Edmundo CASIÑO
+
+
+- Vidu, se vi havas unu ŝancon, aŭ unu oportunon, por ekkapti en unu momento ĉion, kion vi ĉiam deziris havi, ĉu vi kaptos ĝin aŭ nur lasu ĝin forgliti?<br>—Marshall Bruce MATHERS III
