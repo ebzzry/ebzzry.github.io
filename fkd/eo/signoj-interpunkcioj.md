@@ -75,7 +75,7 @@ keycode 20 = bracketleft braceleft leftdoublequotemark
 keycode 21 = bracketright braceright rightdoublequotemark
 ```
 
-Tiam, plenumu la jenan komandon:
+Tiam, rulu la jenan komandon:
 
     xmodmap ~/.xmodmap
 

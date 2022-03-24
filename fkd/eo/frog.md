@@ -180,12 +180,12 @@ generacioj.
 Eĥoŝanĝo ĉiuĵaŭde
 ```
 
-Tiam, denove plenumu la jenan komandon:
+Tiam, denove rulu la jenan komandon:
 
     $ raco frog -bp
 
 Nun oni havas du afiŝojn, kiel montrate en la indekso. Por forigi la aŭtomate kreitan komencan
-afiŝon, kiu estas kreitaj per la komando `raco frog ‑‑init` antaŭe, plenumu:
+afiŝon, kiu estas kreitaj per la komando `raco frog ‑‑init` antaŭe, rulu:
 
     $ rm -f _src/posts/2012-01-01-a-2012-blog-post.md
 

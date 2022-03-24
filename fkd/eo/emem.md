@@ -69,7 +69,7 @@ La plej ĵusa versio estas `0.2.50`.
 <a name="uzado">Uzado</a>
 -------------------------
 
-Ĉe la plej baza nivelo, emem simple plenumiĝas kontraŭ markdaŭna dosiero, kaj liveras bazan, tamen plenan
+Ĉe la plej baza nivelo, emem simple ruliĝas kontraŭ markdaŭna dosiero, kaj liveras bazan, tamen plenan
 HTML-dosieron kun ĉiom da necesaj risurcoj por ĝusta paĝvido. Aplikante emem al
 dosiero nomita `LEGUMIN.md`:
 
@@ -86,7 +86,7 @@ LEGUMIN.html
 LEGUMIN.md
 ```
 
-Male, plenumi emem kiel jene:
+Male, ruli emem kiel jene:
 
     $ emem -s LEGUMIN.md
 
@@ -192,11 +192,11 @@ minutan tempolimon:
 
     $ emem -Rpc -t 1000 LEGUMIN.md
 
-Kutime mi plenumas emem jene:
+Kutime mi rulas emem jene:
 
     $ emem -Fis dosiero.md
 
-Fine, por vidi ĉiom da subtenitaj opcioj de emem, plenumu:
+Fine, por vidi ĉiom da subtenitaj opcioj de emem, rulu:
 
     $ emem --help
 

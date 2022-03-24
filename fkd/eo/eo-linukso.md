@@ -47,7 +47,7 @@ Tiam, je `~/.xmodmap` reŝarĝu:
 
     xmodmap ~/.xmodmap
 
-Se oni volas uzi la klavon <kbd>Pause</kbd>, plenumu `xev`:
+Se oni volas uzi la klavon <kbd>Pause</kbd>, rulu `xev`:
 
     xev
 
@@ -145,7 +145,7 @@ literon **Ŭ**, premu kaj tenu 🐧, tiam premu <kbd>Shift</kbd>, tiam premu <kb
 ĉi tiuj metodoj, eblas senokulmaŝinskribi.
 
 En kelkaj klavaroj, estas nur unu vindozo-klavo, kutime lokiĝas maldekstre, dum tiu dekstra klavo
-estas la klavo <kbd>PrtSc</kbd>. Multfoje ili estas sandviĉitaj inter la klavoj <kbd>Ctrl</kbd> kaj <kbd>Alt</kbd>. Por uzi tiun klavon, plenumu `xev` plenumu kiel ĉi-supre por akiri la klavkodon,
+estas la klavo <kbd>PrtSc</kbd>. Multfoje ili estas sandviĉitaj inter la klavoj <kbd>Ctrl</kbd> kaj <kbd>Alt</kbd>. Por uzi tiun klavon, rulu `xev` rulu kiel ĉi-supre por akiri la klavkodon,
     tiam ĝisdatigu `~/.xmodmap` laŭe.
 
 Per mia ThinkPad-komputilo, mi havas la jenan kodeton en `~/.xmodmap`:
@@ -163,12 +163,12 @@ keycode 107 = Mode‎ߺ‎switch
 -------------------------------------
 
 La resumitaj metodoj supre faras pli ol montri Esperanto-signojn. *Multi‎ߺ‎key* sistemo povas enigi
-pliartifikajn signojn kaj signojn. Por vidi la plenan liston de signoj, plenumu la jenan komandon se oni
+pliartifikajn signojn kaj signojn. Por vidi la plenan liston de signoj, rulu la jenan komandon se oni
 estas ĉe kutima linuksa sistemo:
 
     less /usr/share/x11/locale/en_US.UTF-8/Compose
 
-Se oni uzas Nix, plenumu:
+Se oni uzas Nix, rulu:
 
     less ~/.nix-profile/share/x11/locale/en_US.UTF-8/Compose
 

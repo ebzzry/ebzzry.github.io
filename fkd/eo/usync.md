@@ -41,7 +41,7 @@ Usync povas esti instali per Nixpkgs:
 
     $ nix-env -i usync
 
-Por certigi, ke usync fakte estis instalita, plenumu:
+Por certigi, ke usync fakte estis instalita, rulu:
 
     $ which usync
 
@@ -50,7 +50,7 @@ Por certigi, ke usync fakte estis instalita, plenumu:
 ---------------------------------
 
 Por fari ambaŭdirektan sinkronigon de la dosierujo `/pub/mis/dok`, inter la aktuala retnodo al la
-retnodoj `loko1` kaj `loko2`, konservante la dosierujan strukturon defore, plenumu la jenan
+retnodoj `loko1` kaj `loko2`, konservante la dosierujan strukturon defore, rulu la jenan
 komandon. Notu, ke ne devas ekzisti spacetoj inter la retnodaj precizigoj, pro la `IFS` media
 variablo de la ŝelo:
 
@@ -72,7 +72,7 @@ Ideale, la rezulto estas ke `localhost:/pub/mis/dok/`, `loko1:/pub/mis/ninam/`, 
 -------------------------------------------
 
 Estas ankaŭ eble fari sinkronigon de pluraj dosieroj kaj dosierujoj al mallokaj retnodoj. Por
-fari tiel, plenumu:
+fari tiel, rulu:
 
     $ usync /pub/mis/dok/ ~/file.txt ~rmm/*.txt loko1,loko2
 
@@ -80,12 +80,12 @@ La komando faros ambaŭdirektan sinkronigon de la dosierindikoj `/pub/mis/dok/`,
 `~rmm/*.txt` al la mallokaj retnodoj `loko1` kaj `loko2`, laŭ la sama dosieruja struktura sistemo
 kiu estas priskribita supre.
 
-Se oni volas fari unudirektan sinkronigon de la supraj, kiel _rsync_, plenumu:
+Se oni volas fari unudirektan sinkronigon de la supraj, kiel _rsync_, rulu:
 
     $ usync --one-way --prefer-local /pub/mis/dok/ \
     ~/file.txt ~rmm/draft.txt loko1,loko2
 
-Por vidi pli da informo, plenumu:
+Por vidi pli da informo, rulu:
 
     $ usync --help
 

@@ -40,7 +40,7 @@ kreitaj de aŭ [ljdump](http://hewgill.com/ljdump/) aŭ
 <a name="instalo">Instalo</a>
 -----------------------------
 
-Esti kapable por plenumi la programojn, unue oni devas instali Rakidon:
+Esti kapable por ruli la programojn, unue oni devas instali Rakidon:
 
 Per Nixpkgs:
 
@@ -146,7 +146,7 @@ Por krei tiel dosieron, nomata kiel `comments.xml`, kun `foo.bar.com` kiel la ra
 <a name="gxisdatigo">Ĝisdatigo</a>
 ----------------------------------
 
-Se oni instalis livefrog per Planet2, oni povas ĝisdatigi ĝin per plenumi:
+Se oni instalis livefrog per Planet2, oni povas ĝisdatigi ĝin per ruli:
 
     $ raco pkg update livefrog
 

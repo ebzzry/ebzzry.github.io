@@ -31,7 +31,7 @@ Plenaj tutaj sistemoj kaj bibliotekoj estas ĉiam komfortaj areoj por komunlispa
 uzantoj. Bedaŭrinde, de longe, ne ekzistis definitiva solvo en komunlispon uzi kiel skriptada
 lingvo. Skriptada lingvo, en ĉi tiu kunteksto, signifas pri iu, kiu similas anime al komandliniaj
 ŝeloj—tio estas, iu kiu estas uzita por sistemkomandojn administri kaj regi sur la apa nivelo. La
-signifo ankaŭ etendas al la aŭtomacioj de la plenumado de taskoj kiuj aliamaniere faritaj unu post
+signifo ankaŭ etendas al la aŭtomacioj de la rulo de taskoj kiuj aliamaniere faritaj unu post
 alia. En ĉi tiu artikolo, mallongan enkondukon pri kiel komunlispon uzi en la skriptada areo mi
 priparolos.
 
@@ -55,7 +55,7 @@ kaj afablajn aferojn mi povas fari kun tio. Neniu venas proksima al la flekso,
 kiun komunlispo provizas interagante kun realtempaj kurantaj programoj.
 
 En ĉi tiu mallonga gvidilo, alian belan aĵon pri komunlispa skriptado mi ankaŭ tuŝetas: multvokaj
-duumdosieroj. Multvoka duumdosiero estas sola plenumebla dosiero kiu povas esti elreferencita per
+duumdosieroj. Multvoka duumdosiero estas sola rulebla dosiero kiu povas esti elreferencita per
 pluraj nomoj. Ĉiu nomo kongruas al specifa proceduro ene tiu sola duumdosiero. La beleco de ĉi tiu
 aliro, estas, ke anstataŭ multajn malsamajn programojn administri, nur unu dosieron oni administras, kaj
 la ĝustan proceduron ĝi disdonos kiu uzanto deziras. Ĉi tio similas al kiun Busybox
@@ -211,7 +211,7 @@ kreas la opcio `‑‑system $(NAME)` ŝarĝas. La enirejo de nia programo la op
 
 ### <a name="kunmetado"></a>Kunmetado
 
-Ni nun pretas por la skripton kaj la simbolligilojn krei. Por tion fari, plenumu:
+Ni nun pretas por la skripton kaj la simbolligilojn krei. Por tion fari, rulu:
 
     $ mkdir -p ~/bin
     $ make install
@@ -229,7 +229,7 @@ $ tree ~/bin
 0 directories, 5 files
 ```
 
-Por kontroli, ke ĝi efektive funkcias, plenumu:
+Por kontroli, ke ĝi efektive funkcias, rulu:
 
     $ getuid
 
@@ -320,7 +320,7 @@ fari tial, ke nur la eligon al la alvoko de `BATTERY-STATUS` ni bezonas.
 Aliflanke, enrankopion per *scrot* la funkcio `SCREENSHOT` tenas tiam la absolutdosierindikon de la
 bildo ĝi disponebligas el la tondeja zono per *xclip*. La bibliotekojn `local-time` por la data
 signovico kaj biblioteko; kaj `optima`, por la ripetiĝa kongruado. Por la komandon `screenshot`
-ebligi, la duumdosierojn dependecojn instalu. La jenajn komandojn plenumu ĉe APT- kaj Nix-sistemoj,
+ebligi, la duumdosierojn dependecojn instalu. La jenajn komandojn rulu ĉe APT- kaj Nix-sistemoj,
 respektive:
 
     $ sudo apt-get install -y scrot xclip

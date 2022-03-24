@@ -50,7 +50,7 @@ Aliaj estas pli agresivaj kiel tutmondaj alinomoj, kiuj malvolvojn povas fari ie
 La ĉefenigujon kaj ĉefeligujon la unua tutmonda alinomo filtras al *egrep* kun kolorita eligo. La
 plej novan kutiman dosieron en la aktuala dosierujo la dua tutmonda alinomo revenas.
 
-Por ĉiomajn alinomojn montri, plenumu:
+Por ĉiomajn alinomojn montri, rulu:
 
     alias
 
@@ -65,7 +65,7 @@ funckiojn povas fari pli ol anstataŭigon. Ekzemple, en la jena alinomo:
     alias ve="echo hundo"
 
 tekstan anstataŭigon nur faras. Tio estas, kiam la tekston `hundo` ziŝo trafas kiel la unua ero de la
-komandlinio, ĝin ĝi anstataŭigas per `echo hundo`. Nenio plu. Do, plenumante jene:
+komandlinio, ĝin ĝi anstataŭigas per `echo hundo`. Nenio plu. Do, rulante jene:
 
     ve
 
@@ -78,7 +78,7 @@ La jenajn liniojn kontrastu:
     alias hundo0="for x in hundo kato muso; do echo $x; done"
     function hundo1 () { for x in hundo kato muso; do echo $x; done }
 
-La ŝlosilvorto `function` estas redunda kaj povas esti ellasita. Ilin plenumu kaj la resultojn rimarku:
+La ŝlosilvorto `function` estas redunda kaj povas esti ellasita. Ilin rulu kaj la resultojn rimarku:
 
     % hundo0
     % hundo1
@@ -88,21 +88,21 @@ Pli altan prioritaton alinomoj havas pli ol funkcioj. La jenajn liniojn konsider
     alias hundo="echo hundo"
     function hundo () { echo hundo, ankaux }
 
-La nomon `hundo` ambaŭ uzas, sed malsaman nomspacon ĉiu uzas. Kiam je `hundo` oni plenumas:
+La nomon `hundo` ambaŭ uzas, sed malsaman nomspacon ĉiu uzas. Kiam je `hundo` oni rulas:
 
     % hundo
     hundo
 
 Nur je `hundo` ĝi montras, anstataŭ je `hundo, too` eĉ ĉi tiu venas de pli nova difino. Por la alinomon
-`hundo` forigi, plenumu:
+`hundo` forigi, rulu:
 
     % unalias hundo
     % hundo
     hundo, too
 
-Tiel longe kiel eble, funkciojn plenumu:
+Tiel longe kiel eble, funkciojn rulu:
 
-Por ĉiomajn funkciojn montri, plenumu:
+Por ĉiomajn funkciojn montri, rulu:
 
     % functions
 

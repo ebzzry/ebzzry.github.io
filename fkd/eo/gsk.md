@@ -104,7 +104,7 @@ Metu la jenan kodaĵon:
     pinentry-program /usr/bin/pinentry-qt4
 
 Anstataŭigu la valoron de `pinentry-program` per la efektiva dosierindiko de pinentry ĉe la
-sistemo. Por precizigi la lokon de pinentry-o, plenumu:
+sistemo. Por precizigi la lokon de pinentry-o, rulu:
 
     $ which pinentry-qt4
 
@@ -127,7 +127,7 @@ killall gpg-agent
 eval `gpg-agent --enable-ssh-support --daemon`
 ```
 
-Faru ĝin plenumebla:
+Faru ĝin rulebla:
 
     $ chmod +x ~/.kde/env/01_gpg-agent.sh
 
@@ -144,7 +144,7 @@ Tiam metu la jenan kodaĵon:
 killall gpg-agent
 ```
 
-Ne forgesu fari ĝin plenumebla:
+Ne forgesu fari ĝin rulebla:
 
     $ chmod +x ~/.kde/shutdown/01_gpg-agent.sh
 

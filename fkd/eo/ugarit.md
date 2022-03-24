@@ -77,7 +77,7 @@ Post kiam ĉi tiu komando finiĝas, la komando `ugarit` fariĝos havebla. Por mo
 
 ### <a name="nixpkgs">Per Nixpkgs</a>
 
-Se oni uzas Nixpkgs, simple plenumu la jenan komandon:
+Se oni uzas Nixpkgs, simple rulu la jenan komandon:
 
     $ nix-env -i ugarit
 
@@ -88,7 +88,7 @@ Se oni uzas Nixpkgs, simple plenumu la jenan komandon:
 Ugarit ĉi-momente ne ankoraŭ utilas—oni bezonas precizigi kien ĝi devas enmemorigi la dosierkopiojn.
 Kreante dosierkopion de dosierujo kiu havas kelke da terajbato, estas ideale por enmemorigi la
 datumon ĉe rapida, fidebla, strestoleranta disko. Ne estas nekomune, ke la komando `ls` por sperti
-rimarkeblan malakcelon kiam ĝi estas plenumita ene datuma dosierujo. Ni supozu, ke `/dev/sdb1` estas
+rimarkeblan malakcelon kiam ĝi estas rulita ene datuma dosierujo. Ni supozu, ke `/dev/sdb1` estas
 granda dosiersistemo kaj oni volas surmeti ĝin al `/ugarit/`.
 
     $ sudo mkdir /ugarit
@@ -98,7 +98,7 @@ granda dosiersistemo kaj oni volas surmeti ĝin al `/ugarit/`.
 Alia egale grava bezono, kiun oni devas havi estas la agordosiero, kutime nomita `ugarit.conf`. Ĝi
 estas disponigita kiel parto de la bezonataj komandliniaj argumentoj. Memoru, ke kie ĉi tiu dosiero
 ne loĝas en fiksita loko, kontraste kun iuj programoj kiuj serĉas agorddosieron dum la startigo.
-Antaŭ oni fakte kreas tiun dosieron, oni devas plenumi iujn komandojn. Konservu la eligojn de ĉi tiuj
+Antaŭ oni fakte kreas tiun dosieron, oni devas ruli iujn komandojn. Konservu la eligojn de ĉi tiuj
 komandoj ĉar oni bezonos ilin poste.
 
 Krei salon por la haketfunkcio:
@@ -113,7 +113,7 @@ Krei ŝlosilon por la kripto:
     | od -An -tx1 \
     | tr -d ' \t\n'
 
-Tiujn komandojn plenuminte, oni kreos la agorddosieron `ugarit.conf`. Por fari ĝin akorde kun la
+Tiujn komandojn rulinte, oni kreos la agorddosieron `ugarit.conf`. Por fari ĝin akorde kun la
 supra ekzamplo, oni konservos ĝin ene `/ugarit`:
 
     $ emacs /ugarit/ugarit.conf
@@ -139,13 +139,13 @@ Konservu la dosieron, tiam sekurigu ĝin.
 
 ### <a name="krei"></a>Krei dosierkopiojn
 
-Por krei dosierkopiojn, plenumu:
+Por krei dosierkopiojn, rulu:
 
     $ ugarit snapshot /ugarit/ugarit.conf ETIKEDO DOSIERUJO
 
 _ETIKEDO_ estas nomo kiun oni bezonas por identigi la dosierkopion poste, kaj _DOSIERUJO_ estas la
 dosiersistema arbo, kiun oni volas krei dosierkopion de. Ekzemple, por krei dosierkopion de la
-dosierujo `bildoj/`, kun la etikedo `bil`, plenumu Ugarit jene:
+dosierujo `bildoj/`, kun la etikedo `bil`, rulu Ugarit jene:
 
     $ ugarit snapshot /ugarit/ugarit.conf bil bildoj
 
@@ -164,7 +164,7 @@ File cache has saved us 1 file hashings / 638104 bytes (before compression)
 
 ### <a name="esplori">Esplori dosierkopiojn</a>
 
-Por interage administri la enhavojn de la kripto, plenumu:
+Por interage administri la enhavojn de la kripto, rulu:
 
     $ ugarit explore /ugarit/ugarit.conf
 
@@ -174,7 +174,7 @@ Por listigi la haveblajn komandojn:
 
 Per la konsiletoj el la helpa uzado, oni eltiros dosierujon kiu estas parto de la dosierkopio
 antaŭe. Ni supozu, ke la originala vojo de tiu dosierujo estis `bildoj/festo/`. Do, por eltiri la
-dosierujon `festo/` el la aktuala dosierujo, plenumu:
+dosierujon `festo/` el la aktuala dosierujo, rulu:
 
 ```
 > cd bil
@@ -189,8 +189,8 @@ Extracted festo
 ### <a name="eltiri">Rekte eltiri dosierkopiojn</a>
 
 Tamen, se oni konas la ekzaktan dosierindikon de dosiero aŭ dosierujon kiun onivolas eltiri, oni
-anstataŭ povas plenumi Ugarit kun la eltira reĝimo. Por eltiri la dosierujon `festo/` el supre,
-rekte, plenumu:
+anstataŭ povas ruli Ugarit kun la eltira reĝimo. Por eltiri la dosierujon `festo/` el supre,
+rekte, rulu:
 
     $ ugarit extract /ugarit/ugarit.conf /bil/current/contents/festo
 
@@ -232,7 +232,7 @@ Por ŝalti tre babileman eligon:
 -------------------------------------
 
 Kiam oni ne fidas je la funkciado de la disko kie oni enmemorigas la dosierkopiojn, malŝalti la
-locate- kaj updatedb-servojn. Kutime ĝi estas plenumita per cron. Bedaŭrinde, ĝi metas multe da
+locate- kaj updatedb-servojn. Kutime ĝi estas rulita per cron. Bedaŭrinde, ĝi metas multe da
 ŝarĝo al la disko kaj eble trostresi ĝin. La sperto povas varii.
 
 Por malŝalti tiujn servojn ĉe NixOS, aldonu la jenan al `/etc/nixos/configuration.nix`:

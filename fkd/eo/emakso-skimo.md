@@ -2,7 +2,7 @@ Agordi Skimprogramadon en Emakso
 ================================
 
 <div class="center">Esperanto ■ [English](/en/emacs-scheme/)</div>
-<div class="center">Laste ĝisdatigita: la 16-an de Marto 2022</div>
+<div class="center">Laste ĝisdatigita: la 24-an de Marto 2022</div>
 
 >Ĉiom da bonaj ideoj ne kuŝas sub unu ĉapelo.<br>
 >―Dale TURNER
@@ -44,7 +44,7 @@ por redakti skimkodon tial, ke mi ne konas ian ajn redaktilon kiu tiel bonfartas
 <a name="instalo">Instalo</a>
 -----------------------------
 
-Per [ELPA](https://www.emacswiki.org/emacs/ELPA), instali Geiser facilas. Simple plenumi la jenan
+Per [ELPA](https://www.emacswiki.org/emacs/ELPA), instali Geiser facilas. Simple rulu la jenan
 komandon
 
     M-x package-install EN geiser EN
@@ -63,7 +63,7 @@ metos la efektivan kodon, kiu envokas kaj agordas Geiser:
 ```
 
 La unuesprimo ŝargas Geiser mem. La duesprimo precizigas, ke ĝi ne invitos la uzanton por la
-aliaj realigoj, se ĝi trovas ilin. La lastesprimo malnepras—ebligas onin por plenumi
+aliaj realigoj, se ĝi trovas ilin. La lastesprimo malnepras—ebligas onin por ruli
 
     M-x geiser-save EN
 
