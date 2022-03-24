@@ -14,11 +14,11 @@ function ds &#40;&#41; { dirs -l $@ }
 /etc/nixos
 % ds -v
 0       /etc/nixos
-1       /home/ebzzry/Downloads</code></pre><h2><a name="konservi">Konservi</a></h2><p>Onin dosierujstakoj permesas por movi tra la arboj kiujn ni nune prilaboras. Puŝi al la dosierujstakoj onin permesas por dosierujon <em>viziti</em>, en kiu, agojn ni faros tie, tiam iri reen al la lasta per elstakigado facile.</p><p>Bedaŭrinde, se novan ŝelon mi kreas, la stakon mi perdas. Je <code>exec</code> mi uzas por la ziŝan seancon reŝarĝi, certigante, ke miaj agorddosieroj estas ŝarĝitaj freŝe.</p><pre><code>% exec zsh</code></pre><p>Tion farante, la stakon kiun mi konstruis mi perdas. Por tion solvi, funkcion kiu la dosierujstakon de la aktuala seanco konservas, mi havas.</p><pre><code class="bash">function z! &#40;&#41; {
+1       /home/ebzzry/Downloads</code></pre><h2><a name="konservi">Konservi</a></h2><p>Onin dosierujstakoj permesas por movi tra la arboj kiujn ni nune prilaboras. Puŝi al la dosierujstakoj onin permesas por dosierujon <em>viziti</em>, en kiu, agojn ni faros tie, tiam iri reen al la lasta per elstakigado facile.</p><p>Bedaŭrinde, se novan ŝelon mi kreas, la stakon mi perdas. Je <code>exec</code> mi uzas por la ziŝan seancon reŝargi, certigante, ke miaj agorddosieroj estas ŝargitaj freŝe.</p><pre><code>% exec zsh</code></pre><p>Tion farante, la stakon kiun mi konstruis mi perdas. Por tion solvi, funkcion kiu la dosierujstakon de la aktuala seanco konservas, mi havas.</p><pre><code class="bash">function z! &#40;&#41; {
   dirs -lv | awk -F '\t' '{print $2}' | tac &gt;! $HOME/.z
   exec zsh
 }
-</code></pre><p>Je <code>z!</code> kurante, la enhavon de la aktuala stako konservas, kaj la ŝelon reŝarĝas:</p><pre><code>% pwd
+</code></pre><p>Je <code>z!</code> kurante, la enhavon de la aktuala stako konservas, kaj la ŝelon reŝargas:</p><pre><code>% pwd
 /home/ebzzry
 % d /etc/nixos
 % d &#126;/Downloads

@@ -101,12 +101,13 @@ configuration state. You don’t need to install additional software to manage s
 
 NixOS does not follow the [FHS](https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard),
 effectively preventing additional brain damage. This gives room for a lot of flexibility and
-ingenuity. It does not have `/usr/` and `/opt/`. It does have `/bin/` and `/usr/bin/`, which contains only `sh` and `env`, respectively—both of which are actually symlinks to the real programs
+ingenuity. It does not have `/usr/` and `/opt/`. It does have `/bin/` and `/usr/bin/`, which
+contains only `sh` and `env`, respectively—both of which are actually symlinks to the real programs
 somewhere in `/nix/store/`. The top-level location for system binaries—the ones installed explicitly
 by the administrator—are located in `/run/current-system/sw/bin/` and
-`/run/current-system/sw/sbin/`.  User-installed programs, on the other hand, are available at their
-respective m`~/.nix-profile/bin/`. These locations cannot be modified through normal means; dedicated
-programs must be used to write to these trees.
+`/run/current-system/sw/sbin/`. User-installed programs, on the other hand, are available at their
+respective m`~/.nix-profile/bin/`. These locations cannot be modified through normal means;
+dedicated programs must be used to write to these trees.
 
 
 ### <a name="nixosinstallation">Installation</a>

@@ -70,7 +70,7 @@ dosierujstakoj onin permesas por dosierujon *viziti*, en kiu, agojn ni faros tie
 la lasta per elstakigado facile.
 
 Bedaŭrinde, se novan ŝelon mi kreas, la stakon mi perdas. Je `exec` mi uzas por la ziŝan seancon
-reŝarĝi, certigante, ke miaj agorddosieroj estas ŝarĝitaj freŝe.
+reŝargi, certigante, ke miaj agorddosieroj estas ŝargitaj freŝe.
 
     % exec zsh
 
@@ -84,7 +84,7 @@ function z! () {
 }
 ```
 
-Je `z!` kurante, la enhavon de la aktuala stako konservas, kaj la ŝelon reŝarĝas:
+Je `z!` kurante, la enhavon de la aktuala stako konservas, kaj la ŝelon reŝargas:
 
     % pwd
     /home/ebzzry

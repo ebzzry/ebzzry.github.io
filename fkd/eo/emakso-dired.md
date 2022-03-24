@@ -98,7 +98,7 @@ la jenaj komandoj agas laŭ ili mem. Ili operacias sur solaj eroj kaj ili ne uza
 | <kbd>&#94;</kbd>              | Iru supren, per unu nivelo, kiel `cd ..`                           |
 | <kbd>e</kbd> aŭ <kbd>f</kbd>  | Redaktu eron                                                       |
 | <kbd>v</kbd>                  | Vidu eron, kiel `less`                                             |
-| <kbd>g</kbd>                  | Reŝarĝu la aktualan dosierujon                                     |
+| <kbd>g</kbd>                  | Reŝargu la aktualan dosierujon                                     |
 | <kbd>j</kbd>                  | Saltu al ero                                                       |
 | <kbd>s</kbd>                  | Ŝanĝu ordigan ordon                                                |
 | <kbd>y</kbd>                  | Montru dosiertipon de ero, kiel `file`                             |

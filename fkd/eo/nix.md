@@ -87,34 +87,34 @@ rompigis ĝin? Kiom da fojoj, pro ĉagrenego, oni rezignis pri la riparado de la
 decidis por reinstali la sistemon de nulo. Facilas restaŭri datumdosierojn. Restaŭri sistemagordon
 de la lasta funkcia stato, bedaŭrinde, estas unudirekta bileto al geheno.
 
-[NixOS](https://nixos.org) (niks-oŭ-es) estas linuksa distribuo kiu ĉi tiajn problemojn solvas per
-la determinismon de [Nix](https://nixos.org/nix) ekspluati kaj per unu deklaran agorddosieron uzi
-kiu ĉiomajn agordaĵojn kaj alĝustigiloj tenas en unu loko—`/etc/nixos/configuration.nix`. Informon
-pri la dosiersistemo, uzantoj, servoj, retagordo, enigaparatoj, kernaj parametroj, kaj pli ĉi tiu
-dosiero enhavas. Signifas, ke je _configuration.nix_ de iu oni povas preni kaj ĝian ekzaktan
-sistemagordon havu! En NixOS oni ne plu bezonas ludadi pri la tutsistemo por la agordo kiun oni
-deziras. Porokazajn solvojn oni ne plu uzas por deziratan agordan staton precizigi. Aldonan
-programaron oni ne plu bezonas instali por sistemagordon administri.
+[NixOS](https://nixos.org) (niks-oh-es) estas linuksa distribuo kiu solvas ĉi tiajn problemojn per
+ekspluati la determinismon de [Nix](https://nixos.org/nix) kaj per uzi unu deklaran agorddosieron
+kiu tenas ĉiomajn agordaĵojn kaj alĝustigilojn tenas en unu loko—`/etc/nixos/configuration.nix`. Ĉi
+tiu dosiero enhavas informon pri la dosiersistemo, uzantoj, servoj, retagordo, enigaparatoj, kernaj
+parametroj, kaj pli . Signifas, ke oni povas preni _configuration.nix_ de iu kaj havi ĝian ekzaktan
+sistemagordon! En NixOS oni ne plu bezonas ludi pri la tutsistemo por la agordo kiun oni deziras.
+Oni ne plu uzas porokazajn solvojn por precizigi deziratan agordan staton. Oni ne plu bezonas
+instali aldonan programaron por administri sistemagordon.
 
-NixOS ne konformiĝas al [FHS](https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard) aldonan
-cerban damaĝon efektive malebligi—spacon donanta por multe da flekso kaj eltrovemo. Je `/usr/` kaj
-`/opt/` ĝi ne havas. Tamen, je `/bin/` kaj je `/usr/bin/` ĝi havas, kiu nur je `sh` kaj `env` havas
-respektive—ambaŭ fakte estas simbolligiloj al la realaj programoj kiuj loĝas ie en `/nix/store/`. La
-supra loko por sistemprogramoj—tiuj, kiuj estas instalitaj specife de la sistemestro—estas
-lokitaj en `/run/current-system/sw/bin/` kaj `/run/current-system/sw/sbin/`. Uzantinstalitaj
-programoj, aliflanke, troveblas en siaj respektivaj `~/.nix-profile/bin/`-lokoj. Ĉi tiuj lokoj ne
-povas ŝanĝiĝi per kutimaj manieroj; dediĉitaj programoj devas esti uzataj por skribi al ĉi tiuj
-arboj.
+NixOS ne konformiĝas al [FHS](https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard),
+malebligante aldonan cerban damaĝon efektive. Tio donas al mi spacon por multe da flekso kaj
+eltrovemo. Ĝi ne havas `/usr/` kaj `/opt/`. Tamen, ĝi havas`/bin/` kaj je `/usr/bin/`, kiuj havas
+nur `sh` kaj `env` respektive—ambaŭ fakte estas simbolligiloj al la realaj programoj kiuj loĝas ie
+en `/nix/store/`. La supra loko por sistemprogramoj—tiuj, kiuj estas instalitaj specife de la
+sistemestro—lokiĝas en `/run/current-system/sw/bin/` kaj `/run/current-system/sw/sbin/`.
+Uzantinstalitaj programoj, aliflanke, troveblas en siaj respektivaj `~/.nix-profile/bin/`-lokoj. Ĉi
+tiuj lokoj ne povas ŝanĝiĝi per kutimaj manieroj; dediĉitaj programoj devas esti uzataj por skribi
+al ĉi tiuj arboj.
 
 
 ### <a name="nixosinstalo">Instalo</a>
 
-Simplas instalo de NixOS. Por «nudmetalaj» sistemoj, instalilon de
-[nixos.org/nixos/download.html](https://nixos.org/nixos/download.html) elŝutu. Virtualmaŝinaj
-diskbildoj ankaŭ haveblas de tiu paĝo. En mia lasta instalo, mi instalis per la jena agordo:
+Instalo de NixOS simplas. Por «nudmetalaj» sistemoj, elŝutu la instalilon el
+[nixos.org/nixos/download.html](https://nixos.org/nixos/download.html). Virtualmaŝinaj diskbildoj
+ankaŭ haveblas de tiu paĝo. De mia lasta instalo, mi instalis per la jena agordo:
 
 - [UEFI](https://en.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface)
-- USB-praŝarĝo
+- USB-praŝargo
 - Vifia konekto
 - [GUID-subdiska tabelo (GPT)](https://en.wikipedia.org/wiki/GUID_Partition_Table)
 - [LUKS](https://en.wikipedia.org/wiki/Linux_Unified_Key_Setup) super [LVM](https://en.wikipedia.org/wiki/Logical_volume_management)
@@ -122,7 +122,7 @@ diskbildoj ankaŭ haveblas de tiu paĝo. En mia lasta instalo, mi instalis per l
 
 #### <a name="nixossxalti">La maŝinon ŝalti</a>
 
-Praŝarĝu per la USB-poŝmemorilo en UEFI-reĝimo. Ĉe la ensaluta invito, ensalutu kiel `root`.
+Praŝargu per la USB-poŝmemorilo en UEFI-reĝimo. Ĉe la ensaluta invito, ensalutu kiel `root`.
 
 
 #### <a name="nixosreto">La reton agordi</a>
@@ -331,7 +331,7 @@ Je `/etc/nixos/configuration.nix` ĉi tiu komando analizas, asekurante, ke ne
 estas eraroj. Ĉiomajn necesajn pakojn por kongrui al la specifo ĉi tiu komando
 elŝutos.
 
-Post kiam la instalo finiĝis, la sistemon repraŝarĝu.
+Post kiam la instalo finiĝis, la sistemon repraŝargu.
 
     # reboot
 
@@ -345,7 +345,7 @@ agorddosieron redakti tiam la sistemon rekunmetu:
     # nixos-rebuild switch
 
 Se okazis eraro, onin la sistemo avizos pri tio, anstataŭ pluigi per malĝusta agordo. Post kiam la
-sistemo finfaris reŝarĝi, iru al la konzolo per <kbd>Ctrl+Alt+F1</kbd>, tiam ensalutu kiel `root`,
+sistemo finfaris reŝargi, iru al la konzolo per <kbd>Ctrl+Alt+F1</kbd>, tiam ensalutu kiel `root`,
 tiam pasvorton por la uzanto kiun ni precizigis en `configuration.nix` agordu:
 
     # passwd vakelo
@@ -1436,7 +1436,7 @@ dosierindiko de *GNU Hello*, la ceteraj estas la minimumaj komponantoj de nix-sh
 sektoraro nomiĝas *stdenv*.
 
 La dosierojn `shell.nix` aŭ `default.nix` nix-shell serĉas, en tiu ordo, en la aktuala dosierujo dum
-startigo, por la difinojn elŝarĝi. Ĝin ni kreu, ĝin konservante kiel `default.nix`:
+startigo, por la difinojn elŝargi. Ĝin ni kreu, ĝin konservante kiel `default.nix`:
 
 ```nix
 { pkgs ? import <nixpkgs> {} }:

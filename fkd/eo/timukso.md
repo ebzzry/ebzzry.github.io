@@ -16,7 +16,7 @@ Kiel Mi Uzas Timukson
 - [Ĝeneralaĵoj](#gxeneralajxoj)
   + [Indeksoj](#indeksoj)
   + [Klientoj](#klientoj)
-  + [La agordon reŝarĝi](#resxargxi)
+  + [La agordon reŝargi](#resxargxi)
 - [Fenestroj](#fenestroj)
   + [Movado](#fenestrojmovado)
   + [Regado](#fenestrojregado)
@@ -90,7 +90,7 @@ arbelektilo. Plurajn panelojn la klavkombino <kbd>C-z @</kbd> permesas por la sa
 ricevi. Ĉi tio tre utilas kiam forajn konektojn problemsolvi samtempe.
 
 
-### <a name="resxargxi">La agordon reŝarĝi</a>
+### <a name="resxargxi">La agordon reŝargi</a>
 
 ```
 bind . source-file ~/.tmux.conf
@@ -283,7 +283,7 @@ kromprograma administrilo mem al tondeja regado. Jen la resumo.
 
     set -g @plugin 'tmux-plugins/tpm'
 
-la krompragraman administrilon mem ŝarĝas.
+la krompragraman administrilon mem ŝargas.
 
     set -g @plugin 'tmux-plugins/tmux-resurrect'
 
@@ -304,7 +304,7 @@ al la tondejo.
     set -g @continuum-restore 'on'
     run '~/.tmux/plugins/tpm/tpm'
 
-La konservitajn seancojn ĉi tio ŝarĝas dum la startigo kaj la kromprograman administrilon ŝarĝas.
+La konservitajn seancojn ĉi tio ŝargas dum la startigo kaj la kromprograman administrilon ŝargas.
 
 Por ĉiomajn kromprogramojn instali, je <kbd>C-z I</kbd> premu.
 
