@@ -217,6 +217,6 @@ I even use it for my personal and work documentation. I also use it with Emacs t
 previews of Markdown buffers using
 [shell-command](https://www.gnu.org/software/emacs/manual/html_node/elisp/Synchronous-Processes.html)
 and [emacs-w3m](https://www.emacswiki.org/emacs/emacs-w3m). To see emem in actual usage, go
-[here](https://github.com/ebzzry/ebzzry.github.io/blob/master/makefile).
+[here](https://github.com/ebzzry/ebzzry.github.io/blob/main/makefile).
 
 If you know a bit of Clojure, [fork it](https://github.com/ebzzry/emem/) and hack away!

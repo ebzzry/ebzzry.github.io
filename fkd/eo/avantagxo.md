@@ -81,7 +81,7 @@ maldekstre. La sinsekvo por aliri ĝin estas listigita ĉe la fino de la afiŝo.
 
 Mi bindis tiujn, kiuj estis antaŭe <kbd>Ctrl</kbd>-klavoj al <kbd>KP Home</kbd> kaj
 <kbd>KP End</kbd> por ke mi povu mapi ilin al <kbd>ModeߺSwitch</kbd> en mia
-[~/.xmodmap](https://github.com/ebzzry/dotfiles/blob/master/xmodmap/advantage.dv.xmap)-dosiero. Vidu
+[~/.xmodmap](https://github.com/ebzzry/dotfiles/blob/main/xmodmap/advantage.dv.xmap)-dosiero. Vidu
 miajn [notojn](#notojn) ĉi-sube kial mi aldonis alian malrektigadan nivelon.
 
 
@@ -131,7 +131,7 @@ estas la fontoi. Tiam, la sekva klavo estas la celo.
 Tiam premu <kbd>Progrm + F12</kbd> denove, por eliri la remapagadan reĝimon. La klavo <kbd>KP
 Enter</kbd> moviĝis al la maldekstra <kbd>Alt</kbd> por ke ĝin mi povu facile uzi kiel «Compose»
 klavo en X. Mia
-[~/.xmodmap](https://github.com/ebzzry/dotfiles/blob/master/xmodmap/advantage.dv.xmap)-dosiero
+[~/.xmodmap](https://github.com/ebzzry/dotfiles/blob/main/xmodmap/advantage.dv.xmap)-dosiero
 enhavas la jenan kodeton:
 
 ```
