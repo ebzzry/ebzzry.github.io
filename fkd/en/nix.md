@@ -136,7 +136,7 @@ Scan for available networks:
 
 Then, connect to the router of choice:
 
-    # nmcli d wifi con Foobarbaz name Foo password supersecretkey
+    # nmcli d wifi con ROUTER name NAME password PASSWORD
 
 
 #### <a name="nixosdisks">Prepare disks</a>
@@ -199,7 +199,7 @@ Edit the config file:
     # nano /mnt/etc/nixos/configuration.nix
 
 To give you a headstart, you may use a trimmed-down version
-of [my configuration](https://github.com/ebzzry/dotfiles/blob/master/nixos/configuration.nix),
+of [my configuration](https://github.com/ebzzry/dotfiles/blob/main/nixos/configuration.nix),
 as follows. Replace the values as it suits you. All available configuration knobs are
 available [here](https://nixos.org/nixos/options.html).
 

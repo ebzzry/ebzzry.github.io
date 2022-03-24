@@ -217,6 +217,6 @@ Mi feliĉas pri la eligo kiun emem liveras. emem estas sufiĉe rapida kaj mi pov
 Mi eĉ uzas ĝin por miaj propraj kaj postenaj dokumentadoj. Mi ankaŭ uzas ĝin per emakso por krei
 TTT-versiojn de markdaŭnaj bufroj per
 [shell-command](https://www.gnu.org/software/emacs/manual/html_node/elisp/Synchronous-Processes.html)
-kaj [emacs-w3m](https://www.emacswiki.org/emacs/emacs-w3m). Por vidi emem en efektiva uzado, iru [ĉi tien](https://github.com/ebzzry/ebzzry.github.io/blob/master/makefile).
+kaj [emacs-w3m](https://www.emacswiki.org/emacs/emacs-w3m). Por vidi emem en efektiva uzado, iru [ĉi tien](https://github.com/ebzzry/ebzzry.github.io/blob/main/makefile).
 
 Se oni konas iom da Kloĵuro, forku [ĝin](https://github.com/ebzzry/emem/) kaj kodumu!

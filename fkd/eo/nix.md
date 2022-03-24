@@ -127,78 +127,77 @@ Praŝargu per la USB-poŝmemorilo en UEFI-reĝimo. Ĉe la ensaluta invito, ensal
 
 #### <a name="nixosreto">La reton agordi</a>
 
-Haveblajn retojn skanu:
+Skanu haveblajn retojn:
 
     # nmcli d wifi list
 
 Tiam, konektu al la preferata enkursigilo:
 
-    # nmcli d wifi con PLDT name hejmo password sekreto
+    # nmcli d wifi con ENKURSIGILO name NOMO password PASVORTO
 
 
 #### <a name="nixosdiskoj">La diskojn pretigi</a>
 
-La subdiskojn kreu:
+Kreu la subdiskojn:
 
     # gdisk /dev/sda
     sda1: EF00 (EFI system), 512 MiB
     sda2: 8E00 (Linux LVM), ceteraj
 
-Je `/dev/sda1` strukturu:
+Strukturu `/dev/sda1`:
 
     # mkfs.vfat -F 32 /dev/sda1
 
-La fizikan volumon kreu:
+Kreu la fizikan volumon:
 
     # pvcreate /dev/sda2
 
-La voluman grupon kreu:
+Kreu la voluman grupon:
 
     # vgcreate vg /dev/sda2
 
-La logikajn volumojn kreu:
+Kreu la logikajn volumojn:
 
     # lvcreate -L 20G -n swap vg
     # lvcreate -l 100%FREE -n root vg
 
-La radikon ĉifru:
+Ĉifru la radikon:
 
     # cryptsetup luksFormat /dev/vg/root
     # cryptsetup luksOpen /dev/vg/root root
 
-La radikon strukturu:
+Strukturu la radikon:
 
     # mkfs.ext4 -j -L root /dev/mapper/root
 
-La permutodosieron strukturu:
+Strukturu la permutodosieron:
 
     # mkswap -L swap /dev/vg/swap
 
-La dosiersistemojn surmetu:
+Surmetu la dosiersistemojn:
 
     # mount /dev/mapper/root /mnt
     # mkdir /mnt/boot
     # mount /dev/sda1 /mnt/boot
 
-La permutodosieron ŝaltu:
+Ŝaltu la permutodosieron:
 
     # swapon /dev/vg/swap
 
 
 #### <a name="nixosinstali">Instali al disko</a>
 
-La bazagorddosieron kreu:
+Kreu la bazagorddosieron:
 
     # nixos-generate-config --root /mnt
 
-La agorddosieron redaktu:
+Redaktu la agorddosieron:
 
     # nano /mnt/etc/nixos/configuration.nix
 
-Por la procedon plifaciligi, malpligrandigitan version de
-[mia agorddosiero](https://github.com/ebzzry/dotfiles/blob/master/nixos/configuration.nix) oni povas
-uzi, kaj sekve. La valorojn anstataŭigu laŭ oni preferas. Ĉiom da agordaj alĝustigiloj haveblas
-[ĉi tie](https://nixos.org/nixos/options.html).
+Por plifaciligi la procedon, oni povas uzi la malpligrandigitan version de
+[mia agorddosiero](https://github.com/ebzzry/dotfiles/blob/main/nixos/configuration.nix). Kaj
+sekve, anstataŭigu la valorojn laŭplaĉe. Haveblas ĉiom da agordaj alĝustigiloj [ĉi tie](https://nixos.org/nixos/options.html).
 
 ```nix
 { config, lib, pkgs, ... }:

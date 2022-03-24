@@ -81,7 +81,7 @@ go. It also makes it easy to enter Emacs’s `overwrite-mode` and to add a new l
 side. The sequence to access it is listed at end of this post.
 
 I bound what used to be the <kbd>Ctrl</kbd> keys to <kbd>KP Home</kbd> and <kbd>KP End</kbd> so that
-in my [.Xmodmap](https://github.com/ebzzry/dotfiles/blob/master/xmodmap/advantage.dv.xmap)
+in my [.Xmodmap](https://github.com/ebzzry/dotfiles/blob/main/xmodmap/advantage.dv.xmap)
 file , I can map it to <kbd>Mode‎ߺ‎switch</kbd>. See the [notes](#notes) below why I added another
 level of indirection.
 
@@ -130,7 +130,7 @@ the source; the next key will be the destination.
 | Keypad, <kbd>m</kbd>, Keypad (KP End)  | Right <kbd>Ctrl</kbd>      |
 
 Then, press <kbd>Progrm + F12</kbd> again, to exit remapping mode. The <kbd>KP Return</kbd> key was moved to the left <kbd>Alt</kbd> so that I can easily use it as a Compose (Multi) key in
-X. My [~/.Xmodmap](https://github.com/ebzzry/dotfiles/blob/master/xmodmap/advantage.dv.xmap)
+X. My [~/.Xmodmap](https://github.com/ebzzry/dotfiles/blob/main/xmodmap/advantage.dv.xmap)
 contains the following:
 
 ```
