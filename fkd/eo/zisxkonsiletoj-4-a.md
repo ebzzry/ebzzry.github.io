@@ -95,7 +95,7 @@ function fp () {
 ```
 
 Se mi estas en simbolligita dosierujo, kaj la realdosierindikon de `.` mi volas precizigi, la jenan
-mi povas plenumi:
+mi povas ruli:
 
     % fp .
 
@@ -104,8 +104,8 @@ mi povas plenumi:
 
 ### <a name="d">d</a>
 
-Ofte, kiam mi iras al dosierujo, serion de komandoj mi bezonas plenumi. Tempon por maŝinskribado mi volas
-savi, do anstataŭ du komandojn plenumi, nur unu mi nur devas plenumi. Manieron por dosierujon rapide
+Ofte, kiam mi iras al dosierujo, serion de komandoj mi bezonas ruli. Tempon por maŝinskribado mi volas
+savi, do anstataŭ du komandojn ruli, nur unu mi nur devas ruli. Manieron por dosierujon rapide
 ŝanĝigi tra la dosierujstakoj per `pushd` mi volas havi. Ĝi estas difinita jene:
 
 ```bash
@@ -124,17 +124,17 @@ function d () {
 }
 ```
 
-Kiam je `d` mi plenumas sole:
+Kiam je `d` mi rulas sole:
 
     % d
 
 Mi iros al la hejmdosierujo, samkiel kion memstara `cd` devus fari:
 
-Kiam je `d` mi plenumas kun dosierujo kaj komando:
+Kiam je `d` mi rulas kun dosierujo kaj komando:
 
     % d ~/Downloads ls -l
 
-La aktuala dosierujo ŝanĝiĝos al `~/Downloads`, tiam je `ls -l` mi plenumas por la enhavon de tiu
+La aktuala dosierujo ŝanĝiĝos al `~/Downloads`, tiam je `ls -l` mi rulas por la enhavon de tiu
 dosierujo montri.
 
 Se la eligo de `dirs -v` estas la jena:
@@ -144,7 +144,7 @@ Se la eligo de `dirs -v` estas la jena:
 1       /tmp
 ```
 
-Tiam, je `d` mi plenumu, kaj la dua enskribo estas uzota kun komando:
+Tiam, je `d` mi rulu, kaj la dua enskribo estas uzota kun komando:
 
     % d -1 date
 
@@ -190,7 +190,7 @@ funkcio.
 ### <a name="rm_pluso">rm+</a>
 
 Kiam ajn mi volas rapide forviŝi arbon kiu havas multe da dosiero kaj dosierujo,
-la komandon `parallel` mi uzas por la forviŝadon plenumi paralele, anstataŭ
+la komandon `parallel` mi uzas por la forviŝadon ruli paralele, anstataŭ
 serie. Ĝi estas difinita jene:
 
 ```bash
@@ -224,7 +224,7 @@ La pakadministrilon de la sistemo kontrolu kiel je `shred` instali.
 ### <a name="defmk">def_mk</a>
 
 Helpilojn ci tiu helpilo generas. Onin ĝi permesas por funkciojn krei kiuj antaŭproduktajn dosierojn
-kreas antaŭ la vera komando estas plenumita. Ĝi estas difinita kiel:
+kreas antaŭ la vera komando estas rulita. Ĝi estas difinita kiel:
 
 ```bash
 function def_mk () {
@@ -345,7 +345,7 @@ se la jenan oni havas, en kiu la ĉapelo estas la kursoro:
     % mtr
           ^
 
-Kiam je `M-x insert-last-word EN` mi plenumas, la lastan vorton de la lasta komando ĝi enmetas, ĝin
+Kiam je `M-x insert-last-word EN` mi rulas, la lastan vorton de la lasta komando ĝi enmetas, ĝin
 fari al:
 
     % dig hundo12345.kato.muzo.io
@@ -368,7 +368,7 @@ alvokas. Ekzemple, se la jenan oni havas:
     % cp cxi.tio.estas.tre.longa.nomo
                                       ^
 
-Kiam je `M-x copy-prev-shell-word EN` mi plenumas, la lastan vorton ziŝo enmetas, gin fari al:
+Kiam je `M-x copy-prev-shell-word EN` mi rulas, la lastan vorton ziŝo enmetas, gin fari al:
 
     % cp cxi.tio.estas.tre.longa.nomo cxi.tio.estas.tre.longa.nomo
                                                                   ^
@@ -380,7 +380,7 @@ Kiam je `M-x copy-prev-shell-word EN` mi plenumas, la lastan vorton ziŝo enmeta
 
 ### <a name="anstatauxigoj">Anstataŭigoj</a>
 
-Krome la plenumado de `M-x` komandoj, onin ziŝo permesas por klavkombinojn difini kiu ajnan tekston
+Krome la rulo de `M-x` komandoj, onin ziŝo permesas por klavkombinojn difini kiu ajnan tekston
 enmeti ĉe la komandlinion, inkluzive stirsignoj.
 
 La eligon de komandoj mi ofte bezonis akiri. Kutime la jenan mi faras:

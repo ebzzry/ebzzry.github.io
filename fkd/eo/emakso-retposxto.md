@@ -17,11 +17,11 @@ Agordi Retpoŝton per Emakso
 - [Elŝuti mesaĝojn](#elsxuti)
   + [Instalo](#elsxutiinstalo)
   + [Agordo](#elsxutiagordo)
-  + [Plenumo](#elsxutiplenumo)
+  + [Rulo](#elsxutirulo)
 - [Legi mesaĝojn](#legi)
   + [Instalo](#legiinstalo)
   + [Agordo](#legiagordo)
-  + [Plenumo](#legiplenumo)
+  + [Rulo](#legirulo)
 - [Ĉifrado](#cxifrado)
 - [Finrimarkoj](#finrimarkoj)
 
@@ -99,9 +99,9 @@ Gmail-pasvorto. Tamen, se oni uzas [dufazan aŭtentigon](https://www.google.com/
 ke `~/Maildir` estas la implicita dosierujo, kiun la retpoŝta transmeta ilo uzos por konservi datumon.
 
 
-### <a name="elsxutiplenumo">Plenumo</a>
+### <a name="elsxutirulo">Rulo</a>
 
-Por kontroli, ĉu oni jam povas elŝuti la mesaĝojn, plenumu getmail:
+Por kontroli, ĉu oni jam povas elŝuti la mesaĝojn, rulu getmail:
 
     $ getmail
 
@@ -179,7 +179,7 @@ Por plifaciligi la aferojn, agordu kelkajn variablojn:
 ```
 
 
-### <a name="legiplenumo">Plenumo</a>
+### <a name="legirulo">Rulo</a>
 
 Oni povas reŝargi Emakson, por ke tiuj agordoj povu efektiviĝi, aŭ alternative, ovi povas marki
 tiujn liniojn per <kbd>C-Space</kbd>, tiam premu:
@@ -233,14 +233,14 @@ Marku tiujn liniojn, tiam premu:
 
 Por ke la agordoj tuj efektiviĝu.
 
-Por sendi sendi ĉifritan mesaĝon, premu <kbd>C</kbd> el la ĉefmenuo de mu4e, plenumi la kutimajn
+Por sendi sendi ĉifritan mesaĝon, premu <kbd>C</kbd> el la ĉefmenuo de mu4e, ruli la kutimajn
 kampojn kiel `To:`, kaj `Subject:`, tiam en la mesaĝokorpo, premu:
 
     M-x ec EN
 
 ĉi tiu komando, etikedos la elirantan poŝton kiel subskribita kaj ĉifrita. Por sendi ĝin, premu
 <kbd>C-c C-c</kbd>. Ĉi tiu komando sekve invitos onin por enigi la pasfrazon. Oni ankaŭ demandos por
-plenumi kelkajn informojn pri la elira retpoŝtservilo (SMTP). La SMTP-servilo de Gmail estas
+ruli kelkajn informojn pri la elira retpoŝtservilo (SMTP). La SMTP-servilo de Gmail estas
 `smtp.gmail.com`, tiam uzu `UZANTNOMO@gmail.com` kiam invitita por la uzantnomo. Uzu la kutiman
 pasvorton, kiam invitiĝis, aŭ enigu onian apspecifan pasvortos, kiel priskribite antaŭe. Ĉi tiu
 informo konserviĝas al `~/.authinfo`, kaj estos uzata por postaj mesaĝoj.
@@ -270,5 +270,5 @@ principo aplikatas. Do, estu atente en ĉi tiuj situacioj, kaj alĝustigetu la a
 Memoru, ke mi laŭcele evitis multe da detalo, ĉar forigu la celon de ĉi tiu artikolo por
 igi la aferojn simplajn. Tamen, se oni volas lerni pli, oni ĉiam povas iri al la
 [getmail-](http://pyropus.ca/software/getmail/documentation.html) kaj
-[mu4e-](http://www.djcbsoftware.nl/code/mu/mu4e/index.html)dokumentadoj, por plenumi la mankajn
+[mu4e-](http://www.djcbsoftware.nl/code/mu/mu4e/index.html)dokumentadoj, por ruli la mankajn
 informojn kiun oni eble havi.

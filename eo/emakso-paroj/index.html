@@ -17,10 +17,10 @@
 </code></pre><p>kaj oni volas movi la punkton al la komenco de la signovico:</p><pre><code class="clojure">
 &#40;let &#91;x &quot;foo bar baz ... blah&quot;&#93;&#41;
          &#94;
-</code></pre><p>Plenumu <code>sp-beginning-of-sexp</code>. Mi bindis ĝin al <kbd>C-M-a</kbd>.</p><p>Male, por movi la punkton al la fino de la esprimo:</p><pre><code class="clojure">
+</code></pre><p>Rulu <code>sp-beginning-of-sexp</code>. Mi bindis ĝin al <kbd>C-M-a</kbd>.</p><p>Male, por movi la punkton al la fino de la esprimo:</p><pre><code class="clojure">
 &#40;let &#91;x &quot;foo bar baz ... blah&quot;&#93;&#41;
                              &#94;
-</code></pre><p>Plenumu <code>sp-end-of-sexp</code>. Mi bindis ĝin al <kbd>C-M-e</kbd>.</p><h4><a name="listojntrairi">Listojn trairi</a></h4><p>Se oni havas la jenan esprimon:</p><pre><code class="lisp">
+</code></pre><p>Rulu <code>sp-end-of-sexp</code>. Mi bindis ĝin al <kbd>C-M-e</kbd>.</p><h4><a name="listojntrairi">Listojn trairi</a></h4><p>Se oni havas la jenan esprimon:</p><pre><code class="lisp">
 &#40;defun format-date &#40;format&#41;
   &quot;La daton enmetu laŭ specio FORMAT kun specifa lokaĵaro.&quot;
   &#40;let &#40;&#40;system-time-locale &quot;en&#95;US.UTF-8&quot;&#41;&#41;
@@ -32,34 +32,34 @@
   &#40;let &#40;&#40;system-time-locale &quot;en&#95;US.UTF-8&quot;&#41;&#41;
     &#40;insert &#40;format-time-string format&#41;&#41;&#41;&#41;
      &#94;
-</code></pre><p>Plenumu <code>sp-down-sexp</code>. Mi bindis ĝin al <kbd>C-down</kbd>.</p><p>Sa oni havas la jenan esprimon:</p><pre><code class="clojure">
+</code></pre><p>Rulu <code>sp-down-sexp</code>. Mi bindis ĝin al <kbd>C-down</kbd>.</p><p>Sa oni havas la jenan esprimon:</p><pre><code class="clojure">
 &#40;str &quot;foo&quot; &quot;bar baz qux&quot;&#41;
     &#94;
 </code></pre><p>kaj oni volas movi la punkton post <code>&#41;</code>:</p><pre><code class="clojure">
 &#40;str &quot;foo&quot; &quot;bar baz qux&quot;&#41;
                          &#94;
-</code></pre><p>Plenumu <code>sp-up-sexp</code>. Mi bindis ĝin al <kbd>C-up</kbd>.</p><p>Se oni havas la jenan esprimon:</p><pre><code class="clojure">
+</code></pre><p>Rulu <code>sp-up-sexp</code>. Mi bindis ĝin al <kbd>C-up</kbd>.</p><p>Se oni havas la jenan esprimon:</p><pre><code class="clojure">
 &#40;defn foo &#91;bar&#93; &#40;let &#91;x 0&#93; x&#41;&#41;
                 &#94;
 </code></pre><p>kaj oni volas movi la punkton al la apuda <code>&#93;</code>:</p><pre><code class="clojure">
 &#40;defn foo &#91;bar&#93; &#40;let &#91;x 0&#93; x&#41;&#41;
               &#94;
-</code></pre><p>Plenumu <code>sp-backward-down-sexp</code>. Mi bindis ĝin al <kbd>M-down</kbd>.</p><p>Sa oni havas la jenan esprimon:</p><pre><code class="lisp">
+</code></pre><p>Rulu <code>sp-backward-down-sexp</code>. Mi bindis ĝin al <kbd>M-down</kbd>.</p><p>Sa oni havas la jenan esprimon:</p><pre><code class="lisp">
 &#40;insert &#40;format-time-string format&#41;&#41;
                            &#94;
 </code></pre><p>kaj la punkton oni volas movi al <code>&#40;format</code>:</p><pre><code class="lisp">
 &#40;insert &#40;format-time-string format&#41;&#41;
         &#94;
-</code></pre><p>Plenumu <code>sp-backward-up-sexp</code>. Mi bindis ĝin al <kbd>M-up</kbd>.</p><h4><a name="blokajmovadoj">Blokaj movadoj</a></h4><p>Sa oni havas la jenan esprimon:</p><pre><code class="clojure">
+</code></pre><p>Rulu <code>sp-backward-up-sexp</code>. Mi bindis ĝin al <kbd>M-up</kbd>.</p><h4><a name="blokajmovadoj">Blokaj movadoj</a></h4><p>Sa oni havas la jenan esprimon:</p><pre><code class="clojure">
 &#40;:require &#91;clojure.string :as s&#93;&#41;
           &#94;
 </code></pre><p>kaj la punkton oni volas movi post <code>&#93;</code>:</p><pre><code class="clojure">
 &#40;:require &#91;clojure.string :as s&#93;&#41;
                                 &#94;
-</code></pre><p>Plenumu <code>sp-forward-sexp</code>. Mi bindis ĝin al <kbd>C-M-f</kbd>.</p><p>Male, por movi ĝin reen al <code>&#91;</code>:</p><pre><code class="clojure">
+</code></pre><p>Rulu <code>sp-forward-sexp</code>. Mi bindis ĝin al <kbd>C-M-f</kbd>.</p><p>Male, por movi ĝin reen al <code>&#91;</code>:</p><pre><code class="clojure">
 &#40;:require &#91;clojure.string :as s&#93;&#41;
           &#94;
-</code></pre><p>Plenumu <code>sp-backward-sexp</code>. Mi bindis ĝin al <kbd>C-M-b</kbd>.</p><h4><a name="supra">Supra niveleca trairado</a></h4><p>Se oni havas la jenan esprimon:</p><pre><code class="clojure">
+</code></pre><p>Rulu <code>sp-backward-sexp</code>. Mi bindis ĝin al <kbd>C-M-b</kbd>.</p><h4><a name="supra">Supra niveleca trairado</a></h4><p>Se oni havas la jenan esprimon:</p><pre><code class="clojure">
 &#40;defn blah
   &quot;Returns blah of foo.&quot;
   &#91;foo&#93;                 &#94;
@@ -71,25 +71,25 @@
   &#91;foo&#93;
   &#94;&#41;
 
-</code></pre><p>Plenumu <code>sp-next-sexp</code> . Mi bindis ĝin al <kbd>C-M-n</kbd>.</p><p>Male, por movi ĝin reen:</p><pre><code class="clojure">
+</code></pre><p>Rulu <code>sp-next-sexp</code> . Mi bindis ĝin al <kbd>C-M-n</kbd>.</p><p>Male, por movi ĝin reen:</p><pre><code class="clojure">
 &#40;defn blah
     &quot;Returns blah of foo.&quot;
   &#91;foo&#93;                 &#94;
   &#41;
 
-</code></pre><p>Plenumu <code>sp-previous-sexp</code>. Mi bindis ĝin al <kbd>C-M-p</kbd>.</p><h4><a name="libermanaj">Libermanaj movadoj</a></h4><p>Se oni havas la jenan esprimon:</p><pre><code class="clojure">
+</code></pre><p>Rulu <code>sp-previous-sexp</code>. Mi bindis ĝin al <kbd>C-M-p</kbd>.</p><h4><a name="libermanaj">Libermanaj movadoj</a></h4><p>Se oni havas la jenan esprimon:</p><pre><code class="clojure">
 &#40;defn blah &#91;&#93; &#40;let &#91;x 0 y 1&#93; &#40;+ x 1&#41;&#41;&#41;
                &#94;
 </code></pre><p>kaj oni volas movi la punkton  al <code>blah</code>:</p><pre><code class="clojure">
 &#40;defn blah &#91;&#93; &#40;let &#91;x 0 y 1&#93; &#40;+ x 1&#41;&#41;&#41;
       &#94;
-</code></pre><p>Plenumu <code>sp-backward-symbol</code>. Mi bindis ĝin al <kbd>C-S-b</kbd>.</p><p>Male, se oni havas la jenan esprimon:</p><pre><code class="clojure">
+</code></pre><p>Rulu <code>sp-backward-symbol</code>. Mi bindis ĝin al <kbd>C-S-b</kbd>.</p><p>Male, se oni havas la jenan esprimon:</p><pre><code class="clojure">
 &#40;defn blah &#91;&#93; &#40;let &#91;x 0 y 1&#93; &#40;+ x 1&#41;&#41;&#41;
             &#94;
 </code></pre><p>kaj oni volas movi la punkton tuj post <code>&#40;let</code>:</p><pre><code class="clojure">
 &#40;defn blah &#91;&#93; &#40;let &#91;x 0 y 1&#93; &#40;+ x 1&#41;&#41;&#41;
                   &#94;
-</code></pre><p>Plenumu <code>sp-forward-symbol</code>. Mi bindis ĝin al <kbd>C-S-f</kbd>.</p><p>Kion ili faras, estas ke, ili ĉirkaŭnavigas kvazaŭ ne ekzistas la limiligoj kiel rondaj krampoj, kvadrataj krampoj, kaj kurbaj krampoj.</p><h3><a name="manipulado">Manipulado</a></h3><h4><a name="faldado">Faldado</a></h4><p>Se oni havas la jenan esprimon:</p><pre><code class="javascript">
+</code></pre><p>Rulu <code>sp-forward-symbol</code>. Mi bindis ĝin al <kbd>C-S-f</kbd>.</p><p>Kion ili faras, estas ke, ili ĉirkaŭnavigas kvazaŭ ne ekzistas la limiligoj kiel rondaj krampoj, kvadrataj krampoj, kaj kurbaj krampoj.</p><h3><a name="manipulado">Manipulado</a></h3><h4><a name="faldado">Faldado</a></h4><p>Se oni havas la jenan esprimon:</p><pre><code class="javascript">
 var mods = &quot;vars&quot;;
            &#94;
 </code></pre><p>kaj oni volas ĉirkaŭi <code>&quot;vars&quot;</code> per <code>&#91;</code> kaj <code>&#93;</code>:</p><pre><code class="javascript">
@@ -136,49 +136,49 @@ var mods = &#91;&quot;vars&quot;&#93;;
 </code></pre><p>kaj oni volas malfaldi la <code>bar</code> esprimon, forigante la rondajn krampojn ĉirkaŭ <code>foo</code>:</p><pre><code class="clojure">
 foo &#40;bar x y z&#41;
     &#94;
-</code></pre><p>Plenumu <code>sp-backward-unwrap-sexp</code>. Mi bindis ĝin al <kbd>M-[</kbd>.</p><p>Male, se oni volas malfaldi la esprimon <code>bar</code>, forigante la rondajn krampojn ĉirkaŭ <code>bar</code>:</p><pre><code class="clojure">
+</code></pre><p>Rulu <code>sp-backward-unwrap-sexp</code>. Mi bindis ĝin al <kbd>M-[</kbd>.</p><p>Male, se oni volas malfaldi la esprimon <code>bar</code>, forigante la rondajn krampojn ĉirkaŭ <code>bar</code>:</p><pre><code class="clojure">
 &#40;foo bar x y z&#41;
      &#94;
-</code></pre><p>Plenumu <code>sp-unwrap-sexp</code>. Mi bindis ĝin al <kbd>M-]</kbd>.</p><h4><a name="glutadokajvomado">Glutado kaj vomado</a></h4><p>Sa oni havas la jenan esprimon:</p><pre><code class="clojure">
+</code></pre><p>Rulu <code>sp-unwrap-sexp</code>. Mi bindis ĝin al <kbd>M-]</kbd>.</p><h4><a name="glutadokajvomado">Glutado kaj vomado</a></h4><p>Sa oni havas la jenan esprimon:</p><pre><code class="clojure">
 &#91;foo bar&#93; baz
         &#94;
 </code></pre><p>kaj oni volas igi <code>baz</code> parto de <code>foo</code> kaj <code>bar</code>:</p><pre><code class="clojure">
 &#91;foo bar baz&#93;
         &#94;
-</code></pre><p>Plenumu <code>sp-forward-slurp-sexp</code>. Mi bindis ĝin al <kbd>C-right</kbd>.</p><p>Male, se oni volas forigi <code>baz</code>:</p><pre><code class="clojure">
+</code></pre><p>Rulu <code>sp-forward-slurp-sexp</code>. Mi bindis ĝin al <kbd>C-right</kbd>.</p><p>Male, se oni volas forigi <code>baz</code>:</p><pre><code class="clojure">
 &#91;foo bar&#93; baz
         &#94;
-</code></pre><p>Plenumu <code>sp-forward-barf-sexp</code>. Mi bindis ĝin al <kbd>M-right</kbd>.</p><p>Se oni havas la jenan esprimon:</p><pre><code class="clojure">
+</code></pre><p>Rulu <code>sp-forward-barf-sexp</code>. Mi bindis ĝin al <kbd>M-right</kbd>.</p><p>Se oni havas la jenan esprimon:</p><pre><code class="clojure">
 blah &#91;foo bar&#93;
              &#94;
 </code></pre><p>kaj oni volas igi <code>blah</code> parto de <code>foo</code> kaj <code>bar</code>:</p><pre><code class="clojure">
 &#91;blah foo bar&#93;
              &#94;
-</code></pre><p>Plenumu <code>sp-backward-slurp-sexp</code>. Mi bindis ĝin al <kbd>C-left</kbd>.</p><p>Male, se oni volas forigi <code>blah</code>:</p><pre><code class="clojure">
+</code></pre><p>Rulu <code>sp-backward-slurp-sexp</code>. Mi bindis ĝin al <kbd>C-left</kbd>.</p><p>Male, se oni volas forigi <code>blah</code>:</p><pre><code class="clojure">
 blah &#91;foo bar&#93;
              &#94;
-</code></pre><p>Plenumu <code>sp-backward-barf-sexp</code>. Mi bindis ĝin al <kbd>M-left</kbd>.</p><h4><a name="intersxangxado">Interŝanĝado</a></h4><p>Se oni havas la jenan esprimon:</p><pre><code class="clojure">
+</code></pre><p>Rulu <code>sp-backward-barf-sexp</code>. Mi bindis ĝin al <kbd>M-left</kbd>.</p><h4><a name="intersxangxado">Interŝanĝado</a></h4><p>Se oni havas la jenan esprimon:</p><pre><code class="clojure">
 &quot;foo&quot; &quot;bar&quot;
       &#94;
 </code></pre><p>kaj oni volas interŝanĝi <code>&quot;foo&quot;</code> kaj <code>&quot;bar&quot;</code>:</p><pre><code class="clojure">
 &quot;bar&quot; &quot;foo&quot;
       &#94;
-</code></pre><p>Plenumu <code>sp-transpose-sexp</code>. Mi bindis ĝin al <kbd>C-M-t</kbd>.</p><h4><a name="mortigado">Mortigado</a></h4><p>Se oni havas la jenan esprimon:</p><pre><code class="clojure">
+</code></pre><p>Rulu <code>sp-transpose-sexp</code>. Mi bindis ĝin al <kbd>C-M-t</kbd>.</p><h4><a name="mortigado">Mortigado</a></h4><p>Se oni havas la jenan esprimon:</p><pre><code class="clojure">
 &#40;let &#91;x &quot;xxx&quot; y &quot;y yy yyy&quot; z 0&#93;&#41;
                &#94;
 </code></pre><p>kaj oni volas mortigi nur <code>&quot;y yy yyy&quot;</code>:</p><pre><code class="clojure">
 &#40;let &#91;x &quot;xxx&quot; y z 0&#93;&#41;
                &#94;
-</code></pre><p>Plenumu <code>sp-kill-sexp</code>. Mi bindis ĝin al <kbd>C-M-k</kbd>.</p><p>Se oni volas mortigi <code>&quot;y yy yyy&quot; z 0</code>:</p><pre><code class="clojure">
+</code></pre><p>Rulu <code>sp-kill-sexp</code>. Mi bindis ĝin al <kbd>C-M-k</kbd>.</p><p>Se oni volas mortigi <code>&quot;y yy yyy&quot; z 0</code>:</p><pre><code class="clojure">
 &#40;let &#91;x &quot;xxx&quot; y&#93;&#41;
                &#94;
-</code></pre><p>Plenumu <code>sp-kill-hybrid-sexp</code>. Mi bindis ĝin al <kbd>C-k</kbd>.</p><p>Se oni havas la jenan esprimon:</p><pre><code class="clojure">
+</code></pre><p>Rulu <code>sp-kill-hybrid-sexp</code>. Mi bindis ĝin al <kbd>C-k</kbd>.</p><p>Se oni havas la jenan esprimon:</p><pre><code class="clojure">
 &#40;:require &#91;clojure.string :as s&#93;&#41;
                                 &#94;
 </code></pre><p>kaj oni volas mortigi <code>&#91;clojure.string :as s&#93;</code>:</p><pre><code class="clojure">
 &#40;:require &#41;
           &#94;
-</code></pre><p>Plenumu <code>sp-backward-kill-sexp</code>. Mi bindis ĝin al <kbd>M-k</kbd>.</p><h2><a name="klavoj">Klavoj</a></h2><p>La jena kodeto resumas la uzatajn klavkombinojn en ĉi tiu artikolo. Mi uzas <code>bind-keys</code> por mapi miajn klavojn oportune. Mi pridiskutis ĝin en <a href='/eo/emakskonsiletoj-2-a'>antaŭa</a> artikolo.</p><pre><code class="lisp">&#40;defmacro def-pairs &#40;pairs&#41;
+</code></pre><p>Rulu <code>sp-backward-kill-sexp</code>. Mi bindis ĝin al <kbd>M-k</kbd>.</p><h2><a name="klavoj">Klavoj</a></h2><p>La jena kodeto resumas la uzatajn klavkombinojn en ĉi tiu artikolo. Mi uzas <code>bind-keys</code> por mapi miajn klavojn oportune. Mi pridiskutis ĝin en <a href='/eo/emakskonsiletoj-2-a'>antaŭa</a> artikolo.</p><pre><code class="lisp">&#40;defmacro def-pairs &#40;pairs&#41;
   &quot;Funkciojn por parigado difinu. PAIRS estas asocialisto de &#40;NAME . STRING&#41; conses, en kiu, NAME estas la nomo de la funkcio kiu estos kreita kaj STRING estas sole signa signovico kiu la komencan signon markas.
 
 La alvoko

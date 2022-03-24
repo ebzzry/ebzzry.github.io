@@ -17,15 +17,15 @@
   &#40;put 'λ 'scheme-indent-function 1&#41;&#41;
 
 &#40;add-hook 'scheme-mode-hook 'my-scheme-mode-hook&#41;
-</code></pre><h2><a name="servilo">Servilo</a></h2><p>La jena certigas kodaĵo, ke la emaksa servilo—tiu, kiu <code>emacsclient</code> konektas al—plenumiĝos:</p><pre><code class="lisp">&#40;require 'server&#41;
+</code></pre><h2><a name="servilo">Servilo</a></h2><p>La jena certigas kodaĵo, ke la emaksa servilo—tiu, kiu <code>emacsclient</code> konektas al—ruliĝos:</p><pre><code class="lisp">&#40;require 'server&#41;
 
 &#40;unless &#40;server-running-p&#41;
   &#40;server-start&#41;&#41;
-</code></pre><p>Alterne, oni povas plenumi emakson en demonreĝimo ĉe la komandlinio:</p><pre><code class="bash">$ emacs --daemon
+</code></pre><p>Alterne, oni povas ruli emakson en demonreĝimo ĉe la komandlinio:</p><pre><code class="bash">$ emacs --daemon
 </code></pre><h2><a name="bufroj">Bufroj</a></h2><p>Mi volas havi manieron por mortigi la aktualan bufron sen demandita kiun bufron por mortigi. Mi nur invitiĝos se la aktuala bufro ŝanĝiĝis:</p><pre><code class="lisp">&#40;defun kill-current-buffer &#40;&#41;
   &#40;interactive&#41;
   &#40;kill-buffer &#40;current-buffer&#41;&#41;&#41;
-</code></pre><h2><a name="markoj">Markoj</a></h2><p>Estis multe da fojoj en la estinteco kiam mi bezonis funkcion kiu markas nur linion. Kiun mi havas estas la jena. Plenumi ĝin multfoje markas plurajn liniojn.</p><pre><code class="lisp">&#40;defun mark-line &#40;&amp;optional arg&#41;
+</code></pre><h2><a name="markoj">Markoj</a></h2><p>Estis multe da fojoj en la estinteco kiam mi bezonis funkcion kiu markas nur linion. Kiun mi havas estas la jena. Ruli ĝin multfoje markas plurajn liniojn.</p><pre><code class="lisp">&#40;defun mark-line &#40;&amp;optional arg&#41;
   &#40;interactive &quot;p&quot;&#41;
   &#40;if &#40;not mark-active&#41;
       &#40;progn

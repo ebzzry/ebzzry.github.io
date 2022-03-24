@@ -121,7 +121,7 @@ kaj oni volas movi la punkton al la komenco de la signovico:
          ^
 ```
 
-Plenumu `sp-beginning-of-sexp`. Mi bindis ĝin al <kbd>C-M-a</kbd>.
+Rulu `sp-beginning-of-sexp`. Mi bindis ĝin al <kbd>C-M-a</kbd>.
 
 Male, por movi la punkton al la fino de la esprimo:
 
@@ -131,7 +131,7 @@ Male, por movi la punkton al la fino de la esprimo:
                              ^
 ```
 
-Plenumu `sp-end-of-sexp`. Mi bindis ĝin al <kbd>C-M-e</kbd>.
+Rulu `sp-end-of-sexp`. Mi bindis ĝin al <kbd>C-M-e</kbd>.
 
 
 #### <a name="listojntrairi">Listojn trairi</a>
@@ -158,7 +158,7 @@ kaj oni volas movi la punkton al `insert`:
      ^
 ```
 
-Plenumu `sp-down-sexp`. Mi bindis ĝin al <kbd>C-down</kbd>.
+Rulu `sp-down-sexp`. Mi bindis ĝin al <kbd>C-down</kbd>.
 
 Sa oni havas la jenan esprimon:
 
@@ -176,7 +176,7 @@ kaj oni volas movi la punkton post `)`:
                          ^
 ```
 
-Plenumu `sp-up-sexp`. Mi bindis ĝin al <kbd>C-up</kbd>.
+Rulu `sp-up-sexp`. Mi bindis ĝin al <kbd>C-up</kbd>.
 
 Se oni havas la jenan esprimon:
 
@@ -194,7 +194,7 @@ kaj oni volas movi la punkton al la apuda `]`:
               ^
 ```
 
-Plenumu `sp-backward-down-sexp`. Mi bindis ĝin al <kbd>M-down</kbd>.
+Rulu `sp-backward-down-sexp`. Mi bindis ĝin al <kbd>M-down</kbd>.
 
 Sa oni havas la jenan esprimon:
 
@@ -212,7 +212,7 @@ kaj la punkton oni volas movi al `(format`:
         ^
 ```
 
-Plenumu `sp-backward-up-sexp`. Mi bindis ĝin al <kbd>M-up</kbd>.
+Rulu `sp-backward-up-sexp`. Mi bindis ĝin al <kbd>M-up</kbd>.
 
 
 #### <a name="blokajmovadoj">Blokaj movadoj</a>
@@ -233,7 +233,7 @@ kaj la punkton oni volas movi post `]`:
                                 ^
 ```
 
-Plenumu `sp-forward-sexp`. Mi bindis ĝin al <kbd>C-M-f</kbd>.
+Rulu `sp-forward-sexp`. Mi bindis ĝin al <kbd>C-M-f</kbd>.
 
 Male, por movi ĝin reen al `[`:
 
@@ -243,7 +243,7 @@ Male, por movi ĝin reen al `[`:
           ^
 ```
 
-Plenumu `sp-backward-sexp`. Mi bindis ĝin al <kbd>C-M-b</kbd>.
+Rulu `sp-backward-sexp`. Mi bindis ĝin al <kbd>C-M-b</kbd>.
 
 
 #### <a name="supra">Supra niveleca trairado</a>
@@ -270,7 +270,7 @@ kaj oni volas movi la punkton  al `[`:
 
 ```
 
-Plenumu `sp-next-sexp` . Mi bindis ĝin al <kbd>C-M-n</kbd>.
+Rulu `sp-next-sexp` . Mi bindis ĝin al <kbd>C-M-n</kbd>.
 
 Male, por movi ĝin reen:
 
@@ -283,7 +283,7 @@ Male, por movi ĝin reen:
 
 ```
 
-Plenumu `sp-previous-sexp`. Mi bindis ĝin al <kbd>C-M-p</kbd>.
+Rulu `sp-previous-sexp`. Mi bindis ĝin al <kbd>C-M-p</kbd>.
 
 
 #### <a name="libermanaj">Libermanaj movadoj</a>
@@ -304,7 +304,7 @@ kaj oni volas movi la punkton  al `blah`:
       ^
 ```
 
-Plenumu `sp-backward-symbol`. Mi bindis ĝin al <kbd>C-S-b</kbd>.
+Rulu `sp-backward-symbol`. Mi bindis ĝin al <kbd>C-S-b</kbd>.
 
 Male, se oni havas la jenan esprimon:
 
@@ -322,7 +322,7 @@ kaj oni volas movi la punkton tuj post `(let`:
                   ^
 ```
 
-Plenumu `sp-forward-symbol`. Mi bindis ĝin al <kbd>C-S-f</kbd>.
+Rulu `sp-forward-symbol`. Mi bindis ĝin al <kbd>C-S-f</kbd>.
 
 Kion ili faras, estas ke, ili ĉirkaŭnavigas kvazaŭ ne ekzistas la limiligoj kiel rondaj krampoj,
 kvadrataj krampoj, kaj kurbaj krampoj.
@@ -434,7 +434,7 @@ foo (bar x y z)
     ^
 ```
 
-Plenumu `sp-backward-unwrap-sexp`. Mi bindis ĝin al <kbd>M-[</kbd>.
+Rulu `sp-backward-unwrap-sexp`. Mi bindis ĝin al <kbd>M-[</kbd>.
 
 Male, se oni volas malfaldi la esprimon `bar`, forigante la rondajn krampojn ĉirkaŭ `bar`:
 
@@ -444,7 +444,7 @@ Male, se oni volas malfaldi la esprimon `bar`, forigante la rondajn krampojn ĉi
      ^
 ```
 
-Plenumu `sp-unwrap-sexp`. Mi bindis ĝin al <kbd>M-]</kbd>.
+Rulu `sp-unwrap-sexp`. Mi bindis ĝin al <kbd>M-]</kbd>.
 
 
 #### <a name="glutadokajvomado">Glutado kaj vomado</a>
@@ -465,7 +465,7 @@ kaj oni volas igi `baz` parto de `foo` kaj `bar`:
         ^
 ```
 
-Plenumu `sp-forward-slurp-sexp`. Mi bindis ĝin al <kbd>C-right</kbd>.
+Rulu `sp-forward-slurp-sexp`. Mi bindis ĝin al <kbd>C-right</kbd>.
 
 Male, se oni volas forigi `baz`:
 
@@ -475,7 +475,7 @@ Male, se oni volas forigi `baz`:
         ^
 ```
 
-Plenumu `sp-forward-barf-sexp`. Mi bindis ĝin al <kbd>M-right</kbd>.
+Rulu `sp-forward-barf-sexp`. Mi bindis ĝin al <kbd>M-right</kbd>.
 
 Se oni havas la jenan esprimon:
 
@@ -493,7 +493,7 @@ kaj oni volas igi `blah` parto de `foo` kaj `bar`:
              ^
 ```
 
-Plenumu `sp-backward-slurp-sexp`. Mi bindis ĝin al <kbd>C-left</kbd>.
+Rulu `sp-backward-slurp-sexp`. Mi bindis ĝin al <kbd>C-left</kbd>.
 
 Male, se oni volas forigi `blah`:
 
@@ -503,7 +503,7 @@ blah [foo bar]
              ^
 ```
 
-Plenumu `sp-backward-barf-sexp`. Mi bindis ĝin al <kbd>M-left</kbd>.
+Rulu `sp-backward-barf-sexp`. Mi bindis ĝin al <kbd>M-left</kbd>.
 
 
 #### <a name="intersxangxado">Interŝanĝado</a>
@@ -524,7 +524,7 @@ kaj oni volas interŝanĝi `"foo"` kaj `"bar"`:
       ^
 ```
 
-Plenumu `sp-transpose-sexp`. Mi bindis ĝin al <kbd>C-M-t</kbd>.
+Rulu `sp-transpose-sexp`. Mi bindis ĝin al <kbd>C-M-t</kbd>.
 
 
 #### <a name="mortigado">Mortigado</a>
@@ -545,7 +545,7 @@ kaj oni volas mortigi nur `"y yy yyy"`:
                ^
 ```
 
-Plenumu `sp-kill-sexp`. Mi bindis ĝin al <kbd>C-M-k</kbd>.
+Rulu `sp-kill-sexp`. Mi bindis ĝin al <kbd>C-M-k</kbd>.
 
 Se oni volas mortigi `"y yy yyy" z 0`:
 
@@ -555,7 +555,7 @@ Se oni volas mortigi `"y yy yyy" z 0`:
                ^
 ```
 
-Plenumu `sp-kill-hybrid-sexp`. Mi bindis ĝin al <kbd>C-k</kbd>.
+Rulu `sp-kill-hybrid-sexp`. Mi bindis ĝin al <kbd>C-k</kbd>.
 
 Se oni havas la jenan esprimon:
 
@@ -573,7 +573,7 @@ kaj oni volas mortigi `[clojure.string :as s]`:
           ^
 ```
 
-Plenumu `sp-backward-kill-sexp`. Mi bindis ĝin al <kbd>M-k</kbd>.
+Rulu `sp-backward-kill-sexp`. Mi bindis ĝin al <kbd>M-k</kbd>.
 
 
 <a name="klavoj">Klavoj</a>

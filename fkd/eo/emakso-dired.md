@@ -29,7 +29,7 @@ administradon. La dosierujrekdatilo _Dired_ (angle prononcata *dir-ed*), estas l
 ekvivalento de dosieradministrilo. Kio ajn oni povas fari al regulaj bufroj, oni ankaŭ povas fari ĝin
 al Dired-bufroj.
 
-Por plenumi Dired, plenumu emakson ĉe la komandlinio, disponigi dosierujon kiel la argumento:
+Por ruli Dired, rulu emakson ĉe la komandlinio, disponigi dosierujon kiel la argumento:
 
     $ emacs ~/Desktop
 
@@ -66,7 +66,7 @@ aŭ pluraj eroj. Uzi ilin al pluraj eroj estos klarigitaj sekve.
 | <kbd>M</kbd>                  | Ŝanĝi permesosjn                                                   |
 | <kbd>S</kbd>                  | Krei simbolligilon                                                 |
 | <kbd>T</kbd>                  | Tuŝi eron                                                          |
-| <kbd>!</kbd> aŭ <kbd>x</kbd>  | Plenumi ŝelan komandon al ero                                      |
+| <kbd>!</kbd> aŭ <kbd>x</kbd>  | Ruli ŝelan komandon al ero                                      |
 
 
 <a name="markaj">Markaj komandoj</a>
@@ -79,7 +79,7 @@ sur eroj, por ke oni povu presti la operaciojn en la antaŭa sekcio, sur ili:
 | :---------------------------- | :----------------------------------------------------------------- |
 | <kbd>m</kbd>                  | Marki eron                                                         |
 | <kbd>d</kbd>                  | Marki eron por forviŝi                                             |
-| <kbd>x</kbd>                  | Plenumi operacion                                                  |
+| <kbd>x</kbd>                  | Ruli operacion                                                  |
 | <kbd>u</kbd>                  | Malmarki soleron                                                   |
 | <kbd>U</kbd>                  | Malmarki ĉiujn erojn                                               |
 | <kbd>t</kbd>                  | Baskuligi markojn inter markitaj kaj nemarkitaj eroj               |

@@ -129,7 +129,7 @@ Ve
 
 Alia bona kialo por malplenan spacon havi post ĉiu ĉapo estas por helpi al redaktiloj kiel emakso
 por la tekston formati. Teksblokon la klavkombino <kbd>M-q</kbd> formatas—defaŭlte bindita al
-`fill-paragraph`—por ke la maksimuma linia larĝo estu ĝuste plenumiĝita. La variablon
+`fill-paragraph`—por ke la maksimuma linia larĝo estu ĝuste ruliĝita. La variablon
 `fill-column`—defaŭlte bindita al 70—la komando `fill-paragraph` uzas por tekskorpon formati.
 
 Do se la jenan tekston oni havas:

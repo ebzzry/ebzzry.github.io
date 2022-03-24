@@ -43,7 +43,7 @@ ke ili ankaŭ povas funkcii per aliaj ŝeloj, tamen, ilin mi ne testis.
 <a name="mallongaj">Mallongaj komandoj</a>
 ------------------------------------------
 
-Per gito, se la staton de deponejo ni volas vidi, la jenan komandon ni plenumos:
+Per gito, se la staton de deponejo ni volas vidi, la jenan komandon ni rulos:
 
     git status
 
@@ -96,7 +96,7 @@ Se la komandon
 
     git hello
 
-oni plenumas, ŝajnos, ke la jenan komandon oni plenumis:
+oni rulas, ŝajnos, ke la jenan komandon oni rulis:
 
     echo hello world
 
@@ -115,7 +115,7 @@ Se la komandon
 
     git hi
 
-oni plenumas, ŝajnos, ke la jenan komandon oni plenumos:
+oni rulas, ŝajnos, ke la jenan komandon oni rulos:
 
     hi () { echo hi world; }
     hi
@@ -204,7 +204,7 @@ la difinon de la funkcio mem la ŝelo montras.
 
 La subkomandoj loĝos en la areo markita `# komandoj ĉi tie`. La retropaŝa ago
 markita per `*` signifas, ke se ne estas propra komando el mi, la internan
-komandon de gito plenumi anstataŭ.
+komandon de gito ruli anstataŭ.
 
 
 ### <a name="komandoj1">Gravaj komandoj</a>
@@ -320,13 +320,13 @@ Jen aliaj komandoj kiujn ni ankaŭ devas difini.
       (oo!) "${self}" ph! origin "$(git brh)" ;;
 ```
 
-Kiam ajn novajn deponejon mi kreas, la jenan komandon mi plenumas:
+Kiam ajn novajn deponejon mi kreas, la jenan komandon mi rulas:
 
     git i Pravaloriziĝu
 
 Kion la `oo` subkomando faras estas ke la kodo puŝiĝos al la fordeponejo kiu
 nomiĝas `origin` sub la nomo de la aktuala branĉo. Ekzemple, se la aktuala
-branĉo nomiĝas `trunk`, kaj la jenan komandon oni plenumas:
+branĉo nomiĝas `trunk`, kaj la jenan komandon oni rulas:
 
     git oo
 
@@ -418,17 +418,17 @@ en la protokolo mi ne deziras havi.
 ```
 
 Kiam ajn tekstojn de ĉiuj antaŭaj ŝanĝmesaĝoj mi volas ŝanĝi, ekzemple la vorton
-`hundo` mi volas ŝanĝi al `kato`, la jenan komandon mi plenumas:
+`hundo` mi volas ŝanĝi al `kato`, la jenan komandon mi rulas:
 
     git fbm 'sed "s/hundo/kato/"'
 
 Kiam ajn dosieron mi volas forigi tute el la deponejo, ekzemple `dosiero.dat`,
-la jenan komandon mi plenumas:
+la jenan komandon mi rulas:
 
     git fbi 'git rm --cached --ignore-unmatch dosiero.dat' HEAD
 
 Kiam ajn la retpoŝadreson mi volas ŝanĝi, ekzemple, al `kato@mondo.io`, la jenan
-komandon mi plenumas:
+komandon mi rulas:
 
     git fbe 'export GIT_AUTHOR_EMAIL="kato@mondo.io"; export GIT_COMMITTER_EMAIL="kato@mondo.io"' --tag-name-filter cat -- --branches --tags
 
@@ -667,7 +667,7 @@ jenan alinomon ni havas en `~/.gitconfig`:
   ls = "! echo hello world"
 ```
 
-tiam la jenan komandon ni plenumos
+tiam la jenan komandon ni rulos
 
     git ls
 

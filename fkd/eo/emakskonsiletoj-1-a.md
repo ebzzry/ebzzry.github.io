@@ -87,7 +87,7 @@ Kaj mi ankaŭ havas la jenan tial, ke mi volas ĝisrandigi plaĉe la `λ`-simbol
 <a name="servilo">Servilo</a>
 -----------------------------
 
-La jena certigas kodaĵo, ke la emaksa servilo—tiu, kiu `emacsclient` konektas al—plenumiĝos:
+La jena certigas kodaĵo, ke la emaksa servilo—tiu, kiu `emacsclient` konektas al—ruliĝos:
 
 ```lisp
 (require 'server)
@@ -96,7 +96,7 @@ La jena certigas kodaĵo, ke la emaksa servilo—tiu, kiu `emacsclient` konektas
   (server-start))
 ```
 
-Alterne, oni povas plenumi emakson en demonreĝimo ĉe la komandlinio:
+Alterne, oni povas ruli emakson en demonreĝimo ĉe la komandlinio:
 
 ```bash
 $ emacs --daemon
@@ -120,7 +120,7 @@ invitiĝos se la aktuala bufro ŝanĝiĝis:
 ---------------------------
 
 Estis multe da fojoj en la estinteco kiam mi bezonis funkcion kiu markas nur linion. Kiun mi havas
-estas la jena. Plenumi ĝin multfoje markas plurajn liniojn.
+estas la jena. Ruli ĝin multfoje markas plurajn liniojn.
 
 ```lisp
 (defun mark-line (&optional arg)

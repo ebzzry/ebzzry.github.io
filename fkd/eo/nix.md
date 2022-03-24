@@ -58,43 +58,41 @@ Milda Enkonduko al la Nix-Familio
 <a name="enkonduko">Enkonduko</a>
 ---------------------------------
 
-Venas rare ideoj kiuj la manieron por komputado povas ŝanĝi. Multe da teĥnologio kiujn ni uzas nune
-nur estas ripetoj de la malnovaj—niveloj sur niveloj de kosmetikoj kiuj la malnovajn konceptojn
-ĉirkaŭkovras. Tutaj produktaj sistemoj baziĝas ĉe ĉi tiu manko de kreemo kaj lerteco. Malnovaj
-problemoj ne solvitas. Pentrante per novaj kolortonoj, la problemojn ĉi tiuj tielnomataj elpensemaj
-solvoj nure ĉirkaŭigas anstataŭe, pretendante ke almenaŭ, ĝin ili plikolorplenigis. Progreson ĉi tiu
-mensostato difektas en nekalkuleblaj manieroj. La falsan impreson, ke la solvoj fakte estas faritaj
-ĉi tio donas. Falsan senson de plibonigoj ĉi tio kreas.
+Venas rare ideoj kiuj povas ŝanĝi la metodoj por komputado. Multe da teĥnologio kiujn ni uzas nune
+estas nur ripetoj de la malnovaj—niveloj sur niveloj de kosmetikoj kiuj ĉirkaŭkovras la malnovajn
+konceptojn. Plenaj produktaj sistemoj baziĝas ĉe ĉi tiu manko de kreemo kaj lerteco. Malnovaj
+problemoj ne solviĝas. Pentrante per novaj kolortonoj, ĉi tiuj tielnomataj elpensemaj solvoj nure
+ĉirkaŭigas la problemojn anstataŭe, pretendante ke almenaŭ, ili plikolorplenigis ĝin. Ĉi tiu
+mensostato difektas progreson en nekalkuleblaj manieroj. Ĉi tio donas la falsan impreson, ke la
+solvoj fakte estas faritaj. Ĉi tio kreas Falsan senson de plibonigo.
 
-Antaŭ multaj jaroj siajn semajn [paperojn](https://nixos.org/~eelco/pubs/)
-[Eelco DOLSTRA](https://nixos.org/~eelco/) skribis, en kiu, la radikalajn manierojn por programaron
-disponigi li priskribis. La kernojn de [Nix](https://nixos.org/nix/), pure funkcia paka administrila
-lingvo kiu la malsanon solvis kiu la komputikon delonge plagis—kompatinda paka administrado—ĉi tiuj
-paperoj formis. En ĉi tiu artikolo mi parolos pri la Nix-familio, kaj kiel ĝin uzi por la avantaĝo.
+Antaŭ multaj jaroj [Eelco DOLSTRA](https://nixos.org/~eelco/) skribis siajn influegjan
+[paperojn](https://nixos.org/~eelco/pubs/), en kiu, li priskribis la radikalajn manierojn por
+disponigi programaron. Tiuj paperoj formis la kernojn de [Nix](https://nixos.org/nix/)—pure funkcia
+paka administrila lingvo kiu solvis la malsanon kiu delonge plagis la informadikon—kompatinda paka
+administrado. En ĉi tiu artikolo mi parolos pri la Nix-familio, kaj kiel uzi ĝin por la avantaĝo.
 
-La dolarsigno ($) uzitos por la ŝelan inviton de normuzanto indiki, dum la kradsigno (#) uzitos
-por la ŝelan inviton de la ĉefuzanto indiki. Estas fojoj kiam la
-[EUID](https://en.wikipedia.org/wiki/User_identifier#Effective_user_ID) de komando estos nulo (0)
-pro la uzado de *sudo*.
+Uziĝos la dolarsigno ($) por indiki la ŝelan inviton de la normuzanto indiki, uziĝos la kradsigno
+(#) por indki la ŝelan inviton de la ĉefuzanto. Estas fojoj kiam la
+[EUID](https://en.wikipedia.org/wiki/User_identifier#Effective_user_ID) de komando estas nulo (0)
+pro la uzo de *sudo*.
 
 
 <a name="nixos">NixOS</a>
 -------------------------
 
-Kiom da fojoj, difektitan sistemon oni havadis pro programaron oni ĝistadigis
-kiun aliaj komponantoj dependis? Kiom da malfruaj noktoj oni pasis por apon oni
-bezonis funkciigi pro ĝin la nova pako kiun oni instalis rompigis? Kiom da
-fojoj, pro ĉagrenego, oni rezignis en la riparado de la sistemo kaj simple
-decidis por la sistemon reinstali el nulo. Datumdosierojn restaŭri facilas;
-sistemagordon de la lasta funkcia stato restaŭri, bedaŭrinde, estas unudirekta
-bileto al infero.
+Kiom da fojoj, oni havadis difektitan sistemon pro oni ĝistadigis programaron kiun aliaj komponantoj
+dependis? Kiom da malfruaj noktoj oni pasis por ripari apon ĉar la nova pako kiun oni instalis
+rompigis ĝin? Kiom da fojoj, pro ĉagrenego, oni rezignis pri la riparado de la sistemo kaj simple
+decidis por reinstali la sistemon de nulo. Facilas restaŭri datumdosierojn. Restaŭri sistemagordon
+de la lasta funkcia stato, bedaŭrinde, estas unudirekta bileto al geheno.
 
-[NixOS](https://nixos.org) (niks-oŭ-es) estas linuksa distribuo kiu ĉi tiajn problemojn solvas per la
-determinismon de [Nix](https://nixos.org/nix) ekspluati kaj per unu deklaran agorddosieron uzi kiu
-ĉiomajn agordaĵojn kaj alĝustigiloj tenas en unu loko—`/etc/nixos/configuration.nix`. Informon pri la
-dosiersistemo, uzantoj, servoj, retagordo, enigaparatoj, kernaj parametroj, kaj pli ĉi tiu dosiero
-enhavas. Signifas, ke je _configuration.nix_ de iu oni povas preni kaj ĝian ekzaktan sistemagordon
-havu! En NixOS oni ne plu bezonas ludadi pri la tutsistemo por la agordo kiun oni
+[NixOS](https://nixos.org) (niks-oŭ-es) estas linuksa distribuo kiu ĉi tiajn problemojn solvas per
+la determinismon de [Nix](https://nixos.org/nix) ekspluati kaj per unu deklaran agorddosieron uzi
+kiu ĉiomajn agordaĵojn kaj alĝustigiloj tenas en unu loko—`/etc/nixos/configuration.nix`. Informon
+pri la dosiersistemo, uzantoj, servoj, retagordo, enigaparatoj, kernaj parametroj, kaj pli ĉi tiu
+dosiero enhavas. Signifas, ke je _configuration.nix_ de iu oni povas preni kaj ĝian ekzaktan
+sistemagordon havu! En NixOS oni ne plu bezonas ludadi pri la tutsistemo por la agordo kiun oni
 deziras. Porokazajn solvojn oni ne plu uzas por deziratan agordan staton precizigi. Aldonan
 programaron oni ne plu bezonas instali por sistemagordon administri.
 
@@ -365,7 +363,7 @@ Por ke la lingvon oni facile povu kompreni, je nix-repl ni instalu:
 
     $ nix-env -iA $(nix-channel --list | awk '{print $1}').nix-repl
 
-Sekve, ĝin ni plenumu. Oni salutiĝas per la versinombro, kaj la invito de nix-repl. Ĉi tiun
+Sekve, ĝin ni rulu. Oni salutiĝas per la versinombro, kaj la invito de nix-repl. Ĉi tiun
 artikolon skribante, la plej ĵusa stabila versinombro estas 1.11.8:
 
 ```nix
@@ -939,7 +937,7 @@ kontrolsumo de ĉiom da enigoj kiuj estis uzitaj por la pakon konstrui. La dosie
 ### <a name="nixpkgsinstalo">Instalo</a>
 
 Se je NixOS oni uzas ĉi tiun sekcion preterpasu tial, ke Nixpkgs iras kun ĝi. Por je Nixpkgs instali
-ĉe linukso aŭ makintoŝo, plenumu:
+ĉe linukso aŭ makintoŝo, rulu:
 
     $ curl https://nixos.org/nix/install | bash
 
@@ -970,19 +968,19 @@ gitkopion uzi, la [deponejon](https://github.com/nixos/nixpkgs) klonu:
 de la deponejo troveblas ĉe `/home/vakelo/nixpkgs/` aŭ `/Users/vakelo/nixpkgs/`, se linukson aŭ
 makintoŝon oni uzas respektive.
 
-Por pakon instali, ekzemple, *emem*—markdaŭna- al HTML-dosiero konvertilo—per la gitkopio, plenumu:
+Por pakon instali, ekzemple, *emem*—markdaŭna- al HTML-dosiero konvertilo—per la gitkopio, rulu:
 
     $ nix-env -f ~/nixpkgs/default.nix -iA emem
 
 Je *emem* ĉi tiu komando elŝutas kun ĝiajn dependecojn, kaj la programon ĝi disponebligas al
-oni. Por certigi, ke emem estas efektive instalita, plenumu:
+oni. Por certigi, ke emem estas efektive instalita, rulu:
 
     $ emem --version
 
 Se la ŝelo ne vomiĝas kaj plendas, ke tio, kion oni volas trovi ne ekzistas, kaj versinombron oni
 vidas, do signifas ke je emem oni sukcese instalis.
 
-Por la plej ĵusajn ŝanĝojn akiri el la gitdeponejo, plenumu:
+Por la plej ĵusajn ŝanĝojn akiri el la gitdeponejo, rulu:
 
     $ cd ~/nixpkgs && git pull origin master
 
@@ -996,7 +994,7 @@ tio, tiam kanalojn uzi anstataŭ la gitkopion.
 Kanaloj estas etikeditaj `stable`, `unstable`, aŭ per specifa versinombro,
 ekzemple, `18.09` aŭ `21.11`. Por ĉi tiu artikolo, je `unstable` ni uzu—ĝi nek
 estas tiel malaktuala kiel `stable` nek tiel ĵuŝa kiel la gitkopio. Por aboni al
-la `unstable`-kanalo, plenumu:
+la `unstable`-kanalo, rulu:
 
     $ nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
 
@@ -1005,7 +1003,7 @@ uzantprofilo.
 
 Por la listojn de kanaloj esplori, [ĉi tien](https://nixos.org/channels/) iru.
 
-Per la ekzemplo ĉi-supre, je *emem* instali, la jenajn komandojn plenumu por NixOS kaj aliaj
+Per la ekzemplo ĉi-supre, je *emem* instali, la jenajn komandojn rulu por NixOS kaj aliaj
 sistemoj, respektive:
 
     $ nix-env -iA nixos.emem
@@ -1013,27 +1011,27 @@ sistemoj, respektive:
     $ nix-env -iA nixpkgs.emem
 
 
-Por la kanalojn ĝisdatigi, plenumu:
+Por la kanalojn ĝisdatigi, rulu:
 
     $ nix-channel --update
 
 Tempe, arboj en `/nix/store/` kreskiĝas kaj eble ekzistas dosierindikoj kiuj ne plu estas
-referencitaj per ajna pako. Por ĝin purigi, plenumu:
+referencitaj per ajna pako. Por ĝin purigi, rulu:
 
     $ nix-collect-garbage
 
 
 #### <a name="nixpkgsaliaj">Aliaj komandoj</a>
 
-Por pakon malinstali, plenumu:
+Por pakon malinstali, rulu:
 
     $ nix-env -e emem
 
-Por ĉiomajn instalitajn pakojn listigi, plenumu:
+Por ĉiomajn instalitajn pakojn listigi, rulu:
 
     $ nix-env -q --installed
 
-Por ĉiomajn haveblajn pakojn listigi, plenumu:
+Por ĉiomajn haveblajn pakojn listigi, rulu:
 
     $ nix-env -q --available
 
@@ -1164,8 +1162,8 @@ liveras. La valoro por la atribuo `name` estas signovico kun la formato *paknomo
 estas la valoro liverita per la funkcion `fetchurl` voki, per alia atribuara argumento. La valoro
 por la atribuo `url` devas esti aŭ spegula specifo, kiel priskribite en
 `pkgs/build-support/fetchurl/mirrors.nix`, aŭ kutima retejadreso. Tiukaze, la GNU-spegulon ni uzis
-kaj la variablon `name` ni interpolis ene tiu signovico. La valoro de la atribuo `sha256` estas tiu, kiun ni akiris per je `nix-prefetch-url` plenumi kontraŭ la retejadreso. Por la kontrolsumon akiri
-de `hello-2.10`, plenumu:
+kaj la variablon `name` ni interpolis ene tiu signovico. La valoro de la atribuo `sha256` estas tiu, kiun ni akiris per je `nix-prefetch-url` ruli kontraŭ la retejadreso. Por la kontrolsumon akiri
+de `hello-2.10`, rulu:
 
 ```bash
 $ nix-prefetch-url http://ftpmirror.gnu.org/hello/hello-2.10.tar.gz
@@ -1176,7 +1174,7 @@ path is ‘/nix/store/3x7dwzq014bblazs7kq20p9hyzz0qh8g-hello-2.10.tar.gz’
 
 Ĝi kongruas al la SHA256-specifo ĉi-supre.
 
-La atribuo `doCheck` instruas al Nix la testojn plenumi por ĉi tiu pako.
+La atribuo `doCheck` instruas al Nix la testojn ruli por ĉi tiu pako.
 
 La valoro de la atribuo `meta` estas alia atribuara specifo por aliaj detaloj pri la
 pako. Nix-programojn la valoroj precizigitaj ĉi tie helpas por la pakon klasi, inter aliaj
@@ -1207,7 +1205,7 @@ Tiam, la pakon muntu:
     $ nix-build -A hello
 
 Se la kunmetaĵo sukcesis, aperos simbolligilo nomata `result` en la aktuala dosierujo. Ĉi tiu
-simbolligilo montras al dosierindiko en `/nix/store`. La programon ni plenumu:
+simbolligilo montras al dosierindiko en `/nix/store`. La programon ni rulu:
 
     $ ./result/bin/hello
     Hello, world!
@@ -1362,7 +1360,7 @@ ziŝon instalante per nix-env:
     $ nix-env -iA nixos.zsh
 
 Ziŝo fariĝos specife disponebla por la uzanto kiu ĝin alvokas. Se `johano` estas la uzanto kiu tiun
-komandon plenumis, tiam la ziŝa duumdosiero disponebliĝos kiel
+komandon rulis, tiam la ziŝa duumdosiero disponebliĝos kiel
 `/home/johano/.nix-profile/bin/zsh`. Se ziŝon la uzanto `mario` ankoraŭ ne instalis en sia profilo,
 tiam ĝi ne disponeblas por ĝi. Se la saman kanalon kiel Johano, Mario havas, kaj la saman
 *nix-env*-komandon ĝi kuris, tiam la ziŝan programan datumon Nix ne plu bezonas elŝuti el
@@ -1394,7 +1392,7 @@ instalita:
 
 Se tio estas la kazo, bone. Aliokaze, la *GNU Hello*-pakon unue forigi.
 
-Nu, por je nix-shell montri, je GNU Hello ni plenumu en nix-shell, tiam ĝi revenos al la kutima
+Nu, por je nix-shell montri, je GNU Hello ni rulu en nix-shell, tiam ĝi revenos al la kutima
 uzantŝelo.
 
     $ nix-shell --packages hello --pure --run hello
@@ -1403,7 +1401,7 @@ uzantŝelo.
     hello not found
 
 Kion ĉi tio faras, estas, ke la duumpakon por GNU Hello ĝi elŝutos, puran ŝelan medion kreante, tiam
-progresas por la duumdosieron `hello` plenumi, kiu la konatan saluton montros al la ekrano. Se la
+progresas por la duumdosieron `hello` ruli, kiu la konatan saluton montros al la ekrano. Se la
 `‑‑run` opcio estas forigita, ni faliĝos en ŝelo:
 
     $ nix-shell --packages hello --pure
@@ -1486,7 +1484,7 @@ pkgs.stdenv.mkDerivation {
   buildInputs = [ pkgs.hello pkgs.emem ];
 ```
 
-Por ĉi tiun esprimon manĝigi al nix-shell, ambaŭ je *hello* kaj *emem* uzante, plenumu:
+Por ĉi tiun esprimon manĝigi al nix-shell, ambaŭ je *hello* kaj *emem* uzante, rulu:
 
     $ nix-shell --pure --run "hello | emem -w"
     <p>Hello, world!</p>

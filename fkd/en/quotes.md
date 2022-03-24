@@ -2,7 +2,7 @@ Quotes
 ======
 
 <div class="center">[Esperanto](/eo/citajxoj/) ■ English</div>
-<div class="center">Last updated: March 4, 2022</div>
+<div class="center">Last updated: March 24, 2022</div>
 
 <img src="/bil/wallhaven-77816-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -897,3 +897,6 @@ the years.
 
 
 - I think, therefore I am.<br>—René Descartes
+
+
+- We are a government of the people, by the people, and for the people. So the sovereignty emanates from the people. If we are going to run our sovereignty, everything has to be done by the people and those who will vote and those who will count must be the people.<br>—Edmundo Casiño

@@ -21,7 +21,7 @@ Virtualigado en Linukso per KVM
   + [Bildoj](#bildoj)
   + [KVM-grupo](#grupo)
   + [Retkonektado](#retkonektado)
-- [Plenumo](#plenumo)
+- [Rulo](#rulo)
   + [La bildon ŝargi](#sxargu)
   + [Konekti al la SPICE-ekrano](#ekrano)
   + [La gastan reton agordi](#gastareto)
@@ -114,7 +114,7 @@ ne fakte gravas—oni povas nomigi la bildon kiel `index.html`, tamen tio ne est
 ### <a name="grupo">KVM-grupo</a>
 
 La komandoj ĉi-sube postulas, ke grupo nomiĝas `kvm` devas ekzisti kaj oni estas ano de tiu
-grupo. Por efektivigi tion, plenumu la jenajn komandojn:
+grupo. Por efektivigi tion, rulu la jenajn komandojn:
 
     $ sudo groupadd kvm
     $ sudo usermod -G $(groups | sed 's/ /,/g'),kvm $USER
@@ -128,7 +128,7 @@ La lasta komando varbas onin al la grupo `KVM ` grupo senelsalutante el la seanc
 QEMU subtenas [multajn manierojn](http://wiki.qemu-project.org/Documentation/Networking) por
 agordi retkonektadon por siaj gastoj, tamen por ĉi tiu afiŝo ni uzos nur VDE.
 
-Oni devas plenumi kelkajn komandojn por pretigi la retan medion. Ideale, oni volas konservi la
+Oni devas ruli kelkajn komandojn por pretigi la retan medion. Ideale, oni volas konservi la
 komandojn en ŝela funkcio aŭ skripto:
 
     $ sudo vde_switch -tap tap0 -mod 660 -group kvm -daemon
@@ -146,7 +146,7 @@ La ĉi-supraj komandoj:
 5. Agordos la enkursigan agordon.
 
 
-<a name="plenumo">Plenumo</a>
+<a name="rulo">Rulo</a>
 -----------------------------
 
 
@@ -155,7 +155,7 @@ La ĉi-supraj komandoj:
 Oni nun devas alvoki la komandon `qemu-kvm`—la komando kiu lanĉas ĉion. La nomo de la komando eble
 malsamas kun tiu, kiu instaliĝas ĉe la sistemo.
 
-Se oni instalas operaciumon el praŝargebla bildo—kutime la ISO-dosiero—plenumu la jenajn komandojn:
+Se oni instalas operaciumon el praŝargebla bildo—kutime la ISO-dosiero—rulu la jenajn komandojn:
 
     $ sudo qemu-kvm -cpu host -m 2G -net nic,model=virtio \
     -net vde -soundhw all -vga qxl \
@@ -242,7 +242,7 @@ DNS-serviloj:
 
 ### <a name="restauxri">La retkonektadon restaŭri</a>
 
-Se oni volas specife restaŭri la retkonektadon, plenumu la jenajn komandojn:
+Se oni volas specife restaŭri la retkonektadon, rulu la jenajn komandojn:
 
 ```bash
 $ sudo iptables -t nat -D POSTROUTING -s 10.0.2.0/24 \
@@ -267,7 +267,7 @@ La ĉi-supraj komandoj:
 <a name="cxio">Ĉion kolekti</a>
 ------------------------------
 
-Jen ĉiom da komandoj de supre, kompiligitaj kiel funkcioj, por ke oni povu plenumi ilin ĉe la
+Jen ĉiom da komandoj de supre, kompiligitaj kiel funkcioj, por ke oni povu ruli ilin ĉe la
 komandlinio facile:
 
 ```

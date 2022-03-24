@@ -2,7 +2,7 @@ Citaĵoj
 =======
 
 <div class="center">Esperanto ■ [English](/en/quotes/)</div>
-<div class="center">Laste ĝisdatigita: la 18-an de Marto 2022</div>
+<div class="center">Laste ĝisdatigita: la 24-an de Marto 2022</div>
 
 <img src="/bil/wallhaven-77816-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -884,3 +884,6 @@ tra la jaroj.
 
 
 - Mi rezonas, do mi ekzistas.<br>—Renato KARTEZIO
+
+
+- Ni estas registaro de la popolo, per la popolo, kaj por la popolo. Do la regeco emanas el la popolo. Se ni funkciigos nian regecon, ĉio devas esti farita per la popolo kaj tiuj kiuj voĉdonos kaj tiuj kiuj kalkulos devas esti la popolo.<br>—Edmundo CASIÑO

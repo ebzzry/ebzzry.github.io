@@ -132,13 +132,13 @@ en ĉi tiu diskuto.
 ### <a name="sxlosiloj">Generi la sekurŝelajn ŝlosilojn</a>
 
 Oni devas esti kapabla por veriĝi ĉe la GitHub-konto, antaŭ ol oni povas puŝi la ŝanĝojn. Por
-fari tion, oni devas krei la sekurŝelajn ŝlosilojn. Por fari tion, plenumu la jenan komandon. Certigu,
+fari tion, oni devas krei la sekurŝelajn ŝlosilojn. Por fari tion, rulu la jenan komandon. Certigu,
 ke oni disponigos [fortan pasfrazon](https://xkcd.com/936/), kiam oni invitiĝis:
 
     $ ssh-keygen -t ed25519
 
 Kreinte la ŝlosilojn, oni devas aldoni la ŝlosilojn al la propra GitHub-konto. Por fari
-tion, plenumu la jenan komandon, tiam kopiu la eligon:
+tion, rulu la jenan komandon, tiam kopiu la eligon:
 
     $ cat ~/.ssh/id_ed25519.pub
 
@@ -190,7 +190,7 @@ clone URL**-kampo:
 
 ![SSH clone URL](/bil/klonadreso-de-ssh.png)
 
-Tiam plenumu la jenan komandon, en kiu, `memeho` estas la uzantnomo:
+Tiam rulu la jenan komandon, en kiu, `memeho` estas la uzantnomo:
 
     $ git clone git@github.com:memeho/foobar.git
 

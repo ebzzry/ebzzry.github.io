@@ -8,7 +8,7 @@
 </code></pre><p>Ĝi oni povas uzi, ekzemple, por diskuzadon kontroli, dosierinformon vidi, kaj la malfermajn dosiernumerojn de dosiero aŭ dosierujo vidi:</p><pre><code>% rmap iudosierujo 'du -h' stat 'sudo lsof'</code></pre><h3><a name="fp">fp</a></h3><p>Rapidan manieron por la realan kaj absolutan dosierindikon de dosiero aŭ dosierujo precizigi mi volas havi. Min ĉi tio helpas multe en skriptado. Ĝi estas difinita jene:</p><pre><code class="bash">function fp &#40;&#41; {
   echo &quot;${1:A}&quot;
 }
-</code></pre><p>Se mi estas en simbolligita dosierujo, kaj la realdosierindikon de <code>.</code> mi volas precizigi, la jenan mi povas plenumi:</p><pre><code>% fp .</code></pre><p>Ĉi tiu funkcio estos grava en la sekva sekcio.</p><h3><a name="d">d</a></h3><p>Ofte, kiam mi iras al dosierujo, serion de komandoj mi bezonas plenumi. Tempon por maŝinskribado mi volas savi, do anstataŭ du komandojn plenumi, nur unu mi nur devas plenumi. Manieron por dosierujon rapide ŝanĝigi tra la dosierujstakoj per <code>pushd</code> mi volas havi. Ĝi estas difinita jene:</p><pre><code class="bash">function d &#40;&#41; {
+</code></pre><p>Se mi estas en simbolligita dosierujo, kaj la realdosierindikon de <code>.</code> mi volas precizigi, la jenan mi povas ruli:</p><pre><code>% fp .</code></pre><p>Ĉi tiu funkcio estos grava en la sekva sekcio.</p><h3><a name="d">d</a></h3><p>Ofte, kiam mi iras al dosierujo, serion de komandoj mi bezonas ruli. Tempon por maŝinskribado mi volas savi, do anstataŭ du komandojn ruli, nur unu mi nur devas ruli. Manieron por dosierujon rapide ŝanĝigi tra la dosierujstakoj per <code>pushd</code> mi volas havi. Ĝi estas difinita jene:</p><pre><code class="bash">function d &#40;&#41; {
   if &#40;&#40; ! $#@ &#41;&#41;; then
       builtin cd
   elif &#91;&#91; -d $argv&#91;1&#93; &#93;&#93;; then
@@ -21,9 +21,9 @@
     echo &quot;$0: no such file or directory: $1&quot;
   fi
 }
-</code></pre><p>Kiam je <code>d</code> mi plenumas sole:</p><pre><code>% d</code></pre><p>Mi iros al la hejmdosierujo, samkiel kion memstara <code>cd</code> devus fari:</p><p>Kiam je <code>d</code> mi plenumas kun dosierujo kaj komando:</p><pre><code>% d &#126;/Downloads ls -l</code></pre><p>La aktuala dosierujo ŝanĝiĝos al <code>&#126;/Downloads</code>, tiam je <code>ls -l</code> mi plenumas por la enhavon de tiu dosierujo montri.</p><p>Se la eligo de <code>dirs -v</code> estas la jena:</p><pre><code>0       /usr/local
+</code></pre><p>Kiam je <code>d</code> mi rulas sole:</p><pre><code>% d</code></pre><p>Mi iros al la hejmdosierujo, samkiel kion memstara <code>cd</code> devus fari:</p><p>Kiam je <code>d</code> mi rulas kun dosierujo kaj komando:</p><pre><code>% d &#126;/Downloads ls -l</code></pre><p>La aktuala dosierujo ŝanĝiĝos al <code>&#126;/Downloads</code>, tiam je <code>ls -l</code> mi rulas por la enhavon de tiu dosierujo montri.</p><p>Se la eligo de <code>dirs -v</code> estas la jena:</p><pre><code>0       /usr/local
 1       /tmp
-</code></pre><p>Tiam, je <code>d</code> mi plenumu, kaj la dua enskribo estas uzota kun komando:</p><pre><code>% d -1 date</code></pre><p>La dosierujo ŝanĝiĝos al <code>/tmp/</code>, tiam la komando <code>date</code> kuros.</p><h3><a name="d_krisigno">d!</a></h3><p>Kiel la nomo implicas, <code>d!</code> similas al sia kuzo nur, ke se la cela dosierujo ne ekzistas, ĝin ĝi kreas, kaj la saman konduton de <code>d</code> ĝi faras poste. Ĝi estas difinita jene:</p><pre><code class="bash">function d! &#40;&#41; {
+</code></pre><p>Tiam, je <code>d</code> mi rulu, kaj la dua enskribo estas uzota kun komando:</p><pre><code>% d -1 date</code></pre><p>La dosierujo ŝanĝiĝos al <code>/tmp/</code>, tiam la komando <code>date</code> kuros.</p><h3><a name="d_krisigno">d!</a></h3><p>Kiel la nomo implicas, <code>d!</code> similas al sia kuzo nur, ke se la cela dosierujo ne ekzistas, ĝin ĝi kreas, kaj la saman konduton de <code>d</code> ĝi faras poste. Ĝi estas difinita jene:</p><pre><code class="bash">function d! &#40;&#41; {
   mkdir -p $argv&#91;1&#93;
   d &quot;$@&quot;
 }
@@ -34,7 +34,7 @@
     command rm -rf $@
   fi
 }
-</code></pre><p>La komando <code>commando</code> certigas, ke la sistemduumdosieron <code>rm</code> mi alvokas anstataŭ ia ŝela alinomo aŭ funkcio.</p><h3><a name="rm_pluso">rm+</a></h3><p>Kiam ajn mi volas rapide forviŝi arbon kiu havas multe da dosiero kaj dosierujo, la komandon <code>parallel</code> mi uzas por la forviŝadon plenumi paralele, anstataŭ serie. Ĝi estas difinita jene:</p><pre><code class="bash">function rm+ &#40;&#41; {
+</code></pre><p>La komando <code>commando</code> certigas, ke la sistemduumdosieron <code>rm</code> mi alvokas anstataŭ ia ŝela alinomo aŭ funkcio.</p><h3><a name="rm_pluso">rm+</a></h3><p>Kiam ajn mi volas rapide forviŝi arbon kiu havas multe da dosiero kaj dosierujo, la komandon <code>parallel</code> mi uzas por la forviŝadon ruli paralele, anstataŭ serie. Ĝi estas difinita jene:</p><pre><code class="bash">function rm+ &#40;&#41; {
   parallel 'rm -rf {}' ::: $@
 }
 </code></pre><p>La pakadministrilon de la sistemo kontrolu kiel je <code>parallel</code> instali.</p><h3><a name="rm_heliko">rm@</a></h3><p>Kelkfoje, dosieron aŭ dosierujon mi bezonas forviŝi sen la ŝancoj de retrovado. Por tion fari, la komandon <code>shred</code> mi uzas. Ĝi estas difinita jene:</p><pre><code class="bash">function rm@ &#40;&#41; {
@@ -45,7 +45,7 @@
     shred -vfzun 10 $1
   fi
 }
-</code></pre><p>La pakadministrilon de la sistemo kontrolu kiel je <code>shred</code> instali.</p><h3><a name="defmk">def_mk</a></h3><p>Helpilojn ci tiu helpilo generas. Onin ĝi permesas por funkciojn krei kiuj antaŭproduktajn dosierojn kreas antaŭ la vera komando estas plenumita. Ĝi estas difinita kiel:</p><pre><code class="bash">function def&#95;mk &#40;&#41; {
+</code></pre><p>La pakadministrilon de la sistemo kontrolu kiel je <code>shred</code> instali.</p><h3><a name="defmk">def_mk</a></h3><p>Helpilojn ci tiu helpilo generas. Onin ĝi permesas por funkciojn krei kiuj antaŭproduktajn dosierojn kreas antaŭ la vera komando estas rulita. Ĝi estas difinita kiel:</p><pre><code class="bash">function def&#95;mk &#40;&#41; {
   eval &quot;function ${argv&#91;1&#93;} &#40;&#41; {
             if &#91;&#91; \$# -ge 2 &#93;&#93;; then
                 if &#91;&#91; ! -e \${@: -1} &#93;&#93;; then
@@ -108,11 +108,11 @@
 1 directory, 2 files
 </code></pre><h2><a name="klavkombinoj">Klavkombinoj</a></h2><p>Ekster la komandoj kiuj estas maŝinskribitaj, klavkombinoj oni ankaŭ povas alvoki por ajnajn komandojn fari. Jen kelkaj, kiujn mi uzas ofte:</p><h3><a name="insertlastword">insert-last-word</a></h3><p>Kiam la lastan vorton de la lasta komando mi volas enmeti, je <code>insert-last-word</code> mi vokas. Ekzemple, se la jenan oni havas, en kiu la ĉapelo estas la kursoro:</p><pre><code>% dig hundo12345.kato.muzo.io
 % mtr
-      &#94;</code></pre><p>Kiam je <code>M-x insert-last-word EN</code> mi plenumas, la lastan vorton de la lasta komando ĝi enmetas, ĝin fari al:</p><pre><code>% dig hundo12345.kato.muzo.io
+      &#94;</code></pre><p>Kiam je <code>M-x insert-last-word EN</code> mi rulas, la lastan vorton de la lasta komando ĝi enmetas, ĝin fari al:</p><pre><code>% dig hundo12345.kato.muzo.io
 % mtr hundo12345.kato.muzo.io
                              &#94;</code></pre><p>Ĉi tio certigas, ke la argumento estas ĝuste kopiita.</p><p>La klavo estas defaŭlte bindita al <kbd>M-.</kbd>. Se oni volas certigi, ke tiun klavkombinon oni havas, la jenan metu en la agordo:</p><pre><code>bindkey &quot;\e.&quot; insert-last-word</code></pre><h3><a name="copyprevshellword">copy-prev-shell-word</a></h3><p>Se la lastan vorton en la aktuala komandlinio mi volas ripeti, je <code>copy-prev-shell-word</code> mi alvokas. Ekzemple, se la jenan oni havas:</p><pre><code>% cp cxi.tio.estas.tre.longa.nomo
-                                  &#94;</code></pre><p>Kiam je <code>M-x copy-prev-shell-word EN</code> mi plenumas, la lastan vorton ziŝo enmetas, gin fari al:</p><pre><code>% cp cxi.tio.estas.tre.longa.nomo cxi.tio.estas.tre.longa.nomo
-                                                              &#94;</code></pre><p>Ĝin mi bindis al <kbd>M-=</kbd>. Por ĝin bindi al la agorddosiero:</p><pre><code>bindkey &quot;\e=&quot; copy-prev-shell-word</code></pre><h3><a name="anstatauxigoj">Anstataŭigoj</a></h3><p>Krome la plenumado de <code>M-x</code> komandoj, onin ziŝo permesas por klavkombinojn difini kiu ajnan tekston enmeti ĉe la komandlinion, inkluzive stirsignoj.</p><p>La eligon de komandoj mi ofte bezonis akiri. Kutime la jenan mi faras:</p><pre><code>% foo `some command`</code></pre><p>aŭ</p><pre><code>% foo $&#40;some command&#41;</code></pre><p>La antaŭa pli facilas por maŝinskribi, tamen ĝi ne povas nestiĝi; la ĉi tiu estas tro malfacila por maŝinskribi. Por tio, la klavkombinon <kbd>M-`</kbd> mi bindis jene:</p><pre><code>% bindkey -s '\e`' '$&#40;&#41;\C-b'</code></pre><p>Do, se la jenan mi havas:</p><pre><code>% foo
+                                  &#94;</code></pre><p>Kiam je <code>M-x copy-prev-shell-word EN</code> mi rulas, la lastan vorton ziŝo enmetas, gin fari al:</p><pre><code>% cp cxi.tio.estas.tre.longa.nomo cxi.tio.estas.tre.longa.nomo
+                                                              &#94;</code></pre><p>Ĝin mi bindis al <kbd>M-=</kbd>. Por ĝin bindi al la agorddosiero:</p><pre><code>bindkey &quot;\e=&quot; copy-prev-shell-word</code></pre><h3><a name="anstatauxigoj">Anstataŭigoj</a></h3><p>Krome la rulo de <code>M-x</code> komandoj, onin ziŝo permesas por klavkombinojn difini kiu ajnan tekston enmeti ĉe la komandlinion, inkluzive stirsignoj.</p><p>La eligon de komandoj mi ofte bezonis akiri. Kutime la jenan mi faras:</p><pre><code>% foo `some command`</code></pre><p>aŭ</p><pre><code>% foo $&#40;some command&#41;</code></pre><p>La antaŭa pli facilas por maŝinskribi, tamen ĝi ne povas nestiĝi; la ĉi tiu estas tro malfacila por maŝinskribi. Por tio, la klavkombinon <kbd>M-`</kbd> mi bindis jene:</p><pre><code>% bindkey -s '\e`' '$&#40;&#41;\C-b'</code></pre><p>Do, se la jenan mi havas:</p><pre><code>% foo
       &#94;</code></pre><p>Kiam je <kbd>M-`</kbd> mi premas, la jenan mi akiros:</p><pre><code>% foo $&#40;&#41;
         &#94;</code></pre><h3><a name="citiloj">Citiloj</a></h3><p>La bezonon por la argumenton de komandon citi mi ofte havas, precipe se metaesprimojn ĝi havas. Ofta kazo estas de jutubaj retadresoj, kiu la <code>?</code> signon havas:</p><p>Por tio, je <kbd>M-'</kbd> bindis kiel jene:</p><pre><code>% bindkey -s &quot;\e'&quot; &quot;''\C-b&quot;</code></pre><p>Do, kiam la jenan mi havas:</p><pre><code>% youtube-dl
              &#94;</code></pre><p>Kiam je <kbd>M-'</kbd> mi premas, la jenan mi akiros:</p><pre><code>% youtube-dl ''
