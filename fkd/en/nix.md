@@ -358,16 +358,15 @@ Exit the shell, switch to the graphical interface with <kbd>Alt+F7</kbd>, then l
 The component that forms the heart of NixOS and Nixpkgs is the [Nix](https://nixos.org/nix)
 language. It is a declarative language designed in mind to handle packages.
 
-To make it easier to understand the language, let’s install the Nix REPL:
+To make it easier to understand the language, let’s run `nix repl`:
 
-    $ nix-env -iA $(nix-channel --list | awk '{print $1}').nix-repl
+    $ nix repl
 
 Next, let’s run it. You’ll be greeted with the version number, and the nix-repl prompt. At the time
-of writing, the latest stable version is 1.11.8:
+of writing, the latest stable version is 2.4:
 
 ```nix
-$ nix-repl
-Welcome to Nix version 1.11.8. Type :? for help.
+Welcome to Nix 2.4. Type :? for help.
 
 nix-repl>
 ```

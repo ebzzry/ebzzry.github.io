@@ -900,3 +900,6 @@ the years.
 
 
 - We are a government of the people, by the people, and for the people. So the sovereignty emanates from the people. If we are going to run our sovereignty, everything has to be done by the people and those who will vote and those who will count must be the people.<br>—Edmundo Casiño
+
+
+- Look, if you had one shot, or one opportunity, to seize everything you ever wanted, in one moment, would you capture it, or just let it slip?<br>—Marshall Bruce Mathers III
