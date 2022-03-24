@@ -233,7 +233,7 @@ Por ŝalti tre babileman eligon:
 
 Kiam oni ne fidas je la funkciado de la disko kie oni enmemorigas la dosierkopiojn, malŝalti la
 locate- kaj updatedb-servojn. Kutime ĝi estas rulita per cron. Bedaŭrinde, ĝi metas multe da
-ŝarĝo al la disko kaj eble trostresi ĝin. La sperto povas varii.
+ŝargo al la disko kaj eble trostresi ĝin. La sperto povas varii.
 
 Por malŝalti tiujn servojn ĉe NixOS, aldonu la jenan al `/etc/nixos/configuration.nix`:
 

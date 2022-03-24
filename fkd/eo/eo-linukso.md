@@ -43,7 +43,7 @@ aldonu jenan kodeton:
 
     keycode 127 = Multi‎ߺ‎key
 
-Tiam, je `~/.xmodmap` reŝarĝu:
+Tiam, je `~/.xmodmap` reŝargu:
 
     xmodmap ~/.xmodmap
 

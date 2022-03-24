@@ -50,7 +50,7 @@ interaga uzantŝelo, ĝi funkcias bone; escepte tio, ne.
 Ekzistas aliaj skriptadaj solvoj en aliaj lingvoj. Haskelo, Pitono, Skimo, kaj
 Rubeno, kelkajn ilin nomante, ĝin havas. Tamen estas bona eblo de komunlispo,
 kiu estas malfacila por realigi aŭ ne ekzistas en aliaj aliroj: pro la skriptoj
-mem estas validaj komunlispaj programoj, la programojn mi povas ŝarĝi en la REPL
+mem estas validaj komunlispaj programoj, la programojn mi povas ŝargi en la REPL
 kaj afablajn aferojn mi povas fari kun tio. Neniu venas proksima al la flekso,
 kiun komunlispo provizas interagante kun realtempaj kurantaj programoj.
 
@@ -204,8 +204,8 @@ multvoka duumdosiero krei. Pro nur tri funkciojn ni difinis ene la korpo de `EXP
 nur tri simbolligilojn al `my-scripts` ĝi kreos. La eligan dosieron la opcio `‑‑output $(NAME)`
 precizigas. La `‑‑dump !` signifas, ke bildon ĝi kreos, por pli rapidan startigon ŝalti. La opcio
 `‑‑lisp sbcl` signifas, ke je SBCL ni volas uzi, por ĉi tiu skripto. La opcio `‑‑quicklisp`
-signifas, ke je [Quicklisp](https://www.quicklisp.org) ni ŝarĝas kun la bildo. La sistemon, kiun ni
-kreas la opcio `‑‑system $(NAME)` ŝarĝas. La enirejo de nia programo la opcio
+signifas, ke je [Quicklisp](https://www.quicklisp.org) ni ŝargas kun la bildo. La sistemon, kiun ni
+kreas la opcio `‑‑system $(NAME)` ŝargas. La enirejo de nia programo la opcio
 `‑‑dispatch-system $(NAME)/main` precizigas.
 
 
