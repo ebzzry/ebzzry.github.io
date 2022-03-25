@@ -751,7 +751,7 @@ nix-repl> birdo { a = "oro"; b = "argxento"; }
 "oroargxento"
 ```
 
-Por aldoni plian flekson, Nix subtenasla uzon de pseŭdo-«rest» argumentoj. Ni modifu La funkcion
+Por aldoni plian flekson, Nix subtenas la uzon de pseŭdo-«rest» argumentoj. Ni modifu La funkcion
 ĉi-supre:
 
 ```nix
@@ -765,23 +765,23 @@ nix-repl> birdo { a = "ve"; b = "hundo"; }
 "vehundo"
 ```
 
-Estas same. Do kiel tiun flekson ni povas uzi? Etikodon por la atribuaro ni kreos por ke ni
+Estas same. Do kiel ni povas uzi tiun flekson? Ni kreos etikodon por la atribuaro por ke ni
 povu referenci al la ‹ekstraj› valoroj:
 
 ```nix
 nix-repl> birdo = atribuoj@{ a, b, ...}: a + b + atribuoj.c
 ```
 
-Ĝin ni simple uzu kiel antaŭe, sed kun la uzado de la etikedo:
+Ni simple uzu ĝin kiel antaŭe, sed kun la uzado de la etikedo:
 
 ```nix
 nix-repl> birdo { a = "oro"; b = "argxento"; c = "bronzo"; }
 "oroargxentobronzo"
 ```
 
-Mi diris ‹pseŭda› ĉar la valoro por `c` estis ankoraŭ postulita.
+Mi diris «pseŭda» ĉar la valoro por `c` estis ankoraŭ postulita.
 
-Implicitaj valoroj kaj variabla loknombro pova esti kunmetitaj:
+Implicitaj valoroj kaj variabla loknombro povas esti kunmetitaj:
 
 ```nix
 nix-repl> birdo = atribuoj@{ a, b, c ? "C", ... }: a + b + c + atribuoj.z
@@ -797,36 +797,36 @@ nix-repl> birdo { a = "A"; b = "B"; c = "x"; z = "Z"; }
 
 ### <a name="nixlet">Let</a>
 
-Onin la ŝlosilvorto `let` permesas por variablojn difini en lokamplekso. Ekzemple, por la
-identigilojn `x` kaj `y` igi videblaj nur en lokamplekso:
+La ŝlosilvorto `let` permesas onin por difini variablojn en lokamplekso. Ekzemple, por igi la
+identigilojn `x` kaj `y` videblaj nur en lokamplekso:
 
 ```nix
 nix-repl> let x = "hundo"; y = "kato"; in x + anaso { a = "ne"; b = "vere"; } "efektive" + y
 "hundone vereefektivekato"
 ```
 
-La lastan `;` antaŭ la `in` ŝlosilvorto kiu iras kun `let` memoru—la komencon de la
-korpo de `let` ĝi markas. La `let` konstruo kondutas simile al la `let` ŝlosilvorto troveblas en
-programlingvoj kiel Lispo kaj Haskelo.
+Memoru la lastan `;` antaŭ la `in` ŝlosilvorto kiu iras kun `let`—ĝi markas la komencon de la korpo
+de `let`. La konstruo `let` kondutas simile al la ŝlosilvorto `let` troveblas en programlingvoj kiel
+Lispo kaj Haskelo.
 
 
 ### <a name="nixwith">With</a>
 
-Onin la ŝlosilvorto `with` permesas por arvalorojn demeti en amplekso:
+La ŝlosilvorto `with` permesas onin por demeti arvalorojn en amplekso:
 
 ```nix
 nix-repl> with { x = "hundo"; y = "kato"; }; anaso { a = y; b = x; } " xyz"
 "kato hundo xyz"
 ```
 
-Kio okazis ĉi tie, estas, ke la valoroj en tiu aro senvualiĝis por ilin disponebligi en la korpo de
+Kio okazis ĉi tie, estas, ke senvualiĝis la valoroj en tiu aro por disponebligi ilin en la korpo de
 `with`.
 
 
 
 ### <a name="nixkondicxesprimoj">Kondiĉesprimoj</a>
 
-Kondiĉesprimoj estas faritaj per la `if` ŝlosilvorto. Similan formon de plimultaj lingvoj ĝi havas:
+Kondiĉesprimoj estas faritaj per la `if` ŝlosilvorto. Ĝi havas similan formon de plimultaj lingvoj:
 
 ```nix
 nix-repl> if true then "true" else "false"

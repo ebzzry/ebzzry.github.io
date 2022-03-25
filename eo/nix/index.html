@@ -234,13 +234,13 @@ nix-repl&gt; birdo { a = &quot;oro&quot;; }
 
 nix-repl&gt; birdo { a = &quot;oro&quot;; b = &quot;argxento&quot;; }
 &quot;oroargxento&quot;
-</code></pre><p>Por aldoni plian flekson, Nix subtenasla uzon de pseŭdo-«rest» argumentoj. Ni modifu La funkcion ĉi-supre:</p><pre><code class="nix">nix-repl&gt; birdo = { a, b, ...}: a + b
+</code></pre><p>Por aldoni plian flekson, Nix subtenas la uzon de pseŭdo-«rest» argumentoj. Ni modifu La funkcion ĉi-supre:</p><pre><code class="nix">nix-repl&gt; birdo = { a, b, ...}: a + b
 </code></pre><p>Ĝin ni uzu:</p><pre><code class="nix">nix-repl&gt; birdo { a = &quot;ve&quot;; b = &quot;hundo&quot;; }
 &quot;vehundo&quot;
-</code></pre><p>Estas same. Do kiel tiun flekson ni povas uzi? Etikodon por la atribuaro ni kreos por ke ni povu referenci al la ‹ekstraj› valoroj:</p><pre><code class="nix">nix-repl&gt; birdo = atribuoj@{ a, b, ...}: a + b + atribuoj.c
-</code></pre><p>Ĝin ni simple uzu kiel antaŭe, sed kun la uzado de la etikedo:</p><pre><code class="nix">nix-repl&gt; birdo { a = &quot;oro&quot;; b = &quot;argxento&quot;; c = &quot;bronzo&quot;; }
+</code></pre><p>Estas same. Do kiel ni povas uzi tiun flekson? Ni kreos etikodon por la atribuaro por ke ni povu referenci al la ‹ekstraj› valoroj:</p><pre><code class="nix">nix-repl&gt; birdo = atribuoj@{ a, b, ...}: a + b + atribuoj.c
+</code></pre><p>Ni simple uzu ĝin kiel antaŭe, sed kun la uzado de la etikedo:</p><pre><code class="nix">nix-repl&gt; birdo { a = &quot;oro&quot;; b = &quot;argxento&quot;; c = &quot;bronzo&quot;; }
 &quot;oroargxentobronzo&quot;
-</code></pre><p>Mi diris ‹pseŭda› ĉar la valoro por <code>c</code> estis ankoraŭ postulita.</p><p>Implicitaj valoroj kaj variabla loknombro pova esti kunmetitaj:</p><pre><code class="nix">nix-repl&gt; birdo = atribuoj@{ a, b, c ? &quot;C&quot;, ... }: a + b + c + atribuoj.z
+</code></pre><p>Mi diris «pseŭda» ĉar la valoro por <code>c</code> estis ankoraŭ postulita.</p><p>Implicitaj valoroj kaj variabla loknombro povas esti kunmetitaj:</p><pre><code class="nix">nix-repl&gt; birdo = atribuoj@{ a, b, c ? &quot;C&quot;, ... }: a + b + c + atribuoj.z
 
 nix-repl&gt; birdo { a = &quot;A&quot;; b = &quot;B&quot;; z = &quot;Z&quot;; }
 &quot;ABCZ&quot;
@@ -248,11 +248,11 @@ nix-repl&gt; birdo { a = &quot;A&quot;; b = &quot;B&quot;; z = &quot;Z&quot;; }
 nix-repl&gt; birdo { a = &quot;A&quot;; b = &quot;B&quot;; c = &quot;x&quot;; z = &quot;Z&quot;; }
 &quot;ABXZ&quot;
 
-</code></pre><h3><a name="nixlet">Let</a></h3><p>Onin la ŝlosilvorto <code>let</code> permesas por variablojn difini en lokamplekso. Ekzemple, por la identigilojn <code>x</code> kaj <code>y</code> igi videblaj nur en lokamplekso:</p><pre><code class="nix">nix-repl&gt; let x = &quot;hundo&quot;; y = &quot;kato&quot;; in x + anaso { a = &quot;ne&quot;; b = &quot;vere&quot;; } &quot;efektive&quot; + y
+</code></pre><h3><a name="nixlet">Let</a></h3><p>La ŝlosilvorto <code>let</code> permesas onin por difini variablojn en lokamplekso. Ekzemple, por igi la identigilojn <code>x</code> kaj <code>y</code> videblaj nur en lokamplekso:</p><pre><code class="nix">nix-repl&gt; let x = &quot;hundo&quot;; y = &quot;kato&quot;; in x + anaso { a = &quot;ne&quot;; b = &quot;vere&quot;; } &quot;efektive&quot; + y
 &quot;hundone vereefektivekato&quot;
-</code></pre><p>La lastan <code>;</code> antaŭ la <code>in</code> ŝlosilvorto kiu iras kun <code>let</code> memoru—la komencon de la korpo de <code>let</code> ĝi markas. La <code>let</code> konstruo kondutas simile al la <code>let</code> ŝlosilvorto troveblas en programlingvoj kiel Lispo kaj Haskelo.</p><h3><a name="nixwith">With</a></h3><p>Onin la ŝlosilvorto <code>with</code> permesas por arvalorojn demeti en amplekso:</p><pre><code class="nix">nix-repl&gt; with { x = &quot;hundo&quot;; y = &quot;kato&quot;; }; anaso { a = y; b = x; } &quot; xyz&quot;
+</code></pre><p>Memoru la lastan <code>;</code> antaŭ la <code>in</code> ŝlosilvorto kiu iras kun <code>let</code>—ĝi markas la komencon de la korpo de <code>let</code>. La konstruo <code>let</code> kondutas simile al la ŝlosilvorto <code>let</code> troveblas en programlingvoj kiel Lispo kaj Haskelo.</p><h3><a name="nixwith">With</a></h3><p>La ŝlosilvorto <code>with</code> permesas onin por demeti arvalorojn en amplekso:</p><pre><code class="nix">nix-repl&gt; with { x = &quot;hundo&quot;; y = &quot;kato&quot;; }; anaso { a = y; b = x; } &quot; xyz&quot;
 &quot;kato hundo xyz&quot;
-</code></pre><p>Kio okazis ĉi tie, estas, ke la valoroj en tiu aro senvualiĝis por ilin disponebligi en la korpo de <code>with</code>.</p><h3><a name="nixkondicxesprimoj">Kondiĉesprimoj</a></h3><p>Kondiĉesprimoj estas faritaj per la <code>if</code> ŝlosilvorto. Similan formon de plimultaj lingvoj ĝi havas:</p><pre><code class="nix">nix-repl&gt; if true then &quot;true&quot; else &quot;false&quot;
+</code></pre><p>Kio okazis ĉi tie, estas, ke senvualiĝis la valoroj en tiu aro por disponebligi ilin en la korpo de <code>with</code>.</p><h3><a name="nixkondicxesprimoj">Kondiĉesprimoj</a></h3><p>Kondiĉesprimoj estas faritaj per la <code>if</code> ŝlosilvorto. Ĝi havas similan formon de plimultaj lingvoj:</p><pre><code class="nix">nix-repl&gt; if true then &quot;true&quot; else &quot;false&quot;
 &quot;true&quot;
 </code></pre><p>Ĝi povas esti nestiĝita:</p><pre><code class="nix">nix-repl&gt; if false then &quot;true&quot; else if false then &quot;true&quot; else if false then &quot;true&quot; else &quot;false&quot;
 &quot;false&quot;
