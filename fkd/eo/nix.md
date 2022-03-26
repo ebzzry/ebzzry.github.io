@@ -87,7 +87,7 @@ rompigis ĝin? Kiom da fojoj, pro ĉagrenego, oni rezignis pri la riparado de la
 decidis por reinstali la sistemon de nulo. Facilas restaŭri datumdosierojn. Restaŭri sistemagordon
 de la lasta funkcia stato, bedaŭrinde, estas unudirekta bileto al geheno.
 
-[NixOS](https://nixos.org) (niks-oh-es) estas linuksa distribuo kiu solvas ĉi tiajn problemojn per
+[NixOS](https://nixos.org) (niks-oŭ-es) estas linuksa distribuo kiu solvas ĉi tiajn problemojn per
 ekspluati la determinismon de [Nix](https://nixos.org/nix) kaj per uzi unu deklaran agorddosieron
 kiu tenas ĉiomajn agordaĵojn kaj alĝustigilojn tenas en unu loko—`/etc/nixos/configuration.nix`. Ĉi
 tiu dosiero enhavas informon pri la dosiersistemo, uzantoj, servoj, retagordo, enigaparatoj, kernaj
@@ -896,25 +896,25 @@ en la [gvidilo](https://nixos.org/nix/manual/#ch-expression-language).
 <a name="nixpkgs">Nixpkgs</a>
 -----------------------------
 
-Nixpkgs (niks-pa-kej-ĝes) estas kolekto de pakoj organizitaj kaj administritaj per uzantoj
-tutmonde. Pro tio ke la fontkodo estas en [GitHub](https://github.com/nixos/nixpkgs), la avantaĝon
-de la potenca kunlaborada sistemo kiun tiu platformo ofertas ĝi eblas ekspluati. Grandan vicaron da
-pakoj la [kolekto](https://nixos.org/nixos/packages.html) havas, de produktivecaj apoj al teoremaj
-pruviloj.
+Nixpkgs (niks-pa-kej-ĝes) estas kolekto de pakoj organizitaj kaj administritaj per uzantoj tutmonde.
+Pro tio ke la fontkodo estas ĉe [GitHub](https://github.com/nixos/nixpkgs), ĝi eblas ekspluati la
+avantaĝon de la potenca kunlaborada sistemo kiun tiu platformo ofertas. La
+[kolekto](https://nixos.org/nixos/packages.html) havas grandan vicaron da pakoj, de produktivecaj
+apoj al teoremaj pruviloj.
 
-Pakojn plejparto de popularaj operaciumoj traktas bone, ĝis ili ne plu. Tiel longe kiel oni movas en
-rektan linion, sole, oni sekuras. Aferoj ŝanĝiĝas, kiam aliaj homoj enkondukiĝas en la marŝo. Por ke
-la tutgrupo movu en unisono, ĉiuj devas esti konektita al unu la alia. Se ano decidas forvojaĝi, kaj
-sole marŝi, la tutgrupo kripliĝos. Tamen, se ĝin tiu ano decidas kloni por ke la forvojaĝado fariĝu
-sendependa, la originala marŝada grupo fariĝas nemodifita.
+Plejparto de popularaj operaciumoj pakojn traktas bone, ĝis ili ne plu. Tiel longe kiel oni movas en
+rektan linion, sole, oni sekuras. Aferoj ŝanĝiĝas kiam aliaj homoj enkondukiĝas en la marŝado. Por
+ke la tutgrupo movu en unisono, ĉiuj devas esti konektitaj al unu la alia. Se ano decidas forvojaĝi,
+kaj sole marŝi, la tutgrupo kripliĝos. Tamen, se tiu ano decidas kloni ĝin por ke la forvojaĝado
+fariĝu sendependa, la originala marŝada grupo fariĝas neŝanĝita.
 
-La kazon de distribuo celita kiel pluruzanta produkta disvolva medio ni traktu. Kiam fajrfokson
-versio 100 oni instalas, la ĉefa duuma dosiero iras al aŭ `/usr/bin/firefox` aŭ
-`/usr/local/bin/firefox`. Sekve, la apon el tiu dosierindiko ĉiomajn uzantojn povas aliri; Johano,
-Mario, kaj Petro feliĉas. Bedaŭrinde, se ĝin Johano decidis aktualigi al versio 200, la sama apo
-kiun Mario kaj Petro uzas ankaŭ aktualiĝis! Tio ne estas bonaĵo se la malnovan version kiu funkcias
-al ili ili preferas! Onin Nix permesas por plurajn versiojn de programaro havi sen kolizioj al la
-aliaj versioj. Siajn preferatajn versiojn de fajrfokso Johano, Mario, kaj Petro povas havi sen
+Ni traktu la kazon de distribuo celita kiel pluruzanta produkta disvolva medio. Kiam oni instalas
+fajrfokson versio 100, la ĉefa duuma dosiero iras al aŭ `/usr/bin/firefox` aŭ
+`/usr/local/bin/firefox`. Sekve, ĉiom da uzantoj povas aliri la apon el tiu dosierindiko; feliĉas
+Johano, Mario, kaj Petro. Bedaŭrinde, se Johano decidis aktualigi ĝin al versio 200, la sama apo
+kiun Mario kaj Petro uzas ankaŭ aktualiĝos! Tio ne estas bonafero se ili preferas la malnovan
+version kiu funkcias al ili! Nix permesas onin por havi plurajn versiojn de programaro sen kolizioj
+al la aliaj versioj. Johano, Mario, kaj Petro povas havi siajn preferatajn versiojn de fajrfokso sen
 konfliktoj kun la aliaj versioj. Kiel ĝin Nixpkgs faras? Ĝin ĝi faras per la komponantojn nomi per
 iliaj kalkulitaj kontrolsumoj kaj per komunan tutmondan lokon ne uzi.
 
