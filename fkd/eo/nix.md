@@ -2,7 +2,7 @@ Milda Enkonduko al la Nix-Familio
 =================================
 
 <div class="center">Esperanto ■ [English](/en/nix/)</div>
-<div class="center">Laste ĝisdatigita: la 22-an de Februaro 2022</div>
+<div class="center">Laste ĝisdatigita: la 25-an de Marto 2022</div>
 
 >Ne maltrankviliĝu pri tio, kion la aliaj faros. La plej bona maniero por antaŭdiri la estontecon
 >estas por eltrovi ĝin.<br>―Alan KAY
@@ -826,7 +826,7 @@ Kio okazis ĉi tie, estas, ke senvualiĝis la valoroj en tiu aro por disponeblig
 
 ### <a name="nixkondicxesprimoj">Kondiĉesprimoj</a>
 
-Kondiĉesprimoj estas faritaj per la `if` ŝlosilvorto. Ĝi havas similan formon de plimultaj lingvoj:
+Kondiĉesprimoj estas faritaj per la ŝlosilvorto `if`. Ĝi havas similan formon de plimultaj lingvoj:
 
 ```nix
 nix-repl> if true then "true" else "false"
@@ -842,8 +842,9 @@ nix-repl> if false then "true" else if false then "true" else if false then "tru
 
 ### <a name="nixdosierenportoj">Dosierenportoj</a>
 
-La ideo de dosierojn enporti en Nix-esprimo estas subtile malsame al aliaj lingvoj. Enportoj en Nix
-intime rilatas al aroj. Supozante, ke la dosieron `ve.nix` ni havas, kiu la jenan enhavas:
+La ideo de enporti dosierojn en Nix-esprimo estas subtile malsama kontraste de aliaj lingvoj.
+Enportoj en Nix estas intime rilata al aroj. Supozante, ke ni havas la dosieron `ve.nix` , kiu
+enhavas la jenan:
 
 ```nix
 let
@@ -853,29 +854,29 @@ in {
 }
 ```
 
-La saman `ve` la let-esprimo bindas al funkcio kiu unu argumenton akceptas. En la korpo de `let`,
-aron ĝi revenas kiu unu membron kun la nomo `ve` havas—tiu en la maldekstra parto de la `=`. La
-valoro de ĉi tiu ano estas la funkcio kiun ni ĵus difinis. La grava koncepto por memorigi, estas, ke
-atribuaron ĉi tiu let-esprimo revenas.
+La `let`-esprimo bindas la saman `ve` al funkcio kiu akceptas unu argumenton. En la korpo de `let`,
+ĝi revenas aron kiu havas unu membron kun la nomo `ve`—tiu en la maldekstra parto de `=`. La valoro
+de ĉi tiu ano estas la funkcio kiun ni ĵus difinis. La grava koncepto por memorigi, estas, ke
+ĉi tiu `let`-esprimo revenas atribuaron .
 
-Ni reen iru al la [REPL (angle)](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop)
-por ĉi tiun dosieron uzi:
+Ni iru reen al la [REPL (angle)](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop)
+por uzi ĉi tiun dosieron:
 
 ```nix
 nix-repl> import ./ve.nix
 { ve = «lambda»; }
 ```
 
-La lambdo-terminon ni denove vidas. Sajnas, ke la `ve` nomo ĉi tie estas funkcio. Nun, kiel ĉi tiun
-valoron ni povas elreferenci? La operatoron `.` ni uzu!
+Ni denove vidas la lambdo-terminon. Sajnas, ke la nomo `ve`, ĉi tie, estas funkcio. Nun, kiel ni
+povas elreferenci ĉi tiun valoron? Ni uzu la operatoron `.`!
 
 ```nix
 nix-repl> (import ./ve.nix).ve "hundo"
 "hundove"
 ```
 
-Rondkrampojn ni devis uzi tial, ke ne ekzistas tia dosiero `ve.nix.ve` en la aktuala dosierujo. Se ĝin
-ni trapasos, ĝi aperos jene:
+Ni devis uzi rondkrampojn tial, ke ne ekzistas tia dosiero `ve.nix.ve` en la aktuala dosierujo. Se
+ni trapasos ĝin, ĝi aperos jene:
 
 ```nix
 nix-repl> { ve = «lambda»; }.ve "hundo"

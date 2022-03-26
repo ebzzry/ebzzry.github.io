@@ -858,7 +858,7 @@ tra la jaroj.
   ĝi.<br>—Giulio TONONI
 
 
-- Programado en Lispo proksimiĝas, mi opinias, ie inter 1 000 kaj 50 000 oble pli rapida ol la
+- Programado en Lispo alproksimiĝas, mi opinias, ie inter 1 000 kaj 50 000 oble pli rapida ol la
   programado en iu ajn kiujn vi nomas modernaj aŭ plibonigitaj programlingvoj.<br>—Douglas LENAT
 
 
