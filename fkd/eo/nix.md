@@ -915,17 +915,17 @@ Johano, Mario, kaj Petro. Bedaŭrinde, se Johano decidis aktualigi ĝin al versi
 kiun Mario kaj Petro uzas ankaŭ aktualiĝos! Tio ne estas bonafero se ili preferas la malnovan
 version kiu funkcias al ili! Nix permesas onin por havi plurajn versiojn de programaro sen kolizioj
 al la aliaj versioj. Johano, Mario, kaj Petro povas havi siajn preferatajn versiojn de fajrfokso sen
-konfliktoj kun la aliaj versioj. Kiel ĝin Nixpkgs faras? Ĝin ĝi faras per la komponantojn nomi per
-iliaj kalkulitaj kontrolsumoj kaj per komunan tutmondan lokon ne uzi.
+konfliktoj al la aliaj versioj. Kiel Nixpkgs faras ĝin? Ĝi faras ĝin per nomi la komponantojn per
+iliaj kalkulitaj kontrolsumoj kaj per ne uzi komunan tutmondan lokon.
 
-Siajn proprajn versiojn de `~/.nix-profile` ĉiom da uzantoj havas kaj kutimajn dosierojn ĉiom da
-enhavo de tiuj dosierujoj ne havas. Anstataŭ, ili estas simbolligiloj al la efektivaj dosieroj
+Ĉiom da uzantoj havas siajn proprajn versiojn de `~/.nix-profile/` kaj ĉiom da enhavo de tiuj
+dosierujoj ne havas kutimajn dosierojn. Anstataŭ, ili estas simbolligiloj al la efektivaj dosieroj
 troveblas en `/nix/store/`. Ĉi tiu dosierujo, estas kie la programoj kaj siaj dependecoj estas
-efektive instalitaj. La nur maniero por skribi al tiu dosierujo estas per la dediĉitaj
-Nix-programoj. Ne estas maniero por tiun dosierujon rekte modifi per normaj manieroj. Do, kiam je
-Vim 8 la uzanto `johano` instalas, la programo fariĝas instalita kiel
+efektive instalitaj. La nura maniero por skribi al tiu dosierujo estas per la dediĉitaj
+Nix-programoj. Ne estas maniero por rekte modifi tiun dosierujon per normaj manieroj. Do, kiam la
+uzanto `johano` instalas Vim 8, la programo fariĝas instalita kiel
 `/nix/store/w4cr4j13lqzry2b8830819vdz3sdypfa-vim-8.0.0329`. La signoj antaŭ la paknomo estas la
-kontrolsumo de ĉiom da enigoj kiuj estis uzitaj por la pakon konstrui. La dosiero
+kontrolsumo de ĉiom da enigoj kiuj estis uzitaj por konstrui la pakon. La dosiero
 `/home/johano/.nix-profile/bin/vim` tiam montras al simbolligo, en dosiero troveblas en
 `/nix/store/` kiu kondukas al la efektiva Vim-duumdosiero en
 `/nix/store/w4cr4j13lqzry2b8830819vdz3sdypfa-vim-8.0.0329/bin/vim`.
