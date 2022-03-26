@@ -472,7 +472,7 @@ nix-repl> (builtins.div 6)
 «primop-app»
 ```
 
-Ĉi tiu esprimo revenas fermon de parte aplikita funkco. Ni bezonas alian valoron por tute apliki ĝin:
+Tiu esprimo revenas fermon de parte aplikita funkco. Ni bezonas alian valoron por tute apliki ĝin:
 
 ```nix
 nix-repl> (builtins.div 6) 3
@@ -638,7 +638,7 @@ nix-repl> x: x
 «lambda»
 ```
 
-Ĉi tiu esprimo kreas sennoman funkcion kiu revenas sian argumenton—la
+Tiu esprimo kreas sennoman funkcion kiu revenas sian argumenton—la
 [identa funkcio (angle)](https://en.wikipedia.org/wiki/Identity_function). La dupunkto post la unua
 `x` montras, ke ĝi estas parametro al la funkcio, samkiel en
 [lambdokalkulo](/eo/lambdokalkulo/#funkcioj). Aldone, la nomoj ne gravas pro
@@ -649,7 +649,7 @@ nix-repl> hundo-kato-muso: hundo-kato-muso
 «lambda»
 ```
 
-Ĉi tiuj funkcioj ne estas tre utilaj tial, ke ili ne estas kaptitaj por aplikado. Se oni volas ĝin,
+Tiuj funkcioj ne estas tre utilaj tial, ke ili ne estas kaptitaj por aplikado. Se oni volas ĝin,
 ekzemple, kun la argumento `"hundo"`, ni bezonas ĉirkaŭkovri ĝin per rondkrampoj:
 
 ```nix
@@ -697,7 +697,7 @@ argumento al funkcio, kiu do uzos la datumon ene tiu aro:
 nix-repl> anaso = { a, b }: x: a + " " + b + x
 ```
 
-Ĉi tiu funkcio havas du parametrojn: `{ a, b }`—parametra specifo por aro kun du eroj, kaj
+Tiu funkcio havas du parametrojn: `{ a, b }`—parametra specifo por aro kun du eroj, kaj
 `x`—kutima parametro. Memoru, ke parametra specifo ne estas veraro, sed nur maniero por kongrui la
 argumentojn; ĝi uzas komon kiel apartigilo de valoroj. Ene ĉi tiu funkcio la ni povas kombini
 enigojn per la operacisimbolon `+`. Por uzi ĉi tiun funkcion, ni uzu ĝin jene:
@@ -933,74 +933,73 @@ kontrolsumo de ĉiom da enigoj kiuj estis uzitaj por konstrui la pakon. La dosie
 
 ### <a name="nixpkgsinstalo">Instalo</a>
 
-Se je NixOS oni uzas ĉi tiun sekcion preterpasu tial, ke Nixpkgs iras kun ĝi. Por je Nixpkgs instali
+Se oni uzas NixOS preterpasu ĉi tiun sekcion tial, ke Nixpkgs jam iras kun ĝi. Por instali Nixpkgs
 ĉe linukso aŭ makintoŝo, rulu:
 
     $ curl https://nixos.org/nix/install | bash
 
-Oni invitiĝos al la ensalutilojn por ĉefuzantan aliron eniri per *sudo* tial, ke la risurcojn ĝi
-instalos al `/nix/`. Post la instalo, oni petiĝas por linion de komando al la ŝela pravaloriza
-dosiero aldoni. Kiam novajn aperaĵojn de la ŝelo oni generas la komandoj specifaj al Nix fariĝos
-haveblaj.
+Oni invitiĝos al la ensalutilojn por eniri ĉefuzantan aliron per *sudo* tial, ke ĝi instalos la
+risurcojn al `/nix/`. Post la instalo, oni petiĝas por aldoni linion de komando al la ŝela
+pravaloriza dosiero. Kiam oni generas novajn aperaĵojn de la ŝelo la komandoj specifaj al Nix
+fariĝos haveblaj.
 
 
 ### <a name="nixpkgsuzado">Uzado</a>
 
-Estas du manieroj por pakojn instali per Nixpkgs; la gita kopio, kiu estas la plej ĵusa versio,
-ĝisdatigita ĝis la lasta minuto, aŭ per kanalojn uzi. La
-[gitdeponejo](https://github.com/nixos/nixpkgs) idealas por uzantoj kiuj la plej novajn versiojn de
-pako volas uzi, aŭ por uzantoj kiuj volas eltesti. [Kanaloj](https://nixos.org/channels/) aliflanke,
-estas esence kopioj de la gitdeponejo en antaŭ tempo.
+Estas du manieroj por instali pakojn per Nixpkgs: 1) uzi la gitan kopion, kiu estas la plej ĵusa
+versio, ĝisdatigita ĝis la lasta minuto, aŭ 2) uzi kanalojn. La
+[gitdeponejo](https://github.com/nixos/nixpkgs) estas ideala por uzantoj kiuj volas uzi la plej novajn versiojn de
+pako aŭ por uzantoj kiuj volas eltesti. [Kanaloj](https://nixos.org/channels/), aliflanke,
+estas esence kopioj de la gitdeponejo en antaŭa tempo.
 
 
 #### <a name="nixpkgsgito">Gito</a>
 
-Okazas ofte ĝisdatigoj al la gitdeponejo—ĉi tiun artikolon legante,
-[novaj ŝanĝoj](https://github.com/nixos/nixpkgs/pulls/) estas faritaj al la ĉefarbo. Por la
-gitkopion uzi, la [deponejon](https://github.com/nixos/nixpkgs) klonu:
+Okazas ofte ĝisdatigoj al la gitdeponejo. Legante ĉi tiun artikolon,
+[novaj ŝanĝoj](https://github.com/nixos/nixpkgs/pulls/) estas faritaj al la ĉefarbo. Por uzi la
+gitkopion, klonu la [deponejon](https://github.com/nixos/nixpkgs):
 
     $ git clone https://github.com/nixos/nixpkgs ~/nixpkgs
 
-`nixpkgs/` dosierujo ĉi tiu komando kreas sub la hejmdosierujo. Se la uzanto estas `vakelo`, la klono
-de la deponejo troveblas ĉe `/home/vakelo/nixpkgs/` aŭ `/Users/vakelo/nixpkgs/`, se linukson aŭ
-makintoŝon oni uzas respektive.
+Tiu komando kreas dosierujon `nixpkgs/` sub la hejmdosierujo. Se la uzanto estas `vakelo`, la klono
+de la deponejo troveblas ĉe `/home/vakelo/nixpkgs/` aŭ `/Users/vakelo/nixpkgs/`, se oni uzas linukson aŭ
+makintoŝon respektive.
 
-Por pakon instali, ekzemple, *emem*—markdaŭna- al HTML-dosiero konvertilo—per la gitkopio, rulu:
+Por instali pakon, ekzemple, *emem*—markdaŭna- al HTML-dosiero konvertilo—per la gitkopio, rulu:
 
     $ nix-env -f ~/nixpkgs/default.nix -iA emem
 
-Je *emem* ĉi tiu komando elŝutas kun ĝiajn dependecojn, kaj la programon ĝi disponebligas al
+Tiu komando elŝutas *emem* kun ĝiajn dependecojn, kaj la programon ĝi disponebligas al
 oni. Por certigi, ke emem estas efektive instalita, rulu:
 
     $ emem --version
 
-Se la ŝelo ne vomiĝas kaj plendas, ke tio, kion oni volas trovi ne ekzistas, kaj versinombron oni
-vidas, do signifas ke je emem oni sukcese instalis.
+Se la ŝelo ne vomiĝas kaj plendas, kaj oni vidas versinombron, do signifas ke oni sukcese instalis
+emem.
 
-Por la plej ĵusajn ŝanĝojn akiri el la gitdeponejo, rulu:
+Por akiri la plej ĵusajn ŝanĝojn el la gitdeponejo, rulu:
 
     $ cd ~/nixpkgs && git pull origin master
 
 
 #### <a name="nixpkgskanaloj">Kanaloj</a>
 
-Pakojn instali per kanaloj pli agrablas tial, ke la komandoj por pakojn instali estas pli
-oportunaj. La kompromiso, estas, ke la pakoj estas malaktualaj de iom da tagoj. Se oni bonas pri
-tio, tiam kanalojn uzi anstataŭ la gitkopion.
+Instali pakojn per kanaloj pli agrablas tial, ke la komandoj por instali pakojn estas pli
+oportunaj. La kompromiso, estas, ke la pakoj estas malaktualaj de iom da tagoj. Se oni kontentas pri
+tio, do uzi kanalojn anstataŭ la gitkopion.
 
-Kanaloj estas etikeditaj `stable`, `unstable`, aŭ per specifa versinombro,
-ekzemple, `18.09` aŭ `21.11`. Por ĉi tiu artikolo, je `unstable` ni uzu—ĝi nek
-estas tiel malaktuala kiel `stable` nek tiel ĵuŝa kiel la gitkopio. Por aboni al
-la `unstable`-kanalo, rulu:
+Kanaloj estas etikeditaj `stable`, `unstable`, aŭ per specifa versinombro, ekzemple, `18.09` aŭ
+`21.11`. Por ĉi tiu artikolo, ni uzu `unstable`—ĝi nek estas tiel malaktuala kiel `stable` nek
+tiel ĵuŝa kiel la gitkopio. Por aboni al la `unstable`-kanalo, rulu:
 
     $ nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
 
-La kanalon etikedita `nixpkgs-unstable` ĉi tio irprenas el nixos.org, tiam instolas al la
+Ĉi tio irprenas la kanalon etikedita `nixpkgs-unstable` el nixos.org, tiam instalos ĝin al la
 uzantprofilo.
 
-Por la listojn de kanaloj esplori, [ĉi tien](https://nixos.org/channels/) iru.
+Por esplori la listojn de kanaloj, iru [ĉi tien](https://nixos.org/channels/).
 
-Per la ekzemplo ĉi-supre, je *emem* instali, la jenajn komandojn rulu por NixOS kaj aliaj
+Per la ekzemplo ĉi-supre, instali *emem*, rulu la jenajn komandojn por NixOS kaj aliaj
 sistemoj, respektive:
 
     $ nix-env -iA nixos.emem
@@ -1008,39 +1007,38 @@ sistemoj, respektive:
     $ nix-env -iA nixpkgs.emem
 
 
-Por la kanalojn ĝisdatigi, rulu:
+Por ĝisdatigi la kanalojn, rulu:
 
     $ nix-channel --update
 
 Tempe, arboj en `/nix/store/` kreskiĝas kaj eble ekzistas dosierindikoj kiuj ne plu estas
-referencitaj per ajna pako. Por ĝin purigi, rulu:
+referencitaj per ajna pako. Por purigi ĝin, rulu:
 
     $ nix-collect-garbage
 
 
 #### <a name="nixpkgsaliaj">Aliaj komandoj</a>
 
-Por pakon malinstali, rulu:
+Por malinstali pakon, rulu:
 
     $ nix-env -e emem
 
-Por ĉiomajn instalitajn pakojn listigi, rulu:
+Por listigi ĉiom da instalitaj pakoj, rulu:
 
     $ nix-env -q --installed
 
-Por ĉiomajn haveblajn pakojn listigi, rulu:
+Por listigi ĉiom da instaleblaj pakoj, rulu:
 
     $ nix-env -q --available
 
 
 ### <a name="nixpkgsagordajxo">Agordaĵo</a>
 
-La dosiero `~/.nixpkgs/config.nix` estas Nix-esprimo, kiu estas legita per la Nix-komandoj. Ene,
-pakajn transpasojn oni povas specifi—agordo kiu implicitajn agordojn uzurpas, kaj aliajn
-alĝustigilojn, inkluzive, sed ne limigataj al, retumilaj kromprogramoj, grafikfasadoaj agordoj, SSL,
-ktp.
+La dosiero `~/.nixpkgs/config.nix` estas Nix-esprimo, kiu estas legita per la Nix-komandoj. Ene, oni
+povas specifi pakajn transpasojn—agordo kiu uzurpas implicitajn agordojn kaj aliajn alĝustigilojn,
+inkluzive, sed ne limigataj al, retumilaj kromprogramoj, grafikfasadoaj agordoj, SSL, ktp.
 
-Malpligrandigitan version de mia `config.nix` ni rigardu:
+Ni rigardu malpligrandigitan version de mia `config.nix`:
 
 ```
 { pkgs }:
@@ -1063,11 +1061,11 @@ Malpligrandigitan version de mia `config.nix` ni rigardu:
 }
 ```
 
-Ĉi tio estas funkcio, kiu atribuon akceptas kiel parametro, tiam alian atributaron liveras kiel
-liveraĵo. Mia _config.nix_ diras, ke je GTK mi ne volas havi por emakso. Por fajrfokso, mi
-specifis, ke nur je JRE- kaj je Google Talk-kromprogramoj mi volas uzi. Laste, mi precizigas, ke
-programaroj kiuj malfermitkodajn permesilojn ne havas, aŭ programoj kiu la liberprogramaran modelon
-ne havas, mi volas esti kapabla por instali
+Tiu estas funkcio, kiu akceptas atribuon kiel parametro, kaj liveras alian atributaron kiel
+liveraĵo. Mia _config.nix_ diras, ke mi ne volas havi GTK por emakso. Por fajrfokso, mi specifas, ke
+nur mi volas uzi JRE- kaj je Google Talk-kromprogramoj. Laste, mi specifas, ke programaroj kiuj
+ne havas malfermitkodajn permesilojn, aŭ programoj kiu ne havas la liberprogramaran modelon, mi
+volas esti kapablaj por instali
 
 
 ### <a name="nixpkgskontribui">Kontribui</a>
@@ -1405,7 +1403,7 @@ progresas por la duumdosieron `hello` ruli, kiu la konatan saluton montros al la
     [nix-shell:~]$ hello
     Hello, world!
 
-Ĉi tiu ŝelaperaĵo estas speciala tial, ke nur sufiĉan informon ĝi enhavas nur por la komandon
+Tiu ŝelaperaĵo estas speciala tial, ke nur sufiĉan informon ĝi enhavas nur por la komandon
 `hello` igi disponebla. La valoron de `$PATH` ni eĉ povas kontroli ĉi tie:
 
 ```bash
