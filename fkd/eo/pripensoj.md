@@ -2,7 +2,7 @@ Pripensoj
 =========
 
 <div class="center">Esperanto ■ [English](/en/reflections/)</div>
-<div class="center">Laste ĝisdatigita: la 25-an de Marto 2022</div>
+<div class="center">Laste ĝisdatigita: la 26-an de Marto 2022</div>
 
 Ĉi tiu paĝo enhavas kelke da miaj propraj pripensoj. La enskriboj estas ordigitaj laŭ kronologiordo.
 
@@ -374,7 +374,7 @@ Pripensoj
 - La plej timemaj estas la plej malfortaj.<br>
 
 
-- La plej malbona malliberejo, estas tiu kiun oni portas ĉie.<br>
+- La plej malbona speco de malliberejo estas tiu kiun oni portas ĉien.<br>
 
 
 - Oni povas pentri kaj ornami sian karceron iamaniere, sed oni ankoraŭ estas malliberulo.<br>
@@ -407,7 +407,7 @@ Pripensoj
 - Kiam oni ĵetas rokojn al vi, vi ĵetu panon aŭ eble golfpilkojn.<br>
 
 
-- Se ne ŝatas ludi oni la ludon, ŝatas ludi alia iu ĝin.<br>
+- Se oni ne ŝatas ludi la ludon, iu alia ŝatos ludi ĝin.<br>
 
 
 - Oni ne frapetas sian propran ŝultron.<br>
