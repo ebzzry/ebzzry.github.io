@@ -1070,8 +1070,8 @@ volas esti kapablaj por instali
 
 ### <a name="nixpkgskontribui">Kontribui</a>
 
-La kunlaborada modelo de Nixpkgs restas ĉe gito kaj GitHub. Por pakon kontributi aŭ ekzistantan
-pakon ĝisdatigi, la [Nixpkgs](https://github.com/nixos/nixpkgs/)-deponejon forku al la propra
+La kunlaborada modelo de Nixpkgs restas ĉe gito kaj GitHub. Por kontributi pakon aŭ ĝisdatigi
+ekzistantan pakon, la [Nixpkgs](https://github.com/nixos/nixpkgs/)-deponejon forku al la propra
 GitHub-konto. Novajn ŝanĝojn kreu en nova branĉo, tiam tirpeton kreu.
 
 
