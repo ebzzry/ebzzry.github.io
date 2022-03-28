@@ -4,8 +4,7 @@ Milda Enkonduko al la Nix-Familio
 <div class="center">Esperanto ■ [English](/en/nix/)</div>
 <div class="center">Laste ĝisdatigita: la 28-an de Marto 2022</div>
 
->Ne maltrankviliĝu pri tio, kion la aliaj faros. La plej bona maniero por antaŭdiri la estontecon
->estas por eltrovi ĝin.<br>―Alan KAY
+>Ne maltrankviliĝu pri tio, kion la aliaj faros. La plej bona maniero por antaŭdiri la estontecon estas por eltrovi ĝin.<br>―Alan KAY
 
 <img src="/bil/wallhaven-751942-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-751942" title="wallhaven-751942"/>
 
@@ -1704,7 +1703,7 @@ nix-repl> let y = x: ((f: (x (v: ((f f) v)))) (f: (x (v: ((f f) v)))));
 2432902008176640000
 ```
 
-Oni povas la ĉefeligujon konduki al nix-repl:
+Oni povas konduki la ĉefeligujon al nix-repl:
 
 ```nix
 $ echo 'let y = x: ((f: (x (v: ((f f) v)))) (f: (x (v: ((f f) v))))); b = p: (n: if n == 0 then 1 else (n * (p (n - 1)))); f = y b; in f 20' | nix-repl

@@ -486,7 +486,7 @@ nix-repl&gt; f 20
               f = y b;
           in f 20
 2432902008176640000
-</code></pre><p>Oni povas la ĉefeligujon konduki al nix-repl:</p><pre><code class="nix">$ echo 'let y = x: &#40;&#40;f: &#40;x &#40;v: &#40;&#40;f f&#41; v&#41;&#41;&#41;&#41; &#40;f: &#40;x &#40;v: &#40;&#40;f f&#41; v&#41;&#41;&#41;&#41;&#41;; b = p: &#40;n: if n == 0 then 1 else &#40;n &#42; &#40;p &#40;n - 1&#41;&#41;&#41;&#41;; f = y b; in f 20' | nix-repl
+</code></pre><p>Oni povas konduki la ĉefeligujon al nix-repl:</p><pre><code class="nix">$ echo 'let y = x: &#40;&#40;f: &#40;x &#40;v: &#40;&#40;f f&#41; v&#41;&#41;&#41;&#41; &#40;f: &#40;x &#40;v: &#40;&#40;f f&#41; v&#41;&#41;&#41;&#41;&#41;; b = p: &#40;n: if n == 0 then 1 else &#40;n &#42; &#40;p &#40;n - 1&#41;&#41;&#41;&#41;; f = y b; in f 20' | nix-repl
 Welcome to Nix version 1.11.8. Type :? for help.
 
 nix-repl&gt; let y = x: &#40;&#40;f: &#40;x &#40;v: &#40;&#40;f f&#41; v&#41;&#41;&#41;&#41; &#40;f: &#40;x &#40;v: &#40;&#40;f f&#41; v&#41;&#41;&#41;&#41;&#41;; b = p: &#40;n: if n == 0 then 1 else &#40;n &#42; &#40;p &#40;n - 1&#41;&#41;&#41;&#41;; f = y b; in f 20
