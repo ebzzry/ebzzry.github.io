@@ -16,9 +16,9 @@ Milda Enkonduko al la Nix-Familio
 - [Enkonduko](#enkonduko)
 - [NixOS](#nixos)
   + [Instalo](#nixosinstalo)
-    * [La maŝinon ŝalti](#nixossxalti)
-    * [La reton agordi](#nixosreto)
-    * [La diskojn pretigi](#nixosdiskoj)
+    * [Ŝalti la maŝinon](#nixossxalti)
+    * [Agordi la reton](#nixosreto)
+    * [Pretigi la diskojn](#nixosdiskoj)
     * [Instali al disko](#nixosinstali)
   + [Agordaĵo](#nixosagordajxo)
 - [Nix](#nix)
@@ -41,13 +41,13 @@ Milda Enkonduko al la Nix-Familio
     * [Aliaj komandoj](#nixpkgsaliaj)
   + [Agordaĵo](#nixpkgsagordajxo)
   + [Kontribui](#nixpkgskontribui)
-    * [Ekzistantan pakon ĝisdatigi](#nixpkgsgxisdatigi)
-    * [Novan pakon sendi](#nixpkgssendi)
+    * [Ĝisdatigi ekzistantan pakon](#nixpkgsgxisdatigi)
+    * [Sendi novan pakon](#nixpkgssendi)
   + [Notoj](#nixpkgsnotoj)
 - [Medioj](#medioj)
   + [Sistemmedio](#sistemmedio)
   + [Uzantmedio](#uzantmedio)
-  + [Disvolvmedio](#disvolvmedio)
+  + [Programadmedio](#programadmedio)
 - [Surmetoj](#surmetoj)
   + [Transpasoj](#surmetojtranspasoj)
   + [Novaj pakoj](#surmetojnovajpakoj)
@@ -120,12 +120,12 @@ ankaŭ haveblas de tiu paĝo. De mia lasta instalo, mi instalis per la jena agor
 - [LUKS](https://en.wikipedia.org/wiki/Linux_Unified_Key_Setup) super [LVM](https://en.wikipedia.org/wiki/Logical_volume_management)
 
 
-#### <a name="nixossxalti">La maŝinon ŝalti</a>
+#### <a name="nixossxalti">Ŝalti la maŝinon </a>
 
 Praŝargu per la USB-poŝmemorilo en UEFI-reĝimo. Ĉe la ensaluta invito, ensalutu kiel `root`.
 
 
-#### <a name="nixosreto">La reton agordi</a>
+#### <a name="nixosreto">Agordi la reton</a>
 
 Skanu haveblajn retojn:
 
@@ -136,7 +136,7 @@ Tiam, konektu al la preferata enkursigilo:
     # nmcli d wifi con ENKURSIGILO name NOMO password PASVORTO
 
 
-#### <a name="nixosdiskoj">La diskojn pretigi</a>
+#### <a name="nixosdiskoj">Pretigi la diskojn </a>
 
 Kreu la subdiskojn:
 
@@ -908,7 +908,7 @@ ke la tutgrupo movu en unisono, ĉiuj devas esti konektitaj al unu la alia. Se a
 kaj sole marŝi, la tutgrupo kripliĝos. Tamen, se tiu ano decidas kloni ĝin por ke la forvojaĝado
 fariĝu sendependa, la originala marŝada grupo fariĝas neŝanĝita.
 
-Ni traktu la kazon de distribuo celita kiel pluruzanta produkta disvolva medio. Kiam oni instalas
+Ni traktu la kazon de distribuo celita kiel pluruzanta produkta programada medio. Kiam oni instalas
 fajrfokson versio 100, la ĉefa duuma dosiero iras al aŭ `/usr/bin/firefox` aŭ
 `/usr/local/bin/firefox`. Sekve, ĉiom da uzantoj povas aliri la apon el tiu dosierindiko; feliĉas
 Johano, Mario, kaj Petro. Bedaŭrinde, se Johano decidis aktualigi ĝin al versio 200, la sama apo
@@ -926,7 +926,7 @@ Nix-programoj. Ne estas maniero por rekte modifi tiun dosierujon per normaj mani
 uzanto `johano` instalas Vim 8, la programo fariĝas instalita kiel
 `/nix/store/w4cr4j13lqzry2b8830819vdz3sdypfa-vim-8.0.0329`. La signoj antaŭ la paknomo estas la
 kontrolsumo de ĉiom da enigoj kiuj estis uzitaj por konstrui la pakon. La dosiero
-`/home/johano/.nix-profile/bin/vim` tiam montras al simbolligo, en dosiero troveblas en
+`/home/johano/.nix-profile/bin/vim` tiam indikas al simbolligo, en dosiero troveblas en
 `/nix/store/` kiu kondukas al la efektiva Vim-duumdosiero en
 `/nix/store/w4cr4j13lqzry2b8830819vdz3sdypfa-vim-8.0.0329/bin/vim`.
 
@@ -940,7 +940,7 @@ Se oni uzas NixOS preterpasu ĉi tiun sekcion tial, ke Nixpkgs jam iras kun ĝi.
 
 Oni invitiĝos al la ensalutilojn por eniri ĉefuzantan aliron per *sudo* tial, ke ĝi instalos la
 risurcojn al `/nix/`. Post la instalo, oni petiĝas por aldoni linion de komando al la ŝela
-pravaloriza dosiero. Kiam oni generas novajn aperaĵojn de la ŝelo la komandoj specifaj al Nix
+pravaloriza dosiero. Kiam oni generas novajn instancojn de la ŝelo la komandoj specifaj al Nix
 fariĝos haveblaj.
 
 
@@ -1070,19 +1070,19 @@ volas esti kapablaj por instali
 
 ### <a name="nixpkgskontribui">Kontribui</a>
 
-La kunlaborada modelo de Nixpkgs restas ĉe gito kaj GitHub. Por kontributi pakon aŭ ĝisdatigi
-ekzistantan pakon, la [Nixpkgs](https://github.com/nixos/nixpkgs/)-deponejon forku al la propra
-GitHub-konto. Novajn ŝanĝojn kreu en nova branĉo, tiam tirpeton kreu.
+La kunlaborada modelo de Nixpkgs restas ĉe gito kaj GitHub. Por kontribui pakon aŭ ĝisdatigi
+ekzistantan pakon, forku la [Nixpkgs](https://github.com/nixos/nixpkgs/)-deponejon al la propra
+GitHub-konto. Kreu novajn ŝanĝojn en nova branĉo, tiam kreu tirpeton.
 
 
-#### <a name="nixpkgsgxisdatigi">Ekzistantan pakon ĝisdatigi</a>
+#### <a name="nixpkgsgxisdatigi">Ĝisdatigi ekzistantan pakon</a>
 
-La deponejon forkinte, la propran version de la deponejon klonu:
+Forkinte la deponejon, klonu la propran version de la deponejon:
 
     $ git clone git@github.com:vakelo/nixpkgs.git ~/nixpkgs
 
-Kopion de la forko ĉi tiu komando kreas en la radiko de la hejmdosierujo. Iru al tiu dosierujo, tiam
-la enhavojn ni esploru:
+Ĉi tiu komando kreas kopion de la forko en la radiko de la hejmdosierujo. Iru al tiu dosierujo, tiam
+la ni esploru la enhavojn :
 
 ```bash
 $ cd ~/nixpkgs
@@ -1108,20 +1108,20 @@ $ tree -aFL 1
 7 directories, 9 files
 ```
 
-Sekve, pakon ni trovu kie ĝi loĝas, ekzemple, *GNU Hello*.
+Sekve, ni trovu pakon kie ĝi loĝas, ekzemple, *GNU Hello*.
 
     $ grep hello pkgs/top-level/all-packages.nix
       hello = callPackage ../applications/misc/hello { };
 
-Diras, ke la pako *hello* troveblas sub `../applications/misc/hello`. Rilate al la dosiero
+Tio diras, ke la pako *hello* troveblas ĉe `../applications/misc/hello`. Rilate al la dosiero
 `all-packages.nix`, la dosierindiko estas ĉe `pkgs/applications/misc/hello` aŭ
-`~/nixpkgs/pkgs/applications/misc/hello`. Tien ni iru:
+`~/nixpkgs/pkgs/applications/misc/hello`. Ni iru tien:
 
     $ cd pkgs/applications/misc/hello
     $ ls
     default.nix
 
-La dosieron `default.nix` malfermu:
+Malfermu la dosieron `default.nix`:
 
 ```nix
 { stdenv, fetchurl }:
@@ -1150,15 +1150,15 @@ stdenv.mkDerivation rec {
 }
 ```
 
-Ĉi tio diras al ni, ke la dosiero `default.nix`, estas dosiero kun parametro kiel atribuo kun du
-eroj. La rezulton de je `stdenv.mkDerivation` voki per enigo de atribua valaro la funkcio
-liveras. La valoro por la atribuo `name` estas signovico kun la formato *paknomo-A.B.C*, en kiu,
-*paknomo* estas la nomo de la pako kaj *A.B.C.* estas la versinombro. La valoro por la `src` atribuo
-estas la valoro liverita per la funkcion `fetchurl` voki, per alia atribuara argumento. La valoro
-por la atribuo `url` devas esti aŭ spegula specifo, kiel priskribite en
-`pkgs/build-support/fetchurl/mirrors.nix`, aŭ kutima retejadreso. Tiukaze, la GNU-spegulon ni uzis
-kaj la variablon `name` ni interpolis ene tiu signovico. La valoro de la atribuo `sha256` estas tiu, kiun ni akiris per je `nix-prefetch-url` ruli kontraŭ la retejadreso. Por la kontrolsumon akiri
-de `hello-2.10`, rulu:
+Tio diras al ni, ke la dosiero `default.nix`, estas dosiero kun parametro kiel atribuo kun du eroj.
+La funkcio liveras La rezulton de voki `stdenv.mkDerivation` per enigo de atribua valaro . La valoro
+por la atribuo `name` estas signovico kun la formato *paknomo-A.B.C*, en kiu, *paknomo* estas la
+nomo de la pako kaj *A.B.C.* estas la versinombro. La valoro por la atribuo `src` estas la valoro
+liverita per voki la funkcion `fetchurl`, per alia atribuara argumento. La valoro por la atribuo
+`url` devas esti aŭ spegula specifo, kiel priskribite en `pkgs/build-support/fetchurl/mirrors.nix`,
+aŭ kutima retejadreso. Tiukaze, ni uzis la GNU-spegulon kaj ni interpolis la variablon `name` ene
+tiu signovico. La valoro de la atribuo `sha256` estas tiu, kiun ni akiris per ruli `nix-prefetch-url`
+kontraŭ la retejadreso. Por akiri la kontrolsumon de `hello-2.10`, rulu:
 
 ```bash
 $ nix-prefetch-url http://ftpmirror.gnu.org/hello/hello-2.10.tar.gz
@@ -1169,57 +1169,57 @@ path is ‘/nix/store/3x7dwzq014bblazs7kq20p9hyzz0qh8g-hello-2.10.tar.gz’
 
 Ĝi kongruas al la SHA256-specifo ĉi-supre.
 
-La atribuo `doCheck` instruas al Nix la testojn ruli por ĉi tiu pako.
+La atribuo `doCheck` instruas al Nix por ruli la testojn por ĉi tiu pako.
 
-La valoro de la atribuo `meta` estas alia atribuara specifo por aliaj detaloj pri la
-pako. Nix-programojn la valoroj precizigitaj ĉi tie helpas por la pakon klasi, inter aliaj
-aferoj. La celon de pako la mallonga signovico en atribuo `description` priskribas. La atribuo
-`longDescription` estas pli longa atribuo, eble plurlinia signovico por la pakon priskribi en pli da
-detalo. La atribuo `homepage` estas retejadreso al la retejo de la pako. Ĝin oni ne plu bezonas citi
-per unuoblaj aŭ duoblaj citiloj specife—ĝin ĝi faras interne. Retejadreson oni ankoraŭ devas citi se
-variablan interpolado oni uzas. La atribuo `platforms` estas grava: pakon ĝi ordas ĝuste—pakon ĉe
-makintoŝo oni ne devas munti kiu nur kuras ĉe linukso.
+La valoro de la atribuo `meta` estas alia atribuara specifo por aliaj detaloj pri la pako. La
+valoroj specifitaj ĉi tie helpas Nix-programojn por klasi la pakon, inter aliaj aferoj. La mallonga
+signovico en atribuo `description` priskribas la celon de pako. La atribuo `longDescription` estas
+pli longa atribuo, eble plurlinia signovico por priskribi la pakon en pli da detalo. La atribuo
+`homepage` estas retejadreso al la retejo de la pako. Oni ne plu bezonas citi ĝin per unuoblaj aŭ
+duoblaj citiloj specife—ĝi faras ĝin interne. Oni ankoraŭ devas citi retejadreson se oni uzas
+variablan interpolado. La atribuo `platforms` estas grava: ĝi ordas pakon ĝuste—oni ne devas munti
+pakon ĉe makintoŝo kiu nur rulas ĉe linukso.
 
-Se aperos nova versio de *GNU Hello*, ekzemple, versio 2.11, la ĝustajn atribuojn modifu. Sed unue,
-apartan branĉon ni kreu por tio:
+Se aperos nova versio de *GNU Hello*, ekzemple, versio 2.11, modifu la ĝustajn atribuojn. Tamen,
+unue, ni kreu apartan branĉon por tio:
 
     $ git checkout -b hello-2.11
 
-En `default.nix`, la nomon ŝanĝu al `hello-2.11` kaj la atribuon `sha256` ankaŭ ĝisdatigu. Kaj
-cetere, se oni estas nur NixOS, la jenan valoron aldonu al `/etc/nixos/configuration.nix`:
+En `default.nix`, ŝanĝu la nomon al `hello-2.11` kaj ankaŭ ĝisdatigu la atribuon `sha256` . Kaj
+cetere, se oni estas ĉe NixOS, aldonu la jenan valoron al `/etc/nixos/configuration.nix`:
 
     nix.useSandbox = true;
 
-Se alian linuksan sistemon oni uzas, aŭ makintoŝon oni uzas, la jenan aldonu al `/etc/nix/nix.conf`:
+Se oni uzas alian linuksan sistemon aŭ oni uzas makintoŝon, aldonu la jenan al `/etc/nix/nix.conf`:
 
     build-use-sandbox = relaxed
 
-Tiam, la pakon muntu:
+Tiam, muntu la pakon:
 
     $ cd ~/nixpkgs
     $ nix-build -A hello
 
-Se la kunmetaĵo sukcesis, aperos simbolligilo nomata `result` en la aktuala dosierujo. Ĉi tiu
-simbolligilo montras al dosierindiko en `/nix/store`. La programon ni rulu:
+Se sukcesis la kunmetaĵo, aperos simbolligilo nomata `result` en la aktuala dosierujo. Ĉi tiu
+simbolligilo indikas al dosierindiko en `/nix/store`. Ni rulu la programon:
 
     $ ./result/bin/hello
     Hello, world!
 
-Bonege. La ŝanĝojn enmetu.
+Bonege. La enmetu ŝanĝojn.
 
     $ git add -u
     $ git commit -m 'hello: 2.10 -> 2.11'
     $ git push origin hello-2.11
 
-Fine, iru al la GitHub-deponeja [paĝo](https://github.com/nixos/nixpkgs), tiam tirpeton inter
-`nixos/nixpkgs:master` kaj `vakelo/nixpkgs:hello-2.11` kreu.
+Fine, iru al la GitHub-deponeja [paĝo](https://github.com/nixos/nixpkgs), tiam kreu tirpeton inter
+`nixos/nixpkgs:master` kaj `vakelo/nixpkgs:hello-2.11`.
 
 
-#### <a name="nixpkgssendi">Novan pakon sendi</a>
+#### <a name="nixpkgssendi">Sendi novan pakon</a>
 
-La paŝoj por novan pakon sendi estas preskaŭ simila de novan ĝisdatigi, krom malmultaj aferoj.
+La paŝoj por sendi novan pakon estas preskaŭ simila al ĝisdatigi novan pakon, krom malmultaj aferoj.
 
-En la komenco, novan branĉon kreu por la pako:
+En la komenco, kreu novan branĉon por la pako:
 
     $ cd ~/nixpkgs
     $ git checkout -b tthsum-1.3.2
@@ -1229,7 +1229,7 @@ Tiam, decidu pri kiu kategorio ĝi devas aparteni:
     $ cd pkgs/applications/misc
     $ mkdir tthsum
 
-Tiam, la dosieron `default.nix` kreu:
+Tiam, kreu la dosieron `default.nix`:
 
 ```nix
 { stdenv, fetchurl }:
@@ -1267,52 +1267,53 @@ stdenv.mkDerivation rec {
 }
 ```
 
-Oni povas rimarki, ke la anglan ni uzas ene tial, ke ĝi estas la devigita lingvo en la tutprojekto.
+Oni povas rimarki, ke ni uzas la anglan ene tial, ke ĝi estas la devigita lingvo en la tutprojekto.
 
-Kio novas ĉi tie estas la atribuo `installPhase`. La implicita kunmetada procedoj de la *tthsum*-pako
-malsamas al la maniero, en kiu instalojn Nix traktas, do ni devas esti specifa pri tio. La `$out`
-identigilo signifas pri la fina dosierujo kie la programo loĝos en `/nix/store/`. En la uzantmedio,
-la programo haveblos ĉe `~/.nix-profile/bin/tthsum`, kaj en la sistemmedio la programo haveblos ĉe
-`/run/current-system/sw/bin/tthsum`.
+Kio novas ĉi tie estas la atribuo `installPhase`. La implicita kunmetada procedoj de la
+*tthsum*-pako malsamas al la maniero, en kiu Nix traktas instalojn, do ni devas esti specifa pri
+tio. La identigilo `$out` estas pri la fina dosierujo kie la programo loĝos en `/nix/store/`. En la
+uzantmedio, haveblos la programo ĉe `~/.nix-profile/bin/tthsum`, kaj en la sistemmedio haveblos la
+programo ĉe `/run/current-system/sw/bin/tthsum`.
 
-En ĉi tiu punkto, Nix ne ankoraŭ estas konscia pri *tthsum*. Ĝin ni devas deklari en la supra
-nivelo. Por tiel fari, la dosieron `pkgs/top-level/all-packages.nix` redaktu, kaj la jenan aldonu en
-la ĝusta kategorio.
+En ĉi tiu punkto, Nix ne ankoraŭ estas konscia pri *tthsum*. Ni devas deklari ĝin en la supra
+nivelo. Por tiel fari, redaktu la dosieron `pkgs/top-level/all-packages.nix`, kaj aldonu la jenan en
+la ĝustan kategorion.
 
 ```nix
 tthsum = callPackage ../applications/misc/tthsum { };
 ```
 
-Tiam, la pakon muntu kiel priskribite ĉi-supre:
+Tiam, muntu la pakon kiel priskribite ĉi-supre:
 
     $ cd ~/nixpkgs
     $ nix-build -A tthsum
 
-Se ĉio sukcesis, la ŝanĝojn enmetu:
+Se sukcesis ĉio, enmetu la ŝanĝojn:
 
     $ git add pkgs/applications/misc/tthsum
     $ git add pkgs/top-level/all-packages.nix
     $ git commit -m "tthsum: init at 1.3.2"
     $ git push origin tthsum-1.3.2
 
-Fine, iru al la GitHub-deponeja [paĝo](https://github.com/nixos/nixpkgs), tiam tirpeton inter
-`nixos/nixpkgs:master` kaj `vakelo/nixpkgs:tthsum-1.3.2` kreu.
+Fine, iru al la GitHub-deponeja [paĝo](https://github.com/nixos/nixpkgs), tiam kreu tirpeton inter
+`nixos/nixpkgs:master` kaj `vakelo/nixpkgs:tthsum-1.3.2`.
 
 
 ### <a name="nixpkgsnotoj">Notoj</a>
 
-En ajna punkto dum la instalo de pako, la procezo estas interrompita, la pako ne estos instalita en
-duone bakita stato. La plej lasta paŝo de pakojn instali estas atoma. La sekreto, estas,
-simbolligilon de `/nix/store` al `~/.nix-profile/`, la operacio kiu ĝin disponebligas al uzanto la
-sistemo kreas. La kreado de simbolligiloj en linukso kaj makintoŝo estas aŭ sukcesa aŭ ne.
+En ajna punkto dum la instalo de pako, kaj la procezo estas interrompita, la pako ne fariĝos
+instalita en duone bakita stato. La plej lasta paŝo de instali pakojn estas atoma. La sekreto,
+estas, ke la sistemo kreas simbolligilon de `/nix/store` al `~/.nix-profile/`, la operacio kiu
+disponebligas ĝin al uzanto. La kreado de simbolligiloj en linukso kaj makintoŝo estas aŭ sukcesa
+aŭ ne.
 
 Ĉe NixOS, la kanalo uzita de la ĉefuzanto estas grava tial, ke ĝi estas tiu, kiun oni uzas kiam
-la sistemon rekunmeti per `nixos-rebuild switch` post ŝanĝoj al `/etc/nixos/configuration.nix` estas
-faritaj. Por certigi, ke la pravan kanalon oni uzas, ĝin listigu per:
+la rekunmeti sistemon per `nixos-rebuild switch` post ŝanĝoj al `/etc/nixos/configuration.nix` estas
+faritaj. Por certigi, ke oni uzas la pravan kanalon, listigu ĝin per:
 
     $ sudo nix-channel --list
 
-Por la ĉefuzantan kanalon ŝanĝi simila al tiu, kiu estis uzita antaŭe:
+Por ŝanĝi la ĉefuzantan kanalon simila al tiu, kiu estis uzita antaŭe:
 
     $ sudo nix-channel --add https://nixos.org/channels/nixos-unstable nixos
 
@@ -1320,15 +1321,15 @@ Por la ĉefuzantan kanalon ŝanĝi simila al tiu, kiu estis uzita antaŭe:
 <a name="medioj">Medioj</a>
 ---------------------------
 
-Medio estas maniero de Nix por komponantan izoladon provizi inter la sistemo kaj uzantoj. En NixOS,
-ekzistas tri medioj: sistemmedio, uzantmedio, kaj disvolvmedio.
+Medio estas maniero de Nix por provizi komponantan izoladon inter la sistemo kaj uzantoj. En NixOS,
+ekzistas tri medioj: sistemmedio, uzantmedio, kaj programadmedio.
 
 
 ### <a name="sistemmedio">Sistemmedio</a>
 
-La sistemmedio estas modifita nur per la ĉefuzanto kiu ĝian valoron ĝi deklaras en
-`/etc/nixos/configuration.nix`. Ĝi estas listo, kiu la pakojn kiu disponebliĝos al ĉiuj uzantoj de
-la sistemo enhavas. Jen ekzemplo de `/etc/nixos/configuration.nix` kiu la sistemmedion uzas:
+La sistemmedio estas modifita nur per la ĉefuzanto kiu ĝi deklaras la valorojn en
+`/etc/nixos/configuration.nix`. Ĝi estas listo, kiu enhavas la pakojn kiu disponebliĝos al ĉiuj
+uzantoj de la sistemo. Jen ekzemplo de `/etc/nixos/configuration.nix` kiu uzas la sistemmedion:
 
 ```nix
 { config, lib, pkgs, ... }:
@@ -1340,44 +1341,44 @@ la sistemo enhavas. Jen ekzemplo de `/etc/nixos/configuration.nix` kiu la sistem
 }
 ```
 
-Ĉi tio deklaras, ke la pakoj nomitaj *zsh* kaj *vim* disponeblos por ĉiuj uzantoj de la sistemo. La
+Tiu deklaras, ke la pakoj nomitaj *zsh* kaj *vim* disponeblos por ĉiuj uzantoj de la sistemo. La
 duumdosieroj disponeblos kiel `/run/current-system/sw/bin/zsh` kaj `/run/current-system/sw/bin/vim`,
 por Ziŝo kaj Vim, respektive.
 
-Parenteze, nur ekzistas ĉe NixOS la sistemmedio.
+Parenteze, la sistemmedio ekzistas nur ĉe NixOS .
 
 
 ### <a name="uzantmedio">Uzantmedio</a>
 
 La uzantmedio estas tiu, kiu estas uzita kiam ajn la komando `nix-env` estas uzita. Ekzemple,
-ziŝon instalante per nix-env:
+instali ziŝon per nix-env:
 
     $ nix-env -iA nixos.zsh
 
-Ziŝo fariĝos specife disponebla por la uzanto kiu ĝin alvokas. Se `johano` estas la uzanto kiu tiun
-komandon rulis, tiam la ziŝa duumdosiero disponebliĝos kiel
-`/home/johano/.nix-profile/bin/zsh`. Se ziŝon la uzanto `mario` ankoraŭ ne instalis en sia profilo,
-tiam ĝi ne disponeblas por ĝi. Se la saman kanalon kiel Johano, Mario havas, kaj la saman
-*nix-env*-komandon ĝi kuris, tiam la ziŝan programan datumon Nix ne plu bezonas elŝuti el
-nulo. Anstataŭe, la ziŝan programan datumon, kiu estis kreita de la procezo de Johano antaŭe,
-disponebligas por Mario. Tamen, se gitkopion aŭ alian version de kanaloj kontraŭ tiu kiun Johano
-uzas, Mario uzas, tiam novan aperaĵon de ziŝo la alvoko de `nix-env` per Mario elŝutos.
+Ziŝo fariĝos specife disponebla por la uzanto kiu alvokas ĝin. Se `johano` estas la uzanto kiu rulis
+tiun komandon, tiam la ziŝa duumdosiero disponebliĝos kiel `/home/johano/.nix-profile/bin/zsh`. Se
+la uzanto `mario` ankoraŭ ne instalis ziŝon en sia profilo, tiam ĝi ne disponeblas por si. Se Mario
+havas la saman kanalon kiel Johano, kaj ĝi kuris la saman *nix-env*-komandon, tiam Nix ne plu
+bezonas elŝuti la ziŝan programan datumon el nulo. Anstataŭe, disponebliĝas por Mario la ziŝa
+programa datumo, kiu estis kreita de la procezo de Johano antaŭe. Tamen, se Mario uzas gitkopion aŭ
+alian version de kanaloj kontraŭ tiu kiun Johano uzas, kaj la versio de Ziŝo malsamas al tiu kiun
+Johano uzas, tiam la alvoko de `nix-env` per Mario elŝutos novan instancon de ziŝo .
 
 
-### <a name="disvolvmedio">Disvolvmedio</a>
+### <a name="programadmedio">Programadmedio</a>
 
-La tria medio, la dislovmedio, estas kreita per la uzo de nix-shell. La uzanton nix-shell
-permesas por sablujmediojn krei. La medio kreita estas izolita de la sistemo kaj kutimaj
-uzantmedioj. Je `/nix/store` la medio kreita ankoraŭ uzos, sed nek `/run/current-system/sw/` nek
-`~/.nix-profile/` estos modifita. Kiun nix-shell disponigas estas medio, kiu estas aparta de la
-resto de la sistemo, la uzanton permesante por porokazajn disponigojn krei sen zorgoj pli la
-modifado de la sistemstato. Per tio, la kapablon por medion uzi uzanto gajnas por diversajn
-disponigojn de apo elprovi aŭ por eblojn kontrasti antaŭ liverado.
+La tria medio, la programadmedio, estas kreita per la uzo de nix-shell. nix-shell ebligas la uzanton
+por krei sablujmediojn. La medio kreita estas izolita de la sistemo kaj kutimaj uzantmedioj. la
+medio kreita ankoraŭ uzos `/nix/store`, sed nek `/run/current-system/sw/` nek `~/.nix-profile/`
+estos modifita. Kiun nix-shell disponigas estas medio, kiu estas aparta de la cetero de la sistemo,
+permesante la uzanton por krei porokazajn disponigojn sen maltrankvilo pli la modifado de la
+sistemstato. Per tio, uzanto gajnas la kapablon por uzi medion por elprovi diversajn disponigojn de
+apo aŭ por kontrasti eblojn antaŭ liverado.
 
-Por mediojn krei kiuj estas malkonektitaj al la resto de la sistemo, manieron por la dependencojn de
-apo kaj sia datumo mem apartigi, de kutima sistema interveno ni bezonas havi. Onin la nix-shell
-permesas por maldikajn nivelojn de abstraktado krei, la determinismon kaj risurcan administradon de
-Nix mem ekspluatante.
+Por krei mediojn kiuj estas malkonektitaj al la cetero de la sistemo, ni bezonas havi manieron por
+apartigi la dependencojn de apo kaj sia datumo mem, de kutima sistema interveno. nix-shell ebligas
+onin por krei maldikajn nivelojn de abstraktado, ekspluante la determinismon kaj risurcan
+administradon de Nix mem.
 
 Por ilustri, ni kontrolu, ke [GNU Hello](https://www.gnu.org/software/hello/) ne fakte estas ankoraŭ
 instalita:
@@ -1385,26 +1386,25 @@ instalita:
     $ which hello
     hello not found
 
-Se tio estas la kazo, bone. Aliokaze, la *GNU Hello*-pakon unue forigi.
+Se tio estas la kazo, do bone. Aliokaze, unue forigi la *GNU Hello*-pakon.
 
-Nu, por je nix-shell montri, je GNU Hello ni rulu en nix-shell, tiam ĝi revenos al la kutima
-uzantŝelo.
+Nu, por montri nix-shell, ni rulu GNU Hello en nix-shell, tiam ĝi revenos al la kutima uzantŝelo.
 
     $ nix-shell --packages hello --pure --run hello
     Hello, world!
     $ which hello
     hello not found
 
-Kion ĉi tio faras, estas, ke la duumpakon por GNU Hello ĝi elŝutos, puran ŝelan medion kreante, tiam
-progresas por la duumdosieron `hello` ruli, kiu la konatan saluton montros al la ekrano. Se la
+Kion tio faras, estas, ke ĝi elŝutos la duumpakon por GNU Hello, kreante puran ŝelan medion, tiam
+progresas por ruli la duumdosieron `hello`, kiu montros la konatan saluton al la ekrano. Se la
 `‑‑run` opcio estas forigita, ni faliĝos en ŝelo:
 
     $ nix-shell --packages hello --pure
     [nix-shell:~]$ hello
     Hello, world!
 
-Tiu ŝelaperaĵo estas speciala tial, ke nur sufiĉan informon ĝi enhavas nur por la komandon
-`hello` igi disponebla. La valoron de `$PATH` ni eĉ povas kontroli ĉi tie:
+Tiu ŝelinstanco estas speciala tial, ke ĝi enhavas nur sufiĉan informon por igi la komandon
+`hello` disponebla. Ni eĉ povas kontroli la valoron de `$PATH` tie:
 
 ```bash
 [nix-shell:~]$ echo $PATH | tr ':' '\n'
@@ -1427,11 +1427,11 @@ Tiu ŝelaperaĵo estas speciala tial, ke nur sufiĉan informon ĝi enhavas nur p
 ```
 
 La eligo malsamos kontraŭ la mia pro la kradvaloroj en la tenejaj dosierindikoj. Ekster la teneja
-dosierindiko de *GNU Hello*, la ceteraj estas la minimumaj komponantoj de nix-shell-aperaĵo. Ĉi tiu
+dosierindiko de *GNU Hello*, la ceteraj estas la minimumaj komponantoj de nix-shell-instanco. Ĉi tiu
 sektoraro nomiĝas *stdenv*.
 
-La dosierojn `shell.nix` aŭ `default.nix` nix-shell serĉas, en tiu ordo, en la aktuala dosierujo dum
-startigo, por la difinojn elŝargi. Ĝin ni kreu, ĝin konservante kiel `default.nix`:
+nix-shell serĉas la dosierojn `shell.nix` aŭ `default.nix` , en tiu ordo, ĉe la aktuala dosierujo dum
+startigo, por elŝargi la difinojn. Ni kreu ĝin, konservante ĝin kiel `default.nix`:
 
 ```nix
 { pkgs ? import <nixpkgs> {} }:
@@ -1443,33 +1443,32 @@ stdenv.mkDerivation {
 }
 ```
 
-*.nix*-dosiero estas Nix-esprimo. En ĉi tiu ekzemplo, ĝi estas funkcio kiu unu argumenton akceptas
-kun implicita valoro. La bizara `<nixpkgs>` montras al la valoro de la atribuo `nixpkgs` deklarita en
-la `NIX_PATH` media variablo. Ĉe NixOS, ĝi aspektas jene:
+*.nix*-dosiero estas Nix-esprimo mem. En ĉi tiu ekzemplo, ĝi estas funkcio kiu akceptas unu
+argumenton kun implicita valoro. La bizara `<nixpkgs>`-esprimo indikas la valoron de la atribuo
+`nixpkgs`, deklarita en la media variablo `NIX_PATH`. Ĉe NixOS, ĝi aspektas jene:
 
     $ echo $NIX_PATH
     nixpkgs=/nix/var/nix/profiles/per-user/root/channels/nixos/nixpkgs:nixos-config=/etc/nixos/configuration.nix:/nix/var/nix/profiles/per-user/root/channels
 
-En la dosierujo kiu estas montrata de la atribuo `nixpkgs`, estas `.git-revision` dosiero. Ĝian
-enhavon ni kontrolu:
+En la dosierujo kiu estas indikata de la atribuo `nixpkgs`, ĝi estas la dosiero `.git-revision`. Ni kontrolu ĝian
+enhavon:
 
     $ cat /nix/var/nix/profiles/per-user/root/channels/nixos/nixpkgs/.git-revision
     1e8c01784a6a121fc94d111f4af7cc88dd932186
 
-Ĉi tio diras al ni la versio de Nixpkgs kanalojn uzanta en ĉi tiu profilo.
+Ĉi tio diras al ni la version de Nixpkgs-kanaloj uzata en ĉi tiu profilo.
 
-Iri reen, ĉiomajn identigilojn en la lokamplekso la deklaro `with pkgs` metas, ilin igas
-videblaj. `stdenv`, kiu estis menciita antaŭe, estas atribuaro kiu inter multaj aferoj, la
-identigilon `mkDerivation` enhavas. `mkDerivation`, sinsekve, estas funkcio kiu unu atribuaran
-argumenton akceptas. Onin mi memorigas, ke unu eron de argumento kiu estas atribuaro la kunigkrampoj
-post `mkDerivation` precizigas; semantikan similecon al la kunigkrampoj de aliaj programlingvoj por
-la komencon kaj finon de funkciamplekso limigi ĝi ne havas. Estas pluraj alĝustigiloj por ĝi, tamen
-por la celoj de simpleco, nur je `name` kaj je `buildInputs` ni kontrolos—la apenaŭaj atribuaj
-parametroj.
+Iri reen, la deklaro `with pkgs` metas ĉiom da identigiloj en la lokamplekso, igas ilin videblaj.
+`stdenv`, kiu estis menciita antaŭe, estas atribuaro kiu inter multaj aferoj, enhavas la identigilon
+`mkDerivation`. `mkDerivation`, sinsekve, estas funkcio kiu akceptas unu atribuaran argumenton.
+Memorigu, ke la kunigkrampoj post `mkDerivation` specifas unu eron da argumento kiu estas atribuaro;
+ĝi ne havas semantikan similecon al la kunigkrampoj de aliaj programlingvoj por limigi la komencon
+kaj finon de funkciamplekso. Estas pluraj alĝustigiloj por ĝi, tamen por la celoj de simpleco, nur
+ni kontrolos `name` kaj `buildInputs`—la apenaŭaj atribuaj parametroj.
 
 Por nia bagatela ekzemplo, la voloro de `name` povas esti io ajn. La valoro de `buildInputs`, tamen,
 estas grava. Ĉi tie, ili estas deklaritaj `hello` kaj `emem`. Estas referencoj al valoroj en la
-`nixpkgs` markilo, kiun ni vidis antaŭe. Se je `with pkgs` ni ne uzis, la esprimo estus:
+`nixpkgs`-markilo, kiun ni vidis antaŭe. Se ni ne uzis `with pkgs` , la esprimo estus:
 
 ```nix
 { pkgs ? import <nixpkgs> {} }:
@@ -1479,13 +1478,13 @@ pkgs.stdenv.mkDerivation {
   buildInputs = [ pkgs.hello pkgs.emem ];
 ```
 
-Por ĉi tiun esprimon manĝigi al nix-shell, ambaŭ je *hello* kaj *emem* uzante, rulu:
+Por manĝigi ĉi tiun esprimon al nix-shell, uzante ambaŭ *hello* kaj *emem*, rulu:
 
     $ nix-shell --pure --run "hello | emem -w"
     <p>Hello, world!</p>
 
-Fortajn abstraktadajn meĥanismojn nix-shell donas al ni kiuj estas rigarditaj tre malfacilaj por
-fari en aliaj aliroj. La determinismajn kvalitojn de Nix ĝi ekspluatas, fortan avantaĝon kreante.
+nix-shell donas al ni fortajn abstraktadajn meĥanismojn kiuj estas rigarditaj tre malfacilaj por
+fari en aliaj metodoj. Ĝi ekspluatas la determinismajn kvalitojn de Nix, kreante fortan avantaĝon.
 
 
 <a name="surmetoj">Surmetoj</a>
@@ -1615,7 +1614,7 @@ Per tiuj du dosieroj, je _kapo_ oni nun povas instali:
 <a name="finrimarkoj">Finrimarkoj</a>
 -------------------------------------
 
-Potencajn ilojn por sistemojn kaj disvolvajn agordojn administri facile Nix provizas. Fleksajn
+Potencajn ilojn por sistemojn kaj programadajn agordojn administri facile Nix provizas. Fleksajn
 facilojn por rendimentajn laborfluojn kaj distrubuajn modelojn krei ĝi havas. Se la plej gravajn
 eblojn de la Nix-ekosistemo kiuj plaĉas al mi, mi devas listigi, ili estas:
 
@@ -1673,7 +1672,7 @@ kaj [Nix](https://nixos.org/nix/manual) gvidiloj, min ege helpis por je Nix komp
 iras al [François-René RIDEAU](https://fare.livejournal.com) por min enkonduki al Nix antaŭ multaj jaroj.
 
 La NixOS-fondiĝo estas registrita senprofitcela organizo; la
-[oferdonoj](https://nixos.org/nixos/foundation.html) ege helpas en la disvolvo de Nix. Aliĝu al la
+[oferdonoj](https://nixos.org/nixos/foundation.html) ege helpas en la programado de Nix. Aliĝu al la
 [komunumo](https://nixos.org/nixos/community.html) kaj ĝin helpigu kreski!
 
 

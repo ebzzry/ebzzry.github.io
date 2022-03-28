@@ -1,9 +1,9 @@
 .PHONY: all clean rebuild
 
-KONSTRUILO=emem
+EMEM=emem
 
 all:
-	$(KONSTRUILO) -r
+	$(EMEM) -r
 	$(MAKE) $(MFLAGS) -C fkd/r
 	$(MAKE) $(MFLAGS) -C fkd/eo
 	$(MAKE) $(MFLAGS) -C fkd/en
