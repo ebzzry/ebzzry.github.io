@@ -113,7 +113,7 @@ function z+ () {
 }
 ```
 
-Por restaŭri la konservitan dosierujstakon en la aktuala seanco aŭ al nova aparta aperaĵo, rulu:
+Por restaŭri la konservitan dosierujstakon en la aktuala seanco aŭ al nova aparta instanco, rulu:
 
     % z+
     % ds -v

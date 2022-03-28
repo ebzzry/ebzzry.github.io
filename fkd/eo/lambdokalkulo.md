@@ -156,7 +156,7 @@ y
 Ni disapartigu ĝin:
 
 1. Apliki `(λx.x)` al `y`:
-2. Konsumi la argumentojn, tiam anstataŭigi ĉiujn aperaĵojn de `x` en la korpo, per `y`.
+2. Konsumi la argumentojn, tiam anstataŭigi ĉiujn instancojn de `x` en la korpo, per `y`.
 
 _«Atendu, ĝi nur revenas la argumenton y.»_ oni eble diras. Tio pravas. La funkcio `(λx.x)` estas la
 identeca funkcio—unuopa-parametra funkcio kiu revenas kion ajn ĝi estas aplikita al.
