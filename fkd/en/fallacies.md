@@ -2,7 +2,7 @@ A Gentle Introduction to Fallacies
 ==================================
 
 <div class="center">[Esperanto](/eo/sofismoj/) ■ English</div>
-<div class="center">Last updated: March 13, 2022</div>
+<div class="center">Last updated: March 29, 2022</div>
 
 >Learning is not compulsory; neither is survival.<br>
 >―W. Edwards Deming
@@ -318,11 +318,12 @@ This fallacy states that if most people—relative to the speaker—chooses a sp
 that position must be true. The basic idea is that a claim must be accepted as true on the grounds
 that people are favorable towards that claim.
 
->“The survey shows that most people are going to vote Juan for president. Their choice must be
->correct. I’m going to vote for him, too.”
+>“Most of the posts that I see on Fazebook are supporting Inel for presidency. Their choice must be
+>correct. I’m going to vote for her, too.”
 
-This happens when a person believes a claim on superficial bases. This usually happens due to
-biases. A choice is made not due to technical merits, but due to prejudices.
+This happens when a person believes something just because it is popular within a certain set of
+parameters. Another way to describe this fallacy is that it is the mentality of the herd. Safety in
+numbers.
 
 
 <a name="nature">Appeal to nature</a>
@@ -449,7 +450,7 @@ assume that that entity exists, first. X because X.
 This is committed when a conclusion is made from narrow and limited views. This is also called the
 cherry picking fallacy. Mass and social media is notorious of this.
 
->“Jane is living a blissful and satisfying life because I frequently see her posts on socia reto
+>“Jane is living a blissful and satisfying life because I frequently see her posts on Fazebook
 >that she is happy.”
 
 The observer ignores the possibility that what he sees may not be true because Jane may only post

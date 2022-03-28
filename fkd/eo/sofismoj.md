@@ -2,7 +2,7 @@ Milda Enkonduko al Sofismoj
 ===========================
 
 <div class="center">Esperanto ■ [English](/en/fallacies/)</div>
-<div class="center">Laste ĝisdatigita: la 15-an de Marto 2022</div>
+<div class="center">Laste ĝisdatigita: la 29-an de Marto 2022</div>
 
 >Lerni ne necesas; nek travivas.<br>
 >―W. Edwards DEMING
@@ -310,11 +310,12 @@ li havas fortan sperton faronte tian kazostudon.
 do tiu pozicio devas esti vera. La baza ideo estas, ke aserto devas esti akceptita kiel la vero sur la
 fundoj, ke la homoj estas aprobaj rilate al tiu aserto.
 
->«La enketo montras, ke plejmulto da homoj voĉdonos Karlon por prezidanto. Ilia elekto devas esti
->ĝusta. Mi ankaŭ voĉdonos por li.»
+>«La plejmulto da afiŝoj ĉe Fejzbuko subtenas Inel por prezidenteco. Ilia elekto devas esti ĝusta.
+>Mi ankaŭ voĉdonos por si.»
 
-Ĉi tio okazas kiam persono kredas aserton per malprofundaj kialoj. Ĉi tio ofte okazas pro
-antaŭjuĝemoj. Elekto estas farita ne pro teĥnikaj meritoj sed pro antaŭjuĝoj.
+Ĉi tio okazas kiam persono kredas je io nur tial ke ĝi estas populara laŭ certaj kondiĉoj. Alia
+maniero por priskribi ĉi tiun sofismon estas, ke ĝi estas la mensostato de la grego. Sekureco en
+nombroj.
 
 
 <a name="naturo">Apelo al la naturo</a>
