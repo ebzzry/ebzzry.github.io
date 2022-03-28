@@ -2,7 +2,7 @@ Milda Enkonduko al la Nix-Familio
 =================================
 
 <div class="center">Esperanto ■ [English](/en/nix/)</div>
-<div class="center">Laste ĝisdatigita: la 25-an de Marto 2022</div>
+<div class="center">Laste ĝisdatigita: la 28-an de Marto 2022</div>
 
 >Ne maltrankviliĝu pri tio, kion la aliaj faros. La plej bona maniero por antaŭdiri la estontecon
 >estas por eltrovi ĝin.<br>―Alan KAY
@@ -933,7 +933,7 @@ kontrolsumo de ĉiom da enigoj kiuj estis uzitaj por konstrui la pakon. La dosie
 
 ### <a name="nixpkgsinstalo">Instalo</a>
 
-Se oni uzas NixOS preterpasu ĉi tiun sekcion tial, ke Nixpkgs jam iras kun ĝi. Por instali Nixpkgs
+Se oni uzas NixOS, preterpasu ĉi tiun sekcion tial, ke Nixpkgs jam iras kun ĝi. Por instali Nixpkgs
 ĉe linukso aŭ makintoŝo, rulu:
 
     $ curl https://nixos.org/nix/install | bash
@@ -1490,21 +1490,22 @@ fari en aliaj metodoj. Ĝi ekspluatas la determinismajn kvalitojn de Nix, kreant
 <a name="surmetoj">Surmetoj</a>
 -------------------------------
 
-Estos tempoj en kiuj ŝanĝojn al la paksistemo oni devas fari, tamen ne pretas oni por iri tutfreneze
-kaj la gitdeponejon fuŝi. Ankaŭ estos tempoj en kiuj privatan deponejon oni volas havi, sed oni ne
-volas publikiĝi. Onin surmetoj povas helpi pri tio.
+Estos tempoj en kiuj oni devas fari ŝanĝojn al la paksistemo, tamen oni ne pretas por iri tutfreneze
+kaj fuŝi la gitdeponejon. Ankaŭ estos tempoj en kiuj oni volas havi privatan deponejon, sed oni ne
+volas publikiĝi. Surmetoj povas helpi onin por tiu celo.
 
-Kiel la nomo implicas, la surmeto meĥanismo estas maniero por abstraktan nivelon krei super la
-ekzistantaj esprimoj. Unu uzo estas samkiel benkseĝaron porti por intervjuo—vi ankoraŭ estas vi
-sube, sed draste ŝanĝiĝis via aspekto. Alia uzo samkiel viajn internajn organojn anstataŭigi per la
-kibernetikajn—vi ankoraŭ estas iomete vi, sed draste ŝanĝiĝis pluraj partoj de vi interne. Alia uzado, kiu estas unu el miaj plej ŝatataj, estas novan eston krei el virtuala nenio.
+Kiel la nomo implicas, la surmeto meĥanismo estas maniero por krei abstraktan nivelon super la
+ekzistantaj esprimoj. Unu uzo estas samkiel porti benkseĝaron por intervjuo—vi ankoraŭ estas vi
+sube, sed draste ŝanĝiĝis via aspekto. Alia uzo estas samkiel anstataŭigi viajn internajn organojn
+kibernetike—vi ankoraŭ estas iomete vi, sed draste ŝanĝiĝis pluraj partoj de vi interne.
+Alia uzado, kiu estas unu el miaj plej ŝatataj, estas krei novan eston el virtuala nenio.
 
-Surmetaj dosieroj estas viaj konataj Nix-esprimoj, per specifa formato. Ili loĝas en
-`~/.config/nixpkgs/overlays/`. Se tiun dosierujon oni ne havas, ĝin oni povas krei per:
+Surmetaj dosieroj estas viaj konataj Nix-esprimoj kun specifa formato. Ili loĝas ĉe
+`~/.config/nixpkgs/overlays/`. Se oni ne havas tiun dosierujon, oni povas krei ĝin per:
 
     $ mkdir -p ~/.config/nixpkgs/overlays
 
-Miajn surmetajn dosierojn mi strukturas en kiu ĉiu dosiero kongruas al unu pako, kies konduton mi
+Mi strukturas miajn surmetajn dosierojn en kiu ĉiu dosiero kongruas al unu pako, kies konduton mi
 volas ŝanĝi.
 
 
@@ -1512,7 +1513,7 @@ volas ŝanĝi.
 
 Ekzemple, se oni volas certigi ke la dokumentaro por
 [Rakido](https://github.com/NixOS/nixpkgs/blob/master/pkgs/development/interpreters/racket/default.nix)
-estos instalitaj, la dosieron `~/.config/nixpkgs/overlays/racket.nix` kreu per la jena enhavo:
+estos instalitaj, kreu la dosieron `~/.config/nixpkgs/overlays/racket.nix` per la jena enhavo:
 
 ```nix
 self: super: {
@@ -1522,14 +1523,16 @@ self: super: {
 }
 ```
 
-Ĝi estas Nix-funkcio kun du argumentoj—`self` kaj `super`. `super` referencas al la esprimoj kiuj apartenas al la sistemo, dum `self` referencas al la aro de esprimoj kiujn oni difinas. Estas devige, ke estas nur du argumentoj kaj ili estas `self` kaj `super`.
+Tiu estas Nix-funkcio kun du argumentoj—`self` kaj `super`. `super` referencas al la esprimoj kiuj
+apartenas al la sistemo, dum `self` referencas al la aro de esprimoj kiujn oni difinas. Estas
+devige, ke estas nur du argumentoj kaj ili estas `self` kaj `super`.
 
-Sekve, precizigu, ke por la `racket`-atributo, la `override`-funkcion ĝi vokos el la fonta tavolo,
-donante al ĝi atributan aron kiu la transpasojn enhavas.
+Sekve, precizigu, ke por la `racket`-atributo, ĝi vokos la funkcion `override` el la fonta tavolo,
+donante al ĝi atributan aron kiu enhavas la transpasojn.
 
-Alia ekzemplo estas ke se je [NaCl](https://developer.chrome.com/native-client) por
-[Chromium](https://github.com/NixOS/nixpkgs/blob/master/pkgs/applications/networking/browsers/chromium/default.nix)
-oni volas ŝalti, la dosieron `~/.config/nixpkgs/overlays/chromium.nix` kreu per la jena enhavo:
+Alia ekzemplo estas ke se oni volas ŝalti [NaCl](https://developer.chrome.com/native-client) por
+[Chromium](https://github.com/NixOS/nixpkgs/blob/master/pkgs/applications/networking/browsers/chromium/default.nix),
+kreu la dosieron `~/.config/nixpkgs/overlays/chromium.nix` per la jena enhavo:
 
 ```nix
 self: super: {
@@ -1539,66 +1542,66 @@ self: super: {
 }
 ```
 
-Kiam je Racket aŭ je Chromium oni instalas, tiuj agordoj estos legataj kaj efektiviĝos.
+Kiam oni instalas Racket aŭ Chromium, tiuj agordoj estos legataj kaj efektiviĝos.
 
     $ nix-env -iA $(nix-channel --list | awk '{print $1}').racket
 
 
 ### <a name="surmetojnovajpakoj">Novaj pakoj</a>
 
-La surmetan sistemon uzi por novajn pakojn krei estas ideala se la pakon oni ne volas doni al
-Nixpkgs, ĝin oni volos esti privata, aŭ novan infrastukturon oni volas aldoni sen la ekstran
-komplekson trakti.
+Uzi la surmetan sistemon por krei novajn pakojn estas ideala se oni ne volas doni la pakon al
+Nixpkgs, oni volas privatigi ĝin, aŭ oni volas aldoni novan infrastukturon sen trakti la ekstran
+komplekson.
 
-Ni supozu, ke je [kapo](https://github.com/ebzzry/kapo)—Vagrant-helpilon—oni volas
-pakigi. Por tion fari, du aĵojn oni skribos:
+Ni supozu, ke ekzistas simpla ŝela programo _moo_ kiu loĝas ĉe <https://github.com/ebzzry/moo>, kaj
+oni deziras paki ĝin. Por fari tion, oni skribos du aĵojn:
 
 1. la supran surmetan dosieron en `~/.config/nixpkgs/overlays/`; kaj
-2. la Nix-esprimo kiu je _kapo_ fakte kreas.
+2. la Nix-esprimon kiu je _moo_ fakte kreas.
 
-Por #1, la dosieron `~/.config/nixpkgs/overlays/kapo.nix` kreu per la jena enhavo:
+Por #1, kreu la dosieron `~/.config/nixpkgs/overlays/moo.nix` per la jena enhavo:
 
 ```
 self: super: {
-  kapo = super.callPackage ./pkgs/kapo { };
+  moo = super.callPackage ./pkgs/moo { };
 }
 ```
 
-Tiam, por #2, la dosierarbon kreu por la esprimo. Memoru, ke ne devigatas la nomo
+Tiam, por #2, kreu la dosierarbon por la esprimo. Memoru, ke ne devigatas la nomo
 `pkgs`:
 
     $ cd ~/.config/nixpkgs/overlays
-    $ mkdir -p pkgs/kapo
+    $ mkdir -p pkgs/moo
 
-Tiam la dosieron `~/.config/nixpkgs/overlays/pkgs/kapo/default.nix` keru per la jena enhavo:
+Tiam kreu la dosieron `~/.config/nixpkgs/overlays/pkgs/moo/default.nix` per la jena enhavo:
 
 ```nix
 { stdenv, fetchFromGitHub, bash }:
 
 stdenv.mkDerivation rec {
-  name = "kapo-${version}";
+  name = "moo-${version}";
   version = "0.0.1";
 
   src = fetchFromGitHub {
     owner = "ebzzry";
-    repo = "kapo";
+    repo = "moo";
     rev = "abd22b4860f83fe7469e8e40ee50f0db1c7a5f2c";
     sha256 = "0jh0kdc7z8d632gwpvzclx1bbacpsr6brkphbil93vb654mk16ws";
   };
 
   buildPhase = ''
-    substituteInPlace kapo --replace "/usr/bin/env bash" "${bash}/bin/bash"
+    substituteInPlace moo --replace "/usr/bin/env bash" "${bash}/bin/bash"
   '';
 
   installPhase = ''
     mkdir -p $out/bin
-    cp kapo $out/bin
-    chmod +x $out/bin/kapo
+    cp moo $out/bin
+    chmod +x $out/bin/moo
   '';
 
   meta = with stdenv.lib; {
-    description = "Vagrant helper";
-    homepage = https://github.com/ebzzry/kapo;
+    description = "Random helper";
+    homepage = https://github.com/ebzzry/moo;
     license = licenses.cc0;
     maintainers = [ maintainers.ebzzry ];
     platforms = platforms.all;
@@ -1606,56 +1609,55 @@ stdenv.mkDerivation rec {
 }
 ```
 
-Per tiuj du dosieroj, je _kapo_ oni nun povas instali:
+Per tiuj du dosieroj, oni nun povas instali _moo_ :
 
-    $ nix-env -iA $(nix-channel --list | awk '{print $1}').kapo
+    $ nix-env -iA $(nix-channel --list | awk '{print $1}').moo
 
 
 <a name="finrimarkoj">Finrimarkoj</a>
 -------------------------------------
 
-Potencajn ilojn por sistemojn kaj programadajn agordojn administri facile Nix provizas. Fleksajn
-facilojn por rendimentajn laborfluojn kaj distrubuajn modelojn krei ĝi havas. Se la plej gravajn
-eblojn de la Nix-ekosistemo kiuj plaĉas al mi, mi devas listigi, ili estas:
+Nix provizas potencajn ilojn por administri facile sistemojn kaj programadajn agordojn. Ĝi havas
+fleksajn facilojn por krei rendimentajn laborfluojn kaj distrubuajn modelojn. Se mi devas listigi la
+plej gravajn eblojn de la Nix-ekosistemo kiuj plaĉas al mi, ili estas la jena:
 
-- determinisme
-- reprodukteme
-- senstate
-- deklare
-- kohere
-- porteble
-- fideble
-- pure funkcie
-- transakciajn ĝisdatigojn havas
+- determinisma
+- reproduktema
+- senstata
+- deklara
+- kohera
+- portebla
+- fidebla
+- pure funkcia
 
-Alia grava ano de la Nix-familio estas [NixOps](https://nixos.org/nixops); onin permesas por je
-NixOS disponigi ĉe «nudmetalaj» sistemoj, virtualaj sistemoj, aŭ la nubo, per la uzo de deklara
+Alia grava ano de la Nix-familio estas [NixOps](https://nixos.org/nixops); ĝi ebligas onin por
+disponigi NixOS ĉe «nudmetalaj» sistemoj, virtualaj sistemoj, aŭ la nubo, per la uzo de deklara
 aliro kiu estas konata al ni. Ĝi eblas disponigi al *VirtualBox*, *Amazon EC2*,
 *Google Compute Engine*, *Microsoft Azure*, *Hetzner*, *Digital Ocean*, kaj *Libvirtd*. Iru al la
 [gvidilo](https://nixos.org/nixops/manual/) por vidi pli da detalo.
 
-Fundajn detalojn pri generadoj, derivaĵoj, kaj efektivigadoj estis eliziadoj intence, en ĉi tiu
-artikolo. Ili povas fariĝi sekcio per si mem, aŭ ĉi tiun artikolon mi eblas ĝisdatigi por tiujn
-temojn aldoni. Novan sekcion pri NixOS mi eblas skribi.
+Fundajn detalojn pri generadoj, derivaĵoj, kaj efektivigadoj estis eliziitaj intence en ĉi tiu
+artikolo. Ili povas fariĝi sekcio per si mem, aŭ mi eblas ĝisdatigi ĉi tiun artikolon por aldoni tiujn
+temojn. Estas eble, ke mi skribos novan sekcion pri NixOS .
 
 Emaksa ĉefregimo por Nix-dosieroj haveblas de la [ĉefdeponejo](https://github.com/NixOS/nix-mode) de
-NixOS. Ĝi ankaŭ haveblas per [MELPA](https://melpa.org/#/nix-mode). Ĝin oni povas instali per:
+NixOS. Ĝi ankaŭ haveblas per [MELPA](https://melpa.org/#/nix-mode). Oni povas instali ĝin per:
 
 ```
 M-x package-install EN nix-mode EN
 ```
 
-Ekzistas aliaj pakaj administradaj sistemoj kiuj ĉi tiun problemareon ankaŭ provas solvi. Tiuj,
+Ekzistas aliaj pakaj administradaj sistemoj kiuj ankaŭ provas solvi ĉi tiun problemareon. Tiuj,
 kiujn mi konas estas [AppImage](http://appimage.org/), [Zero Install](http://0install.net/),
 [Snapcraft](https://snapcraft.io/), kaj [Flatpak](http://flatpak.org/).
 
 La [Guix System Distribution (GuixSD)](https://www.gnu.org/software/guix/) estas linuksa distribuo
-kiu baziĝas ĉe Nix. Je [Guile](https://www.gnu.org/software/guile/) ĝi uzas kiel sia
-API-lingvo. La kerna kontrasto inter GuixSD kaj NixOS, estas, je
-[GNU Shepherd](https://www.gnu.org/software/shepherd/) tiu uzas anstataŭ systemd; neliberajn
-pakojn ĝi ne permesas; kaj je [Linux-libre](https://www.fsfla.org/ikiwiki/selibre/linux-libre/),
-malpligrandigita versio de la baza kerno kun ĉiom da komercaj aĵoj forigitaj, ĝi uzas. Pli da
-informo pri iliaj kontrastoj troveblas
+kiu estas bazita sur Nix. Ĝi uzas [Guile](https://www.gnu.org/software/guile/) kiel sia API-lingvo.
+La kerna kontrasto inter GuixSD kaj NixOS, estas, ke GuixSD uzas
+[GNU Shepherd](https://www.gnu.org/software/shepherd/) anstataŭ systemd; neliberajn pakojn ĝi ne
+permesas; kaj ĝi uzas [Linux-libre](https://www.fsfla.org/ikiwiki/selibre/linux-libre/),
+malpligrandigita versio de la baza kerno kun ĉiom da komercaj aĵoj forigitaj. Pli da informo pri
+iliaj kontrastoj troveblas
 [ĉi tie](https://sandervanderburg.blogspot.de/2012/11/on-nix-and-gnu-guix.html).
 
 Ekster GuixSD, ekzistas aliaj projektoj kiujn Nix inspiris. Estas [Habitat](https://habitat.sh),
@@ -1668,12 +1670,12 @@ La artikoloj de
 kaj
 [Oliver CHARLES](https://web.archive.org/web/20180610095602/https://ocharles.org.uk/blog/posts/2014-02-04-how-i-develop-with-nixos.html),
 kune la [NixOS](https://nixos.org/nixos/manual), [Nixpkgs](https://nixos.org/nixpkgs/manual),
-kaj [Nix](https://nixos.org/nix/manual) gvidiloj, min ege helpis por je Nix kompreni. Apartaj dankoj
-iras al [François-René RIDEAU](https://fare.livejournal.com) por min enkonduki al Nix antaŭ multaj jaroj.
+kaj [Nix](https://nixos.org/nix/manual) gvidiloj, ege helpis min por kompreni Nix. Apartaj dankoj
+iras al [François-René RIDEAU](https://fare.livejournal.com) por enkonduki min al Nix antaŭ multaj jaroj.
 
 La NixOS-fondiĝo estas registrita senprofitcela organizo; la
 [oferdonoj](https://nixos.org/nixos/foundation.html) ege helpas en la programado de Nix. Aliĝu al la
-[komunumo](https://nixos.org/nixos/community.html) kaj ĝin helpigu kreski!
+[komunumo](https://nixos.org/nixos/community.html) kaj helpu ĝin kreskiĝi!
 
 
 <a name="bonifiko">Bonifiko</a>
@@ -1702,7 +1704,7 @@ nix-repl> let y = x: ((f: (x (v: ((f f) v)))) (f: (x (v: ((f f) v)))));
 2432902008176640000
 ```
 
-La ĉefeligujon oni povas konduki al nix-repl:
+Oni povas la ĉefeligujon konduki al nix-repl:
 
 ```nix
 $ echo 'let y = x: ((f: (x (v: ((f f) v)))) (f: (x (v: ((f f) v))))); b = p: (n: if n == 0 then 1 else (n * (p (n - 1)))); f = y b; in f 20' | nix-repl

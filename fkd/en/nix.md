@@ -2,7 +2,7 @@ A Gentle Introduction to the Nix Family
 =======================================
 
 <div class="center">[Esperanto](/eo/nix/) ■ English</div>
-<div class="center">Last updated: October 10, 2021</div>
+<div class="center">Last updated: March 28, 2022</div>
 
 >Don’t worry about what anybody else is going to do. The best way to predict the future is to
 >invent it.<br>
@@ -1564,53 +1564,55 @@ Using the overlay system to create new packages is ideal if you don’t want to 
 of Nixpkgs, you want to make it private, or you want to add a new infrastructure without handling
 the extra complexity.
 
-Let’s say you want to package [kapo](https://github.com/ebzzry/kapo)—a Vagrant helper. To do that, you’ll be writing two things:
+Let’s say that there exists a simple shell program called _moo_ which lives in
+<https://github.com/ebzzry/moo>, and you want to package it. To do that, you’ll be writing two
+things:
 
 1. the top-level overlay file in `~/.config/nixpkgs/overlays/`; and
-2. the Nix expression that will actually build _kapo_.
+2. the Nix expression that will actually build _moo_.
 
-For #1, create the file `~/.config/nixpkgs/overlays/kapo.nix` with the following contents:
+For #1, create the file `~/.config/nixpkgs/overlays/moo.nix` with the following contents:
 
 ```
 self: super: {
-  kapo = super.callPackage ./pkgs/kapo { };
+  moo = super.callPackage ./pkgs/moo { };
 }
 ```
 
 Then, for #2, create the directory tree for the expression. Take note that it doesn’t have to have the name `pkgs`:
 
     $ cd ~/.config/nixpkgs/overlays
-    $ mkdir -p pkgs/kapo
+    $ mkdir -p pkgs/moo
 
-Then create the file `~/.config/nixpkgs/overlays/pkgs/kapo/default.nix` with the following contents:
+Then create the file `~/.config/nixpkgs/overlays/pkgs/moo/default.nix` with the following contents:
 
 ```nix
 { stdenv, fetchFromGitHub, bash }:
 
 stdenv.mkDerivation rec {
-  name = "kapo-${version}";
+  name = "moo-${version}";
   version = "0.0.1";
 
   src = fetchFromGitHub {
     owner = "ebzzry";
-    repo = "kapo";
+    repo = "moo";
     rev = "abd22b4860f83fe7469e8e40ee50f0db1c7a5f2c";
     sha256 = "0jh0kdc7z8d632gwpvzclx1bbacpsr6brkphbil93vb654mk16ws";
   };
 
   buildPhase = ''
-    substituteInPlace kapo --replace "/usr/bin/env bash" "${bash}/bin/bash"
+    substituteInPlace moo --replace "/usr/bin/env bash" "${bash}/bin/bash"
   '';
 
   installPhase = ''
     mkdir -p $out/bin
-    cp kapo $out/bin
-    chmod +x $out/bin/kapo
+    cp moo $out/bin
+    chmod +x $out/bin/moo
   '';
 
   meta = with stdenv.lib; {
-    description = "Vagrant helper";
-    homepage = https://github.com/ebzzry/kapo;
+    description = "Random helper";
+    homepage = https://github.com/ebzzry/moo;
     license = licenses.cc0;
     maintainers = [ maintainers.ebzzry ];
     platforms = platforms.all;
@@ -1618,9 +1620,9 @@ stdenv.mkDerivation rec {
 }
 ```
 
-With those two files in place, you can now install _kapo_:
+With those two files in place, you can now install _moo_:
 
-    $ nix-env -iA $(nix-channel --list | awk '{print $1}').kapo
+    $ nix-env -iA $(nix-channel --list | awk '{print $1}').moo
 
 
 <a name="closing">Closing remarks</a>
@@ -1638,7 +1640,6 @@ had to list down the most important features of the Nix ecosystem that I like, t
 - portable
 - reliable
 - purely functional
-- has transactional updates
 
 Another important member of the Nix family is [NixOps](https://nixos.org/nixops); it enables one to
 deploy NixOS on bare-metal machines, virtual machines, or cloud using the declarative approach that
