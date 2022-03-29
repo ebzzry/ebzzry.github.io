@@ -2,7 +2,7 @@ Mia Markdaŭna Stilgvidilo
 =========================
 
 <div class="center">Esperanto ■ [English](/en/markdown/)</div>
-<div class="center">Laste ĝisdatigita: la 17-an de Marto 2022</div>
+<div class="center">Laste ĝisdatigita: la 29-an de Marto 2022</div>
 
 >La reguloj kiuj direktas cirkonstancojn estas nuligitaj per novaj cirkonstancoj.<br>
 >―Napoleono BONAPARTE
@@ -31,10 +31,10 @@ Mia Markdaŭna Stilgvidilo
 ---------------------------------
 
 Skribi per markdaŭno plaĉas al mi. Ĝi estas legebla, plumpeza, kaj portebla. Ĝi estas platteksta do
-specialajn apojn oni ne plu bezonas por legi kaj skribi kun ĝi. En ĉi tiu artikolo miajn proprajn
-gvidnormojn pri kiel markdaŭnajn dosierojn skribi mi priparolos. Specifajn arojn de reguloj mi
-observas por ke miaj dosierroj povu aspekti koheraj kun unu la aliaj, kaj por ke ĝin emakso povu
-formati bele.
+oni ne plu bezonas specialajn apojn por legi kaj skribi kun ĝi. En ĉi tiu artikolo mi priparolos
+miajn proprajn gvidnormojn pri kiel skribi markdaŭnajn dosierojn. Mi observas specifajn arojn de
+reguloj por ke miaj dosierroj povu aspekti koheraj al unu la aliaj, kaj por ke emakso povu
+formati ĝin bele.
 
 
 <a name="cxapoj">Ĉapoj</a>
@@ -43,10 +43,10 @@ formati bele.
 
 ### <a name="nivelo1a">Nivelo 1-a</a>
 
-Nivelaj 1-aj ĉapeloj idealas kiam uzitas kiel dokumentaj titoloj. Ili devas esti uzataj nur unufoje
-kaj ili devas esti en la unua linio de dosiero. La celon de la dosiero ĝi devas priskribi. La
-egalosignon (=) mi uzas por la 1-an nivelon indiki anstataŭ la kradosigno (#). La egalosignon uzante
-plifaciliĝas por la ĉapon vidi, kaj ĝin ĝi distingas kontraŭ la aliaj markiloj. Ĝin mi uzas tiel:
+Nivelaj 1-aj ĉapeloj idealas kiam uziĝas kiel dokumentaj titoloj. Ili devas esti uzataj nur unufoje
+kaj ili devas esti en la unua linio de dosiero. Ĝi devas priskribi La celon de la dosiero. Mi uzas
+la egalosignon (=) por indiki la 1-an nivelon anstataŭ la kradosigno (#). Uzante la egalosignon 
+plifaciliĝas por vidi la ĉapon, kaj ĝi distingas ĝin kontraŭ la aliaj markiloj. Mi uzas ĝin tiel:
 
 ```markdown
 Kiel Flugi Samkiel Omaro
@@ -63,26 +63,26 @@ anstataŭ
 
 ### <a name="nivelo2a">Nivelo 2-a</a>
 
-La supraj partoj de dokumento nivelaj 2-aj ĉapeloj montras. Ili estas la ĉefaj apartigiloj en
-dosiero. Similas al la nivela 1-a ĉapelo, la streketon (-) mi uzas por la ĉapon marki. Ĝin mi uzas
+Nivelaj 2-aj ĉapeloj montras la suprajn partojn de dokumento. Ili estas la ĉefaj apartigiloj en
+dosiero. Similas al la nivela 1-a ĉapelo, mi uzas la streketon (-) por marki la ĉapon. Mi uzas ĝin
 tiel:
 
 ```markdown
-La Pinĉilojn Pretigi
+Pretigi La Pinĉilojn 
 --------------------
 ```
 
 anstataŭ
 
 ```markdown
-## La Pinĉilojn Pretigi
+## Pretigi La Pinĉilojn
 ```
 
 
 ### <a name="malplialtaj">Malpli altaj niveloj</a>
 
-Por nivelo 3-a kaj malpli altaj niveloj, la kradon (#) mi uzas kun la konvenaj nombroj de ripetoj
-por la nivelon indiki.
+Por nivelo 3-a kaj malpli altaj niveloj, mi uzas la kradon (#) kun la konvenaj nombroj de ripetoj
+por indiki la nivelon.
 
 Nivelo 3-a:
 
@@ -102,8 +102,8 @@ Kaj tiel plu.
 <a name="distanco">Interlinia distanco</a>
 ------------------------------------------
 
-La spaco inter dokumentaj eroj devas esti akordaj por legeblecon plifaciligi. Post ĉapo, malplenan
-linion kreu:
+La spaco inter dokumentaj eroj devas esti akordaj por plifaciligi legeblecon. Post ĉapo, kreu
+malplenan linion:
 
 ```markdown
 Ja, ja, ja
@@ -112,7 +112,7 @@ Ja, ja, ja
 Teksto ĉi tie
 ```
 
-Novan linion kreante, du malplenajn liniojn antaŭ ĝi kreu:
+Kreante novan linion, kreu du malplenajn liniojn antaŭ ĝi:
 
 ```markdown
 Ja, ja, ja
@@ -121,30 +121,30 @@ Ja, ja, ja
 Teskto ĉi tie
 
 
-La Pinĉilojn Pretigi
+Pretigi La Pinĉilojn 
 --------------------
 
 Ve
 ```
 
-Alia bona kialo por malplenan spacon havi post ĉiu ĉapo estas por helpi al redaktiloj kiel emakso
-por la tekston formati. Teksblokon la klavkombino <kbd>M-q</kbd> formatas—defaŭlte bindita al
-`fill-paragraph`—por ke la maksimuma linia larĝo estu ĝuste ruliĝita. La variablon
-`fill-column`—defaŭlte bindita al 70—la komando `fill-paragraph` uzas por tekskorpon formati.
+Alia bona kialo por havi malplenan spacon post ĉiu ĉapo estas por helpi redaktilojn kiel emakso
+formati la tekston. La klavkombino <kbd>M-q</kbd> formatas teksblokon—defaŭlte bindita al
+`fill-paragraph`—por ke la maksimuma linia larĝo estu ĝuste ruliĝita. La komando `fill-paragraph`
+uzas la variablon `fill-column`—defaŭlte bindita al 70— por formati tekskorpon.
 
 Do se la jenan tekston oni havas:
 
 ```markdown
-La Pinĉilojn Pretigi
+Pretigi La Pinĉilojn 
 --------------------
 
 Ve ve ve veve ve veve ve veve ve veve ve veve ve veve ve veve ve veve ve veve ve veve ve veve ve ve
 ```
 
-kaj je <kbd>M-q</kbd> oni premas dum la punkto estas ie en la lasta linio, ĝi fariĝos:
+kaj oni premas <kbd>M-q</kbd> dum la punkto estas ie en la lasta linio, ĝi fariĝos:
 
 ```markdown
-La Pinĉilojn Pretigi
+Pretigi La Pinĉilojn
 --------------------
 
 Ve ve ve veve ve veve ve veve ve veve ve veve ve veve ve
@@ -155,7 +155,7 @@ veve ve veve ve veve ve veve ve veve ve ve
 <a name="kodblokoj">Kodblokoj</a>
 ---------------------------------
 
-Kiam du aŭ pli liniojn kodo aŭ komandbloko okupas, ĝin krommarĝenigu per kvar spacetoj:
+Kiam kodo aŭ komandbloko okupas du aŭ pli liniojn, krommarĝenigu ĝin per kvar spacetoj:
 
 ```bash
     VAR=blahblahblah
@@ -163,8 +163,8 @@ Kiam du aŭ pli liniojn kodo aŭ komandbloko okupas, ĝin krommarĝenigu per kva
 ```
 
 
-Se estas tri aŭ pli linioj, paroj de tri maldekstraj kornoj (```) uzu por la komencon kaj finon de
-la kodbloko limigi:
+Se estas tri aŭ pli linioj, uzu parojn de tri maldekstraj kornoj (```) por limigi la komencon kaj
+finon de la kodbloko:
 
     ˋˋˋbash
     $ mkdir hundo
@@ -176,12 +176,12 @@ la kodbloko limigi:
 <a name="bullistoj">Bullistoj</a>
 ---------------------------------
 
-Listojn kreante, la streketon (-) mi ofte uzas por la nivelon 1-an indiki. Tiam, la pluson (+) mi
-uzas por la nivelon 2-an indiki. Fine, por la nivelo 3-a kaj malpli altaj, la steleton (*) mi uzas.
+Kreante listojn, mi ofte uzas la streketon (-) por indiki la nivelon 1-an. Tiam, mi uzas la pluson
+(+) por indiki la nivelon 2-an. Fine, por la nivelo 3-a kaj malpli altaj, mi uzas la steleton (*).
 
-La streketo pli facilas por maŝinskribi sur klavaro ol la steleto. Oni ne estas devigita por la
-<kbd>Shift</kbd> klavon uzi sur kutimaj klavaroj. Kaj cetere, kontraste kun la steleto, pli koheran
-signobildon la streketo havas inter malsamaj litertipoj.
+La streketo pli facilas por maŝinskribi sur klavaro ol la steleto. Oni ne estas devigita por uzi la
+klavon <kbd>Shift</kbd> per kutimaj klavaroj. Kaj cetere, kontraste kun la steleto, la streketo
+havas pli koheran signobildon inter malsamaj litertipoj.
 
 Ekzemple:
 
@@ -200,8 +200,8 @@ Ekzemple:
 <a name="ankroj">Ankroj</a>
 ---------------------------
 
-Se la cela dokumenta formato de la markdaŭnaj dosieroj estas HTML, estas bona rutino por la sekciojn
-etikedi ĝuste. Ekzemple, ĉi tiu sekcio estas skribita tiel:
+Se la cela dokumenta formato de la markdaŭnaj dosieroj estas HTML, estas bona rutino por etikedi la
+sekciojn ĝuste. Ekzemple, ĉi tiu sekcio estas skribita tiel:
 
 ```markdown
 <a name="ankroj">Ankroj</a>
@@ -210,7 +210,7 @@ etikedi ĝuste. Ekzemple, ĉi tiu sekcio estas skribita tiel:
 ```
 
 
-La kreadon de la enhavotabelo ĉi tio plifaciligos poste tiel:
+Ĉi tio plifaciligos la kreadon de la enhavotabelo poste tiel:
 
 ```markdown
 Enhavotebelo
@@ -222,8 +222,8 @@ Enhavotebelo
 <a name="largxo">Linia larĝo</a>
 --------------------------------
 
-De longe, estis bona ideo por la liniojn faldi ĝis la 70 kolumnon. Nuntempe, pli alta limo—ebligita
-per modernaj grafikaj sistemoj—estas pli dezirata por ke plian informon ni povu enpaki en unu linio:
+De longe, estis bona ideo por faldi la liniojn ĝis la 70 kolumnon. Nuntempe, pli alta limo—ebligita
+per modernaj grafikaj sistemoj—estas pli dezirata por ke ni povu enpaki plian informon en unu linio:
 
 70 signoj:
 
@@ -239,17 +239,17 @@ Ve ve ve veve ve veve ve veve ve veve ve veve ve veve ve veve ve ve ve ve
 veve ve veve ve veve ve ve
 ```
 
-Ĉi tiu gvidnormo, bedaŭrinde, eble ne aplikiĝas se la redaktilojn de servoj kiel GitHub aŭ GitLab
-oni uzas, en kiu, estas pli oportune por la grafikfasadon permesi por la tekston faldi.
+Ĉi tiu gvidnormo, bedaŭrinde, eble ne aplikiĝas se oni uzas la redaktilojn de servoj kiel GitHub aŭ
+GitLab, en kiu, estas pli oportune por permesi la grafikfasadon por faldi la tekston .
 
 
 <a name="ekstraj">Ekstraj</a>
 -----------------------------
 
-Emakson uzante, [ĉi tiujn](https://gist.github.com/ebzzry/1206a1922805a872713bdaf2e8c419f5)
-komandojn mi uzas, binditaj al <kbd>M-g =</kbd>, <kbd>M-g -</kbd>, kaj <kbd>M-g `</kbd>, respektive,
-por la enmetadojn de la apartigiloj plifaciligi. Ekzemple, se la jenan tekston oni havas, en kiu,
-`^` estas la punkto:
+Uzante emakson, mi uzas [ĉi tiujn](https://gist.github.com/ebzzry/1206a1922805a872713bdaf2e8c419f5)
+komandojn, binditaj al <kbd>M-g =</kbd>, <kbd>M-g -</kbd>, kaj <kbd>M-g `</kbd>, respektive, por
+plifaciligi la enmetadojn de la apartigiloj. Ekzemple, se oni havas la jenan tekston, en kiu, `^`
+estas la punkto:
 
 ```markdown
 Kio Estas Tie?
@@ -257,7 +257,7 @@ Kio Estas Tie?
 ^
 ```
 
-tiam se je <kbd>M-g =</kbd> oni premas, ĝi fariĝos:
+tiam se oni premas <kbd>M-g =</kbd>, ĝi fariĝos:
 
 ```markdown
 Kio Estas Tie?
@@ -265,7 +265,7 @@ Kio Estas Tie?
               ^
 ```
 
-La sama aplikas al nivelaj 2-aj ĉapoj. Do se la jenan oni havas:
+La sama aplikeblas al nivelaj 2-aj ĉapoj. Do, se oni havas la jenan:
 
 ```markdown
 Monstroj kaj anĝeloj
@@ -273,7 +273,7 @@ Monstroj kaj anĝeloj
 ^
 ```
 
-tiam se je <kbd>M-g -</kbd> oni premas, ĝi fariĝos:
+tiam se oni premas <kbd>M-g -</kbd>, ĝi fariĝos:
 
 ```markdown
 Monstroj kaj anĝeloj
@@ -281,7 +281,7 @@ Monstroj kaj anĝeloj
                     ^
 ```
 
-Se la jenan oni havas:
+Se oni havas la jenan:
 
 ```markdown
 Kodeto:
@@ -290,7 +290,7 @@ Kodeto:
 ^
 ```
 
-tiam se je <kbd>M-g `</kbd> oni premas, ĝi fariĝos:
+tiam se oni premas <kbd>M-g `</kbd>, ĝi fariĝos:
 
 ```markdown
 Kodeto:
@@ -303,6 +303,6 @@ Kodeto:
 <a name="finrimarkoj">Finrimarkoj</a>
 -------------------------------------
 
-Per ĉi tiujn simplajn gvidnormojn observante, koherecon inter miaj markdaŭnaj dosieroj mi kreas. Ĉi
-tiuj gvidnormoj servas kiel miaj ŝablonoj kiam novajn dokumentojn krei aŭ ekzistantan dosierojn
-modifi. Se proponojn aŭ kritikojn oni havas, la tirpetojn sendu al mi!
+Observante ĉi tiujn simplajn gvidnormojn, mi kreas koherecon inter miaj markdaŭnaj dosieroj. Ĉi tiuj
+gvidnormoj servas kiel miaj ŝablonoj kiam krei novajn dokumentojn aŭ modifi ekzistantan dosierojn.
+Se oni havas proponojn aŭ kritikojn, sendu tirpetojn al mi!
