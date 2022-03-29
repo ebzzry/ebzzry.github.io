@@ -2,7 +2,7 @@ Emaksaj Konsiletoj 3-a: Enmeti kaj Forviŝi
 ==========================================
 
 <div class="center">Esperanto ■ [English](/en/emacs-tips-3/)</div>
-<div class="center">Laste ĝisdatigita: la 18-an de Marto 2022</div>
+<div class="center">Laste ĝisdatigita: la 29-an de Marto 2022</div>
 
 >Ju pli oni ŝvitas en paco, des malpli oni sangas en milito.<br>—Norman SCHWARZKOPF
 
@@ -24,17 +24,17 @@ Emaksaj Konsiletoj 3-a: Enmeti kaj Forviŝi
 <a name="enkonduko">Enkonduko</a>
 ---------------------------------
 
-Jen la daŭrigo de mia serio pri emaksaj konsiletoj. En ĉi tiu artikolo, ni esploros pri signovica
+Jen la daŭrigo de la serio pri emaksaj konsiletoj. En ĉi tiu artikolo, ni esploros pri signovica
 enmetado, linia forviŝado, markado, kaj algluado.
 
 
 <a name="enmetado">Enmetado</a>
 -------------------------------
 
-Mi laboras kun multe da markdaŭnaj dosieroj kaj manieron por signojn kaj signovicojn enmeti facile mi
-volas havi.
+Mi laboras kun multe da markdaŭnaj dosieroj kaj mi volas havi manieron por enmeti facile signojn kaj
+signovicojn .
 
-Por kodon enmeti per maldekstraj kornoj:
+Por enmeti kodon kun maldekstraj kornoj:
 
 ```lisp
 (defun insert-backticks (&optional arg)
@@ -44,7 +44,7 @@ Por kodon enmeti per maldekstraj kornoj:
   (backward-char 3))
 ```
 
-Ĝin mi bindis al <kbd>M-g `</kbd>.
+Mi ĝin bindis al <kbd>M-g `</kbd>.
 
 Por movi al specifa kolumno:
 
@@ -55,9 +55,9 @@ Por movi al specifa kolumno:
   (move-to-column column t))
 ```
 
-Ĝin mi bindis al <kbd>M-g .</kbd>.
+Mi ĝin bindis al <kbd>M-g .</kbd>.
 
-Por signovicojn enmeti ĝis la lastan kolumnon de la antaŭa linio:
+Por enmeti signovicojn ĝis la lastan kolumnon de la antaŭa linio:
 
 ```lisp
 (defun insert-until-last (string)
@@ -87,11 +87,11 @@ Por signovicojn enmeti ĝis la lastan kolumnon de la antaŭa linio:
   (insert-until-last "-"))
 ```
 
-La enmetadon de `=` kaj `-` plifaciligos kiam je H1 kaj H2 ĉapojn krei.
+La enmetado de `=` kaj `-` plifaciligos kiam krei H1- kaj H2-ĉapojn .
 
-Ilin mi bindis al <kbd>M-g =</kbd> kaj <kbd>M-g -</kbd>, respektive.
+Mi bindis ilin al <kbd>M-g =</kbd> kaj <kbd>M-g -</kbd>, respektive.
 
-Se la jenan linion oni havas, en kiu, `^` estas la punkto:
+Se oni havas la jenan linion, en kiu, `^` estas la punkto:
 
 ```
 Hundo Kato Muso
@@ -99,7 +99,7 @@ Hundo Kato Muso
 ^
 ```
 
-Kiam je <kbd>M-g =</kbd> oni premas, ĝi fariĝos:
+Kiam oni premas <kbd>M-g =</kbd>, ĝi fariĝos:
 
 ```
 Hundo Kato Muso
@@ -107,7 +107,7 @@ Hundo Kato Muso
               ^
 ```
 
-Male, la jenan mi havas:
+Male, mi havas la jenan:
 
 ```
 Hundo Kato Muso
@@ -120,7 +120,7 @@ Sekcio 1-a
 ```
 
 
-Kiam je <kbd>M-g -</kbd> oni premas, ĝi fariĝos:
+Kiam oni premas <kbd>M-g -</kbd>, ĝi fariĝos:
 
 ```
 Hundo Kato Muso
@@ -136,7 +136,7 @@ Sekcio 1-a
 <a name="forvisxado">Forviŝado</a>
 ----------------------------------
 
-Oportunajn funkciojn mi volas havi por la linion de punkto al komenco kaj fino forviŝi:
+Mi volas havi oportunajn funkciojn por forviŝi la linion de punkto al komenco kaj fino:
 
 ```lisp
 (defun delete-to-bol (&optional arg)
@@ -150,23 +150,23 @@ Oportunajn funkciojn mi volas havi por la linion de punkto al komenco kaj fino f
   (delete-region (point) (save-excursion (end-of-line) (point))))
 ```
 
-Ilin mi bindis al <kbd>C-c ^</kbd> kaj <kbd>C-c $</kbd>, respektive:
+Mi bindis ilin al <kbd>C-c ^</kbd> kaj <kbd>C-c $</kbd>, respektive:
 
-Se la jenan mi havas:
+Se mi havas la jenan:
 
 ```
 Retejo pri komputiko, hominklinaĵoj, kaj hazardaĵoj.
                       ^
 ```
 
-Tiam, je <kbd>C-c ^</kbd> oni premas, ĝi fariĝos:
+Tiam, oni premas <kbd>C-c ^</kbd>, ĝi fariĝos:
 
 ```
 hominklinaĵoj, kaj hazardaĵoj.
 ^
 ```
 
-Male, se je <kbd>C-c $</kbd> oni premas, ĝi fariĝos:
+Male, se oni premas <kbd>C-c $</kbd>, ĝi fariĝos:
 
 ```
 Retejo pri komputiko,
@@ -176,8 +176,7 @@ Retejo pri komputiko,
 <a name="markado">Markado</a>
 -----------------------------
 
-Estas pluraj fojoj kiam regionon de punkto al komenco kaj fino mi hovas krei. Pro tio, la jenan mi
-havas:
+Estas pluraj fojoj kiam mi hovas krei regionon de punkto al komenco kaj fino. Pro tio, mi havas la jenan:
 
 ```lisp
 (defun mark-to-bol (&optional arg)
@@ -191,7 +190,7 @@ havas:
   (mark-thing 'point 'end-of-line))
 ```
 
-Ilin mi bindis al <kbd>C-c C-a</kbd> kaj <kbd>C-c C-e</kbd>, respektive.
+Mi bindis ilin al <kbd>C-c C-a</kbd> kaj <kbd>C-c C-e</kbd>, respektive.
 
 
 
@@ -201,7 +200,7 @@ Ilin mi bindis al <kbd>C-c C-a</kbd> kaj <kbd>C-c C-e</kbd>, respektive.
 Mi volas esti kapabla por alglui de la tondejo al emakso, precipe se mi estas en la
 terminalsimulilo.
 
-Unue, je xclip ni bezonas instali:
+Unue, ni devas instali xclip:
 
 Per Nixpkgs:
 
@@ -211,7 +210,7 @@ Per APT:
 
     sudo apt-get install -y xclip
 
-Tiam, la jenan ni aldonu al emaksa startiga dosiero:
+Tiam, ni aldonu la jenan al emaksa startiga dosiero:
 
 ```lisp
 (defun yank-primary (&optional arg)
@@ -225,16 +224,16 @@ Tiam, la jenan ni aldonu al emaksa startiga dosiero:
   (insert (shell-command-to-string "xclip -selection clipboard -o")))
 ```
 
-La ĉefzono estas tiu, kiu ŝaltiĝas kiam musajn markojn oni faras, dum la tondejzono estas tiu,
-kiu estas uzita kiam la komandon _Kopii_ el apo oni alvokas, aŭ kiam je <kbd>Ctrl+c</kbd> oni
-premas.
+La ĉefzono estas tiu, kiu ŝaltiĝas kiam oni faras musajn markojn, dum la tondejzono estas tiu, kiu
+estas uzita kiam oni alvokas la komandon _Kopii_ el grafika apo, aŭ kiam oni premas
+<kbd>Ctrl+c</kbd>.
 
 
 <a name="klavoj">Klavoj</a>
 ---------------------------
 
-Jen la rilata kodeto por ĉiom da komandoj diskutitaj en ĉi tiu artikolo. Se j `bind-key` oni ne
-ankoraŭ havas, ĝin oni povas instali per:
+Jen la rilata kodeto por ĉiom da komandoj diskutitaj en ĉi tiu artikolo. Se oni ne ankoraŭ havas
+`bind-key`, oni povas instali ĝin per:
 
     M-x package-install EN bind-key EN
 
@@ -260,9 +259,9 @@ ankoraŭ havas, ĝin oni povas instali per:
 <a name="finrimarkoj">Finrimarkoj</a>
 -------------------------------------
 
-Mian vivon ĉi tiuj funkcioj kaj klavkombinoj plifaciligas precipe kiam mi laboras kun emacsclient
-ĉe la terminalsimulilo pro kelkaj klavaj stiraj kodoj ne estas ricevitaj bone per la
-terminalsimulilo mem. Eksteraj ilojn ekspluatante, unuforman konduton tra platformoj mi povas akiri.
+Ĉi tiuj funkcioj kaj klavkombinoj plifaciligas mian vivon precipe kiam mi laboras kun emacsclient ĉe
+la terminalsimulilo pro kelkaj klavaj stiraj kodoj ne estas ricevitaj bone per la terminalsimulilo
+mem. Ekspluatante eksterajn ilojn, mi povas akiri unuforman konduton tra platformoj.
 
-Kiel ĉiam, la fontkodo troveblas [ĉi tie](https://github.com/ebzzry/dotfiles/tree/main/emacs). Se
-konsileton oni volas doni, la tirpeton sendu al mi!
+Kiel ĉiam, troveblas la fontkodo [ĉi tie](https://github.com/ebzzry/dotfiles/tree/main/emacs). Se
+oni volas doni konsileton, sendu la tirpeton al mi!
