@@ -122,8 +122,8 @@ Windows are the equivalent of browser tabs in tmux. It organizes sessions into s
 ```
 bind -n S-left previous-window
 bind -n S-right next-window
-bind left swap-window -t -1\; previous-window
-bind right swap-window -t +1\; next-window
+bind -n S-up swap-window -t -1\; previous-window
+bind -n S-down swap-window -t +1\; next-window
 
 bind -n M-1 select-window -t 1
 bind -n M-2 select-window -t 2

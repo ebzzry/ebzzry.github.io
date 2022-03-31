@@ -121,8 +121,8 @@ Fenestroj estas la ekvivalentoj de retumilaj langetoj en timukso. Seancojn ĝi o
 ```
 bind -n S-left previous-window
 bind -n S-right next-window
-bind left swap-window -t -1\; previous-window
-bind right swap-window -t +1\; next-window
+bind -n S-up swap-window -t -1\; previous-window
+bind -n S-down swap-window -t +1\; next-window
 
 bind -n M-1 select-window -t 1
 bind -n M-2 select-window -t 2
@@ -135,9 +135,9 @@ bind -n M-8 select-window -t 8
 bind -n M-9 select-window -t 9
 ```
 
-Je <kbd>S-left</kbd> kaj je <kbd>S-right</kbd> mi bindis por fenestrojn ŝanĝi malantaŭen kaj
-antaŭen, respektive. je <kbd>C-z left</kbd> kaj <kbd>C-z right</kbd> mi bindis por fenestrojn interŝanĝi
-al maldekstren kaj dekstren, respektive.
+Mi bindis <kbd>S-left</kbd> kaj <kbd>S-right</kbd> por ŝanĝi fenestrojn malantaŭen kaj antaŭen,
+respektive. Mi bindis <kbd>S-up</kbd> kaj <kbd>S-down</kbd> por fenestrojn interŝanĝi al maldekstren
+kaj dekstren, respektive.
 
 Por rapide ŝanĝi al specifaj fenestroj, kelkajn klavkombinojn ni bindis al la klavon <kbd>Alt</kbd>,
 alie nomata la klavo <kbd>Meta</kbd>.
