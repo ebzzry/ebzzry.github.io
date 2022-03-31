@@ -19,8 +19,8 @@ bind &amp; kill-window \; move-window -r \; setw automatic-rename
 bind k send-keys C-l \; send-keys -R \; clear-history
 </code></pre><p>Here, I rebound <kbd>C-z x</kbd> and <kbd>C-z &</kbd>, so that when windows are removed the numberings are automatically updated. Manual override by means of <kbd>C-z r</kbd> is also available.</p><p>I also rebound <kbd>C-z x</kbd> and <kbd>C-z &</kbd> to kill panes and windows, respectively, without user prompts.</p><p>I bound the key <kbd>C-z k</kbd> to delete the buffer history to clear the view.</p><h2><a name="windows">Windows</a></h2><p>Windows are the equivalent of browser tabs in tmux. It organizes sessions into subsessions.</p><h3><a name="windowsmovement">Movement</a></h3><pre><code>bind -n S-left previous-window
 bind -n S-right next-window
-bind left swap-window -t -1\; previous-window
-bind right swap-window -t +1\; next-window
+bind -n S-up swap-window -t -1\; previous-window
+bind -n S-down swap-window -t +1\; next-window
 
 bind -n M-1 select-window -t 1
 bind -n M-2 select-window -t 2
