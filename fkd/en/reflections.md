@@ -2,7 +2,7 @@ Reflections
 ===========
 
 <div class="center">[Esperanto](/eo/pripensoj/) ■ English</div>
-<div class="center">Last updated: March 25, 2022</div>
+<div class="center">Last updated: April 13, 2022</div>
 
 This page contains contains some of my personal reflections. Entries are sorted in chronological order.
 
@@ -409,3 +409,9 @@ This page contains contains some of my personal reflections. Entries are sorted 
 
 
 - Poverty does not imply stupidity.<br>
+
+
+- There can be many facts to describe something; rarely is it the case that there’s only one.<br>
+
+
+- Interpretations prevail where proofs fail.<br>
