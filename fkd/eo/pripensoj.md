@@ -2,7 +2,7 @@ Pripensoj
 =========
 
 <div class="center">Esperanto ■ [English](/en/reflections/)</div>
-<div class="center">Laste ĝisdatigita: la 26-an de Marto 2022</div>
+<div class="center">Laste ĝisdatigita: la 13-an de Aprilo 2022</div>
 
 Ĉi tiu paĝo enhavas kelke da miaj propraj pripensoj. La enskriboj estas ordigitaj laŭ kronologiordo.
 
@@ -414,3 +414,9 @@ Pripensoj
 
 
 - Malriĉecon ne implicas malsaĝecon.<br>
+
+
+- Estas pluraj faktoj por priskribi ion; estas rare, raras la kazo, en kiu estas nur unu.<br>
+
+
+- Interpretoj prosperas kie pruvoj malprosperas<br>
