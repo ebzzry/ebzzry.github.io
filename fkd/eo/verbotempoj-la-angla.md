@@ -7,7 +7,7 @@ Verbotempoj en La Angla
 >La kontrasto inter la ordinara kaj la eksterordinara estas tiu eta pliaĵo.<br>
 >―Jimmy JOHNSON
 
-<img src="/bil/noor-younis-mId2gG0a9GU-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="noor-younis-mId2gG0a9GU-unsplash" title="noor-younis-mId2gG0a9GU-unsplash"/>
+<img src="/bil/noor-younis-mId2gG0a9GU-unsplash-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="noor-younis-mId2gG0a9GU-unsplash" title="noor-younis-mId2gG0a9GU-unsplash"/>
 
 *Iru [ĉi tien](/eo/verbotempoj-la-angla-mallongigite/) por la mallongigita versio.*
 

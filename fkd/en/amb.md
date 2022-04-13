@@ -8,7 +8,7 @@ A Gentle Introduction to Non-determinism in Scheme
 >on acquiring new administrative ways to use what one already knows.<br>
 >―Marvin Minsky
 
-<img src="/bil/wallhaven-333472-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-333472" title="wallhaven-333472"/>
+<img src="/bil/wallhaven-333472-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-333472" title="wallhaven-333472"/>
 
 
 <a name="toc">Table of contents</a>

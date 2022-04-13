@@ -7,7 +7,7 @@ Kiel Mi Uzas Timukson
 >Furioza agado ne estas anstataŭaĵo de komprenado.<br>
 >―H.H. WILLIAMs
 
-<img src="/bil/lysander-yuen-wk833OrQLJE-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="lysander-yuen-wk833OrQLJE-unsplash" title="lysander-yuen-wk833OrQLJE-unsplash"/>
+<img src="/bil/lysander-yuen-wk833OrQLJE-unsplash-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="lysander-yuen-wk833OrQLJE-unsplash" title="lysander-yuen-wk833OrQLJE-unsplash"/>
 
 <a name="et">Enhavotabelo</a>
 -----------------------------

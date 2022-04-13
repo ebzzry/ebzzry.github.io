@@ -7,7 +7,7 @@ Blogging with Frog
 >One person with passion is better than forty people merely interested.<br>
 >―E.M. Forster
 
-<img src="/bil/zdenek-machacek-HYTwWSE5ztw-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="zdenek-machacek-HYTwWSE5ztw-unsplash" title="zdenek-machacek-HYTwWSE5ztw-unsplash"/>
+<img src="/bil/zdenek-machacek-HYTwWSE5ztw-unsplash-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="zdenek-machacek-HYTwWSE5ztw-unsplash" title="zdenek-machacek-HYTwWSE5ztw-unsplash"/>
 
 
 <a name="toc">Table of contents</a>

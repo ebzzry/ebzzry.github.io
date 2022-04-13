@@ -7,7 +7,7 @@ Synchronizing Sites with Usync
 >What I cannot create, I do not understand.<br>
 >―Richard P. Feynman
 
-<img src="/bil/thomas-jensen-ISG-rUel0Uw-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="thomas-jensen-ISG-rUel0Uw-unsplash" title="thomas-jensen-ISG-rUel0Uw-unsplash"/>
+<img src="/bil/thomas-jensen-ISG-rUel0Uw-unsplash-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="thomas-jensen-ISG-rUel0Uw-unsplash" title="thomas-jensen-ISG-rUel0Uw-unsplash"/>
 
 
 Table of contents

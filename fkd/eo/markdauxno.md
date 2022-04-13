@@ -7,7 +7,7 @@ Mia Markdaŭna Stilgvidilo
 >La reguloj kiuj direktas cirkonstancojn estas nuligitaj per novaj cirkonstancoj.<br>
 >―Napoleono BONAPARTE
 
-<img src="/bil/luca-bravo-bTxMLuJOff4-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="luca-bravo-bTxMLuJOff4-unsplash" title="luca-bravo-bTxMLuJOff4-unsplash"/>
+<img src="/bil/luca-bravo-bTxMLuJOff4-unsplash-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="luca-bravo-bTxMLuJOff4-unsplash" title="luca-bravo-bTxMLuJOff4-unsplash"/>
 
 
 <a name="et">Enhavotabelo</a>

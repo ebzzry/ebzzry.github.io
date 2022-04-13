@@ -7,7 +7,7 @@ My Markdown Style Guide
 >The laws that govern circumstances are abolished by new circumstances.<br>
 >―Napoleon Bonaparte
 
-<img src="/bil/luca-bravo-bTxMLuJOff4-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="luca-bravo-bTxMLuJOff4-unsplash" title="luca-bravo-bTxMLuJOff4-unsplash"/>
+<img src="/bil/luca-bravo-bTxMLuJOff4-unsplash-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="luca-bravo-bTxMLuJOff4-unsplash" title="luca-bravo-bTxMLuJOff4-unsplash"/>
 
 
 <a name="toc">Table of contents</a>

@@ -8,7 +8,7 @@ Konverti de Markdaŭno al HTML per emem
 >el oni mem.<br>
 >―JJ, Ergo Proxy
 
-<img src="/bil/s-migaj-Yui5vfKHuzs-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="s-migaj-Yui5vfKHuzs-unsplash" title="s-migaj-Yui5vfKHuzs-unsplash"/>
+<img src="/bil/s-migaj-Yui5vfKHuzs-unsplash-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="s-migaj-Yui5vfKHuzs-unsplash" title="s-migaj-Yui5vfKHuzs-unsplash"/>
 
 
 <a name="et">Enhavotabelo</a>
@@ -158,7 +158,7 @@ Ankaŭ eblas specifu [«Open Graph Protocol»](http://ogp.me/)-valorojn:
 ```bash
 $ emem -D Ve -K 'a, b, c' \
 --og-title "Kraboj kaj Omaroj" --og-type article \
---og-url "https://retejo.ie/z.html" --og-image "https://retejo.ie/bildo.png" \
+--og-url "https://retejo.ie/z.html" --og-image "https://retejo.ie/bildo.webp" \
 LEGUMIN.md
 ```
 

@@ -8,7 +8,7 @@ Setting up GPG and SSH in KDE
 >the last time.<br>
 >―Andrew Hunt and David Thomas
 
-<img src="/bil/milad-fakurian-UYgrVfIhBec-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="milad-fakurian-UYgrVfIhBec-unsplash" title="milad-fakurian-UYgrVfIhBec-unsplash"/>
+<img src="/bil/milad-fakurian-UYgrVfIhBec-unsplash-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="milad-fakurian-UYgrVfIhBec-unsplash" title="milad-fakurian-UYgrVfIhBec-unsplash"/>
 
 
 <a name="toc">Table of contents</a>

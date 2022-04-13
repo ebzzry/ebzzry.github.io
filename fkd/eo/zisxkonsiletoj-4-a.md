@@ -7,7 +7,7 @@ Ziŝaj Konsiletoj 4-a: Ĝeneralhelpiloj
 >Vidpunkto meritas okdek poentojn da inteligentecaj kvocientoj.<br>
 >―Alan KAY
 
-<img src="/bil/adam-hornyak-Cm187aESg0k-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="adam-hornyak-Cm187aESg0k-unsplash" title="adam-hornyak-Cm187aESg0k-unsplash"/>
+<img src="/bil/adam-hornyak-Cm187aESg0k-unsplash-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="adam-hornyak-Cm187aESg0k-unsplash" title="adam-hornyak-Cm187aESg0k-unsplash"/>
 
 
 <a name="et">Enhavotabelo</a>

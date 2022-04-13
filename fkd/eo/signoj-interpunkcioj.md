@@ -7,7 +7,7 @@ Signoj kaj Interpunkcioj
 >Se oni volas atingi grandiozon, ĉesu peti konsentojn.<br>
 >―Eddie COLLA
 
-<img src="/bil/stephen-johnson-Q8-Cc-IXRY-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="stephen-johnson-Q8-Cc-IXRY-unsplash" title="stephen-johnson-Q8-Cc-IXRY-unsplash"/>
+<img src="/bil/stephen-johnson-Q8-Cc-IXRY-unsplash-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="stephen-johnson-Q8-Cc-IXRY-unsplash" title="stephen-johnson-Q8-Cc-IXRY-unsplash"/>
 
 *Iru [ĉi tien](/eo/signoj-interpunkcioj-mallongigite/) por la mallongigita versio.*
 

@@ -5,7 +5,7 @@ Pri
 <div class="center">Laste ĝisdatigita: la 26-an de Marto 2022</div>
 
 <div>
-<img align="right" width="50%" src="/bil/ebzzry.jpg">
+<img align="right" width="50%" src="/bil/ebzzry.webp">
 
 Rommel MARTINEZ estas artefarita intelekta esploristo kiu interesiĝas pri la konscio, la menso, kaj
 la realeco. Li nune esploras kiel modernajn komputilojn oni povas uzi por atingi la malalte

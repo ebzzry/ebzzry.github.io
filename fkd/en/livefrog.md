@@ -7,7 +7,7 @@ Migrating from LiveJournal to Frog
 >I don’t know where I’m going, but I’m on my way.<br>
 >―Carl Sagan
 
-<img src="/bil/stephanie-leblanc-xrE6WwccyU-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="stephanie-leblanc-xrE6Wwccy_U-unsplash" title="stephanie-leblanc-xrE6Wwccy_U-unsplash"/>
+<img src="/bil/stephanie-leblanc-xrE6WwccyU-unsplash-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="stephanie-leblanc-xrE6Wwccy_U-unsplash" title="stephanie-leblanc-xrE6Wwccy_U-unsplash"/>
 
 
 <a name="toc">Table of contents</a>

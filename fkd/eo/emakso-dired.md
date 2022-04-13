@@ -7,7 +7,7 @@ Manipuli Dosierujojn en Emakso
 >Supozi bonas, tamen eltrovi pli bonas.<br>
 >―Samuel CLEMENS
 
-<img src="/bil/lucas-benjamin-V-mEcfI8fsI-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="lucas-benjamin-V-mEcfI8fsI-unsplash" title="lucas-benjamin-V-mEcfI8fsI-unsplash"/>
+<img src="/bil/lucas-benjamin-V-mEcfI8fsI-unsplash-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="lucas-benjamin-V-mEcfI8fsI-unsplash" title="lucas-benjamin-V-mEcfI8fsI-unsplash"/>
 
 
 <a name="et">Enhavotabelo</a>

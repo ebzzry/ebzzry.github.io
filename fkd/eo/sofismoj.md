@@ -7,7 +7,7 @@ Milda Enkonduko al Sofismoj
 >Lerni ne necesas; nek travivas.<br>
 >―W. Edwards DEMING
 
-<img src="/bil/wallhaven-73145-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-333472" title="wallhaven-333472"/>
+<img src="/bil/wallhaven-73145-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-333472" title="wallhaven-333472"/>
 
 
 <a name="et">Enhavotabelo</a>

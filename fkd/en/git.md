@@ -8,7 +8,7 @@ How I Roll with Git
 >on in their own world, oblivious to the opinions of those around them.<br>
 >―Daigo Umehara
 
-<img src="/bil/simon-berger-6te9SupeW1g-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="simon-berger-6te9SupeW1g-unsplash" title="simon-berger-6te9SupeW1g-unsplash"/>
+<img src="/bil/simon-berger-6te9SupeW1g-unsplash-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="simon-berger-6te9SupeW1g-unsplash" title="simon-berger-6te9SupeW1g-unsplash"/>
 
 
 <a name="toc">Table of contents</a>

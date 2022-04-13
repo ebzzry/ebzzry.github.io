@@ -7,7 +7,7 @@ Virtualizing with KVM in Linux
 >If you do what you’ve always done, you’ll get what you’ve always gotten.<br>
 >―Anthony Robbins
 
-<img src="/bil/pierre-chatel-innocenti-N6Hx4HT4mHg-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="pierre-chatel-innocenti-N6Hx4HT4mHg-unsplash" title="pierre-chatel-innocenti-N6Hx4HT4mHg-unsplash"/>
+<img src="/bil/pierre-chatel-innocenti-N6Hx4HT4mHg-unsplash-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="pierre-chatel-innocenti-N6Hx4HT4mHg-unsplash" title="pierre-chatel-innocenti-N6Hx4HT4mHg-unsplash"/>
 
 
 <a name="toc">Table of contents</a>
