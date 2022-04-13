@@ -5,7 +5,7 @@ About
 <div class="center">Last updated: March 26, 2022</div>
 
 <div>
-<img align="right" width="50%" src="/bil/ebzzry.jpg">
+<img align="right" width="50%" src="/bil/ebzzry.webp">
 
 Rommel Martinez is an artificial intelligence researcher who is interested with consciousness, the
 mind, and reality. He is currently exploring how we can use modern computers to reach the low

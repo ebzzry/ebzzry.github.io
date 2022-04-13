@@ -7,7 +7,7 @@ Emaksaj Konsiletoj 1-a: Regionoj kaj Markoj
 >La voĉon ne pligrandigu; la argumenton plibonigu.<br>
 >―Desmond TUTU
 
-<img src="/bil/robert-keane-rlbG0pnQOU-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="robert-keane-rlbG0pnQOU-unsplash" title="robert-keane-rlbG0pnQOU-unsplash"/>
+<img src="/bil/robert-keane-rlbG0pnQOU-unsplash-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="robert-keane-rlbG0pnQOU-unsplash" title="robert-keane-rlbG0pnQOU-unsplash"/>
 
 
 <a name="et">Enhavotabelo</a>

@@ -7,7 +7,7 @@ Emacs Tips and Tricks 1: Regions and Marks
 >Don't raise your voice; improve your argument.<br>
 >―Desmond Tutu
 
-<img src="/bil/robert-keane-rlbG0pnQOU-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="robert-keane-rlbG0pnQOU-unsplash" title="robert-keane-rlbG0pnQOU-unsplash"/>
+<img src="/bil/robert-keane-rlbG0pnQOU-unsplash-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="robert-keane-rlbG0pnQOU-unsplash" title="robert-keane-rlbG0pnQOU-unsplash"/>
 
 
 Table of contents

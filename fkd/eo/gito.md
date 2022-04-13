@@ -8,7 +8,7 @@ Kiel Mi Uzas Giton
 >fari en ilia propra mondo senzorgeme al la opinioj de tiuj ĉirkaŭ ili.<br>
 >―Daigo UMEHARA
 
-<img src="/bil/simon-berger-6te9SupeW1g-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="simon-berger-6te9SupeW1g-unsplash" title="simon-berger-6te9SupeW1g-unsplash"/>
+<img src="/bil/simon-berger-6te9SupeW1g-unsplash-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="simon-berger-6te9SupeW1g-unsplash" title="simon-berger-6te9SupeW1g-unsplash"/>
 
 
 <a name="et">Enhavotabelo</a>

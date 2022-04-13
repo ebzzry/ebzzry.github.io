@@ -7,7 +7,7 @@ Emaksaj Konsiletoj 2-a: Seancoj kaj Pakoj
 >Sonorilo kiu ne povas sonori ne havas celon.<br>
 >―Keel LORENZ, Neon Genesis Evangelion
 
-<img src="/bil/maximalfocus-VT4rx775FT4-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="maximalfocus-VT4rx775FT4-unsplash" title="maximalfocus-VT4rx775FT4-unsplash"/>
+<img src="/bil/maximalfocus-VT4rx775FT4-unsplash-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="maximalfocus-VT4rx775FT4-unsplash" title="maximalfocus-VT4rx775FT4-unsplash"/>
 
 
 <a name="et">Enhavotabelo</a>

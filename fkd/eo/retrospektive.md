@@ -7,7 +7,7 @@ Retrospektive
 >Malfacileco estas tio, kiu vekas la geniulon.<br>
 >―Nassim Nicholas TALEB
 
-<img src="/bil/calvin-mano-CXS27RrJObQ-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="calvin-mano-CXS27RrJObQ-unsplash" title="calvin-mano-CXS27RrJObQ-unsplash"/>
+<img src="/bil/calvin-mano-CXS27RrJObQ-unsplash-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="calvin-mano-CXS27RrJObQ-unsplash" title="calvin-mano-CXS27RrJObQ-unsplash"/>
 
 Mi ne tute aprezis tion, kion tiuj vortoj signifis antaŭ nun. Mi lernis, ke krom la sperto, estas
 alia grava afero, kiun la vivo instruas al ni—travivado. Kiam ni estas en la rando de disfalo,

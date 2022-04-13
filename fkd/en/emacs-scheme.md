@@ -7,7 +7,7 @@ Setting up Scheme Development in Emacs
 >All the good ideas never lie under one hat.<br>
 >―Dale Turner
 
-<img src="/bil/dimitar-belchev-fRBpWLAcWIY-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="dimitar-belchev-fRBpWLAcWIY-unsplash" title="dimitar-belchev-fRBpWLAcWIY-unsplash"/>
+<img src="/bil/dimitar-belchev-fRBpWLAcWIY-unsplash-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="dimitar-belchev-fRBpWLAcWIY-unsplash" title="dimitar-belchev-fRBpWLAcWIY-unsplash"/>
 
 
 <a name="toc">Table of contents</a>

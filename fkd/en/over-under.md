@@ -7,7 +7,7 @@ Over, Under, and Elsewhere
 >The only limits you have are the limits you believe.<br>
 >―Wayne Dyer
 
-<img src="/bil/timon-klauser-3MAmj1ZKSZA-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="timon-klauser-3MAmj1ZKSZA-unsplash" title="timon-klauser-3MAmj1ZKSZA-unsplash"/>
+<img src="/bil/timon-klauser-3MAmj1ZKSZA-unsplash-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="timon-klauser-3MAmj1ZKSZA-unsplash" title="timon-klauser-3MAmj1ZKSZA-unsplash"/>
 
 Our cunning ability for oversight is deridingly high. Whether it may be solving a problem or just
 trying to be creative. Our impulse to over-engineer is unusually prevalent if our initial

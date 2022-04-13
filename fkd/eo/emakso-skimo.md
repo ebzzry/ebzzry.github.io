@@ -7,7 +7,7 @@ Agordi Skimprogramadon en Emakso
 >Ĉiom da bonaj ideoj ne kuŝas sub unu ĉapelo.<br>
 >―Dale TURNER
 
-<img src="/bil/dimitar-belchev-fRBpWLAcWIY-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="dimitar-belchev-fRBpWLAcWIY-unsplash" title="dimitar-belchev-fRBpWLAcWIY-unsplash"/>
+<img src="/bil/dimitar-belchev-fRBpWLAcWIY-unsplash-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="dimitar-belchev-fRBpWLAcWIY-unsplash" title="dimitar-belchev-fRBpWLAcWIY-unsplash"/>
 
 
 <a name="et">Enhavotabelo</a>

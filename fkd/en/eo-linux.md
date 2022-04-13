@@ -8,7 +8,7 @@ Esperanto Characters in Linux
 >done.<br>
 >―Thomas Jefferson
 
-<img src="/bil/stefan-HbwYKfnVz0-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="stefan-HbwYKfnVz0-unsplash" title="stefan-HbwYKfnVz0-unsplash"/>
+<img src="/bil/stefan-HbwYKfnVz0-unsplash-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="stefan-HbwYKfnVz0-unsplash" title="stefan-HbwYKfnVz0-unsplash"/>
 
 
 <a name="toc">Table of contents</a>

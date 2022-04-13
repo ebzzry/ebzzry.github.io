@@ -7,7 +7,7 @@ A Lambda Calculus Primer
 >You do not really understand something unless you can explain it to your grandmother.<br>
 >―Albert Einstein
 
-<img src="/bil/joel-filipe-Wc8k-KryEPM-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="joel-filipe-Wc8k-KryEPM-unsplash" title="joel-filipe-Wc8k-KryEPM-unsplash"/>
+<img src="/bil/joel-filipe-Wc8k-KryEPM-unsplash-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="joel-filipe-Wc8k-KryEPM-unsplash" title="joel-filipe-Wc8k-KryEPM-unsplash"/>
 
 
 <a name="toc">Table of contents</a>

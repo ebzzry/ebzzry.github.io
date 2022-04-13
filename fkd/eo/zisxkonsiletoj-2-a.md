@@ -7,7 +7,7 @@ Ziŝaj Konsiletoj 2-a: Dosierujstakoj
 >Kion ni faras por ni, mortas kun ni. Kion ni faras por ili, porĉiame restas.<br>
 >―Albert PIKE
 
-<img src="/bil/jonny-caspari-A7ol2HfnycY-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="jonny-caspari-A7ol2HfnycY-unsplash" title="jonny-caspari-A7ol2HfnycY-unsplash"/>
+<img src="/bil/jonny-caspari-A7ol2HfnycY-unsplash-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="jonny-caspari-A7ol2HfnycY-unsplash" title="jonny-caspari-A7ol2HfnycY-unsplash"/>
 
 
 <a name="et">Enhavotebelo</a>

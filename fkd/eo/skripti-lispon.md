@@ -7,7 +7,7 @@ Skriptado en Komunlispo
 >La lumo kiu fajras duoble brila, fajras duone longa.<br>
 >―D-ro Eldon TYRELL, Blade Runner (1982)
 
-<img src="/bil/lispo-simbolo.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="common-lisp.net emblemo" title="common-lisp.net emblemo"/>
+<img src="/bil/lispo-simbolo.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="common-lisp.net emblemo" title="common-lisp.net emblemo"/>
 
 
 <a name="et"></a>Enhavotabelo
