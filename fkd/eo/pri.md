@@ -17,5 +17,5 @@ golfo.
 Li nune loĝas kun sia edzino kaj filo en la varma lando de Filipinoj.
 </div>
 <div>
-[Retpoŝto](mailto:ebzzry@icloud.com) ■ [GPG](/dat/ebzzry.pub.asc) ■ [GitHub](https://github.com/ebzzry) ■ [LinkedIn](https://linkedin.com/in/ebzzry) ■ [Telegramo](https://t.me/ebzzry) ■ [DeviantArt](https://ebzzry.deviantart.com) ■ [Steam](https://steamcommunity.com/id/ebzzry) ■ [Tvitero](https://twitter.com/ebzzry)
+[Retpoŝto](mailto:ebzzry@ebzzry.com) ■ [GPG](/dat/ebzzry.pub.asc) ■ [GitHub](https://github.com/ebzzry) ■ [LinkedIn](https://linkedin.com/in/ebzzry) ■ [Telegramo](https://t.me/ebzzry) ■ [DeviantArt](https://ebzzry.deviantart.com) ■ [Steam](https://steamcommunity.com/id/ebzzry) ■ [Tvitero](https://twitter.com/ebzzry)
 </div>
