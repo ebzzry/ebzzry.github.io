@@ -2,7 +2,7 @@ Pripensoj
 =========
 
 <div class="center">Esperanto ■ [English](/en/reflections/)</div>
-<div class="center">Laste ĝisdatigita: la 13-an de Aprilo 2022</div>
+<div class="center">Laste ĝisdatigita: la 16-an de Aprilo 2022</div>
 
 Ĉi tiu paĝo enhavas kelke da miaj propraj pripensoj. La enskriboj estas ordigitaj laŭ kronologiordo.
 
@@ -392,7 +392,7 @@ Pripensoj
 - La graveco de perdo estas rekte proporcie kun la perceptita valoro de tio kion oni perdis.<br>
 
 
-- IK estas kiun IK-testoj mezuras.<br>
+- Intelekta kvociento estas tiu kiun intelektaj kvocientaj testoj mezuras.<br>
 
 
 - Simple plonĝu kaj provu ne droni.<br>

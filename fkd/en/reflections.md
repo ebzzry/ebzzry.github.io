@@ -2,7 +2,7 @@ Reflections
 ===========
 
 <div class="center">[Esperanto](/eo/pripensoj/) ■ English</div>
-<div class="center">Last updated: April 13, 2022</div>
+<div class="center">Last updated: April 16, 2022</div>
 
 This page contains contains some of my personal reflections. Entries are sorted in chronological order.
 
@@ -387,7 +387,7 @@ This page contains contains some of my personal reflections. Entries are sorted 
 - The weight of a loss is directly proportional to the perceived value of the thing that was lost.<br>
 
 
-- IQ is what IQ tests measure.<br>
+- Intelligence quotience is what intelligence quotience tests measure.<br>
 
 
 - Just dive and try not to drown.<br>
