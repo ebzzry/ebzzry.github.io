@@ -2,7 +2,7 @@ Quotes
 ======
 
 <div class="center">[Esperanto](/eo/citajxoj/) ■ English</div>
-<div class="center">Last updated: March 24, 2022</div>
+<div class="center">Last updated: April 26, 2022</div>
 
 <img src="/bil/wallhaven-77816-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -77,7 +77,7 @@ the years.
 - Don’t ever take a fence down until you know why it was put up.<br>—G.K. Chesterton
 
 
-- Never attribute to malice what incompetence will explain.<br>—Robert J. Hanlon
+- Never attribute to malice that which can be adequately explained by incompetence.<br>—Robert J. Hanlon
 
 
 - Supposing is good, but finding out is better.<br>—Samuel Clemens

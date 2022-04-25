@@ -2,7 +2,7 @@ Citaĵoj
 =======
 
 <div class="center">Esperanto ■ [English](/en/quotes/)</div>
-<div class="center">Laste ĝisdatigita: la 24-an de Marto 2022</div>
+<div class="center">Laste ĝisdatigita: la 26-an de Aprilo 2022</div>
 
 <img src="/bil/wallhaven-77816-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -75,7 +75,7 @@ tra la jaroj.
 - Ne malkonstruu barilon ĝis oni scias kial ĝi estis konstruita.<br>—G.K. CHESTERTON
 
 
-- Neniam atribuu al la malico kiun la malkompetenteco klarigos.<br>—Robert J. HANLON
+- Neniam atribuu al malico kiun malsaĝeco povas montri.<br>—Robert J. HANLON
 
 
 - Supozi bonas, tamen eltrovi pli bonas.<br>—Samuel CLEMENS
