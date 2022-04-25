@@ -2,7 +2,7 @@ Reflections
 ===========
 
 <div class="center">[Esperanto](/eo/pripensoj/) ■ English</div>
-<div class="center">Last updated: April 16, 2022</div>
+<div class="center">Last updated: April 26, 2022</div>
 
 This page contains contains some of my personal reflections. Entries are sorted in chronological order.
 
@@ -415,3 +415,6 @@ This page contains contains some of my personal reflections. Entries are sorted 
 
 
 - Interpretations prevail where proofs fail.<br>
+
+
+- Never attribute to incompetence that which can be adequately explained by malice.<br>
