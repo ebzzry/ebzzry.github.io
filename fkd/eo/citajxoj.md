@@ -890,3 +890,6 @@ tra la jaroj.
 
 
 - Vidu, se vi havas unu ŝancon, aŭ unu oportunon, por ekkapti en unu momento ĉion, kion vi ĉiam deziris havi, ĉu vi kaptos ĝin aŭ nur lasu ĝin forgliti?<br>—Marshall Bruce MATHERS III
+
+
+- Landoj kiuj havas pli libereco estas kapitalismaj landoj. Landoj kiuj havas malpli libereco estas komunistaj landoj.<br>—[@Verdahundo](https://twitter.com/Verdahundo/status/1518965196483665920)
