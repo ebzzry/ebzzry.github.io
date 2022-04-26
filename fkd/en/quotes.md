@@ -903,3 +903,6 @@ the years.
 
 
 - Look, if you had one shot, or one opportunity, to seize everything you ever wanted, in one moment, would you capture it, or just let it slip?<br>—Marshall Bruce Mathers III
+
+
+- Countries who have more liberty are capitalistic countries. Countries who have less liberty are communists countries.<br>—[@Verdahundo](https://twitter.com/Verdahundo/status/1518965196483665920)
