@@ -906,3 +906,6 @@ the years.
 
 
 - Countries who have more liberty are capitalistic countries. Countries who have less liberty are communists countries.<br>—[@Verdahundo](https://twitter.com/Verdahundo/status/1518965196483665920)
+
+
+- Technological change which permits the most talented to lever their talent to larger audience is the key to understanding why they get so much of the take.<br>—Glenn Loury

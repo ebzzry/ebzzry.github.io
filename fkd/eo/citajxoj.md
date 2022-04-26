@@ -893,3 +893,6 @@ tra la jaroj.
 
 
 - Landoj kiuj havas pli libereco estas kapitalismaj landoj. Landoj kiuj havas malpli libereco estas komunistaj landoj.<br>—[@Verdahundo](https://twitter.com/Verdahundo/status/1518965196483665920)
+
+
+- Teknologia ŝanĝo kiu ebligas la plej talentajn por levi sian talenton al pli granda spektantaro estas la kerno por kompreni kial ili prenas multe da profito.<br>—Glenn LOURY
