@@ -909,3 +909,6 @@ the years.
 
 
 - Technological change which permits the most talented to lever their talent to larger audience is the key to understanding why they get so much of the take.<br>—Glenn Loury
+
+
+- Even if you’re intelligent and creative the probability that you’ll build a product that’s actually time for the market is extremely low. So, well what do you do? You create more.<br>—Jordan Peterson

@@ -896,3 +896,6 @@ tra la jaroj.
 
 
 - Teknologia ŝanĝo kiu ebligas la plej talentajn por levi sian talenton al pli granda spektantaro estas la kerno por kompreni kial ili prenas multe da profito.<br>—Glenn LOURY
+
+
+- Eĉ se oni estas saĝa kaj kreema, la probableco ke oni konstruas produkton kiu fakte estas ĝustatempa por la merkato estas ege malalta. Do, kion oni devas fari? Oni devas krei pli.<br>—Jordan PETERSON
