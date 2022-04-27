@@ -2,7 +2,7 @@ Quotes
 ======
 
 <div class="center">[Esperanto](/eo/citajxoj/) ■ English</div>
-<div class="center">Last updated: April 26, 2022</div>
+<div class="center">Last updated: April 27, 2022</div>
 
 <img src="/bil/wallhaven-77816-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -912,3 +912,6 @@ the years.
 
 
 - Even if you’re intelligent and creative the probability that you’ll build a product that’s actually time for the market is extremely low. So, well what do you do? You create more.<br>—Jordan Peterson
+
+
+- It is a lot easy to wreck something than to improve it.<br>—Jordan Peterson
