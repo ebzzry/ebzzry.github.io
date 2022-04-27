@@ -2,7 +2,7 @@ Citaĵoj
 =======
 
 <div class="center">Esperanto ■ [English](/en/quotes/)</div>
-<div class="center">Laste ĝisdatigita: la 26-an de Aprilo 2022</div>
+<div class="center">Laste ĝisdatigita: la 27-an de Aprilo 2022</div>
 
 <img src="/bil/wallhaven-77816-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -899,3 +899,6 @@ tra la jaroj.
 
 
 - Eĉ se oni estas saĝa kaj kreema, la probableco ke oni konstruas produkton kiu fakte estas ĝustatempa por la merkato estas ege malalta. Do, kion oni devas fari? Oni devas krei pli.<br>—Jordan PETERSON
+
+
+- Estas pli facile por detrui ion ol plibonigi ĝin.<br>—Jordan PETERSON
