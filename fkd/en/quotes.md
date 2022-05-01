@@ -2,7 +2,7 @@ Quotes
 ======
 
 <div class="center">[Esperanto](/eo/citajxoj/) ■ English</div>
-<div class="center">Last updated: April 27, 2022</div>
+<div class="center">Last updated: April 28, 2022</div>
 
 <img src="/bil/wallhaven-77816-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -905,7 +905,7 @@ the years.
 - Look, if you had one shot, or one opportunity, to seize everything you ever wanted, in one moment, would you capture it, or just let it slip?<br>—Marshall Bruce Mathers III
 
 
-- Countries who have more liberty are capitalistic countries. Countries who have less liberty are communists countries.<br>—[@Verdahundo](https://twitter.com/Verdahundo/status/1518965196483665920)
+- Countries who have more liberty are capitalistic countries. Countries who have less liberty are communists countries.<br>—Verdahundo, Twitter
 
 
 - Technological change which permits the most talented to lever their talent to larger audience is the key to understanding why they get so much of the take.<br>—Glenn Loury
@@ -915,3 +915,6 @@ the years.
 
 
 - It is a lot easy to wreck something than to improve it.<br>—Jordan Peterson
+
+
+- By policy, LISP has never really catered to mere mortals. And, of course, mere mortals have never really forgiven LISP for not catering to them.<br>—Larry Wall
