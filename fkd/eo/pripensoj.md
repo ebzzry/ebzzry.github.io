@@ -389,7 +389,7 @@ Pripensoj
 - Nur tial, ke ĝin oni ne povas rimarki, ne signifas, ke ĝi ne fakte okazas.<br>
 
 
-- La graveco de perdo estas rekte proporcie kun la perceptita valoro de tio kion oni perdis.<br>
+- La graveco de perdo estas rekte proporcia kun la perceptita valoro de tio kion oni perdis.<br>
 
 
 - Intelekta kvociento estas tiu kiun intelektaj kvocientaj testoj mezuras.<br>

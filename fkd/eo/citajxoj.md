@@ -2,7 +2,7 @@ Citaĵoj
 =======
 
 <div class="center">Esperanto ■ [English](/en/quotes/)</div>
-<div class="center">Laste ĝisdatigita: la 27-an de Aprilo 2022</div>
+<div class="center">Laste ĝisdatigita: la 28-an de Aprilo 2022</div>
 
 <img src="/bil/wallhaven-77816-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -892,7 +892,7 @@ tra la jaroj.
 - Vidu, se vi havas unu ŝancon, aŭ unu oportunon, por ekkapti en unu momento ĉion, kion vi ĉiam deziris havi, ĉu vi kaptos ĝin aŭ nur lasu ĝin forgliti?<br>—Marshall Bruce MATHERS III
 
 
-- Landoj kiuj havas pli libereco estas kapitalismaj landoj. Landoj kiuj havas malpli libereco estas komunistaj landoj.<br>—[@Verdahundo](https://twitter.com/Verdahundo/status/1518965196483665920)
+- Landoj kiuj havas pli libereco estas kapitalismaj landoj. Landoj kiuj havas malpli libereco estas komunistaj landoj.<br>—Verdahundo, Tvitero
 
 
 - Teknologia ŝanĝo kiu ebligas la plej talentajn por levi sian talenton al pli granda spektantaro estas la kerno por kompreni kial ili prenas multe da profito.<br>—Glenn LOURY
@@ -902,3 +902,6 @@ tra la jaroj.
 
 
 - Estas pli facile por detrui ion ol plibonigi ĝin.<br>—Jordan PETERSON
+
+
+- Pro poliso, lispo neniam fakte sinprovizis al simplaj mortemuloj. Kaj, kompreneble, simplaj mortemuloj neniam pardonpetis lispon por ne sinprovizi al ili.<br>—Larry WALL
