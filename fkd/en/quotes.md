@@ -2,7 +2,7 @@ Quotes
 ======
 
 <div class="center">[Esperanto](/eo/citajxoj/) ■ English</div>
-<div class="center">Last updated: April 28, 2022</div>
+<div class="center">Last updated: May 4, 2022</div>
 
 <img src="/bil/wallhaven-77816-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -918,3 +918,6 @@ the years.
 
 
 - By policy, LISP has never really catered to mere mortals. And, of course, mere mortals have never really forgiven LISP for not catering to them.<br>—Larry Wall
+
+
+- All economic systems result in inequality.<br>—Jordan Peterson
