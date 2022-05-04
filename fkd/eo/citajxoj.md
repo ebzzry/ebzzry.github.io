@@ -2,7 +2,7 @@ Citaĵoj
 =======
 
 <div class="center">Esperanto ■ [English](/en/quotes/)</div>
-<div class="center">Laste ĝisdatigita: la 28-an de Aprilo 2022</div>
+<div class="center">Laste ĝisdatigita: la 4-an de Majo 2022</div>
 
 <img src="/bil/wallhaven-77816-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -905,3 +905,6 @@ tra la jaroj.
 
 
 - Pro poliso, lispo neniam fakte sinprovizis al simplaj mortemuloj. Kaj, kompreneble, simplaj mortemuloj neniam pardonpetis lispon por ne sinprovizi al ili.<br>—Larry WALL
+
+
+- Ĉiuj ekonomiaj sistemoj rezultas al malegaleco.<br>—Jordan PETERSON
