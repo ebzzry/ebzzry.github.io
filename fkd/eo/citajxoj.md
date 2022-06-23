@@ -2,7 +2,7 @@ Citaĵoj
 =======
 
 <div class="center">Esperanto ■ [English](/en/quotes/)</div>
-<div class="center">Laste ĝisdatigita: la 4-an de Majo 2022</div>
+<div class="center">Laste ĝisdatigita: la 23-an de Junio 2022</div>
 
 <img src="/bil/wallhaven-77816-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -597,7 +597,7 @@ tra la jaroj.
 - Neniu saĝa homo iam deziris esti pli juna.<br>—Jonathan SWIFT
 
 
-- Disputante al malsaĝulo, unue certigu, ke la saman ri ne faras.<br>—malnova proverbo
+- Disputante al malsaĝulo, unue certigu, ke la saman ĝi ne faras.<br>—malnova proverbo
 
 
 - Unue la situacion oni devas konsideri de la vidpunkto de la malamiko.<br>—Baron ZEPPELI, JoJo no
@@ -831,9 +831,9 @@ tra la jaroj.
 - Ni ne gravas, kaj tio estas la bona novaĵo.<br>—Jim CARREY
 
 
-- Se oni intruas infanon kiel malfermi pordon, oni ne malfermus la pordon por ri kaj amplekse
+- Se oni intruas infanon kiel malfermi pordon, oni ne malfermus la pordon por ĝi kaj amplekse
   preskribi kiel la pordo aspektis kiam ĝi malfermiĝis. Ne, oni devus instrui kiel turni la
-  pordanson por ke ri mem povu malfermi la pordon.<br>—Ben HOGAN
+  pordanson por ke ĝi mem povu malfermi la pordon.<br>—Ben HOGAN
 
 
 - La kvalitiga sentiga subjektiva naturo de konscio estas la difina trajto de konscio kaj nia tasko

@@ -2,7 +2,7 @@ Super, Sube, kaj Aliloke
 ========================
 
 <div class="center">Esperanto ■ [English](/en/over-under/)</div>
-<div class="center">Laste ĝisdatigita: la 16-an de Marto 2022</div>
+<div class="center">Laste ĝisdatigita: la 23-an de Junio 2022</div>
 
 >La nuraj limoj kiujn havas oni, estas la limoj kiujn kredas oni.<br>
 >―Wayne DYER
@@ -52,7 +52,7 @@ Kelke da ni daŭras resti en iluzioj kaj pretendas scii tion, kion ili neniam ha
 rimarkis. Estas tre senkuraĝige, ke anstataŭ malantaŭeniri kaj fiksrigardi al la ĉielo por momento,
 homoj anstataŭe enakvigas sin mem en mirlando. Ĉi tiu ebriiga kutimo malbonfaras ne nur unuopulon
 sed la tutan homaron. Kiam iu diras al oni ke respondoj al siaj demandoj povas esti ekskluzive
-respondataj ĉiam per jes aŭ ne, forlasi rin kaj ri ne plu meritas onian atenton denove. Se oni ne
+respondataj ĉiam per jes aŭ ne, forlasi rin kaj ĝi ne plu meritas onian atenton denove. Se oni ne
 scias la respondon, oni devas diri ke oni ne scias la respondon, anstataŭ fari trapezajn manovrojn
 sen iu por kapti la manojn.
 

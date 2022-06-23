@@ -2,7 +2,7 @@ Retrospektive
 =============
 
 <div class="center">Esperanto ■ [English](/en/retrospect/)</div>
-<div class="center">Laste ĝisdatigita: la 16-an de Marto 2022</div>
+<div class="center">Laste ĝisdatigita: la 23-an de Junio 2022</div>
 
 >Malfacileco estas tio, kiu vekas la geniulon.<br>
 >―Nassim Nicholas TALEB
@@ -53,7 +53,7 @@ Mi ofte aŭdis la frazon _«Vi ne devis doni la ĉion.»_ Tio estas eble taŭga 
 eble taŭga al iliaj metodoj, tamen nepre ne por mi. Kial? Pro tio ke mi ne povos esplori miajn
 limojn se estas mi mem, kiu metos la limojn, antaŭ ol mi eĉ esploras. Se mi ne ege strebas, mi ne
 povas iri ien. Mi porĉiame enfermiĝos en la sama loko. Se oni ne donos sian plej bonan strebon en
-ĉiu ŝanco kiun ri havos, la agoj facile falas al la kategorio de duagradeco. Se io farindas, indas
+ĉiu ŝanco kiun ĝi havos, la agoj facile falas al la kategorio de duagradeco. Se io farindas, indas
 fari ĝin tre bone.
 
 Niaj mensoj reagas pro stimuloj, kaj ĉi tio ankaŭ aplikiĝas al iliaj prikomponantoj, kiel niaj

@@ -2,7 +2,7 @@ Kiel Komuniki Samkiel Homo
 ==========================
 
 <div class="center">Esperanto ■ [English](/en/human/)</div>
-<div class="center">Laste ĝisdatigita: la 16-an de Marto 2022</div>
+<div class="center">Laste ĝisdatigita: la 23-an de Junio 2022</div>
 
 >La kapablo por paroli ne igas onin saĝa.<br>
 >―Qui-gon JINN
@@ -86,7 +86,7 @@ eĉ unu el tiuj demandoj estas responditaj per ne, do ni devas retaksi kiel ni k
 
 Kiam oni bezonas komuniki mesaĝojn al iu kiu ne havas la samajn mensajn kapablojn kiel la
 komunikanto, alĝustigoj devos esti faritaj. Ĉiuj el ni traktas aferojn malsame. Ŝaka grandmajstro
-devas memoru, ke se komencanton ri instruas, la studanto povas kompreni nur tiom da lecio. La
+devas memoru, ke se komencanton ĝi instruas, la studanto povas kompreni nur tiom da lecio. La
 instruanto ne povas ekstremiĝi kaj devigi rin por kompreni altnivelajn temojn. Estas malpenetrebla
 muro; tiu muro nur malplidikiĝas laŭ tempo.
 
@@ -170,7 +170,7 @@ vortoj ne estis eldiritaj, mesaĝoj estas komunikitaj. Kiam iu parolas al oni, p
 La ruzo estas por ne rigardi rekte al la okuloj, sed ien inter la ponto aŭ nur centimetro ĉirkaŭ la
 linio en kie la brovoj kunsidas. Por pliengaĝigi ĝin, nelonge rigardu je la flankoj aŭ malsupren,
 tiam reiru al la areo de la okuloj. Tamen, ne rigardu la aliajn korpopartojn de la paronlanto dum ĉi
-tiu procedo; eblas sendi signalojn al la komunikato, ke oni ne priatentas tion, kion ri diras.
+tiu procedo; eblas sendi signalojn al la komunikato, ke oni ne priatentas tion, kion ĝi diras.
 
 
 <a name="aliaj">Aliaj aferoj</a>
