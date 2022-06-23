@@ -2,7 +2,7 @@ Milda Enkonduko al Sofismoj
 ===========================
 
 <div class="center">Esperanto ■ [English](/en/fallacies/)</div>
-<div class="center">Laste ĝisdatigita: la 29-an de Marto 2022</div>
+<div class="center">Laste ĝisdatigita: la 23-an de Junio 2022</div>
 
 >Lerni ne necesas; nek travivas.<br>
 >―W. Edwards DEMING
@@ -95,7 +95,7 @@ propra volo kaj ne per magio.
 --------------------------------------------
 
 Ĉi tio okazas kiam anstataŭ prezenti kazon kontraŭ argumento, persono A atakiĝas persone per persono
-B. Ĉi tio estas fifarita por malkreditigi personon A laŭ kio ri estas anstataŭ la argumento kiun ri
+B. Ĉi tio estas fifarita por malkreditigi personon A laŭ kio ĝi estas anstataŭ la argumento kiun ĝi
 tenas.
 
 >Post kiam Maria prezentis persvadan pruvmaterialon pri la malsukcesoj de demokratio, Karlo
@@ -166,7 +166,7 @@ tirita el specimeno kiu ne estas sufiĉe granda.
 >«En mia junaĝo mi estis seksume fitraktita per samseksemulo. Tiel, samseksemuloj estas fiaj
 >kreaĵoj, kaj ili devas esti punitaj.»
 
-La parolanto supozis, ke nur pro tio, ke ri spertis malbonan okazaĵon en sia vivo antaŭe, ri
+La parolanto supozis, ke nur pro tio, ke ĝi spertis malbonan okazaĵon en sia vivo antaŭe, ĝi
 konkludis, ke ĉiuj samseksemuloj malnoblas, kaj ili devas esti traktitaj per malestimo kaj naŭzo.
 
 
@@ -180,7 +180,7 @@ signifoplena elcento aplikiĝas al la tuta kompono.
 >signifas, ke mi ne povas trovi en la tuta lando tian globskribilon.»
 
 La parolanto jam rezignis pri la ebleco, ke tia globskribilo povas ekzisti en unu aŭ pli retbutikoj
-kiujn ri ne ankoraŭ vizitis.
+kiujn ĝi ne ankoraŭ vizitis.
 
 
 <a name="pruvo">Respondeco de pruvo</a>
@@ -227,7 +227,7 @@ rimarkitaj en politikaj intervjuoj kaj diskutoj.
 -------------------------------------------
 
 Ĉi tio estas fifarita kiam persono B prezentas malplifortan, fuŝformitan version de la argumento
-kiun persono A tenas. Persono B do atakas ĉi tiun version, kaj se ri triumfas, ri konkludas, ke la
+kiun persono A tenas. Persono B do atakas ĉi tiun version, kaj se ĝi triumfas, ĝi konkludas, ke la
 argumento de persono A estas malvenkita.
 
 >Karlo: «Reklamoj pri alkoholaĵoj devas esti malpermesitaj en amasmedioj ĉar nepreskreskulan
@@ -272,8 +272,8 @@ uziĝas por refuti la asertojn de alia persono.
 
 >«La teorio de evoluado eraras pro Johano, kiu estas sciencisto diris, ke li ne kredas ĝin.»
 
-Nur pro tio ke iu estas sciencisto, ne signifas ke ri subtenas la [teorion de
-evoluado](http://notjustatheory.com/). Estas verŝajne, ke eĉ ri estas sciencisto li ne kredas la
+Nur pro tio ke iu estas sciencisto, ne signifas ke ĝi subtenas la [teorion de
+evoluado](http://notjustatheory.com/). Estas verŝajne, ke eĉ ĝi estas sciencisto li ne kredas la
 antaŭmenciitan teorion.
 
 
@@ -387,7 +387,7 @@ kiuj ankaŭ malriĉas, same kiel li antaŭe.
 <a name="estonteco">Apelo al la estonteco</a>
 ---------------------------------------------
 
-Ĉi tio estas farita kiam persono uzas la necertecon de la estonteco por subteni sian argumenton. Ri
+Ĉi tio estas farita kiam persono uzas la necertecon de la estonteco por subteni sian argumenton. Ĝi
 asertas, ke en la estonteco, riaj asertoj eventuale iĝas efektivaj.
 
 >«Neniu ankoraŭ faras ĝin, tamen mi certas, ke en la estonteco, ĉiuj estos.»
@@ -399,13 +399,13 @@ estontecon.
 <a name="kompliko">Apelo al kompliko</a>
 ----------------------------------------
 
-Ĉi tio estas fifarita kiam persono asertas, ke nur pro tio ke ri ne komprenas ion, do signifas ke
+Ĉi tio estas fifarita kiam persono asertas, ke nur pro tio ke ĝi ne komprenas ion, do signifas ke
 plejmulto da homoj ankaŭ ne povas fari ĝin.
 
 >«Mi ne ankoraŭ povas kompreni la lambdokalkulon. Ve. Plej verŝajne, neniuj efektive komprenas
 >ĝin.»
 
-La parolanto aplikas siajn personajn limojn al ĉio, pro ri mem ne povas fari ĝin. Ĉi tio similas al
+La parolanto aplikas siajn personajn limojn al ĉio, pro ĝi mem ne povas fari ĝin. Ĉi tio similas al
 hastaj ĝeneraligo.
 
 
@@ -417,8 +417,8 @@ hastaj ĝeneraligo.
 
 >«Devus ekzisti ĥaoso kaj malharmonio por krei ekvilibron en la kosmo.»
 
-Estas malklare, kian ekvilibron la parolanto priparolas. Kiam demandite, ri malsukcese klarigas kial
-tia afero necesas. Ri plu argumentas, ke pro militoj kaj terorismoj neeviteblas, do ili devus
+Estas malklare, kian ekvilibron la parolanto priparolas. Kiam demandite, ĝi malsukcese klarigas kial
+tia afero necesas. Gi plu argumentas, ke pro militoj kaj terorismoj neeviteblas, do ili devus
 ekzisti por krei ekvilibron. Ĉi tio estas mankhava rezonado—nur ĉar oni ne povas forigi la
 neeviteblajn aferojn, ne signifas, ke ili necesas.
 
@@ -445,7 +445,7 @@ estas sofismo de neplena pruvmaterialo. Amasmedioj kaj socimedioj malgloras de �
 >«Silvja estas vivanta per beata kaj elizea vivo ĉar mi ofte vidas ŝiajn afiŝojn en la socia reto, ke
 >ŝi estas feliĉa.»
 
-La parolanto malatentas la eblon, ke tiuj, kiujn ri vidas, ne fakte veras ĉar Silvja eble nur afiŝaŝ
+La parolanto malatentas la eblon, ke tiuj, kiujn ĝi vidas, ne fakte veras ĉar Silvja eble nur afiŝaŝ
 afiŝojn kiujn ŝi volas homojn por vidi kaj kredi.
 
 
@@ -478,13 +478,13 @@ kontraŭ la lokaj versioj pro tio ke ili estas «enportitaj.«
 ---------------------------
 
 Ĉi tio estas fifarita kiam ideo estas malakceptita sed ne estas klarigita kial. Ĉi tio estas ofte
-farita kiam ideo ne plaĉas al persono, kaj ri uzas trudan eksigon de argumento.
+farita kiam ideo ne plaĉas al persono, kaj ĝi uzas trudan eksigon de argumento.
 
 >«Pro vi malferme kontraŭparolas pri demokratio, vi devas forlasi la landon kaj trovi iun kiu
 >adaptas al viaj preferoj!»
 
-La parolanto ne deklaras siajn kontraŭparolojn, kaj ri uzas malprofundan vorton por tia diro. Ri
-malkomfortas pri la kontraŭparoloj, kaj maniero de ri por trakti ĉi tiun malkomforton estas forigi 
+La parolanto ne deklaras siajn kontraŭparolojn, kaj ĝi uzas malprofundan vorton por tia diro. Ĝi
+malkomfortas pri la kontraŭparoloj, kaj maniero de ĝi por trakti ĉi tiun malkomforton estas forigi 
 la estiginton de tiaj kontraŭparoloj.
 
 
@@ -505,7 +505,7 @@ konkludas per falsaj komparoj.
 <a name="malkreskita">Malkreskita aserto</a>
 --------------------------------------------
 
-Ĉi tio estas farita kiam parolanto asertas ion, sed ri poste malkonfesas ĝin per doni kontraŭdirajn
+Ĉi tio estas farita kiam parolanto asertas ion, sed ĝi poste malkonfesas ĝin per doni kontraŭdirajn
 deklaroj. Ĉi tio ankaŭ nomiĝas «havi vian kukon.»
 
 >«Aŭskultu filo, mi ne kredas je fantomoj. Tamen, hieraŭ vespere, kiam mi estis sola en mia ĉambro,

@@ -2,7 +2,7 @@ Malŝparita Senĉeseco
 ====================
 
 <div class="center">Esperanto ■ [English](/en/squandered/)</div>
-<div class="center">Laste ĝisdatigita: la 16-an de Marto 2022</div>
+<div class="center">Laste ĝisdatigita: la 23-an de Junio 2022</div>
 
 >La unua paŝo por iri ien estas decidi, ke oni ne restos kie oni estas.<br>
 >―J.P. MORGAN
@@ -66,7 +66,7 @@ tio, kio estas antaŭmetata sur la instituciigitaj teleroj, sen la plej minimuma
 La socio, kiu ni ĉiuj estas parto de, estas parto de la malsano. Ĉi tiu malsano estas tio, kion ja
 ni helpas vastigi, el ĝia eko. Ĉi tiu ero estas tio, kion ni ja forte prilaboradis por formi niajn
 proprajn sencojn de individueco. Ni volis antaŭiĝi, kaj jam ĉio, kion ni faras, estas simple
-miksiĝi. Kiel imponega ĉasisto fariĝas tiel obea, ke ri fariĝis la kapto mem? Kial ni forĵetas niajn
+miksiĝi. Kiel imponega ĉasisto fariĝas tiel obea, ke ĝi fariĝis la kapto mem? Kial ni forĵetas niajn
 ĵetlancojn, kiam ĝi estas tiuj, kiujn ni nur havas, doninte al ni la kapablon por kontraŭe batali?
 Niaj sentemoj fordrivis en la nigrajn profundegajn truegojn tiujn, kiujn ni ĉiuj kotizis krei.
 
