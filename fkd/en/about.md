@@ -5,12 +5,11 @@ About
 <div class="center">Last updated: July 9, 2022</div>
 
 <div>
-<img align="right" width="50%" src="/bil/ebzzry.webp">
+<img src="/bil/ebzzry.webp" style="float: right; width: 50%; margin: 0px 0px 0px 10px">
 
 Rommel Martinez is an inventor and artificial intelligence researcher who is interested with
 consciousness, the mind, and reality. He is currently exploring how we can use modern computers to
-reach the low hanging fruits of AI. He is spearheading the AI research and development at [ASTN
-Group](https://astn-group.com).
+reach the low hanging fruits of AI. He is spearheading the AI research and development at [ASTN Group](https://astn-group.com).
 
 Additionally, he likes to do physical training and sports, mainly with kettlebells, calisthenics,
 and golf.
