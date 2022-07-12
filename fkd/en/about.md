@@ -2,7 +2,7 @@ About
 =====
 
 <div class="center">[Esperanto](/eo/pri/) ■ English</div>
-<div class="center">Last updated: July 9, 2022</div>
+<div class="center">Last updated: July 12, 2022</div>
 
 <div>
 <img src="/bil/ebzzry.webp" style="float: right; width: 50%; margin: 0px 0px 0px 10px">
@@ -17,5 +17,5 @@ and golf.
 He currently lives with his wife and son in the warm country of the Philippines.
 </div>
 <div>
-[Email](mailto:ebzzry@ebzzry.com) ■ [GPG](/dat/ebzzry.pub.asc) ■ [GitHub](https://github.com/ebzzry) ■ [LinkedIn](https://linkedin.com/in/ebzzry) ■ [Telegram](https://t.me/ebzzry) ■ [DeviantArt](https://ebzzry.deviantart.com) ■ [Steam](https://steamcommunity.com/id/ebzzry) ■ [Twitter](https://twitter.com/ebzzry)
+[Email](mailto:ebzzry@icloud.com) ■ [GPG](/dat/ebzzry.pub.asc) ■ [GitHub](https://github.com/ebzzry) ■ [LinkedIn](https://linkedin.com/in/ebzzry) ■ [Telegram](https://t.me/ebzzry) ■ [DeviantArt](https://ebzzry.deviantart.com) ■ [Steam](https://steamcommunity.com/id/ebzzry) ■ [Twitter](https://twitter.com/ebzzry)
 </div>
