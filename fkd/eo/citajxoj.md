@@ -2,7 +2,7 @@ Citaĵoj
 =======
 
 <div class="center">Esperanto ■ [English](/en/quotes/)</div>
-<div class="center">Laste ĝisdatigita: la 23-an de Junio 2022</div>
+<div class="center">Laste ĝisdatigita: la 20-an de Julio 2022</div>
 
 <img src="/bil/wallhaven-77816-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -908,3 +908,6 @@ tra la jaroj.
 
 
 - Ĉiuj ekonomiaj sistemoj rezultas al malegaleco.<br>—Jordan PETERSON
+
+
+- Ĉiu malakcepto, ĉiu elreviĝo, kondukis vin ĉi tien, al ĉi tiu momento.<br>—Alpha Waymond Wang, Everything Everywhere All at Once
