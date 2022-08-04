@@ -2,7 +2,7 @@ Citaĵoj
 =======
 
 <div class="center">Esperanto ■ [English](/en/quotes/)</div>
-<div class="center">Laste ĝisdatigita: la 20-an de Julio 2022</div>
+<div class="center">Laste ĝisdatigita: la 4-an de Aŭgusto 2022</div>
 
 <img src="/bil/wallhaven-77816-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -911,3 +911,6 @@ tra la jaroj.
 
 
 - Ĉiu malakcepto, ĉiu elreviĝo, kondukis vin ĉi tien, al ĉi tiu momento.<br>—Alpha Waymond Wang, Everything Everywhere All at Once
+
+
+- Rankoro estas kiel trinki venenon tiam atendi por la morto de la alia ulo.<br>—Carrie FISHER
