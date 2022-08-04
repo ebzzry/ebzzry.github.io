@@ -2,7 +2,7 @@ Quotes
 ======
 
 <div class="center">[Esperanto](/eo/citajxoj/) ■ English</div>
-<div class="center">Last updated: July 20, 2022</div>
+<div class="center">Last updated: August 4, 2022</div>
 
 <img src="/bil/wallhaven-77816-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -924,3 +924,6 @@ the years.
 
 
 - Every rejection, every disappointment, has led you here, to this moment.<br>—Alpha Waymond Wang, Everything Everywhere All at Once
+
+
+- Resentment is like drinking a poison and then waiting for the other person to die.<br>—Carrie Fisher
