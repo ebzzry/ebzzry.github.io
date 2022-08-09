@@ -1,10 +1,10 @@
-Pensoj de Optimisto
-===================
+Pensoj de Optimisma Pesimisto
+=============================
 
 <div class="center">Esperanto ■ [English](/en/)</div>
 <div class="center">Laste ĝisdatigita: la 19-an de Marto 2022</div>
 
-<img src="/bil/pluvis-1008x250.webp" class="banner" alt="pluvis" title="Ĉe la vizaĝo de la kosmo, ni ĉiuj estas porĉiame infanoj." />
+<img src="/bil/rubando-1008x250.webp" class="banner" alt="rubando" title="Ĉe la vizaĝo de la kosmo, ni ĉiuj estas porĉiame infanoj." />
 
 <div class="text-right">Retejo pri komputado, hominklinaĵoj, kaj hazardaĵoj. La enskriboj estas ordigitaj laŭ inverskronologiordo.</div>
 
