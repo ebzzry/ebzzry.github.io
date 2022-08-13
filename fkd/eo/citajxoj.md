@@ -2,7 +2,7 @@ Citaĵoj
 =======
 
 <div class="center">Esperanto ■ [English](/en/quotes/)</div>
-<div class="center">Laste ĝisdatigita: la 4-an de Aŭgusto 2022</div>
+<div class="center">Laste ĝisdatigita: la 13-an de Aŭgusto 2022</div>
 
 <img src="/bil/wallhaven-77816-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -914,3 +914,9 @@ tra la jaroj.
 
 
 - Rankoro estas kiel trinki venenon tiam atendi por la morto de la alia ulo.<br>—Carrie FISHER
+
+
+- La nura afero kiun filo povas fari por sia patro estas frapeti lin sur la ŝultrojn aŭ mortigi lin.<br>—Misato KATSURAGI, Neon Genesis Evangelion 3.0+1.01
+
+
+- Ne estas debato, ke ĉi tiu mondo estas malstabila, malperfekta, kaj malracia. Ĝi estas mondo en kiu aferoj difektiĝas se oni akceptas tiujn kiujn homoj diras laŭvalore.<br>—Gendoh IKARI, Neon Genesis Evangelion 3.0+1.01
