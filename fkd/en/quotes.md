@@ -2,7 +2,7 @@ Quotes
 ======
 
 <div class="center">[Esperanto](/eo/citajxoj/) ■ English</div>
-<div class="center">Last updated: August 13, 2022</div>
+<div class="center">Last updated: August 22, 2022</div>
 
 <img src="/bil/wallhaven-77816-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -933,3 +933,6 @@ the years.
 
 
 - There is no question this world is unstable, imperfect, and irrational. It is a world where things break down if you take what people say at face value.<br>—Gendoh Ikari, Neon Genesis Evangelion 3.0+1.01
+
+
+- If you do not have room in your life for the playful, life is not worth living.<br>—Alan Watts
