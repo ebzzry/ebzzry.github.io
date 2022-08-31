@@ -2,7 +2,7 @@ Citaĵoj
 =======
 
 <div class="center">Esperanto ■ [English](/en/quotes/)</div>
-<div class="center">Laste ĝisdatigita: la 22-an de Aŭgusto 2022</div>
+<div class="center">Laste ĝisdatigita: la 31-an de Aŭgusto 2022</div>
 
 <img src="/bil/wallhaven-77816-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -923,3 +923,6 @@ tra la jaroj.
 
 
 - Se oni ne havas spacon en sia vivo por la ludaferoj, la vivo ne indas havi.<br>—Alan WATTS
+
+
+- Estas pli facile por preni rimarkojn pri la estinteco ol preni antaŭdirojn pri la estonteco.<br>—Gary SMITH kaj Jay CORDES, The Phantom Pattern Problem
