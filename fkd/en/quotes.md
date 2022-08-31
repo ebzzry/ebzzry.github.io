@@ -2,7 +2,7 @@ Quotes
 ======
 
 <div class="center">[Esperanto](/eo/citajxoj/) ■ English</div>
-<div class="center">Last updated: August 22, 2022</div>
+<div class="center">Last updated: August 31, 2022</div>
 
 <img src="/bil/wallhaven-77816-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -936,3 +936,6 @@ the years.
 
 
 - If you do not have room in your life for the playful, life is not worth living.<br>—Alan Watts
+
+
+- It is a lot easier to make observations about the past than to make predictions about the future.<br>—Gary Smith and Jay Cordes, The Phantom Pattern Problem
