@@ -57,12 +57,12 @@ Sekcio 1-a
   &quot;Delete to end of line&quot;
   &#40;interactive &quot;p&quot;&#41;
   &#40;delete-region &#40;point&#41; &#40;save-excursion &#40;end-of-line&#41; &#40;point&#41;&#41;&#41;&#41;
-</code></pre><p>Mi bindis ilin al <kbd>C-c ^</kbd> kaj <kbd>C-c $</kbd>, respektive:</p><p>Se mi havas la jenan:</p><pre><code>Retejo pri komputiko, hominklinaĵoj, kaj hazardaĵoj.
-                      &#94;
+</code></pre><p>Mi bindis ilin al <kbd>C-c ^</kbd> kaj <kbd>C-c $</kbd>, respektive:</p><p>Se mi havas la jenan:</p><pre><code>Retejo pri informadiko, hominklinaĵoj, kaj hazardaĵoj.
+                        &#94;
 </code></pre><p>Tiam, oni premas <kbd>C-c ^</kbd>, ĝi fariĝos:</p><pre><code>hominklinaĵoj, kaj hazardaĵoj.
 &#94;
-</code></pre><p>Male, se oni premas <kbd>C-c $</kbd>, ĝi fariĝos:</p><pre><code>Retejo pri komputiko,
-                      &#94;
+</code></pre><p>Male, se oni premas <kbd>C-c $</kbd>, ĝi fariĝos:</p><pre><code>Retejo pri informadiko,
+                        &#94;
 </code></pre><h2><a name="markado">Markado</a></h2><p>Estas pluraj fojoj kiam mi hovas krei regionon de punkto al komenco kaj fino. Pro tio, mi havas la jenan:</p><pre><code class="lisp">&#40;defun mark-to-bol &#40;&amp;optional arg&#41;
   &quot;Create a region from point to beginning of line&quot;
   &#40;interactive &quot;p&quot;&#41;
