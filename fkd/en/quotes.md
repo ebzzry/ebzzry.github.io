@@ -2,7 +2,7 @@ Quotes
 ======
 
 <div class="center">[Esperanto](/eo/citajxoj/) ■ English</div>
-<div class="center">Last updated: August 31, 2022</div>
+<div class="center">Last updated: September 11, 2022</div>
 
 <img src="/bil/wallhaven-77816-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -939,3 +939,6 @@ the years.
 
 
 - It is a lot easier to make observations about the past than to make predictions about the future.<br>—Gary Smith and Jay Cordes, The Phantom Pattern Problem
+
+
+- Salvation isn’t something another person can give you. It’s something you find on your own.<br>—Niko, Kengan Ashura
