@@ -155,8 +155,8 @@ Mi bindis ilin al <kbd>C-c ^</kbd> kaj <kbd>C-c $</kbd>, respektive:
 Se mi havas la jenan:
 
 ```
-Retejo pri komputiko, hominklinaĵoj, kaj hazardaĵoj.
-                      ^
+Retejo pri informadiko, hominklinaĵoj, kaj hazardaĵoj.
+                        ^
 ```
 
 Tiam, oni premas <kbd>C-c ^</kbd>, ĝi fariĝos:
@@ -169,8 +169,8 @@ hominklinaĵoj, kaj hazardaĵoj.
 Male, se oni premas <kbd>C-c $</kbd>, ĝi fariĝos:
 
 ```
-Retejo pri komputiko,
-                      ^
+Retejo pri informadiko,
+                        ^
 ```
 
 <a name="markado">Markado</a>
