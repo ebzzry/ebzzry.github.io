@@ -6,7 +6,7 @@ Pensoj de Optimisma Pesimisto
 
 <img src="/bil/rubando-1008x250.webp" class="banner" alt="rubando" title="Ĉe la vizaĝo de la kosmo, ni ĉiuj estas porĉiame infanoj." />
 
-<div class="text-right">Retejo pri komputado, hominklinaĵoj, kaj hazardaĵoj. La enskriboj estas ordigitaj laŭ inverskronologiordo.</div>
+<div class="text-right">Retejo pri informadiko, hominklinaĵoj, kaj hazardaĵoj. La enskriboj estas ordigitaj laŭ inverskronologiordo.</div>
 
 - [Kiel Mi Uzas Giton](gito/)
 - [Milda Enkonduko al Nedeterminismo en Skimo](amb/)
