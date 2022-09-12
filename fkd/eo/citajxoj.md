@@ -2,7 +2,7 @@ Citaĵoj
 =======
 
 <div class="center">Esperanto ■ [English](/en/quotes/)</div>
-<div class="center">Laste ĝisdatigita: la 11-an de Septembro 2022</div>
+<div class="center">Laste ĝisdatigita: la 12-an de Septembro 2022</div>
 
 <img src="/bil/wallhaven-77816-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -929,3 +929,9 @@ tra la jaroj.
 
 
 - Savo ne estas io kiun alia ulo povas doni al vi. Ĝi estas io kiun vi mem trovas.<br>—Niko, Kengan Ashura
+
+
+- Homoj ĝenerale fariĝas kiel ili pensas pri si mem.<br>—William JAMES
+
+
+- Homo kun grandaj revoj povas atingi grandajn celojn. Homo kun etaj revoj aŭ homo sen la memfido por ĉasi sian revojn jam destinis sin al vivo de frustro kaj duagradeco.<br>—Bob ROTELLA
