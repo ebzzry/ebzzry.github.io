@@ -2,7 +2,7 @@ Quotes
 ======
 
 <div class="center">[Esperanto](/eo/citajxoj/) ■ English</div>
-<div class="center">Last updated: September 11, 2022</div>
+<div class="center">Last updated: September 12, 2022</div>
 
 <img src="/bil/wallhaven-77816-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -942,3 +942,9 @@ the years.
 
 
 - Salvation isn’t something another person can give you. It’s something you find on your own.<br>—Niko, Kengan Ashura
+
+
+- People by and large become what they think about themselves.<br>—William James 
+
+
+- A person with great dreams can achieve great things. A person with small dreams, or a person without the confidence to pursue his or her dreams, has consigned himself or herself to a life of frustration and mediocrity.<br>—Bob Rotella
