@@ -2,7 +2,7 @@ Quotes
 ======
 
 <div class="center">[Esperanto](/eo/citajxoj/) ■ English</div>
-<div class="center">Last updated: September 12, 2022</div>
+<div class="center">Last updated: September 14, 2022</div>
 
 <img src="/bil/wallhaven-77816-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -948,3 +948,6 @@ the years.
 
 
 - A person with great dreams can achieve great things. A person with small dreams, or a person without the confidence to pursue his or her dreams, has consigned himself or herself to a life of frustration and mediocrity.<br>—Bob Rotella
+
+
+- You cannot hit a golf ball consistently well if you think about the mechanics of your swing as you play.<br>—Bob Rotella

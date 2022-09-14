@@ -2,7 +2,7 @@ Citaĵoj
 =======
 
 <div class="center">Esperanto ■ [English](/en/quotes/)</div>
-<div class="center">Laste ĝisdatigita: la 12-an de Septembro 2022</div>
+<div class="center">Laste ĝisdatigita: la 14-an de Septembro 2022</div>
 
 <img src="/bil/wallhaven-77816-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -935,3 +935,6 @@ tra la jaroj.
 
 
 - Homo kun grandaj revoj povas atingi grandajn celojn. Homo kun etaj revoj aŭ homo sen la memfido por ĉasi sian revojn jam destinis sin al vivo de frustro kaj duagradeco.<br>—Bob ROTELLA
+
+
+- Oni ne povas bati golfpilkon kohere bone se oni pensas pri la meĥanismoj de la svingo dum oni ludas.<br>—Bob ROTELLA
