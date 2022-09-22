@@ -2,7 +2,7 @@ Citaĵoj
 =======
 
 <div class="center">Esperanto ■ [English](/en/quotes/)</div>
-<div class="center">Laste ĝisdatigita: la 14-an de Septembro 2022</div>
+<div class="center">Laste ĝisdatigita: la 22-an de Septembro 2022</div>
 
 <img src="/bil/wallhaven-77816-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -938,3 +938,9 @@ tra la jaroj.
 
 
 - Oni ne povas bati golfpilkon kohere bone se oni pensas pri la meĥanismoj de la svingo dum oni ludas.<br>—Bob ROTELLA
+
+
+- La malkapableco por forgesi estas ege pli detrua ol la malkapableco por memori.<br>—Mark TWAIN
+
+
+- Dubo mortigas pli revojn ol malsukcesoj iam faros.<br>—Suzy KASSEM
