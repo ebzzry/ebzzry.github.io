@@ -2,7 +2,7 @@ Citaĵoj
 =======
 
 <div class="center">Esperanto ■ [English](/en/quotes/)</div>
-<div class="center">Laste ĝisdatigita: la 22-an de Septembro 2022</div>
+<div class="center">Laste ĝisdatigita: la 26-an de Septembro 2022</div>
 
 <img src="/bil/wallhaven-77816-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -944,3 +944,8 @@ tra la jaroj.
 
 
 - Dubo mortigas pli revojn ol malsukcesoj iam faros.<br>—Suzy KASSEM
+
+
+- Kiam mi havas lecionojn mia instruisto povas diri ok aŭ dek aferojn al mi, kaj mi diros al mi,
+  ‘Ne. Ne. Ne estas tio. Ne.’ Sed unu el la ok aŭ dek aferoj interesos al mi. Mi scias, ke ĝi
+  helpos, kaj mi inkludos ĝin kaj ludi pli bone.<br>—David FROST
