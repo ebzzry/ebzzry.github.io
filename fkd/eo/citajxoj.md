@@ -952,3 +952,6 @@ tra la jaroj.
 
 
 - La amo ne estas nealiigebla fabrikeja agordo. Ĝi estas kapablo kiun oni povas havi.<br>—Dan HARRIS
+
+
+- La vido estas ege pli bona kiam oni eltiras sian kapon el sia anuso.<br>—Dan HARRIS
