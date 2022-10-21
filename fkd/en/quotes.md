@@ -2,7 +2,7 @@ Quotes
 ======
 
 <div class="center">[Esperanto](/eo/citajxoj/) ■ English</div>
-<div class="center">Last updated: September 26, 2022</div>
+<div class="center">Last updated: October 21, 2022</div>
 
 <img src="/bil/wallhaven-77816-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -962,3 +962,6 @@ the years.
 - When I take a lesson my teacher can say eight or ten things to me, and I’ll be saying to myself,
   ‘Nope. Nope. That’s not it. Nope.’ But one of those eight or ten things will appeal to me. I’ll
   know it will help, and I’ll incorporate it and play better.<br>—David Frost
+
+
+- Love is not an unalterable factory setting. It is a skill that you can train.<br>—Dan Harris
