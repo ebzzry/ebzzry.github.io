@@ -965,3 +965,6 @@ the years.
 
 
 - Love is not an unalterable factory setting. It is a skill that you can train.<br>—Dan Harris
+
+
+- The view is so much better when you pull your head out of your ass.<br>—Dan Harris
