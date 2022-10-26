@@ -2,7 +2,7 @@ Citaĵoj
 =======
 
 <div class="center">Esperanto ■ [English](/en/quotes/)</div>
-<div class="center">Laste ĝisdatigita: la 21-an de Oktobro 2022</div>
+<div class="center">Laste ĝisdatigita: la 26-an de Oktobro 2022</div>
 
 <img src="/bil/wallhaven-77816-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -955,3 +955,6 @@ tra la jaroj.
 
 
 - La vido estas ege pli bona kiam oni eltiras sian kapon el sia anuso.<br>—Dan HARRIS
+
+
+- Ne malŝparu vian miraklon al via doloro.<br>—Ben STONE, Manifest (2018)

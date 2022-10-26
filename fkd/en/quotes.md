@@ -2,7 +2,7 @@ Quotes
 ======
 
 <div class="center">[Esperanto](/eo/citajxoj/) ■ English</div>
-<div class="center">Last updated: October 21, 2022</div>
+<div class="center">Last updated: October 26, 2022</div>
 
 <img src="/bil/wallhaven-77816-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -968,3 +968,6 @@ the years.
 
 
 - The view is so much better when you pull your head out of your ass.<br>—Dan Harris
+
+
+- Don’t waste your miracle on your pain.<br>—Ben Stone, Manifest (2018)
