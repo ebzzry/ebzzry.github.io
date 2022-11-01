@@ -1,5 +1,5 @@
-Pensoj de Optimisma Pesimisto
-=============================
+Pensoj de Optimisto
+===================
 
 <div class="center">Esperanto ■ [English](/en/)</div>
 <div class="center">Laste ĝisdatigita: la 19-an de Marto 2022</div>
