@@ -2,7 +2,7 @@ Quotes
 ======
 
 <div class="center">[Esperanto](/eo/citajxoj/) ■ English</div>
-<div class="center">Last updated: October 26, 2022</div>
+<div class="center">Last updated: November 2, 2022</div>
 
 <img src="/bil/wallhaven-77816-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -971,3 +971,6 @@ the years.
 
 
 - Don’t waste your miracle on your pain.<br>—Ben Stone, Manifest (2018)
+
+
+- A bird who flies with a bat, wakes up with its head downwards.<br>—Brazilian proverb
