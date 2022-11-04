@@ -432,7 +432,7 @@ the years.
 
 
 - An idea is like a virus. Resilient. Highly contagious. And the smallest seed of an idea can grow.
-  It can grow to define or destroy you<br>—Dominick Cobb, Inception (2010)
+  It can grow to define or destroy you.<br>—Dominick Cobb, Inception (2010)
 
 
 - Whilst ironically, those who aren’t willing to break will break first.<br>—MindSmash, YouTube
