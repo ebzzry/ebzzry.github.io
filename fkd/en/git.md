@@ -2,7 +2,7 @@ How I Roll with Git
 ===================
 
 <div class="center">[Esperanto](/eo/gito/) ■ English</div>
-<div class="center">Last updated: March 19, 2022</div>
+<div class="center">Last updated: November 4, 2022</div>
 
 >Conversely, those with persistence can ignore what others think. They can press
 >on in their own world, oblivious to the opinions of those around them.<br>
@@ -225,16 +225,31 @@ Here are the most important commands that we need to have.
       (a) "${git}" add "$@" ;;
       (au) "${self}" a -u ;;
       (a.) "${self}" a . ;;
+      (aum) "${self}" au; "${self}" cim "$@" ;;
+      (a.m) "${self}" a.; "${self}" cim "$@" ;;
+      (a.x) "${self}" a.m "x" ;;
+      (aux) "${self}" aum "x" ;;
+      (auxx) "${self}" aux; "${self}" rs 2 ;;
+      (au.x) "${self}" a.x; "${self}" rs 2 ;;
+      (auxx!) "${self}" auxx; "${self}" oo! ;;
+
+      (cl) "${git}" clean "$@" ;;
+      (cl!) "${self}" cl -f ;;
 
       (ci) "${git}" commit "$@" ;;
       (cia) "${self}" ci --amend "$@" ;;
       (cim) "${self}" ci --message "$@" ;;
 
       (co) "${git}" checkout "$@" ;;
-      (com) "${self}" co master ;;
+      (com) "${self}" co main ;;
       (cot) "${self}" co trunk ;;
       (co!) "${self}" co --force "$@" ;;
       (cob) "${self}" co -b "$@" ;;
+
+      (ls) "${git}" ls-files "$@" ;;
+      (lsm) "${self}" ls -m ;;
+      (lsd) "${self}" ls -d ;;
+      (lsdrm) "${self}" lsd | xargs "${git}" rm ;;
 
       (rt) "${git}" reset "$@" ;;
       (rt!) "${self}" rt --hard "$@" ;;
@@ -249,7 +264,6 @@ Here are the most important commands that we need to have.
       (rm) "${git}" rm "$@" ;;
       (rmr) "${self}" rm -r "$@" ;;
       (rm!) "${self}" rm -rf "$@" ;;
-
 ```
 
 **Pushing and pulling**
@@ -259,18 +273,19 @@ Here are the most important commands that we need to have.
       (phu) "${self}" ph -u "$@" ;;
       (ph!) "${self}" ph --force "$@" ;;
       (pho) "${self}" phu origin "$@" ;;
-      (phom) "${self}" pho master "$@" ;;
+      (phoo) "${self}" phu origin "$(git brh)" ;;
+      (phd) "${self}" ph --delete "$@" ;;
+      (phdo) "${self}" phd origin "$(git brh)" ;;
+      (oo) "${self}" ph origin "$(git brh)" ;;
+      (oo!) "${self}" ph! origin "$(git brh)" ;;
 
       (pl) "${git}" pull "$@" ;;
       (pl!) "${self}" pl --force "$@" ;;
       (plr) "${self}" pl --rebase "$@" ;;
       (plro) "${self}" plr origin "$@" ;;
+      (plroo) "${self}" plr origin "$(git brh)" ;;
       (plru) "${self}" plr upstream "$@" ;;
-      (plrom) "${self}" plro master ;;
-      (plrum) "${self}" plru master ;;
-      (plrot) "${self}" plro trunk ;;
-      (plrut) "${self}" plru trunk ;;
-
+      (plruo) "${self}" plr upstream "$(git brh)" ;;
 ```
 
 
@@ -279,11 +294,11 @@ Here are the most important commands that we need to have.
 ```
       (br) "${git}" branch "$@" ;;
       (bra) "${self}" br -a ;;
-      (brh) "${git}" rev-parse --abbrev-ref HEAD ;;
       (brm) "${self}" br -m "$@" ;;
       (brmh) "${self}" brm "$(git brh)" ;;
       (brd) "${self}" br -d "$@" ;;
       (brD) "${self}" br -D "$@" ;;
+      (brh) "${git}" rev-parse --abbrev-ref HEAD ;;
 
       (d) "${git}" diff "$@" ;;
       (dc) "${git}" diff --cached "$@" ;;
@@ -312,6 +327,8 @@ Here are other commands that we also need to define:
 
 ```
       (i) touch .gitignore; "${git}" init; "${self}" a.; "${self}" cim "$@" ;;
+      (i!) "${self}" i "[top-level] make initial commit" ;;
+
       (oo) "${self}" ph origin "$(git brh)" ;;
       (oo!) "${self}" ph! origin "$(git brh)" ;;
 ```
@@ -356,11 +373,13 @@ example, if I want to squash the last two commits, I run the following command:
 **Adding**
 
 ```
+      (a) "${git}" add "$@" ;;
+      (au) "${self}" a -u ;;
+      (a.) "${self}" a . ;;
       (aum) "${self}" au; "${self}" cim "$@" ;;
-      (aux) "${self}" aum "x" ;;
       (a.m) "${self}" a.; "${self}" cim "$@" ;;
       (a.x) "${self}" a.m "x" ;;
-
+      (aux) "${self}" aum "x" ;;
       (auxx) "${self}" aux; "${self}" rs 2 ;;
       (au.x) "${self}" a.x; "${self}" rs 2 ;;
       (auxx!) "${self}" auxx; "${self}" oo! ;;
@@ -399,7 +418,7 @@ visible entry in the commit log.
       (cpc) "${self}" cp --continue "$@" ;;
       (cpa) "${self}" cp --abort "$@" ;;
 
-      (fb) "${git}" filter-branch "$@" ;;
+      (fb) FILTER_BRANCH_SQUELCH_WARNING=1 "${git}" filter-branch "$@" ;;
       (fb!) "${self}" fb -f "$@" ;;
       (fbm) "${self}" fb! --msg-filter "$@" ;;
       (fbi) "${self}" fb! --index-filter "$@" ;;
@@ -465,7 +484,7 @@ I then run the following command to make sure that the changes appear in the rem
 Here are all the definitions in one location:
 
 ```
-function git () {
+function git {
   local git= self= op=
 
   if [[ -n "${BASH}" ]]; then
@@ -475,7 +494,7 @@ function git () {
     git=$(whence -p git)
     self=$0
   else
-    echo "Meh"
+    echo "Ve."
     return 1
   fi
 
@@ -494,7 +513,7 @@ function git () {
 
     case "${op}" in
       (i) touch .gitignore; "${git}" init; "${self}" a.; "${self}" cim "$@" ;;
-      (i!) "${self}" i "Pravaloriziĝu" ;;
+      (i!) "${self}" i "[supro] pravalorizu novdeponejon" ;;
 
       (s) "${git}" status ;;
       (c) "${git}" clone "$@" ;;
@@ -505,6 +524,17 @@ function git () {
       (ta) "${git}" tag "$@" ;;
       (bl) "${git}" blame "$@" ;;
 
+      (a) "${git}" add "$@" ;;
+      (au) "${self}" a -u ;;
+      (a.) "${self}" a . ;;
+      (aum) "${self}" au; "${self}" cim "$@" ;;
+      (a.m) "${self}" a.; "${self}" cim "$@" ;;
+      (a.x) "${self}" a.m "x" ;;
+      (aux) "${self}" aum "x" ;;
+      (auxx) "${self}" aux; "${self}" rs 2 ;;
+      (au.x) "${self}" a.x; "${self}" rs 2 ;;
+      (auxx!) "${self}" auxx; "${self}" oo! ;;
+
       (cl) "${git}" clean "$@" ;;
       (cl!) "${self}" cl -f ;;
 
@@ -513,7 +543,7 @@ function git () {
       (cim) "${self}" ci --message "$@" ;;
 
       (co) "${git}" checkout "$@" ;;
-      (com) "${self}" co master ;;
+      (com) "${self}" co main ;;
       (cot) "${self}" co trunk ;;
       (co!) "${self}" co --force "$@" ;;
       (cob) "${self}" co -b "$@" ;;
@@ -552,8 +582,9 @@ function git () {
       (phu) "${self}" ph -u "$@" ;;
       (ph!) "${self}" ph --force "$@" ;;
       (pho) "${self}" phu origin "$@" ;;
-      (phom) "${self}" pho master "$@" ;;
-
+      (phoo) "${self}" phu origin "$(git brh)" ;;
+      (phd) "${self}" ph --delete "$@" ;;
+      (phdo) "${self}" phd origin "$(git brh)" ;;
       (oo) "${self}" ph origin "$(git brh)" ;;
       (oo!) "${self}" ph! origin "$(git brh)" ;;
 
@@ -561,24 +592,9 @@ function git () {
       (pl!) "${self}" pl --force "$@" ;;
       (plr) "${self}" pl --rebase "$@" ;;
       (plro) "${self}" plr origin "$@" ;;
+      (plroo) "${self}" plr origin "$(git brh)" ;;
       (plru) "${self}" plr upstream "$@" ;;
-      (plrom) "${self}" plro master ;;
-      (plrum) "${self}" plru master ;;
-      (plrot) "${self}" plro trunk ;;
-      (plrut) "${self}" plru trunk ;;
-
-      (a) "${git}" add "$@" ;;
-      (au) "${self}" a -u ;;
-      (a.) "${self}" a . ;;
-
-      (aum) "${self}" au; "${self}" cim "$@" ;;
-      (aux) "${self}" aum "x" ;;
-      (a.m) "${self}" a.; "${self}" cim "$@" ;;
-      (a.x) "${self}" a.m "x" ;;
-
-      (auxx) "${self}" aux; "${self}" rs 2 ;;
-      (au.x) "${self}" a.x; "${self}" rs 2 ;;
-      (auxx!) "${self}" auxx; "${self}" oo! ;;
+      (plruo) "${self}" plr upstream "$(git brh)" ;;
 
       (l) "${git}" log "$@" ;;
       (l1) "${self}" l -1 --pretty=%B ;;
@@ -620,7 +636,7 @@ function git () {
       (cpc) "${self}" cp --continue "$@" ;;
       (cpa) "${self}" cp --abort "$@" ;;
 
-      (fb) "${git}" filter-branch "$@" ;;
+      (fb) FILTER_BRANCH_SQUELCH_WARNING=1 "${git}" filter-branch "$@" ;;
       (fb!) "${self}" fb -f "$@" ;;
       (fbm) "${self}" fb! --msg-filter "$@" ;;
       (fbi) "${self}" fb! --index-filter "$@" ;;

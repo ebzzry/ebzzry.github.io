@@ -2,7 +2,7 @@ Kiel Mi Uzas Giton
 ==================
 
 <div class="center">Esperanto ■ [English](/en/git/)</div>
-<div class="center">Laste ĝisdatigita: la 19-an de Marto 2022</div>
+<div class="center">Laste ĝisdatigita: la 4-an de Novembro 2022</div>
 
 >Male, tiuj kun senĉeseco povas malatenti kiujn aliaj pensas. Ion ajn ili povas
 >fari en ilia propra mondo senzorgeme al la opinioj de tiuj ĉirkaŭ ili.<br>
@@ -227,16 +227,31 @@ Jen la plej gravaj komandoj kiujn ni unue devas havi.
       (a) "${git}" add "$@" ;;
       (au) "${self}" a -u ;;
       (a.) "${self}" a . ;;
+      (aum) "${self}" au; "${self}" cim "$@" ;;
+      (a.m) "${self}" a.; "${self}" cim "$@" ;;
+      (a.x) "${self}" a.m "x" ;;
+      (aux) "${self}" aum "x" ;;
+      (auxx) "${self}" aux; "${self}" rs 2 ;;
+      (au.x) "${self}" a.x; "${self}" rs 2 ;;
+      (auxx!) "${self}" auxx; "${self}" oo! ;;
+
+      (cl) "${git}" clean "$@" ;;
+      (cl!) "${self}" cl -f ;;
 
       (ci) "${git}" commit "$@" ;;
       (cia) "${self}" ci --amend "$@" ;;
       (cim) "${self}" ci --message "$@" ;;
 
       (co) "${git}" checkout "$@" ;;
-      (com) "${self}" co master ;;
+      (com) "${self}" co main ;;
       (cot) "${self}" co trunk ;;
       (co!) "${self}" co --force "$@" ;;
       (cob) "${self}" co -b "$@" ;;
+
+      (ls) "${git}" ls-files "$@" ;;
+      (lsm) "${self}" ls -m ;;
+      (lsd) "${self}" ls -d ;;
+      (lsdrm) "${self}" lsd | xargs "${git}" rm ;;
 
       (rt) "${git}" reset "$@" ;;
       (rt!) "${self}" rt --hard "$@" ;;
@@ -251,7 +266,6 @@ Jen la plej gravaj komandoj kiujn ni unue devas havi.
       (rm) "${git}" rm "$@" ;;
       (rmr) "${self}" rm -r "$@" ;;
       (rm!) "${self}" rm -rf "$@" ;;
-
 ```
 
 
@@ -262,18 +276,19 @@ Jen la plej gravaj komandoj kiujn ni unue devas havi.
       (phu) "${self}" ph -u "$@" ;;
       (ph!) "${self}" ph --force "$@" ;;
       (pho) "${self}" phu origin "$@" ;;
-      (phom) "${self}" pho master "$@" ;;
+      (phoo) "${self}" phu origin "$(git brh)" ;;
+      (phd) "${self}" ph --delete "$@" ;;
+      (phdo) "${self}" phd origin "$(git brh)" ;;
+      (oo) "${self}" ph origin "$(git brh)" ;;
+      (oo!) "${self}" ph! origin "$(git brh)" ;;
 
       (pl) "${git}" pull "$@" ;;
       (pl!) "${self}" pl --force "$@" ;;
       (plr) "${self}" pl --rebase "$@" ;;
       (plro) "${self}" plr origin "$@" ;;
+      (plroo) "${self}" plr origin "$(git brh)" ;;
       (plru) "${self}" plr upstream "$@" ;;
-      (plrom) "${self}" plro master ;;
-      (plrum) "${self}" plru master ;;
-      (plrot) "${self}" plro trunk ;;
-      (plrut) "${self}" plru trunk ;;
-
+      (plruo) "${self}" plr upstream "$(git brh)" ;;
 ```
 
 
@@ -282,11 +297,11 @@ Jen la plej gravaj komandoj kiujn ni unue devas havi.
 ```
       (br) "${git}" branch "$@" ;;
       (bra) "${self}" br -a ;;
-      (brh) "${git}" rev-parse --abbrev-ref HEAD ;;
       (brm) "${self}" br -m "$@" ;;
       (brmh) "${self}" brm "$(git brh)" ;;
       (brd) "${self}" br -d "$@" ;;
       (brD) "${self}" br -D "$@" ;;
+      (brh) "${git}" rev-parse --abbrev-ref HEAD ;;
 
       (d) "${git}" diff "$@" ;;
       (dc) "${git}" diff --cached "$@" ;;
@@ -316,8 +331,11 @@ Jen aliaj komandoj kiujn ni ankaŭ devas difini.
 
 ```
       (i) touch .gitignore; "${git}" init; "${self}" a.; "${self}" cim "$@" ;;
+      (i!) "${self}" i "[supro] pravaloriziĝu" ;;
+
       (oo) "${self}" ph origin "$(git brh)" ;;
       (oo!) "${self}" ph! origin "$(git brh)" ;;
+
 ```
 
 Kiam ajn novajn deponejon mi kreas, la jenan komandon mi rulas:
@@ -361,11 +379,13 @@ komandon mi uzas:
 **Aldonado**
 
 ```
+      (a) "${git}" add "$@" ;;
+      (au) "${self}" a -u ;;
+      (a.) "${self}" a . ;;
       (aum) "${self}" au; "${self}" cim "$@" ;;
-      (aux) "${self}" aum "x" ;;
       (a.m) "${self}" a.; "${self}" cim "$@" ;;
       (a.x) "${self}" a.m "x" ;;
-
+      (aux) "${self}" aum "x" ;;
       (auxx) "${self}" aux; "${self}" rs 2 ;;
       (au.x) "${self}" a.x; "${self}" rs 2 ;;
       (auxx!) "${self}" auxx; "${self}" oo! ;;
@@ -404,7 +424,7 @@ en la protokolo mi ne deziras havi.
       (cpc) "${self}" cp --continue "$@" ;;
       (cpa) "${self}" cp --abort "$@" ;;
 
-      (fb) "${git}" filter-branch "$@" ;;
+      (fb) FILTER_BRANCH_SQUELCH_WARNING=1 "${git}" filter-branch "$@" ;;
       (fb!) "${self}" fb -f "$@" ;;
       (fbm) "${self}" fb! --msg-filter "$@" ;;
       (fbi) "${self}" fb! --index-filter "$@" ;;
@@ -469,7 +489,7 @@ La jenan komandon mi tiam uzas sekve, por certigi ke la ŝanĝoj aperas en la fo
 Jen da difinoj en unu loko:
 
 ```
-function git () {
+function git {
   local git= self= op=
 
   if [[ -n "${BASH}" ]]; then
@@ -479,7 +499,7 @@ function git () {
     git=$(whence -p git)
     self=$0
   else
-    echo "Meh"
+    echo "Ve."
     return 1
   fi
 
@@ -498,7 +518,7 @@ function git () {
 
     case "${op}" in
       (i) touch .gitignore; "${git}" init; "${self}" a.; "${self}" cim "$@" ;;
-      (i!) "${self}" i "Pravaloriziĝu" ;;
+      (i!) "${self}" i "[supro] pravalorizu novdeponejon" ;;
 
       (s) "${git}" status ;;
       (c) "${git}" clone "$@" ;;
@@ -509,6 +529,17 @@ function git () {
       (ta) "${git}" tag "$@" ;;
       (bl) "${git}" blame "$@" ;;
 
+      (a) "${git}" add "$@" ;;
+      (au) "${self}" a -u ;;
+      (a.) "${self}" a . ;;
+      (aum) "${self}" au; "${self}" cim "$@" ;;
+      (a.m) "${self}" a.; "${self}" cim "$@" ;;
+      (a.x) "${self}" a.m "x" ;;
+      (aux) "${self}" aum "x" ;;
+      (auxx) "${self}" aux; "${self}" rs 2 ;;
+      (au.x) "${self}" a.x; "${self}" rs 2 ;;
+      (auxx!) "${self}" auxx; "${self}" oo! ;;
+
       (cl) "${git}" clean "$@" ;;
       (cl!) "${self}" cl -f ;;
 
@@ -517,7 +548,7 @@ function git () {
       (cim) "${self}" ci --message "$@" ;;
 
       (co) "${git}" checkout "$@" ;;
-      (com) "${self}" co master ;;
+      (com) "${self}" co main ;;
       (cot) "${self}" co trunk ;;
       (co!) "${self}" co --force "$@" ;;
       (cob) "${self}" co -b "$@" ;;
@@ -556,8 +587,9 @@ function git () {
       (phu) "${self}" ph -u "$@" ;;
       (ph!) "${self}" ph --force "$@" ;;
       (pho) "${self}" phu origin "$@" ;;
-      (phom) "${self}" pho master "$@" ;;
-
+      (phoo) "${self}" phu origin "$(git brh)" ;;
+      (phd) "${self}" ph --delete "$@" ;;
+      (phdo) "${self}" phd origin "$(git brh)" ;;
       (oo) "${self}" ph origin "$(git brh)" ;;
       (oo!) "${self}" ph! origin "$(git brh)" ;;
 
@@ -565,24 +597,9 @@ function git () {
       (pl!) "${self}" pl --force "$@" ;;
       (plr) "${self}" pl --rebase "$@" ;;
       (plro) "${self}" plr origin "$@" ;;
+      (plroo) "${self}" plr origin "$(git brh)" ;;
       (plru) "${self}" plr upstream "$@" ;;
-      (plrom) "${self}" plro master ;;
-      (plrum) "${self}" plru master ;;
-      (plrot) "${self}" plro trunk ;;
-      (plrut) "${self}" plru trunk ;;
-
-      (a) "${git}" add "$@" ;;
-      (au) "${self}" a -u ;;
-      (a.) "${self}" a . ;;
-
-      (aum) "${self}" au; "${self}" cim "$@" ;;
-      (aux) "${self}" aum "x" ;;
-      (a.m) "${self}" a.; "${self}" cim "$@" ;;
-      (a.x) "${self}" a.m "x" ;;
-
-      (auxx) "${self}" aux; "${self}" rs 2 ;;
-      (au.x) "${self}" a.x; "${self}" rs 2 ;;
-      (auxx!) "${self}" auxx; "${self}" oo! ;;
+      (plruo) "${self}" plr upstream "$(git brh)" ;;
 
       (l) "${git}" log "$@" ;;
       (l1) "${self}" l -1 --pretty=%B ;;
@@ -624,7 +641,7 @@ function git () {
       (cpc) "${self}" cp --continue "$@" ;;
       (cpa) "${self}" cp --abort "$@" ;;
 
-      (fb) "${git}" filter-branch "$@" ;;
+      (fb) FILTER_BRANCH_SQUELCH_WARNING=1 "${git}" filter-branch "$@" ;;
       (fb!) "${self}" fb -f "$@" ;;
       (fbm) "${self}" fb! --msg-filter "$@" ;;
       (fbi) "${self}" fb! --index-filter "$@" ;;
