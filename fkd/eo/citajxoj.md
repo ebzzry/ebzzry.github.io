@@ -2,7 +2,7 @@ Citaĵoj
 =======
 
 <div class="center">Esperanto ■ [English](/en/quotes/)</div>
-<div class="center">Laste ĝisdatigita: la 2-an de Novembro 2022</div>
+<div class="center">Laste ĝisdatigita: la 7-an de Novembro 2022</div>
 
 <img src="/bil/wallhaven-77816-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -346,8 +346,7 @@ tra la jaroj.
   estontecon de la socio.<br>—Akane TSUNEMORI, Psycho-Pass
 
 
-- Ne forgesu, ke oni certe mortos iutage, kaj pro tio, estas pli racie por vivi nun.<br>—Decim,
-  Death Parade
+- Ne forgesu, ke oni certe mortos iun tagon, kaj pro tio, estas tiom pli racie por vivi nun.<br>—Decim, Death Parade
 
 
 - Se ne mi, kiu? Se ne nun, kiam?<br>—Mikhail GORBACHEV
