@@ -960,3 +960,5 @@ tra la jaroj.
 
 - Oni ne malkovras novajn terojn sen konsenti perdi vidon, por longa tempo, de la marbordo.<br>—André GIDE
 
+
+- Homoj provas konformi al formo. Ili ludas rolon en la socio por provi trovi sencon en la vivo. Tial, ili dediĉas sian vivon al sia laboro.<br>—Joji SAIGA, Psycho-Pass: The Movie

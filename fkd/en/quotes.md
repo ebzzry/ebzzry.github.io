@@ -973,3 +973,6 @@ the years.
 
 
 - One doesn’t discover new lands without consenting to lose sight, for a very long time, of the shore.<br>—André Gide
+
+
+- People try to fit into a mold. They play a role in society to attempt to find meaning in life. This is why they devote their lives to their work.<br>—Joji Saiga, Psycho-Pass: The Movie
