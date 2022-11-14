@@ -976,3 +976,6 @@ the years.
 
 
 - People try to fit into a mold. They play a role in society to attempt to find meaning in life. This is why they devote their lives to their work.<br>—Joji Saiga, Psycho-Pass: The Movie
+
+
+- To live is not to breathe; it is to act.<br>—Jean-Jacques Rousseau
