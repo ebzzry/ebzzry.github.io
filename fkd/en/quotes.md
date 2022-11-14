@@ -2,7 +2,7 @@ Quotes
 ======
 
 <div class="center">[Esperanto](/eo/citajxoj/) ■ English</div>
-<div class="center">Last updated: November 2, 2022</div>
+<div class="center">Last updated: November 14, 2022</div>
 
 <img src="/bil/wallhaven-77816-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -218,10 +218,6 @@ the years.
 
 
 - Life is like riding a bicycle. To keep your balance, you must keep moving.<br>—Albert Einstein
-
-
-- You can never cross the ocean, unless you have the courage to lose sight of the
-  shore.<br>—Columbus
 
 
 - One day they’ll realize they lost a diamond while playing with worthless stones.<br>—Turcois
@@ -974,3 +970,6 @@ the years.
 
 
 - A bird who flies with a bat, wakes up with its head downwards.<br>—Brazilian proverb
+
+
+- One doesn’t discover new lands without consenting to lose sight, for a very long time, of the shore.<br>—André Gide
