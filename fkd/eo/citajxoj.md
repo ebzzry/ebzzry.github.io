@@ -2,7 +2,7 @@ Citaĵoj
 =======
 
 <div class="center">Esperanto ■ [English](/en/quotes/)</div>
-<div class="center">Laste ĝisdatigita: la 7-an de Novembro 2022</div>
+<div class="center">Laste ĝisdatigita: la 14-an de Novembro 2022</div>
 
 <img src="/bil/wallhaven-77816-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -214,10 +214,6 @@ tra la jaroj.
 
 - La vivo similas al rajdi biciklon. Por pluigi onian egalpezon, oni devas daŭri movi.<br>—Alberto
   EJNŜTEJNO
-
-
-- Oni neniam povas transiri la oceanon, krom se oni havas la kuraĝon por perdi la vidon de la
-  marbordo.<br>—Kristoforo KOLUMBO
 
 
 - Unu tagon, ili ekscios ke ili perdis brilanton dum ludi senvalorajn ŝtonojn.<br>—Turcois OMINEK
@@ -960,3 +956,7 @@ tra la jaroj.
 
 
 - Birdo, kiu flugas kun vesperto, vekiĝas kun la kapo malsupren.<br>—brazila proverbo
+
+
+- Oni ne malkovras novajn terojn sen konsenti por perdi vidon, por longa tempo, de la marbordo.<br>—André GIDE
+
