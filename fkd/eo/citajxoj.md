@@ -958,5 +958,5 @@ tra la jaroj.
 - Birdo, kiu flugas kun vesperto, vekiĝas kun la kapo malsupren.<br>—brazila proverbo
 
 
-- Oni ne malkovras novajn terojn sen konsenti por perdi vidon, por longa tempo, de la marbordo.<br>—André GIDE
+- Oni ne malkovras novajn terojn sen konsenti perdi vidon, por longa tempo, de la marbordo.<br>—André GIDE
 
