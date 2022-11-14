@@ -962,3 +962,6 @@ tra la jaroj.
 
 
 - Homoj provas konformi al formo. Ili ludas rolon en la socio por provi trovi sencon en la vivo. Tial, ili dediĉas sian vivon al sia laboro.<br>—Joji SAIGA, Psycho-Pass: The Movie
+
+
+- Vivi ne estas spiri; estas agi.<br>—Jean-Jacques ROUSSEAU
