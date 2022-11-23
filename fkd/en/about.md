@@ -16,6 +16,8 @@ and golf.
 
 He currently lives with his wife and son in the warm country of the Philippines.
 </div>
-<div>
-[Email](mailto:ebzzry@icloud.com) ■ [GPG](/dat/ebzzry.pub.asc) ■ [GitHub](https://github.com/ebzzry) ■ [LinkedIn](https://linkedin.com/in/ebzzry) ■ [Telegram](https://t.me/ebzzry) ■ [DeviantArt](https://ebzzry.deviantart.com) ■ [Steam](https://steamcommunity.com/id/ebzzry) ■ [Twitter](https://twitter.com/ebzzry) ■ [Viber](viber://chat?number=%2B639457805262)
+<div class="center">
+[GitHub](https://github.com/ebzzry) ■ [LinkedIn](https://linkedin.com/in/ebzzry) ■ [Twitter](https://twitter.com/ebzzry)<br>
+[Email](mailto:rommel.martinez@astn-group.com) ■ [Telegram](https://t.me/ebzzry) ■ [Viber](viber://chat?number=%2B639457805262) ■ [GPG](/dat/rommel.martinez@astn-group.com.pub.asc)<br>
+GPG Fingerprint: `AEC6 0EAF 146E 0F1D 6704  697B 5405 D0D2 708E 7B30`
 </div>
