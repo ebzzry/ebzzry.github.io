@@ -2,7 +2,7 @@ Citaĵoj
 =======
 
 <div class="center">Esperanto ■ [English](/en/quotes/)</div>
-<div class="center">Laste ĝisdatigita: la 14-an de Novembro 2022</div>
+<div class="center">Laste ĝisdatigita: la 28-an de Novembro 2022</div>
 
 <img src="/bil/wallhaven-77816-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -965,3 +965,6 @@ tra la jaroj.
 
 
 - Vivi ne estas spiri; estas agi.<br>—Jean-Jacques ROUSSEAU
+
+
+- Oni ne povas nomi sin pacema krom se oni estas kapabla por granda perforto. Se oni ne estas kapabla por granda perforto, oni ne estas pacema, oni estas nenoca.<br>—Stef STARKGARYEN

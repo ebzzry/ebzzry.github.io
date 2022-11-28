@@ -2,7 +2,7 @@ Quotes
 ======
 
 <div class="center">[Esperanto](/eo/citajxoj/) ■ English</div>
-<div class="center">Last updated: November 14, 2022</div>
+<div class="center">Last updated: November 28, 2022</div>
 
 <img src="/bil/wallhaven-77816-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -21,7 +21,7 @@ the years.
 - Furious activity is no substitute for understanding.<br>—H.H. Williams
 
 
-- Diplomacy is the art of saying ‘Nice doggie’ until you can find a rock.<br>—Will Rogers
+- Diplomacy is the art of saying ‘nice doggie’ until you can find a rock.<br>—Will Rogers
 
 
 - You do not really understand something unless you can explain it to your grandmother.<br>—Albert
@@ -979,3 +979,6 @@ the years.
 
 
 - To live is not to breathe; it is to act.<br>—Jean-Jacques Rousseau
+
+
+- You can’t truly call yourself peaceful unless you are capable of great violence. If you’re not capable of violence, you’re not peaceful, you’re harmless.<br>—Stef Starkgaryen
