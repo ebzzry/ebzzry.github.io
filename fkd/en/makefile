@@ -17,7 +17,7 @@ all:
   --og-url "https://ebzzry.com/en/" \
   --og-image $(OG_BILDO) \
   --lang "en" \
-  -C "html { max-width: 80% }" \
+  -C "html { max-width: 60em; }" \
   -RFamuo ../../en/index.html index.md footer.md
 
 %.html: %.md
@@ -30,7 +30,7 @@ all:
   --og-url "https://ebzzry.com/en/$$(basename $< .md)/" \
   --og-image $(OG_BILDO) \
   --lang "en" \
-  -C "html { max-width: 80% }" \
+  -C "html { max-width: 60em; }" \
   -RFamuo "../../en/$$(basename $< .md)/index.html" $< footer.md
 
 clean:
