@@ -18,6 +18,6 @@ Li nune loĝas kun sia edzino kaj filo en la varma lando de Filipinoj.
 </div>
 <div class="center">
 [GitHub](https://github.com/ebzzry) ■ [LinkedIn](https://linkedin.com/in/ebzzry) ■ [Tvitero](https://twitter.com/ebzzry)<br>
-[Retpoŝto](mailto:rommel.martinez@astn-group.com) ■ [Telegramo](https://t.me/ebzzry) ■ [Viber](viber://chat?number=%2B639457805262) ■ [GPG](/dat/rommel.martinez@astn-group.com.pub.asc)<br>
+[Retpoŝto](mailto:rommel.martinez@astn-group.com) ■ [Telegramo](https://t.me/ebzzry) ■ [GPG](/dat/rommel.martinez@astn-group.com.pub.asc)<br>
 GPG-fingrospuro: `AEC6 0EAF 146E 0F1D 6704  697B 5405 D0D2 708E 7B30`
 </div>
