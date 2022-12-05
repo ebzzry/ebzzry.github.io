@@ -48,7 +48,7 @@ por uzi ion, kiu tro mezkvalitas en almenaŭ unu kritika afero. Bonŝance, mi tr
 [Frog](https://github.com/greghendershott/frog) pro propono en
 [#racket](https://kiwiirc.com/client/irc.freenode.net/#racket).
 
-Frog en laikoterminoj, estas retejokreilo, kiu estas tiel facila uzi, agordi, kaj personecigi. Kio
+Frog en laikoterminoj, estas retejokreilo, kiu estas tiom facila por uzi, agordi, kaj personecigi. Kio
 ajn oni skribas, aperos kiel oni anticipas. Nek estas bizaraj kondiĉoj de uzado, nek
 arbitraj limigoj, nek trudoj—tre proksimas al tuta rego, en la pinto de la fingropintoj.
 

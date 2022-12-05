@@ -4,7 +4,7 @@ Divido en Haskelo
 <div class="center">Esperanto ■ [English](/en/haskell-division/)</div>
 <div class="center">Laste ĝisdatigita: la 22-an de Majo 2019</div>
 
-Lernante pri divido en Haskelo, mi konsciis, ke la koncepto ne estas tiel bagatele kiel ĝin mi
+Lernante pri divido en Haskelo, mi konsciis, ke la koncepto ne estas tiom bagatele kiel ĝin mi
 komence volis. Estas subtilaj kontrastoj inter la funkcioj kiuj oni povas facile faligi kiu ne
 estas konscias de ili. Entjeran dividon kiu rondigas al nulo `quot` faras. `div` similas al `quot`,
 tamen ĝi rondigas sub nulo—negativa senfineco. La reston de divido `rem` liveras. `mod`, aliflanke,

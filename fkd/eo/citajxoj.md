@@ -657,7 +657,7 @@ tra la jaroj.
 - Kiam ion oni pligrandigas centoble, ĝi pli malfortiĝas centoble.<br>—Alan KAY
 
 
-- Ne estas idea tiel simpla kaj potenca, ke oni ne povas havi umilionon da homo por ĝin
+- Ne estas ideo tiel simpla kaj potenca, ke oni ne povas havi umilionon da homo por ĝin
   malkompreni.<br>—Alan KAY
 
 
