@@ -46,7 +46,7 @@ helpemaj klavkombinoj por maŝinskribadon plirapidigi.
 <a name="funkcioj">Funkcioj</a>
 -------------------------------
 
-Bela afero pri funkcioj, estas, ke ili estas tiel facile por skribi kaj uzi. Jen kelkaj funkcioj
+Bela afero pri funkcioj, estas, ke ili estas tiom facile por skribi kaj uzi. Jen kelkaj funkcioj
 kiujn mi uzas ofte.
 
 
@@ -541,7 +541,7 @@ out_keys=(
 <a name="finrimarkoj">Finrimarkoj</a>
 -------------------------------------
 
-La komandlinion uzante, precipe per ŝelo tiel potenca kiel ziŝo, estas devige por esti konscie, kiun
+La komandlinion uzante, precipe per ŝelo tiom potenca kiel ziŝo, estas devige por esti konscie, kiun
 la ŝelon povas fari. Ne blinde uzu pakojn kiujn la ŝelon personecigas, sen kompreni kiujn ili faras.
 
 Bonan ziŝigadon!
