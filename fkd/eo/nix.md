@@ -988,8 +988,8 @@ oportunaj. La kompromiso, estas, ke la pakoj estas malaktualaj de iom da tagoj. 
 tio, do uzi kanalojn anstataŭ la gitkopion.
 
 Kanaloj estas etikeditaj `stable`, `unstable`, aŭ per specifa versinombro, ekzemple, `18.09` aŭ
-`21.11`. Por ĉi tiu artikolo, ni uzu `unstable`—ĝi nek estas tiel malaktuala kiel `stable` nek
-tiel ĵuŝa kiel la gitkopio. Por aboni al la `unstable`-kanalo, rulu:
+`21.11`. Por ĉi tiu artikolo, ni uzu `unstable`—ĝi nek estas tiom malaktuala kiel `stable` nek
+tiom ĵuŝa kiel la gitkopio. Por aboni al la `unstable`-kanalo, rulu:
 
     $ nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
 

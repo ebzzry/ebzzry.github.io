@@ -71,7 +71,7 @@ Oni simple kredas en sia intuo, por precizigi la signifon de la akvokondukilo en
 tenis ĝin.
 
 La vorto _alta_ havas plurajn signifojn. Tamen, en ĉiom da difinitaj signifoj de la vorto, ne
-ekzistas apriora scio de la valoro de la vorto. Ni akceptas la difinon tiel estas. Ni devas konsenti
+ekzistas apriora scio de la valoro de la vorto. Ni akceptas la difinon samkiel ĝi estas. Ni devas konsenti
 al la uzado de la vorto en la limigita kunteksto de la uzantoj de la vorto. Se ni provas devii el la
 establiĝita signifo de la vorto, ekzemple, se ni hazarde kreas novan difinon de la vorto pro
 kaprico, plej verŝajne ĝi ne estos akceptita. Ni bezonas kredi la difinitajn kaj montritajn
@@ -341,7 +341,7 @@ Ni elprovu tion:
 ≡ 6
 ```
 
-Multipliki du nombrojn en la lambdokalkulo estas tiel facila kaj simpla. Tamen, antaŭ ol daŭri al
+Multipliki du nombrojn en la lambdokalkulo estas tiom facila kaj simpla. Tamen, antaŭ ol daŭri al
 pli aritmetikaj funkcioj, ni unue traktu verecajn valorojn kaj kondiĉaĵojn, kiuj estas antaŭkondiĉoj
 en lerni la aliajn funkciojn.
 

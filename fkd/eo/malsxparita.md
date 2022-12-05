@@ -30,7 +30,7 @@ al ŝajne kontraŭstaremaj formoj. Ni faras ĝin pro timo. Ni faras ĝin tial, k
 nekonataj aferoj. Ni faras ĝin pro niaj parencecoj kaj sindonoj al sekureco.
 
 Ni plendas pri la sufokema manko de premio, sed tamen ni ĉesi nin mem libervole por fari eĉ colon da
-movo de kruro por fari la avancon al la kapto. Ni estas tiel sentimentale enamiĝas kun fervoro en
+movo de kruro por fari la avancon al la kapto. Ni estas tiom sentimentale enamiĝas kun fervoro en
 la strebado de raciigo al niaj nepravigeblaj pravigoj, sed ni same petas raciajn raciojn. Estas eĉ
 pli ŝoke vidi, ke kelke da ni inside anoncas iluziojn de grandiozo, kun pretendoj de plene ripetaj
 sensacioj.
@@ -66,7 +66,7 @@ tio, kio estas antaŭmetata sur la instituciigitaj teleroj, sen la plej minimuma
 La socio, kiu ni ĉiuj estas parto de, estas parto de la malsano. Ĉi tiu malsano estas tio, kion ja
 ni helpas vastigi, el ĝia eko. Ĉi tiu ero estas tio, kion ni ja forte prilaboradis por formi niajn
 proprajn sencojn de individueco. Ni volis antaŭiĝi, kaj jam ĉio, kion ni faras, estas simple
-miksiĝi. Kiel imponega ĉasisto fariĝas tiel obea, ke ĝi fariĝis la kapto mem? Kial ni forĵetas niajn
+miksiĝi. Kiel imponega ĉasisto fariĝas tiom obea, ke ĝi fariĝis la kapto mem? Kial ni forĵetas niajn
 ĵetlancojn, kiam ĝi estas tiuj, kiujn ni nur havas, doninte al ni la kapablon por kontraŭe batali?
 Niaj sentemoj fordrivis en la nigrajn profundegajn truegojn tiujn, kiujn ni ĉiuj kotizis krei.
 

@@ -131,7 +131,7 @@ Pripensoj
   de kion ili volas atingi, ne kion ili havas.<br>
 
 
-- Ni estas tiel frenezaj pri niaj celoj, kiam la vera palpebla celo en la vivo estas morteco.<br>
+- Ni estas tiom frenezaj pri niaj celoj, kiam la vera palpebla celo en la vivo estas morteco.<br>
 
 
 - Se vi estis dirita ke vi iutempe mortos, ĉu vi ankoraŭ deziras vivi?<br>
@@ -204,7 +204,7 @@ Pripensoj
   kondiĉoj. Ĉio dependas de tio.<br>
 
 
-- Malklaras la difino de vivo—nigra truo estas kiel viva tiel bakterio. La atributoj de vivo kiujn
+- Malklaras la difino de vivo—nigra truo estas tiel viva kiel bakterio. La atributoj de vivo kiujn
   ni donis al ĝi ege dependas al nia rilato je la vivaĵoj kiujn ni konas.<br>
 
 

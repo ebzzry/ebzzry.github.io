@@ -37,7 +37,7 @@ Kiel Komuniki Samkiel Homo
 
 Ni traktas la komunikadon nepripensinde. Nur ĉar oni povas paroli ne signifas, ke oni povas
 komuniki. Ĉiutage ni uzas kian ajn perilon por alparoli ideojn, mesaĝojn, kaj absurdaĵojn alparoli.
-Bedaŭrinde, ni fakte ne donas atenton kiel ni komunikas. Tiel longle kiel niaj demandoj estas
+Bedaŭrinde, ni fakte ne donas atenton kiel ni komunikas. Tiel longe kiel niaj demandoj estas
 responditaj, ni simple satiĝas. Tio devas ŝanĝiĝi.
 
 Okazas efektiva komunikado kiam mesaĝo estas alportita kiel ilo por atingi volan celon. Pro la
