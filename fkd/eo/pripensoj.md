@@ -2,7 +2,7 @@ Pripensoj
 =========
 
 <div class="center">Esperanto ■ [English](/en/reflections/)</div>
-<div class="center">Laste ĝisdatigita: la 12-an de Decembro 2022</div>
+<div class="center">Laste ĝisdatigita: la 13-an de Decembro 2022</div>
 
 Ĉi tiu paĝo enhavas kelke da miaj propraj pripensoj. La enskriboj estas
 ordigitaj laŭ kronologiordo.
@@ -456,3 +456,18 @@ ordigitaj laŭ kronologiordo.
 - Por ke oni povu havi tutan kaj absolutan libervolon, oni devas esti kapabla
   por regi kaj rekte influi la libervolon de aliulojn, laŭplaĉe. Tamen, aliuloj
   ankaŭ povas havi samajn pensojn.<br>
+
+
+- En kapitalismo, la bonaj ludantoj estas premiitaj. En socialismo kaj
+  komunismo, ne gravas tiom bona oni estas.<br>
+
+
+- Neniam ekzistos vere neŭtrala loko en kiu iu ajn povas diri absolute ion ajn.
+  Tio kiu povas esti aĉa al iu ulo povas esti bona al alia ulo. Por ke estu
+  moderiĝado, devas esti reguloj kiuj eble povas favori unu iun
+  flankon pli ol la alia.<br>
+
+
+- Kelkaj homoj ŝatas ludi korbopilkon dum kelkaj homoj ŝatas ludi volejbalon.
+  Kaj tio estas bona. Tamen aperas problemoj kiam ĉiuj ludantoj ŝatas ludi en
+  sama spaco samtempe.<br>
