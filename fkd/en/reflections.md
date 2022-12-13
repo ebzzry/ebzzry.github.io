@@ -2,7 +2,7 @@ Reflections
 ===========
 
 <div class="center">[Esperanto](/eo/pripensoj/) ■ English</div>
-<div class="center">Last updated: December 12, 2022</div>
+<div class="center">Last updated: December 13, 2022</div>
 
 This page contains contains some of my personal reflections. Entries are sorted
 in chronological order.
@@ -464,3 +464,18 @@ in chronological order.
 - In order for you to have complete and absolute free will you must be able to
   control and directly influence another one's, as you desire. However, others
   may also have the same thoughts.<br>
+
+
+- In capitalism, the good players are rewarded. In socialism and communism, it
+  doesn’t matter how good you are.<br>
+
+
+- There will exist a truly neutral place wherein anybody can say absolutely
+  anything. What’s bad for one can be good for another. In order to have
+  moderation, there must be rules which can possibly favor one side over the
+  other.<br>
+
+
+- Some people like to play basketball while some people like to play volleyball.
+  And that is fine. However, problems appear when all players want to play in
+  the same place at the same time.<br>
