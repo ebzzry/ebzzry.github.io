@@ -2,7 +2,7 @@ Reflections
 ===========
 
 <div class="center">[Esperanto](/eo/pripensoj/) ■ English</div>
-<div class="center">Last updated: December 13, 2022</div>
+<div class="center">Last updated: December 20, 2022</div>
 
 This page contains contains some of my personal reflections. Entries are sorted
 in chronological order.
@@ -479,3 +479,8 @@ in chronological order.
 - Some people like to play basketball while some people like to play volleyball.
   And that is fine. However, problems appear when all players want to play in
   the same place at the same time.<br>
+
+
+- My greatest fear was seeing myself in the mirror. I always feared, that
+  whatever is going be seen is not going to be pleasant. Well, I was right.
+  There was indeed a horrifying image. But, not anymore effective today.<br>
