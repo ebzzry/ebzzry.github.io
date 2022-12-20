@@ -2,7 +2,7 @@ Pripensoj
 =========
 
 <div class="center">Esperanto ■ [English](/en/reflections/)</div>
-<div class="center">Laste ĝisdatigita: la 13-an de Decembro 2022</div>
+<div class="center">Laste ĝisdatigita: la 20-an de Decembro 2022</div>
 
 Ĉi tiu paĝo enhavas kelke da miaj propraj pripensoj. La enskriboj estas
 ordigitaj laŭ kronologiordo.
@@ -471,3 +471,8 @@ ordigitaj laŭ kronologiordo.
 - Kelkaj homoj ŝatas ludi korbopilkon dum kelkaj homoj ŝatas ludi volejbalon.
   Kaj tio estas bona. Tamen aperas problemoj kiam ĉiuj ludantoj ŝatas ludi en
   sama spaco samtempe.<br>
+
+
+- Mia plej granda timo estis vidi min mem en la spegulo. Mi ĉiam timiĝis, ke tio
+  kion mi povas vidi ne plaĉos al mi. Nu, mi pravas–estis terura bildo. Sed, ne
+  plu ekde hodiaŭ.<br>
