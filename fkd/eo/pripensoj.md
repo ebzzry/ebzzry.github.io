@@ -2,7 +2,7 @@ Pripensoj
 =========
 
 <div class="center">Esperanto ■ [English](/en/reflections/)</div>
-<div class="center">Laste ĝisdatigita: la 20-an de Decembro 2022</div>
+<div class="center">Laste ĝisdatigita: la 26-an de Decembro 2022</div>
 
 Ĉi tiu paĝo enhavas kelke da miaj propraj pripensoj. La enskriboj estas
 ordigitaj laŭ kronologiordo.
@@ -476,3 +476,8 @@ ordigitaj laŭ kronologiordo.
 - Mia plej granda timo estis vidi min mem en la spegulo. Mi ĉiam timiĝis, ke tio
   kion mi povas vidi ne plaĉos al mi. Nu, mi pravas–estis terura bildo. Sed, ne
   plu ekde hodiaŭ.<br>
+
+
+- Ĉu aviadiloj povas flugi tiel rapide se ili flugis kiel birdoj? Ĉu la homaro
+  devas imiti ĝin? Ĉu la homaro atendis la birdan flugilan teĥnologion antaŭ ol
+  ĝi decidis flugigi homojn?<br>
