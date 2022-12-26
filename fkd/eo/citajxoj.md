@@ -277,7 +277,7 @@ tra la jaroj.
 - Estas pli bone esti sola anstataŭ kune kun iu, kiu igas onin senti, ke oni solas.<br>—Ivan JUNIUS
 
 
-- La povo por ion atingi dependegas per kiom oni kredas oni povas atingi ĝin.<br>—anonimulo
+- La povo por atingi ion dependegas al kiom oni kredas oni povas atingi ĝin.<br>—anonimulo
 
 
 - La popoloj kiuj riskiĝas, estas ofte tiuj, kiuj finiĝas esti la plej feliĉaj.<br>—anonimulo
