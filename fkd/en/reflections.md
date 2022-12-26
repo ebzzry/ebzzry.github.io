@@ -2,7 +2,7 @@ Reflections
 ===========
 
 <div class="center">[Esperanto](/eo/pripensoj/) ■ English</div>
-<div class="center">Last updated: December 20, 2022</div>
+<div class="center">Last updated: December 26, 2022</div>
 
 This page contains contains some of my personal reflections. Entries are sorted
 in chronological order.
@@ -484,3 +484,8 @@ in chronological order.
 - My greatest fear was seeing myself in the mirror. I always feared, that
   whatever is going be seen is not going to be pleasant. Well, I was right.
   There was indeed a horrifying image. But, not anymore effective today.<br>
+
+
+- Would airplanes fly that fast if they flew like birds? Does humanity need to
+  imitate it? Did humanity wait for the bird wing technology before deciding to
+  fly humans?<br>
