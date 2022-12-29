@@ -2,7 +2,7 @@ About
 =====
 
 <div class="center">[Esperanto](/eo/pri/) ■ English</div>
-<div class="center">Last updated: November 23, 2022</div>
+<div class="center">Last updated: December 30, 2022</div>
 
 <div>
 <img src="/bil/ebzzry.webp" style="float: right; width: 50%; margin: 0px 0px 0px 10px">
@@ -17,7 +17,7 @@ and golf.
 He currently lives with his wife and son in the warm country of the Philippines.
 </div>
 <div class="center">
-[GitHub](https://github.com/ebzzry) ■ [LinkedIn](https://linkedin.com/in/ebzzry) ■ [Twitter](https://twitter.com/ebzzry)<br>
-[Email](mailto:rommel.martinez@astn-group.com) ■ [Telegram](https://t.me/ebzzry) ■ [GPG](/dat/rommel.martinez@astn-group.com.pub.asc)<br>
+[GitHub](https://github.com/ebzzry) ■ [LinkedIn](https://linkedin.com/in/ebzzry) ■ [Mastodon](https://esperanto.masto.host/@ebzzry)<br>
+[Email](mailto:rommel.martinez@astn-group.com) ■ [GPG](/dat/rommel.martinez@astn-group.com.pub.asc)<br>
 GPG Fingerprint: `AEC6 0EAF 146E 0F1D 6704  697B 5405 D0D2 708E 7B30`
 </div>
