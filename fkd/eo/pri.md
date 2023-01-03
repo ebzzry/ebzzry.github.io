@@ -2,22 +2,24 @@ Pri
 ===
 
 <div class="center">Esperanto ■ [English](/en/about/)</div>
-<div class="center">Laste ĝisdatigita: la 30-an de Decembro 2022</div>
+<div class="center">Laste ĝisdatigita: la 3-an de Januaro 2022</div>
 
 <div>
 <img src="/bil/ebzzry.webp" style="float: right; width: 50%; margin: 0px 0px 0px 10px">
 
-Rommel MARTINEZ estas inventisto kaj artefarita intelekta esploristo kiu interesiĝas pri la konscio,
-la menso, kaj la realeco. Li nune esploras kiel modernajn komputilojn oni povas uzi por atingi la
-malalte pendantajn fruktojn de AI. Li gvidas la AI-esploradon kaj -evoluadon ĉe [ASTN Group](https://astn-group.com).
+Rommel MARTINEZ estas inventisto kaj artefarita intelekta esploristo kiu
+interesiĝas pri la konscio, la menso, kaj la realeco. Li nune esploras kiel
+modernajn komputilojn oni povas uzi por atingi la malalte pendantajn fruktojn de
+AI. Li gvidas la AI-esploradon kaj -evoluadon ĉe
+[ASTN Group](https://astn-group.com).
 
-Krome, fiziktrejnado kaj sportoj tre interesas al li, precipe per globhalteroj, kalistenoj, kaj
-golfo.
+Krome, fiziktrejnado kaj sportoj tre interesas al li, precipe per globhalteroj,
+kalistenoj, kaj golfo.
 
 Li nune loĝas kun sia edzino kaj filo en la varma lando de Filipinoj.
 </div>
 <div class="center">
-[GitHub](https://github.com/ebzzry) ■ [LinkedIn](https://linkedin.com/in/ebzzry) ■ [Mastodon](https://esperanto.masto.host/@ebzzry)<br>
+[GitHub](https://github.com/ebzzry) ■ [LinkedIn](https://linkedin.com/in/ebzzry) <br>
 [Retpoŝto](mailto:rommel.martinez@astn-group.com) ■ [GPG](/dat/rommel.martinez@astn-group.com.pub.asc)<br>
 GPG-fingrospuro: `AEC6 0EAF 146E 0F1D 6704  697B 5405 D0D2 708E 7B30`
 </div>

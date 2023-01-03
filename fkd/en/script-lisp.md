@@ -420,7 +420,7 @@ CL, and each implementation strives to achieve goals that may not necessarily be
 other implementations. That’s OK, because it gives room for implementors and designers, on how to
 work on the base specifications. As long as they conform to the standard, things are green.
 
-[baf](https://github.com/ebzzry/baf), a Nixpkgs and NixOS helper, is a working example of CL
+[barf](https://github.com/ebzzry/barf), a Nixpkgs and NixOS helper, is a working example of CL
 scripting. [pelo](https://github.com/zhaqenl/pelo/), a ping wrapper, is also another example that
 uses this facility. I wrote several personal helper
 [scripts](https://github.com/ebzzry/scripts/), that I hooked with my StumpWM
