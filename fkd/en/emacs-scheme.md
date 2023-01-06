@@ -1,7 +1,7 @@
 Setting up Scheme Development in Emacs
 ======================================
 
-<div class="center">[Esperanto](/eo/emakso-skimo/) ■ English</div>
+<div class="center">[Esperanto](/eo/emakso-skimo/) ◆ English</div>
 <div class="center">Last updated: March 16, 2022</div>
 
 >All the good ideas never lie under one hat.<br>

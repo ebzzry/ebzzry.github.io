@@ -1,7 +1,7 @@
 Zsh Tips 1: Aliases and Functions
 =================================
 
-<div class="center">[Esperanto](/eo/zisxkonsiletoj-1-a/) ■ English</div>
+<div class="center">[Esperanto](/eo/zisxkonsiletoj-1-a/) ◆ English</div>
 <div class="center">Last updated: March 18, 2022</div>
 
 >A common man marvels at uncommon things; a wise man marvels at the commonplace.<br>

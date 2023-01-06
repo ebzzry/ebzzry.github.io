@@ -1,7 +1,7 @@
 Setting up Mail in Emacs
 ========================
 
-<div class="center">[Esperanto](/eo/emakso-retposxto/) ■ English</div>
+<div class="center">[Esperanto](/eo/emakso-retposxto/) ◆ English</div>
 <div class="center">Last updated: March 17, 2022</div>
 
 >Just because it isn’t done doesn’t mean it can’t be done. Just because it can be done doesn’t mean
