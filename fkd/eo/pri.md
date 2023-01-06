@@ -18,7 +18,7 @@ kalistenoj, kaj golfo.
 
 Li nune loĝas kun sia edzino kaj filo en la varma lando de Filipinoj.
 
-Mia GPG-fingrosupro estas `AEC6 0EAF 146E 0F1D 6704 697B 5405 D0D2 708E 7B30`.
+Mia GPG-fingrosupro estas AEC6 0EAF 146E 0F1D 6704 697B 5405 D0D2 708E 7B30.
 </div>
 <div class="center">
 [Retpoŝto](mailto:rommel.martinez@astn-group.com) ◆ [GPG](/dat/rommel.martinez@astn-group.com.pub.asc)<br>
