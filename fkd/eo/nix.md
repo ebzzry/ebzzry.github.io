@@ -1,7 +1,7 @@
 Milda Enkonduko al la Nix-Familio
 =================================
 
-<div class="center">Esperanto ■ [English](/en/nix/)</div>
+<div class="center">Esperanto ◆ [English](/en/nix/)</div>
 <div class="center">Laste ĝisdatigita: la 28-an de Marto 2022</div>
 
 >Ne maltrankviliĝu pri tio, kion la aliaj faros. La plej bona maniero por antaŭdiri la estontecon estas por eltrovi ĝin.<br>―Alan KAY

@@ -1,7 +1,7 @@
 Sinkronigi Retnodojn per Usync
 ==============================
 
-<div class="center">Esperanto ■ [English](/en/usync/)</div>
+<div class="center">Esperanto ◆ [English](/en/usync/)</div>
 <div class="center">Laste ĝisdatigita: la 16-an de Marto 2022</div>
 
 >Kion mi ne povas krei, mi ne komprenas.<br>
