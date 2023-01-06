@@ -1,7 +1,7 @@
 My Markdown Style Guide
 =======================
 
-<div class="center">[Esperanto](/eo/markdauxno/) ■ English</div>
+<div class="center">[Esperanto](/eo/markdauxno/) ◆ English</div>
 <div class="center">Last updated: March 18, 2022</div>
 
 >The laws that govern circumstances are abolished by new circumstances.<br>
