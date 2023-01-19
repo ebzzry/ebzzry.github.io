@@ -968,3 +968,6 @@ tra la jaroj.
 
 
 - Oni ne povas nomi sin pacema krom se oni estas kapabla por granda perforto. Se oni ne estas kapabla por granda perforto, oni ne estas pacema, oni estas nenoca.<br>—Stef STARKGARYEN
+
+
+- Estas pli bone havi pafilon kaj ne bezoni ĝin ol bezoni pafilon kaj ne havi ĝin.<br>—Clarence WORLEY, True Romance (1993)

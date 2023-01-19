@@ -2,7 +2,7 @@ Quotes
 ======
 
 <div class="center">[Esperanto](/eo/citajxoj/) ◆ English</div>
-<div class="center">Last updated: November 28, 2022</div>
+<div class="center">Last updated: January 19, 2023</div>
 
 <img src="/bil/wallhaven-77816-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -982,3 +982,6 @@ the years.
 
 
 - You can’t truly call yourself peaceful unless you are capable of great violence. If you’re not capable of violence, you’re not peaceful, you’re harmless.<br>—Stef Starkgaryen
+
+
+- It′s better to have a gun and not need it than to need a gun and not have it.<br>—Clarence Worley, True Romance (1993)
