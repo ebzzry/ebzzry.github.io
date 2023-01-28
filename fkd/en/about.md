@@ -7,7 +7,7 @@ About
 <div>
 <img src="/bil/ebzzry.webp" style="float: right; width: 50%; margin: 0px 0px 0px 10px">
 
-Rommel Martinez is an artificial intelligence researcher who is interested with
+Rommel Martínez is an artificial intelligence researcher who is interested with
 consciousness, the mind, and reality. He is currently exploring how we can use
 modern computers to reach the low hanging fruits of AI. He is spearheading the
 AI research and development at

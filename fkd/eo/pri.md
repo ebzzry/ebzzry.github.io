@@ -7,7 +7,7 @@ Pri
 <div>
 <img src="/bil/ebzzry.webp" style="float: right; width: 50%; margin: 0px 0px 0px 10px">
 
-Rommel MARTINEZ estas artefarita intelekta esploristo kiu interesiĝas pri la
+Rommel MARTÍNEZ estas artefarita intelekta esploristo kiu interesiĝas pri la
 konscio, la menso, kaj la realeco. Li nune esploras kiel modernajn komputilojn
 oni povas uzi por atingi la malalte pendantajn fruktojn de AI. Li gvidas la
 AI-esploradon kaj -evoluadon ĉe
