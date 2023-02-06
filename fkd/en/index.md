@@ -1,7 +1,7 @@
 Musings of an Optimist
 ======================
 
-<div class="center">[Esperanto](/eo/) ◆ English</div>
+<div class="center">[Esperanto](/eo/) ■ English</div>
 <div class="center">Last updated: March 17, 2022</div>
 
 <img src="/bil/pluvis-1008x250.webp" class="banner" alt="pluvis" title="On the face of the cosmos, we all are children forever." />
