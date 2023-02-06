@@ -1,7 +1,7 @@
 Over, Under, and Elsewhere
 ==========================
 
-<div class="center">[Esperanto](/eo/super-sube/) ◆ English</div>
+<div class="center">[Esperanto](/eo/super-sube/) ■ English</div>
 <div class="center">Last updated: March 16, 2022</div>
 
 >The only limits you have are the limits you believe.<br>

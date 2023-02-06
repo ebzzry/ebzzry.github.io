@@ -1,7 +1,7 @@
 Quotes
 ======
 
-<div class="center">[Esperanto](/eo/citajxoj/) ◆ English</div>
+<div class="center">[Esperanto](/eo/citajxoj/) ■ English</div>
 <div class="center">Last updated: January 19, 2023</div>
 
 <img src="/bil/wallhaven-77816-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
