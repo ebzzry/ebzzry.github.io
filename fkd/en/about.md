@@ -21,5 +21,5 @@ He currently lives with his wife and son in the warm country of the Philippines.
 My GPG fingerprint is AEC6 0EAF 146E 0F1D 6704 697B 5405 D0D2 708E 7B30.
 </div>
 <div class="center">
-[Email](mailto:rommel.martinez@astn-group.com) ■ [Publika ŝlosilo](/dat/rommel.martinez@astn-group.com.pub.asc) ■ [LinkedIn](https://www.linkedin.com/feed/)<br>
+[Email](mailto:rommel.martinez@astn-group.com) ■ [Publika ŝlosilo](/dat/rommel.martinez@astn-group.com.pub.asc) ■ [LinkedIn](https://www.linkedin.com/feed/) ■ [Twitter](https://twitter.com/ebzzry)<br>
 </div>
