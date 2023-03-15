@@ -424,8 +424,7 @@ work on the base specifications. As long as they conform to the standard, things
 scripting. [pelo](https://github.com/zhaqenl/pelo/), a ping wrapper, is also another example that
 uses this facility. I wrote several personal helper
 [scripts](https://github.com/ebzzry/scripts/), that I hooked with my StumpWM
-[config](https://github.com/ebzzry/dotfiles/tree/master/stumpwm). The code used for this article can be found
-[here](https://github.com/ebzzry/my-scripts).
+[config](https://github.com/ebzzry/dotfiles/tree/master/stumpwm).
 
 The human responsible for making scripting in CL possible and acceptable, is
 [François-René Rideau](http://fare.tunes.org). It was 
