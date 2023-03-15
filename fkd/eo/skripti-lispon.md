@@ -422,8 +422,7 @@ aferoj verdas.
 [baf](https://github.com/ebzzry/baf), Nixpkgs- kaj NixOS-helpilo, estas funkcia ekzemplo de komunlispa
 skriptado. [pelo](https://github.com/zhaqenl/pelo/), ping-kovrilo, estas alia ekzemplo, kiu ĉi
 tiun facilon uzas. Kelkajn personajn helpilajn [skriptojn](https://github.com/ebzzry/scripts/) kiujn
-mi kroĉis al mia [StumpWM-agordo](https://github.com/ebzzry/dotfiles/tree/master/stumpwm) mi skribis. La kodo kiu estis
-uzita por ĉi tiu artikolo troveblas [ĉi tie](https://github.com/ebzzry/my-scripts).
+mi kroĉis al mia [StumpWM-agordo](https://github.com/ebzzry/dotfiles/tree/master/stumpwm) mi skribis. 
 
 La priresponda homo por komunlispon igi ebla kaj akceptebla estas
 [François-René RIDEAU](http://fare.tunes.org). Estis
