@@ -2,7 +2,7 @@ Citaĵoj
 =======
 
 <div class="center">Esperanto ■ [English](/en/quotes/)</div>
-<div class="center">Laste ĝisdatigita: la 28-an de Novembro 2022</div>
+<div class="center">Laste ĝisdatigita: la 17-an de Marto 2022</div>
 
 <img src="/bil/wallhaven-77816-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -971,3 +971,6 @@ tra la jaroj.
 
 
 - Estas pli bone havi pafilon kaj ne bezoni ĝin ol bezoni pafilon kaj ne havi ĝin.<br>—Clarence WORLEY, True Romance (1993)
+
+
+- Ilia avantaĝo sur vi estas sperto. Via avantaĝo sur ili estas tekniko.<br>—Kenneth AGAYA

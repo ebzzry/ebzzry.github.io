@@ -2,7 +2,7 @@ Quotes
 ======
 
 <div class="center">[Esperanto](/eo/citajxoj/) ■ English</div>
-<div class="center">Last updated: January 19, 2023</div>
+<div class="center">Last updated: March 17, 2023</div>
 
 <img src="/bil/wallhaven-77816-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -985,3 +985,6 @@ the years.
 
 
 - It′s better to have a gun and not need it than to need a gun and not have it.<br>—Clarence Worley, True Romance (1993)
+
+
+- Their advantage over you is experience. Your advantage over them is technique.<br>—Kenneth Agaya
