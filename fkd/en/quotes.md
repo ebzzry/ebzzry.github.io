@@ -2,7 +2,7 @@ Quotes
 ======
 
 <div class="center">[Esperanto](/eo/citajxoj/) ■ English</div>
-<div class="center">Last updated: March 17, 2023</div>
+<div class="center">Last updated: April 4, 2023</div>
 
 <img src="/bil/wallhaven-77816-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -712,9 +712,6 @@ the years.
 - Clarity of thought precedes clarity of language.<br>—Ali Rowghani
 
 
-- If you want peace, prepare for war.<br>—Latin proverb
-
-
 - We thrive by the collective activity of people supplying their individual talents.<br>—Robert
   Greene
 
@@ -988,3 +985,6 @@ the years.
 
 
 - Their advantage over you is experience. Your advantage over them is technique.<br>—Kenneth Agaya
+
+
+- If you want peace, prepare for war.<br>—Latin proverb
