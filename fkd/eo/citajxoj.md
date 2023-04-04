@@ -2,7 +2,7 @@ Citaĵoj
 =======
 
 <div class="center">Esperanto ■ [English](/en/quotes/)</div>
-<div class="center">Laste ĝisdatigita: la 17-an de Marto 2022</div>
+<div class="center">Laste ĝisdatigita: la 4-an de Aprilo 2022</div>
 
 <img src="/bil/wallhaven-77816-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -704,9 +704,6 @@ tra la jaroj.
 - Klareco de penso antaŭvenas venas antaŭ klareco de lingvo.<br>—Ali ROWGHANI
 
 
-- Se pacon oni deziras, pretiĝu por milito.<br>—latina proverbo
-
-
 - Ni prosperas per la opa agado de homoj kiuj siajn unuopajn naturdotojn provizas.<br>—Robert GREENE
 
 
@@ -974,3 +971,6 @@ tra la jaroj.
 
 
 - Ilia avantaĝo sur vi estas sperto. Via avantaĝo sur ili estas tekniko.<br>—Kenneth AGAYA
+
+
+- Se oni deziras pacon, prepariĝi por milito.<br>—latina proverbo
