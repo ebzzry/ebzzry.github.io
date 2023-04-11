@@ -2,7 +2,7 @@ Reflections
 ===========
 
 <div class="center">[Esperanto](/eo/pripensoj/) ■ English</div>
-<div class="center">Last updated: December 26, 2022</div>
+<div class="center">Last updated: April 11, 2023</div>
 
 This page contains contains some of my personal reflections. Entries are sorted
 in chronological order.
@@ -489,3 +489,8 @@ in chronological order.
 - Would airplanes fly that fast if they flew like birds? Does humanity need to
   imitate it? Did humanity wait for the bird wing technology before deciding to
   fly humans?<br>
+
+
+- When Lady Fortune showers Earth with blessings, she does it at random times.
+  Most people would pick specific times to have a chance of receiving such good
+  fortune. Successful people, however, show up all the time.<br>
