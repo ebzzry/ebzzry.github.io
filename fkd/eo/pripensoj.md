@@ -2,7 +2,7 @@ Pripensoj
 =========
 
 <div class="center">Esperanto ■ [English](/en/reflections/)</div>
-<div class="center">Laste ĝisdatigita: la 26-an de Decembro 2022</div>
+<div class="center">Laste ĝisdatigita: la 11-an de Aprilo 2023</div>
 
 Ĉi tiu paĝo enhavas kelke da miaj propraj pripensoj. La enskriboj estas
 ordigitaj laŭ kronologiordo.
@@ -481,3 +481,8 @@ ordigitaj laŭ kronologiordo.
 - Ĉu aviadiloj povas flugi tiel rapide se ili flugis kiel birdoj? Ĉu la homaro
   devas imiti ĝin? Ĉu la homaro atendis la birdan flugilan teĥnologion antaŭ ol
   ĝi decidis flugigi homojn?<br>
+
+
+- Kiam sinjorino Fatalo duŝas la teron per benoj, ŝi faras tion hazarde.
+  Plejparto da homoj elektas specifajn horojn por havi ŝancon ricevi tiajn
+  benojn. Tamen, sukcesaj homoj estas ĉiam tie atendante.<br>
