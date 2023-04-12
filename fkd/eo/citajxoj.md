@@ -974,3 +974,6 @@ tra la jaroj.
 
 
 - Se oni deziras pacon, prepariĝi por milito.<br>—latina proverbo
+
+
+- Ŝtono en pekaj manoj mortigis Abel. Ŝtono en justaj manoj mortigis Goliath.<br>—John RICH
