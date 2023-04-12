@@ -988,3 +988,6 @@ the years.
 
 
 - If you want peace, prepare for war.<br>—Latin proverb
+
+
+- A stone in evil hands killed Abel. A stone in righteous hands killed Goliath.<br>—John Rich
