@@ -486,3 +486,6 @@ ordigitaj laŭ kronologiordo.
 - Kiam sinjorino Fatalo duŝas la teron per benoj, ŝi faras tion hazarde.
   Plejparto da homoj elektas specifajn horojn por havi ŝancon ricevi tiajn
   benojn. Tamen, sukcesaj homoj estas ĉiam tie atendante.<br>
+
+
+- Estas pli bone havi fajroestingilon kaj ne bezoni ĝin anstataŭ bezoni fajroestingilon kaj ne havi ĝin.<br>
