@@ -494,3 +494,6 @@ in chronological order.
 - When Lady Fortune showers Earth with blessings, she does it at random times.
   Most people would pick specific times to have a chance of receiving such good
   fortune. Successful people, however, show up all the time.<br>
+
+
+- It′s better to have a fire extinguisher and not need it than to need a fire extinguisher and not have it.<br>
