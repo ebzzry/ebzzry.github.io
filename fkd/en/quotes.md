@@ -2,7 +2,7 @@ Quotes
 ======
 
 <div class="center">[Esperanto](/eo/citajxoj/) ■ English</div>
-<div class="center">Last updated: April 17, 2023</div>
+<div class="center">Last updated: April 21, 2023</div>
 
 <img src="/bil/wallhaven-77816-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -994,3 +994,6 @@ the years.
 
 
 - AI should be built by humanity, for humanity. And let’s not forget that. It shouldn't be by Moloch, for Moloch.<br>—Max Tegmark
+
+
+- A man can never have too much red wine, too many books, or too much ammunition.<br>—Rudyard Kipling
