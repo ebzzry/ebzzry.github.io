@@ -1,51 +1,18 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   width="563"
-   height="563"
-   viewBox="0 0 148.96041 148.96042"
-   version="1.1"
-   id="svg14509"
-   xml:space="preserve"
-   sodipodi:docname="identicon.svg"
-   inkscape:version="1.2 (dc2aeda, 2022-05-15)"
-   inkscape:export-filename="identicon-verda.png"
-   inkscape:export-xdpi="99.9559"
-   inkscape:export-ydpi="99.9559"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
-     id="namedview14511"
-     pagecolor="#505050"
-     bordercolor="#eeeeee"
-     borderopacity="1"
-     inkscape:showpageshadow="0"
-     inkscape:pageopacity="0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#505050"
-     inkscape:document-units="mm"
-     showgrid="false"
-     inkscape:zoom="0.6437275"
-     inkscape:cx="410.11142"
-     inkscape:cy="374.38202"
-     inkscape:window-width="1680"
-     inkscape:window-height="997"
-     inkscape:window-x="0"
-     inkscape:window-y="25"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="layer1" /><defs
-     id="defs14506" /><g
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
-     id="layer1"><rect
-       style="fill:#ffffff;fill-opacity:1;stroke-width:0.132292"
-       id="rect17727"
-       width="148.96042"
-       height="148.96042"
-       x="0"
-       y="0" /><path
-       style="fill:#009900;stroke-width:0.352778;fill-opacity:1"
-       d="M 37.262148,99.351041 V 62.309374 H 24.914925 12.567703 V 37.43854 12.567706 H 25.091314 37.614925 V 24.914929 37.262151 H 49.785759 61.956593 V 24.914929 12.567706 h 12.52361 12.52361 v 12.347223 12.347222 h 12.17084 12.170827 V 24.914929 12.567706 h 12.52361 12.52362 V 37.43854 62.309374 H 124.04548 111.69826 V 99.351041 136.39271 H 99.174653 86.651033 V 124.04548 111.69826 H 74.480203 62.30937 v 12.34722 12.34723 H 49.785759 37.262148 Z M 86.651033,49.785763 V 37.614929 H 74.480203 62.30937 v 12.170834 12.170833 h 12.170833 12.17083 z"
-       id="path15054" /></g></svg>
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+ "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="512.000000pt" height="512.000000pt" viewBox="0 0 512.000000 512.000000"
+ preserveAspectRatio="xMidYMid meet">
+<metadata>
+Created by potrace 1.11, written by Peter Selinger 2001-2013
+</metadata>
+<g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
+fill="#000000" stroke="none">
+<path d="M0 4090 l0 -1030 510 0 510 0 0 -1530 0 -1530 520 0 520 0 0 510 0
+510 500 0 500 0 0 -510 0 -510 520 0 520 0 0 1530 0 1530 510 0 510 0 0 1030
+0 1030 -520 0 -520 0 0 -510 0 -510 -500 0 -500 0 0 510 0 510 -520 0 -520 0
+0 -510 0 -510 -500 0 -500 0 0 510 0 510 -520 0 -520 0 0 -1030z m3060 -510
+l0 -500 -500 0 -500 0 0 500 0 500 500 0 500 0 0 -500z"/>
+</g>
+</svg>
