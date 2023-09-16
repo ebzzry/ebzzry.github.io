@@ -2,7 +2,7 @@ Quotes
 ======
 
 <div class="center">[Esperanto](/eo/citajxoj/) ■ English</div>
-<div class="center">Last updated: May 21, 2023</div>
+<div class="center">Last updated: September 16, 2023</div>
 
 <img src="/bil/wallhaven-77816-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -1000,3 +1000,9 @@ the years.
 
 
 - Just as a well-filled day brings blessed sleep, so a well-employed life brings a blessed death.<br>—Robert Greene, Mastery
+
+
+- An infinite number of ways to arrive at the inevitable.<br>—Hari Seldon, Foundation (TV series)
+
+
+- The second you forget you’re playing a part, you’re lost.<br>—Hari Seldon, Foundation (TV series)
