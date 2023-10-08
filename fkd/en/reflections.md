@@ -376,7 +376,7 @@ in chronological order.
   air.<br>
 
 
-- If you are afraid of making mistakes, you’ll make more mistakes.<br>
+- If you are afraid of making mistakes, you’ll make more.<br>
 
 
 - When in doubt, doubt.<br>
