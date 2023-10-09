@@ -2,7 +2,7 @@ Quotes
 ======
 
 <div class="center">[Esperanto](/eo/citajxoj/) ■ English</div>
-<div class="center">Last updated: September 16, 2023</div>
+<div class="center">Last updated: October 9, 2023</div>
 
 <img src="/bil/wallhaven-77816-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -1006,3 +1006,9 @@ the years.
 
 
 - The second you forget you’re playing a part, you’re lost.<br>—Hari Seldon, Foundation (TV series)
+
+
+- Every scientist should be delighted if they are shown to be wrong. Because the moment you are shown to be wrong, it means you’ve learned something, and that’s the way that knowledge progresses.<br>—Brian Cox
+
+
+- Impatience for victory guarantees defeat.<br>—Louis XIV
