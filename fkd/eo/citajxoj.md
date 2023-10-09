@@ -2,7 +2,7 @@ Citaĵoj
 =======
 
 <div class="center">Esperanto ■ [English](/en/quotes/)</div>
-<div class="center">Laste ĝisdatigita: la 16-an de Septembro 2023</div>
+<div class="center">Laste ĝisdatigita: la 9-an de Oktobro 2023</div>
 
 <img src="/bil/wallhaven-77816-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -992,3 +992,9 @@ tra la jaroj.
 
 
 - En la sekundo kiam vi forgesas, ke vi ludas rolon, vi malvenkas.<br>—Hari SELDON, Foundation (televida serio)
+
+
+- Ĉiu sciencisto devas esti feliĉa kiam estas pruvita, ke li estas malprava. En la momento, ke oni estas pruvite malprava, tio signifas, ke oni oni lernis ion, kaj tio estas nur la maniero, ke tiu scio progresas.<br>—Brian Cox
+
+
+- Malpacienco por venko garantias malvenkon.<br>—Louis XIV
