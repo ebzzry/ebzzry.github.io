@@ -2,7 +2,7 @@ Quotes
 ======
 
 <div class="center">[Esperanto](/eo/citajxoj/) ■ English</div>
-<div class="center">Last updated: October 9, 2023</div>
+<div class="center">Last updated: November 20, 2023</div>
 
 <img src="/bil/wallhaven-77816-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -1012,3 +1012,6 @@ the years.
 
 
 - Impatience for victory guarantees defeat.<br>—Louis XIV
+
+
+- Passion is that flame in your belly, that no one else can light, but you. And what that flame is lit, it starts traveling from person, to person, to person, ’til you light the world all around you.<br>—Dawn Zoldi
