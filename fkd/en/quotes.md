@@ -1014,4 +1014,4 @@ the years.
 - Impatience for victory guarantees defeat.<br>—Louis XIV
 
 
-- Passion is that flame in your belly, that no one else can light, but you. And what that flame is lit, it starts traveling from person, to person, to person, ’til you light the world all around you.<br>—Dawn Zoldi
+- Passion is that flame in your belly, that no one else can light, but you. And when that flame is lit, it starts traveling from person, to person, to person, ’til you light the world all around you.<br>—Dawn Zoldi
