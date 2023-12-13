@@ -2,7 +2,7 @@ Citaĵoj
 =======
 
 <div class="center">Esperanto ■ [English](/en/quotes/)</div>
-<div class="center">Laste ĝisdatigita: la 20-an de Novembro 2023</div>
+<div class="center">Laste ĝisdatigita: la 13-an de Decembro 2023</div>
 
 <img src="/bil/wallhaven-77816-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -1001,3 +1001,9 @@ tra la jaroj.
 
 
 - La ardo estas la flamo en via ventro, kiun neniu povas ekbruligi escepte vi. Kaj tiam tiu flamo ekbruliĝis, ĝi ekvojaĝas de hom, al homo, al homo, ĝis vi ekbruligas la mondon ĉirkaŭ vi.<br>—Dawn Zoldi
+
+
+- Estas la senokupaj horoj kiuj ofte kondukas homon al ĝia pereo<br>La Mortigisto, The Killer (2023)
+
+
+- Krueleco de unu homo estas pragmatismo de alia homo.<br>La Ekspertisto, The Killer (2003)
