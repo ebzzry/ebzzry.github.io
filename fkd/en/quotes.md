@@ -2,7 +2,7 @@ Quotes
 ======
 
 <div class="center">[Esperanto](/eo/citajxoj/) ■ English</div>
-<div class="center">Last updated: November 20, 2023</div>
+<div class="center">Last updated: December 13, 2023</div>
 
 <img src="/bil/wallhaven-77816-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -1015,3 +1015,9 @@ the years.
 
 
 - Passion is that flame in your belly, that no one else can light, but you. And when that flame is lit, it starts traveling from person, to person, to person, ’til you light the world all around you.<br>—Dawn Zoldi
+
+
+- It’s the idle hours that often lead a man to ruin.<br>The Killer, The Killer (2023)
+
+
+- One man’s cruelty is another man’s pragmatism.<br>The Expert, The Killer (2023)
