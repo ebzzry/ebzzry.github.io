@@ -2,7 +2,7 @@ Pri
 ===
 
 <div class="center">Esperanto ■ [English](/en/about/)</div>
-<div class="center">Laste ĝisdatigita: la 6-an de Februaro 2022</div>
+<div class="center">Laste ĝisdatigita: la 18-an de Decembro 2023</div>
 
 <div>
 <img src="/bil/ebzzry.webp" style="float: right; width: 50%; margin: 0px 0px 0px 10px">
@@ -14,7 +14,7 @@ AI-esploradon kaj -evoluadon ĉe
 [ASTN Group, Inc.](https://astn-group.com).
 
 Krome, fiziktrejnado kaj sportoj tre interesas al li, precipe per globhalteroj,
-kalistenoj, kaj golfo.
+golfo, kaj praktika pafado.
 
 Li nune loĝas kun sia edzino kaj filo en la varma lando de Filipinoj.
 

@@ -1000,10 +1000,13 @@ tra la jaroj.
 - Malpacienco por venko garantias malvenkon.<br>—Louis XIV
 
 
-- La ardo estas la flamo en via ventro, kiun neniu povas ekbruligi escepte vi. Kaj tiam tiu flamo ekbruliĝis, ĝi ekvojaĝas de hom, al homo, al homo, ĝis vi ekbruligas la mondon ĉirkaŭ vi.<br>—Dawn Zoldi
+- La ardo estas la flamo en via ventro, kiun neniu povas ekbruligi escepte vi. Kaj tiam tiu flamo ekbruliĝis, ĝi ekvojaĝas de homo, al homo, al homo, ĝis vi ekbruligas la mondon ĉirkaŭ vi.<br>—Dawn Zoldi
 
 
-- Estas la senokupaj horoj kiuj ofte kondukas homon al ĝia pereo<br>La Mortigisto, The Killer (2023)
+- Estas la senokupaj horoj kiuj ofte kondukas homon al ĝia pereo<br>—La Mortigisto, The Killer (2023)
 
 
-- Krueleco de unu homo estas pragmatismo de alia homo.<br>La Ekspertisto, The Killer (2003)
+- Krueleco de unu homo estas pragmatismo de alia homo.<br>—La Ekspertisto, The Killer (2003)
+
+
+- La plej forta glavo estas mikso de ŝtalo. Mola kaj malmola. Pura kaj malpura.<br>—Mizu, Blue Eye Samurai (2023)

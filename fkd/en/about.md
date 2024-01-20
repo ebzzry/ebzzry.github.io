@@ -2,7 +2,7 @@ About
 =====
 
 <div class="center">[Esperanto](/eo/pri/) ■ English</div>
-<div class="center">Last updated: February 6, 2022</div>
+<div class="center">Last updated: December 18, 2023</div>
 
 <div>
 <img src="/bil/ebzzry.webp" style="float: right; width: 50%; margin: 0px 0px 0px 10px">
@@ -14,7 +14,7 @@ AI research and development at
 [ASTN Group, Inc.](https://astn-group.com).
 
 Additionally, he likes to do physical training and sports, mainly with
-kettlebells, calisthenics, and golf.
+kettlebells, golf, and practical shooting.
 
 He currently lives with his wife and son in the warm country of the Philippines.
 
