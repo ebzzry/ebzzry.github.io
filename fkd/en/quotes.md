@@ -1017,7 +1017,10 @@ the years.
 - Passion is that flame in your belly, that no one else can light, but you. And when that flame is lit, it starts traveling from person, to person, to person, ’til you light the world all around you.<br>—Dawn Zoldi
 
 
-- It’s the idle hours that often lead a man to ruin.<br>The Killer, The Killer (2023)
+- It’s the idle hours that often lead a man to ruin.<br>—The Killer, The Killer (2023)
 
 
-- One man’s cruelty is another man’s pragmatism.<br>The Expert, The Killer (2023)
+- One man’s cruelty is another man’s pragmatism.<br>—The Expert, The Killer (2023)
+
+
+- The strongest sword is a blend of steel. Soft and hard. Pure and impure.<br>—Mizu, Blue Eye Samurai (2023)
