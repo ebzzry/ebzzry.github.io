@@ -6,7 +6,7 @@ Esperanto Characters in Linux
 
 >If you want something you’ve never had, you must be willing to do something you’ve never
 >done.<br>
->―Thomas Jefferson
+>—Thomas Jefferson
 
 <img src="/bil/stefan-HbwYKfnVz0-unsplash-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="stefan-HbwYKfnVz0-unsplash" title="stefan-HbwYKfnVz0-unsplash"/>
 

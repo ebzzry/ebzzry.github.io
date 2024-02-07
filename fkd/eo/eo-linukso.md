@@ -6,7 +6,7 @@ Esperanto-signoj en Linukso
 
 >Se ion oni volas, kion oni neniam havis, oni devas esti servopreta tion fari, kion oni neniam
 >faris.<br>
->―Thomas JEFFERSON
+>—Thomas JEFFERSON
 
 <img src="/bil/stefan-HbwYKfnVz0-unsplash-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="stefan-HbwYKfnVz0-unsplash" title="stefan-HbwYKfnVz0-unsplash"/>
 

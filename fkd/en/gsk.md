@@ -6,7 +6,7 @@ Setting up GPG and SSH in KDE
 
 >It’s not at all important to get it right the first time. It’s vitally important to get it right
 >the last time.<br>
->―Andrew Hunt and David Thomas
+>—Andrew Hunt and David Thomas
 
 <img src="/bil/milad-fakurian-UYgrVfIhBec-unsplash-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="milad-fakurian-UYgrVfIhBec-unsplash" title="milad-fakurian-UYgrVfIhBec-unsplash"/>
 

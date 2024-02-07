@@ -6,7 +6,7 @@ Setting up Mail in Emacs
 
 >Just because it isn’t done doesn’t mean it can’t be done. Just because it can be done doesn’t mean
 >it should be.<br>
->―Barry Glasford
+>—Barry Glasford
 
 <img src="/bil/zak-7wBFsHWQDlk-unsplash-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="zak-7wBFsHWQDlk-unsplash" title="zak-7wBFsHWQDlk-unsplash"/>
 

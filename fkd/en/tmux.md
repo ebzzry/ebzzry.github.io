@@ -5,7 +5,7 @@ How I Roll with Tmux
 <div class="center">Last updated: March 18, 2022</div>
 
 >Furious activity is no substitute for understanding.<br>
->―H.H. Williams
+>—H.H. Williams
 
 <img src="/bil/lysander-yuen-wk833OrQLJE-unsplash-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="lysander-yuen-wk833OrQLJE-unsplash" title="lysander-yuen-wk833OrQLJE-unsplash"/>
 

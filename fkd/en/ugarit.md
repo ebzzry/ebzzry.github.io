@@ -5,7 +5,7 @@ Creating Backups with Ugarit
 <div class="center">Last updated: March 17, 2022</div>
 
 >Good judgement comes from experience, and experience comes from bad judgement.<br>
->―Fred Brooks
+>—Fred Brooks
 
 <img src="/bil/omar-flores-lQTbOWtysE-unsplash-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="omar-flores-lQTbOWtysE-unsplash" title="omar-flores-lQTbOWtysE-unsplash"/>
 

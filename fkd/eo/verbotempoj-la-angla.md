@@ -5,7 +5,7 @@ Verbotempoj en La Angla
 <div class="center">Laste ĝisdatigita: la 17-an de Marto 2022</div>
 
 >La kontrasto inter la ordinara kaj la eksterordinara estas tiu eta pliaĵo.<br>
->―Jimmy JOHNSON
+>—Jimmy JOHNSON
 
 <img src="/bil/noor-younis-mId2gG0a9GU-unsplash-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="noor-younis-mId2gG0a9GU-unsplash" title="noor-younis-mId2gG0a9GU-unsplash"/>
 

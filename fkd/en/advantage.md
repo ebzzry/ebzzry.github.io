@@ -5,7 +5,7 @@ My Kinesis Advantage Layout
 <div class="center">Last updated: March 17, 2022</div>
 
 >Pain is inevitable. Suffering is optional.<br>
->―M. Kathleen Casey
+>—M. Kathleen Casey
 
 <img src="/bil/avantagxo.webp" style="display: block; width: 100%; margin-left: auto;
 margin-right: auto;" alt="Kinesis Advantage" title="Kinesis Advantage"/>

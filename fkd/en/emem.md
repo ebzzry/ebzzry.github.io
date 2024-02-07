@@ -6,7 +6,7 @@ Converting Markdown to HTML with emem
 
 >The answers you seek you will never find until you stop looking outside and start looking for them
 >within yourself.<br>
->―JJ, Ergo Proxy
+>—JJ, Ergo Proxy
 
 <img src="/bil/s-migaj-Yui5vfKHuzs-unsplash-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="s-migaj-Yui5vfKHuzs-unsplash" title="s-migaj-Yui5vfKHuzs-unsplash"/>
  

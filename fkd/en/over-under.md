@@ -5,7 +5,7 @@ Over, Under, and Elsewhere
 <div class="center">Last updated: March 16, 2022</div>
 
 >The only limits you have are the limits you believe.<br>
->―Wayne Dyer
+>—Wayne Dyer
 
 <img src="/bil/timon-klauser-3MAmj1ZKSZA-unsplash-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="timon-klauser-3MAmj1ZKSZA-unsplash" title="timon-klauser-3MAmj1ZKSZA-unsplash"/>
 

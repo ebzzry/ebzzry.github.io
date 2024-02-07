@@ -5,7 +5,7 @@ Kiel Komuniki Samkiel Homo
 <div class="center">Laste ĝisdatigita: la 23-an de Junio 2022</div>
 
 >La kapablo por paroli ne igas onin saĝa.<br>
->―Qui-gon JINN
+>—Qui-gon JINN
 
 <img src="/bil/andriyko-podilnyk-zGQ17qQMaaM-unsplash-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="andriyko-podilnyk-zGQ17qQMaaM-unsplash" title="andriyko-podilnyk-zGQ17qQMaaM-unsplash-1008x250"/>
 

@@ -5,7 +5,7 @@ Managing Directories with Emacs
 <div class="center">Last updated: March 17, 2022</div>
 
 >Supposing is good, but finding out is better.<br>
->―Samuel Clemens
+>—Samuel Clemens
 
 <img src="/bil/lucas-benjamin-V-mEcfI8fsI-unsplash-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="lucas-benjamin-V-mEcfI8fsI-unsplash" title="lucas-benjamin-V-mEcfI8fsI-unsplash"/>
 

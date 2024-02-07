@@ -5,7 +5,7 @@ A Brief Git and GitHub Tour
 <div class="center">Last updated: March 17, 2022</div>
 
 >Know how to solve every problem that has been solved.<br>
->―Richard P. Feynman
+>—Richard P. Feynman
 
 <img src="/bil/tobias-tullius-XQ1cWY7v2PI-unsplash-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="tobias-tullius-XQ1cWY7v2PI-unsplash" title="tobias-tullius-XQ1cWY7v2PI-unsplash"/>
 

@@ -5,7 +5,7 @@ Super, Sube, kaj Aliloke
 <div class="center">Laste ĝisdatigita: la 23-an de Junio 2022</div>
 
 >La nuraj limoj kiujn havas oni, estas la limoj kiujn kredas oni.<br>
->―Wayne DYER
+>—Wayne DYER
 
 <img src="/bil/timon-klauser-3MAmj1ZKSZA-unsplash-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="timon-klauser-3MAmj1ZKSZA-unsplash" title="timon-klauser-3MAmj1ZKSZA-unsplash"/>
 
