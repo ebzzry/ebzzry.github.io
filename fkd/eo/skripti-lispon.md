@@ -5,7 +5,7 @@ Skriptado en Komunlispo
 <div class="center">Laste ĝisdatigita: la 23-an de Februaro 2022</div>
 
 >La lumo kiu fajras duoble brila, fajras duone longa.<br>
->―D-ro Eldon TYRELL, Blade Runner (1982)
+>—D-ro Eldon TYRELL, Blade Runner (1982)
 
 <img src="/bil/lispo-simbolo.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="common-lisp.net emblemo" title="common-lisp.net emblemo"/>
 

@@ -5,7 +5,7 @@ A Lambda Calculus Primer
 <div class="center">Last updated: March 17, 2022</div>
 
 >You do not really understand something unless you can explain it to your grandmother.<br>
->―Albert Einstein
+>—Albert Einstein
 
 <img src="/bil/joel-filipe-Wc8k-KryEPM-unsplash-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="joel-filipe-Wc8k-KryEPM-unsplash" title="joel-filipe-Wc8k-KryEPM-unsplash"/>
 

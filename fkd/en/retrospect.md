@@ -5,7 +5,7 @@ In Retrospect
 <div class="center">Last updated: October 10, 2021</div>
 
 >Difficulty is what wakes up the genius.<br>
->―Nassim Nicholas Taleb
+>—Nassim Nicholas Taleb
 
 <img src="/bil/calvin-mano-CXS27RrJObQ-unsplash-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="calvin-mano-CXS27RrJObQ-unsplash" title="calvin-mano-CXS27RrJObQ-unsplash"/>
 

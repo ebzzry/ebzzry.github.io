@@ -5,7 +5,7 @@ Lakona Rondvojaĝo de Gito kaj GitHub
 <div class="center">Laste ĝisdatigita: la 17-an de Marto 2022</div>
 
 >Sciu kiel solvi ĉiujn solvitajn problemon.<br>
->―Richard P. FEYNMAN
+>—Richard P. FEYNMAN
 
 <img src="/bil/tobias-tullius-XQ1cWY7v2PI-unsplash-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="tobias-tullius-XQ1cWY7v2PI-unsplash" title="tobias-tullius-XQ1cWY7v2PI-unsplash"/>
 

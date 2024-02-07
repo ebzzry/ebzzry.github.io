@@ -5,7 +5,7 @@ Symbols and Marks
 <div class="center">Last updated: March 17, 2022</div>
 
 >If you want to achieve greatness, stop asking for permission.<br>
->―Eddie Colla
+>—Eddie Colla
 
 <img src="/bil/stephen-johnson-Q8-Cc-IXRY-unsplash-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="stephen-johnson-Q8-Cc-IXRY-unsplash" title="stephen-johnson-Q8-Cc-IXRY-unsplash"/>
 
@@ -172,7 +172,7 @@ Double quotes are used to denote words that were spoken by a speaker.
 
 They are also used when writing quotes (attributions):
 
-- “Supposing is good, but finding out is better.”―Samuel Clemens
+- “Supposing is good, but finding out is better.”—Samuel Clemens
 
 Another popular application of double quotes is when they’re used as scare quotes–used to indicate
 irony, and non-standard meanings:

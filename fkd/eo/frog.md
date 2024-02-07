@@ -5,7 +5,7 @@ Blogi per Frog
 <div class="center">Laste ĝisdatigita: la 17-an de Marto 2022</div>
 
 >Unu persono kun ardo pli bonas ol kvardek personoj nure interesataj.<br>
->―E.M. FORSTER
+>—E.M. FORSTER
 
 <img src="/bil/zdenek-machacek-HYTwWSE5ztw-unsplash-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="zdenek-machacek-HYTwWSE5ztw-unsplash" title="zdenek-machacek-HYTwWSE5ztw-unsplash"/>
 

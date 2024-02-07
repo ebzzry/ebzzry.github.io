@@ -5,7 +5,7 @@ Emacs Tips and Tricks 1: Regions and Marks
 <div class="center">Last updated: March 17, 2022</div>
 
 >Don't raise your voice; improve your argument.<br>
->―Desmond Tutu
+>—Desmond Tutu
 
 <img src="/bil/robert-keane-rlbG0pnQOU-unsplash-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="robert-keane-rlbG0pnQOU-unsplash" title="robert-keane-rlbG0pnQOU-unsplash"/>
 

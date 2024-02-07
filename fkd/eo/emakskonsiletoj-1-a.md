@@ -5,7 +5,7 @@ Emaksaj Konsiletoj 1-a: Regionoj kaj Markoj
 <div class="center">Laste ĝisdatigita: la 17-an de Marto 2022</div>
 
 >La voĉon ne pligrandigu; la argumenton plibonigu.<br>
->―Desmond TUTU
+>—Desmond TUTU
 
 <img src="/bil/robert-keane-rlbG0pnQOU-unsplash-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="robert-keane-rlbG0pnQOU-unsplash" title="robert-keane-rlbG0pnQOU-unsplash"/>
 

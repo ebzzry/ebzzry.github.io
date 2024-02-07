@@ -6,7 +6,7 @@ How I Roll with Git
 
 >Conversely, those with persistence can ignore what others think. They can press
 >on in their own world, oblivious to the opinions of those around them.<br>
->―Daigo Umehara
+>—Daigo Umehara
 
 <img src="/bil/simon-berger-6te9SupeW1g-unsplash-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="simon-berger-6te9SupeW1g-unsplash" title="simon-berger-6te9SupeW1g-unsplash"/>
 
@@ -188,7 +188,7 @@ function git () {
     shift
 
     case "${op}" in
-      # komandoj ĉi tie
+      # commands here
       (*) =git "${op}" "$@" ;;
     esac
   fi

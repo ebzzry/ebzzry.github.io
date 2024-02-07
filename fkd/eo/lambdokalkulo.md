@@ -5,7 +5,7 @@ Aboco de la Lambdokalkulo
 <div class="center">Laste ĝisdatigita: la 16-an de Marto 2022</div>
 
 >Oni ne vere komprenas ion krom se oni povas klarigi ĝin al sia avino.<br>
->―Alberto EJNŜTEJNO
+>—Alberto EJNŜTEJNO
 
 <img src="/bil/joel-filipe-Wc8k-KryEPM-unsplash-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="joel-filipe-Wc8k-KryEPM-unsplash" title="joel-filipe-Wc8k-KryEPM-unsplash"/>
 

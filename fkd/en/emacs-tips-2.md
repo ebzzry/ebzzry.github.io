@@ -4,8 +4,7 @@ Emacs Tips and Tricks 2: Sessions and Packages
 <div class="center">[Esperanto](/eo/emakskonsiletoj-2-a/) ■ English</div>
 <div class="center">Last updated: March 17, 2022</div>
 
->A bell that doesn’t ring has no purpose.<br>
->―Keel Lorenz, Neon Genesis Evangelion
+>A bell that doesn’t ring has no purpose.<br>—Keel Lorenz, Neon Genesis Evangelion
 
 <img src="/bil/maximalfocus-VT4rx775FT4-unsplash-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="maximalfocus-VT4rx775FT4-unsplash" title="maximalfocus-VT4rx775FT4-unsplash"/>
 
@@ -57,11 +56,6 @@ Desktop comes built-in with the recent versions of GNU Emacs. Here's my snippet:
       desktop-restore-reuses-frames t
       desktop-restore-in-current-display t
       desktop-restore-forces-onscreen t)
-
-(defun desktop-save ()
-  (interactive)
-  (if (eq (desktop-owner) (emacs-pid))
-      (desktop-save desktop-dirname)))
 ```
 
 

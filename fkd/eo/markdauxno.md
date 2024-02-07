@@ -5,7 +5,7 @@ Mia Markdaŭna Stilgvidilo
 <div class="center">Laste ĝisdatigita: la 29-an de Marto 2022</div>
 
 >La reguloj kiuj direktas cirkonstancojn estas nuligitaj per novaj cirkonstancoj.<br>
->―Napoleono BONAPARTE
+>—Napoleono BONAPARTE
 
 <img src="/bil/luca-bravo-bTxMLuJOff4-unsplash-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="luca-bravo-bTxMLuJOff4-unsplash" title="luca-bravo-bTxMLuJOff4-unsplash"/>
 

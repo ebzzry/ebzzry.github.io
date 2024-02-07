@@ -5,7 +5,7 @@ Manipuli Dosierujojn en Emakso
 <div class="center">Laste ĝisdatigita: la 17-an de Marto 2022</div>
 
 >Supozi bonas, tamen eltrovi pli bonas.<br>
->―Samuel CLEMENS
+>—Samuel CLEMENS
 
 <img src="/bil/lucas-benjamin-V-mEcfI8fsI-unsplash-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="lucas-benjamin-V-mEcfI8fsI-unsplash" title="lucas-benjamin-V-mEcfI8fsI-unsplash"/>
 
