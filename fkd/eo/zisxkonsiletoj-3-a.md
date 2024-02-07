@@ -5,7 +5,7 @@ Ziŝaj Konsiletoj 3-a: Ŝanĝradikighelpiloj
 <div class="center">Laste ĝisdatigita: la 24-an de Marto 2022</div>
 
 >Ni ridas pri tio, kion ni ne povas toleri alfronti.<br>
->―Aristotelo
+>—Aristotelo
 
 <img src="/bil/ali-lokhandwala-KUr51Y4dOyo-unsplash-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="ali-lokhandwala-KUr51Y4dOyo-unsplash" title="ali-lokhandwala-KUr51Y4dOyo-unsplash"/>
 

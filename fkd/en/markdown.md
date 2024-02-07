@@ -5,7 +5,7 @@ My Markdown Style Guide
 <div class="center">Last updated: March 18, 2022</div>
 
 >The laws that govern circumstances are abolished by new circumstances.<br>
->―Napoleon Bonaparte
+>—Napoleon Bonaparte
 
 <img src="/bil/luca-bravo-bTxMLuJOff4-unsplash-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="luca-bravo-bTxMLuJOff4-unsplash" title="luca-bravo-bTxMLuJOff4-unsplash"/>
 

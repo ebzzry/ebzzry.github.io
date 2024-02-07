@@ -6,7 +6,7 @@ Agordi GPG kaj SSH en KDE
     
 >Ne tute estas grave por prave atingi tion en la unua fojo. Estas vitale grava atingi tion en la
 >lasta tempo.<br>
->―Andrew HUNT kaj David THOMAS
+>—Andrew HUNT kaj David THOMAS
 
 <img src="/bil/milad-fakurian-UYgrVfIhBec-unsplash-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="milad-fakurian-UYgrVfIhBec-unsplash" title="milad-fakurian-UYgrVfIhBec-unsplash"/>
 

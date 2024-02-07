@@ -5,7 +5,7 @@ A Gentle Introduction to Fallacies
 <div class="center">Last updated: March 29, 2022</div>
 
 >Learning is not compulsory; neither is survival.<br>
->―W. Edwards Deming
+>—W. Edwards Deming
 
 <img src="/bil/wallhaven-73145-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-333472" title="wallhaven-333472"/>
 

@@ -5,7 +5,7 @@ Zsh Tips 3: Chroot Helpers
 <div class="center">Last updated: March 19, 2022</div>
 
 >We laugh at that which we cannot bear to face.<br>
->―Aristotle
+>—Aristotle
 
 <img src="/bil/ali-lokhandwala-KUr51Y4dOyo-unsplash-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="ali-lokhandwala-KUr51Y4dOyo-unsplash" title="ali-lokhandwala-KUr51Y4dOyo-unsplash"/>
 

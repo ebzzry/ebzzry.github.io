@@ -5,7 +5,7 @@ Blogging with Frog
 <div class="center">Last updated: March 17, 2022</div>
 
 >One person with passion is better than forty people merely interested.<br>
->―E.M. Forster
+>—E.M. Forster
 
 <img src="/bil/zdenek-machacek-HYTwWSE5ztw-unsplash-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="zdenek-machacek-HYTwWSE5ztw-unsplash" title="zdenek-machacek-HYTwWSE5ztw-unsplash"/>
 

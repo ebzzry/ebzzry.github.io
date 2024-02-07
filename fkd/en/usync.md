@@ -5,7 +5,7 @@ Synchronizing Sites with Usync
 <div class="center">Last updated: March 16, 2022</div>
 
 >What I cannot create, I do not understand.<br>
->―Richard P. Feynman
+>—Richard P. Feynman
 
 <img src="/bil/thomas-jensen-ISG-rUel0Uw-unsplash-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="thomas-jensen-ISG-rUel0Uw-unsplash" title="thomas-jensen-ISG-rUel0Uw-unsplash"/>
 

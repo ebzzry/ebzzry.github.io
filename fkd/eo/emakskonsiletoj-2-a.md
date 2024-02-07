@@ -4,8 +4,7 @@ Emaksaj Konsiletoj 2-a: Seancoj kaj Pakoj
 <div class="center">Esperanto ■ [English](/en/emacs-tips-2/)</div>
 <div class="center">Laste ĝisdatigita: la 17-an de Marto 2022</div>
 
->Sonorilo kiu ne povas sonori ne havas celon.<br>
->―Keel LORENZ, Neon Genesis Evangelion
+>Sonorilo kiu ne povas sonori ne havas celon.<br>—Keel LORENZ, Neon Genesis Evangelion
 
 <img src="/bil/maximalfocus-VT4rx775FT4-unsplash-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="maximalfocus-VT4rx775FT4-unsplash" title="maximalfocus-VT4rx775FT4-unsplash"/>
 
@@ -58,11 +57,6 @@ kodaĵo por uzi ĝin :
       desktop-restore-reuses-frames t
       desktop-restore-in-current-display t
       desktop-restore-forces-onscreen t)
-
-(defun desktop-save ()
-  (interactive)
-  (if (eq (desktop-owner) (emacs-pid))
-      (desktop-save desktop-dirname)))
 ```
 
 

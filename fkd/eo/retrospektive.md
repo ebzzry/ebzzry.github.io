@@ -5,7 +5,7 @@ Retrospektive
 <div class="center">Laste ĝisdatigita: la 23-an de Junio 2022</div>
 
 >Malfacileco estas tio, kiu vekas la geniulon.<br>
->―Nassim Nicholas TALEB
+>—Nassim Nicholas TALEB
 
 <img src="/bil/calvin-mano-CXS27RrJObQ-unsplash-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="calvin-mano-CXS27RrJObQ-unsplash" title="calvin-mano-CXS27RrJObQ-unsplash"/>
 

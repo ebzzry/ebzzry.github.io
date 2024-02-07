@@ -5,7 +5,7 @@ Mia Kinezia Avantaĝa Aranĝo
 <div class="center">Laste ĝisdatigita: la 17-an de Marto 2022</div>
 
 >La doloro neeviteblas. La suferado malnepras.<br>
->―M. Kathleen CASEY
+>—M. Kathleen CASEY
 
 <img src="/bil/avantagxo.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="Kinezia Avantaĝo" title="Kinezia Avantaĝo"/>
 

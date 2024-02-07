@@ -5,7 +5,7 @@ Zsh Tips 1: Aliases and Functions
 <div class="center">Last updated: March 18, 2022</div>
 
 >A common man marvels at uncommon things; a wise man marvels at the commonplace.<br>
->―Confucius
+>—Confucius
 
 <img src="/bil/omair-parvez-o6ka1Lpk81U-unsplash-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="omair-parvez-o6ka1Lpk81U-unsplash" title="omair-parvez-o6ka1Lpk81U-unsplash"/>
 

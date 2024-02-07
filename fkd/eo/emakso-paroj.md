@@ -6,7 +6,7 @@ Emakso kaj Paroj
 
 >La blanka bruo kiu batas ene la blanka mallumo estas la ritmo de la vivo; estas la pulso kiu
 >neniam vere foriris la podion.<br>
->―Ergo PROXY, Ergo Proxy
+>—Ergo PROXY, Ergo Proxy
 
 <img src="/bil/wallhaven-578010-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-578010" title="wallhaven-578010"/>
 

@@ -5,7 +5,7 @@ Migri de LiveJournal al Frog
 <div class="center">Laste ĝisdatigita: la 16-an de Marto 2022</div>
 
 >Mi ne scias kien mi iras, sed mi estas sur mia vojo.<br>
->―Carl SAGAN
+>—Carl SAGAN
 
 <img src="/bil/stephanie-leblanc-xrE6WwccyU-unsplash-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="stephanie-leblanc-xrE6Wwccy_U-unsplash" title="stephanie-leblanc-xrE6Wwccy_U-unsplash"/>
 

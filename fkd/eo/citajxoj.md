@@ -11,7 +11,7 @@ tra la jaroj.
 
 
 - La aferoj kiujn oni volas malakcepti estas pli gravaj ol la aferoj kiujn oni volas
-  akcepti.<br>―Erik NAGGUM
+  akcepti.<br>—Erik NAGGUM
 
 
 - La momenton kiam oni pensas ke oni scias ĉion, estas la momenton kiam oni ĉesas

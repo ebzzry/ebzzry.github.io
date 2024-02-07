@@ -5,7 +5,7 @@ Virtualigado en Linukso per KVM
 <div class="center">Laste ĝisdatigita: la 17-an de Marto 2022</div>
 
 >Se oni faras tion , kion oni ĉiam faras; oni akiros tion , kion oni ĉiam akiras.<br>
->―Anthony ROBBINS
+>—Anthony ROBBINS
 
 <img src="/bil/pierre-chatel-innocenti-N6Hx4HT4mHg-unsplash-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="pierre-chatel-innocenti-N6Hx4HT4mHg-unsplash" title="pierre-chatel-innocenti-N6Hx4HT4mHg-unsplash"/>
 

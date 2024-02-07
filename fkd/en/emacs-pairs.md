@@ -6,7 +6,7 @@ Emacs and Pairs
 
 >The white noise that beats within the white darkness is the rhythm of life; it is that pulse which
 >never truly left the stage.<br>
->―Ergo Proxy, Ergo Proxy
+>—Ergo Proxy, Ergo Proxy
 
 <img src="/bil/wallhaven-578010-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-578010" title="wallhaven-578010"/>
 

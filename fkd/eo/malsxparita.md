@@ -5,7 +5,7 @@ Malŝparita Senĉeseco
 <div class="center">Laste ĝisdatigita: la 23-an de Junio 2022</div>
 
 >La unua paŝo por iri ien estas decidi, ke oni ne restos kie oni estas.<br>
->―J.P. MORGAN
+>—J.P. MORGAN
 
 <img src="/bil/steve-johnson-zkNT5mikUuo-unsplash-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="steve-johnson-zkNT5mikUuo-unsplash" title="steve-johnson-zkNT5mikUuo-unsplash"/>
 

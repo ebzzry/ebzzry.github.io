@@ -6,7 +6,7 @@ A Gentle Introduction to the Nix Family
 
 >Don’t worry about what anybody else is going to do. The best way to predict the future is to
 >invent it.<br>
->―Alan Kay
+>—Alan Kay
 
 <img src="/bil/wallhaven-751942-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-751942" title="wallhaven-751942"/>
 

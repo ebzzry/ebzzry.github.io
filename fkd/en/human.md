@@ -5,7 +5,7 @@ How to Communicate Like a Human
 <div class="center">Last updated: March 16, 2022</div>
 
 >The ability to speak does not make you intelligent.<br>
->―Qui-Gon Jinn
+>—Qui-Gon Jinn
 
 <img src="/bil/andriyko-podilnyk-zGQ17qQMaaM-unsplash-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="andriyko-podilnyk-zGQ17qQMaaM-unsplash" title="andriyko-podilnyk-zGQ17qQMaaM-unsplash-1008x250"/>
 

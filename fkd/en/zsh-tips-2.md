@@ -5,7 +5,7 @@ Zsh Tips 2: Directory Stacks
 <div class="center">Last updated: March 18, 2022</div>
 
 >What we do for ourselves dies with us. What we do for others remains forever.<br>
->―Albert Pike
+>—Albert Pike
 
 <img src="/bil/jonny-caspari-A7ol2HfnycY-unsplash-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="jonny-caspari-A7ol2HfnycY-unsplash" title="jonny-caspari-A7ol2HfnycY-unsplash"/>
 

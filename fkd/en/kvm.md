@@ -5,7 +5,7 @@ Virtualizing with KVM in Linux
 <div class="center">Last updated: March 17, 2022</div>
 
 >If you do what you’ve always done, you’ll get what you’ve always gotten.<br>
->―Anthony Robbins
+>—Anthony Robbins
 
 <img src="/bil/pierre-chatel-innocenti-N6Hx4HT4mHg-unsplash-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="pierre-chatel-innocenti-N6Hx4HT4mHg-unsplash" title="pierre-chatel-innocenti-N6Hx4HT4mHg-unsplash"/>
 

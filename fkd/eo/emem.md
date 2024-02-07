@@ -6,7 +6,7 @@ Konverti de Markdaŭno al HTML per emem
     
 >Oni ne trovos la respondojn kiujn oni serĉas ĝis oni haltas serĉi ekstere kaj komenciĝas serĉi ilin
 >el oni mem.<br>
->―JJ, Ergo Proxy
+>—JJ, Ergo Proxy
 
 <img src="/bil/s-migaj-Yui5vfKHuzs-unsplash-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="s-migaj-Yui5vfKHuzs-unsplash" title="s-migaj-Yui5vfKHuzs-unsplash"/>
 

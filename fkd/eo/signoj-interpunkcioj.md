@@ -5,7 +5,7 @@ Signoj kaj Interpunkcioj
 <div class="center">Laste ĝisdatigita: la 16-an de Marto 2022</div>
 
 >Se oni volas atingi grandiozon, ĉesu peti konsentojn.<br>
->―Eddie COLLA
+>—Eddie COLLA
 
 <img src="/bil/stephen-johnson-Q8-Cc-IXRY-unsplash-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="stephen-johnson-Q8-Cc-IXRY-unsplash" title="stephen-johnson-Q8-Cc-IXRY-unsplash"/>
 

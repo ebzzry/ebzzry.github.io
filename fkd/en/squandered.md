@@ -6,7 +6,7 @@ Squandered Relentlessness
 
 >The first step towards getting somewhere is to decide that you are not going to stay where you
 >are.<br>
->―J.P. Morgan
+>—J.P. Morgan
 
 <img src="/bil/steve-johnson-zkNT5mikUuo-unsplash-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="steve-johnson-zkNT5mikUuo-unsplash" title="steve-johnson-zkNT5mikUuo-unsplash"/>
 
