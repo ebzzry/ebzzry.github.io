@@ -1,7 +1,7 @@
-Pensoj de Optimisto
-===================
+Pensoj de [O]ptimisto
+=====================
 
-<div class="center">Esperanto ■ [English](/en/)</div>
+<div class="center">Esperanto┃[English](/en/)</div>
 <div class="center">Laste ĝisdatigita: la 19-an de Marto 2022</div>
 
 <img src="/bil/sunsubiro-1008x250.webp" class="banner" alt="sunsubiro" title="Ĉe la vizaĝo de la kosmo, ni ĉiuj estas porĉiame infanoj." style="border: 1px solid black;" />

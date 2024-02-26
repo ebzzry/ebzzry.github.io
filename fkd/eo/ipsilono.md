@@ -1,7 +1,7 @@
 La Ipsilonkombinatoro per Ses Paŝoj
 ===================================
 
-<div class="center">Esperanto ■ [English](/en/y/)</div>
+<div class="center">Esperanto┃[English](/en/y/)</div>
 <div class="center">Laste ĝisdatigita: la 17-an de Marto 2022</div>
 
 >Unue, decidu. Kaj faru ĝin. Estas la nura maniero por atingi ion.<br>

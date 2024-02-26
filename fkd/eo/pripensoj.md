@@ -1,8 +1,8 @@
 Pripensoj
 =========
 
-<div class="center">Esperanto ■ [English](/en/reflections/)</div>
-<div class="center">Laste ĝisdatigita: la 11-an de Aprilo 2023</div>
+<div class="center">Esperanto┃[English](/en/reflections/)</div>
+<div class="center">Laste ĝisdatigita: la 13-an de Februaro 2024</div>
 
 Ĉi tiu paĝo enhavas kelke da miaj propraj pripensoj. La enskriboj estas
 ordigitaj laŭ kronologiordo.
@@ -489,3 +489,6 @@ ordigitaj laŭ kronologiordo.
 
 
 - Estas pli bone havi fajroestingilon kaj ne bezoni ĝin anstataŭ bezoni fajroestingilon kaj ne havi ĝin.<br>
+
+
+- Tempo kiun oni uzas por la detruo de aliaj estas tempo kiun oni ni uzas por sia kresko.<br>

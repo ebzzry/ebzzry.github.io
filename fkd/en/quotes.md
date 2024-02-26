@@ -1,8 +1,8 @@
 Quotes
 ======
 
-<div class="center">[Esperanto](/eo/citajxoj/) ■ English</div>
-<div class="center">Last updated: December 13, 2023</div>
+<div class="center">[Esperanto](/eo/citajxoj/)┃English</div>
+<div class="center">Last updated: February 18, 2024</div>
 
 <img src="/bil/wallhaven-77816-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -1024,3 +1024,6 @@ the years.
 
 
 - The strongest sword is a blend of steel. Soft and hard. Pure and impure.<br>—Mizu, Blue Eye Samurai (2023)
+
+
+- Death is something that should not exonerate any sin if it wasn’t repented for.<br>—Seon Jae-sun, A Killer Paradox
