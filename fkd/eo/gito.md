@@ -1,7 +1,7 @@
 Kiel Mi Uzas Giton
 ==================
 
-<div class="center">Esperanto ■ [English](/en/git/)</div>
+<div class="center">Esperanto┃[English](/en/git/)</div>
 <div class="center">Laste ĝisdatigita: la 4-an de Novembro 2022</div>
 
 >Male, tiuj kun senĉeseco povas malatenti kiujn aliaj pensas. Ion ajn ili povas

@@ -1,8 +1,8 @@
 Reflections
 ===========
 
-<div class="center">[Esperanto](/eo/pripensoj/) ■ English</div>
-<div class="center">Last updated: April 11, 2023</div>
+<div class="center">[Esperanto](/eo/pripensoj/)┃English</div>
+<div class="center">Last updated: February 13, 2024</div>
 
 This page contains contains some of my personal reflections. Entries are sorted
 in chronological order.
@@ -497,3 +497,6 @@ in chronological order.
 
 
 - It′s better to have a fire extinguisher and not need it than to need a fire extinguisher and not have it.<br>
+
+
+- Time spent on the destruction of others is time not spent for your own growth.<br>

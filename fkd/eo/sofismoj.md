@@ -1,7 +1,7 @@
 Milda Enkonduko al Sofismoj
 ===========================
 
-<div class="center">Esperanto ■ [English](/en/fallacies/)</div>
+<div class="center">Esperanto┃[English](/en/fallacies/)</div>
 <div class="center">Laste ĝisdatigita: la 23-an de Junio 2022</div>
 
 >Lerni ne necesas; nek travivas.<br>
