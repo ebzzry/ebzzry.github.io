@@ -1,8 +1,8 @@
 Citaĵoj
 =======
 
-<div class="center">Esperanto ■ [English](/en/quotes/)</div>
-<div class="center">Laste ĝisdatigita: la 13-an de Decembro 2023</div>
+<div class="center">Esperanto┃[English](/en/quotes/)</div>
+<div class="center">Laste ĝisdatigita: la 18-an de Februaro 2024</div>
 
 <img src="/bil/wallhaven-77816-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -1010,3 +1010,6 @@ tra la jaroj.
 
 
 - La plej forta glavo estas mikso de ŝtalo. Mola kaj malmola. Pura kaj malpura.<br>—Mizu, Blue Eye Samurai (2023)
+
+
+- Morto ne estas io kio senŝarĝigas ajnan pekon se gi ne estas pripentita.<br>—Seon Jae-sun, A Killer Paradox
