@@ -7,11 +7,12 @@ Pri
 <div>
 <img src="/bil/ebzzry.webp" style="float: right; width: 50%; margin: 0px 0px 0px 10px">
 
-Rommel MARTÍNEZ estas artefarita intelekta esploristo kiu interesiĝas pri la
-konscio, la menso, kaj la realeco. Li nune esploras kiel modernajn komputilojn
-oni povas uzi por atingi la malalte pendantajn fruktojn de AI. Li gvidas la
-AI-esploradon kaj -evoluadon ĉe
-[ASTN Group, Inc.](https://astn-group.com).
+Rommel Martínez estas artefarita intelekta esploristo kun pli ol 25 jaroj da
+profesia sperto en programado; sistemadministrado; kaj programlingva teorio kaj
+desegnado. Lia intereso kuŝas kun konscio, la menso, kaj realeco. Li estas nune
+esploranta kiel oni povas uzi modernajn komputilojn por atingi la malalte
+pendantajn fruktojn de AI. Li estas la ĉefa teĥnologia oficisto ĉe
+[Valmiz](https://valmiz.com) kaj gvidas ilian AI-esploradon kaj -evoluadon.
 
 Krome, fiziktrejnado kaj sportoj tre interesas al li, precipe per globhalteroj,
 golfo, kaj praktika pafado.
