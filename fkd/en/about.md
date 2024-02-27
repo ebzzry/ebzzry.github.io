@@ -2,16 +2,18 @@ About
 =====
 
 <div class="center">[Esperanto](/eo/pri/)┃English</div>
-<div class="center">Last updated: December 18, 2023</div>
+<div class="center">Last updated: February 27, 2024</div>
 
 <div>
 <img src="/bil/ebzzry.webp" style="float: right; width: 50%; margin: 0px 0px 0px 10px">
 
-Rommel Martínez is an artificial intelligence researcher who is interested with
-consciousness, the mind, and reality. He is currently exploring how we can use
-modern computers to reach the low hanging fruits of AI. He is spearheading the
-AI research and development at
-[ASTN Group, Inc.](https://astn-group.com).
+Rommel Martínez is an Artificial Intelligence researcher with over 25 years of
+professional experience in software engineering; systems administration; and
+programming language theory and design. His interests lie with consciousness,
+the mind, and reality. He is currently exploring how we can use modern computers
+to reach the low-hanging fruits of AI. He is the Chief Technology Officer at
+[Valmiz](https://valmiz.com) and is spearheading their AI research and development.
+
 
 Additionally, he likes to do physical training and sports, mainly with
 kettlebells, golf, and practical shooting.
