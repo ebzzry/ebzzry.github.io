@@ -2,7 +2,7 @@ Citaĵoj
 =======
 
 <div class="center">Esperanto┃[English](/en/quotes/)</div>
-<div class="center">Laste ĝisdatigita: la 18-an de Februaro 2024</div>
+<div class="center">Laste ĝisdatigita: la 9-an de Marto 2024</div>
 
 <img src="/bil/wallhaven-77816-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -1013,3 +1013,6 @@ tra la jaroj.
 
 
 - Morto ne estas io kio senŝarĝigas ajnan pekon se gi ne estas pripentita.<br>—Seon Jae-sun, A Killer Paradox
+
+
+- Sed oni ne vere povas vivi ĝis oni jam mortis iomete ene, ĉu ne?<br>—Blindulino Al, Deadpool 2 (2018)
