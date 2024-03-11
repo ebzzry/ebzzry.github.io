@@ -2,7 +2,7 @@ Quotes
 ======
 
 <div class="center">[Esperanto](/eo/citajxoj/)┃English</div>
-<div class="center">Last updated: March 9, 2024</div>
+<div class="center">Last updated: March 12, 2024</div>
 
 <img src="/bil/wallhaven-77816-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -1030,3 +1030,6 @@ the years.
 
 
 - We can’t really live until we’ve died a little, can we?<br>—Blind Al, Deadpool 2 (2018)
+
+
+- Protect it or lose it.<br>—Walker’s Razor Pro
