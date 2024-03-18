@@ -4,16 +4,16 @@ EMEM=emem
 
 all:
 	$(EMEM) -r
-	$(MAKE) $(MFLAGS) -C fkd/r
-	$(MAKE) $(MFLAGS) -C fkd/eo
-	$(MAKE) $(MFLAGS) -C fkd/en
+	$(MAKE) $(MFLAGS) -C src/r
+	$(MAKE) $(MFLAGS) -C src/eo
+	$(MAKE) $(MFLAGS) -C src/en
 
 clean:
 	find . -maxdepth 1 -name '*.html' ! -name 'sitemap.html' ! -name 'index.html' ! -name 'dat' -exec rm -vf {} \;
 	rm -rvf static
-	$(MAKE) -C fkd/r $@
-	$(MAKE) -C fkd/eo $@
-	$(MAKE) -C fkd/en $@
+	$(MAKE) -C src/r $@
+	$(MAKE) -C src/eo $@
+	$(MAKE) -C src/en $@
 
 rebuild:
 	$(MAKE) clean
