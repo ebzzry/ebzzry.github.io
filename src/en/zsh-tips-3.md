@@ -1,7 +1,7 @@
 Zsh Tips 3: Chroot Helpers
 ==========================
 
-<div class="center">[Esperanto](/eo/zisxkonsiletoj-3-a/)┃English</div>
+<div class="center">[Esperanto](/eo/zisxkonsiletoj-3-a/) | English</div>
 <div class="center">Last updated: March 19, 2022</div>
 
 >We laugh at that which we cannot bear to face.<br>

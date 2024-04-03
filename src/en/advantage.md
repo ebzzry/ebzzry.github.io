@@ -1,7 +1,7 @@
 My Kinesis Advantage Layout
 ===========================
 
-<div class="center">[Esperanto](/eo/avantagxo/)┃English</div>
+<div class="center">[Esperanto](/eo/avantagxo/) | English</div>
 <div class="center">Last updated: March 17, 2022</div>
 
 >Pain is inevitable. Suffering is optional.<br>

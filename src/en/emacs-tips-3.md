@@ -1,7 +1,7 @@
 Emacs Tips and Tricks 3: Insert and Delete
 ==========================================
 
-<div class="center">[Esperanto](/eo/emakskonsiletoj-3-a/)┃English</div>
+<div class="center">[Esperanto](/eo/emakskonsiletoj-3-a/) | English</div>
 <div class="center">Last updated: March 18, 2022</div>
 
 >The more you sweat in peace, the less you bleed in war.<br>—Norman Schwarzkopf
