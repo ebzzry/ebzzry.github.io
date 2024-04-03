@@ -1,7 +1,7 @@
 Signoj kaj Interpunkcioj (Mallongigite)
 =======================================
 
-<div class="center">Esperanto┃[English](/en/symbols-marks-condensed/)</div>
+<div class="center">Esperanto | [English](/en/symbols-marks-condensed/)</div>
 <div class="center">Laste ĝisdatigita: la 10-an de marto 2022</div>
 
 La tabelo ĉi-sube estas la mallongigita versio de

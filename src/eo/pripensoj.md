@@ -1,7 +1,7 @@
 Pripensoj
 =========
 
-<div class="center">Esperanto┃[English](/en/reflections/)</div>
+<div class="center">Esperanto | [English](/en/reflections/)</div>
 <div class="center">Laste ĝisdatigita: la 13-an de februaro 2024</div>
 
 Ĉi tiu paĝo enhavas kelke da miaj propraj pripensoj. La enskriboj estas
