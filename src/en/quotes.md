@@ -2,7 +2,7 @@ Quotes
 ======
 
 <div class="center">[Esperanto](/eo/citajxoj/) | English</div>
-<div class="center">Last updated: March 12, 2024</div>
+<div class="center">Last updated: April 22, 2024</div>
 
 <img src="/images/site/wallhaven-77816-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -1033,3 +1033,7 @@ the years.
 
 
 - Protect it or lose it.<br>—Walker’s Razor Pro
+
+
+- What we believe shapes who we are. Belief can bring us salvation or destruction. But when you believe a lie for too long, the truth doesn't set you free. It tears you apart.<br>—Takeshi KOVACS, Altered Carbon
+
