@@ -16,12 +16,11 @@ to reach the low-hanging fruits of AI. He is the Chief Technology Officer at
 
 
 Additionally, he likes to do physical training and sports, mainly with
-kettlebells, golf, and practical shooting. He is a proud member of The Fraternal
-Order of Eagles - Philippine Eagles.
+kettlebells, golf, and sport shooting.
 
 He currently lives with his wife and son in the warm country of the Philippines.
 
-My GPG fingerprint is `AEC6 0EAF` `146E 0F1D` `6704 697B` `5405 D0D2` `708E 7B30`.
+My GPG fingerprint is AEC6 0EAF 146E 0F1D 6704 697B 5405 D0D2 708E 7B30.
 </div>
 <div class="center">
 [Email](mailto:rommel.martinez@valmiz.com) | [Publika ŝlosilo](/dat/rommel.martinez@valmiz.com.pub.asc) | [LinkedIn](https://www.linkedin.com/feed/) | [X](https://x.com/ebzzry) | [Facebook](https://fb.com/ebzzry)<br>
