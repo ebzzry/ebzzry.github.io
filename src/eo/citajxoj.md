@@ -2,7 +2,7 @@ Citaĵoj
 =======
 
 <div class="center">Esperanto | [English](/en/quotes/)</div>
-<div class="center">Laste ĝisdatigita: la 12-an de marto 2024</div>
+<div class="center">Laste ĝisdatigita: la 22-an de aprilo 2024</div>
 
 <img src="/images/site/wallhaven-77816-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -1019,3 +1019,6 @@ tra la jaroj.
 
 
 - Protekti ĝin aŭ lasi ĝin.<br>—Walker’s Razor Pro
+
+
+- Kion ni kredas formas kiun ni estas. Kredo povas porti al ni savo aŭ detruo. Sed kiam oni kredas mensogon tre longe, la vero ne liberigas onin. Ĝi diŝŝiras onin.<br>—Takeshi KOVACS, Altered Carbon
