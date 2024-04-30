@@ -2,7 +2,7 @@ Quotes
 ======
 
 <div class="center">[Esperanto](/eo/citajxoj/) | English</div>
-<div class="center">Last updated: April 22, 2024</div>
+<div class="center">Last updated: April 30, 2024</div>
 
 <img src="/images/site/wallhaven-77816-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -1036,4 +1036,19 @@ the years.
 
 
 - What we believe shapes who we are. Belief can bring us salvation or destruction. But when you believe a lie for too long, the truth doesn't set you free. It tears you apart.<br>—Takeshi KOVACS, Altered Carbon
+
+
+- Reality is just an agreed upon illusion<br>—Jack Soul Brasil, Altered Carbon
+
+
+- They say hope begins in the dark. That faith is the bird that feels light when the sky is still dim. But with every tomorrow we carry our past. It echoes beneath our feet. There are no clean slates.<br>—Dig 301, Altered Carbon
+
+
+- Second chances are earned in the choices we make, in what we choose to forget, and in what we forgive.<br>—Dig 301, Altered Carbon
+
+
+- With each choice we make we are led somewhere new. But with every stake I take, your memory haunts.<br>—Dig 301, Altered Carbon
+
+
+- Without death we can’t know what a life is worth.<br>—Quellcrist Falconer, Altered Carbon
 
