@@ -2,7 +2,7 @@ Citaĵoj
 =======
 
 <div class="center">Esperanto | [English](/en/quotes/)</div>
-<div class="center">Laste ĝisdatigita: la 22-an de aprilo 2024</div>
+<div class="center">Laste ĝisdatigita: la 30-an de aprilo 2024</div>
 
 <img src="/images/site/wallhaven-77816-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -1022,3 +1022,18 @@ tra la jaroj.
 
 
 - Kion ni kredas formas kiun ni estas. Kredo povas porti al ni savo aŭ detruo. Sed kiam oni kredas mensogon tre longe, la vero ne liberigas onin. Ĝi diŝŝiras onin.<br>—Takeshi KOVACS, Altered Carbon
+
+
+- La realeco estas nur interkonsentita iluzio.<br>—Jack Soul Brasil, Altered Carbon
+
+
+- Oni diras, ke espero komencas en la mallumo. Ke espero estas la birdo kiu sentas lumon kiam la ĉielo estas ankoraŭ malhela. Sed kun ĉiu margaŭo oni portas sian pasinton. Ĝi eĥas sub niaj piedoj. Ne estas puraj ardezoj.<br>—Dig 301, Altered Carbon
+
+
+- Duaj ŝancoj estas gajnitaj per la elektoj kiujn ni faras, en tiuj kiujn ni elektas forgesi, en tiuj kiujn ni pardonpetas.<br>—Dig 301, Altered Carbon
+
+
+- Per ĉiu elekto kiun ni faras, ni estas kondukitaj al ie nova. Sed per ĉiu veto kiun mi prenas, via memoro fantomas.<br>—Dig 301, Altered Carbon
+
+
+- Sen morto oni ne povas scii la valoron de vivo.<br>—Quellcrist Falconer, Altered Carbon
