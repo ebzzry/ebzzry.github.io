@@ -2,7 +2,7 @@ Citaĵoj
 =======
 
 <div class="center">Esperanto | [English](/en/quotes/)</div>
-<div class="center">Laste ĝisdatigita: la 30-an de aprilo 2024</div>
+<div class="center">Laste ĝisdatigita: la 22-an de majo 2024</div>
 
 <img src="/images/site/wallhaven-77816-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -1037,3 +1037,6 @@ tra la jaroj.
 
 
 - Sen morto oni ne povas scii la valoron de vivo.<br>—Quellcrist Falconer, Altered Carbon
+
+
+- Tiu kiu povas detrui ion havas la veran reĝon pri ĝi.<br>—Paul Muad'Dib, Dune
