@@ -2,7 +2,7 @@ Quotes
 ======
 
 <div class="center">[Esperanto](/eo/citajxoj/) | English</div>
-<div class="center">Last updated: May 22, 2024</div>
+<div class="center">Last updated: May 31, 2024</div>
 
 <img src="/images/site/wallhaven-77816-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -1054,3 +1054,9 @@ the years.
 
 
 - He who can destroy a thing has the real control of it.<br>—Paul Muad'Dib, Dune
+
+
+- It’s nice knowing how every stage ends. No surprises, no twists. It always stays the same. But that's not living.<br>—Old Jubilee, X-Men ’97
+
+
+- Living doesn’t get cheat codes or extra lives. But it has friends and family. Love, loss, and heapings of hope. Life’s a total risk and it’s on you. Take it.<br>—Old Jubilee, X-Men ’97

@@ -1040,3 +1040,9 @@ tra la jaroj.
 
 
 - Tiu kiu povas detrui ion havas la veran reĝon pri ĝi.<br>—Paul Muad'Dib, Dune
+
+
+- Estas plaĉe scii kiel ĉiu etaĝo finiĝas. Sen surprizoj, sen tordaĵoj. Ĝi ĉiam restas same. Sed tio ne estas vivi.<br>—Maljuna Jubilee, X-Men ’97
+
+
+- Vivi ne havas trompkodojn aŭ aldonajn vivojn. Tamen, ĝi havas amikojn kaj familion. La amo, la perdo, kaj multe da espero. La vivo estas granda risko kaj oni havas ĝin. Prenu ĝin.<br>—Maljuna Jubilee, X-Men ’97
