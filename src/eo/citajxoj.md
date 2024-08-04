@@ -2,7 +2,7 @@ Citaĵoj
 =======
 
 <div class="center">Esperanto | [English](/en/quotes/)</div>
-<div class="center">Laste ĝisdatigita: la 22-an de majo 2024</div>
+<div class="center">Laste ĝisdatigita: la 23-an de julio 2024</div>
 
 <img src="/images/site/wallhaven-77816-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -1046,3 +1046,15 @@ tra la jaroj.
 
 
 - Vivi ne havas trompkodojn aŭ aldonajn vivojn. Tamen, ĝi havas amikojn kaj familion. La amo, la perdo, kaj multe da espero. La vivo estas granda risko kaj oni havas ĝin. Prenu ĝin.<br>—Maljuna Jubilee, X-Men ’97
+
+
+- Kio demonoj estas, sed rebriloj de niaj timoj kaj hontoj? Aferoj kiujn ni enterigis en ni, kuŝis el niaj amantoj, eĉ ili venenas niajn korojn ĝis ni finfine kuracas niajn malamikojn per brakumi ĝin.<br>—Storm, X-Men ’97
+
+
+- Tamen ĉiu decido por io estas decido kontraŭ io alia.<br>—H. G. Tannhaus, Dark (2017)
+
+
+- Mia loko ne estas en hieraŭ aŭ morgaŭ. Sed, ĝi estas ĉi tie.<br>—Jonas Kahnwald, Dark (2017)
+
+
+- Se oni lasas la uzanton trakti la eraron per ili mem, ili ne havas facilan manieron por trakti la eraron gracie pro tio ke ĉiom da stata informo estas perdita.<br>—Michael Malis
