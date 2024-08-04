@@ -421,7 +421,7 @@ in chronological order.
   thing that was lost.<br>
 
 
-- Intelligence quotience is what intelligence quotience tests measure.<br>
+- Intelligence quotient is what intelligence quotient tests measure.<br>
 
 
 - Just dive and try not to drown.<br>

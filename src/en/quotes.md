@@ -2,7 +2,7 @@ Quotes
 ======
 
 <div class="center">[Esperanto](/eo/citajxoj/) | English</div>
-<div class="center">Last updated: May 31, 2024</div>
+<div class="center">Last updated: July 23, 2024</div>
 
 <img src="/images/site/wallhaven-77816-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -1060,3 +1060,15 @@ the years.
 
 
 - Living doesn’t get cheat codes or extra lives. But it has friends and family. Love, loss, and heapings of hope. Life’s a total risk and it’s on you. Take it.<br>—Old Jubilee, X-Men ’97
+
+
+- What are demons, but reflections of our fears and shame? Things we bury within us, hide from loved ones, even as they poison our hearts until we finally heal our adversary by embracing it.<br>—Storm, X-Men ’97
+
+
+- But every decision for something is a decision against something else.<br>—H. G. Tannhaus, Dark (2017)
+
+
+- My place is not in the yesterday or tomorrow. Rather, it’s right here.<br>—Jonas Kahnwald, Dark (2017)
+
+
+- If you let the user handle the error themselves, they have no easy way to handle the error gracefully since all of the state information is lost.<br>—Michael Malis
