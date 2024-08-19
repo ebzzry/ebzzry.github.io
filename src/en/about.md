@@ -2,23 +2,22 @@ About
 =====
 
 <div class="center">[Esperanto](/eo/pri/) | English</div>
-<div class="center">Last updated: April 2, 2024</div>
+<div class="center">Last updated: April 19, 2024</div>
 
 <div>
-<img src="/images/site/ebzzry.webp" style="float: right; width: 50%; margin: 0px 0px 0px 10px">
+<img src="/images/site/ebzzry.png" style="float: right; width: 50%; margin: 0px 0px 0px 10px">
 
 Rommel Martínez is an Artificial Intelligence researcher with over 25 years of
 professional experience in software engineering; systems administration; and
 programming language theory and design. His interests lie with consciousness,
 the mind, and reality. He is currently exploring how we can use modern computers
 to reach the low-hanging fruits of AI. He is the Chief Technology Officer at
-[Valmiz](https://valmiz.com) and is spearheading their AI research and development.
-
+[Valmiz, Inc.](https://valmiz.com) and is spearheading their AI research and development.
 
 Additionally, he likes to do physical training and sports, mainly with
-kettlebells, golf, and sport shooting.
+kettlebells, golf, and practical shooting. He is a proud member of [San Juan Elyu Shooter's Club, Inc.](https://www.facebook.com/sanjuanelyushootersclub) and [The Fraternal Order of Eagles - Philippine Eagles](https://gsnec.ph).
 
-He currently lives with his wife and son in the warm country of the Philippines.
+He currently lives with his wife and son in the Philippines.
 
 My GPG fingerprint is AEC6 0EAF 146E 0F1D 6704 697B 5405 D0D2 708E 7B30.
 </div>
