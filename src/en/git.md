@@ -261,6 +261,9 @@ Here are the most important commands that we need to have.
       (f) "${git}" fetch "$@" ;;
       (fa) "${self}" f --all "$@" ;;
 
+      (fr) "${git}" filter-repo "$@" ;;
+      (fr!) "${git}" filter-repo --force "$@" ;;
+
       (rm) "${git}" rm "$@" ;;
       (rmr) "${self}" rm -r "$@" ;;
       (rm!) "${self}" rm -rf "$@" ;;
@@ -562,6 +565,9 @@ function git {
 
       (f) "${git}" fetch "$@" ;;
       (fa) "${self}" f --all "$@" ;;
+
+      (fr) "${git}" filter-repo "$@" ;;
+      (fr!) "${git}" filter-repo --force "$@" ;;
 
       (rm) "${git}" rm "$@" ;;
       (rmr) "${self}" rm -r "$@" ;;

@@ -1,7 +1,7 @@
 Pensoj de [O]ptimisto
 =====================
 
-<div class="center">Esperanto | [English](/en/)</div>
+<div class="center">Esperanto • [English](/en/)</div>
 <div class="center">Laste ĝisdatigita: la 19-an de marto 2022</div>
 
 <img src="/images/site/pluvis-1008x250.webp" class="banner" alt="pluvis" title="Ĉe la vizaĝo de la kosmo, ni ĉiuj estas infanoj." />

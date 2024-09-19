@@ -17,8 +17,8 @@ Symbols and Marks
 
 - [Notes for Linux](#notesforlinux)
 - [Hyphen](#hyphen)
-- [En dashe](#endash)
-- [Em dashe](#emdash)
+- [En dash](#endash)
+- [Em dash](#emdash)
 - [Double quotes](#doublequotes)
 - [Single quotes](#singlequotes)
 - [Prime symbols](#prime)
