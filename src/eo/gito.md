@@ -2,7 +2,7 @@ Kiel Mi Uzas Giton
 ==================
 
 <div class="center">Esperanto • [English](/en/git/)</div>
-<div class="center">Laste ĝisdatigita: la 4-an de novembro 2022</div>
+<div class="center">Laste ĝisdatigita: la 19-an de septembro 2024</div>
 
 >Male, tiuj kun senĉeseco povas malatenti kiujn aliaj pensas. Ion ajn ili povas
 >fari en ilia propra mondo senzorgeme al la opinioj de tiuj ĉirkaŭ ili.<br>
@@ -263,9 +263,6 @@ Jen la plej gravaj komandoj kiujn ni unue devas havi.
       (f) "${git}" fetch "$@" ;;
       (fa) "${self}" f --all "$@" ;;
 
-      (fr) "${git}" filter-repo "$@" ;;
-      (fr!) "${git}" filter-repo --force "$@" ;;
-
       (rm) "${git}" rm "$@" ;;
       (rmr) "${self}" rm -r "$@" ;;
       (rm!) "${self}" rm -rf "$@" ;;
@@ -427,11 +424,8 @@ en la protokolo mi ne deziras havi.
       (cpc) "${self}" cp --continue "$@" ;;
       (cpa) "${self}" cp --abort "$@" ;;
 
-      (fb) FILTER_BRANCH_SQUELCH_WARNING=1 "${git}" filter-branch "$@" ;;
-      (fb!) "${self}" fb -f "$@" ;;
-      (fbm) "${self}" fb! --msg-filter "$@" ;;
-      (fbi) "${self}" fb! --index-filter "$@" ;;
-      (fbe) "${self}" fb! --env-filter "$@" ;;
+      (fr) "${git}" filter-repo "$@" ;;
+      (fr!) "${git}" filter-repo --force "$@" ;;
 
       (rp) "${git}" rev-parse "$@" ;;
       (rph) "${self}" rp HEAD ;;
@@ -443,17 +437,19 @@ en la protokolo mi ne deziras havi.
 Kiam ajn tekstojn de ĉiuj antaŭaj ŝanĝmesaĝoj mi volas ŝanĝi, ekzemple la vorton
 `hundo` mi volas ŝanĝi al `kato`, la jenan komandon mi rulas:
 
-    git fbm 'sed "s/hundo/kato/"'
+    git fr! --replace-message <(echo 'hundo==>kato')
 
 Kiam ajn dosieron mi volas forigi tute el la deponejo, ekzemple `dosiero.dat`,
 la jenan komandon mi rulas:
 
-    git fbi 'git rm --cached --ignore-unmatch dosiero.dat' HEAD
+    git fr! --invert-paths --path dosiero.dat
 
-Kiam ajn la retpoŝadreson mi volas ŝanĝi, ekzemple, al `kato@mondo.io`, la jenan
+Kiam ajn la retpoŝadreson mi volas ŝanĝi, ekzemple, de `hundo@mondo.io` al `kato@mondo.io`, la jenan
 komandon mi rulas:
 
-    git fbe 'export GIT_AUTHOR_EMAIL="kato@mondo.io"; export GIT_COMMITTER_EMAIL="kato@mondo.io"' --tag-name-filter cat -- --branches --tags
+```
+    git fr! --email-callback 'return email.replace(b"hundo@mondo.io", b"kato@mondo.io")'
+```
 
 La jenan komandon mi tiam uzas sekve, por certigi ke la ŝanĝoj aperas en la fora deponejo:
 
@@ -646,12 +642,6 @@ function git {
       (cp) "${git}" cherry-pick "$@" ;;
       (cpc) "${self}" cp --continue "$@" ;;
       (cpa) "${self}" cp --abort "$@" ;;
-
-      (fb) FILTER_BRANCH_SQUELCH_WARNING=1 "${git}" filter-branch "$@" ;;
-      (fb!) "${self}" fb -f "$@" ;;
-      (fbm) "${self}" fb! --msg-filter "$@" ;;
-      (fbi) "${self}" fb! --index-filter "$@" ;;
-      (fbe) "${self}" fb! --env-filter "$@" ;;
 
       (rp) "${git}" rev-parse "$@" ;;
       (rph) "${self}" rp HEAD ;;
