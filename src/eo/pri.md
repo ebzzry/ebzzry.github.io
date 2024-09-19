@@ -15,7 +15,7 @@ pendantajn fruktojn de AI. Li estas la ĉefa teĥnologia oficisto ĉe
 [Valmiz, Inc.](https://valmiz.com) kaj gvidas ilian AI-esploradon kaj -evoluadon.
 
 Krome, fiziktrejnado kaj sportoj tre interesas al li, precipe per globhalteroj,
-golfo, kaj [praktika pafado](https://www.youtube.com/@ebzzry). Li estes fiera ano de [San Juan Elyu Shooter’s Club, Inc.](https://www.facebook.com/sanjuanelyushootersclub) kaj [The Fraternal Order of Eagles - Philippine Eagles](https://gsnec.ph).
+golfo, kaj [praktika pafado](https://www.youtube.com/@ebzzry). Li estes fiera ano de [San Juan Elyu Shooter’s Club, Inc.](https://www.facebook.com/sanjuanelyushootersclub) kaj The Fraternal Order of Eagles - Philippine Eagles.
 
 Li nune loĝas kun sia edzino kaj filo en Filipinoj.
 </div>
