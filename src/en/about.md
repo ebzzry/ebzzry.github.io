@@ -2,7 +2,7 @@ About
 =====
 
 <div class="center">[Esperanto](/eo/pri/) | English</div>
-<div class="center">Last updated: April 19, 2024</div>
+<div class="center">Last updated: April 26, 2024</div>
 
 <div>
 <img src="/images/site/ebzzry.png" style="float: right; width: 50%; margin: 0px 0px 0px 10px">
@@ -18,9 +18,7 @@ Additionally, he likes to do physical training and sports, mainly with
 kettlebells, golf, and practical shooting. He is a proud member of [San Juan Elyu Shooter's Club, Inc.](https://www.facebook.com/sanjuanelyushootersclub) and [The Fraternal Order of Eagles - Philippine Eagles](https://gsnec.ph).
 
 He currently lives with his wife and son in the Philippines.
-
-My GPG fingerprint is AEC6 0EAF 146E 0F1D 6704 697B 5405 D0D2 708E 7B30.
 </div>
 <div class="center">
-[Email](mailto:rommel.martinez@valmiz.com) | [Publika ŝlosilo](/dat/rommel.martinez@valmiz.com.pub.asc) | [LinkedIn](https://www.linkedin.com/feed/) | [X](https://x.com/ebzzry) | [Facebook](https://fb.com/ebzzry)<br>
+[Email](mailto:rommel.martinez@valmiz.com) | [Public key](/dat/rommel.martinez@valmiz.com.pub.asc) | [LinkedIn](https://www.linkedin.com/feed/) | [YouTube](https://youtube.com/@ebzzry) | [X](https://x.com/ebzzry) | [Facebook](https://fb.com/ebzzry)<br>
 </div>
