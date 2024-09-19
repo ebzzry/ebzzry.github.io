@@ -2,7 +2,7 @@ How I Roll with Git
 ===================
 
 <div class="center">[Esperanto](/eo/gito/) | English</div>
-<div class="center">Last updated: November 4, 2022</div>
+<div class="center">Last updated: September 19, 2024</div>
 
 >Conversely, those with persistence can ignore what others think. They can press
 >on in their own world, oblivious to the opinions of those around them.<br>
@@ -261,9 +261,6 @@ Here are the most important commands that we need to have.
       (f) "${git}" fetch "$@" ;;
       (fa) "${self}" f --all "$@" ;;
 
-      (fr) "${git}" filter-repo "$@" ;;
-      (fr!) "${git}" filter-repo --force "$@" ;;
-
       (rm) "${git}" rm "$@" ;;
       (rmr) "${self}" rm -r "$@" ;;
       (rm!) "${self}" rm -rf "$@" ;;
@@ -421,11 +418,8 @@ visible entry in the commit log.
       (cpc) "${self}" cp --continue "$@" ;;
       (cpa) "${self}" cp --abort "$@" ;;
 
-      (fb) FILTER_BRANCH_SQUELCH_WARNING=1 "${git}" filter-branch "$@" ;;
-      (fb!) "${self}" fb -f "$@" ;;
-      (fbm) "${self}" fb! --msg-filter "$@" ;;
-      (fbi) "${self}" fb! --index-filter "$@" ;;
-      (fbe) "${self}" fb! --env-filter "$@" ;;
+      (fr) "${git}" filter-repo "$@" ;;
+      (fr!) "${git}" filter-repo --force "$@" ;;
 
       (rp) "${git}" rev-parse "$@" ;;
       (rph) "${self}" rp HEAD ;;
@@ -437,18 +431,22 @@ visible entry in the commit log.
 Whenever I want to change to change a text from all commit messages, for example
 I want to change word `dog` to `cat`, I run the following command:
 
-    git fbm 'sed "s/dog/cat/"'
+    git fr! --replace-message <(echo 'dog==>cat')
 
 Whenever I want to completely remove a file from a repository, for example
 `file.dat`, I run the following command:
 
-    git fbi 'git rm --cached --ignore-unmatch file.dat' HEAD
+    git fr! --invert-paths --path file.dat
 
-Whenever I want to change the email address in the commits, for example, to
+Whenever I want to change the email address in the commits, for example, from `dog@world.com` to
 `cat@world.com`, I run the following command:
 
     git fbe 'export GIT_AUTHOR_EMAIL="cat@world.com"; export GIT_COMMITTER_EMAIL="cat@world.com"' --tag-name-filter cat -- --branches --tags
 
+```
+    git fr! --email-callback 'return email.replace(b"dog@world.com", b"cat@world.com")'
+```
+  
 I then run the following command to make sure that the changes appear in the remote repository:
 
     git oo!
@@ -641,12 +639,6 @@ function git {
       (cp) "${git}" cherry-pick "$@" ;;
       (cpc) "${self}" cp --continue "$@" ;;
       (cpa) "${self}" cp --abort "$@" ;;
-
-      (fb) FILTER_BRANCH_SQUELCH_WARNING=1 "${git}" filter-branch "$@" ;;
-      (fb!) "${self}" fb -f "$@" ;;
-      (fbm) "${self}" fb! --msg-filter "$@" ;;
-      (fbi) "${self}" fb! --index-filter "$@" ;;
-      (fbe) "${self}" fb! --env-filter "$@" ;;
 
       (rp) "${git}" rev-parse "$@" ;;
       (rph) "${self}" rp HEAD ;;
