@@ -15,7 +15,7 @@ to reach the low-hanging fruits of AI. He is the Chief Technology Officer at
 [Valmiz, Inc.](https://valmiz.com) and is spearheading their AI research and development.
 
 Additionally, he likes to do physical training and sports, mainly with
-kettlebells, golf, and practical shooting. He is a proud member of [San Juan Elyu Shooter's Club, Inc.](https://www.facebook.com/sanjuanelyushootersclub) and [The Fraternal Order of Eagles - Philippine Eagles](https://gsnec.ph).
+kettlebells, golf, and practical shooting. He is a proud member of [San Juan Elyu Shooter's Club, Inc.](https://www.facebook.com/sanjuanelyushootersclub) and The Fraternal Order of Eagles - Philippine Eagles.
 
 He currently lives with his wife and son in the Philippines.
 </div>
