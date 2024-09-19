@@ -4,7 +4,7 @@ FILES=$(filter-out footer.md index.md, $(wildcard *.md))
 EMEM=emem
 
 OG_TITLE="$$(head -1 $<)"
-OG_TIPO="article"
+OG_TYPE="article"
 OG_IMAGE="https://ebzzry.com/images/ico/android-chrome-512x512.png"
 
 all:
@@ -13,7 +13,7 @@ all:
   -D "A journal about computing, human predilections, and random krakaboom." \
   -K "ebzzry, rommel martinez" \
   --og-title "Musings of an Optimist" \
-  --og-type $(OG_TIPO) \
+  --og-type $(OG_TYPE) \
   --og-url "https://ebzzry.com/en/" \
   --og-image $(OG_IMAGE) \
   --lang "en" \
@@ -26,7 +26,7 @@ all:
   -D $(OG_TITLE) \
   -K "$$(cat $$(basename $< .md).dat)" \
   --og-title $(OG_TITLE) \
-  --og-type $(OG_TIPO) \
+  --og-type $(OG_TYPE) \
   --og-url "https://ebzzry.com/en/$$(basename $< .md)/" \
   --og-image $(OG_IMAGE) \
   --lang "en" \

@@ -113,7 +113,7 @@ dedicated programs must be used to write to these trees.
 ### <a name="nixosinstallation">Installation</a>
 
 Installation of NixOS is straightforward. For bare-metal systems, download an installer
-from [nixos.org/nixos/download.html](https://nixos.org/nixos/download.html). VM images are
+from [nixos.org/download](https://nixos.org/download/). VM images are
 also available from that page. For my last installation, I installed with the following setup:
 
 - [UEFI](https://en.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface)

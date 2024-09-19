@@ -1,7 +1,7 @@
 Kiel Mi Uzas Giton
 ==================
 
-<div class="center">Esperanto | [English](/en/git/)</div>
+<div class="center">Esperanto • [English](/en/git/)</div>
 <div class="center">Laste ĝisdatigita: la 4-an de novembro 2022</div>
 
 >Male, tiuj kun senĉeseco povas malatenti kiujn aliaj pensas. Ion ajn ili povas
@@ -262,6 +262,9 @@ Jen la plej gravaj komandoj kiujn ni unue devas havi.
 
       (f) "${git}" fetch "$@" ;;
       (fa) "${self}" f --all "$@" ;;
+
+      (fr) "${git}" filter-repo "$@" ;;
+      (fr!) "${git}" filter-repo --force "$@" ;;
 
       (rm) "${git}" rm "$@" ;;
       (rmr) "${self}" rm -r "$@" ;;
@@ -567,6 +570,9 @@ function git {
 
       (f) "${git}" fetch "$@" ;;
       (fa) "${self}" f --all "$@" ;;
+
+      (fr) "${git}" filter-repo "$@" ;;
+      (fr!) "${git}" filter-repo --force "$@" ;;
 
       (rm) "${git}" rm "$@" ;;
       (rmr) "${self}" rm -r "$@" ;;

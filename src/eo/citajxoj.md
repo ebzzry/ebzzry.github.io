@@ -1,7 +1,7 @@
 Citaĵoj
 =======
 
-<div class="center">Esperanto | [English](/en/quotes/)</div>
+<div class="center">Esperanto • [English](/en/quotes/)</div>
 <div class="center">Laste ĝisdatigita: la 23-an de julio 2024</div>
 
 <img src="/images/site/wallhaven-77816-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
@@ -27,7 +27,7 @@ tra la jaroj.
 - Oni ne vere komprenas ion krom se oni povas klarigi tion al sia avino.<br>—Alberto EJNŜTEJNO
 
 
-- Vojo de mil mejloj komencas per unuobla paŝo.<br>—Laŭzio
+- Vojo de mil mejloj komencas per unu paŝo.<br>—Laŭzio
 
 
 - Oni ne scias kion oni faros. Oni komencas pentri pentraĵon kaj ĝi fariĝos io tute

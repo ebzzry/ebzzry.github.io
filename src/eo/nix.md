@@ -1,7 +1,7 @@
 Milda Enkonduko al la Nix-Familio
 =================================
 
-<div class="center">Esperanto | [English](/en/nix/)</div>
+<div class="center">Esperanto • [English](/en/nix/)</div>
 <div class="center">Laste ĝisdatigita: la 28-an de marto 2022</div>
 
 >Ne maltrankviliĝu pri tio, kion la aliaj faros. La plej bona maniero por antaŭdiri la estontecon estas por eltrovi ĝin.<br>—Alan KAY
@@ -109,7 +109,7 @@ al ĉi tiuj arboj.
 ### <a name="nixosinstalo">Instalo</a>
 
 Instalo de NixOS simplas. Por «nudmetalaj» sistemoj, elŝutu la instalilon el
-[nixos.org/nixos/download.html](https://nixos.org/nixos/download.html). Virtualmaŝinaj diskbildoj
+[nixos.org/download](https://nixos.org/download/). Virtualmaŝinaj diskbildoj
 ankaŭ haveblas de tiu paĝo. De mia lasta instalo, mi instalis per la jena agordo:
 
 - [UEFI](https://en.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface)
