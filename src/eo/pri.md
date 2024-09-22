@@ -2,7 +2,7 @@ Pri
 ===
 
 <div class="center">Esperanto • [English](/en/about/)</div>
-<div class="center">Laste ĝisdatigita: la 26-an de aprilo 2024</div>
+<div class="center">Laste ĝisdatigita: la 22-an de septembro 2024</div>
 
 <div>
 <img src="/images/site/ebzzry.png" style="float: right; width: 50%; margin: 0px 0px 0px 10px">
@@ -20,5 +20,5 @@ golfo, kaj [praktika pafado](https://www.youtube.com/@ebzzry). Li estes fiera an
 Li nune loĝas kun sia edzino kaj filo en Filipinoj.
 </div>
 <div class="center">
-[Retpoŝto](mailto:rommel.martinez@valmiz.com) • [Publikŝlosilo](/dat/rommel.martinez@valmiz.com.pub.asc) • [LinkedIn](https://www.linkedin.com/feed/) • [Jutubo](https://youtube.com/@ebzzry) • [X](https://x.com/ebzzry) • [Fejsbuko](https://fb.com/ebzzry)<br>
+[Retpoŝto](mailto:rommel.martinez@valmiz.com) • [LinkedIn](https://www.linkedin.com/feed/) • [Jutubo](https://youtube.com/@ebzzry) • [X](https://x.com/ebzzry) • [Fejsbuko](https://fb.com/ebzzry)<br>
 </div>
