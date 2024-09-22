@@ -1,7 +1,7 @@
 How I Roll with Git
 ===================
 
-<div class="center">[Esperanto](/eo/gito/) | English</div>
+<div class="center">[Esperanto](/eo/gito/) • English</div>
 <div class="center">Last updated: September 19, 2024</div>
 
 >Conversely, those with persistence can ignore what others think. They can press

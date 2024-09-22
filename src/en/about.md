@@ -1,8 +1,8 @@
 About
 =====
 
-<div class="center">[Esperanto](/eo/pri/) | English</div>
-<div class="center">Last updated: April 26, 2024</div>
+<div class="center">[Esperanto](/eo/pri/) • English</div>
+<div class="center">Last updated: September 22, 2024</div>
 
 <div>
 <img src="/images/site/ebzzry.png" style="float: right; width: 50%; margin: 0px 0px 0px 10px">
@@ -20,5 +20,5 @@ kettlebells, golf, and practical shooting. He is a proud member of [San Juan Ely
 He currently lives with his wife and son in the Philippines.
 </div>
 <div class="center">
-[Email](mailto:rommel.martinez@valmiz.com) | [Public key](/dat/rommel.martinez@valmiz.com.pub.asc) | [LinkedIn](https://www.linkedin.com/feed/) | [YouTube](https://youtube.com/@ebzzry) | [X](https://x.com/ebzzry) | [Facebook](https://fb.com/ebzzry)<br>
+[Email](mailto:rommel.martinez@valmiz.com) • [LinkedIn](https://www.linkedin.com/feed/) • [YouTube](https://youtube.com/@ebzzry) • [X](https://x.com/ebzzry) • [Facebook](https://fb.com/ebzzry)<br>
 </div>
