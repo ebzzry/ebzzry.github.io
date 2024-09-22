@@ -1,5 +1,5 @@
-Musings of an [O]ptimist
-========================
+Musings of an Optimist
+======================
 
 <div class="center">[Esperanto](/eo/) | English</div>
 <div class="center">Last updated: March 17, 2022</div>
