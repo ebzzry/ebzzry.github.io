@@ -7,7 +7,7 @@
 </div>
 
 <div class="text-x-small">
-Kreita kun ❤️ de Rommel Martínez
+Kreita per ❤️ de Rommel Martínez
 </div>
 
 </div>

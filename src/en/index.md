@@ -1,8 +1,8 @@
-Love life. Live love. ❤️
-=======================
+Love With Life. Live With Love.
+===============================
 
 <div class="center">[Esperanto](/eo/) • English</div>
-<div class="center">Last updated: March 17, 2022</div>
+<div class="center">Last updated: September 29, 2024</div>
 
 <img src="/images/site/pluvis-1008x250.webp" class="banner" alt="pluvis" title="On the face of the cosmos, we all are children." />
 
