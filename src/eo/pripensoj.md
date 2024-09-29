@@ -2,7 +2,7 @@ Pripensoj
 =========
 
 <div class="center">Esperanto • [English](/en/reflections/)</div>
-<div class="center">Laste ĝisdatigita: la 13-an de februaro 2024</div>
+<div class="center">Laste ĝisdatigita: la 29-an de septembro 2024</div>
 
 Ĉi tiu paĝo enhavas kelke da miaj propraj pripensoj. La enskriboj estas
 ordigitaj laŭ kronologiordo.
@@ -492,3 +492,6 @@ ordigitaj laŭ kronologiordo.
 
 
 - Tempo kiun oni uzas por la detruo de aliaj estas tempo kiun oni ni uzas por sia kresko.<br>
+
+
+- Eĉ la tutmondo malsuprentiras vin, vi eventuale trovas iun kiu suprentiros vin.<br>

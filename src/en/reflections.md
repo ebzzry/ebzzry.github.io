@@ -2,7 +2,7 @@ Reflections
 ===========
 
 <div class="center">[Esperanto](/eo/pripensoj/) • English</div>
-<div class="center">Last updated: February 13, 2024</div>
+<div class="center">Last updated: September 29, 2024</div>
 
 This page contains contains some of my personal reflections. Entries are sorted
 in chronological order.
@@ -500,3 +500,6 @@ in chronological order.
 
 
 - Time spent on the destruction of others is time not spent for your own growth.<br>
+
+
+- Even if the whole world pulls you down, you’ll eventually find someone who’ll pull you up.<br>
