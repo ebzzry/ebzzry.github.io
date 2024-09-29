@@ -1,8 +1,8 @@
-Amu la vivon. Vivu la amon. ❤️
-=============================
+Amu Per Vivo. Vivu Per Amo.
+===========================
 
 <div class="center">Esperanto • [English](/en/)</div>
-<div class="center">Laste ĝisdatigita: la 19-an de marto 2022</div>
+<div class="center">Laste ĝisdatigita: la 29-an de septembro 2024</div>
 
 <img src="/images/site/pluvis-1008x250.webp" class="banner" alt="pluvis" title="Ĉe la vizaĝo de la kosmo, ni ĉiuj estas infanoj." />
 
