@@ -2,7 +2,7 @@ Citaĵoj
 =======
 
 <div class="center">Esperanto • [English](/en/quotes/)</div>
-<div class="center">Laste ĝisdatigita: la 23-an de julio 2024</div>
+<div class="center">Laste ĝisdatigita: la 13-an de oktobro 2024</div>
 
 <img src="/images/site/wallhaven-77816-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -1058,3 +1058,9 @@ tra la jaroj.
 
 
 - Se oni lasas la uzanton trakti la eraron per ili mem, ili ne havas facilan manieron por trakti la eraron gracie pro tio ke ĉiom da stata informo estas perdita.<br>—Michael Malis
+
+
+- Regulo unua, neniam porti ion ajn kiun vi ne regas.<br>—Luthen, Andor (2022)
+
+
+- Regula dua, konstrui elirejon survoje enen.<br>—Luthen, Andor (2022).

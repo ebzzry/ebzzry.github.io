@@ -2,7 +2,7 @@ Quotes
 ======
 
 <div class="center">[Esperanto](/eo/citajxoj/) • English</div>
-<div class="center">Last updated: July 23, 2024</div>
+<div class="center">Last updated: October 13, 2024</div>
 
 <img src="/images/site/wallhaven-77816-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -1072,3 +1072,9 @@ the years.
 
 
 - If you let the user handle the error themselves, they have no easy way to handle the error gracefully since all of the state information is lost.<br>—Michael Malis
+
+
+- Rule number one, never carry anything you don't control.<br>—Luthen, Andor (2022)
+
+
+- Rule number two, build your exit on your way in.<br>—Luthen, Andor (2022).
