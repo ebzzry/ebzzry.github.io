@@ -2,7 +2,7 @@ Quotes
 ======
 
 <div class="center">[Esperanto](/eo/citajxoj/) • English</div>
-<div class="center">Last updated: October 13, 2024</div>
+<div class="center">Last updated: November 24, 2024</div>
 
 <img src="/images/site/wallhaven-77816-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -1078,3 +1078,9 @@ the years.
 
 
 - Rule number two, build your exit on your way in.<br>—Luthen, Andor (2022).
+
+
+- Life is boring if you avoid all competition for fear of losing. Besides, how would you get better that way?<br>—Lancelot Norman, Rising Impact (2024)
+
+
+- Be good enough to forgive people, but don't be stupid enough to trust them again.<br>—Anonymous

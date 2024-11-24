@@ -2,7 +2,7 @@ Citaĵoj
 =======
 
 <div class="center">Esperanto • [English](/en/quotes/)</div>
-<div class="center">Laste ĝisdatigita: la 13-an de oktobro 2024</div>
+<div class="center">Laste ĝisdatigita: la 24-an de novembro 2024</div>
 
 <img src="/images/site/wallhaven-77816-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -1064,3 +1064,9 @@ tra la jaroj.
 
 
 - Regula dua, konstrui elirejon survoje enen.<br>—Luthen, Andor (2022).
+
+
+- La vivo enuas se oni evitas ĉiom da konkurso pro timo de malvenko. Krome, kiel oni povas pliboniĝi tiel?<br>—Lancelot Norman, Rising Impact (2024)
+
+
+- Estu sufiĉe bone por pardonpeti homojn, sed ne estu sufiĉe stulte por fidi ilin denove.<br>—anonimulo
