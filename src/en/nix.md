@@ -1541,18 +1541,6 @@ mandatory that there are two arguments and that they are `self` and `super`.
 Next, specify that for the `racket` attribute, it will call the `override` function from
 the source layer, passing it an attribute set that will contain the overrides.
 
-Another example is that if you want to enable [NaCl](https://developer.chrome.com/native-client) for
-[Chromium](https://github.com/NixOS/nixpkgs/blob/master/pkgs/applications/networking/browsers/chromium/default.nix),
-create the file `~/.config/nixpkgs/overlays/chromium.nix` with the following contents:
-
-```nix
-self: super: {
-  chromium = super.chromium.override {
-    enableNaCl = true;
-  };
-}
-```
-
 When you install or reinstall Racket or Chromium, those settings will be read and taken into effect:
 
     $ nix-env -iA $(nix-channel --list | awk '{print $1}').racket

@@ -420,13 +420,7 @@ CL, and each implementation strives to achieve goals that may not necessarily be
 other implementations. That’s OK, because it gives room for implementors and designers, on how to
 work on the base specifications. As long as they conform to the standard, things are green.
 
-[barf](https://github.com/ebzzry/barf), a Nixpkgs and NixOS helper, is a working example of CL
-scripting. [pelo](https://github.com/zhaqenl/pelo/), a ping wrapper, is also another example that
-uses this facility. I wrote several personal helper
-[scripts](https://github.com/ebzzry/scripts/), that I hooked with my StumpWM
-[config](https://github.com/ebzzry/dotfiles/tree/master/stumpwm).
-
-The human responsible for making scripting in CL possible and acceptable, is
+The person responsible for making scripting in CL possible and acceptable, is
 [François-René Rideau](http://fare.tunes.org). It was 
 [this blog entry](http://fare.livejournal.com/184127.html) that motivated me to see the viability of CL as a scripting language.
 
