@@ -419,11 +419,6 @@ kiuj ne necesas kongruaj al la aliaj realigoj. Tio bonas tial, ke spacon ĝi kre
 kaj desegnistoj, pri kiel labori ĉe la bazaj specifoj. Tiel longe kiel ili akordas al la normo,
 aferoj verdas.
 
-[baf](https://github.com/ebzzry/baf), Nixpkgs- kaj NixOS-helpilo, estas funkcia ekzemplo de komunlispa
-skriptado. [pelo](https://github.com/zhaqenl/pelo/), ping-kovrilo, estas alia ekzemplo, kiu ĉi
-tiun facilon uzas. Kelkajn personajn helpilajn [skriptojn](https://github.com/ebzzry/scripts/) kiujn
-mi kroĉis al mia [StumpWM-agordo](https://github.com/ebzzry/dotfiles/tree/master/stumpwm) mi skribis. 
-
 La priresponda homo por komunlispon igi ebla kaj akceptebla estas
 [François-René RIDEAU](http://fare.tunes.org). Estis
 [ĉi tiu blogo](http://fare.livejournal.com/184127.html) kiu min inspiris por la

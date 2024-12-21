@@ -90,7 +90,7 @@ procezo. Al tiuj, kiuj ne konas la Comint-reĝimon, ĝi estas la sama reĝimo ki
 EN`.
 
 Do, kion oni povas fari per tio? Dum redakti `.rkt`-dosieron, jen kelkaj kutimaj klavkombinoj, kiujn
-mi uzas. La plena listo haveblas [ĉi tie](http://www.nongnu.org/geiser/geiser_5.html#Cheat-sheet).
+mi uzas. La plena listo haveblas [ĉi tie](https://www.nongnu.org/geiser/Cheat-sheet.html#Cheat-sheet).
 Notu, ke la priskribo de la klavoj, kiujn mi uzas malsupre, estas por mi mem komence, por helpi min
 kompreni tion, kion ĝi faras. Eble ili malsimilas al la oficiala priskribo, listigita ĉe la
 antaŭmenciita ligilo.

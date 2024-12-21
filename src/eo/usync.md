@@ -31,7 +31,7 @@ oficejo bezonas la informon de la dua oficejo, ili permane bezonas tiri la ĝisd
 sinkronigo, la unua oficejo povas aliri la dosierojn el la dua oficejo, kvazaŭ la informadika kaj
 homfaktora fakoj, estis en la unua oficejo. Usync helpas atingi tion. Ĝi estas kreita per
 [Scsh](https://www.scsh.net). Ĝi uzas [Unison](http://www.cis.upenn.edu/~bcpierce/unison/) kaj
-[rsync](http://rsync.samba.org/) por ambaŭ- kaj unudirekta sinkronigoj, respektive.
+[rsync](https://rsync.samba.org/) por ambaŭ- kaj unudirekta sinkronigoj, respektive.
 
 
 <a name="instalo">Instalo</a>

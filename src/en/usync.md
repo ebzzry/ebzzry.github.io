@@ -31,7 +31,7 @@ department. Without synchronization, when the first office needs information fro
 they’d have to pull the updates, manually. With synchronization, the first office can access the
 files from the second office, as if the IT and HR departments, were in the first office. Usync helps
 to achieve this. It is written in [Scsh](https://www.scsh.net). It makes use of
-[Unison](http://www.cis.upenn.edu/~bcpierce/unison/), and [rsync](http://rsync.samba.org/), for bi-
+[Unison](http://www.cis.upenn.edu/~bcpierce/unison/), and [rsync](https://rsync.samba.org/), for bi-
 and uni-directional synchronizations, respectively.
 
 
