@@ -1529,18 +1529,6 @@ devige, ke estas nur du argumentoj kaj ili estas `self` kaj `super`.
 Sekve, precizigu, ke por la `racket`-atributo, ĝi vokos la funkcion `override` el la fonta tavolo,
 donante al ĝi atributan aron kiu enhavas la transpasojn.
 
-Alia ekzemplo estas ke se oni volas ŝalti [NaCl](https://developer.chrome.com/native-client) por
-[Chromium](https://github.com/NixOS/nixpkgs/blob/master/pkgs/applications/networking/browsers/chromium/default.nix),
-kreu la dosieron `~/.config/nixpkgs/overlays/chromium.nix` per la jena enhavo:
-
-```nix
-self: super: {
-  chromium = super.chromium.override {
-    enableNaCl = true;
-  };
-}
-```
-
 Kiam oni instalas Racket aŭ Chromium, tiuj agordoj estos legataj kaj efektiviĝos.
 
     $ nix-env -iA $(nix-channel --list | awk '{print $1}').racket

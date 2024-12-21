@@ -693,7 +693,7 @@ aperos la listoj de dosieroj administritaj de git, anstataŭ la teksto
 
 Do, per tiu funkcio, mi povas labori per gito pli facile tial, ke mi nur
 devas pensi pli la mallongigoj. Krome aliron al miaj aliaj ŝelaj komandoj mi
-havas. Pro tio ke je [tmux](/eo/tmux/) mi uzas, kiam ajn giton mi bezonas uzi,
+havas. Pro tio ke je [tmux](/eo/timukso/) mi uzas, kiam ajn giton mi bezonas uzi,
 klavkombinon por la malfermado de alia tmux-fenestro sube mi nur devas
 premi. Tie, tiujn gitkomandojn mi povas facile sen la ŝanĝon de ekranvido kiun
 Magit bedaŭrinde faras. Min ĝi ebligas por pensi aparte inter la kodo kaj la

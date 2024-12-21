@@ -89,7 +89,7 @@ who are unfamiliar with Comint mode, it is the same mode that handles `M-x shell
 RET`.
 
 So, what can you do with it? While editing `.scm` file, here are some of the usual shortcuts that I
-use. The full list of keys are [available here](http://www.nongnu.org/geiser/geiser_5.html#Cheat-sheet).
+use. The full list of keys are [available here](https://www.nongnu.org/geiser/Cheat-sheet.html#Cheat-sheet).
 Take note, that the description of the keys that I use below, are for myself initially, to help me
 understand what they do. They may, or may not diverge from the official description, listed on the
 aforementioned link.
