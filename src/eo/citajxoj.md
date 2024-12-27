@@ -2,7 +2,7 @@ Citaĵoj
 =======
 
 <div class="center">Esperanto • [English](/en/quotes/)</div>
-<div class="center">Laste ĝisdatigita: la 24-an de novembro 2024</div>
+<div class="center">Laste ĝisdatigita: la 26-an de decembro 2024</div>
 
 <img src="/images/site/wallhaven-77816-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -1070,3 +1070,6 @@ tra la jaroj.
 
 
 - Estu sufiĉe bone por pardonpeti homojn, sed ne estu sufiĉe stulte por fidi ilin denove.<br>—anonimulo
+
+
+- La sola mistero kiu estas restanta estas virinoj.<br>—Ben Stoeger

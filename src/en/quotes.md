@@ -2,7 +2,7 @@ Quotes
 ======
 
 <div class="center">[Esperanto](/eo/citajxoj/) • English</div>
-<div class="center">Last updated: November 24, 2024</div>
+<div class="center">Last updated: December 26, 2024</div>
 
 <img src="/images/site/wallhaven-77816-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -1084,3 +1084,6 @@ the years.
 
 
 - Be good enough to forgive people, but don't be stupid enough to trust them again.<br>—Anonymous
+
+
+- The only mystery that’s left is women.<br>—Ben Stoeger
