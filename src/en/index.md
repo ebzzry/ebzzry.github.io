@@ -1,4 +1,4 @@
-Love With Life. Live With Love.
+(:site [ebzzry.com] :lang [en])
 ===============================
 
 <div class="center">[Esperanto](/eo/) • English</div>
