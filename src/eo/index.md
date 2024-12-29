@@ -1,5 +1,5 @@
-Amu Per Vivo. Vivu Per Amo.
-===========================
+(:site [ebzzry.com] :lang [eo])
+===============================
 
 <div class="center">Esperanto • [English](/en/)</div>
 <div class="center">Laste ĝisdatigita: la 29-an de septembro 2024</div>
