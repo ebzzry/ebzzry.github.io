@@ -1,5 +1,5 @@
-(:site [ebzzry.com] :lang [eo])
-===============================
+(:og-title [Pensoj de Optimumisto]) :og-url [https://ebzzry.com/en/])
+=====================================================================
 
 <div class="center">Esperanto • [English](/en/)</div>
 <div class="center">Laste ĝisdatigita: la 29-an de septembro 2024</div>
