@@ -1,5 +1,5 @@
-(:og-title [Musings of an Optimalist] :og-url [https://ebzzry.com/en/])
-=======================================================================
+(:svc [#0x80])
+==============
 
 <div class="center">[Esperanto](/eo/) • English</div>
 <div class="center">Last updated: September 29, 2024</div>
