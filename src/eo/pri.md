@@ -17,8 +17,7 @@ limojn de tio, kion oni povas komputi per artefarita inteligenteco. Li estas la
 ĉefa teĥnologia oficisto ĉe [Valmiz, Inc.](https://valmiz.com) kaj gvidas ilian
 AI-esploradon kaj -evoluadon.
 
-Krome, fiziktrejnado kaj sportoj tre interesas al li, precipe per globhalteroj,
-golfo, kaj [praktika pafado](https://www.youtube.com/@ebzzry). Li estes fiera
+Krome, fiziktrejnado kaj sportoj tre interesas al li, precipe per golfo kaj [praktika pafado](https://www.youtube.com/@ebzzry). Li estes fiera
 ano de San Juan Elyu Shooter’s Club, Inc. kaj The Fraternal Order of Eagles -
 Philippine Eagles.
 
