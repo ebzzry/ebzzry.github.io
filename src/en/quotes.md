@@ -1087,3 +1087,6 @@ the years.
 
 
 - The only mystery that’s left is women.<br>—Ben Stoeger
+
+
+- People don’t actually like knowing they’re living in a simulation even if they strongly believe it’s true.<br>—Maggie Kim, Pantheon

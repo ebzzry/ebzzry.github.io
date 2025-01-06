@@ -1073,3 +1073,6 @@ tra la jaroj.
 
 
 - La sola mistero kiu estas restanta estas virinoj.<br>—Ben Stoeger
+
+
+- Homoj ne fakte tre ŝatas scii ili estas en ŝajnigado eĉ ili ege kredas, ke ĝi veras.<br>—Maggie Kim, Pantheon
