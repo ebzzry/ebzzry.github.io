@@ -2,7 +2,7 @@ Pripensoj
 =========
 
 <div class="center">Esperanto • [English](/en/reflections/)</div>
-<div class="center">Laste ĝisdatigita: la 29-an de septembro 2024</div>
+<div class="center">Laste ĝisdatigita: la 7-an de januaro 2025</div>
 
 Ĉi tiu paĝo enhavas kelke da miaj propraj pripensoj. La enskriboj estas
 ordigitaj laŭ kronologiordo.
@@ -495,3 +495,6 @@ ordigitaj laŭ kronologiordo.
 
 
 - Eĉ la tutmondo malsuprentiras vin, vi eventuale trovas iun kiu suprentiros vin.<br>
+
+
+- Ne estas la plej forta kiu venkas; estas tiu kiu rifuzas rezigni.<br>
