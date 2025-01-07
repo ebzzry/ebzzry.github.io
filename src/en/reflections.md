@@ -2,7 +2,7 @@ Reflections
 ===========
 
 <div class="center">[Esperanto](/eo/pripensoj/) • English</div>
-<div class="center">Last updated: September 29, 2024</div>
+<div class="center">Last updated: January 7, 2025</div>
 
 This page contains contains some of my personal reflections. Entries are sorted
 in chronological order.
@@ -503,3 +503,6 @@ in chronological order.
 
 
 - Even if the whole world pulls you down, you’ll eventually find someone who’ll pull you up.<br>
+
+
+- It’s not the strongest who wins; it’s the one who refuses to give up.<br>
