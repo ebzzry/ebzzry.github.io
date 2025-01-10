@@ -17,10 +17,9 @@ determine the upper limits of what can be computed with artificial intelligence.
 He is the Chief Technology Officer at [Valmiz, Inc.](https://valmiz.com) and is
 spearheading their AI research and development.
 
-He likes to do physical training and sports, mainly with golf and [practical
-shooting](https://www.youtube.com/@ebzzry). He is a proud member of San Juan
-Elyu Shooter's Club, Inc.  and The Fraternal Order of Eagles - Philippine
-Eagles.
+He likes to do physical training and sports, mainly with golf (NGAP) and
+practical shooting (PPSA). He is a proud member of San Juan Elyu Shooter's Club,
+Inc.  and The Fraternal Order of Eagles - Philippine Eagles.
 
 He currently lives with his wife and son in the Philippines.
 </div>
