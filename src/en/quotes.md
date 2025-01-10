@@ -2,7 +2,7 @@ Quotes
 ======
 
 <div class="center">[Esperanto](/eo/citajxoj/) • English</div>
-<div class="center">Last updated: December 26, 2024</div>
+<div class="center">Last updated: January 8, 2025</div>
 
 <img src="/images/site/wallhaven-77816-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -1090,3 +1090,6 @@ the years.
 
 
 - People don’t actually like knowing they’re living in a simulation even if they strongly believe it’s true.<br>—Maggie Kim, Pantheon
+
+
+- You don’t solve more with more. You solve it with less.<br>—Caspian Keyes, Pantheon

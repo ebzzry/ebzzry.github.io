@@ -2,7 +2,7 @@ Citaĵoj
 =======
 
 <div class="center">Esperanto • [English](/en/quotes/)</div>
-<div class="center">Laste ĝisdatigita: la 26-an de decembro 2024</div>
+<div class="center">Laste ĝisdatigita: la 8-an de januaro 2025</div>
 
 <img src="/images/site/wallhaven-77816-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -1076,3 +1076,6 @@ tra la jaroj.
 
 
 - Homoj ne fakte tre ŝatas scii ili estas en ŝajnigado eĉ ili ege kredas, ke ĝi veras.<br>—Maggie Kim, Pantheon
+
+
+- Oni ne solvas pli per pli. Oni solvu ĝin per malpli.<br>—Caspian Keyes, Pantheon
