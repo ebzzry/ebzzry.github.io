@@ -563,3 +563,5 @@ Supozante, ke la fonta informo ja validas, la argumento kiun persono A prezentas
 -------------------------------------
 
 Mi esperas, ke per ĉi tiu afiŝo, mi povis doni plian pensadan klarecon.
+
+_Dank’ al [Zmitro Lapcionak](https://www.facebook.com/zmitro.lapcionak/) kaj [Németh S. Csaba](https://www.facebook.com/ashonine/) pro la korektoj._
