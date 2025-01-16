@@ -2,7 +2,7 @@ Milda Enkonduko al Sofismoj
 ===========================
 
 <div class="center">Esperanto • [English](/en/fallacies/)</div>
-<div class="center">Laste ĝisdatigita: la 23-an de junio 2022</div>
+<div class="center">Laste ĝisdatigita: la 16-an de januaro 2024</div>
 
 >Lerni ne necesas; nek travivas.<br>
 >—W. Edwards DEMING
@@ -73,7 +73,7 @@ da ili estas kaŝitaj en klaraj vidoj dum aliaj rampas en la anguloj kaj bezonas
 Post kiam okazis A, okazis B. Tial, A kaŭzis B. Kiam okazo okazis post alia okazo, estas antaŭsupozite, ke tio,
 kio okazis antaŭe devis havi la kaŭzon.
 
->«Post kiam Silvja preĝis al Vakelo, sia patro pliresaniĝis el lia malsano. Do, ni kultu Vakelo!»
+>«Post kiam Silvja preĝis al Vakelo, ŝia patro pliresaniĝis el sia malsano. Do, ni kultu Vakelon!»
 
 Ĉi tio estas erara ĉar Silvja malatentas la eblecon, ke estis eble la medikamento kiu plisanigis sian patron.
 
@@ -270,7 +270,7 @@ diskutitaj aferoj.
 Ĉi tio estas fifarita kiam la agoj, elektoj, kaj vortoj de persono de aŭtoritato, aŭ sperto,
 uziĝas por refuti la asertojn de alia persono.
 
->«La teorio de evoluado eraras pro Johano, kiu estas sciencisto diris, ke li ne kredas ĝin.»
+>«La teorio de evoluado eraras pro Johano, kiu estas sciencisto kaj diris, ke li ne kredas ĝin.»
 
 Nur pro tio ke iu estas sciencisto, ne signifas ke ĝi subtenas la [teorion de
 evoluado](http://notjustatheory.com/). Estas verŝajne, ke eĉ ĝi estas sciencisto li ne kredas la
