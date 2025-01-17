@@ -2,7 +2,7 @@
 ==============
 
 <div class="center">[Esperanto](/eo/) • English</div>
-<div class="center">Last updated: September 29, 2024</div>
+<div class="center">Last updated: January 17, 2025</div>
 
 <img src="/images/site/pluvis-1008x250.webp" class="banner" alt="pluvis" title="On the face of the cosmos, we all are children." />
 
