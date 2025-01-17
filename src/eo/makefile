@@ -17,7 +17,7 @@ all:
   --og-url "https://ebzzry.com/eo/" \
   --og-image $(OG_IMAGE) \
   --lang "eo" \
-  -C "html { max-width: 50em; } .footer { max-width: 24em }" \
+  -C ".footer { max-width: 24em } code { font-weight: normal }" \
   -RFamuo ../../eo/index.html index.md pagxopiedo.md
 
 %.html: %.md
@@ -30,7 +30,7 @@ all:
   --og-url "https://ebzzry.com/eo/$$(basename $< .md)/" \
   --og-image $(OG_IMAGE) \
   --lang "eo" \
-  -C "html { max-width: 50em; } .footer { max-width: 24em }" \
+  -C ".footer { max-width: 24em } code { font-weight: normal }" \
   -RFamuo "../../eo/$$(basename $< .md)/index.html" $< pagxopiedo.md
 
 clean:
