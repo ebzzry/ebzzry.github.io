@@ -8,6 +8,7 @@
 
 <div class="text-right">Retejo pri informadiko, hominklinaĵoj, kaj hazardaĵoj. La enskriboj estas ordigitaj laŭ inverskronologiordo.</div>
 
+- [Kiel Mi Uzas la Advantage360 Pro-Klavaron](adv360/)
 - [Kiel Mi Uzas Giton](gito/)
 - [Milda Enkonduko al Nedeterminismo en Skimo](amb/)
 - [Ziŝaj Konsiletoj 4-a: Ĝeneralhelpiloj](zisxkonsiletoj-4-a/)
@@ -28,7 +29,7 @@
 - [Signoj kaj Interpunkcioj](signoj-interpunkcioj/)
 - [Verbotempoj en La Angla (Mallongigite)](verbotempoj-la-angla-mallongigite/)
 - [Verbotempoj en La Angla](verbotempoj-la-angla/)
-- [Kiel Mi Uzas la Kinesis Advantage](avantagxo/)
+- [Kiel Mi Uzas la Kinesis Advantage-Klavaron](advantage/)
 - [Lakona Rondvojaĝo de Gito kaj GitHub](gito-github/)
 - [Emakso kaj Paroj](emakso-paroj/)
 - [Virtualigado en Linukso per KVM](kvm/)

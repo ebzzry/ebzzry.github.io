@@ -39,7 +39,7 @@ n0&#95;greater: n0&#95;greater {
   bindings = &lt;&amp;kp N0&gt;, &lt;&amp;kp GREATER&#95;THAN&gt;;
   mods = &lt;&#40;MOD&#95;LSFT|MOD&#95;RSFT&#41;&gt;;
 };
-</code></pre><p>You can find the other mod-morphs that I use in <a href='https://github.com/ebzzry/adv360-pro-zmk/blob/V3.0/config/modmorph.dtsi'>modmorph.dtsi</a>.</p><h2><a name="macros">Macros</a></h2><p>Another interesting feature is <a href='https://zmk.dev/docs/keymaps/behaviors/macros'>macros</a>. It allows you to define key presses or combinations, for your convenience. I wanted to make pressing <kbd>Mod1+`<kbd> input six graves, the put the cursor in the middle. I use this whenever I need to type Markdown code blocks.</p><p>To do so, I put the following ing <code>macros.dtsi</code>:</p><pre><code class="c">m&#95;graves: m&#95;graves {
+</code></pre><p>You can find the other mod-morphs that I use in <a href='https://github.com/ebzzry/adv360-pro-zmk/blob/V3.0/config/modmorph.dtsi'>modmorph.dtsi</a>.</p><h2><a name="macros">Macros</a></h2><p>Another interesting feature is <a href='https://zmk.dev/docs/keymaps/behaviors/macros'>macros</a>. It allows you to define key presses or combinations, for your convenience. I wanted to make pressing <kbd>Mod1+`</kbd> input six graves, then put the cursor in the middle. I use this whenever I need to type Markdown code blocks.</p><p>To do so, I put the following ing <code>macros.dtsi</code>:</p><pre><code class="c">m&#95;graves: m&#95;graves {
     compatible = &quot;zmk,behavior-macro&quot;;
     label = &quot;m&#95;graves&quot;;
     #binding-cells = &lt;0&gt;;
