@@ -1,5 +1,5 @@
-Kiel Mi Uzas la Kinesis Advantage
-=================================
+Kiel Mi Uzas la Kinesis Advantage-Klavaron
+==========================================
 
 <div class="center">Esperanto • [English](/en/advantage/)</div>
 <div class="center">Laste ĝisdatigita: la 17-an de marto 2022</div>
