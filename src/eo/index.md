@@ -28,7 +28,7 @@
 - [Signoj kaj Interpunkcioj](signoj-interpunkcioj/)
 - [Verbotempoj en La Angla (Mallongigite)](verbotempoj-la-angla-mallongigite/)
 - [Verbotempoj en La Angla](verbotempoj-la-angla/)
-- [Mia Kinezia Avantaĝa Aranĝo](avantagxo/)
+- [Kiel Mi Uzas la Kinesis Advantage](avantagxo/)
 - [Lakona Rondvojaĝo de Gito kaj GitHub](gito-github/)
 - [Emakso kaj Paroj](emakso-paroj/)
 - [Virtualigado en Linukso per KVM](kvm/)
