@@ -4,7 +4,7 @@
 <div class="center">Esperanto • [English](/en/)</div>
 <div class="center">Laste ĝisdatigita: la 17-an de januaro 2025</div>
 
-<img src="/images/site/pluvis-1008x250.webp" class="banner" alt="pluvis" title="Ĉe la vizaĝo de la kosmo, ni ĉiuj estas infanoj." />
+<img src="/images/site/golfo-1008x250.webp" class="banner" alt="golfo" title="Ĉe la vizaĝo de la kosmo, ni ĉiuj estas infanoj." />
 
 <div class="text-right">Retejo pri informadiko, hominklinaĵoj, kaj hazardaĵoj. La enskriboj estas ordigitaj laŭ inverskronologiordo.</div>
 
