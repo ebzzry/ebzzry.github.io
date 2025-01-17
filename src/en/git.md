@@ -1,5 +1,5 @@
-How I Roll with Git
-===================
+How I Use Git
+=============
 
 <div class="center">[Esperanto](/eo/gito/) • English</div>
 <div class="center">Last updated: September 19, 2024</div>
