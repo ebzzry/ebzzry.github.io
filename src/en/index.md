@@ -9,7 +9,7 @@
 <div class="text-right">A journal about computing, human predilections, and random krakaboom. The
 entries are sorted in reverse chronological order.</div>
 
-- [How I Use the Kinesis Advantage360 Profesional](adv360/)
+- [How I Use the Kinesis Advantage360 Professional](adv360/)
 - [How I Use Git](git/)
 - [A Gentle Introduction to Non-determinism in Scheme](amb/)
 - [Zsh Tips 4: General Helpers](zsh-tips-4/)
