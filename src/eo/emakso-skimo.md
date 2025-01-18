@@ -1,7 +1,7 @@
 Agordi Skimprogramadon en Emakso
 ================================
 
-<div class="center">Esperanto • [English](/en/emacs-scheme/)</div>
+<div class="center">[English](/en/emacs-scheme/) • Esperanto</div>
 <div class="center">Laste ĝisdatigita: la 24-an de marto 2022</div>
 
 >Ĉiom da bonaj ideoj ne kuŝas sub unu ĉapelo.<br>

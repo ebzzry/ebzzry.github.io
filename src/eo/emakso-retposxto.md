@@ -1,7 +1,7 @@
 Agordi Retpoŝton per Emakso
 ===========================
 
-<div class="center">Esperanto • [English](/en/emacs-mail/)</div>
+<div class="center">[English](/en/emacs-mail/) • Esperanto</div>
 <div class="center">Laste ĝisdatigita: la 17-an de marto 2022</div>
 
 >Nur pro tio, ke ne fariĝis io, ne signifas, ke ne fareblas ĝi. Nur pro tio, ke fareblas io, ne signifas, ke farendas ĝi.<br>

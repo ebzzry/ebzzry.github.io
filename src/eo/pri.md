@@ -1,7 +1,7 @@
 Pri
 ===
 
-<div class="center">Esperanto • [English](/en/about/)</div>
+<div class="center">[English](/en/about/) • Esperanto</div>
 <div class="center">Laste ĝisdatigita: la 24-an de septembro 2024</div>
 
 <div>
