@@ -1,7 +1,7 @@
 Citaĵoj
 =======
 
-<div class="center">Esperanto • [English](/en/quotes/)</div>
+<div class="center">[English](/en/quotes/) • Esperanto</div>
 <div class="center">Laste ĝisdatigita: la 8-an de januaro 2025</div>
 
 <img src="/images/site/wallhaven-77816-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
