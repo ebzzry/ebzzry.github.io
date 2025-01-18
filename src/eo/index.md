@@ -1,8 +1,8 @@
 (:svc [#0x80])
 ==============
 
-<div class="center">Esperanto • [English](/en/)</div>
-<div class="center">Laste ĝisdatigita: la 17-an de januaro 2025</div>
+<div class="center">[English](/en/) • Esperanto</div>
+<div class="center">Laste ĝisdatigita: la 18-an de januaro 2025</div>
 
 <img src="/images/site/golfo-1008x250.webp" class="banner" alt="golfo" title="Ĉe la vizaĝo de la kosmo, ni ĉiuj estas infanoj." />
 
