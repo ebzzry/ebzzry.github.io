@@ -1,7 +1,7 @@
 About
 =====
 
-<div class="center">[Esperanto](/eo/pri/) • English</div>
+<div class="center">English • [Esperanto](/eo/pri/)</div>
 <div class="center">Last updated: September 24, 2024</div>
 
 <div>
