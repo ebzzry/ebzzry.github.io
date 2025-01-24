@@ -1,8 +1,8 @@
-Kiel Mi Uzas Giton
-==================
+Kiel Mi Uzas Giton ĉe la Komandlinio
+====================================
 
 <div class="center">[English](/en/git/) • Esperanto</div>
-<div class="center">Laste ĝisdatigita: la 19-an de septembro 2024</div>
+<div class="center">Laste ĝisdatigita: la 24-an de januaro 2025</div>
 
 >Male, tiuj kun senĉeseco povas malatenti kiujn aliaj pensas. Ion ajn ili povas
 >fari en ilia propra mondo senzorgeme al la opinioj de tiuj ĉirkaŭ ili.<br>
