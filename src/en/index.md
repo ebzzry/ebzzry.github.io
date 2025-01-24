@@ -10,7 +10,7 @@
 entries are sorted in reverse chronological order.</div>
 
 - [How I Use the Kinesis Advantage360 Professional](adv360/)
-- [How I Use Git](git/)
+- [How I Use Git on the Command Line](git/)
 - [A Gentle Introduction to Non-determinism in Scheme](amb/)
 - [Zsh Tips 4: General Helpers](zsh-tips-4/)
 - [Zsh Tips 3: Chroot Helpers](zsh-tips-3/)
