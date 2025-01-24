@@ -9,7 +9,7 @@
     in with pkgs; {
       devShells.${system} = {
         default = mkShell {
-          buildInputs = [ gnumake parallel findutils emem ];
+          buildInputs = [ gnumake parallel findutils emem screen python3 ];
           LD_LIBRARY_PATH = nixpkgs.lib.strings.makeLibraryPath [ ];
         };
       };
