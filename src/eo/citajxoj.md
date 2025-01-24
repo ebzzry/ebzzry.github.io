@@ -2,7 +2,7 @@ Citaĵoj
 =======
 
 <div class="center">[English](/en/quotes/) • Esperanto</div>
-<div class="center">Laste ĝisdatigita: la 8-an de januaro 2025</div>
+<div class="center">Laste ĝisdatigita: la 21-an de januaro 2025</div>
 
 <img src="/images/site/wallhaven-77816-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
@@ -1079,3 +1079,6 @@ tra la jaroj.
 
 
 - Oni ne solvas pli per pli. Oni solvu ĝin per malpli.<br>—Caspian Keyes, Pantheon
+
+
+- He! La tempo ne atendos por vi<br>—Jamiroquai, Time Won't Wait
