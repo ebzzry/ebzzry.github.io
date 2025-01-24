@@ -18,3 +18,6 @@ clean:
 rebuild:
 	$(MAKE) clean
 	$(MAKE)
+
+serve:
+	screen -dmS ebzzry.com python3 -m http.server 49153
