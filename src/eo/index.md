@@ -9,7 +9,7 @@
 <div class="text-right">Retejo pri informadiko, hominklinaĵoj, kaj hazardaĵoj. La enskriboj estas ordigitaj laŭ inverskronologiordo.</div>
 
 - [Kiel Mi Uzas la Kinesis Advantage360 Professional-Klavaron](adv360/)
-- [Kiel Mi Uzas Giton](gito/)
+- [Kiel Mi Uzas Giton ĉe la Komandlinio](gito/)
 - [Milda Enkonduko al Nedeterminismo en Skimo](amb/)
 - [Ziŝaj Konsiletoj 4-a: Ĝeneralhelpiloj](zisxkonsiletoj-4-a/)
 - [Ziŝaj Konsiletoj 3-a: Ŝanĝradikighelpiloj](zisxkonsiletoj-3-a/)

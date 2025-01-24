@@ -1,8 +1,8 @@
-How I Use Git
-=============
+How I Use Git on the Command Line
+=================================
 
 <div class="center">English • [Esperanto](/eo/gito/)</div>
-<div class="center">Last updated: September 19, 2024</div>
+<div class="center">Last updated: Januaro 24, 2025</div>
 
 >Conversely, those with persistence can ignore what others think. They can press
 >on in their own world, oblivious to the opinions of those around them.<br>
