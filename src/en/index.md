@@ -9,6 +9,7 @@
 <div class="text-right">A journal about computing, human predilections, and random krakaboom. The
 entries are sorted in reverse chronological order.</div>
 
+- [A Gentle Introduction to Nix Flakes](flakes/)
 - [How I Use the Kinesis Advantage360 Professional](adv360/)
 - [How I Use Git on the Command Line](git/)
 - [A Gentle Introduction to Non-determinism in Scheme](amb/)
