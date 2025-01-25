@@ -2,7 +2,7 @@ Pri
 ===
 
 <div class="center">[English](/en/about/) • Esperanto</div>
-<div class="center">Laste ĝisdatigita: la 24-an de septembro 2024</div>
+<div class="center">Laste ĝisdatigita: la 25-an de januaro 2025</div>
 
 <div>
 <img src="/images/site/ebzzry.png" style="float: right; width: 50%; margin: 0px 0px 0px 10px">
@@ -22,7 +22,9 @@ kaj praktika pafado (PPSA). Li estes fiera ano de San Juan Elyu Shooter’s Club
 Inc. kaj The Fraternal Order of Eagles - Philippine Eagles.
 
 Li nune loĝas kun sia edzino kaj filo en Filipinoj.
+
+Se oni iam trovas eraron en ĉi tiu retejo, bonvole, estu libere por [sendi tirpeton](https://github.com/ebzzry/ebzzry.github.io)!
 </div>
 <div class="center">
-[Retpoŝto](mailto:rommel.martinez@valmiz.com) • [LinkedIn](https://www.linkedin.com/feed/) • [Jutubo](https://youtube.com/@ebzzry) • [X](https://x.com/ebzzry) • [Fejsbuko](https://fb.com/ebzzry)<br>
+[Retpoŝto](mailto:rommel.martinez@valmiz.com) • [GitHub](https://github.com/ebzzry/) • [LinkedIn](https://www.linkedin.com/feed/) • [Jutubo](https://youtube.com/@ebzzry) • [X](https://x.com/ebzzry) • [Fejsbuko](https://fb.com/ebzzry)<br>
 </div>

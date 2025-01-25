@@ -2,7 +2,7 @@ About
 =====
 
 <div class="center">English • [Esperanto](/eo/pri/)</div>
-<div class="center">Last updated: September 24, 2024</div>
+<div class="center">Last updated: January 25, 2025</div>
 
 <div>
 <img src="/images/site/ebzzry.png" style="float: right; width: 50%; margin: 0px 0px 0px 10px">
@@ -22,7 +22,9 @@ practical shooting (PPSA). He is a proud member of San Juan Elyu Shooter's Club,
 Inc.  and The Fraternal Order of Eagles - Philippine Eagles.
 
 He currently lives with his wife and son in the Philippines.
+
+If you ever find an error in this website, please, feel free to [send a pull request](https://github.com/ebzzry/ebzzry.github.io)!
 </div>
 <div class="center">
-[Email](mailto:rommel.martinez@valmiz.com) • [LinkedIn](https://www.linkedin.com/feed/) • [YouTube](https://youtube.com/@ebzzry) • [X](https://x.com/ebzzry) • [Facebook](https://fb.com/ebzzry)<br>
+[Email](mailto:rommel.martinez@valmiz.com) • [GitHub](https://github.com/ebzzry/) • [LinkedIn](https://www.linkedin.com/feed/) • [YouTube](https://youtube.com/@ebzzry) • [X](https://x.com/ebzzry) • [Facebook](https://fb.com/ebzzry)<br>
 </div>
