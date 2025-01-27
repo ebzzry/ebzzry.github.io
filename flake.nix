@@ -1,10 +1,10 @@
 {
-  description = "A ❄️️";
+  description = "🕸️❄️️";
   inputs = { nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable"; };
   outputs = { self, nixpkgs, ... }@inputs:
     let
-      user = "ebzzry";
-      system = "aarch64-darwin";
+      user = builtins.getEnv "USER";
+      system = builtins.currentSystem;
       pkgs = nixpkgs.legacyPackages.${system};
     in with pkgs; {
       devShells.${system} = {
