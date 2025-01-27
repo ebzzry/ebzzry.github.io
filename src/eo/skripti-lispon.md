@@ -2,7 +2,6 @@ Skriptado en Komunlispo
 =======================
 
 <div class="center">[English](/en/script-lisp/) • Esperanto</div>
-<div class="center">Laste ĝisdatigita: la 23-an de februaro 2022</div>
 
 >La lumo kiu fajras duoble brila, fajras duone longa.<br>
 >—D-ro Eldon TYRELL, Blade Runner (1982)

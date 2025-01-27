@@ -2,7 +2,6 @@ Agordi GPG kaj SSH en KDE
 =========================
 
 <div class="center">[English](/en/gsk/) • Esperanto</div>
-<div class="center">Laste ĝisdatigita: la 17-an de marto 2022</div>
     
 >Ne tute estas grave por prave atingi tion en la unua fojo. Estas vitale grava atingi tion en la
 >lasta tempo.<br>

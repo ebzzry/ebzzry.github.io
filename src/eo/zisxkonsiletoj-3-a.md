@@ -2,7 +2,6 @@ Ziŝaj Konsiletoj 3-a: Ŝanĝradikighelpiloj
 =========================================
 
 <div class="center">[English](/en/zsh-tips-3/) • Esperanto</div>
-<div class="center">Laste ĝisdatigita: la 24-an de marto 2022</div>
 
 >Ni ridas pri tio, kion ni ne povas toleri alfronti.<br>
 >—Aristotelo

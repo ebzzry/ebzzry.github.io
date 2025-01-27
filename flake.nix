@@ -4,7 +4,7 @@
   outputs = { self, nixpkgs, ... }@inputs:
     let
       user = builtins.getEnv "USER";
-      system = builtins.currentSystem;
+      system = "aarch64-darwin";
       pkgs = nixpkgs.legacyPackages.${system};
     in with pkgs; {
       devShells.${system} = {

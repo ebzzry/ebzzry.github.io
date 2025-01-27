@@ -2,7 +2,6 @@ Malŝparita Senĉeseco
 ====================
 
 <div class="center">[English](/en/squandered/) • Esperanto</div>
-<div class="center">Laste ĝisdatigita: la 23-an de junio 2022</div>
 
 >La unua paŝo por iri ien estas decidi, ke oni ne restos kie oni estas.<br>
 >—J.P. MORGAN

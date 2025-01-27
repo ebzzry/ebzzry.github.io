@@ -2,7 +2,6 @@ Pripensoj
 =========
 
 <div class="center">[English](/en/reflections/) • Esperanto</div>
-<div class="center">Laste ĝisdatigita: la 7-an de januaro 2025</div>
 
 Ĉi tiu paĝo enhavas kelke da miaj propraj pripensoj. La enskriboj estas
 ordigitaj laŭ kronologiordo.

@@ -2,7 +2,6 @@ A Gentle Introduction to Non-determinism in Scheme
 ==================================================
 
 <div class="center">English • [Esperanto](/eo/amb/)</div>
-<div class="center">Last updated: June 1, 2019</div>
 
 >Some of the most crucial steps in mental growth are based not simply on acquiring new skills, but
 >on acquiring new administrative ways to use what one already knows.<br>

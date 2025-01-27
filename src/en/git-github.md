@@ -2,7 +2,6 @@ A Brief Git and GitHub Tour
 ===========================
 
 <div class="center">English • [Esperanto](/eo/gito-github/)</div>
-<div class="center">Last updated: March 17, 2022</div>
 
 >Know how to solve every problem that has been solved.<br>
 >—Richard P. Feynman
