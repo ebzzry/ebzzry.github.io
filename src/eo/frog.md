@@ -2,7 +2,6 @@ Blogi per Frog
 ==============
 
 <div class="center">[English](/en/frog/) • Esperanto</div>
-<div class="center">Laste ĝisdatigita: la 17-an de marto 2022</div>
 
 >Unu persono kun ardo pli bonas ol kvardek personoj nure interesataj.<br>
 >—E.M. FORSTER

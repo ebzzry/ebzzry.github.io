@@ -2,7 +2,6 @@ Retrospektive
 =============
 
 <div class="center">[English](/en/retrospect/) • Esperanto</div>
-<div class="center">Laste ĝisdatigita: la 23-an de junio 2022</div>
 
 >Malfacileco estas tio, kiu vekas la geniulon.<br>
 >—Nassim Nicholas TALEB

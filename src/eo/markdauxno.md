@@ -2,7 +2,6 @@ Mia Markdaŭna Stilgvidilo
 =========================
 
 <div class="center">[English](/en/markdown/) • Esperanto</div>
-<div class="center">Laste ĝisdatigita: la 29-an de marto 2022</div>
 
 >La reguloj kiuj direktas cirkonstancojn estas nuligitaj per novaj cirkonstancoj.<br>
 >—Napoleono BONAPARTE

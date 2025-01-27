@@ -2,7 +2,6 @@ Manipuli Dosierujojn en Emakso
 ==============================
 
 <div class="center">[English](/en/emacs-dired/) • Esperanto</div>
-<div class="center">Laste ĝisdatigita: la 17-an de marto 2022</div>
 
 >Supozi bonas, tamen eltrovi pli bonas.<br>
 >—Samuel CLEMENS

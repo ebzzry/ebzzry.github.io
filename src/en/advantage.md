@@ -2,7 +2,6 @@ How I Use the Kinesis Advantage
 ===============================
 
 <div class="center">English • [Esperanto](/eo/advantage/)</div>
-<div class="center">Last updated: March 17, 2022</div>
 
 >Pain is inevitable. Suffering is optional.<br>
 >—M. Kathleen Casey

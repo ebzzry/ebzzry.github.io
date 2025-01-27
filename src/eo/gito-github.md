@@ -2,7 +2,6 @@ Lakona Rondvojaĝo de Gito kaj GitHub
 ====================================
 
 <div class="center">[English](/en/git-github/) • Esperanto</div>
-<div class="center">Laste ĝisdatigita: la 17-an de marto 2022</div>
 
 >Sciu kiel solvi ĉiujn solvitajn problemon.<br>
 >—Richard P. FEYNMAN

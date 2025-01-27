@@ -2,7 +2,6 @@ Migri de LiveJournal al Frog
 ============================
 
 <div class="center">[English](/en/livefrog/) • Esperanto</div>
-<div class="center">Laste ĝisdatigita: la 16-an de marto 2022</div>
 
 >Mi ne scias kien mi iras, sed mi estas sur mia vojo.<br>
 >—Carl SAGAN

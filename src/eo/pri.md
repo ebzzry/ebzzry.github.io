@@ -2,7 +2,6 @@ Pri
 ===
 
 <div class="center">[English](/en/about/) • Esperanto</div>
-<div class="center">Laste ĝisdatigita: la 25-an de januaro 2025</div>
 
 <div>
 <img src="/images/site/ebzzry.png" style="float: right; width: 50%; margin: 0px 0px 0px 10px">

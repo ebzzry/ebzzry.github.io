@@ -2,7 +2,6 @@ Zsh Tips 2: Directory Stacks
 ============================
 
 <div class="center">English • [Esperanto](/eo/zisxkonsiletoj-2-a/)</div>
-<div class="center">Last updated: March 18, 2022</div>
 
 >What we do for ourselves dies with us. What we do for others remains forever.<br>
 >—Albert Pike

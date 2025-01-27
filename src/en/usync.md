@@ -2,7 +2,6 @@ Synchronizing Sites with Usync
 ==============================
 
 <div class="center">English • [Esperanto](/eo/usync/)</div>
-<div class="center">Last updated: March 16, 2022</div>
 
 >What I cannot create, I do not understand.<br>
 >—Richard P. Feynman

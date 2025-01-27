@@ -2,7 +2,6 @@
 ==============
 
 <div class="center">English • [Esperanto](/eo/)</div>
-<div class="center">Last updated: January 18, 2025</div>
 
 <img src="/images/site/golfo-1008x250.webp" class="banner" alt="golfo" title="On the face of the cosmos, we all are children." />
 

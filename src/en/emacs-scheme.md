@@ -2,7 +2,6 @@ Setting up Scheme Development in Emacs
 ======================================
 
 <div class="center">English • [Esperanto](/eo/emakso-skimo/)</div>
-<div class="center">Last updated: March 16, 2022</div>
 
 >All the good ideas never lie under one hat.<br>
 >—Dale Turner

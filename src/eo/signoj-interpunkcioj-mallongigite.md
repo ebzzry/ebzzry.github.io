@@ -2,7 +2,6 @@ Signoj kaj Interpunkcioj (Mallongigite)
 =======================================
 
 <div class="center">[English](/en/symbols-marks-condensed/) • Esperanto</div>
-<div class="center">Laste ĝisdatigita: la 10-an de marto 2022</div>
 
 La tabelo ĉi-sube estas la mallongigita versio de
 [Signoj kaj Interpunkcioj](/eo/signoj-interpunkcioj/).

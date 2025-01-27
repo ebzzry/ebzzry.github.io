@@ -2,7 +2,6 @@ Symbols and Marks (Condensed)
 =============================
 
 <div class="center">English • [Esperanto](/eo/signoj-interpunkcioj-mallongigite/)</div>
-<div class="center">Last updated: July 21, 2018</div>
 
 The table below is the condensed form of [Symbols and Marks](/en/symbols-marks/).
 

@@ -2,7 +2,6 @@ Konverti de Markdaŭno al HTML per emem
 ======================================
 
 <div class="center">[English](/en/emem/) • Esperanto</div>
-<div class="center">Laste ĝisdatigita: la 18-an de marto 2022</div>
     
 >Oni ne trovos la respondojn kiujn oni serĉas ĝis oni haltas serĉi ekstere kaj komenciĝas serĉi ilin
 >el oni mem.<br>

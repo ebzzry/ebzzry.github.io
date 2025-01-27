@@ -2,7 +2,6 @@ Verb Tenses in English (Condensed)
 ==================================
 
 <div class="center">English • [Esperanto](/eo/verbotempoj-la-angla-mallongigite/)</div>
-<div class="center">Last updated: July 15, 2018</div>
 
 This article is the condensed form of [Verb Tenses in English](/en/verb-tenses/).
 
