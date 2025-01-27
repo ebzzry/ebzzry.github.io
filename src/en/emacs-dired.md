@@ -2,7 +2,6 @@ Managing Directories with Emacs
 ===============================
 
 <div class="center">English • [Esperanto](/eo/emakso-dired/)</div>
-<div class="center">Last updated: March 17, 2022</div>
 
 >Supposing is good, but finding out is better.<br>
 >—Samuel Clemens

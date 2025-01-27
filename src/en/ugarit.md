@@ -2,7 +2,6 @@ Creating Backups with Ugarit
 ============================
 
 <div class="center">English • [Esperanto](/eo/ugarit/)</div>
-<div class="center">Last updated: March 17, 2022</div>
 
 >Good judgement comes from experience, and experience comes from bad judgement.<br>
 >—Fred Brooks

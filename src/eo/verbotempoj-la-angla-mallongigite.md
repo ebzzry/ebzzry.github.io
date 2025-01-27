@@ -2,7 +2,6 @@ Verbotempoj en La Angla (Mallongigite)
 ======================================
 
 <div class="center">[English](/en/verb-tenses-condensed/) • Esperanto</div>
-<div class="center">Laste ĝisdatigita: la 8-an de marto 2022</div>
 
 Ĉi tiu artikolo estas la mallongigita versio de [Verbotempoj en La Angla](/eo/verbotempoj-la-angla/).
 

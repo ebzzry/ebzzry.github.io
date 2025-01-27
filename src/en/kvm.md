@@ -2,7 +2,6 @@ Virtualizing with KVM in Linux
 ==============================
 
 <div class="center">English • [Esperanto](/eo/kvm/)</div>
-<div class="center">Last updated: March 17, 2022</div>
 
 >If you do what you’ve always done, you’ll get what you’ve always gotten.<br>
 >—Anthony Robbins

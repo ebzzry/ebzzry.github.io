@@ -2,7 +2,6 @@ La Ipsilonkombinatoro per Ses Paŝoj
 ===================================
 
 <div class="center">[English](/en/y/) • Esperanto</div>
-<div class="center">Laste ĝisdatigita: la 17-an de marto 2022</div>
 
 >Unue, decidu. Kaj faru ĝin. Estas la nura maniero por atingi ion.<br>
 >—Lacus CLYNE, Gundam SEED Destiny

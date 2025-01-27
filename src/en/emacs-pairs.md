@@ -2,7 +2,6 @@ Emacs and Pairs
 ===============
 
 <div class="center">English • [Esperanto](/eo/emakso-paroj/)</div>
-<div class="center">Last updated: August 4, 2020</div>
 
 >The white noise that beats within the white darkness is the rhythm of life; it is that pulse which
 >never truly left the stage.<br>

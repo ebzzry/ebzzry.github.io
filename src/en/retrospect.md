@@ -2,7 +2,6 @@ In Retrospect
 =============
 
 <div class="center">English • [Esperanto](/eo/retrospektive/)</div>
-<div class="center">Last updated: October 10, 2021</div>
 
 >Difficulty is what wakes up the genius.<br>
 >—Nassim Nicholas Taleb

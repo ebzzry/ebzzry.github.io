@@ -2,7 +2,6 @@ Emacs Tips and Tricks 1: Regions and Marks
 ==========================================
 
 <div class="center">English • [Esperanto](/eo/emakskonsiletoj-1-a/)</div>
-<div class="center">Last updated: March 17, 2022</div>
 
 >Don't raise your voice; improve your argument.<br>
 >—Desmond Tutu

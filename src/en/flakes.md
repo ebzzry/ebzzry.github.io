@@ -2,7 +2,6 @@ A Gentle Introduction to Nix Flakes
 ===================================
 
 <div class="center">English • [Esperanto](/eo/adv360/)</div>
-<div class="center">Last updated: January 25, 2025</div>
 
 >But every decision for something is a decision against something else.<br>
 >—H. G. Tannhaus, Dark (2017)

@@ -2,7 +2,6 @@ Esperanto-signoj en Linukso
 ===========================
 
 <div class="center">[English](/en/eo-linux/) • Esperanto</div>
-<div class="center">Laste ĝisdatigita: la 17-an de marto 2022</div>
 
 >Se ion oni volas, kion oni neniam havis, oni devas esti servopreta tion fari, kion oni neniam
 >faris.<br>
