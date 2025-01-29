@@ -1,4 +1,4 @@
-(:svc [#0x80])
+(:SVC [#0X80])
 ==============
 
 <div class="center">English • [Esperanto](/eo/)</div>
