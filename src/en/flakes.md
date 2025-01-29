@@ -6,14 +6,13 @@ A Gentle Introduction to Nix Flakes
 >But every decision for something is a decision against something else.<br>
 >—H. G. Tannhaus, Dark (2017)
 
-<img src="/images/site/raisa-milova-eiV7yq_7dhU-unsplash-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="adv360" title="adv360"/>
+<img src="/images/site/aaron-burden-vtCZp-9GvrQ-unsplash-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="adv360" title="adv360"/>
 
 
 <a name="toc">Table of contents</a>
 -----------------------------------
 
 - [Introduction](#introduction)
-- [Basics](#basics)
   + [NixOS](#nixos)
   + [Darwin](#darwin)
 - [Flakes](#flakes)
@@ -22,6 +21,7 @@ A Gentle Introduction to Nix Flakes
   + [apps](#apps)
   + [nixosConfiguration](#nixosconfiguration)
   + [darwinConfiguration](#darwinconfiguration)
+  + [flake-utils](#flake-utils)
 - [Closing remarks](#closing)
 
 
@@ -29,9 +29,9 @@ A Gentle Introduction to Nix Flakes
 ---------------------------------------
 
 When I discovered Nix almost two decades ago, I learned that there's still so
-much to computing than what I already know. I was blown away. It was
-astonishing. It was nothing short of marvel. My passion for systems
-administration was rekindled, again.
+much to computing than what I already knew. I was blown away. I was amazed. It
+was nothing short of marvel. My passion for systems administration was
+rekindled.
 
 As someone who has spent an inordinate amount of time in the
 BSD-land—configuring everything by hand, memorizing all of the key places where
@@ -45,15 +45,12 @@ articles of people who have used it before me, I was able to set it up according
 to my preferences. I wrote about what I have learned [here](/en/nix).
 
 
-<a name="basics">Basics</a>
----------------------------
-
 ### <a name="nixos">NixOS</a>
 
 The way that I've always used my NixOS system was that, I would install user
-packages via `nix-env` and I'm good to go. But no matter how much I optimized
-the process, it was still slow and cumbersome. I found out that the system was
-loading more things than necessary, severely impacting performance. 
+packages via `nix-env`. But no matter how much I optimized the process, it was
+still slow and cumbersome. I found out that the system was loading more things
+than necessary, severely impacting performance. 
 
 I dug deeper and discovered Nix Flakes. It says on the
 [wiki](https://wiki.nixos.org/wiki/Flakes) that it is an experimental feature. I
@@ -91,8 +88,8 @@ nix profile remove emem
 
 ### <a name="darwin">Darwin</a>
 
-When I got my hands on an M1 MBP, I got naturally curious if there's a way for
-me to use Nix on it. Soon after, I learned about
+When I got my hands on an M1 Macbook Pro, I got naturally curious if there's a
+way for me to use Nix on it. Soon after, I learned about
 [nix-darwin](https://github.com/LnL7/nix-darwin/). After about an hour of
 tinkering, I finally got the incantation that would build everything.
 
@@ -102,8 +99,8 @@ darwin-rebuild switch --flake ~/.config/nix
 
 Just like with flakes on NixOS, I got the new set of commads.
 
-Most, if not all important Nix commands, have already coalesced into `nix`.  I
-went by fine with it for a year, until I decided that it's time to take the dive
+Most, if not all, important Nix commands, have already coalesced into `nix`.  I
+went by fine with it for a year. Soon, until I decided that it's time to take the dive
 and use flakes outside of the basic configuration.
 
 
@@ -120,11 +117,11 @@ everything. The command `nix` reads this file from the current directory. The
 nix flake init
 ```
 
-the resulting file, `flake.nix`, will look something like the following:
+The resulting file, `flake.nix`, will look something like the following:
 
 ```nix
 {
-  description = "❄️️";
+  description = "A flake️️";
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs?ref=nixpkgs-unstable";
   };
@@ -157,12 +154,6 @@ inputs = {
 }
 ```
 
-or
-
-```nix
-inputs.nixpkgs.url = "github:nixos/nixpkgs?ref=nixpkgs-unstable";
-```
-
 Here we're using `ref` to specify a branch name. You can have other
 specifiers, like a commit ID, with `rev`,
 
@@ -184,16 +175,18 @@ outputs = { }: { }
 The outputs of a flake correspond with specific Nix commands. Some of the ones
 that I use are listed below.
 
-| output               | used by                |
-|----------------------|------------------------|
-| packages             | nix build              |
-| devShells            | nix develop            |
-| apps                 | nix run                |
-| nixosConfigurations  | nixos-rebuild --flake  |
-| darwinConfigurations | darwin-rebuild --flake |
+| output                 | used by                  |
+| :--------------------- | :----------------------- |
+| `packages`             | `nix build`              |
+| `devShells`            | `nix develop`            |
+| `apps`                 | `nix run`                |
+| `nixosConfigurations`  | `nixos-rebuild --flake`  |
+| `darwinConfigurations` | `darwin-rebuild --flake` |
 
 
 ### <a name="packages">packages</a>
+
+Let's talk about the the most basic kind of output—packages.
 
 ```nix
 outputs = { self, nixpkgs }: {
@@ -214,7 +207,7 @@ packages.x86-64_linux.hello = nixpkgs.legacyPackages.x86-64_linux.hello;
 ```
 
 we create an output package named `packages.x86-64_linux.hello`, assigning it
-the `hello` derivation from nixpkgs. We have to specify the arch, or as Nix calls
+the `hello` derivation from Nixpkgs. We have to specify the arch, or as Nix calls
 it, system, because packages are system-specific. Next, we create a
 default output package which would be evaluated if no package is specified. We use the
 identifier `self.packages.x86-64_linux.hello` to select
@@ -282,8 +275,9 @@ the build output in the Nix store. To run `hello`,
 ### <a name="devshells">devshells</a>
 
 Perhaps the output that I use the most is `devShells`. It allows me to create
-«development shells» that contain environments that are completely isolated from
-my main system. It is (essentially) the flakes version of `nix-shell`.
+«development shells» (whatever that means) that contain environments that are
+completely isolated from my main system. It is (essentially) the flakes version
+of the ones created with `nix-shell`.
 
 Here's a simple one,
 
@@ -303,7 +297,7 @@ Our `flake.nix` file now looks like
 
 ```nix
 {
-  description = "❄️️";
+  description = "A flake️️";
   inputs = { nixpkgs.url = "github:nixos/nixpkgs?ref=nixpkgs-unstable"; };
   outputs = { nixpkgs, ... }:
     let
@@ -352,10 +346,8 @@ apps.${system} = rec {
 };
 ```
 
-The attribute type has to have the vaule `"app"`. The attribute `program`
-contains the package path to the program that you want to run.
-
-To launch it, run
+The attribute type has to have the value `"app"`. The attribute `program`
+contains the package path to the program that you want to run. To launch it, run
 
 ```sh
 nix run
@@ -376,7 +368,7 @@ nixosConfigurations."hostname" = nixos.lib.nixosSystem {
 };
 ```
 
-The file `configuration.nix` is a copy of the file
+The file `./configuration.nix` above is a copy of the file
 `/etc/nixos/configuration.nix` which will be tracked by version control, too.
 Add it to the repository
 
@@ -385,29 +377,33 @@ git add configuration.nix
 ```
 
 The string `"hostname"` should be replaced with the hostname of the machine that
-would use that configuration. You can have configurations for multiple systems,
-like so
+would use that configuration. 
 
 ```nix
-nixosConfigurations = {
-  "john-laptop" = nixos.lib.nixosSystem {
-    modules = [ ./laptop-configuration.nix ];
-    specialArgs = { inherit pkgs; };
-  };
-  "alice-desktop" = nixos.lib.nixosSystem {
-    modules = [ ./desktop-configuration.nix ];
-    specialArgs = { inherit pkgs; };
-  };
-};
+{
+  inputs = { nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable"; };
+  outputs = { nixpkgs, ... }:
+    let
+      system = "x86-64_linux";
+      pkgs = nixpkgs.legacyPackages.${system};
+    in with pkgs; {
+      nixosConfigurations = {
+        "ebzzry-tpad" = nixpkgs.lib.nixosSystem {
+          modules = [ ./nixos-configuration.nix ];
+          specialArgs = { inherit pkgs; };
+        };
+      };
+    };
+}
 ```
 
-To rebuild the NixOS configuration for `john-laptop`, run
+To rebuild the NixOS configuration for the machine `ebzzry-tpad`, run
 
 ```sh
-sudo nixos-rebuild switch --flake .#john-laptop
+sudo nixos-rebuild switch --flake .#ebzzry-tpad
 ```
 
-If there's only one configuration, the following would use the only one declared.
+If there's only one configuration, the following command would suffice,
 
 ```sh
 sudo nixos-rebuild switch --flake .
@@ -415,25 +411,163 @@ sudo nixos-rebuild switch --flake .
 
 ### <a name="darwinconfiguration">darwinConfiguration</a>
 
-When you're using `nix-darwin`, you can do the same as above.
+With `nix-darwin`, you can do the same as above,
 
 ```nix
-darwinConfigurations."bob-mbp" = nix-darwin.lib.darwinSystem {
-  modules = [ ./bob-mbp-configuration.nix ];
-  specialArgs = { inherit pkgs; };
-};
-darwinPackages = self.darwinConfigurations."bob-mbp".pkgs;
+{
+  inputs = {
+    nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    nix-darwin.url = "github:lnl7/nix-darwin";
+    nix-darwin.inputs.nixpkgs.follows = "nixpkgs";
+  };
+  outputs = { nixpkgs, nix-darwin }:
+    let
+      system = "aarch64-darwin";
+      pkgs = nixpkgs.legacyPackages.${system};
+    in with pkgs; {
+      darwinConfigurations = {
+        "ebzzry-mbp" = nix-darwin.lib.darwinSystem {
+          modules = [ ./darwin-configuration.nix ];
+          specialArgs = { inherit pkgs; };
+        };
+      };
+      darwinPackages = self.darwinConfigurations."ebzzry-mbp".pkgs;
+    };
+}
 ```
 
 To rebuild your Darwin configuration, run
-
 
 ```sh
 darwin-rebuild switch --flake .
 ```
 
+
 ### <a name="refactoring">Refactoring</a>
 
-flake-utils
-many systems
-//
+Soon after, you'll discover that your config is a mess:
+
+```nix
+{
+  inputs = { nixpkgs.url = "github:nixos/nixpkgs?ref=nixpkgs-unstable"; };
+  outputs = { nixpkgs, ... }:
+    let
+      nixosSystem = "x86-64_linux";
+      nixosPackages = nixpkgs.legacyPackages.${nixosSystem};
+      darwinSystem = "aarch64-darwin";
+      darwinPackages = nixpkgs.legacyPackages.${darwinSystem};
+    in {
+      packages.${nixosSystem} = with nixosPackages; rec {
+        hello = hello;
+        default = hello;
+      };
+      devShells.${nixosSystem} = with nixosPackages; rec {
+        lisp = mkShell { buildInputs = [ sbcl ]; };
+        default = lisp;
+      };
+      apps.${nixosSystem} = with nixosPackages; rec {
+        btop = {
+          type = "app";
+          program = "${pkgs.btop}/bin/btop";
+        };
+        default = btop;
+      };
+      packages.${darwinSystem} = with darwinPackages; rec {
+        hello = hello;
+        default = hello;
+      };
+      devShells.${darwinSystem} = with darwinPackages; rec {
+        lisp = mkShell { buildInputs = [ sbcl ]; };
+        default = lisp;
+      };
+      apps.${darwinSystem} = with darwinPackages; rec {
+        btop = {
+          type = "app";
+          program = "${pkgs.btop}/bin/btop";
+        };
+        default = btop;
+      };
+    };
+}
+```
+
+Each output that we create for a system, needs to be written for other systems
+that we want to support. This is where
+[flake-utils](https://github.com/numtide/flake-utils) helps. It is a set of
+utility functions that helps in writing better Nix expressions. Let first
+refactor the outputs to make them nicer.
+
+apps.nix:
+```nix
+{ pkgs }: rec {
+  hello = {
+    type = "app";
+    program = "${pkgs.hello}/bin/hello";
+  };
+  default = hello;
+}
+```
+
+packages.nix:
+```nix
+{ pkgs }: rec {
+  btop = pkgs.btop;
+  default = btop;
+}
+```
+
+shells.nix:
+```nix
+{ nixpkgs, pkgs, ... }:
+with pkgs; rec {
+  lisp = mkShell { buildInputs = [ sbcl ]; };
+  default = lisp;
+}
+```
+
+Next, let's refactor `flake.nix`:
+
+flake.nix:
+```nix
+{
+  description = "A flake️️";
+  inputs = {
+    nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    nixos.url = "github:nixos/nixpkgs/nixos-unstable";
+    flake-utils.url = "github:numtide/flake-utils";
+  };
+  outputs = { self, nixpkgs, nixos, nix-darwin, flake-utils }:
+    let
+      user = "ebzzry";
+      nixosHostName = "la-vulpo";
+      nixosSystem = "x86_64-linux";
+      darwinHostName = "la-orcino";
+      darwinSystem = "aarch64-darwin";
+    in flake-utils.lib.eachDefaultSystem (system:
+      let pkgs = nixpkgs.legacyPackages.${system};
+      in {
+        apps = import ./apps.nix { inherit pkgs; };
+        packages = import ./packages.nix { inherit pkgs; };
+        devShells = import ./shells.nix { inherit nixpkgs pkgs; };
+      });
+}
+```
+
+Don't forget to add the new `.nix` files that you're going to create.
+
+What's happening here is that we're adding a new input, `flake-utils`, next,
+we're passing it to `outputs`, finally we're calling a function.
+
+The function `flake-utils.lib.eachDefaultSystem` takes a function as an
+argument—`(system: ...)`. That function takes a single argument `system`, that
+would correspond to all the available systems. It will then loop through each
+system and generate the expressions.
+
+
+<a name="closing">Closing remarks</a>
+-------------------------------------
+
+With Nix Flakes, everything becomes more declarative, more comprehensible, kaj
+more succinct. I found it easier to manage my systems with a straightforward
+approach. It may change in the future, but flakes now, is the best way to manage
+packages and configurations. Give it a try!

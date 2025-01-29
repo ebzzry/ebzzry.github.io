@@ -1,12 +1,11 @@
-(:SVC [#0X80])
+(:svc [#0x80])
 ==============
 
 <div class="center">English • [Esperanto](/eo/)</div>
 
 <img src="/images/site/golfo-1008x250.webp" class="banner" alt="golfo" title="On the face of the cosmos, we all are children." />
 
-<div class="text-right">A journal about computing, human predilections, and random krakaboom. The
-entries are sorted in reverse chronological order.</div>
+<div class="text-right">A journal about computing, human predilections, and random krakaboom.</div>
 
 - [A Gentle Introduction to Nix Flakes](flakes/)
 - [How I Use the Kinesis Advantage360 Professional](adv360/)

@@ -1,20 +1,20 @@
 <!DOCTYPE html>
-<html lang="en"><head><title>A Gentle Introduction to Nix Flakes</title><meta charset="utf-8" /><meta content="width=device-width,initial-scale=1.0,user-scalable=yes" name="viewport" /><meta content="noodp,noydir" name="robots" /><link rel='apple-touch-icon' sizes='180x180' href='/images/ico/apple-touch-icon.png'><link rel='icon' type='image/png' sizes='32x32' href='/images/ico/favicon-32x32.png'><link rel='icon' type='image/png' sizes='16x16' href='/images/ico/favicon-16x16.png'><link rel='manifest' href='/images/ico/site.webmanifest'><link rel='mask-icon' href='/images/ico/safari-pinned-tab.svg' color='#5bbad5'><link rel='shortcut icon' href='/images/ico/favicon.ico'> <meta name='msapplication-TileColor' content='#da532c'> <meta name='msapplication-config' content='/images/ico/browserconfig.xml'> <meta name='theme-color' content='#ffffff'><meta content="A Gentle Introduction to Nix Flakes" name="description" /><meta content="nix, nix flakes, darwin, nixos, linux" name="keywords" /><meta content="A Gentle Introduction to Nix Flakes" property="og:title" /><meta content="article" property="og:type" /><meta content="https://ebzzry.com/en/flakes/" property="og:url" /><meta content="https://ebzzry.com/images/ico/android-chrome-512x512.png" property="og:image" /><style media="all" type="text/css">html {    color: #333;    font-size: 1em;    font-family: Georgia, Cambria, Palatino, "Palatino Linotype", "Times New Roman", Times, serif;    line-height: 1.45;    text-align: left:    width: 100%;    max-width: 40em;    margin: 0 auto 0 auto;    padding: 0;}body {    border-top: hidden;    border-bottom: hidden;    padding: 0 1.5em 1em 1.5em;    margin: 0;}#content {    -webkit-column-count: 1;    -moz-column-count: 1;    column-count: 1;}code {    font-size: 0.9em;    font-family: "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Lucida Console", "Courier New", Courier, monospace;    color: black;    display: inline-block;}pre code {    font-size: 1em;    font-family: monospace;    line-height: 1.3em;    overflow: auto;    font-weight: normal;}kbd {    font-size: 1.1em;    padding: 0.1em 0.6em;    border: 1px solid #ccc;    font-family: monospace;    background-color: #f7f7f7;    color: #333;    -moz-box-shadow: 0 1px 0px rgba(0, 0, 0, 0.2),0 0 0 2px #ffffff inset;    -webkit-box-shadow: 0 1px 0px rgba(0, 0, 0, 0.2),0 0 0 2px #ffffff inset;    box-shadow: 0 1px 0px rgba(0, 0, 0, 0.2),0 0 0 2px #ffffff inset;    -moz-border-radius: 3px;    -webkit-border-radius: 3px;    border-radius: 3px;    display: inline-block;    margin: 0 0.1em;    text-shadow: 0 1px 0 #fff;    white-space: nowrap;}h1, h2, h3, h4, h5, h6 {    font-family: Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans", Tahoma, Geneva, Helvetica, Arial, sans-serif;    margin-bottom: 0;}h1 {    font-size: 2.5em;    text-align: center;    border-bottom: 6px solid black;}h2 {    font-size: 2.0em;    text-align: left;    border-bottom: 2px solid black;}h3 {    font-size: 1.6em;    text-align: left;    border-bottom: 1px solid lightgrey;}h4 {    font-size: 1.5em;    text-align: left;}h5 {    font-size: 1.3em;    text-align: left;}ul, ol {    padding-left: 2em;}ul li {    list-style-type: square;}ul li li {    list-style-type: disc;}ul li li li {    list-style-type: circle;}ol li {    list-style-type: decimal;}p, para, b, strong, i, em, emph {    font-size: 1em;}blockquote {    font-size: 1.2em;    font-style: italic;    margin-left: 2em;}b, strong {    font-weight: bold;}i, em, emph {    font-style: italic;}table {    margin: 0.5em;    border-spacing: 0;    border-collapse: collapse;}th, td {    border: 1px solid lightgray;    padding-top: 0;    padding-bottom: 0;    padding-left: 0.45em;    padding-right: 0.45em;}.text-right {    text-align: right;}.text-small {    font-size: small;}.text-x-small {    font-size: x-small;}.banner {    display: block;    width: 100%;    margin-left: auto;    margin-right: auto;}.footer {    text-align: right;    float: right;    max-width: 18em;}.cc {    border-width: 0}.center {    text-align: center;}</style><style media="all" type="text/css">/* Ewan Themes -- based 99.99% from Tomorrow Night Theme *//* http://jmblog.github.com/color-themes-for-google-code-highlightjs *//* Original theme - https://github.com/chriskempson/tomorrow-theme *//* http://jmblog.github.com/color-themes-for-google-code-highlightjs *//* Tomorrow Comment */.hljs-comment {  color: #969896;}/* Tomorrow Red */.hljs-variable,.hljs-attribute,.hljs-tag,.hljs-regexp,.ruby .hljs-constant,.xml .hljs-tag .hljs-title,.xml .hljs-pi,.xml .hljs-doctype,.html .hljs-doctype,.css .hljs-id,.css .hljs-class,.css .hljs-pseudo {  color: #cc6666;}/* Tomorrow Orange */.hljs-number,.hljs-preprocessor,.hljs-pragma,.hljs-built_in,.hljs-literal,.hljs-params,.hljs-constant {  color: #de935f;}/* Tomorrow Yellow */.ruby .hljs-class .hljs-title,.css .hljs-rule .hljs-attribute {  color: #f0c674;}/* Tomorrow Green */.hljs-string,.hljs-value,.hljs-inheritance,.hljs-header,.hljs-name,.ruby .hljs-symbol,.xml .hljs-cdata {  color: #b5bd68;}/* Tomorrow Aqua */.hljs-title,.css .hljs-hexcolor {  color: #8abeb7;}/* Tomorrow Blue */.hljs-function,.python .hljs-decorator,.python .hljs-title,.ruby .hljs-function .hljs-title,.ruby .hljs-title .hljs-keyword,.perl .hljs-sub,.javascript .hljs-title,.coffeescript .hljs-title {  color: #81a2be;}/* Tomorrow Purple */.hljs-keyword,.javascript .hljs-function {  color: #b294bb;}.hljs {  display: block;  overflow-x: auto;  background: #1d1f21;  color: #c5c8c6;  padding: 0.5em;  -webkit-text-size-adjust: none;}.coffeescript .javascript,.javascript .xml,.tex .hljs-formula,.xml .javascript,.xml .vbscript,.xml .css,.xml .hljs-cdata {  opacity: 0.5;}pre code {    font-size: 1.1em;    font-family: monospace;    line-height: 1.3em;    overflow: auto;}</style></head><body><div id="content"><h1>A Gentle Introduction to Nix Flakes</h1><p><div class="center">English • <a href='/eo/adv360/'>Esperanto</a></div></p><blockquote><p>But every decision for something is a decision against something else.<br> —H. G. Tannhaus, Dark (2017) </p></blockquote><p><img src="/images/site/raisa-milova-eiV7yq_7dhU-unsplash-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="adv360" title="adv360"/></p><h2><a name="toc">Table of contents</a></h2><ul><li><a href='#introduction'>Introduction</a></li><li><a href='#basics'>Basics</a><ul><li><a href='#nixos'>NixOS</a></li><li><a href='#darwin'>Darwin</a></li></ul></li><li><a href='#flakes'>Flakes</a><ul><li><a href='#packages'>packages</a></li><li><a href='#devshells'>devShells</a></li></ul></li><li><a href='#closing'>Closing remarks</a></li></ul><h2><a name="introduction">Introduction</a></h2><p>When I discovered Nix almost two decades ago, I learned that there's still so much to computing than what I already know. I was blown away. It was astonishing. It was nothing short of marvel. My passion for systems administration was rekindled, again.</p><p>As someone who has spent an inordinate amount of time in the BSD-land—configuring everything by hand, memorizing all of the key places where important configuration should be—I found Nix and NixOS to be breath of fresh air.</p><p>Not long after, NixOS became my primary development machine. I could do everything with it, even using devices that were not designed from the start to be used with Linux. With the help of the official documentation and helpful articles of people who have used it before me, I was able to set it up according to my preferences. I wrote about what I have learned <a href='/en/nix'>here</a>.</p><h2><a name="basics">Basics</a></h2><h3><a name="nixos">NixOS</a></h3><p>The way that I've always used my NixOS system was that, I would install user packages via <code>nix-env</code> and I'm good to go. But no matter how much I optimized the process, it was still slow and cumbersome. I found out that the system was loading more things than necessary, severely impacting performance. </p><p>I dug deeper and discovered Nix Flakes. It says on the <a href='https://wiki.nixos.org/wiki/Flakes'>wiki</a> that it is an experimental feature. I don't know exactly what that means, but it feels like an alpha feature that's already good to go.</p><p>To enable it, I edited <code>/etc/nixos/configuration.nix</code> and added the following:</p><pre><code class="conf">nix.settings.experimental-features = &#91; &quot;nix-command&quot; &quot;flakes&quot; &#93;;
+<html lang="en"><head><title>A Gentle Introduction to Nix Flakes</title><meta charset="utf-8" /><meta content="width=device-width,initial-scale=1.0,user-scalable=yes" name="viewport" /><meta content="noodp,noydir" name="robots" /><link rel='apple-touch-icon' sizes='180x180' href='/images/ico/apple-touch-icon.png'><link rel='icon' type='image/png' sizes='32x32' href='/images/ico/favicon-32x32.png'><link rel='icon' type='image/png' sizes='16x16' href='/images/ico/favicon-16x16.png'><link rel='manifest' href='/images/ico/site.webmanifest'><link rel='mask-icon' href='/images/ico/safari-pinned-tab.svg' color='#5bbad5'><link rel='shortcut icon' href='/images/ico/favicon.ico'> <meta name='msapplication-TileColor' content='#da532c'> <meta name='msapplication-config' content='/images/ico/browserconfig.xml'> <meta name='theme-color' content='#ffffff'><meta content="A Gentle Introduction to Nix Flakes" name="description" /><meta content="nix, nix flakes, darwin, nixos, linux" name="keywords" /><meta content="A Gentle Introduction to Nix Flakes" property="og:title" /><meta content="article" property="og:type" /><meta content="https://ebzzry.com/en/flakes/" property="og:url" /><meta content="https://ebzzry.com/images/ico/android-chrome-512x512.png" property="og:image" /><style media="all" type="text/css">html {    color: #333;    font-size: 1em;    font-family: Georgia, Cambria, Palatino, "Palatino Linotype", "Times New Roman", Times, serif;    line-height: 1.45;    text-align: left:    width: 100%;    max-width: 40em;    margin: 0 auto 0 auto;    padding: 0;}body {    border-top: hidden;    border-bottom: hidden;    padding: 0 1.5em 1em 1.5em;    margin: 0;}#content {    -webkit-column-count: 1;    -moz-column-count: 1;    column-count: 1;}code {    font-size: 0.9em;    font-family: "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Lucida Console", "Courier New", Courier, monospace;    color: black;    display: inline-block;}pre code {    font-size: 1em;    font-family: monospace;    line-height: 1.3em;    overflow: auto;    font-weight: normal;}kbd {    font-size: 1.1em;    padding: 0.1em 0.6em;    border: 1px solid #ccc;    font-family: monospace;    background-color: #f7f7f7;    color: #333;    -moz-box-shadow: 0 1px 0px rgba(0, 0, 0, 0.2),0 0 0 2px #ffffff inset;    -webkit-box-shadow: 0 1px 0px rgba(0, 0, 0, 0.2),0 0 0 2px #ffffff inset;    box-shadow: 0 1px 0px rgba(0, 0, 0, 0.2),0 0 0 2px #ffffff inset;    -moz-border-radius: 3px;    -webkit-border-radius: 3px;    border-radius: 3px;    display: inline-block;    margin: 0 0.1em;    text-shadow: 0 1px 0 #fff;    white-space: nowrap;}h1, h2, h3, h4, h5, h6 {    font-family: Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans", Tahoma, Geneva, Helvetica, Arial, sans-serif;    margin-bottom: 0;}h1 {    font-size: 2.5em;    text-align: center;    border-bottom: 6px solid black;}h2 {    font-size: 2.0em;    text-align: left;    border-bottom: 2px solid black;}h3 {    font-size: 1.6em;    text-align: left;    border-bottom: 1px solid lightgrey;}h4 {    font-size: 1.5em;    text-align: left;}h5 {    font-size: 1.3em;    text-align: left;}ul, ol {    padding-left: 2em;}ul li {    list-style-type: square;}ul li li {    list-style-type: disc;}ul li li li {    list-style-type: circle;}ol li {    list-style-type: decimal;}p, para, b, strong, i, em, emph {    font-size: 1em;}blockquote {    font-size: 1.2em;    font-style: italic;    margin-left: 2em;}b, strong {    font-weight: bold;}i, em, emph {    font-style: italic;}table {    margin: 0.5em;    border-spacing: 0;    border-collapse: collapse;}th, td {    border: 1px solid lightgray;    padding-top: 0;    padding-bottom: 0;    padding-left: 0.45em;    padding-right: 0.45em;}.text-right {    text-align: right;}.text-small {    font-size: small;}.text-x-small {    font-size: x-small;}.banner {    display: block;    width: 100%;    margin-left: auto;    margin-right: auto;}.footer {    text-align: right;    float: right;    max-width: 18em;}.cc {    border-width: 0}.center {    text-align: center;}</style><style media="all" type="text/css">/* Ewan Themes -- based 99.99% from Tomorrow Night Theme *//* http://jmblog.github.com/color-themes-for-google-code-highlightjs *//* Original theme - https://github.com/chriskempson/tomorrow-theme *//* http://jmblog.github.com/color-themes-for-google-code-highlightjs *//* Tomorrow Comment */.hljs-comment {  color: #969896;}/* Tomorrow Red */.hljs-variable,.hljs-attribute,.hljs-tag,.hljs-regexp,.ruby .hljs-constant,.xml .hljs-tag .hljs-title,.xml .hljs-pi,.xml .hljs-doctype,.html .hljs-doctype,.css .hljs-id,.css .hljs-class,.css .hljs-pseudo {  color: #cc6666;}/* Tomorrow Orange */.hljs-number,.hljs-preprocessor,.hljs-pragma,.hljs-built_in,.hljs-literal,.hljs-params,.hljs-constant {  color: #de935f;}/* Tomorrow Yellow */.ruby .hljs-class .hljs-title,.css .hljs-rule .hljs-attribute {  color: #f0c674;}/* Tomorrow Green */.hljs-string,.hljs-value,.hljs-inheritance,.hljs-header,.hljs-name,.ruby .hljs-symbol,.xml .hljs-cdata {  color: #b5bd68;}/* Tomorrow Aqua */.hljs-title,.css .hljs-hexcolor {  color: #8abeb7;}/* Tomorrow Blue */.hljs-function,.python .hljs-decorator,.python .hljs-title,.ruby .hljs-function .hljs-title,.ruby .hljs-title .hljs-keyword,.perl .hljs-sub,.javascript .hljs-title,.coffeescript .hljs-title {  color: #81a2be;}/* Tomorrow Purple */.hljs-keyword,.javascript .hljs-function {  color: #b294bb;}.hljs {  display: block;  overflow-x: auto;  background: #1d1f21;  color: #c5c8c6;  padding: 0.5em;  -webkit-text-size-adjust: none;}.coffeescript .javascript,.javascript .xml,.tex .hljs-formula,.xml .javascript,.xml .vbscript,.xml .css,.xml .hljs-cdata {  opacity: 0.5;}pre code {    font-size: 1.1em;    font-family: monospace;    line-height: 1.3em;    overflow: auto;}</style></head><body><div id="content"><h1>A Gentle Introduction to Nix Flakes</h1><p><div class="center">English • <a href='/eo/adv360/'>Esperanto</a></div></p><blockquote><p>But every decision for something is a decision against something else.<br> —H. G. Tannhaus, Dark (2017) </p></blockquote><p><img src="/images/site/aaron-burden-vtCZp-9GvrQ-unsplash-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="adv360" title="adv360"/></p><h2><a name="toc">Table of contents</a></h2><ul><li><a href='#introduction'>Introduction</a><ul><li><a href='#nixos'>NixOS</a></li><li><a href='#darwin'>Darwin</a></li></ul></li><li><a href='#flakes'>Flakes</a><ul><li><a href='#packages'>packages</a></li><li><a href='#devshells'>devShells</a></li><li><a href='#apps'>apps</a></li><li><a href='#nixosconfiguration'>nixosConfiguration</a></li><li><a href='#darwinconfiguration'>darwinConfiguration</a></li><li><a href='#flake-utils'>flake-utils</a></li></ul></li><li><a href='#closing'>Closing remarks</a></li></ul><h2><a name="introduction">Introduction</a></h2><p>When I discovered Nix almost two decades ago, I learned that there's still so much to computing than what I already knew. I was blown away. I was amazed. It was nothing short of marvel. My passion for systems administration was rekindled.</p><p>As someone who has spent an inordinate amount of time in the BSD-land—configuring everything by hand, memorizing all of the key places where important configuration should be—I found Nix and NixOS to be breath of fresh air.</p><p>Not long after, NixOS became my primary development machine. I could do everything with it, even using devices that were not designed from the start to be used with Linux. With the help of the official documentation and helpful articles of people who have used it before me, I was able to set it up according to my preferences. I wrote about what I have learned <a href='/en/nix'>here</a>.</p><h3><a name="nixos">NixOS</a></h3><p>The way that I've always used my NixOS system was that, I would install user packages via <code>nix-env</code>. But no matter how much I optimized the process, it was still slow and cumbersome. I found out that the system was loading more things than necessary, severely impacting performance. </p><p>I dug deeper and discovered Nix Flakes. It says on the <a href='https://wiki.nixos.org/wiki/Flakes'>wiki</a> that it is an experimental feature. I don't know exactly what that means, but it feels like an alpha feature that's already good to go.</p><p>To enable it, I edited <code>/etc/nixos/configuration.nix</code> and added the following:</p><pre><code class="conf">nix.settings.experimental-features = &#91; &quot;nix-command&quot; &quot;flakes&quot; &#93;;
 </code></pre><p>then did a</p><pre><code class="sh">sudo nixos-rebuild switch
 </code></pre><p>I got a new set of commands from the <code>nix</code> command, and found out that they are significant departure to the commands that I'm already acquainted with.</p><p>To install a package—say emem—without flakes and to uninstall it, run</p><pre><code class="sh">nix-env --install -A nixpkgs.emem
 nix-env --uninstall emem
 </code></pre><p>With flakes, to install and remove it, run</p><pre><code class="sh">nix profile install nixpkgs#emem
 nix profile remove emem
-</code></pre><h3><a name="darwin">Darwin</a></h3><p>When I got my hands on an M1 MBP, I got naturally curious if there's a way for me to use Nix on it. Soon after, I learned about <a href='https://github.com/LnL7/nix-darwin/'>nix-darwin</a>. After about an hour of tinkering, I finally got the incantation that would build everything.</p><pre><code class="sh">darwin-rebuild switch --flake &#126;/.config/nix
-</code></pre><p>Just like with flakes on NixOS, I got the new set of commads.</p><p>Most, if not all important Nix commands, have already coalesced into <code>nix</code>.  I went by fine with it for a year, until I decided that it's time to take the dive and use flakes outside of the basic configuration.</p><h2><a name="flakes">Flakes</a></h2><p>One of the things that has always bothered me was transitioning from the old mode of using <code>shell.nix</code> to create portable Nix shells, to <code>flake.nix</code>. To use flakes, you need to create the file <code>flake.nix</code>, which will be the basis of everything. The command <code>nix</code> reads this file from the current directory. The <code>init</code> subcommand creates one for us, conveniently.</p><pre><code class="sh">nix flake init
-</code></pre><p>the resulting file, <code>flake.nix</code>, will look something like the following:</p><pre><code class="nix">{
-  description = &quot;A very basic flake&quot;;
+</code></pre><h3><a name="darwin">Darwin</a></h3><p>When I got my hands on an M1 Macbook Pro, I got naturally curious if there's a way for me to use Nix on it. Soon after, I learned about <a href='https://github.com/LnL7/nix-darwin/'>nix-darwin</a>. After about an hour of tinkering, I finally got the incantation that would build everything.</p><pre><code class="sh">darwin-rebuild switch --flake &#126;/.config/nix
+</code></pre><p>Just like with flakes on NixOS, I got the new set of commads.</p><p>Most, if not all, important Nix commands, have already coalesced into <code>nix</code>.  I went by fine with it for a year. Soon, until I decided that it's time to take the dive and use flakes outside of the basic configuration.</p><h2><a name="flakes">Flakes</a></h2><p>One of the things that has always bothered me was transitioning from the old mode of using <code>shell.nix</code> to create portable Nix shells, to <code>flake.nix</code>. To use flakes, you need to create the file <code>flake.nix</code>, which will be the basis of everything. The command <code>nix</code> reads this file from the current directory. The <code>init</code> subcommand creates one for us, conveniently.</p><pre><code class="sh">nix flake init
+</code></pre><p>The resulting file, <code>flake.nix</code>, will look something like the following:</p><pre><code class="nix">{
+  description = &quot;A flake️️&quot;;
   inputs = {
     nixpkgs.url = &quot;github:nixos/nixpkgs?ref=nixpkgs-unstable&quot;;
   };
   outputs = { self, nixpkgs }: {
-    packages.aarch64-darwin.hello = nixpkgs.legacyPackages.aarch64-darwin.hello;
-    packages.aarch64-darwin.default = self.packages.aarch64-darwin.hello;
+    packages.x86-64&#95;linux.hello = nixpkgs.legacyPackages.x86-64&#95;linux.hello;
+    packages.x86-64&#95;linux.default = self.packages.x86-64&#95;linux.hello;
   };
 }
 </code></pre><p>We can see, immediately, that it is an attribute set, of three parts:</p><pre><code class="nix">{
@@ -25,20 +25,19 @@ nix profile remove emem
 </code></pre><p>Put a nice value in <code>description</code> so that we can use that as information when grepping for flakes. <code>inputs</code> specify the things that will go to the flake, while <code>outputs</code> are the ones that will produced by it, that will then be used by <code>nix</code> commands.  <code>inputs</code> itself is an attribute set, and we need first to specify the location for <code>nixpkgs</code>.</p><pre><code class="nix">inputs = {
   nixpkgs.url = &quot;github:nixos/nixpkgs?ref=nixpkgs-unstable&quot;;
 }
-</code></pre><p>or</p><pre><code class="nix">inputs.nixpkgs.url = &quot;github:nixos/nixpkgs?ref=nixpkgs-unstable&quot;;
 </code></pre><p>Here we're using <code>ref</code> to specify a branch name. You can have other specifiers, like a commit ID, with <code>rev</code>,</p><pre><code class="nix">inputs = {
   nixpkgs.url = &quot;github:nixos/nixpkgs?ref=nixpkgs-unstable&quot;;
   oldnixpkgs.url = &quot;github:nixos/nixpkgs?rev=d73ab2f14214a587059fa38cacf82198409e54eb&quot;;
 }
 </code></pre><p>The value of <code>outputs</code> should be a function that takes an attribute list as an argument and returns an attribute list containing the outputs specification. The form is as follows,</p><pre><code class="nix">outputs = { }: { }
-</code></pre><p>The outputs of a flake correspond with specific Nix commands. Some of the ones that I use are listed below.</p><table><thead><tr></tr></thead></table>|&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-|&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;|<table><thead><tr></tr></thead><tbody><tr></tr><tr></tr><tr></tr><tr></tr></tbody></table><h3><a name="packages">packages</a></h3><pre><code class="nix">outputs = { self, nixpkgs }: {
-  packages.aarch64-darwin.hello = nixpkgs.legacyPackages.aarch64-darwin.hello;
-  packages.aarch64-darwin.default = self.packages.aarch64-darwin.hello;
+</code></pre><p>The outputs of a flake correspond with specific Nix commands. Some of the ones that I use are listed below.</p><table><thead><tr><th align='left'>output</th><th align='left'>used by</th></tr></thead><tbody><tr><td align='left'><code>packages</code></td><td align='left'><code>nix build</code></td></tr><tr><td align='left'><code>devShells</code></td><td align='left'><code>nix develop</code></td></tr><tr><td align='left'><code>apps</code></td><td align='left'><code>nix run</code></td></tr><tr><td align='left'><code>nixosConfigurations</code></td><td align='left'><code>nixos-rebuild &ndash;flake</code></td></tr><tr><td align='left'><code>darwinConfigurations</code></td><td align='left'><code>darwin-rebuild &ndash;flake</code></td></tr></tbody></table><h3><a name="packages">packages</a></h3><p>Let's talk about the the most basic kind of output—packages.</p><pre><code class="nix">outputs = { self, nixpkgs }: {
+  packages.x86-64&#95;linux.hello = nixpkgs.legacyPackages.x86-64&#95;linux.hello;
+  packages.x86-64&#95;linux.default = self.packages.x86-64&#95;linux.hello;
 };
-</code></pre><p>The argument of the function is an attribute set, with two keys: <code>self</code> and <code>nixpkgs</code>. <code>self</code>, there, is the attribute itself. This allows us to make references to other parts inside. <code>nixpkgs</code> contains all the packages for a specific system, which, in our example above, is <code>aarch64-darwin</code>.</p><p>In</p><pre><code class="nix">packages.aarch64-darwin.hello = nixpkgs.legacyPackages.aarch64-darwin.hello;
-</code></pre><p>we create an output package named <code>packages.aarch64-darwin.hello</code>, assigning it the <code>hello</code> derivation from nixpkgs. We have to specify the arch, or as Nix calls it, system, because packages are system-specific. Next, we create a default output package which would be evaluated if no package is specified. We use the identifier <code>self.packages.aarch64-darwin.hello</code> to select <code>packages.aarch64-darwin.hello</code> that was previously defined in this same attribute set.</p><p>Let's refactor <code>outputs</code> to make it more readable:</p><pre><code class="nix">outputs = { nixpkgs }:
+</code></pre><p>The argument of the function is an attribute set, with two keys: <code>self</code> and <code>nixpkgs</code>. <code>self</code>, there, is the attribute itself. This allows us to make references to other parts inside. <code>nixpkgs</code> contains all the packages for a specific system, which, in our example above, is <code>x86-64&#95;linux</code>.</p><p>In</p><pre><code class="nix">packages.x86-64&#95;linux.hello = nixpkgs.legacyPackages.x86-64&#95;linux.hello;
+</code></pre><p>we create an output package named <code>packages.x86-64&#95;linux.hello</code>, assigning it the <code>hello</code> derivation from Nixpkgs. We have to specify the arch, or as Nix calls it, system, because packages are system-specific. Next, we create a default output package which would be evaluated if no package is specified. We use the identifier <code>self.packages.x86-64&#95;linux.hello</code> to select <code>packages.x86-64&#95;linux.hello</code> that was previously defined in this same attribute set.</p><p>Let's refactor <code>outputs</code> to make it more readable:</p><pre><code class="nix">outputs = { nixpkgs }:
  let
-   system = &quot;aarch64-darwin&quot;;
+   system = &quot;x86-64&#95;linux&quot;;
    pkgs = nixpkgs.legacyPackages.${system};
  in with pkgs; {
    packages.${system} = rec {
@@ -58,15 +57,16 @@ nix build $PWD
 nix build .
 nix build /Users/foo/tmp
 </code></pre><p>The command creates the symlink <code>result</code> in the current directory that points to the build output in the Nix store. To run <code>hello</code>,</p><pre><code class="sh">./result/bin/hello
-</code></pre><h3><a name="devshells">devshells</a></h3><p>Perhaps the output that I use the most is <code>devShells</code>. It allows me to create «development shells» that contain environments that are completely isolated from my main system. It is (essentially) the flakes version of <code>nix-shell</code>.</p><p>Here's a simple one,</p><pre><code class="nix">devShells.${system} = rec {
+</code></pre><h3><a name="devshells">devshells</a></h3><p>Perhaps the output that I use the most is <code>devShells</code>. It allows me to create «development shells» (whatever that means) that contain environments that are completely isolated from my main system. It is (essentially) the flakes version of the ones created with <code>nix-shell</code>.</p><p>Here's a simple one,</p><pre><code class="nix">devShells.${system} = rec {
   lisp = mkShell { buildInputs = &#91; sbcl &#93;; };
   default = lisp;
 };
 </code></pre><p>It defines a lisp shell with <code>pkgs.mkShell</code> and takes an attribute list. The most important key is <code>buildInputs</code> which is a list of the packages. Here it is <code>pkgs.sbcl</code>. Just like with the <code>packages</code> output, we define a default shell with <code>default</code>.</p><p>Our <code>flake.nix</code> file now looks like</p><pre><code class="nix">{
+  description = &quot;A flake️️&quot;;
   inputs = { nixpkgs.url = &quot;github:nixos/nixpkgs?ref=nixpkgs-unstable&quot;; };
   outputs = { nixpkgs, ... }:
     let
-      system = &quot;aarch64-darwin&quot;;
+      system = &quot;x86-64&#95;linux&quot;;
       pkgs = nixpkgs.legacyPackages.${system};
     in with pkgs; {
       packages.${system} = rec {
@@ -80,4 +80,135 @@ nix build /Users/foo/tmp
     };
 }
 </code></pre><p>To enter the default shell, which is <code>lisp</code>, run</p><pre><code class="sh">nix develop
-</code></pre><h3><a name="apps">Apps</a></h3><h3><a name="refactoring">Refactoring</a></h3><h2><a name="etc">Etc</a></h2><p>explain, then fix</p><p>git is mandatory</p><p>flake.nix is an attribute set</p><p>it is all about outputs</p><p>what are the outputs</p><p>what are the basics commands</p><p>what are the use cases</p><hr/><div class="footer"><p><div class="text-small"> <a href='/en/'>Home</a> • <a href='/en/about/'>About</a> • <a href='/en/quotes/'>Quotes</a> • <a href='/en/reflections/'>Reflections</a> </div></p><p><div class="text-x-small"> Made with ❤️ by Rommel Martínez </div></p><p></div></p></div><script src="/static/js/highlight.pack.js"></script><script>hljs.initHighlightingOnLoad();</script></body></html>
+</code></pre><p>You then have access to the packages that you have declared,</p><pre><code class="sh">sbcl --version
+</code></pre><h3><a name="apps">Apps</a></h3><p>An app output on the other hand allows you to conveniently execute any arbitrary program from a package.</p><p>Let go and define an app output that launches a system monitor.</p><pre><code class="nix">apps.${system} = rec {
+  btop = {
+    type = &quot;app&quot;;
+    program = &quot;${pkgs.btop}/bin/btop&quot;;
+  };
+  default = btop;
+};
+</code></pre><p>The attribute type has to have the value <code>&quot;app&quot;</code>. The attribute <code>program</code> contains the package path to the program that you want to run. To launch it, run</p><pre><code class="sh">nix run
+</code></pre><h3><a name="nixosconfiguration">nixosConfiguration</a></h3><p>One of the best things that I have discovered with flakes is the ability to provision the managing of the NixOS configuration. You don't need to change anything with the existing file, <code>/etc/nixos/configuration.nix</code>. You only need to tell <code>flake.nix</code> how to manage it.</p><pre><code class="nix">nixosConfigurations.&quot;hostname&quot; = nixos.lib.nixosSystem {
+  modules = &#91; ./configuration.nix &#93;;
+  specialArgs = { inherit pkgs; };
+};
+</code></pre><p>The file <code>./configuration.nix</code> above is a copy of the file <code>/etc/nixos/configuration.nix</code> which will be tracked by version control, too. Add it to the repository</p><pre><code class="sh">git add configuration.nix
+</code></pre><p>The string <code>&quot;hostname&quot;</code> should be replaced with the hostname of the machine that would use that configuration. </p><pre><code class="nix">{
+  inputs = { nixpkgs.url = &quot;github:nixos/nixpkgs/nixos-unstable&quot;; };
+  outputs = { nixpkgs, ... }:
+    let
+      system = &quot;x86-64&#95;linux&quot;;
+      pkgs = nixpkgs.legacyPackages.${system};
+    in with pkgs; {
+      nixosConfigurations = {
+        &quot;ebzzry-tpad&quot; = nixpkgs.lib.nixosSystem {
+          modules = &#91; ./nixos-configuration.nix &#93;;
+          specialArgs = { inherit pkgs; };
+        };
+      };
+    };
+}
+</code></pre><p>To rebuild the NixOS configuration for the machine <code>ebzzry-tpad</code>, run</p><pre><code class="sh">sudo nixos-rebuild switch --flake .#ebzzry-tpad
+</code></pre><p>If there's only one configuration, the following command would suffice,</p><pre><code class="sh">sudo nixos-rebuild switch --flake .
+</code></pre><h3><a name="darwinconfiguration">darwinConfiguration</a></h3><p>With <code>nix-darwin</code>, you can do the same as above,</p><pre><code class="nix">{
+  inputs = {
+    nixpkgs.url = &quot;github:nixos/nixpkgs/nixpkgs-unstable&quot;;
+    nix-darwin.url = &quot;github:lnl7/nix-darwin&quot;;
+    nix-darwin.inputs.nixpkgs.follows = &quot;nixpkgs&quot;;
+  };
+  outputs = { nixpkgs, nix-darwin }:
+    let
+      system = &quot;aarch64-darwin&quot;;
+      pkgs = nixpkgs.legacyPackages.${system};
+    in with pkgs; {
+      darwinConfigurations = {
+        &quot;ebzzry-mbp&quot; = nix-darwin.lib.darwinSystem {
+          modules = &#91; ./darwin-configuration.nix &#93;;
+          specialArgs = { inherit pkgs; };
+        };
+      };
+      darwinPackages = self.darwinConfigurations.&quot;ebzzry-mbp&quot;.pkgs;
+    };
+}
+</code></pre><p>To rebuild your Darwin configuration, run</p><pre><code class="sh">darwin-rebuild switch --flake .
+</code></pre><h3><a name="refactoring">Refactoring</a></h3><p>Soon after, you'll discover that your config is a mess:</p><pre><code class="nix">{
+  inputs = { nixpkgs.url = &quot;github:nixos/nixpkgs?ref=nixpkgs-unstable&quot;; };
+  outputs = { nixpkgs, ... }:
+    let
+      nixosSystem = &quot;x86-64&#95;linux&quot;;
+      nixosPackages = nixpkgs.legacyPackages.${nixosSystem};
+      darwinSystem = &quot;aarch64-darwin&quot;;
+      darwinPackages = nixpkgs.legacyPackages.${darwinSystem};
+    in {
+      packages.${nixosSystem} = with nixosPackages; rec {
+        hello = hello;
+        default = hello;
+      };
+      devShells.${nixosSystem} = with nixosPackages; rec {
+        lisp = mkShell { buildInputs = &#91; sbcl &#93;; };
+        default = lisp;
+      };
+      apps.${nixosSystem} = with nixosPackages; rec {
+        btop = {
+          type = &quot;app&quot;;
+          program = &quot;${pkgs.btop}/bin/btop&quot;;
+        };
+        default = btop;
+      };
+      packages.${darwinSystem} = with darwinPackages; rec {
+        hello = hello;
+        default = hello;
+      };
+      devShells.${darwinSystem} = with darwinPackages; rec {
+        lisp = mkShell { buildInputs = &#91; sbcl &#93;; };
+        default = lisp;
+      };
+      apps.${darwinSystem} = with darwinPackages; rec {
+        btop = {
+          type = &quot;app&quot;;
+          program = &quot;${pkgs.btop}/bin/btop&quot;;
+        };
+        default = btop;
+      };
+    };
+}
+</code></pre><p>Each output that we create for a system, needs to be written for other systems that we want to support. This is where <a href='https://github.com/numtide/flake-utils'>flake-utils</a> helps. It is a set of utility functions that helps in writing better Nix expressions. Let first refactor the outputs to make them nicer.</p><p>apps.nix:<pre><code class="nix">{ pkgs }: rec {
+  hello = {
+    type = &quot;app&quot;;
+    program = &quot;${pkgs.hello}/bin/hello&quot;;
+  };
+  default = hello;
+}
+ </code></pre></p><p>packages.nix:<pre><code class="nix">{ pkgs }: rec {
+  btop = pkgs.btop;
+  default = btop;
+}
+ </code></pre></p><p>shells.nix:<pre><code class="nix">{ nixpkgs, pkgs, ... }:
+with pkgs; rec {
+  lisp = mkShell { buildInputs = &#91; sbcl &#93;; };
+  default = lisp;
+}
+ </code></pre></p><p>Next, let's refactor <code>flake.nix</code>:</p><p>flake.nix:<pre><code class="nix">{
+  description = &quot;A flake️️&quot;;
+  inputs = {
+    nixpkgs.url = &quot;github:nixos/nixpkgs/nixpkgs-unstable&quot;;
+    nixos.url = &quot;github:nixos/nixpkgs/nixos-unstable&quot;;
+    flake-utils.url = &quot;github:numtide/flake-utils&quot;;
+  };
+  outputs = { self, nixpkgs, nixos, nix-darwin, flake-utils }:
+    let
+      user = &quot;ebzzry&quot;;
+      nixosHostName = &quot;la-vulpo&quot;;
+      nixosSystem = &quot;x86&#95;64-linux&quot;;
+      darwinHostName = &quot;la-orcino&quot;;
+      darwinSystem = &quot;aarch64-darwin&quot;;
+    in flake-utils.lib.eachDefaultSystem &#40;system:
+      let pkgs = nixpkgs.legacyPackages.${system};
+      in {
+        apps = import ./apps.nix { inherit pkgs; };
+        packages = import ./packages.nix { inherit pkgs; };
+        devShells = import ./shells.nix { inherit nixpkgs pkgs; };
+      }&#41;;
+}
+ </code></pre></p><p>Don't forget to add the new <code>.nix</code> files that you're going to create.</p><p>What's happening here is that we're adding a new input, <code>flake-utils</code>, next, we're passing it to <code>outputs</code>, finally we're calling a function.</p><p>The function <code>flake-utils.lib.eachDefaultSystem</code> takes a function as an argument—<code>&#40;system: ...&#41;</code>. That function takes a single argument <code>system</code>, that would correspond to all the available systems. It will then loop through each system and generate the expressions.</p><h2><a name="closing">Closing remarks</a></h2><p>With Nix Flakes, everything becomes more declarative, more comprehensible, kaj more succinct. I found it easier to manage my systems with a straightforward approach. It may change in the future, but flakes now, is the best way to manage packages and configurations. Give it a try!</p><hr/><div class="footer"><p><div class="text-small"> <a href='/en/'>Home</a> • <a href='/en/about/'>About</a> • <a href='/en/quotes/'>Quotes</a> • <a href='/en/reflections/'>Reflections</a> </div></p><p><div class="text-x-small"> Made with ❤️ by Rommel Martínez </div></p><p></div></p></div><script src="/static/js/highlight.pack.js"></script><script>hljs.initHighlightingOnLoad();</script></body></html>
