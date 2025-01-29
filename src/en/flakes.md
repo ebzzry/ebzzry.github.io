@@ -17,6 +17,11 @@ A Gentle Introduction to Nix Flakes
   + [NixOS](#nixos)
   + [Darwin](#darwin)
 - [Flakes](#flakes)
+  + [packages](#packages)
+  + [devShells](#devshells)
+  + [apps](#apps)
+  + [nixosConfiguration](#nixosconfiguration)
+  + [darwinConfiguration](#darwinconfiguration)
 - [Closing remarks](#closing)
 
 
@@ -43,7 +48,7 @@ to my preferences. I wrote about what I have learned [here](/en/nix).
 <a name="basics">Basics</a>
 ---------------------------
 
-### NixOS
+### <a name="nixos">NixOS</a>
 
 The way that I've always used my NixOS system was that, I would install user
 packages via `nix-env` and I'm good to go. But no matter how much I optimized
@@ -84,7 +89,7 @@ nix profile install nixpkgs#emem
 nix profile remove emem
 ```
 
-### Darwin
+### <a name="darwin">Darwin</a>
 
 When I got my hands on an M1 MBP, I got naturally curious if there's a way for
 me to use Nix on it. Soon after, I learned about
@@ -119,13 +124,13 @@ the resulting file, `flake.nix`, will look something like the following:
 
 ```nix
 {
-  description = "A very basic flake";
+  description = "❄️️";
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs?ref=nixpkgs-unstable";
   };
   outputs = { self, nixpkgs }: {
-    packages.aarch64-darwin.hello = nixpkgs.legacyPackages.aarch64-darwin.hello;
-    packages.aarch64-darwin.default = self.packages.aarch64-darwin.hello;
+    packages.x86-64_linux.hello = nixpkgs.legacyPackages.x86-64_linux.hello;
+    packages.x86-64_linux.default = self.packages.x86-64_linux.hello;
   };
 }
 ```
@@ -140,11 +145,11 @@ We can see, immediately, that it is an attribute set, of three parts:
 }
 ```
 
-`description` is self-explanatory, so we're only going to look at `inputs` and
-`outputs`. `inputs` specify the things that will go to the flake, while
-`outputs` are the ones that will produced by it, that will then be used by `nix`
-commands.  `inputs` itself is an attribute set, and we need first to specify the
-location for `nixpkgs`.
+Put a nice value in `description` so that we can use that as information when
+grepping for flakes. `inputs` specify the things that will go to the flake,
+while `outputs` are the ones that will produced by it, that will then be used by
+`nix` commands.  `inputs` itself is an attribute set, and we need first to
+specify the location for `nixpkgs`.
 
 ```nix
 inputs = {
@@ -155,11 +160,11 @@ inputs = {
 or
 
 ```nix
-inputs.nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
+inputs.nixpkgs.url = "github:nixos/nixpkgs?ref=nixpkgs-unstable";
 ```
 
-Here we're using `?ref=` to specify a branch name. You can specify other things,
-like a specific commit ID, with `?rev=`,
+Here we're using `ref` to specify a branch name. You can have other
+specifiers, like a commit ID, with `rev`,
 
 ```nix
 inputs = {
@@ -168,18 +173,267 @@ inputs = {
 }
 ```
 
+The value of `outputs` should be a function that takes an attribute list as an
+argument and returns an attribute list containing the outputs specification. The
+form is as follows,
 
-<a name="etc">Etc</a>
----------------------
+```nix
+outputs = { }: { }
+```
 
-git is mandatory
+The outputs of a flake correspond with specific Nix commands. Some of the ones
+that I use are listed below.
 
-flake.nix is an attribute set
+| output               | used by                |
+|----------------------|------------------------|
+| packages             | nix build              |
+| devShells            | nix develop            |
+| apps                 | nix run                |
+| nixosConfigurations  | nixos-rebuild --flake  |
+| darwinConfigurations | darwin-rebuild --flake |
 
-it is all about outputs
 
-what are the outputs
+### <a name="packages">packages</a>
 
-what are the basics commands
+```nix
+outputs = { self, nixpkgs }: {
+  packages.x86-64_linux.hello = nixpkgs.legacyPackages.x86-64_linux.hello;
+  packages.x86-64_linux.default = self.packages.x86-64_linux.hello;
+};
+```
 
-what are the use cases
+The argument of the function is an attribute set, with two keys: `self` and
+`nixpkgs`. `self`, there, is the attribute itself. This allows us to make
+references to other parts inside. `nixpkgs` contains all the packages for a
+specific system, which, in our example above, is `x86-64_linux`.
+
+In
+
+```nix
+packages.x86-64_linux.hello = nixpkgs.legacyPackages.x86-64_linux.hello;
+```
+
+we create an output package named `packages.x86-64_linux.hello`, assigning it
+the `hello` derivation from nixpkgs. We have to specify the arch, or as Nix calls
+it, system, because packages are system-specific. Next, we create a
+default output package which would be evaluated if no package is specified. We use the
+identifier `self.packages.x86-64_linux.hello` to select
+`packages.x86-64_linux.hello` that was previously defined in this same
+attribute set.
+
+Let's refactor `outputs` to make it more readable:
+
+```nix
+outputs = { nixpkgs }:
+ let
+   system = "x86-64_linux";
+   pkgs = nixpkgs.legacyPackages.${system};
+ in with pkgs; {
+   packages.${system} = rec {
+     hello = pkgs.hello;
+     default = hello;
+   };
+ };
+```
+
+With flakes, everything has to be commited with Git. The `nix` commands won't
+work unless, they're part of the repository. Any `.nix` file that is referenced
+by the flakes, has to be part of the repository.
+
+```sh
+git init
+git add .
+git commit -m 'Initial commit'
+```
+
+To build the `hello` package, run
+
+```sh
+nix build .#hello
+```
+
+The `.` indicate the current directory at the flake source, while `#hello` says
+that we build the `hello` package. If the current directory is
+`/Users/foo/tmp/`, the following commands are equivalent.
+
+```sh
+nix build .#hello
+nix build $PWD#hello
+nix build /Users/foo/tmp#hello
+```
+
+To build the default package, we simply omit `#hello`,
+
+```sh
+nix build
+nix build $PWD
+nix build .
+nix build /Users/foo/tmp
+```
+
+The command creates the symlink `result` in the current directory that points to
+the build output in the Nix store. To run `hello`,
+
+```sh
+./result/bin/hello
+```
+
+
+### <a name="devshells">devshells</a>
+
+Perhaps the output that I use the most is `devShells`. It allows me to create
+«development shells» that contain environments that are completely isolated from
+my main system. It is (essentially) the flakes version of `nix-shell`.
+
+Here's a simple one,
+
+```nix
+devShells.${system} = rec {
+  lisp = mkShell { buildInputs = [ sbcl ]; };
+  default = lisp;
+};
+```
+
+It defines a lisp shell with `pkgs.mkShell` and takes an attribute list. The
+most important key is `buildInputs` which is a list of the packages. Here it is
+`pkgs.sbcl`. Just like with the `packages` output, we define a default shell
+with `default`.
+
+Our `flake.nix` file now looks like
+
+```nix
+{
+  description = "❄️️";
+  inputs = { nixpkgs.url = "github:nixos/nixpkgs?ref=nixpkgs-unstable"; };
+  outputs = { nixpkgs, ... }:
+    let
+      system = "x86-64_linux";
+      pkgs = nixpkgs.legacyPackages.${system};
+    in with pkgs; {
+      packages.${system} = rec {
+        hello = hello;
+        default = hello;
+      };
+      devShells.${system} = rec {
+        lisp = mkShell { buildInputs = [ sbcl ]; };
+        default = lisp;
+      };
+    };
+}
+```
+
+To enter the default shell, which is `lisp`, run
+
+```sh
+nix develop
+```
+
+You then have access to the packages that you have declared,
+
+```sh
+sbcl --version
+```
+
+
+### <a name="apps">Apps</a>
+
+An app output on the other hand allows you to conveniently execute any arbitrary
+program from a package.
+
+Let go and define an app output that launches a system monitor.
+
+```nix
+apps.${system} = rec {
+  btop = {
+    type = "app";
+    program = "${pkgs.btop}/bin/btop";
+  };
+  default = btop;
+};
+```
+
+The attribute type has to have the vaule `"app"`. The attribute `program`
+contains the package path to the program that you want to run.
+
+To launch it, run
+
+```sh
+nix run
+```
+
+
+### <a name="nixosconfiguration">nixosConfiguration</a>
+
+One of the best things that I have discovered with flakes is the ability to
+provision the managing of the NixOS configuration. You don't need to change
+anything with the existing file, `/etc/nixos/configuration.nix`. You only need
+to tell `flake.nix` how to manage it.
+
+```nix
+nixosConfigurations."hostname" = nixos.lib.nixosSystem {
+  modules = [ ./configuration.nix ];
+  specialArgs = { inherit pkgs; };
+};
+```
+
+The file `configuration.nix` is a copy of the file
+`/etc/nixos/configuration.nix` which will be tracked by version control, too.
+Add it to the repository
+
+```sh
+git add configuration.nix
+```
+
+The string `"hostname"` should be replaced with the hostname of the machine that
+would use that configuration. You can have configurations for multiple systems,
+like so
+
+```nix
+nixosConfigurations = {
+  "john-laptop" = nixos.lib.nixosSystem {
+    modules = [ ./laptop-configuration.nix ];
+    specialArgs = { inherit pkgs; };
+  };
+  "alice-desktop" = nixos.lib.nixosSystem {
+    modules = [ ./desktop-configuration.nix ];
+    specialArgs = { inherit pkgs; };
+  };
+};
+```
+
+To rebuild the NixOS configuration for `john-laptop`, run
+
+```sh
+sudo nixos-rebuild switch --flake .#john-laptop
+```
+
+If there's only one configuration, the following would use the only one declared.
+
+```sh
+sudo nixos-rebuild switch --flake .
+```
+
+### <a name="darwinconfiguration">darwinConfiguration</a>
+
+When you're using `nix-darwin`, you can do the same as above.
+
+```nix
+darwinConfigurations."bob-mbp" = nix-darwin.lib.darwinSystem {
+  modules = [ ./bob-mbp-configuration.nix ];
+  specialArgs = { inherit pkgs; };
+};
+darwinPackages = self.darwinConfigurations."bob-mbp".pkgs;
+```
+
+To rebuild your Darwin configuration, run
+
+
+```sh
+darwin-rebuild switch --flake .
+```
+
+### <a name="refactoring">Refactoring</a>
+
+flake-utils
+many systems
+//
