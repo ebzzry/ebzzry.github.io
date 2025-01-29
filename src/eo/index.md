@@ -2,11 +2,11 @@
 ==============
 
 <div class="center">[English](/en/) • Esperanto</div>
-
 <img src="/images/site/golfo-1008x250.webp" class="banner" alt="golfo" title="Ĉe la vizaĝo de la kosmo, ni ĉiuj estas infanoj." />
 
-<div class="text-right">Retejo pri informadiko, hominklinaĵoj, kaj hazardaĵoj. La enskriboj estas ordigitaj laŭ inverskronologiordo.</div>
+<div class="text-right">Retejo pri informadiko, hominklinaĵoj, kaj hazardaĵoj.</div>
 
+- [Milda Enkonduko al Nix-Flokoj](flokoj/)
 - [Kiel Mi Uzas la Kinesis Advantage360 Professional-Klavaron](adv360/)
 - [Kiel Mi Uzas Giton ĉe la Komandlinio](gito/)
 - [Milda Enkonduko al Nedeterminismo en Skimo](amb/)
