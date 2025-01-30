@@ -2,11 +2,12 @@ Milda Enkonduko al Nix-Flokoj
 =============================
 
 <div class="center">[English](/en/flakes) • Esperanto</div>
+<div class="center">ĵaŭ jan 30 07:13:01 2025 +0800</div>
 
 >Tamen ĉiu decido por io estas decido kontraŭ io alia.<br>
 >—H. G. Tannhaus, Dark (2017)
 
-<img src="/images/site/aaron-burden-vtCZp-9GvrQ-unsplash-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="adv360" title="adv360"/>
+<img src="/images/site/aaron-burden-vtCZp-9GvrQ-unsplash-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="flokoj" title="flokoj"/>
 
 
 <a name="toc">Table of contents</a>
@@ -95,13 +96,8 @@ nix profile remove emem
 Kiam mi akiris M1 Macbook Pro-tekkomputilon, mi nature sciemis ĉu estas maniero
 por mi por instali je Nix sur ĝi. Post ne longe, mi malkovris
 [nix-darwin](https://github.com/LnL7/nix-darwin/). Post unu horo de
-alĝustigetado, mi fine akiris la sorĉelvokon kiu muntus ĉion.
-
-```sh
-darwin-rebuild switch --flake ~/.config/nix
-```
-
-Same kiel flokoj sur NixOS, mi prenis la novan aron de komandoj.
+alĝustigetado, mi fine akiris la sorĉelvokon kiu muntus ĉion.  Same kiel flokoj
+sur NixOS, mi prenis la novan aron de komandoj.
 
 Plejmulte da—se ne ĉiom—da gravaj Nix-komandoj jam kunfandiĝis al `nix`. Mi
 iris per ĝi senprobleme dum unu jaro. Baldaŭ, mi decidis, ke estas jam la ŝanco
@@ -114,8 +110,8 @@ por plenplonĝi kaj uzi flokojn ekster la baza agordo.
 Unu el la aferoj kiuj ja ĉiam ĝenis mi estis la transiro el la malnova reĝimo de
 uzi `shell.nix` por krei porteblajn nix-ŝelojn, al `flake.nix`. Por uzi flokojn,
 oni devas krei la dosieron `flake.nix`, kiu estos la bazo por ĉio. La komando
-`nix` legas ĉi tiun dosieron el la aktuala dosierujo. La `init` sub-komando
-kreas unu, por ni, oportune.
+`nix` legas ĉi tiun dosieron el la aktuala dosierujo, implicite. La `init`
+sub-komando kreas unu, por ni, oportune.
 
 ```sh
 nix flake init
@@ -175,7 +171,7 @@ kaj revenas atribuan liston enhavante la eligajn specifojn. La formo estas la
 jena:
 
 ```nix
-outputs = { }: { }
+outputs = { }: { };
 ```
 
 La eligoj de floko kongruas kun specifaj Nix-komandoj. Kelke da ili kiujn mi
@@ -215,13 +211,12 @@ En
 packages.x86-64_linux.hello = nixpkgs.legacyPackages.x86-64_linux.hello;
 ```
 
-ni kreas eligan pakon kiu nomiĝas `packages.x86-64_linux.hello`, valorizante
-ĝin la `hello`-derivaĵon el Nixpkgs. Ni ankaŭ devas precizigi la arkitekturon,
-aŭ kiel Nix nomas ĝin, system, ĉar pakoj estas sistemspecifaj. Sekve, ni kreu
-implicitan eligan pakon kiu estos taksita se iu ajn pako ne estas
-precizigita. Ni uzas la identigilon `self.packages.x86-64_linux.hello` por
-elekti `packages.x86-64_linux.hello` kiu estas antaŭe difinita en la sama
-atribua aro.
+ni kreas eligan pakon kiu nomiĝas `packages.x86-64_linux.hello`, valorizante ĝin
+la `hello`-derivaĵon el Nixpkgs. Ni ankaŭ devas precizigi la arkitekturon, ĉar
+pakoj estas sistemspecifaj. Sekve, ni kreu implicitan eligan pakon kiu estos
+taksita se iu ajn pako ne estas precizigita. Ni uzas la identigilon
+`self.packages.x86-64_linux.hello` por elekti `packages.x86-64_linux.hello` kiu
+estas antaŭe difinita en la sama atribua aro.
 
 Ni restrukturu `outputs` por igi ĝin pli legeblan:
 
@@ -237,6 +232,10 @@ outputs = { nixpkgs }:
    };
  };
 ```
+
+Estas norma praktiko por havi `pkgs`-variablon kiu indikas ĉiam da pakoj. Tiam,
+mi forigis `self` el la atribua aro, por ke mi povu havi pli da libero por uzi
+`rec.`
 
 Per flokoj, ĉio devas esti enmetita kun gito. La `nix`-komando ne funkcios
 kromse ili estas parto de la deponejo. Ajna `.nix`-dosiero estas referencita de
@@ -458,7 +457,7 @@ darwin-rebuild switch --flake .
 ```
 
 
-### <a name="restrukturi">Restrukturado</a>
+### <a name="flake-utils">flake-utils</a>
 
 Tre baldaŭ, oni malkovros ke la agordo estas fuŝaĵo:
 
@@ -540,25 +539,15 @@ with pkgs; rec {
 }
 ```
 
-Sekve, ni restrukturu `flake.nix`:
-
 flake.nix:
 ```nix
 {
-  description = "A flake️️";
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
-    nixos.url = "github:nixos/nixpkgs/nixos-unstable";
     flake-utils.url = "github:numtide/flake-utils";
   };
-  outputs = { self, nixpkgs, nixos, nix-darwin, flake-utils }:
-    let
-      user = "ebzzry";
-      nixosHostName = "la-vulpo";
-      nixosSystem = "x86_64-linux";
-      darwinHostName = "la-orcino";
-      darwinSystem = "aarch64-darwin";
-    in flake-utils.lib.eachDefaultSystem (system:
+  outputs = { nixpkgs, flake-utils }:
+    flake-utils.lib.eachDefaultSystem (system:
       let pkgs = nixpkgs.legacyPackages.${system};
       in {
         apps = import ./apps.nix { inherit pkgs; };
@@ -584,6 +573,9 @@ la esprimojn.
 
 Per Nix-flokoj, ĉio fariĝas pli deklara, pli komprenebla, kaj pli lakona. Mi
 opinias, ke estas facile administri miajn sistemojn per simpla aliro.
+
+Troviĝas ĉiom da dosieroj kiujn mi uzas en ĉi tiu artikolo
+[ĉi tie](https://github.com/ebzzry/dotfiles/tree/main/dev).
 
 Ĝi povas ŝanĝiĝi en la estonteco, tamen, flokoj nun, estas la plej bona maniero
 por administri pakojn kaj agordojn. Oni provu uzi ĝin!

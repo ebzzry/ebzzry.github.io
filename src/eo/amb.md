@@ -2,6 +2,7 @@ Milda Enkonduko al Nedeterminismo en Skimo
 ==========================================
 
 <div class="center">[English](/en/amb/) • Esperanto</div>
+<div class="center">ĵaŭ mar 7 19:31:31 2019 +0800</div>
 
 >Kelke da plej kernaj paŝoj en mensa kresko baziĝas ne simple pri novajn kapablojn akiri, sed
 >pri novajn administrajn manierojn akiri por tion uzi, kion oni jam scias.<br>

@@ -2,6 +2,7 @@ Signoj kaj Interpunkcioj
 ========================
 
 <div class="center">[English](/en/symbols-marks/) • Esperanto</div>
+<div class="center">dim jul 22 03:16:09 2018 +0800</div>
 
 >Se oni volas atingi grandiozon, ĉesu peti konsentojn.<br>
 >—Eddie COLLA

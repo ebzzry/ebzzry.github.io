@@ -2,6 +2,7 @@ Kiel Mi Uzas Giton ĉe la Komandlinio
 ====================================
 
 <div class="center">[English](/en/git/) • Esperanto</div>
+<div class="center">mer sep 26 18:16:47 2018 +0800</div>
 
 >Male, tiuj kun senĉeseco povas malatenti kiujn aliaj pensas. Ion ajn ili povas
 >fari en ilia propra mondo senzorgeme al la opinioj de tiuj ĉirkaŭ ili.<br>

@@ -2,6 +2,7 @@ Kiel Mi Uzas Timukson
 =====================
 
 <div class="center">[English](/en/tmux/) • Esperanto</div>
+<div class="center">sab feb 19 15:27:23 2022 +0800</div>
 
 >Furioza agado ne estas anstataŭaĵo de komprenado.<br>
 >—H.H. WILLIAMs

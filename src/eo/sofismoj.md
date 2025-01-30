@@ -2,6 +2,7 @@ Milda Enkonduko al Sofismoj
 ===========================
 
 <div class="center">[English](/en/fallacies/) • Esperanto</div>
+<div class="center">lun sep 17 22:50:53 2018 +0800</div>
 
 >Lerni ne necesas; nek travivas.<br>
 >—W. Edwards DEMING
