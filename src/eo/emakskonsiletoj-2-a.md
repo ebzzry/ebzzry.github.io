@@ -2,6 +2,7 @@ Emaksaj Konsiletoj 2-a: Seancoj kaj Pakoj
 =========================================
 
 <div class="center">[English](/en/emacs-tips-2/) • Esperanto</div>
+<div class="center">ĵaŭ okt 10 07:23:07 2019 +0800</div>
 
 >Sonorilo kiu ne povas sonori ne havas celon.<br>—Keel LORENZ, Neon Genesis Evangelion
 

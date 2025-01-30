@@ -2,6 +2,7 @@ Emaksaj Konsiletoj 1-a: Regionoj kaj Markoj
 ===========================================
 
 <div class="center">[English](/en/emacs-tips-1/) • Esperanto</div>
+<div class="center">lun fed 12 17:29:48 2018 +0800</div>
 
 >La voĉon ne pligrandigu; la argumenton plibonigu.<br>
 >—Desmond TUTU

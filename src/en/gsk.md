@@ -2,6 +2,7 @@ Setting up GPG and SSH in KDE
 =============================
 
 <div class="center">English • [Esperanto](/eo/gsk/)</div>
+<div class="center">Sat Jun 13 04:44:26 2015 +0800</div>
 
 >It’s not at all important to get it right the first time. It’s vitally important to get it right
 >the last time.<br>

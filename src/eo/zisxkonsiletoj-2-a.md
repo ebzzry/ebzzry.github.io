@@ -2,6 +2,7 @@ Ziŝaj Konsiletoj 2-a: Dosierujstakoj
 ====================================
 
 <div class="center">[English](/en/zsh-tips-2/) • Esperanto</div>
+<div class="center">mer okt 18 19:42:48 2017 +0800</div>
 
 >Kion ni faras por ni, mortas kun ni. Kion ni faras por ili, porĉiame restas.<br>
 >—Albert PIKE

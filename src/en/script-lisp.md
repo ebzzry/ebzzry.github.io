@@ -2,6 +2,7 @@ Scripting in Common Lisp
 ========================
 
 <div class="center">English • [Esperanto](/eo/skripti-lispon/)</div>
+<div class="center">Tue Sep 25 11:06:33 2018 +0800</div>
 
 >The light that burns twice as bright burns half as long.<br>
 >—Dr. Eldon Tyrell, Blade Runner (1982)

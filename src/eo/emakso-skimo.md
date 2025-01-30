@@ -2,6 +2,7 @@ Agordi Skimprogramadon en Emakso
 ================================
 
 <div class="center">[English](/en/emacs-scheme/) • Esperanto</div>
+<div class="center">mer feb 2 22:22:42 2022 +0800</div>
 
 >Ĉiom da bonaj ideoj ne kuŝas sub unu ĉapelo.<br>
 >—Dale TURNER
