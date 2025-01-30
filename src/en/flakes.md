@@ -1,12 +1,13 @@
 A Gentle Introduction to Nix Flakes
 ===================================
 
-<div class="center">English • [Esperanto](/eo/adv360/)</div>
+<div class="center">English • [Esperanto](/eo/flokoj/)</div>
+<div class="center">Sat Jan 25 17:30:55 2025 +0800</div>
 
 >But every decision for something is a decision against something else.<br>
 >—H. G. Tannhaus, Dark (2017)
 
-<img src="/images/site/aaron-burden-vtCZp-9GvrQ-unsplash-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="adv360" title="adv360"/>
+<img src="/images/site/aaron-burden-vtCZp-9GvrQ-unsplash-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="flakes" title="flakes"/>
 
 
 <a name="toc">Table of contents</a>
@@ -39,7 +40,7 @@ important configuration should be—I found Nix and NixOS to be breath of fresh
 air.
 
 Not long after, NixOS became my primary development machine. I could do
-everything with it, even using devices that were not designed from the start to
+everything with it, even use devices that were not designed from the start to
 be used with Linux. With the help of the official documentation and helpful
 articles of people who have used it before me, I was able to set it up according
 to my preferences. I wrote about what I have learned [here](/en/nix).
@@ -91,17 +92,12 @@ nix profile remove emem
 When I got my hands on an M1 Macbook Pro, I got naturally curious if there's a
 way for me to use Nix on it. Soon after, I learned about
 [nix-darwin](https://github.com/LnL7/nix-darwin/). After about an hour of
-tinkering, I finally got the incantation that would build everything.
-
-```sh
-darwin-rebuild switch --flake ~/.config/nix
-```
-
-Just like with flakes on NixOS, I got the new set of commads.
+tinkering, I finally got the incantation that would build everything.  Just like
+with flakes on NixOS, I got the new set of commads.
 
 Most, if not all, important Nix commands, have already coalesced into `nix`.  I
-went by fine with it for a year. Soon, until I decided that it's time to take the dive
-and use flakes outside of the basic configuration.
+went by fine with it for a year. Soon after, I decided that it's time to take
+the dive and use flakes outside of the basic configuration.
 
 
 <a name="flakes">Flakes</a>
@@ -110,8 +106,8 @@ and use flakes outside of the basic configuration.
 One of the things that has always bothered me was transitioning from the old
 mode of using `shell.nix` to create portable Nix shells, to `flake.nix`. To use
 flakes, you need to create the file `flake.nix`, which will be the basis of
-everything. The command `nix` reads this file from the current directory. The
-`init` subcommand creates one for us, conveniently.
+everything. The command `nix` reads this file, by default, from the current
+directory. The `init` subcommand creates one for us, conveniently.
 
 ```sh
 nix flake init
@@ -144,7 +140,7 @@ We can see, immediately, that it is an attribute set, of three parts:
 
 Put a nice value in `description` so that we can use that as information when
 grepping for flakes. `inputs` specify the things that will go to the flake,
-while `outputs` are the ones that will produced by it, that will then be used by
+while `outputs` are the ones that will be produced by it, that will then be used by
 `nix` commands.  `inputs` itself is an attribute set, and we need first to
 specify the location for `nixpkgs`.
 
@@ -169,7 +165,7 @@ argument and returns an attribute list containing the outputs specification. The
 form is as follows,
 
 ```nix
-outputs = { }: { }
+outputs = { }: { };
 ```
 
 The outputs of a flake correspond with specific Nix commands. Some of the ones
@@ -207,12 +203,11 @@ packages.x86-64_linux.hello = nixpkgs.legacyPackages.x86-64_linux.hello;
 ```
 
 we create an output package named `packages.x86-64_linux.hello`, assigning it
-the `hello` derivation from Nixpkgs. We have to specify the arch, or as Nix calls
-it, system, because packages are system-specific. Next, we create a
-default output package which would be evaluated if no package is specified. We use the
-identifier `self.packages.x86-64_linux.hello` to select
-`packages.x86-64_linux.hello` that was previously defined in this same
-attribute set.
+the `hello` derivation from Nixpkgs. We have to specify the arch, because
+packages are system-specific. Next, we create a default output package which
+would be evaluated if no package is specified. We use the identifier
+`self.packages.x86-64_linux.hello` to select `packages.x86-64_linux.hello` that
+was previously defined in this same attribute set.
 
 Let's refactor `outputs` to make it more readable:
 
@@ -228,6 +223,10 @@ outputs = { nixpkgs }:
    };
  };
 ```
+
+It's standard practice to have a `pkgs` variable that will point to all the
+packages. Then, I took out `self` from the attribute set, so that I'll have more
+liberty to use `rec`.
 
 With flakes, everything has to be commited with Git. The `nix` commands won't
 work unless, they're part of the repository. Any `.nix` file that is referenced
@@ -443,7 +442,7 @@ darwin-rebuild switch --flake .
 ```
 
 
-### <a name="refactoring">Refactoring</a>
+### <a name="flake-utils">flake-utils</a>
 
 Soon after, you'll discover that your config is a mess:
 
@@ -525,25 +524,15 @@ with pkgs; rec {
 }
 ```
 
-Next, let's refactor `flake.nix`:
-
 flake.nix:
 ```nix
 {
-  description = "A flake️️";
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
-    nixos.url = "github:nixos/nixpkgs/nixos-unstable";
     flake-utils.url = "github:numtide/flake-utils";
   };
-  outputs = { self, nixpkgs, nixos, nix-darwin, flake-utils }:
-    let
-      user = "ebzzry";
-      nixosHostName = "la-vulpo";
-      nixosSystem = "x86_64-linux";
-      darwinHostName = "la-orcino";
-      darwinSystem = "aarch64-darwin";
-    in flake-utils.lib.eachDefaultSystem (system:
+  outputs = { nixpkgs, flake-utils }:
+    flake-utils.lib.eachDefaultSystem (system:
       let pkgs = nixpkgs.legacyPackages.${system};
       in {
         apps = import ./apps.nix { inherit pkgs; };
@@ -567,7 +556,12 @@ system and generate the expressions.
 <a name="closing">Closing remarks</a>
 -------------------------------------
 
-With Nix Flakes, everything becomes more declarative, more comprehensible, kaj
+With Nix Flakes, everything becomes more declarative, more comprehensible, and
 more succinct. I found it easier to manage my systems with a straightforward
-approach. It may change in the future, but flakes now, is the best way to manage
+approach. 
+
+All the files that I used in this article can be found
+[here](https://github.com/ebzzry/dotfiles/tree/main/dev).
+
+It may change in the future, but flakes now, is the best way to manage
 packages and configurations. Give it a try!

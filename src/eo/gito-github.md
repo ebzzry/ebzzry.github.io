@@ -2,6 +2,7 @@ Lakona Rondvojaĝo de Gito kaj GitHub
 ====================================
 
 <div class="center">[English](/en/git-github/) • Esperanto</div>
+<div class="center">ven feb 26 17:59:51 2016 +0800</div>
 
 >Sciu kiel solvi ĉiujn solvitajn problemon.<br>
 >—Richard P. FEYNMAN

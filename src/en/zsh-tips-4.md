@@ -2,6 +2,7 @@ Zsh Tips 4: General Helpers
 ===========================
 
 <div class="center">English • [Esperanto](/eo/zisxkonsiletoj-4-a/)</div>
+<div class="center">Thu Nov 9 17:52:46 2017 +0800</div>
 
 >A change in perspective is worth 80 IQ points.<br>
 >—Alan Kay

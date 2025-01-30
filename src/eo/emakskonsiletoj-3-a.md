@@ -2,6 +2,7 @@ Emaksaj Konsiletoj 3-a: Enmeti kaj Forviŝi
 ==========================================
 
 <div class="center">[English](/en/emacs-tips-3/) • Esperanto</div>
+<div class="center">ĵaŭ okt 10 07:23:07 2019 +0800</div>
 
 >Ju pli oni ŝvitas en paco, des malpli oni sangas en milito.<br>—Norman SCHWARZKOPF
 

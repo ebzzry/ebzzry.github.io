@@ -2,6 +2,7 @@ Blogi per Frog
 ==============
 
 <div class="center">[English](/en/frog/) • Esperanto</div>
+<div class="center">dim sep 9 12:14:56 2018 +0800</div>
 
 >Unu persono kun ardo pli bonas ol kvardek personoj nure interesataj.<br>
 >—E.M. FORSTER

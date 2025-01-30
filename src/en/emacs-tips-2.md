@@ -2,6 +2,7 @@ Emacs Tips and Tricks 2: Sessions and Packages
 ==============================================
 
 <div class="center">English • [Esperanto](/eo/emakskonsiletoj-2-a/)</div>
+<div class="center">Wed Oct 18 19:55:10 2017 +0800</div>
 
 >A bell that doesn’t ring has no purpose.<br>—Keel Lorenz, Neon Genesis Evangelion
 

@@ -2,6 +2,7 @@ Ziŝaj Konsiletoj 4-a: Ĝeneralhelpiloj
 =====================================
 
 <div class="center">[English](/en/zsh-tips-4/) • Esperanto</div>
+<div class="center">mer sep 26 21:19:59 2018 +0800</div>
 
 >Vidpunkto meritas okdek poentojn da inteligentecaj kvocientoj.<br>
 >—Alan KAY

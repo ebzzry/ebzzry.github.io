@@ -2,6 +2,7 @@ About
 =====
 
 <div class="center">English • [Esperanto](/eo/pri/)</div>
+<div class="center">Last update: lun jan 27 15:38:00 2025 +0800 </div>
 
 <div>
 <img src="/images/site/ebzzry.png" style="float: right; width: 50%; margin: 0px 0px 0px 10px">

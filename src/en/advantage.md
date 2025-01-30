@@ -2,6 +2,7 @@ How I Use the Kinesis Advantage
 ===============================
 
 <div class="center">English • [Esperanto](/eo/advantage/)</div>
+<div class="center">Tue Oct 27 00:35:27 2015 +0800</div>
 
 >Pain is inevitable. Suffering is optional.<br>
 >—M. Kathleen Casey
@@ -43,7 +44,7 @@ Zsh.
 ---------------------------
 
 There exists a Dvorak mode which is already built-in in the keyboard. You can activate the dvorak
-mode without using any software by pressing <kbd>Pogrm + Shift + F5</kbd>. You can go back to the
+mode without using any software by pressing <kbd>Progrm + Shift + F5</kbd>. You can go back to the
 QWERTY mode by pressing the same key combination.  When using Dvorak emulation, the following layout
 is how the keys are mapped:
 
