@@ -98,7 +98,7 @@ La jena certigas kodaĵo, ke la emaksa servilo—tiu, kiu `emacsclient` konektas
 
 Alterne, oni povas ruli emakson en demonreĝimo ĉe la komandlinio:
 
-```bash
+```sh
 $ emacs --daemon
 ```
 

@@ -6,7 +6,7 @@ function foo1 &#40;&#41; { for x in foo bar baz; do echo $x; done }</code></pre>
 function foo &#40;&#41; { echo foo, too }</code></pre><p>Both use the name <code>foo</code>, but each uses a different namespace. When you execute <code>foo</code>:</p><pre><code>% foo
 foo</code></pre><p>It displays just <code>foo</code> because, instead of <code>foo, too</code> even if the latter came from a more recent definition. To remove the <code>foo</code> alias definition, run:</p><pre><code>% unalias foo
 % foo
-foo, too</code></pre><p>As much as possible, use functions.</p><p>To display all your functions, run:</p><pre><code>% functions</code></pre><h2><a name="all">Putting them all together</a></h2><p>Littering your config file with complete function definitions for every little command that you want is dumb. Instead, we’ll use a better way to define global aliases and small functions. Open your <code>&#126;/.zshenv</code> file using your favorite editor.</p><p>First let’s define the functions that will define the others.</p><pre><code class="bash">function def&#95;real&#95;alias &#40;&#41; {
+foo, too</code></pre><p>As much as possible, use functions.</p><p>To display all your functions, run:</p><pre><code>% functions</code></pre><h2><a name="all">Putting them all together</a></h2><p>Littering your config file with complete function definitions for every little command that you want is dumb. Instead, we’ll use a better way to define global aliases and small functions. Open your <code>&#126;/.zshenv</code> file using your favorite editor.</p><p>First let’s define the functions that will define the others.</p><pre><code class="sh">function def&#95;real&#95;alias &#40;&#41; {
   while &#91;&#91; $# -ge 2 &#93;&#93;; do
     alias &quot;$1=$2&quot;
     shift 2
@@ -41,7 +41,7 @@ function def&#95;funs &#40;&#41; {
   def&#95;fun $funs
   unset funs
 }
-</code></pre><p>Next we’ll define the arrays:</p><pre><code class="bash">real&#95;aliases=&#40;
+</code></pre><p>Next we’ll define the arrays:</p><pre><code class="sh">real&#95;aliases=&#40;
   meh &quot;echo meh&quot;
 &#41;; def&#95;real&#95;aliases
 

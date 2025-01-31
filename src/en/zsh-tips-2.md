@@ -31,7 +31,7 @@ of `popd`. The command `dirs`, displays the current value of the directory stack
 
 First, let’s define our helpers:
 
-```bash
+```sh
 function d () { pushd $@ }
 function - () { popd }
 function ds () { dirs -l $@ }
@@ -77,7 +77,7 @@ ensure that my config files are read from scratch.
 But doing so, removes the stack that I have built. To work this around, I have a function that saves
 the directory stack of the current session:
 
-```bash
+```sh
 function z! () {
   dirs -lv | awk -F '\t' '{print $2}' | tac >! $HOME/.z
   exec zsh
@@ -99,7 +99,7 @@ Running `z!` will save the contents of the current stack, and restart the shell:
 
 To accompany `z!`, I have a function that restores the saved directory stack:
 
-```bash
+```sh
 function z+ () {
   if [[ -f $HOME/.z ]]; then
       local pwd=$PWD

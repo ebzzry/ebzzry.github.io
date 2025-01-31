@@ -1087,7 +1087,7 @@ After you have forked the repository, clone your version of the repository.
 This will create a copy of your fork in the root of your home directory. Head over to that
 directory, then let’s examine its contents:
 
-```bash
+```sh
 $ cd ~/nixpkgs
 $ tree -aFL 1
 .
@@ -1164,7 +1164,7 @@ mirror and we interpolated the `name` variable inside that string. The value of 
 attribute is the one we get by running `nix-prefetch-url` against the URL. To get the checksum for
 `hello-2.10`, run:
 
-```bash
+```sh
 $ nix-prefetch-url http://ftpmirror.gnu.org/hello/hello-2.10.tar.gz
 downloading ‘http://ftpmirror.gnu.org/hello/hello-2.10.tar.gz’... [622/709 KiB, 64.6 KiB/s]
 path is ‘/nix/store/3x7dwzq014bblazs7kq20p9hyzz0qh8g-hello-2.10.tar.gz’
@@ -1414,7 +1414,7 @@ the `−−run` option was omitted, we will be dropped in a shell:
 This shell instance is special because it only contains sufficient information just to make GNU Hello,
 available. We can even inspect the value of `$PATH`, here:
 
-```bash
+```sh
 [nix-shell:~]$ echo $PATH | tr ':' '\n'
 /nix/store/kc912zn1ry1xilcm901ip7p8s1iqv0f1-hello-2.10/bin
 /nix/store/f9q8k36x9jpi8jmdpwifcywzywpxvhrs-patchelf-0.9/bin

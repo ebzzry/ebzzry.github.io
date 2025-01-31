@@ -98,7 +98,7 @@ This snippet ensures that the Emacs server, the one that `emacsclient` connects 
 
 Alternatively, you may run Emacs in daemon mode from the command-line:
 
-```bash
+```sh
 $ emacs --daemon
 ```
 

@@ -156,7 +156,7 @@ mehmeh meh mehmeh meh mehmeh meh mehmeh meh mehmeh meh meh
 
 When the code or command block occupies one to two lines, indent it with four spaces:
 
-```bash
+```sh
     VAR=blahblahblah
     function meh () { echo meh }
 ```

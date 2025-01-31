@@ -145,7 +145,7 @@ alie nomata la klavo <kbd>Meta</kbd>.
 
 ### <a name="fenestrojregado">Regado</a>
 
-```bash
+```sh
 bind c new-window -c "#{pane_current_path}"
 bind C new-window -c ~
 

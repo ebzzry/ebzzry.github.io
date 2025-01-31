@@ -6,7 +6,7 @@ function hundo1 &#40;&#41; { for x in hundo kato muso; do echo $x; done }</code>
 function hundo &#40;&#41; { echo hundo, ankaux }</code></pre><p>La nomon <code>hundo</code> ambaŭ uzas, sed malsaman nomspacon ĉiu uzas. Kiam je <code>hundo</code> oni rulas:</p><pre><code>% hundo
 hundo</code></pre><p>Nur je <code>hundo</code> ĝi montras, anstataŭ je <code>hundo, too</code> eĉ ĉi tiu venas de pli nova difino. Por la alinomon <code>hundo</code> forigi, rulu:</p><pre><code>% unalias hundo
 % hundo
-hundo, too</code></pre><p>Tiel longe kiel eble, funkciojn rulu:</p><p>Por ĉiomajn funkciojn montri, rulu:</p><pre><code>% functions</code></pre><h2><a name="cxio">Ĉion rikolti</a></h2><p>La agorddosieron malpurigi per plenaj funciaj difinioj por ĉiu malgranda komando, kiun oni volas havi estas malŝaga. Anstataŭe, pli bonan manieron por tutmondajn alinomojn kaj malgrandajn funkciojn ni uzos. La dosieron <code>&#126;/.zshenv</code> malfermu per la plej ŝatata redaktilo.</p><p>La funkciojn, kiu la aliajn difinas, ni unue difinu:</p><pre><code class="bash">function def&#95;real&#95;alias &#40;&#41; {
+hundo, too</code></pre><p>Tiel longe kiel eble, funkciojn rulu:</p><p>Por ĉiomajn funkciojn montri, rulu:</p><pre><code>% functions</code></pre><h2><a name="cxio">Ĉion rikolti</a></h2><p>La agorddosieron malpurigi per plenaj funciaj difinioj por ĉiu malgranda komando, kiun oni volas havi estas malŝaga. Anstataŭe, pli bonan manieron por tutmondajn alinomojn kaj malgrandajn funkciojn ni uzos. La dosieron <code>&#126;/.zshenv</code> malfermu per la plej ŝatata redaktilo.</p><p>La funkciojn, kiu la aliajn difinas, ni unue difinu:</p><pre><code class="sh">function def&#95;real&#95;alias &#40;&#41; {
   while &#91;&#91; $# -ge 2 &#93;&#93;; do
     alias &quot;$1=$2&quot;
     shift 2
@@ -41,7 +41,7 @@ function def&#95;funs &#40;&#41; {
   def&#95;fun $funs
   unset funs
 }
-</code></pre><p>Sekve, la tabelojn ni difinu:</p><pre><code class="bash">real&#95;aliases=&#40;
+</code></pre><p>Sekve, la tabelojn ni difinu:</p><pre><code class="sh">real&#95;aliases=&#40;
   ve &quot;echo hundo&quot;
 &#41;; def&#95;real&#95;aliases
 

@@ -112,7 +112,7 @@ To verify that you can indeed fetch your messages, run getmail:
 If it doesn’t choke, and displays something like the following, then you have configured getmail
 correctly.
 
-```bash
+```sh
 getmail version 4.43.0
 Copyright (C) 1998-2012 Charles Cazabon.  Licensed under the GNU GPL version 2.
 SimpleIMAPSSLRetriever:foobar@gmail.com@imap.gmail.com:993:

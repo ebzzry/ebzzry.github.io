@@ -130,7 +130,7 @@ De nun ni estas reen ĉe la gastiga maŝino. La komandojn kiuj estas efektive uz
 la ŝanĝradikigmedio ni devas difini. La dosieron `~/.zshenv` ni malfermu per la redaktilo, tiam la
 jenan metu:
 
-```bash
+```sh
 CHROOT=/home/chrt/ubuntu
 
 function crmount () {

@@ -69,7 +69,7 @@ install: $&#40;NAME&#41;
 clean:
     @rm -f $&#40;NAME&#41;
 </code></pre><p>En la celo <code>$&#40;NAME&#41;</code>, je <code>cl-launch</code> ni voku kun la opcioj por la skripton kunmeti. En la celo <code>install</code>, la skripton ni alvoku kun la opcioj <code>symlink $&#40;NAME&#41;</code>, por la simbolligilojn de la multvoka duumdosiero krei. Pro nur tri funkciojn ni difinis ene la korpo de <code>EXPORTING-DEFINITIONS</code>, nur tri simbolligilojn al <code>my-scripts</code> ĝi kreos. La eligan dosieron la opcio <code>‑‑output $&#40;NAME&#41;</code> precizigas. La <code>‑‑dump !</code> signifas, ke bildon ĝi kreos, por pli rapidan startigon ŝalti. La opcio <code>‑‑lisp sbcl</code> signifas, ke je SBCL ni volas uzi, por ĉi tiu skripto. La opcio <code>‑‑quicklisp</code> signifas, ke je <a href='https://www.quicklisp.org'>Quicklisp</a> ni ŝargas kun la bildo. La sistemon, kiun ni kreas la opcio <code>‑‑system $&#40;NAME&#41;</code> ŝargas. La enirejo de nia programo la opcio <code>‑‑dispatch-system $&#40;NAME&#41;/main</code> precizigas.</p><h3><a name="kunmetado"></a>Kunmetado</h3><p>Ni nun pretas por la skripton kaj la simbolligilojn krei. Por tion fari, rulu:</p><pre><code>$ mkdir -p &#126;/bin
-$ make install</code></pre><p>La multvokan duumdosieron—<code>./my-scripts</code>—ĉi tiu komando kunmetas kun la respondaj simbolligiloj. La dosieruja arbo de <code>&#126;/bin</code> devas aspekti jene:</p><pre><code class="bash">$ tree &#126;/bin
+$ make install</code></pre><p>La multvokan duumdosieron—<code>./my-scripts</code>—ĉi tiu komando kunmetas kun la respondaj simbolligiloj. La dosieruja arbo de <code>&#126;/bin</code> devas aspekti jene:</p><pre><code class="sh">$ tree &#126;/bin
 /home/vakelo/bin
 ├── getuid -&gt; my-scripts
 ├── help -&gt; my-scripts
@@ -184,7 +184,7 @@ $ make install</code></pre><p>La multvokan duumdosieron—<code>./my-scripts</co
    &#40;kill-chrome &quot;-CONT&quot;&#41;&#41;&#41;
 
 &#40;register-commands :scripts/apps&#41;
-</code></pre><p>Tiam je <em>my-scripts</em> ni rekunmetu:</p><pre><code class="bash">$ make install
+</code></pre><p>Tiam je <em>my-scripts</em> ni rekunmetu:</p><pre><code class="sh">$ make install
 my-scripts available commands: battery chrome continue-chrome getuid help kill-chrome main screenshot stop-chrome symlink
 </code></pre><p>Hura!</p><h2><a name="avertoj"></a>Avertoj</h2><p>Gravan aferon por teni en la kalkulo, estas, en la difinoj, komunlispajn ŝlosilvortojn oni ne povas uzi kiel la nomo de komando. Do ene <code>EXPORTING-DEFINITIONS</code> la jenan oni ne povas havi:</p><pre><code class="lisp">&#40;exporting-definitions
   &#40;defun t &#40;&amp;rest args&#41;

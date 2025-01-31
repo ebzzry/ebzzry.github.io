@@ -139,7 +139,7 @@ networking for its guests, but for this post we’ll use VDE.
 You need to run several commands to prep the networking environment. Ideally, you’d want to save
 these in a shell function or script:
 
-```bash
+```sh
 $ sudo vde_switch -tap tap0 -mod 660 -group kvm -daemon
 $ sudo ip addr add 10.0.2.1/24 dev tap0
 $ sudo ip link set dev tap0 up
@@ -166,7 +166,7 @@ command may differ with the one installed on your system.
 
 If you’re installing an OS from a bootable image, usually an ISO file, run:
 
-```bash
+```sh
 $ sudo qemu-kvm -cpu host -m 2G -net nic,model=virtio \
 -net vde -soundhw all -vga qxl \
 -spice port=9999,addr=127.0.0.1,password=supersecretkey \
@@ -176,7 +176,7 @@ vm.qcow2
 
 On subsequent uses:
 
-```bash
+```sh
 $ sudo qemu-kvm -cpu host -m 2G -net nic,model=virtio \
 -net vde -soundhw all -vga qxl \
 -spice port=9999,addr=127.0.0.1,password=supersecretkey \
@@ -258,7 +258,7 @@ DNS servers:
 
 If you want to explicitly revert the network configuration, do the following.
 
-```bash
+```sh
 $ sudo iptables -t nat -D POSTROUTING -s 10.0.2.0/24 \
 -j MASQUERADE
 $ sudo sysctl -w net.ipv4.ip_forward=0

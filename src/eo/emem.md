@@ -49,7 +49,7 @@ Tiam, oni nun povas instali emem per:
 
 Se oni ne povas instali Nix, tamen ĝavo estas instalita, oni povas anstataŭ krei porokazan skripton:
 
-```bash
+```sh
 $ mkdir ~/bin
 $ curl -sSLo ~/bin/emem.jar https://github.com/ebzzry/emem/releases/download/v0.2.50/emem.jar
 $ cat > ~/bin/emem << EOF
@@ -147,7 +147,7 @@ sola eligo. Ekzemple, se oni havas `a.md`, `b.md`, kaj `c.md`, oni povas kunfand
 Se oni planas eldoni por la TTT, estas grave, ke oni havas la valorojn de la priskriba kaj ŝlosila
 meta-atribuoj. Oni povas fari ĝin per la opcioj `-D` kaj `-K`, respektive:
 
-```bash
+```sh
 $ emem -D 'Retejo pri omaroj kaj kraboj \
 -K 'omaroj, kraboj, blogo, ĵurnalo, retejo, maromanĝoj, monstroj' \
 LEGUMIN.md
@@ -155,7 +155,7 @@ LEGUMIN.md
 
 Ankaŭ eblas specifu [«Open Graph Protocol»](http://ogp.me/)-valorojn:
 
-```bash
+```sh
 $ emem -D Ve -K 'a, b, c' \
 --og-title "Kraboj kaj Omaroj" --og-type article \
 --og-url "https://retejo.ie/z.html" --og-image "https://retejo.ie/imagesdo.webp" \

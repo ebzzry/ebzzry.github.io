@@ -83,7 +83,7 @@ estas kreitaj.
 
 Ljdump havas la jenan arban strukturon, en kiu, `username` estas la LiveJournal-uzantnomo:
 
-```bash
+```sh
 ljdump/
   build
   ChangeLog
@@ -104,7 +104,7 @@ ljdump/
 
 ljmigrate, aliflanke, uzas malsimilan formaton:
 
-```bash
+```sh
 ljmigrate/
   LICENSE.text
   ljmigrate.cfg

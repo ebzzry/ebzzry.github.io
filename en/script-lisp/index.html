@@ -69,7 +69,7 @@ install: $&#40;NAME&#41;
 clean:
 	@rm -f $&#40;NAME&#41;
 </code></pre><p>In the <code>$&#40;NAME&#41;</code> target, we call <code>cl-launch</code> with options to build the script. In the <code>install</code> target, we invoke the script with the options <code>symlink $&#40;NAME&#41;</code>, to build the symlinks for the multi-call binary. Since we only defined three functions within the body of <code>EXPORTING-DEFINITIONS</code>, it is only going to build three symlinks to <code>my-scripts</code>. The <code>‑‑output $&#40;NAME&#41;</code> option specifies the output file. The <code>‑‑dump !</code> means to create an image, to enable a faster startup. The <code>‑‑lisp sbcl</code> option specifies that we want to use SBCL, for this script. The option <code>‑‑quicklisp</code> specifies that we load <a href='https://www.quicklisp.org'>Quicklisp</a> with the image. The <code>‑‑system $&#40;NAME&#41;</code> loads the system the we are building. The <code>‑‑dispatch-system $&#40;NAME&#41;/main</code> specifies the entrypoint of our program.</p><h3><a name="building"></a>Building</h3><p>We are now ready to build the script and the symlinks. To do that, run:</p><pre><code>$ mkdir -p &#126;/bin
-$ make install</code></pre><p>This will build the multi-call binary—<code>./my-scripts</code> and the corresponding symbolic links. The directory tree of <code>&#126;/bin</code> should look like the following:</p><pre><code class="bash">$ tree &#126;/bin
+$ make install</code></pre><p>This will build the multi-call binary—<code>./my-scripts</code> and the corresponding symbolic links. The directory tree of <code>&#126;/bin</code> should look like the following:</p><pre><code class="sh">$ tree &#126;/bin
 /home/vakelo/bin
 ├── getuid -&gt; my-scripts
 ├── help -&gt; my-scripts
@@ -184,7 +184,7 @@ $ make install</code></pre><p>This will build the multi-call binary—<code>./my
    &#40;kill-chrome &quot;-CONT&quot;&#41;&#41;&#41;
 
 &#40;register-commands :scripts/apps&#41;
-</code></pre><p>Let’s rebuild my-scripts:</p><pre><code class="bash">$ make install
+</code></pre><p>Let’s rebuild my-scripts:</p><pre><code class="sh">$ make install
 my-scripts available commands: battery chrome continue-chrome getuid help kill-chrome main screenshot stop-chrome symlink
 </code></pre><p>Yay!</p><h2><a name="caveats">Caveats</a></h2><p>An important thing to note is that in the definitions, you can’t use a CL keyword as the name of the command. So inside <code>EXPORTING-DEFINITIONS</code>, you can’t have something like this:</p><pre><code class="lisp">&#40;exporting-definitions
   &#40;defun t &#40;&amp;rest args&#41;
