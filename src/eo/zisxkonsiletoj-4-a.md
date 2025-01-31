@@ -55,7 +55,7 @@ kiujn mi uzas ofte.
 Kiam komandon kiu nur unu argumenton akceptas oni havas, plurajn uzojn de tiu komando oni volas
 simuli per ĉi tiu funkcio. Ĝi estas difinita jene:
 
-```bash
+```sh
 function map () {
   for i (${argv[2,-1]}) { ${(ps: :)${1}} $i }
 }
@@ -71,7 +71,7 @@ Ekzemple, je `map` oni povas uzi por plurajn gitaj deponejon, serie:
 Kiel la nomo implicas, `rmap` funkcias kiel la inverso de `map`—la cetaraj argumentoj estas
 aplikitaj kiel komandoj al la unua argumento. Ĝi estas difinita jene:
 
-```bash
+```sh
 function rmap () {
   for i (${argv[2,-1]}) { ${(ps: :)${i}} $1 }
 }
@@ -88,7 +88,7 @@ dosiernumerojn de dosiero aŭ dosierujo vidi:
 Rapidan manieron por la realan kaj absolutan dosierindikon de dosiero aŭ dosierujo precizigi mi volas
 havi. Min ĉi tio helpas multe en skriptado. Ĝi estas difinita jene:
 
-```bash
+```sh
 function fp () {
   echo "${1:A}"
 }
@@ -108,7 +108,7 @@ Ofte, kiam mi iras al dosierujo, serion de komandoj mi bezonas ruli. Tempon por 
 savi, do anstataŭ du komandojn ruli, nur unu mi nur devas ruli. Manieron por dosierujon rapide
 ŝanĝigi tra la dosierujstakoj per `pushd` mi volas havi. Ĝi estas difinita jene:
 
-```bash
+```sh
 function d () {
   if (( ! $#@ )); then
       builtin cd
@@ -156,7 +156,7 @@ La dosierujo ŝanĝiĝos al `/tmp/`, tiam la komando `date` kuros.
 Kiel la nomo implicas, `d!` similas al sia kuzo nur, ke se la cela dosierujo ne ekzistas, ĝin ĝi
 kreas, kaj la saman konduton de `d` ĝi faras poste. Ĝi estas difinita jene:
 
-```bash
+```sh
 function d! () {
   mkdir -p $argv[1]
   d "$@"
@@ -173,7 +173,7 @@ Ekzemple, je `d!` mi povas uzi por dosierujon scenigi antaŭ ISO-dosieron elŝut
 Kiam mi certas, ke dosieron aŭ dosierujon mi volas forviŝi, mi ne volos ĝenita per invitoj, dum
 samtempe escepton por la hejmdosieron ne akcidente forviŝi mi volas havi. Ĝi estas difinita jene:
 
-```bash
+```sh
 function rm! () {
   if [[ "$1" == "$HOME" || "$1" == "$HOME/" || "$1" == "~" || "$1" == "~/" ]]; then
       return 1
@@ -193,7 +193,7 @@ Kiam ajn mi volas rapide forviŝi arbon kiu havas multe da dosiero kaj dosierujo
 la komandon `parallel` mi uzas por la forviŝadon ruli paralele, anstataŭ
 serie. Ĝi estas difinita jene:
 
-```bash
+```sh
 function rm+ () {
   parallel 'rm -rf {}' ::: $@
 }
@@ -207,7 +207,7 @@ La pakadministrilon de la sistemo kontrolu kiel je `parallel` instali.
 Kelkfoje, dosieron aŭ dosierujon mi bezonas forviŝi sen la ŝancoj de retrovado. Por tion fari, la
 komandon `shred` mi uzas. Ĝi estas difinita jene:
 
-```bash
+```sh
 function rm@ () {
   if [[ -d $1 ]]; then
       find $1 -type f -exec shred -vfzun 10 {} \;
@@ -226,7 +226,7 @@ La pakadministrilon de la sistemo kontrolu kiel je `shred` instali.
 Helpilojn ci tiu helpilo generas. Onin ĝi permesas por funkciojn krei kiuj antaŭproduktajn dosierojn
 kreas antaŭ la vera komando estas rulita. Ĝi estas difinita kiel:
 
-```bash
+```sh
 function def_mk () {
   eval "function ${argv[1]} () {
             if [[ \$# -ge 2 ]]; then
@@ -265,7 +265,7 @@ function cp! () {
 Onin la komando `cp!` permasas por dosierojn kaj dosierujojn kopii, la celan dosierujon kreante kiel
 necese:
 
-```bash
+```sh
 %  tree
 .
 ├── bar.txt
@@ -309,7 +309,7 @@ function mv! () {
 Onin la komando `mv!` permasas por dosierojn movi al dosierujo, la celan dosirujon kreante kiel
 necese:
 
-```bash
+```sh
 %  tree
 .
 ├── bar.txt
@@ -434,7 +434,7 @@ citiloj mi akiras.
 
 Jen ĉiom da difinoj, kun kelkaj aldonaj helpiloj, en unu loko:
 
-```bash
+```sh
 function map () {
   for i (${argv[2,-1]}) { ${(ps: :)${1}} $i }
 }

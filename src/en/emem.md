@@ -49,7 +49,7 @@ You may then install emem with:
 
 If you’re unable to install Nix and you have Java installed, you may instead create ad-hoc script:
 
-```bash
+```sh
 $ mkdir ~/bin
 $ curl -sSLo ~/bin/emem.jar https://github.com/ebzzry/emem/releases/download/v0.2.48/emem.jar
 $ cat > ~/bin/emem << EOF
@@ -147,14 +147,14 @@ If you are publishing for the web, it is imperative that you specify values for 
 keyword meta attributes. You may do so with the `-D` and `-K` options,
 respectively:
 
-```bash
+```sh
 $ emem -D 'A diary about lobsters and crabs' \
 -K 'lobsters, crabs, blog, journal, sea foods, monsters' README.md
 ```
 
 It is also possible to specify [Open Graph Protocol](http://ogp.me/) values:
 
-```bash
+```sh
 $ emem -D Meh -K 'foo, bar, baz' \
 --og-title "Crabs and Lobsters" --og-type article \
 --og-url "https://some.site/foo.html" --og-image "https://some.site/image.webp" \

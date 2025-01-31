@@ -128,7 +128,7 @@ Exit the editor. After that, exit the chroot, too:
 Now that we’re back on the host, we need to define the commands that you will actually use to
 interact with the chroot. Open the file `~/.zshenv` with your editor, then put in the following:
 
-```bash
+```sh
 CHROOT=/home/chrt/ubuntu
 
 function crmount () {

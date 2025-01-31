@@ -120,7 +120,7 @@ alvokos la GPG-perilon dum startigo. Oni ankaŭ bezonas diri al la GPG-perilo po
 
 Tiam metu la jenan kodaĵon:
 
-```bash
+```sh
 #!/usr/bin/env bash
 
 killall gpg-agent
@@ -138,7 +138,7 @@ Fine, kreu la sistemferman skripton por la GPG-perilo:
 
 Tiam metu la jenan kodaĵon:
 
-```bash
+```sh
 #!/bin/sh
 
 killall gpg-agent

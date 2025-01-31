@@ -157,7 +157,7 @@ veve ve veve ve veve ve veve ve veve ve ve
 
 Kiam kodo aŭ komandbloko okupas du aŭ pli liniojn, krommarĝenigu ĝin per kvar spacetoj:
 
-```bash
+```sh
     VAR=blahblahblah
     function ve () { echo ve }
 ```

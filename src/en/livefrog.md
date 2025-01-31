@@ -80,7 +80,7 @@ automatically “pick up” the files created by ljdump or ljmigrate, and conver
 Bear in mind, though, that ljdump and ljmigrate differ on how the trees for the data are
 created. ljdump has the following tree format, where `username` is your LiveJournal account name:
 
-```bash
+```sh
 ljdump/
   build
   ChangeLog
@@ -101,7 +101,7 @@ ljdump/
 
 ljmigrate, on the other hand, uses a different format:
 
-```bash
+```sh
 ljmigrate/
   LICENSE.text
   ljmigrate.cfg
