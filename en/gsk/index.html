@@ -4,12 +4,12 @@
 default-cache-ttl 10800
 default-cache-ttl-ssh 10800
 pinentry-program /usr/bin/pinentry-qt4</code></pre><p>Replace the value for <code>pinentry-program</code> for the actual location of pinentry on your system. To determine the location of pinentry, run:</p><pre><code>$ which pinentry-qt4</code></pre><h2><a name="kde">Configure KDE</a></h2><p>You now need to link the GPG agent with KDE. You need to create a startup script for KDE that will invoke the GPG agent at startup. You also need to tell the GPG agent to enable SSH support.</p><pre><code>$ mkdir &#126;/.kde/env
-$ nano &#126;/.kde/env/01&#95;gpg-agent.sh</code></pre><p>Then put in the following:</p><pre><code class="bash">#!/usr/bin/env bash
+$ nano &#126;/.kde/env/01&#95;gpg-agent.sh</code></pre><p>Then put in the following:</p><pre><code class="sh">#!/usr/bin/env bash
 
 killall gpg-agent
 eval `gpg-agent --enable-ssh-support --daemon`
 </code></pre><p>Make it executable:</p><pre><code>$ chmod +x &#126;/.kde/env/01&#95;gpg-agent.sh</code></pre><p>Finally, create the shutdown script for the GPG agent:</p><pre><code>$ mkdir &#126;/.kde/shutdown
-$ nano &#126;/.kde/shutdown/01&#95;gpg-agent.sh</code></pre><p>Then put in the following:</p><pre><code class="bash">#!/bin/sh
+$ nano &#126;/.kde/shutdown/01&#95;gpg-agent.sh</code></pre><p>Then put in the following:</p><pre><code class="sh">#!/bin/sh
 
 killall gpg-agent
 </code></pre><p>Don’t forget to make it executable:</p><pre><code>$ chmod +x &#126;/.kde/shutdown/01&#95;gpg-agent.sh</code></pre><h2><a name="verification">Verification</a></h2><p>Unfortunately, you have to restart your KDE session for these settings to take effect. If you know a method that doesn’t require restarting the session, please let me know.</p><p>Press <kbd>Ctrl+Alt+Del</kbd> to logout, then login to your account.</p><p>Open a Konsole window, then connect to your favorite SSH server:</p><pre><code>$ ssh user@remotehost</code></pre><p>A pinentry dialog box should appear prompting you for your passphrase. This passphrase will be cached according to your settings in <code>&#126;/.gnupg/gpg-agent.conf</code>. Subsequent SSH connection attempts will not prompt you for the passphrase within this timeout period.</p><p>A similar behavior will happen if you encrypt a file with GPG:</p><pre><code>$ gpg2 -sea -r john@foo.bar file.dat</code></pre><h2><a name="closing">Closing remarks</a> </h2><p>The steps outlined above were meant to be succinct without going through the gory details. I hope you found this useful!</p><hr/><div class="footer"><p><div class="text-small"> <a href='/en/'>Home</a> • <a href='/en/about/'>About</a> • <a href='/en/quotes/'>Quotes</a> • <a href='/en/reflections/'>Reflections</a> </div></p><p><div class="text-x-small"> Made with ❤️ by Rommel Martínez </div></p><p></div></p></div><script src="/static/js/highlight.pack.js"></script><script>hljs.initHighlightingOnLoad();</script></body></html>

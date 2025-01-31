@@ -218,7 +218,7 @@ Ni nun pretas por la skripton kaj la simbolligilojn krei. Por tion fari, rulu:
 
 La multvokan duumdosieron—`./my-scripts`—ĉi tiu komando kunmetas kun la respondaj simbolligiloj. La dosieruja arbo de `~/bin` devas aspekti jene:
 
-```bash
+```sh
 $ tree ~/bin
 /home/vakelo/bin
 ├── getuid -> my-scripts
@@ -383,7 +383,7 @@ Tiam je `apps.lisp` ni plenigu:
 
 Tiam je *my-scripts* ni rekunmetu:
 
-```bash
+```sh
 $ make install
 my-scripts available commands: battery chrome continue-chrome getuid help kill-chrome main screenshot stop-chrome symlink
 ```

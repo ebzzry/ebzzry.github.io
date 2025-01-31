@@ -1083,7 +1083,7 @@ Forkinte la deponejon, klonu la propran version de la deponejon:
 Ĉi tiu komando kreas kopion de la forko en la radiko de la hejmdosierujo. Iru al tiu dosierujo, tiam
 la ni esploru la enhavojn :
 
-```bash
+```sh
 $ cd ~/nixpkgs
 $ tree -aFL 1
 .
@@ -1159,7 +1159,7 @@ aŭ kutima retejadreso. Tiukaze, ni uzis la GNU-spegulon kaj ni interpolis la va
 tiu signovico. La valoro de la atribuo `sha256` estas tiu, kiun ni akiris per ruli `nix-prefetch-url`
 kontraŭ la retejadreso. Por akiri la kontrolsumon de `hello-2.10`, rulu:
 
-```bash
+```sh
 $ nix-prefetch-url http://ftpmirror.gnu.org/hello/hello-2.10.tar.gz
 downloading ‘http://ftpmirror.gnu.org/hello/hello-2.10.tar.gz’... [622/709 KiB, 64.6 KiB/s]
 path is ‘/nix/store/3x7dwzq014bblazs7kq20p9hyzz0qh8g-hello-2.10.tar.gz’
@@ -1405,7 +1405,7 @@ progresas por ruli la duumdosieron `hello`, kiu montros la konatan saluton al la
 Tiu ŝelinstanco estas speciala tial, ke ĝi enhavas nur sufiĉan informon por igi la komandon
 `hello` disponebla. Ni eĉ povas kontroli la valoron de `$PATH` tie:
 
-```bash
+```sh
 [nix-shell:~]$ echo $PATH | tr ':' '\n'
 /nix/store/kc912zn1ry1xilcm901ip7p8s1iqv0f1-hello-2.10/bin
 /nix/store/f9q8k36x9jpi8jmdpwifcywzywpxvhrs-patchelf-0.9/bin

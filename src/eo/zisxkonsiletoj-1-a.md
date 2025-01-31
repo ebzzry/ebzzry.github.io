@@ -116,7 +116,7 @@ ni uzos. La dosieron `~/.zshenv` malfermu per la plej ŝatata redaktilo.
 
 La funkciojn, kiu la aliajn difinas, ni unue difinu:
 
-```bash
+```sh
 function def_real_alias () {
   while [[ $# -ge 2 ]]; do
     alias "$1=$2"
@@ -156,7 +156,7 @@ function def_funs () {
 
 Sekve, la tabelojn ni difinu:
 
-```bash
+```sh
 real_aliases=(
   ve "echo hundo"
 ); def_real_aliases

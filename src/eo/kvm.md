@@ -244,7 +244,7 @@ DNS-serviloj:
 
 Se oni volas specife restaŭri la retkonektadon, rulu la jenajn komandojn:
 
-```bash
+```sh
 $ sudo iptables -t nat -D POSTROUTING -s 10.0.2.0/24 \
 -j MASQUERADE
 $ sudo sysctl -w net.ipv4.ip_forward=0

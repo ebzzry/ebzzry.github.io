@@ -21,7 +21,7 @@
 
 &#40;unless &#40;server-running-p&#41;
   &#40;server-start&#41;&#41;
-</code></pre><p>Alterne, oni povas ruli emakson en demonreĝimo ĉe la komandlinio:</p><pre><code class="bash">$ emacs --daemon
+</code></pre><p>Alterne, oni povas ruli emakson en demonreĝimo ĉe la komandlinio:</p><pre><code class="sh">$ emacs --daemon
 </code></pre><h2><a name="bufroj">Bufroj</a></h2><p>Mi volas havi manieron por mortigi la aktualan bufron sen demandita kiun bufron por mortigi. Mi nur invitiĝos se la aktuala bufro ŝanĝiĝis:</p><pre><code class="lisp">&#40;defun kill-current-buffer &#40;&#41;
   &#40;interactive&#41;
   &#40;kill-buffer &#40;current-buffer&#41;&#41;&#41;

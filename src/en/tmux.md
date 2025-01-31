@@ -146,7 +146,7 @@ known as <kbd>Meta</kbd>.
 
 ### <a name="windowscontrol">Control</a>
 
-```bash
+```sh
 bind c new-window -c "#{pane_current_path}"
 bind C new-window -c ~
 

@@ -107,7 +107,7 @@ Por kontroli, ĉu oni jam povas elŝuti la mesaĝojn, rulu getmail:
 
 Se funkcias kaj montras ion kiel la jena, oni prave agordis getmail:
 
-```bash
+```sh
 getmail version 4.43.0
 Copyright (C) 1998-2012 Charles Cazabon.  Licensed under the GNU GPL version 2.
 SimpleIMAPSSLRetriever:foobar@gmail.com@imap.gmail.com:993:

@@ -21,7 +21,7 @@
 
 &#40;unless &#40;server-running-p&#41;
   &#40;server-start&#41;&#41;
-</code></pre><p>Alternatively, you may run Emacs in daemon mode from the command-line:</p><pre><code class="bash">$ emacs --daemon
+</code></pre><p>Alternatively, you may run Emacs in daemon mode from the command-line:</p><pre><code class="sh">$ emacs --daemon
 </code></pre><h2><a name="buffers"><Buffers/a></h2><p>I want a way to kill the current buffer, without being asked what buffer to kill. I will only get prompted if the current has been modified.</p><pre><code class="lisp">&#40;defun kill-current-buffer &#40;&#41;
   &#40;interactive&#41;
   &#40;kill-buffer &#40;current-buffer&#41;&#41;&#41;

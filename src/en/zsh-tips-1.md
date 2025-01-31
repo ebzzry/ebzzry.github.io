@@ -116,7 +116,7 @@ is dumb. Instead, we’ll use a better way to define global aliases and small fu
 
 First let’s define the functions that will define the others.
 
-```bash
+```sh
 function def_real_alias () {
   while [[ $# -ge 2 ]]; do
     alias "$1=$2"
@@ -156,7 +156,7 @@ function def_funs () {
 
 Next we’ll define the arrays:
 
-```bash
+```sh
 real_aliases=(
   meh "echo meh"
 ); def_real_aliases

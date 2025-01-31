@@ -121,7 +121,7 @@ invoke the GPG agent at startup. You also need to tell the GPG agent to enable S
 
 Then put in the following:
 
-```bash
+```sh
 #!/usr/bin/env bash
 
 killall gpg-agent
@@ -139,7 +139,7 @@ Finally, create the shutdown script for the GPG agent:
 
 Then put in the following:
 
-```bash
+```sh
 #!/bin/sh
 
 killall gpg-agent

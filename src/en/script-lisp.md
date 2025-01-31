@@ -217,7 +217,7 @@ We are now ready to build the script and the symlinks. To do that, run:
 This will build the multi-call binary—`./my-scripts` and the corresponding symbolic links. The
 directory tree of `~/bin` should look like the following:
 
-```bash
+```sh
 $ tree ~/bin
 /home/vakelo/bin
 ├── getuid -> my-scripts
@@ -383,7 +383,7 @@ Then, let’s populate `apps.lisp`:
 
 Let’s rebuild my-scripts:
 
-```bash
+```sh
 $ make install
 my-scripts available commands: battery chrome continue-chrome getuid help kill-chrome main screenshot stop-chrome symlink
 ```

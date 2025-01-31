@@ -55,7 +55,7 @@ that I use often.
 When you have a command that takes only a single argument, you can simulate multiple usage of that
 command through this function. It is defined as:
 
-```bash
+```sh
 function map () {
   for i (${argv[2,-1]}) { ${(ps: :)${1}} $i }
 }
@@ -71,7 +71,7 @@ For example, you can use `map` to fetch multiple git repositories, serially:
 As the name implies, `rmap` operates as the reverse of `map`—the rest of the arguments are
 applied as commands to the first argument. It is defined as:
 
-```bash
+```sh
 function rmap () {
   for i (${argv[2,-1]}) { ${(ps: :)${i}} $1 }
 }
@@ -88,7 +88,7 @@ descriptors of a file or directory:
 I want a quick way to quickly determine the real and absolute path of a given file or
 directory. This helps me a lot in scripting. I have `fp` which is defined as:
 
-```bash
+```sh
 function fp () {
   echo "${1:A}"
 }
@@ -107,7 +107,7 @@ Most of the time, when I change to a directory, I need to perform a series of co
 save time typing, so instead of running two commands, I can run only one. I also want a way to
 quickly switch through the directory stack created by `pushd`. I have it defined as:
 
-```bash
+```sh
 function d () {
   if (( ! $#@ )); then
       builtin cd
@@ -137,7 +137,7 @@ I change directory to `~/Downloads` then I run `ls -l` display the directory lis
 
 If the output of `dirs -v` is:
 
-```
+```console
 0       /usr/local
 1       /tmp
 ```
@@ -154,7 +154,7 @@ I change directory to `/tmp/`, then I execute the `date` command.
 As the name implies, `d!` is like its cousin, only that, when the directory does not exist, it
 creates it for you, switches to it, then behaves as `d`. It is defined as:
 
-```bash
+```sh
 function d! () {
   mkdir -p $argv[1]
   d "$@"
@@ -170,7 +170,7 @@ For example, I can use `d!` to stage a directory before downloading an ISO:
 
 When I am certain that I want to delete a file or directory, I don’t want to be bothered by prompts, while at the same time I want to make an exception not to accidentally delete my home directory. I defined it as:
 
-```bash
+```sh
 function rm! () {
   if [[ "$1" == "$HOME" || "$1" == "$HOME/" || "$1" == "~" || "$1" == "~/" ]]; then
       return 1
@@ -187,7 +187,7 @@ The command `command` ensures that I am calling the system binary `rm` instead o
 
 When I want to quickly remove a tree containing a lot of files and directories, I use the `parallel` command to run the deletions in parallel, instead of serially. I have a helper function defined as:
 
-```bash
+```sh
 function rm+ () {
   parallel 'rm -rf {}' ::: $@
 }
@@ -201,7 +201,7 @@ Consult your package management system on how to install `parallel`.
 From time to time, I need to delete a file or directory without the chances of recovery. For that I
 use the `shred` command. I have a helper function defined as:
 
-```bash
+```sh
 function rm@ () {
   if [[ -d $1 ]]; then
       find $1 -type f -exec shred -vfzun 10 {} \;
@@ -220,7 +220,7 @@ Consult your package management system on how to install `shred`.
 This helper generates helpers. It allows us to create functions that create a staging directory
 before the actual command is executed. It is defined as:
 
-```bash
+```sh
 function def_mk () {
   eval "function ${argv[1]} () {
             if [[ \$# -ge 2 ]]; then
@@ -246,7 +246,7 @@ To use `def_mk` with `cp` invoke it as:
 
 which expands to:
 
-```
+```sh
 function cp! () {
   if [[ $# -ge 2 ]]; then
     if [[ ! -e ${@: -1} ]]; then
@@ -259,7 +259,7 @@ function cp! () {
 
 The `cp!` command will allow us to copy files to a directory, creating that directory as necessary:
 
-```bash
+```sh
 %  tree
 .
 ├── bar.txt
@@ -289,7 +289,7 @@ To use `def_mk` with `mv` invoke it as:
 
 which expands to:
 
-```
+```sh
 function mv! () {
   if [[ $# -ge 2 ]]; then
     if [[ ! -e ${@: -1} ]]; then
@@ -303,7 +303,7 @@ function mv! () {
 
 The `mv!` command will allow us to move files to a directory, creating that directory as necessary:
 
-```bash
+```sh
 %  tree
 .
 ├── bar.txt
@@ -428,7 +428,7 @@ pair of quotes.
 
 Here are all the definitions, along with some more helpers, all in one place:
 
-```bash
+```sh
 function map () {
   for i (${argv[2,-1]}) { ${(ps: :)${1}} $i }
 }

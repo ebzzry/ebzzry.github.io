@@ -31,7 +31,7 @@ per la uzo de `popd`. La aktualan valoron de la dosierujstako la komando `dirs` 
 
 Unue la helpilojn ni difinu:
 
-```bash
+```sh
 function d () { pushd $@ }
 function - () { popd }
 function ds () { dirs -l $@ }
@@ -77,7 +77,7 @@ reŝargi, certigante, ke miaj agorddosieroj estas ŝargitaj freŝe.
 Tion farante, la stakon kiun mi konstruis mi perdas. Por tion solvi, funkcion kiu la dosierujstakon
 de la aktuala seanco konservas, mi havas.
 
-```bash
+```sh
 function z! () {
   dirs -lv | awk -F '\t' '{print $2}' | tac >! $HOME/.z
   exec zsh
@@ -99,7 +99,7 @@ Je `z!` kurante, la enhavon de la aktuala stako konservas, kaj la ŝelon reŝarg
 
 Por iri kun `z!` funkcion kiu la konservitan dosierujstakon restaŭras mi havas:
 
-```bash
+```sh
 function z+ () {
   if [[ -f $HOME/.z ]]; then
       local pwd=$PWD

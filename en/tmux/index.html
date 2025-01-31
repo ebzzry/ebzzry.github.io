@@ -31,7 +31,7 @@ bind -n M-6 select-window -t 6
 bind -n M-7 select-window -t 7
 bind -n M-8 select-window -t 8
 bind -n M-9 select-window -t 9
-</code></pre><p>We bound <kbd>S-left</kbd> and <kbd>S-right</kbd>, to switch windows, backwards and forwards, respectively. We also bound <kbd>C-z left</kbd> and <kbd>C-z right</kbd>, to swap windows to the left and to the right, respectively.</p><p>To quickly switch to specific windows, we bound several keys to the <kbd>Alt</kbd> key, otherwise known as <kbd>Meta</kbd>.</p><h3><a name="windowscontrol">Control</a></h3><pre><code class="bash">bind c new-window -c &quot;#{pane&#95;current&#95;path}&quot;
+</code></pre><p>We bound <kbd>S-left</kbd> and <kbd>S-right</kbd>, to switch windows, backwards and forwards, respectively. We also bound <kbd>C-z left</kbd> and <kbd>C-z right</kbd>, to swap windows to the left and to the right, respectively.</p><p>To quickly switch to specific windows, we bound several keys to the <kbd>Alt</kbd> key, otherwise known as <kbd>Meta</kbd>.</p><h3><a name="windowscontrol">Control</a></h3><pre><code class="sh">bind c new-window -c &quot;#{pane&#95;current&#95;path}&quot;
 bind C new-window -c &#126;
 
 bind '&quot;' split-window -v -c &quot;#{pane&#95;current&#95;path}&quot;
