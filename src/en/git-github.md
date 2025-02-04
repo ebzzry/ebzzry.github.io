@@ -7,7 +7,7 @@ A Brief Git and GitHub Tour
 >Know how to solve every problem that has been solved.<br>
 >—Richard P. Feynman
 
-<img src="/images/site/tobias-tullius-XQ1cWY7v2PI-unsplash-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="tobias-tullius-XQ1cWY7v2PI-unsplash" title="tobias-tullius-XQ1cWY7v2PI-unsplash"/>
+<img src="/images/site/tobias-tullius-XQ1cWY7v2PI-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="tobias-tullius-XQ1cWY7v2PI-unsplash" title="tobias-tullius-XQ1cWY7v2PI-unsplash"/>
 
 
 <a name="toc>">Table of contents</a>
@@ -145,7 +145,7 @@ the following command then copy the output:
 
 Go to <https://github.com/settings/ssh>, then click **Add SSH key** or **New SSH key**:
 
-![Add SSH key](/images/site/sekursxelan-sxlosilon-aldonu.webp)
+![Add SSH key](/images/site/sekursxelan-sxlosilon-aldonu.jpg)
 
 Paste the key, then follow through.
 
@@ -154,7 +154,7 @@ Paste the key, then follow through.
 
 In your repositories page, create a new repository by clicking **New**:
 
-![New](/images/site/nova-deponejo.webp)
+![New](/images/site/nova-deponejo.jpg)
 
 Follow through the prompts. When you have filled in the required fields, you’ll get a string of
 commands. Replace `vakelo` and `foobar` with your GitHub username, and the name of the repository
@@ -181,13 +181,13 @@ changes to your own fork.
 
 First, fork the project. Go to the project that you want to fork, then click **Fork**:
 
-![Fork](/images/site/forku.webp)
+![Fork](/images/site/forku.jpg)
 
 This will create a copy of a repository in your own GitHub account.
 
 Next, you need to clone that forked project, to your local disk. Copy the URL located in the **SSH clone URL** field:
 
-![SSH clone URL](/images/site/klonadreso-de-ssh.webp)
+![SSH clone URL](/images/site/klonadreso-de-ssh.jpg)
 
 then run the following command, where `memeho` is your username:
 
@@ -211,15 +211,15 @@ changes to your fork:
 If you want the source repository to merge your changes, create a _Pull Request_ by going to the
 source repository’s page, then click **Pull requests**:
 
-![Pull Requests](/images/site/tirpetoj.webp)
+![Pull Requests](/images/site/tirpetoj.jpg)
 
 On the next page, click **New pull request**:
 
-![New Pull Request](/images/site/nova-tirpeto.webp)
+![New Pull Request](/images/site/nova-tirpeto.jpg)
 
 Select **compare across forks**:
 
-![Compare Across Forks](/images/site/komparu-trans-forkoj.webp)
+![Compare Across Forks](/images/site/komparu-trans-forkoj.jpg)
 
 In the left side, under the **base fork** field, select **vakelo/foobar**, and in the **base**
 field, select **master**.
@@ -229,7 +229,7 @@ select **new-options**
 
 Then, click **Create pull request**:
 
-![Create pull request](/images/site/tirpeton-kreu.webp)
+![Create pull request](/images/site/tirpeton-kreu.jpg)
 
 then, follow through.
 
@@ -252,7 +252,7 @@ Then push to your own repository:
 If you are the owner of the source repository, and you want to pull in changes from contributors,
 click **Pull requests** from the repository page:
 
-![Pull requests](/images/site/tirpetoj.webp)
+![Pull requests](/images/site/tirpetoj.jpg)
 
 then, follow through.
 

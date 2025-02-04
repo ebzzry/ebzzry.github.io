@@ -7,7 +7,7 @@ The Y Combinator in Six Steps
 >First, decide. And then do it. It’s the only way to achieve anything.<br>
 >—Lacus Clyne, Gundam SEED Destiny
 
-<img src="/images/site/david-becker-crs2vlkSe98-unsplash-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="david-becker-crs2vlkSe98-unsplash-1008x250.webp" title="david-becker-crs2vlkSe98-unsplash-1008x250.webp"/>
+<img src="/images/site/david-becker-crs2vlkSe98-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="david-becker-crs2vlkSe98-unsplash-1008x250.jpg" title="david-becker-crs2vlkSe98-unsplash-1008x250.jpg"/>
 
 
 Table of contents

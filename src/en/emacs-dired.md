@@ -7,7 +7,7 @@ Managing Directories with Emacs
 >Supposing is good, but finding out is better.<br>
 >—Samuel Clemens
 
-<img src="/images/site/lucas-benjamin-V-mEcfI8fsI-unsplash-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="lucas-benjamin-V-mEcfI8fsI-unsplash" title="lucas-benjamin-V-mEcfI8fsI-unsplash"/>
+<img src="/images/site/lucas-benjamin-V-mEcfI8fsI-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="lucas-benjamin-V-mEcfI8fsI-unsplash" title="lucas-benjamin-V-mEcfI8fsI-unsplash"/>
 
 
 <a name="toc">Table of contents</a>

@@ -8,7 +8,7 @@ Squandered Relentlessness
 >are.<br>
 >—J.P. Morgan
 
-<img src="/images/site/steve-johnson-zkNT5mikUuo-unsplash-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="steve-johnson-zkNT5mikUuo-unsplash" title="steve-johnson-zkNT5mikUuo-unsplash"/>
+<img src="/images/site/steve-johnson-zkNT5mikUuo-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="steve-johnson-zkNT5mikUuo-unsplash" title="steve-johnson-zkNT5mikUuo-unsplash"/>
 
 There is a disturbing and eerie sensation that I feel whenever the cold realization that I am no
 longer a young child comes. The uneasy struggle between learning to let go of my portentous past and

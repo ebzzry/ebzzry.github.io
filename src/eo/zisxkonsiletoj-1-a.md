@@ -7,7 +7,7 @@ Ziŝaj Konsiletoj 1-a: Alinomoj kaj Funkcioj
 >Malsaĝulo miras pri nekutimaj aferoj. Ŝagulo miras pri la kutimaj aferoj.<br>
 >—Konfuceo
 
-<img src="/images/site/omair-parvez-o6ka1Lpk81U-unsplash-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="omair-parvez-o6ka1Lpk81U-unsplash" title="omair-parvez-o6ka1Lpk81U-unsplash"/>
+<img src="/images/site/omair-parvez-o6ka1Lpk81U-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="omair-parvez-o6ka1Lpk81U-unsplash" title="omair-parvez-o6ka1Lpk81U-unsplash"/>
 
 
 <a name="et">Enhavotabelo</a>

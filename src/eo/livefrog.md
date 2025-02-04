@@ -7,7 +7,7 @@ Migri de LiveJournal al Frog
 >Mi ne scias kien mi iras, sed mi estas sur mia vojo.<br>
 >—Carl SAGAN
 
-<img src="/images/site/stephanie-leblanc-xrE6WwccyU-unsplash-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="stephanie-leblanc-xrE6Wwccy_U-unsplash" title="stephanie-leblanc-xrE6Wwccy_U-unsplash"/>
+<img src="/images/site/stephanie-leblanc-xrE6WwccyU-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="stephanie-leblanc-xrE6Wwccy_U-unsplash" title="stephanie-leblanc-xrE6Wwccy_U-unsplash"/>
 
 
 <a name="et">Enhavotabelo</a>

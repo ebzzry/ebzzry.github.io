@@ -7,7 +7,7 @@ Zsh Tips 4: General Helpers
 >A change in perspective is worth 80 IQ points.<br>
 >—Alan Kay
 
-<img src="/images/site/adam-hornyak-Cm187aESg0k-unsplash-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="adam-hornyak-Cm187aESg0k-unsplash" title="adam-hornyak-Cm187aESg0k-unsplash"/>
+<img src="/images/site/adam-hornyak-Cm187aESg0k-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="adam-hornyak-Cm187aESg0k-unsplash" title="adam-hornyak-Cm187aESg0k-unsplash"/>
 
 
 <a name="toc">Table of contents</a>

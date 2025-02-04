@@ -8,7 +8,7 @@ Converting Markdown to HTML with emem
 >within yourself.<br>
 >—JJ, Ergo Proxy
 
-<img src="/images/site/s-migaj-Yui5vfKHuzs-unsplash-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="s-migaj-Yui5vfKHuzs-unsplash" title="s-migaj-Yui5vfKHuzs-unsplash"/>
+<img src="/images/site/s-migaj-Yui5vfKHuzs-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="s-migaj-Yui5vfKHuzs-unsplash" title="s-migaj-Yui5vfKHuzs-unsplash"/>
  
 
 <a name="toc">Table of contents</a>
@@ -157,7 +157,7 @@ It is also possible to specify [Open Graph Protocol](http://ogp.me/) values:
 ```sh
 $ emem -D Meh -K 'foo, bar, baz' \
 --og-title "Crabs and Lobsters" --og-type article \
---og-url "https://some.site/foo.html" --og-image "https://some.site/image.webp" \
+--og-url "https://some.site/foo.html" --og-image "https://some.site/image.jpg" \
 README.md
 ```
 
