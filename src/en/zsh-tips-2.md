@@ -7,7 +7,7 @@ Zsh Tips 2: Directory Stacks
 >What we do for ourselves dies with us. What we do for others remains forever.<br>
 >—Albert Pike
 
-<img src="/images/site/jonny-caspari-A7ol2HfnycY-unsplash-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="jonny-caspari-A7ol2HfnycY-unsplash" title="jonny-caspari-A7ol2HfnycY-unsplash"/>
+<img src="/images/site/jonny-caspari-A7ol2HfnycY-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="jonny-caspari-A7ol2HfnycY-unsplash" title="jonny-caspari-A7ol2HfnycY-unsplash"/>
 
 
 <a name="toc">Table of contents</a>

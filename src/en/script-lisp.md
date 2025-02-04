@@ -7,7 +7,7 @@ Scripting in Common Lisp
 >The light that burns twice as bright burns half as long.<br>
 >—Dr. Eldon Tyrell, Blade Runner (1982)
 
-<img src="/images/site/lispo-simbolo.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="common-lisp.net logo" title="common-lisp.net logo"/>
+<img src="/images/site/lispo-simbolo.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="common-lisp.net logo" title="common-lisp.net logo"/>
 
 
 <a name="toc"></a>Table of contents

@@ -7,7 +7,7 @@ Milda Enkonduko al Nix-Flokoj
 >Tamen ĉiu decido por io estas decido kontraŭ io alia.<br>
 >—H. G. Tannhaus, Dark (2017)
 
-<img src="/images/site/aaron-burden-vtCZp-9GvrQ-unsplash-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="flokoj" title="flokoj"/>
+<img src="/images/site/aaron-burden-vtCZp-9GvrQ-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="flokoj" title="flokoj"/>
 
 
 <a name="toc">Table of contents</a>

@@ -6,7 +6,7 @@ Emacs Tips and Tricks 3: Insert and Delete
 
 >The more you sweat in peace, the less you bleed in war.<br>—Norman Schwarzkopf
 
-<img src="/images/site/jr-korpa-E2i7HftbrI-unsplash-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="jr-korpa-E2i7HftbrI-unsplash" title="jr-korpa-E2i7HftbrI-unsplash"/>
+<img src="/images/site/jr-korpa-E2i7HftbrI-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="jr-korpa-E2i7HftbrI-unsplash" title="jr-korpa-E2i7HftbrI-unsplash"/>
 
 
 <a name="toc">Table of contents</a>

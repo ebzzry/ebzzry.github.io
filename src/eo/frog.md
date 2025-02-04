@@ -7,7 +7,7 @@ Blogi per Frog
 >Unu persono kun ardo pli bonas ol kvardek personoj nure interesataj.<br>
 >—E.M. FORSTER
 
-<img src="/images/site/zdenek-machacek-HYTwWSE5ztw-unsplash-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="zdenek-machacek-HYTwWSE5ztw-unsplash" title="zdenek-machacek-HYTwWSE5ztw-unsplash"/>
+<img src="/images/site/zdenek-machacek-HYTwWSE5ztw-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="zdenek-machacek-HYTwWSE5ztw-unsplash" title="zdenek-machacek-HYTwWSE5ztw-unsplash"/>
 
 
 <a name="et">Enhavotabelo</a>

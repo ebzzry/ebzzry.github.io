@@ -7,7 +7,7 @@ Kiel Mi Uzas la Kinesis Advantage-Klavaron
 >La doloro neeviteblas. La suferado malnepras.<br>
 >—M. Kathleen CASEY
 
-<img src="/images/site/avantagxo.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="Kinezia Avantaĝo" title="Kinezia Avantaĝo"/>
+<img src="/images/site/avantagxo.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="Kinezia Avantaĝo" title="Kinezia Avantaĝo"/>
 
 
 <a name="et">Enhavotabelo</a>
@@ -48,7 +48,7 @@ la dvorakan reĝimon sen uzante iun ajn programon per premi <kbd>Progrm + Shift 
 iri reen al la QWERTY-reĝimo per la sama klavkombino. Kiam oni uzas la dvorakan reĝimon, la jena
 aranĝo estas kiel la klavoj estas aranĝitaj:
 
-<a href="/images/site/avantagxo-dvorako-0.webp"><img src="/images/site/avantagxo-dvorako-0.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="Originala programara Dvorako" title="Originala programara Dvorako"/></a>
+<a href="/images/site/avantagxo-dvorako-0.jpg"><img src="/images/site/avantagxo-dvorako-0.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="Originala programara Dvorako" title="Originala programara Dvorako"/></a>
 <div class="center">Figuro 1-1: Originala programara Dvorako</div>
 
 Ve. Uzi ĉi tiun aranĝon en Emakso aŭ Ziŝo estas inferno: por premi <kbd>M-x</kbd> emakse, oni devas
@@ -61,7 +61,7 @@ indeksfingro. Atingi <kbd>Esc</kbd> ankaŭ ne amuzas al mi ĉar ĝi tro malproks
 
 Pro tio kelkajn klavojn mi remapis. Jen la nova aranĝo.
 
-<a href="/images/site/avantagxo-dvorako-1.webp"><img src="/images/site/avantagxo-dvorako-1.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="Remapita programara Dvorako" title="Remapita programara Dvorako"/></a>
+<a href="/images/site/avantagxo-dvorako-1.jpg"><img src="/images/site/avantagxo-dvorako-1.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="Remapita programara Dvorako" title="Remapita programara Dvorako"/></a>
 <div class="center">Figuro 1-2: Remapita programara Dvorako</div>
 
 La nova loko de <kbd>Ctrl</kbd> kaj <kbd>Alt</kbd> ĝentilas al la fingroj. Mi interŝanĝas la lokojn

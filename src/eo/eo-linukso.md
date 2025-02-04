@@ -8,7 +8,7 @@ Esperanto-signoj en Linukso
 >faris.<br>
 >—Thomas JEFFERSON
 
-<img src="/images/site/stefan-HbwYKfnVz0-unsplash-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="stefan-HbwYKfnVz0-unsplash" title="stefan-HbwYKfnVz0-unsplash"/>
+<img src="/images/site/stefan-HbwYKfnVz0-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="stefan-HbwYKfnVz0-unsplash" title="stefan-HbwYKfnVz0-unsplash"/>
 
 
 <a name="et">Enhavotabelo</a>
