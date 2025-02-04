@@ -4,7 +4,7 @@
 <div class="center">[English](/en/) • Esperanto</div>
 <div class="center">Lasta ĝisdatigo: ĵaŭ jan 30 13:26:00 2025 +0800</div>
 
-<img src="/images/site/golfo-1008x250.webp" class="banner" alt="golfo" title="Ĉe la vizaĝo de Kosmo, ni ĉiuj estas infanoj." />
+<img src="/images/site/golfo-1008x250.jpg" class="banner" alt="golfo" title="Ĉe la vizaĝo de Kosmo, ni ĉiuj estas infanoj." />
 
 <div class="text-right">Retejo pri informadiko, hominklinaĵoj, kaj hazardaĵoj. La enskriboj estas ordigitaj laŭ inverskronologiordo.</div>
 

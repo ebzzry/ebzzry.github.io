@@ -7,7 +7,7 @@ Lakona Rondvojaĝo de Gito kaj GitHub
 >Sciu kiel solvi ĉiujn solvitajn problemon.<br>
 >—Richard P. FEYNMAN
 
-<img src="/images/site/tobias-tullius-XQ1cWY7v2PI-unsplash-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="tobias-tullius-XQ1cWY7v2PI-unsplash" title="tobias-tullius-XQ1cWY7v2PI-unsplash"/>
+<img src="/images/site/tobias-tullius-XQ1cWY7v2PI-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="tobias-tullius-XQ1cWY7v2PI-unsplash" title="tobias-tullius-XQ1cWY7v2PI-unsplash"/>
 
 
 <a name="et">Enhavotabelo</a>
@@ -145,7 +145,7 @@ tion, rulu la jenan komandon, tiam kopiu la eligon:
 Iru al [github.com/settings/ssh](https://github.com/settings/ssh), tiam alklaku **Add SSH key** aŭ
 **New SSH key**:
 
-![Add SSH key](/images/site/sekursxelan-sxlosilon-aldonu.webp)
+![Add SSH key](/images/site/sekursxelan-sxlosilon-aldonu.jpg)
 
 Algluu la ŝlosilon, tiam tradaŭru.
 
@@ -154,7 +154,7 @@ Algluu la ŝlosilon, tiam tradaŭru.
 
 En la paĝo de la deponejoj, krei novan deponejon per klaki **New**:
 
-![New](/images/site/nova-deponejo.webp)
+![New](/images/site/nova-deponejo.jpg)
 
 Daŭru per la invitoj. Kiam oni jam plenigis la postulatajn kampojn, akiros signovicojn de komandojn
 oni. Anstataŭigu `vakelo` kaj `foobar` per la GitHub-uzantnomo kaj la nomo de la deponejo,
@@ -181,14 +181,14 @@ Se oni volas kontribui al projekto, oni devas surlabori kopion de tiu dosiero, t
 
 Unue, forku la projekton. Iru al la projekto, kiun oni volas forki, tiam alklaku **Fork**:
 
-![Fork](/images/site/forku.webp)
+![Fork](/images/site/forku.jpg)
 
 Ĉi tio kreas Kopion de la deponejo en la propra GitHub-konto.
 
 Sekve, oni devas kloni tiun forkon al la loka disko. Kopiu la adreson kiu estas lokita en la **SSH
 clone URL**-kampo:
 
-![SSH clone URL](/images/site/klonadreso-de-ssh.webp)
+![SSH clone URL](/images/site/klonadreso-de-ssh.jpg)
 
 Tiam rulu la jenan komandon, en kiu, `memeho` estas la uzantnomo:
 
@@ -212,15 +212,15 @@ Nun oni povas fari ŝanĝojn al la dosieroj en ĉi tiu branĉo. Kiam oni jam enm
 Se oni volas, ke la fonta deponejo kunfandu la ŝanĝojn , kreu _Pull Request_ per iri al la paĝo de
 la fonta deponejo, tiam alklaku **Pull requests**:
 
-![Pull Requests](/images/site/tirpetoj.webp)
+![Pull Requests](/images/site/tirpetoj.jpg)
 
 En la sekva paĝo, alklaku **New pull request**:
 
-![New Pull Request](/images/site/nova-tirpeto.webp)
+![New Pull Request](/images/site/nova-tirpeto.jpg)
 
 Elektu **compare across forks**:
 
-![Compare Across Forks](/images/site/komparu-trans-forkoj.webp)
+![Compare Across Forks](/images/site/komparu-trans-forkoj.jpg)
 
 Maldekstre, sub la **base fork**-kampo, elektu **vakelo/foobar**, kaj en la **base**-kampo,
 elektu **master**.
@@ -230,7 +230,7 @@ elektu **novopcioj**.
 
 Tiam, alklaku **Create pull request**:
 
-![Create pull request](/images/site/tirpeton-kreu.webp)
+![Create pull request](/images/site/tirpeton-kreu.jpg)
 
 Tiam, tradaŭru.
 
@@ -252,7 +252,7 @@ Tiam puŝu al via deponejo:
 Se oni estas la proprulo de la fonta deponejo, kaj oni volas tiri la ŝanĝojn el la kontribuantoj,
 klaku **Pull requests** en la paĝo de la deponejo:
 
-![Pull requests](/images/site/tirpetoj.webp)
+![Pull requests](/images/site/tirpetoj.jpg)
 
 tiam, tradaŭru.
 

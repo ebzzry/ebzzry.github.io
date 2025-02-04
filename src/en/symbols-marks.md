@@ -7,7 +7,7 @@ Symbols and Marks
 >If you want to achieve greatness, stop asking for permission.<br>
 >—Eddie Colla
 
-<img src="/images/site/stephen-johnson-Q8-Cc-IXRY-unsplash-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="stephen-johnson-Q8-Cc-IXRY-unsplash" title="stephen-johnson-Q8-Cc-IXRY-unsplash"/>
+<img src="/images/site/stephen-johnson-Q8-Cc-IXRY-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="stephen-johnson-Q8-Cc-IXRY-unsplash" title="stephen-johnson-Q8-Cc-IXRY-unsplash"/>
 
 *Go [here](/en/symbols-marks-condensed/) for the condensed version.*
 

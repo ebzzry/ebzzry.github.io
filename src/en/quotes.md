@@ -3,7 +3,7 @@ Quotes
 
 <div class="center">English • [Esperanto](/eo/citajxoj/)</div>
 
-<img src="/images/site/wallhaven-77816-1008x250.webp" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
+<img src="/images/site/wallhaven-77816-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
 
 This page contains a list of curated quotations, aphorisms, and proverbs that I have collected over
