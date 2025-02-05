@@ -2,12 +2,11 @@ About
 =====
 
 <div class="center">English • [Esperanto](/eo/pri/)</div>
-<div class="center">Last update: lun jan 27 15:38:00 2025 +0800 </div>
 
 <div>
 <img src="/images/site/ebzzry.png" style="float: right; width: 50%; margin: 0px 0px 0px 10px">
 
-Rommel Martínez is an Artificial Intelligence Scientist with over 26 years of
+Rommel Martínez is an artificial intelligence researcher with over 26 years of
 professional experience in software engineering; systems administration; and
 programming language theory and design.
 
