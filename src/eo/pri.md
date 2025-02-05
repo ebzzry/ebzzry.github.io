@@ -6,7 +6,7 @@ Pri
 <div>
 <img src="/images/site/ebzzry.png" style="float: right; width: 50%; margin: 0px 0px 0px 10px">
 
-Rommel Martínez estas artefarita inteligenteca sciencisto kun pli ol 26 jaroj da
+Rommel Martínez estas artefarita inteligenteca esploristo kun pli ol 26 jaroj da
 profesia sperto en programado; sistemadministrado; kaj programlingva teorio kaj
 desegnado.
 
