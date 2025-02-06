@@ -1,7 +1,7 @@
 .PHONY: all clean
 
 FILES=$(filter-out pagxopiedo.md index.md, $(wildcard *.md))
-EMEM=$${HOME}/bin/emem
+EMEM=emem
 
 OG_TITLE="$$(head -1 $<)"
 OG_TYPE="article"
