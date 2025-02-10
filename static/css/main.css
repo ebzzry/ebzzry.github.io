@@ -28,7 +28,6 @@ code {
     font-family: "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Lucida Console", "Courier New", Courier, monospace;
     color: black;
     display: inline-block;
-    font-weight: bold;
 }
 
 pre code {
