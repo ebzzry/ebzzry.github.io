@@ -1,6 +1,6 @@
 .PHONY: all clean rebuild
 
-EMEM=emem
+EMEM=$${HOME}/bin/emem
 
 all:
 	$(EMEM) -r
