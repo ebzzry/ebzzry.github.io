@@ -1,0 +1,9 @@
+#+title: ebzzry.github.io
+* Overview
+This repository contains the sources of [[https://ebzzry.com][ebzzry.com]].
+* Dependencies
+- [[https://github.com/ebzzry/emem][emem]]
+* Building
+#+begin_src sh
+make
+#+end_src
