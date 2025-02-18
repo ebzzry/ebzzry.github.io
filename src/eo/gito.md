@@ -212,7 +212,7 @@ komandon de gito ruli anstataŭ.
 Jen la plej gravaj komandoj kiujn ni unue devas havi.
 
 
-**Ĉefaj operacioj**
+#### Ĉefaj operacioj
 
 ```
       (s) "${git}" status ;;
@@ -269,7 +269,7 @@ Jen la plej gravaj komandoj kiujn ni unue devas havi.
 ```
 
 
-**Puŝado kaj tirado**
+#### Puŝado kaj tirado
 
 ```
       (ph) "${git}" push "$@" ;;
@@ -292,7 +292,7 @@ Jen la plej gravaj komandoj kiujn ni unue devas havi.
 ```
 
 
-**Branĉoj kaj dosierdiferencoj**
+#### Branĉoj kaj dosierdiferencoj
 
 ```
       (br) "${git}" branch "$@" ;;
@@ -310,7 +310,7 @@ Jen la plej gravaj komandoj kiujn ni unue devas havi.
 ```
 
 
-**Protokoloj**
+#### Protokoloj
 
 ```
       (l) "${git}" log "$@" ;;
@@ -327,7 +327,7 @@ Jen la plej gravaj komandoj kiujn ni unue devas havi.
 Jen aliaj komandoj kiujn ni ankaŭ devas difini.
 
 
-**Pravaloriziĝado kaj puŝadheloj**
+#### Pravaloriziĝado kaj puŝadheloj
 
 ```
       (i) touch .gitignore; "${git}" init; "${self}" a.; "${self}" cim "$@" ;;
@@ -353,7 +353,7 @@ la komando fariĝos
     git ph origin trunk
 
 
-**Ŝanĝado de arboj**
+#### Ŝanĝado de arboj
 
 ```
       (rb) "${git}" rebase "$@" ;;
@@ -376,7 +376,7 @@ komandon mi uzas:
     git rs 2
 
 
-**Aldonado**
+#### Aldonado
 
 ```
       (a) "${git}" add "$@" ;;
@@ -396,7 +396,7 @@ La subkomando `aum` fariĝos mallongigo de `au` kaj `cm` orde. La subkomandon
 en la protokolo mi ne deziras havi.
 
 
-**Foraj deponejoj**
+#### Foraj deponejoj
 
 ```
       (re) "${git}" remote "$@" ;;
@@ -413,7 +413,7 @@ en la protokolo mi ne deziras havi.
 ```
 
 
-**Revizioj, filtrado, kaj kaŝujoj**
+#### Revizioj, filtrado, kaj kaŝujoj
 
 ```
       (rl) "${git}" rev-list "$@" ;;
@@ -456,7 +456,7 @@ La jenan komandon mi tiam uzas sekve, por certigi ke la ŝanĝoj aperas en la fo
     git oo!
 
 
-**Subarboj, kaj submoduloj**
+#### Subarboj, kaj submoduloj
 
 ```
       (subt) "${git}" subtree "$@" ;;
@@ -474,7 +474,7 @@ La jenan komandon mi tiam uzas sekve, por certigi ke la ŝanĝoj aperas en la fo
       (ref) "${git}" reflog "$@" ;;
 ```
 
-**Priskribado**
+#### Priskribado
 
 ```
       (de) "${git}" describe "$@" ;;
