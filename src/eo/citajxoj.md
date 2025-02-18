@@ -1081,3 +1081,6 @@ tra la jaroj.
 
 
 - He! La tempo ne atendos por vi<br>—Jamiroquai, Time Won't Wait
+
+
+- Antaŭ ol oni kuracu iun ajn, demandu lin se li deziras rezigni tiujn kiuj igis lin malsane.<br>—Hipokrato

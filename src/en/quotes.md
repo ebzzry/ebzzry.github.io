@@ -1095,3 +1095,6 @@ the years.
 
 
 - Hey! Time won't wait for you<br>—Jamiroquai, Time Won't Wait
+
+
+- Before you heal someone, ask him if he's willing to give up the things that make him sick.<br>—Hippocrates 
