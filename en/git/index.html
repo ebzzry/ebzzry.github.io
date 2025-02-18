@@ -39,7 +39,7 @@ hi</code></pre><p>With it, a shell function with the name <code>hi</code> was fi
     esac
   fi
 }
-</code></pre><p>If there are no commands for git:</p><pre><code>git</code></pre><p>the definition of function itself will be displayed.</p><p>The subcommands will live in the area marked <code># commands here</code>. The fallback marked with <code>&#42;</code> means that if there is no appropriate subcommand, git will use its internal command.</p><h3><a name="commands1">Important commands</a></h3><p>Here are the most important commands that we need to have.</p><p><strong>Main operations</strong></p><pre><code>      &#40;s&#41; &quot;${git}&quot; status ;;
+</code></pre><p>If there are no commands for git:</p><pre><code>git</code></pre><p>the definition of function itself will be displayed.</p><p>The subcommands will live in the area marked <code># commands here</code>. The fallback marked with <code>&#42;</code> means that if there is no appropriate subcommand, git will use its internal command.</p><h3><a name="commands1">Important commands</a></h3><p>Here are the most important commands that we need to have.</p><h4>Main operations</h4><pre><code>      &#40;s&#41; &quot;${git}&quot; status ;;
       &#40;c&#41; &quot;${git}&quot; clone &quot;$@&quot; ;;
       &#40;h&#41; &quot;${git}&quot; show &quot;$@&quot; ;;
       &#40;mv&#41; &quot;${git}&quot; mv &quot;$@&quot; ;;
@@ -90,7 +90,7 @@ hi</code></pre><p>With it, a shell function with the name <code>hi</code> was fi
       &#40;rm&#41; &quot;${git}&quot; rm &quot;$@&quot; ;;
       &#40;rmr&#41; &quot;${self}&quot; rm -r &quot;$@&quot; ;;
       &#40;rm!&#41; &quot;${self}&quot; rm -rf &quot;$@&quot; ;;
-</code></pre><p><strong>Pushing and pulling</strong></p><pre><code>      &#40;ph&#41; &quot;${git}&quot; push &quot;$@&quot; ;;
+</code></pre><h4>Pushing and pulling</h4><pre><code>      &#40;ph&#41; &quot;${git}&quot; push &quot;$@&quot; ;;
       &#40;phu&#41; &quot;${self}&quot; ph -u &quot;$@&quot; ;;
       &#40;ph!&#41; &quot;${self}&quot; ph --force &quot;$@&quot; ;;
       &#40;pho&#41; &quot;${self}&quot; phu origin &quot;$@&quot; ;;
@@ -107,7 +107,7 @@ hi</code></pre><p>With it, a shell function with the name <code>hi</code> was fi
       &#40;plroo&#41; &quot;${self}&quot; plr origin &quot;$&#40;git brh&#41;&quot; ;;
       &#40;plru&#41; &quot;${self}&quot; plr upstream &quot;$@&quot; ;;
       &#40;plruo&#41; &quot;${self}&quot; plr upstream &quot;$&#40;git brh&#41;&quot; ;;
-</code></pre><p><strong>Branches and diffs</strong></p><pre><code>      &#40;br&#41; &quot;${git}&quot; branch &quot;$@&quot; ;;
+</code></pre><h4>Branches and diffs</h4><pre><code>      &#40;br&#41; &quot;${git}&quot; branch &quot;$@&quot; ;;
       &#40;bra&#41; &quot;${self}&quot; br -a ;;
       &#40;brm&#41; &quot;${self}&quot; br -m &quot;$@&quot; ;;
       &#40;brmh&#41; &quot;${self}&quot; brm &quot;$&#40;git brh&#41;&quot; ;;
@@ -119,18 +119,18 @@ hi</code></pre><p>With it, a shell function with the name <code>hi</code> was fi
       &#40;dc&#41; &quot;${git}&quot; diff --cached &quot;$@&quot; ;;
       &#40;dh&#41; &quot;${self}&quot; d HEAD ;;
       &#40;dhw&#41; &quot;${self}&quot; d --word-diff=color ;;
-</code></pre><p><strong>Logs</strong></p><pre><code>      &#40;l&#41; &quot;${git}&quot; log &quot;$@&quot; ;;
+</code></pre><h4>Logs</h4><pre><code>      &#40;l&#41; &quot;${git}&quot; log &quot;$@&quot; ;;
       &#40;l1&#41; &quot;${self}&quot; l -1 --pretty=%B ;;
       &#40;lo&#41; &quot;${self}&quot; l --oneline ;;
       &#40;lp&#41; &quot;${self}&quot; l --patch ;;
       &#40;lp1&#41; &quot;${self}&quot; lp -1 ;;
       &#40;lpw&#41; &quot;${self}&quot; lp --word-diff=color ;;
-</code></pre><h3><a name="commands2">Other commands</a></h3><p>Here are other commands that we also need to define:</p><p><strong>Initialization and push helpers</strong></p><pre><code>      &#40;i&#41; touch .gitignore; &quot;${git}&quot; init; &quot;${self}&quot; a.; &quot;${self}&quot; cim &quot;$@&quot; ;;
+</code></pre><h3><a name="commands2">Other commands</a></h3><p>Here are other commands that we also need to define:</p><h4>Initialization and push helpers</h4><pre><code>      &#40;i&#41; touch .gitignore; &quot;${git}&quot; init; &quot;${self}&quot; a.; &quot;${self}&quot; cim &quot;$@&quot; ;;
       &#40;i!&#41; &quot;${self}&quot; i &quot;&#91;top-level&#93; make initial commit&quot; ;;
 
       &#40;oo&#41; &quot;${self}&quot; ph origin &quot;$&#40;git brh&#41;&quot; ;;
       &#40;oo!&#41; &quot;${self}&quot; ph! origin &quot;$&#40;git brh&#41;&quot; ;;
-</code></pre><p>Whenever I create new repositories, I use the following command:</p><pre><code>git i 'Initial commit'</code></pre><p>What the <code>oo</code> subcommand does is that code will be pushed to the remote named <code>origin</code> under the name of the current branch. For example, if the current branch is <code>trunk</code>, then I run the following command:</p><pre><code>git oo</code></pre><p>the command becomes</p><pre><code>git ph origin trunk</code></pre><p><strong>Rebasing</strong></p><pre><code>      &#40;rb&#41; &quot;${git}&quot; rebase &quot;$@&quot; ;;
+</code></pre><p>Whenever I create new repositories, I use the following command:</p><pre><code>git i 'Initial commit'</code></pre><p>What the <code>oo</code> subcommand does is that code will be pushed to the remote named <code>origin</code> under the name of the current branch. For example, if the current branch is <code>trunk</code>, then I run the following command:</p><pre><code>git oo</code></pre><p>the command becomes</p><pre><code>git ph origin trunk</code></pre><h4>Rebasing</h4><pre><code>      &#40;rb&#41; &quot;${git}&quot; rebase &quot;$@&quot; ;;
       &#40;rbi&#41; &quot;${self}&quot; rb --interactive &quot;$@&quot; ;;
       &#40;rbc&#41; &quot;${self}&quot; rb --continue &quot;$@&quot; ;;
       &#40;rbs&#41; &quot;${self}&quot; rb --skip &quot;$@&quot; ;;
@@ -140,7 +140,7 @@ hi</code></pre><p>With it, a shell function with the name <code>hi</code> was fi
 
       &#40;ri&#41; &quot;${self}&quot; rbi HEAD&#126;&quot;$1&quot; ;;
       &#40;rs&#41; &quot;${self}&quot; rt --soft HEAD&#126;&quot;$1&quot; &amp;&amp; &quot;${self}&quot; cim &quot;$&#40;git log --format=%B --reverse HEAD..HEAD@{1} | head -1&#41;&quot; ;;
-</code></pre><p>I use the subcommand <code>rs</code> whenever I need to squash non-interactively. The argument is a digit indicating how many commits do we want to squash. For example, if I want to squash the last two commits, I run the following command:</p><pre><code>git rs 2</code></pre><p><strong>Adding</strong></p><pre><code>      &#40;a&#41; &quot;${git}&quot; add &quot;$@&quot; ;;
+</code></pre><p>I use the subcommand <code>rs</code> whenever I need to squash non-interactively. The argument is a digit indicating how many commits do we want to squash. For example, if I want to squash the last two commits, I run the following command:</p><pre><code>git rs 2</code></pre><h4>Adding</h4><pre><code>      &#40;a&#41; &quot;${git}&quot; add &quot;$@&quot; ;;
       &#40;au&#41; &quot;${self}&quot; a -u ;;
       &#40;a.&#41; &quot;${self}&quot; a . ;;
       &#40;aum&#41; &quot;${self}&quot; au; &quot;${self}&quot; cim &quot;$@&quot; ;;
@@ -150,7 +150,7 @@ hi</code></pre><p>With it, a shell function with the name <code>hi</code> was fi
       &#40;auxx&#41; &quot;${self}&quot; aux; &quot;${self}&quot; rs 2 ;;
       &#40;au.x&#41; &quot;${self}&quot; a.x; &quot;${self}&quot; rs 2 ;;
       &#40;auxx!&#41; &quot;${self}&quot; auxx; &quot;${self}&quot; oo! ;;
-</code></pre><p>The subcommand <code>aum</code> becomes a shorthand for <code>au</code> and <code>cm</code> in order. I use the command <code>auxx</code> whenever I make small changes but I don’t want to add a new visible entry in the commit log.</p><p><strong>Remote repositories</strong></p><pre><code>      &#40;re&#41; &quot;${git}&quot; remote &quot;$@&quot; ;;
+</code></pre><p>The subcommand <code>aum</code> becomes a shorthand for <code>au</code> and <code>cm</code> in order. I use the command <code>auxx</code> whenever I make small changes but I don’t want to add a new visible entry in the commit log.</p><h4>Remote repositories</h4><pre><code>      &#40;re&#41; &quot;${git}&quot; remote &quot;$@&quot; ;;
       &#40;rea&#41; &quot;${self}&quot; re add &quot;$@&quot; ;;
       &#40;reao&#41; &quot;${self}&quot; rea origin &quot;$@&quot; ;;
       &#40;reau&#41; &quot;${self}&quot; rea upstream &quot;$@&quot; ;;
@@ -161,7 +161,7 @@ hi</code></pre><p>With it, a shell function with the name <code>hi</code> was fi
       &#40;res&#41; &quot;${self}&quot; re show &quot;$@&quot; ;;
       &#40;reso&#41; &quot;${self}&quot; res origin ;;
       &#40;resu&#41; &quot;${self}&quot; res upstream ;;
-</code></pre><p><strong>Revisions, filters, and stash</strong></p><pre><code>      &#40;rl&#41; &quot;${git}&quot; rev-list &quot;$@&quot; ;;
+</code></pre><h4>Revisions, filters, and stash</h4><pre><code>      &#40;rl&#41; &quot;${git}&quot; rev-list &quot;$@&quot; ;;
       &#40;rla&#41; &quot;${self}&quot; rl --all &quot;$@&quot; ;;
       &#40;rl0&#41; &quot;${self}&quot; rl --max-parents=0 HEAD ;;
 
@@ -178,7 +178,7 @@ hi</code></pre><p>With it, a shell function with the name <code>hi</code> was fi
       &#40;st&#41; &quot;${git}&quot; stash &quot;$@&quot; ;;
       &#40;stp&#41; &quot;${self}&quot; st pop &quot;$@&quot; ;;
 </code></pre><p>Whenever I want to change to change a text from all commit messages, for example I want to change word <code>dog</code> to <code>cat</code>, I run the following command:</p><pre><code>git fr! --replace-message &lt;&#40;echo 'dog==&gt;cat'&#41;</code></pre><p>Whenever I want to completely remove a file from a repository, for example <code>file.dat</code>, I run the following command:</p><pre><code>git fr! --invert-paths --path file.dat</code></pre><p>Whenever I want to change the email address in the commits, for example, from <code>dog@world.com</code> to <code>cat@world.com</code>, I run the following command:</p><pre><code>git fbe 'export GIT&#95;AUTHOR&#95;EMAIL=&quot;cat@world.com&quot;; export GIT&#95;COMMITTER&#95;EMAIL=&quot;cat@world.com&quot;' --tag-name-filter cat -- --branches --tags</code></pre><pre><code>    git fr! --email-callback 'return email.replace&#40;b&quot;dog@world.com&quot;, b&quot;cat@world.com&quot;&#41;'
-</code></pre><br /><p>I then run the following command to make sure that the changes appear in the remote repository:</p><pre><code>git oo!</code></pre><p><strong>Subtrees and submodules</strong></p><pre><code>      &#40;subt&#41; &quot;${git}&quot; subtree &quot;$@&quot; ;;
+</code></pre><br /><p>I then run the following command to make sure that the changes appear in the remote repository:</p><pre><code>git oo!</code></pre><h4>Subtrees and submodules</h4><pre><code>      &#40;subt&#41; &quot;${git}&quot; subtree &quot;$@&quot; ;;
       &#40;subta&#41; &quot;${self}&quot; subt add &quot;$@&quot; ;;
       &#40;subtph&#41; &quot;${self}&quot; subt push &quot;$@&quot; ;;
       &#40;subtpl&#41; &quot;${self}&quot; subt pull &quot;$@&quot; ;;
@@ -191,7 +191,7 @@ hi</code></pre><p>With it, a shell function with the name <code>hi</code> was fi
       &#40;submi&#41; &quot;${self}&quot; subm init &quot;$@&quot; ;;
 
       &#40;ref&#41; &quot;${git}&quot; reflog &quot;$@&quot; ;;
-</code></pre><p><strong>Descriptions</strong></p><pre><code>      &#40;de&#41; &quot;${git}&quot; describe &quot;$@&quot; ;;
+</code></pre><h4>Descriptions</h4><pre><code>      &#40;de&#41; &quot;${git}&quot; describe &quot;$@&quot; ;;
       &#40;det&#41; &quot;${self}&quot; de --tags &quot;$@&quot; ;;
 </code></pre><h2><a name="all">Putting them all together</a></h2><p>Here are all the definitions in one location:</p><pre><code>function git {
   local git= self= op=

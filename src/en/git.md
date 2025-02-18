@@ -210,7 +210,7 @@ its internal command.
 
 Here are the most important commands that we need to have.
 
-**Main operations**
+#### Main operations
 
 ```
       (s) "${git}" status ;;
@@ -266,7 +266,7 @@ Here are the most important commands that we need to have.
       (rm!) "${self}" rm -rf "$@" ;;
 ```
 
-**Pushing and pulling**
+#### Pushing and pulling
 
 ```
       (ph) "${git}" push "$@" ;;
@@ -289,7 +289,7 @@ Here are the most important commands that we need to have.
 ```
 
 
-**Branches and diffs**
+#### Branches and diffs
 
 ```
       (br) "${git}" branch "$@" ;;
@@ -307,7 +307,7 @@ Here are the most important commands that we need to have.
 ```
 
 
-**Logs**
+#### Logs
 
 ```
       (l) "${git}" log "$@" ;;
@@ -323,7 +323,7 @@ Here are the most important commands that we need to have.
 
 Here are other commands that we also need to define:
 
-**Initialization and push helpers**
+#### Initialization and push helpers
 
 ```
       (i) touch .gitignore; "${git}" init; "${self}" a.; "${self}" cim "$@" ;;
@@ -348,7 +348,7 @@ the command becomes
     git ph origin trunk
 
 
-**Rebasing**
+#### Rebasing
 
 ```
       (rb) "${git}" rebase "$@" ;;
@@ -370,7 +370,7 @@ example, if I want to squash the last two commits, I run the following command:
     git rs 2
 
 
-**Adding**
+#### Adding
 
 ```
       (a) "${git}" add "$@" ;;
@@ -390,7 +390,7 @@ command `auxx` whenever I make small changes but I don’t want to add a new
 visible entry in the commit log.
 
 
-**Remote repositories**
+#### Remote repositories
 
 ```
       (re) "${git}" remote "$@" ;;
@@ -407,7 +407,7 @@ visible entry in the commit log.
 ```
 
 
-**Revisions, filters, and stash**
+#### Revisions, filters, and stash
 
 ```
       (rl) "${git}" rev-list "$@" ;;
@@ -452,7 +452,7 @@ I then run the following command to make sure that the changes appear in the rem
     git oo!
 
 
-**Subtrees and submodules**
+#### Subtrees and submodules
 
 ```
       (subt) "${git}" subtree "$@" ;;
@@ -471,7 +471,7 @@ I then run the following command to make sure that the changes appear in the rem
 ```
 
 
-**Descriptions**
+#### Descriptions
 
 ```
       (de) "${git}" describe "$@" ;;

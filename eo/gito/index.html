@@ -39,7 +39,7 @@ hi</code></pre><p>Per ĝi, ŝelan funkcion kiu nomiĝas <code>hi</code> oni unue
     esac
   fi
 }
-</code></pre><p>Se ne estas komando por gito:</p><pre><code>git</code></pre><p>la difinon de la funkcio mem la ŝelo montras.</p><p>La subkomandoj loĝos en la areo markita <code># komandoj ĉi tie</code>. La retropaŝa ago markita per <code>&#42;</code> signifas, ke se ne estas propra komando el mi, la internan komandon de gito ruli anstataŭ.</p><h3><a name="komandoj1">Gravaj komandoj</a></h3><p>Jen la plej gravaj komandoj kiujn ni unue devas havi.</p><p><strong>Ĉefaj operacioj</strong></p><pre><code>      &#40;s&#41; &quot;${git}&quot; status ;;
+</code></pre><p>Se ne estas komando por gito:</p><pre><code>git</code></pre><p>la difinon de la funkcio mem la ŝelo montras.</p><p>La subkomandoj loĝos en la areo markita <code># komandoj ĉi tie</code>. La retropaŝa ago markita per <code>&#42;</code> signifas, ke se ne estas propra komando el mi, la internan komandon de gito ruli anstataŭ.</p><h3><a name="komandoj1">Gravaj komandoj</a></h3><p>Jen la plej gravaj komandoj kiujn ni unue devas havi.</p><h4>Ĉefaj operacioj</h4><pre><code>      &#40;s&#41; &quot;${git}&quot; status ;;
       &#40;c&#41; &quot;${git}&quot; clone &quot;$@&quot; ;;
       &#40;h&#41; &quot;${git}&quot; show &quot;$@&quot; ;;
       &#40;mv&#41; &quot;${git}&quot; mv &quot;$@&quot; ;;
@@ -90,7 +90,7 @@ hi</code></pre><p>Per ĝi, ŝelan funkcion kiu nomiĝas <code>hi</code> oni unue
       &#40;rm&#41; &quot;${git}&quot; rm &quot;$@&quot; ;;
       &#40;rmr&#41; &quot;${self}&quot; rm -r &quot;$@&quot; ;;
       &#40;rm!&#41; &quot;${self}&quot; rm -rf &quot;$@&quot; ;;
-</code></pre><p><strong>Puŝado kaj tirado</strong></p><pre><code>      &#40;ph&#41; &quot;${git}&quot; push &quot;$@&quot; ;;
+</code></pre><h4>Puŝado kaj tirado</h4><pre><code>      &#40;ph&#41; &quot;${git}&quot; push &quot;$@&quot; ;;
       &#40;phu&#41; &quot;${self}&quot; ph -u &quot;$@&quot; ;;
       &#40;ph!&#41; &quot;${self}&quot; ph --force &quot;$@&quot; ;;
       &#40;pho&#41; &quot;${self}&quot; phu origin &quot;$@&quot; ;;
@@ -107,7 +107,7 @@ hi</code></pre><p>Per ĝi, ŝelan funkcion kiu nomiĝas <code>hi</code> oni unue
       &#40;plroo&#41; &quot;${self}&quot; plr origin &quot;$&#40;git brh&#41;&quot; ;;
       &#40;plru&#41; &quot;${self}&quot; plr upstream &quot;$@&quot; ;;
       &#40;plruo&#41; &quot;${self}&quot; plr upstream &quot;$&#40;git brh&#41;&quot; ;;
-</code></pre><p><strong>Branĉoj kaj dosierdiferencoj</strong></p><pre><code>      &#40;br&#41; &quot;${git}&quot; branch &quot;$@&quot; ;;
+</code></pre><h4>Branĉoj kaj dosierdiferencoj</h4><pre><code>      &#40;br&#41; &quot;${git}&quot; branch &quot;$@&quot; ;;
       &#40;bra&#41; &quot;${self}&quot; br -a ;;
       &#40;brm&#41; &quot;${self}&quot; br -m &quot;$@&quot; ;;
       &#40;brmh&#41; &quot;${self}&quot; brm &quot;$&#40;git brh&#41;&quot; ;;
@@ -119,19 +119,19 @@ hi</code></pre><p>Per ĝi, ŝelan funkcion kiu nomiĝas <code>hi</code> oni unue
       &#40;dc&#41; &quot;${git}&quot; diff --cached &quot;$@&quot; ;;
       &#40;dh&#41; &quot;${self}&quot; d HEAD ;;
       &#40;dhw&#41; &quot;${self}&quot; d --word-diff=color ;;
-</code></pre><p><strong>Protokoloj</strong></p><pre><code>      &#40;l&#41; &quot;${git}&quot; log &quot;$@&quot; ;;
+</code></pre><h4>Protokoloj</h4><pre><code>      &#40;l&#41; &quot;${git}&quot; log &quot;$@&quot; ;;
       &#40;l1&#41; &quot;${self}&quot; l -1 --pretty=%B ;;
       &#40;lo&#41; &quot;${self}&quot; l --oneline ;;
       &#40;lp&#41; &quot;${self}&quot; l --patch ;;
       &#40;lp1&#41; &quot;${self}&quot; lp -1 ;;
       &#40;lpw&#41; &quot;${self}&quot; lp --word-diff=color ;;
-</code></pre><h3><a name="komandoj2">Aliaj komandoj</a></h3><p>Jen aliaj komandoj kiujn ni ankaŭ devas difini.</p><p><strong>Pravaloriziĝado kaj puŝadheloj</strong></p><pre><code>      &#40;i&#41; touch .gitignore; &quot;${git}&quot; init; &quot;${self}&quot; a.; &quot;${self}&quot; cim &quot;$@&quot; ;;
+</code></pre><h3><a name="komandoj2">Aliaj komandoj</a></h3><p>Jen aliaj komandoj kiujn ni ankaŭ devas difini.</p><h4>Pravaloriziĝado kaj puŝadheloj</h4><pre><code>      &#40;i&#41; touch .gitignore; &quot;${git}&quot; init; &quot;${self}&quot; a.; &quot;${self}&quot; cim &quot;$@&quot; ;;
       &#40;i!&#41; &quot;${self}&quot; i &quot;&#91;supro&#93; pravaloriziĝu&quot; ;;
 
       &#40;oo&#41; &quot;${self}&quot; ph origin &quot;$&#40;git brh&#41;&quot; ;;
       &#40;oo!&#41; &quot;${self}&quot; ph! origin &quot;$&#40;git brh&#41;&quot; ;;
 
-</code></pre><p>Kiam ajn novajn deponejon mi kreas, la jenan komandon mi rulas:</p><pre><code>git i Pravaloriziĝu</code></pre><p>Kion la <code>oo</code> subkomando faras estas ke la kodo puŝiĝos al la fordeponejo kiu nomiĝas <code>origin</code> sub la nomo de la aktuala branĉo. Ekzemple, se la aktuala branĉo nomiĝas <code>trunk</code>, kaj la jenan komandon oni rulas:</p><pre><code>git oo</code></pre><p>la komando fariĝos</p><pre><code>git ph origin trunk</code></pre><p><strong>Ŝanĝado de arboj</strong></p><pre><code>      &#40;rb&#41; &quot;${git}&quot; rebase &quot;$@&quot; ;;
+</code></pre><p>Kiam ajn novajn deponejon mi kreas, la jenan komandon mi rulas:</p><pre><code>git i Pravaloriziĝu</code></pre><p>Kion la <code>oo</code> subkomando faras estas ke la kodo puŝiĝos al la fordeponejo kiu nomiĝas <code>origin</code> sub la nomo de la aktuala branĉo. Ekzemple, se la aktuala branĉo nomiĝas <code>trunk</code>, kaj la jenan komandon oni rulas:</p><pre><code>git oo</code></pre><p>la komando fariĝos</p><pre><code>git ph origin trunk</code></pre><h4>Ŝanĝado de arboj</h4><pre><code>      &#40;rb&#41; &quot;${git}&quot; rebase &quot;$@&quot; ;;
       &#40;rbi&#41; &quot;${self}&quot; rb --interactive &quot;$@&quot; ;;
       &#40;rbc&#41; &quot;${self}&quot; rb --continue &quot;$@&quot; ;;
       &#40;rbs&#41; &quot;${self}&quot; rb --skip &quot;$@&quot; ;;
@@ -141,7 +141,7 @@ hi</code></pre><p>Per ĝi, ŝelan funkcion kiu nomiĝas <code>hi</code> oni unue
 
       &#40;ri&#41; &quot;${self}&quot; rbi HEAD&#126;&quot;$1&quot; ;;
       &#40;rs&#41; &quot;${self}&quot; rt --soft HEAD&#126;&quot;$1&quot; &amp;&amp; &quot;${self}&quot; cim &quot;$&#40;git log --format=%B --reverse HEAD..HEAD@{1} | head -1&#41;&quot; ;;
-</code></pre><p>La subkomandon <code>rs</code> mi uzas kiam ŝanĝojn mi volas kunpremegi neinterage. La argumento al ĝi estas cifero kio prezicigas kiom da ŝanĝo oni volas kunpremigi. Ekzemple, se la lastajn du ŝanĝojn mi volas kunpremegi, la jenan komandon mi uzas:</p><pre><code>git rs 2</code></pre><p><strong>Aldonado</strong></p><pre><code>      &#40;a&#41; &quot;${git}&quot; add &quot;$@&quot; ;;
+</code></pre><p>La subkomandon <code>rs</code> mi uzas kiam ŝanĝojn mi volas kunpremegi neinterage. La argumento al ĝi estas cifero kio prezicigas kiom da ŝanĝo oni volas kunpremigi. Ekzemple, se la lastajn du ŝanĝojn mi volas kunpremegi, la jenan komandon mi uzas:</p><pre><code>git rs 2</code></pre><h4>Aldonado</h4><pre><code>      &#40;a&#41; &quot;${git}&quot; add &quot;$@&quot; ;;
       &#40;au&#41; &quot;${self}&quot; a -u ;;
       &#40;a.&#41; &quot;${self}&quot; a . ;;
       &#40;aum&#41; &quot;${self}&quot; au; &quot;${self}&quot; cim &quot;$@&quot; ;;
@@ -151,7 +151,7 @@ hi</code></pre><p>Per ĝi, ŝelan funkcion kiu nomiĝas <code>hi</code> oni unue
       &#40;auxx&#41; &quot;${self}&quot; aux; &quot;${self}&quot; rs 2 ;;
       &#40;au.x&#41; &quot;${self}&quot; a.x; &quot;${self}&quot; rs 2 ;;
       &#40;auxx!&#41; &quot;${self}&quot; auxx; &quot;${self}&quot; oo! ;;
-</code></pre><p>La subkomando <code>aum</code> fariĝos mallongigo de <code>au</code> kaj <code>cm</code> orde. La subkomandon <code>auxx</code> mi uzas kiam ajn nur etajn ŝanĝojn mi faris sed novan videblan enskribon en la protokolo mi ne deziras havi.</p><p><strong>Foraj deponejoj</strong></p><pre><code>      &#40;re&#41; &quot;${git}&quot; remote &quot;$@&quot; ;;
+</code></pre><p>La subkomando <code>aum</code> fariĝos mallongigo de <code>au</code> kaj <code>cm</code> orde. La subkomandon <code>auxx</code> mi uzas kiam ajn nur etajn ŝanĝojn mi faris sed novan videblan enskribon en la protokolo mi ne deziras havi.</p><h4>Foraj deponejoj</h4><pre><code>      &#40;re&#41; &quot;${git}&quot; remote &quot;$@&quot; ;;
       &#40;rea&#41; &quot;${self}&quot; re add &quot;$@&quot; ;;
       &#40;reao&#41; &quot;${self}&quot; rea origin &quot;$@&quot; ;;
       &#40;reau&#41; &quot;${self}&quot; rea upstream &quot;$@&quot; ;;
@@ -162,7 +162,7 @@ hi</code></pre><p>Per ĝi, ŝelan funkcion kiu nomiĝas <code>hi</code> oni unue
       &#40;res&#41; &quot;${self}&quot; re show &quot;$@&quot; ;;
       &#40;reso&#41; &quot;${self}&quot; res origin ;;
       &#40;resu&#41; &quot;${self}&quot; res upstream ;;
-</code></pre><p><strong>Revizioj, filtrado, kaj kaŝujoj</strong></p><pre><code>      &#40;rl&#41; &quot;${git}&quot; rev-list &quot;$@&quot; ;;
+</code></pre><h4>Revizioj, filtrado, kaj kaŝujoj</h4><pre><code>      &#40;rl&#41; &quot;${git}&quot; rev-list &quot;$@&quot; ;;
       &#40;rla&#41; &quot;${self}&quot; rl --all &quot;$@&quot; ;;
       &#40;rl0&#41; &quot;${self}&quot; rl --max-parents=0 HEAD ;;
 
@@ -179,7 +179,7 @@ hi</code></pre><p>Per ĝi, ŝelan funkcion kiu nomiĝas <code>hi</code> oni unue
       &#40;st&#41; &quot;${git}&quot; stash &quot;$@&quot; ;;
       &#40;stp&#41; &quot;${self}&quot; st pop &quot;$@&quot; ;;
 </code></pre><p>Kiam ajn tekstojn de ĉiuj antaŭaj ŝanĝmesaĝoj mi volas ŝanĝi, ekzemple la vorton <code>hundo</code> mi volas ŝanĝi al <code>kato</code>, la jenan komandon mi rulas:</p><pre><code>git fr! --replace-message &lt;&#40;echo 'hundo==&gt;kato'&#41;</code></pre><p>Kiam ajn dosieron mi volas forigi tute el la deponejo, ekzemple <code>dosiero.dat</code>, la jenan komandon mi rulas:</p><pre><code>git fr! --invert-paths --path dosiero.dat</code></pre><p>Kiam ajn la retpoŝadreson mi volas ŝanĝi, ekzemple, de <code>hundo@mondo.io</code> al <code>kato@mondo.io</code>, la jenan komandon mi rulas:</p><pre><code>    git fr! --email-callback 'return email.replace&#40;b&quot;hundo@mondo.io&quot;, b&quot;kato@mondo.io&quot;&#41;'
-</code></pre><p>La jenan komandon mi tiam uzas sekve, por certigi ke la ŝanĝoj aperas en la fora deponejo:</p><pre><code>git oo!</code></pre><p><strong>Subarboj, kaj submoduloj</strong></p><pre><code>      &#40;subt&#41; &quot;${git}&quot; subtree &quot;$@&quot; ;;
+</code></pre><p>La jenan komandon mi tiam uzas sekve, por certigi ke la ŝanĝoj aperas en la fora deponejo:</p><pre><code>git oo!</code></pre><h4>Subarboj, kaj submoduloj</h4><pre><code>      &#40;subt&#41; &quot;${git}&quot; subtree &quot;$@&quot; ;;
       &#40;subta&#41; &quot;${self}&quot; subt add &quot;$@&quot; ;;
       &#40;subtph&#41; &quot;${self}&quot; subt push &quot;$@&quot; ;;
       &#40;subtpl&#41; &quot;${self}&quot; subt pull &quot;$@&quot; ;;
@@ -192,7 +192,7 @@ hi</code></pre><p>Per ĝi, ŝelan funkcion kiu nomiĝas <code>hi</code> oni unue
       &#40;submi&#41; &quot;${self}&quot; subm init &quot;$@&quot; ;;
 
       &#40;ref&#41; &quot;${git}&quot; reflog &quot;$@&quot; ;;
-</code></pre><p><strong>Priskribado</strong></p><pre><code>      &#40;de&#41; &quot;${git}&quot; describe &quot;$@&quot; ;;
+</code></pre><h4>Priskribado</h4><pre><code>      &#40;de&#41; &quot;${git}&quot; describe &quot;$@&quot; ;;
       &#40;det&#41; &quot;${self}&quot; de --tags &quot;$@&quot; ;;
 </code></pre><h2><a name="cxio">Ĉion rikolti</a></h2><p>Jen da difinoj en unu loko:</p><pre><code>function git {
   local git= self= op=
