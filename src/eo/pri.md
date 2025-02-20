@@ -12,10 +12,11 @@ desegnado.
 
 Interesas al li konscio, la menso, realo, dualismo, kaj komputademismo. Li estas
 nune esploranta kiel oni povas uzi modernajn maŝinojn por precizigi la suprajn
-limojn de tio, kion oni povas komputi per artefarita inteligenteco.
+limojn de tio, kion oni povas komputi per artefarita inteligenteco. Li estas la
+ĉefa afergvida oficisto de Krei, Inc.
 
 Krome, fiziktrejnado kaj sportoj tre interesas al li, precipe per golfo (NGAP)
-kaj praktika pafado (PPSA). Li estes fiera ano de San Juan Elyu Shooter’s Club,
+kaj praktika pafado (PPSA). Li estas fiera ano de San Juan Elyu Shooter’s Club,
 Inc. kaj The Fraternal Order of Eagles - Philippine Eagles.
 
 Li nune loĝas kun sia edzino kaj filo en Filipinoj.
