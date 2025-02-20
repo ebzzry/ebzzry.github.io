@@ -497,3 +497,6 @@ ordigitaj laŭ kronologiordo.
 
 
 - Ne estas la plej forta kiu venkas; estas tiu kiu rifuzas rezigni.<br>
+
+
+- Estas bonaj tialoj kial hundoj—ne ŝafoj—paŝti.<br>
