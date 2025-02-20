@@ -505,3 +505,9 @@ in chronological order.
 
 
 - It’s not the strongest who wins; it’s the one who refuses to give up.<br>
+
+
+- That's why men can't rule over men.<br>
+
+
+- There are good reasons why dogs—not sheep—shephered.<br>
