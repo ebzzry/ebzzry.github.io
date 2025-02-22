@@ -2,7 +2,7 @@ Kiel Mi Uzas Giton ĉe la Komandlinio
 ====================================
 
 <div class="center">[English](/en/git/) • Esperanto</div>
-<div class="center">mer sep 26 18:16:47 2018 +0800</div>
+<div class="center">mar jul 30 19:49:42 2019 +0800</div>
 
 >Male, tiuj kun senĉeseco povas malatenti kiujn aliaj pensas. Ion ajn ili povas
 >fari en ilia propra mondo senzorgeme al la opinioj de tiuj ĉirkaŭ ili.<br>
@@ -22,6 +22,7 @@ Kiel Mi Uzas Giton ĉe la Komandlinio
   - [Baza funkcio](#bazafunkcio)
   - [Gravaj komandoj](#komandoj1)
   - [Aliaj komandoj](#komandoj2)
+  - [Filtriloj](#filtriloj)
 - [Ĉion rikolti](#cxio)
 - [Finrimarkoj](#finrimarkoj)
 
@@ -236,7 +237,7 @@ Jen la plej gravaj komandoj kiujn ni unue devas havi.
       (auxx!) "${self}" auxx; "${self}" oo! ;;
 
       (cl) "${git}" clean "$@" ;;
-      (cl!) "${self}" cl -f ;;
+      (cl!) "${self}" cl -fdx ;;
 
       (ci) "${git}" commit "$@" ;;
       (cia) "${self}" ci --amend "$@" ;;
@@ -482,6 +483,55 @@ La jenan komandon mi tiam uzas sekve, por certigi ke la ŝanĝoj aperas en la fo
 ```
 
 
+### <a name="filtriloj">Filtriloj</a>
+
+Mi tre ŝatas filtrilojn. Ili ebligan min fari larĝajn ŝanĝojn al deponejo,
+precipe kiam bi bezonas ŝanĝi la nomon kaj retadreson. Nun, male al tio kion la
+plejmulte da homoj diras, `git filter-branch` estas mirinda ilo. Multe da homo
+parolis kontraŭ ĝi, kaj rekomendis `git filter-repo` anstataŭe. `filter-repo`
+fiaskis plurfoje. Ĝi malfunkcius al bazaj operacioj, kiam `filter-branch` estus
+feliĉe fari ion ajn. Mi provis ŝati `filter-repo` sed ĝi estas tuta fekaĵo.
+
+Jen miaj bazaj filtriloj
+
+```
+      (fb) FILTER_BRANCH_SQUELCH_WARNING=1 "${git}" filter-branch "${@}" ;;
+      (fb!) "${self}" fb -f "${@}" ;;
+      (fbm) "${self}" fb! --msg-filter "${@}" ;;
+      (fbt) "${self}" fb! --tree-filter "${@}" ;;
+      (fbc) "${self}" fb! --commit-filter "${@}" ;;
+      (fbi) "${self}" fb! --index-filter "${@}" ;;
+      (fbe) "${self}" fb! --env-filter "${@}" ;;
+```
+
+Tiuj kun bona intereso estas `fbm`, `fbt`, kaj `fbc`. Mi uzas `fbm` por ŝanĝi la
+meŝaĝon de enmetado; `fbt` por ŝanĝi tekston ene dosieroj, kaj `fbc` por ŝanĝi
+la nomon de la aŭtoro kaj lia retadreson. Por oportuneco, mi havas la jenan
+fasadon sur ili.
+
+
+```
+      (cm) "${self}" fbm "${@}" HEAD ;;
+      (ct) "${self}" fbt "${@}" --prune-empty --tag-name-filter cat -- --all ;;
+      (cc) "${self}" fbc "if [[ \"\${GIT_AUTHOR_NAME}\" == \"$1\" && \"\${GIT_AUTHOR_EMAIL}\" == \"$2\" ]]; then
+export GIT_AUTHOR_NAME=\"${3}\"; export GIT_AUTHOR_EMAIL=\"${4}\"; export GIT_COMMITTER_NAME=\"${3}\"; export GIT_COMMITTER_EMAIL=\"${4}\";
+fi; git commit-tree \"\$@\"" ;;
+```
+
+Por ŝanĝi la vorton `foo` al `bar` en ĉiom da enmetada mesaĝo
+
+    git cm "sed 's/foo/bar/g'"
+    
+Por ŝanĝi `John` al `Peter` en `README.md`
+
+    git ct "sed 's/John/Peter/g' README.md"
+
+Por ŝanĝi la aŭtoron kaj la nomon de la enmetanto de `John Doe <john@foo.bar>`
+al `Peter Smith <peter@bar.qux>`
+
+    git cc 'John Doe' john@foo.bar 'Peter Smith' peter@baz.qux
+
+
 <a name="cxio">Ĉion rikolti</a>
 -------------------------------
 
@@ -540,7 +590,7 @@ function git {
       (auxx!) "${self}" auxx; "${self}" oo! ;;
 
       (cl) "${git}" clean "$@" ;;
-      (cl!) "${self}" cl -f ;;
+      (cl!) "${self}" cl -fdx ;;
 
       (ci) "${git}" commit "$@" ;;
       (cia) "${self}" ci --amend "$@" ;;
@@ -566,9 +616,6 @@ function git {
 
       (f) "${git}" fetch "$@" ;;
       (fa) "${self}" f --all "$@" ;;
-
-      (fr) "${git}" filter-repo "$@" ;;
-      (fr!) "${git}" filter-repo --force "$@" ;;
 
       (rm) "${git}" rm "$@" ;;
       (rmr) "${self}" rm -r "$@" ;;
@@ -665,6 +712,20 @@ function git {
 
       (de) "${git}" describe "$@" ;;
       (det) "${self}" de --tags "$@" ;;
+
+      (fb) FILTER_BRANCH_SQUELCH_WARNING=1 "${git}" filter-branch "${@}" ;;
+      (fb!) "${self}" fb -f "${@}" ;;
+      (fbt) "${self}" fb! --tree-filter "${@}" ;;
+      (fbm) "${self}" fb! --msg-filter "${@}" ;;
+      (fbi) "${self}" fb! --index-filter "${@}" ;;
+      (fbe) "${self}" fb! --env-filter "${@}" ;;
+      (fbc) "${self}" fb! --commit-filter "${@}" ;;
+
+      (cm) "${self}" fbm "${@}" HEAD ;;
+      (ct) "${self}" fbt "${@}" --prune-empty --tag-name-filter cat -- --all ;;
+      (cc) "${self}" fbc "if [[ \"\${GIT_AUTHOR_NAME}\" == \"$1\" && \"\${GIT_AUTHOR_EMAIL}\" == \"$2\" ]]; then
+export GIT_AUTHOR_NAME=\"${3}\"; export GIT_AUTHOR_EMAIL=\"${4}\"; export GIT_COMMITTER_NAME=\"${3}\"; export GIT_COMMITTER_EMAIL=\"${4}\";
+fi; git commit-tree \"\$@\"" ;;
 
       (*) "${git}" "${op}" "$@" ;;
     esac
