@@ -22,6 +22,7 @@ How I Use Git on the Command Line
   + [Base function](#basefunction)
   + [Important commands](#commands1)
   + [Other commands](#commands2)
+  + [Filters](#filters)
 - [Putting them all together](#all)
 - [Closing remarks](#closing)
 
@@ -234,7 +235,7 @@ Here are the most important commands that we need to have.
       (auxx!) "${self}" auxx; "${self}" oo! ;;
 
       (cl) "${git}" clean "$@" ;;
-      (cl!) "${self}" cl -f ;;
+      (cl!) "${self}" cl -fdx ;;
 
       (ci) "${git}" commit "$@" ;;
       (cia) "${self}" ci --amend "$@" ;;
@@ -418,9 +419,6 @@ visible entry in the commit log.
       (cpc) "${self}" cp --continue "$@" ;;
       (cpa) "${self}" cp --abort "$@" ;;
 
-      (fr) "${git}" filter-repo "$@" ;;
-      (fr!) "${git}" filter-repo --force "$@" ;;
-
       (rp) "${git}" rev-parse "$@" ;;
       (rph) "${self}" rp HEAD ;;
 
@@ -477,6 +475,54 @@ I then run the following command to make sure that the changes appear in the rem
       (de) "${git}" describe "$@" ;;
       (det) "${self}" de --tags "$@" ;;
 ```
+
+
+### <a name="filters">Filters</a>
+
+I like filters, a lot. They allow to make volume changes to a repository,
+especially when I need to change my name or email address. Now, contrary to what
+most people say, `git filter-branch` is an amazing tool. A lot of people spoke
+against it, and recommended `git filter-repo`, instead. `filter-repo` has failed
+me countless times. It would stall on basic operations, when `filter-branch`
+would just be happy to plow through. I tried liking `filter-repo` but it was a
+piece of shit.
+
+Here are my base filters
+
+```
+      (fb) FILTER_BRANCH_SQUELCH_WARNING=1 "${git}" filter-branch "${@}" ;;
+      (fb!) "${self}" fb -f "${@}" ;;
+      (fbm) "${self}" fb! --msg-filter "${@}" ;;
+      (fbt) "${self}" fb! --tree-filter "${@}" ;;
+      (fbc) "${self}" fb! --commit-filter "${@}" ;;
+      (fbi) "${self}" fb! --index-filter "${@}" ;;
+      (fbe) "${self}" fb! --env-filter "${@}" ;;
+```
+
+Of particular interest are `fbm`, `fbt`, and `fbc`. I use `fbm` to change the
+commit message; `fbt` to change text, inside files; and `fbc` to change
+the author name and email address. For convenience I have the following commands
+that interface over them.
+
+```
+      (cm) "${self}" fbm "${@}" HEAD ;;
+      (ct) "${self}" fbt "${@}" --prune-empty --tag-name-filter cat -- --all ;;
+      (cc) "${self}" fbc "if [[ \"\${GIT_AUTHOR_NAME}\" == \"$1\" && \"\${GIT_AUTHOR_EMAIL}\" == \"$2\" ]]; then
+export GIT_AUTHOR_NAME=\"${3}\"; export GIT_AUTHOR_EMAIL=\"${4}\"; export GIT_COMMITTER_NAME=\"${3}\"; export GIT_COMMITTER_EMAIL=\"${4}\";
+fi; git commit-tree \"\$@\"" ;;
+```
+
+To change the word `foo` to `bar` in the commit message
+
+    git cm "sed 's/foo/bar/g'"
+    
+To change `John` to `Peter` in `README.md`
+
+    git ct "sed 's/John/Peter/g' README.md"
+    
+To change the author and committer name from `John Doe <john@foo.bar>` to `Peter Smith <peter@baz.qux>`
+
+    git cc 'John Doe' john@foo.bar 'Peter Smith' peter@baz.qux
 
 
 <a name="all">Putting them all together</a>
@@ -537,7 +583,7 @@ function git {
       (auxx!) "${self}" auxx; "${self}" oo! ;;
 
       (cl) "${git}" clean "$@" ;;
-      (cl!) "${self}" cl -f ;;
+      (cl!) "${self}" cl -fdx ;;
 
       (ci) "${git}" commit "$@" ;;
       (cia) "${self}" ci --amend "$@" ;;
@@ -662,6 +708,20 @@ function git {
 
       (de) "${git}" describe "$@" ;;
       (det) "${self}" de --tags "$@" ;;
+
+      (fb) FILTER_BRANCH_SQUELCH_WARNING=1 "${git}" filter-branch "${@}" ;;
+      (fb!) "${self}" fb -f "${@}" ;;
+      (fbt) "${self}" fb! --tree-filter "${@}" ;;
+      (fbm) "${self}" fb! --msg-filter "${@}" ;;
+      (fbi) "${self}" fb! --index-filter "${@}" ;;
+      (fbe) "${self}" fb! --env-filter "${@}" ;;
+      (fbc) "${self}" fb! --commit-filter "${@}" ;;
+
+      (cm) "${self}" fbm "${@}" HEAD ;;
+      (ct) "${self}" fbt "${@}" --prune-empty --tag-name-filter cat -- --all ;;
+      (cc) "${self}" fbc "if [[ \"\${GIT_AUTHOR_NAME}\" == \"$1\" && \"\${GIT_AUTHOR_EMAIL}\" == \"$2\" ]]; then
+export GIT_AUTHOR_NAME=\"${3}\"; export GIT_AUTHOR_EMAIL=\"${4}\"; export GIT_COMMITTER_NAME=\"${3}\"; export GIT_COMMITTER_EMAIL=\"${4}\";
+fi; git commit-tree \"\$@\"" ;;
 
       (*) "${git}" "${op}" "$@" ;;
     esac
