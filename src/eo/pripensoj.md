@@ -500,3 +500,6 @@ ordigitaj laŭ kronologiordo.
 
 
 - Estas bonaj tialoj kial hundoj—ne ŝafoj—paŝti.<br>
+
+
+- La kapablo de papago por paroli ne signifas, ke ĝi konscias pri tio kion ĝi priparolas.<br>
