@@ -120,6 +120,9 @@ ordigitaj laŭ kronologiordo.
 - Vera mastro scias ke li ne fariĝos.<br>
 
 
+- Subite, aperis nenio.<br>
+
+
 - Unu de la plej kontentemaj tamen la plej malfacilaj aferoj por lerni, estas
   kiel mallerni.<br>
 
