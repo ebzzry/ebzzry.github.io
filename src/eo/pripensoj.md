@@ -506,3 +506,6 @@ ordigitaj laŭ kronologiordo.
 
 
 - La kapablo de papago por paroli ne signifas, ke ĝi konscias pri tio kion ĝi priparolas.<br>
+
+
+- Troviĝas en la manko de signifoplena enhavo estas amuzaĵo.<br>
