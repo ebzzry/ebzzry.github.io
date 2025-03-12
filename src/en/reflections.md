@@ -517,3 +517,6 @@ in chronological order.
 
 
 - The ability of a parrot to talk does not mean it is aware of what it is talking about.<br>
+
+
+- In the absence of meaningful content is entertainment.<br>
