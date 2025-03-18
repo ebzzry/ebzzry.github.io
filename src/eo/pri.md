@@ -10,7 +10,7 @@ Rommel Martínez estas artefarita inteligenteca esploristo kun preskaŭ tri
 jardekoj da profesia sperto en programado; sistemadministrado; kaj programlingva
 teorio kaj desegnado.
 
-Interesas al li konscio, la menso, realo, dualismo, kaj komputademismo. Li estas
+Interesas al li la konscio, la menso, la realo, la dualismo, kaj komputademismo. Li estas
 nune esploranta kiel oni povas uzi modernajn maŝinojn por precizigi la suprajn
 limojn de tio, kion oni povas komputi per artefarita inteligenteco. Li estas la
 ĉefa afergvida oficisto de [Krei Systems, Inc.](https://krei.systems)
@@ -26,5 +26,5 @@ Se oni iam trovas eraron en ĉi tiu retejo, bonvole, estu libere por
 </div>
 
 <div class="center">
-[Retpoŝto](mailto:ebzzry@icloud.com) • [GitHub (ebzzry)](https://github.com/ebzzry/) • [GitHub (krei-systems)](https://github.com/krei-systems/) • [LinkedIn](https://www.linkedin.com/in/ebzzry/) • [Jutubo](https://youtube.com/@ebzzry) • [X](https://x.com/ebzzry) • [Fejsbuko](https://fb.com/ebzzry)<br>
+[Retpoŝto](mailto:ebzzry@icloud.com) • [GitHub (ebzzry)](https://github.com/ebzzry/) • [GitHub (krei-systems)](https://github.com/krei-systems/) • [LinkedIn](https://www.linkedin.com/in/ebzzry/) • [Jutubo](https://youtube.com/@ebzzry) • [X](https://x.com/ebzzry) • [Fejsbuko](https://fb.com/ebzzry) • [Instagramo](https://instagram.com/ebzzry)<br>
 </div>

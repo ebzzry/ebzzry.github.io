@@ -26,5 +26,5 @@ If you ever find an error in this website, please, feel free to
 </div>
 <div class="center">
 
-[Email](mailto:ebzzry@icloud.com) • [GitHub (ebzzry)](https://github.com/ebzzry/) • [GitHub (krei-systems)](https://github.com/krei-systems/) • [LinkedIn](https://www.linkedin.com/in/ebzzry/) • [YouTube](https://youtube.com/@ebzzry) • [X](https://x.com/ebzzry) • [Facebook](https://fb.com/ebzzry)<br>
+[Email](mailto:ebzzry@icloud.com) • [GitHub (ebzzry)](https://github.com/ebzzry/) • [GitHub (krei-systems)](https://github.com/krei-systems/) • [LinkedIn](https://www.linkedin.com/in/ebzzry/) • [YouTube](https://youtube.com/@ebzzry) • [X](https://x.com/ebzzry) • [Facebook](https://fb.com/ebzzry) • [Instagram](https://instagram.com/ebzzry)<br>
 </div>
