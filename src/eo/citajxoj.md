@@ -1084,3 +1084,6 @@ tra la jaroj.
 
 
 - Antaŭ ol oni kuracu iun ajn, demandu lin se li deziras rezigni tiujn kiuj igis lin malsane.<br>—Hipokrato
+
+
+- Ne ekzistas homo kiu havas la rajton por esti amatoro en la aferoj de fiziktrejnado. Estas fie por homo krekiĝu senvidi la belon kaj forton pri tio kion sia korpo estas kapabla.<br>—Sokrato, 469–399 a.K.
