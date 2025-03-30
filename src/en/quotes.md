@@ -1101,3 +1101,6 @@ the years.
 
 
 - No man has the right to be an amateur in the matter of physical training. It is a shame for a man to grow old without seeing the beauty and strength of which his body is capable.<br>—Socrates, 469–399 BC
+
+
+- As soon as it works, no one calls it AI anymore.<br>—John McCarthy

@@ -520,3 +520,6 @@ in chronological order.
 
 
 - In the absence of meaningful content is entertainment.<br>
+
+
+- People lie all the time. What they show is what they want you to see. What they speak is what they want you want to hear.<br>
