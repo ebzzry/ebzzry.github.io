@@ -509,3 +509,6 @@ ordigitaj laŭ kronologiordo.
 
 
 - Troviĝas en la manko de signifoplena enhavo estas amuzaĵo.<br>
+
+
+- Homoj ĉiam mensogas. Tio kion ili montras estas tio kion ili deziras, ke vi vidu. Tio kion ili diras estas tio kion ili deziras, ke vi aŭdu.<br>
