@@ -510,10 +510,7 @@ in chronological order.
 - It’s not the strongest who wins; it’s the one who refuses to give up.<br>
 
 
-- That's why men can't rule over men.<br>
-
-
-- There are good reasons why dogs—not sheep—are shepherds.<br>
+- A sheep can't be a shepherd to its fellow sheep because it is as weak as them.<br>
 
 
 - The ability of a parrot to talk does not mean it is aware of what it is talking about.<br>
