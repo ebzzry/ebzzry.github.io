@@ -502,7 +502,7 @@ ordigitaj laŭ kronologiordo.
 - Ne estas la plej forta kiu venkas; estas tiu kiu rifuzas rezigni.<br>
 
 
-- Estas bonaj tialoj kial hundoj—ne ŝafoj—paŝti.<br>
+- Ŝafo ne povas esti paŝtisto al sia kunŝafoj ĉar ĝi estas tiel molforta kiel ili.<br>
 
 
 - La kapablo de papago por paroli ne signifas, ke ĝi konscias pri tio kion ĝi priparolas.<br>
