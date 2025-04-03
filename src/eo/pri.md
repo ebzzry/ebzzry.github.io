@@ -23,5 +23,5 @@ Se oni iam trovas eraron en ĉi tiu retejo, bonvole, estu libere por
 </div>
 
 <div class="center">
-[Retpoŝto](mailto:ebzzry@icloud.com) • [GitHub (ebzzry)](https://github.com/ebzzry/) • [GitHub (krei-systems)](https://github.com/krei-systems/) • [LinkedIn](https://www.linkedin.com/in/ebzzry/) • [Jutubo](https://youtube.com/@ebzzry) • [Tvitero/X](https://x.com/ebzzry) • [Fejsbuko](https://fb.com/ebzzry) • [Instagramo](https://instagram.com/ebzzry) • [DeviantArt](https://deviantart.com/ebzzry) • [Reddit](https://reddit.com/u/ebzzry)<br><br>
+[Retpoŝto](mailto:ebzzry@icloud.com) • [GitHub](https://github.com/ebzzry/) • [LinkedIn](https://www.linkedin.com/in/ebzzry/) • [Jutubo](https://youtube.com/@ebzzry) • [Tvitero/X](https://x.com/ebzzry) • [Fejsbuko](https://fb.com/ebzzry) • [Instagramo](https://instagram.com/ebzzry) • [DeviantArt](https://deviantart.com/ebzzry) • [Reddit](https://reddit.com/u/ebzzry)<br><br>
 </div>
