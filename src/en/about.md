@@ -6,9 +6,9 @@ About
 <div>
 <img src="/images/site/identicon.png" style="float: right; width: 50%; margin: 0px 0px 0px 10px">
 
-Rommel Martínez is an artificial intelligence researcher with almost three
-decades of professional experience in software engineering; systems
-administration; and programming language theory.
+Rommel Martínez is a researcher with almost three decades of professional
+experience in software engineering; systems administration; and programming
+language theory.
 
 His interests lie with consciousness, the mind, reality, dualism, and
 computationalism. He is currently exploring how we can use modern machines to
@@ -23,5 +23,21 @@ If you ever find an error in this website, please, feel free to
 </div>
 
 <div class="center">
-[Email](mailto:ebzzry@icloud.com) • [GitHub](https://github.com/ebzzry/) • [LinkedIn](https://www.linkedin.com/in/ebzzry/) • [YouTube](https://youtube.com/@ebzzry) • [Twitter/X](https://x.com/ebzzry) • [Facebook](https://fb.com/ebzzry) • [Instagram](https://instagram.com/ebzzry) • [DeviantArt](https://deviantart.com/ebzzry) • [Reddit](https://reddit.com/u/ebzzry)<br>
+[Email](mailto:ebzzry@icloud.com)
+ • 
+[GitHub](https://github.com/ebzzry/)
+ • 
+[LinkedIn](https://www.linkedin.com/in/ebzzry/)
+ • 
+[YouTube](https://youtube.com/@ebzzry)
+ • 
+[Twitter/X](https://x.com/ebzzry)
+ • 
+[Facebook](https://fb.com/ebzzry)
+ • 
+[Instagram](https://instagram.com/ebzzry)
+ • 
+[DeviantArt](https://deviantart.com/ebzzry)
+ • 
+[Reddit](https://reddit.com/u/ebzzry)<br>
 </div>
