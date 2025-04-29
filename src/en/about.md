@@ -4,7 +4,7 @@ About
 <div class="center">English • [Esperanto](/eo/pri/)</div>
 
 <div>
-<img src="/images/site/identicon.png" style="float: right; width: 50%; margin: 0px 0px 0px 10px">
+<img src="/images/site/taijitu-golf.png" style="float: right; width: 50%; margin: 0px 0px 0px 10px">
 
 Rommel Martínez is a researcher with almost three decades of professional
 experience in software engineering; systems administration; and programming

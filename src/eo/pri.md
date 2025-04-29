@@ -4,7 +4,7 @@ Pri
 <div class="center">[English](/en/about/) • Esperanto</div>
 
 <div>
-<img src="/images/site/identicon.png" style="float: right; width: 50%; margin: 0px 0px 0px 10px">
+<img src="/images/site/taijitu-golf.png" style="float: right; width: 50%; margin: 0px 0px 0px 10px">
 
 Rommel Martínez estas esploristo kun preskaŭ tri jardekoj da profesia sperto en
 programado; sistemadministrado; kaj programlingva teorio kaj desegnado.
