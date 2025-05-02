@@ -7,7 +7,7 @@ Kiel Mi Uzas la Kinesis Advantage-Klavaron
 >La doloro neeviteblas. La suferado malnepras.<br>
 >—M. Kathleen CASEY
 
-<img src="/images/site/avantagxo.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="Kinezia Avantaĝo" title="Kinezia Avantaĝo"/>
+<img src="/images/site/avantagxo-1008x250.jpg" style="display: block; width: 100%; margin-left: auto;
 
 
 <a name="et">Enhavotabelo</a>

@@ -7,7 +7,7 @@ How I Use the Kinesis Advantage
 >Pain is inevitable. Suffering is optional.<br>
 >—M. Kathleen Casey
 
-<img src="/images/site/avantagxo.jpg" style="display: block; width: 100%; margin-left: auto;
+<img src="/images/site/avantagxo-1008x250.jpg" style="display: block; width: 100%; margin-left: auto;
 margin-right: auto;" alt="Kinesis Advantage" title="Kinesis Advantage"/>
 
 

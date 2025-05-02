@@ -27,7 +27,7 @@ all:
   --og-title $(OG_TITLE) \
   --og-type $(OG_TYPE) \
   --og-url "https://ebzzry.com/en/$$(basename $< .md)/" \
-  --og-image $(OG_IMAGE) \
+  --og-image "$$(head -n 15 $< | grep 'img src' | sed 's|.*\(\/images.*\)"\ style.*|https://ebzzry.com\1|')" \
   --lang "en" \
   -RFamuo "../../en/$$(basename $< .md)/index.html" $< footer.md
 
