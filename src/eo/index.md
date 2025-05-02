@@ -3,7 +3,7 @@
 
 <div class="center">[English](/en/) • Esperanto</div>
 
-<img src="/images/site/taijitu-1008x250.png" style="" class="banner" title="Ĉe la vizaĝo de Kosmo, ni ĉiuj estas infanoj." />
+<img src="/images/site/books-1008x250.jpg" style="" class="banner" title="Ĉe la vizaĝo de Kosmo, ni ĉiuj estas infanoj." />
 
 <div class="text-right">Retejo pri informadiko, hominklinaĵoj, kaj hazardaĵoj. La enskriboj estas ordigitaj laŭ inverskronologiordo.</div>
 
