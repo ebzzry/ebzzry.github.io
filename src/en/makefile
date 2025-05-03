@@ -5,7 +5,7 @@ EMEM=emem
 
 OG_TITLE="$$(head -1 $<)"
 OG_TYPE="article"
-OG_IMAGE="https://ebzzry.com/images/site/og-image.png"
+OG_IMAGE="https://ebzzry.com/images/site/books-1008x250.jpg"
 
 all:
 	parallel "$$(which make)" ::: $(FILES)
