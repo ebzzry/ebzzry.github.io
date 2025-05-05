@@ -1,7 +1,7 @@
 Kiel Mi Uzas Giton ĉe la Komandlinio
 ====================================
 
-<div class="center">[English](/en/git/) • Esperanto</div>
+<div class="center">[English](/en/git/) ∅ Esperanto</div>
 <div class="center">mar jul 30 19:49:42 2019 +0800</div>
 
 >Male, tiuj kun senĉeseco povas malatenti kiujn aliaj pensas. Ion ajn ili povas

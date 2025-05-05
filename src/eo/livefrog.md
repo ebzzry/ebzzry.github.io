@@ -1,7 +1,7 @@
 Migri de LiveJournal al Frog
 ============================
 
-<div class="center">[English](/en/livefrog/) • Esperanto</div>
+<div class="center">[English](/en/livefrog/) ∅ Esperanto</div>
 <div class="center">mer feb 7 20:15:42 2018 +0800</div>
 
 >Mi ne scias kien mi iras, sed mi estas sur mia vojo.<br>

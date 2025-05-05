@@ -1,7 +1,7 @@
 Pripensoj
 =========
 
-<div class="center">[English](/en/reflections/) • Esperanto</div>
+<div class="center">[English](/en/reflections/) ∅ Esperanto</div>
 
 Ĉi tiu paĝo enhavas kelke da miaj propraj pripensoj. La enskriboj estas
 ordigitaj laŭ kronologiordo.

@@ -1,7 +1,7 @@
 Citaĵoj
 =======
 
-<div class="center">[English](/en/quotes/) • Esperanto</div>
+<div class="center">[English](/en/quotes/) ∅ Esperanto</div>
 
 <img src="/images/site/wallhaven-77816-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 

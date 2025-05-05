@@ -1,7 +1,7 @@
 Verbotempoj en La Angla
 =======================
 
-<div class="center">[English](/en/verb-tenses/) • Esperanto</div>
+<div class="center">[English](/en/verb-tenses/) ∅ Esperanto</div>
 <div class="center">dim jul 15 22:47:25 2018 +0800</div>
 
 >La kontrasto inter la ordinara kaj la eksterordinara estas tiu eta pliaĵo.<br>
