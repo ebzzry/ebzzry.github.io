@@ -1,7 +1,7 @@
 Reflections
 ===========
 
-<div class="center">English • [Esperanto](/eo/pripensoj/)</div>
+<div class="center">English ∅ [Esperanto](/eo/pripensoj/)</div>
 
 This page contains contains some of my personal reflections. Entries are sorted
 in chronological order.

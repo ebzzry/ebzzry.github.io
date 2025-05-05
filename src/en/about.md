@@ -1,7 +1,7 @@
 About
 =====
 
-<div class="center">English • [Esperanto](/eo/pri/)</div>
+<div class="center">English ∅ [Esperanto](/eo/pri/)</div>
 
 <div>
 <img src="/images/site/taijitu-empty-sets.png" style="float: right; width: 50%; margin: 0px 0px 0px 10px">
@@ -23,21 +23,5 @@ If you ever find an error in this website, please, feel free to
 </div>
 
 <div class="center">
-[Email](mailto:ebzzry@icloud.com)
- • 
-[GitHub](https://github.com/ebzzry/)
- • 
-[LinkedIn](https://www.linkedin.com/in/ebzzry/)
- • 
-[YouTube](https://youtube.com/@ebzzry)
- • 
-[Twitter/X](https://x.com/ebzzry)
- • 
-[Facebook](https://fb.com/ebzzry)
- • 
-[Instagram](https://instagram.com/ebzzry)
- • 
-[DeviantArt](https://deviantart.com/ebzzry)
- • 
-[Reddit](https://reddit.com/u/ebzzry)<br>
+[Email](mailto:ebzzry@icloud.com) ∅ [GitHub](https://github.com/ebzzry/) ∅ [LinkedIn](https://www.linkedin.com/in/ebzzry/) ∅ [YouTube](https://youtube.com/@ebzzry) ∅ [Twitter/X](https://x.com/ebzzry) ∅ [Facebook](https://fb.com/ebzzry) ∅ [Instagram](https://instagram.com/ebzzry) ∅ [DeviantArt](https://deviantart.com/ebzzry) ∅ [Reddit](https://reddit.com/u/ebzzry)<br>
 </div>

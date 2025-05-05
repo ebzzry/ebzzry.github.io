@@ -1,7 +1,7 @@
 A Brief Git and GitHub Tour
 ===========================
 
-<div class="center">English • [Esperanto](/eo/gito-github/)</div>
+<div class="center">English ∅ [Esperanto](/eo/gito-github/)</div>
 <div class="center">Fri Feb 26 17:59:51 2016 +0800</div>
 
 >Know how to solve every problem that has been solved.<br>

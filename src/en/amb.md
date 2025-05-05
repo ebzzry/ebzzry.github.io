@@ -1,7 +1,7 @@
 A Gentle Introduction to Non-determinism in Scheme
 ==================================================
 
-<div class="center">English • [Esperanto](/eo/amb/)</div>
+<div class="center">English ∅ [Esperanto](/eo/amb/)</div>
 <div class="center">Fri Mar 8 13:39:30 2019 +0800</div>
 
 >Some of the most crucial steps in mental growth are based not simply on acquiring new skills, but

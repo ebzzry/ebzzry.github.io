@@ -1,7 +1,7 @@
 Divido en Haskelo
 =================
 
-<div class="center">[English](/en/haskell-division/) • Esperanto</div>
+<div class="center">[English](/en/haskell-division/) ∅ Esperanto</div>
 <div class="center">dim aŭg 5 12:41:29 2018 +0800</div>
 
 Lernante pri divido en Haskelo, mi konsciis, ke la koncepto ne estas tiom bagatele kiel ĝin mi
