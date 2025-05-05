@@ -1,7 +1,7 @@
 Skriptado en Komunlispo
 =======================
 
-<div class="center">[English](/en/script-lisp/) • Esperanto</div>
+<div class="center">[English](/en/script-lisp/) ∅ Esperanto</div>
 <div class="center">mar sep 25 11:06:33 2018 +0800</div>
 
 >La lumo kiu fajras duoble brila, fajras duone longa.<br>

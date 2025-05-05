@@ -1,7 +1,7 @@
 In Retrospect
 =============
 
-<div class="center">English • [Esperanto](/eo/retrospektive/)</div>
+<div class="center">English ∅ [Esperanto](/eo/retrospektive/)</div>
 <div class="center">Thu Jul 11 00:55:39 2013 +0800</div>
 
 >Difficulty is what wakes up the genius.<br>

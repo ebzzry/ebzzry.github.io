@@ -1,7 +1,7 @@
 Managing Directories with Emacs
 ===============================
 
-<div class="center">English • [Esperanto](/eo/emakso-dired/)</div>
+<div class="center">English ∅ [Esperanto](/eo/emakso-dired/)</div>
 <div class="center">Mon Feb 12 17:05:07 2018 +0800</div>
 
 >Supposing is good, but finding out is better.<br>

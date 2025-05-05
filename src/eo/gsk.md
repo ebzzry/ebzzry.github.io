@@ -1,7 +1,7 @@
 Agordi GPG kaj SSH en KDE
 =========================
 
-<div class="center">[English](/en/gsk/) • Esperanto</div>
+<div class="center">[English](/en/gsk/) ∅ Esperanto</div>
 <div class="center">ĵaŭ feb 3 03:32:56 2022 +0800</div> 
 
 >Ne tute estas grave por prave atingi tion en la unua fojo. Estas vitale grava atingi tion en la

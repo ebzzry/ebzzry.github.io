@@ -1,7 +1,7 @@
 Milda Enkonduko al Nix-Flokoj
 =============================
 
-<div class="center">[English](/en/flakes) • Esperanto</div>
+<div class="center">[English](/en/flakes) ∅ Esperanto</div>
 <div class="center">ĵaŭ jan 30 07:13:01 2025 +0800</div>
 
 >Tamen ĉiu decido por io estas decido kontraŭ io alia.<br>

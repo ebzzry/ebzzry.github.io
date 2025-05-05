@@ -1,7 +1,7 @@
 Virtualigado en Linukso per KVM
 ===============================
 
-<div class="center">[English](/en/kvm/) • Esperanto</div>
+<div class="center">[English](/en/kvm/) ∅ Esperanto</div>
 <div class="center">dim sep 9 12:14:56 2018 +0800</div>
 
 >Se oni faras tion, kion oni ĉiam faras; oni akiros tion , kion oni ĉiam akiras.<br>

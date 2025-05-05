@@ -1,7 +1,7 @@
 (:ebzzry)
 =========
 
-<div class="center">English • [Esperanto](/eo/)</div>
+<div class="center">English ∅ [Esperanto](/eo/)</div>
 
 <img src="/images/site/books-1008x250.jpg" style="" class="banner" title="On the face of Cosmos, we all are children." />
 

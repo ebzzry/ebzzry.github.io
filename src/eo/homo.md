@@ -1,7 +1,7 @@
 Kiel Komuniki Samkiel Homo
 ==========================
 
-<div class="center">[English](/en/human/) • Esperanto</div>
+<div class="center">[English](/en/human/) ∅ Esperanto</div>
 <div class="center">ven sep 7 12:54:41 2018 +0800</div>
 
 >La kapablo por paroli ne igas onin saĝa.<br>

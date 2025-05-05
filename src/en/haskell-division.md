@@ -1,7 +1,7 @@
 Division in Haskell
 ===================
 
-<div class="center">English • [Esperanto](/eo/haskeldivido/)</div>
+<div class="center">English ∅ [Esperanto](/eo/haskeldivido/)</div>
 <div class="center">Wed Mar 8 12:51:14 2017 +0800</div>
 
 While learning about division in Haskell, I realized that the concept is not as trivial as I

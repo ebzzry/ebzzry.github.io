@@ -1,7 +1,7 @@
 Konverti de Markdaŭno al HTML per emem
 ======================================
 
-<div class="center">[English](/en/emem/) • Esperanto</div>
+<div class="center">[English](/en/emem/) ∅ Esperanto</div>
 <div class="center">ven mar 16 16:17:14 2022 +0800</div>
 
 >Oni ne trovos la respondojn kiujn oni serĉas ĝis oni haltas serĉi ekstere kaj komenciĝas serĉi ilin

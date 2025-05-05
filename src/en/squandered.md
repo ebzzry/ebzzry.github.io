@@ -1,7 +1,7 @@
 Squandered Relentlessness
 =========================
 
-<div class="center">English • [Esperanto](/eo/malsxparita/)</div>
+<div class="center">English ∅ [Esperanto](/eo/malsxparita/)</div>
 <div class="center">Wed Mar 7 22:30:50 2012 +0800</div>
 
 >The first step towards getting somewhere is to decide that you are not going to stay where you

@@ -1,7 +1,7 @@
 Verb Tenses in English (Condensed)
 ==================================
 
-<div class="center">English • [Esperanto](/eo/verbotempoj-la-angla-mallongigite/)</div>
+<div class="center">English ∅ [Esperanto](/eo/verbotempoj-la-angla-mallongigite/)</div>
 <div class="center">Tue Mar 28 19:24:48 2017 +0800</div>
 
 This article is the condensed form of [Verb Tenses in English](/en/verb-tenses/).

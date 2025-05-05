@@ -1,7 +1,7 @@
 Ziŝaj Konsiletoj 3-a: Ŝanĝradikighelpiloj
 =========================================
 
-<div class="center">[English](/en/zsh-tips-3/) • Esperanto</div>
+<div class="center">[English](/en/zsh-tips-3/) ∅ Esperanto</div>
 <div class="center">ven okt 20 19:15:18 2017 +0800</div>
 
 >Ni ridas pri tio, kion ni ne povas toleri alfronti.<br>

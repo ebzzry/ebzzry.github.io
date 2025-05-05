@@ -1,7 +1,7 @@
 Blogging with Frog
 ==================
 
-<div class="center">English • [Esperanto](/eo/frog/)</div>
+<div class="center">English ∅ [Esperanto](/eo/frog/)</div>
 <div class="center">Thu Mar 16 08:39:08 2017 +0800</div>
 
 >One person with passion is better than forty people merely interested.<br>
