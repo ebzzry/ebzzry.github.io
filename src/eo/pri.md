@@ -12,7 +12,7 @@ programado; sistemadministrado; kaj programlingva teorio kaj desegnado.
 Interesas al li la konscio, la menso, la realo, la dualismo, kaj komputademismo. Li estas
 nune esploranta kiel oni povas uzi modernajn maŝinojn por precizigi la suprajn
 limojn de tio, kion oni povas komputi per artefarita inteligenteco. Li estas la
-ĉefa afergvida oficisto de [Krei.Systems](https://krei.systems)
+ĉefa afergvida oficisto de [Krei.Systems](https://krei.systems).
 
 Krome, li amas ludi golfon kaj fari praktikan pafadon. Li loĝas kun sia edzino
 kaj filo en Filipinoj.
