@@ -14,8 +14,8 @@ nune esploranta kiel oni povas uzi modernajn maŝinojn por precizigi la suprajn
 limojn de tio, kion oni povas komputi per artefarita inteligenteco. Li estas la
 ĉefa afergvida oficisto de [Krei.Systems](https://krei.systems)
 
-Krome, li amas ludi golfon (NGAP) kaj fari praktikan pafadon (IPSC/PPSA). Li
-loĝas kun sia edzino kaj filo en Filipinoj.
+Krome, li amas ludi golfon kaj fari praktikan pafadon. Li loĝas kun sia edzino
+kaj filo en Filipinoj.
 
 Se oni iam trovas eraron en ĉi tiu retejo, bonvole, estu bonvene por
 [sendi tirpeton](https://github.com/ebzzry/ebzzry.github.io)!

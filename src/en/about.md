@@ -15,8 +15,8 @@ computationalism. He is currently exploring how we can use modern machines to
 determine the upper limits of what can be computed with artificial intelligence.
 He is the Chief Executive Officer of [Krei.Systems](https://krei.systems)
 
-He loves to play golf (NGAP) and do practical shooting (IPSC/PPSA). He lives
-with his wife and son in the Philippines.
+He loves to play golf and do practical shooting. He lives with his wife and son
+in the Philippines.
 
 If you ever find an error in this website, please, feel free to
 [send a pull request](https://github.com/ebzzry/ebzzry.github.io)!
