@@ -1,3 +1,7 @@
+---
+title: The Y Combinator in Six Steps
+description: y, combinator, y combinator, compsci, computer science
+---
 The Y Combinator in Six Steps
 =============================
 
