@@ -305,7 +305,7 @@ The ellipsis is used to indicate omission of a word, phrase, sentence, or a whol
 part of a larger text. It is one of the most misunderstood punctuation marks. I see a lot of times
 that three periods—full stops—are used instead of the proper ellipsis symbol. In an era where
 typewriters were the best ways to typeset text, using three periods worked. That time, however, has
-long passed; we should use the facities available with us.
+long passed; we should use the facilities available with us.
 
 For example, it can be used like this:
 
@@ -325,5 +325,3 @@ it; when used in the middle, put spaces around it.
 Using the correct punctuation marks and symbols draws the line between class and crass. When you use
 the proper symbols, you communicate to your readers that you care about syntactical correctness as
 much as content value.
-
-_Thanks to Ram Martinez for the corrections._
