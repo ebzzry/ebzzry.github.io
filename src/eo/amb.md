@@ -1,3 +1,8 @@
+---
+title: Milda Enkonduko al Nedeterminismo en Skimo
+keywords: nedeterminismo, skimo, lispo, aktuala daŭrigo, daŭrigo, call/cc, amb, elektoj
+image: https://ebzzry.com/images/site/wallhaven-333472-1008x250.jpg
+---
 Milda Enkonduko al Nedeterminismo en Skimo
 ==========================================
 

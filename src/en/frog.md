@@ -1,3 +1,8 @@
+---
+title: Blogging with Frog
+keywords: frog, markdown, static website
+image: https://ebzzry.com/images/site/zdenek-machacek-HYTwWSE5ztw-unsplash-1008x250.jpg
+---
 Blogging with Frog
 ==================
 

@@ -1,3 +1,8 @@
+---
+title: Ziŝaj Konsiletoj 2-a: Dosierujstakoj
+keywords: ziŝo, zisxo, zsh, konsiletoj, ŝelo, sxelo, linukso, agordo, agordaĵo, agordaĵxo 
+image: https://ebzzry.com/images/site/jonny-caspari-A7ol2HfnycY-unsplash-1008x250.jpg
+---
 Ziŝaj Konsiletoj 2-a: Dosierujstakoj
 ====================================
 

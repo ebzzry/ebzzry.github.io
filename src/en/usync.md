@@ -1,3 +1,8 @@
+---
+title: Synchronizing Sites with Usync
+keywords: usync, synchronization, networking, files, data, databases
+image: https://ebzzry.com/images/site/thomas-jensen-ISG-rUel0Uw-unsplash-1008x250.jpg
+---
 Synchronizing Sites with Usync
 ==============================
 

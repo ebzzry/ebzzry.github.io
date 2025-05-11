@@ -1,3 +1,8 @@
+---
+title: Verbotempoj en La Angla
+keywords: verbotempoj, verboj, tempoj, la angla, gramatiko 
+image: https://ebzzry.com/images/site/noor-younis-mId2gG0a9GU-unsplash-1008x250.jpg
+---
 Verbotempoj en La Angla
 =======================
 

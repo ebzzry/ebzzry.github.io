@@ -1,3 +1,8 @@
+---
+title: Virtualigado en Linukso per KVM
+keywords: kvm, qemu, linukso, virtualigado 
+image: https://ebzzry.com/images/site/pierre-chatel-innocenti-N6Hx4HT4mHg-unsplash-1008x250.jpg
+---
 Virtualigado en Linukso per KVM
 ===============================
 

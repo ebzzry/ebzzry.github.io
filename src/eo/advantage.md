@@ -1,3 +1,8 @@
+---
+title: Kiel Mi Uzas la Kinesis Advantage-Klavaron
+keywords: kinesis, kinezio, advantage, avantaĝo, avantagxo, meĥanika klavaro, mehxanika klavaro
+image: https://ebzzry.com/images/site/avantagxo-1008x250.jpg
+---
 Kiel Mi Uzas la Kinesis Advantage-Klavaron
 ==========================================
 

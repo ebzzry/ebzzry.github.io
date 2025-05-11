@@ -1,3 +1,8 @@
+---
+title: Zsh Tips 1: Aliases and Functions
+keywords: zsh, tips, advice, shell, linux, configuration, setup, settings
+image: https://ebzzry.com/images/site/omair-parvez-o6ka1Lpk81U-unsplash-1008x250.jpg
+---
 Zsh Tips 1: Aliases and Functions
 =================================
 

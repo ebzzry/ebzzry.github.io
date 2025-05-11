@@ -1,3 +1,8 @@
+---
+title: A Gentle Introduction to Fallacies
+keywords:fallacies, logic, reasoning, flaws, logical fallacies, fallacies primer, fallacies introduction
+image: https://ebzzry.com/images/site/wallhaven-73145-1008x250.jpg
+---
 A Gentle Introduction to Fallacies
 ==================================
 

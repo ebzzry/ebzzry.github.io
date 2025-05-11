@@ -1,3 +1,8 @@
+---
+title: Manipuli Dosierujojn en Emakso
+keywords: emakso, dired, diredo, dosieruja redaktilo, agordo, agordaĵo, agordajxo, mastrumado 
+image: https://ebzzry.com/images/site/lucas-benjamin-V-mEcfI8fsI-unsplash-1008x250.jpg
+---
 Manipuli Dosierujojn en Emakso
 ==============================
 

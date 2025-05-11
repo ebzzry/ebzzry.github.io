@@ -1,8 +1,18 @@
+---
+title: Verbotempoj en La Angla (Mallongigite)
+keywords: verbotempoj, verboj, tempoj, la angla, gramatiko, mallongigite 
+image: https://ebzzry.com/images/site/noor-younis-mId2gG0a9GU-unsplash-1008x250.jpg
+---
 Verbotempoj en La Angla (Mallongigite)
 ======================================
 
 <div class="center">[English](/en/verb-tenses-condensed/) ∅ Esperanto</div>
 <div class="center">dim jul 15 22:47:25 2018 +0800</div>
+
+>La kontrasto inter la ordinara kaj la eksterordinara estas tiu eta pliaĵo.<br>
+>—Jimmy JOHNSON
+
+<img src="/images/site/noor-younis-mId2gG0a9GU-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="noor-younis-mId2gG0a9GU-unsplash" title="noor-younis-mId2gG0a9GU-unsplash"/>
 
 Ĉi tiu artikolo estas la mallongigita versio de [Verbotempoj en La Angla](/eo/verbotempoj-la-angla/).
 

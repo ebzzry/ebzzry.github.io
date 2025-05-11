@@ -1,3 +1,8 @@
+---
+title: Signoj kaj Interpunkcioj
+keywords: signoj, interpunkcioj, linukso, makintoŝo, makintosxo, vindozo, klavaro 
+image: https://ebzzry.com/images/site/stephen-johnson-Q8-Cc-IXRY-unsplash-1008x250.jpg
+---
 Signoj kaj Interpunkcioj
 ========================
 

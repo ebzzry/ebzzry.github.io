@@ -1,3 +1,8 @@
+---
+title: Emaksaj Konsiletoj 3-a: Enmeti kaj Forviŝi
+keywords: emakso, konsiletoj, enmetado, forviŝado, forvisxado, markado, algluado, agordo, agordaĵo, agordajxo 
+image: https://ebzzry.com/images/site/jr-korpa-E2i7HftbrI-unsplash-1008x250.jpg
+---
 Emaksaj Konsiletoj 3-a: Enmeti kaj Forviŝi
 ==========================================
 

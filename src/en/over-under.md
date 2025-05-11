@@ -1,3 +1,8 @@
+---
+title: Over, Under, and Elsewhere
+keywords: over, under, over under, elsewhere, philosophy
+image: https://ebzzry.com/images/site/timon-klauser-3MAmj1ZKSZA-unsplash-1008x250.jpg
+---
 Over, Under, and Elsewhere
 ==========================
 

@@ -1,3 +1,8 @@
+---
+title: Retrospektive
+keywords: retrospektive, retrospekte, en retrospekto, retrospekto, filozofio 
+image: https://ebzzry.com/images/site/calvin-mano-CXS27RrJObQ-unsplash-1008x250.jpg
+---
 Retrospektive
 =============
 

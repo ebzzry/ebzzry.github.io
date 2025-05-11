@@ -1,3 +1,8 @@
+---
+title: Ziŝaj Konsiletoj 4-a: Ĝeneralhelpiloj
+keywords: ziŝo, zisxo, zsh, konsiletoj, ŝelo, sxelo, linukso, agordo, agordaĵo, agordaĵxo, helpiloj 
+image: https://ebzzry.com/images/site/adam-hornyak-Cm187aESg0k-unsplash-1008x250.jpg
+---
 Ziŝaj Konsiletoj 4-a: Ĝeneralhelpiloj
 =====================================
 

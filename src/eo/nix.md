@@ -1,3 +1,8 @@
+---
+title: Milda Enkonduko al la Nix-Familio
+keywords: nix, nixos, nixpkgs, enkonduko, gvidilo, linukso, makintoŝo, makintosxo, unikso, nix-surmetoj, surmetoj 
+image: https://ebzzry.com/images/site/wallhaven-751942-1008x250.jpg
+---
 Milda Enkonduko al la Nix-Familio
 =================================
 

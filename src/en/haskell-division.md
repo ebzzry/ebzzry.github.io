@@ -1,8 +1,18 @@
+---
+title: Division in Haskell
+keywords: haskell, division
+image: https://ebzzry.com/images/site/josh-withers-VyOUw5byHlc-unsplash-1008x250.jpg
+---
 Division in Haskell
 ===================
 
 <div class="center">English ∅ [Esperanto](/eo/haskeldivido/)</div>
 <div class="center">Wed Mar 8 12:51:14 2017 +0800</div>
+
+>But every decision for something is a decision against something else.<br>
+>—H. G. Tannhaus, Dark (2017)
+
+<img src="/images/site/josh-withers-VyOUw5byHlc-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="david-becker-crs2vlkSe98-unsplash-1008x250.jpg" title="david-becker-crs2vlkSe98-unsplash-1008x250.jpg"/>
 
 While learning about division in Haskell, I realized that the concept is not as trivial as I
 initially wanted it to be. There are subtle differences between the functions that can easily trip

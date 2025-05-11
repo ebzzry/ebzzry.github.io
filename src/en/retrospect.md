@@ -1,3 +1,8 @@
+---
+title: In Retrospect
+keywords: retrospect, thoughts, reflections, philosophy
+image: https://ebzzry.com/images/site/calvin-mano-CXS27RrJObQ-unsplash-1008x250.jpg
+---
 In Retrospect
 =============
 

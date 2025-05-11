@@ -1,3 +1,8 @@
+---
+title: Emaksaj Konsiletoj 2-a: Seancoj kaj Pakoj
+keywords: emakso, konsileto,j, seancoj, pakoj, pakaĵoj, pakajxoj, labortablo, savehist, elpa, melpa, lininumeroj, tempindikoj, klavoj, plenigi, montrilo, git, agordo, agordaĵo, agordajxo 
+image: https://ebzzry.com/images/site/maximalfocus-VT4rx775FT4-unsplash-1008x250.jpg
+---
 Emaksaj Konsiletoj 2-a: Seancoj kaj Pakoj
 =========================================
 

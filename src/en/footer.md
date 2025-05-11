@@ -7,7 +7,7 @@
 </div>
 
 <div class="text-x-small">
-Made with ❤️ by Rommel Martínez
+Made in 🇵🇭 with ❤️ by Rommel Martínez
 </div>
 
 </div>

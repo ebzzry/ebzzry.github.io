@@ -1,3 +1,8 @@
+---
+title: Mia Markdaŭna Stilgvidilo
+keywords: markdauxno, markdaŭno, stilo, gvidnormoj, aranĝo, arangxo 
+image: https://ebzzry.com/images/site/luca-bravo-bTxMLuJOff4-unsplash-1008x250.jpg
+---
 Mia Markdaŭna Stilgvidilo
 =========================
 

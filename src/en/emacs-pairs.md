@@ -1,3 +1,8 @@
+---
+title: Emacs and Pairs
+keywords: emacs, pairs, smartparens, paredit, parentheses, brackets, braces, configuration, setup, settings
+image: https://ebzzry.com/images/site/wallhaven-578010-1008x250.jpg
+---
 Emacs and Pairs
 ===============
 

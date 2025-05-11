@@ -1,3 +1,8 @@
+---
+title: Super, Sube, kaj Aliloke
+keywords: super, sube, super sube, filozofio 
+image: https://ebzzry.com/images/site/timon-klauser-3MAmj1ZKSZA-unsplash-1008x250.jpg
+---
 Super, Sube, kaj Aliloke
 ========================
 

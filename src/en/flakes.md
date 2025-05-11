@@ -1,3 +1,8 @@
+---
+title: A Gentle Introduction to Nix Flakes
+keywords: nix, nix flakes, darwin, nixos, linux
+image: https://ebzzry.com/images/site/aaron-burden-vtCZp-9GvrQ-unsplash-1008x250.jpg
+---
 A Gentle Introduction to Nix Flakes
 ===================================
 

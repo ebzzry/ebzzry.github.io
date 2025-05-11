@@ -1,3 +1,8 @@
+---
+title: Virtualizing with KVM in Linux
+keywords: kvm, qemu, linux
+image: https://ebzzry.com/images/site/pierre-chatel-innocenti-N6Hx4HT4mHg-unsplash-1008x250.jpg
+---
 Virtualizing with KVM in Linux
 ==============================
 

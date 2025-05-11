@@ -1,3 +1,8 @@
+---
+title: Blogi per Frog
+keywords: frog, markdown, statika retejo
+image: https://ebzzry.com/images/site/zdenek-machacek-HYTwWSE5ztw-unsplash-1008x250.jpg
+---
 Blogi per Frog
 ==============
 

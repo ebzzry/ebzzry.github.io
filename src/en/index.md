@@ -1,3 +1,8 @@
+---
+title: (:ebzzry)
+keywords: rommel martinez, rommel martínez, ebzzry, ebzzry.com
+image: https://ebzzry.com/images/site/books-1008x250.jpg
+---
 (:ebzzry)
 =========
 
@@ -30,7 +35,6 @@
 - [Verb Tenses in English (Condensed)](verb-tenses-condensed)
 - [Verb Tenses in English](verb-tenses)
 - [How I Use the Kinesis Advantage](advantage)
-- [A Brief Git and GitHub Tour](git-github)
 - [Emacs and Pairs](emacs-pairs)
 - [Virtualizing with KVM in Linux](kvm)
 - [A Lambda Calculus Primer](lambda-calculus)

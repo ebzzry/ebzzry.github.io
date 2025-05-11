@@ -1,3 +1,8 @@
+---
+title: Agordi Skimprogramadon en Emakso
+keywords: emakso, skimo, skimprogramado, skimo, lispo, programado, agordo, agordaĵo, agordajxo 
+image: https://ebzzry.com/images/site/dimitar-belchev-fRBpWLAcWIY-unsplash-1008x250.jpg
+---
 Agordi Skimprogramadon en Emakso
 ================================
 

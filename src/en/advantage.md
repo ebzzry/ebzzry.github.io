@@ -1,3 +1,8 @@
+---
+title: How I Use the Kinesis Advantage
+keywords: kinesis, advantage, kinesis advantage, mechanical keyboard
+image: https://ebzzry.com/images/site/avantagxo-1008x250.jpg
+---
 How I Use the Kinesis Advantage
 ===============================
 

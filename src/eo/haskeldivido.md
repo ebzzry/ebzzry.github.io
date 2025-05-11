@@ -1,8 +1,18 @@
+---
+title: Divido en Haskelo
+keywords: haskelo, divido 
+image: https://ebzzry.com/images/site/josh-withers-VyOUw5byHlc-unsplash-1008x250.jpg
+---
 Divido en Haskelo
 =================
 
 <div class="center">[English](/en/haskell-division/) ∅ Esperanto</div>
 <div class="center">dim aŭg 5 12:41:29 2018 +0800</div>
+
+>Tamen ĉiu decido por io estas decido kontraŭ io alia.<br>
+>—H. G. Tannhaus, Dark (2017)
+
+<img src="/images/site/josh-withers-VyOUw5byHlc-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="david-becker-crs2vlkSe98-unsplash-1008x250.jpg" title="david-becker-crs2vlkSe98-unsplash-1008x250.jpg"/>
 
 Lernante pri divido en Haskelo, mi konsciis, ke la koncepto ne estas tiom bagatele kiel ĝin mi
 komence volis. Estas subtilaj kontrastoj inter la funkcioj kiuj oni povas facile faligi kiu ne

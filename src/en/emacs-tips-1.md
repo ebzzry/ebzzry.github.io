@@ -1,3 +1,8 @@
+---
+title: Emacs Tips and Tricks 1: Regions and Marks
+keywords: emacs, tips, regions, marks, buffers, key bindings, compilation, scheme, server, configuration, setup, settings
+image: https://ebzzry.com/images/site/robert-keane-rlbG0pnQOU-unsplash-1008x250.jpg
+---
 Emacs Tips and Tricks 1: Regions and Marks
 ==========================================
 

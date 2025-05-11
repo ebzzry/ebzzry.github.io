@@ -1,7 +1,16 @@
 { nixpkgs, pkgs, ... }:
-with pkgs; rec {
+with pkgs;
+rec {
   www = mkShell {
-    buildInputs = [ bash gnumake parallel findutils emem screen python3 ];
+    buildInputs = [
+      emem
+      gnumake
+      gnused
+      parallel
+      findutils
+      screen
+      python3
+    ];
   };
   default = www;
 }

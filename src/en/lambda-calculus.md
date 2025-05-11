@@ -1,3 +1,8 @@
+---
+title: A Lambda Calculus Primer
+keywords: lambda calculus, untyped lambda calculus, compsci, computer science
+image: https://ebzzry.com/images/site/joel-filipe-Wc8k-KryEPM-unsplash-1008x250.jpg
+---
 A Lambda Calculus Primer
 ========================
 

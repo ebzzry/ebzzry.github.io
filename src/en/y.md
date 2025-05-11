@@ -1,6 +1,7 @@
 ---
 title: The Y Combinator in Six Steps
-description: y, combinator, y combinator, compsci, computer science
+keywords: y, combinator, y combinator, compsci, computer science
+image: https://ebzzry.com/images/site/david-becker-crs2vlkSe98-unsplash-1008x250.jpg
 ---
 The Y Combinator in Six Steps
 =============================

@@ -1,3 +1,8 @@
+---
+title: Ziŝaj Konsiletoj 1-a: Alinomoj kaj Funkcioj
+keywords: ziŝo, zisxo, zsh, konsiletoj, avizoj, ŝelo, sxelo, linukso, agordo, agordaĵo, agordaĵxo 
+image: https://ebzzry.com/images/site/omair-parvez-o6ka1Lpk81U-unsplash-1008x250.jpg
+---
 Ziŝaj Konsiletoj 1-a: Alinomoj kaj Funkcioj
 ===========================================
 

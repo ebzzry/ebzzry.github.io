@@ -1,3 +1,8 @@
+---
+title: How I Use Git on the Command Line
+keywords: git, shell, zsh, linux, mac, windows, setup, configuration 
+image: https://ebzzry.com/images/site/simon-berger-6te9SupeW1g-unsplash-1008x250.jpg
+---
 How I Use Git on the Command Line
 =================================
 

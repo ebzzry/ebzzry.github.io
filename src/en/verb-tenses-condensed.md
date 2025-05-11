@@ -1,8 +1,18 @@
+---
+title: Verb Tenses in English (Condensed)
+keywords: verb, tenses, english, grammar, summary, condensed
+image: https://ebzzry.com/images/site/noor-younis-mId2gG0a9GU-unsplash-1008x250.jpg
+---
 Verb Tenses in English (Condensed)
 ==================================
 
 <div class="center">English ∅ [Esperanto](/eo/verbotempoj-la-angla-mallongigite/)</div>
 <div class="center">Tue Mar 28 19:24:48 2017 +0800</div>
+
+>The difference between ordinary and extraordinary is that little extra.<br>
+>—Jimmy Johnson
+
+<img src="/images/site/noor-younis-mId2gG0a9GU-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="noor-younis-mId2gG0a9GU-unsplash" title="noor-younis-mId2gG0a9GU-unsplash"/>
 
 This article is the condensed form of [Verb Tenses in English](/en/verb-tenses/).
 

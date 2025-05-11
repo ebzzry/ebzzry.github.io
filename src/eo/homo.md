@@ -1,3 +1,8 @@
+---
+title: Kiel Komuniki Samkiel Homo
+keywords: homo, homoj, homaro, popolo, komunikado 
+image: https://ebzzry.com/images/site/andriyko-podilnyk-zGQ17qQMaaM-unsplash-1008x250.jpg
+---
 Kiel Komuniki Samkiel Homo
 ==========================
 

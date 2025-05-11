@@ -1,3 +1,8 @@
+---
+title: (:ebzzry)
+keywords: rommel martinez, rommel martínez, ebzzry, ebzzry.com
+image: https://ebzzry.com/images/site/books-1008x250.jpg
+---
 (:ebzzry)
 =========
 
@@ -30,7 +35,6 @@
 - [Verbotempoj en La Angla (Mallongigite)](verbotempoj-la-angla-mallongigite)
 - [Verbotempoj en La Angla](verbotempoj-la-angla)
 - [Kiel Mi Uzas la Kinesis Advantage-Klavaron](advantage)
-- [Lakona Rondvojaĝo de Gito kaj GitHub](gito-github)
 - [Emakso kaj Paroj](emakso-paroj)
 - [Virtualigado en Linukso per KVM](kvm)
 - [Aboco de la Lambdokalkulo](lambdokalkulo)

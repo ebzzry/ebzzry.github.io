@@ -1,3 +1,8 @@
+---
+title: Zsh Tips 4: General Helpers
+keywords: zsh, tips, advice, shell, linux, configuration, setup, settings, helpers
+image: https://ebzzry.com/images/site/adam-hornyak-Cm187aESg0k-unsplash-1008x250.jpg
+---
 Zsh Tips 4: General Helpers
 ===========================
 
