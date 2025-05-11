@@ -1,3 +1,8 @@
+---
+title: Emacs Tips and Tricks 2: Sessions and Packages
+keywords: emacs, tips, sessions, packages, desktop, savehist, packages, elpa, melpa, line numbers, time stamps, keys, newline, filling, cursor, git, configuration, setup, settings
+image: https://ebzzry.com/images/site/maximalfocus-VT4rx775FT4-unsplash-1008x250.jpg
+---
 Emacs Tips and Tricks 2: Sessions and Packages
 ==============================================
 

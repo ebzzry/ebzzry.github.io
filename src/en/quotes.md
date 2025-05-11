@@ -1,3 +1,8 @@
+---
+title: Quotes
+keywords: quotes, quotations, famous words, aphorisms
+image: https://ebzzry.com/images/site/wallhaven-77816-1008x250.jpg
+---
 Quotes
 ======
 

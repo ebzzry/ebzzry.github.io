@@ -1,3 +1,8 @@
+---
+title: Squandered Relentlessness
+keywords: squandered, relentlessness, fear, philosophy
+image: https://ebzzry.com/images/site/steve-johnson-zkNT5mikUuo-unsplash-1008x250.jpg
+---
 Squandered Relentlessness
 =========================
 

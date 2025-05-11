@@ -1,3 +1,8 @@
+---
+title: Agordi GPG kaj SSH en KDE
+keywords: gpg, gnupg, ssh, kde, fenestrilo, linukso 
+image: https://ebzzry.com/images/site/milad-fakurian-UYgrVfIhBec-unsplash-1008x250.jpg
+---
 Agordi GPG kaj SSH en KDE
 =========================
 

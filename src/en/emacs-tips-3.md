@@ -1,3 +1,8 @@
+---
+title: Emacs Tips and Tricks 3: Insert and Delete
+keywords: emacs, tips, insertion, deletion, marking, yanking, configuration, setup, settings
+image: https://ebzzry.com/images/site/jr-korpa-E2i7HftbrI-unsplash-1008x250.jpg
+---
 Emacs Tips and Tricks 3: Insert and Delete
 ==========================================
 

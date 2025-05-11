@@ -1,7 +1,14 @@
+---
+title: Reflections
+keywords: reflections, words, thoughts, predilections
+image: https://ebzzry.com/images/site/ashim-d-silva-WeYamle9fDM-unsplash-1008x250.jpg
+---
 Reflections
 ===========
 
 <div class="center">English ∅ [Esperanto](/eo/pripensoj/)</div>
+
+<img src="/images/site/ashim-d-silva-WeYamle9fDM-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 
 This page contains contains some of my personal reflections. Entries are sorted
 in chronological order.
@@ -520,3 +527,6 @@ in chronological order.
 
 
 - People lie all the time. What they show is what they want you to see. What they speak is what they want you want to hear.<br>
+
+
+- Contrived idiocy is a disguise for true idiocy.<br>

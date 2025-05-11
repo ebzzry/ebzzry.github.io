@@ -1,3 +1,8 @@
+---
+title: Krei Sekurkopiojn per Ugarit
+keywords: ugarit, sekurkopioj, arĥivoj, arhxivoj, diskoj, reto, skimo 
+image: https://ebzzry.com/images/site/omar-flores-lQTbOWtysE-unsplash-1008x250.jpg
+---
 Krei Sekurkopiojn per Ugarit
 ============================
 

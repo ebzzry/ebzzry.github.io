@@ -1,3 +1,8 @@
+---
+title: How I Use Tmux
+keywords: tmux, configuration, setup, settings, linux, macos
+image: https://ebzzry.com/images/site/lysander-yuen-wk833OrQLJE-unsplash-1008x250.jpg
+---
 How I Use Tmux
 ==============
 

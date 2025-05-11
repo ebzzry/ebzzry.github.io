@@ -1,8 +1,18 @@
+---
+title: Signoj kaj Interpunkcioj (Mallongigite)
+keywords: signoj, interpunkcioj, linukso, makintoŝo, makintosxo, vindozo, klavaro, resumo, mallongigite 
+image: https://ebzzry.com/images/site/stephen-johnson-Q8-Cc-IXRY-unsplash-1008x250.jpg
+---
 Signoj kaj Interpunkcioj (Mallongigite)
 =======================================
 
 <div class="center">[English](/en/symbols-marks-condensed/) ∅ Esperanto</div>
 <div class="center">dim jul 22 03:16:09 2018 +0800</div>
+
+>Se oni volas atingi grandiozon, ĉesu peti konsentojn.<br>
+>—Eddie COLLA
+
+<img src="/images/site/stephen-johnson-Q8-Cc-IXRY-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="stephen-johnson-Q8-Cc-IXRY-unsplash" title="stephen-johnson-Q8-Cc-IXRY-unsplash"/>
 
 La tabelo ĉi-sube estas la mallongigita versio de
 [Signoj kaj Interpunkcioj](/eo/signoj-interpunkcioj/).

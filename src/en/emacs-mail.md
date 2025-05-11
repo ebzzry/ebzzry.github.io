@@ -1,3 +1,8 @@
+---
+title: Setting up Mail in Emacs
+keywords: emacs, email, mail, configuration, setup, settings
+image: https://ebzzry.com/images/site/zak-7wBFsHWQDlk-unsplash-1008x250.jpg
+---
 Setting up Mail in Emacs
 ========================
 

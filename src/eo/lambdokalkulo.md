@@ -1,3 +1,8 @@
+---
+title: Aboco de la Lambdokalkulo
+keywords: lambdokalkulo, lambda-kalkulo, informadiko, komputiko 
+image: https://ebzzry.com/images/site/joel-filipe-Wc8k-KryEPM-unsplash-1008x250.jpg
+---
 Aboco de la Lambdokalkulo
 =========================
 

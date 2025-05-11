@@ -1,3 +1,8 @@
+---
+title: Migrating from LiveJournal to Frog
+keywords: livefrog, racket, frog, static website
+image: https://ebzzry.com/images/site/stephanie-leblanc-xrE6WwccyU-unsplash-1008x250.jpg
+---
 Migrating from LiveJournal to Frog
 ==================================
 
