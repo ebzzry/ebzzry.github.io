@@ -5,7 +5,7 @@ TODO.md
 *.b
 /eo/index
 /en/index
+/en/footer/
+/eo/footer/
 .DS_Store
 *~undo-tree~
-/en/footer/
-/eo/pagxopiedo/
