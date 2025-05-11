@@ -1,3 +1,8 @@
+---
+title: Migri de LiveJournal al Frog
+keywords: livefrog, livejournal, frog, disqus, blogo, migri, migrado 
+image: https://ebzzry.com/images/site/stephanie-leblanc-xrE6WwccyU-unsplash-1008x250.jpg
+---
 Migri de LiveJournal al Frog
 ============================
 

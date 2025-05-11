@@ -1,3 +1,8 @@
+---
+title: La Ipsilonkombinatoro per Ses Paŝoj
+keywords: ipsilono, ipsilonkombinatoro, ipsilona kombinatoro, kombinatoro, programado, komputiko, informadiko 
+image: https://ebzzry.com/images/site/david-becker-crs2vlkSe98-unsplash-1008x250.jpg
+---
 La Ipsilonkombinatoro per Ses Paŝoj
 ===================================
 

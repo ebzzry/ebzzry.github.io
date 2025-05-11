@@ -1,3 +1,8 @@
+---
+title: Pri
+keywords: pri, pri mi, rommel martinez, rommel martínez
+image: https://ebzzry.com/images/site/ebzzry.jpg
+---
 Pri
 ===
 

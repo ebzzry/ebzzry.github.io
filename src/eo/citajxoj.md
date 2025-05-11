@@ -1,3 +1,8 @@
+---
+title: Citaĵoj
+keywords: citaĵoj, citajxoj, famaj citaĵoj, famaj vortoj, inspiro, aforismoj, konsiletoj
+image: https://ebzzry.com/images/site/wallhaven-77816-1008x250.jpg
+---
 Citaĵoj
 =======
 

@@ -1,3 +1,8 @@
+---
+title: Esperanto Characters in Linux
+keywords: esperanto, linux, keyboard, characters, letters, configuration, setup, settings
+image: https://ebzzry.com/images/site/stefan-HbwYKfnVz0-unsplash-1008x250.jpg
+---
 Esperanto Characters in Linux
 =============================
 

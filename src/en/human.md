@@ -1,3 +1,8 @@
+---
+title: How to Communicate Like a Human
+keywords: humans, people, communication
+image: https://ebzzry.com/images/site/andriyko-podilnyk-zGQ17qQMaaM-unsplash-1008x250.jpg
+---
 How to Communicate Like a Human
 ===============================
 

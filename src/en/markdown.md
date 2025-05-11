@@ -1,3 +1,8 @@
+---
+title: My Markdown Style Guide
+keywords: markdown, style, guidelines, formatting
+image: https://ebzzry.com/images/site/luca-bravo-bTxMLuJOff4-unsplash-1008x250.jpg
+---
 My Markdown Style Guide
 =======================
 

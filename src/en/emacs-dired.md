@@ -1,3 +1,8 @@
+---
+title: Managing Directories with Emacs
+keywords:emacs, dired, directory editor, configuration, setup, settings
+image: https://ebzzry.com/images/site/lucas-benjamin-V-mEcfI8fsI-unsplash-1008x250.jpg
+---
 Managing Directories with Emacs
 ===============================
 

@@ -1,3 +1,8 @@
+---
+title: Ziŝaj Konsiletoj 3-a: Ŝanĝradikighelpiloj
+keywords: ziŝo, zisxo, zsh, konsiletoj, ŝelo, sxelo, linukso, agordo, agordaĵo, agordaĵxo, chroot 
+image: https://ebzzry.com/images/site/ali-lokhandwala-KUr51Y4dOyo-unsplash-1008x250.jpg
+---
 Ziŝaj Konsiletoj 3-a: Ŝanĝradikighelpiloj
 =========================================
 

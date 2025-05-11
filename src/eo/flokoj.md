@@ -1,3 +1,8 @@
+---
+title: Milda Enkonduko al Nix-Flokoj
+keywords: nix, nix flakes, nix-flokoj, darwin, nixos, linux, linukso 
+image: https://ebzzry.com/images/site/aaron-burden-vtCZp-9GvrQ-unsplash-1008x250.jpg
+---
 Milda Enkonduko al Nix-Flokoj
 =============================
 

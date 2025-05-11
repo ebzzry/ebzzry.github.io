@@ -1,3 +1,8 @@
+---
+title: Symbols and Marks
+keywords: symbols, marks, punctuations, linux, macos, windows, keyboard
+image: https://ebzzry.com/images/site/stephen-johnson-Q8-Cc-IXRY-unsplash-1008x250.jpg
+---
 Symbols and Marks
 =================
 

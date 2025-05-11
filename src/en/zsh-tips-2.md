@@ -1,3 +1,8 @@
+---
+title: Zsh Tips 2: Directory Stacks
+keywords: zsh, tips, advice, shell, linux, configuration, setup, settings
+image: https://ebzzry.com/images/site/jonny-caspari-A7ol2HfnycY-unsplash-1008x250.jpg
+---
 Zsh Tips 2: Directory Stacks
 ============================
 

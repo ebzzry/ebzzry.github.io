@@ -1,3 +1,8 @@
+---
+title: Zsh Tips 3: Chroot Helpers
+keywords: zsh, tips, advice, shell, linux, configuration, setup, settings, chroot
+image: https://ebzzry.com/images/site/ali-lokhandwala-KUr51Y4dOyo-unsplash-1008x250.jpg
+---
 Zsh Tips 3: Chroot Helpers
 ==========================
 

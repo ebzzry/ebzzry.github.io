@@ -1,3 +1,8 @@
+---
+title: Scripting in Common Lisp
+keywords: lisp, common lisp, scripting, linux, macos
+image: https://ebzzry.com/images/site/lispo-simbolo.jpg
+---
 Scripting in Common Lisp
 ========================
 

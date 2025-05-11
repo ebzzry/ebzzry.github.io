@@ -1,3 +1,8 @@
+---
+title: Kiel Mi Uzas Giton ĉe la Komandlinio
+keywords: gito, ŝelo, sxelo, ziŝo, zisxo, linukso, makintoŝo, makintosxo, vindozo, agordo, agordaĵo, agordajxo 
+image: https://ebzzry.com/images/site/simon-berger-6te9SupeW1g-unsplash-1008x250.jpg
+---
 Kiel Mi Uzas Giton ĉe la Komandlinio
 ====================================
 

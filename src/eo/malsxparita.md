@@ -1,3 +1,8 @@
+---
+title: Malŝparita Senĉeseco
+keywords: malsxparita, malsxparita senĉeseco, timoj, filozofio
+image: https://ebzzry.com/images/site/steve-johnson-zkNT5mikUuo-unsplash-1008x250.jpg
+---
 Malŝparita Senĉeseco
 ====================
 

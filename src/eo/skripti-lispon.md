@@ -1,3 +1,8 @@
+---
+title: Skriptado en Komunlispo
+keywords: lispo, komuna lispo, komunlispo, skriptado, linukso 
+image: https://ebzzry.com/images/site/lispo-simbolo.jpg
+---
 Skriptado en Komunlispo
 =======================
 

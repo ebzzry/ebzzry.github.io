@@ -1,3 +1,8 @@
+---
+title: Emakso kaj Paroj
+keywords: emakso, paroj, smartparens, paredit, krampoj, rondaj krampoj, rondkramproj, kvadrataj krampoj, kvadratkrampoj, kurbaj krampoj, kurbkrampoj, agordaĵo, agordajxo, agordo 
+image: https://ebzzry.com/images/site/wallhaven-578010-1008x250.jpg
+---
 Emakso kaj Paroj
 ================
 

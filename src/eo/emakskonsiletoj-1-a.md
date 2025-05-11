@@ -1,3 +1,8 @@
+---
+title: Emaksaj Konsiletoj 1-a: Regionoj kaj Markoj
+keywords: emakso, konsiletoj, emakskonsiletoj, regionoj, markiloj, bufroj, klavkombinoj, kompilado, skimo, servilo, agordo, agordaĵo, agordajxo 
+image: https://ebzzry.com/images/site/robert-keane-rlbG0pnQOU-unsplash-1008x250.jpg 
+---
 Emaksaj Konsiletoj 1-a: Regionoj kaj Markoj
 ===========================================
 

@@ -1,3 +1,8 @@
+---
+title: Kiel Mi Uzas Timukson
+keywords: tmux, timukso, agordo, agordaĵo, agordajxo, linukso, makintoŝo, makintosxo 
+image: https://ebzzry.com/images/site/lysander-yuen-wk833OrQLJE-unsplash-1008x250.jpg
+---
 Kiel Mi Uzas Timukson
 =====================
 

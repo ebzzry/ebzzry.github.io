@@ -1,3 +1,8 @@
+---
+title: A Gentle Introduction to Non-determinism in Scheme
+keywords:non-determinism, scheme, lisp, current continuation, continuation, call/cc, amb, choice, choose 
+image: https://ebzzry.com/images/site/wallhaven-333472-1008x250.jpg
+---
 A Gentle Introduction to Non-determinism in Scheme
 ==================================================
 

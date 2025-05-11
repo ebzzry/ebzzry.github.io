@@ -1,3 +1,8 @@
+---
+title: Milda Enkonduko al Sofismoj
+keywords: sofismoj, paralogismoj, rezono, eraraj, logikaj eraroj 
+image: https://ebzzry.com/images/site/wallhaven-73145-1008x250.jpg
+---
 Milda Enkonduko al Sofismoj
 ===========================
 
