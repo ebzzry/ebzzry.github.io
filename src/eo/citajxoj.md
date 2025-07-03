@@ -998,13 +998,13 @@ tra la jaroj.
 - En la sekundo kiam vi forgesas, ke vi ludas rolon, vi malvenkas.<br>—Hari SELDON, Foundation (televida serio)
 
 
-- Ĉiu sciencisto devas esti feliĉa kiam estas pruvita, ke li estas malprava. En la momento, ke oni estas pruvite malprava, tio signifas, ke oni oni lernis ion, kaj tio estas nur la maniero, ke tiu scio progresas.<br>—Brian Cox
+- Ĉiu sciencisto devas esti feliĉa kiam estas pruvita, ke li estas malprava. En la momento, ke oni estas pruvite malprava, tio signifas, ke oni oni lernis ion, kaj tio estas nur la maniero, ke tiu scio progresas.<br>—Brian COX
 
 
 - Malpacienco por venko garantias malvenkon.<br>—Louis XIV
 
 
-- La ardo estas la flamo en via ventro, kiun neniu povas ekbruligi escepte vi. Kaj tiam tiu flamo ekbruliĝis, ĝi ekvojaĝas de homo, al homo, al homo, ĝis vi ekbruligas la mondon ĉirkaŭ vi.<br>—Dawn Zoldi
+- La ardo estas la flamo en via ventro, kiun neniu povas ekbruligi escepte vi. Kaj tiam tiu flamo ekbruliĝis, ĝi ekvojaĝas de homo, al homo, al homo, ĝis vi ekbruligas la mondon ĉirkaŭ vi.<br>—Dawn ZOLDI
 
 
 - Estas la senokupaj horoj kiuj ofte kondukas homon al sia pereo.<br>—La Mortigisto, The Killer (2023)
@@ -1016,7 +1016,7 @@ tra la jaroj.
 - La plej forta glavo estas mikso de ŝtalo. Mola kaj malmola. Pura kaj malpura.<br>—Mizu, Blue Eye Samurai (2023)
 
 
-- Morto ne estas io kio senŝarĝigas ajnan pekon se gi ne estas pripentita.<br>—Seon Jae-sun, A Killer Paradox
+- Morto ne estas io kio senŝarĝigas ajnan pekon se gi ne estas pripentita.<br>—Seon JAE-SUN, A Killer Paradox
 
 
 - Sed oni ne vere povas vivi ĝis oni jam mortis iomete ene, ĉu ne?<br>—Blindulino Al, Deadpool 2 (2018)
@@ -1028,7 +1028,7 @@ tra la jaroj.
 - Kion ni kredas formas kiun ni estas. Kredo povas porti al ni savo aŭ detruo. Sed kiam oni kredas mensogon tre longe, la vero ne liberigas onin. Ĝi diŝŝiras onin.<br>—Takeshi KOVACS, Altered Carbon
 
 
-- La realeco estas nur interkonsentita iluzio.<br>—Jack Soul Brasil, Altered Carbon
+- La realeco estas nur interkonsentita iluzio.<br>—Jack Soul BRASIL, Altered Carbon
 
 
 - Oni diras, ke espero komencas en la mallumo. Ke espero estas la birdo kiu sentas lumon kiam la ĉielo estas ankoraŭ malhela. Sed kun ĉiu margaŭo oni portas sian pasinton. Ĝi eĥas sub niaj piedoj. Ne estas puraj ardezoj.<br>—Dig 301, Altered Carbon
@@ -1040,10 +1040,10 @@ tra la jaroj.
 - Per ĉiu elekto kiun ni faras, ni estas kondukitaj al ie nova. Sed per ĉiu veto kiun mi prenas, via memoro fantomas.<br>—Dig 301, Altered Carbon
 
 
-- Sen morto oni ne povas scii la valoron de vivo.<br>—Quellcrist Falconer, Altered Carbon
+- Sen morto oni ne povas scii la valoron de vivo.<br>—Quellcrist FALCONER, Altered Carbon
 
 
-- Tiu kiu povas detrui ion havas la veran reĝon pri ĝi.<br>—Paul Muad'Dib, Dune
+- Tiu kiu povas detrui ion havas la veran reĝon pri ĝi.<br>—Paul MUAD'DIB, Dune
 
 
 - Estas plaĉe scii kiel ĉiu etaĝo finiĝas. Sen surprizoj, sen tordaĵoj. Ĝi ĉiam restas same. Sed tio ne estas vivi.<br>—Maljuna Jubilee, X-Men ’97
@@ -1055,13 +1055,13 @@ tra la jaroj.
 - Kio demonoj estas, sed rebriloj de niaj timoj kaj hontoj? Aferoj kiujn ni enterigis en ni, kuŝis el niaj amantoj, eĉ ili venenas niajn korojn ĝis ni finfine kuracas niajn malamikojn per brakumi ĝin.<br>—Storm, X-Men ’97
 
 
-- Tamen ĉiu decido por io estas decido kontraŭ io alia.<br>—H. G. Tannhaus, Dark (2017)
+- Tamen ĉiu decido por io estas decido kontraŭ io alia.<br>—H. G. TANNHAUS, Dark (2017)
 
 
-- Mia loko ne estas en hieraŭ aŭ morgaŭ. Sed, ĝi estas ĉi tie.<br>—Jonas Kahnwald, Dark (2017)
+- Mia loko ne estas en hieraŭ aŭ morgaŭ. Sed, ĝi estas ĉi tie.<br>—Jonas KAHNWALD, Dark (2017)
 
 
-- Se oni lasas la uzanton trakti la eraron per ili mem, ili ne havas facilan manieron por trakti la eraron gracie pro tio ke ĉiom da stata informo estas perdita.<br>—Michael Malis
+- Se oni lasas la uzanton trakti la eraron per ili mem, ili ne havas facilan manieron por trakti la eraron gracie pro tio ke ĉiom da stata informo estas perdita.<br>—Michael MALIS
 
 
 - Regulo unua, neniam porti ion ajn kiun vi ne regas.<br>—Luthen, Andor (2022)
@@ -1070,19 +1070,19 @@ tra la jaroj.
 - Regula dua, konstrui elirejon survoje enen.<br>—Luthen, Andor (2022).
 
 
-- La vivo enuas se oni evitas ĉiom da konkurso pro timo de malvenko. Krome, kiel oni povas pliboniĝi tiel?<br>—Lancelot Norman, Rising Impact (2024)
+- La vivo enuas se oni evitas ĉiom da konkurso pro timo de malvenko. Krome, kiel oni povas pliboniĝi tiel?<br>—Lancelot NORMAN, Rising Impact (2024)
 
 
 - Estu sufiĉe bone por pardonpeti homojn, sed ne estu sufiĉe stulte por fidi ilin denove.<br>—anonimulo
 
 
-- La sola mistero kiu estas restanta estas virinoj.<br>—Ben Stoeger
+- La sola mistero kiu estas restanta estas virinoj.<br>—Ben STOEGER
 
 
-- Homoj ne fakte tre ŝatas scii ili estas en ŝajnigado eĉ ili ege kredas, ke ĝi veras.<br>—Maggie Kim, Pantheon
+- Homoj ne fakte tre ŝatas scii ili estas en ŝajnigado eĉ ili ege kredas, ke ĝi veras.<br>—Maggie KIM, Pantheon
 
 
-- Oni ne solvas pli per pli. Oni solvu ĝin per malpli.<br>—Caspian Keyes, Pantheon
+- Oni ne solvas pli per pli. Oni solvu ĝin per malpli.<br>—Caspian KEYES, Pantheon
 
 
 - He! La tempo ne atendos por vi<br>—Jamiroquai, Time Won't Wait
@@ -1091,7 +1091,10 @@ tra la jaroj.
 - Antaŭ ol oni kuracu iun ajn, demandu lin se li deziras rezigni tiujn kiuj igis lin malsane.<br>—Hipokrato
 
 
-- Ne ekzistas homo kiu havas la rajton por esti amatoro en la aferoj de fiziktrejnado. Estas fie por homo krekiĝu senvidi la belon kaj forton pri tio kion sia korpo estas kapabla.<br>—Sokrato, 469–399 a.K.
+- Ne ekzistas homo kiu havas la rajton por esti amatoro en la aferoj de fiziktrejnado. Estas fie por homo krekiĝu senvidi la belon kaj forton pri tio kion sia korpo estas kapabla.<br>—Sokrato, 469–399 A.K.
 
 
-- Tuj kiam ĝi funkcias, neniu nomas ĝin artefaritan inteligentecon plu.<br>—John McCarthy
+- Tuj kiam ĝi funkcias, neniu nomas ĝin artefaritan inteligentecon plu.<br>—John MCCARTHY
+
+
+- Ni estas investantoj; ni ne estas vetludantoj.<br>—Matthew GREEN
