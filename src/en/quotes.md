@@ -1109,3 +1109,6 @@ the years.
 
 
 - As soon as it works, no one calls it AI anymore.<br>—John McCarthy
+
+
+- We're investors; we're not gamblers.<br>—Matthew Greene
