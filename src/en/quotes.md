@@ -1112,3 +1112,16 @@ the years.
 
 
 - We're investors; we're not gamblers.<br>—Matthew Greene
+
+
+- One bullet well placed can be a magical thing. It's neither good nor evil. But how a man uses it reveals his true character.<br>—Ballerina (2025)
+
+
+- Thus the act of programming makes us keenly aware of our errors of reasoning or unsupported conclusions.<br>—Gerald Jay Sussman
+ 
+
+- Anyone can learn Lisp in one day, except that if they already know Fortran, it will take three days.<br>—Marvin Minsky
+
+
+- Programming languages should be designed not by piling feature on top of feature, but by removing the weaknesses and restrictions that make additional features appear necessary.<br>—Revised⁷ Report on the Algorithmic Language Scheme (R⁷RS)
+ 
