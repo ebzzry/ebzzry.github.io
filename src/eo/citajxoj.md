@@ -1098,3 +1098,15 @@ tra la jaroj.
 
 
 - Ni estas investantoj; ni ne estas vetludantoj.<br>—Matthew GREEN
+
+
+- Unu kuglo, bone metita, estas magia io. Estas nek bone nek peke. Tamen, kiel homo uzas ĝin malkaŝas sian veran naturon.<br>Ballerina (2025)
+
+
+- Tiel la ago de programado igas nin vigle konscia pri la eraroj de rezonado aŭ nesubtenitaj konkludoj.<br>—Gerald Jay SUSSMAN
+
+
+- Iu ajn povas lerni Lispon en unu tago, sed se ili jam konas je Fortran, ili bezonas tri tagojn.<br>—Marvin MINSKY
+
+
+- Programlingvoj ne devas esti desegnita per meti eblojn sur ebloj, sed per forigi la malfortojn kaj limigojn kiuj igas aldonajn eblojn necesajn.<br>—Reviziita⁷ Raporto pri la Algoritma Lingva Skimo (R⁷RS)
