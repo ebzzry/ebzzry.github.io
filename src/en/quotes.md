@@ -791,11 +791,11 @@ the years.
   most.<br>—Migs Mayfeld, The Mandalorian (2019)
 
 
-- You can't wait until life isn't hard anymore before you decide to be happy.<br>—Jane Marczweskie
+- You can’t wait until life isn’t hard anymore before you decide to be happy.<br>—Jane Marczweskie
   (Nightbirde)
 
 
-- Don't raise your voice; improve your argument.<br>—Desmond Tutu
+- Don’t raise your voice; improve your argument.<br>—Desmond Tutu
 
 
 - If history demonstrates anything at all it is the fact that there is no direct relationship
@@ -858,7 +858,7 @@ the years.
   from experiencing it.<br>—Beartooth, YouTube
 
 
-- I don't know; I think like, AI really needs to understand death deeply in order to be able to
+- I don’t know; I think like, AI really needs to understand death deeply in order to be able to
   drive a car.<br>—Lex Fridman
 
 
@@ -997,7 +997,7 @@ the years.
 - A stone in evil hands killed Abel. A stone in righteous hands killed Goliath.<br>—John Rich
 
 
-- AI should be built by humanity, for humanity. And let’s not forget that. It shouldn't be by Moloch, for Moloch.<br>—Max Tegmark
+- AI should be built by humanity, for humanity. And let’s not forget that. It shouldn’t be by Moloch, for Moloch.<br>—Max Tegmark
 
 
 - A man can never have too much red wine, too many books, or too much ammunition.<br>—Rudyard Kipling
@@ -1039,7 +1039,7 @@ the years.
 - Protect it or lose it.<br>—Walker’s Razor Pro
 
 
-- What we believe shapes who we are. Belief can bring us salvation or destruction. But when you believe a lie for too long, the truth doesn't set you free. It tears you apart.<br>—Takeshi KOVACS, Altered Carbon
+- What we believe shapes who we are. Belief can bring us salvation or destruction. But when you believe a lie for too long, the truth doesn’t set you free. It tears you apart.<br>—Takeshi KOVACS, Altered Carbon
 
 
 - Reality is just an agreed upon illusion<br>—Jack Soul BRASIL, Altered Carbon
@@ -1057,10 +1057,10 @@ the years.
 - Without death we can’t know what a life is worth.<br>—Quellcrist Falconer, Altered Carbon
 
 
-- He who can destroy a thing has the real control of it.<br>—Paul Muad'Dib, Dune
+- He who can destroy a thing has the real control of it.<br>—Paul Muad’Dib, Dune
 
 
-- It’s nice knowing how every stage ends. No surprises, no twists. It always stays the same. But that's not living.<br>—Old Jubilee, X-Men ’97
+- It’s nice knowing how every stage ends. No surprises, no twists. It always stays the same. But that’s not living.<br>—Old Jubilee, X-Men ’97
 
 
 - Living doesn’t get cheat codes or extra lives. But it has friends and family. Love, loss, and heapings of hope. Life’s a total risk and it’s on you. Take it.<br>—Old Jubilee, X-Men ’97
@@ -1078,7 +1078,7 @@ the years.
 - If you let the user handle the error themselves, they have no easy way to handle the error gracefully since all of the state information is lost.<br>—Michael Malis
 
 
-- Rule number one, never carry anything you don't control.<br>—Luthen, Andor (2022)
+- Rule number one, never carry anything you don’t control.<br>—Luthen, Andor (2022)
 
 
 - Rule number two, build your exit on your way in.<br>—Luthen, Andor (2022).
@@ -1087,7 +1087,7 @@ the years.
 - Life is boring if you avoid all competition for fear of losing. Besides, how would you get better that way?<br>—Lancelot Norman, Rising Impact (2024)
 
 
-- Be good enough to forgive people, but don't be stupid enough to trust them again.<br>—Anonymous
+- Be good enough to forgive people, but don’t be stupid enough to trust them again.<br>—Anonymous
 
 
 - The only mystery that’s left is women.<br>—Ben Stoeger
@@ -1099,10 +1099,10 @@ the years.
 - You don’t solve more with more. You solve it with less.<br>—Caspian Keyes, Pantheon
 
 
-- Hey! Time won't wait for you<br>—Jamiroquai, Time Won't Wait
+- Hey! Time won’t wait for you<br>—Jamiroquai, Time Won’t Wait
 
 
-- Before you heal someone, ask him if he's willing to give up the things that make him sick.<br>—Hippocrates 
+- Before you heal someone, ask him if he’s willing to give up the things that make him sick.<br>—Hippocrates 
 
 
 - No man has the right to be an amateur in the matter of physical training. It is a shame for a man to grow old without seeing the beauty and strength of which his body is capable.<br>—Socrates, 469–399 BC
@@ -1111,10 +1111,10 @@ the years.
 - As soon as it works, no one calls it AI anymore.<br>—John McCarthy
 
 
-- We're investors; we're not gamblers.<br>—Matthew Greene
+- We’re investors; we’re not gamblers.<br>—Matthew Greene
 
 
-- One bullet well placed can be a magical thing. It's neither good nor evil. But how a man uses it reveals his true character.<br>—Ballerina (2025)
+- One bullet well placed can be a magical thing. It’s neither good nor evil. But how a man uses it reveals his true character.<br>—Ballerina (2025)
 
 
 - Thus the act of programming makes us keenly aware of our errors of reasoning or unsupported conclusions.<br>—Gerald Jay Sussman
@@ -1125,3 +1125,11 @@ the years.
 
 - Programming languages should be designed not by piling feature on top of feature, but by removing the weaknesses and restrictions that make additional features appear necessary.<br>—Revised⁷ Report on the Algorithmic Language Scheme (R⁷RS)
  
+
+- In order to express sophisticated ideas, you need to have sophisticated means of expressing them.<br>—Anonymous
+
+
+- Mathematics, of course, persists. And the reason why it persists is because you can’t say in natural language some of the things you can say in mathematical expressions.<br>—Gerald Jay Sussman
+
+
+- You have no idea what you’re trying to achieve until you’ve achieved it.<br>—Gerald Jay Sussman
