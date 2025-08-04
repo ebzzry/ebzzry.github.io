@@ -13,6 +13,7 @@ image: https://ebzzry.com/images/site/books-1008x250.jpg
 
 <div class="text-right">A journal about computing, human predilections, and random krakaboom. The entries are sorted in reverse chronological order.</div>
 
+- [How I Make Common Lisp Projects](lisp-projects)
 - [A Gentle Introduction to Nix Flakes](flakes)
 - [How I Use the Kinesis Advantage360 Professional](adv360)
 - [How I Use Git on the Command Line](git)
@@ -22,7 +23,7 @@ image: https://ebzzry.com/images/site/books-1008x250.jpg
 - [How I Use Tmux](tmux)
 - [Zsh Tips 2: Directory Stacks](zsh-tips-2)
 - [Zsh Tips 1: Aliases and Functions](zsh-tips-1)
-- [Scripting in Common Lisp](script-lisp)
+- [Scripting in Common Lisp](lisp-scripting-1)
 - [My Markdown Style Guide](markdown)
 - [Emacs Tips 3: Insert and Delete](emacs-tips-3)
 - [A Gentle Introduction to the Nix Family](nix)
