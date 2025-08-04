@@ -1,7 +1,7 @@
 ---
 title: Kiel Mi Kreas Lispajn Projektojn
-keywords: lispo, komuna lispo, komunlispo, linukso , makintoŝo
-image: https://ebzzry.com/images/site/lisp-lizard.png
+keywords: lispo, komuna lispo, komunlispo, linukso, makintoŝo
+image: https://ebzzry.com/images/site/lisp-lizard-1008x250.png
 ---
 Kiel Mi Kreas Lispajn Projektojn
 ================================
@@ -44,9 +44,9 @@ kredas, ke mi eblas povi pafi du birdojn per ĉi tio.
 <a name="motivo">Motivo</a>
 ---------------------------
 
-Skribi propran projektan kreilon estas maturiĝrito en lisplando. Oni diras, ke
-vi ne povas nomi vin «lispisto» ĝis vi povas krei duonan decan ilon kiu kreas
-projektajn ostarojn.
+Skribi propran projektan kreilon estas maturiĝrito en lisplando. Onidire,  vi ne
+povas nomi vin _lispisto_ ĝis vi povas krei duondecan ilon kiu kreas projektajn
+ostarojn.
 
 Mia ĉefa motivo en skribi mian propran projektan kreilon venis ne pro ne ŝati la
 haveblajn ilojn ĉie. Mi ne ŝatas ilin ne pro tio ke ili malbonas. Mi ne ŝatas
@@ -91,6 +91,14 @@ pakajn administrilojn de la operaciumo. La komando devus aspekti jene:
 ```sh
 sudo apt install -y sbcl
 ```
+
+aŭ
+
+```sh
+brew install sbcl
+```
+
+Sed, oni jam scias tion kion mi celas 😉
 
 ### <a name="quicklisp">Quicklisp</a>
 

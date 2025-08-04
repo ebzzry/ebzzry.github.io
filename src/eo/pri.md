@@ -21,9 +21,6 @@ limojn de tio, kion oni povas komputi per artefarita inteligenteco. Li estas la
 
 Krome, li amas ludi golfon kaj fari praktikan pafadon. Li loĝas kun sia edzino
 kaj filo en Filipinoj.
-
-Se oni iam trovas eraron en ĉi tiu retejo, bonvole, estu bonvene por
-[sendi tirpeton](https://github.com/ebzzry/ebzzry.github.io)!
 </div>
 
 <div class="center">

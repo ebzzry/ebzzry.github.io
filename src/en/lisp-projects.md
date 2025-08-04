@@ -1,7 +1,7 @@
 ---
 title: How I Make Lisp Projects
 keywords: lisp, projects, common lisp, linux, macos
-image: https://ebzzry.com/images/site/lisp-lizard.png
+image: https://ebzzry.com/images/site/lisp-lizard-1008x250.png
 ---
 How I Make Lisp Projects
 ========================
@@ -45,7 +45,7 @@ two birds with one stone, with this one.
 -----------------------------------
 
 Writing your own project maker is a rite-of-passage in Lisp Land. They say you
-can’t call yourself a «lisper» until you can make a half-decent tool that
+can’t call yourself a _lisper_ until you can make a half-decent tool that
 creates project skeletons.
 
 My primary motivation in writing my own project maker came from not liking the
@@ -91,6 +91,14 @@ system package manager to install it. It should look something like this
 ```sh
 sudo apt install -y sbcl
 ```
+
+or
+
+```sh
+brew install sbcl
+```
+
+But, you already know what I mean 😉
 
 ### <a name="quicklisp">Quicklisp</a>
 

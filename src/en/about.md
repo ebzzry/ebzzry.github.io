@@ -22,9 +22,6 @@ He is the Chief Executive Officer of VEDA.
 
 He loves to play golf and do practical shooting. He lives with his wife and son
 in the Philippines.
-
-If you ever find an error in this website, please, feel free to
-[send a pull request](https://github.com/ebzzry/ebzzry.github.io)!
 </div>
 
 <div class="center">

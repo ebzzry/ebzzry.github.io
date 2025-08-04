@@ -98,7 +98,7 @@ When I got my hands on an M1 Macbook Pro, I got naturally curious if there's a
 way for me to use Nix on it. Soon after, I learned about
 [nix-darwin](https://github.com/LnL7/nix-darwin/). After about an hour of
 tinkering, I finally got the incantation that would build everything.  Just like
-with flakes on NixOS, I got the new set of commads.
+with flakes on NixOS, I got the new set of commands.
 
 Most, if not all, important Nix commands, have already coalesced into `nix`.  I
 went by fine with it for a year. Soon after, I decided that it's time to take
@@ -233,7 +233,7 @@ It's standard practice to have a `pkgs` variable that will point to all the
 packages. Then, I took out `self` from the attribute set, so that I'll have more
 liberty to use `rec`.
 
-With flakes, everything has to be commited with Git. The `nix` commands won't
+With flakes, everything has to be committed with Git. The `nix` commands won't
 work unless, they're part of the repository. Any `.nix` file that is referenced
 by the flakes, has to be part of the repository.
 
