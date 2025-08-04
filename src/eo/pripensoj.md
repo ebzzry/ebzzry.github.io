@@ -522,3 +522,6 @@ ordigitaj laŭ kronologiordo.
 
 
 - Artifikita idioteco estas kaŝvesto por vera idioteco.<br>
+
+
+- Diru al mi tion kiun vi provas solvi, kaj mi diros al vi kiu vi estas.<br>
