@@ -1,18 +1,19 @@
 ---
-title: How I Make Common Lisp Projects
-keywords: lisp, projects, common lisp, scripting, linux, macos
+title: How I Make Lisp Projects
+keywords: lisp, projects, common lisp, linux, macos
 image: https://ebzzry.com/images/site/lisp-lizard.png
 ---
-How I Make Common Lisp Projects
-===============================
+How I Make Lisp Projects
+========================
 
-<div class="center">English ∅ [Esperanto](/eo/lispa-projekto/)</div>
-<div class="center">Mon Aug 4 15:39:29 2025 +0800</div>
+<div class="center">English ∅ [Esperanto](/eo/lispaj-projektoj/)</div>
+<div class="center">2025-08-04 15:39:29 +0800</div>
 
 >You have no idea what you’re trying to achieve until you’ve achieved it.<br>
 >—Gerald Jay Sussman
 
 <img src="/images/site/lisp-lizard-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="lisp lizard" title="lisp lizard"/>
+
 
 <a name="toc">Table of contents</a>
 -----------------------------------
@@ -20,6 +21,9 @@ How I Make Common Lisp Projects
 - [Introduction](#introduction)
 - [Motivation](#motivation)
 - [Installation](#installation)
+  + [SBCL](#sbcl)
+  + [Quicklisp](#quicklisp)
+  + [Marie](#marie)
 - [Basics](#basics)
 - [Closing remarks](#closing)
 
@@ -30,7 +34,7 @@ How I Make Common Lisp Projects
 My original intention in writing this article was to create a part 2 of the
 first article about scripting in Lisp. My plan was to talk about how I approach
 command line scripting using Lisp. Instead, what I want to talk about now is how
-I make Common Lisp projects, in a way that reduces the initial time to write
+I make Lisp projects, in a way that reduces the initial time to write
 boilerplate code. I do this, a lot, that I thought that it would be better to
 talk about it instead. Incidentally, this approach does make use of how I write
 Lisp scripts for the command line. I believe, I’ll be able to hit somewhat like
@@ -48,7 +52,7 @@ My primary motivation in writing my own project maker came from not liking the
 ones that are already out there. I don’t like them not because the suck. I don’t
 like them because they don’t fit my needs. I have my own way of structuring my
 files and directories, and modifying those existing tools to fit my needs would
-essentially mean rolling out with my own tool.
+essentially mean rolling out with my own tool, eventually.
 
 Another reason why I want to roll my own is ability to specify the components
 that I need for the projects that we do. My engineering team has specific needs
@@ -78,7 +82,7 @@ The only decent open source Lisp implementation, nowadays, is
 macOS, and Windows. It produces high-quality optimized code. On the commercial
 side of things is [LispWorks](https://lispworks.com), which is the one that I
 use as my daily driver. The other ones are nice, but they’re not available on
-both Linux x86_64 and macOs aarch64, which are the systems that I care about
+both Linux x86_64 and macOS aarch64, which are the systems that I care about
 now.
 
 You can go directly to SBCL’s site to download it, or you can use your operating
@@ -105,6 +109,7 @@ sbcl --noinform --eval '(princ (ql:client-version))' --quit
 ```
 
 It should say something like
+
 ```
 "2021-02-13"
 ```
@@ -124,31 +129,31 @@ sbcl --noinform --eval '(ql:quickload :clingon)' --quit
 ```
 
 Next, let’s put a stub function in your shell configuration to make things
-easier. Run this command, and change `~/.zshrc` to `~/.bashrc` if you’re using
-Bash.
+easier. Run this command, and change `~/.zshenv` to `~/.bashrc`, appropriately:
 
 ```sh
-cat >> ~/.zshrc << EOF
+cat >> ~/.zshenv << EOF
 function mk {
   sbcl --noinform --eval '(ql:quickload :marie)' --eval "(marie:make-project \"\$1\")" --quit
 }
 EOF
-. ~/.zshrc
+. ~/.zshenv
 ```
 
 But, you get the idea.
+
 
 <a name="basics">Basics</a>
 ---------------------------
 
 Now that we all the requirements installed, you can now create a project called
-`foo`.
+`foo`:
 
 ```sh
 mk foo
 ```
 
-What this does is it creates this tree
+What this does is it creates this tree:
 
 ```sh
 ├── flake.nix
@@ -174,7 +179,7 @@ What this does is it creates this tree
 3 directories, 17 files
 ```
 
-To test that `foo` works, let’s build its command line executable
+To test that `foo` works, let’s build its command line executable:
 
 ```sh
 cd ~/common-lisp/foo

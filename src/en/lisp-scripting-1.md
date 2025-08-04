@@ -1,13 +1,13 @@
 ---
-title: Scripting in Common Lisp
+title: Scripting in Lisp
 keywords: lisp, common lisp, scripting, linux, macos
 image: https://ebzzry.com/images/site/lispo-simbolo.jpg
 ---
-Scripting in Common Lisp
-========================
+Scripting in Lisp
+=================
 
-<div class="center">English ∅ [Esperanto](/eo/skripti-lispon/)</div>
-<div class="center">Tue Sep 25 11:06:33 2018 +0800</div>
+<div class="center">English ∅ [Esperanto](/eo/lispaj-skriptoj-1-a/)</div>
+<div class="center">2018-09-25 11:06:33 +0800</div>
 
 >The light that burns twice as bright burns half as long.<br>
 >—Dr. Eldon Tyrell, Blade Runner (1982)
@@ -32,15 +32,15 @@ Scripting in Common Lisp
 <a name="introduction"></a>Introduction
 ---------------------------------------
 
-Full-fledged systems and libraries have always been a comfortable zone for Common Lisp
-users. However, for a long time, there has not been a definitive solution in using CL as a scripting
+Full-fledged systems and libraries have always been a comfortable zone for Lisp
+users. However, for a long time, there has not been a definitive solution in using Lisp as a scripting
 language. A scripting language, in this context, means something that is similar in spirit to
 command line shells—that is, one that is used to issue, control, and manage system commands on the
 application level. The meaning also extends to the automation of the execution of tasks that are
-otherwise done one-by-one. In this article, I will give a short introduction on how to use CL in the
+otherwise done one-by-one. In this article, I will give a short introduction on how to use Lisp in the
 scripting domain.
 
-One of the most common questions I get when I mention that I want to do scripting in CL, is that why
+One of the most common questions I get when I mention that I want to do scripting in Lisp, is that why
 would I want to do so and is it possible. The answer is simple: I want more power and
 expressivity. I want a mature and unencumbered language. I want a language that is able to express
 my ideas, in least amount of friction.
@@ -48,32 +48,32 @@ my ideas, in least amount of friction.
 A script is only as powerful as the language and tools would allow. Bash and friends, for example,
 are great for expressing ideas, as if you are typing them on the command line itself. It emulates
 that behavior inside a script. You can define functions to do subroutines, but they’re just
-that. Functions in Bash are nowhere near functions in languages like CL. As an interactive user
+that. Functions in Bash are nowhere near functions in languages like Lisp. As an interactive user
 shell, it works fine; other than that, no.
 
 Other scripting solutions exist in other languages. Haskell, Python, Scheme, and Ruby, to name a
-few, has it. However, there’s a neat feature of CL, that is difficult to implement or non-existent in
-other approaches: since the scripts themselves are valid CL programs, I can load the programs
-in the REPL and do nice things with it. Nothing comes close to the flexibility that CL provides when
+few, has it. However, there’s a neat feature of Lisp, that is difficult to implement or non-existent in
+other approaches: since the scripts themselves are valid Lisp programs, I can load the programs
+in the REPL and do nice things with it. Nothing comes close to the flexibility that Lisp provides when
 interacting with live, running programs.
 
-In this short tutorial, I will also lightly gloss about one nice thing with CL scripting: multi-call
+In this short tutorial, I will also lightly gloss about one nice thing with Lisp scripting: multi-call
 binaries. A multi-call binary is a single executable file that can be dereferenced with many
 names. Each name corresponds to a specific subroutine inside that single binary. The beauty of this
 approach is that instead of managing many different programs, you only manage one, and it will
-dispatch the correct subprogram that a user wants. This is similar to what Busybox is doing. In CL,
+dispatch the correct subprogram that a user wants. This is similar to what Busybox is doing. In Lisp,
 this is handled by [cl-launch](https://github.com/fare/cl-launch).
 
 
 <a name="prerequisites"></a>Prerequisites
 ------------------------------------------
 
-Scripting in CL works on top of the language, that is, in the form of libraries that provide the
+Scripting in Lisp works on top of the language, that is, in the form of libraries that provide the
 abstractions to interact with the system and
 environment. [Utilities for Implementation- and OS- Portability (UIOP)](https://gitlab.common-lisp.net/asdf/asdf/tree/master/uiop) is
-a set of abstractions that lets us use and write portable CL code. It does the heavy lifting of
+a set of abstractions that lets us use and write portable Lisp code. It does the heavy lifting of
 making sure that we are going to write portable Lisp code. UIOP is part of ASDF3—which is part of
-most modern CL implementations—so there is no need to manually install
+most modern Lisp implementations—so there is no need to manually install
 it. [inferior-shell](https://github.com/fare/inferior-shell) helps us with managing
 processes. [cl-scripting](https://github.com/fare/cl-scripting) helps us with more process control.
 
@@ -110,7 +110,7 @@ Then, let’s create `my-scripts.asd` in that directory. To start, it will conta
 
 (defsystem "my-scripts"
   :version "0.0.1"
-  :description "CL scripts"
+  :description "Lisp scripts"
   :license "MIT"
   :author "Muno VAKELO"
   :class :package-inferred-system

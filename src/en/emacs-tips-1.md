@@ -7,7 +7,7 @@ Emacs Tips and Tricks 1: Regions and Marks
 ==========================================
 
 <div class="center">English ∅ [Esperanto](/eo/emakskonsiletoj-1-a/)</div>
-<div class="center">Wed Oct 18 19:55:10 2017 +0800</div>
+<div class="center">2017-10-18 19:55:10 +0800</div>
 
 >Don't raise your voice; improve your argument.<br>
 >—Desmond Tutu

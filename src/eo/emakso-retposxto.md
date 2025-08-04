@@ -7,7 +7,7 @@ Agordi Retpoŝton per Emakso
 ===========================
 
 <div class="center">[English](/en/emacs-mail/) ∅ Esperanto</div>
-<div class="center">mer feb 2 22:22:42 2022 +0800</div>
+<div class="center">2022-02-02 22:22:42 +0800</div>
 
 >Nur pro tio, ke ne fariĝis io, ne signifas, ke ne fareblas ĝi. Nur pro tio, ke fareblas io, ne signifas, ke farendas ĝi.<br>
 >—Barry GLASFORD

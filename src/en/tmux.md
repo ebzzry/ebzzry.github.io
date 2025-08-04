@@ -7,7 +7,7 @@ How I Use Tmux
 ==============
 
 <div class="center">English ∅ [Esperanto](/eo/timukso)</div>
-<div class="center">Thu Oct 19 11:12:42 2017 +0800</div>
+<div class="center">2017-10-19 11:12:42 +0800</div>
 
 >Furious activity is no substitute for understanding.<br>
 >—H.H. Williams

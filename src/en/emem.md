@@ -7,7 +7,7 @@ Converting Markdown to HTML with emem
 =====================================
 
 <div class="center">English ∅ [Esperanto](/eo/emem/)</div>
-<div class="center">Thu Mar 16 22:35:44 2017 +0800</div>
+<div class="center">2017-03-16 22:35:44 +0800</div>
 
 >The answers you seek you will never find until you stop looking outside and start looking for them
 >within yourself.<br>

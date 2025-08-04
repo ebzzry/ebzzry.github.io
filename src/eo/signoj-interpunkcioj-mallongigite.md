@@ -7,7 +7,7 @@ Signoj kaj Interpunkcioj (Mallongigite)
 =======================================
 
 <div class="center">[English](/en/symbols-marks-condensed/) ∅ Esperanto</div>
-<div class="center">dim jul 22 03:16:09 2018 +0800</div>
+<div class="center">2018-07-22 03:16:09 +0800</div>
 
 >Se oni volas atingi grandiozon, ĉesu peti konsentojn.<br>
 >—Eddie COLLA

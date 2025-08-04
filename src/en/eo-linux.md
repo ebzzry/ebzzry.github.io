@@ -7,7 +7,7 @@ Esperanto Characters in Linux
 =============================
 
 <div class="center">English ∅ [Esperanto](/eo/eo-linukso/)</div>
-<div class="center">Mon Sep 17 22:50:53 2018 +0800</div>
+<div class="center">2018-09-17 22:50:53 +0800</div>
 
 >If you want something you’ve never had, you must be willing to do something you’ve never
 >done.<br>

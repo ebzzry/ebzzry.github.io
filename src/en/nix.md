@@ -7,7 +7,7 @@ A Gentle Introduction to the Nix Family
 =======================================
 
 <div class="center">English ∅ [Esperanto](/eo/nix/)</div>
-<div class="center">Wed Mar 29 17:16:49 2017 +0800</div>
+<div class="center">2017-03-29 17:16:49 +0800</div>
 
 >Don’t worry about what anybody else is going to do. The best way to predict the future is to
 >invent it.<br>
@@ -732,7 +732,7 @@ nix-repl> meh.a
 ```
 
 It is also possible to specify default values. When a parameter with default value is not used, the
-default value will be used. They are declared similarly in Common Lisp:
+default value will be used. They are declared similarly in Lisp:
 
 ```lisp
 * (defun foof (a &optional (b "O.o"))

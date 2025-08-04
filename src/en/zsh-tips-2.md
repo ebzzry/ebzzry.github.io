@@ -7,7 +7,7 @@ Zsh Tips 2: Directory Stacks
 ============================
 
 <div class="center">English ∅ [Esperanto](/eo/zisxkonsiletoj-2-a/)</div>
-<div class="center">Thu Oct 19 11:12:42 2017 +0800</div>
+<div class="center">2017-10-19 11:12:42 +0800</div>
 
 >What we do for ourselves dies with us. What we do for others remains forever.<br>
 >—Albert Pike

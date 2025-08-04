@@ -1,13 +1,13 @@
 ---
-title: Skriptado en Komunlispo
+title: Lispaj Skriptoj 1-a
 keywords: lispo, komuna lispo, komunlispo, skriptado, linukso 
 image: https://ebzzry.com/images/site/lispo-simbolo.jpg
 ---
-Skriptado en Komunlispo
-=======================
+Lispaj Skriptoj 1-a
+===================
 
 <div class="center">[English](/en/lisp-scripting-1) ∅ Esperanto</div>
-<div class="center">mar sep 25 11:06:33 2018 +0800</div>
+<div class="center">2018-09-25 11:06:33 +0800</div>
 
 >La lumo kiu fajras duoble brila, fajras duone longa.<br>
 >—D-ro Eldon TYRELL, Blade Runner (1982)
