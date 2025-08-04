@@ -7,7 +7,7 @@ Setting up Scheme Development in Emacs
 ======================================
 
 <div class="center">English ∅ [Esperanto](/eo/emakso-skimo/)</div>
-<div class="center">Wed Feb 2 22:22:42 2022 +0800</div>
+<div class="center">2022-02-02 22:22:42 +0800</div>
 
 >All the good ideas never lie under one hat.<br>
 >—Dale Turner

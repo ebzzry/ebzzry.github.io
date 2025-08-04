@@ -7,7 +7,7 @@ Malŝparita Senĉeseco
 ====================
 
 <div class="center">[English](/en/squandered/) ∅ Esperanto</div>
-<div class="center">ĵaŭ mar 17 16:45:46 2022 +0800</div>
+<div class="center">2022-03-17 16:45:46 +0800</div>
 
 >La unua paŝo por iri ien estas decidi, ke oni ne restos kie oni estas.<br>
 >—J.P. MORGAN

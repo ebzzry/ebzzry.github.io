@@ -7,7 +7,7 @@ Symbols and Marks
 =================
 
 <div class="center">English ∅ [Esperanto](/eo/signoj-interpunkcioj/)</div>
-<div class="center">Fri Apr 8 21:35:50 2016 +0800</div>
+<div class="center">2016-04-08 21:35:50 +0800</div>
 
 >If you want to achieve greatness, stop asking for permission.<br>
 >—Eddie Colla

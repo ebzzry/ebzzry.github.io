@@ -7,7 +7,7 @@ Esperanto-signoj en Linukso
 ===========================
 
 <div class="center">[English](/en/eo-linux/) ∅ Esperanto</div>
-<div class="center">mer sep 26 15:13:06 2018 +0800</div>
+<div class="center">2018-09-26 15:13:06 +0800</div>
 
 >Se ion oni volas, kion oni neniam havis, oni devas esti servopreta tion fari, kion oni neniam
 >faris.<br>

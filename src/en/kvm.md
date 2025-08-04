@@ -7,7 +7,7 @@ Virtualizing with KVM in Linux
 ==============================
 
 <div class="center">English ∅ [Esperanto](/eo/kvm/)</div>
-<div class="center">Sat May 7 09:33:08 2016 +0800</div>
+<div class="center">2016-05-07 09:33:08 +0800</div>
 
 >If you do what you’ve always done, you’ll get what you’ve always gotten.<br>
 >—Anthony Robbins

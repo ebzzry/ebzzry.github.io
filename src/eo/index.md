@@ -13,6 +13,7 @@ image: https://ebzzry.com/images/site/books-1008x250.jpg
 
 <div class="text-right">Retejo pri informadiko, hominklinaĵoj, kaj hazardaĵoj. La enskriboj estas ordigitaj laŭ inverskronologiordo.</div>
 
+- [Kiel Mi Kreas Lispajn Projektojn](lispaj-projektoj)
 - [Milda Enkonduko al Nix-Flokoj](flokoj)
 - [Kiel Mi Uzas la Kinesis Advantage360 Professional-Klavaron](adv360)
 - [Kiel Mi Uzas Giton ĉe la Komandlinio](gito)
@@ -22,7 +23,7 @@ image: https://ebzzry.com/images/site/books-1008x250.jpg
 - [Kiel Mi Uzas Timukson](timukso)
 - [Ziŝaj Konsiletoj 2-a: Dosierujstakoj](zisxkonsiletoj-2-a)
 - [Ziŝaj Konsiletoj 1-a: Alinomoj kaj Funkcioj](zisxkonsiletoj-1-a)
-- [Skriptado en Komunlispo](skripti-lispon)
+- [Lispaj Skriptoj 1-a](lispaj-skriptoj-1)
 - [Mia Markdaŭna Stilgvidilo](markdauxno)
 - [Emaksaj Konsiletoj 3-a: Enmeti kaj Forviŝi](emakskonsiletoj-3-a)
 - [Milda Enkonduko al la Nix-Familio](nix)

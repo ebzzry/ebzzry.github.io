@@ -7,7 +7,7 @@ Manipuli Dosierujojn en Emakso
 ==============================
 
 <div class="center">[English](/en/emacs-dired/) ∅ Esperanto</div>
-<div class="center">ven feb 4 13:07:18 2022 +0800</div>
+<div class="center">2022-02-04 13:07:18 +0800</div>
 
 >Supozi bonas, tamen eltrovi pli bonas.<br>
 >—Samuel CLEMENS

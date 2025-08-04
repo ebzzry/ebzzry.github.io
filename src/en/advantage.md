@@ -7,7 +7,7 @@ How I Use the Kinesis Advantage
 ===============================
 
 <div class="center">English ∅ [Esperanto](/eo/advantage/)</div>
-<div class="center">Tue Oct 27 00:35:27 2015 +0800</div>
+<div class="center">2015-10-27 00:35:27 +0800</div>
 
 >Pain is inevitable. Suffering is optional.<br>
 >—M. Kathleen Casey

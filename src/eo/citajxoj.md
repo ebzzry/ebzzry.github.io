@@ -1118,4 +1118,4 @@ tra la jaroj.
 - La matematiko, kompreneble, daŭras. Kaj la tialo kial ĝi daŭras estas ke oni ne povas diri per natura lingvo kelke da aferoj kiujn oni povas diri per matematikaj esprimoj.<br>—Gerald Jay SUSSMAN
 
 
-- Vi ne havas ideon kion vi provas atingi ĝis vi jam atingis ĝin.<br>—Gerald Jay SUSSMAN
+- Oni ne havas ideon kion oni provas atingi ĝis oni jam atingis ĝin.<br>—Gerald Jay SUSSMAN

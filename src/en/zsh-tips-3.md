@@ -7,7 +7,7 @@ Zsh Tips 3: Chroot Helpers
 ==========================
 
 <div class="center">English ∅ [Esperanto](/eo/zisxkonsiletoj-3-a/)</div>
-<div class="center">Fri Oct 20 19:15:18 2017 +0800</div>
+<div class="center">2017-10-20 19:15:18 +0800</div>
 
 >We laugh at that which we cannot bear to face.<br>
 >—Aristotle

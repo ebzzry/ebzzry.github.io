@@ -7,7 +7,7 @@ Emacs and Pairs
 ===============
 
 <div class="center">English ∅ [Esperanto](/eo/emakso-paroj/)</div>
-<div class="center">Sun Aug 16 13:29:53 2015 +0800</div>
+<div class="center">2015-08-16 13:29:53 +0800</div>
 
 >The white noise that beats within the white darkness is the rhythm of life; it is that pulse which
 >never truly left the stage.<br>

@@ -7,7 +7,7 @@ Symbols and Marks (Condensed)
 =============================
 
 <div class="center">English ∅ [Esperanto](/eo/signoj-interpunkcioj-mallongigite/)</div>
-<div class="center">Tue Mar 28 19:24:48 2017 +0800</div>
+<div class="center">2017-03-28 19:24:48 +0800</div>
 
 >If you want to achieve greatness, stop asking for permission.<br>
 >—Eddie Colla
