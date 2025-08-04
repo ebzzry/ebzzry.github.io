@@ -1,10 +1,10 @@
 ---
-title: Lispaj Skriptoj 1-a
+title: Lispaj Skriptoj 1-a: Plurvokaj Plenumeblaj Dosieroj
 keywords: lispo, komuna lispo, komunlispo, skriptado, linukso 
-image: https://ebzzry.com/images/site/lispo-simbolo.jpg
+image: https://ebzzry.com/images/site/lisp-lizard-1008x250.png
 ---
-Lispaj Skriptoj 1-a
-===================
+Lispaj Skriptoj 1-a: Plurvokaj Plenumeblaj Dosieroj
+===================================================
 
 <div class="center">[English](/en/lisp-scripting-1) ∅ Esperanto</div>
 <div class="center">2018-09-25 11:06:33 +0800</div>
@@ -12,10 +12,10 @@ Lispaj Skriptoj 1-a
 >La lumo kiu fajras duoble brila, fajras duone longa.<br>
 >—D-ro Eldon TYRELL, Blade Runner (1982)
 
-<img src="/images/site/lispo-simbolo.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="common-lisp.net emblemo" title="common-lisp.net emblemo"/>
+<img src="/images/site/lisp-lizard-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="lisp lizard" title="lisp lizard"/>
 
 
-<a name="et"></a>Enhavotabelo
+<a name="et">Enhavotabelo</a>
 -----------------------------
 
 - [Enkonduko](#enkonduko)
@@ -29,7 +29,7 @@ Lispaj Skriptoj 1-a
 - [Finrimarkoj](#finrimarkoj)
 
 
-<a name="Enkonduko"></a>Enkonduko
+<a name="Enkonduko">Enkonduko</a>
 ---------------------------------
 
 Plenaj tutaj sistemoj kaj bibliotekoj estas ĉiam komfortaj areoj por komunlispaj
@@ -67,7 +67,7 @@ la ĝustan proceduron ĝi disdonos kiu uzanto deziras. Ĉi tio similas al kiun B
 faras. Komunlispe ĉi tio estas traktita de [cl-launch](https://github.com/fare/cl-launch).
 
 
-<a name="antkauxkondicxoj"></a>Antaŭkondiĉoj
+<a name="antkauxkondicxoj">Antaŭkondiĉoj</a>
 --------------------------------------------
 
 Skriptado en komunlispo funkcias super la lingvo, tio estas, en la formo de bibliotekoj kiuj la
@@ -94,7 +94,7 @@ Per Nixpkgs:
 ---------------------------------
 
 
-### <a name="dosierindikoj"></a>Dosierindikoj
+### <a name="dosierindikoj">Dosierindikoj</a>
 
 Komencante, novan projektan dosierujon ni kreu. La projekton ni kunmetu en `$HOME/common-lisp`.
 
@@ -104,7 +104,7 @@ Komencante, novan projektan dosierujon ni kreu. La projekton ni kunmetu en `$HOM
 inde por noti, ke ne gravas se `$HOME/common-lisp` estas kutima dosierujo aŭ simbolligilo al iu.
 
 
-### <a name="difinoj"></a>Difinoj
+### <a name="difinoj">Difinoj</a>
 
 Tiam la dosieron `my-scripts.asd` ni kreu en tiu dosierujo. Por komenci, la jenan ĝi havos:
 
@@ -214,7 +214,7 @@ kreas la opcio `‑‑system $(NAME)` ŝargas. La enirejo de nia programo la opc
 `‑‑dispatch-system $(NAME)/main` precizigas.
 
 
-### <a name="kunmetado"></a>Kunmetado
+### <a name="kunmetado">Kunmetado</a>
 
 Ni nun pretas por la skripton kaj la simbolligilojn krei. Por tion fari, rulu:
 
@@ -241,7 +241,7 @@ Por kontroli, ke ĝi efektive funkcias, rulu:
 Sa la uzantnumeron ĝi montras, tiam ni povas daŭrigi.
 
 
-<a name="pli"></a>Pli
+<a name="pli">Pli</a>
 ---------------------
 
 Ni supozu, ke la baterian staton de la tekkomputilo oni volas scii de la komandlinio. Tion ni povas
@@ -396,7 +396,7 @@ my-scripts available commands: battery chrome continue-chrome getuid help kill-c
 Hura!
 
 
-<a name="avertoj"></a>Avertoj
+<a name="avertoj">Avertoj</a>
 -----------------------------
 
 Gravan aferon por teni en la kalkulo, estas, en la difinoj, komunlispajn ŝlosilvortojn oni ne povas uzi kiel la nomo de komando. Do ene `EXPORTING-DEFINITIONS` la jenan oni ne povas havi:
@@ -411,7 +411,7 @@ Se tion oni faras kaj la dosieron oni provas kompili, la komunlispa realigo plen
 estas jam uzata.
 
 
-<a name="finrimarkoj"></a>Finrimarkoj
+<a name="finrimarkoj">Finrimarkoj</a>
 -------------------------------------
 
 Onidire ke komunlispo jam velkiĝis al obskuro; ke ĝin oni ne plu uzas; ke ĝi ne plu utilas. Ne, tio
@@ -428,5 +428,3 @@ La priresponda homo por komunlispon igi ebla kaj akceptebla estas
 [François-René RIDEAU](http://fare.tunes.org). Estis
 [ĉi tiu blogo](http://fare.livejournal.com/184127.html) kiu min inspiris por la
 vivpovecon vidi de komunlispo kiel skriptada lingvo.
-
-_La paĝa rubando supre venis el [common-lisp.net](https://common-lisp.net/)._

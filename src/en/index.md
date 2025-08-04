@@ -23,7 +23,7 @@ image: https://ebzzry.com/images/site/books-1008x250.jpg
 - [How I Use Tmux](tmux)
 - [Zsh Tips 2: Directory Stacks](zsh-tips-2)
 - [Zsh Tips 1: Aliases and Functions](zsh-tips-1)
-- [Scripting in Lisp](lisp-scripting-1)
+- [Lisp Scripts 1: Multi-Call Binaries](lisp-scripts-1)
 - [My Markdown Style Guide](markdown)
 - [Emacs Tips 3: Insert and Delete](emacs-tips-3)
 - [A Gentle Introduction to the Nix Family](nix)

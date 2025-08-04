@@ -1,10 +1,10 @@
 ---
-title: Scripting in Lisp
+title: Lisp Scripts 1: Multi-Call Binaries
 keywords: lisp, common lisp, scripting, linux, macos
-image: https://ebzzry.com/images/site/lispo-simbolo.jpg
+image: https://ebzzry.com/images/site/lisp-lizard-1008x250.png
 ---
-Scripting in Lisp
-=================
+Lisp Scripts 1: Multi-Call Binaries
+===================================
 
 <div class="center">English ∅ [Esperanto](/eo/lispaj-skriptoj-1-a/)</div>
 <div class="center">2018-09-25 11:06:33 +0800</div>
@@ -12,10 +12,10 @@ Scripting in Lisp
 >The light that burns twice as bright burns half as long.<br>
 >—Dr. Eldon Tyrell, Blade Runner (1982)
 
-<img src="/images/site/lispo-simbolo.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="common-lisp.net logo" title="common-lisp.net logo"/>
+<img src="/images/site/lisp-lizard-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="lisp lizard" title="lisp lizard"/>
 
 
-<a name="toc"></a>Table of contents
+<a name="toc">Table of contents</a>
 ------------------------------------
 
 - [Introduction](#introduction)
@@ -29,7 +29,7 @@ Scripting in Lisp
 - [Closing remarks](#closing)
 
 
-<a name="introduction"></a>Introduction
+<a name="introduction">Introduction</a>
 ---------------------------------------
 
 Full-fledged systems and libraries have always been a comfortable zone for Lisp
@@ -65,7 +65,7 @@ dispatch the correct subprogram that a user wants. This is similar to what Busyb
 this is handled by [cl-launch](https://github.com/fare/cl-launch).
 
 
-<a name="prerequisites"></a>Prerequisites
+<a name="prerequisites">Prerequisites</a>
 ------------------------------------------
 
 Scripting in Lisp works on top of the language, that is, in the form of libraries that provide the
@@ -87,10 +87,10 @@ To install on systems that use Nix:
     $ nix-env -i cl-launch
 
 
-<a name="basics"></a>Basics
+<a name="basics">Basics</a>
 ----------------------------
 
-### <a name="paths"></a>Paths
+### <a name="paths">Paths</a>
 
 To get started, let’s create a new project directory. We will build our project in
 `$HOME/common-lisp`.
@@ -101,7 +101,7 @@ This directory is one of the standard paths that ASDF will crawl, for `.asd` fil
 nothing that it doesn’t matter if `$HOME/common-lisp` is a regular directory or a symlink to one.
 
 
-### <a name="definitions"></a>Definitions
+### <a name="definitions">Definitions</a>
 
 Then, let’s create `my-scripts.asd` in that directory. To start, it will contain the following:
 
@@ -212,7 +212,7 @@ system the we are building. The `‑‑dispatch-system $(NAME)/main` specifies t
 program.
 
 
-### <a name="building"></a>Building
+### <a name="building">Building</a>
 
 We are now ready to build the script and the symlinks. To do that, run:
 
@@ -240,7 +240,7 @@ To test that it indeed works, run:
 If it displays your UID, we’re good to go.
 
 
-<a name="more"></a>More
+<a name="more">More</a>
 -----------------------
 
 Say, you want to know the battery status of your laptop from the command line. We can define that
@@ -399,7 +399,7 @@ Yay!
 <a name="caveats">Caveats</a>
 -----------------------------
 
-An important thing to note is that in the definitions, you can’t use a CL keyword as the name of
+An important thing to note is that in the definitions, you can’t use a Lisp keyword as the name of
 the command. So inside `EXPORTING-DEFINITIONS`, you can’t have something like this:
 
 ```lisp
@@ -408,27 +408,26 @@ the command. So inside `EXPORTING-DEFINITIONS`, you can’t have something like 
     (run/i `(urxvt ,@args)`)))
 ```
 
-If you do, and try to compile the file, your CL implementation will complain about a name that is
+If you do, and try to compile the file, your Lisp implementation will complain about a name that is
 already in use.
 
 
 <a name="closing">Closing Remarks</a>
 --------------------------------------
 
-It has been said many times that CL has already faded into obscurity; that no one longer uses it;
+It has been said many times that Lisp has already faded into obscurity; that no one longer uses it;
 that it is no longer useful. No, that is not true. Just because it is not being discussed in
-mainstream news, means it is dead or have fallen out of favor. CL is a standardized language, and a
+mainstream news, means it is dead or have fallen out of favor. Lisp is a standardized language, and a
 program that conforms to the standard has the guarantee—to an extent—that it can still run in the
 future. To create a language standard is a monumental task—it requires that different, possibly
 conflicting parties, to agree to how things should be done. There are different implementations of
-CL, and each implementation strives to achieve goals that may not necessarily be compatible with
+Lisp, and each implementation strives to achieve goals that may not necessarily be compatible with
 other implementations. That’s OK, because it gives room for implementors and designers, on how to
 work on the base specifications. As long as they conform to the standard, things are green.
 
-The person responsible for making scripting in CL possible and acceptable, is
-[François-René Rideau](http://fare.tunes.org). It was 
-[this blog entry](http://fare.livejournal.com/184127.html) that motivated me to see the viability of CL as a scripting language.
+The person responsible for making scripting in Lisp possible and acceptable, is
+[François-René Rideau](http://fare.tunes.org). It was
+[this blog entry](http://fare.livejournal.com/184127.html) that motivated me to
+see the viability of Lisp as a scripting language.
 
 _Thanks to [Raymund Martinez](https://zhaqenl.github.io) and [Marco Wahl](https://marcowahl.github.io/busi/) for the corrections._
-
-_The banner image used at the top is from [common-lisp.net](https://common-lisp.net/)._

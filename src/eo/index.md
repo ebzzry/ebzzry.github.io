@@ -23,7 +23,7 @@ image: https://ebzzry.com/images/site/books-1008x250.jpg
 - [Kiel Mi Uzas Timukson](timukso)
 - [Ziŝaj Konsiletoj 2-a: Dosierujstakoj](zisxkonsiletoj-2-a)
 - [Ziŝaj Konsiletoj 1-a: Alinomoj kaj Funkcioj](zisxkonsiletoj-1-a)
-- [Lispaj Skriptoj 1-a](lispaj-skriptoj-1)
+- [Lispaj Skriptoj 1-a: Plurvokaj Plenumeblaj Dosieroj](lispaj-skriptoj-1-a)
 - [Mia Markdaŭna Stilgvidilo](markdauxno)
 - [Emaksaj Konsiletoj 3-a: Enmeti kaj Forviŝi](emakskonsiletoj-3-a)
 - [Milda Enkonduko al la Nix-Familio](nix)
