@@ -530,3 +530,6 @@ in chronological order.
 
 
 - Contrived idiocy is a disguise for true idiocy.<br>
+
+
+- Tell me what you’re trying to solve, and I’ll tell you who you are.<br>
