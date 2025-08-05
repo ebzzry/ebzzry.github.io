@@ -1133,3 +1133,12 @@ the years.
 
 
 - You have no idea what you’re trying to achieve until you’ve achieved it.<br>—Gerald Jay Sussman
+
+
+- Lisp is a forever language.<br>—Gerald Jay Sussman
+
+
+- There’s a philosophy of writing things properly rather than writing them just so that they work now.<br>—Gerald Jay Sussman
+
+
+- So I’m only developing now in forever languages, languages that are going to be around for 20, 30, 40, 50, 100 years from now.<br>—Gerald Jay Sussman

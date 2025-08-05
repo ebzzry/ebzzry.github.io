@@ -337,7 +337,7 @@ Jen aliaj komandoj kiujn ni ankaŭ devas difini.
 
 ```
       (i) touch .gitignore; "${git}" init; "${self}" a.; "${self}" cim "$@" ;;
-      (i!) "${self}" i "[supro] pravaloriziĝu" ;;
+      (i!) "${self}" i "[∅] pravalorizu" ;;
 
       (oo) "${self}" ph origin "$(git brh)" ;;
       (oo!) "${self}" ph! origin "$(git brh)" ;;
@@ -346,7 +346,7 @@ Jen aliaj komandoj kiujn ni ankaŭ devas difini.
 
 Kiam ajn novajn deponejon mi kreas, la jenan komandon mi rulas:
 
-    git i Pravaloriziĝu
+    git i '[∅] pravalorizu'
 
 Kion la `oo` subkomando faras estas ke la kodo puŝiĝos al la fordeponejo kiu
 nomiĝas `origin` sub la nomo de la aktuala branĉo. Ekzemple, se la aktuala
@@ -572,7 +572,7 @@ function git {
 
     case "${op}" in
       (i) touch .gitignore; "${git}" init; "${self}" a.; "${self}" cim "$@" ;;
-      (i!) "${self}" i "[supro] pravalorizu novdeponejon" ;;
+      (i!) "${self}" i "[∅] pravalorizu" ;;
 
       (s) "${git}" status ;;
       (c) "${git}" clone "$@" ;;
