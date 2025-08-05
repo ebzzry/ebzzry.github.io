@@ -14,7 +14,7 @@ This page contains contains some of my personal reflections. Entries are sorted
 in chronological order.
 
 
-- While the intrepid ones are braving the storms with courage and triumph, the
+- While the intrepids are braving the storms with courage and triumph, the
   cowards are basking in the shores of submission and conformity.<br>
 
 

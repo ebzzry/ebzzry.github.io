@@ -1119,3 +1119,12 @@ tra la jaroj.
 
 
 - Oni ne havas ideon kion oni provas atingi ĝis oni jam atingis ĝin.<br>—Gerald Jay SUSSMAN
+
+
+- Lispo estas eterna lingvo.<br>—Gerald Jay SUSSMAN
+
+
+- Estas filozofo de skribi aferojn ĝuste anstataŭ skribi ilin nur por ke ili funkciu nun.<br>—Gerald Jay SUSSMAN
+
+
+- Do mi nur programas nun per eternaj lingvoj, lingvoj kiuj vivos 20, 30, 40, 50, 100 jaroj ekde nun.<br>—Gerald Jay SUSSMAN

@@ -333,7 +333,7 @@ Here are other commands that we also need to define:
 
 ```
       (i) touch .gitignore; "${git}" init; "${self}" a.; "${self}" cim "$@" ;;
-      (i!) "${self}" i "[top-level] make initial commit" ;;
+      (i!) "${self}" i "[∅] make initial commit" ;;
 
       (oo) "${self}" ph origin "$(git brh)" ;;
       (oo!) "${self}" ph! origin "$(git brh)" ;;
@@ -341,7 +341,7 @@ Here are other commands that we also need to define:
 
 Whenever I create new repositories, I use the following command:
 
-    git i 'Initial commit'
+    git i '[∅] make initial commit'
 
 What the `oo` subcommand does is that code will be pushed to the remote
 named `origin` under the name of the current branch. For example, if the current
@@ -565,7 +565,7 @@ function git {
 
     case "${op}" in
       (i) touch .gitignore; "${git}" init; "${self}" a.; "${self}" cim "$@" ;;
-      (i!) "${self}" i "[supro] pravalorizu novdeponejon" ;;
+      (i!) "${self}" i "[∅] make initial commit" ;;
 
       (s) "${git}" status ;;
       (c) "${git}" clone "$@" ;;

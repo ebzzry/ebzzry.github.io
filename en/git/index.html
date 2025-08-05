@@ -126,11 +126,11 @@ hi</code></pre><p>With it, a shell function with the name <code>hi</code> was fi
       &#40;lp1&#41; &quot;${self}&quot; lp -1 ;;
       &#40;lpw&#41; &quot;${self}&quot; lp --word-diff=color ;;
 </code></pre><h3><a name="commands2">Other commands</a></h3><p>Here are other commands that we also need to define:</p><h4>Initialization and push helpers</h4><pre><code>      &#40;i&#41; touch .gitignore; &quot;${git}&quot; init; &quot;${self}&quot; a.; &quot;${self}&quot; cim &quot;$@&quot; ;;
-      &#40;i!&#41; &quot;${self}&quot; i &quot;&#91;top-level&#93; make initial commit&quot; ;;
+      &#40;i!&#41; &quot;${self}&quot; i &quot;&#91;∅&#93; make initial commit&quot; ;;
 
       &#40;oo&#41; &quot;${self}&quot; ph origin &quot;$&#40;git brh&#41;&quot; ;;
       &#40;oo!&#41; &quot;${self}&quot; ph! origin &quot;$&#40;git brh&#41;&quot; ;;
-</code></pre><p>Whenever I create new repositories, I use the following command:</p><pre><code>git i 'Initial commit'</code></pre><p>What the <code>oo</code> subcommand does is that code will be pushed to the remote named <code>origin</code> under the name of the current branch. For example, if the current branch is <code>trunk</code>, then I run the following command:</p><pre><code>git oo</code></pre><p>the command becomes</p><pre><code>git ph origin trunk</code></pre><h4>Rebasing</h4><pre><code>      &#40;rb&#41; &quot;${git}&quot; rebase &quot;$@&quot; ;;
+</code></pre><p>Whenever I create new repositories, I use the following command:</p><pre><code>git i '&#91;∅&#93; make initial commit'</code></pre><p>What the <code>oo</code> subcommand does is that code will be pushed to the remote named <code>origin</code> under the name of the current branch. For example, if the current branch is <code>trunk</code>, then I run the following command:</p><pre><code>git oo</code></pre><p>the command becomes</p><pre><code>git ph origin trunk</code></pre><h4>Rebasing</h4><pre><code>      &#40;rb&#41; &quot;${git}&quot; rebase &quot;$@&quot; ;;
       &#40;rbi&#41; &quot;${self}&quot; rb --interactive &quot;$@&quot; ;;
       &#40;rbc&#41; &quot;${self}&quot; rb --continue &quot;$@&quot; ;;
       &#40;rbs&#41; &quot;${self}&quot; rb --skip &quot;$@&quot; ;;
@@ -233,7 +233,7 @@ fi; git commit-tree \&quot;\$@\&quot;&quot; ;;
 
     case &quot;${op}&quot; in
       &#40;i&#41; touch .gitignore; &quot;${git}&quot; init; &quot;${self}&quot; a.; &quot;${self}&quot; cim &quot;$@&quot; ;;
-      &#40;i!&#41; &quot;${self}&quot; i &quot;&#91;supro&#93; pravalorizu novdeponejon&quot; ;;
+      &#40;i!&#41; &quot;${self}&quot; i &quot;&#91;∅&#93; make initial commit&quot; ;;
 
       &#40;s&#41; &quot;${git}&quot; status ;;
       &#40;c&#41; &quot;${git}&quot; clone &quot;$@&quot; ;;
