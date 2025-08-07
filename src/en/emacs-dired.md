@@ -18,7 +18,7 @@ Managing Directories with Emacs
 <a name="toc">Table of contents</a>
 -----------------------------------
 
-- [Introduciton](#introduction)
+- [Introduction](#introduction)
 - [Common commands](#commoncommands)
 - [Mark commands](#markcommands)
 - [Other commands](#othercommands)

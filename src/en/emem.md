@@ -30,7 +30,7 @@ Converting Markdown to HTML with emem
 
 I have always wanted a way to create HTML documents from my Markdown files. Initially, I simply
 wanted to have HTML files from my text files so that I can view them nicely on my phone. Later, I
-also wanted a way to create these files so that I can upload them on the internet and view them on
+also wanted a way to create these files so that I can upload them on the Internet and view them on
 other devices. There are tools that exist that does just that. I tried them, then I found myself
 frequently tweaking the output just to make it look acceptable. None of them fitted my criteria:
 easy to build, easy to use, and produces decent output.
@@ -174,7 +174,7 @@ If the contents of the site is predominantly not in English, it is good to speci
 is, to help search engines index your site properly; it also helps software, like screen readers,
 determine what language to use for the speech. For this, use the `-l` option:
 
-    $ emem -D 'Kie estas ĝin' -K 'kukurboj, hundegoj, afiŝoj' -l eo README.md
+    $ emem -D 'Kie estas ĝi' -K 'kukurboj, hundegoj, afiŝoj' -l eo README.md
 
 A complete list of the supported languages of modern browsers can be
 found [here](https://www.w3schools.com/tags/ref_language_codes.asp).

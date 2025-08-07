@@ -51,11 +51,11 @@ he intended. When you use a tank to kill a single mosquito, it is effective.
 
 Efficient communication happens when the exact amount of message is conveyed—no more; no less. An
 example is when someone gives accurate instructions to someone to do something, to a tee. This does
-not leave room for errors on the communicatee.
+not leave room for errors on the communicate.
 
 Frigid communication happens when cold manners of speaking are used. It carries the psychopathic
 methods of contemporary textbooks about communication. In a corporate or business setting, it is far
-too common to see everyone communicating to one another like rabid hyenas in a steel cage—sterile
+too common to see everyone communicating to one another like rabid hyenae in a steel cage—sterile
 and without compassion.
 
 In this article, I’m going to discuss how to approach communication in a human way. How is human
@@ -83,7 +83,7 @@ to modern computing systems that we have now. When we communicate messages that 
 take into account several factors including the variability of interpretation. Just because we
 clearly understand what we are saying does not mean that the other side of the communication
 understands it as well as we do. Were we able to sufficiently provide enough background and context
-to the communicatee? Were we able to accurately transfer our mental image of the ideas to the
+to the communicate? Were we able to accurately transfer our mental image of the ideas to the
 listener? Is he able to construct my thought processes as accurately as I want it to be? If just one
 of those questions is answered by a no, then we need to reassess how are we communicating.
 
@@ -101,7 +101,7 @@ wall only becomes thin with time.
 
 It is relatively easy to fall into a trap wherein our emotions would like to take charge of our
 communication processes. When we think that what we are communicating is not being assimilated well
-by the communicatee, we become frustrated and intolerant. When it happens, we push our ideas even
+by the communicate, we become frustrated and intolerant. When it happens, we push our ideas even
 harder down the avenue, which further exacerbates the already-dysfunctional communication. When we
 lack patience, we no longer understand why are we even communicating in the first place.
 

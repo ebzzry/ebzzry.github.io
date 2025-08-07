@@ -179,7 +179,7 @@ Se je `call/cc` oni ne havas, ĝin difinu per:
 ```
 
 En la angla, ĝi signifas _voku funkcion kun la aktuala daŭrigo_. Tiun nomon oni ankaŭ povas trakti
-kiel __voku funkcion kun la restanta komputo_. La funkcio, kiun ĝi vokas estas la lambdo. Kaj cetere,
+kiel _voku funkcion kun la restanta komputo_. La funkcio, kiun ĝi vokas estas la lambdo. Kaj cetere,
 la aktualan daŭrigon—la restantan komputon—`call/cc` pasas al tiu sennoma funkcio.
 
 En ĉi tiu lambdo:

@@ -179,7 +179,7 @@ If you’re using Nix, run:
 
     less ~/.nix-profile/share/X11/locale/en_US.UTF-8/Compose
 
-Male al tio, the advantage of the *Mode‎ߺ‎switch* method is speed. To see the list of character names
+Conversely, the advantage of the *Mode‎ߺ‎switch* method is speed. To see the list of character names
 available, click [here](https://wiki.linuxquestions.org/wiki/List_of_Keysyms_Recognised_by_Xmodmap).
 
 There’s no best way to do this—use whatever system that fits your style. If you’re already using the

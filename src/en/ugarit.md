@@ -9,7 +9,7 @@ Creating Backups with Ugarit
 <div class="center">English ∅ [Esperanto](/eo/ugarit/)</div>
 <div class="center">2018-09-25 10:42:52 +0800</div>
 
->Good judgement comes from experience, and experience comes from bad judgement.<br>
+>Good judgment comes from experience, and experience comes from bad judgment.<br>
 >—Fred Brooks
 
 <img src="/images/site/omar-flores-lQTbOWtysE-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="omar-flores-lQTbOWtysE-unsplash" title="omar-flores-lQTbOWtysE-unsplash"/>

@@ -81,7 +81,7 @@
   &#40;if &#40;region-active-p&#41;
       &#40;fill-region&#41;
       &#40;fill-paragraph&#41;&#41;&#41;
-</code></pre><h2><a name="cursormovement">Cursor movement</a></h2><p>The command <code>move-to-window-line-top-bottom</code>, bound by default to <kbd>M-r</kbd> is great when you want to move the cursor to the center, top, and bottom positions, relative to the window, similar to Vim’s <kbd>H</kbd>, <kbd>M</kbd>, and <kbd>L</kbd> commands.</p><p>However, it’s not very efficient when specifically targetting areas of the screen. The commands below position point, specifically to the top, center, and bottom window positions, respectively.</p><pre><code class="lisp">&#40;defun move-to-window-line-top &#40;&#41;
+</code></pre><h2><a name="cursormovement">Cursor movement</a></h2><p>The command <code>move-to-window-line-top-bottom</code>, bound by default to <kbd>M-r</kbd> is great when you want to move the cursor to the center, top, and bottom positions, relative to the window, similar to Vim’s <kbd>H</kbd>, <kbd>M</kbd>, and <kbd>L</kbd> commands.</p><p>However, it’s not very efficient when specifically targeting areas of the screen. The commands below position point, specifically to the top, center, and bottom window positions, respectively.</p><pre><code class="lisp">&#40;defun move-to-window-line-top &#40;&#41;
   &#40;interactive&#41;
   &#40;move-to-window-line 0&#41;&#41;
 

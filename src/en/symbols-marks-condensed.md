@@ -1,6 +1,6 @@
 ---
 title: Symbols and Marks (Condensed)
-keywords: symbols, marks, punctuations, linux, macos, windows, keyboard, summary, condensed
+keywords: symbols, marks, punctuation, linux, macos, windows, keyboard, summary, condensed
 image: https://ebzzry.com/images/site/stephen-johnson-Q8-Cc-IXRY-unsplash-1008x250.jpg
 ---
 Symbols and Marks (Condensed)

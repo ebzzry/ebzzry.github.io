@@ -149,7 +149,7 @@ EOF
 . ~/.zshenv
 ```
 
-Sed, vi jam scias la ĉefan ideon.
+Sed, vi jam scias la ĉefan ideon. Kaj cetere, mi ne faras ian ajn fiŝan ŝelan fekon.
 
 
 <a name="bazaferoj">Bazaferoj</a>

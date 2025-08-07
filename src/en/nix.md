@@ -1080,7 +1080,7 @@ software model.
 
 The collaboration model of Nixpkgs rests with git and GitHub. To contribute a package or update an
 existing one, fork the [Nixpkgs](https://github.com/nixos/nixpkgs/) repository into your own GitHub
-account. Mmake changes into a new branch, then create a pull request.
+account. Make changes into a new branch, then create a pull request.
 
 
 #### <a name="nixpkgsupdateexisting">Updating existing package</a>

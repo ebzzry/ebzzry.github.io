@@ -139,7 +139,7 @@ spoken or written. This tense is relative to the time the speaker or writer, spo
 ### <a name="pastprogressive">Past progressive</a>
 
 The past progressive tense shows an action that was happening in the past, when another action
-happened. The hint here is that an action was occuring, together with another action.
+happened. The hint here is that an action was occurring, together with another action.
 
 > Maria __was creating__ a beautiful painting, when Juan arrived from school.
 
