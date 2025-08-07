@@ -320,7 +320,7 @@ tmux selections.
 The `PRIMARY` selection is the one involved when you highlight something with your
 (mouse) pointer. You can extract the contents using Middle-click or <kbd>Shift+Insert</kbd>.
 
-The `CLIPBOARD` selection is the one involved when you explicity make a request to have something
+The `CLIPBOARD` selection is the one involved when you explicitly make a request to have something
 copied, usually done with <kbd>C-c</kbd>, `Right-click > Copy`, or `Edit > Copy`, with graphical
 applications, like web browsers. You can extract the contents using <kbd>C-v</kbd>,
 `Right-click > Paste`, or `Edit > Paste`.

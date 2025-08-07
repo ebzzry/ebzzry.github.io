@@ -50,7 +50,7 @@ ourselves and subsequently kill the essence of our individuality.
 As adults, we are taught to restrain ourselves inside cages that we ourselves have built and it is
 unnerving to see this monstrous act unfold before my short field of view, everyday. We drag
 ourselves towards solitary confinements of our own barbed rooms. We make ourselves fond of preaching
-doubt to our fellowmen. And if our own kind does the same, we see feelings of accomplishment. That
+doubt to our fellow men. And if our own kind does the same, we see feelings of accomplishment. That
 is not only horrendous, but also unsurprisingly stupid. When we were still young, we reach out to
 empty space, and create our own discoveries. We find out about things previously untaught to us.
 

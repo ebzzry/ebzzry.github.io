@@ -193,7 +193,7 @@ If you have the expression:
                 ^
 ```
 
-and you want to move point to the preceeding `]`:
+and you want to move point to the preceding `]`:
 
 ```clojure
 
@@ -672,7 +672,7 @@ respectively."
 <a name="closing"></a>Closing remarks
 -------------------------------------
 
-The plethora of commands in smartparens may be daunting at first, but the investement in time in
+The plethora of commands in smartparens may be daunting at first, but the investment in time in
 learning them, will be minimal compared to benefits that you will reap.
 
 smartparens is the brainchild of [Matus Goljer](https://github.com/Fuco1). For more information on

@@ -148,7 +148,7 @@ EOF
 . ~/.zshenv
 ```
 
-But, you get the idea.
+But, you get the idea. Also, I don’t do any of that fish shell crap.
 
 
 <a name="basics">Basics</a>

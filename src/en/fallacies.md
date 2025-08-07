@@ -243,7 +243,7 @@ This is committed when person B presents a distorted, weaker version of the argu
 holds. Person B then attacks this weaker version, and if triumphant, concludes that person A’s
 argument is defeated.
 
->Juan: “Alcohol ads should be banned from mass media, because it indirectly encourages underage drinking.”<br>
+>Juan: “Alcohol ads should be banned from mass media, because it indirectly encourages under-age drinking.”<br>
 >Pedro: “People have been drinking alcohol for a long time. They will continue to do so.”
 
 Pedro misrepresents the position of Juan as: “People should give up drinking alcohol.” That is not
@@ -340,7 +340,7 @@ ideal or good.
 >“Juana claims that if a product is not labeled ‘organic’ or ‘natural’, then it is not ideal for
 >consumption.”
 
-Cultivated tobacco (*Nicotiana tabacum*) is a naturally-occuring plant that is responsible for more
+Cultivated tobacco (*Nicotiana tabacum*) is a naturally-occurring plant that is responsible for more
 than five million deaths per year, around the world. Cyanide, one of the most toxic substances,
 occurs naturally.
 
@@ -511,7 +511,7 @@ then it follows that they must share other characteristics.
 >drink. The solar system spins, too. If the celestial bodies around the Sun spin fast enough,
 >something like that must be created, too.”
 
-The speaker convolutes something that is directly observable, to something that is inobservable, and
+The speaker convolutes something that is directly observable, to something that is unobservable, and
 draws conclusions based on false comparisons.
 
 

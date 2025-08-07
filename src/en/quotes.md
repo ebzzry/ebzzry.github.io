@@ -698,7 +698,7 @@ the years.
 
 
 - There are two contradictory slogans: One is that continuing to do the same thing and expecting a
-  diffirent result is the definition of insanity. On the other hand, if at first you don’t succeed,
+  different result is the definition of insanity. On the other hand, if at first you don’t succeed,
   try, try again. I prefer the latter because I don’t want to be remembered as the guy who
   didn’t.<br>—Ted Nelson
 

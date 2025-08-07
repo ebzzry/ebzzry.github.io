@@ -266,7 +266,7 @@ The command `move-to-window-line-top-bottom`, bound by default to <kbd>M-r</kbd>
 want to move the cursor to the center, top, and bottom positions, relative to the window, similar
 to Vim’s <kbd>H</kbd>, <kbd>M</kbd>, and <kbd>L</kbd> commands.
 
-However, it’s not very efficient when specifically targetting areas of the screen. The commands
+However, it’s not very efficient when specifically targeting areas of the screen. The commands
 below position point, specifically to the top, center, and bottom window positions, respectively.
 
 ```lisp

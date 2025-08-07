@@ -67,7 +67,7 @@ from GitHub:
     $ raco pkg install frog/ sxml/ livefrog/
 
 The trailing slashes are important, to tell `raco` that you are installing from local
-directories. Without it, it will try to fetch the sources from the internet.
+directories. Without it, it will try to fetch the sources from the Internet.
 
 
 <a name="basics"></a>Basics

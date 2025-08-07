@@ -440,7 +440,7 @@ in chronological order.
   can swim.<br>
 
 
-- One of the main problems with determing what reality is first defining what is
+- One of the main problems with determining what reality is first defining what is
   real. For all intents and purposes we can settle on an arbitrary level and say
   that that is real. Who or what is the arbiter in confirming to us whether our
   beliefs are true or not.<br>

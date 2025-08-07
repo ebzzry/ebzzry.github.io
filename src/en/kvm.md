@@ -239,7 +239,7 @@ the mouse input, press m<kbd>Shift+F12</kbd>, to get out of it.
 ### <a name="guestnetworking">Configure guest networking</a>
 
 Next, you need to properly configure the network configuration of the guest OS so that it can
-connect to the rest of the local network, and to the internet if the host machine has access to it.
+connect to the rest of the local network, and to the Internet if the host machine has access to it.
 
 IP address:
 
@@ -328,7 +328,7 @@ function kvm-display () {
 
 I’ll walk you through.
 
-Initially, setup the netoworking:
+Initially, setup the networking:
 
     $ kvm-net up
 
