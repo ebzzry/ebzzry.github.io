@@ -1131,3 +1131,6 @@ tra la jaroj.
 
 
 - Elektu laboron kiun vi amas, kaj konsekvece vi ne plu laboros tagon en via tuta vivo.<br>—Konfuceo
+
+
+- Sed por entreprenistoj, ni ne fokusas al produktoj. Ni fokusas al problemoj.<br>—John MULLINS
