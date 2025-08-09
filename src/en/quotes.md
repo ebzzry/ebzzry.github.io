@@ -1148,3 +1148,9 @@ the years.
 
 
 - But for entrepreneurs, we don’t focus on products. We focus on problems.<br>—John Mullins
+
+
+- Entrepreneurs don’t ask permission. They just get on with it.<br>—John Mullins
+
+
+- Those who have swords, and know how to use them, but keep them sheathed, will inherit the world.<br>—Jordan Peterson
