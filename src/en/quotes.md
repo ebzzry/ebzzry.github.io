@@ -1145,3 +1145,6 @@ the years.
 
 
 - Choose a job you love, and you will never have to work a day in your life.<br>—Confucius
+
+
+- But for entrepreneurs, we don’t focus on products. We focus on problems.<br>—John Mullins
