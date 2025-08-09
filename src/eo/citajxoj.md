@@ -1128,3 +1128,6 @@ tra la jaroj.
 
 
 - Do mi nur programas nun per eternaj lingvoj, lingvoj kiuj vivos 20, 30, 40, 50, 100 jaroj ekde nun.<br>—Gerald Jay SUSSMAN
+
+
+- Elektu laboron kiun vi amas, kaj konsekvece vi ne plu laboros tagon en via tuta vivo.<br>—Konfuceo
