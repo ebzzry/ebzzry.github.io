@@ -1142,3 +1142,6 @@ the years.
 
 
 - So I’m only developing now in forever languages, languages that are going to be around for 20, 30, 40, 50, 100 years from now.<br>—Gerald Jay Sussman
+
+
+- Choose a job you love, and you will never have to work a day in your life.<br>—Confucius
