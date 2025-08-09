@@ -1134,3 +1134,9 @@ tra la jaroj.
 
 
 - Sed por entreprenistoj, ni ne fokusas al produktoj. Ni fokusas al problemoj.<br>—John MULLINS
+
+
+- Entreprenistoj ne petas permeson. Ili simple iru.<br>—John MULLINS
+
+
+- Tiuj kiuj havas glavojn, kaj scias kiel uzi ilin, sed ili estas englavingitaj, heredas la mondon.<br>—Jordan PETERSON
