@@ -204,7 +204,9 @@ export GIT&#95;AUTHOR&#95;NAME=\&quot;${3}\&quot;; export GIT&#95;AUTHOR&#95;EMA
 fi; git commit-tree \&quot;\$@\&quot;&quot; ;;
 </code></pre><p>To change the word <code>foo</code> to <code>bar</code> in the commit message</p><pre><code>git cm &quot;sed 's/foo/bar/g'&quot;
 </code></pre>To change <code>John</code> to <code>Peter</code> in <code>README.md</code><pre><code>git ct &quot;sed 's/John/Peter/g' README.md&quot;
-</code></pre>To change the author and committer name from <code>John Doe &lt;john@foo.bar&gt;</code> to <code>Peter Smith &lt;peter@baz.qux&gt;</code><pre><code>git cc 'John Doe' john@foo.bar 'Peter Smith' peter@baz.qux</code></pre><h2><a name="all">Putting them all together</a></h2><p>Here are all the definitions in one location:</p><pre><code>function git {
+</code></pre>To change the author and committer name from <code>John Doe &lt;john@foo.bar&gt;</code> to <code>Peter Smith &lt;peter@baz.qux&gt;</code><pre><code>git cc 'John Doe' john@foo.bar 'Peter Smith' peter@baz.qux
+
+<h2></code></pre><a name="commitinfo">Commit informatino</a></h2><h2><a name="all">Putting them all together</a></h2><p>Here are all the definitions in one location:</p><pre><code>function git {
   local git= self= op=
 
   if &#91;&#91; -n &quot;${BASH}&quot; &#93;&#93;; then

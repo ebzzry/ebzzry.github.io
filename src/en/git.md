@@ -528,6 +528,11 @@ To change `John` to `Peter` in `README.md`
 To change the author and committer name from `John Doe <john@foo.bar>` to `Peter Smith <peter@baz.qux>`
 
     git cc 'John Doe' john@foo.bar 'Peter Smith' peter@baz.qux
+    
+    
+<a name="commitinfo">Commit informatino</a>
+-------------------------------------------
+
 
 
 <a name="all">Putting them all together</a>

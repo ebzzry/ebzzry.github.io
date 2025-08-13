@@ -110,13 +110,13 @@ instali ĝin sur linukso aŭ makintoŝo:
 curl -O https://beta.quicklisp.org/quicklisp.lisp && sbcl --load quicklisp.lisp --eval '(quicklisp-quickstart:install)' --eval '(let ((ql-util::*do-not-prompt* t)) (ql:add-to-init-file) (sb-ext:quit))'
 ```
 
-Por kontroli se ĝi jam estis instalita, rulu:
+Por kontroli se ĝi jam estis instalita, rulu la jenan:
 
 ```sh
 sbcl --noinform --eval '(princ (ql:client-version))' --quit
 ```
 
-Ĝi devas mencii ion kiel
+Ĝi devas mencii ion kiel la jenan:
 
 ```
 "2021-02-13"
@@ -127,8 +127,7 @@ sbcl --noinform --eval '(princ (ql:client-version))' --quit
 [Marie](https://github.com/vedainc/marie), aliflake, estas la biblioteko kiu
 faras la artifikojn de krei la projekton. Ni ankaŭ bezonas
 [Clingon](https://github.com/dnaeon/clingon) por helpi nin pri komandlinia
-analizado. Por preni ilin, rulu:
-
+analizado. Por preni ilin, rulu la jenan:
 
 ```sh
 mkdir ~/common-lisp
