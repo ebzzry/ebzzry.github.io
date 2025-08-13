@@ -207,7 +207,7 @@ hi</code></pre><p>Per ĝi, ŝelan funkcion kiu nomiĝas <code>hi</code> oni unue
 export GIT&#95;AUTHOR&#95;NAME=\&quot;${3}\&quot;; export GIT&#95;AUTHOR&#95;EMAIL=\&quot;${4}\&quot;; export GIT&#95;COMMITTER&#95;NAME=\&quot;${3}\&quot;; export GIT&#95;COMMITTER&#95;EMAIL=\&quot;${4}\&quot;;
 fi; git commit-tree \&quot;\$@\&quot;&quot; ;;
 </code></pre><p>Por ŝanĝi la vorton <code>foo</code> al <code>bar</code> en ĉiom da enmetada mesaĝo</p><pre><code>git cm &quot;sed 's/foo/bar/g'&quot;
-</code></pre>Por ŝanĝi <code>John</code> al <code>Peter</code> en <code>README.md</code><pre><code>git ct &quot;sed 's/John/Peter/g' README.md&quot;</code></pre><p>Por ŝanĝi la aŭtoron kaj la nomon de la enmetanto de <code>John Doe &lt;john@foo.bar&gt;</code> al <code>Peter Smith &lt;peter@bar.qux&gt;</code></p><pre><code>git cc 'John Doe' john@foo.bar 'Peter Smith' peter@baz.qux</code></pre><h2><a name="cxio">Ĉion rikolti</a></h2><p>Jen da difinoj en unu loko:</p><pre><code>function git {
+</code></pre>Por ŝanĝi <code>John</code> al <code>Peter</code> en <code>README.md</code><pre><code>git ct &quot;sed 's/John/Peter/g' README.md&quot;</code></pre><p>Por ŝanĝi la aŭtoron kaj la nomon de la enmetanto de <code>John Doe &lt;john@foo.bar&gt;</code> al <code>Peter Smith &lt;peter@bar.qux&gt;</code></p><pre><code>git cc 'John Doe' john@foo.bar 'Peter Smith' peter@baz.qux</code></pre><h2><a name="enmetinformo">Enmeta informo</a></h2><h2><a name="cxio">Ĉion rikolti</a></h2><p>Jen da difinoj en unu loko:</p><pre><code>function git {
   local git= self= op=
 
   if &#91;&#91; -n &quot;${BASH}&quot; &#93;&#93;; then

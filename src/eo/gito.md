@@ -537,6 +537,11 @@ al `Peter Smith <peter@bar.qux>`
     git cc 'John Doe' john@foo.bar 'Peter Smith' peter@baz.qux
 
 
+<a name="enmetinformo">Enmeta informo</a>
+-----------------------------------------
+
+
+
 <a name="cxio">Ĉion rikolti</a>
 -------------------------------
 

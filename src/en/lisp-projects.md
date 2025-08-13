@@ -86,7 +86,7 @@ both Linux x86_64 and macOS aarch64, which are the systems that I care about
 now.
 
 You can go directly to SBCL’s site to download it, or you can use your operating
-system package manager to install it. It should look something like this
+system package manager to install it. It should look something like this:
 
 ```sh
 sudo apt install -y sbcl
@@ -110,13 +110,13 @@ Linux/macOS is:
 curl -O https://beta.quicklisp.org/quicklisp.lisp && sbcl --load quicklisp.lisp --eval '(quicklisp-quickstart:install)' --eval '(let ((ql-util::*do-not-prompt* t)) (ql:add-to-init-file) (sb-ext:quit))'
 ```
 
-To verify that it works, run
+To verify that it works, run the following:
 
 ```sh
 sbcl --noinform --eval '(princ (ql:client-version))' --quit
 ```
 
-It should say something like
+It should say something like this:
 
 ```
 "2021-02-13"
@@ -127,7 +127,7 @@ It should say something like
 [Marie](https://github.com/vedainc/marie), on the other hand, is the library
 that does the shenanigans of creating the project. We also need
 [Clingon](https://github.com/dnaeon/clingon) to help us with command line
-parsing. To fetch them, run:
+parsing. To fetch them, run the following:
 
 ```sh
 mkdir ~/common-lisp
@@ -195,7 +195,7 @@ make
 ./foo --help
 ```
 
-It should show something like
+It should show something like the following:
 
 ```sh
 NAME:
