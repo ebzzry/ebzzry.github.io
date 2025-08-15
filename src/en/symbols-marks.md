@@ -20,7 +20,7 @@ Symbols and Marks
 <a name="toc">Table of contents</a>
 -----------------------------------
 
-- [Notes for Linux](#notesforlinux)
+- [Notes for GNU/Linux](#notesforlinux)
 - [Hyphen](#hyphen)
 - [En dash](#endash)
 - [Em dash](#emdash)
@@ -39,16 +39,16 @@ are better suited to perform symbol duties than their ill cousins from the typew
 addition to those symbols, I’m also going to talk about replacements to frequently-used incorrect
 symbols.
 
-Each section begins with an input sequence for Linux, Mac, and Windows systems,
+Each section begins with an input sequence for GNU/Linux, Mac, and Windows systems,
 respectively. The `+` symbol signifies that you press the key to its left, before you press the key
 to its right. That is, to input <kbd>⌥</kbd> + <kbd>Shift</kbd> + <kbd>-</kbd>, you must press and hold
 <kbd>⌥</kbd>, then press and hold <kbd>Shift</kbd>, then press <kbd>-</kbd>.
 
 
-<a name="notesforlinux">Notes for Linux</a>
--------------------------------------------
+<a name="notesforlinux">Notes for GNU/Linux</a>
+----------------------------------------------
 
-There is already a method to easily insert symbols in Linux. It is with the use of the
+There is already a method to easily insert symbols in GNU/Linux. It is with the use of the
 <kbd>Compose</kbd> key. Unfortunately, using this method is not economical. Instead, we use the
 <kbd>Mode‎ߺ‎switch</kbd> key. In this article the <kbd>🐧</kbd> key signifies the
 <kbd>Mode‎ߺ‎switch</kbd> key.
@@ -86,7 +86,7 @@ Then, run the following command:
 <a name="hyphen">Hyphen (-)</a>
 -------------------------------
 
-- Linux: <kbd>-</kbd>
+- GNU/Linux: <kbd>-</kbd>
 - Mac: <kbd>-</kbd>
 - Windows: <kbd>-</kbd>
 
@@ -104,7 +104,7 @@ To speak of a snake that eats birds, we say:
 <a name="endash">En dash (–)</a>
 --------------------------------
 
-- Linux: <kbd>🐧</kbd> + <kbd>-</kbd>
+- GNU/Linux: <kbd>🐧</kbd> + <kbd>-</kbd>
 - Mac: <kbd>⌥</kbd> <kbd>-</kbd>
 - Windows: <kbd>Alt</kbd> + <kbd>0</kbd> <kbd>1</kbd> <kbd>5</kbd> <kbd>0</kbd>
 
@@ -131,7 +131,7 @@ When the month is the same, used the unspaced en dash:
 <a name="emdash">Em dash (—)</a>
 --------------------------------
 
-- Linux: <kbd>🐧</kbd> + <kbd>Shift</kbd> + <kbd>-</kbd>
+- GNU/Linux: <kbd>🐧</kbd> + <kbd>Shift</kbd> + <kbd>-</kbd>
 - Mac: <kbd>⇧</kbd> <kbd>⌥</kbd> <kbd>-</kbd>
 - Windows: <kbd>Alt</kbd> + <kbd>0</kbd> <kbd>1</kbd> <kbd>5</kbd> <kbd>1</kbd>
 
@@ -161,13 +161,13 @@ To denote interruption of the speaker:
 
 Left double quotes (“)
 
-- Linux: <kbd>🐧</kbd> + <kbd>[</kbd>
+- GNU/Linux: <kbd>🐧</kbd> + <kbd>[</kbd>
 - Mac: <kbd>⌥</kbd> <kbd>[</kbd>
 - Windows: <kbd>Alt</kbd> + <kbd>0</kbd> <kbd>1</kbd> <kbd>4</kbd> <kbd>7</kbd>
 
 Right double quotes (”)
 
-- Linux: <kbd>🐧</kbd> + <kbd>]</kbd>
+- GNU/Linux: <kbd>🐧</kbd> + <kbd>]</kbd>
 - Mac: <kbd>⇧</kbd> <kbd>⌥</kbd> <kbd>[</kbd>
 - Windows: <kbd>Alt</kbd> + <kbd>0</kbd> <kbd>1</kbd> <kbd>4</kbd> <kbd>8</kbd>
 
@@ -199,13 +199,13 @@ nines:
 
 Left single quote (‘)
 
-- Linux: <kbd>🐧</kbd> + <kbd>`</kbd>
+- GNU/Linux: <kbd>🐧</kbd> + <kbd>`</kbd>
 - Mac: <kbd>⌥</kbd> <kbd>]</kbd>
 - Windows: <kbd>Alt</kbd> + <kbd>0</kbd> <kbd>1</kbd> <kbd>4</kbd> <kbd>5</kbd>
 
 Right single quote (’)
 
-- Linux: <kbd>🐧</kbd> + <kbd>'</kbd>
+- GNU/Linux: <kbd>🐧</kbd> + <kbd>'</kbd>
 - Mac: <kbd>⇧</kbd> <kbd>⌥</kbd> <kbd>]</kbd>
 - Windows: <kbd>Alt</kbd> + <kbd>0</kbd> <kbd>1</kbd> <kbd>4</kbd> <kbd>6</kbd>
 
@@ -267,13 +267,13 @@ Here, ‘A’ is the name of a specific train or it denotes a special meaning.
 
 Prime (′)
 
-- Linux: <kbd>🐧</kbd> + <kbd>,</kbd>
+- GNU/Linux: <kbd>🐧</kbd> + <kbd>,</kbd>
 - Mac: <kbd>⇧</kbd> <kbd>⌥</kbd> <kbd>e</kbd>
 - Windows: <kbd>Alt</kbd> + <kbd>8</kbd> <kbd>2</kbd> <kbd>4</kbd> <kbd>2</kbd>
 
 Double prime (″)
 
-- Linux: <kbd>🐧</kbd> + <kbd>Shift</kbd> + <kbd>,</kbd>
+- GNU/Linux: <kbd>🐧</kbd> + <kbd>Shift</kbd> + <kbd>,</kbd>
 - Mac: <kbd>⇧</kbd> <kbd>⌥</kbd> <kbd>g</kbd>
 - Windows: <kbd>Alt</kbd> + <kbd>8</kbd> <kbd>2</kbd> <kbd>4</kbd> <kbd>3</kbd>
 
@@ -302,7 +302,7 @@ Optimus′?
 <a name="horizontalellipsis">Horizontal ellipsis (…)</a>
 --------------------------------------------------------
 
-- Linux: <kbd>🐧</kbd> + <kbd>.</kbd>
+- GNU/Linux: <kbd>🐧</kbd> + <kbd>.</kbd>
 - Mac: <kbd>⌥</kbd> <kbd>;</kbd>
 - Windows: <kbd>Alt</kbd> + <kbd>0</kbd> <kbd>1</kbd> <kbd>3</kbd> <kbd>3</kbd>
 

@@ -95,7 +95,7 @@ up repairing your system and just decided to re-install your system from scratch
 files are easy; restoring system configuration from the last working state, however, is a one-way
 ticket to hell.
 
-[NixOS](https://nixos.org) is a Linux distribution that solves these problems by leveraging on the
+[NixOS](https://nixos.org) is a GNU/Linux distribution that solves these problems by leveraging on the
 determinism of [Nix](https://nixos.org/nix) and by using a single declarative configuration file
 that contains all settings and knobs in one place—`/etc/nixos/configuration.nix`. This file contains
 information about your filesystems, users, services, network configuration, input devices, kernel

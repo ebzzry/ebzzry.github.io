@@ -1,10 +1,10 @@
 ---
-title: Virtualizing with KVM in Linux
+title: Virtualizing with KVM in GNU/Linux
 keywords: kvm, qemu, linux
 image: https://ebzzry.com/images/site/pierre-chatel-innocenti-N6Hx4HT4mHg-unsplash-1008x250.jpg
 ---
-Virtualizing with KVM in Linux
-==============================
+Virtualizing with KVM in GNU/Linux
+==================================
 
 <div class="center">English ∅ [Esperanto](/eo/kvm/)</div>
 <div class="center">2016-05-07 09:33:08 +0800</div>
@@ -39,8 +39,7 @@ Virtualizing with KVM in Linux
 <a name="introduction">Introduction</a>
 ---------------------------------------
 
-Most of you are familiar with [full
-virtualization](https://en.wikipedia.org/wiki/Full_virtualization) solutions like VMware
+Most of you are familiar with [full virtualization](https://en.wikipedia.org/wiki/Full_virtualization) solutions like VMware
 Workstation, Oracle VirtualBox, and Parallels. In this post, I’ll re-introduce you to another,
 arguably faster, way of doing things.
 
@@ -87,12 +86,13 @@ APT:
     $ sudo apt-get install qemu-kvm vde2 spice-client-gtk
 
 This will install the [QEMU](http://wiki.qemu-project.org/Main_Page) /kee-MOO/
-hypervisor, [VDE](http://vde.sourceforge.net/) tools, and [SPICE](http://www.spice-space.org/)
-support. QEMU, at least during its early days had the _meh_ impression—it is OK, but not
-stellar. Since version 0.10.1, QEMU started supporting [KVM](http://www.linux-kvm.org/), a
-virtualization subsystem for Linux, that provides near-native virtualization performance using
-hardware-assisted virtualization. It even rivals the performance of the virtualization solutions
-mentioned above.
+hypervisor, [VDE](http://vde.sourceforge.net/) tools, and
+[SPICE](http://www.spice-space.org/) support. QEMU, at least during its early
+days had the _meh_ impression—it is OK, but not stellar. Since version 0.10.1,
+QEMU started supporting [KVM](http://www.linux-kvm.org/), a virtualization
+subsystem for GNU/Linux, that provides near-native virtualization performance
+using hardware-assisted virtualization. It even rivals the performance of the
+virtualization solutions mentioned above.
 
 Other suites offer the option of connecting to the guest machine’s display via VNC. The problem is
 that, it’s slow and clunky. The response time is just horrible. Using
