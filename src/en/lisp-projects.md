@@ -78,11 +78,11 @@ The software that you need are the following:
 ### <a name="sbcl">SBCL</a>
 
 The only decent open source Lisp implementation, nowadays, is
-[SBCL](http://sbcl.org). It works on x86, x86_64, and aarch64. It runs on Linux,
+[SBCL](http://sbcl.org). It works on x86, x86_64, and aarch64. It runs on GNU/Linux,
 macOS, and Windows. It produces high-quality optimized code. On the commercial
 side of things is [LispWorks](https://lispworks.com), which is the one that I
 use as my daily driver. The other ones are nice, but they’re not available on
-both Linux x86_64 and macOS aarch64, which are the systems that I care about
+both GNU/Linux x86_64 and macOS aarch64, which are the systems that I care about
 now.
 
 You can go directly to SBCL’s site to download it, or you can use your operating
@@ -104,7 +104,7 @@ But, you already know what I mean 😉
 
 Quicklisp is the de facto standard for installing Lisp libraries. There are no
 fancy bells and whistles. It just works. A one-liner to install it on
-Linux/macOS is:
+GNU/Linux or macOS is:
 
 ```sh
 curl -O https://beta.quicklisp.org/quicklisp.lisp && sbcl --load quicklisp.lisp --eval '(quicklisp-quickstart:install)' --eval '(let ((ql-util::*do-not-prompt* t)) (ql:add-to-init-file) (sb-ext:quit))'
