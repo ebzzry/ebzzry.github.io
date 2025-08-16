@@ -39,28 +39,31 @@ How I Use Tmux
 <a name="introduction">Introduction</a>
 ---------------------------------------
 
-Just like with a text editor, a terminal multiplexer is one of the few tools that yields a lot of
-productivity once you learn how to use it. In this article, I’ll talk about
-[tmux](https://github.com/tmux/tmux)—a session manager, multiplexer, window manager, and one of the
-most important pieces of software that changed the way I do computing.
+Just like with a text editor, a terminal multiplexer is one of the few tools
+that yields a lot of productivity once you learn how to use it. In this article,
+I’ll talk about [tmux](https://github.com/tmux/tmux)—a session manager,
+multiplexer, window manager, and one of the most important pieces of software
+that changed the way I do computing.
 
-For a long time, I have used [GNU Screen](https://www.gnu.org/software/screen/) for
-multiplexing. There was such an exhilarating feeling when you lose connection to a host, only to
-discover that the program that you ran on screen was still running.
+For a long time, I have used [GNU Screen](https://www.gnu.org/software/screen/)
+for multiplexing. There was such an exhilarating feeling when you lose
+connection to a host, only to discover that the program that you ran on screen
+was still running.
 
-However, when I discovered tmux, I quickly realized how much I was missing. Both tmux and screen,
-are multiplexers, but somehow they are addressing different problems. In my personal case, tmux gave
-me what I sorely missed from screen.
+However, when I discovered tmux, I quickly realized how much I was missing. Both
+tmux and screen, are multiplexers, but somehow they are addressing different
+problems. In my personal case, tmux gave me what I sorely missed from screen.
 
-In this article, I will walk you through my configuration and give you a rough idea how I work with
-tmux.
+In this article, I will walk you through my configuration and give you a rough
+idea how I work with tmux.
 
 
 <a name="general">General</a>
 -----------------------------
 
-It is a good rule of thumb to start with the more general aspects of a configuration, before moving
-on to the more specific ones. This section will look at some of those settings.
+It is a good rule of thumb to start with the more general aspects of a
+configuration, before moving on to the more specific ones. This section will
+look at some of those settings.
 
 
 ### <a name="indexes">Indexes</a>
@@ -77,9 +80,10 @@ bind C-z send-prefix
 set -g prefix C-z
 ```
 
-This sets the the initial window number to start at 1, instead of 0; it makes it easier to switch
-to a specific window, later. This also sets the history limit and the prefix key. I unbound
-<kbd>C-b</kbd> because it is too damn important for Emacs and Zsh use.
+This sets the the initial window number to start at 1, instead of 0; it makes it
+easier to switch to a specific window, later. This also sets the history limit
+and the prefix key. I unbound <kbd>C-b</kbd> because it is too damn important
+for Emacs and Zsh use.
 
 
 ### <a name="clients">Clients</a>
@@ -91,27 +95,28 @@ bind n new-session -c "#{pane_current_path}"
 bind @ setw synchronize-panes
 ```
 
-This binds several keys to detach the current session, and select a session from a tree chooser. The
-<kbd>C-z @</kbd> key enables multiple panes in one window, to receive the same keyboard input. This
-is very useful when troubleshooting remote connections simultaneously.
+This binds several keys to detach the current session, and select a session from
+a tree chooser. The <kbd>C-z @</kbd> key enables multiple panes in one window,
+to receive the same keyboard input. This is very useful when troubleshooting
+remote connections simultaneously.
 
 
 ### <a name="sourcing">Sourcing</a>
 
 ```
 bind . source-file ~/.tmux.conf
-bind r move-window -r \; setw automatic-rename
-bind x kill-pane \; move-window -r \; setw automatic-rename
-bind & kill-window \; move-window -r \; setw automatic-rename
+bind , command-prompt -I "#W" "rename-window '%%'"
 bind k send-keys C-l \; send-keys -R \; clear-history
+bind r move-window -r\; setw automatic-rename
+
+bind x kill-window\; move-window -r
+bind X kill-window\; previous-window\; move-window -r
+bind w kill-pane
 ```
 
-Here, I rebound <kbd>C-z x</kbd> and <kbd>C-z &</kbd>, so that when windows are removed the
-numberings are automatically updated. Manual override by means of <kbd>C-z r</kbd> is also
-available.
-
-I also rebound <kbd>C-z x</kbd> and <kbd>C-z &</kbd> to kill panes and windows, respectively,
-without user prompts.
+Here, I rebound <kbd>C-z x</kbd> and <kbd>C-z X</kbd>, so that when windows are
+removed the numberings are automatically updated. Manual override by means of
+<kbd>C-z r</kbd> is also available.
 
 I bound the key <kbd>C-z k</kbd> to delete the buffer history to clear the view.
 
@@ -141,29 +146,32 @@ bind -n M-8 select-window -t 8
 bind -n M-9 select-window -t 9
 ```
 
-We bound <kbd>S-left</kbd> and <kbd>S-right</kbd>, to switch windows, backwards and forwards,
-respectively. We also bound <kbd>C-z left</kbd> and <kbd>C-z right</kbd>, to swap windows to the left
-and to the right, respectively.
+We bound <kbd>S-left</kbd> and <kbd>S-right</kbd>, to switch windows, backwards
+and forwards, respectively. We also bound <kbd>C-z left</kbd> and <kbd>C-z
+right</kbd>, to swap windows to the left and to the right, respectively.
 
-To quickly switch to specific windows, we bound several keys to the <kbd>Alt</kbd> key, otherwise
-known as <kbd>Meta</kbd>.
+To quickly switch to specific windows, we bound several keys to the
+<kbd>Alt</kbd> key, otherwise known as <kbd>Meta</kbd>.
 
 
 ### <a name="windowscontrol">Control</a>
 
-```sh
-bind c new-window -c "#{pane_current_path}"
-bind C new-window -c ~
+```
+bind A new-window -c "#{pane_current_path}"
+bind A new-window -c ~
 
-bind '"' split-window -v -c "#{pane_current_path}"
-bind % split-window -h -c "#{pane_current_path}"
+bind "'" split-window -v -c "#{pane_current_path}"     # ⌘'
+bind ";" split-window -h -c "#{pane_current_path}"     # ⌘;
 bind Space last-window
+
+bind h select-layout even-horizontal
+bind v select-layout even-vertical
 ```
 
-This binds keys to start a new session from the current working directory or from the home
-directory. This also binds keys to split the view vertically or horizontally, with the current
-working directory as a starting point. I also want that there’s an easy key to change to the last
-window.
+This binds keys to start a new session from the current working directory or
+from the home directory. This also binds keys to split the view vertically or
+horizontally, with the current working directory as a starting point. I also
+want that there’s an easy key to change to the last window.
 
 
 <a name="panes">Panes</a>
@@ -202,13 +210,12 @@ The other keys allow us to switch to specific panes.
 ### <a name="panesmerging">Merging</a>
 
 ```
-bind m command-prompt -p "Merge pane to:"  "join-pane -t '%%'"
-bind M command-prompt -p "Merge pane from:"  "join-pane -s '%%'"
-bind h select-pane -m
+bind < command-prompt -p "<" "join-pane -s '%%'"\; move-window -r
+bind > command-prompt -p ">" "join-pane -t '%%'"\; move-window -r
 ```
 
-This binds <kbd>C-z m</kbd> and <kbd>C-z M</kbd> to merge panes to and from, a specific window,
-respectively. We also bound <kbd>C-z h</kbd> to highlight the borders of the current pane.
+This binds <kbd>C-z <</kbd> and <kbd>C-z ></kbd> to merge panes to and from, a
+specific window, respectively.
 
 
 <a name="statusbar">Status bar</a>
@@ -275,8 +282,8 @@ set -g pane-border-style fg="#3F3F3F",bg=black
 set -g pane-active-border-style fg=green,bg=black
 ```
 
-This displays the status bar on the bottom of the terminal, and shows all the windows starting from
-1, while displaying the date on the right.
+This displays the status bar on the bottom of the terminal, and shows all the
+windows starting from 1, while displaying the date on the right.
 
 
 <a name="plugins">Plugins</a>
@@ -314,21 +321,23 @@ To install all the plugins, press <kbd>C-z I</kbd>.
 <a name="selections">Selection</a>
 ----------------------------------
 
-With tmux, I can have access to three selections at once: the `PRIMARY`, `CLIPBOARD`, and the
-tmux selections.
+With tmux, I can have access to three selections at once: the `PRIMARY`,
+`CLIPBOARD`, and the tmux selections.
 
-The `PRIMARY` selection is the one involved when you highlight something with your
-(mouse) pointer. You can extract the contents using Middle-click or <kbd>Shift+Insert</kbd>.
+The `PRIMARY` selection is the one involved when you highlight something with
+your (mouse) pointer. You can extract the contents using Middle-click or
+<kbd>Shift+Insert</kbd>.
 
-The `CLIPBOARD` selection is the one involved when you explicitly make a request to have something
-copied, usually done with <kbd>C-c</kbd>, `Right-click > Copy`, or `Edit > Copy`, with graphical
-applications, like web browsers. You can extract the contents using <kbd>C-v</kbd>,
-`Right-click > Paste`, or `Edit > Paste`.
+The `CLIPBOARD` selection is the one involved when you explicitly make a request
+to have something copied, usually done with <kbd>C-c</kbd>, `Right-click >
+Copy`, or `Edit > Copy`, with graphical applications, like web browsers. You can
+extract the contents using <kbd>C-v</kbd>, `Right-click > Paste`, or `Edit >
+Paste`.
 
-The tmux selection is the one involved when you enter copy mode. This is done by pressing
-<kbd>C-z [</kbd> first, then <kbd>C-Space</kbd> to mark the selection, then use the movement keys to
-define the area. The contents are copied using <kbd>M-w</kbd>. You can extract the contents by
-pressing <kbd>C-z ]</kbd>.
+The tmux selection is the one involved when you enter copy mode. This is done by
+pressing <kbd>C-z [</kbd> first, then <kbd>C-Space</kbd> to mark the selection,
+then use the movement keys to define the area. The contents are copied using
+<kbd>M-w</kbd>. You can extract the contents by pressing <kbd>C-z ]</kbd>.
 
 With tmux, I no longer have to use the (mouse) pointer to manipulate my selections.
 
@@ -336,8 +345,8 @@ With tmux, I no longer have to use the (mouse) pointer to manipulate my selectio
 <a name="try">Trying it out</a>
 -------------------------------
 
-If you want to play with these settings, you may download the config file to your system. But first,
-let’s backup your existing configuration:
+If you want to play with these settings, you may download the config file to
+your system. But first, let’s backup your existing configuration:
 
     $ mv ~/.tmux.conf{,.backup}
 
@@ -359,9 +368,11 @@ If tmux complains that you are missing some plugins, press <kbd>C-z I</kbd>.
 <a name="closingremarks">Closing remarks</a>
 --------------------------------------------
 
-Tmux is one of the tools that one must be using when working with the terminal and command line. It
-enables workflow that would otherwise be difficult to do with other multiplexers, or very difficult
-to do with regular non-managed sessions. For the rest of the definitions, visit the repo
+Tmux is one of the tools that one must be using when working with the terminal
+and command line. It enables workflow that would otherwise be difficult to do
+with other multiplexers, or very difficult to do with regular non-managed
+sessions. For the rest of the definitions, visit the repo
 [here](https://github.com/ebzzry/dotfiles/tree/main/tmux/.tmux.conf).
 
-If you use git, you may also like the article about how I use it. It can be found [here](/en/git/).
+If you use git, you may also like the article about how I use it. It can be
+found [here](/en/git/).
