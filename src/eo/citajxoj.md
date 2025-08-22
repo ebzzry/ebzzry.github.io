@@ -1142,4 +1142,7 @@ tra la jaroj.
 - Tiuj kiuj havas glavojn, kaj scias kiel uzi ilin, sed ili estas englavingitaj, heredas la mondon.<br>—Jordan PETERSON
 
 
-- Vera forto ne venas al tiuj kiuj estas naskiĝitaj plej fortoj, aŭ plej rapidaj, aŭ plej saĝaj. Ne. Ĝi venas al tiuj kiuj faros ion anj por atingi ĝin.<br>—
+- Forto, vera forto, ne venas al tiuj kiuj estas naskiĝitaj plej fortoj, aŭ plej rapidaj, aŭ plej saĝaj. Ne. Ĝi venas al tiuj kiuj faros ion anj por atingi ĝin.<br>—Silco, Arcane (2025)
+
+
+- Mi opinias, ke ĉiuj ĉi tie scias, ke racia, plena specifo de programo antaŭ ĝi estas kreita neniam okazis kaj neniam okazos.<br>—Martin CRACAUER
