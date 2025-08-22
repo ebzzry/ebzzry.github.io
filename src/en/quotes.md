@@ -1156,4 +1156,7 @@ the years.
 - Those who have swords, and know how to use them, but keep them sheathed, will inherit the world.<br>—Jordan Peterson
 
 
-- Real power doesn’t come to those who were born strongest, or fastest, or smartest. No. It comes to those who will do anything to achieve it.<br>—
+- Power, real power, doesn’t come to those who were born strongest, or fastest, or smartest. No. It comes to those who will do anything to achieve it.<br>—Silco, Arcane (2025)
+
+
+- I think everybody here knows that a reasonable, complete specification of a program before it is written has never happened and never will.<br>—Martin Cracauer
