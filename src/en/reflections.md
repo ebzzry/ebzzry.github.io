@@ -536,3 +536,6 @@ in chronological order.
 
 
 - Love, and only love, is the only thing in the entire cosmos, that motivates us to be alive, to live in the moment, and to dream for a better tomorrow.<br>
+
+
+- It’s not about the faults, the wrongs, and the mishaps that you’ve brought to the people you love, but it’s about the joy and happiness that you’re going to bring to them today, tomorrow, and until your last breathe.<br>
