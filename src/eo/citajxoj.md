@@ -1146,3 +1146,6 @@ tra la jaroj.
 
 
 - Mi opinias, ke ĉiuj ĉi tie scias, ke racia, plena specifo de programo antaŭ ĝi estas kreita neniam okazis kaj neniam okazos.<br>—Martin CRACAUER
+
+
+- La nura amo kiun ni ĉiuj meritas, estas la amo kiu elektas nin, ĉiutage.<br>—Ben&Ben
