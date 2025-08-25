@@ -533,3 +533,6 @@ in chronological order.
 
 
 - Tell me what you’re trying to solve, and I’ll tell you who you are.<br>
+
+
+- Love, and only love, is the only thing in the entire cosmos, that motivates us to be alive, to live in the moment, and to dream for a better tomorrow.<br>

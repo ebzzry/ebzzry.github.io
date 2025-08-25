@@ -525,3 +525,6 @@ ordigitaj laŭ kronologiordo.
 
 
 - Diru al mi tion kiun vi provas solvi, kaj mi diros al vi kiu vi estas.<br>
+
+
+- La amo, kaj nur la amo, estas nur la afero en tuta kosmo, kiu motivas nin esti vivanta, vivi en la momento, kaj revi por pli bona morgaŭo.<br>
