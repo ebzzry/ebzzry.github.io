@@ -1160,3 +1160,6 @@ the years.
 
 
 - I think everybody here knows that a reasonable, complete specification of a program before it is written has never happened and never will.<br>—Martin Cracauer
+
+
+- The only love that we all deserve, is the love that will choose us, everyday.<br>—Ben&Ben
