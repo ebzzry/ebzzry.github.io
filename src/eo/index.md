@@ -1,11 +1,11 @@
 ---
-title: (:ebzzry)
+title: Pensoj de Optimisto
 description: Retejo pri informadiko, hominklinoj, kaj hazardaĵoj.
 keywords: rommel martinez, rommel martínez, ebzzry, ebzzry.com
 image: https://ebzzry.com/images/site/books-1008x250.jpg
 ---
-(:ebzzry)
-=========
+Pensoj de Optimisto
+===================
 
 <div class="center">[English](/en/) ∅ Esperanto</div>
 
