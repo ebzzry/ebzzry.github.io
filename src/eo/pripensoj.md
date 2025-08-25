@@ -528,3 +528,6 @@ ordigitaj laŭ kronologiordo.
 
 
 - La amo, kaj nur la amo, estas nur la afero en tuta kosmo, kiu motivas nin esti vivanta, vivi en la momento, kaj revi por pli bona morgaŭo.<br>
+
+
+- Ne estas pri la kulpoj, la eraroj, la malfeliĉoj kiujn vi portis al la homoj kiujn vi amas, sed estas pri la ĝojo kaj feliĉo kiujn vi donos al ili hodiaŭ, morgaŭ, kaj ĝis la lasta spiro.<br>
