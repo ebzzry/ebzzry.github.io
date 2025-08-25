@@ -1,11 +1,11 @@
 ---
-title: (:ebzzry)
+title: Musings of an Optimist
 description: A journal about computing, human predilections, and random krakaboom.
 keywords: rommel martinez, rommel martínez, ebzzry, ebzzry.com
 image: https://ebzzry.com/images/site/books-1008x250.jpg
 ---
-(:ebzzry)
-=========
+Musings of an Optimist
+======================
 
 <div class="center">English ∅ [Esperanto](/eo/)</div>
 
