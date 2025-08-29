@@ -539,3 +539,9 @@ in chronological order.
 
 
 - It’s not about the faults, the wrongs, and the mishaps that you’ve brought to the people you love, but it’s about the joy and happiness that you’re going to bring to them today, tomorrow, and until your last breathe.<br>
+
+
+- Time spent complaining about the system is time not spent contributing to the solution. 
+
+
+- Either you’re part of the problem, or you’re part of the solution.
