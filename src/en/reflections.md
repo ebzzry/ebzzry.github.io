@@ -529,7 +529,7 @@ in chronological order.
 - People lie all the time. What they show is what they want you to see. What they speak is what they want you want to hear.<br>
 
 
-- Contrived idiocy is a disguise for true idiocy.<br>
+- Contrived idiocy is a disguise for true one.<br>
 
 
 - Tell me what you’re trying to solve, and I’ll tell you who you are.<br>
@@ -539,3 +539,9 @@ in chronological order.
 
 
 - It’s not about the faults, the wrongs, and the mishaps that you’ve brought to the people you love, but it’s about the joy and happiness that you’re going to bring to them today, tomorrow, and until your last breathe.<br>
+
+
+- Time spent complaining about the system is time not spent contributing to the solution.<br> 
+
+
+- Either you’re part of the problem, or you’re part of the solution.<br>
