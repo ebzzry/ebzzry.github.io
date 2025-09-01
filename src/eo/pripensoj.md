@@ -531,3 +531,9 @@ ordigitaj laŭ kronologiordo.
 
 
 - Ne estas pri la kulpoj, la eraroj, la malfeliĉoj kiujn vi portis al la homoj kiujn vi amas, sed estas pri la ĝojo kaj feliĉo kiujn vi donos al ili hodiaŭ, morgaŭ, kaj ĝis la lasta spiro.<br>
+
+
+- Tempo kiu estas uzita por plendi pri la sistemo estas tempo kiu ne estas uzita por kontribui al la solvo.<br>
+
+
+- Aŭ oni estas parto de la problema aŭ oni estas parto de la solvo.<br>
