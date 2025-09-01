@@ -38,8 +38,8 @@ procedure. The [Y combinator](https://en.wikipedia.org/wiki/Fixed-point_combina
 however, lets you perform recursion, without referring to the named identifier.
 
 
-<a name="y"></a> Y?
------------------------
+<a name="y">Y?</a>
+------------------
 
 The Y combinator has been both a source of inspiration and frustration for many. It evokes a
 eureka-like sensation once you get past the wall, but it also renders us scratching our heads when
@@ -47,11 +47,11 @@ it just doesn’t make sense to traverse the labyrinth. This post aims to bring 
 to derive the Y combinator. It may not be the most elegant way, but it may work for you.
 
 In the code examples in this post, the `>` symbol denotes the prompt symbol for your Scheme
-implementation.
+implementation. I use the symbol `λ` for `lambda`. If you can’t type that symbol, you may use `lambda`, instead.
 
 
-<a name="base"></a> Step 1: Define the base procedure
------------------------------------------------------
+<a name="base">Step 1: Define the base procedure</a>
+----------------------------------------------------
 
 Let’s start by defining a procedure named `foo` that computes the summation of a positive integer,
 down to zero. In the following snippet, the recursive call happens when `foo` is applied in the else
@@ -59,7 +59,7 @@ part of the condition.
 
 ```scheme
 > (define foo
-    (lambda (n)
+    (λ (n)
       (if (zero? n)
           0
           (+ n (foo (- n 1))))))
@@ -72,16 +72,16 @@ why.
 
 
 
-<a name="curry"></a> Step 2: Curry the recursive call
------------------------------------------------------
+<a name="curry">Step 2: Curry the recursive call</a>
+----------------------------------------------------
 
 Let’s break that procedure further, into more elementary components, and you’ll apply it,
 using [currying](https://en.wikipedia.org/wiki/Currying).
 
 ```scheme
 > (define foo
-    (lambda (f)
-      (lambda (n)
+    (λ (f)
+      (λ (n)
         (if (zero? n)
             0
             (+ n ((f f) (- n 1)))))))
@@ -95,20 +95,20 @@ procedure. In this case, you used the identifier `f` to bind to the recursive pr
 procedure invocation method used initially: `((foo foo) 100)`.
 
 
-<a name="self"></a> Step 3: Apply procedure to itself
------------------------------------------------------
+<a name="self">Step 3: Apply procedure to itself</a>
+----------------------------------------------------
 
 You’re now going to exploit that property, to use a “nameless” approach—not using the `foo`
 identifier.
 
 ```scheme
-> (((lambda (f)
-      (lambda (n)
+> (((λ (f)
+      (λ (n)
         (if (zero? n)
             0
             (+ n ((f f) (- n 1))))))
-    (lambda (f)
-      (lambda (n)
+    (λ (f)
+      (λ (n)
         (if (zero? n)
             0
             (+ n ((f f) (- n 1)))))))
@@ -120,48 +120,48 @@ Take note, that at this point, you’re no longer using the `foo` name,
 to refer the definition, except for later.
 
 
-<a name="abstractinner"></a> Step 4: Abstract inner recursive call
-------------------------------------------------------------------
+<a name="abstractinner">Step 4: Abstract inner recursive call</a>
+-----------------------------------------------------------------
 
 Next, you need to move the `(f f)` part outside, to isolate the general (Y combinator), from the
 specific (`foo`) code.
 
 ```scheme
-> (((lambda (f)
-      ((lambda (p)
-         (lambda (n)
+> (((λ (f)
+      ((λ (p)
+         (λ (n)
            (if (zero? n)
                0
                (+ n (p (- n 1))))))
-       (lambda (v) ((f f) v))))
-    (lambda (f)
-      ((lambda (p)
-         (lambda (n)
+       (λ (v) ((f f) v))))
+    (λ (f)
+      ((λ (p)
+         (λ (n)
            (if (zero? n)
                0
                (+ n (p (- n 1))))))
-       (lambda (v) ((f f) v)))))
+       (λ (v) ((f f) v)))))
    100)
 5050
 ```
 
-During the procedure application, the identifier `p` will be bound to `(lambda (v) ((f f) v))`, and
+During the procedure application, the identifier `p` will be bound to `(λ (v) ((f f) v))`, and
 the identifier `v` will be bound to `(- n 1)`.
 
 
-<a name="isolate"></a> Step 5: Isolate the combinator
------------------------------------------------------
+<a name="isolate">Step 5: Isolate the combinator</a>
+----------------------------------------------------
 
 Next, you’re going to isolate the Y combinator, from the `foo` procedure.
 
 ```scheme
-> (((lambda (x)
-      ((lambda (f)
-         (x (lambda (v) ((f f) v))))
-       (lambda (f)
-         (x (lambda (v) ((f f) v))))))
-    (lambda (p)
-      (lambda (n)
+> (((λ (x)
+      ((λ (f)
+         (x (λ (v) ((f f) v))))
+       (λ (f)
+         (x (λ (v) ((f f) v))))))
+    (λ (p)
+      (λ (n)
         (if (zero? n)
             0
             (+ n (p (- n 1)))))))
@@ -173,22 +173,22 @@ You replace the `foo`-specific definition with `x`. This requires you, again, to
 `lambda`. Since `x` is bound to the computing procedure, you no longer need to repeat it.
 
 
-<a name="define"></a> Step 6: Define the combinator
----------------------------------------------------
+<a name="define">Step 6: Define the combinator</a>
+--------------------------------------------------
 
 Finally, you will explicitly create a separate procedure definition for the Y combinator itself, and
 the `foo` procedure.
 
 ```scheme
 > (define y
-    (lambda (x)
-      ((lambda (f)
-         (x (lambda (v) ((f f) v))))
-       (lambda (f)
-         (x (lambda (v) ((f f) v)))))))
+    (λ (x)
+      ((λ (f)
+         (x (λ (v) ((f f) v))))
+       (λ (f)
+         (x (λ (v) ((f f) v)))))))
 > (define foo
-    (lambda (p)
-      (lambda (n)
+    (λ (p)
+      (λ (n)
         (if (zero? n)
             0
             (+ n (p (- n 1)))))))
@@ -198,8 +198,8 @@ the `foo` procedure.
 ```
 
 
-<a name="closing"></a> Closing remarks
---------------------------------------
+<a name="closing">Closing remarks</a>
+-------------------------------------
 
 When the key concepts are understood, it becomes easy to grasp the seemingly daunting ideas. I hope
 this post has been useful in making you understand the Y combinator, currying, and procedure

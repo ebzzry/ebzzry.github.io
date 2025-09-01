@@ -46,7 +46,7 @@ trairi la labirinton. Ĉi tiu artikolo celas porti miajn proprajn metodojn kiel 
 kombinatoron. Eble ne estas la plej eleganta maniero, tamen eblas funkcii por iu.
 
 En la kodaj ekzemploj en ĉi tiu artikolo, la simbolo `>` montras la invitsimbolon de la skima
-realigo.
+realigo. Mi uzas la simbolon `λ` por `lambda`. Se oni ne povas tajpi tiun simbolon, oni povu uzi `lambda`, anstataŭe.
 
 
 <a name="baza">Paŝo 1-a: Difinu la bazan proceduron</a>
@@ -58,7 +58,7 @@ parto de la kondiĉo.
 
 ```scheme
 > (define foo
-    (lambda (n)
+    (λ (n)
       (if (zero? n)
           0
           (+ n (foo (- n 1))))))
@@ -77,8 +77,8 @@ funkcivokarigado (angle [currying](https://en.wikipedia.org/wiki/Currying)).
 
 ```scheme
 > (define foo
-    (lambda (f)
-      (lambda (n)
+    (λ (f)
+      (λ (n)
         (if (zero? n)
             0
             (+ n ((f f) (- n 1)))))))
@@ -98,13 +98,13 @@ alvokan metodon uzata interne: `((foo foo) 100)`.
 Oni nun eluzas ĉi tiun kvaliton por uzi sennomatan aliron—ne per la identigilo `foo`.
 
 ```scheme
-> (((lambda (f)
-      (lambda (n)
+> (((λ (f)
+      (λ (n)
         (if (zero? n)
             0
             (+ n ((f f) (- n 1))))))
-    (lambda (f)
-      (lambda (n)
+    (λ (f)
+      (λ (n)
         (if (zero? n)
             0
             (+ n ((f f) (- n 1)))))))
@@ -122,25 +122,25 @@ Sekve, oni devas movi la parton `(f f)` eksteren por izoli la ĝeneralan (ipsilo
 specifa (`foo`) kodo.
 
 ```scheme
-> (((lambda (f)
-      ((lambda (p)
-         (lambda (n)
+> (((λ (f)
+      ((λ (p)
+         (λ (n)
            (if (zero? n)
                0
                (+ n (p (- n 1))))))
-       (lambda (v) ((f f) v))))
-    (lambda (f)
-      ((lambda (p)
-         (lambda (n)
+       (λ (v) ((f f) v))))
+    (λ (f)
+      ((λ (p)
+         (λ (n)
            (if (zero? n)
                0
                (+ n (p (- n 1))))))
-       (lambda (v) ((f f) v)))))
+       (λ (v) ((f f) v)))))
    100)
 5050
 ```
 
-Dum la aplikaĵo de alvoko, la identigilo `p` estos kunligata al `(lambda (v) ((f f) v))` kaj la
+Dum la aplikaĵo de alvoko, la identigilo `p` estos kunligata al `(λ (v) ((f f) v))` kaj la
 identigilo `v` estos kunligata al `(- n 1)`.
 
 
@@ -151,13 +151,13 @@ identigilo `v` estos kunligata al `(- n 1)`.
 Sekve, oni izolos la ipsilonan kombinatoron, el la `foo` proceduro.
 
 ```scheme
-> (((lambda (x)
-      ((lambda (f)
-         (x (lambda (v) ((f f) v))))
-       (lambda (f)
-         (x (lambda (v) ((f f) v))))))
-    (lambda (p)
-      (lambda (n)
+> (((λ (x)
+      ((λ (f)
+         (x (λ (v) ((f f) v))))
+       (λ (f)
+         (x (λ (v) ((f f) v))))))
+    (λ (p)
+      (λ (n)
         (if (zero? n)
             0
             (+ n (p (- n 1)))))))
@@ -179,14 +179,14 @@ proceduro `foo`.
 
 ```scheme
 > (define y
-    (lambda (x)
-      ((lambda (f)
-         (x (lambda (v) ((f f) v))))
-       (lambda (f)
-         (x (lambda (v) ((f f) v)))))))
+    (λ (x)
+      ((λ (f)
+         (x (λ (v) ((f f) v))))
+       (λ (f)
+         (x (λ (v) ((f f) v)))))))
 > (define foo
-    (lambda (p)
-      (lambda (n)
+    (λ (p)
+      (λ (n)
         (if (zero? n)
             0
             (+ n (p (- n 1)))))))
