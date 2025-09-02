@@ -48,6 +48,8 @@ This post is my attempt to do just that, only that the grandmother here is mysel
 that I won’t really understand something, unless I can explain it. This post takes a very laid-back
 approach to do that, and avoids very technical topics, unless warranted.
 
+In this article, the `≡` symbol represents equivalence, while the `=` symbol represents reduction.
+
 
 ### <a name="what">What is it?</a>
 
