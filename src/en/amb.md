@@ -47,6 +47,8 @@ back in an early computation and back, later, with ease.
 
 I will also discuss the prerequisite topics to make nondeterminism in Scheme easier to understand.
 
+In this article, I’ll be using the symbol `λ` for `lambda`. If you can’t type that symbol, you may use `lambda`, instead.
+
 
 <a name="cc">The current continuation</a>
 -----------------------------------------
@@ -63,13 +65,13 @@ In the expression
 the current continuation—the remaining computation—is
 
 ```scheme
-(lambda (v) v)
+(λ (v) v)
 ```
 
 and the remaining operation is
 
 ```scheme
-((lambda (v) v) 0)
+((λ (v) v) 0)
 ```
 
 which returns
@@ -85,7 +87,7 @@ Bear in mind, that the name of the argument of the lambda is not important. It c
 `dog-cat-mouse`:
 
 ```scheme
-((lambda (dog-cat-mouse) dog-cat-mouse) 0)
+((λ (dog-cat-mouse) dog-cat-mouse) 0)
 ```
 
 
@@ -100,13 +102,13 @@ In the expression
 the remaining computation for `2`—the second argument of `*`—is
 
 ```scheme
-(lambda (v) (* 1 v))
+(λ (v) (* 1 v))
 ```
 
 and the remaining operation is
 
 ```scheme
-((lambda (v) (* 1 v)) 2)
+((λ (v) (* 1 v)) 2)
 ```
 
 which, in that level of computation returns
@@ -118,13 +120,13 @@ which, in that level of computation returns
 Consequently, the remaining computation is
 
 ```scheme
-(lambda (v) v)
+(λ (v) v)
 ```
 
 and the remaining operation is
 
 ```scheme
-((lambda (v) v) 2)
+((λ (v) v) 2)
 ```
 
 which finally returns, at the top-level:
@@ -150,13 +152,13 @@ Firstly, `(* 1 2)` will be evaluated then the result becomes the first argumen
 that empty space, the remaining computation is
 
 ```scheme
-(lambda (v) (+ v 3))
+(λ (v) (+ v 3))
 ```
 
 and the remaining operation is
 
 ```scheme
-((lambda (v) (+ v 3)) (* 1 2))
+((λ (v) (+ v 3)) (* 1 2))
 ```
 
 
@@ -170,7 +172,7 @@ accepts only one argument exclusively—a [lambda](/en/lambda-calculus/)—an an
 one argument:
 
 ```scheme
-(call/cc (lambda (k) k))
+(call/cc (λ (k) k))
 ```
 
 If you don’t have `call/cc` define it with:
@@ -186,37 +188,37 @@ next computation—to that anonymous function.
 In this lambda:
 
 ```scheme
-(lambda (k) k)
+(λ (k) k)
 ```
 
 `k` is a function itself which accepts one argument. So, in
 
 ```scheme
-(call/cc (lambda (k) k))
+(call/cc (λ (k) k))
 ```
 
 `call/cc` returns the current continuation—simply the function. However, in
 
 ```scheme
-(call/cc (lambda (k) (k 0)))
+(call/cc (λ (k) (k 0)))
 ```
 
 `call/cc` simply returns `0` because in that level—the top-level—`k` is
 
 ```scheme
-(lambda (v) v)
+(λ (v) v)
 ```
 
 —the identity function. Because of that, the function
 
 ```scheme
-(call/cc (lambda (k) (k 0)))
+(call/cc (λ (k) (k 0)))
 ```
 
 is functionally equivalent to
 
 ```scheme
-((lambda (v) v) 0)
+((λ (v) v) 0)
 ```
 
 
@@ -231,7 +233,7 @@ Going back to the earlier example:
 you can capture the current continuation of `(* 1 2)`  with `call/cc`:
 
 ```scheme
-(+ (call/cc (lambda (k) (* 1 2))) 3)
+(+ (call/cc (λ (k) (* 1 2))) 3)
 ```
 
 However, you may notice that you did not apply the function `k` to anything. The expression
@@ -248,13 +250,13 @@ functionally equivalent to:
 Using the same example, let’s apply the function `k`:
 
 ```scheme
-(+ (call/cc (lambda (k) (k (* 1 2)))) 3)
+(+ (call/cc (λ (k) (k (* 1 2)))) 3)
 ```
 
 Inside the call of `call/cc`:
 
 ```scheme
-            (lambda (k) (k (* 1 2)))
+            (λ (k) (k (* 1 2)))
 ```
 
 the variable `k` is the current continuation—the remaining computation. What is the remaining
@@ -267,7 +269,7 @@ computation? This:
 the addition to `3`. In order to represent that computation as function, it becomes:
 
 ```scheme
-(lambda (v) (+ v 3))
+(λ (v) (+ v 3))
 ```
 
 Wherein `(+ _ 3)` is going to be represented by this lambda.
@@ -276,13 +278,13 @@ So, the role of `call/cc` is to call a lambda, which accepts the remaining compu
 remaining computation is called `k`. Because of that, the consequence of:
 
 ```scheme
-(+ (call/cc (lambda (k) (k (* 1 2)))) 3)
+(+ (call/cc (λ (k) (k (* 1 2)))) 3)
 ```
 
 is functionally equivalent to
 
 ```scheme
-((lambda (v) (+ v 3)) (* 1 2))
+((λ (v) (+ v 3)) (* 1 2))
 ```
 
 
@@ -292,7 +294,7 @@ In
 
 ```scheme
 (define z #f)
-(+ (call/cc (lambda (k) (set! z k) (* 1 2))) 3)
+(+ (call/cc (λ (k) (set! z k) (* 1 2))) 3)
 ```
 
 normally the result is
@@ -320,7 +322,7 @@ value, an old value, or nothing.
 For the reason that the current continuation is:
 
 ```scheme
-(lambda (v) (+ v 3))
+(λ (v) (+ v 3))
 ```
 
 the call
@@ -332,13 +334,13 @@ the call
 is functionally equivalent to
 
 ```scheme
-((lambda (v) (+ v 3)) 1)
+((λ (v) (+ v 3)) 1)
 ```
 
 instead of
 
 ```scheme
-((lambda (v) (+ v 3)) (* 1 2))
+((λ (v) (+ v 3)) (* 1 2))
 ```
 
 
@@ -347,32 +349,32 @@ instead of
 In
 
 ```scheme
-(let ((x (call/cc (lambda (k) k)))) (x (lambda (o) "hi")))
+(let ((x (call/cc (λ (k) k)))) (x (λ (o) "hi")))
 ```
 
 the call
 
 ```scheme
-(x (lambda (o) "hi"))
+(x (λ (o) "hi"))
 ```
 
 becomes
 
 ```scheme
-((call/cc (lambda (k) k)) (lambda (o) "hi"))
+((call/cc (λ (k) k)) (λ (o) "hi"))
 ```
 
 there, the remaining computation is
 
 ```scheme
-(lambda (o) "hi")
+(λ (o) "hi")
 ```
 
 which goes to the variable `k` in the body of `call/cc`. Like earlier, we apply `k` to
-`(lambda (o) "hi")` inside another lambda:
+`(λ (o) "hi")` inside another lambda:
 
 ```scheme
-((lambda (v) (v (lambda (o) "hi"))) (lambda (o) "hi"))
+((λ (v) (v (λ (o) "hi"))) (λ (o) "hi"))
 ```
 
 which returns
@@ -384,26 +386,26 @@ which returns
 In
 
 ```scheme
-(((call/cc (lambda (k) k)) (lambda (x) x)) "hi")
+(((call/cc (λ (k) k)) (λ (x) x)) "hi")
 ```
 
 the key is
 
 ```scheme
-((call/cc (lambda (k) k)) (lambda (x) x))
+((call/cc (λ (k) k)) (λ (x) x))
 ```
 
 In the body of `call/cc`, the remaining computation is
 
 ```scheme
-(lambda (x) x)
+(λ (x) x)
 ```
 
 which goes to the variable `k` in the body of `call/cc`. Like earlier again, we apply it to the
 lambda:
 
 ```scheme
-((lambda (v) (v (lambda (x) x))) (lambda (x) x))
+((λ (v) (v (λ (x) x))) (λ (x) x))
 ```
 
 which returns
@@ -415,7 +417,7 @@ which returns
 It means, that you can now apply this function to the remaining argument:
 
 ```scheme
-(((lambda (v) (v (lambda (x) x))) (lambda (x) x)) "hi")
+(((λ (v) (v (λ (x) x))) (λ (x) x)) "hi")
 ```
 
 which returns
@@ -453,8 +455,8 @@ internally.
     ((_ a b ...)                                ;  9
      (let ((s f))                               ; 10
        (call/cc                                 ; 11
-        (lambda (k)                             ; 12
-          (set! f (lambda ()                    ; 13
+        (λ (k)                                  ; 12
+          (set! f (λ ()                         ; 13
                     (set! f s)                  ; 14
                     (k (amb b ...))))           ; 15
           (k a)))))))                           ; 16
@@ -465,8 +467,8 @@ internally.
       (amb)))                                   ; 21
                                                 ; 22
 (call/cc                                        ; 23
- (lambda (k)                                    ; 24
-   (set! f (lambda ()                           ; 25
+ (λ (k)                                         ; 24
+   (set! f (λ ()                                ; 25
              (k 'no-choices)))))                ; 26
 ```
 
@@ -540,7 +542,7 @@ here are the simplified evaluation steps:
 
 3. The local variable `s` will have the current value of `f` in the top-level:
 ```scheme
-(lambda () (k 'no-choices))
+(λ () (k 'no-choices))
 ```
 4. The lambda in line 12 will be called with the remaining computation to `k`;
 
@@ -550,11 +552,11 @@ here are the simplified evaluation steps:
 
 7. `k` will be applied to `a`, wherein, `(k a)` is:
 ```scheme
-((lambda (v) (really? v (amb "mouse" 9))) "dog")
+((λ (v) (really? v (amb "mouse" 9))) "dog")
 ```
 which consequently becomes
 ```scheme
-((lambda (v) ((lambda (w) (really? v w)) "dog")) "mouse")
+((λ (v) ((λ (w) (really? v w)) "dog")) "mouse")
 ```
 because of the call `(amb "mouse" 9)`;
 
@@ -569,7 +571,7 @@ because of the call `(amb "mouse" 9)`;
 ```
 wherein the value of `k` is the lambda in lines 13 to 15. The value of `f` again becomes:
 ```scheme
-(lambda () (k 'no-choices))
+(λ () (k 'no-choices))
 ```
 
 10. Then, in line 15 `k` will be called like `(k "cat" 9)`.
