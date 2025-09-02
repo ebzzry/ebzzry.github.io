@@ -47,6 +47,8 @@ atingi. En skimo, oni permesatas por facile iri al antaŭa tempo de komputo kaj 
 
 Mi ankaŭ diskutos pri la postulaj temoj por ke nedeterminismo en skimo oni pli facile komprenu.
 
+En ĉi tiu artikolo, mi uzas la simbolon `λ` por `lambda`. Se oni ne povas tajpi ĝin, oni povu uzi `lambda` anstataŭe.
+
 
 <a name="aktualadaŭrigo">La aktuala daŭrigo</a>
 -----------------------------------------------
@@ -63,13 +65,13 @@ En la esprimo
 la aktuala daŭrigo—la restanta komputo—estas
 
 ```scheme
-(lambda (v) v)
+(λ (v) v)
 ```
 
 kaj la restanta operacio estas
 
 ```scheme
-((lambda (v) v) 0)
+((λ (v) v) 0)
 ```
 
 kiu liveras na
@@ -85,7 +87,7 @@ Memoru, ke la nomo de la argumento de la lambdo ne gravas. Ĝi povas esti `v`, `
 `hundo-kato-muso`:
 
 ```scheme
-((lambda (hundo-kato-muso) hundo-kato-muso) 0)
+((λ (hundo-kato-muso) hundo-kato-muso) 0)
 ```
 
 
@@ -100,13 +102,13 @@ En la esprimo
 la restanta komputo por `2`—la dua argumento de `*`—estas
 
 ```scheme
-(lambda (v) (* 1 v))
+(λ (v) (* 1 v))
 ```
 
 kaj la restanta operacio estas
 
 ```scheme
-((lambda (v) (* 1 v)) 2)
+((λ (v) (* 1 v)) 2)
 ```
 
 kiu, en tiu nivelo de komputo liveras
@@ -118,13 +120,13 @@ kiu, en tiu nivelo de komputo liveras
 Konsekvece, la restanta komputo estas
 
 ```scheme
-(lambda (v) v)
+(λ (v) v)
 ```
 
 kaj la restanta operacio estas
 
 ```scheme
-((lambda (v) v) 2)
+((λ (v) v) 2)
 ```
 
 kiu fine liveras, ĉe la plej supra nivelo:
@@ -150,13 +152,13 @@ Unue `(* 1 2)` taksiĝos tiam la rezulto fariĝas la unua argumento por `(+ �
 spaco, la restanta komputoestas
 
 ```scheme
-(lambda (v) (+ v 3))
+(λ (v) (+ v 3))
 ```
 
 kaj la restanta operacio estas
 
 ```scheme
-((lambda (v) (+ v 3)) (* 1 2))
+((λ (v) (+ v 3)) (* 1 2))
 ```
 
 
@@ -169,7 +171,7 @@ unu argumenton ekskluzive akceptas—[lambdon](/eo/lambdokalkulo/)—sennoman fu
 argumento:
 
 ```scheme
-(call/cc (lambda (k) k))
+(call/cc (λ (k) k))
 ```
 
 Se je `call/cc` oni ne havas, ĝin difinu per:
@@ -185,37 +187,37 @@ la aktualan daŭrigon—la restantan komputon—`call/cc` pasas al tiu sennoma f
 En ĉi tiu lambdo:
 
 ```scheme
-(lambda (k) k)
+(λ (k) k)
 ```
 
 `k` estas funkcio mem kiu unu argumenton akceptas. Do, en
 
 ```scheme
-(call/cc (lambda (k) k))
+(call/cc (λ (k) k))
 ```
 
 la aktualan daŭrigon—simple la funkcion—`call/cc` liveras. Tamen, en
 
 ```scheme
-(call/cc (lambda (k) (k 0)))
+(call/cc (λ (k) (k 0)))
 ```
 
 `call/cc` simple liveras je `0` tial, ke en tiu nivelo—la plej supra nivelo—`k` estas:
 
 ```scheme
-(lambda (v) v)
+(λ (v) v)
 ```
 
 —la identa funkcio. Pro tio, la voko:
 
 ```scheme
-(call/cc (lambda (k) (k 0)))
+(call/cc (λ (k) (k 0)))
 ```
 
 funkcie ekvivalentas al:
 
 ```scheme
-((lambda (v) v) 0)
+((λ (v) v) 0)
 ```
 
 ### <a name="callcckaptado">Kaptado</a>
@@ -229,7 +231,7 @@ Reirante al la antaŭa ekzemplo:
 la aktualan daŭrigon de `(* 1 2)` oni povas kapti per `call/cc`:
 
 ```scheme
-(+ (call/cc (lambda (k) (* 1 2))) 3)
+(+ (call/cc (λ (k) (* 1 2))) 3)
 ```
 
 Tamen, oni povas rimarki ke la funckion `k` oni ne aplikis al io ajn. La esprimo `(* 1 2)`
@@ -245,13 +247,13 @@ taksiĝos, kaj la rezulto iras al `(+ _ 3)`. Alidire, tiu esprimo funkcie ekvi
 La saman ekzemplon uzante, ĉi tie la funkcion `k` oni apliku:
 
 ```scheme
-(+ (call/cc (lambda (k) (k (* 1 2)))) 3)
+(+ (call/cc (λ (k) (k (* 1 2)))) 3)
 ```
 
 Ene la voko de `call/cc`:
 
 ```scheme
-            (lambda (k) (k (* 1 2)))
+            (λ (k) (k (* 1 2)))
 ```
 
 la variablo `k` estas la aktuala daŭrigo—la restanta komputo. Kio estas la restanta komputo? Jen:
@@ -263,7 +265,7 @@ la variablo `k` estas la aktuala daŭrigo—la restanta komputo. Kio estas la re
 —la adicio al `3`. Por ke tiun komputon reprezentu kiel funkcio, ĝi fariĝos:
 
 ```scheme
-(lambda (v) (+ v 3))
+(λ (v) (+ v 3))
 ```
 
 En kie `(+ _ 3)` estos reprezentata per ĉi tiu lambdo.
@@ -272,13 +274,13 @@ Do, la rolo de `call/cc` estas por lambdon voki, kiun la restanta komputo akcept
 restanta komputo nomiĝas `k`. Pro tio, la konsekveco de:
 
 ```scheme
-(+ (call/cc (lambda (k) (k (* 1 2)))) 3)
+(+ (call/cc (λ (k) (k (* 1 2)))) 3)
 ```
 
 funkcie ekvivalentas al
 
 ```scheme
-((lambda (v) (+ v 3)) (* 1 2))
+((λ (v) (+ v 3)) (* 1 2))
 ```
 
 
@@ -288,7 +290,7 @@ En
 
 ```scheme
 (define z #f)
-(+ (call/cc (lambda (k) (set! z k) (* 1 2))) 3)
+(+ (call/cc (λ (k) (set! z k) (* 1 2))) 3)
 ```
 
 normale la rezulto estos
@@ -316,7 +318,7 @@ aŭ malnova valaro, aŭ nenio.
 Pro tio, ke la aktuala daŭrigo estas:
 
 ```scheme
-(lambda (v) (+ v 3))
+(λ (v) (+ v 3))
 ```
 
 la voko
@@ -328,13 +330,13 @@ la voko
 funkcie ekvivalentas al
 
 ```scheme
-((lambda (v) (+ v 3)) 1)
+((λ (v) (+ v 3)) 1)
 ```
 
 anstataŭ
 
 ```scheme
-((lambda (v) (+ v 3)) (* 1 2))
+((λ (v) (+ v 3)) (* 1 2))
 ```
 
 
@@ -343,32 +345,32 @@ anstataŭ
 En
 
 ```scheme
-(let ((x (call/cc (lambda (k) k)))) (x (lambda (o) "saluton")))
+(let ((x (call/cc (λ (k) k)))) (x (λ (o) "saluton")))
 ```
 
 la voko
 
 ```scheme
-(x (lambda (o) "saluton"))
+(x (λ (o) "saluton"))
 ```
 
 fariĝas
 
 ```scheme
-((call/cc (lambda (k) k)) (lambda (o) "saluton"))
+((call/cc (λ (k) k)) (λ (o) "saluton"))
 ```
 
 tie, la restanta komputo estas
 
 ```scheme
-(lambda (o) "saluton")
+(λ (o) "saluton")
 ```
 
 kiu iras al la variablo `k` en la korpo de `call/cc`. Kiel antaŭe, je `k` oni apliku al
-`(lambda (o) "saluton")` ene alia lambdo:
+`(λ (o) "saluton")` ene alia lambdo:
 
 ```scheme
-((lambda (v) (v (lambda (o) "saluton"))) (lambda (o) "saluton"))
+((λ (v) (v (λ (o) "saluton"))) (λ (o) "saluton"))
 ```
 
 kiu liveras na
@@ -380,26 +382,26 @@ kiu liveras na
 En
 
 ```scheme
-(((call/cc (lambda (k) k)) (lambda (x) x)) "saluton")
+(((call/cc (λ (k) k)) (λ (x) x)) "saluton")
 ```
 
 la kerno estas
 
 ```scheme
-((call/cc (lambda (k) k)) (lambda (x) x))
+((call/cc (λ (k) k)) (λ (x) x))
 ```
 
 Ene la korpo de `call/cc`, la restanta komputo estas
 
 ```scheme
-(lambda (x) x)
+(λ (x) x)
 ```
 
 kiu iras al la variablo `k` en la korpo de `call/cc`. Kiel antaŭe denove, ĝin oni apliku al la
 lambdo:
 
 ```scheme
-((lambda (v) (v (lambda (x) x))) (lambda (x) x))
+((λ (v) (v (λ (x) x))) (λ (x) x))
 ```
 
 kiu liveras na
@@ -411,7 +413,7 @@ kiu liveras na
 Tio signifas, ke ĉi tiun funkcion oni nun povas apliki al la cetera argumento:
 
 ```scheme
-(((lambda (v) (v (lambda (x) x))) (lambda (x) x)) "saluton")
+(((λ (v) (v (λ (x) x))) (λ (x) x)) "saluton")
 ```
 
 kiu liveras na
@@ -448,8 +450,8 @@ ke la argumentoj ne taksiĝos. Krome, listojn ĝi interne uzas.
     ((_ a b ...)                                ;  9
      (let ((s f))                               ; 10
        (call/cc                                 ; 11
-        (lambda (k)                             ; 12
-          (set! f (lambda ()                    ; 13
+        (λ (k)                                  ; 12
+          (set! f (λ ()                         ; 13
                     (set! f s)                  ; 14
                     (k (amb b ...))))           ; 15
           (k a)))))))                           ; 16
@@ -460,8 +462,8 @@ ke la argumentoj ne taksiĝos. Krome, listojn ĝi interne uzas.
       (amb)))                                   ; 21
                                                 ; 22
 (call/cc                                        ; 23
- (lambda (k)                                    ; 24
-   (set! f (lambda ()                           ; 25
+ (λ (k)                                         ; 24
+   (set! f (λ ()                                ; 25
              (k 'neniuj-elektoj)))))            ; 26
 ```
 
@@ -534,7 +536,7 @@ jen la pli simpligitaj taksadaj paŝoj:
 
 3. La aktualan valoron de `f` de la plej supra nivelo la loka variablo `s` havos;
 ```scheme
-(lambda () (k 'neniuj-elektoj))
+(λ () (k 'neniuj-elektoj))
 ```
 
 4. La lambdo en linio 12-a vokiĝos kun la restanta komputo al `k`;
@@ -545,11 +547,11 @@ jen la pli simpligitaj taksadaj paŝoj:
 
 7. `k` aplikiĝos al `a`, en kiu, `(k a)` estas:
 ```scheme
-((lambda (v) (cxu-vere? v (amb "muso" 9))) "hundo")
+((λ (v) (cxu-vere? v (amb "muso" 9))) "hundo")
 ```
 kiu konsekvece fariĝas
 ```scheme
-((lambda (v) ((lambda (w) (cxu-vere? v w)) "hundo")) "muso")
+((λ (v) ((λ (w) (cxu-vere? v w)) "hundo")) "muso")
 ```
 pro la voko `(amb "muso" 9)`;
 
@@ -564,7 +566,7 @@ pro la voko `(amb "muso" 9)`;
 ```
 en kiu la valoro de `f` estas la lambdo en la linioj 13-a ĝis 15-a. La valoro de `f` denove fariĝas:
 ```scheme
-(lambda () (k 'neniuj-elektoj))
+(λ () (k 'neniuj-elektoj))
 ```
 
 10. Tiam, en linio 15-a, `k` vokiĝos kiel `(k "kato" 9)`.
