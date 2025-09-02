@@ -48,6 +48,8 @@ Aboco de la Lambdokalkulo
 ne vere povas kompreni ion, krom se mi povas klarigi ĝin. Ĉi tiu afiŝo estas malstreĉa aliro por
 fari tion, kaj evitas tre teĥnikajn temojn, krom se ili estas ege bezonitaj.
 
+En ĉi tiu artikolo, la `≡` simbolo reprezentas ekvivalentecon, kaj la `=` simbolo reprezentas redukton.
+
 
 ### <a name="kio">Kio ĝi estas?</a>
 
