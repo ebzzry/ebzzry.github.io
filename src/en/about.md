@@ -18,10 +18,9 @@ language theory.
 His interests lie with consciousness, the mind, reality, dualism, and
 computationalism. He is currently exploring how we can use modern machines to
 determine the upper limits of what can be computed with artificial intelligence.
-He is the Chief Executive Officer of VEDA.
+He is the Chief Executive Officer of Veda Technologies, Inc.
 
-He loves to play golf and do practical shooting. He lives with his wife and son
-in the Philippines.
+He lives with his wife and son in the Philippines.
 </div>
 
 <div class="center">

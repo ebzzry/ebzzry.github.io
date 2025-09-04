@@ -263,7 +263,7 @@ the variable `k` is the current continuation—the remaining computation. What i
 computation? This:
 
 ```scheme
-(+                                    3)
+(+                               3)
 ```
 
 the addition to `3`. In order to represent that computation as function, it becomes:
