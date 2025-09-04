@@ -532,4 +532,3 @@ _Thanks to [Lucas Lugao](https://github.com/lucaslugao) for the corrections._
 - <http://www.inf.fu-berlin.de/lehre/WS03/alpi/lambda.pdf>
 - <http://www.cse.chalmers.se/research/group/logic/TypesSS05/Extra/geuvers.pdf>
 - <http://palmstroem.blogspot.com/2012/05/lambda-calculus-for-absolute-dummies.html>
-- <https://goo.gl/ae1hjS>

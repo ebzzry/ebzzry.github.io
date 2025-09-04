@@ -259,7 +259,7 @@ Ene la voko de `call/cc`:
 la variablo `k` estas la aktuala daŭrigo—la restanta komputo. Kio estas la restanta komputo? Jen:
 
 ```scheme
-(+                                    3)
+(+                               3)
 ```
 
 —la adicio al `3`. Por ke tiun komputon reprezentu kiel funkcio, ĝi fariĝos:

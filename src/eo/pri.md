@@ -14,13 +14,12 @@ Pri
 Rommel Martínez estas esploristo kun preskaŭ tri jardekoj da profesia sperto en
 programado; sistemadministrado; kaj programlingva teorio kaj desegnado.
 
-Interesas al li la konscio, la menso, la realo, la dualismo, kaj komputademismo. Li estas
-nune esploranta kiel oni povas uzi modernajn maŝinojn por precizigi la suprajn
-limojn de tio, kion oni povas komputi per artefarita inteligenteco. Li estas la
-ĉefa afergvida oficisto de VEDA.
+Interesas al li la konscio, la menso, la realo, la dualismo, kaj komputademismo.
+Li estas nune esploranta kiel oni povas uzi modernajn maŝinojn por precizigi la
+suprajn limojn de tio, kion oni povas komputi per artefarita inteligenteco. Li
+estas la ĉefa afergvida oficisto de Veda Technologies, Inc.
 
-Krome, li amas ludi golfon kaj fari praktikan pafadon. Li loĝas kun sia edzino
-kaj filo en Filipinoj.
+Li loĝas kun sia edzino kaj filo en Filipinoj.
 </div>
 
 <div class="center">
