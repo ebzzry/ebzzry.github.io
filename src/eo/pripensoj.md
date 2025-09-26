@@ -14,8 +14,8 @@ Pripensoj
 ordigitaj laŭ kronologiordo.
 
 
-- Dum la kuraĝuloj kuraĝas la ŝtormojn per kuraĝo kaj triumfo, la malkuraĝuloj
-  ripozas sur la marbordoj de la malprotesto kaj la konformeco.<br>
+- Dum la malkuraĝuloj ripozas sur la marbordoj de la malprotesto kaj la
+  konformeco, la kuraĝuloj kuraĝas la ŝtormojn per kuraĝo kaj triumfo. <br>
 
 
 - Scivolemo estas la malamiko de la nescio, la timo, la necerteco, kaj la
