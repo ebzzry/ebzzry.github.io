@@ -1149,3 +1149,6 @@ tra la jaroj.
 
 
 - La nura amo kiun ni ĉiuj meritas, estas la amo kiu elektas nin, ĉiutage.<br>—Ben&Ben
+
+
+- Vi ne devas fidi homojn tre facile ĉar, en la fino, ili povas perfidi vin. Ili ne perfidas vin ĉar ili pekas. Ili faras tiujn aferojn ĉar ili estas tiel malfortaj. Kaj malfortas la plej multo da homoj.<br>—Sinjorino Maeda, Gyeongseong Creature, 2023

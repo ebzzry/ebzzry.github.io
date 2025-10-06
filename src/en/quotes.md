@@ -1163,3 +1163,6 @@ the years.
 
 
 - The only love that we all deserve, is the love that will choose us, everyday.<br>—Ben&Ben
+
+
+- You musn’t trust others so easily because, in the end, they can betray you. They don’t betray you because they are evil. They do these things because they are so weak. And most people are weak.<br>—Lady Maeda, Gyeongseong Creature, 2023
