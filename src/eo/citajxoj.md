@@ -1152,3 +1152,9 @@ tra la jaroj.
 
 
 - Vi ne devas fidi homojn tre facile ĉar, en la fino, ili povas perfidi vin. Ili ne perfidas vin ĉar ili pekas. Ili faras tiujn aferojn ĉar ili estas tiel malfortaj. Kaj malfortas la plej multo da homoj.<br>—Sinjorino Maeda, Gyeongseong Creature, 2023
+
+
+- Kiam ajn mi atestas la timon de unuopulo, ĝi igas min viva.<br>—Sinjorino Maeda, Gyeongseong Creature (2024)
+
+
+- Estas iuj kiuj timas morton, sed ili ankaŭ estas tiuj kiuj timas vivi.<br>—Chae-ok, Gyeongseong Creature (2024)

@@ -1166,3 +1166,9 @@ the years.
 
 
 - You musn’t trust others so easily because, in the end, they can betray you. They don’t betray you because they are evil. They do these things because they are so weak. And most people are weak.<br>—Lady Maeda, Gyeongseong Creature, 2023
+
+
+- Every time I witness the fear of an individual, it makes me feel alive.<br>—Lady Maeda, Gyeongseong Creature (2024)
+
+
+- There are those who are afraid of dying but there are also those who are afraid to live.<br>—Chae-ok, Gyeongseong Creature (2024)
