@@ -1158,3 +1158,6 @@ tra la jaroj.
 
 
 - Estas iuj kiuj timas morton, sed ili ankaŭ estas tiuj kiuj timas vivi.<br>—Chae-ok, Gyeongseong Creature (2024)
+
+
+- Se oni havas fortan preferon, do oni devas havi fortan preferon por mono.<br>—Ben STOEGER

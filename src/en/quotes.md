@@ -1172,3 +1172,6 @@ the years.
 
 
 - There are those who are afraid of dying but there are also those who are afraid to live.<br>—Chae-ok, Gyeongseong Creature (2024)
+
+
+- If you don’t have a strong preference, then you should have a strong preference for money.<br>—Ben Stoeger
