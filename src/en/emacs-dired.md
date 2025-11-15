@@ -6,7 +6,7 @@ image: https://ebzzry.com/images/site/lucas-benjamin-V-mEcfI8fsI-unsplash-1008x2
 Managing Directories with Emacs
 ===============================
 
-<div class="center">English ∅ [Esperanto](/eo/emakso-dired/)</div>
+<div class="center">English | [Esperanto](/eo/emakso-dired/)</div>
 <div class="center">2018-02-12 17:05:07 +0800</div>
 
 >Supposing is good, but finding out is better.<br>

@@ -6,7 +6,7 @@ image: https://ebzzry.com/images/site/calvin-mano-CXS27RrJObQ-unsplash-1008x250.
 Retrospektive
 =============
 
-<div class="center">[English](/en/retrospect/) ∅ Esperanto</div>
+<div class="center">[English](/en/retrospect/) | Esperanto</div>
 <div class="center">2018-02-08 16:02:20 +0800</div>
 
 >Malfacileco estas tio, kiu vekas la geniulon.<br>

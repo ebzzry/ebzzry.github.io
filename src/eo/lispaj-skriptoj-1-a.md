@@ -6,7 +6,7 @@ image: https://ebzzry.com/images/site/lisp-lizard-1008x250.png
 Lispaj Skriptoj 1-a: Plurvokaj Plenumeblaj Dosieroj
 ===================================================
 
-<div class="center">[English](/en/lisp-scripting-1) ∅ Esperanto</div>
+<div class="center">[English](/en/lisp-scripting-1) | Esperanto</div>
 <div class="center">2018-09-25 11:06:33 +0800</div>
 
 >La lumo kiu fajras duoble brila, fajras duone longa.<br>

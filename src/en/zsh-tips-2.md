@@ -6,7 +6,7 @@ image: https://ebzzry.com/images/site/jonny-caspari-A7ol2HfnycY-unsplash-1008x25
 Zsh Tips 2: Directory Stacks
 ============================
 
-<div class="center">English ∅ [Esperanto](/eo/zisxkonsiletoj-2-a/)</div>
+<div class="center">English | [Esperanto](/eo/zisxkonsiletoj-2-a/)</div>
 <div class="center">2017-10-19 11:12:42 +0800</div>
 
 >What we do for ourselves dies with us. What we do for others remains forever.<br>

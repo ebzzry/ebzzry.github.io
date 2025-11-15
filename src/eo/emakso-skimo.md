@@ -6,7 +6,7 @@ image: https://ebzzry.com/images/site/dimitar-belchev-fRBpWLAcWIY-unsplash-1008x
 Agordi Skimprogramadon en Emakso
 ================================
 
-<div class="center">[English](/en/emacs-scheme/) ∅ Esperanto</div>
+<div class="center">[English](/en/emacs-scheme/) | Esperanto</div>
 <div class="center">2022-02-02 22:22:42 +0800</div>
 
 >Ĉiom da bonaj ideoj ne kuŝas sub unu ĉapelo.<br>

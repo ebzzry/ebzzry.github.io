@@ -6,7 +6,7 @@ image: https://ebzzry.com/images/site/maximalfocus-VT4rx775FT4-unsplash-1008x250
 Emacs Tips and Tricks 2: Sessions and Packages
 ==============================================
 
-<div class="center">English ∅ [Esperanto](/eo/emakskonsiletoj-2-a/)</div>
+<div class="center">English | [Esperanto](/eo/emakskonsiletoj-2-a/)</div>
 <div class="center">2017-10-18 19:55:10 +0800</div>
 
 >A bell that doesn’t ring has no purpose.<br>—Keel Lorenz, Neon Genesis Evangelion

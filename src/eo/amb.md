@@ -6,7 +6,7 @@ image: https://ebzzry.com/images/site/wallhaven-333472-1008x250.jpg
 Milda Enkonduko al Nedeterminismo en Skimo
 ==========================================
 
-<div class="center">[English](/en/amb/) ∅ Esperanto</div>
+<div class="center">[English](/en/amb/) | Esperanto</div>
 <div class="center">2019-03-07 19:31:31 +0800</div>
 
 >Kelke da plej kernaj paŝoj en mensa kresko baziĝas ne simple pri novajn kapablojn akiri, sed

@@ -6,7 +6,7 @@ image: https://ebzzry.com/images/site/simon-berger-6te9SupeW1g-unsplash-1008x250
 How I Use Git on the Command Line
 =================================
 
-<div class="center">English ∅ [Esperanto](/eo/gito/)</div>
+<div class="center">English | [Esperanto](/eo/gito/)</div>
 <div class="center">2019-07-30 19:49:42 +0800</div>
 
 >Conversely, those with persistence can ignore what others think. They can press
@@ -333,7 +333,7 @@ Here are other commands that we also need to define:
 
 ```
       (i) touch .gitignore; "${git}" init; "${self}" a.; "${self}" cim "$@" ;;
-      (i!) "${self}" i "[∅] make initial commit" ;;
+      (i!) "${self}" i "[|] make initial commit" ;;
 
       (oo) "${self}" ph origin "$(git brh)" ;;
       (oo!) "${self}" ph! origin "$(git brh)" ;;
@@ -341,7 +341,7 @@ Here are other commands that we also need to define:
 
 Whenever I create new repositories, I use the following command:
 
-    git i '[∅] make initial commit'
+    git i '[|] make initial commit'
 
 What the `oo` subcommand does is that code will be pushed to the remote
 named `origin` under the name of the current branch. For example, if the current
@@ -570,7 +570,7 @@ function git {
 
     case "${op}" in
       (i) touch .gitignore; "${git}" init; "${self}" a.; "${self}" cim "$@" ;;
-      (i!) "${self}" i "[∅] make initial commit" ;;
+      (i!) "${self}" i "[|] make initial commit" ;;
 
       (s) "${git}" status ;;
       (c) "${git}" clone "$@" ;;

@@ -6,7 +6,7 @@ image: https://ebzzry.com/images/site/lisp-lizard-1008x250.png
 How I Make Lisp Projects
 ========================
 
-<div class="center">English ∅ [Esperanto](/eo/lispaj-projektoj/)</div>
+<div class="center">English | [Esperanto](/eo/lispaj-projektoj/)</div>
 <div class="center">2025-08-04 15:39:29 +0800</div>
 
 >You have no idea what you’re trying to achieve until you’ve achieved it.<br>

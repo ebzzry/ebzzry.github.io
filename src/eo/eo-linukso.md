@@ -6,7 +6,7 @@ image: https://ebzzry.com/images/site/stefan-HbwYKfnVz0-unsplash-1008x250.jpg
 Esperanto-signoj en Linukso
 ===========================
 
-<div class="center">[English](/en/eo-linux/) ∅ Esperanto</div>
+<div class="center">[English](/en/eo-linux/) | Esperanto</div>
 <div class="center">2018-09-26 15:13:06 +0800</div>
 
 >Se ion oni volas, kion oni neniam havis, oni devas esti servopreta tion fari, kion oni neniam

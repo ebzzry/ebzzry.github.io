@@ -6,7 +6,7 @@ image: https://ebzzry.com/images/site/omair-parvez-o6ka1Lpk81U-unsplash-1008x250
 Zsh Tips 1: Aliases and Functions
 =================================
 
-<div class="center">English ∅ [Esperanto](/eo/zisxkonsiletoj-1-a/)</div>
+<div class="center">English | [Esperanto](/eo/zisxkonsiletoj-1-a/)</div>
 <div class="center">2017-10-19 11:12:42 +0800</div>
 
 >A common man marvels at uncommon things; a wise man marvels at the commonplace.<br>

@@ -6,7 +6,7 @@ image: https://ebzzry.com/images/site/stephen-johnson-Q8-Cc-IXRY-unsplash-1008x2
 Symbols and Marks
 =================
 
-<div class="center">English ∅ [Esperanto](/eo/signoj-interpunkcioj/)</div>
+<div class="center">English | [Esperanto](/eo/signoj-interpunkcioj/)</div>
 <div class="center">2016-04-08 21:35:50 +0800</div>
 
 >If you want to achieve greatness, stop asking for permission.<br>

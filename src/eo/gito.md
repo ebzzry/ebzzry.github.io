@@ -6,7 +6,7 @@ image: https://ebzzry.com/images/site/simon-berger-6te9SupeW1g-unsplash-1008x250
 Kiel Mi Uzas Giton ĉe la Komandlinio
 ====================================
 
-<div class="center">[English](/en/git/) ∅ Esperanto</div>
+<div class="center">[English](/en/git/) | Esperanto</div>
 <div class="center">2019-07-30 19:49:42 +0800</div>
 
 >Male, tiuj kun senĉeseco povas malatenti kiujn aliaj pensas. Ion ajn ili povas
@@ -337,7 +337,7 @@ Jen aliaj komandoj kiujn ni ankaŭ devas difini.
 
 ```
       (i) touch .gitignore; "${git}" init; "${self}" a.; "${self}" cim "$@" ;;
-      (i!) "${self}" i "[∅] pravalorizu" ;;
+      (i!) "${self}" i "[|] pravalorizu" ;;
 
       (oo) "${self}" ph origin "$(git brh)" ;;
       (oo!) "${self}" ph! origin "$(git brh)" ;;
@@ -346,7 +346,7 @@ Jen aliaj komandoj kiujn ni ankaŭ devas difini.
 
 Kiam ajn novajn deponejon mi kreas, la jenan komandon mi rulas:
 
-    git i '[∅] pravalorizu'
+    git i '[|] pravalorizu'
 
 Kion la `oo` subkomando faras estas ke la kodo puŝiĝos al la fordeponejo kiu
 nomiĝas `origin` sub la nomo de la aktuala branĉo. Ekzemple, se la aktuala
@@ -577,7 +577,7 @@ function git {
 
     case "${op}" in
       (i) touch .gitignore; "${git}" init; "${self}" a.; "${self}" cim "$@" ;;
-      (i!) "${self}" i "[∅] pravalorizu" ;;
+      (i!) "${self}" i "[|] pravalorizu" ;;
 
       (s) "${git}" status ;;
       (c) "${git}" clone "$@" ;;

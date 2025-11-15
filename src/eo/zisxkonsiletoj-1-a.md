@@ -6,7 +6,7 @@ image: https://ebzzry.com/images/site/omair-parvez-o6ka1Lpk81U-unsplash-1008x250
 Ziŝaj Konsiletoj 1-a: Alinomoj kaj Funkcioj
 ===========================================
 
-<div class="center">[English](/en/zsh-tips-1/) ∅ Esperanto</div>
+<div class="center">[English](/en/zsh-tips-1/) | Esperanto</div>
 <div class="center">2018-09-26 15:13:06 +0800</div>
 
 >Malsaĝulo miras pri nekutimaj aferoj. Ŝagulo miras pri la kutimaj aferoj.<br>

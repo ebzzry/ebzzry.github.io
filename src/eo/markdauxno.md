@@ -6,7 +6,7 @@ image: https://ebzzry.com/images/site/luca-bravo-bTxMLuJOff4-unsplash-1008x250.j
 Mia Markdaŭna Stilgvidilo
 =========================
 
-<div class="center">[English](/en/markdown/) ∅ Esperanto</div>
+<div class="center">[English](/en/markdown/) | Esperanto</div>
 <div class="center">2022-03-16 16:17:14 +0800</div>
 
 >La reguloj kiuj direktas cirkonstancojn estas nuligitaj per novaj cirkonstancoj.<br>

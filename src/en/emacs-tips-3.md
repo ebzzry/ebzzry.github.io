@@ -6,7 +6,7 @@ image: https://ebzzry.com/images/site/jr-korpa-E2i7HftbrI-unsplash-1008x250.jpg
 Emacs Tips and Tricks 3: Insert and Delete
 ==========================================
 
-<div class="center">English ∅ [Esperanto](/eo/emakskonsiletoj-3-a/)</div>
+<div class="center">English | [Esperanto](/eo/emakskonsiletoj-3-a/)</div>
 <div class="center">2018-07-14 16:49:00 +0800</div>
 
 >The more you sweat in peace, the less you bleed in war.<br>—Norman Schwarzkopf

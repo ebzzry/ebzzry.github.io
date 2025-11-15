@@ -6,7 +6,7 @@ image: https://ebzzry.com/images/site/maximalfocus-VT4rx775FT4-unsplash-1008x250
 Emaksaj Konsiletoj 2-a: Seancoj kaj Pakoj
 =========================================
 
-<div class="center">[English](/en/emacs-tips-2/) ∅ Esperanto</div>
+<div class="center">[English](/en/emacs-tips-2/) | Esperanto</div>
 <div class="center">2019-10-10 07:23:07 +0800</div>
 
 >Sonorilo kiu ne povas sonori ne havas celon.<br>—Keel LORENZ, Neon Genesis Evangelion

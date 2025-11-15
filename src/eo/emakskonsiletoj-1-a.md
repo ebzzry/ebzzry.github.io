@@ -6,7 +6,7 @@ image: https://ebzzry.com/images/site/robert-keane-rlbG0pnQOU-unsplash-1008x250.
 Emaksaj Konsiletoj 1-a: Regionoj kaj Markoj
 ===========================================
 
-<div class="center">[English](/en/emacs-tips-1/) ∅ Esperanto</div>
+<div class="center">[English](/en/emacs-tips-1/) | Esperanto</div>
 <div class="center">2018-09-25 10:43:05 +0800</div>
 
 >La voĉon ne pligrandigu; la argumenton plibonigu.<br>

@@ -6,7 +6,7 @@ image: https://ebzzry.com/images/site/zak-7wBFsHWQDlk-unsplash-1008x250.jpg
 Setting up Mail in Emacs
 ========================
 
-<div class="center">English ∅ [Esperanto](/eo/emakso-retposxto/)</div>
+<div class="center">English | [Esperanto](/eo/emakso-retposxto/)</div>
 <div class="center">2018-09-27 14:55:32 +0800</div>
 
 >Just because it isn’t done doesn’t mean it can’t be done. Just because it can be done doesn’t mean

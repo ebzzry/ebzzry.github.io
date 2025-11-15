@@ -6,7 +6,7 @@ image: https://ebzzry.com/images/site/avantagxo-1008x250.jpg
 Kiel Mi Uzas la Kinesis Advantage-Klavaron
 ==========================================
 
-<div class="center">Esperanto ∅ [English](/en/advantage/)</div>
+<div class="center">Esperanto | [English](/en/advantage/)</div>
 <div class="center">2022-03-07 23:33:51 +0800</div>
 
 >La doloro neeviteblas. La suferado malnepras.<br>

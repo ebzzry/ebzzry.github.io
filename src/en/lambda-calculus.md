@@ -6,7 +6,7 @@ image: https://ebzzry.com/images/site/joel-filipe-Wc8k-KryEPM-unsplash-1008x250.
 A Lambda Calculus Primer
 ========================
 
-<div class="center">English ∅ [Esperanto](/eo/lambdokalkulo/)</div>
+<div class="center">English | [Esperanto](/eo/lambdokalkulo/)</div>
 <div class="center">2015-06-13 04:44:26 +0800</div>
 
 >You do not really understand something unless you can explain it to your grandmother.<br>

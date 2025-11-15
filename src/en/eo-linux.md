@@ -6,7 +6,7 @@ image: https://ebzzry.com/images/site/stefan-HbwYKfnVz0-unsplash-1008x250.jpg
 Esperanto Characters in GNU/Linux
 =================================
 
-<div class="center">English ∅ [Esperanto](/eo/eo-linukso/)</div>
+<div class="center">English | [Esperanto](/eo/eo-linukso/)</div>
 <div class="center">2018-09-17 22:50:53 +0800</div>
 
 >If you want something you’ve never had, you must be willing to do something you’ve never

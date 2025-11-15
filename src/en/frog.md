@@ -6,7 +6,7 @@ image: https://ebzzry.com/images/site/zdenek-machacek-HYTwWSE5ztw-unsplash-1008x
 Blogging with Frog
 ==================
 
-<div class="center">English ∅ [Esperanto](/eo/frog/)</div>
+<div class="center">English | [Esperanto](/eo/frog/)</div>
 <div class="center">2017-03-16 08:39:08 +0800</div>
 
 >One person with passion is better than forty people merely interested.<br>

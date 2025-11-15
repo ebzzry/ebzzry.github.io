@@ -6,7 +6,7 @@ image: https://ebzzry.com/images/site/josh-withers-VyOUw5byHlc-unsplash-1008x250
 Division in Haskell
 ===================
 
-<div class="center">English ∅ [Esperanto](/eo/haskeldivido/)</div>
+<div class="center">English | [Esperanto](/eo/haskeldivido/)</div>
 <div class="center">2017-03-08 12:51:14 +0800</div>
 
 >But every decision for something is a decision against something else.<br>

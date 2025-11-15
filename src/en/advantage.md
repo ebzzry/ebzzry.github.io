@@ -6,7 +6,7 @@ image: https://ebzzry.com/images/site/avantagxo-1008x250.jpg
 How I Use the Kinesis Advantage
 ===============================
 
-<div class="center">English ∅ [Esperanto](/eo/advantage/)</div>
+<div class="center">English | [Esperanto](/eo/advantage/)</div>
 <div class="center">2015-10-27 00:35:27 +0800</div>
 
 >Pain is inevitable. Suffering is optional.<br>

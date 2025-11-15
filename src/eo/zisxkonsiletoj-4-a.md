@@ -6,7 +6,7 @@ image: https://ebzzry.com/images/site/adam-hornyak-Cm187aESg0k-unsplash-1008x250
 Ziŝaj Konsiletoj 4-a: Ĝeneralhelpiloj
 =====================================
 
-<div class="center">[English](/en/zsh-tips-4/) ∅ Esperanto</div>
+<div class="center">[English](/en/zsh-tips-4/) | Esperanto</div>
 <div class="center">2018-09-26 21:19:59 +0800</div>
 
 >Vidpunkto meritas okdek poentojn da inteligentecaj kvocientoj.<br>

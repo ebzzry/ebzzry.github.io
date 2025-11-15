@@ -6,7 +6,7 @@ image: https://ebzzry.com/images/site/lisp-lizard-1008x250.png
 Lisp Scripts 1: Multi-Call Binaries
 ===================================
 
-<div class="center">English ∅ [Esperanto](/eo/lispaj-skriptoj-1-a/)</div>
+<div class="center">English | [Esperanto](/eo/lispaj-skriptoj-1-a/)</div>
 <div class="center">2018-09-25 11:06:33 +0800</div>
 
 >The light that burns twice as bright burns half as long.<br>
