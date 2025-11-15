@@ -13,6 +13,7 @@ Pensoj de Optimisto
 
 <div class="text-right">Retejo pri informadiko, hominklinaĵoj, kaj hazardaĵoj. La enskriboj estas ordigitaj laŭ inverskronologiordo.</div>
 
+- [Eduko kaj Genera AI](eduko-genera-ai)
 - [Kiel Mi Kreas Lispajn Projektojn](lispaj-projektoj)
 - [Milda Enkonduko al Nix-Flokoj](flokoj)
 - [Kiel Mi Uzas la Kinesis Advantage360 Professional-Klavaron](adv360)
