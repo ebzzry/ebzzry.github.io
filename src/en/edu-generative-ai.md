@@ -1,10 +1,9 @@
 ---
-
 title: Education and Generative AI
 keywords: generative ai, gen ai, education, edu
 image: https://ebzzry.com/images/site/colin-watts-8tvSElhPqKE-unsplash-1008x250.jpg
 ---
-Education and Generative AI
+Education and Generative AI 
 ===========================
 
 <div class="center">English | [Esperanto](/eo/eduko-genera-ai/)</div>
@@ -17,7 +16,7 @@ Education and Generative AI
 
 I recently came across an
 [interview](https://www.youtube.com/watch?v=4DLtq6XeF94) of Stephen Cuunjieng
-regarding education and economics. Here’s my response.
+regarding education and economics. Here are my thoughts about it.
 
 Two years ago, I spoke about this topic in AI Asia Expo 2023, in the panel about
 Artificial Intelligence and Education. The key to fixing the system is to invest
@@ -63,10 +62,10 @@ Most of what is being taught in school is a tiny subset of what is functional
 and usable outside. This, then, creates the illusion of competence and talent.
 And of course, educators couldn’t care less about it.
 
-Then we have cybersecurity (blech) experts who does not even know how to write
-low-level programs. What we have are script kiddies who rely on tools and
-services to fake technical competence. These wannabes don’t even know what bit
-shifting is.
+Then we have cybersecurity instructors, who call themselves as experts, who does
+not even know how software works. What we have are script kiddies who rely on
+tools and services to fake technical competence. These wannabes don’t even know
+what bit shifting is.
 
 As long as you’re not implementing it, you don’t understand it. If you’re not
 part of the solution, you’re part of the problem.

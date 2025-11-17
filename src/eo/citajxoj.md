@@ -1161,3 +1161,6 @@ tra la jaroj.
 
 
 - Se oni havas fortan preferon, do oni devas havi fortan preferon por mono.<br>—Ben STOEGER
+
+
+- Vi estos ĉiam malpligranda kaj en malavantaĝo. Li batas vin ĉar vi permesas lin difini la kondiĉojn de la konkurso.<br>—Nogi, Ballerina (2025) 

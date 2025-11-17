@@ -1175,3 +1175,6 @@ the years.
 
 
 - If you don’t have a strong preference, then you should have a strong preference for money.<br>—Ben Stoeger
+
+
+- You will always be smaller and at a disadvantage. He is beating you because you are alowing him to define the terms of the contest.<br>—Nogi, Ballerina (2025)
