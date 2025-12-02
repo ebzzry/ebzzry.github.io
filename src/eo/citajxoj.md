@@ -1164,3 +1164,25 @@ tra la jaroj.
 
 
 - Vi estos ĉiam malpligranda kaj en malavantaĝo. Li batas vin ĉar vi permesas lin difini la kondiĉojn de la konkurso.<br>—Nogi, Ballerina (2025) 
+
+
+- Nenio povas malhelpi vin tiel multe kiel viaj propraj negarditaj pensoj.<br>—Budho Gotamo
+
+
+- Tion kion oni pripensas, oni fariĝas.<br>—Budho Gotamo
+
+
+- Vi ne estos punita pro via kolero; vi estos punita per via kolero.<br>—Budho Gotamo
+
+
+- Ĉiumatene ni estas naskiĝita denove. Tio kion ni faras hodiaŭ estas la plej grava.<br>—Budho Gotamo
+
+
+- Se vi lumigas lampon por iu, ĝi ankaŭ lumigas vian vojon.<br>—Budho Gotamo
+
+
+- Miloj da kandeloj povas esti ekbruligita per sola kandelo sed la vivo de tiu kandelo ne malplilongiĝos.<br>—Budho Gotamo
+
+
+- Pri la fakto, ke kelkaj programoj skanas eksterordajn kvantojn de dateno kaj montri ion kiu estas surface samspeca al tiu kiun dujaraĝa infano faras baze diras nenion.<br>—Noam CHOMSKY
+

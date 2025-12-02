@@ -1178,3 +1178,24 @@ the years.
 
 
 - You will always be smaller and at a disadvantage. He is beating you because you are alowing him to define the terms of the contest.<br>—Nogi, Ballerina (2025)
+
+
+- Nothing can harm you as much as your own thoughts unguarded.<br>—Siddharta Gautama
+
+
+- What you think, you become.<br>—Siddharta Gautama
+
+
+- You will not be punished for your anger; you will be punished by your anger.<br>—Siddhartha Gautama
+
+
+- Every morning we are born again. What we do today is what matters most.<br>—Siddhartha Gautama
+
+
+- If you light a lamp for somebody, it will also brighten your path.<br>—Siddhartha Gautama
+
+
+- Thousands of candles can be lit from a single candle and the life of the candle will not be shortened.<br>—Siddhartha Gautama
+
+
+- The fact that some programs that scans extraordinary amounts of data and get something superficially similar to what a two-year-old child does basically tells us nothing.<br>—Noam Chomsky
