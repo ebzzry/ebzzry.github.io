@@ -557,3 +557,6 @@ in chronological order.
 
 
 - If every sector of society has their own rules of what consitutes fairness and equality, and demands them to be absolute, how will they be defined?<br>
+
+
+- Never own a fire extinguisher if you’re afraid of putting out fire when the time comes that you need to.<br>

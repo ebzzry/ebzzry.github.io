@@ -548,5 +548,7 @@ ordigitaj laŭ kronologiordo.
 - Okazas kiam socialisto fariĝas kapitalisto? Kiam li gajnas monon.<br>
 
 
-
 - Kiam ĉiu sektoro de la socio havas siajn proprajn regulojn pri kiu konstituas justecon kaj egalecon, kaj postulas ilin iĝi la absoluta, kiel ili difiniĝos?<br>
+
+
+- Neniam posedi farjroestingilon se vi timas estingi fajron kiam venas la tempo en kiu vi bezonos fari ĝin.<br>
