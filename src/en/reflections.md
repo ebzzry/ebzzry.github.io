@@ -520,7 +520,7 @@ in chronological order.
 - A sheep can't be a shepherd to its fellow sheep because it is as weak as them.<br>
 
 
-- The ability of a parrot to talk does not mean it is aware of what it is talking about.<br>
+- The ability of a parrot to talk does not mean it knows what it is talking about.<br>
 
 
 - In the absence of meaningful content is entertainment.<br>

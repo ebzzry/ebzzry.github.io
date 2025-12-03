@@ -512,7 +512,7 @@ ordigitaj laŭ kronologiordo.
 - Ŝafo ne povas esti paŝtisto al sia kunŝafoj ĉar ĝi estas tiel molforta kiel ili.<br>
 
 
-- La kapablo de papago por paroli ne signifas, ke ĝi konscias pri tio kion ĝi priparolas.<br>
+- La kapablo de papago por paroli ne signifas, ke ĝi scias tion kion ĝi priparolas.<br>
 
 
 - Troviĝas en la manko de signifoplena enhavo estas amuzaĵo.<br>
