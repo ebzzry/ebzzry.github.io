@@ -1193,5 +1193,11 @@ tra la jaroj.
 - Kio estas la naturo de aritmetiko estas malsame al kiel ni uzal aritmetikon.<br>—Noam CHOMSKY
 
 
+- La strukturo de lingvo ne diras al ni ion ajn pri la sento de tempo.<br>—Noam CHOMSKY
 
-- La strukturo de lingvo ne diras al ni ion ajn pri la sento de tempo.<br>—Noam CHOMSKY.
+
+- Ni devas gravitigi la kvantummeĥanikon, ne kvantumigi la graviton.<br>—Sro Roger PENROSE
+
+
+- Eble ni estas na meĥanismo per kiu la kosmo provas uzi por kompreni sin mem.<br>—Demis HASSABIS
+

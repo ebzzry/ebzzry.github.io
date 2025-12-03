@@ -1211,3 +1211,9 @@ the years.
 
 
 - The structure of a language still doesn’t tell us anything about the perception of time.<br>—Noam CHOMSKY
+
+
+- We need to gravitise quantum mechanics, not quantise gravity.<br>—Sir Roger Penrose
+
+
+- Maybe we’re the mechanism by which the universe is going to try to understand itself.<br>—Demis Hassabis
