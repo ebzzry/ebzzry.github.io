@@ -1199,3 +1199,15 @@ the years.
 
 
 - The fact that some programs that scans extraordinary amounts of data and get something superficially similar to what a two-year-old child does basically tells us nothing.<br>—Noam Chomsky
+
+
+- External speech has words appearing in linear order—one word after another. There’s a very good reason to believe that the internal system—the system we use in thinking and reasoning—is on a linear order. It just deals with abstract structures.<br>—Noam Chomsky
+
+
+- There are no fixed relations between words, or the minimum meaning—the elements of language—than it is on the outside world. There’s so much more indirect relationship between them.<br>—Noam Chomsky
+
+
+- What’s the nature of arithmetic is different from how we use arithmetic.<br>—Noam Chomsky
+
+
+- The structure of a language still doesn’t tell us anything about the perception of time.<br>—Noam CHOMSKY

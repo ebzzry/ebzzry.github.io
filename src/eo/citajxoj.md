@@ -1186,3 +1186,12 @@ tra la jaroj.
 
 - Pri la fakto, ke kelkaj programoj skanas eksterordajn kvantojn de dateno kaj montri ion kiu estas surface samspeca al tiu kiun dujaraĝa infano faras baze diras nenion.<br>—Noam CHOMSKY
 
+
+- Ne estas fiksitaj rilatoj inter vortoj, aŭ la minimuma signifo—la eroj de lingvo—ol tio kio estas ĝi en la ekstera mondo. Estas multe da nerektaj rilatoj inter ili.<br>—Noam CHOMSKY
+
+
+- Kio estas la naturo de aritmetiko estas malsame al kiel ni uzal aritmetikon.<br>—Noam CHOMSKY
+
+
+
+- La strukturo de lingvo ne diras al ni ion ajn pri la sento de tempo.<br>—Noam CHOMSKY.
