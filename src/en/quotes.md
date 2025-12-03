@@ -1217,3 +1217,6 @@ the years.
 
 
 - Maybe we’re the mechanism by which the universe is going to try to understand itself.<br>—Demis Hassabis
+
+
+- We must know. We will know.<br>—David Hilbert

@@ -1201,3 +1201,5 @@ tra la jaroj.
 
 - Eble ni estas na meĥanismo per kiu la kosmo provas uzi por kompreni sin mem.<br>—Demis HASSABIS
 
+
+- Ne devas scii. Ne scios.<br>—David HILBERT
