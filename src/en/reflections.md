@@ -545,3 +545,6 @@ in chronological order.
 
 
 - Either you’re part of the problem, or you’re part of the solution.<br>
+
+
+- Societal equality is impossible because people are different. What may be considered normal in your place of birth, can be a crime halfway around the globe. Justice is subjective. Fairness is an illusion.<br>

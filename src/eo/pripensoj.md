@@ -537,3 +537,6 @@ ordigitaj laŭ kronologiordo.
 
 
 - Aŭ oni estas parto de la problema aŭ oni estas parto de la solvo.<br>
+
+
+- Socia egaleco estas malebla ĉar homoj estas malsimilaj. Tio kio estus konsiderata norma en via naskiĝlando povas esti krimo duonvoje tra la globo. Justeco estas subjektiva. Praveco estas iluzio.<br>
