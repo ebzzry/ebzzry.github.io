@@ -540,3 +540,13 @@ ordigitaj laŭ kronologiordo.
 
 
 - Socia egaleco estas malebla ĉar homoj estas malsimilaj. Tio kio estus konsiderata norma en via naskiĝlando povas esti krimo duonvoje tra la globo. Justeco estas subjektiva. Praveco estas iluzio.<br>
+
+
+- Perfekte egaleca socio ne povas ekzisti ĉar homoj ne estas samaj. Iuj estas gvidantoj, kaj iuj estas disĉiploj. Iuj estas virseksaj, kaj iuj estas virinseksaj. Iuj estas junaj, kaj iuj estas maljunaj.<br>
+
+
+- Okazas kiam socialisto fariĝas kapitalisto? Kiam li gajnas monon.<br>
+
+
+
+- Kiam ĉiu sektoro de la socio havas siajn proprajn regulojn pri kiu konstituas justecon kaj egalecon, kaj postulas ilin iĝi la absoluta, kiel ili difiniĝos?<br>
