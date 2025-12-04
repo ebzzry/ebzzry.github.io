@@ -1203,3 +1203,6 @@ tra la jaroj.
 
 
 - Ne devas scii. Ne scios.<br>—David HILBERT
+
+
+- Ekster la vido, ekster la menso.<br>—anonimulo

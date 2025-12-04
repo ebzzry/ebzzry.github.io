@@ -1210,7 +1210,7 @@ the years.
 - What’s the nature of arithmetic is different from how we use arithmetic.<br>—Noam Chomsky
 
 
-- The structure of a language still doesn’t tell us anything about the perception of time.<br>—Noam CHOMSKY
+- The structure of a language still doesn’t tell us anything about the perception of time.<br>—Noam Chomsky
 
 
 - We need to gravitise quantum mechanics, not quantise gravity.<br>—Sir Roger Penrose
@@ -1220,3 +1220,6 @@ the years.
 
 
 - We must know. We will know.<br>—David Hilbert
+
+
+- Out of sight, out of mind.<br>—anonymous
