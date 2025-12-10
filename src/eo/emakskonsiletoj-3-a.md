@@ -268,5 +268,5 @@ Jen la rilata kodeto por ĉiom da komandoj diskutitaj en ĉi tiu artikolo. Se on
 la terminalsimulilo pro kelkaj klavaj stiraj kodoj ne estas ricevitaj bone per la terminalsimulilo
 mem. Ekspluatante eksterajn ilojn, mi povas akiri unuforman konduton tra platformoj.
 
-Kiel ĉiam, troveblas la fontkodo [ĉi tie](https://github.com/ebzzry/dotfiles/tree/main/emacs). Se
+Kiel ĉiam, troveblas la fontkodo [ĉi tie](https://github.com/vedatechnologiesinc/dotfiles/tree/main/emacs). Se
 oni volas doni konsileton, sendu la tirpeton al mi!

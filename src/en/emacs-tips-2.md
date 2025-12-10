@@ -331,5 +331,5 @@ The key bindings for the commands above, are listed below:
 -------------------------------------
 
 In this post, I demonstrated that small tweaks can generate huge benefits. The rest of the
-configuration can be found [here](https://github.com/ebzzry/dotfiles/tree/main/emacs). If you have
+configuration can be found [here](https://github.com/vedatechnologiesinc/dotfiles/tree/main/emacs). If you have
 an Emacs hack to share, send a pull request!

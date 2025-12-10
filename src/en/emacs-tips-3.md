@@ -268,5 +268,5 @@ emacsclient on the terminal, due to the fact that some keyboard control codes ar
 the terminal emulator itself. By leveraging on external tools, I get a consistent behavior across
 platforms.
 
-As always, the source is available [here](https://github.com/ebzzry/dotfiles/tree/main/emacs). If
+As always, the source is available [here](https://github.com/vedatechnologiesinc/dotfiles/tree/main/emacs). If
 you have a tip to share, send in your pull request!

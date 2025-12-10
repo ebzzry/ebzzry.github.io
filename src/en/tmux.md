@@ -356,7 +356,7 @@ Then, kill tmux:
 
 Then, let’s then install the config file:
 
-    $ curl -SLo ~/.tmux.conf https://raw.githubusercontent.com/ebzzry/dotfiles/master/tmux/.tmux.conf
+    $ curl -SLo ~/.tmux.conf https://raw.githubusercontent.com/vedatechnologiesinc/dotfiles/master/tmux/.tmux.conf
 
 Finally, restart tmux
 
@@ -372,7 +372,7 @@ Tmux is one of the tools that one must be using when working with the terminal
 and command line. It enables workflow that would otherwise be difficult to do
 with other multiplexers, or very difficult to do with regular non-managed
 sessions. For the rest of the definitions, visit the repo
-[here](https://github.com/ebzzry/dotfiles/tree/main/tmux/.tmux.conf).
+[here](https://github.com/vedatechnologiesinc/dotfiles/tree/main/tmux/.tmux.conf).
 
 If you use git, you may also like the article about how I use it. It can be
 found [here](/en/git/).

@@ -1223,3 +1223,6 @@ the years.
 
 
 - Out of sight, out of mind.<br>—anonymous
+
+
+- A shooting competition isn’t a gunfight, but a gunfight is a shooting competition.<br>—Massad Ayoob

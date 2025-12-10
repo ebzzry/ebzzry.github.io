@@ -1206,3 +1206,6 @@ tra la jaroj.
 
 
 - Ekster la vido, ekster la menso.<br>—anonimulo
+
+
+- Pafilkonkurso ne estas pafillukto, sed pafillukto estas pafilkonkurso.<br>—Massad AYOOB
