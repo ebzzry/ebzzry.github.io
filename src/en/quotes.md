@@ -479,10 +479,6 @@ the years.
 - One ant is no ant.<br>—E. O. Wilson
 
 
-- SQL, Lisp, and Haskell are the only programming languages that I’ve seen where one spends more
-  time thinking than typing.<br>—Philip Greenspun
-
-
 - Don’t worry about now. The present is the least interesting time to live in.<br>—Alan Kay
 
 
@@ -1226,3 +1222,9 @@ the years.
 
 
 - A shooting competition isn’t a gunfight, but a gunfight is a shooting competition.<br>—Massad Ayoob
+
+
+- Take chances. Make mistakes. Get messy.<br>—Ms. Valerie Frizzle, The Magic School Bus
+
+
+- SQL, Lisp, and Haskell are the only programming languages that I've seen where one spends more time thinking than typing.<br>—Philip Greenspun

@@ -475,10 +475,6 @@ tra la jaroj.
 - Unu formiko ne estas formiko.<br>—E. O. WILSON
 
 
-- SQL, Lispo, kaj Haskelo estas nur la programlingvoj kiujn mi vidis, en kiu oni pasigis pli tempon
-  pensi ol maŝinskribi.<br>—Philip GREENSPUN
-
-
 - Ne maltrankviliĝu pri nun. La estanteco estas la malplej interesa tempo por envivi.<br>—Alan KAY
 
 
@@ -1209,3 +1205,9 @@ tra la jaroj.
 
 
 - Pafilkonkurso ne estas pafillukto, sed pafillukto estas pafilkonkurso.<br>—Massad AYOOB
+
+
+- Prenu ŝancojn. Faru erarojn. Estu malpure.<br>—Sinjorino Valerie FRIZZLE, The Magic School Bus
+
+
+- SQL, Lispo, kaj Haskelo estas nur la programlingvoj kiujn mi renkontis ke oni pensadis pli ol oni maŝinskribis.<br>—Philip GREENSPUN
