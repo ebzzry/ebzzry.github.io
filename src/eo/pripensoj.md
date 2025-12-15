@@ -552,3 +552,6 @@ ordigitaj laŭ kronologiordo.
 
 
 - Neniam posedi farjroestingilon se vi timas estingi fajron kiam venas la tempo en kiu vi bezonos fari ĝin.<br>
+
+
+- Se ne estas la afero pri vivi aŭ morti do pri kio la afero estas?<br>

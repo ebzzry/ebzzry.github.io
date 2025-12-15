@@ -1211,3 +1211,6 @@ tra la jaroj.
 
 
 - SQL, Lispo, kaj Haskelo estas nur la programlingvoj kiujn mi renkontis ke oni pensadis pli ol oni maŝinskribis.<br>—Philip GREENSPUN
+
+
+- Ju pli miksigitaj aferoj estas des pli bone la solvo.<br>—Sinjorino Valerie FRIZZLE, The Magic School Bus

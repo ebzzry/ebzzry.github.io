@@ -1228,3 +1228,6 @@ the years.
 
 
 - SQL, Lisp, and Haskell are the only programming languages that I've seen where one spends more time thinking than typing.<br>—Philip Greenspun
+
+
+- The more mixed up things are the better the solution.<br>—Ms. Valerie Frizzle, The Magic School Bus
