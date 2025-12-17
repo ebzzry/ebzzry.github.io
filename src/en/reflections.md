@@ -560,3 +560,6 @@ in chronological order.
 
 
 - Never own a fire extinguisher if you’re afraid of putting out fire when the time comes that you need to.<br>
+
+
+- If it is not a matter of life and death, then what is it a matter of?<br>

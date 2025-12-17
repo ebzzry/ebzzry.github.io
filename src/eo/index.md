@@ -1,11 +1,11 @@
 ---
-title: ∅
+title: MULTIPLE-VALUE-BIND
 description: Retejo pri informadiko, hominklinoj, kaj hazardaĵoj.
 keywords: rommel martinez, rommel martínez, ebzzry, ebzzry.com
 image: https://ebzzry.com/images/site/books-1008x250.jpg
 ---
-∅
-=
+MULTIPLE-VALUE-BIND
+===================
 
 <div class="center">[English](/en/) | Esperanto</div>
 
