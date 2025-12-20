@@ -1,13 +1,13 @@
 ---
-title: Software Ecosystems: Frauds and Experts
+title: Actors and Warriors
 description: Why are there no quality tech jobs in the Philippines?
-keywords: software, frauds, experts, philippines, ebzzry
+keywords: software, frauds, experts, actors, warriors, philippines, ebzzry
 image: https://ebzzry.com/images/site/john-hernandez-IL-fBBnF-GU-unsplash-1008x250.jpg
 ---
-Software Ecosystems: Frauds and Experts
-=======================================
+Actors and Warriors
+===================
 
-<div class="center">English ⊻ [Esperanto](/eo/spertuloj/)</div>
+<div class="center">English ⊻ [Esperanto](/eo/aktoroj-batalistoj/)</div>
 <div class="center">2025-12-20 00:28:11 +0800</div>
 
 >You can accomplish anything if you’re never in a hurry.<br>

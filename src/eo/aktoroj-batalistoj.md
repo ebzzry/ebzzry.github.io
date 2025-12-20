@@ -1,13 +1,13 @@
 ---
-title: Programaraj Ekosistemoj: Trompuloj kaj Spertuloj 
+title: Aktoroj kaj Batalistoj
 description: Kial ne estas altkvalitaj teĥnologiaj postenoj en Filipinoj?
-keywords: programaro, programado, trompuloj, spertuloj, filipinoj, ebzzry
+keywords: programaro, programado, trompuloj, spertuloj, aktoroj, batalistoj, filipinoj, ebzzry
 image: https://ebzzry.com/images/site/john-hernandez-IL-fBBnF-GU-unsplash-1008x250.jpg
 ---
-Programaraj Ekosistemoj: Trompuloj kaj Spertuloj
-================================================
+Aktoroj kaj Batalistoj
+======================
 
-<div class="center">[English](/en/experts/) ⊻ Esperanto</div>
+<div class="center">[English](/en/actors-warriors/) ⊻ Esperanto</div>
 <div class="center">2025-12-20 02:10:05 +0800</div>
 
 >Ion ajn oni povas atingi, se oni ne hastas.<br>
