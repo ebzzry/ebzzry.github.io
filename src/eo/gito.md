@@ -6,7 +6,7 @@ image: https://ebzzry.com/images/site/simon-berger-6te9SupeW1g-unsplash-1008x250
 Kiel Mi Uzas Giton ĉe la Komandlinio
 ====================================
 
-<div class="center">[English](/en/git/) | Esperanto</div>
+<div class="center">[English](/en/git/) ⊻ Esperanto</div>
 <div class="center">2019-07-30 19:49:42 +0800</div>
 
 >Male, tiuj kun senĉeseco povas malatenti kiujn aliaj pensas. Ion ajn ili povas

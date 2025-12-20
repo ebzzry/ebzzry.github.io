@@ -6,7 +6,7 @@ image: https://ebzzry.com/images/site/lucas-benjamin-V-mEcfI8fsI-unsplash-1008x2
 Manipuli Dosierujojn en Emakso
 ==============================
 
-<div class="center">[English](/en/emacs-dired/) | Esperanto</div>
+<div class="center">[English](/en/emacs-dired/) ⊻ Esperanto</div>
 <div class="center">2022-02-04 13:07:18 +0800</div>
 
 >Supozi bonas, tamen eltrovi pli bonas.<br>

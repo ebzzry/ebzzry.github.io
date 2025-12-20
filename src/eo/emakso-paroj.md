@@ -6,7 +6,7 @@ image: https://ebzzry.com/images/site/wallhaven-578010-1008x250.jpg
 Emakso kaj Paroj
 ================
 
-<div class="center">[English](/en/emacs-pairs/) | Esperanto</div>
+<div class="center">[English](/en/emacs-pairs/) ⊻ Esperanto</div>
 <div class="center">2018-07-10 13:25:30 +0800</div>
 
 >La blanka bruo kiu batas ene la blanka mallumo estas la ritmo de la vivo; estas la pulso kiu

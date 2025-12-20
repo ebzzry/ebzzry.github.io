@@ -6,7 +6,7 @@ image: https://ebzzry.com/images/site/thomas-jensen-ISG-rUel0Uw-unsplash-1008x25
 Sinkronigi Retnodojn per Usync
 ==============================
 
-<div class="center">[English](/en/usync/) | Esperanto</div>
+<div class="center">[English](/en/usync/) ⊻ Esperanto</div>
 <div class="center">2018-02-07 20:15:42 +0800</div>
 
 >Kion mi ne povas krei, mi ne komprenas.<br>

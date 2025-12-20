@@ -6,7 +6,7 @@ image: https://ebzzry.com/images/site/jr-korpa-E2i7HftbrI-unsplash-1008x250.jpg
 Emaksaj Konsiletoj 3-a: Enmeti kaj Forviŝi
 ==========================================
 
-<div class="center">[English](/en/emacs-tips-3/) | Esperanto</div>
+<div class="center">[English](/en/emacs-tips-3/) ⊻ Esperanto</div>
 <div class="center">2019-10-10 07:23:07 +0800</div>
 
 >Ju pli oni ŝvitas en paco, des malpli oni sangas en milito.<br>—Norman SCHWARZKOPF

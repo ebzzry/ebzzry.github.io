@@ -6,7 +6,7 @@ image: https://ebzzry.com/images/site/stephanie-leblanc-xrE6WwccyU-unsplash-1008
 Migri de LiveJournal al Frog
 ============================
 
-<div class="center">[English](/en/livefrog/) | Esperanto</div>
+<div class="center">[English](/en/livefrog/) ⊻ Esperanto</div>
 <div class="center">2018-02-07 20:15:42 +0800</div>
 
 >Mi ne scias kien mi iras, sed mi estas sur mia vojo.<br>

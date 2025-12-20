@@ -6,7 +6,7 @@ image: https://ebzzry.com/images/site/adam-hornyak-Cm187aESg0k-unsplash-1008x250
 Zsh Tips 4: General Helpers
 ===========================
 
-<div class="center">English | [Esperanto](/eo/zisxkonsiletoj-4-a/)</div>
+<div class="center">English ⊻ [Esperanto](/eo/zisxkonsiletoj-4-a/)</div>
 <div class="center">2017-10-09 17:52:46 +0800</div>
 
 >A change in perspective is worth 80 IQ points.<br>

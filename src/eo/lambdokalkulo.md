@@ -6,7 +6,7 @@ image: https://ebzzry.com/images/site/joel-filipe-Wc8k-KryEPM-unsplash-1008x250.
 Aboco de la Lambdokalkulo
 =========================
 
-<div class="center">[English](/en/lambda-calculus/) | Esperanto</div>
+<div class="center">[English](/en/lambda-calculus/) ⊻ Esperanto</div>
 <div class="center">2018-03-03 00:11:41 +0800</div>
 
 >Oni ne vere komprenas ion krom se oni povas klarigi ĝin al sia avino.<br>

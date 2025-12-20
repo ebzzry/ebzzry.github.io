@@ -6,7 +6,7 @@ image: https://ebzzry.com/images/site/dimitar-belchev-fRBpWLAcWIY-unsplash-1008x
 Setting up Scheme Development in Emacs
 ======================================
 
-<div class="center">English | [Esperanto](/eo/emakso-skimo/)</div>
+<div class="center">English ⊻ [Esperanto](/eo/emakso-skimo/)</div>
 <div class="center">2022-02-02 22:22:42 +0800</div>
 
 >All the good ideas never lie under one hat.<br>

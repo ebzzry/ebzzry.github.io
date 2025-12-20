@@ -6,7 +6,7 @@ image: https://ebzzry.com/images/site/andriyko-podilnyk-zGQ17qQMaaM-unsplash-100
 Kiel Komuniki Samkiel Homo
 ==========================
 
-<div class="center">[English](/en/human/) | Esperanto</div>
+<div class="center">[English](/en/human/) ⊻ Esperanto</div>
 <div class="center">2018-09-07 12:54:41 +0800</div>
 
 >La kapablo por paroli ne igas onin saĝa.<br>

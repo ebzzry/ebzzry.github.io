@@ -6,7 +6,7 @@ image: https://ebzzry.com/images/site/josh-withers-VyOUw5byHlc-unsplash-1008x250
 Divido en Haskelo
 =================
 
-<div class="center">[English](/en/haskell-division/) | Esperanto</div>
+<div class="center">[English](/en/haskell-division/) ⊻ Esperanto</div>
 <div class="center">2018-08-05 12:41:29 +0800</div>
 
 >Tamen ĉiu decido por io estas decido kontraŭ io alia.<br>

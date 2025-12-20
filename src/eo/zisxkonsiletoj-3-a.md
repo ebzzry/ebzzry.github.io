@@ -6,7 +6,7 @@ image: https://ebzzry.com/images/site/ali-lokhandwala-KUr51Y4dOyo-unsplash-1008x
 Ziŝaj Konsiletoj 3-a: Ŝanĝradikighelpiloj
 =========================================
 
-<div class="center">[English](/en/zsh-tips-3/) | Esperanto</div>
+<div class="center">[English](/en/zsh-tips-3/) ⊻ Esperanto</div>
 <div class="center">2017-10-20 19:15:18 +0800</div>
 
 >Ni ridas pri tio, kion ni ne povas toleri alfronti.<br>

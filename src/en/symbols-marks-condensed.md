@@ -6,7 +6,7 @@ image: https://ebzzry.com/images/site/stephen-johnson-Q8-Cc-IXRY-unsplash-1008x2
 Symbols and Marks (Condensed)
 =============================
 
-<div class="center">English | [Esperanto](/eo/signoj-interpunkcioj-mallongigite/)</div>
+<div class="center">English ⊻ [Esperanto](/eo/signoj-interpunkcioj-mallongigite/)</div>
 <div class="center">2017-03-28 19:24:48 +0800</div>
 
 >If you want to achieve greatness, stop asking for permission.<br>

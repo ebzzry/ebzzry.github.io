@@ -7,12 +7,13 @@ image: https://ebzzry.com/images/site/books-1008x250.jpg
 MULTIPLE-VALUE-BIND
 ===================
 
-<div class="center">English | [Esperanto](/eo/)</div>
+<div class="center">English ⊻ [Esperanto](/eo/)</div>
 
 <img src="/images/site/books-1008x250.jpg" style="" class="banner" title="On the face of Cosmos, we all are children." />
 
 <div class="text-right">A journal about computing, human predilections, and random krakaboom. The entries are sorted in reverse chronological order.</div>
 
+- [Software Ecosystems: Frauds and Experts](experts)
 - [Education and Generative AI](edu-generative-ai)
 - [How I Make Lisp Projects](lisp-projects)
 - [A Gentle Introduction to Nix Flakes](flakes)

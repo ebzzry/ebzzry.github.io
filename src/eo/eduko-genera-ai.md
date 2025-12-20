@@ -6,7 +6,7 @@ image: https://ebzzry.com/images/site/colin-watts-8tvSElhPqKE-unsplash-1008x250.
 Eduko kaj Genera AI
 ===================
 
-<div class="center">[English](/en/edu-generative-ai) | Esperanto</div>
+<div class="center">[English](/en/edu-generative-ai/) ⊻ Esperanto</div>
 <div class="center">2025-11-15 20:13:02 +0800</div>
 
 >Oni ne solvas pli per pli. Oni solvu ĝin per malpli.<br>
@@ -60,12 +60,6 @@ pleniloj—multe da falsaj informoj.
 Plej multe da tio kio estas instruitaj en lernejoj estas nur eta subaro de tio
 kio funkcias kaj uzebla ekstere. Ĉi tio, do, kreas la iluzion de scipovo kaj
 talento. Kaj kompreneble, edukistoj ne zorgas pri tio.
-
-Tiam ekzistas komputilsekurekaj edukistoj, kiuj sinidentigas ekspertuloj, kaj ne
-eĉ scias kiel krei
-programoj funkcias. Tio kion ni havas estas skriptistoj kiuj fidas al iloj
-kaj serviloj por falsigi teĥnikan kapablon. Ili ne eĉ scias kio estas movado de
-bitoj. 
 
 Dum longe ke oni ne realigas ĝin, oni ne komprenas ĝin. Se oni ne estas parto de
 la solvo, oni estas parto de la problemo.

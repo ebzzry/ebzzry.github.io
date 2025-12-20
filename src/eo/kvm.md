@@ -6,7 +6,7 @@ image: https://ebzzry.com/images/site/pierre-chatel-innocenti-N6Hx4HT4mHg-unspla
 Virtualigado en Linukso per KVM
 ===============================
 
-<div class="center">[English](/en/kvm/) | Esperanto</div>
+<div class="center">[English](/en/kvm/) ⊻ Esperanto</div>
 <div class="center">2018-09-09 12:14:56 +0800</div>
 
 >Se oni faras tion, kion oni ĉiam faras; oni akiros tion , kion oni ĉiam akiras.<br>

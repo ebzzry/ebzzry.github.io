@@ -6,7 +6,7 @@ image: https://ebzzry.com/images/site/lysander-yuen-wk833OrQLJE-unsplash-1008x25
 Kiel Mi Uzas Timukson
 =====================
 
-<div class="center">[English](/en/tmux/) | Esperanto</div>
+<div class="center">[English](/en/tmux/) ⊻ Esperanto</div>
 <div class="center">2022-02-19 15:27:23 +0800</div>
 
 >Furioza agado ne estas anstataŭaĵo de komprenado.<br>

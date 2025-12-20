@@ -6,7 +6,7 @@ image: https://ebzzry.com/images/site/ashim-d-silva-WeYamle9fDM-unsplash-1008x25
 Reflections
 ===========
 
-<div class="center">English | [Esperanto](/eo/pripensoj/)</div>
+<div class="center">English ⊻ [Esperanto](/eo/pripensoj/)</div>
 
 <img src="/images/site/ashim-d-silva-WeYamle9fDM-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
 

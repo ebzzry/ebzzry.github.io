@@ -6,7 +6,7 @@ image: https://ebzzry.com/images/site/timon-klauser-3MAmj1ZKSZA-unsplash-1008x25
 Super, Sube, kaj Aliloke
 ========================
 
-<div class="center">[English](/en/over-under/) | Esperanto</div>
+<div class="center">[English](/en/over-under/) ⊻ Esperanto</div>
 <div class="center">2022-02-03 21:36:59 +0800</div>
 
 >La nuraj limoj kiujn havas oni, estas la limoj kiujn kredas oni.<br>

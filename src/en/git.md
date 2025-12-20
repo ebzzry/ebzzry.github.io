@@ -6,7 +6,7 @@ image: https://ebzzry.com/images/site/simon-berger-6te9SupeW1g-unsplash-1008x250
 How I Use Git on the Command Line
 =================================
 
-<div class="center">English | [Esperanto](/eo/gito/)</div>
+<div class="center">English ⊻ [Esperanto](/eo/gito/)</div>
 <div class="center">2019-07-30 19:49:42 +0800</div>
 
 >Conversely, those with persistence can ignore what others think. They can press

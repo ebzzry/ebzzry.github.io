@@ -6,7 +6,7 @@ image: https://ebzzry.com/images/site/wallhaven-751942-1008x250.jpg
 Milda Enkonduko al la Nix-Familio
 =================================
 
-<div class="center">[English](/en/nix/) | Esperanto</div>
+<div class="center">[English](/en/nix/) ⊻ Esperanto</div>
 <div class="center">2018-09-17 22:50:53 +0800</div>
 
 >Ne maltrankviliĝu pri tio, kion la aliaj faros. La plej bona maniero por antaŭdiri la estontecon estas por eltrovi ĝin.<br>—Alan KAY

@@ -6,7 +6,7 @@ image: https://ebzzry.com/images/site/steve-johnson-zkNT5mikUuo-unsplash-1008x25
 Squandered Relentlessness
 =========================
 
-<div class="center">English | [Esperanto](/eo/malsxparita/)</div>
+<div class="center">English ⊻ [Esperanto](/eo/malsxparita/)</div>
 <div class="center">2012-03-07 22:30:50 +0800</div>
 
 >The first step towards getting somewhere is to decide that you are not going to stay where you

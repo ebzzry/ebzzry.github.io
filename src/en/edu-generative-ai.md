@@ -6,7 +6,7 @@ image: https://ebzzry.com/images/site/colin-watts-8tvSElhPqKE-unsplash-1008x250.
 Education and Generative AI 
 ===========================
 
-<div class="center">English | [Esperanto](/eo/eduko-genera-ai/)</div>
+<div class="center">English ⊻ [Esperanto](/eo/eduko-genera-ai/)</div>
 <div class="center">2025-11-15 18:59:25 +0800</div>
 
 >You don’t solve more with more. You solve it with less.<br>
@@ -61,11 +61,6 @@ information.
 Most of what is being taught in school is a tiny subset of what is functional
 and usable outside. This, then, creates the illusion of competence and talent.
 And of course, educators couldn’t care less about it.
-
-Then we have cybersecurity instructors, who call themselves as experts, who does
-not even know how software works. What we have are script kiddies who rely on
-tools and services to fake technical competence. These wannabes don’t even know
-what bit shifting is.
 
 As long as you’re not implementing it, you don’t understand it. If you’re not
 part of the solution, you’re part of the problem.

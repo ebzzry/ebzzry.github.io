@@ -6,7 +6,7 @@ image: https://ebzzry.com/images/site/lisp-lizard-1008x250.png
 Kiel Mi Kreas Lispajn Projektojn
 ================================
 
-<div class="center">[English](/en/lisp-projects/) | Esperanto</div>
+<div class="center">[English](/en/lisp-projects/) ⊻ Esperanto</div>
 <div class="center">2025-08-04 19:25:07 +0800</div>
 
 >Oni ne havas ideon kion oni provas atingi ĝis oni jam atingis ĝin.<br>

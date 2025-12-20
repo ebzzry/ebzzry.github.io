@@ -6,7 +6,7 @@ image: https://ebzzry.com/images/site/thomas-jensen-ISG-rUel0Uw-unsplash-1008x25
 Synchronizing Sites with Usync
 ==============================
 
-<div class="center">English | [Esperanto](/eo/usync/)</div>
+<div class="center">English ⊻ [Esperanto](/eo/usync/)</div>
 <div class="center">2017-03-16 22:35:44 +0800</div>
 
 >What I cannot create, I do not understand.<br>
