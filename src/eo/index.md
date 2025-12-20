@@ -1,11 +1,11 @@
 ---
-title: ∅
+title: Rommel Martínez
 description: Retejo pri informadiko, hominklinoj, kaj hazardaĵoj.
 keywords: rommel martinez, rommel martínez, ebzzry, ebzzry.com
 image: https://ebzzry.com/images/site/books-1008x250.jpg
 ---
-∅
-=
+Rommel Martínez
+===============
 
 <div class="center">[English](/en/) ⊻ Esperanto</div>
 
@@ -14,7 +14,7 @@ image: https://ebzzry.com/images/site/books-1008x250.jpg
 <div class="text-right">Retejo pri informadiko, hominklinaĵoj, kaj hazardaĵoj. La enskriboj estas ordigitaj laŭ inverskronologiordo.</div>
 
 - [Aktoroj kaj Batalistoj](aktoroj-batalistoj)
-- [Eduko kaj Genera AI](eduko-genera-ai)
+- [Funkcie Analfabeta](funkcie-analfabeta)
 - [Kiel Mi Kreas Lispajn Projektojn](lispaj-projektoj)
 - [Milda Enkonduko al Nix-Flokoj](flokoj)
 - [Kiel Mi Uzas la Kinesis Advantage360 Professional-Klavaron](adv360)

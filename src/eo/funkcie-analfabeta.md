@@ -1,12 +1,12 @@
 ---
-title: Eduko kaj Genera AI
-keywords: genera ai, eduko
+title: Funkcie Analfabeta
+keywords: funkcie analfabeta, funkcia analfabeteco, genera ai, eduko 
 image: https://ebzzry.com/images/site/colin-watts-8tvSElhPqKE-unsplash-1008x250.jpg
 ---
-Eduko kaj Genera AI
-===================
+Funkcie Analfabeta
+==================
 
-<div class="center">[English](/en/edu-generative-ai/) ⊻ Esperanto</div>
+<div class="center">[English](/en/functionally-illiterate/) ⊻ Esperanto</div>
 <div class="center">2025-11-15 20:13:02 +0800</div>
 
 >Oni ne solvas pli per pli. Oni solvu ĝin per malpli.<br>

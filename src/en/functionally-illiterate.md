@@ -1,12 +1,12 @@
 ---
-title: Education and Generative AI
-keywords: generative ai, gen ai, education, edu
+title: Functionally Illiterate
+keywords: functionally illiterate, functional illiteracy, generative ai, gen ai, education, edu 
 image: https://ebzzry.com/images/site/colin-watts-8tvSElhPqKE-unsplash-1008x250.jpg
 ---
-Education and Generative AI 
-===========================
+Functionally Illiterate
+=======================
 
-<div class="center">English ⊻ [Esperanto](/eo/eduko-genera-ai/)</div>
+<div class="center">English ⊻ [Esperanto](/eo/funkcie-analfabeta/)</div>
 <div class="center">2025-11-15 18:59:25 +0800</div>
 
 >You don’t solve more with more. You solve it with less.<br>

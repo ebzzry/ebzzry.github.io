@@ -1,11 +1,11 @@
 ---
-title: ∅
+title: Rommel Martínez
 description: A journal about computing, human predilections, and random krakaboom.
 keywords: rommel martinez, rommel martínez, ebzzry, ebzzry.com
 image: https://ebzzry.com/images/site/books-1008x250.jpg
 ---
-∅
-=
+Rommel Martínez
+===============
 
 <div class="center">English ⊻ [Esperanto](/eo/)</div>
 
@@ -14,7 +14,7 @@ image: https://ebzzry.com/images/site/books-1008x250.jpg
 <div class="text-right">A journal about computing, human predilections, and random krakaboom. The entries are sorted in reverse chronological order.</div>
 
 - [Actors and Warriors](actors-warriors)
-- [Education and Generative AI](edu-generative-ai)
+- [Functionally Illiterate](functionally-illiterate)
 - [How I Make Lisp Projects](lisp-projects)
 - [A Gentle Introduction to Nix Flakes](flakes)
 - [How I Use the Kinesis Advantage360 Professional](adv360)
