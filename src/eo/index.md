@@ -13,6 +13,7 @@ MULTIPLE-VALUE-BIND
 
 <div class="text-right">Retejo pri informadiko, hominklinaĵoj, kaj hazardaĵoj. La enskriboj estas ordigitaj laŭ inverskronologiordo.</div>
 
+- [Programaraj Ekosistemoj: Trompuloj kaj Spertuloj](spertuloj)
 - [Eduko kaj Genera AI](eduko-genera-ai)
 - [Kiel Mi Kreas Lispajn Projektojn](lispaj-projektoj)
 - [Milda Enkonduko al Nix-Flokoj](flokoj)
