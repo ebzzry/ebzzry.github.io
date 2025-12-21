@@ -1,7 +1,7 @@
 ---
 title: Manipuli Dosierujojn en Emakso
 keywords: emakso, dired, diredo, dosieruja redaktilo, agordo, agordaĵo, agordajxo, mastrumado 
-image: https://ebzzry.com/images/site/lucas-benjamin-V-mEcfI8fsI-unsplash-1008x250.jpg
+image: https://ebzzry.com/images/site/tom-barrett-wqQ4NNG_J28-unsplash-1008x250.jpg
 ---
 Manipuli Dosierujojn en Emakso
 ==============================
@@ -12,7 +12,7 @@ Manipuli Dosierujojn en Emakso
 >Supozi bonas, tamen eltrovi pli bonas.<br>
 >—Samuel CLEMENS
 
-<img src="/images/site/lucas-benjamin-V-mEcfI8fsI-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="lucas-benjamin-V-mEcfI8fsI-unsplash" title="lucas-benjamin-V-mEcfI8fsI-unsplash"/>
+<img src="/images/site/tom-barrett-wqQ4NNG_J28-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="tom-barrett-wqQ4NNG_J28-unsplash" title="tom-barrett-wqQ4NNG_J28-unsplash"/>
 
 
 <a name="et">Enhavotabelo</a>

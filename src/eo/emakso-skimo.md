@@ -1,7 +1,7 @@
 ---
 title: Agordi Skimprogramadon en Emakso
 keywords: emakso, skimo, skimprogramado, skimo, lispo, programado, agordo, agordaĵo, agordajxo 
-image: https://ebzzry.com/images/site/dimitar-belchev-fRBpWLAcWIY-unsplash-1008x250.jpg
+image: https://ebzzry.com/images/site/dimitar-belchev-A7v5KWxnKQA-unsplash-1008x250.jpg
 ---
 Agordi Skimprogramadon en Emakso
 ================================
@@ -12,7 +12,7 @@ Agordi Skimprogramadon en Emakso
 >Ĉiom da bonaj ideoj ne kuŝas sub unu ĉapelo.<br>
 >—Dale TURNER
 
-<img src="/images/site/dimitar-belchev-fRBpWLAcWIY-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="dimitar-belchev-fRBpWLAcWIY-unsplash" title="dimitar-belchev-fRBpWLAcWIY-unsplash"/>
+<img src="/images/site/dimitar-belchev-A7v5KWxnKQA-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="dimitar-belchev-A7v5KWxnKQA-unsplash" title="dimitar-belchev-A7v5KWxnKQA-unsplash"/>
 
 
 <a name="et">Enhavotabelo</a>

@@ -1,7 +1,7 @@
 ---
 title: Blogging with Frog
 keywords: frog, markdown, static website
-image: https://ebzzry.com/images/site/zdenek-machacek-HYTwWSE5ztw-unsplash-1008x250.jpg
+image: https://ebzzry.com/images/site/pedro-lastra-Nyvq2juw4_o-unsplash-1008x250.jpg
 ---
 Blogging with Frog
 ==================
@@ -12,7 +12,7 @@ Blogging with Frog
 >One person with passion is better than forty people merely interested.<br>
 >—E.M. Forster
 
-<img src="/images/site/zdenek-machacek-HYTwWSE5ztw-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="zdenek-machacek-HYTwWSE5ztw-unsplash" title="zdenek-machacek-HYTwWSE5ztw-unsplash"/>
+<img src="/images/site/pedro-lastra-Nyvq2juw4_o-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="pedro-lastra-Nyvq2juw4_o-unsplash" title="pedro-lastra-Nyvq2juw4_o-unsplash"/>
 
 
 <a name="toc">Table of contents</a>

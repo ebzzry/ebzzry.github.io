@@ -1,7 +1,7 @@
 ---
 title: Esperanto-signoj en Linukso
 keywords: esperanto, linukso, linukse, klavaro, signoj, literoj, agordo, agardaĵo, agordajxo 
-image: https://ebzzry.com/images/site/stefan-HbwYKfnVz0-unsplash-1008x250.jpg
+image: https://ebzzry.com/images/site/stefan-stefancik-6whwCHgsMiA-unsplash-1008x250.jpg
 ---
 Esperanto-signoj en Linukso
 ===========================
@@ -13,7 +13,7 @@ Esperanto-signoj en Linukso
 >faris.<br>
 >—Thomas JEFFERSON
 
-<img src="/images/site/stefan-HbwYKfnVz0-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="stefan-HbwYKfnVz0-unsplash" title="stefan-HbwYKfnVz0-unsplash"/>
+<img src="/images/site/stefan-stefancik-6whwCHgsMiA-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="stefan-stefancik-6whwCHgsMiA-unsplash" title="stefan-stefancik-6whwCHgsMiA-unsplash"/>
 
 
 <a name="et">Enhavotabelo</a>
