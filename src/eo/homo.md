@@ -205,4 +205,4 @@ des pli homoj volos ŝati por aŭskulti al oni.
 
 Ne okazos la gajno de rideto en la momenton, en kiu la rideto estis ricevita; estas dum la momentoj
 de pripensadoj. Rideto kreas daŭreman efikon, kaj ĝi estas tiom potenca, ke ĝi kapablas por ŝanĝi malbonan
-senton. Rideto alportas neseriozecon, engaĝiĝon, kaj feliĉecon. Portu ĝin. Posedu ĝin. 😊
+senton. Rideto alportas neseriozecon, engaĝiĝon, kaj feliĉecon. Portu ĝin. Posedu ĝin 😊

@@ -1,7 +1,7 @@
 ---
 title: Blogi per Frog
 keywords: frog, markdown, statika retejo
-image: https://ebzzry.com/images/site/pedro-lastra-Nyvq2juw4_o-unsplash-1008x250.jpg
+image: https://ebzzry.com/images/site/pedro-lastra-Nyvq2juw4xo-unsplash-1008x250.jpg
 ---
 Blogi per Frog
 ==============
@@ -12,7 +12,7 @@ Blogi per Frog
 >Unu persono kun ardo pli bonas ol kvardek personoj nure interesataj.<br>
 >—E.M. FORSTER
 
-<img src="/images/site/pedro-lastra-Nyvq2juw4_o-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="pedro-lastra-Nyvq2juw4_o-unsplash" title="pedro-lastra-Nyvq2juw4_o-unsplash"/>
+<img src="/images/site/pedro-lastra-Nyvq2juw4xo-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="pedro-lastra-Nyvq2juw4xo-unsplash" title="pedro-lastra-Nyvq2juw4xo-unsplash"/>
 
 
 <a name="et">Enhavotabelo</a>

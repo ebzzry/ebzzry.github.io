@@ -13,8 +13,8 @@ Rommel Martínez
 
 <div class="text-right">A journal about computing, human predilections, and random krakaboom. The entries are sorted in reverse chronological order.</div>
 
-- [Actors and Warriors](actors-warriors)
-- [Functionally Illiterate](functionally-illiterate)
+- [Actors and Warriors: Theatrics and Bloodshed](actors-warriors)
+- [Functionally Illiterate: How to Be Dumb, Fast](functionally-illiterate)
 - [How I Make Lisp Projects](lisp-projects)
 - [A Gentle Introduction to Nix Flakes](flakes)
 - [How I Use the Kinesis Advantage360 Professional](adv360)

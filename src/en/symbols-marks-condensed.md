@@ -17,7 +17,7 @@ Symbols and Marks (Condensed)
 The table below is the condensed form of [Symbols and Marks](/en/symbols-marks/).
 
 | Glyph | Name               | GNU/Linux      | Mac   | Windows    |
-|:------|:-------------------|:---------------|:------|:-----------|
+| :---- | :----------------- | :------------- | :---- | :--------- |
 | –     | en dash            | 🐧 + -         | ⌥ -   | Alt + 0150 |
 | —     | em dash            | 🐧 + Shift + - | ⇧ ⌥ - | Alt + 0151 |
 | “     | left double quote  | 🐧 + [         | ⌥ [   | Alt + 0147 |

@@ -1,17 +1,17 @@
 ---
-title: Actors and Warriors
+title: Actors and Warriors: Theatrics and Bloodshed
 description: Why are there no quality tech jobs in the Philippines?
 keywords: software, frauds, experts, actors, warriors, philippines, ebzzry
 image: https://ebzzry.com/images/site/john-hernandez-IL-fBBnF-GU-unsplash-1008x250.jpg
 ---
-Actors and Warriors
-===================
+Actors and Warriors: Theatrics and Bloodshed
+============================================
 
 <div class="center">English ⊻ [Esperanto](/eo/aktoroj-batalistoj/)</div> <div
 class="center">2025-12-20 00:28:11 +0800</div>
 
->You can accomplish anything if you’re never in a hurry.<br> —Chesley
->Sullenberger, Sully (2016)
+>If you see fraud and do not say fraud, you are a fraud.<br>
+>—Nassim Nicholas Taleb
 
 <img src="/images/site/john-hernandez-IL-fBBnF-GU-unsplash-1008x250.jpg"
 style="display: block; width: 100%; margin-left: auto; margin-right: auto;"
@@ -120,18 +120,16 @@ Understanding algorithms and data structures requires a different kind of
 thinking not present in other fields.
 
 For the past decade, I have been trying so hard to restrain myself to comment on
-a sub-topic. I even borderline consider it a pet peeve of mine because of how
-ridiculously stupid it is. It is the topic of false experts. During the past
-decade, I have seen an influx of conferences, seminars, and symposia about
-«Technology», «Trends», etc. What’s egregious is that the main people talking
-about those topics know nothing about those things. I somehow always find myself
-in uncomfortable situations wherein I ask the expert, directly, questions about
-what he presented, sometimes during the presentation, more often, after. I
-thought that politicians are good at dodging questions that are sensitive in
-nature. But lo and behold, I soon discovered that the false experts are actually
-better at it.
+a subtopic—orators. During the past decade, I have seen an influx of
+conferences, seminars, and symposia about «Technology», «Trends», etc. What’s
+egregious is that the main people talking about those topics know nothing about
+those things. I somehow always find myself in uncomfortable situations wherein I
+ask the expert, directly, questions about what he presented, sometimes during
+the presentation, more often, after. I thought that politicians are good at
+dodging questions that are sensitive in nature. But lo and behold, I soon
+discovered that the orators are actually better at it.
 
-Then, there are the outsiders. These people have no real interest with CS, have
+Then, there are the outlanders. These people have no real interest with CS, have
 no technical proficiencies, and have nothing to contribute to the discussion.
 The most interaction they have with machines was playing videogames. These are
 the people that make a lot of noise on social media. They talk about the latest
@@ -140,12 +138,20 @@ Artificial Intelligence, and just about any space that they want to hop on. The
 amount of publicity that they have is inversely proportional to the amount of
 technical knowledge they have over those domains. Some of them are real estate
 agents, practicing lawyers, bankers, accountants, civil servants, and the
-run-of-the-mill enthusiasts. At best, they’re operators; at worst, they’re
-frauds.
+run-of-the-mill enthusiasts. At best, they’re just operators.
 
-In a recent post that I made online, I said this «When somebody claims that
+In any kind of market, there are different kinds of players. In a free market,
+specifically, every participant is given a chance to make it big. One of most
+important driving forces in a free market is competition as framed and
+determined by supply and demand. The orators and outlanders have nothing to
+contribute. They eat up the valuable space for aspiring players. They hog
+discussions about inventions and innovations. They appear in mainstream media
+with microphones. They lobby in the senate. They pump more and more air to
+benefit only themselves. They don’t really care about economic growth.
+
+In a recent post that I made online, I said this, «When somebody claims that
 they’ve been in the software industry for a long time, my immediate instinct is
-to look for their credentials—open source code and technical articles. The
+to look for their credentials—open source code or technical articles. The
 absence of those is the absence of credibility.» A lot of the responses talked
 about NDAs and some such. Now, if I had to explain every nuance of that
 statement, for every case, it would already become too lengthy. There was no
@@ -192,12 +198,13 @@ only the minimum necessary. What is present nowadays are depressed employees
 typing manically with their keyboards in desperate attempts to produce something
 useful.
 
-Nonetheless, all hope is not lost. Instead of arguing senselessly, with people I
-disagree with in the software industry, my company decided to rise up and solve
-the problems that we are good at solving—the technical ones. In the midst of the
-noise, chatter, and nonsense, we strive to contribute to the welfare the
-society, albeit in baby steps. We also do our best to contribute to the
-community by giving away some of our key software components, free, gratis,
-libre. On the social side of things, we also do our best, to educate people—both
-young and old—about the basics, nuances, techniques, and methods that can be
-used to survive the rapidly changing tech scene.
+I have always had the option of just observing things from afar and minding my
+own business. However, Taleb’s words sowed seeds of actions in me. My company
+and I decided to rise up to the challenge and solve the problems that we are
+good at solving—the technical ones. And even in the midst of the noise, chatter,
+and nonsense, we strive to contribute to the welfare the society, albeit in baby
+steps. We also do our best to contribute to the community by giving away some of
+our key software components, free, gratis, libre. On the social side of things,
+we also do our best, to educate people—both young and old—about the basics,
+nuances, techniques, and methods that can be used to survive the rapidly
+changing tech scene.

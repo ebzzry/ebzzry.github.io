@@ -13,8 +13,8 @@ Rommel Martínez
 
 <div class="text-right">Retejo pri informadiko, hominklinaĵoj, kaj hazardaĵoj. La enskriboj estas ordigitaj laŭ inverskronologiordo.</div>
 
-- [Aktoroj kaj Batalistoj](aktoroj-batalistoj)
-- [Funkcie Analfabeta](funkcie-analfabeta)
+- [Aktoroj kaj Batalistoj: Teatroj kaj Sangoverŝo](aktoroj-batalistoj)
+- [Funkcie Analfabeta: Kiel iĝi Stulte, Rapide](funkcie-analfabeta)
 - [Kiel Mi Kreas Lispajn Projektojn](lispaj-projektoj)
 - [Milda Enkonduko al Nix-Flokoj](flokoj)
 - [Kiel Mi Uzas la Kinesis Advantage360 Professional-Klavaron](adv360)

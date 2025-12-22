@@ -209,4 +209,4 @@ willing you show that you want to listen, the more people will want to talk to y
 
 The payload of a smile is not at the instant that the smile was received; it is during our moments
 of reflection. A smile creates a lasting impact, and it is so potent that it is able to alter an
-ill perception. A smile conveys lightheartedness, engagement, and happiness. Wear it. Own it. 😄
+ill perception. A smile conveys lightheartedness, engagement, and happiness. Wear it. Own it 😄

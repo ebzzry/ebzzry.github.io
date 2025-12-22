@@ -1,10 +1,10 @@
 ---
-title: Funkcie Analfabeta
+title: Funkcie Analfabeta: Kiel iĝi Stulte, Rapide
 keywords: funkcie analfabeta, funkcia analfabeteco, genera ai, eduko 
 image: https://ebzzry.com/images/site/colin-watts-8tvSElhPqKE-unsplash-1008x250.jpg
 ---
-Funkcie Analfabeta
-==================
+Funkcie Analfabeta: Kiel iĝi Stulte, Rapide
+===========================================
 
 <div class="center">[English](/en/functionally-illiterate/) ⊻ Esperanto</div>
 <div class="center">2025-11-15 20:13:02 +0800</div>
@@ -24,17 +24,23 @@ investi pli da tempo kaj energio al la plibonigo de la eduka sistemo.
 
 En informadiko, ĉi tio estas tre dominanta. Mi jam diris ĉi tion plurfoje kaj
 ĝin mi diros denove: la uzado de genera AI estas la erozio de komuna prudento.
-En la momento ke edukisto uzas ĝin, li jam prirezignis kritikan pensadon kaj
+En la momento ke edukisto uzas ĝin, li rezignas kritikan pensadon kaj
 eksiĝis al idioteco.
 
 Jen kiel ĝi funkcias: la profesoro uzas generan AI-on por ĝiaj lecionoj kaj
 ekzamenoj. La studentoj uzas generan AI-on por respondi. La profesoro uzas
 generan AI-on por kontroli la senditajn ekzamenojn. Sapumu, akvumu, ripetu. Ĝi
-ĉiufoje rezultas al nedungeblajn stultulojn.
+ĉiufoje rezultas al nedungeblajn stultulojn. Genera AI-sistemoj fiaskas ĉar ĉi
+tiuj sistemoj ne scias tion kio estas ĝusta aŭ malĝusta. Jen klasika demonstro
+de teoremoj de nekompleteco. La kolerema varbado al genera AI estas inverse
+proporcie kun la scio kiel ili funkcias.
 
-Genera AI-sistemoj fiaskas ĉar ĉi tiuj sistemoj ne scias tion kio estas ĝusta aŭ
-malĝusta. Jen klasika demonstro de teoremoj de nekompleteco. La kolerema varbado
-al genera AI estas inverse proporcie kun la scio kiel ili funkcias.
+Se vi nur deziras rigardi maŝinojn paroli al aliaj maŝinoj, tiam doni
+respondojn, kaj la maŝinoj korfirmas la retrokulpon, kaj vi restas en tiu
+iteracio, do vi nun ne havas valoron kiel instruisto. Kial devus studantoj devas
+pagi vin, se la maŝinoj jam donas al ili tion kion ili kredas bezoni. Tio kion
+vi nur faras estas iĝi makleranto, kiun la studanto jam povas preterpasi ĉar ili
+jam povas paroli rekte al tiuj sistemoj.
 
 Estas interese, ke 99,99% da homoj kiuj parolas pri «Artefarita Inteligenteco»,
 inkluzive de tiuj kiujn mi persone konas, ne havas la plej etajn ideojn pri kio
@@ -59,7 +65,23 @@ pleniloj—multe da falsaj informoj.
 
 Plej multe da tio kio estas instruitaj en lernejoj estas nur eta subaro de tio
 kio funkcias kaj uzebla ekstere. Ĉi tio, do, kreas la iluzion de scipovo kaj
-talento. Kaj kompreneble, edukistoj ne zorgas pri tio.
+talento. Kaj kompreneble, edukistoj ne zorgas pri tio. Dum longe ke oni ne
+realigas ĝin, oni ne komprenas ĝin. Se oni ne estas parto de la solvo, oni estas
+parto de la problemo.
 
-Dum longe ke oni ne realigas ĝin, oni ne komprenas ĝin. Se oni ne estas parto de
-la solvo, oni estas parto de la problemo.
+Pli malbone, estas arlekenoj ĉie kiuj aperis kiel ĉampinjonoj. Tio kion ili
+priparolas senĉese estas artefarita inteligenteca administrato, politikoj,
+reguloj, ĝisrandigoj, takso, kaj preteco. Ĉu serioze? Mi ne povas kompreni kiel
+ili havas l senhonton paroli fronte al amasoj portante kun ili seriozajn
+vizaĝojn de pseŭda scipovo. Artefarita inteligenteco estas kunmeto de la scienca
+esplorado, la inĝenierio, la iloj, la komunumo, kaj la ekonomio. Oni ne povas
+trakti ĝin kiel fizika varo en sa superbazaro. Kompreneble, la vero estas ke ili
+lobias politikojn por ke ili sekuru seĝojn da potenco por regi la industrion,
+pli ol la fasado de seminarioj kaj kongresoj.
+
+Ne estas kurtvojo al lernado. Si ankoraŭ devas ŝuti cent, aŭ ne mil, da horoj,
+por ke vi lernu. Se vi volas levi la pezan halteregon, vi devas sintrejni por
+levi ĝin. Vi devas havi specialan dediĉatan program kiu igas vin progresive levi
+halteregojn, ĝis ti atingas viajn celojn. Igi iun levi la halteregon por vi
+neniam igos vin pli forta. Ne ekzistas kvanto de trejnado de alia, por vi,
+plialtigos vian muskolan forton.
