@@ -1,7 +1,7 @@
 ---
 title: Symbols and Marks
 keywords: symbols, marks, punctuation, linux, macos, windows, keyboard
-image: https://ebzzry.com/images/site/stephen-johnson-Q8-Cc-IXRY-unsplash-1008x250.jpg
+image: https://ebzzry.com/images/site/stephen-johnson-Q80-Cc-IXRY-unsplash-2000x1125.jpg
 ---
 Symbols and Marks
 =================
@@ -12,7 +12,7 @@ Symbols and Marks
 >If you want to achieve greatness, stop asking for permission.<br>
 >—Eddie Colla
 
-<img src="/images/site/stephen-johnson-Q8-Cc-IXRY-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
+<img src="/images/site/stephen-johnson-Q80-Cc-IXRY-unsplash-2000x1125.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
 
 *Go [here](/en/symbols-marks-condensed/) for the condensed version.*
 

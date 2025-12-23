@@ -1,7 +1,7 @@
 ---
 title: Esperanto Characters in GNU/Linux
 keywords: esperanto, linux, keyboard, characters, letters, configuration, setup, settings
-image: https://ebzzry.com/images/site/stefan-stefancik-6whwCHgsMiA-unsplash-1008x250.jpg
+image: https://ebzzry.com/images/site/stefan-stefancik-6whwCHgsMiA-unsplash-2000x1125.jpg
 ---
 Esperanto Characters in GNU/Linux
 =================================
@@ -13,7 +13,7 @@ Esperanto Characters in GNU/Linux
 >done.<br>
 >—Thomas Jefferson
 
-<img src="/images/site/stefan-stefancik-6whwCHgsMiA-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
+<img src="/images/site/stefan-stefancik-6whwCHgsMiA-unsplash-2000x1125.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
 
 
 <a name="toc">Table of contents</a>

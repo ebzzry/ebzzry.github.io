@@ -1,7 +1,7 @@
 ---
 title: Verb Tenses in English
 keywords: verb, tenses, english, grammar
-image: https://ebzzry.com/images/site/noor-younis-mId2gG0a9GU-unsplash-1008x250.jpg
+image: https://ebzzry.com/images/site/noor-younis-mId2gG0a9GU-unsplash-2000x1125.jpg
 ---
 Verb Tenses in English
 ======================
@@ -12,7 +12,7 @@ Verb Tenses in English
 >The difference between ordinary and extraordinary is that little extra.<br>
 >—Jimmy Johnson
 
-<img src="/images/site/noor-younis-mId2gG0a9GU-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
+<img src="/images/site/noor-younis-mId2gG0a9GU-unsplash-2000x1125.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
 
 *Go [here](/en/verb-tenses-condensed/) for the condensed version.*
 

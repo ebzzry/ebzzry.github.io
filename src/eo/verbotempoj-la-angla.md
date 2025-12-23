@@ -1,7 +1,7 @@
 ---
 title: Verbotempoj en La Angla
 keywords: verbotempoj, verboj, tempoj, la angla, gramatiko 
-image: https://ebzzry.com/images/site/noor-younis-mId2gG0a9GU-unsplash-1008x250.jpg
+image: https://ebzzry.com/images/site/noor-younis-mId2gG0a9GU-unsplash-2000x1125.jpg
 ---
 Verbotempoj en La Angla
 =======================
@@ -12,7 +12,7 @@ Verbotempoj en La Angla
 >La kontrasto inter la ordinara kaj la eksterordinara estas tiu eta pliaĵo.<br>
 >—Jimmy JOHNSON
 
-<img src="/images/site/noor-younis-mId2gG0a9GU-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
+<img src="/images/site/noor-younis-mId2gG0a9GU-unsplash-2000x1125.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
 
 *Iru [ĉi tien](/eo/verbotempoj-la-angla-mallongigite/) por la mallongigita versio.*
 
