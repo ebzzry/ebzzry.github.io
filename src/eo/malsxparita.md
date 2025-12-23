@@ -1,7 +1,7 @@
 ---
 title: Malŝparita Senĉeseco
 keywords: malsxparita, malsxparita senĉeseco, timoj, filozofio
-image: https://ebzzry.com/images/site/steve-johnson-zkNT5mikUuo-unsplash-1008x250.jpg
+image: https://ebzzry.com/images/site/steve-johnson-zkNT5mikUuo-unsplash-2000x1125.jpg
 ---
 Malŝparita Senĉeseco
 ====================
@@ -12,7 +12,7 @@ Malŝparita Senĉeseco
 >La unua paŝo por iri ien estas decidi, ke oni ne restos kie oni estas.<br>
 >—J.P. MORGAN
 
-<img src="/images/site/steve-johnson-zkNT5mikUuo-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
+<img src="/images/site/steve-johnson-zkNT5mikUuo-unsplash-2000x1125.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
 
 Estas zorgiga kaj tremiga sensacio, kiun mi sentas kiam ajn venas la malvarma konscio, ke mi ne plu
 estas juna infano. La maltrankvila barakto inter lerni liberigi la antaŭsignan estintecon kaj la

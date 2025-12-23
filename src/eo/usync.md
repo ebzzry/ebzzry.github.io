@@ -1,7 +1,7 @@
 ---
 title: Sinkronigi Retnodojn per Usync
 keywords: usync, sinkronigo, retejoj, datumoj, dosieroj, dosierujoj, retoj 
-image: https://ebzzry.com/images/site/thomas-jensen-ISG-rUel0Uw-unsplash-1008x250.jpg
+image: https://ebzzry.com/images/site/thomas-jensen-ISG0rUel0Uw-unsplash-2000x1125.jpg
 ---
 Sinkronigi Retnodojn per Usync
 ==============================
@@ -12,7 +12,7 @@ Sinkronigi Retnodojn per Usync
 >Kion mi ne povas krei, mi ne komprenas.<br>
 >—Richard P. FEYNMAN
 
-<img src="/images/site/thomas-jensen-ISG-rUel0Uw-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
+<img src="/images/site/thomas-jensen-ISG0rUel0Uw-unsplash-2000x1125.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
 
 
 <a name="et">Enhavotabelo</a>
