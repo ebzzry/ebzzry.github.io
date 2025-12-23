@@ -1,7 +1,7 @@
 ---
 title: Emacs Tips and Tricks 2: Sessions and Packages
 keywords: emacs, tips, sessions, packages, desktop, savehist, packages, elpa, melpa, line numbers, time stamps, keys, newline, filling, cursor, git, configuration, setup, settings
-image: https://ebzzry.com/images/site/maximalfocus-VT4rx775FT4-unsplash-1008x250.jpg
+image: https://ebzzry.com/images/site/maximalfocus-VT4rx775FT4-unsplash-2000x1125.jpg
 ---
 Emacs Tips and Tricks 2: Sessions and Packages
 ==============================================
@@ -11,7 +11,7 @@ Emacs Tips and Tricks 2: Sessions and Packages
 
 >A bell that doesn’t ring has no purpose.<br>—Keel Lorenz, Neon Genesis Evangelion
 
-<img src="/images/site/maximalfocus-VT4rx775FT4-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
+<img src="/images/site/maximalfocus-VT4rx775FT4-unsplash-2000x1125.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" /> 
 
 
 <a name="toc">Table of contents</a>

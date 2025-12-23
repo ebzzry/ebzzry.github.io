@@ -1,7 +1,7 @@
 ---
 title: Setting up GPG and SSH in KDE
 keywords: gpg, gnupg, ssh, kde, desktop environment, de, linux
-image: https://ebzzry.com/images/site/milad-fakurian-WQBuCB3UD9g-unsplash-1008x250.jpg
+image: https://ebzzry.com/images/site/milad-fakurian-WQBuCB3UD9g-unsplash-2000x1125.jpg
 ---
 Setting up GPG and SSH in KDE
 =============================
@@ -13,7 +13,7 @@ Setting up GPG and SSH in KDE
 >the last time.<br>
 >—Andrew Hunt and David Thomas
 
-<img src="/images/site/milad-fakurian-WQBuCB3UD9g-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
+<img src="/images/site/milad-fakurian-WQBuCB3UD9g-unsplash-2000x1125.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
 
 
 <a name="toc">Table of contents</a>

@@ -1,7 +1,7 @@
 ---
 title: A Lambda Calculus Primer
 keywords: lambda calculus, untyped lambda calculus, compsci, computer science
-image: https://ebzzry.com/images/site/joel-filipe-Wc8k-KryEPM-unsplash-1008x250.jpg
+image: https://ebzzry.com/images/site/joel-filipe-Wc8k-KryEPM-unsplash-2000x1125.jpg
 ---
 A Lambda Calculus Primer
 ========================
@@ -12,7 +12,7 @@ A Lambda Calculus Primer
 >You do not really understand something unless you can explain it to your grandmother.<br>
 >—Albert Einstein
 
-<img src="/images/site/joel-filipe-Wc8k-KryEPM-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
+<img src="/images/site/joel-filipe-Wc8k-KryEPM-unsplash-2000x1125.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
 
 
 <a name="toc">Table of contents</a>

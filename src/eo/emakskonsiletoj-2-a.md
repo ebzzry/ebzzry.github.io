@@ -1,7 +1,7 @@
 ---
 title: Emaksaj Konsiletoj 2-a: Seancoj kaj Pakoj
 keywords: emakso, konsileto,j, seancoj, pakoj, pakaĵoj, pakajxoj, labortablo, savehist, elpa, melpa, lininumeroj, tempindikoj, klavoj, plenigi, montrilo, git, agordo, agordaĵo, agordajxo 
-image: https://ebzzry.com/images/site/maximalfocus-VT4rx775FT4-unsplash-1008x250.jpg
+image: https://ebzzry.com/images/site/maximalfocus-VT4rx775FT4-unsplash-2000x1125.jpg
 ---
 Emaksaj Konsiletoj 2-a: Seancoj kaj Pakoj
 =========================================
@@ -11,7 +11,7 @@ Emaksaj Konsiletoj 2-a: Seancoj kaj Pakoj
 
 >Sonorilo kiu ne povas sonori ne havas celon.<br>—Keel LORENZ, Neon Genesis Evangelion
 
-<img src="/images/site/maximalfocus-VT4rx775FT4-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
+<img src="/images/site/maximalfocus-VT4rx775FT4-unsplash-2000x1125.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
 
 
 <a name="et">Enhavotabelo</a>

@@ -1,7 +1,7 @@
 ---
 title: Aboco de la Lambdokalkulo
 keywords: lambdokalkulo, lambda-kalkulo, informadiko, komputiko 
-image: https://ebzzry.com/images/site/joel-filipe-Wc8k-KryEPM-unsplash-1008x250.jpg
+image: https://ebzzry.com/images/site/joel-filipe-Wc8k-KryEPM-unsplash-2000x1125.jpg
 ---
 Aboco de la Lambdokalkulo
 =========================
@@ -12,7 +12,7 @@ Aboco de la Lambdokalkulo
 >Oni ne vere komprenas ion krom se oni povas klarigi ĝin al sia avino.<br>
 >—Alberto EJNŜTEJNO
 
-<img src="/images/site/joel-filipe-Wc8k-KryEPM-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
+<img src="/images/site/joel-filipe-Wc8k-KryEPM-unsplash-2000x1125.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
 
 
 <a name="et">Enhavotabelo</a>
