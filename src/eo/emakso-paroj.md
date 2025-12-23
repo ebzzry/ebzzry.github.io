@@ -1,7 +1,7 @@
 ---
 title: Emakso kaj Paroj
 keywords: emakso, paroj, smartparens, paredit, krampoj, rondaj krampoj, rondkramproj, kvadrataj krampoj, kvadratkrampoj, kurbaj krampoj, kurbkrampoj, agordaĵo, agordajxo, agordo 
-image: https://ebzzry.com/images/site/wallhaven-578010-1008x250.jpg
+image: https://ebzzry.com/images/site/pan-xiaozhen-cZgTq7ki4c-unsplash-2000x1125.jpg
 ---
 Emakso kaj Paroj
 ================
@@ -13,7 +13,7 @@ Emakso kaj Paroj
 >neniam vere foriris la podion.<br>
 >—Ergo PROXY, Ergo Proxy
 
-<img src="/images/site/wallhaven-578010-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
+<img src="/images/site/pan-xiaozhen-cZgTq7ki4c-unsplash-2000x1125.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
 
 
 <a name="et">Enhavotabelo</a>

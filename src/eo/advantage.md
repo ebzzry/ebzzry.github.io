@@ -1,19 +1,18 @@
 ---
 title: Kiel Mi Uzas la Kinesis Advantage-Klavaron
 keywords: kinesis, kinezio, advantage, avantaĝo, avantagxo, meĥanika klavaro, mehxanika klavaro
-image: https://ebzzry.com/images/site/avantagxo-1008x250.jpg
+image: https://ebzzry.com/images/site/dave-hoefler-lsoogGC_5dg-unsplash-2000x1125.jpg
 ---
 Kiel Mi Uzas la Kinesis Advantage-Klavaron
 ==========================================
 
-<div class="center">Esperanto | [English](/en/advantage/)</div>
+<div class="center">[English](/en/advantage/) ⊻ Esperanto</div>
 <div class="center">2022-03-07 23:33:51 +0800</div>
 
 >La doloro neeviteblas. La suferado malnepras.<br>
 >—M. Kathleen CASEY
 
-<img src="/images/site/avantagxo-1008x250.jpg" style="display: block; width: 100%; margin-left: auto;
-
+<img src="/images/site/dave-hoefler-lsoogGC_5dg-unsplash-2000x1125.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
 
 <a name="et">Enhavotabelo</a>
 -----------------------------

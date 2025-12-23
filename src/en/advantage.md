@@ -1,7 +1,7 @@
 ---
 title: How I Use the Kinesis Advantage
 keywords: kinesis, advantage, kinesis advantage, mechanical keyboard
-image: https://ebzzry.com/images/site/avantagxo-1008x250.jpg
+image: https://ebzzry.com/images/site/dave-hoefler-lsoogGC_5dg-unsplash-2000x1125.jpg
 ---
 How I Use the Kinesis Advantage
 ===============================
@@ -12,9 +12,7 @@ How I Use the Kinesis Advantage
 >Pain is inevitable. Suffering is optional.<br>
 >—M. Kathleen Casey
 
-<img src="/images/site/avantagxo-1008x250.jpg" style="display: block; width: 100%; margin-left: auto;
-margin-right: auto;" />
-
+<img src="/images/site/dave-hoefler-lsoogGC_5dg-unsplash-2000x1125.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
 
 <a name="toc">Table of contents</a>
 -----------------------------------

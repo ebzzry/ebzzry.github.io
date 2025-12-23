@@ -1,7 +1,7 @@
 ---
 title: Emacs and Pairs
 keywords: emacs, pairs, smartparens, paredit, parentheses, brackets, braces, configuration, setup, settings
-image: https://ebzzry.com/images/site/wallhaven-578010-1008x250.jpg
+image: https://ebzzry.com/images/site/pan-xiaozhen-cZgTq7ki4c-unsplash-2000x1125.jpg
 ---
 Emacs and Pairs
 ===============
@@ -13,7 +13,7 @@ Emacs and Pairs
 >never truly left the stage.<br>
 >—Ergo Proxy, Ergo Proxy
 
-<img src="/images/site/wallhaven-578010-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
+<img src="/images/site/pan-xiaozhen-cZgTq7ki4c-unsplash-2000x1125.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
 
 
 <a name="toc"></a>Table of contents

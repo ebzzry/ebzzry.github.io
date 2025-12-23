@@ -1,7 +1,7 @@
 ---
 title: Virtualigado en Linukso per KVM
 keywords: kvm, qemu, linukso, virtualigado 
-image: https://ebzzry.com/images/site/pierre-chatel-innocenti-N6Hx4HT4mHg-unsplash-1008x250.jpg
+image: https://ebzzry.com/images/site/pierre-chatel-innocenti-N6Hx4HT4mHg-unsplash-2000x1125.jpg
 ---
 Virtualigado en Linukso per KVM
 ===============================
@@ -12,7 +12,7 @@ Virtualigado en Linukso per KVM
 >Se oni faras tion, kion oni ĉiam faras; oni akiros tion , kion oni ĉiam akiras.<br>
 >—Anthony ROBBINS
 
-<img src="/images/site/pierre-chatel-innocenti-N6Hx4HT4mHg-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
+<img src="/images/site/pierre-chatel-innocenti-N6Hx4HT4mHg-unsplash-2000x1125.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
 
 
 <a name="et">Enhavotabelo</a>
