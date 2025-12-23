@@ -1,7 +1,7 @@
 ---
 title: Agordi Retpoŝton per Emakso
 keywords: emakso, retpoŝto, retposxto, agordo, agordaĵo, agordajxo 
-image: https://ebzzry.com/images/site/zak-7wBFsHWQDlk-unsplash-1008x250.jpg
+image: https://ebzzry.com/images/site/zak-7wBFsHWQDlk-unsplash-2000x1125.jpg
 ---
 Agordi Retpoŝton per Emakso
 ===========================
@@ -12,7 +12,7 @@ Agordi Retpoŝton per Emakso
 >Nur pro tio, ke ne fariĝis io, ne signifas, ke ne fareblas ĝi. Nur pro tio, ke fareblas io, ne signifas, ke farendas ĝi.<br>
 >—Barry GLASFORD
 
-<img src="/images/site/zak-7wBFsHWQDlk-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
+<img src="/images/site/zak-7wBFsHWQDlk-unsplash-2000x1125.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
 
 
 <a name="et">Enhavotabelo</a>

@@ -1,7 +1,7 @@
 ---
 title: Creating Backups with Ugarit
 keywords: ugarit, backups, archives, disks, networking, scheme
-image: https://ebzzry.com/images/site/omar-flores-lQTbOWtysE-unsplash-1008x250.jpg
+image: https://ebzzry.com/images/site/omar-flores-lQT0bOWtysE-unsplash-2000x1125.jpg
 ---
 Creating Backups with Ugarit
 ============================
@@ -12,7 +12,7 @@ Creating Backups with Ugarit
 >Good judgment comes from experience, and experience comes from bad judgment.<br>
 >—Fred Brooks
 
-<img src="/images/site/omar-flores-lQTbOWtysE-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
+<img src="/images/site/omar-flores-lQT0bOWtysE-unsplash-2000x1125.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
 
 
 <a name="toc">Table of contents</a>

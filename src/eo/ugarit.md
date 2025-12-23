@@ -1,7 +1,7 @@
 ---
 title: Krei Sekurkopiojn per Ugarit
 keywords: ugarit, sekurkopioj, arĥivoj, arhxivoj, diskoj, reto, skimo 
-image: https://ebzzry.com/images/site/omar-flores-lQTbOWtysE-unsplash-1008x250.jpg
+image: https://ebzzry.com/images/site/omar-flores-lQT0bOWtysE-unsplash-2000x1125.jpg
 ---
 Krei Sekurkopiojn per Ugarit
 ============================
@@ -12,7 +12,7 @@ Krei Sekurkopiojn per Ugarit
 >Bona juĝo devenas el sperto, kaj sperto devenas el malbona juĝo.<br>
 >—Fred BROOKS
 
-<img src="/images/site/omar-flores-lQTbOWtysE-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
+<img src="/images/site/omar-flores-lQT0bOWtysE-unsplash-2000x1125.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
 
 
 <a name="et">Enhavotabelo</a>
