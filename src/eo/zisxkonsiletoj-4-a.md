@@ -1,7 +1,7 @@
 ---
 title: Ziŝaj Konsiletoj 4-a: Ĝeneralhelpiloj
 keywords: ziŝo, zisxo, zsh, konsiletoj, ŝelo, sxelo, linukso, agordo, agordaĵo, agordaĵxo, helpiloj 
-image: https://ebzzry.com/images/site/adam-hornyak-Cm187aESg0k-unsplash-1008x250.jpg
+image: https://ebzzry.com/images/site/adam-hornyak-Cm187aESg0k-unsplash-2000x1125.jpg
 ---
 Ziŝaj Konsiletoj 4-a: Ĝeneralhelpiloj
 =====================================
@@ -12,7 +12,7 @@ Ziŝaj Konsiletoj 4-a: Ĝeneralhelpiloj
 >Vidpunkto meritas okdek poentojn da inteligentecaj kvocientoj.<br>
 >—Alan KAY
 
-<img src="/images/site/adam-hornyak-Cm187aESg0k-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
+<img src="/images/site/adam-hornyak-Cm187aESg0k-unsplash-2000x1125.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
 
 
 <a name="et">Enhavotabelo</a>

@@ -1,7 +1,7 @@
 ---
 title: Kiel Mi Uzas Giton ĉe la Komandlinio
 keywords: gito, ŝelo, sxelo, ziŝo, zisxo, linukso, makintoŝo, makintosxo, vindozo, agordo, agordaĵo, agordajxo 
-image: https://ebzzry.com/images/site/simon-berger-6te9SupeW1g-unsplash-1008x250.jpg
+image: https://ebzzry.com/images/site/simon-berger-6te9SupeW1g-unsplash-2000x1125.jpg
 ---
 Kiel Mi Uzas Giton ĉe la Komandlinio
 ====================================
@@ -13,7 +13,7 @@ Kiel Mi Uzas Giton ĉe la Komandlinio
 >fari en ilia propra mondo senzorgeme al la opinioj de tiuj ĉirkaŭ ili.<br>
 >—Daigo UMEHARA
 
-<img src="/images/site/simon-berger-6te9SupeW1g-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
+<img src="/images/site/simon-6te9SupeW1g-unsplash-2000x1125.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
 
 
 <a name="et">Enhavotabelo</a>

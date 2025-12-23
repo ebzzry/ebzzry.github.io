@@ -1,7 +1,7 @@
 ---
 title: Milda Enkonduko al Nedeterminismo en Skimo
 keywords: nedeterminismo, skimo, lispo, aktuala daŭrigo, daŭrigo, call/cc, amb, elektoj
-image: https://ebzzry.com/images/site/wallhaven-333472-1008x250.jpg
+image: https://ebzzry.com/images/site/john-towner-JgOeRuGD_Y4-unsplash-2000x1125.jpg
 ---
 Milda Enkonduko al Nedeterminismo en Skimo
 ==========================================
@@ -13,7 +13,7 @@ Milda Enkonduko al Nedeterminismo en Skimo
 >pri novajn administrajn manierojn akiri por tion uzi, kion oni jam scias.<br>
 >—Marvin MINSKY
 
-<img src="/images/site/wallhaven-333472-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
+<img src="/images/site/john-towner-JgOeRuGD_Y4-unsplash-2000x1125.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
 
 
 <a name="et">Enhavotabelo</a>

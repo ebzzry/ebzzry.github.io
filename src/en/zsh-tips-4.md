@@ -1,7 +1,7 @@
 ---
 title: Zsh Tips 4: General Helpers
 keywords: zsh, tips, advice, shell, linux, configuration, setup, settings, helpers
-image: https://ebzzry.com/images/site/adam-hornyak-Cm187aESg0k-unsplash-1008x250.jpg
+image: https://ebzzry.com/images/site/adam-hornyak-Cm187aESg0k-unsplash-2000x1125.jpg
 ---
 Zsh Tips 4: General Helpers
 ===========================
@@ -12,7 +12,7 @@ Zsh Tips 4: General Helpers
 >A change in perspective is worth 80 IQ points.<br>
 >—Alan Kay
 
-<img src="/images/site/adam-hornyak-Cm187aESg0k-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
+<img src="/images/site/adam-hornyak-Cm187aESg0k-unsplash-2000x1125.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
 
 
 <a name="toc">Table of contents</a>
