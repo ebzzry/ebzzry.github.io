@@ -1,7 +1,7 @@
 ---
 title: A Gentle Introduction to Fallacies
 keywords:fallacies, logic, reasoning, flaws, logical fallacies, fallacies primer, fallacies introduction
-image: https://ebzzry.com/images/site/wallhaven-73145-1008x250.jpg
+image: https://ebzzry.com/images/site/sarah-elizabeth-KwvNrCfTKMI-unsplash-2000x1125.jpg
 ---
 A Gentle Introduction to Fallacies
 ==================================
@@ -12,7 +12,7 @@ A Gentle Introduction to Fallacies
 >Learning is not compulsory; neither is survival.<br>
 >—W. Edwards Deming
 
-<img src="/images/site/wallhaven-73145-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
+<img src="/images/site/sarah-elizabeth-KwvNrCfTKMI-unsplash-2000x1125.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
 
 
 <a name="toc"></a>Table of contents

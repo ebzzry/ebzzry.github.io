@@ -1,7 +1,7 @@
 ---
 title: Milda Enkonduko al Sofismoj
 keywords: sofismoj, paralogismoj, rezono, eraraj, logikaj eraroj 
-image: https://ebzzry.com/images/site/wallhaven-73145-1008x250.jpg
+image: https://ebzzry.com/images/site/sarah-elizabeth-KwvNrCfTKMI-unsplash-2000x1125.jpg
 ---
 Milda Enkonduko al Sofismoj
 ===========================
@@ -12,7 +12,7 @@ Milda Enkonduko al Sofismoj
 >Lerni ne necesas; nek travivas.<br>
 >—W. Edwards DEMING
 
-<img src="/images/site/wallhaven-73145-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
+<img src="/images/site/sarah-elizabeth-KwvNrCfTKMI-unsplash-2000x1125.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
 
 
 <a name="et">Enhavotabelo</a>

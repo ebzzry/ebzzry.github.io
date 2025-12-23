@@ -1,7 +1,7 @@
 ---
 title: How to Communicate Like a Human
 keywords: humans, people, communication
-image: https://ebzzry.com/images/site/andriyko-podilnyk-zGQ17qQMaaM-unsplash-1008x250.jpg
+image: https://ebzzry.com/images/site/andriyko-podilnyk-zGQ17qQMaaM-unsplash-2000x1125.jpg
 ---
 How to Communicate Like a Human
 ===============================
@@ -12,7 +12,7 @@ How to Communicate Like a Human
 >The ability to speak does not make you intelligent.<br>
 >—Qui-Gon Jinn
 
-<img src="/images/site/andriyko-podilnyk-zGQ17qQMaaM-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
+<img src="/images/site/andriyko-podilnyk-zGQ17qQMaaM-unsplash-2000x1125.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
 
 
 <a name="toc">Table of contents</a>

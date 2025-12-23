@@ -1,7 +1,7 @@
 ---
 title: Kiel Komuniki Samkiel Homo
 keywords: homo, homoj, homaro, popolo, komunikado 
-image: https://ebzzry.com/images/site/andriyko-podilnyk-zGQ17qQMaaM-unsplash-1008x250.jpg
+image: https://ebzzry.com/images/site/andriyko-podilnyk-zGQ17qQMaaM-unsplash-2000x1125.jpg
 ---
 Kiel Komuniki Samkiel Homo
 ==========================
@@ -12,7 +12,7 @@ Kiel Komuniki Samkiel Homo
 >La kapablo por paroli ne igas onin saĝa.<br>
 >—Qui-gon JINN
 
-<img src="/images/site/andriyko-podilnyk-zGQ17qQMaaM-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
+<img src="/images/site/andriyko-podilnyk-zGQ17qQMaaM-unsplash-2000x1125.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
 
 
 <a name="et">Enhavotabelo</a>
