@@ -1,7 +1,7 @@
 ---
 title: Ziŝaj Konsiletoj 2-a: Dosierujstakoj
 keywords: ziŝo, zisxo, zsh, konsiletoj, ŝelo, sxelo, linukso, agordo, agordaĵo, agordaĵxo 
-image: https://ebzzry.com/images/site/jonny-caspari-A7ol2HfnycY-unsplash-1008x250.jpg
+image: https://ebzzry.com/images/site/jonny-caspari-A7ol2HfnycY-unsplash-2000x1125.jpg
 ---
 Ziŝaj Konsiletoj 2-a: Dosierujstakoj
 ====================================
@@ -12,7 +12,7 @@ Ziŝaj Konsiletoj 2-a: Dosierujstakoj
 >Kion ni faras por ni, mortas kun ni. Kion ni faras por ili, porĉiame restas.<br>
 >—Albert PIKE
 
-<img src="/images/site/jonny-caspari-A7ol2HfnycY-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
+<img src="/images/site/jonny-caspari-A7ol2HfnycY-unsplash-2000x1125.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
 
 
 <a name="et">Enhavotebelo</a>

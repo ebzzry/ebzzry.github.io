@@ -1,7 +1,7 @@
 ---
 title: How I Use Tmux
 keywords: tmux, configuration, setup, settings, linux, macos
-image: https://ebzzry.com/images/site/lysander-yuen-wk833OrQLJE-unsplash-1008x250.jpg
+image: https://ebzzry.com/images/site/lysander-yuen-wk833OrQLJE-unsplash-2000x1125.jpg
 ---
 How I Use Tmux
 ==============
@@ -12,7 +12,7 @@ How I Use Tmux
 >Furious activity is no substitute for understanding.<br>
 >—H.H. Williams
 
-<img src="/images/site/lysander-yuen-wk833OrQLJE-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
+<img src="/images/site/lysander-yuen-wk833OrQLJE-unsplash-2000x1125.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
 
 
 <a name="toc">Table of contents</a>

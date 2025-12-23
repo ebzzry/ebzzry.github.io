@@ -1,7 +1,7 @@
 ---
 title: Ziŝaj Konsiletoj 3-a: Ŝanĝradikighelpiloj
 keywords: ziŝo, zisxo, zsh, konsiletoj, ŝelo, sxelo, linukso, agordo, agordaĵo, agordaĵxo, chroot 
-image: https://ebzzry.com/images/site/ali-lokhandwala-KUr51Y4dOyo-unsplash-1008x250.jpg
+image: https://ebzzry.com/images/site/ali-lokhandwala-KUr51Y4dOyo-unsplash-2000x1125.jpg
 ---
 Ziŝaj Konsiletoj 3-a: Ŝanĝradikighelpiloj
 =========================================
@@ -12,7 +12,7 @@ Ziŝaj Konsiletoj 3-a: Ŝanĝradikighelpiloj
 >Ni ridas pri tio, kion ni ne povas toleri alfronti.<br>
 >—Aristotelo
 
-<img src="/images/site/ali-lokhandwala-KUr51Y4dOyo-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
+<img src="/images/site/ali-lokhandwala-KUr51Y4dOyo-unsplash-2000x1125.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
 
 
 <a name="et">Enhavotabelo</a>

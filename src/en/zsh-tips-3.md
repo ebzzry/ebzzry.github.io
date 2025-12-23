@@ -1,7 +1,7 @@
 ---
 title: Zsh Tips 3: Chroot Helpers
 keywords: zsh, tips, advice, shell, linux, configuration, setup, settings, chroot
-image: https://ebzzry.com/images/site/ali-lokhandwala-KUr51Y4dOyo-unsplash-1008x250.jpg
+image: https://ebzzry.com/images/site/ali-lokhandwala-KUr51Y4dOyo-unsplash-2000x1125.jpg
 ---
 Zsh Tips 3: Chroot Helpers
 ==========================
@@ -12,7 +12,7 @@ Zsh Tips 3: Chroot Helpers
 >We laugh at that which we cannot bear to face.<br>
 >—Aristotle
 
-<img src="/images/site/ali-lokhandwala-KUr51Y4dOyo-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
+<img src="/images/site/ali-lokhandwala-KUr51Y4dOyo-unsplash-2000x1125.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
 
 
 <a name="toc">Table of contents</a>
