@@ -12,7 +12,7 @@ Zsh Tips 1: Aliases and Functions
 >A common man marvels at uncommon things; a wise man marvels at the commonplace.<br>
 >—Confucius
 
-<img src="/images/site/omair-parvez-o6ka1Lpk81U-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="omair-parvez-o6ka1Lpk81U-unsplash" title="omair-parvez-o6ka1Lpk81U-unsplash"/>
+<img src="/images/site/omair-parvez-o6ka1Lpk81U-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
 
 
 <a name="toc">Table of contents</a>

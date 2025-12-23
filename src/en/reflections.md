@@ -8,7 +8,7 @@ Reflections
 
 <div class="center">English ⊻ [Esperanto](/eo/pripensoj/)</div>
 
-<img src="/images/site/ashim-d-silva-WeYamle9fDM-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-77816" title="wallhaven-77816"/>
+<img src="/images/site/ashim-d-silva-WeYamle9fDM-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
 
 This page contains contains some of my personal reflections. Entries are sorted
 in chronological order.

@@ -12,7 +12,7 @@ Lispaj Skriptoj 1-a: Plurvokaj Plenumeblaj Dosieroj
 >La lumo kiu fajras duoble brila, fajras duone longa.<br>
 >—D-ro Eldon TYRELL, Blade Runner (1982)
 
-<img src="/images/site/lisp-lizard-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="lisp lizard" title="lisp lizard"/>
+<img src="/images/site/lisp-lizard-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
 
 
 <a name="et">Enhavotabelo</a>

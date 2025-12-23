@@ -1,7 +1,7 @@
 ---
 title: A Gentle Introduction to Nix Flakes
 keywords: nix, nix flakes, darwin, nixos, linux
-image: https://ebzzry.com/images/site/aaron-burden-vtCZp-9GvrQ-unsplash-1008x250.jpg
+image: https://ebzzry.com/images/site/aaron-burden-vtCZp-9GvrQ-unsplash-2000x1125.jpg
 ---
 A Gentle Introduction to Nix Flakes
 ===================================
@@ -12,7 +12,7 @@ A Gentle Introduction to Nix Flakes
 >But every decision for something is a decision against something else.<br>
 >—H. G. Tannhaus, Dark (2017)
 
-<img src="/images/site/aaron-burden-vtCZp-9GvrQ-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="flakes" title="flakes"/>
+<img src="/images/site/aaron-burden-vtCZp-9GvrQ-unsplash-2000x1125.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
 
 
 <a name="toc">Table of contents</a>

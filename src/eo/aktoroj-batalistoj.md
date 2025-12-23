@@ -2,7 +2,7 @@
 title: Aktoroj kaj Batalistoj: Teatroj kaj Sangoverŝoj
 description: Kial ne estas altkvalitaj teĥnologiaj postenoj en Filipinoj?
 keywords: programaro, programado, trompuloj, spertuloj, aktoroj, batalistoj, filipinoj, ebzzry
-image: https://ebzzry.com/images/site/john-hernandez-IL-fBBnF-GU-unsplash-1008x250.jpg
+image: https://ebzzry.com/images/site/john-hernandez-IL-fBBnF-GU-unsplash-2000x1125.jpg
 ---
 Aktoroj kaj Batalistoj: Teatroj kaj Sangoverŝoj
 ===============================================
@@ -13,10 +13,10 @@ class="center">2025-12-20 02:10:05 +0800</div>
 >Se oni vidas trompon kaj ne diras trompon, oni estas trompo.<br>
 >—Nassim Nicholas TALEB
 
-<img src="/images/site/john-hernandez-IL-fBBnF-GU-unsplash-1008x250.jpg"
+<img src="/images/site/john-hernandez-IL-fBBnF-GU-unsplash-2000x1125.jpg"
 style="display: block; width: 100%; margin-left: auto; margin-right: auto;"
-alt="john-hernandez-IL-fBBnF-GU-unsplash-1008x250.jpg"
-title="john-hernandez-IL-fBBnF-GU-unsplash-1008x250.jpg"/>
+alt="john-hernandez-IL-fBBnF-GU-unsplash-2000x1125.jpg"
+/>
 
 Antaŭ ne longe, mi renkontis  artikolon de Stephen CUUNJIENG ĉe Manila Times kun
 la titolo [Where Are Quality Finance and Tech Jobs Going? (Not Here)](https://www.manilatimes.net/2025/12/19/opinion/columns/where-are-quality-finance-and-tech-jobs-going-not-here/2246675)

@@ -13,7 +13,7 @@ Esperanto Characters in GNU/Linux
 >done.<br>
 >—Thomas Jefferson
 
-<img src="/images/site/stefan-stefancik-6whwCHgsMiA-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="stefan-stefancik-6whwCHgsMiA-unsplash" title="stefan-stefancik-6whwCHgsMiA-unsplash"/>
+<img src="/images/site/stefan-stefancik-6whwCHgsMiA-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
 
 
 <a name="toc">Table of contents</a>

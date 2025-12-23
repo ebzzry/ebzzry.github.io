@@ -12,7 +12,7 @@ Symbols and Marks (Condensed)
 >If you want to achieve greatness, stop asking for permission.<br>
 >—Eddie Colla
 
-<img src="/images/site/stephen-johnson-Q8-Cc-IXRY-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="stephen-johnson-Q8-Cc-IXRY-unsplash" title="stephen-johnson-Q8-Cc-IXRY-unsplash"/>
+<img src="/images/site/stephen-johnson-Q8-Cc-IXRY-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
 
 The table below is the condensed form of [Symbols and Marks](/en/symbols-marks/).
 

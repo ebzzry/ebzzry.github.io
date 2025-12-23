@@ -12,7 +12,7 @@ Ziŝaj Konsiletoj 3-a: Ŝanĝradikighelpiloj
 >Ni ridas pri tio, kion ni ne povas toleri alfronti.<br>
 >—Aristotelo
 
-<img src="/images/site/ali-lokhandwala-KUr51Y4dOyo-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="ali-lokhandwala-KUr51Y4dOyo-unsplash" title="ali-lokhandwala-KUr51Y4dOyo-unsplash"/>
+<img src="/images/site/ali-lokhandwala-KUr51Y4dOyo-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
 
 
 <a name="et">Enhavotabelo</a>

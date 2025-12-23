@@ -13,7 +13,7 @@ Emakso kaj Paroj
 >neniam vere foriris la podion.<br>
 >—Ergo PROXY, Ergo Proxy
 
-<img src="/images/site/wallhaven-578010-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-578010" title="wallhaven-578010"/>
+<img src="/images/site/wallhaven-578010-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
 
 
 <a name="et">Enhavotabelo</a>

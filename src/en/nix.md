@@ -13,7 +13,7 @@ A Gentle Introduction to the Nix Family
 >invent it.<br>
 >—Alan Kay
 
-<img src="/images/site/wallhaven-751942-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="wallhaven-751942" title="wallhaven-751942"/>
+<img src="/images/site/wallhaven-751942-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
 
 
 <a name="toc">Table of contents</a>

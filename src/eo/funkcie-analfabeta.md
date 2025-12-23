@@ -1,7 +1,7 @@
 ---
 title: Funkcie Analfabeta: Kiel iĝi Stulte, Rapide
 keywords: funkcie analfabeta, funkcia analfabeteco, genera ai, eduko 
-image: https://ebzzry.com/images/site/colin-watts-8tvSElhPqKE-unsplash-1008x250.jpg
+image: https://ebzzry.com/images/site/colin-watts-8tvSElhPqKE-unsplash-2000x1125.jpg
 ---
 Funkcie Analfabeta: Kiel iĝi Stulte, Rapide
 ===========================================
@@ -12,7 +12,7 @@ Funkcie Analfabeta: Kiel iĝi Stulte, Rapide
 >Oni ne solvas pli per pli. Oni solvu ĝin per malpli.<br>
 >—Caspian KEYES, Pantheon
 
-<img src="/images/site/colin-watts-8tvSElhPqKE-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="colin-watts-8tvSElhPqKE-unsplash-1008x250" title="colin-watts-8tvSElhPqKE-unsplash-1008x250"/>
+<img src="/images/site/colin-watts-8tvSElhPqKE-unsplash-2000x1125.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
 
 Antaŭ ne longe mi renkontis
 [intervjuon](https://www.youtube.com/watch?v=4DLtq6XeF94) de Stephen CUUNJIENG

@@ -13,7 +13,7 @@ Setting up Mail in Emacs
 >it should be.<br>
 >—Barry Glasford
 
-<img src="/images/site/zak-7wBFsHWQDlk-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="zak-7wBFsHWQDlk-unsplash" title="zak-7wBFsHWQDlk-unsplash"/>
+<img src="/images/site/zak-7wBFsHWQDlk-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
 
 
 <a name="toc">Table of contents</a>

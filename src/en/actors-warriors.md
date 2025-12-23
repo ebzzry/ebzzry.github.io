@@ -2,7 +2,7 @@
 title: Actors and Warriors: Theatrics and Bloodshed
 description: Why are there no quality tech jobs in the Philippines?
 keywords: software, frauds, experts, actors, warriors, philippines, ebzzry
-image: https://ebzzry.com/images/site/john-hernandez-IL-fBBnF-GU-unsplash-1008x250.jpg
+image: https://ebzzry.com/images/site/john-hernandez-IL-fBBnF-GU-unsplash-2000x1125.jpg
 ---
 Actors and Warriors: Theatrics and Bloodshed
 ============================================
@@ -13,10 +13,10 @@ class="center">2025-12-20 00:28:11 +0800</div>
 >If you see fraud and do not say fraud, you are a fraud.<br>
 >—Nassim Nicholas Taleb
 
-<img src="/images/site/john-hernandez-IL-fBBnF-GU-unsplash-1008x250.jpg"
+<img src="/images/site/john-hernandez-IL-fBBnF-GU-unsplash-2000x1125.jpg"
 style="display: block; width: 100%; margin-left: auto; margin-right: auto;"
-alt="john-hernandez-IL-fBBnF-GU-unsplash-1008x250.jpg"
-title="john-hernandez-IL-fBBnF-GU-unsplash-1008x250.jpg"/>
+
+/>
 
 I recently came across an article of Stephen Cuunjieng on Manila Times titled
 [Where Are Quality Finance and Tech Jobs Going? (Not Here)](https://www.manilatimes.net/2025/12/19/opinion/columns/where-are-quality-finance-and-tech-jobs-going-not-here/2246675).

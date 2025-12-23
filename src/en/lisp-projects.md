@@ -1,7 +1,7 @@
 ---
 title: How I Make Lisp Projects
 keywords: lisp, projects, common lisp, linux, macos
-image: https://ebzzry.com/images/site/lisp-lizard-1008x250.png
+image: https://ebzzry.com/images/site/gwen-weustink-I3C1sSXj1i8-unsplash-2000x1125.jpg
 ---
 How I Make Lisp Projects
 ========================
@@ -12,7 +12,7 @@ How I Make Lisp Projects
 >You have no idea what you’re trying to achieve until you’ve achieved it.<br>
 >—Gerald Jay Sussman
 
-<img src="/images/site/lisp-lizard-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="lisp lizard" title="lisp lizard"/>
+<img src="/images/site/gwen-weustink-I3C1sSXj1i8-unsplash-2000x1125.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
 
 
 <a name="toc">Table of contents</a>

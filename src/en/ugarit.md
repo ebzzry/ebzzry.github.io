@@ -12,7 +12,7 @@ Creating Backups with Ugarit
 >Good judgment comes from experience, and experience comes from bad judgment.<br>
 >—Fred Brooks
 
-<img src="/images/site/omar-flores-lQTbOWtysE-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="omar-flores-lQTbOWtysE-unsplash" title="omar-flores-lQTbOWtysE-unsplash"/>
+<img src="/images/site/omar-flores-lQTbOWtysE-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
 
 
 <a name="toc">Table of contents</a>

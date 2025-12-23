@@ -12,7 +12,7 @@ Blogging with Frog
 >One person with passion is better than forty people merely interested.<br>
 >—E.M. Forster
 
-<img src="/images/site/pedro-lastra-Nyvq2juw4xo-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="pedro-lastra-Nyvq2juw4xo-unsplash" title="pedro-lastra-Nyvq2juw4xo-unsplash"/>
+<img src="/images/site/pedro-lastra-Nyvq2juw4xo-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
 
 
 <a name="toc">Table of contents</a>

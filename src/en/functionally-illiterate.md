@@ -1,7 +1,7 @@
 ---
 title: Functionally Illiterate: How to Be Dumb, Fast
 keywords: functionally illiterate, functional illiteracy, generative ai, gen ai, education, edu 
-image: https://ebzzry.com/images/site/colin-watts-8tvSElhPqKE-unsplash-1008x250.jpg
+image: https://ebzzry.com/images/site/colin-watts-8tvSElhPqKE-unsplash-2000x1125.jpg
 ---
 Functionally Illiterate: How to Be Dumb, Fast
 =============================================
@@ -12,7 +12,7 @@ Functionally Illiterate: How to Be Dumb, Fast
 >You don’t solve more with more. You solve it with less.<br>
 >—Caspian Keyes, Pantheon
 
-<img src="/images/site/colin-watts-8tvSElhPqKE-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="colin-watts-8tvSElhPqKE-unsplash-1008x250" title="colin-watts-8tvSElhPqKE-unsplash-1008x250"/>
+<img src="/images/site/colin-watts-8tvSElhPqKE-unsplash-2000x1125.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
 
 I recently came across an
 [interview](https://www.youtube.com/watch?v=4DLtq6XeF94) of Stephen Cuunjieng

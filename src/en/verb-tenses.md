@@ -12,7 +12,7 @@ Verb Tenses in English
 >The difference between ordinary and extraordinary is that little extra.<br>
 >—Jimmy Johnson
 
-<img src="/images/site/noor-younis-mId2gG0a9GU-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="noor-younis-mId2gG0a9GU-unsplash" title="noor-younis-mId2gG0a9GU-unsplash"/>
+<img src="/images/site/noor-younis-mId2gG0a9GU-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
 
 *Go [here](/en/verb-tenses-condensed/) for the condensed version.*
 

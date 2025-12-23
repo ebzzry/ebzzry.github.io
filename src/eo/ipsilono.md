@@ -12,7 +12,7 @@ La Ipsilonkombinatoro per Ses Paŝoj
 >Unue, decidu. Kaj faru ĝin. Estas la nura maniero por atingi ion.<br>
 >—Lacus CLYNE, Gundam SEED Destiny
 
-<img src="/images/site/david-becker-crs2vlkSe98-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="david-becker-crs2vlkSe98-unsplash" title="david-becker-crs2vlkSe98-unsplash"/>
+<img src="/images/site/david-becker-crs2vlkSe98-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
 
 
 <a name="et">Enhavotabelo</a>

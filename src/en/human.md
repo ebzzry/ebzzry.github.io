@@ -12,7 +12,7 @@ How to Communicate Like a Human
 >The ability to speak does not make you intelligent.<br>
 >—Qui-Gon Jinn
 
-<img src="/images/site/andriyko-podilnyk-zGQ17qQMaaM-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="andriyko-podilnyk-zGQ17qQMaaM-unsplash" title="andriyko-podilnyk-zGQ17qQMaaM-unsplash-1008x250"/>
+<img src="/images/site/andriyko-podilnyk-zGQ17qQMaaM-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
 
 
 <a name="toc">Table of contents</a>

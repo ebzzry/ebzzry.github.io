@@ -1,7 +1,7 @@
 ---
 title: Kiel Mi Kreas Lispajn Projektojn
 keywords: lispo, komuna lispo, komunlispo, linukso, makintoŝo
-image: https://ebzzry.com/images/site/lisp-lizard-1008x250.png
+image: https://ebzzry.com/images/site/gwen-weustink-I3C1sSXj1i8-unsplash-2000x1125.jpg
 ---
 Kiel Mi Kreas Lispajn Projektojn
 ================================
@@ -12,7 +12,7 @@ Kiel Mi Kreas Lispajn Projektojn
 >Oni ne havas ideon kion oni provas atingi ĝis oni jam atingis ĝin.<br>
 >—Gerald Jay SUSSMAN
 
-<img src="/images/site/lisp-lizard-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="lisp lizard" title="lisp lizard"/>
+<img src="/images/site/gwen-weustink-I3C1sSXj1i8-unsplash-2000x1125.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
 
 
 <a name="et">Enhavotabelo</a>

@@ -13,7 +13,7 @@ Setting up GPG and SSH in KDE
 >the last time.<br>
 >—Andrew Hunt and David Thomas
 
-<img src="/images/site/milad-fakurian-WQBuCB3UD9g-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="milad-fakurian-WQBuCB3UD9g-unsplash" title="milad-fakurian-WQBuCB3UD9g-unsplash"/>
+<img src="/images/site/milad-fakurian-WQBuCB3UD9g-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
 
 
 <a name="toc">Table of contents</a>

@@ -12,7 +12,7 @@ Virtualigado en Linukso per KVM
 >Se oni faras tion, kion oni ĉiam faras; oni akiros tion , kion oni ĉiam akiras.<br>
 >—Anthony ROBBINS
 
-<img src="/images/site/pierre-chatel-innocenti-N6Hx4HT4mHg-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" alt="pierre-chatel-innocenti-N6Hx4HT4mHg-unsplash" title="pierre-chatel-innocenti-N6Hx4HT4mHg-unsplash"/>
+<img src="/images/site/pierre-chatel-innocenti-N6Hx4HT4mHg-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
 
 
 <a name="et">Enhavotabelo</a>
