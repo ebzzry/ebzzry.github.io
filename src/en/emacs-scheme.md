@@ -1,7 +1,7 @@
 ---
 title: Setting up Scheme Development in Emacs
 keywords: emacs, scheme, lisp, programming, configuration, setup, settings
-image: https://ebzzry.com/images/site/dimitar-belchev-A7v5KWxnKQA-unsplash-1008x250.jpg
+image: https://ebzzry.com/images/site/dimitar-belchev-A7v5KWxnKQA-unsplash-2000x1125.jpg
 ---
 Setting up Scheme Development in Emacs
 ======================================
@@ -12,7 +12,7 @@ Setting up Scheme Development in Emacs
 >All the good ideas never lie under one hat.<br>
 >—Dale Turner
 
-<img src="/images/site/dimitar-belchev-A7v5KWxnKQA-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
+<img src="/images/site/dimitar-belchev-A7v5KWxnKQA-unsplash-2000x1125.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
 
 
 <a name="toc">Table of contents</a>
