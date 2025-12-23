@@ -1,7 +1,7 @@
 ---
 title: Migrating from LiveJournal to Frog
 keywords: livefrog, racket, frog, static website
-image: https://ebzzry.com/images/site/stephanie-leblanc-xrE6WwccyU-unsplash-1008x250.jpg
+image: https://ebzzry.com/images/site/stephanie-leblanc-xrE6Wwccy0U-unsplash-2000x1125.jpg
 ---
 Migrating from LiveJournal to Frog
 ==================================
@@ -12,7 +12,7 @@ Migrating from LiveJournal to Frog
 >I don’t know where I’m going, but I’m on my way.<br>
 >—Carl Sagan
 
-<img src="/images/site/stephanie-leblanc-xrE6WwccyU-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
+<img src="/images/site/stephanie-leblanc-xrE6Wwccy0U-unsplash-2000x1125.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
 
 
 <a name="toc">Table of contents</a>

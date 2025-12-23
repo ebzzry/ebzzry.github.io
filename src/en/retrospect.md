@@ -1,7 +1,7 @@
 ---
 title: In Retrospect
 keywords: retrospect, thoughts, reflections, philosophy
-image: https://ebzzry.com/images/site/calvin-mano-CXS27RrJObQ-unsplash-1008x250.jpg
+image: https://ebzzry.com/images/site/calvin-mano-CXS27RrJObQ-unsplash-2000x1125.jpg
 ---
 In Retrospect
 =============
@@ -12,7 +12,7 @@ In Retrospect
 >Difficulty is what wakes up the genius.<br>
 >—Nassim Nicholas Taleb
 
-<img src="/images/site/calvin-mano-CXS27RrJObQ-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
+<img src="/images/site/calvin-mano-CXS27RrJObQ-unsplash-2000x1125.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
 
 I haven’t fully appreciated what those words meant, prior to now. I have learned that aside from
 experience, there is another important aspect, that life teaches us—survival. When we are at the

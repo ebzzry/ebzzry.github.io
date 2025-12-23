@@ -1,7 +1,7 @@
 ---
 title: Migri de LiveJournal al Frog
 keywords: livefrog, livejournal, frog, disqus, blogo, migri, migrado 
-image: https://ebzzry.com/images/site/stephanie-leblanc-xrE6WwccyU-unsplash-1008x250.jpg
+image: https://ebzzry.com/images/site/stephanie-leblanc-xrE6Wwccy0U-unsplash-2000x1125.jpg
 ---
 Migri de LiveJournal al Frog
 ============================
@@ -12,7 +12,7 @@ Migri de LiveJournal al Frog
 >Mi ne scias kien mi iras, sed mi estas sur mia vojo.<br>
 >—Carl SAGAN
 
-<img src="/images/site/stephanie-leblanc-xrE6WwccyU-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
+<img src="/images/site/stephanie-leblanc-xrE6Wwccy0U-unsplash-2000x1125.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
 
 
 <a name="et">Enhavotabelo</a>
