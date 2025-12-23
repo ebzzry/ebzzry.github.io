@@ -1,7 +1,7 @@
 ---
 title: La Ipsilonkombinatoro per Ses Paŝoj
 keywords: ipsilono, ipsilonkombinatoro, ipsilona kombinatoro, kombinatoro, programado, komputiko, informadiko 
-image: https://ebzzry.com/images/site/david-becker-crs2vlkSe98-unsplash-1008x250.jpg
+image: https://ebzzry.com/images/site/david-becker-crs2vlkSe98-unsplash-2000x1125.jpg
 ---
 La Ipsilonkombinatoro per Ses Paŝoj
 ===================================
@@ -12,7 +12,7 @@ La Ipsilonkombinatoro per Ses Paŝoj
 >Unue, decidu. Kaj faru ĝin. Estas la nura maniero por atingi ion.<br>
 >—Lacus CLYNE, Gundam SEED Destiny
 
-<img src="/images/site/david-becker-crs2vlkSe98-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
+<img src="/images/site/david-becker-crs2vlkSe98-unsplash-2000x1125.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
 
 
 <a name="et">Enhavotabelo</a>

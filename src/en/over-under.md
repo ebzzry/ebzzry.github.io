@@ -1,7 +1,7 @@
 ---
 title: Over, Under, and Elsewhere
 keywords: over, under, over under, elsewhere, philosophy
-image: https://ebzzry.com/images/site/timon-klauser-3MAmj1ZKSZA-unsplash-1008x250.jpg
+image: https://ebzzry.com/images/site/timon-klauser-3MAmj1ZKSZA-unsplash-2000x1125.jpg
 ---
 Over, Under, and Elsewhere
 ==========================
@@ -12,7 +12,7 @@ Over, Under, and Elsewhere
 >The only limits you have are the limits you believe.<br>
 >—Wayne Dyer
 
-<img src="/images/site/timon-klauser-3MAmj1ZKSZA-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
+<img src="/images/site/timon-klauser-3MAmj1ZKSZA-unsplash-2000x1125.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
 
 Our cunning ability for oversight is deridingly high. Whether it may be solving a problem or just
 trying to be creative. Our impulse to over-engineer is unusually prevalent if our initial

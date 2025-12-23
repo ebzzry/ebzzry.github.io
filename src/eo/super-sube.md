@@ -1,7 +1,7 @@
 ---
 title: Super, Sube, kaj Aliloke
 keywords: super, sube, super sube, filozofio 
-image: https://ebzzry.com/images/site/timon-klauser-3MAmj1ZKSZA-unsplash-1008x250.jpg
+image: https://ebzzry.com/images/site/timon-klauser-3MAmj1ZKSZA-unsplash-2000x1125.jpg
 ---
 Super, Sube, kaj Aliloke
 ========================
@@ -12,7 +12,7 @@ Super, Sube, kaj Aliloke
 >La nuraj limoj kiujn havas oni, estas la limoj kiujn kredas oni.<br>
 >—Wayne DYER
 
-<img src="/images/site/timon-klauser-3MAmj1ZKSZA-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
+<img src="/images/site/timon-klauser-3MAmj1ZKSZA-unsplash-2000x1125.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
 
 Nia ruza kapablo por preterlaso estas ridinde alta, ĉu solvi problemon aŭ simple provas esti kreema.
 Niaj impetoj por troe realigi estas malkutime regaj se niaj komencaj atendoj ne satiĝis. Ni tiras
