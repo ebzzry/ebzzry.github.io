@@ -1,7 +1,7 @@
 ---
 title: Emaksaj Konsiletoj 1-a: Regionoj kaj Markoj
 keywords: emakso, konsiletoj, emakskonsiletoj, regionoj, markiloj, bufroj, klavkombinoj, kompilado, skimo, servilo, agordo, agordaĵo, agordajxo 
-image: https://ebzzry.com/images/site/robert-keane-rlbG0pnQOU-unsplash-1008x250.jpg 
+image: https://ebzzry.com/images/site/robert-keane-HFcxrs5u4uE-unsplash-2000x1125.jpg
 ---
 Emaksaj Konsiletoj 1-a: Regionoj kaj Markoj
 ===========================================
@@ -12,7 +12,7 @@ Emaksaj Konsiletoj 1-a: Regionoj kaj Markoj
 >La voĉon ne pligrandigu; la argumenton plibonigu.<br>
 >—Desmond TUTU
 
-<img src="/images/site/robert-keane-rlbG0pnQOU-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
+<img src="/images/site/robert-keane-HFcxrs5u4uE-unsplash-2000x1125.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
 
 
 <a name="et">Enhavotabelo</a>

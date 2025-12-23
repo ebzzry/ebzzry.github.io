@@ -1,7 +1,7 @@
 ---
 title: Managing Directories with Emacs
 keywords:emacs, dired, directory editor, configuration, setup, settings
-image: https://ebzzry.com/images/site/tom-barrett-wqQ4NNGxJ28-unsplash-1008x250.jpg
+image: https://ebzzry.com/images/site/tom-barrett-wqQ4NNG0J28-unsplash-2000x1125.jpg
 ---
 Managing Directories with Emacs
 ===============================
@@ -12,7 +12,7 @@ Managing Directories with Emacs
 >Supposing is good, but finding out is better.<br>
 >—Samuel Clemens
 
-<img src="/images/site/tom-barrett-wqQ4NNGxJ28-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
+<img src="/images/site/tom-barrett-wqQ4NNG0J28-unsplash-2000x1125.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
 
 
 <a name="toc">Table of contents</a>
