@@ -1,7 +1,7 @@
 ---
 title: How I Use Git on the Command Line
 keywords: git, shell, zsh, linux, mac, windows, setup, configuration 
-image: https://ebzzry.com/images/site/simon-berger-6te9SupeW1g-unsplash-2000x1125.jpg
+image: https://ebzzry.com/images/site/alain-pham-P0qvsF7Yodw-unsplash-2000x1125.jpg
 ---
 How I Use Git on the Command Line
 =================================
@@ -13,7 +13,7 @@ How I Use Git on the Command Line
 >on in their own world, oblivious to the opinions of those around them.<br>
 >—Daigo Umehara
 
-<img src="/images/site/simon-6te9SupeW1g-unsplash-2000x1125.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
+<img src="/images/site/alain-pham-P0qvsF7Yodw-unsplash-2000x1125.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
 
 
 <a name="toc">Table of contents</a>
