@@ -1,7 +1,7 @@
 ---
 title: A Gentle Introduction to the Nix Family
 keywords: nix, nixos, nixpkgs, introduction, tutorial, linux, macos, nix overlays, overlays
-image: https://ebzzry.com/images/site/wallhaven-751942-1008x250.jpg
+image: https://ebzzry.com/images/site/cris-tagupa-9ZXHUr5aCwM-unsplash-2000x1125.jpg
 ---
 A Gentle Introduction to the Nix Family
 =======================================
@@ -13,7 +13,7 @@ A Gentle Introduction to the Nix Family
 >invent it.<br>
 >—Alan Kay
 
-<img src="/images/site/wallhaven-751942-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
+<img src="/images/site/cris-tagupa-9ZXHUr5aCwM-unsplash-2000x1125.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
 
 
 <a name="toc">Table of contents</a>

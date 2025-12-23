@@ -1,7 +1,7 @@
 ---
 title: Emacs Tips and Tricks 3: Insert and Delete
 keywords: emacs, tips, insertion, deletion, marking, yanking, configuration, setup, settings
-image: https://ebzzry.com/images/site/jr-korpa-E2i7HftbrI-unsplash-1008x250.jpg
+image: https://ebzzry.com/images/site/jr-korpa-E2i7Hftb0rI-unsplash-2000x1125.jpg
 ---
 Emacs Tips and Tricks 3: Insert and Delete
 ==========================================
@@ -11,7 +11,7 @@ Emacs Tips and Tricks 3: Insert and Delete
 
 >The more you sweat in peace, the less you bleed in war.<br>—Norman Schwarzkopf
 
-<img src="/images/site/jr-korpa-E2i7HftbrI-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
+<img src="/images/site/jr-korpa-E2i7Hftb0rI-unsplash-2000x1125.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
 
 
 <a name="toc">Table of contents</a>

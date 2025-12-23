@@ -1,7 +1,7 @@
 ---
 title: My Markdown Style Guide
 keywords: markdown, style, guidelines, formatting
-image: https://ebzzry.com/images/site/luca-bravo-bTxMLuJOff4-unsplash-1008x250.jpg
+image: https://ebzzry.com/images/site/luca-bravo-bTxMLuJOff4-unsplash-2000x1125.jpg
 ---
 My Markdown Style Guide
 =======================
@@ -12,7 +12,7 @@ My Markdown Style Guide
 >The laws that govern circumstances are abolished by new circumstances.<br>
 >—Napoleon Bonaparte
 
-<img src="/images/site/luca-bravo-bTxMLuJOff4-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
+<img src="/images/site/luca-bravo-nCsFHex3grU-unsplash-2000x1125.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
 
 
 <a name="toc">Table of contents</a>

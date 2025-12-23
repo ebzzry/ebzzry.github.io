@@ -1,7 +1,7 @@
 ---
 title: Konverti de Markdaŭno al HTML per emem
 keywords: emem, markdown, statika retejo 
-image: https://ebzzry.com/images/site/s-migaj-Yui5vfKHuzs-unsplash-1008x250.jpg
+image: https://ebzzry.com/images/site/s-migaj-Yui5vfKHuzs-unsplash-2000x1125.jpg
 ---
 Konverti de Markdaŭno al HTML per emem
 ======================================
@@ -13,7 +13,7 @@ Konverti de Markdaŭno al HTML per emem
 >el oni mem.<br>
 >—JJ, Ergo Proxy
 
-<img src="/images/site/s-migaj-Yui5vfKHuzs-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
+<img src="/images/site/s-migaj-Yui5vfKHuzs-unsplash-2000x1125.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
 
 
 <a name="et">Enhavotabelo</a>

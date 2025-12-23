@@ -1,7 +1,7 @@
 ---
 title: Milda Enkonduko al la Nix-Familio
 keywords: nix, nixos, nixpkgs, enkonduko, gvidilo, linukso, makintoŝo, makintosxo, unikso, nix-surmetoj, surmetoj 
-image: https://ebzzry.com/images/site/wallhaven-751942-1008x250.jpg
+image: https://ebzzry.com/images/site/cris-tagupa-9ZXHUr5aCwM-unsplash-2000x1125.jpg
 ---
 Milda Enkonduko al la Nix-Familio
 =================================
@@ -11,7 +11,7 @@ Milda Enkonduko al la Nix-Familio
 
 >Ne maltrankviliĝu pri tio, kion la aliaj faros. La plej bona maniero por antaŭdiri la estontecon estas por eltrovi ĝin.<br>—Alan KAY
 
-<img src="/images/site/wallhaven-751942-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
+<img src="/images/site/cris-tagupa-9ZXHUr5aCwM-unsplash-2000x1125.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
 
 
 <a name="et">Enhavotabelo</a>

@@ -1,7 +1,7 @@
 ---
 title: Mia Markdaŭna Stilgvidilo
 keywords: markdauxno, markdaŭno, stilo, gvidnormoj, aranĝo, arangxo 
-image: https://ebzzry.com/images/site/luca-bravo-bTxMLuJOff4-unsplash-1008x250.jpg
+image: https://ebzzry.com/images/site/luca-bravo-bTxMLuJOff4-unsplash-2000x1125.jpg
 ---
 Mia Markdaŭna Stilgvidilo
 =========================
@@ -12,7 +12,7 @@ Mia Markdaŭna Stilgvidilo
 >La reguloj kiuj direktas cirkonstancojn estas nuligitaj per novaj cirkonstancoj.<br>
 >—Napoleono BONAPARTE
 
-<img src="/images/site/luca-bravo-bTxMLuJOff4-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
+<img src="/images/site/luca-bravo-nCsFHex3grU-unsplash-2000x1125.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
 
 
 <a name="et">Enhavotabelo</a>

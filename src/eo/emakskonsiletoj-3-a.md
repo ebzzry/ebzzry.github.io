@@ -1,7 +1,7 @@
 ---
 title: Emaksaj Konsiletoj 3-a: Enmeti kaj Forviŝi
 keywords: emakso, konsiletoj, enmetado, forviŝado, forvisxado, markado, algluado, agordo, agordaĵo, agordajxo 
-image: https://ebzzry.com/images/site/jr-korpa-E2i7HftbrI-unsplash-1008x250.jpg
+image: https://ebzzry.com/images/site/jr-korpa-E2i7Hftb0rI-unsplash-2000x1125.jpg
 ---
 Emaksaj Konsiletoj 3-a: Enmeti kaj Forviŝi
 ==========================================
@@ -11,6 +11,7 @@ Emaksaj Konsiletoj 3-a: Enmeti kaj Forviŝi
 
 >Ju pli oni ŝvitas en paco, des malpli oni sangas en milito.<br>—Norman SCHWARZKOPF
 
+<img src="/images/site/jr-korpa-E2i7Hftb0rI-unsplash-2000x1125.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
 <img src="/images/site/jr-korpa-E2i7HftbrI-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
 
 

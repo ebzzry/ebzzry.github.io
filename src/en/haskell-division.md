@@ -1,7 +1,7 @@
 ---
 title: Division in Haskell
 keywords: haskell, division
-image: https://ebzzry.com/images/site/josh-withers-VyOUw5byHlc-unsplash-1008x250.jpg
+image: https://ebzzry.com/images/site/josh-withers-VyOUw5byHlc-unsplash-2000x1125.jpg
 ---
 Division in Haskell
 ===================
@@ -12,7 +12,7 @@ Division in Haskell
 >But every decision for something is a decision against something else.<br>
 >—H. G. Tannhaus, Dark (2017)
 
-<img src="/images/site/josh-withers-VyOUw5byHlc-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
+<img src="/images/site/josh-withers-VyOUw5byHlc-unsplash-2000x1125.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
 
 While learning about division in Haskell, I realized that the concept is not as trivial as I
 initially wanted it to be. There are subtle differences between the functions that can easily trip
