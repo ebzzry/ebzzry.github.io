@@ -14,9 +14,7 @@ class="center">2025-12-20 00:28:11 +0800</div>
 >—Nassim Nicholas Taleb
 
 <img src="/images/site/john-hernandez-IL-fBBnF-GU-unsplash-2000x1125.jpg"
-style="display: block; width: 100%; margin-left: auto; margin-right: auto;"
-
-/>
+style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
 
 I recently came across an article of Stephen Cuunjieng on Manila Times titled
 [Where Are Quality Finance and Tech Jobs Going? (Not Here)](https://www.manilatimes.net/2025/12/19/opinion/columns/where-are-quality-finance-and-tech-jobs-going-not-here/2246675).
