@@ -1,7 +1,7 @@
 ---
 title: Zsh Tips 1: Aliases and Functions
 keywords: zsh, tips, advice, shell, linux, configuration, setup, settings
-image: https://ebzzry.com/images/site/omair-parvez-o6ka1Lpk81U-unsplash-1008x250.jpg
+image: https://ebzzry.com/images/site/omair-parvez-o6ka1Lpk81U-unsplash-2000x1125.jpg
 ---
 Zsh Tips 1: Aliases and Functions
 =================================
@@ -12,7 +12,7 @@ Zsh Tips 1: Aliases and Functions
 >A common man marvels at uncommon things; a wise man marvels at the commonplace.<br>
 >—Confucius
 
-<img src="/images/site/omair-parvez-o6ka1Lpk81U-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
+<img src="/images/site/omair-parvez-o6ka1Lpk81U-unsplash-2000x1125.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
 
 
 <a name="toc">Table of contents</a>

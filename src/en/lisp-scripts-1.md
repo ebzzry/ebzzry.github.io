@@ -12,7 +12,7 @@ Lisp Scripts 1: Multi-Call Binaries
 >The light that burns twice as bright burns half as long.<br>
 >—Dr. Eldon Tyrell, Blade Runner (1982)
 
-<img src="/images/site/lisp-lizard-1008x250.png" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
+<img src="/images/site/chuttersnap-MpxAiNDevjU-unsplash-2000x1125.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
 
 
 <a name="toc">Table of contents</a>

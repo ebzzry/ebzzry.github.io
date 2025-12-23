@@ -1,7 +1,7 @@
 ---
 title: Ziŝaj Konsiletoj 1-a: Alinomoj kaj Funkcioj
 keywords: ziŝo, zisxo, zsh, konsiletoj, avizoj, ŝelo, sxelo, linukso, agordo, agordaĵo, agordaĵxo 
-image: https://ebzzry.com/images/site/omair-parvez-o6ka1Lpk81U-unsplash-1008x250.jpg
+image: https://ebzzry.com/images/site/omair-parvez-o6ka1Lpk81U-unsplash-2000x1125.jpg
 ---
 Ziŝaj Konsiletoj 1-a: Alinomoj kaj Funkcioj
 ===========================================
@@ -12,7 +12,7 @@ Ziŝaj Konsiletoj 1-a: Alinomoj kaj Funkcioj
 >Malsaĝulo miras pri nekutimaj aferoj. Ŝagulo miras pri la kutimaj aferoj.<br>
 >—Konfuceo
 
-<img src="/images/site/omair-parvez-o6ka1Lpk81U-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
+<img src="/images/site/omair-parvez-o6ka1Lpk81U-unsplash-2000x1125.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
 
 
 <a name="et">Enhavotabelo</a>
