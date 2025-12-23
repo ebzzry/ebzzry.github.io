@@ -1,7 +1,7 @@
 ---
 title: Symbols and Marks (Condensed)
 keywords: symbols, marks, punctuation, linux, macos, windows, keyboard, summary, condensed
-image: https://ebzzry.com/images/site/stephen-johnson-Q80-Cc-IXRY-unsplash-2000x1125.jpg
+image: https://ebzzry.com/images/site/john-mukiibi-elijah-ibjQCaFM0rs-unsplash-2000x1125.jpg
 ---
 Symbols and Marks (Condensed)
 =============================
@@ -12,7 +12,7 @@ Symbols and Marks (Condensed)
 >If you want to achieve greatness, stop asking for permission.<br>
 >—Eddie Colla
 
-<img src="/images/site/stephen-johnson-Q80-Cc-IXRY-unsplash-2000x1125.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
+<img src="/images/site/john-mukiibi-elijah-ibjQCaFM0rs-unsplash-2000x1125.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
 
 The table below is the condensed form of [Symbols and Marks](/en/symbols-marks/).
 

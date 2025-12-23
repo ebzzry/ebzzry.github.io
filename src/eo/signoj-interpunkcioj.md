@@ -1,7 +1,7 @@
 ---
 title: Signoj kaj Interpunkcioj
 keywords: signoj, interpunkcioj, linukso, makintoŝo, makintosxo, vindozo, klavaro 
-image: https://ebzzry.com/images/site/stephen-johnson-Q80-Cc-IXRY-unsplash-2000x1125.jpg
+image: https://ebzzry.com/images/site/john-mukiibi-elijah-ibjQCaFM0rs-unsplash-2000x1125.jpg
 ---
 Signoj kaj Interpunkcioj
 ========================
@@ -12,7 +12,7 @@ Signoj kaj Interpunkcioj
 >Se oni volas atingi grandiozon, ĉesu peti konsentojn.<br>
 >—Eddie COLLA
 
-<img src="/images/site/stephen-johnson-Q80-Cc-IXRY-unsplash-2000x1125.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
+<img src="/images/site/john-mukiibi-elijah-ibjQCaFM0rs-unsplash-2000x1125.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
 
 *Iru [ĉi tien](/eo/signoj-interpunkcioj-mallongigite/) por la mallongigita versio.*
 
