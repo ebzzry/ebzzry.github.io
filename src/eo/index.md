@@ -2,17 +2,18 @@
 title: Rommel Martínez
 description: Retejo pri informadiko, hominklinoj, kaj hazardaĵoj.
 keywords: rommel martinez, rommel martínez, ebzzry, ebzzry.com
-image: https://ebzzry.com/images/site/books-2000x1125.jpg
+image: https://ebzzry.com/images/site/jarno-colijn-CQGuK_JAuUI-unsplash-2000x1125.jpg
 ---
 Rommel Martínez
 ===============
 
 <div class="center">[English](/en/) ⊻ Esperanto</div>
 
-<img src="/images/site/books-2000x1125.jpg" style="" class="banner"  />
+<img src="/images/site/jarno-colijn-CQGuK_JAuUI-unsplash-2000x1125.jpg" style="" class="banner"/>
 
 <div class="text-right">Retejo pri informadiko, hominklinaĵoj, kaj hazardaĵoj. La enskriboj estas ordigitaj laŭ inverskronologiordo.</div>
 
+- [Haskelprogramado per Emakso](emakso-haskelo)
 - [Aktoroj kaj Batalistoj: Teatroj kaj Sangoverŝo](aktoroj-batalistoj)
 - [Funkcie Analfabeta: Kiel iĝi Stulte, Rapide](funkcie-analfabeta)
 - [Kiel Mi Kreas Lispajn Projektojn](lispaj-projektoj)
@@ -47,7 +48,7 @@ Rommel Martínez
 - [Krei Sekurkopiojn per Ugarit](ugarit)
 - [Blogi per Frog](frog)
 - [Agordi Retpoŝton per Emakso](emakso-retposxto)
-- [Agordi Skimprogramadon en Emakso](emakso-skimo)
+- [Skimprogramado per Emakso](emakso-skimo)
 - [Manipuli Dosierujojn en Emakso](emakso-dired)
 - [Emaksaj Konsiletoj 1-a: Regionoj kaj Markoj](emakskonsiletoj-1-a)
 - [Retrospektive](retrospektive)

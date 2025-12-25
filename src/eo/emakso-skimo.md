@@ -1,10 +1,10 @@
 ---
-title: Agordi Skimprogramadon en Emakso
+title: Skimprogramado per Emakso
 keywords: emakso, skimo, skimprogramado, skimo, lispo, programado, agordo, agordaĵo, agordajxo 
 image: https://ebzzry.com/images/site/dimitar-belchev-A7v5KWxnKQA-unsplash-2000x1125.jpg
 ---
-Agordi Skimprogramadon en Emakso
-================================
+Skimprogramado per Emakso
+=========================
 
 <div class="center">[English](/en/emacs-scheme/) ⊻ Esperanto</div>
 <div class="center">2022-02-02 22:22:42 +0800</div>

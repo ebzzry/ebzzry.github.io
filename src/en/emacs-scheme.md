@@ -1,10 +1,10 @@
 ---
-title: Setting up Scheme Development in Emacs
+title: Scheme Development with Emacs
 keywords: emacs, scheme, lisp, programming, configuration, setup, settings
 image: https://ebzzry.com/images/site/dimitar-belchev-A7v5KWxnKQA-unsplash-2000x1125.jpg
 ---
-Setting up Scheme Development in Emacs
-======================================
+Scheme Development with Emacs
+=============================
 
 <div class="center">English ⊻ [Esperanto](/eo/emakso-skimo/)</div>
 <div class="center">2022-02-02 22:22:42 +0800</div>

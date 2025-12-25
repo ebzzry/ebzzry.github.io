@@ -2,17 +2,18 @@
 title: Rommel Martínez
 description: A journal about computing, human predilections, and random krakaboom.
 keywords: rommel martinez, rommel martínez, ebzzry, ebzzry.com
-image: https://ebzzry.com/images/site/books-2000x1125.jpg
+image: https://ebzzry.com/images/site/jarno-colijn-CQGuK_JAuUI-unsplash-2000x1125.jpg
 ---
 Rommel Martínez
 ===============
 
 <div class="center">English ⊻ [Esperanto](/eo/)</div>
 
-<img src="/images/site/books-2000x1125.jpg" style="" class="banner"/>
+<img src="/images/site/jarno-colijn-CQGuK_JAuUI-unsplash-2000x1125.jpg" style="" class="banner"/>
 
 <div class="text-right">A journal about computing, human predilections, and random krakaboom. The entries are sorted in reverse chronological order.</div>
 
+- [Haskell Development with Emacs](emacs-haskell)
 - [Actors and Warriors: Theatrics and Bloodshed](actors-warriors)
 - [Functionally Illiterate: How to Be Dumb, Fast](functionally-illiterate)
 - [How I Make Lisp Projects](lisp-projects)
@@ -47,7 +48,7 @@ Rommel Martínez
 - [Creating Backups with Ugarit](ugarit)
 - [Blogging with Frog](frog)
 - [Setting up Mail in Emacs](emacs-mail)
-- [Setting up Scheme Development in Emacs](emacs-scheme)
+- [Scheme Development with Emacs](emacs-scheme)
 - [Managing Directories in Emacs](emacs-dired)
 - [Emacs Tips 1: Regions and Marks](emacs-tips-1)
 - [In Retrospect](retrospect)
