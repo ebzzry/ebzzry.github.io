@@ -1,14 +1,14 @@
 ---
 title: Pripensoj
 keywords: pripensoj, vortoj, personaj pripensoj 
-image: https://ebzzry.com/images/site/ashim-d-silva-WeYamle9fDM-unsplash-1008x250.jpg
+image: https://ebzzry.com/images/site/joris-visser-8konJx6dY4g-unsplash-2000x1125.jpg
 ---
 Pripensoj
 =========
 
 <div class="center">[English](/en/reflections/) ⊻ Esperanto</div>
 
-<img src="/images/site/ashim-d-silva-WeYamle9fDM-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
+<img src="/images/site/joris-visser-8konJx6dY4g-unsplash-2000x1125.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
 
 Ĉi tiu paĝo enhavas kelke da miaj propraj pripensoj. La enskriboj estas
 ordigitaj laŭ kronologiordo.

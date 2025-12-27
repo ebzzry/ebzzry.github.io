@@ -34,8 +34,9 @@ Haskelprogramado per Emakso
 Haskelo estas bela programlingvo. Mi simple diru tion. Ĝi estas unu el tiuj
 programlingvoj kiu estis desegnite eleganta kaj potenca. En la alia flanko de la
 ĉielarko estas Lispo kaj en la alia flanko estas Haskelo. Ne estas nur pro ĝi
-estas pure funkcia, statike tipigita, maldiligente taksita, riĉa per esplorado,
-kaj havas aktivan komunumon. Estas pro ĝi havas ĉion.
+estas pure funkcia, statike tipigita, maldiligente taksita, potence realigas
+tipklasajn, riĉa per esplorado, kaj havas aktivan komunumon. Estas pro ĝi havas
+ĉion.
 
 Sed per Haskelo, aferoj estas malsimilaj. Oni rigardas aferojn el malsama
 perspektivo. Oni iras ekster la komfortaj zonoj. Oni elektas Haskelon ĉar oni ne

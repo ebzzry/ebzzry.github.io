@@ -1,14 +1,14 @@
 ---
 title: Quotes
 keywords: quotes, quotations, famous words, aphorisms
-image: https://ebzzry.com/images/site/wallhaven-77816-1008x250.jpg
+image: https://ebzzry.com/images/site/david-clode-92MgFhlWD-8-unsplash-2000x1125.jpg
 ---
 Quotes
 ======
 
 <div class="center">English ⊻ [Esperanto](/eo/citajxoj/)</div>
 
-<img src="/images/site/wallhaven-77816-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
+<img src="/images/site/david-clode-92MgFhlWD-8-unsplash-2000x1125.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
 
 
 This page contains a list of curated quotations, aphorisms, and proverbs that I have collected over

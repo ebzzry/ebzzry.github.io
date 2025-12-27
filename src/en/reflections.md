@@ -1,14 +1,14 @@
 ---
 title: Reflections
 keywords: reflections, words, thoughts, predilections
-image: https://ebzzry.com/images/site/ashim-d-silva-WeYamle9fDM-unsplash-1008x250.jpg
+image: https://ebzzry.com/images/site/joris-visser-8konJx6dY4g-unsplash-2000x1125.jpg
 ---
 Reflections
 ===========
 
 <div class="center">English ⊻ [Esperanto](/eo/pripensoj/)</div>
 
-<img src="/images/site/ashim-d-silva-WeYamle9fDM-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
+<img src="/images/site/joris-visser-8konJx6dY4g-unsplash-2000x1125.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
 
 This page contains contains some of my personal reflections. Entries are sorted
 in chronological order.
