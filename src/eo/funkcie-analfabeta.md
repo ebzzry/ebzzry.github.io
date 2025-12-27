@@ -7,7 +7,7 @@ Funkcie Analfabeta: Kiel iĝi Stulte, Rapide
 ===========================================
 
 <div class="center">[English](/en/functionally-illiterate/) ⊻ Esperanto</div>
-<div class="center">2025-11-15 +0800</div>
+<div class="center">2025-11-15</div>
 
 >Oni ne solvas pli per pli. Oni solvu ĝin per malpli.<br>
 >—Caspian KEYES, Pantheon

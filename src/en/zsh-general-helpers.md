@@ -7,7 +7,7 @@ Zsh: General Helpers
 ====================
 
 <div class="center">English ⊻ [Esperanto](/eo/zisxo-gxeneralhelpiloj/)</div>
-<div class="center">2017-11-09 +0800</div>
+<div class="center">2017-11-09</div>
 
 >A change in perspective is worth 80 IQ points.<br>
 >—Alan Kay

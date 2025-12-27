@@ -7,7 +7,7 @@ Verb Tenses in English (Condensed)
 ==================================
 
 <div class="center">English ⊻ [Esperanto](/eo/verbotempoj-la-angla-mallongigite/)</div>
-<div class="center">2017-03-28 +0800</div>
+<div class="center">2017-03-28</div>
 
 >The difference between ordinary and extraordinary is that little extra.<br>
 >—Jimmy Johnson

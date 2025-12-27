@@ -7,7 +7,7 @@ Aboco de la Lambdokalkulo
 =========================
 
 <div class="center">[English](/en/lambda-calculus/) ⊻ Esperanto</div>
-<div class="center">2018-02-21 +0800</div>
+<div class="center">2018-02-21</div>
 
 >Oni ne vere komprenas ion krom se oni povas klarigi ĝin al sia avino.<br>
 >—Alberto EJNŜTEJNO

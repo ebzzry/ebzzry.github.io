@@ -7,7 +7,7 @@ Emacs: Insert and Delete
 ========================
 
 <div class="center">English ⊻ [Esperanto](/eo/emakso-enmeti-kaj-forvisxi/)</div>
-<div class="center">2017-04-01 +0800</div>
+<div class="center">2017-04-01</div>
 
 >The more you sweat in peace, the less you bleed in war.<br>—Norman Schwarzkopf
 

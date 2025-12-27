@@ -7,7 +7,7 @@ Emakso: Sendi kaj Ricevi Retposxton
 ===================================
 
 <div class="center">[English](/en/emacs-mail/) ⊻ Esperanto</div>
-<div class="center">2018-02-14 +0800</div>
+<div class="center">2018-02-14</div>
 
 >Nur pro tio, ke ne fariĝis io, ne signifas, ke ne fareblas ĝi. Nur pro tio, ke fareblas io, ne signifas, ke farendas ĝi.<br>
 >—Barry GLASFORD

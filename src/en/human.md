@@ -7,7 +7,7 @@ How to Communicate Like a Human
 ===============================
 
 <div class="center">English ⊻ [Esperanto](/eo/homo/)</div>
-<div class="center">2017-03-05 +0800</div>
+<div class="center">2017-03-05</div>
 
 >The ability to speak does not make you intelligent.<br>
 >—Qui-Gon Jinn

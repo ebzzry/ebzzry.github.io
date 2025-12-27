@@ -7,7 +7,7 @@ Super, Sube, kaj Aliloke
 ========================
 
 <div class="center">[English](/en/over-under/) ⊻ Esperanto</div>
-<div class="center">2017-12-02 +0800</div>
+<div class="center">2017-12-02</div>
 
 >La nuraj limoj kiujn havas oni, estas la limoj kiujn kredas oni.<br>
 >—Wayne DYER

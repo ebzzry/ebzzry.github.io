@@ -7,7 +7,7 @@ Emacs: Haskell Programming
 ==========================
 
 <div class="center">English ⊻ [Esperanto](/eo/emakso-haskelo/)</div>
-<div class="center">2025-12-25 +0800</div>
+<div class="center">2025-12-25</div>
 
 >You can’t truly call yourself peaceful unless you are capable of great violence. If you’re not capable of violence, you’re not peaceful, you’re harmless.<br>
 >—Stef Starkgaryen

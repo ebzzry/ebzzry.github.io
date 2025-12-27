@@ -7,7 +7,7 @@ Lisp: Multi-Call Binaries
 =========================
 
 <div class="center">English ⊻ [Esperanto](/eo/lispo-plurvokaj-plenumeblaj-dosieroj/)</div>
-<div class="center">2017-08-04 +0800</div>
+<div class="center">2017-08-04</div>
 
 >The light that burns twice as bright burns half as long.<br>
 >—Dr. Eldon Tyrell, Blade Runner (1982)

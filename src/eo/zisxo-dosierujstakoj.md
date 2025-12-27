@@ -7,7 +7,7 @@ Ziŝo: Dosierujstakoj
 ====================
 
 <div class="center">[English](/en/zsh-directory-stacks/) ⊻ Esperanto</div>
-<div class="center">2018-09-26 +0800</div>
+<div class="center">2018-09-26</div>
 
 >Kion ni faras por ni, mortas kun ni. Kion ni faras por ili, porĉiame restas.<br>
 >—Albert PIKE

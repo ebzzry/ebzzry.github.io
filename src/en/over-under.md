@@ -7,7 +7,7 @@ Over, Under, and Elsewhere
 ==========================
 
 <div class="center">English ⊻ [Esperanto](/eo/super-sube/)</div>
-<div class="center">2012-03-07 +0800</div>
+<div class="center">2012-03-07</div>
 
 >The only limits you have are the limits you believe.<br>
 >—Wayne Dyer

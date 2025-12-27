@@ -7,7 +7,7 @@ Milda Enkonduko al Nix-Flokoj
 =============================
 
 <div class="center">[English](/en/flakes) ⊻ Esperanto</div>
-<div class="center">2025-01-30 +0800</div>
+<div class="center">2025-01-30</div>
 
 >Tamen ĉiu decido por io estas decido kontraŭ io alia.<br>
 >—H. G. Tannhaus, Dark (2017)

@@ -7,7 +7,7 @@ Emakso: Skima Programado
 ========================
 
 <div class="center">[English](/en/emacs-scheme/) ⊻ Esperanto</div>
-<div class="center">2018-02-13 +0800</div>
+<div class="center">2018-02-13</div>
 
 >Ĉiom da bonaj ideoj ne kuŝas sub unu ĉapelo.<br>
 >—Dale TURNER

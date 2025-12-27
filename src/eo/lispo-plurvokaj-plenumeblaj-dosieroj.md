@@ -7,7 +7,7 @@ Lispo: Plurvokaj Plenumeblaj Dosieroj
 =====================================
 
 <div class="center">[English](/en/lisp-multi-call-binaries) ⊻ Esperanto</div>
-<div class="center">2018-09-25 +0800</div>
+<div class="center">2018-09-25</div>
 
 >La lumo kiu fajras duoble brila, fajras duone longa.<br>
 >—D-ro Eldon TYRELL, Blade Runner (1982)

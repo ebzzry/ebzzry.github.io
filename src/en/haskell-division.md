@@ -7,7 +7,7 @@ Haskell: Division
 =================
 
 <div class="center">English ⊻ [Esperanto](/eo/haskeldivido/)</div>
-<div class="center">2017-03-08 +0800</div>
+<div class="center">2017-03-08</div>
 
 >But every decision for something is a decision against something else.<br>
 >—H. G. Tannhaus, Dark (2017)

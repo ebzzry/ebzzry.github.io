@@ -7,7 +7,7 @@ Zsh: Chroot Helpers
 ===================
 
 <div class="center">English ⊻ [Esperanto](/eo/zisxo-sxangxradikighelpiloj/)</div>
-<div class="center">2017-10-20 +0800</div>
+<div class="center">2017-10-20</div>
 
 >We laugh at that which we cannot bear to face.<br>
 >—Aristotle

@@ -7,7 +7,7 @@ In Retrospect
 =============
 
 <div class="center">English ⊻ [Esperanto](/eo/retrospektive/)</div>
-<div class="center">2013-07-11 +0800</div>
+<div class="center">2013-07-11</div>
 
 >Difficulty is what wakes up the genius.<br>
 >—Nassim Nicholas Taleb

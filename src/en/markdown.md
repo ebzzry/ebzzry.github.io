@@ -7,7 +7,7 @@ My Markdown Style Guide
 =======================
 
 <div class="center">English ⊻ [Esperanto](/eo/markdauxno/)</div>
-<div class="center">2017-04-05 +0800</div>
+<div class="center">2017-04-05</div>
 
 >The laws that govern circumstances are abolished by new circumstances.<br>
 >—Napoleon Bonaparte

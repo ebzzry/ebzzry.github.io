@@ -7,7 +7,7 @@ Kiel Mi Uzas la Kinesis Advantage-Klavaron
 ==========================================
 
 <div class="center">[English](/en/advantage/) ⊻ Esperanto</div>
-<div class="center">2018-07-12 +0800</div>
+<div class="center">2018-07-12</div>
 
 >La doloro neeviteblas. La suferado malnepras.<br>
 >—M. Kathleen CASEY

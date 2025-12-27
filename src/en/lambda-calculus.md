@@ -7,7 +7,7 @@ A Lambda Calculus Primer
 ========================
 
 <div class="center">English ⊻ [Esperanto](/eo/lambdokalkulo/)</div>
-<div class="center">2015-06-13 +0800</div>
+<div class="center">2015-06-13</div>
 
 >You do not really understand something unless you can explain it to your grandmother.<br>
 >—Albert Einstein

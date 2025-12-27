@@ -7,7 +7,7 @@ Synchronizing Sites with Usync
 ==============================
 
 <div class="center">English ⊻ [Esperanto](/eo/usync/)</div>
-<div class="center">2013-05-21 +0800</div>
+<div class="center">2013-05-21</div>
 
 >What I cannot create, I do not understand.<br>
 >—Richard P. Feynman

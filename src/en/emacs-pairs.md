@@ -7,7 +7,7 @@ Emacs: Pairs and Everything in Between
 ======================================
 
 <div class="center">English ⊻ [Esperanto](/eo/emakso-paroj/)</div>
-<div class="center">2015-08-15 +0800</div>
+<div class="center">2015-08-15</div>
 
 >The white noise that beats within the white darkness is the rhythm of life; it is that pulse which
 >never truly left the stage.<br>

@@ -7,7 +7,7 @@ Emacs: Scheme Programming
 =========================
 
 <div class="center">English ⊻ [Esperanto](/eo/emakso-skimo/)</div>
-<div class="center">2013-09-30 +0800</div>
+<div class="center">2013-09-30</div>
 
 >All the good ideas never lie under one hat.<br>
 >—Dale Turner

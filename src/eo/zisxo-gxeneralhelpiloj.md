@@ -7,7 +7,7 @@ Ziŝo: Ĝeneralhelpiloj
 =====================
 
 <div class="center">[English](/en/zsh-general-helpers/) ⊻ Esperanto</div>
-<div class="center">2018-09-26 +0800</div>
+<div class="center">2018-09-26</div>
 
 >Vidpunkto meritas okdek poentojn da inteligentecaj kvocientoj.<br>
 >—Alan KAY

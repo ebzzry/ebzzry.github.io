@@ -7,7 +7,7 @@ Mia Markdaŭna Stilgvidilo
 =========================
 
 <div class="center">[English](/en/markdown/) ⊻ Esperanto</div>
-<div class="center">2018-09-24 +0800</div>
+<div class="center">2018-09-24</div>
 
 >La reguloj kiuj direktas cirkonstancojn estas nuligitaj per novaj cirkonstancoj.<br>
 >—Napoleono BONAPARTE

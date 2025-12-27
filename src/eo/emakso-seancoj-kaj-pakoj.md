@@ -7,7 +7,7 @@ Emakso: Seancoj kaj Pakoj
 =========================
 
 <div class="center">[English](/en/emacs-sessions-and-packages/) ⊻ Esperanto</div>
-<div class="center">2018-02-20 +0800</div>
+<div class="center">2018-02-20</div>
 
 >Sonorilo kiu ne povas sonori ne havas celon.<br>—Keel LORENZ, Neon Genesis Evangelion
 
