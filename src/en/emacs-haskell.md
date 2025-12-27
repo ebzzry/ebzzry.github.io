@@ -33,15 +33,15 @@ Haskell Development with Emacs
 
 Haskell is a beautiful language. Let me just say that. It is one of those
 languages that was designed to be elegant and powerful. On the other side of the
-rainbow is Lisp, and on the other side is Haskell. It’s not just because it is
+rainbow is Lisp and on the other side is Haskell. It’s not just because it is
 purely functional, statically typed, lazily evaluated, abounding with research,
 and has rich community. It is because it has all those. 
 
-I’ve been a Lisper for as long as I can remember. But with Haskell, things are
-different. You look at things from a different perspective. You go out of your
-comfort zones. You become curious what’s all those fireworks there on that side
-of the city? You choose Haskell because you not only want to become a better
-programmer, but because you want to become a better thinker.
+But with Haskell, things are different. You look at things from a different
+perspective. You go out of your comfort zones. You become curious what’s all
+those fireworks there on that side of the city? You choose Haskell because you
+not only want to become a better programmer, but because you want to become a
+better thinker.
 
 In this article I’m going to talk about I setup my own Haskell development
 environment. Of course, Emacs is just one part of it. If I had to put all the

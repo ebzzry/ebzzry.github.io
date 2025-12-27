@@ -1214,3 +1214,6 @@ tra la jaroj.
 
 
 - Ju pli miksigitaj aferoj estas des pli bone la solvo.<br>—Sinjorino Valerie FRIZZLE, The Magic School Bus
+
+
+- La homo kun granda riĉaĵo kiu amasigas kaj uzas sian riĉecon sen estimo al etikaj normoj; kiu profitas kaj bredas putron; kaj rabas kaj fraŭdas la aliajn, estas la plej malbona malamiko de la propreco.<br>—Theodore ROOSEVELT
