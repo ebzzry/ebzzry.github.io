@@ -588,7 +588,7 @@ Execute `sp-backward-kill-sexp`. I bound it to <kbd>M-k</kbd>.
 -----------------------
 
 The following snippet summarizes the key bindings used in this article. I use `bind-keys` to
-conveniently map my keys. I discussed about it, in an [earlier](/en/emacs-tips-2) article.
+conveniently map my keys. I discussed about it, in an [earlier](/en/emacs-sessions-and-packages/) article.
 
 ```lisp
 (defmacro def-pairs (pairs)

@@ -200,7 +200,7 @@ Redaktu la agorddosieron:
     # nano /mnt/etc/nixos/configuration.nix
 
 Por plifaciligi la procedon, oni povas uzi la malpligrandigitan version de
-[mia agorddosiero](https://github.com/vedatechnologiesinc/dotfiles/blob/main/nixos/configuration.nix). Kaj sekve,
+[mia agorddosiero](https://github.com/vedatechnologiesinc/dotfiles/blob/main/nix/nixos-configuration.nix). Kaj sekve,
 anstataŭigu la valorojn laŭplaĉe. Haveblas ĉiom da agordaj alĝustigiloj [ĉi tie](https://nixos.org/nixos/options.html).
 
 ```nix

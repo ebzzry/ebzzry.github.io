@@ -135,7 +135,7 @@ estas la fontoi. Tiam, la sekva klavo estas la celo.
 Tiam premu <kbd>Progrm + F12</kbd> denove, por eliri la remapagadan reĝimon. La klavo <kbd>KP
 Enter</kbd> moviĝis al la maldekstra <kbd>Alt</kbd> por ke ĝin mi povu facile uzi kiel «Compose»
 klavo en X. Mia
-[~/.xmodmap](https://github.com/vedatechnologiesinc/dotfiles/blob/main/xmodmap/advantage.dv.xmap)-dosiero
+[~/.Xmodmap](https://github.com/vedatechnologiesinc/dotfiles/blob/main/xmodmap/adv.dv.xmap)-dosiero
 enhavas la jenan kodeton:
 
 ```

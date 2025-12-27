@@ -204,7 +204,7 @@ Edit the config file:
     # nano /mnt/etc/nixos/configuration.nix
 
 To give you a headstart, you may use a trimmed-down version
-of [my configuration](https://github.com/vedatechnologiesinc/dotfiles/blob/main/nixos/configuration.nix),
+of [my configuration](https://github.com/vedatechnologiesinc/dotfiles/blob/main/nix/nixos-configuration.nix),
 as follows. Replace the values as it suits you. All available configuration knobs are
 available [here](https://nixos.org/nixos/options.html).
 

@@ -580,7 +580,7 @@ Per Nix-flokoj, ĉio fariĝas pli deklara, pli komprenebla, kaj pli lakona. Mi
 opinias, ke estas facile administri miajn sistemojn per simpla aliro.
 
 Troviĝas ĉiom da dosieroj kiujn mi uzas en ĉi tiu artikolo
-[ĉi tie](https://github.com/vedatechnologiesinc/dotfiles/tree/main/dev).
+[ĉi tie](https://github.com/vedatechnologiesinc/dotfiles/tree/main/nix).
 
 Ĝi povas ŝanĝiĝi en la estonteco, tamen, flokoj nun, estas la plej bona maniero
 por administri pakojn kaj agordojn. Oni provu uzi ĝin!

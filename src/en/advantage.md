@@ -133,7 +133,7 @@ the source; the next key will be the destination.
 | Keypad, <kbd>m</kbd>, Keypad (KP End)  | Right <kbd>Ctrl</kbd>      |
 
 Then, press <kbd>Progrm + F12</kbd> again, to exit remapping mode. The <kbd>KP Return</kbd> key was moved to the left <kbd>Alt</kbd> so that I can easily use it as a Compose (Multi) key in
-X. My [~/.Xmodmap](https://github.com/vedatechnologiesinc/dotfiles/blob/main/xmodmap/advantage.dv.xmap)
+X. My [~/.Xmodmap](https://github.com/vedatechnologiesinc/dotfiles/blob/main/xmodmap/adv.dv.xmap)
 contains the following:
 
 ```

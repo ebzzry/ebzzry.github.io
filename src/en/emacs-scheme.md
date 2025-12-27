@@ -49,7 +49,7 @@ don’t know of any other editor that does it so well.
 <a name="installation">Installation</a>
 ---------------------------------------
 
-With [ELPA](/en/emacs-tips-2/#elpa), installing Geiser is a breeze. Simply execute the following
+With [ELPA](https://www.emacswiki.org/emacs/ELPA), installing Geiser is a breeze. Simply execute the following
 
     M-x package-install RET geiser RET
 

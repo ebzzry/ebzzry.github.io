@@ -585,7 +585,7 @@ Rulu `sp-backward-kill-sexp`. Mi bindis ĝin al <kbd>M-k</kbd>.
 ---------------------------
 
 La jena kodeto resumas la uzatajn klavkombinojn en ĉi tiu artikolo. Mi uzas `bind-keys` por mapi
-miajn klavojn oportune. Mi pridiskutis ĝin en [antaŭa](/eo/emakskonsiletoj-2-a) artikolo.
+miajn klavojn oportune. Mi pridiskutis ĝin en [antaŭa](/eo/emakso-seancoj-kaj-pakoj/) artikolo.
 
 ```lisp
 (defmacro def-pairs (pairs)
