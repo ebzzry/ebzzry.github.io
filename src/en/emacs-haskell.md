@@ -88,7 +88,8 @@ load direnv. Open the file `~/.doom.d/config.el` and put the following:
 ```lisp
 (use-package! direnv
   :config
-  (direnv-mode))
+  (direnv-mode)
+  (setq direnv-always-show-summary nil))
 ```
 
 Then, let’s tell the Haskell mode to use GHCi that comes with Stack. Open the
@@ -123,7 +124,7 @@ You can install direnv by enabling it in your configuration.nix file or install
 it to your local profile. For simplicity, let’s go with the latter:
 
 ```sh
-nix profile install nixpkgs#direnv
+nix profile install nixpkgs#direnv nixpkgs#nix-direnv
 ```
 
 Then, let’s create the top-level configuration file for direnv. Put the
@@ -135,6 +136,8 @@ use_flake() {
   watch_file flake.lock
   eval "$(nix print-dev-env)"
 }
+
+source $HOME/.nix-profile/share/nix-direnv/direnvrc
 ```
 
 <a name="stack">Stack</a>
@@ -275,6 +278,7 @@ mkShell {
 Finally, create `.envrc`:
 
 ```sh
+nix_direnv_manual_reload
 use flake
 if [[ -f .env ]]; then dotenv .env; fi
 ```

@@ -115,9 +115,10 @@ above is equivalent to:
 (λx.x)
 ```
 
-The Greek letter `λ` denotes that the surrounding context is a function—or something that can be
-applied or used. The `λ` symbol is used instead of another symbol because of a typesetting issue
-that is discussed [here](https://goo.gl/vxMkW4). So, don’t fret too much about, just use it.
+The Greek letter `λ` denotes that the surrounding context is a function—or
+something that can be applied or used. The `λ` symbol is used instead of another
+symbol because of a historical typesetting issue. So, don’t fret too much
+about, just use it.
 
 What comes next after the `λ` symbol, before the `.`, is the parameter. Technically, it can be any
 symbol. It simply means the name that can be used when applying that function, to refer to its

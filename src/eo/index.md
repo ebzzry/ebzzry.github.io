@@ -1,6 +1,6 @@
 ---
 title: Rommel Martínez
-description: Retejo pri informadiko, hominklinoj, kaj hazardaĵoj.
+description: Eta retejo pri informadiko, hominklinoj, kaj hazardaĵoj.
 keywords: rommel martinez, rommel martínez, ebzzry, ebzzry.com
 image: https://ebzzry.com/images/site/tim-stief-YFFGkE3y4F8-unsplash-2000x1125.jpg
 ---
@@ -11,7 +11,7 @@ Rommel Martínez
 
 <img src="/images/site/tim-stief-YFFGkE3y4F8-unsplash-2000x1125.jpg" style="" class="banner"/>
 
-<div class="text-right">Retejo pri informadiko, hominklinaĵoj, kaj hazardaĵoj. La enskriboj estas ordigitaj laŭ inverskronologiordo.</div>
+<div class="text-right">Eta retejo pri informadiko, hominklinaĵoj, kaj hazardaĵoj. La enskriboj estas ordigitaj laŭ inverskronologiordo.</div>
 
 - [Emakso: Haskela Programado (2025)](emakso-haskelo)
 - [Eseo: Aktoroj kaj Batalistoj—Teatroj kaj Sangoverŝo (2025)](aktoroj-batalistoj)

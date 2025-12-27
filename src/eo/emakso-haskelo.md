@@ -87,7 +87,8 @@ Tiam, ni devas aldoni subtenon por direnv, por ke malfermu `.hs`-dosierojn anka�
 ```lisp
 (use-package! direnv
   :config
-  (direnv-mode))
+  (direnv-mode)
+  (setq direnv-always-show-summary nil))
 ```
 
 Tiam, ni devas diri al haskelo-reĝimo uzi GHCi kiu venas kun Stack. Malfermu la
@@ -122,7 +123,7 @@ Oni povas instali direnv per aldoni ĝin al configuration.nix aŭ oni povas
 instali ĝin por la loka profilo. Por simpleco, ni faru la posta:
 
 ```sh
-nix profile install nixpkgs#direnv
+nix profile install nixpkgs#direnv nixpkgs#nix-direnv
 ```
 
 Tiam, ni kreu la supran agorddosieron de direnv. Metu la jenan en la agordo
@@ -134,6 +135,8 @@ use_flake() {
   watch_file flake.lock
   eval "$(nix print-dev-env)"
 }
+
+source $HOME/.nix-profile/share/nix-direnv/direnvrc
 ```
 
 
@@ -316,6 +319,7 @@ mkShell {
 Fine, kreu `.envrc`:
 
 ```sh
+nix_direnv_manual_reload
 use flake
 if [[ -f .env ]]; then dotenv .env; fi
 ```

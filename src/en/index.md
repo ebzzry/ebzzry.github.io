@@ -1,6 +1,6 @@
 ---
 title: Rommel Martínez
-description: A journal about computing, human predilections, and random krakaboom.
+description: A microsite about computing, human predilections, and random krakaboom.
 keywords: rommel martinez, rommel martínez, ebzzry, ebzzry.com
 image: https://ebzzry.com/images/site/tim-stief-YFFGkE3y4F8-unsplash-2000x1125.jpg
 ---
@@ -11,7 +11,7 @@ Rommel Martínez
 
 <img src="/images/site/tim-stief-YFFGkE3y4F8-unsplash-2000x1125.jpg" style="" class="banner"/>
 
-<div class="text-right">A journal about computing, human predilections, and random krakaboom. The entries are sorted in reverse chronological order.</div>
+<div class="text-right">A microsite about computing, human predilections, and random krakaboom. The entries are sorted in reverse chronological order.</div>
 
 - [Emacs: Haskell Programming (2025)](emacs-haskell)
 - [Essay: Actors and Warriors—Theatrics and Bloodshed (2025)](actors-warriors)

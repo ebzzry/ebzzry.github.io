@@ -117,9 +117,10 @@ konsekvence. Rondkrampoj povas esti uzataj por forigi plursensecon aplikante fun
 (λx.x)
 ```
 
-La Greka litero `λ` montras, ke la ĉirkaŭa kunteksto estas funkcio—aŭ iu, kiu povas esti
-aplikata. The simbol `λ` estas uzata anstataŭ alia simbolo pro la kompostada atentindaĵo kiu estas
-diskutita [ĉi tie](https://goo.gl/vxMkW4). Do, ne maltrankviliĝu. Oni simple povas uzi ĝin.
+La Greka litero `λ` montras, ke la ĉirkaŭa kunteksto estas funkcio—aŭ iu, kiu
+povas esti aplikata. The simbol `λ` estas uzata anstataŭ alia simbolo pro la
+historia kompostada atentindaĵo. Do, ne maltrankviliĝu. Oni simple povas uzi
+ĝin.
 
 Kio sekvas post la simbolo `λ`, antaŭ la signo `.`, estas la parametro. Teĥnike, ĝi povas esti ia
 simbolo. Tio simple signifas la nomon, kiu povas esti uzita aplikante tiun funkcion, por referenci

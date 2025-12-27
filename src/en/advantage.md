@@ -84,7 +84,7 @@ go. It also makes it easy to enter Emacs’s `overwrite-mode` and to add a new l
 side. The sequence to access it is listed at end of this post.
 
 I bound what used to be the <kbd>Ctrl</kbd> keys to <kbd>KP Home</kbd> and <kbd>KP End</kbd> so that
-in my [.Xmodmap](https://github.com/vedatechnologiesinc/dotfiles/blob/main/xmodmap/advantage.dv.xmap)
+in my [.Xmodmap](https://github.com/vedatechnologiesinc/dotfiles/blob/main/xmodmap/adv.dv.xmap)
 file , I can map it to <kbd>Mode‎ߺ‎switch</kbd>. See the [notes](#notes) below why I added another
 level of indirection.
 

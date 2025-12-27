@@ -1516,7 +1516,7 @@ volas ŝanĝi.
 ### <a name="surmetojtranspasoj">Transpasoj</a>
 
 Ekzemple, se oni volas certigi ke la dokumentaro por
-[Rakido](https://github.com/NixOS/nixpkgs/blob/master/pkgs/development/interpreters/racket/default.nix)
+[Rakido](https://github.com/NixOS/nixpkgs/tree/master/pkgs/by-name/ra/racket/package.nix)
 estos instalitaj, kreu la dosieron `~/.config/nixpkgs/overlays/racket.nix` per la jena enhavo:
 
 ```nix

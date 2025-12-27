@@ -16,6 +16,6 @@ kaj komputademismo. Li estas la ĉefa afergvida oficisto de [VEDA Technologies,
 
 Li loĝas kun sia edzino kaj filo en Filipinoj. Oni povas konekti al li per [GH](https://github.com/ebzzry/), [LI](https://www.linkedin.com/in/ebzzry/), [YT](https://youtube.com/@ebzzry), [X](https://x.com/ebzzry), [FB](https://fb.com/ebzzry), [DA](https://deviantart.com/ebzzry), [RD](https://reddit.com/u/ebzzry), kaj [EM](mailto:ebzzry@icloud.com).
 
-En partoj ke mi diras «Unikso», mi celis Unikson, Linukson, kaj BSD. En partoj ke mi diras «Linux», mi celis GNU/Linukson, plejparte.
+En partoj ke mi diras «Unikso», mi celas je UNIX, Linukson, kaj BSD. En partoj ke mi diras «Linukso», mi celas GNU/Linukson, [plejparte](https://alpinelinux.org/).
 </div>
 

@@ -1528,7 +1528,7 @@ change.
 ### <a name="overlaysoverrides">Overrides</a>
 
 For example, if you want to make sure that the documentation for
-[Racket](https://github.com/NixOS/nixpkgs/blob/master/pkgs/development/interpreters/racket/default.nix)
+[Racket](https://github.com/NixOS/nixpkgs/tree/master/pkgs/by-name/ra/racket/package.nix)
 is installed, create the file `~/.config/nixpkgs/overlays/racket.nix` with the following contents:
 
 ```nix
