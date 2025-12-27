@@ -7,7 +7,7 @@ Milda Enkonduko al la Nix-Familio
 =================================
 
 <div class="center">[English](/en/nix/) ⊻ Esperanto</div>
-<div class="center">2018-09-17 22:50:53 +0800</div>
+<div class="center">2018-08-05 +0800</div>
 
 >Ne maltrankviliĝu pri tio, kion la aliaj faros. La plej bona maniero por antaŭdiri la estontecon estas por eltrovi ĝin.<br>—Alan KAY
 
@@ -62,7 +62,7 @@ Milda Enkonduko al la Nix-Familio
 <a name="enkonduko">Enkonduko</a>
 ---------------------------------
 
-Venas rare ideoj kiuj povas ŝanĝi la metodoj por komputado. Multe da teĥnologio kiujn ni uzas nune
+Venas rare ideoj kiuj povas ŝanĝi la metodojn por komputado. Multe da teĥnologio kiujn ni uzas nune
 estas nur ripetoj de la malnovaj—niveloj sur niveloj de kosmetikoj kiuj ĉirkaŭkovras la malnovajn
 konceptojn. Plenaj produktaj sistemoj baziĝas ĉe ĉi tiu manko de kreemo kaj lerteco. Malnovaj
 problemoj ne solviĝas. Pentrante per novaj kolortonoj, ĉi tiuj tielnomataj elpensemaj solvoj nure

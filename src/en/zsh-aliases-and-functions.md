@@ -7,7 +7,7 @@ Zsh: Aliases and Functions
 ==========================
 
 <div class="center">English ⊻ [Esperanto](/eo/zisxo-alinomoj-kaj-funkcioj/)</div>
-<div class="center">2017-10-18 19:42:48 +0800</div>
+<div class="center">2017-10-18 +0800</div>
 
 >A common man marvels at uncommon things; a wise man marvels at the commonplace.<br>
 >—Confucius

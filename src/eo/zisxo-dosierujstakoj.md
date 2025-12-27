@@ -7,7 +7,7 @@ Ziŝo: Dosierujstakoj
 ====================
 
 <div class="center">[English](/en/zsh-directory-stacks/) ⊻ Esperanto</div>
-<div class="center">2017-10-18 19:42:48 +0800</div>
+<div class="center">2018-09-26 +0800</div>
 
 >Kion ni faras por ni, mortas kun ni. Kion ni faras por ili, porĉiame restas.<br>
 >—Albert PIKE
@@ -27,7 +27,7 @@ Ziŝo: Dosierujstakoj
 <a name="enkonduko">Enkonduko</a>
 ---------------------------------
 
-Lastfoje mi skribis pri alinomoj kaj funkcioj, kial ilin uzi pol la komandlinian sperton
+Lastatempe mi skribis pri alinomoj kaj funkcioj, kial ilin uzi pol la komandlinian sperton
 plibonigi. En ĉi tiu artikolo, mi parolos pri simplaj manieroj kiel dosierujstakojn konservi.
 
 Ĉiufoje la dosierujo ŝanĝiĝas per `cd`, la komandon `pushd` mi uzas por tiun dosierujon konservi sur

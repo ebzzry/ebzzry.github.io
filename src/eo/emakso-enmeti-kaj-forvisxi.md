@@ -7,7 +7,7 @@ Emaks: Enmeti kaj Forviŝi
 =========================
 
 <div class="center">[English](/en/emacs-insert-and-delete/) ⊻ Esperanto</div>
-<div class="center">2019-10-10 07:23:07 +0800</div>
+<div class="center">2018-09-24 +0800</div>
 
 >Ju pli oni ŝvitas en paco, des malpli oni sangas en milito.<br>—Norman SCHWARZKOPF
 

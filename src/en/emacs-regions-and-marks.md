@@ -7,7 +7,7 @@ Emacs: Regions and Marks
 ========================
 
 <div class="center">English ⊻ [Esperanto](/eo/emakso-regionoj-kaj-markoj/)</div>
-<div class="center">2015-08-16 13:29:53 +0800</div>
+<div class="center">2015-08-16 +0800</div>
 
 >Don't raise your voice; improve your argument.<br>
 >—Desmond Tutu

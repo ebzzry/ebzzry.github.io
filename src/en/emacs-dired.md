@@ -7,7 +7,7 @@ Emacs: Working with Directories
 ===============================
 
 <div class="center">English ⊻ [Esperanto](/eo/emakso-dired/)</div>
-<div class="center">2013-08-27 01:34:20 +0800</div>
+<div class="center">2013-08-27 +0800</div>
 
 >Supposing is good, but finding out is better.<br>
 >—Samuel Clemens

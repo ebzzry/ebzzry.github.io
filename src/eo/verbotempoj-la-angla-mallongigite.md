@@ -7,7 +7,7 @@ Verbotempoj en La Angla (Mallongigite)
 ======================================
 
 <div class="center">[English](/en/verb-tenses-condensed/) ⊻ Esperanto</div>
-<div class="center">2018-07-15 22:47:25 +0800</div>
+<div class="center">2018-07-15 +0800</div>
 
 >La kontrasto inter la ordinara kaj la eksterordinara estas tiu eta pliaĵo.<br>
 >—Jimmy JOHNSON

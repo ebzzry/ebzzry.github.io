@@ -7,7 +7,7 @@ Retrospektive
 =============
 
 <div class="center">[English](/en/retrospect/) ⊻ Esperanto</div>
-<div class="center">2018-02-08 16:02:20 +0800</div>
+<div class="center">2018-02-08 +0800</div>
 
 >Malfacileco estas tio, kiu vekas la geniulon.<br>
 >—Nassim Nicholas TALEB

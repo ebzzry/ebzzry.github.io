@@ -7,7 +7,7 @@ Krei Sekurkopiojn per Ugarit
 ============================
 
 <div class="center">[English](/en/ugarit/) ⊻ Esperanto</div>
-<div class="center">2022-02-02 22:22:42 +0800</div>
+<div class="center">2018-02-18 +0800</div>
 
 >Bona juĝo devenas el sperto, kaj sperto devenas el malbona juĝo.<br>
 >—Fred BROOKS

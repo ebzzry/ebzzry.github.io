@@ -7,7 +7,7 @@ Emacs: Sending and Receiving Mail
 =================================
 
 <div class="center">English ⊻ [Esperanto](/eo/emakso-retposxto/)</div>
-<div class="center">2014-02-19 01:54:32 +0800</div>
+<div class="center">2014-02-19 +0800</div>
 
 >Just because it isn’t done doesn’t mean it can’t be done. Just because it can be done doesn’t mean
 >it should be.<br>

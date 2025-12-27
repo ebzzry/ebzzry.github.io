@@ -7,7 +7,7 @@ Setting up GPG and SSH in KDE
 =============================
 
 <div class="center">English ⊻ [Esperanto](/eo/gsk/)</div>
-<div class="center">2014-09-26 21:16:09 +0800</div>
+<div class="center">2014-09-26 +0800</div>
 
 >It’s not at all important to get it right the first time. It’s vitally important to get it right
 >the last time.<br>

@@ -7,7 +7,7 @@ Haskelo: Divido
 ===============
 
 <div class="center">[English](/en/haskell-division/) ⊻ Esperanto</div>
-<div class="center">2018-08-05 12:41:29 +0800</div>
+<div class="center">2018-08-05 +0800</div>
 
 >Tamen ĉiu decido por io estas decido kontraŭ io alia.<br>
 >—H. G. Tannhaus, Dark (2017)

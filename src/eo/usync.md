@@ -7,7 +7,7 @@ Sinkronigi Retnodojn per Usync
 ==============================
 
 <div class="center">[English](/en/usync/) ⊻ Esperanto</div>
-<div class="center">2013-05-21 19:25:16 +0800</div>
+<div class="center">2018-02-07 +0800</div>
 
 >Kion mi ne povas krei, mi ne komprenas.<br>
 >—Richard P. FEYNMAN

@@ -7,7 +7,7 @@ Zsh: Directory Stacks
 ============================
 
 <div class="center">English ⊻ [Esperanto](/eo/zisxo-dosierujstakoj/)</div>
-<div class="center">2017-10-18 19:42:48 +0800</div>
+<div class="center">2017-10-18 +0800</div>
 
 >What we do for ourselves dies with us. What we do for others remains forever.<br>
 >—Albert Pike

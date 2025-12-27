@@ -7,7 +7,7 @@ Esperanto Characters in GNU/Linux
 =================================
 
 <div class="center">English ⊻ [Esperanto](/eo/eo-linukso/)</div>
-<div class="center">2016-04-19 18:22:47 +0800</div>
+<div class="center">2016-04-19 +0800</div>
 
 >If you want something you’ve never had, you must be willing to do something you’ve never
 >done.<br>

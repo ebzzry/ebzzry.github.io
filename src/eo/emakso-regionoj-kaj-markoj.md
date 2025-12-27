@@ -7,7 +7,7 @@ Emakso: Regionoj kaj Markoj
 ===========================
 
 <div class="center">[English](/en/emacs-regions-and-marks/) ⊻ Esperanto</div>
-<div class="center">2015-08-16 13:29:53 +0800</div>
+<div class="center">2018-02-12 +0800</div>
 
 >La voĉon ne pligrandigu; la argumenton plibonigu.<br>
 >—Desmond TUTU

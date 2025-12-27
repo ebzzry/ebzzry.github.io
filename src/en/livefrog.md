@@ -7,7 +7,7 @@ Migrating from LiveJournal to Frog
 ==================================
 
 <div class="center">English ⊻ [Esperanto](/eo/livefrog/)</div>
-<div class="center">2014-03-13 15:10:17 +0800</div>
+<div class="center">2014-03-13 +0800</div>
 
 >I don’t know where I’m going, but I’m on my way.<br>
 >—Carl Sagan

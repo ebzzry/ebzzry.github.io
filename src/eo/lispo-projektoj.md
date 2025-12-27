@@ -7,7 +7,7 @@ Lispo: Kiel Mi Kreas Lispajn Projektojn
 =======================================
 
 <div class="center">[English](/en/lisp-projects/) ⊻ Esperanto</div>
-<div class="center">2025-08-04 19:25:07 +0800</div>
+<div class="center">2025-08-04 +0800</div>
 
 >Oni ne havas ideon kion oni provas atingi ĝis oni jam atingis ĝin.<br>
 >—Gerald Jay SUSSMAN

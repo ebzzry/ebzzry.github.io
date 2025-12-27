@@ -7,7 +7,7 @@ Signoj kaj Interpunkcioj
 ========================
 
 <div class="center">[English](/en/symbols-marks/) ⊻ Esperanto</div>
-<div class="center">2018-07-22 03:16:09 +0800</div>
+<div class="center">2018-07-16 +0800</div>
 
 >Se oni volas atingi grandiozon, ĉesu peti konsentojn.<br>
 >—Eddie COLLA

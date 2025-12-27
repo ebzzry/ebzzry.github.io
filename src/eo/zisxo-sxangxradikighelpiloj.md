@@ -7,7 +7,7 @@ Ziŝo: Ŝanĝradikighelpiloj
 =========================
 
 <div class="center">[English](/en/zsh-chroot-helpers/) ⊻ Esperanto</div>
-<div class="center">2017-10-20 19:15:18 +0800</div>
+<div class="center">2017-10-20 +0800</div>
 
 >Ni ridas pri tio, kion ni ne povas toleri alfronti.<br>
 >—Aristotelo

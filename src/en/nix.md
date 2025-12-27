@@ -7,7 +7,7 @@ A Gentle Introduction to the Nix Family
 =======================================
 
 <div class="center">English ⊻ [Esperanto](/eo/nix/)</div>
-<div class="center">2017-03-27 11:41:51 +0800</div>
+<div class="center">2017-03-27 +0800</div>
 
 >Don’t worry about what anybody else is going to do. The best way to predict the future is to
 >invent it.<br>

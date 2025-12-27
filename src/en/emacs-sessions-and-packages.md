@@ -7,7 +7,7 @@ Emacs: Sessions and Packages
 ============================
 
 <div class="center">English ⊻ [Esperanto](/eo/emakso-seancoj-kaj-pakoj/)</div>
-<div class="center">2015-06-13 07:30:55 +0800</div>
+<div class="center">2015-06-13 +0800</div>
 
 >A bell that doesn’t ring has no purpose.<br>—Keel Lorenz, Neon Genesis Evangelion
 

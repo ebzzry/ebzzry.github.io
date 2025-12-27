@@ -7,7 +7,7 @@ Ziŝo: Alinomoj kaj Funkcioj
 ===========================
 
 <div class="center">[English](/en/zsh-aliases-and-functions/) ⊻ Esperanto</div>
-<div class="center">2018-09-26 15:13:06 +0800</div>
+<div class="center">2018-09-26 +0800</div>
 
 >Malsaĝulo miras pri nekutimaj aferoj. Ŝagulo miras pri la kutimaj aferoj.<br>
 >—Konfuceo

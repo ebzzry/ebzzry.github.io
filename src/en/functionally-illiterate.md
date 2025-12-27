@@ -7,7 +7,7 @@ Functionally Illiterate: How to Be Dumb, Fast
 =============================================
 
 <div class="center">English ⊻ [Esperanto](/eo/funkcie-analfabeta/)</div>
-<div class="center">2025-11-15 18:59:25 +0800</div>
+<div class="center">2025-11-15 +0800</div>
 
 >You don’t solve more with more. You solve it with less.<br>
 >—Caspian Keyes, Pantheon
