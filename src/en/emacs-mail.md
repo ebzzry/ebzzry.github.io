@@ -1,13 +1,13 @@
 ---
-title: Setting up Mail in Emacs
+title: Emacs: Sending and Receiving Mail
 keywords: emacs, email, mail, configuration, setup, settings
 image: https://ebzzry.com/images/site/zak-7wBFsHWQDlk-unsplash-2000x1125.jpg
 ---
-Setting up Mail in Emacs
-========================
+Emacs: Sending and Receiving Mail
+=================================
 
 <div class="center">English ⊻ [Esperanto](/eo/emakso-retposxto/)</div>
-<div class="center">2018-09-27 14:55:32 +0800</div>
+<div class="center">2014-02-19 01:54:32 +0800</div>
 
 >Just because it isn’t done doesn’t mean it can’t be done. Just because it can be done doesn’t mean
 >it should be.<br>

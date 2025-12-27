@@ -1,7 +1,7 @@
 ---
 title: The Y Combinator in Six Steps
 keywords: y, combinator, y combinator, compsci, computer science
-image: https://ebzzry.com/images/site/david-becker-crs2vlkSe98-unsplash-2000x1125.jpg
+image: https://ebzzry.com/images/site/david-becker-crs2vlkSe98-unsplash-1008x250.jpg
 ---
 The Y Combinator in Six Steps
 =============================
@@ -12,7 +12,7 @@ The Y Combinator in Six Steps
 >First, decide. And then do it. It’s the only way to achieve anything.<br>
 >—Lacus Clyne, Gundam SEED Destiny
 
-<img src="/images/site/david-becker-crs2vlkSe98-unsplash-2000x1125.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
+<img src="/images/site/david-becker-crs2vlkSe98-unsplash-1008x250.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
 
 
 Table of contents

@@ -1,10 +1,10 @@
 ---
-title: Haskelprogramado per Emakso 
+title: Emakso: Haskela Programado
 keywords: emakso, haskell, programado, agordo, agordaĵo, agordajxo 
 image: https://ebzzry.com/images/site/kevin-mueller-0gJqD3dtluU-unsplash-2000x1125.jpg
 ---
-Haskelprogramado per Emakso
-===========================
+Emakso: Haskela Programado
+==========================
 
 <div class="center">[English](/en/emacs-haskell/) ⊻ Esperanto</div>
 <div class="center">2025-12-25 23:10:40 +0800</div>

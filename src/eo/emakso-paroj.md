@@ -1,10 +1,10 @@
 ---
-title: Emakso kaj Paroj
+title: Emakso: Paroj kaj Ĉio Inter
 keywords: emakso, paroj, smartparens, paredit, krampoj, rondaj krampoj, rondkramproj, kvadrataj krampoj, kvadratkrampoj, kurbaj krampoj, kurbkrampoj, agordaĵo, agordajxo, agordo 
 image: https://ebzzry.com/images/site/pan-xiaozhen-cZgTq7ki4c-unsplash-2000x1125.jpg
 ---
-Emakso kaj Paroj
-================
+Emakso: Paroj kaj Ĉio Inter
+===========================
 
 <div class="center">[English](/en/emacs-pairs/) ⊻ Esperanto</div>
 <div class="center">2018-07-10 13:25:30 +0800</div>

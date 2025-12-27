@@ -1,10 +1,10 @@
 ---
-title: Divido en Haskelo
+title: Haskelo: Divido
 keywords: haskelo, divido 
 image: https://ebzzry.com/images/site/josh-withers-VyOUw5byHlc-unsplash-2000x1125.jpg
 ---
-Divido en Haskelo
-=================
+Haskelo: Divido
+===============
 
 <div class="center">[English](/en/haskell-division/) ⊻ Esperanto</div>
 <div class="center">2018-08-05 12:41:29 +0800</div>

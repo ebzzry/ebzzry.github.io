@@ -1,13 +1,13 @@
 ---
-title: Emaksaj Konsiletoj 1-a: Regionoj kaj Markoj
+title: Emakso: Regionoj kaj Markoj
 keywords: emakso, konsiletoj, emakskonsiletoj, regionoj, markiloj, bufroj, klavkombinoj, kompilado, skimo, servilo, agordo, agordaĵo, agordajxo 
 image: https://ebzzry.com/images/site/robert-keane-HFcxrs5u4uE-unsplash-2000x1125.jpg
 ---
-Emaksaj Konsiletoj 1-a: Regionoj kaj Markoj
-===========================================
+Emakso: Regionoj kaj Markoj
+===========================
 
-<div class="center">[English](/en/emacs-tips-1/) ⊻ Esperanto</div>
-<div class="center">2018-09-25 10:43:05 +0800</div>
+<div class="center">[English](/en/emacs-regions-and-marks/) ⊻ Esperanto</div>
+<div class="center">2015-08-16 13:29:53 +0800</div>
 
 >La voĉon ne pligrandigu; la argumenton plibonigu.<br>
 >—Desmond TUTU

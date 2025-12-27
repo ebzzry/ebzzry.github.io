@@ -1,10 +1,10 @@
 ---
-title: Manipuli Dosierujojn en Emakso
+title: Emakso: Prilabori Dosierujojn
 keywords: emakso, dired, diredo, dosieruja redaktilo, agordo, agordaĵo, agordajxo, mastrumado 
 image: https://ebzzry.com/images/site/tom-barrett-wqQ4NNG0J28-unsplash-2000x1125.jpg
 ---
-Manipuli Dosierujojn en Emakso
-==============================
+Emakso: Prilabori Dosierujojn
+=============================
 
 <div class="center">[English](/en/emacs-dired/) ⊻ Esperanto</div>
 <div class="center">2022-02-04 13:07:18 +0800</div>

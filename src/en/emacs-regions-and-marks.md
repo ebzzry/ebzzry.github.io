@@ -1,13 +1,13 @@
 ---
-title: Emacs Tips and Tricks 1: Regions and Marks
+title: Emacs: Regions and Marks
 keywords: emacs, tips, regions, marks, buffers, key bindings, compilation, scheme, server, configuration, setup, settings
 image: https://ebzzry.com/images/site/robert-keane-HFcxrs5u4uE-unsplash-2000x1125.jpg
 ---
-Emacs Tips and Tricks 1: Regions and Marks
-==========================================
+Emacs: Regions and Marks
+========================
 
-<div class="center">English ⊻ [Esperanto](/eo/emakskonsiletoj-1-a/)</div>
-<div class="center">2017-10-18 19:55:10 +0800</div>
+<div class="center">English ⊻ [Esperanto](/eo/emakso-regionoj-kaj-markoj/)</div>
+<div class="center">2015-08-16 13:29:53 +0800</div>
 
 >Don't raise your voice; improve your argument.<br>
 >—Desmond Tutu

@@ -1,10 +1,10 @@
 ---
-title: Agordi Retpoŝton per Emakso
+title: Emakso: Sendi kaj Ricevi Retposxton
 keywords: emakso, retpoŝto, retposxto, agordo, agordaĵo, agordajxo 
 image: https://ebzzry.com/images/site/zak-7wBFsHWQDlk-unsplash-2000x1125.jpg
 ---
-Agordi Retpoŝton per Emakso
-===========================
+Emakso: Sendi kaj Ricevi Retposxton
+===================================
 
 <div class="center">[English](/en/emacs-mail/) ⊻ Esperanto</div>
 <div class="center">2022-02-02 22:22:42 +0800</div>

@@ -1,10 +1,10 @@
 ---
-title: Division in Haskell
+title: Haskell: Division
 keywords: haskell, division
 image: https://ebzzry.com/images/site/josh-withers-VyOUw5byHlc-unsplash-2000x1125.jpg
 ---
-Division in Haskell
-===================
+Haskell: Division
+=================
 
 <div class="center">English ⊻ [Esperanto](/eo/haskeldivido/)</div>
 <div class="center">2017-03-08 12:51:14 +0800</div>

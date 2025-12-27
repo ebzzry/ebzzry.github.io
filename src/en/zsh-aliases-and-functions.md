@@ -1,13 +1,13 @@
 ---
-title: Zsh Tips 1: Aliases and Functions
+title: Zsh: Aliases and Functions
 keywords: zsh, tips, advice, shell, linux, configuration, setup, settings
 image: https://ebzzry.com/images/site/omair-parvez-o6ka1Lpk81U-unsplash-2000x1125.jpg
 ---
-Zsh Tips 1: Aliases and Functions
-=================================
+Zsh: Aliases and Functions
+==========================
 
-<div class="center">English ⊻ [Esperanto](/eo/zisxkonsiletoj-1-a/)</div>
-<div class="center">2017-10-19 11:12:42 +0800</div>
+<div class="center">English ⊻ [Esperanto](/eo/zisxo-alinomoj-kaj-funkcioj/)</div>
+<div class="center">2017-10-18 19:42:48 +0800</div>
 
 >A common man marvels at uncommon things; a wise man marvels at the commonplace.<br>
 >—Confucius

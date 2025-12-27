@@ -1,10 +1,10 @@
 ---
-title: Haskell Development with Emacs 
+title: Emacs: Haskell Programming
 keywords: emacs, haskell, programming, configuration, setup, settings
 image: https://ebzzry.com/images/site/kevin-mueller-0gJqD3dtluU-unsplash-2000x1125.jpg
 ---
-Haskell Development with Emacs
-==============================
+Emacs: Haskell Programming
+==========================
 
 <div class="center">English ⊻ [Esperanto](/eo/emakso-haskelo/)</div>
 <div class="center">2025-12-25 23:10:40 +0800</div>

@@ -1,12 +1,12 @@
 ---
-title: Ziŝaj Konsiletoj 4-a: Ĝeneralhelpiloj
+title: Ziŝo: Ĝeneralhelpiloj
 keywords: ziŝo, zisxo, zsh, konsiletoj, ŝelo, sxelo, linukso, agordo, agordaĵo, agordaĵxo, helpiloj 
 image: https://ebzzry.com/images/site/adam-hornyak-Cm187aESg0k-unsplash-2000x1125.jpg
 ---
-Ziŝaj Konsiletoj 4-a: Ĝeneralhelpiloj
-=====================================
+Ziŝo: Ĝeneralhelpiloj
+=====================
 
-<div class="center">[English](/en/zsh-tips-4/) ⊻ Esperanto</div>
+<div class="center">[English](/en/zsh-general-helpers/) ⊻ Esperanto</div>
 <div class="center">2018-09-26 21:19:59 +0800</div>
 
 >Vidpunkto meritas okdek poentojn da inteligentecaj kvocientoj.<br>

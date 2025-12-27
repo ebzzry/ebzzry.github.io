@@ -1,12 +1,12 @@
 ---
-title: Emaksaj Konsiletoj 2-a: Seancoj kaj Pakoj
+title: Emakso: Seancoj kaj Pakoj
 keywords: emakso, konsileto,j, seancoj, pakoj, pakaĵoj, pakajxoj, labortablo, savehist, elpa, melpa, lininumeroj, tempindikoj, klavoj, plenigi, montrilo, git, agordo, agordaĵo, agordajxo 
 image: https://ebzzry.com/images/site/maximalfocus-VT4rx775FT4-unsplash-2000x1125.jpg
 ---
-Emaksaj Konsiletoj 2-a: Seancoj kaj Pakoj
-=========================================
+Emakso: Seancoj kaj Pakoj
+=========================
 
-<div class="center">[English](/en/emacs-tips-2/) ⊻ Esperanto</div>
+<div class="center">[English](/en/emacs-sessions-and-packages/) ⊻ Esperanto</div>
 <div class="center">2019-10-10 07:23:07 +0800</div>
 
 >Sonorilo kiu ne povas sonori ne havas celon.<br>—Keel LORENZ, Neon Genesis Evangelion

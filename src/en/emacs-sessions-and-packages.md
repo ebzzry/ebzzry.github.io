@@ -1,13 +1,13 @@
 ---
-title: Emacs Tips and Tricks 2: Sessions and Packages
+title: Emacs: Sessions and Packages
 keywords: emacs, tips, sessions, packages, desktop, savehist, packages, elpa, melpa, line numbers, time stamps, keys, newline, filling, cursor, git, configuration, setup, settings
 image: https://ebzzry.com/images/site/maximalfocus-VT4rx775FT4-unsplash-2000x1125.jpg
 ---
-Emacs Tips and Tricks 2: Sessions and Packages
-==============================================
+Emacs: Sessions and Packages
+============================
 
-<div class="center">English ⊻ [Esperanto](/eo/emakskonsiletoj-2-a/)</div>
-<div class="center">2017-10-18 19:55:10 +0800</div>
+<div class="center">English ⊻ [Esperanto](/eo/emakso-seancoj-kaj-pakoj/)</div>
+<div class="center">2015-06-13 07:30:55 +0800</div>
 
 >A bell that doesn’t ring has no purpose.<br>—Keel Lorenz, Neon Genesis Evangelion
 

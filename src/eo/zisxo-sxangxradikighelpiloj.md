@@ -1,12 +1,12 @@
 ---
-title: Ziŝaj Konsiletoj 3-a: Ŝanĝradikighelpiloj
+title: Ziŝo: Ŝanĝradikighelpiloj
 keywords: ziŝo, zisxo, zsh, konsiletoj, ŝelo, sxelo, linukso, agordo, agordaĵo, agordaĵxo, chroot 
 image: https://ebzzry.com/images/site/ali-lokhandwala-KUr51Y4dOyo-unsplash-2000x1125.jpg
 ---
-Ziŝaj Konsiletoj 3-a: Ŝanĝradikighelpiloj
-=========================================
+Ziŝo: Ŝanĝradikighelpiloj
+=========================
 
-<div class="center">[English](/en/zsh-tips-3/) ⊻ Esperanto</div>
+<div class="center">[English](/en/zsh-chroot-helpers/) ⊻ Esperanto</div>
 <div class="center">2017-10-20 19:15:18 +0800</div>
 
 >Ni ridas pri tio, kion ni ne povas toleri alfronti.<br>

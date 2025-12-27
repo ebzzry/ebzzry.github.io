@@ -7,7 +7,7 @@ A Gentle Introduction to Fallacies
 ==================================
 
 <div class="center">English ⊻ [Esperanto](/eo/sofismoj/)</div>
-<div class="center">2018-09-17 22:50:53 +0800</div>
+<div class="center">2016-05-07 09:33:08 +0800</div>
 
 >Learning is not compulsory; neither is survival.<br>
 >—W. Edwards Deming

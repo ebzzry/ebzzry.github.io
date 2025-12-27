@@ -1,13 +1,13 @@
 ---
-title: Emacs and Pairs
+title: Emacs: Pairs and Everything in Between
 keywords: emacs, pairs, smartparens, paredit, parentheses, brackets, braces, configuration, setup, settings
 image: https://ebzzry.com/images/site/pan-xiaozhen-cZgTq7ki4c-unsplash-2000x1125.jpg
 ---
-Emacs and Pairs
-===============
+Emacs: Pairs and Everything in Between
+======================================
 
 <div class="center">English ⊻ [Esperanto](/eo/emakso-paroj/)</div>
-<div class="center">2015-08-16 13:29:53 +0800</div>
+<div class="center">2015-08-15 22:21:11 +0800</div>
 
 >The white noise that beats within the white darkness is the rhythm of life; it is that pulse which
 >never truly left the stage.<br>
