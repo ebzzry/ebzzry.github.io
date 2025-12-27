@@ -2,14 +2,14 @@
 title: Rommel Martínez
 description: Retejo pri informadiko, hominklinoj, kaj hazardaĵoj.
 keywords: rommel martinez, rommel martínez, ebzzry, ebzzry.com
-image: https://ebzzry.com/images/site/jarno-colijn-CQGuK_JAuUI-unsplash-2000x1125.jpg
+image: https://ebzzry.com/images/site/tim-stief-YFFGkE3y4F8-unsplash-2000x1125.jpg
 ---
 Rommel Martínez
 ===============
 
 <div class="center">[English](/en/) ⊻ Esperanto</div>
 
-<img src="/images/site/jarno-colijn-CQGuK_JAuUI-unsplash-2000x1125.jpg" style="" class="banner"/>
+<img src="/images/site/tim-stief-YFFGkE3y4F8-unsplash-2000x1125.jpg" style="" class="banner"/>
 
 <div class="text-right">Retejo pri informadiko, hominklinaĵoj, kaj hazardaĵoj. La enskriboj estas ordigitaj laŭ inverskronologiordo.</div>
 
