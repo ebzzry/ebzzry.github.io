@@ -1217,3 +1217,12 @@ tra la jaroj.
 
 
 - La homo kun granda riĉaĵo kiu amasigas kaj uzas sian riĉecon sen estimo al etikaj normoj; kiu profitas kaj bredas putron; kaj rabas kaj fraŭdas la aliajn, estas la plej malbona malamiko de la propreco.<br>—Theodore ROOSEVELT
+
+
+- Riĉeco ne komencas per mono. Ĝi komencas per la pensmaniero.<br>—Doktorino Kaylee WONDER
+
+
+- Oni ne devas kompreni ĉion entute.<br>—Doktorino Kaylee WONDER
+
+
+- Riĉeco ne estas kreita en la bankkonto, unue. Ĝi estas krei per la menso, unue.<br>—Doktorino Kaylee WONDER

@@ -1231,3 +1231,12 @@ the years.
 
 
 - The more mixed up things are the better the solution.<br>—Ms. Valerie Frizzle, The Magic School Bus
+
+
+- Wealth doesn’t start with money. It starts with your mindset.<br>—Dr. Kaylee Wonder
+
+
+- You don’t need to have it all figured out.<br>—Dr. Kaylee Wonder
+
+
+- Wealth isn’t built in your bank account first. It is built in your mind first.<br>—Dr. Kaylee Wonder
