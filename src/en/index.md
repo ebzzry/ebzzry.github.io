@@ -13,6 +13,7 @@ Rommel Martínez
 
 <div class="text-right">A microsite about computing, human predilections, and random krakaboom. The entries are sorted in reverse chronological order.</div>
 
+- [Repost: Architectural Principles for Software Development Teams (2025)](software-teams)
 - [Emacs: Haskell Programming (2025)](emacs-haskell)
 - [Essay: Actors and Warriors—Theatrics and Bloodshed (2025)](actors-warriors)
 - [Essay: Functionally Illiterate—How to Be Dumb, Fast (2025)](functionally-illiterate)

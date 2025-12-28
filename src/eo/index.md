@@ -13,6 +13,7 @@ Rommel Martínez
 
 <div class="text-right">Eta retejo pri informadiko, hominklinaĵoj, kaj hazardaĵoj. La enskriboj estas ordigitaj laŭ inverskronologiordo.</div>
 
+- [Reafiŝo: Arĥitekturaj Principoj por Programadaj Teamoj (2025)](programadaj-teamoj)
 - [Emakso: Haskela Programado (2025)](emakso-haskelo)
 - [Eseo: Aktoroj kaj Batalistoj—Teatroj kaj Sangoverŝo (2025)](aktoroj-batalistoj)
 - [Eseo: Funkcie Analfabeta—Kiel iĝi Stulte, Rapide (2025)](funkcie-analfabeta)
