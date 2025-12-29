@@ -290,17 +290,17 @@ two caps, and be simultaneously manager and technical lead, especially when
 working in small teams, which can actually be a good idea when it's possible;
 then said person can take as technical lead decisions that he shouldn't take as
 manager.  As for information middlemen, they only decrease bandwidth, introduce
-noise and add latency, and therefore should not exist in the organization (don't
-confuse the organization structure with the communication structure).  A manager
-should allocate human and material resources, and make adjustments as new
-information is available; but after subscribing the relevant people to the issue
-on the issue tracking system and making sure that the goal is clear and his
-managees are working towards it, he should otherwise let them sort it out and
-not only get the hell out of their way, but actively remove obstacles from their
-work, including any distraction from customers, himself, other managers,
-internal and external politics, etc.  Any manager who steps out of his role by
-doing any of the above no-no's should be fired for cause; much worse if he
-bullies workers or sets to build an empire.
+noise and add latency, and therefore should not exist in the organization
+[(don't confuse the organization structure with the communication structure)](http://youtu.be/k2h2lvhzMDc?t=10m10s).  A manager should allocate
+human and material resources, and make adjustments as new information is
+available; but after subscribing the relevant people to the issue on the issue
+tracking system and making sure that the goal is clear and his managees are
+working towards it, he should otherwise let them sort it out and not only get
+the hell out of their way, but actively remove obstacles from their work,
+including any distraction from customers, himself, other managers, internal and
+external politics, etc.  Any manager who steps out of his role by doing any of
+the above no-no's should be fired for cause; much worse if he bullies workers or
+sets to build an empire.
 
 
 <a name="plan">Failing to plan is planning to fail</a>

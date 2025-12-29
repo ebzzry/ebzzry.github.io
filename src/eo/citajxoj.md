@@ -964,7 +964,7 @@ tra la jaroj.
 - Vivi ne estas spiri; estas agi.<br>—Jean-Jacques ROUSSEAU
 
 
-- Oni ne povas nomi sin pacema krom se oni estas kapabla por granda perforto. Se oni ne estas kapabla por granda perforto, oni ne estas pacema, oni estas nenoca.<br>—Stef STARKGARYEN
+- Oni ne povas nomi sin pacema krom se oni estas kapabla de granda perforto. Se oni ne estas kapabla por granda perforto, oni ne estas pacema, oni estas nenoca.<br>—Stef STARKGARYEN
 
 
 - Estas pli bone havi pafilon kaj ne bezoni ĝin anstataŭ bezoni pafilon kaj ne havi ĝin.<br>—Clarence WORLEY, True Romance (1993)
