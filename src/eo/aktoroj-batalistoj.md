@@ -18,6 +18,20 @@ style="display: block; width: 100%; margin-left: auto; margin-right: auto;"
 alt="john-hernandez-IL-fBBnF-GU-unsplash-2000x1125.jpg"
 />
 
+<a name="et">Enhavotabelo</a>
+-----------------------------
+
+- [Enhavotabelo](#enhavotabelo)
+- [Fono](#fono)
+- [Nerealeco](#nerealeco)
+- [Neludantoj](#neludantoj)
+- [Organizoj](#organizoj)
+- [Finrimarkoj](#finrimarkoj)
+
+
+<a name="enhavotabelo">Enhavotabelo</a>
+---------------------------------------
+
 Antaŭ ne longe, mi renkontis  artikolon de Stephen CUUNJIENG ĉe Manila Times kun
 la titolo [Where Are Quality Finance and Tech Jobs Going? (Not Here)](https://www.manilatimes.net/2025/12/19/opinion/columns/where-are-quality-finance-and-tech-jobs-going-not-here/2246675)
 (angle). Jen miaj pensoj pri ĝi.
@@ -25,15 +39,19 @@ la titolo [Where Are Quality Finance and Tech Jobs Going? (Not Here)](https://w
 La teĥnologia sektoro estas vasta, kaj mi nur limigas miajn rimarkojn en la
 programada sektoro ĉar mi estas tie en ĝi.
 
+
+<a name="fono">Fono</a>
+-----------------------
+
 Mi jam estas en la programara industrio dum la pasintaj tridek jaroj. Mi
 komencis longe antaŭ ĝi eĉ estas nomita «Teĥnologio». Mi jam rigardis furorojn
 altiĝis kaj malplialtiĝis. Mi jam spektis kiel aferoj evoluis dum la kurso de
 tiuj jaroj. Mi nun ĉefas mian propran ekfirmaon, parte kiel respondo al tio kion
 mi vidas en la lando; parte pro patriismo. Estas tialoj kial la teĥnologiaj
 postenoj ne estas en la Filipinoj. Iuj diras ke ekonomiaj kialoj; iuj diras ke
-sociaj kaŭzoj. Ni povas montri niajn fingrojn al ĉiuj direktoj. Ni povas kulpigi
-la registaron, la lernejojn, kaj privatajn firmaojn. Sed ne gravas tiom multe ni
-faras tion, ĝi ankoraŭ evitas la veran kialon—nia amo por duagradeco.
+sociaj kaŭzoj. Ni povas montri niajn fingrojn al ĉiuj direktoj. Sed ne gravas
+tiom multe ni faras tion, ĝi ankoraŭ evitas la veran kialon—nia amo por
+duagradeco.
 
 Kiam mi provis eniri la okazejon en la mezo de 90-aj jaroj, mi estis nur knabo
 kun pasio. Malfacilis la aliroj al artifikaj maŝinoj. Pli malfalcilis la aliroj
@@ -80,6 +98,10 @@ komputiko per ili. Mi ankaŭ havis la privilegion argumenti kaj disputi kun ili,
 pri bagateloj aferoj kiel mankaj komoj, kaj pri gravaj aferoj, kiel kompreni
 inteligentecon.
 
+
+<a name="nerealeco">Nerealeco</a>
+---------------------------------
+
 Mi kredas, ĝisnune, ke plejparte, universitatoj kaj kolegioj ne havas la
 kapablon instrui studantojn kiel skribi altkvalitajn programarojn. Plejmulte
 da—se ne ĉiom da—instruistoj ne estas ano de la informadika industrio, do tio
@@ -121,6 +143,10 @@ ke vi devas esti intencita asketo por ke vi malatentu ĝin. Kompreni algoritmojn
 kaj datenstrukturojn postulas malsaman tipon de pensado, kiu ne estas trovita
 ie, en aliaj fakoj.
 
+
+<a name="neludantoj">Neludantoj</a>
+-----------------------------------
+
 Dum la pasinta jardeko, estas provado bridi min komenti pri iu
 temo—parolistoj. Dum la pasinta jardeko, mi vidis alfluon de konferencoj,
 seminarioj, kaj simpozioj pri «Teĥnologio», «Modoj», ktp. Tio kio estas plorinda
@@ -150,6 +176,10 @@ valoran spacon dediĉataj al aspirantoj. Ili akaparas diskutojn pri eltrovoj kaj
 novigadoj. Ili aperas en la plimulta medio kun mikrofonoj. Ili lobias ĉe la
 senato. Ili elpumpas pli kaj pli da aero nur por sinprofiti. Ili ne zorgas pri
 la kresko de la ekonomio.
+
+
+<a name="organizoj">Organizoj</a>
+---------------------------------
 
 En recenza afiŝo kiun mi afiŝis rete, mi diris ĉi tion, «Kiam oni asertas, ke
 ili jam estas en la programara industrio dum longa tempo, mia tuja reago estas
@@ -199,14 +229,17 @@ uzantoj, kiuj preferas lerni nur la necesan minimumon. Tio kio estas videbla
 nune estas deprimitaj dungatoj tajpante freneze per iliaj klavaroj, en
 malesperaj klopodoj produkti ion kun valoro.
 
-Mi ĉiam havis la opcion de nur observi aferojn fore kaj zorgi pri miaj propraj
-aferoj. Sed, la vortoj de Taleb semis semojn de ago en mi. Mia firmao kaj mi
-decidis suprenleviĝi al la defio por solvi la problemojn kiujn ni estas kapable
-solvi—la teĥnikajn problemojn. Kaj eĉ en la mezo de la bruo, babilado, kaj
-sensenco, ni strebas kontribui al la bonstato de la socio, eĉ per etaj paŝoj. Ni
-ankaŭ faras niajn plej bonajn kapablojn por kontribui al la komunumo per donaci
-kelkajn kernajn programarajn erojn de ni, senkoste, senpage.  En la sociaj
-partoj de aferoj, ni ankaŭ tre strebas eduki homojn—ambaŭ junaj kaj maljunaj—pri
-la bazoj, nuancojn, teĥnikojn, metodojn, kiujn oni povas uzi travili la rapide
-ŝanĝiĝanta teĥnologia okazejo.
 
+<a name="finrimarkoj">Finrimarkoj</a>
+-------------------------------------
+
+Mi ĉiam havis la opcion de nur observi aferojn fore kaj zorgi pri miaj propraj
+aferoj. Sed, la vortoj de Taleb semis semojn de ago en mi. Nek estas problemo de
+malebleco nek nesufiĉeco. Estas problemo de perspektivo. Havi bonan sintenon al
+konkurso estas la ŝlosilo por malŝlosi ĉi tiujn kvalitojn. Tiel longe kiel homoj
+kredas, ke ili ĉiam devas dependi al brokantaj aĵoj por ke viglu, ili haltiĝos.
+Mia rakonto ne unikas al mi. Estas sennombruloj aliaj kiuj faris samajn aferojn.
+Eduko ne devas esti traktita kiel celo. Ĝi devas esti traktita kiel daŭra
+procedo. Rapida aliro al interro nun estas vaste havebla. Ne plu estas pravigoj.
+
+Ankaŭ legu je [Funkcie Analfabeta: Kiel iĝi Stulte, Rapide](/eo/funkcie-analfabeta).

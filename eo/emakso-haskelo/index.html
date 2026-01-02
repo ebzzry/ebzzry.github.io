@@ -38,7 +38,7 @@ source $HOME/.nix-profile/share/nix-direnv/direnvrc
 ├── stack.yaml
 └── test
     └── Spec.hs
-</code></pre><h2><a name="nix">Nix</a></h2><p>Krei reprodukteblan medion, ni nun plenigos la dosierujon <code>foo</code> per dosieroj kiuj integrigas ĉion kune. Kreu la jenajn dosierojn ene la dosierujo <code>foo/</code> kiu estis tuj kreita:</p><p>Unue estas <code>flake.nix</code>:</p><pre><code class="nix">{
+</code></pre><h2><a name="nix">Nix</a></h2><p>Krei reprodukteblan medion, ni nun plenigos la dosierujon <code>foo</code> per dosieroj kiuj integrigas ĉion kune. Kreu la jenajn dosierojn ene la dosierujo <code>foo/</code> kiu estis tuj kreita. Pli grave, ni uzos nix-flokojn.</p><p>Unue estas <code>flake.nix</code>:</p><pre><code class="nix">{
   inputs = {
     nixpkgs.url = &quot;github:nixos/nixpkgs&quot;;
     flake-utils.url = &quot;github:numtide/flake-utils&quot;;
@@ -155,7 +155,7 @@ mkShell {
 use flake
 if &#91;&#91; -f .env &#93;&#93;; then dotenv .env; fi
 </code></pre><h2><a name="diversajxoj">Diversaĵoj</a></h2><p>Dum oni estas en la <code>foo/</code> dosierujo, oni devas ebligi direnv:</p><pre><code class="sh">direnv allow
-</code></pre><p>kaj oni devas krei la ŝlosilan dosieron por Nix:</p><pre><code class="sh">nix flake update
+</code></pre><p>kaj oni devas krei la ŝlosilan dosieron por Nix:</p><pre><code class="sh">nix-direnv-reload
 </code></pre><p>En <a href='https://veda-tech.com'>VTI</a>, ni ŝatas uzi la implicitajn valorojn de Ormolu de uzi du spacetojn por krommarĝenado. Ni uzas ĉi tiun <code>fourmolu.yaml</code> agordo por niaj bezonoj:</p><pre><code class="yaml">indentation: 2
 column-limit: none
 function-arrows: trailing

@@ -181,7 +181,7 @@ foo
 
 Krei reprodukteblan medion, ni nun plenigos la dosierujon `foo` per dosieroj
 kiuj integrigas ĉion kune. Kreu la jenajn dosierojn ene la dosierujo `foo/` kiu
-estis tuj kreita:
+estis tuj kreita. Pli grave, ni uzos nix-flokojn.
 
 Unue estas `flake.nix`:
 
@@ -337,7 +337,7 @@ direnv allow
 kaj oni devas krei la ŝlosilan dosieron por Nix:
 
 ```sh
-nix flake update
+nix-direnv-reload
 ```
 
 En [VTI](https://veda-tech.com), ni ŝatas uzi la implicitajn valorojn de Ormolu

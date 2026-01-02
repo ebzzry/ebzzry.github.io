@@ -38,7 +38,7 @@ source $HOME/.nix-profile/share/nix-direnv/direnvrc
 ├── stack.yaml
 └── test
     └── Spec.hs
-</code></pre><h2><a name="nix">Nix</a></h2><p>To create a reproducible environment, we’re now going to populate the <code>foo</code> directory with files that will integrate everything together. Create the following files inside the directory <code>foo/</code> that was just created.</p><p>First up is <code>flake.nix</code>:</p><pre><code class="nix">{
+</code></pre><h2><a name="nix">Nix</a></h2><p>To create a reproducible environment, we’re now going to populate the <code>foo</code> directory with files that will integrate everything together. Create the following files inside the directory <code>foo/</code> that was just created. More importantly, we’re going to use Nix flakes.</p><p>First up is <code>flake.nix</code>:</p><pre><code class="nix">{
   inputs = {
     nixpkgs.url = &quot;github:nixos/nixpkgs&quot;;
     flake-utils.url = &quot;github:numtide/flake-utils&quot;;
@@ -120,7 +120,7 @@ mkShell {
 use flake
 if &#91;&#91; -f .env &#93;&#93;; then dotenv .env; fi
 </code></pre><h2><a name="misc">Miscellany</a></h2><p>While inside the <code>foo/</code> directory, you need to enable—or allow— direnv:</p><pre><code class="sh">direnv allow
-</code></pre><p>and you have to create the lock file for Nix:</p><pre><code class="sh">nix flake update
+</code></pre><p>and you have to create the lock file for Nix:</p><pre><code class="sh">nix-direnv-reload
 </code></pre><p>In <a href='https://veda-tech.com'>VTI</a>, we like to use Ormolu's default of using two spaces for indentation. We use this <code>fourmolu.yaml</code> config for our needs:</p><pre><code class="yaml">indentation: 2
 column-limit: none
 function-arrows: trailing

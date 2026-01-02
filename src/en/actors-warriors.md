@@ -16,6 +16,21 @@ Actors and Warriors: Theatrics and Bloodshed
 <img src="/images/site/john-hernandez-IL-fBBnF-GU-unsplash-2000x1125.jpg"
 style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
 
+
+<a name="toc">Table of contents</a>
+-----------------------------------
+
+- [Introduction](#introduction)
+- [Background](#background)
+- [Unreality](#unreality)
+- [Non-players](#non-players)
+- [Organizations](#organizations)
+- [Closing remarks](#closing)
+
+
+<a name="introduction">Introduction</a>
+---------------------------------------
+
 I recently came across an article of Stephen Cuunjieng on Manila Times titled
 [Where Are Quality Finance and Tech Jobs Going? (Not Here)](https://www.manilatimes.net/2025/12/19/opinion/columns/where-are-quality-finance-and-tech-jobs-going-not-here/2246675).
 Here are my thoughts about it.
@@ -23,15 +38,18 @@ Here are my thoughts about it.
 The tech industry is vast, so I’m going to limit my remarks to the software
 industry since that’s where I am in.
 
+
+<a name="background">Background</a>
+-----------------------------------
+
 I have been in the software industry for thirty years already. I started long
 before it was even remotely called «Tech». I have seen fads go up and down. I
 have witnessed how things have evolved through the course of those years. I now
 head my own startup, partly as a response to what I’ve been seeing in the
 country; partly due to patriotism. There are many reasons why the tech jobs are
 not here in the Philippines. Some say economic reasons; some would say social
-reasons. We can point our fingers in all directions. We can keep blaming the
-government, schools, and private companies. But no matter how much we do that,
-it still avoids the true cause—the love for mediocrity.
+reasons. We can point our fingers in all directions. But no matter how much we
+do that, it still avoids the true cause—the love for mediocrity.
 
 When I was trying to break into the scene in the mid 90s, I was just a boy with
 passion. Access to sophisticated machines was difficult. Access to time
@@ -77,6 +95,10 @@ CS with them. I also had the privilege of arguing and debating with them, over
 things as trivial as missing commas, and things as important as understanding
 intelligence.
 
+
+<a name="unreality">Unreality</a>
+---------------------------------
+
 I believe, to this day, that for the most part, universities and colleges are
 not equipped to teach students how to write high quality software. Most, if not
 all, instructors are not part of the software industry so what they’re teaching
@@ -117,6 +139,10 @@ that you have to intentionally be an ascetic in order to ignore it.
 Understanding algorithms and data structures requires a different kind of
 thinking not present in other fields.
 
+
+<a name="non-players">Non-players</a>
+-------------------------------------
+
 For the past decade, I have been trying so hard to restrain myself to comment on
 a subtopic—orators. During the past decade, I have seen an influx of
 conferences, seminars, and symposia about «Technology», «Trends», etc. What’s
@@ -146,6 +172,10 @@ contribute. They eat up the valuable space for aspiring players. They hog
 discussions about inventions and innovations. They appear in mainstream media
 with microphones. They lobby in the senate. They pump more and more air to
 benefit only themselves. They don’t really care about economic growth.
+
+
+<a name="organizations">Organizations</a>
+-----------------------------------------
 
 In a recent post that I made online, I said this, «When somebody claims that
 they’ve been in the software industry for a long time, my immediate instinct is
@@ -196,13 +226,18 @@ only the minimum necessary. What is present nowadays are depressed employees
 typing manically with their keyboards in desperate attempts to produce something
 useful.
 
+
+<a name="closing">Closing remarks</a>
+-------------------------------------
+
 I have always had the option of just observing things from afar and minding my
-own business. However, Taleb’s words sowed seeds of actions in me. My company
-and I decided to rise up to the challenge and solve the problems that we are
-good at solving—the technical ones. And even in the midst of the noise, chatter,
-and nonsense, we strive to contribute to the welfare the society, albeit in baby
-steps. We also do our best to contribute to the community by giving away some of
-our key software components, free, gratis, libre. On the social side of things,
-we also do our best, to educate people—both young and old—about the basics,
-nuances, techniques, and methods that can be used to survive the rapidly
-changing tech scene.
+own business. However, Taleb’s words sowed seeds of actions in me. It’s not a
+problem of inability nor inadequacy. It’s a problem of perpective.  Having a
+healthy attitude towards competition is key to unlocking these qualities. As
+long as people believe that they have to rely on hand-me-downs in order to
+flourish, they’ll be stuck. My story is not unique to me. There are countless
+others who have done the same things. Education should not be be seen as a goal.
+It should be seen a process, a continuing one. High-speed internet access is now
+widely available.  There are no more excuses.
+
+Also, see [Functionally Illiterate: How to Be Dumb, Fast](/en/functionally-illiterate/).

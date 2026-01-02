@@ -1,7 +1,7 @@
 ---
 title: Functionally Illiterate: How to Be Dumb, Fast
 keywords: functionally illiterate, functional illiteracy, generative ai, gen ai, education, edu 
-image: https://ebzzry.com/images/site/colin-watts-8tvSElhPqKE-unsplash-2000x1125.jpg
+image: https://ebzzry.com/images/site/jarno-colijn-CQGuK_JAuUI-unsplash-2000x1125.jpg
 ---
 Functionally Illiterate: How to Be Dumb, Fast
 =============================================
@@ -12,20 +12,100 @@ Functionally Illiterate: How to Be Dumb, Fast
 >You don’t solve more with more. You solve it with less.<br>
 >—Caspian Keyes, Pantheon
 
-<img src="/images/site/colin-watts-8tvSElhPqKE-unsplash-2000x1125.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
+<img src="/images/site/jarno-colijn-CQGuK_JAuUI-unsplash-2000x1125.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
+
+
+<a name="toc">Table of contents</a>
+-----------------------------------
+
+- [Introduction](#introduction)
+- [Plumbers](#plumbers)
+- [Machines](#machines)
+- [Closing remarks](#closing)
+
+
+<a name="introduction">Introduction</a>
+---------------------------------------
 
 I recently came across an
 [interview](https://www.youtube.com/watch?v=4DLtq6XeF94) of Stephen Cuunjieng
 regarding education and economics. Here are my thoughts about it.
 
-Two years ago, I spoke about this topic in AI Asia Expo 2023, in the panel about
-Artificial Intelligence and Education. The key to fixing the system is to invest
-more time and energy into improving the education system. 
 
-In Information Technology (IT), something is so prevalent and I’ve spoken about
-this this topic so many times, and I will say this again: the use of Generative
-AI (Gen AI) for learning is erosion of common sense. The moment an educator uses
-it, they waive critical thinking and resigned to idiocy.
+<a name="plumbers">Plumbers</a>
+-------------------------------
+
+If the plumbing system is not working, do you blame the electricians?
+
+Countless times have I heard that the problem of functional illiteracy is mostly
+prevalent with the public education system. I beg to disagree. Unfortunately, it
+is present in both the public and private sectors. The distribution is slightly
+towards the former, but both share significant parts of the pie.
+
+Why are you all so afraid to point out the real issues here? Why are you all so
+hesitant to accept what’s the real cause of the issue. Why do you like to shift
+blame to other parts of the society just to exonerate the group that is at the
+heart of the issue. Why do you like to avoid the truth. I’ve been vocal about
+this topic for a very long time and by observations have been consistent.
+
+First is the issue about money. People say that it’s the lack of proper budget
+that disables the education systems. However, it has been observed that even if
+you have a great incentives program, even if you increase the salaries, the
+problem is still there. When more learning resources are made available, like
+modern computers and big OLED screens, the problem is still there? How come?
+
+Next are students. It’s often made the case that it’s their fault for not
+learning; that they’re slow and incompetent; that they can’t catch up; and that
+they are not equipped to learn new things. Then why is it the case that you have
+really bright students who are supposed to excel with their favorite subjects,
+still fail in those subjects themselves? These same students make great progress
+outside the classrooms. They even pursue personal projects, at home. How come?
+
+Next is the government. It’s already the classic trope that everyone should
+blame the government when anything fails. The problem is that we all are part of
+the government. We are all responsible for this. Why is it that even with an
+abundance of government projects—funding, classrooms, schools, books—the results
+are still the same? How come?
+
+Because the real issue are the incompetent and unqualified teachers. They are
+the bottlenecks. Was, is, and will always be. So, you build a house that has the
+following: structural system, electrical system, phone system, and the plumbing
+system. When you have a leaking pipe, do you blame the structural system that
+was in charge of setting up the main pillars of the house? Do you blame the
+electrical system, that was in charge of wiring down the house? Do you blame the
+phone system, that was responsible in installing communication lines? Or do you
+blame the plumbing system that was in charge of installing the water pipes?
+
+Yes, some areas can contribute to the cause of the problem. The phone system can
+be blamed because nobody can use the phone when the leak started to appear. The
+electrical system can be blamed because a short-circuit in a room triggered a small
+fire, that triggered the sprinkler. The structural system can be blamed because
+a wall had corrosion issues that led to the corrosion of some water pipes. Even
+with all the areas combined, it will still not contribute to more than 20% of
+the cause of the problem, that there is a faulty pipe system.
+
+The teachers are the ones directly interacting with students to teach them
+things that they do not know, that they should know, and things that they should
+improve on. The teachers are the ones in charge of the lessons plans. They are
+the ones who have first hand knowledge of the topics. It’s not the school
+administration. It’s not the school directors. Those two groups can only do so
+much, because at the end of the day it’s still the technical competence of the
+teachers that will have the most amount of influence to the students.
+
+When you have teachers that do not know anything about the subjects that they
+are teaching, you have a system that is broken from the inside. Before they even
+get their licenses to teach, they were already failing. Long before they leave
+the walls of the universities, they’re already well on their way of not doing
+anything. When you have teachers who don’t have a deep relationship with
+knowledge and teaching, you have a rotten core.
+
+
+<a name="machines">Machines</a>
+-------------------------------
+
+At the risk of sounding repetitive and I will say it again: the use of
+Generative AI (Gen AI) for learning is erosion of common sense. The moment an
+educator uses it, they waive critical thinking and resigned to idiocy.
 
 Here’s how it works: The professor uses Gen AI for his lessons and exams. The
 students use Gen AI to answer the exams. The professor uses Gen AI to check the
@@ -41,13 +121,6 @@ no value as an educator. Why should students still need to pay you, if the
 machines are already giving them what they believe they need? All that you’d be
 doing is being a middleman, which the student can bypass since they can talk
 directly to these systems. 
-
-Interestingly, 99.99% of the people who talk about «Artificial Intelligence»,
-including the ones that I know, don’t even have the slightest idea of what it
-is. I see them talk in conferences, symposiums, and seminars, but they’re all
-pretending to contribute something of value. They’re all just echoing what they
-read or watched, online. They get stumped when I ask them basic questions about
-CS.
 
 The entire field of Information Technology moves at a rapid pace. Your knowledge
 this month, may become obsolete next month. That is the reason why educators are
@@ -80,6 +153,10 @@ the supermarket. Of course, the truth is that they lobby policies so that they
 secure seats of power to control the industry, more than the facade of seminars
 and conventions.
 
+
+<a name="closing">Closing remarks</a>
+-------------------------------------
+
 There are no shortcuts to learning. You still have to pour in the hundreds, if
 not thousands of hours, in order to get better. If you want to be able to lift
 that heavy barbell, you have to train to lift it. You have take a special
@@ -87,3 +164,14 @@ program that will allow you to progressively lift weights, until you reach your
 goal. Having somebody lift the weights for you will never make you stronger. No
 amount of training by others, for you, will increase your muscular strength.
 
+When you have a culture that embraces beauty pageants; noontime shows; singing
+and dancing competitions; more than science, mathematics, language, and
+philosophy; you have a system that is bound to fail. When you have a culture
+that worships
+[anti-intellectualism](https://maniladialecticsociety.substack.com/p/filipino-anti-intellectualism-a-symptom)
+instead of supporting those who promote genuine learning, you have a system that
+is weak. When you have a culture that is so eager to see the next barangay
+basketball tournament instead of organizing donation drives for books and
+learning resources, you have a system that is illiterate.
+
+Also, see [Actors and Warriors: Theatrics and Bloodshed](/en/actors-warriors/).

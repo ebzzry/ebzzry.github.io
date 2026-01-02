@@ -180,7 +180,8 @@ foo
 
 To create a reproducible environment, we’re now going to populate the `foo`
 directory with files that will integrate everything together. Create the
-following files inside the directory `foo/` that was just created.
+following files inside the directory `foo/` that was just created. More
+importantly, we’re going to use Nix flakes.
 
 First up is `flake.nix`:
 
@@ -296,7 +297,7 @@ direnv allow
 and you have to create the lock file for Nix:
 
 ```sh
-nix flake update
+nix-direnv-reload
 ```
 
 In [VTI](https://veda-tech.com), we like to use Ormolu's default of using two
