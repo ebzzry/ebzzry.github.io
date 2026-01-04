@@ -48,33 +48,45 @@ blame to other parts of the society just to exonerate the group that is at the
 heart of the issue. Why do you like to avoid the truth. I’ve been vocal about
 this topic for a very long time and by observations have been consistent.
 
-First is the issue about money. People say that it’s the lack of proper budget
+First is the (absence of) money. People say that it’s the lack of proper budget
 that disables the education systems. However, it has been observed that even if
 you have a great incentives program, even if you increase the salaries, the
 problem is still there. When more learning resources are made available, like
-modern computers and big OLED screens, the problem is still there? How come?
+modern computers and big OLED screens, the problem is still there? At worst are
+low-income places with high educational statistics? So, how come?
 
-Next are students. It’s often made the case that it’s their fault for not
-learning; that they’re slow and incompetent; that they can’t catch up; and that
-they are not equipped to learn new things. Then why is it the case that you have
-really bright students who are supposed to excel with their favorite subjects,
-still fail in those subjects themselves? These same students make great progress
-outside the classrooms. They even pursue personal projects, at home. How come?
+Next is (incompetent) students. It’s often made the case that it’s their fault
+for not learning; that they’re slow and incompetent; that they can’t catch up;
+and that they are not equipped to learn new things. Then why is it the case that
+you have really bright students who are supposed to excel with their favorite
+subjects, still fail in those subjects themselves? These same students make
+great progress outside the classrooms. They even pursue personal projects, at
+home. At worst, are students that have learning disabilities but still excel
+later in life? So, how come?
 
-Next is the government. It’s already the classic trope that everyone should
-blame the government when anything fails. The problem is that we all are part of
-the government. We are all responsible for this. Why is it that even with an
-abundance of government projects—funding, classrooms, schools, books—the results
-are still the same? How come?
+Next is the (incompetent) government. It’s already the classic trope that
+everyone should blame the government when anything fails. The problem is that we
+all are part of the government. We are all responsible for this. Why is it that
+even with an abundance of government projects—funding, classrooms, schools,
+books—the results are still the same? At worst, they don’t give any support to
+the schools? How come?
 
-Because the real issue are the incompetent and unqualified teachers. They are
-the bottlenecks. Was, is, and will always be. So, you build a house that has the
-following: structural system, electrical system, phone system, and the plumbing
-system. When you have a leaking pipe, do you blame the structural system that
-was in charge of setting up the main pillars of the house? Do you blame the
-electrical system, that was in charge of wiring down the house? Do you blame the
-phone system, that was responsible in installing communication lines? Or do you
-blame the plumbing system that was in charge of installing the water pipes?
+Next is (incompetent) school adminstrators and directors. They’re often blamed
+for not creating the right school programs that would promote higher levels of
+educational and teaching competence. They would always cater to the demands and
+needs of their subordinates. They would send their staff to attend seminars and
+lectures to learn things that would elevate their profession. At worst, are
+school administrator would would just sit in their offices doing practically
+nothing. So, how come?
+
+The real issue is (incompetent) teachers. They are the bottlenecks.
+Was, is, and will always be. So, you build a house that has the following:
+structural system, electrical system, phone system, and the plumbing system.
+When you have a leaking pipe, do you blame the structural system that was in
+charge of setting up the main pillars of the house? Do you blame the electrical
+system, that was in charge of wiring down the house? Do you blame the phone
+system, that was responsible in installing communication lines? Or do you blame
+the plumbing system that was in charge of installing the water pipes?
 
 Yes, some areas can contribute to the cause of the problem. The phone system can
 be blamed because nobody can use the phone when the leak started to appear. The
@@ -92,12 +104,24 @@ administration. It’s not the school directors. Those two groups can only do so
 much, because at the end of the day it’s still the technical competence of the
 teachers that will have the most amount of influence to the students.
 
+The problem is seeing teaching only as a profession. It is not seen as an end it
+itself. It is seen just as a means to an end. It just regarded by most as just a
+way to make to ends meet; to pay the bills. Ironically, the teaching that most
+teachers do, does not happen outside classrooms.
+
 When you have teachers that do not know anything about the subjects that they
 are teaching, you have a system that is broken from the inside. Before they even
 get their licenses to teach, they were already failing. Long before they leave
 the walls of the universities, they’re already well on their way of not doing
 anything. When you have teachers who don’t have a deep relationship with
 knowledge and teaching, you have a rotten core.
+
+If you’ll always have to wait for the government to do something, then you miss
+the point. If you’ll always play the blame game, and point your fingers at the
+public officials and wait for their support, then by effect, you’ve disabled the
+generations that you could have supported and uplifted. The best works in
+science, engineering, literature, and artwork didn’t wait for the government to
+do something, first.
 
 
 <a name="machines">Machines</a>

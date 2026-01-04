@@ -47,32 +47,42 @@ partoj de la socio por senŝarĝigi la grupon kiu estas en la kerno de la afero.
 Kial vi evitas la veron? Mi estis ĉiam voĉa pri ĉi tiu afero dum longa tempo kaj
 miaj observoj estas kohera.
 
-Unue estas la problemo de mono. Homoj diras, ke la manko de ĝusta buĝeto kiu
+Unue estas la (manko de) mono. Homoj diras, ke la manko de ĝusta buĝeto kiu
 malebligas la edukan sistemon. Tamen, estas observite ke eĉ oni havas motivajn
 programoj, eĉ oni plialtigas la salajrojn, la problemo estas ankoraŭ tie. Kiam
 pli da lernadaj risurcoj estas haveblaj, kiel modernaj komputiloj kaj grandaj
 OLED-ekranoj, la problemo estas ankoraŭ tie? Do kial?
 
-Sekve estas la studentoj. Estas ĉiam enkadrigite, ke estas la kulpo de studentoj
-kial ili ne lernas; ke ili estas mallertaj kaj malkompetentaj; ke ili ne povas
-sekvi; kaj ili ne havas la kapablon por lerni novajn aferojn. Do, kial ekzistas
-studentoj kiuj devas superi per iliaj plej ŝatataj subjektoj, sed ankoraŭ
-fiaskas en tiuj subjektoj mem. Ĉi tiuj studentoj havas bonegajn progresojn ekster
-la klasĉambroj. Ili eĉ havas personajn projektojn hejme. Do, kial?
+Sekve estas la (malkompetentaj) studentoj. Estas ĉiam enkadrigite, ke estas la
+kulpo de studentoj kial ili ne lernas; ke ili estas mallertaj kaj
+malkompetentaj; ke ili ne povas sekvi; kaj ili ne havas la kapablon por lerni
+novajn aferojn. Do, kial ekzistas studentoj kiuj devas superi per iliaj plej
+ŝatataj subjektoj, sed ankoraŭ fiaskas en tiuj subjektoj mem. Ĉi tiuj studentoj
+havas bonegajn progresojn ekster la klasĉambroj. Ili eĉ havas personajn
+projektojn hejme. Plej malbone, estas studentoj kiuj havas malfacilecojn por
+lerni sed ankoraŭ fariĝos sukcesaj. Do, kial?
 
-Sekve estas la registaro. Estas jam la klasika tropo, ke ĉiuj devas kulpigi la
-registaron kiam io ajn abortas. La problemo estas ke ni ĉiuj estas parto de la
-registaro. Ni ĉiuj estas priresponda al ĉi tio. Kial eĉ la abundo de
-projektoj—financado, klasĉambroj, libroj—la rezulto estas ĉiam same? Do, kial?
+Sekve estas la (malkompetenta) registaro. Estas jam la klasika tropo, ke ĉiuj
+devas kulpigi la registaron kiam io ajn abortas. La problemo estas ke ni ĉiuj
+estas parto de la registaro. Ni ĉiuj estas priresponda al ĉi tio. Kial eĉ la
+abundo de projektoj—financado, klasĉambroj, libroj—la rezulto estas ĉiam same?
+Plej malbone, ĝi ne donas iajn ajn subtenojn por la lernejoj. Do, kial?
 
-Ĉar la vera problemo estas la malkompetentaj kaj malletraj instruistoj. Ili
-estas la botelkoloj.  Estis, estas, kaj estos ĉiam. Do, oni konstruu domon kun
-la jenaj: struktura sistemo, elektra sistemo, telefona sistemo, kaj akvodukta
-sistemo. Kiam oni havas likantaj akvoduktoj, ĉu oni kulpigos la strukturan
-sistemon kiu havis la respondecon por meti la ĉefajn kolojn de la domo? Ĉu oni
-kulpigas la elektran sistemon kiu havis la respondecon por meti la dratojn de la
-domo? Ĉu oni kulpigas la telefonan sistemon kiu havis la respondecon por instali
-la komunikilajn dratojn? Aŭ ĉu oni kulpigas la akvoduktan sistemon kiu havis la
+Sekve estas la (malkompetentaj) lernejaj administrantoj kaj direktoroj. Ili ofte
+estas kulpigitaj por ne krei la ĝustajn lernejajn programojn kiuj plialtigus la
+nivelojn de eduko kaj kompetecon por instruado. Ili ĉiam provizus al la postuloj
+kaj bezonoj de siaj subuloj. Ili sendus iliajn dungitarojn por ĉeesti en
+seminarioj kaj prelegojn por plilevigi iliajn profesiojn. Plej malbone, lernejaj
+administrantoj sidiĝus en siaj oficejoj praktike fari nenion. Do, kial?
+
+Ĉar la vera problemo estas (malkompetentaj) instruistoj. Ili estas la
+botelkoloj.  Estis, estas, kaj estos ĉiam. Do, oni konstruu domon kun la jenaj:
+struktura sistemo, elektra sistemo, telefona sistemo, kaj akvodukta sistemo.
+Kiam oni havas likantaj akvoduktoj, ĉu oni kulpigos la strukturan sistemon kiu
+havis la respondecon por meti la ĉefajn kolojn de la domo? Ĉu oni kulpigas la
+elektran sistemon kiu havis la respondecon por meti la dratojn de la domo? Ĉu
+oni kulpigas la telefonan sistemon kiu havis la respondecon por instali la
+komunikilajn dratojn? Aŭ ĉu oni kulpigas la akvoduktan sistemon kiu havis la
 respondecon por instali la akvoduktojn?
 
 Jes, estas kelkaj areoj en kiuj kontribuas al la kaŭzo de la problemo. La
@@ -91,12 +101,25 @@ lernejo nek la direktoroj de la lernejo. Tiuj du grupoj nur povas fari tiom ĉar
 en la fino de la tago, estas ankoraŭ la teĥnika kapablo de la instruistoj kiuj
 havas la plej grandajn influojn al la studentoj.
 
+La problemo estas trakti instruadon nur kiel profesion. Ĝi ne estas traktita
+kiel fino mem. Ĝi estas traktita nur kiel maniero por celo. Ĝi estas traktita de
+la plejmulto kiel maniero por travivi; por pagi la fakturojn. Estas ironie, ke
+la instruado kiun la plejmulto de instruistoj faras estas nur limigita en la
+klasĉambroj.
+
 Kiam oni havas instruistinoj kiu ne scias ion ajn pri la subjektoj kiujn ili
 pritraktas, oni havas havas sistemon kiu estas difekta ene. Antaŭ ol ili ricevas
 siajn permesilojn por instrui, ili jam malsukcesas. Longatempe antaŭ ol foriras
 de la muroj de la universitatoj, ili jam estas survoje por ne fari ion ajn. Kiam
 oni havas instruistojn kiu ne havas profundan rilaton al eduko kaj instruado,
 oni havas putran kernon.
+
+Se oni ĉiam devas atendi la registaron por fari ion ajn, do oni jam maltrafis la
+punkton. Se oni ĉiam devas ludi la kulpigadan ludon, kaj montri oniajn fingrojn
+al la publikaj oficistoj, kaj atendi por la subteno, do kiel efiko, oni jam
+malebligis generaciojn kiujn vi jam devis anstataŭe subtenis kaj plilevigis. La
+plej bonaj verkoj en la socio, la inĝenierado, la literaturo, kaj la arto ne
+atendis la registaron por fari ion, unue.
 
 
 <a name="masxinoj">Maŝinoj</a>
