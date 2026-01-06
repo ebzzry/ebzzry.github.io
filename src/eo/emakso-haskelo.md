@@ -175,6 +175,12 @@ foo
     └── Spec.hs
 ```
 
+Nun estas bona tempo por aldoni la jenan kodon al la Stack-agorddosiero, `~/.stack/config.yaml`:
+
+```
+notify-if-nix-on-path: false
+```
+
 
 <a name="nix">Nix</a>
 ---------------------
@@ -297,7 +303,7 @@ let
     postBuild = ''
       wrapProgram $out/bin/stack \
         --add-flags "\
-          --nix \
+          --no-nix \
           --system-ghc \
           --no-install-ghc \
         "

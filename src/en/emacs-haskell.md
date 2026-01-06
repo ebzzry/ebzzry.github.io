@@ -174,6 +174,13 @@ foo
     └── Spec.hs
 ```
 
+This is also a good time to add the following to the Stack user config file,
+`~/.stack/config.yaml`:
+
+```
+notify-if-nix-on-path: false
+```
+
 
 <a name="nix">Nix</a>
 ---------------------
@@ -257,7 +264,7 @@ let
     postBuild = ''
       wrapProgram $out/bin/stack \
         --add-flags "\
-          --nix \
+          --no-nix \
           --system-ghc \
           --no-install-ghc \
         "

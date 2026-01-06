@@ -19,6 +19,7 @@ Funkcie Analfabeta: Kiel iĝi Stulte, Rapide
 
 - [Enkonduko](#enkonduko)
 - [Plumbistoj](#plumbistoj)
+- [Institucioj](#institucioj)
 - [Maŝinoj](#masxinoj)
 - [Finrimarkoj](#finrimarkoj)
 
@@ -36,10 +37,10 @@ pri eduko kaj ekonomio. Jen mia pensoj pri ĝi.
 
 Se la akvodukta sistemo ne funkcias, ĉu vi kulpigas la plumbiston?
 
-Mi jam aŭdis sennombre, ke la problemo de funkcia analfabeteco estas plejparte
-dominanta en la publika eduka sistemo. Mi ege malkonsentas. Bedaŭrinde, ĝi estas
-en ambaŭ la publika kaj privataj sektoroj. La distribuo estas eta al la antaŭa,
-sed ambaŭ havigi gravajn partojn de la torto.
+Ni komencu kun tropo kiun mi aŭdis sennombrfoje: funkcia analfabeteco estas
+plejparte dominanta en la publika eduka sistemo. Mi ege malkonsentas.
+Bedaŭrinde, ĝi estas en ambaŭ la publika kaj privataj sektoroj. La distribuo
+estas eta al la antaŭa, sed ambaŭ havigi gravajn partojn de la torto.
 
 Kial vi ĉiuj timas montri la veran fonton de la problemo ĉi tie? Kial vi ĉiuj
 balbutas akcepti ke veran kaŭzon? Kial vi ŝatas forŝovi la kulpon al aliaj
@@ -122,6 +123,42 @@ plej bonaj verkoj en la socio, la inĝenierado, la literaturo, kaj la arto ne
 atendis la registaron por fari ion, unue.
 
 
+<a name="institucioj">Institucioj</a>
+-------------------------------------
+
+Universitatoj (kaj kolegioj) prosperis dum longa tempo pro du kernaj risurcoj:
+instruistoj kaj bibliotekoj. Ili estis ekskluzive la fontoj de scio. Tamen, tio
+ne plu estas la kazo nun kun altrapida interreta aliro. La linio de alirebleco
+estas kondenskovriganta dum ĉiu pasanta tago. Ankoraŭ estas plene da fakoj en
+kiu studi en universitato kaj labori kun la kulturo estas superrega al via
+sukceso kiel profesiulo. Por multe da fako, la universitato estas nur la loko
+ke vi renkontas samideanojn kiuj helpas vin vigli. Kelke da tiuj fakoj estas
+Medicino, Leĝo, kaj Inĝenierado.
+
+La rakonto, bedaŭrinde, estas ne sama en Programarinĝenierado. Sed, tenu en la
+kalkulo, ke la fako estas malsama al Komputiko, eĉ la antaŭa ŝuldas la posta.
+Multe da gravaj avancego en la fako de programarinĝenierado venis el la fruaj
+laboratorioj de Informadiko. Sed aferoj estas malsama nun ĉar la homoj kiuj
+realigas la programarojn estas la samaj homoj kiuj ankaŭ faras la akademiajn
+esploradojn. Se oni deziras havi postenon en programarinĝenierado, anticipu ke
+oni devas lerni multe da aferoj kiujn oni de lernis en la universitato.
+
+La tuta kampo de informadiko movas rapide. La scio de oni ĉi-monato, povas
+fariĝi malmoderna en sekvan monaton. Tio estas la tialo kial edukistoj estas la
+botelkoloj. Profesoroj estos ĉiam malakceliĝos malantaŭ industriaj normoj se ili
+ne estas parto de la industrio, kaj tio estas ĉiam la okazo. Ili ne aktive
+partoprenas en projektoj, kontribuante al la disvolvo de malfermitaj kodoj kaj
+programaroj, kaj partopreni en inventado kaj malkovrado. Tio kion ili instruas
+ene la lernejoj ne estas vivipovaj ekster la institucio.
+
+Se la deziro estas fariĝi profesia butona premanto iutage, do, per ĉiumaniero
+registriĝi en universitata programo kiu havas la jenajn nomoj: «Komputiko»,
+«Informadiko», «Programarinĝenierado», aŭ «Kibernetika Sekureco». Sed se oni
+deziras ruli sian propran firmaon, aŭ iĝi altranga regantaro, iutage, lernu per
+oni mem, sininstruu, kaj estu aŭtodidakto. La antaŭa vojo estas por vi se vi
+estas malsaĝulo.
+
+
 <a name="masxinoj">Maŝinoj</a>
 ------------------------------
 
@@ -143,14 +180,6 @@ iteracio, do vi nun ne havas valoron kiel instruisto. Kial devus studantoj devas
 pagi vin, se la maŝinoj jam donas al ili tion kion ili kredas bezoni. Tio kion
 vi nur faras estas iĝi makleranto, kiun la studanto jam povas preterpasi ĉar ili
 jam povas paroli rekte al tiuj sistemoj.
-
-La tuta kampo de informadiko movas rapide. La scio de oni ĉi-monato, povas
-fariĝi malmoderna en sekvan monaton. Tio estas la tialo kial edukistoj estas la
-botelkoloj. Profesoroj estos ĉiam malakceliĝos malantaŭ industriaj normoj se ili
-ne estas parto de la industrio, kaj tio estas ĉiam la okazo. Ili ne aktive
-partoprenas en projektoj, kontribuante al la disvolvo de malfermitaj kodoj kaj
-programaroj, kaj partopreni en inventado kaj malkovrado. Tio kion ili instruas
-ene la lernejoj ne estas vivipovaj ekster la institucio.
 
 Plej multe da kandidatiĝoj kiujn mi intervjuas al teĥnikaj pozicioj malsukcesas.
 Ene la unuaj kvin minutoj de la intervjuo, ili jam montris tutan mankon de scio

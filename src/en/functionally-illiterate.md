@@ -20,6 +20,7 @@ Functionally Illiterate: How to Be Dumb, Fast
 
 - [Introduction](#introduction)
 - [Plumbers](#plumbers)
+- [Institutions](#institutions)
 - [Machines](#machines)
 - [Closing remarks](#closing)
 
@@ -37,16 +38,17 @@ regarding education and economics. Here are my thoughts about it.
 
 If the plumbing system is not working, do you blame the electricians?
 
-Countless times have I heard that the problem of functional illiteracy is mostly
-prevalent with the public education system. I beg to disagree. Unfortunately, it
-is present in both the public and private sectors. The distribution is slightly
-towards the former, but both share significant parts of the pie.
+Let’s start with a trope that I have heard countless times: functional
+illiteracy is mostly a problem with the public education system. I beg to
+disagree. Unfortunately, it is present in both the public and private sectors.
+The distribution is slightly towards the former, but both share significant
+parts of the pie.
 
 Why are you all so afraid to point out the real issues here? Why are you all so
-hesitant to accept what’s the real cause of the issue. Why do you like to shift
+hesitant to accept what’s the real cause of the issue? Why do you like to shift
 blame to other parts of the society just to exonerate the group that is at the
-heart of the issue. Why do you like to avoid the truth. I’ve been vocal about
-this topic for a very long time and by observations have been consistent.
+heart of the issue? Why do you like to avoid the truth. I’ve been vocal about
+this topic for a very long time and by observations have been consistent?
 
 First is the (absence of) money. People say that it’s the lack of proper budget
 that disables the education systems. However, it has been observed that even if
@@ -71,7 +73,7 @@ even with an abundance of government projects—funding, classrooms, schools,
 books—the results are still the same? At worst, they don’t give any support to
 the schools? How come?
 
-Next is (incompetent) school adminstrators and directors. They’re often blamed
+Next is (incompetent) school administrators and directors. They’re often blamed
 for not creating the right school programs that would promote higher levels of
 educational and teaching competence. They would always cater to the demands and
 needs of their subordinates. They would send their staff to attend seminars and
@@ -124,6 +126,42 @@ science, engineering, literature, and artwork didn’t wait for the government t
 do something, first.
 
 
+<a name="institutions">Institutions</a>
+---------------------------------------
+
+Universities (and colleges) have thrived for a long time because of two key
+resources: teachers and libraries. They were exclusively the sources where
+knowledge. However, that’s not the case now with high-speed internet access. The
+line of accessibility is being blurred for each day that passes. However, there
+are plenty of fields wherein studying in a university and being exposed to the
+culture is paramount to your success as a professional. For many fields, the
+university is the only place where you can meet like-minded individuals that
+will help you flourish. Some of these fields are Medicine, Law, and Engineering.
+
+The story, however, is different with Software Engineering (SWE). Take note,
+however, that the field is different with Computer Science, although the former
+owes its existence to the latter. A lot of the key breakthoughs in the field of
+SWE came from the early laboratories of Computer Science. But things are
+different now because the ones who are implementing the software are also the
+same kinds of people who are doing the academic research. If you want to get a
+job in SWE, expect to learn more things than you have learned in school.
+
+The entire field of SWE moves at a rapid pace. Your knowledge this month, may
+become obsolete next month. That is the reason why educators are the
+bottlenecks. Professors will always be lagging behind industry standards if
+they’re not part of the industry, which is usually the case. They’re not
+actively engaged in projects, contributing to (open source) software
+development, and participating in invention and discovery. What they’re teaching
+in schools have no viability outside the institution.
+
+If your goal is to become a professional button pusher someday, then, by all
+means enroll in a university program where it has any of the following labels:
+«Computer Science», «Information Technology», «Software Engineering», or
+«Cyber Security».  But if you want to run your own software company, or be a
+high-ranking executive, someday, learn on your own, teach yourself, be an
+autodidact. The former path is for you if you are a nincompoop.
+
+
 <a name="machines">Machines</a>
 -------------------------------
 
@@ -145,14 +183,6 @@ no value as an educator. Why should students still need to pay you, if the
 machines are already giving them what they believe they need? All that you’d be
 doing is being a middleman, which the student can bypass since they can talk
 directly to these systems. 
-
-The entire field of Information Technology moves at a rapid pace. Your knowledge
-this month, may become obsolete next month. That is the reason why educators are
-the bottlenecks. Professors will always be lagging behind industry standards if
-they’re not part of the industry, which is usually the case. They’re not
-actively engaged in projects, contributing to (open source) software
-development, and participating in invention and discovery. What they’re teaching
-in schools have no viability outside the institution.
 
 Most of the applicants that I interview for technical positions fail. Within the
 first five minutes of the interview, they’ve already demonstrated complete lack

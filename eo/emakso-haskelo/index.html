@@ -38,6 +38,7 @@ source $HOME/.nix-profile/share/nix-direnv/direnvrc
 ├── stack.yaml
 └── test
     └── Spec.hs
+</code></pre><p>Nun estas bona tempo por aldoni la jenan kodon al la Stack-agorddosiero, <code>&#126;/.stack/config.yaml</code>:</p><pre><code>notify-if-nix-on-path: false
 </code></pre><h2><a name="nix">Nix</a></h2><p>Krei reprodukteblan medion, ni nun plenigos la dosierujon <code>foo</code> per dosieroj kiuj integrigas ĉion kune. Kreu la jenajn dosierojn ene la dosierujo <code>foo/</code> kiu estis tuj kreita. Pli grave, ni uzos nix-flokojn.</p><p>Unue estas <code>flake.nix</code>:</p><pre><code class="nix">{
   inputs = {
     nixpkgs.url = &quot;github:nixos/nixpkgs&quot;;
@@ -134,7 +135,7 @@ let
     postBuild = ''
       wrapProgram $out/bin/stack \
         --add-flags &quot;\
-          --nix \
+          --no-nix \
           --system-ghc \
           --no-install-ghc \
         &quot;

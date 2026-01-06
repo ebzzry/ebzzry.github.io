@@ -38,6 +38,7 @@ source $HOME/.nix-profile/share/nix-direnv/direnvrc
 ├── stack.yaml
 └── test
     └── Spec.hs
+</code></pre><p>This is also a good time to add the following to the Stack user config file, <code>&#126;/.stack/config.yaml</code>:</p><pre><code>notify-if-nix-on-path: false
 </code></pre><h2><a name="nix">Nix</a></h2><p>To create a reproducible environment, we’re now going to populate the <code>foo</code> directory with files that will integrate everything together. Create the following files inside the directory <code>foo/</code> that was just created. More importantly, we’re going to use Nix flakes.</p><p>First up is <code>flake.nix</code>:</p><pre><code class="nix">{
   inputs = {
     nixpkgs.url = &quot;github:nixos/nixpkgs&quot;;
@@ -99,7 +100,7 @@ let
     postBuild = ''
       wrapProgram $out/bin/stack \
         --add-flags &quot;\
-          --nix \
+          --no-nix \
           --system-ghc \
           --no-install-ghc \
         &quot;
