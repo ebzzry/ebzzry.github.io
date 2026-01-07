@@ -37,7 +37,7 @@ solutions are too heavy, and we need something lighter. Enter chroot. Unlike its
 chroot sits somewhere closer to the filesystem, wherein it can easily access the resources of the
 environment invoking it.
 
-In this article, I’ll talk about how to setup a chroot environment on GNU/Linux with Zsh. Technically,
+In this article, I’ll talk about how to setup a chroot environment on Linux with Zsh. Technically,
 this is a mixture of shell discussion and system administration, but since I’m using features that
 are exclusive to Zsh—or otherwise difficult in other shells—I went with that title.
 

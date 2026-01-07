@@ -95,7 +95,7 @@ up repairing your system and just decided to re-install your system from scratch
 files are easy; restoring system configuration from the last working state, however, is a one-way
 ticket to hell.
 
-[NixOS](https://nixos.org) is a GNU/Linux distribution that solves these problems by leveraging on the
+[NixOS](https://nixos.org) is a Linux distribution that solves these problems by leveraging on the
 determinism of [Nix](https://nixos.org/nix) and by using a single declarative configuration file
 that contains all settings and knobs in one place—`/etc/nixos/configuration.nix`. This file contains
 information about your filesystems, users, services, network configuration, input devices, kernel
@@ -939,7 +939,7 @@ then points to a symlink to a file in `/nix/store/` that will lead to the actual
 ### <a name="nixpkgsinstallation">Installation</a>
 
 Skip this step if you are using NixOS because Nixpkgs already comes with it. To install Nixpkgs on
-GNU/Linux or macOS, run:
+Linux or macOS, run:
 
     $ curl https://nixos.org/nix/install | bash
 
@@ -971,7 +971,7 @@ the [repository](https://github.com/nixos/nixpkgs):
 
 This command creates a `nixpkgs/` directory under your home. If your username is `vakelo`, the clone
 of the repository is available at `/home/vakelo/nixpkgs/` or `/Users/vakelo/nixpkgs/`, if you’re using a
-GNU/Linux or macOS, respectively.
+Linux or macOS, respectively.
 
 To install a package, say *emem*—a Markdown to HTML converter—using the git checkout, run:
 
@@ -1188,7 +1188,7 @@ package in more details. The `homepage` attribute is a URL to the WWW home of th
 need to quote it with single or double quotes explicitly—it does that internally. You still have to
 quote a URL if you use variable interpolation. The `maintainers` attribute is a list of the people
 handling that package. The `platforms` attribute is important: it categorizes a package properly—we
-don’t want to build a package on macOS that only runs on GNU/Linux.
+don’t want to build a package on macOS that only runs on Linux.
 
 If a newer version of *GNU Hello* comes out, say version 2.11, modify the appropriate attributes. But
 first, let’s create a separate branch for it:
@@ -1200,7 +1200,7 @@ too. Additionally, if you’re on NixOS, add the following values to `/etc/nixos
 
     nix.useSandbox = true;
 
-If you’re using another GNU/Linux system, or macOS, add the following to `/etc/nix/nix.conf`:
+If you’re using another Linux system, or macOS, add the following to `/etc/nix/nix.conf`:
 
     build-use-sandbox = relaxed
 
@@ -1313,7 +1313,7 @@ If at any point during the installation of a package, the process is interrupted
 installed will not be in a half-baked state. The very last step of installing a package is
 atomic. The secret to it is that it the operation that makes it available to a user creates a
 symlink from `/nix/store`, where the actual program data is, to your profile, which is located at
-`~/.nix-profile/`. Symbolic link creation in GNU/Linux and macOS are either successful or
+`~/.nix-profile/`. Symbolic link creation in Linux and macOS are either successful or
 not.
 
 On NixOS, the channel used by the root user is important because it is the one used when rebuilding
@@ -1657,7 +1657,7 @@ ones that I’m aware of are
 [AppImage](http://appimage.org/), [Zero Install](http://0install.net/), [Snapcraft](https://snapcraft.io/),
 and [Flatpak](http://flatpak.org/).
 
-The [Guix System Distribution (GuixSD)](https://www.gnu.org/software/guix/) is a GNU/Linux
+The [Guix System Distribution (GuixSD)](https://www.gnu.org/software/guix/) is a Linux
 distribution that is based on Nix. It uses [Guile](https://www.gnu.org/software/guile/) as its API
 language. The key differences between GuixSD and NixOS is that the former uses
 [GNU Shepherd](https://www.gnu.org/software/shepherd/) instead of systemd; it doesn’t allow non-free

@@ -1,5 +1,5 @@
 ---
-title: Rommel Martínez
+title: Rommel Martínez 
 description: A microsite about computing, human predilections, and random krakaboom.
 keywords: rommel martinez, rommel martínez, ebzzry, ebzzry.com
 image: https://ebzzry.com/images/site/tim-stief-YFFGkE3y4F8-unsplash-2000x1125.jpg
@@ -39,11 +39,11 @@ Rommel Martínez
 - [Etc: Verb Tenses in English (2017)](verb-tenses)
 - [Etc: Symbols and Marks (Condensed) (2016)](symbols-marks-condensed)
 - [Etc: A Gentle Introduction to Fallacies (2016)](fallacies)
-- [Ops: Esperanto Characters in GNU/Linux (2016)](eo-linux)
+- [Ops: Esperanto Characters in Linux (2016)](eo-linux)
 - [Etc: Symbols and Marks (2016)](symbols-marks)
 - [Emacs: Regions and Marks (2015)](emacs-regions-and-marks)
 - [Emacs: Pairs and Everything in Between (2015)](emacs-pairs)
-- [Ops: Virtualizing with KVM in GNU/Linux (2015)](kvm)
+- [Ops: Virtualizing with KVM in Linux (2015)](kvm)
 - [Compsci: A Lambda Calculus Primer (2015)](lambda-calculus)
 - [Emacs: Sessions and Packages (2015)](emacs-sessions-and-packages)
 - [Ops: Setting up GPG and SSH in KDE (2014)](gsk)

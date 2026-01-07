@@ -46,7 +46,7 @@ air.
 
 Not long after, NixOS became my primary development machine. I could do
 everything with it, even use devices that were not designed from the start to
-be used with GNU/Linux. With the help of the official documentation and helpful
+be used with Linux. With the help of the official documentation and helpful
 articles of people who have used it before me, I was able to set it up according
 to my preferences. I wrote about what I have learned [here](/en/nix).
 

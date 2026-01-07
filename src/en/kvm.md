@@ -1,9 +1,9 @@
 ---
-title: Virtualizing with KVM in GNU/Linux
+title: Virtualizing with KVM in Linux
 keywords: kvm, qemu, linux
 image: https://ebzzry.com/images/site/pierre-chatel-innocenti-N6Hx4HT4mHg-unsplash-2000x1125.jpg
 ---
-Virtualizing with KVM in GNU/Linux
+Virtualizing with KVM in Linux
 ==================================
 
 <div class="center">English ⊻ [Esperanto](/eo/kvm/)</div>
@@ -90,7 +90,7 @@ hypervisor, [VDE](http://vde.sourceforge.net/) tools, and
 [SPICE](http://www.spice-space.org/) support. QEMU, at least during its early
 days had the _meh_ impression—it is OK, but not stellar. Since version 0.10.1,
 QEMU started supporting [KVM](http://www.linux-kvm.org/), a virtualization
-subsystem for GNU/Linux, that provides near-native virtualization performance
+subsystem for Linux, that provides near-native virtualization performance
 using hardware-assisted virtualization. It even rivals the performance of the
 virtualization solutions mentioned above.
 

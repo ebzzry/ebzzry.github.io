@@ -1,9 +1,9 @@
 ---
-title: Esperanto Characters in GNU/Linux
+title: Esperanto Characters in Linux
 keywords: esperanto, linux, keyboard, characters, letters, configuration, setup, settings
 image: https://ebzzry.com/images/site/stefan-stefancik-6whwCHgsMiA-unsplash-2000x1125.jpg
 ---
-Esperanto Characters in GNU/Linux
+Esperanto Characters in Linux
 =================================
 
 <div class="center">English ⊻ [Esperanto](/eo/eo-linukso/)</div>
@@ -32,7 +32,7 @@ I opine, that one should no longer be using the
 [h-](https://en.wikipedia.org/wiki/Esperanto_orthography#H-system) or
 [x-system](https://en.wikipedia.org/wiki/Esperanto_orthography#X-system) to input the characters
 specific to Esperanto, unless it is not physically possible. Currently, there are two ways to input
-Esperanto characters on GNU/Linux systems—the <kbd>Multi‎ߺ‎key</kbd> and <kbd>Mode‎ߺ‎switch</kbd> keys.
+Esperanto characters on Linux systems—the <kbd>Multi‎ߺ‎key</kbd> and <kbd>Mode‎ߺ‎switch</kbd> keys.
 
 In this article the <kbd>🐧</kbd> key signifies the <kbd>Mode‎ߺ‎switch</kbd> key.
 
@@ -171,7 +171,7 @@ keycode 107 = Mode‎ߺ‎switch
 
 Both methods outlined above do far more than emitting Esperanto characters. The Multi‎ߺ‎key system can
 emit more sophisticated symbols and characters. To see the complete list of characters, run the
-following command if you’re on mainstream GNU/Linux systems:
+following command if you’re on mainstream Linux systems:
 
     less /usr/share/X11/locale/en_US.UTF-8/Compose
 
