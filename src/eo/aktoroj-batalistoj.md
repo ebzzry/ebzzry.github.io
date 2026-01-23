@@ -147,17 +147,17 @@ ie, en aliaj fakoj.
 <a name="neludantoj">Neludantoj</a>
 -----------------------------------
 
-Dum la pasinta jardeko, estas provado bridi min komenti pri iu
-temo—parolistoj. Dum la pasinta jardeko, mi vidis alfluon de konferencoj,
-seminarioj, kaj simpozioj pri «Teĥnologio», «Modoj», ktp. Tio kio estas plorinda
-estas ke la ĉefhomoj parolante pri tiuj temoj scias nenion pri la temoj. Mi,
-iumaniere, trovis min mem en malkomfortaj situacioj ke mi demandas la spertulon,
-rekte, demandojn pri tio kion li ĵus prezentis, kelkfoje dum la prelego, plej
-ofte, poste. Mi unue pensis, ke politikistoj estas lertaj en eviti delikatajn
+Dum la pasinta jardeko, estas provado bridi min komenti pri iu temo, la
+*parolistoj*. Dum la pasinta jardeko, mi vidis alfluon de konferencoj, seminarioj,
+kaj simpozioj pri «Teĥnologio», «Modoj», ktp. Tio kio estas plorinda estas ke la
+ĉefhomoj parolante pri tiuj temoj scias nenion pri la temoj. Mi, iumaniere,
+trovis min mem en malkomfortaj situacioj ke mi demandas la spertulon, rekte,
+demandojn pri tio kion li ĵus prezentis, kelkfoje dum la prelego, plej ofte,
+poste. Mi unue pensis, ke politikistoj estas lertaj en eviti delikatajn
 demandojn. Sed, mi baldaŭ malkovris ke la parolistoj, fakte, estas pli lertaj
 pri tio.
 
-Tiam, estas la eksteruloj. Ili ne havas veran intereson al komputiko, ne havas
+Tiam, estas la *eksteruloj*. Ili ne havas veran intereson al komputiko, ne havas
 teĥnikajn kapablojn, kaj nenion havas por kontribui al diskutoj. La plej
 profunda sperto kion ili havas per maŝinoj estas ludi videoludojn. Ili estas la
 homoj kiuj kreas multe da bruo ĉe sociaj retoj. Ili parolas pri la plej freŝaj

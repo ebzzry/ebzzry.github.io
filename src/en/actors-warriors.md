@@ -74,7 +74,7 @@ of hardware to a client was nothing. The ability to write source code to test
 out my ideas and hypotheses was worth everything.
 
 I went to college, briefly, but left soon after. I thought at that time that it
-has got to be one of the worst things to do if one wants to be come a Software
+has got to be one of the worst things to do if one wants tobe come a Software
 Engineer. I still believe that, to this day. The highest formal education
 attainment that I got is High School. I have no idea where my diploma is, nor do
 I care about it. In that single semester of college, I failed all
@@ -122,7 +122,7 @@ for applied usage in trivial domains.
 
 Soon after, I discovered that it was just the tip of the iceberg. Under programs
 that are labeled «Software Engineering», I discovered that the professors and
-instructor have not written real software, aside from «Hello World» programs.
+instructors have not written real software, aside from «Hello World» programs.
 Students are given trivial tasks to complete, in order to pass a subject. What’s
 worse are these things «Hackathons» or whatever they’re called now. People
 really believe that you can find true engineering skills with events like those.
@@ -144,7 +144,7 @@ thinking not present in other fields.
 -------------------------------------
 
 For the past decade, I have been trying so hard to restrain myself to comment on
-a subtopic—orators. During the past decade, I have seen an influx of
+a topic, the *orators*. During the past decade, I have seen an influx of
 conferences, seminars, and symposia about «Technology», «Trends», etc. What’s
 egregious is that the main people talking about those topics know nothing about
 those things. I somehow always find myself in uncomfortable situations wherein I
@@ -153,7 +153,7 @@ the presentation, more often, after. I thought that politicians are good at
 dodging questions that are sensitive in nature. But lo and behold, I soon
 discovered that the orators are actually better at it.
 
-Then, there are the outlanders. These people have no real interest with CS, have
+Then, there are the *outlanders*. These people have no real interest with CS, have
 no technical proficiencies, and have nothing to contribute to the discussion.
 The most interaction they have with machines was playing videogames. These are
 the people that make a lot of noise on social media. They talk about the latest

@@ -91,4 +91,19 @@ histo dum ĉiu teamo kreas tavolojn de nedezirata programada kodaĵo por protekt
 sin el la ŝanĝoj de aliaj teamoj. Pro la «investo» de ĉiu teamo en ĝi, ĉi tiuj
 interfacoj travivi longe post ia ajn valideco kiun ili havis antaŭe, kiu
 signifas ke oni iras senfine uzi la interfacojn oni forĵetis sen ia ajn desegno
-antaŭe kiam oni ne havis sperton.
+antaŭe kiam oni ne havis sperton. Ne dividu viajn teamojn al horizontalaj
+nivelo de funkciado. Eblus escepto kiam la pli malsupra nivelo sekvas krudan
+interfacon, kaj estas facile eksperimenti sen ĝi kaj forŝalti de ĝi kiam
+bezonata, module ŝanĝo en prezo kaj kvalito. Notu ke homoj kun similaj roloj
+(e.g. ĉiom da testaj inĝenieroj) tendencas kunhavigi komunajn koncernojn kaj
+kunvenas, interŝanĝas informojn kaj kreas ilojn kune; tio bonas kaj devas esti
+kuraĝigita, ne malebligita; sed tio ne devas preni utilan eron de decidiĝo kaj
+havi respondecon, kaj ne davas esti traktita kiel «teamo».
+
+
+
+<a name="malpligrandigxi">Kapablas malpligrandiĝi viaj teamoj kaj ankaŭ grandiĝi</a>
+------------------------------------------------------------------------------------
+
+Aldoni homajn risurcojn ne bezonas multe da pensado, sed ĝi bezonas pensadon por
+aldoni ilin efike. 

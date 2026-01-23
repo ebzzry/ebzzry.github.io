@@ -1,11 +1,11 @@
 ---
-title: Rommel Martínez 
+title: Musings of an Optimist
 description: A microsite about computing, human predilections, and random krakaboom.
 keywords: rommel martinez, rommel martínez, ebzzry, ebzzry.com
 image: https://ebzzry.com/images/site/tim-stief-YFFGkE3y4F8-unsplash-2000x1125.jpg
 ---
-Rommel Martínez
-===============
+Musings of an Optimist
+======================
 
 <div class="center">English ⊻ [Esperanto](/eo/)</div>
 

@@ -1,11 +1,11 @@
 ---
-title: Rommel Martínez
+title: Pensoj de Optimisto
 description: Eta retejo pri informadiko, hominklinoj, kaj hazardaĵoj.
 keywords: rommel martinez, rommel martínez, ebzzry, ebzzry.com
 image: https://ebzzry.com/images/site/tim-stief-YFFGkE3y4F8-unsplash-2000x1125.jpg
 ---
-Rommel Martínez
-===============
+Pensoj de Optimisto
+===================
 
 <div class="center">[English](/en/) ⊻ Esperanto</div>
 
