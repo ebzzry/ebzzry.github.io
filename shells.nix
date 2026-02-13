@@ -10,6 +10,7 @@ rec {
       findutils
       screen
       python3
+      coreutils-full
     ];
   };
   default = www;
