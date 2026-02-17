@@ -43,18 +43,13 @@ Architectural Principles for Software Development Teams
 <a name="background">Background</a>
 -----------------------------------
 
-With explicit permission, the following article is a repost from a
-[blog post](https://fare.livejournal.com/171998.html) by
-[François-René Rideau (Faré)](http://fare.tunes.org) in May 29, 2013. Fare’s
-ideas on how software development should be done, have stood the test of time.
+With explicit permission, the following article is a repost from a [blog post](https://fare.livejournal.com/171998.html) by [François-René Rideau (Faré)](http://fare.tunes.org) in May 29, 2013. Fare’s ideas on how software development should be done, have stood the test of time.
 
 
 <a name="introduction">Introduction</a>
 ---------------------------------------
 
-Many software development organizations fail to follow these principles and pay
-the price, which can lead to failure.  Google mostly doesn't make the mistakes
-of going against them, though some projects at ITA used to.
+Many software development organizations fail to follow these principles and pay the price, which can lead to failure.  Google mostly doesn't make the mistakes of going against them, though some projects at ITA used to.
 
 
 <a name="changes">Changes</a>
