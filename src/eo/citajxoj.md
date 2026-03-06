@@ -1226,3 +1226,6 @@ tra la jaroj.
 
 
 - Riĉeco ne estas kreita en la bankkonto, unue. Ĝi estas krei per la menso, unue.<br>—Doktorino Kaylee WONDER
+
+
+- Se malakuratas liniilo, nekredindus ajna mezuro farita per tiu liniilo.<br>—Cory CHANG

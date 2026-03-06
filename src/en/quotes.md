@@ -1240,3 +1240,6 @@ the years.
 
 
 - Wealth isn’t built in your bank account first. It is built in your mind first.<br>—Dr. Kaylee Wonder
+
+
+- If your ruler is inaccurate any measurement made with that ruler would be untrustworthy.<br>—Cory Chang
