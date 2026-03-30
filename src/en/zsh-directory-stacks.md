@@ -1,12 +1,11 @@
 ---
-title: Zsh: Directory Stacks
+title: Zsh Directory Stacks
 keywords: zsh, tips, advice, shell, linux, configuration, setup, settings
 image: https://ebzzry.com/images/site/jonny-caspari-A7ol2HfnycY-unsplash-2000x1125.jpg
 ---
-Zsh: Directory Stacks
-============================
+Zsh Directory Stacks
+====================
 
-<div class="center">English ⊻ [Esperanto](/eo/zisxo-dosierujstakoj/)</div>
 <div class="center">2017-10-18</div>
 
 >What we do for ourselves dies with us. What we do for others remains forever.<br>

@@ -1,12 +1,11 @@
 ---
-title: Emacs: Sessions and Packages
+title: Emacs Sessions and Packages
 keywords: emacs, tips, sessions, packages, desktop, savehist, packages, elpa, melpa, line numbers, time stamps, keys, newline, filling, cursor, git, configuration, setup, settings
 image: https://ebzzry.com/images/site/maximalfocus-VT4rx775FT4-unsplash-2000x1125.jpg
 ---
-Emacs: Sessions and Packages
-============================
+Emacs Sessions and Packages
+===========================
 
-<div class="center">English ⊻ [Esperanto](/eo/emakso-seancoj-kaj-pakoj/)</div>
 <div class="center">2015-06-13</div>
 
 >A bell that doesn’t ring has no purpose.<br>—Keel Lorenz, Neon Genesis Evangelion

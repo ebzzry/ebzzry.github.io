@@ -6,7 +6,6 @@ image: https://ebzzry.com/images/site/david-clode-92MgFhlWD-8-unsplash-2000x1125
 Citaĵoj
 =======
 
-<div class="center">[English](/en/quotes/) ⊻ Esperanto</div>
 
 <img src="/images/site/david-clode-92MgFhlWD-8-unsplash-2000x1125.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
 

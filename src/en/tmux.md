@@ -6,7 +6,6 @@ image: https://ebzzry.com/images/site/lysander-yuen-wk833OrQLJE-unsplash-2000x11
 How I Use Tmux
 ==============
 
-<div class="center">English ⊻ [Esperanto](/eo/timukso)</div>
 <div class="center">2017-10-19</div>
 
 >Furious activity is no substitute for understanding.<br>

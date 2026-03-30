@@ -4,9 +4,8 @@ keywords: kvm, qemu, linux
 image: https://ebzzry.com/images/site/pierre-chatel-innocenti-N6Hx4HT4mHg-unsplash-2000x1125.jpg
 ---
 Virtualizing with KVM in Linux
-==================================
+==============================
 
-<div class="center">English ⊻ [Esperanto](/eo/kvm/)</div>
 <div class="center">2015-06-17</div>
 
 >If you do what you’ve always done, you’ll get what you’ve always gotten.<br>

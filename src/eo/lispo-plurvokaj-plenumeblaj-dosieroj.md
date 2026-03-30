@@ -1,12 +1,11 @@
 ---
-title: Lispo: Plurvokaj Plenumeblaj Dosieroj
+title: Lispaj Plurvokaj Plenumeblaj Dosieroj
 keywords: lispo, komuna lispo, komunlispo, skriptado, linukso 
 image: https://ebzzry.com/images/site/lisp-lizard-1008x250.png
 ---
-Lispo: Plurvokaj Plenumeblaj Dosieroj
+Lispaj Plurvokaj Plenumeblaj Dosieroj
 =====================================
 
-<div class="center">[English](/en/lisp-multi-call-binaries) ⊻ Esperanto</div>
 <div class="center">2018-09-25</div>
 
 >La lumo kiu fajras duoble brila, fajras duone longa.<br>

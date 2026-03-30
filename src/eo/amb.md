@@ -6,7 +6,6 @@ image: https://ebzzry.com/images/site/john-towner-JgOeRuGD_Y4-unsplash-2000x1125
 Milda Enkonduko al Nedeterminismo en Skimo
 ==========================================
 
-<div class="center">[English](/en/amb/) ⊻ Esperanto</div>
 <div class="center">2019-03-07</div>
 
 >Kelke da plej kernaj paŝoj en mensa kresko baziĝas ne simple pri novajn kapablojn akiri, sed

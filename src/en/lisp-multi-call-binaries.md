@@ -1,12 +1,11 @@
 ---
-title: Lisp: Multi-Call Binaries
+title: Lisp Multi-Call Binaries
 keywords: lisp, common lisp, scripting, linux, macos
 image: https://ebzzry.com/images/site/lisp-lizard-1008x250.png
 ---
-Lisp: Multi-Call Binaries
-=========================
+Lisp Multi-Call Binaries
+========================
 
-<div class="center">English ⊻ [Esperanto](/eo/lispo-plurvokaj-plenumeblaj-dosieroj/)</div>
 <div class="center">2017-08-04</div>
 
 >The light that burns twice as bright burns half as long.<br>

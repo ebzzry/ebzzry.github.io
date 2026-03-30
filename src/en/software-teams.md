@@ -6,7 +6,6 @@ image: https://ebzzry.com/images/site/mateo-krossler-rJ-CD2e7iMQ-unsplash-2000x1
 Architectural Principles for Software Development Teams
 =======================================================
 
-<div class="center">English ⊻ [Esperanto](/eo/programadaj-teamoj/)</div>
 <div class="center">2025-12-28</div>
 
 >Don’t tell me how hard you work. Tell me how much you get done.<br>

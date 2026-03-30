@@ -1,12 +1,11 @@
 ---
-title: Emakso: Paroj kaj Ĉio Inter
+title: Emaksaj Paroj kaj Ĉio Inter
 keywords: emakso, paroj, smartparens, paredit, krampoj, rondaj krampoj, rondkramproj, kvadrataj krampoj, kvadratkrampoj, kurbaj krampoj, kurbkrampoj, agordaĵo, agordajxo, agordo 
 image: https://ebzzry.com/images/site/pan-xiaozhen-cZgTq7ki4c-unsplash-2000x1125.jpg
 ---
-Emakso: Paroj kaj Ĉio Inter
+Emaksaj Paroj kaj Ĉio Inter
 ===========================
 
-<div class="center">[English](/en/emacs-pairs/) ⊻ Esperanto</div>
 <div class="center">2018-07-09</div>
 
 >La blanka bruo kiu batas ene la blanka mallumo estas la ritmo de la vivo; estas la pulso kiu

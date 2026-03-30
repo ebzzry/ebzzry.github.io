@@ -6,7 +6,6 @@ image: https://ebzzry.com/images/site/john-towner-JgOeRuGD_Y4-unsplash-2000x1125
 A Gentle Introduction to Non-determinism in Scheme
 ==================================================
 
-<div class="center">English ⊻ [Esperanto](/eo/amb/)</div>
 <div class="center">2019-03-08</div>
 
 >Some of the most crucial steps in mental growth are based not simply on acquiring new skills, but

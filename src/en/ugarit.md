@@ -6,7 +6,6 @@ image: https://ebzzry.com/images/site/omar-flores-lQT0bOWtysE-unsplash-2000x1125
 Creating Backups with Ugarit
 ============================
 
-<div class="center">English ⊻ [Esperanto](/eo/ugarit/)</div>
 <div class="center">2014-02-22</div>
 
 >Good judgment comes from experience, and experience comes from bad judgment.<br>

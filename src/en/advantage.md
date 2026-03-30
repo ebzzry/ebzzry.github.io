@@ -6,7 +6,6 @@ image: https://ebzzry.com/images/site/dave-hoefler-lsoogGC_5dg-unsplash-2000x112
 How I Use the Kinesis Advantage
 ===============================
 
-<div class="center">English ⊻ [Esperanto](/eo/advantage/)</div>
 <div class="center">2017-03-25</div>
 
 >Pain is inevitable. Suffering is optional.<br>

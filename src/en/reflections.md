@@ -6,7 +6,6 @@ image: https://ebzzry.com/images/site/joris-visser-8konJx6dY4g-unsplash-2000x112
 Reflections
 ===========
 
-<div class="center">English ⊻ [Esperanto](/eo/pripensoj/)</div>
 
 <img src="/images/site/joris-visser-8konJx6dY4g-unsplash-2000x1125.jpg" style="display: block; width: 100%; margin-left: auto; margin-right: auto;" />
 

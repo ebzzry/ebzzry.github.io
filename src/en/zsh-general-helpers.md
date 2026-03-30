@@ -1,12 +1,11 @@
 ---
-title: Zsh: General Helpers
+title: Zsh General Helpers
 keywords: zsh, tips, advice, shell, linux, configuration, setup, settings, helpers
 image: https://ebzzry.com/images/site/adam-hornyak-Cm187aESg0k-unsplash-2000x1125.jpg
 ---
-Zsh: General Helpers
+Zsh General Helpers
 ====================
 
-<div class="center">English ⊻ [Esperanto](/eo/zisxo-gxeneralhelpiloj/)</div>
 <div class="center">2017-11-09</div>
 
 >A change in perspective is worth 80 IQ points.<br>

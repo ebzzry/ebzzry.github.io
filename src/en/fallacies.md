@@ -6,7 +6,6 @@ image: https://ebzzry.com/images/site/sarah-elizabeth-KwvNrCfTKMI-unsplash-2000x
 A Gentle Introduction to Fallacies
 ==================================
 
-<div class="center">English ⊻ [Esperanto](/eo/sofismoj/)</div>
 <div class="center">2016-05-07</div>
 
 >Learning is not compulsory; neither is survival.<br>

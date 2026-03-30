@@ -1,12 +1,11 @@
 ---
-title: Emakso: Sendi kaj Ricevi Retposxton
+title: Emakse Sendi kaj Ricevi Retposxton
 keywords: emakso, retpoŝto, retposxto, agordo, agordaĵo, agordajxo 
 image: https://ebzzry.com/images/site/zak-7wBFsHWQDlk-unsplash-2000x1125.jpg
 ---
-Emakso: Sendi kaj Ricevi Retposxton
-===================================
+Emakse Sendi kaj Ricevi Retposxton
+==================================
 
-<div class="center">[English](/en/emacs-mail/) ⊻ Esperanto</div>
 <div class="center">2018-02-14</div>
 
 >Nur pro tio, ke ne fariĝis io, ne signifas, ke ne fareblas ĝi. Nur pro tio, ke fareblas io, ne signifas, ke farendas ĝi.<br>

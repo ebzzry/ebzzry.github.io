@@ -1,12 +1,11 @@
 ---
-title: Haskell: Division
+title: Haskell Division
 keywords: haskell, division
 image: https://ebzzry.com/images/site/josh-withers-VyOUw5byHlc-unsplash-2000x1125.jpg
 ---
-Haskell: Division
-=================
+Haskell Division
+================
 
-<div class="center">English ⊻ [Esperanto](/eo/haskeldivido/)</div>
 <div class="center">2017-03-08</div>
 
 >But every decision for something is a decision against something else.<br>

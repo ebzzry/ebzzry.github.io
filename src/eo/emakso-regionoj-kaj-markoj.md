@@ -1,12 +1,11 @@
 ---
-title: Emakso: Regionoj kaj Markoj
+title: Emaksaj Regionoj kaj Markoj
 keywords: emakso, konsiletoj, emakskonsiletoj, regionoj, markiloj, bufroj, klavkombinoj, kompilado, skimo, servilo, agordo, agordaĵo, agordajxo 
 image: https://ebzzry.com/images/site/robert-keane-HFcxrs5u4uE-unsplash-2000x1125.jpg
 ---
-Emakso: Regionoj kaj Markoj
+Emaksaj Regionoj kaj Markoj
 ===========================
 
-<div class="center">[English](/en/emacs-regions-and-marks/) ⊻ Esperanto</div>
 <div class="center">2018-02-12</div>
 
 >La voĉon ne pligrandigu; la argumenton plibonigu.<br>

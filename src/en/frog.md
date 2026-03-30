@@ -6,7 +6,6 @@ image: https://ebzzry.com/images/site/pedro-lastra-Nyvq2juw40o-unsplash-2000x112
 Blogging with Frog
 ==================
 
-<div class="center">English ⊻ [Esperanto](/eo/frog/)</div>
 <div class="center">2014-02-19</div>
 
 >One person with passion is better than forty people merely interested.<br>

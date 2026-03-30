@@ -6,7 +6,6 @@ image: https://ebzzry.com/images/site/david-becker-crs2vlkSe98-unsplash-2000x112
 The Y Combinator in Six Steps
 =============================
 
-<div class="center">English ⊻ [Esperanto](/eo/ipsilono/)</div>
 <div class="center">2013-05-09</div>
 
 >First, decide. And then do it. It’s the only way to achieve anything.<br>

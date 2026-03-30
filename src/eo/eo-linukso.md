@@ -6,7 +6,6 @@ image: https://ebzzry.com/images/site/stefan-stefancik-6whwCHgsMiA-unsplash-2000
 Esperanto-signoj en Linukso
 ===========================
 
-<div class="center">[English](/en/eo-linux/) ⊻ Esperanto</div>
 <div class="center">2018-07-22</div>
 
 >Se ion oni volas, kion oni neniam havis, oni devas esti servopreta tion fari, kion oni neniam

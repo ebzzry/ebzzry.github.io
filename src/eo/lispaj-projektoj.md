@@ -1,12 +1,11 @@
 ---
-title: Lispo: Kiel Mi Kreas Lispajn Projektojn
+title: Kiel Mi Kreas Lispajn Projektojn
 keywords: lispo, komuna lispo, komunlispo, linukso, makintoŝo
 image: https://ebzzry.com/images/site/gwen-weustink-I3C1sSXj1i8-unsplash-2000x1125.jpg
 ---
-Lispo: Kiel Mi Kreas Lispajn Projektojn
-=======================================
+Kiel Mi Kreas Lispajn Projektojn
+================================
 
-<div class="center">[English](/en/lisp-projects/) ⊻ Esperanto</div>
 <div class="center">2025-08-04</div>
 
 >Oni ne havas ideon kion oni provas atingi ĝis oni jam atingis ĝin.<br>

@@ -6,7 +6,6 @@ image: https://ebzzry.com/images/site/noor-younis-mId2gG0a9GU-unsplash-2000x1125
 Verb Tenses in English (Condensed)
 ==================================
 
-<div class="center">English ⊻ [Esperanto](/eo/verbotempoj-la-angla-mallongigite/)</div>
 <div class="center">2017-03-28</div>
 
 >The difference between ordinary and extraordinary is that little extra.<br>

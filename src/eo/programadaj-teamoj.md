@@ -6,7 +6,6 @@ image: https://ebzzry.com/images/site/mateo-krossler-rJ-CD2e7iMQ-unsplash-2000x1
 Arĥitekturaj Principoj por Programadaj Teamoj
 =============================================
 
-<div class="center">[English](/en/software-teams/) ⊻ Esperanto</div>
 <div class="center">2026-02-13</div>
 
 >Ne diru al mi kiel laboreme vi estas. Diru al mi kiom da laboro vi faris.<br>

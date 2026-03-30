@@ -1,12 +1,11 @@
 ---
-title: Ziŝo: Ŝanĝradikighelpiloj
+title: Ziŝaj Ŝanĝradikighelpiloj
 keywords: ziŝo, zisxo, zsh, konsiletoj, ŝelo, sxelo, linukso, agordo, agordaĵo, agordaĵxo, chroot 
 image: https://ebzzry.com/images/site/ali-lokhandwala-KUr51Y4dOyo-unsplash-2000x1125.jpg
 ---
-Ziŝo: Ŝanĝradikighelpiloj
+Ziŝaj Ŝanĝradikighelpiloj
 =========================
 
-<div class="center">[English](/en/zsh-chroot-helpers/) ⊻ Esperanto</div>
 <div class="center">2017-10-20</div>
 
 >Ni ridas pri tio, kion ni ne povas toleri alfronti.<br>

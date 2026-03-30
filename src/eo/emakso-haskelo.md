@@ -1,12 +1,11 @@
 ---
-title: Emakso: Haskela Programado
+title: Haskela Programado
 keywords: emakso, haskell, programado, agordo, agordaĵo, agordajxo 
 image: https://ebzzry.com/images/site/kevin-mueller-0gJqD3dtluU-unsplash-2000x1125.jpg
 ---
-Emakso: Haskela Programado
-==========================
+Haskela Programado
+==================
 
-<div class="center">[English](/en/emacs-haskell/) ⊻ Esperanto</div>
 <div class="center">2025-12-25</div>
 
 >Oni ne povas nomi sin pacema krom se oni estas kapabla de granda perforto. Se oni ne estas kapabla por granda perforto, oni ne estas pacema, oni estas nenoca.<br>

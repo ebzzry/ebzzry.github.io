@@ -6,7 +6,6 @@ image: https://ebzzry.com/images/site/ebzzry.jpg
 Pri
 ===
 
-<div class="center">[English](/en/about/) ⊻ Esperanto</div>
 
 <div>
 Rommel Martínez estas esploristo kun tri jardekoj da sperto en programado; sistemadministrado; kaj programlingva teorio kaj desegnado.

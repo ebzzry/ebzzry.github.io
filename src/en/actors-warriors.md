@@ -7,7 +7,6 @@ image: https://ebzzry.com/images/site/john-hernandez-IL-fBBnF-GU-unsplash-2000x1
 Actors and Warriors: Theatrics and Bloodshed
 ============================================
 
-<div class="center">English ⊻ [Esperanto](/eo/aktoroj-batalistoj/)</div>
 <div class="center">2025-12-20</div>
 
 >If you see fraud and do not say fraud, you are a fraud.<br>

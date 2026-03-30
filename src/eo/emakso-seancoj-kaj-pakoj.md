@@ -1,12 +1,11 @@
 ---
-title: Emakso: Seancoj kaj Pakoj
+title: Emaksaj Seancoj kaj Pakoj
 keywords: emakso, konsileto,j, seancoj, pakoj, pakaĵoj, pakajxoj, labortablo, savehist, elpa, melpa, lininumeroj, tempindikoj, klavoj, plenigi, montrilo, git, agordo, agordaĵo, agordajxo 
 image: https://ebzzry.com/images/site/maximalfocus-VT4rx775FT4-unsplash-2000x1125.jpg
 ---
-Emakso: Seancoj kaj Pakoj
+Emaksaj Seancoj kaj Pakoj
 =========================
 
-<div class="center">[English](/en/emacs-sessions-and-packages/) ⊻ Esperanto</div>
 <div class="center">2018-02-20</div>
 
 >Sonorilo kiu ne povas sonori ne havas celon.<br>—Keel LORENZ, Neon Genesis Evangelion

@@ -6,7 +6,6 @@ image: https://ebzzry.com/images/site/aaron-burden-vtCZp-9GvrQ-unsplash-2000x112
 Milda Enkonduko al Nix-Flokoj
 =============================
 
-<div class="center">[English](/en/flakes) ⊻ Esperanto</div>
 <div class="center">2025-01-30</div>
 
 >Tamen ĉiu decido por io estas decido kontraŭ io alia.<br>

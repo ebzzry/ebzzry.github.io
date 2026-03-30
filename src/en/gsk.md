@@ -6,7 +6,6 @@ image: https://ebzzry.com/images/site/milad-fakurian-WQBuCB3UD9g-unsplash-2000x1
 Setting up GPG and SSH in KDE
 =============================
 
-<div class="center">English ⊻ [Esperanto](/eo/gsk/)</div>
 <div class="center">2014-09-26</div>
 
 >It’s not at all important to get it right the first time. It’s vitally important to get it right

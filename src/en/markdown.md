@@ -6,7 +6,6 @@ image: https://ebzzry.com/images/site/luca-bravo-bTxMLuJOff4-unsplash-2000x1125.
 My Markdown Style Guide
 =======================
 
-<div class="center">English ⊻ [Esperanto](/eo/markdauxno/)</div>
 <div class="center">2017-04-05</div>
 
 >The laws that govern circumstances are abolished by new circumstances.<br>

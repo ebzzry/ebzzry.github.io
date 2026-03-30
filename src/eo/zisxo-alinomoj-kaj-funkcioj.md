@@ -1,12 +1,11 @@
 ---
-title: Ziŝo: Alinomoj kaj Funkcioj
+title: Ziŝaj Alinomoj kaj Funkcioj
 keywords: ziŝo, zisxo, zsh, konsiletoj, avizoj, ŝelo, sxelo, linukso, agordo, agordaĵo, agordaĵxo 
 image: https://ebzzry.com/images/site/omair-parvez-o6ka1Lpk81U-unsplash-2000x1125.jpg
 ---
-Ziŝo: Alinomoj kaj Funkcioj
+Ziŝaj Alinomoj kaj Funkcioj
 ===========================
 
-<div class="center">[English](/en/zsh-aliases-and-functions/) ⊻ Esperanto</div>
 <div class="center">2018-09-26</div>
 
 >Malsaĝulo miras pri nekutimaj aferoj. Ŝagulo miras pri la kutimaj aferoj.<br>

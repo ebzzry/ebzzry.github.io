@@ -6,7 +6,6 @@ image: https://ebzzry.com/images/site/john-mukiibi-elijah-ibjQCaFM0rs-unsplash-2
 Signoj kaj Interpunkcioj
 ========================
 
-<div class="center">[English](/en/symbols-marks/) ⊻ Esperanto</div>
 <div class="center">2018-07-16</div>
 
 >Se oni volas atingi grandiozon, ĉesu peti konsentojn.<br>

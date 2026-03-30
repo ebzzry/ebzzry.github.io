@@ -6,7 +6,6 @@ image: https://ebzzry.com/images/site/pedro-lastra-Nyvq2juw40o-unsplash-2000x112
 Blogi per Frog
 ==============
 
-<div class="center">[English](/en/frog/) ⊻ Esperanto</div>
 <div class="center">2018-08-22</div>
 
 >Unu persono kun ardo pli bonas ol kvardek personoj nure interesataj.<br>

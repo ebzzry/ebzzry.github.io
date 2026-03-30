@@ -6,7 +6,6 @@ image: https://ebzzry.com/images/site/david-becker-crs2vlkSe98-unsplash-2000x112
 La Ipsilonkombinatoro per Ses Paŝoj
 ===================================
 
-<div class="center">[English](/en/y/) ⊻ Esperanto</div>
 <div class="center">2017-11-25</div>
 
 >Unue, decidu. Kaj faru ĝin. Estas la nura maniero por atingi ion.<br>

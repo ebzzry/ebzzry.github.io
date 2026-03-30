@@ -6,7 +6,6 @@ image: https://ebzzry.com/images/site/noor-younis-mId2gG0a9GU-unsplash-2000x1125
 Verbotempoj en La Angla
 =======================
 
-<div class="center">[English](/en/verb-tenses/) ⊻ Esperanto</div>
 <div class="center">2018-08-08</div>
 
 >La kontrasto inter la ordinara kaj la eksterordinara estas tiu eta pliaĵo.<br>

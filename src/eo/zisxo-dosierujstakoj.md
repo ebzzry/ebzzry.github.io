@@ -1,12 +1,11 @@
 ---
-title: Ziŝo: Dosierujstakoj
+title: Ziŝaj Dosierujstakoj
 keywords: ziŝo, zisxo, zsh, konsiletoj, ŝelo, sxelo, linukso, agordo, agordaĵo, agordaĵxo 
 image: https://ebzzry.com/images/site/jonny-caspari-A7ol2HfnycY-unsplash-2000x1125.jpg
 ---
-Ziŝo: Dosierujstakoj
+Ziŝaj Dosierujstakoj
 ====================
 
-<div class="center">[English](/en/zsh-directory-stacks/) ⊻ Esperanto</div>
 <div class="center">2018-09-26</div>
 
 >Kion ni faras por ni, mortas kun ni. Kion ni faras por ili, porĉiame restas.<br>

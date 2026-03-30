@@ -1,12 +1,11 @@
 ---
-title: Emacs: Haskell Programming
+title: Emacs Haskell Programming
 keywords: emacs, haskell, programming, configuration, setup, settings
 image: https://ebzzry.com/images/site/kevin-mueller-0gJqD3dtluU-unsplash-2000x1125.jpg
 ---
-Emacs: Haskell Programming
-==========================
+Emacs Haskell Programming
+=========================
 
-<div class="center">English ⊻ [Esperanto](/eo/emakso-haskelo/)</div>
 <div class="center">2025-12-25</div>
 
 >You can’t truly call yourself peaceful unless you are capable of great violence. If you’re not capable of violence, you’re not peaceful, you’re harmless.<br>

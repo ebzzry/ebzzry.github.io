@@ -6,7 +6,6 @@ image: https://ebzzry.com/images/site/john-mukiibi-elijah-ibjQCaFM0rs-unsplash-2
 Signoj kaj Interpunkcioj (Mallongigite)
 =======================================
 
-<div class="center">[English](/en/symbols-marks-condensed/) ⊻ Esperanto</div>
 <div class="center">2018-07-21</div>
 
 >Se oni volas atingi grandiozon, ĉesu peti konsentojn.<br>

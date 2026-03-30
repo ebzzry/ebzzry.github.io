@@ -1,12 +1,11 @@
 ---
-title: Haskelo: Divido
+title: Haskela Divido
 keywords: haskelo, divido 
 image: https://ebzzry.com/images/site/josh-withers-VyOUw5byHlc-unsplash-2000x1125.jpg
 ---
-Haskelo: Divido
+Haskela Divido
 ===============
 
-<div class="center">[English](/en/haskell-division/) ⊻ Esperanto</div>
 <div class="center">2018-08-05</div>
 
 >Tamen ĉiu decido por io estas decido kontraŭ io alia.<br>

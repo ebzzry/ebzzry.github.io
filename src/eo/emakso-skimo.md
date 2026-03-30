@@ -1,12 +1,11 @@
 ---
-title: Emakso: Skima Programado
+title: Emaksa Skima Programado
 keywords: emakso, skimo, skimprogramado, skimo, lispo, programado, agordo, agordaĵo, agordajxo 
 image: https://ebzzry.com/images/site/dimitar-belchev-A7v5KWxnKQA-unsplash-2000x1125.jpg
 ---
-Emakso: Skima Programado
-========================
+Emaksa Skima Programado
+=======================
 
-<div class="center">[English](/en/emacs-scheme/) ⊻ Esperanto</div>
 <div class="center">2018-02-13</div>
 
 >Ĉiom da bonaj ideoj ne kuŝas sub unu ĉapelo.<br>

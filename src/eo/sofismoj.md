@@ -6,7 +6,6 @@ image: https://ebzzry.com/images/site/sarah-elizabeth-KwvNrCfTKMI-unsplash-2000x
 Milda Enkonduko al Sofismoj
 ===========================
 
-<div class="center">[English](/en/fallacies/) ⊻ Esperanto</div>
 <div class="center">2018-08-02</div>
 
 >Lerni ne necesas; nek travivas.<br>

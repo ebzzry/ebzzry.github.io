@@ -1,12 +1,11 @@
 ---
-title: Emacs: Insert and Delete
+title: Emacs Insert and Delete
 keywords: emacs, tips, insertion, deletion, marking, yanking, configuration, setup, settings
 image: https://ebzzry.com/images/site/jr-korpa-E2i7Hftb0rI-unsplash-2000x1125.jpg
 ---
-Emacs: Insert and Delete
-========================
+Emacs Insert and Delete
+=======================
 
-<div class="center">English ⊻ [Esperanto](/eo/emakso-enmeti-kaj-forvisxi/)</div>
 <div class="center">2017-04-01</div>
 
 >The more you sweat in peace, the less you bleed in war.<br>—Norman Schwarzkopf

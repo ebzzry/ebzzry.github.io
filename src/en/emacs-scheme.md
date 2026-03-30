@@ -1,12 +1,11 @@
 ---
-title: Emacs: Scheme Programming
+title: Emacs Scheme Programming
 keywords: emacs, scheme, lisp, programming, configuration, setup, settings
 image: https://ebzzry.com/images/site/dimitar-belchev-A7v5KWxnKQA-unsplash-2000x1125.jpg
 ---
-Emacs: Scheme Programming
-=========================
+Emacs Scheme Programming
+========================
 
-<div class="center">English ⊻ [Esperanto](/eo/emakso-skimo/)</div>
 <div class="center">2013-09-30</div>
 
 >All the good ideas never lie under one hat.<br>

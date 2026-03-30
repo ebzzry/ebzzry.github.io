@@ -6,7 +6,6 @@ image: https://ebzzry.com/images/site/noor-younis-mId2gG0a9GU-unsplash-2000x1125
 Verb Tenses in English
 ======================
 
-<div class="center">English ⊻ [Esperanto](/eo/verbotempoj-la-angla/)</div>
 <div class="center">2017-02-01</div>
 
 >The difference between ordinary and extraordinary is that little extra.<br>

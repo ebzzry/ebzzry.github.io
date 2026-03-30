@@ -6,7 +6,6 @@ image: https://ebzzry.com/images/site/calvin-mano-CXS27RrJObQ-unsplash-2000x1125
 In Retrospect
 =============
 
-<div class="center">English ⊻ [Esperanto](/eo/retrospektive/)</div>
 <div class="center">2013-07-11</div>
 
 >Difficulty is what wakes up the genius.<br>

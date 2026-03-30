@@ -6,7 +6,6 @@ image: https://ebzzry.com/images/site/aaron-burden-vtCZp-9GvrQ-unsplash-2000x112
 A Gentle Introduction to Nix Flakes
 ===================================
 
-<div class="center">English ⊻ [Esperanto](/eo/flokoj/)</div>
 <div class="center">2025-01-25</div>
 
 >But every decision for something is a decision against something else.<br>

@@ -1,12 +1,11 @@
 ---
-title: Emakso: Enmeti kaj Forviŝi
+title: Emakse Enmeti kaj Forviŝi
 keywords: emakso, konsiletoj, enmetado, forviŝado, forvisxado, markado, algluado, agordo, agordaĵo, agordajxo 
 image: https://ebzzry.com/images/site/jr-korpa-E2i7Hftb0rI-unsplash-2000x1125.jpg
 ---
-Emaks: Enmeti kaj Forviŝi
+Emakse Enmeti kaj Forviŝi
 =========================
 
-<div class="center">[English](/en/emacs-insert-and-delete/) ⊻ Esperanto</div>
 <div class="center">2018-09-24</div>
 
 >Ju pli oni ŝvitas en paco, des malpli oni sangas en milito.<br>—Norman SCHWARZKOPF

@@ -6,7 +6,6 @@ image: https://ebzzry.com/images/site/calvin-mano-CXS27RrJObQ-unsplash-2000x1125
 Retrospektive
 =============
 
-<div class="center">[English](/en/retrospect/) ⊻ Esperanto</div>
 <div class="center">2018-02-08</div>
 
 >Malfacileco estas tio, kiu vekas la geniulon.<br>

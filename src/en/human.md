@@ -6,7 +6,6 @@ image: https://ebzzry.com/images/site/andriyko-podilnyk-zGQ17qQMaaM-unsplash-200
 How to Communicate Like a Human
 ===============================
 
-<div class="center">English ⊻ [Esperanto](/eo/homo/)</div>
 <div class="center">2017-03-05</div>
 
 >The ability to speak does not make you intelligent.<br>

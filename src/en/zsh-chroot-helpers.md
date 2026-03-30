@@ -1,12 +1,11 @@
 ---
-title: Zsh: Chroot Helpers
+title: Zsh Chroot Helpers
 keywords: zsh, tips, advice, shell, linux, configuration, setup, settings, chroot
 image: https://ebzzry.com/images/site/ali-lokhandwala-KUr51Y4dOyo-unsplash-2000x1125.jpg
 ---
-Zsh: Chroot Helpers
-===================
+Zsh Chroot Helpers
+==================
 
-<div class="center">English ⊻ [Esperanto](/eo/zisxo-sxangxradikighelpiloj/)</div>
 <div class="center">2017-10-20</div>
 
 >We laugh at that which we cannot bear to face.<br>

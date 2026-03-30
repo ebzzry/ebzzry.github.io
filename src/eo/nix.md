@@ -6,7 +6,6 @@ image: https://ebzzry.com/images/site/cris-tagupa-9ZXHUr5aCwM-unsplash-2000x1125
 Milda Enkonduko al la Nix-Familio
 =================================
 
-<div class="center">[English](/en/nix/) ⊻ Esperanto</div>
 <div class="center">2018-08-05</div>
 
 >Ne maltrankviliĝu pri tio, kion la aliaj faros. La plej bona maniero por antaŭdiri la estontecon estas por eltrovi ĝin.<br>—Alan KAY

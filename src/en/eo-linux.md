@@ -4,9 +4,8 @@ keywords: esperanto, linux, keyboard, characters, letters, configuration, setup,
 image: https://ebzzry.com/images/site/stefan-stefancik-6whwCHgsMiA-unsplash-2000x1125.jpg
 ---
 Esperanto Characters in Linux
-=================================
+=============================
 
-<div class="center">English ⊻ [Esperanto](/eo/eo-linukso/)</div>
 <div class="center">2016-04-19</div>
 
 >If you want something you’ve never had, you must be willing to do something you’ve never

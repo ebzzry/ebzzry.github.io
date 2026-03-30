@@ -6,7 +6,6 @@ image: https://ebzzry.com/images/site/jarno-colijn-CQGuK_JAuUI-unsplash-2000x112
 Functionally Illiterate: How to Be Dumb, Fast
 =============================================
 
-<div class="center">English ⊻ [Esperanto](/eo/funkcie-analfabeta/)</div>
 <div class="center">2025-11-15</div>
 
 >You don’t solve more with more. You solve it with less.<br>

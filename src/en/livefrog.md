@@ -6,7 +6,6 @@ image: https://ebzzry.com/images/site/stephanie-leblanc-xrE6Wwccy0U-unsplash-200
 Migrating from LiveJournal to Frog
 ==================================
 
-<div class="center">English ⊻ [Esperanto](/eo/livefrog/)</div>
 <div class="center">2014-03-13</div>
 
 >I don’t know where I’m going, but I’m on my way.<br>

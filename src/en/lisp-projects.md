@@ -1,12 +1,11 @@
 ---
-title: Lisp: How I Make Projects
+title: How I Make Projects
 keywords: lisp, projects, common lisp, linux, macos
 image: https://ebzzry.com/images/site/gwen-weustink-I3C1sSXj1i8-unsplash-2000x1125.jpg
 ---
-Lisp: How I Make Projects
-=========================
+How I Make Projects
+===================
 
-<div class="center">English ⊻ [Esperanto](/eo/lispo-projektoj/)</div>
 <div class="center">2025-08-04</div>
 
 >You have no idea what you’re trying to achieve until you’ve achieved it.<br>

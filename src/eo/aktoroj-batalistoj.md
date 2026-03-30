@@ -7,7 +7,6 @@ image: https://ebzzry.com/images/site/john-hernandez-IL-fBBnF-GU-unsplash-2000x1
 Aktoroj kaj Batalistoj: Teatroj kaj Sangoverŝoj
 ===============================================
 
-<div class="center">[English](/en/actors-warriors/) ⊻ Esperanto</div>
 <div class="center">2025-12-20</div>
 
 >Se oni vidas trompon kaj ne diras trompon, oni estas trompo.<br>

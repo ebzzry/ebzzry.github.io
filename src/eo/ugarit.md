@@ -6,7 +6,6 @@ image: https://ebzzry.com/images/site/omar-flores-lQT0bOWtysE-unsplash-2000x1125
 Krei Sekurkopiojn per Ugarit
 ============================
 
-<div class="center">[English](/en/ugarit/) ⊻ Esperanto</div>
 <div class="center">2018-02-18</div>
 
 >Bona juĝo devenas el sperto, kaj sperto devenas el malbona juĝo.<br>

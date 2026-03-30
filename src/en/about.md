@@ -6,7 +6,6 @@ image: https://ebzzry.com/images/site/ebzzry.jpg
 About
 =====
 
-<div class="center">English ⊻ [Esperanto](/eo/pri/)</div>
 
 <div>
 Rommel Martínez is a researcher with three decades of experience in software

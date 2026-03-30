@@ -1,12 +1,11 @@
 ---
-title: Emacs: Working with Directories
+title: Emacs Working with Directories
 keywords:emacs, dired, directory editor, configuration, setup, settings
 image: https://ebzzry.com/images/site/tom-barrett-wqQ4NNG0J28-unsplash-2000x1125.jpg
 ---
-Emacs: Working with Directories
-===============================
+Emacs Working with Directories
+==============================
 
-<div class="center">English ⊻ [Esperanto](/eo/emakso-dired/)</div>
 <div class="center">2013-08-27</div>
 
 >Supposing is good, but finding out is better.<br>

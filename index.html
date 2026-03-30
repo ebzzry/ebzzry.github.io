@@ -1,6 +1,22 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta http-equiv="refresh" content="0; url=/en/" />
-  </head>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Redirecting...</title>
+        <script>
+            const userLang = navigator.language || navigator.userLanguage;
+            if (userLang.startsWith("eo")) {
+                window.location.href = "/eo/";
+            } else {
+                window.location.href = "/en/";
+            }
+        </script>
+    </head>
+    <body>
+        <div style="text-align: center; padding: 50px">
+            <p>Redirecting...</p>
+            <p><a href="/en/">English</a> | <a href="/eo/">Esperanto</a></p>
+        </div>
+    </body>
 </html>

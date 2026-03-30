@@ -6,7 +6,6 @@ image: https://ebzzry.com/images/site/alain-pham-P0qvsF7Yodw-unsplash-2000x1125.
 How I Use Git on the Command Line
 =================================
 
-<div class="center">English ⊻ [Esperanto](/eo/gito/)</div>
 <div class="center">2019-07-30</div>
 
 >Conversely, those with persistence can ignore what others think. They can press

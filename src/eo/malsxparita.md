@@ -6,7 +6,6 @@ image: https://ebzzry.com/images/site/steve-johnson-zkNT5mikUuo-unsplash-2000x11
 Malŝparita Senĉeseco
 ====================
 
-<div class="center">[English](/en/squandered/) ⊻ Esperanto</div>
 <div class="center">2017-12-05</div>
 
 >La unua paŝo por iri ien estas decidi, ke oni ne restos kie oni estas.<br>
