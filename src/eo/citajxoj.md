@@ -538,8 +538,8 @@ tra la jaroj.
 - Oni trovas, ke granda malamiko de komunikado estas la iluzio de ĝi.<br>—William H. WHYTE
 
 
-- Virino kiu scias viron kiu scias kvar lingvojn, valoras kvin homojn.<br>—Jeanne Marie
-  CIÑO-MARTINEZ
+- Virino kiu scias viron kiu scias kvar lingvojn, valoras kvin homojn.<br>—Doktorino Jeanne Marie
+  CIÑO-MARTÍNEZ
 
 
 - Ni devas lerni, en komputiko, por stari sur la ŝultroj de niaj antaŭantoj, anstataŭ iliaj
@@ -1228,3 +1228,6 @@ tra la jaroj.
 
 
 - Se malakuratas liniilo, nekredindus ajna mezuro farita per tiu liniilo.<br>—Cory CHANG
+
+
+- Dateno per si mem ne signifas ion ajn.<br>—Noam CHOMSKY

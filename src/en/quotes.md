@@ -1242,3 +1242,6 @@ the years.
 
 
 - If your ruler is inaccurate any measurement made with that ruler would be untrustworthy.<br>—Cory Chang
+
+
+- Data in itself doesn’t tell you anything<br>—Noam Chomsky
