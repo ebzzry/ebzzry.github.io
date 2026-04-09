@@ -1231,3 +1231,6 @@ tra la jaroj.
 
 
 - Dateno per si mem ne signifas ion ajn.<br>—Noam CHOMSKY
+
+
+- Golfo estas ĉiam ludo de premo. Oni estas daŭre ŝirita inter ŝati fari je par, iri pli proksimen, aŭ bati ĝin fore; kaj time pafi ĝin ekster la baroj, tri-metado, kaj pinttuŝi la pilkon. Ĉiu svingo navigas inter la «ŝatoj» kaj la «malŝatoj.» Esence, ĝi estas pri kion oni gajnas el sukceson kontraŭ oni perdas el maksukceso. Ju pli granda la veto, des pli rigida oni fariĝas pro streĉo. Tio estas la premo de golfo.<br>—Igaiga, Hey! Tonbo
