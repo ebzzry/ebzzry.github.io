@@ -31,6 +31,7 @@ Kiel Mi Uzas Timukson
 - [Kromprogramoj](#kromprogramoj)
 - [Zonoj](#zonoj)
 - [Elprovado](#elprovado)
+- [Komandlinio](#komandlinio)
 - [Finrimarkoj](#finrimarkoj)
 
 
@@ -369,6 +370,153 @@ Fine, timukson reŝargu:
     $ tmux
 
 Se timukso plendas, ke mankas iom da kromprogramoj, je <kbd>C-z I</kbd> premu:
+
+
+<a name="komandlinio">Komandlinio</a>
+------------------------------
+
+Kaj jen la ŝela funkcio kiun mi uzas por regi timukson ĉe la komandlinio:
+
+```
+function tmux () {
+  local tmux= self= op=
+
+  if [[ -n "${BASH}" ]]; then
+    tmux=$(which tmux)
+    self=${FUNCNAME}
+  elif [[ -n "${ZSH_NAME}" ]]; then
+    tmux=$(whence -p tmux)
+    self=$0
+  else
+    echo "oi'o"
+    return 1
+  fi
+
+  if [[ $# -eq 0 ]]; then
+    if [[ -n "${BASH}" ]]; then
+      type "${self}" | less
+    elif [[ -n "${ZSH_NAME}" ]]; then
+      which "${self}" | less
+    else
+      echo "oi'o"
+      return 1
+    fi
+  else
+    op="$1"
+    shift
+
+    case "${op}" in
+      s) "${tmux}" status ;;
+      a) "${tmux}" attach "${@}" ;;
+
+      kb) "${tmux}" bind "${@}" ;;
+      ku) "${tmux}" unbind-key "${@}" ;;
+
+      ob) "${tmux}" choose-buffer "${@}" ;;
+      ol) "${tmux}" choose-client "${@}" ;;
+      ot) "${tmux}" choose-tree "${@}" ;;
+
+      ls) "${tmux}" list-buffers "${@}" ;;
+      lc) "${tmux}" list-clients "${@}" ;;
+      lC) "${tmux}" list-commands "${@}" ;;
+      lk) "${tmux}" list-keys "${@}" ;;
+      lp) "${tmux}" list-panes "${@}" ;;
+      lS) "${tmux}" list-sessions "${@}" ;;
+      lw) "${tmux}" list-windows "${@}" ;;
+
+      kp) "${tmux}" kill-pane "${@}" ;;
+      ks) "${tmux}" kill-server "${@}" ;;
+      kS) "${tmux}" kill-session "${@}" ;;
+      kw) "${tmux}" kill-window "${@}" ;;
+
+      dm) "${tmux}" display-menu "${@}" ;;
+      dM) "${tmux}" display-message "${@}" ;;
+      dp) "${tmux}" display-panes "${@}" ;;
+      dP) "${tmux}" display-popup "${@}" ;;
+
+      wf) "${tmux}" find-window "${@}" ;;
+      wl) "${tmux}" last-window "${@}" ;;
+      wL) "${tmux}" link-window "${@}" ;;
+      wm) "${tmux}" move-window "${@}" ;;
+      wn) "${tmux}" new-window "${@}" ;;
+      wN) "${tmux}" next-window "${@}" ;;
+      wP) "${tmux}" previous-window "${@}" ;;
+      wr) "${tmux}" rename-window "${@}" ;;
+      wz) "${tmux}" resize-window "${@}" ;;
+      wR) "${tmux}" respawn-window "${@}" ;;
+      wT) "${tmux}" rotate-window "${@}" ;;
+      ws) "${tmux}" select-window "${@}" ;;
+      wt) "${tmux}" split-window "${@}" ;;
+      ww) "${tmux}" swap-window "${@}" ;;
+      wu) "${tmux}" unlink-window "${@}" ;;
+
+      bd) "${tmux}" delete-buffer "${@}" ;;
+      bl) "${tmux}" load-buffer "${@}" ;;
+      bp) "${tmux}" paste-buffer "${@}" ;;
+      bs) "${tmux}" save-buffer "${@}" ;;
+      bS) "${tmux}" set-buffer "${@}" ;;
+      bh) "${tmux}" show-buffer "${@}" ;;
+
+      pb) "${tmux}" break-pane "${@}" ;;
+      pc) "${tmux}" capture-pane "${@}" ;;
+      pj) "${tmux}" join-pane "${@}" ;;
+      pl) "${tmux}" last-pane "${@}" ;;
+      pp) "${tmux}" pipe-pane "${@}" ;;
+      pz) "${tmux}" resize-pane "${@}" ;;
+      pR) "${tmux}" respawn-pane "${@}" ;;
+      ps) "${tmux}" select-pane "${@}" ;;
+      pw) "${tmux}" swap-pane "${@}" ;;
+
+      sh) "${tmux}" has-session "${@}" ;;
+      sl) "${tmux}" lock-session "${@}" ;;
+      sn) "${tmux}" new-session "${@}" ;;
+      sr) "${tmux}" rename-session "${@}" ;;
+
+      ln) "${tmux}" next-layout "${@}" ;;
+      lp) "${tmux}" previous-layout "${@}" ;;
+      ls) "${tmux}" select-layout "${@}" ;;
+
+      cd) "${tmux}" detach-client "${@}" ;;
+      cl) "${tmux}" lock-client "${@}" ;;
+      cr) "${tmux}" refresh-client "${@}" ;;
+      cp) "${tmux}" suspend-client "${@}" ;;
+      cs) "${tmux}" switch-client "${@}" ;;
+
+      he) "${tmux}" show-environment "${@}" ;;
+      hh) "${tmux}" show-hooks "${@}" ;;
+      hm) "${tmux}" show-messages "${@}" ;;
+      ho) "${tmux}" show-options "${@}" ;;
+      hw) "${tmux}" show-window-options "${@}" ;;
+
+      ee) "${tmux}" set-environment "${@}" ;;
+      eh) "${tmux}" set-hook "${@}" ;;
+      eo) "${tmux}" set-option "${@}" ;;
+      ew) "${tmux}" set-window-option "${@}" ;;
+
+      xk) "${tmux}" send-keys "${@}" ;;
+      xp) "${tmux}" send-prefix "${@}" ;;
+
+      Sl) "${tmux}" lock-server "${@}" ;;
+      Ss) "${tmux}" start-server "${@}" ;;
+      Si) "${tmux}" server-info "${@}" ;;
+
+      zi) "${tmux}" if-shell "${@}" ;;
+      zr) "${tmux}" run-shell "${@}" ;;
+
+      xs) "${tmux}" source-file "${@}" ;;
+      xy) "${tmux}" copy-mode "${@}" ;;
+      xh) "${tmux}" clear-history "${@}" ;;
+      xc) "${tmux}" clock-mode "${@}" ;;
+      xp) "${tmux}" command-prompt "${@}" ;;
+      xC) "${tmux}" confirm-before "${@}" ;;
+      xu) "${tmux}" customize-mode "${@}" ;;
+      xw) "${tmux}" wait-for "${@}" ;;
+
+      *) "${tmux}" "${op}" "${@}" ;;
+    esac
+  fi
+}
+```
 
 
 <a name="finrimarkoj">Finrimarkoj</a>
