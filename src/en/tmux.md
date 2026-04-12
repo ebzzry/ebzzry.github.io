@@ -409,12 +409,12 @@ function tmux () {
       ol) "${tmux}" choose-client "${@}" ;;
       ot) "${tmux}" choose-tree "${@}" ;;
 
-      ls) "${tmux}" list-buffers "${@}" ;;
+      lb) "${tmux}" list-buffers "${@}" ;;
       lc) "${tmux}" list-clients "${@}" ;;
       lC) "${tmux}" list-commands "${@}" ;;
       lk) "${tmux}" list-keys "${@}" ;;
       lp) "${tmux}" list-panes "${@}" ;;
-      lS) "${tmux}" list-sessions "${@}" ;;
+      ls) "${tmux}" list-sessions "${@}" ;;
       lw) "${tmux}" list-windows "${@}" ;;
 
       kp) "${tmux}" kill-pane "${@}" ;;
