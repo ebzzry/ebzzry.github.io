@@ -377,7 +377,7 @@ Se timukso plendas, ke mankas iom da kromprogramoj, je <kbd>C-z I</kbd> premu:
 
 Kaj jen la ŝela funkcio kiun mi uzas por regi timukson ĉe la komandlinio:
 
-```
+```shell
 function tmux () {
   local tmux= self= op=
 

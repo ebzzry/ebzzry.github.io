@@ -370,7 +370,7 @@ If tmux complains that you are missing some plugins, press <kbd>C-z I</kbd>.
 
 Here’s the shell function that I use for controlling tmux on the command line.
 
-```
+```shell
 function tmux () {
   local tmux= self= op=
 
