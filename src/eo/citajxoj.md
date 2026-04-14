@@ -1237,3 +1237,6 @@ tra la jaroj.
 
 
 - Ni ne povas elekti kiel ni mortas. Sed ni povas elekti elekti kiel ni vivas. Ni povas elekti kiel niaj vivoj devus esti.<br>—Dusty, Hey! Tonbo
+
+
+- Anstataŭ cerbumi pri estintaj eraroj, mi fokusas al ĉi tiu pafo, kaj kio venos sekve.<br>—Dusty, Hey! Tonbo

@@ -1251,3 +1251,6 @@ the years.
 
 
 - We can’t choose how we die. But we can choose how we live. We can choose what our life should be.<br>—Dusty, Hey! Tonbo
+
+
+- Instead of dwelling on past mistakes, I focus on this shot and what comes next.<br>—Dusty, Hey! Tonbo
