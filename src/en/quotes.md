@@ -1248,3 +1248,6 @@ the years.
 
 
 - Golf is always a game of pressure. You're constantly torn between wanting to make par, get closer, or hit it far; and dreading hitting out of bounds, three-putting, or duffing the ball. Every swing navigates between the “wants” and the “don't wants.” Essentially, it boils down to what you gain form success versus what you lose from failure. The greater the stakes, the stiffer you become with tension. That’s the pressure of golf.<br>—Igaiga, Hey! Tonbo
+
+
+- We can’t choose how we die. But we can choose how we live. We can choose what our life should be.<br>—Dusty, Hey! Tonbo

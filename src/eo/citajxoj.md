@@ -1234,3 +1234,6 @@ tra la jaroj.
 
 
 - Golfo estas ĉiam ludo de premo. Oni estas daŭre ŝirita inter ŝati fari je par, iri pli proksimen, aŭ bati ĝin fore; kaj time pafi ĝin ekster la baroj, tri-metado, kaj pinttuŝi la pilkon. Ĉiu svingo navigas inter la «ŝatoj» kaj la «malŝatoj.» Esence, ĝi estas pri kion oni gajnas el sukceson kontraŭ oni perdas el maksukceso. Ju pli granda la veto, des pli rigida oni fariĝas pro streĉo. Tio estas la premo de golfo.<br>—Igaiga, Hey! Tonbo
+
+
+- Ni ne povas elekti kiel ni mortas. Sed ni povas elekti elekti kiel ni vivas. Ni povas elekti kiel niaj vivoj devus esti.<br>—Dusty, Hey! Tonbo
