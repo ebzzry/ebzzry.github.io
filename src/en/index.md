@@ -7,7 +7,7 @@ image: https://ebzzry.com/images/site/tim-stief-YFFGkE3y4F8-unsplash-2000x1125.j
 Musings of an Optimist
 ======================
 
-<img src="/images/site/tim-stief-YFFGkE3y4F8-unsplash-2000x1125.jpg" style="" class="banner"/>
+<img src="/images/site/alien-2000x1125.jpg" style="" class="banner"/>
 
 <div class="text-right">A microsite about computing, human predilections, and random krakaboom. The entries are sorted in reverse chronological order.</div>
 
