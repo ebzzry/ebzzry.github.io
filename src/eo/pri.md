@@ -8,6 +8,7 @@ Pri
 
 
 <div>
+<img src="/images/site/big-band.svg" style="float: right; width: 50%; margin: 0px 0px 0px 10px">
 Rommel Martínez estas esploristo kun tri jardekoj da sperto en programado; sistemadministrado; kaj programlingva teorio kaj desegnado.
 
 Interesas al li la sinteza konscio, la rezonado, la scio, la informo, la mensoj,

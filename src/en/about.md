@@ -6,8 +6,9 @@ image: https://ebzzry.com/images/site/ebzzry.jpg
 About
 =====
 
-
 <div>
+<img src="/images/site/big-band.svg" style="float: right; width: 50%; margin: 0px 0px 0px 10px">
+
 Rommel Martínez is a researcher with three decades of experience in software
 engineering; systems administration; and programming language theory.
 
