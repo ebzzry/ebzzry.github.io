@@ -1254,3 +1254,6 @@ the years.
 
 
 - Instead of dwelling on past mistakes, I focus on this shot and what comes next.<br>—Dusty, Hey! Tonbo
+
+
+- Before all else, be armed.<br>—Niccolò Machiavelli

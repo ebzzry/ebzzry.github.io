@@ -1240,3 +1240,6 @@ tra la jaroj.
 
 
 - Anstataŭ cerbumi pri estintaj eraroj, mi fokusas al ĉi tiu pafo, kaj kio venos sekve.<br>—Dusty, Hey! Tonbo
+
+
+- Antaŭ io ajn, estu armite.<br>–Niccolo MAKIAVELO
