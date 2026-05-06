@@ -31,6 +31,9 @@ in chronological order.
 - Challenge. Persist. Conquer.<br>
 
 
+- Suddenly, nothing appeared.<br>
+
+
 - Unless we will have the boldness and audacity to drive them away, our greatest
   fears will not leave us. If, however, they are there to stay, then we should
   have the strength and courage to tame them.<br>
@@ -562,3 +565,6 @@ in chronological order.
 
 
 - If it is not a matter of life and death, then what is it a matter of?<br>
+
+
+- It is not enough that you win; it is equally important that the enemy loses.<br>

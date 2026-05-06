@@ -32,6 +32,9 @@ ordigitaj laŭ kronologiordo.
 - Kontraŭstaru. Daŭru. Venku.<br>
 
 
+- Subite, nenio aperis.<br>
+
+
 - Krom se ni havos la aŭdacon kaj kuraĝon por forpeli ilin, niaj plej grandaj
   timoj ne forlasos nin. Tamen, se ili estas ĉi tie por ripozi, tiam ni devus
   havi la forton kaj kuraĝon por dresi ilin.<br>
@@ -554,3 +557,6 @@ ordigitaj laŭ kronologiordo.
 
 
 - Se ne estas la afero pri vivi aŭ morti do pri kio la afero estas?<br>
+
+
+- Ne sufiĉas ke oni venkas; estas egale sufiĉe ke la malamiko malvenkas.<br>
