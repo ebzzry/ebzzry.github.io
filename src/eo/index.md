@@ -7,7 +7,7 @@ image: https://ebzzry.com/images/site/tim-stief-YFFGkE3y4F8-unsplash-2000x1125.j
 Pensoj de Optimisto
 ===================
 
-<img src="/images/site/alien-2000x1125.jpg" style="" class="banner"/>
+<img src="/images/site/fairways-and-bluewater-2000x1125.jpg" style="" class="banner"/>
 
 <div class="text-right">Eta retejo pri informadiko, hominklinaĵoj, kaj hazardaĵoj. La enskriboj estas ordigitaj laŭ inverskronologiordo.</div>
 
