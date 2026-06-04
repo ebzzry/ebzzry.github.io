@@ -146,8 +146,7 @@ ie, en aliaj fakoj.
 <a name="neludantoj">Neludantoj</a>
 -----------------------------------
 
-Dum la pasinta jardeko, estas provado bridi min komenti pri iu temo, la
-*parolistoj*. Dum la pasinta jardeko, mi vidis alfluon de konferencoj, seminarioj,
+Tiam estas la *parolistoj*. Dum la pasinta jardeko, mi vidis alfluon de konferencoj, seminarioj,
 kaj simpozioj pri «Teĥnologio», «Modoj», ktp. Tio kio estas plorinda estas ke la
 ĉefhomoj parolante pri tiuj temoj scias nenion pri la temoj. Mi, iumaniere,
 trovis min mem en malkomfortaj situacioj ke mi demandas la spertulon, rekte,

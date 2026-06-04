@@ -1257,3 +1257,6 @@ the years.
 
 
 - Before all else, be armed.<br>—Niccolò Machiavelli
+
+
+- When you have clarity of purpose, and you’re doing something you love, every day can be a joy and that joy can spread to others.<br>—Ronnie Chieng, 2026

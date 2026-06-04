@@ -142,8 +142,7 @@ thinking not present in other fields.
 <a name="non-players">Non-players</a>
 -------------------------------------
 
-For the past decade, I have been trying so hard to restrain myself to comment on
-a topic, the *orators*. During the past decade, I have seen an influx of
+There are what I call the *orators*. During the past decade, I have seen an influx of
 conferences, seminars, and symposia about «Technology», «Trends», etc. What’s
 egregious is that the main people talking about those topics know nothing about
 those things. I somehow always find myself in uncomfortable situations wherein I
@@ -152,7 +151,7 @@ the presentation, more often, after. I thought that politicians are good at
 dodging questions that are sensitive in nature. But lo and behold, I soon
 discovered that the orators are actually better at it.
 
-Then, there are the *outlanders*. These people have no real interest with CS, have
+Then, there are the *outsiders*. These people have no real interest with CS, have
 no technical proficiencies, and have nothing to contribute to the discussion.
 The most interaction they have with machines was playing videogames. These are
 the people that make a lot of noise on social media. They talk about the latest
@@ -166,7 +165,7 @@ run-of-the-mill enthusiasts. At best, they’re just operators.
 In any kind of market, there are different kinds of players. In a free market,
 specifically, every participant is given a chance to make it big. One of most
 important driving forces in a free market is competition as framed and
-determined by supply and demand. The orators and outlanders have nothing to
+determined by supply and demand. The orators and outsiders have nothing to
 contribute. They eat up the valuable space for aspiring players. They hog
 discussions about inventions and innovations. They appear in mainstream media
 with microphones. They lobby in the senate. They pump more and more air to

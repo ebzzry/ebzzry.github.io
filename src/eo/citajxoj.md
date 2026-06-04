@@ -1243,3 +1243,6 @@ tra la jaroj.
 
 
 - Antaŭ io ajn, estu armite.<br>–Niccolo MAKIAVELO
+
+
+- Kiam oni havas klarecon de celo, kaj oni faras tion kion oni amas, ĉiu tago povas esti ĝojema kaj tiu ĝojo povas disflori al aliuloj.<br>—Ronnie CHIENG, 2026
