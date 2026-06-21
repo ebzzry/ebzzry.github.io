@@ -136,8 +136,8 @@ choices, like “yes” or “no”.
 >“Juan, have you stopped cheating on your wife?”
 
 This is fallacious because the speaker assumes that Juan has cheated, at least once on his wife. If
-Juan answers “Yes.”, then he has cheated on his wife before, and that he has already stopped. If
-Juan answers “No.”, then he has cheated before, and still continues to cheat on her.
+Juan answers “Yes” then he has cheated on his wife before, and that he has already stopped. If
+Juan answers “No” then he has cheated before, and still continues to cheat on her.
 
 
 <a name="falsedichotomy">False dichotomy</a>
@@ -191,7 +191,7 @@ percentage is applied to the entire composition.
 >Panda pen. That means, I won’t be able to find such a pen in the whole country.”
 
 The speaker has given up the possibility that such a pen may exist, in one or more of the stores
-that he hasn’t visited, yet.
+that they haven't visited, yet.
 
 
 <a name="burden">Burden of proof</a>
@@ -284,7 +284,7 @@ used to disprove the claims of another person.
 >“The theory of evolution is wrong, because Kulas, who is a scientist, said that he doesn’t believe
 >in it.”
 
-Just because someone is a scientist, doesn’t mean that he supports
+Just because someone is a scientist, doesn’t mean that they support
 the [theory of evolution](http://notjustatheory.com/). It is likely that even if he is a scientist,
 he doesn’t understand the said theory.
 
@@ -298,7 +298,7 @@ very difficult to verify the validity of the claims.
 >“Experts agree that drinking a glass of Meh Juice everyday will make you healthier.”
 
 This fails because of the failure to specify who these so-called *experts* are. When asked to
-specify who these experts are, he will resort to tactics to elude the question.
+specify who these experts are, they will resort to tactics to elude the question.
 
 
 <a name="falseauthority">Appeal to false authority</a>

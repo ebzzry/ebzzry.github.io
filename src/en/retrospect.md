@@ -50,7 +50,7 @@ answer, myself, as if trying to find my own way back home.
 At one point, someone knocked on my door—it was Regret. Despite their seemingly pitiful state, I
 declined to let them in, no matter how persistent they were. I knew that the moment I let them in, he’d
 feel immediately welcome for themself, and feel comfortable around the place, as if it was theirs. Every
-time he knocked on my door, he asked if he was welcome. I boldly said _“No.”_, every single time. I
+time they knocked on my door, they asked if they were welcome. I boldly said _“No.”_, every single time. I
 would have told myself that had I not done it, I would have not experienced the pain. This is wrong
 in many ways, because had I not done it, I wouldn’t be there in the first place, to ask that
 question. The ability to ask that question was a testimony to the experience. Hindsight is 20/20.

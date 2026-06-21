@@ -1246,3 +1246,7 @@ tra la jaroj.
 
 
 - Kiam oni havas klarecon de celo, kaj oni faras tion kion oni amas, ĉiu tago povas esti ĝojema kaj tiu ĝojo povas disflori al aliuloj.<br>—Ronnie CHIENG, 2026
+
+
+- Mi ne plendas pri malbonpafoj ĉar mi ne povas malfari ilin.<br>—Samuel Jackson
+

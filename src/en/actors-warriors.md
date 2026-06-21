@@ -146,7 +146,7 @@ There are what I call the *orators*. During the past decade, I have seen an infl
 conferences, seminars, and symposia about «Technology», «Trends», etc. What’s
 egregious is that the main people talking about those topics know nothing about
 those things. I somehow always find myself in uncomfortable situations wherein I
-ask the expert, directly, questions about what he presented, sometimes during
+ask the expert, directly, questions about what they presented, sometimes during
 the presentation, more often, after. I thought that politicians are good at
 dodging questions that are sensitive in nature. But lo and behold, I soon
 discovered that the orators are actually better at it.

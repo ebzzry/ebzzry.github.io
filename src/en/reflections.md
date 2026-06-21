@@ -555,7 +555,7 @@ in chronological order.
 - A perfectly egalitarian system can’t exist because people are not the same. Some are leaders, while some are followers. Some are males, while some are females. Some are young, and some are old.<br>
 
 
-- When does a socialist become a capitalist? When he makes money.<br>
+- When does a socialist become a capitalist? When they make money.<br>
 
 
 - If every sector of society has their own rules of what consitutes fairness and equality, and demands them to be absolute, how will they be defined?<br>

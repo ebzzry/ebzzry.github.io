@@ -83,7 +83,7 @@ take into account several factors including the variability of interpretation. J
 clearly understand what we are saying does not mean that the other side of the communication
 understands it as well as we do. Were we able to sufficiently provide enough background and context
 to the communicate? Were we able to accurately transfer our mental image of the ideas to the
-listener? Is he able to construct my thought processes as accurately as I want it to be? If just one
+listener? Are they able to construct my thought processes as accurately as I want it to be? If just one
 of those questions is answered by a no, then we need to reassess how are we communicating.
 
 
@@ -91,7 +91,7 @@ of those questions is answered by a no, then we need to reassess how are we comm
 
 When one needs to communicate messages to someone that do not possess the same mental faculties as
 the communicator, adjustments have to be made. Every one of us process things differently. A chess
-grandmaster should bear in mind that when he is teaching a beginner, the student can only understand
+grandmaster should bear in mind that when they are teaching a beginner, the student can only understand
 so much. They can’t go ham and make them understand advanced topics. There is an impregnable wall; that
 wall only becomes thin with time.
 
@@ -177,7 +177,7 @@ are uttered, messages are communicated. When someone is speaking to you, maintai
 trick is not to look directly at the eyes, but somewhere between the bridge, or just a centimeter
 around the line where the eyebrows meet. To make it more engaging, briefly look on the sides, or
 downwards, then go back to the eye area. Do not, however, look at other parts of a person’s body
-during this process—it may signal to them that you are not paying attention to what he is saying.
+during this process—it may signal to them that you are not paying attention to what they are saying.
 
 
 <a name="miscellany">Miscellany</a>
