@@ -146,34 +146,33 @@ ie, en aliaj fakoj.
 <a name="neludantoj">Neludantoj</a>
 -----------------------------------
 
-Tiam estas la *parolistoj*. Dum la pasinta jardeko, mi vidis alfluon de konferencoj, seminarioj,
-kaj simpozioj pri «Teĥnologio», «Modoj», ktp. Tio kio estas plorinda estas ke la
-ĉefhomoj parolante pri tiuj temoj scias nenion pri la temoj. Mi, iumaniere,
-trovis min mem en malkomfortaj situacioj ke mi demandas la spertulon, rekte,
-demandojn pri tio kion li ĵus prezentis, kelkfoje dum la prelego, plej ofte,
-poste. Mi unue pensis, ke politikistoj estas lertaj en eviti delikatajn
-demandojn. Sed, mi baldaŭ malkovris ke la parolistoj, fakte, estas pli lertaj
-pri tio.
+Tiam estas la *parolistoj*. Dum la pasinta jardeko, mi vidis alfluon de konferencoj, seminarioj, kaj
+simpozioj pri «Teĥnologio», «Modoj», ktp. Tio kio estas plorinda estas ke la ĉefhomoj parolante pri
+tiuj temoj scias nenion pri la temoj. Mi, iumaniere, trovis min mem en malkomfortaj situacioj ke mi
+demandas la spertulon, rekte, demandojn pri tio kion li ĵus prezentis, kelkfoje dum la prelego, plej
+ofte, poste. Mi unue pensis, ke politikistoj estas lertaj en eviti delikatajn demandojn. Sed, mi
+baldaŭ malkovris ke la parolistoj, fakte, estas pli lertaj pri tio.
 
-Tiam, estas la *eksteruloj*. Ili ne havas veran intereson al komputiko, ne havas
-teĥnikajn kapablojn, kaj nenion havas por kontribui al diskutoj. La plej
-profunda sperto kion ili havas per maŝinoj estas ludi videoludojn. Ili estas la
-homoj kiuj kreas multe da bruo ĉe sociaj retoj. Ili parolas pri la plej freŝaj
-modoj. Ili parolas pri Web 3.0, Sekurado de Informacioj, Blokĉeno, Ĉifrovaluto,
-Neanstataŭigeblaj Pruvoj, Artefarita Inteligenteco, kaj pri ion ajn kion ili
-deziras enpartopreni. La kvanto de propagando kiun ili havas estas inverse
-proporcie al la kvanto de teĥnika scio, kion ili havas en tiuj domajnoj. Kelke
-da ili estas domkleristoj, leĝistoj, bankistoj, kontistoj, ŝtatoficistoj, kaj la
-ordinaraj amatoroj. Plej bone, ili estas operaciantoj.
+Tiam, estas la *eksteruloj*. Ili ne havas veran intereson al komputiko, ne havas teĥnikajn
+kapablojn, kaj nenion havas por kontribui al diskutoj. Ili estas la homoj kiuj kreas multe da bruo
+ĉe sociaj retoj. Ili parolas pri la plej freŝaj modoj. Ili parolas pri Web 3.0, Sekurado de
+Informacioj, Blokĉeno, Ĉifrovaluto, Neanstataŭigeblaj Pruvoj, Artefarita Inteligenteco, kaj pri ion
+ajn kion ili deziras enpartopreni. La kvanto de propagando kiun ili havas estas inverse proporcie al
+la kvanto de teĥnika scio, kion ili havas en tiuj domajnoj. Kelke da ili estas domkleristoj,
+leĝistoj, bankistoj, kontistoj, ŝtatoficistoj, kaj la ordinaraj amatoroj.
 
-En ia ajn tipo de merkato, ekzistas diversaj ludantoj. En libera merkato,
-specife, ĉiu partoprenanto havas ŝancon por esti sukcesa. Unu el la plej kernaj
-fortoj en libera merkato estas konkurso kiel enkadrigita kaj precizigita de
-provizo kaj postulo. La parolistoj kaj eksterteruloj kontribuas nenion. Ili uzas
-valoran spacon dediĉataj al aspirantoj. Ili akaparas diskutojn pri eltrovoj kaj
-novigadoj. Ili aperas en la plimulta medio kun mikrofonoj. Ili lobias ĉe la
-senato. Ili elpumpas pli kaj pli da aero nur por sinprofiti. Ili ne zorgas pri
-la kresko de la ekonomio.
+Laste, estas la *operciantoj*. Ili estas la pseŭdo-inĝenieroj. Ili malamas siajn postenojn. Ili
+registriĝis en unu-semajnaj programoj sed parolas kiel ili jam faras tion dum la pasintaj dek jaroj.
+Kiel la nomo implicas, ili estas tiuj kiuj operacias sistemojn sekvantaj instrukciojn el malbone
+skribitaj dokumentaroj. Ilia ĉiutaga rutino estas sekvi kuirlibrajn instrukciojn. Ili ne povas fari
+ŝanĝojn al la sistemo ĉar ili ne komprenas ilin.
+
+En ia ajn tipo de merkato, ekzistas diversaj ludantoj. En libera merkato, specife, ĉiu partoprenanto
+havas ŝancon por esti sukcesa. Unu el la plej kernaj fortoj en libera merkato estas konkurso kiel
+enkadrigita kaj precizigita de provizo kaj postulo. La parolistoj kaj eksterteruloj kontribuas
+nenion. Ili uzas valoran spacon dediĉataj al aspirantoj. Ili akaparas diskutojn pri eltrovoj kaj
+novigadoj. Ili aperas en la plimulta medio kun mikrofonoj. Ili lobias ĉe la senato. Ili elpumpas pli
+kaj pli da aero nur por sinprofiti. Ili ne zorgas pri la kresko de la ekonomio.
 
 
 <a name="organizoj">Organizoj</a>

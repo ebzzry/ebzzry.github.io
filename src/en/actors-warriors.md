@@ -142,25 +142,27 @@ thinking not present in other fields.
 <a name="non-players">Non-players</a>
 -------------------------------------
 
-There are what I call the *orators*. During the past decade, I have seen an influx of
-conferences, seminars, and symposia about «Technology», «Trends», etc. What’s
-egregious is that the main people talking about those topics know nothing about
-those things. I somehow always find myself in uncomfortable situations wherein I
-ask the expert, directly, questions about what they presented, sometimes during
-the presentation, more often, after. I thought that politicians are good at
-dodging questions that are sensitive in nature. But lo and behold, I soon
-discovered that the orators are actually better at it.
+There are what I call the *orators*. During the past decade, I have seen an influx of conferences,
+seminars, and symposia about «Technology», «Trends», etc. What’s egregious is that the main people
+talking about those topics know nothing about those things. I somehow always find myself in
+uncomfortable situations wherein I ask the expert, directly, questions about what they presented,
+sometimes during the presentation, more often, after. I thought that politicians are good at dodging
+questions that are sensitive in nature. But lo and behold, I soon discovered that the orators are
+actually better at it.
 
-Then, there are the *outsiders*. These people have no real interest with CS, have
-no technical proficiencies, and have nothing to contribute to the discussion.
-The most interaction they have with machines was playing videogames. These are
-the people that make a lot of noise on social media. They talk about the latest
-trends. They talk about Web 3.0, Cybersecurity, Blockchain, Cryptocurrency, NFT,
-Artificial Intelligence, and just about any space that they want to hop on. The
-amount of publicity that they have is inversely proportional to the amount of
-technical knowledge they have over those domains. Some of them are real estate
-agents, practicing lawyers, bankers, accountants, civil servants, and the
-run-of-the-mill enthusiasts. At best, they’re just operators.
+Then, there are the *outsiders*. They have no real interest with CS, have no technical
+proficiencies, and have nothing to contribute to the discussion. These are the people that make a
+lot of noise on social media.  They talk about the latest trends. They talk about Web 3.0,
+Cybersecurity, Blockchain, Cryptocurrency, NFT, Artificial Intelligence, and just about any space
+that they want to hop on. The amount of publicity that they have is inversely proportional to the
+amount of technical knowledge they have over those domains. Some of them are real estate agents,
+practicing lawyers, bankers, accountants, civil servants, and the run-of-the-mill enthusiasts.
+
+Lastly, there are the *operators*. They are the pseudo-engineers. They despise their jobs. They
+enrolled in one-week bootcamp programs but talk like they’ve been doing it for ten years. As the
+name implies, they are the ones that operate systems following instructions from poorly-written
+documentation. Their daily routine is to follow cookbook instructions. They can't make changes to
+the system because they don't understand them.
 
 In any kind of market, there are different kinds of players. In a free market,
 specifically, every participant is given a chance to make it big. One of most
