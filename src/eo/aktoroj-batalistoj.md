@@ -43,7 +43,7 @@ programada sektoro ĉar mi estas tie en ĝi.
 -----------------------
 
 Mi jam estas en la programara industrio dum la pasintaj tridek jaroj. Mi
-komencis longe antaŭ ĝi eĉ estas nomita «Teĥnologio». Mi jam rigardis furorojn
+komencis longe antaŭ ĝi eĉ estas nomita _Teĥnologio_. Mi jam rigardis furorojn
 altiĝis kaj malplialtiĝis. Mi jam spektis kiel aferoj evoluis dum la kurso de
 tiuj jaroj. Mi nun ĉefas mian propran ekfirmaon, parte kiel respondo al tio kion
 mi vidas en la lando; parte pro patriismo. Estas tialoj kial la teĥnologiaj
@@ -112,7 +112,7 @@ Multe da tio kio okazas ene estas konjektoj. Studantoj diplomiĝas scii nenion
 kaj igi ilin tute ne dungeblaj.
 
 Antaŭ ne longe, mi renkontis aferojn kiuj ŝajnis nereala, sed estis tute reala.
-Unu el tiuj universitataj programoj estas nomata «Operaciumoj». Unue ĝi estis
+Unu el tiuj universitataj programoj estas nomata _Operaciumoj_. Unue ĝi estis
 impresa al mi, ke tiuj lernejoj havas ilin. Bedaŭrinde, kontraŭ pli profunda
 ekzameno, mi malkovris ke studantoj estas nur instruitaj kiel uzi simulilojn por
 kompreni kiel sistemoj funkcias. Ili ne estas instruitaj kiel maŝinoj funkcias.
@@ -123,11 +123,11 @@ iometajn ideojn pri la vera kulturo de vera komputiko. Ili vidas la edukan
 programon kiel uzi komputilojn por aplikita uzado en bagateloj domajnoj.
 
 Tre baldaŭe, mi malkovris, ke tio estis nur la pinto de la glacimonto. Sub
-programoj kiuj estas etikedita «Programado», mi malkovris, ke la profesoroj kaj
+programoj kiuj estas etikedita _Programado_, mi malkovris, ke la profesoroj kaj
 instruistoj ne scias kiel krei realajn programojn, krom la
-«Saluton, Mondo»-programoj. Studantoj ricevas bagatelojn taskojn por plenumi,
+_Saluton, Mondo_-programoj. Studantoj ricevas bagatelojn taskojn por plenumi,
 por ke ili pasu la temon. Tio kio estis pli malbona estas aferoj nomita
-«Kodummaratonoj» aŭ kiel ajn ili estas nomita nun. Homoj vere kredas, ke oni
+_Kodummaratonoj_ aŭ kiel ajn ili estas nomita nun. Homoj vere kredas, ke oni
 povas trovi realan inĝenieran kapablon en eventoj kiel tio. La situacio
 antaŭe—kiam mi estas dek ses-arulo, kaj la situacio nun, estas tre multe same.
 Ŝanĝiĝis nenio. Ne estas lernejoj en la Filipinoj kun programadaj programoj kiuj
@@ -146,8 +146,8 @@ ie, en aliaj fakoj.
 <a name="neludantoj">Neludantoj</a>
 -----------------------------------
 
-Tiam estas la *parolistoj*. Dum la pasinta jardeko, mi vidis alfluon de konferencoj, seminarioj, kaj
-simpozioj pri «Teĥnologio», «Modoj», ktp. Tio kio estas plorinda estas ke la ĉefhomoj parolante pri
+Estas la *parolistoj*. Dum la pasinta jardeko, mi vidis alfluon de konferencoj, seminarioj, kaj
+simpozioj pri _Teĥnologio_, _Modoj_, ktp. Tio kio estas plorinda estas ke la ĉefhomoj parolante pri
 tiuj temoj scias nenion pri la temoj. Mi, iumaniere, trovis min mem en malkomfortaj situacioj ke mi
 demandas la spertulon, rekte, demandojn pri tio kion li ĵus prezentis, kelkfoje dum la prelego, plej
 ofte, poste. Mi unue pensis, ke politikistoj estas lertaj en eviti delikatajn demandojn. Sed, mi
@@ -211,7 +211,7 @@ La programlingvoj estas tiuj kiuj estas popularaj ĉe TIOBE. La inĝenieroj vena
 el trejnadaj kampoj. Kolektive, ĉi tio rezultas al inflacio de perceptita
 valoro.  Ĝi donas la impreson de kapablo produkti eĉ ekzistas nenio. Ekonomie,
 ĉi tio estas negative profite. Tutaj adreseblaj merkatoj fariĝas imagaj. Estas
-malvenko-malvenka situacio. Sed se vi vidas programaron kiu estas «kreita» per
+malvenko-malvenka situacio. Sed se vi vidas programaron kiu estas _kreita_ per
 firmao, en Filipinoj, anticipu ke ĝi estas subkontraktita ekster la lando. Vi
 scias kiuj landoj estas ili. Vi scias kien la mono fluus.
 
@@ -219,7 +219,7 @@ Programaraj firmaoj ne strebas provizi defiojn. Ili nur taksas programarojn kiel
 maniero por atingi celon, sed ne estas la celo mem. Regantaroj sekvas la plej
 freŝajn novaĵojn kaj modojn, kaj dedicas iliajn egajn teĥnikajn ilarajn ŝanĝojn
 bazita el tio kion ili ĵus renkontis. Plejmulte da pragramaraj firmaoj, ironie,
-ne havas la «kodumulan» kulturon. Kodumulo, ĉi tie, estas en la originala
+ne havas la _kodumulan_ kulturon. Kodumulo, ĉi tie, estas en la originala
 signifo ĉe la MIT AI laboratorio—Homo kiu ĝuas esplori la detalojn de
 programeblaj sistemoj kaj kiel streĉi ĝiajn kapablojn, kontraste al tiuj kutimaj
 uzantoj, kiuj preferas lerni nur la necesan minimumon. Tio kio estas videbla

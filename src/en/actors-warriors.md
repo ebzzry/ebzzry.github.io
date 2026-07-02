@@ -42,7 +42,7 @@ industry since that’s where I am in.
 -----------------------------------
 
 I have been in the software industry for thirty years already. I started long
-before it was even remotely called «Tech». I have seen fads go up and down. I
+before it was even remotely called _Tech_. I have seen fads go up and down. I
 have witnessed how things have evolved through the course of those years. I now
 head my own startup, partly as a response to what I’ve been seeing in the
 country; partly due to patriotism. There are many reasons why the tech jobs are
@@ -109,7 +109,7 @@ happening inside are guesswork. Students graduate knowing nothing and render
 themselves being completely unhirable.
 
 Not too long ago, I have encountered things that seemed unreal, but were real.
-One of those university programs is called «Operating Systems». I was impressed
+One of those university programs is called _Operating Systems_. I was impressed
 at first that these schools offered them. However, upon closer examination, I
 discovered that students are taught to just use simulated tools to understand
 how systems work. They are not taught how machines work. They are not taught how
@@ -120,10 +120,10 @@ Computer Science (CS). They see the education program as just using computers
 for applied usage in trivial domains.
 
 Soon after, I discovered that it was just the tip of the iceberg. Under programs
-that are labeled «Software Engineering», I discovered that the professors and
-instructors have not written real software, aside from «Hello World» programs.
+that are labeled _Software Engineering_, I discovered that the professors and
+instructors have not written real software, aside from _Hello World_ programs.
 Students are given trivial tasks to complete, in order to pass a subject. What’s
-worse are these things «Hackathons» or whatever they’re called now. People
+worse are these things _Hackathons_ or whatever they’re called now. People
 really believe that you can find true engineering skills with events like those.
 The situation before, when I was 16 years old, and the situation now, are still
 very much the same. Nothing has changed. There are no schools in the Philippines
@@ -143,7 +143,7 @@ thinking not present in other fields.
 -------------------------------------
 
 There are what I call the *orators*. During the past decade, I have seen an influx of conferences,
-seminars, and symposia about «Technology», «Trends», etc. What’s egregious is that the main people
+seminars, and symposia about _Technology_, _Trends_, etc. What’s egregious is that the main people
 talking about those topics know nothing about those things. I somehow always find myself in
 uncomfortable situations wherein I ask the expert, directly, questions about what they presented,
 sometimes during the presentation, more often, after. I thought that politicians are good at dodging
@@ -164,14 +164,13 @@ name implies, they are the ones that operate systems following instructions from
 documentation. Their daily routine is to follow cookbook instructions. They can't make changes to
 the system because they don't understand them.
 
-In any kind of market, there are different kinds of players. In a free market,
-specifically, every participant is given a chance to make it big. One of most
-important driving forces in a free market is competition as framed and
-determined by supply and demand. The orators and outsiders have nothing to
-contribute. They eat up the valuable space for aspiring players. They hog
-discussions about inventions and innovations. They appear in mainstream media
-with microphones. They lobby in the senate. They pump more and more air to
-benefit only themselves. They don’t really care about economic growth.
+In any kind of market, there are different kinds of players. In a free market, specifically, every
+participant is given a chance to make it big. One of most important driving forces in a free market
+is competition as framed and determined by supply and demand. The orators and outsiders have nothing
+to contribute. They eat up the valuable space for aspiring players. They hog discussions about
+inventions and innovations. They appear in mainstream media with microphones. They lobby in the
+senate. They pump more and more air to benefit only themselves. They don’t really care about
+economic growth.
 
 
 <a name="organizations">Organizations</a>
@@ -211,7 +210,7 @@ languages used are the ones that are popular on TIOBE. The engineers are from
 bootcamps. Collectively, this results to inflation of perceived value. It gives
 the impression of the ability to produce, even if there’s none. Economically,
 this is net negative. TAMs are imaginary. It’s a lose-lose situation. When you
-see however, software that is being «developed» by a company, in the
+see however, software that is being _developed_ by a company, in the
 Philippines, expect it to be outsourced from other countries. You know what
 those countries are. You know where the money will flow to.
 
@@ -219,7 +218,7 @@ Software companies don’t strive to provide challenge. They see software as jus
 a means to an end, not an end in itself. Executives follow the latest news and
 trends, closely, and decide their next major technical stack overhaul based on
 what they saw. Most software companies, ironically, do not have what they call
-the «hacker» culture. Hacker in this sense refers to the original meaning in the
+the _hacker_ culture. Hacker in this sense refers to the original meaning in the
 MIT AI Lab—A person who enjoys exploring the details of programmable systems and
 how to stretch their capabilities, as opposed to most users, who prefer to learn
 only the minimum necessary. What is present nowadays are depressed employees
