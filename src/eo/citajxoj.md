@@ -1250,3 +1250,5 @@ tra la jaroj.
 
 - Mi ne plendas pri malbonpafoj ĉar mi ne povas malfari ilin.<br>—Samuel Jackson
 
+
+- Oni ne povas regi ilin, kaj oni ne devus fari. Oni devas igi ilin okazi. Ju pli oni provas regi ĝin des malpli facile direkti ĝin.<br>—Guillaume NÉRY

@@ -1263,3 +1263,6 @@ the years.
 
 
 - I don't hold on to bad shots because you can't take them back.<br>—Samuel Jackson
+
+
+- You can’t control them, and you shouldn’t try to. You have to let it happen. The more you try to control it, the harder it is to manage.<br>—Guillaume Néry
