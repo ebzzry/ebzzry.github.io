@@ -1269,3 +1269,6 @@ the years.
 
 
 - Wages will make you a living; profits will make you a fortune.<br>—Jim Rohn 
+
+
+- Take this dream and not let it die. Take this dream and give it life. Take this dream and breathe into it your own personal spirit until finally it becomes a flame that burns around the whole world.<br>—Jim Rohn 

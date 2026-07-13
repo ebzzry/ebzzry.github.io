@@ -1255,3 +1255,6 @@ tra la jaroj.
 
 
 - Salajroj donas al oni vivtenon; profitoj donas al oni riĉecon.<br>—Jim ROHN 
+
+
+- Prenu ĉi tiun revon kaj ne igu ĝin mortu. Prenu ĉi tiun revon kaj donu vivo al ĝi. Prenu ĉi tiun revon kaj enspiru al ĝi vian propran animon ĝis fine ĝi fariĝos flamon kiu brulas ĉirkaŭ la tuta mondo.<br>—Jim ROHN 
