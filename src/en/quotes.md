@@ -1266,3 +1266,6 @@ the years.
 
 
 - You can’t control them, and you shouldn’t try to. You have to let it happen. The more you try to control it, the harder it is to manage.<br>—Guillaume Néry
+
+
+- Wages will make you a living; profits will make you a fortune.<br>—Jim Rohn 

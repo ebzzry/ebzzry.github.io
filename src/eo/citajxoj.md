@@ -1252,3 +1252,6 @@ tra la jaroj.
 
 
 - Oni ne povas regi ilin, kaj oni ne devus fari. Oni devas igi ilin okazi. Ju pli oni provas regi ĝin des malpli facile direkti ĝin.<br>—Guillaume NÉRY
+
+
+- Salajroj donas al oni vivtenon; profitoj donas al oni riĉecon.<br>—Jim ROHN 
