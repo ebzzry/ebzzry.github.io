@@ -35,7 +35,7 @@ in chronological order.
 
 
 - Unless we will have the boldness and audacity to drive them away, our greatest
-  fears will not leave us. If, however, they are there to stay, then we should
+  fears will not leave us. However, they are here to stay, then we should
   have the strength and courage to tame them.<br>
 
 
