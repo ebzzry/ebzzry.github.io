@@ -538,8 +538,7 @@ tra la jaroj.
 - Oni trovas, ke granda malamiko de komunikado estas la iluzio de ĝi.<br>—William H. WHYTE
 
 
-- Virino kiu scias viron kiu scias kvar lingvojn, valoras kvin homojn.<br>—Doktorino Jeanne Marie
-  CIÑO-MARTÍNEZ
+- Virino kiu scias viron kiu scias kvar lingvojn, valoras kvin homojn.<br>—D-rino Jeanne Marie CIÑO-MARTÍNEZ
 
 
 - Ni devas lerni, en komputiko, por stari sur la ŝultroj de niaj antaŭantoj, anstataŭ iliaj
@@ -1218,13 +1217,13 @@ tra la jaroj.
 - La homo kun granda riĉaĵo kiu amasigas kaj uzas sian riĉecon sen estimo al etikaj normoj; kiu profitas kaj bredas putron; kaj rabas kaj fraŭdas la aliajn, estas la plej malbona malamiko de la propreco.<br>—Theodore ROOSEVELT
 
 
-- Riĉeco ne komencas per mono. Ĝi komencas per la pensmaniero.<br>—Doktorino Kaylee WONDER
+- Riĉeco ne komencas per mono. Ĝi komencas per la pensmaniero.<br>—D-rino Kaylee WONDER
 
 
-- Oni ne devas kompreni ĉion entute.<br>—Doktorino Kaylee WONDER
+- Oni ne devas kompreni ĉion entute.<br>—D-rino Kaylee WONDER
 
 
-- Riĉeco ne estas kreita en la bankkonto, unue. Ĝi estas krei per la menso, unue.<br>—Doktorino Kaylee WONDER
+- Riĉeco ne estas kreita en la bankkonto, unue. Ĝi estas krei per la menso, unue.<br>—D-rino Kaylee WONDER
 
 
 - Se malakuratas liniilo, nekredindus ajna mezuro farita per tiu liniilo.<br>—Cory CHANG
@@ -1258,3 +1257,6 @@ tra la jaroj.
 
 
 - Prenu ĉi tiun revon kaj ne igu ĝin mortu. Prenu ĉi tiun revon kaj donu vivo al ĝi. Prenu ĉi tiun revon kaj enspiru al ĝi vian propran animon ĝis fine ĝi fariĝos flamon kiu brulas ĉirkaŭ la tuta mondo.<br>—Jim ROHN 
+
+
+- Oni malkovras ion dum ni provas diversajn aferojn.<br>—D-rino Mikey GIRON

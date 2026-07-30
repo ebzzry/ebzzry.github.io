@@ -1272,3 +1272,6 @@ the years.
 
 
 - Take this dream and not let it die. Take this dream and give it life. Take this dream and breathe into it your own personal spirit until finally it becomes a flame that burns around the whole world.<br>—Jim Rohn 
+
+
+- We discover something as we try different things.<br>—Dr. Mikey Giron
