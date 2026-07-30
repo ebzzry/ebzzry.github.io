@@ -1260,3 +1260,6 @@ tra la jaroj.
 
 
 - Oni malkovras ion dum ni provas diversajn aferojn.<br>—D-rino Mikey GIRON
+
+
+- La malo de deprimo ne estas feliĉo sed fakte esprimo.<br>—D-rino Mikey GIRON

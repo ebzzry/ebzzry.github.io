@@ -1275,3 +1275,6 @@ the years.
 
 
 - We discover something as we try different things.<br>—Dr. Mikey Giron
+
+
+- The opposite of depression is not happiness, but actually expression.<br>—Dr. Mikey Giron
