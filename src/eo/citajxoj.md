@@ -1263,3 +1263,6 @@ tra la jaroj.
 
 
 - La malo de deprimo ne estas feliĉo sed fakte esprimo.<br>—D-rino Mikey GIRON
+
+
+- La maltrankvileco viglas en evito.<br>—D-rino Mikey GIRON

@@ -1278,3 +1278,6 @@ the years.
 
 
 - The opposite of depression is not happiness, but actually expression.<br>—Dr. Mikey Giron
+
+
+- Anxiety thrives in avoidance.<br>—Dr. Mikey Giron
