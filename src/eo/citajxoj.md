@@ -1266,3 +1266,6 @@ tra la jaroj.
 
 
 - La maltrankvileco viglas en evito.<br>—D-rino Mikey GIRON
+
+
+- Plonĝu profunde je la menso, en la maron de dia belo. Oni malkovros novan brilanton, momento post momento.<br>—joga epigramo

@@ -1281,3 +1281,6 @@ the years.
 
 
 - Anxiety thrives in avoidance.<br>—Dr. Mikey Giron
+
+
+- Dive deep oh mind, into the ocean of divine beauty. You will discover a new gem, instant after instant.<br>—yogic epigram
