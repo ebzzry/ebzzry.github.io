@@ -1,7 +1,7 @@
 ---
 title: Musings of an Optimist
 description: A microsite about computing, human predilections, and random krakaboom.
-keywords: rommel martinez, rommel martínez, ebzzry, ebzzry.com
+keywords: rommel martinez, ebzzry, ebzzry.com
 image: https://ebzzry.com/images/site/fairways-and-bluewater-2000x1125.jpg
 ---
 Musings of an Optimist
