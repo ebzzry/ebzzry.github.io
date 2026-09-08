@@ -14,10 +14,33 @@ engineering; systems administration; and programming language theory.
 
 His interests lie with synthetic consciousness, reasoning, knowledge, information, minds, and
 computationalism. He is the Chief Executive Officer of
-[VEDA Technologies, Inc. (VTI)](https://veda-tech.com). He is also a polyglot, strongman, golfer,
-practical shooter, freediver, and photographer.
+[VEDA Technologies, Inc. (VTI)](https://veda-tech.com). 
 
-He lives with his wife and son in the Philippines. You can connect with him via [CB](https://codeberg.org/vti), [LI](https://www.linkedin.com/in/ebzzry/), [YT](https://youtube.com/@ebzzry), [X](https://x.com/ebzzry), [FB](https://fb.com/ebzzry), [DA](https://deviantart.com/ebzzry), [RD](https://reddit.com/u/ebzzry), [TG](https://t.me/ebzzry), and [EM](mailto:ebzzry@icloud.com).
+Here's a list of his interests:
 
-In parts where I say «Unix», I mean UNIX, Linux, and BSD. In parts where I say «Linux», I mean GNU/Linux, [mostly](https://alpinelinux.org/).
-</div>
+- 🪴 Polymathy
+- 🧑‍💻️ Software
+- 🎤️ Public speaking
+- ✍️ Authoring
+- 💬 Multilingualism
+- 🎨 Art
+- 🏋️ Strongman
+- 🧘️ Yoga
+- 🏓 Table tennis
+- 🏌️‍♂️ Golf
+- 🔫 Practical shooting
+- 🎮 Gaming
+- 🐚 Freediving
+- 📸 Photography
+
+He lives with his wife and son in the Philippines. You can connect with him via the following:
+
+- [Codeberg](https://codeberg.org/vti)
+- [LinkedIn](https://www.linkedin.com/in/ebzzry/)
+- [YouTube](https://youtube.com/@ebzzry)
+- [Twitter](https://x.com/ebzzry)
+- [Facebook](https://fb.com/ebzzry)
+- [DeviantArt](https://deviantart.com/ebzzry)
+- [Reddit](https://reddit.com/u/ebzzry)
+- [Telegram](https://t.me/ebzzry)
+- [Email](mailto:ebzzry@icloud.com)
