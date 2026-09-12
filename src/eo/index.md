@@ -2,12 +2,12 @@
 title: Pensoj de Optimisto
 description: Eta retejo pri informadiko, hominklinoj, kaj hazardaĵoj.
 keywords: rommel martinez, ebzzry, ebzzry.com
-image: https://ebzzry.com/images/site/fairways-and-bluewater-2000x1125.jpg
+image: https://ebzzry.com/images/site/mrt-2000x1125.jpg
 ---
 Pensoj de Optimisto
 ===================
 
-<img src="/images/site/fairways-and-bluewater-2000x1125.jpg" style="" class="banner"/>
+<img src="/images/site/mrt-2000x1125.jpg" style="" class="banner"/>
 
 <div class="text-right">Eta retejo pri informadiko, hominklinaĵoj, kaj hazardaĵoj. La enskriboj estas ordigitaj laŭ inverskronologiordo.</div>
 
