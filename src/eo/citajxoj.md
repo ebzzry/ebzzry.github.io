@@ -13,6 +13,9 @@ Citaĵoj
 tra la jaroj.
 
 
+- Malsaĝulo miras pri nekutimaj aferoj. Ŝagulo miras pri la kutimaj aferoj.<br>—Konfuceo
+
+
 - La aferoj kiujn oni volas malakcepti estas pli gravaj ol la aferoj kiujn oni volas
   akcepti.<br>—Erik NAGGUM
 
@@ -349,9 +352,6 @@ tra la jaroj.
 
 
 - Se ne mi, kiu? Se ne nun, kiam?<br>—Mikhail GORBACHEV
-
-
-- Malsaĝulo miras pri nekutimaj aferoj. Ŝagulo miras pri la kutimaj aferoj.<br>—Konfuceo
 
 
 - Oni povas eltrovi tiun, kiun plej timas siajn malamikojn, per rimarki la manierojn kiuj ili uzas

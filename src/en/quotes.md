@@ -14,6 +14,9 @@ This page contains a list of curated quotations, aphorisms, and proverbs that I 
 the years.
 
 
+- A common man marvels at uncommon things; a wise man marvels at the commonplace.<br>—Confucius
+
+
 - The aspects you are willing to ignore are more important than the aspects you are willing to
   accept.<br>—Erik Naggum
 
@@ -354,9 +357,6 @@ the years.
 
 
 - If not me, who? And if not now, when?<br>—Mikhail Gorbachev
-
-
-- A common man marvels at uncommon things; a wise man marvels at the commonplace.<br>—Confucius
 
 
 - You can discover what your enemy fears most by observing the means he uses to frighten

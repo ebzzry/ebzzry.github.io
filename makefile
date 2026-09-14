@@ -20,4 +20,7 @@ rebuild:
 	$(MAKE)
 
 serve:
+	python3 -m http.server 49153
+
+serve2:
 	screen -dmS ebzzry.com python3 -m http.server 49153
