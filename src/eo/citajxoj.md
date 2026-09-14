@@ -1269,3 +1269,6 @@ tra la jaroj.
 
 
 - Plonĝu profunde je la menso, en la maron de dia belo. Oni malkovros novan brilanton, momento post momento.<br>—joga epigramo
+
+
+- La kuraĝo estas la timo kiu preĝis kaj decidis movi antaŭen iamaniere.<br>—Joyce MEYER
