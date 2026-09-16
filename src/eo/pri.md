@@ -9,28 +9,16 @@ Pri
 
 <div>
 <img src="/images/site/big-band.svg" style="float: right; width: 50%; margin: 0px 0px 0px 10px">
-Rommel Martinez estas esploristo kun tri jardekoj da sperto en programado; sistemadministrado; kaj programlingva teorio kaj desegnado.
+Rommel Martinez estas esploristo kun tri jardekoj da sperto en programado; sistemadministrado; kaj
+programlingva teorio kaj desegnado.
 
-Interesas al li la sinteza konscio, la rezonado, la scio, la informo, la mensoj, kaj komputademismo. Li estas la ĉefa afergvida oficisto de [VEDA Technologies, Inc. (VTI)](https://veda-tech.com).
+Interesas al li la sinteza konscio, la rezonado, la scio, la informo, la mensoj, kaj komputademismo.
+Li estas la ĉefa afergvida oficisto de [VEDA Technologies, Inc. (VTI)](https://veda-tech.com).
 
 Li ankaŭ estas plurlingvulo, fortulo, golfisto, sportpafisto, apnea subakva naĝisto, kaj fotisto.
 
-Jen liaj egaj interesoj:
-
-- 🪴 Plurscio
-- 🧑 ‍️Programaro
-- 🎤️ Publikparolado
-- ✍️ Skribado
-- 💬 Plurlingvo
-- 🎨 Arto
-- 🏋️ Forto
-- 🧘️ Jogo
-- 🏌️‍♂️ Golfado
-- 🏓 Tabloteniso
-- 🔫 Sportpafado
-- 🎮 Videoludado
-- 🐚 Subakva apnea naĝado
-- 📸 Fotado
+Jen liaj egaj interesoj: plurscio, programaro, publikparolado, skribado, plurlingvo, arto, forto,
+jogo, golfado, tabloteniso, sportpafado, videoludado, subakva apnea naĝado, kaj fotado.
 
 Li loĝas kun sia edzino kaj filo en Filipinoj. Oni povas konekti al li per la jeno:
 

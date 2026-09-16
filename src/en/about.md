@@ -16,22 +16,8 @@ His interests lie with synthetic consciousness, reasoning, knowledge, informatio
 computationalism. He is the Chief Executive Officer of
 [VEDA Technologies, Inc. (VTI)](https://veda-tech.com). 
 
-Here's a list of his interests:
-
-- 🪴 Polymathy
-- 🧑‍💻️ Software
-- 🎤️ Public speaking
-- ✍️ Authoring
-- 💬 Multilingualism
-- 🎨 Art
-- 🏋️ Strongman
-- 🧘️ Yoga
-- 🏓 Table tennis
-- 🏌️‍♂️ Golf
-- 🔫 Practical shooting
-- 🎮 Gaming
-- 🐚 Freediving
-- 📸 Photography
+Here's a list of his interests: polymathy, software, public speaking, authoring, multilingualism,
+art, strongman, yoga, table tennis, golf, practical shooting, gaming, freediving, and photography. 
 
 He lives with his wife and son in the Philippines. You can connect with him via the following:
 
