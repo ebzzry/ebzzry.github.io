@@ -20,7 +20,7 @@ Li ankaŭ estas plurlingvulo, fortulo, golfisto, sportpafisto, apnea subakva na�
 Jen liaj egaj interesoj: plurscio, programaro, publikparolado, skribado, plurlingvo, arto, forto,
 jogo, golfado, tabloteniso, sportpafado, videoludado, subakva apnea naĝado, kaj fotado.
 
-Li loĝas kun sia edzino kaj filo en Filipinoj. Oni povas konekti al li per la jeno: [Codeberg](https://codeberg.org/vti/), [LinkedIn](https://www.linkedin.com/in/ebzzry/), [Jutubo](https://youtube.com/@ebzzry), [Tvitero](https://x.com/ebzzry), [Fejsbuko](https://fb.com/ebzzry), [DeviantArt](https://deviantart.com/ebzzry), [Redito](https://reddit.com/u/ebzzry), [Telegramo](https://t.me/ebzzry), and [Retpoŝto](mailto:ebzzry@icloud.com). 
+Li loĝas kun sia edzino kaj filo en Filipinoj. Oni povas konekti al li per  [Codeberg](https://codeberg.org/vti/), [LinkedIn](https://www.linkedin.com/in/ebzzry/), [Jutubo](https://youtube.com/@ebzzry), [Tvitero](https://x.com/ebzzry), [Fejsbuko](https://fb.com/ebzzry), [DeviantArt](https://deviantart.com/ebzzry), [Redito](https://reddit.com/u/ebzzry), [Telegramo](https://t.me/ebzzry), and [Retpoŝto](mailto:ebzzry@icloud.com). 
 
 En partoj ke mi diras je «Unikso», mi celas je UNIX, Linukson, kaj je BSD. En
 partoj ke mi diras je «Linukso», mi celas GNU/Linukson, [plejparte](https://alpinelinux.org/).

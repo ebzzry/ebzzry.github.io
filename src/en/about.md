@@ -19,4 +19,4 @@ computationalism. He is the Chief Executive Officer of
 Here's a list of his interests: polymathy, software, public speaking, authoring, multilingualism,
 art, strongman, yoga, table tennis, golf, practical shooting, gaming, freediving, and photography. 
 
-He lives with his wife and son in the Philippines. You can connect with him via the following: [Codeberg](https://codeberg.org/vti), [LinkedIn](https://www.linkedin.com/in/ebzzry/), [YouTube](https://youtube.com/@ebzzry), [Twitter](https://x.com/ebzzry), [Facebook](https://fb.com/ebzzry), [DeviantArt](https://deviantart.com/ebzzry), [Reddit](https://reddit.com/u/ebzzry), [Telegram](https://t.me/ebzzry), and [Email](mailto:ebzzry@icloud.com).
+He lives with his wife and son in the Philippines. You can connect with him via [Codeberg](https://codeberg.org/vti), [LinkedIn](https://www.linkedin.com/in/ebzzry/), [YouTube](https://youtube.com/@ebzzry), [Twitter](https://x.com/ebzzry), [Facebook](https://fb.com/ebzzry), [DeviantArt](https://deviantart.com/ebzzry), [Reddit](https://reddit.com/u/ebzzry), [Telegram](https://t.me/ebzzry), and [Email](mailto:ebzzry@icloud.com).
