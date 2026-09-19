@@ -217,6 +217,11 @@ program that will allow you to progressively lift weights, until you reach your
 goal. Having somebody lift the weights for you will never make you stronger. No
 amount of training by others, for you, will increase your muscular strength.
 
+Can we do something about it? Absolutely. Teachers are the foundations of a functioning and literate
+society. They are the pillars on which the next generations are built. No amount of automation will
+be able to replace the human touch that dedicated and passionate teachers have. In a profession that
+means a lot of sacrifice, they deserve every bit of support and respect.
+
 When you have a culture that embraces beauty pageants; noontime shows; singing
 and dancing competitions; more than science, mathematics, language, and
 philosophy; you have a system that is bound to fail. When you have a culture

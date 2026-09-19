@@ -213,6 +213,11 @@ halteregojn, ĝis vi atingas viajn celojn. Igi iun levi la halteregon por vi
 neniam igos vin pli forta. Ne ekzistas kvanto de trejnado de alia, por vi,
 plialtigos vian muskolan forton.
 
+Ĉu ni povas fari ion pri tio? Absolute. Instruistoj estas la fondaĵoj de funkcia kaj legoscia socio.
+Ili estas la konoloj en kiuj la sekvaj generacioj estas konstruitaj. Ne estas kvanto de aŭtomatigo
+kiu povas anstataŭi la homtuŝon kiuj dediĉataj kaj pasiaj instruistoj havas. En profesio kiu bezonas
+multe da ofero, ili meritas ĉiom da kvanto de subteno kaj estimo.
+
 Kiam oni havas kulturon kiu brakumas belecajn konkursojn;
 meztagtelevidprogramojn; kantadajn kaj dancadajn konkursojn; pli ol sciencon,
 matematikon, lingvojn, kaj filozofon, oni havas sistemon kiu estas kondamnita
