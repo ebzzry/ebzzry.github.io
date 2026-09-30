@@ -1,10 +1,10 @@
 ---
-title: How I Make Projects
+title: How I Make Lisp Projects
 keywords: lisp, projects, common lisp, linux, macos
 image: https://ebzzry.com/images/site/gwen-weustink-I3C1sSXj1i8-unsplash-2000x1125.jpg
 ---
-How I Make Projects
-===================
+How I Make Lisp Projects
+========================
 
 <div class="center">2025-08-04</div>
 
@@ -123,7 +123,7 @@ It should say something like this:
 
 ### <a name="marie">Marie</a>
 
-[Marie](https://github.com/vedainc/marie), on the other hand, is the library
+[Marie](https://codeberg.org/vti/marie), on the other hand, is the library
 that does the shenanigans of creating the project. We also need
 [Clingon](https://github.com/dnaeon/clingon) to help us with command line
 parsing. To fetch them, run the following:
@@ -131,7 +131,7 @@ parsing. To fetch them, run the following:
 ```sh
 mkdir ~/common-lisp
 cd ~/common-lisp
-git clone https://github.com/vedainc/marie
+git clone https://codeberg.org/vti/marie
 sbcl --noinform --eval '(ql:quickload :clingon)' --quit
 ```
 
@@ -220,5 +220,5 @@ COMMANDS:
 
 Marie allows me to quickly prototype an idea and have it running soon.  This
 tool allows me to easily make executables that I can toss around. I used these
-tools to build [Vix](https://github.com/vedainc/vix), a (very) thin wrapper
+tools to build [Vix](https://codeberg.org/vti/vix), a (very) thin wrapper
 around the Nix ecosystem.

@@ -123,7 +123,7 @@ sbcl --noinform --eval '(princ (ql:client-version))' --quit
 
 ### <a name="marie">Marie</a>
 
-[Marie](https://github.com/vedainc/marie), aliflake, estas la biblioteko kiu
+[Marie](https://codeberg.org/vti/marie), aliflake, estas la biblioteko kiu
 faras la artifikojn de krei la projekton. Ni ankaŭ bezonas
 [Clingon](https://github.com/dnaeon/clingon) por helpi nin pri komandlinia
 analizado. Por preni ilin, rulu la jenan:
@@ -131,7 +131,7 @@ analizado. Por preni ilin, rulu la jenan:
 ```sh
 mkdir ~/common-lisp
 cd ~/common-lisp
-git clone https://github.com/vedainc/marie
+git clone https://codeberg.org/vti/marie
 sbcl --noinform --eval '(ql:quickload :clingon)' --quit
 ```
 
@@ -219,5 +219,5 @@ COMMANDS:
 
 Marie ebligas min rapide krei prototipan kodon el ideo kaj igi ĝin ruleblan
 frue. Ĉi tiu ilo ebligas mi krei plenumeblajn dosierojn kiujn mi povas ĵeti
-ĉien. Mi uzas ĉi tiujn ilojn por krei [Vix](https://github.com/vedainc/vix),
+ĉien. Mi uzas ĉi tiujn ilojn por krei [Vix](https://codeberg.org/vti/vix),
 (tre) maldika kovrilo ĉirkaŭ la Nix-ekosistemo.
