@@ -1544,7 +1544,7 @@ Uzi la surmetan sistemon por krei novajn pakojn estas ideala se oni ne volas don
 Nixpkgs, oni volas privatigi ĝin, aŭ oni volas aldoni novan infrastukturon sen trakti la ekstran
 komplekson.
 
-Ni supozu, ke ekzistas simpla ŝela programo _moo_ kiu loĝas ĉe <https://github.com/ebzzry/moo>, kaj
+Ni supozu, ke ekzistas simpla ŝela programo _moo_ kiu loĝas ĉe <https://codeberg.org/vti/moo>, kaj
 oni deziras paki ĝin. Por fari tion, oni skribos du aĵojn:
 
 1. la supran surmetan dosieron en `~/.config/nixpkgs/overlays/`; kaj
@@ -1592,7 +1592,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "Random helper";
-    homepage = https://github.com/ebzzry/moo;
+    homepage = https://codeberg.org/vti/moo;
     license = licenses.cc0;
     maintainers = [ maintainers.ebzzry ];
     platforms = platforms.all;

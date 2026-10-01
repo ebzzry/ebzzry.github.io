@@ -62,7 +62,7 @@ from GitHub:
 
     $ git clone https://github.com/greghendershott/frog.git
     $ git clone https://github.com/jbclements/sxml.git
-    $ git clone https://github.com/ebzzry/livefrog.git
+    $ git clone https://codeberg.org/vti/livefrog.git
     $ raco pkg install frog/ sxml/ livefrog/
 
 The trailing slashes are important, to tell `raco` that you are installing from local
@@ -182,4 +182,4 @@ csh-like shells—Csh, Tcsh:
 Replace `.bashrc` and `.cshrc`, with the appropriate init file for your shell.
 
 The sources, along with additional information, are
-located [here](https://github.com/ebzzry/livefrog). If you know Racket, fork it!
+located [here](https://codeberg.org/vti/livefrog). If you know Racket, fork it!

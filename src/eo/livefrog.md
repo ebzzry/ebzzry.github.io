@@ -63,7 +63,7 @@ GitHub:
 
     $ git clone https://github.com/greghendershott/frog.git
     $ git clone https://github.com/jbclements/sxml.git
-    $ git clone https://github.com/ebzzry/livefrog.git
+    $ git clone https://codeberg.org/vti/livefrog.git
     $ raco pkg install frog/ sxml/ livefrog/
 
 La vostaj suprenstrekoj gravas, diri al `raco`, ke oni instalos el lokaj dosierujoj. La sistemo
@@ -183,5 +183,5 @@ Por csh- kaj csh-ecaj ŝeloj—csh, Tcsh, respektive:
 
     $ echo 'alias livefrog raco livefrog' >> ~/.cshrc
 
-La fontoj troveblas, kun la aldonaj informoj, [ĉi tie](https://github.com/ebzzry/livefrog). Se vi konas
+La fontoj troveblas, kun la aldonaj informoj, [ĉi tie](https://codeberg.org/vti/livefrog). Se vi konas
 Rakidon, forku ĝin!

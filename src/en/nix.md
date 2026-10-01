@@ -1557,7 +1557,7 @@ of Nixpkgs, you want to make it private, or you want to add a new infrastructure
 the extra complexity.
 
 Let’s say that there exists a simple shell program called _moo_ which lives in
-<https://github.com/ebzzry/moo>, and you want to package it. To do that, you’ll be writing two
+<https://codeberg.org/vti/moo>, and you want to package it. To do that, you’ll be writing two
 things:
 
 1. the top-level overlay file in `~/.config/nixpkgs/overlays/`; and
@@ -1604,7 +1604,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "Random helper";
-    homepage = https://github.com/ebzzry/moo;
+    homepage = https://codeberg.org/vti/moo;
     license = licenses.cc0;
     maintainers = [ maintainers.ebzzry ];
     platforms = platforms.all;

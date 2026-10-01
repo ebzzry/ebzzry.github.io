@@ -99,4 +99,4 @@ Por vidi pli da informo, rulu:
 
 Kelkaj dosieroj kaj regulesprimoj estas enkonstruitaj kiel eksigoj. Eble ili senchavas aŭ ne. Se oni
 opinias, ke ili devas esti ŝanĝitaj, estu libere por sendi tirpeton. La fontoj haveblas [ĉi
-tie](https://github.com/ebzzry/usync).
+tie](https://codeberg.org/vti/usync).

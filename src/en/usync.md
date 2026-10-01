@@ -100,6 +100,4 @@ For more usage information, run:
 
 Some files and regexes are baked in as exclusions. They make or make not make sense. If you think
 they should be changed, feel free to send a pull request. The sources are
-available [here](https://github.com/ebzzry/usync).
-
-_Thanks to [Raymund Martinez](https://zhaqenl.github.io)  for the corrections._
+available [here](https://codeberg.org/vti/usync).

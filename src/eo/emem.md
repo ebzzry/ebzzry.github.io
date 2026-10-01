@@ -34,7 +34,7 @@ ilin per aliaj aparatoj. Jam ekzistas iloj por ja fari tion. Mi provis ilin, tam
 ŝanĝi la eligon ofte nur por igi ilin akcepteblaj. Neniuj el ili konformiĝis al mia kriterio: facila
 por munti, facila por uzi, kaj realigas decan eligon.
 
-Mi skribis [emem](https://github.com/ebzzry/emem) kiel respondo al tiuj bezonoj. Emem estas
+Mi skribis [emem](https://codeberg.org/vti/emem) kiel respondo al tiuj bezonoj. Emem estas
 eta ilo kiu ricevas markdaŭnajn dosierojn aŭ el la ĉefenigujo aŭ diska dosiero, tiam liveras HTML-eligon
 kiu estas sufiĉe deca, almenaŭ por kutima rigardado.
 
@@ -55,7 +55,7 @@ Se oni ne povas instali Nix, tamen ĝavo estas instalita, oni povas anstataŭ kr
 
 ```sh
 $ mkdir ~/bin
-$ curl -sSLo ~/bin/emem.jar https://github.com/ebzzry/emem/releases/download/v0.2.50/emem.jar
+$ curl -sSLo ~/bin/emem.jar https://codeberg.org/vti/emem/releases/download/v0.2.50/emem.jar
 $ cat > ~/bin/emem << EOF
 #!/usr/bin/env bash
 java -jar \$HOME/bin/emem.jar \$@
@@ -221,6 +221,6 @@ Mi feliĉas pri la eligo kiun emem liveras. emem estas sufiĉe rapida kaj mi pov
 Mi eĉ uzas ĝin por miaj propraj kaj postenaj dokumentadoj. Mi ankaŭ uzas ĝin per emakso por krei
 TTT-versiojn de markdaŭnaj bufroj per
 [shell-command](https://www.gnu.org/software/emacs/manual/html_node/elisp/Synchronous-Processes.html)
-kaj [emacs-w3m](https://www.emacswiki.org/emacs/emacs-w3m). Por vidi emem en efektiva uzado, iru [ĉi tien](https://github.com/ebzzry/ebzzry.github.io/blob/main/makefile).
+kaj [emacs-w3m](https://www.emacswiki.org/emacs/emacs-w3m). Por vidi emem en efektiva uzado, iru [ĉi tien](https://codeberg.org/vti/ebzzry.github.io/blob/main/makefile).
 
-Se oni konas iom da Kloĵuro, forku [ĝin](https://github.com/ebzzry/emem/) kaj kodumu!
+Se oni konas iom da Kloĵuro, forku [ĝin](https://codeberg.org/vti/emem/) kaj kodumu!

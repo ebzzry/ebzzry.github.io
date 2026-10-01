@@ -34,7 +34,7 @@ other devices. There are tools that exist that does just that. I tried them, the
 frequently tweaking the output just to make it look acceptable. None of them fitted my criteria:
 easy to build, easy to use, and produces decent output.
 
-I wrote [emem](https://github.com/ebzzry/emem) as a response to those needs. Emem is a small utility
+I wrote [emem](https://codeberg.org/vti/emem) as a response to those needs. Emem is a small utility
 that takes in Markdown input either from stdin or disk file, then it produces a HTML output that is
 decent enough, at least, for regular viewing.
 
@@ -55,7 +55,7 @@ If you’re unable to install Nix and you have Java installed, you may instead c
 
 ```sh
 $ mkdir ~/bin
-$ curl -sSLo ~/bin/emem.jar https://github.com/ebzzry/emem/releases/download/v0.2.48/emem.jar
+$ curl -sSLo ~/bin/emem.jar https://codeberg.org/vti/emem/releases/download/v0.2.48/emem.jar
 $ cat > ~/bin/emem << EOF
 #!/usr/bin/env bash
 java -jar \$HOME/bin/emem.jar \$@
@@ -221,6 +221,6 @@ I even use it for my personal and work documentation. I also use it with Emacs t
 previews of Markdown buffers using
 [shell-command](https://www.gnu.org/software/emacs/manual/html_node/elisp/Synchronous-Processes.html)
 and [emacs-w3m](https://www.emacswiki.org/emacs/emacs-w3m). To see emem in actual usage, go
-[here](https://github.com/ebzzry/ebzzry.github.io/blob/main/makefile).
+[here](https://codeberg.org/vti/ebzzry.github.io/blob/main/makefile).
 
-If you know a bit of Clojure, [fork it](https://github.com/ebzzry/emem/) and hack away!
+If you know a bit of Clojure, [fork it](https://codeberg.org/vti/emem/) and hack away!

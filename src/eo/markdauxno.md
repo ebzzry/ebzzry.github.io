@@ -250,7 +250,7 @@ GitLab, en kiu, estas pli oportune por permesi la grafikfasadon por faldi la tek
 <a name="ekstraj">Ekstraj</a>
 -----------------------------
 
-Uzante emakson, mi uzas [ĉi tiujn](https://gist.github.com/ebzzry/1206a1922805a872713bdaf2e8c419f5)
+Uzante emakson, mi uzas [ĉi tiujn](https://gist.codeberg.org/vti/1206a1922805a872713bdaf2e8c419f5)
 komandojn, binditaj al <kbd>M-g =</kbd>, <kbd>M-g -</kbd>, kaj <kbd>M-g `</kbd>, respektive, por
 plifaciligi la enmetadojn de la apartigiloj. Ekzemple, se oni havas la jenan tekston, en kiu, `^`
 estas la punkto:
