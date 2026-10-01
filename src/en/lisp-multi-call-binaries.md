@@ -429,4 +429,4 @@ The person responsible for making scripting in Lisp possible and acceptable, is
 [this blog entry](http://fare.livejournal.com/184127.html) that motivated me to
 see the viability of Lisp as a scripting language.
 
-_Thanks to [Raymund Martinez](https://zhaqenl.github.io) and [Marco Wahl](https://marcowahl.github.io/busi/) for the corrections._
+_Thanks to [Raymund Martinez](https://zhaqenl.github.io) and [Marco Wahl](https://github.com/marcowahl) for the corrections._

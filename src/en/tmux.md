@@ -519,7 +519,7 @@ Tmux is one of the tools that one must be using when working with the terminal
 and command line. It enables workflow that would otherwise be difficult to do
 with other multiplexers, or very difficult to do with regular non-managed
 sessions. For the rest of the definitions, visit the repo
-[here](https://github.com/vedatechnologiesinc/dotfiles/tree/main/tmux/.tmux.conf).
+[here](https://codeberg.org/vti/dotfiles/src/branch/main/tmux/.tmux.conf).
 
 If you use git, you may also like the article about how I use it. It can be
 found [here](/en/git/).

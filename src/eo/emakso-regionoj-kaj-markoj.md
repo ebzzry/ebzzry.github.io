@@ -161,4 +161,4 @@ La klavkombinoj por la supraj komandoj, estas la jenaj:
 -------------------------------------
 
 Mi esperas, ke oni povos esti kapabla trovi uzojn el kelke da aferoj ĉi-supre. La ceteraj agordoj
-troveblas [ĉi tie](https://github.com/vedatechnologiesinc/dotfiles/tree/main/emacs).
+troveblas [ĉi tie](https://codeberg.org/vti/dotfiles/src/branch/main/emacs).

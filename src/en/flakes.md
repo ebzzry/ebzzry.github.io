@@ -565,7 +565,7 @@ more succinct. I found it easier to manage my systems with a straightforward
 approach. 
 
 All the files that I used in this article can be found
-[here](https://github.com/vedatechnologiesinc/dotfiles/tree/main/nix).
+[here](https://codeberg.org/vti/dotfiles/src/branch/main/nix).
 
 It may change in the future, but flakes now, is the best way to manage
 packages and configurations. Give it a try!

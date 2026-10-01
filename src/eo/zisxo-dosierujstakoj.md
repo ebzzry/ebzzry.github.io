@@ -133,4 +133,4 @@ Por restaŭri la konservitan dosierujstakon en la aktuala seanco aŭ al nova apa
 Dosierujstakojn mi uzas kiel maniero por la dosieroj kiujn mi interagas konservi por ke estos pli
 facile por ilin restaŭru al antaŭ funkcia stato. Ĉi tiujn du helpilojn havante, la laboron ĉe la
 komandlinio plifaciligas. Por la restantajn difinojn iru
-[ĉi tien](https://github.com/vedatechnologiesinc/dotfiles/tree/main/zsh).
+[ĉi tien](https://codeberg.org/vti/dotfiles/src/branch/main/zsh).

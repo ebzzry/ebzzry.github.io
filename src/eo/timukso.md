@@ -526,7 +526,7 @@ Timukso estas unu el la iloj, kiun oni devas havi laborante ĉe la
 terminalsimulilo kaj komandlinio.  Laborfluon kio estas aliokaze malfacila per
 aliaj kunigiloj, aŭ tre malfacila por fari per kutimaj neadministritaj seancoj
 ĝi ebligas. Por la restantaj difinoj iru [ĉi
-tien](https://github.com/vedatechnologiesinc/dotfiles/tree/main/tmux/.tmux.conf).
+tien](https://codeberg.org/vti/dotfiles/src/branch/main/tmux/.tmux.conf).
 
 Se giton vi uzas, la artikolo pri kiel ĝi mi uzas, eble ankaŭ plaĉas al vi. Ĝi
 troviĝas [ĉi tie](/eo/gito/).
