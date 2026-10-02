@@ -1281,3 +1281,6 @@ the years.
 
 
 - Dive deep oh mind, into the ocean of divine beauty. You will discover a new gem, instant after instant.<br>—yogic epigram
+
+
+- A quarter of all human suffering is toothache.<br>—Thomas De Quincey, Confessions of an English Opium Eater

@@ -1272,3 +1272,6 @@ tra la jaroj.
 
 
 - La kuraĝo estas la timo kiu preĝis kaj decidis movi antaŭen iamaniere.<br>—Joyce MEYER
+
+
+- Kvarono da homsufero estas dentdoloro.<br>—Thomas De QUINCEY, Konfesoj de Angla Opia Manĝanto
